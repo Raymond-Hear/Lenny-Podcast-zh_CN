@@ -1,0 +1,731 @@
+{
+ "id": "Jeanne Grosser",
+ "name": "Jeanne Grosser",
+ "category": "市场营销",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Jeanne+Grosser",
+ "bio": {
+  "en": "Jeanne Grosser is the COO of Vercel, where she oversees marketing, sales, customer success, revenue operations, and field engineering, and she previously built Stripe's earliest sales team from the ground up as its Chief Product Officer.",
+  "zh": "Jeanne Grosser 是 Vercel 的首席运营官（COO），负责市场营销、销售、客户成功、营收运营和现场工程；此前她曾在 Stripe 担任首席产品官，从零搭建起 Stripe 最早的销售团队。"
+ },
+ "summary": {
+  "en": "Jeanne reframes go-to-market as a product problem, arguing that with AI intensifying competition, the ability to actually bring a product to market now matters more than ever. She explains that most enterprise buying is driven by avoiding pain and reducing risk rather than chasing upside, and that the buying experience itself is becoming a key differentiator between otherwise similar products. A standout idea is the 'go-to-market engineer'—a role on her team that lets them operate roughly ten times faster—and her litmus test that a great salesperson should be nearly indistinguishable from a product manager to engineers. The episode is a deep, tactical primer on segmentation, GTM process, tooling, and her hot takes on PLG, sales compensation, and sales hiring.",
+  "zh": "Jeanne 把“走向市场（go-to-market）”重新定义成一个产品问题，她认为在 AI 加剧竞争的当下，真正把产品推向市场的能力比以往任何时候都更重要。她解释说，企业采购大多是为了规避痛苦、降低风险，而不是为了追逐上行空间，而且当产品本身差异不大时，购买体验本身正在成为关键差异化因素。一个特别亮眼的想法是“走向市场工程师”（go-to-market engineer）这个角色——它让她的团队运转速度快了大约十倍——以及她那条“黄金标准”：优秀的销售在工程师面前应该几乎 indistinguishable（难以分辨）于产品经理。整期是对市场细分、GTM 流程、工具链的深入实战讲解，也包含了她对 PLG、销售薪酬和销售招聘的犀利观点。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "I've been getting so many asks for go-to-market help.",
+   "zh": "我收到了很多关于进入市场的帮助的请求。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "With AI, it's just intensified because you have 10 players pursuing the same market opportunity and so your ability to actually bring the product to market to differentiate yourself from the competition has become more strategically important than it was previously.",
+   "zh": "有了人工智能，这种情况就会加剧，因为有 10 个参与者在追求相同的市场机会，因此你将产品实际推向市场以在竞争中脱颖而出的能力变得比以前更加重要。",
+   "ts": "00:00:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I had Jenna Abel on the podcast recently, one of her tips is you don't want to be focusing on here's the pain and problem we're solving and instead focus on here's how you will be better than your competitors.",
+   "zh": "我最近在播客上邀请了珍娜·阿贝尔（Jenna Abel），她的建议之一是，你不想专注于我们正在解决的痛苦和问题，而是专注于如何比你的竞争对手做得更好。",
+   "ts": "00:00:18"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "80% of customers buy to avoid pain or reduce risk as opposed to increased upside, which is a good thing for startup founders to understand. We all love to talk about the art of the possible, everything we're going to enable in the future, but that's often really a sale that's going to resonate with another founder. For everybody else, particularly enterprises. You're avoiding the risk of not making your revenue target next quarter.",
+   "zh": "80% 的客户购买产品是为了避免痛苦或降低风险，而不是为了增加收益，这一点对于初创公司创始人来说是一件好事。我们都喜欢谈论可能性的艺术，以及我们未来将实现的一切，但这通常是一次真正能引起另一位创始人共鸣的销售。对于其他所有人，尤其是企业。您可以避免无法实现下季度收入目标的风险。",
+   "ts": "00:00:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've heard a lot about how you think about go-to-market as a product.",
+   "zh": "我听过很多关于您对产品上市的看法。",
+   "ts": "00:00:52"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "We buy a lot of things because of how we feel about them. The experience that you have of being sold to will increasingly actually differentiate a company and drive buying decisions if products are only different at the merchant. And so then you really want to create a customer buying journey that feels like very unique experiences.",
+   "zh": "我们买很多东西是因为我们对它们的感觉。如果产品仅在商家处有所不同，那么您所获得的销售体验将越来越使一家公司脱颖而出，并推动购买决策。因此，您确实想创建一个感觉非常独特的客户购买旅程。",
+   "ts": "00:00:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Something I've heard from so many people you've worked with is that your superpower is building a sales org that doesn't feel like a sales org to engineers.",
+   "zh": "我从很多与你共事过的人那里听说，你的超能力正在建立一个对工程师来说不像销售组织的销售组织。",
+   "ts": "00:01:17"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "The litmus test I have always given my sales team is if you are an account executive in my org and I put you in front of 10 engineers at our company, it should take them 10 minutes to figure out you aren't a product manager.",
+   "zh": "我一直给我的销售团队的试金石是，如果你是我组织中的客户主管，并且我把你放在我们公司的 10 名工程师面前，他们应该需要 10 分钟才能弄清楚你不是产品经理。",
+   "ts": "00:01:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Jeanne Grosser. Jeanne was chief product officer at Stripe where she built their very early sales team from the ground up. She's currently COO at Versel where she oversees marketing, sales, customer success, revenue ops and field engineering. Jeanne has built world-class go-to-market teams at multiple unicorns and has advised dozens of companies on doing the same. In our conversation, we go deep on what a world-class go-to-market team looks like, including what the heck is go-to-market, the rise of the go-to-market engineer and how this role is already enabling her team to operate 10 times faster. A bunch of very specific tactics to level up your go-to-market skills, a primer on segmentation, how to think about your go-to-market process like a product, her favorite go-to-market tools, her hot takes on PLG and sales comp and sales hiring, and so much more. If you are looking to get smart on the latest and greatest in go-to-market thinking, this episode is for you. (00:02:34): A huge thank you to Claire Hughes-Johnson, Kate Jensen and James Ditt for suggesting topics for this conversation and Kelly Schafer for the connection. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It helps tremendously. And if you become an annual subscriber of my newsletter, you get an entire year free of a ton of incredible products including Devon, Lovable, Replit, Bold [inaudible 00:03:00], Linear, Superhuman, Descript, whisperer flow Gamma, Perplexity, Warp, Granola, Magic Patterns, Ratecast JPRD, Mob In Hand, Stripe, Atlas. Head on over to Lenny's newsletter.com and click product pass. With that, I bring you Jeanne Grosser after a short word from our sponsors. (00:03:14): This episode is brought to you by Datadog, now home to Epo, the leading experimentation and feature flagging platform. Product managers at the world's best companies use Datadog, the same platform their engineers rely on every day to connect product insights to product issues like bugs, UX, friction and business impact. (00:03:32): It starts with product analytics where PMs can watch replays, review funnels, dive into retention, and explore their growth metrics. Where other tools stop, Datadog goes even further. It helps you actually diagnose the impact of funnel drop-offs and bugs and UX friction. Once you know where to focus experiments, prove what works. I saw this first hand when I was at Airbnb where our experimentation platform was critical for analyzing what worked and where things went wrong and the same team that built experimentation at Airbnb built Epo. Datadog then lets you go beyond the numbers with session replay. Watch exactly how users interact with Heatmaps and Scrollmaps to truly understand their behavior. And all of this is powered by feature flags, that are tied to real-time data so that you can roll out safely, target precisely and learn continuously. Datadog is more than engineering metrics. It's where great product teams learn faster. (00:04:25): Fix smarter and ship with confidence. Request a demo at datadoghq.com slash Lenny. That's datadog hq.com/Lenny. This episode is brought to you by Lovable. Not only are they the fastest growing company in history, I use it regularly and I could not recommend it more highly. If you've ever had an idea for an app but didn't know where to start, Lovable is for you. Lovable lets you build working apps and websites by simply chatting with AI. Then you can customize it at automations and deploy it to live domain. It's perfect for marketers spitting up tools, product managers, prototyping new ideas, and founders launching their next business. Unlike NoCo Tools, Lovable isn't about static pages. It builds full apps with real functionality and it's fast. What used to take weeks, months or years, you can now do over a weekend. So if you've been sitting on an idea, now is the time to bring it to life. Get started for free at Lovable.dev. That's Lovable.dev. (00:05:29): Jean, thank you so much for being here and welcome to the podcast.",
+   "zh": "今天我的客人是珍妮·格罗瑟。 Jeanne 是 Stripe 的首席产品官，她从头开始组建了他们非常早期的销售团队。她目前担任 Versel 的首席运营官，负责监督营销、销售、客户成功、收入运营和现场工程。珍妮在多家独角兽公司建立了世界一流的市场营销团队，并为数十家公司提供了类似建议。在我们的对话中，我们深入探讨了世界一流的上市团队是什么样子，包括上市到底是什么、上市工程师的崛起以及这个角色如何使她的团队的运营速度提高了 10 倍。一系列非常具体的策略来提高您的上市技能、细分入门、如何像产品一样思考您的上市流程、她最喜欢的上市工具、她对 PLG、销售薪酬和销售招聘的热门看法等等。如果您想了解最新、最伟大的进入市场思维，那么本集非常适合您。 (00:02:34)：非常感谢克莱尔·休斯-约翰逊、凯特·詹森和詹姆斯·迪特为本次对话提出的主题，以及凯利·谢弗提供的联系。如果您喜欢这个播客，请不要忘记订阅并在您最喜欢的播客应用程序或 YouTube 中关注它。它有很大帮助。如果您成为我的时事通讯的年度订阅者，您将获得一整年免费的大量令人难以置信的产品，包括 Devon、Lovable、Replit、Bold [听不清 00:03:00]、Linear、Super human、Descript、幕后流 Gamma、Perplexity、Warp、Granola、Magic Patterns、Ratecast JPRD、Mob In Hand、Stripe、Atlas。前往 Lenny's newsletter.com 并单击产品通行证。在我们的赞助商简短发言后，我为您带来了珍妮·格罗瑟 (Jeanne Grosser)。 (00:03:14)：本集由 Datadog 为您带来，Datadog 现在是领先的实验和功能标记平台 Epo 的所在地。世界上最好的公司的产品经理使用 Datadog，他们的工程师每天都依赖这个平台将产品洞察与错误、用户体验、摩擦和业务影响等产品问题联系起来。 (00:03:32)：首先从产品分析开始，PM 可以观看重播、审查渠道、深入研究保留率并探索其增长指标。在其他工具停止的地方，Datadog 走得更远。它可以帮助您实际诊断漏斗下降、错误以及用户体验摩擦的影响。一旦你知道在哪里进行实验，就可以证明什么是有效的。当我在 Airbnb 时，我亲眼目睹了这一点，我们的实验平台对于分析什么有效、哪里出了问题至关重要，而在 Airbnb 进行实验的同一个团队也建立了 Epo。然后，Datadog 可以让您通过会话重播超越数字。准确观察用户如何与热图和滚动图交互，以真正了解他们的行为。所有这一切都由功能标志提供支持，这些功能标志与实时数据相关联，以便您可以安全地推出、精确定位并持续学习。 Datadog 不仅仅是工程指标。优秀的产品团队在这里可以更快地学习。 (00:04:25)：更智能地修复并充满信心地交付。请在 datadoghq.com 请求演示，斜线 Lenny。这是 datadog hq.com/Lenny。本期节目由《Lovable》为您带来。他们不仅是历史上发展最快的公司，而且我经常使用它，我强烈推荐它。如果您曾经对应用程序有过想法，但不知道从哪里开始，那么 Lovable 适合您。 Lovable 让您只需与 AI 聊天即可构建可用的应用程序和网站。然后，您可以在自动化中对其进行自定义并将其部署到实时域。它非常适合开发工具的营销人员、产品经理、制作新想法原型以及启动下一项业务的创始人。与 NoCo Tools 不同，Lovable 不是静态页面。它构建具有实际功能的完整应用程序，而且速度很快。过去需要数周、数月或数年才能完成的事情，现在只需一个周末即可完成。因此，如果您一直有一个想法，那么现在就是将其变为现实的时候了。从 Lovable.dev 免费开始使用。那是Loveable.dev。 (00:05:29)：Jean，非常感谢您来到这里，欢迎来到播客。",
+   "ts": "00:01:38"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Thanks for having me. Lenny.",
+   "zh": "谢谢你有我。莱尼。",
+   "ts": "00:05:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I wanted to get out of this conversation by the end of this to basically have this conversation be the thing that we send people when they're like, \"I want to get better go to market. I'm trying to figure out what to do and get to market.\" We send them this versus having to hire someone for a lot of money and usually they can't find amazing people, because they're all snatched up. So let me start with just the basics. When people hear at the term go to market, what does that mean? What does that encompass?",
+   "zh": "我想在这次谈话结束时得到的信息是，当人们说“我想要更好地进入市场。我正在努力弄清楚该怎么做并进入市场”时，我们会向他们发送这样的对话。我们向他们发送此信息，而不是花很多钱雇用某人，但通常他们找不到优秀的人才，因为他们都被抢走了。让我从基础知识开始。当人们听到“进入市场”这个词时，这意味着什么？这包括什么？",
+   "ts": "00:05:34"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "I think there are two answers to this. Often what people think of is sort of the tip of the spear of what drives revenue, which is marketing and sales. For me, I think of it as any function that is going to touch a customer or make a dollar, and actually my remit at Vercel is that, so that includes marketing, sales, all of your technical sales roles like sales engineers or post-sales platform architects is what we call them at Vercel. It's customer success, it's support, it's partnerships. And the reason I say that is my experience throughout my career has been that those functions often have this Venn diagram strategy where marketing's pursuing one thing, it overlaps with what sales is pursuing, but not perfectly, which also overlaps with what support is pursuing but not perfectly. Examples of this would be slightly differing segmentation frameworks, et cetera. (00:06:57): And so one of the things I think you're going to want to see more in this particular moment is that that become a really integrated lifecycle. In particular, I think we're going to see a lot of the functions of go-to-market get redefined, so we've gone through a period of hyper-specialization in go-to-market depending on how you count them. There are, I think somebody quoted 17 different roles within go-to-market these days and I hypothesize that a lot of those are going to start to collapse. And so if you think of go-to-market more holistically, I think you can kind of go back to what are the jobs to be done from making a customer prospect aware of your product all the way through to high LTV, five years on the platform, fully wall-to-wall, and you're going to want to map that out and orchestrate it the way you would think about that within your own product.",
+   "zh": "我认为这个问题有两个答案。人们通常想到的是推动收入的矛尖，即营销和销售。对我来说，我认为它是任何能够接触客户或赚钱的功能，实际上我在 Vercel 的职责就是这样，所以这包括营销、销售以及所有技术销售角色，如销售工程师或售后平台架构师，我们在 Vercel 称之为这些角色。这是客户的成功、支持、合作伙伴关系。我这么说的原因是我在整个职业生涯中的经验是，这些职能部门通常采用这种维恩图策略，其中营销追求一件事，它与销售追求的东西重叠，但不完美，这也与支持追求的东西重叠，但不完美。这方面的例子是略有不同的分段框架等等。 (00:06:57)：因此，我认为您在这个特定时刻希望看到更多的事情之一是，它成为一个真正集成的生命周期。特别是，我认为我们将看到许多进入市场的功能被重新定义，因此我们已经经历了一段进入市场的高度专业化时期，具体取决于你如何计算它们。我认为现在有人引用了市场营销中 17 个不同的角色，我假设其中很多角色将开始崩溃。因此，如果你更全面地考虑进入市场，我认为你可以回到需要完成哪些工作，从让潜在客户了解你的产品，一直到高生命周期价值，在平台上呆五年，完全全面，你会想要按照你在自己的产品中考虑的方式来规划和编排它。",
+   "ts": "00:05:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. We're going to go through that whole cycle of go-to-market, but so is it safe to say just for most companies that are especially starting out when they say go-to-market, that mostly is sales and then there's marketing as maybe a smaller fraction of that and then as you become more advanced and grow, customer success plays into it, tech sales, things like that?",
+   "zh": "惊人的。我们将经历整个进入市场的周期，但是对于大多数刚刚起步的公司来说，当他们说进入市场时，可以肯定地说，主要是销售，然后营销可能只占其中的一小部分，然后随着你变得更加先进和成长，客户成功会发挥作用，技术销售，诸如此类的事情？",
+   "ts": "00:07:54"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, that's probably where most start is getting sales or frankly just because a lot of companies also start PLG, you might actually start with marketing and then you're layering in sales when it's time to do the sales assistant and ultimately sales led portions. So I think it can, depending on your product and your initial target market, it can either mean marketing or sales or a combination of those two.",
+   "zh": "是的，这可能是最开始的地方是获得销售，或者坦率地说，因为很多公司也开始 PLG，你实际上可能从营销开始，然后当需要做销售助理和最终销售主导部分时，你会分层销售。所以我认为它可以，根据你的产品和你最初的目标市场，它可以意味着营销或销售或两者的组合。",
+   "ts": "00:08:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So essentially it's like the term go-to-market tells you what we're talking about. How do you take your product to market, get people aware of it, using it, sticking with it?",
+   "zh": "惊人的。因此，从本质上讲，“进入市场”一词告诉了您我们正在谈论的内容。您如何将您的产品推向市场，让人们了解它、使用它并坚持使用它？",
+   "ts": "00:08:33"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yep, absolutely.",
+   "zh": "是的，绝对是。",
+   "ts": "00:08:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What has most changed in the world of go-to-market over the last few years? You've done this for a long time at Google, at Stripe, you built it for sales team, now you're doing that at Vercel. What's changed most in the skill and art of go-to-market?",
+   "zh": "过去几年，上市领域发生的最大变化是什么？您在 Google、Stripe 已经这样做了很长时间，您为销售团队构建了它，现在您在 Vercel 也这样做了。进入市场的技巧和艺术变化最大的是什么？",
+   "ts": "00:08:44"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "There are a number of things. So when consumption-based business models started, I think you saw go-to-market shift into being meaningfully more consultative because often that first land was the very beginning of the journey and represented a very small percent of what you were ultimately going to do with that customer. And so you had to go from being transactional to a lot more. You had to more deeply understand what that customer was trying to do so you could align that ultimately to your product. I think that has played out that much more with an AI because right now everyone knows they need to change, but they don't necessarily know exactly what they need to change to, whether that's their customer-facing product or their internal productivity and workflows. And so I think you're seeing a lot more of go-to-market orgs leaning into the art of the possible best practices, helping you actually think things through as if they were a consultant. (00:09:52): And so one of the things you see more of right now is forward-deployed engineering, which on some level is kind of a rebrand of professional services but kind of not. And a big part of that is, hey, how do I actually get into your environment, ride alongside you better understand what you're trying to do and then help you actually bring the technology to life and learn a lot along the way. (00:10:18): Often you're not only making that customer successful, but you're then taking all of that back to your product and engineering organization to figure out, okay, what was generalizable that we ought to build into our offering versus what is something that ultimately is going to be more of a professional service in the fullness of time. So I think that has been a biggie, is actually just really getting embedded with your customer. And then unsurprisingly, I think bringing AI to bear on the sales process is another big one. And so you've seen the rise in probably the last 18 to 24 months of the go-to-market engineer, which different folks define slightly differently, but it's kind of bringing one technical prowess to bear on go-to-market in general so you can have a lot better tooling, data use, et cetera. And then two, increasingly bringing AI to bear as well to re-architect your workflows and also make it so that it's easier to have a personalized experience with customers but do so at scale.",
+   "zh": "有很多事情。因此，当基于消费的商业模式开始时，我认为你会看到进入市场转变为更具咨询意义，因为通常第一块土地是旅程的开始，并且只占你最终要与该客户做的事情的一小部分。所以你必须从事务性转变为更多。您必须更深入地了解客户想要做什么，这样您才能最终将其与您的产品结合起来。我认为人工智能的作用更明显，因为现在每个人都知道他们需要改变，但他们不一定确切地知道他们需要改变什么，无论是面向客户的产品还是内部生产力和工作流程。因此，我认为您会看到更多的市场组织倾向于可能的最佳实践艺术，帮助您像顾问一样真正思考问题。 (00:09:52)：所以你现在看到更多的事情之一是前沿部署工程，这在某种程度上是专业服务的品牌重塑，但又不是。其中很大一部分是，嘿，我如何真正进入您的环境，与您一起更好地了解您想要做什么，然后帮助您真正将技术带入生活并在此过程中学到很多东西。 (00:10:18)：通常，您不仅要让客户取得成功，还要将所有这些带回您的产品和工程组织，以弄清楚我们应该在我们的产品中构建哪些通用内容，以及最终在时间成熟时提供更专业的服务。所以我认为这是一件大事，实际上只是真正融入你的客户。毫不奇怪，我认为将人工智能应用于销售流程是另一件大事。因此，您可能已经看到了过去 18 到 24 个月内上市工程师的崛起，不同的人对这一点的定义略有不同，但这总体上是一种技术实力对上市的影响，因此您可以拥有更好的工具、数据使用等。第二，越来越多地利用人工智能来重新构建您的工作流程，并使其更容易为客户提供个性化体验，但要大规模实现。",
+   "ts": "00:08:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay, let's follow the thread on this go-to-market engineer, so what was it like before and what are these engineers doing at companies?",
+   "zh": "惊人的。好的，让我们跟随这位进入市场工程师的话题，了解一下之前的情况以及这些工程师在公司做什么？",
+   "ts": "00:11:23"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "So I think maybe an interesting story to tell. When I was at Stripe, we went to launch an outbound SDR function. So outbound prospecting and Stripe always ran lean. The company at that time had an operating principle which was efficiency is leverage. And so if you looked at the sales organization I was running, most companies out there probably would've had 30 SDRs and I was going to get four. So there's no way I was going to do the typical SDR approach and be successful. And so we thought to ourselves, okay, what can we do? We'll be super data-driven. And so we went and we started building project Rosland. Rosland is the scientist who originally mapped A-DNA. And what this was was effectively a company universe. So you can think of this as a massive database. Every row was a different company on the planet and every column was an attribute about that company that would help you sell to them in a more targeted fashion. (00:12:39): So at Stripe an example would be knowing that their business model was a marketplace was super helpful, because that would mean you wanted to sell Stripe Connect versus vanilla payments. And so the goal was basically, hey, can we create a mad Libs where I will come up with sort of a predefined email template, but 80% of it will be fill in the blank based on the different attributes of that customer. So if they're this industry or this business model, then pull this customer, reference this value prop, send it to this persona, not that. And we were trying to do this in 2017 and it was very hard and didn't actually totally work our ability to the false positive rate and we worked deeply with DSI and it just never really got there. And now that we're literally redoing here at Vercel as we speak and it actually works and you can bring AI to bear on it. (00:13:41): And so what's different is we now, I have a data scientist just like I did back in 2017, but I have a go-to-market engineer whereas before I just had someone in systems that was helping me configure outreach or sales off and my go-to-market engineer is helping me build an agent where we're coming up with, okay, well what's the human workflow that you would've done? And then how do you encode that using Vercel workflows as an example in actual code that's both deterministic and less so where an agent's going out and trying to replicate what a human might've done to produce that, fill in the blank, matlit.",
+   "zh": "所以我想这可能是一个有趣的故事。我在Stripe的时候，我们去推出了出站SDR功能。因此，出站勘探和 Stripe 总是精益求精。当时公司的经营理念就是效率就是杠杆。因此，如果你看看我所运营的销售组织，大多数公司可能都会拥有 30 个 SDR，而我将获得 4 个。因此，我不可能采用典型的 SDR 方法并取得成功。所以我们心里想，好吧，我们能做什么？我们将超级数据驱动。所以我们开始建设罗斯兰项目。罗斯兰是最初绘制 A-DNA 图谱的科学家。这实际上是一个公司宇宙。所以你可以把它想象成一个巨大的数据库。每一行都是地球上不同的公司，每一列都是该公司的一个属性，可以帮助您以更有针对性的方式向他们销售产品。 (00:12:39)：在 Stripe，一个例子就是知道他们的商业模式是一个市场，这非常有帮助，因为这意味着你想出售 Stripe Connect 而不是普通支付。所以目标基本上是，嘿，我们可以创建一个疯狂的库，我将在其中提出一种预定义的电子邮件模板，但其中 80% 将根据该客户的不同属性来填补空白。因此，如果他们是这个行业或这种商业模式，那么就拉动这个客户，引用这个价值支柱，将其发送给这个角色，而不是那个角色。我们在 2017 年就试图做到这一点，这非常困难，实际上并没有完全发挥我们在误报率方面的能力，我们与 DSI 进行了深入合作，但它从未真正实现这一目标。现在，就在我们说话的时候，我们实际上正在 Vercel 重做，而且它确实有效，你可以让人工智能来实施它。 (00:13:41)：所以我们现在的不同之处在于，我有一名数据科学家，就像 2017 年一样，但我有一名市场工程师，而在此之前，我只是在系统中有人帮助我配置外展或销售，而我的市场工程师正在帮助我建立一个代理，我们正在想出一个代理，好吧，那么你会做什么人工工作流程？然后，如何使用 Vercel 工作流程作为实际代码中的示例对其进行编码，该代码既具有确定性，又不太确定代理外出并尝试复制人类可能所做的操作来生成该代码，填补空白，matlit。",
+   "ts": "00:11:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love the ambition of that project. What is this, like eight years ago?",
+   "zh": "我喜欢这个项目的雄心壮志。这是什么，八年前的事了？",
+   "ts": "00:14:21"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:14:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love the big thinking there. We're going to map the entire universe of companies and then here's how we sell to them. And then just I'm trying to picture doing that without AI. It's like crazy to imagine trying that without AI and that's so much simpler to even imagine.",
+   "zh": "我喜欢那里的大想法。我们将绘制整个公司的地图，然后我们将向他们销售产品。然后我试图想象在没有人工智能的情况下做到这一点。想象在没有人工智能的情况下尝试这一点简直是疯狂，而且想象起来要简单得多。",
+   "ts": "00:14:26"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Well the thing that's amazing about that, just to geek out on a second, so I was working on that with a bunch of folks at Stripe on my team, obviously at a gentleman named Ben Salzman who went on to go to ZoomInfo and then actually recently just founded a go-to-market startup that is basically sort of productizing that concept of a company universe and then layering AI on it on top of it. And ultimately his view is actually AI will get to the point that you won't have to do outbound prospecting because it will just sort of company and product match. So it's fun to sort of see back in 2017 some of the folks doing that now work at OpenAI, they work at Anthropic, they also are doing GTM Eng. You've got him starting a totally AI native GTM company and then here I'm at Vercel trying to do the same.",
+   "zh": "令人惊奇的是，我只是想花点时间来研究一下，所以我正在与 Stripe 团队的一群人一起研究这个问题，显然是在一位名叫 Ben Salzman 的绅士那里，他后来去了 ZoomInfo，然后实际上最近刚刚成立了一家进入市场的初创公司，基本上是将公司宇宙的概念产品化，然后将人工智能分层。最终他的观点是，人工智能实际上将达到这样的程度：你不必进行对外勘探，因为它只是将公司和产品进行匹配。因此，很高兴看到 2017 年的一些人现在在 OpenAI 工作，他们在 Anthropic 工作，他们也在做 GTM Eng。他创办了一家完全人工智能原生的 GTM 公司，而我在 Vercel 也试图做同样的事情。",
+   "ts": "00:14:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so what's cool is this is an emerging role, an emerging skill that I don't think a lot of people have recognized as something that is happening. So one example I'm hearing of what this role does is they automate outbound emails essentially and outbound outreach. They figure out, they write workflows and agents that figure out here's the company to go after, here's how we message them. Does that end up being kind of like an email that's custom designed and written for this prospect?",
+   "zh": "好的，最酷的是这是一个新兴的角色，一种新兴的技能，我认为很多人都没有意识到它正在发生。因此，我听说这个角色的作用的一个例子是，他们基本上自动化出站电子邮件和出站外展。他们弄清楚了，他们编写了工作流程和代理，找出了要追寻的公司，这就是我们向他们发送消息的方式。这最终是否有点像为该潜在客户定制设计和编写的电子邮件？",
+   "ts": "00:15:29"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "That's one version. So it's broader than that really. Basically the full remit of GTM Eng will be to go through each of the different functions within go to market and break down all the different workflows that they do and then turn those into agents where AI is better placed than the human to do that task. So right now we started with actually inbound and are now moving to outbound because that workflow is most legible. And by legible I mean you can basically write it down. It's relatively replicable, mostly deterministic. So it's more likely that AI will do it well and we actually built the agent and then we keep a human in the loop. But from there we're starting to look at outbound and with an outbound we're starting more at the lower end of the market, where you tend to have slightly less customization because there's a single decision maker at the company. (00:16:56): But I think it'll take a while before we're able to really do that in a very large enterprise. There we might use an agent for research but maybe not all the way to actually send a message and that's just within the prospecting function. So other places that we're looking at this would be for install-based sales. So again there it's a little bit more deterministic because you've got awesome internal data on what a customer is and isn't using, what's the next best action? What's the thing they should get most value from? So that's where we're starting to map, hey, what does that ideal workflow look like? But basically you want to get to a state where as long as I've been in sales, they release these annual reports that help us all benchmark ourselves relative to one another. And one of the stats is what percent of time do your sellers actually spend in front of customers? (00:17:44): And for the 20 years I've been in sales, it's always been somewhere around 30% to 40%. So the minority of time is actually talking to other humans and I think we're getting to a point where with layering in agents, ideally we finally get salespeople to a point where they're actually spending 70% of their time interacting with humans and we can get the research, the follow-up, the things that are a little bit more rote and don't use the entirety of your human capacity done by an agent and then sort of unleash you to go deeper with your customers.",
+   "zh": "那是一个版本。所以它实际上比这更广泛。基本上，GTM Eng 的全部职责将是遍历市场中的每个不同功能，并分解他们所做的所有不同工作流程，然后将它们转变为人工智能比人类更适合执行该任务的代理。因此，现在我们从实际入站开始，现在转向出站，因为该工作流程最清晰。我所说的清晰是指你基本上可以把它写下来。它相对可复制，大部分是确定性的。因此，人工智能更有可能做得很好，我们实际上构建了代理，然后让人类参与其中。但从那里我们开始关注出站，对于出站，我们更多地从低端市场开始，在那里你的定制化程度往往会稍低，因为公司只有一个决策者。 (00:16:56)：但我认为我们需要一段时间才能在一家非常大的企业中真正做到这一点。在那里，我们可能会使用代理进行研究，但可能不会一直实际发送消息，而这只是在勘探功能范围内。因此，我们正在考虑的其他地方是基于安装的销售。因此，它更具确定性，因为您拥有关于客户正在使用和未使用什么的出色内部数据，下一个最佳行动是什么？他们应该从什么事情中获得最大价值？这就是我们开始绘制的地方，嘿，理想的工作流程是什么样的？但基本上你想要达到这样一种状态：只要我从事销售工作，他们就会发布这些年度报告，帮助我们所有人相互比较自己。其中一项统计数据是，您的卖家实际在客户面前花费的时间百分比是多少？ (00:17:44)：在我从事销售工作的 20 年里，它一直在 30% 到 40% 左右。因此，少数时间实际上是在与其他人交谈，我认为我们已经达到了这样一个地步：通过代理分层，理想情况下，我们最终让销售人员真正花费 70% 的时间与人类互动，我们可以进行研究、跟进、一些更死记硬背的事情，而不是使用代理完成的全部人力能力，然后释放你与客户进行更深入的交流。",
+   "ts": "00:15:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that this is such a great example of where AI is contributing in a very meaningful high ROI way, taking on all this work that people... like, you have to hire say 50 SDRs as you described to do and now you could do with a lot more. So it's a really cool example of leverage that AI gives you. One thing that I know a lot of people think about when they hear this is, okay, I'm going to get more of these really bad emails trying to pitch me on stuff and just like this isn't going to work. I can tell this is AI. What have you learned about how to do this where people actually receive emails that actually convert and do well?",
+   "zh": "我喜欢这是一个很好的例子，说明人工智能以非常有意义的高投资回报率方式做出贡献，承担了人们......喜欢的所有这些工作，你必须像你描述的那样雇用 50 个 SDR，现在你可以做更多的事情。所以这是人工智能为你提供的杠杆作用的一个非常酷的例子。我知道很多人听到这个消息时都会想到的一件事是，好吧，我会收到更多这些非常糟糕的电子邮件，试图向我推销东西，就像这是行不通的。我可以说这是人工智能。对于如何做到这一点，让人们真正收到真正转化且效果良好的电子邮件，您学到了什么？",
+   "ts": "00:18:17"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Our processes all always have human in the loop. And so basically where we'll start is we take a go to market engineer and we have them shadow the highest performing individual in that function. And so you can go and you shadow an SDR and you can see, oh wow, they've got seven tabs open. They're looking up the person on LinkedIn, they're reading about the company, they're doing chatGPT on this, they're looking in this database to get these sets of attributes. And so that's how you sort of inform the initial workflow. And then what we do is we let the agent make a call. So in the specific example with inbound, you have to determine whether or not you think the lead is likely to be qualified and then you have to determine what to say to it. And so we'll let the agent make those two calls. (00:19:44): It ultimately then does some deep research, pulls in a bunch of information from our databases and crafts a response, but we have a human review all of those and actually hit send. Now for us, we had 10 SDRs doing this inbound workflow and now we just have one that is effectively QA-ing the agent. The other nine we deployed on outbound, so we got to move them up the value chain. At some point I think we'll get to a place where we feel like, \"Hey, the human reviewer is saying yes enough of the time that we feel confident that these will be on brand targeted, et cetera,\" but right now we're still trying to train the agent and it incorporates feedback on what we choose to reject, edit, et cetera.",
+   "zh": "我们的流程始终都有人参与。因此，基本上我们首先要聘请一位市场工程师，让他们跟随该职能部门表现最好的个人。因此，您可以查看 SDR，然后您可以看到，哇哦，他们打开了七个选项卡。他们在 LinkedIn 上查找此人，他们正在阅读有关该公司的信息，他们正在对此进行 chatGPT，他们正在该数据库中查找以获取这些属性集。这就是您通知初始工作流程的方式。然后我们要做的就是让代理拨打电话。因此，在入站的具体示例中，您必须确定您是否认为潜在客户可能合格，然后您必须确定对该潜在客户说些什么。因此，我们将让代理拨打这两个电话。 (00:19:44)：它最终会进行一些深入的研究，从我们的数据库中提取大量信息并制定响应，但我们对所有这些进行了人工审查，然后实际上点击了发送。现在对于我们来说，我们有 10 个 SDR 来执行此入站工作流程，而现在我们只有一个对代理进行有效的 QA。另外九个我们部署在出站，所以我们必须将它们提升到价值链的上游。在某些时候，我认为我们会遇到这样的情况：“嘿，人类审阅者多次说“是”，我们有信心这些将成为品牌目标，等等，”但现在我们仍在尝试培训代理，它包含了有关我们选择拒绝、编辑等内容的反馈。",
+   "ts": "00:18:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you shared that it's already having a lot of impact. Like you said, you had 10 SDRs and now one can do the job of 10.",
+   "zh": "您分享说它已经产生了很大的影响。就像你说的，你有 10 个 SDR，现在一个可以完成 10 个的工作。",
+   "ts": "00:20:31"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "So before we did that move, I mean the other thing that's just incredible about this is the person who built the lead agent was a single GTM engineer. He spent maybe 25-30% of his time on this. It was six weeks before we felt confident going from 10 to one. So it wasn't like this was a multi-quarter process, it actually moved super quickly and then again now we just sort of keep that agent manager working with the agent to get it to a point where we say, \"Hey, we're ready to roll.\" Actually throughout the process we also tracked all of the KPIs that you typically would hold an SDR accountable to. We were looking at our lead to opportunity conversion rate, we're looking at the number of touches it takes the time to convert, and basically what we were able to do is hold that lead to opportunity conversion rate flat. So the agent is as good as our humans were, but it's actually condensed the number of touches it takes to convert because it's so much quicker at responding relative to leads inevitably sitting in the queue or coming in at nighttime and no one can get to it, that type of deal. So that's sort of when we knew it was ready to pull nine people off and shift them into outbound.",
+   "zh": "因此，在我们采取这一行动之前，我的意思是另一件令人难以置信的事情是，构建首席代理的人是一位 GTM 工程师。他大概花了 25-30% 的时间在这上面。六周后，我们才有信心从 10 名增加到 1 名。所以这并不是一个需要多个季度的过程，它实际上进展得非常快，然后现在我们只是让代理经理与代理合作，以达到我们说的“嘿，我们准备好了”的程度。实际上，在整个过程中，我们还跟踪了您通常要求 SDR 负责的所有 KPI。我们正在研究潜在客户到机会的转化率，我们正在研究转换所需时间的接触次数，基本上我们能做的就是保持潜在客户到机会的转化率持平。因此，代理与我们的人类一样好，但它实际上浓缩了转换所需的接触次数，因为相对于不可避免地排在队列中或在夜间进入而没有人能够接触到的潜在客户，它的响应速度要快得多，这种类型的交易。因此，就在那时我们知道已经准备好将九个人撤走并将他们转移到出站。",
+   "ts": "00:20:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's incredible. Okay, that's interesting. So you shift them to outbound. What I love about this is this SDR that is now doing this is, as you said, doing the things they enjoy more, they're talking to customers more, they're not doing all this kind of top of funnel rote work. I don't want to get into whole jobs AI discussion, but there's always been this talk about AI SDRs basically replacing SDRs. It feels like that's one thing where everyone's like this is a hundred percent going to be AI in the future. What I'm hearing here is it gives one Aster a lot more leverage and obviously you still need people running the show. Thoughts there? Just like do you think AI will replace all this at some point? And then I don't know, you don't need salespeople?",
+   "zh": "那真是难以置信。好吧，这很有趣。所以你把它们转移到出站。我喜欢这个的是这个 SDR 现在正在做的事情，正如你所说，做他们更喜欢的事情，他们更多地与客户交谈，他们不做所有这些漏斗顶部的死记硬背的工作。我不想深入讨论人工智能的全部工作，但一直有关于人工智能 SDR 基本上取代 SDR 的讨论。感觉就像每个人都这样的一件事，就是未来百分百会成为人工智能。我在这里听到的是，它给了 Aster 更大的影响力，显然你仍然需要有人来主持这个节目。想法在那里？就像你认为人工智能会在某个时候取代这一切吗？然后我不知道，你们不需要销售人员吗？",
+   "ts": "00:21:56"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "I think on prospecting it can replace a fair amount because the average SDR wasn't doing overly sophisticated research in the first place. So where I, think the last part to go as I mentioned will be in deep enterprise prospecting where you can be at multiple layers in an org chart, you've got to pick between business lines, you've got to triangulate those. But I do think for the things that are more repetitive that often don't take that much time to learn and get ramped, AI will be good at that. And in my view, no one graduated from college and was like, \"Yes, I just went to college for four years to become an SDR.\" It was more, \"Okay, that's where you are forced to start.\" But I think the average SDR could have gone straight into outbound or straight into an SMB closing role. And so basically what we're just doing is shifting folks into something that uses more of their full capacity right out of the gates rather than sort of the forcing function of working your way up the totem pole.",
+   "zh": "我认为在勘探方面它可以取代相当多的部分，因为一般的特别提款权首先并没有进行过于复杂的研究。因此，我认为正如我提到的，最后一部分将是深入的企业勘探，您可以在组织结构图中处于多个层次，您必须在业务线之间进行选择，您必须对这些业务线进行三角测量。但我确实认为，对于那些重复性较高、通常不需要太多时间来学习和掌握的事情，人工智能会很擅长。在我看来，没有人大学毕业后会说：“是的，我只是上了四年大学，就成为了一名特别提款权成员。”更多的是，“好吧，这就是你被迫开始的地方。”但我认为平均特别提款权可能会直接进入出站或直接进入中小企业结算角色。所以基本上我们所做的就是让人们从一开始就充分利用他们的全部能力，而不是强迫自己沿着图腾柱向上爬。",
+   "ts": "00:22:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Since a lot of people listening to this aren't salespeople don't have a lot of background in sales, we've used this term SDR, there's also the term AE. Can you just help people understand what is an SDR, what do they do, what's an AE, and then what's the role above?",
+   "zh": "惊人的。由于很多听这个的人都不是销售人员，没有太多的销售背景，所以我们使用了 SDR 这个术语，还有 AE 这个术语。您能否帮助人们了解什么是 SDR、它们的作用是什么、什么是 AE，以及上面的作用是什么？",
+   "ts": "00:23:48"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Sure. So SDR is typically in charge of generating pipeline. They're meant to talk to prospective customers and get them to a point where it is worth investing time to run them through a sales process. You typically have two types of an SDR, have an inbound one. So this is where people come to your website, they fill out contact sales, they'll be the first call to make sure that it's actually worth a more expensive account executive to go and run a sales process or you then have outbound. So this is where when you want to grow faster than your inbound demand, they will go out and at this point you probably have a point of view on where you think you have product market fit. And so they will target that part of the market and try to drum up interest from folks who weren't otherwise raising their hand saying, I'd like to talk to you. (00:24:54): So that's sales development basically. Pipeline generation account executives are closers. So it's their job to take somebody from, \"Okay, hey, I'm interested in learning about your solution, I have a legitimate problem. I potentially could make a decision,\" to, \"I now believe that your product is the best in the market for me and I'm willing to pay for it.\" And then account executives, depending on the segments that your company sells into E.G. small business, mid-market enterprise, et cetera, they may work their way up the food chain from selling to a smaller company like an SMB or a startup. Those tend to be a little bit more of a transactional sale. You often have a single decision maker to then going into a mid-market or a commercial role where now maybe you have an economic buyer like somebody in finance and a technical buyer like somebody in engineering to getting into enterprise where you have procurement and you have committees and 10 people have to weigh in and you've got to help them figure out how to de-risk the fact that they're probably migrating from something so much more complicated coordination effort to sell.",
+   "zh": "当然。因此，SDR 通常负责生成管道。他们的目的是与潜在客户交谈，让他们知道值得投入时间来引导他们完成销售流程。您通常有两种类型的 SDR，一种是入站类型。因此，这就是人们访问您的网站，他们填写联系销售人员的地方，他们将是第一个打电话的人，以确保确实值得聘请更昂贵的客户经理来运行销售流程，否则您就可以出站。因此，当您希望增长速度快于入境需求时，他们就会退出，此时您可能对自己的产品市场契合度有自己的看法。因此，他们将瞄准这部分市场，并试图引起那些没有举手说“我想和你谈谈”的人的兴趣。 (00:24:54)：这基本上就是销售发展。管道生成客户主管的关系更加密切。因此，他们的工作就是让某人从“好吧，嘿，我有兴趣了解你的解决方案，我有一个合法的问题。我可能会做出决定”，到“我现在相信你的产品对我来说是市场上最好的，我愿意为此付费。”然后是客户经理，具体取决于贵公司向 E.G. 销售的细分市场。小型企业、中端市场企业等，他们可能会从向中小型企业或初创公司等较小的公司销售产品，沿着食物链向上攀升。这些往往更像是一种交易性销售。你通常有一个决策者，然后进入中端市场或商业角色，现在你可能有一个经济买家，比如金融界的人，还有一个技术买家，比如工程界的人，进入企业，你有采购，你有委员会和 10 个人必须权衡，你必须帮助他们弄清楚如何降低风险，因为他们可能正在从更复杂的协调工作转向销售。",
+   "ts": "00:24:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That was extremely helpful. So SDR, pipeline generation, i.e., closer. Such a simple way of thinking about it. Okay, this is great. Going back to the GDM engineer, a few questions for people that may want to try this at their company, what scale do you think it makes sense to start hiring for this role? Having someone automate in the go-to-market process?",
+   "zh": "这非常有帮助。所以SDR，管道生成，即更接近。这是一种简单的思考方式。好的，这太棒了。回到 GDM 工程师，有几个问题要问那些可能想在自己公司尝试这一职位的人，您认为开始招聘这个职位的规模是多少？让专人自动化进入市场流程？",
+   "ts": "00:26:05"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "What's interesting about this is it will force companies to be more rigorous about their sales process early. So often startups when they go from founder led sales to say, I'm going to have my first sales person, whether that's an actual account executive who has sales experience or your general athlete, wicked smart, who's going to go figure it out. Often founders will just say, \"Okay, sales is showing up and talking to people. Isn't that what I just did for the last couple of years?\" But actually sales is more than that. It's a skill just like writing code as a skill or building a financial model as a skill, it's about discovery. So asking all the right questions that help you identify challenges in pain, willingness to pay, et cetera, and then going through a process to handle those objections and showcase where are you at enough value such that somebody ultimately wants to hand over some money. (00:27:24): So often startups will get, particularly ones with strong product market fit to pretty significant scale without really having a replicable process. And you can't really apply go to market engineering unless you actually have a point of view on what best practice should look like. And so I think basically this is going to force folks to have more of a playbook out of the gates, what's working, what's not? Can I document it? Do I have content for the different parts of the sales process? And then once you do that, which maybe 10 people is a good size and scale for that, ostensibly a GTM engineer can come in and turn that into an agent. You could also argue that if you're a founder who wants to bring in a general athlete profile and that person is technically minded, that you could have a hybrid AE GTM engineer who figures out what their best practice is and then tries to turn that into an agent that's riding alongside them and making them more effective as well. (00:28:26): So I don't know that I have a point of view yet on what's the optimal size and scale, but I forever have given founders the advice that you often want to bring in revenue operations, which is basically the analytical arm of sales earlier than you think because having data, having process is actually what gives you insights as a founder into what is and isn't working. And so I would argue just like it's a good idea to have that sooner than later, increasingly it'll probably be a good idea to have GTM engine and be looking to bring agents to bear on your process at the outset.",
+   "zh": "有趣的是，它将迫使公司尽早对其销售流程更加严格。通常，初创公司在创始人领导销售时会说，我将拥有我的第一位销售人员，无论是具有销售经验的实际客户主管，还是聪明绝顶的普通运动员，他们都会去解决这个问题。通常创始人只会说：“好吧，销售人员出现并与人们交谈。这不是我过去几年所做的吗？”但实际上销量远不止于此。这是一种技能，就像编写代码作为一种技能或构建财务模型作为一种技能一样，它是关于发现的。因此，提出所有正确的问题，帮助你识别痛苦、支付意愿等方面的挑战，然后通过一个流程来处理这些异议​​，并展示你的价值足以让某人最终愿意交出一些钱。 (00:27:24)：初创公司经常会遇到这样的情况，特别是那些拥有强大的产品市场、规模相当大的公司，但实际上没有可复制的流程。除非您确实对最佳实践应该是什么样子有自己的看法，否则您无法真正应用市场工程。所以我认为基本上这将迫使人们拿出更多的剧本，什么有效，什么无效？我可以记录下来吗？我是否有销售流程不同部分的内容？然后一旦你这样做了，也许 10 个人是一个很好的规模，表面上 GTM 工程师可以进来并将其变成一个代理。你也可以说，如果你是一位创始人，想要引入一般运动员的资料，并且该人具有技术头脑，那么你可以拥有一名混合 AE GTM 工程师，他找出他们的最佳实践是什么，然后尝试将其转变为与他们并肩作战的代理，并使他们更加高效。 (00:28:26)：所以我不知道我对什么是最佳规模和规模有自己的看法，但我一直向创始人提供建议，即你经常想要引入收入运营，这基本上是比你想象的更早的销售分析部门，因为拥有数据、拥有流程实际上可以让你作为创始人洞察什么是有效的，什么是无效的。因此，我认为，就像迟早拥有它是一个好主意一样，拥有 GTM 引擎并在一开始就寻求让代理来影响您的流程也可能是一个好主意。",
+   "ts": "00:26:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "While we're on this topic, just a quick tangent, the advice for hiring your first salesperson that I usually hear is wait until you're around a million in ARR. When you have a repeatable process, you can teach someone anything there. Does that seem right? What would you recommend?",
+   "zh": "当我们谈论这个话题时，只是简单切题一下，我通常听到的雇用第一位销售人员的建议是等到你的 ARR 达到 100 万左右。当你有一个可重复的过程时，你可以在那里教别人任何东西。这看起来对吗？你会推荐什么？",
+   "ts": "00:29:05"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, I think that seems about right. I do think as a founder you want to stay deeply connected to customers and get it to a scale and get it to a point where you use the word, there's some repeatability there. I think that's one of the things that not all founders get right is founders are incredible salespeople. They convinced a VC angel investors to fork over a bunch of money, so clearly they're going to inspire people to buy. But if you're getting to a million in ARR and the set of customers you have look nothing like one another, you still have very much like an evangelist sale, very much founder led sale versus if you can say, \"Hey, I now have an ICP here, or ideal customer profile, e.g something you can write down. We are good. Our product fits with startups with less than a hundred employees who are typically building SaaS applications,\" something like that. (00:30:14): Then you're probably ready to hand over the reins. And then what founders have to remember is to actually hand over the reins. So you've got to enable the person who comes in, what is it that you're doing effectively, what's your content, what are the discovery questions you are asking? How are you handling objections so you can transition that knowledge but also don't handle them over entirely. You want to stay connected to the customer because you still have a fair amount of R&D to do to figure out where is the product next going to resonate, where are you getting stock as you scale, etc.",
+   "zh": "是的，我认为这似乎是正确的。我确实认为，作为创始人，你希望与客户保持深入的联系，并将其扩大到一定程度，并达到你使用这个词的程度，那里有一些可重复性。我认为并非所有创始人都做对的事情之一是创始人是令人难以置信的销售人员。他们说服了一位风险投资天使投资者投入了一大笔钱，所以显然他们会激励人们购买。但是，如果你的 ARR 达到 100 万，并且你拥有的客户群看起来彼此毫无相似之处，那么你的销售仍然很像传道者销售，很大程度上是创始人主导的销售，而不是你可以说，“嘿，我现在这里有一个 ICP，或者理想的客户档案，例如你可以写下来的东西。我们很好。我们的产品适合员工少于 100 人的初创公司，他们通常构建 SaaS 应用程序，”之类的话。 (00:30:14)：那么您可能已经准备好交出控制权了。然后创始人必须记住的是真正交出控制权。所以你必须让进来的人知道你正在有效地做什么，你的内容是什么，你要问的发现问题是什么？你如何处理异议，以便你可以转移这些知识，但也不要完全处理它们。您希望与客户保持联系，因为您仍然需要进行大量的研发工作，以弄清楚产品接下来会在哪里引起共鸣，随着规模的扩大，您在哪里获得库存等等。",
+   "ts": "00:29:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To close the loop on the go-to-market engineer, what's the profile of the ideal go-to-market engineer, may be your first.",
+   "zh": "为了关闭市场推广工程师的循环，理想的市场推广工程师的个人资料可能是您的首要考虑。",
+   "ts": "00:30:52"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "What we have found works really well is somebody who does have go-to-market experience. So at Vercel, our first three go-to-market engineers we're actually sales engineers. So Vercel hires very technical sales engineers, all of them were front end developers before they decided they wanted to get into sales. And so we just said, \"Hey, three of you, congrats.\" You're now founding members of our GTM Eng team. And the thing that works well there is you do understand aspects of what is good GTM, what does a process look like? It's been really interesting actually. So the gentleman who runs GTM Eng for me, we were going through this lead agent and QA-ing it. And so I'm going and I'm looking at some of the responses that we've ultimately had the lead agent send and realized, \"Oh, I wouldn't have sent that and that's because I have 20 years of sales experience and we modeled the lead agent off our best person, but our best person who has two years of sales experience.\" So it actually is important to understand the art and the science of sales and how you bring best practice to bear. Either you've done it and so you know some best practice or you're going to geek out on sales, read a bunch of books, learn a thing or two, and try to incorporate some of those into your agent development.",
+   "zh": "我们发现真正有效的是那些具有进入市场经验的人。因此，在 Vercel，我们的前三名市场推广工程师实际上是销售工程师。因此，Vercel 聘请了技术含量很高的销售工程师，他们在决定进入销售行业之前都是前端开发人员。所以我们只是说，“嘿，你们三个，恭喜。”您现在是我们 GTM 工程团队的创始成员。在那里运作良好的事情是你确实了解什么是好的 GTM，流程是什么样的？实际上这真的很有趣。因此，为我管理 GTM Eng 的那位先生，我们正在审查这位首席代理并对其进行质量检查。所以我要去查看我们最终让首席代理人发送的一些回复，并意识到，“哦，我不会发送这些回复，那是因为我有 20 年的销售经验，我们以我们最好的人为原型，但我们最好的人有两年的销售经验。”因此，了解销售的艺术和科学以及如何运用最佳实践实际上很重要。要么你已经完成了，所以你知道一些最佳实践，要么你将深入研究销售，阅读一堆书籍，学习一两件事，并尝试将其中的一些内容纳入你的代理开发中。",
+   "ts": "00:30:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really interesting. So come from the sales side, not from the engineering side. And I imagine this is such a cool opportunity for salespeople to do something completely different and move closer to engineering.",
+   "zh": "这真的很有趣。所以来自销售方面，而不是来自工程方面。我认为这对于销售人员来说是一个非常酷的机会，可以做一些完全不同的事情并更接近工程。",
+   "ts": "00:32:28"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, I mean we're having a lot of fun with it. At Vercel in particular, we basically get to be customer zero. So everything that we're building with agents, we're building on Vercel's AI cloud. So these agents now have multiple steps that they go through. So we're using Vercel's workflow SDK and workflow offering. We use the AI gateway to call the different models that we use to do deep research or other enrichment that we do. So for us it's great because we basically sort of bang on everything the engineering team is building and get to go be a discerning customer before we actually get it out the door to real customers.",
+   "zh": "是的，我的意思是我们玩得很开心。特别是在 Vercel，我们基本上成为零客户。因此，我们使用代理构建的所有内容都是在 Vercel 的 AI 云上构建的。因此，这些代理现在要经历多个步骤。因此，我们使用 Vercel 的工作流程 SDK 和工作流程产品。我们使用人工智能网关来调用我们用来进行深入研究或其他丰富工作的不同模型。所以对我们来说，这很棒，因为我们基本上对工程团队正在构建的所有东西都进行了猛烈的攻击，并在我们真正将其交付给真正的客户之前成为一个挑剔的客户。",
+   "ts": "00:32:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a fun time to be alive. I could tell the fun that you guys are having, just from the way you describe it. (00:33:29): Stripe handles the massive scale and complexity of many of the world's fastest growing enterprises, including 78% of the Forbes AI 50 and more than half of the Fortune 100 enterprises like Atlassian, Figma and Urban Outfitters use Stripe to create fully branded and customized checkout pages with access to more than 125 global payment methods. There's a reason I've had more leaders from Stripe on this podcast than any other company. They know how to build great products that scale and that people love. And Stripe is a lot more than payments. They've also got a category leading billing solution and a highly optimized checkout experience built specifically to increase your checkout conversion. Join the ranks of industry leaders like Salesforce, OpenAI and Pepsi that are using Stripe to grow faster and to grow the world's GDP, learn how Stripe can help your business grow at Stripe.com. Zooming out a little bit in terms of you mentioned tools and tools that you use. I'm curious just what are kind of the state of the art tools within the go-to-market stack that you love that you'd recommend?",
+   "zh": "活着真是太有趣了。从你们描述的方式我就能看出你们玩得很开心。 (00:33:29)：Stripe 能够处理全球许多发展最快的企业的大规模和复杂性问题，其中包括 78% 的福布斯 AI 50 强企业以及超过一半的财富 100 强企业（例如 Atlassian、Figma 和 Urban Outfitters），使用 Stripe 创建完全品牌化和定制的结账页面，并可访问超过 125 种全球支付方式。在这个播客中，来自 Stripe 的领导者数量比任何其他公司都多，这是有原因的。他们知道如何打造可扩展且人们喜爱的优秀产品。 Stripe 的用途远不止于支付。他们还拥有类别领先的计费解决方案和专门为提高结帐转化率而构建的高度优化的结帐体验。加入 Salesforce、OpenAI 和 Pepsi 等使用 Stripe 实现更快增长并提高全球 GDP 的行业领导者行列，在 Stripe.com 上了解 Stripe 如何帮助您的业务发展。稍微缩小一下您提到的工具和您使用的工具。我很好奇您喜欢推荐哪些最先进的上市工具？",
+   "ts": "00:33:22"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Well, so I'm going to have an interesting answer to this, so I'll give you one. And it's not state-of-the-art per se, although I don't mean that disparagingly, it's just that it's been around for a while now and a lot of folks use it, but I think Gong has gotten just meaningfully more interesting in the last year. And then second half of my question I will get into, I think the calculus on build versus buy is changing. So all right, Gong. Gong is incredible because you can run agents against it now. So we take all of our Gong transcripts and we dump them into an agent called the deal-bott, and that deal-bott then can do a bunch of things. So the first thing we had it do was lost opportunity review. So we had just finished Q2, we had a list of our top losses for the quarter sorted by deal size, and we ran it against that and it was incredibly interesting. (00:35:39): So the biggest loss that quarter according to the account executive was lost on price. And when you ran the agent over every Slack interaction, every email, every GONG call, it said actually you lost because you never really got in touch with an economic buyer. And when you talked to somebody about ROI and total cost of ownership, it was clear from their reaction that they didn't really buy your mass. And so really the reason we lost was an inability to demonstrate value, which upon reflection I've got work to do to build out how we quantify the value of Vercel, which actually is very easily quantifiable. It's one of the things I love about selling this product, but we got to codify that for the go-to-market team. So that was incredibly interesting and now we run it against all of our lost opportunities and actually do a much better job of categorizing why it was we really, really lost. (00:36:38): And then either feeding that back into the engineering team or back into marketing sales leadership on, hey, where are we falling short in the sales process? And so that was awesome, but then we're like, well, it's not very fun to lose, so why don't we pull that forward? And so we went from lost bot to deal-bott and now the deal-bott is running in real time and we basically feed insights into Slack. Vercel is incredibly heavy users of Slack, so we have a channel for every single customer, either opportunity or existing one. And so now we're feeding insights into that Slack channel which is, \"Hey, you're this far into the sales process and you haven't talked to an economic buyer, you should think about that.\" Or, \"Hey, you just got off that call with an economic buyer, didn't sound like it went that well. Here's some things to consider and how you might follow-up.\" (00:37:34): And last thing before I pause, the other thing that's really interesting and how we're using this too is we are in this moment where I have never seen an iteration velocity exists now in my career. My 20 plus year career has all been in tech. And so for go-to-market teams, that's really hard. If you are launching something every other day, the ability to be enabled on that is actually quite challenging. And so this bot agent is now also letting us, where we're starting to go with it is we'll release something, we'll do our best to enable the team, then we'll go run the agent across calls, interactions, and we'll diagnose where we did a bad job of objection handling, where we're getting stuck. And then at the end of the week we can have a huddle and say, okay, what are all the places that our agent would suggest we aren't selling effectively? (00:38:34): And then almost like an engineering team, we'll now run sprints, which is like those are just bugs. They're bugs in your go-to-market process, so you should not have them. And by the next week we're going to add content to our objection handling to guide. We're going to add content to a discovery guide, we're going to figure out something we need to change about our demo, so on and so forth. So that's early. That's a little bit of a preview, but that's where we're talking about taking things right now within our go-to-market orgs.",
+   "zh": "好吧，所以我对此会有一个有趣的答案，所以我会给你一个。它本身并不是最先进的，尽管我并不是贬低它，只是它已经存在了一段时间并且很多人使用它，但我认为 Kong 在去年变得更加有趣了。然后我将进入问题的后半部分，我认为构建与购买的计算正在发生变化。好吧，龚。龚是不可思议的，因为你现在可以运行特工来对抗它。因此，我们将所有的Gong 记录转储给一个名为deal-bott 的代理，然后那个deal-bott 就可以做很多事情。所以我们让它做的第一件事就是回顾失去的机会。所以我们刚刚完成第二季度，我们有一个按交易规模排序的本季度最大亏损清单，我们将其与此进行比较，这非常有趣。 (00:35:39)：据客户主管称，该季度最大的损失是价格损失。当你让代理检查每一次 Slack 互动、每封电子邮件、每一次 GONG 电话时，它实际上说你输了，因为你从未真正与经济买家取得联系。当您与某人谈论投资回报率和总体拥有成本时，从他们的反应中可以清楚地看出，他们并没有真正购买您的产品。因此，我们失败的真正原因是无法展示价值，经过反思，我需要做一些工作来确定如何量化 Vercel 的价值，而 Vercel 的价值实际上很容易量化。这是我喜欢销售该产品的原因之一，但我们必须将其编入市场团队。所以这非常有趣，现在我们针对所有失去的机会进行了分析，并且实际上更好地对我们真正失去的机会进行了分类。 (00:36:38)：然后要么将其反馈给工程团队，要么反馈给营销销售领导层，嘿，我们在销售过程中哪些地方存在不足？这真是太棒了，但我们会想，好吧，输球并不是一件很有趣的事，所以我们为什么不把它向前推进呢？因此，我们从丢失的机器人转变为交易机器人，现在交易机器人正在实时运行，我们基本上将见解输入到 Slack 中。 Vercel 是 Slack 的重度用户，因此我们为每一位客户（无论是机会客户还是现有客户）提供了一个渠道。所以现在我们正在向 Slack 渠道提供洞察，“嘿，你已经进入销售流程了这么远，而且你还没有与经济买家交谈过，你应该考虑一下。”或者，“嘿，你刚刚与一位经济买家通了电话，听起来进展不太顺利。这里有一些需要考虑的事情以及你可以如何跟进。” (00:37:34)：在我暂停之前的最后一件事，另一件真正有趣的事情以及我们如何使用它是，我们正处于我的职业生涯中从未见过迭代速度的时刻。我 20 多年的职业生涯都在科技领域。因此，对于进入市场的团队来说，这确实很难。如果您每隔一天就启动一些东西，那么启用它的能力实际上是相当具有挑战性的。所以这个机器人代理现在也让我们这么做，我们开始做的是我们将发布一些东西，我们将尽最大努力为团队提供支持，然后我们将在呼叫、交互中运行代理，我们将诊断我们在异议处理方面做得不好的地方，我们在哪里陷入困境。然后在周末，我们可以聚在一起讨论，好吧，我们的代理商会建议我们哪些地方销售效果不佳？ (00:38:34)：然后就像一个工程团队一样，我们现在将运行冲刺，就好像这些只是错误一样。它们是您的上市流程中的错误，因此您不应该拥有它们。到下周，我们将在异议处理中添加内容以提供指导。我们将向发现指南添加内容，我们将找出需要对演示进行更改的内容，等等。所以说还早。这只是一个预览，但这就是我们现在正在讨论的在我们的市场营销组织中采取行动的地方。",
+   "ts": "00:34:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Jeanne, you're blowing my mind in so many ways, it just sounds so fun and just you guys are going to win is what I'm feeling when I hear all this. Incredible. What I love about this is this AI tool, this agent you built sees things that humans were not seeing. The fact that you were surprised of just like this is a completely different conclusion is such a big deal. This is the whole promise of ai, it's going to do things we aren't even thinking about or capable of.",
+   "zh": "珍妮，你在很多方面都让我大吃一惊，这听起来很有趣，当我听到这一切时，我的感受就是你们会赢。极好的。我喜欢这个人工智能工具，你构建的这个代理可以看到人类看不到的东西。令你惊讶的是，这是一个完全不同的结论，这真是一件大事。这就是人工智能的全部承诺，它将做我们想不到或没有能力做的事情。",
+   "ts": "00:39:00"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "It is. We had a really interesting, one of the things we're doing at Vercel, we have an AI cloud, so people use that to put AI-native features into their customer-facing applications, but they're also using it to build internal applications to improve productivity or outcomes. And we are talking to a very large airline and that airline obviously gets tons and tons of support queries. So of course they would want to go apply AI to hey, how can we have AI answer these so that our cost to support goes down, sort of the obvious thing. But the more interesting conversation was actually with one of the C-level executives who said, we also actually transcribe every single one of those support calls. And so what I really want to know is why are they calling and how do I make it so that fewer people call the next week? And so again, this is now with AI, you can rapidly go through all of that content and actually be able to much more quickly than having a human in your CRM sort of pick some status why it was that folks were calling the airline this week and what if anything you can do to make it less the case next week.",
+   "zh": "这是。我们在 Vercel 正在做的事情之一非常有趣，我们拥有 AI 云，因此人们使用它来将 AI 原生功能放入面向客户的应用程序中，但他们也使用它来构建内部应用程序以提高生产力或结果。我们正在与一家非常大的航空公司交谈，该航空公司显然收到了大量的支持查询。所以他们当然想要应用人工智能来嘿，我们怎样才能让人工智能回答这些问题，以便我们的支持成本下降，这是显而易见的事情。但更有趣的对话实际上是与一位 C 级高管的对话，他说，我们实际上还转录了每一个支持电话。所以我真正想知道的是他们为什么打电话，以及我如何才能减少下周打电话的人？再说一次，现在有了人工智能，你可以快速浏览所有这些内容，实际上比在你的 CRM 中让人工更快地选择一些状态，为什么人们这周给航空公司打电话，以及如果你能做些什么来减少下周的情况。",
+   "ts": "00:39:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I imagine many people hearing this are like, \"I need one of these deal-botts and lost bots.\" These are all internal products that you all built?",
+   "zh": "我想很多人听到这句话都会想，“我需要这些交易机器人和丢失的机器人之一。”这些都是你们内部做的产品吗？",
+   "ts": "00:40:39"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:40:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there anything that you've learned about making them this good? Any tips you can share of here's how to make a really good bot for sales?",
+   "zh": "您是否学到了什么才能让它们变得如此出色？您可以分享一下如何制作真正优秀的销售机器人的任何技巧吗？",
+   "ts": "00:40:47"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yes, so actually that's the second half of my answer that I forgot.",
+   "zh": "是的，实际上这是我忘记的答案的后半部分。",
+   "ts": "00:40:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's perfect.",
+   "zh": "那很完美。",
+   "ts": "00:41:00"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Which is sort of like bill versus buy calculus. So I think one of our learnings is that it's not that hard to build these agents and they aren't that expensive either. So I mentioned the lead agent that was a six-week process with one human, a third of his time, that deal-bott, the lost bot version was two days basically we riffed on it, he had it 40 hours later. Now we're continuing to refine it for the other things I mentioned. And what's also interesting about them is they for better or for worse for Vercel, but that lead agent which runs full stack on Vercel, will cost us about a thousand dollars to run for the entire year. If you remember I told you we had 10 people in the SDR function, so I'm paying well over a million dollars for that from a salary perspective. (00:41:57): I got that down to one. And then behind that I have a lead agent that costs a thousand bucks. So that's like a 90%-plus reduction in total cost there. And there's lots of software for agents out there right now. And I think one of the things we're learning is because this whole space is so nascent, often your own esoteric context, your content, your workflow is really key to unlocking the power of the agent. And so I think there's real value in experimenting with your own internal agent development. We may ultimately end up on better integrated agent platforms in the fullness of time, or we may find that the CIO increasingly goes from a procurer of software to a builder of software and you'll have an AI internal platform with a thousand agents running across your org. I'm not really sure yet. But I certainly think there's value in trying it yourself because you may find that it's meaningfully easier than you think and you get returns pretty quickly.",
+   "zh": "这有点像账单与购买的计算。所以我认为我们的经验之一是构建这些代理并不难，而且它们也不是那么昂贵。所以我提到了首席代理，这是一个人的六周过程，三分之一的时间，那个交易机器人，丢失的机器人版本基本上是我们重复的两天，他在 40 小时后得到了它。现在我们正在继续针对我提到的其他内容进行完善。同样有趣的是，它们对 Vercel 来说是好是坏，但在 Vercel 上运行全栈的首席代理将花费我们大约 1000 美元来运行一整年。如果您还记得我告诉过您，我们有 10 名 SDR 职能人员，那么从薪资角度来看，我为此支付的费用远远超过 100 万美元。 (00:41:57)：我把它归结为一。然后我有一个花费一千美元的首席经纪人。因此，总成本降低了 90% 以上。现在有很多针对代理的软件。我认为我们正在学习的一件事是因为整个空间是如此新生，通常你自己深奥的背景、你的内容、你的工作流程确实是释放代理力量的关键。因此，我认为尝试自己的内部代理开发具有真正的价值。随着时间的推移，我们最终可能会得到更好的集成代理平台，或者我们可能会发现 CIO 越来越多地从软件采购者转变为软件构建者，并且您将拥有一个人工智能内部平台，在您的组织中运行着一千个代理。我还不太确定。但我当然认为自己尝试是有价值的，因为你可能会发现它比你想象的要容易得多，而且你很快就能得到回报。",
+   "ts": "00:41:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So what I'm hearing here is that you're finding that there are not tools out there to plug and play. The alpha is essentially in building your own stuff.",
+   "zh": "所以我在这里听到的是，您发现没有可以即插即用的工具。阿尔法本质上是构建你自己的东西。",
+   "ts": "00:43:10"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "I think that's partially true, and I think because you also have all these tools proliferating right now, you get into the perennial problem where you wind up with 20 of them to do the 20 jobs to be done basically, rather than an integrated platform that's doing all of them. I'm hearing this a lot actually when I'm talking to customers right now where their biggest issue in deploying AI is actually just getting through procurement and it's because got an AI mandate, you kind of have a blank check. I recently heard the term of instead of ARR, it's ERR, which is experimental run rate revenue, which is to say everyone's out there sort of, Hey, we're going to give this thing a go for a year and then TBD on whether or not we keep it. But basically you're having to procure 20 different things. Most things are getting off the ground and so they're solving something relatively narrow and that'll change in the fullness of time. But I do think there's an opportunity to figure out, hey, where do I likely have a more specific workflow internally. For that it might be worth building your own agent and then maybe for the things that are a little bit more generalizable, you go get something off the shelf.",
+   "zh": "我认为这部分是正确的，而且我认为因为现在所有这些工具都在激增，所以您会遇到一个长期存在的问题，即最终需要使用其中的 20 个工具来完成基本上要完成的 20 项工作，而不是一个可以完成所有这些工作的集成平台。事实上，当我现在与客户交谈时，我经常听到这样的说法，他们部署人工智能的最大问题实际上只是通过采购，这是因为获得了人工智能授权，你就拥有了一张空白支票。我最近听到的术语不是ARR，而是ERR，这是实验性的运行率收入，也就是说每个人都在说，嘿，我们将尝试这个东西一年，然后待定我们是否保留它。但基本上你必须采购 20 种不同的东西。大多数事情都在顺利进行，所以他们正在解决一些相对狭窄的问题，随着时间的推移，这些问题将会发生变化。但我确实认为有机会弄清楚，嘿，我内部可能在哪里有更具体的工作流程。为此，可能值得构建自己的代理，然后对于更通用的东西，您可以去购买现成的东西。",
+   "ts": "00:43:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any platforms or tools that you want to shout out that allow you to build these agents so quickly? I know they sit on Versel, so shout out Vercel. But just anything that you point people to you to... These SDR, these GTM engineers, they're former salespeople. Are they learning to code? Are they byte coding these agents? How does that work?",
+   "zh": "是否有任何您想要大声疾呼的平台或工具可以让您如此快速地构建这些代理？我知道他们坐在 Vercel 上，所以大声喊出 Vercel。但只要你向人们介绍你的任何事情……这些 SDR、这些 GTM 工程师，他们都是前销售人员。他们正在学习编码吗？他们对这些代理进行字节编码吗？这是如何运作的？",
+   "ts": "00:44:34"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "So our sales engineers all have CS degrees. So they were engineers in a sales capacity, so they're writing code and actually these agents, they're building directly on Versel. So you get the AI gateway that lets you call different models. You have a sandbox if you're running untrusted code, you've got workflows that let you build the process. You've got fluid compute, which lets you really efficiently use compute when you only need it. So we're just sort of building it from the ground up here. Again, it's not that hard. Now you do need to write code for that. Certainly there are a lot of vibe coding tools out there that also give you more workflow builders that are somewhere between fully WYSIWYG, almost like drag and drop and a little bit more code forward. So you've got a bunch out there along those lines. But I do think we've sort of found one of the reasons actually the GTM Eng team at Versel can build these agents so easily is because the Versel platform is making it that easy to use our framework to find infrastructure and get that agent onto into production very rapidly.",
+   "zh": "所以我们的销售工程师都有CS学位。所以他们是具有销售能力的工程师，所以他们正在编写代码，实际上这些代理，他们直接在 Versel 上构建。这样您就可以获得可以调用不同模型的 AI 网关。如果您正在运行不受信任的代码，那么您就有了一个沙箱，您就有了可以构建流程的工作流程。您拥有流畅的计算，这让您可以在仅需要时真正有效地使用计算。所以我们只是从头开始构建它。再说一遍，这并不难。现在您确实需要为此编写代码。当然，有很多氛围编码工具也为您提供了更多介于完全所见即所得之间的工作流构建器，几乎就像拖放和更多的代码转发。所以你已经有很多这样的人了。但我确实认为我们已经找到了 Versel 的 GTM Eng 团队实际上可以如此轻松地构建这些代理的原因之一，因为 Versel 平台使我们可以轻松地使用我们的框架来查找基础设施并非常快速地将代理投入生产。",
+   "ts": "00:44:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a neat, unfair advantage you all have to do this stuff.",
+   "zh": "你们做这件事是多么巧妙、不公平的优势啊。",
+   "ts": "00:46:11"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yes, it is fun to... I mean, I do think this company is better than any I've seen at eating its own dog food and just everyone is constantly, we say Versel builds Versel with Versel. So you're just always looking for ways to, Hey, how can we use our product to go do what we need to do? And as a result, either understand then what a customer would want or what's missing from our product that we could go make better.",
+   "zh": "是的，这很有趣……我的意思是，我确实认为这家公司比我见过的任何一家公司都更善于吃自己的狗粮，而且每个人都在不断地，我们说 Versel 用 Versel 打造 Versel。所以你总是在寻找方法，嘿，我们如何使用我们的产品来做我们需要做的事情？因此，要么了解客户想要什么，要么了解我们的产品缺少哪些我们可以改进的地方。",
+   "ts": "00:46:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Along these lines, something that's already come across a lot in the way that you described this stuff is I've heard a lot about how you think about go-to-market as a product. A lot of people listening to this, as I've said, are product builders. So I think this is a really nice way of thinking about go-to-market. I'm guessing you've already talked about elements of this, but just what's a way to think about go-to-market as a product?",
+   "zh": "沿着这些思路，我已经听过很多关于您如何看待产品上市的问题。正如我所说，很多听这个的人都是产品开发者。所以我认为这是一种非常好的思考进入市场的方式。我猜您已经讨论过其中的要素，但是如何看待产品进入市场呢？",
+   "ts": "00:46:37"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, I've always, so I had this realization probably a little over a decade ago in my career. So my first job out of college was working on Gmail in 2004. So Gmail launched on April 1st, I joined on June 1st. And as I'm sure you'll remember as well, Gmail was this incredible innovation, massive JavaScript application that didn't really exist at the time. And it had this gig of storage. It was a full year before Yahoo Mail caught up and even longer before Hotmail and others did. So that was the level of technical differentiation between Gmail and the next best. And a decade later, you had cloud computing enabling folks to do stuff that you never would've been able to do previously. And so I kind of felt like, huh, software's starting to commoditize a little bit. And so when that happens, when technical differentiation kind of narrows, what are other things that will differentiate you? (00:48:01): And I was started thinking outside of tech, we buy a lot of things because of how we feel about them. And so I started to develop this thesis that actually the experience that you have of being sold to will increasingly actually differentiate a company and drive buying decisions if products are only different at the margin. And so if you believe that, then you really want to create a customer buying journey that feels like very unique experiences. And so we did a lot of this at Stripe and now we're looking to replicate this here. But an example of one of the things I think we did really nicely at Stripe was a lot of companies sales, the first call after you're qualified, we've decided you're worth engaging in sales process is discovery, which is basically let me ask you a lot of questions to try to under-uncover paint, figure out where buying power lies, et cetera. (00:49:03): And so that is kind of boring sometimes for a customer. You're basically being quizzed often on the phone. And so what we started to do at Stripe was that first session was a whiteboarding session, and we would actually get together and have you draw your architecture for payments and all the other things that were under the hood to enable you to take money and drive customer outcomes. And through that we would learn a ton about what was in your stack, what we were going to have to compete with, displace where value lied. But the customer also learned a lot themselves because in many cases they'd never drawn their architecture diagram. And so they left that meeting with an asset and a sense of like, \"Wow, this is a really collaborative person who's deeply interested in helping me develop a mental model for how to think about this.\" And then we had other things that we would do. (00:50:00): So that's sort of how I think about building go-to-market-like a product is basically you need to go through from the first time you become aware that the company exists to again, that sort of five-year heavily retained wall-to-wall customer a set of experiences. And those experiences can feel transactional, flat, boring, or they can feel very human, personalized and unique. And so we try to go map those out and figure out how do you bring the product to bear, make it really human, and hopefully that creates a customer for life in the end.",
+   "zh": "是的，我一直都是这样，所以我可能在十多年前的职业生涯中就意识到了这一点。我大学毕业后的第一份工作是 2004 年的 Gmail。Gmail 于 4 月 1 日推出，我于 6 月 1 日加入。我相信您也会记得，Gmail 是一项令人难以置信的创新，是当时还不存在的大型 JavaScript 应用程序。它有这么大的存储空间。雅虎邮箱花了整整一年才赶上，甚至比 Hotmail 和其他公司还要早。这就是 Gmail 与次优产品之间的技术差异水平。十年后，云计算使人们能够做以前无法做的事情。所以我觉得，嗯，软件开始商品化了一点。因此，当这种情况发生时，当技术差异化缩小时，还有哪些其他因素可以使您与众不同？ (00:48:01)：我开始思考科技之外的问题，我们购买很多东西是因为我们对它们的感觉。所以我开始发展这个论文，实际上，如果产品只是在边际上有所不同，那么你所拥有的销售经验实际上会越来越使一家公司脱颖而出，并推动购买决策。因此，如果您相信这一点，那么您确实想创建一个感觉非常独特的客户购买旅程。我们在 Stripe 做了很多这样的事情，现在我们希望在这里复制这一点。但我认为我们在 Stripe 做得非常好的一件事的一个例子是很多公司的销售，在你合格后的第一个电话，我们认为你值得参与销售流程是发现，这基本上是让我问你很多问题，试图揭开油漆的真相，弄清楚购买力在哪里，等等。 (00:49:03)：所以有时这对客户来说有点无聊。基本上你经常在电话里被问到。因此，我们在 Stripe 开始做的是，第一场会议是白板会议，我们实际上会聚在一起，让你绘制支付架构和所有其他幕后的东西，使你能够赚钱并推动客户成果。通过这些，我们可以大量了解你的堆栈中有什么，我们将不得不与之竞争，取代价值所在。但客户自己也学到了很多东西，因为在很多情况下他们从未绘制过架构图。因此，他们在离开那次会议时，带着一种资产和一种感觉，“哇，这是一个非常善于合作的人，他非常有兴趣帮助我建立一个如何思考这个问题的心理模型。”然后我们还有其他要做的事情。 (00:50:00)：这就是我对构建进入市场的产品的看法，基本上你需要经历从你第一次意识到公司存在到再次，那种五年大量保留的全方位客户的一系列体验。这些体验可能让人感觉事务性、平淡、无聊，也可能感觉非常人性化、个性化和独特。因此，我们尝试将这些内容绘制出来，并弄清楚如何使产品发挥作用，使其真正人性化，并希望最终能创造出终生客户。",
+   "ts": "00:46:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that whiteboarding example. Are there any other examples of what you've done to make it actually work really well in this way?",
+   "zh": "我喜欢那个白板示例。还有其他例子可以说明您为使其以这种方式真正发挥作用而所做的工作吗？",
+   "ts": "00:50:37"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah. Another principle, we really developed this at Stripe too and I brought it to Vercel, was just the idea of adding value at any touch point regardless of whether or not that customer bought. Because even if customers don't buy, you often find that if you miss them on that buying cycle, three or four years later when they're in another buying cycle, they do come back. I was at Stripe for nine years and so I saw the number of customers that we lost and then half a decade later, here they are and they bought. So that was sort of another one. So examples of this that were doing at Vercel is there's great data on the internet that helps people understand the performance of their website and how fast your website is actually impacts SEO. And SEO impacts AEO and everybody's thinking about AEO right now. And, so one of the things we try to do when we reach out is actually give folks insight immediately into how they're performing on an absolute basis, how they're performing relative to peers. So ideally that piques your interest and you want to learn more from us, but even if it doesn't, you still have insights that you may or may not have been aware of that maybe make you contemplate whether or not you've got the optimal setup.",
+   "zh": "是的。另一个原则，我们在 Stripe 也确实开发了这个，我把它带到了 Vercel，就是在任何接触点增加价值的想法，无论客户是否购买。因为即使客户不购买，你也经常会发现，如果你在那个购买周期中错过了他们，那么三四年后，当他们处于另一个购买周期时，他们确实会回来。我在 Stripe 工作了九年，所以我看到了我们失去的客户数量，然后五年后，他们就在这里并购买了。所以那是另一种情况。 Vercel 所做的例子是，互联网上有大量数据可以帮助人们了解其网站的性能以及您的网站对 SEO 的实际影响有多快。 SEO 影响 AEO，现在每个人都在考虑 AEO。而且，因此，当我们伸出援手时，我们尝试做的一件事实际上是让人们立即了解他们在绝对基础上的表现如何，以及他们相对于同行的表现如何。因此，理想情况下，这会激起您的兴趣，并且您想向我们了解更多信息，但即使没有，您仍然有一些您可能意识到或可能没有意识到的见解，这可能会让您思考是否拥有最佳设置。",
+   "ts": "00:50:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So what I'm hearing here is when you say, think of it like a product that's basically a product person thinks about the experience of their product, that every step of the journey, here's the flow, step 1, 2, 3, 4, 5, how do we make every step awesome, keep them going along that journey. And so what you think about is just from the prospect's perspective, how do we make every step of that journey awesome, continue them down that journey.",
+   "zh": "惊人的。所以我在这里听到的是，当你说，把它想象成一个产品，基本上是一个产品人员思考他们产品的体验，旅程的每一步，这是流程，步骤 1、2、3、4、5，我们如何让每一步都很棒，让他们沿着这个旅程前进。因此，您所考虑的只是从潜在客户的角度来看，我们如何使该旅程的每一步都变得精彩，并继续下去。",
+   "ts": "00:52:07"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah. How do you make it be an experience rather than a transaction",
+   "zh": "是的。如何让它成为一种体验而不是交易",
+   "ts": "00:52:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Versus just feel like sales coming at you trying to sell you stuff?",
+   "zh": "还是只是感觉销售人员向你推销东西？",
+   "ts": "00:52:35"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:52:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Staying along this track of staying tactical, I want to go even further there. So what are just some go-to-market tactics that you find really effective these days for people trying to just to be more successful in getting people to pay attention to their stuff, to buy their stuff?",
+   "zh": "好的。沿着保持战术的轨道，我想走得更远。那么，对于那些试图更成功地让人们关注他们的东西、购买他们的东西的人来说，你发现现在真正有效的一些进入市场策略是什么呢？",
+   "ts": "00:52:38"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "I mean, one I would sort of say dovetails with where I just ended, but is what are the unique insights that you can bring to bear about your product or how that customer may be in a suboptimal state? So I do think investing in data to tease that out is one thing. I think the other thing this is straightforward but often not done enough is a lot of good companies invest in docs, good thing to do, but they stop there. And particularly if you are selling into a slightly larger company doing things like, AWS calls it well-architected guides or blueprints, a lot of customers, particularly larger ones, really want to know the best practice for how exactly to implement your product with their particular setup. A great example of this, this is from Stripe, was Stripe was excellent at marketplaces. Most, Lyft, Instacart, DoorDash, they were all on Stripe. (00:54:07): And so Stripe definitely knew the best way to set up payments for a marketplace because we'd seen them all. And so when you then would go and sell a marketplace and say, \"Oh yeah, we've got docs, go check them out.\" They didn't like that, because they're like, \"Hey, every marketplace runs on Stripe. I don't want to look at generic docs. I want you to tell me what's the best way to set up payments for a marketplace.\" And so I think that's another key thing to be doing, particularly as you move past that sort of solo developer startup founder as potentially a target audience. (00:54:39): And then, I don't know if this is a tactic per se, but I do think just a good reminder for founders in particular who are still in that maybe founder-led sales moment is just the value of really good discovery. I often find founders are so excited about talking about their product or you ask one question and now they've got a hook of like, oh, I can fix that for you. But excellent salespeople typically will talk well under half the time in a conversation because they're out asking questions, probing often helping a customer arrive at conclusions on their own. And so learning how to do five why's, go deep rather than immediately going into problem solving mode. If they ask a question, you respond often. If they ask a question, you should ask a question about the question and then respond. So learning to be great at that, I think differentiates people.",
+   "zh": "我的意思是，我想说的这一点与我刚刚结束的内容相吻合，但你可以对你的产品产生哪些独特的见解，或者客户如何可能处于次优状态？所以我确实认为投资数据来弄清楚这一点是一回事。我认为另一件事很简单，但往往做得不够，是很多优秀的公司投资于文档，这是一件好事，但他们就此止步。特别是如果您向一家规模稍大的公司销售产品，例如 AWS 称之为架构良好的指南或蓝图，很多客户，尤其是规模较大的客户，确实想知道如何通过其特定设置准确实施您的产品的最佳实践。 Stripe 就是一个很好的例子，Stripe 在市场上表现出色。大多数 Lyft、Instacart、DoorDash 都在 Stripe 上。 (00:54:07)：因此 Stripe 肯定知道为市场设置付款的最佳方式，因为我们已经见过所有这些方式。因此，当你去市场销售并说：“哦，是的，我们有文档，去看看吧。”他们不喜欢这样，因为他们会说，“嘿，每个市场都在 Stripe 上运行。我不想看通用文档。我希望你告诉我为市场设置付款的最佳方式是什么。”因此，我认为这是要做的另一件关键事情，特别是当你超越那种单独开发者初创公司创始人作为潜在目标受众时。 (00:54:39)：然后，我不知道这本身是否是一种策略，但我确实认为这对创始人来说是一个很好的提醒，尤其是那些仍然处于创始人主导的销售时刻的人，这就是真正好的发现的价值。我经常发现创始人在谈论他们的产品时非常兴奋，或者你问一个问题，现在他们有一种想法，哦，我可以帮你解决这个问题。但优秀的销售人员在谈话中的发言时间通常会少于一半，因为他们会提出问题，进行探究，从而帮助客户自己得出结论。因此，学习如何做“五个为什么”，要深入而不是立即进入问题解决模式。如果他们问问题，你经常回答。如果他们问问题，你应该问有关问题的问题，然后回答。因此，我认为学习在这方面做得很好，可以使人与众不同。",
+   "ts": "00:52:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So the last tip, I think there's something a lot of I bet everyone could learn is just listen more and talk less.",
+   "zh": "所以最后一个建议，我认为每个人都可以学到很多东西，那就是多听少说。",
+   "ts": "00:55:43"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yep.",
+   "zh": "是的。",
+   "ts": "00:55:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On that first piece of advice, this kind of sharing unique insights and how your suboptimal, is there an example you could share of how you did that? Maybe a story of just how you convinced someone you're selling Striper or Vercel like care or something you're missing. Here's how this could help you become much better.",
+   "zh": "关于第一个建议，这种分享独特的见解以及您的次优程度，您是否可以分享一个例子来说明您是如何做到这一点的？也许是一个关于您如何说服某人出售 Striper 或 Vercel 的故事，例如护理或您缺少的东西。以下是这可以如何帮助您变得更好。",
+   "ts": "00:55:49"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "So with Vercel, sort of giving an example, but I'll make it more specific. So the performance point, you can go and look at core web Vitals, and so we can actually see the different things within their site that are fast or load correctly, et cetera, so anyone can go look that up. But what we can do is actually then help with benchmarking relative to peers. So that's been a big one that we've gone out and done. The other one that we've spent some good time on is just around helping customers understand MCP servers and when it would make sense to use one. So I think those are all the rage, but often people don't know how to contemplate them within their own product. So that was another one that we've gone pretty deep on and then related to, the first one is AEO Answer engine optimization is actually somewhat tangential to Vercel right. (00:57:09): So we drive performance, performance drives SEO. SEO is an input into AEO, but we have spent a ton of time sharing insights on AEO because we ourselves focus deeply on it and think we understand it better than many. And so again, as part of just building a trusted relationship, folks may go from those AMAs or that content into, okay, great, you taught me a lot and therefore I want Vercel to help me with performance. But in many cases, they actually now are just like, \"This is a company that seems insightful, it seems like one I can learn from, and now I'm going to pay a little bit more attention to them.\" And over the fullness of time, maybe they see something that triggers them to decide, \"Now is the time I want to go investigate that aspect of Vercel.\"",
+   "zh": "对于 Vercel，我举了一个例子，但我会说得更具体。因此，就性能而言，您可以去查看核心网络生命周期，因此我们实际上可以看到其网站中快速或正确加载的不同内容，等等，因此任何人都可以去查找。但我们实际上能做的就是帮助进行与同行的基准测试。所以这是我们出去做的一件大事。我们花费了大量时间的另一件事是帮助客户了解 MCP 服务器以及何时使用 MCP 服务器有意义。所以我认为这些都很流行，但人们通常不知道如何在自己的产品中考虑它们。这是我们已经深入研究并与之相关的另一个问题，第一个是 AEO 答案引擎优化实际上与 Vercel 有点不相关。 (00:57:09)：所以我们推动绩效，绩效推动 SEO。 SEO 是 AEO 的一个投入，但我们花了很多时间分享对 AEO 的见解，因为我们自己深度关注它，并且认为我们比许多人更了解它。再次强调，作为建立信任关系的一部分，人们可能会从这些 AMA 或内容中转入，好吧，太棒了，你教会了我很多东西，因此我希望 Vercel 帮助我提高表现。但在很多情况下，他们现在实际上就像是，“这是一家看起来很有洞察力的公司，看起来是我可以学习的公司，现在我要多关注他们一点。”随着时间的推移，也许他们看到了一些东西，促使他们做出决定，“现在是我想去调查 Vercel 的那个方面的时候了。”",
+   "ts": "00:56:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So what I'm hearing here in many ways, and this resonates, I had Jenna Abel on the podcast recently and it was all about sales skills and how to sell.",
+   "zh": "惊人的。所以我在这里从很多方面听到的，这引起了共鸣，我最近在播客上邀请了珍娜·阿贝尔，内容都是关于销售技巧和如何销售的。",
+   "ts": "00:57:55"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Nice.",
+   "zh": "好的。",
+   "ts": "00:58:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And one of her tips is you don't want to be focusing on here's the pain and problem we're solving and instead focus on here's how you will be better than your competitors. Here's the big gap and alpha that you can achieve. If you use Vercel, you were missing out on speed and you're going to get screwed in AEO and all these things. Here's how you can architect your entire payments system to be top tier. Does that resonate?",
+   "zh": "她的建议之一是，你不想专注于我们正在解决的痛苦和问题，而是专注于你将如何比竞争对手做得更好。这是您可以实现的最大差距和阿尔法。如果您使用 Vercel，您就会失去速度，并且会陷入 AEO 和所有这些事情中。以下是您如何将整个支付系统构建为顶级的。这引起共鸣吗？",
+   "ts": "00:58:02"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, I was told this stat. It's round numbers, so I can't imagine it's entirely accurate, but basically that customers, 80% of customers buy to avoid pain or reduce risk as opposed to the other one out of five to increase upside, which is a good thing again for startup founders to understand. So we all love to talk about the art of the possible, everything we're going to enable in the future. It's very exciting. Everyone's visionaries, but that's often really a sale that's going to resonate with another founder. And for everybody else, particularly enterprises, you're avoiding the risk of not making your revenue target next quarter, the risk of being outdone by the competition, the risk of having brand damage, et cetera. And so it's really hard actually for many startups to make that pivot because it feels off brand, but it does actually drive more buying behavior, is setting up a little bit of that concern that either I might not be well positioned or again through good question asking. I know exactly where I'm not well positioned and you can help me, that",
+   "zh": "是的，有人告诉我这个统计数据。这是整数，所以我无法想象它是完全准确的，但基本上，80% 的客户购买是为了避免痛苦或降低风险，而不是另外五分之一的客户是为了增加收益，这对初创公司创始人来说又是一件好事。所以我们都喜欢谈论可能性的艺术，以及我们未来将实现的一切。这非常令人兴奋。每个人都是有远见的人，但这往往是一次真正能引起另一位创始人共鸣的销售。对于其他所有人，尤其是企业来说，您要避免下季度无法实现收入目标的风险、被竞争对手超越的风险、品牌受损的风险等等。因此，对于许多初创公司来说，实际上很难做出这样的转变，因为它感觉与品牌不符，但它确实推动了更多的购买行为，引发了一些担忧，即我可能没有很好的定位，或者再次通过良好的提问。我清楚地知道我在哪里没有做好，你可以帮助我，那",
+   "ts": "00:58:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is such an important stat you shared. This has come up actually before in this podcast that buying, people are buying in large part to reduce risks, to basically not hurt themselves in their career, not hurt the company. That's a bigger factor in the buying decision than, \"I have this problem I need to solve. And okay, thank you, this is solving.\" And the way April Dunford came in the podcast and talked about this of just like it's such a massive career bet. We are going to bring in product X and it's going to become, like Stripe, let's say, let's not talk about Versel. But let's say Stripe, we're going to adopt Stripe. That's a huge decision. If it doesn't go well, your career is hurt, your manager is going to be mad at you, it's going to set your company back. So a lot of the buying decision, as you've said is I just don't want to screw this up.",
+   "zh": "这是您分享的非常重要的统计数据。这实际上已经在这个播客中提到过，人们购买很大程度上是为了降低风险，基本上不会伤害自己的职业生涯，也不会伤害公司。这是影响购买决定的一个更重要的因素，而不是“我有这个问题需要解决。好吧，谢谢，这正在解决。”阿普丽尔·邓福德 (April Dunford) 在播客中谈到这一点，就像这是一个巨大的职业赌注。我们将引入产品 X，它将变得像 Stripe 一样，我们不谈 Versel。但是让我们说 Stripe，我们将采用 Stripe。这是一个巨大的决定。如果进展不顺利，你的职业生涯就会受到损害，你的经理会对你生气，这会让你的公司倒退。正如你所说，很多购买决定都是我不想搞砸。",
+   "ts": "00:59:53"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Right. Absolutely.",
+   "zh": "正确的。绝对地。",
+   "ts": "01:00:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Along the line of tactics, something that I know you're a big fan of and help people think about is segmentation.",
+   "zh": "好的。在策略方面，我知道您非常喜欢并帮助人们思考细分。",
+   "ts": "01:00:37"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:00:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is something a lot of founders struggle with. They know, \"Okay, I need to figure out my segmentation strategy and here where we're going after.\" Can you just give us a primer on segmentation, what people should know about why this is important and then how they might approach this.",
+   "zh": "这是很多创始人都在努力解决的问题。他们知道，“好吧，我需要弄清楚我的细分策略以及我们要追求的目标。”您能否给我们介绍一下细分的入门知识，人们应该了解什么，为什么它很重要，以及他们如何处理这个问题。",
+   "ts": "01:00:45"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "So segmentation is basically how do you carve up the world of companies that exist on the planet to reason about them where they buy differently? So I'll give examples from Stripe and Versel to bring this home. So a very typical company segmentation is small, medium, large. That's a rational way to do things. Small, you often have a single decision maker, medium, a small team, and large, it's complex, it's a committee, et cetera. So the buying process does change across SMB, mid-market enterprise, but if you stop there, you are likely missing. But what are the things within your offering that also change the way something gets sold? So at Stripe, there were two ways we further cut the business. Way one was, so think of segmentation as a graph. So X-Access was size, so small, medium, large, y-access was growth potential. And that was important for Stripe because it was a consumption-based business. (01:02:10): So if you were going to grow at 200% year-on-year, you were more valuable to Stripe than if you were going to grow at 8% year-on-year. And so we wanted to spend more time, spend more money going after the 200% growers than the 8%. So that was one that informed your strategy on who you targeted. And then for Stripe, the other thing that we cut it was business model. So are you a B2B? Are you B2C? Are you B2B2B, E.G. a platform or B2B2C, E.G. a marketplace and why is that relevant? Well, if you're B2B, you are going to need business payments. Credit card was useful for a PLG function or PLG sale, but you were going to need ACH wires, etc. And you probably had a recurring business, so you were going to want Stripe billing. If you were B2C, that's consumer. (01:03:00): So you're going to want consumer payments. Apple Pay is super important. If you were in the platform or the marketplace, you were going to buy our connect product. So it helped us basically then craft a more targeted and replicable sales. Vercel, sort of similar deals. So small, medium, large buying complexity. We also do the same thing on growth potential because we are similarly a consumption based business, but for us, a couple other things on the X-axis, we layer in promote, which is one of the things that is observable is traffic, site traffic on the internet. So Google publishes a Crux score, which is basically they have a bunch of data in Chrome, and so they know that Lenny's site gets a million XC amount-",
+   "zh": "因此，细分基本上就是如何划分地球上存在的公司世界，以推理出他们在哪里进行不同的购买？因此，我将举 Stripe 和 Versel 的例子来带大家了解这一点。因此，一个非常典型的公司细分是小型、中型、大型。这是一种理性的做事方式。小的，通常只有一个决策者；中的，一个小团队；大的，它很复杂，是一个委员会，等等。因此，中小型企业和中端市场企业的购买流程确实发生了变化，但如果您就此止步，您可能会迷失方向。但是，您的产品中有哪些内容也会改变商品的销售方式呢？因此，在 Stripe，我们通过两种方式进一步削减业务。第一种方法是，将分段视为图表。所以 X-Access 是规模，所以小型、中型、大型、y-access 是增长潜力。这对于 Stripe 来说很重要，因为它是一个基于消费的业务。 (01:02:10)：因此，如果同比增长 200%，那么对 Stripe 来说，比同比增长 8% 更有价值。因此，我们希望花更多的时间、更多的钱来追随 200% 的种植者，而不是 8% 的种植者。因此，这可以告诉你你的目标对象的策略。对于 Stripe，我们削减的另一件事是商业模式。那么您是 B2B 吗？你是B2C吗？您是 B2B2B 吗？平台或 B2B2C，例如一个市场，为什么它具有相关性？好吧，如果您是 B2B，那么您将需要商业付款。信用卡对于 PLG 功能或 PLG 销售很有用，但您将需要 ACH 电汇等。而且您可能有经常性业务，因此您需要 Stripe 计费。如果你是 B2C，那就是消费者。 (01:03:00)：所以你需要消费者付款。 Apple Pay 非常重要。如果您在平台或市场上，您就会购买我们的连接产品。所以它基本上帮助我们制定了更有针对性和可复制的销售。 Vercel，类似的交易。小型、中型、大型购买的复杂性。我们在增长潜力方面也做了同样的事情，因为我们同样是一家基于消费的企业，但对我们来说，X轴上的其他一些事情，我们在推广中分层，这是可观察到的事情之一，即互联网上的流量、网站流量。所以谷歌发布了一个 Crux 分数，这基本上是他们在 Chrome 中拥有一堆数据，所以他们知道 Lenny 的网站获得了 100 万 XC 金额 -",
+   "ts": "01:00:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Millions.",
+   "zh": "百万。",
+   "ts": "01:03:48"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "... volume that Jeanne's site does. And so basically if you are a small company but you have super high traffic that's going to be more complex, Vercel is going to make more money and so we want to promote you. (01:04:02): So great example of this would be OpenAI. OpenAI, I forget these days how many employees it has. Let's say it's 3,000, it's probably more than that at this point, but so that's going to put it in the mid-market at most companies, but they're a top 25 traffic site on the internet. So for us, that's going to push them in our enterprise because we need to go lean in with a much more in depth sales process. And then the other thing we layer on is a workload type. So if you are an e-commerce company, that's going to be a very different sale. You actually use different language. You talk about product listing pages and product description pages, and you've got an order management system as the back end. Super different from a crypto company where you might be running soup to nuts on AWS. And so again, that helps us start to then have a really different buying content for you.",
+   "zh": "...珍妮网站的容量。基本上，如果您是一家小公司，但拥有超高流量，而且情况会更加复杂，Vercel 会赚更多钱，因此我们希望提升您。 (01:04:02)：OpenAI 就是一个很好的例子。 OpenAI，我这些天忘了它有多少员工。假设它是 3,000 个，目前可能比这个数字还要多，但对于大多数公司来说，这将使其处于中端市场，但它们是互联网上流量排名前 25 的网站。因此，对我们来说，这将推动他们进入我们的企业，因为我们需要更深入的销售流程。然后我们分层的另一件事是工作负载类型。因此，如果您是一家电子商务公司，那将是一次非常不同的销售。您实际上使用不同的语言。您谈论产品列表页面和产品描述页面，并且您有一个订单管理系统作为后端。与您可能在 AWS 上全力以赴的加密货币公司截然不同。再说一次，这有助于我们开始为您提供完全不同的购买内容。",
+   "ts": "01:03:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, this is awesome. So essentially what you do is you break up this universe coming back to your original story at Stripe to help you sort essentially which companies are most likely to buy your product. And what you're coming up with is these attributes that are correlated with they're likely to be great potential customers.",
+   "zh": "好吧，这太棒了。因此，本质上你要做的就是打破这个宇宙，回到你在 Stripe 的最初故事，以帮助你从本质上分类哪些公司最有可能购买你的产品。你所想到的是这些与他们可能成为巨大潜在客户相关的属性。",
+   "ts": "01:05:06"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yep.",
+   "zh": "是的。",
+   "ts": "01:05:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you recommend using this XY axis as the approach versus something else? There's like a spreadsheet with five columns. I don't know, how do you start?",
+   "zh": "您是否建议使用此 XY 轴作为方法而不是其他方法？就像一个有五列的电子表格。我不知道，你如何开始？",
+   "ts": "01:05:22"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "There's probably something to be said for X and Y. like do you think size is going to play into most buying decisions and then these days there is a fair amount of consumption happening? So there'll be aspects of this that I think are somewhat universal. But I think basically when I came to Vercel, because new product market product offering, for me it's a new market. I had a lot to learn, but this is one of the first things I did in the first 30 days. And so basically I sat down with the gentleman Abhi who leads data science here and said, okay, what drives revenue? So what are the things that you can look at X ante about a customer to know this person's likely to pay us a hundred thousand dollars versus a million? That's probably going to be part of a segmentation framework. And then similarly, okay, what attributes would we look for to cluster where we seem to be winning repeatedly? And that was how we ultimately got at, okay, Crux rank is going to be super important because what you pay Vercel is correlated with your traffic. And then workload type was super important as well. (01:06:46): And for Vercel, when we did that, it was really interesting because we saw, wow, we have a lot of penetration and e-comm not that surprising actually, given that we drive highly performant sites and e-comm having a superfast performance site really matters. But at the time, if you looked at as an example, an enterprise SaaS companies, we didn't have a lot of penetration, even though you would've thought, okay, front-end cloud, very developer oriented. Of course software companies would be on us, but in enterprise, most of those companies built that SaaS offering before Vercel existed. So migrating 2 million lines of code to Vercel, that's a big lift. So it helped us really understand where are we winning, where are we not? And now as an example, within SaaS companies and enterprise, we're actually seeing a lot of interest in the AI cloud. Those are some of the earlier adopters of, \"Hey, let's add AI native functionality to our existing SaaS app.\" And so again, it helps us figure out what to target where.",
+   "zh": "对于 X 和 Y 来说，可能有一些话要说。比如你认为尺寸会影响大多数购买决策吗？然后这些天发生了相当多的消费？所以我认为这其中的某些方面是具有普遍性的。但我认为基本上当我来到 Vercel 时，因为新产品市场提供的产品，对我来说这是一个新市场。我有很多东西要学，但这是我在前 30 天里做的第一件事之一。所以基本上我和这里领导数据科学的阿比先生坐下来问，好吧，是什么推动了收入？那么，您可以通过 X ante 查看客户的哪些信息来了解此人可能会向我们支付 10 万美元还是 100 万美元？这可能会成为细分框架的一部分。然后类似地，好吧，我们会寻找哪些属性来聚集我们似乎反复获胜的地方？这就是我们最终得出的结论，好吧，Crux 排名将非常重要，因为您向 Vercel 支付的费用与您的流量相关。然后工作负载类型也非常重要。 (01:06:46)：对于 Vercel 来说，当我们这样做时，这真的很有趣，因为我们看到，哇，我们有很大的渗透力，而电子商务实际上并不令人惊讶，因为我们驱动高性能网站，而电子商务拥有超快的性能网站确实很重要。但当时，如果你以企业 SaaS 公司为例，我们没有太多的渗透率，尽管你会想，好吧，前端云，非常面向开发人员。当然，软件公司会关注我们，但在企业中，大多数公司在 Vercel 出现之前就构建了 SaaS 产品。因此，将 200 万行代码迁移到 Vercel，这是一个巨大的提升。所以它帮助我们真正了解我们在哪里获胜，在哪里没有获胜？现在举个例子，在 SaaS 公司和企业内部，我们实际上看到了对人工智能云的浓厚兴趣。这些是一些早期采用者，“嘿，让我们将 AI 原生功能添加到我们现有的 SaaS 应用程序中。”同样，它可以帮助我们弄清楚目标是什么。",
+   "ts": "01:05:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So essentially you're doing this regression analysis on what's working and then here's the attributes that are most correlated with success. Something I always recommend when founders ask me for how do I figure out my CPE? How do I figure out where to focus, my heuristic is just think of three attributes that narrow them down. So it's like series A company that's angel-led, that's the marketplace, something like that. Does that feel like a good just rule of thumb just to start?",
+   "zh": "因此，本质上，您正在对有效的内容进行回归分析，然后这是与成功最相关的属性。当创始人问我如何计算我的 CPE 时，我总是推荐一些东西？我如何找出重点关注的地方，我的启发就是想出三个属性来缩小范围。所以这就像由天使主导的 A 轮公司，这就是市场，类似的东西。这感觉像是一个很好的经验法则吗？",
+   "ts": "01:07:55"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, I think beyond three, that's getting pretty detailed and reasonably speaking, you're not going to cut. You have five sellers. So, what, you're going to put one seller in five different segments? So I do think three is something you can reason about. The other thing I'll say on this topic that I think is really important is a lot of times folks think segmentation is a go-to market thing. I really think it's a company thing. So when you Vercel, I actually deliver and every new hires first week, one of our company values is KYC, know your customer and I deliver the KYC section and talk through our segmentation framework how our customer base maps into those segments because it's really important as those new product managers leave the room that when they're building something, they think to themselves, okay, I'm building a new back end product. Who is this targeted at? Is it targeted at an enterprise or a startup? Basically, do I have a point of view on where I'm trying to win and why? And if you're doing that out of the gates, then it's much easier to then go speak the same language with the go to market org and figure out, okay, how are we going to take that to market in line with the other emotions that we have in play?",
+   "zh": "是的，我认为超过三个，就变得非常详细并且合理地说，你不会削减。您有五个卖家。那么，您要将一名卖家置于五个不同的细分市场吗？所以我确实认为三个是你可以推理的。关于这个话题，我认为非常重要的另一件事是，很多时候人们认为细分是进入市场的事情。我真的认为这是公司的事情。因此，当你在 Vercel 时，我实际上在第一周交付每个新员工时，我们公司的价值观之一就是 KYC，了解你的客户，我交付 KYC 部分，并通过我们的细分框架讨论我们的客户群如何映射到这些细分市场，因为当新产品经理离开房间时，当他们构建某些东西时，他们会想，好吧，我正在构建一个新的后端产品，这一点非常重要。这是针对谁的？它是针对企业还是初创公司？基本上，我对自己要在哪些方面取得胜利以及为什么要取得胜利有自己的看法吗？如果你是一开始就这样做，那么就可以更容易地与进入市场组织使用相同的语言并弄清楚，好吧，我们如何根据我们正在发挥的其他情绪将其推向市场？",
+   "ts": "01:08:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, this is a great segue to, there's a couple other things I want to talk about. One is something I've heard from so many people you've worked with is that you are amazing at building a go-to-market org that works really well with product and engineering. So I'll read this quote from your former colleague, Kate Jensen. She said that your superpower is building a sales org that doesn't feel like a sales org to engineers. So the question she suggested asked just what does it take to do that? What are the ingredients to building a sales org that engineers and product teams really like working with?",
+   "zh": "好的，这是一个很好的继续，我还有其他一些事情要谈。我从许多与您共事过的人那里听说，您非常擅长建立一个与产品和工程配合良好的上市组织。所以我会读一下你的前同事凯特·詹森的这句话。她说你的超级大国正在建立一个对工程师来说不像销售组织的销售组织。所以她提出的问题就是要问怎样才能做到这一点？建立工程师和产品团队真正喜欢合作的销售组织的要素是什么？",
+   "ts": "01:09:36"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "The litmus test I have always given my sales team is if you are an account executive in my org and I put you in front of 10 engineers at our company, it should take them 10 minutes to figure out you aren't a product manager. And what I'm trying to get across is you need to have incredible product depth. And the reason for that is twofold. One, it gives you credibility with the product and engineering org. And two, I also believe that the best go-to-market orgs on the planet are equal parts revenue driving and R&D and D. And the reason I emphasize the latter is if you think about a product management organization, you may have a UXR team out doing research, product managers certainly should be out talking to customers. Well, if I have a 20-person sales team, think of the number of customers that we talk to in a week. And so if we can do an excellent job of translating all of that feedback into signal and then feeding that into the road map, we can be actually an extension of the product management org. But that takes being really good at discerning signal from noise, understanding when something is an objection that should be overcome versus an opportunity in the market. So I think those things have helped.",
+   "zh": "我一直给我的销售团队的试金石是，如果你是我组织中的客户主管，并且我把你放在我们公司的 10 名工程师面前，他们应该需要 10 分钟才能弄清楚你不是产品经理。我想要传达的是你需要拥有令人难以置信的产品深度。其原因是双重的。第一，它让您获得产品和工程组织的信任。第二，我还相信，世界上最好的上市组织在收入驱动、研发和开发方面同等重要。我强调后者的原因是，如果你考虑一个产品管理组织，你可能有一个 UXR 团队在做研究，产品经理当然应该出去与客户交谈。好吧，如果我有一个 20 人的销售团队，请想想我们一周内交谈的客户数量。因此，如果我们能够出色地将所有反馈转化为信号，然后将其输入路线图，那么我们实际上可以成为产品管理组织的延伸。但这需要真正善于从噪音中辨别信号，理解什么时候某件事是应该克服的反对意见，什么时候是市场上的机会。所以我认为这些事情有所帮助。",
+   "ts": "01:09:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I just love this as a product manager, maybe form a product manager. I don't know what the hell I am these days. I just love the idea of the salesperson. Like you not knowing the difference between a product manager and a salesperson. The most classic challenge is sales orgs ask for all these features and PMs are constantly having to push back and think about does this fit into everything. So it feels like that's a big part of this is to understand that deeply.",
+   "zh": "我只是喜欢作为一名产品经理，也许会成为一名产品经理。我不知道这些天我到底是个什么鬼。我只是喜欢销售人员的想法。就像你不知道产品经理和销售人员之间的区别一样。最典型的挑战是销售组织要求所有这些功能，而产品经理必须不断地推迟并思考这是否适合所有情况。所以感觉这其中很重要的一部分就是深入理解这一点。",
+   "ts": "01:11:27"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, you want a sales org that can think like a general manager, so that's not just trying to get deals done but is trying to help build a business. And so again, knows when to say no, knows when to do objection handle versus knows, Hey, I've actually heard this on the last three calls and I do think this would be a really big unlock that would make us more competitive, would be something that new that nobody's doing. So I think that takes looking for a profile that both has sales skills but also is going to think with that product mindset.",
+   "zh": "是的，您想要一个能够像总经理一样思考的销售组织，因此这不仅仅是试图完成交易，而是试图帮助建立业务。再说一遍，知道什么时候说不，知道什么时候处理异议，而不是知道，嘿，我实际上在过去的三个电话中听到了这一点，我确实认为这将是一个非常大的解锁，将使我们更具竞争力，将是没有人在做的新事情。因此，我认为需要寻找既具有销售技能又具有产品思维的人才。",
+   "ts": "01:11:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Okay, so another quote from Claire Hughes Johnson, former podcast guest, amazing sales leader, worked with you at Stripe. She said something along these lines, but a little different. Jeanne is probably the best go-to-market person at connecting with product and engineering, deeply understanding the product and providing the most valuable input to her counterparts of any I've ever seen. It sounds like just another ingredient here is just sales feeling like a real partner to product engineering actually, not just being like, \"Hey, do these things for me, but actually feeling like a partner.\"",
+   "zh": "我喜欢那个。好的，这是克莱尔·休斯·约翰逊 (Claire Hughes Johnson) 的另一句话，他是前播客嘉宾，也是一位出色的销售主管，曾在 Stripe 与您共事。她说了类似的话，但有点不同。珍妮可能是我所见过的最擅长连接产品和工程的市场营销人员，她深入了解产品，并为她的同行提供了最有价值的建议。听起来这里的另一个要素是销售实际上感觉像是产品工程的真正合作伙伴，而不仅仅是“嘿，为我做这些事情，但实际上感觉像一个合作伙伴”。",
+   "ts": "01:12:31"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Ultimately company strategy is basically product strategy meets go-to market strategy. And so I spend guess as a go-to market leader, I'm constantly trying to figure out how do I make more money more efficiently? And you typically do that by having a winning product in the market that is well commercialized. And so that means that I really lean into thinking about product strategy and thinking about pricing strategy because if those two things are optimal, you're going to win more often and there'll be less friction in it. And so that's sort of where got to put as a revenue leader, like a GM hat on and not just think, how do I sell? But actually how do I enable the insights I'm getting from talking to customers constantly to have the company strategy be more effective?",
+   "zh": "最终，公司战略基本上是产品战略与进入市场战略的结合。因此，作为进入市场的领导者，我一直在尝试弄清楚如何更有效地赚更多钱？通常，您可以通过在市场上拥有一款商业化程度较高的获胜产品来实现这一目标。因此，这意味着我确实倾向于考虑产品策略和定价策略，因为如果这两件事都是最佳的，那么您将更频繁地获胜，并且其中的摩擦也会更少。因此，这就是作为收入领先者的位置，就像戴上通用汽车的帽子一样，而不仅仅是思考，我如何销售？但实际上，我如何才能从不断与客户交谈中获得的见解使公司战略更加有效？",
+   "ts": "01:13:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of product, going in a slightly different direction, PLG product-led growth, it felt like it was very hot for a while where everyone's like, \"You got to go PLG, that's the only way to win. It's impossible to do sales. The future is PLG.\" It feels like that's gone away. And in large part, obviously still companies grow through PLG and work through PLG. What's just kind of your thoughts on PLG and when does it make sense for a company these days to actually think this is how they'll grow for a while?",
+   "zh": "说到产品，方向稍有不同，PLG产品带动增长，感觉有一段时间很火，大家都说，“你必须去PLG，这是唯一获胜的方法。不可能做销售。未来是PLG。”感觉就像已经消失了。显然，在很大程度上，公司仍然通过 PLG 成长并通过 PLG 开展工作。您对 PLG 有何看法？现在的公司什么时候才真正认为这就是他们暂时发展的方式？",
+   "ts": "01:14:00"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "PLG makes sense for a lot of companies at the outset, unless you are very explicitly building a product for enterprise. So Sierra as an example, right? They are very clearly going after Global 2000 or something close to that. PLG is not going to be overly useful to them because they are trying to win eight-figure deals from day one. But for a lot of products, folks are targeting a startup audience at the outset and then they're adding more functionality so that they can ultimately continue to scale up market. So I think PLG is still super relevant. It's a major driver of Vercels growth. It was a big driver of Stripe's growth. The thing that folks get wrong is it does typically have a ceiling. So people are generally not going to give you $1 million via self-serve flow. So at some point if you want to sustain growth rates, you're going to have to have your deal sizes get bigger and bigger. And where I think folks get stuck is waiting too long on PLG because it does take a while to build a replicable sales process and a sales process, which often you're getting fed by inbound at the beginning and then you got to add outbound. It takes a while actually to turn outbound into a predictable engine. So I think where you see companies hit walls is just when they don't add the sales portion of it soon enough.",
+   "zh": "PLG 从一开始就对很多公司有意义，除非您非常明确地为企业构建产品。以塞拉（Sierra）为例，对吗？很明显，他们正在追求全球 2000 强或接近的目标。 PLG 对他们来说不会太有用，因为他们从第一天起就试图赢得八位数的交易。但对于很多产品来说，人们一开始就瞄准了初创受众，然后他们添加了更多功能，以便最终能够继续扩大市场规模。所以我认为 PLG 仍然非常重要。这是 Vercels 增长的主要推动力。这是 Stripe 增长的重要推动力。人们犯的错误是它通常有一个上限。因此，人们通常不会通过自助流程给您 100 万美元。因此，在某个时候，如果你想维持增长率，你就必须让你的交易规模变得越来越大。我认为人们陷入困境的地方是在 PLG 上等待太久，因为建立可复制的销售流程和销售流程确实需要一段时间，而销售流程通常在一开始就由入站提供，然后您必须添加出站。实际上需要一段时间才能将出站变成可预测的引擎。所以我认为，你看到公司碰壁的地方就是他们没有足够快地增加销售部分。",
+   "ts": "01:14:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So essentially every company ends up having to build a sales org, some start product-led and then at sales, some just start sales and have it from the beginning.",
+   "zh": "因此，基本上每个公司最终都必须建立一个销售组织，有些公司以产品为主导，然后进行销售，有些公司只是开始销售并从一开始就拥有它。",
+   "ts": "01:16:00"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, I would agree. There are probably some good examples of large vertical SaaS platforms that are SMB, but even they wind up with Velocity sales team. So yeah, I don't know that I can think of a 100 billion company that's PLG-only.",
+   "zh": "是的，我同意。可能有一些中小型企业大型垂直 SaaS 平台的好例子，但即使它们最终也有 Velocity 销售团队。所以，是的，我不知道我能想到一家仅使用 PLG 的 1000 亿美元公司。",
+   "ts": "01:16:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, it just feels like you're leaving money on the table even if you are growing really fast. I know Atlassian was a long-time PLG company but eventually succumbed. I don't know if that's the right way to put it. Okay. You mentioned pricing. I know you have strong opinions on pricing and pricing strategy. What's just a couple of tips you might share with someone thinking about how to price their product?",
+   "zh": "是的，即使你成长得非常快，但感觉就像你把钱留在桌子上一样。我知道 Atlassian 是一家长期的 PLG 公司，但最终屈服了。我不知道这样说是否正确。好的。你提到了定价。我知道您对定价和定价策略有强烈的意见。您可以与正在考虑如何为其产品定价的人分享哪些技巧？",
+   "ts": "01:16:30"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, this is kind of on the theme, but I think the first thing is you got to think about pricing like a product. So it's another one where it actually really matters how you choose to price a product. Do you really understand where customers are going to drive value? Do you really understand where you incur costs? And are you doing a smart job of aligning those things? You've got lots of examples of companies grossly underpricing, you're sort of afraid to charge for the value that you actually provide. I think there are a lot of examples where people default to including a freemium strategy without that actually being a strategy. A good example at Stripe, we launched Stripe Billings years ago. It had a freemium strategy because that's what you do. And then we sort of looked at it and we're like, \"actually integrating straight billing takes a little bit of work.So if you do that, you're probably going to stay.\" (01:17:56): And so we killed that, killed the free trial to zero downside. So that's another one. At Vercel, we've been going through that transition where we're a consumption-based business model ultimately, but at the outset we basically kind of bundled that into what looked like a SaaS-like price and as we've added a lot more functionality that wasn't working anymore. And so we did an unbundling and right now actually we did a pretty substantial pricing change in August where we have an enterprise at a pro-skew. And if you looked at the enterprise skew, it's called Enterprise for a reason, enter, it's meant to be sold to an enterprise. And actually about half of the folks on the enterprise skew were startups, which suggests that there's stuff in the enterprise skew that a startup really wants. So we kicked a lot of that stuff out of the enterprise skew and made it so you could buy it self-serve online and what do you know, people are. (01:19:03): So now that's really driven a lot of growth in our PLG funnel, which is awesome for startups because it's super efficient. They can just buy things, they want that. It's awesome for us because you don't have to have a human intermediate that. So getting all of these knobs really tuned is a key to both a great customer experience and optimal revenue outcomes.",
+   "zh": "是的，这有点主题，但我认为首先你必须像产品一样考虑定价。因此，这是另一个问题，您选择如何为产品定价实际上非常重要。您真的了解客户将在哪里驱动价值吗？您真的了解成本在哪里产生吗？您是否在调整这些事情方面做得很聪明？有很多公司严重低估价格的例子，你有点害怕按照你实际提供的价值收费。我认为有很多例子表明人们默认包含免费增值策略，但实际上这并不是一种策略。 Stripe 就是一个很好的例子，我们几年前推出了 Stripe Billings。它有一个免费增值策略，因为这就是你所做的。然后我们看了看，然后想，“实际上整合直接计费需要一些工作。所以如果你这样做，你可能会留下来。” (01:17:56)：所以我们取消了这一点，取消了免费试用，使负面影响为零。这是另一件事。在 Vercel，我们一直在经历这种转变，最终我们是基于消费的商业模式，但一开始我们基本上将其捆绑到看起来像 SaaS 的价格中，因为我们添加了更多不再起作用的功能。因此，我们进行了分拆，现在实际上我们在 8 月份进行了相当大的定价调整，我们有一家企业处于倾斜状态。如果你看一下企业倾斜，它被称为企业是有原因的，输入，它意味着要出售给企业。实际上，企业倾斜中约有一半的人是初创公司，这表明企业倾斜中有初创公司真正想要的东西。所以我们把很多这样的东西从企业倾斜中剔除出来，这样你就可以在线自助购买它，你知道吗，人们是什么。 (01:19:03)：现在这确实推动了我们的 PLG 渠道的大量增长，这对于初创公司来说非常棒，因为它非常高效。他们可以买东西，他们想要那个。这对我们来说非常棒，因为你不需要人工干预。因此，真正调整所有这些旋钮是获得良好客户体验和最佳收入结果的关键。",
+   "ts": "01:16:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe just one more question before we get to a very exciting lightning round. It's going to be a combo question. I hear you have a hot take on sales comp, how to comp salespeople that's different from other people and also who to hire when you're hiring folks in sales. Can you just talk about your takes there?",
+   "zh": "在我们进入激动人心的闪电回合之前，也许还有一个问题。这将是一个组合问题。我听说您对销售薪酬、如何对与其他人不同的销售人员进行薪酬以及在招聘销售人员时雇用谁等问题抱有浓厚的兴趣。您能谈谈您的看法吗？",
+   "ts": "01:19:24"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "I struggle with sales comp because it's all about pay for performance, which I'm obviously a fan of, but it makes your organization less flexible because you basically have to decide 12 months in advance, these are things I value and particularly in this moment that could be different. As a great example of this, when we wrote the sales plans for this year at Vercel, the AI cloud did not exist. We were selling our front-end cloud and we were selling VZero and introduced the AI cloud halfway through the year. Now we had all sorts of good ways to still incentivize that, but I think you want to be able to be innovative and pivot and when you have a well-designed sales plan or a very structured sales plan, that can be challenging. (01:20:44): So that's a little bit of my hot take is just I'm trying to figure out how do you have the upside of sales of motivates people. It's a quantitative function, which is great, but also the flexibility to change your mind because I think a lot of companies right now are having a hard time doing annual planning. So that's one. On profiles, I have always valued just sort of a diversified portfolio. So I strongly believe that sales is a skill and so you want salespeople with actual sales experience in your organization, but I think there's value in pairing them with more nontraditional backgrounds, in particular consulting or banking background. Those folks are really good at more quantitative and analytical aspects of sales. So getting into that consultative part, which I think we talked about at the outset. And so I find that when you mix these together, the sort of consultant banker profile realizes, \"Oh wait a minute, sales is a skill and I didn't really have it.\" And so they go learn from your account executives with that background and then your AEs learn more about, okay, how do I think about a P&L? How can I talk to a CFO? How do I present a TCO analysis more effectively? And so just creates a much richer learning environment where people are bouncing ideas off each other.",
+   "zh": "我在销售补偿方面遇到了困难，因为这完全取决于绩效工资，这显然是我的粉丝，但它使你的组织不太灵活，因为你基本上必须提前 12 个月做出决定，这些是我看重的事情，尤其是在这一刻可能会有所不同。一个很好的例子是，当我们在 Vercel 制定今年的销售计划时，人工智能云还不存在。我们在销售我们的前端云，我们在销售 VZero，并在今年中期推出了人工智能云。现在我们有各种各样的好方法来激励这一点，但我认为你希望能够创新和转向，当你有一个精心设计的销售计划或一个非常结构化的销售计划时，这可能是具有挑战性的。 (01:20:44)：这就是我的一点观点，我只是想弄清楚如何通过销售来激励人们。这是一个定量功能，这很棒，但也可以灵活地改变主意，因为我认为现在很多公司都很难制定年度计划。这就是其中之一。在个人资料方面，我一直重视多元化的投资组合。因此，我坚信销售是一种技能，因此您希望组织中的销售人员具有实际销售经验，但我认为将他们与更多非传统背景（特别是咨询或银行背景）配对是有价值的。这些人确实擅长销售的定量和分析方面。因此，进入协商部分，我想我们一开始就讨论过这一部分。所以我发现，当你将这些混合在一起时，顾问银行家的形象会意识到，“哦等一下，销售是一项技能，但我真的没有。”因此，他们会向具有这种背景的客户主管学习，然后您的 AE 会更多地了解，好吧，我如何看待损益表？我如何与首席财务官交谈？如何更有效地进行 TCO 分析？这样就创造了一个更加丰富的学习环境，人们可以在其中互相交流想法。",
+   "ts": "01:19:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is awesome. I love that strategy. Okay, final question. Just is there anything else you wanted to share? Anything else you want to leave listeners with before we get to our very exciting lightning round?",
+   "zh": "那太棒了。我喜欢这个策略。好的，最后一个问题。您还有什么想分享的吗？在我们开始激动人心的闪电回合之前，您还有什么想留给听众的吗？",
+   "ts": "01:22:22"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Oh man. I feel like we've been very thorough.",
+   "zh": "噢，伙计。我感觉我们已经很彻底了。",
+   "ts": "01:22:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, thanks So too.",
+   "zh": "好的，谢谢所以也。",
+   "ts": "01:22:34"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Yeah, you stumped me on that one.",
+   "zh": "是的，你在这一点上难倒了我。",
+   "ts": "01:22:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. That's the goal. With that Jean, we've reached our very exciting lightning round. I'm going to make it very quick. I know you got to run. I'm going to ask you just two questions.",
+   "zh": "好的。这就是目标。有了Jean，我们就进入了非常激动人心的闪电回合。我会做得很快。我知道你必须跑。我只想问你两个问题。",
+   "ts": "01:22:38"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "01:22:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One is I'm going to skip to your life motto. Do you have a favorite life motto that you often come back to find useful in worker and life?",
+   "zh": "一是我要跳到你的人生座右铭。您是否有一条最喜欢的人生格言，经常回来发现它对工作和生活有用？",
+   "ts": "01:22:46"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "I do. I actually have found that I'm known for saying a handful of things that I didn't necessarily realize it, but when you leave an organization, people tend to tell you what stuck with them. But there is one that I think I am known for saying growing up, my mom always said to me, when the going gets tough, the tough get going. And in sales, you're always going to have a quarter when you're not on pace. And so that's one that I feel like I pull on, not infrequently because in my view, there's another version of this, my mom also always says was where there's a will, there's a way. So I think you can always choose to find a path forward even when that's not super clear.",
+   "zh": "我愿意。事实上，我发现我因说了一些我不一定意识到的事情而闻名，但是当你离开一个组织时，人们往往会告诉你是什么让他们坚持不下去。但我认为我在成长过程中因说过一句话而闻名，我妈妈总是对我说，当事情变得艰难时，艰难的事情就过去了。在销售方面，你总会有一个季度的进度跟不上。所以这就是我觉得我会坚持的一个，并不少见，因为在我看来，还有另一个版本，我妈妈也总是说，有志者事竟成。所以我认为你总是可以选择寻找前进的道路，即使那不是很清楚。",
+   "ts": "01:22:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love these. Okay, last question. I read that you were a very competitive diver in college early on. I'm just curious if there's something you learned from that experience that brought with you that helps you be as successful as you've become?",
+   "zh": "我喜欢这些。好的，最后一个问题。我听说你很早就在大学里是一名非常有竞争力的跳水运动员。我只是好奇你是否从这段经历中学到了一些东西，可以帮助你取得现在的成功？",
+   "ts": "01:23:45"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Well, I mean, first of all, I should say I was generally coming in third place out of three on my team.",
+   "zh": "嗯，我的意思是，首先，我应该说我在团队中的三人中通常排名第三。",
+   "ts": "01:23:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Third place, that's not bad.",
+   "zh": "第三名，也不错了。",
+   "ts": "01:24:04"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "I managed to do it in college, but that was the extent of that career. So diving is a precision sport and it is a repetitive sport. And it is also a sport where when you land flat on your back, and literally as you are swimming to the side of the pool, welts are forming on it, you always 100% of the time will be forced to immediately get back on the diving board and do that exact same dive again. And so I think that has a lot of stuff that's transferable to work and to sales. So for me, I just have an obsession with excellence and within sales. sales is about replicability. How do you drive predictable outcomes, how excellent are you at your ability to forecast? And so I think I bring that to bear within sales a lot. And then similarly, you get a lot of nos in sales. So another phrase that a sales guru said to me once or in a training was yeses are great, nos are great, maybes will kill you. And so how do you get really comfortable that no is a great thing and that just gave you data and now you can go do something with it.",
+   "zh": "我在大学里就做到了，但这就是我职业生涯的范围。所以跳水是一项精确的运动，而且是一项重复性的运动。这也是一项运动，当你仰面着地时，实际上当你游到泳池边时，上面会形成伤痕，你总是 100% 的时间将被迫立即回到跳水板上并再次进行完全相同的潜水。所以我认为这有很多东西可以转移到工作和销售中。所以对我来说，我只是痴迷于卓越和销售。销售关乎可复制性。您如何推动可预测的结果？您的预测能力有多出色？所以我认为我在销售中经常运用这一点。同样，你在销售中也会遭到很多拒绝。因此，一位销售大师曾经或在培训中对我说过的另一句话是，“是”很棒，“不”很棒，也许会杀了你。那么你如何才能真正放心地知道“不”是一件很棒的事情，它只是为你提供了数据，现在你可以用它来做一些事情。",
+   "ts": "01:24:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is a really inspiring and empowering way to end the conversation. Jean, thank you so much for being here.",
+   "zh": "这是一种真正鼓舞人心、充满力量的结束对话的方式。琼，非常感谢你来到这里。",
+   "ts": "01:25:25"
+  },
+  {
+   "speaker": "Jeanne DeWitt Grosser",
+   "en": "Thanks so much for having me, Lenny. It was a lot of fun.",
+   "zh": "非常感谢你邀请我，莱尼。这很有趣。",
+   "ts": "01:25:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. (01:25:37): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "再见，大家。 (01:25:37)：非常感谢您的收听。如果您发现这很有价值，您可以在 Apple Podcasts、Spotify 或您最喜欢的播客应用程序上订阅该节目。另外，请考虑给我们评分或留下评论，因为这确实有助于其他听众找到播客。您可以在 lennyspodcast.com 上找到所有过去的剧集或了解有关该节目的更多信息。下一集见。",
+   "ts": "01:25:35"
+  }
+ ]
+}

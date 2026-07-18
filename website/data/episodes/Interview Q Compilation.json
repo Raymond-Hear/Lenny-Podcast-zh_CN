@@ -1,0 +1,227 @@
+{
+ "id": "Interview Q Compilation",
+ "name": "Interview Q Compilation",
+ "category": "企业管理",
+ "identity": "产品",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Interview+Q+Compilation",
+ "bio": {
+  "en": "A special compilation episode in which Lenny gathers the best advice from past guests on how to prepare for, approach, and ace product and tech job interviews.",
+  "zh": "这是一期特别的合集节目：Lenny 汇集了过往嘉宾关于如何准备、应对并在产品与技术岗位面试中脱颖而出的精华建议。"
+ },
+ "summary": {
+  "en": "Rather than a single interview, this episode curates the most useful interview guidance from across the podcast's guest roster into one focused listen. It distills practical tips on answering behavioral and product-design questions, showcasing your thinking, and standing out to hiring managers. It's a handy resource for anyone preparing for their next product, design, or engineering interview.",
+  "zh": "这期并非单次访谈，而是把播客嘉宾阵容中最实用的面试指导精选编排成一期聚焦的节目。它提炼了回答行为与产品设计问题、展示思维方式、以及向招聘经理脱颖而出的实用技巧。对任何准备下一场产品、设计或工程面试的人来说，都是一份便利的参考资料。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "ts": "00:03",
+   "en": "Welcome to a very special episode of the podcast. Ever since I started this podcast, one of people's favorite segments continues to be the lightning round, and in particular, a question I ask guests around their favorite interview question that they like to ask candidates and what they look for in a good answer. What we've done is we've picked my favorite interview questions that guests have shared. Out of over a hundred guests on the podcast, we've got 17 of my favorite interview questions all combined in this one episode. You can use this episode anytime you are preparing to interview candidates, if you want to improve your existing interview questions, or if you're about to get interviewed and you want to prepare for the kinds of questions that you might get in the interview process. (00:47): Before we dive in, let me tell you about our product called Sendbird. The all-in-one communications API platform designed for both web and mobile apps. In a world saturated with multi-channel communication, product teams are discovering the effectiveness of in-app communication. With Sendbird, businesses can elevate their in-app experience with decluttered and branded communication featuring AI powered chatbots, one-way messages, chat, video calls and livestream capabilities, all tailored for commerce, marketing and top-tier support. Forward-thinking companies such as Hinge, Patreon, Yahoo, Accolade, and more use Sendbird to build in-app communication experiences that drive engagement, conversion and retention. In-app communication has the highest conversion, highest engagement and highest satisfaction of any communication channel. And when it comes to investing in this channel, trust Sendbird to take your in-app communication experience to the next level. Start today with Sendbird's free plan, and as a listener of Lenny's Podcast, you'll get an additional two months of unlimited usage and access to all premium features, including creating your very own generative AI chatbot. Visit sendbird.com/lenny to begin your free journey. That's sendbird.com/lenny. (02:04): This episode is brought to you by ePO. ePO is a next generation AB testing and feature management platform built by alums of Airbnb and Snowflake for modern growth teams. Companies like Twitch, Miro, ClickUp and DraftKings rely on ePO to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features, and ePO helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. When I was at Airbnb, one of the things that I loved most was our experimentation platform where I could set up experiments easily, troubleshoot issues and analyze performance all on my own. ePO does all that and more with advanced statistical methods that can help you shave weeks off experiment time, an accessible UI for diving deeper into performance, and out-of-the-box reporting that helps you avoid annoying, prolonged analytic cycles. ePO also makes it easy for you to share experiment insights with your team, sparking new ideas for the AB testing flywheel. ePO powers experimentation across every use case, including product, growth, machine learning, monetization and email marketing. Check out ePO at getepo.com/lenny and 10 x your experiment velocity. That's getepo.com/lenny. (03:22): First up, we've got Eeke De Miliano. Eeke was head of product at Retool. She was also a PM at Stripe. Currently, she's actually starting her own company. Here's Eeke sharing her favorite interview question.",
+   "zh": "欢迎来到本期特别版播客。自从我开始主持这个播客以来，最受听众喜爱的环节之一始终是\"闪电问答\"环节，尤其是我会向嘉宾们提问他们最喜欢的面试问题，询问他们如何向候选人提问，以及他们在候选人回答中寻找的关键点。本期节目中，我们精选了17个嘉宾分享的最佳面试问题，供您在面试候选人时参考，或提升现有面试技巧，或为即将到来的面试做好准备。（00:47）：在深入探讨之前，我想先介绍一下我们的产品Sendbird。这是一个专为Web和移动应用设计的全能通信API平台。在多渠道通信泛滥的时代，产品团队正逐渐发现应用内通信的效力。借助Sendbird，企业可以通过简洁、品牌化的通信体验提升应用内体验，包括AI驱动的聊天机器人、单向消息、聊天、视频通话和直播功能，所有功能均专为电商、营销和顶级支持而设计。Hinge、Patreon、雅虎、Accolade等前瞻性企业正使用Sendbird打造应用内通信体验，提升用户参与度、转化率和留存率。应用内通信在所有通信渠道中拥有最高的转化率、参与度和满意度。若想投资这一渠道，不妨信赖Sendbird，助您将应用内通信体验提升至新高度。立即注册Sendbird免费计划，身为Lenny's Podcast的听众，您将额外获得两个月无限使用权限，并可使用所有高级功能，包括创建专属生成式AI聊天机器人。访问sendbird.com/lenny开启免费之旅。（02:04）：本期节目由ePO赞助。ePO是由Airbnb和Snowflake前员工为现代增长团队打造的下一代AB测试和功能管理平台。Twitch、Miro、ClickUp和DraftKings等公司均依赖ePO推动实验。实验对于增长驱动和新功能表现评估愈发重要，ePO通过先进的统计方法助您缩短实验周期，通过易用界面深入解析性能，并提供现成报告，避免冗长分析循环。ePO还支持跨产品、增长、机器学习、变现和邮件营销等全场景实验。欢迎访问getepo.com/lenny，10倍提升实验效率。（03:22）：首先登场的是Eeke De Miliano。Eeke曾担任Retool产品负责人，还曾在Stripe担任产品经理。目前，她正着手创立自己的公司。Eeke将分享她最喜欢的面试问题，以及如何通过AB测试优化用户体验。\n面试问题。"
+  },
+  {
+   "speaker": "Eeke De Miliano",
+   "ts": "03:36",
+   "en": "\"To what do you attribute your success?\" And you can't say \"luck\". Because I think humble people will always say \"luck\" in some way, and I always kind of want to know, how self-aware are you, basically, and how curious are you? I think people have really sort of gone back and reflected on why are they where they are today really says a lot about how they think about the world.",
+   "zh": "“您将自己的成功归功于什么？”你可不能说 “运气”。因为我觉得谦逊的人总会以某种方式提及 “运气”，而我其实更想了解，你对自己的认知到底有多清晰，又有多好奇？我认为人们回顾自己如今的处境时，往往能透露出他们对世界的看法，这一点意义非凡。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:58",
+   "en": "Next up, we've got Geoff Charles, Head of Product at Ramp, and also just happens to be one of the most popular episodes of the podcast.",
+   "zh": "接下来是Ramp公司的产品负责人杰夫·查尔斯，这期播客恰好是他最受欢迎的访谈之一。"
+  },
+  {
+   "speaker": "Geoff Charles",
+   "ts": "04:06",
+   "en": "I ask, \"What's the hardest thing you've ever done?\" I ask that because working at Ramp is hard, and I want to understand what hard means for them. I want to understand why it was hard. I want to understand how they overcame that difficulty, how they worked with other people to overcome that difficulty, and how much agency they had in overcoming that. So it's a really good sign around what is difficulty to them and how much work they put into overcoming that.",
+   "zh": "我会问：“你做过的最困难的事是什么？” 之所以这么问，是因为在Ramp工作本身就充满挑战，我想了解 “困难” 对他们意味着什么。我想了解他们为何会觉得困难，如何克服这些困难，如何与他人合作共同攻克难关，以及他们在克服困难时发挥了多大的主导作用。这能很好地衡量对他们而言什么算困难，以及他们为克服困难付出了多少努力。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "04:31",
+   "en": "Next up we've got Shishir Mehrotra CEO, and Co-founder of Coda. Funny enough, we posted this exact clip to TikTok and Instagram Reels, and it blew up. It's one of the most popular clips we've ever put on our channels. By the way, did you know I have a TikTok and an Instagram channel? Just look up Lenny's Podcast on TikTok or Instagram. Anyway, with that, here's Shishir Mehrotra sharing his favorite interview question.",
+   "zh": "接下来是Coda公司的首席执行官兼联合创始人希希尔·梅赫罗特拉。有趣的是，我们把这段访谈片段发布到了TikTok和Instagram Reels上，结果反响热烈。这是我们账号上最受欢迎的视频之一。顺便说一句，你们知道我有TikTok和Instagram账号吗？在TikTok或Instagram上搜索 “Lenny's Podcast” 即可。接下来请听听希希尔·梅赫罗特拉分享他最喜欢的采访问题。"
+  },
+  {
+   "speaker": "Shishir Mehrotra",
+   "ts": "04:56",
+   "en": "It's a very simple question, and it's a coded Eigenquestion test. The question is, \"A group of scientists have invented a teleportation device. They've hired you, Lenny, to be their business counterpart, bring this to market, product [inaudible 00:05:14].\" This question will actually work well for any role. But say, \"You could be a product manager for this thing, bring it to market. What do you do?\" That's the whole question. (05:23): Usually people will start asking a bunch of questions and say, \"Well, tell me more about this device. What does it do? How does it work? Is it big? Is it small? Is it vast? Does it disintegrate things or not? Does it need a receiver and a sender? Is it safe?\" All these different questions come out. (05:39): I'll just let those questions come out, and at some point I'll say, \"Okay, nice job generating all the questions. Turns out these scientists, they hate talking to people and they're kind of annoyed by all your questions. And so they've decided that they will answer only two of your questions, and after that they expect a plan. What two questions do you ask?\" (05:59): Interestingly, all of a sudden the sharp product managers, engineers, basically every role, they very quickly find what are the one or two Eigenquestions on this topic. There's no right answer, but I'll tell you one of my favorite ones, because the product manager said, \"Okay, if I had to ask two questions, the two questions I would ask, one, is it safe enough for humans or not?\" That was a very crisp way to get to just safety. How reliable is it? They didn't ask how reliable it is, how many bits in the middle of this. \"Just tell me, is it safe enough for humans or not?\" (06:31): The second one is, \"Is it more expensive CapEx or OpEx? Is it more expensive to buy them or to run them?\" (06:37): And then he took those two questions, and he said, \"Just with those two questions, I can form these quadrants.\" You can say, \"Oh, it's safe enough for humans and they're very cheap to buy, but expensive to run.\" Then you probably run them like human fax machines. You put them everywhere you can and you say, \"Hey, look, it's expensive to use, but you all have the ability to teleport anywhere you want and this is how we're going to run it.\" (06:59): On the other hand, they're very expensive to buy, but cheap to run, you'd probably have to place them very strategically, in which case what you'd probably do is replace airports. Because airports are pretty strategically placed in places where people are trying to get around places. (07:12): If it's not safe enough for humans, then you've got a whole different class of use cases where you go value what goods are transported in very costly ways? And people come up with, \"Do you do the most expensive things? Is teleporting people's replacement [inaudible 00:07:29], is that a really demanding thing?\" (07:32): But these two questions kind of get to the heart of it. The question is totally made up. No teleportation device exists, at least not yet. I find that people's ability to learn the method is significantly higher if it's low stakes. (07:45): That question, by the way, if you ask a kid that question, the new teleportation device, you get to ask two questions, almost every kid will quickly get to two pretty good Eigenquestions. Again, kids are incredibly good at simplifying these things down. It's actually a skill we remove from ourselves. A lot of your candidates tell me things like, \"I guess I would ask them what size it is.\" I'm like, \"Why would you ask them? What decision is that going to allow you to make, to know what size it is?\" Sometimes they can explain it, but sometimes not. They don't get hired. (08:16): But then, actually, the thing I'd say about it is, there are Eigenquestion kind of everywhere. You could take any product out there. I'll do it with my kids a lot. I was just riding with with my younger daughter, and she said, \"How come there's three gas stations in the same corner? Why do people do that?\" That's a really insightful observation. What's the Eigenquestion? How do you place a gas station? You can almost take anything and say, \"What is the question that really drives this answer?\"",
+   "zh": "这是一个非常简单的问题，也是Eigenquestion测试的一个示例。问题是：“一群科学家发明了一种传送装置。他们聘请了你，莱尼，让你担任他们的商业伙伴，将这款产品推向市场。” 这个问题实际上适用于任何职位。但比如，“你可以成为这款产品的项目经理，将其推向市场。你会怎么做？”这就是整个问题的核心。\n\n（05:23）通常人们会开始问一堆问题：“嗯，告诉我更多关于这个设备的信息。它有什么功能？它是如何工作的？它体积大吗？小吗？范围广吗？它会分解物体吗？需要接收器和发送器吗？安全吗？” 所有这些不同的问题都会被抛出。\n\n（05:39）我会让这些问题自然浮现，过一段时间我会说：“好的，你提出了很多问题，干得好。但这些科学家不喜欢和人交流，他们对你的问题感到厌烦。所以他们决定只回答你的两个问题，然后期待你给出一个计划。你会问哪两个问题？”\n\n（05:59）有趣的是，突然间，敏锐的产品经理、工程师，以及几乎所有职位的人，他们很快就能找到这个主题上的一个或两个Eigenquestion。没有标准答案，但我会告诉你我最喜欢的一个例子。产品经理说：“好吧，如果我必须问两个问题，我会问，第一，它对人类足够安全吗？” 这是一个非常简洁的方式来切入安全性。可靠性如何？他们没有问可靠性如何，也没有问中间有多少位。“就告诉我，它对人类足够安全吗？”\n\n（06:31）第二个问题是：“它的资本支出和运营支出哪个更高？购买它们更贵还是运行它们更贵？”\n\n（06:37）然后他用这两个问题说：“只要这两个问题，我就能画出四个象限。” 你可以说：“哦，它对人类足够安全，而且购买成本低，但运行成本高。”那么你可能会把它们当作人类的传真机。到处放置它们，然后说：“嘿，看，它们使用成本高，但你们都有能力随心所欲地传送，这就是我们要如何运营的。”\n\n（06:59）另一方面，它购买成本高但运行成本低，你可能需要战略性地放置它们，在这种情况下，你可能会取代机场。因为机场通常位于人们试图出行的战略位置。\n\n（07:12）如果对人类不够安全，那么你就有了另一类用例，在那里你要评估以极高成本运输的货物价值？人们会问：“你处理最昂贵的东西吗？传送人是替代方案吗？这是一项要求很高的任务吗？”\n\n（07:32）但这两个问题抓住了问题的核心。问题完全是虚构的。目前至少还没有这样的传送设备。我发现，如果风险低，人们学习这种方法的能力会高得多。\n\n（07:45）顺便说一句，如果你问一个孩子关于新传送设备的问题，让他回答两个问题，大多数孩子都能很快提出两个相当不错的Eigenquestion。再说一次，孩子们非常善于简化这些事情。这实际上是我们从自己身上剥夺的一项技能。很多求职者告诉我：“我想我会问他们尺寸有多大。” 我会说：“为什么要问他们？这能让你做出什么决策？”\n比如，\"你能不能告诉我这件衣服的尺码？\" 有时候他们能回答，有时候却回答不出来。结果他们就得不到这份工作。（08:16）但说真的，我要说的是，类似的疑问随处可见。你可以拿任何产品来举例。我经常和孩子们一起探讨这个问题。比如，我刚和小女儿一起骑车，她问：\"为什么同一个路口会有三家加油站？人们为什么要这么做？\" 这真是个很有洞察力的观察。什么是本质问题？比如，如何选址建加油站？你几乎可以拿任何事物来问：\"真正驱动这个答案的核心问题是什么？\""
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "08:45",
+   "en": "This next interview question comes from Yuhki Yamashita, Chief Product Officer at Figma, also a former Head of Design at Uber.",
+   "zh": "接下来这个面试问题来自Figma的首席产品官山下勇基，他曾任Uber的设计主管。"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "ts": "08:53",
+   "en": "\"Describe to me a time when you were part of a controversial product decision. What did you do?\" All those things. I think it's really revealing, because if they can set up this conflict and understand why this problem was really important and represent both sides and such that you can understand why that conflict existed in the first place, and they can do it in this kind of even-keeled way where you realize that they can take on these different perspectives, you start to learn a lot about that person, I think. (09:25): Or sometimes I just ask them for basic things like, \"Okay, talk about a big problem that you worked on.\" The thought experiment for me is always, coming out of that, do I feel compelled to work on that problem? Right? No matter how boring it sounds on the surface, I think a really great product manager kind of casts something. It's like, \"Well, this is why it's so existential and this is why it's so interesting, and really rallied the troops up. That's kind of one big thing of storytelling and communication, because at the end of the day, so much of our job is around that.",
+   "zh": "\"请描述一次你参与有争议的产品决策的经历。你当时做了什么？\" 诸如此类的问题。我认为这非常能暴露本质，因为如果他们能设定这种冲突，理解这个问题为何如此重要，代表双方观点，让你明白冲突最初为何存在，并且能以一种不偏不倚的方式做到这一点，你就能对这个人有深刻的了解。（09:25）：有时我只会问一些基本问题，比如：\"好的，说说你参与过的一个重大项目吧。\" 对我来说，关键的思考点在于，通过这些问题，我能否感受到他们对这个问题的热情？对吧？无论表面看起来多么枯燥，我认为优秀的产品经理总能赋予项目意义。他们会说：\"嗯，这就是为什么它如此重要，这就是为什么它如此有趣，还能真正凝聚团队力量。\" 这就是讲故事和沟通的关键所在，因为归根结底，我们的工作很大程度上都围绕着这些。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "09:57",
+   "en": "Next you'll hear from Katie Dill, Head of Design at Stripe; Karri Saarine, CEO of Linear; and Camille Hearst, Product Leader at Spotify, former Product Leader at Patreon; who all share the same favorite interview question.",
+   "zh": "接下来你将听到来自Stripe的设计主管凯蒂·迪尔、Linear的CEO卡里·萨里宁，以及Spotify的产品负责人卡米尔·赫斯特（曾任Patreon的产品负责人）的发言，他们都分享了同一个最喜欢的面试问题。"
+  },
+  {
+   "speaker": "Katie Dill",
+   "ts": "10:12",
+   "en": "\"Tell me what work you are most proud of?\" The reason I ask that is because, well, it helps me understand their taste and their judgment, what motivates them, what work they view as good and as a good outcome. It also helps me understand a little bit about what they like to do and where their gravity pulls them.",
+   "zh": "\"请告诉我你最引以为傲的工作是什么？\" 我之所以会问这个问题，是因为它能帮助我了解他们的品味和判断力，了解他们的动机是什么，他们认为什么样的工作是优秀的，什么样的结果是好的结果。它还能帮助我了解他们喜欢做什么，以及他们的关注点在哪里。"
+  },
+  {
+   "speaker": "Karri Saarinen",
+   "ts": "10:36",
+   "en": "I think usually I like to ask what is the candidate most proud of and why on their professional life or otherwise. What they're most proud of and why? But I think it's gives you a little bit of indication of what the person values and how they think about things. Also, I think it's always nice that people can share something they think they did really well, and we can spend time on it, versus just asking something more negative things.",
+   "zh": "我通常喜欢问候选人最引以为傲的是什么，以及为什么引以为傲，无论是在职业生涯中还是其他方面。他们最引以为傲的是什么，以及为什么引以为傲？但我认为这能让你对这个人的价值观和思维方式有一些了解。此外，我认为让人们分享他们认为自己做得非常好的事情，然后花时间探讨其中的原因，这总是很棒的，而不是只问一些负面的问题。"
+  },
+  {
+   "speaker": "Camille Hearst",
+   "ts": "11:04",
+   "en": "I like to ask people to tell me about something they're really proud of that they accomplished, take me through the process, and talk to me about why they're proud of it. I find you can learn so much about a person's motivations, about their work ethic, about what they care about, what good looks like to them, and I think those are all really important things to understand about a person if you're going to work closely with them.",
+   "zh": "我喜欢让人们告诉我他们真正引以为傲的成就，带我回顾整个过程，并谈谈他们引以为傲的原因。我发现你可以从中了解一个人的动机、职业道德、关注点，以及什么对他们来说是好的结果。我认为，如果你要与他们密切合作，这些都是了解一个人的非常重要的事情。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "11:29",
+   "en": "Next is JZ, Head of Product at Webflow, former Airbnb colleague, sharing her favorite interview question.",
+   "zh": "接下来是Webflow的产品主管JZ，她曾是Airbnb的同事，她将分享自己最喜欢的面试问题。"
+  },
+  {
+   "speaker": "Jiaona Zhang",
+   "ts": "11:35",
+   "en": "I do like to do behavioral questions. Just really understanding, when they've been in challenging situations, when they've been in ambiguous situations, how do they navigate? (11:44): Ambiguity is a big one for me, because at the end of the day, the PM job is really ambiguous. It's really hard to describe on a piece of paper all the things that you're going to encounter. Good answers are people who put structure and a way forward through the ambiguity. That's what you look for. You want your PM to not just be like, \"Oh no, we're swimming in ambiguity,\" but actually put a path forward. (12:05): I think, also, looking for people who are seeking help, seeking those inputs, as opposed to being like, \"Yep, this is the way. This is very clear.\" Because, again, the chances of whatever path you chart out for any product, for anything that you're doing, is the right path from the first time that you do it, so rare. And so I want to see someone be able to get those inputs, be able to say, \"This is the path. This is how I learned why I put this path together.\" And then going back to a lot of the stuff I think we touched upon in this podcast is like, what are the little milestones that make you say, \"Hey, is this working? Is this not working?\" And then make you either make a different decision. Seeing people do that really well is a big thing I look for.",
+   "zh": "我确实喜欢回答行为类问题。关键在于，了解候选人在面临挑战性情境或模糊情况时，如何找到前进的方向。（11:44）：模糊性对我来说至关重要，因为说到底，产品经理这个职位本身就充满不确定性。要想用纸面描述清楚你将遇到的所有挑战，实在太难了。优秀的回答者能在模糊中构建框架，指明前进的方向。这正是我们所看重的。我们不希望候选人只是抱怨“天哪，我们深陷模糊之中”，而是希望他们能提出切实可行的解决方案。（12:05）：我还特别关注那些善于寻求帮助、积极获取反馈的人，而不是那些固执己见、自以为是的人。毕竟，任何产品路径或决策方案，在首次实施时都难免存在偏差。因此，我希望看到候选人能够虚心听取意见，坦然承认自己的不足，并解释为何选择这样的路径。再回归到我们在本期播客中探讨的核心问题——那些能让你判断产品是否有效、进展是否顺利的关键节点——这正是我极其看重的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "12:44",
+   "en": "Next up is Noah Weiss, Chief Product Officer at Slack.",
+   "zh": "接下来是Slack的首席产品官诺亚·韦斯（Noah Weiss）。"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "ts": "12:49",
+   "en": "\"What unfair secrets have you learned to improve the velocity and energy level of a product team?\" When I say \"unfair\" or \"secret\", I usually mean not something that you probably read on a media [inaudible 00:13:02]. \"What did you learn? How did you learn it? How does it work, and how do you apply it?\" You also just get amazing, interesting bits of inspiration from asking that.",
+   "zh": "“你学到了哪些提升产品团队效率和活力的‘不公平的秘诀’？”当我提到‘不公平’或‘秘密’时，我通常指的不是你能从媒体上轻易获取的信息。“你学到了什么？如何获得这些见解？它们如何发挥作用，又该如何应用？”通过这样的提问，你还能收获许多宝贵的灵感。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "13:11",
+   "en": "This next question comes from the very sultry voice of Ben Williams, former VP of Product at Snyk and now an advisor to product-led growth startups.",
+   "zh": "接下来这个问题来自本·威廉姆斯（Ben Williams），他曾是Snyk的副总裁，现在是产品主导增长型初创公司的顾问，声音极具磁性。"
+  },
+  {
+   "speaker": "Ben Williams",
+   "ts": "13:22",
+   "en": "\"Fast forward three years, what's different about you then?\" A lot of people will default to telling you where they aspire to be in terms of role or title, but what I'm really looking for is signals of humility, of self-awareness, around areas of personal and professional growth. People who can be open about where they think they need to work on to grow themselves as people. I love that. (13:49): Also, just generally throughout interviews, I'm looking for curiosity. Day-to-day, good PMs will be asking \"why\" as much as my six-year-old son does, which is a lot, so I'll try and discern that through the course of the conversation. It's not really a question, but something I'm looking for. (14:08): And then maybe I want to flip it, because building on something that Adam Fishman was saying, his theme of evaluating the people dimension of folks you are potentially going to work with when you're interviewing with a company. This was a question I got asked myself recently by a candidate, which I just thought was brilliant, and that was, \"Tell me about the diversity, equity, inclusion and belonging initiatives that you've recently personally been involved with?\" It just felt like a really great way for them to be able to test alignment of their personal values with those of someone they'd be working with really closely, so I love that.",
+   "zh": "“快进三年，届时你会有哪些不同之处？”许多人会习惯性地谈论自己期望达到的职位或头衔，但我真正关注的是谦逊和自我认知的信号，以及个人与职业成长的方向。那些能坦然承认自己需要改进之处的人让我深受触动。我喜欢这种真诚。（13:49）：此外，在整个面试过程中，我始终在寻找好奇心。日常工作中，优秀的产品经理会像我六岁的儿子一样频繁地追问“为什么”，这让我能通过对话洞察他们的求知欲。这并非一个具体的问题，但却是我所追寻的。（14:08）：或许我还想反问一句，延续亚当·菲什曼（Adam Fishman）的观点——在面试过程中，评估与潜在同事的价值观契合度——最近我自己就被一位候选人问到这个问题，觉得十分巧妙：“请谈谈你最近亲自参与的多样性、公平性、包容性和归属感倡议。”这不仅能测试候选人与未来紧密合作者的价值观共鸣，更能展现他们的真诚，这正是我所推崇的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:42",
+   "en": "Next up is Meltem Kuran Berkowitz, Head of Growth and a very early employee at Deel.",
+   "zh": "接下来是Deel公司的增长部门主管、早期员工梅尔特姆·库兰·贝尔科维茨。"
+  },
+  {
+   "speaker": "Meltem Kuran Berkowitz",
+   "ts": "14:48",
+   "en": "\"What would your siblings say about you?\" It's very telling. If they have siblings; if they don't, I will say, \"What will your parents say about you?\" But it's very telling what you think other people think of you.",
+   "zh": "“你的兄弟姐妹会怎么评价你？”这很能说明问题。假如他们有兄弟姐妹；假如没有，我会问：“你的父母会怎么评价你？”但更重要的是，你要了解别人对你的看法。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:00",
+   "en": "What do you look for in their answer that gives you a sign that they're a good candidate or not?",
+   "zh": "你从他们的回答中寻找哪些迹象，能判断他们是否是优秀的候选人？"
+  },
+  {
+   "speaker": "Meltem Kuran Berkowitz",
+   "ts": "15:05",
+   "en": "I look for sincerity and self-awareness. Your siblings are never ... I mean, I love my sister, but she'll call me. She'll talk to me a lot. Being aware of that is very important. If someone was like, \"My siblings will say I'm very organized and that I'm the one that brings our family together,\" that's probably a bullshit answer. But if they're like, \"Oh, yeah, they'll say these weird things about me,\" that shows a little bit of self-awareness and humbleness that I want to see in a person.",
+   "zh": "我看重真诚和自我认知。你的兄弟姐妹永远不会……我是说，我爱我的妹妹，但她会给我打电话，经常和我聊天。能意识到这一点很重要。假如有人说：“我的兄弟姐妹会说我很有条理，是能把我们家凝聚在一起的人。”这很可能是胡说八道。但如果他们说：“哦，对，他们会说我那些奇怪的事儿。”这就显示出一点自我认知和谦逊，而这正是我希望在一个人身上看到的品质。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:30",
+   "en": "Next is Paige Costello, Co-Head of Product Management, and also Head of AI at Asana.",
+   "zh": "接下来是Asana公司的产品管理联合主管兼AI部门主管佩奇·科斯特洛。"
+  },
+  {
+   "speaker": "Paige Costello",
+   "ts": "15:36",
+   "en": "I like to ask, \"Tell me about a time something went wrong. What was it? What did you do about it?\" Yada, yada. Effectively, the question gets at, when the product failed, when something about the team didn't work, just things that go wrong because that's what happens when you're doing this work. Evaluating people's mindset, the way they talk about it, and the way they relate to evaluating the situation, I think it's a great question. It really tells you a lot about how people think and how they perceive themselves when things are not working well.",
+   "zh": "我喜欢问：“讲讲某次出问题的事儿。具体情况是什么？你怎么处理的？” 之类的。实际上，问题在于，当产品失败时，当团队运作出现问题时，总会有各种各样的失误。这就是做这份工作的常态。评估人们的心态、他们谈论问题的方式，以及他们对评估局势的态度，我认为这是个很棒的问题。它能让你深入了解人们的思维方式，以及当事情进展不顺时，他们如何看待自己。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:15",
+   "en": "We are in the final stretch now. There's only five more interview questions to go. Next up is Nikhyl Singhal, VP of Product at Facebook, also one of the most popular episodes of the podcast.",
+   "zh": "现在我们进入最后阶段了。只剩五个面试问题了。接下来是Facebook的VP产品尼基尔·辛格尔，他也是播客最受欢迎的剧集之一。"
+  },
+  {
+   "speaker": "Nikhyl Singhal",
+   "ts": "16:25",
+   "en": "\"What's something that everyone takes for granted that you think is essentially hogwash or inaccurate?\" Sometimes I'll ask a manager, \"Look, you've managed hundreds of people in your career. What's conventional wisdom that you bet against, that you have found is actually inaccurate?\" And you could do that for, \"What do people think about AI that's inaccurate, that everyone believes?\" You could do that for domains. You can do all kinds of things. (16:53): I'm always looking for people to break this sort of interview mindset. Everyone always prepares for interviews, and then their entire conversation is predicting what you think you want me to say. As a result, you can have high-quality people that you dismiss, because they weren't genuine. (17:19): There's no way to answer that question without being genuinely opinionated. Because it starts with, 'What is the thing that you think ...? I want to sit here and then tell me why it's inaccurate.\" When I break that wall, I'm testing, is this person authentic? Because sometimes I'm dismissing them because they told me nothing new. But I don't want the interview process to penalize them, and this was my save question.",
+   "zh": "“有什么大家都认为理所当然，但你认为根本是胡说八道或不准确的事儿？”有时我会问经理：“听着，你职业生涯中管理过数百人。有什么传统智慧是你反其道而行之的，结果发现确实不准确？”你也可以问：“关于AI，大家有什么误解？” 你可以针对不同领域提问。各种各样的问题都可以。（16:53）：我总是在寻找能打破这种面试思维模式的人。每个人都会为面试做准备，然后整个对话都是在预测你想听什么答案。结果，你可能会错过优秀的人才，因为他们不够真诚。（17:19）：要回答这个问题，就必须有真知灼见。因为问题首先是：“你认为……是什么？我希望你坐在这里，然后告诉我为什么它不准确。” 当我打破这种局面时，我是在测试这个人是否真诚？因为有时我会淘汰他们，因为他们没有告诉我任何新东西。但我不想让面试过程惩罚他们，这就是我的救场问题。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "17:52",
+   "en": "This next question comes from Ayo Omojola, Chief Product Officer at Carbon Health, former Product Lead at Square, and also a former founder.",
+   "zh": "接下来这个问题来自Carbon Health的首席产品官、Square的前产品负责人阿约·奥莫乔拉，同时他也是一位前创业者。"
+  },
+  {
+   "speaker": "Ayo Omojola",
+   "ts": "18:01",
+   "en": "\"Tell me something you did that worked out, but not for the reason that you thought it would work,\" or, \"Tell me something you did that was a good decision that didn't work.\" A lot of my process is just teasing out introspection. It's just like, \"Are you a person who is reflective about the decisions you've made, and why they worked and why they did not, and incorporating that into your model so you make different decisions next time?\"",
+   "zh": "告诉我一件你做过的事，虽然结果不错，但原因却并非你所料。或者说，告诉我一件你做过的事，虽然是个明智的决定，但结果却并不如意。我的大部分提问都是在引导人们进行自我反思。比如：“你是否会反思自己做过的决定，分析它们成功或失败的原因，并将这些经验融入你的决策模型中，从而在下次做出不同的选择？”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "18:21",
+   "en": "Next up is Scott Belsky, Chief Strategy Officer at Adobe, former Chief Product Officer of Adobe, also former Founder of Behance.",
+   "zh": "接下来是Adobe首席战略官、前首席产品官、Behance创始人斯科特·贝尔斯基。"
+  },
+  {
+   "speaker": "Scott Belsky",
+   "ts": "18:31",
+   "en": "I like asking about something people have learned about themselves that reveal the limitation in how they work. It's a way to test introspection, and once this person hits their limits or struggles, can they be open and introspective, or are they going to blame and point fingers? So I do ask that. (18:49): I also like the question, \"Do you consider yourself lucky?\" I think it's a fascinating question, because some people who are super-insecure about where they are and how they got there and might decline admitting luck. Those who are comfortable should admit that they were lucky. I mean, I think the truth is, we're all very lucky and certainly privileged, and I just think that that's always an interesting conversation.",
+   "zh": "我喜欢问人们关于他们对自身的认知问题，比如揭示他们工作方式的局限性。这是测试自我反思能力的一种方式。一旦这个人遇到挑战或陷入困境，他们是会保持开放和反思，还是会互相指责和推诿？所以我会问这个问题。（18:49）：我还喜欢问：“你认为自己幸运吗？”我觉得这是一个很有趣的问题，因为有些人对自己的处境和成功之路极度缺乏自信，可能不愿承认运气的重要性。而那些心安理得的人则会坦然承认。说实话，我们都很幸运，也无疑享有特权，我认为这始终是一次有趣的对话。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "19:18",
+   "en": "Our penultimate interview question comes from Lauryn Isford, Head of Growth at Notion, former Head of Growth at Airtable.",
+   "zh": "我们的倒数第二个面试问题来自Notion增长团队负责人劳琳·伊斯福德，曾任Airtable增长团队负责人。"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "ts": "19:26",
+   "en": "\"Tell me about a time that you delivered something that was impactful.\" I'm looking for someone to help me understand how they define impact and what it means to them. I think a good answer for a growth practitioner is intrinsic motivation about having an impact on the business.",
+   "zh": "“请讲讲你交付了一项有影响力成果的经历。”我希望了解他们如何定义影响力，以及它对他们的意义。我认为对于增长从业者来说，内在动力对业务产生影响是一个很好的答案。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "19:46",
+   "en": "Our final interview question is actually advice for doing reference calls, which comes after finding someone great through your interview process. This comes from Paul Adams, Chief Product Officer at Intercom, with a killer Irish accent.",
+   "zh": "我们的最后一个面试问题实际上是关于如何进行背景调查的建议，这是在面试过程中找到优秀候选人之后进行的。这个问题来自Intercom首席产品官保罗·亚当斯，他带有浓重的爱尔兰口音。"
+  },
+  {
+   "speaker": "Paul Adams",
+   "ts": "20:00",
+   "en": "I have to do referral calls. You're interviewing someone, you want to give them the job, and they've got referees. Of course, the referees they have are the best people that they ever worked with and their favorite managers. This question is, \"What feedback will I be giving this person in their first performance review?\" It's an amazing question, because the person can't dodge it. There's an answer, and it's incredibly enlightening.",
+   "zh": "我必须进行背景调查。你面试了某个人，想给他们这份工作，而他们有推荐人。当然，他们推荐的人都是他们共事过的最优秀的同事和最喜欢的经理。这个问题是：“我将在他们的第一次绩效评估中给出怎样的反馈？”这是一个很棒的问题，因为对方无法回避。答案清晰明了，而且极具启发性。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "20:23",
+   "en": "And it's a wrap. Thank you so much for listening. I hope you found this valuable. Leave a comment either on the newsletter post, or in the YouTube comments, or even on Twitter. Let me know what you think. If there's a great response, we'll continue to do this. If not, we'll never do this again. All right, thank you. Enjoy.",
+   "zh": "以上就是全部内容。非常感谢您的收听。希望您觉得这期节目有价值。欢迎在新闻通讯帖子、YouTube评论区或Twitter上留言分享您的想法。如果反响热烈，我们会继续举办这样的活动。反之，则再也不办了。好的，谢谢大家。祝您愉快。"
+  }
+ ]
+}

@@ -1,0 +1,749 @@
+{
+ "id": "Alex Komoroske",
+ "name": "Alex Komoroske",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Alex+Komoroske",
+ "bio": {
+  "en": "Alex Komoroske is a former 13-year Google veteran (Search, Chrome's Open Web Platform, AR at Maps) and ex-head of corporate strategy at Stripe who is founding a startup to reimagine the web for the AI era.",
+  "zh": "Alex Komoroske 在 Google 工作了 13 年（搜索、Chrome 开放网络平台、地图 AR 等），曾任 Stripe 企业战略负责人，目前正在创办一家旨在为 AI 时代重塑网络的公司。"
+ },
+ "summary": {
+  "en": "Alex makes the case for thinking like a gardener rather than a builder—cultivating systems that grow and compound on their own instead of forcing a fixed plan. He explores how LLMs and generative AI will reshape product building, which skills will matter most, and what organizations can learn from slime mold and “the adjacent possible.” The conversation ranges across strategy salons, organizational kayfabe, and why directing emergent behavior beats brute-force control.",
+  "zh": "Alex 主张像“园丁”而非“建造者”一样思考——培育能自主生长、自我复合的系统，而不是强推既定计划。他探讨了 LLM 和生成式 AI 将如何重塑产品构建、未来哪些技能最关键，以及组织能从黏菌和“邻近可能”中学到什么。对话还涵盖策略沙龙、组织性的 kayfabe，以及为何引导涌现行为优于蛮力控制。"
+ },
+ "turns": [
+  {
+   "speaker": "Alex Komoroske",
+   "en": "So much of the way that we tackle problems and build products is this builder mindset. It's like I have a plan. I then manipulate things to match my plan and make it happen. And this is a way you can create tons of value. Part of the problem though is it can't possibly create more value than the effort that you put into it. What I look for instead are things that can be gardened, things that can grow on their own and that you can direct or maybe give a little bit of extra energy to or curate over, and is a totally different mindset for it. If you do this properly, it looks like magic. I've been told that this is completely against all the advice that people get, including products nowadays, but I think it's a very powerful approach that works in a lot of different contexts.",
+   "zh": "我们解决问题和做产品的方式大多是 builder 思维。就是「我有个计划，然后我操纵事物来匹配我的计划、让它发生。」这是一种能创造大量价值的方式。但问题是它创造的价值不可能超过你投入的努力。我寻找的是可以被「园丁化」的东西——可以自己生长、你可以引导或给一点额外能量或 curate 的东西，这是完全不同的心态。如果你正确地做这件事，它看起来像魔法。有人告诉我这完全违背大家现在做产品得到的建议，但我觉得它是一种在很多场景都有效的强大方法。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Alex Komoroske. Alex is one of the most original, articulate, and first principle thinkers on the future of product and tech that I've ever come across. This conversation will get your brain buzzing in all kinds of ways. Alex spent 13 years at Google where he worked on Search, DoubleClick. He led Chrome's Open Web Platform team for eight years, led augmented reality within Google Maps, and developed a new toolkit to align company-wide strategy from the bottom up. After a stint at Stripe as head of corporate strategy, he's currently founding a startup that aims to reimagine the web for the AI era. (00:01:13): In our wide-ranging conversation, we cover how LLMs and gen AI will impact how we build product in the coming years, what skills will matter most as AI becomes a bigger part of our lives, what companies can learn from slime mold, organizational kayfabe, the adjacent possible, strategy salons, why you should be thinking more like a gardener than a builder, plus a bunch of productivity tips, life advice, and so much more. This was such a fun episode, and I'm sure this is going to get your mind thinking in completely new ways. (00:01:42): If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing feature episodes and it helps the podcast tremendously. With that, I bring you Alex Komoroske. (00:01:57): Alex, thank you so much for being here, and welcome to the podcast.",
+   "zh": "今天的嘉宾是 Alex Komoroske。Alex 是我遇到过的关于产品和科技未来最原创、最清晰、最第一性原理的思考者之一。这次对话会让你的大脑以各种方式兴奋。Alex 在 Google 做了 13 年，做过搜索、DoubleClick。他领导 Chrome 开放 Web 平台团队八年，领导 Google Maps 内的增强现实，还开发了一个自下而上对齐全公司战略的工具包。在 Stripe 做了一段时间企业战略负责人后，他目前在创办一家创业公司，旨在为 AI 时代重新想象 Web。(00:01:13)：在我们范围广泛的对话里，我们聊了 LLM 和生成式 AI 将如何影响未来几年做产品的方式、AI 成为我们生活更大一部分后什么技能最重要、公司能从黏菌学到什么、组织 kayfabe、相邻可能、战略沙龙、为什么你该更像园丁而不是 builder 思考，还有一堆生产力 tips、人生建议等等。这期非常有趣，我确信它会让你的思维以全新方式运转。(00:01:42)：如果你喜欢这档播客，别忘了在你最喜欢的播客 app 或 YouTube 上订阅关注。这是不错过未来节目的最好方式，也极大地帮助播客。下面请出 Alex Komoroske。(00:01:57)：Alex，非常感谢你来，欢迎来到播客。",
+   "ts": "00:00:40"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Thanks for having me.",
+   "zh": "谢谢你邀请我。",
+   "ts": "00:02:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love the way your brain works. My brain immediately starts buzzing anytime I start reading some of your stuff. And one of the more interesting things that you write and do and a really interesting habit you have is you actually have this doc that you keep called Bits and Bobs that I love, and we're going to be touching on a lot of the things that you share in this doc, Bits and Bobs, and we'll link to it. First of all, can you just explain this doc, Bits and Bobs, what's it about?",
+   "zh": "我喜欢你大脑运作的方式。每次我开始读你的东西，我的大脑立刻开始兴奋。你写和做的更有趣的事之一、你有的一个很有趣的习惯是，你维护着一个叫 Bits and Bobs 的文档，我很喜欢，我们会聊到你在这个文档里分享的很多东西，会链接到它。首先，你能解释一下这个 Bits and Bobs 文档吗，关于什么？",
+   "ts": "00:02:02"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah. I think it's like 600 pages now. It's this one Google Doc. Every so often, almost every day, someone will accidentally add a suggestion like add a space or something because it takes so long to load that while they're waiting, they'll tap on the screen and then it'll turn into taps on adding a comment or something. And I take a lot of notes. And people, I tell people when I'm in meetings with them of like, \"If you see me on my phone or typing, that means I think you said something very interesting and I'm writing it down. It's not that I'm just that I'm disengaged. I try to collect all these ideas.\" And then once a week, I go through, I take a few hours and I just reflect to myself and try to find patterns and unpack and find meaning and things. And I write those down and I started sometime in the past sharing those publicly, and it's now become a thing I literally can't stop doing. (00:03:17): I just find someone who was like, \"Oh, if you get more exposure for this, if you broke these up into tweets that you sent out once throughout the day,\" it's like, I did this for me. I'm happy to let other people see and peek into my weird mental process if they want, but this is 100% about my own self-reflection. And it's not designed. I don't want anyone to feel compelled to read it or... In fact, it's designed a little bit to be, I allow myself to be a little bit illegible. I want people to have to work a little bit with it. And it's not going to lay it out on a platter. It's going to jump between different things. I'll use terminology sometimes that is, what are you talking about? And I do that specifically. I don't want anyone to read and be like, \"Oh, it sucks. It wasn't worth my time.\" It's like, \"Cool.\" It's a 600-page Google Doc of my just unspooled insights. It's okay for you to not want to dive into that.",
+   "zh": "对。现在大概 600 页了。就一个 Google Doc。几乎每天都会有人不小心加个建议比如加个空格之类的，因为它加载太慢，等待时他们点屏幕然后变成加评论之类的。我记很多笔记。我在会议里告诉别人「如果你看到我在手机上或打字，那意味着我觉得你说了什么非常有趣我在写下来。不是我不投入。」我试图收集所有这些 idea。然后每周一次，我花几个小时过一遍，反思、找模式、unpack、找意义。我把它写下来，过去某个时候开始公开分享，现在成了我 literally 停不下来的事。(00:03:17)：有人说「哦如果你给它更多曝光，如果你把这些拆成推文每天发一条」之类的，这是我为自己做的。我乐意让别人看到、窥探我奇怪的思维过程如果他们想，但这是 100% 关于我自己的自我反思。它不是设计的。我不想让任何人觉得被迫读。其实它有点被设计成——我允许自己有点不可读。我想让人得花点功夫。我不会把东西放在盘子里端给你。它会在不同东西间跳。我有时用术语，你会想「你在说什么？」我特意这么做。我不想让人读了说「哦这糟透了，不值我时间。」就「酷，这是一个 600 页的我的 insight unwind 的 Google Doc。你不想 dive 进去也没关系。」",
+   "ts": "00:02:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Eppo. Eppo is a next generation A/B testing and feature management platform built by alums of Airbnb and Snowflake for modern growth teams, companies like Twitch, Meero, ClickUp and DraftKings rely on Eppo to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features. And Eppo helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. (00:04:40): When I was at Airbnb, one of the things that I loved most was our experimentation platform where I could set up experiments easily, troubleshoot issues, and analyze performance all on my own. Eppo does all that and more with advanced statistical methods that can help you shape weeks off experiment time, and accessible UI for diving deeper into performance, and out-of-the-box reporting that helps you avoid annoying prolonged analytic cycles. Eppo also makes it easy for you to share experiment insights with your team, sparking new ideas for the A/B testing flywheel. Eppo powers experimentation across every use case, including product, growth, machine learning, monetization, and email marketing. Check out Eppo at geteppo.com/lenny and 10X your experiment velocity. That's geteppo.com/lenny. (00:05:28): This episode is brought to you by Vanta. When it comes to ensuring your company has top-notch security practices, things get complicated fast. Now, you can assess risk, secure the trust of your customers, and automate compliance for SOC 2, ISO 27001, HIPAA and more with a single platform, Vanta. Vanta's market-leading trust management platform helps you continuously monitor compliance alongside reporting and tracking risk. Plus, you can save hours by completing security questionnaires with Vanta AI. Join thousands of global companies that use Vanta to automate evidence collection, unify risk management, and streamline security reviews. Get $1,000 off Vanta when you go to vanta.com/lenny. That's vanta.com/lenny.",
+   "zh": "本期节目由 Eppo 赞助。Eppo 是由 Airbnb 和 Snowflake 校友为现代增长团队打造的下一代 A/B 测试和 feature 管理平台。Twitch、Meero、ClickUp、DraftKings 等公司依赖 Eppo 做实验。实验对驱动增长和理解新功能表现越来越重要。Eppo 帮你提升实验速度，同时以没有其他商业工具能做到的方式解锁严谨深度分析。(00:04:40)：我在 Airbnb 时最喜欢我们实验平台的一点是我能自己轻松设实验、troubleshoot 问题、分析表现。Eppo 做这些以及更多，用高级统计方法帮你省几周实验时间、accessible UI 深入表现、开箱即用报告帮你避免冗长分析周期。Eppo 还让你轻松和团队分享实验洞察，激发 A/B 测试飞轮的新 idea。Eppo 支持每个用例的实验，包括产品、增长、机器学习、变现、邮件营销。去 geteppo.com/lenny 查看，10 倍你的实验速度。就是 geteppo.com/lenny。(00:05:28)：本期节目也由 Vanta 赞助。确保公司有顶尖安全实践时，事情很快变复杂。现在你可以在单一平台 Vanta 上评估风险、赢得客户信任、自动化 SOC 2、ISO 27001、HIPAA 等合规。Vanta 市场领先的信任管理平台帮你持续监控合规、报告和跟踪风险。还能用 Vanta AI 完成安全问卷省时。加入数千家使用 Vanta 自动化证据收集、统一风险管理、简化安全审查的全球公司。获得 1000 美元……",
+   "ts": "00:04:09"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I started it many years ago in the same conceptual thing, taking a bunch of notes. I have a thing called The Compendium, which is an open source tool. If you look at it currently, it looks like I haven't touched it in years, but that's actually incorrect. I built this about five years ago. I use it every day. And so I have, I think let's see, I currently have 17,248 unpublished working notes. And so what I do during the week is I'm taking notes very quickly in meetings, and then every day or two, I go through and I process them and put them in as working notes in The Compendium, and this is where I correct misspellings. I add just a little bit more context so that it will make sense to me if I were to read it in a year. (00:06:58): And also, I built a feature into it that uses embeddings to find similar cards. I find similar ideas from the past. And then what I do on Friday afternoons is I sit down and I go through all the notes I added that week and I just click and check the ones that still resonate with me, they still seem interesting in some way. And then I have a little export thing. I put it into a Google Doc, and while the kids are napping on the weekends, I just go through them and try to distill them a little bit more in a more long-term format. And then on Monday mornings, I publish them. And again, it's a deep... For me, it's like I can't imagine not doing this. It is the place where I find most of my most interesting insights is by reflecting on interesting conversations from the week before.",
+   "zh": "我很多年前就开始同样的概念，记一堆笔记。我有个叫 The Compendium 的东西，是个开源工具。看它现在好像我几年没碰了，但其实不对。我大约五年前建的，每天都用。我目前有 17,248 条未发布的工作笔记。我一周里在会议里快速记笔记，然后每一两天过一遍、处理、放进 The Compendium 作为工作笔记，在这里我纠正拼写、加一点上下文让它对一年后的我也能理解。(00:06:58)：我还给它建了个用 embedding 找相似卡片的功能。我从过去找相似 idea。然后周五下午我坐下来过这周加的所有笔记，点选那些仍让我有共鸣、仍似乎有趣的。然后我有个小导出功能，放进 Google Doc，周末孩子午睡时我就过它们、试图在更长期格式里再蒸馏一点。然后周一早上发布。再说一次，对我来说这是……我无法想象不做这个。这是我找到大多数最有趣 insight 的地方——通过反思前一周的有趣对话。",
+   "ts": "00:06:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As we get into the conversation, people get to see how deeply you think about stuff. Part of the reason you're able to think so deeply about stuff is you have this practice where you take time to reflect and share and crystallize. There's so much power in just forcing yourself to write it out, I imagine versus, just not.",
+   "zh": "我们进入对话后大家会看到你思考得多深。你能思考得这么深的部分原因是你有这个练习——花时间反思、分享、crystallize。强迫自己写出来有很大力量，对比不写。",
+   "ts": "00:07:39"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "100%. I find that when you're busy, you're constantly just go, go, go, go. There's no time to do any deep thinking. Deep thinking takes time and space, and you got to create that space. The mundane, pointless bullshit will take every square inch you give it. So you got to make that space to sit back and reflect and luxuriate in these ideas. And when you do, you're often like, \"Oh my God. Oh wow, that's one I'll keep.\" (00:08:18): And I told people, back at the very beginning of my career, I used to work from home on Fridays. And people gave me so much shit for this and they'd say, \"Oh, you're working from home on Fridays.\" First of all, I will line up my output any day of the week. I'm very proud of the impact I've had. Second of all, Monday through Thursday, I'm in meetings from 8:00 to 6:00 or whatever. I'm just running between. I'm singing, pinging people and scheduling things and flinging action items. And the one day I don't take meetings is on Friday, and that's the day I read documents carefully that people had sent me or reflect. And I think to myself, what is the thing that if I had done it before the week started would've saved me tons of time and effort that week? (00:08:58): So for example, maybe in 10 different one-on-ones with people on the team, I had to explain to them a strategic thing that we were doing or a change that we were making. And the idea and the way I framed it worked for everybody. Well, you know what? That should probably be a document, right? If the same idea worked for 10 different people and now in the future there's probably 10 other people that need to hear it, and now I'll write that document in 30 minutes and now I have it as a memorialized thing that other people can read on their own time without having to involve me. (00:09:24): And you also find these interesting ideas sometimes where you look at this problem that you're banging your head against, you go, \"Oh wait, if I will like that, that would've a wildly different dynamic.\" And you can only find those when you take a step back. And I find that people, I told someone, I mentored someone, I've mentored hundreds of PMs over the years and I told someone that at one point and they go, \"Oh, I wish I had the time.\" And it's like, you got to make the time. All of us are busy and we will always be busy. And so this to me is not something I do to just for the enjoyment of all. I do deeply enjoy it intrinsically. It's something I do because I think it makes me more productive and effective.",
+   "zh": "100%。我发现你忙的时候就是不停 go go go。没时间深度思考。深度思考需要时间和空间，你得创造那个空间。无聊无意义的破事会占据你给的每一寸。所以你得创造那个空间，坐下来反思、在这些 idea 里 luxuriate。当你做时，你经常「哦天哪。哦哇，这条留着。」(00:08:18)：我跟人说过，我职业生涯最开始就在家周五办公。大家给我很多 shit 说「哦你周五在家办公」。首先，我的产出随时可以和人比，我为我的影响自豪。其次，周一到周四我从早八到晚六都在会议里，就在跑来跑去、ping 人、排事、扔 action item。唯一一天我不开会就是周五，那天我仔细读别人发我的文档或反思。我问自己：如果在周一开始前做了哪件事会帮我那周省下大量时间和精力？(00:08:58)：比如也许在 10 个一对一里我得跟团队解释我们做的战略或改动。这个 idea 和我 framing 的方式对每个人都 work。好吧，你知道这该是个文档对吧？如果同一个 idea 对 10 个人 work，未来大概还有 10 个人需要听。现在我用 30 分钟写那个文档，把它固化成别人可以自己时间读的东西，不用我参与。(00:09:24)：你有时也发现这些有趣的 idea，你看一个你头撞墙的问题，突然「哦等一下，如果我这样做，那会有完全不同的 dynamics……",
+   "ts": "00:07:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm very tempted to go down a whole direction of just how you structure your time and your productivity calendar and all this stuff, but I'm not going to do that. That could be another episode if I do.",
+   "zh": "我很想往你怎么结构化时间、生产力日历等方向深聊，但我不这么做。那可以是另一期。",
+   "ts": "00:10:01"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I do for that for hours.",
+   "zh": "那个我能聊几个小时。",
+   "ts": "00:10:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I want to do instead is pick on some of the Bits and Bobs that you've been focusing on noodling on that I think are going to be really helpful to listeners in how they think about product and the future of AI and all these things that I think are emerging. And the first one is actually that I want to get your thoughts on how AI and LLMs are likely to impact product development. A lot of the listeners of this podcast are PMs, engineers, founders, people building software, and you're spending a lot of time thinking about AI and product development. A lot of your Bits and Bobs have been just like, \"Here's what's happening. Holy shit. This is how things are going to be.\" So let me just ask you this how do you anticipate LLMs and gen AI are going to change how products are built in the next three to five years?",
+   "zh": "我想做的是从你的 Bits and Bobs 里挑一些你一直在琢磨的、我觉得对听众想产品、AI 未来很有帮助的东西。第一个是我想听你对 AI 和 LLM 可能怎么影响产品开发的看法。这档播客很多听众是 PM、工程师、创始人、做软件的人，你花很多时间思考 AI 和产品开发。你很多 Bits and Bobs 就是「这是在发生的。天哪。事情会是这样。」所以我直接问：你预期 LLM 和生成式 AI 在未来三到五年会怎么改变产品构建方式？",
+   "ts": "00:10:10"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I think they change a lot. I think LLMs are truly a disruptive technology. In fact, I would argue that what we're seeing in the industry is us trying to use mature playbooks from the end stage of the last tech era in one that doesn't really fit yet. To me, LLMs are magical duct tape. They're formed principally by the distilled intuition of all of society into a thing that operates between, a cost structure between human and plain old computing. So much of how the industry is built presupposes the idea that software is expensive to write and cheap to run, and LLMs undermine both of these. So it makes it LLMs allow writing shitty software to be significantly cheaper, not necessarily good software, but good enough in certain contexts. And also it means that there's certain software now that isn't plain old computing that can be run cheaply. It's relatively expensive marginal cost. (00:11:49): And so if you're going to do a consumer startup, it can't be based on advertising. It's just too expensive. Advertising cannot clear the inference costs even with inference costs declining. So I think the way to me, a disruptive technology changes tons of stuff, all these assumptions you didn't even realize you were making because you didn't realize it could be any different. (00:12:07): Imagine if you were locked in a room for your entire career, no windows, and you have all these experiences. You're going all this know how. You're getting this sense of how things work, what will happen. And then imagine that room tilts on its axis by five degrees. Everything looks roughly the same, and yet now the dynamics of the force of gravity is pulling in a different direction than it was before. You didn't even think about the force of gravity before because it was so omnipresent. It never changed that it's just a blank in your head. And now gravity has changed effectively for your perspective and all kinds of intuition is now wrong. I put this thing on the table, it's going to stay there, and then it slides off and falls into the wall. All kinds of weird stuff will happen. (00:12:44): And I think LLMs to me feel like that. I can't tell you the number of people who are... At some point at a year or two, someone came to me, they're like, \"I just built a prototype, product that would've taken me three months. And I can believe it's going to start up.\" I was like, \"How differentiated do you think that is?\" Everybody can do that now. It changes the basis of competition. I think today I see a lot of folks using LLMs, and LLMs are like a squishy computer. We're used to computers doing exactly what we told them to do, which is not necessarily what we meant. And only some people have learned the skill of programming, the arcane magical incantations to make computers do exactly what you meant. (00:13:24): Now, LLMs can do all kinds of stuff. And they don't do exactly what you told them, but they do typically do roughly what you meant. I see all these places where people will build products and they'll say 80% of the time, 90% percent of the time, it's great. 5% of the time it punches the user in the face and they're like, \"Oh, we're going to reduce the number of times it punches us in the face.\" It's like even if you get it down to 99% of the time, it's fine. If it punches in the face, that's not a viable product. And so how do you design your products assuming that this thing will be squishy and not fully accurate and fully work? (00:13:53): People use these things a lot as oracles. \"I'm going to have it. I'm going to formulate the answer and it's going to be a fully fledged answer.\" And of course, strawberry has been really stabbed at. Gotten a chance to play with it. They are getting better at some of these kinds of behaviors at great expense. But in a lot of cases, I instead would rather say, \"How can you take LLMs for granted? How can you assume that you now have this magical duct tape? Don't assume it's going to solve all your problems. Don't assume it's going to do autonomously be able to give high quality results of every case. But what can you now build now that you have magical duct tape?\"",
+   "zh": "我觉得它们改变很多。我觉得 LLM 是真正的颠覆性技术。其实我会说我们看到的是行业试图用上一个技术时代末期的成熟 playbook 在一个还不合适的世界里。对我来说 LLM 是魔法胶带。它们主要由全社会的蒸馏直觉构成，运行在人和普通计算之间的成本结构之间。行业这么建的大量前提是软件写起来贵、跑起来便宜，LLM 把这两者都颠覆了。所以 LLM 让写烂软件显著更便宜——不一定是好软件，但在某些场景够好。也意味着某些软件不是普通计算可以便宜跑的，它有相对贵的边际成本。(00:11:49)：所以做消费创业公司不能基于广告。太贵了。广告无法覆盖推理成本，即使推理成本在降。所以对我来说，颠覆性技术改变大量东西，那些你甚至没意识到你在做的假设，因为你不知道它可以不同。(00:12:07)：想象你整个职业生涯被锁在一个没窗的房间里，你有所有这些经验、know-how，对事情怎么运作、会发生什么有感觉。然后那个房间倾斜 5 度。一切看起来差不多一样，但现在重力的方向变了。你之前甚至没想过重力因为它太 omnipresent、从不变，就是你脑子里的空白。现在重力对你变了，各种直觉现在错了。我把这东西放桌上，它会待在那……",
+   "ts": "00:10:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're a product manager for most of your career. Now, you're a founder. I'm curious what your advice would be to product managers and people building products in terms of what skills they should lean into, what you think is going to be matter most. There's hard skills. There's soft skills. There's getting more technical. There's getting more product business-oriented. Just what do you think people should work on more and becomes more valuable and what do you think becomes less valuable from a product builder perspective?",
+   "zh": "你大部分职业生涯是 PM，现在是创始人。我好奇你对 PM 和做产品的人在技能上该往哪 leans in、什么最重要有什么建议。有硬技能、软技能、更技术、更产品商业。你觉得大家该多做什么、什么变得更宝贵、什么变得不那么宝贵从产品 builder 角度？",
+   "ts": "00:14:24"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I think in this early stage, we're in the community gardening phase, not the factory farming phase of this technology. And so I think what people need most is curiosity and play. You should be playing with these things and trying out different things and seeing what weird things are possible now. One of my favorite things, to be honest, right now, it's using AI is WebSim. WebSim is so weird. What a weird idea, like why? And then you play with it and you realize, \"Oh, this is a thing that could only exist in a world where LLMs exist.\" And I think these kinds of odd, interesting, weird, provocative, generative things will be where a lot of the interesting patterns are found because right now we're so used to... If the playbook, if the cost structures have changed, the kinds of things are now possible, the playbook is wrong and we should throw it out or at least ignore it to some degree. So it will feel like we are navigating through a whole new industry that it has in the past. (00:15:47): Anytime that an industry gets really, really, really, really, really good at like vertical SaaS, we know how to execute the crap out of that. We know exactly what to do. It doesn't require that much. It requires consumption and execution velocity and all this. But vertical SaaS, I think, is not the right model of how you would attack a problem that is an AI native style problem. And I think that those are where all the interesting things will be. And again, I think a lot of the tactics that we're trying out at the beginning, they won't work. It'll turn out that they only work 95% of the time, and 5% of the time they punch you in the face or something. And that means that you have to be more adaptable and you have to assume that a scrappy thing will be more important. (00:16:28): One of the ways I put this is we've seen a vast reduction in the cost of distribution of information, and now we're seeing a reduction in the cost of information production. And most of it is slop. And so in this cacophony, how do you stand out? You stand out by having good taste. I think taste is the most important thing. You have a perspective that is different from the background noise, different from the average and that people find compelling. How do you find your own taste and how do you lean into that taste is, I think, much more important than just generically executing in the way that everybody else could do.",
+   "zh": "我觉得在这个早期阶段，我们在这个技术的社区园艺期，不是工厂化农业期。所以大家最需要的是好奇心和玩。你该玩这些东西、试不同的事、看现在有什么奇怪的可能。我最喜欢的一件事老实说是用 AI 的 WebSim。WebSim 太怪了。什么怪 idea，为什么？然后你玩了发现「哦，这只有在 LLM 存在的世界才可能存在。」我觉得这些奇怪的、有趣的、挑衅的、generative 的东西会是很多有趣模式被发现的地方，因为我们现在太习惯于……如果 playbook、成本结构变了，可能的东西的种类变了，playbook 是错的，我们该扔掉它或至少一定程度上忽略它。所以会感觉像我们在导航一个全新行业。(00:15:47)：任何时候一个行业变得超级超级擅长比如垂直 SaaS，我们知道怎么执行到极致。我们确切知道该做什么。不需要那么多。需要消费和执行速度这些。但垂直 SaaS 我觉得不是攻击 AI 原生问题的正确模型。我觉得那些才是所有有趣的东西。再说一次，我觉得我们在开头试的很多战术不会 work。它们会只在 95% 的时候 work，5% 的时候给你一拳之类的。所以你得更有适应性，得假设 scrappy 的东西更重要。(00:16:28)：我的一种说法是我们看到了信息分发成本的大幅降低，现在我们在看到信息生产成本的降低。大部分是 slop。所以在……",
+   "ts": "00:14:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's so many threads I want to follow here, but maybe on just this last one, when you say taste, what do you mean by that? What should people think when they're like, \"Okay, I got to work in my taste\"?",
+   "zh": "这里有好多条线我想跟。也许就最后这个，当你说品味，你指什么？大家该想什么当他们想「好我得练我的品味」？",
+   "ts": "00:17:01"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Taste, one way of looking at this is differentiate from what the LLM would've written if given the same prompt. How different, how distinctive is what you have to say. And I think so much in large industry, in large organizations is about fitting into the role. How can you be a better and more efficient cog in that particular kind of machine? And I think in this new world, what you want to do is how can I become the best version of myself? How can I lean into the things that I have an interesting perspective on that make me different? Those are the kinds of things. And now of course, if you lean into something and you're doing something out there and nobody resonates with it, then it doesn't count. Good taste is something that is individual and also compelling to others. And so find what things you say that resonate with other people and lean into that.",
+   "zh": "品味，一种看法是：和 LLM 给同样 prompt 会写的东西有多大不同。你说的有多不同、多独特。我觉得大行业、大组织里很多是关于融入角色。你怎么成为那台特定机器里更好更高效的齿轮？在这个新世界里，你想的是怎么成为最好的自己？怎么 leans in 你有有趣视角、让你不同的东西？那些才是该做的。当然如果你 leans in 某个东西、做了什么、没人共鸣，那不算。好品味是既个人又对他人 compelling 的。找到你说的、和他人共鸣的东西，leans in 那个。",
+   "ts": "00:17:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Back to the WebSim example, we're going to link to this, but definitely play with WebSim. I was interviewing Dylan Field at Figma Config and this was his... Asked him like, \"What's the number one thing you think people are going to get more excited about in the future that you're playing with now?\" Because he's really good at identifying things that are going to be bigger in the future, and that was his choice. And it's very hard to understand exactly what it is if you just go there. But basically it's like you type a URL and it invents what that website is using just AI LLMs.",
+   "zh": "我喜欢这个。回到 WebSim 例子，我们会链接，但一定要玩 WebSim。我在 Figma Config 采访 Dylan Field 时这是他——问他「你觉得未来人们会更兴奋、你现在在玩的最重要的东西是什么」因为他很擅长识别未来会更大的东西，那是他的选择。如果你只去那里很难理解它到底是什么。但基本就是你输入一个 URL，它用 AI LLM 发明那个网站是什么。",
+   "ts": "00:17:53"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "That's insane, as in. And you can get it to do, you realize as you play with it more, you can get it to do all kinds of specific things and you can steer it based on the way it uses the context of the last few pages. It creates a coherent world that's coherent with the things that you have recently seen, because you can steer it directly and you can watch fascinating people. They'll cover all kinds of wacky little techniques to get to generate, like generate a game for your kid that's on a specific type. You can do all kinds of stuff. And I'm not saying necessarily WebSim to me is a disruptive thing. Things that look alien and weird and yet are compelling, those are what we should be paying more attention to as opposed to take an existing playbook and slap something on it.",
+   "zh": "那太疯狂了。你玩多了发现你可以让它做各种具体事，你可以基于它用最近几页上下文的方式引导它。它创造一个和你最近看到的东西连贯的连贯世界，因为你可以直接引导它，你可以看迷人的人。他们会用各种奇怪小技巧让它生成，比如给你孩子生成一个特定类型的游戏。你可以做各种事。我不是说 WebSim 一定是个颠覆性东西。但看起来外星、奇怪、却又 compelling 的东西，才是我们该多关注的，而不是拿现有 playbook 往上 slap 点什么。",
+   "ts": "00:18:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Another point that I saw you make about AI and the way it's different from other things we've done is most of the tools that we adopt in the workplace are collaborative where it helps your team be better, helps you collaborate better, and AI is the opposite. It makes you individually better. Can you talk about that insight?",
+   "zh": "我喜欢这个。你关于 AI 和我们做过的别的不同的一点是：我们在工作场所采纳的大多数工具是协作型的，帮团队更好、帮协作更好，AI 相反。它让你个人更好。能聊聊这个洞察吗？",
+   "ts": "00:19:03"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "100%. I think this is one of the reasons is that the question right now of, okay, everyone's talking about AI and yet nobody's doing... There's no interesting breakout success obviously other than OpenAI and Anthropic obviously. So is there any value being created? I think it's entirely possible. And Ethan Malik who's a good friend, who has an amazing blog who's absolutely worth reading, has pointed out, too, that this is a thing that make individuals better in a way they might not want to tell their manager about. I can now do my job twice as fast. And if the organization sees that, they might go, \"Wait a second. We should pay you half this much.\" They're like, \"What if we get rid of some extra people or something?\" (00:19:56): And so if this stuff is magical duct tape, it's very hard to make scaled, repeatable, large scale things out of it. It's very easy to do rig the shit out of anything. And so you'll see it being used in the small in a way that's almost entirely below the level of awareness of the seeing at the organization. The organization almost won't see it or sense it, and yet it could be adding significant value or just being used quite heavily. And I think this is one of the things that makes it if everything is happening in the long tail of usage, then you could conclude, \"Oh, it's not being used for anything in the industry,\" but it's being used all over the place. I talked to Claude 20 times a day. I just have long conversations with it. I have tons of projects loaded up with all kinds of contexts on different topics, and I literally could not do the job I do now without having a conversation partner like Claude.",
+   "zh": "100%。我觉得这是原因之一：现在大家在谈 AI 但没人做……除了 OpenAI 和 Anthropic 显然没有有趣的突破性成功。所以有创造价值吗？我觉得完全可能。Ethan Malik——好朋友、有很棒的博客值得读——也指出，这是让个人更好的东西，方式是他们可能不想告诉 manager。我现在能用两倍速做工作。如果组织看到，他们可能想「等等，我们该给你减半薪水。」或「我们裁几个人？」(00:19:56)：所以如果这东西是魔法胶带，很难用它做规模化、可重复的大型东西。很容易 rig 任何东西。所以你会看到它在小处使用，几乎完全在组织 awareness 之下。组织几乎看不到或感觉不到，但它可能正在增加显著价值或被大量使用。我觉得这是让……如果一切发生在使用长尾里，你可能得出「哦它没在被用于任何事」的结论，但它到处在用。我一天和 Claude 聊 20 次。就是和它长对话。我有一堆项目加载了各种不同话题的上下文，我 literally 没有像 Claude 这样的对话伙伴就做不了我现在做的工作。",
+   "ts": "00:19:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me follow that thread real quick because a lot of people are like, \"Okay,\" people keep telling me, \"Play with AI. Use ChatGPT.\" Sometimes it's hard to see exactly what they can do with it. Can you give one example of how you found it really helpful or how you use Claude or another tool in your day-to-day?",
+   "zh": "让我跟一下这条线因为很多人说「好吧，玩 AI、用 ChatGPT」。有时很难看到他们能用它做什么。你能给一个你发现它真的有用或你日常怎么用 Claude 或别的工具的例子吗？",
+   "ts": "00:20:48"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I use it to think through problems. And so like when I'm trying to name a concept or get a handle on a few different ways of looking at something, just saying, \"Here's what's in my brain about this topic right now. Here's some relevant context.\" I have a number of projects that just stuff as much of the Bits and Bobs into the context as I can, which is very helpful. And I just say, \"Just play with it. Just give me 10 examples of that thing,\" or then, \"Critique these ones,\" or, \"It feels like this one's the best one for me. What works about this? Why is this one the best?\" Or, \"I want to work at an angle now that has something about know Helen Nissenbaum's concept of contextual integrity. How would I layer that in?\" It's just think of it as having a extremely well-read but slightly naive friend who is will never make you feel dumb and is willing to engage you in any particular topic you want to go down. (00:21:49): So when you talk to an expert like a lawyer or a doctor or something, you know that that time is extremely valuable. You have a very small slice of time, and so there's tons of questions you don't even bother to ask. \"That's a dumb question. I'm not going to spend $1,000 to answer that question.\" Whereas if you can have that conversation, now this is not saying use it for legal advice, but it can allow you to explore through a problem domain and then later check it with experts and say, \"I believe this is a coherent outcome or a thing that should happen.\" And they can go, \"Oh yeah, that works.\" So I use LLMs to help me. It's like getting a, it's like an electric bike for idea spaces. You can just cover so much more ground so much more quickly in them.",
+   "zh": "我用它思考问题。当我想给概念命名或找几种看某事的方式，就说「这是我脑子里现在关于这个话题的。这是一些相关上下文。」我有几个项目把尽量多的 Bits and Bobs 塞进上下文，这很有帮助。我就说「就玩它。给我 10 个那个东西的例子」或「批判这些」或「感觉这个对我最好。这个好在哪？为什么这个最好？」或「我现在想从某个角度 work，关于 Helen Nissenbaum 的 contextual integrity 概念。我怎么把它叠进来？」就把它想成一个极度博览群书但略微 naive 的朋友，永远不会让你觉得笨、愿意和你深入任何话题。(00:21:49)：你跟律师或医生等专家聊时，你知道那时间极宝贵。你只有很小的时间片，所以有大量问题你都不问。「那是蠢问题。我不会花 1000 美元答那个问题。」但如果你能有那个对话——这不是说用它做法律建议——它可以让你探索一个问题域，之后和专家核实说「我相信这是个连贯的结果或该发生的事。」他们说「哦对，那个 work。」所以我用 LLM 帮我。它像 idea 空间的电动自行车。你可以在里面覆盖更多地面更快。",
+   "ts": "00:21:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that metaphor because it builds on Steve Jobs's that computers are a bicycle for the mind. And that's really a beautiful way of thinking about it, that LLMs are like the electric bicycle for the mind.",
+   "zh": "我喜欢这个比喻因为它建立在乔布斯的「电脑是思维的自行车」上。LLM 是思维的电动自行车，这真是美丽的方式。",
+   "ts": "00:22:26"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I don't think if that's someone else's, the...",
+   "zh": "我不确定是不是别人的，那个……",
+   "ts": "00:22:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, okay.",
+   "zh": "哦，好吧。",
+   "ts": "00:22:38"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I don't know where it came from. Part of my job is a collector of ideas, and so I try to put myself in the most interesting information streams with interesting people that I've found to have taste, have a perspective on something. Maybe I disagree with it, but they definitely have a coherent idea. And then I just allow myself to like, \"Oh, that's a really good idea and let me build on that or let me...\" I don't even know where that particular one came, but I'm 95% sure that somebody else said that.",
+   "zh": "我不知道它哪来的。我部分工作是 idea 收集者，所以我把自己在最有趣的信息流里、和我觉得有品味、对某事有视角的有趣的人一起。也许我不同意，但他们 definitely 有连贯的 idea。然后我允许自己「哦，那是个好 idea，让我 build 在上面或让我……」我甚至不知道那个具体哪来的，但我 95% 确信别人说过。",
+   "ts": "00:22:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to get to this idea of gardening versus building that is central to a lot of the way you think about it. But before we get there, I want to touch on another bit and bob that I love that you come back to occasionally, which is this idea of organizational kayfabe. Talk about what this idea of kayfabe is on its own and then how this applies to organizations in your experience.",
+   "zh": "我想聊你思考方式核心的园丁 vs builder 这个 idea。但在那之前，我想聊另一个我爱的 Bits and Bobs，你偶尔回到的：组织 kayfabe。聊聊 kayfabe 这个 idea 本身以及它怎么适用于组织。",
+   "ts": "00:23:05"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "One thing I should flag before I dive into any this stuff, sometimes when people hear me talk about how organizations work and systems, they think I'm being cynical. And I want to be very clear, I'm hyper-optimistic and I also believe that one of the moral precepts is how do you maximize the agency of real humans as ends in and of themselves? And so sometimes when I get excited about this, people go, \"Wow, that is so cynical.\" No, I'm just trying to describe the system as it actually exists. Once we know how it exists, we can figure out how to make it do great things and how we as members of this system can tweak and nudge it. (00:23:56): So I just want to flag that before I dive into this. I have this slime mold deck which has gotten a ton of traction over the years, and part of the reason for that is because it feels like people tell me it feels like they think they're crazy and it feels like giving a big hug saying, \"You are not crazy. Here's why this thing shows up.\" And once you acknowledge it, it feels like a bummer to acknowledge it, but once you do, now there's all kinds of options that pop up. \"Oh, given that this thing is way more expensive than it looks, I can now do this instead. That one's 10 times cheaper. These two options, this one is way cheaper, way more likely to succeed.\" So once you see these forces, you see them more clearly. (00:24:28): So kayfabe is I think a lens that's useful to understand how organizations actually work. Kayfabe is a word that comes, I believe is a carny word that is used and applied to professional wrestling and it means a thing that everybody knows is fake and yet everybody acts like is real. And I think it's one of the defining forces within an organization, any organization. So kayfabe in the small is optimism, enthusiasm. When someone says, \"We're going to do this thing,\" you say, \"Yeah, we're going to do that,\" even if I think this isn't going to work. If you say, \"I don't think this think is going to work,\" everyone loses hope and it definitely doesn't work. So having a little bit of this is extremely valuable. It's the lubricant that allows organizations to believe they can do something and to attempt to do it. (00:25:09): The problem that you get is as organizations get larger, imagine you are five levels down or something and you have this project you're working on and you're trying to give a status update to be rolled up to leadership. And it's currently a yellow, and your manager asks it and you know it's not going to be presented to leadership and enrolled up until next week. \"It's yellow, but I've got my arms around the problem. I know how to fix it. I'm going to go talk to Sarah. I think we have a solution. By the time this is reported up the chain, it's going to be green.\" So if I make it yellow, there's a non-trivial chance that someone's going to swoop down and say, \"Well, what's going on? We have a review,\" and it will be way harder to fix, so I'm just going to... A little white lie. (00:25:46): This is a totally reasonable thing to do. It's a self-defensive thing to do. And it's probably the right thing for the organization too. The problem is this happens up multiple layers and it compounds. So then your layer above you does the same, and the same, and the same, and levels up you can be many orders of magnitude off of the ground truth. And so the kayfabe, the thing that everyone pretends to believe is true, is obviously incorrect. And the dangerous part about this is it can lead you to make very bad decisions. And if you as someone who sees this can see that wait a second, the official strategy is definitely not going to work, you're like, \"I got to tell somebody. We're doing work that's going in a bad direction. It's not going to work.\" And you go and say, \"I think that it's actually not going to work for these reasons.\" (00:26:27): And what someone will say to you, this happens by the way, I'm not substituting any particular organization, this happens literally in all organizations to some degree, is the senior person will say, \"Alex, I agree with you. It's not perfect, but if you hit the ground truth button, if you share that and everybody, the whole thing will shatter and we can't do anything. And so help me fix it. Don't say the ground truth. Just help nudge it and fix it.\" That's a good point. Okay, so you help working on it and then you realize a month later, wait a second, it's getting worse. We're doing things that's not good for the company. It's not creating user value. It's not good for the employees. They're burning out. It's just not good for anybody and it's getting worse. And so if you think you're going to go and hit the ground truth button, before you do, you'll be flying tackled to the ground by somebody and stabbed in the dark because you will destroy everything. (00:27:13): And so it becomes correct to hold onto this idea of if you acknowledge the kayfabe is false, then you are in danger of getting knocked out of the game. And so how do you do good things despite the fact that you're pulled in two different directions? And this increasingly in the limit, it can be good to a point where the easiest way is if I do, if I hold on this idea, we might create significant value for the company. If I let go of this idea, I die. So the easiest way to maintain this split-brain thing is to just turn this part off and just earnestly believe the kayfabe. This has been organizations become zombies, and anyone individually you talk to behind the scenes will agree yes, it could not possibly work. That turns out that these things work this way, and yet the entire organization lumbers on. (00:27:56): And this is a death state for large organizations. It happens all over the place in any number of different conditions, and this is one of the reasons it shows up. And I think acknowledging that is an important way to help navigate and still make good grounded things happen. How can you allow disconfirming evidence to show up that doesn't kill you, that helps make you stronger? And if it all has to come in one massive moment that could ruin everything, then you aren't going to hear it. And then it will build up and build up and build up and build up into a super critical state that could shatter.",
+   "zh": "我应该先标记一件事：有时大家听我聊组织怎么运作和系统，他们觉得我在愤世嫉俗。我要说清楚，我超级乐观，我也相信一个道德准则是怎么最大化真实人类作为目的本身的 agency。所以有时我兴奋时大家说「哇那太愤世嫉俗了」。不，我只是试图描述系统实际存在的样子。一旦我们知道它怎么存在，我们可以 figure out 怎么让它做伟大的事、我们作为系统成员怎么 tweak 和 nudge 它。(00:23:56)：所以我想先标记那个。我有个黏菌 deck 这些年获得了大量 traction，部分原因是感觉像——大家告诉我感觉他们觉得自己疯了，它感觉像个大拥抱说「你没疯。这是为什么这个东西出现。」一旦你承认它，承认它感觉像 bummer，但一旦你承认，现在有各种选项冒出来。「哦，鉴于这个东西比看起来贵得多，我现在可以改做这个。那个便宜 10 倍。这两个选项，这个便宜得多、成功可能性高得多。」一旦你看到这些力量，你看得更清楚。(00:24:28)：所以 kayfabe 是我觉得理解组织实际怎么运作的有用 lens。Kayfabe 是个词，我相信是个 carny 词，用于职业摔跤，意思是所有人都知道是假的、但所有人都表现得像真的事。我觉得它是任何组织内部定义性力量之一。小处 kayfabe 是乐观、热情。有人说「我们要做这个」你说「对，我们要做」即使我觉得这不会 work。如果你说「我觉得这不会 work」所有人……",
+   "ts": "00:23:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was just listening to a couple podcasts, and a thread that came up in a number of them is some of the most successful leaders, their instruction to their reports is, \"As soon as there's bad news, I need to know as soon as possible. Do not shield me. I just want to know all the bad news as soon as possible.\" Feels like that's one solution to what you're describing.",
+   "zh": "我刚在听几个播客，多个里出现的一条线是一些最成功的 leader 对下属的指示是「一旦有坏消息，我需要尽快知道。别保护我。我就想尽快知道所有坏消息。」感觉那是对你描述的一个解。",
+   "ts": "00:28:27"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Disconfirming evidence hurts, and so you won't realize it because it hurts at any given moment. It's like, \"Ugh, it's a distraction. We're just trying to get this thing done.\" And so it comes from a good place to not get it, but if you're busy, that's one of the reason you need to take a step back. We take a step back, you're a little bit calmer. You can absorb this as confirming evidence. It doesn't feel like an existential threat. It's really easy to get surrounded. If you are very powerful, you will find all the confirming evidence you need. And if it doesn't exist, it will be created for you without your knowledge. (00:29:12): And so this is one of the reasons that large companies are radically different than smaller companies. And one of the traps that you can get into of not realizing this dynamic is happening, and you can make very bad decisions if you don't understand that it's inherently what's happening because they're all, \"Oh, we'll have some bad actors.\" No, no, no. If people don't play this game, this game is emergent. It shows up even though everybody hates it. And if you don't play the game, you are knocked out of the game. The underlying dynamic that must be true in any organization on a fundamental basis is you can't make your boss look dumb because if you do, they're the person who decides, \"Oh, this person's not performing,\" or whatever. And that one little asymmetry, that one little fact, in most cases it does not matter. That one little asymmetry is what leads to the systemic compounding thing where you get these really weird dysfunctional emergent things that everybody hates, nobody wants, and yet nobody is in the position to change per se.",
+   "zh": "反驳证据会痛，所以在任何给定时刻你不会意识到因为它痛。就「唉，分心。我们在试图把这个东西做完。」所以它来自好地方不去 get 它，但如果你忙，这是你该退一步的原因之一。退一步，你更平静。你可以把这当作确认证据吸收。它不感觉像存在性威胁。很容易被包围。如果你很有权力，你会找到所有你需要的确认证据。如果不存在，会有人在你不知情下为你创造。(00:29:12)：所以这是大公司和更小公司根本不同的原因之一。你不意识到这个 dynamics 在发生的陷阱之一，如果你不理解它本质在发生什么，你可以做很糟的决策，因为他们都「哦，我们有些坏行为者」。不不不。如果大家不玩这个游戏，这个游戏是涌现的。即使所有人都讨厌它它也出现。如果你不玩，你被淘汰。任何组织根本上必须真的 underlying dynamics 是你不能让你的老板看起来笨，因为如果他这么做，他是决定「哦这个人表现不好」的人。那一个小不对称、一个小事实，大多数情况下不重要。那一个小不对称是导致系统性复合的东西，你得到这些非常奇怪的功能失调的涌现的东西，所有人都讨厌、没人想要、但没人有位置改变。",
+   "ts": "00:28:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love your caveat at the beginning that continues to resonate in my head as you say this. You're not cynical about, \"This sucks.\" It's more, \"Here's what I'm observing. We need to think about ways to get around this.\"",
+   "zh": "我喜欢你开头的 caveat，它在我脑子里持续共鸣。你不是愤世嫉俗「这糟透了」。更多是「这是我在观察的。我们需要想绕过它的办法。」",
+   "ts": "00:30:05"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah. Because I think so much pain and misery is caused by us being not acknowledging these fundamental, inescapable things. It's almost impossible. Entropy is one of those things. Entropy emerges because there's more ways to go away from a point than towards a point. It fundamentally must be true in really any universe you can possibly imagine. And so if you're going to fight entropy, you're going to lose at a certain point. It's like if you are aware of these things, you can find subsets of ideas that do work despite these challenges. And that's some of the stuff, the tactics I advise are often things that look playful. They look unserious. They look like, \"Oh, you're saying you don't know the answer?\" No, I'm admitting I don't know the answer. (00:30:55): And I'm saying it doesn't matter if I don't know the answer because this thing, this very small seed I am planting is so cheap that yes, I can't tell you for sure this will work, but I could tell you there is a chance that it'll work. And the downside of this is basically the opportunity cost of planting the seed in this one moment, and the person who's planting it enjoys planting it so that an opportunity cost really isn't that much because they get energy from doing it. So who cares? Plant a bunch of these suckers. If one of these grows into an oak tree, that's great. Don't try to analyze beforehand which seed is going to turn into an oak tree. If it's super simple to plant the seeds, then plant the seeds. And if it starts growing, then keep watering it. That's it. That's the thing. (00:31:30): And people sometimes will see this as like, I've been called in my list before because they said, \"Well, you're saying that you don't know the answer to the thing.\" It's like no, I'm saying I don't have to know the answer to the thing. If on a systemic basis I let these ideas and then you respond to the ones that are working that are viable, it doesn't really matter if you didn't know ahead of time which ones were going to work.",
+   "zh": "对。因为我觉得太多痛苦和苦难是我们不承认这些根本的、不可避免的的东西造成的。几乎不可能。熵就是其中之一。熵涌现是因为离开一个点的方向比朝向的多。它根本上在任何你能想象的宇宙里都必须为真。所以如果你要对抗熵，某个点你会输。如果你意识到这些，你可以找到尽管有这些挑战仍 work 的 idea 子集。那是一些我建议的战术，常常看起来调皮。看起来不严肃。看起来像「哦，你说你不知道答案？」不，我承认我不知道答案。(00:30:55)：我说我不需要知道答案。因为这个东西，我种的这颗非常小的种子，如此便宜以至于对，我没法告诉你它一定会 work，但我能告诉你它有 work 的机会。它的 downside 基本就是在这个时刻种下种子的机会成本，而种的人享受种它，所以机会成本真的没那么大因为他们从中获得能量。谁在乎？种一堆这种东西。如果其中一个长成橡树，太好了。别试图事先分析哪颗种子会变橡树。如果种种子超级简单，就种。如果它开始长，就继续浇水。就这样。就是这个。(00:31:30)：有时大家看这个像——我之前被列入某种 list 因为他们说「嗯，你说你不知道那个东西的答案」。就像不，我说我不需要知道那个东西的答案。如果在系统层面我让这些 idea 出去、然后你对 work 的那些回应，你事先不知道哪些会……",
+   "ts": "00:30:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's a great segue to talking about this core idea that again informs a lot of the way you think, which is this idea of building versus gardening, the magic of acorns. Talk about this general idea and then I want to follow some threads.",
+   "zh": "这是聊核心 idea 的好过渡，这个 idea 也 inform 你很多思考方式——builder vs 园丁、橡子的魔法。聊聊这个大 idea，然后我想跟几条线。",
+   "ts": "00:31:48"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "So much of the way that we tackle problems and build products is this builder mindset. It's like, \"I have a plan, I then manipulate things to match my plan and make it happen.\" And this is a way you can create tons of value. Part of the problem though is it can't possibly create more value than the effort that you put into it. And so what I look for instead are things that can be gardened, things that can grow on their own and that you can direct or maybe give a little bit of extra energy to or curate over, and is a totally different mindset for it. So it's like a lead by gardening vibe. I don't try to pick the things in the system. I try to work with what I've actually got and I try to lean in on the ones that turn, I think are going in the direction that I believe is valuable based on constantly seeking disconfirming evidence. (00:32:44): And if you do this properly, it looks like magic. It looks like a thing. It looks like getting lucky because what you're doing is you're farming for miracles. And so on a systemic basis, I can't tell you which of these things will work, but I can tell you there's a very high likelihood that one of these will work in a way that is interesting and transformative. And so if you're looking and finding these seeds that have the compounding potential of if they work, they would start working at an accelerating rate, then you don't have to know ahead of time. To me this is, I've been told that this is completely against all the advice that people get building products nowadays, but I think it's a very powerful approach that works in a lot of different contexts.",
+   "zh": "我们解决问题和做产品的方式大多是 builder 思维。「我有个计划，然后操纵事物来匹配我的计划、让它发生。」这能创造大量价值。但问题是它创造的价值不可能超过你投入的努力。我寻找的是可以被「园丁化」的东西——可以自己生长、你可以引导或给一点额外能量或 curate 的东西。这是完全不同的心态。像以园丁领导的感觉。我不试 pick 系统里的东西。我试和实际有的 work、leans in 我认为朝我认为有价值的方向走的那些，基于持续寻找反驳证据。(00:32:44)：如果你正确做这个，它看起来像魔法。看起来像运气好。因为你在做的是 farming for miracles。在系统层面我没法告诉你这些哪个会 work，但我能告诉你它们中非常可能有某个会以有趣、transformative 的方式 work。所以如果你在找这些种子，它们有复合潜力——如果 work 会加速 work——你不需要事先知道。对我来说，有人告诉我这完全违背大家现在做产品得到的建议，但我觉得它是一种在很多场景 work 的强大方法。",
+   "ts": "00:32:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there an example that you can give from either from something you worked on or something someone worked on that came or true miss? Because I think people hearing this might be like, \"But I got to ship stuff. I got to hit some goals. I don't have time to sit around and garden and plant seeds. I got to actually build.\"",
+   "zh": "你能给个例子吗？你做过的或别人做过的，真的成或真的错过？因为我觉得听这个的人会想「但我得 ship 东西。我得打目标。我没时间坐着园丁和种种子。我得真的 build。」",
+   "ts": "00:33:26"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "If there's an ecosystem approach, if there's something that if it works, it'll be self-accelerating. So okay, what you're going to do this thing, we aren't entirely sure what's going to work, but if a developer writes a thing and somebody uses it, it'll attract more developers, more users, and then this would grow on its own. Then and it's cheap to do the little example of the thing. It's cheap to build a little open source, tinker the little thing and just put it there. And if nobody uses it, it's fine. It was fun to build. It took you three hours. It's fine. If someone does use it, then you just invest in incremental bit of unit each time that you find a signal that somebody is finding it useful and then you stop if you ever cease getting that information. (00:34:16): So I would use this. Anything that is shaped like an ecosystem that has some kind of network effect, and many things have network effects, have some kind of compounding loop. Compounding loops are not rare. They are, \"Look.\" It's like truffle hunting. You have to know what you're looking for and find the dynamics of a thing that if it worked would work at an accelerating rate. Lots and lots and lots of things intrinsically have this shape. Anything with a network effect, anything where the power goes up with a number of users, but it shows up in all kinds of problems that we don't normally apply it to.",
+   "zh": "如果有生态系统 approach，如果有什么东西如果 work 会自我加速。好，你要做这个，我们不完全确定什么会 work，但如果开发者写了个东西、有人用了，它会吸引更多开发者、更多用户，然后它自己长。而且做小例子很便宜。做个小开源、tinker 的小东西放那里很便宜。如果没人用，没事。build 起来好玩。花了三小时。如果有人用，你就每次发现有信号有人觉得有用时投增量一点，如果不再有那个信息就停。(00:34:16)：我会用这个。任何形状像生态系统、有某种网络效应的东西——很多事有网络效应——有某种复合循环。复合循环不少见。你得「看」。像找松露。你得知道你在找什么、找到如果 work 会加速 work 的东西的 dynamics。大量东西内在有这个形状。任何有网络效应的、power 随用户数上升的，但它也在我们通常不应用它的各种问题里出现。",
+   "ts": "00:33:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Along the same lines, you also advise people to think more emergence-oriented versus top-down, kind of what you were just saying. But I think that's another really interesting way of thinking about the same idea, create opportunities for emergence, bottom-up versus top-down control. You just chat about that.",
+   "zh": "类似地，你也建议人更想涌现 vs 自上而下，就你刚说的。我觉得那是另一个很有趣的想同一 idea 的方式——创造涌现机会、自下而上 vs 自上而下控制。聊聊那个。",
+   "ts": "00:34:47"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "100%. I think the emergence is one of the most powerful forces if you know how to marshal it and you know how to work with it. And the only thing that's hard about it in my opinion is you're going to look like you aren't very serious. You're going to look like a weirdo. You're going to look like a cook. And one of the downsides, if you're working on something and you're doing the normal top-down approach where you make the plan, you execute the plan, even if the plan turns out to not be useful, you produce a thing and nothing interesting happens, no one can say you didn't work hard. But if you try doing this designing for emergence and something amazing happens, even once it happens, people go, \"Ah, it's luck. Where was the miraculous moment, the heroic moment where you made that happen? So therefore you had nothing to do with it.\" (00:35:42): And this was the biggest unlock in my career actually was when I stopped my guts. I was promoted to director at Google. I was like, \"Cool, I never want to be promoted inside of a large organization ever again.\" And the freedom to now do the highest impact work, even if I can't make it legible to the organization, was so powerful and I was able to 10X my impact for the organization because I didn't have to worry about making it measurable specifically in a way that would show individual work effort. And I think that's the hardest part. And you have to have, typically what I would advise for PMs, my approach at Google was 70% of my effort and my team's effort should go on things that everybody acknowledges are important and useful and create value. Maybe it's boring, linear value, but some kind of value. You're trying to minimize the chance that any other person in a company will say, \"What does that team do anyway?\" (00:36:32): This, if someone says this about your team, your team is on the verge of death. And so you're trying to minimize the chance that anybody wants to say that or thinks that it's appropriate to say that by clearly and unambiguously adding value. You're not saying this is the best team in the entire world, but clearly they're doing something useful. They're executing well. They're working hard. And of course that team should exist. Think about it, of course they should. But now once you do this, you have 30% of your extra time that you can plant all these seeds. (00:36:55): You can find interesting little things where maybe a junior PM on the team has an idea you think it's kind of silly, but they're really into it. And the there is this thing, it could work out great actually. If you tweak it like this, there is a potential. I could see how that could work. If that PM is going to work on that anyway, they want to do it anyway. Instead of saying, \"No, no, no, we don't have time for that. Be a little bit more productive over here,\" say, \"Go for it. Here's my concerns. I imagine this part might not work, but this part is really cool right here.\" And then if it doesn't work, then they've stretched their agency. They've executed. They've exercised their agency. They've learned. They've gotten stronger. They've grown. It has the upside if it turns out to actually work. And worst case scenario, the opportunity cost to doing the thing that helped them grow and they learn and they liked. So I don't know. Don't try to force it. Don't try to stop it.",
+   "zh": "100%。我觉得涌现是最强大力量之一如果你知道怎么 marshal 它、怎么和它 work。唯一难的是你看起来不严肃。你看起来像怪人、像 cook。一个 downside 是如果你用正常自上而下 approach 做计划、执行计划，即使计划没用，你产出了东西、没发生什么有趣的事，没人能说你没努力。但如果你试设计涌现、发生了什么 amazing 的事，即使发生了人们也说「啊，是运气。奇迹时刻在哪、英雄时刻在哪？所以你跟它没关系。」(00:35:42)：这是我职业最大的 unlock——当我 guts 停止。我在 Google 升到 director。我说「好，我再也不想在大组织里晋升了。」能做最高影响工作即使我没法让它对组织 legible 的自由如此强大，我能把对组织的影响 10 倍，因为我不必担心让它以会显示个人工作努力的方式可衡量。我觉得这是最难的部分。你通常要有——我给 PM 的建议是我在 Google 的 approach：70% 精力和团队精力放在所有人都承认重要、有用、创造价值的事上。也许无聊、线性价值，但某种价值。你试图最小化公司里任何别人说「那个团队到底干嘛的？」的机会。(00:36:32)：这个如果有人这么说你团队，你团队在死亡边缘。所以你试图最小化任何人想说或觉得该说的机会……",
+   "ts": "00:35:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a really good example of actually how to go about doing that on your team. The way I've always thought about this is the visual I share with people is like, you want to create cover fire for your team where your team's just hitting goals, moving metrics, and then while with that cover fire, you're building the doomsday bomb inside, protected where no one's going to come and stop you.",
+   "zh": "这是个很好的关于怎么在团队里做的例子。我一直想这个的方式是我和人分享的 visual 是：你想为团队创造掩护火力，团队在打目标、动指标，然后在掩护火力下你在里面保护地建 doomsday bomb，没人会来阻止你。",
+   "ts": "00:37:40"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah, because one of the hardest parts about an acorn when you plant it is making sure a squirrel doesn't dig that fucker up. There's so many things that can destroy it, and just keeping it, allowing it some space and allowing it some time is the most important thing. And it's challenging to do, but that's why it's important as a leader to have enough credibility in the organization that people can see that you are doing useful work to give you the space, to give your team the space to do this truly great work. If you want to get your team to do good work, there's a million different paths to do that. If you want to get your team to do great work, there's no shortcut other than to have an extremely high-trust environment where people lean into their superpowers in a way that adds up to something greater than some of its parts. That takes time. It takes effort. It's very difficult to make legible up to the rest of the organization, but that is where great things come from.",
+   "zh": "对，因为橡子种下后最难的部分之一是确保松鼠不把它挖出来。有那么多事能摧毁它，给它空间和时间是最重要的。这很有挑战性，但这就是为什么作为 leader 在组织里有足够 credibility、人们看到你在做有用工作、给你和团队空间做真正伟大的工作很重要。如果你想团队做好工作，有一百万条路。想团队做伟大工作，没有捷径，除了极高信任环境，人们 leans in 他们的超能力、加起来大于部分之和。那需要时间。需要努力。很难对组织其余部分 legible，但伟大东西就从那里来。",
+   "ts": "00:37:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me of something Ed Catmull shared in Creativity, Inc., this idea of the ugly baby, that every new idea is an ugly baby and nobody wants this ugly baby. Everyone's just like, \"Get this out of here,\" because every new idea is bad initially.",
+   "zh": "这让我想到 Ed Catmull 在 Creativity, Inc. 里分享的，丑婴儿的 idea：每个新 idea 都是丑婴儿，没人想要这个丑婴儿。所有人都「把它弄走」因为每个新 idea 开始都差。",
+   "ts": "00:38:46"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah, it sucks. They're just like this ugly thing that barely works or... But this is why what I try to do is I try to see the greatness, the seeds of greatness in everything. Everyone and everything around me, I look for, I try to find and see, man, what is the most compelling part of this? And let me lean into that. And so one of the things I try to do when I meet with people, when I mentor them, I try with it within the first session or two, whenever I can get a hypothesis, I say, \"I think your superpower is...\" And I describe to them what I think I can see them being truly exceptional at. (00:39:31): And sometimes I get it wrong, especially if I try to do it earlier, but when people feel very seen and they feel acknowledged for that, they now are willing, they're going to stretch farther and they're going to respond to nudging feedback even better because they know that you're not trying to tell them be different. You're trying to tell them be more, and you now the nudges will feel less like a stop energy and more like someone who gets me and can help me grow even more. And you can get some amazing things out of people when you just treat them with the respect. I assume that everyone I talk to, everyone I talk to is interesting, has seeds of greatness in them, even if they don't recognize necessarily where they are. (00:40:08): Someone described to me actually this morning in one of my little dirt clubs I run about they help facilitate about treat everybody like the Buddha. I think is I'm messing this up, but this notion of imagine everyone you talk to is the Buddha, in a Buddhist mindset, and how do you see and find those seeds of greatness and treat everyone with respect intrinsically as an end of themselves. This is one of those things that you do to be a compassionate human. It's also, I believe, a way to maximize the amount of value, direct and indirect value, that's created. So it's one of those win-win-win-win-wins where just it's the right thing to do as a person and a member of society, and it's also the thing that can create a lot of business value and create real value in the world.",
+   "zh": "对，它糟。就是这种勉强 work 的丑东西……但这就是为什么我试图做的：我试图在一切里看到伟大、伟大的种子。每个人、我周围的一切，我寻找、试图找到和看到，这个最 compelling 的部分是什么？让我 leans in 那个。所以我和人见面、mentor 他们时试图做的，在前一两次 session 里一旦我有假设，我说「我觉得你的超能力是……」我描述我觉得他们真正 exception 的地方。(00:39:31)：有时我错了，尤其如果我试更早做，但当人觉得被看到、被认可，他们现在愿意 stretch 更远、对 nudging feedback 回应更好，因为他们知道你不是试图告诉他们 different。你试图告诉他们 more。nudge 现在感觉不像 stop energy，更像「有人懂我、能帮我长更多」。你能从人那里得到 amazing 的东西当你 just treat them with respect。我假设我聊的每个人、每个人都是有趣的、内在有伟大种子，即使他们不一定认出在哪里。(00:40:08)：有人其实今早在我办的一个 dirt club 里描述——他们帮 facilitate——把每个人都当 Buddha。我觉得我搞混了，但这个 notion：想象你聊的每个人是 Buddha，在佛教心态下，你怎么看到和找到那些伟大种子、内在尊重每个人。这是你作为有同情心的人该做的事。我也相信它是一种最大化直接和间接创造的价值的方式。所以是那种 win-win-win-win-win，就是对的事……",
+   "ts": "00:39:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Coda. I use Coda every day to coordinate my podcasting and newsletter workflows. From collecting questions for guests, to storing all my research, to managing my newsletter content calendar, Coda is my go-to app and has been for years. Coda combines the best of documents, spreadsheets, and apps to help me get more done, and Coda can help your team to stay aligned and ship faster by managing your planning cycle in just one location, set and measure OKR's with full visibility across teams and stakeholders, map dependencies, create progress visualizations, and identify risk areas. You can also access hundreds of pressure-tested templates for everything from roadmap strategy to final decision-making frameworks. See for yourself why companies like DoorDash, Figma, and Qualtrics run on Coda. Take advantage of this special limited-time offer just for startups. Head over to coda.io/lenny and sign up to get six free months of the team plan. That's coda.io/lenny to sign up and get six months of the team plan, coda.io/lenny. (00:41:57): Coming back to a phrase that you used earlier, slime molds, I want to spend a little time here. So interestingly enough, the first time I heard about you and what got me interested in your stuff is I did a newsletter post with the company Perplexity about how they build product. And as they were describing how they organized their team, the co-founders described they organized like slime mold, and he linked to your deck about slime molds and I was like, \"What the heck is this?\" Can you just briefly describe what you mean when you talk about slime molds and how slime molds are related to the way companies are organized and how they should think of the organization?",
+   "zh": "本期节目由 Coda 赞助。我每天用 Coda 协调我的播客和 newsletter 工作流。从为嘉宾收集问题、到存储所有研究、到管理 newsletter 内容日历，Coda 是我多年来的 go-to app。Coda 结合文档、电子表格和 app 的精华帮我做更多，Coda 也能帮团队对齐和更快 ship，在一个地方管理规划周期、设和测 OKR 跨团队和 stakeholder 全可见、map 依赖、创建进度可视化、识别风险区域。你还能访问数百个经过压力测试的模板，从路线图战略到最终决策框架。看看为什么 DoorDash、Figma、Qualtrics 运行在 Coda 上。利用这个给创业公司的限时特惠。去 coda.io/lenny 注册获得六个月免费团队版。就是 coda.io/lenny。(00:41:57)：回到你之前用的一个词，黏菌，我想花点时间。有趣的是我第一次听说你、对你产生兴趣是我和 Perplexity 做了一篇 newsletter post 关于他们怎么 build 产品。他们描述怎么组织团队时，联合创始人描述他们像黏菌一样组织，链接到你的黏菌 deck，我想「这到底是什么？」你能简要描述你谈黏菌时指什么、黏菌怎么和公司组织方式相关、该怎么想组织？",
+   "ts": "00:40:49"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah. The main thesis of the slime mold deck is that the core dynamic that makes organizations hard to navigate as they get larger, even if you assume everyone is actively good at what they do, actively collaborative and actively hardworking, is this emergent force or coordination of finding the subset of projects to work on when everyone's super busy that everyone agrees and commits to and actually works on together. And finding this coordination cost grows with the square of the number of people who are working on that thing. And so what companies typically try to do is fight this or ignore that it exists. (00:43:06): If you're going to fight it, the one way to look at this is think of a company like a vehicle. When the company is very small, you can drive it, you can steer it like a sports car. As a founder, you are allowed to steer. Everyone acknowledges you are allowed to steer. They're never, \"Why is he steering it that way?\" So you, a founder, can help navigate an organization around an obstacle the organization cannot see or comprehend itself. The problem is as you steer, as you grow into the size, your organization goes from a sports car and you grow into the size of a big rig, if you drive a big rig like a sports car, you're going to be a danger to yourself and others on the road and you're going to grind the engine. And so you got to drive the car that you actually have. (00:43:41): So what I see a lot of things happen in large organizations, that people are just trying to ignore this fact. And when you drive, by the way, a car, your vehicle, like a big rig, when it is a big rig, people go, \"Oh, it means to go slow.\" No, no, no. It means pivot less. It means have a little bit more... Be more intentional about the times that you adjust the steering, invest more in program management, invest more in processes, give a little bit more slack in the planning process to absorb any kind of surprising things that you can still all reach the product launch at the same time. (00:44:13): The other option you can do is you can split your thing up into a series a swarm of sports cars, individual sports cars. And the downside of this, you'll get the autonomy and strengths of the bottom-up, the downside is other people will externally will look at it and go, \"Well, that team and that team clearly didn't talk.\" You'll say, \"Yep, yep.\" You have to decide how bad that is for you. Apple has chosen the former. It's very important to them to have the illusion of perfect coherence in their products. It worked very well for them. They executed marvelously. And if you also picked the exact opposite thing, everyone else is like, \"Yeah. There are like 15 different ways of doing everything. They clearly don't talk to each other.\" But it allows the overall swarm of the AWS product suite to be very powerful and anti-fragile or whatever you want to say. (00:44:52): And so slime molds, I think, is acknowledging that organizations are, especially ones that focus on autonomy and agency of their individual employees, which is a lot of tech companies, they are more like slime molds than we realize. And if you fight that fact, you're going to have a bad time. And if you embrace it, then you can start realizing slime molds are actually kind of amazing. They can find solutions to problems you didn't even know you were searching for.",
+   "zh": "对。黏菌 deck 的主要 thesis 是让组织随着变大难以导航的核心 dynamics——即使你假设每个人都主动擅长、主动协作、主动努力——是这种涌现力量或协调：在大家都超忙时找到大家都同意并承诺并真正一起做的项目子集。而找到这个协调成本随 work 那个东西的人数平方增长。公司通常试图对抗或忽略它存在。(00:43:06)：如果你要对抗它，一种看法是把公司想成车辆。公司很小时你可以像跑车一样开、转向。作为创始人你可以转向。所有人都承认你可以转。他们从不问「他为什么那么转？」所以你作为创始人可以帮组织绕过障碍，组织自己看不到或理解不了。问题是随着你转向、随着你长，你的组织从跑车长成大卡车。如果你把大卡车当跑车开，你会对自己和路上别人造成危险、磨坏引擎。你得开你实际拥有的车。(00:43:41)：所以我在大组织里看到很多的是大家在试图忽略这个事实。当你开大卡车时，大家说「哦，意味着要慢」。不不不。意味着少转。意味着更有意识于调整转向的时机、多投资于 program management、多投资于流程、在规划里给一点 slack 吸收 surprising 的东西，这样你还能在同一个时间 ship 产品发布……",
+   "ts": "00:42:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Alex, you have the best metaphors. I don't know how you do this, but they're so evocative and correct.",
+   "zh": "Alex，你有最好的比喻。我不知道你怎么做到的，但它们那么 evocative 和正确。",
+   "ts": "00:45:15"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I can tell you that the process I do if you're into it.",
+   "zh": "我可以告诉你我的过程如果你感兴趣。",
+   "ts": "00:45:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Please. That would be incredible.",
+   "zh": "请。那会 incredible。",
+   "ts": "00:45:23"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I think by talking, I'm an external processor, I literally can't think if I'm not talking. And so I make sure I have as many interesting meetings as I can, and that's where I discover what I think, by talking to people. And the test is if I say a frame, something that the person goes, \"Ooh,\" or like, \"Ooh,\" they go, \"Aha,\" that's a win. That's a mark that's a good one. You're just randomly casting about. I find one. And then if a different person also has a similar response, if a person in sales and a person in engineering both find the same idea interesting, that's a very good sign that lots of people will find it interesting, how diverse in terms of background skill sets, perspectives are the people who resonate with the thing you're saying. (00:46:08): The intuition of this is if you find in a social network, you want to see what's going to go viral, if something is shared and it's shared within, so the people who are at the beginning are all highly densely interconnected in the social graph, then the implied ceiling is relatively small. You only know it works with that audience. But if it's people that are very different subclass and very little overlap, they both find it interesting, that implies a much larger max audience. So you're looking for ideas that resonate with the diversity of people. And then once you find them, each time you get something like that, you invest a little more time in it and you think a little bit more about framing it the next time. (00:46:42): I haven't done this during this chat, but in most conversations, you'll see me as I'm talking writing down stuff like, \"Ooh, that was the best formulation of that one so far.\" And so you keep on coming back to it. You keep on tightening it and seeing how, watching how it's responding and referring with different people through like, \"Where do you get these from?\" It's like I got thousands and thousands and thousands of little examples or metaphors or whatever that's sick. (00:47:03): One of the benefits of metaphorical thinking is you connect nine of the 10 dots and you invite the listener to engage with the argument to connect that last dot. This allows you by the way to say very controversial things, because if you say connect all the 10 dots and it's like, \"Oh, that's the official strategy,\" then you are instantly a dangerous thing. Whereas if you leave one dot unconnected, people can go connect the dot and go, \"Oh my god, I think that applies to us.\" You're like, \"Oh my god, what?\" \"Yes, that's why I picked that.\" But to counteract this because now it's less obvious to people that's correct, you have to make the metaphor evocative and interesting. (00:47:39): One of the reasons that slime mold deck got so much traction is partially because slime is gross, it's bad, and yet it's talking about why slime is good. And so that has this instantly subversive thing. I only know this after the fact of trying to figure out why did that deck get so much attention of all the things I've written.",
+   "zh": "我觉得通过说话，我是 external processor，如果不说话我 literally 没法想。所以我确保有尽可能多有趣的会议，那就是我发现我think什么的地方，通过和人说话。测试是如果我说一个 frame，对方「哦」或「啊哈」，那是 win。那是个好 frame 的标记。你就在随机 casting about。找到一个。然后如果另一个人有类似反应，如果销售和工程都觉得同一个 idea 有趣，那是个非常好的信号，很多人会觉得有趣——就是你说的 resonates 的人的背景、技能、视角有多 diverse。(00:46:08)：直觉是如果你在社交网络里想看什么会 viral，如果某东西被分享，最初分享的人如果在社交图里高度密集互联，那 implied 上限相对小。你只知道它对那个受众 work。但如果是非常不同的子类、很少重叠，都觉有趣，那 implies 大得多的最大受众。所以你在找 resonates 于 diverse 的人的 idea。然后一旦找到，每次你得到那样的，你多投一点时间，下次 framing 想得更多一点。(00:46:42)：我在这次聊天里没做这个，但大多数对话里你会看到我边说边写东西，比如「哦，那是那个至今最好的 framing。」所以你不断回到它。不断收紧它、看它怎么回应、不同人怎么反应，「你这些哪来的？」就我有成千上万的小例子或比喻之类的。(00:47:03)：一个是……",
+   "ts": "00:45:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It also is all emojis basically, which is not how you often read a deck. It's very beautifully made. I love that you've been talking about the way you think and come up with ideas is by talking to people and having conversations. We also talked about how you write in this Bits and Bobs approach. I asked someone that you worked with at Stripe what to ask you, and she said to ask you about strategy salons, which feels like a good avenue for this sort of thing. Can you talk about what these are and how you set these up?",
+   "zh": "它也全是 emoji 基本上，这不是你通常读 deck 的方式。它做得很美。我喜欢你一直在聊你思考和产生 idea 的方式是和人说话、对话。我们也聊了你用 Bits and Bobs approach 写。我问了一个你在 Stripe 共事过的人该问你什么，她说问你战略沙龙，感觉像是这类事的好途径。能聊聊这些是什么、你怎么设？",
+   "ts": "00:47:56"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "So these I also call now nerd clubs, and these are my secret weapon. And I have a blog post. I started writing right before my second kid was born, and then he was born three weeks early and I just lost the plot and now it's like a 40-page draft of a thing that I'll probably never finish. But I've used this tactic. I discovered it many years ago as they strengthen some of the techniques I'd used in open source community organizing. And the situation was I was just joining a new team at Google. I've been there for many years, and there was at the time 12 different groups working in different aspects of this overall problem domain. And in classic Google fashion, they added up to significantly less than the sum of their parts, as in not like, \"Oh, we'll see which one works,\" but, \"These two things directly undermine each other. If you execute both of these strategies, neither can work.\" And I knew that if you try to do pairwise executive reviews on this very complex, ambiguous, open-ended problem, you would get really expensive pageantry that would obscure more than clarified. (00:49:17): So what I did was I created a secret group that I called Navel Gazers was the original one, and I wanted people when they hear about it, I want people to go, \"That will be a club for nerds.\" They're like, \"Yeah, do you want in?\" And so this means that only people who intrinsically want to be in it for its own sake come in. So you get only a positive \"yes, and\" kind of energy. So then within these groups, you say, you set the norms very explicitly and say, \"This is a collaborative debate environment. This is only 'yes, and'.\" If somebody says a thing in this group that is optional and secret and completely off the side of anything that matters, if they say something that you think is an actively dumb idea, you are free to not engage. Just leave it. That's fine. Because nothing's going to happen. We're deciding anything interesting or important here. (00:49:57): And if you want to engage and you don't like it, a productive way of doing that is saying, \"Oh, that's so interesting. I would never would've thought to apply that lens. I typically would apply this lens to that kind of problem. I wonder if that applies here.\" And by saying, \"I wonder,\" you make it about you, not them. And so that person can choose if that's an interesting thing to build on or not. This sounds by the way very non-rigorous feel like, \"Ah, how can you possibly get rigorous thinking in the 'yes, and'?\" It turns out there's limited amounts of time and so people will choose to build on the things they find most interesting. This is interesting things are surprising and potentially valuable. And so if lots of different people in the group are building on the same idea, that's a good sign there is something very interesting going on. (00:50:35): The third thing you do is you dribble in new perspectives. Every one to three a week, if you put in lots of new perspectives, once the norms can all scramble, if you have one in five people who all have a very particular kind of personality can mess up the norms, and so you're trying to minimize the chance you add a jerk. It takes one person to poop a party and go, \"What are we even doing here?\" You want to minimize the chance that happens. But second or thirdly and more importantly, you want to have as people with as different perspective as possible added into the group. And so this is what Ken Stanley might call, for example, novelty search. You're novelty-searching through the different perspectives in the overall thing. (00:51:10): When you do this properly, you get something magical. You get a group that people find intrinsically valuable for its own sake and just enjoy participating in and find meaning in, that also stochastically spins off changing insights for the surrounding context because you're searching through these ideas in a low stakes environment where the ideas that lots people build on, they go, \"Oh, you should write that down.\" And this is like an idea lab, what everyone will call an idea lab. And this creates amazingly interesting insights. You just can't force it to do anything. It has to be a bottom-up and emergent, which means if you try to steer it towards an outcome, it won't go. But if you do these, they are amazing places to riff and to share ideas and half-formed ideas. And this is anywhere I go, I terraform the culture around me and create these, because I need it as a place to experiment and try out different half-formed ideas and build on them and be inspired by other people. (00:52:03): And that is one of my secrets, strategy secrets that I've been doing now for probably 10 years ago is when the first one started. And there's now I can count eight or nine of I've started over the years. Some of them emerged. So many of them are still at Google. And I think it's like they're just wondrous environments that I think create a lot of value.",
+   "zh": "这些我现在也叫 nerd club，是我的秘密武器。我有篇博客。我第二孩子出生前开始写，然后他提前三周出生我就丢了线索，现在是个大概 40 页的草稿我可能永远写不完。但我用了这个战术。很多年前发现的，它强化了我在开源社区组织里用过的技巧。情况是我刚加入 Google 一个新团队。我在那里很多年了，当时有 12 个不同 group 在这个整体问题域的不同方面 work。按经典 Google fashion，它们加起来显著小于部分之和——不是「哦看哪个 work」而是「这两个东西直接互相破坏。如果你执行这两个战略，两个都不能 work。」我知道如果你试图对这个复杂、模糊、开放式问题做 pairwise 高管 review，你会得到非常昂贵的 pageantry，掩盖多于澄清。(00:49:17)：所以我做的是创建了一个秘密 group 我叫 Navel Gazers 是最初的，我想让人听到它时觉得「那是个 nerd 俱乐部」。他们说「对，你想加入吗？」这样只有内在为它本身想来的人才来。所以你只得到正向的「yes, and」能量。在这些 group 里你非常明确设 norm：「这是协作辩论环境。只有 yes, and。」如果有人在这个可选、秘密、完全不重要的事里说了什么你觉得是蠢 idea，你可以不 engage。就放下。没关系。因为这里不会决定任何有趣或重要的东西。(00:49:57)：如果你想 engage……",
+   "ts": "00:48:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I love it's a perfect example of your approach of emergent properties, letting things emerge versus a top-down, \"Here's what we're doing and here's what we're talking about here.\" If someone wanted to set this up within their company or within friends, any advice? What are some constraints and ways of setting it up for success?",
+   "zh": "我喜欢它是你的 approach 的完美例子——涌现属性、让东西涌现 vs 自上而下「这是我们在做的、这是我们在聊的」。如果有人想在公司或朋友间设这个，有什么建议？什么约束和方式让它成功？",
+   "ts": "00:52:21"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Communities are all about momentum. You want to have a space too small, a time too short. If you have a big cabinet space of a lot of people in it and no one's talking, people go, \"I guess this is the place where we don't talk,\" for whatever reason. So what you're doing is you want the smallest seed of people that you know are going to be actively engaged. So maybe there's four of you that already talk over lunch and you talk about whatever topic and it's always really interesting and generative. Cool, get that group together and do a thing. And then incrementally add people who you think are going to like that already as it currently exists. And then you need to feed it so you want to make sure that it never dies. (00:53:09): And a community with no people talking is definitely dead. A community with one person talking is already dead. You don't realize it yet. And so you're trying to maximize the chance that there's an interesting conversation even when you as the facilitator are not there. This takes some active policing by the... Like a garden has a gardener, there's somebody pruning back and saying, \"Hey Jeff, just so you know, I think that came out a little bit strong to Sarah's idea and maybe next time add 'I wonder' to the front of that statement,\" or whatever. (00:53:35): The other thing that you do is when people reach out to you and ping you, they go, \"Hey, let's think about this thing,\" and you go, \"That's a really interesting idea. You should share that in the group.\" And then they do. And then you engage in the group and say, \"That was really interesting,\" little emoji response. And people who didn't watch the interaction assume that Sarah just decided proactively to stick her neck out and share that and that it worked. And so this becomes a self-sustaining norm in the community. And it's not a secret. It's not if someone asks, \"Yeah, I told Sarah to share that,\" but people watching don't realize that. And so it becomes a place that people do take risks and feel comfortable sharing. (00:54:07): The other thing you do is once a week or so, you want to make sure that you never propose something in the group that people go, \"Eh.\" You always want to do a thing people go, \"Yeah.\" So what you do is you see that if you're talking to other people, you say, \"I wonder if we should have a live conversation every so often, right?\" The chats were so fun, but it goes, \"Would you come if I did one?\" \"Oh yeah, I would.\" \"Okay, great.\" So now I say, \"Hey, a few of us are talking. We're just going to do an experiment. We're going to have an hour-long conversation over lunch on Wednesday. Anyone in the group is free to come.\" (00:54:33): And then what you do is you make sure it always has quorum because if it doesn't have quorum, then the thing, it looks like the community's dead. And then what you do is you send FOMO stuff afterwards. So you say, \"Here's my notes from the thing,\" or, \"Thanks Sarah, Jeff,\" blah, blah, blah, blah, \"or an amazing conversation. I thought the insight about,\" blah blah blah, \"was so ridiculously amazing.\" So you want people who were in the group who didn't come to feel like they missed out and to come to the next one. (00:54:57): And so you're constantly creating these kinds of vibes to how to do it. You can't do it if you don't have somebody with a lot of energy. I'm typically the seed crystal for a lot of the groups I'm in to start them off because I have a lot of energy, and I like, anything that people have to say that I think is open-minded or interesting, I like building on and \"yes, and\"-ing and that kind of gives the foundation that it can grow. But look for the people who already roughly want it. Don't try to convince somebody who doesn't want it to want it. They will not. They will ruin the whole thing.",
+   "zh": "社区全靠 momentum。你要空间太小、时间太短。如果你有个大 cabinet 空间、很多人、没人说话，大家觉得「我猜这是我们不说话的地方」。所以你要的是你知道会主动 engage 的最小种子人。也许你们四个已经在午餐时聊某个话题、总是很有趣 generative。好，把那群聚起来做个事。然后增量加你觉得会喜欢它现状的人。然后你需要喂它，确保它不死。(00:53:09)：没人说话的社区 definitely 死了。一个人说话的社区已经死了，你还没意识到。所以你试图最大化即使你作为 facilitator 不在时也有有趣对话的机会。这需要一些主动 policing。像花园有园丁，有人修剪回来说「嘿 Jeff，提醒一下，我觉得你对 Sarah 的 idea 有点太重了，也许下次加个『我想』在前面」之类的。(00:53:35)：你做的另一件事是人 reach out ping 你说「嘿，想想这个」你说「那是个有趣的 idea。你该在 group 里分享。」他们分享。你在 group 里 engage 说「那很有趣」加个 emoji 反应。没看到那个互动的人以为 Sarah 主动决定伸出脖子分享、然后它 work 了。所以这变成社区里自持续的 norm。它不是秘密。如果有人问「对，我让 Sarah 分享的」，但看的人没意识到。所以它变成大家愿意 take risk……",
+   "ts": "00:52:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I just love this playbook for starting to build a little bit of community within a company. Have you written about this by the way? And if not, you should write a whole post about this.",
+   "zh": "我只是爱这个在公司里开始建一点社区的 playbook。你写过这个吗？如果没写过你该写整篇 post。",
+   "ts": "00:55:30"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I have. It's a long essay and it's just not, you can see it in Bits and Bobs. If you gave the Bits and Bobs to Claude and said, \"Please write a thing about nerd clubs and essay and the style,\" it would do it because there's a lot of the pieces are in there, it's just not factored out.",
+   "zh": "我写过。是篇长 essay，就是没——你能在 Bits and Bobs 里看到。如果你把 Bits and Bobs 给 Claude 说「请用这种风格写篇关于 nerd club 的 essay」，它会做，因为很多 piece 在里面，只是没 factored 出来。",
+   "ts": "00:55:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I see you writing something down right now, which tells me you just articulated something in a new way that you want to say.",
+   "zh": "我看到你现在在写什么，告诉我你刚用新方式 articulate 了什么你想说的。",
+   "ts": "00:55:52"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah, that's right. That's right.",
+   "zh": "对，没错。",
+   "ts": "00:55:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned this idea of constraints of time, and it reminds me of something that you shared in one of your Bits and Bobs around productivity. You say that if you have two hours to do a five-minute task, the effort to do that is impossible and instead you should flip that. Can you talk about this insight and how to be a little more productive?",
+   "zh": "你提到时间约束这个 idea，让我想到你在某个 Bits and Bobs 里关于生产力分享的。你说如果你有两小时做五分钟的任务，做的努力是不可能的，你该翻转那个。聊聊这个洞察和怎么更高效一点？",
+   "ts": "00:55:59"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah, I think a lot of the trick to productivity is to play yourself like a fiddle and figure out how you work and what gives you energy and set up your day to structure it that way. So I find every time you start a task, there's an activation energy, especially a task you don't really want to do. And then when you complete it, there's a boop. There's a little burst of energy. So if you do this properly, you can get small things that are extremely easy to knock out in 10 seconds of effort, and then you do one that takes 30 seconds of effort, and then you do one that takes a longer bit of effort. But if you give it too much space, it's harder to do. So you almost want to find, \"Okay, listen, I got 10 minutes. I got to do this thing where I figure out how to add, do this thing in gusto that I've been putting off. Ten minutes should be enough time to do it and structure it. So okay, right now is the only time I have to do this, to do it.\" (00:57:01): And another trick is I use one of my original media messages actually, one of the original public ones is about always rules are better than sometimes rules for self-control. And so if you're going to diet, \"I'm going to skip lunch every day.\" Like holy, you haven't full thought on that at some point like a day with a big executive review, \"I really need to make sure I'm well-fed before I go into this review,\" or something. And now you've broken the streak and now it's over. Whereas if you say a thing you know can do, \"I will not have a dessert unless it would be socially awkward for me to not eat it. For example, in a small environment where somebody made homemade dessert and all of us are eating it, I'm going to...\" So very clear black and white rule that you can hold on forever. (00:57:50): So for example, since the pandemic started, I've done a Peloton workout every single day since the pandemic started.",
+   "zh": "对，我觉得生产力的很多 trick 是把自己像 fiddle 一样弹、figure out 你怎么 work、什么给你能量、把你的一天结构成那样。我发现每次你开始任务有个激活能，尤其你不太想做的任务。完成时有个 boop，一小股能量。所以如果你正确做，你可以让极容易 10 秒 knock out 的小事，然后做一个 30 秒的，然后做一个更长的。但如果你给它太多空间，更难做。所以你几乎想找「好，听好，我有 10 分钟。我得做这个我一直拖的 figure out 怎么加做这个的事。10 分钟应该够，结构成这样。好，现在是唯一时间，去做。」(00:57:01)：另一个 trick 是我用过的一条最早的——最早的公开 mediu 消息之一——是关于 always 规则比 sometimes 规则对自控更好。所以如果你要节食，「我每天不吃午饭」。哇，某个大高管 review 日你会想「我真的得在那 review 前吃好」，现在你断了 streak，结束了。而如果你说一个你知道能做的「我不吃甜点除非不吃会社交尴尬。比如小环境某人做了自制甜点大家都在吃，我会……」非常清晰的黑白规则，你能永远坚持。(00:57:50)：比如自疫情开始我每天做 Peloton workout。",
+   "ts": "00:56:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow.",
+   "zh": "哇。",
+   "ts": "00:57:56"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "And now once I do start going back into the office, if I had to commute into the office, I would sometimes do a meditation to check the box for that. But if I'm not commuting and I'm not deathly sick, I've done a full workout since then. And the idea each day of is today the day of all the hundreds of days in this streak that is the worst or the hardest for me to do this thing? Is this the day? No, of course it's not. I will do it. And so that keeps you in this streak that makes it harder and harder to get out of it. And in some ways, of course you can torture yourself in an unproductive way like at a certain point maybe you should stop that streak, but I think those kinds of structuring help you get the things done you want to get done.",
+   "zh": "现在我如果开始回办公室，如果我得通勤进办公室，我有时会做个冥想来打卡。但如果我不通勤、我没病得厉害，从那以后我每天都做了完整 workout。每天的想法是：今天这几百天 streak 里是不是最难做这个的一天？是今天吗？不，当然不是。我会做。所以那让你在这个 streak 里，越来越难退出。当然某种意义上你可以在不 productive 的方式折磨自己，某个点也许你该停那个 streak，但我觉得那种结构化帮你完成你想完成的。",
+   "ts": "00:57:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's like the Seinfeld trick of productivity where you just keep track of how many days in where you've done something essentially.",
+   "zh": "就像 Seinfeld 的生产力 trick：你就跟踪你连续做了多少天。",
+   "ts": "00:58:38"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah, exactly. And I think people don't give those kinds of tactics enough credit because there's lots of little social tricks to yourself and others. This is when you have other people who are depending on you for something and will know that you didn't do the thing, that were so much better. So just little tricks like this help you be wildly more productive.",
+   "zh": "对，exactly。我觉得大家给那种战术不够信任，因为有很多对自己和别人的小社交 trick。当有别人依赖你做某事、会知道你没做时，效果好得多。所以这种小 trick 帮你 wildly 更高效。",
+   "ts": "00:58:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Actually, I want to go back a little bit. I'm curious what you wrote down when we were chatting earlier that you thought was a good articulation if you're able to share, if it's interesting,",
+   "zh": "其实我想回退一点。我好奇你刚在我们聊天时写下了什么你觉得是好 articulation，如果你能分享，如果有趣的话。",
+   "ts": "00:59:02"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I wrote down, and the reason I wrote it down is I've never... And by the way, I collect everything even once I think are maybe onto something. So I wrote down, \"A community with zero people speaking is dead and a community with one person speaking doesn't yet realize it's dead,\" is what I wrote down.",
+   "zh": "我写下了——我写下的原因是我从没……顺便我收集一切即使我觉得也许 onto 什么。所以我写下：「零人说话的社区是死的，一个人说话的社区还没意识到它已经死了。」",
+   "ts": "00:59:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So fun. I love this practice that you have.",
+   "zh": "太好玩了。我喜欢你这个练习。",
+   "ts": "00:59:24"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "By the way, the reason I can do it, I can type insanely quickly. And in undergrad, I wrote my thesis on the emergent power dynamics in Wikipedia's user community and I did 150 hours of interviews with different editors in Wikipedia, and I transcribed them myself. And so I got really, really, really good at I can just pipe an idea straight into my fingertips and still listen to other stuff. So that's another superpower is I've just constantly, I'm able to capture it very, very quickly. I've written notes that are at least good enough for me to clean up within the next day or two into something that's more stable.",
+   "zh": "顺便，我能做的原因是我打字超快。本科时我论文写的是维基百科用户社区的涌现权力 dynamics，我做了 150 小时访谈维基百科不同编辑，我自己 transcribe。所以我变得非常非常非常擅长——我可以直接把 idea 管到指尖、同时听别的。所以那是另一个超能力：我不断能非常非常快地捕捉。我写的笔记至少够好让我在一两天内清理成更稳定的东西。",
+   "ts": "00:59:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a way you built this other than... Was it just you did it and you had to do it and you just figured out how to move fast?",
+   "zh": "除了你做了、必须做、figure out 怎么快——有办法 build 这个吗？",
+   "ts": "01:00:04"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I just realized later that I could type really good, really fast. I could just pipe it straight through to my fingers and it worked. And, I don't know, I don't know if I hadn't written my thesis, would I have discovered that? I don't know.",
+   "zh": "我后来才意识到我能打得很快、很好。我可以直接管到手指、它 work。我不知道如果我没写论文会不会发现这个。我不知道。",
+   "ts": "01:00:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like everything you do is on super speed, the way you think, the write and get stuff done. There's a lot.",
+   "zh": "我觉得你做的一切都是超速度——你思考、写、完成的方式。很多。",
+   "ts": "01:00:22"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I just realized when-",
+   "zh": "我后来意识到当你——",
+   "ts": "01:00:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... a lot of compute.",
+   "zh": "……很多计算。",
+   "ts": "01:00:31"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "... when you're feeling productive, you're unstoppable. And so just how can you be in your flow state as much as possible? And there's things that absolutely completely grind me to a halt, and I just make sure I invest my time in situations that don't have that characteristic. So when I work on something that I believe could work and have a big impact, I can't stop. Sometimes I'll wake up at 4:00 in the morning as I'm typically an early riser and I'm just like, \"I'll write this thing.\" The meeting starts at 7:00 and I just think there's an idea that's really cool here and I let myself lean into those kinds of when I have the moment. (01:01:05): I also find that often if I have an idea and I just have itching to write it down, if I can write down 30 minutes and get a very rough of it in one place, now it's easier to clean it up later. But that first act of creation, I do it whenever the muse hits because it's 10 million times if it's like, \"Oh, write that idea down later,\" you keep on delaying it, delaying it, now it's a month later. \"What was the idea? How did that work again?\" It's gone. And so I just try to capture the interesting insights. It's like a butterfly collector. The butterflies are going by, I try to collect them and put them in my collection as quickly as possible.",
+   "zh": "——感觉高效时你 unstoppable。所以怎么让自己尽可能在 flow state？有些东西绝对完全让我停下来，我就确保把时间投资在不具有那个特性的场景。所以当我 work on 我相信能 work、有大影响的东西，我停不下来。有时我凌晨 4 点醒——我通常是早起的人——就「我要写这个。」会议 7 点开始，我就觉得这里有个很酷的 idea，我让自己 leans in 那种时刻。(01:01:05)：我也发现经常如果我有 idea、痒着写下来，如果我能写 30 分钟得到一个非常粗的在一个地方，现在更容易后来清理。但那个第一个创造行为，我在灵感来时做，因为它比「哦，后来写那个 idea」好一千万倍——你一直拖、一直拖，现在一个月后「什么 idea？怎么回事？」没了。所以我试图捕捉有趣 insight。像蝴蝶收藏家。蝴蝶飞过，我试图尽快收集、放进我的收藏。",
+   "ts": "01:00:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Or garden as one might describe it.",
+   "zh": "或花园，某人可能这么描述。",
+   "ts": "01:01:38"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:01:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This touches on a quote I wanted to talk to you about. I think you described it as your life philosophy. \"Do things that give you energy that you are proud of.\" Talk about that.",
+   "zh": "这触及我想和你聊的引用。我觉得你描述为你的生活哲学：「做给你能量的事、你为之自豪的事。」聊聊那个。",
+   "ts": "01:01:43"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "So to me, it's the combination of when you're doing something you believe in and that gives you energy, you are 10 times more productive. And you also, the effort that you are doing is its own reward. And so you are indefatigable on that topic and you go for much longer. So finding the substance of things that align with you that give you energy, then just it's like infinite energy. It's like they give an opportunity cost because it energizes you more than the opportunity cost of the time to go spend to other things. (01:02:21): And two, there are ways to give yourself energy, like for example, playing a video game, or there's any kind of mind-altering substance that might give you that like, \"This gives me energy.\" Those are not things that I'm not saying do those. I'm saying what are the things that you'll look back and say, \"I'm glad I did that. I'm proud that I did that.\" And if you take the perspective of a 10 years on looking back on each decision and thing that you're doing, and imagine seeing this decision played in front of 1,000 people whose opinion you care about, your family, your friends, your role models, would you be proud is a good sign of life that you're taking a broad enough perspective. (01:02:55): When you're busy and in the moment, it's so easy to say, \"I just got to do this one thing that's probably not great to get this thing done. And once I do it, it's going to suck. But once I do it, it'll be fine.\" And then you find yourself doing it again and again and again and again and before you know it, you've lost who you want to be and you're now a husk of yourself. And so I think those two pieces lean into where you find energy, where you specifically find energy, your superpower, the thing that you intrinsically enjoy doing, and just make sure it's something that you are actively proud of and that helped make sure you don't take a bunch of shortcuts.",
+   "zh": "对我来说是组合：当你做你相信的、给你能量的事，你高效 10 倍。而且你的努力本身就是回报。所以你 indefatigable，你持续更久。所以找到和你 align、给你能量的东西的 substance，然后就像无限能量。它给你能量超过花在其他事上的机会成本，所以是个机会成本。(01:02:21)：第二，有些给你能量的方式，比如打游戏，或有任何 mind-altering 物质可能给你「这给我能量」。我不是说做那些。我是说什么是你回头看会说「我很高兴我做了。我自豪我做了」的。如果你用 10 年后回看每个你在做的决策和事的视角，想象这个决策在 1000 个你在乎其意见的人——家人、朋友、role model——面前播放，你会自豪是好信号，说明你取了足够宽的视角。(01:02:55)：当你忙、在当下，很容易说「我就得做这一件大概不太好的事来完成这个。一旦做完会糟。但一旦做完就好。」然后你发现自己一次又一次一次又一次做它，不知不觉你失去了你想成为谁，你现在成了自己的 husk。所以我觉得那两块——leans in 你找到能量的地方、你特别找到能量的地方、你的超能力、你内在享受做的事——就确保它是你 actively 自豪的、那帮确保你不走一堆捷径。",
+   "ts": "01:01:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Along those same lines, I think a lot of people have heard a version of this quote, which is, \"New things that give you energy.\" So one, I love the additional piece of it is, \"and that you're proud of.\" Two, you have another quote that I love that makes you think deeply about stuff, which is, \"The secrets of life is things you've heard a million times already, you just weren't ready to hear them.\" Talk about that insight.",
+   "zh": "类似地，我觉得很多人听过这引用的版本：「做给你能量的事。」一，我爱加的那块「你自豪的」。二，你有另一句我爱的引用让你深思：「生活的秘密是你听过一百万次的东西，只是你还没准备好听到。」聊聊这个洞察。",
+   "ts": "01:03:29"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "So this I call the Hallmark card fallacy, which is you discover at great effort some deep insight that resonates with you and makes you see the world differently, and you want to share it. Insights are naturally viral. You want to share them and you go tell someone, it's like, \"Guys, guys, the point of life is the friends we made along the way.\" And people go, \"That's from a Hallmark card, man.\" And to you, it is you now possess the knowledge, the emotional intelligence to understand why that phrase has been shared so many times. Before, you heard it when you weren't ready and now it becomes a trite, \"Duh, everyone says that. That can't possibly be a meaningful statement.\" (01:04:30): The reason people keep on saying it is because it's meaningful. And so I think that having that space of recognizing it, that when you have these epiphanies that come from different leaps in vertical development or the ability to, when you stare into the abyss and make it through the other side, you realize and learn a bunch of amazing things that you want to pass on others, and it's just really hard to get them to find it. (01:04:53): I find that that's one of the reasons I try to write things that are or share ideas that are like little seeds that you can shoot into someone's brain even if the soil's not ready for it, it's rocky or craggy, at some point in the future, if something goes through there and opens up a crack, that's sitting there to grow into an idea. One of the things that makes me the happiest is when someone I've mentored years and the years in the past, they go search me out years later and say, \"Alex, I just want to let you know, you probably don't even remember talking to me, but that Tuesday at the building, the no-name cafe or whatever, on Google campus, you said something I was frustrated to hear in the moment I didn't understand it. And I just want to tell you, thank you because I finally understand what you were trying to tell me. And I realized that that influenced me in the decisions.\" That to me is one of those meaningful things I can hear. (01:05:41): And so I just find that you can't force it before people are ready to hear certain topics.",
+   "zh": "这个我叫 Hallmark card 谬误。你花大力气发现某个让你共鸣、让你看世界不同的深度 insight，你想分享。Insight 天然 viral。你想分享，你告诉人说「大家大家，人生的意义是我们在路上交到的朋友。」大家说「哥们那是贺卡上的。」对你来说你现在拥有了理解为什么那句话被分享那么多次的情感智力知识。之前你在没准备好时听到，现在它变成 trite「啊大家都说。那不可能是 meaningful 的陈述。」(01:04:30)：大家一直说它的原因是它 meaningful。所以我觉得有那个空间认识它——当你有这些从 vertical development 不同 leap 来的 epiphany，或当你凝视深渊并走到另一边时，你学到一堆 amazing 的东西想传给别人，就是很难让他们找到它。(01:04:53)：我发现这是我试图写东西或分享 idea 的原因之一——像小种子射进某人脑子里，即使土壤还没准备好、 rocky 或 craggy，未来某个点如果有什么穿过那里打开一条缝，那个就在那里长成 idea。让我最开心的事之一是我多年前 mentor 过的人多年后 search 我出来说「Alex，我想让你知道，你可能都不记得和我聊过，但那个周二在 Google campus 的 no-name cafe，你说了什么我当时沮丧听到、不理解。我想说谢谢因为我终于理解你当时想告诉我什么。我意识到那个影响……",
+   "ts": "01:03:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Man, that must feel so good to hear those sorts of closing the loop on something long ago. The point you make about cliches that you've heard a million times actually finally feeling right and profound, I had this very experience. I did a psychedelic trip with some friends a while ago, and at the end of it I was just like, \"Man, love is all you need. Love is all you need.\" I felt that so deeply through the experience and I was telling people, they're like, \"Shut up.\"",
+   "zh": "天哪，那一定感觉很好，这种很久以前的事闭环。你关于 cliché 你听过一百万次终于感觉对和深刻，我有这个体验。我和朋友做了个 psychedelic trip，结束时我就想「天哪，爱就是你需要的一切。爱就是你需要的一切。」我通过那个体验深深感受到了，我告诉别人，他们说「闭嘴。」",
+   "ts": "01:05:48"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "You telling, oh, do you just do psychedelics? Yeah, it's funny.",
+   "zh": "你告诉——哦你做 psychedelic？对，有趣。",
+   "ts": "01:06:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:06:19"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I have a lot of folks in my broader space who obviously have used it. So I never personally have myself, but I find there's various ways. The transcendent mindset is this feeling of being part of something much, much, much larger than yourself and losing your ego in this thing. There's different ways of doing it. Some people will find it in hiking and being out in the wilderness alone. Some people find it being at a concert and thousands of people perfectly in sync to this thing. Some people find it in religious experience. Some people find it using psychedelics and others to help get there. But a lot of it, it's that same just being willing to be in awe. (01:06:53): There's so many times that people feel the feeling of awe or wonder or curiosity is treated as a not very serious or childlike thing. And I just don't get that because that is how you are open to disconfirming evidence. It's how you see beyond the current limits of what you... Your ego gets hurt when you get disconfirming evidence. You don't want to hear it. And so you'll construct the world around yourself to not get that disconfirming evidence. But disconfirming evidence is what makes systems strong. It's what makes you strong. And so how do you put yourself in the situation to get that information and really receive it? (01:07:28): And part of it is just coming in terms of the fact of early in my career, someone called me kooky a bit. Oh, man. I must be embarrassed. I'm like, \"Okay, fine. Yeah, I'm kooky, whatever.\" I'm totally at peace with the idea that some people track me as kooky and not particularly serious. I think people who watch the work that I do and the indirect impact it has realize that I'm doing something that is working even if they don't fully understand how it works.",
+   "zh": "我更广的空间里很多人显然用过。我自己从没做过，但我发现有各种方式。超越心态是这种作为比你大得多的东西的一部分、在其中失去 ego 的感觉。有不同方式。有人在徒步和独自在野外找到。有人在音乐会和几千人完美同步找到。有人在宗教体验里找到。有人用 psychedelic 找到。但很多是那个 same 愿意 in awe。(01:06:53)：有那么多时候人觉得 awe 或 wonder 或好奇的感觉被当作不很严肃或孩子气的东西。我就是不理解，因为那就是你对反驳证据保持开放的方式。是你看到超越当前极限的方式。你的 ego 在你得到反驳证据时受伤。你不想听。所以你围绕自己构建世界来 not 得到那个反驳证据。但反驳证据是让系统强大的。是让你强大的。所以你怎么把自己放在得到那个信息并真正接收它的情境里？(01:07:28)：部分是接受这个事实：我职业生涯早期有人说我有点 kooky。天哪。我得尴尬。我想「好吧，行。对，我 kooky，无所谓。」我完全平和于有些人 track 我为 kooky、不太严肃。我觉得看我做的事和间接影响的人 realize 我在做某种 work 的东西，即使他们不完全理解它怎么 work。",
+   "ts": "01:06:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To start to close our conversation, I want to throw out one more seed that might land with someone in the right time. You have this concept of the adjacent possible, which I think is a really powerful concept. And it's basically argues that a lot of people jump to big bold ideas, and instead the better approach is think about what's a constraint you have and lean into the constraints and use that as a guide. Can you just talk about this and how this might inform how people think about product and strategy?",
+   "zh": "为了开始收尾，我想再抛一个也许会在对的时间 land 的种子。你有相邻可能的概念，我觉得是很 powerful 的概念。它基本主张很多人跳到大胆 idea，而更好的 approach 是想你的约束是什么、leans in 约束、用它作 guide。聊聊这个以及它怎么 inform 人们想产品和战略？",
+   "ts": "01:07:53"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Sure, yeah. The frame is the adjacent possible, which is I believe comes from design thinking. I've found it from designers in my life who are the ones who would just speak to it. And the adjacent possible is a set of actions that you do, that you can do. They are right in front of you that if you do them, they would work, almost certainly work. And in the tech industry in particular, we default assume that the adjacent possible is like this and then flying leap to something. And in reality, the adjacent possible is quite small. It's within arm's reach. And people will say, \"Oh, you're being nihilist. You're limiting your potential. You're saying don't do big things.\" But when you recognize that your adjacent possible is relatively small, you realize that you actually have full agency to pick within the subset that is within your reach, and your actions matter because you take an action and now the world reconfigures and now you get a next set of actions and it's based partially on the action you just took. (01:09:11): And so if you slice this thing up and you have a coherent worldview and you have a principled approach, you can arc to wildly different outcomes than look like they were possible while at each point, each individual action is safe and reasonable. And so you can combine both of these things. I think so many times we try to jump and we jump to the end state of the thing. And actually you don't need to make that decision. If you can slice up your decisions into smaller and smaller decisions, I'm like, \"This next step definitely makes sense.\" It will almost certainly pay for itself or the very least won't be too expensive. And then it might allow these other things to happen and you take it. And if those other things don't happen, okay, don't take another step on that path. That's fine. Go in other directions for a while. If it does, then take another step and another and another and another. (01:09:50): And this allows you to get rid of a lot of the risk and still be exposed to all the upside. And so the risk comes from trying to jump too far ahead in an unknown environment.",
+   "zh": "当然。frame 是相邻可能，我相信来自设计思维。我是从生活中的设计师那里找到的。相邻可能是你做的一组行动，你能做的、就在你面前的，如果你做它们它们几乎确定会 work。在科技行业尤其，我们默认假设相邻可能是这样然后飞跃到某个东西。但现实里相邻可能相当小。在 arm 能达到的范围内。大家会说「哦你在虚无主义。你在限制你的潜力。你说别做大事。」但当你认识到你的相邻可能相对小，你 realize 你其实有完全的 agency 在你 reach 内的子集里 pick，你的行动 matter 因为你采取一个行动世界重新配置、现在你得到下一组行动、它部分基于你刚采取的行动。(01:09:11)：所以如果你把这个切片、你有连贯的世界观、你有原则性 approach，你可以 arc 到看起来可能却 wildly 不同的结果，同时在每个点每个个体行动都是安全合理的。所以你可以结合两者。我觉得很多时候我们试图跳、跳到东西的终态。其实你不需要做那个决策。如果你能把决策切成越来越小的决策——「这下一步 definitely 说得通。它几乎确定会回本或至少不会太贵。然后它可能允许这些其他事发生」——你做它。如果那些其他事没发生，好，不在那条路上再走一步。没关系。去别的方向一阵。如果发生了，再走一步、再一步、再一步。(01:09:50)：这让你去掉很多风险……",
+   "ts": "01:08:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is the general advice if someone's working on trying to figure out the roadmap, trying to think about what products to build is the advice, don't be scared to go a little incremental versus what people are always pushed, to do bigger.",
+   "zh": "大致建议是如果有人在想 figure out 路线图、想该 build 什么产品，建议是别怕做一点 incremental vs 大家总被推的做更大？",
+   "ts": "01:10:02"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "You need both. So if you only do incremental, you will follow the shortest, the steepest gradient in front of you. So UXR says a user wants to do this and you'll do exactly that and you'll end up random walking through the thing. So you need coherence about where you're going and the way you get that is by creating a North Star for yourself. It should be in three to five years in the future, it should be very low resolution. It should describe a thing that every single person who reads it who has any kind of knowledge that might be useful or relevant agrees that it is plausible. If this happens, I would not say, \"Well, a miracle happened.\" It'd say, \"I could see how that could work.\" And lawyers say, \"I could see how that could work.\" And someone who's worked on this 30 years ago at a similar product that Microsoft says, \"I can see how that could work.\" (01:10:51): And that if you got to the end point, everyone would high five because if it's going to be a thing, they're like, \"I guess that could work.\" At the end we'd be like, \"Oh yeah, neat.\" That's not worth it. You want another story would be like, \"Yeah, great. Wow, we kick off. We changed the way this entire industry works,\" or whatever. And now this is your North Star. North Star should update, but it's because it's far off in the distance. It will update. It will slide up across the sky a little bit. It won't be jerking around. You'll be arcing slightly differently. And then what you do is you look in your adjacent possible and you look for the thing that has the steepest gradient that pulls you towards your North Star. So you just want to go in that direction and you want to go in this direction. This one is second most in demand from what you think, but it's pulling you the direction that you believe will pull you there. Go in that one. (01:11:31): And then they keep on repeating. That's it. But you need both. Because if you only do incremental, then you'll end up random walking into a corner. And if you only do the long-term, you end up dreaming big and designing castles in the sky that are impossible to actually manifest.",
+   "zh": "两个都要。如果只做 incremental，你跟着面前最陡的梯度走。UXR 说用户想做这个你就做那个，你就 random walk。所以你需要 coherence 知道你去哪，通过给自己创造 North Star。它应该在 3 到 5 年后，非常低分辨率。它应该描述一个每个读它的、有相关知识的人都同意 plausible 的东西。如果这发生了，我不会说「奇迹发生了。」会说「我能看到它怎么 work。」律师说「我能看到它怎么 work。」30 年前在微软做类似产品的人说「我能看到它怎么 work。」(01:10:51)：而如果你到了终点，大家 high five 因为如果它是个事他们会「我猜那能 work」。到最后「哦对， neat。」那不值。你要另一个故事「对，great。哇我们改变了整个行业运作方式」之类的。这是你的 North Star。North Star 该更新，但因为它在远处，它会更新。它会在天上滑一点。不会 jerking。你会稍微不同地 arc。然后你看你的相邻可能、找有最陡梯度 pull 你朝 North Star 的那个。你就去那个方向。你去这个。这个第二多需求但 pull 你相信会 pull 你到那的方向。去那个。(01:11:31)：然后不断重复。就这样。但两个都要。因为如果只 incremental 你会 random walk 进角落。如果你只……",
+   "ts": "01:10:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To give you a metaphor from an experience I had, I did this silent meditation retreat once, and a big part of Buddhism is to not cling to a specific outcome and not have a plan in mind and be sad if it doesn't work out. And so I asked them just how do you achieve success and want to be successful while not doing that? And their metaphor is point your card in a specific direction that you want to go. Just point your card in that direction, essentially in your example of North Star, and just start walking. Don't figure out this is exactly the path I'm going to take to get to this end destination.",
+   "zh": "给个我从体验来的比喻：我做了一次静默冥想 retreat，佛教很大一部分是不执着于具体结果、不抱计划、不因没成而难过。所以我问他们怎么既成功又想成功又不做那个？他们的比喻是：把你的车指向你想去的方向。就指向那个方向——就是你的 North Star 例子——然后开始走。不要 figure out 这是我要走到那个终点的精确路径。",
+   "ts": "01:11:45"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah. And you'll know after the fact, you'll say, \"Oh, I curved a little bit or I had this little jog than there.\" And you'll say, \"Ah, it would've been more efficient.\" But we're so focused on efficiency of not wasting effort that we ended up doing nothing at all or doing very dangerous things that don't work. So I'm much sure that I have a path that's slightly inefficient because we're navigating unknowns and we couldn't know no point. I think I've seen the number of times I find where people say, \"I need to know for this strategy,\" that someone was trying to get me to look at and then say, \"is this number in five years, is it going to be 93 or 95?\" And it's like, I don't know. And it doesn't matter either if it's going to be that order of magnitude. (01:12:56): It doesn't matter, and we don't have to do that analysis if we believe that the order of magnitude is of that thing. It'd actually be we had spent all the time to get the illusion of precision, which at great expense, and then it's the people say, \"Oh, I'm data-driven. I want to really run the analysis to ground.\" There's tons of stuff you can't know ahead of time. So if you're getting a false precision at the beginner, that's a comfort blanket. That's just helping you feel like there isn't uncertainty. There's uncertainty everywhere all the time. And trying to ignore it by trying to pin it down with fake numbers that you just made up for yourself at great expense is a really bad idea. And that's why if the ideas are strong enough, things that have a compounding return don't give you, \"Oh, we'll either get 93 or 95.\" It's like, \"We'll either get zero or we'll get 1,000.\" Great. It doesn't really matter if it's 1,000 or 1,001, who cares? It orders a magnitude larger than the alternative, and so it is better.",
+   "zh": "对。你事后才知道「哦我弯了一点或我有个小 jog。」你说「啊，那会更高效。」但我们太 focus 于不浪费努力的高效以至于我们最后什么都不做或做不 work 的危险的事。所以我更 sure 我有一条稍微低效的路径因为我们在导航未知、我们没法知道。我觉得我看到很多次大家说「我需要为这个战略知道」某人试图让我看的，然后说「这个数字五年后是 93 还是 95？」就像我不知道。而且不重要如果是那个量级。(01:12:56)：不重要，我们不需要做那个分析如果我们相信那个东西的量级。其实如果我们花所有时间得到 precision 的错觉，很贵，然后大家说「哦我是数据驱动的。我要把分析做扎实。」有大量你没法事先知道的东西。所以如果你在开头得到 false precision，那是 comfort blanket。只是帮你感觉没有 uncertainty。到处都是 uncertainty 一直。试图通过用你编造的假数字 pin down 来忽略它是坏主意。所以如果 idea 够强、有复合回报的东西不会给你「哦我们要么 93 要么 95」。是「我们要么 0 要么 1000」。好。1000 还是 1001 真不重要谁在乎？它比替代品大量级大，所以更好。",
+   "ts": "01:12:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's really freeing. I noticed again, you were writing something. I'm again curious which you wrote down that you thought was insightful.",
+   "zh": "那真释放。我注意到你又在写什么。我好奇你写下了什么你觉得有 insight 的。",
+   "ts": "01:13:48"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I actually this time I was not writing did something down. I was checking a thing I thought you might say that was going to reference was Tim Urban's, \"Happiness is the reality minus expectations.\" I always get that backwards, but have you heard this frame, that happiness-",
+   "zh": "我这次其实没写什么。我在查一个我以为你要提到的——Tim Urban 的「幸福是现实减期望」。我总搞反，但你听过这个 frame 吗，幸福——",
+   "ts": "01:13:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's get into it. Yeah, we're not going to get this. This is great.",
+   "zh": "来聊聊。对，我们不聊这个。这很好。",
+   "ts": "01:14:07"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "\"Happiness is reality minus expectations,\" and this is Tim Urban. It was from Wait But Why. And I think it's a very simple distillation of it, of if you set your expectations super high and it comes in and it's amazing, but it's below it, then it's a net negative. So the easiest thing, reality is hard to change. It's not impossible. It's hard to change. Your expectations are super easy. So just change your expectations. Hold it lightly and don't say, \"Oh my gosh, this is going to be my kid's birthday. She's going to remember it. It's going to be the best birthday that she ever had and we're all it's going to be perfect.\" Because then when it doesn't go perfect and it starts raining that day, you're like, \"Gosh.\" You get all worked up. Just say, \"No, I want spend this day in a way that I can look back on and remember fondly.\" And that will include, yeah, it changed. (01:14:54): One other piece of advice someone gave me that I really like is try to feel the emotion about the story that'll make you feel in 10 years. So if it's funny in 10 years, try to see the humor in it now. And this one in particular was a friend, their newborn would, every time you changed her diaper, would poop. That was only... And when they did it, it would often be projectile. And so it was like a trap. You change the diaper. And it was like, what are you going to do in that situation? And then they're just like, \"It's going to be a funny story in a few years, so let's see the humor in it now.\" Even though, God, I really wish this year-",
+   "zh": "「幸福是现实减期望」，Tim Urban 的。来自 Wait But Why。我觉得是很简单的蒸馏：如果你设期望超高，结果 amazing 但低于它，那是净负。最简单的，现实难改。不是不可能。难。你的期望超容易。就改你的期望。轻持它，别说「天哪这是我孩子生日。她会记住。是她最好生日、我们都要完美。」因为当它不完美、那天下雨，你就「天哪」很 upset。就说「不，我想以能回头看、fondly 记住的方式过这一天。」那会包括，对，它变了。(01:14:54)：另一个有人给我的建议我很喜欢：试着感受那个会在 10 年后让你有感觉的情绪。如果 10 年后好笑，试现在看到幽默。这个具体是朋友，他们新生儿每次换尿布都拉。只有……而且做的时候经常是 projectile。所以像陷阱。你换尿布。那你能怎么办？他们就想「几年后这会是个好笑故事，所以现在就看到幽默。」即使天哪我真希望这年……",
+   "ts": "01:14:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's funny.",
+   "zh": "那很好笑。",
+   "ts": "01:15:28"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "... you're not spraying poop on her. And I think that that kind of perspective is really, people sometimes hear this as, \"Oh, you're saying don't dream big. Don't set high expectations. Don't expect more and be okay with mediocrity.\" That is not what I'm saying. I'm saying hold those expectations lightly. Allow them to change. Be willing to be convinced by different things, and seek something great. Seek something that you can be truly proud of and that feel very authentic to yourself if you achieved.",
+   "zh": "……你别喷屎。我觉得那种 perspective 真的——大家有时听这个像「哦你说别梦想大。别设高期望。别期待更多、接受平庸。」那不是我在说。我在说轻持那些期望。允许它们变。愿意被不同东西说服，seek 伟大的东西。seek 你能真正自豪、感觉非常 authentic 于你如果达到的东西。",
+   "ts": "01:15:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Alex, I feel like I could talk to you for hours. I can't believe it's already been almost an hour and a half. So just to wrap things up, is there anything else that you thought would be fun to share or maybe a piece of wisdom you want to leave listeners with before we get to a very exciting lightning round?",
+   "zh": "Alex，我觉得我能和你聊几个小时。不敢相信已经快一个半小时了。收尾前，还有什么你觉得好玩分享或想留给听众的智慧 piece 在我们到非常精彩的闪电问答前？",
+   "ts": "01:15:57"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I think we covered it. I think we covered a lot of that. And again, we could go on for hours and hours and hours and hours. I could just do a random... I can feature The Compendium where I can pull up a random idea, and let's not do that.",
+   "zh": "我觉得我们覆盖了。我觉得我们覆盖了很多那个。再说一次，我们可以聊几个小时几个小时。我可以就 random……我可以 feature The Compendium 拉一个随机 idea，但我们不做了。",
+   "ts": "01:16:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, amazing. Well, Alex, with that, we've reached the very exciting lightning round. Are you ready?",
+   "zh": "好，太好了。Alex，那我们到了非常精彩的闪电问答。准备好了吗？",
+   "ts": "01:16:24"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I am ready.",
+   "zh": "准备好了。",
+   "ts": "01:16:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "First question, what are two or three books you've recommended most to other people?",
+   "zh": "第一个问题。你最常推荐给人的两三本书？",
+   "ts": "01:16:30"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Origin of Wealth by Eric Beinhocker, which is great. It's about a complexity economics, why the traditional economic model doesn't work, and also why it takes an evolutionary lens on what kinds of business plans work and how companies execute them. That I found my entree into a lot of the systems thinking and I thought it was just absolutely brilliant. And the other one is The Elements of Thinking in Systems, which is short, easy to read, very approachable. In fact, if anything, people think of it as not serious enough because it's too easy to read. It's one of those books that when you read at the beginning you'll say, \"This sounds right.\" And then later, years later, if you read it again you'll go, \"Oh my God, that was so... I wasn't ready for that yet, but that is totally the way.\" So she's one of the people who talks about dancing the systems. Let go and dance with the system is one of her lines, and I think it's just a phenomenal book.",
+   "zh": "Eric Beinhocker 的 Origin of Wealth，很好。关于复杂性经济学，为什么传统经济模型不 work，也用演化 lens 看什么样的商业计划 work、公司怎么执行。那是我进入很多系统思考的入口，我觉得绝对 brilliant。另一本是 The Elements of Thinking in Systems，短、易读、很 approachable。其实如果有什么，大家觉得它不够严肃因为太好读。它是那种你在开始读时会说「这听起来对」的书。然后几年后再读「天哪，那个太……我那时没准备好，但那 totally 是那个方式。」所以她是谈论与系统共舞的人之一。放手与系统共舞是她的 line 之一，我觉得是 phenomenal 的书。",
+   "ts": "01:16:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Next question. Do you have a favorite recent movie or TV show you really enjoyed?",
+   "zh": "下一个问题。你有最近最喜欢的电影或剧集吗？",
+   "ts": "01:17:21"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "For me, I was thinking about this, it's The Green Knight, which I watched I think a few years old. It's about the Arthurian legend. It's a challenging movie. In fact, when I watched it, I was like, \"I dislike this. I do not find this interesting.\" And then I couldn't stop thinking about it and it helped me. I think this is one of the reasons I like to write in parable is a parable is open-ended. It encourages and requires the listener to engage into the idea and play with it and see how it affects them and how they affect it. And so for me, The Green Knight, again, I'm not excited to watch it again, but I found it to be the most impactful movie I've seen in the last couple of years in terms of amount of thinking that it caused me to do afterwards.",
+   "zh": "对我来说，我想了想，是 The Green Knight，几年前的。关于亚瑟王传说。是有挑战性的电影。其实我看时觉得「我不喜欢这个。我觉得这没意思。」然后我停不下来想它，它帮了我。我觉得这是我喜欢用寓言写的原因之一——寓言是开放结尾的。它鼓励并要求听者 engage 进 idea、玩它、看它怎么影响他们、他们怎么影响它。所以对我来说 The Green Knight——我不是兴奋再看一遍——但我发现它是过去几年对我影响最大的电影，就它让我事后思考的量。",
+   "ts": "01:17:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, that says a lot. Next question, do you have a favorite product you've recently discovered that you really like?",
+   "zh": "哇，那说了很多。下一个问题。你有最近发现的、很爱的产品吗？",
+   "ts": "01:18:04"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "To me, I think the answer for me is WebSim. It's the one that I like playing around with a lot. And I've said it before, I use Claude 20 times a day. I find that it's almost impossible for me to imagine doing work. I mean of course now I've got to use Strawberry and see how that feels, but yeah.",
+   "zh": "对我来说我觉得答案是 WebSim。是我喜欢玩的。我说过，我一天用 Claude 20 次。我发现几乎没法想象做工作。当然现在我得用 Strawberry 看看感觉如何，但对。",
+   "ts": "01:18:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One use case of WebSim that I found really fun that I used with Dylan is if you do Gmail, if you give it gmail.com/someone's name, it just comes up with what their email looks like. And could do it for famous people, like for Patrick Allison or whoever, and it's like, \"Wow, that's really good.\"",
+   "zh": "一个我觉得很好玩的 WebSim 用例是和 Dylan 用的：如果你做 Gmail，给它 gmail.com/某人名字，它就出来他们邮件长什么样。可以给名人做，比如 Patrick Allison 之类的，就「哇，这真好。」",
+   "ts": "01:18:28"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "The elements are really good. One of the things we played around with is having a thing that generates fake data of arbitrary schemas, and I just write a short backstory of a person and then have it generate data that fits in this fictional user person's world. And it's just amazing the kinds of stuff, the coherence it has with, it's weird and it's very specific to that story, but elements are just so, they're like these little holograms of all this information of humanity is interesting informational package, this little thing. And all kinds, it's like a mirror that different things reflect back out of it at you. And it's shocking sometimes to see humanity reflected back at you.",
+   "zh": "element 真的好。我们玩过的一个是让它生成任意 schema 的假数据，我就写一个人的短 backstory，然后让它生成 fit 这个虚构用户世界的 data。那些东西、它的连贯性令人 amazing，奇怪、非常特定于那个故事，但 element 就是，它们像所有人类信息的小 hologram，这个有趣的信息包。各种，它像一面镜子反射出不同的东西。有时看到人性反射回来令人 shocking。",
+   "ts": "01:18:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's like a zip file of all human knowledge.",
+   "zh": "像所有人类知识的 zip 文件。",
+   "ts": "01:19:29"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yeah, yeah.",
+   "zh": "对对。",
+   "ts": "01:19:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. And it's because it's trained on all the things we've written, right?",
+   "zh": "太棒了。因为我们训练在所有我们写过的东西上对吧？",
+   "ts": "01:19:32"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Yep.",
+   "zh": "对。",
+   "ts": "01:19:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, two more questions. You have a favorite life motto that you often come back to find useful in work or in life?",
+   "zh": "好，还有两个问题。你有最常回到的、在 work 或生活里有用的人生格言吗？",
+   "ts": "01:19:36"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "I guess I've said too, this is cheating, but I said too, the do things that give you energy that you're proud of, and the happiness is reality minus expectations I think are really simple clarifying words to look like.",
+   "zh": "我猜我说过两个了，这是作弊，但我说过的做给你能量、你自豪的事，和幸福是现实减期望，我觉得是 really simple clarifying 的话。",
+   "ts": "01:19:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. Final question. You can go in one of two directions. One is what's something that you are going to add to this week's Bits and Bobs that you're thinking about right now that we haven't talked about? Or just go to your Compendium and pick a random thing and see what comes up and share.",
+   "zh": "好。最后一个问题。你可以两个方向之一。一是这周 Bits and Bobs 里你此刻在想、我们没聊的、要加什么？或就去你的 Compendium 随机挑个看出来什么分享。",
+   "ts": "01:19:56"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Okay, so this is the... I'll just read this off.",
+   "zh": "好，这个是……我就读这个。",
+   "ts": "01:20:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great.",
+   "zh": "好。",
+   "ts": "01:20:14"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "This is written a year ago. (01:20:18): \"We've forgotten a world without aggregators. Non-aggregator ecosystems make it so participants don't have to fear empowering their overlord, where that you have to worry about each bit of action you're doing, the aggregator is getting it more and more powerful. MySpace was the Wild West. Facebook made it so you can't change the CSS, which was better for users, containing some freedom. Aggregators make sense in the late stage of an era. At the beginning, they curtail too much exploration.\" (01:20:42): That's just my random reflections. I don't even remember what conversation that came from originally, but of the power of... I am just so obsessed with the idea that we are in the late stage of this current technical paradigm that we're in and so many things we feel like we figured them all out and nothing can be any different, and I don't love this outcome that we're in, the idea of you're... Just one quick framing. To me, if you ask somebody on the street to tell you what the canonical piece of software is, the answer they'll give you is something like Instagram, which is to say an app, which I think is a shame because an app is monolithic. It's one size fits all. It's not decomposable. It doesn't meaningfully interact with anything else in the broader ecosystem. And it's also only allowed to exist if some of the largest companies in the world say it may exist, which is insane to me. (01:21:26): To me, software is alchemy. It's the ability to extend human agency beyond ourselves to create something that can then combine with what others have created in unexpected and unforeseen ways to create this commentary of possibility of human agency. And somehow in the past decade, we've become convinced that all of this potential should be squeezed into about a dozen little boxes on your phone. And now with the power of AI, everyone just is default assuming that what's going to happen is we're all going to be locked inside of a box with a super God AI Clippy. And the only thing that people disagree about is which Clippy is it going to be? Whose Clippy is it going to be? (01:21:57): That to me is bonkers. I don't want that world at all. I want a world where we use this magical duct tape to escape the box, to allow software and humans using it to lean into their agency. And I think aggregators are amazing in an environment where you have a safe environment to have all kinds of interesting stuff that can't be fully open-ended because the aggregator can't allow it to escape the possibility of that ecosystem. And so for me, one of the reasons I'm excited about LLMs being a disruptive technology is I think that it allows us to get out of this monolithic sense of whatever. We're all just beholden to a decreasing number, very powerful organizations, and lean into everybody being able to be creative and collaborative and exercise their agency in a pro-social way.",
+   "zh": "这是一年前写的。(01:20:18)：「我们忘记了一个没有聚合器的世界。非聚合器生态系统让参与者不必害怕赋能他们的霸主——你担心你做的每个动作都在让聚合器越来越强。MySpace 是狂野西部。Facebook 让你不能改 CSS，对用户更好，contain 了一些自由。聚合器在一个时代末期有道理。在开始时，它们 curtail 太多探索。」(01:20:42)：只是我的随机反思。我甚至不记得那最初来自什么对话，但关于……的力量我太痴迷于我们在当前技术范式的末期这个 idea，那么多东西我们觉得都 figure out 了、没什么可以不同，我不爱我们所在的这个 outcome，你……就一个 quick framing。对我来说如果你问街上的人告诉他们 canonical 的软件是什么，他们会给 Instagram 之类的答案，就是 app，我觉得这是耻辱因为 app 是 monolithic 的。一刀切。不可分解。不与更广生态系统里别的有意义的 interact。而且只有世界上一些最大公司说它可以存在它才被允许存在，这对我来说 insane。(01:21:26)：对我来说软件是 alchemy。是扩展人类 agency 超越我们自己、创造能和别人创造的以意外、不可预见的方式 combine 的东西、创造这个人类 agency 可能性的 commentary 的能力。不知怎么过去十年我们变得相信所有这个潜力该被挤进你手机上大约一打小盒子里。现在有了 AI 的力量，大家就默认假设会发生的是我们都会被锁在一个盒子里和……",
+   "ts": "01:20:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Well, you blew our mind as a final element of this conversation. Alex, thank you so much for being here. Two final questions. Where can folks find you online? Where do they find stuff you're working on if they want to read more and follow the stuff you're thinking about? And then how can listeners be useful to you?",
+   "zh": "哇。作为这次对话的最后一个 element 你震撼了我们。Alex，非常感谢你来。最后两个问题。大家在网上哪能找到你？在哪能找到你在做的东西如果想读更多、follow 你在想什么？然后听众怎么能帮到你？",
+   "ts": "01:22:41"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Komoroske.com is where. My husband gives me so much shit for it because it looks like it was designed in the early 2000s, which it was. I link to all the different posts there. If you click, there's a Google group, but now where you can subscribe to my updates whenever I post in the Bits and Bobs or any medium article, that's a good way of taking touch as I publish stuff. (01:23:16): And then the way that Google can be useful to me is I have office hours on my site that are open to anybody to join in. I am continually, they're booked off in a few weeks in advance, but if you find something that resonated with you or that didn't, or you think is interesting or, \"Oh, here's a parallel. I don't know if you've thought of it before,\" just reach out to me. And I love, love, love talking to people, interesting people especially who have life experiences and backgrounds that are different from mine. At one point, a magician showed up in my office hours and described and said, \"Hey, this tactic you're talking about in your Bits and Bobs, that's actually cold reading. That's what psychics use.\" And I would find all these crazy connections they'd never occurred to me before. And so people just reaching out and sharing ideas and I love.",
+   "zh": "Komoroske.com。我丈夫给我很多 shit 因为它看起来像 2000 年代初设计的，确实是。我链接到所有不同 post。点那里有个 Google group 但现在你可以订阅我的更新，无论我发 Bits and Bobs 还是任何 medium 文章，那是 keep in touch 的好方式。(01:23:16)：然后能帮到我的方式：我网站上有 office hours，对任何人开放。持续提前几周 booked out，但如果你找到什么 resonates 或没有、或觉得有趣、或「哦这里有个 parallel，不知道你想过没」，就 reach out。我爱、爱、爱和有趣的人聊，尤其有和我不同生活经历和背景的人。有次一个魔术师出现在我 office hours 描述说「嘿，你在 Bits and Bobs 里说的那个 tactic 其实是 cold reading。那是通灵者用的。」我发现这些我从未想到的疯狂连接。所以大家 just reach out 和分享 idea 我爱。",
+   "ts": "01:22:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Alex, you're awesome. This conversation was exactly what I was hoping it'd be. My brain is buzzing as I expected. Thank you so much for being here. I'm excited for folks to listen to this and to learn from you.",
+   "zh": "Alex，你太棒了。这次对话正是我期望的。我的脑子如预期般兴奋。非常感谢你来。我兴奋大家听这个、向你学。",
+   "ts": "01:23:59"
+  },
+  {
+   "speaker": "Alex Komoroske",
+   "en": "Thank you so much for having me.",
+   "zh": "非常谢谢你邀请我。",
+   "ts": "01:24:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. (01:24:15): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见。(01:24:15)：非常感谢你的收听。如果你觉得有价值，可以在 Apple Podcasts、Spotify 或你喜欢的播客 app 上订阅。也请考虑给我们评分或留评，这真的能帮到其他听众发现这档播客。你可以在 lennyspodcast.com 找到所有往期节目或了解更多。下期见。",
+   "ts": "01:24:12"
+  }
+ ]
+}

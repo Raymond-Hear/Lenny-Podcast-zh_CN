@@ -1,0 +1,1019 @@
+{
+ "id": "Jeff Weinstein",
+ "name": "Jeff Weinstein",
+ "category": "企业管理",
+ "identity": "创始人/CEO",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Jeff+Weinstein",
+ "bio": {
+  "en": "Jeff Weinstein spent six-plus years at Stripe, where he led payment-infrastructure product teams, scaled Stripe Payments to hundreds of billions in annual volume, and grew Stripe Atlas—now used to start one in six new Delaware corporations.",
+  "zh": "Jeff Weinstein 在 Stripe 任职六年多，领导支付基础设施产品团队，将 Stripe Payments 的规模做到每年数千亿交易量，并壮大了 Stripe Atlas——如今全美每六家新成立的特拉华州公司就有一家通过它注册。"
+ },
+ "summary": {
+  "en": "Jeff breaks down the skills behind his remarkably effective product leadership: a go-go optimism and long-term compounding philosophy, operationalizing product craft and quality, and treating every customer complaint as an 'unbelievable gift' of direct signal. He shares the 'Stripe Study Groups' empathy practice he started (role-play as a customer with no agenda to solve problems), how to talk to customers, how to know you have product-market fit, and how to pick great metrics. The episode is the longest in Lenny's history for good reason—a full archaeology of a beloved product leader's craft.",
+  "zh": "Jeff 拆解了他极高效率的产品领导力背后的技能：积极进取的乐观主义与长期复利式的理念、把产品工艺与质量落到日常，以及把每条客户抱怨都当作直连信号的“不可思议的礼物”。他分享了发起的“Stripe 学习小组”共情练习（角色扮演成客户、不以解决问题为目的）、如何与客户交谈、如何判断你已找到产品市场契合，以及如何挑选好指标。这期节目成为 Lenny 史上最长的一期并非没有原因——它是对一位备受喜爱的产品领导者“手艺”的完整考古。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "Watching you operate on Twitter, you're just breaking this wall between the PM and the customer.",
+   "zh": "观察你在Twitter上的互动，你完全打破了首席执行官与客户之间的隔阂。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "The moment the customer felt compelled enough to go out of their way to talk about some problem, that's a unbelievable gift. I will leave a meeting to just get one message back to them. If you're text message friendly with five or 10 of those, you are going to have so much direct signal that is infectious.",
+   "zh": "当客户主动发声、愿意不遗余力地反馈问题时，这无疑是难得的馈赠。我曾为了一条回复而中断会议。若能与五到十位客户保持顺畅的短信沟通，你就能获得大量直接反馈，这些信息的感染力极强。",
+   "ts": "00:00:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Many people told me I need to ask you about picking metrics.",
+   "zh": "很多人让我向你请教如何选取关键指标。",
+   "ts": "00:00:22"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Well, what was the value that we're trying to produce for the customer and can we measure it from their perspective? And okay, how do you know you have product market fit? Charts that showcase things are going up into the right on one hand and then tweets on the other.",
+   "zh": "首先，我们要明确为客户创造的价值，并从他们的视角去衡量。如何判断产品与市场是否契合？关键在于观察数据曲线——一方面是业务量稳步增长，另一方面是客户反馈的推文。",
+   "ts": "00:00:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You started at Stripe something called study groups.",
+   "zh": "你在Stripe发起过名为\"学习小组\"的项目。",
+   "ts": "00:00:36"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "We show up four to eight people total pretend to be some company with some outcome problem. Rule one is you do not work at Stripe and rule two is we're not here to solve any problems. This is just about practicing empathy for the customer.",
+   "zh": "我们会召集四到八人，假装代表某家面临挑战的公司。规则一：成员不得是Stripe员工；规则二：不许解决实际问题。目的是培养对客户的共情能力。",
+   "ts": "00:00:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Jeff Weinstein. Over the course of his six plus years at Stripe, Jeff was the product lead for Stripe's payment infrastructure teams. We helped scale Stripe payments to hundreds of billions of dollars in volume a year. He also led PMs and Teams on a number of zero to one bets at Stripe, and most recently took on the scaling of Stripe Atlas, which as of the day this podcast launches allows you to incorporate a new company in a single day, including handling 83B elections, incorporation documents, getting your EIN, share purchases, and all the things that used to take weeks or months before a company could begin operating. At this point, one in six new Delaware corporations are started on Stripe Atlas, which blows my mind. This episode ended up being the longest in my podcast history because I wanted to basically do an archeology of an incredibly effective and admired product leader. (00:01:49): We spent the entire conversation digging deep into the many skills that Jeff has built that enable him to consistently build successful and beloved products. We get into his go-go- go plus optimism, long-term compounding philosophy of building products, how to think about and operationalize product craft and quality. He shares a popular program that he started at Stripe called Stripe Study Groups that I think you should steal. We also talk about how to effectively talk to customers, how to know if you have product market fit for your new product, how to pick great metrics for your team, what he's learned about getting shit done at a big company. Also, advice that he's gotten from the founders of Stripe and so much more. This episode is for anyone who's looking to level up their product building chops in every way. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing future episodes and it helps the podcast tremendously. With that, I bring you Jeff Weinstein. Jeff, thank you so much for being here and welcome to the podcast.",
+   "zh": "本期嘉宾是杰夫·温斯坦。在Stripe的六年多时间里，他负责支付基础设施团队的产品开发。我们成功将Stripe支付业务规模扩展至每年数千亿美元。同时，他还领导PM团队完成了多个从零到一的创新项目，最近主导了Stripe Atlas的升级。如今，该平台能让新公司在一天内完成注册，包括处理83亿次选举相关事务、公司注册文件、获取雇主识别号（EIN）、股份购买等繁琐流程，所有这些过去需要数周或数月才能完成的步骤，如今只需一天即可完成。如今，特拉华州每六家新注册公司中就有一家通过Stripe Atlas成立，这一数据令人惊叹。\n\n本期节目是播客史上最长的一期，因为我希望深度剖析这位极具影响力和备受尊敬的产品领袖的成功之道。（00:01:49）我们全程探讨了杰夫构建成功且深受用户喜爱产品的诸多核心技能，包括他的积极进取精神、长期复利的开发理念、如何理解并实践产品工艺与质量。他分享了在Stripe发起的流行项目——Stripe学习小组，值得借鉴。我们还讨论了如何有效与客户沟通、如何判断新产品是否符合市场需求、如何为团队选取优质指标，以及他在大公司高效完成任务的经验。此外，杰夫还分享了从Stripe创始人那里获得的宝贵建议等诸多内容。本期节目适合任何希望全面提升产品构建能力的人。如果您喜欢本播客，别忘了在您喜爱的播客应用或YouTube上订阅关注，这是避免错过未来节目的最佳方式。现在，让我们迎来杰夫·温斯坦。",
+   "ts": "00:00:57"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Thank you Lenny of Lenny's Podcast. I knew what to expect, but it's fun to see the first name and the podcast all line up. I really appreciate you asking.",
+   "zh": "感谢Lenny's Podcast的Lenny。我早有预料，但看到名字和播客名称完美契合还是挺有趣的。非常感谢你的提问。",
+   "ts": "00:02:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I wanted to start with a quote that I found from you that I think gives a little perspective into how you think and how you approach the world. So here's the quote. \"Very frequently I would do poorly on tests in school and then the professor would say very reasonably, 'Hey, I think you should bump down a level to the previous semester's pace,'\" and you said, \"I actually know that, that's why I'm in this class. I want to be in the class that I'm potentially the worst at.\" This isn't how most people think. This isn't how most people operate. Usually people want to get good grades, they want to be at the top of their class. Clearly you have a different approach and a different mindset. Where did this come from for you and how did this shape the way you think about product and the work that you do?",
+   "zh": "首先，我想引用一段我从你那里找到的引语，我认为这段话能让我们稍微了解你的思维方式和处世之道。引语是：“我上学时考试成绩常常不理想，教授就会很善意地说：‘嘿，我觉得你应该降一个级别，回到上一学期的学习进度’。”而你回答道：“我其实心里清楚，这就是我来上这门课的原因。我想选一门我可能会学得最差的课程。” 这与大多数人的想法和行为方式截然不同。通常人们都希望取得好成绩，渴望成为班上的尖子生。显然，你有独特的思维方式和处事哲学。这源自何处，又是如何塑造了你对产品设计和工作的看法呢？",
+   "ts": "00:02:59"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Some of it was just the fact that I wasn't particularly good at the class and had to rationalize it for myself in some form. So in retrospect that sounds highfalutin, but at the time I just wasn't particularly good at the classes I was in. But I think it comes from growing up. I went to a pretty hippy-dippy K through 12 school in Baltimore, Maryland where we were really asked to think about why we were in school and to pick any of the courses that were of interest to us outside of AP programs or grades or any particular requirements. You really got to choose your own path. And I recall one particular class in high school, which was somewhat a science class, but it was called the History of Science, and we actually walked through and studied all of the, at the time, best understood ways the world worked in science, but then later were turned out to be wrong, right? (00:04:40): In the 1500s we believed X, Y, and Z. In the 1600s we believed A, B and C. just very confidently. In 1500s we thought something and then the 1600s we thought something very different. And so this class was quite impactful on me where we spent an entire year studying things that are not true. It was fascinating. That particular teacher employed another trick on us during that class, which was it took the tuition fee of our school and divided it by the number of hours and wrote the cost on a ticket and then handed us in the beginning of the year. Tickets for every single one of the classes and he would stand at the door and you would have to give him a ticket at the end of the class that he thought it was worth it. And just like that practice of deep intellectual understanding of how people evaluated something at the time and choosing for yourself to spend the time on it by just the physical act of handing that ticket to the teacher. (00:05:44): That really clicked for me. And so when I got to college and it was a real college university, people are coming from often quite more rigorous backgrounds of things that were true. I was a bit unprepared and I remember actually taking a microeconomics class that was quite advanced and had a close friend and we studied exactly the same information. We sat and looked at the same cheat sheets, we practiced the same quizzes, we read the same books, and he got the top grade in the class and I got the bottom and that's from where that quote came from where the professor said, I think you should bump, potentially bump down. I was like, \"I already know that stuff. I'm interested in this topic. I'm going to try to improve, but look just because I'm significantly worse than the other kids in the class that has little to do with if I should leave.\" And he was particularly cool with it.",
+   "zh": "部分原因在于我当时对课程并不是很擅长，需要以某种方式为自己找借口。回想起来，这听起来挺冠冕堂皇的，但当时我确实不擅长所学的课程。不过我认为这源于成长经历。我在马里兰州巴尔的摩上了一所相当自由派的K-12学校，那里真的鼓励我们思考为什么要上学，并让我们自由选择除AP课程、成绩要求或特定要求之外的感兴趣课程。你真的可以自主规划自己的道路。我记得高中有一门课，表面上是科学课，但实际上叫做《科学史》。我们系统学习了当时人们对世界运作方式最深刻的理解，但后来这些观点被证明是错误的。比如16世纪人们认为X、Y、Z是正确的，17世纪又坚信A、B、C是正确的。人们曾对某些观点深信不疑，而后又推翻了原有认知。这门课对我影响很大，我们花了一整年时间研究那些后来被证明错误的理论，真是令人着迷。老师还有个绝招，他把学校的学费总额除以课时数，写在票券上，年初发给每个学生。每节课结束后，学生都要把票券交给老师，证明这节课值得花时间。这次经历让我深刻体会到，人们如何评估当时的知识体系，以及如何通过亲手将票券交给老师这种行为来选择是否投入精力钻研。\n\n到了大学，面对真正严苛的学术要求时，我明显准备不足。记得我选了一门微观经济学高级课程，同桌学霸和我是同步学习的。我们用完全相同的笔记、刷相同的题库、读相同的教材，但他拿了班上第一，我却垫底。这就是教授说\"你或许该降低期望\"的由来。我反驳道：\"这些知识我都懂，我对这课感兴趣。我会努力提升，但成绩差跟退学没关系。\"教授倒很理解。",
+   "ts": "00:03:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Pendo, the only all-in-one product experience platform for any type of application, tired of bouncing around multiple tools to uncover what's really happening inside your product? With all the tools you need in one simple to use platform, Pendo makes it easy to answer critical questions about how users are engaging with your product and then turn those insights into action. Also, you can get your users to do what you actually want them to do. First, Pendo is built around product analytics, seeing what your users are actually doing in your apps so that you can optimize their experience. Next, Pendo lets you deploy in-app guides that lead users through the actions that matter most. (00:07:12): Then Pendo integrates user feedback so that you can capture and analyze what people actually want. And the new thing in Pendo, session replays, a very cool way to visualize user sessions. I'm not surprised at all that over 10,000 companies use it today. Visit Pendo.io/Lenny to create your free Pendo account today and start building better experiences across every corner of your product. PS: you want to take your product-led know-How a step further, check out Pendo's lineup of free certification courses led by talk product experts and designed to help you grow and advance in your career. Learn more and experience the power of the Pendo platform today at Pendo.io/Lenny. (00:07:56): Today's episode is brought to you by Cycle. The AI-powered feedback platform for product teams. Is your customer feedback, a tangled mess of Slack threads, survey responses and overflowing inboxes? Wish that you could know what your customers really need? Cycle unifies all of your customer interactions from support chats to user research, gong calls and app store reviews into one neat collaborative space. Cycle's AI then extracts actionable insights on autopilot. Cycle will learn what you're building so that it can label incoming feedback automatically. That means you'll get a full voice-of-customer report without manually triaging feedback. Then simply you Cycle Ask to dig deeper into any topic and generate custom AI-generated summaries across your entire feedback repository. What makes Cycle different is the way that it lets you close feedback loops in each release. Feedback is not used just as a way to prioritize what to build, but also as a tool that creates trust with all stakeholders. Sign up for a free cycle trial today at cycle.app/Lenny and put your feedback on autopilot. That's C-Y-C-L-E.app/Lenny. (00:09:07): It's really interesting that you went to this liberal artsy hippy dippy school as you described, which a lot of people bash on. Why spend all this college money and time on a liberal artsy education and you ended up being really successful in a very technical, highly analytical data-driven company, and it's interesting that that experience still helped you succeed in this other path.",
+   "zh": "本期节目由Pendo赞助播出。Pendo是适用于各类应用的全能产品体验平台。您是否厌倦了在多个工具间来回切换，试图深入了解产品内部的真实情况？Pendo将所需的所有工具整合到一个易用平台，助您轻松解答用户与产品互动的关键问题，并将这些洞察转化为实际行动。此外，您还能引导用户完成您真正期望的操作。首先，Pendo围绕产品分析而构建，通过观察用户在应用中的实际行为，优化用户体验。接下来，Pendo支持部署应用内指南，引导用户完成最重要的操作。（00:07:12）然后，Pendo整合用户反馈，帮助您捕捉并分析用户真实需求。Pendo的新功能——会话回放，更是以直观方式呈现用户互动场景。难怪如今已有超过1万家公司在使用Pendo。立即访问Pendo.io/Lenny，创建免费账户，开启全方位产品优化之旅。PS：若想进一步提升产品主导能力，不妨探索Pendo的免费认证课程，由产品专家主导设计，助您职业生涯更上层楼。即刻访问Pendo.io/Lenny，深入探索平台威力。（00:07:56）本期节目由Cycle赞助播出。Cycle是为产品团队打造的AI驱动反馈平台。您是否深陷Slack线程、调查问卷和爆满收件箱的反馈混乱局面？渴望深入了解用户真实需求？Cycle将支持聊天、用户研究、Gong通话及应用商店评论等全渠道互动统一至一个协作空间。其AI引擎自动提取可行洞察。Cycle会自动标注反馈内容，省去手动筛选的繁琐流程。只需通过Cycle Ask即可深入探讨任意主题，并生成覆盖整个反馈库的AI摘要。Cycle的独特之处在于其在每次发布中实现反馈闭环。反馈不再仅作为产品优先级决策依据，更成为与各利益相关方建立信任的桥梁。即刻访问cycle.app/Lenny免费试用，让反馈自动化运转。Cycle，改变始于此。（00:09:07）您描述自己曾就读于文理学院，这类学校常遭人诟病。为何要花费大量学费和时间在文理教育上？最终却能在技术型、数据驱动型公司中大放异彩。更有趣的是，您在那里培养的能力至今仍助力您在其他领域取得成功。",
+   "ts": "00:06:32"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "It did take a change though because I started in... English was my selected major in school, but then I kept playing with computers and I kept liking math and I looked at the roles of the backgrounds of the people who were running the types of companies I loved. At the time Facebook was getting super phenomenally successful. Apple was already on their up and up again and everyone who was leading those places had technical backgrounds and I liked computers a lot, so I added computer science as an engineering degree midway through school. So I had to take the real science classes with the pre-med kids and the rest of it, and I did similarly poorly, but I did end up with a computer science degree and a liberal arts degree. So it was a journey, but I had to make a pretty big switch in the middle to get on that path.",
+   "zh": "确实需要做出改变，因为我最初选的专业是英语，但后来我一直沉迷于电脑，热爱数学，还留意那些运营我喜爱的公司的管理者的背景。当时，Facebook正红极一时。苹果也已重振旗鼓，而那些行业领军人物都拥有技术背景。由于我对计算机的浓厚兴趣，中途我转修了计算机科学学位。这意味着我必须与医学预科生一起上真正的科学课程，成绩同样不理想，但最终我获得了计算机科学和文科双学位。整个过程充满挑战，但为了踏上成功之路，我不得不做出重大转变。",
+   "ts": "00:09:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I asked you if there was one thing that you'd love to get across in this podcast. I asked you what would it be and here's what you said. Here's the first item on this list that you sent me, \"Go, go, go ASAP plus optimistic comma, long-term compounding approach.\" Can you just talk about what you mean by that?",
+   "zh": "我之前问过你，是否有想在本期播客中传达的核心理念。你当时给出的回答是：“立即行动，保持乐观，坚持长期复利策略。” 能否请你详细解释一下这句话的含义？",
+   "ts": "00:10:16"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Yeah, there's two things going on here. So I see the world as immediately we have just such opportunity to take action in front of us. We can be optimistic and go, go, go as soon as possible. I think that a lot of life is you get as much furniture as you've room in the house. We will do the work the night before it's due, so let's just make it due tomorrow. Can we turn tomorrow into today? So just optimistically seeing if we can just inject energy to go, go, go has produced surprising results and I think it ignites in other people that same interest and then it feeds off each other. And that's I think really in my bones from growing up. And then I added over time, had to learn this longer term, compounding, more strategic mindset where some of the things we want to accomplish, be it at my startups in the past or at Stripe, they can't be solved in an afternoon. (00:11:41): They're going to require layers of infrastructure and services and applications and UI and partnerships that really look like that iceberg drawing you see where you just see the top, but then there's the whole thing underneath and I've had to learn over time to pair my instinct of like, \"Let's get it done today, let's move forward, let's see what we can get done. Let's make some mistakes, let's try it out.\" With, \"Where are we going? What needs to be true over time? Where can we always invest? What will we never regret spending time in?\" We'll never regret spending time making the latency of our payments APIs at Stripe faster. We'll never regret making it more reliable to send 83B election mails to the IRS. Like we'll never regret those things. So let's just always compound those capabilities over time. Then the trick is how do you mix this go, go, go attitude with a long-term compounding? That's something I still struggle with, but I try to purposely balance it more than I used to.",
+   "zh": "这句话背后有两个层面的含义。首先，我认为人生充满即时机遇。我们应该保持乐观，尽快行动。正如俗话所说：“人生就像打包行李——你能装多少就装多少。” 我们常把任务拖到截止日期前才开始完成，但能否把明天变为今天呢？这种乐观的行动力能激发他人的兴趣，并形成良性循环。这是我的成长经历所深信的。随着时间推移，我逐渐领悟到，长期复利策略更为重要。比如，我在创业公司或Stripe面临的挑战，不可能在一天内解决。这需要层层搭建基础设施、服务、应用、用户界面和合作伙伴关系，就像冰山理论——我们只能看到冰山一角，但深层结构更为复杂。我必须平衡“今天就做”、“勇往直前”、“敢于犯错”的冲动，与“长期规划”、“持续投入”、“不留遗憾”的理性。比如，我们毫不犹豫地优化Stripe支付API的延迟，毫不犹豫地确保向IRS发送83亿份选举邮件的可靠性。这些决策都值得回味。因此，关键在于如何将即时行动力与长期复利策略相结合。这仍是我需要不断修炼的平衡之道。",
+   "ts": "00:10:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's such a good way of summarizing just how to be successful in a lot of things. Go, go, go ASAP, stay optimistic. Focus on long-term compounding growth. Is there an example of that in action? I know we're going to talk about Atlas a bunch, but I guess is there an example of that working for you or a product you worked on?",
+   "zh": "这真是总结成功秘诀的绝佳方式：立即行动，保持乐观，专注长期复利。能否举个实际案例？虽然我们会重点探讨Atlas，但你是否有其他成功案例或产品经历可以分享？",
+   "ts": "00:12:44"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I work at Stripe, which is a infrastructure company. We build things that help businesses do online commerce in various forms, and I've had a few roles at Stripe. I'm in our beautiful office here in South San Francisco, one of which was the product person that helped us decide how we were going to go global and how we were going to offer multiple ways for people to pay. It turns out there's more than just credit cards in the world. There's small hundreds of ways that people will naturally want to pay for things online and as a business you're going to, of course, just want to accept whatever it is people want to pay with. And for the first seven or eight years of Stripe, well prior to my being here, the incremental country ads and the incremental new payment methods was relatively flat over time and that was surprising to all of us who worked here because the world wanted it and we had a lot of people working on it and we were working very hard, but it wasn't producing returns in the way that we wanted. (00:14:11): And so actually the optimistic as soon as possible go-go attitude was not working. No matter how much energy we poured into building Thailand payment methods or UK bank transfers or an in-person payment system in Latin America, we just couldn't rack up points and get it done. So we had to step back and say, \"Well, what is the world going to look like in 10 years? What was going to need to be true and how can we start to go there now?\" Which meant going a lot slower, building internal platforms, sending people around the world to start to build these payment methods, uproot their lives, pay for their apartments, get them on airplanes, start using these payment methods actually in the world. And so it really our line flat line for a while and we're like, \"Okay, is this strategy working? Is it not working?\" But then over time we start to see it switch to nonlinear again and go from whatever it was, 10 payment methods at the time. (00:15:03): And now Stripe accepts over 100. So we got to 50 really quickly and then skyrocketed to 100. And I remember there being a meeting where we said, \"Well, maybe we should just lock everyone in the basement and see if we can get from 10 to 50.\" That would be the intensity startup go attitude. But we looked at the individual components of what it meant to get this done and how long we wanted this to be true for and we had to go a lot slower. That was a very formative decision where you had to mix the go, go, go with the long-term compounding.",
+   "zh": "我在Stripe工作，这是一家基础设施公司。我们开发的工具帮助企业以各种形式开展在线商务。我在Stripe担任过多个职位，目前在南旧金山的漂亮办公室工作。其中一项工作是产品经理，负责指导我们如何实现全球化扩张，以及如何提供多样化的支付方式。事实上，世界上存在着数百种人们自然倾向于在线支付的方式。作为企业，您当然希望接受用户愿意使用的任何支付方式。在Stripe成立的前七八年，即我在加入之前，全球扩张和新增支付方式的进展一直停滞不前。这让我们所有员工都感到惊讶——毕竟全球市场需求巨大，我们投入了大量人力却未能如期达成目标。\n\n（00:14:11）最初那种急于求成的冲动并不奏效。无论我们投入多少精力开发泰国支付方式、英国银行转账服务，还是拉丁美洲的线下支付系统，都未能取得成效。于是我们不得不退一步思考：\"十年后世界会是什么样子？我们需要达成哪些目标，又该如何从现在开始着手？\"这意味着要放慢节奏，搭建内部平台，派遣员工前往全球各地开发支付方式，改变他们的生活方式，支付他们的房租，让他们登上飞机，在现实世界中真正使用这些支付方式。最初进展停滞不前，我们开始怀疑\"这项策略是否有效？\"但随着时间推移，情况再次出现非线性增长。从当时的10种支付方式，到现在Stripe支持的100多种支付方式。我们迅速突破50种，随后直线攀升至100种。我记得当时开会时有人提议：\"不如把所有人关在地下室里，看看能否从10种快速提升到50种。\" 这正是典型的初创公司急于求成的态度。但我们仔细分析了实现这一目标的各个组成部分，以及期望实现的时间框架，最终不得不放慢节奏。这是一个至关重要的决策，既要保持进取心，又要兼顾长期复利效应。",
+   "ts": "00:13:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay, so let's start to delve deeper into some of the specific seals that I hear you're incredible at and that I've seen you be incredible at on Twitter and LinkedIn and things like that. So the first is craft, craft and quality. I'm told by many people that you have a very strong obsession with craft and user experience and quality and even more so I'm told that you teach people at Stripe how to be obsessed with craft and quality and user experience in a very systematic way. I feel like this is something a lot of people are starting to realize is really important and or are trying to get better at, either personally or at their company. So first of all, let me just ask why is this so important to you? Why do you think craft and experience and quality is so important? Why do you put so much emphasis on it yourself?",
+   "zh": "太棒了。好的，接下来我们深入探讨一些你特别擅长的领域。我在推特和领英上看到很多人说你在这方面非常出色。我想了解一下具体的秘诀。首先是工艺、质量和用户体验。很多人告诉我，你对工艺、用户体验和质量有着极高的执着度，而且据说你还以非常系统化的方式教导Stripe的员工如何关注这些方面。我觉得这正是许多人开始意识到的重要性，或者正努力在个人或公司层面提升这方面的能力。所以首先，我想问你为什么对这些如此重视？你为什么认为工艺、体验和质量如此重要？你自己又为何如此强调它们？",
+   "ts": "00:15:39"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I think I'm really working backwards from failures in the past and avoiding them. And so maybe just a quick story. I started a company several years ago based on just a personal pet peeve of mine, which was I was a SQL analyst. Many you listening might have written SQL in the past, maybe the robots write the SQL for you now, but you still need to write SQL yourself. And every single time I wrote a SQL query, I wanted to run the same subsequent analysis. I wanted great version control, I wanted all the cool stuff that GitHub had for code but for writing data code. And so my friends and I built a little Python tool which basically let you run our style queries. It lets you draw charts and pivot tables quickly and sharing all this modern SaaS application stuff. But applied to SQL a few years ago and we turned that into a company. (00:17:29): We got some progress, but then there was this moment one day where we had maybe a couple 100 customers and we had an error where we basically by accidentally shut down the service and it was bricked for 10 or 20 minutes. And at the time we were hustling in our little dinky office to get the application back online. And we really were proud of ourselves about how reasonably quickly we did and people went back to using it. It wasn't a super long outage and we didn't lose any data. We were just high-fiving each other. And we went about our day and about a year later I realized that that was a... (00:18:11): I missed a huge moment that I should have pounced on, which is that during those 20 minutes, our customers weren't furious. They weren't emailing us like crazy, they weren't texting us, they weren't trying to find us on Google Maps and knock on our door and say, \"Hey, I need this thing back online immediately.\" We heard a couple comments from them, it was little murmurs. And I didn't realize at the time that was the signal that we did not have product market fit. And I ended up wasting many more years on that project. And wasting is a big word. We built amazing software, people liked it, we were able to sell the company. (00:18:55): It helped many of us learn how to really build software. But I'm really trying to avoid that situation again. And I think craft is a dessert that you get after the meal of does your thing solve a real problem in the world and are people clamoring, needing it badly? And that's really my obsession is in finding problems in which people will pause their entire day to solve. They will leap through the computer to be like, \"Oh my God, I have that problem. Do you have a solution?\" (00:19:32): And if you focus on that style of product development and we can get into just how do you listen for that and then turn that into product. Later, you might get the opportunity to really provide craft and beauty and touches and moments and delight. But certainly there is no amount of craft, there is no amount of beauty, there's no amount delight or touches you can add to a thing that will solve the problem we had at our startup, which is that people didn't really need this. And that's the biggest error is picking something in which people don't really need it. And then going through these practices of trying to make it great when maybe it shouldn't exist in the first place.",
+   "zh": "我觉得自己现在做事的方法，就是从过去的失败中不断总结经验，努力避免重蹈覆辙。或许我可以讲个小故事。几年前，我创办了一家公司，起因是自己对 SQL 分析师工作的深恶痛疾。相信在座很多听众都曾写过 SQL 代码，或许现在由机器代劳，但终究还是要亲自编写查询语句。每次写 SQL 查询时，我都想顺便运行后续分析。我渴望完善的版本控制，渴望像 GitHub 一样为数据编写代码提供的所有酷炫功能。于是我和朋友们开发了一个 Python 工具，基本能实现自定义查询风格，还能快速生成图表和数据透视表，并支持所有现代 SaaS 应用的共享功能。但几年前将其应用于 SQL 领域后，我们把它发展成了一家公司。\n\n（00:17:29）：我们取得了一些进展，但有一天出现了重大危机——当时我们有几百个客户，却因意外关闭服务器导致数据中断 10 到 20 分钟。当时我们在狭小的办公室里手忙脚乱地恢复服务，庆幸能迅速恢复运营，用户很快回归使用。停机时间不算太长，也没丢失数据，我们甚至互相击掌庆祝。然而一年后我意识到，那其实是……（00:18:11）：我错失了一个关键机会——在那 20 分钟里，用户并未暴跳如雷。他们没有狂发邮件、发短信，也没在谷歌地图上定位我们的办公室敲门求助。我们只听到几声抱怨，几乎没有抗议声。当时我没意识到，这是产品与市场不契合的信号。结果我又在那个项目上浪费了多年光阴。“浪费”这个词太严重了。我们开发了出色的软件，用户反响不错，最终成功出售公司。这段经历让我们学会了如何真正打造软件。但我现在决心避免重蹈覆辙。我认为“工艺”就像餐后甜点——当你的产品能解决真实世界的问题，用户迫切需求时，它才有意义。我的执着在于寻找那种让人们愿意暂停日常工作去解决的难题。他们会迫不及待地冲向电脑问：“天啊，我也遇到这种问题了，你有解决方案吗？”（00:19:32）如果你专注于这种产品开发理念，确实能学会如何捕捉用户需求并转化为产品。未来或许还有机会打造出精美绝伦的体验，但再多的精巧设计、美学追求或细节打磨，也无法解决我们初创公司遇到的根本问题——用户根本不需要这个产品。选择用户不需要的产品，再用各种技巧包装它，最终不过是徒劳。",
+   "ts": "00:16:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think a lot of people see all these tweets and messages about just obsessed with the craft of what you're building and you can easily lose sight of... Nobody even cares about what you're building. It could be the most incredible experience ever designed, but if it's not something anyone ever wants, it doesn't really matter.",
+   "zh": "我觉得很多人看到那些推特和消息时，只会沉浸在自己正在打造的项目中，却很容易忽视一个关键点……根本没人关心你做的这个东西。即便它是史上最惊艳的体验设计，但如果没人愿意使用，那也毫无意义。",
+   "ts": "00:20:16"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "People don't really get out of bed for their second problem. They get out of bed for their first problem. And you have to carefully listen and not pitch your customer or your prospective customer as you're trying to figure this out. And I think this advice, not even advice just style applies to small companies, big companies, anyone which is people don't want to be pitched. I'm sometimes on a UXR call with a very well-meaning person or a founder who has a new product that they want advice on or they want to find customers. And the first thing that they start talking about when we get on the call is, \"Hi, I'm the CEO of X, Y, and Z company. We do one, two, and three. I want to show you a demo.\" It's like, \"Hold up, I'm a customer. I have...\" What a wasted opportunity you've just done here. (00:21:34): I have so many problems, you're guessing ahead of time, what is my top problem and now that you've anchored and limited to the pitch you're going to miss, you very likely going to miss the burning problem that they have on the top of their mind. And it's not the customer's job to interrupt you and say, \"Hey, could you stop your pitch? I want to tell you about my top problem.\" And you can see this down the stream, which then companies who launch things, put craft, have a great launch, raise money are then later gone. And it's because they built something that wasn't solving a burning need. And I think you can stem it all the way back to they were just pitching rather than sitting in silence and just waiting for their customer to just open their heart out about what's the most burning thing. (00:22:28): And sometimes I'll prompt our customers, I'll say, \"Hey, do you mind just opening up your email? What's in there?\" Or, \"If you weren't talking to me right now, what would you be working on?\" Or, \"Hey, last week, what grinds your gears? What are you not looking forward to?\" Or magic wand, \"What do you wish you could just have off your plate immediately? Forget Stripe, forget about thing, work on just in your whole life. What is it that you do not want to be doing?\" Or, \"A massive opportunity you wish was just one door away?\" And it's a little awkward because they don't know why you're asking that kind of question, but then you just sit there in silence. And for the most part, if you have amazing customers who are smart and ambitious and are trying to build their own business, they're going to want to offload their hardest thing to somebody else. (00:23:17): If you've earned trust along the way, and certainly not pitching is a great way of earning trust. You're just listening. We've learned a lot at Stripe from that. And that's where you can start to find adjacencies, right? \"Well, hey, I don't know if Stripe could really help me with this, but wouldn't it be cool if we could identify if the person signing up on our site wasn't fraudulent or is who they say they are or isn't a bot, or are they really a dog on the internet?\" And we're like, \"We keep this as the major complaint from all of our customers, but we're not an identity company.\" It's like, \"Well, I guess now we are because all of our customers who are trying to build their business all have this problem.\" And so via silence, you can just create your roadmap pretty quickly and drop a lot of the long UXR, long survey, long build cycle approach.",
+   "zh": "人们通常不会因为第二个问题而起床。他们会因为第一个问题而起床。在试图解决问题时，你必须仔细倾听，避免向客户或潜在客户推销产品。我认为这种建议——甚至不算建议，只是一种处事风格——适用于小公司、大公司以及任何人。人们都不喜欢被推销。我有时会参加用户体验研究（UXR）电话会议，对方可能是怀着好意的创业者，或者是想寻求建议或寻找客户的新产品创始人。但电话一接通，他们首先开口就是：“我是X、Y、Z公司的CEO，我们做一、二、三件事。我想给您演示一下。”这时我会打断他们说：“等等，我是客户。我有……” 你刚刚浪费了一个绝佳的机会。（00:21:34）：我有太多问题，而你提前就猜测我的首要问题，这样一来你就局限了自己的思路，很可能错过客户最紧迫的需求。客户又不会主动打断你说：“嘿，别推销了，让我告诉你我的首要问题。”你可以从后续结果中看到，许多推出的产品虽然精心设计、宣传得很好、成功融资，但最终还是失败了。原因在于他们没有解决真正紧迫的需求。我认为这可以追溯到他们只是在推销产品，而不是耐心倾听客户的心声，等待客户主动敞开心扉，告诉你他们最迫切的需求。（00:22:28）：有时我会引导客户，比如问：“嘿，你介意打开邮箱看看吗？里面有什么？”或者：“如果你现在不和我通话，你会忙什么？” 或者：“上周什么事让你最烦躁？” 或者“最想立刻摆脱的烦心事是什么？忘掉Stripe，忘掉其他事，全心全意专注于你的事业吧。你最不想做什么？” 或者“一个近在咫尺的巨大机遇？” 这有点尴尬，因为他们不知道你为什么问这些问题，但你只需静静倾听。大多数情况下，如果客户聪明、有抱负、正在努力创业，他们会愿意把最棘手的问题交给别人解决。（00:23:17）：如果你赢得了信任（当然，推销产品绝非赢得信任的良方），你只需倾听。我们在Stripe从中收获颇丰。这就是你能开始寻找关联性的机会。比如：“嗯，我不知道Stripe能否帮我解决这个问题，但如果能识别出在我们网站注册的人是否是欺诈者、是否是真实身份、是否是机器人，或者他们是不是真的互联网上的‘狗肉号’，那不是很棒吗？”我们会说：“这原本是我们所有客户的主要抱怨，但我们不是身份验证公司。” 但客户会说：“好吧，看来现在我们就是了。因为所有想创业的客户都面临这个问题。” 这样通过倾听，你就能迅速制定路线图，省去冗长的用户体验研究、长篇问卷调查和漫长的开发周期。",
+   "ts": "00:20:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I love where we're going with this. This is where I was going to actually talk about next is just your ability to talk to customers and user research. It feels very unique, watching you operate on Twitter, you're just sharing your email constantly, getting on calls with people constantly. There's this, you're breaking this wall between... That a lot of people imagine there is between the PM and the lead of a team and the customer. You're not relying easy research. You're not waiting for someone else to do this work for you. Talk about just why and how you do this. I think there's so much to learn from just how you operate in finding opportunities, picking problems to solve by talking to customers.",
+   "zh": "嗯，我很赞同我们接下来的方向。接下来我要讲的是你与客户沟通和用户研究的能力。这真的很独特——看你如何在推特上运作，你不断分享邮箱，频繁与用户通话。你打破了很多人想象中产品经理、团队负责人和客户之间的那堵隔阂。你不依赖于被动的研究，也不等着别人来替你做这项工作。能否谈谈你为何要这样做，以及具体做法？我觉得从你寻找机会、通过与客户交流选定待解决问题的整个运作流程中，我们能学到很多东西。",
+   "ts": "00:24:15"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "It's where the business comes from is customers. It is not a long shot hypothesis about why to talk to them. It's like if they love your stuff, they will tell their friends and pay fair prices for the product. We're so fortunate through the internet that people announced themselves as being interested in a topic. Sometimes they're interested in it by posting on Reddit a long thread or a screenshot of a customer service interaction that bugged them or hopeful that from their dorm room in country X, someone else in the world has solved the same problem. And the internet has given us all this absolutely magical forum that you can just yell out the window and then billions of people could actually listen to what you said out the window. Now, that's not all the time true for all people in all situations, but dramatically more true now than ever before in human history. (00:26:05): And so the fact that people wouldn't be listening to their customers and really jumping through the computer to talk to them surprises me. It's like I always sometimes think, \"Do they have some other strategy? Are they so confident in what they're building that they don't need to hear directly from the people who will be using it?\" And I think some of it is my own fear that I'm going to make the same mistake I've made in the past, which is build something that people like they're using but isn't solving a burning enough problem such that they're going to stop their day, they're going to tell their friends, we're going to be able to sustain the company economically over a long period of time. And that really just comes from hearing people's most burning problems and then just jumping through the computer and talking to them takes a little bit of nervous gumption, like walking up to a person at a bar or cocktail party and saying, \"Hi, my name is Jeff.\" (00:27:08): It can be a little awkward, but then you get it. It's a rush once it starts to work. And once you get the iterative loop that they're excited to talk to you, they have problems, they see you as a trusted, not salesy, not pitching, not narrow-minded to just my product and my position, but I'm here to hear about all of your problems and see where we can help. Not promising we can help solve everything, but let's listen. That is infectious, both between the customers and internally. And so I'm able to bring more people into that practice. At Stripe, I'm able to quickly grab an engineer and hop on a call. I can forward a message over to a Slack group. And they know that because the customer's speaking directly, it somewhat trumps everything that's happening during the day. We could go to our meeting where we're going to guess what the customer wants or we could talk to them directly. (00:28:08): And you have to use a little bit of art to decide which customers you want to listen the closest to. But even at Stripe's scale, where we're dealing with many millions of businesses and many hundreds of millions of consumers on the other end of those businesses, you can pattern match relatively quickly. What are the styles of customers that represent where the world is going, the most ambitious, the most technical, the fastest growing, the most detailed. And you don't need 10,000 of those people to talk to. If you're text message friendly with five or 10 of those, you are going to have so much direct signal about where to go that you forget how you did it in the past.",
+   "zh": "业务的根源在于客户。这并非凭空臆测为何要与客户沟通的理论。若他们真心喜爱你的产品，就会向朋友推荐，并为之支付合理价格。得益于互联网，人们能主动表达兴趣——有时他们会在Reddit上长篇发帖，分享困扰他们的客服互动截图，或怀着希望在异国他乡的宿舍里，期待全球某个角落有人解决了同样的问题。互联网为我们提供了神奇的交流平台，你只需在窗口呼喊，亿万人就能听到你的声音。当然，这并非适用于所有情况和所有人群，但当下比人类历史上任何时期都更普及得多。\n\n（00:26:05）令人惊讶的是，竟有公司不愿倾听客户意见、主动跨越屏幕与他们对话。我有时会想：“他们是不是另有高招？他们对自家产品如此自信，以至于无需直接听取用户意见？”或许这源于我对自己过往错误的担忧——打造出人们喜欢使用但未能真正解决痛点的产品，导致他们无法停下手头事务、向朋友推荐，最终难以支撑公司的长期经济生存。关键在于倾听用户最迫切的需求，跨越屏幕与他们对话。这就像在酒吧或鸡尾酒会上主动搭讪：“你好，我叫杰夫。”（00:27:08）虽然略显尴尬，但一旦成功，回报惊人。当用户兴奋地与你交流问题时，他们会视你为值得信赖的伙伴——非推销型、非狭隘、非强加产品与立场，而是真诚倾听所有问题。这种正向循环在客户与内部团队间双向传递，因此我能将更多人引入这种实践。在Stripe，我能迅速召集工程师参与通话，将消息转发至Slack群组。客户直言不讳的反馈天然凌驾于日常会议的猜测之上——与其在会上猜测用户需求，不如直接倾听。（00:28:08）如何锁定最具洞察力的客户群体？即便在Stripe这样处理数百万商家、数亿消费者的平台上，相对快速的模式匹配也能奏效：识别代表行业发展方向、最具雄心、技术最强、增长最快、最具洞察力的客户群体。无需面面俱到，仅与5到10位客户保持短信沟通，你就能获得指引方向的直接信号，忘却过去的迷茫。",
+   "ts": "00:24:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love these. So I'd love to learn more about these tactics that you've found helpful. So you've shared this idea of silence, talking to someone and just being silent, and I forget the phrase you used, but just like ideas emerge, like your whole road map can emerge from that silence. So let me share a few of the things you shared so far and I'm curious what else. Two is tweeting just like, \"Hey, I'm looking to improve Atlas right now. What bugs do you have? Here's my email address.\" You talked about text messaging, just like, \"Hey, can I get your number? And I'll just text you when I have questions.\" If there's anything else to add to these, that'd be awesome. And then what else have you found? Just ways to actually get to a customer and find opportunities that are important.",
+   "zh": "我太喜欢这些了。所以我很想深入了解你发现的这些有效策略。你提到了保持沉默的技巧，就是在与人交谈时保持安静。我记不清你具体用的哪个词了，但正是通过这种沉默，灵感往往涌现，整个解决方案可能就此浮现。接下来让我分享一下你目前提到的几个点，我很想听听还有什么其他心得。第二点是发推文，比如“嘿，我现在正致力于改进Atlas产品。你们有什么问题吗？我的邮箱是……”。你还提到了发短信，比如“嘿，能留个电话号码吗？有问题我就发短信联系你”。如果还有其他补充，那就太棒了。那么你还发现了什么？具体有哪些方法能真正接触到客户，挖掘关键机遇呢？",
+   "ts": "00:28:57"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Speed is an important one, which is just reducing the time between the moment the customer felt compelled enough to go out of their way to talk about some problem. They're busy, there are snacks to eat, they have families, they have other things to do. There's a lot going on in the world, a lot. Your dumb product, it's amazing that they would spend any of their time discussing it at all. I mean, most of the time if you don't like something, you just move along. You just apathetically, silently move forward in the world. And so the fact that someone took their finite time to succinctly with curiosity, communicate to the world or you about your product, that's a unbelievable gift. (00:30:27): That should be P-zero alert level intensity. And so I will leave a meeting, I will change what I'm doing to just get one message back to them. Even if it's, \"Hey, I got this. I'm about to go to dinner. Can I hit you up tomorrow?\" They're like, \"Oh yeah, thank you. Awesome. I can't even believe you responded.\" That puts us in the camp of on the right trajectory where they're going to feel that they have a almost secret portal between this big brand of a company and another human who's just actually curious...",
+   "zh": "速度至关重要，就是要缩短客户主动发声的时间。他们很忙，要吃零食、照顾家人、处理各种事务。世界上的事情太多了，太多了。你的产品再平庸，他们肯花时间讨论就已经很了不起了。大多数时候，如果不喜欢某个产品，直接就略过了。人们往往冷漠地、默默地生活着。所以有人愿意抽出宝贵的时间，带着好奇心向你传达对产品的看法，这简直是天大的恩赐。（00:30:27）这时候就得拉响P-0级警报了。我会立刻暂停手头的事，专心回复他们。哪怕只是回一句“好的，我现在要去吃晚饭了。明天再聊。”对方也会感激不尽：“天哪，太感谢你了。你回复得太快了！” 这样一来，客户就会觉得自己与大品牌之间建立了一种近乎神秘的沟通渠道——一个真心好奇、愿意倾听的人……",
+   "ts": "00:29:34"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "... brand of a company and another human who's just actually curious what's going on, that's night and day. And it's also, fun fact, tip, when people are really hot on an issue and it could blow up on social or they're going to start becoming a detractor, we make mistakes, we have SLA breaches, we have errors, you're going to want to get on that stuff fast. And in those situations, my bar for how we will respond to those folks is not to just solve the problem, but it is to turn them into a promoter, and most of the time we're able to, even if there was a pretty relevant issue. (00:31:40): I remember one time at Atlas, we had this bug in which for a handful of our legal docs, they were handing out let's say, 25 shares rather than 25% of the shares. We dropped the percentage sign, and thankfully a founder noticed this in the docs and tweeted about it. My heart paused and I was like, \"Oh no, this could be a really serious issue.\" And we were able to fix it and regenerate the documents relatively quickly for everyone that was impacted. And I was thinking to myself, \"Wow, we really let this person down. We have one job to do, which is to get their company right and we didn't.\" (00:32:20): And that person was incredibly gracious about the situation and said, \"Anytime you want me to just read your docs, I'd be happy to. I have a law degree. I care about this topic. I want to brainstorm with you about ways that Atlas could do more document creations.\" I was like, \"Wow, I can't believe I was in this sort of defense position, and now we've gained a friend in the world who can be eyes and ears and brainstorm with us.\" And the team maintains a really close relationship with that person as they do with many, many founders who use Atlas. (00:32:53): And so, just again, we're so quick to put the outside world in this other camp where we need to touch it with kid gloves and treat it as a big blob and a cohort and a statistic, when it is a human with a problem who likes snacks, who is busy, and it's fun to do and it turns out to be an incredibly easy, fast way to figure out what to build.",
+   "zh": "......一家公司的品牌，以及另一个真正好奇事情进展的人，这两者天壤之别。还有一个有趣的小贴士：当人们对某个问题反应激烈，可能会在社交媒体上引发风波，或者即将变成反对者时，我们必须迅速处理。即便问题涉及重大隐患，我们也要确保将他们转化为拥护者，而不是仅仅解决问题。这里有个关键点：我们要让用户不仅满意，还要让他们成为我们的忠实拥护者。\n\n（00:31:40）：我记得在Atlas公司时，我们曾遇到一个漏洞——部分法律文件中的股份分配比例标注的是25股，而不是25%。我们把百分比符号去掉了，幸好有位创始人在文档中发现了这个问题并发推告知。我当时心一沉，心想：“天哪，这可能是个大问题。”最终我们迅速修复了问题，为受影响的用户重新生成了文件。我暗自思忖：“哇，我们真让这位用户失望了。我们的核心职责是帮助他们把公司做好，而这次却没做到。”\n\n（00:32:20）：不过那位用户非常善解人意，主动说：“随时欢迎让我审阅你们的文档。我有法律学位，对这个领域很关注，愿意和你们一起探讨Atlas如何优化文档创作。”我感慨道：“真不敢相信我之前还处于防御状态，现在却收获了一位能为我们出谋献策的伙伴。”如今，团队与这位用户以及众多使用Atlas的创始人保持着密切合作。\n\n（00:32:53）：所以，我们总习惯把外界看作需要谨慎应对的群体，仿佛他们是冰冷的数据、统计数字和群体。但实际上，他们也是有血有肉的人——他们喜欢零食，忙碌于日常，乐于参与互动。事实证明，迅速识别并解决问题是构建成功产品的捷径。",
+   "ts": "00:31:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's a bunch of stuff I want to follow up here. One is, people may be hearing this and like, \"Oh my God, I'd be overwhelmed with feedback and people to fix problems for and bugs and texting of people.\" They're just like, \"There's so many people that potentially I'd have to be interacting with.\" How do you try to narrow that down? I know Atlas is a very highly adopted product. There's a ton of people, there's probably bugs, often people sending you feedback. How do you pick the people to zero in on?",
+   "zh": "这里有几个问题我想进一步探讨。首先，听众可能会想：“天哪，面对如此多的反馈、问题、漏洞和用户需求，我肯定会应接不暇。”他们会担心需要同时与大量用户沟通。你们是如何筛选重点的？据我所知，Atlas是一款应用广泛的产品，用户众多，难免会遇到漏洞，用户也会频繁反馈。你们如何锁定关键用户？",
+   "ts": "00:33:20"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I think there are two parts to this. One, what a problem to have. Of all the problems in the world, \"I'm overwhelmed by customer interest,\" is on the top list of problems I want to have. I think most entrepreneurs would purchase that problem as a state. And so, if you're in it, I think, take a deep breath and look at the sunrise or sunset and just enjoy the fact that you've built something that is meaningful enough that people would spend their time. Again, there are amazing snacks that they could be spending the time on otherwise, so that's a huge deal. And then two, you need the art. There's an art and science to picking where to go deep. I will happily respond to folks with, \"I really appreciate that. Do you mind sending me a screenshot or a video?\" And some of them don't. Okay, that's fine. (00:34:45): You kind of get a sense of quickly looking at how they wrote about it or just pattern matching how detailed they were, or how much they seem that they want to engage and kind of balance it that way. Otherwise, you can tell folks, \"This is really awesome. Do you mind sending me an email with three to five bullet points about the details of how you got to this issue?\" And that's not a 30-minute meeting. You don't need to blow up your whole life to get on the phone with them. It's not a huge homework assignment to them, but it's enough structure that it will self-select those who want to go deep, and then from there, you really do owe it to them to follow up if they're going to be that detailed. And at that point, you really have made a product friend for life and you'll kind of continuously go back to them. So you have to kind of tune it. (00:35:48): I also will bound some of these efforts, so I'll just completely make up one day a program. So, \"Hi, Stripe's doing a bug-finder program.\" I made that up as I was driving to work one morning, tweeted it, was curious if anyone would send anything. \"We'll be taking videos for the next three days to go super deep.\" And people are like, \"Oh my goodness, I would love to be part of the Stripe bug-finder program. May I apply?\" I'm like, \"Oh, it's very selective. But yes, of course for you.\" It's just giving people permission through a program, even if it is deeply arbitrary, I find helps with bounding it, and then later I can follow up with the world, \"Hey, we ran our first program, we got 65 videos,\" which we did. \"We found dozens of issues,\" which we did. It was an incredibly valuable use of our time and it really came from just a single tweet.",
+   "zh": "我觉得这件事可以分两方面来看。首先，这真是个令人羡慕的难题。在全球所有问题中，“客户兴趣过剩”绝对能跻身我最想遇到的难题之列。我相信大多数创业者都会渴望拥有这样一个难题。既然你正深陷其中，我想你不妨深呼吸一口气，欣赏日出日落，庆幸自己打造出了足以让人们甘愿投入时间的价值所在。毕竟，他们本可以把时间花在其他令人愉悦的零食上——这本身就意义非凡。\n\n其次，你需要掌握“深挖”的艺术。如何精准锁定值得深入探讨的方向，既是科学也是艺术。我通常会回复用户：“非常感谢你的反馈，能否发送截图或视频给我看看？”有时对方未能回应——没关系。（00:34:45）通过快速浏览他们的反馈内容，或是对比他们的详尽程度，能迅速判断对方的诚意。或者你可以这样问：“这想法太棒了！能否用三到五个要点邮件说明你是如何发现这个问题的？”这样既不需要长达30分钟的会议，也不会打扰他们的生活。这对他们来说并非繁琐的任务，但这种结构性引导能自然筛选出真正想深入探讨的用户。此时，你就需要用心跟进。（00:35:48）我还曾尝试通过临时举办活动来规范反馈。比如某天早上开车上班时突发奇想：“Stripe将举办漏洞挖掘活动！未来三天我们将拍摄视频深度探讨。”结果人们疯狂响应：“天哪，我想加入Stripe漏洞挖掘计划！我能申请吗？”我回应：“名额有限，但当然欢迎你。”通过这种看似随意的活动规范流程，之后我向全世界宣布：“我们举办了首期活动，收到65个视频，发现数十个问题。”这真是时间的高效利用，而一切始于一条推文。",
+   "ts": "00:33:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Something I saw you mention somewhere is that you only pay attention to feedback from people that are paying customers and ignore everything else. Can you talk about that?",
+   "zh": "我记得你在某处提到，你只关注付费用户的反馈，而忽略其他意见。你能谈谈这一点吗？",
+   "ts": "00:36:53"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "People who build things for people tend to be empathetic and interested and curious folks who have friends, and then those friends want to use your stuff because they know you and they like you and they'll have good feedback. But you need to figure out, is that actually your customer, or is that your friend trying it? Who is actually your target customer exactly? Not a company or a segment, not digital natives that are X big. I'm talking about Sarah in this department, who has these tabs open and just faced this problem and needs to solve it by 4:00 PM. That level of specificity. If that's your customer, and I'm talking mostly about B2B, which is where I spend a lot of my time as the social network, B2C stuff I have less intuition on, they're very willing to exchange money for solving their problems, incredibly so. Oftentimes, if you listen with enough silence, they might even say, \"I'll pay you money to solve, blah.\" If you sit there long enough in silence. (00:38:17): And so, you could listen to your friendly friend who you got to play with your beta version and they'll say they liked it and they will click around. But that is extremely different from Sarah, who has the actual problem and is willing to pay. And it is so tempting to go down the first path with the friend group that I sort of needed a rule, which was like, \"Okay, rather than...\" I was like, \"Well, don't pay attention to that quite as much. Really pay attention to, who is your target customer and are you in a fast iteration cycle for them and are they telling their friends?\" (00:38:51): But that wasn't enough, because people are so drawn, myself included, drawn to the friendliness that I just set a rule, which is, \"We discount all of that feedback from our friends to zero.\" That is not of interest to us. We don't even write it down. It's just not part of what we're talking about at all. We are only interested in Sarah, our target customer, and can we get her to solve whatever the problem is as quickly as possible, as jangly as possible and go from there? (00:39:26): And then the paying part is a forcing function because again, even with Sarah, because you're paying attention to her and solving her problem a bit, she'll say, \"Of course, oh, this is great. I want feature X, Y and Z. Can it do one, two, and three?\" Naturally, she would say that. But if you said, \"And by the way, this thing is $10,000. We'll happily refund your money 100% the second you don't like it,\" she might say, \"Whoa, whoa, wait a second. Yeah, I like this thing, but not $10, 000. For $10,000, it would need to solve X.\" And you're like, \"Oh, there it is.\" That was actually what the thing that was of value, and we were all kind of dancing around this. It's useful, we're on the right track, and because I've fallen down that path myself so many times, I just set a rule.",
+   "zh": "那些为他人打造产品的人往往富有同理心、兴趣浓厚且好奇心强，他们有朋友支持，而这些朋友因为了解你、喜欢你、会给你好评，所以愿意使用你的产品。但你需要搞清楚，这个人究竟是你的真实客户，还是只是你的朋友在试用？谁才是你的目标客户？不是某个公司或某个细分市场，也不是X大岁的数字原住民。我说的是部门里的莎拉，她打开了多个标签页，刚刚遇到了这个问题，需要在下午四点前解决。这才是具体到客户层面的需求。如果这是你的客户（我主要谈B2B领域，因为我在社交网络公司待得最多，B2C领域我了解得不多），他们非常愿意花钱解决问题，愿意程度超乎想象。很多时候，只要你安静倾听，他们甚至会说：“我愿意花钱让你解决这个问题。”如果你能保持足够的沉默，静静地坐着倾听。（00:38:17） 因此，你可能会倾听那些玩过你的测试版、评价不错的友好朋友的反馈，但这和莎拉完全不同。莎拉才是真正有需求、愿意付费的客户。很想和朋友们一起走第一条路，但我需要给自己定个规矩：“好吧，不要太在意那些反馈。专注于谁是你的目标客户，你们是否在为他们快速迭代，他们是否会向朋友推荐？”（00:38:51） 但这还不够，因为人们，包括我自己，都太容易被友好感所吸引，所以我又定了条规矩：“我们把朋友的反馈归零。”这对我们毫无意义。我们甚至不记录这些反馈。我们只关注目标客户莎拉，能否尽快帮她解决问题，越高效越好？（00:39:26） 然后付费环节就是一个强制函数。即使是莎拉，因为你关注她、为她解决了一些问题，她也会说：“当然，太棒了。我需要功能X、Y和Z。能实现一、二、三吗？”她自然会这么说。但如果你说：“顺便说一句，这个产品要1万美元。一旦你不喜欢，我们会100%退款。”她可能会说：“等等，别急。是的，我喜欢这个产品，但不值1万美元。要1万美元的话，得解决X问题。” 你会说：“哦，原来如此。” 这才是真正有价值的部分，我们之前一直被各种想法绕来绕去。这很有用，我们走对了路，因为我自己也多次走过弯路，所以我定了条规矩。",
+   "ts": "00:37:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is great. I was actually going to ask. This technique of using silence, to help people actually practice it, you just shared this quote of, \"For you to pay $10,000 it would've to do X.\" That's a really cool line to use. Is there any other advice there of just how to practice this idea of creating silence to help a potential customer share what they actually need?",
+   "zh": "这太棒了。我正想问。这种利用沉默的技巧，帮助人们真正实践它，你刚刚分享了那句话：“要你花1万美元，就得做到X。” 这真是个很棒的台词。有没有其他建议，如何练习这种创造沉默的技巧，帮助潜在客户分享他们的真实需求？",
+   "ts": "00:40:25"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I encourage people to take an improv training class or two, just to get people out of their skin a bit. By the way, this advice applies to big companies also, not just small ones. And we have issues, and I hear other larger companies have issues where a big company will say, \"Hey, we're an enterprise and we're going to pay you this big contract. All you need to do is build features one, two, three, four, five, six, seven, eight, nine, and go through security steps, A, B, C, D, E, F, G.\" And this siren song of the big three-year contract of your first enterprise buyer, even when you're already big, you can go from Fortune 1000 to Fortune 500 to Fortune 10 to Fortune 1. There's always more. There are so many stories of the rug being pulled in the middle and they never actually use it and the contract never lands. (00:41:38): Same in partnerships. And so, I would say the same thing, which is, \"If we're super serious about this, send us $1 million. Wire us $1 million. We'll happily wire it back anytime you need it, but let's actually put some stake in the ground about the value.\" And I find that in the cases in which they're like, \"Whoa, wait a second, no, absolutely not. We can't commit here.\" That's really a good signal because you're about to spend a huge amount of time building something that might not ever be used, and that's the majority case I hear. Or you might get the opposite, which is, \"Sounds great. Let's make sure our teams are trained on it faster. How can we get you to our office to explain it? We need it to really work with this system we haven't talked about yet. And now that we're paying, we want it even faster.\" (00:42:32): And so, I find that it puts a fork in the road towards faster success or avoiding the non-success case. And even at Stripe scale, I've heard our founders somewhat push this methodology on us, where one from the outside might think, \"Well, it's a 8,000 person company. Surely they have just regular ways of building things for larger customers, and we too need these style of commitments if we're going to go off roadmap.\"",
+   "zh": "我鼓励大家参加一两节即兴表演培训课程，目的就是让人们能稍微突破自己的舒适区。顺便说一句，这个建议同样适用于大公司，而不只是小企业。我们确实存在一些问题，我听说其他大公司也面临类似困境。比如，大公司会说：“嘿，我们是大型企业，准备给你一份大合同。你们只需开发功能一、二、三、四、五、六、七、八、九，再完成A、B、C、D、E、F、G等安全步骤。”这种大合同的诱惑——比如首个企业客户的三年大合同——即便你已经是大公司，也可能从《财富》1000强企业一路攀升至500强、10强，再到榜首。但欲望永无止境。太多案例中，客户临时反悔，合同最终不了了之。（00:41:38）合作伙伴关系中也存在类似问题。因此，我想强调一点：如果我们对合作足够认真，就直接给他们100万美元。汇款100万美元。我们随时愿意退还，但请先明确价值主张。我发现，当对方说“等等，不行，我们无法承诺”时，这其实是个积极信号，因为你很可能要花大量时间开发一个永远用不上的产品，而这种情况在我听来极为常见。相反，他们也可能说“听起来很棒。我们要尽快培训团队。如何让你们到我们办公室演示？我们需要它与尚未提及的系统集成。既然我们要付钱了，就希望进度更快。”（00:42:32）这些对话决定了项目能否快速成功，或避免失败。即便像Stripe这样的规模大公司，我也听说创始团队会推广这种方法。外界或许会想：“他们可是8000人的公司，肯定有成熟的大客户开发流程吧。”但我们也要明白，如果偏离路线图，同样需要这种承诺机制。",
+   "ts": "00:40:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So a big lesson you're sharing here is essentially, make sure people are ready to pay for something that they're asking for. That is the ultimate sign that they-",
+   "zh": "所以你在这里分享的重要经验是：确保客户准备好为他们要求的服务付费。这是他们真正有需求的最终证明——",
+   "ts": "00:43:04"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "And by the way, ready to pay is different than paying. Significantly different, significantly different. I've also thought of, \"Well, as long as they're ready to pay and they said they would pay and they look at the contract, we should feel good.\" That is not the same as paying. Paying is an independent group of people saying, \"My problem is burning enough that I'm willing to exchange something I have that has value for the promise of what you're going to do.\" And now it's a real commitment. That is extremely different than ready to. So I will often be on the phone or video, whatever with a founder and I will have them practice charging me. I'll just say, \"Hey, I'm just a friend. I'm trying to help you out. It's a little bit self-serving because I work at Stripe and I want to get feedback on our products.\" (00:44:09): I'll say, \"Feel free to sign up for any invoicing or payment service. I don't really care which one. You're welcome to choose Stripe if it's easy enough for you, I'd love to hear your two cents, and send me an invoice or a payment link for $1 right now, right now. That way, when it comes time to actually charge your first customer, it won't be your first time. It won't feel weird. You'll have already done this, you already have a dollar in your account, you already have your logo on the top right of the invoice. It'll feel great.\" And I probably could go through my email inbox and just see $1 receipts to random people because I'm just so convinced that the difference between paying and willing, ready, I thought they would pay is night and day different.",
+   "zh": "顺便说一句，\"准备好付款\"和\"实际付款\"是两回事。天壤之别。我曾想过：\"只要他们准备好付款，签了合同，我们就该满意了。\"但这和实际付款完全不是一回事。付款意味着一群独立的人说：\"我的问题是迫切需要把有价值的东西换成对方的承诺。\"这才是真正的承诺。这和\"准备好付款\"完全不同。所以我经常和创始人通电话或开视频会议，让他们模拟给我收费。我会说：\"嘿，我只是个朋友。我想帮你一把。这有点自私，因为我在Stripe工作，想听听你们对我们产品的反馈。\"（00:44:09）我会说：\"随意注册任何发票或支付服务吧。我不在乎选哪个。如果Stripe对你们来说够简单，欢迎用它。我很想听听你们的看法。现在就给我发送1美元的发票或支付链接。这样等你们真正给第一个客户收费时，就不会手足无措了。不会觉得别扭。你们已经做过一次了，账户里已经有1美元，发票上还有你们的Logo。这感觉棒极了。\"我甚至能翻看我的邮箱，找到给陌生人的1美元收据，因为我深信付款和\"准备好付款\"、\"愿意付款\"的区别天差地别。",
+   "ts": "00:43:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, there's this term, willingness to pay that I feel like it should change, as you're saying, to just cross that willingness to even just-",
+   "zh": "是啊，有个术语叫\"愿意付款\"，我觉得应该改成\"付款意愿\"，这样更准确。就是要跨过那个\"愿意付款\"的阶段——",
+   "ts": "00:44:57"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Paying.",
+   "zh": "付款。",
+   "ts": "00:45:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Paying, exactly.",
+   "zh": "付款，准确来说。",
+   "ts": "00:45:06"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Yeah. And we can refund the money. There's no issue at all. Just other tricks on how to get people going is, ask them about their regular life as a human, \"What did you do yesterday?\" And they'll be like, \"Oh, at work?\" I'm like, \"Or not. Whatever.\" And people, they'll start to spill, they'll just start to spill and eventually they'll get to their biggest problem pretty quickly.",
+   "zh": "是的。我们可以退款。完全没问题。还有其他让人们行动起来的技巧，比如问他们日常生活：\"昨天做了什么？\"他们会说：\"哦，工作啊？\"我会说：\"或者不是。随便啦。\" 这样一来，人们就会打开话匣子，很快就能聊到他们最大的难题。",
+   "ts": "00:45:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's talk about metrics, going in a different direction. Many people told me I need to ask you about picking metrics and the importance of metrics and how you think about metrics. So let me just maybe start with a question of, just why do you think picking the right metric and why are metrics so important in building successful products?",
+   "zh": "我们来谈谈指标，换个话题。很多人让我问你关于指标选择、指标重要性以及如何看待指标的问题。那么我或许可以从一个问题开始：为什么你认为选择正确的指标如此重要？为什么指标对打造成功产品如此关键？",
+   "ts": "00:45:33"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I somewhat walk around with the belief that the product manager's responsibility is to produce product market fit. And okay, how do you know you have product market fit? Charts that showcase things are going up into the right on one hand, and then tweets on the other. So metrics like quantitative and qualitative, and I really see them as deep siblings and equals, you really need both. It's not oh, OKRs versus something. There are some things you want the texture of the person on video showing how complicated a thing was. And then also, we're trying to make an economically viable system that we can run at large scale and you can't keep all that stuff in your head and need to measure it. And so, I think metrics at their best are a numerical representation of the value we're providing for the customer. (00:46:59): One could measure anything. You can just start counting events and log lines. We've made it incredibly cheap to count stuff. And so, now we have this big privilege of choosing what to measure. And I really just try to map it all the way back to, \"Well, what was actually the value that we're trying to produce for the customer and can we measure it from their perspective?\" Whereas I think it's natural, both because when you work inside of a company, you're just thinking internally, but also the way that the metrics are collected inside your application to be more internal-oriented. How many people logged in? Okay, that's a fine measure, but how many people accomplished what they were trying to do after they logged in, is not just necessarily sitting there as a single event in your database. You have to think about it a bit. Another reason why I spend a lot of time crafting a small number of these metrics is, they force trade-offs and decisions. (00:47:56): So we could all sit around all day and say, \"Hey, I heard all these customer problems, we should build X, Y, and Z.\" And another person could absolutely reasonably say, \"Well, I heard from these customers, we should build one, two and three.\" And they're all true. We could have a lot of success in both, but the majority case is that we don't build either and we sit around and argue and bicker and we go slowly. \"What are we going to do to naturally, organically every day, orient a larger group of people in the right direction and see if our tactics are generating progress over time for a customer from their perspective?\" And metrics on the left and a series of tweets on the right is a pretty great combo. (00:48:42): Here's an example. A couple years ago I had been working in our payments group at Stripe for a bit, and then I started working on some of our banking and incorporation services. In Atlas, when I started working on it, it had had some success. It had already existed for four or five years prior to me spending time on it. But when I started to look at the support tickets, people were pretty unhappy frequently. They had a DocuSign stuck in their email box. They needed a co-founder's address, but they didn't know their co-founder's address. They couldn't log into the dashboard to figure out their 83(b) manual filing instructions. And we saw this basically in the first week of spending time on Atlas. I was just like, \"Just show me all the support tickets. Are they happy support tickets? People writing in being like, 'Oh, I love this service, it's absolutely fantastic. Can you just do A, B, C more for me?' Or are they sad support tickets?\" And they're like, \"Oh my God, they're all sad support tickets.\" (00:49:45): And so, we're just asking ourselves, \"Well, why would someone recommend Atlas to a friend?\" I was like, \"Well, it would have to accomplish A, B and C activities for them. It would have to get their company, it would have to handle getting their tax ID from the IRS. It'd have to handle all the downstream administrivia.\" But surely, if they had a bunch of support tickets at the end, they're not going to go tell their friends to use this thing. We could measure all of the intermediate parts, we could measure the success rate and the frequency of incorporation services and we do all those things, but if you looked at the support tickets, there's just no way if you had a support ticket, you would recommend it to a friend. And so, we suggested this metric to ourselves, companies that have no support tickets through the incorporation service. (00:50:36): The whole process, from the moment you start the application open, actually the first page load at the very beginning, all the way through the process waiting for the government, waiting for the IRS, and we give you two more weeks to write into support. We give an extra buffer two weeks. And if you get through that whole thing with no support tickets, that's a yes. If you have any number of support tickets, that's a no. And we just looked at the percentage of founders that were going through the service with zero support tickets, which is very different than looking at an average, right? You could have the average as 0.3, but that doesn't necessarily mean that they're getting to 0.2 is going to cause them to tell their friends more. And we looked, and only 15% of founders were getting through Atlas with zero support tickets through that metric. (00:51:31): And I just thought, \"Okay, well let's just drive that number way up, and let's look at the support tickets aside what people are needing and we'll bake it into the product, and presumably it'll fix it. People will like that more and then tell their friends.\" And over about 18 months, we took that number from 15% to 85. We basically just flipped it. And you can look at the market share plotted on the same timeframe and it's the same shape. And I think you have to find a measure by which it speaks directly to what the customer wanted, and that if you accidentally leaked your dashboard to them, your customer would be ecstatic to learn that that's what you were measuring the whole time. If we were to showcase the internal Atlas metrics, which we often just screenshot and publish, I think they'd be pretty happy to hear that we were spending all of our time making sure that none of them had support tickets. (00:52:33): And it was incredibly encouraging and motivating to the engineers on the team because we could just assign them a topic. \"Hey, look at all these support tickets. Why don't you come up with the product spec, the scope, the solution? Oh, want to learn more? Just reply to the support ticket email, figure out what they need.\" And so, we kind of turned all of the engineers on the team into PMs to go and one issue at a time, figure out what needed to change and build products for it. And that's where we pushed forward on 83(b) elections, automating it, sending in the mail for folks. We built our own signing service. (00:53:17): We turned everything into a click. We did just did sort of the obvious things we saw in the tickets, but as the PM, I was able to just sort of, not on autopilot, but really sit back and have content full conversations with engineers who were bringing solutions and ideas for product, rather than one person going through all of the potential ideas, scoping them and assigning them. And because it was based in what people were saying and wanted, it was very motivating for everyone on the team. So somewhat long answer, but figuring out something in which every day we can wake up and look at the same metric and with some confidence know what to do, is so much better than, \"Let's figure out what to do each month, and starting from scratch.\"",
+   "zh": "我多少有点秉持这样的观点：产品经理的职责是实现产品与市场的适配。那么，如何判断产品是否达到了市场适配呢？一方面是图表上数据不断攀升，另一方面是社交媒体上的推文反馈。量化指标和定性反馈本质上是相辅相成的，两者缺一不可。这不是二选一的问题。比如，用户视频中展示的复杂流程，远比单纯的OKR更能传递价值。同时，我们要打造一个经济可行的系统，支持大规模运营——所有这些信息都不能仅停留在脑海中，必须通过数据来量化。\n\n（00:46:59）：任何事物都可以被量化。你可以开始记录事件和日志行。我们现在获取数据的成本已经极低，因此可以自由选择要追踪的指标。我始终追溯到一个核心问题：我们为客户创造了怎样的价值？能否从他们的视角去衡量？相反，许多人在公司内部工作时，往往只关注内部视角，而应用程序中的数据收集也更偏向内部导向。例如，多少用户登录了？这固然是不错的指标，但登录后完成目标的用户数量却不一定能直接从数据库中获取。这需要深思熟虑。正因如此，我花大量时间打磨少数关键指标——它们迫使我们在取舍中做出决策。\n\n（00:47:56）：如果我们整天坐在一起说：“嘿，我听说了这些客户问题，我们应该开发X、Y和Z。”另一个人完全可以合理地反驳：“嗯，我也听说了这些客户需求，我们应该做一、二、三。”两种方案都可能成功，但多数情况下，我们最终既不实施其中任何一个方案，又陷入无休止的争执和拖延。关键问题在于：我们如何自然、渐进地引导更大规模的团队朝着正确方向前进，并从客户视角观察策略是否在逐步创造价值？左边的图表和右边的一系列推文，这是一个绝佳组合。\n\n（00:48:42）：举个例子。几年前，我在Stripe的支付团队工作了一段时间后，开始参与我们的银行和公司注册服务。在Atlas上，我刚开始参与时它已经取得了一定的成功。在我加入之前，它已经存在了四五年。但当我开始查看支持票时，用户频繁抱怨。他们邮箱里有卡在处理的DocuSign文档。他们需要联合创始人的地址，却不知道对方的邮箱。无法登录仪表板去查找83(b)手动申报指南。这些问题在我们刚接触Atlas的第一周就暴露无遗。我就问：“把所有支持票都给我看看。都是满意的吗？用户写着‘哦，我爱死这项服务了，简直太棒了。能不能帮我多做A、B、C这些事？’还是都是不满的反馈？”结果发现，全是用户的抱怨。\n\n（00:49:45）：于是我们自问：为什么用户会不满？\n有人向朋友推荐Atlas吗？我当时想，\"嗯，它得帮他们完成A、B和C这些任务。得帮他们注册公司，处理从美国国税局获取税务识别号的流程，还要处理后续的行政琐事。\"但说真的，如果最后用户留下一堆支持票，他们肯定不会去推荐这个工具。我们可以衡量中间各个环节的成功率和注册服务的频率，我们也确实做了这些统计，但如果你看看支持票数据，用户如果有支持票，就绝对不会推荐给朋友。所以我们为自己设定了一个指标——那些通过Atlas注册服务且没有产生任何支持票的公司。（00:50:36）：整个流程从开始申请那一刻起，第一页加载到最后，再到等待政府审批、等待国税局回复的整个过程，我们还额外给两周时间让用户反馈问题。我们给出了两个星期的缓冲期。如果整个流程下来没有产生任何支持票，那就是成功。如果有任何支持票，那就是失败。我们统计了通过Atlas注册服务且没有产生任何支持票的创始人比例，这和看平均值很不一样，对吧？平均值可能是0.3，但这并不意味着他们得到0.2就会更愿意推荐朋友。我们发现，只有15%的创始人通过这个指标顺利完成注册。（00:51:31）：我当时就想，\"好吧，那我们就把这个数字大幅提升，让支持票数据与用户实际需求脱钩，融入产品设计，这样用户应该更满意，也更愿意推荐。\"在大约18个月里，我们把这个比例从15%提升到85%。基本上实现了翻倍。你可以看看同期市场份额曲线图，形状是一样的。我认为衡量标准必须直接对应客户需求，如果你不小心向他们透露了仪表板，他们会欣喜若狂地发现你一直在衡量这些数据。如果我们展示Atlas的内部指标（我们经常截图发布），他们应该会很高兴听到我们把所有精力都投入到确保用户没有支持票上。（00:52:33）：这对团队工程师来说非常鼓舞人心、富有激励性，因为我们可以直接分配给他们一个任务：\"看看这些支持票吧。你能不能制定产品规范、范围和解决方案？哦，想了解更多？回复支持票邮件，搞清楚用户需求。\"这样，我们就把团队所有工程师都转化为产品经理，让他们一次解决一个问题，确定需要改进的地方并开发产品。正因如此，我们推进了83(b)选举自动化，为用户邮寄材料。我们还开发了自己的签名服务（00:53:17）。我们把所有流程都简化为一键操作。我们只是处理了支持票中显而易见的问题，但作为产品经理，我能够不依赖自动化，而是真正与工程师坐下来深入探讨产品解决方案，而不是让一个人筛选所有可能的想法、评估范围和\n分配任务给他们。由于这个决策是基于大家的意见和需求做出的,所以对团队里的每个人来说都很有激励作用。所以虽然回答有点长，但找到一个方法，让我们每天醒来后都能查看同样的数据指标，并且能比较有信心地知道接下来该做什么，这比起\"每个月都从零开始思考该做什么\"要好得多。",
+   "ts": "00:45:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think this is amazing and important advice, just the power of a single metric that everyone on the team can understand, rally around and use to prioritize the work they're doing. I've seen exactly the same sort of impact. Funny enough, Airbnb, one of the teams actually had a metric sort of like this, basically reducing the people contacting Airbnb with support issues. But what ended up happening is, their team started just making it harder to contact support because they're like, \"Maybe they don't need to contact support about all these trivial issues, so maybe let's encourage them to figure it out themselves.\" Is there anything you've learned about to try to avoid these kind of second order effects that are of perverse incentives of a metric?",
+   "zh": "我认为这条建议既令人惊叹又极具价值——只需制定一个团队成员都能理解、共同认可并用于工作优先级排序的核心指标，就能产生巨大影响。我亲眼见证过类似的效果。说来有趣，Airbnb团队就曾制定过类似的指标，成功减少了用户因支持问题联系客服的次数。但最终的结果是，团队反而让用户更难联系客服支持，因为他们认为：\"用户没必要为这些琐碎问题反复求助，或许我们应该引导他们自己解决问题。\"对于如何避免因指标设计引发的反向激励效应，大家有什么经验值得分享吗？",
+   "ts": "00:54:08"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "We look at multiple metrics, but we will optimize around one and you have to use your own judgment to look at some of these countermeasures and pick them. We would also, that would sort of be our overarching metric for a year, but then we would pick specific tactical metrics about how we would accomplish it. So just an example that both is how we solved a problem, but also it's just a style of metric that was useful to us. Of course, some of these support tickets included things like, \"I'm waiting to hear back from Atlas about, if they're going to approve my application because Stripe is required for very good reasons to evaluate certain business types, or sanctions, lists and the worldwide products.\" So there is some, should be incredibly quick, but there is a bit of a review process, and of course if you were not hearing back from us, you would be upset because you're trying to make your company immediately, \"This is ridiculous. Let's get back to us quickly.\" (00:55:59): And so, we knew that one of the reasons that people were writing to support was like, \"Hey, what's up with my review? What's going on?\" And we knew that our tactic was just to drive up how quickly we got to a final decision on folks and to reduce the number of overturned rejections, where someone writes back in saying, \"Hi, come on, I'm totally just making something reasonable. What's up? Why did you reject me?\" And so, we would pick these overarching single metric, which was the companies with zero support tickets, but then we would have a specific KR that was owned by an engineer, which is the tactic that we're going to do. And so, we would not allow ourselves the perverse tactics to sort of just casually exist. We would choose which tactics we're going to do and then set a metric for it. (00:56:49): And the other reason I love this metric is, it's a cohort metric by which you're trying to drive something up into the left. Sometimes people will get excited about a chart that goes up into the right, it's kind of a meme, \"Oh, that's going up to the right.\" I'm really excited about charts that go up into the left. So you have to figure out some optimization that you're trying to maximize. And so, in this particular case of this risk review, we would look at, \"Hey, for the cohort of customers that started last month, how quickly did we get them to their final risk review by number of days since they submitted?\" And so, you want a chart that looks a lot like, \"Here we go, right up to the top.\" Because you want 100% of your customers to get their final decision as quickly as possible. (00:57:44): Wouldn't you know it, when we looked at the chart, it was doing this. And so, each month we would just make it a little better, a little better, a little up and to the left, up and to the left, up and to the left. And now basically 100-ish percent of people get their risk review within an hour, from a long tail taking a long time. And so, we would constrain the tactic through a metric and then watch it through an optimization function. And then when we got to a point where we were happy with the target, we could put down the tactic. That's another really useful thing about metrics, you can decide when to stop a tactic because you get to some level of success that you're comfortable with and you can always choose to pick it back up later.",
+   "zh": "我们会综合多个指标，但会重点围绕一个核心指标进行优化。您需要凭借自身判断，审视这些优化措施并加以选择。当然，这一年我们的总体指标可能会有所调整，但具体战术指标将围绕如何达成目标而制定。举个例子，当我们解决某个问题时，会采用某种指标衡量其效果，而这种指标风格对我们而言十分有效。  \n\n有些支持工单的内容涉及复杂问题，如“我正在等待Atlas的审批结果，因为Stripe出于合理原因需要评估特定业务类型、制裁名单及全球产品”。此类情况本应迅速处理，但审批流程仍存在一定延迟。若用户长时间未收到回复，难免会感到不满：“这也太慢了吧，赶紧给个回复！”  \n\n我们发现，用户咨询的主要原因在于：“我的审批进度如何？到底怎么回事？”我们的策略是加快最终决策速度，减少被推翻的拒绝案例。例如，有用户反驳道：“我只是合理申请，怎么会被拒？”针对这些问题，我们设定了一个核心指标——“零支持工单率”，同时由工程师负责制定具体的关键绩效指标（KR）并执行策略。我们坚决摒弃那些无效的权宜之计，选择经过深思熟虑的优化方案。  \n\n另一个让我青睐的指标是队列分析。有些人会对向右攀升的图表兴奋不已，但我更关注向左攀升的曲线。当看到客户群体的风险审批速度不断提升时，我们欣喜不已。例如，我们会追踪上月新注册客户的审批时长，将其与提交后的天数进行对比，目标是让所有客户在一小时内完成风险评估。  \n\n令人惊喜的是，通过持续优化，90%左右的用户现在都能在一小时内完成审批。这一成果充分证明了指标驱动策略的有效性，让我们在达成目标后果断终止无效措施。",
+   "ts": "00:54:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So there's some really cool lessons here of just how to pick a good metric. Just to kind of maybe summarize what I'm hearing is, you kind of worked backwards from essentially NPS, like, \"Why aren't people recommending Atlas?\" You found, \"Okay, well people that are complaining and having issues with support and running into problems, most likely are going to be detractors, not going to want to recommend Atlas, so let's have those really ambitious goals. Eventually nobody has a support ticket/let's just track how many people have zero issues.\" And then you identify, \"Okay, what's driving a lot of these support tickets? It looks like this risk timeline till they get to this certain milestone, let's make that our goal for the next quarter or whatever, and let's focus there and then make an impact.\" And then I imagine move on to other levers within this bucket of zero context.",
+   "zh": "接下来，这里有一些关于如何选择合适指标的绝佳经验之谈。简而言之，关键在于从NPS（客户净推荐值）这样的指标逆向推导。比如，\"为什么人们不推荐Atlas？\"你会发现，那些抱怨服务、遇到支持问题或遇到故障的用户很可能是负面口碑来源，不太可能推荐Atlas，所以你需要设定高远目标。比如，\"最终没人提交支持工单\"，或者\"只追踪零问题用户的数量\"。然后你会思考，\"是什么导致了大量支持工单？\"看起来是用户在达到某个里程碑前的风险期，这可以成为下一季度的工作重点，专注于此并产生影响。之后，我猜你会转向其他零上下文领域的优化措施。",
+   "ts": "00:58:23"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "You have to pick the right metric for your audience in... I wouldn't wouldn't fully export that metric to everyone. That was not a terrible one to export, but in the founders choosing where to get started mindset, again, this isn't just deeply spending time listening to your customers. They all ask their friends, \"Hey, how did you start your company?\" They want to talk to an older sibling of sorts about how it went. And so, we decided that our go-to-market strategy would be to delight our current customers such that they would tell their friends. And other businesses, that's always somewhat useful, but you can also reach people with billboards and Google ads and other types of upsells. That's very difficult in the moment that someone is starting a company that's sort of a National Geographic, can you get the picture of the bird at exactly the right time? (01:00:10): How are you even supposed to go find people who are about to start companies? Thankfully, they have this practice of just asking their friends. And so, if their friends loved it, they're going to just recommend it. And that has the metric and the tactic and the go-to-market all lined up, rather than sometimes in cases you might hear someone say, \"Well, let's make the product quality better.\" Well, we all make the product quality better, but why? Why is this actually going to move what our customers want, and the business board? And when you can line them all up, it can be quite beautiful, especially when you can see it month-over-month for a long period of time. One other metric I think that I would export to anybody, is if you are unsure what to measure, we have this, I don't know if we stole it from somebody else or if we came up with internally, whatever, is just users having a bad day, where we will just emit a log line anytime we think that a user bumped into a problem. (01:01:14): So maybe they hit a 404, or maybe their payout was one day after the ETA, or they had more than 10 payment declines, you can kind of brainstorm again or just listen to customers, what would cause you to personally have a bad day, and then just emit an event when that occurs. And then you could just make a stacked bar chart of all the bad day reasons and the frequency by which they're happening, and it's eye-opening to see those frequencies. And it's kind of a metric I hadn't thought about until Stripe's scale, in which you just don't know what's happening until you emit the log line and count it. The frequencies could be...",
+   "zh": "你必须为目标受众选择合适的指标……我不建议将某个指标一股脑推广给所有人。推广某个指标本质上没错，但对于初创公司创始人来说，他们往往没有深入倾听客户需求的耐心。他们会问朋友：\"你是怎么创办公司的？\"想向\"前辈\"取经。所以我们决定，市场推广策略应以满足现有客户需求为核心，让他们主动推荐给朋友。这在某种程度上是有用的，但初创公司也可能通过广告牌、谷歌广告等方式推广客户。但当你面对一个像《国家地理》般宏大的初创公司时，很难精准捕捉用户行为的关键瞬间。（01:00:10）：你如何找到即将创业的人？幸运的是，他们会向朋友求助。如果朋友喜欢你的产品，他们自然会推荐。这就让指标、策略和市场推广完美对接了。而有时你会听到有人说：\"那我们就提高产品质量吧。\"但提高产品质量容易，但为什么要这么做？这对客户需求和商业目标有何实际意义？当所有环节都协调一致时，效果会显著得多，尤其是当你能长期追踪月度数据时。另一个我认为值得推广的指标是——如果你不确定该衡量什么，我们开发了这样一个指标（不知道是借鉴他人还是内部研发），就是\"用户糟糕的一天\"。每当用户遇到问题时，我们就会记录日志。比如404错误、付款延迟一天、支付失败超过10次等。这能让你重新审视用户可能遇到的糟糕体验，然后在这些情况发生时触发事件。接着你可以制作一个堆积柱状图，展示各种糟糕体验的原因和发生频率，数据令人震惊。这种指标在Stripe这样的规模公司之前可能没人想到过——直到你开始记录并统计数据后，才会发现问题的严重性。这些频率数据可能……",
+   "ts": "00:59:08"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "... emit the log line and count it. The frequencies could be kind of mind-blowing. And I think for almost any scale business, if you are bored one day and you're not sure what to measure, just make a user having a bad day chart, emit a log line and count it as a bar chart and then anybody else can add their own bar chart on top of it. And so, it's become a way for teams to scale their understanding of users through metrics by just saying, \"Hey, look, anytime anybody has an idea about why a customer is having a bad day, just emit a log line, put it on this chart, and then we can choose over time which bad day reasons we want to burn down and hopefully just eradicate them, not just minimize them. (01:02:41): But it gave us kind of a background noise counting system for where there are problems and anytime there's an incident or some customer issue, the first thing I think is, \"Ooh, I wonder if we have a bad day reason for this.\" And if we do, I actually feel okay. I'm like, \"Oh yeah, it is a bad day for this customer.\" I wish I didn't have it, but at least we're aware and we can evaluate it against other bad days that we want to burn down. What does sometimes a little bit grind my gears or gives us an opportunity is like when we didn't know about that bad day. And it's a surprise to us too, that is for me is immediate action. It's like, okay, cool. We have to figure out a way to count this bad day. We got to get it on the chart. That way we can make an informed decision about when to invest improving it.",
+   "zh": "……输出日志记录并进行统计。这些频率可能会令人震惊。我认为对于几乎任何规模的企业来说，如果你某天无聊且不知道该衡量什么数据时，只需创建一个“用户糟糕体验日”的图表，输出日志记录并将其以柱状图呈现，随后其他人可以在此基础上添加自己的柱状图。这已成为团队通过数据洞察用户行为的有效方式——只需说：“嘿，看看，每当有人对用户为何会度过糟糕的一天感到困惑时，就输出日志记录并添加到图表中，然后我们可以逐步分析并消除这些导致用户体验不佳的因素，而非仅仅是减少其发生频率。”（01:02:41）但这为我们提供了一个持续监测问题根源的背景数据系统。每当出现事故或客户问题时，首先想到的可能是：“哦，用户今天遇到的问题是否与某个糟糕体验日相关？”如果确实如此，我会觉得这很正常。会想：“没错，用户今天确实遇到了糟糕体验。” 我希望这样的情况不会发生，但至少我们能意识到问题，并与其他需要改进的糟糕体验日进行对比。偶尔遇到未曾预料到的糟糕体验日时，比如当我们对其毫无准备时，那才是真正需要立即行动的时候。比如，我们必须想办法统计这种糟糕体验，将其添加到图表中，从而为改进工作提供依据。",
+   "ts": "01:02:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I love this idea. I haven't heard this before. So the idea is just make a list of what happens to a potential customer that would cause them to have a bad day. What are some examples for Striper Atlas that you guys have?",
+   "zh": "我很喜欢这个想法。之前从未听说过。核心思路就是列出可能导致潜在客户产生糟糕体验的因素。针对 Stripe Atlas，你们有什么具体案例吗？",
+   "ts": "01:03:35"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Are you a Stripe customer, Lenny?",
+   "zh": "Lenny，你是 Stripe 的客户吗？",
+   "ts": "01:03:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I am with my newsletters. The payments go through Stripe. I check my dashboard every day.",
+   "zh": "我是，订阅了他们的通讯服务。支付通过 Stripe 处理，我每天都会查看仪表板。",
+   "ts": "01:03:47"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Cool. So what would be a bad day for you?",
+   "zh": "不错。那对你来说，什么样的情况算糟糕体验日？",
+   "ts": "01:03:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, I see some silence happening here. It not loading. The numbers taking a long time to show up. Something being completely off in there, not being able to log in. The silence is good. I just want to keep going.",
+   "zh": "哦，我看到这边有点卡顿。数据加载太慢，图表迟迟不显示。可能后台出了问题，登录不了。没关系，我继续。",
+   "ts": "01:03:53"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "The question is how much to the audience is how much of the silence will we edit out before it goes live? But this is what I'm talking about, right, is I could guess them, right? And as you were saying those, I know the URL of those charts. I know the login one because I feel that too. So I play with Stripe all the time and then you get a two FA too frequently and come on, I had the same cookie. I was just here yesterday. So we count all that stuff and try to make it better over time. But I'm so excited when someone brings me a new bad day I hadn't thought about yet because that's like product cabinet.",
+   "zh": "问题是，观众希望我们在直播前剪掉多少这类无声片段？但这就是我要说的重点，对吧？我能猜到这些问题，对吧？你列举这些例子时，我知道这些图表的网址。登录那部分我也感同身受。我经常玩 Stripe ，但有时也会遇到两次失败登录，拜托，我用的还是同一个 Cookie，昨天才登录过。所以我们会统计所有这些问题，逐步改进。但当有人给我带来一个我从未想到过的糟糕体验日时，我会特别兴奋，因为这就像产品创新库。",
+   "ts": "01:04:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. And your advice here is this doesn't necessarily have to be your goal or metric. It's just watching this thing that could lead to a lot of interesting ways of operating.",
+   "zh": "我太喜欢这个了。你的建议是，这不一定非得是你的目标或衡量指标。关键是观察这些可能引发许多有趣运营方式的数据。",
+   "ts": "01:05:00"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "A couple other just like quick metrics things because it's a bit of a... I don't know, some people like cycling or something. I guess, I like metrics. People get a really nice bike. I want a really great metric. Picking metric titles that make you feel something. So we could have called that measure of companies, number of companies that do not send a support ticket over X period and Y period with min... You sometimes see these charts where the metric itself named itself. This is just companies with zero support, that's it. And the brevity and the focus and the customer mindset built into the chart name can become currency inside the company. It's like, oh, I'm working on making this chart go up and it feels good to just say the name out loud rather than some complicated underscores and mins and maxes and the database field name is still in the chart title. (01:06:26): These are aesthetic choices, but I think make dramatic differences in the cultural willingness for people to buy in and get excited about it and reduce the need of a product person to just remind everyone every day why they're doing it. It's like the metric is motivating us because it's a motivating thing to talk about. And then lastly on metrics is there's just good hygiene that people should bring to their measures. Percentages shouldn't have 41 significant digits if only two of the digits are relevant. You should keep all the measures of your dashboard on the same X-axis. These are just stylistic things that increase the frequency that people want to just wake up every day and open the dashboard and look at it. And that is so powerful if your whole team is looking at the same set of information that has the heartbeat of the customer every single day. (01:07:26): In fact, we can measure at Stripe the usage of our dashboards by team, and so we can see which teams are themselves looking at their own metrics and that is an incredibly useful predictor of how on the same page they are and how customer obsessed they are. So I just think it's not an area that's sort of behind the scenes, bean counting reliability is the machine hot. You can make metrics that mean something to the customer and you would be proud if they were to be screenshot and put on the internet and be like, \"Wow, I feel like that company is taking their promise to me seriously. And I can see myself on those metrics as a customer.\" That's where we're really shooting for.",
+   "zh": "还有几个关于指标的小细节，因为这有点……我不知道，有些人喜欢骑自行车之类的。我猜，我喜欢指标。人们会买一辆很棒的自行车，而我想要一个非常出色的指标。选择能激发情感的指标标题。比如，我们本可以给这个指标起个名字，比如“在X段时间和Y段时间内未提交支持工单的公司数量”，但用了简洁的表达……有时候你会看到一些图表，指标名称本身就很直观。这就是零支持率的公司，仅此而已。图表名称中内含的简洁性、专注性和客户思维，往往能在公司内部形成一种共鸣。比如，“哦，我正在努力让这个图表上升”，光是大声说出这个名字就感觉很棒，而不是那些复杂的下划线、最小值和最大值，而且数据库字段名称仍然保留在图表标题中。\n\n（01:06:26）：这些都是美学选择，但我认为它们对激发员工的参与度和热情有着显著的影响，也能减少产品团队每天提醒大家为何要做这些工作的必要性。指标本身就能激励我们，因为谈论它是一种激励人心的方式。最后，关于指标，还有一些基本的规范需要注意。比如，如果只有两位数是相关的，百分比就不应该有41位小数。仪表板的所有指标都应该使用相同的X轴。这些都是提升用户体验的细节，让人们每天醒来后都愿意打开仪表板查看数据。如果整个团队每天都在关注与客户息息相关的信息，这其中的影响力是巨大的。\n\n（01:07:26）：事实上，我们在Stripe可以按团队衡量仪表板的使用情况，这样就能看到哪些团队会主动查看自己的指标。这是判断他们是否步调一致、是否以客户为中心的极佳指标。所以我认为这不是什么幕后、枯燥的数据统计，而是实实在在能让客户感知到公司的用心的关键。让指标对客户有意义，让他们截图分享到网上并感叹“哇，我感觉这家公司真的在认真履行对我的承诺。作为客户，我能从这些指标中看到自己的存在感。”这才是我们的最终目标。",
+   "ts": "01:05:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So [inaudible 01:08:19] back what you just said there, which I think is a subtle point potentially, is just making the dashboard look nice, like the hygiene of the naming conventions and the decimal points and the chart. In your experience, you find that really powerful and important.",
+   "zh": "所以[听不清 01:08:19]回到你刚才说的，这可能是个微妙的观点，那就是让仪表板看起来美观，比如命名规范、数字格式和图表设计。根据你的经验，你发现这真的很强大且重要。",
+   "ts": "01:08:18"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "A couple of years ago, Stripe did internal work to make an internal metrics kind of dashboard system. And we have a special place called Go Metrics. Many people use a go/service where you can just quickly go to a URL. And again, I have to sometimes do a rule rather than a policy. My rule is if it's not on Go Metrics, I'm not going to look at it. So if people can send me one-off queries or charts or screenshots or presentations or emails of charts and data, but that is in the wind, we can't interrogate the query metrics are almost always wrong. For many weeks, we didn't quite get the definition correctly. You have to live in the metric for quite a while before you really believe in it. And so, if you're always looking at some one-off version, it's just very difficult for it to rise up to the level of importance that is a thing we should trust to help us decide what to do. That's an incredibly high bar. And so, I just find you have to look at it frequently enough. (01:09:46): And if you're going to look at it frequently enough, it means it needs to be in a discoverable place. You almost go through a couple stages of grief about it because we'll kind of put a metric up in a place and everyone initially is like, \"Wow, this is great. I was so excited to finally see this.\" And then a couple of days later, \"I don't quite understand it. What does it actually mean? I saw this other metric from this other angle that kind of makes it feel counterintuitive that it's like this.\" And then you kind of look into it, \"Wait a second, we've been counting it wrong the whole time. Oh, no.\" And then you look at it the third week and it's a completely different version and then you hope that we forget about it and maybe we'll go onto something else and nope, we're not going to forget about it. Week four comes around, you're like, \"Wait a second. Okay, this is...\" Then the team meeting starts, \"Hey, just a reminder, let's just bring up the metric again, not a screenshot of it. Go to the URL.\" (01:10:39): And just that level of frequency and specificity and ritual around it is what brings it into the decision-making culture. And again, we treat it the exact same as we do tweets. It's the quantitative and qualitative right next to each other. And because you're putting that amount of attention to it, you can't have a 1,000 metrics. We just don't physically have time the day to bring that level of care and understanding to so many things. So then it forces you to know so many things you could care about down to a small number of things that you really must care about. And again, that practice goes back to do you really understand what your customer wants? And so, for all these tactics, it's about finding out what your customer wants and then different versions of how do we sort of know it's true over time and our tactics improving?",
+   "zh": "几年前，Stripe内部开发了一个用于监控指标的仪表板系统，我们称之为Go Metrics。许多人会使用Go/Service平台，只需快速访问一个网址即可。但有时我不得不采取规则而非政策的手段。我的原则是，如果某项数据不在Go Metrics平台上，我绝不会去查看它。因此，即便有人发送一次性查询、图表、截图、演示文稿或数据邮件，我们也无法对其进行深入分析——这些数据往往存在严重错误。数周以来，我们始终未能正确理解指标定义。只有在亲身实践并反复验证后，才能真正认可其价值。若始终只能看到零星数据，根本无法将其提升至足以影响决策的层级。这门槛实在太高。因此，我认为必须让指标足够易于获取。\n\n（01:09:46）：若要频繁查看指标，就必须将其置于易于发现的位置。人们往往会经历一个痛苦的适应过程：刚开始将指标上线时，大家兴奋不已，感叹\"太棒了，终于能看到这些数据了！\"。但几天后又困惑不已：\"这到底什么意思？我看到的另一个角度数据完全相反，感觉根本说不通啊！\"然后深入研究发现：\"天哪，我们整个过程中都算错了！\"\n\n（01:10:39）：第四周重新审视时，指标版本已完全不同。团队会议上，人们再次提醒：\"别发截图了，直接访问网址！\"。正是这种频繁性、精准性和仪式感，才能将指标融入决策文化。正如我们对待推特消息一样，将定量与定性数据并行呈现。正因如此，我们无法同时管理上千个指标——毕竟每天精力有限，无法为如此多数据投入同等的关注。因此，必须将关注点集中于少数关键指标。这又回归到核心问题：你是否真正理解客户需求？所有策略的核心都是：找到客户真正想要的，并通过不同版本的数据验证其真实性，持续优化策略。",
+   "ts": "01:08:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It sounds so simple when you describe it that way. This episode is brought to you by Anvil. Their document SDK helps product teams build and launch software for documents fast. Companies like Carta and Vouch Insurance use Anvil to accelerate the development of their document workflows. Getting to market fast is a top priority for product teams. And the last thing that you or your developers want is to build document workflows from scratch. It's time-consuming, expensive and distracts from core work. You could stitch together multiple tools and manage those integrations. Or you can use an all-in-one document SDK. Most product managers will tell you paperwork sucks. Anvil's document SDK helps teams get to market fast, incorporate your brand style and give you back time to focus on your company's core differentiated features. (01:12:24): For your users, paperwork often starts with an AI powered web form styled and embedded in your application. From there, you can route data to your backend systems and to the correct fields in your PDFs via API. Complete the process with a white labeled e-signature. The best part about Anvil is the level of customization their SDK provides. Non-technical folks love Anvil's Dragon Drop Builder and developers love their flexible APIs and easy to understand documentation. Build documents software fast with Anvil, that's useanvil.com/lenny to learn more or start a free trial. That's useanvil.com/lenny. Kind along these same lines, there's something that I've learned you started at Stripe to help people obsess with user experience and get quality to where it needs to be and move a lot of these metrics, something called Study Groups. Talk about what that is. I'm very curious.",
+   "zh": "听你这么一说，这听起来确实很简单。本期节目由Anvil赞助。他们的文档SDK助力产品团队快速构建并上线文档应用。Carta和Vouch Insurance等公司正借助Anvil加速文档工作流的开发。对于产品团队而言，快速上市是重中之重。而你或你的开发者最不愿做的，就是从零搭建文档工作流——这既耗时又费钱，还会分散核心工作的精力。你可以拼凑多个工具并管理这些集成，或是选择一站式文档SDK。大多数产品经理都会告诉你，文书工作实在令人头疼。Anvil的文档SDK能助力团队快速上线，统一品牌风格，让你有更多时间专注于公司的核心差异化功能。（01:12:24）对用户而言，文书工作通常始于应用内集成的AI驱动网页表单。通过API，数据可直接传送至后端系统并填充至PDF文档的对应字段。最后以白标电子签名完成整个流程。Anvil最出色的地方在于其SDK提供的深度定制能力。非技术人员青睐其\"Dragon Drop Builder\"组件，开发者则爱其灵活的API和易懂的文档说明。立即使用Anvil快速开发文档应用，访问useanvil.com/lenny了解更多或免费试用。同样地，我了解到你曾在Stripe发起\"学习小组\"项目，帮助团队专注于用户体验、提升质量指标。你能否介绍一下这个项目？我对此很感兴趣。",
+   "ts": "01:11:32"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Okay, let's imagine we understand our customer, we've understand their burning problem. We've built a solution that's in their hands, they're using, it's hopefully better than their alternatives and they're starting to use it and we have some real traction. You could still measure the success, you could still look at the tweets and then, of course, you go to pick it up yourself and you're like, \"Wait a second, this thing is horrible. How did it get so bad?\" Anyone who's built a product that has gone over the horizon of it's actually in production and being used for a year or more as you go to iterate on it, especially when you're in a larger company and there's multiple teams and multiple products going on, there's just some entropy in the world that causes these things to go bad. I actually have a hard time naturally explaining it. (01:14:13): You kind of think to yourself, well, it's code. It just must be running the same every day. But somehow you do enough things in a row. And what was once a smooth end-to-end flow for accomplishing a test or a customer is all of a sudden some Byzantine complicated broken mall where all the doors are busted and you have to know exactly the way to get through the dashboard to solve your problem. \"Wait a second, I thought this was great just a second ago.\" And many of us have experienced that. Now, okay, what are we going to do about it? Well, one is it is really difficult to take time during the day to allow yourself to even know that this is true. Because if you're working on one particular team, you're going to have some next thing you're shipping, you're going to have your customers, you're going to be doing great product work. (01:15:14): Meanwhile, your current thing kind of starts to rot in the world and decrease all the trust you've earned to build what you're building now. It is actually difficult to decide, well, what hours during the week am I going to block off from my future progress to see it from the customer's perspective today? And there are various techniques to try to incentivize or to structure a group of people to do that. Stripe has a thing called friction logs as well, which is a single individual will pretend to be a customer and go through a product experience end-to-end and write it down. And that has been quite successful at Stripe for very motivated people who can block off the time and have the wide enough context to do a complicated thing end-to-end and have the time to write it up and the position the company to send it out as a critique potentially to not just your own team but in a whole organization. (01:16:31): So that's actually a pretty high bar to crossover. So I was kind of brainstorming what could we do to make this more fun and have the frequency which we're looking at our own products dramatically increase? And we kind of iterated few through ideas. And I landed on this thing called Study Group, which is basically a random group of people inside the company. They might not work on any particular team. They might not all be PMs, just like literally anyone who wants to sign up, a support person, a sales person, someone who's on our events team, an engineer and our infrastructure stack. Anybody can sign up for a Study Group. We show up maybe four to eight people total. We pretend to be some company with some outcome problem. Maybe we want to accept money in person at an upcoming farmer's market, or we want to run a multi-country global business where we have software that another business would use to run their business. If it was something quite complicated. (01:17:38): We could pick any motivating goal. And there are two rules to Study Group rule one is you do no longer work at Stripe. You do not work at Stripe, not pretend, don't work at Stripe, not try to forget you do not work at Stripe, you've never worked at Stripe. You work at... And we make up a name of the company, Dolphin Aquarium Industries, and we will pick a CEO of the company from the group amongst us. And okay, Jenny is the CEO. \"Hey, Jenny, what do you want to do today?\" \"Well, I want to sell in-person tickets to the Dolphin Aquarium.\" It's like, \"Cool, where would just start?\" So we actually embody the customer. We will not break character, it's a little bit of the improv thing and as the kind of maestro of Study Group, I will firmly but kindly, if I hear you use any internal Stripe knowledge, which is natural to do, because, well, you worked on a team and you know where that button really is. (01:18:41): And the docs link goes a little bit to the wrong place, but if you click the other link, you'll get to it. If I can see you use any internal Stripe knowledge, I'll just pause and say, \"Hey, let's redo the sentence or redo what we did with no Stripe knowledge. As a reminder, you don't work at Stripe.\" And it takes us a couple of times, but people really get into it and all of a sudden we'll start making up characters and the CEO will be like, \"Oh, Tim, you're our designer. Where are we going to get the color palette?\" All of a sudden there's a person who's not a designer in real life is now all of a sudden having to practice the empathy to be in a customer's position. And because we're going to be doing it for an hour, hour and a half at a time, you actually start to believe that you don't work at Stripe and you work at Dolphin Aquarium Industries and you start to really feel it. (01:19:34): So that's rule one. You don't work at Stripe. And rule two is we're not here to solve any problems. We're not here to critique, we're not here to solution or suggest, we're not here to file bugs. All of those things is recorded. We can do that later, whatever. This is just about practicing empathy for the customer and going through the product. And we have done more than 25 of these at Stripe thus far in just this year, last few months of 2024, more than 250 people have participated in the Study Group. And it is deeply eyeopening for those involved. The responses are sort of business emotional, not super emotional, but just, \"Wow, I can't believe how hard it was to accomplish X, Y and Z. I thought we were amazing at blah.\" It's like, \"Well, we actually are still pretty good, but we need to get back towards amazing\" or Wow, \"I didn't even know that internally people wouldn't know that our products did 1, 2, and 3.\" (01:20:45): And this has become so internally popular that teams have adopted for themselves. And so, we've kind of franchised Study Group internally already where different teams will run it. But I think we're going to continue it because I think a little bit is coming out of the pandemic. People just want more group activities. I think some of it is the slowness by which we do it. We're not rushing through it. Which another reason I appreciate your podcast as well is let's really get into the details and not be rushed for time. You forget that you have a meeting at the end kind of amount of time. No one is to blame or defensive because it's not your product at all. It's a random group of people. We don't even introduce ourselves about what team we worked on. We're just all here as participants to embody the customer. And then I think lastly, a reason why it's worked, and these are many of these just been actually super surprising to me. (01:21:39): I wouldn't have been able to prick ahead of time, is it's just fun. People want to make up the name of the company. They're excited about what Dolphin Industries would sell. A person who's not a CTO in real life gets to pretend to be a CTO and there's little theatrics to it, but it has been different enough from our other approaches for a company like Stripe, which is already pretty focused on this topic, that we think that there's enough legs here that we're going to keep it and kind invest in groups pretending to be the customer and going through it painstakingly slowly rather than only demos or only writing, which has other benefits, but misses the participation of a larger group and more fresh eyes. So it's been fun and we named it Study Group. I guess, I named it Study Group because I wasn't sure it would be initially. So I just came up with something that sounded cutesy, but gave me enough leeway that we could kind of adjust it over time. And this is where we've landed.",
+   "zh": "好的，让我们假设我们已经了解了我们的客户，理解了他们迫切的需求。我们开发了一个产品，客户正在使用它，希望它比其他替代方案更出色。然而，当我们回顾实际情况时，可能会发现产品出现了严重问题：用户体验糟糕，代码混乱，功能失效，团队士气低落。这种情况在产品开发过程中屡见不鲜，尤其是当产品已经投入生产并运行了一年以上时，团队规模扩大，协作复杂，各种干扰因素会导致产品质量恶化。\n\n这种情况下，即使你亲自参与开发，也很难自然地解释原因。（01:14:13）你可能会想，代码应该每天都正常运行，但不知不觉中积累了太多问题，而原本流畅的测试流程或客户使用路径，突然变成了一个充满障碍的迷宫，所有入口都被破坏，你必须精确掌握操作步骤才能解决问题。“等等，刚才我还觉得这个产品很棒呢。”相信许多人都经历过这种挫败。那么，如何扭转局面呢？关键在于，开发者很难在日常工作中抽出时间从客户视角审视产品现状。当你专注于某个特定团队的下一个发布任务时，客户需求被忽视，产品进展停滞。（01:15:14）此时，现有产品逐渐失去信任基础，团队不得不重新建立信誉。如何破局？Stripe公司推行“摩擦日志”机制：让单个成员假扮客户，完整体验产品流程并记录反馈。这项机制在Stripe取得了显著成效，但对普通团队而言实施难度较大。因此，我们探索了更易实施的解决方案——“学习小组”。\n\n学习小组由公司内随机选取的成员组成，不限于特定团队或角色。成员包括产品经理、支持人员、销售人员、活动团队成员、工程师等。每次活动约4-8人参与。小组模拟真实公司场景，设定产品挑战，如在即将到来的农贸市场接受现金支付，或开发跨国业务软件等。这种方式能有效激发团队创造力和反思能力，帮助团队快速发现和解决产品问题。\n（01:17:38）：我们可以设定任何激励性的目标。学习小组的规则之一是，你不再为Stripe工作。你不能假装还在Stripe工作，不能真的在Stripe工作，不能试图忘记自己已经不在Stripe工作了。你现在不在Stripe工作。你工作在……我们会给公司起个名字，比如“海豚水族馆工业公司”，然后从我们组中选出一位CEO。好的，珍妮是CEO。“嘿，珍妮，你今天想做什么？”  “嗯，我想销售海豚水族馆的现场门票。”  “酷，那从哪儿开始呢？” 于是我们真正设身处地为客户着想。我们不会打破这个角色设定，这有点即兴表演的感觉。作为学习小组的‘导演’，我会温和但坚定地提醒，如果你使用任何Stripe内部知识（这很自然，毕竟你曾在团队中工作过，所以清楚那个按钮的位置在哪儿），我会暂停并说：‘嘿，让我们重新组织句子，或者用没有Stripe相关知识的思路重新构思。提醒一下，大家现在不在Stripe工作。’ 经过几次尝试后，大家会真正投入其中，突然间我们会开始虚构角色，CEO会说：‘哦，蒂姆，你是我们的设计师。我们去哪儿找配色方案？’ 突然间，一个现实中并非设计师的人，现在不得不练习设身处地为客户着想的能力。因为我们每次会进行一到一个半小时的练习，你真的会开始相信自己不在Stripe，而是在海豚水族馆工业公司工作，开始真切地感受到这一点。\n（01:19:34）：所以这就是第一条规则：你不在Stripe工作。第二条规则是：我们来这里不是为了解决任何问题。我们不是来批评、提出解决方案或提交缺陷报告的。所有这些事情都会被记录下来。我们可以稍后再处理这些。这次活动只是为了练习为客户着想的能力，并体验产品。今年到目前为止，2024年最后几个月，我们在Stripe已经举办了超过25次学习小组活动。参与者反响热烈，既有感慨也有惊喜。比如：‘哇，完成X、Y、Z任务真难。我原以为我们做得很棒。’ 还有：‘嗯，我们确实还不错，但需要回归到卓越状态。’ 或者‘哇，我之前都不知道内部人员不知道我们的产品能做1、2、3件事。’ \n（01:20:45）：这项活动在公司内部越来越受欢迎，各团队已经开始自行组织。我们内部已经将学习小组‘特许经营化’，不同团队会轮流开展活动。但我认为我们会继续下去，因为这在某种程度上是疫情后遗症。人们只是想要更多的团队活动。部分原因在于我们不急于求成的慢节奏。这也是我欣赏你们播客的原因——让我们真正深入细节，不受时间限制。别忘了最后还有会议要参加，没有人会责怪或防御，因为这根本不是你的产品。这只是一群随机的人。我们甚至不介绍自己曾在哪个团队工作，我们只是作为参与者来设身处地为客户着想。\n接下来，我想最后说一下它成功的原因。其中很多原因让我感到非常惊喜。（01:21:39）：我原本没法提前预料到会这样，但过程真的很有趣。人们都想给公司起个名字，他们对Dolphin Industries可能销售的产品充满期待。那些现实生活中并非CTO的人，可以假装自己是CTO，尽管这只是场面话，但这种方式与我们对Stripe这类已经专注于此领域的公司的常规做法截然不同。我们认为这种方法有足够的潜力，所以决定保留它，并投入资源让团队扮演客户角色，逐步深入探索——而不是仅靠演示或文档说明。虽然后者也有其优势，但缺少了更广泛群体的参与和更鲜活的视角。所以这个过程很有趣，我们把它命名为\"学习小组\"。我之所以给它起这个名字，是因为最初我不确定它是否能成功，所以就随便想了个听起来比较可爱的名字，这样我们就能在后续过程中灵活调整名称。最终我们就定了这个名字。",
+   "ts": "01:13:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's fascinating that there's so much theatrics and ceremony necessary for a product team and a company to find out these things about their product. You would think people are like, \"Oh, we know how onboarding looks. We know all these things,\" but basically what you're saying is you don't, and you need to do these sorts of things in order to really know what your product is like these days.",
+   "zh": "令人惊讶的是，产品团队和公司要想了解产品现状，竟需要如此繁琐的戏剧化流程和仪式感。你可能会觉得人们会说：“哦，我们都知道产品入门流程是什么样的，这些事情我们都懂。”但你说的意思是他们其实并不了解，为此必须开展这些工作，才能真正理解如今的产品现状。",
+   "ts": "01:22:56"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "The customer does not live in our walls. They aren't. They're not here. They don't know our lingo. And it is just so natural for our internal mindset and lingo to flow into the application over time. And you need some counterbalance to get there. And I think it has to be an unnatural counterbalance. It used to frustrate me actually more like, \"Wow, why aren't we doing this?\" Well, we're actually doing great work to move something forward and we have our local optimizations. It'd be difficult to get to this level of specialization that multi-product companies are trying to do without that level of focus on a per team basis, but then you need something unnatural to help us bring it back. (01:24:12): And so, I'm constantly looking for non-punitive fun ways objectively to get more perspectives from the outside in. If it's breaking the fourth wall to get on the phone on Twitter, if it's looking at a metric of users having a bad day, which is just like counting what's happening, you can't argue with that. Or a random group of people just kind of scratching their head trying to find a button, those are truths in the world that we're trying to make sure are inputs to all of our teams. And if you don't have those inputs, I can totally naturally see where the entropy of the world leads you to have Frankenstein bad products, even when all the individual parts are well oiled and run by great people. So you need something unnatural.",
+   "zh": "用户并不住在我们公司内部。他们不在这里。他们不了解我们的行话。我们的内部思维模式和术语自然而然地融入了应用程序中。但要实现这一点，你需要一些反向的平衡措施。这种平衡必须是不自然的。过去这让我很沮丧，总是想：“哇，我们为什么不这么做呢？”其实我们已经在为推进项目做得很棒了，也有针对本地市场的优化。但如果没有团队层面的专注度，就很难达到多产品公司试图达成的专业化水平。不过我们需要一些反常规的方法，从外部获取更多客观视角。比如，打破第四面墙，在推特上与用户通话；或者观察用户糟糕体验的指标——这就是数据收集，你无法反驳。又比如，随机的一群人抓耳挠腮找不到按钮，这些都是客观事实，我们要确保这些信息能反馈到所有团队中。如果没有这些反馈，我完全可以预见，系统会逐渐失控，产品会变得一团糟，即便每个零部件都运转良好，团队成员也非常出色。所以我们需要一些反常规的方法。",
+   "ts": "01:23:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's an interesting trend and thread through our talk so far broadly, there's just an obsession with making something great and awesome. And then a layer below is just an obsession with the user experience being as great as possible. And for a lot of PMs, there's not a direct line between make the experience as amazing as possible to growth and revenue and success and things like that. And it feels like for you and for Stripe broadly, there's this innate implication. If we're making the experience better and better and better, we will grow. You're nodding your head a little sideways a little bit, so I'd love to hear just your thoughts on just this obsession with experience and user issues. But we also have to go to the business. What are the metrics are moving?",
+   "zh": "到目前为止，我们的谈话中有一个有趣的趋势和主线，那就是对打造卓越产品的痴迷。再往下看，就是对优化用户体验的执着。对于许多产品经理来说，让体验尽可能惊艳与增长、营收和成功之间并没有直接关联。但对你和Stripe来说，似乎存在一种内在的逻辑关联——如果我们不断优化体验，自然就能实现增长。你微微歪着头，我很想听听你对这种对体验和用户问题的痴迷有什么看法。但我们也得回归商业层面——关键指标的进展如何？",
+   "ts": "01:25:06"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "If someone else has a strategy for moving revenue that isn't getting it from customers, I want to know about it because it's so hard to get it from customers. If there's some faster path, please tweet me and tell me about it because this is very hard, a lot of work to do. So if there's something else, I want it on the table, but I often find it's part of the product experience. So maybe it's internal sales tools. We can do a Study Group about our internal sales tools process and our deal desk and our margin structure. We can do a friction log on our third party vendor process or a migration service or the way an ecosystem partner helps deploy our services into a big enterprise. Nothing is sort of off limits from product. In fact, I was chatting with a friend who runs the company and they were small company on the verge of product market fit starting to feel, customers starting to pull and they're like, \"Oh, but our self-service funnel, it's so leaky and we have all this support coming through self-service.\" (01:27:03): First of all, congratulations, unbelievable that they're going through your product, even attempting self-service and contacting you. The majority case would be no one tries or they try and fail and don't contact you. So again, what a problem to have. And two, they wanted to minimize the support. In that particular case, it's like, \"Well, what's actually in those support tickets? What's in those sales? Those are really sales contacts.\" They're like, \"Oh, they want to learn more about how they get started.\" They want to know the expertise about... This is a particular company, it's a healthcare related company. They wanted to know the healthcare choices available. They wanted to know how to migrate from some old system they had to it. (01:27:41): I was like, \"That's the product. The thing you're talking about is the product.\" Turn those moments during your self-serve process into not self-serve and make the product experience be let's get you on the phone. And now when they get on the phone, they know the first name of the person they're talking to because they have it from the onboarding forum and all of a sudden it feels like you are still in the product, but it's not software. Now it's a person, but it's a person backed by internal software, which knows as much as they can about the customer and what they want. And I was really inspired by Fidelity, which is a big financial institution where many people listening might have switched jobs and had to move their 401(k) or something like this from job A to job B. Maybe in some universe it'll be three clicks, but not today or certainly not when I tried a couple of years ago. You got a call and go on a phone tree and all the shenanigans, and then I got on the line with someone from Fidelity. They're like, \"Hi, Jeff. They knew about the old company. They confirmed my address.\" They said, \"By the way, this is not a digital process yet. We're going to FedEx you an envelope and inside it is going to be the thing for you to sign. Here's going to be exactly where to sign. Here's a picture we're going to sign. We've put another envelope inside that envelope ready to go. And so, you just take the papers from envelope one, sign them where it says and put them in envelope two and put it back to the [inaudible 01:29:16].\" (01:29:15): It's like, \"Wow, that is product.\" That is a product experience where I think some people would say, \"Oh look, the product experience has to only be in software.\" So I feel when people think, oh, product quality and craft has some limit towards business value, there's some asymptote that you have to be like, well, kind of product plate time quality is over. We need to talk about business. It's like, let's figure out exactly what is causing the business to happen and make a product, even if it doesn't look naturally the same as our SaaS, software, browser, mobile, whatever versions. I think we can see the entire experience as it. And from there, I include the sales process, I include the support process, I include tools that help with compliance and everything else. And again, if people have a way to make all those things bad and lead to great increasing revenue over time in sustainable ways, I want to know about that because that sounds so much easier than the version that we're trying.",
+   "zh": "要是有人有不从客户那里获取收入的策略，我很想听听，因为从客户那里获取收入实在太难了。如果有更快的途径，请在推特上告诉我，因为这事儿太难了，需要做大量工作。要是还有其他办法，我希望能公开讨论，但我发现这通常与产品体验相关。比如内部销售工具。我们可以组织一个学习小组，讨论内部销售流程、交易台和利润结构。我们也可以对第三方供应商流程进行摩擦日志分析，或者研究生态合作伙伴如何帮助大型企业部署我们的服务。在产品领域，几乎没有什么是禁区。事实上，我最近和一家公司聊天，发现他们正处于产品市场匹配的边缘阶段，客户开始主动联系他们。他们却说：“我们的自助服务漏斗太漏了，所有支持请求都涌进来。”（01:27:03）首先，恭喜他们！客户愿意尝试你的产品，甚至主动使用自助服务并联系你，这太棒了。大多数情况下，用户根本不尝试，或者尝试后失败却不反馈。所以这真是难得的好问题。其次，他们想减少支持请求。具体案例中，他们发现支持工单和销售记录实质上是销售线索。用户想了解如何入门，需要专业指导。这家医疗保健公司希望了解可用的医疗方案，以及如何从旧系统迁移过来。（01:27:41）我当时就说：“这就是产品啊。你说的这些问题本质上就是产品本身。”把自助服务流程中的这些时刻转化为非自助服务体验，让产品体验重回人性化路径。比如当用户拨通电话时，能直接叫出客服的名字，因为这些信息来自入职论坛。突然间，用户感觉产品还在延续，但这不是软件，而是人性化服务——背后有内部软件支持，掌握着尽可能多的客户信息和需求。我深受富达（Fidelity）的启发。这家大型金融机构可能让许多听众经历过从A公司到B公司的401(k)转移。在理想世界里，可能只需点击三次，但现实并非如此。接到电话后，用户得在电话树里反复操作，接着我终于接通了富达客服。他们说：“你好，杰夫。我们了解你的前公司，确认了你的地址。顺便说一句，这还不是数字化流程。我们会用联邦快递寄给你一个信封，里面有需要签字的文件。签字位置会明确标注，还有图片指导签字步骤。我们在信封里附了一个准备好的回寄信封。你只需从第一个信封中取出文件，签字后放入第二个信封，再寄回[01:29:16未听清]。”（01:29:15）我感叹：“哇，这才叫产品啊。”这才是产品体验，很多人可能认为产品体验只能体现在软件层面。但我认为，当人们认为产品质量和工艺有业务边界时，那才是真正的问题所在。\n就价值而言，存在一些极限值，你不得不承认，产品平台化时代已经结束了。我们需要谈论业务层面的问题。比如，我们要准确分析是什么因素促成了业务成功，并打造出相应的产品——即便它看起来与我们的SaaS、软件、浏览器、移动应用等版本不尽相同。我认为我们可以将整个用户体验视为一个整体。由此延伸，我会把销售流程、支持流程、合规性工具等都纳入考量。再者，如果有人能让所有这些环节都变得更出色，并以可持续的方式持续提升收入，那我很想了解其中的秘诀，因为这听起来比我们现有的模式要容易得多。",
+   "ts": "01:25:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that and clearly it's worked for Stripe. Just one last question. I want to talk about Atlas and dive into just like what is Atlas and how is it doing and things like that. I know there's some new stuff coming that you're going to share, but one last question about Study Groups. How do you decide what product you're going to pick to do a Study Group on? And then what is the expectation with the result? I imagine there's a PM sitting around like, \"Oh my God, I just got this 10 page report on all the problems.\"",
+   "zh": "我很喜欢这个做法，显然它对Stripe很有效。最后再问一个问题。我想聊聊Atlas，深入探讨一下它到底是什么，目前进展如何之类的。我知道你们即将分享一些新动态，但最后再问一个关于学习小组的问题。你们是如何决定选择哪个产品来开展学习小组的？对成果的期望又是什么？我能想象有位产品经理会说：“天哪，我刚收到一份10页的报告，里面全是问题。”",
+   "ts": "01:30:23"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "So initially, I just made up a list of stuff that I thought would be fun to Study Group to kind of kick it off. And now, because it has a bit of an internal brand and it's exciting, and people who have gone to a Study Group say nice things about Study Group there, they actually proactively say, \"Hey, we should Study Group blah,\" or \"We're launching something next week. We should Study Group it before it goes out the door.\" Or now I actually just have a huge backlog of things to Study Group based on what people want. And now we're again franchising it. So we're going to have Study Group captains and people run their own Study Groups, and so we can really scale this behavior. But we did our first Study Group of an internal tool recently. And so, that I think is going to catch on just anything at all can be Study Group. It just takes about an hour and a couple of people and you open up the Zoom and that's it. (01:31:37): And then for expectation wise, look, it is so tempting to put more regulation on something. Okay, well, everything coming out of this program needs to be scored and rubricked and have SLAs. That is extremely reasonable. As some of these next steps, we do notice things that are of serious issues and we have some formal processes inside of Stripe for elevating bugs to certain priority levels that get tagged and have SLAs for teams to acknowledge and review. And so we kind of funnel the outputs of a Study Group into our already existing formal processes rather than having some new special thing that's going to bother a particular team. I will say though that it is difficult to watch one of these Study Groups and if you are the team involved in some piece of it and not want to act on it, because seeing your fellow teammates struggle to use your thing in some way is more motivating than the customer because you can kind of always say to the customer, \" Well, they didn't really know,\" or \"They have some special setup.\"",
+   "zh": "最初，我只是列了一份我觉得有趣、适合开展学习小组的清单。现在，由于它在内部形成了一定的品牌效应，人们对它很感兴趣，参加过学习小组的人也会积极推荐。比如，“嘿，我们应该就某个主题开展学习小组”，或者“下周我们要发布新功能，应该在上线前先组织学习小组”。现在，基于大家的需求，我们有大量待开展的学习小组。现在我们又在将其推广。将来会有学习小组负责人，让他们自主组织学习小组，这样就能大规模推广这种模式了。最近我们刚为一款内部工具举办了首个学习小组。我觉得这种模式会越来越普及。只需要一个小时、几个人，在Zoom上开个会就行了。（01:31:37）  \n至于期望方面，人们总想给这种活动加很多条条框框。比如，所有学习小组的成果都必须打分、评级，配上服务级别协议。这想法倒是挺合理。但在下一步规划中，我们发现有些问题确实很严重。Stripe内部有专门的流程，将严重问题提升至特定优先级，并进行标记和配上服务级别协议，供团队确认和审查。因此，我们把学习小组的成果直接纳入现有正式流程，而不是另起炉灶，避免给某个团队带来额外负担。不过，要看着自己的团队成员在使用产品时遇到困难，而自己又不愿改进，这确实挺煎熬的。毕竟面对客户时，总能说他们“不太懂”，或者“他们的环境有特殊配置”。",
+   "ts": "01:30:48"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Well, they didn't really know or they have some special setup. You probably shouldn't say those things, but you can kind of rationalize it, whereas a group of people incentivized to have actually accomplished it, who got together to do so painstakingly slowly not being able to do so if that's not what excites you as a product person to want to solve, this thing's not for you. But then again, you have your own organization system, you have your own things you need to ship and study group doesn't have a mandate that comes from it. We have our own. It's more of a cultural piece of information that is very high signal and then people tend to use that high signal for good prioritization. I will say though, that we have added the SLAs to certain bug levels that begin to match a bit of our incident process. (01:34:01): So in an incident strike, like in many companies, pencils down, fix the problem, severity levels, non-negotiable Slack rooms happen, war rooms, all that stuff. You don't want to do that with every single bug, but we have a rubric of craft related tags for our bug system. And if it is a sort of a P0 bug, which is not an incident, right, it doesn't mean to put down your pencils. You do need to acknowledge it at Stripe within seven days. And even if it doesn't mean to fix it, it's like a person looks at it and says, \"Hey, we're going to do it or not do it.\" That's a still pretty strong bar for a non-incident related craft issue.",
+   "zh": "嗯，他们可能不太清楚，或者他们有一些特殊的安排。你或许不该说这些话，但你可以找个合理的解释。相反，一群被激励着去真正完成任务的人，他们齐心协力地慢慢推进工作——如果这不是你作为产品经理想要解决的挑战，那这事儿就不适合你。但话说回来，你有自己的组织体系，有自己需要交付和研究的任务，而学习小组没有来自上层的强制要求。我们有自己的标准。这更多是一种文化导向的信息，传递着强烈的信号，然后人们会利用这种信号来合理分配优先级。不过我得说，我们确实为某些错误级别添加了服务级别协议（SLA），开始与我们的事件处理流程相契合。（01:34:01）：在处理突发事件时，就像许多公司那样，全员停下手头工作，紧急修复问题，划定严重等级，建立不可协商的 Slack 群组，召开战情室会议等等。这不适用于每个小问题，但我们为错误系统制定了工艺相关标签的评分标准。若是 P0 级错误（非突发事件），这并不意味着要放下笔记本。但你需要在七天内在 Stripe 平台上确认它。即便不意味着要立即修复，团队成员也会审视问题并决定是否处理。这对非突发事件相关的工艺问题来说仍是相当高的标准。",
+   "ts": "01:33:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It feels just at Stripe, there's this cultural focus on we want to make the product great, we want to make the experience as great as possible. A lot of companies, it's just teams. We have this goal. We're not going to do anything that isn't driving this metric and goal that we have. And I think for teams like that, it's hard to hear just like, oh, someone's going to send you all of these problems that you experience. There's the negative version where the founders goes through the product like a CO of a larger company, just, oh my God, look at all these problems. You need to fix these immediately. And a lot of times it's completely distracting from the things they need to do, the goals they're trying to drive, things that really, really matter that the CO may not be thinking about. And it feels like you're trying to find this balance of here's problems that exist. You don't need to fix them. You probably should. Here's the most important stuff. But also there's often you find a correlation between make the experience better, you're going to do better.",
+   "zh": "在 Stripe，公司文化始终聚焦于打造卓越产品、优化用户体验。许多公司只是将任务分派给团队，设定目标后便一味执行。但对于这样的团队，听别人把他们遇到的所有问题一股脑抛过来很难接受。消极的例子是创始人像大公司首席运营官那样审视产品，感叹“天哪，看看这些问题”。这种做法往往让团队分心于本职工作，偏离既定目标，而首席运营官可能并未考虑到这些关键问题。你需要找到平衡：既要指出现存问题（不必立即修复，但应该关注），又要突出最重要的任务。同时，会发现提升用户体验与达成业务目标之间往往存在正相关关系。",
+   "ts": "01:34:45"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "There's a huge amount of trust here involved in your colleagues, which is we want to provide teams great information and the best teams welcome that information. It doesn't mean that it comes with a auteur opinion from the outside world that says you must do X. We have a rubric on some of the craft related bugs, but again, we let the teams relabel them. And so maybe it's actually not a P0 from their eyes and that's the trust we put in the teams. I think that the failure mode is when you don't look. And so we need unnatural, safe, fun lore that gets us out of our chair and into the customer's mindset. Best is if it's you and you're your own customer, okay. Second best would be sitting right next to the customer in the outside world and then like, okay, fine, I'll take a third best, which is pantomime the customer and enforcing you don't use any internal knowledge. If you have practices in those three categories, I'm comfortable with the failure modes.",
+   "zh": "这种情况下，对同事的信任至关重要。我们希望为团队提供优质信息，而优秀的团队会欣然接受这些建议。这并不意味着要接受外界强加的某种必须遵循的模式。我们针对某些工艺相关的问题设有评分标准，但最终还是由团队自行重新分类。或许在他们眼中，这些问题并非P0级别，这正是我们对团队的信任所在。我认为最大的风险在于缺乏洞察力。因此，我们需要创造非自然、安全且有趣的情境，让我们跳出固有思维，深入客户的视角。理想情况下，如果你是自己的客户，那再好不过。其次是与真实客户并肩工作，倾听他们的需求。退而求其次，可以通过模拟客户体验来避免依赖内部知识。如果你的团队能在以上三个方面做到位，我对可能出现的风险就会比较坦然。",
+   "ts": "01:35:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. This is definitely going to be the longest episode I've ever done, which is exactly what I expected and I'm happy that we're doing this.",
+   "zh": "我太喜欢这段讨论了。这肯定会是我做过最长的一期播客，正如我所预料的那样。很高兴我们能开展这样的对话。",
+   "ts": "01:36:56"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Everyone go 1.75X or something.",
+   "zh": "大家把播放速度调到1.75倍吧。",
+   "ts": "01:37:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I like when people are like, oh, this episode is really good. I had to slow down to 1.75 or something. How are you even listening at that speed? No, it's 1.0 speed. That's what this episode needs to be. There's two more areas I want to spend some time on. One is Atlas. We've talked a lot about on the surface of Atlas. I want to help people understand what the hell it is and the stuff that's happening there. And two, I want to talk about getting stuff done at a big company, something that you've done at Stripe and I hear you have a lot of good advice on. So first of all, what is Atlas? We've talked a bit about it. What's the best way to understand what Atlas is and who it's for?",
+   "zh": "我很开心听到有人说，这期播客太棒了。我不得不把播放速度调到1.75倍。你们怎么能听得下去？不，应该保持1.0倍的速度。这才是这期播客该有的节奏。接下来我想重点探讨两个方面。首先是Atlas平台。我们已经从表面层面谈论过Atlas，我想帮助听众理解它的核心价值和运作机制。其次，我想聊聊如何在大公司高效完成任务——这正是你在Stripe积累的宝贵经验。我相信你一定有不少独到见解。那么，首先，什么是Atlas平台？我们已经简单提及过它。怎样才能更好地理解Atlas的本质以及它服务的对象群体？",
+   "ts": "01:37:07"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "In 2016, a bunch of Stripes were traveling the world, Stripes is what we call teammates here, and they're just hearing stories from entrepreneurs around the world. And you would hear this unbelievable story from incredible entrepreneurs who have a laptop, which is that they'd have to fly to the United States on an airplane to make a US company in order to get access to use financial system, to raise money from US or global investors, often to take USD or to charge US customers. And you could have sat around and said, huh, is that illegal? They don't live in the US. Can they have a US company? Absolutely. The US loves this. It is incredibly encouraged for people from around the world to make a US company and many people do. (01:38:38): Now, why did it require an airplane, right? And so you start to hear that kind of thing at a coffee shop amongst someone with a laptop who has access to the whole internet. And that is a burning problem. Right. That is not a tier three issue. I am not able to run my business without getting on an airplane should be sending alerts off in your whole psyche that you have discovered something important. And so I wasn't at Stripe at the time, but I'm very thankful that, I was running my own startup at the time. I was very thankful that the people at Stripe decided to try to tackle that problem. And so Atlas is a way to start a company in a few clicks, and we think that's an incredibly big deal because while there are smart humans across the whole planet, the opportunity that they have is not uniform. But it's a little strange because it's all the same MacBooks and it's a little strange because it's all the same IP addresses and we all have plenty of bandwidth and smarts. (01:39:49): And so what can we do to dramatically lower the barrier to great people solving problems? And we've found over and over again that increasing the ease and simplicity and decreasing the cost and complexity tends to lead to just more of that thing. And we have a fundamental belief that there should be more startups and they're not finite. And that belief comes from both just a core hope because there are so many problems in the world that don't seem to be being solved fast enough by our current institutions and larger companies that we think will actually, we need entrepreneurial energy to tackle them. And then it's also comes from experience of seeing it happened. Instacart signed up for Stripe with a Gmail address and then Covid happened and they delivered critical food to everyone when people were reasonably not allowed to go to the grocery store easily. (01:40:53): So you just don't know what the next Gmail address is going to do. And so in Atlas, we radically try to simplify the process of getting a company started and that mission has taken us to just solve more of the problem over time. And so over the last few years, for those who have either used Atlas or have started a company or maybe follow along on Twitter a bit, you might've seen just a progression of complexity that used to exist being automated. And so a big one that we did about a year ago was this 83(b) election, which is this absolutely Byzantine silliness system by which you have 30 calendar days to send a one-page document to the IRS that could radically change the economics of how you are incentivized as a founder. And this is not one of these greedy loophole. The IRS in the 1980s made this IRS rule in order to spur more entrepreneurship. (01:42:07): They want this. And the only issue is they made it extremely difficult to accomplish. You have to send a snail mail in to an IRS address in a particular format, in a particular way with no verification that it happened at all. And if you do it 31 calendar days, there's no redo. Okay. Now again, if you're a product person, you hear the founders terrified all day long about this same issue, just alarm bells in your head whole time. And so I had experienced it for myself as a founder several times, and I also just heard story after story and I just put on my to-do list for the team, we are going to solve this 83(b) election thing. And there are very good reasons not to do it because it comes with potential huge liability. Don't want to screw it up, it's snail mail. (01:42:54): You're really going to monetize this. It's a competitive advantage to do it. You can kind of argue yourself not to do it in a million ways. But again, back to the mission of just taking all of this complexity and turning into a single click. It was obvious to us and we got started on it. Infrastructurally, we've been automating these steps and when this podcast airs, I guess today, it will be true that when you go to start a company on Atlas, it will just be a single click. (01:43:26): You go to type in your friend's names, what the name of the company will be, it'll tell you if it's available automatically or not. You can split the company up 50, 50 or whatever you want to do, fill out a few things and you click go and then like a burrito coming to you, like a pizza tracker, we will just handle all of the downstream activities that used to be, hey, remember to come back in and purchase your shares. Why am I purchasing my shares? I'm just getting started. Why am I writing a check for $10 and putting into a bank account that I can't even open yet? And then I have to wait for that to be done to get the 83(b) [inaudible 01:44:09]. All of those steps are now just handled in the background so that we can get you ready for business in a day or two. (01:44:17): And so this is our vision. So you can quit your job on a Sunday night, get the Sunday scaries, I'm done with this thing, and on Monday morning fill out this form and the next day be able to run a billion-dollar business because we will have automatically handled getting you access to banking systems, to payment systems, to handling all the equity paperwork, filing your 83(b) election where you can just shift from having worrying about the company starting process to just building and shipping. (01:44:52): And you'll just get kind updates in the background. Cool, the IRS is giving you a tax ID. Cool, your 83(b) election is filed. Cool, all the founders have their equity and you're ready to go on the cap table. And we've done this by deeply integrating with the governments and deeply integrating with banking partners where we can get you access to the financial system before the IRS and the other governments come back with their sort of official yeses because we take care of the problem in the background by which we're faxing, phone calling, filling out forms on your behalf. And so we just want to take all that complexity and just erase it so that you get the same thing the YC group gets when they start, that checklist that they go through. We just have the robot do exactly the same thing. (01:45:45): And so in some ways it is a really big deal in a big ship because it completely automates the company starting process. But in other ways it's an incredibly incremental step that it's taken us three years to get to where we had to systematically automate the internal steps, each one and now we've done the work to wrap it all up into one button. And you can just watch how your company's doing in the dashboard.",
+   "zh": "2016年，许多Stripe员工在全球各地奔波——在我们这里，我们把同事称为\"Stripes\"——他们聆听着世界各地创业者的故事。那些令人惊叹的创业者往往手握一台笔记本电脑，却不得不搭乘飞机前往美国，才能注册一家美国公司，从而接入金融系统、从美国或全球投资者那里筹集资金、接受美元支付或向美国客户收费。你可能会疑惑：这合法吗？他们又不在美国，能注册美国公司吗？当然可以。美国政府对此非常欢迎，鼓励全球各地的人们创办美国公司，许多人也确实这么做了。（01:38:38）但为什么非得搭飞机呢？在咖啡馆里，面对一台能访问全球互联网的笔记本电脑，人们会听到这样的故事。这是一个亟待解决的难题。这绝不是次要问题。无法搭飞机就无法运营业务，这本身就应该引发你的警觉，说明你发现了重要问题。当时我不在Stripe，但我很庆幸自己当时在经营自己的初创公司。很感激Stripe团队决定攻克这个难题。Atlas平台能让人们几分钟内就能创办公司，我们认为这意义非凡。尽管全球各地都有聪明才智，但他们获得的机会却不均等。但这有点奇怪，因为大家用的都是同样的MacBook，使用着相同的IP地址，网络带宽和人才储备都充足。（01:39:49）那么，我们如何能大幅降低优秀人才解决问题的门槛？我们一次又一次发现，提高便利性和简洁性，降低成本和复杂性，往往能催生更多创新成果。我们坚信应该有更多初创公司诞生，它们并非有限资源。这种信念既源于核心希望——全球有太多问题尚未被现有机构和大公司快速解决，我们认为需要创业精神来解决这些问题——也源于实践经验。比如Instacart用Gmail邮箱注册Stripe账号后，新冠疫情期间当人们无法轻易去超市时，他们为大家配送关键食品。（01:40:53）你永远不知道下一个Gmail邮箱会创造怎样的奇迹。在Atlas平台上，我们彻底简化了公司创办流程，这一使命随着时间推移不断深化。过去几年里，无论是使用过Atlas的用户、创办过公司的创业者，还是在Twitter上关注我们的人，都见证了复杂度的递减过程。我们一年前做的一项重大改进是处理83(b)选举条款——这套极其繁琐的税务体系要求创业者在30天内向美国国税局提交一页文件，而这份文件可能彻底改变创始人的激励机制。这并非贪婪的漏洞。美国国税局在1980年代制定这项规则，初衷是刺激创业。（01:42:07）他们支持这一政策，但实施过程却异常困难。必须通过蜗牛邮件发送文件\n必须以特定格式、特定方式将文件邮寄至美国国税局（IRS）指定地址，且无需验证邮件是否成功送达。若在31个日历日内完成此操作，则无法进行补办。好的。再说一次，如果你是一位产品经理，你整天都会听到创始人们对这个问题的担忧，脑海中警钟不断响起。我自己作为创始人也多次经历过这种情况，还听过无数类似的故事，于是我把这件事列入了团队的待办清单——我们要解决83(b)选举这一难题。由于潜在的巨大法律风险，人们往往不愿轻易尝试。别搞砸了，毕竟这只是普通邮件。（01:42:54）：你真的要把这项服务变现。这是竞争优势所在。你可以用无数理由说服自己不去做。但归根结底，我们的使命就是化繁为简。现在这对我们来说已经显而易见，我们已经着手行动。从基础设施层面来说，我们一直在自动化这些步骤。当本期播客播出时（预计今天），用户在Atlas上注册公司只需点击一次即可。（01:43:26）：你输入朋友的名字、公司名称，系统会自动告知是否可用。你们可以将公司股份按50-50或任意比例分配，填写几份表格后点击提交。后续所有流程将自动处理，比如获取税务识别号、提交83(b)选举文件等。这意味着用户无需再亲自处理这些繁琐事务，我们可以在一两天内让企业准备就绪。（01:44:17）：这就是我们的愿景。周日晚上你可以辞职，周一早上填完表格，第二天就能运营价值数十亿美元的业务——因为我们会自动处理银行接入、支付系统对接、股权文件归档等事务，完成83(b)选举流程，让你从纠结于创业流程转向专注于产品开发和市场拓展。（01:44:52）：后台会实时更新进度。太棒了，IRS批准了你的税务识别号。太棒了，83(b)选举已成功提交。太棒了，所有创始人都获得了股权份额，可以登上资本表了。我们通过深度对接政府部门和银行合作伙伴实现了这一切——在IRS和其他政府机构正式批准前，我们就已通过传真、电话和代填表格等方式自动化了内部流程。我们要做的就是消除所有复杂性，提供与YC孵化器初创公司相同的清单式服务——只需让机器完全复刻这些流程。（01:45:45）：从某种程度上说，这是一项重大变革，彻底自动化了公司注册流程。但从另一个角度看，这只是一个渐进式的改进——我们花了三年时间系统化地自动化每个内部步骤，最终才完成整个闭环。\n只需点击一个按钮，你就能在仪表板上实时查看公司的运营状况。",
+   "ts": "01:37:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, first of all, congrats Jeff and the Atlas team on shipping this. I know this is a big milestone and it's been a long time coming.",
+   "zh": "嗯，首先，祝贺杰夫和Atlas团队成功上线这个产品。我知道这是一个重大的里程碑，期待已久。",
+   "ts": "01:46:16"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Yeah, Atlas was actually a little reasonable before we decided to do all this work. It's like why do this next step of completely automating it when it was actually fairly straightforward before. Atlas has above 80 NPS, which is quite high. Apple is in the low 60s, AirPods is 75. I love my AirPods. So Atlas in the 80s with almost 50% response rate is quite high. And so we still chose to do another year of work to automate all of this work behind the scenes because we see that companies are charging their customers sooner when they go through this automated process versus waiting. And it's a little strange. You just started your company. Well, what does it really matter to wait an extra seven days or 20 days before you can really get going on business? Those are really fragile days which you're building. And to some of our conversation earlier, that amazing feeling of getting your first customer and being in it with them and money actually exchanging hands and getting that relationship. (01:47:34): If we can slide that forward in the world by a couple of days or weeks, which we're seeing, like half the time it takes to get to your first customer, just shave a whole week off of your company and you can kind of see GDP being born sooner. And went my whole life knowing that okay, GDP is not finite and it can grow, but I've never really seen it and now I've actually seen it grow faster, sooner. And I think anything we could do to just move that forward is going to inspire and lower the bar for more people to be an entrepreneur because they'll see how satisfying that can be. (01:48:21): And another stat, which really was interesting to me recently is that we have seen since doing much of this automation work, that more solo founders are using Atlas than ever before. And I think it's because you can just do a lot more on the internet as a founder with no-code tools and everything else and get going. Very cool to see that bringing the best of the internet and making it available worldwide can be correlated with more people becoming entrepreneurs. And I think we should just keep doing that.",
+   "zh": "是啊，在我们决定开展所有这些工作之前，Atlas实际上已经相当不错了。比如，为什么要进行完全自动化的下一步升级呢？毕竟之前流程已经相当简明了。Atlas的NPS评分超过80，这已经很高了。苹果公司的NPS评分在60多点，AirPods的评分是75。我超爱我的AirPods。所以Atlas能达到80分且回复率近50%，确实很棒。尽管如此，我们还是选择再花一年时间将所有后台流程自动化，因为我们发现，通过自动化流程，客户能更快收到账单，而不必等待。这有点奇怪。你刚创办公司的时候，多等七天或二十天又有什么关系呢？毕竟创业初期那些日子非常脆弱。正如我们之前讨论的，获得首位客户、与他们建立合作关系、实现资金交换的那种美妙感觉，真的令人难忘。（01:47:34）如果能将这一过程提前几天或几周，我们观察到获取首位客户的时间缩短了一半，这能为公司节省整整一周时间，让GDP更早诞生。我一直知道GDP不是固定的，可以增长，但从未真正见证其加速增长。如今我亲眼见证了这一切。任何能推动这一进程的举措，都将激励更多人创业，因为他们会看到创业的满足感。（01:48:21）最近另一个有趣的数据是，自从我们开展大量自动化工作以来，使用Atlas的独立创始人数量比以往任何时候都多。我认为这是因为创始人可以借助无代码工具等平台在互联网上完成更多工作，快速启动业务。看到互联网的精华技术能在全球范围内推动更多人创业，实在令人欣喜。我们应该继续推进这项工作。",
+   "ts": "01:46:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's incredibly inspiring and I think this is going to be a huge deal. It's hard to think about how many, what sorts of changes in tech could transform how many companies are started and how many companies not just started but actually happen because to your point, you may start and they're like, nah, nevermind a few days later if it's still stuck in some queue.",
+   "zh": "这真的非常鼓舞人心，我认为这将产生巨大影响。很难想象科技领域的哪些变革能改变多少企业的创立方式，以及有多少企业能真正成功。正如你所说，创始人可能创立企业后，发现进度卡在某个队列中，几天后就放弃了。",
+   "ts": "01:48:55"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Totally. And then you don't know where these things are going to go. We have the sort of cohort of 2024 startups in Atlas got to $50 million in revenue twice as quickly as the cohort in 2023. And so we kind of also think sometimes, oh, it was the pandemic that pushed everything online. Those are our best years. It's like we're seeing the earliest cohort charts of new startups just cracking up into the right. And that's very exciting because you also hear sometimes, well the funding market is down and valuations and this and that and the other. That is much more of a point in time capital analysis and much less business, like just how businesses are working day to day. It's really in the revenue that is representative of their futures and that looks amazingly bright. (01:50:05): And then of course these companies go off to do pretty wild things. Companies that have started through Atlas, there's been 55,000 of them to date are doing $5 billion a year in revenue. I think it actually resets their expectations of what other tools will be in the future. It's like, well, if it was so easy for me to get my company started, well why is it so hard to do banking? Well, thankfully there are some great services for it, but I think if we can push people towards expectations higher, then they will want to make their companies better and we'll just all benefit from that.",
+   "zh": "完全正确。然后你根本不知道这些公司会发展到什么地步。我们在Atlas的2024届创业公司，其营收达到5000万美元的速度，是2023届的两倍。有时我们会想，哦，是疫情推动了所有业务线搬到线上。那些都是我们最辉煌的年份。现在我们看到最早一批创业公司的曲线图，正呈上升趋势。这非常令人振奋，因为有时你会听到资金市场低迷、估值下滑之类的消息。这更多是某个特定时间点的资本市场分析，而非企业的日常运营。真正能反映企业未来前景的是营收数据，而当前的营收形势看起来极为乐观。（01:50:05）当然，这些公司后来都做出了惊人的成就。到目前为止，通过Atlas平台创立的公司已有55,000家，每年创造50亿美元营收。这实际上重置了人们对未来其他工具的预期。比如，如果创办公司如此容易，那为什么开办银行却如此困难？幸好现在有不少优质服务能解决这个问题。但我认为，如果我们能让人们树立更高的期望，他们就会努力提升公司水平，这样大家都能从中受益。",
+   "ts": "01:49:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How much of this is based on you guys sending faxes and sending mail yourself, like I don't know how much you can talk about the behind the scenes, but is there a lot of, through this ops element to automating some of this?",
+   "zh": "这其中有多少是靠你们自己发传真、寄邮件完成的？虽然我不知道具体细节，但在后台运营层面，自动化部分的工作占比大吗？",
+   "ts": "01:50:38"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Atlas is in total 10 people, which is I think a relatively small group for the role that it plays in the wider startup ecosystem. And we just don't pick up work we can't automate because we know that we need the leverage. And so we're not going to put ourselves in situations in which we have to compete to be the best. We're going to put ourselves in situations where we can automate it and be the only, and that's a different mindset. So in terms of why we picked up 83(b) election as a topic, when we made that decision, we made a commitment that we're going to do this forever. We're going to do this forever. This is a piece of infrastructure for the rest of the internet. That is a very high bar to set as the thing you're going to do. (01:51:50): And so we're happy to take our time. This is part, versus like go-go-go versus the long-term compounding. Go-go-go was when we assigned one engineer, hey, it's your job today to send one piece of paper to the office with this third party mail service. Why? Doesn't matter. Today, just send a single piece of paper to the office and an incredible engineer, and she went on to lead all of 83(b) election work. She sent it. And the proof of just receiving the piece of paper at the office that we had just sent yesterday is incredible proof. Right. We're like, well look. I mean, the 83(b) election is just sending this piece of paper to the IRS, like we just did it. Right. (01:52:37): That go-go-go as soon as possible was extremely useful because it's just like, look, this exists. We can do it. Come on. On the long-term compounding part, we were extremely serious about how we picked our third party vendors, and backup vendors, and what promises, and SLAs, and reporting systems, and alerts, and playbooks, and backup processes, like it's in a very intense amount of internal structure we use. But again, we have to look at where the value is. The value is in making sure it happens. Does it need to be us sending the mail? Does it need to be us talking to government? Not necessarily. And we have chosen to work with third parties and many backup third parties as well because one, there's expertise in the world of physically printing and sending mail that the 10 of us are not going to today become experts in. And two, I think it also causes us to build better software in that we now need to evaluate if something's actually working because it's happening externally. (01:53:39): Whereas when you build it yourself, again, you have this natural feeling, well, we built it. It must be working. Oh, later we'll add alerts. Later when there problems, we'll figure out playbooks. Well look, when it's a third party building it, you're like, wait a second. What happens if they screw up? Like cool, we better figure that out. We better OCR all the results. We better do all these check sums, we better... And it would be awesome if we could always treat our internal work that way, but because it was external, it forced us to be more rigid where we needed to be rigid and create interfaces and kind of commitments. And again, we work with a bunch of great third parties and back up third parties to execute this. And each year we write a document called Should We Do This Ourselves? And we look at the other nine of us around the room and go, of course we shouldn't. Let's go on to something else. So again, we're just really stitching it together, but ensuring that it happens.",
+   "zh": "阿特拉斯团队总共只有10个人，我认为对于其在整个创业生态系统中所扮演的角色而言，这个规模相对较小。我们从不接手无法实现自动化的工作，因為我们深知必须借助外部力量提升效率。因此，我们不会将自己置于必须争夺市场领先地位的境地，而是专注于能实现自动化并独家占据优势的领域。这是一种截然不同的思维模式。\n\n至于为何选择83(b)选举作为我们的核心业务，当我们做出这个决定时，就承诺将永久致力于此。这项服务是整个互联网生态的基石基础设施，要将其视为长期使命，标准必须极高。\n\n（01:51:50）所以我们不介意慢慢来。这与追求短期效益的「快进快出」思维模式不同。过去，我们曾派出一名工程师，要求他用第三方邮递服务将一份文件送到办公室，理由是「没关系，今天就把这份文件送到办公室」。结果呢？这位工程师后来领导了整个83(b)选举项目。她完成了任务，而我们办公室收到昨天刚寄出的文件证明，更是令人惊喜的验证。\n\n（01:52:37）那种急于求成的心态曾发挥过作用，比如「看吧，这个功能已经实现了」。但长期来看，团队在选择第三方供应商、备用供应商时，极其严谨地考量了合作条款、服务级别协议、报告系统、警报机制和应急预案等内部架构。归根结底，我们必须关注价值所在——确保服务落地。需要我们自己发送邮件吗？需要我们亲自与政府沟通吗？未必。因此，我们选择与第三方及多重备份供应商合作。一方面，他们在实体文件打印和邮递领域拥有专业优势，我们这10个人短期内无法成为专家；另一方面，这也促使我们开发更优质的软件，因为外部服务的运行状态需要我们持续验证。\n\n（01:53:39）相比之下，自己开发的软件常会陷入「我们自己写的，肯定没问题」的惯性思维。后续再添加警报机制、解决问题时再完善应急预案……而第三方开发的服务则迫使我们严格执行协议，建立接口和承诺机制。\n\n每年，团队都会撰写《我们该不该自己做这件事？》的文件。围坐在一起讨论后得出结论：当然不该。我们应该继续前进。",
+   "ts": "01:50:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. I was imagining fax machines just,-",
+   "zh": "太棒了。好的，我想象着传真机……",
+   "ts": "01:54:31"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "There are fax machines occurring. There are fax machines occurring,-",
+   "zh": "传真机正在陆续出现。传真机正在陆续出现——",
+   "ts": "01:54:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Not in the Stripe [inaudible 01:54:38].",
+   "zh": "不在Stripe平台上（01:54:38处语音不清）。",
+   "ts": "01:54:37"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "And there are phone calls being made and there are robots waiting on phones on hold as well.",
+   "zh": "还有电话在不断打进来，还有机器人在电话等待中排队。",
+   "ts": "01:54:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, amazing.",
+   "zh": "哦，太惊人了。",
+   "ts": "01:54:44"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "There's quite a lot going on.",
+   "zh": "真是忙得不可开交。",
+   "ts": "01:54:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "AI is here. I saw a stat that one in six new Delaware corporations are now started on Stripe Atlas. That's absurd.",
+   "zh": "人工智能时代已经来临。我看到一项数据，现在特拉华州每六家新成立的公司中就有一家是通过Stripe Atlas平台创立的。这太不可思议了。",
+   "ts": "01:54:47"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Yep. I'm very excited to tell you when it's one in five, but it is not today.",
+   "zh": "是啊。我很期待能告诉大家这个比例降到五分之一的时候，但今天还不是时候。",
+   "ts": "01:54:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, sounds like we're close.",
+   "zh": "好的，看来我们已经很接近目标了。",
+   "ts": "01:54:59"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "We're on our way.",
+   "zh": "我们正在稳步推进。",
+   "ts": "01:55:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sounds like we're close. The other stat I have here is that the fastest growing cities for startups. Here's what I have, I don't know if you know this, but Boulder, Shenzhen, and Las Vegas.",
+   "zh": "听起来我们确实快成功了。我这里还有另一项数据，关于初创企业最快速发展的城市。不知道你们是否了解，但榜上有名的是博尔德、深圳和拉斯维加斯。",
+   "ts": "01:55:02"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "They're everywhere. One of the, it's like stat we kind of came up with a little bit last year that I'm just personally deeply obsessed with is founding teams in which the co-founders are in multiple countries. So we kind of nickname this. Again, it's like giving things a good title, headlines. Cross-Border Founders. Wow. More than 20% of multi-founder teams have at least one founder from another country. That is astounding to me, that the internet could bring people together like that. And I think that's going to provide more perspectives, more solutions will be local and global. Just all perspectives are great. And again, I think the Atlas team itself represents this. We were very intentional of how we built the Atlas team. It's majority women and we have more diversity to hire, but we're just very intentional to make it a team that had diverse perspectives. You've been on teams that don't have diverse perspectives of any type. They are so much worse. There's no real science necessary here. We just enforce that. We had the opportunity to build this team that way. (01:56:36): And it was really important to me that it represented a world we wanted things to look like and to represent. And it just had to be very intentional about it because I've made mistakes in my career previously where my startup was all men when we sold to box one of them. And on each hire it was harder and harder and harder to hire someone of a different background. Just naturally folks didn't want to join that type of team. And that was the last time I've ever going to make that mistake, which is that early the candidate poll must match where you want the team to go. It's not a down funnel problem, it is an up funnel problem. And where you have to just make sure that for each role you're comfortable with the distribution of people and backgrounds in your candidate pool and go from there. And I think that is one of the reasons why that 10 person group is so effective, is it has just a lot of diversity and perspective.",
+   "zh": "这些城市随处可见。去年我们提出的一个小统计数据让我深深着迷，那就是多国联合创始人团队。具体数据是，超过20%的多创始人团队至少有一位创始人来自其他国家。这让我感到震惊，互联网能让人们如此紧密相连真是太神奇了。我认为这将带来更多视角，更多的解决方案将具有本地化和全球化的特质。所有不同的观点都是宝贵的。再说回Atlas团队本身，我们在组建团队时就特别用心。团队成员以女性为主，我们在招聘时非常注重多样性，但更重要的是，我们致力于打造一个拥有不同视角的团队。你肯定经历过团队成员缺乏多样性的情形，那种情况糟糕得多。这里不需要什么高深的科学理论，我们只是严格执行这些原则。我们有机会以这种方式组建团队。对我来说，确保团队能体现我们期望的世界观非常重要。这需要用心设计，因为我职业生涯中就曾犯过错误，当我把初创公司卖给Box时，团队全是男性。在每个招聘环节，吸引不同背景的人才都变得越来越困难。人们自然而然不愿意加入这样的团队。这是我最后一次犯这种错误：候选人池必须与你期望的团队方向相契合。这不是漏斗末端的问题，而是漏斗顶端的问题。你必须确保每个职位的候选人池在背景和多样性方面都符合你的要求。正因如此，由10人组成的Atlas团队才如此高效，他们拥有丰富的多样性和不同视角。",
+   "ts": "01:55:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Another skill Jeff Weinstein is incredible at that I wasn't even aware of. We're going to add them to the list and I actually saw a photo of the team and I noticed that. And so great work. Is there anything else on Atlas that you wanted to share before I get into how you actually made Atlas happen at a company like Stripe that has a billion things to do?",
+   "zh": "杰夫·温斯坦（Jeff Weinstein）还有一项令人惊叹的技能，我之前甚至都不知道。我们会把这些技能加到清单里。我其实看过团队的照片，注意到了这一点。干得太棒了。在深入探讨你如何在像Stripe这样事务繁忙的公司里成功打造Atlas之前，你是否还有关于Atlas的其他想分享的信息？",
+   "ts": "01:57:38"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "We just want to hear about what's hard for you. If you look back in your emails and if you started a company recently, you're starting a company right now, the whole world is counting on you to pick a customer, solve their problem 10 times better than their alternative, get it to them, charge for it, become economically viable and build a great business that provides great services. We are not counting on you to become experts at this silliness of administratively running your company. Imagine life without Google Docs where you'd have to hire an IT person to run your IT back end on employee three. You'd have an IT person or imagine the world without AWS for EC2 or S3 or any of these cloud services and you're racking computers yourself. (01:58:46): You're just absolutely not going to try as many things. We just see the company structure, the structure, bringing people together to be like that, and we want to automate more and more and more of it and turn it into software. So we're looking for the next things to work on. We have a couple ideas, but we expect to turn more of groups of people working together, that administration into software. And I think it's just going to unlock huge amount more people choosing to do it.",
+   "zh": "我们只想听听你们遇到的难题。如果你回看之前的邮件，或者你最近刚创办一家公司，现在正在创办一家公司，全世界都在期待你能选定客户，比现有替代方案好十倍地解决他们的需求，把产品交付给他们，收费盈利，建立一个能提供优质服务的伟大企业。我们可不指望你成为行政管理公司的行家，想象一下没有Google Docs的世界，你得雇个IT人员来管理员工三号的IT后台。再想象没有AWS的EC2或S3等云服务的世界，你还得自己搭建服务器。（01:58:46）你根本没法尝试那么多东西。我们只是看到公司结构，把人们聚集在一起，形成这样的模式，我们想把越来越多的流程自动化并转化为软件。所以我们正在寻找下一个需要攻克的领域。我们有几个想法，但我们期望能把更多协同合作的团队，将行政管理工作转化为软件。我认为这将释放出更多愿意投身其中的人才。",
+   "ts": "01:57:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interesting. I'm so curious what that ends up being. If you really think about what you're doing here, if you believe that entrepreneurship and innovation and technology make the world better, you're creating such an unlock to allow more of that. And like I said, I think it's hard to imagine and think of other examples that could be as transformative and impactful as just making this process.",
+   "zh": "真有意思。我特别好奇最终会是什么样子。如果你认真思考自己正在做的事情，如果你相信创业精神、创新和科技能让世界变得更美好，那你就是在为实现这一目标创造突破口。就像我说的，我很难想象还有其他能像简化这个流程一样具有变革性和影响力的例子。",
+   "ts": "01:59:16"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "It's funny because I go back to again, I also hear from founders, entrepreneurs like, oh, I can't think of an idea. Like, ah, I need a startup idea. And yet everything in the world is broken. And I also recall my first startup early 2010, 2012 ish, I joined a friend's company. That was started at the same time that the Stripe founders started Stripe. And that is, I think about that a lot because with the same information, knowing how hard it was to accept online payments, I chose to work on something else where they didn't. They worked on making it easy in seven lines of code to accept payments online, which turned out to be really useful. (02:00:29): So I really encourage people to be very sensitive to the problems that they see and just not let any little hiccup go unnoticed. And I think Atlas is really a manifestation of that, which is, let's actually look at every single thing. You went from hobby to economically successful operation and which of any moment along the way you shouldn't have had to do. And we think those things are a fair game to play with in any topic. I think that there are many more gigantic businesses, important things to be solved sitting in plain sight. I can't see them always, but when you hear, if you sit in enough silence and you hear the same people complain about problems, you too might find something as big as online payments are hard, which was sitting right in front of all of us.",
+   "zh": "这挺有趣的，因为我回想起来，创业者们也常跟我说：「我实在想不出什么点子。」或者「我需要一个创业项目。」然而这个世界到处都是亟待解决的问题。我还记得自己2010年初加入朋友公司时的创业经历——当时Stripe的创始人刚创立Stripe不久。我常回想那段经历，因为尽管我们掌握着相同的信息，却选择了不同方向。他们用七行代码就实现了在线支付功能，成果显著。（02:00:29）所以我特别鼓励人们，要对身边的问题保持敏锐，绝不能忽视任何微小的障碍。我认为Atlas就是这种理念的具体体现——我们要审视每一个细节。从爱好转向经济成功的运营过程中，哪一刻本不该如此？我们相信，任何领域都存在着亟待解决的重大难题。我并非总能发现它们，但当你静下心来倾听人们抱怨问题时，也许会发现像在线支付这样看似显而易见的难题。",
+   "ts": "01:59:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I think it's important to note, it doesn't necessarily have to be a venture-backed, venture scale company. Right. There are many, most businesses in the world are non venture-backed, venture scale billion-dollar companies. You can build a profitable company.",
+   "zh": "还要注意，这不一定非得是风投支持的风投级别公司。没错，世界上大多数非风投支持的风投级别十亿美元级公司都是盈利的。你完全可以打造一家盈利的企业。",
+   "ts": "02:01:24"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "It's kind of funny. We've all put this badge of honor of giving away a lot of your company. People really love owning a lot of their company and being successful. So you just got to pick the right capital structure for your business.",
+   "zh": "挺有意思的。我们都把把公司大量股权让出当作一种荣誉。人们其实更渴望拥有更多公司股权并取得成功。所以你只需为自己的企业选择合适的资本结构。",
+   "ts": "02:01:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And again, the amount of money that has been generated of the companies that started through Atlas, you said $5 billion, basically that's the GDP of Atlas. That Atlas is,-",
+   "zh": "再说了，通过Atlas平台创立的公司创造了巨额财富，你提到50亿美元，这简直就是Atlas的GDP。Atlas的营收每年都在增长，",
+   "ts": "02:01:57"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "And that's like revenue per year and that's growing,-",
+   "zh": "而且增速惊人，",
+   "ts": "02:02:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Per year.",
+   "zh": "年复一年。",
+   "ts": "02:02:09"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "02:02:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. And obviously a lot of it would've happened anyway, but still it accelerated. It's probably growing faster. A lot of it probably never would've happened otherwise. Yeah.",
+   "zh": "是啊。不过显然很多事情即使没有Atlas也会发生，但Atlas确实加速了进程。可能增长得更快。很多事情可能原本根本不会发生。是啊。",
+   "ts": "02:02:10"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "We ran a survey a little bit ago, we need to rerun this, where we just asked people would they have started their business without Atlas. And about 20% of people said they wouldn't have or wouldn't had then. And again, these things are fragile. Right. And it's not all Google employees leaving their job to the build something. It's people from every possible background, every possible role, every possible job, every possible age group who see problems and can solve it. So it's dramatically more fragile than people think.",
+   "zh": "我们不久前做过一项调查，需要重新开展一下，就是询问人们如果没有Atlas会不会创业。约20%的人回答不会，或者当时不会。这些机会确实转瞬即逝。对吧？而且成功创业者不都是谷歌员工离职去创业的。来自各行各业、不同职位、不同年龄段的人，只要发现问题并能解决它，都能创造奇迹。所以成功的概率远比人们想象的低得多。",
+   "ts": "02:02:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, great work, Jeff, and team Atlas and Stripe in general.",
+   "zh": "杰夫，你和Atlas团队、Stripe全体成员都做得很棒。",
+   "ts": "02:02:56"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Fun.",
+   "zh": "真有意思。",
+   "ts": "02:03:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's talk about one last thing. There's so many more things I still want to talk about. Maybe we'll have a,-",
+   "zh": "最后再聊一件事吧。我还有好多想聊的，或许下次再说。",
+   "ts": "02:03:01"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "We can go quick. Yeah, we can [inaudible 02:03:08].",
+   "zh": "我们可以快点结束。好的，没问题（02:03:08未听清）。",
+   "ts": "02:03:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Make it 2X speed. So Atlas is basically a zero to one product. I know you didn't start initially, it was there, but you took it from, I don't know, maybe you took it from 0.5 or something to one in 100 now, and a lot of people struggle with starting things like this within larger companies. Like Stripe's a large company, right? It's like a very innovative, well run company, but it's also a large company. And clearly you made shit happen, you and your team. What kind of things have you learned? Actually, let me read a quote. Here's a quote that kind of describes you being good at this from one of your former colleagues who will go unnamed. \"Jeff is really good at cutting through the BS. You hear so much about frameworks and all this complicated stuff that people talk about, NPM circles, one of the most straightforward, obvious things probably right. I get so annoyed after calls with Jeff sometimes because I know he's right about something. I banged my head against the wall for months.\" And so talk about just what you've done, what you've learned about getting stuff done.",
+   "zh": "把速度调到两倍。Atlas基本上是从零到一的产品。我知道你们一开始不是从零开始的，它原本就存在，但你们把它从，嗯，也许从0.5左右提升到了现在的100分满分。在大公司里启动这类项目很多人都遇到了困难。比如Stripe也是个大公司，对吧？它虽然是个创新能力强、运营得当的公司，但毕竟规模不小。显然你和你的团队把事情搞定了。你们学到了哪些经验？事实上，我想引用一位前同事的话来评价你的高效。这位不愿透露姓名的前同事说：“杰夫特别善于直击核心问题。在NPM圈子里，人们总谈论各种框架和复杂技术，但杰夫能把最简单、最明显的道理说清楚。有时候和他通完电话我就很生气，因为我知道他说得对。我为此撞了好几个月的墙。”所以请分享一下你在大公司里高效完成任务的经验和心得。接下来需要做些什么？",
+   "ts": "02:03:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Talk about what you've done, what you've learned about getting stuff done at a large company. What do you need to do?",
+   "zh": "谈谈你在大公司里高效完成任务的经验和心得。接下来需要做些什么？",
+   "ts": "02:04:03"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Not having things be your idea I think is really powerful. I just talked to 50 customers who all yelled the same thing. Here they are in varieties of quotes and forms and the rest of it, and you put some three bullet points of strategy around why it's important, it's going to help you win more market share, and the rest of it and how you can do it well. Cool. What else could we want to do? Maybe somebody has something where 51 people have the same burning thing, but the majority failure mode is we do nothing. That's the majority failure mode. So one, aligning people with deep customer stories story boarding some solution visually with a Sharpie and not a pencil, not Figma initially, not high or low fidelity. I can never remember which one is the detailed one, but Sharpie. What is the unconstrained perfect solution to this burning problem? (02:05:18): That's Pixar-style storyboard. You don't need to be a designer. You can just draw stick figures on a piece of paper or whimsical or whatever you want to do. And with those things, if you're not asking for the sun and the moon on headcount and team size to make some forward progress, who could stop you? Let's get some first version working. It was very motivating to get that single piece of paper in the mail, which was blank, to kick us off on the 83(b) election. Again, by the time this podcast airs, we'll have crossed 10,000 83(b) elections filed, and we will have done them all 100.00% on time. With the burning use case, why customers are going to need it, why we can do it cheaply, effectively, safely over a long period of time, and here's the way to get tangible, forward progress quickly against the stick figure vision, but with something in the browser or one version of it. Let's just get one thing working one time. (02:06:31): I find proof of existence to be an incredibly powerful proof, rather than proof by theory or proof by debate. It's like, \"Look, we did it one time. Hey, I'm holding the piece of paper.\" Pretty motivating. If we just printed out the right information, we'd be done. You're like, \"Okay, actually there's a lot to do other than just that,\" but it really pushed us forward. Cutting through a little bit of the red tape is about momentum and making each step not such a big deal and asking for less permission. Then of course, once you have a little bit of that under your belt, you're going to naturally be trusted with taking more of those kinds of bets. (02:07:24): Paired with some of the things we talked about earlier of everyone's looking at the same place about the metrics, everyone can watch the success. We don't need to do big, internal updates with long-winded PowerPoint presentations and scrambles the night before. You can just go to the metrics page and see how we're doing. That brings so much trust to the group that people start going from, \"Why do we have this Atlas thing that doesn't really produce so much money. It's charging companies when they don't have money. We're a big payments business. How do you even compare these things?\" To \"Wow, look at the progress that they're making against the mission, and look at its impact on the curves.\" And you start to root for it more. (02:08:16): I think that's how we got it there. I will say one other thing, which is that making something economically viable is extremely important. I am probably the fourth person to run Atlas, and it's quite a pantheon of people prior to me, including the founder of Mozi, which is a compliance startup, Watershed, which is this amazing climate reporting tool, also led Atlas, Patrick McKenzie, patio11, for many folks who [inaudible 02:08:46]",
+   "zh": "我认为不让事情成为你的主意，这真的很重要。我刚刚和50位客户交流，他们都说了同样的话。以下是他们的各种观点和建议，你可以用三个要点来概括策略的核心：为什么这很重要？如何赢得更多市场份额？以及如何做好这件事。太棒了。我们还能做些什么？也许有人会发现51个人都有同样迫切的需求，但大多数人的失败模式是无所作为。这才是多数人的失败模式。首先，要让团队与客户深度共鸣，用记号笔而非Figma等工具直观地勾勒解决方案框架。（02:05:18）：这就是皮克斯式的故事板。你不需要是设计师，只要在纸上画些简笔人物或随心所欲的图形就行。只要不要求过高的团队规模或头衔就能取得进展，谁能阻止你呢？先推出初版产品。把那张空白纸邮寄出去就能启动83(b)选举流程，这真的很激励人。等播客播出时，我们已经提交了超过1万份83(b)选举申请，且全部100%按时完成。有了这个紧迫的用例——客户为何需要它？我们为何能低成本、高效、安全地长期提供服务？以下是如何快速通过简笔视觉验证取得切实进展的方法——先在浏览器中实现一个版本。只要成功一次就够了。（02:06:31）：我发现存在性验证比理论证明或辩论证明更有力。比如：“看，我们成功了一次。嘿，我手里就拿着这张纸。”这太有激励力了。如果我们只打印出正确的信息，就大功告成了。但这其实推动了我们前进。削减一些繁琐程序关键在于保持动力，降低每一步的难度，并减少审批流程。当然，一旦你积累了一些经验，人们自然会信任你去承担更多这类风险。（02:07:24）：再结合我们之前提到的所有内容——所有人都在关注同样的指标，每个人都能看到成功进展。我们无需通过冗长的PowerPoint演示和前夜的紧急准备来进行内部更新。你只需访问指标页面就能看到我们的进展。这为团队带来了极大的信任，从“为什么我们要做Atlas这个根本不怎么赚钱的项目？它向没钱的公司收费，我们可是大型支付业务，根本没法比较这些东西。”转变为“哇，看看他们在实现使命方面取得的进展，以及对数据曲线的影响。”然后你会更加支持他们。（02:08:16）：我觉得这就是我们成功的秘诀。我还要说一点，让产品在经济上可行非常重要。我可能是Atlas的第四任负责人，之前有不少大牛前辈，包括合规初创公司Mozi的创始人、出色的气候报告工具Watershed的创始人，以及Atlas的前任负责人Patrick。\n麦肯齐（McKenzie）、帕蒂奥11（patio11），对许多人来说，[02:08:46未录音]",
+   "ts": "02:04:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, what an alumni group, this collection.",
+   "zh": "哇，这群校友真是了不起，这份合集太棒了。",
+   "ts": "02:08:46"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "We owe ourselves a dinner. We owe ourselves a dinner. Quite a group. And now we have a new person. I technically no longer lead Atlas, so we've hired up a whole team, which is really exciting. And Hayley Halvarsson, who's joined us about a year or two ago, she leads Atlas now and you can find her on Twitter. She's fantastic. We swap jobs over a course of a year, just one month at a time, the roles. And so she worked for me, then I worked for her, and she's gone off to hire some amazing people to run Atlas. So it's really quite a privilege to have these people lead it over time. (02:09:22): But it was really important for us to communicate why we were going to run this in an economically viable way, and I think that applies to all products and all businesses. It's like, \"Look, if you're a customer acquisition-style product, showcase why this is the best customer acquisition for the dollar for the company. If you are a margin-generating, moat-creating, ecosystem-growing portion of the business, then your metrics have to show it.\" So you can't just have half the story of just the product quality and the tweets. You have to have the economics. Who else is going to put this much energy into this style of product and that gives us confidence that we should invest it in the long term? Because alternatives can come and go, and I super encourage there to be more Atlas alternatives. That'd be great for founders, but I think over the long term, it'll be difficult to do so because of the business model.",
+   "zh": "我们该请自己吃顿饭。请自己吃顿饭。这真是个很棒的团队。现在我们又迎来了一位新成员。严格来说，我已经不再负责Atlas项目了，所以我们组建了一整个团队，这真的很令人兴奋。大约一两年前加入我们的海莉·哈尔瓦森，现在负责Atlas项目，你们可以在推特上找到她。她非常出色。我们每年都会轮换工作岗位，每次只换一个月。先是我为她工作，然后她为我工作，现在她已经招募了很棒的人来运营Atlas项目。能让这些人才逐渐接手管理工作，真是莫大的荣幸。（02:09:22）但对我们来说，关键是要向大家解释为什么我们要以经济可行的方式运营这个项目，我认为这适用于所有产品和业务。比如，“看，如果你是一款客户获取类产品，就要展示为什么这是公司花钱最值的客户获取方式。如果你是一款能创造利润护城河、推动生态系统发展的业务板块，那么你的数据就必须能体现这一点。”不能只讲产品质量和推特互动的一面，还得有经济数据。谁会投入如此多精力打造这种类型的产品？这让我们有信心长期投入资源。因为替代品来来去去，我非常鼓励出现更多Atlas的替代品，这对创业者来说是好事，但从长远看，这很难实现，因为商业模式的限制。",
+   "ts": "02:08:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There actually was an alternative at one point, AngelList, and then they're like, \"No, Stripe is killing it. Let's just send everyone to Atlas.\"",
+   "zh": "实际上曾经有过一个替代品，叫AngelList，但他们后来就说：“不行，Stripe太强了。我们还是把所有人都引流到Atlas吧。”",
+   "ts": "02:10:19"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I had worked on Stripe payments for a while, and I had just started on Atlas, and I think that same month AngelList announced that they were doing incorporation and banking and cap table all together, which was exactly what I wanted to do. I was like, \"Oh shoot, did I sign up for the wrong thing? AngelList is such a smart group of people, so customer-oriented, great brand, I love many of the people that work there, they work with some of the best legal minds, and they have the RUV setup. There's so much awesomeness here.\" I was like, \" Should we really compete? What should we do here?\" And we thought about it more and more like, \"Look, in the very long term, this company-starting process is going to become a efficiency cost problem, and there's so much long tail complexity with dealing with multiple financial institutions, multiple government processes, all of this legal complexity, and it's difficult to charge a lot of money for it because it's hard to charge people money when they haven't even started the business yet.\" (02:11:36): We looked at it and said, \"Look, we're going to keep this long-term, compounding approach because we think that this is where it's going to go.\" And it was a zero interest rate environment at the time. AngelList built a phenomenal product. I looked at it with nothing but admiration and happiness, but it also smarted and hurt. We kept building, kept building, kept building, and I got a phone call one night, on my wife's birthday before we sat down for dinner, and it was Dan at AngelList, I hope he'd be comfortable telling the story, who I love. Incredible product mind and he led product over AngelList for startups. He said, \"We're going to get out of incorporation. This is not going to be our focus going forward. Do you want the business?\" (02:12:28): That was like a year and a half after they had really gone out, or maybe two years after they'd gone out, or something like this. I was like, \"Wow.\" We had kept such an open relationship with them. We had paired with them on legal constructs. We had discussed 83(b) election openly. A lot of people were like, \"I can't believe you're talking to the competitor.\" Look, we all share the same mission here. Yes, we're competing, but are we really all better off from treating each other at arm's distance? We had a shared Slack channel. We discussed when the Delaware was slow on incorporation. One time is because they were playing softball and they had an afternoon off. That's a real story, and we've discussed it. AngelList was incredible in how they evaluated it. We're evaluating different partners, but because of our working relationship and the quality of your product, and they saw we were going with 83(b) election and the intensity of that, they just put up a webpage that said to get started with AngelList, if you need a company, go right over to Atlas. (02:13:36): That was a really amazing moment because I respected them so much and I looked up to them so much that they would mutually beneficially choose to do that. And everybody was excited and happy, and customers are happy, and it's been an incredible relationship since, in which you can start on AngelList, go through Atlas, and then all of your information is automatically populated into AngelList automatically. We've since rolled that out with several other partners, Mercury, Carta, others, but AngelList really led the way there, and we maintain a great relationship with the team. It took a while, but it really reproved to me that they're not competitors. It's alternatives, and if you care about your customer, you care about their alternatives, and if you care about the mission, you need to all work together. Look, there's some friendly competition, of course. We all want to win, but in the long term, I think all parties are significantly better off.",
+   "zh": "我曾在Stripe支付领域工作了一段时间，刚开始着手Atlas项目。同月时，AngelList宣布将把公司注册、银行开户和股权结构等全套服务整合在一起——这正是我当时想做的事情。我当时想：“天哪，我是不是报名错了？AngelList团队如此聪明，客户至上，品牌出色，我喜欢那里的许多员工，他们与顶尖法律团队合作，还有RUV（注册后验证）系统。这里简直太棒了。” 但我又疑惑：“我们真的要竞争吗？该怎么办？”  \n\n我们反复思考后认为：“从长远来看，这个创业流程将成为效率成本问题。而处理多家金融机构、政府程序及复杂法律事务的后续影响又会带来长尾效应。况且新创企业尚未启动时很难收取高额服务费。” （02:11:36）  \n\n我们决定坚持长期复合式发展策略：“我们坚信这是行业趋势。” 当时正值零利率环境。AngelList打造了卓越产品。我满怀敬意与喜悦审视它，但这种审视也带来刺痛。我们持续开发，直到某晚——在我妻子生日前夕、晚餐前接到电话——是Dan打来的。他曾领导AngelList的初创企业产品线，我很欣赏他。  \n\nDan说：“我们将退出公司注册服务。这不再是我们的核心业务。你们想要这项业务吗？” （02:12:28）  \n\n这距离他们真正退出市场已有一年半，或许两年之久。我惊讶道：“哇！” 我们与他们保持开放合作关系，共同探讨法律架构，公开讨论83(b)选举条款。许多人惊讶：“难以置信你们和竞争对手合作！” 但我们秉持共同使命。是的，我们在竞争，但保持距离是否真能双赢？我们共享Slack频道，讨论特拉华州注册延迟问题。有次是因为他们打棒球，下午休息日延迟了。这些真实故事至今仍被提及。  \n\nAngelList对我们的评估极为专业。我们评估不同合作伙伴，但鉴于合作关系和产品质量，以及我们坚持83(b)选举的决心，他们直接上线网页，告知用户需用Atlas注册公司。  \n\n（02:13:36）  \n\n这真是个惊喜时刻。我对他们充满敬意，他们选择互利合作。客户满意度极高，此后关系更加紧密。用户可在AngelList注册，再转入Atlas，所有信息自动同步。我们已与Mercury、Carta等多家合作伙伴复制了这种模式，但AngelList始终是先锋。我们保持着良好的合作关系。这段经历让我确信，他们不是竞争对手，而是替代方案。只要你真心为客户着想，合作才能水到渠成。\n客户，你们关心他们的替代方案，而如果你们关心这个使命，就需要携手合作。当然，友好竞争是存在的。我们都想赢，但从长远来看，我认为各方都会受益匪浅。",
+   "ts": "02:10:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, that is an awesome story. I don't know if you've shared that anywhere else. There's so many lessons there that I could spin off on and... Not worrying about competition, staying heads down, just solving customer problems, staying close to your competition, not being afraid to talk to them, sharing advice with each other, just building the best possible product. I don't know, there's a ton there that's super interesting.",
+   "zh": "哇，这真是个超棒的故事。我不知道你是否在其他地方分享过这个故事。里面有很多值得深思的启示，比如……不必担忧竞争，埋头苦干，专注解决客户问题，与竞争对手保持密切沟通，勇于交流经验，打造最优质的产品。说实话，其中有很多观点都非常有趣。",
+   "ts": "02:14:31"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I couldn't really draw it up any better, and I think the world is better off with more specialization, and it's a pain in the butt to do these incorporations. I think you want more specialization and more partnership, and I think a lot of companies are starting to do that now.",
+   "zh": "我实在想不出比这更好的总结了。我认为世界需要更多专业化分工，但这些公司合并过程实在太耗费精力了。我认为大家应该追求专业化分工和深度合作，现在很多公司都开始朝这个方向发展了。",
+   "ts": "02:14:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me go back to the lessons you shared on how to build something new at a big company, then we can wrap up. I took a bunch of notes here, and these are awesome and they actually resonate a lot with Mihika, who came on the podcast, who's at Figma, been the person building a lot of zero-to-one stuff. So it's nice that there's these trends that are coming up again and again. (02:15:32): One tip is storyboard the ideal. With a Sharpie, draw out, \"Here's this exciting vision of what this could be if we were to pull it off without constraints.\" Unconstrained, powerful vision. Two is solve a burning use case. Make it clear this is a huge problem for a lot of people. There's probably stories you share there. Show tangible forward progress like, \"Look at this, we made this progress, we made this progress. Sent ourselves a piece of blank paper. Look at this, it's a huge milestone.\" And have momentum, and Mihika talked about this. Keep the fire alive. Keep the fire alive, show momentum. We're making progress. This metrics moving up into the right. Then there's a milestone... Felt like you had an early milestone of like, \"Look, we made progress,\" and then also, have the business case, basically. \"Look how much we could make and look what this could be if we were to succeed.\" Anything you'd add there? Anything you'd correct?",
+   "zh": "接下来我想回归你分享的在大公司创新创业的经验，然后结束这次讨论。我在这边做了不少笔记，这些内容非常棒，也和我们请到的Figma公司的Mihika产生了强烈共鸣。她在节目中分享的很多零到一的创新案例都和我们今天讨论的主题不谋而合。很高兴看到这些创新趋势不断涌现。（02:15:32）第一条建议是构想理想蓝图。用记号笔勾勒出“如果没有任何限制，我们能把这个愿景变为现实”的激动人心的蓝图。这种不受约束的宏大愿景非常重要。第二条是解决痛点。要让大家清楚这个问题对很多人来说都是巨大的挑战。你可能需要分享相关案例。展示切实的进展，比如“看看我们取得了这些成果，我们发送了一张空白纸张。再看看这个，这是一个重要的里程碑。”保持势头很重要，Mihika也提到过这一点。要让激情持续燃烧，不断展示进展，让大家看到数据在向好的方向发展，然后设定一个重要的里程碑……比如“看，我们取得了初步进展”，同时也要阐明商业价值，“看看我们能赚多少钱，如果成功了会带来怎样的机遇。”你有什么补充或修正吗？",
+   "ts": "02:15:12"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Bringing the earliest customers into the room with your team as soon as humanly possible. We would just invite a founder to the team meeting. We would pipe all their feedback into a Slack channel automatically. We have all the NPS scores going to a channel, and anytime it's not a 10 for 10, we follow up directly. Constant engagement with a customer creates the momentum where it doesn't need to be the product person or some other leader saying, \"We need to do this. Follow me.\" It's, \"Oh my gosh, the world needs this. Let's figure out how to do it even faster.\" (02:17:06): And a tip that the team has tried, and this is well since I've been involved day-to-day, is literally inviting customers in to design the product, which I'd actually never heard of. \"Hey, we're thinking about what happens after incorporation now and what can we do to help founders after they've set up their company? What would be magical there?\" We just invite founders in, into a Whimsical, a piece of software I love. It's a really easy learning curve to create visual diagrams. And rather than doing a UXR about it, we just say, \"What would you hope this dashboard would have?\" And they'd grab a thing, and they start typing, and they start drawing what they want their dashboard to be. Why were we guessing beforehand? I now scratch my head. I'm several years into a decade-plus building things and I was like, \"I doing this by myself. Why didn't I just assign it to the people who are going to use it in the first place?\" (02:18:01): Now look, that doesn't always work because not all of your customers are going to be product designers at heart, but more of them than you think, and I think it's giving your customers write access, and not just read access, to your company is incredibly powerful. I think I had not quite seen it so directly where you just actually designed what they want, but I saw a diagram of something we're working on right now. I was like, \"Wow, we haven't even had design look at it.\" They're like, \"No, actually the customer drew it.\" Great. Why were we guessing?",
+   "zh": "尽可能快地让最早的客户与你的团队同处一室。我们会直接邀请创始人参加团队会议，并自动将他们的所有反馈导入Slack频道。我们把所有NPS评分都放进一个频道，每当评分低于10分时，我们都会立即跟进。与客户持续互动能形成一种势头——无需产品经理或其他领导者说：“我们需要这样做，跟我来。”而是：“天哪，这个世界需要这个功能。让我们想办法更快实现它。”（02:17:06）：团队尝试过的一个方法（自从我参与日常工作以来）就是邀请客户参与产品设计。这是我从未听说过的做法。“嘿，我们现在在思考公司注册后会发生什么，能做些什么帮助创始人？怎样才能更完美？”我们邀请创始人进入Whimsical（一款我很喜欢的软件），创建视觉图表的学习曲线很简单。我们没有做用户体验研究，而是直接问：“你希望这个仪表板有什么功能？”他们拿起工具开始输入和绘制自己理想中的仪表板。我们之前为什么要猜测？现在回想起来真是愚蠢至极。我有十多年产品开发经验，却总以为自己能独自完成这些工作。为什么不直接把任务交给最先使用它的人呢？（02:18:01）：当然，这方法并非万能，因为并非所有客户都是天生产品设计师，但远比你想象的多。我认为赋予客户对公司的写入权限（而非仅限读取权限）非常强大。虽然我之前没见过客户直接设计产品，但我现在看到了我们正在开发的某个产品的示意图。我惊叹道：“哇，我们甚至还没让设计团队看过这个。”他们回答：“不，客户自己画的。” 太棒了。我们之前为什么要猜测呢？",
+   "ts": "02:16:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think you have an unfair advantage where your customers are founders and oftentimes have product skills and design skills, but I love that [inaudible 02:18:43].",
+   "zh": "你确实有得天独厚的优势——你的客户本身就是创始人，往往具备产品和设计技能，但我真的很欣赏你提到的这种方法[02:18:43]。",
+   "ts": "02:18:35"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "It's true, but I will really push, because you don't need a hundred of them and you'll find somebody somewhere who knows. You just got to sit in a little more silence. They'll raise their hand.",
+   "zh": "确实如此，但我会继续努力推广，因为你不需要一百个客户，只要在某个地方能找到懂行的人就行。你只需要多花点时间倾听。他们会主动发声的。",
+   "ts": "02:18:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's a quote you shared somewhere that relates to what you just said that your dad once said, \"You can screw up a sentence if it begins with 'The customer.'\"",
+   "zh": "你之前分享过一句引语，关于你父亲曾说过：“如果一句话以‘客户’开头，你很可能要把它搞砸了。”",
+   "ts": "02:18:55"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "That's true. Yeah, my dad runs an IT business in Baltimore to help other businesses with their computer systems. Growing up, I would literally, physically clean the keyboards of his employees and dust the mice. But yeah, he's very, very customer-oriented, where I get a lot of it from, and my mom's a painter, so I think there's some combination of talents or interests there. He would take it one step further, and he sometimes physically bring a chair over in a meeting and say, \"The customer is sitting here,\" and you'd have to pretend. Then he would fake talk to the invisible customer. \"Based on what you've seen today at the meeting...\" I saw him do this one time. \"Based on what you've seen today at the meeting, are you more likely to pay your bill or less likely to pay your bill based on what you witnessed?\" (02:19:55): That's a little intense on the pantomime, but I think the point gets across that... Again, because it's so natural to think internal, if you begin the sentence physically with \"The customer\" then start your sentence, you just have a much better shot at it.",
+   "zh": "确实如此。是啊，我父亲在巴尔的摩经营一家IT公司，帮助其他企业维护计算机系统。小时候，我真的会亲手清理员工的键盘，擦拭鼠标。但说真的，他对客户服务非常用心，这一点我深受影响。我母亲是一位画家，所以我觉得这两种才能或兴趣在某种程度上互补。他甚至更进一步，有时在会议上亲自搬来椅子说：“客户就坐在这里。”然后你得假装与这位看不见的客户交流。“根据你今天在会议上看到的情况……”（02:19:55）：这种假装动作确实有点夸张，但我想意思已经传达清楚了……再说了，因为我们习惯从内部视角思考，如果你用“客户”来开头，接着再展开句子，这样成功的概率会大得多。",
+   "ts": "02:19:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's an amazing story. Very a study group-ish, like an early prototype. Jeff, we've covered so much ground. I have two hours more worth of questions, but we need to-",
+   "zh": "这真是个精彩的故事。很像学习小组的氛围，简直是早期原型。杰夫，我们已经讨论了这么多内容。我还有两个小时的问题要问，但我们得——",
+   "ts": "02:20:09"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Let's lock.",
+   "zh": "结束了。",
+   "ts": "02:20:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We need to cut it off, I think. Is there anything else you wanted to share or leave listeners with before we get to a very exciting lightning round?",
+   "zh": "我想我们得结束了。在进入激动人心的闪电问答环节之前，你还有什么想和听众分享或留给他们的吗？",
+   "ts": "02:20:22"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Really excited about whatever you're building out there, thinking of building. My email address is incredibly easy to find. My Twitter handle is incredibly easy to find. Do not hesitate to send me cold emails. My love language is Loom videos of bugs, but feel free to send anything you have off the top of your head. I respond to good cold emails. Don't hesitate.",
+   "zh": "我对你们正在开发或考虑开发的项目非常兴奋。我的邮箱地址很容易找到，Twitter账号也很容易找到。别犹豫，随时给我发邮件。我最喜欢看Loom上的漏洞视频，但你有什么想法随时分享。我会回复优质的冷邮件，别犹豫。",
+   "ts": "02:20:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's the email, real quick, for people?",
+   "zh": "邮箱地址是什么？快告诉大家！",
+   "ts": "02:20:51"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "If finding my email address is your issue? It can't possibly be, but it is my first initial and last name at basically everything in the world, though my handle on Twitter is jeff_weinstein, but gosh, if you can't find my email address then you got a bigger problem.",
+   "zh": "如果找不到我的邮箱地址？这应该不可能，但我的名字首字母和姓氏在世界上几乎所有地方都适用，不过Twitter账号是jeff_weinstein。不过天哪，如果你连邮箱都找不到，那你就麻烦大了。",
+   "ts": "02:20:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, we'll link to it in the show notes, as well. With that, we've reached our very exciting lightning round. Are you ready? Here we go. What are two or three books you've recommended most to other people?",
+   "zh": "好的，我们也会在节目笔记中附上链接。接下来是激动人心的闪电问答环节。准备好了吗？开始吧。你向别人推荐最多的两三本书是什么？",
+   "ts": "02:21:07"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I know a lot of people on this podcast recommend high-output management, but it should be swap the Bible out for it at all the hotels in the world, in the little drawer. Put it everywhere. You can't go wrong, though. It is an incredible clarity of how to spend your time as a leader, a manager of other people, a very high bar for how evaluating your work as the sum everyone around you. That was very clarifying to me that it's not an individual effort, it is the sum of everything I'm involved in is how to measure it. So that's definitely up there. A nice pair to that book, as a amuse-bouche afterwards, is Orbiting the Giant Hairball: A Corporate Fool's Guide to Surviving with Grace, I think, is the full exact title by Gordon MacKenzie, which is the story of a illustrator at Hallmark, the greeting card company, and it turns out to be a, again, bureaucratic, slow-moving organization that, over time, added rules and policies and rules and policies and quelled creativity and innovation, which is surprising at a greeting card company, but it existed. So this is his incredibly well-drawn book, as you'd imagine, with beautiful illustrations about how he orbited the hairball of the organization to inspire others, keep himself engaged, and to bring creativity and excitement and trying to pull people off the hairball as he orbited it. So I think it's a fun afternoon read with beautiful illustrations about how to stay sane at big companies and where to be a little goofy and take the advantage and gravity of the hairball, but not be succumbed by it and to be able to orbit it. (02:23:22): Those two are really fun. I will say one other one I like... Because we haven't talked about strategy here, there's been more getting stuff done and some other tactical things, but 7 Powers, and I know you had the author recently on, which was awesome. I won't explain the book, you just watch the podcast of it, but it walks through many of the business powers and moats a company can have. I ran into the author...",
+   "zh": "我知道这个播客里很多人推荐《高效能管理》，但我觉得应该把《圣经》换成这本书，放在全球所有酒店的小抽屉里。随处可见。但这本书确实很棒。它清晰地阐释了作为领导者、管理者如何分配时间，为评估工作成果设定极高标准。对我来说，最深刻的启发是成功不是个人的努力，而是你所参与的所有事务的总和。这让我意识到，成功绝非个人之功，而是一个系统性工程。\n\n作为补充读物，我推荐戈登·麦肯齐的《绕过巨型发胶球：在企业中优雅生存的指南》。这本书讲述了贺卡公司Hallmark一位插画师的故事。Hallmark本质上是一个官僚化、运转迟缓的组织，层层叠叠的规章制度扼杀了创造力与创新精神。即便在贺卡公司这样的行业，这一现象也令人震惊。但麦肯齐以生动的插画和幽默的笔触，描绘了自己如何在组织的迷宫中破局，激发团队活力，释放创造力与激情，并帮助他人摆脱困境。这是一本充满智慧的读物，既有深刻的管理洞察，又不失趣味性。\n\n（02:23:22）：这两本书都非常有趣。我还想推荐另一本——《7种力量》。我们在播客里没怎么谈战略，更多是谈执行和战术，但这本书很棒，前不久我们邀请了作者上节目，非常精彩。我就不多解释书的内容了，大家可以去看播客，但书中系统梳理了企业可以拥有的多种商业力量和护城河。我曾遇到过作者……",
+   "ts": "02:21:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hamilton Helmer.",
+   "zh": "汉密尔顿·赫尔默。",
+   "ts": "02:23:55"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Hamilton Helmer, yes, thank you.",
+   "zh": "汉密尔顿·赫尔默，是的，谢谢。",
+   "ts": "02:23:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a cool name.",
+   "zh": "真是个酷名字。",
+   "ts": "02:23:57"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Very cool name. Alliterative. At the Box lunchroom one time, where I worked at Box, they acquired one of our companies, and I was like, \"Any luck finding the eighth power?\" He was like, \"I'm looking, I'm looking,\" as he ran off with his sandwich. One other funny, somewhat embarrassing moment about that book is when I was applying to work at Stripe, I was in some email conversation with our CEO, Patrick Collison, who is quite well-read and enjoys books, and I was trying to showcase, \" I like books a little bit,\" though not at any level of him. And I had mentioned I just finished reading 7 Powers, and I recommended it to him, but it joke's on me because he's quoted in the foreword that I had skipped. So he was very kind to let me know that he had read it and he is quoted in it, so I was like, \"Oh shoot, maybe I won't get the job.\" But I got through that part, at least. So those books have spoken to me. Do you have a favorite power, by the way, Lenny? Do you have a favorite power?",
+   "zh": "非常酷的名字。押韵。在Box的午餐室，有一次他们收购了我们的一家公司，我问：“找到第八种力量了吗？”他说：“我在找，在找。”然后就跑去吃三明治了。关于那本书还有个有趣又尴尬的小插曲，我申请Stripe工作时，和他们的CEO帕特里克·科利森聊天，发现他博览群书，尤其喜欢书籍。我想展示自己对书籍的喜爱，尽管远不及他。当时我刚读完《7种力量》，还向他推荐了，结果玩了个文字游戏——他在前言中被引用了，而我恰好跳过了那段。幸好他很友善地告诉我他读过这本书，还被引用了，不然我可能就没机会了。但至少我克服了这个障碍。这两本书真的触动了我。顺便问一句，莱尼，你最喜欢的力量是什么？你最喜欢的力量是什么？",
+   "ts": "02:23:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "His favorite power is counter-positioning. I also like that power a lot because I think it's the one you can that really changes everything about how you build your company, so that's the one that always stands out to me. How about you?",
+   "zh": "他最喜欢的力量是反向定位。我也很喜欢这个力量，因为我认为它能彻底改变你构建公司的思路，所以它一直让我印象深刻。你呢？",
+   "ts": "02:24:57"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I like counter-positioning also, and Atlas with going cheap and that audience is counter-positioning, but I really enjoy process, the process power, because it is very difficult to, as an organization, get good at anything, and if you could do that over a long period of time in a sustainable way, you have a power.",
+   "zh": "我也喜欢反向定位，比如Atlas采取低价策略，这种反向定位策略很棒。但我真正热衷的是流程力量——流程化思维。一个组织要想在某个领域精通并非易事，而若能长期、可持续地做到这一点，那就是一种真正的核心竞争力。",
+   "ts": "02:25:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is the nerdiest chat I've ever had. Which is your favorite 7th Power? I love it. But on that power, I asked him about it. He makes a really strong point there, that rarely is it actually a power for people. They think the way we execute is going to be our advantage and rarely is it actually a power. Usually people can copy it, but when you nail it...",
+   "zh": "这真是我参与过的最烧脑的聊天了。你们最喜欢的第七大竞争力是什么？我超爱这个概念。但关于这项竞争力，我向他提问时，他提出了一个深刻见解：人们往往误以为执行方式会成为我们的竞争优势，但实际上这很少能真正转化为竞争力。因为竞争对手通常能模仿，但若我们能做到极致——",
+   "ts": "02:25:26"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "That's even better, because then if your competition thinks they have it-",
+   "zh": "那就更好了。因为如果竞争对手认为自己已经掌握了这种优势——",
+   "ts": "02:25:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, exactly.",
+   "zh": "没错，就是这样。",
+   "ts": "02:25:50"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "They won't invest than the other one. So I like it even more, for that reason.",
+   "zh": "他们就不会投入比对手更多的资源了。所以正因如此，我更欣赏它。",
+   "ts": "02:25:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. But I was going to say with Patrick Collison being quoted in the book, not only was he wrote part of the forward or was quoted, he basically credited 7 Powers of helping build Stripe. No big deal.",
+   "zh": "我超爱这个概念。但我本来想说，在书中引用Patrick Collison的例子时，他不仅写了序言或被引用，更重要的是，他把《七种竞争力》视为帮助Stripe发展的重要因素。这没什么大不了的。",
+   "ts": "02:25:54"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Totally.",
+   "zh": "太棒了。",
+   "ts": "02:26:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This lightning around is going great. This is a very microcosm of our whole chat so far. Second question, do you have a favorite recent movie or TV show?",
+   "zh": "这次闪电对话进行得非常顺利。这完全是我们迄今为止整个聊天的缩影。第二个问题，近期你最喜欢的电影或电视剧是什么？",
+   "ts": "02:26:08"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "How To with John Wilson. It's on HBO. For those who haven't seen it, not really giving away anything because it's just wild when you watch it. You can't give it away. This videographer has found footage where he's just walking through Manhattan, and other parts of the country, but mostly New York, with a camera for 10 years, just filming intensely weird things. And if you've spent any time in New York, there's plenty to film. Then has put together this narrative afterwards about certain topics like how to make risotto or how to take out the trash or how to... (02:26:53): It's a way of seeing life through the eyes of these vignettes, diving down and really understanding people, and he does it through this incredibly dry humor of stitching together this video footage to tell a different narrative. And I think some of it is that we used to live in New York, and I love living in California, but I miss that frequency of strangeness, and you can see that through that TV show. Fantastic. (02:27:26): Movie? I recently watched The Quiet Girl, which is a film about a young Irish girl who is from a dysfunctional home and has this opportunity to live with a family friend who have more opportunity for her, more empathetic to her, and it showcases, again, how fragile things are. It's a very intense film, but there's something beautiful in how much opportunity was in front of this young girl. It is a tearjerker, but a great one.",
+   "zh": "《How To with John Wilson》。这部剧在HBO播出。没看过的人，我不剧透太多，因为看的时候真的很震惊，根本无法用语言形容。这位摄影师收集了10年来在曼哈顿和美国其他地方（尤其是纽约）拍摄的各种奇特素材，然后围绕特定主题（比如如何做意大利调味饭、如何倒垃圾、如何……）编织叙事故事。（02:26:53）：这部剧通过这些小片段，让我们以独特视角观察生活，深入理解人性。他用极其冷幽默的剪辑手法，将这些素材拼凑成不同的叙事故事。我想正是因为我们曾在纽约生活过，又热爱加州生活，才会深切怀念那种奇特感的频率，而这部剧能完美呈现这种情感。太棒了。（02:27:26）：电影方面？我最近看了《安静的女孩》，这部电影讲述了一个爱尔兰女孩出身于破碎家庭，获得机会与更富有同情心的亲友生活在一起的故事。它再次展现了事物易碎的本质。这部电影非常震撼，但能从中看到这个女孩本可拥有的巨大机会。确实催人泪下，但却很棒。",
+   "ts": "02:26:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite product you have recently discovered that you love?",
+   "zh": "你最近有没有发现什么超爱的新产品？",
+   "ts": "02:28:05"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I love my computer. I'm fast at my computer. Being fast at my computer helps me just go from intention to just out in the world. I've fallen back in love with Raycast, which is an automation tool for those who have watched the journey of Spotlight and Quicksilver and Alfred and all these automator services. Raycast seems to have cracked the nut on automation, nerd complexity, but also UI ease and some nice touches and loads quickly, does the basics. It's fully programmable, extensible, just a huge fan of Raycast. And then I think for product people, if you don't have CleanShot installed for screenshots, you're behind the curve. Being able to take a screenshot and blur particular things or point at stuff or have arrows and lines and have that be second nature, fast, instantaneous is so useful to be able to communicate what you're seeing. When I get a new laptop, it's Raycast first and CleanShot second.",
+   "zh": "我超爱我的电脑。我用电脑速度很快。用电脑能让我迅速将想法转化为现实。最近我又重新爱上了Raycast这款自动化工具——对于那些见证过Spotlight、Quicksilver、Alfred等自动化服务发展历程的人来说，Raycast无疑是破解自动化难题的利器。它完美平衡了极客级别的复杂性与界面易用性，加载迅速，基础功能齐全。它完全可编程、可扩展，我简直是Raycast的狂热粉丝。还有，如果你还没安装CleanShot这款截图工具，那可就落伍了。用它能快速截图并模糊特定区域、标注重点、添加箭头线条，这些操作就像第二天性一样自然高效，能有效传达信息。当我换新笔记本时，首选Raycast，其次才是CleanShot。",
+   "ts": "02:28:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, I am going to download CleanShot immediately.",
+   "zh": "哇，我要马上下载CleanShot。",
+   "ts": "02:29:10"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Yes, it's extremely-",
+   "zh": "是啊，它太棒了——",
+   "ts": "02:29:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've not heard of it. I've been using Skitch as my blurrings.",
+   "zh": "我没听说过这个工具，一直用Skitch来模糊图片。",
+   "ts": "02:29:15"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "As much as I appreciate the Skitch folks, CleanShot is an incredible piece of software.",
+   "zh": "尽管我很欣赏Skitch团队，但CleanShot确实是款超赞的软件。",
+   "ts": "02:29:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I'm going to do that. All right, two more questions. Do you have a favorite life motto that you often come back to, share with friends or family, find useful in work or in life?",
+   "zh": "太棒了。我现在就去试试。好的，最后两个问题。你有没有特别喜欢的座右铭，经常挂在嘴边、分享给朋友或家人，或者在工作和生活中觉得很有用？",
+   "ts": "02:29:22"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I don't even realize I say \"Go Go Go\" a lot, but I do. I actually say it and write it so people I hear that they'll later say, \"Go Go Go\" back to me. I'm like, \"Huh? Don't I say that sometimes?\" \"Yes, you say it a lot.\" So apparently, \"Go Go Go\" is one of them. I also-",
+   "zh": "我甚至没意识到自己常说\"冲冲冲\"，但确实经常说。每次有人听到我说这句话，后来又回敬我时，我都特别惊讶：\"什么？我不是常说吗？\" \"是啊，你老是说啊。\" 看来\"冲冲冲\"确实是我的口头禅之一。我还——",
+   "ts": "02:29:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that.",
+   "zh": "我超爱这句话。",
+   "ts": "02:29:45"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Say, \"Let's make some mistakes,\" when we're brainstorming something or sitting at a sushi restaurant and talk sushi guy or gal, to showcase, \"Let's be creative. Do whatever you want. No pretense. I'm not evaluating anything. Let's make some mistakes.\" It's just a weird thing.",
+   "zh": "比如，我们头脑风暴新项目时，或者坐在寿司店跟寿司师傅聊天时，就会说：\"别太在意细节。大胆发挥吧。没关系的，我不评判。咱们就尽情犯错吧。\" 这听起来有点怪。",
+   "ts": "02:29:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They're so good. I'm going to use that for my podcast guests. \"Let's just make some mistakes. Don't worry about it.\"",
+   "zh": "它们太棒了。我要在播客中用给嘉宾听：\"咱们就随便试试，别太在意结果。\"",
+   "ts": "02:30:08"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "At that point, everyone's like, \"What? Okay, fine. Sure. Cool.\"",
+   "zh": "这时候大家都会说：\"什么？好吧，不介意，随便试试。\"",
+   "ts": "02:30:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I like the combo of those two, \"Go go go, let's just make some mistakes while we're going.\"",
+   "zh": "我喜欢这两句话的组合：\"冲冲冲，咱们边做边试错。\"",
+   "ts": "02:30:17"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "You have to use it in certain circumstances and not for the five nines of reliability on our API, but it does have its place.",
+   "zh": "有些情况下你得用它，但别指望它能达到API的五个9级可靠性标准，不过它确实有其价值。",
+   "ts": "02:30:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question. You worked with Patrick Collison and John Collison for many years. I'm curious what the most useful feedback or advice you have heard from them or learned from them?",
+   "zh": "最后一个问题。你和Patrick Collison、John Collison共事多年。我很好奇你从他们那里得到的最有用的反馈或建议是什么？",
+   "ts": "02:30:29"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "On my first month working here, which I guess is six, seven years ago now, they had put me in charge of our payments infrastructure services. That's all the backend systems that communicate with the financial system and all the internal APIs where we build the external APIs and products on top of, so quite a lot of stuff. I knew nothing about finance. I knew nothing about the scale that we're talking about. They entrusted me, somewhat insanely, with that responsibility. On the first month we had our quarterly business review where... The normal quarterly process, and I was like, \"Okay, cool. I'll do the next one. I'll write the next one.\" I've been here one month. They're like, \"No, you write it. It'll be even better that you write it.\" It's like, oh my God. It's forcing me to have to, in the fourth week, have that catalyst to understand the whole business and with the permission, because I was going to have to write this doc about how we're doing. The company had been in existence for seven years before I got here. It was already at some reasonable scale. (02:31:54): It was an intense operation, and I remember writing the first draft and sending it to him because it was... I didn't want to send... He had pushed me to do it a bit, and I figured I'd give him an early draft and he wrote back, \"This doesn't sound like you yet.\" The willingness to entrust a new person to provide their own perspective and bring it into a very formalized document like that was an impressive... That really spoke to me, and I rewrote it completely, and I made it sound like me, and I've tried to make things sound like me since. (02:32:29): John's is more of a gut punch, I'll say. I reported to John, the co-founder. Maybe nine months into reporting to him, I would run around with a clipboard. I was a little bit manic of getting a lot done. A lot going on at Stripe at the time. We'd have a one-hour one-on-one, I'd be listing all of the things that we had accomplished and the problems we have and where we need escalation help and where we're stuck and all this that and the other. Lots of stuff. I had checklists and physical paper, flipping it over a little bit frantically. And he said, \"You are one of the best people I've ever worked with at solving problems three through 100, but I need you stuck on problems one and two.\" (02:33:22): Oh man, that hurt. I was like, \"Oh, shoot.\" I am productive on the non-hardest problems and I was trying to mask, not on purpose mask, but who wants to be stuck on something so hard when there's so much else to do? From then on, I would show up to him with problems one and two and not talk about problems three through 100. Even if we were working on them, we would just not talk about them and we would get stuck on problems one and two. That was phenomenal advice, which I was like, \"Oh, shoot, I'm going to be fired.\" But it was really a deeply impactful sentence.",
+   "zh": "刚来这里工作的第一个月，我猜那是六七年前的事了，他们就让我负责我们的支付基础设施服务。这包括所有与金融系统对接的后端系统，以及我们构建外部API和产品所依托的内部API，涉及的内容相当广泛。我对金融一窍不通，对我们所谈论的业务规模也毫无概念。他们却疯狂地把这份责任交给了我。第一个月，我们举行季度业务回顾会……按照常规流程，我当时想：“好吧，很酷，下次我来写。”我刚来一个月。他们却说：“不，你来写。你的视角会更有价值。” 天哪，这简直让我崩溃。第四周，我被迫必须梳理整个业务流程，写这份文档来汇报我们的工作进展。这家公司在我来之前已经成立了七年，规模已经相当可观了。（02:31:54）：那真是高强度的工作，我记得写完初稿发给他时，他回复说：“这听起来不像你写的。”他逼我写这份文档的决心令人钦佩……这句话深深触动了我，我彻底重写了一遍，让它更符合我的风格，从那以后我也一直努力保持这种风格。（02:32:29）：约翰的批评更像是当头一棒。我向联合创始人约翰汇报工作，汇报九个月后，我会拿着写字板到处跑，疯狂地想完成所有任务。当时Stripe有很多事务要处理。我们每周一对一开会，我会列出所有已完成的任务、遇到的问题、需要升级协助的地方，以及卡住的难点……太多事情了。我用纸质清单，疯狂地翻来翻去。他说：“你是我们合作过的最善于解决三到一百个问题的员工之一，但我需要你专注于一和二。”（02:33:22）：天哪，这话真伤人。当时我：“哎呀，糟糕。”我确实更擅长处理不那么难的任务，却试图掩饰自己的无能。谁愿意在困难重重中纠缠不休？从那以后，我每次汇报只谈一和二的问题，哪怕我们正在处理其他任务，也绝不提及。真是个极具洞察力的建议，当时我觉得：“天啊，我要被炒鱿鱼了。” 但这句话确实影响深远。",
+   "ts": "02:30:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, what a powerful, great, helpful... That's great advice [inaudible 02:34:10] right there.",
+   "zh": "哇，多么有力、棒极了、太有帮助了……这真是绝佳的建议 [02:34:10的背景音]。",
+   "ts": "02:34:03"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "He really looked my soul and-",
+   "zh": "他真是看透了我的灵魂，",
+   "ts": "02:34:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I love this.",
+   "zh": "是啊，我太爱这个了。",
+   "ts": "02:34:12"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Like a street fighter style or something.",
+   "zh": "就像街头斗士的风格之类的。",
+   "ts": "02:34:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But to your point, very impactful and helpful.",
+   "zh": "但说到你提的，确实很有影响力，也很有帮助。",
+   "ts": "02:34:16"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "02:34:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Jeff, we did it. The archeology is complete.",
+   "zh": "杰夫，我们做到了！考古工作完成了。",
+   "ts": "02:34:20"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "I appreciate the time, Lenny. It was fun. I don't do too many of these, so I'm curious to people's feedback and really appreciate the questions.",
+   "zh": "莱尼，感谢你抽出时间。今天的交流很愉快。我不常参加这类活动，所以很期待大家的反馈，也非常感激你们提出的各种问题。",
+   "ts": "02:34:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Jeff, thank you so much for being here.",
+   "zh": "太棒了。杰夫，非常感谢你能来。",
+   "ts": "02:34:30"
+  },
+  {
+   "speaker": "Jeff Weinstein",
+   "en": "Appreciate it, Lenny.",
+   "zh": "谢谢你，莱尼。",
+   "ts": "02:34:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. (02:34:37): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at LennysPodcast.com. See you in the next episode.",
+   "zh": "大家再见。（02:34:37）：非常感谢大家的聆听。如果您觉得本期内容有价值，可以在Apple Podcasts、Spotify或您喜欢的播客应用上订阅本节目。另外，欢迎给我们打分或留下评论，这对其他听众找到本节目会有很大帮助。您可以在LennysPodcast.com查看往期节目或了解更多信息。下期节目再见。",
+   "ts": "02:34:34"
+  }
+ ]
+}

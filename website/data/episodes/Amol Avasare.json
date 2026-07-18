@@ -1,0 +1,905 @@
+{
+ "id": "Amol Avasare",
+ "name": "Amol Avasare",
+ "category": "运营/增长",
+ "identity": "营销/增长",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Amol+Avasare",
+ "bio": {
+  "en": "Amol Avasare is Head of Growth at Anthropic, which grew from $1 billion to over $19 billion in annual recurring revenue in roughly 14 months—one of the fastest growth runs in history.",
+  "zh": "Amol Avasare 是 Anthropic 的增长负责人，该公司在约 14 个月内将年度经常性收入从 10 亿美元增长到超过 190 亿美元，是史上增长最快的纪录之一。"
+ },
+ "summary": {
+  "en": "Amol describes the unique challenge of leading growth inside Anthropic, where much past playbook knowledge no longer applies and activation is a core hurdle. He shares clever growth moves like importing memory from ChatGPT and an internal effort called CASH (Claude Accelerate Sustainable Hypergrowth) to automate growth experimentation with Claude. The conversation covers why linear charts have given way to log-linear thinking and how the product's value may be 1000x greater within two years.",
+  "zh": "Amol 描述了在 Anthropic 领导增长的独特挑战——过去大量的增长方法论不再适用，而激活是核心难题。他分享了诸如“从 ChatGPT 导入记忆”等巧妙的增长动作，以及一个名为 CASH（Claude 加速可持续超增长）的内部项目，用 Claude 自动化增长实验。对话还涵盖为何线性图表已被对数线性思维取代，以及产品价值可能在两年内提升 1000 倍。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "A lot of companies claim to be the fastest growing companies of all time. Anthropic actually is. You guys were at a billion ARR at the start of 2025. The last number I've seen is 19 billion ARR. That's $1 to $19 billion in 14 months.",
+   "zh": "很多公司声称是有史以来增长最快的。Anthropic 真的是。你们 2025 年初 10 亿 ARR。我看到的最后数字是 190 亿 ARR。那是 14 个月从 1 美元到 190 亿美元。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Historically, we were very much the smallest, least well-funded player in this space. We didn't have the free cash flow or the distribution of a Meta or Google. We didn't have the first-mover advantage of an OpenAI. It's a complete miracle that we've gotten to the stage that we have.",
+   "zh": "历史上我们非常是这个领域最小、资金最少的玩家。我们没有 Meta 或 Google 的自由现金流或分发。我们没有 OpenAI 的先发优势。我们能到这个阶段完全是个奇迹。",
+   "ts": "00:00:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Give us just a glimpse of what is like to be leading growth inside of Anthropic.",
+   "zh": "给我们一瞥在 Anthropic 内部领导增长是什么样。",
+   "ts": "00:00:29"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It's the hardest job I've had in my life to come into Anthropic. You need to understand that 50%, 60%, 70% of how you operate in the past, just throw it out the door.",
+   "zh": "这是我人生中最难的工作来 Anthropic。你得明白你过去 50%、60%、70% 的运作方式就扔出去。",
+   "ts": "00:00:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One of the cleverest growth moves you all made was this idea of importing memory from ChatGPT.",
+   "zh": "你们做的最聪明的增长动作之一是从 ChatGPT 导入记忆这个 idea。",
+   "ts": "00:00:41"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Activation is a really big challenge in AI. We are starting to look at how do we automate growth. Our growth platform team is driving this effort called CASH, which is Claude accelerate sustainable hypergrowth. How can we use Claude to automate growth experimentation?",
+   "zh": "激活在 AI 是真大挑战。我们开始看怎么自动化增长。我们的增长平台团队在驱动一个叫 CASH 的 effort——Claude Accelerates Sustainable Hypergrowth。我们怎么用 Claude 自动化增长实验？",
+   "ts": "00:00:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it's delivering results, you're basically living in the future.",
+   "zh": "而且它在交付结果，你基本住在未来。",
+   "ts": "00:01:04"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "We always talk about the exponential. The product value that we will deliver in two years time is probably like 1000X, what it is today. The funniest thing is I've noticed internally, linear charts are just not cool. Everything is log linear. So show me at log linear scale.",
+   "zh": "我们总谈指数。我们两年后交付的产品价值大概是今天的 1000 倍。最有趣的是我内部注意到线性图不酷了。一切都是 log linear。所以给我看 log linear scale。",
+   "ts": "00:01:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Amol Avasare. Amol is head of growth at Anthropic, which is on the most unprecedented growth run in history. In the past 14 months, they grew from 1 billion to over 19 billion in annual recurring revenue. Just in the past few months, their revenue doubled. They've been growing 10X year-over-year. This is unheard of at the scale. By the time this episode comes out, their revenue will be even higher. To put this scale in perspective, companies like Atlassian, and Palantir, and Snowflake, which have been around for 15 to 20 years, each do something like 4.5 to 6 billion in ARR. Anthropic is adding this much ARR every few months. (00:02:04): And if that isn't interesting enough to you, Amol who leads growth at Anthropic is an incredible human. He previously led growth at Mercury and MasterClass. Before that, he was a founder and an investment banker. And most interestingly, something that most people don't know about him is that Amol suffered a severe brain injury. He had to spend nine months relearning how to walk and work and just not be nauseous all the time. He shared this story in a guest post in my newsletter a number of years ago. We actually chat about this during the conversation. These are my favorite kind of conversations because Amol and his team are living in the future and he's come to tell us where things are heading and what's going to change. (00:02:41): And in this episode, Amol shares an unprecedented look at how a company like Anthropic operates and grows. Including how they think about growth, what parts of the job they've automated, the future of the product and growth roles, how Amol got the job in the first place by cold emailing Mike Krieger and so much more. Amol is wonderful and just try to count the number of times that he blew my mind during this conversation. Before we get into it, don't forget to check out lennysproductpass.com for an incredible set of deals available exclusively to Lenny's newsletter subscribers. With that, I bring you Amol Avasare. (00:03:19): Amol, thank you so much for being here and welcome to the podcast.",
+   "zh": "今天的嘉宾是 Amol Avasare。Amol 是 Anthropic 的增长负责人，Anthropic 在历史上最前所未有的增长跑道上。过去 14 个月他们从 10 亿增长到超 190 亿 ARR。就在过去几个月他们收入翻倍。他们年同比 10 倍增长。这种规模前所未闻。到这期出来时他们收入会更高。把这种规模放进视角：像 Atlassian、Palantir、Snowflake 这种存在 15 到 20 年的公司各自 ARR 大约 45 到 60 亿。Anthropic 每几个月增加这么多 ARR。(00:02:04)：如果那还不够有趣，Amol——Anthropic 增长负责人——是个 incredible 的人。他之前在 Mercury 和 MasterClass 领导增长。在那之前他是创始人和投行银行家。最有趣的、大多数人不知道的是 Amol 遭受过严重脑损伤。他得花 9 个月重新学走路、工作、只是不一直恶心。他在几年前的我 newsletter 客座文章里分享了这个故事。我们在对话里聊了这个。这是我最喜欢的那种对话因为 Amol 和他团队住在未来、他来告诉我们事情往哪走、什么会变。(00:02:41)：在这期里 Amol 分享了前所未有的视角看像 Anthropic 这种公司怎么运作和增长。包括他们怎么想增长、自动化的工作部分、产品和增长角色的未来、Amol 怎么先通过冷邮件 Mike Krieger 得到工作等等。Amol 很 wonderful、你试着数他在这次对话里多少次 blow 我 mind。开始前别忘了看 lennysproductpass.com 获取 Lenny's newsletter 订阅者独享的 incredible 交易套装。带……",
+   "ts": "00:01:22"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Pleasure to be here.",
+   "zh": "很高兴来。",
+   "ts": "00:03:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Head of growth at Anthropic. No big deal. I've had a lot of people come on this podcast from companies that claim to be the fastest growing companies of all time. And Anthropic actually is, if you look at the trajectory, I just have some of the numbers here just so people understand how absurd this is. So you guys were at a billion ARR at the start of 2025, then hit something like 4 billion mid 2025, then 9 billion ARR at the end of 2025. And the last number I've seen is you guys are at 19 billion ARR, which just to put a couple pieces of context here, one is that's from $1 to $19 billion in 14 months. I have so many questions. First of all, the story of how you actually landed this role is really interesting. Talk about how you got this role.",
+   "zh": "Anthropic 增长负责人。没什么大不了。我在这播客上请过很多来自声称是有史以来增长最快公司的人。Anthropic 真的是，看轨迹的话我有些数字让大家理解这多荒谬。你们 2025 年初 10 亿 ARR，2025 年中 40 亿，2025 年底 90 亿。我看到的最后数字是 190 亿 ARR，给些 context：那是 14 个月从 1 到 190 亿美元。我有那么多问题。首先你怎么得到这个角色的故事很有趣。聊你怎么得到这个角色。",
+   "ts": "00:03:24"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, it's a little unorthodox. So it's funny, when I did my onboarding, they walked through what percentage of the cohort came through referrals, what percentage came through applying on the website, what percentage came through sourcing? And I was on none of those. And I was like, \"Okay, this is interesting.\" And basically the way that I got to Anthropic was that I was actually a user of Claude and I was using a lot. I was like, \"Man, these guys, great product, great company, but they really obviously don't have a growth team.\" And what I did was I just sent Mike Krieger a cold email. He was the chief product officer. I sent him a cold email saying like, \"Hey, love what you guys do, love the product. I think you guys badly need a growth team. Want to chat.\" And I didn't expect he would respond. (00:05:02): And he responds and says, \"Hey, yeah, I'm interested. Let's talk.\" And it's funny, I didn't know. I wouldn't have known. They were not hiring for a growth team. There were no growth PM roles listed, but they were just at that time starting to think about hiring a growth team. So it was very good timing. But yeah, spoke to Mike and one thing led to another. He said, \"I'm the only PM that he's hired from cold email.\" And I feel very lucky that he decided to respond to my email.",
+   "zh": "对，有点非传统。好笑的是我做 onboarding 时他们走过 cohort 多少来自 referral、多少来自网站申请、多少来自 sourcing。我不在其中。我就好这有趣。基本我到 Anthropic 的方式是我其实是 Claude 用户、用很多。我就这些家伙产品好、公司好但显然没有增长团队。我做的是给 Mike Krieger 发冷邮件。他是首席产品官。我发冷邮件说嘿，喜欢你们做的、爱产品。我觉得你们急需增长团队。想聊聊。我没指望他回。(00:05:02)：他回说嘿对，感兴趣。聊聊。好笑的是我不知道。他们没在招增长团队。没有增长 PM 职位列出，但他们那时刚开始想招增长团队。所以时机很好。但和 Mike 聊、一件事接一件事。他说我是他唯一从冷邮件招的 PM。我觉得很幸运他决定回我邮件。",
+   "ts": "00:04:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I did not know the story. That is another absurd fact. Clearly you're good at cold email. What did you do in this cold email to get his attention?",
+   "zh": "我不知道这个故事。那是另一个荒谬事实。显然你擅长冷邮件。你在这封冷邮件里做了什么得到他注意？",
+   "ts": "00:05:31"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I would say I've basically perfected cold email over the years. So when I was a founder, I had to get really, really good at this. So I sent a lot of cold emails out and just honed the subject line, the message, and the tone. And so basically in the subject line, the first thing is from a conversion standpoint, someone sees the email, they need to click on it. And so I have a copy that I've tested that is very, very high open rate. And so-",
+   "zh": "我会说我这些年基本 perfect 了冷邮件。我作为创始人时得变得非常非常擅长这个。我发了大量冷邮件、hone subject line、message、tone。基本从转化角度 subject line 第一件事是人看到邮件得点开。我有我 test 过的 copy 开信率非常高。所以——",
+   "ts": "00:05:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wait, what is this copy? Or is this a secret?",
+   "zh": "等等，这个 copy 是什么？还是秘密？",
+   "ts": "00:06:10"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It's a secret. I think [inaudible 00:06:12].",
+   "zh": "秘密。我觉得[听不清]。",
+   "ts": "00:06:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. We'll keep it a secret.",
+   "zh": "好。我们保密。",
+   "ts": "00:06:11"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It's a secret. So that's one, getting them to open. I think the second is then the tactics of you need to understand where are people getting outreach. And if everyone's getting outreach in one area and then you reach out to them there, then you're not going to get as high of a response rate. So you can think about LinkedIn, you can think about work email. These are things that everyone is emailing. So there's ways to get people's personal emails out there. And so that's one thing that I did. And so okay, I've got this personal email, I know the copy that works, and then it's just keeping it very short on here's who I am, here's why I'd be a good fit, and we should chat. (00:06:49): And these things typically don't work. And then you should always follow up a few times. I think my role of thumb is like, if I really care about it, I should just keep reaching out to them until they tell me, \"Please stop.\" And so I would've kept doing that, but he responded the first time.",
+   "zh": "秘密。那是第一，让他们打开。第二是战术你得理解人在哪被 outreach。如果大家都在一个地方被 outreach 你也那 outreach 那你的回复率没那么高。你能想 LinkedIn、工作邮件。大家都在那发。所以有办法搞到个人邮件。那是我做的一件事。好，我有个人邮件、知道 work 的 copy、然后保持很短关于我是谁、为什么我适合、我们该聊聊。(00:06:49)：这些通常不 work。然后你总该 follow up 几次。我的 rule of thumb 是如果我真在乎我就继续联系他们直到他们说请停。我会继续那样做但他第一次就回了。",
+   "ts": "00:06:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It makes sense that a talented growth person would be very good at cold email and getting people's attention. So that's almost like an interview step is just, did I want to read this email? (00:07:13): This episode is brought to you by our season's presenting sponsor, WorkOS. What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common? They are all powered by WorkOS. If you're building a product for the enterprise, you've felt the pain of integrating single sign-on, skim, R-back, audit logs, and other features required by large companies. WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS. Literally every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS, and that's because they are the best. Whether you are a seat stage startup trying to land your first enterprise customer or unicorn expanding globally, WorkOS is the fastest path to becoming enterprise ready and unblocking growth. It's essentially Stripe for enterprise features. (00:08:06): Visit workos.com to get started or just hit up their Slack where they have actual engineers waiting to answer your questions. WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience. Go to workos.com to make your app enterprise ready today. (00:08:23): Okay. So give us just a glimpse of what is like to be leading growth inside of Anthropic right now, the most by far fastest growing company in history. Just what is it like?",
+   "zh": "有道理一个有才华的增长人会很擅长冷邮件、得到人注意。所以那几乎像面试步骤是：我想读这封邮件吗？(00:07:13)：本期节目由本季呈现赞助商 WorkOS 赞助。OpenAI、Anthropic、Cursor、Vercel、Replit、Sierra、Clay 和数百家赢家公司有什么共同点？都由 WorkOS 驱动。如果你在为企业建产品你感受过集成单点登录、SCIM、RBAC、审计日志等大公司所需功能的痛苦。WorkOS 把那些交易障碍变成即插即用 API、一个专为 B2B SaaS 建的现代开发者平台。我投资的每家开始向上拓展的创业公司最后都在用 WorkOS，因为他们是最好的。无论你是种子期创业公司想拿下第一个企业客户还是全球扩张的独角兽，WorkOS 是迈向 enterprise-ready、解锁增长的最快路径。它本质是企业功能的 Stripe。(00:08:06)：访问 workos.com 开始或直接去他们 Slack 那里有真正工程师等着回答问题。WorkOS 让你用愉悦 API、详尽文档和流畅开发体验更快 build。去 workos.com 让你的 app 今天 enterprise-ready。(00:08:23)：好。给我们一瞥在 Anthropic 内部领导增长现在是什么样，by far 历史上增长最快公司。就是什么样？",
+   "ts": "00:07:03"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, I'd say it's very much a company-wide effort. So yes, we are the growth team. We have done great. I think we've driven a lot of impact. But honestly, man, we can't claim too much credit for the success of the company. We as Anthropic are really a model company and an intelligence company first and foremost. And so the lion's share of what has driven our success is our research team. We have, I think, the best research team in the world. We have great teams on inference and compute, and then there's many other teams like Claude Code, go to-market, et cetera, who I think deserve much more credit than us. I think just zooming out, going to some of what you said earlier, that the growth trajectory's just been insane. That 10X year-on-year revenue growth trend has been there since the beginning. I think 2023 was 0 to 100 mil, 2024 was 100 to 1, last year was 1 to roughly 10. (00:09:29): And I look back to when I joined in 2024, revenue was in the hundreds of millions and just that trajectory through the end of 2024 and 2025, week two of when I joined, we're going into 2025 revenue planning and we have these base case and aggressive case scenarios and Dario's pushing the aggressive case scenario and people are freaking out being like, \"How the hell are we going to hit that?\" And Dario's like, \"I think we can actually go much higher than that.\" And I'm coming in, this place is crazy, there's absolutely no way. And that happened. And then you get to the end of 2025 and it's like, okay, law of large numbers, there's going to be a pretty big slowdown here based on your baseline rate of 10 billion, how are you going to keep growing at this rate? And it just has not slowed down. (00:10:16): And those numbers are public. The 19 billion number you quoted is from the end of Feb, so that is also out of date. And look, it's absolutely insane. The funniest thing is something that I've noticed internally is linear charts are just not cool. No one cares about linear charts. Everything is log linear. You have to show me at log linear scale, and that's a scale we think. And I think overall, we're just really hanging on by the seat of our pants. So we're trying to manage the growth and do the best that we can for our users.",
+   "zh": "对，我会说非常是全公司 effort。对，我们是增长团队。我们做得好、驱动了很多影响。但老实说我们没法 claim 太多公司成功的 credit。我们作为 Anthropic 真的是模型公司和智能公司 first and foremost。所以驱动我们成功的 lion's share 是研究团队。我们有我认为世界最好的研究团队。我们在推理和计算上有好团队，还有很多其他团队如 Claude Code、go-to-market 等我觉得该得比我们多得多的 credit。我觉得 zooming out，回到你之前说的，增长轨迹就是 insane。10 倍年同比收入增长趋势从开始就在。我觉得 2023 是 0 到 1 亿、2024 是 1 亿到 10 亿、去年是 10 亿到大约 100 亿。(00:09:29)：我回看 2024 年加入时收入在几亿、那个轨迹到 2024 年底和 2025 年、我加入第二周我们进 2025 收入规划，我们有 base case 和 aggressive case 场景，Dario 推 aggressive case 场景、大家在 freak out like 我们怎么 hit 那个？Dario like 我觉得我们其实能更高。我进来这地方 crazy、绝对没法。那个发生了。然后到 2025 年底就 okay 大数定律、基于你 100 亿 baseline 会有 pretty big slowdown，你怎么保持这个速度增长？它就是没慢。(00:10:16)：那些数字是公开的。你引用的 190 亿是 2 月底的所以也过时了。看，绝对 insane。最有趣的是我内部注意到线性图不酷了。没人在乎线性图。每……",
+   "ts": "00:08:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was talking to somebody at Anthropic about you, and they said that basically anytime they want something to grow, they ask you to help and it works. So you talked about just things are magical and amazing and Claude and all the tools you all built are amazing innately, and that's a big part of the reason they grow. I think many people listening to this will be like, \"What do you even do, Amol, with a magical microgod that just can do anything for you? Why do we need a growth person? What do you even do?\" Talk about just the stuff that you focus on and maybe a couple of the wins that your team has shipped that has helped accelerate growth.",
+   "zh": "我和 Anthropic 某人聊你，他们说基本任何时候想让什么增长就找你帮忙、就 work。你谈事情 magical 和 amazing、Claude 和你们建的所有工具 innate amazing、那是它们增长的大原因。我觉得很多听这个的人会像你到底做什么 Amol，有个 magical 微神能为你做任何事？为什么需要增长人？你到底做什么？聊你聚焦的东西、也许你团队 ship 的几个帮加速增长的 win。",
+   "ts": "00:10:46"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I would say they're not fully wrong. We're very, very lucky to have the best models in the world. We're very lucky to have products like Claude Code and Cowork. It certainly makes life a lot easier. Having said that, I would say this is the hardest job I've had in my life, and that's having been a founder, having been an investment banker and other things like that, it's tough. And if I look at what do we do as a growth team here, I think ultimately it's the same categories of things that you would think about at a normal company. So we care about acquisition, how are we getting more people in the door, the intent of the people coming through the door. We care about activation, the signup flow, funneling people to the right products, making them successful. We care about things like monetization, free-to-paid conversion, pricing and packaging, all of that stuff that the categories of work is the same. (00:12:13): I think then probably the big differences is I would say that roughly 70% of what I spend my time on is what we internally refer to as success disasters. And that is where things have gone so well that other things are breaking now. And I think anyone who's worked at companies that have gone through rapid growth, you think like Facebook, or Uber, or DoorDash early on, they understand this viscerally where scaling this much just brings a lot of challenges. So if you think about each of those categories on acquisition, on activation, on monetization, there's just a ton of firefighting jumping from one urgent thing to another. And it's often extremely painful. And it's funny because you look at all the charts, all the charts are green, fully up onto the right, and everyone's just like, it can be quite tough emotionally still. And so you need to step back and just realize we're very lucky to have these problems. (00:13:07): But that's 70% of my time, I'd say, is just these firefighting of success disasters. And I think the 30% remaining is just much more standard bread and butter growth work where it's more proactive. So you think about, okay, if we have limited resources, we have many different products, which of the products do we want to put some juice behind? What does our long-term pricing and packaging look like, especially given that the technology's changing a lot and behavior and engagement trends are shifting. And then things like we have a lot of new products coming up like, okay, you ship Cowork, now what? When is the right time that we should lean in as a growth team to start optimizing the core adoption funnel for Cowork? So it's probably 70% just crazy firefighting, 30%, more bread and butter stuff.",
+   "zh": "我会说他们不完全错。我们非常非常 lucky 有世界最好模型。我们 lucky 有 Claude Code 和 Cowork 这种产品。它当然让生活容易得多。话说回来我会说这是我人生中最难的工作，那是做过创始人、投行银行家和其他那些，挺难。如果我看我们这里增长团队做什么，我觉得最终是你在正常公司会想的同样类别的东西。我们 care 获客——怎么让更多人进门、进门的人的意图。我们 care 激活——注册流程、funnel 人到对的产品、让他们成功。我们 care 变现——免费到付费转化、定价和打包所有那些类别的工作是一样的。(00:12:13)：我觉得然后大概大不同是我会说我大约 70% 时间花在我们内部叫 success disasters 的。那是事情太好了现在别的在坏。我觉得在快速增长公司工作过的人——你像 Facebook、Uber、DoorDash 早期——viscerally 理解这个，scale 这么多带来很多挑战。所以你想每个那些类别——获客、激活、变现——就有大量 firefighting 从一个紧急跳到另一个。经常极其痛苦。有趣的是你看所有图都绿、全往上右、大家就 emotional 上挺难。所以你得退一步 realize 我们很 lucky 有这些问题。(00:13:07)：但那 70% 时间就是这些 firefighting success disasters。我觉得剩 30% 就是更标准……",
+   "ts": "00:11:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I'm going to dig into a lot of that stuff. One of the cleverest growth moves you all made recently was this idea of importing memory from ChatGPT where you just made it really easy and jumped on this trend of people getting really excited about Anthropic. Is there anything you could share about the behind the scenes story of that feature?",
+   "zh": "好。我要 dig into 很多那个。你们最近做的最聪明增长动作之一是从 ChatGPT 导入记忆这个 idea，你让大家很容易、跳上大家对 Anthropic 兴奋的趋势。那个 feature 背后故事有什么能分享？",
+   "ts": "00:13:53"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "We're just thinking about what can we do to improve the cold start problem and improve the new user experience. I think that activation is a really big challenge in AI. And so that's one example of something that we shipped that was very specific to a moment in time. But ultimately that you zoom out, it's like, okay, how do you really make it easier for people who are signing up to have Claude understand who they are and understand how Claude can help them and get them to the right place?",
+   "zh": "我们就在想怎么改进冷启动问题、改进新用户体验。我觉得激活在 AI 是真大挑战。那是一个我们 ship 的、非常特定于一个时间点的东西的例子。但最终你 zoom out 就 okay，你怎么真让注册的人更容易让 Claude 理解他们是谁、理解 Claude 怎么帮他们、把他们带到对的地方？",
+   "ts": "00:14:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to follow that thread, activation. That's something that comes up a ton when I talk to people leading, driving growth on AI products. It's just there are so much stuff trying to get your attention these days for people to get to a place where they, okay, wow, this is really going to be something I want to keep using. It proves to be really hard. And it's also just unreliable sometimes, it's not going to be magical. It's AI, it's non-deterministic. I guess, one, is just how important is focusing on activation, getting people to that aha moment with AI products? And two, what are some things you've learned about how to do that well with Claude or AI in general?",
+   "zh": "我想跟激活那条线。那是我和领导驱动 AI 产品增长的人聊时大量出现的。就是现在有那么多东西试得到你注意、让人到那个 wow 这真是我要继续用的地方。证明挺难。也有时不可靠、不会 magical。是 AI、非确定。我猜一是聚焦激活多重要、让人到 AI 产品的 aha 时刻？二是什么你学到怎么用 Claude 或 AI 一般做好那个？",
+   "ts": "00:14:43"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, it's a good question. I think that activation, it's critical and defining that as early activation, call it day zero, day one product experience. I think that historically anyone who's been in growth or been in product understands that that's usually one of the highest levers that you have to actually even increase longer term retention. And I think that the importance of that has just gotten exponentially higher. Now, zooming out, I feel like one of the biggest problems in the industry is capability overhang where the models are just getting better so quickly. And the real challenge is on the product side of how do we start to diffuse those benefits to people where even internally, there's new models coming internally and you're sitting there, you're so busy. And when a new model's available, you need to really carve out time to be like, \"What can this do? How do I need to update my priors?\" (00:16:14): And if you think about more broadly for most people, you may have a model that is like, you may have AGI or some model that can do all sorts of crazy things, but if people's instinct is to come there and be like, \"Hey, what's the weather in SF?\" Then they're not going to get the most out of the product. And so I think that it's tough because the model capabilities are rising so much. So if I think about, okay, back when we had, I don't know, I want to say Opus 4, there's a series of things the model can do at that point, and Opus 4.5 unlocked a whole bunch of new things. You think about, okay, we sit there, we've got this new model, Opus 4. The time to then go and run a bunch of tests, figure out, okay, there's the capabilities from this new model, what are the right on ramps to guide people to those features? (00:17:03): You run tests, you get the learnings, you then ship a new flow. By then, you may already have the next model, which unlocks newer capabilities that makes all these learnings irrelevant. So it's actually just a really difficult problem to stay on top of. I think that many of the same things, same old trends in growth and activation remain, I think, accurate where to me it's like ultimately some of the highest leverages from finding the right product or the right feature for the right user. And I think that one learning, seeing this time and time again across companies, actually the right friction helps and adding more friction usually works if you do it the right way. I think that's something I've consistently seen that we've seen here as well. So to me, I think it's really being able to identify what are the characteristics of a user that allows you to then recommend them to the right feature or product and not being shy about adding friction to do that, I think is probably the single biggest thing that's important here.",
+   "zh": "对，好问题。我觉得激活——定义为早期激活，叫 day zero、day one 产品体验——我觉得历史上在增长或产品的人都理解那通常是你提升长期留存的最高杠杆之一。我觉得那个重要性指数级更高了。现在 zooming out，我觉得行业最大问题之一是能力 overhang，模型变得更好太快。真挑战在产品侧怎么开始把那些 benefit 扩散给人，甚至内部新模型来、你坐着那么忙。新模型可用时你真得 carve out 时间 like 这能做什么？我怎么更新我的 priors？(00:16:14)：如果你想更广对大多数人，你可能有模型能做各种疯狂事，但如果人的 instinct 是来那里 like 嘿 SF 天气怎样？那他们不会从产品得到最多。所以我觉得难因为模型能力上升那么多。所以如果我想，好，回我们有 Opus 4 时有一系列模型能做的事，Opus 4.5 解锁了一堆新事。你想 okay 我们坐这有新模型 Opus 4。到 then 去跑一堆测试、figure out 好有新模型能力、什么是引导人到那些 feature 的对 on ramp？(00:17:03)：你跑测试、得 learning、ship 新流程。到 then 你可能已有下一个模型解锁新能力让这些 learning 无关。所以它就是个真难的保持……",
+   "ts": "00:15:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When I asked Ben Mann, one of the co-founders, former podcast guest, what to ask you about, and this is what he highlighted, is your experience, especially at Mercury redoing onboarding and making it magical. And basically he's in the same place as you of just how important it is for people to understand what the AI tool is capable of to help people decide to use it and stick with it. Is there an example of something you changed in onboarding that helped significantly improve activation?",
+   "zh": "我问 Ben Mann——联合创始人、前播客嘉宾——该问你什么，他 highlight 的就是这个，你的经验尤其在 Mercury 重做 onboarding 让它 magical。基本他在同一位置，怎么重要让人理解 AI 工具能做什么、帮人决定用它、坚持。有没有例子你在 onboarding 改了什么显著提升激活？",
+   "ts": "00:18:05"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, it's a great question. And I like that it brings up Mercury. I talk about their product a lot. So worked on the growth team at Mercury, I think it's a fantastic product. It's something many people use, and the reason they use it is because the better banking experience than its-",
+   "zh": "对，好问题。我喜欢它 bring up Mercury。我常谈他们产品。在 Mercury 增长团队工作，我觉得是 fantastic 产品。很多人用，原因是比其……",
+   "ts": "00:18:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I'm a very happy customer just to put that out there. I love it.",
+   "zh": "对，我是非常开心客户就说一下。我爱它。",
+   "ts": "00:18:47"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It's a great product. Highly recommend it. They have personal banking. Everyone should go and use it.",
+   "zh": "好产品。强烈推荐。他们有个人银行。大家都该去用。",
+   "ts": "00:18:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right. They just launched that.",
+   "zh": "对。他们刚 launch 那个。",
+   "ts": "00:18:54"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "And so I think that the interesting thing about Mercury is the core value is that it's a better experience. That's the reason you use it. You're not getting better other things, just it's a better product experience. And so that ethos is very, very deeply held within the company. It comes from a number of the founders. And I think that we had a big push one quarter when I was there on the onboarding flow. So onboarding flows for banking institutions and regulated entities are extremely complex. The amount of time I've spent on the difference between a registered agent address and a legal address and a physical address, these things are very, very complex. And we basically looked at the onboarding flow and we were like, okay, we've invested so much in quality and the rest of the product, but we haven't really done it here. And this is the first experience that people have. (00:19:48): And so we said, forget metrics, forget growth, forget everything else. As the growth team on conversion, we're going to spend a whole quarter fixing quality in this flow. And so that's all we did. Forget the metrics. We're just going to make this as good of an experience as we can and fix all these. You go back from one field to the other field and adding in your beneficial ownership details. And it actually ended up being, and probably until I joined here, the single most impactful quarter that I've ever had as a growth PM in terms of the impact that it had. And so we saw a significant uplift on basically our onboarding started to completion from just focusing on quality. (00:20:28): And so that to me is a broader learning around quality drives growth that I think I've tried to bring to Anthropic. I think for us at Anthropic, some of the things that we've done in the onboarding flow is basically we ask users questions around who they are, what their interest areas are. And we then use that to recommend different products and features. And number of people look at the flow and they're like, \"You have so much friction. It's such a long flow.\" And I'm like, \"We have the data. We're kind of happy with how that's performing.\"",
+   "zh": "所以我觉得 Mercury 有趣的是核心价值是更好体验。那是你用的原因。你不会得到更好的别的，就是更好产品体验。那个 ethos 在公司非常深深持有。来自一些创始人。我觉得我在那里时有一季度大推 onboarding 流程。银行机构和受监管实体的 onboarding 流程极复杂。我花在注册代理地址 vs 法定地址 vs 物理地址区别上的时间，这些东西非常复杂。我们基本看 onboarding 流程就好我们投了那么多在质量和产品其余部分但这里没真做。这是人的第一体验。(00:19:48)：所以我们说忘指标、忘增长、忘一切。作为转化增长团队我们要花一整季度修这个流程的质量。就做那个。忘指标。就让它尽可能好的体验、修所有这些。你从一个字段回另一个字段、加 beneficial ownership 详情。它其实 turn out 是、可能直到我来这里、我作为增长 PM 有过的单季度最大影响。我们看到 onboarding 开始到完成显著提升就因为聚焦质量。(00:20:28)：所以那对我来说是更广的学习：质量驱动增长，我觉得我试带到 Anthropic。我觉得我们在 Anthropic onboarding 流程做的一些是基本问用户问题关于他们是谁、兴趣领域。然后我们用那个推荐不同产品和 feature。很多人看流程 like……",
+   "ts": "00:18:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is your kind of philosophy on good friction versus bad friction?",
+   "zh": "你对好摩擦 vs 坏摩擦的哲学是什么？",
+   "ts": "00:20:57"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I've just seen time and time again at every job I've been in growth that adding friction and adding the right steps leads to higher conversion and higher funnel completion. So you want to get rid of... And especially if you have high volume, you should test the majority of this and just learn and see, does this apply to your business as well? But you want to get rid of annoying friction that doesn't add value. But I think the most simple understanding people have is just solve time for value, cut all the steps and just get them into the product. And that doesn't work most times. I think if you've really thoroughly tested your flows, I look at the companies I've been at, MasterClass. If you go through MasterClass's purchase flow right now, you'll go through all these steps in this quiz when you land on, when you're trying to buy. (00:21:57): And you're like, \"I came here to buy and it's taking me through all these questions, what are you here for, et cetera.\" I think it's easy to look at that and be like, \"Why do they have this? This is a terrible thing. Just cut it all.\" And it's like, no, that's been thoroughly tested. And actually that was a significant revenue driver because it helps users feel that the product is for them by understanding what their interests are and then recommending the content and classes there. One of the growth PMs on our team left to join Calm, Calm.com, the meditation app. If you go to Calm's, their landing page and you go through their purchase flow, their login flow, you'll see a quiz. It's not a coincidence that at Mercury we also tested, I think Immad posted on Twitter, we broke out some steps in onboarding. And just having one screen, if you have five or six different form inputs and you often break that into two screens and reduce the cognitive load to people, that is something that performs well. (00:22:54): We added steps into the flow there that actually performed well, same at Anthropic. So I think that the takeaway to me is cut friction when it doesn't add to the experience of helping a user understand why the product is for them. But if you can help users understand a product, why product is for them and how to use it and what's most relevant to them, and it's going to add friction, don't shy away from it. Test it, confirm that it works for you, but I think this is something that most growth practitioners deeply understand.",
+   "zh": "我在每个增长工作里一次次看到加摩擦和加对步骤导致更高转化和更高漏斗完成。所以你想去掉……尤其如果你有高量你该测大部分这个就学、看这适用于你业务吗？但你想去掉不增值的烦人摩擦。但我觉得最简单的理解是就解决 time to value、cut 所有步骤就把他们弄进产品。那大多时候不 work。我觉得如果你真彻底测过流程，我看我待过的公司，MasterClass。如果你现在过 MasterClass 购买流程，你会过这些 quiz 步骤当你着陆、试买时。(00:21:57)：你就我来买还带我过这些问题、你来这为什么等等。我觉得容易看那个 like 为什么有这个？这是 terrible。就全 cut。而 no 那被彻底测过。其实那是显著收入驱动因为它帮用户感觉产品是给他们的、通过理解他们兴趣然后推荐内容和课程。我们团队一个增长 PM 离开去 Calm、Calm.com 冥想 app。如果你去 Calm 着陆页过购买流程、登录流程你会看到 quiz。不是巧合在 Mercury 我们也测过，Immad 发过 Twitter，我们在 onboarding 拆出步骤。就一个屏幕如果你有五六个不同表单输入你常 break 成两屏减少认知负荷，那个 perform 好。(00:22:54)：我们在那里加步骤 perform 好，Anthropic 同样。所以我觉得 takeaway 是 cut……",
+   "ts": "00:21:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And for them is really important there, what you described is adding friction to better understand who they are so that you know how to recommend the right thing for them.",
+   "zh": "对他们在那里很重要，你描述的是加摩擦更好理解他们是谁这样你知道怎么推荐对的东西。",
+   "ts": "00:23:28"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Correct. Yes. And that done right, it just flows through. So it helps you with activation, but then it helps you with lifecycle. You know more about those users and why they're here. And most sophisticated businesses, you can then, even if someone drops off, you can do lookalike targeting and you can get them at the ad layer as well. So that initial piece of how you understand who the user is just like it's a juice that just keeps on giving if you then use it right for the down funnel.",
+   "zh": "对。是。那个做好就 flow through。所以帮你激活、然后帮你 lifecycle。你更了解那些用户和为什么来。大多数成熟业务你能然后即使有人 drop off 你能做 lookalike targeting、在广告层获取他们。所以最初你理解用户是谁那块就像果汁不断给如果你下游用对。",
+   "ts": "00:23:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Everyone's about to go do a bunch of tear downs of Claude's onboarding, MasterClass onboarding, Mercury onboarding. As a tangent, I was at this PM dinner recently and I was asking all the PMs, how has your role as a PM changed most with AI? Where has AI most impacted what you do? And one of the PM's answer that is actually doing competitive analysis, doing a bunch of teardowns of what other people are doing for pricing pages and onboarding. So it's easy to do now. Just, \"Hey, Cowork...\" I don't know, would you use Cowork for this or Claude? What would you use for that? Okay, this is good. Help people pick which tool to use. If you want to go do a bunch of teardowns of other competitors' onboarding flows, what would you use?",
+   "zh": "大家要去拆解 Claude onboarding、MasterClass onboarding、Mercury onboarding。作为 tangent 我最近在这个 PM 晚宴问所有 PM：AI 怎么最改变你 PM 角色？AI 最影响你做什么？一个 PM 回答其实是做竞品分析、拆解别人定价页和 onboarding。现在容易做。就嘿 Cowork……不知道你会用 Cowork 做这个还是 Claude？你会用什么？好，帮大家选哪个工具。如果你想拆解竞品 onboarding 流程你会用什么？",
+   "ts": "00:24:06"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "You can use Cowork for this, right? So you have Cowork with the Chrome extension. So if you task Cowork with a Chrome extension, go and look for these flows and give me a view of what's working, what's not. That's definitely something that Cowork can do.",
+   "zh": "你能用 Cowork 做这个对吧？Cowork 有 Chrome 扩展。如果你 task Cowork 带 Chrome 扩展去看这些流程、给我什么 work 什么不的 view。那是 Cowork 能做的。",
+   "ts": "00:24:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. And I imagine that's one of the challenges is you have all these tools now, just which ones for me. By the way, the Chrome extension, I use it all the time. It's amazing. I want to drill a little bit further into the growth org. There's this whole meme on Twitter the other day of just like you have one growth marketer driving all growth at Anthropic and it's like, okay, that's crazy. How many growth people are there? What's the rough org structure of the growth team?",
+   "zh": "酷。我猜挑战之一是你有所有这些工具就哪个给我。顺便 Chrome 扩展我一直用。太棒了。我想再 drill 增长组织。Twitter 上有个 meme 就像你们只有一个增长 marketer 驱动 Anthropic 所有增长就 okay 那 crazy。有多少增长人？增长团队大致 org 结构？",
+   "ts": "00:24:58"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "We're roughly maybe 40 people now. And so we are, I think, structured very much like a traditional growth team in that we have horizontals of growth platform and monetization who think about the sphere of growth across the entirety of our products. And then we have more audience-focused growth pods. You can think about B2B growth, you can think about Claude Code growth, knowledge worker growth, API growth. So really these audiences to keep a narrow focus, which is the thing you have to do when you have so many different products. And then these horizontals that think about things across the board.",
+   "zh": "我们现在大约 40 人。我们我觉得结构非常像传统增长团队，有 horizontals of growth platform 和 monetization 想跨所有产品的增长 sphere。然后有更受众聚焦的增长 pod。你能想 B2B 增长、Claude Code 增长、知识工作者增长、API 增长。真这些受众保持窄聚焦，当你有这么多产品你该做的。然后那些 horizontals 跨一切想。",
+   "ts": "00:25:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And is it across a team of engineers, designers, PMs? What's the functions within this growth org?",
+   "zh": "是跨团队工程师、设计师、PM 吗？增长 org 内什么职能？",
+   "ts": "00:26:05"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, it's engineers, designers, PMs, data. I think that overall the shape of the org is quite similar to, I'd say a traditional growth team. Probably the things that are maybe different is that I think that we index a lot more towards larger swings as opposed to smaller optimizations. If I think about a traditional growth team, I would've probably done maybe 60%, 70% of my time on small to medium bets, 20% to 30% on larger swings. And I think that for us, we flip it a lot. We do much more the other way where it's 70-30 or more like 50-50 rather than indexing towards smaller bets. That's probably one of the biggest changes, I think.",
+   "zh": "对，工程师、设计师、PM、数据。我觉得 org shape 整体和传统增长团队挺像。大概不同是我们 index 更多大 swing vs 小优化。如果我想传统增长团队大概 60%、70% 时间在小到中 bet、20% 到 30% 大 swing。我觉得我们 flip 很多。我们做更多另一边 70-30 或更像 50-50 vs index 小 bet。那大概最大变化之一。",
+   "ts": "00:26:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to highlight that, what's interesting there is at the scale you guys are at, a 1% win is massive in the scheme of things. So it's interesting that even at the scale you're at, you're not focusing on these micro optimizations.",
+   "zh": "就 highlight 那个，有趣的是在你们规模 1% win 在 scheme 里 massive。所以有趣即使你规模你也不聚焦这些微优化。",
+   "ts": "00:27:06"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It is easy. You could easily focus on these small optimizations and then you tally them up at the end of the quarter and you're like, \"Look how much impact we made.\" And you could do that.",
+   "zh": "容易。你能容易聚焦这些小优化然后季度末 tally 就看我们做了多少影响。你能那样做。",
+   "ts": "00:27:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Another billion. No big deal.",
+   "zh": "又一个十亿。没什么。",
+   "ts": "00:27:26"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. But the thing is we've been tracking at 10X year-on-year, and that's the thing that we keep in mind. And I think it ultimately comes down to our fixation of this company about the exponential. I think if you look at anyone who's talking from Anthropic about basically anything, we always talk about the exponential. It's effectively as model capabilities continue to grow on an exponential and the tools around them enable a better job of diffusing that into useful use cases, you basically just keep unlocking new markets where the value of those markets significantly dwarfs what the value of the previous markets were. And agentic coding's a great example. It didn't exist a year, a year and a half ago. And then now just the value of agentic coding is bigger than the previous market of AI coding use. (00:28:22): And so I think that is the core thing here where just that the future product value is in order of magnitude higher than it is today. And I think about, I don't know, a normal business, number of companies that I maybe mentioned, or you think about a trading app or a grocery delivery product, many of the leading companies, they're great businesses. But if I think about what is the product value that a company, like a standard, call it a grocery delivery app, what is the product value you get as an end user today versus two years from now? I look at it as like, okay, in two years from now, even if you're shipping all these new products, as an end user, the value you get-",
+   "zh": "对。但我们一直 10 倍年同比、那是我们记住的。我觉得最终归到我们公司对指数的 fixation。如果你看 Anthropic 任何人谈基本上任何事我们总谈指数。effectively 随模型能力继续指数增长、周围工具 enable 更好 diffusion 到有用用例你基本持续解锁新市场，那些市场价值显著 dwarf 前市场。agentic coding 是好例子。一年一年半前不存在。然后现在 agentic coding 价值比之前 AI coding 用市场大。(00:28:22)：所以我觉得那是核心这里，未来产品价值比今天高一个量级。我想 normal business，我提到的公司数，或你想交易 app 或杂货配送产品，很多领先公司是好业务。但如果我想一个公司比如标准杂货配送 app 的产品价值，你作为终端用户今天 vs 两年后？我看 like 两年后即使你 ship 所有这些新产品，作为终端用户你得到的价值……",
+   "ts": "00:27:27"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "You're shipping all these new products. As an end user, the value you get from that product maybe goes up 30 to 50% if the company's done a really good job of shipping new features. It's not exponential though. (00:29:12): And so if I think about, \"Okay, you're here today. In two years, you're going to have 30 to 50% more product value.\" Then as a growth team, the relative differential of the product value in two years from now relative to today, I can actually capture a decent percentage of that with the small to medium optimizations that typically have higher conviction as opposed to larger bets. (00:29:36): But for Anthropic, it's not really that way, where because of the exponential and our products being very, very, very ... The product value coming from AI, the product value that we will deliver in two years' time is probably a 1,000x, a 100 to a 1,000x what it is today. (00:29:58): And so if I think about that, and it's like there's so much value on offer, you need to shift more towards, \"Okay, we need to take larger bets and we need to not miss the forest for the trees.\" And so that's why we still do all the smaller optimizations. It really matters, and no one else is going to do some of these things and so we need to do it. The compounding value is not immaterial, but we do take on much larger core productey type of swings as well. (00:30:25): So you mentioned the Chrome Extension. That is now the thing that underpins a number of use cases on Cowork and Claude Code as well. And that's something that the growth team built. That's a very AI-peeled product that is a very research-heavy product that we were just bullish on it. We had an engineer who was very bullish on it and we were just like, \"Hey, no one else is doing it. We're going to do it.\" And so that's the sort of thing that I wouldn't have done at another company.",
+   "zh": "你 ship 所有这些新产品。作为终端用户你从那个产品得到的价值大概涨 30 到 50% 如果公司在 ship 新 feature 上做得很好。不是指数。(00:29:12)：所以如果我想好你今天在这、两年后你会有 30 到 50% 更多产品价值。那作为增长团队，两年后产品价值相对今天的相对差异，我其实能用小到中优化 capture 那个的 decent 百分比，那些通常有更高 conviction vs 大 bet。(00:29:36)：但对 Anthropic 不是那样，因为指数和我们产品非常非常非常……来自 AI 的产品价值，我们两年后交付的产品价值大概是 1000 倍、100 到 1000 倍今天。(00:29:58)：所以如果我想那个就那里有那么多价值 offer 你得 shift 更多到好我们得 take 更大 bet、我们得不见森林只见树。所以那就是为什么我们仍做所有小优化。真 matter、没人会做这些事所以得做。复合价值不 immaterial 但我们确实也 take 更大核心产品类 swing。(00:30:25)：所以你提到 Chrome 扩展。那个现在 underpin 很多 Cowork 和 Claude Code 用例。那是增长团队建的。那是非常 AI pilled 产品、非常研究重的产品我们就 bullish。我们有个工程师很 bullish 就好没人做、我们做。那是我在别的公司不会做的事。",
+   "ts": "00:29:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow. I did not know that. So one takeaway here is there's stuff to extract from your advice that is only true in Anthropic and then there's, what can other companies learn from this experience that you've had? (00:31:09): So one is, is your sense that if you're working in AI, shift more of the pie chart towards bigger bets because in the future, the opportunity is so large, you want to find those as soon as possible versus micro-optimize?",
+   "zh": "哦哇。我不知道那个。所以一个 takeaway 是从你建议里有只对 Anthropic true 的、别的公司能从你经验学到什么？(00:31:09)：所以一是你感觉如果你在 AI 工作，把饼图更多 shift 到大 bet 因为未来机会那么大你想尽快找那些 vs 微优化？",
+   "ts": "00:30:53"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "To be more specific there, I would say that if the primary value that your product delivers is underpinned by AI as a central element of it, then I think you should operate this way. So I don't know, companies like Lovable, Cursor, all these great businesses that are, as the exponential rises, their value props are also going to continue to rise significantly. (00:31:50): If you're building a product where it's an AI-first product, then I would definitely operate in this way. I think if you're building a product where it's not necessarily an AI- first product and you have some AI features that are on the side, but it's not the core of your value, I don't know that I would operate this way. It would depend on how is the rest of the product org staffed and how is the growth org staffed in relation to that.",
+   "zh": "更具体说，我会说如果你产品交付的核心价值以 AI 为核心要素 underpin，我觉得你该这样 operate。我不知道，像 Lovable、Cursor 这些好业务，随指数上升它们 value prop 也会继续显著上升。(00:31:50)：如果你在建 AI-first 产品我 definitely 这样 operate。如果你建的不一定是 AI-first、有一些 AI feature 在旁边但不是核心价值，我不知道我会这样 operate。取决于产品 org 怎么 staff 和增长 org 怎么 relation 那个。",
+   "ts": "00:31:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, awesome. And then in terms of the way you are structured, I thought that was really interesting. It's a combination of different sorts of things. So there's the API growth, there's Claude Code growth, but then there's also personas, like a vertical of knowledge workers and B2B. Is that intentional, some specific bets and one just broad market opportunity?",
+   "zh": "好，太好了。然后你们结构方式我觉得很有趣。是不同种类组合。有 API 增长、Claude Code 增长但也有人设如知识工作者和 B2B 纵向。那是 intentional 吗，特定 bet 和一个 broad 市场机会？",
+   "ts": "00:32:14"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "When you have one product, it's easier to have a growth team that's more purely on the funnel. It's like you have the conversion, you have activation, you have monetization. But as you start to get into having multiple products, I think that's harder because if you do that, then if you just have one activation team, for example, but then you have Claude Code, you have Cowork, you have all the other things. They're very different audiences and they're very different sets of cross-functional stakeholders internally. (00:33:01): So we're kind of looking at, what is the thing? And all org structures are not perfect and they're right for a point in time, but we're looking for what is the structure that allows us to have as much focus. Focus is a really big thing, and on audience and problems. (00:33:19): And also, the tie-ins to cross-functional partners is really, really important. The folks on our Claude Code growth team, they work extremely closely with Cat and Boris and the others on that team. And so that tie-in is really important as well.",
+   "zh": "当你有一个产品更容易有增长团队更纯在 funnel。你有转化、激活、变现。但当你开始有多个产品我觉得那更难因为如果你就一个激活团队但你又有 Claude Code、Cowork、所有别的。它们是非常不同受众和非常不同跨职能 stakeholder 内部。(00:33:01)：所以我们在看什么是 thing？所有 org 结构不完美、它们对某时间点对。但我们在找什么结构让我们有尽可能多聚焦。聚焦是很大的事，在受众和问题上。(00:33:19)：还有和跨职能 partner 的 tie-in 非常非常重要。我们 Claude Code 增长团队的人和 Cat 和 Boris 和那个团队其他人 work 非常紧密。那个 tie-in 也重要。",
+   "ts": "00:32:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So you've done growth at a lot of different companies, a lot of basically, let's call it traditional growth before Anthropic. How else is growth as a function and as a skillset changing with the rise of AI, AI products, and AI startups?",
+   "zh": "你在很多不同公司做过增长，基本叫传统增长 before Anthropic。增长作为职能和技能集随 AI、AI 产品、AI 创业公司崛起还在怎么变？",
+   "ts": "00:33:34"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I think if your core product value is very backed by AI, then it is shifting where you're skewing more towards larger bets as opposed to smaller, medium experiments. I think in other things, it may be a big thing related to this that I think will accelerate this, which I am really interested to see how it will play out, is we are starting to look at how do we automate growth, which I think is a really interesting area. (00:34:16): So our growth platform team, we're very lucky we have Alexey Komissarouk who teaches growth engineering at Reforge, and he's just the guy on the team. And so he is driving this effort. The name is, it's a little cringey. I didn't come up with it. And it's called CASH, which is Claude Accelerates Sustainable Hypergrowth. I did not come up with that, but really it's an effort to look at how can we use Claude to automate growth experimentation? (00:34:48): And it is still very, very small. It's still very, very early. We kicked it off only, I think, a couple of months ago. I think before Opus 4.5, it wasn't really possible. We were just not seeing the results. And more recently with Opus 4.6 we're like, \"Okay, this is headed in the right direction.\" (00:35:07): And so this, I think, it will happen more and more across the industry, where basically if you think about, okay ... I think this can happen all across product, but growth teams in particular because there's this whole body of work that is very small optimizations, I think are just more inherently suited to tackle this earlier. (00:35:29): I think if you think about the lifecycle of shipping, there's four parts to it. One is identifying opportunities. How good is Claude at actually identifying opportunities based on different trends, based on previous trends that Claude has seen in the past? Second is then building the actual feature and getting it ready to ship. Third is testing and ensuring that it meets your quality bar and your brand bar. And then fourth is then once you've actually shipped the thing, analyzing the data, gathering the learnings. (00:36:02): If you think about that as the loop of, \"Okay, these are four things that you can eval and hill climb on each of these areas and understand how good is a model doing for you there.\" And we basically think about it in that four ways and we are scoring how good is Claude doing in each of those areas. (00:36:24): And so we've been testing this at pretty small scale right now. It's been a lot of copy changes and some very minor UI tweaks. It's delivering results and it's like you can push it, press play with it. And it ultimately prints money where I'd say that the win rate is like, I would expect a senior PM to do better. I would say this is a junior PM, two, three years in. I would say this is the win rate that I would expect from a junior PM, but it's not quite at the senior PM level. Although, I think you look at the exponential, this wasn't available at all a couple of months ago. So it's getting better rapidly. (00:37:03): And I think that it's going to change where you'll be able to do this for larger and larger types of experiments. But then you think about the largest types of experiments, I think that I mentioned the four pieces around identifying opportunities, building, testing and shipping. The one I didn't mention there, Lenny, is cross-functional stakeholder management.",
+   "zh": "我觉得如果你核心产品价值很 AI backed 那它在 shift 你 skew 更大 bet vs 小中实验。我觉得别的可能和这个相关、我觉得会加速这个的，是我很有兴趣看怎么 play out 的，是我们开始看怎么自动化增长，我觉得是很有趣领域。(00:34:16)：我们增长平台团队，很 lucky 有 Alexey Komissarouk 在 Reforge 教增长工程，他就是那个人。他 driving 这个 effort。名字有点 cringey。不是我起的。叫 CASH——Claude Accelerates Sustainable Hypergrowth。不是我起但真的是看怎么用 Claude 自动化增长实验的 effort。(00:34:48)：仍非常非常小。仍非常非常早。我们几个月前才 kick off。我觉得 Opus 4.5 之前不真可能。我们就没看到结果。最近 Opus 4.6 我们就好这个朝对方向。(00:35:07)：所以这个我觉得会跨行业越来越多发生，基本如果你想 okay……我觉得这能跨产品发生但增长团队尤其因为有这整个非常小优化的工作体我觉得更 inherent 适合更早 tackle 这个。(00:35:29)：如果你想 shipping 生命周期有四部分。一是识别机会。Claude 多擅长基于不同趋势、基于 Claude 过去见过的趋势识别机会？二是然后建实际 feature 准备 ship。三是测试确保达到质量和品牌 bar。然后四是然后一旦你 actual……",
+   "ts": "00:33:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's still a need for human brains. There is.",
+   "zh": "仍需要人脑。是。",
+   "ts": "00:37:26"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "And I think that that one is going to mean that in my eyes, the work of PMs is not going away actually, anytime soon. And that piece, especially for larger projects. Usually, you don't need to do as much of it for smaller stuff. You can skip it. But for larger stuff, that piece is not going away.",
+   "zh": "我觉得那个在我眼里意味着 PM 的工作其实不 anytime soon 消失。那块尤其对大项目。通常小的不需要那么多。能 skip。但大项目那块不消失。",
+   "ts": "00:37:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Until the other stakeholders have their own little agents running around.",
+   "zh": "直到其他 stakeholder 有自己的小 agent 跑来跑去。",
+   "ts": "00:37:51"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I think that's right. I think that would be the point where it changes. It's funny, we had a difficult meeting a couple of weeks ago, and me and our head of design, Joel, we were debriefing afterwards. And he pings me, he's just like, \"Amol, we will have AGI and it will still be impossible to get six people in a room to get to align.\" And I'm like, \"Yeah, I think I can say that.\"",
+   "zh": "我觉得对。我觉得那是改变的点。有趣我们几周前有个难会议，我和我们设计负责人 Joel 之后 debrief。他 ping 我就 Amol 我们会有 AGI 但仍不可能让六个人在房间对齐。我就对我觉得我能说那个。",
+   "ts": "00:37:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's the harder alignment problem? Oh, okay. This is so interesting and this is exactly where I feel like things are going. So just to be clear what you shared here, there's basically this tool that comes up with experiments to run, to help grow Claude and all the tools. (00:38:36): So it comes up with idea, somebody looks at them, approves, \"Cool, let's do these things.\" Builds it, ships it, tests the results, see how it's doing, and then comes back of, \"Here's things that are working.\" Is that roughly right?",
+   "zh": "什么对齐问题更难？好这个太有趣这正是我感觉事往哪走。所以澄清你分享的基本有这个工具出实验 idea 帮 Claude 和所有工具增长。(00:38:36)：所以它出 idea，人看、approve、酷做这些。建、ship、测结果、看怎样、然后回来这是 work 的。大致对吧？",
+   "ts": "00:38:16"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It's roughly right. And right now, we have human in the loop approving, but the amount of time, I kind of think about scale in this way of just week on week, are things getting better in each of the areas? Are people spending less time on each of the areas? Are the results getting better in each of the areas? (00:39:04): And as long as week on week, that's getting better, then you're like, \"Okay, this whole initiative is scaling.\" And so that's roughly right, but you can think about it as, I think a lot of this can be automated where human review is not needed. (00:39:17): So we care a lot about our brand, right? So that is something that we do look at right now. We don't want to be shipping something that goes against the brand, but then you can have a skill that contains your brand guidelines and very clear, yet dos and don'ts on brand. (00:39:36): And so all of these types of accompaniments, I think are going to get better. The model's going to get better at understanding how to use them. And so over time, I think that the need to human review this really, really decreases significantly.",
+   "zh": "大致对。现在我们有 human in the loop approve，但多少时间我这样想 scale——每周每个领域在变好吗？人在每个领域花更少时间吗？每个领域结果在变好吗？(00:39:04)：只要每周在变好你就好这个 initiative 在 scale。所以大致对，但你能想很多这个能自动化不需要人 review。(00:39:17)：我们很 care 品牌。那是我们现在确实看的。我们不想 ship 违背品牌的东西，但你能有 skill 包含你品牌指南和非常清晰的品牌 dos and don'ts。(00:39:36)：所以所有这些类型的 accompaniment 我觉得会变好。模型会变好理解怎么用它们。所以随时间我觉得需要人 review 这个真显著减少。",
+   "ts": "00:38:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, and you could always unship it if it's like, \"Oh yeah, that was actually not a great idea.\" And that's such a good point that we think we need people to do these things forever. And it turns out, \"Okay, a skill could do this really well. Here's our brand guidelines, here's our vision, here's our mission, here's our goals, here's what matters to us. Okay, no, let's not ship that thing.\" (00:40:06): So the reason I think this is so interesting, I've just been watching the expansion of AI doing more of the product development process, in this case the growth process of just, okay, it went from helping you write code, to writing all your code, to reviewing your code. Now it feels like, what are the two ends around this? It's kind of going from the middle up. The top of that is coming up with what to do and then there's the alignment stuff's still very hard. (00:40:32): And then on the other end, it's reviewing the code and then shipping it and then get distribution. That's a whole other thing I want to talk to you about. So what I'm hearing here, and this is exactly what I thought was going to start happening, is AI is now getting really good at telling us what to do, not just taking our orders and building it. (00:40:49): And it feels like the growth version of this is where it starts because it's so much simpler, not that growth is easy, but just like it's data-driven, there's this loop that you talk about. So I think this is such an interesting sign of things to come across just generally, product.",
+   "zh": "对你总能 unship 如果 like 哦那其实不是好 idea。这很好一点我们想我们需要人永远做这些。turns out 好一个 skill 能做这个很好。这是品牌指南、愿景、使命、目标、什么对我们重要。好不 ship 那个。(00:40:06)：所以我觉得这个太有趣的原因是我一直在看 AI 做更多产品开发过程的扩张，这次是增长过程就 okay，它从帮你写代码到写所有代码到 review 你代码。现在感觉这个两端是什么？从中间往上。上面是想出做什么然后对齐仍很难。(00:40:32)：然后另一端是 review 代码然后 ship 然后得分发。那是另一件事我想和你谈。所以我听到这个——正是我以为会开始发生的——AI 现在变得很擅长告诉我们做什么，不只接我们订单建它。(00:40:49)：感觉增长版这是开始的地方因为它更简单，不是说增长容易但就 data-driven、有你谈的 loop。所以我觉得这是 across 产品 generally 未来的信号。",
+   "ts": "00:39:50"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:41:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just putting that out there. Okay. So something that I'm constantly thinking about along these lines is just the future of product PM engineering, how those roles shift over time based on the stuff we're talking about. (00:41:18): How are you working together as a triad and where do you see these roles going? What's most going to change, do you think, across these three roles?",
+   "zh": "就放那。好。我一直在想这条线就是产品 PM 工程的未来，这些角色怎么随时间 shift 基于我们聊的。(00:41:18)：你怎么作为 triad work？你觉得这些角色去哪？三个角色什么最会变？",
+   "ts": "00:41:05"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "This is something that we talk about and think about frequently, and the picture changes rapidly. So sometimes when things break, execution, like the bottlenecks break, historically in the past it's like, \"Okay, now you need to hire more engineers, you need to hire more designers,\" et cetera. And it's more just a lifecycle thing of, where is the lifecycle of your team and that specific pod to identify where the bottleneck is? (00:41:51): But now when things break, you need to still look at it, of, \"Okay, is it the actual ratio or is there also underlying technological shifts that are also causing this to break?\" And so that's an interesting thing. I think that smaller companies, if I'm at a 15 or 20-person company, I'm the only PM there working with some designers and engineers, I think in the smaller companies, you'll see probably the biggest blend, where the PM will be doing all sorts of ... They'll be designing, shipping, et cetera, and I think you just have extreme bifurcation. (00:42:24): You know, at larger organizations, more scaled organizations, I think the jury is still very much out. You speak to people even internally here, and different people and different teams will have different views of, \"Okay, how much are these roles coming together versus how much are these roles going to be separate?\" I think that it's not to say even the PMs, number of PMs are shipping, and themselves shipping and pushing PRs, et cetera. (00:42:51): But if I look at, okay, across what I'm seeing, I think that it's clear that while PMs and designers are getting more leverage from AI, engineering is getting the most leverage right now. I look at tools like Claude Code, and the amount of leverage engineers are getting from them is higher than, I think the leverage that designers and PMs are getting from them today. (00:43:15): Now, this is rapidly also changing, but that to me is my view today. And so if you think about, okay, a default team, which is, say five engineers, one designer, one PM. With Claude Code, that five engineers is two to 3xed. And the PMs and designers have also increased, but now they're managing what is effectively a much larger group of engineers. (00:43:42): And so even though the headcount and the org structure hasn't changed, you're now just dealing with a situation of maybe 15 to 20 engineers in the old world, one and a half to two PMs, and maybe one and a half to two designers. And so we're seeing that that's putting a lot of strain on PM and design. And it's not everywhere. (00:44:04): I look at teams like Claude Code and I think that, or because that product is so technical, it's probably just the right thing, where the PMs are all basically engineers themselves anyway. But we had a product, like a PM lead on site the other week, and we were all just talking about this where across the board we're feeling this, where PM and design is just squeezed. It's just absolutely squeezed. (00:44:26): And we're like, \"Is the right thing here, we just need to actually hire a ton more PMs?\" And it could actually be where we land. On growth, how I think about it is, one, we are hiring a number of growth PMs. We desperately need people who are very, very good, and we are hiring. So if you are excited by what we're doing and you know growth, please feel free to apply. Would love to chat and-",
+   "zh": "这是我们经常谈和想的事，画面快速变。所以有时东西 break、执行、像 bottleneck break，历史上过去就好现在你该雇更多工程师、雇更多设计师等等。更多是生命周期的事，你团队和那个 pod 的生命周期在哪识别 bottleneck 在哪？(00:41:51)：但现在东西 break 时你仍得看 okay 是 actual ratio 还是也有 underlying 技术转变也在造成这个 break？那是有趣的事。我觉得小公司如果我在 15 或 20 人公司、我是唯一 PM 和一些设计师工程师 work，我觉得小公司你会看到最大 blend，PM 会做各种……他们设计、ship 等等，我觉得你有 extreme bifurcation。(00:42:24)：你知道，在大组织、更 scale 组织我觉得 jury 仍 very much out。你和人聊甚至内部这里，不同人不同团队会有不同 view 好这些角色多少合 vs 多少分。我觉得不是说甚至 PM，PM 数在 ship、自己 ship 和 push PR 等等。(00:42:51)：但如果我看 across 我看到的，我觉得 clear 虽然 PM 和设计师从 AI 得到更多 leverage，工程现在得到最多 leverage。我看 Claude Code 这种工具、工程师从它们得到的 leverage 比 PM 和设计师今天得到的高。(00:43:15)：现在这个也在快速变，但那是我的今天 view。所以如果你想 okay 默认团队比如五工程师、一设……",
+   "ts": "00:41:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe craft an amazing cold email to you.",
+   "zh": "也许 craft 一封 amazing 冷邮件给你。",
+   "ts": "00:44:58"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, yeah, yeah. Feel free to craft that email. So that's one, is I think we are going to be hiring in a number of PMs. But then the second thing that we do is we very much hire product-minded engineers. I think this has always been the best thing to do in growth. You always want to have the engineers coming up with ideas, et cetera, especially people who can really step in as mini PMs if the PM is absent. (00:45:29): And so we're basically more formally leveraging that right now because we are so stretched. So, the frame that we have is that if a project is two weeks of engineering time or less, then the engineer is on the hook to effectively be the PM for that. And so that means things like talking to security, talking to legal, talking to cross-functional stakeholders, and the engineer is very much driving that. The PM will get looped in and they'll advise if needed. And if something's wildly going off track, then they'll step in, but they're much more in an advisory capacity versus execution. If a project is more than two engineering weeks, then the default is that the PM should continue to be on the hook for making that go well. They'll still delegate more to eng, but they're squarely accountable. (00:46:19): It's not fully clean-cut. It's like, use your head. If this is a one-week thing, but it's extremely controversial, the PM should probably still drive it. But that, I think is the approach that I expect more companies will start to do, which is just deputize the engineers to be mini PMs. (00:46:37): Now, not everyone can do it. So the PMs, the engineers who are more product-minded, suddenly their value goes up significantly in order of magnitude. And then I think we will probably still be hiring a lot of PMs.",
+   "zh": "对对对。feel free craft 那邮件。所以那是一，我觉得我们会招一些 PM。但第二我们非常招 product-minded 工程师。我觉得这在增长一直是最该做的。你总想工程师出 idea 等等，尤其能真 step in 当 PM 不在时做 mini PM 的人。(00:45:29)：所以我们现在更正式 leverage 那个因为我们太 stretched。所以 frame 是如果项目是两周工程时间或更少，工程师 hook 实际做那个的 PM。那意味着和 security 谈、和 legal 谈、和跨职能 stakeholder 谈，工程师 very much driving。PM 会 looped in、advise 如果需要。如果 wildly off track 他们 step in 但更多 advisory capacity vs 执行。如果项目超两周工程时间，默认 PM 该继续 hook 让那个好。他们仍 delegate 更多给 eng 但他们 squarely accountable。(00:46:19)：不是完全 clean-cut。用你头。如果这是周但极 controversial PM 大概仍该 drive。但那个我觉得是我预期更多公司会开始做的，就是 deputize 工程师做 mini PM。(00:46:37)：现在不是人人能做。所以 PM、更 product-minded 的工程师突然价值涨一个量级。然后我觉得我们可能仍会招很多 PM。",
+   "ts": "00:45:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There is so much interesting stuff I want to follow up on here. Okay, so one is this idea of two weeks, just briefly. I always joke as a PM, you can go on vacation and be away for a couple of weeks from your team and things are going to be all right. There's a momentum, there's a plan, people keep operating, and it feels like that's kind of this rule of thumb you use of just, \"Okay, if it's a two-week project, you'll be all right without a PM. You can handle it.\" (00:47:16): I love that those two connect. Okay. The other here is so interesting. So you're saying here that because engineers are so accelerated, and this all makes sense, PMs and design are kind of just like, \"Holy.\" It feels like hard to keep up with this pace of engineering. And what you're saying is you need more and more PMs to keep up. (00:47:33): That's one route, or it's engineers that can PM essentially, which is so funny. It's just like, okay, great news for the product managers until more of the PMey stuff can be done by AI. But that's a really interesting trend. I don't know, is there anything else there just like, \"Oh wow, we actually may need more PMs\"? The ratio of more PMs, fewer engineers might be the future.",
+   "zh": "这里那么多有趣东西我想 follow up。好，一是两周这个 idea 简短。我总开玩笑作为 PM 你能度假离开团队几周一切 fine。有动量、有计划、人继续 operate，感觉那是你的 rule of thumb 就好如果两周项目你 PM 不在也 fine。(00:47:16)：我爱那两个 connect。好。另一个这里太有趣。你说因为工程师那么加速、这都说得通，PM 和设计就 holy。感觉难跟上工程 pace。你说的是你需要越来越多 PM 跟上。(00:47:33)：那是一条路，或工程师能 PM essentially，太好笑。就 okay 对 PM 好消息直到更多 PM 类东西能被 AI 做。但那真有趣趋势。不知道还有别的 like 哦哇我们可能需要更多 PM？更多 PM 更少工程师的比例可能是未来。",
+   "ts": "00:46:52"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. I think it just really depends on the industry, the size of company. Any company where you're building something that's much more developer-focused, you're going to rely on the engineers a lot more. Earlier companies, you don't have as much of this cross-functional coordination, stakeholder alignment nonsense that you need all these PMs for, so you can get by with less. (00:48:17): But then as a company scales, and if I think about, okay, now you have this ratio where maybe the one PM became two PMs from productivity, that the five engineers became 20 engineers, the one designer maybe became three designers. If you think about what is the best use of time for that PM, I think this is a really interesting thing, of how much should PMs be actually shipping things themselves versus everything else? (00:48:46): I think in the world where you're limited on engineering, the PM should definitely be shipping things. I think in today's world, it's a good way to get an understanding of the tools, which is really important. So the PM should be shipping for that reason. But if I'm one PM or two PMs and there's 20 engineers, I think about what is the incremental value I can add with my time? And is it actually shipping the 21st PM feature or is it saying, \"How am I getting a little bit better at guiding the team on what the right opportunities are?\" (00:49:21): And so that's where I think in this world, you may have all these engineers who are like mini PMs, and the better that happens, that's where I would love to be doing more of. But still, if you then get a really good PM who can come in and can improve that, the why and the what particularly by 5%, that is such a high leverage higher.",
+   "zh": "对。我觉得真取决于行业、公司大小。任何公司你在 build 更 developer 聚焦的东西你会更依赖工程师。更早公司你没有那么多跨职能协调、stakeholder 对齐 nonsense 你需要这些 PM 的所以你能用更少。(00:48:17)：但随公司 scale 如果我想好现在你有这个比例也许一个 PM 变两 PM 从生产力、五工程师变 20、一设计师也许变三。如果你想那个 PM 时间最好用在哪，我觉得这很有趣，PM 多少该自己 ship vs 别的？(00:48:46)：我觉得在工程 limited 的世界 PM definitely 该 ship。我觉得今天世界这是理解工具的好方式很重要。所以 PM 该 ship 因为那个。但如果我一个 PM 或两个 PM 和 20 工程师，我想我时间能加的 incremental value 是什么？是 actual ship 第 21 个 PM feature 还是说好我怎么更好引导团队在对的机会上？(00:49:21)：所以那里我觉得在这个世界你可能所有这些工程师像 mini PM，那个越好发生我越爱做那个。但仍如果你然后得到一个真好 PM 能来提升那个 why 和 what 特别 5%，那是非常高 leverage hire。",
+   "ts": "00:47:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is such an interesting insight you're making. It's so counter to how a lot of people are thinking PM is evolving. What I'm hearing here is, because PMs are so behind, because engineers are just getting so much done, there's many people here, \"Okay, you need to be prototyping, you need to be shipping PRs as a PM.\" (00:50:01): What you're saying, which I completely agree with, is your time is much better spent helping PM basically, and helping the engineers become better PMs themselves. And the leverage there is a lot higher than you spending time coding, shipping PRs in most cases.",
+   "zh": "这是非常有趣 insight。和很多人想 PM 演化相反。我听到的是因为 PM 那么落后、因为工程师做那么多，有很多这里好你该 prototype、该 ship PR 作为 PM。(00:50:01)：你说的我完全同意是你的时间更好花帮 PM essentially、帮工程师自己变更好 PM。那个 leverage 比你花时间编程、ship PR 高很多在大多情况。",
+   "ts": "00:49:45"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I think that's true in certain circumstances. I think that as a smaller company, I don't know that that's the case. In a smaller company where it's all hands on deck, I think you probably need to be shipping. I think if you're in a company where budgets are very tight, and engineers are very tight, and you're not able to just hire because money's unlimited, then you need to do what is needed to accelerate the impact your team's going to have. Right? (00:50:42): So there's going to be a number of cases, where as a PM, the right thing to do is to be like, \"Screw it. I'm shipping and I'm going it the whole way.\" But I'm talking here more about the larger companies, more scaled businesses. (00:50:58): Yeah, if you have 20 engineers, is it the highest use leverage of your time to ship an extra feature, or figure out how do I up-level everything that we're doing, get the user insights better, et cetera?",
+   "zh": "我觉得在某些情况 true。我觉得小公司我不觉得那是 case。小公司 all hands on deck 我觉得你大概该 ship。我觉得在公司预算很紧、工程师很紧、你没法就 hire 因为钱 unlimited，你得做需要的加速你团队影响的事。对吧？(00:50:42)：所以会有一些 case 作为 PM 该做的是 screw it 我 ship 我 go all the way。但我这里更多谈大公司、更 scale 业务。(00:50:58)：对，如果你有 20 工程师，你时间最高 leverage 是 ship 一个 extra feature 还是 figure out 怎么 up-level 我们做的一切、让 user insight 更好等等？",
+   "ts": "00:50:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. And I think there's also an element of shipping to learn, building a prototype so that you can have a better opinion. A lot of people talk about just, \"I'm just going to try three things, see how it goes and that'll help inform the roadmap.\" This is now the PRD, is look at it instead of talking about it. So there's a lot of value there still.",
+   "zh": "对。我觉得还有个元素 ship 来学、建 prototype 让你有更好 opinion。很多人谈就我要试三件事看怎样那会帮 inform 路线图。现在这是 PRD，是看它 vs 谈它。所以那里仍有很多价值。",
+   "ts": "00:51:14"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "That's very true. I think that's a great point. So even for me now where we've got number of PMs, we've got many engineers, there are certain times when I'm like, \"I want to articulate the idea I have in my head.\" It's just better for me to prototype it and show it. Right? So I think that is really important. (00:51:46): And then we are very scrappy. So we're a big company by name, valuation, but we're extremely scrappy, and just the focus internally is just minimize bureaucracy and just go. And so probably 70%, maybe 60, 70, 80% of what we ship does not have a PRD. I'm averse to PRDs. I think I just hate documentation. (00:52:10): I'm just like, \"Go, go, go. Just cut the blockers.\" 20, 30% of stuff where it's like, it's important, it's really important to get right. The documentation should be really good and that people should spend a lot of time on it. But by and large, I think PRDs are just outdated at this point, and you can just kick things off with a good team without needing to do that sort of thing.",
+   "zh": "那很真。我觉得那是好点。所以即使我现在有 PM、有很多工程师，有时我 like 我要 articulate 我脑里的 idea。就我 prototype 它和展示更好。对吧？所以我觉得那很重要。(00:51:46)：然后我们非常 scrappy。所以我们是名义上大公司、估值但非常 scrappy，内部聚焦就是最小化官僚就 go。所以大概 70% 也许 60、70、80% 我们 ship 的没有 PRD。我 aversion PRD。我觉得我就是 hate 文档。(00:52:10)：我就 go go go 就 cut blocker。20、30% 重要的、真重要做对的。文档该很好、人该花很多时间。但总的来说我觉得 PRD 现在过时了，你能用一个好团队 kick off 不需要做那种事。",
+   "ts": "00:51:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Say more about that. What do you do to help make sure, because people can build so fast, or spend a lot of time going in the wrong direction, ship things that are not what you're asking? How do you kick off a project and clarify, \"Here's what we're doing\"? Is it just a conversation or is there anything beyond that?",
+   "zh": "多说说那个。你怎么确保因为人能 build 那么快或花很多时间走错方向、ship 不是你要的？你怎么 kick off 项目、clarify 这是我们在做的？就是对话还是有别的？",
+   "ts": "00:52:34"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It really depends on the size of it. And this kind of goes back to the two-week thing. So why we have that two-week thing, it's more like, how do I have some filter to say if we're investing heavily into something, we should apply more thinking behind it versus if it's a smaller set of investments, just go for it? (00:53:06): And as a growth team, again, you do have a decent amount of these smaller things that you do. So for very small changes, like, \"Oh, there's a thing coming. We need to have an upsell for it. What is it the thing we're doing?\" This is just on Slack. This is just purely on Slack. It's just messages back and forth. (00:53:24): And I think it also depends on having a good caliber of engineer in there, but engineers can understand, like, \"Hey, I know you said this, but what about that for the audience?\" And so we're lucky we have good product-minded engineers in that sense, but all these smaller things are very much just on Slack back and forth, and that's what you do. (00:53:45): For the larger things, I think I very firmly believe in a proper kickoff. So we still do ... Just there's so much going on at this place. No one's got time, no one knows what's going on. And so doing a cross-functional kickoff, get legal, get safeguards, get everyone in the room and just be like, \"This is what we plan to do. What do you care about? What do you care about? What do you care about?\" (00:54:06): That 30-minute meeting for larger things is just, I think, still so important to just streamline all the mess that may happen later if you don't do that work early on.",
+   "zh": "真取决于大小。这回到两周那个。为什么两周那个更像怎么有 filter 说如果我们重投某个东西我们该 apply 更多思考 vs 如果小投资就 go。(00:53:06)：作为增长团队你确实有 decent 量小东西。所以很小改动 like 哦有个东西要来。我们该有 upsell。我们在做什么？就在 Slack。纯在 Slack。就消息来回。(00:53:24)：我觉得也取决于有好的工程师 caliber 在里面，但工程师能理解 like 嘿我知道你说这个但对那个受众怎么样。我们 lucky 有好 product-minded 工程师那个 sense，但所有这些小东西非常在 Slack 来回，就那样。(00:53:45)：对于大的我非常 firmly believe 正式 kickoff。所以我们仍做……就是这地方那么多事。没人有时间、没人知道什么在发生。所以做跨职能 kickoff、请 legal、请 safeguards、请所有人进房间就这是我们计划做的。你 care 什么？你 care 什么？你 care 什么？(00:54:06)：那个 30 分钟会议对大的我觉得仍那么重要就 streamline 后面如果不早做那个 work 可能发生的 mess。",
+   "ts": "00:52:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's your approach to crafting that PRD in those cases? Is it ramble into Claude? Is it, do you have a template?",
+   "zh": "那些 case 你怎么 craft PRD？是 ramble 进 Claude？有 template？",
+   "ts": "00:54:17"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Even in those cases, there are times I don't craft a PRD because everything's moving so quickly, right? So there's still some of those cases where I just set up the meeting and then five minutes before, I'll put it into Cowork, some of my thoughts, what credit. \"Here are the things that I need to think about,\" spin up a basic doc and we use it to talk. Other times I won't even have a doc. (00:54:45): But if I am creating a PRD, I have basically, a skill that they've created, and then there's projects with all the previous PRDs in there, and then it's pretty simple. It has the format down so I'll just say, \"Here are the things I care about. Here's the why. Here's the problem,\" and flesh out the key considerations, flesh out the cross-functional stakeholders, those types of things. (00:55:12): But again, my default is if I can avoid the doc and if we can just jump to action, then that's what we should do and increasingly just jump to prototyping the thing.",
+   "zh": "即使那些 case 有时我不 craft PRD 因为一切 move 那么快对吧？所以仍有些那个 case 我就 setup 会议然后 5 分钟前我 put 进 Cowork 一些想法什么 credit。这是我要想的，spin up 基本 doc 我们用来谈。其他时我甚至没 doc。(00:54:45)：但如果我在 create PRD，我基本有他们 create 的 skill，然后有 projects 带所有之前 PRD，然后挺简单。format 有了我就说这是我在乎的、这是为什么、这是问题，flesh out 关键考虑、flesh out 跨职能 stakeholder 那些。(00:55:12)：但再说我的 default 是如果能避免 doc、能就 jump 到 action 那我们该做、越来越就 jump 到 prototype 那个东西。",
+   "ts": "00:54:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. And that's where I think it'll get so interesting once we can automate more of that, just like your assistant talking to the legal assistant, just ironing out all these little, what's important to you, what's important to the ...",
+   "zh": "对。我觉得那里会很有趣一旦我们自动化更多那个，就你的 assistant 和 legal assistant 谈，ironing out 所有这些小什么对你重要、什么对……",
+   "ts": "00:55:24"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yes, and it's coming. And I think the legal team has done good enablement around this. We work as versions of, how do you ... You can think about how can you mimic what someone might say and set up a Claude. Right? So there's things like that, that I think that we have now. (00:55:53): And then as Claude gets more and more context and gets better at parsing long contexts, I think these are things that Claude will just get better at knowing. One of the things, Lenny, it's a slight tangent, but one of the, I think, most effective ways I use Claude, or one of the most interesting ways I use Claude, which I see a number of people doing internally is to help you identify misalignment. (00:56:17): This is, I think something that I found really, really helpful. So with Cowork, you have the Slack MCP, and you can tell Cowork to say basically, \"Look across Slack. You know the projects that I'm working on. These are the things that are top of mind. Go and find me areas of potential misalignment right now.\" And it does a really, really good job. (00:56:39): So this is something that I've scheduled runs every week. Claude's looking at things and coming back to me and saying, \"Hey, I think these things you should be aware of.\" And so you can think about in that shipping context, it's a similar thing where Claude can basically be looking at what's happening across the company and say, \"You're thinking about shipping this thing. Here's who you need to talk to. Here's what you need to keep in mind.\"",
+   "zh": "是，在来。我觉得 legal 团队在这个上做了好 enablement。我们 work 成版本的，你怎么……你能想怎么 mimic 某人可能说的、setup 一个 Claude。对吧？所以有那种事我觉得我们现在有。(00:55:53)：然后随 Claude 越来越多 context、变更好 parse 长 context，我觉得这些 Claude 会 just 变更好知道。一件事 Lenny 稍 tangent 但我觉得我 use Claude 最有效的方式之一、或最有趣方式之一，我看到一些内部人做的是帮你识别 misalignment。(00:56:17)：这个我觉得我发现真真真有帮助。Cowork 你有 Slack MCP，你能 tell Cowork 基本 look across Slack。你知道我在做的项目。这是 top of mind。去找我现在 potential misalignment 的区域。它做真真真好 job。(00:56:39)：所以这是我有 scheduled runs 每周。Claude 看东西回来给我说嘿我觉得这些你该 aware。所以你能想在 shipping context 那是类似 Claude 基本 能看 cross 公司发生什么说你 thinking about shipping 这个。这是你该谈的。这是你该 keep in mind。",
+   "ts": "00:55:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so cool. I am so excited to tell you about this season's supporting sponsor, Vanta. Vanta helps over 15,000 companies, like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers. (00:57:16): Teams are building and shipping products faster than ever, thanks to AI. But as a result, the amount of risk being introduced into your product and your business is higher than it's ever been. Every security leader that I talk to is feeling the increasing weight of protecting their organization, their business and not to mention, their customer data. (00:57:35): Because things are moving so fast, they are constantly reacting, having to guess at priorities and having to make do with outdated solutions. Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA. This helps companies get compliant fast, and stay compliant. More than ever before, trust has the power to make or break your business. Learn more at vanta.com/lenny and ...",
+   "zh": "那太酷了。我太兴奋告诉你这季的 supporting sponsor Vanta。Vanta 帮超过 15000 家公司如 Cursor、Ramp、Duolingo、Snowflake、Atlassian 赢得和证明与客户的信任。(00:57:16)：团队比以往更快 build 和 ship 产品，多亏 AI。但结果引入你产品和业务的风险比以往高。每个我谈的安全 leader 都在感受保护组织、业务、还有客户数据的越来越重。(00:57:35)：因为东西 move 那么快他们不断 react、得猜优先级、得过时解决方案凑合。Vanta 自动化合规和风险管理，超 35 个安全和隐私框架包括 SOC 2、ISO 27001、HIPAA。这帮公司快速合规、保持合规。比以往更多，信任有力量 make or break 你业务。在 vanta.com/lenny 了解更多……",
+   "ts": "00:57:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... your business. Learn more at vanta.com/lenny. And as a listener of this podcast, you get $1,000 off Vanta. That's vanta.com/lenny. (00:58:10): I feel like there's this like, what are the jobs of a product manager, and then how are they slowly going to be supported/done by AI? So there's this misalignment, just like fine misalignment, and then maybe one day, it'll be like, aligned people initially. You talked about this cash automation for growing, like, how do I grow this product? That's starting to happen. Another that I use myself when I'm building stuff is just asking, \"How do I make this product better? How do I make this a better user experience?\" And asking the AI to just give me a bunch of ideas, and they're actually really good. (00:58:41): So it's interesting how these little pieces are starting to be put into place to do more and more of this role. I'm curious what other automations you have and your team have that are effective. What I love about these conversations is you're basically living in the future. You're working on the most bleeding edge company with the most talented people, with the most cutting edge tools. And you can see where things are going and start to actually live in the future, build things that nobody else has even thought about or can do. I'm curious just what else is working, what else your team has done to help save you time, be more productive?",
+   "zh": "……你业务。在 vanta.com/lenny 了解更多。作为这播客听众你享 Vanta 1000 美元 off。就是 vanta.com/lenny。(00:58:10)：我觉得有这个 PM 的工作是什么、然后怎么慢慢被 AI 支持/做？所以有这个 misalignment、就 fine misalignment，然后也许一天会像初始对齐人。你谈这个 cash automation 增长 like 我怎么增长这个产品？那个开始发生。另一个我自己 build 时用的是就问怎么让这个产品更好？怎么让这个更好用户体验？问 AI 给我一堆 idea，它们真好。(00:58:41)：所以有趣这些小 piece 开始 put 进 place 做越来越多这个角色。我好奇还有什么自动化你和团队有效的。我喜欢这些对话的是你基本住在未来。你在最 bleeding edge 公司和最有才华的人、最 cutting edge 工具。你能看往哪走、开始实际住在未来、build 没人想过或能做的事。我好奇还有什么 work、你团队做了什么帮你省时间、更高效？",
+   "ts": "00:58:00"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "We use it pretty extensively across the board, right? So there's this standard PM stuff like writing docs, brainstorming, looking at data. For data, I personally have like, Coworker runs on a schedule and looks at 20, 25 different charts every morning. And then so when I come in the morning, there's just so many charts, so many products to track. Cowork will tell me, \"Okay, here are the things that you should pay attention to. Here's what is concerning, and here are just some interesting insights.\"",
+   "zh": "我们 pretty extensively 跨一切用对吧？所以有标准 PM 东西如写 doc、brainstorm、看数据。对于数据我个人有 Cowork schedule 跑、每天早上看 20、25 个不同 chart。然后我早上来就有那么多 chart、那么多产品 track。Cowork 告诉我好这是你该注意的。这是 concerning、这是有趣 insight。",
+   "ts": "00:59:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it sends you an update in Slack, or what's the workflow?",
+   "zh": "它在 Slack 发你 update 还是 workflow 怎样？",
+   "ts": "00:59:45"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "For me, it just shows, it comes up in Cowork. So Cowork has a schedule-",
+   "zh": "对我来说就 show、在 Cowork 出来。Cowork 有 schedule——",
+   "ts": "00:59:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In the desktop app?",
+   "zh": "在 desktop app？",
+   "ts": "00:59:52"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. In the desktop app, you can have a scheduled task that you create. And so I have a bunch of Hex links that it will go and look at. It uses the Chrome extension for some things and it uses MCP for other things, and then it'll just give me a summary, and then I know... I saw this one, a few charts that I just like to look at because I was just like, \"I'm a numbers guy. I just like charts.\"",
+   "zh": "对。desktop app 你能 create scheduled task。所以我有 bunch Hex link 它会去看。用 Chrome 扩展做一些、用 MCP 做别的，然后给我 summary，然后我知道……我看这个一些 chart 我喜欢看因为我就我是数字人。就喜欢 chart。",
+   "ts": "00:59:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They all open to the right too. So that one was, yeah, nice.",
+   "zh": "它们都开到右边。那个是 yeah nice。",
+   "ts": "01:00:18"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. I like to see the chart. But then there's the long tail of things, and even the medium tail where it's like, you don't have time to look at it every day, that if Claude is proactively looking at it and you start to feel good over time of, okay, it's like the false positive rate is going down, the false negative rate is going down of the things that Claude brings to you, then you just get a little bit more confidence and peace of mind there.",
+   "zh": "对。我喜欢看 chart。但然后有长尾的东西、甚至中尾你没时间每天看，如果 Claude proactive 看你随时间开始感觉好 okay false positive 率在降、false negative 率在降 of Claude 带给你的，你就得更多 confidence 和 peace of mind。",
+   "ts": "01:00:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This touches on an idea I've always had that Teams will have is a strategy bot, which just imagine an agent that's just constantly watching metrics, the market, the roadmap, what's working, what's not. And just like, Tamil, \"Here's what I think we should do now. Here's the pivot we should take. Here's where we're going to win.\" It feels like we're very close to that.",
+   "zh": "这 touch 一个我一直有的 idea 团队会有的是 strategy bot，想象一个 agent 不断看指标、市场、路线图、什么 work 什么不。就 hey 我觉得我们现在该做这个。这是我们该 take 的 pivot。这是我们要赢的地方。感觉我们很接近那个。",
+   "ts": "01:00:46"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I think we're close. I think we'll get there later this year, to the point where that's very, very effective. That's my gut. I think that level of proactivity and looking across a bunch of context and distilling insights, I think is... The thing I mentioned earlier, learning about the alignment piece, that's like a version of it, right? Now you're just looking at across more data sources. This is something that I use. So I talked about some of the standard PM stuff, brainstorming, data, UXR. There's a lot of like, admin stuff. I just hate life admin and paperwork. I just hate it. And so I get Claude to book my meeting rooms. I got to book meeting rooms. Claude archives sort of my email first pass at clearing out my inbox. I don't do any of my reimbursements and expenses. Claude will go to Benepass and file the reimbursements. It'll go to Brex and file the expenses. (01:02:02): So all of that side of things, I'm just like, just hand it to Cowork, just get rid of it. And then the stuff that's quite interesting, I think is the manager lens, where I talked about alignment is one thing. So I look also across my direct reports. Claude can look into what have they done this week. You look at our team goals and OKRs, look at the transcripts from our discussions and understand. It can basically ask for like, what are the key takeaways and observations I should keep in mind and what feedback do you think I should give them? And that's something that is like, again, you can just set that up weekly. The quality is hit or miss right now. It's decent on something. Sometimes you're like, \"Holy shit, I am so glad that I caught this.\" And that's very, very helpful. And then I do that for myself as well. My manager, Ami Vora, was I think, a podcast guest of yours, right?",
+   "zh": "我觉得我们接近。我觉得今年晚些会到那个 very very effective 的点。我 gut 觉得。那个 level proactivity 和 cross 一堆 context、distill insight 我觉得是……我之前提的 alignment piece 那是版本对吧？现在你 just 看 across 更多数据源。这是我用的。所以我谈一些标准 PM 东西、brainstorm、data、UXR。有很多 admin 东西。我 hate 生活 admin 和文书。就 hate。所以我让 Claude 订会议室。我得订会议室。Claude archive 我邮件 first pass 清收件箱。我不做任何 reimbursement 和 expense。Claude 去 Benepass file reimbursement。去 Brex file expense。(01:02:02)：所以所有那边我就交给 Cowork 就去掉。然后挺有趣的是 manager lens，alignment 是一个。我也看 across 我 direct report。Claude 能看他们这周做了什么。看团队目标和 OKR、看我们讨论的 transcript、理解。能基本问什么是关键 takeaway 和 observation 我该 keep in mind、什么 feedback 你觉得我该给？那是 like 再说一次你能 weekly setup 那个。质量现在 hit or miss。一些 decent。有时你 like 天哪我真高兴 catch 到这个。那非常有帮助。然后我也为自己做。我 manager Ami Vora 是你播客嘉宾对吧？",
+   "ts": "01:01:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, yeah.",
+   "zh": "对对。",
+   "ts": "01:03:00"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "So I say, \"Hey, based on what you know of Ami both publicly, she's written extensively about product, and then internally, and then our discussions, based on everything that I've done or not done this week, what feedback do you have for me as Ami?\" And I get that every week, right? So a lot of these things can already be done today. I think that as the models improve, I think it's just the accuracy and the signal of these things is going to continue to improve rapidly.",
+   "zh": "所以我说嘿基于你对 Ami 公开的了解、她写过大量关于产品、然后内部、然后我们讨论、基于我这周做了或没做什么，你作为 Ami 对我什么 feedback？我每周得那个对吧。所以很多这些今天已能做。我觉得随模型改进就是准确率和 signal 这些会持续快速改进。",
+   "ts": "01:03:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I don't think you realize just how much awesomeness you're sharing here. Everyone of these is like, \"What?\" Okay. So this Ami example, you have one on ones with her. Do you ask Claude Cowork to go through all of her writing, basically build like a model of her and you ask, \"What should I be doing differently based on what you know about Ami\"? Is that different?",
+   "zh": "我不觉得你 realize 你在分享多少 awesomeness。每个这些就什么？好。所以这个 Ami 例子，你和她一对一。你让 Claude Cowork 过她所有写作、基本 build 她的 model、你问基于你对 Ami 的了解我该不同做什么？那个不同吗？",
+   "ts": "01:03:31"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. Effectively, there's a number of ways you can do this. I think if someone has a public profile where they've written extensively, it's helpful because Claude can just get all that information. Otherwise, you can have a project or you can have a skill, but increasingly, Claude is better at just understanding. Because you can tell Claude like, \"Look on Cowork.\" You can say, using the Slack MCP, \"Look at everything that this person has said in the last week, et cetera.\" And based on that, what are their top priorities? What are priorities my manager has based on how they're spending their time that I don't know? And so all of this layer of stuff, which is like, I think about it as soft coaching, I think that that is unlocked, in my opinion already. I think it's just that you're working with a coach who is kind of like drunk at times. Not drunk, but sometimes says something, you're like, \"Why would you bring that up? That's clearly wrong.\" But other times, you're like, \"Wow.\" (01:04:57): There's like, one of the guys, Scott, who leads our enterprise team. There was a few cases where he found major areas of misalignment that would've caused teams to spin their wheels significantly or do overlapping work. And you think about the impact of that. Your shipping in this world as bigger companies is going to be constrained often by all the cross-functional coordination, right? And I think we're now starting to see at this cross-functional coordination layer, some of that work AI is really being able to be used to reduce that foil. And I think that six months ago, that wasn't possible. And I'm like, \"Shit, six months from now, what is going to be possible there?\"",
+   "zh": "对。effectively 有很多方式做这个。我觉得如果人有 public profile 写过很多有帮助因为 Claude 能 get 所有那个信息。否则你能有 project 或 skill，但越来越 Claude 更好理解。因为你能 tell Claude 看 Cowork。你能用 Slack MCP 说看这人上周说的一切等等。基于那个他们 top 优先级是什么？我 manager 有什么我不知道的优先级基于他们怎么花时间？所以所有这层东西，我觉得是 soft coaching，我觉得那个已 unlock 在我 opinion。我觉得只是你和一个有时像 drunk 的 coach work。不是 drunk 但有时说东西你 like 为什么 bring 那个？那明显错。但其他时你 like 哇。(01:04:57)：有一个人 Scott 领导我们企业团队。有几个 case 他发现 major misalignment 区域会造成团队显著 spin wheel 或做重叠工作。你想那个影响。你在这个世界作为大公司 shipping 经常被跨职能协调 constrain 对吧？我觉得我们现在开始看到在这个跨职能协调层一些那个工作 AI 真能被用来减少那个 foil。我觉得六个月前不可能。我就天哪六个月后那里什么可能？",
+   "ts": "01:03:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, man. And I think the fact that all this data is there, Slack, there's Granola, or whatever people use, all these notes from conversations and discussions are really key to this working.",
+   "zh": "天哪。而且我觉得所有数据在那里这个事实——Slack、有 Granola 或什么人用、所有对话讨论的 note——对这个 work 很 key。",
+   "ts": "01:05:45"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yes.",
+   "zh": "是。",
+   "ts": "01:05:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So for someone that wants to do something like this, how do you set this up? What's the steps?",
+   "zh": "所以对于想这样做的人怎么 setup？什么步骤？",
+   "ts": "01:05:56"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. You go on to Cowork, download the desktop app on Cowork, connect the Slack MCP. That's where you need to, depending on how big the organization is, you may need to get sort of team or enterprise admin permissions, someone with those permissions to enable that. But once you have the Slack MCP connected and on [inaudible 01:06:25], you just ask Claude. That's it.",
+   "zh": "对。你去 Cowork、download desktop app、connect Slack MCP。那是你需要——取决于组织多大——你可能需要 team 或 enterprise admin 权限的人 enable 那个。但一旦 Slack MCP connect 了在[听不清]你就问 Claude。就那样。",
+   "ts": "01:06:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay. I'm going to go into a different direction. I want to talk about the focus that Anthropic has had over the years. So if you look at the numbers that you're all putting up, what's really incredible about it is the focus that you all have had. And I think this is the reason it has worked out so well. There's a certain competitor in the market that is realizing they should have done this and are starting to shift to a similar approach. As an external observer, it feels like Anthropic has been very good at doing very few things, but going super deep. So B2B, for example, just going deep on B2B, and then going really deep on coding use cases, Claude Code being an example. And it has worked out really well. Who's been driving that focus? Who has helped keep that focus from the beginning?",
+   "zh": "太棒了。好。我要转方向。我想聊 Anthropic 这些年的聚焦。如果你看你们放的数字，真 incredible 的是你们有的聚焦。我觉得这是它 work 得这么好的原因。有个竞争者在 market 里 realize 他们该做这个、开始 shift 到类似 approach。作为外部观察者，感觉 Anthropic 非常擅长做很少的事但超深入。比如 B2B 就深入 B2B、然后深入编程用例、Claude Code 是例子。它 work 得很好。谁 driving 那个聚焦？谁从一开始帮保持那个聚焦？",
+   "ts": "01:06:27"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. I think it's a foundational part of the company. I think it's been there from the very, very early days. And it really comes from leadership and I think they've just done a phenomenal job of distilling that. I saw this doc come up recently. I don't know where it was shared. It was something that Ben Mann, as one of our founders that you had on the podcast, had written. It's dated in 2021, I think a few months after they started the company. And it was like, \"Here's why we should just focus on AI coding.\" And this was like, five years ago. This was long before anyone knew what the actual market opportunities were around this. And I think this is just like a deep focus that we have had internally from the start on the importance of coding and B2B. (01:08:10): I think there's two lenses to it. It's like maybe a view of, \"Okay, that this is going to be commercially beneficial to tackle, and then also, the side of it around accelerating research.\" So I'd say it's a pretty mainstream view now. I've now heard people from various labs talking about this, the importance of coding to accelerate research. But that has just been a very firm view that we have been laser focused on internally of, \"Okay, if you have the best models, that's going to accelerate your researches and that's going to accelerate the research loop.\" And I think that's something that Dario has seen very clearly for a number of years. So I would say that that's probably one of a lot. I think a lot comes from Dario. I think a lot comes from leadership and just our DNA. (01:08:55): I think the second though is probably just necessity, where it's now changed. We're a more well-known company, raised lots of money, blah, blah, blah. But historically, we're very much the smallest, least well-funded player in this space. In many ways, it's a complete miracle that I think, we've gotten to the stage that we have. We didn't have the free cash flow or the distribution of a Meta or Google. We didn't have the first mover advantage of an OpenAI. And so what do you do? I think there's this broader principle I have just around life of like, the freedom through constraints, that when you have a bunch of constraints applied on you, whether that's in personal life or at work, I think that it can bring a lot of freedom because it just frees up all this excess choice. So you're like, \"Okay, this is clearly the path.\" (01:09:47): And I think for us, it's like, \"Okay, you don't have a ton of funding, you're a small player, you don't have distribution.\" You just have to really pick a very narrow focus, and even for a very generalizable technology, to maximize your chances of getting to escape velocity. And I think that that's also just related to how history played out, right? So it was well before my time, but Anthropic had a version of Claude. We had a chatbot before ChatGPT was launched. And we had ultimately chosen not to launch it for safety reasons. I think the team didn't want to kick off effectively like an AI global arms race. And ChatGPT launched and they got insane traction and that just naturally sort of pulled them towards consumer. There's another world where if Anthropic had launched Claude first, maybe did the other way around even with all that focused stuff. So who knows? It's always hard to say, looking back at some of these things.",
+   "zh": "对。我觉得是公司基础部分。从非常早就在。真来自 leadership 我觉得他们 phenomenal job distill 那个。我最近看到这个 doc。不知道哪 share 的。是 Ben Mann——你播客请过的我们创始人之一——写的。2021 年的，公司开始几个月后。就好这是为什么我们该只聚焦 AI 编程。这是五年前。远在任何人知道这个实际市场机会是什么之前。我觉得这只是我们内部从开始就有的 deep 聚焦在编程和 B2B 重要性上。(01:08:10)：我觉得有两个 lens。也许 view 这是商业上 beneficial tackle、还有加速研究那面。所以我现在说它是主流 view。我听到各种 lab 的人谈这个、编程加速研究重要性。但那一直是我们内部 laser 聚焦的非常 firm view，好如果你有最好模型那会加速你研究、加速研究 loop。我觉得 Dario 很多年清楚看到那个。所以我会说那大概很多之一。很多来自 Dario。很多来自 leadership 和我们 DNA。(01:08:55)：第二大概只是 necessity，现在变了。我们更知名公司、raise 了很多钱什么的。但历史上我们非常是这个领域最小、资金最少的玩家。很多方面是 complete miracle 我们到这个阶段。我们没有 Meta 或 Google 的自由现金流或分发。我们没有先……",
+   "ts": "01:07:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, I didn't know that. I think also, people just don't realize how far behind Anthropic was. Right now, it's like, of course, they're amazing. But like, I just remember when people were talking about Anthropic, we were raising money. I was like, \"There's no way they're going to compete with OpenAI at this point. It's so over.\" Just like, \"They're so far ahead.\" And it shows the power of focus and just, I guess, I don't know, all the things you all did. It is absurd how far you all have come and how successful and how things have changed so quickly.",
+   "zh": "哇我不知道。我觉得大家也不 realize Anthropic 之前多落后。现在就 of course 他们 amazing。但我记得大家谈 Anthropic 我们 raise 钱时我就他们没法在这一点 compete OpenAI。太 over。就他们那么领先。这显示聚焦的力量、我猜你们做的一切。你们走了多远、多成功、事情多快变多荒谬。",
+   "ts": "01:10:42"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. And I would say, I very much agree. I think a lot of that comes down to our leadership team. We have a number of people who've worked at, call it the best companies you know in the world, very senior people. And I think almost uniformly, everyone was like, \"This is the strongest leadership team out of any of those companies.\" And so I think a lot comes from them, and then we're just very lucky to have incredible people. I think that helps a lot as well.",
+   "zh": "对。我会说我非常同意。很多归到 leadership 团队。我们有很多在世界最好公司 work 过的人、非常资深。我觉得几乎 uniform 大家都说这是那些公司里最强 leadership 团队。所以很多来自他们，然后我们 lucky 有 incredible 人。那个帮助也大。",
+   "ts": "01:11:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On the coding piece, just to make sure that part is clear, I never thought about this, that the reason that the bet was so deep on coding is not just that's a huge TAM, but it's that this is a feedback loop that will accelerate us further and further. So if we get the best at coding, coding will help us do research, it'll help us build better models and it'll accelerate faster and faster.",
+   "zh": "编程这块为确保那个清楚，我从没想过这个，编程 bet 那么深的原因不只是 huge TAM，是这是反馈循环会越来越加速我们。如果我们成编程最好、编程会帮我们做研究、帮我们建更好模型、会越来越快加速。",
+   "ts": "01:11:41"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, that's correct. And this is something I checked. Dario has talked about this publicly, so I'm fine to [inaudible 01:12:07].",
+   "zh": "对，对。这个 Dario 公开谈过所以我 fine[听不清]。",
+   "ts": "01:12:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, it makes sense. The safety piece is really interesting. So I want to spend a little time here. So famously, Anthropic, I think the official name of Anthropic is Anthropic, an AI safety research company. As a growth person, there's this balance I imagine you strike between growing and the mission being, don't grow at all costs. Our goal is AI safety and alignment. How do you balance those two things? How does that impact your job?",
+   "zh": "好说得通。安全这块真有趣。我想花点时间。所以出名地 Anthropic——我觉得官方名字是 Anthropic、一个 AI 安全研究公司。作为增长人我想象你平衡增长和使命是不惜代价增长。我们目标是 AI 安全和对齐。你怎么平衡那两个？怎么影响你工作？",
+   "ts": "01:12:08"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Look, I think it's something we take very, very seriously, and it is the whole reason the company exists. And if you think about, it's all the way from... It's why they left to start the company. It's deep in our corporate structure itself. So historically, everyone raising money is like, \"Go create a Delaware C Corp.\" And that's the structure you do. And with a corporation, you have a fiduciary duty to maximize returns for shareholders, maximize shareholder value. And from the beginning, they went a different way. We then created a public benefit corporation, PBC, which allows you to legally say that maximizing shareholder value is not the overarching umbrella goal of this company and you can optimize for public benefits. So really, I think it starts from there and it ladders down from there. For us, our purpose, our mission ultimately, is just to make sure that the transition to powerful AI goes well and is net beneficial for humanity. (01:13:46): I think internally, we are very excited and I think, honestly, we're very, very optimistic about where this can go, but we also understand what the risks are. And so for us, that top line objective of, \" This needs to go well for humanity. This just needs to go well for humanity,\" that is something that we are happy to take a significant commercial hit for. And we've done that time and time again, right? So we have it like back then, okay, you had Claude, but you don't want to release it because you're like, there's these safety risks. And so there's time and time again that I've seen, we've been happy to take that hit and it's actually worked out well for us in other ways. (01:14:26): From like a growth lens, I look at it as like, growth teams can often push the boundaries of what is good user X, UX, et cetera, because they're trying to very, very much eke out metrics at times. When I think about if a controversial test is brought to me, I sort of look at it as like, there's two types of tests that are controversial. One is when that test is so controversial that you just should not run the thing, because the results don't matter because you would not ship it for a combination of brand and sort of customer friendliness and values. And then the second is where it's like, it's controversial. I don't like it. I certainly don't love it, but it's not like a red line. (01:15:15): And so you're like, if someone comes to you with conviction and is like, \"I have a really good hypothesis around this,\" and you're like, \"I don't love it, but you can run the test and see what impact it has.\" And if it's a high level of cringe or ick, then I want to see a high level of return for the result for that. I kind of think about everything and like, is it in one or is it in two? And for every company, that one and two is different. (01:15:42): I think for us, AI safety is very much in one. I think that it's like, \"Yeah, that's why we exist. Yeah, it's fine. We're just not going to do this thing.\" I think then, there's other things that fall into two, where you're like, heightened sensitivity, but we can try it and see what happens. I think zooming out though, Lenny, one of the biggest mistakes I feel like I see growth teams make, and particularly just hardcore growth practitioners, is just trying to squeeze every last dollar. I think this is like a general principle also in life. If you're a founder raising money, you're just trying to squeeze that last dollar. You don't want to do that because you want people to come back next time as well, is my view. (01:16:23): And I think in growth, I think it's really important that you just need to be okay leaving money on the table. And that's a core principle for us as a growth team, where we are very comfortable for going metric impact in order to prioritize safety, in order to protect our brand, in order to hold a high quality bar and to maintain a great user experience. And if you look beyond the short term and like, \"Okay, what are the numbers for this quarter?\" And you zoom out and you think about what are the very best products out there, you realize this is how they all operate. And that's actually the thing that's going to drive more growth long-term as well. And so I think that actually ties back to safety, where as the risks get higher and the stakes get higher, I think the fact that we are taking a stance and safety is critical to what we do, is actually going to become a significant, it's going to be a significant competitive advantage for us that I think is going to help us in the long run.",
+   "zh": "看，我觉得我们非常非常 seriously take，是公司存在的全部原因。如果你想想从……是他们离开 start 公司的原因。深深在我们公司结构里。历史上大家 raise 钱 like 去 Delaware C Corp。那是你做的结构。corporation 你有 fiduciary duty 为股东最大化回报、最大化股东价值。从一开始他们走不同路。我们 then create 公共利益公司 PBC，允许你法律上说最大化股东价值不是这个公司 overarching umbrella 目标、你能 optimize 公共利益。所以真我觉得从那里开始、从那里 ladder down。对我们，purpose、mission 最终是确保向强大 AI 的过渡顺利、对人类净有益。(01:13:46)：我觉得内部我们非常兴奋、老实说非常乐观这个能去哪，但我们也理解风险。所以对我们那个 top line objective 这需要为人类顺利、就这需要为人类顺利，那是我们愿意 take 显著商业打击的。我们一次次那样做对吧？所以那时好你有 Claude 但你不想 release 因为你 like 有这些安全风险。所以一次次我看到我们愿意 take 那个打击、其实在其他方面对我们 work 得好。(01:14:26)：从增长 lens 我看它像增长团队常 push 什么是好 UX 等的边界因为他们试非常非常 eke out 指标有时。如果 controversial test brought to me 我看它像有两种 controversial test。On……",
+   "ts": "01:12:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. And as you share all this, clearly it's working. Anthropic is killing it. So I love when someone doing something, someone approaching the problem that way, it actually works out. It's the same way I think about with my newsletter. There's so much more I can do to grow it. My philosophy is just focus on creating good content, nothing else. All these micro optimizations are not going to matter in the end. It'll grow through people sharing it if it's useful to them. And a very small scale, I have similar philosophy. (01:17:51): One of the things that people are probably thinking about as we talk, we joke about AI replacing parts of jobs here and there. It is pretty scary to a lot of people, just like, \"What is the future of my job? Will I have a job? How do I stay relevant in this future?\" So there's a couple of questions here. One is just like, for folks that want to thrive in this approaching AI future, as a PM, as a growth person, do you have any advice, things that they should be doing right now?",
+   "zh": "对你分享这些 clear 它 work。Anthropic killing it。所以我爱有人 approach 问题那样实际 work out。和我 newsletter 同样想法。有那么多我能做增长它。我哲学就是聚焦创造好内容、别的不管。所有这些微优化最终不重要。如果对人有用它通过人分享增长。非常小规模我有类似哲学。(01:17:51)：大家可能想我们聊的这里那里开玩笑 AI 替代工作部分。对很多人挺 scary 就我工作未来是什么？我会有工作吗？怎么在未来 stay relevant？所以有几个问题。一是对于想 thrive 在这个 approaching AI 未来的人，作为 PM、增长人，你有什么建议、他们现在该做的？",
+   "ts": "01:17:19"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "To me, a couple of things come up. One thing that everyone says, is use the tools, you need to be on top of the tools. I think you need to be using Claude Code, you need to be using Cowork and understanding just each model release. What is the new things you can do with this? How can you apply this to your job? It'll work well in some things, it'll work terribly in other things. And then the model launched later, it's like, \"Oh shit, that other thing worked.\" But if you didn't go back to try it, you would not have known. And now, many months have passed and you didn't know that that was possible. And so I think that being on top of the tools is really important, both for improving your own productivity, but also for getting product sense around AI products, which I think is just going to become increasingly important. (01:19:02): I think then, zooming out beyond that, I look at it as like, just leaning into where you'll have a competitive advantage and an unfair advantage. And so to me, there are some people, some PMs who are really good at like, craft, for example. And there's others who you'll throw them into a situation with all these stakeholders who have all these strong opinions and there's no way they're going to mediate this. And they come out and it's like, everyone's swimming in the right direction. And so if you think about like, what is the major skillset that you have where you spike that can be tied to delivering, driving impact for a company in a product role, I would just double down on that and almost forget the weaknesses. Just what can you do to become the best person at that thing, because that's very, very valuable. (01:19:49): And I think that ties to the notion of just leaning into being interdisciplinary. So going back to some of what we mentioned earlier on where it's like, \"Okay, in this world of engineers are mini PMs, that the engineer who is highly product-minded is a unicorn, is an absolute unicorn.\" I think the same thing is true for PMs, where it's like, \"Okay, now, in this ratio, if the designer's really stretched and you're a PM who can design, you are also a unicorn now.\" The chances of a company letting you go has gone down dramatically because you are now just so much more useful. And so I think that is just really, really important. I think if I look at what's benefited me, it's probably a version of this. I think that for me, I came from a founder background. So the mix of the founder background, the finance. I was an investment banker, so the finance background and numbers. And then sales, I almost became an account exec, instead of going into product. I was right on the edge of, \"Should I go into sales or product?\" (01:20:53): And I think a combination of those, along with growth is probably what's led to like, there are certain areas and situations where I can just have outsized impact to other people. And so, understanding what that is for you is really important. I look at our financial services product. We've launched Claude for Sheets, Claude for Excel-",
+   "zh": "对我来说几件事。一个大家说的是用工具、你得在工具上。我觉得你该用 Claude Code、用 Cowork、理解每个模型 release。这能做什么新事？怎么 apply 到你工作？一些 work 好、一些 work 糟。然后模型 later launch 就哦那个 work 了。但如果你没回去试你不会知道。现在很多月过去你不知道那个可能。所以我觉得在工具上很重要，既提升自己生产力也获得 AI 产品产品感，我觉得越来越重要。(01:19:02)：我觉得然后 zooming out 超过那个我看它像 leans in 你会有竞争优势和 unfair advantage 的地方。对我来说有些 PM 真擅长 craft。有别的你 throw 进一堆 stakeholder 强意见、没法 mediate、出来大家游对方向。所以如果你想你 spike 的能 tie 到交付、驱动公司产品影响的主要技能是什么，我就 double down 那个、几乎忘弱点。就你能做什么成那个事最好的人，因为那非常非常宝贵。(01:19:49)：我觉得那个 tie 到 leans in 跨学科。回到我们之前提的好这世界工程师是 mini PM 那个 highly product-minded 工程师是 unicorn、绝对 unicorn。我觉得同样 true for PM……",
+   "ts": "01:18:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They kind of like, tanked the market, by the way. Everyone went crazy.",
+   "zh": "他们有点 like 搞垮了市场顺便。大家 crazy。",
+   "ts": "01:21:15"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I know. But the guy running that, Nick Lin, he came from investment banking, he came from private equity, and he just has such a competitive advantage where he is building that product and he's like, \"I know this, I know this.\" He's built for this. And so I think just understanding what are those interdisciplinary areas you can lean into, to make yourself more just higher impact is really important. And then the last one is just being adaptable. Anyone who is trying to just keep applying old playbooks, I think you're going to make life a lot harder for yourself. So one of the biggest things you come into Anthropic, is you need to understand that probably 50, 60, 70% of how you operate in the past, just throw it out the door. It's not going to be relevant. And if you try to stick to that, you're going to have a lot of friction and it's not going to be helpful. So just being adaptable and understanding, \"Okay, the job's changed this way, I'm going to go that way,\" is I think like, it's so, so important.",
+   "zh": "我知道。但 run 那个的 Nick Lin 来自投行、来自 PE，他有那么 competitive advantage 在建那个产品就我知道这个、我知道这个。他为这个 build。所以我觉得理解你能 leans in 的跨学科领域让自己更高影响很重要。然后最后是 adaptable。任何试 keep apply 旧 playbook 的我觉得你会让生活难得多。所以来 Anthropic 最大事之一是你得理解大概 50、60、70% 你过去 operate 的方式就扔出去。不 relevant。如果你试 stick 你会有很多 friction、不 helpful。所以就 adaptable 和理解好工作这样变了、我那样走我觉得那么那么重要。",
+   "ts": "01:21:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is awesome advice. It matches a lot of what Jenny shared when she came on the podcast, the design leader on Claude and Cowork and all these things, of just the idea of going deep, becoming the best or one of the best at a very specific thing, and that not every company will need and you don't need all 10, but just going deep on something. I forget how she described it. Marc Andreessen said the same thing. I think we called it a sideways E, instead of just T-shaped of one thing. If you could have a couple of things you're really, really good at, there's a lot of power to that. (01:22:51): Oh, man. Okay. Before I get into something that I think will blow a lot of people's minds about how we actually met and kind of a big part of your journey, let me just ask you this. Is there anything else about Anthropic that might be worth sharing, might be worth talking about?",
+   "zh": "那太好了建议。和 Jenny 上播客时分享的很多 match——Claude 和 Cowork 这些的设计 leader——就深入、成非常具体的东西最好或之一、不是每个公司都需要、你不需要全部 10 个但深入一个。我忘她怎么描述。Marc Andreessen 说过同样。我觉得我们叫 sideways E，vs 只 T-shaped 一件事。如果你能 couple 你真真擅长的，那里有很多 power。(01:22:51)：天哪。好。在我进一个我觉得会 blow 很多人 mind 的关于我们怎么实际 met 和你旅程大 part before，让我就问。还有什么关于 Anthropic 值得分享、值得谈？",
+   "ts": "01:22:17"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "The thing that maybe comes to mind is just our culture and the people that we have here. I really think it's our secret sauce. I think it's the thing that is the most defensible, the thing that no one else is going to be able to replicate. And I don't think it's an accident. Leadership has really invested in this a lot. And Daniela and Dario, they really believe in this a lot, and I think they've just created a very special culture. So I would say that this is truly a mission-driven company and I was not 100% sure of that when I joined. I was like, I think that this is an exciting company. I very much agree with their principles, but I didn't know anyone at the company. I didn't have any references on what it was like inside. So I was a little skeptical when I joined. I'm like, \"At least they're talking about it, but I don't know. Are they serious about this?\" And then I came in very early on, and I was like, \"Oh, oh shit. Okay. Maybe they're even more serious about this internally. They talk externally.\" (01:24:14): And so it's a mission-driven company where people viscerally, viscerally understand both the upsides and the downsides of the technology, and therefore, understand the divergent ranges of how this may go for humanity and how different of a future that could be. And I think when you understand that, of how different this could be as a future for all of us and our children and our grandchildren, et cetera, I think it leads to a lot of passion for what we do and it just leads to a lot of belief in what we're doing. And so I look at every other job I've had in the past, and there's some degree of people at the company who are just checked out, where it's like, \"I'm here, I'm sick of this, but I don't have a better option or I'm getting paid too much to leave, et cetera.\" That is just not the case here. I have not met a single person. I'm saying a single person, who has checked out. Everyone is putting everything they have on the table. Everyone is pouring it out and leaving nothing behind and is just fully, fully in it. (01:25:22): And so I think that leads to like, releases energy that is just very, very hard to describe. I think you have that energy, you have that mission-driven nature, and then it's such an open culture. So leadership is very, very transparent with us on things. Slack, it's a whole maze. There's so many things that play out on Slack. We're very open. Everyone has these notebook channels where you have your own Twitter feed in a way, where you're just talking about your thoughts about things. And so you can go and join the Slack channel, the notebook channels of people on research and all these other areas, and you can learn whatever you want and you can spend so much time getting lost in that as well. (01:26:05): But that openness where we even encouraged people can just argue with Dario. There was an all hands. You said something where someone didn't agree, and the person goes onto Dario's notebook channel and just says, \"Hey, I didn't appreciate how you said this and this and that.\" And then it sparked a whole big debate. But that sort of thing where it's encouraged like, \"Go to leadership and disagree with them, challenge them publicly,\" I think that just leads to a level of trust. And all of that together, I think it just means that we have this very, very deep sense of togetherness that, man, I've never experienced anything like it. (01:26:44): And then you get to the talent, right? I think that is the thing where the talent density is like, I feel like I'm playing for Real Madrid at times. I look around, I'm like, \"Man, I'm playing for Madrid,\" where it's like, you just have the best people in the world. I think it's most the case on research. We have the very, very best...",
+   "zh": "想到的是我们文化和这里的人。我真觉得是我们的秘密武器。最 defensible、没人能 replicate 的。我不觉得是 accident。Leadership 真 invest 了很多。Daniela 和 Dario 真相信这个，我觉得他们 create 了非常特别文化。所以我会说这是真 mission-driven 公司，我加入时不是 100% sure。我 like 我觉得这是 exciting 公司。我非常同意他们原则但我不知道公司谁、没 reference 里面什么样。所以我加入时有点 skeptical。就至少他们在谈但我不知道。他们 serious 吗？然后我非常早进来就哦天哪。也许他们内部更 serious。他们外部谈的。(01:24:14)：所以是 mission-driven 公司大家 viscerally、viscerally 理解技术的好处和坏处、因此理解这个对人类可能 go 的 divergent range、多么不同的未来。我觉得当你理解那个、多么不同对我们和我们孩子孙子等，我觉得 leads 很多热情对我们做的、leads 很多信念。我看我过去每个工作都有某种程度的人 checked out 就我在、我 sick 这个但没更好 option 或拿太多钱 leave。这里不是 case。我没 met 一个人——我说一个——checked out。每个人 put 一切 on table。每个人 pour in……",
+   "ts": "01:23:09"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "... the case on research. We have the very, very best researchers in the world. But even you look on product, we have Ami Vora, she is phenomenal. We have Mike Krieger. You're like, okay, casually started Instagram. He's here. On growth, we have John Egan, who's my engineering counterpart, who's the OG in growth engineering. He's great. We have Alexey, he's a guy who teaches growth engineering at Reforge. He's just another dude on the team. And all of that I think is just very special. I think my favorite here is in the [inaudible 01:27:33] a couple of months ago we had our onsite, company-wide onsite in October, and I'm walking around, I see this guy, he's just walking around eating popcorn by himself. I go up to him and I'm like, \"You're Jeff, right?\" And he's like, \"I am.\" And I'm like, \"You are literally the US ambassador to my country, Australia, and you are just an employee here.\" I'm talking to our prime ministers of our country and all these things. (01:27:57): And it's just the talent combined with that culture, I think, is just this secret sauce that is the reason that I think we are as successful as we are.",
+   "zh": "……研究那个 case。我们有非常非常最好研究员。但即使产品我们 Ami Vora、她 phenomenal。我们有 Mike Krieger。你就 okay casually started Instagram。他在这。增长我们有 John Egan 我工程 counterpart、增长工程 OG。他 great。我们有 Alexey、Reforge 教增长工程的人。就团队另一个 dude。所有那个我觉得非常特别。我最爱的是几月前我们 onsite、公司全员 onsite 10 月，我走来看这人自己吃 popcorn。我过去你 Jeff 对吧？他是。我说你 literally 是我国家澳大利亚的美国大使、你就在这员工。我和我们总理谈那些。(01:27:57)：就是 talent 加那个文化我觉得是秘密武器、我们成功的原因。",
+   "ts": "01:27:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This notebook channel is so interesting just as a tactical thing. So the idea there is Dario just shares... It's a little internal Twitter feed where folks just share what they're thinking about and what their priorities are and things like that.",
+   "zh": "这个 notebook channel 作为战术很趣。idea 是 Dario 就 share……像内部 Twitter feed 大家 share 想什么、优先级什么。",
+   "ts": "01:28:08"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, that's basically where it's an internal feed where... It's not just Dario, everyone has one. And basically you share your internal thoughts. It's a way to keep people updated on things on what's working. It's a way where people share provocative things. I think from a leadership level, and we also think about that as it's a way to scale your beliefs and views across an org as it grows quickly, right? So if you're now adding a lot of people in the organization, you need to think about, \"Okay, what are the behaviors that we want to model? What are the principles that are top of mind to us?\" And if you think about, yeah, you can have a bunch of these meetings where you talk about it, you can model that behavior. But if you have a channel which is like, \"Here's my top of mind,\" and you say these things, right, if I have a post, which I did the other week of this is the importance of being comfortable leaving money on the table. (01:29:14): Now all the new engineers on growth who've joined have seen that and they're like, \"Oh, okay, this is different to what we've known before.\" Right. So I think it's good for the openness, but it's also good as a leader of how you can scale your views as an organization to get people more up to speed on the way that things are done, which is I think really important to avoid that drift, which when you have so many new people signing up, that drift can lead to a lot of drift in strategy and sort of perception. So it just helps run a tighter ship in that way.",
+   "zh": "对基本是内部 feed。不只 Dario 每人有。基本你 share 内部想法。是 keep 人 update 什么 work。是 share provocative 东西。从 leadership level 我们也想那是 scale 你信念和 view across org 随它快速增长。如果你加很多人你需要想好什么是我们要 model 的行为？什么原则 top of mind？你想你能有 bunch 会议谈、model 那个行为。但如果你有 channel like 这是我的 top of mind 你说那些，如果我有 post 我前几周的是 comfortable leave money on table 的重要性。(01:29:14)：现在所有新加入增长的工程师看到那个就哦 okay 这和我们之前知道的不同。对吧。所以我觉得对开放好也作为 leader 你怎么 scale view 让人更快 up to speed 方式 done，我觉得对避免 drift important——当你有那么多新人 drift 能 lead 很多战略和 perception drift。所以它帮 run tighter ship。",
+   "ts": "01:28:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And more importantly, it's data for the agents everyone's got running to help them work with all these humans.",
+   "zh": "更重要的是它是大家有的 agent 的 data 帮他们和这些人类 work。",
+   "ts": "01:29:46"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yes, that is very, very correct. It is something that goes to Claude. There are certain documents in onboarding where it's like the HR team has written before editing anything on this document, please check with this person because this is a document that Claude references as a key thing, right? And so more and more these types of things of, okay, how does the growth team think about this? How does safeguards think about this? You're arming Claude with that context to get better and better at helping in the future.",
+   "zh": "是，那非常非常对。是进 Claude 的。有些 onboarding doc 是 HR 写的、before editing anything on this doc please check with this person 因为这是 Claude reference 的 key 东西对吧。所以越来越多这种好增长团队怎么想这个、safeguards 怎么想这个。你在 arm Claude with context 让未来更好帮。",
+   "ts": "01:29:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's interesting. It feels like that's something that every company's going to have to start doing is just sharing their thoughts in a structured way so that all these agents that we've all got running have what they need to know. Another interesting side note here is just Slack. Okay. So there's all this talk of SaaS tools being replaced by AI and you guys use Slack. I think there was this famous tweet of you guys still use Workday and all these tools, all these SaaS tools. They're all going to be vibe coded out of existence. The fact that you all, at the cutting edge of what could be built with code, still use Slack and all these other tools, to me, that's a good sign that maybe SaaS companies will be outright in the future. I don't know if you have anything there to share.",
+   "zh": "有趣。感觉那是每个公司要开始做的就结构化 share 想法让所有我们有的 agent 有它们需要知道的。另一个有趣 side note 是 Slack。好。有那么多谈 SaaS 工具被 AI 替代、你们用 Slack。我记得 famous 推你们还用 Workday 和所有这些 SaaS。它们都会被 vibe code 掉。你们在最 cutting edge 还用 Slack 和所有工具，对我来说是好 sign 也许 SaaS 公司未来 outright。不知道你有什么分享。",
+   "ts": "01:30:20"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah, I think it's a really complicated picture. There's a number of things that we just build internally ourselves. As time goes on, the ability for Claude to do that better increases. And at the same time, we use Figma a ton, we use Slack a ton, we use Workday, we use a lot of these products, and I don't see that changing in the immediate future. And so yeah, I think there's probably some truth to some of this. I think the other parts are like it's overblown. And many of these products, they're customers of ours. We value them a lot as customers and we use their products very, very heavily, and I don't see that changing in there.",
+   "zh": "对，我觉得是真复杂画面。有一些我们内部自己 build。随时间 Claude 做那个更好能力增加。同时我们用 Figma 很多、Slack 很多、Workday、很多这些产品我不 see 立即改变。所以可能有些 true。其他 overblown。很多这些产品是我们客户。我们重视它们为客户、我们 very heavily 用它们产品、我不 see 那个改变。",
+   "ts": "01:30:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you have better things to do. Who's going to spend time building Slack at a... That is not where value is going to accrue. And I think it also helps you see how sophisticated these things are. There's been teams thinking about these problems for a long time. Anyway, that's a whole other tangent. Just coming back to the values thing, I just want to highlight something here that's really important. A lot of people criticize Anthropic for talking about the dangers to humanity, throwing out all these numbers about jobs going away, just creating all this fear. (01:32:11): And people think it's, \"Oh, we're trying to raise money or we got to get people's attention or we're just trying to create headlines.\" But everything I've ever seen internally is always just this is what we believe in. We want people to know what it might be coming. Even if it isn't bad, we want people to understand, \"Here's what might happen and we are trying to avoid it.\" And you might say, \"Why is Anthropic even building AI if it's so dangerous?\" And the understanding Ben shared is just like we think it's better that we go at this and try to build it the right way versus just stay out of it and just hope that nothing bad happens.",
+   "zh": "而且你有更好事做。谁会花时间建 Slack 在……那不是价值 accrue 的地方。我觉得也帮你看这些多 sophisticated。有团队想这些问题很久。anyway 那是另一个 tangent。回到 values 我就 highlight 重要的。很多人批评 Anthropic 谈对人类危险、抛出工作消失数字、就制造恐惧。(01:32:11)：大家觉得哦我们试 raise 钱或得到注意或制造标题。但我内部见过的一切总是这是我们 believe。我们想让人知道可能来什么。即使不 bad 我们想让人理解这是可能发生、我们在试避免。你也许说为什么 Anthropic 还建 AI 如果那么危险？Ben share 的理解是我们觉得我们 go at 这个、试建对的方式 vs 不进、只 hope 没坏事。",
+   "ts": "01:31:37"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. I think three things that come to mind there. First is I go back to something I said earlier, which is that we very much think about things from an exponential lens. And if you are thinking about things from a linear lens, you'll see the world very, very differently, right, because you look at where we are today and you're like, \"Okay, but how much better can it be in two, three years?\" I think if you're looking at it from an exponential lens and you understand how exponentials work, then you just realize that a lot of this stuff is actually going to be happening sooner than people think if you're looking at it from a linear lens. And then if you understand that there could be upsides and downsides and the range of outcomes here, I think we very much need to be talking about the downsides so we can avoid them and push towards the upsides. (01:33:36): I think most people at the company are optimists. We're very optimistic about the future. I think it's just we understand the risk is like it is not a guaranteed that we end up in a good place. And not enough people are talking about the risks, I think, in productive ways and who have the know-how of the risks. I think there's people who may talk about the risks but are not in the game. And so they don't actually know fully. They're not surgical on what the specific risks are, but we're in the game, we understand what's happening. And so that's one piece. I think the second is, I think, we actually believe in this stuff more strongly than we say externally. So it is just such a key part of how we think internally that sometimes we just reword your statements because it's like people might just think we're being too over the top, but internally, that's how we think, and what we're putting out is a softer version of that at times. (01:34:28): And then I think the third piece is going to what Ben said where we think a lot about driving the race to the top. And so it's like if you're not in the game and you're shouting from the sidelines, no one cares. It's just the reality of how the world works. No one really cares. If you're in the game and you're a leading player and what you're doing is working, you can influence people who are also in the game to take the right actions. And so that is the core of it. If we just pack up and go home, you have no influence on this thing. And if you stay in the game and you're like, commercially, you're doing great, and then you have ways to influence that, okay, these are the principles and put that into the conversation and make more people sort of believe in those things.",
+   "zh": "对。我觉得三件事 come to mind。第一回到我之前说的我们非常从指数 lens 想事。如果你从线性 lens 想你会非常不同看世界，因为你看今天在哪就 okay 但两三年能多好？我觉得如果你从指数 lens 看、理解指数怎么 work 你就 realize 很多这个其实比大家想更早发生如果你从线性 lens 看。然后如果你理解可能有 upside 和 downside、outcome range 我觉得我们非常需要谈 downside 这样我们能避免、push towards upside。(01:33:36)：我觉得公司大多数人乐观。我们对未来非常乐观。我觉得就我们理解风险是不 guaranteed 我们到好地方。不够多人 productive 地谈风险、有 know-how 的。我觉得有人谈风险但不在 game。所以他们不真知道。他们不 surgical 在具体风险什么。但我们在 game、我们理解什么在发生。所以那是一。第二我觉得我们其实比外部说的更强 believe 这个。所以它真那么 key 内部怎么想有时我们 reword statement 因为 like 大家可能觉得我们太 over the top 但内部我们那样想、我们 put 出的是更软版本有时。(01:34:28)：然后第三是 Ben 说的我们想很多 drive the race to the top。就如果你不在 game 喊……",
+   "ts": "01:32:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I could talk to you forever, Amol, but two more questions just to round out the conversation and touch on some stuff that I've hinted at a number of times. One is I want to take us actually to failure corner because someone listening to this may be like, \"All right, look at this guy just worked at all these amazing companies, cold email, the CPO at Anthropic, got a job, joined this rocket ship. It's all been up and to the right, just killing it constantly.\" What's a story from your career where things didn't work out when you failed and what did you learn from that experience?",
+   "zh": "我能永远聊 Amol 但还有两个问题 round out 对话和 touch 我暗示多次的东西。一是我要带我们到 failure corner 因为有人听这个可能 like 看这人 work 过所有这些 amazing 公司、冷邮件 Anthropic CPO、得工作、join 这个火箭。一直往上右、一直 killing。你职业有没有事不 work、你 fail、学到什么的故事？",
+   "ts": "01:35:12"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I have a couple. I think it's very much not that way. I feel like it was a lot of squiggly lines to get here. The biggest I'd say is just founding a company, raising a bunch of money, having employees, and then having to shut it down and tell your investors that you've lost the money and that you had a vision of what you're going to do and that it's not going to happen. And so that I think is probably the biggest one. We spent three years on it. It was not like a, \"Oh, we tried something part-time.\" It was like, \"No, we went for it.\" We had spent three years, raised a couple of mil. We had maybe seven, 10 employees at our biggest. And it was something that we really believed in. It was around mental health and how you can quantify mental health to help understand or get early predictors of things like generalized anxiety, major depression. So it's stuff that we really, really believed in. (01:36:39): But ultimately, in our early 20s, we had no idea what we're doing at the time and many things I do differently, but that was just a very, very, very painful process. I think the good thing was we kept our investors in the loop the whole time, so 20 founders who are struggling out there. Send those monthly investor updates. It's really easy to send those when things are great. It's really hard to send those when things are bad. You just bat it down. You sit down and send an update to your investors about why everything you talked about last month did not go to plan, but it's just the right thing to do, and it keeps people in the loop, and it avoids surprises. But it's still so tough when you're then calling up the investors to be like, \"Hey, we're shutting down or making that decision,\" everyone who believed in you and it becomes such a big part of the identity. It's very, very tough. (01:37:29): So man, that was just brutal. It's brutal. And it took me, I think, a number of years to truly get over. I think that it's a tough thing, but you get so much from that experience that it's hard to see in the moment. And I think without doing that, I would not have gone into this. I was not a PM before. I didn't have any of these skills. I'd never worked on products. I didn't know how to cold email really. And so it was through that job that I learned a ton of the skills that made this career path viable for me. And it's just really hard to see that in the moment when you're looking at a point in time. It's much easier to draw the line looking back. (01:38:07): But I think that'd be my takeaway is just keep in mind that it's a long game and some of those things... I'm so grateful for that experience now. I'm so grateful that it failed and went that way, actually. It's very painful because it wouldn't have led to what I'm doing now. And so it's a tough thing, but the positives can come from it.",
+   "zh": "我有几个。我觉得非常不是那样。我觉得很多 squiggly line 到这。最大我会说是 founding 公司、raise 了一堆钱、有员工、然后得 shut down、告诉投资人你 lost 钱和你有 vision 要做什么、不会发生。那个我觉得是最大。我们花了三年。不是哦 part-time 试。是真 go。三年、raise 了几百万。最大时大概 7 到 10 员工。是我们真相信的。关于心理健康、怎么量化心理健康帮理解或得早期预测广泛性焦虑、重度抑郁。所以我们真真相信。(01:36:39)：但最终我们二十出头时不知道做什么、很多我会不同做但那是真真真痛苦过程。好在我们一直 keep 投资人 in loop，所以 20 个 founder 挣扎中的。发那些月度投资人 update。事好时容易发。事坏时难发。你 bat down、坐下发 update 给投资人关于为什么你上个月说的一切没按计划，但就是对的事、keep 人 in loop、避免 surprise。但仍那么 tough 当你 then 打电话给投资人 like hey 我们 shut down 或做那个决定、每个相信你的人、变成 identity 大部分。非常 tough。(01:37:29)：所以天哪那 brutal。brutal。我花了好几年真 get over。我觉得 tough 事但你从那个经验得那么多……",
+   "ts": "01:35:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I love about this is a lot of people have these times in their career where they're like, \"It's all over. I failed in such a big way and my reputation's screwed and people were counting on me and now they see I'm an imposter. I never knew what I was doing. And after all, now they finally see.\" And just seeing that, and this was three years, I'm looking at your LinkedIn, you had seven employees, something like that, and then it's like masterclass, Mercury, Anthropic. I think it's inspiring to hear a story like that to know that you can have a big failure like that and things can work out. That is not the end. Okay. So at 2023, I was going to go on pat leave because my wife's pregnant and I was just like, \"Wait, what do I do with the newsletter? I need to take some time off. That would be really nice to take a month or two off.\" (01:39:13): And so my plan was, \"Okay, I'm going to do a bunch of guest posts where people line up.\" I put out a call for guest posts, people apply, I pick a few and then I kind of slot them in ahead of time so I could take time off. So I put out this call, \"Hey, who wants to write a guest post for my newsletter?\" I got 500 plus applications. One of those applications was from you and the pitch was essentially how a traumatic brain injury made me a better product manager. And I still remember reading the first draft you sent me and I was just like, \"Holy shit, this story is incredible.\" It's just like you feel such feelings and it was just so tactically interesting and useful like, \"Oh wow, this is actually going to make me a better product manager.\" Share the story of the brain injury that you went through and just the journey that you went on there because this is going to blow people's minds.",
+   "zh": "我喜欢这个是很多人职业有这种时候就完了。我大 fail、reputation 糟、人指望我、现在看到我是 imposter、我从不知道在做什么、现在终于看到。看那个、这是三年、我看你 LinkedIn 你有七员工什么的、然后 masterclass、Mercury、Anthropic。我觉得 inspire 听这种故事知道你能有大 fail、事能 work out。那不是结束。好。2023 年我要 pat leave 因为我老婆怀孕我就好我拿 newsletter 怎么办？我需要 take time off。一两个月 off 会很好。(01:39:13)：所以我计划好我做一堆客座文章、人排队。我发 call for 客座文章、人 apply、我挑几个 slot ahead 这样我能 take time off。我发这个 call 嘿谁想为我 newsletter 写客座文章？我收到 500+ 申请。其中一个是你、pitch 基本是 how a traumatic brain injury made me a better PM。我还记得读你发我的第一稿就天哪这个故事 incredible。就你感受那么多感情、那么战术有趣有用 like 哦哇这真会让我变更好 PM。分享你脑损伤的故事和旅程因为这会 blow 人 mind。",
+   "ts": "01:38:25"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It was the toughest time in my life. It made shutting down a company being like, \"Oh, that was nothing actually.\" Just funny how perspective works that way. Back in early 2022, I had a traumatic brain injury. So I'd done MMA for many years. I'd done Muay Thai, which is a type of martial arts for many years, never had a problem. And it's just one of the things that happens, the wrong session. It's just a normal day of sparring, nothing crazy. You get the wrong hit to the head in the wrong way, and my whole life changed. And basically I spent nine months. I was off work for nine months. The first couple of months were brutal. It took me roughly half a year till I was comfortable walking again. It was very, very difficult. The first two, three months beyond just showering and going to the bathroom, my wife did everything for me, including texting my friends. (01:40:59): I would listen to music for maybe 20 seconds and feel like I needed to vomit. I couldn't look at screens at all. And it was a very, very long recovery. It was not clear to me that I would ever work again for a while actually. And it was like we'd even discussed my wife, what would we do in that case, et cetera. And we had to think even on those levels. And through a lot of pushing and really working through myself, and you have to just slowly increase your tolerance to things. It's a brutal process, but you need to slowly expose yourself to different things and just get better and better at each little thing, actively work on that, don't push it too far, otherwise you have a big setback. It basically got to the point then where over nine months and then that it returned to work and then it slowly got better. And the part, Lenny, you don't know is in mid-2023, we posted that newsletter and a month later I got re-injured actually.",
+   "zh": "那是我人生最 tough 时间。它让 shut down 公司像哦那其实 nothing。有趣 perspective 那样 work。2022 年初我有创伤性脑损伤。我做了很多年 MMA。泰拳多年从没问题。就是发生的事、wrong session。就正常 sparring 日、没什么 crazy。你以错的方式被 wrong hit 到头、我整个人生变了。基本我花 9 个月。我 9 个月没工作。前几个月 brutal。大概半年我才 comfortable 走路。非常非常难。前两三个月除了洗澡和上厕所我老婆为我做一切、包括给我朋友发短信。(01:40:59)：我听音乐 20 秒就觉得要吐。完全不能看屏幕。非常非常长恢复。有段时间我不 clear 我会再 work。我们甚至讨论我老婆如果那个 case 怎么办等等。我们得 even 在那些 level 想。通过很多 pushing 和真 work through 自己、你得慢慢增加对东西的容忍。brutal 过程但你需要慢慢暴露自己于不同东西、每个小事变更好、actively work 那个、不 push 太远否则大 setback。基本到 then 9 个月 then 回 work 然后慢慢变好。Lenny 你不知道的是 2023 年中我们 post 那个 newsletter 一个月后我 re-injured。",
+   "ts": "01:40:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哦哇。",
+   "ts": "01:41:59"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "And when you have a brain injury, until you're 100% healed, your risk of another concussion or a brain injury is elevated. When you're 100% healed, your risk falls down to that of a non-concussed population. But until that time, and even if you're like 95% healed, you're not 100% healed. And it was just an innocuous sort of in everyday life getting off a plane, a bag sort of hit me on the head type thing. And I was off work for two months when I... One month into joining Mercury, one month in, I'm like, \"Sorry guys, I need to peace out for three months.\" And then it was a very, very long recovery from that. And I'm actually still not 100% healed. So I'm mostly good, but I have times when I have dizziness and headaches and other things that I need to work around. Overall, I feel like it's one of the best things that could have happened to me, and I think that keeping that mindset helps. (01:42:51): And there's a point when you can take that too far when that view is detached from reality, but I think it's just made me so much better and more effective as a person. A lot of the same habits, I don't drink alcohol, I don't drink caffeine, I have to do a bunch of these things for my physical health. I just have to do them. So I keep doing them. I take breaks. This is a really big one. You might think even in a place like Anthropic, how do you survive in this way? It's like even on the craziest days, Lenny, between the start of the day and lunch and between lunch and the end of the day, I take a short break. Even on the craziest days with model launches, et cetera, I'm lucky we have a meditation area in the office that I'll go to. (01:43:29): And then the whole side of things around meditation that I talked about in that post, I think both you and I have done a retreat at Spirit Rock and doing a meditation retreat changed my life. And it's something that I do at least once a year now. I have one coming up relatively soon as well. And just I think all of that has helped with better managing the physical side of it because this job is very taxing, and then emotionally having a little bit of space to what happens. So you have sort of awareness on one side, you have the reality on the other side. And reality's crazy here, man. Reality's insane. There's so much happening every day. There's so much noise, it's mind-blowing. And so that relationship between awareness and reality, that's where you have choice that you sort of learn from deep meditation on how to shift that and apply your choice there. (01:44:26): I think that that is the thing that has helped me significantly with just keeping a more level head. I think a lot of staying in this game in this level of intensity is just keep your head, just don't lose your head in the crazy times. And I think all of that that I've gone through has helped me do this without resorting to unhealthy coping mechanisms.",
+   "zh": "当你有脑损伤、直到 100% healed 你另一个 concussion 或脑损伤风险 elevated。当你 100% healed 风险降到 non-concussed 人群。但直到那个时间即使你 95% healed 不是 100%。就是 innocuous sort 日常下飞机包 hit 我头那种。我 2 个月没工作当我……加入 Mercury 一个月、一个月就对不起大家我需要 peace out 三个月。然后非常非常长恢复。我其实仍没 100% healed。所以大多好但我有晕和头痛等时候我得 work around。总的来说我觉得它是能发生在我身上的最好事之一、我觉得 keep 那个 mindset 有帮助。(01:42:51)：有 point 你能 take 太远当那个 view 脱离现实但我觉得它让我作为人变得更好更有效。很多同样习惯、我不喝酒、不喝咖啡因、我得做 bunch 这些 for 身体健康。我就得做。所以 keep 做。我 take break。这个真大。你可能觉得即使在 Anthropic 这种地方你怎么 survive 这样。就最 crazy 日 Lenny 在一天开始和午饭之间、午饭和一天结束之间我 take short break。即使最 crazy 日 model launch 等我们 lucky 办公有冥想区我去。(01:43:29)：然后冥想那边我在那 post 谈的、我觉得你我都在 Spirit Rock 做过 retreat、做冥想 retreat 改变我人生。是我现在至少每年一次做的事。我有一个 relatively soon 来。就是我觉得所有那个帮 with……",
+   "ts": "01:42:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Amol, you're such an inspiration in so many ways. There's so many reasons that you would not have been successful and things would not have worked out. And there's so many lessons to learn from just the stories you've shared in the journey you've been on to help people overcome challenges they're having. If you can come back from an insane... Was it like a kick to the head? Is that what happened?",
+   "zh": "哇。Amol 你在那么多方面是 inspiration。有那么多理由你不会成功、事不会 work out。有那么多 lesson 从你分享的故事和旅程帮人克服他们挑战。如果你能从 insane……是 kick 到头吗？那是发生什么？",
+   "ts": "01:44:47"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It was a kick to the head. That's correct. Yes.",
+   "zh": "是 kick 到头。对。是。",
+   "ts": "01:45:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just feeling like you may not be able to listen to music to just leading growth at the fastest growing company in history. There's also just a lesson here of constraints. Again, you mentioned this idea of just the power of constraints. You're forced to take breaks, you're forced to go meditate in a way that's really helpful and it's a lesson for us all. This is actually really good for us all.",
+   "zh": "就感觉你可能没法听音乐到 leading 增长历史上增长最快公司。也有 constraint 的 lesson。你提到 constraint 的力量。你被迫 take break、被迫冥想、真有帮助、对我们都是 lesson。这其实对我们都很好。",
+   "ts": "01:45:13"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. I think that freedom through constraints is one of the big takeaways I've had during that time. Because if you have these constraints, you're forced to adapt and it creates, gives you in a business setting, you have to focus more in a personal setting. And if the constraint is, \"I can't do anything and I'm injured. I don't know what's going to happen. I don't know. I'm going to get better,\" you have two choices. You're like, one, are you just going to resist and fight with reality and really suffer from that, or are you going to accept the situation and not let that affect you emotionally? And it's not to say I did everything, man. I was like, every single thing I could do, diet, I was like, \"I'm on it. Every action I can take, I'm on it.\" (01:46:16): But then you have a choice of, are you going to let the impact of that define your happiness or not? And I think that that's the thing when the impacts maybe are not coming, you have to then adapt to, \"Okay, what do I want my happiness to be?\" And one of the meditation teachers said that true freedom in life is learning how to be content when you don't get what you want. And it's not to say you shouldn't do something when you don't get what you want, but I think that that takeaway of just can you be content and not have your happiness rely on getting something. It's a challenge. I'm not perfect at it, but I think it's probably one of the biggest takeaways from that whole thing.",
+   "zh": "对。我觉得通过 constraint 的自由是那段时间我的大 takeaway 之一。因为如果你有这些 constraint 你被迫 adapt、创造、在 business setting 你得更聚焦、在 personal setting。如果 constraint 是我没法做任何事、我 injured、我不知道会怎样、我不知道我会好，你有两选择。一是你就 resist 和 fight reality、真 suffer，或你接受情况、不让它 emotional 影响你。不是说全做了 man。我 like 每件能做的事、diet 我 like 我在 it。每个能 take 的 action 我在 it。(01:46:16)：但你 then 有选择你让那个影响定义你 happiness 吗？我觉得那个是当影响可能不来你 then adapt 好我要我 happiness 是什么？一个冥想老师说 true freedom in life 是学习你没得到你要的时候怎么 content。不是说你不该做什么当你没得到你要的但我觉得那个 takeaway 就你能 content、不让 happiness rely on 得到什么。是 challenge。我不 perfect 但我觉得大概是那个 whole thing 最大 takeaway 之一。",
+   "ts": "01:45:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Incredible. And we'll link to the post of folks who want to read this. Before we get to a very exciting lightning round, is there anything else you wanted to share, or should we just jump right in?",
+   "zh": "incredible。我们会链接到 post 给想读的。before 闪电问答还有什么想分享、还是就 jump？",
+   "ts": "01:46:50"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I think we can jump into it.",
+   "zh": "我觉得可以 jump。",
+   "ts": "01:46:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, we covered a lot of ground. Okay, here we go. I've got five questions for you. First question, what are two or three books you recommend most to other people?",
+   "zh": "哦我们覆盖了很多。好来。我有五个问题。第一个问题，你最常推荐给人的两三本书？",
+   "ts": "01:46:59"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "It probably ties to a lot of what I just talked about. I think a lot about meditation and my emotional state. What I spend most of my time thinking and reading and researching and working on outside of work. So my recommendations very related to that. The first is a book called Joy of Living by a Buddhist monk. His name's Yongey Mingyur Rinpoche. It's just really about how you can start to think about your life experience in a different way and have tactics of what to do to kind of change just how you think about things. This is one where I've recommended to people. (01:47:49): Yeah, I've recommended to a lot of people and they've really, really enjoyed it. I think another one is Awareness by Anthony de Mello, which is a kind of similar thing but from a different angle. Those two I consistently recommend to people. And then the third one is more relevant to product in many ways is Thinking In Bets by Annie Duke. I think just being able to break down a situation when someone's like, \"I don't know, it'll get done in time. Okay. Can you put a number to that? What percentage or likelihood is it?\" Those types of things, I think, are just so tactically helpful in product.",
+   "zh": "大概 tie 到我刚聊的。我想很多冥想和我情绪状态。我工作外花最多时间想、读、研究、work 的。所以我推荐很相关。第一是一本叫 Joy of Living 的书、一个佛教僧侣写的。他叫 Yongey Mingyur Rinpoche。就是关于怎么开始不同想你的生活体验、有 tactics 做什么 kind 改变怎么想东西。这是推荐给人的。(01:47:49)：对推荐给很多人他们真真喜欢。我觉得另一本是 Anthony de Mello 的 Awareness，类似但从不同角度。那两本我持续推荐。第三更相关产品很多是 Annie Duke 的 Thinking In Bets。我觉得能拆解情况当有人 like 我不知道能按时完成。好你能给数字吗？什么百分比或可能性？那些我觉得就战术 helpful 在产品。",
+   "ts": "01:47:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Favorite recent movie or TV show?",
+   "zh": "最近最喜欢的电影或剧集？",
+   "ts": "01:48:20"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I think movie is probably Marty Supreme. It's one of the only ones I watched recently. I thought it was great. I thought it was just insane. Absolutely insane movie. It was ridiculous, but I loved it. TV show, I have not watched TV in a while. I think it's probably the Olympics would be the one, if that counts.",
+   "zh": "电影大概 Marty Supreme。是我最近看的少数之一。我觉得 great。觉得 insane。绝对 insane 电影。ridiculous 但我爱。TV 我一阵没看 TV。大概奥运会如果那算。",
+   "ts": "01:48:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a product that you love just like, I don't know, when you discovered recently or just one you have in your life that's like, \"Oh, this is very cool. People might want to know about it\"?",
+   "zh": "有产品你爱就像最近发现或生活中有的 like 哦这很 cool 大家可能想知道？",
+   "ts": "01:48:38"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Yeah. So this is a funny one. I was in Japan last week and I was sleeping in this hotel and I just really loved the pillow that I had in this hotel. It was very random. I just at times had neck and upper trap pain and sometimes I've been frustrated with my pillow because I sometimes sleep facing up, sometimes sideways and the height's not quite right. And I was just like, \"This pillow is just great.\" And basically this pillow is full of beads. And so you can naturally shift the height of the pillow while you're sleeping even unconsciously without thinking. And so I looked at the tag. I was like, \"What is this?\" I ordered it to [inaudible 01:49:26] Amazon Japan, and I bought it back with me on the plane. And so I have the name here. It's called the Maruhachi Shinsui Maruhatchi Pro pillow, and you can only get it in Japan, but they're shipped to the US, no affiliation. And I think that has changed my life in the last week.",
+   "zh": "对。这个 funny。我上周在日本、睡这个酒店我真爱那个枕头。很 random。我有时有颈和上 trap 痛、有时我 frustrated 枕头因为我有时面朝上睡、有时侧睡高度不太对。我就这枕头 great。基本这个枕头满 beads。所以你能自然 shift 枕头高度当你睡甚至无意识不想。我看 tag like 这是什么？我在 Amazon Japan 订、带上飞机。名字这里。叫 Maruhachi Shinsui Maruhatchi Pro 枕头、只能日本得但他们 ship 到美国、无 affiliation。我觉得上周改变了我人生。",
+   "ts": "01:48:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is an awesome pick. Do you have a favorite life motto that you often come back to in work or in life?",
+   "zh": "那是 awesome pick。有最常回到的、在 work 或生活有用的人生格言？",
+   "ts": "01:49:42"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Main one I'd say is just she'll be right. This is a very common Aussie saying. It's like she will be right. She'll be right. It's a common Aussie saying when we're faced with a tough or difficult situation, you're kind of dismissing the severity of it in a way by saying like, \"Eh, it'll be fine.\" And I think that that's just such a good metaphor. It's such a good tactic in many, many cases. And then I think the other one is just sometimes in life, you just have to go for it. And that is something that this guy, Eros Resmini, who is the CMO of Discord, who is a very close advisor to me as a founder, he would push me on this and that was something that he would often say is just like, \"Just go for it.\" And I think that it's a very helpful thing of you can sit there thinking, \"Should I do this, should I not?\" And sometimes in life, you just have to go for it.",
+   "zh": "主要我会说就 she'll be right。这是很常见澳洲说法。就是 she will be right。she'll be right。当我们面对 tough 或难情况时常见澳洲说法、你 kind of dismiss 严重性像 eh 会 fine。我觉得那是那么好 metaphor。那么多 case 那么好 tactic。然后另一个是有时人生你就得 go for it。那是这个 guy Eros Resmini——Discord CMO——我作为创始人时很近 advisor、他 push 我这个、他常说就 go for it。我觉得很有帮助。你能坐那想我该做这个吗、我不该吗？有时人生你就得 go for it。",
+   "ts": "01:49:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love the combo of those two. Just sometimes just go for it and she'll be right. So good. Okay. Final question. Okay. So I'm curious, used to be into martial arts, that didn't go great. Do you have a new hobby that you find yourself loving? Do you make time for hobbies?",
+   "zh": "我爱那两个 combo。就有时 go for it 和 she'll be right。太好。好。最后一个问题。好奇你以前武术、那个不太好。你有新爱好你发现自己爱吗？你 make 时间给爱好吗？",
+   "ts": "01:50:34"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "I think I'm just quite tight on time for hobbies. I would say I think it's largely just work and have my body function and then take care of the most important relationships around me. I think maybe the one hobby I'd say is just I'm really into sports and I've gotten more into sports at football in particular.",
+   "zh": "我觉得我挺紧时间给爱好。我会说大概就是 work 和让身体 function 然后 take care 最重要的关系。也许一个爱好我会说我真 into 体育、我更 into 体育 football 特别。",
+   "ts": "01:50:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Like watching.",
+   "zh": "看。",
+   "ts": "01:51:11"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Watching. Certainly not playing. My wife's from Michigan and she took me to a game at the Big House and it just changed my life. From then on, I was like, I'm a Wolverines fan and big Wolverines fan, big 49ers fan. I just love football. So that's probably the one that comes to mind.",
+   "zh": "看。definitely 不是踢。我老婆从 Michigan、她带我去 Big House 看比赛、改变我人生。从 then 我就我是 Wolverines fan、大 Wolverines fan、大 49ers fan。我就爱 football。所以那个大概 come to mind。",
+   "ts": "01:51:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amol, this was incredible on so many levels. I'm so thankful that you made time for this considering how much you got going on. Where can folks find you a line, say they want to apply for a job maybe on your team, or can they find that? And how can listeners be useful to you?",
+   "zh": "Amol 这在那么多层面 incredible。我那么感谢你 make 时间 considering 你那么多事。大家想找你、也许想申请你团队工作，在哪能找？他们能找那个吗？听众怎么能帮到你？",
+   "ts": "01:51:29"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "You can find me on my LinkedIn. It's just Amol Avasare. I'm boring. That's it. You can look online to apply on our jobs page as it rolls across growth engineering, growth product, growth design. We are looking for great people on the growth team. So please come and join us. And I think being helpful to me is just two things, trying our products, giving us feedback, giving us harsh feedback in particular on what [inaudible 01:52:07] you better. And then please send great people our way. We are looking for the best of the best to join the team, and we would love to hear from anyone you know of as well who could be a fit for one of our roles.",
+   "zh": "你能在 LinkedIn 找我。就 Amol Avasare。我 boring。就那样。你能上线 apply 在我们招聘页 as it rolls across 增长工程、增长产品、增长设计。我们在找增长团队 great 人。所以请来 join。我觉得帮到我两件事：试我们产品、给反馈、给 harsh feedback 特别什么让你更好。然后请发 great 人我们 way。我们在找最好最好 join 团队、我们爱听你认识的任何可能 fit 我们角色之一的人。",
+   "ts": "01:51:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Dream job for so many people. Amol, thank you so much for being here.",
+   "zh": "对很多人是 dream job。Amol 非常感谢你来。",
+   "ts": "01:52:20"
+  },
+  {
+   "speaker": "Amol Avasare",
+   "en": "Thanks, Lenny. Bye everyone.",
+   "zh": "谢谢 Lenny。大家再见。",
+   "ts": "01:52:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢你的收听。如果你觉得有价值，可以在 Apple Podcasts、Spotify 或你喜欢的播客 app 上订阅。也请考虑给我们评分或留评，这真的能帮到其他听众发现这档播客。你可以在 lennyspodcast.com 找到所有往期节目或了解更多。下期见。",
+   "ts": "01:52:26"
+  }
+ ]
+}

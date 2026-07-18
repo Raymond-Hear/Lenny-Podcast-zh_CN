@@ -1,0 +1,995 @@
+{
+ "id": "Ivan Zhao",
+ "name": "Ivan Zhao",
+ "category": "职业成长",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Ivan+Zhao",
+ "bio": {
+  "en": "Ivan Zhao is the co-founder and CEO of Notion, the beloved all-in-one productivity and workspace tool used by millions, and a famously philosophical founder who rarely does interviews.",
+  "zh": "Ivan Zhao 是 Notion 的联合创始人兼 CEO；Notion 是一款被数百万人喜爱的“一体化”生产力与协作空间工具，他本人是一位以富有哲学思考著称、极少接受采访的创始人。"
+ },
+ "summary": {
+  "en": "Ivan reflects on Notion's first three to four 'lost years'—pivoting from a too-ambitious 'everyone can build software' tool to a productivity app he calls 'sugar-coated broccoli'—and how hiding a big vision inside a form people cared about was the key. He shares the joy and suffering of building a horizontal product, his lean-and-craft approach and hard trade-offs, and a wild near-death story where Notion's single master database almost ran out of space during COVID. The conversation frames tools as extensions of ourselves that, once shaped, shape us back.",
+  "zh": "Ivan 回顾了 Notion 前三四年的“迷失岁月”——从过于宏大的“人人都能造软件”工具，转向他称之为“裹了糖衣的西兰花”的生产力应用，并认为把宏大愿景藏进人们真正关心的形态是关键。他分享了打造横向产品的喜悦与痛苦、精益与工艺的方法论及艰难取舍，以及一个惊险的濒死故事：疫情期间 Notion 唯一的主数据库差点空间耗尽。整场对话把工具视为自我的延伸——一旦被塑造，反过来也会塑造我们。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "The way you described the early years of Notion, you described the first three to four years as the lost years.",
+   "zh": "您在描述Notion早期发展时曾提到，头三到四年被称为\"迷茫期\"。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "We try many different versions. The first version, okay, everybody can make and create their software, so let's just build a developer tool that's so easy that more people can do that. We tried that a couple of years and learned that actually most people just don't care. Our realization is actually let's hide our vision, which is everybody can create their software in the form factor that people do care. So what kind of tool do people use every day? Productivity software. It took us two years to realize we need to build a productivity tool. We called it sugar-coated broccoli. People don't want to eat the broccoli but people like sugar, so it gave them the sugar then hide your broccoli inside of it.",
+   "zh": "我们尝试过多种方案。第一版产品，嗯，每个人都能开发自己的软件，那就做个易于上手的开发者工具，让更多人能参与其中。但经过几年的实践，我们发现大多数人对此并不感兴趣。于是我们转变思路：先隐藏我们的愿景——让每个人都能以用户熟悉的形式开发软件。那么人们日常使用最多的工具是什么？生产力软件。经过两年的探索，我们确定要打造一款生产力工具。我们把它称为\"糖衣西兰花\"——人们不爱吃西兰花，但喜欢糖，所以先给他们糖，再把西兰花藏在里面。",
+   "ts": "00:00:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What other elements do you think are key to you finding something that actually ended up working?",
+   "zh": "您认为找到真正成功的产品或业务的关键要素还有哪些？",
+   "ts": "00:00:40"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "What is the building a product or business. You want user. You want revenue. That's the product business. And building for something you want the world to have is building for your value. You have some taste. You have some aesthetic. There are different energy. You need to create a balance. Too much of yourself. Then there's no users. Then you're just doing our project. And too much for business, you're building a commodity.",
+   "zh": "打造产品或业务的核心诉求是什么？要满足用户需求，要实现营收，这才是产品与商业的本质。若为迎合全球市场而设计，就必须忠实于自身价值观。需要保持独特品味，传递审美理念，找到能量平衡点。若过度自我表达，就失去用户，沦为自嗨项目；若过度迎合市场，就成了商品化的复制品。",
+   "ts": "00:00:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The way you think about Notion, it's almost like a philosophy of how to work and be versus just a productivity tool. And so I'm just curious how you think about the relationship between tools and human potential.",
+   "zh": "在您看来，Notion不仅是生产力工具，更是一种工作与生活理念。您如何看待工具与人类潜能之间的关系？",
+   "ts": "00:01:03"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Tools are extensions of us. And once they extend us, once we shape them, once we bring them to world, they can come back to shape us.",
+   "zh": "工具是人类的延伸。一旦它们延伸了我们，一旦我们塑造了它们，一旦我们将它们推向世界，它们反过来也会重塑我们。",
+   "ts": "00:01:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Ivan Zhao. Ivan is the co-founder and CEO of Notion. Ivan is a really unique and also a deeply philosophical founder who doesn't do a lot of podcasts, so I'm really excited to share a glimpse into how he built one of the most beloved and most popular products in the world. (00:01:45): We talk about the first three to four years of Notion that he describes as the lost years, how he was able to get into a great school in China by winning a programming contest, the joy and suffering of building a successful horizontal product, plus his approach to staying lean and craft and making trade-offs and also leadership. Also, a wild story about how Notion almost died during COVID because the one database that everything lived in almost ran out of space. (00:02:10): If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. Also, if you become a paid annual subscriber of my newsletter, you now get a year free of Notion Pro and Perplexity Pro and Superhuman and Linear and Granola. Check it out at lennysnewsletter.com. With that, I bring you Ivan Zhao. (00:02:32): This episode is brought to you by Eppo. Eppo is a next generation A-B testing and feature management platform built by alums of Airbnb and Snowflake for modern growth teams, companies like Twitch, Miro, ClickUp, and DraftKings rely on Eppo to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features, and Eppo helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. (00:03:02): When I was at Airbnb, one of the things that I loved most was our experimentation platform where I could set up experiments easily, troubleshoot issues, and analyze performance all on my own. Eppo does all that and more With advanced statistical methods that can help you shave weeks off experiment time, and accessible UI for diving deeper into performance, and out-of-the-box reporting that helps you avoid annoying prolonged analytic cycles. Eppo also makes it easy for you to share experiment insights with your team, sparking new ideas for the A-B testing flywheel. Eppo powers experimentation across every use case, including product, growth, machine learning, monetization and email marketing. Check out Eppo at geteppo.com/lenny and 10X your experiment velocity. That's geteppo.com/lenny. (00:03:50): This episode is brought to you by Airtable ProductCentral, the unified system that brings your entire product org together in one place. No more scattered tools. No more misaligned teams. If you're like most product leaders, you're tired of constant context switching between tools. That's why Airtable built ProductCentral after decades of working with world-class product companies. Think of it as mission control for your entire product organization. Unlike rigid point solutions, ProductCentral powers everything, from resourcing to voice of customer, to roadmapping, to launch execution. And because it's built on Airtable's no-code platform, you can customize every workflow to match exactly how your team works. No limitations, no compromises. Ready to see it in action? Head to airtable.com/lenny to book a demo. That's airtable.com/lenny. (00:04:44): Ivan, thank you so much for being here, and welcome to the podcast.",
+   "zh": "今日嘉宾是伊万·赵（Ivan Zhao）。伊万是Notion的联合创始人兼首席执行官。他是一位极具独特性和深刻哲学思考的创业者，平时不常参加播客节目，因此我很兴奋能与大家分享他如何打造出全球最受欢迎、最成功的产品背后的故事。（00:01:45）：我们谈论了Notion最初的三到四年，他称这段时期为“迷茫岁月”。他讲述了如何通过编程竞赛进入中国顶尖学府，成功打造横向产品所经历的喜悦与挑战，以及他在保持精简、专注和权衡取舍方面的方法。此外，还分享了一个惊险的故事——Notion在新冠疫情期间差点夭折，因为支撑所有数据的数据库空间即将告罄。（00:02:10）：如果您喜欢本期播客，请别忘了在您喜欢的播客应用或YouTube上订阅和关注。同时，成为我新闻通讯的付费年度订阅用户，您将免费获得Notion Pro、Perplexity Pro、Superhuman和Linear以及Granola的一年会员权限。详情请访问lennynewsletter.com。接下来，有请伊万·赵。（00:02:32）：本期节目由Eppo赞助。Eppo是由Airbnb和Snowflake前员工为现代增长团队打造的下一代A/B测试和功能管理平台，Twitch、Miro、ClickUp和DraftKings等公司都依赖Eppo来推动实验。实验对推动增长和理解新功能的表现越来越重要，而Eppo能帮助您提高实验速度，同时以其他商业工具无法比拟的方式解锁严谨的深度分析。（00:03:02）：我在Airbnb时，最喜欢的就是我们的实验平台——我可以轻松设置实验、排除故障并分析性能。Eppo不仅能做到这些，还能提供先进的统计方法，帮助您缩短实验时间；易用的UI，让您深入分析性能；以及开箱即用的报告功能，帮助您避免冗长的分析周期。Eppo还让您能轻松与团队分享实验见解，为A/B测试飞轮注入新灵感。Eppo支持产品、增长、机器学习、变现和邮件营销等所有场景下的实验。欢迎访问geteppo.com/lenny，提升您的实验速度10倍。（00:03:50）：本期节目由Airtable ProductCentral赞助，这是一个将整个产品组织统一在一个平台的系统。再也不用分散使用工具，再也不用让团队方向不一致了。如果您和大多数产品负责人一样，对频繁切换工具感到厌倦，那么Airtable在与世界级产品公司合作数十年后打造了ProductCentral。将其视为整个产品组织的指挥中心。与僵化的点解决方案不同，ProductCentral涵盖从资源分配到客户反馈，再到路线图规划和执行的全过程。并且因为它基于Airtable的无代码平台构建，您可以自定义每个工作流，使其完全符合团队的工作方式。没有限制，没有妥协。想亲眼见证吗？访问airtable.com/lenny预约演示。（00:04:44）：伊万，非常感谢您的到来，欢迎加入播客。",
+   "ts": "00:01:28"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Thank you for having me.",
+   "zh": "谢谢邀请。",
+   "ts": "00:04:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know you don't do a lot of podcasts, and so I'm very honored that you're here. I want to start with the story of Ivan. Your background is quite unique for a founder of a $10 billion plus tech company, and I don't think a lot of people know it. For example, you grew up in a small town in China. And the way you got out of there, the way you got into tech is pretty interesting. Can you just walk us through that early years of Ivan and how you got out there?",
+   "zh": "我知道你不常做播客，所以很荣幸你能来参加这次访谈。首先我想聊聊伊凡的故事。作为一家市值超100亿美元科技公司的创始人，你的背景相当独特，我相信很多人都不了解你的过往。比如，你成长于中国的一个小镇，后来如何走出家乡、进入科技领域的经历相当引人入胜。你能否为我们讲述一下伊凡早年的经历，以及你如何走上这条道路？",
+   "ts": "00:04:48"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah. I think a small town in China, the definition, it's actually 4 million people. It is called Urumqi. It's in the northwest desert part of China. So I grew up there and then I moved into... My mom took me to Beijing, the capital of China. And that's actually how I got into programming, coding, because I'm from somewhere else and in order to go into good school in the capital, you need to win some kind of competition. And there's different paths. You can get at math or you can get at programming like Information Olympiad. I was really into computer games at the time so of course I picked the programming one so I can play computers all day long. And I win some competition and got me to a good school. So that's how I got into programming. (00:06:05): Later then, I moved to Canada. When I moved to Canada, got into college, did not study computer science since I already knew how to code, but a lot of video games. Did a lot of art actually, art and science. By the time I graduated college, I realized most of my friends are artists. They need to make their websites, get web portfolio made. And I'm the only nerd in my art friend circle so I made three or four websites and realized, \"Oh, actually people don't know how to create with the software media, computing media.\" So that got me into want to create a product like Notion today which it allow more people to create tools, create software for their daily work and life.",
+   "zh": "是的。所谓“中国小镇”，这里指的是乌鲁木齐市，当时有400万人口，位于中国西北部沙漠地区。我在那里长大，后来被母亲带到首都北京。这也是我接触编程和计算机科学的契机——因为来自外地，想要进入北京的优质学校，必须通过竞赛选拔。当时有数学竞赛和信息学竞赛，我选择了后者，这样就能整天玩电脑游戏了。最终我赢得了比赛资格，得以进入一所好学校。这就是我如何开启编程之路的。（00:06:05）后来我移居加拿大。到了加拿大后，我选择了艺术与科学方向，但因为已经掌握编程技能，所以没有攻读计算机科学，而是专注于视频游戏设计和艺术创作。毕业时，发现身边大多数艺术家朋友都在为制作网站和作品集而烦恼，而我是艺术圈里唯一的技术宅，于是我开发了三个网站，发现人们普遍缺乏使用软件和计算机工具进行创作的能力。这促使我开发了如今的Notion产品，帮助更多人为日常工作和生活创建工具和软件。",
+   "ts": "00:05:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So going back to get into a great school and to leave the small town, not so small, you had to enter a programming contest. And you placed first or second or how well did you actually do in this one?",
+   "zh": "好的。回到你如何进入名校并离开家乡——你必须参加编程竞赛。请问你在北京获得了第几名？",
+   "ts": "00:06:49"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Second in Beijing.",
+   "zh": "北京赛区第二名。",
+   "ts": "00:07:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In Beijing, okay.",
+   "zh": "北京是个大城市。",
+   "ts": "00:07:07"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Pretty big. Beijing is a big city.",
+   "zh": "规模确实很大。北京是个大城市。",
+   "ts": "00:07:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Incredible. Another stat or a story I heard is that you learned English by watching SpongeBob SquarePants. Is that real?",
+   "zh": "好的，太了不起了。我还听说你通过看《海绵宝宝》学习英语，是真的吗？",
+   "ts": "00:07:11"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, it's real. I moved to Canada pretty late, 16 years old, and what I learned is in China you can learn English but it's typically just grammar and doing exams. What you're missing is the context, the culture. So you have to watch SpongeBob or Simpsons to get a sense of humor essentially. You can understand jokes. Watching cartoons, it's probably the easiest way to do that.",
+   "zh": "是真的。我16岁时移居加拿大，发现中国教的英语通常只注重语法和应试，缺乏文化背景和语境理解。所以看《海绵宝宝》和《辛普森一家》能帮助理解幽默和笑点，培养语感。",
+   "ts": "00:07:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's amazing. And there's another seminal moment in your path. I don't know if it was this point or later, but the Douglas Engelbart paper ended up being a very meaningful moment for you.",
+   "zh": "太神奇了。你人生路上的另一个重要转折点是道格拉斯·恩格尔巴特的论文，它对你的影响非常深。",
+   "ts": "00:07:45"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "So while I was in Canada in last year of school working on trying to building website from our friends and building a creative tool for them, and then you just look into the history of a creative tool for software, for computing. Eventually arrived at 1960 and '70s. So you realize the first generation of computing pioneers, which is around San Francisco, Stanford areas, South Bay, they actually had the best ideas. For them, people like Douglas Engelbart, Alan Kay, Ted Nelson, those first generation pioneers, for them computing, there shouldn't be a separation between builders and users. It's the same medium. Engelbart's original paper called Augmenting Human Intellect, when I read that paper, it's like holy shit. If you are making software, if you know how to code or design, this is the highest leverage thing you can do for other people. So giving them the ability to use computing to augment their problem-solving ability or their intellect, that just got me obsessed with this problem and I want to start a company like Notion.",
+   "zh": "去年我在加拿大求学期间，一边致力于为朋友们搭建网站，开发创意工具，一边研究软件与计算领域的创意工具历史。最终，我追溯到1960至1970年代。于是我意识到，第一代计算先驱者大多聚集在旧金山、斯坦福周边地区以及南湾。以道格拉斯·恩格尔巴特、艾伦·凯、泰德·尼尔森等为代表的这批先驱者，他们认为计算不应将创作者与用户割裂开来——计算本身应当是通用的媒介。恩格尔巴特题为《增强人类智力》的论文让我震惊不已。若你从事软件开发，掌握编程或设计技能，这就是能为他人创造最大价值的手段。赋予用户利用计算技术提升问题解决能力或智力水平的能力，这一理念让我深深着迷，最终促使我创立了Notion这样的公司。",
+   "ts": "00:07:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It makes me think of Steve Jobs's famous line of how the computer is a bicycle for the mind.",
+   "zh": "这让我联想到史蒂夫·乔布斯那句著名的名言：计算机是思维的自行车。",
+   "ts": "00:09:05"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "You know what? Steve Jobs is actually at fault of this in some strange ways. So the story is... Actually, the fact. It's not a story. Xerox PARC has working on the first-generation personal computers called Xerox Alto. Alan Kay was one of the main persons behind it. Alto runs down the system called Smalltalk, which is there's no separation between users and users' app. There's no thing called application. Everything is malleable. You can change the tools. So when Steve Jobs, the famous story is when he went to Xerox PARC to in demo with Alto, he does not... It's the first time he see graphic user interface, one of the first time, and it's also they present them with this Alto system that everything could change. But he did not see the power of it. Even when people would demonstrate like, \"Hey,\" Steve Jobs say, \"I don't like this direction of scroll bar direction. When you scroll up and down, it shouldn't scroll the opposite reverse direction.\" Then people just instantly change the scroll bar direction for him. (00:10:16): That's the power of the original Smalltalk Alto system. He only saw the graphic user interface. He did not see the underlying object or the environment power. As the generation of Steve Jobs and Bill Gates made PC, personal computing, popular and they stuck with this an application framework rather than the Smalltalk object framework. Then that has all the apps we have today and has the SaaS route we have today.",
+   "zh": "说起来，有趣的是，史蒂夫·乔布斯对此负有一定责任。事实上，这并非虚构的故事，而是真实的历史。施乐PARC曾研发出名为Xerox Alto的第一代个人电脑，艾伦·凯是该项目的核心人物。Alto运行的Smalltalk系统实现了用户与应用的无缝交互——没有所谓的“应用”概念，一切皆可灵活编辑。史蒂夫·乔布斯造访Xerox PARC时，首次接触图形用户界面（GUI），并目睹了Alto系统中所有元素都可随时调整的特性。但他未能领悟其核心价值。例如，当演示者调整滚动条方向时，史蒂夫提出：“我不喜欢滚动条的反向滚动逻辑。”对方随即当场更改了滚动条方向。（00:10:16）这正是Smalltalk Alto系统所蕴含的强大力量——乔布斯只看到了GUI表象，却忽视了底层对象与环境的深层逻辑。随着乔布斯与比尔·盖茨这一代人将个人计算推向大众，他们选择了应用框架而非Smalltalk对象框架，最终造就了我们今天熟知的应用生态与SaaS模式。",
+   "ts": "00:09:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That vision of how products should be sounds very familiar and we'll talk about that later of how you think about Notion, but let's assume to the beginning of Notion, when we were chatting earlier, the way you described the early years of Notion, you started Notion in 2013 and some over 10 years ago at this point, you described the first three to four years is the lost years of Notion. And I think this is actually a really big deal for founders to hear about because there's all these companies these days, you hear these stats, they had 100 million ARR in two years, in under two years now. And you don't hear a lot of stories of companies of your scale and success that took three to four years to find product market fit essentially. What went on during these lost years as you described them and just how did you stick with it? That's a long time to stick with something that isn't working.",
+   "zh": "关于产品应该如何设计的这种愿景听起来很熟悉，稍后我们会再谈谈你对Notion的看法。但先回顾Notion的起点——我们之前聊天时，你提到Notion早期三到四年是迷茫期。对我来说，作为创始人听闻这种经历非常重要，因为如今很多公司宣称在两年内就实现了1亿ARR（年度经常性收入），但像你这样规模和成功的公司，却花了三到四年才找到产品与市场的契合点。你如何在迷茫期坚持下去？这对任何创业者来说都是巨大的挑战。",
+   "ts": "00:10:43"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Because the goal is always building a computing tool. It's like what product is this? It's really hard to shape the product. The vision is, the dream is there, but the product is very... There's so many paths. We'll try many different versions. The first version to take, okay, everybody can make and create their software. So let's just build a developer tool that's so easy that more people can do that. We tried that a couple of years and learned that actually most people just don't care. The majority of people, they wake up, they have report due, they need to get their job done, they don't care creating software to optimize whatever they're doing. They don't care. So we give to our friends, give to investors. It did not resonate with people. (00:12:22): But we really want to build that tool so we just keep going and our realization is actually, let's hide our vision, which is everybody can create their software, in the form factor that people do care. So what kind of tool do people use every day? Productivity software. So that's why it came to Notion today. If you use Notion, Notion are more understood as the productivity suite, but our intent, and if you use Notion, more you discover intent, which is that it has a no-code developer power into it and you can create almost any kind of productivity software using Notion itself. That took us two plus year to realize. So actually the world is not like you. The world are not developer, designer mind. That the world is they only care what's in front of them and they're so noisy.",
+   "zh": "因为我们的目标始终是打造一款计算工具。核心问题在于：这到底是什么产品？产品塑形极其困难。愿景和梦想固然存在，但产品却千变万化。我们尝试了多个版本。最初的版本设想让所有人都能创建自己的软件，于是我们打造了一个极其易用的开发者工具。但后来发现大多数人并不在乎优化效率——他们醒来后要处理报告、完成工作，根本无心优化流程。于是我们把产品推给朋友和投资者，但反响平平。（00:12:22）但我们决心打造这款工具，于是继续探索，最终意识到：何不将“让所有人都能创建软件”的愿景，隐藏在人们日常使用的生产力工具中？于是Notion应运而生。如今用户更多将Notion视为生产力套件，但我们的初衷是——通过无代码开发能力，让用户轻松创建各类生产力应用。这条路走了两年多才顿悟：世界并不以开发者或设计师的思维模式运转，人们只关注眼前可见的事物，信息爆炸让他们无所适从。",
+   "ts": "00:11:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's a quote that this makes me think about where you said, \"The first version of Notion was more about what I wanted than what people wanted.\"",
+   "zh": "你曾提到：“Notion的第一个版本更多是关于我个人需求，而非用户需求。”这句话让我深有共鸣。",
+   "ts": "00:13:16"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "It's very much so because sense of maturation is you don't see the world just from your perspective but from outside your perspective. At tech, we were young. Took us multiple years. It hit your head straight into the wall to realize that. People just don't care.",
+   "zh": "成熟的标志在于，能跳出自身视角，理解外界需求。在科技行业，我们曾年少无知，历经多年碰壁才领悟：人们根本不在乎你的宏伟愿景。",
+   "ts": "00:13:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love the way you phrased that, that you have to hide your vision behind something that people understand and know how to use and...",
+   "zh": "你将这种策略比作“裹着糖衣的西兰花”——人们不愿吃西兰花，但喜欢糖衣，于是将西兰花藏在糖衣里。",
+   "ts": "00:13:40"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "We call it sugar-coated broccoli. People don't want to eat the broccoli but people like sugar, so give them the sugar then hide the broccoli inside of it.",
+   "zh": "我很欣赏你的表达方式：必须用人们熟悉的工具来包装你的愿景。",
+   "ts": "00:13:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. The other thing I've heard is that you threw away your code every time, so you rebuilt it many times. You threw away the code each time.",
+   "zh": "哇。我还听说你每次都把代码扔掉，所以你重建了很多次。每次都把代码扔掉。",
+   "ts": "00:13:55"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "That's true. Actually, it took us four year to get somewhere. First two year is that you build too much like developer product. Nobody cares. It took us two year to realize we need to build a productivity tool. Then it took another year to realize to build this out, but in the middle of that I realized we built on the wrong technical foundation. So eight, 10 years ago, there's computing before. Right now, all the web app runs on React. Before React wins, there's a competing technology called Web Component from Google. And it makes sense. Web Component feels like a Lego-like, the building block-like, and we're betting on that technology. And then we realize because it's so new, it's just so unstable. It don't know where the bug come from. It's from your source code or from the underlying libraries? Then we have to restart the company, rebuild the whole thing. Otherwise, we're going to run out of time. So we set a code base. We set a company so we can build on our own more orthodox technology foundation.",
+   "zh": "确实。我们花了四年才有所进展。最初的两年，我们做的产品太像开发者工具了，没人感兴趣。后来我们意识到需要开发生产力工具，又花了一年时间。但在此期间，我们发现技术基础选错了。所以八、十年前，有现有的计算环境。现在所有网络应用都基于 React 开发。在 React 流行起来之前，谷歌推出了 Web Component 这项技术。这项技术很有道理，感觉像乐高积木般的模块化组件，我们当时就押注了这项技术。但问题是它太新了，非常不稳定。不知道 bug 是来自源代码还是底层库。最后我们不得不重组公司，彻底重建系统，否则就赶不上进度了。所以我们搭建了一个代码库，组建了公司，这样才能在更正统的技术基础上进行开发。",
+   "ts": "00:14:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How did you actually stay solvent all this time? A lot of people want to keep working at an idea. Oftentimes they need to pay the bills. How practically were you able to keep working for three to four years? I know there's a story of your mom loaning you some money during that time.",
+   "zh": "那你们这些年是怎么维持运营的？很多人想继续追逐一个想法，但总得养家糊口。你们怎么能坚持三到四年？我知道你妈妈在那期间借钱给你了。",
+   "ts": "00:15:10"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Well, Chinese mom always can help, and I'm a single child. Yeah, actually my mom helped me kickstart the company because I'm Canadian. In order to move to US, you need to register a company. So my mom helped me with the initial and raised the money. I returned the money to her. Then we run out of the money so, \"Hey mom, can I borrow that just to bridge us?\" Which she did. I'm really grateful for that. How we bridged? How do you last here so long? Because the thing you want to create does not exist, which what is called Notions. It's a Lego for software. It doesn't quite exist. There's a Lego for Lego. You can see that in furniture exist, but Lego for software at the usable mass market adoption level doesn't quite exist. And you just want that thing to exist. And I grew up with Legos. It's the only toy I ever wanted, and I want the same feeling of creativity and playfulness to the toy that people can use every day. And my co-founder, Simon, feels the same way. Lego is the only thing he wanted for every Christmas.",
+   "zh": "嗯，中国妈妈总是能帮上忙，而且我是独生子。其实我妈妈帮我创办公司是因为我是加拿大人。要去美国就得注册公司，所以她帮忙做了初始资金投入。后来我把钱还给她了。然后钱又花光了，就跟她说：“妈妈，能不能再借点周转一下？”她就借了。真的很感激。她是怎么帮我们周转的？你们怎么坚持下来的？因为你们想创造的东西还不存在，比如 Notion。这是软件领域的乐高积木，但还达不到可用的主流市场水平。你们就想让它存在。我从小玩乐高，这是我唯一想要的玩具，我希望人们日常使用的工具也能带来同样的创造力和趣味感。我和联合创始人西蒙也有同样的感受。乐高是他每年圣诞节唯一想要的礼物。",
+   "ts": "00:15:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Have you guys seen Magna-Tiles though? I have a one-and-a-half-year-old and Magna-Tiles are quite delightful. I think it's like a pre-Lego. The children can play them.",
+   "zh": "不过你们有没有见过 Magna-Tiles？我一岁半的孩子玩 Magna-Tiles 特别开心。我觉得它像是乐高的前身。孩子们可以用它搭建东西。",
+   "ts": "00:16:36"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Magna-Tile?",
+   "zh": "Magna-Tile？",
+   "ts": "00:16:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. It's like they're little magnetic plastic planes and then you can build much bigger things really quickly. It's more for babies, but I'm having a blast.",
+   "zh": "对。就像小小的磁力塑料飞机，然后能很快搭出更大的东西。更适合小孩子，但我玩得很开心。",
+   "ts": "00:16:46"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Oh, I see it. It's like... Uh-huh.",
+   "zh": "哦，明白了。就像……嗯。",
+   "ts": "00:17:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's a different version of Legos. I like that you're in real-time looking it up. You're like, \"Okay, our new vision Magna-Tiles for software.\"",
+   "zh": "这是乐高的不同版本。真高兴你能实时查找资料。就想，“好，我们的新愿景是软件领域的 Magna-Tiles。”",
+   "ts": "00:17:02"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Now, most people know, \"Oh, Magna-Tile.\" Idea is the same. Modular, right?",
+   "zh": "现在大多数人都知道“哦，Magna-Tile。”理念是一样的，模块化，对吧？",
+   "ts": "00:17:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, creativity. Okay, back to your story. So there's also a moment where you moved to Japan. Just what was that about? Is that just escape and disconnect?",
+   "zh": "是啊，创造力。好的，回到你的故事。那么你搬到日本的那段经历是怎么回事？那只是为了逃离现状，放松一下吗？",
+   "ts": "00:17:13"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, that was during one of the rebuild phases. During the... We know what the product should look like. It should be a productivity software with a Lego power hiding inside of it. We build on the wrong technical foundation. And if we continue to build on the wrong ones, we're going to run out of money. Company won't exist. So we decided to lay off everybody. At that time, the Notion was five people. The layout I brought back to me and Simon, two people. And morale obviously there was really low. You have to say goodbye to your teammates. And so we have the idea, \"Let's just go somewhere that we've never been to change the scenery a little bit.\" And Japan is always top on our list. (00:18:00): So the funny thing is if we... And we subleased our apartment and office. We're actually making money living in Japan and then San Francisco. So we did that for a while. We actually travel around the world for a while just to change it up, me and Sam just coding every day and design every day. That's some of the happiest moments. Birthday every day.",
+   "zh": "是的，那是在我们重建阶段的其中一个时期。当时我们已经明确了产品应该是什么样子——它应该是一款内含乐高式创新潜力的生产力软件。但我们选错了技术基础。如果继续沿用错误的技术路线，我们的资金迟早会耗尽，公司也会倒闭。所以我们决定裁掉所有员工。当时Notion团队只有五人，由我和西蒙带回的团队只有两人，而团队士气显然非常低落。不得不和队友们道别后，我们萌生了一个想法：“何不去一个从未去过的地方，换换环境呢？”日本始终是我们的首选。（00:18:00）有趣的是，我们把旧公寓和办公室转租出去后，住在日本和旧金山的生活反而还能赚钱。所以我们就这样坚持了一段时间。后来我们又周游世界，换换环境，每天写代码、做设计，那些时光真是最快乐的。每天都是生日。",
+   "ts": "00:17:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I saw a stat you're coding 18 hours a day. Here's the quote I heard, :We just code, code, code. Then hey, let's go for food. Then we go eat, go back to work, and do it again.\"",
+   "zh": "我看到你提到每天编程18小时。听过这样一句话：“我们就是不停地编程、编程、编程。然后去吃个饭，再回来继续工作。”",
+   "ts": "00:18:27"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Because me and him working so well now. Even back then, it's like you know what each other other people are thinking and you can just cross through the problem space really quickly. The technical product space, design space, and just non-stop of shaping stuff.",
+   "zh": "因为我和他现在合作得非常默契。即使那时候也是如此，我们能心领神会对方的想法，很快就能攻克难题。无论是技术产品层面、设计层面，还是不断地打磨产品。",
+   "ts": "00:18:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So maybe just to close out this thread, for people, for founders that are either struggling and just can't find a thing that's working, \"I've been working on something for a long time,\" I'm curious what advice you'd share for sticking with it. And I'll share things I've heard you say so far and I'm curious if there's something you'd add. One is you just believe this needs to exist in the world and you need to really feel this, \"I need this to be a thing.\" I think there's an element of staying lean, like you've let everyone go and it's just you and Simon again. There's also this element of disconnecting almost and just going to a different location and just like, \"Let's just reset.\" What other elements do you think are key to you finding something that actually ended up working?",
+   "zh": "或许总结一下这段对话，对于那些正在苦苦挣扎、找不到有效方向的创业者来说，“我已经为某件事努力了很久”，我很好奇你能给出什么坚持下去的建议。我会分享你目前提到的建议，也想听听你是否有补充。首先，要坚信这个产品应该存在于这个世界，并且真心感受到“我需要它成为现实”。保持精简也很重要，比如裁掉所有员工后，只剩下你和西蒙。还有就是暂时脱离现状，换个环境，重新出发。你们认为还有哪些关键要素能帮助找到真正成功的产品？",
+   "ts": "00:18:55"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I'm lucky and Simon lucky that high is never too high, low is never too low for us, so somehow it wasn't feeling too down. Whenever I feel down, I just go to sleep and next day I'm just reset. So that's lucky for me. Definitely don't be afraid to reset. I think courage is quite important because oftentimes you're working on things don't matter, but momentum just took you there. Your first point of building something you want the world to have. What is the building a product or business? You want user. You want revenue. That's a product business. It's almost like a sports. The market is the arena. Then you'd want to optimize the scorecard where it's building for winning. And I grew up playing sports. I like to compete so I like that. (00:20:34): And building for something you want the world to have is building for your value. You have some taste. You have some aesthetic. You have some values. You want the world to have more of that. They are different energy. I realize actually fairly recently, they're really different. Depends on which day I wake up, I might be in different mood for things, but building for value it's more lasting and more fulfilling. Looking in the thing we're building today and looking back, I find most proud of thing I create something authentic to myself and happen to be also useful for others, and that just keeps you going. And that feels like a more durable energy source for all those dark years, loss years during Notion, and still every day for me.",
+   "zh": "我很幸运，西蒙也很幸运——对我们来说，人生高峰从不高到离谱，低谷也从不低到令人绝望，所以即便情绪低落也总能挺过来。每当情绪低落时，我就选择入睡，第二天醒来便能重整旗鼓。这对我来说真是幸运之事。绝对不要害怕从头再来。我认为勇气至关重要，因为很多时候你投入精力做的事看似无关紧要，但惯性却把你带向了目标。当你着手打造一款希望全世界都能受益的产品时，首要任务就是构建价值体系。你要有自己的品味、审美和价值观，渴望让世界拥有更多这样的美好事物。它们代表着截然不同的能量源泉。我最近才意识到，两者的差异确实巨大。这取决于你醒来那天的状态，情绪可能因时而异，但为价值而建设才能带来持久的满足感和成就感。当回顾我们如今正在打造的产品时，最令我自豪的是创造出忠实于自我、同时又能为他人带来实用价值的东西，这份能量源泉支撑着我走过Notion项目的低谷岁月，也支撑着我至今每一天的坚持。",
+   "ts": "00:19:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting you say that because also there's this aspect of it wasn't working initially because you're building it for yourself and not for people, but what I'm hearing is it's still important to build a thing that you are still excited about but also have you go back and forth. Here's what the business needs and here's the thing I'm excited about.",
+   "zh": "你提到这一点很有意思，因为最初确实存在因为为自己而非为用户而建设而导致项目失败的情况。但我听到的核心观点是，坚持自我热爱的同时也要兼顾市场需求。",
+   "ts": "00:21:24"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, really a cue. Almost like a therapist, right? It's true. You're building too much for your own self and value without realizing at the end of the day, if you're building a product and tool has to be used by others, you need to create a balance. Too much of yourself, then there's no users. Then you're just doing our project. You're just doing a research project. And too much for a business, you're building a commodity. So where's the spectrum? Yeah, it's never ending spectrum. It's interesting.",
+   "zh": "是的，这确实是个关键启示。就像心理治疗师的建议，对吧？确实如此。当你为自己而非用户构建产品时，往往会陷入自我陶醉的死循环，最终意识到平衡至关重要。过度关注自我，用户就会流失，项目就成了研究项目；过度迎合市场，产品就会沦为商品。那么，平衡点在哪里？这是一个无穷无尽的平衡曲线，很有意思。",
+   "ts": "00:21:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, okay. So I'll summarize some of those things you shared of just how to stick with it and stay with an idea and not give up. So I love that you said just get sleep, very Brian Johnson of you, just like, \"Get some sleep when it's a real down day. There'll be another day tomorrow.\" Really simple but...",
+   "zh": "是的，没错。所以我要总结一下你分享的那些坚持下去、坚守创意、不轻言放弃的要点。比如你提到入睡休息，这真是典型的布莱恩·约翰逊式建议——“在情绪低落的日子里，睡个好觉，明天又是新的一天。”简单却有效。",
+   "ts": "00:22:17"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "It's like a daily personal physical reset. You can reset your code base. You can reset your mental model.",
+   "zh": "这就像每日身体层面的重置。你可以重置代码库，重置思维模式。",
+   "ts": "00:22:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. And then there's also, I love these points. Don't be afraid to reset, as you just said. Tobi Lutke was on the podcast. He said the same thing. \"Just be comfortable with some cost. I have done all this already and I will throw it away and start again and that's okay.\"",
+   "zh": "好的。接下来还有几点我很认同。正如你刚才说的，不要害怕从头再来。托比·卢特克上过我们的播客，他也说过同样的话：“接受一些成本是合理的。我已经做过很多事，愿意推倒重来，这没什么大不了的。”",
+   "ts": "00:22:39"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah. I think it's not just a self-help way to say don't be afraid to reset. That's like, that's okay, that's fine. I think the more interesting point here, it's like you can create progress through better abstractions. And that thing compounds faster, can catch up to all the things you build much quicker than you ever thought. Or humans are not thinking, not good at thinking in terms of abstraction or exponentials. We're thinking in terms of linearly. If you just reset it and you find a better way to do it, you can get all the thing you have to some cost recovered really quickly. (00:23:29): So actually going back to the computing pioneers part, small talk, one of the first system and a huge influence for Notion was really tiny code base and inspired by Lisp, which is another programming languages and probably a hundred lines of code or something. The kernel of things could be really small, but just like math. It can compound. It can have complex behavior that unlocks so much value and things for you. But if you just find those right, you can catch up to all the things you did. You are free to lose really quickly. So I think that's the kernel of why reset is so powerful.",
+   "zh": "是啊。我觉得这不只是一个自我激励的方式，告诉人们别怕从头再来。这更像是说，没关系，完全可以接受。我认为这里更重要的观点是，通过更优的抽象思维方式，你能推动事物进步。这种进步会加速叠加，远比你想象中更快地追上你所构建的一切。或者说，人类不善于思考抽象概念或指数级增长的模式。我们习惯线性思维。如果你重置系统，找到更好的做事方法，就能迅速收回之前的所有成果。（00:23:29）说回计算先驱的部分，闲聊一下，Notion 的首个系统深受 Lisp 启发，这是一种编程语言，代码量可能只有一百行左右。核心逻辑可以很小，但就像数学一样，能产生复合效应，释放出巨大的价值和潜力。但只要你找对了方向，就能追赶上前人所达的境界。失败的代价可能很高。所以我认为这就是“重置”如此强大的核心原因。",
+   "ts": "00:22:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And we're seeing exactly what you're describing in LLM advancements these days. All these companies have been working on this for so long and then they've cracked an abstraction of how to think about scaling these systems. And now just people launch them and are immediately where the companies that have been working this for decades are today because they are building off these abstractions as you described in these.",
+   "zh": "我们正目睹着当下 LLM 技术进步中你所描述的现象。所有这些公司多年来一直致力于此，直到他们突破了如何扩展这些系统的抽象思维模式。现在只要有人推出这些产品，就能迅速达到那些研究数十年之久的公司所处的水平，因为他们正基于你提到的这些抽象概念进行构建。",
+   "ts": "00:24:10"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Trying to caught up the US really quickly.",
+   "zh": "他们正试图迅速追赶美国的步伐。",
+   "ts": "00:24:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "With DeepSeek, yeah. The point you also made about momentum, be weary of momentum taking you in direction and moving in a different... not being stuck to that direction is exactly the way I think the chain of thought models network actually where generally LLMs are like, next word, next word, next word, next word. And if they ever make a wrong turn, they're stuck. They keep going from that path. And these chain of thought models are now good at just like, wait, let me rethink. Is this actually the right path or should I start again? So I feel like AI has almost figured out exactly what you're describing.",
+   "zh": "说到 DeepSeek，是的。你提到的关于动量的观点也很重要，要警惕动量将你带入错误的方向并无法调整方向。正如我所理解的，链式思维模型网络通常会这样：LLM 一直输出下一个词、下一个词、下一个词……一旦走错方向，就深陷其中无法自拔。而这些链式思维模型现在已经能做到停下来，反思：“这条路对吗？还是应该重新开始？” 所以我觉得人工智能几乎完全理解了你所描述的这些机制。",
+   "ts": "00:24:36"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Interesting.",
+   "zh": "真有趣。",
+   "ts": "00:25:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, man. Okay, last question about the early years. Everyone's always wondering what does product market fit feel like? You worked on it for three to four years. What was the moment? What would it look like? What was different when you're like, \"Okay, this is going to work\"?",
+   "zh": "天哪。好，最后一个关于早期阶段的问题。大家总想知道产品市场契合度是什么感觉？你研究了三到四年。那个关键时刻是什么？当时你意识到“好吧，这个能行”时，具体情况是怎样的？",
+   "ts": "00:25:07"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I think going back to me and Simon, high is never that high, low is never that low, it never hit us as a binary state. Just like, \"Oh, good. We have people who care about this thing we make now. Oh, good. People reach out to us who are paying us.\" And it's a very gradual ramp. Maybe that's why early days when it's really the lost eras, it doesn't feel too low because it just... Even for Notion today, it feels like it's so small in terms of where it could be. It just they keep going, right? It's a less of a milestone way to thinking about things. It's more just like, \"Can we do the same that's in our head and better than we did last week?\" way of thinking about things. So there's a such movement that product market, boom, milestone achieved. Didn't feel that way.",
+   "zh": "我觉得对我和西蒙来说，高点从未达到极致，低谷也从未跌至谷底，这种状态从未以二元对立的形式呈现。就像，“哦，太好了。有人关心我们现在做的东西。”“哦，太好了。有人主动联系我们并付钱给我们。”这是一个非常渐进的过程。也许这就是为什么早期阶段虽然看似迷茫，但其实并不会让人觉得太低谷，因为它只是……即使是现在，Notion的发展潜力也远未触及上限。人们就是不断前进，对吧？这不是以里程碑式思维看待事物的方式，而是以\"我们能否达成当初的设想，比上周做得更好？\"这样的心态看待事物。因此，产品市场推广的成功并非一蹴而就，也没有那种突如其来的里程碑时刻。",
+   "ts": "00:25:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've heard that from a lot of founders actually. Was there a moment in that point of just like, \"Oh, this is different,\" or, \"Maybe it's going to work this time\"?",
+   "zh": "事实上，我从很多创始人那里听过类似说法。在那个阶段，有没有某个时刻让你突然意识到“哦，这次情况不同了”，或者“也许这次真的能成功”？",
+   "ts": "00:26:13"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I think for a while, okay, once we start revenue, product grows faster now. Investors start knocking on the door was like, I remember one day it's like there's a dog food, dog treats sent to our entire office. So first of all, office wasn't public, the address. And the dog treats, why do people want this so much? So that was a moment I paused a little bit and I guess there's enough attraction for investors.",
+   "zh": "我想在某个阶段，嗯，一旦我们开始有收入，产品发展速度就会加快。投资者开始主动联系我们。我记得有一天，有人送了一堆狗粮和零食到我们整个办公室。首先，办公室地址是保密的，而且这些零食让人很困惑——为什么大家这么热衷于这些东西？那一刻我稍作停顿，心想投资者对我们确实有足够的兴趣。",
+   "ts": "00:26:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And the dog treats were trying to... It was like a gift to be like, \"Hey, you should talk to us. We're sending this fun gift.\"",
+   "zh": "那些零食是想……就像礼物一样传递信息，说：“嘿，你们应该和我们聊聊。我们送了这些有趣的礼物。”",
+   "ts": "00:26:55"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, because of the way how we just hire someone in the office as a dog. Then I think we post on Twitter or something. And I said, \"Why did this show up to our office?\" Someone really hustled into where we are in our office address and follow us on Twitter.",
+   "zh": "是啊，因为我们办公室刚招了一个养狗的人。然后我记得我们在推特上发了动态，有人评论：“为什么这些零食会出现在我们办公室？”有人真的费尽周折找到了我们的办公室地址，还在推特上关注了我们。",
+   "ts": "00:26:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Did you end up taking their money?",
+   "zh": "最后你们接受了他们的投资吗？",
+   "ts": "00:27:17"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Not the first time, yeah.",
+   "zh": "不是第一次，但这次是。",
+   "ts": "00:27:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, later. Okay, it's long game.",
+   "zh": "好的，再往后说。好的，这是个持久战。",
+   "ts": "00:27:20"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "No.",
+   "zh": "不。",
+   "ts": "00:27:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So I've never heard that before. Sign product market fit as VCs are starting to... You start getting a lot more messaging and cold outreach from VCs.",
+   "zh": "太棒了。所以我之前从未听过这种说法。当VC们开始关注产品市场适配度时……你会收到大量来自VC的信息和主动联系。",
+   "ts": "00:27:25"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Actually, I had one of our investor, it's really helpful because all those years you just like there's no feedback loop. You just go for it. Then the feedback loop gradually show up. Then for a while it's, oh, VCs start knocking on doors. So I should talk to those people. The people like what we're doing. I did some meetings, quite a few of meetings. Maybe it doesn't... I realize and one of the members is saying, \"Ivan, what are you doing? You clearly don't need money. You're just trying to feel good to do external validation about this.\" And I said, \"Oh, that's so true.\" It doesn't help us make a better product and the truth is with what customer tell us. Then we just went back to building. I went back to hardcore building, no meeting modes. That's where the dog food story came about and realized, \"Oh.\" It's interesting.",
+   "zh": "实际上，我有一位投资者，这真的很有帮助，因为那些年你根本没有反馈回路。只能埋头苦干。然后反馈回路逐渐显现。有一阵子，VC们开始主动联系我们。所以我应该和那些人聊聊。人们对我们做的事情感兴趣。我参加了不少会议。但也许这并没有……我意识到，其中一位成员说：“伊万，你在干什么？你显然不需要钱。你只是想从外部获得对产品的验证，从而自我感觉良好。” 我说：“哦，太对了。”这对我们打造更好的产品毫无帮助，关键还是要听用户怎么说。然后我们就回归到开发工作中。我又开始埋头开发，不再参加那么多会议。狗粮的故事就是这么来的，然后我意识到：“哦。”这很有意思。",
+   "ts": "00:27:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned this investor, they said it was really helpful. Is you want to give them some credit or do you want to keep-",
+   "zh": "你提到的这位投资者，他们说这真的很有帮助。你是想特别感谢他们，还是希望保持低调？",
+   "ts": "00:28:30"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Oh, Shana Fisher. She's in New York.",
+   "zh": "哦，莎娜·费舍尔。她在纽约。",
+   "ts": "00:28:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool.",
+   "zh": "好的，不错。",
+   "ts": "00:28:38"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, she's like another therapist, right?",
+   "zh": "是啊，她就像另一个心理治疗师，对吧？",
+   "ts": "00:28:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Sinch, the customer communications cloud. Here's the thing about digital customer communications. Whether you're sending marketing campaigns, verification codes or account alerts, you need them to reach users reliably. That's where Sinch comes in. Over 150,000 businesses, including eight of the top 10 largest tech companies globally, use Sinch's API to build messaging, email, and calling into their products. (00:29:09): And there's something big happening in messaging that product teams need to know about, Rich Communication Services or RCS. Think of RCS as SMS 2.0. Instead of getting texts from a random number, your users will see your verified company name and logo without needing to download anything new. It's a more secure and branded experience, plus you get features like interactive carousels and suggested replies. And here's why this matters. US carriers are starting to adopt RCS. Sinch is already helping major brands send RCS around the world, and they're helping Lenny's podcast listeners get registered first before the rush hits the US market. Learn more and get started at sinch.com/lenny. That's S-I-N-C-H.com/lenny. (00:29:57): I want to shift to talking about Notion today and the way you've approached it and a good segue is what you've been talking about right now is how lean and efficient you've been and how that's been a big priority for you. So a few stats I've seen. One is that you guys are profitable. You've been profitable for a couple of years now. I don't know if you've spent even the money you've raised. I think most of it is still in the...",
+   "zh": "本期节目由客户沟通云服务Sinch赞助。说到数字客户沟通，无论是发送营销活动、验证码还是账户提醒，都需要确保信息能可靠传达给用户。这正是Sinch的用武之地。全球超过15万家企业（包括十大科技公司中的八家）都在使用Sinch的API，将消息、邮件和通话功能集成到自己的产品中。（00:29:09）：在消息领域，正发生着一件重大的变革，产品团队需要了解——富通讯服务（RCS）。可以把RCS视为SMS 2.0升级版。用户无需下载新应用，即可看到经过验证的公司名称和标识，而不是来自随机号码的短信。这带来了更安全、更具品牌特色的体验，还支持互动轮播和智能回复等功能。关键在于，美国运营商已开始推广RCS。Sinch目前正助力各大品牌在全球范围内发送RCS消息，并帮助Lenny的播客听众在美国市场火爆之前提前注册。欲了解更多信息并立即上手，请访问sinch.com/lenny。（00:29:57）：今天我想聊聊Notion，以及你们的运营思路。一个很好的切入点是，你们刚刚提到团队如何保持精简高效，这始终是你们的优先事项。根据我了解到的数据，你们已经实现盈利，并且盈利了好几年了。我不知道你们是否动用了募集到的资金，大部分资金应该还存在……",
+   "ts": "00:28:43"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:30:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's still in the bank. You're nodding, if you're on YouTube. You didn't have a salesperson until you hit over 10 million ARR. You hired your first PM at 50 people. You've always kept the team generally really small. Why is that been important to you? It's very cool now. Everyone's like, \"Of course, that's how it should be.\" But for the past decade, that has not been the case. You've always been that way. Why has that been so important?",
+   "zh": "资金仍在银行账户里。如果你在YouTube上观看视频，你会发现我在点头。在ARR突破1000万之前，你们没有销售团队。在团队规模达到50人时才聘请了首位产品经理。你们一直保持团队规模较小。这对你们为何如此重要？现在大家都觉得理所当然，但过去十年并非如此。你们始终坚持这一理念。为何这如此重要？",
+   "ts": "00:30:20"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I think going back to the abstraction system way of problem solving, I think we're lucky that me and Simon and Akshay, we have the skillset you probably can run a whole company, which is a couple of us, I can design, I can do marketing, storytelling, close sales deals. So you realize you don't need a lot. But when you can do a lot at the same time or hire people who can do that, naturally keep the company small. And you all know you're doing product management. The overhead is actually more from internal communication. It's really hard to get people's mind to be aligned on things, to see the world in the same way. And the part that you do need people, maybe you can solve better through systems, through better tools. (00:31:39): Notion itself is a meta tool to build other tools. So we pretty much run everything on Notion. We use the same mindset to build our company. And accidentally, that keep our headcount low, keep our company profitable, which then puts you on a positive treadmill of you don't have to go for the next 18, 24 months to find money. You can just focus on building. (00:32:03): And also because your team's small, we have this internal Notion called talent density. We don't try to track number of people but we try to track how talent-dense, revenue per employee we are. And people want to work with either more talented people. So it's a positive company group.",
+   "zh": "我认为回归抽象系统式的解决问题思路很重要。我们很幸运，西蒙、阿克沙伊和我具备了可以运营一家公司的技能组合——我们中有些人能设计，有些人能做市场营销、讲故事，还有些人能促成销售交易。这让你意识到其实不需要太多人手。但当你能同时处理多项任务，或者雇佣能胜任这些工作的人时，自然会保持公司规模小。你们都知道自己在做产品管理，日常开销更多来自内部沟通。要让团队成员在同一件事上达成共识、用同一种视角看待世界，这真的很难。而在需要人力协作的领域，或许可以通过系统和更好的工具来优化解决方案。（00:31:39）Notion本身就是一个用于构建其他工具的元工具。我们几乎所有业务都基于Notion进行。我们用同样的思维模式来运营公司。无意间，这让我们保持了低人员规模，维持了公司的盈利能力，让你能专注于产品开发，而无需在未来18到24个月里去融资。（00:32:03）另外，由于团队规模小，我们内部开发了一个叫做“人才密度”的工具。我们不追踪员工数量，而是追踪每位员工的收入贡献和人才密度。我们希望员工能与更具才能的人共事。这就形成了一个良性循环——人才密集的团队能创造更高的效益。",
+   "ts": "00:30:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I wonder how much of this is actually from being around for so many years without success of, \"We just have to stay very lean and save our cash because otherwise, we'll die.\" Do you think that was a formative experience to inform how you want to operate or is that always something?",
+   "zh": "我很好奇，这其中有多少源于多年未获成功的经历带来的影响——“我们必须保持极度精简，节省现金，否则就会倒闭”。你觉得这段经历对你的运营理念有何启发？还是说这始终是你的固有思维模式？",
+   "ts": "00:32:27"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "No, I wouldn't say we're, Notion, is a cost saving-first company. I like fancy chairs. I like furniture. But we're not wasting money. I think it's more just from a taste or approach to problem solving. I just believe better system is much better than brute force through people.",
+   "zh": "不，我不会说Notion是一家以节省成本为先的公司。我喜欢豪华椅子和家具，但我们并不浪费钱。我认为这更多源于解决问题的思维方式和方法论。我坚信更好的系统远胜于靠人力蛮干。",
+   "ts": "00:32:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When people hear this idea of staying lean and staying small, it sounds great or we're going to be super efficient and lean and smart with our money and down dense. It's very hard to do and it's very hard not to hire more engineers, more designers. What advice do you have for folks that want to operate this way? What has allowed you to actually be successful while staying lean and not having as many engineers as competitors, many designers as competitors?",
+   "zh": "当人们听到保持精简和小规模的理念时，听起来很棒——我们会变得高效、节省现金、人才密集。但这很难做到，也很难不去招募更多工程师、设计师。你对那些想遵循这种运营方式的人有什么建议？是什么让你们在保持精简、工程师数量少于竞争对手、设计师数量少于竞争对手的情况下取得成功？",
+   "ts": "00:33:05"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I think just understand abstraction or system is a better curve than pecan curve, right? Linear. We internally help other people and understand this. Internally we use the metaphor that Notion's a small bus. The bus, the smaller the bus, it's easier to turn corners, easier to accelerate, easier to maneuver. The bigger the bus it is, bigger the boat or bigger the bus, slow down. And as a leader in the company, you decide who sit around you on the bus seats. That dictates how fast our overall bus moves, dictate your work and life experience at this company because you pick your roommate, you pick your seat mates. That metaphor clicks with people inside a company and overall help us optimize to make the bus link.",
+   "zh": "我认为关键在于理解抽象或系统思维比直线思维更高效，对吧？直线思维就像公交车。公交车越小，转弯越灵活，加速越容易，操控越顺畅。公交车越大，船越大，公交车越大，速度就越慢。作为公司领导者，你决定谁坐在你身边。这决定了整个团队的行动速度，也影响你在公司的工作和生活体验，因为你选择了自己的队友，选择了座位伙伴。这个比喻在公司内部很受欢迎，帮助我们优化流程，让团队更高效。",
+   "ts": "00:33:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've never heard of that metaphor before.",
+   "zh": "我从未听过这个比喻。",
+   "ts": "00:34:18"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "It probably came up somewhere but... Or it does not.",
+   "zh": "可能在某个地方提过，但……或者没有。",
+   "ts": "00:34:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Small bus. So along these lines actually, so I visited the office recently and I noticed that it's just a very cozy vibe. And I learned that you had a rule of no shoes in the office for a long time until the last office, that you all ate around one table for a long time, that you try 30 different shades of warm white on the walls before you chose. Why is that important to you? Why is it so important to be so thoughtful about the office experience?",
+   "zh": "小型巴士。说到这里，实际上，我最近参观了办公室，发现那里的氛围非常温馨。我了解到，你们办公室长期以来有不穿鞋的规定——直到最近才改变；大家长期共用一张餐桌用餐；在选择墙面颜色时，试用了30种不同色调的暖白色。这对你们为何如此重要？为何如此重视打造舒适的办公环境？",
+   "ts": "00:34:25"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Maybe there are two dimension part of it. One is the pragmatic part. You just want office to be a pleasant experience to be at. Therefore, most office, the top light feels like hospital. You're just like, \"Oh, man.\" And the white is so pale and the floor is so dark. Why use some kind of cream, make floors more friendly colors? And don't use top light. Top light is evil. So just the office feels cozy so people spend more time. You feel more creative, more at ease in the office space.So the vision work we have is should feels like artist studio or should feel like your home. And that's why most our office furniture are home furnitures. It just feels cozy. That's more so people spend more time, feels more creative, juices flow better. (00:35:42): The other world just like at least personally for me, it hurts the eyes if you just see ugly things. It's more from a value aesthetic front. It's like we talk about ergonomic chairs. Does it hurt your back when you sit on bad chairs? But you have more visual improve from, at least for me from the eyes. If the chair looks ugly, the wall looks ugly, it hurts. So it's better to not have thing that hurts.",
+   "zh": "这可能有两个层面。一是实用层面。你只想让办公室成为一个令人愉悦的空间。因此，大多数办公室的顶灯设计都像医院一样，让人感觉“哎呀，真扫兴”。白色的墙面太苍白，地板又太暗。为什么不选一些奶油色，让地板颜色更友好？还有顶灯的设计，简直是灾难。所以营造舒适的办公环境能让人们多待一会儿，激发创造力，放松身心。（00:35:42）：另一方面，就我个人而言，如果看到丑陋的东西真的很刺眼。这更多是从审美价值的角度出发。比如我们谈论人体工学椅。当你坐在劣质椅子上时，会伤到背部吗？但至少对我来说，视觉上的提升同样重要。如果椅子丑陋，墙面难看，那种刺眼感真的很让人不舒服。所以最好不要存在那些让人不舒服的东西。",
+   "ts": "00:34:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You also have a really interesting naming convention for your conference rooms.",
+   "zh": "你们的会议室命名方式也非常有趣。",
+   "ts": "00:36:05"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, that's true. Yeah. We name our conference room after timeless tools in history. So there, I'll give you an example. iPhone's obvious one, original Macintosh, various different form of chairs, Lamy's 2000 pens, Toshiba rice cookers, and other ones because they're inspirations. They're just like at the end of the day, we're creating a tool. We're creating a meta tool. A lot of people to create tools, software tools. And Toshiba rice cooker changed how people eat rice in Asia for a hundred million, tens of a hundred million people. The Sony transistor radio is the first one to shrink something small and useful for people. And those things change people's life and last for decades. What it's like to create a software product like that? I want to inspire my team to think that way. Because software, and especially tech, it's every six months, every 12 months cycle. We don't think enough about creating something that lasts. I care creating something that at least the form factor lasts longer than 18 month.",
+   "zh": "是的，确实如此。我们以历史上永恒的工具为会议室命名。举个例子吧，iPhone很明显，原始的Macintosh，各种不同形式的椅子，Lamy 2000笔，东芝电饭煲等等。这些都是灵感来源。说到底，我们在创造工具，创造元级别的工具。很多人创造软件工具，而东芝电饭煲改变了亚洲数亿人的煮饭方式。索尼晶体管收音机是首款将实用小物件小型化并普及的设备。这些东西改变了人们的生活，经久不衰。创造这样的软件产品是怎样的体验？我想激励我的团队也这样思考。因为软件，尤其是科技产品，每隔六个月、十二个月就会更新换代。我们对创造经久不衰的产品思考得不够。我希望至少能创造出外形设计能持续18个月以上的产品。",
+   "ts": "00:36:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's a quote that you tweeted once that I think of as you talk about this from Steve Jobs. \"The problem is that there's just a tremendous amount of craftsmanship between a great idea and a great product.\" I don't know if you remember tweeting that, but just what do you think of when you hear that?",
+   "zh": "你曾在推特上引用过史蒂夫·乔布斯的一句话：“问题在于，在伟大的想法和伟大的产品之间，有着海量的匠心技艺。” 我不知道你是否还记得这条推文，但当你听到这句话时，会想到什么？",
+   "ts": "00:37:21"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, I think the key word here is craft. Internally, our company philosophy called crafts and values. Craft is your skill set, your taste. Value is your personal value and how do you see the world. Craft is interesting word. It's like about apply your value to some technical know-how and to make more clever trade-offs to create something new and useful and just keep doing that. (00:38:09): My wife often refer me as a wood cabinet builder. That's how at least my mindset training towards building Notion is like, \"Oh, can I make this wood cabinet more beautiful and more useful and feels nicer on your hand?\" And that's like you have aesthetic direction towards it and you have your technical know-how to actually make things happen. Then you need to do permutation and trade-off in your head where on paper and to get there. That to me, that's craft. And building product, to me at least, to me feels that way. Building business feels that way. Building company feels that way.",
+   "zh": "是的，我认为这里的关键词是\"匠心\"。在公司内部，我们的理念被称为\"工艺与价值观\"。工艺是你的技能组合和审美品味，而价值观则关乎你的个人价值观以及你如何看待这个世界。工艺这个词很有趣。它意味着将你的价值观应用于技术专长之中，通过巧妙权衡利弊，创造出既实用又有价值的新事物，并持续推进这个过程。（00:38:09）：我妻子常说我是个木柜制造师。这至少说明我构建Notion时的思维模式是这样的：\"我能否让这款木柜更美观、更实用、手感更佳？\"这意味着你既要具备审美方向，又要掌握技术手段去实现构想。然后，你需要在脑海中进行排列组合和权衡利弊，最终在纸上落地。对我来说，这就是工艺。至少在产品开发、商业经营和公司管理方面，我都深有同感。",
+   "ts": "00:37:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting that so much of this conversation is this and the way you think about building this company is this balance between practical, useful things people need and business and practical stuff, and then the value of building something you're proud of and craft. And there's always this trade-off almost of speed and quality, and I know that's an important element for you. Just thinking about trade-offs between decisions, so talk about just trade-offs, just how you think about making a trade-off.",
+   "zh": "有趣的是，这次对话中有很多内容都围绕着这个主题——你如何在实用、用户需求与商业目标之间找到平衡，同时又如何打造令自己引以为傲的作品。这里始终存在速度与质量之间的权衡，我知道这对你来说至关重要。就谈谈权衡吧，你如何看待权衡决策的过程。",
+   "ts": "00:38:44"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, I think this is quite relevant especially for product makers and business makers is there's no free lunch. You don't get something for free. You have to give up something. Then what do you give up? It's essentially you give up the right thing that market or your user wants at that given space and time. It's just the craft of building a business or building a product. And that the market is so dynamic, especially now with AI. The optimized function for the market changes so then you need to make new trade-off and new technology emerges. I always feels like AI language model feels like a new type of wood. It feels like aluminum. It's a new type of material. So you can make... Mass air travel wasn't available until aluminum become cheap enough that people can make airplanes that support this at cost. And it's like computer wasn't there until semiconductor becomes... It's like require new technology to unlock new way to making trade-offs, and then you need to balance the technology trade-off with human behavior trade-off. (00:40:35): As a human, ever since we got out of Africa, we're set, right? That's a constraint. It's invariable. And every generation pick up some new things but after you're 16 years old you don't want to learn new things. So those are there are the people trade-off, technology trade-off. There's some macro. There's a different dimension of things just cooking together that come together as a product more as a business than what is that? And I think a product maker, business maker's job is to find that sweet spot of all the multiple dimensions, then create something has a right to exist. At least it's more durable to exist.",
+   "zh": "是的，我认为这对产品开发者和商业从业者来说非常重要——世上没有免费的午餐。你不可能不付出代价就得到回报。那么你要放弃什么？本质上，你要放弃市场或用户在特定时空所需的正确方案。这就是构建商业或产品的工艺。市场动态变化极快，尤其是在AI时代。为市场优化的功能会随之变化，因此你需要不断进行新的权衡，新的技术也会应运而生。我总觉得AI语言模型就像新型的木材。它像铝一样，是一种新材料。你可以用它制造……大规模空中旅行在铝价足够低、人们能以成本价制造支持空中旅行的飞机之前是不可行的。计算机的出现也是因为半导体技术的进步……这就需要新技术来解锁新的权衡方式，随后你还需要平衡技术权衡与人类行为权衡。（00:40:35）：作为人类，自从我们走出非洲以来，我们的思维模式就已固定，这是一种约束，始终不变。每一代人都会吸收一些新事物，但16岁之后，人们就不再愿意学习新东西了。所以这里涉及到人的权衡、技术的权衡。这是宏观层面的东西。还有不同维度的东西交织在一起，最终形成产品或商业模式，而这又是什么？我认为产品开发者和商业从业者的职责就是在多个维度中找到那个最佳平衡点，然后创造出有生存权利的东西。至少这样更容易持续生存下去。",
+   "ts": "00:39:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I'm hearing there's this thread of just like with new technologies, what is now possible. And I know you guys are doing some cool stuff with AI that I'm going to get to that is unlocking some cool new ideas. But before I get there, I want to talk about just you as a leader. At this point, you've been at this for 12 years, something like that.",
+   "zh": "听说现在有个趋势，就是新技术带来了许多可能性。我知道你们在人工智能领域做了很多很酷的工作，比如解锁一些新创意。但在深入这些话题之前，我想先聊聊你作为领导者的角色。到现在为止，你已经在这个岗位上待了12年左右了。",
+   "ts": "00:41:16"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Like that, yeah.",
+   "zh": "是啊。",
+   "ts": "00:41:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And if you don't mind me saying, you're a soft-spoken leader, which is you're not like the archetype of what people imagine is like the CEO of a 10 billion... And I'm sure you guys are valued much more now. I don't even know. That was probably an old valuation. I think it's great for people to see leaders like you that are not necessarily the classic archetype of CO, and I imagine there are things you've had to work on and build and lean into that aren't natural to you to step into this role of this increasingly growing, high-scale business. What are some of the areas you've had to most build and learn to do that didn't come naturally to you?",
+   "zh": "说实话，你是个说话温和的领导者，不像人们想象中10亿美元公司CEO的典型形象。我相信现在大家对你的评价要高得多了。我甚至不确定之前的估值是否准确了。能看到像你这样不一定符合传统CEO形象的领导者真是太好了。我能想象你为了适应这个日益壮大、高规模的企业，必须克服许多不符合自己天性的挑战。比如，你最需要培养和掌握哪些能力？",
+   "ts": "00:41:32"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I guess you've never been in a business meeting or brainstorm session with me. You're not there.",
+   "zh": "我猜你从未参加过我的商务会议或头脑风暴会议。你不在场。",
+   "ts": "00:42:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Haven't seen that side of Ivan Zhao.",
+   "zh": "还没见过张伊万这样的你。",
+   "ts": "00:42:15"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, I wouldn't say I'm the most soft interaction person at work. It's actually the reverse is true because I grew up in China. People way more direct. People just say what they want, say what they think. And you move to California, you move to US, you move to the West, you felt wow, everybody says everything's wonderful, everything's nice, but that's not true. I would say Notion's ethos probably more like a East Coast rather than West Coast, so somewhere in between. It's more direct. (00:42:51): What do you want to learn? A bunch of things. I think the early days is we talk about that the world's not like you. The world don't care about you so you have to shave off the idealistic part of you to go something that's like the world actually cares, the sugar coat of broccoli. You have to hide the broccoli within something, the sugar pills. So that's one. That's more self. That's more myself. (00:43:20): As company grows, you realize... I'm pretty good at storytelling. So that's a one-to-one influence. But as a company grows, you realize you need to be one-to-many storytellers. That's a skill. The one reason I try not to do podcasts and all those things, oh, it's actually it drains energy in a different ways. I prefer just building product and brainstorm sessions. Then you realize it's a necessary craft for me to pick up in order to change the shape of the company, the business I'm building. I treat it like a craft. There's some things skill that's in the video game. You need to pick up something to unlock something else and to make new demand, you trade off with yourself and the business. That's fun though. Every 12, 18 month, Notion's like a new company or at least they require different skill set coming from me. So I need to pick up new things. And it's an infinite game and infinite games are more fun.",
+   "zh": "嗯，我不认为自己是职场上最擅长软性沟通的人。我恰恰相反，因为我在中国长大，那里的人更直接。人们会直言不讳地说出自己的想法和需求。来到加州、美国、西方后，你会发现大家总说一切都好、一切都很棒，但这并非事实。我觉得Notion的文化更偏向东海岸而非西海岸，所以介于两者之间。更直接一点。（00:42:51）：你想学习什么？很多东西。我认为初期我们常说，世界不像你想象的那样。世界不在乎你，所以你必须摒弃理想主义的一面，去适应世界的真实面貌——就像给西兰花裹糖衣。你得把西兰花藏在糖果里，糖衣包裹的西兰花。所以这是一个自我探索的过程。（00:43:20）：随着公司发展壮大，你会意识到……我很擅长讲故事。所以这是一对一的影响。但随着公司发展壮大，你会发现你需要成为一对多的故事讲述者。这是一项技能。我尽量不做播客之类的，因为它们会以不同的方式消耗精力。我更喜欢产品开发和头脑风暴会议。然后你会意识到，为了改变公司和业务的形态，我需要掌握这些技能。我把它当作一项技艺。就像电子游戏里有些技能点，你需要先解锁一个才能解锁另一个，创造新的需求，你在自己和公司之间进行权衡。不过这很有趣。每12到18个月，Notion就像一家新公司，或者至少需要我掌握不同的技能。所以我需要不断学习新东西。这是一场永无止境的游戏，而永无止境的游戏更有趣。",
+   "ts": "00:42:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this idea. I love that you keep coming back to this idea of there's the ideals and the values and the vision and what you're trying to do, and then you have to find the way to frame it and package it so that people actually understand and want it. And that's how you get in.",
+   "zh": "我喜欢这个理念。我喜欢你反复强调，理想、价值观、愿景和目标固然重要，但你必须找到合适的方式来包装和传达它们，让人们真正理解并愿意追随。这就是成功的关键。",
+   "ts": "00:44:19"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah. It's like human minds are resistant to change, and how do you land in people's head? Through my best word marketing and positioning are for. So you need to find the sweet spot to get in. And you also be truthful. It's not just deceiving. So deceiving is not truthful. You can fool other people once or twice, then there's no future. It has to be actually tied back to something genuinely the value creating or the exchange with the other person. So yeah, it's a craft. Storytelling is the vast dimension of making trade-offs.",
+   "zh": "是的。人类的大脑似乎天生抗拒改变，那要如何才能进入人们的脑海呢？这正是通过精心策划的营销和定位策略来实现的。所以你需要找到那个突破口。同时，你必须保持真诚。这不是欺骗人。欺骗别人一两次还能接受，但长此以往就没戏了。这些改变必须真正基于创造价值或与他人交换价值的逻辑。所以这确实是一门手艺。讲故事是权衡取舍的艺术。",
+   "ts": "00:44:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this word, trade-offs. Comes up again and again too. It's so interesting that there's these threads that have come up again and again in our chat. Along that journey of becoming this leader that you've become, what would you say has maybe the biggest surprise or most unexpected part of the journey of something you've had to learn to do or something that didn't turn out the way you expected? Just as a personal growth story.",
+   "zh": "我特别喜欢“权衡取舍”这个词。它在我们的对话中反复出现，实在有趣。回顾你成为如今这样的领导者的历程，有没有什么最出乎意料的挑战，或者学到的东西与预期大相径庭？就当是个个人成长故事吧。",
+   "ts": "00:45:15"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "If you use the product in the past three years, you realize Notion product, you realize, \"Hey, we actually ship bunch of things not so great.\" Two years ago. Actually last year, 2024, is the year that I can say we ship good stuff at good velocity and good quality and align with our values. We get lost there for a year, a year and a half shipping something not according to our value, not according to my value. Notion, we call Notion is Lego for software. We ship non-Lego pieces into our product. We're still there. We're still cleaning up part of it. That's a realization. It's like going back to the value part, it's like if you create this thing called a product or business, you attract people are value aligned to it. Then if you're trying to optimize too much on this competition revenue side of things, forced to introducing something anti-your-value, then the system, it's like there's organ rejection with your employees, with your customers. (00:46:42): I'll give you a concrete example. For a while and still is, project management is one of the most important use cases for Notion. And you can get a better project management tool just by hard coding things like sprints, milestones, all those things into your product, or you can do it in the way the Notion are being, through Lego pieces. What are the sprint? Sprints are clusters of a task that group together. So it's a new Lego. So introducing Lego is much harder, slower. You can instead we hard-code a sprint concept into the product. And this doesn't quite fit. And took me at least a year, a year and a half to realize that's not the way we should continue building Notion. We should go back the original Lego way of building the product. So we changed quite a bit internally. Now, it feels good now. Building according to your values is the meta point, at least for me.",
+   "zh": "如果你过去三年使用Notion产品，就会发现：“嘿，我们其实推出了不少不怎么样的功能。”两年前。实际上直到2024年，我才能说我们以良好的速度和质量推出了符合价值观的产品。在那之前的一年半，我们迷失了方向，推出了不符合我们价值观的产品。Notion，我们称之为软件的乐高积木。但我们却往产品里塞了非乐高式的零件。我们还在清理这些遗留问题。这个教训让我回归价值本质——如果你创造了一个产品或企业，就能吸引与之价值观一致的人。但如果你过度优化竞争收入层面，强行引入违背价值观的东西，那整个系统就会像器官排异反应一样，让员工和用户反感。（00:46:42）：举个具体例子。项目管理一直是Notion最重要的场景之一。你可以通过硬编码冲刺阶段、里程碑等功能来实现，但Notion的方式是用乐高积木拼凑起来的。什么是冲刺阶段？冲刺阶段就是一组任务的集合。所以这是新的乐高积木。但用硬编码的方式实现效果不佳。我花了至少一年半才意识到，这不是Notion该有的发展方向。我们应该回归最初的乐高式产品构建思路。所以我们内部做了很多调整。现在感觉好多了。至少对我来说，遵循价值观才是关键。",
+   "ts": "00:45:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, I got to follow this thread. What is it that you changed that allowed you to come back to your first principles? Was it like you step... Is it founder mode was the answer? Is it people, personnel shift? What allowed you to change the way things were going?",
+   "zh": "好的，我得接着这个思路问下去。你们做了哪些改变，才让产品回归初心？是创始人模式的转变吗？还是团队调整？是什么促使你们改变现有路径？",
+   "ts": "00:47:43"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I would say all of that above, but especially just release the sprint product through our community and customers. Then it's like what is this? It's like underpowered compared to other competitor products to doing product management and it doesn't work well with the rest of Notion like I said. And if you talk with engineers, they'll say, \"Okay, there's this part of Notion you have to touch the code base. That's just weird. That's your hardcore too much into it. From all the dimension technical front, calling a customer. And when you use the thing it just doesn't feel right.\" So there's another saying that if you build in a Lego way inside Notion in the code base or product, the system work for you. If you're building non-Lego way, the system work against you. So in some sense, we're creating a tool that has emergent behavior, inter-channeling that emergent behavior to unlock more values.",
+   "zh": "我想说以上这些，但尤其要强调的是，通过我们的社区和用户来发布Sprint产品。然后大家就会问：这是什么？和其他竞争对手的产品相比，它性能太弱了。做产品管理也不顺畅，而且和Notion其他模块不兼容。再和工程师聊，他们会说：“好吧，有个Notion的代码库部分你得去改动。这太奇怪了，你管得太深了。从技术角度看，这简直是在折腾用户。用户用起来体验很糟糕。”还有个说法是，如果你在Notion的代码库或产品中用“乐高式”方法搭建，那系统就能为你服务；如果用非“乐高式”方法，那系统就会反过来阻碍你。从某种意义上说，我们正在打造一个具有涌现行为的工具，并通过跨渠道整合这种涌现行为来释放更多价值。",
+   "ts": "00:47:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I'm hearing as you launched it, it just didn't go well. Everyone's just like, \"What is this? This isn't feeling good.\" And there's a moment of realization of I see. Here's what we did wrong here and we should come back to this original abstraction vision of what we're trying to build.",
+   "zh": "所以我听说你们推出这个产品后，效果不太理想。大家都觉得：“这是什么？体验太差了。” 这时才意识到，原来我们做错了。我们应该回归最初的抽象愿景，重新思考我们要打造的产品。",
+   "ts": "00:48:52"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "That took nine months, a year to realize sometime.",
+   "zh": "这花了九个月、一年的时间才意识到问题。",
+   "ts": "00:49:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Along those lines actually, people come on this podcast and they share all these stories of things are going awesome all the time. And this was a great example of it didn't. I'm curious if there's another story of let's say a crisis that you all went through when things were looking pretty bleak for Notion along the journey of building Notion.",
+   "zh": "说到这，其实很多嘉宾来参加播客时都会分享自己产品一直顺风顺水的故事。但Notion的建设之路也有失败的案例。比如新冠疫情期间，我们的基建扩容遇到了阻碍。西蒙一直奉行“不要过早优化”的理念，所以很长一段时间Notion都是在一个Postgres数据库实例上运行。后来我们找了最强的机器，不断扩容用户量，但即便如此，最大的Postgres实例也快不够用了。那时真的到了末日倒计时，再不扩容空间，Notion就会彻底崩溃。我们停止了所有新功能开发，全员上阵，几乎每个工程师都投入到解决这个问题中。最终我们成功了，但那真是一次惊险的时刻。",
+   "ts": "00:49:11"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, one of the bleakest one, it's when we... During COVID, we just couldn't scale up our infrastructure. For the longest time, Simon's really good at don't do premature optimization, so for the longest time, we Notion runs on one instance of Postgres database. And then we find the beefiest machine. We keep scrolling, find a beefier future machine to scale our user base, but then we're running off even the largest instance there is for Postgres. So there's a doomsday clock that when we're going to truly run out of this space to store everything in Notion and Notion got a complete shutdown. So we stopped building any new features, all hands on deck, almost every engineer in the company trying to solve that problem. Eventually we did, but it was a close call.",
+   "zh": "具体有多紧急？",
+   "ts": "00:49:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How close are we talking about?",
+   "zh": "如果我没记错的话，可能就剩几周时间了。当Postgres性能接近极限时，系统行为会变得不稳定。你根本不知道哪天会出问题。我们必须尽快升级到分片架构。",
+   "ts": "00:50:21"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "If I recall correctly, probably in weeks running out of the time. And then as you approach the limit of what Postgres can do, behavior becomes sporadic. You really don't know which day going to hit you. But we just need to go as fast as you can to become sharding problem.",
+   "zh": "对，就是分片。",
+   "ts": "00:50:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I was going to ask, so the solution is sharding the database?",
+   "zh": "好的，不错。",
+   "ts": "00:50:39"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, sharding.",
+   "zh": "别太晚才行动。是的，别过早优化，但也要提前规划，别拖到最后。",
+   "ts": "00:50:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool.",
+   "zh": "好的，明白了。",
+   "ts": "00:50:40"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Don't do as late. Yes. Don't do premature optimization but plan ahead a little bit. Don't go late.",
+   "zh": "别拖太久。是的，别过早优化，但也要提前规划，别拖到最后。",
+   "ts": "00:50:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How long did you have from when you launched this doomsday clock to time running out? Was that a few months?",
+   "zh": "从推出到数据库空间告急，时间跨度有多久？是几个月吗？",
+   "ts": "00:50:49"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Maybe a bit longer. Yeah, in the month, less than six but more than three, something like that.",
+   "zh": "或许时间再长一点。是的，在一个月内，不超过六个星期，但至少三周左右，差不多这样。",
+   "ts": "00:50:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The bittersweetness of COVID just ramping up certain businesses.",
+   "zh": "新冠疫情让某些行业迎来发展机遇，但也带来了挑战。",
+   "ts": "00:50:59"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "People just run like they have to use online productivity software, collaboration tools.",
+   "zh": "人们就像在拼命使用在线生产力软件和协作工具一样。",
+   "ts": "00:51:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, blessing and a curse. Speaking of a blessing and curse, this is a great segue to where I wanted to go in the final area I want to spend time on which is building horizontal software and building software that bundles together a bunch of different stuff. Notoriously hard to build a horizontal platform that does a lot of things when there are often point solutions that are very, very good at that one thing. And it's interesting. If you look at the timelines of companies that have built horizontal products, they all take a long time to build and finally find product market fits. It's actually a really common pattern. And when we were talking about what would be fun to talk about, the way you described it is the joy and pain of building horizontal products. So let me just ask broadly just what have you learned about what it takes to successfully build a horizontal platform type of product?",
+   "zh": "是啊，这真是喜忧参半。说到喜忧参半，这正好引出我接下来想谈的重点——构建横向软件和整合多种功能的软件平台。开发一个能处理多种业务的横向平台通常困难重重，因为市面上往往有针对单一场景的专有解决方案，而且这些方案在各自领域都做得极其出色。很有意思的是，那些开发横向产品的公司在产品线规划上往往耗时良久，最终才找到产品与市场的契合点。这其实是一个很常见的模式。当我们讨论横向产品开发的乐趣与挑战时，你提到横向产品开发的痛点和机遇。那么，我想问问大家，成功打造横向平台产品需要具备哪些要素？",
+   "ts": "00:51:08"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "First of all, no regret. And second, I wouldn't want to build anything else because going back to the value, Lego for software doesn't exist and Lego is a horizontal thing. So that's the thing we want to build. We always want to do that. So we did not start to optimize for business but we're optimized for that vision. (00:52:19): Learning-wise, I think segmentation is quite important because people can use a Lego for different things. Only hardcore Lego fans care about Lego bricks. Most people care about Lego boxes. And they actually want the Lego box to be ready-made. When you unpack the box, the set is there for you, right? That's what we're learning a lot, especially move up market. There's this term that took me a while to learn. It's called solutions. You need to be a solution for enterprise customer, you need to sit somewhere on a P&L to optimize for their business where due third risk. That's Lego box. It's not a Lego brick. Segmentation related to that. So you need to shift your mindset as you more towards B2B, more towards move out market. I wish we have done earlier. For the longest time, I've stalled too much in the Lego brick mindset, now in the solution Lego box mindset.",
+   "zh": "首先，没有遗憾。其次，我不想开发其他类型的产品，因为从价值角度来看，软件领域不存在“乐高积木”式的横向产品，而乐高本身就是横向整合的典范。所以这正是我们想要打造的。我们始终致力于此。最初，我们并非为了商业效益而优化产品，而是为了实现愿景而优化。（00:52:19）：在学习方面，我认为细分市场至关重要，因为人们可以将乐高积木用于不同场景。只有铁杆乐高迷才会关注积木块，大多数人关注的是乐高套装。人们希望套装能直接使用，打开包装后就能直接玩。这正是我们在高端市场中领悟到的经验。有一个词汇让我花了些时间才理解——“解决方案”。你需要为企业客户提供解决方案，需要融入企业的损益表，优化其业务流程，承担第三方风险。这就是乐高套装，而非积木块。这与细分市场息息相关。因此，当你向B2B市场转型、开拓高端市场时，思维模式需要转变。真希望我们能早点意识到这一点。在很长一段时间里，我深陷于乐高积木式的思维模式，如今才转向解决方案式、乐高套装式的思维模式。",
+   "ts": "00:51:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's such a good metaphor. I feel like even if you're not building Legos for business, just this idea of what is the box that you are selling to people, how's it being positioned? How do you picture it? What are the value? Props such a good metaphor.",
+   "zh": "这个比喻太妙了。即便你不为商业打造乐高产品，思考如何向用户销售套装、如何定位产品、如何构想价值，这本身也是很有启发的。这个比喻太棒了。",
+   "ts": "00:53:14"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "If you're building vertical software and naturally your vertical is the box, right? So you know you have 1 or 2% of your selling to. Pretty straightforward that your market constrains you and no judgment. People like you, you can go that way, but then you just hit the wall off the market. The advantage of building horizontal, there's no wall, at least for in our space. We, Notion, go after entire software market, but then you need to create a wall yourself. So to make your go-to-market distribution, to create the spot in people's mind, your customer's mind more clearly for them and for your go-to-market teams. That's why where solutions is one of my favorite word internally to rally the sales team or the product team. You think that way, but then you need to hold in your head, make sure you're still building bricks behind the scene. Otherwise, you pigeonhole yourself into the best spot, like what we did with project management sprints features.",
+   "zh": "假设你正在开发垂直软件，显然你的垂直领域是项目管理，对吧？所以你知道你的目标客户只有1%到2%。很显然，市场会限制你的发展空间，这没什么可指责的。如果你认同这种思路，可以沿着这条路走，但最终你会撞上市场天花板。开发横向软件的好处在于没有这种限制——至少在我们所在的领域是这样。我们Notion的目标是整个软件市场，但你需要自己去构建市场壁垒。为了让你的市场推广更清晰，在用户和销售团队心中占据一席之地，这就是为什么“解决方案”是我公司内部最常用来激励销售团队或产品团队的口号。这种思维很重要，但同时你要确保在幕后持续打磨产品，否则你就会把自己局限在一个最佳位置，就像我们在项目管理冲刺功能上所做的那样。",
+   "ts": "00:53:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So speaking of that, so I don't know if you know this. I ran a survey recently where I asked my readers what tools they use most, what tools they love most. And it went out to my entire subscriber base. We've got 6,500 people filling out the survey. And Notion more than any other company placed very highly in many categories. For example, I have the notes here, it was the second most popular project management tool after Jira. It was the fourth most popular docs. Which is interesting because you think Notion would... Notion is known for docs and it's interesting, that was the lowest one actually. And then it was third in CRM, just behind Salesforce and HubSpot.",
+   "zh": "说到这，我不知道你是否了解。最近我做了一项调查，向读者询问他们最常使用的工具和最喜欢的工具。调查覆盖了我的全部订阅用户群体，共有6,500人参与。Notion在多个类别中表现出色。比如这里我有笔记数据，Notion是仅次于Jira的第二受欢迎的项目管理工具，也是第四受欢迎的文档管理工具。这很有趣，因为大家普遍认为Notion以文档管理见长，但实际上在文档管理方面排名最低。然后在CRM领域，Notion位列第三，仅次于Salesforce和HubSpot。",
+   "ts": "00:54:25"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, we did not intend to build CRM, but what is a CRM is relational database. That's why we give people that brick. That's a relational database and they can build CRM themselves. I think the good advantage is if a customer use Notion, they can address those three, four use cases in one place. Especially for our startup mid-market companies, their need for each of the vertical use case is not as complex so they can have all the information in one place, good for their teams, good for AI actually. That's a huge market change that's like we did not expect until recently. And save their costs, which is more and more people care about the bundling purchase nowadays. And our approach for that is, yes, we're number two in project management, number what? Number four in CRM, but we're interested in more bricks to make us number... Move up the categories in ranking. So it just takes time, but that's our approach.",
+   "zh": "是的，我们原本无意开发CRM，但CRM本质上就是关系型数据库。这就是为什么我们为用户提供了基础模块——关系型数据库，让他们可以自行搭建CRM系统。我认为最大的优势在于，如果客户使用Notion，他们可以在一个平台上解决这三到四个使用场景。这对我们的初创企业和中型市场客户尤其有益，他们对垂直用例的需求没那么复杂，因此能将所有信息整合在一个地方，对团队和AI都很有益。这是我们未曾预料到的巨大市场变化。同时，节省成本也越来越受到关注，如今越来越多人青睐捆绑式购买。我们采取的策略是，在项目管理领域排名第二，在CRM领域排名第四，但我们致力于通过不断积累，提升各领域的排名。这需要时间，但这就是我们的策略。",
+   "ts": "00:55:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Well, it's working whatever you're doing there. So say someone is trying to build a horizontal tool like yours. There's a lot of founders that are trying to build something that can do a lot of things really well. Do you have any advice for that first use case? Just figuring out something that initially works like you're talking about segmentation, is there something there of like, \"Do this if you want to find any success with a horizontal tool\"?",
+   "zh": "是啊，无论你怎么做都很成功。假设有人想开发像你们这样的横向工具。很多创业者都试图打造一款能出色完成多项任务的产品。对于首个使用场景，你有什么建议吗？比如像你提到的细分市场策略，有没有什么通用法则，比如“如果想让横向工具成功，就必须这样做”之类的？",
+   "ts": "00:56:05"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "First, I wouldn't recommend it.",
+   "zh": "首先，我不建议这么做。",
+   "ts": "00:56:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But you wouldn't do it differently?",
+   "zh": "但你不会采取不同的策略吗？",
+   "ts": "00:56:30"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I wouldn't do it differently myself, but I wouldn't recommend it. It's a problem. The problem space too large to have best practice, but I can share something that's relevant for us. Notion, we always want to build a meta tool, a tool to build the lack of our software. We somehow stand up upon document notes as one use case. And that just gave us a large top of the funnel that there's a 1 billion plus people use this use case every day. So that fuels our growth. We call our internal strategy called B2C2B. All those consumers, personal user use Notion for the most simple way you can use a computer or your phone, which is note-taking or document-sharing. And then they realize, \"Oh, Notion can do more of that.\" There's relational database power, you can do tasks, you can manage track other things. Then they bring Notion to work. (00:57:24): Half our B2B customers coming from prior personal users, and most of them are using Notion for notes and talk in the first place. So pick. Well, at least we stumble upon a use case, a horizontal use case to give us a large top of funnel that help us grow our more verticalized enterprise use cases, and that's the reason where we ship a calendar product last year because which other category of software has 1 billion plus users? There's document notes, there's calendar, there's email, right? That's why we're also working on the email product right now.",
+   "zh": "我自己倒不会另作他想，但我也不建议这么做。这是个问题。这个问题领域太大，很难形成最佳实践，但我可以分享一些对我们有参考意义的经验。关于Notion，我们一直致力于打造一个元工具，一个能填补我们软件不足的工具。我们最初把文档笔记当作一个典型应用场景，而这恰恰为我们带来了巨大的用户基础——每天有超过10亿人使用这个功能。这也推动了我们的业务增长。我们内部制定了一项名为B2C2B的战略。所有消费者、个人用户都以最简单的方式——笔记或文档共享——使用Notion。然后他们会发现：\"原来Notion还能做更多事。\"比如它具备关系型数据库功能，还能管理任务、追踪其他事项。接着他们就把Notion带到了工作场景中。（00:57:24）我们半数B2B客户都来自原有的个人用户群体，而他们最初使用Notion时主要用于笔记和交流。所以关键在于，至少我们能从一个横向应用场景入手，吸引大量用户，从而为更垂直的企业级应用场景提供增长动能。这也是我们去年推出日历产品的初衷——毕竟哪个软件类别能拥有超过10亿用户？文档笔记、日历、邮件，哪个不行？这也是我们现在致力于邮件产品的核心逻辑。",
+   "ts": "00:56:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, man. Watch out, everyone. And then you mentioned AI and it's such a good point that AI is best when it has data. And the fact that you have all of this stuff already in there gives you a lot of really interesting opportunities to leverage AI.",
+   "zh": "是啊，大伙要注意了。你提到的AI确实很关键，AI只有在有数据支持的情况下才能发挥最佳效能。而Notion已经积累了海量数据，这为我们应用AI技术提供了绝佳机遇。",
+   "ts": "00:58:01"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "We definitely did not expect language model. It's such a gift for everybody building tools, right? Complete change the material you can work with. One realization, it's you have a surface area that people spend daily work with, especially during writing and managing your tasks and project. It's really easy to slice the language model writing AI capability into it. So that's the first part we built. That realization is AI is so good at reasoning and understanding and searching things, and we can do a much better job of finding and searching things if all the information are together. That's what we realized. AI is really good with bundled offerings. AI is really good with horizontal tools. So that's the second phase, we call it. The first product was our AI writer product. Second product is AI Q&A or connectors. Please look at all the information in Notion and give your answer. (00:59:18): And then we also need to work with the external connector because there's things that are living in Jira, living in Zendesk that other customers still rely on. So we need to build AI connectors. But more and more information coming back to the Notion core. I would say the third one, which is even more fascinating, it's for the longest time and it's still is one of the biggest weaknesses of building for Legos, it's hard to piece together. It's not everybody can put together a Lego set from scratch. There's always the builders and user with the Legos. But guess who is really good at piecing things together, assemble things? Especially things like since Sona 3.5. AI is so bad at writing code. Coding is just assembling things together. So now we're looking at holy shit, we spent the last five, six year building all those Lego blocks for knowledge work. If we're just putting AI coding agent on top of it, you can create any kind of knowledge, customer software, customer agent for whatever your vertical use cases you need. So that's the most fascinating approach for me, and we did not expect this at all.",
+   "zh": "我们绝对没想到会有语言模型。这对所有开发工具的人来说都是一份厚礼，对吧？它彻底改变了你能使用的素材。突然意识到，你拥有一个人们日常工作时会频繁接触的界面——尤其是在写作、任务管理和项目协调时。将语言模型的写作能力融入其中实在轻而易举。这就是我们开发的第一阶段。我们意识到，AI在推理、理解和搜索方面表现出色，如果所有信息都能整合起来，我们的查找和搜索能力就能得到极大提升。这就是我们的核心洞察：AI擅长整合服务，擅长提供横向工具。这就是我们称之为第二阶段的阶段。首款产品是AI写作工具，第二款产品是AI问答或连接器。请查看Notion中的所有信息并给出答案。（00:59:18）此外，我们还需要与外部连接器协作，因为Jira、Zendesk等系统中仍有客户依赖的数据存储。为此，我们必须开发AI连接器。但越来越多的信息正回流至Notion核心平台。我想说，第三个突破更令人惊喜。这是构建积木式应用长期以来最大的痛点之一——难以拼合成完整的系统。并非所有人都能从零开始搭建积木套装，总有搭建者和使用者之分。但你猜谁最擅长拼合？尤其是自Sona 3.5版本以来，AI在编程方面表现糟糕。编程本质上就是将零件组合在一起。如今我们惊呼：过去五六年我们为知识工作搭建了所有积木块。若能在此基础上叠加AI编程代理，你就能创造出任意类型的知识产品、客户软件、客户代理，满足任何垂直应用场景需求。这对我来说是最迷人的突破，我们完全没有预料到。",
+   "ts": "00:58:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you, AI. Is there anything else along the lines of building horizontal products and bundling that you think is interesting to share or important? Otherwise, I have one last question I want to ask you.",
+   "zh": "感谢AI，还有其他关于构建横向产品和整合服务的有趣见解或重要观点吗？如果没有，我最后想问你一个问题。",
+   "ts": "01:00:33"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I think market is like waves. There's... Who said this? There's two-way to build business, bundling and bundling, right? There's too much of a zig and the zag. Actually, my favorite version of this is there's a classic Chinese literature called Romance of Three Kingdoms. It's great novel. It talked about the three kingdom era of China and the opening sentence of this novel, it's, \"Empires long united must divide, long divided must unite.\" That has always been bundling, unbundling. It's one of my favorite book to read when I was a kid, but business works same way. When there's too much, you can see this. (01:01:29): It's like before computers, everything works on paper. Our knowledge work are done through papers is fully democratized medium. Then PC happens during the '80s. The first era is a piece there actually are so many applications. There's early database software, dBASE, it's quite famous. It started dBASE 2 because it gives them credibility. Oh, they have been stick around for some time. So that's the first unbundling phase of software computing. Then Microsoft bundled everything back into one suite in the '90s. Then the SaaS unbundled it. Now, we're at the tail end of SaaS. There's so many verticalized SaaS average company to use almost a hundred tools. It's madness. So there's more the market shifting towards more a bundling approach. And with AI and with the macro, so there's more value to be created through bundling, at least for now. The market could shift again. So understand this trend, I think, helpful to see should you build a vertical solution or should you build horizontal solution because it does different things.",
+   "zh": "我认为市场就像波浪。有人说……谁说过这话？开展业务有两种方式：整合与拆分，对吧？市场波动太大，起起伏伏。其实我最喜欢的例子来自中国古典文学名著《三国演义》。这部伟大的小说讲述了中国三国时代的历史，其开篇语句是\"合久必分，分久必合\"。这始终是整合与拆分的循环。小时候我最爱读这本书，而商业运作的逻辑也如出一辙。当市场过度饱和时，就会出现整合与拆分的轮回。（01:01:29）就好比在计算机出现之前，一切都靠纸质文件运作。知识工作完全依赖纸质媒介实现民主化。80年代PC问世，首个时代诞生了众多应用程序，如著名的dBASE数据库软件。dBASE 2之所以能成功，是因为它树立了权威形象，证明了自身的持久价值。这是软件计算领域的首次拆分阶段。90年代微软将所有应用整合为Office套件。随后SaaS模式实现了再次拆分，如今我们正处在SaaS模式的尾声。许多垂直领域的SaaS产品让普通公司平均要使用近百种工具，这简直疯狂。因此市场正逐渐回归整合模式。借助人工智能和宏观趋势，整合模式目前仍能创造更多价值，但市场未来可能再度转向拆分阶段。理解这种趋势，有助于判断是构建垂直解决方案还是横向解决方案，因为两者侧重点不同。",
+   "ts": "01:00:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that story. Okay, so last question. Something that one of your early investors, Finn Barnes, suggested to ask you. I'm curious where this goes. There's this, and you've touched on this a number of times, just the way you think about Notion, it's almost like a philosophy of how to work and be versus just a productivity tool. And so I'm just curious how you think about the relationship between tools and human potential and humans and how we live in the world.",
+   "zh": "我很喜欢这个故事。好，最后一个问题。早期投资者Finn Barnes建议我问你这个问题。我很好奇这会如何发展。你多次提及对Notion的看法，它几乎像是一种工作与生活理念，而不仅仅是生产力工具。我很好奇你如何看待工具与人类潜能、人类与世界生活之间的关系。",
+   "ts": "01:02:40"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "The tools are extensions of us. That's why our office room named as timeless tools. They extend us a little bit. And once they extend us, once we shape them, once we bring them to world, they can come back to shape us. (01:03:29): One of my favorite quotes like the Marshall MacLean quotes, \"We shape our tools. Then after, our tools shape us.\" I think that's probably too philosophical for building product or business, but there is a sense thinking what are you bringing to the world that will come back to bite you or shape you? And are you extending the part, the so-called good part of human nature, or are you extending the part that might be more zero-sum, might be more negative, right? (01:04:05): For me, what is Legos? Lego is creativity. Lego is beauty. Software to me feels like lacking both. It's definitely lacking a lot of creativity. It's so rigid. So I believe both are human nature that worth amplifying. You can build another business that amplifies a different part of human nature. There was Sequoia famously invests in seven sins or seven human natures of human because they're so powerful if you just latch onto them, you can create a business, you can create a product. But at least I prefer to amplify creativity and beauty in the domain of software. To me, that's aligned with my values and I think can at least shape the market, shape our user of our product towards the better part of themself.",
+   "zh": "这些工具是我们自身的延伸。这就是为什么我们的办公室被命名为\"永恒工具\"。它们在某种程度上拓展了我们。当我们塑造它们、将它们推向世界后，它们又能反过来塑造我们。（01:03:29）：我最喜欢的引言之一是马歇尔·麦克伦（Marshall McLuhan）的话：\"我们塑造我们的工具，然后工具反过来塑造我们。\" 我认为这对产品或商业来说可能太具哲学性了，但值得思考的是，你带入世界的东西会反过来影响你吗？你是在拓展人性中善良的一面，还是在放大可能带来零和博弈、更具负面影响的部分呢？（01:04:05）：对我来说，乐高是什么？乐高是创造力，是美感。但软件在我看来既缺乏创造力，又太过僵化。所以我认为这两种特质都值得放大人性。在软件领域，你可以打造另一个放大人性不同维度的业务。比如红杉资本（Sequoia）就投资过“七宗罪”（七种人性）项目，因为只要紧紧抓住这些特质，就能创造出商业模式和产品。但至少我更倾向于在软件领域放大创造力和美感。这与我的价值观相契合，我相信这至少能让市场朝着更积极的方向发展，让我们的产品用户变得更优秀。",
+   "ts": "01:03:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It must feel so good to have a product that is so aligned with the way you want to see the world and actually working and growing at this rate and scaling and becoming this, I don't know, part of the ether of the world.",
+   "zh": "拥有一个与你理想的世界观如此契合的产品，并且能以这样的速度成长、扩展，成为世界不可或缺的一部分，这感觉一定很棒。",
+   "ts": "01:04:58"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "It feels good. Yeah, it feels good that some of the most heartwarming thing is still it never gets old when you walk by coffee shop and see people using Notion. Oh, it feels good. And it feels good that we see people in our community can create a living selling Notion template, Notion apps, that they're not a software engineer. And going back to the original mission of when people create software, I think that's one of the most fulfilling thing, at least as a maker of tools can experience.",
+   "zh": "确实很棒。最温暖人心的事情之一就是，当你路过咖啡店，看到人们在使用Notion时，那种感觉永远不会过时。这感觉真好。还有我们社区里有人通过销售Notion模板、Notion应用来谋生，他们甚至不是软件工程师。这让我回想起最初开发软件的初衷，我认为这至少是作为工具创造者最有成就感的部分之一。",
+   "ts": "01:05:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That last point, I think people don't realize, so people are making millions of dollars selling Notion templates on the internet like at Etsy and other places.",
+   "zh": "最后一点，我觉得人们没有意识到，在Etsy等平台上，人们通过销售Notion模板已经赚了数百万美元。",
+   "ts": "01:05:39"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Consulting templates, yeah, and they're not programmers. I think I would say that's the heart of that because their domain expertise, they're YouTubers or creators. They have lifestyle brand. They know certain things but they're not makers of software. Then they can use Notion, package their workflows and expertise into Notion and templates and make limit with it. It's awesome, all that.",
+   "zh": "咨询模板，没错，他们不是程序员。我认为这才是核心所在，因为他们的专业领域是YouTuber或创作者。他们有自己的生活品牌。他们了解某些领域，但并非软件开发者。他们可以使用Notion，将自己的工作流程和专业知识打包成Notion模板，并从中获利。这太棒了。",
+   "ts": "01:05:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, millions of dollars is it's crazy. Ivan, before we get to an abridged lightning round, I'm curious if there's anything else that you wanted to touch on think might be useful for folks to hear before we get to a very exciting lightning round.",
+   "zh": "是啊，数百万美元，真是难以置信。伊万，在我们进入精简版闪电问答环节之前，我很好奇你是否还有其他想分享的见解，对听众可能有帮助的，在我们进入激动人心的闪电问答环节之前。",
+   "ts": "01:06:13"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I think people in tech, I wish more people look beyond tech to steal good ideas. It's like Tech Hacker News Twitter are so focused on the now and what's in front of it, what happened six months ago, versus humanity. If you just read books in other industry, you can look sideways. If you go back to history, there's a massive amount of patterns and shapes and trade-offs you can steal from and you can make what's in front of you much more interesting. You could give you... People figure out clever patterns in whatever domain in the past. You can just take in front of you. And I wish more people do that. I think it would be a very interesting way for product makers, business maker to solve the problem in front of them by stealing outside of from the domain of tech and business. So at least it's very inspiring, very useful for me personally.",
+   "zh": "我觉得科技领域的人们，应该多看看科技之外的领域，借鉴好的创意。比如科技新闻、推特等平台的人们，总是过于关注当下和眼前的事物，却忽视了六个月前发生的事情，更忽视了人类的本质。如果你去阅读其他行业的书籍，你就能跳出固有思维。回顾历史，你会发现有大量可借鉴的模式、规律和权衡取舍，这些都能让眼前的问题变得更有趣。你可以从中汲取灵感……过去，人们在任何领域都能找到巧妙的模式，而这些模式如今都能为你所用。我希望更多人能这样做。我认为，这对于产品开发者和商业创新者来说，通过跨越科技和商业领域的界限来解决眼前的问题，将是一种非常有趣且有效的思路。所以至少对我个人而言，这非常鼓舞人心，也极具启发性。",
+   "ts": "01:06:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It makes me think of the quote, \"Good artist copy. Great artists steal.\"",
+   "zh": "这让我想起了那句话：“优秀的艺术家模仿。伟大的艺术家窃取。”",
+   "ts": "01:07:26"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Great artists steal, yeah. Well, Steve Jobs stole that from Picasso or something who stole from former artist probably.",
+   "zh": "是啊，伟大的艺术家窃取创意。对吧，史蒂夫·乔布斯不就是从毕加索那里窃取灵感的吗？",
+   "ts": "01:07:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, this is actually an amazing segue to our very abridged lightning round. And the first question is... And by the way, welcome to the lightning round.",
+   "zh": "嗯，这其实为我们简短的闪电问答环节提供了一个绝佳的过渡。首先，欢迎大家参与闪电问答环节。",
+   "ts": "01:07:37"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Oh, okay.",
+   "zh": "哦，好的。",
+   "ts": "01:07:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The first question is just what are a couple of books that you find yourself recommending most to other people? Could be along the lines of what you just described or could just be generally.",
+   "zh": "第一个问题是，你最常向他人推荐的书籍有哪些？可以沿着你刚刚描述的方向，也可以是其他方面的推荐。",
+   "ts": "01:07:45"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I think the domain that are interesting the most is the complex system domain. You can look up the term. I think more and more people talk about this, but thinking a system, complex system when all the different things merge together, it creates emergent properties. Talking about ants, talk about beads, talk about life itself. It's just so fascinating how do with few primitives, few Lego bricks, you can create a thing called life. That thing just, it's sugar for me. So I love reading in that domain. And this is really helpful for create product, at least a horizontal product because you're trying to channel the energy, smaller parts to create something that the sum is much larger than its parts.",
+   "zh": "我觉得最有趣的领域是复杂系统领域。你可以查阅一下这个术语。越来越多的人在谈论这个话题，但当所有不同元素融合在一起时，就会产生新的特性。比如蚂蚁、珠子，以及生命本身。仅用几个基本元素、几块乐高积木就能创造出生命，这实在太神奇了。对我来说，这就是糖分般的享受。所以我喜欢阅读这个领域的书籍。这对产品设计非常有帮助，至少对于横向产品来说是这样，因为你试图汇聚各个部分的能量，创造出整体大于部分之和的产品。",
+   "ts": "01:07:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a specific book that comes to mind or is it just generally that's a cool area?",
+   "zh": "有没有具体的书名推荐？还是说只是对这个领域感兴趣？",
+   "ts": "01:08:43"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "That's a cool area to your attention to.",
+   "zh": "你特别关注这个领域。",
+   "ts": "01:08:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Next question. Do you have a favorite recent movie or TV show you've really enjoyed?",
+   "zh": "下一个问题。你最近有没有特别喜欢的电影或电视剧？",
+   "ts": "01:08:50"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I like to watch old documentaries. Maybe this is another area or category too. There's quite a few on YouTube. People make really good documentary in the '80s, in the '70s. That's like all the old BBC ones, they're just excellent and they have a strong opinion in them. It's no longer just general education thing. They have a direction. They have a taste. Go look it up. Oh, yeah. One is a really good one to get started called Connections. I think it's called but the gentleman's name is Burke. It's about how different things from different domains inspire other domains, and usually he used 30 minutes or 60 minutes to chain together a bunch of connection of stories. It's really good for technologists to watch. Highly recommend.",
+   "zh": "我喜欢看老纪录片。或许这也是一个值得关注的领域或类别。YouTube上有很多这类内容。80年代、70年代的BBC纪录片非常出色，不仅是通识教育内容，还带有强烈的观点。不再局限于基础知识，而是有明确的方向和品味。去查查看吧。对了，有一部叫《Connections》（《联结》）的纪录片，主持人是伯克（Burke）。它探讨不同领域的元素如何相互启发，通常用30分钟或60分钟的时间串联起一系列故事的关联。科技从业者绝对值得一看。强烈推荐。",
+   "ts": "01:08:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel a very consistent pattern throughout all of these answers and your entire conversation of just emerging properties, connections, Legos, building abstractions.",
+   "zh": "我在所有这些回答和整个对话中都感受到一个非常一致的模式——不断涌现的特质、联系、积木式拼搭以及抽象概念的构建。",
+   "ts": "01:09:49"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, I think I did Enneagram. My Enneagram, it's 7 and 7. 7 is, it is actually perfect with what we just talking about. 7 is creative, finding connection, see the forest and tree. 8 is they call Challenger. It's like competitive AR optimizing. So true energy accessing me.",
+   "zh": "是啊，我觉得我确实了解了九型人格。我的九型人格是7号和7号。7号特质与我们刚刚讨论的内容完美契合。7号善于创造，善于寻找联系，能看到森林与树木的全貌。8号被称为挑战者型。就像在竞争激烈的AR优化领域一样。这种能量真的深深触动了我。",
+   "ts": "01:10:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow. It's all makes sense. I got to take this Enneagram. This comes up a bunch on this podcast.",
+   "zh": "哦，哇。一切都说得通了。我得去了解一下九型人格。这话题在播客里经常被提起。",
+   "ts": "01:10:23"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Right, yeah.",
+   "zh": "对，对。",
+   "ts": "01:10:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question. Do you have a life motto that you often think back to, that you often repeat in your head of just like when times are hard or just to keep going with something you're working on that you find useful?",
+   "zh": "最后一个问题。你有没有一句人生格言，经常回想，或者反复默念的，比如在困难时期，或者坚持做某件事时觉得很有用的？",
+   "ts": "01:10:29"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "I like to think things as a craft. You just make it better. Make for yourself. If it's unique enough for yourself and useful for others, things will follow.",
+   "zh": "我喜欢把事情视为一门手艺。你只需不断改进，为自己而做。如果它对你个人独具价值，又能为他人带来益处，成功自然会随之而来。",
+   "ts": "01:10:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Ivan, thank you so much for being here. Two final questions, working folks find you online if they want to follow-up on anything, and then how can listeners be useful to you?",
+   "zh": "伊万，非常感谢你今天的到来。最后两个问题：工作中的听众如果想进一步了解你，可以在哪里找到你？听众如何能为你提供帮助？",
+   "ts": "01:10:51"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Probably find on me on Twitter, Ivan Z-H-A-O. It's helpful give us feedback about Notion, about our product. That's the best help.",
+   "zh": "可能在推特上找我，Ivan Z-H-A-O。关于Notion、我们的产品，任何反馈都很有帮助。",
+   "ts": "01:11:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's the best way to do that? Is it like DM, Ivan, or is it-",
+   "zh": "怎么联系你？是直接私信吗？",
+   "ts": "01:11:12"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Yeah, just DM me.",
+   "zh": "对，直接私信我。",
+   "ts": "01:11:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "01:11:15"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "DM me. Yeah, that's probably the best way.",
+   "zh": "私信我。嗯，这可能是最好的方式。",
+   "ts": "01:11:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Oh boy, here you go. And then you guys are hiring. Anything specific you're looking for? Anything people should know if they're like, \"Oh shit, I want to go work here\"?",
+   "zh": "好的。哦，拜拜。接下来是招聘问题。有什么特别的要求吗？如果有人想来这里工作，应该注意什么？",
+   "ts": "01:11:19"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "We're trying to hire misfits. So if you think you're a misfit, if you're exceptional at many things especially, you want to build Lego for software, you want to take interesting spin on AI with Lego for software, then DM me.",
+   "zh": "我们正在寻找特立独行者。所以如果你觉得自己是个怪才，如果你在很多领域都特别出色，尤其是想用积木式拼搭来构建软件，或者想在AI领域用积木式拼搭做有趣的尝试，那就私信我。",
+   "ts": "01:11:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Ivan, thank you so much for being here.",
+   "zh": "太棒了。伊万，非常感谢你今天的到来。",
+   "ts": "01:11:45"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Thank you for having me.",
+   "zh": "感谢邀请。",
+   "ts": "01:11:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone.",
+   "zh": "再见，各位。",
+   "ts": "01:11:49"
+  },
+  {
+   "speaker": "Ivan Zhao",
+   "en": "Bye.",
+   "zh": "再见。",
+   "ts": "01:11:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢收听。如果觉得内容有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅。也欢迎给我们评分或写评论，这对其他听众很有帮助。更多往期节目或了解节目详情，请访问lennyspodcast.com。下期节目再见。",
+   "ts": "01:11:53"
+  }
+ ]
+}

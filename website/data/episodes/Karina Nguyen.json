@@ -1,0 +1,1007 @@
+{
+ "id": "Karina Nguyen",
+ "name": "Karina Nguyen",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Karina+Nguyen",
+ "bio": {
+  "en": "Karina Nguyen is a research engineer at Anthropic, where she works on the cutting edge of building and improving Claude, and previously did front-end engineering.",
+  "zh": "卡琳娜·阮（Karina Nguyen）是 Anthropic 的研究工程师，在构建与改进 Claude 模型的最前沿工作，此前从事前端工程。"
+ },
+ "summary": {
+  "en": "Karina explains how her love of front-end engineering evolved into AI research as she realized models could build apps themselves. She argues that creative, aesthetic judgment is still hard to teach models and remains a key human skill. The episode demystifies how large language models are actually created and where human taste still matters most.",
+  "zh": "卡琳娜讲述了她对前端工程的热爱如何随着\"模型能自己构建应用\"的认知而转向 AI 研究。她认为，创造性与审美判断仍难以教给模型，依然是人类的关键能力。本期揭开了大语言模型真实构建过程的神秘面纱，并指出人类品味在何处最为关键。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "Not only are you working at the cutting edge of AI and LLMs, you're actually building the cutting edge.",
+   "zh": "你不仅在人工智能和大语言模型（LLM）领域的前沿工作，更是在亲手打造这个前沿领域。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "When I first came to Anthropic and I was like, \"Oh my God, I really love front-end engineering.\" And then the reason why I switched to research is because I realized, \"Oh my God, Claude is getting better at front-end. Claude is getting better at coding. I think Claude can develop new apps.\"",
+   "zh": "我刚加入Anthropic时，心里想：“天哪，我太喜欢前端工程了！”但后来转向研究的原因，是我意识到：“天哪，Claude在前端和编程能力上越来越强了。我觉得它能开发出新应用。”",
+   "ts": "00:00:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What skills do you think will be most valuable going forward for product teams, in particular?",
+   "zh": "你认为未来对产品团队而言最有价值的技能是什么？",
+   "ts": "00:00:20"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Creative thinking and you kind of want to generate a bunch of ideas and filter through them and not just build the best product experience. I think it's actually really, really hard to teach the model how to be aesthetic or really good visual design or how to be extremely creative in the way they write.",
+   "zh": "要有创造性思维，要能产出大量创意想法，再进行筛选，而不只是打造最佳产品体验。我觉得，要教会模型具备审美能力、出色的视觉设计能力，或者让它们在写作时展现极强的创造力，这实在太难了。",
+   "ts": "00:00:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What do you think people most misunderstand about how models are created?",
+   "zh": "你认为人们对模型创建过程最容易产生哪些误解？",
+   "ts": "00:00:42"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "When you taught the model, some of the self-knowledge of you actually don't have a physical body to operate in the physical world, the model would get extremely confused.",
+   "zh": "当你教导模型时，一些关于你自身的知识——比如你没有实体身体在现实世界中行动——模型就会变得非常困惑。",
+   "ts": "00:00:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Karina Nguyen. Karina is an AI researcher at OpenAI where she helped build Canvas, tasks, the o1 chain-of-thought model and more. Prior to OpenAI, she was at Anthropic where she led work on post-training and evaluation for the Claude 3 models, built a document upload feature with 100K context windows and so much more. She was also an engineer at New York Times, was a designer at Dropbox and at Square. It's very rare to get a glimpse into how someone working on the bleeding edge of AI and LLMs operates and how they think about where things are heading. Canvas (00:01:31): In our conversation, we talk about how teams that OpenAI operate and build products, what skills she thinks you should be building as AI gets smarter, how models are created, why synthetic data will allow models to keep getting smarter and why she moved from engineering to research after realizing how good LLMs are going to be at coding. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing feature episodes and it helps the podcast tremendously. With that, I bring you Karina Nguyen. (00:02:02): This episode is brought to you by Enterpret. Enterpret unifies all your customer interactions from Gong calls to Zendesk tickets to Twitter threads to app store reviews, and makes it available for analysis. It's trusted by leading product orgs like Canva, Notion, Loom, Linear, monday.com, and Strava, to bring the voice of the customer into the product development process, helping you build best-in-class products faster. What makes Enterpret special is its ability to build and update customer-specific AI models that provide the most granular and accurate insights into your business, connect customer insights to revenue and operational data in your CRM or data warehouse to map the business impact of each customer need and prioritize confidently, and empower your entire team to easily take action on use cases like win-loss analysis, critical bug detection and identifying drivers of churn with Enterpret's AI system, Wisdom. (00:02:53): Looking to automate your feedback loops and prioritize your roadmap with confidence, like Notion, Canva and Linear? Visit E-N-T-E-R-P-R-E-T.com/Lenny to connect with the team and to get two free months when you sign up for an annual plan. This is a limited time offer. That's Enterpret.com/Lenny. This episode is brought to you by Vanta. And I am very excited to have Christina Cacioppo, CEO and co-founder Vanta, joining me for this very short conversation.",
+   "zh": "今日的嘉宾是卡琳娜·阮（Karina Nguyen）。卡琳娜是OpenAI的AI研究员，她曾参与构建Canvas平台、任务处理系统、O1链式思维模型等项目。在加入OpenAI之前，她曾在Anthropic工作，主导Claude 3模型的训练后评估工作，并开发了支持10万个上下文窗口的文档上传功能。她还曾在《纽约时报》担任工程师，并在Dropbox和Square担任设计师。能一窥AI和大语言模型前沿领域从业者的运作方式及发展趋势实属难得。\n\nCanvas（00:01:31）：在对谈中，我们探讨了OpenAI团队的产品开发流程、AI日益智能化背景下应重点培养的技能、模型构建机制、合成数据如何助力模型持续进化，以及她在意识到LLM在编程领域潜力后从工程师转向研究者的决策路径。若您喜欢本播客，欢迎在喜马拉雅、YouTube等平台订阅关注，这是获取最新内容的最佳方式。现在有请卡琳娜·阮。\n\n（00:02:02）：本期节目由Enterpret赞助。Enterpret整合了客户互动数据——从Gong通话记录到Zendesk工单，再到Twitter对话及应用商店评论——并提供深度分析功能。Canva、Notion、Loom、Linear、monday.com和Strava等领先产品团队都信赖Enterpret，将客户声音融入产品开发流程，助力快速打造一流产品。其核心技术在于构建和更新客户专属AI模型，精准解析业务痛点，通过CRM或数据仓库中的营收与运营数据关联业务影响，并借助Wisdom系统自信优先处理客户流失分析、关键漏洞检测等场景。\n\n（00:02:53）：想自动化反馈循环并自信规划路线图？如Canva、Notion和Loom等知名案例？访问E-N-T-E-R-P-R-E-T.com/Lenny，即可与团队对接并享受年度订阅免费双月体验。此优惠限时有效。",
+   "ts": "00:00:58"
+  },
+  {
+   "speaker": "Christina Cacioppo",
+   "en": "Great to be here. Big fan of the podcast and the newsletter.",
+   "zh": "很高兴能参与节目。非常喜欢这个播客和每周通讯。",
+   "ts": "00:03:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Vanta is a longtime sponsor of the show, but for some of our newer listeners, what does Vanta do and who is it for?",
+   "zh": "Vanta是节目的长期赞助商，但对于新听众来说，Vanta是做什么的，适合哪些人群？",
+   "ts": "00:03:25"
+  },
+  {
+   "speaker": "Christina Cacioppo",
+   "en": "Sure. So we started Vanta in 2018. Focused on founders, helping them start to build out their security programs and get credit for all of that hard security work with compliance certifications like SOC 2 or ISO 27001 today, we currently help over 9,000 companies, including some startup household names like Atlassian, Ramp and LangChain start and scale their security programs and ultimately build trust by automating compliance, centralizing GRC, and accelerating security reviews.",
+   "zh": "当然。我们在2018年创立了Vanta，专注于初创企业，帮助他们搭建安全体系，并通过SOC 2或ISO 27001等合规认证获得认可。如今，我们已服务超过9,000家企业，包括Atlassian、Ramp和LangChain等知名初创企业，助力他们启动和扩展安全项目，最终通过自动化合规、集中化GRC和加速安全审查来建立信任。",
+   "ts": "00:03:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is awesome. I know from experience that these things take a lot of time and a lot of resources and nobody wants to spend time doing this.",
+   "zh": "太棒了。我深有体会，这些事情既耗时又费力，而且没人愿意花时间去做。",
+   "ts": "00:04:04"
+  },
+  {
+   "speaker": "Christina Cacioppo",
+   "en": "That is very much our experience, but before the company and to some extent during it. But the idea is with automation, with AI, with software, we are helping customers build trust with prospects and customers in an efficient way. And our joke, we started this compliance company so you don't have to.",
+   "zh": "这确实是我们的经历，但在创办公司之前，以及在某种程度上在公司运营期间也是如此。不过关键在于，通过自动化、人工智能和软件技术，我们能帮助客户高效地与潜在客户和现有客户建立信任。我们还开玩笑说，创办这家合规公司就是为了让客户无需再为此费心。",
+   "ts": "00:04:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We appreciate you for doing that. And you have a special discount for listeners, they can get $1,000 off Vanta at Vanta.com/Lenny, that's V-A-N-T-A.com/Lenny for $1,000 off Vanta. Thanks for that, Christina.",
+   "zh": "非常感谢您这么做。听众们可以享受特别优惠，在Vanta.com/Lenny网站购买Vanta产品可享1000美元优惠，优惠码是V-A-N-T-A.com/Lenny。感谢您，克里斯蒂娜。",
+   "ts": "00:04:26"
+  },
+  {
+   "speaker": "Christina Cacioppo",
+   "en": "Thank you.",
+   "zh": "谢谢你，卡琳娜，感谢你能来参加节目。",
+   "ts": "00:04:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Karina, thank you so much for being here. Welcome to the podcast.",
+   "zh": "莱尼，非常感谢你邀请我。",
+   "ts": "00:04:45"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Thank you so much, Lenny, for inviting me.",
+   "zh": "非常感谢你，莱尼，邀请我参加节目。",
+   "ts": "00:04:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm very excited to have you here because not only are you working at the cutting edge of AI and LLMs, you're actually building the cutting edge of AI and LLMs. You recently launched this feature, which basically... the first agent feature of OpenAI. I also just did this survey, I don't know if you know about this. I did a survey of my readers and asked them what tools do you use every day in your work and most use? And ChatGPT was number one, above Gmail, above Slack, above anything else. 90% of people said they use ChatGPT regularly.",
+   "zh": "我很高兴您能来到这里，因为您不仅在人工智能和大语言模型领域处于前沿，还亲自参与了这些技术的研发。最近，OpenAI推出了首款代理功能，而您可能还不知道这件事。我对读者做了一项调查，询问他们日常工作中最常用的工具，ChatGPT高居榜首，领先于Gmail、Slack等所有工具。90%的人表示经常使用ChatGPT。",
+   "ts": "00:04:50"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "That's quite good.",
+   "zh": "这真是太棒了。两年前它还名不见经传。",
+   "ts": "00:05:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's absurd. It wasn't around two years ago.",
+   "zh": "太不可思议了。两年前它还默默无闻。",
+   "ts": "00:05:23"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:05:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Also, we're recording this the week that OpenAI announced Stargate, which is this half trillion dollar investment in AI infrastructure. So there's just a lot happening constantly in AI and you have a really unique glimpse into how things are working, where things are going, how work gets done. So I have a lot of questions for you. I want to talk about how you operate and how you work at OpenAI, where you think things are going, what skills are going to matter more and less in the future, and also just where things are going broadly. So how does that sound?",
+   "zh": "此外，我们这次录制节目时，OpenAI刚宣布了Stargate项目——这项价值5000亿美元的AI基础设施投资。所以AI领域的新进展层出不穷，而您对行业动态有着独特的洞察力。我有很多问题想问您。比如您在OpenAI的工作模式、未来发展方向、不同技能的重要性变化，以及整个行业的走向。您觉得怎么样？",
+   "ts": "00:05:26"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Sounds great. Thank you so much. Yeah, I was extremely lucky to join early days Anthropic and learned a lot of things there. And I joined OpenAI around eight months ago. So, yeah, I'm excited to dive more in into-",
+   "zh": "听起来很棒。非常感谢您。是的，我很幸运能在Anthropic早期加入公司，在那里学到了很多东西。大约八个月前，我加入了OpenAI。所以，我很期待深入探讨——",
+   "ts": "00:05:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, I'm going to definitely ask you about the differences between those, but I want to start more technical and just dive right in. I want to talk about model training. People always hear about models being trained, these big models, how much data takes, how long it takes, how much money toss it takes, how we're running out of data, which I want to talk about. Let me just ask you this question. What do you think people most misunderstand about how models are created?",
+   "zh": "好的，我肯定会先从技术层面入手，直接深入讨论。我想先谈谈模型训练。人们总是听说模型训练需要大量数据、耗费大量时间、花费巨资，还面临数据短缺的问题，这些都是我想探讨的。首先我想问您，人们对模型创建过程最常误解的点是什么？",
+   "ts": "00:06:11"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Model training is more an art than a science. And in a lot of ways we, as model trainers, think a lot about data quality. It's one of the most important things in model training is like how do you ensure the highest quality data for certain interaction model behavior that you want to create? But the way you debug models is actually very similar the way you debug software. So one of the things that I've learned early days at Anthropic was we've discovered especially this Claude 3 training, when you taught the model some of the soft-knowledge of, \"Hey, you actually don't have a physical body to operate in the physical world.\" But then at the same time you had data that taught the model some of the function calls, which is like, \"This is how you set the alarm.\" (00:07:30): And so the model would get extremely confused about whether it can set an alarm, but it doesn't have a body in the physical world. So it's like the model gets confused and sometimes it'll over accuse. So sometimes it says, \"Look, I don't know. Sorry, I cannot help you.\" And so there is always a balance trade off between how do you make the model to be more helpful for users, but also not being harmful in other scenarios. And so it's always about how do you make the model more robust and operate across a variety of diverse scenarios.",
+   "zh": "模型训练更像是一门艺术而非科学。在很多方面，我们作为模型训练师，都非常关注数据质量。对于模型训练来说，最重要的事情之一就是如何确保为特定的交互模型行为提供最高质量的数据。但调试模型的方式实际上与调试软件非常相似。我在Anthropic早期就学到一点：特别是Claude 3的训练中，当你教会模型一些软知识，比如“嘿，你实际上没有身体在物理世界中行动”，但与此同时，数据又教会了模型一些函数调用，比如“这就是你设置闹钟的方法”。（00:07:30）于是模型会对自己能否设置闹钟感到极度困惑，但它又没有物理世界中的身体。所以模型会陷入困惑，有时甚至会过度指责用户。于是就需要在如何让模型对用户更有帮助，同时又不造成其他危害之间找到平衡。关键在于如何让模型更具鲁棒性，能够在各种不同的场景中正常运行。",
+   "ts": "00:06:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so funny. I never thought about that. Most of the data that it's trained on is kind of assuming it's like a human describing the world and how they operate. It assumes there's a body and you could do things, and the model is told you don't have a body.",
+   "zh": "这太有趣了。我从没想过这点。模型训练所使用的大多数数据都是基于假设的，比如人类描述世界和他们的行为方式。这些数据假定模型有身体，可以执行各种操作，但现在模型被告知它没有身体。",
+   "ts": "00:08:09"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:08:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I want to talk a little bit about data while we're on this topic. I know you have strong opinions here. There's this meme that models are going to stop getting smarter because they're running out of data. They're trained in a large part on the internet and there's only one internet and they've already been trained on it, what more can you show them about the world? And there's this trend of synthetic data, this term synthetic data. What is synthetic data? Why do you think it's important? Do you think it's going to work?",
+   "zh": "好的。既然我们已经谈到了这个话题，我想再稍微聊聊数据。我知道你对此有很深的见解。有个梗说模型会停止变得更智能，因为数据已经用完了。它们在很大程度上是基于互联网训练的，而互联网只有一个，而且已经被训练过了，还能给它们展示多少关于世界的信息呢？现在有一种合成数据的趋势，合成数据这个术语。什么是合成数据？你为什么认为它很重要？你觉得它能行得通吗？",
+   "ts": "00:08:21"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think there are two questions here. We can unpack one at a time. But people say we are hitting the data wall. I think people think more in the terms of pre-trained large models that are trained on the entire internet to predict the next token. But what actually the model is learning during that process is actually how do you compress the compression algorithm here? The model learns to compress a lot of knowledge and it learns how to model the world. So the next prediction of the word, like, \"Teach me how to drive,\" basically. And you only have a few words that will match that, a car. So the model actually learns about the world in itself. So it's like it's modeling human behavior, sometimes it's modeling... And when you talk to pre-trained models which are very, very large, they're actually extremely diverse and extremely creative because you can talk to almost any Reddit user through a pre-trained model. (00:09:56): But I think what's happening right now with new paradigm of o1 series is that the scaling in post-training itself is not hitting the wall. And that's because basically we went from raw data sets from pre-trained models to infinite amount of tasks that you can teach the model in the post-training world via reinforcement learning. So any task, for example, how to search the web, how to use the computer, how to write, wow, all sorts of tasks that you trying to teach the model all the different skills. And that's why we're saying there's no data wall or whatever, because there will be infinite amount of tasks and that's how the model becomes extremely super intelligent. And we are actually getting saturated in all benchmarks. (00:10:52): So I think the bottleneck is actually in evaluations that we don't have all the frontier, like evals like, I don't know, GPQA, which is a Google-proof question answering, PhD level intelligence. The benchmark is getting to, I don't know, more than 60, 70%, which is what PhD gets. So it's literally hitting the wall in like evals.",
+   "zh": "我认为这里有两个问题。我们可以逐一分析。但人们常说我们遇到了数据瓶颈。我觉得人们更多地从预训练大模型的角度来思考，即这些模型通过训练在整个互联网上的数据来预测下一个词汇。但实际上模型在此过程中学习的是如何压缩压缩算法？模型学会压缩大量知识，并学习如何建模世界。比如用户说\"教我开车\"，模型只能匹配到汽车这样的几个词汇。这说明模型本身在学习世界的本质。它在模拟人类行为，有时甚至能模拟……当你与非常庞大的预训练模型对话时，它们实际上极其多样且富有创造力，因为你几乎可以通过预训练模型与任何Reddit用户进行交流。（00:09:56）：但我认为目前O1系列新范式的情况是，训练后的扩展性不再受限。这是因为我们从预训练模型的原始数据集，转向了可以通过强化学习在训练后世界中教授模型的无限任务。例如，如何搜索网络、使用计算机、写作等各种任务。正因如此，我们才说不存在数据瓶颈，因为将有无限的任务，这也是模型变得极其智能的原因。我们在所有基准测试中都取得了显著成果。（00:10:52）：所以我认为真正的瓶颈在于评估方面。我们还没有达到所有前沿评估标准，比如GPQA（Google-proof question answering，谷歌级别的问答测试），要求达到博士级别的智能水平。目前最高只能达到60%、70%的准确率。这说明评估方面确实遇到了瓶颈。",
+   "ts": "00:08:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to follow both those threads. So the first is on this idea of synthetic data. Is a simple way to understand it, that the models are generating the data that future models are trained on and you ask it to generate all these ways of doing stuff, all these tasks as you described, and then the newer models trained on this data that the previous model generated?",
+   "zh": "我想跟进这两个讨论点。首先是关于合成数据的概念。简单理解就是模型生成未来模型训练所需的数据，然后让新模型在这些数据上进行训练？",
+   "ts": "00:11:19"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Some tasks are synthetically curated. So this is an active research area is how can you synthetically construct new tasks with models to learn. Sometimes when you develop products, you get a lot of data from the product and user feedback and you can use that data too in this cross-training world. Sometimes you still want to use human data because actually some of the tasks can be really, really hard to teach. Experts only know certain knowledge about some chemicals or biological knowledge, so you actually need to tap into the experts' knowledge a lot. So yeah, I think to me synthetic data training is more for product... It's a rapid model iteration for similar product outcomes. And we can dive more into it, but the way we made Canvas and tasks and new product features for ChatGPT was mostly done by synthetic training.",
+   "zh": "有些任务是经过合成策划的。这是一个活跃的研究领域，即如何利用模型合成新任务进行学习。有时开发产品时，会从产品和用户反馈中获取大量数据，并在这种交叉训练的环境中加以利用。但有时仍需使用真实数据，因为某些任务确实非常难教。比如专家对某些化学或生物知识有深入了解，所以必须充分借鉴他们的专业知识。是的，我认为合成数据训练更多用于产品……是实现相似产品成果的快速模型迭代。我们可以深入探讨，但我们开发Canvas、任务和ChatGPT的新产品功能，主要都是通过合成训练实现的。",
+   "ts": "00:11:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's actually get into that. That's really interesting. I want to talk about evals, but let's follow that thread. So talk about how this helped you create Canvas.",
+   "zh": "让我们深入探讨这个问题。非常有趣。我想先谈谈评估问题，再跟进其他讨论。那么，请谈谈这如何帮助你们开发了Canvas。",
+   "ts": "00:12:52"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "So when I first came to OpenAI, I really had this idea of, \"Okay, it would be really cool for ChatGPT to actually change the visual interface but also change the way it is with people.\" So going from being a chatbot to more of a collaborative agent, and the collaborator is a step towards more genetic systems that become innovators ultimately. And so the entire team of applied engineers, designers, products, research got formed in the air almost out of nothing. It's just like a collection of people who just got together and we rapidly started iterating with each other. (00:13:46): Actually Canvas is one of the... I would say the first project at OpenAI, where researchers and applying engineers started working together from the very beginning of the product development cycle. And I think there's a lot of things that we have learned on the way, but I definitely came with the mindset of, \"We need to do a really rapid model situation such that it would be much easier for engineers to work with the latest model possible, but also learn from user feedback or early internal dog food. How do we improve the model very rapidly?\" (00:14:28): And it's really hard to kind of like figure out how people... when you deploy a product, how people would be able to use it. And so the way you synthetically train the model is physically figuring out what are the most core behaviors that you wanted the product feature to do. And for Canvas, for example, it came down to three main behaviors. It was how do you trigger Canvas for prompts like, \"Write me a long essay,\" when the user intention is mostly iterating over long documents? Or, \"Write me a piece of code,\" or when to not trigger Canvas for prompts like, \"Can you tell me more about President...\" I don't know, some of the general questions. So you don't want to trigger Canvas because the user intention is mostly getting answer, not necessarily iterate over the long document. (00:15:28): The second behavior is how do we teach the model to update the document when the user asks? So one of the behaviors that we taught the model is actually have some agency and autonomy to literally go to the document and select specific sections and either delete it or edit, so highlight it and rewrite certain sections. Sometimes the user would just say, \"Change the second paragraph to be something friendlier,\" and we would have to teach the model to literally find the second paragraph in the document and change it to a friendly tone. So basically you teach both how to trigger edit itself, but also how do you teach the model to get higher quality edit for the document? (00:16:21): In case of coding, for example, there's also the question of how good the model is of completely rewriting the document, versus having a very specific target edits. So that's another layer of decision boundary within edit itself is, \"Let's select the entire document and rewrite completely, or do you want to have a very targeted custom behavior.\" And when we first launched the model, we would bias the model towards more rewrites because we saw the quality of the rewrites were much higher. But over time you are shifting based on user feedback and what you're learning from iterative deployment. (00:17:02): Lastly, the third behavior that we taught synthetically the model is how to make comments on any document. So the way we used that is we would use o1 model to seem a way of user conversation, let's say like, \"Write me a document about XYZ.\" But then we used o1 to produce the document and then we injected user prompt to be like, \"Oh, make some comments, critique my piece of writing or critique this piece of writing that you just made.\" And then we taught the model to make comments on the document on very specific [inaudible 00:17:45] So it's also what kind of comments you want the model to make. Do they make sense or not? How do you teach the quality of that? And it all came down to measuring progress via very robust evals. But, yeah, this is how you used o1 and a synthetic data generation for the training.",
+   "zh": "刚加入OpenAI时，我当时的想法是：“如果ChatGPT能真正改变视觉界面，同时改变与人类交互的方式，那会非常酷。” 因此，我们要从一个聊天机器人转变为更具协作性的智能体，而这种协作者是迈向更具创造力的系统的最初一步。整个应用工程师、设计师、产品经理和研究团队几乎凭空组建起来。这就像一群志同道合的人聚集在一起，迅速展开协作。（00:13:46）：实际上，Canvas是OpenAI的首批项目之一，在产品开发周期初期，就让研究人员和应用工程师从一开始就携手合作。我们在此过程中学到了很多东西，但我的初衷是：“我们需要快速迭代模型，让工程师能尽快使用最新模型，同时从用户反馈和内部测试中快速改进模型。” （00:14:28）：要理解用户如何使用产品实在不易。例如，当你部署产品时，用户可能希望用它来写长文案，但又可能只是在反复修改长文档。那么如何让Canvas准确识别这些意图呢？我们通过合成训练模型，找出最核心的用户行为。以Canvas为例，核心行为有三个：第一，当用户输入“写一篇长文案”时，如何触发Canvas？第二，当用户请求编辑文档时，如何教会模型更新文档？第三，当用户请求解释某个概念时，如何让模型准确理解上下文并进行智能编辑。（00:15:28）：第二个行为是如何教会模型在用户请求时更新文档。例如，我们教会模型自主选择文档中的特定段落进行删除或编辑。用户可能会说：“把第二段改得更口语化。” 这时模型需要准确找到文档中的第二段，并进行润色。（00:16:21）：在编程场景中，模型对完全重写文档的能力和针对性编辑的能力也需要权衡。这是编辑功能的另一个决策边界：是选择全文重写，还是针对特定需求进行定制编辑。最初我们更倾向于全文重写，因为重写质量更高，但随着用户反馈和迭代部署，我们逐渐调整策略。（00:17:02）：最后，第三个行为是教会模型在任何文档上进行注释。我们用o1模型模拟用户对话，比如“写一篇关于XYZ的文档”。然后用o1生成文档，并注入用户提示，如“把某段改得更口语化”。\n用户：“请评论一下我的这篇文章，或者批评一下你刚刚写的这篇文章。”然后我们教会了模型如何针对特定文档进行评论[00:17:45，语音不清]。所以关键在于你希望模型做出怎样的评论。它们是否有意义？如何衡量其质量？这一切都归结于通过非常严格的评估来衡量进展。不过，确实如此，这就是如何将O1和合成数据生成用于训练的过程。",
+   "ts": "00:12:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, that's so interesting. So you talk about this idea of teaching the model and you mentioned how it's using synthetic data to teach the model different behaviors is a simple way to think about it. Basically that's where you do that by showing it what success looks like using basically evals. Is that the simple way to think about it? Like, \"Here's what you doing this successfully would look like,\" and that teaches it, \"Okay, I see this is what I should be doing [inaudible 00:18:31]\"",
+   "zh": "好的，这太有趣了。你提到教导模型的这个理念，还提到用合成数据来教模型不同的行为方式，这是一个简单的思路。基本上就是通过评估向它展示成功的样子，对吧？这样做就是在教它：“这样做成功的样子是这样的”，然后它就能学会：“好的，我知道应该怎么做[00:18:31不可听清]”。",
+   "ts": "00:18:07"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, great. Yeah, amazing. Yeah, you got it.",
+   "zh": "好的，明白了。太棒了。没错，你理解得很好。",
+   "ts": "00:18:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, got it. I want to start unpacking what your day-to-day looks like as you're building these sort of things. Is it like you sitting there talking to some version of ChatGPT, crafting these evals?",
+   "zh": "好的，我明白了。我想开始深入了解你日常构建这类东西的工作流程。是不是你坐在那里和ChatGPT对话，然后设计这些评估？",
+   "ts": "00:18:33"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Sometimes I do that. Sometimes I do sit with ChatGPT. Actually, I think I learned this so much from Anthropic, is people spend so much time prompting models and where quality's a really bad batch all the time, and you actually get a lot of new ideas of how do you make the model better? It's like, \"This response is kind of weird. Why's it doing this?\" And you start debugging or something, or you start figuring out new methods of how do you teach the model to respond in the different way, have better personality, let's say. (00:19:19): So it's the same thing of how personality is made in the models with those. It's very similar methods. But, yes, I think my time at OpenAI have changed. I think when I first came, I was mostly research IC work so I was like building a lot of... I was running code, training models, write evals, working with PMs and designers to learn, teach them how to even think about evaluation. I think that was really cool experience and I think it was just like an adoption of, \"How do we do this product management of AI feature for our AI models?\" Yeah, but now it's mostly management and mentorship. I'm still doing IC research code up to 4:00 PM, although. But I just kind of changed.",
+   "zh": "有时候我会那么做。有时候我确实会和ChatGPT一起工作。实际上，我觉得从Anthropic那里学到了很多东西。人们花大量时间提示模型，但质量往往很差。而你会因此获得很多新思路，比如如何让模型表现得更好，比如让它有更好的个性。（00:19:19）所以这和模型中个性形成的过程很相似。方法非常相似。不过，我在OpenAI的工作经历确实变了。我刚加入的时候主要做研究IC方面的工作，比如编写代码、训练模型、设计评估、与产品经理和设计师合作，教他们如何思考评估。这段经历很棒，也是我学习如何为AI模型做产品管理的时期。不过现在主要做管理和指导工作了。虽然下午4点前我还是会做IC方面的研究代码，但整体方向变了。",
+   "ts": "00:18:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, don't talk too much about being a manager.",
+   "zh": "好的，别多谈管理的事。",
+   "ts": "00:20:21"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:20:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Because everyone's in firing their managers. \"Who needs managers anymore?\" That's what I hear now. Just kidding. It's interesting that so much of your time was spent on teaching product teams how evals integrate and how important it is. And I've heard this a few times and I haven't personally experienced it yet, so I think it's an important thread to follow is just how writing these evaluations is going to become increasingly an important part of the job of product teams, especially when they're building AI features and working with LLMs. So can you just talk a bit more about what that looks like? Is it sitting there with an Excel spreadsheet basically showing, \"Here's the input, here's the output, here's how good the result was\"? Talk about what that actually looks like very practically.",
+   "zh": "因为现在大家都在解雇他们的经理。“谁还需要经理啊？”我现在常听到这种说法。开玩笑的。有趣的是，你花了大量时间教导产品团队如何整合评估以及评估的重要性。我听过好几次，但自己还没亲身经历过，所以我觉得一个值得关注的趋势就是编写这些评估将越来越成为产品团队工作的重要组成部分，特别是当他们在开发AI功能和与大语言模型合作时。所以你能不能再多讲讲这具体是怎样的？是不是坐在那里用Excel表格展示：“这是输入，这是输出，结果有多好”？具体讲讲实际操作的情况。",
+   "ts": "00:20:23"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "It certainly depends on what you're developing, but there are various types of evaluations. Sometimes I do ask product managers, or there's also new roles that we have, model designers, to go through some of the user feedback maybe or think of various user conversations that should have triggered... Under these circumstances, it should trigger Canvas. And then you have this ground truth label of, \"Okay with this conversation it should look trigger Canvas, under this conversation it should not trigger Canvas.\" And you have this very deterministic kind of eval that for decision-making behaviors is like this. (00:21:46): When we were launching tasks, for example, how do you make correct schedules is actually really hard for the model. But we built out some of the deterministic evaluations that is like, \"Okay, if the user says 7:00 PM, the model should say 7:00 PM.\" So if you can have deterministic evals whether it's pass or fail. And the way it works is all the... Sometimes I ask product managers to just go create a double sheet, have different tabs and what's the current behavior, what's the ideal behavior and why, and some notes. (00:22:27): And sometimes they usually use it with evals, sometimes we use it for training. Because if you give the spreadsheet to o1 model, it can probably figure out how to teach itself a good behavior. And I think there are second type of evals that is more prevalent is human evaluations. And you can have specific trainers or you can have internal people to when you have a conversation of the prompt and then you have various completion of models, you choose the win rate. Which model is the best? Which model produce the highest quality comment or edit? And then you can have continuous win rates. And as you develop new models it should always win over the previous models. So it depends on what you want to measure.",
+   "zh": "这当然取决于你正在开发的产品，但评估方式多种多样。有时我会请产品经理参与，或者让我们新设的模型设计师岗位，分析用户反馈或回顾可能引发问题的用户对话。在这种情况下，应该触发Canvas机制。然后你会给出一个标准标签，比如“基于这段对话应该触发Canvas”，“基于这段对话不应该触发Canvas”。这种非常确定性的评估方式，适用于决策行为的判定。（00:21:46）：比如我们在发布任务时，如何制定正确的时间表对模型来说确实很困难。但我们开发了一些确定性评估，比如“如果用户说晚上7点，模型就应该回复晚上7点”。所以你可以让评估结果分为通过或不通过两种。具体操作是，所有……有时我会让产品经理制作双列表，分成不同标签，记录当前行为、理想行为及其原因，并附上备注。（00:22:27）：有时这些表格用于评估，有时用于模型训练。比如把表格给模型，它可能就能学会正确的行为。我认为更常见的第二类评估是人工评估。你可以让特定培训师或内部人员，对比用户的提示内容和模型输出的结果，评估胜率。哪个模型表现最佳？哪个模型生成的评论或编辑质量最高？然后持续追踪胜率。随着新模型不断开发，它应该始终优于旧模型。总之，这取决于你想要衡量什么。",
+   "ts": "00:21:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So interesting. Basically what I'm hearing, and there's something I'm learning about as I talk to people, is product development might move from this, \"Here's a spec PRD, let's build it together and then cool, let's review it. Are we happy with this?\" From that to, \"Hey, AI, build this thing for me and here's what correct looks like,\" and I'm spending all my time on what does correct look like on evals essentially.",
+   "zh": "真有意思。基本上我听到的，也是和别人交流时了解到的，产品开发可能从“这是个PRD需求文档，让我们一起开发，然后再评审，满意吗？”转变为“嘿，AI，为我开发这个东西，这里是正确的模样”，而我现在大部分时间都在思考评估中“正确的模样”到底是什么。",
+   "ts": "00:23:22"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "You definitely want to measure progress of your model and this is where evals is, is because you can have prompted model as a baseline already. And the most robust evals is the one where prompted baselines get the lowest score or something. And then because then you know if you're trained a good model, then it should just hill climb on that eval all the time, while not also regressing on other intelligence evals. That's what I'm saying, it's more of an art than science. It's like, \"Okay, if you optimize the model for this behavior, you don't want to brain damage in other areas of intelligence or...\" This is happening all the time in every lab, in every research team. (00:24:35): I would say prompting is also a way to prototype new product ideas. Early days at Anthropic when I was working file uploads feature, I remember I was just prompting the model to just... I remember we were launching a hundred key contexts. I was just prototyping this in their local browser. I did the demo. People really, really loved it. And they just wanted API for file uploads or something. And then that's when it clicked to me, and also one of the blog posts a long time ago, it clicked on me prompting is a new way of product development or prototyping for designers and for product managers. (00:25:20): For example, one of the features that I want to do is have a personalized starter prompts. So whenever you come to Claude, it should recommend you starter prompts based on what your interests are. And so you can literally do it prompting for that.",
+   "zh": "你们肯定想衡量模型的进展情况，而evals正是为此而设的。因为你可以将提示式模型作为基准。最稳健的evals是提示式基准得分最低的那种。这样一来，你就能知道，如果训练出了一个优秀的模型，它应该能在该评估上持续提升得分，同时在其他智能评估上不会退步。这就是我的意思，这更多的是一门艺术而非科学。比如，如果你为这种行为优化模型，就不希望在其他智能领域造成损害，或者……这种情况在每个实验室、每个研究团队中都在上演。（00:24:35）：我认为提示式功能也是新产品创意的原型工具。在Anthropic早期，当我开发文件上传功能时，我记得我只是让模型提示……我记得我们推出了上百个关键上下文。我只是在他们的本地浏览器中进行原型测试。我做了演示。人们真的非常喜欢它。他们只想要文件上传的API之类的。那时我突然意识到，提示式功能也是产品开发或原型设计师和产品经理的新工具。\n（00:25:20）：例如，我想做的一个功能是提供个性化的入门提示。这样每次你访问Claude时，它就会根据你的兴趣推荐入门提示。你可以直接用它来进行提示式开发。",
+   "ts": "00:23:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm. To experiment with that.",
+   "zh": "嗯。去试验一下。",
+   "ts": "00:25:42"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Another feature was generating titles for the conversations. It's a very small micro experience but I'm really proud of. The way we did that was we took five latest conversation from the model, asked the model, \"What's the style of the user?\" And then for the next new conversation, the generated title will be of the same style. It's just like really little micro experiences like this.",
+   "zh": "另一个功能是为对话生成标题。这是一个很小的微交互，但我真的很自豪。我们是这样做的：从模型中提取最近的五个对话，向模型提问“用户的风格是什么？”然后，下一个新对话生成的标题就会与用户的风格一致。就是这样一些小微交互。",
+   "ts": "00:25:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's so cool. Did you do that at Anthropic or at OpenAI?",
+   "zh": "太酷了。你是在Anthropic还是OpenAI做这些的？",
+   "ts": "00:26:12"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "At Anthropic.",
+   "zh": "在Anthropic。",
+   "ts": "00:26:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool. I love the file upload feature that Claude has by the way. ChatGPT doesn't have that yet, is that right?",
+   "zh": "好的，酷。我顺便说一句，我很喜欢Claude的文件上传功能。ChatGPT还没有这个功能，对吧？",
+   "ts": "00:26:16"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think has the way.",
+   "zh": "我觉得它有这个功能。",
+   "ts": "00:26:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "[inaudible 00:26:23]",
+   "zh": "[00:26:23不可听清]",
+   "ts": "00:26:23"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think the way it's implement is very different though.",
+   "zh": "我觉得实现方式很不同。",
+   "ts": "00:26:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Maybe it's the PDF feature, because I use it all the time with Claude.",
+   "zh": "好的。也许是PDF功能，因为我每天都在Claude上用这个功能。",
+   "ts": "00:26:25"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:26:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:26:28"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "That's cool.",
+   "zh": "太酷了。",
+   "ts": "00:26:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Somebody needs to get on that. Main, it's wild how many features you built that I use every day and that many people use every day. This prototyping point you made is really important. It's something that comes up a ton on this podcast also of how that... is maybe the way that AI has most impacted the job of product builders recently is just prototyping instead of going from showing just like, \"Here's a PRD, here's a design.\" PMs are more and more just, \"Here's the prototype with the idea that I have,\" and it's working. You can play with it.",
+   "zh": "得有人去做这件事。总之，你开发的这么多功能，我每天都在用，很多人也每天都在用。这你提到的原型点真的很重要。这在播客里也经常被提起，最近AI对产品构建者工作影响最大的方式，可能就是原型而不是只展示“这是一个PRD，这是一个设计图”。产品经理越来越多地说“这是我原型的想法”，而且效果很好。你可以去玩一玩。",
+   "ts": "00:26:29"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:26:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Okay, I want to spend a little more time on how you operate. So you talked about you built this in launch of this tasks feature, is that the way to describe your tasks?",
+   "zh": "是的。好的，我想多花点时间了解一下你们的运作方式。你们提到是在推出这个任务功能时开发的，这就是你们对任务的定义吗？",
+   "ts": "00:26:55"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:27:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So talk about how that emerged and let's better understand just how you collaborate with product teams and how OpenAI works in that way, whatever you can share there.",
+   "zh": "那就谈谈这个功能是如何诞生的，让我们更好地理解你们如何与产品团队合作，以及OpenAI在这方面的运作方式，如果可以的话，请分享一下。",
+   "ts": "00:27:06"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think Canvas and tasks are going into the bucket of projects where it's more short or medium terms. And actually the way Canvas and tasks came about to be was it started with one person prototyping and creating a spec. It's kind of like PRD. It's like creating a spec of the behavior of the model. I don't think tasks is extremely groundbreaking feature necessarily. What makes it really cool is because the models are so general... Model can now search, they can write sci-fi stories, they can search for stocks, they can summarize the news every day. Because the models are so general giving something familiar to people that notifications is very familiar, having reminders is very familiar. So feeling like a form factor for the people who are very familiar, same as Canvas, Google Docs is very familiar, but then you add magical AI moment and it becomes very powerful. (00:28:26): But the way it comes usually operationally... Yeah, size is like a prototype, literally prompted prototype of how you would want the model to behave. For tasks, for example, you need to design... Literally design thinking is like okay, well, if the user says, \"Remind me to go to lunch at 8:00 AM tomorrow,\" what information does the model need to extract from that prompt in order to create a reminder? And so this is how you design a spec for a new feature, like a tool. Canvas and tasks are all tools. So it's like how do you create the tool stack? (00:29:09): And then it's mostly like developing JSON schema. It was like, \"Okay, from this problem maybe the model should extract the time that the user requested.\" And then you think about which format do you want the time to be? And then how do you want the model to notify you is basically the user should give instruction to the model. And then this instruction would fire off every day or something at that particular time. So, for example, if you say, \"Every day I want to learn know about the latest AI news,\" the model should rewrite into, \"Okay search for the latest AI news and this task will get fired at that particular type that the user requested.\" (00:30:02): And then your design is like tool spec. Actually, I don't know. I feel like sometimes it's through conversations I... Either people ask me to join the [inaudible 00:30:15] team and they're like, \"Oh my god, we need researchers.\" Or like, \"We need some support. We need to train the models,\" or sometimes. Canvas was mostly like I just pitched the idea of... It got staffed quite immediately during the break, so it's dependent on the project. And then usually with staffing is mostly a product manager, model designer, actual product designer, a couple of researchers and a bunch of applied engineers. Depends on the complexity of a project. And then for tasks it took, I don't know, like two months or so to go from zero to one basically.",
+   "zh": "我认为Canvas和任务都属于短期或中期项目的范畴。实际上，Canvas和任务的诞生始于一个人进行原型设计并创建规格说明书的过程。这有点像产品需求文档（PRD），类似于为模型行为创建规格说明书。我不认为tasks是一个极具开创性的功能，但真正让它很酷的是因为模型非常通用……模型现在可以搜索、写科幻故事、搜索股票、每天总结新闻。正因为模型如此通用，人们熟悉的功能，比如通知、提醒等，变得非常重要。（00:28:26）：但这个功能通常是从运营层面开始的……是的，规模化就像一个原型，字面上的原型，展示你希望模型如何表现。以tasks为例，你需要设计……字面上的设计思维是，如果用户说：“提醒我明天早上8点去吃午饭”，模型需要从这个提示中提取哪些信息才能创建提醒？这就是你如何为新功能设计规格说明书的过程，比如一个工具。Canvas和tasks都是工具。所以这就像如何创建工具栈？（00:29:09）：然后主要就是开发JSON模式。比如，“好吧，从这个问题开始，模型应该提取用户请求的时间。”然后你要考虑用户希望时间以什么格式呈现？然后你希望模型如何通知你，基本上用户应该给模型下达指令。然后这个指令会在特定时间每天触发。比如，如果你说：“我每天想了解最新的AI新闻”，模型应该重写成：“好的，搜索最新的AI新闻，这个任务会在用户请求的特定时间触发。”（00:30:02）：然后你的设计就像工具规格说明书。实际上，我不知道。有时候是通过对话……要么是有人邀请我加入[00:30:15不清]团队，他们会说：“天哪，我们需要研究人员。”或者“我们需要一些支持，我们需要训练模型”，有时……Canvas主要是由我提出的想法……在休息期间很快就组建了团队，所以这取决于项目。然后对于tasks，大概花了两个月左右从0到1。",
+   "ts": "00:27:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh wow.",
+   "zh": "哦，哇。",
+   "ts": "00:30:54"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "For Canvas this was like four, five months, I guess, to go from zero to one. And then you teach product managers how to build evals and maybe how do we not only ship the better feature, but how do we think longer term? What kind of cool features did you want tasks to have? I think it would be nice for tasks to be a little bit more personalized. It'd be nice to have to create tasks via voice on a mobile, right? This is how you get research roadmap right here is thinking how the feature will be developed in the future. (00:31:39): And then from there it's like you start getting data sets. With evals, you want to make sure that goes well. And then you need to have a trade-off between what methods you want to use. And the reason why I really love relying purely on synthetic data instead of collecting data from humans is because it's much more scalable, it's cheap, less than half. You literally sample from the model and you teach the core behaviors of the models and that will generalize to all sorts of diverse coverage. (00:32:15): And when you launch the beta feature, you learn so much from the users that you can... All your synthetic sets can be shifted in the distribution and how the users behave on the product behavior. And this is how we improve. And this is what happened with Canvass too when we launched from beta to GA.",
+   "zh": "对我来说，Canvas项目花了大概四五个月时间才从零到一。然后你要教产品经理如何构建评估模型，或许还要教他们如何不仅交付更好的功能，还要具备更长远的思考能力。你们希望任务功能具备哪些酷炫特性？我觉得任务功能可以更个性化一些。比如，能否在移动端通过语音创建任务？这就是如何制定研究路线图的思路——思考未来该如何开发这个功能。（00:31:39）接下来，你会开始收集数据集。针对评估模型，要确保一切顺利。然后你需要在不同方法之间进行权衡。我之所以特别喜欢完全依赖合成数据而非收集人类数据，是因为前者更具扩展性，成本不到后者的一半。你只需从模型中抽样，并教会模型核心行为，这样就能推广到各种不同场景。（00:32:15）当你推出测试版功能时，你能从用户那里获得大量反馈……所有合成数据集的分布和用户在产品上的行为模式都能被调整。这就是我们改进的方式。Canvas项目从测试版到正式上线时也是如此。",
+   "ts": "00:30:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. (00:32:35): This episode is brought to you by Loom. Loom lets you your screen, your camera and your voice to share video messages easily. Record a Loom and send it out with just a link to gather feedback, add context or share an update. So now you can delete that novel link email that you were writing. Instead, you can record your screen and share your message faster. Loom can help you have fewer meetings and make the meetings that you do have much more productive. (00:33:02): Meetings start with everyone on the same page and end early. Problem solved, time saved. We know that everyone isn't a one-take wonder when it comes to recording videos. So Loom comes with easy editing and AI features to help you record once and get back to the work that counts. Save time, align your team, stay connected and get more done with Loom. Now part of Atlassian, the makers of Jira. Try Loom for free today at Loom.com/Lenny. That's L-O-O-M.com/Lenny. (00:33:34): Something that I want to help people understand, and I don't even 100% understand this, is what's the simplest way to understand the job of a researcher versus say a model designer and other folks involved? What's the simplest way to understand what researchers do at OpenAI?",
+   "zh": "好的。（00:32:35）本期节目由Loom赞助。Loom让您能轻松分享视频消息，涵盖屏幕、摄像头和语音内容。录制Loom视频并通过链接发送，即可收集反馈、补充背景信息或分享最新动态。现在您无需再写冗长的邮件链接了。只需录制屏幕并快速分享即可。Loom能帮助您减少开会次数，让会议更高效。（00:33:02）会议开始时所有人信息同步，结束得更早。问题解决了，时间节省了。我们知道录制视频并非一气呵成，所以Loom提供了便捷的编辑和AI功能，助您一键录制后专注核心工作。节省时间、统一团队、保持联系，利用Loom完成更多工作。Loom现已成为Jira的母公司Atlassian旗下产品。立即访问Loom.com/Lenny免费试用。（00:33:34）我想帮助大家理解——虽然我自己也不完全清楚——研究人员、模型设计师及其他相关人员的职责有何不同？如何最简单地理解OpenAI研究人员的工作内容？",
+   "ts": "00:32:34"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "So the project that I described are mostly product-oriented. Research is mostly product research. Another component of my team is actually more longer term exploratory projects. And it's more about developing new methods, understanding those methods under a variety of circumstances. So basically developing methods, you need to follow very similar recipe of building evals but it's much more sophisticated evals. You want to have outer distribution or if you want to measure generalization, you need to capture that. (00:34:26): But it is basically more sciencey in a way where... If we talk about synthetic data, one of the hardest things about synthetic data is how do you make it more diverse? Diversity in synthetic data is one of the most important questions right now. And so it's like exploring ways to inject diversity as a general method that will work for all is one of the research explorations. Other ones is more developing new capabilities. I feel like it's always about you work on this new method and you have signs of life that it's working, either you think of how do you make it more general or you think of how do you make it very useful? And this is how the longer-term projects become more medium, short-term project.",
+   "zh": "因此，我所描述的项目大多以产品为导向。研究工作主要是产品研究。我的团队的另一部分工作实际上是更长期的探索性项目。重点在于开发新方法，并在各种情境下理解这些方法。基本上开发新方法需要遵循与构建评估类似的流程，但评估会更加复杂。例如，如果你想进行外部分布评估或衡量泛化能力，就需要捕捉这些数据。（00:34:26）但从某种意义上说，这更具科学性……如果谈到合成数据，最难的问题之一就是如何让它更具多样性？当前合成数据领域最重要的问题之一就是如何注入多样性。因此，探索如何将多样性作为适用于所有场景的通用方法，是研究探索的重要方向。其他方向则更侧重于开发新能力。比如，你会不断改进新方法，当看到它初见成效时，要么思考如何让它更具泛用性，要么思考如何让它更实用。这就是长期项目如何演变为中短期项目的过程。",
+   "ts": "00:33:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That makes sense. Essentially working on developing ways to make the model smarter, o4, o5, o6. New ways to... o1 was a big breakthrough, right?",
+   "zh": "这说得通。本质上就是致力于开发让模型更智能的方法，o4、o5、o6。新方法……o1是一个重大突破，对吧？",
+   "ts": "00:35:15"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:35:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The way it operates where it's not just, \"Here's your answer,\" it actually thinks and takes time to think through the process of coming up with an answer. Okay.",
+   "zh": "它的运作方式不只是“给你答案”，它实际上会思考，并花时间思考得出答案的过程。好的。",
+   "ts": "00:35:25"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:35:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Very helpful. Speaking of that, of thinking about the future, where things are going, I want to spend some time on just this insight that basically you are building the cutting edge of AI, at the very bleeding edge of where AI is going and where it is. And so I'm very curious to hear just your take on how you think things are going to change in the world and how people work based on where you see things are going. And I know it's a broad question, but let's say in the next three years, how do you see the world changing? How do you see people's way of working changing?",
+   "zh": "非常有帮助。说到未来，事情的发展方向，我想花些时间谈谈你的这个观点——基本上你们正在构建人工智能的前沿技术，处于人工智能发展的最前沿。因此，我很想听听你对世界将如何变化，以及人们将如何基于你所看到的趋势进行工作的看法。我知道这是一个很宽泛的问题，但假设在未来三年内，你如何看待世界的变化？你如何看待人们工作方式的变化？",
+   "ts": "00:35:34"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "It's a very humbling experience to be in both labs, I guess. To me when I first came to Anthropic and I was like, \"Oh no, I really love front-end engineering.\" And then the reason why I switched to research is because I realized at that time it's like, \"Oh my god, Claude is getting better at front-end. Claude is getting better at coding. I think Claude can develop new apps or something and so it can develop new features for the thing that I'm working.\" So it was kind of like this meta realization where it's like, \"Oh my god, the world is actually changing.\" And when we first launched 100K context at that time, obviously I'm thinking about form factors that's like file uploads were very natural, very familiar to people. But you can imagine we could just make infinite chats in the Claude.ai app, as if it's 100K context. (00:37:04): But because file uploads... It's like form follows function. It's like the form factor, the file uploads can enable people to just literally upload anything, the books, any reports, financial and ask any task to the model. And then I remember it was either enterprise customers, financial customers were really interested in that. It's like, \"Oh wow.\" It's actually one of the very common tasks that people do in that setting. It's kind of crazy to see how some of the redundant tasks are getting automated basically by these smart models. (00:37:48): And they're entering the era where, I actually don't know for example sometimes if o1 gives me the correct answer or not because I'm not an expert in that field. And it's like, \"I don't even know how to verify the outputs of the models.\" It's because all my experts know they can verify this. So, yes, so basically there are trends that are going on. The first trend is the cost of reasoning and intelligence is drastically going down. (00:38:22): I had a blog post about this. Maybe I should update on latest benchmarks, because at that time everybody was doing one benchmark and they'd be... quickly saturated the benchmarks. So I'm like, \"Now we need to do the same plot but with another frontier eval.\" But the cost of intelligence is going down because it becomes that much cheaper. Small models are becoming even smarter than large models and that's because of the distillation research. (00:38:56): This happened with Claude 3 Haiku. I was working with the training on the Claude 3 Haiku and I realized it was much smarter than Claude 2, which was way bigger, lots [inaudible 00:39:08]. But the power of small models become very intelligent and fast and cheap. We are moving towards that world. That has multiple implications, but the news is that people will have more access AI and that's really good. Builders and developers will have much better access to AI, but also it means all the work that has been bottlenecked by intelligence will be unblocked. (00:39:40): I'm thinking about healthcare, right? Instead of going to a doctor, I can ask ChatGPT or give ChatGPT a list of symptoms and ask me, \"Would I have a cold, flu, something else?\" I can literally get the access to doctor almost. And there's been some research studies around that.",
+   "zh": "身处这两个实验室的体验真是令人谦卑。我记得刚到Anthropic时，心里想：“天哪，我太喜欢前端工程了！”但后来我转向研究领域，是因为意识到Claude在前端和编码方面越来越强。我觉得它能开发新应用，甚至为我正在开发的项目增添新功能。这让我突然意识到，世界真的在发生变化。当时我们首次推出10万上下文数据集时，显然我还在考虑用户体验，比如文件上传功能对用户来说非常自然、熟悉。但你可以想象，在Claude.ai应用中实现无限对话功能，就相当于拥有10万上下文数据集。（00:37:04）但由于文件上传功能……形式服从功能。文件上传的形式能让人们上传任何东西——书籍、报告、财务文件，并向模型提出任何任务。记得当时企业客户、金融客户对此特别感兴趣。他们惊呼：“哇塞！”这实际上是该领域中非常常见的任务。看到一些重复性任务被智能模型自动化处理，真是令人惊叹。（00:37:48）他们正步入一个新时代。说实话，有时我甚至分辨不清O1给出的答案是否正确，因为我并非该领域专家。我甚至不知道如何验证模型输出的准确性。这是因为所有专家都确信自己能完成验证。是的，趋势正在显现。首要趋势是推理和智能成本急剧下降。（00:38:22）我曾写过一篇博文讨论这个问题。或许我该更新最新基准数据，因为当时大家都在做一个基准测试，很快就达到饱和状态。所以我不得不换用另一套评估框架。但智能成本在不断降低，因为模型变得更小巧、更智能。这得益于蒸馏研究。（00:38:56）Claude 3 Haiku就是例子。我参与Claude 3 Haiku的训练工作，发现它比体量大得多的Claude 2还要智能得多。这说明小模型正变得比大模型更强大、更快、更便宜。我们正朝着这个方向发展。这带来诸多影响，但好消息是人们将能更便捷地获取AI服务，这确实很棒。开发者和工程师将能更好地使用AI，但这也意味着所有被智能技术阻碍的应用场景将迎来突破。（00:39:40）比如医疗领域吧？用户不必去看医生，而是可以问ChatGPT，或者给它一份症状列表，让它判断自己是感冒、流感还是其他疾病。人们几乎能获得和医生一样的诊断服务。此前已有相关研究证明，ChatGPT诊断比医生更准确。",
+   "ts": "00:36:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There was a New York Times story about that where they compared doctors to doctors using ChatGPT to just ChatGPT and just ChatGPT was the best of them. All doctors made it worse.",
+   "zh": "《纽约时报》曾报道过相关案例，将医生与仅使用ChatGPT的医生进行对比，结果发现ChatGPT表现最佳。所有医生都把情况搞砸了。",
+   "ts": "00:40:05"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, that's crazy. Yeah. Yeah, that's crazy, right? Education I think I would have dreamt if I had the tool like ChatGPT when I was young and would learn so much. But it's like people can now learn almost anything from these models. So they can learn new language, they can learn how to build new look apps and write anything they do want. It's humbling to have... launch Canvas and bring that thing to the people, enable them to do something else that they couldn't have ever before. There's something magical around this experience. (00:40:57): Education will have massive implications. I guess like scientific research, I think it's the dream of any AI research is to automate AI research. It's kind of scary, I'd say, which makes me think that people management will stay. It's one of the hardest thing to... Emotional intelligence with the models, creativity in itself is one of the hardest things. So writers, I don't think people should be worried as much. I think will alleviate a lot of redundant tasks for people.",
+   "zh": "是啊，这太不可思议了。是啊。这也太不可思议了，对吧？说到教育，如果我年轻时能用到像ChatGPT这样的工具，我觉得自己肯定会梦到能学到很多东西。但现在人们几乎能从这些模型中学会任何东西。他们能学习新语言，能学会如何开发新型的应用程序，还能写出任何他们想写的东西。能推出Canvas并将这种技术带给大众，让人们能做以前做不到的事情，这真是令人惊叹。这段经历充满魔力。\n\n（00:40:57）：教育将产生深远的影响。我想对于科学研究来说，自动化AI研究是每个AI研究者的梦想。这有点令人担忧，这让我觉得人员管理的重要性依然存在。这是最难的事情之一……模型所需的情感智能，创造力本身就是最难的事情之一。所以作家们，我觉得大家不必太担心。对于人们来说，这会减轻很多重复性任务。",
+   "ts": "00:40:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is awesome. Okay, I want to follow this thread for sure. And it's funny that what you described as you were an engineer at Anthropic and you're like, \"Okay, Claude is going to be very good at engineering. This isn't going to be a potentially career long term, so I'm going to move into research and AI is going to need me for a long time to build it, to make it smarter.\"",
+   "zh": "这太棒了。好的，我肯定会持续关注这个话题。有趣的是，你之前提到自己在Anthropic担任工程师时曾说过：“好吧，Claude在工程方面会非常出色。但这可能不会成为我职业生涯的长期方向，所以我要转向研究领域，而AI需要我很长时间来开发，让它变得更智能。”",
+   "ts": "00:41:34"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I would say we still have... I think Canvas team has still have really cool front engineers that are really people who really care about interaction, design, interacting experience. I don't think models are there yet I think if... But we can get the models to this top 1% of front-ends and things for sure.",
+   "zh": "我认为我们仍然有……我觉得Canvas团队仍然有非常出色的前端工程师，他们非常关注交互、设计和用户体验。我觉得模型目前还达不到这个水平，但如果……但我们肯定能让模型达到前端的1%顶尖水平。",
+   "ts": "00:41:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So what I want to move on to next along these lines is just, and this is just speculation, but what skills do you think will be most valuable going forward for product teams in particular? So folks are listening and they're like, \"Okay, this is scary. What should I be building now to help me stay ahead and not be in trouble down the road?\" What skills do you think are going to be more and more important to build?",
+   "zh": "接下来我想谈谈这个话题，这只是我的猜测，但你认为对于产品团队来说，未来最有价值的技能会是什么？听众们可能会想：“好吧，这太可怕了。我现在应该开发什么才能保持领先，避免将来陷入困境？”你认为哪些技能会变得越来越重要？",
+   "ts": "00:42:16"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, I think creative thinking. You want to generate a bunch of ideas and filter through them and not just build the best product experience. Listening. You want to build something that the most general model will not replace you. And oftentimes you build something and you make it really, really good for specific set of users and actually the mode is now in your user feedback. The mode is more in whether you listen to them, whether you can rapidly iterate. The mode is in here. I don't think we are yet to... There are so many ideas, I think there's an abundance of ideas that you can work on. I wouldn't be worried. I feel like in fact I just think people in AI field are like... I wish they were a little bit more creative and connecting the dots across the print fields or something like that to develop really cool new generation and new paradigms of interactions with this AI. (00:43:53): I don't think we've cracked this problem at all. A couple of years ago I was telling some people, I was like, \"You want to build for the future.\" So it's like it doesn't necessarily matter whether the model is good or not, good right now, but you can build product ideas such that by the time the models will be really good, it'll work really well. I think it just happened naturally. For example, at Anthropic the Claude artifacts... And I feel early days of Canvas was, back in 2022 before ChatGPT, writing ideas was our knowledge [inaudible 00:44:36]. But I feel like Claude 1.3 model itself was not there to have made really extreme good high quality edits. For example, like coding. (00:44:47): And I feel like I see startups like Kaeser was doing super well. And that's because they iterate so fast. They invent new ways of training models. They move really fast. They listen to what users like, massive distributions. Yeah, it's kind of cool.",
+   "zh": "是的，我认为创造性思维很重要。你需要生成大量想法，并进行筛选，而不仅仅是打造最佳的产品体验。倾听用户需求也很重要。你要开发出即使最通用的模型也无法取代的产品。很多时候，你开发出某个产品，为特定用户群体提供了极佳体验，但现在模型已经融入了用户反馈中。关键在于你是否善于倾听用户需求，是否能快速迭代。这些才是核心要素。我觉得我们尚未完全解决这个问题。目前有很多创意想法，我认为不必过于担忧。事实上，我觉得人工智能领域的人应该更具创造力，比如能跨领域整合不同领域的知识，开发出真正酷炫的新一代交互范式和人工智能应用模式。（00:43:53）：我认为我们根本没有攻克这个问题。几年前我曾告诉一些人，“要为未来而设计”。所以模型是否优秀、当前是否出色并不重要，但你可以构建产品理念，让模型在真正强大时能完美运作。我觉得这都是自然而然的结果。比如在Anthropic，Claude模型的输出……而Canvas早期阶段（2022年ChatGPT问世前），写作创意还只是我们的知识库[00:44:36]。但Claude 1.3模型本身并未达到极高编辑质量的标准，比如在编程领域。（00:44:47）：我觉得像Kaeser这样的初创公司做得非常出色。这是因为他们迭代速度极快，发明新的模型训练方法，行动迅速，善于倾听用户需求，拥有海量数据。确实很酷。",
+   "ts": "00:42:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's really helpful actually. So what I'm hearing is that soft skills essentially are going to be more and more important, powerful. You just talked about management, leading people, being creative and coming up with innovative insights, listening. There's a post I wrote that I'll link to where I try to analyze how AI will impact product management. And we're actually very aligned, and my sense was the same thing, that soft skills are going to become more and more important. And the things that are going to be replaced is the hard skills, which is interesting because usually people value the hard skills like coding, design, writing really well. And it's interesting that AI is actually really good at that because it's taking a bunch of data, synthesizing it and writing, creating a thing, versus all these fuzzy things around of what influences, convinces people to do things and aligning and listening, like you said, creativity, anything along those lines come up as I say that.",
+   "zh": "这真的很有启发。听你讲的，软技能将变得越来越重要、越来越关键。你刚刚提到的管理、领导力、创造力和创新思维，还有倾听用户需求。我写过一篇文章，链接给你，我试图分析AI将如何影响产品管理。我们观点非常一致，我的看法也是软技能将越来越重要。而被取代的将是硬技能，这很有趣，因为人们通常更看重硬技能，比如编程、设计、写作等。有趣的是，AI在这些硬技能上表现出色，它能处理大量数据、进行综合分析和生成内容，但在影响用户行为、说服用户做事、协调沟通、倾听用户需求等模糊领域，软技能反而更重要，正如你所说。",
+   "ts": "00:45:08"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think it's actually a really, really hard to teach the model how to be aesthetic or do really good visual design or how to be extremely creative in the way they write. I still think ChatGPT kind of sucks at writing and that's because it's bottlenecked by this creative reasoning. I think characterization is one of the most important... I think for a manager, I feel like... (00:46:28): Actually, AI research progress is bottlenecked by management, research management. It's because you have constrained set of compute and you need to allocate the compute to the research paths that you feel the most convinced about. It was like you need to have a really high conviction in the research paths to put the compute, and it's more return on investment kind of situation. It's like, \"Okay, I'm thinking a lot about across all my projects, which projects are higher priority?\" Prioritization and also on the lower level, \"Which experiments are really important to run right now and which are not?\" and cut through the line. So I was thinking prioritization, communication, management. People skills like empathy, understanding people, collaboration. (00:47:23): I think Canvas wouldn't be an amazing launch if it wasn't about people and I think it's a wonderful group of people. And I get a chance to work with people like Lee Byron who's a co-creator at GraphQL and some of the best Apple designers. It's so cool to see... and how do you create this collaboration between people. It's just something that's still humane, I think.",
+   "zh": "我认为，要教会模型具备审美能力、出色的视觉设计能力，或者在写作方面极具创造力，其实真的非常、非常困难。我仍然觉得ChatGPT在写作方面表现不佳，原因在于它受限于创造性推理的瓶颈。我认为角色塑造是最重要的……对管理者而言，我觉得……（00:46:28）：实际上，人工智能研究的进展受限于管理层，特别是研究管理层。这是因为计算资源有限，你需要将计算资源分配到你最有信心的研究路径上。你必须对研究路径有极高的信心才会投入计算资源，这更像是一种投资回报率的考量。比如，你需要在所有项目中仔细思考哪些项目优先级更高？优先级排序，以及在更细微的层面上，哪些实验现在必须开展，哪些可以暂缓？从而筛选出重点项目。所以我认为优先级排序、沟通和管理很重要。人际交往技能，比如同理心、理解他人、合作能力等也很重要。（00:47:23）：我觉得如果Canvas不是一个以人为本的产品，它就不会如此成功。我认为这是一个很棒的团队。我有机会与Lee Byron这样的人合作，他是GraphQL的共同创造者，还有一些苹果公司的顶尖设计师。看到他们之间的合作真是太棒了……而如何在人与人之间建立这种协作关系，仍然是需要人性化处理的事情，我认为。",
+   "ts": "00:46:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me just follow through a little bit. I imagine people listening are like, \"Okay, but once we have AGI or SGI it's like it'll do all this.\" There's a world where like, \"Why isn't all this done?\" I think it's easy to just assume all that. I'm curious this idea of creativity and listening, why you think AI isn't good at it, other than it's just very hard to train it to do this well. Is there anything there of just why this is especially difficult for AI and LLMs to get good at?",
+   "zh": "让我稍微展开一下。我能想象听众会想：“好吧，但一旦我们拥有通用人工智能（AGI）或强人工智能（SGI），它就能处理所有这些问题了。” 但总有人会问：“为什么这些问题还没被解决呢？” 我觉得人们很容易就想当然地认为所有这些问题都能被解决。我很好奇你提到创造力和倾听能力，为什么你认为AI在这方面不擅长，除了训练它做好这件事太难之外？还有其他什么原因让AI和大语言模型（LLM）在这些方面特别难以做到出色？",
+   "ts": "00:47:52"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think currently it's difficult for many reasons. I think it's still an active research area and it's something that I think my team is working on. It's like, \"Okay, how do we teach the models to be more creative in the writing?\" And so I'm thinking this new paradigm of wise that the models think more should actually lead to better writing in itself. But when it comes down to idea generation or discriminating of what is a good visual design or not, I feel like it hasn't had learned examples from people to discriminate it very well. I do think it's because there are not that many people who are actually really... It's not accessible to models to learn from these people I guess. So I definitely think that's why it sucks.",
+   "zh": "我认为目前有很多原因导致这很困难。我认为这仍然是一个活跃的研究领域，也是我的团队正在努力攻克的难题。比如，“如何教会模型在写作中更具创造力？” 我认为新的范式——让模型更多地思考——本身应该能带来更好的写作效果。但当涉及到创意生成或判断一个设计是否优秀时，模型还没有从人类身上学习到足够的例子来准确判断。我确实认为这是因为真正具有创造力和审美能力的人太少了。我猜模型无法从这些人身上学习，所以我确实认为这很糟糕。",
+   "ts": "00:48:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that makes sense. Basically there's not enough of you yet, researchers teaching it to do these things, slash people that have incredible taste and creativity that can teach these things. You could argue this will come.",
+   "zh": "是的，这说得通。基本上就是现在研究者太少了，没人教它做这些事，或者说有创造力和审美能力的人太少了，没人教它这些。你可以说这些问题会逐渐解决的。",
+   "ts": "00:49:19"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "00:49:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But we don't need to keep going down that thread. Let me ask you a specific question. In this post I wrote, I made this argument that a lot of people disagreed with that strategy is something that AI tooling will become increasingly great at and take over. There's the sense that that's the thing that people will continue to be much better at and you can't offload to AI basically developing your strategy, telling you what to do to win. My case is, \"Isn't strategy, just take all the inputs, all the data you have available, understand the world around you and come up with a plan to win?\" It feels like AI and LLM would be incredibly smart at this. What's your take?",
+   "zh": "不过我们没必要再继续讨论这个话题了。让我问你一个具体的问题。在我写的这篇帖子中，我提出了一个观点：许多人不认同这样一种策略——即让AI工具变得越来越擅长接管这项工作。人们总觉得，制定策略仍然是人类最擅长的事情，你不能把制定策略、告诉你如何取胜的任务外包给AI。我的观点是，\"策略不就是综合所有输入、利用现有数据、理解周围环境，然后制定获胜计划吗？\"我觉得AI和大语言模型在这方面会非常出色。你怎么看？",
+   "ts": "00:49:31"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think so too. I think again, you teach the model all sorts of tools and capabilities and reasoning and it's like when it comes down to... For Canvas right now, it would be very cool for the model just aggregate all the feedback from users, summarize me the top five most painful flows on user experiences. And then the model itself is very capable of thinking of knowing how it's been made, figure out how to create a dataset for itself to train on it. And I don't think that we are far away from that self-improvement, models becoming self-improved by... (00:50:54): That, and the part of development, is basically self-improving. It's kind of like its own organism or something. Again, like strategies, it's more like data analysis and coming up with... I think what models are really good at is connecting the dots, I think. It's like if you have user feedback from this source, but you also have an internal dashboard with metrics and then you have other feedback or input and then it can create a plan for you, recommendations even. And I think this is one of the most common use cases for ChatGPT too, is coming up with these sort of things.",
+   "zh": "我也这么认为。我觉得，再次强调，当你教给模型各种工具、能力和推理能力时，当涉及到……就拿Canvas来说，如果模型能汇总用户的所有反馈，给我总结用户体验中最痛苦的五个流程，那就太棒了。而且模型本身就非常善于思考——它能了解自己的构建方式，知道如何为自己创建数据集用于训练。我觉得我们离模型自我改进不远了，模型会逐渐自我提升……（00:50:54）：还有开发部分，本质上也是自我改进。它就像一个自组织的实体。回到策略层面，更多的是数据分析和方案制定。我认为模型真正擅长的是连接各个点，比如你从这个来源获得用户反馈，同时你还有一个内置的指标仪表盘，然后再加上其他反馈或输入，它就能为你制定计划，甚至给出建议。这也是ChatGPT最常见的用例之一。",
+   "ts": "00:50:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That makes sense essentially a human can only comprehend so much information at once and look at so much data at once to synthesize takeaways. And as you said, these context windows are huge now. Here's all the information, what's the most important thing I should do?",
+   "zh": "确实，人类一次只能理解和处理有限的信息量。正如你所说，这些上下文窗口现在非常大。所有信息摆在面前，最重要的是我该做什么？",
+   "ts": "00:51:47"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, same as scientific research. Ideally the model would be able to suggest ideas, new ideas, or iterate on the experimental given the empirical results of the previous experiments like how do you come up with new ideas or the methods?",
+   "zh": "是的，和科学研究一样。理想情况下，模型应该能够根据之前实验的实证结果，提出新想法或迭代实验方案，比如如何产生新想法或方法？",
+   "ts": "00:51:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Oh, man. Okay, so just to close the loop on this conversation, this part of the thread is the skills you're suggesting people focus on building and leaning into is soft skills like creativity, managing influence, collaboration, looking for patterns. Is that generally where your mind is at?",
+   "zh": "是的。天啊。所以来总结一下这段对话，这个讨论的核心是，你建议人们应该专注培养的技能是软技能，比如创造力、影响力管理、协作、寻找模式。总的来说，你的关注点在这些方面吗？",
+   "ts": "00:52:18"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, I'm thinking a lot about how do we make organizations more effectively and I think this is mostly management, I guess. It's like how do you organize research teams or generally teams combined... Compose teams such that they will be at their maximally succeed or at the maximal performance of what can possibly... We can literally create the next generation of computers. It's just the matter of conviction and the way you manage through that. It's scaling organizations or scaling product research, I guess.",
+   "zh": "是的，我一直在思考如何让组织更高效，我觉得这主要涉及管理层面吧。比如如何组织研究团队，或者更广泛地说，如何组建团队……组建一个能最大限度地成功或发挥潜力的团队……我们甚至可以创造下一代计算机。关键在于信念和管理方式。无论是扩展组织规模还是产品研究，我想都是如此。",
+   "ts": "00:52:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I think you're basically building this thing and not efficiently doing it is limiting the potential of the human species right now.",
+   "zh": "是啊，我觉得你们目前正在构建的这个系统，如果效率不高，就会限制人类物种的潜力。",
+   "ts": "00:53:15"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Right.",
+   "zh": "没错。",
+   "ts": "00:53:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's mismanagement within the research team in OpenAI and Anthropic and some of these other models.",
+   "zh": "这是OpenAI和Anthropic等研究团队内部管理不善的问题。",
+   "ts": "00:53:26"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, it's kind of crazy to think about it.",
+   "zh": "是啊，一想到这事儿就觉得挺不可思议的。",
+   "ts": "00:53:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Holy moly. Okay, so speaking of Anthropic and OpenAI, you've worked at both. Very few people have worked at both companies and have seen how they operate. I'm curious just what you've noticed about the differences between these two, how they operate, how they think, how they approach stuff. What can you share along those lines?",
+   "zh": "天哪。说到Anthropic和OpenAI，你在这两家公司都工作过。在这两家公司工作过并了解其运作方式的人很少。我很好奇你观察到这两家公司在哪些方面存在差异，比如运营方式、思维模式、处理问题的方式等等。能否分享一下你的见解？",
+   "ts": "00:53:33"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "It's more similar than different. Obviously there was a lot of... There are some differences always comes to nuances. I would say culture. I really love Anthropic and I have a lot of friends there. And I also love OpenAI and they still have a lot of friends though. So it's not about enemies. I feel like there's in AI, it's all like, \"Yeah, they're competitors. There's enemies.\" It's actually like one big community of people doing the same thing. I would say what I've learned from Anthropic is this real care and craft towards model behavior, model craft, model training. (00:54:32): And I've been thinking a lot about, \"Okay, what makes Claude Claude and what makes ChatGPT ChatGPT?\" And it's like I still have some sense of operational processes that leads to the outputs, to the model. It's the outputed model. And it's like the reason why Claude has so much more personality and is more like a librarian... I don't know. I don't know. I am visualizing Claude being like a librarian at some point, very nerdy or something. ... is because I feel like it's the reflection of the creators who are making this model. And a lot of details around the character and the personality and whether the model should follow up on this question or not. (00:55:19): What's the correct ethical behavior for the model in these scenarios? A lot of crafts and curated datasets. This is where I learned that part of art, I guess, at Anthropic. I would say Anthropic is much smaller. When I joined it was, what, like 70 people? When I left it was tons of people. And obviously the culture changed so much. I really enjoyed being early days startup lives, and people knew each other as a family. But the culture shifted. (00:55:53): I would say that I learned from Anthropic that they're much better at focusing and prioritization of... Very hardcore prioritization, I guess. And they need to do it. But I think OpenAI's much more innovative and much more risk-takers in terms of product or research. Actually, in way your full-time job can be just teaching the model how to be creative writers. And it's like there's some luxury in this research freedom that comes with scale, maybe. I don't know. I'd say I have much more creative product freedom to do almost anything, I guess, within OpenAI, evolve ChatGPT into the vision that we want. It's more probably bottoms-up, I guess.",
+   "zh": "它们的相似之处多于不同之处。显然存在一些细微差别，比如文化差异。我真的很喜欢Anthropic，在那里有很多朋友。不过我也喜欢OpenAI，那里也有很多朋友。所以这不是敌对关系。在AI领域，人们总说\"他们是竞争对手，是敌人\"，但实际上这是一个共同体，大家都在做同样的事情。我从Anthropic学到的是对模型行为、模型训练的精心打磨。（00:54:32）：我一直在思考，\"是什么让Claude成为Claude，ChatGPT成为ChatGPT？\"我觉得这和操作流程有关，最终决定模型的输出。模型本身的输出很重要。比如Claude为什么有更强的个性，像个图书管理员……我不知道。我能想象Claude在某些时候像个书呆子……这可能是因为模型创造者的个人风格所致。比如角色性格的设定，模型是否应该回应某个问题等细节。（00:55:19）：在这些场景中，模型的正确伦理行为是什么？这需要大量精细打磨和精心挑选的数据集。这也是我在Anthropic学到的艺术部分。我得说Anthropic规模小得多。我加入时大概只有70人，离开时人数激增，文化也发生了巨大变化。我很享受初创公司的早期生活，同事们亲如一家。但文化变了。（00:55:53）：我从Anthropic学到的是，他们更善于专注和优先处理事务……我想说他们非常注重优先级划分，而且必须做到这一点。但OpenAI在产品或研究方面更具创新性和冒险精神。实际上，在OpenAI，全职工作可能就是教模型如何成为创意作家。这里或许有规模带来的研究自由度，我不知道。我觉得在OpenAI，我有更大的创意产品自由度，可以几乎无拘无束地把ChatGPT发展成我们理想中的模型。可能更像是自下而上的发展。",
+   "ts": "00:53:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that's how I was thinking about it. It feels like OpenAI is more bottoms-up, distributed, people bubble up ideas, try stuff. And that leads to more products launching, I imagine more things just kind of being tried versus more of a, \"Let's just make sure everything we do is awesome and great and craft and thinking deeply about every investment.\"",
+   "zh": "是啊，我之前就是这么想的。OpenAI 似乎更注重自下而上、分布式开发，人们会不断涌现创意，尝试各种新方案。这也促成了更多产品的推出，我想相比于那种“确保我们做的一切都完美无缺、精心打磨、深思熟虑每个投资决策”的模式，这里更多的是去尝试新事物。",
+   "ts": "00:56:51"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Right.",
+   "zh": "对啊。",
+   "ts": "00:57:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's really interesting. I've never heard it described this way. Karina, we've covered so much ground. This is going to help a lot of people with so many ways of thinking about where the future's going. Before we get to our very exciting lightning round, I'm curious if there's anything else that you think might be helpful to share or get into?",
+   "zh": "这真的很有趣。我从未听过这样的解读。卡琳娜，我们已经探讨了这么多内容。这对许多人思考未来发展方向会有很大帮助。在我们进入激动人心的闪电问答环节之前，我很好奇你是否还有其他值得分享或深入探讨的见解？",
+   "ts": "00:57:08"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "One of my regrets, I guess, when I was early days at Anthropic was that... I think there was some luxury of the time, because pre-ChatGPT, to actually come in with a bunch of ideas and prototype almost every day. And I think that we did a lot of cool ideas like Claude, and Slack was actually one of the first tool-usey products. It's like Claude could operate in your workplace now. It's kind of cool because you can add Claude to summarize the thread. So maybe you have an entire conversation with someone and then you want a summary of what happened you can ask Claude, \"Summarize this.\" (00:58:07): Also, it was really fun to iterate on the model itself. It's like when you just talk to the model in Slack forever. It created some social element, it was kind like [inaudible 00:58:19] and this Discord, people learned so much about prompting and how to work with Claude. Actually, one of the features that was early tasks prototype is every Monday Claude would just summarize the entire channel. Or every Friday we'd just summarize a bunch of channels and give the news about the organization, or something. (00:58:48): And it's kind of like really cool form factor. I think thinking about form factor's a really important question in AI, especially we haven't even figured out how do we create an awesome product experience with o-series models. It's like the paradigm between synchronous real time give an answer paradigm into more asynchronous paradigm of agents working on the background. But then now the question is the agents should build trust with you, right? And trust builds over time, which is like with humans. And you start this collaboration which is why this collaboration model with you and the model is so important because you build trust and the model learns from your preferences so that it can become more personalized and it will start predicting the next action that you want to take on the computer or something. And it's more predictive, much more... We went from personal computers to personal model basically here.",
+   "zh": "我觉得我在 Anthropic早期阶段的一个遗憾是……当时因为 ChatGPT 之前的技术限制，我们有更多时间去尝试各种想法，几乎每天都在做原型测试。比如我们开发了 Claude 这样的产品，Slack 也是最早的工具型产品之一。现在 Claude 甚至可以应用于职场场景——你可以在 Slack 里添加 Claude 来总结对话内容。这真的很酷，因为你可以让 Claude 总结整个对话流程。（00:58:07）此外，迭代模型本身也非常有趣。比如在 Slack 里不断与模型对话时，会产生社交互动效应，人们在 Discord 里学习如何设置提示语、如何与 Claude 协作。实际上，早期原型中的一个功能是每周一让 Claude 总结整个频道内容，或者每周五汇总多个频道信息并发布组织动态等。这确实是一种很酷的交互方式。我认为思考交互形式在人工智能领域非常重要，尤其是我们至今还没弄清楚如何利用 O-Series 模型打造出卓越的产品体验。比如从同步实时回答范式，转向更异步的智能体后台处理范式。但现在的问题是，智能体需要与用户建立信任，对吧？信任是随着时间建立的，就像人与人之间的信任一样。这种协作模式至关重要，因为信任能让模型学习你的偏好，从而实现个性化推荐，预测你的下一步操作。比如从个人电脑时代到个人模型时代的转变。",
+   "ts": "00:57:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Why is it not a thing? That seems like such an obvious feature that every LLM should have as a Slack bot version of them. Is that a thing I can help you install? Or is that not a thing right now?",
+   "zh": "为什么这项功能没能推广？这似乎应该是每个 LLM 都应该具备的功能，比如 Slack 版的 Claude 机器人。你能帮我安装这个功能吗？还是说现在根本不存在这个功能？",
+   "ts": "00:59:54"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I know that Claude and Slack was sunset in 2023 or something. I think it was after ChatGPT was mostly the focus on customer use cases or enterprise use cases.",
+   "zh": "我知道 Claude 和 Slack 项目在 2023 年左右被停掉了。我觉得那是在 ChatGPT 主导客户应用或企业场景之后。",
+   "ts": "01:00:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm. Bummer.",
+   "zh": "嗯，真可惜。",
+   "ts": "01:00:17"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think the form factor of Claude and Slack was kind of constrained a little bit when you want to talk about new features.",
+   "zh": "我觉得Claude和Slack的形态在你想谈论新功能时受到了一定的限制。",
+   "ts": "01:00:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bummer. I want that.",
+   "zh": "真可惜。我想要那个功能。",
+   "ts": "01:00:28"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I know that ChatGPT had Slackbar tools. I don't know, maybe it will come back sometime.",
+   "zh": "我知道ChatGPT有Slackbar工具。但我不知道，也许它会再次回归。",
+   "ts": "01:00:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, I would pay for that. Any other memories from that time of early days? Because that's a really special place to have been is early days Anthropic. Any other memories or stories from that time that might be interesting to share?",
+   "zh": "好吧，我愿意为此付费。那个早期阶段还有其他回忆吗？因为Anthropic的早期阶段确实是一个很特别的时期。还有其他那个时期的回忆或故事，可能值得分享吗？",
+   "ts": "01:00:35"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think the very first launch when we felt... When click from use, again, was 100K context launch is when the models could input the entire book and give you a summary of the book or something. Or the financial... or catalog multi files financial reports and then give you an answer to the question, to very specific questions. I think there was something in there that was kind like, \"Oh my god, this is a really cool new capability.\" Not model capability, but more like the capabilities that came from the product form factor itself rather than the model capability as much. (01:01:34): I think other prototypes that we were thinking about... There's one part having a Claude workspaces and it's kind of the same idea of Claude and I would have this shared workspace and that share workspace is like a document and we can iterate on the document. And I feel like sometimes the ideas, [inaudible 01:01:55] and they're locked for two years, just like in this case.",
+   "zh": "我认为最初的发布时，我们感到……当用户点击时，当时的模型只能处理10万个上下文的窗口。也就是说，用户可以上传一本书，让模型总结书的内容，或者处理财务报告之类的多文件内容，然后回答具体的问题。我觉得当时有一种感觉，\"天哪，这真是一个很酷的新功能。\"这不是模型的能力，而是产品形态本身带来的功能改进，而不是模型本身的进步。（01:01:34）：我们当时还考虑过其他原型……有一个Claude工作区的主意，类似于Claude的概念，我们可以共享一个文档工作区，用户可以在文档中进行迭代。但有时候这些想法会被搁置两年，就像这次的情况一样。",
+   "ts": "01:00:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting, there's these milestones that kind of open up our view of what is happening and where things are going. ChatGPT think was the first of just like, \"Wow, this is much better than I would've thought.\" You talked about 100K context windows where you could upload a book and ask it questions and have it summarize. I actually use that all the time. When I have interview guests and they wrote a book, I sometimes don't have time to read the whole book. So I use it to help me understand what the most interesting parts are. And then I actually dive into the book, just to be clear. And then, I don't know, maybe voice was another one where you could talk to say ChatGPT. Is there any other moments there that you're like, \"Wow, this is much better than I thought it was going to be?\"",
+   "zh": "很有趣的是，这些里程碑会打开我们的视野，让我们看到正在发生什么，未来会走向哪里。ChatGPT是第一个真正让人惊叹的东西，\"哇，这比我想象的要好得多\"。你提到10万个上下文的窗口，你可以上传一本书并提问，让模型总结内容。我现在经常用这个功能。当我采访嘉宾时，他们写了一本书，但我没有时间读完整本书，所以我用这个功能帮助我理解最有趣的部分，然后再去仔细阅读整本书。还有语音功能，你可以和ChatGPT对话。还有其他哪些时刻让你感叹，\"天哪，这比我想象的要好得多？\"",
+   "ts": "01:02:00"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, I think the computer use agents, like the model operating the desktop. And you can essentially think of new kind of experience where the model can learn the way you browse. And from that preference it can just browse as just like you. It's kind of simulated persona. And it's actually very similar to the idea of like, \"Okay, maybe Sam Altman doesn't have a lot of time. Maybe I want to talk to his simulation and ask...\" Or, for example, I really appreciate some of the technical mentorship. Yeah, cool. But he doesn't have a lot of time so it's like I really want to ask him this questions. How do you respond with simulated environments like this would be really cool.",
+   "zh": "是的，我认为计算机使用代理，比如模型操作桌面。你可以想象一种新体验，模型可以学习你的浏览习惯。基于你的偏好，它可以像你一样浏览。这是一种模拟的人格化体验。实际上这和模拟Sam Altman的想法很相似，比如，\"好吧，也许Sam Altman没有太多时间。我想和他的模拟版本对话并提问……\"或者，例如，我真的很欣赏一些技术指导。是的，很酷。但他没有太多时间，所以我真的很想问他这些问题。用这种模拟环境来回应会很酷。",
+   "ts": "01:02:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a great place to plug Lennybot, have one of those. It's trained on all of my podcasts and newsletters.",
+   "zh": "这是一个推广Lennybot的好机会，让它加入进来。它已经在我所有的播客和新闻通讯上进行了训练。",
+   "ts": "01:03:37"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Oh, cool.",
+   "zh": "哦，真酷。",
+   "ts": "01:03:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It sits on many models. I don't know which exactly they use, but it's exactly that. And it's not even me, it's all the guests that have been on the podcast and on newsletter as I wrote. And you could just ask it, \"How do I grow my product? How do I develop a strategy?\" And it's actually shockingly good.",
+   "zh": "它被应用于许多产品中。我不知道具体用在哪些产品上，但确实是这样的。甚至这也不是我的主意，而是所有做客播客和订阅通讯的嘉宾们提出的需求。你只要问它：“如何推广我的产品？如何制定战略？”它的回答简直令人惊叹。",
+   "ts": "01:03:43"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Do you feel like it reflects who you are?",
+   "zh": "你觉得它能反映出你的个性吗？",
+   "ts": "01:03:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:03:58"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Or would it be... Okay.",
+   "zh": "或者说……好吧。",
+   "ts": "01:03:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The best part of it is you can talk to it. There's an ElevenLabs voice version that's trained on my voice from this podcast, and it's actually very good and people have told me they sit there for hours talking to it.",
+   "zh": "最棒的是你可以和它对话。ElevenLabs开发的语音版本是基于我在这档播客中的声音训练的，效果非常好，很多人告诉我，他们会花好几个小时和它聊天。",
+   "ts": "01:04:01"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Wow.",
+   "zh": "哇。",
+   "ts": "01:04:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And somebody told it, \"Interview me like I am on Lenny's podcast, ask me questions about my career.\" And he did a half hour podcast episode with Lennybot.",
+   "zh": "有人对它说：“像我在Lenny的播客里那样采访我，问我职业生涯的问题。” 结果他和Lennybot做了一期半小时的播客节目。",
+   "ts": "01:04:15"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Oh my god, that's so fun.",
+   "zh": "天哪，太有趣了。",
+   "ts": "01:04:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's incredible. Future is wild.",
+   "zh": "太不可思议了。未来真是不可预料。",
+   "ts": "01:04:27"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah. I think content transformation is... I would imagine sometime when you generate a sci-fi story in Canvas, you can transform this into audiobook where you have very natural content transformation of one media to another media. I think one of my earliest inspiration is one of the last episodes of Westworld where, I don't want to spoil, but where Dolores comes to her work at that time and she comes to this new workspace and she starts writing a story. And then as she writes a story, a 3D, virtual reality, starts creating on the fly. So I kind of want to create that. Kind of cool.",
+   "zh": "是的。我认为内容转换……比如说，有一天你用Canvas生成一个科幻故事，然后把它转化成有声书，从一种媒体到另一种媒体的自然转换。我最早的灵感之一是《西部世界》最后一集，剧透警告，Dolores来到新工作室，开始写故事。然后她写作时，一个3D虚拟现实场景实时生成。这就是我想实现的效果。",
+   "ts": "01:04:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Speaking of medium, I guess I was wondering if I should go in this direct or not, but real quick. Kevin Weill/Kevin Weill, I don't know exactly how to pronounce his last name, the CPO of OpenAI.",
+   "zh": "哇。说到媒介，我原本想直接跳过，但还是快速说一下。Kevin Weill，OpenAI的首席产品官。",
+   "ts": "01:05:24"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Kevin Weill, uh-huh.",
+   "zh": "Kevin Weill，嗯。",
+   "ts": "01:05:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is it Weill or Weill?",
+   "zh": "是Weill还是Weill？",
+   "ts": "01:05:37"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think Weill.",
+   "zh": "我觉得是Weill。",
+   "ts": "01:05:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Weill. Okay. Okay. Let's just say that. We'll go with that.",
+   "zh": "Weill。好的，好的，就这么说吧。就按这个来。",
+   "ts": "01:05:39"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I hope, yeah.",
+   "zh": "希望如此，是的。",
+   "ts": "01:05:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "He did a panel at the Lenny and Friends Summit last year and he made this really fascinating point that chat is a really interesting interface for these tools because they're just getting smarter and smarter and smarter and smarter and smarter. And chat continues to work as a paradigm to just interact with them, similar to a human. You could talk to Albert Einstein. You could talk to someone not very smart and it's all conversation still. And so it's a really flexible way to interact with increasingly good intelligence. At some point it'll not be so great, and you were talking about all these ways that you're adding additional ways to interact. But it's interesting chat proved to be a really powerful layer on top of all this stuff.",
+   "zh": "他去年在Lenny and Friends峰会上做过一个小组讨论，提出了一个非常有趣的观点：聊天是这些工具的一个非常有趣的界面，因为它们正变得越来越智能。聊天作为与这些工具互动的范式依然有效，就像与人类互动一样。你可以和爱因斯坦对话，也可以和不怎么聪明的人对话，但对话依然存在。所以这是一种与日益智能的智能体进行交互的灵活方式。到某个时候，效果可能就不那么好了，而你之前提到的各种交互方式也会增加。但有趣的是，聊天已经被证明是覆盖所有这些技术的一个非常强大的层级。",
+   "ts": "01:05:43"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, that's real cool. I feel like chat also has social element which is very humane. It's like, yeah, you sometimes want to get into group chat. And having conversations with AI is kind of like a group chat in itself, as messaging. Actually, this idea of how do you build features like this? I see tasks as this general feature that will scale very nicely as the models would develop new capabilities themselves. The models will be able to do better searches and create new... come up with more creative writing on render, react apps and like HTML apps. And you can have everyday new puzzle for you, every day continue the story from the previous days. It scales very nicely.",
+   "zh": "是啊，这真的太酷了。我觉得聊天功能还带有社交元素，这很人性化。比如，有时候你会想加入群聊。而和AI对话本身就是一种群聊形式，通过消息交流。说真的，如何开发这类功能呢？我把任务视为一种通用特性，它会随着模型不断发展新能力而完美扩展。模型将能进行更精准的搜索，创作更具创意的文本内容，无论是在渲染引擎、React应用还是HTML应用中。而用户每天都能获得新的挑战，延续前几天的故事线。这扩展性简直无与伦比。",
+   "ts": "01:06:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned something as we were getting into this extra section that we ended up going down is this idea of the agents using a computer. I know this is actually something you are going to launch today, the day we're recording it, which will be out by the time this comes out, called Operator, can you talk about this very cool feature that people will have access to?",
+   "zh": "你之前提到，当我们深入探讨这个额外模块时，我们最终聊到了让代理使用计算机的概念。我知道这实际上是你们今天要发布的产品，也就是我们录制这期节目当天推出的名为Operator的功能，能否谈谈这款人们将能使用的超酷功能？",
+   "ts": "01:07:14"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah, so I unfortunately did not work on that, but I'm really, really excited about this launch. It's basically an agent that can complete the task in its own virtual computer, in its own virtual environment. You can do any literally task like order me a book on Amazon. And then ideally the model will either follow up with you which book do you want, or know you so well that it start recommending, \"Oh, here is the five books that I might recommend you to buy.\" And then you hit, \"Yeah, help me buy.\" And then the model goes off into its own virtual little browser and complete the task and buy the book on the Amazon. And then if you give the model credentials, credit cards, obviously it comes with a lot of trust and safety, then it will just complete the thing for you. It's a virtual assistant.",
+   "zh": "是的，很遗憾我没有参与这个项目，但我对这次发布真的非常兴奋。基本上，这款代理可以在自己的虚拟计算机、虚拟环境中完成任务。用户可以下达任何指令，比如在亚马逊上帮我订购一本书。理想情况下，模型要么会跟进询问你想要哪本书，要么通过深度了解你的喜好推荐五本可能适合你购买的书籍。然后你点击“是的，帮我购买”，模型会进入自己的虚拟小浏览器，在亚马逊上完成购买。若你授予模型账户信息和信用卡数据（显然这需要高度信任和安全保障），它就能替你完成整个流程。这就是虚拟助手。",
+   "ts": "01:07:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting how this just sounds like obviously this should happen. Why is this not yet a thing? Which is also mind-blowing that we're just assuming this should exist. Just some AI doing things for you on a computer we just ask it to do.",
+   "zh": "这听起来显然应该是理所当然的。为什么现在还没有实现呢？令人惊讶的是，我们甚至默认这类功能应该存在。只是让AI在计算机上为你做事，而我们只需下达指令。",
+   "ts": "01:08:37"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:08:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's absurd.",
+   "zh": "这太不可思议了。",
+   "ts": "01:08:50"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "It's actually really hard. And I think you're still cracking this, but feel like... I don't know if you use Tuple like a pair programming product.",
+   "zh": "实际上这很难。我觉得你们还在攻克这个难题，但感觉……我不知道你们是否用过Tuple这样的编程协作产品。",
+   "ts": "01:08:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No.",
+   "zh": "没有。",
+   "ts": "01:09:03"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "But at Anthropic we loved pair programming, so if you used-",
+   "zh": "但在Anthropic，我们很喜欢编程协作，所以如果你用了——",
+   "ts": "01:09:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh yeah, Shopify uses this. I remember it came up on a podcast episode.",
+   "zh": "哦对，Shopify用了这个功能。我记得在某期播客中提到过。",
+   "ts": "01:09:09"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Oh, nice. Yeah, so it is a very cool product where you can just call anyone at any time and then share screen and the other person can have access to the screen or start literally operating your computer. And it's very realtime... The allegiance is very... it's very high quality. And it's just like I kind of want the same. I want to pair program with my model and the model should even talk to me. Draw very specific section in my code and just go to tell me... Obviously teach me and we can have different modes. It's like right, this is a product right here for you. I don't know. Some people should build that.",
+   "zh": "哦，不错。是啊，这确实是个很酷的产品，你可以随时呼叫任何人，然后共享屏幕，对方可以访问你的屏幕或直接操作你的电脑。实时性极强……质量也很高。我也特别想这样。我想和我的模型进行编程协作，模型甚至应该能和我对话。在我的代码中画出特定部分，然后告诉我……显然教我，我们可以切换不同模式。就好像，这款产品就是为你量身打造的。我不知道，总得有人去开发它。",
+   "ts": "01:09:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It sounds like a startup just got birthed-",
+   "zh": "听起来像是一家初创公司刚刚诞生了——",
+   "ts": "01:09:58"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:09:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... from someone listening to this. You mentioned that it's very hard to do this agent controlling a computer as you and helping out. What makes it so hard for whatever, however much you can explain briefly?",
+   "zh": "……从听众的角度来看。你提到让代理控制计算机并提供帮助非常困难。无论如何，哪怕你能简要解释一下，这为什么会这么难？",
+   "ts": "01:10:00"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Much of it is because right now the model's operating on pixels instead of language or whatnot. Pixels is actually really, really hard. The models [inaudible 01:10:25] perception, or visual perception. I think there's still a lot of multimodal research that's going on, but I think language scaled so much easier compared to multimodal because of that. (01:10:38): Another thing that I guess my team is working that is how do you derive human intent very correctly? It's like sometimes does the model know enough information to ask a follow-up question or to complete the task? You don't want an agent to go off for 10 minutes and then come back with an answer that you didn't even want. That actually creates much more worse user experience. And this comes with teaching the model people skills. It's like, \"What do people like? Kind of like creating the mental model of the user and care about the user in order to ask certain questions. Actually, that part is hard to do for the models.",
+   "zh": "主要原因是目前模型处理的是像素数据，而不是语言或其他信息。像素处理确实非常困难。模型在感知或视觉处理方面还存在诸多挑战。我认为多模态研究仍在进行中，但相比之下，语言领域的进展要容易得多。",
+   "ts": "01:10:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That relates to what we talked about earlier where this kind of the soft skill, people skills piece is not where these models are strong yet.",
+   "zh": "这与我们之前讨论的相关——目前这些模型在软技能方面还不够强。",
+   "ts": "01:11:28"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:11:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I'm going to skip the lightning round. I want to ask just one question from the lightning round, something fun.",
+   "zh": "好的，我跳过闪电问答环节。我想从闪电问答中提一个有趣的问题。",
+   "ts": "01:11:35"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Yeah.",
+   "zh": "好的。",
+   "ts": "01:11:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so when AI replaces your job, Karina, I'm curious what you're... And it gives you a stipend, gives you a monthly stipend. Here's your salary for the month. What would you want to do? What do you want to spend your time on? What will you be doing in this future world?",
+   "zh": "好的，当人工智能取代你的工作时，卡琳娜，我很好奇你会做什么？如果给你每月津贴，你的薪资会被取代。你会想做什么？你会把时间花在哪里？未来世界里你会做什么？",
+   "ts": "01:11:44"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I've been thinking about this a lot times. I feel like I have a lot of jobs options. I would love to be a writer, I think. I think that would be super cool. You should write short stories, sci-fi stories, novels. I really like art history, so you know those conservationists in the museums who just try to preserve art paintings, but just painting through a long day?",
+   "zh": "我经常思考这个问题。我觉得自己有很多职业选择。我想成为作家，这会很酷。你应该写短篇小说，科幻故事，小说。我对艺术史很感兴趣，比如博物馆里的那些保护员，他们整天都在保护艺术品，但整天都在画画？",
+   "ts": "01:11:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm.",
+   "zh": "嗯。",
+   "ts": "01:12:28"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think that would be really cool to do. Yeah.",
+   "zh": "我觉得那样做会很酷。是的。",
+   "ts": "01:12:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That sounds beautiful.",
+   "zh": "听起来很美好。",
+   "ts": "01:12:36"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I don't know.",
+   "zh": "我不知道。",
+   "ts": "01:12:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I'm hearing is you need to Nerf these models to not get very good at writing so that you can continue... Although at that point you don't need to do it from... You don't need people to buy it, you're just doing it for fun, so it doesn't even matter if they're incredibly good at writing or art conservation. Oh man, what an episode of our conversation. What a wild time we're living in. Karina, thank you so much for being here. Two final questions. Where can folks find you online if they want to reach out and follow up on anything? And how can listeners be useful to you?",
+   "zh": "我听你说要削弱这些模型，让它们不擅长写作，这样你才能继续……不过到那时你不需要卖出去，你只是为了乐趣而做，所以它们是否擅长写作或艺术保护都无关紧要了。天哪，我们这次对话真是精彩极了。我们生活在一个多么疯狂的时代啊。卡琳娜，非常感谢你能来参加节目。最后两个问题。如果听众想联系你或跟进任何信息，他们可以在哪里找到你？听众如何能对你有所帮助？",
+   "ts": "01:12:39"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "You can find me, I'm on Twitter it's KarinaNguyen. You can also shoot me an email on my website. And my team is hiring and so I'm looking for research engineers, research scientists, as well as machine learning engineers, people who come from product engineers who want to learn model training. I'm actually hiring for my team. My team is called Frontier Product Research, and we train models, we develop new methods but for product oriented outcomes.",
+   "zh": "你们可以通过Twitter找到我，我的账号是KarinaNguyen。也可以在我的网站上给我发邮件。我的团队正在招人，我们正在寻找研究工程师、研究科学家以及机器学习工程师，还有来自产品部门、希望学习模型训练的人才。实际上，我团队正在招聘。我们的团队叫Frontier产品研究部，我们负责模型训练，开发新方法，但最终都是为了实现产品导向的成果。",
+   "ts": "01:13:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a place to work. Holy moly. What's the best way for people to apply for these very lucrative roles?",
+   "zh": "这真是个好工作的地方。天哪。大家申请这些高薪职位的最佳方式是什么？",
+   "ts": "01:13:38"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "I think you can shoot me a DM on Twitter.",
+   "zh": "我觉得你可以在Twitter上给我发私信。",
+   "ts": "01:13:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "01:13:49"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Or I'm yet to create a job description for them.",
+   "zh": "或者我还没为这些职位写职位描述呢。",
+   "ts": "01:13:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. This is the job description.",
+   "zh": "好的。这就是职位描述。",
+   "ts": "01:13:51"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Or you can apply into post training team. Yeah.",
+   "zh": "或者你可以申请加入培训后团队。是的。",
+   "ts": "01:13:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. You're going to get a flood of DMs. I hope you're prepared. Karina, thank you so much for being here. This was incredible.",
+   "zh": "好的。你会收到大量私信的。希望你能应对得来。卡琳娜，非常感谢你今天的到来。真是太棒了。",
+   "ts": "01:13:58"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "Thank you so much, Lenny.",
+   "zh": "谢谢你，莱尼。",
+   "ts": "01:14:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone.",
+   "zh": "大家再见。",
+   "ts": "01:14:05"
+  },
+  {
+   "speaker": "Karina Nguyen",
+   "en": "It was fun.",
+   "zh": "今天很开心。",
+   "ts": "01:14:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at LennysPodcasts.com. See you in the next episode.",
+   "zh": "非常感谢大家收听。如果觉得内容有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅节目。也欢迎给我们评分或写评论，这对其他听众很重要。更多往期节目和节目信息，请访问LennysPodcasts.com。下期节目见。",
+   "ts": "01:14:09"
+  }
+ ]
+}

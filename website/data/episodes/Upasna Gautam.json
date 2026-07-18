@@ -1,0 +1,653 @@
+{
+ "id": "Upasna Gautam",
+ "name": "Upasna Gautam",
+ "category": "企业管理",
+ "identity": "产品",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Upasna+Gautam",
+ "bio": {
+  "en": "Upasna Gautam is a product and technology leader at CNN, an investor, and an advisor who builds products inside a fast-moving newsroom.",
+  "zh": "Upasna Gautam 是 CNN 的产品与技术领导者、一位投资人与顾问，她在节奏飞快的新闻编辑室内部打造产品。"
+ },
+ "summary": {
+  "en": "Upasna shares what it's like to build product inside CNN's newsroom, where breaking news constantly interrupts plans and demands thriving in chaos. She discusses bridging the gap between product and editorial through mutual trust, the power of direct customer conversations, and how mindfulness and 'equanimity' became leadership tools for staying calm under fire. The episode is a distinctive look at product management in an unconventional, high-pressure environment.",
+  "zh": "Upasna 分享了在 CNN 新闻编辑室内部打造产品的体验——突发新闻不断打断计划，要求人在混乱中茁壮成长。她讨论了如何通过相互信任弥合产品与采编之间的鸿沟、直接客户对话的力量，以及正念与“情绪平稳（equanimity）”如何成为在压力下保持冷静的领导力工具。本期是对非常规、高压环境下产品管理的独特透视。"
+ },
+ "turns": [
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "00:00",
+   "en": "It happens all the time, right? That is the nature of breaking news. I mean, you have to be ready to pivot at the drop of a hat. I had a big working session planned with my users to do research with them, or do user testing, and breaking news breaks, and it takes so much time and effort to gather a team of editors across the globe to do a user testing session. And when breaking news happens, they have to prioritize that over everything. So what do you do in that situation? You can be frustrated, absolutely it's frustrating. But we always have to have the ability to A, pivot of course, but also have backup and buffers in those types of scenarios.",
+   "zh": "这种情况时有发生，对吧？这就是突发新闻的本质。我的意思是，你必须随时准备随机应变。我原本计划和用户一起进行研究或用户测试，但突发新闻来临，召集全球编辑团队进行用户测试需要耗费大量时间和精力。而当突发新闻出现时，他们必须把它置于首要位置。那么在这种情况下该怎么做呢？你可能会感到沮丧，这确实令人沮丧。但我们必须具备以下能力：首先是随机应变，其次是在这种情况下要有备用方案和缓冲机制。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "00:45",
+   "en": "Welcome to Lenny's Podcast, where I interview world-class product leaders and growth experts to learn from their hard-won experiences building and growing today's most successful products. Today my guest is Upasna Gautam. Upasna is a product manager at CNN, where she leads the team responsible for the content management system that journalists use to write and publish their stories. She's also on the frontlines of elevating the discipline of product management within newsrooms through her work at the News Product Alliance. She's also a longtime meditation and mindfulness teacher, which as we discuss ends up being pretty damn handy working at a place like CNN. We dig into how the product team operates within CNN, how they collaborate with journalists for breaking news, dress rehearsals, and also some simple tricks to build your own mindfulness in your day-to-day work as a PM. (01:31): Enjoy this episode with Upasna Gautam after a short word from our wonderful sponsors. This episode is brought to you by Amplitude. If you're setting up your analytics stack but not using Amplitude, what are you doing? Anyone can sell you analytics, while Amplitude unlocks the power of your product and guides you every step of the way. Get the right data, ask the right questions, get the right answers, and make growth happen. To get started with Amplitude for free, visit Amplitude.com. Amplitude, power to your products. Today's episode is brought to you by OneSchema, the embeddable CSV importer for SaaS. Customers always seem to want to give you their data in the messiest possible CSV file, and building a spreadsheet importer becomes a never-ending sink for your engineering and support resources. (02:19): You keep adding features to your spreadsheet importer, the customers keep running into issues, six months later you're fixing yet another date conversion etch case bug. Most tools aren't built for handling messy data, but OneSchema is. Companies like Scale AI and Pave are using OneSchema to make it fast and easy to launch delightful spreadsheet import experiences, from embeddable CSV import to importing CSVs from an SFTP folder on a recurring basis. Spreadsheet import is such an awful experience in so many products. Customers get frustrated by useless messages like, \"Error online 53,\" and never end up getting started with your product. OneSchema intelligently corrects messy data so that your customers don't have to spend hours in Excel just to get started with your product. For listeners of this podcast, OneSchema's offering a $1,000 discount. Learn more at OneSchema.co/lenny. Upasna, welcome to the podcast.",
+   "zh": "欢迎来到Lenny的播客节目，我会采访世界级的产品领导者和增长专家，从他们在打造和发展当今最成功产品的过程中积累的宝贵经验中汲取智慧。今天的嘉宾是Upasna Gautam。Upasna是CNN的产品经理，负责管理记者用于撰写和发布新闻的内容管理系统。她还通过在News Product Alliance的工作，为提升新闻编辑室的产品管理学科水平而奋斗。她同时还是一位资深的冥想和正念教学导师，正如我们在节目中讨论的，这项技能在CNN这样的工作环境中非常实用。我们深入探讨了CNN的产品团队如何运作、如何与记者合作处理突发新闻和演习，以及如何在日常产品经理工作中培养正念的简单技巧。（01:31）：在听众朋友们听到我们优秀赞助商的简短致辞后，欢迎与Upasna Gautam一同享受本期播客。本次节目由Amplitude赞助。如果你正在搭建分析堆栈却没有使用Amplitude，那你还在等什么？任何人都能向你推销分析工具，而Amplitude则能释放你产品的潜力，全程为你保驾护航。获取正确的数据，提出正确的问题，获得正确的答案，实现增长。免费试用Amplitude，请访问Amplitude.com。Amplitude，为你的产品注入力量。本期节目由OneSchema赞助，OneSchema是可嵌入的CSV导入工具。客户似乎总想把数据以最混乱的CSV文件形式交给你，而构建电子表格导入器则成了工程和支持资源永无止境的深渊。你不断为电子表格导入器添加功能，客户不断遇到问题，六个月后你又在修复另一个日期转换错误案例。大多数工具都无法处理混乱的数据，但OneSchema可以。Scale AI和Pave等公司正在使用OneSchema，快速轻松地推出令人愉悦的电子表格导入体验，从可嵌入的CSV导入到定期从SFTP文件夹导入CSV。许多产品中的电子表格导入体验实在糟糕。客户被诸如“在线错误53”之类的无用提示搞得心烦意乱，最终始终无法开始使用你的产品。OneSchema能智能纠正混乱数据，让客户无需在Excel中耗费数小时即可轻松上手。本播客听众可享受1,000美元折扣。了解更多信息请访问OneSchema.co/lenny。Upasna，欢迎来到播客。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "03:15",
+   "en": "Thank you Lenny, I'm so excited to be here.",
+   "zh": "谢谢你，Lenny，我很兴奋能来到这里。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:18",
+   "en": "As you probably know, I'm on this kind of quest to understand how different companies build product, especially companies that are kind of outside the Silicon Valley, just like standard tech scene. And I've always wondered what it was like to build product at a company like CNN, which is very different from where most, I don't know, tech PMs work. And so I'm really excited to have you on and to give us a little glimpse into what it's like to build product at CNN.",
+   "zh": "想必你也知道，我一直在探索不同公司如何打造产品，尤其是那些位于硅谷之外的科技公司，与标准的科技圈不同。我一直好奇在CNN这样的公司做产品开发是怎样的，毕竟这与大多数科技产品经理的工作环境截然不同。所以很高兴能邀请到你，让我们一窥CNN的产品开发之道。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "03:42",
+   "en": "Awesome, I'm very excited to share as well.",
+   "zh": "太棒了，我也很期待能分享心得。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:44",
+   "en": "So I was doing a little research on you before this chat, and I noticed that you've been teaching and studying meditation and mindfulness for, I don't know, maybe a decade? And I imagine that comes in handy at a company like CNN, which also I imagine is quite hectic at times with breaking news all the time. And so here's my question, what have you learned or brought from that practice to your ability to lead and ability to just like keep your team calm and focused during I imagine many hectic moments?",
+   "zh": "在这次聊天前，我做了些功课，发现你研究并教授冥想和正念修行已经有十年了？我猜这对在CNN这样的公司工作很有帮助，毕竟新闻行业时常有突发新闻，节奏快得令人抓狂。我的问题是，你从这些修行中获得了哪些帮助，如何在团队高压时刻保持冷静专注？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "04:16",
+   "en": "Love that question, and working in product in news is a very [inaudible 00:04:22]. We hear a lot about having the skills to thrive in ambiguity in order to be a successful product manager, but to be a successful product manager in news you have to be able to thrive in chaos. And equanimity is the most important skill I've developed I think across my entire life, and it's due to all of those years of practicing mindfulness and meditation. And equanimity is one of my favorite words, it means mental calmness, composure, evenness of temper, especially in crazy, stressful situations. It's the ability to remain un-rattled in like the highest of highs and the lowest of lows. And if you think about it in the dynamic of a workplace or human interaction, it's really the ability to pause before reacting. (05:11): And reactivity is the root cause of so many of our workplace woes and product management frustrations, and when you're able to pause before reacting you can start to undo and break a lot of those negative patterns in your brain. And in news, and especially the world's biggest breaking news organization, you can cut through that chaos with equanimity because it also really gives you this outsized advantage in everything from stakeholder management, team morale, to the way you're able to translate user feedback, to product development philosophy. And the thing is is you're always going to hear things and feedback that you don't like, and opinions that you don't like, and you're going to get frustrated. That's product management, that's life. (05:59): But real power to me comes from equanimity, and that comes from managing your emotional reactions, and not trying to control others. So I think when you're able to cultivate that level of self-awareness for yourself, you're able to chart a clear path forward for your team and serve as a compass in the chaos.",
+   "zh": "这个问题太棒了。在新闻行业做产品经理，压力堪比（音频中断，00:04:22处缺失）。我们常说产品经理要能在不确定性中游刃有余，但在新闻行业，你必须在混乱中如鱼得水。我认为平和心是我一生中最宝贵的技能，这都源于多年修行正念和冥想。平和心是我最喜欢的词汇，它意味着心理平静、沉稳、情绪稳定，尤其是在疯狂、紧张的环境中。无论是职场动态还是人际交往，它都是在反应前暂停的能力。而反应性是职场诸多困境和产品管理挫折的根源，当你能在反应前停顿，就能打破大脑中的负面模式。在新闻界，尤其是在全球最大突发新闻机构中，你能以平和心穿透混乱，因为它能在利益相关者管理、团队士气、用户反馈转化和产品开发理念等方面赋予你巨大优势。不可避免地，你会听到不喜欢的反馈和意见，感到沮丧。这就是产品管理，也是生活本质。（05:59）但对我来说，真正的力量来自平和心，它源于管理自己的情绪反应，而非试图控制他人。当你能培养这种自我意识，就能为团队规划清晰的路径，在混乱中充当指引明灯。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "06:22",
+   "en": "Is there a story or an example that comes to mind where things were just like, \"Oh shit,\" and you were able to tap into that skill that you built to stay calm and focused, or even just like help your team stay focused?",
+   "zh": "有没有什么故事或例子，能让你突然意识到“天哪”，然后你能运用培养的技能保持冷静专注，甚至帮助团队专注？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "06:33",
+   "en": "I mean, it happens all the time right? That is the nature of breaking news. I mean, you have to be ready to pivot at the drop of a hat. And so I think more than just like the big, chaotic moments in those daily interactions when there's chaos, I think that's when it really shows its power and helps me navigate those day-to-day interactions when I had a big working session planned with my users to do research with them, or do user testing, and breaking news breaks, and it takes so much time and effort to gather a team of editors across the globe to do a user testing session. And when breaking news happens, they have to prioritize that over everything. So what do you do in that situation? You can be frustrated, absolutely it's frustrating. But you always have to have the ability to, A, pivot of course, but also have backup and buffers in those types of scenario. So any time we're planning we build in buffers for all of that chaos that's happening on a daily basis.",
+   "zh": "我的意思是，这种情况时有发生，对吧？这就是突发新闻的本质。你必须随时准备随机应变。所以我认为，比起日常互动中那些混乱的重大时刻——当混乱来临时，正是突发新闻的威力得以展现，帮助我应对那些日常的沟通挑战。比如，我原本计划和用户一起进行深度研究或用户测试，结果突发新闻来袭，这就需要耗费大量时间和精力召集全球各地的编辑团队来完成用户测试。而当突发新闻来临时，团队必须把它置于首位。在这种情况下该怎么做？你肯定会感到沮丧，这确实令人心烦。但你必须具备以下能力：首先，迅速调整方向；其次，在这种情况下要留有余地。所以每次规划时，我们都会为这些日常混乱的情况预留缓冲时间。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:41",
+   "en": "Wow, that's cool. Is that a real thing that happened? You were like, in a big meeting with all the researchers and then something went off the rails in the world?",
+   "zh": "哇，太酷了。这是真实发生过的事吗？你当时正在和所有研究人员开会，然后全球突然出了状况？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "07:47",
+   "en": "Oh yeah, absolutely. Happens all the time.",
+   "zh": "是啊，这种情况经常发生。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:49",
+   "en": "I don't know how much you can go into all this, but what is it that you would do in that case, like as a product team? What are they looking for you to do at that moment?",
+   "zh": "我不知道你能透露多少细节，但作为产品团队，在这种情况下你们会怎么做？当时他们希望你做什么？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "07:56",
+   "en": "For us it's not really anything we have to do. It is more so, \"Okay, well our goal at this session was to get user testing done, or user feedback from that user testing session with our editors. And so, what do we do? Okay, well good thing we had a backup planned, right?\" We don't actually have to go into that scenario, but since our editors and our journalists are customers we're there to serve their needs, but they're not here to serve our needs. They have a whole another job that they have to do. And so we have to have the ability to adapt and accommodate to those really chaotic schedules across global time zones. And so that happens again like, it's not like once in a while, it's a very regular thing that we have to be aware of and also account for.",
+   "zh": "对我们来说，没必要做太多额外准备。关键是：“好吧，我们这次会议的目标是完成用户测试，或者收集用户反馈。”然后呢？“幸好我们准备了备用方案，对吧？” 我们不必真的陷入那种场景，但由于我们的编辑和记者是客户，我们要满足他们的需求，而不是他们来满足我们的。他们有自己的工作要做。所以我们必须适应和兼顾全球各地时区的混乱日程安排。这种情况并非偶发，而是我们必须时刻警惕并未雨绸缪的常态。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "08:46",
+   "en": "Okay, again, it's like the journalists are the ones in the meeting that like, \"Oh, they have to go write about the stuff uncovered.\"",
+   "zh": "好的，我再问一次，记者们在会议上肯定会说：“哦，他们得去报道刚发现的爆料了。”"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "08:50",
+   "en": "Totally.",
+   "zh": "完全正确。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "08:51",
+   "en": "I see, that makes sense. You said that you built in some buffer time to kind of account for these things. Is there like a systematic way of doing that, or is it just broadly, \"Let's add buffer time\"? Is there like a rule of thumb you think about there?",
+   "zh": "我明白了，这说得通。你说你们预留了缓冲时间来应对这些情况。有没有系统性的方法？还是说只是笼统地“加点缓冲时间”？你有没有相关的经验法则？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "09:02",
+   "en": "It depends on the scope of the work we're doing at that time. So one of my main responsibilities is to rebuild our content management system, which also involves onboarding our editors and journalists to it off of our legacy platform and onto our new one. So when we're thinking about onboarding especially the teams, our onboarding cycle's very long. It involves training, testing, lots of dialogue and feedback. And then only do we actually test, and then we onboard. And so it is a long cycle, and it's longer than it maybe seems like it needs to be because we have to build in those buffers. Sometimes that buffer is a day or two, and sometimes it's a week or a month. And sometimes when we think we need a buffer, we get it done in a day and we quickly move onto the next phase. (09:53): And so I think that quick decision-making in those times is super-important, because you have to be able to assess the situation as it stands. And so I think mindfulness is so important too in practices like this, because being able to objectively see the scenario for what it is, make a quick decision and move on to the next phase is something we have to analyze every single day.",
+   "zh": "这取决于我们当时工作的范围。所以我的主要职责之一是重建我们的内容管理系统，这也包括将我们的编辑和记者从旧平台迁移到新平台。因此，当我们考虑人员迁移时，尤其是团队层面，迁移周期通常很长。它涉及培训、测试、大量沟通和反馈。只有在这些环节完成后，我们才会进行实际测试，然后完成迁移过程。这个周期很漫长，甚至比看起来需要的时间更长，因为我们必须预留缓冲时间。有时这个缓冲期是一两天，有时是一周或一个月。有时当我们认为需要缓冲时，我们会在一天内完成，然后迅速进入下一阶段。（09:53）所以我认为在这种情况下快速决策非常重要，因为你必须能够评估当前的情况。因此，在这种情况下，保持专注也非常重要，因为能够客观看待现状，快速做出决策并进入下一阶段，是我们每天都必须分析的事情。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "10:16",
+   "en": "Makes me think a little bit about a lot of CEOs are very busy and pulled into a lot of things, and so you have to kind of account for their schedule. And it sounds like you have many, many people that you work with that have crazy schedules.",
+   "zh": "这让我不禁想到，很多CEO都非常忙碌，事情缠身，所以你必须考虑到他们的日程安排。听起来你和许多团队成员的日程都非常紧张。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "10:29",
+   "en": "Yes.",
+   "zh": "是的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "10:30",
+   "en": "I wanted to dig a little bit deeper into how you, your team works with the news team. It's such a unique way of working, most product teams don't have a whole set of journalists that they have to work with as stakeholders. So I'm curious specifically, say a journalist has like, \"Hey, I'd love to build a special immersive experience for this story,\" or, \"I need some special feature to help support this work that I'm doing.\" How does that work? Do they come to you, and, \"Okay, here's a roadmap [inaudible 00:10:57] maybe in the quarter [inaudible 00:10:59].\" Imagine it's like, \"I need this next week.\" How do you work with the journalist team, basically, on product?",
+   "zh": "我想更深入地了解你和你的团队是如何与新闻团队合作的。这是一种独特的工作方式，大多数产品团队没有一整套需要作为利益相关者合作的记者团队。所以我特别好奇，比如说，当一位记者说：“嘿，我想为这个报道打造一个特别的沉浸式体验”，或者“我需要一些特别的功能来支持我正在做的工作”。这该如何运作？他们会来找你说：“好的，这是一个路线图[00:10:57不清]，也许在本季度[00:10:59不清]。”想象一下，如果他们说：“我下周就需要这个。”基本上，你是如何与记者团队在产品方面合作的？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "11:04",
+   "en": "Yep. This is pretty much the foundation of all of my work. We talk to our editorial staff every single day, and after a lot of observation and learning I implemented a system to manage that kind of intake with four different touch points or events. So we have weekly demo days, working sessions, breaking news dress rehearsals, and office hours. So with weekly demo days, I facilitate those with my product design lead and my tech lead. And we use that as an open form of communication to deep dive into features that exist on our platform, also to preview or give a sneak peek of new features to come, and kind of recreate their workflows and do a show and tell. Again, we wanted to open that up as a forum to not just our editorial partners but also anyone across the business who is interested in learning about the product and which is our platform. (12:00): And it was also a great way to kind of evangelize the product too. Coming off of a legacy system after several years onto a brand-new one is a big change at a place like CNN, and so we definitely tried to make sure that smart repetition in different ways is top priority. So, weekly demo days is one. Working sessions are interesting. I use the term working session because it's a combination of several things. This is a really critical part of our onboarding process where we gather breakout groups of our journalists and editors to work with us to recreate their workflows in the new platform. This allows us to address any friction or issues of course that are occurring in their workflows. But also we're able to gather a lot of awesome feedback from them in those sessions. (12:54): We used to call them user testing sessions, but decided to move away from that and just call them working sessions so they're more collaborative. And again, it's a really critical part of our onboarding process. We usually do three to six of them depending on the size of the group before the team is actually onboarded for two hours per session. So they're like deep dives into their specific workflows, so as you can imagine the way the politics team programs content is wildly different than the way the entertainment team does, or the way that the health team does, and very different than the way that the CNN homepage even interacts. So all of those are separate teams we have to work with when it comes to getting feedback. So in addition to that, we also do I mentioned breaking news dress rehearsals. (13:44): And you can imagine this is exactly what it sounds like. We create a script and do a simulation of a breaking news scenario to stress test our platform, because all breaking news scenarios are definitely not the same either. So this gives us a lot of great feedback in that short amount of time at the speed of breaking news. And then last but not least, we have office hours which I just started last year, and that's also probably what you can imagine, open blocks of time where me and my product design partner and my tech lead are just there to answer questions, help people troubleshoot any friction they might be experiencing in their workflow, get their feedback. We just wanted to open up another line of communications, so we do those right now once a week. Sometimes they go up to two times a week if we're in a really vigorous onboarding phase. (14:33): After those conversations and sessions and events happen, you know it's our job to translate their needs into the functions that we, A, either maybe already have that we can optimize, B, we build anew, or we tell them it's not viable. And the good thing is that because they've been along for the ride with us throughout the product discovery process we've earned their trust and respect. So that when we tell them something like it's not viable, they usually get it.",
+   "zh": "是的。这基本上是我所有工作的基础。我们每天都会与编辑团队沟通，经过大量观察和学习后，我实施了一个系统，通过四个不同的接触点或活动来管理这种信息收集。具体包括每周的演示日、工作会议、突发新闻彩排和办公时间。每周的演示日由我与产品设计负责人和技术负责人共同主持。我们将其作为开放交流的平台，深入探讨平台上的现有功能，预览或展示即将推出的新功能，重现他们的工作流程并进行展示。再次强调，我们希望将这个平台不仅开放给编辑合作伙伴，还开放给对产品和平台感兴趣的公司内所有人员。（12:00）这也是推广产品的好方法。对于像CNN这样的机构来说，从使用多年的旧系统切换到全新的平台是一个重大变革，因此我们特别重视以多种方式进行巧妙的重复演示。每周的演示日就是其中之一。工作会议很有趣。我之所以称之为\"工作会议\"，是因为它融合了多种元素。这是我们入职流程中至关重要的一环，我们会召集记者和编辑组成分组，共同在新平台上重现他们的工作流程。这让我们能够解决工作流程中可能出现的任何摩擦或问题，同时也能在这些会议中收集大量宝贵反馈。（12:54）我们过去常称之为用户测试会议，但后来决定改名为工作会议，使其更具协作性。同样，这也是入职流程的关键环节。根据团队规模不同，我们通常会开展三到六次，每次两小时。这些会议深入探讨他们的特定工作流程。正如你能想象的，政治团队的内容编排方式与娱乐团队、健康团队乃至CNN主页的交互方式都大不相同。因此，在收集反馈时，我们需要分别与这些团队合作。此外，我们还开展突发新闻彩排活动。（13:44）你可以想象这正是其名称所暗示的。我们制定脚本，模拟突发新闻场景，以此对平台进行压力测试，因为所有突发新闻场景都各不相同。这让我们能在短时间内、以突发新闻的速度获得大量宝贵反馈。最后，去年我新推出的办公时间服务，你也能猜到其内容——每周一次开放时间段，我与产品设计负责人和技术负责人会亲自解答问题，帮助人们解决工作流程中遇到的摩擦，并收集反馈。我们只是想开辟另一条沟通渠道，所以目前每周举办一次，有时在入职高峰期会增加至两次。（14:33）在这些对话、会议和活动结束后，我们的职责就是将他们的需求转化为功能：A、优化现有功能；B、全新开发；或者告知他们某些功能不可行。好在\n正因为我们在整个产品探索过程中始终与他们并肩前行，所以赢得了他们的信任与尊重。因此，当我们告知他们某项方案不可行时，他们通常能够理解并接受这一判断。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:07",
+   "en": "Man, I have so much questions about just working with journalists. I feel like pushing back on a journalist is probably extra hard versus other types of stakeholders.",
+   "zh": "天哪，我对和记者合作这事儿真是有一堆疑问。感觉相比其他利益相关方，顶撞记者可能会更难吧。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "15:14",
+   "en": "It is.",
+   "zh": "确实如此。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:15",
+   "en": "Can we zoom out a little bit, and you talked about what you work on at CNN, which is the content management system and things around that. Can you just talk about whatever you can share, just like what does the product team look like at CNN, how many PMs are there, how's like the product work structured and where do you fit in there?",
+   "zh": "能不能稍微退一步讲讲你在CNN的工作内容？你提到的内容管理系统之类的，能不能分享一下？CNN的产品团队结构是怎样的？有多少产品经理？产品工作是如何组织的，你又在其中扮演什么角色？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "15:31",
+   "en": "Yes. I mentioned earlier my team sits on CNN Digital, and I think when most people think of CNN of course you think of TV and linear programming. I have nothing to do with that, CNN Digital is digital, and it's made up of several teams that are structured around a lot of different product areas. It includes everything from the content management platforms that I work on, to data infrastructure, to personalization, to video experience, which includes like the products of video editor, and the video player, to podcasts, there's a lot. So each of those are product teams. And so we also split out... The way CNN is split out into CNN Digital is because there's a separate core content platform that powers broadcast and linear TV. (16:21): And the one that I work on powers CNN Digital. So on my team, the core platform team, our stakeholders and our customers, like I mentioned, are journalists and are editors. Which presents a really unique dynamic, and it's one that I love. We have direct access to our customers at all times of day, for better or for worse, and they're embedded into our product development process. And each of those teams under CNN Digital is kind of like a squad, very similar to how it is at other larger tech companies. We have PMs, we have engineers, designers, and delivery managers embedded in those squads. And since my team is a core platform team, our main responsibility is to A, build our newer, faster, more flexible content management platform to replace our legacy one, and B, onboard our entire editorial staff to it. (17:19): And so even more specifically my role is focused on rebuilding the tooling and the editorial experience of that platform, as well as doing the actual onboarding of our journalists. So we work cross-functionally because our team kind of is the umbrella over a lot of different teams, so we truly work cross-functionally to make sure that we're serving our journalists with the tools that they need to do their job in the most efficient way possible.",
+   "zh": "好的。我之前提到过我的团队隶属于CNN Digital部门。大多数人提到CNN时，可能首先想到的是电视和线性节目，但我和这些业务毫无关联。CNN Digital专注于数字业务，由多个团队组成，覆盖不同产品领域。包括我负责的内容管理平台、数据基础设施、个性化服务、视频体验（如视频编辑器和播放器）、播客等多个方面。每个团队都是独立的产品团队。CNN Digital的架构是基于独立的核心内容平台，该平台为广播和线性电视提供支持，而我所在的团队负责CNN Digital的核心平台。（16:21）我的团队与记者和编辑直接对接，这既是挑战也是机遇。他们全天候参与我们的产品开发流程。每个团队都像一个小团队，类似于大型科技公司的模式。团队内有产品经理、工程师、设计师和交付经理。作为核心平台团队，我们的主要职责包括：A、开发更先进、更灵活的内容管理平台以替代现有系统；B、推动全体编辑团队迁移至新平台。（17:19）具体来说，我的职责重点在于重建平台工具和编辑体验，同时负责记者的迁移工作。由于团队统筹多个部门，我们通过跨职能协作确保记者能以最高效率完成工作。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "17:48",
+   "en": "What would surprise people most about how product is built at CNN?",
+   "zh": "在CNN的产品构建过程中，最让人们惊讶的是什么？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "17:54",
+   "en": "I think the most surprising thing may actually be that there's just so many different types of products that we build. Like I said, I think when most people think of CNN you see TV, and you think of Anderson Cooper, and all of the things that are very publicly visible. Most of our product work and product teams all sit behind the scenes, and so I think just that in itself, like the sheer size of that is surprising to a lot of people. So I mentioned like all of the different teams, product teams that are based off of function, content management platforms, infrastructure, personalization, video, podcasts, linear TV. And I think that in itself, like the sheer size of it, we're not the size of Google by any means. But at the same time we have the expertise and the depth and breadth of a lot of those larger tech companies.",
+   "zh": "我认为最令人惊讶的或许是，我们开发的产品种类如此之多。正如我所说，当大多数人想到CNN时，他们会想到电视节目、安德森·库珀，以及所有广为人知的公众形象。但我们绝大多数的产品团队和产品线都默默耕耘在幕后。因此，单是这庞大的产品矩阵本身，就足以让许多人惊叹不已。正如我之前提到的——涵盖内容管理平台、基础设施、个性化服务、视频内容、播客以及线性电视等多个职能领域的团队。虽然我们的规模远不及谷歌，但我们同样具备许多大型科技公司的专业能力和深厚积淀。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "18:52",
+   "en": "I'm curious about the day-to-day operational work of how you build product at CNN. So our first question here is just, you use like OKRs, and OKRs with like key objectives, and outcomes, and 70% of a goal is success.",
+   "zh": "我对CNN的产品开发日常运营工作很感兴趣。首先，关于OKR（目标与关键结果）的应用。你们采用OKR体系吗？OKR设定了关键目标和成果，达成70%的目标即视为成功。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "19:06",
+   "en": "Yeah, absolutely, we do. We've used OKRs for a long time, and they've served as an anchor for my team over the last three years. I can't go into specifics on like what our OKRs are, but I did kind of cover the two main parts of it, which is rebuilding our content management platform and onboarding our users to it. So again, it's a long game at CNN when you're working on a core platform to replace a legacy one. And so we break those OKRs down of course even further into, we look two to three years out and build goals based off of that. Then we break them down by quarter and month, and then out of that for my team and what I do I need to, for my own sake and my team's sake, break those down by the week. And when we're in rapid development phases, we're planning on a daily basis.",
+   "zh": "是的，我们一直在用。我们长期使用OKR体系，过去三年它一直是我们团队的核心指引。虽然我不能透露具体OKR内容，但我可以简要说明两个核心目标：一是重建我们的内容管理平台，二是引导用户使用该平台。显然，在CNN，重建核心平台以替代旧有系统是一项长期工程。因此，我们将OKR进一步细化：先制定两到三年的远期目标，再按季度和月度分解，最后由我所在的团队根据自身需求按周规划。在快速开发阶段，我们甚至会按日排期。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "20:01",
+   "en": "How about in terms of just planning broadly? How far out does the product team at CNN plan in detail, like have an actual roadmap? And is that standardized across teams, or can each team kind of do their own approach?",
+   "zh": "那么关于整体规划呢？CNN的产品团队如何制定详细路线图？这些路线图是否在团队间标准化？还是各团队可以自由制定方案？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "20:13",
+   "en": "It's a combination of both. So we have one that is an over-arching roadmap that tracks to like our company OKRs and our product organization OKRs. And then from there I mentioned we have our squads, product teams, and we have OKRs on those as well track up to the larger, broader ones. And so once we get down to that level though, there is flexibility and we have autonomy to tackle those how we want. Which is really great, because the scope of work across our different product teams is drastically different. Working on core platform, like I do, versus working on video experience, versus podcasts. I mean, it's apples and oranges. And so it's really awesome that we have the flexibility to kind of make it work for us, while also having these larger goals that we know that, \"Okay, this is what we need to work towards.\" (21:12): And I mean, like the saying we always hear in product, of, \"Stay firm on the goal, but flexible on the process.\" And we've definitely been able to use that and leverage that in the way that we track against our goals.",
+   "zh": "两者兼而有之。我们有一份统领全局的路线图，与公司的OKR和产品部门的OKR相呼应。此外，我们的各个产品团队（如产品小组）也制定了OKR，这些目标同样向上汇报至更宏观的层面。但到了团队层面，我们享有灵活性和自主权，可以根据实际情况调整工作方式。这非常棒，因为不同产品团队的工作范围差异巨大。比如，我负责的核心平台团队与视频体验团队、播客团队的工作完全不同。可以说，完全是两个不同的领域。因此，拥有灵活调整的空间来适应团队需求，同时又能明确共同的宏大目标，实在是太棒了。（21:12）正如我们在产品领域常说的，“目标要坚定不移，过程要灵活变通”。我们确实能够以这种方式有效跟进目标进展。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:27",
+   "en": "Something else that a lot of people are always curious about is product review meetings and design review meetings. You talked about a couple of these meetings that you have, but do you have standard product review meetings where folks get together and just review stuff and progress? And if so, how do they work? Like who runs them, who comes to them, how do you make decisions, things like that?",
+   "zh": "还有一件很多人总是好奇的事，那就是产品评审会议和设计评审会议。你提到了你们参加过几次这类会议，但你们是否有标准的产品评审会议，让大家聚在一起评估进展？如果有的话，它们是如何运作的？比如谁来主持会议？谁参加会议？如何做决策之类的？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "21:46",
+   "en": "We have multiple variations of those. Some are standing ceremonies of course, and some are ad-hoc. Again, it's really based on the work we're doing in whatever phase we're in. But when it comes to product review, and product discovery or design review meetings, in addition to my design lead I've made it a point to bring in my tech lead and engineers along for this product discovery ride, and that's definitely been a game-changer as well. When our engineers are able to understand our journalists' needs at the same level as we are, they're able to define the how to do it with so much greater clarity and precision. And so my tech lead is embedded also in our product discovery process, he joins our user testing sessions, and our design jams, and our editorial conversation planning sessions. (22:37): And it's helped him and the rest of our tech and engineering team become experts on the why are we doing this and what are we working towards, to better determine technical feasibility. And he's done an amazing job of also passing that knowledge down to the rest of our engineers on our team, so it's really like this mentality of getting that important feedback from our journalists, understanding their pain points and then sharing and teaching it across the team. And I think the key takeaway on that is it's so important to think of your engineers as partners and not just resources. And when they are embedded into the process right upfront, it makes the whole process in general more efficient.",
+   "zh": "我们有各种各样的版本。有些是固定流程，有些是临时召开的。这真的取决于我们所处的阶段和正在进行的工作。不过说到产品评审、产品探索或设计评审会议，除了我的设计主管外，我还特意让我的技术主管和工程师参与到产品探索过程中来，这确实带来了翻天覆地的变化。当我们的工程师能像我们一样理解记者的需求时，他们就能更清晰、更准确地规划实现方案。因此，我的技术主管也深度参与了我们的产品探索流程，参加了我们的用户测试、设计头脑风暴和编辑对话规划会议。（22:37）这帮助他和我们的技术与工程团队成为目标导向型人才，更好地评估技术可行性。他还出色地将这些知识传授给团队其他工程师。关键在于，要把工程师视为合作伙伴，而不仅仅是资源。当他们从一开始就深度参与整个流程时，整个过程会更加高效。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:21",
+   "en": "So it sounds like that was maybe an evolution of the way the team works, as engineering has been looped into a lot of this early stuff more recently?",
+   "zh": "所以听起来这可能是团队工作方式的一种演变，工程团队最近更多地参与到早期阶段的工作中了？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "23:30",
+   "en": "Totally, yeah. Recently-",
+   "zh": "完全正确。最近——"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:33",
+   "en": "Cool.",
+   "zh": "不错。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "23:33",
+   "en": "... meaning, I mean... Again, long game right? Because it's been a couple of years.",
+   "zh": "……我的意思是……说真的，这是一项长期的战略，对吧？毕竟已经持续了好几年了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:39",
+   "en": "Got it. Going in a slightly different direction, I'm curious if there's any fun or unique traditions or rituals that the CNN product team has. These are always fun to hear about.",
+   "zh": "明白了。换个方向，我很好奇CNN产品团队是否有任何有趣或独特的传统或仪式。这些总是很有趣的。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "23:51",
+   "en": "I'll be very honest, we are not one of the cool teams. The politics team and the breaking news teams have all these cool rituals and fun things that they do.",
+   "zh": "说实话，我们不是那种很酷的团队。政治团队和突发新闻团队都有很多很酷的仪式和趣事。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "24:02",
+   "en": "What kind of stuff do they do?",
+   "zh": "他们都做些什么？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "24:03",
+   "en": "It's different also because they're usually in-person in the newsroom and I work remotely, and so... And actually most of my team works remotely. And so they have their rituals, but I will say one of the things that we started to do is... So onboarding teams has been a big goal of ours, and that we've slowly checked off the list over 2022. And any time we successfully onboard a team or launch a new feature, it's not anything crazy or fun, like there's only so much you can do when you work remotely. But we definitely make it a point to celebrate, and it's been hard to figure out ways to keep team morale up when you're all-remote. And it started with... We knew we needed to start doing something when we would have a big launch, and it was so anticlimactic. (24:51): And we literally hit publish and onboard onto like a politics page, and we were like, \"Oh, okay, so I guess that's it.\" So one thing we started doing is sending like these gift boxes of like random tchotchkes and stuff that mean things to us from the whole year, and it's like just cheap little gag gifts and stuff that we send to each other. I have random stuff all over my desk, I don't even know if I can share some of it. So we try to make it a point to at least share and celebrate, and then when we're in-person we do too. But again, being remote, there's definitely a challenge there.",
+   "zh": "情况不同还因为他们通常在新闻编辑室现场办公，而我远程工作，所以……实际上我的团队大多远程办公。他们有自己的团队仪式，但我要说的是，我们开始实施的一项举措是……所以，团队入职培训一直是我们的重要目标，2022年我们逐步完成了这项任务。每次成功入职新团队或上线新功能时，虽然远程工作能做的趣味活动有限，但我们一定会庆祝一番。要知道，当所有人都远程办公时，如何维持团队士气确实是个挑战。这始于……我们意识到在重大发布时，庆祝氛围太过平淡。（24:51）：我们按下发布按钮，成果展示在政治页面上，大家只会感叹“哦，好吧，就这样了”。于是我们开始互送礼物盒，里面装着全年收集的各种纪念品，都是些便宜又有趣的小礼物。我办公桌上到处都是这些零零碎碎的东西，我甚至不确定能不能分享其中一些。我们努力保持庆祝传统，面对面交流时也会延续这种氛围。但远程办公确实带来了挑战。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "25:32",
+   "en": "Are you ever able to get like a cameo from an Anderson Cooper, or someone else on-air to thank the teams? That feels like a cool feature potentially.",
+   "zh": "有没有机会邀请安德森·库珀或其他电视名人来感谢团队成员？这感觉会是个很酷的创意。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "25:41",
+   "en": "So one of my key stakeholders, she leads the video team at CNN, and she is a... We've had some discussions about doing a sizzler reel for our content management platform, since we're onboarding people and building new features. And there have been discussions with her about getting a celebrity to come and promote the product for us, so working on it.",
+   "zh": "我的一位关键合作伙伴，她负责CNN的视频团队。我们讨论过为内容管理平台制作宣传片段，因为我们正在培训新人并开发新功能。还和她探讨过邀请名人来推广产品的事，目前正在推进中。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "26:07",
+   "en": "Yeah, it feels like a missed opportunity, you've got so much talent around.",
+   "zh": "是啊，这感觉是个错失的机会，毕竟身边有这么多优秀的人才。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "26:11",
+   "en": "Totally.",
+   "zh": "确实。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "26:12",
+   "en": "This episode is brought to you by Vanta, helping you streamline your security compliance to accelerate growth. If your business stores any data in the cloud, then you've likely been asked or you're going to be asked about your SOC 2 compliance. SOC 2 is a way to prove your company's taking proper security measures to protect customer data, and builds trust with customers and partners, especially those with serious security requirements. Also if you want to sell to the enterprise, proving security is essential. SOC 2 can either open the door for bigger and better deals, or it can put your business on hold. If you don't have a SOC 2, there's a good chance you won't even get a seat at the table. (26:52): But getting a SOC to your port can be a huge burden, especially for startups. It's time-consuming, tedious, and expensive. Enter, Vanta. Over 3,000 fast-growing companies use Vanta to automate up to 90% of the work involved with SOC 2. Vanta can get you ready for security audits in weeks instead of months, less than a third of the time that it usually takes. For a limited time, Lenny's Podcast listeners get $1,000 off Vanta. Just go to Vanta.com/lenny, that's V-A-N-T-A.com/lenny to learn more and to claim your discount. Get started today. Coming back a little bit to the way y'all built product, I'm curious how you balance new product work and new features versus maintenance and bugs. Do you have kind of a... Is there like a philosophy at CNN of how much goes to bugs, maintenance versus new stuff, or is it per team and just, how do y'all think about that?",
+   "zh": "本期节目由Vanta赞助，助力您简化安全合规流程，加速业务发展。若您的企业在云端存储任何数据，那么您很可能已被问及或即将被问及SOC 2合规问题。SOC 2认证能证明您的公司采取了适当的安全措施来保护客户数据，有助于树立客户及合作伙伴的信任，尤其对那些对安全要求严苛的客户而言更为重要。若您想面向企业市场拓展业务，证明安全性至关重要。SOC 2认证要么为您打开更大更好的商机，要么让您的业务停滞不前。若您没有SOC 2认证，极大可能连参与竞标的机会都难得一见。（26:52）：但获取SOC 2认证可能是个沉重负担，尤其是对初创企业而言。这耗时费力、繁琐且昂贵。Vanta来解救您了。超过3,000家快速发展的公司使用Vanta，将SOC 2相关工作自动化达90%。Vanta能让您在数周内（而非数月）为安全审计做好准备，所需时间不到通常的一半。限时优惠，Lenny's Podcast听众可享受Vanta1,000美元折扣。访问Vanta.com/lenny（V-A-N-T-A.com/lenny）了解详情并领取优惠。立即行动。  \n\n回到你们的产品开发方式，我很好奇你们如何平衡新产品开发与新功能与维护及漏洞修复之间的关系。CNN是否有关于分配给漏洞修复和维护工作的具体比例，或者是根据团队各自情况而定？你们是如何看待这个问题的？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "27:45",
+   "en": "It's certainly team-specific, because again, the scope of work across teams really varies. But since my team's product is an entire platform, it's my job to ensure we're still clear on our goals because like I said, they may change on a week-by-week basis. One sprint might be high-priority feature development, in another sprint maybe we're focused on medium-priority optimizations and bug fixes. But we know that any time there's a critical incident in production, it also takes critical priority over everything else. So it's a balancing and juggling act that relies heavily on intuitive decision-making. But I will say we're also really fortunate to have a global, 24/7 editorial support team that we work really closely with. (28:35): So they are the ones who handle, troubleshoot, escalate incidents up to the relevant teams. There are a lot of layers to that protocol when a critical incident occurs. And so our editorial support team is that first layer of support, whereas my team might be the second or third depending on the level of severity and who it gets escalated to. So there's definitely a lot of processes in place, we're not always that first line of defense, which is actually... It alleviates a lot of stress, to know that we have an entire team around the clock globally dedicated just to that.",
+   "zh": "这确实因团队而异，因为不同团队的工作范围确实各不相同。但由于我的团队所负责的产品是一个完整平台，因此我的职责是确保我们始终清楚目标方向，正如我所说，目标可能会每周发生变化。一个冲刺周期可能是高优先级的功能开发，另一个周期则可能侧重于中等优先级的优化和漏洞修复。但我们知道，一旦生产环境出现关键事件，它也将成为所有工作的重中之重。因此，这是一项需要平衡和灵活处理的工作，很大程度上依赖于直觉决策。不过我要说的是，我们很幸运能拥有一个全球化、全天候的编辑支持团队，我们与他们密切合作。（28:35）：他们负责处理、排查故障并将事件上报至相关团队。当关键事件发生时，整个流程涉及多个层级。编辑支持团队是第一道防线，而我的团队可能是第二或第三道防线，具体取决于事件的严重程度和上报对象。因此，我们确实有完善的流程，但我们并非总是第一道防线。这实际上减轻了我们的压力，因为我们知道全球有整个团队全天候专注于此。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "29:12",
+   "en": "When you're talking about these incidents and moments it makes me wonder, is there a memory of just like a wild time of something happened in the news, or just like, \"Oh man, we've got to get on top of this thing\"? Is there like a memory that you think of like, \"Wow, that was crazy\"?",
+   "zh": "当谈到这些事件和关键时刻时，我不禁好奇，是否有某个疯狂的新闻事件让你们记忆犹新，或者只是类似于“天哪，我们必须迅速处理这个问题”的时刻？有没有某个让你们感叹“哇，太不可思议了”的记忆？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "29:26",
+   "en": "It's funny but also crazy and amazing, is... So our new content management platform, we've been building it for a while and stress testing it for a while. And politics and election season at CNN is Superbowl like times a hundred. And so we have to be all hands on deck, like all layers of support intact. And so we have also a lot of layers of fallback in case something happened, right? Like there's layers and layers of infrastructure fallback if CNN.com goes down, or another service goes down. And so it actually did happen a couple of years ago in the 2020 election, and one of the fallbacks at that time, because we were not... (30:14): We're still on our current content management platform, but we had our new one as we're building it as one of the levels of fall. And if X, Y, Z fails, then it goes to our current platform, and it did. And so that's actually happened, where our new platform saved the day even though it wasn't fully ready. But that just goes to show we think about that kind of stuff like in granular detail, when we think about everything that could possibly go wrong. Because it has happened, and it will happen, and it does go wrong. So that was kind of cool, it was validation to know that the platform we have is really stable, and strong, and secure, that it was a fallback for the election.",
+   "zh": "这既有趣又疯狂又令人惊叹，是吧……所以我们新的内容管理平台，我们已经开发了一段时间，也进行了压力测试。而在CNN，政治和选举季就如同超级碗赛事般紧张激烈。因此，我们必须全力以赴，确保各层支持系统无缝运作。为应对突发状况，我们还设置了多重备份机制。比如，如果CNN.com或其他服务出现故障，就有层层递进的应急方案。事实上，几年前2020年大选期间就曾出现过类似情况，当时我们的一项备份机制发挥了作用——尽管新平台尚未完全完成，但我们已将其作为故障应对层级之一。当X、Y、Z环节出现问题时，系统会切换至现有平台。即便新平台尚未完全就绪，它依然成功化解了危机。这充分证明，我们对各种可能出现的故障场景进行了细致入微的预案设计，因为类似情况确实发生过，也还会继续发生。所以这真的很棒，这也验证了我们现有平台的稳定性、可靠性和安全性——它在选举期间成功充当了后备方案。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:03",
+   "en": "Okay, and it must have felt good, it feels like a promotion material right there that your work-in-progress system saved the day.",
+   "zh": "好的，这感觉肯定很棒，听起来这简直就是在宣传你们的在建系统在关键时刻救了场。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "31:10",
+   "en": "Yeah, I agree.",
+   "zh": "是啊，我也这么觉得。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:12",
+   "en": "You talked about how you have like these breaking news dress rehearsals. I just noted that, and I thought it would be cool to just revisit that briefly. Like, how does that work? You just get the team together, and like, \"Here's a news story that just broke. What do we do?\" Like, how does that work?",
+   "zh": "你之前提到过你们会进行突发新闻的演练。我刚注意到这点，觉得可以稍微回顾一下。比如，具体怎么操作的？就是把团队召集起来，然后说：“有突发新闻了，我们该怎么做？”具体流程是怎样的？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "31:27",
+   "en": "It is scripted, right. So we can only get so close to the real thing. But one thing we do is we script everything, like the teams and the players that we need involved in it, what the incident is. And it usually starts when breaking news occurs with an email, the news-gathering team sends an email to our writers and our producers. And then from there it goes out all the places it needs to go. There's a video that needs to be created, there's an article that needs to be written. Again, the TV side I have no insight into, it's like a foreign land to me. But as far as the digital scope goes, there's a lot of work that has to be done. Even things like photo and imagery, we have a whole team dedicated just to selecting photos. (32:11): The photo desk is very involved with that process. And so that is all scripted out, and so we say, \"Okay, here's the news, here's how it's going to break,\" and then we run it. And so we use interpersonal communication tools at work of course, email, and we run the whole thing from the minute the email is sent to... And of course since we're testing the platform with this breaking news dress rehearsal, to the minute you hit publish on that page. And there's a lot of stuff that goes on in there, and it all happens in the span of minutes. And so while that is happening, while that dress rehearsal is happening, we have our engineers and our editorial support team on hand as well. So they're observing what's happening while it's usually me and one of our editorial stakeholders and leads facilitating the actual rehearsal part. (33:02): And you know, getting user feedback on, \"Okay, did something break, did everything work as it was supposed to work?\" And also allows us to understand like how far we can go with stress testing different features on our system. So each one is different, but it's a crazy amount of stuff and information you can gather in such a short span of time. Because if it cannot serve the needs of breaking news, then it's useless. So it's a lot of work that goes into it for this three-minute event.",
+   "zh": "这是事先编排好的，对吧。所以我们能做到的效果终究有限。但我们会把所有环节都规划得尽可能完善，比如涉及的团队和球员、事件经过等信息。通常，突发新闻消息一经传出，我们的团队就会收到邮件通知，新闻采集组会将邮件转发给编辑和制作团队。随后所有相关工作就紧锣密鼓地展开——制作视频、撰写文章等。而电视部门的运作流程我并不了解，对我来说那完全是个未知领域。但就数字平台而言，确实有大量工作需要完成。甚至像图片和图像素材这类内容，我们都有专门的团队负责挑选。（32:11）图片部门会深度参与整个流程。所有环节都经过精心策划，比如“突发新闻将如何发布”，然后按部就班地推进。当然，由于我们正在通过这场突发新闻演练测试平台，从邮件发送到页面发布的整个过程都需要实时把控。短短几分钟内，各部门都要紧密协作，确保信息准确无误。演练过程中，工程师和编辑支持团队也会全程监控，通常由我和一位编辑负责人共同主持整个演练环节。（33:02）最后，我们会收集用户反馈，比如“信息是否准确传达，各项功能是否正常运行？”这也有助于我们评估系统在极端压力下的稳定性。每个环节都各不相同，但在如此短暂的时间内能收集如此海量信息实属不易。毕竟，如果产品无法满足突发新闻的需求，那它就毫无价值。因此，为这场仅持续三分钟的突发新闻演练投入如此巨大精力是完全值得的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "33:35",
+   "en": "That is cool. It feels like just a cool tactic you could use anywhere, and that's a good segue to the next question I had, is just having built product at CNN and seeing how the product team works, what is it that you think you'll take with you to future product teams and future companies if you ever move on to anything else?",
+   "zh": "这真是太棒了。感觉这就像个能在任何领域应用的巧妙策略，接下来我要问的问题正好与此相关——在CNN亲身参与产品开发，见证编辑团队的工作后，你认为自己能带到未来产品团队和公司里的核心经验是什么？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "33:53",
+   "en": "So I of course can't speak for the entire scene and product team, but I can speak for myself and my specific team. In order to stay competitive in our modern news landscape, building this content management platform and the technology behind it has taught us how to enable rapid development and integration of new features and workflows. And we've been able to quickly test hypotheses while reducing risk, and again, time is of the essence when it comes to breaking news. And when you layer that with a very complex content management technology, there's a lot of moving parts. And we've been able to do that successfully, and it's pretty amazing. And because of that we've developed, I think, this unique skill of high agency under high pressure. (34:49): And I really think that that skill or combination of skills is our superpower, and that is something you can take anywhere, that is something that is an asset to any product development team.",
+   "zh": "当然，我无法代表整个团队发言，但我可以谈谈我所在的具体团队。为了在现代新闻领域保持竞争力，搭建这个内容管理平台及其背后的技术体系，让我们学会了如何快速开发和集成新功能及工作流程。在降低风险的同时，快速验证假设，这在突发新闻场景下至关重要。当将其与复杂的内容管理技术相结合时，需要协调诸多变量。我们成功地做到了这一点，这真的很了不起。正因如此，我们培养了在高压环境下保持高效能的独特技能。（34:49）我深信，这种技能组合就是我们的超级能力，也是能带到任何产品开发团队的宝贵财富。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:03",
+   "en": "Let's circle back to our original topic about mindfulness and meditation. Other than just living through it and either becoming a meditation expert or having worked at a company like CNN that has a lot of this, is there any, I don't know, tactic you could share, something that someone could take tomorrow and be like, \"Okay, I'm going to get better at dealing with crazy, unexpected events,\" based on the experience you've had?",
+   "zh": "让我们再回归到我们最初关于正念和冥想的话题。除了亲身经历并成为冥想专家，或者在像CNN这样大量推行冥想的公司工作之外，您是否有一些实用技巧可以分享？有没有什么方法，能让人们在掌握了您的经验后，明天就能运用起来，从而更好地应对那些疯狂、意想不到的状况？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "35:25",
+   "en": "Two parts to this. So one, I would be remiss as a meditation educator if I didn't say that there is no substitution for meditation. So just do it, it takes a long time, and it's a lifelong work-in-progress. But the good thing is that it also... Like the more you do it and consistently you do it, it compounds over time. Okay, if you think of any job description for a product manager it's mostly the same core stuff. You need to be able to lead a team without having authority, you need to have great communication skills, you need to be able to bribe in ambiguity, you need to be able to work with a lot of different people on the technical side and business side, all of the stuff that we hear all the time right? [NEW_PARAGRAPH]But how do you actually become better at those things? Like, there's only so much you can gain from reading a book. To me it's either A, you've got to go do it, and B, meditation has helped so much because of the clarity of mind and clarity of thinking you're able to cultivate because of it, especially when it comes to communication. And this comes back to another tactic I think. So meditation is one, you can't get around it. It's a very, very powerful tool, I will die on that hill. But thinking about workplace tactics, communication is so essential. When I started at CNN it was a very new chapter for me, it's my first official product management role after working a decade in tech, in data and search infrastructure. (36:57): And it was really scary to make that change so far into my career. But when I asked my boss why he took such a big chance on me he said, \"It's because of your communication skills and relationship-building skills, and that I've seen you in a room where engineers listen to you and what you have to say, and you listen to them.\" And he was like, \"That in itself is really, really hard to teach.\" And I was like, \"Okay, yeah, I can do that.\" So when I think about what communication means I also attach that to mindfulness. Like mindful communication is so critical for successful product management, no matter what type of product environment you're in. And it means being like deeply aware of the conversation you're having. (37:43): And when I'm having this conversation with you, I'm only having this conversation with you. When I'm talking to my design lead, I'm only talking to my design lead. When one of my journalists is venting because this feature is not working the way we told them it was going to, I am shutting my mouth and I'm listening to them vent, and then I'm extracting what the root cause of the problem is. And I think the takeaway and the tactic is that goes back to exactly what we talked about in the beginning is the ability to pause before reacting is the key to mindful communication and being a successful product manager. I think a lot of times we are taught to have all the answers, or we're expected to have all of the answers. (38:27): And people assume we have all of the answers so it's a really frustrating, sometimes, place to be in. But, if you listen and you know where to go to get the answers, that in itself is like a tremendous place to be. So I think the power of meditation, being able to pause before reacting lets you do things like conversate in the language of the listener. So when I'm talking to my journalists I'm not using technical terms or like content management technology terms. They have a whole different vocabulary that they use, they have shortcuts that they have lingo for in our content management system. They call things nicknames, and so you have to speak many different languages as a product manager. And if there's one thing that learning and teaching mindfulness has strengthened, it is that communication, yes, it's very important. (39:24): How do you become an effective communicator? I think a lot of times we think of speaking articulately first and foremost, or we think about writing well, which those two are really, really important things. But those can't be effective for us as product leaders if we're not listening, so I think listening and being able to converse in the language of the listener is the utmost importance. And how do you do that in your day-to-day? It's like, okay, if you're having a conversation with your customer are you actually listening to what they say, or are you going in with your own assumptions? Because maybe you're a user of the product. And it was very interesting, because I actually started writing freelance for CNN this past year. (40:12): And I was like, \"Oh, okay, I'm a user now.\" And no I'm not, I'm not going to say that it helped me understand their pain points so much more and where they're coming from in a whole different light. But again, I am merely a proxy, I'm not actually the user. What they do is still drastically different. And so when having those customer interactions and stakeholder interactions, the priority should be to listen. And I think that is one of the most important things I've learned, and it's also helped build trust and respect between a previously fragmented structure where product and editorial didn't talk to each other, and now we're a unified partnership.",
+   "zh": "分两部分来说。首先，作为一名冥想导师，如果我不强调冥想无可替代，那就是我的失职。所以请坚持练习，虽然这需要长期坚持，也是一项终身的修行。但好在只要你坚持做下去，成果会随时间累积。  \n\n再说产品经理这个职位描述，大部分核心要素都差不多。你需要在没有职权的情况下领导团队，具备出色的沟通技巧，善于在不确定性中做出决策，还要能与技术和业务团队中的各类人才合作——这些都是我们耳熟能详的要求，对吧？  \n\n但如何真正提升这些能力呢？光靠书本知识远远不够。在我看来，关键在于：A、亲身实践；B、冥想带来的思维清晰度对沟通能力提升至关重要。这又让我联想到另一个策略——冥想是必不可少的工具，我对此深信不疑。但谈到职场沟通技巧，沟通能力至关重要。  \n\n我在CNN开启新篇章时，面对十年科技、数据和搜索基础设施工作后迎来的首个产品管理职位，这无疑是个重大转变。（36:57）对此，我老板给出的理由令人惊喜：“看中的是你的沟通和关系建立能力——在工程师会议上，你能让他们倾听你的意见，同时你也能倾听他们的声音。这种能力实在难以传授。”我回应：“好的，我能做到。” \n\n因此，我将沟通能力与正念联系起来。无论处于何种产品环境，专注当下、深入理解对话都是关键。比如与你交谈时，我只专注于你；与设计主管沟通时，只专注于他；当记者抱怨功能未达预期时，我闭上嘴巴倾听，再抽丝剥茧找出问题根源。  \n\n归根结底，关键在于保持反应前暂停的能力——这正是我们开篇提到的核心策略。太多时候，我们被要求或期望知晓所有答案，但当你学会倾听、学会求知之道时，其实已站在更高境界。冥想带来的专注力，让你能用对方的语言进行沟通。与记者交流时，我不会用技术术语，而是采用他们熟悉的术语和缩写；他们甚至给功能起昵称——这正是建立信任的关键。\n作为产品经理，我需要跨越不同语言的沟通障碍。如果说学习和教授正念让我领悟到什么真谛，那就是沟通确实至关重要。（39:24）：如何成为一名高效的沟通者？我认为很多人首先想到的是清晰表达，或者擅长写作——这两者确实非常重要。但如果我们作为产品负责人不善于倾听，那么再出色的表达和写作能力也难以发挥作用。所以，我认为倾听并能用对方的语言进行交流才是最为重要的。在日常工作中如何做到这一点呢？比如，当你与客户交流时，你是否真正在倾听他们的需求，还是带着自己的假设去对话？因为你可能也是该产品的用户。去年为CNN撰稿的经历让我深有体会。（40:12）：当时我心想，“哦，原来我现在也是用户了”。但其实不然，我不会说这让我更深刻地理解了他们的痛点，也更能从全新的角度理解他们的出发点。但毕竟我只是个替代品，并非真正的用户。他们所做的工作仍有本质差异。因此，在与客户和利益相关者互动时，倾听应当是首要任务。我认为这是我学到的最重要的一课，这也帮助我们在原本割裂的结构中建立了信任和尊重——此前产品团队和编辑团队互不沟通，如今我们已成为统一的合作伙伴。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "41:00",
+   "en": "Oh, I love that. I love the reminder that a lot of communication is incredibly important for product managers, and so much of it is not actually you talking, it's you being really good at listening, and that makes you a better communicator. I imagine some people listening to this are going to be like, \"Yeah, meditation, I should be doing that.\" What's like one thing someone could do to move forward on the path to starting to meditate? Is there a resource to recommend, a tip of just starting to do something there?",
+   "zh": "哦，我太喜欢这段话了。它提醒我们，沟通对产品经理来说至关重要，而其中很重要的一点不是你自己说得多，而是你要善于倾听，这样才能成为更出色的沟通者。听众中可能有人会想：“是啊，冥想，我也该试试了。” 那么，要如何开启冥想之路呢？有没有什么资源或建议可以推荐？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "41:27",
+   "en": "Totally. I think when people think of meditation, you immediately think of sitting on a mediation cushion like a monk for an hour. And that doesn't have to be true, especially if you're just starting. And there's also of course social media has commercialized what meditation is a lot as well. But at its core, all it is is being deeply aware of the present moment. So I always tell people who are for example like really busy moms who have no time in the morning for an hour-long meditation is, \"Okay, take something in your day that you do every single day. You brush your teeth every morning, right? Okay, take brushing your teeth. Can you brush your teeth and just brush your teeth? And when you're brushing your teeth you are engaging all of your senses, and being fully present and aware of how it feels, how it smells, how it sounds.\" (42:27): That's two, three minutes of your day. That's meditation, and I think it's an amazing way and an easy way... Oh, sorry, not easy. Simple, not easy way, always, to think about what meditation actually is. Is like, instead of like having to uproot your whole life and the way you live to bring meditation in, think about what you already do every day and how you can just be more present, like fully present. And that's one of the core examples I give, is start with brushing your teeth and just brush your teeth. There's an old app I've been using for a long time if you're into that, I stopped using it recently but it's still amazing. It's called Insight Timer, the free version is amazing. It started as like a single-frame app probably about 10 years ago, and it's turned into this... (43:18): They've done amazing things with that product. So that's what I recommend, but again, you don't... I think, again, when people have a vision of meditation in their mind they're like, \"Well I need these tools, and I need these resources, and I need these things, and I need knowledge.\" You don't need anything, you need five minutes and yourself, and that's it.",
+   "zh": "完全赞同。我觉得人们一想到冥想，往往会想象出一个和尚盘腿打坐一小时的场景。但其实没必要这样，尤其是对于初学者来说。当然，社交媒体也把冥想过度商业化了。但其核心意义在于，充分觉知当下时刻。我常对那些忙碌的妈妈们说，如果早上没时间进行长达一小时的冥想，那就从日常生活入手吧。比如每天早上刷牙时，全神贯注于刷牙这个动作——感受牙刷与牙齿的摩擦，注意呼吸、声音和气息。这不过是两三分钟的专注时间，但就是冥想了。这是一种简单易行的方法……（42:27）：不要把冥想想得太复杂，不必彻底改变生活方式，先从日常习惯做起。比如刷牙时，保持全神贯注，专注于每个细节。还有一款我常用的免费应用——Insight Timer，十多年前它只是个单页面应用，现在已经发展得非常成熟。（43:18）：这个产品做得很棒。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:37",
+   "en": "Amazing. I imagine many people listening to this coming into thinking, \"I'm going to learn about CNN and how they build product,\" and then get a free meditation lesson. What a bonus, that was awesome. I'm going to be brushing my teeth very mindfully today-",
+   "zh": "太棒了。我能想象很多听众听完后会想：“我要了解CNN是如何做产品管理的”，结果还收获了一堂免费的冥想课。真是意外之喜。我今天要专心刷牙了——"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "43:49",
+   "en": "Love it.",
+   "zh": "太喜欢了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:49",
+   "en": "... my takeaway.",
+   "zh": "…这是我的感悟。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "43:50",
+   "en": "Love it.",
+   "zh": "超爱。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:52",
+   "en": "Final question, around something that I know is important to you, that is basically there's this growing shift of product thinking in the news industry at large. And I know that's something that you're passionate about and something you're trying to create, is just to kind of move the media industry and the news industry toward more product thinking. So I'd love for you to just talk about what you're doing there, what's happening there, and then maybe if there's anything people could do to help in that effort.",
+   "zh": "最后一个问题，是关于我知道对你很重要的一件事——即新闻行业正逐渐转向产品思维。我知道你对此充满热情，并正努力推动媒体和新闻行业朝着更注重产品思维的方向发展。所以我希望你能谈谈在这方面正在做些什么，目前取得了哪些进展，以及人们能如何为这项努力提供帮助。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "44:16",
+   "en": "Compared to the rest of product management as a discipline and the tech industry, product management in news is still in its, I will say infancy. And that's just because it hasn't been an integrated role for as long as it has been in big tech. But it is starting to become more and more not just prominent now, but people are realizing the value and power of it because especially in smaller newsrooms... I mean, CNN, places like The New York Times, The Washington Post, we have great, embedded, strong product teams. But that is not the case for the majority of newsrooms across the country and the world. Newsrooms are strapped for resources, they are strapped in all resources, including financial resources. (45:07): And so first, bringing in product and tech talent is expensive, and that in itself has forced editorial staff and journalists to take on other jobs that they never signed up for. And so they've had to learn how to do things product management, and engineering, and coding hacks, because there was nobody else to do it. And so it's interesting because a lot of times when you talk to editors and journalists, they're doing so many other things other than just their reporting of the news, right? They've had to take on other roles because of those restraints in the newsroom. And so there was a group established and a community established during the pandemic called the News Product Alliance. And there was like a realization occurring all at the same time that, \"Wow, there's a lot of us doing this work. [NEW_PARAGRAPH]\"Like, what do we call it? Is this product management?\" And it was, it's product management at so many different levels. And so the News Product Alliance was formed during the pandemic in 2020 I believe by several media and news executives, who had been there and have seen people in their newsrooms do that. And the goal of it is to increase the awareness and education of product thinking and product management in newsrooms, while also increasing the diversity of thought and the diversity of people in those positions as well. And making the resources more readily available, especially for those smaller newsrooms that don't have the money to hire tech talent. And that in itself has... (46:56): So that group, the News Product Alliance, has grown dramatically in the past three years since I've been a part of it, since the beginning. And we regularly produce the resources that are catered... Product management resources that are catered to working in a newsroom, because it is different, it is very unique. But there are of course frameworks and processes that are still relevant, right? Like editors who have been cobbling together how to make this thing that they want, but hey, maybe this PRD framework will help you, just to keep it on track. So these very simple, like rudimentary types of things have helped them so much. And so last year we kicked off a mentorship network in which we had about 400 people apply. (47:46): We accepted 150 mentees from across the world, and matched them with 50 mentors from different newsrooms across the world in leadership positions. And each mentee defined a goal that they wanted to work on, and all of course having to do with product management. And some of them were creating a product management role for themselves in the newsroom. Some of it was creating a product management practice, maybe they were given the title of product manager and said, \"Okay, you can hire a couple of people.\" But it was all on them, and they had no idea what to do, right? And so some of it, it's across the board, and it's amazing to see people doing this from scratch who never in a million years thought they'd walk into it. (48:32): You know, they're not coming from big tech, they don't have startup backgrounds. They had journalism degrees from around the world, and they're learning how to do product, and build... Not just learning how to do it, they're building product practices, they're actually building and developing products and features, and they're creating more leaders in this space as well, and across their newsrooms to empower each other. So it's been really amazing to see, and it's the most valuable professional organization I've been a part of just because it is so niche that talking about product management is always fun. But when you talk about it at a level that specific, it becomes even more valuable.",
+   "zh": "相较于产品管理这一学科在科技行业的整体发展水平，新闻领域的产品管理仍处于起步阶段。这主要是因为它在大型科技公司中尚未成为一个成熟的整合角色。不过，如今它正逐渐受到重视，人们也逐渐意识到其价值与影响力——尤其是在规模较小的编辑部……比如CNN、纽约时报、华盛顿邮报等机构，都有完善且强大的产品团队。但对于全美乃至全球绝大多数新闻编辑部而言，资源始终匮乏——包括资金在内的各项资源都极为紧张。（45:07）因此，引入产品与技术人才成本高昂，这迫使编辑人员和记者不得不承担原本不属于他们的职责。他们不得不自学产品管理、工程开发和编程技巧，因为无人可替代他们的工作。有趣的是，当你与编辑和记者交流时，会发现他们除了报道新闻外，还承担着诸多其他职责——正是因为编辑部资源的限制。疫情期间，成立了名为\"新闻产品联盟\"的组织，人们突然意识到：\"天啊，我们中很多人都在做这些工作。\"但这到底该叫什么呢？\"产品管理\"吗？其实这在不同层面都属于产品管理。2020年疫情期间，数位资深媒体高管发起成立了该联盟，他们亲眼见证过编辑部同事的努力。联盟旨在提升新闻编辑部对产品思维和产品管理的认知，促进人才多元化，并为资源匮乏的小型编辑部提供支持。（46:56）过去三年间，我亲身参与其中，见证了联盟的快速发展。如今我们定期推出针对新闻编辑部的资源产品——毕竟新闻领域独特且有诸多差异，但通用框架与流程依然适用。比如编辑们通过拼凑资源实现目标，但PRD框架或许能提供指引。这些基础性工具极大助力了他们的工作。去年我们启动导师计划，全球400人申请，150名学员与50位来自不同编辑部的导师结对。每位学员都设定了产品管理相关目标，部分人致力于在编辑部设立产品管理岗位，部分人则建立产品管理实践体系。有些人获得了\"产品经理\"头衔，却不知从何入手。这项计划全面覆盖各领域，\n看到那些从零开始学习产品管理的人真是令人惊叹，他们从未想过自己会涉足这个领域。（48:32）：要知道，他们并非来自大型科技公司，也没有创业背景。他们来自世界各地的新闻学专业，正在学习如何做产品、如何开发……他们不只是学习理论，更是在实际构建产品体系。他们正在开发产品功能，打造产品实践体系，同时也在各自的新闻编辑室内培养更多领导者，互相赋能。这一切都令人欣喜万分。这是我参与过的最有价值的专业组织，因为它太小众了，所以谈论产品管理总是充满乐趣。但当你深入探讨具体的实践层面时，其价值就更加显著了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "49:16",
+   "en": "That is some really impactful product work. Where can people find that if they want to maybe participate, maybe apply if you're doing another cohort in the future?",
+   "zh": "这真是非常出色的产品工作。如果有人想参与其中，或者未来有新一批项目启动时想申请加入，该去哪里找呢？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "49:24",
+   "en": "Go to Newsproduct.org, there is a very active Slack group with a couple thousand people in it, a very active and popular job board as well. And you just have to submit an application on the website... A form, sorry, on the website to join the Slack, and ten you'll get an invitation to join the Slack. And then you'll have all of the resources at your fingertips, it's very low barrier to entry, and we want everyone and everyone who is interested in the intersection of news and product to be a part of it. And the cool thing about it is like I mentioned, it's a global network. We have people from the biggest newsrooms across the world, to all of the regional ones, to even big tech, one of my fellow board members was doing news at Twitter. (50:10): One was working on the Google News Initiative. So it's a really, really awesome group of people, and everyone is so hungry and passionate about sharing and paying it forward.",
+   "zh": "可以访问Newsproduct.org，那里有一个非常活跃的Slack群组，成员达数千人。还有一个很热门的求职平台。你只需在网站上提交申请……抱歉，是在网站上填写表格加入Slack群组，然后就会收到加入邀请。之后你就能轻松获取所有资源，入门门槛极低。我们希望所有对新闻与产品交叉领域感兴趣的人都能加入其中。最棒的是，这个网络是全球性的。我们汇聚了来自全球各大新闻编辑室、地区性媒体机构，甚至大型科技公司的成员。我的董事会成员中，有人在Twitter负责新闻业务（50:10），还有人参与了谷歌新闻计划。这真是一个由各界精英组成的超棒社区，每个人都充满热情，乐于分享与传承知识。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "50:23",
+   "en": "We'll put a link to this in the show notes. One last question, and what kind of people are you looking for? Who should apply, if they're listening?",
+   "zh": "我们会在节目笔记中附上相关链接。最后一个问题：你正在寻找什么样的人才？正在收听的听众应该如何申请？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "50:29",
+   "en": "If you are interested in working in news and have a product background, or the inverse of that, if you work in news and you're interested in breaking into product. So either side of the coin or any combination of that, news media, product technology, even... We have a lot of audience development, and analytics, and data science folks in there too. It's just an amazing community for knowledge sharing in tech and news, so there will be a fit for you somewhere, or to learn something, or at the very least to meet other really amazing people.",
+   "zh": "如果你对新闻行业感兴趣，又有产品背景；或者反之，如果你从事新闻工作但有意转向产品领域。无论是新闻媒体、产品技术，还是受众开发、数据分析等领域，这里都是绝佳的知识共享平台，总能找到适合你的位置，学习新知，或至少结交杰出人才。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "51:07",
+   "en": "Well, with that we've reached our very exciting lightning round. I've got five questions for you, and are you ready?",
+   "zh": "好的，接下来进入激动人心的闪电问答环节。我有五个问题，准备好了吗？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "51:14",
+   "en": "I'm ready.",
+   "zh": "我准备好了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "51:16",
+   "en": "All right. What are two or three books that you recommend most to other people, or that you've recommended most?",
+   "zh": "好的。你最常向他人推荐的两三本书是什么？或者说你推荐最多的书是什么？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "51:21",
+   "en": "One, Mindfulness in Plain English. Two, How To Win Friends and Influence People. I have to attribute a lot of my communication skills to my dad forcing me to read that book when I was like 10 years old, and-",
+   "zh": "第一本是《通俗易懂的正念》。第二本是《如何赢得朋友并影响他人》。我得把自己的很多沟通技巧归功于父亲，他在我10岁时就逼着我读这本书——"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "51:36",
+   "en": "Wow, 10 years old. Intense.",
+   "zh": "哇，10岁啊。这可真严格。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "51:39",
+   "en": "He was an engineer, and they were in their very beginning phases of introducing... Well, at that time there was no product, but product-type stuff into his engineering practice. And so he had to read the book and was like, \"You need to read this book.\" So I never forgot about it. And then the third one is actually, it's not a book, but it's an article that I think is still very powerful and relevant to this day. It's The New Product Development Game, published by Harvard Business Review in 1986. And it looks at a really different approach, one that I resonate a lot with because it's a lot along the lines of how we work at CNN, around rapid development, and time and flexibility being like key anchors of successful product development. So, I threw that in there as well.",
+   "zh": "他当时是工程师，处于将产品思维引入工程实践的初期阶段。所以他让我读这本书，还说：“你必须读这本书。” 从此我便铭记于心。而第三本其实不是书，而是1986年发表于《哈佛商业评论》的一篇文章《新产品开发博弈》。这篇文章提出了一个截然不同的方法，与我们在CNN的快速开发理念高度契合——灵活性和时间把控是成功产品开发的关键要素。所以我也把它推荐给大家。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "52:29",
+   "en": "Favorite recent movie or TV show? And it can't be White Lotus.",
+   "zh": "最近看过最喜欢的电影或电视剧是什么？不能是《白莲花》。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "52:32",
+   "en": "Okay, I haven't even seen that show.",
+   "zh": "好的，我甚至都没看过那部剧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "52:34",
+   "en": "Okay, great. That's come up so many times, we've got to not allow it anymore.",
+   "zh": "好的，太好了。这问题被提太多次了，我们得禁止再问了。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "52:38",
+   "en": "TV show is a toss up between The Mandalorian and Ted Lasso. I know it's not very new, but I don't watch tons and tons of TV, and I usually find like the few that I latch onto, and then I get obsessed with, and then I've got to take a break for a while. So, those are my last two obsessions. Movie is Everything Everywhere All At Once, the last amazing one that really, really struck a chord with me.",
+   "zh": "电视剧的话，我在《曼达洛人》和《特德·拉索》之间犹豫不决。我知道《特德·拉索》不是很新了，但我不怎么看太多电视剧，通常只会追上几部，然后就沉迷其中，最后还得休息一阵子。所以这两部是我最近沉迷的剧。电影方面是《瞬息全宇宙》，最近看过最棒的电影，真的触动了我。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:02",
+   "en": "If you like Mandalorian check out Andor, it's incredible.",
+   "zh": "如果你喜欢《曼达洛人》，可以看看《安多》，超棒的。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "53:05",
+   "en": "Oh yeah, it's good too.",
+   "zh": "哦，对，那部也不错。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:06",
+   "en": "It's like the best Star Wars thing. Okay, you've seen it. Okay, great, you're on it.",
+   "zh": "那部简直是《星球大战》系列里最棒的作品。好，你看过了。好的，太好了，你懂行。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "53:09",
+   "en": "I still love Mandalorian more, I do like that one too.",
+   "zh": "我还是更喜欢《曼达洛人》，不过我也喜欢那部。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:11",
+   "en": "Wow.",
+   "zh": "哇。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "53:12",
+   "en": "My husband is obsessed.",
+   "zh": "我丈夫超痴迷的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:15",
+   "en": "Okay, okay. Wow, contrarian. Favorite interview question that you like to ask candidates?",
+   "zh": "好的，好的。哇，唱反调的。你最喜欢问求职者什么面试问题？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "53:21",
+   "en": "What's something that would not exist without your initiative?",
+   "zh": "有没有什么事情是没有你的主动性就不会存在的？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:28",
+   "en": "Mm-hmm. And what do you look for in an answer that's a sign that this is someone you may want to hire?",
+   "zh": "嗯。那么，你在回答中寻找什么样的迹象，表明这个人可能值得聘用？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "53:31",
+   "en": "The whole point of the question is like, do you have and can you exhibit high agency? And especially again, working in news it's so important. And so there's not like a specific answer, I think the ability to actually define something specific and tangible in itself is a really, really, really good sign. I think a lot of people definitely get startled by that question sometimes, because it requires you to kind of have to know what it is that you put on the table, right? So yeah, it's different every single time. But if they can define something out of that question, it's usually a positive sign.",
+   "zh": "这个问题的核心是，你是否有主动性？尤其是在新闻行业，这点太重要了。所以没有固定的答案。我觉得能具体定义出某个有形的东西，本身就是个非常非常好的迹象。我觉得很多人有时会被这个问题吓到，因为它要求你必须清楚自己能贡献什么，对吧？所以每次回答都不一样。但如果他们能从这个问题中定义出什么，那通常是个积极的信号。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:15",
+   "en": "Cool, thanks for sharing that additional detail. Next question, what's something relatively minor you've changed in your product development process at CNN or on your team specifically that's had a tremendous impact on your ability to execute?",
+   "zh": "酷，谢谢你分享这些额外细节。下一个问题，CNN或你所在团队在产品开发流程中，有什么相对较小的改进却对执行能力产生了巨大影响？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "54:29",
+   "en": "Bridging the gap between product and editorial, that mutual trust and respect has had an outsized impact on our success as a high-performing team.",
+   "zh": "缩小产品与编辑部之间的差距，这种相互信任和尊重对我们作为高效团队的成功起到了巨大作用。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:38",
+   "en": "Sadly not something other people can use, but that's cool to know. Then we'll have to hire some journalists now, I think, to take advantage of that learning.",
+   "zh": "可惜其他人用不了，但知道这些还是很酷的。那我们现在得招些记者来利用这些经验了。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "54:46",
+   "en": "I can add onto that to make it relevant for others-",
+   "zh": "我可以补充一些内容，让其他人也能受益——"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:50",
+   "en": "Sure.",
+   "zh": "好的。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "54:50",
+   "en": "... which is, it just goes back to, there's no substitute for having those direct conversations with your customers and your users. And it's like, when you understand that the assumptions you make are not one to one, or ever going to be one to one with their actual feedback. And developing that line of communication with your users and your customers is of utmost importance, I think that in itself is the key takeaway. It's like, how do you bridge the gap between collecting that feedback, having those conversations. Like, how far are you from your users, how frequently are you having conversations, how consistently are you having conversations? And I always think the more frequently and the more consistently, and earlier on in the process that you're having those conversations, the better.",
+   "zh": "嗯，首先，我想说的是，与客户和用户进行直接对话是无可替代的。当你意识到自己所做的假设与用户实际反馈之间存在差异时，就更能理解这一点了。与用户和客户建立这种沟通渠道至关重要，我认为这本身就是最重要的收获。如何缩小收集反馈与开展对话之间的差距？你与用户的距离有多远？你们的对话频率如何？对话的连贯性如何？我始终认为，对话越频繁、越连贯，且越早在流程中开展对话，其效果就越好。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:44",
+   "en": "Final question, maybe you already answered this. What's the most crazy or most memorable story from working at CNN?",
+   "zh": "最后一个问题，或许你已经回答过了。在CNN工作期间，最疯狂或最难忘的故事是什么？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "55:51",
+   "en": "Every election season is absolutely crazy in the best way possible. It's incredible to see our democracy in action, and watch history unfold. And while that's happening, using the platform you had a direct hand in building, and it's never lost on me that my work impacts the world every single day. And on the crazy, frustrating, stressful days, that is what serves as my anchor.",
+   "zh": "每次选举季都无比疯狂，但这种疯狂却是最棒的。见证我们的民主制度运作，见证历史的演进，实在令人振奋。在这一切发生的同时，利用自己亲手参与搭建的平台，我深知自己的工作每日都在影响着世界。即便在那些疯狂、令人沮丧、倍感压力的日子里，这份信念始终是我内心的定海神针。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "56:19",
+   "en": "Awesome. Plus, this was amazing, I learned how to brush my teeth more mindfully, about elections, downtime, Trump, all these things. Final two questions, where can folks find you online if they want to reach out and learn more, and how can listeners be useful to you?",
+   "zh": "太棒了。此外，这次访谈非常精彩，我学到了如何更专注地刷牙、关于选举、空闲时间、特朗普等诸多知识。最后两个问题：如果读者想进一步了解你，可以在哪里找到你的在线资料？听众如何能为你提供帮助？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "56:34",
+   "en": "It's very easy to find me. Online I'm pretty active on Twitter and Instagram. I recently became an amateur content creator, so I share lots of stuff here and there on social. So any social platform... Well not any, only on Twitter, LinkedIn and Instagram. So any of those three is good, and I always love to hear feedback on stuff that resonated and made sense, and the stuff that there are further questions on. Always love having conversations around that. So yeah, DMs are always open.",
+   "zh": "找到我很简单。在线平台上，我在Twitter和Instagram上非常活跃。最近我成了业余内容创作者，所以会在社交媒体上分享各种内容。任何社交平台……好吧，不是不行，至少Twitter、LinkedIn和Instagram是不错的选择。随时欢迎大家留言交流。你们有任何反馈，无论是共鸣点、疑惑点，还是想深入探讨的主题，都很宝贵。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:10",
+   "en": "I know we'll link to this in the show notes, but just, what's your handle on these networks?",
+   "zh": "我知道我们会在节目笔记中附上链接，但还是想问一下，你在这些平台上的账号是什么？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "57:12",
+   "en": "It's my first and last name, very creative. I thought about it all by myself.",
+   "zh": "就是我的名字和姓氏，很有创意。我自己想出来的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:16",
+   "en": "Awesome. And then I don't know if you answered the second question, how can listeners be useful to you?",
+   "zh": "太棒了。那第二个问题，你希望听众如何为你提供帮助？"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "57:21",
+   "en": "It's the feedback, right? Like I love to hear what you found valuable, what helped you, what's a tactic that you took away and employed that helped you, things that made sense, things that didn't make sense, what you'd like to hear more about, any specific topic that would be valuable to do a deeper dive on. All of those things are very valuable to me.",
+   "zh": "就是反馈呀！我很想听听你们觉得有价值的内容、对你们有帮助的策略、带走并应用的战术、容易理解的内容、难以理解的内容、想了解更多内容的需求，以及任何值得深入探讨的特定话题。这些对我都非常有价值。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:42",
+   "en": "Amazing. Again, thank you for being here, and adios.",
+   "zh": "太棒了。再次感谢你的到来，再见。"
+  },
+  {
+   "speaker": "Upasna Gautam",
+   "ts": "57:46",
+   "en": "Thank you.",
+   "zh": "谢谢。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:49",
+   "en": "Thank you so much for listening. If you found this valuable you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at Lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢您的收听。如果您觉得本节目有价值，欢迎在 Apple Podcasts、Spotify 或您喜爱的播客应用上订阅。同时，欢迎给我们评分或留下评论，这对帮助其他听众发现本节目非常有帮助。您可以在 Lennyspodcast.com 上收听往期节目或了解更多相关信息。下一期节目再见！"
+  }
+ ]
+}

@@ -1,0 +1,587 @@
+{
+ "id": "Marty Cagan",
+ "name": "Marty Cagan",
+ "category": "企业管理",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Marty+Cagan",
+ "bio": {
+  "en": "Marty Cagan is the author of Inspired and Empowered and a partner at SVPG, widely regarded as one of the most influential voices in modern product management.",
+  "zh": "马蒂·卡根（Marty Cagan）是《Inspired》与《Empowered》的作者、SVPG 的合伙人，被公认为现代产品管理领域最具影响力的声音之一。"
+ },
+ "summary": {
+  "en": "Marty discusses the principles of strong product organizations, including empowered, cross-functional teams and the importance of real product strategy. He shares how the best companies separate discovery from delivery and invest in continuous learning. The episode distills decades of coaching the world's top product teams into core lessons.",
+  "zh": "马蒂探讨了强大产品组织的原则，包括被赋能的跨职能团队，以及真正的产品战略的重要性。他分享了顶尖公司如何把\"探索\"与\"交付\"分开，并持续投入学习。本期将他辅导全球顶级产品团队数十年的经验，提炼为核心要点。"
+ },
+ "turns": [
+  {
+   "speaker": "Marty Cagan",
+   "ts": "00:00",
+   "en": "People don't buy the problem, they buy your solution. Obviously they don't buy it if it's not solving something they care about, but there are many products that are solving what they care about. The real question is, do you solve it better than everybody else so that they buy you? And that's where you need to take time. So this is more like the coaching I give the teams. I tell them, \"Look, be careful. If you need to spend a little time on the problem, fine, but don't spend a lot of time because you need to save as much time as possible to come up with the winning solution.\"",
+   "zh": "人们买的不是问题，而是你的解决方案。显然，如果你的解决方案无法解决他们关心的痛点，他们就不会购买。但市面上有很多产品都能解决他们关心的痛点。所以关键问题在于，你的解决方案是否比其他人做得更好，能让用户选择你？这就需要投入时间去打磨。这也是我给团队的建议——我会告诉他们：“小心谨慎。如果需要花点时间解决问题，那也无妨，但别耗费太多时间。尽可能节省时间来想出最佳解决方案。”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "00:41",
+   "en": "What can I say about Marty Cagan that hasn't already been said? He's the author of Empowered and Inspired, two of the most widely read and influential books on product management. He's also the founder of Silicon Valley Product Group, which he started over 20 years ago. More than anyone else out there, he's been producing the most consistently great and actionable advice for product managers and leaders looking to level up their product game. Before getting into teaching, he was VP of Product at Netscape. He's also a senior VP of eBay. I am humble to have Marty on this podcast. He's an absolute legend in the PM community and I can't wait for you to hear this episode. And with that, I bring you Marty Cagan.",
+   "zh": "关于马蒂·卡根（Marty Cagan），我能说些什么呢？他是《赋能与激励》（Empowered and Inspired）一书的作者，这两本书是产品管理领域阅读量最大、影响力最强的著作。他还是硅谷产品集团（Silicon Valley Product Group）的创始人，该组织成立已有20多年。他为寻求提升产品水平的产品经理和领导者提供了最始终如一的优质且可行的建议，比任何人都更胜一筹。在投身教学之前，他曾担任网景公司（Netscape）的副总裁产品经理，还曾担任eBay的高级副总裁。能邀请马蒂做客本播客，我深感荣幸。他是产品管理社区的绝对传奇人物，我迫不及待想让大家收听这期节目。接下来，有请马蒂·卡根。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "01:23",
+   "en": "This episode is brought to you by Whimsical. When I ask product managers and designers on Twitter what software they use most, Whimsical is always one of the most mentioned products, and the users are fanatical. Whimsical is built for collaborative thinking, combining visual text and data canvases into one fluid medium. Distributed teams use Whimsical for workshops, white boarding, wire frames, user flows, and even feature specs. And that includes thousands of built in icons and a rich library of templates. See why product teams at leading companies call Whimsical a game changer. Visit whimsical.com/lenny to have my own templates added to your account when you sign up. That's whimsical.com/lenny.",
+   "zh": "本期节目由Whimsical赞助。当我在Twitter上询问产品经理和设计师最常使用的软件时，Whimsical总是被提及最多的产品之一，用户对它赞不绝口。Whimsical专为协作思维而设计，将视觉文本和数据画布融合为一个流畅的媒介。分布式团队可利用Whimsical开展研讨会、白板绘图、制作线框图、设计用户流程，甚至编写功能规格说明。平台内还包含数千个内置图标和丰富的模板库。了解为何领先企业的产品团队称Whimsical是变革者。访问whimsical.com/lenny，即可在注册时将我的专属模板添加到你的账户。网址是whimsical.com/lenny。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "02:09",
+   "en": "Hey, Ashley, head of marketing at Flatfile. How many B2B SaaS companies would you estimate need to import CSV files from their customers?",
+   "zh": "嘿，Flatfile的营销主管阿什利（Ashley）。你估计有多少B2B SaaS公司需要从客户那里导入CSV文件？"
+  },
+  {
+   "speaker": "Ashley",
+   "ts": "02:17",
+   "en": "At least 40%.",
+   "zh": "至少40%。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "02:19",
+   "en": "And how many of them screw that up, and what happens when they do?",
+   "zh": "那有多少公司把这事搞砸了？结果又如何？"
+  },
+  {
+   "speaker": "Ashley",
+   "ts": "02:22",
+   "en": "Well, based on our data, about a third of people will consider switching to another company after just one bad experience during onboarding. So if your CSV importer doesn't work right, which is super common considering customer files are chock full of unexpected data and formatting, they'll leave.",
+   "zh": "根据我们的数据，约三分之一的人在入职过程中仅遇到一次糟糕体验后，就会考虑转向其他公司。所以如果你的CSV导入器无法正常工作，鉴于客户文件中充斥着意外的数据和格式问题，这情况极为常见，他们就会离开。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "02:41",
+   "en": "I am 0% surprised to hear that. I've consistently seen that improving onboarding is one of the highest leverage opportunities for both signup conversion and increasing long term retention. Getting people to your aha moment more quickly and reliably is so incredibly important.",
+   "zh": "听到这个我一点也不惊讶。我一直认为优化入职流程是提高注册转化率和提升长期留存率的最高效机会之一。让用户更快、更可靠地触达“啊哈时刻”至关重要。"
+  },
+  {
+   "speaker": "Ashley",
+   "ts": "02:56",
+   "en": "Totally. It's incredible to see how our customers like Square, Spotify and Zuora are able to grow their businesses on top of flat file. It's because Wallace data onboarding acts like a catalyst to get them and their customers where they need to go faster.",
+   "zh": "完全赞同。看到我们的客户如Square、Spotify和Zuora能在Flatfile之上发展业务，真是令人惊叹。这是因为Wallace数据入职功能就像催化剂，能帮助他们和客户更快达成目标。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:13",
+   "en": "If you'd like to learn more or get started, check out Flatfile at flatfile.com/lenny. Marty Cagan, welcome to the podcast.",
+   "zh": "如果你想了解更多信息或立即开始，请访问Flatfile官网flatfile.com/lenny。马蒂·卡根，欢迎来到播客节目。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "03:26",
+   "en": "Thanks for inviting me, Lenny.",
+   "zh": "感谢邀请，莱尼。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:28",
+   "en": "It's absolutely my pleasure. I'm just going to jump straight in. I've noticed that you've been getting a lot more philosophical about product, especially in a lot of your recent writing, including a recent post that you call the Nature of Product, where you talk about a lot of these core misconceptions that people have about product management. Essentially how people don't really understand how different it is to build product at a company with a strong product culture versus what you'd call not such a strong product culture. And the way that you described it is that it's trying to explain to someone what the Grand Canyon is by just showing them pictures of the Grand Canyon. And so I'd love to just dive into that and just hear your take on this new philosophical bent that you've taken on product and these misconceptions that you've been seeing across product and product management.",
+   "zh": "非常荣幸。我直接切入正题吧。我注意到你最近对产品管理的思考越来越具哲学性，尤其是在你最近的多篇文章中，比如《产品管理的本质》一文，你在文中剖析了人们对产品管理的诸多误区。核心观点在于，相较于拥有强大产品文化的公司，人们往往不理解在产品文化薄弱的公司中打造产品的巨大差异。你用一个比喻来解释——就像试图用图片向别人描述大峡谷，却无法让他们真正理解其壮丽。我很想深入探讨这个问题，听听你对产品管理领域新兴哲学思潮及相关误区的看法。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "04:16",
+   "en": "Yeah, sure. I mean, it's frustrating and that's what caused me, occasionally I go through these philosophical waves where I look a little harder about... It's frustrating because I really thought by the year 2022, we would not have such a chasm between how good companies work and the rest. There's such strong incentives, just the profit motive alone. Why don't more companies want to work like the best? So I find that just perplexing. And yes, it's true, and one of the funny things, and I bet you could relate to this, Lenny, I have friends on both sides. I have friends on both sides, the ones that work in not very good companies, a lot of them honestly don't believe me when I describe how good companies work. They're like, \"Nobody does that.\" And then when I tell my friends at the good companies, they often say, \"Nobody does that either, why would they do that? Are they crazy? Who would want to work that way?\" And so this is mind boggling to me.",
+   "zh": "是的，确实如此。这令人沮丧，也促使我偶尔陷入这样的哲学思考浪潮——我曾以为到2022年，优秀公司与其他公司的差距会明显缩小。但现实是，利益驱动的因素实在太强大了。为什么更多公司不效仿行业标杆？这真让人费解。说到这儿，我有个有趣的发现——莱尼，你肯定能感同身受。我两边的朋友都有不同见解。那些在不善于管理产品的公司工作的朋友，听到我描述优秀公司的运作方式时，往往难以置信。他们会说：“没人会那样做。”而我在优秀公司工作的朋友则反驳：“没人会那样做，他们为什么要那样做？他们疯了吗？谁会愿意那样工作？”这真让人困惑。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "05:27",
+   "en": "And anyway, when I try to explain to somebody that's never actually worked on a real product team what it's like, you realize that sometimes it feels like I'm speaking a different language to them. And what I realized is that they are so ingrained in this very, very... And I don't even want to say old school because it's not the fact that it's old, it's just the fact that it's obsolete. They have this idea that a product manager does requirements in some form or another, PRDs, user stories, whatever you want. And then a designer's job is to basically make it pretty and maybe do some wire frames. And then the whole mess is taken its sprint planning to the engineers, and you say, \"This is what you need to build next.\"",
+   "zh": "当我试图向从未真正参与过产品团队的人解释产品管理的全貌时，你会发现有时他们简直听天书。比如，他们深信产品经理要以某种形式完成需求文档、用户故事之类的工作。设计师的工作就是把产品美化一下，或许再画些线框图。然后把整个需求包交给工程师，说：“接下来要建这个。”"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "06:15",
+   "en": "That is so ingrained. And the quarterly roadmaps come in, it's so ingrained. And they think that the job is, \"Yo, our job is to crank out features.\" And a lot of them don't even think twice because that's all they've ever known. And of course, I try to explain to them, \"You know, that's really not how it works in any of your favorite products.\" Any of your favorite products or companies. It's a very different animal. You've really got true peers. The developers aren't there to just implement your dumb ideas, they are there to help you come up with a great solution. The designer's not just there to make your thing look pretty, they're there to help create a great experience. And by the way, you have a very different job as product manager. You need to bring skills to that team that the team doesn't have in design and engineering, because together you're able to really do what you need to do. So when I describe that, it's pretty different. These are not minor differences we're talking about. These are pretty dramatic differences. I really do believe at this point in time that feature teams and real product teams should not use the same string product manager. The job is so radically different, that it's misleading to call them both product manager.",
+   "zh": "这已经根深蒂固了。季度路线图一出，情况还是老样子。他们觉得自己的工作就是“赶紧把功能做出来”。很多开发者甚至想都不加思索，因为这就是他们所熟知的模式。当然，我试图向他们解释：“要知道，你最喜欢的那些产品可不是这样运作的。” 无论是你的心仪产品还是公司，情况都截然不同。优秀的团队成员不是来执行你的愚蠢想法的，而是帮助你构思出卓越的解决方案。设计师也不只是负责让产品外观美观，他们还要助力打造卓越的用户体验。顺便说一句，作为产品经理，你的工作也完全不同。你需要为团队带来设计和工程领域所缺乏的技能，因为只有这样，你们才能真正完成任务。所以当我描述这些差异时，真的非常显著。这可不是些微的不同，而是巨大的转变。我坚信，在当下这个时代，功能开发团队和真正的产品团队不应该共用同一批产品经理。两者的职责差异太大了，把他们都称为产品经理实在具有误导性。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:49",
+   "en": "For folks listening to this. And they're like, \"Hmm, which one do I work on? I'm not even sure.\" What are some, maybe three to five, signs that you work at a feature factory or feature team as you describe it?",
+   "zh": "对于正在听这段对话的人们。他们可能会想：“嗯，我该选择哪种团队呢？我甚至不确定。” 你能描述一下，作为你所说的功能工厂或功能团队成员，可能会有哪些三到五个迹象？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "08:00",
+   "en": "Yeah. Well, it's not hard to tell fortunately. I mean, if you've seen both, it's not hard to tell. In a feature team, basically you are handed a typical roadmap. Almost everybody, even though I wish this wasn't the case, almost everybody to have the same thing, that it's a prioritized list of features and projects. So some stakeholders got together, usually quarterly, and they say, \"Look, to run our part of the business, we need these features. It's not really complicated. We need these features.\" And so they're giving you these features. Now realize, these features are possible solutions. So you are being asked to do a little design and a lot of coding and then some QA and then deploy it. And more generally, you're there to serve the business. Now compare that to a real product team. In a real product team, first of all, instead of being given a roadmap of prioritized features, they're given problems to solve.",
+   "zh": "是啊。不过幸运的是，这并不难分辨。只要你亲眼见过两者之间的差异，就能轻易辨别。在功能团队中，基本上你会拿到一份典型的路线图。几乎所有团队（尽管我希望情况并非如此）都会面临同样的问题——一份按优先级排序的功能和项目列表。于是，一些利益相关者每季度聚在一起，说：“看，要运营我们这部分业务，我们需要这些功能。这并不复杂，我们需要这些功能。” 然后他们就把这些功能交给你。现在请注意，这些功能只是可能的解决方案。所以你需要做一点设计、大量编码，再加上一些质量保证测试，最后再部署。更普遍地说，你的职责是为业务服务。而与此相比，真正的产品团队呢？在真正的产品团队中，首先，他们得到的不是一份按优先级排序的功能列表，而是需要解决的问题。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "08:58",
+   "en": "So it might be a customer problem. It could be a company problem, it's all fair, but they're problems to solve. And the team is then given the skills so that they can come up with the best solution to that problem. I mean, that's the Netflix principle is push the decisions down to the people that actually have the knowledge to best solve the problem. The engineers are working with the enabling technology every single day, the product teams are working with the users and customers every single week. So of course, those are the ones that are closest to this, those are the ones you want to push the decision down to. Another difference is when you're given a problem to solve, that's not output, that's outcome, so you either solve it or you don't. As you probably know, most good teams today are doing continuous deployment, continuous delivery.",
+   "zh": "所以这可能是用户的问题，也可能是公司的问题，但总归是需要解决的问题。然后，团队会被赋予相应的技能，以便为该问题找到最佳解决方案。我的意思是，Netflix的原则就是将决策权下放给真正具备知识、最能解决问题的人。这里的工程师每天都在与赋能技术打交道，产品团队每周都在与用户和客户打交道。所以显然，这些团队与问题最为贴近，正是这些团队应该被赋予决策权。另一个差异在于，当你被赋予一个需要解决的问题时，这不是产出，而是结果。所以你要么解决它，要么不解决。正如你可能知道的，如今大多数优秀的团队都在进行持续部署和持续交付。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "09:49",
+   "en": "They're releasing many times a day. Who cares if you make another release? If it doesn't actually solve the problem, it's nothing to brag about. It's nothing to celebrate. So in a real product team, you celebrate when you actually solve the problem, when you accomplish those results. That's why we say product teams are about outcomes, they're not about output. So feature teams and product teams, superficially, they're both squads, but they are very, very different. Now it's worth double clicking on the product manager role because fundamentally, the designer and the engineering role are not hugely different. We're asking the designer and the engineers to step up and care just as much about what you build is how you build, but they're using the skills that you learned in university or wherever. On the other hand, in a feature team, the product manager is basically there to herd the cats to get it, and that's non-trivial, but they need to get stuff organized.",
+   "zh": "他们每天发布很多次。谁在乎你又发布了一次？如果这并不能真正解决问题，那就没什么值得炫耀的。也无需庆祝。所以在真正的产品团队中，当你真正解决了问题、达成了成果时，才是值得庆祝的。这就是为什么我们说产品团队关注的是结果，而非产出。功能团队和产品团队表面上看都是团队，但实际上有天壤之别。现在值得深入探讨产品经理这个角色，因为从根本上来说，设计师和工程师的角色并没有太大差异。我们要求设计师和工程师同样关注所构建的内容和构建方式，但他们使用的都是在大学或其他地方学到的技能。另一方面，在功能团队中，产品经理基本上就是负责组织协调工作，确保事情推进，这固然不易，但他们需要把事情安排得井井有条。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "10:49",
+   "en": "They need to get stuff gathered. These requirements, you need to document them in whatever tool you're using, in Jira or something, and then you need to get it to sprint planning. You need to make sure it comes out. That's herding cats. It's essentially a project management role. But on an empowered product team, where you're trying to come up with a solution that solves the problem you've been assigned, that's much harder because that means we have to discover a solution that's valuable, usable, feasible, viable. Now while the engineers definitely own feasible, and the designer definitely owns usable, valuable and viable, which are two of the hardest things to do, that's the product manager, and those are pretty big shoes to fill. Those are hard. That takes skill, it takes knowledge. That's why we say in order to be a product manager on a real product team, you've got to do your homework.",
+   "zh": "他们需要收集需求。这些需求需要记录在你使用的任何工具中，比如Jira之类的，然后提交到冲刺规划阶段。确保需求能够落地。这就是组织协调工作。这本质上是一个项目管理角色。但在赋权型产品团队中，你需要为分配给你的问题想出解决方案，这要难得多，因为这意味着我们必须找到有价值、可用、可行、可持续的解决方案。工程师当然负责可行性，设计师则负责可用性、价值和可持续性——这两个部分是最难实现的。这就是产品经理的职责，责任重大。需要技能和知识。这就是为什么我们说，要在真正的产品团队中担任产品经理，你必须做好充分准备。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "11:45",
+   "en": "You touched on this idea that people mention this way working sounds like a dreamland to folks that haven't experienced it. And I asked folks on Twitter what questions to ask you, and that came up a couple times, is people are like, \"I read your stuff.\" And I'm like, \"Does this actually exist anywhere? I've never experienced this way of working,\" just to make people feel like this is possible. One, is there companies that are good examples of this way of working that you like to describe? And then two, just to reaffirm, this is possible, this happens at companies out there, correct?",
+   "zh": "你提到很多人认为这种工作方式听起来像是梦想之地，但没经历过的人可能不理解。我在Twitter上问大家想问你什么问题，结果有几个人提到，他们说：“我读过你的文章。”我回应：“这种方式真的存在吗？我从未体验过这种工作方式。”只是想让人们感觉这是有可能的。首先，有没有好的案例可以分享？其次，确认一下，这种方式确实存在于现实公司中吧？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "12:16",
+   "en": "Oh, I mean, it's funny. So first of all, and I should always say this at the very beginning. Whenever I work with teams, I always try to remember to say this somewhere. Nothing I talk about, and honestly being very clear, nothing I've written about in Inspired, nothing I've written about in Empowered was invented by us. All we do is share the practices we see being used in the best teams. So the heuristic is pretty easy. If it's used by several of the best teams, we're like, \"Okay, let's start recommending it. Let's see how it works there. And if it works well, we'll start advocating it.\" And on the other hand, somebody says, \"Oh, have you heard about this process? Or have you heard about this tool?\" And if none of those companies are using it, I'm like, \"Don't bother me. It's either snake oil or it's not proven yet.\"",
+   "zh": "哦，真有意思。首先，我应该在开头就说明这一点。每次与团队合作时，我都会记得在某个地方提到这一点。无论我谈论的内容，坦白说，在《灵感》和《赋权》中写的任何内容，都不是我们发明的。我们所做的，就是分享在优秀团队中看到的实践。所以判断标准很简单。如果多个优秀团队都在使用某种方法，我们就会说：“好的，开始推荐它吧。看看效果如何。”如果效果不错，我们就会开始推广。相反，如果有人说：“哦，你听说过这个流程吗？或者听说过这个工具吗？”如果这些公司都没有用过，我就说：“别来烦我。要么是骗人的，要么还没被验证过。”"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "13:04",
+   "en": "We don't invent any of this stuff, we just try to share it. There's a little bit, I mean, I'd say the thing that we do is we try to untangle the company's culture from the technique, because Amazon's got their favorite cultural stuff, google does, Netflix does Stripe does. And don't get me wrong, I love those cultures, but they're all different cultures. They're very different cultures. So what we're trying to do is untangle that and share the techniques themselves. But you can read books. Working Backwards from Amazon describes what I talk about all the time, but it's using Amazon terms. You can read No Rules Rules from Netflix. You can see how that's done. You can read Build that talks about how Apple did it. It's all great, but you've got to work a little harder to see the common threads. That's really what we're trying to do.",
+   "zh": "我们并没有发明这些东西，我们只是想分享它们。我的意思是，我们所做的是试图将公司的文化与技术分开，因为亚马逊有他们钟爱的文化，谷歌如此，奈飞亦然，Stripe也是如此。别误会，我喜欢这些文化，但它们都是不同的文化。截然不同的文化。所以我们要做的是把这两者分开，分享技术本身。但你可以去读相关书籍。《从亚马逊学逆向》描述了我常提到的内容，但它用的是亚马逊的术语。你可以读奈飞的《无规矩则成》。你可以看看他们是如何做的。你可以读《Build》，看看苹果是如何做到的。这些都很棒，但你得更努力才能发现其中的共性。这一点正是我们努力去做的。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "14:03",
+   "en": "But all these companies Stripe, fabulous Shopify, look at what Slack has done. Even props to Spotify, they've been able to hold their own against Apple and Amazon for so many years. And of course, I'm talking about well known brands. There's countless small companies that nobody's heard of, but hopefully if they keep doing well, people will hear of them one day. But no, it's not a few companies. And there's great companies all over the world today, but it is true that it's a small fraction of total companies. And that's the part that really bothers me.",
+   "zh": "但所有这些公司——Stripe、出色的Shopify，看看Slack做了什么。甚至要为Spotify点赞，他们多年来一直能与苹果和亚马逊抗衡。当然，我说的是知名品牌。还有无数没人听说过的小公司，但希望它们能继续发展，总有一天人们会知道它们。但不止是少数几家公司。如今全球有很多优秀的公司，但确实只占所有公司的极小部分。这才是真正让我烦恼的地方。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:42",
+   "en": "Do you have a sense of what that fraction is? What percentage?",
+   "zh": "你知道这个比例是多少吗？百分之多少？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "14:45",
+   "en": "I had this conversation actually, you know Shreyas Doshi too, don't you?",
+   "zh": "我其实和Shreyas Doshi聊过这个话题，你认识他，对吧？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:49",
+   "en": "He's on this podcast.",
+   "zh": "他上过这个播客。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "14:49",
+   "en": "He's one of my favorite thinkers. Yeah, he is one of my favorite thinkers in product. He's just terrific. Because he's also one of those people, at first he was asking me, \"Do people really work like you write about? Really, they're that clueless?\" And yes, they really are. That's all they know. And of course, the bigger question is, why would they really work like that? We will get to that. But anyway, I don't know. One of the things that makes it hard is there's a lot of people that write software in the world. And first of all, you can break it in half saying those that write commercial products, meant to be bought by lots, and those that just do custom solutions. For a long time, and I don't know if this is still accurate, but for a long time, the industry analyst that I read said that it was actually much bigger number of people doing custom solutions around the world. And so none of those people would really count. So it's hard to say. Does anybody know how many companies really do commercial products? And then what percentage? My purely anecdotal guess is maybe 10 to 15% are good product companies, something like that.",
+   "zh": "他是我最喜欢的产品思考者之一。他太棒了。因为他也是那种人，起初他问我：“人们真的像你写的那样工作吗？真的如此无知吗？” 是的，他们确实如此。这就是他们所知的一切。当然，更重要的问题是，他们为什么要这样工作？我们稍后再谈。但不管怎样，我不知道。困难之处在于，世界上有很多写软件的人。首先，你可以把他们分成两类：一类是写商业产品的，另一类是只做定制解决方案的。很长一段时间以来，我不确定现在是否还准确，但很长一段时间以来，我读到的行业分析师说，在全球范围内，定制解决方案的从业者数量要多得多。所以这些人都不能算。所以很难说。有人知道真正做商业产品的公司有多少吗？然后是百分比呢？我纯粹根据个人经验猜测，也许10%到15%是优秀的产品公司，大概这样。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:10",
+   "en": "Sweet. I love that there's a number. All right.",
+   "zh": "不错。我很高兴能有个数字。好吧。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "16:14",
+   "en": "Who knows? It could be orders of magnitude off.",
+   "zh": "谁知道呢？数字可能相差甚远。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:17",
+   "en": "Seems reasonable. So a lens that I want to use for part of the rest of our chat is this documentary that you've been recommending in some of your writing that I recently watched and I'm really excited to chat about it. It's a documentary called The Lost Interview where they interview Steve jobs, after he was fired from Apple but before he came back to run Apple. And there's a ton of insights that you've been able to extract that I also loved listening to and thinking about, and I'm excited to chat through this. So first question is just, what about this interview has struck you most initially broadly?",
+   "zh": "听起来挺合理的。接下来我想聊聊你近期推荐的纪录片《失落的采访》。这部片子我刚看完，非常兴奋能和大家探讨。影片讲述了史蒂夫·乔布斯被苹果解雇后、重返苹果前的那段时光，里面有很多深刻见解，让我听得入迷、深有共鸣。首先，我想问问你，最初被这场采访打动的是什么？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "16:53",
+   "en": "Yeah. Well, one of the reasons I loved it is he very rarely talked about product. He loved to talk about his products. He loved to talk about why the iPhone was awesome, why the iPod was awesome, why the Mac was awesome, but the nature of building products was not. I mean, that was his secret sauce if you will, is he had very good insights to this. And so to find this hour plus interview where he's very thoughtful. He had a chance to think through what went well, what went wrong. And to answer your question, in my own writing, and in fact in the recent book Empowered, I share my theory for why there's such a big difference between the best and the rest. In other words, why isn't every company trying to work like the best companies?",
+   "zh": "嗯，我喜欢这部纪录片的原因之一是，乔布斯很少谈论产品设计。他热衷于谈论自己的产品，喜欢夸赞iPhone、iPod和Mac的卓越之处，但对产品研发的本质却鲜有提及。可以说，这正是他的核心秘诀——他对产品设计有着深刻的洞察力。在这场一个多小时的采访中，他以极具洞察力的视角审视了成功与失败的根源。说到这里，我在自己的文章和新书《赋能》中提出了一个观点：为什么顶尖公司与普通公司之间存在巨大鸿沟？换句话说，为什么不是每家公司都想效仿顶尖公司的运营模式？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "17:54",
+   "en": "I mean, why not? Look at the valuation they get. For money alone, you'd think it would do that. And my best theory was that, well, the biggest reason I see is that they have never worked at a company like that, so they don't know what it looks like. They don't know what good looks like. And then I watched this video, which, as you know, resurfaced recently. And Steve Jobs shared his theory from 1995, for God's sakes. And I'm listening to it and I'm going, \"Oh my God, his theory is better than my theory for sure.\" And it's still more relevant. And he talks about product discovery, he talks about process people, he talks about all these really relevant topics. But the one that struck me the most was his theory for why there are so many bad product companies. And his theory was, and by the way, I hope everybody that's listening to your podcast, it costs $4 to rent this on Amazon Prime.",
+   "zh": "是啊，为什么？看看这些公司的估值就知道了。单从金钱角度看，应该不难理解。但我的核心观点是，最大的原因在于普通公司从未在这样的环境中工作过，所以他们不了解优秀的标准。看完这段视频后——你可能知道，它最近被重新上传了——发现乔布斯早在1995年就分享了他的产品设计理论。听他讲解时，我感叹道：“天哪，他的理论比我的深刻多了！”而且至今仍具现实意义。他谈到了产品探索、流程导向的人才培养等关键议题，但最触动我的是他对劣质产品公司的分析。顺便说一句，希望听你播客的朋友们知道，在亚马逊Prime上租看这部纪录片只需4美元。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "18:59",
+   "en": "Definitely you should watch it. The whole thing. So don't let my summary discourage you. It's worth watching. But anyway, he shares that he thinks what happens in general, as companies get bigger, obviously they wouldn't have got big if they didn't have a decent product at one point or another. But what he was talking about is the same thing I am. Why is it that so many companies lose that mojo? And his argument was because as a company gets bigger, product historically became less important. The people in a company that would be celebrated were marketing people, sales people, finance people. If a company stops innovating, these are the engines for growth. Sales, marketing, or not growth with finance, but cutting cost. And his argument was this happens over time. Pretty soon, these are your leaders. They're the ones that have been promoted. So then what happens? Good product people don't want to work there anymore and they leave and they go to a company that values product. I think that's a better explanation than any other that I've heard. And it was so prescient because when he said this, this had yet to even happen to so many other companies, but it still happens all the time. I wrote an article a while ago called Devolving from Good to Bad that was observing some of this, but he really tapped into it. And honestly I think he's spot on.",
+   "zh": "你们绝对应该去看这部影片。全片都值得一看。所以别被我的简要介绍劝退了。这部片子绝对值得一看。但不管怎样，他谈到自己认为一个公司做大后，通常会出现这样一种情况：如果公司当初没有拿得出手的产品，它就不可能做大。但他所探讨的核心问题和我如出一辙——为什么那么多公司会失去创新活力？他的论点是，随着公司规模扩大，产品在战略地位上逐渐式微。那些被公司追捧的职位逐渐从产品人员转向营销人员、销售人员和财务人员。如果公司停止创新，这些部门就成了增长引擎——销售、营销，或是财务部门通过削减成本来维持增长。而这种现象会随着时间推移逐渐形成恶性循环。很快，这些部门的负责人就会成为公司晋升的主力军。接下来，优秀的产品人员会因环境恶化而离职，转投重视产品的公司。我认为这比我听过的任何解释都更贴切。更重要的是，他对这一现象的洞察力极具先见之明。当时他提出这个观点时，许多公司尚未遭遇这种困境，但如今这种情况却屡见不鲜。我不久前写过一篇名为《从优秀到糟糕的退化》的文章，部分观点与他不谋而合，但他对此的剖析更为深刻。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "20:43",
+   "en": "I like that he describes these as diseases of a company. They own enough market share. This is what happens. Growth is happening. They're winning. They don't need to keep innovating and it becomes this disease. And it's a really powerful way of thinking about it that you want to try to keep this disease from taking over your culture and product and company. And I think there's market share. And then just generally, it happens to companies just doing well. Things are going well, let's not break anything. Why launch something risky and new, and why not just keep selling this thing that everyone seems to want?",
+   "zh": "我很欣赏他将这些现象比作公司的“疾病”。当公司占据足够的市场份额时，问题就出现了。增长势头正盛，业绩亮眼，创新动力逐渐消退，最终形成恶性循环。这是一种非常深刻的思维模式，企业需要竭力防止这种“疾病”侵蚀文化、产品和公司根基。归根结底，市场份额的稳固往往是问题产生的根源。许多发展顺利的公司会陷入惯性思维：既然一切顺风顺水，为何要冒险创新？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "21:13",
+   "en": "And actually, Lenny, I think it's worth highlighting because that is an anti-pattern I see a lot, especially after the founders leave. You know how a lot of times in product, we'll talk about there's value creation activities, there's value capture activities. Discovery is all about value creation, optimization's all about value capture. And they're both great, absolutely. You should do both, but so many companies after the founders leave, they're scared. They're literally scared. The product teams are scared, the executives are scared. And the reason they're scared is because they don't know what is essential and what is incidental. They're scared they're going to hurt the thing that's fueling the business.",
+   "zh": "说到这里，莱尼，我觉得值得强调一点——这正是我经常见到的反面案例，尤其是在创始人离职后。产品领域常提到的价值创造活动和价值捕获活动就是例子。探索阶段专注价值创造，优化阶段则侧重价值捕获。两者都重要，但许多创始人离开后的公司陷入恐惧——产品团队恐惧，管理层恐惧。恐惧的根源在于他们分不清哪些是核心，哪些是次要。他们害怕损害到支撑业务的根基。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "21:59",
+   "en": "Now of course, the founders knew the thing because they were there from the beginning. They have all this institutional knowledge. They know what's important, they know what's not, and they have that confidence. Sometimes we talk about the moral authority of the founder. They know and they know deeply what is essential and what's not. But when they're gone, very often we see companies that are scared. I can tell because all they're doing is little low risk, Optimizely A/B tests. They're just doing these little A/B tests. They're just tweaking the workflows, the main flows, growth, retention. They're just tweaking. And again, there's nothing wrong with that, but those things will not innovate. They will not cause major improvements to the company. So once they stop doing real discovery, to me, it's just the beginning of the end.",
+   "zh": "当然，创始人们对此心知肚明，因为他们从一开始就深深参与其中。他们拥有丰富的企业运营经验，深知哪些重要，哪些不重要，也拥有十足的自信。有时我们会谈到创始人的道德权威——他们洞察力敏锐，深知何为关键，何为次要。但当创始人离开后，很多公司往往陷入恐慌。我能看出来，因为他们只做些低风险的优化测试，比如A/B测试。他们只是微调工作流程、主流流程、增长策略和用户留存机制。这些改进固然无可厚非，但绝非创新之举，难以推动公司实现质的飞跃。所以一旦停止了真正的探索，在我看来，就是走向衰落的开端。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "22:55",
+   "en": "What's interesting there is if folks at the top are running it have ideas are not confident about where to go, you think they would empower their teams on the ground to figure out what to do. Instead, they turn into these top down feature teams and they tell them, \"Let's just build this thing. I don't know, but it's probably the best idea and I probably know more than you do,\" and they don't.",
+   "zh": "令人担忧的是，如果高层管理者自己也拿不定主意、缺乏方向感，他们本应赋予一线团队自主权，让他们去探索解决方案。但相反，这些公司往往会组建自上而下的功能团队，命令团队成员：“赶紧把这个功能做出来。我虽然不确定，但这很可能是最佳方案，而且我比你们懂得多得多。” 但现实往往事与愿违。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "23:16",
+   "en": "And in fact, that was one of the diseases that Steve Jobs highlighted in that interview. He called it the disease of the stakeholders, of the managers, where they think that an idea is 90% of the work. And that's how he called it out. And he's like, \"They don't understand. The idea is minor. The idea is just to start.\" I think he said, \"The whole craftsmanship of going from an idea to a product.\" This is what we call product discovery. He was describing product discovery and how things change constantly with every iteration. You make trade offs, it starts off one way, it ends up another way. And of course, he's pointing out that most of these executives have no idea, no appreciation for that's actually how you get a great product. It's not that a bunch of executives go in a room and they come up with their prioritized list of features and then they just tell the teams to build them.",
+   "zh": "事实上，史蒂夫·乔布斯在那次采访中就曾点出这种弊病。他将其称为利益相关者和管理者的病症，认为他们误以为创意本身就是90%的工作。乔布斯曾说：“他们根本不明白。创意只是个开始。真正的挑战在于将创意转化为产品。” 这正是我们所说的产品探索阶段。他描述了产品探索过程，强调每个迭代都会带来巨大变化，权衡取舍，想法起始时与最终实现往往大相径庭。乔布斯还指出，大多数高管根本不了解这其中的奥秘，不懂得如何打造卓越产品。他们不会召集团队开会，列出优先级排序的功能列表，然后命令团队去实现。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "24:18",
+   "en": "In fact, we know at this point only about 20% of those things will generate any positive return. So you think there's enough evidence out there that they would realize that was fatal, but I think it's a lot of arrogance because every executive thinks they're smarter than every other one, and so theirs are the better ideas. But it's really not that way. I mean, good product teams and good product companies know that an idea's just the very sparkle in the eye, it's just the start. Getting to a product is what matters, and that's work.",
+   "zh": "事实上，我们现在知道，这些创意中只有约20%能带来正向回报。即便如此，人们仍有足够证据意识到这种做法的致命缺陷，但更多是出于傲慢心理——每个高管都自以为比别人更聪明，认为自己的想法更优。但事实并非如此。优秀的产品团队和公司深知，创意只是灵光一现的火花，仅仅是起点。真正重要的是将创意转化为产品，而这需要持续的努力。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "24:50",
+   "en": "This touches on a question I definitely wanted to ask, which is sometimes leaders think they're like, \"I just know what to build. Why do we need to go through this whole thing? Just build this thing. I'm very confident this is the answer.\" And what you talked about just now is a big reason for that, is a lot of times you don't and you think you do. And a lot of the magic happens in that process of building, iterating, learning, talking to customers. Is that how you see it?",
+   "zh": "这让我想到一个迫切想问的问题：有时领导者会觉得自己说：“我知道该做什么。为什么要走这些流程？直接做就行了。我非常确定这就是正确的答案。” 你刚才提到的正是这种现象的核心原因——很多时候人们自以为是，实则一知半解。真正的魔法往往发生在构建、迭代、学习和与客户沟通的过程中。你怎么看？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "25:15",
+   "en": "Absolutely. And there is one danger zone that a lot of product teams inadvertently fall into there, which is when we talk about discovery, technically there's two kinds of discovery. There's discovering the problem to solve that you should focus on, and discovering the solution that you're going to deliver that people would buy. And a lot of product teams, the founder knows the problem. In fact, most of the company knows the problem. But a lot of times, a product team thinks that they're supposed to, even if they're confident on the problem that they're supposed to go through these some number of weeks or months of problem validation, making sure that people really have that problem, enough of them have that problem. They understand that problem. And again, in an ideal world with no constraints, not really a problem. But in the real world, the clock is ticking.",
+   "zh": "确实如此。但很多产品团队会不经意地陷入一个危险区域，这涉及到产品探索阶段。技术层面上来说，产品探索分为两个部分：一是发现需要解决的问题，这是你应该关注的重点；二是找到人们愿意购买的解决方案。很多产品团队中，创始人本身就清楚需要解决的问题。事实上，公司里大多数人也都清楚。但很多时候，产品团队认为自己必须要经历数周或数月的验证过程——即便他们对问题足够确定——也要确保人们确实存在这个问题，且足够多的人有这个需求，并真正理解这个问题。在理想状态下，这种验证没有时间限制，但现实世界中，时间紧迫。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "26:19",
+   "en": "And if you use, say, two weeks of just verifying the same thing the founder already knew, that founder is probably very frustrated at this point because you haven't even got to work on the solution. And people don't buy the problem, they buy your solution. Obviously, they don't buy it if it's not solving something they care about, but there are many products that are solving what they care about. The real question is, do you solve it better than everybody else so that they buy you? And that's where you need to take time. So this is more like the coaching I give the teams. I tell them, \"Look, be careful. If you need to spend a little time on the problem, fine, but don't spend a lot of time because you need to save as much time as possible to come up with the winning solution.\" And it's worth pointing out, since we were talking about Steve Jobs, that was solution discovery when he was describing the 5,000 things you keep in your head. That's solution discovery. So that's important. Product teams need to know that that's where they will either succeed or fail.",
+   "zh": "比如，如果你用两周时间去验证创始人早已知晓的问题，创始人很可能会感到沮丧，因为你甚至还没开始着手解决方案。人们买的不是问题，而是解决方案。显然，如果解决方案无法解决他们关心的痛点，就没人会买账。但很多产品确实解决了用户痛点，但真正的问题在于，你是否能比其他人做得更好，从而让用户愿意购买你的产品。这才是值得投入时间的重点。这就是我给团队的建议。我会告诉他们：“小心了，如果需要花点时间验证问题，可以接受，但别浪费太多时间。你们应该尽可能节省时间，用来构思出制胜的解决方案。” 值得一提的是，我们之前谈到史蒂夫·乔布斯时，他描述自己脑海中盘旋着5000个问题时，这就是解决方案的探索过程。这很重要。产品团队需要明白，这决定了他们的成败。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "27:35",
+   "en": "I know this point is really important to you, this idea that PMs are taught that their job is to figure out the what and not the how. And just to reinforce this point, you're a big fan of, \"No that's completely wrong. PMs are very responsible for the how also.\"",
+   "zh": "我知道你特别重视这一点——产品经理被教导他们的职责是确定“是什么”而非“如何做”。让我再强调一下你的观点：你可是个坚定的支持者，你说：“不，这完全错误。产品经理同样要对‘如何做’负责。”"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "27:51",
+   "en": "That one always makes me laugh because I was thinking, \"Do you know how many hours a week I'd need to work if that was my only job?\" Probably I'd phone it in 15 minutes a week, \"I'm done. I did my part.\" This is ridiculous. Again, all you have to do is think through it a little deeper. When you're trying to come up with a successful solution, I mean, there are different taxonomies out there. The one I use is it's got to be valuable, usable, feasible, viable, but most products fit. Those are the risks you can call them different things, but those are the risks. And the product manager is responsible for making sure that the solution is valuable and viable, and that is hard. That is hard. That takes real work. And that's part of the how. That's a pretty integral part of the how as well.",
+   "zh": "这句话总是让我发笑，因为我会想：“你知道如果这是我唯一的工作，我每周得工作多少小时？” 可能我每周只需工作15分钟就够了，然后说：“我完成了，尽到我的责任了。” 这太荒谬了。说真的，你只需再深入思考一下。当你试图构思一个成功的解决方案时，市场上存在不同的分类法。我使用的分类法是解决方案必须具备价值、可用性、可行性、可持续性。但大多数产品都符合这些标准。这些风险可以用不同词汇描述，但本质不变。产品经理负责确保解决方案既有价值又可行，这很难。这很难。这需要真正的努力。这也是“如何做”的一部分，也是非常关键的一部分。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "28:48",
+   "en": "Now you don't tell the engineers how to code. You don't tell the designer how to design, but you do have a big part. All of us together are coming out with that how. So the how is how it all works. And obviously, how you monetize, privacy issues, security issues, how it's going to go to market, these are all how, but they're product management responsibilities. They're not more or less important than what the designer engineer does because all four of those risks, if any one of them fails, you've got a failure of a product. So those are table stakes. And that's why I laugh when I hear people say, \"Oh, you just have to say, the why is so trivial.\" And it's just so uninformed. I just don't know where the origin is for all that stuff.",
+   "zh": "如今，你不会告诉工程师如何编码，也不会告诉设计师如何设计，但你确实发挥着重要作用。我们所有人共同努力，找出解决方案。所谓的“how”，也就是整个产品运作的核心逻辑。显然，如何变现、隐私问题、安全问题，以及产品上市策略，这些都是“how”层面的问题，但它们属于产品管理的职责范畴。它们与设计师和工程师的工作同等重要，因为如果其中任何一个环节失败，整个产品都会失败。所以这些都是基本要素。这就是为什么当我听到有人说“哦，你只需要说明‘为什么’太简单了”时，我会觉得很可笑。这完全是无知的表现。我真不知道这种观点从何而来。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "29:45",
+   "en": "Makes me think about, men always joke that they're like, \"Oh, I want to wear something more interesting to events. I always wear a suit. It's always got to be a suit. It's so boring.\" And other folks are like, \"Shut up. Why would you want to complicate the life of men and having to dress more creatively? We got a good thing going with suits.\" And it makes me think about if the jobs of a PM are just to find the problems like, \"All right. Let's go with that. Life's good.\" And turns out it's not. Anyway, your last point also made me think about this recent tweet by, I think it was Patrick Collison or John Collison, about how a lot of people think user research, it's like user research informs what you build. That's how people think about it. It's like user research leads to what you build. And his point is really interesting that user research informs your model of the user and the customer and that model should inform what you build. And you're constantly trying to refine this model, but you should have a model of your customer and your user in your head that you can come back to versus relying on user research to answer all your questions. What's your take on that perspective?",
+   "zh": "这让我想到，男人总是开玩笑说：“哦，我想在活动上穿得更有趣点。每次都穿西装，总是得穿西装，太无聊了。”其他人就会说：“闭嘴吧。你为什么要让男人生活更复杂，非得穿得更花哨？我们西装穿得挺好的。” 这让我想到，产品经理的工作是否只是发现问题，然后说：“好吧，就按这个来做。生活真美好。”结果却并非如此。不管怎样，你最后提到的观点也让我想起帕特里克·科里森或约翰·科里森最近的一条推文。他们提到很多人认为用户研究就是为产品提供信息。人们就是这么理解用户研究的，认为它直接决定了产品的形态。但他的观点很有意思——用户研究应该为你对用户和客户的认知提供信息，而这种认知应该反过来指导产品设计。当然，你需要不断完善这个认知模型，但你脑海中应该始终有客户和用户的模型，以此作为决策依据，而不是依赖用户研究来回答所有问题。你对这个观点怎么看？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "30:52",
+   "en": "Yeah. I mean, first of all, what they've done with Stripe is so awesome and that's another great example and I love what they picked and choose from great companies to create a culture for themselves. So I'd absolutely agree, but I'd go a little further. Because user research is a great topic. I mean, right there, it's a great product topic. I love it. I'm a big fanboy of user research. Well you just heard me basically arguing the same thing, don't be going out there spending all your time just validating the problem. Especially when we know, he's saying that too. He's trying to talk about building the mental model of our users, which is so important. Well designed products feed off of that. However, there's another layer around user research that I find is even a bigger source of confusion. In fact, I was just talking to a team this morning.",
+   "zh": "是啊。我是说，首先，Stripe做得很棒，这是个很好的例子。我喜欢他们从优秀公司中汲取精华，为自己打造文化的做法。所以我完全赞同，但我会更进一步。因为用户研究是个很棒的话题。我的意思是，这本身就是个很棒的产品话题。我喜欢它。我是用户研究的狂热粉丝。不过，你刚刚听到我基本上也在论证同样的观点——别把所有时间都花在验证问题上。这点很重要，他也提到了。他在谈论建立用户心智模型，这太重要了。设计精良的产品都离不开这一点。然而，用户研究还有另一个层面，我发现它更容易让人困惑。事实上，今天早上我刚和一个团队聊过这个。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "31:49",
+   "en": "That was saying that, yeah, what they do with user research is they test their prototypes. And when they get enough users saying how much they like it, they build it. And I'm like, \"No, that's not why we do user research.\" And that is not going to fool any smart leaders. And now again, we're back to the problem discovery solution discovery, but most of our time needs to be on solution. And that's prototyping, that's testing with users, testing with customers, testing with stakeholders, testing with our developers. We're testing constantly. We are not just trying to find out if they like it. In fact, it's just the opposite. When we're doing user research, we're finding all the reasons they don't like it. In fact, that's an Elon Musk quote is when you do user a research, you should be focused on finding all the reasons they won't use your product.",
+   "zh": "也就是说，用户研究的目的是测试原型。当足够多的用户表示喜欢这个产品时，我们才会着手开发它。我当时就想：“不，这不是我们做用户研究的初衷。”而且这种做法根本骗不了明智的领导者。我们现在又回到了“发现问题-解决问题”的循环，但大部分时间都应该专注于解决方案。这包括原型设计、用户测试、客户测试、利益相关者测试以及与开发团队的协作。我们要不断测试，不只是为了了解用户喜好，而是相反——通过用户研究，我们要找出用户不喜欢产品的原因。事实上，埃隆·马斯克曾说过，用户研究的重点应该是找出用户不使用产品的所有原因。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "32:45",
+   "en": "Even though Elon Musk has some issues right now, he's pretty good at product. And so he is very good at this. And that's how you want to think about that. The user researchers will talk about the difference between generative and evaluative user research. And so most of it, in terms of number of valuable things we get out of it, is evaluative. They are telling us the reasons they won't use it. The only other thing I'll add to that, you didn't ask about this, but it comes up all the time. I hate it when the user researchers go off and do the research themselves and bring back a report, not because they don't know what they're doing, they do know what they're doing. The reason is because the report is too often ignored. And so to me, the rule is, and I tell this to user researchers at the companies that I coach, if the product manager and the designer are not available to be there during their products test, cancel the test. They need to be there. This is what makes them useful to their team.",
+   "zh": "尽管埃隆·马斯克目前面临一些挑战，但他在产品设计方面确实很出色。这才是我们应该借鉴的思路。用户研究人员会区分生成性用户研究和评估性用户研究。从获取有价值信息的角度来看，大部分都是评估性的。他们会告诉我们用户不使用产品的原因。另外，我想补充一点，虽然你没有特别提到，但这个问题经常被提及。我特别反感用户研究人员独自完成研究后提交报告的情况——不是因为他们能力不足，而是因为这些报告往往被忽视。因此，我的原则是（我也会把这点告诉我指导的公司的用户研究人员）：如果产品经理和设计师不在场，就取消测试。他们必须全程参与。这才是他们对团队有价值的地方。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "33:48",
+   "en": "I 100% agree. I have this memory of going to Paris with a research team, our head of Eng, head of design on our team, at least, and I and the researcher all went to Paris to do these focus groups with AirBnb hosts. And our researcher was very adamant that we come with her, that it's not just her coming back with tons of insights. And so 100% find value there. And engineers especially being involved in that process, I find to be super important.",
+   "zh": "我完全赞同。我记得和一个研究团队去巴黎的经历，我们公司的工程总监、设计总监等都一同前往，与Airbnb房东进行焦点小组讨论。我们的研究员坚持要我们全程参与，强调这不只是她自己总结大量见解的过程。我们确实从中获得了宝贵的价值。特别是让工程师参与这个过程，我认为这非常重要。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "34:18",
+   "en": "That's when the magic happens.",
+   "zh": "这才是魔法发生的时刻。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "34:21",
+   "en": "This episode is brought to you by Modern Treasury. Modern Treasury is a next generation operating system for moving and tracking money. They're modernizing the developer tools and financial processes for companies managing complex payment flows. Think digital wallets via crypto on ramps, ride sharing, marketplaces, instant lending and more. They work with high growth companies like Gusto, Pipe, ClassPass and Marketa. Modern Treasury's robust APIs allow engineering to build payment flows right into your product, while finance can monitor and approve everything through a sleek and modern web dashboard, enabling realtime payments, automatic reconciliation, continuous accounting and compliance solutions. Modern Treasury's platform is used to reconcile over $3 billion per month. They're one of the hottest young FinTech startups on the market today, having raised funding from top firms like Benchmark, Altimeter, SVB Capital, Salesforce Ventures, and Y Combinator. Check them out at moderntreasury.com.",
+   "zh": "本期节目由Modern Treasury赞助。Modern Treasury是一款用于资金流转和追踪的下一代操作系统。他们正在为管理复杂支付流程的公司，现代化开发者工具和财务流程。涵盖数字钱包、加密货币入口、网约车、市场平台、即时贷款等场景。他们与Gusto、Pipe、ClassPass和Marketa等高增长公司合作。Modern Treasury强大的API让工程师可以将支付流程直接集成到产品中，而财务部门可以通过时尚现代的Web仪表板监控和批准所有操作，实现实时支付、自动对账、持续会计和合规解决方案。Modern Treasury的平台每月处理超过30亿美元的对账业务。作为当今市场上最热门的年轻金融科技初创公司之一，他们已从Benchmark、Altimeter、SVB Capital、Salesforce Ventures和Y Combinator等顶级机构获得融资。欢迎访问moderntreasury.com了解更多信息。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:21",
+   "en": "I want to come back to this idea of feature teams and just specifically what can people do when they're working at what you'd call a feature team or feature factory to either understand what the experience could be like or just work in a better way, even if their company's not shifting to a new way of building product broadly.",
+   "zh": "我想再谈谈特色团队这个概念，具体来说，当人们在所谓的特色团队或特色工厂中工作时，他们能做些什么呢？无论是为了更好地理解用户体验，还是为了更高效地工作，即便所在公司尚未全面转向新型的产品开发模式，这都是值得尝试的。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "35:42",
+   "en": "Sure. Well, a lot of companies are intentionally trying to change to real product teams. This is what most people mean by a transformation. So a lot of them are, but even if they're not, I always encourage. And a lot of people will ask me, \"Should I just give up on this company and go to a decent product company?\" And I always say, \"Before you give up, just give this one try. And I suggest you go to your manager and say, 'Look, what do you think about us doing an experiment? For the next quarter or two, why don't you let us try running like this?' And if it goes well, great. If it doesn't, no harm. We'll just go back to the way we were.\" So it's not that hard to try it on a product team by product team basis. Where it gets expensive and risky, of course is changing the whole business units. So if it's just a product team, usually they'll let them try. Especially if the person making this argument says, \"I've learned that some of the companies we admire are not working the way we are, and maybe we should try this.\"",
+   "zh": "当然，很多公司正有意转型为真正的产品团队。这也是大多数人所说的\"变革\"。尽管如此，即便公司尚未完全转变，我也总是鼓励他们尝试。比如有人会问我：\"我是不是该放弃这家公司，转去一家优秀的产品公司？\"我总会回答：\"在放弃之前，先试一试吧。我建议你去找经理说：‘看，我们能不能做个实验？接下来两个季度，你就让我们按照这个模式运作看看。’如果成功了，那再好不过。如果不行，也没关系。我们大不了还是按老样子做。’所以在产品团队层面尝试新模式并不难。真正昂贵且高风险的，当然是改变整个业务部门。所以如果只是一个产品团队，通常他们会允许尝试。尤其是当提出这个建议的人说：‘我了解到我们敬仰的某些公司并非按照我们的方式运作，或许我们也该试试。’”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "36:49",
+   "en": "Just while we're on that topic, what is it they try or do? What are some of the things that a team could do? I know you may be getting into this, but I'm curious.",
+   "zh": "既然提到这个话题，你能具体说说他们尝试或做些什么吗？团队可以采取哪些措施？我知道你可能已经在谈论这个问题了，但我很好奇。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "36:56",
+   "en": "That's exactly though what I was going to suggest. So let's say they're given thumbs up, \"Go for it, give you a quarter, go for it. We'll see what it's like. People are curious.\" So to me, there's a few things that you want to do. First of all, you want to make sure, and the manager can help a lot, but the product team could help manage up enough to do this. The first is you need to make sure the team has a problem to solve rather than the feature to build. Now, it's not that hard to reverse engineer. So if somebody tells you, \"You got to go implement by now pay later on our e-commerce site,\" which is on a thousand roadmaps right now. If somebody tells you that, it's not that hard to go to the stakeholder that requested that and say, \"We're going to get to work on that, but can you tell me how are you measuring success? We want to make sure that what we do, you consider it successful. How are you measuring success?\"",
+   "zh": "这正是我接下来要建议的。假设得到许可：“去试试吧，给你们一个季度时间，看看效果如何。大家都很好奇。”对我来说，需要做几件事。首先，经理能提供很大帮助，但产品团队也需要主动向上管理。第一步是确保团队要解决的问题，而不是去构建功能。反向工程并不难。比如有人告诉你：“你得去实施我们的电商网站上的‘先买后付’功能了，这个功能现在有上千个路线图。” 如果你去找提出这个需求的利益相关者，问：“我们要着手做这个功能，但你能告诉我如何衡量成功吗？我们想确保你认为成功的标准，我们也认可。你们是如何衡量的？”"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "37:55",
+   "en": "For something like that, it's usually pretty obvious. It's conversion rate or average shopping cart value or whatever. It's just some KPIs that they care about. So you'd say, \"Your belief is that if we add buy, now pay later, a lot more people will be able to buy and transact, and so it's going to pay off and it'll show here. Do I have that right?\" And they'll probably say yes. And they might say, \"Well, no, we're doing it for international purposes or some other thing.\" Good to know. Make sure you capture whatever it is. So that's the first thing. What problem are you trying to solve? Now, the hardest part is, like I said, usually we have a designer and engineers that are very up for really doing what they trained to do, but the product manager usually needs to do some work to get themselves to be able to do this.",
+   "zh": "对于这类情况通常很明显。可能是转化率、平均购物车价值之类的关键绩效指标。所以你会说：“你的想法是，如果我们添加‘先买后付’功能，更多人就能购买和交易，所以这会有回报，数据也会显示出来。是吗？”他们很可能回答：“对。”然后可能会说：“嗯，不对，我们是为了国际化目的或者其他原因做的。” 好的，把这些都记录下来。第一步就是：你们要解决什么问题？最难的部分在于，正如我所说，通常我们有设计师和工程师，他们非常乐意做自己受过训练该做的事，但产品经理通常需要做些工作，才能具备这样的能力。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "38:55",
+   "en": "I hate the idea of those companies that have separate product owners because product owner is just an administrative role. Product owners almost never have the skills to be a product manager. And so that's a problem, but let's just say there's a product manager and nobody's ever coached this poor person, and so they really don't know much. So the first thing that product manager needs to do is get themselves prepared to contribute to their team the way they need to. In general, that means four things. First of all, they have to really get to know the users and customers. They have to be considered pretty much one of the experts on the users and customers. I remember when I was an engineer wanting to become a product manager, the person coaching me said explicitly that I was not allowed to make any decisions for the team until after I visited 30 customers. His number was 30. 15 in the US, 15 in Europe.",
+   "zh": "我讨厌那些把产品负责人与产品经理分开的公司，因为产品负责人不过是个行政角色。产品负责人几乎从未具备过产品经理的技能。这固然是个问题，但假设现在有一位产品经理，却从未接受过相关培训，那他肯定知之甚少。因此，产品经理首先需要做好充分准备，以符合团队需求的方式为团队贡献价值。通常来说，这包括四项核心能力：\n\n首先，要深入了解用户和客户。产品经理必须成为用户和客户领域的专家。我记得自己想成为产品经理时，指导我的导师明确要求，在拜访30位客户之前，我不许为团队做任何决策。他设定的目标是30位客户——15位在美国，15位在欧洲。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "39:49",
+   "en": "And it was a three week business trip that he arranged that fixed that. And the funny thing was, I didn't think I needed to visit customers because I was a developer before and I was building products for developers. I'm like, \"Oh man, that's the one thing I've got is I know our customer.\" And he said, \"Well, all I know for sure is that's never true.\" And so I had to go visit customers. But anyway, that's the first thing. The second thing is they have to be an expert in the data. How is your product used? How is that change over time? What's the sales analytics? What's the user analytics? So you have to know how your product is actually used, which is just another way of knowing your customer, but important. The third thing is, and this is usually the hardest one and it's the one that your stakeholders will judge you on, is you have to learn the different parts of the business.",
+   "zh": "他精心安排的三周商务之旅彻底解决了这个问题。有趣的是，我当时认为自己无需拜访客户，因为我曾是开发工程师，为开发者打造产品。我当时想：“天啊，我唯一的优势就是了解我们的客户。”但他说：“我可以确定的是，这种想法往往不成立。”于是我不得不踏上拜访客户之路。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "40:41",
+   "en": "You have to know how it's marketed, how it's sold, how it's paid for, how it monetizes. If there are any compliance, regulatory, privacy, security issues, you need to know what those are. So you have to convince those stakeholders that you understand what the issues are and you understand what to look for and that you convince them that if there's ever any question, you will bring them a prototype that they can see and make sure it's okay. So you need that trust with the different parts of the business. And the fourth area is you have to know the competitive landscape. You have to know the industry. You have to know the trends. I consider this one of the fun ones. There's some good industry, people to follow. You can do that. So those are the four things you bring to the team. Realize the designer doesn't have this info.",
+   "zh": "第二项核心能力是成为数据专家：产品如何被使用？使用趋势如何？销售分析和用户分析又如何？你必须掌握产品实际使用情况，这本质上也是深入了解用户的另一种方式，但同样重要。\n\n第三项挑战通常最为艰巨，也是利益相关方评判你的核心标准——你必须深入理解业务的各个环节：如何营销、如何销售、如何定价、如何盈利。合规、监管、隐私和安全问题同样需要掌握。因此，你必须向利益相关方证明自己理解这些挑战所在，知道该关注哪些方面，并向他们保证，若有任何疑问，你会拿出原型供其验证。总之，你需要与业务各部门建立信任。\n\n第四项能力是洞察竞争格局：了解行业动态、掌握行业趋势。这部分相对有趣，你可以关注优秀的行业从业者并进行学习。以上四项能力构成了你为团队贡献的核心价值。别忘了，设计师往往不具备这些信息。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "41:33",
+   "en": "The engineers don't have this info. If the team is going to be an empowered team and they're going to come up with solutions, they need somebody on the team that brings this knowledge. And that is you as product manager. That is the single biggest area empowered teams fall down. The product manager is ill-equipped, or a nice way of saying, incompetent. All right. Third, if the team is now going to make decisions, they need the strategic context. In other words, they need to know the big picture. What's the product vision? What's the product strategy? What are other teams doing? How does that relate to what we are doing? That's the strategic context. So normally, we get that from our leaders, but at the minimum, the product manager's going to have to go learn what that is, especially the product strategy. All right. And then finally, the product teams need the skills, discovery skills and techniques, which to me is the fun part.",
+   "zh": "工程师们没有这些信息。如果团队要成为一个赋权型团队，并提出解决方案，他们就需要团队中有人具备这些知识。而这就是你作为产品经理的职责所在。这是赋权型团队最常犯的错误——产品经理能力不足，或者说不称职。好的。第三，如果团队现在要做决策，他们需要战略背景。换句话说，他们需要了解大局。产品愿景是什么？产品战略是什么？其他团队在做什么？这与我们的工作有何关联？这就是战略背景。通常，我们从领导那里获得这些信息，但至少产品经理需要去了解这些内容，尤其是产品战略。好的。最后，产品团队需要掌握探索技能和技巧，对我来说这是最有趣的部分。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "42:38",
+   "en": "That's why I wrote the book Inspired was to share the most popular techniques. There are other books too that talk about those techniques for discovery. But read something, learn the techniques. There are good techniques today, better techniques than we've ever had. I mean, we've been doing product discovery for a very long time. In fact, Steve Jobs in '95 did a really good summary of it. But the techniques today are dramatically better than what they were when I first learned and what he was talking about. Dramatically better. So you need to learn the techniques. That's the tools of the trade for a product manager. So to your question, you're a feature team. You want to give it a shot, be in a real product team. These are the four things you need to go out and do. And just to be fair, they don't take long. The longest one is the product manager learning those skills if they've never learned them before. But even that typically takes two to three months.",
+   "zh": "这就是我写《Inspired》这本书的原因——分享最流行的技巧。还有其他书籍也讨论过这些探索技巧。但你需要去阅读，掌握这些技巧。如今有很好的技巧，比我们以往任何时候都更出色。我的意思是，我们做产品探索已经很久了。事实上，史蒂夫·乔布斯在1995年就对此进行了很好的总结。但如今的技巧比我最初学习时以及他所谈论的那些要好得多。好得多。所以你需要掌握这些技巧。这是产品经理的工具。那么回到你的问题，你是一个功能团队。你想尝试一下，加入一个真正的产品团队。以下是需要去做四件事。公平地说，这些事情不需要太长时间。最耗时的是产品经理如果从未学过这些技能的话，但即便如此通常也只需要两到三个月。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:39",
+   "en": "Wow. That was incredibly insightful. I'm curious how a PM could set themselves up for success trying something like this because I feel like it's a high stakes experiment. If it doesn't work, the company would be, \"Oh no, this sucks. Doesn't work. We're not going to do this.\"",
+   "zh": "哇。这真是见解深刻。我很好奇产品经理如何能为尝试这样的事情做好准备，因为我觉得这是一个高风险的实验。如果不成功，公司可能会说：“哦，不，这太糟糕了。不行。我们不打算做了。”"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "43:57",
+   "en": "That happens.",
+   "zh": "这种情况确实会发生。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:01",
+   "en": "Yeah. You mentioned a lot of things people can do and then you mentioned reading Inspired. Is there anything else, just things that would set people up for success in one of these experiments within their larger company?",
+   "zh": "是的。你提到了很多人们可以做的事情，然后你提到要阅读《Inspired》。还有其他能帮助人们在大公司中成功尝试这些实验的书吗？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "44:12",
+   "en": "Well, in particular about what we're talking about now, Teresa Torres's new book, Continuous Discovery Habits. That's a very good book, it's right on point, talks very much about these skills and it will basically hold your hand through those first weeks. Another good book is Sprint, Jake Knapp's book. That also will hold your hand. Now that's a particular technique to hold 400 pages on one technique, but it is a good technique. Those will hold your hands through it as well. The other thing is you can go out, if you can find somebody who can coach or mentor you. I mean, that's how I learned it.",
+   "zh": "嗯，特别是关于我们现在讨论的内容，特蕾莎·托雷斯的新书《持续探索习惯》。这是一本非常好的书，切中要害，详细讲解了这些技能，它将在最初的几周里为你提供指导。另一本好书是杰克·纳普的《Sprint》。这本书也会为你提供指导。现在这是一本特别的技巧书，400页都在讲一种技巧，但这确实是个好技巧。这些书也会为你提供指导。另外，如果你能找到一个能指导或辅导你的人，那就更好了。我的技能就是这样学会的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:54",
+   "en": "Same.",
+   "zh": "一样。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "44:54",
+   "en": "That's how most people I know learned it is they had a manager that gave a shit about their career and they were like, \"This is what you need to do.\" I remember when I first learned about the discovery concepts. I was an engineer and then I had been promoted to tech lead. And my manager said, \"Now that you're tech lead, you have to care as much about what you build as how you build it.\" And he said, \"That means you have to get involved in things you were never doing before as an engineer.\" And I had been an engineer for several years, working my way up the little ladder. And I thought that was super interesting. In fact, that was my first taste of product because I started what we call discovery today. I started getting involved. I started going out to customers. I started learning these problems. If I could change one thing in the industry, it would be everybody would have a decent manager that cared about their career and could help them get better at their job.",
+   "zh": "就我认识的大多数人而言，他们是这样学会这一点的——他们遇到了一个真正关心自己职业发展的经理，然后对方会说：“你需要这么做。” 我记得自己最初接触探索式设计概念的时候。我当时是一名工程师，后来被提拔为技术主管。我的经理对我说：“既然你现在是技术主管，你不仅要关注你所开发的产品，还要重视开发过程。” 他还说：“这意味着你需要参与那些作为工程师时从未接触过的工作。”我在工程师岗位上工作了好几年，逐步晋升。我觉得这非常有趣。事实上，这是我第一次接触产品管理，因为我开始了如今被称为探索式设计的工作。我开始参与其中。我开始拜访客户，开始研究这些问题。要说我对这个行业有什么不满的话，那就是希望每个人都能遇到一位真正关心自己职业发展、能帮助他们提升技能的上司。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:59",
+   "en": "How do we make that possible?",
+   "zh": "那要怎么才能实现呢？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "46:01",
+   "en": "Because sometimes I have a tendency to be cynical, and the world has changed so little over the years, but I have been very happy lately if... Now I know what caused this. It's the great resignation that's caused this, but executives at Microsoft, Google, Netflix, Apple, they've all been bragging about how much they care about coaching. Do you notice that? I mean, literally Sundar at Google has been saying that the number one thing they look for in their leaders is a good coach. The number two thing is that they're not a micromanager and they know how to empower their teams. But at Microsoft, they have three principles for their leaders, they're managers that they've been advertising. Number one, coaching. Number two, caring. I forget what number three is. And then at Apple, they have four big responsibilities for their leaders. Coaching is one of them. So they've all been more vocal about this. Now of course, this is not an accident. They've been caring about coaching for a long time. Usually because Bill Campbell impacted the companies, but they care about coaching. But now they're talking about it a lot more. They're essentially saying, \"Come work here. We care about developing you in your career.\"",
+   "zh": "因为有时我难免会感到悲观，过去这么多年间，这个行业变化实在太少了。但最近我倒是挺开心的，如果……现在我知道原因了。这是“大辞职潮”带来的影响，不过微软、谷歌、奈飞、苹果的高管们都在大肆宣扬他们对指导员工的重视。你注意到了吗？比如谷歌的桑达尔就说过，他们在选拔领导者时，首要看重的是能做好指导工作的能力。其次是不能事无巨细地微管理，要善于赋权团队。微软为管理者制定了三项原则：第一是指导；第二是关怀；第三点我忘了。而苹果则为领导者设定了四项核心职责，指导就是其中之一。所以现在这些公司都在更积极地宣传这一理念。这绝非偶然。他们对指导工作重视已久，通常源于比尔·坎贝尔对这些公司的影响，但如今他们对此更加高调。可以说，他们在说：“来我们这里工作吧，我们重视职业发展。”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:22",
+   "en": "Yeah. I know that you teach coaches. You have a conference, I think, recently where you're coaching coaches, is that right?",
+   "zh": "是啊。我知道你培训指导师。最近你举办了一个会议，指导指导师，对吧？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "47:29",
+   "en": "Yeah. Not so much a conference. Our problem is, I mean, SVPG, we're very small, we're just five people. And we're booked out for nearly a year. So we are always asked who can we recommend, and the truth is we don't have that many people that we know and can recommend. I mean, there's a lot of people that do feature team stuff, but the people that ask us are because they want to become a great product company. And so we don't know that many. So we've decided to do a session in Europe and a session in the US where we invite people that are independent coaches. We don't charge them anything, this is just a way to get to know them and hopefully help them. So we did that in London a couple months ago and we're going to do it in New York in December.",
+   "zh": "是啊。不过那算不上正式会议。问题是，我们SVPG公司规模太小了，只有五个人。我们的日程已经排满了近一年。所以总有人问我们能推荐谁，但我们认识的能推荐的人其实不多。毕竟有很多做功能团队工作的人，但找我们的人都是想成为伟大产品公司的企业。所以我们决定在欧洲和美国各办一场会议，邀请独立指导师。我们不收取任何费用，这只是个了解他们的机会，希望能帮到他们。几个月前我们在伦敦办了一场，12月会在纽约再办一场。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "48:19",
+   "en": "That's definitely one of the most common questions I get is, \"Where do I find a coach? Who's a good coach?\" And so I really love that you're creating more coaches and helping coaches get better. Along that same line a little bit, how do you think the role of product management is changing and evolving?",
+   "zh": "这绝对是我最常被问到的问题之一：“我在哪里能找到教练？谁是优秀的教练？”所以我很高兴你们正在培养更多教练，并帮助他们不断提升。顺着这个思路再说一点，你们认为产品管理的角色正在如何变化和演进？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "48:35",
+   "en": "This is one of those two fork answers. At good companies, it really hasn't changed much at all. And I mean, for more than 20 years, it really hasn't changed at good product companies. Now the techniques they use have changed in some dramatic ways, but the job, the principles hasn't. However, if you look more holistically at the industry, what a cluster. What a mess. There's so many different product related titles, most of which are ridiculous. The two that really drive me nuts are all over Europe, you find product owners and those product owners are taught by Agile coaches. Most of which have never done product for a day in their life. All they know is process, so they're teaching a process. It's as ridiculous as taking somebody off the street and saying, \"I'm going to teach you Scrum, and then you're going to all of a sudden be an engineer.\"",
+   "zh": "这是两种截然不同的回答之一。在优秀的公司里，这个角色其实变化不大。我是说，20多年来，在优秀的产品公司里，这个角色几乎没有变化。当然，他们使用的技术手段可能发生了巨大变化，但核心职责和原则始终如一。然而，如果从更宏观的视角审视整个行业，那简直是一团乱麻。产品相关职位五花八门，其中大部分都十分荒谬。在欧洲最让我头疼的是，到处都是产品负责人，他们都是由敏捷教练培训出来的。但这些人中大多数从未真正做过产品管理工作，他们只懂流程，所以只能照本宣科地讲授流程。这就跟在大街上随便找个人说\"我要教你Scrum，然后你就能突然成为工程师\"一样荒谬。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "49:39",
+   "en": "How ridiculous is that? Scrum doesn't teach you how to develop just like a product owner course doesn't teach you how to be a product manager. So the result is inadvertently, the blind leading the blind, and we have never had such a high proportion of completely unqualified product people. And of course in the US, that's not as big a problem in the US. It is a problem more on the East Coast than the West, but it's not as big a problem. We have other things going on. There are some very good implementations and definitions of product ops out there, but there's also some really bad ones and those are causing the same problem. One of the things I try to tell, forget all these stupid roles and terms and all this. There's really three things that are sacred for a product manager. And I'm very flexible on everything else, but these three are sacred because they're right at the heart of what it takes to succeed at the job.",
+   "zh": "这有多荒谬？Scrum并不会教你如何开发产品，就像产品负责人课程也不会教你如何成为产品经理一样。结果往往是，一知半解的人在误导他人，而完全不合格的产品从业者比例空前之高。在美国，虽然情况没那么严重，但东海岸比西海岸问题更突出。不过整体来说，我们还有其他问题需要关注。比如，市面上确实有一些优秀的产品运营实践和定义，但也有很多糟糕的案例，这同样导致了问题。我一直想告诉大家，忘掉那些愚蠢的角色和术语吧。对于产品经理来说，真正神圣的有三件事。在其他方面我比较灵活，但这三件事至关重要，因为它们是做好这份工作的核心要素。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "50:47",
+   "en": "The first is that that product manager needs unencumbered access to their users and customers. Anybody that tries to get in between of them and their customers is not helping. Even though they're often well intentioned people, they say, \"Oh, it's my job and customer success to do that, or my job in sales or...\" No, that is like you get cut off from your customers, you're screwed as a product manager. Second, product manager needs unencumbered access to the engineers. If you're not working every day with a set of engineers on solving problems, you are not a product manager. So again, there's these helpful people called product owners or project managers or all kinds of different variations where they think their job is to interface with the developers and to play a mediator role. And they don't understand why they haven't innovated for years.",
+   "zh": "第一，产品经理需要不受阻碍地接触用户和客户。任何试图阻隔他们与用户和客户联系的人都不是在帮忙。即便这些人往往出于好意，比如说：“哦，这是我的客户成功职责，或者是我的销售职责……”但这等于切断了与用户的联系，作为产品经理你就完蛋了。第二，产品经理需要不受阻碍地接触工程师。如果你每天不与工程师团队一起解决问题，那你就不是产品经理。所以又出现了那些所谓的“产品负责人”、“项目经理”之类的角色，他们自以为是产品经理的接口人，扮演调解人的角色。但他们不明白为什么自己多年来没有创新成果。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "51:49",
+   "en": "That's why. They've cut that critical thing. And the third is unencumbered access to the stakeholders because a good product is solving what's just now possible, that's why the engineers are so critical, for real users and customers, that's why that's so critical, in ways that work for the business, which is why the stakeholder access is so critical. If you have those three things, direct access to those three things, that's what's critical. If you have other responsibilities, well, as long as you're willing to work crazy hours, that can work. But if you want to have more of a sane life, you can take all this other stuff.",
+   "zh": "就是因为这个原因。他们削减了那个至关重要的环节。第三点是无障碍地接触利益相关者，因为一款好的产品能解决当前可行的问题，这就是为什么工程师如此重要——为了真实的用户和客户，这就是为什么这点至关重要，也是为了符合商业需求，这就是为什么接触利益相关者如此关键。如果你能拥有这三样东西，直接接触这三样东西，这才是关键所在。如果你还有其他职责，只要你愿意加班，那也可以。但如果你想过上正常生活，就可以把其他事情都放下。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "52:34",
+   "en": "Project management, quality assurance, product marketing, all this stuff. Runtime, production operations. Literally you can pass those to other people, but don't delegate those three things. I just keep begging companies. They think don't realize the damage they're creating when they do that. And of course why they do it is no secret. They say, \"Oh, that product manage your job is too hard for one person so we're going to split it in half.\" And they have no idea the damage they're creating, but that's what they're doing. So pulling off other responsibilities is no problem. It's a good thing to do, especially as you grow, but never when you touch those three sacred things.",
+   "zh": "项目管理、质量保证、产品营销，所有这些工作。运行时环境、生产操作。实际上你可以把这些交给其他人，但千万别把这三个环节委派出去。我一直在跟公司强调这一点。但他们意识不到这样做会造成多大的损害。当然，他们这么做的原因也不难理解。他们会说：“哦，产品经理的工作太重了，一个人应付不过来，所以我们要分成两份。”但他们完全没有意识到自己在自毁长城。不过抽离其他职责倒也不难。这是件好事，尤其是在公司发展壮大时。但绝不能触碰那三个神圣的环节。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:23",
+   "en": "Awesome. I was exactly going to ask that. The PM role is so full of things to do in such an intense job with so many responsibilities. And so the intention is good. Take some things off the PM's plate. Specifically product ops I've been seeing grow, as you've said, just to double click on that, is your sense that's not a great role to have and not a productive direction or is there times when that's actually helpful?",
+   "zh": "太棒了。我正想问这个问题。产品经理的职责太多，工作强度太大，责任太重。出发点是好的，想减轻他们的负担。特别是产品运营，我注意到它在发展壮大，正如你所说的，再深入探讨一下，你觉得这不是一个好的角色定位，也不是一个有效的发展方向吗？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "53:48",
+   "en": "Well, from what I just said, if you now talk about product ops, if product ops is created to replace one of those three things, which is some of the common definitions, it's bad. I mean, there's lots of good definitions of product ops too, but some jobs, I should say some products have a big runtime responsibility, runtime production, production issues, triaging bugs, trying to figure out what's going on. A little bit of that is totally normal.",
+   "zh": "嗯，根据我刚才的说法，如果你现在谈到产品运营，如果产品运营是为了替代那三个环节中的一个（这是常见的定义），那就是糟糕的。当然，产品运营也有很多好的定义。但有些工作，有些产品有巨大的运行时责任，比如运行时生产、生产问题、调试漏洞，解决这些问题完全正常。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "54:29",
+   "en": "Everybody does that in every company. But sometimes it becomes so much that there's just no time left for figuring out what should be billed next. It's just fighting fires every day. That's a good definition of product ops. Another good definition are the people who create the tools to help product managers be more productive. That's a good definition. But notice those aren't taking away any of those three things. But one of the common definitions is they're like, \"Oh, well we get so much data on how our products are being used for our customers. We've created a product ops person that's going to sort through that data.\" And they'll tell the product manager what they think they should hear.",
+   "zh": "每个公司的人都会做这些事。但有时候事情太多，以至于根本没有时间去考虑下一步该计费什么了。每天都在救火。这就是产品运营的典型定义。另一个好的定义是那些为产品经理提高生产力而开发工具的人。这也是个不错的定义。但要注意，这些定义都没有削弱那三个环节。但常见的定义是，他们会说：“哦，我们收集了大量关于产品如何被客户使用的数据。我们成立了产品运营部门来整理这些数据。”然后他们会把自己想让产品经理听到的话告诉产品经理。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:12",
+   "en": "Just to reinforce this point, what are the three things again? In case folks didn't catch it all.",
+   "zh": "对了。再强调一下，那三个环节是什么？以防大家没听清楚。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "55:17",
+   "en": "Yeah. Direct access to customers, direct access to the engineers, direct access to the stakeholders.",
+   "zh": "对。直接接触客户，直接接触工程师，直接接触利益相关者。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:25",
+   "en": "Awesome. Maybe a last question is, are there other trends that you're worried about in product management where the role of PM is going?",
+   "zh": "太棒了。最后一个问题是，在产品管理领域，还有哪些趋势让你感到担忧，产品经理的角色正朝着哪个方向发展？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "55:33",
+   "en": "Well, I am very worried about the two trends I just described. I'd say the thing that has always been a risk and it's just not going away. And by the way, Steve Jobs talked about this. This was the other disease he talked about and that's the disease of process people, which by the way is another one of the bad instances of product ops is process people. And I know where this comes from, I understand it, but scaling is hard. Do you know anybody who doesn't think it's hard?",
+   "zh": "嗯，我对刚才提到的两个趋势非常担忧。我想说，这始终是个风险，而且这个问题始终存在。顺便说一句，史蒂夫·乔布斯也谈到过这个问题。这是他提到的另一种疾病——流程主义者之病。说到产品运营，流程主义者就是其中最糟糕的例子。我知道这种现象的根源，我理解其中的逻辑，但扩展规模确实很难。你认识不认为这很难的人吗？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "56:07",
+   "en": "I do not.",
+   "zh": "我不认识。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "56:07",
+   "en": "It's hard. And fundamentally, there's two ways to scale. You can scale with process or you can scale with leaders. The only way I know that leads to good outcomes is scaling with leaders, but the easier, more appealing one to so many companies is scaling with process. And that's why you see, you might look at something safe and say, \"Are these people freaking crazy? Are they nuts? There is no good there. It's just repackaged waterfall. What the hell are they thinking?\" Well, what they're thinking is, \"Oh, we have an answer to scaling with process.\"",
+   "zh": "这确实很难。从根本上说，扩展规模有两种方式：要么靠流程，要么靠领导者。在我所知的成功案例中，靠领导者扩展规模才能取得好结果，但很多公司更容易选择靠流程扩展规模。这就是为什么你会看到，有些人面对看似安全的方案时会说：“这些人是不是疯了？他们是不是脑子有问题？这根本没什么好处，就是重新包装的瀑布式开发。他们到底在想什么？” 嗯，他们的想法是：“哦，我们找到了用流程扩展规模的解决方案。”"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "56:47",
+   "en": "And that is very attractive, especially to some old school CIO that doesn't even understand software. And so it grows like crazy. And that's not the only ones. There's a bunch of those processes and people are fooled. It's just marketing, so they call themselves Agile, but it has nothing to do with agile. It's the antithesis of agile. So I am very worried about that trend of thinking that process is ever the answer because it's not, it just isn't. And all the best leaders I know, whether we're talking Bezos or whether we're talking Elon Musk or anybody, Steve Jobs was saying it in the video, be careful of the disease of process people. They will destroy your company.",
+   "zh": "这非常有吸引力，尤其是对那些甚至不了解软件的传统CIO来说。因此，它们迅速蔓延开来。这类流程并不少，很多人都被蒙蔽了。这不过是营销手段，他们自称敏捷，但与真正的敏捷背道而驰。所以我对那种认为流程永远是答案的趋势深感担忧，因为事实并非如此。所有我认识的最优秀的领导者，无论是贝索斯、埃隆·马斯克，还是史蒂夫·乔布斯在视频中都警告过，要警惕流程主义者的危害。他们会毁掉你的公司。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:39",
+   "en": "What an incredible way to wrap up. Just two last questions, where can folks find you online if they want to reach out, learn more? And how can listeners be useful to you?",
+   "zh": "多么精彩的收尾。最后两个问题：如果有人想了解更多信息，哪里可以找到你的在线资料？听众如何能为你提供帮助？"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "57:50",
+   "en": "Well, I mean, all of our stuff we publish for free at svpg.com. siliconvalleyproductgroup.com. You can also find me reluctantly on social media, but I do the minimum possible. Signal to noise ratio on social media is so terrible, I try to focus on other places. But that's where you can find me for sure. Yeah, I mean, at this point in my career, I'm just having fun. I'm not looking for anything from anybody. Well, I'll tell you one thing I love, I love getting hard questions. Most of my articles are inspired by questions that I have never got before.",
+   "zh": "嗯，我的意思是，我们所有的内容都在svpg.com和siliconvalleyproductgroup.com免费发布。你也可以在社交媒体上找到我，但我尽量减少社交媒体互动。社交媒体的信息质量太差了，我更倾向于专注于其他平台。但在那里你肯定能找到我。是的，在我职业生涯的这个阶段，我只想享受乐趣，不寻求任何回报。不过我可以告诉你，我喜欢接收难题。我的大部分文章都是由以前从未遇到过的问题启发而来的。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "58:34",
+   "en": "And so when I hear the same question enough, I realized maybe I should write about it. And I love that. Especially even if it's something I need to go learn more about. And I do have, at this point in my career, a great Rolodex of people that I can go to and say, \"Hey, Lenny, what do you think about this?\" Or Shreyas or Teresa. All these people I know that are very smart and I can go to them and say, \"What do you think about this?\" And I put everything together and I write about it. So yeah, if you really have tried and can't find a good answer to a hard question, feel free to email me.",
+   "zh": "当我反复听到同样的问题时，我意识到或许应该写一写这个话题。我喜欢这样。即使是需要深入学习的内容，我也乐在其中。在我职业生涯的这个阶段，我积累了大量的人脉资源，可以去问：“嘿，莱尼，你对这个怎么看？”或者问Shreyas、Teresa。这些我认识的非常聪明的人，我可以去问他们：“你对这个怎么看？”然后我把这些观点整合起来，写成文章。所以，如果你真的尝试过却找不到难题的好答案，随时给我发邮件吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "59:12",
+   "en": "Amazing. Send your hard questions to Marty. Marty, thank you so much for doing this. This is everything I hoped it would be. I am really thankful that you joined me and thank you for being here.",
+   "zh": "太棒了。把你们的难题发给马蒂吧。马蒂，非常感谢你来参与。这完全符合我的预期。真心感谢你能加入我，也感谢你今天的到场。"
+  },
+  {
+   "speaker": "Marty Cagan",
+   "ts": "59:23",
+   "en": "Well, thanks again for inviting me, Lenny, and good luck to everybody out there.",
+   "zh": "嗯，再次感谢你邀请我，伦尼，也祝在座的各位好运。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "59:28",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple podcast, Spotify, or your favorite podcast app. Also please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢大家的聆听。如果你觉得这期节目有价值，可以在苹果播客、Spotify或你喜欢的播客应用上订阅我们的节目。也请考虑给我们打个分或写个评论，这对其他听众找到我们的节目很有帮助。您可以在lennyspodcast.com上收听往期节目或了解更多信息。下期节目见。"
+  }
+ ]
+}

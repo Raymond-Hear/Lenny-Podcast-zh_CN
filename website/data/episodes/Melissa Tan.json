@@ -1,0 +1,695 @@
+{
+ "id": "Melissa Tan",
+ "name": "Melissa Tan",
+ "category": "运营/增长",
+ "identity": "营销/增长",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Melissa+Tan",
+ "bio": {
+  "en": "Melissa Tan was the longtime head of growth for Dropbox's B2B business and its first growth PM, later advising companies like Canva, Grammarly, and Miro on growth.",
+  "zh": "梅丽莎·谭（Melissa Tan）曾是 Dropbox B2B 业务长期的增长负责人及第一位增长 PM，后来为 Canva、Grammarly、Miro 等公司提供增长咨询。"
+ },
+ "summary": {
+  "en": "Melissa shares how hiring smart people with no sales background at Dropbox led to unexpectedly innovative go-to-market motions. She champions first-principles thinking over copying playbooks. The episode offers grounded growth advice drawn from scaling one of the most iconic B2B products.",
+  "zh": "梅丽莎分享了在 Dropbox 雇佣毫无销售背景的聪明人，反而催生出意料之外的创新获客打法。她推崇\"第一性原理思考\"，而非照搬套路。本期提供了来自打造最具标志性 B2B 产品之一的扎实增长建议。"
+ },
+ "turns": [
+  {
+   "speaker": "Melissa Tan",
+   "en": "My aha moment of the value of first principles thinking was when I was at Dropbox. We would hire a ton of really smart people that had never done sales and had them do sales. There are a lot of disadvantages to that, but I do think it led to a ton of innovation. That's how we got our very innovative go-to market motions because a lot of those people then moved into different functions at the company. They had all this context on who the user was. They had talked to so many different users at that point. If you take people that are just super smart, they've never done it before, one advantage of that is they can innovate because I think they come in with, I don't know anything. Let me just figure this out.",
+   "zh": "我在 Dropbox 时突然意识到第一性原理思维的价值所在。我们当时招了大量从未从事过销售工作的极其聪明的人，让他们去负责销售业务。这种做法固然有诸多弊端，但我认为它确实催生了大量创新成果。比如，我们推出了极具创新性的市场推广策略，原因就在于许多这些员工后来转入了公司的其他部门。他们对用户群体有了深刻的理解，因为他们此前已与大量不同类型的用户进行了深入沟通。若招来那些天赋异禀却毫无销售经验的人才，其一个优势在于他们能激发创新思维——因为他们往往会带着\"我一无所知\"的谦逊态度，积极探索未知领域。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's podcast, where I interview world-class product leaders and growth experts to learn from their hard one experiences building and growing today's most successful products. Today my guest is Melissa Tan. Melissa was the longtime head of growth for Dropbox's B2B business. She's also their first growth product manager. Then she went on to do full-time advising for companies like Canva, Grammarly, Miro, and Ro, helping them with their growth strategy and helping them build their growth teams. (00:01:03): For the past two and a half years, she's been leading growth at Webflow. But hot off the presses as Melissa shares at the top of this podcast, she's going back to full-time advising life. So if you're looking for help with go-to market plans, growth strategy, building your growth team, aligning your sales, marketing and growth efforts, she's about to become available, so definitely reach out. In our conversation, we get deep into what it takes to build a high performing team and also how to build a high performing growth team, specifically. (00:01:30): Melissa shares advice for becoming a leader that people will follow from company to company, how to best develop your people to become the best versions of themselves. She talks about the most common ingredients of a high performing team and what she's learned from working with companies like Canva, Grammarly, Miro, Ro, Webflow and Dropbox. We also get into how to interview product managers and she shares her actual interview process, plus who your first growth hire should probably be, the most common mistakes people make when they first start to invest in growth and a real talk story of what Dropbox did right and what they did wrong in their shift to B2B. There are so many golden nuggets of lessons in this episode and I'm excited to bring it to you. With that, I bring you Melissa Tan after a short word from our sponsors. (00:02:14): Today's episode is brought to you by AssemblyAI. If you're looking to build AI powered features in your audio and video products, then you need to know about AssemblyAI, which makes it easy to transcribe and understand speech at scale. What I love about AssemblyAI is you can use their simple API to access the latest AI breakthroughs from top tier research labs, product team that startups and enterprises are using AssemblyAI to automatically transcribe and summarize phone calls and virtual meetings, detect topics in podcasts, pinpoint when sensitive content is spoken and lots more. (00:02:47): All of AssemblyAI's models, which are accessed through their API are production ready. So many PMs I know are considering or already building with AI and AssemblyAI is the fastest way to build with AI for audio use cases. Now's the time to check out AssemblyAI, which makes it easy to bring the highest accuracy transcription plus valuable insights to your customers. Just like Spotify, CallRail and writer do for theirs. Visit AssemblyAI.com/lenny to try their API for free and start testing their models with their no code playground. That's AssemblyAI.com/lenny. (00:03:23): This episode is brought to you by Mixpanel. Get deep insights into what your users are doing at every stage of the funnel at a fair price that scales as you grow. Mixpanel gives you quick answers about your users from awareness to acquisition through retention, and by capturing website activity, ad data, and multi-touch attribution right in Mixpanel, you can improve every aspect of the full user funnel. Powered by first party behavioral data instead of third party cookies, Mixpanel's built to be more powerful and easier to use than Google Analytics. Explore plans for teams of every size and see what Mixpanel can do for you at mixpanel.com/friends/lenny. And while you're at it, they're also hiring. So check it out at mixpanel.com/friends/lenny. (00:04:12): Melissa, welcome to the podcast.",
+   "zh": "欢迎来到Lenny的播客节目，在这里我会采访世界级的产品领袖和增长专家，从他们打造和发展当今最成功产品的艰辛历程中汲取经验。今天的嘉宾是Melissa Tan。她曾长期担任Dropbox B2B业务的增长主管，也是该公司首位增长产品经理。此后，她为Canva、Grammarly、Miro和Ro等公司提供全职咨询服务，助力这些公司制定增长策略并组建增长团队。（00:01:03）：过去两年半，她一直负责Webflow的增长业务。但正如Melissa在本期播客开场时透露的，她即将重返全职咨询岗位。所以，如果您在市场推广计划、增长战略、组建增长团队、协调销售、营销和增长工作方面需要帮助，她即将提供服务，欢迎随时联系。在我们的对话中，我们将深入探讨如何打造高效团队，特别是如何组建高效的增长团队。（00:01:30）：Melissa分享了如何成为跨公司备受追捧的领导者的建议，以及如何帮助员工充分发挥潜力。她还谈及高效团队的关键要素，并分享了她在Canva、Grammarly、Miro、Webflow和Dropbox等公司工作的经验。我们还探讨了如何面试产品经理，她还分享了自己的实际面试流程，以及首位增长团队成员应该具备的特质、初入增长领域者最常犯的错误，以及Dropbox在向B2B转型过程中成功与失败的真实案例。本期播客充满了宝贵的经验之谈，我很高兴能与您分享。接下来，在我们的赞助商致辞后，欢迎Melissa Tan上场。（00:02:14）：本期节目由AssemblyAI赞助。如果您想在音频和视频产品中加入AI功能，那么您需要了解AssemblyAI。它能轻松实现大规模语音转写和理解。我最欣赏AssemblyAI的地方在于，您可以通过其简单API访问顶级研究实验室的最新AI突破成果，助力初创公司和企业团队自动转写和总结电话及虚拟会议内容、检测播客中的主题、精准定位敏感内容等多种场景。（00:02:47）：AssemblyAI通过API提供的所有模型都已投入生产。我认识的许多产品经理都在考虑或已经在使用AI，而AssemblyAI是音频场景中最快的AI开发途径。现在正是尝试AssemblyAI的绝佳时机，它能轻松为您的客户带来最高准确度的转写和宝贵见解。正如Spotify、CallRail和Writer为他们的客户所做的那样。访问AssemblyAI.com/lenny即可免费试用其API，并在无需代码的平台上开始测试模型。（00:03:23）：本期节目由Mixpanel赞助。以合理的价格深入了解用户在漏斗每个阶段的行为，随着业务增长而扩展。Mixpanel能快速为您解答从用户认知到获取再到留存的全过程问题，并通过捕捉网站活动、广告数据和多触点归因等数据，全面优化用户漏斗。Mixpanel基于第一方行为数据而非第三方Cookie，\n专为增强功能性和提升易用性而设计，远超谷歌分析（Google Analytics）的表现。探索适合各种规模团队的订阅方案，登录mixpanel.com/friends/lenny即可体验Mixpanel为您带来的价值。顺便一提，他们目前正在招聘人才，感兴趣的可前往mixpanel.com/friends/lenny了解详情。（00:04:12）：梅利莎，欢迎做客我们的播客。",
+   "ts": "00:00:38"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Thanks, Lenny. It's great to be here.",
+   "zh": "谢谢你，莱尼。很高兴能来参加节目。",
+   "ts": "00:04:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm excited to have you on. I hear there's a big development in your career that is going to be out by the time this podcast comes out where you're embarking on a new adventure. I'd love to hear more about it and for folks to understand what you're doing next.",
+   "zh": "很高兴你能加入我们。我听说你职业生涯中有个重大进展，等这期播客播出时就会公布，你即将开启新的征程。我很想听听详情，也想让听众了解你接下来的计划。",
+   "ts": "00:04:16"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Over the last couple years I've been at Webflow building out the growth team there. I'm actually transitioning right now and I'm out right now and I'm going to go back into advising, which is something I was doing a lot of before Webflow working, having been fortunate enough to work with great companies like Canva, Grammarly, Miro, et cetera. And so that's one of my biggest passions is working with earlier stage companies once they found product market fit and helping them scale growth. And I'll be going back into advising.",
+   "zh": "过去几年我在Webflow负责构建增长团队。现在我正处于过渡阶段，目前处于休假状态，即将重返顾问领域。在加入Webflow之前，我曾在Canva、Grammarly、Miro等优秀公司担任顾问。我的热情之一，就是帮助早期阶段的公司在找到产品市场匹配点后，实现增长规模扩张。我即将重返顾问岗位。",
+   "ts": "00:04:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. That's a huge news because I, there's like a small number of people like Melissa that is available at certain times to work with and this is going to be this window and I just want people to understand what kinds of areas do you think you're going to focus on for folks that may need help and may want to reach out?",
+   "zh": "太棒了。这真是个重磅消息！因为像梅利莎这样能在特定时段提供顾问服务的人屈指可数，而你正好处于这个空档期。我想让听众了解，你认为自己会重点关注哪些领域？或许有些人需要帮助，想要联系你？",
+   "ts": "00:04:59"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I've worked with companies across many different stages, so even in the early stage as companies are thinking about their go-to market strategy. Previously at Dropbox, I worked across sales. I also helped start their initial product growth and self-serve team for Dropbox business. I've also overseen pricing and packaging at Webflow. So a lot of companies initially as they're thinking about their go-to market strategy, should they be product led? Should they lean more into sales motion? What should the pricing and packaging look like? I've worked with earlier stage companies and then also post product market fit as companies are building out growth and they want to make sure to optimize the funnel across activation, monetization, engagement retention. I've also advised and helped growth teams, so kind of across stages focus on growth and go-to market.",
+   "zh": "我曾与处于不同发展阶段的公司合作过。早期阶段时，比如帮助公司规划市场进入策略。在Dropbox时，我参与了销售团队的建设，助力启动了Dropbox商业版的初期产品增长和自助服务团队。我还在Webflow负责过定价与套餐设计。因此，当公司初期思考市场进入策略——是以产品为导向？还是更倾向于销售驱动？定价与套餐设计该如何设计？——我会与早期阶段的公司合作。待产品市场匹配后，又会协助优化转化漏斗，提升用户活跃度、留存率和变现能力。我还曾为增长团队提供顾问服务，覆盖不同发展阶段的增长与市场进入策略。",
+   "ts": "00:05:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I guess while we're on it, what's the best way to reach out as people are listening to this and they're like, \"Oh my God, I want to get some help on this stuff.\"",
+   "zh": "既然说到这儿，听众如果听完节目后想寻求帮助，最好的联系方式是什么？",
+   "ts": "00:06:03"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Definitely LinkedIn is a good place. I check my LinkedIn, so feel free to reach out there.",
+   "zh": "LinkedIn是个不错的平台。我会经常查看消息，欢迎随时联系。",
+   "ts": "00:06:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great. So usually we got that covered at the end, but I think that was going to be helpful in case people were like, \"Oh, I see what you can help us with.\" So building on that, I want to focus our conversation on two specific topics that I know that you're specially strong at. One is building high performance teams broadly, and then two is building high performance growth teams specifically. How does that sound as a focus of our conversation?",
+   "zh": "好的。通常我们会在最后总结，但这次可能对听众更有帮助。基于此，我想把对话重点聚焦在两个你尤其擅长的领域。一是构建高效团队，二是打造高效增长团队。这样安排如何？",
+   "ts": "00:06:15"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, let's do it. Two topics I'm very passionate about. Let's do it.",
+   "zh": "没问题，两个我都热衷于探讨。开始吧。",
+   "ts": "00:06:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So before we get into it too deeply, I want to first talk about Dropbox. So you're at Dropbox for four-ish years, something like that, doing a lot of their growth work and it was in the middle of a lot of their growth spurts and things like that. And when I think Dropbox and growth, there's kind of this dichotomy I think about. On the one hand, there's just these incredible growth loops that work, this referral program, this crazy word of mouth. There's just this explosive growth story of a product. (00:07:11): And then on the other hand, there's this B2B side that from an outsider just feels like that's something that didn't work for a long time. And then Box came around and did that really well, and I think Dropbox has done better since then, but it feels like this combination of really successful growth and then maybe less successful. So I'm curious, just looking back from your experience and from what you've heard, what do you think Dropbox did and what do you think they did wrong? And then just what are some learnings from that experience and watching Dropbox go through that?",
+   "zh": "在我们深入探讨之前，我想先聊聊Dropbox。你在Dropbox工作了大约四年，主要负责推动其业务增长，当时正值公司高速发展的阶段。每当想到Dropbox和增长，我总会联想到一种矛盾心理。一方面，Dropbox凭借推荐计划、口口相传等手段实现了爆炸式增长，堪称产品成功的典范。（00:07:11）但另一方面，作为外行人看来，他们的B2B业务板块长期未能取得理想效果。后来Box成功扭转了局面，而Dropbox也取得了显著进步。不过这种成功与挫折交织的局面，让人不禁好奇——从你的亲身经历和所闻所知来看，你认为Dropbox做对了什么？又犯了哪些错误？从这段历程中能汲取哪些宝贵经验？",
+   "ts": "00:06:45"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, it's a great question. And having been at Dropbox for close to five years, I did a lot of reflection while I was there. So I was there from 2013 to 2017, around 200 people. I think about a billion dollar valuation to essentially ... I think when I left we were 1,500 people and we're valued at 10 billion at the IPO. I think the things that Dropbox got right, one of them was definitely hiring. So when I think about 2013, Dropbox was actually known in the tech circles as a place that was very selective, very difficult to get into. You could have an amazing resume, and Dropbox was really selective about the type of people they brought in. So I think they looked for two main things. They looked for first principles thinkers, so not necessarily your experience, but how do you approach problems, how do you know the right questions to ask? And then create your own framework around that. (00:08:32): Dropbox also hired for people that were just really humble, collaborative and team oriented. And the combination of those two things, people that were just first principle thinkers also just really collaborative to tons of innovation. And so when you think about freemium product led growth, even we created a high velocity sales motion there, there was just so much innovation because you had these folks that just knew how to solve problems and worked really well cross-functionally across product growth, sales, et cetera. (00:09:04): And also, broadly speaking, the company just infused the topic of hiring and recruiting into the culture. It was something that as I was there, everyone knew we were all going to be spending a ton of time interviewing. We all were trained on how to sell Dropbox and how to sell the roles we were recruiting for too so that we could close top talent. So I think that's something we definitely got and I learned a ton about. The other thing was the importance of execution. (00:09:28): So a lot of times at Dropbox we would try something and it didn't work the first time around and it was easy to be maybe say that just doesn't work for us, like growth. We actually had tried to do some growth experiments back in 2013 and they didn't find much traction, but what we found is the devil, I like to say the devils and the details and the devils and how you execute. And so coming back to how do we execute just a little bit differently and some of the learnings there where I think the first time we started growth, we could have been more user-centric and been a lot more hypothesis driven. We were following a lot of best practices that just didn't really apply to Dropbox. (00:10:04): And so the way that you execute ends up really mattering. That was the second learning. The third is just focus. I think you alluded to this, I think the blessing and the curse of early success is that you can get pulled in so many different directions and Dropbox had a consumer business, a B2B business, and I think we could have clarified what is our point of view on what the overall motion should look like, how do we blend and think about the journey from consumer to B2B really early on, and I think a learning was that we just started our sales motion and our enterprise a little bit later than we should have and a lot of competition caught up to us. (00:10:44): And then finally, I think the fourth one that I really believe in is how do you engage the whole company in thinking about go-to-market growth and revenue. Back in 2013, in tech growth was kind of like this dirty word and revenue was a dirty word, and so we were like, \"Oh, a good product should sell itself. And it wasn't until our self-serve business started to slow down that we started our team because we realized there's a ton of opportunity in just optimizing the experience. (00:11:10): And because we started a bit later, it always felt like growth was a layer on top of product. I think the best way to execute is just to have that be front and center from the start. What is our go-to market strategy? How are we thinking about monetization and having that infused into how you think about product development? And that's something both JZ who leads product at Webflow and myself been really intentional as we've thought of the collaboration across product and growth. So that was definitely a learning. So I guess the four things there are just the importance of hiring, execution. Think about your go-to market early on and then how do you engage the whole company on thinking about go-to market and growth.",
+   "zh": "是的，这确实是个很棒的问题。在Dropbox工作了近五年期间，我做了很多反思。2013年至2017年间，我在那里共待了约200人，当时估值约10亿美元，而我离开时公司已有1500人，IPO时估值达100亿美元。我认为Dropbox做对的几件事之一，就是招聘策略。2013年，Dropbox在科技圈被誉为一家选拔严格、极难加入的公司。即便你简历出色，他们对人才的筛选也极为严格。他们主要看重两点：一是首要原则思维者——不看重经验，而是看你如何解决问题、如何提出正确的问题，并围绕这些问题建立自己的框架。（00:08:32）Dropbox还招聘那些谦逊、善于合作、以团队为导向的人。两者的结合——既有首要原则思维者，又具备团队协作能力——催生了大量创新。即使是免费增值的产品主导型增长策略，我们也成功建立了高效的销售团队，因为团队成员善于跨职能协作，涵盖产品、增长、销售等多个领域。（00:09:04）此外，公司将招聘文化深深融入企业基因。在那里，每个人都知道自己需要花大量时间面试候选人。我们接受过如何推销Dropbox以及招聘岗位的专业培训，这样才能吸引顶尖人才。另一个关键点是执行力的重要性。（00:09:28）Dropbox曾多次尝试新策略但未获成功，比如2013年的增长实验未能取得预期效果。但我们发现，真正的问题在于细节、执行细节和团队协作方式。例如，早期增长策略本可以更以用户为中心、更基于假设验证，但当时我们盲目遵循通用最佳实践，导致策略偏离实际。（00:10:04）最后，专注力至关重要。我认为你们已经提到过这一点——早期成功既是福也是祸。Dropbox同时运营消费级业务和B2B业务，但我们未能早期明确整体增长战略方向，未能及早规划从消费级到B2B的转型路径，最终被竞争对手超越。（00:10:44）最后，第四条经验是如何让全公司参与到市场增长和营收战略中来。2013年，增长和营收在科技界被视为禁忌词汇。我们当时的观念是，“好产品自然会带来增长”。但后来我们意识到，必须让整个公司树立增长思维，建立从产品到营收的闭环策略。\n产品本身就应该具备吸引力。直到我们的自助服务业务开始放缓，我们才组建了增长团队，因为我们意识到，单纯优化用户体验蕴藏着巨大的机遇。（00:11:10）由于我们起步较晚，总觉得增长只是产品开发的附加层。我认为最有效的执行方式，就是从一开始就将增长置于核心位置。我们的市场拓展策略是什么？如何将变现逻辑融入产品开发思维？这正是Webflow产品负责人JZ和我在规划产品与增长协同时始终刻意关注的重点。这确实是一次深刻的启发。所以我认为关键的四点在于：招聘的重视度、执行力的保证、尽早规划市场策略，以及如何让整个公司都参与到市场拓展和增长思维中来。",
+   "ts": "00:07:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You said Dropbox essentially there was a late investment in sales and there's a sense maybe product led growth's going to take us really far. And I imagine look at Jira and Atlassian, they're just all product led and that's amazing. I guess what's your current framework for when it makes sense to start leaning into sales and hiring a sales team for say a product led product that is working?",
+   "zh": "你说 Dropbox 基本上是在销售方面投入较晚，可能认为产品主导型增长会带我们走得很远。我想看看 Jira 和 Atlassian，他们完全以产品为主导，这真是了不起。我想问问你，当前对于像产品主导型产品这样正在运作的产品，何时开始倾向于销售并组建销售团队才算合理？",
+   "ts": "00:11:50"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "It really comes down to the product because initially I think most companies are leaning heavier into sales or heavier into product-led. You're usually not doing both at the same time. And so a trend I've seen is starting product-led first and the signal is that is a good motion for you is if the product is really intuitive to onboard onto. There's a low learning curve so you don't need a human to onboard the user. Also, if there's a viral component to it, that is really what can take. (00:12:43): Dropbox is massively viral. When I think also about Miro or Figma, those also are very viral products. Those have a kind of the DNA of product led. And initially I think when you have scale, you're getting a lot of signal on what is resonating with the user. Initially, you also don't have ... It takes a while to build out the features for enterprise. And so as you're building out the product-led motion, you have probably larger companies in your self-serve base and they are often knocking on your door. (00:13:15): This happened at Dropbox being like, \"I need you to build SSO for me. I need you to build all these enterprise grade features. It's not secure enough.\" And so you are also collecting the list of things you need to build on the enterprise side. And so I think it's typically looking like you might start product-led, then go enterprise. And then the other direction I've seen is some companies initially are just more conducive to an enterprise in sales motion. Potentially, you need to build custom things for these users. It's also not a bottom-up motion. Maybe the way you sell the product starts with the legal team or the finance team or some important stakeholder, but then a lot of companies now are trying to make that shift to make the product more accessible and go product led. (00:13:56): And so then you're thinking about, okay, how do I make this product simpler to onboard onto? How do I think about reaching the end user at scale? And so I think it's basically first figuring out where do you start and then starting to invest in the area. And I guess maybe lastly, knowing how the whole picture fits together. There's a lot of companies that do consumer and B2B and I think the earlier you can figure out how they go together and what the paths and journeys look like, it just ends up being more seamless to the user and, yeah.",
+   "zh": "这实际上取决于产品本身。我认为大多数公司最初要么更侧重于销售，要么更侧重于产品主导型增长。通常两者不会同时进行。我观察到的一个趋势是，先从产品主导型入手，如果产品对用户上手非常直观，低学习曲线且无需人工引导，那么这就是一个很好的方向。另外，如果产品有病毒式传播的特性，那就更有优势了。（00:12:43）：Dropbox 就是极具病毒性的。想想 Miro 或 Figma 这些产品，它们也是病毒式传播的产品，骨子里就带有产品主导型基因。当你达到一定规模后，就能更清楚哪些功能能真正打动用户。最初，你可能没有……企业级功能的开发需要时间。因此，在推进产品主导型策略时，你的自助服务用户群可能已经相当庞大，他们会主动找上门来。（00:13:15）：Dropbox 就曾遇到过这种情况，比如“我需要你们开发单点登录功能，我需要你们开发所有这些企业级功能，现有安全性不足。”于是你会逐步收集企业级功能的需求清单。因此，我认为通常的路径是先从产品主导型起步，再转向企业级服务。而我见过的另一种情况是，有些公司最初更倾向于企业级销售策略。可能需要为这些用户定制解决方案，这也不是自下而上的过程。销售策略可能从法律团队或财务团队等关键利益相关者开始，但现在很多公司正试图让产品更易用，转向产品主导型。（00:13:56）：然后你会思考，如何让产品更易上手？如何大规模触达终端用户？所以关键是先确定起点，然后在该领域投入资源。最后，我想知道整个拼图如何拼合起来。很多公司同时做消费级和 B2B 业务，我认为越早理清两者的关联，规划出清晰的路径和用户旅程，最终对用户来说就越无缝。",
+   "ts": "00:12:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay, so let me start to transition into talking about building awesome teams and high performing teams. And something that I know about you that I've heard from other people is that you have this reputation for being a person that people follow from company to company, which is the ultimate sign of, I don't know, retention and NPS and product market fit as a leader and a manager. So I'm just curious, what is it that you think you do that gets people to follow you from company to company?",
+   "zh": "太棒了。好的，接下来我要转向如何打造优秀团队和高绩效团队。我从别人那里了解到，你有这样一个声誉：能让人们跟着你从一家公司跳到另一家公司。这是作为领导者和管理者在留存率、净推荐值和产品市场契合度方面的最高荣誉。所以我很好奇，你认为自己做了哪些能让人们追随你的事情？",
+   "ts": "00:14:30"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I've been really fortunate. I've worked with a few folks from my early Dropbox team that I've known for 10 years now, like a couple of times. In some case, three times. And I always feel so privileged that I get the opportunity to work with them again and they have that trust and confidence in me. I think what it is, and it took me time to develop this, is I have a very people focused approach to how I lead and manage. I really think the core of it is deeply caring about people, building that trust, investing in their career development, helping them figure out where they want to go in their career. I think for me it's very personal. I have been really fortunate to have great mentors and managers that helped me in those respects. And so it really started from just paying it forward and wanting to do the same thing for other people that were on my team. I think it just comes down to deeply caring and everything, all your actions follow through from there. So that's how I would describe that.",
+   "zh": "我真的很幸运。我曾与几位早期Dropbox团队的成员共事，他们至今已相识十年，有时甚至三次合作。每次重聚，我都深感荣幸，能有机会再次与他们共事，而他们对我也始终充满信任与信心。我认为这源于我领导和管理时以人为本的理念。我深信其核心在于真心关怀员工，建立信任，投资于他们的职业发展，并帮助他们明确职业方向。对我而言，这份关怀非常个人化。幸运的是，我曾遇到过出色的导师和管理者，他们在这些方面给予我诸多帮助。因此，我最初只是希望将这份善意传递下去，为团队中的每位成员做同样的事。归根结底，就是要真心关怀他人，而你所有的行动都应由此出发。",
+   "ts": "00:14:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Some people may be hearing that and feel like there's this choice you have to make as a leader deeply care about the person or drive impact, focus on getting the work done. Do you find that those can coexist or is it this kind of two ends of a spectrum and maybe the question's just like how do you do both? How do you help people yes, achieve and drive impact while also feeling like you really care about them?",
+   "zh": "有些人听了这些话，可能会觉得作为领导者必须做出选择：要么深切关怀员工，要么专注于推动业务成果、完成工作。你认为这两者能否共存？或者说它们是两个极端，问题在于如何兼顾两者？如何既帮助员工取得成功，又能展现对他们的关怀？",
+   "ts": "00:15:55"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I don't think that they're mutually exclusive of each other because I think the other thing that I really emphasize on my team is being very results oriented. So as a growth leader, for better or for worse, everything you do is very measurable. And so I actually think this is why a lot of folks on my team, something that they actually appreciate is knowing what success looks like and knowing how they'll be measured. And I actually create a very results-oriented culture on the team where it's clear what our goals are, we break it down into the individual levers, it's clear how success is measured for each individual. (00:16:54): And so I don't think they are mutually exclusive. And then my role as a leader is also supporting their career growth, helping them meet those goals and giving them feedback along the way. So even though they might sound like two different things, I actually think they can coexist and for me, I actually really lean into both.",
+   "zh": "我认为这两者并非相互排斥。因为我特别强调的团队文化是以结果为导向。作为增长型领导者，无论好坏，你所做的一切都需要量化成效。因此，我认为正因如此，团队中许多成员非常欣赏这样的理念——他们清楚成功的标准，也明白如何被衡量。我在团队中营造了以结果为导向的文化：目标明确，分解到每个层面，个人绩效评估清晰。（00:16:54）所以我认为两者并非不可兼得。作为领导者，我的职责还包括支持他们的职业发展，帮助他们达成目标，并在过程中给予反馈。因此，尽管这两者听起来像是两个不同维度，但我认为它们可以共存，而我个人也确实在两者之间找到平衡。",
+   "ts": "00:16:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's an example of caring deeply about someone and being that kind of leader? People may be listening and are like, \"Oh yeah, I care a lot about my reports.\" But what are some examples of what that means to you that maybe would surprise people?",
+   "zh": "能举个深切关怀他人的例子吗？人们可能会说：“哦，是的，我很关心我的下属。”但你对此的理解能让人们感到惊讶吗？",
+   "ts": "00:17:15"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I think an example from someone that they joined my team and I just early on thought that they weren't maybe moving quickly enough and they needed some more direction. And so really early into them joining the company, that was about two or three weeks in, I actually pulled them aside and I said, \"Hey, we need to move a lot faster. This is where we need to get to by X. We're a growth team. We need to prove wins out early. This is how I think we should do it. Let's try to create a roadmap, a list of problems to solve, et cetera, hypotheses.\" And they don't have to be right, but just getting something out there, starting to line the whole team on what those are and then defining how we're going to measure success and know we're in the right path. We just need to get there as quickly as we can. (00:18:14): And so I gave them that feedback and afterwards, ever since then they have been just on a tear and they actually have mentioned that in later conversations a year into working together that they were so grateful that I had that conversation with them and that I took the time to tell them those things. I think sometimes as a manager it can maybe, you want to avoid the uncomfortable conversations, but I actually think the more direct you can be but also saying this is my intention. My intention is to set you up for success. That goes really far and I think that's a great example of how do you deeply care about somebody and give them direct feedback and you're giving them direct feedback because you deeply care and you also believe that they can do things differently. I think the only reason you would give that feedback is because they can do things differently and you just want to help support them.",
+   "zh": "我想举个例子，当时有人加入我的团队，我一开始就觉得他们进展不够快，需要更多的指导。所以在他们加入公司的头两三周，我就私下跟他们聊了聊，说：“嘿，我们需要加快进度。这是我们要达成的目标。我们是增长团队，需要尽早证明成果。我觉得我们应该这么做。先制定路线图，列出待解决的问题，提出假设。”这些想法不一定正确，但关键是先把思路提出来，在整个团队中达成共识，然后明确衡量成功的标准，确保我们走在正确的道路上。我们只需要尽快达成目标。（00:18:14）后来我给他们反馈后，从那以后他们就像开挂了一样。一年后的后续交流中，他们提到非常感激我当时的对话，也感激我花时间给他们这些建议。我认为作为管理者，可能有时会想避免那些令人不适的对话，但我觉得越直接越好，只要表明这是出于善意。我觉得这就是一个很好的例子，如何深切关心某个人，给予他们直接反馈，而这种关怀源于你相信他们能有所不同。唯一的出发点就是希望他们能有所改进。",
+   "ts": "00:17:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In that conversation. What is it that you did that made them feel like you really cared about them? Because when I hear you describe it's like you're just telling them, you're giving them feedback just like, \"Hey, you need to do a lot better at this. We need to actually hit our goals.\" What was it that made them feel like, \"Oh, she really wants me to succeed?\"",
+   "zh": "在那次对话中，你做了什么让他们觉得你真的很关心他们？因为听你描述，你只是告诉他们，‘嘿，你在这方面需要做得更好，我们需要达成目标。’是什么让他们觉得‘哦，她真的希望我成功？’",
+   "ts": "00:19:10"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I think in that conversation what's important is also saying, \"I believe you can do all these things and I'm doing this to support you.\" Or, \"I'm sharing this feedback because I believe in you.\" Also saying that I'm here as support, as you are building that out, let me know what I can do to support you. We can jam on it together if it's helpful. Basically, I guess boil it down to one, restating your intention and why you are having that conversation to sharing that you are there to support them and offering your own help as well. (00:19:59): Those I think are the things that go along well. And I think the third thing is as you give someone feedback, it should never sound like finger pointing or criticizing. It's really just, \"Hey, this is what I observed, this is the impact that it had and here is a different way.\" And so keeping the feedback really about the work itself and the specific things that you think can be improved.",
+   "zh": "我认为在那次对话中，重要的是要说，‘我相信你能做到这些，我这样做是为了支持你’，或者‘我分享这些反馈是因为我相信你’。还要说，我会在你推进过程中提供支持，如果有帮助的话，让我知道怎么做。基本上，我觉得可以归结为三点：重申你的意图和对话的目的，表明你会支持他们，并主动提供帮助。（00:19:59）我认为这些做法很有效。第三点是，当你给别人反馈时，绝不能听起来像是在指责或批评。只是说，‘嘿，这是我观察到的，这带来了什么影响，这里有不同的做法。’所以反馈要始终围绕工作本身，以及你认为可以改进的具体方面。",
+   "ts": "00:19:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know you're also a big fan of developing talent internally versus hiring experts from the outside and it's always this decision I think as a leader and as a company. How much do you invest in developing people knowing they can leave anytime, knowing that that's going to take all this time and work? What have you found from and just learned about the advantages maybe of spending time in developing people and helping them progress and just why is that something you find really important?",
+   "zh": "我知道你也非常赞同在公司内部培养人才，而非从外部聘请专家。我认为，作为领导者和企业主，始终面临着这样的抉择。当知道员工随时可能离职，知道这需要耗费大量时间和精力去培养人才时，你又会投入多少资源？从你自身经历来看，你发现了哪些优势，或是学到了哪些经验？为何你认为在人才培养上投入如此重要？",
+   "ts": "00:20:28"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I'll start with the why behind developing people. For me personally, it comes from like I'm personally passionate about it just because I feel that a lot of folks invested in me personally when I started out in the working world, I actually struggled quite a lot. I think making the transition from school where it's really clear what success looks like, you're just studying, getting good grades. To work where things are much more ambiguous was a really big transition for me and I really benefited from so many mentors that invested in me that I kept in touch with over the years that have also just helped me with my careers. (00:21:30): Two that really stand out are from Dropbox, Oliver Jay who goes by OJ and GC Lionetti. So it really has come from a very personal place for me. Secondly, I think it's just makes a lot of sense as you're scaling a company that as you are growing, it just is a smoother transition that the folks on your team can grow with you. People will build institutional knowledge and people talk a lot about founder intuition and that intuition that founders just have. I actually think that extends to early employees too, that have built a ton of context on the user on how to get things done at the company. So the more that you develop talent within the company, the smoother transition is versus bringing someone from the outside where there's just a lot of different factors and there's risk there. And so it really comes from a personal place, but also it makes a lot of sense from just like de-risking the situation as you're scaling.",
+   "zh": "首先，我来说说为什么要培养人才。对我个人而言，源于对这项工作的热情。因为当我刚踏入职场时，曾有很多人帮助过我，而那时的我确实遇到了很多挑战。我认为，从校园生活到职场的转变非常困难——校园里成功的标准清晰明确，而职场中却充满不确定性。这段过渡对我来说很艰难，多年来与我保持联系、帮助我职业发展的导师们，对我意义非凡。（00:21:30）其中最令我难忘的是Dropbox的Oliver Jay（人称OJ）和GC Lionetti。培养人才源于我个人的经历。其次，从公司扩张的角度来看，当团队成员能与公司共同成长时，过渡会更加顺畅。人们会积累机构知识，也常谈及创始人的直觉——这种直觉不仅适用于创始人，早期员工也积累了大量公司运营的上下文知识。因此，内部培养人才比从外部引进更能降低扩张风险。",
+   "ts": "00:20:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In my personal career I had the biggest inflection point and the most progress I made as a product manager was one manager who just did exactly what you're describing, where you invested really deeply in helping me become a better PM and it was not easy. It was just very critical of all the things I wasn't doing perfectly. And I always think about people don't sometimes have someone like that in their career. They don't have a manager like Melissa. Do you have any advice for people that are looking for someone like that or they're just like, \"Man, I have no one around me that's really helping me develop?\" What do you suggest they do?",
+   "zh": "在我个人职业生涯中，担任产品经理期间最大的转折和成长来自一位经理，他完全践行了你所描述的培养模式。他深度投入，帮助我成为更优秀的产品经理，这绝非易事。他会严厉指出我做得不够好的地方。我总在想，很多人职业生涯中都缺少这样的导师。例如，他们没有梅利莎这样的经理。对于那些正在寻找这类导师的人，或者正感叹“天啊，我身边没有真正帮助我成长的人”的人，你有什么建议吗？",
+   "ts": "00:22:27"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "As you are looking for a job, I actually do think you should look to work with people that have that reputation and that you can see that interest that they enjoy mentoring people. They have a track record of developing people. Maybe they have brought other people they've worked with at the company from other companies. Those are good signals that that's something that that person cares about. And even in the interview process, kind of interviewing your manager too and understanding what is their management philosophy, how do they think about your career path in that role? Those are things I would look for. (00:23:32): The second thing too is as you're interviewing, looking for a manager who especially your success will be tied to their success, this is actually what happened. I mean it's not like you need to be super strategic about that, but when I reflect back at times when I got closest to people was when I was one of the most critical people on their team and they really needed me to be successful and so they also just would spend a ton more time with me. (00:23:58): So really looking for those opportunities and being really selective in the types of roles you're taking. I also think there have been times for me personally where I've built relationships with someone that wasn't my direct manager that worked at the same company. And this actually has happened a lot at other companies I've worked with where someone knows that it's a passion of mine to mentor people. And so they proactively reach out to me, ask me for advice, ask me, \"Hey, can we set up a monthly recurring sync?\" (00:24:25): And so I also think you can look for other people at the company that you work with. And then finally the other thing is looking for external advisors. I actually, in my advising end up mentoring a lot of the people that I work with too. It just organically ends up happening. And so I would say summarize that as just look for the people that you think have this passion, build that relationship with them. And ideally I think you actually build the strongest when you are working together. You just learn so much about each other, but if you don't have that set up, I think there's other ways to just proactively look for mentorship and guidance.",
+   "zh": "既然你正在找工作，我确实认为你应该优先选择那些声誉良好、且能明显看出乐于指导他人的上司。他们在培养人才方面有着出色的业绩记录。或许他们曾将其他公司的人才引入现任公司。这些都是表明对方重视人才培养的信号。甚至在面试过程中，主动了解直属经理的管理理念，以及他们如何看待你在这个岗位上的职业发展路径，这些都是值得关注的细节。（00:23:32）  \n第二点是，在面试过程中要寻找那种你的成功与他们的成功息息相关的上司。这并非刻意设计的策略，但回想起来，我与他人关系最融洽的时刻，往往是我在团队中发挥着至关重要的作用，他们迫切希望我能取得成功，因此会为我投入更多精力。（00:23:58）  \n因此，要善于把握这些机遇，并在选择职位时保持谨慎。我个人曾与同公司但非直属上司的人建立深厚关系。在其他公司，这种情况也屡见不鲜——有人知道我热衷于指导他人，就会主动联系我，寻求建议，甚至主动提议：“嘿，我们能否每月定期沟通？” （00:24:25）  \n最后，可以关注公司内其他同事。总之，要寻找那些拥有相同热情的人，并与他们建立深厚关系。理想情况下，在共同工作中能收获最丰硕的成长成果。但若暂无此条件，也可主动寻求指导与支持。",
+   "ts": "00:22:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Any tips on the questions? Maybe to ask a manager to help them get to this, if any come to mind and also when you're looking for someone to help you, anything specific you think that people should look for that maybe they may not be thinking about?",
+   "zh": "关于这些问题有什么建议吗？或许可以请直属经理帮助达成目标，或者当你寻找导师时，需要特别关注哪些方面？",
+   "ts": "00:25:00"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "On the questions to ask when you're interviewing for a role, I would actually ask things like I'd love to get a sense for how you think about ... I mean I think you can flat out ask, I'd like to get a sense of how you think about managing folks on your team, how you think about developing talent on your team and seeing what their responses to that. I would also ask how are you thinking about the career path for this role? And if the person has not thought about it at all or doesn't ask you, \"Well, what is important to you?\" I think those are some signals that it's maybe not where this person tends to spend their time thinking. And then I would also ask other people on the panel that are not going to be your manager but that work with this person, especially if you happen to talk to people that they manage, how is this person as a manager? And that ends up being also very insightful. (00:26:08): The questions I would ask if you're looking for someone external, I always find that that relationship is best the more organic it could be. I think Cheryl Sandberg had wrote this in her book Lean She basically writes about how some people will go, \"Will you be my mentor?\" And I've got that question too, and it's just a lot of pressure to get asked that question really early in and you don't really know the person. And so the more it can be organic where you talk to somebody, you have actual advice that you want, some people will just reach out to me that I haven't worked with in a long time and like, \"Hey, I'm thinking about a career decision or I'm in this tricky situation at work, can we talk?\" And I just give them advice and they will reach out to me for advice occasionally. (00:26:57): It doesn't have to be a recurring thing that you have to just nurture that relationship. I think that is a way to do it. Or if you are working with somebody and you want to set up some type of monthly thing, I think you asked for that as well. The only thing is I would just be respectful of the time. So if you don't have anything to talk about that month or anything like that, I'm just always willing to help people. It doesn't mean we have to be frequently in touch. And so I think it's also less about being frequently in touch and it's just going and reaching out when you actually have a problem. People that want to help others are just going to, if they have the time, they'll say yes.",
+   "zh": "关于面试时该问的问题，我实际上会问一些诸如：我希望了解你如何看待……我的意思是，你可以直接问：“我希望了解你如何管理团队中的成员，如何培养团队人才，以及他们的反应如何。” 我还会问：“你对这个职位的职业发展路径有何看法？” 如果对方根本没有思考过这个问题，或者没有主动问你：“那对你来说重要的是什么？”，我认为这些都可能是对方不常深思熟虑的信号。然后我还会询问面试小组中的其他成员，他们虽然不是你的直属上司，但与这个人共事过，特别是如果你恰好和他们管理的下属聊过天，他们会怎么评价这个人作为管理者的表现。这往往也很有启发性。\n\n（00:26:08）：如果是在寻找外部候选人时，我会问的几个问题是，我发现这种关系越自然越好。谢丽尔·桑德伯格在《精益》一书中提到，有些人会问：“你能做我的导师吗？”我也遇到过这种问题，过早被问到这个问题会带来很大压力，因为你对这个人其实并不了解。所以更自然的交流方式更重要。比如，有很久没合作过的人会主动联系我，说：“嘿，我正在考虑职业决策，或者我遇到了工作中的难题，能聊聊吗？”我就会给他们建议，他们偶尔也会向我寻求帮助。\n\n（00:26:57）：这不必是需要刻意维系的关系。我认为这是一种有效的方式。或者如果你正在与某人合作，想要建立某种月度沟通机制，我觉得你也提到了这一点。唯一要注意的是，要尊重对方的时间。比如，如果当月你们没有什么可聊的，那就保持联系。重点不在于频繁沟通，而是在你真正遇到问题时及时伸出援手。那些乐于助人的人，只要有时间，就会欣然帮忙。",
+   "ts": "00:25:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Tim Ferriss talks about that too. He is like, \"Never ask someone to be your mentor.\" As you said, that's a scary proposition. You're committing to something, it's pressure versus just like, \"Hey, can we just meet and can I just get some advice? And then maybe after you do that, can we meet next month also?\" And just help it grow organically.",
+   "zh": "蒂姆·费里斯也谈到过这个问题。他说：“永远不要要求别人做你的导师。” 正如你所说，这是一个令人却步的提议。你是在承诺某种责任，这带来了压力，而不只是说：“嘿，我们能见个面，我能得到些建议吗？” 然后或许下个月再见面聊聊。让关系自然发展。",
+   "ts": "00:27:30"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, definitely.",
+   "zh": "是的，绝对正确。",
+   "ts": "00:27:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to talk about how you develop talent and what you've learned there. But before that, I wanted to zoom out maybe first and talk about ingredients of high performance teams. So before I ask that question, can you just list the companies you work with, some of the companies you've worked with?",
+   "zh": "我想谈谈你如何培养人才，以及你在这方面学到了什么。但在此之前，我想先退后一步，谈谈高效团队的构成要素。所以在问这个问题之前，你能否列出你合作过的公司，或者你曾工作过的公司？",
+   "ts": "00:27:50"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I guess I've mentioned Dropbox. So Dropbox was my first high growth tech startup. And then after Dropbox I did a lot of advising. So I got to work with Typeform in Barcelona and then someone at Typeform introduced me to Canva. So I met Canva when they were still about 200 people in their early growth journey. Have worked with Grammarly, Miro and then I joined Webflow. And so have been fortunate to be part of a ton of, I guess what I would think are high performing teams.",
+   "zh": "我想我之前提过Dropbox。Dropbox是我参与的首家高增长科技初创公司。离开Dropbox后，我做了大量顾问工作。当时我在巴塞罗那与Typeform合作，Typeform的一位高管把我介绍给了Canva。当时Canva仍处于早期发展阶段，员工规模约200人。我还与Grammarly、Miro合作过，之后加入了Webflow。能参与如此多表现卓越的团队，我深感荣幸。",
+   "ts": "00:28:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "100%. That's an incredible roster. So here's the question. What are some of the most common ingredients you've seen across these teams, which from an outsider's perspective seem quite high performing?",
+   "zh": "没错。这确实是一份令人惊叹的履历。那么我想问问您，在这些表现出色的团队中，您观察到的最常见的成功要素是什么？从外行视角看，这些团队的表现确实相当亮眼。",
+   "ts": "00:28:33"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I think it first starts with the team having a really clear goals. They need to know what success looks like. And often I think that's for growth teams in particular, it's always really clear, \"Hey, we need to hit certain metrics. We have certain goals for the quarter and for the year.\" And then also having a mission. So the mission's all about the why, right? So an example at Webflow is we have our growth team gold on ultimately the North Star is ARR, Annual Recurring Revenue. And then you break it down into the levers that drive ARR, the leading indicator, so that could be activation rates, the number of customers you bring in, et cetera. And so each team has really clear goals. And then we have our mission. The why. Our mission, the why we do it is we want to build these delightful experiences for our users. We want to support them on their journey on the product. (00:29:35): And the reason why the what is monetization is that's just a good signal that people find your product valuable, especially if they're consistently paying you and they're retaining. And then the other thing that I think is important is culture. So how are you going to do these things? When thinking about culture, obviously it depends on the function and the culture you want to set there. For me personally, the type of culture I try to set for the team is one around being really results oriented. (00:30:03): So something that someone on my team was saying the other day is you always make it really clear that we're going to be measured on impact and that's like how we are ultimately measured as a team. And so really creating that results oriented team. Also, a team that's very team first and collaborative. I think when you have very clear goals, when it's very results-oriented, you could potentially be in a situation where people feel they're competing against each other and you just don't want that. You actually want folks on the team to help each other out to share learnings. (00:30:33): I think that's what ends up being like a situation where one plus one equals three. You're not locally optimizing but you're thinking broader about the team and thinking beyond yourself. The third thing is really this ownership mentality. Something I directly saw at Dropbox is when we were a smaller company, everyone just felt a lot more ownership in accountability because there's just nobody else. You're wearing five different hats. You have to do it. (00:30:57): As you scale, it's really easy to suddenly feel like that ownership is diluted. And so something I always try to keep in the team, it's a feeling that we're owners and that really proactive mindset of how am I going to solve this problem? I'm blocked by this team, what am I going to do about it? And just being people that have strong sense of agency. And then lastly having fun. I think that especially in high pressured environments, easy to get stressed and all that stuff. And at the end of the day, this is very personal me, but the more fun you can have, the better everything is. And so just making sure you're infusing fun along the way and you're not taking things too seriously.",
+   "zh": "我认为首先，团队必须有非常明确的目标。他们需要清楚成功的模样。就成长型团队而言，这一点尤为重要——目标通常十分清晰：“我们必须达成某些关键指标，本季度和本年度都有明确的目标。”此外，团队还需要有使命感。使命感关乎初衷，对吧？以Webflow为例，我们的增长团队以年度经常性收入（ARR）为核心北极星指标。然后将其拆解为推动ARR增长的关键因素，即领先指标，比如激活率、客户获取量等。每个团队都有明确的目标，接着是我们的使命——即初衷：我们要为用户打造愉悦的体验，支持他们在产品中的成长之旅。  \n（00:29:35）：至于为什么以变现为核心目标，是因为这能有效衡量用户对产品的价值认可度，尤其是当用户持续付费并保持留存时。  \n（00:30:03）：我认为文化建设同样重要。具体如何推进？这取决于团队职能及所需文化氛围。对我而言，我致力于打造以结果为导向的团队文化。  \n（00:30:33）：团队成员曾提到，要明确传达团队将以影响力作为衡量标准，这也是我们团队的核心价值观。通过营造这种结果导向的文化，团队成员才能摒弃内部竞争，转而相互协作、分享经验。  \n（00:30:57）：我认为这才是1+1大于3的秘诀。团队成员不应局限于本地优化，而应着眼于全局，突破自我局限。  \n（00:31:05）：在Dropbox早期阶段，每个人都因职责交叉而具有更强的责任感。但随着规模扩大，责任感容易被稀释。因此，我始终强调团队要保持主人翁意识，主动思考问题：如何解决障碍？遇到阻碍时如何突破？始终保持行动力和主人翁精神。  \n（00:31:23）：最后，保持乐趣至关重要。高压环境下容易焦虑，但适当放松能提升效率。对我个人而言，创造趣味氛围能提升整体效率。",
+   "ts": "00:28:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I was taking notes as you were talking and there's kind of these four items just to summarize. One is creating a culture of impact and performance. Two is being team first and making about the team versus the person. Three is creating a sense of ownership and making people feel like they're owners and then having fun, which I love. A question I have there is say within the ownership bucket of creating a sense of ownership, what do you actually do to create that sense amongst the team?",
+   "zh": "当时你在讲话时，我一直在做笔记，简单总结一下，有四点要点。第一是营造影响力和绩效导向的文化。第二是以团队为先，关注团队而非个人。第三是培养主人翁意识，让员工感受到自己是主人，然后享受工作乐趣——这一点我特别喜欢。我有个问题：在创建主人翁意识这个环节，你们具体做了哪些事来激发团队的这种意识？",
+   "ts": "00:31:38"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I think it first starts with defining the scope that everyone is going to own and drive. So as you are setting up the team, it's important that each person on the team has scope that they can run independently and that they are excited to own and drive. So one example here is as I was leaving Dropbox, the finance team looked at our metrics and saw that each growth PM was bringing over a million in AR per year just from all the experiments.",
+   "zh": "我觉得首先要明确每个成员负责的范围和自主权。当组建团队时，每个成员都需要有独立运作的自主权，并且对所负责的部分充满热情和责任感。举个例子，我离开Dropbox时，财务团队分析数据发现，每位增长型产品经理每年仅通过实验就能为公司带来超过100万美元的AR增量。",
+   "ts": "00:32:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Holy moly.",
+   "zh": "天哪！",
+   "ts": "00:32:31"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah. And so that's quite a lot of impact. And being a finance team, they said logically we should just double the team. If each person brings in more than a million, if we want to double the AR, let's just double the team. And so I actually pushed back significantly though. I thought to myself, \"If we double the team, what is everyone on the team going to own and drive? Is it like we split up different parts of the website, different parts of the product 1:00 PM owns just like the checkout flow. (00:32:57): I didn't think that was going to be interesting enough for the team and going to help us recruit people that were excited to solve such small parts of the growth problem. And so really thinking about how do you carve out scope and if you are a growth team, maybe thinking about splitting up by problems to solve that are really meaty by areas of the funnel like activation, monetization, et cetera. So first starting out with carving out good scope. And then the second thing is just infusing a culture of thinking like an owner. This infusing of the culture, I think it comes out in a few ways. One is, and this is really common in growth. Growth is so cross-functional that you often will end up feeling like you're blocked by other teams. (00:33:38): Let's say we want to run an experiment on this part of the product, maybe it's a core PM that kind of owns that service area that doesn't want to drive that thing or let's say or blocked by a bottleneck on designer engineering. It's something where I think if you're thinking an owner, you are not feeling easily disempowered because you can't do something and instead you're thinking, \"What is everything I can do and did I exhaust all the options?\" (00:34:05): And then finally it's leading by example. I try to also show to my team that I'm always thinking like an owner and then I'm always trying to do everything I can. And finally as a leader, thinking like an owner also means taking responsibility for your team. And so if things don't go right in my team, I'm the first one to say that ultimately I'm responsible and it's a failure or oversight on my side. And so that is what I think an ownership mentality is. It's just really thinking about the scope, creating that culture and then as a leader it's just seeing yourself as ultimately being accountable.",
+   "zh": "是啊，这影响力确实不小。作为财务团队，他们本想简单地把团队规模翻倍。但我坚决反对。我想，如果团队规模翻倍，每个人负责的部分会被拆分得支离破碎。比如把网站的不同模块、产品中的不同功能分给不同人，比如处理结账流程的PM负责整个流程。（00:32:57）我觉得这对团队来说不够有趣，也难以吸引那些热衷于解决小问题的增长型人才。所以关键在于如何合理划分职责范围。对于增长团队来说，或许可以按漏斗阶段中的关键问题来划分，比如激活、变现等。首先要明确合理的职责范围。第二点是灌输主人翁文化。我认为这种文化可以从几个方面体现。首先，在增长团队中很常见的情况是，跨职能协作时常会遇到阻碍。比如想在产品某个模块上做实验，但产品经理不愿意推进，或者设计师遇到技术瓶颈。这时候，拥有主人翁思维的人不会轻易感到无力，而是会想：“我能做些什么？我是否已经用尽了所有可能？”（00:34:05）最后，领导者要以身作则。我努力向团队展示自己始终以主人翁身份思考问题，尽全力行动。作为领导者，拥有主人翁思维还意味着为团队负责。如果团队出现问题，我会第一个站出来承认这是我的责任和疏忽。这就是我理解的主人翁思维。关键在于清晰职责范围，培育这种文化，而作为领导者，则要始终以最终责任人自居。",
+   "ts": "00:32:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. And this connects to something else I wanted to pull the thread on, which is the team first bucket. I think about Meta, not to throw them under the bus or anything, but I feel like everyone I know at Meta their performance review is very tied to their impact. It's very impact driven and that leads to people needing to drive impact themselves. I drove this impact and they look at how much did you contribute to that impact versus other people on your team. And it creates some challenges I think for people. How do you create that feeling of team first, even though your performance as you talked about is so tied to here's your success metric, here's what success means for you, for the team, how do you make it feel team first versus like, I need to do this myself?",
+   "zh": "太棒了。这也正好让我能顺便谈谈另一个话题——团队至上理念。我以Meta为例——不是要批评他们，而是我发现身边所有Meta员工的绩效评估都与他们的影响力挂钩。这是一种以影响力为导向的考核体系，导致人们不得不主动去创造影响力。我就曾亲身经历过这样的考核：公司会衡量你对团队整体影响力的贡献程度，并将其与团队其他成员进行比较。这种机制确实给员工带来了挑战。尽管你提到的绩效衡量标准是个人成就，但团队至上理念又如何能真正落地？当你被问到“你对团队的贡献有多大”时，如何让人们感受到“团队优先”的价值？而不是陷入“我必须自己达成目标”的困境？",
+   "ts": "00:34:37"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "There's definitely a delicate balance here. It comes down to the way that I think the manager leads the team and sets the tone. And so for me, I always make it clear that even though results are important, it's a team sport. And so I often find that I am encouraging the team to work together. So again, as a leader, you have context in everything happening. So sometimes I know 1:00 PM is working on something or even a PM outside our team is working on something and I try to actually fill in context if I think someone on my team could contribute. And I encourage that action even though it doesn't maybe feed into impact on the thing they're driving. So it really comes down to the culture that you set and what you encourage the team to do. I also think the more that you can see that you actually benefit from helping each other out, the better it is. (00:36:15): And finally, I think again, leading by example, because I actually am very team first, I'm often actually helping other teams and doing things that might not ultimately benefit or be part of my scope. A good example here is I was actually driving pricing and packaging at Webflow for a very long time just because no one at the company was driving it and it was a huge opportunity area and I actually was doing it for enterprise pricing too. And so even though I am overseeing self-serve, I was actually supporting enterprise pricing and packaging. And so I also showed to my team, \"Hey, I'm also doing all these things to help the company.\" And I think that is what helps set that tone and that culture.",
+   "zh": "这确实需要找到一个微妙的平衡点。关键在于管理者如何引领团队，如何设定正确的价值观。对我来说，始终强调结果固然重要，但这毕竟是团队协作的游戏。因此，我会经常鼓励团队成员相互协作。作为领导者，你需要洞察全局。比如，我会注意到下午1点团队在忙什么，甚至其他团队成员在忙什么项目。若我认为团队成员能参与其中，就会主动补充信息。即便这些工作与他们主导的项目无关，我也会积极推动。这最终取决于你所营造的文化氛围，以及你如何引导团队行动。我相信，当人们切实感受到互助带来的价值时，文化建设才能真正落地生根。（00:36:15）最后，以身作则至关重要。作为一个始终以团队为先的人，我经常帮助其他团队完成超出职责范围的工作——比如在Webflow，我长期负责定价和包装模块的开发，尽管公司里没人负责这个领域，但这是一个巨大的机遇。我甚至还为企业级定价提供支持。虽然我主要负责自助服务业务，但我也会为企业级定价和包装模块提供支持。通过这种示范，我向团队传递了这样的信息：“嘿，我也在为公司做这些事情。”我认为这正是树立团队文化的关键。",
+   "ts": "00:35:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How do you then avoid doing too much work? I think there's also this challenge of people being too good at too many things and then they end up doing so many things and then they burn out. Do you have any rules of thumb or lessons there?",
+   "zh": "那如何避免过度加班呢？我觉得还有一个挑战是，人们往往擅长太多事情，结果却身兼数职，直至精疲力竭。对此你有什么经验或建议吗？",
+   "ts": "00:36:55"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I think for me it's been a learning journey too. I've actually gotten feedback on that very thing for my team that Melissa sometimes taking on too much or trying to do too much. And so I think it's a delicate balance. If we're talking about that person individually, you have to know what your limits are and you also can do things in spurts, but it's important to know ultimately what you can take on. Also I find that putting a specific timeline like, \"Hey, I'm going to do this thing for a quarter, but after that we really need to find somebody else to do it.\" Or hand it off is really helpful. It's definitely a delicate balance. I do think it's a great question because I think that's a common thing people early in their careers struggle with, which is they could lose focus because they're trying to help everybody. (00:37:49): That was actually a problem I had when I first joined Dropbox is I was the only sales ops person, so I was just helping every sales leader with their metrics and very focused. And so it is a little bit of trial and error. I think the most important thing is to not be so overly focused on just what you're doing and try to help others, but then knowing that there are certain things that just can't drop. And if you start to see things that are starting to drop that you're ultimately responsible for, that's a signal that you're taking on too much.",
+   "zh": "我觉得对我来说，这也是一个学习的过程。实际上，我团队里有人就曾反馈过，梅丽莎有时会揽下太多工作，或者试图做得太多。所以我认为这是一个微妙的平衡。如果从个人层面来讲，你必须清楚自己的极限所在，你也可以分阶段完成任务，但最重要的是要清楚自己能承受多少。另外，我发现设定一个具体的时间节点很有帮助，比如“我会在这个季度负责这项工作，但之后我们真的需要找其他人来接手。”或者将任务移交给其他人，这真的很有用。总之，这是一个需要平衡的微妙问题。我认为这是一个很好的问题，因为我认为这是初入职场的人常遇到的困境——他们可能会因为试图帮助每个人而失去专注力。\n\n（00:37:49）：这实际上是我刚加入Dropbox时遇到的一个问题，当时我是唯一的销售运营人员，所以我只专注于帮助每个销售主管处理他们的指标。这确实需要不断尝试和摸索。我认为最重要的是不要过度专注于自己正在做的事情，而是尽力帮助他人，但同时要知道有些事情是不可放手的。如果你开始发现自己负责的某些事情出现问题，说明你承担了太多工作。",
+   "ts": "00:37:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Eppo is a next generation AB testing platform built by Airbnb alums for modern growth teams. Companies like DraftKings, Zapier, ClickUp, Twitch and Cameo rely on Eppo to power their experiments. Wherever you work, running experiments is increasingly essential, but there are no commercial tools that integrate with a modern grow team stack. This leads to waste of time building internal tools or trying to run your own experiments through a clunky marketing tool. (00:38:45): When I was at Airbnb, one of the things that I loved most about working there was our experimentation platform where I was able to slice and dice data by device types, country, user stage, Eppo does all that and more delivering results quickly, avoiding annoying prolonged analytic cycles and helping you easily get to the root cause of any issue you discover. Eppo lets you go beyond basic click-through metrics and instead use your North Star metrics like activation, retention, subscription and payments. Eppo supports test on the front end, on the back end, email marketing, even machine learning claims. Check out Eppo at geteppo.com, that's geteppo.com and 10x your experiment velocity. (00:39:25): Let's come back to the developing talent bucket. I would kind of went on a tangent, but I want to come back to that. So we talked about why you're excited about developing talent, the benefits you've experienced. I'm curious what you actually do to help people become better product managers, leaders of all kinds. What actually have you seen works?",
+   "zh": "本期节目由Eppo赞助。Eppo是由Airbnb前员工为现代增长团队打造的下一代AB测试平台。DraftKings、Zapier、ClickUp、Twitch和Cameo等公司都依赖Eppo来推动他们的实验。无论你在哪里工作，进行实验都变得越来越重要，但没有商业工具能与现代增长团队堆栈集成。这导致人们浪费时间构建内部工具，或者试图通过笨拙的营销工具来运行自己的实验。\n\n（00:38:45）：我在Airbnb工作时，最喜欢的一件事就是我们的实验平台，在那里我能够按设备类型、国家、用户阶段切分数据。Eppo能做到这一切甚至更多——快速提供结果，避免令人烦恼的冗长分析周期，并帮助你轻松找到发现的任何问题的根源。Eppo让你超越基本的点击率指标，转而使用你的北极星指标，如激活、留存、订阅和支付。Eppo支持前端、后端、电子邮件营销甚至机器学习测试。请访问geteppo.com了解更多信息，那就是geteppo.com，让你的实验速度提高10倍。\n\n（00:39:25）：让我们回到培养人才这个话题。我之前有点跑题了，但我想回到这个话题上。我们讨论了你对培养人才的热情，以及你所经历的好处。我很好奇你实际做了什么来帮助人们成为更好的产品经理、各类领导者。你见过哪些有效的方法？",
+   "ts": "00:38:18"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "In terms of developing talent, I think of this as stages of the life cycle of your relationship, right? So I think at first actually starts is a very meta as a growth person starts with when you hire somebody, really making sure you're finding somebody that is a good fit for the role. It's a good mutual fit. I also tend to look for folks that have a growth mindset. (00:40:06): There're people that are wanting to learn. They're looking for feedback. They take feedback well. And then after that they join the company, and as a manager, my job is to help set them up for success. So how do I ramp them up as quickly as possible, connect them to the right people, the company? How do I also make sure it's clear what success looks like in their first 90 days? And then how do I help them secure early wins essentially? (00:40:32): So I often will suggest, \"Hey, you should do this presentation. It's a great way to get visibility early in your journey here.\" Here are some things where there's low hanging fruit or even rotting fruit that you should take on into secure early wins. Then in your journey, I think it's a lot about just giving feedback along the way, making sure you give visibility. One recent hack I have is having folks on the team create looms that they can share with different leaders at Webflow. It's hard to sometimes get visibility and get live meeting calendars, but if you create a five or 10 minute-loom on something you did. That's just a great way to get visibility. (00:41:10): And then finally, I think it's that lifelong relationship actually. So I'm still in touch with a lot of people that I've managed and I've helped them. Whether it's looking for their new job or they have career advice, I always make myself available. And so it's actually that lifelong journey of just developing that person. And at some point it's not even developing that person, but it's having a friendship with somebody. And I feel like I've learned a ton from people that I have managed. And so it ends up being this really great thing where you initially started working together but you now know each other so well. And I think that's even how I've developed as a manager is just getting feedback from my team.",
+   "zh": "谈到人才培养，我认为这就像是你们关系生命周期的不同阶段，对吧？所以我认为首先实际上是从一个很宏观的角度开始的，当你招聘某个人时，要确保找到真正适合这个角色的人。这是一个良好的双向匹配。我还倾向于寻找具有成长型思维的人（00:40:06）：有些人渴望学习。他们乐于接受反馈，并且能很好地处理反馈。然后他们加入公司后，作为管理者，我的职责就是帮助他们为成功做好准备。那么如何尽快让他们适应环境，让他们与公司和合适的人建立联系？如何在他们入职的前90天就明确成功的标准？然后如何帮助他们尽早取得成功？（00:40:32）：所以我经常会建议：“嘿，你应该做这个演示。这是在你职业生涯初期获得关注的绝佳方式。” 这里有一些低风险甚至是容易出成果的事情，你应该抓住机会取得早期成功。然后在他们的职业发展过程中，我认为关键在于持续提供反馈，确保他们获得关注。最近我发现一个妙招，就是让团队成员制作Loom视频，分享给Webflow的不同领导。有些时候很难获得关注和安排会议日程，但如果你制作一个五到十分钟的Loom视频，展示自己做过的事情，这就是获取关注的绝佳方式。（00:41:10）：最后， 我认为这实际上是一段终身的关系。所以我至今仍与许多我管理过并帮助过的人保持联系。无论是他们寻找新工作还是寻求职业建议，我都会尽力提供帮助。这实际上是一段终身的旅程，就是培养那个人。在某个阶段，这甚至不再是培养一个人，而是与某人建立友谊。我觉得我从我管理过的人身上学到了很多东西。最终，你们最初只是在一起工作，但现在你们非常了解彼此。我认为这就是我成长为一名管理者的秘诀——不断从团队中获得反馈。",
+   "ts": "00:39:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This all comes back to something you mentioned a couple of times earlier, just caring a lot about the person that you work with. Your approach also reminds me of this book, Radical Candor. I imagine you're a fan and that's kind of the way you think about it.",
+   "zh": "这一切都回到了你之前多次提到的一点，那就是非常关心与你共事的人。你的方法也让我想起了《Radical Candor》这本书。我猜你一定是这本书的粉丝，这也正是你思考问题的方式。",
+   "ts": "00:41:51"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, definitely. Interestingly enough, Kim Scott was at Dropbox for a short period of time, so when I joined Dropbox, she was actually on my interview panel and we overlapped for three months and she actually workshopped that book with our team before she published it. And that always resonated with me. And I remember her saying you have to ... I forget the exact words, but it's essentially be direct but deeply care.",
+   "zh": "是的，绝对如此。有趣的是，金·斯科特曾在Dropbox短暂任职，所以当我加入Dropbox时，她实际上在我的面试小组中，我们共事了三个月，她甚至在出版这本书前就与我们的团队一起进行了研讨。这让我深有共鸣。我记得她说过你必须……我记不清具体措辞了，但本质上就是要直言不讳但真心关怀。",
+   "ts": "00:42:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Care deeply, but something directly challenged directly. Something like that.",
+   "zh": "是的。要真心关怀，但也要直言不讳地提出挑战。类似这样的。",
+   "ts": "00:42:30"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, care deeply but challenge directly and that has always been something that is something I try to infuse and has really inspired me as leader.",
+   "zh": "是的，真心关怀但直言不讳地提出挑战，这一直是我努力贯彻的理念，也深深启发了我作为领导者的成长。",
+   "ts": "00:42:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. We're going to link to that book if folks don't know about it. I love it. You talked about hiring PMs and how that is important in building high performing teams. So let's spend a little time there, maybe just two questions all throughout and you can approach them however you want. One is just what do you look for when you're hiring product managers? You've hired a lot of PMs. You've managed a lot of PMs over the years. What do you look for, especially things that maybe other people don't focus on enough, and then just what is your interview process? What do you find is most helpful for interviewing process-wise?",
+   "zh": "太棒了。如果大家还不了解这本书，我们会附上链接。我超爱它。你之前谈到招聘产品经理的重要性，以及如何组建高效团队。咱们就来深入探讨一下吧，或许先抛出两个问题，大家可以自由发挥。第一个问题是：招聘产品经理时，你最看重哪些方面？你招过很多产品经理，多年来也管理过不少。能否分享一些其他人可能不太关注的关键点？第二个问题：你的面试流程是怎样的？在面试过程中，有哪些方法最为有效？",
+   "ts": "00:42:43"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "In terms of what I look for, I think there's this kind of known list of things that you probably want to look for, for a PM that I probably are not going to ... I'm say anything groundbreaking here, but obviously communication skills, the ability to manage stakeholders and work well cross-functionally. The things that I lean especially heavy on in my interview process is this concept of first principles thinking or strong critical thinking. So usually there's some live problem solving component to my interview process where I really lean more heavily into how would you approach X problem? And then I dig into the Y and try to understand why would they approach it this way, see what questions they're asking and just see how they approach problem solving. (00:43:55): And then the other thing that I look for that I mentioned is that growth mindset. So really seeing how does this person take feedback. And so I'll actually sometimes give feedback to candidates through the process. Something that I do that I learned a few years ago that was super helpful, so I always have a presentation component to the interview process that checks for prepared thinking communication. And I recommend a prep call between the two of us before that presentation. And I actually will give feedback on the presentation. (00:44:26): And what this gives me signal is what is it actually going to be like to work together? And then I see how they incorporate it into the final product and that is always really interesting and sometimes it's the biggest signal to what it's going to be like to work with this person.",
+   "zh": "关于招聘标准，我觉得有一些公认的要素，比如沟通能力、协调利益相关者及跨部门协作的能力。但我更关注面试中的两个核心点：第一原则思维和批判性思考。在面试中，我通常会加入实时解决问题的环节，深入探讨候选人如何处理某个问题。然后我会追问他们为何采用这种方法，观察他们的提问思路和解决问题的逻辑。（00:43:55）另外，我特别看重成长型思维，观察候选人如何接受反馈。实际上，面试过程中我也会给予反馈。几年前我总结的一个有效方法是，在面试前安排一场演示环节，用来评估候选人的思维准备和沟通能力。我建议双方在演示前进行预沟通，并在演示后提供反馈。通过这种方式，我能预判与候选人共事的真实场景，并观察他们如何将所学融入最终成果，这往往能最直接地反映出与他们合作的效果。",
+   "ts": "00:43:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, this is great. I want to spend a little time here. So what is the actual sequence that you recommend or you use for interviewing? There's a presentation, there's a rep call but also is kind of involved in that.",
+   "zh": "好的，非常感谢。接下来我想深入探讨一下具体的面试流程。您提到的环节包括演示和反馈电话，但具体顺序如何呢？",
+   "ts": "00:44:39"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Usually hiring manager screen, and I actually do the live problem solving at this screen. I actually think it weeds out the most people. And there's actually two things I do here. One is a live problem solving. How would you approach X? So let's say I'm hiring for pricing at Webflow, I would ask, \"How would you approach pricing?\" I sometimes would say, \"Hey, do you have your laptop? Can you pull up our pricing page? Curious to get your thoughts, what would you want to change?\" That was a trick I learned at Dropbox where we would actually pull up the Dropbox website and be like, \"Hey, what'd you want to test here? Why?\" And you get a ton of signal on how they approach the problem, how they think. (00:45:25): I ask why a bunch. And then the next screen is talking to more folks at the team that test for different competencies. And depending on what you're hiring for, we just have each person focused on a different competency. And it also depends on the roles. So some roles are more technical, some require working more closely with different stakeholders, so you want to make sure you can test those things. And then the final round is the presentation and then also maybe a conversation on other areas. (00:45:52): We want that kind of come through the interview process. We want to dig in further. The presentation is usually thinking through how you'd approach, your collecting all this information on the company or the problem throughout the interview process. And so it culminates in what do you think this should look like or maybe what would you want to do in your first 90 days? It depends on the role, but it's usually some type of presentation about the problem you would be working on at the company. (00:46:18): Before that, we have that preparation call with me where often candidates will have questions like, \"Oh, I need to know this data,\" or \"I'm curious about X.\" And so it's really just a call to help them. And then at this stage too, they'll often have the actual draft of the presentation and so we'll go through it together and I'll actually be like, \"Hey, I think you should lean in heavier here. How would you think about this?\" I'll even say for example, at Webflow I'll be like, \"We're thinking about X, Y, Z thing just so you know. And maybe incorporating that into your presentation would be really helpful. (00:46:50): And so that's where I get a lot of signal of what is it going to be like to work with this person on a presentation? And then I'll see in the presentation whether they incorporate it or not or how they did. And sometimes I've seen candidates that didn't incorporate any of it and I kind of am like, \"Okay, this is probably not a fit.\" And actually I think that other thing about that call is it helps just set the candidate up for success. It's actually quite a lot of work to create a presentation. The more we can help them by giving them information, making sure they can be successful, it's helpful. And I think guess lastly, it gives them a taste of what it's like to work with me.",
+   "zh": "通常，招聘经理会进行初步筛选，而我实际上会在这个环节进行现场问题解决。我认为这个环节能筛选掉最多不合适的人选。具体来说，我在这里会做两件事。第一是现场解决问题。比如说，如果我在Webflow招聘定价岗位，我会问：“你会如何着手定价？”有时我会说：“嘿，你带电脑了吗？能打开我们的定价页面吗？想听听你的想法，你希望做出哪些改进？”这是我在Dropbox学到的技巧——我们会直接打开Dropbox官网，问对方：“你想在这里测试什么？为什么？”通过这种方式，能深入了解候选人解决问题的方式和思维模式。（00:45:25）我会反复追问原因。接下来是与团队其他成员交流的环节，根据招聘职位不同，我们会安排不同成员专注于不同能力的测试。不同职位的侧重点也不同——有些职位更偏技术性，有些则需要与不同利益相关者密切合作，因此必须确保能测试到这些能力。最后一轮是面试演示，可能还会有其他环节的讨论。（00:45:52）我们希望通过整个面试流程深入了解候选人。演示环节通常需要回顾整个面试过程中收集的信息，比如公司背景、项目挑战等。最终会讨论你认为应如何设计方案，或在入职前90天内会优先开展哪些工作。（00:46:18）在此之前，我们会进行准备沟通，候选人常会提出诸如“我需要了解这些数据”、“我对X很感兴趣”等问题。这个环节主要是帮助他们准备。演示环节中，他们通常会带着初稿，我们会一起分析，我会说：“你可以再深入些。”比如在Webflow，我会说：“我们正在考虑X、Y、Z事宜，供你参考。把这些融入你的演示会很有帮助。”通过此环节，我能判断候选人是否能与我高效合作。最后，我会根据演示效果判断是否适合录用。我认为这个沟通环节还有助于候选人为成功做好准备。制作演示稿需要大量工作，能提供信息支持、确保成功完成，这非常有帮助。最后，我想说这让候选人提前体验了与我共事的感觉。",
+   "ts": "00:44:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've never heard of that step before. That is really interesting. They actually give them feedback before they present. I imagine they're like, \"What the hell is going on here?\" I thought I was trying to show them what I can do, not like they're going to help me do a great job. That is really interesting. Maybe two very logistical questions there. How much time do you give them to work on this presentation? And then two, you said that you asked some questions related to the actual problem solving versus a theoretical problem. So those are the two questions, I guess.",
+   "zh": "我之前从未听说过这一步骤。这真的很有趣。他们实际上会在演示前给出反馈。我能想象他们当时会想：“这到底是怎么回事？”我原以为自己是在向他们展示我的能力，而不是指望他们能帮我把工作做得更出色。这确实很有趣。可能有两个比较实际的问题。第一，您给他们多长时间准备这份演示？第二，您提到会问一些与实际问题解决相关的而非理论性的问题。以上就是我的两个问题。",
+   "ts": "00:47:26"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Typically we will schedule it about a week in advance. They have a week. The tricky thing here is obviously it's a big ask to ask someone to create a presentation. And so if it's one week that's long enough to create it, but it's short enough that you don't spend tons of time. The other thing is just making it clear, don't exceed more than X number of slides. In Webflow's case we've done, don't exceed more than 30 slides. And that's like quite a lot. We do not expect you to do 30 slides. And then the other thing I make sure to emphasize is it's really about wanting to know how you'd approach it. So don't worry about the slides, be able to talk to it and have what you need to talk to it because we're actually just looking for the substance. And so that's how much time we give them and it's usually a 30-minute presentation with 15-minute Q&A. (00:48:42): The second part of your question was, so in terms of picking the topic, so there's a few ways to think about it. I know some folks will be like, \"Oh, we have candidates present on something they've worked with in the past.\" I've tried that form and it's really difficult because I found that candidates even sometimes spend tons of time sharing the context of that company. And then also it doesn't really give a sense of, because as you're interviewing from a role, you're getting a ton of context on the actual company and the problem. And so it also is testing for how much did they pick up along the way. Also, would they like working on this area once they join? So there are some candidates that sometimes are concerned about the amount of time they would spend on it or say, \"This is going to be a big lift.\" (00:49:30): And definitely mindful of that. I think the main thing though is it is actually in the candidate's best interest to kind of understand what they're going to work on and start to understand,",
+   "zh": "通常我们会提前一周安排相关事宜。他们有一周的时间准备。关键在于，要求别人制作演示文件确实是个不小的挑战。因此，如果给一周时间既足够他们完成，又不会让他们耗费过多精力。另外，我们会明确规定幻灯片数量不得超过X页。以Webflow为例，我们设定上限为30页，这已经算很多了。我们并不期望他们制作30页幻灯片。最重要的是，我会强调重点在于想了解他们如何处理问题。所以不必过于在意幻灯片部分，关键是能流畅地阐述思路并具备相关知识。这就是我们分配的时间安排，通常30分钟演示，15分钟问答环节。（00:48:42）：您问题的第二部分是关于选题的。有几种思路可以考虑。我知道有些公司会让候选人展示他们过去参与过的项目。但这种形式效果不佳，因为候选人往往会花大量时间分享原公司的背景信息。同时，招聘者通过面试已获取了大量关于目标公司和实际问题的信息。这也需要测试他们在项目中的学习能力，以及他们加入后是否愿意从事这方面工作。有些候选人会担心投入过多时间，或者认为这会是个巨大的挑战。对此我们必须留意。最重要的是，深入了解未来工作内容对候选人自身有利。",
+   "ts": "00:47:52"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "For example, there are some candidates that have gone through the far through process and haven't worked in the Webflow product very much. And I always think that's an interesting flag because if you aren't in the product a lot, you're not going to get good context on whether you like it or not. And so I actually think it's almost even in the best interest of the candidate to go much deeper.",
+   "zh": "例如，有些候选人经历了漫长的面试流程，却对Webflow产品知之甚少。我认为这是一个危险信号，因为如果对产品不熟悉，就无法准确判断是否喜欢这份工作。因此，我认为深入了解产品特性对候选人更有益处。",
+   "ts": "00:49:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I could spend another hour talking about interview strategy, but I want to make sure we have time for the growth team stuff. So let's transition to that. And my first question here is you've worked with a lot of different teams, a lot of different companies on helping them figure out their growth strategy, hiring their growth teams, just kind of figuring out growth. I'm curious what the most common pitfalls and mistakes you've seen across companies trying to figure out growth and build growth teams.",
+   "zh": "我可以再花一个小时讨论面试策略，但现在要转到增长团队相关话题了。首先，您与许多不同团队和公司合作过，帮助他们制定增长策略、组建增长团队、探索增长模式。我很好奇在帮助企业制定增长策略和组建增长团队过程中，您见过最常见的陷阱和错误是什么？",
+   "ts": "00:49:59"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "One of the most common pitfalls I'd say is not having, and I've alluded to this, not having a sense of the big picture from the start and not being strategic about what your go-to market strategy is going to be. Also, what is your pricing and packaging going to look like? So I wrote actually an article for the YC blog a few years ago with Abby [inaudible 00:50:48] who was on my team at Dropbox about this because I felt like even at Dropbox, I mean it's a great thing. We were haphazardly finding amazing things. We had a freemium consumer product. Then we realized people wanted a Teams product, so we built a Teams product, but we never created that whole blueprint of what should it look like and what are the different connection points across consumer business? What should our model look like? I've also seen companies that maybe weren't intentional enough about pricing from the start, and so thinking about what is the value metric? (00:51:20): And then they've already have massive scale and then they're rethinking their pricing. That's actually quite a big headache to actually think about, okay, how do we grandfather users? How do we bring the legacy customers onto our new pricing? And so thinking about your pricing from the start is important thing might go to market from the start is important. The other thing I have seen a lot is just like, again, this goes back to learning from Dropbox is the execution folks taking a class or reading a lot about growth and trying to do the same thing and not really actually starting from first let's look at our data. Let's talk to our customers. What do we think are the biggest hypotheses? And starting your experiments based on your own data and right-sizing the experiment. (00:52:10): I think sometimes teams are experimenting on things that are too small, that aren't going to move the needle because they heard it was really successful company X, but that company X might be a Dropbox where every 0.5% improvement in conversion makes a difference, but if you're early stage doesn't matter and you need to actually think bigger. The other thing is the opposite problem, redoing a whole thing but not having a hypothesis, this was an early mistake I made at Dropbox where I redid the checkout page to something that I thought was better UX, but then I changed so many different components that even when it failed, it was unclear why it failed. So really distilling it to hypotheses. (00:52:48): And then the last thing I would say is figuring out what I call the flying formation of how the different growth teams will work with other companies. And again, I alluded to this, but growth shouldn't feel like it's a layer on top. And a lot of the things that are tricky early on is figuring out how you work with other teams. I think the best or the ideal way to work is to have growth infuse in the company. And so an example here is often the growth team is going to be potentially the closest to the user. (00:53:21): They're going to get a lot of feedback. They're going to hear directly from the user. As a growth team, I think one of the big values that we can have is actually giving that feedback back to other teams at the company. And so even as a growth team, can we help inform the product roadmap? Also on the reverse, thinking about as PMs, how can PMs be more growth oriented as well?",
+   "zh": "我认为最常见的陷阱之一，是从一开始就缺乏大局观，缺乏战略性思考，未能制定清晰的市场推广策略。此外，你的定价和产品包装又该如何设计？几年前，我曾与Abby（在Dropbox时曾是我的团队成员）为YC博客撰写了一篇相关文章，因为我发现即使在Dropbox内部，虽然我们偶然发现了许多惊喜产品，但我们仍未能构建完整的蓝图——如何衔接消费者与企业业务？定价模式又该如何设计？我还见过许多公司从一开始就未能充分考虑定价策略。例如，他们在产品已形成大规模后才重新审视定价，这无疑是个令人头疼的难题。如何保留老用户？如何将遗留客户过渡到新定价体系？因此，从一开始就规划定价策略至关重要。\n\n另一个常见问题是——这又回到了Dropbox的经验——许多团队盲目模仿成功案例，却未能从实际出发。例如，他们先是参加增长课程、大量阅读相关书籍，随后照搬策略，却从未真正审视自身数据、倾听用户需求、梳理核心假设，并基于数据优化实验规模。这类错误往往源于两个极端：要么尝试微不足道的改进，要么因规模过大而束手束脚。\n\n另一个反面教训是——这也与Dropbox早期经历相呼应——在未形成假设前就重构产品。例如，我曾将结账页面改版为更美观的界面，但由于改动过多，最终以失败告终，却难以总结原因。因此，关键在于提炼核心假设。\n\n最后，我想强调的是构建增长团队的协作机制。增长团队不应成为独立层级，而是应深度融入产品研发。例如，增长团队通常最贴近用户，能直接获取反馈。作为增长团队，我们能否为产品路线图提供决策依据？反之，产品经理又如何能更主动地融入增长思维？",
+   "ts": "00:50:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I like this term flying formation. I've never heard of this before. What is that exactly again? Is that just how growth is integrated within the company?",
+   "zh": "我喜欢“飞行编队”这个术语。之前从没听过这个词。能再详细解释一下吗？这到底是什么意思？难道就是指公司内部如何整合各团队的协作吗？",
+   "ts": "00:53:44"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, I guess flying formation essentially, I don't know where it comes from. I guess maybe it's a military term or something. Your finger.",
+   "zh": "是啊，我猜“飞行编队”本质上……我不知道它源自哪里。可能是个军事术语之类的。你的手指。",
+   "ts": "00:53:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I can say that. Yeah, like the Blue Angels",
+   "zh": "我可以这么说。对，就像“蓝天使飞行队”那样。",
+   "ts": "00:53:59"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Work together?",
+   "zh": "一起合作？",
+   "ts": "00:54:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:54:01"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah. I think of flying formation as how do we work together across teams. You also can think of it as a DACI too, driver accountable, contribute informed. I think sometimes when you don't know how you're going to work together, you end up stepping over each other's toes. You're unclear. Who was the decision maker here? Who did we need to work with? At what point in the journey? And so the flying formation, what I think it is, is part of it is a DACI of what are the different roles?",
+   "zh": "对。我把“飞行编队”理解为团队间如何协同合作。你也可以把它看作DACI框架——驱动者（Driver）、责任人（Accountable）、贡献者（Contributor）和知情者（Informed）。有时候当你不清楚如何协作时，往往会互相扯皮，职责不清。比如决策者是谁？需要与哪些团队合作？在项目的哪个阶段？所以“飞行编队”在我看来，部分体现了DACI框架，即不同角色的职责分工。",
+   "ts": "00:54:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you define that actually? Because a lot of people probably won't know that term.",
+   "zh": "能具体解释一下吗？因为很多人可能不熟悉这个术语。",
+   "ts": "00:54:32"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "A DACI is a framework to think about the different roles on the team on a project or an area. So D stands for Driver. This is the person driving the project. A is Accountable, this is the person that's ultimately accountable and is often the final decision maker if there's any open questions. C is Contributor, these are all the different teams that are going to contribute. And then I is informed. These are the people that need to be informed, but they're not directly contributing. They're not a decision maker and part of the project. (00:55:08): And so it's a nice simple framework for when you are working across teams and it needs to be clear who is in what role. And the area that tends to be the most confusing can be the accountable and who the decision maker is. It can be easy to have lots of teams and then it's unclear how do we get to a decision ultimately and who should make that decision. And that person should often be the person that has the most context or is ultimately responsible. (00:55:33): And so I think the flying formation has this DACI. I often also put operating rhythms in it, so it's clear what is happening at what point. And so we created a flying formation when we were first starting the growth team at Webflow and we were trying to figure out how does product growth work with product, how does product growth work with growth marketing? What are the different cadences that each team has? And so very tactically we put a doc together to say, okay, product growth is accountable for all the metrics downstream of signups. Growth marketing is accountable for signups. They're also driving or have goals around CAC, their customer acquisition costs, and these are the different metrics everyone owns. (00:56:14): We have a weekly meeting where we look at the metrics together. We also will do updates around the room to talk about initiatives and identify areas we want to work with. And then we also think through quarterly planning where we're each identifying projects that we're driving. There's some projects that we might also work on together. And so it's essentially that meeting cadence that you're going to have the operating rhythms. That's essentially how I think about a flying formation.",
+   "zh": "DACI是一个思考团队或项目中不同角色的框架。D代表驱动者（Driver），负责项目推进；A是责任人（Accountable），通常是最终决策者；C是贡献者（Contributor），即各团队成员；I是知情者（Informed），需要了解进展但不直接参与决策。（00:55:08）这个框架在跨团队协作时很实用，能明确各成员的角色。最容易混淆的部分是责任归属和决策者角色。多个团队协作时，决策流程不清晰，责任分工模糊。通常，拥有最多背景信息或最终责任的人应成为决策者。（00:55:33）我们在Webflow成立增长团队时，就构建了飞行编队框架，理清了产品增长与增长营销的协作流程，明确了各团队的周期节点。每周我们会一起复盘数据，每季度规划项目进展，必要时跨团队合作。这种定期会议机制正是飞行编队的核心运作机制。",
+   "ts": "00:54:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. That would make a great blog post. By the way, if you're looking for something to write an example of your actual client formation Webflow, I think people would love that.",
+   "zh": "我太喜欢这个了。这会是一篇很棒的博客文章。顺便说一句，如果你想写一篇关于你实际客户获取案例的博文，特别是用Webflow实现的，我想人们会很感兴趣的。",
+   "ts": "00:56:40"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:56:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One kind of tangent that I wanted to touch on is there's this trend of product teams owning revenue. Elena talked about this on a recent podcast. You have a perspective on should product growth teams own revenue and have revenue numbers as their goals or not?",
+   "zh": "我还想提一个相关话题，就是产品团队自主负责营收的趋势。埃琳娜在最近的一期播客中提到了这个问题。你对产品增长团队是否应该自主负责营收并以营收数字为目标有何看法？",
+   "ts": "00:56:48"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, really it depends on the company and what product growth is driving. I've always, in the companies I was at and actually even the companies I advise, the product growth team owns revenue, so it's not always the case. I've actually seen revenue owned by marketing. So marketing makes sense if it's more top of funnel growth. I've also seen it, this is an interesting one, by finance actually. This is usually early in the company. (00:57:31): So early at Canva, it was owned by finance and that's because finance had a view on everything happening in the business and would actually be maybe advising other teams on, \"Hey, our conversion rates could improve, we need to do X.\" Or we're not driving signups and customers efficiently, but over time it doesn't really sit in finance. That has evolved and then now sits under the person that is driving product growth in product. So I have seen it more often than not being owned by product. Our team at Dropbox moved a ton actually. We started marketing. We actually then report into the revenue org with sales, and then we finally moved into product because we realized so much of our revenue was that product growth motion happening in the product that we felt it was important that that product team owned revenue.",
+   "zh": "嗯，这实际上取决于公司的情况以及产品增长所推动的业务方向。在我曾任职的公司，甚至是我为其提供咨询的公司，产品增长团队通常负责营收，但这并非普遍情况。实际上我见过营收由市场部门负责的情况。如果是漏斗顶端的增长，这对市场部门来说是合理的。我还见过由财务部门负责营收的情况，尤其是在公司初期阶段。（00:57:31）：比如Canva早期阶段，营收由财务部门负责，因为财务部门能洞察公司业务的全局，可能会给其他团队建议，比如“我们的转化率可以提升，需要采取X措施”，或者“我们没有有效获取新用户和客户”等。但随着公司发展，这部分职责逐渐转移到产品增长团队手中。Dropbox的团队就经历过多次调整。我们最初做市场工作，后来将报告线移交给销售团队，最终又转回产品团队，因为我们意识到营收很大程度上源于产品增长流程，因此让产品团队负责营收至关重要。",
+   "ts": "00:57:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A lot of the things you're talking about are based in how growth starts at a company. I imagine one of the most common questions you get is, how do I start to invest in growth? How do I hire my first growth person? How do I build a team around them? It's one of the most common questions I get. So let's spend a little time here. What is your advice to founders that are just starting to think about building their initial growth team and how to approach that to look for initially and kind of think about that longer term?",
+   "zh": "你提到的很多内容都基于增长在公司中的起步阶段。我想你最常被问到的问题之一是：如何开始投资增长？如何招聘首位增长团队成员？如何围绕他们组建团队？这确实是我最常被问到的问题之一。接下来我们花点时间探讨这个问题。对于刚开始考虑组建初期增长团队的创始人，你有什么建议？如何着手组建团队，如何寻找合适人才，以及如何从长远角度规划？",
+   "ts": "00:58:20"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I get this question a lot as well. I'd say initially when a company's starting out, the goal is getting to product market fit and figuring out who their ideal customer profile is, like their ICP. And at this point, I think everyone at the company should be thinking about growth. They're finding their first few design partners that they will co-create the product with. They're figuring out who is their product resonating with, who is maybe also the decision maker in purchasing the product. And they're figuring out, do we want kind of a bottom up product led motion? Are we going to lean more heavily into sales? Are we going to do both? (00:59:18): After you reach product market fit and you're starting to get your first few customers, the first growth per person I see more often than not isn't someone driving acquisition. You need to find your first a thousand or thousands of customers and you need to do it at scale. And so if that is the focus of the company, typically what I would recommend is somebody that they don't need to be an expert, but ideally they understand maybe one or two channels well and that they're the channels that you have hypothesis, you will find traction in. (00:59:50): And I see this person a little bit like a portfolio manager, right? Because you're trying to figure out ... Usually companies don't have many channels that are split evenly. They find one or two that really work and make up like it's 80/20 rule. It makes us up 80% of where the signups are coming from and this portfolio manager is testing different things out. Even you could leverage agencies. There are a lot of agencies out there for SEO, for paid marketing, et cetera, but they are smart enough to define, is this working? How do I do it at scale? You also want to make sure it's quality signups that are actually monetizable. (01:00:24): And so that is a role typically if you're hiring an acquisition of that first growth person. And then the other two areas to focus early on, but I don't think you need a dedicated person for are activation. You want to make sure as you're pouring leads into the top of funnel, you're activating users. And here I don't think you actually need to do AB testing. Your volume isn't probably going to be strong enough. I think even just finding five individuals that are part of your target audience, just doing user testing, set up a Zoom, watch them onboard onto the product and have them talk out loud. You'll fight a lot and you can also just take best practices of onboarding checklists, et cetera. So activation and then I've said this a lot, but pricing and packaging, really thinking about pricing, but I don't think that needs to be a dedicated person.",
+   "zh": "我也经常被问到这个问题。我想说，在公司初创阶段，目标是实现产品与市场的匹配，明确理想客户画像，比如ICP（理想客户画像）。这个阶段，我认为公司里的每个人都应该关注增长。他们会寻找最初的几位设计合作伙伴，共同打造产品。他们会研究产品在哪些人群中产生共鸣，哪些人群可能也是购买决策者。同时，他们需要思考：是采取自下而上的产品主导策略？还是更倾向于销售驱动？或者两者兼顾？（00:59:18）：当产品与市场实现匹配，开始获得首批客户后，最常见的增长策略并非单纯依赖收购客户。你需要找到首批千位或数千位客户，并且要大规模地完成这一目标。因此，如果这是公司的核心关注点，我通常建议聘请一个不必是专家，但最好对一两个渠道有深入理解的人——这些渠道正是你假设能带来转化的地方。（00:59:50）：我把这个角色想象成投资组合经理，因为你需要不断探索……通常公司不会有多个均衡分配的渠道。他们会找到一两个真正有效的渠道，并遵循80/20法则。这些渠道可能占到注册用户的80%，而这位投资组合经理会不断测试不同方案。甚至可以借助代理机构。市场上有很多SEO、付费营销等服务机构，但关键在于他们要善于评估：这个方案是否有效？如何实现规模化？同时要确保这些优质注册用户确实具有变现潜力。\n（01:00:24）：这就是招聘首位增长团队成员的核心职责。另外两个早期关注点是激活用户。虽然不需要专人负责，但需要确保在不断引入潜在客户时，能有效激活用户。这里无需AB测试，初期数据量不足以支撑测试。只需找到5位目标受众，进行用户测试，组织Zoom会议，观察他们上手产品过程，并收集最佳实践即可。至于定价和包装策略，我常强调要深入思考定价策略，但无需专人负责。",
+   "ts": "00:58:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What kind of profile have you found to be most successful for this sort of person? Some people will look for like, I want to hire Melissa and let's just go big. The best person I can find and have them own this versus someone that's just new from school that's going to figure it out and I guess they're somewhere in the middle. What do you find that's best for that first hire?",
+   "zh": "对于这类职位，你认为最成功的候选人是什么样的？有些人会说：我想聘请梅丽莎，直接放手让他们全权负责。另一些人则认为：找个刚毕业的新人来摸索，应该更稳妥。理想情况是两者折中。但对于首位增长团队成员，你认为怎样的配置最合适？",
+   "ts": "01:01:06"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "It really depends on the current makeup of the team. How much do the founders themselves or the current team, how much of an interest do they have in growth? If they have an interest in growth and it's more about finding someone to execute, I think it's finding someone that's a bit earlier in their career potentially that is just a strong first principles thinker. I think there's hit or miss on, I'm a former consultant, so I used to always say find a former consultant. I do think there can be hit or miss and there is some value in folks that actually understand acquisition and have done it before and so maybe have figured out certain channels. (01:02:04): So I think you either go for someone that's done acquisition before, maybe they're a little bit early in their career, so they have this great growth mindset, but make sure they're a first principles thinker. The other option is find just a really smart person early in their career, have them take up Reforge class, have them soak up everything, and then the other option of hiring someone more experienced. I think it really depends on if you want that person to take on a lot more and be almost part of your founding team. And do you want to find someone that is going to join your leadership team? (01:02:38): The other option I guess is you could also just bring on an advisor and that advisor is someone that's not full time. It can even guide if you hire someone that's a bit earlier, guide that person and that is a really good combination. And so it really depends on the context, who's also on the current team and who you want to bring into. Are you looking for an actual leader that's going to scale with the company or are you not ready quite yet for that?",
+   "zh": "这实际上取决于团队当前的构成。创始人本身或现有团队对增长的重视程度有多高？如果他们对增长感兴趣，而更关注找人来执行任务，我认为可以考虑招聘职业生涯早期、具备强大第一性原理思维的人才。我认为这种选择存在成功与失败的风险——作为前咨询顾问，我过去常建议招募前顾问，但这种做法确实存在不确定性。还有一些价值所在，比如那些真正理解收购策略并有实际操作经验的人，他们或许能开拓出特定渠道。\n\n（01:02:04）：所以我认为，要么选择有过收购经验的人（即使他们职业生涯早期），他们需要有强大的增长思维，但必须是第一性原理思考者；要么招募早期职业生涯的聪明人才，让他们参加Reforge课程，汲取知识；或者选择更有经验的人。我认为关键在于：你希望这个人承担更多职责，成为创始团队的一员，还是想招入领导团队？\n\n（01:02:38）：另外，你也可以引入兼职顾问。这样既能指导早期员工，又能形成良好的协同效应。这完全取决于现有团队的构成，以及你希望引入的人才类型。你是在寻找能随公司一起成长的领导者，还是还没准备好迎接这样的挑战？",
+   "ts": "01:01:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What about in terms of their skillset? I imagine if you're kind of feeling like paid growth is going to be your main acquisition channel, you probably want to find someone that's really good at that versus it might be a virality, product led growth stuff, then you want to find maybe a product range of person. How much weight do you put into that skillset in that first hire?",
+   "zh": "那技能方面呢？我猜如果你认为付费增长将成为主要的收购渠道，你可能需要找精通这方面的人；但如果是病毒式传播、产品主导的增长策略，那或许更适合产品经理背景的人才。在首轮招聘中，你会更看重哪方面的技能？",
+   "ts": "01:03:03"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I actually think it's less about expertise in skillset, if that makes sense. And more there a ability to, again, I think of it like a portfolio manager. So this is more on the growth marketing side and bringing in acquisition. They are managing a portfolio and they're trying to figure out what works. I actually think you need to find someone that's analytical for this role, but that also understands things like who is the user? They're really creative in finding the user. And so it's actually looking for attributes but not expertise. (01:03:58): I actually think the more expertise someone has, the more it actually can lead to a false precision and then thinking they know what they're going to do. And especially, I don't think you actually need paid marketing expertise until much later when you're starting to think about incrementality or you're managing all these campaigns. I actually think the expertise is more important later. And then similarly on product growth, I actually think product growth is not higher till much later. A lot of early stage companies don't even have a product manager until later. And so I find that a growth product person isn't until much later down the road.",
+   "zh": "实际上，我认为重点不在于专业技能（如果这能说得通的话），而在于能力——就像投资组合经理一样。他们需要管理增长营销组合，探索有效的策略。我认为这个角色更需要分析能力，同时要理解用户是谁。他们需要善于创新地找到用户。所以关键在于寻找特质而非专业知识。\n\n（01:03:58）：我认为专业知识过多反而可能导致错误的精确感，让人误以为自己知道该怎么做。特别是，直到你开始考虑增量效应或管理多个广告活动时，才真正需要付费营销的专业知识。专业知识在后期阶段更为重要。同样，在产品增长方面，也要等到后期才有更高的要求。许多初创公司甚至要到后期才引入产品经理。所以我认为产品增长专家通常在后期才出现。",
+   "ts": "01:03:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just a couple more questions. One is, you mentioned that it sometimes makes sense to bring on an advisor. I know sometimes companies have a bad time with advisors that just don't provide much value and they're giving equity. Other times it's transformative. Some of the stories you've shared, when is it appropriate to hire an advisor and is there any, I guess advice for what to look for in a growth advisor at this early stage, especially?",
+   "zh": "还有几个问题。首先，你提到有时引入顾问是有意义的。我知道有些公司与顾问合作效果不佳，因为顾问提供不了太多价值却被授予股权；而有些合作则带来了变革性的影响。你分享的案例中，何时适合聘请顾问？尤其是在初期阶段，如何评估一位增长顾问的价值？",
+   "ts": "01:04:36"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I would add an advisor if there is probably a knowledge gap on the team is I would say. And their advisors come in so many different forms too, and everyone does it slightly differently. For some folks, it's a monthly call for other times, especially when I'm full-time advising, I'll have weekly calls. I'll even join some team meetings. I'll look at mocks. And so everyone does it slightly differently. And so I think it depends on what you're looking for. I would definitely say that even getting to know the individual and making sure you're on the same page on what you're looking for and what the goals are. And then what I've done in the past too is initially set up a shorter engagement, like a quarter long engagement and then decide if you want to go longer. (01:05:47): And I also think it's fine to, let's say you have an advisor agreement, you're not getting value to basically part ways. If it's not, you're not finding value. I think every advisor wants to make sure they're adding value. So I definitely think to summarize, being really explicit on what advice you're looking for and making sure you're on the same page of what you want. And then also set up a try before you buy if you want to do a quarter long engagement first. And knowing you can always part ways if it's not a fit even before that period of time.",
+   "zh": "我认为，如果团队存在知识缺口，就可以考虑引入顾问。顾问的形式多种多样，每个人的合作方式也各不相同。对有些人来说，每月一次通话即可；而对于我全职担任顾问的项目，则会每周通话，甚至参与团队会议和审阅模拟方案。关键在于明确合作目标，确保双方对期望达成共识。我建议先签订短期合作协议，比如一个季度试用期，到期后再决定是否延长合作。（01:05:47）如果合作未能创造价值，及时结束合作也很正常。毕竟顾问都希望能提供真正的价值。总结来说，关键在于清晰传达你的需求，保持一致的目标定位。若想试水合作，不妨先签订一个季度的试用协议。即使合作不顺利，也能在试用期内及时止损。",
+   "ts": "01:05:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Last question before we get to a very exciting lightning round. You've brought up this concept of first principles thinking. I'm curious how you measure that and how you get a sense of, is this person strong at first principles thinking?",
+   "zh": "在进入激动人心的闪电问答环节前，最后一个问题。你提到了第一性原理思维，我想了解如何评估一个人的第一性原理思维能力？",
+   "ts": "01:06:20"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "It's definitely a word I use a lot. First principles thinking, I think of it as you are not using a set framework and set formula, but you're creating your own based on the context that you're getting. And so when I think about first principles thinking often it is knowing what questions to ask so that you can start forming a mental model. And then it is actually starting to form that mental model and then knowing to evolve it and knowing when it's not working and really coming from a place of curiosity of is this really working? This is something that I'm known for on my team as well, which is I ask tons of questions, but it doesn't come from a place of wanting to show that I'm asking good questions or anything that comes from a place of trying to solve the problem and making sure that we're always solving the problem at hand, making sure we're doing the right things. (01:07:28): If there's new information, do we actually still want to do it this way? And so I think first principles thinking is often about asking questions and then creating your own framework. That's how I would define it. And it's maybe another way to describe it is critical thinking. It's like you're able to think very critically, and I think it's important to, at least for me, create a culture where that's okay. I think the moment you have a culture where people aren't asking questions aren't constantly revisiting their work, that's when you're not maybe pushing yourself to do your best work. And I think it also just creates a fun environment where we're like, \"Oh yeah, why are we doing this?\" And really leading with your curiosity.",
+   "zh": "这绝对是我常用的术语。所谓第一性原理思维，我认为它意味着你并非依赖既定的框架或公式，而是根据手头的情境构建自己的思考体系。因此，当我思考第一性原理思维时，通常会想到：首先要学会提问，以此搭建思维模型；然后着手构建这个思维模型，并在模型失效时及时调整。这种思维模式的核心在于保持好奇心——我问的问题多吗？但这绝不是为了炫耀，而是为了真正解决问题、确保我们始终专注于手头任务。\n\n（01:07:28）：如果有新信息出现，我们是否还应该坚持原有做法？在我看来，第一性原理思维的核心在于提问并构建自己的框架。或许用批判性思维来描述它更为贴切。这种思维模式能让人进行深度思考，而对我来说，营造一个允许这种思维的文化氛围至关重要。一旦团队成员停止提问、不再反思工作成果时，创新动力就会减弱。我认为这种文化还能营造出有趣的氛围，比如大家会问：“哦，对了，我们为什么要这么做？”这种好奇心驱动的探索精神，正是推动我们创造最佳成果的动力源泉。",
+   "ts": "01:06:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there an example of a person or moment or question that comes to mind of this is an epitome of a first principles thinker moment or question or a way of approaching something?",
+   "zh": "你能否举个例子，说明某个人、某个时刻或某个问题体现了第一性原理思维的典范特质？",
+   "ts": "01:08:06"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "My aha moment of the value of first principles thinking was when I was at Dropbox and we had the most unconventional people on our initial sales team. Dropbox was known for this. We would hire a ton of really smart people that had never done sales and had them do sales. There were a lot of disadvantages to that, I think. We were figuring a lot of things out. Maybe we should have split, had a few people that knew sales better and a combo of both. But I do think it led to a ton of innovation. Even I actually started on the sales team, this is a fun fact. I used to answer the 1-800 number at Dropbox, and if you go to Dropbox's website, you see a chat level. I used to also do that role, and so I think that what we got from that was that's how we got our very innovative go-to-market motions. (01:09:03): That also gave a ton of people, 'cause a lot of those people then moved into different functions at the company. They had all this context on who the user was. They had talked to so many different users at that point, and that's actually what helped me a lot when I moved into growth is I had all that context and I learned from that going back to first principles thinking that if you take people that are just super smart, they've never done it before, one advantage of that is they can innovate because I think they come in with, \"I don't know anything. Let me just figure this out.\" Versus someone that think they know all the answers, limits you into what you are going to do. And so my aha moment was really at Dropbox seeing so many times people that had never done these things and then seeing so much innovation come as a result of that.",
+   "zh": "我对第一性原理思维价值的顿悟时刻，发生在我在Dropbox工作的时候。当时我们初期销售团队成员非常不寻常，这也是Dropbox闻名于世的原因。我们会招聘大量从未做过销售但非常聪明的人来做销售工作。这其中存在诸多弊端，我认为我们当时正在摸索很多东西。或许我们本该分开团队，既有更懂销售的人，也有兼具销售和其他技能的人。但我认为这确实催生了大量创新。说个趣事，我最初也是销售团队的一员。我曾在Dropbox的1-800客服热线接听电话，如果你访问Dropbox官网，会看到一个聊天界面，我当时也负责这个角色。我认为正是通过这样的经历，我们才形成了极具创新性的市场推广策略。\n\n（01:09:03）：这也让很多人受益，因为许多成员后来转到了公司的其他部门。他们对用户有了全面的了解，积累了与大量用户沟通的经验。这段经历对我后来转入增长团队也非常有帮助——我拥有这些背景知识，再回归到第一性原理思维，发现当你让那些从零开始的人加入团队时，他们能带来创新思维，因为他们会带着“我什么都不懂，先摸索”的心态。而那些自以为无所不知的人，反而会限制自己的行动空间。所以我在Dropbox的这段经历让我深刻认识到，允许那些从零开始的人加入团队，能激发创新火花。",
+   "ts": "01:08:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is an awesome story. Is there anything else you wanted to share or touch on before we get to or very exciting lightning round?",
+   "zh": "这真是个精彩的故事。在我们进入激动人心的闪电问答环节之前，你还有什么想分享或探讨的吗？",
+   "ts": "01:09:51"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I think that's it. I wanted to make sure, I know I talked a lot about developing people, so thank all the people that have helped develop me in my career and then especially thank all the folks that I've worked with and my team, especially the team at Webflow and particularly wanted to make sure to thank [Xing Lin 01:10:14], Rory Davidson and [Jo Wang01:10:16] who joined me from previous companies to Webflow.",
+   "zh": "我想就这些了。我特别想感谢那些在职业生涯中帮助过我的人，也要特别感谢Webflow团队的每一位成员，尤其是[Xing Lin 01:10:14]、Rory Davidson和[Jo Wang01:10:16]，他们从之前的公司加入了Webflow。",
+   "ts": "01:09:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Shoutouts. Well, with that, Melissa, we have reached our very exciting lightning ground. I've got six questions for you. Are you ready?",
+   "zh": "致敬环节。好的，Melissa，我们现在要进入激动人心的闪电问答环节了。我有六个问题要问你，你准备好了吗？",
+   "ts": "01:10:20"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:10:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "你向别人推荐得最多的两三本书是什么？",
+   "ts": "01:10:28"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "The first one is Leaders Eat Last. I really like that leadership book by Simon Sinek. Also two non-career related books is The Untethered Soul. It really has taught me a lot about being present and then also the Four Agreements, which is a very short and easy read, but good principles to live by.",
+   "zh": "第一本是《领导者最后行动》。西蒙·斯涅克的这本领导力著作我很喜欢。另外两本与职业无关的书是《不羁的灵魂》，它让我深刻理解了活在当下，还有《四项约定》。这本书简短易读，但其中蕴含着值得遵循的生活准则。",
+   "ts": "01:10:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite recent movie or TV show?",
+   "zh": "你最近最喜欢的电影或电视剧是什么？",
+   "ts": "01:10:52"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "This one isn't super recent, but Winning Time on HBO. It's about the LA Lakers during the '80s and the Showtime era. I'm originally from LA and grew up a Lakers fan, so it's a fun watch for me and a nice escape.",
+   "zh": "这部不是很新的，但HBO的《winning time》不错。它讲述了80年代湖人队“Showtime”时代的故事。我来自洛杉矶，从小就是湖人队球迷，所以看这部剧很有趣，也能放松一下。",
+   "ts": "01:10:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You'll love a new movie I just watched last night called Air, which is about how Nike got Michael Jordan signed. And it's similar vibes to that show.",
+   "zh": "你会喜欢我昨晚刚看的一部新电影《Air》，讲的是耐克签下迈克尔·乔丹的故事。它和那部剧有相似的氛围。",
+   "ts": "01:11:09"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yes, yes. I actually just watched that recently too.",
+   "zh": "是的，是的。我最近也刚看过那部片子。",
+   "ts": "01:11:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Great.",
+   "zh": "好的。太棒了。",
+   "ts": "01:11:20"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "That's a good one too. Yeah, I've watched all those basketball.",
+   "zh": "那部片子也很不错。是的，我把那些篮球比赛都看完了。",
+   "ts": "01:11:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man. I also grew up in LA. Also a huge Laker fan from-",
+   "zh": "天哪。我也是在洛杉矶长大的。而且我一直是湖人队的超级粉丝，从——",
+   "ts": "01:11:23"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Oh, nice.",
+   "zh": "哦，不错。",
+   "ts": "01:11:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "From before. Next question, what's a favorite interview question you like to ask?",
+   "zh": "很久以前的事了。下一个问题，你最喜欢问的面试问题是什么？",
+   "ts": "01:11:27"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "For me, it's not a question, but it's that stage of preparing before the presentation and getting a sense for what it's like to work with each other. I think that has been one of the best ways for me to get signal.",
+   "zh": "对我来说，这不是个问题，但在准备演示前的那个阶段，了解彼此的合作方式，这对我来说一直是最好的获取信息的方式。",
+   "ts": "01:11:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you say more on that?",
+   "zh": "你能再详细说说吗？",
+   "ts": "01:11:45"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yes. So it's essentially that prep call before I ask them to do a presentation and going through the presentation together and working together on refining it.",
+   "zh": "是的。所以基本上就是在让我做演示之前的那次准备通话，一起过一遍演示内容，共同打磨它。",
+   "ts": "01:11:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. We already talked about that, so we'll move on. What is a favorite product you've recently discovered that you love?",
+   "zh": "太棒了。我们已经讨论过这个了，所以我们继续下一个问题。你最近发现的最喜欢的产品是什么？",
+   "ts": "01:11:57"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "I feel like everyone's saying this, but ChatGPT. I feel like it has really changed everything. There's so many interesting ways to use it. My team at Webflow right now is also starting to think about incorporating AI into the product, and so yeah, I just think that is ... Yeah, so many things you can do with it.",
+   "zh": "我感觉每个人都在说这个，但ChatGPT。我觉得它真的改变了一切。有很多有趣的使用方式。我在Webflow的团队现在也开始考虑把AI融入产品，所以是的，我觉得这……你能用它做太多事情了。",
+   "ts": "01:12:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is something relatively minor that you've changed in your product development process that has had a big impact on the way that your team executes?",
+   "zh": "在产品开发过程中，你改变了什么相对较小的部分，却对团队的执行方式产生了重大影响？",
+   "ts": "01:12:22"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "This one here is what I also spoke about for earlier, which is, I mean, thinking through your DACI. It sounds so simple, but I do think a lot of times teams are thinking through how do they work with other teams? Who is driving? Who is the decision maker? And so having a DACI, I have found is really helpful.",
+   "zh": "前面我也提到过这个，就是，嗯，思考你的DACI。这听起来很简单，但我确实觉得很多团队都在思考如何与其他团队合作？谁在主导？谁是决策者？所以制定DACI，我发现真的很有帮助。",
+   "ts": "01:12:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question, you've been at Webflow for a number of years. What is a favorite pro tip for using Webflow?",
+   "zh": "最后一个问题，你在Webflow工作了好几年了。对于使用Webflow，有什么最喜欢的专业建议吗？",
+   "ts": "01:12:52"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, I actually have two if that's okay.",
+   "zh": "是的，如果可以的话，我有两个建议。",
+   "ts": "01:12:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's good. Even better [inaudible 01:13:01].",
+   "zh": "太好了。甚至更好了[1:13:01未录音]。",
+   "ts": "01:12:59"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yeah, yeah. So one is thing that I've often heard from folks is it's hard to learn Webflow. And so basically watching our university videos, which is where we teach Webflow while also building the designer, and we actually now enable to have the videos in the product, so you can do them side by side. And then the other one is our Figma to Webflow plugin, which is you can take a Figma design and then convert it to Webflow, which is a great hack if you already have a design in Figma.",
+   "zh": "是的，是的。一个是我经常听到人们说Webflow很难学。所以基本上看我们的大学视频教程，就是我们一边教Webflow一边开发设计器，现在我们已经把视频集成到产品里了，所以你可以边看边操作。另一个是我们的Figma到Webflow插件，你可以把Figma设计转换成Webflow，如果你已经有Figma设计的话，这是一个很棒的技巧。",
+   "ts": "01:13:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, I did not know that existed. That is a really smart idea and feature. Melissa, I could see why people follow you from company to company. I feel like the companies that are going to get to work with you in this new stage of your life are also very lucky. Thank you for being here. Two final questions. Where can folks find you online if they want to reach out? And how can listeners be useful to you?",
+   "zh": "哇，我不知道有这个功能。这真是个聪明的想法和功能。梅利莎，我能理解为什么人们会跟着你从一家公司跳到另一家公司。我觉得在你人生新阶段即将合作的公司也会很幸运。感谢你今天的到来。最后两个问题。读者如果想联系你，可以在哪里找到你？听众如何能对你有所帮助？",
+   "ts": "01:13:32"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Folks can find me on LinkedIn, also on Twitter, Melissamtan, and then how can listeners be helpful to me? I mean, I love jamming on things, growth, thinking about leadership and managing, so if any of this resonates, reach out. I'd love to have a discussion and yeah.",
+   "zh": "大家可以在领英上找到我，也可以在推特上关注我，账号是Melissamtan。那么，听众们如何能给我提供帮助呢？我的意思是，我热爱探讨成长、领导力和管理等话题，如果这些内容能引起你们共鸣，不妨联系我。我很乐意与大家展开深入交流，期待与你畅谈。",
+   "ts": "01:13:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Melissa, again, thank you for being here.",
+   "zh": "太棒了。梅利莎，再次感谢你今天的到来。",
+   "ts": "01:14:08"
+  },
+  {
+   "speaker": "Melissa Tan",
+   "en": "Yes, thanks so much, Lenny. This was fun.",
+   "zh": "是的，非常感谢，莱尼。这次交流真是愉快。",
+   "ts": "01:14:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见了。非常感谢你们的收听。如果觉得内容有价值，可以在苹果播客、Spotify或你喜欢的播客应用上订阅我们的节目。另外，请考虑给我们评分或留下评论，这对其他听众找到我们的播客非常有帮助。您可以在lennyspodcast.com上收听往期节目或了解更多信息。下一期节目再见。",
+   "ts": "01:14:14"
+  }
+ ]
+}

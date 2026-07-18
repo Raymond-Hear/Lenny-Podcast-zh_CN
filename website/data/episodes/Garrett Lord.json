@@ -1,0 +1,869 @@
+{
+ "id": "Garrett Lord",
+ "name": "Garrett Lord",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Garrett+Lord",
+ "bio": {
+  "en": "Garrett Lord is the co-founder and CEO of Handshake, the 'LinkedIn for college students' used by every Fortune 500 company to hire graduates, who turned the platform's proprietary student network into a new AI training-data business that hit $50M ARR in four months.",
+  "zh": "Garrett Lord 是 Handshake 的联合创始人兼 CEO；Handshake 被称为“大学生的 LinkedIn”，每一家财富 500 强公司都用它来招聘毕业生。他把平台独有的学生网络变成了全新的 AI 训练数据业务，仅用四个月就达到了 5000 万美元 ARR。"
+ },
+ "summary": {
+  "en": "Garrett tells the rare story of a decade-old company disrupting itself: seeing that Handshake's network of millions of students (including tens of thousands of PhDs) was uniquely valuable to AI labs, they launched a data-labeling business from zero and hit $50M ARR in four months. He argues the only real moat in human data is access to an audience, and that as models improve, generalist labelers are replaced by domain experts. The episode is a primer on what data labeling actually involves and a lesson in seizing AI opportunity while protecting against disruption.",
+  "zh": "Garrett 讲述了一个老公司自我颠覆的罕见故事：他意识到 Handshake 数百万学生（包括数万名博士）的网络对 AI 实验室极具价值，于是从零创办了一个数据标注业务，四个月就达到 5000 万美元 ARR。他主张人类数据领域真正的护城河只有“触达受众的能力”，并认为随着模型进步，通用标注员会被领域专家取代。这期节目既讲解了数据标注究竟涉及什么，也上了一课：如何抓住 AI 机遇、同时抵御被颠覆的风险。"
+ },
+ "turns": [
+  {
+   "speaker": "Garrett Lord",
+   "en": "There will never be a time like this. I've never seen anything like it. I doubt I'll ever feel anything like this in business again where there's unlimited demand. How do you make sure that three months from now, six months, you have no regrets? Get on the plane to go talk to a customer, make the late night push, check the data six times over again.",
+   "zh": "永远不会再有这样的时刻了。我从未见过类似的情景。我怀疑自己在商业领域再也无法感受到这种需求无限的激情。如何确保三个月、六个月后你不会留下遗憾？跳上飞机去拜访客户，深夜加班，数据再核对六遍。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Your company creates new data to continue advancing the intelligence of models. This is a business that you built on top of a business you've already had.",
+   "zh": "你们公司通过创造新数据不断提升模型智能。这是一项建立在现有业务基础之上的新兴事业。",
+   "ts": "00:00:15"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "We're the largest expert network in the world. We have this massive strategic advantage, which is like no customer acquisition costs. The only moat in human data is access to an audience.",
+   "zh": "我们是全球最大的专家网络。我们拥有无与伦比的战略优势——零客户获取成本。人类数据领域唯一的护城河，就是获取用户的入口。",
+   "ts": "00:00:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You guys come in after the model's trained to tweak the weights based on additional data that you you've created.",
+   "zh": "你们在模型训练完成后，会基于自己创造的新数据微调权重。",
+   "ts": "00:00:33"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "The models have gotten so good that the generalists are no longer needed. What they really need is experts.",
+   "zh": "模型已经如此精进，以至于通才型人才不再被需要。他们真正需要的，是专家。",
+   "ts": "00:00:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's this tension between all these students training models to become smarter, and then there's that they will have harder time potentially finding jobs.",
+   "zh": "一方面，学生们通过训练模型不断提升智能；另一方面，他们又可能更难找到工作。这里存在着矛盾。",
+   "ts": "00:00:44"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "That's not what we're hearing from our employers, this is just enabling human beings to be even more productive. You used to put a Google Search on a skill on your resume because you grew up with Google. Being AI native, young people are at a huge advantage.",
+   "zh": "但我们的雇主并不这么认为——这只是在赋能人类，让他们更高效。过去你可能在简历上写个Google Search技能，因为你成长于Google时代。而对AI技术了如指掌的年轻人，则拥有巨大优势。",
+   "ts": "00:00:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Garrett Lord. Garrett is the co-founder and CEO of Handshake, which is one of the most interesting and incredible AI success stories that you probably haven't heard of. Handshake has been around for over 10 years, they're essentially LinkedIn for college students, it's a place for students to connect with companies to find a job. They are the platform of choice for every single Fortune 500 company. Over 1,500 colleges, over 20 million students and alumni, and over 1 million companies use them to hire graduates. At the start of this year, Garrett and his team realized that their huge proprietary network of students, including tens of thousands of PhDs and master's students, is extremely valuable to AI labs to help them create and label high quality training data. So, they launched a new business from zero to one in January. Four months later, they hit 50 million ARR. They're now on pace to blow past 100 million ARR within just 12 months. They'll exceed the revenue that they're making with their decade old business in under two years. (00:02:04): This is a truly incredible and rare story, and one that I think a lot of teams can learn from because AI is creating a lot of opportunity but also a lot of potential disruption, and this is an amazing story where the company basically disrupted themselves. This episode is packed with insights, including a primer on what the heck are people actually doing when they're labeling and creating data to train models? A huge thank you to Garrett for making time for this, his wife just had a baby this week. He's also in the middle of scaling this insane new business. So thank you, Garrett. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. (00:02:39): Also, if you become an annual subscriber of my newsletter, you get a year free of a bunch of incredible products, including Lovable, Replit, Bolt, n8n, Linear, Superhuman, Descript, Wispr Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, and Mobbin. Check it out at lenny'snewsletter.com and click bundle. With that, I bring you Garrett Lord. (00:03:01): This episode is brought to you by CodeRabbit, the AI code review platform transforming how engineering teams ship faster with AI without sacrificing code quality. Code reviews are critical, but time-consuming. CodeRabbit acts as your AI co-pilot, providing instant code review comments and potential impacts of every pull request. Beyond just flagging issues, CodeRabbit provides one click fix suggestions and lets you define custom code quality rules using AST GREP patterns, catching subtle issues that traditional static analysis tools might miss. CodeRabbit also provides free AI code reviews directly in the IDE. It's available in VS Code, Cursor and Windsurf. CodeRabbit has so far reviewed more than 10 million PRs installed on 1 million repositories, and is used by over 70,000 open source projects. Get CodeRabbit for free for an entire year at coderabbit.ai using code Lenny. That's coderabbit.ai. (00:03:58): This episode is brought to you by Orkes, the company behind Open Source Conductor, the orchestration platform powering modern enterprise apps and agentic workflows. Legacy automation tools can't keep pace, siloed low-code platforms, outdated process management and disconnected API tooling fall short in today's event-driven AI-powered agentic landscape. Orkes changes this. With Orkes Conductor, you gain an agentic orchestration layer that seamlessly connects humans, AI agents, APIs, microservices, and data pipelines in real time at enterprise scale. Visual and code-first development, built-in compliance, observability and rock solid reliability ensure workflows evolve dynamically with your needs. It's not just about automating tasks, it's orchestrating autonomous agents and complex workflows to deliver smarter outcomes faster. Whether modernizing legacy systems or scaling next-gen AI-driven apps, Orkes accelerates your journey from idea to production. Learn more and start building at orkes.io/Lenny. That's O-R-K-E-S.io/Lenny. (00:05:04): Garrett, thank you so much for being here. Welcome to the podcast.",
+   "zh": "今日的嘉宾是加勒特·洛德（Garrett Lord）。加勒特是Handshake的联合创始人兼CEO，Handshake是您可能尚未听说的最有趣、最令人惊叹的AI成功案例之一。Handshake已成立十余年，本质上是面向大学生的LinkedIn平台，学生们可通过该平台与企业对接寻找工作。该平台已成为《财富》500强企业首选招聘平台，超过1500所高校、2000万学生及校友，以及100万家企业通过该平台招聘毕业生。今年初，加勒特及其团队意识到，公司庞大的专有学生网络（包括数万名博士生和硕士生）对AI实验室极具价值，可帮助他们创建和标注高质量的训练数据。因此，他们于今年1月从零到一启动新业务。四个月后，公司实现了5000万年化经常性收入（ARR）目标。如今，公司有望在短短12个月内突破1亿ARR大关，其营收规模将超越十年来老业务的总和。\n\n（00:02:04）：这是一个真正令人惊叹且罕见的案例，我认为许多团队都能从中汲取经验教训。AI带来诸多机遇，但也伴随着潜在的颠覆性挑战。Handshake成功自我颠覆，堪称绝佳典范。本期节目包含诸多深刻见解，包括解析人们在标注和创建训练数据时究竟在做什么？非常感谢加勒特抽出时间参与节目录制——他妻子本周刚生下宝宝，而他正全力推进这项疯狂的新业务。感谢加勒特。若您喜欢本播客，别忘在喜马拉雅、YouTube等平台订阅关注。\n\n（00:02:39）：同时，订阅我的新闻通讯即可免费获得一系列优质产品，包括Lovable、Replit、Bolt、n8n、Linear、Superhuman、Descript、Wispr Flow、Gamma、Perplexity、Warp、Granola、Magic Patterns、Raycast、ChatPRD和Mobbin。请访问lenny'snewsletter.com，点击“套餐”即可体验。接下来有请加勒特·洛德。\n\n（00:03:01）：本期节目由CodeRabbit赞助。这家AI代码评审平台正彻底改变工程团队的AI开发流程，在不牺牲代码质量的前提下加速产品交付。代码评审至关重要，但耗时费力。CodeRabbit充当您的AI副驾驶，提供即时代码评审建议，解析每个Pull Request潜在影响。除标注问题外，平台还提供一键修复建议，并支持用户通过AST GREP模式自定义代码质量规则，捕捉传统静态分析工具可能遗漏的细微问题。CodeRabbit支持VS Code、Cursor和Windsurf等IDE内的免费AI代码评审。迄今已为100万个仓库的1000万个Pull Request提供服务，覆盖7万多个开源项目。使用代码Lenny可免费享受全年服务，访问coderabbit.ai。\n\n（00:03:58）：本期节目由Orkes赞助。这家公司旗下Open Source Conductor平台正重塑现代企业应用与智能工作流。传统自动化工具难以跟上节奏，孤立的低代码平台、过时的流程管理和脱节的API工具在当今以事件驱动的AI赋能型智能工作流中显得力不从心。Orkes改变了这一现状。借助Orkes Conductor，您将获得一个智能编排层，无缝连接人类、AI智能体、API、微服务和数据。\n企业级实时管道系统。可视化与代码优先的开发方式，内置合规机制、可观测性及极致可靠性，确保工作流能动态适应您的需求。它不只是自动化任务，更是通过编排自主智能体与复杂工作流，助您更快获得更智能的成果。无论是现代化改造遗留系统，还是扩展下一代AI驱动应用，Orkes都能加速您从构思到落地的进程。欲了解更多信息并立即开始搭建，请访问orkes.io/Lenny。Orkes的网址是O-R-K-E-S.io/Lenny。（00:05:04）：加勒特，非常感谢您能参加我们的访谈。欢迎来到我们的播客。",
+   "ts": "00:01:05"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, thanks for having me. A long-time subscriber.",
+   "zh": "是啊，感谢邀请。作为长期订阅用户，我很荣幸能来参加这次对话。",
+   "ts": "00:05:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I appreciate that. Okay, so before we get into the insane trajectory that your data labeling business is on, which is just an amazing story that I think a lot of founders and product teams that are trying to navigate this AI disruption that's happening will have a lot to learn from. I want to first help people understand what the hell data labeling actually is. Just like, what are people actually doing? Why is this so valuable? Some of the most, I don't know, fastest-growing companies in the world today, including you guys are just, this is what you do. Clearly there's something really important here. I sort of understand it, probably not really. I think a lot of listeners feel the same way. So let me just ask you this, what is data labeling actually? What are people actually doing? And then, just why is this so valuable to frontier AI labs?",
+   "zh": "我很感激。好的，在我们深入探讨你们数据标注业务的惊人发展路径之前——这确实是一个令人惊叹的故事，我相信许多正试图应对当前AI浪潮的创始人和产品团队都能从中汲取宝贵经验——我想先帮助大家理解数据标注到底是什么。具体来说，人们实际在做什么？为什么这项工作如此重要？如今全球许多发展最快的公司，包括你们的公司，都以此为核心业务。显然，这里蕴藏着重大机遇。我对此有所了解，但可能还不够透彻。我相信很多听众也会有同感。所以让我先问问你们，数据标注到底是什么？人们具体在做什么？以及为什么这对前沿AI实验室如此重要？",
+   "ts": "00:05:09"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah. So, I think it's helpful to take a step back of what does training a model look like? So, there's really two primary functions. There's a pre-training and a post-training process in training a model, and for a long time these AI providers, or LLMs, or Frontier Labs we're focused on basically sucking up more and more information on the pre-training side of the house. And that's basically the entire corpus of written human knowledge. So, that's not just written, but every YouTube video, every book, basically the pursuit of sucking up everything that was on the internet, and that was the pre-training side. And there was a lot of gains from pre-training, like models continue to get better. And about 18 months ago, 24 months ago, we started to really see an asymptoting of gains coming from, because they had essentially sucked up all of the knowledge on the internet. And so, labs really shifted towards most of the gains now coming from the post-training side of the house. (00:06:50): And what post-training is, is it's augmenting and improving the data they have across every discipline or capability area that they care about. So take coding, or mathematics, or law or finance, they are focused on collecting high quality data that really improves the state of our capabilities, their models, and you can see a lot of these popular benchmarks on what are called model parts. When Llama IV is released, you'll see the benchmarks across various domains, and each one of the research teams inside of the labs have different use cases. Basically they're running experiments, almost think like the scientific process. They have a hypothesis around how to improve the model. They're trying to collect small pieces of data to see if that hypothesis works out. If that hypothesis is proving true, then they expand the overall collection of the data in that advert. And it could look like reinforcement learning environments, it could look like trajectories, it could be audio and multimodal, it can be text-based like prompt-response pairs. (00:07:58): It can also be reinforcement learning with human feedback, which is like preference ranking data. And so, that's the state of the art of models. And most of the gains that are happening from models right now are coming from the post-training side of the house. And there's just an incredible amount of demand to stay at the absolute frontier of where models are going.",
+   "zh": "是的。我认为先回顾一下模型训练的过程会很有帮助。模型训练主要分为两个阶段：预训练和后训练。长期以来，AI提供商、语言模型（LLM）或前沿实验室都专注于在预训练阶段收集尽可能多的信息。这包括人类书面知识的全部文本库，甚至涵盖YouTube视频、书籍等所有网络内容。这就是预训练阶段的核心，带来了显著的进步，比如模型性能不断提升。但大约18到24个月前，我们开始观察到预训练阶段的收益逐渐趋于平稳，因为当时几乎已将所有网络信息都吸纳完毕。于是实验室开始将重点转向后训练阶段，即在他们关注的每个学科或能力领域，持续收集高质量数据来提升模型表现。以编程、数学、法律或金融为例，他们专注于收集高质量数据以提升模型性能。大家可以在诸如Model Parts之类的基准测试中看到这些成果。当Llama IV发布时，各领域的基准数据将一目了然。实验室内的每个研究团队都有不同的应用场景。他们通过实验验证如何改进模型，收集小规模数据样本以验证假设。一旦假设得到验证，就会扩大相关数据集。这些数据集可能来自强化学习环境、轨迹数据、音频和多模态数据、基于文本的提示-响应对等。还可能包括带有人工反馈的强化学习数据（如偏好排序数据）。这些构成了当前模型的最前沿成果。目前模型领域的大部分进步都来自后训练阶段，而保持模型发展前沿的需求也极为迫切。",
+   "ts": "00:05:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So training, pre-training is feeding it, say the entire internet. Here's like all the data that the humans have ever created, figure out knowledge and facts, and how to reason and all these things. Post-training, is it correct to say there's essentially two buckets of things to do? There's reinforcement learning, human feedback RLHF, and then there's kind of this bucket of fine-tuning?",
+   "zh": "因此，训练和预训练阶段相当于给模型“喂数据”，比如整个互联网上的信息。这些数据涵盖了人类创造的所有知识、事实，以及推理能力等内容。后续的训练阶段，关键在于如何利用强化学习、人类反馈增强学习（RLHF）以及微调等技术来提升模型性能。",
+   "ts": "00:08:20"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I mean, yes and no because take for example trajectories, or you want to be able to do, people use flight search or an accounting end-to-end process, or you want to be able to conduct biological experiments, you need actual trajectory data. There's still very much, a lot of the labs are still, they have points of view on what data collect. It's evolving very quickly. But I think reinforcement learning is really preference ranking, like which question do you like more, question A or question B? SFT data is a prompt and a response, and obviously the labs are very focused on these thinking or reasoning models. So, in order to improve a reasoning model you need to actually have the step-by-step instructions, of which when you interact with a lot of these frontier models they struggle in very advanced domains. And so, I think there's a variety of data that they're working with to improve capabilities in their models.",
+   "zh": "我的意思是，既有共识也有分歧。以轨迹预测为例，如果你想开发飞行搜索引擎、实现端到端的会计流程，或者开展生物实验，都需要真实的轨迹数据。目前许多实验室仍在争论数据收集的重点，相关技术发展迅速。但强化学习本质上是偏好排序，比如判断问题A和问题B哪个更易理解？监督式微调（SFT）数据则基于提示和响应，实验室目前正致力于开发推理模型。因此，要改进推理模型，需要获取逐步的指导方针。当应用于复杂领域时，这些前沿模型往往会遇到挑战。因此，研究者们正通过多种数据集来提升模型性能。",
+   "ts": "00:08:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I'm hearing is there's other ways to post-train. Which of these are you guys focused on? Where do you help models most of these three-ish buckets?",
+   "zh": "我的理解是，后续训练阶段有多种方法。你们主要关注哪几种？在这三个阶段中，哪种对模型提升帮助最大？",
+   "ts": "00:09:39"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Our real unique proposition as a business is the fact that we have an engaged audience. We have 18 million professionals across, we have 500,000 PhDs, we have 3 million master students, we're a global platform. And so, depending on what you're looking for across any area, academic knowledge, what is the definition of a PhD? How do you get your PhD? You defend your thesis. Defending your thesis means, generally speaking, you have proven that you have extended the world's knowledge in a particular domain. And so, the ability to hyper-target this audience into chemistry, math, physics, biology, coding and really touch parts of human knowledge that have never before made it to the internet is really where we excel. And I would say that when you talk about the labeling market, something to make it more abstract is like it used to be generalists' work. (00:10:52): A lot of the market before the model started to get better was leveraging talented international lower cost labor to do basic generalist tasks. But really what's happened is the models have gotten so good that the generalists are no longer needed. What they really need is experts, experts across every area that the models are focused on. And really, you could think about these model builders as they're focused on the most economically valuable capability areas in the economy. And so that, generally speaking, right now is focused on advanced STEM domains, advanced science and math domains, and then the derivative functions of accounting, law, medicine, finance, where they want to make the models more capable. And then the work that we're doing, I think to come full circle to your question, we're doing work across so many domains. I mean, we have millions of bachelor students that are being used for work in audio, work in customizing a model depending on the voice and tone, where you are geographically in the country, what do women versus men prefer? All the way to the most advanced PhD STEM domains out there.",
+   "zh": "我们作为一家企业的独特核心竞争力在于，我们拥有高度活跃的用户群体。我们的平台汇聚了1800万专业人士、50万博士学者和300万硕士研究生，堪称全球性平台。因此，无论您在哪个领域寻求专业知识——比如学术研究、博士学位的定义与获取方式、论文答辩流程等——我们都能精准定位目标受众。通过深度挖掘化学、数学、物理、生物学、编程等领域的知识，触达那些从未触及互联网的学术前沿领域，正是我们的核心优势所在。\n\n谈及标注市场时，我想用更抽象的例子说明：过去这类工作通常由通才型人才承担。（00:10:52）在模型技术尚未成熟之前，市场主要依赖低成本的国际人才完成基础性通才型任务。但如今模型技术已显著提升，通才型人才的需求逐渐消失，取而代之的是各领域专家的涌现。这些专家专注于模型所聚焦的经济价值最高的能力领域。目前重点领域主要涵盖先进的STEM学科、数学与科学领域，以及衍生领域如会计、法律、医学和金融等，这些领域正致力于提升模型智能水平。\n\n回到您的核心问题，我们的业务横跨多个领域。例如，数百万本科生参与音频处理工作，根据语音语气和地理位置定制模型，或研究男女用户偏好差异等应用场景。最前沿的研究则聚焦于最尖端的STEM博士学科。",
+   "ts": "00:09:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So, is it fair to say essentially all the data that is available has been trained on, and your company creates new data, new knowledge to continue advancing the intelligence of models?",
+   "zh": "好的。那么，是否可以说几乎所有可用的数据都经过了训练，而贵公司则创造新的数据和知识来持续提升模型的智能水平？",
+   "ts": "00:12:08"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yep. And I also say we help point out where the models are weak. So, in order to break a model, it's pretty tough for the average person to break a model and get an incorrect response. But if you are a PhD in physics, you can go in multiple subdomains of physics and prove where the model's actually breaking, either breaking in its reasoning steps or it's where it's broken in its ground truth right answer, or we start throwing tools in there or needing to follow some step-by-step process. And I wouldn't say it's easy for them, but the average person cannot break the models and that's where we really come in.",
+   "zh": "是的。我还想说的是，我们能帮助指出模型的薄弱环节。举例来说，普通人很难破解模型并获得错误输出。但如果你是物理学博士，你可以深入多个物理子领域，指出模型在推理步骤或标注数据中的错误，或者发现需要通过分步骤操作才能纠正错误。虽然这对普通人来说并不容易，但模型确实存在漏洞，而这正是我们的专长所在。",
+   "ts": "00:12:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, essentially it's just catching mistakes that the model has made. Okay. So, what are these people actually doing? I know there's all kinds of different types, you described all the ways that data's generated, what kind of data is useful? So, maybe just the most common examples. Let's say a PhD person is sitting there doing stuff, what are they actually doing?",
+   "zh": "所以，本质上就是捕捉模型犯的错误。好的。那么，这些人具体在做什么？我知道有很多不同类型的工作，您描述了数据生成的各种方式，有哪些数据是有用的呢？那就说说最常见的例子吧。比如说，一位博士生坐在那里做研究，他们具体在做什么？",
+   "ts": "00:13:03"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "A great example is a public paper called GPQA. So, for the engineers out there that want to read about it, essentially the crux of the paper is you break the model, you provide a ground truth, the right answer to the question, you provide the step-by-step a reasoning steps. So, you might imagine because models are non-deterministic, the model can get the answer right once, but it might not get the answer right three out of five times. So, you actually prove where the model's failing. You actually break down into where is it failing? Maybe it can get, it knows the question, it can get the right answer, but the actual steps to get there are wrong and they really focus on the steps to get there. Say there's 10 steps in a math problem, step 6 through 10 is wrong. So, how do you fix the actual steps? (00:14:11): And what are they doing? So they're going in, we're really focused on calling this branding the experience and treating people like experts. PhD students expect to be treated different than a lower cost international labor with a different work expectation. And so, these PhDs come into a community, we have a instructional design team and an assessments team that's going through and basically iteratively helping them understand how to use the tools that we built, and how to interact with the latest models. Then they go in and start actually creating data. And that process is, on our side the model builders, they want to know that the data we're producing is high quality. Som we have our own research team, our own post-training team. (00:14:53): I hired a gentleman from Meta that went along on the post-training over there, and I-",
+   "zh": "一个很好的例子是名为GPQA的公开论文。那么，对于那些想了解这项研究的工程师们来说，论文的核心要点在于：你需要拆解模型，提供一个正确的基准答案（即问题的正确解法），并逐步解析模型的推理过程。可能由于模型具有非确定性特质，模型可能一次能给出正确答案，但五次尝试中可能有三次出错。因此，你需要找出模型失败的具体原因，剖析其错误所在。假设一个数学问题有10个步骤，第6至10步存在错误，那么如何修正这些错误步骤呢？（00:14:11）他们具体是如何操作的？我们非常注重为用户打造品牌体验，并将他们视为专业人士。博士生期望得到与低成本国际劳动力不同的待遇和工作要求。因此，这些博士加入我们的社区后，我们会派教学设计团队和评估团队逐步指导他们，帮助他们掌握我们开发的工具，并与最新模型进行交互。随后，他们开始实际创建数据。在模型构建者方面，我们需要确保所生成的数据质量上乘。因此，我们组建了自己的研究团队和培训后评估团队。（00:14:53）我从Meta公司聘请了一位曾参与那里培训后评估工作的专家，我——",
+   "ts": "00:13:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hope you paid him well.",
+   "zh": "希望你给他的报酬丰厚。",
+   "ts": "00:14:57"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah. So, war for AI talent is very expensive, but super, super privileged and proud to be working with him. And so, each unit of data, we have to build it an environment for them to actually create the data. Then we have to understand in a unit level we're trying to approximate the actual gain from that piece of data and whether it can improve in a particular capability area. And then, we're also focused on evolving the use cases to also follow what the model builders want, which is they want more more real world tool use and trajectory based data as well.",
+   "zh": "是的。人工智能人才争夺战成本高昂，但能与他合作实在荣幸至极。因此，每个数据单元，我们都需要为他们构建一个环境，让他们能够实际创建数据。然后，我们需要在单元层面理解如何近似评估该数据的实际价值，以及它能否在特定能力领域有所提升。此外，我们还致力于不断优化用例，以满足模型构建者的需求——他们希望看到更多真实世界的工具应用和基于轨迹的数据。",
+   "ts": "00:14:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. There's so much here, and we could go infinitely down here but I think that this is really interesting because just like people hear so much about all of this and they barely understand what the hell it actually is. So, this is for me really interesting. I think it's going to help a lot of people. So essentially a PhD, say a biologist, biology PhD is just their job is find flaws in what, say ChatGPT is producing, and then come up with here's the correct answer. And that is used to fine tune the mode, here's something you are doing incorrectly, here's the correct answer and that improves the model.",
+   "zh": "好的。内容实在太丰富了，我们可以深入探讨，但我认为这非常有趣，因为很多人听说过这些内容，却几乎不了解其本质。所以对我来说，这真的很有意思。我觉得这会对很多人有所帮助。基本上，对于一位博士，比如生物学博士，他们的工作就是找出ChatGPT等模型生成结果中的缺陷，然后给出正确答案。这些信息用于微调模型，指出模型错误之处，并提供正确答案，从而提升模型性能。",
+   "ts": "00:15:33"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yep.",
+   "zh": "是的。",
+   "ts": "00:15:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is that a simple way to think about it? And please correct anything I'm saying that is incorrect because I don't want people to misunderstand it.",
+   "zh": "这样理解对吗？如果我有说错的地方，请纠正我，因为我不想让人们误解。",
+   "ts": "00:16:03"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah. I mean, a great example, let's take a non-verifiable domain like education. So there's a PhD student, Rachel on the network, she got her PhD from the University of Miami, spent two decades as a teacher teaching students in the eighth grade. And she was an adjunct professor at a local community college in the field of education. And so, she is interacting with the state-of-the-art models in educational design. So, actually trying to understand what is the best way to teach people, and how do you spot incorrect issues in a model in the way that they're training people, and help the models understand the forefront of educational design with the hands-on experience of being an eighth grade teacher for 10 plus years and having a PhD in education? So, that's an example of you can have that all the way down to a verifiable engineering problem that you're seeing the latest models fail on. (00:17:12): Yeah, I think that gives you the gamut. You also have, we talk about professional domains like these reinforcement learning environments, there's a bunch of papers out there that basically speak to people narrating over their step-by-step tool use. So, as they go to solve a problem from start to finish, interact with multiple different service areas, interact with multiple different tools, they're like, there's papers that talk about this, talking over what they're doing, actually following and screen recording where their mouse is going, how they're problem solving. When they run into a roadblock, what do they do? So, they really want to understand how humans think.",
+   "zh": "是的。我举个例子，比如教育这个不可验证的领域。网络上有位叫雷切尔的博士生，她在迈阿密大学获得博士学位，曾担任八年级学生的教师长达20年，并在当地社区学院担任教育领域的兼职教授。她现在正与最先进的教育设计模型进行互动。实际上，她试图理解最佳教学方法，以及如何发现模型在培训学生过程中存在的错误问题，并凭借自己十多年八年级教学经验和教育博士学位，让模型领悟教育设计的前沿理念。这就是一个例子，它可以延伸到你所见到的任何工程问题上，比如最新模型在某个领域遇到的失败案例。（00:17:12）：是的，我觉得这能让你全面了解情况。我们还谈到专业领域，比如强化学习环境，有很多论文主要讲述人们如何逐步使用工具来解决问题。当他们从头到尾解决问题时，会与多个不同服务领域和工具互动。他们会详细记录自己的操作过程，解释解决问题的思路。当遇到障碍时，他们会如何应对？所以，他们真正想了解人类的思维方式。",
+   "ts": "00:16:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned this term trajectory. Can you just explain what that actually means? Because it feels like you've mentioned that a few times and that feels important to all this.",
+   "zh": "你提到了“轨迹”这个术语。能解释一下它的具体含义吗？因为你提到过几次，这个词感觉很重要。",
+   "ts": "00:17:50"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah. A trajectory is basically just like the entire environment that is collecting what you're doing. So it's your screen, it's your mouse-",
+   "zh": "是的。轨迹基本上就是整个收集你操作数据的环境。包括你的屏幕、鼠标操作——",
+   "ts": "00:17:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, I see. Oh, wow.",
+   "zh": "哦，我明白了。哇。",
+   "ts": "00:18:04"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:18:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Including this voiceover, okay. And then, this might be too technical, but what is the output of all this work? This, say teacher, is it just like a JSON file, an XML file, like a text file?",
+   "zh": "包括这个旁白部分，对吧。然后，这可能有点技术性，但所有这些工作的输出是什么？比如说，老师们得到的只是一个JSON文件、XML文件或者文本文件吗？",
+   "ts": "00:18:06"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, it can be managed JSON data.",
+   "zh": "是的，可以是可管理的JSON数据。",
+   "ts": "00:18:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "JSON data? Okay.",
+   "zh": "JSON数据？好的。",
+   "ts": "00:18:17"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "And then, we also have multimodal work like audio, like classifying music and understanding ... We're engaging thousands, or not thousands, probably hundreds of top music students at the music schools in the country who are improving models of understanding of music. And you also have the thing called, which we haven't talked about here, a rubrics, and rubric models are, you can put a model in as a judge. What is a good educational design, or what's a good MRI result? In some of these domains, you actually don't have a guaranteed correct right answer. And so, models can sit in the middle as a judge and actually understand what is ... Think back on your school days. How do you get A on your 5,000 word paper? Well, there's a great introductory statement and there's scientific proof. So, you can build a rubric that allows a model to sit in the middle and actually auto-evaluate responses. We're seeing a lot of rubrics work as well.",
+   "zh": "然后还有多模态工作，比如音频，比如音乐分类和理解……我们正在与全国音乐学院的数千名顶尖音乐学生合作，他们正在改进理解音乐的模型。还有我们没提到的一个叫做评分标准的东西，评分模型是，你可以让模型充当评委。什么样的教育设计是好的？或者什么样的MRI结果是好的？在某些领域，你甚至没有一个确定的正确答案。因此，模型可以作为评委，真正理解什么是……回想一下你的学生时代。如何在5000字的论文中获得A？嗯，可能需要一个出色的开头和科学证明。所以，你可以建立一个评分标准，让模型充当评委，自动评估回答。我们也看到了很多评分标准的应用。",
+   "ts": "00:18:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you would think, why would you trust this one teacher's opinion that this is the right way to do it? But what's cool is the market speaks for itself. If these models are being used more and more, and people love them and value them, I imagine steps in between to verify this is good and other people think this is a good idea. It feels like the market dynamics will tell you if the data you're providing is correct at what people want. Is there something more there?",
+   "zh": "也许你会想，为什么要相信某位老师的观点说这是正确的做法？但有趣的是，市场会自己说话。如果这些模型被越来越多地应用，并且人们喜欢并重视它们，我相信中间的步骤会验证其有效性，其他人也会认为这是个好主意。市场动态会告诉你，你提供的数据是否符合人们的需求。还有更多值得探讨的地方吗？",
+   "ts": "00:19:28"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I didn't get a PhD in AI, or math, or physics, and I haven't trained myself, we have frontier models, but there is a lot to each unit of data whether it's improving. There's a ton of science and research out right now around how do you make sure that the data that you're producing is improving the model? And it's very hard for model builders to understand. They really care about, to zoom out, they care about three things. They care about quality first and foremost. You have to have high quality data. And if you imagine you're training a model, like teaching a student and you're giving it the wrong data, it's extremely challenging to overcome that. So, quality is first and foremost. And then, the other huge problems you have is volume. How do you generate thousands of pieces of data in the most advanced domains of chemistry, and mathematics, and physics, and how do you ensure that it's high quality? (00:20:48): Well for us, say in physics, we just reach out to students at Stanford, and Berkeley, and MIT, and they're at the top GPA at the best physics schools in the country. And so, our ability to get to scale or volumes of data, to produce very high quality data, is something they care deeply about. And then, the other thing I would say model builders care about is speed, because they have all these hypotheses and they're constantly testing different pipelines. And so, you might have three or four bets going at once, and then as soon as one is actually showing a gain, imagine you're a researcher or you're assigned to the processes, once you're running a gain then you're trying to grow that pipeline and grow that piece of data that's actually improving it, and you're maybe ditching two or three other projects you had that weren't showing improvement. (00:21:31): So, your ability to quickly turn around for them in a period of days, and then get to high volumes of data that are high quality is the number one thing they care about. And so, there's quite a bit of technology we built on our side to assess each unit of data. We have our own post-training teams, we're renting our own GPUs, and we're trying to make sure that we can sit directly with these researchers and help share what we're seeing with the data that we're creating and how it could improve their model, how they could best train with it. So, hopefully that helps.",
+   "zh": "我没有获得人工智能、数学或物理学博士学位，也没有自我培训过。我们有前沿模型，但每个数据单元都存在改进的空间。目前有很多科学研究致力于如何确保你生成的数据能真正提升模型效果。这对模型构建者来说非常难理解。他们真正关注的，退一步来说，主要有三点：首先是质量至上。你必须拥有高质量的数据。想象一下，如果你在训练模型时给出错误的数据，那将极难克服。所以，质量是重中之重。其次是数据量。在化学、数学和物理等最先进的领域，如何生成数千个高质量的数据样本？（00:20:48）：对我们来说，比如在物理领域，我们会联系斯坦福、伯克利和麻省理工的学生，他们都是全美顶尖物理学院的优等生。因此，获取大规模高质量数据的能力对他们来说至关重要。第三是速度，因为模型构建者需要不断测试不同方案。可能同时进行三到四个实验，一旦某个方案显示出效果，研究者或流程负责人员就会立即专注于优化这个成功的方案，同时放弃其他没有效果的项目。（00:21:31）：因此，快速在几天内验证每个数据单元的质量，并生成大量高质量数据的能力，是他们最关注的首要任务。因此，我们团队开发了大量技术来评估每个数据单元。我们有自己的训练后团队，租用GPU，努力与这些研究者直接合作，分享我们对数据的见解，帮助他们优化模型。希望这能有所帮助。",
+   "ts": "00:19:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Going back to the types of post-training, just because I think this might be helpful, at least for me the mental model of there's pre-training, there's post-training, within post-training there's reinforcement learning, human feedback, there's this concept of fine-tuning. There's also evals and stuff like-",
+   "zh": "回到训练后的类型，我觉得这可能有助于理解，至少对我来说，心理模型是这样的：训练前、训练后，训练后又分为强化学习、人工反馈、微调，还有评估等。",
+   "ts": "00:22:03"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "There's SFT, yeah.",
+   "zh": "对，SFT（监督微调）。",
+   "ts": "00:22:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "SFT, which is supervised fine-tuning? Is that-",
+   "zh": "SFT，也就是监督微调？是吗？",
+   "ts": "00:22:19"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:22:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. So, the stuff you've been describing, would you mostly describe that as supervised fine-tuning?",
+   "zh": "是的。所以，你刚才描述的那些工作，你主要会把它们归类为监督微调吗？",
+   "ts": "00:22:22"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yes, and we're doing all of the above. We don't do the auto eval, we produce rubrics which are used auto evals. But yeah.",
+   "zh": "是的，我们正在做上述所有工作。我们不进行自动评估，而是生成用于自动评估的评分标准。不过没错。",
+   "ts": "00:22:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, awesome. So essentially there's a model, it's trained on all this amazing data. You guys come in after the model's trained to tweak the weights based on additional data that you create. What's interesting is that this is a scalable system. I want to talk about just the supply of amazing people that you have producing this, but it's amazing that humans can do this. You would think it needs to be this infinitely scalable thing, but humans sitting there creating data is working and improving the intelligence of models significantly.",
+   "zh": "好的，太棒了。所以本质上就是有一个模型，它在所有这些优质数据上进行训练。你们在模型训练完成后，会根据自己生成的额外数据来调整权值。有趣的是，这是一个可扩展的系统。我想谈谈你们拥有的优秀人才团队，但人类能做到这一点真是令人惊叹。你可能会认为这需要一个无限可扩展的系统，但人类坐在那里生成数据就能显著提升模型的智能水平。",
+   "ts": "00:22:39"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Oh, yeah. I mean, I think maybe a funny joke is all the MBAs think this is all just going to go away. And I think for as long as models are improving, humans will be needed in this process. And when you talk to the lead scientists and researchers at these labs, it's like the data types will evolve and what they're trying to capture and collect, but there will be humans needed in the space for the next decade until we reach full ASI. So yeah, I mean, you think about in a lot of them will struggle to do basic trajectories right now. So, right now people are very focused on academic domains, and I think they'll continue to be focused on academic domains, but there will also be far, far more demand for professional domains as well across basically every trajectory or step-by-step problem that a knowledge worker solves in the workplace, it's the pursuit of these labs to make sure that they're trying to collect the data to help add as much value in that process for humans as possible.",
+   "zh": "哦，是的。我的意思是，也许有个有趣的玩笑是，所有MBA都认为这一切都会消失。但我认为只要模型还在不断进步，这个过程就需要人类参与。当你与这些实验室的首席科学家和研究人员交谈时，他们提到数据类型会不断演变，收集的内容也会不断变化，但未来十年内，在我们实现完全的通用人工智能之前，这个领域都会需要人类参与。所以是的，我觉得很多学生现在在基础轨迹识别方面都会遇到困难。目前人们非常专注于学术领域，我认为这种关注会持续下去，但随着每个知识工作者在职场中解决的每个轨迹或分步问题，都将对专业领域产生远超以往的需求，这些实验室正致力于确保收集到的数据能尽可能为人类创造价值。",
+   "ts": "00:23:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, let me ask you about this. There's this tension, I imagine, people might feel between all these students training models to become smarter, and smarter, and smarter, and then there's that they will have harder time potentially finding jobs if models are so smart that people at entry level aren't being hired as much. How do you think about just that tension? Do you think this is a real problem or not, or do you think this goes-",
+   "zh": "那么，让我问你一个问题。你可能也注意到了一种矛盾：一方面，人们在训练模型以使其越来越智能；另一方面，如果模型太智能，导致初级职位难觅，人们可能会更难找到工作。你如何看待这种矛盾？你认为这是一个真正的问题吗？还是说这种情况会-",
+   "ts": "00:24:17"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I'm probably in the camp of like GDP growth over universal basic income. I very much believe that this is going to improve and accelerate every human's ability to create an impact in the economy in the world, and that we're hearing from, there's like a million companies that use Handshake. 100% of the Fortune 500 uses Handshake, so we basically power the vast majority of how young people find jobs, and a lot of people are hyperbolic at saying that all young people won't have jobs, and that's not what we're hearing from our employers. What we're hearing is pick social media marketing, before you needed somebody that could do Photoshop, and take pictures, and create the videos. Then you needed somebody that understood marketing analytics platforms to track your posting on different social media forms. It's like now one person, one young, talented, AI native, Iron Man suit enabled young person can get on and they can build their own videos, produce their own creative assets, post across multiple social media platforms, run all of their own analytics. They don't need a data science degree to be able to do that. (00:25:47): Or take an intern in our company, he had his first PR up I think the afternoon he started. You were a PM, you realize how challenging that would've been historically to get your dev environment set up and figure out where to add value. You just took a bug and squashed it. And so, I'm really a believer this is just enabling human beings to be even more productive and create more impact. And yeah, of course, hundreds of millions of jobs, the jobs will evolve. People will become displaced, they'll have to upscale and rescale, and I think Handshake has a huge role to play in helping knowledge workers evolve.",
+   "zh": "我可能更倾向于支持GDP增长而非全民基本收入。我坚信这将提升并加速每个人在全球经济中创造影响力的能力。据我们了解，有超过一百万家公司在使用Handshake平台。《财富》500强企业中100%的公司都在使用Handshake，这意味着我们为绝大多数年轻人找工作提供了支持。很多人夸大其词地说年轻人将面临失业问题，但我们的雇主们却不这么认为。我们听说，过去雇主需要会Photoshop、拍照和制作视频的人，现在只需要一个精通社交媒体营销的人就能搞定。过去，雇主需要懂营销分析平台的人来追踪不同社交媒体平台上的发布情况。而现在，只需一个精通AI技术、天赋异禀的年轻人，就能上手制作视频、创作创意素材，并在多个社交媒体平台上发布内容——这根本不需要数据科学学位。\n\n（00:25:47）：比如我们公司的一个实习生，上班第二天下午就完成了他的首个公关任务。你曾担任产品经理，深知过去要搭建开发环境并确定增值点是多么困难的事。现在他只需处理一个bug就能解决问题。因此，我坚信这只是在赋能人类，让他们更高效地创造更大价值。当然，数亿个工作岗位将被重塑，人们会面临失业、需要重新定位适应，我认为Handshake在帮助知识型员工转型中将发挥巨大作用。",
+   "ts": "00:24:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This has come up a couple of times this point that I think is really good, that younger people coming out of school are actually going to be much more likely to be successful because they're growing up with these tools, and are much more native to all these advanced tools and so they just come in as beasts just doing so much more.",
+   "zh": "有一点我认为很棒，那就是刚毕业的年轻人更有可能取得成功，因为他们在成长过程中接触了这些工具，对这些先进工具非常熟悉，所以他们一上手就能创造更多价值。",
+   "ts": "00:26:24"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Well, do you remember when, this a little bit predates me, but you used to put Google search on as a skill on your resume. You were person, you were good at Googling, because you grew up with Google. It's like I think being AI native and having your Iron Man suit on, and understanding how to leverage these tools is like young people are at a huge advantage.",
+   "zh": "嗯，你还记得吗，这件事比我经历得早一些，但过去人们会在简历上写“善于谷歌搜索”这样的技能。当时人们擅长用谷歌搜索，因为他们是在谷歌环境下长大的。我觉得具备AI技能、像钢铁侠一样精通这些工具的年轻人，确实拥有巨大的优势。",
+   "ts": "00:26:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. And especially if they're involved in training these models, I imagine there's some other cool advantage there.",
+   "zh": "是的。特别是如果他们参与过模型训练，我相信这会带来其他很酷的优势。",
+   "ts": "00:27:03"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah. Well I mean, just to hit on that, what we're hearing from our thousands of fellows is they're in the classroom, they're actually producing research. We're talking about PhDs at the top institutions in the country. They can make 100, 150, $200 an hour in their area, in their field of expertise. It's pretty sweet. You can make 25 bucks an hour being a teacher's assistant, or you can actually make $150 an hour breaking the latest models, and what we're hearing from our fellows is they're bringing a lot of those insights into the classroom to help them be more effective at teaching. More importantly, they're starting to learn how to leverage these tools to actually advance their area of research. So, they believe that these tools can help them advance their area of research by helping them be more effective with their time. And so, it is quite cool to get paid to learn a skill.",
+   "zh": "是啊。我想说的是，正如我们从数千名研究员那里听到的，他们在课堂上授课，同时还在进行科研研究。我们说的是全美顶尖学府的博士生。他们在各自的领域每小时能赚100、150甚至200美元。这真是太棒了。当你做助教时，每小时只能赚25美元；而当你研究最新模型时，每小时就能赚150美元。研究员们告诉我们，他们正将这些见解带入课堂，帮助提升教学效果。更重要的是，他们开始学习如何利用这些工具推进自己的研究领域。所以，他们相信这些工具能帮助他们通过更高效地利用时间来推动研究进展。能在学习新技能的同时获得报酬，真是太棒了。",
+   "ts": "00:27:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before I get to the story of how this all emerged, because that is an incredible story, is there anything else about this whole field of labeling, of reinforcement learning that you think people just don't fully understand or you think that is really important? There's just so much happening. Like I said, some of the fastest growing companies in the world are in the space, Scale was just acquired for 30, sort of acquired for $30 billion. Just what else is there, if there's anything, that you think people need to understand?",
+   "zh": "在讲述这一切是如何兴起之前——因为这确实是个令人惊叹的故事——你觉得在整个标注和强化学习领域，还有哪些方面是人们不太理解的，或者你认为非常重要？这里正在发生太多事情。正如我所说，全球增长最快的一些公司都活跃在这个领域，Scale刚刚被以300亿美元的价格收购。还有什么其他方面是人们需要了解的？",
+   "ts": "00:27:58"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Generally speaking, anytime that you're interacting with a model and you're asking it to do really advanced things, and it's not performing your expectations, like somewhere there's probably an expert that is the top mind in that domain working directly for the best researchers in the world at the Frontier Labs trying to understand and go through the scientific iteration process of how to make that better. And that the assumption there is that they already have the entirety of human knowledge that's written and recorded. And so, for as long as there are problems in solving any problem with AI, any human problem, there will need to be humans in the loop helping advance that. And models don't generalize. I mean, obviously the field will advance a lot and the type of data they'll collect will evolve a lot, but it's pretty exciting at the frontier.",
+   "zh": "一般来说，每当你与模型交互并要求它做一些非常复杂的事情，而它没有达到你的预期时，很可能背后有一位该领域的顶尖专家，他们在Frontier Labs等机构为全球顶尖研究人员工作，试图理解并经历科学迭代过程，以改进模型。前提是他们已经掌握了人类已有的所有知识，并且只要存在人工智能无法解决的问题，或者任何人类问题，都会需要人类参与来推动进展。模型无法泛化。显然，这个领域会取得巨大进步，收集的数据类型也会发生巨大变化，但站在前沿真是令人兴奋。",
+   "ts": "00:28:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Kevin Wheel was on the podcast, the CBO at OpenAI, and he made this point that really stuck with me that the model of today is the worst model you will ever use.",
+   "zh": "凯文·惠尔（Kevin Wheel）曾做客播客，他是OpenAI的首席商业官，他提出的一个观点让我印象深刻：今天的模型是你能用到的最糟糕的模型。",
+   "ts": "00:29:20"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I love that line.",
+   "zh": "我很喜欢这句话。",
+   "ts": "00:29:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Will only get better, just boggles the mind, and now we know why things are getting better because all the work you guys are doing. Just one quick question on this whole scale thing, I guess they were, I don't know, the main company doing this, now they're swallowed up and Alex is running superintelligence in Meta. Are they still a big player in this labeling space or are they out of it and that's a big opportunity?",
+   "zh": "情况只会越来越好，这真是令人惊叹。现在我们知道为什么情况会越来越好，因为你们所做的一切努力。关于Scale公司，我有个小问题，我猜他们曾是这方面的主要参与者，现在被收购了，亚历克斯（Alex）在Meta负责超级智能项目。他们在标注领域还是大玩家吗？还是已经退出了，这是否是个重大机遇？",
+   "ts": "00:29:30"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah. I mean, kudos to the whole Scale team, a lot of respect for what they built, just many great companies operating the space. I think to the core of your question, I think if you viewed your research team and your model building team, and the experiments they're running to be really the cornerstone of how you're improving, you probably wouldn't want the latest research of what you're trying to work on being invested in by a peer. I mean, that's just generally what we hear in this space. And so, we have seen an incredible search and demand, and are I think extraordinarily well positioned. We like to say the only moat in human data is access to an audience. Basically, there are many, many small players in this space, some midsize players in the space, and they're basically running TikTok ads, running Instagram ads, paying money for Google Search display ads, YouTube ads, and they will be like, \"Can you get me 200 physics PhDs?\" (00:30:58): What do they do? They only can do one thing. They have 100 recruiters on staff, they all get on LinkedIn, they all send messages, they spend a couple million bucks on performance advertising campaigns. Somebody's scrolling their Instagram feed that's a physics PhD of which you can't target them that well and they like see, \"Come train a model.\" It's like, \"I've never heard of this brand before.\" The huge advantage that we've had and why we've resonated so fast in the marketplace is we built a decade of trust with 18 million people, and they trust us, and we built a ton of brand affinity, and they use Handshake, and they have an active profile, and we have a ton of information around their academic performance and what they've done in school. And so, we're able to really target people really effectively, and get to scale and volume of high quality data faster than anyone else. And I think that competitive advantage of access to an audience is really resonating in the marketplace.",
+   "zh": "是啊。我想，应该向整个Scale团队致敬，他们所打造的成果令人敬佩，这个领域里有很多优秀的公司。我觉得回到你问题的核心，如果你把自己的研究团队和模型构建团队，以及他们正在进行的实验视为提升业务的基石，你可能不希望同行参与到你正在攻克的最新研究项目中。这是我们在这个领域常听到的观点。所以，我们看到了惊人的搜索需求和市场潜力，我认为我们在其中占据了极为有利的位置。我们常说，人类数据领域唯一的护城河就是获取用户流量。基本上，市场上有许多小型玩家和中型玩家，他们主要投放TikTok广告、Instagram广告，为谷歌搜索展示广告、YouTube广告付费，然后问：“能给我招200个物理学博士吗？”（00:30:58）但他们做什么？他们只会做一件事。他们雇了100名招聘人员，所有人都泡在领英上，发送消息，花几百万美元做效果广告。某个用户在Instagram上刷到物理学博士的招聘信息，但你根本无法精准定位到他们，他们可能会说：“来训练个模型吧。”对方会说：“我从没听说过这个品牌。”我们拥有的巨大优势，以及能在市场上迅速获得认可的原因，是我们与1800万用户建立了十年的信任，他们信任我们，我们培养了高度的品牌亲和力，他们使用Handshake平台，保持活跃的用户档案，我们掌握着他们在校学术表现和过往经历的大量信息。因此，我们能够高效地精准定位用户，比其他任何公司更快地获取高质量数据。我认为这种获取用户流量的竞争优势正在市场上引发共鸣。",
+   "ts": "00:29:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today's episode is brought to you by Anthropic, the team behind Claude. I use Claude at least 10 times a day. I use it for researching my podcast guests, for brainstorming title ideas for both my podcast and my newsletter, for getting feedback on my writing and all kinds of stuff. Just last week I was preparing for an interview with a very fancy guest, and I had Claude tell me what are all the questions that other podcast hosts have asked this guest so that I don't ask them these questions? How much time do you spend every week trying to synthesize all of your user research insights, support tickets, sales calls, experiment results and competitive intel? Claude can handle incredibly complex multistep work. You can throw a 100-page strategy document at it and ask it for insights, or you can dump all your user research and ask it to find patterns. With Claude 4 and the new integrations including Claude 4 Opus, the world's best coding model, you get voice conversations, advanced research capabilities, direct Google Workspace integration, and now MCP connections to your custom tools and data sources. Claude just becomes part of your workflow. (00:32:53): If you want to try it out, get started at Claude.ai/Lenny, and using this link you get an incredible 50% off your first three months of the pro plan. That's Claude.ai/Lenny. (00:33:06): Okay, this is an awesome segue to where I wanted to go, which is just how this business emerged. This is a business that you built on top of a business you've already had. From what I understand, you were at like $150 million in revenue, you've been at this for a long time. You found this opportunity, and now that looking back it's like obviously this is an amazing idea, labs need data, you guys have the supply of incredible experts. What an opportunity. Talk about just how you first realized this was something that you could be doing, and should be doing, and then how you started to execute down this path.",
+   "zh": "今日节目由Claude背后的团队Anthropic为您呈现。我每天至少使用Claude十次，用它来研究播客嘉宾、为播客和通讯构思标题、获取写作反馈以及处理各种事务。就在上周，我为采访一位大牌嘉宾做准备时，让Claude帮我梳理其他播客主曾向这位嘉宾提过哪些问题，避免我重复提问。  \n你每周要花多少时间整合用户研究洞察、支持工单、销售通话记录、实验结果和竞争情报？Claude能处理极其复杂的多步骤工作。你可以把100页的战略文件交给它，寻求洞察；也可以倾倒所有用户研究数据，让它挖掘规律。  \n借助Claude 4及全新集成功能（包括全球顶尖编码模型Claude 4 Opus），您将获得语音对话、先进的研究能力、与Google Workspace的直接集成，以及与自定义工具和数据源的MCP连接。Claude将完全融入你的工作流程。  \n（00:32:53）：如果您想试用，可以访问Claude.ai/Lenny，使用此链接可享受专业版首月50%折扣。  \n（00:33:06）：好的，这正是我想讲的重点——这项业务是如何诞生的。你们是在现有业务基础上拓展新领域的。据我了解，你们之前营收就达1.5亿美元，深耕此领域多年，发现了这个市场机遇。现在回头看，显然这是个绝佳创意——实验室需要数据，而你们恰好拥有顶尖专家资源。真是天作之合。请谈谈最初如何意识到这项业务的价值，以及如何逐步将其落地。",
+   "ts": "00:31:49"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, I think it's been a pretty natural extension from helping people jumpstart, restart or start their career. Monetizing your skills and this new employment ecosystem is going to look very different in the future, and to zoom into how we discovered it, it's like because we have such a large access to this audience, and as the world shifted from generalists to experts, we're the largest expert network in the world. We have more PhDs, 500,000 of them use Handshake than any other platform. We have three million master students who are in school or alumni. And so, we started to see all what I would call middleman companies reaching out to us saying, \"Can we recruit your PhDs and master's students?\" And like any great marketplace we started sending them to these different platforms, and started to really realize that from hearing from our users that the experience was really frustrating. (00:34:38): Training was very transactional, it was very amorphous how you could get paid. There was immense amount of drop-off in the process to actual project like completion on these other platforms. So, we started to think the company was making tens of millions of dollars from helping these other platforms, and we started to realize what really kicked it off was hearing also from the Frontier Labs, they started to reach out to us and started to go direct and trying to almost cut out the middleman. And we started to realize, well, we could really serve our fellows, our PhDs, our experts, we could treat them. We just believe there will need to be a platform, an experts first platform in the pursuit of ASI and advancing AI, and there will need to be a place that everyone in the world could go to, to monetize their skills and their knowledge as these labs are focused on improving in all these multidisciplinary. And yeah, we entered the business in, really I started doing it over Christmas and New Year's. That's when I started flying around. (00:35:48): My family thought it was a little wild that I was on planes trying to chase different leaders, but we built an incredible team of people that came from the human data world, and really started building out our platform in January, and then started really monetizing the relationships about five months ago. Fast-forward to today, we're working with seven of the Frontier Labs, basically every lab that's doing work and building the best large language models, and the team has exploded and revenue's exploded, and it's been really a incredible ride running back new company inside of a company for the second time over again.",
+   "zh": "是的，我认为这是一个相当自然的延伸，从帮助人们开启、重启或启动职业生涯开始。未来将货币化你的技能和这个新兴的就业生态系统会大不相同。具体来说，我们是如何发现这个机会的呢？因为我们拥有庞大的用户群体，而当世界从通才转向专家的趋势越来越明显时，我们已成为全球最大的专家网络。我们拥有超过50万名博士用户，远超其他任何平台。还有三百万在校或已毕业的硕士生。于是，我们开始注意到许多中介公司主动联系我们，问道：“我们能否招聘你们的博士和硕士生？”像任何优秀的市场平台一样，我们最初将他们导向其他平台，但很快意识到用户反馈的体验非常糟糕。（00:34:38）：培训非常缺乏系统性，获取报酬的方式也很不规范。在其他平台上，从项目启动到实际完成的过程中有大量用户流失。因此，我们开始意识到，这些中介公司通过帮助其他平台赚取了数千万美元，而真正推动这一转变的是来自Frontier Labs的反馈。他们开始直接与我们合作，试图绕过中间商。我们意识到，我们完全可以为我们的专家、博士和学者提供更好的服务。我们坚信，在追求人工智能和推进AI进程的过程中，需要有一个以专家为先的平台，让全球每个人都能在这里将自己的技能和知识变现，而这些实验室正专注于跨学科的提升。是的，我们在圣诞节和新年期间正式启动了这项业务。从那时起，我开始四处奔波。（00:35:48）：我的家人觉得我追逐不同领导者的行为有点疯狂，但我们组建了一支来自人类数据领域的优秀团队，并于今年1月正式启动平台。大约五个月前，我们开始真正将这些关系货币化。如今，我们与七家Frontier Labs合作，几乎覆盖了所有致力于打造最佳大语言模型的实验室。团队规模和营收都实现了爆炸式增长，在公司内部二次创业的旅程实在令人惊叹。",
+   "ts": "00:33:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And just to share some numbers, tell me if this is correct or if you're sharing these, but I heard that you hit 50 million in revenue just four months into this? Today we're at eight months in and you're on track to hit $100 million in revenue in the first year.",
+   "zh": "分享一些数据吧，不知道你是否已经公开过，但我听说你们在四个月内就实现了5000万美元的营收？如今我们已经运营八个月，年营收有望达到1亿美元。",
+   "ts": "00:36:28"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I think we'll blow through that number, but yeah.",
+   "zh": "我觉得我们会轻松突破这个数字，不过确实如此。",
+   "ts": "00:36:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Incredible. And I didn't even know there were seven Frontier Labs, that's-",
+   "zh": "好的。太不可思议了。我甚至不知道有七家Frontier Labs，这真是——",
+   "ts": "00:36:44"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Zero to 50 is pretty good in four months, I think.",
+   "zh": "四个月内从零到5000万美元，确实很棒。",
+   "ts": "00:36:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Think zero to 50 million in four months, that's something. It's like the bar has been shifting constantly. A year ago that'd be legendary. Now it's like, all right, well another one of these. 50 million in four months, no big deal. It's truly insane. Just to zoom out one second, for people that don't know a ton about Handshake, the original business, what was that? What was actually this network that you had, that you sat on top of?",
+   "zh": "想想四个月内从零做到5000万用户，这太不可思议了。这就像是不断移动的目标杆。一年前这简直是传奇般的成就，现在大家却觉得“嗯，又来一个”。四个月内5000万用户，根本不算什么。这真是太疯狂了。退一步讲，如果你不了解Handshake这个原始业务，它最初是做什么的？你当时搭建的那个社交网络到底是什么？",
+   "ts": "00:36:51"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, that network does about 200 million. This will do about [inaudible 00:37:21]",
+   "zh": "是啊，那个社交网络用户量大概有2亿。而现在这个……（00:37:21，语音中断）",
+   "ts": "00:37:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "200 million.",
+   "zh": "2亿用户。",
+   "ts": "00:37:18"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:37:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:37:18"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "So, we have 600-ish super passionate teammates that work on the core business, which I would separate those. These aren't two businesses, I think it's one business, but what is that business? If you're a young person in America that's graduated in the last five, six, seven, eight years, you probably have Handshake on your phone. You definitely know what Handshake is. It's a verb with young people in America, it's a verb with people that are in college in their PhD or master's program, and it is, I call it an unconnected graph, meaning you don't need to ... LinkedIn is very focused on who you know and what your experience is. The first question on LinkedIn is what's your job? And a lot of young people start off, they've never had a job before. They don't have 500 connections to add to their graph. (00:38:13): Whereas on Handshake, you start off trying to discover, and explore, and figure out how to navigate through school and figure out, \"Oh, I'm an engineer. Maybe I want to be a PM, maybe I want to work at a startup, maybe I want to go to a larger company.\" What are the pros and cons you want to learn from your peers and young alumni? And so, Handshake's this I call a very social platform with groups, and messaging, and profiles, and short-form video and feed, all focused on your interests and helping really build your confidence in your early career to find your first job, your second job, and to manage 18 to 30, I would say.",
+   "zh": "所以，我们有大约600名超级热情的团队成员致力于核心业务，我会把他们分开看待。这不是两个独立的业务，我认为这是一个整体的业务，但具体是什么业务呢？如果你是过去五六七八年毕业的美国年轻人，手机里很可能装着Handshake这个应用。你肯定知道Handshake是什么。它是美国年轻人的动词，尤其是在大学攻读博士或硕士学位的年轻人。这就像一个未连接的社交图谱，用户无需依赖关系网或工作经历来建立联系。LinkedIn上的第一个问题是“你的工作是什么？”，而很多年轻人从未有过正式工作经历，无法添加500个联系人到社交图谱中。\n\n（00:38:13）而在Handshake上，你从一开始就试图探索、发现、规划自己的学业路径，思考“我是一名工程师，或许我想成为产品经理，或许想在初创公司工作，或许想加入大公司”。你想向同龄人和校友学习哪些利弊？因此，Handshake是一个高度社交化的平台，拥有群组、消息、个人资料、短视频和动态信息流，所有功能都围绕你的兴趣展开，帮助你建立职业信心，找到第一份工作，第二份工作，并管理18到30岁的人生阶段。",
+   "ts": "00:37:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And how long has that business been around?",
+   "zh": "那这个业务存在多久了？",
+   "ts": "00:38:49"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "It's been around 10 years.",
+   "zh": "已经有10年了。",
+   "ts": "00:38:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "10 years, okay. So it's just again, it just feels like such a holy shit, you guys are in the right place in the right time with the right network that is extremely valuable now. What an interesting story. I feel like it's just another interesting example of you've been doing something for a long time and then all of a sudden AI is just, opens up a whole new way of leveraging something that you have been doing for a long time. It makes me think a little better about Bolt, and StackBlitz, which was building for seven years this browser based OS where you could run an OS in the browser. And they're like, \"I don't know, no one needs this. What are we doing?\" And then, all of a sudden AI and they're like, \"Oh, what if we build AI apps in the browser and just generate products for you with AI?\" And now it's, I don't know, one of the fastest growing companies in the world.",
+   "zh": "10年，好的。所以这感觉真是太不可思议了。你们团队在正确的时间、正确的平台、正确的社交网络上做对了事，现在这些资源变得极其有价值。这真是个有趣的故事。我觉得这只是另一个例子，说明你长期做某件事，然后AI突然为你打开了一个全新的利用途径，让你能把长期积累的经验发挥到极致。这让我对Bolt和StackBlitz有了更深的思考。StackBlitz花了七年时间打造基于浏览器的操作系统，让用户在浏览器中运行操作系统。他们当时还在犹豫：“不知道有没有人需要这个，我们该怎么办？”但突然间AI出现了，他们就说：“哦，要是在浏览器里开发AI应用，让AI为你生成产品呢？”现在它成了全球增长最快的公司之一。",
+   "ts": "00:38:51"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:39:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So interesting. And so, I think this is just an interesting time for our people to think about what have we done that may give us a new opportunity to build something huge based on this unfair advantage that we have?",
+   "zh": "太有意思了。所以，我认为现在正是我们全体员工反思的好时机：我们过去做了哪些事情，才获得了这样一个基于自身“不公平优势”而创造巨大机遇的契机？",
+   "ts": "00:39:37"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I think also as your company grows in size and headcount, and maturity, it's also hard to incubate something new inside of a business. It's hard in so many ways. The way that you build zero to one, and find product market fit, and scale a team very quickly and is very different than the way that you run a more mature business that has been around for 10 years with hundreds, and hundreds, and hundreds of people. So, I've really had a ton of fun and found a ton of passion in running it back again for the second time inside the business. And then yeah, we have this massive strategic advantage, which is no cost or acquisition costs, and we have much higher conversion rates and retention than any of the other platforms by a large margin because we have such consumer affinity.",
+   "zh": "我觉得，随着公司规模、员工人数和成熟度不断提升，要在内部孵化新项目也变得愈发困难。困难之处在于方方面面。从零到一的创新、寻找产品与市场的契合点、快速扩展团队，这些都与运营一家已有十年历史、拥有数百名员工的成熟企业的思路截然不同。所以，能在公司内部二次创业，我既乐在其中，又深感激情四溢。此外，我们拥有巨大的战略优势——无需成本或收购费用，且转化率和用户留存率远超其他平台，因为我们深得消费者的青睐。",
+   "ts": "00:39:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's actually two threads here I want to follow, I'm going to follow the second one first, this idea of where this data labeling work can come from. This isn't a really clear, simple, understandable one, which is just experts sitting there creating data. Another one that I know a lot of other companies in this space use Scale, I know especially with just like low-cost labor internationally. Are there other methods for doing this that isn't one of those two? How are other companies doing this?",
+   "zh": "这里其实有两个值得探讨的方向。我先从第二个入手，即数据标注工作从何而来。这并非简单易懂的模式——不能指望专家闭门造车。我知道许多同行企业会利用低成本的国际劳动力，但除此之外还有其他方法吗？其他公司是如何处理的？",
+   "ts": "00:40:43"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I think if you care about building a really high quality business, and having good gross margin and high quality growth, the ecosystem here is, one of the leading players, they have 200 recruiters. It's unsustainable. There are like 200 people on LinkedIn sending individual messages to acquire these people, because there's no brand, there's no trust. They're spending tens of millions of dollars a month on performance advertising, Google Ads-",
+   "zh": "我认为，如果你致力于打造高质量的业务，追求高毛利率和优质增长，现有生态系统中的领军者——比如拥有200名招聘人员的公司——其模式是不可持续的。在LinkedIn上，约200人通过单独发送消息来招揽人才，因为缺乏品牌效应和信任。这些公司每月在效果广告（如Google Ads）上投入数千万美元",
+   "ts": "00:41:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To find experts and to find folks.",
+   "zh": "来寻找专家和人才。",
+   "ts": "00:41:39"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Find experts.",
+   "zh": "寻找专家。",
+   "ts": "00:41:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it's experts mostly at this point.",
+   "zh": "目前主要还是在招募专家。",
+   "ts": "00:41:42"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah. And then they put them onto an experience that is treating them like they're drawing boundary boxes around stop signs in the Philippines. The frontier tax accountants don't want to be treated like low cost international labor, and I don't think anyone enjoys that process. And so, the ability to build a experience that's rooted in community, that's rooted in high quality training. If you're getting your PhD at MIT, chances are you're just not being taught well enough on how to use the tools. (00:42:15): It's not you can't break the models, it's just like the other platforms, they're spending thousands of hours to acquire an individual user and they're put right into a project with no training. So, we just started from day one at building this expert ... We believe there'd be a deep network effect here that's very connected to our core business of starting, jumpstarting or restarting your career. And you come in, you build a profile, you see the community, there's groups and a feed of here's how people are learning. You come into actual individual cohort with peers that look like you and have your similar background. You're being taught on how to interact, and there's a trial and error, and we have an instructional design piece so you can't do it. Then you're put on the projects where building ... There's certain swim lanes where we're actually pre-building data and selling that data to all the labs. (00:43:03): So, we can do this thing where we produce one unit of data ourselves. We pay for it, almost like a movie production. We pay for a unit of data, and then we make sure it's very high quality. We run our own post-training on it, and then we produce a bunch of specifications of the data, and we actually sell that individual package of data to many different labs. And so, you get put on a project like that. Once you're doing a really, really good job on our projects, oftentimes then we'll put you on customer projects where they only want the best of the best people in machine learning. And then they go from our projects to their projects. And so, there's a huge customer acquisition. You love going deep on your podcast, so just to talk about it, it's like you really have a couple of things that matter. (00:43:46): You have a cost to customer acquisition, your CAC, and then you have your LTV, like the lifetime value of a user. And an LTV is calculated pretty simply in this business. It is based on the retention of a person, and how many projects they can participate in. So, if you treat people really well, you train them really well, well, A, we have no customer acquisition costs because we partner with 1,600 universities, power 92% of the top 500 schools in the country. We power almost every institution and community college in the country. We have no customer acquisition cost to acquire the people. We have a ton of brand and trust with them built up, so they convert at really, really high rates. And then, if you treat them really well, because what they expect from us, they know Handshake, their school buys Handshake, we care about treating these people well but the universities would not tolerate our partnership with these fellows unless we treated them well. (00:44:41): So, you put them into this process where our LTVs and repeat engagement rate and retention rate on different projects is really high. And so, these structural advantages are quite significant when you contrast a leading provider that has 200 individual contributing recruiters, and are spending tens of millions of dollars a month on performance marketing. So, that's I think why we've seen so much success.",
+   "zh": "是啊。而他们却把这些人置于一种体验之中，就好像在菲律宾给停车标志划界线似的。边境税务会计师们不愿被当作廉价的国际劳动力，我相信没人会乐意经历这样的过程。因此，我们致力于打造一个以社区为根基、以高质量培训为核心的体验。（00:42:15）：问题不在于你无法破解模型，而是其他平台花费数千小时获取用户，却直接将他们投入项目却不提供任何培训。所以，我们从第一天起就着手打造专家团队……我们相信这里会形成深度网络效应，与我们核心业务——助力人们开启、重启或加速职业生涯紧密相连。当你加入平台后，创建个人资料，了解社区动态，参与学习小组，看到人们如何学习。随后你会进入与同行组成的小组，接受互动指导，经历试错过程。我们还设有教学设计模块，确保学习效果达标。完成培训后，你会参与项目开发……在某些领域，我们会预先构建数据并将其出售给各实验室。（00:43:03）：我们能自主生产数据单元，就像电影制作一样。支付数据成本后，通过专业后处理提升质量，再将成套数据出售给多个实验室。表现优异者将接手客户项目，这些客户只需最顶尖的机器学习人才。最终实现用户转化。您热衷于深度解析播客，核心在于两大核心指标：客户获取成本（CAC）和用户终身价值（LTV）。在我们业务中，LTV的计算基于用户留存率和参与项目次数。凭借与1600所大学的合作（覆盖全美前500强高校92%），以及对社区学院的全覆盖，我们无需高额营销成本即可获取用户。品牌信任度深厚，转化率极高。若能提供优质服务，学校会主动推荐Handshake平台——若非如此，合作根本无法开展。（00:44:41）：通过系统化流程，我们在不同项目上的LTV、重复参与率和留存率都极高。当与每月投入数千万美元效果营销的领先招聘平台相比，这些结构性优势尤为显著。\n我想，这就是我们取得如此巨大成功的原因。",
+   "ts": "00:41:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's extremely interesting. And it feels like, as you said, there used to be a big focus on generalists, which is people anywhere in the world for low-cost can do the work, like draw bounding boxes around things. And essentially the market has shifted from low-cost generalists to experts. And a lot of these companies like Scale, we're optimizing for general work model training data, and you guys are set up to be extremely good at expert based data. And so, you're in the right place at the right time, at the right supply. What a business.",
+   "zh": "太有意思了。正如你所说，过去人们更关注通才型人才——即世界各地能以低成本完成任务的人，比如给物体标注边界框。但如今市场已从低成本的通才型人才转向专家型人才。像Scale这样的公司，我们专注于优化通用工作模型的训练数据，而你们则专注于基于专家数据的训练。可以说，你们在正确的时间、正确的市场机遇下布局得当，真是太棒了。",
+   "ts": "00:45:07"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:45:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Nice work.",
+   "zh": "干得漂亮。",
+   "ts": "00:45:43"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I would say it's not been easy building business two inside of business one, but-",
+   "zh": "我得说，在业务一的基础上拓展业务二绝非易事，但——",
+   "ts": "00:45:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. So, let me follow that thread. That's where I wanted to go. What was just that like? So, you started noticing that model companies were coming to your people, that people were having hard times with some of these other companies in this space and you're like, \"Oh, maybe we should be doing this sort of thing\"? How did that just initial inception start, and how did you start to explore that idea and to see if it was a real thing?",
+   "zh": "是的。让我接着这个思路展开。这正是我想探讨的方向。当时是怎样的情况呢？你们开始注意到模型公司在找你们的人合作，业内其他公司遇到了不少困难，于是你们就想：“或许我们也该涉足这块领域？”最初的灵感是如何产生的？你们又如何开始探索这个想法，验证其可行性？",
+   "ts": "00:45:48"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Tactically we were working with many of the middleman companies doing work. We started to see the demand, as I talked about earlier. We started to see direct outreach from the Frontier Labs reaching out to us, trying to cut out the middleman in their pursuit of getting higher-quality data. When we started to put together the dots on we could build a way better experience for our fellows, we could serve them directly to the labs and build a direct customer relationship with the labs, and basically cut out the middleman. And provide a better experience to the labs, provide a better experience to our fellows and provide a better experience to our million companies in the network. (00:46:48): And you might think about just upskilling and reskilling, what's going to happen there. So, we walked into this space. We started in really December, exploring and learning more about it, like on expert calls and hammering down. I hired three expert firms, AlphaSights and GLG, and started doing a bunch of calls with the latest researchers, because we had resources. One of the cool things about being a larger company is our core business is $200 million ARR, so it's like we had resources to be able to accelerate the learning curve here. And then, we started working with arguably the number one lab about five months ago.",
+   "zh": "从策略上讲，我们曾与许多中间商合作开展业务。正如我之前提到的，我们开始看到市场需求。Frontier Labs主动联系我们，试图绕过中间商获取更高质量的数据。当我们把这些线索串联起来时，发现可以为我们的合作伙伴提供更优质的服务，直接对接实验室，建立与实验室的直接客户关系，从而省去中间环节。不仅能提升实验室的体验，也能优化合作伙伴和我们网络中数千家公司的服务体验。（00:46:48）：你可能会考虑员工的技能提升和转型，未来会如何发展？所以我们进入了这个领域。真正意义上的探索始于去年12月，我们通过专家通话、深入研究等方式深化理解。当时我们聘请了AlphaSights和GLG等三家专家公司，与最新研究成果保持紧密联系，因为我们有充足的资源。作为大型企业的好处在于，我们的核心业务年营收达2亿美元，所以我们有资源加速学习曲线。大约五个月前，我们开始与业内头部实验室展开深度合作。",
+   "ts": "00:46:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I wonder who that is.",
+   "zh": "我很好奇那是谁。",
+   "ts": "00:47:34"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:47:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, wonder who it is.",
+   "zh": "是啊，好奇是谁。",
+   "ts": "00:47:35"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "[inaudible 00:47:39] different answers working with the number one lab, and have just now we're working with Devin on the Frontier Labs and the number one thing we're trying to do is just focus on scaling up. And we've gone from four or five people working on this to 75 plus people working on it. I think we had 12 people start last Monday. It's like we are so bottlenecked on just meeting this opportunity, because in this market there's essentially unlimited demand. If you can produce high quality volumes of data, you most likely will be able to sell whatever you produce. And so on our side, it's like we're really focused on making sure that we pick the right longer term strategy, making sure that we don't grow too fast as to erode the trust that we've built up with these Frontier labs. Yeah, but it's been fun.",
+   "zh": "[00:47:39的背景音] 在与头号实验室合作时，我们得到了不同的反馈。最近，我们正与德文（Devin）在Frontier Labs合作，我们最关注的重点就是如何扩大规模。从最初的四五个人参与，到现在有75多人投入其中。上周一，我们又新招了12个人。显然，我们在抓住这个机遇时遇到了瓶颈，因为这个市场基本上需求无限。只要能产出高质量的大量数据，几乎肯定能卖出去。就我们而言，我们真正关注的是制定正确的长期战略，确保发展速度不过快，以免损害与Frontier实验室建立的信任。不过这段经历还是挺有趣的。",
+   "ts": "00:47:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You said it's also been really hard to start those business within an existing business. What's been hard? What's been hardest? You touched on a couple of these elements already, but what else?",
+   "zh": "你提到在现有业务中启动新项目也非常困难。具体难在哪里？最难的是什么？你已经提到了几个方面，但还有哪些挑战？",
+   "ts": "00:48:38"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I think I just followed a lot more of my intuition around this, doing this. The story of Handshake was we had to sign up 1,600 universities, so I had to learn how to be the best ... We are the fastest growing higher education company in history. So, we signed up six 1,600 schools. Then we had to build an employer business, where we had to figure out how to sell the 100% ... All these Fortune 500 companies use it and 70% of it pay for it, so I had to learn about upmarket sales to Goldman Sachs, and General Motors, and Google and the biggest companies in the world, which is totally different than selling universities. And then we had to learn how to build an incredible student social network. What does the best feed look like? What does group messaging look like? So, I felt a little bit of familiarity in those zero to ones. (00:49:39): Oftentimes marketplaces are like many zero to ones. Sometimes I dream that we just, I actually don't dream, but I make a joke that I just wish we were a cybersecurity company and we had one buyer and just one product, and it was just like we had to ... In a marketplace, you have to serve three different sides, you know from your time at Airbnb. And so, one of my learnings in spinning up these three different businesses in starting Handshake was I was pretty hands-on. So, everyone reported directly to me. I really said in a lot of meetings, \"I'm not trying to be the boss, I'm just trying to get another smart guy in the room.\" We've hired an incredible team of people that have spent a lot of time in the space and have been big leaders at a lot of the human data companies in the space. (00:50:27): And so, everyone saw very clearly the structural advantages that we had, and a lot of the focus was on making sure that we could deliver high-quality data to one customer before we expand to anyone else. You had to say no to a lot of things. And then, you also had a lot of people in the core part of the business that, rightfully so, there's just checks and balances that there's a lot of people that try to get involved. Everyone wants to say, not everyone, this is a stretch, but it's easy to say no. It's easy to be like, \"I can't prioritize that this week or this month. I have an existing set of priorities.\" So essentially, with the exception of a few things, everyone just came straight into this new org that I built, everyone did not have any responsibilities in the existing part of the business. It was extremely clear who was the directly responsible individual across each area of the new co. And now we've got deeper coupling and integration points across the rest of the business, but we sat in a separate part of the office. (00:51:35): Everyone's in the office five days a week, a lot of weekends. There's a totally different expectation in hiring talent too, where it's like, \"Hey, this is a 24/7 job. This is an early-stage company.\" The compensation was also different too, and based on hurdles in this new business so people felt owners creating the new co. And yeah, it's still extremely nimble, very, very flat. Just because you run one function doesn't mean you're the directly responsible individual on a project. We pick the best person who's most capable of driving an initiative forward, regardless of the function to be the DRI. We're a lot more metrics-oriented. When I built Handshake, we resisted this operating cadence for a long time, this weekly, monthly, quarterly operating cadence. With Handshake AI, we've been way more focused on operating with data, and metrics, and rigor from an early stage. There's a gentleman named Sahil on our team who's been doing an incredible job with that. Shout out Sahil, shout out young, shout out Paco. Yeah.",
+   "zh": "我觉得我在这件事上更多是凭直觉行事的。Handshake的故事是，我们需要注册1600所大学，所以我必须学会如何做到最好……我们是史上增长最快的高等教育公司。于是，我们注册了六个包含1600所学校的项目。接着，我们还要打造面向雇主的业务，得想办法把100%的产品卖出去……这些《财富》500强公司都在用我们的服务，70%的客户愿意为此付费，所以我必须学习如何向高盛、通用汽车、谷歌等全球顶级企业推销高端产品，这和卖给大学完全不同。然后，我们还要打造令人惊叹的学生社交网络。最佳信息流应该是什么样的？群组消息又该如何设计？所以，在从零到一的过程中，我能感受到一些熟悉的挑战。  \n\n（00:49:39）：市场平台往往需要从零到一的突破。有时我会幻想，如果我们是一家网络安全公司，只有一个买家和一种产品，那该多好。但在市场平台上，你必须服务三个不同群体，这点从你在Airbnb的经历就能明白。因此，在Handshake启动这三项不同业务时，我亲力亲为。每个员工都直接向我汇报。在很多会议上，我都会说：“我不想当老板，只是想让房间里多些聪明人。”我们组建了一支才华横溢的团队，他们在相关领域深耕多年，曾在多家大数据公司担任高管。  \n\n（00:50:27）：大家都清楚我们的结构性优势，重点在于确保在拓展新客户前先为现有客户提供高质量数据。这意味着要拒绝很多事情。核心业务部门的人员也需要严格把关，防止过多人插手。每个人都会说：“这周或这个月没法优先处理这个任务，我有既定的工作重点。”所以除少数例外，其他员工直接加入新部门，不再承担旧部门的职责。新部门各职位的直接责任人一目了然。如今，我们与其他业务部门的协同整合更深入，但办公区域仍分开。  \n\n（00:51:35）：员工每周五天在办公室加班，周末也常出勤。招聘标准也完全不同：“这是一份全天候的工作，是一家初创公司。”薪酬体系也不同，完全基于新业务的阶段性目标，让员工感受到自己是新公司的共同所有者。组织依然极具灵活性，扁平化管理。即使负责某个职能，也不意味着在项目中是直接责任人。我们会挑选最有能力推动项目的成员担任DRI（直接责任人）。我们更加注重数据和指标驱动，从一开始就如此。\n我们的团队里有一位叫萨希尔的先生，他在这方面做得非常出色。向萨希尔致敬，向年轻人致敬，向帕科致敬。没错！",
+   "ts": "00:48:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, this is incredible. So, a few elements of what allowed this to succeed within a decade-old company. And by the way, so you're at 200 million a year in revenue with the traditional business. You're going to, as you said, blow past 100 million in the first year of this new business. So, it's wild that in the first couple years, if things continue to go this way, you'll exceed the run rate of a business that took you 10 years to build. Incredible. To make this successful, a few of the things I noted as you were talking, one is clearly you were just in founder mode. You're the lead of this new business. You weren't delegating it to someone, \"Hey, go start this thing.\" You dedicated people, \"Here, we're going to pick people. You have nothing else going on, this is your new job. You're going to work on this stuff.\" (00:53:28): You worked in different part of the office. There's a metrics-based cadence. It's just like, let's stay really diligent about here's how it's going, here's where we're going, here's our track, here's our KPIs, things like that. Anything else there that you felt really important to making this work? Because a lot of companies are going to try to do this, I imagine, and so I'm curious what else you found important to make this work.",
+   "zh": "好的，这真是太不可思议了。那么，让这项业务在一家成立十年的公司中成功的关键因素有哪些呢？顺便说一句，你们传统业务的年营收已经达到2亿美元。而正如你所说，这项新业务第一年就能突破1亿美元的营收目标。真是令人惊叹，如果一切顺利，仅在最初几年，你们就能超越花了十年时间才建立起来的传统业务的增长速度。太不可思议了。要让这项业务成功，听你刚才讲的，有几个关键点：首先，你显然一直处于创业模式。你亲自领导这项新业务，而不是把它交给别人说：“去启动这个项目吧。”你亲自挑选团队成员，告诉他们：“你现在没有其他工作，专注做这件事。”（00:53:28）你还调整了办公室的布局，建立了基于数据的节奏感，不断追踪进展、明确目标、跟踪关键绩效指标（KPI）等。还有其他什么因素对成功至关重要吗？毕竟很多公司都会尝试效仿你们的模式，我很好奇还有哪些关键要素是你们认为必不可少的。",
+   "ts": "00:52:42"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah. I mean, I just really believe in separate and everything. Separate engineering team, separate design team, separate accounts and operations team, separate finance team. Early on, everything was separate. People only had one job and one job only, and that was making Handshake AI successful. We had a couple integration points more, and I had an incredible executive team and a core part of business, and now there's becoming more and more involvement. But our executives that have built Handshake for a long time ran the core business, and I focused 80 plus percent of my time and attention on just this. And we hired an incredible engineering leader like Avery, who ... We have a lot of entrepreneurs, people that have started companies inside the company. Or pardon me, people that started companies before. That was huge. A lot of familiarity with hiring talent that have only worked at early stage companies so [inaudible 00:54:44] that feels super comfortable with ambiguity. (00:54:46): We were also way more upfront around this is going to be chaotic. Just owning that narrative in front of all hands at the core company, owning it directly with the team. We have a separate all hands, we have separate onboarding, we have a separate recruiting team. I had some connection points, but mostly separate. And I think that was absolutely critical. We took some of the top people, I mean, we have great people in the core business, we took some great people from the core businesses and basically said, \"Sorry, I know you love your old team. I know you love what you're doing. Will you join us in Handshake AI?\" And they completely forego their historical responsibilities and came over. That became really critical with engineering when things started to scale and topple, and we're growing so quickly we took some of our top senior engineers, who were very entrepreneurial, and principal engineers, staff of engineers, parachute them in. It's been awesome to ask some of the most talented people in the core business like, \"Hey, do you want to come over here and do this?\" (00:55:49): And sometimes they say no. They're like, \"I don't want to work most of the weekends.\" The number of 2:00 AM, 3:00 AM nights we done in this business, I mean, it's quite regular. People sometimes don't want to commit to that, but we've been up front, like here are the expectations for this team. It's an insane pace. If you want to be a part of one of the fastest growing businesses in Silicon Valley, you can join it. The ownership too has also been huge, like owning this outcome, and we have this motto to leave nothing to chance. For a while there we drew the number of days in the year on the whiteboard and it was like, there will never be a time like this. I've never seen anything like it, I doubt I'll ever feel anything like this in business again where there's unlimited demand and it's just our ability to execute against it. (00:56:39): And so, we had this motto like leave nothing to chance. How do you make sure that three months are not six months? You have no regrets. Get on the plane to go talk to a customer, make the late night push, check the data six times over again, ship the extra feature that helps. And really, a huge celebratory culture too. It's very flat so there really isn't this principle of ... There's so many people putting up points, directly calling out the people that are putting up points and creating a really fun environment around impact I think has been awesome.",
+   "zh": "是的。我的意思是，我真的坚信要把一切分开——独立的工程团队、独立的设计团队、独立的财务和运营团队。早期阶段，一切都是分开的。每个人只专注于一项工作，那就是让Handshake AI成功。我们当时有几个整合点，我有一个出色的高管团队和核心业务部门，但现在越来越多的人参与进来。那些长期为Handshake打拼的高管负责核心业务，而我把80%以上的时间和精力投入到这项事业中。我们聘请了像艾弗里这样杰出的工程领导者……我们有很多内部创业者，或者说曾在公司内部创办过公司的人。这对我们来说意义重大。他们对招聘人才非常熟悉，因为他们只在早期公司工作过，所以能轻松应对不确定性。\n\n（00:54:46）我们从一开始就坦诚地告知大家，Handshake AI的进程会充满混乱。在公司核心层面直接面对团队，坦然面对这种不确定性。我们有独立的全员大会、独立的入职培训、独立的招聘团队。我和高管层有一些联系点，但大部分工作是独立的。我认为这至关重要。我们挑选了顶尖人才——核心业务部门有很多优秀人才——并直接对他们说：\"抱歉，我们知道你热爱原来的团队，也热爱现在的工作。但能否加入Handshake AI呢？\"他们完全抛开原有的职责加入进来。\n\n（00:55:49）在工程团队规模扩大、任务增多时，我们从核心业务部门抽调了富有创业精神的资深工程师、首席工程师和普通工程师加入。这真是太棒了，我们会问核心业务部门最优秀的人：\"嘿，你想来这里做这个吗？\"有时他们会拒绝，比如：\"我不想每周末大部分时间工作\"。但我们坦诚相告：\"这是团队的期望，节奏快得惊人。如果你想加入硅谷发展最快的公司之一，就加入吧。\"责任感也极其重要，比如我们要掌控结果，秉持\"不留任何余地\"的座右铭。我们曾在白板上写下一年365天，然后说\"再也不会有这样的时刻了\"。我从未见过如此需求无限、全凭执行力的商业环境。\n\n（00:56:39）我们秉持\"不留任何余地\"的信条。如何确保三个月的任务不拖成六个月？没有遗憾。登上飞机去拜访客户，深夜加班，反复核对数据，推出有助的额外功能。还有浓厚的庆祝文化，组织架构扁平，没有等级之分，大家积极贡献，共同创造价值，这真是太棒了。",
+   "ts": "00:53:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The leave nothing to chance piece I imagine speaks partly to the value of trust in what you're doing. You win if they can trust that your data's awesome, and great, and consistent, and I could see why that ends up being such an important part of what you're building. And just listening to you describe this, I understand it's obviously a massive opportunity, obviously a massive advantage you guys have, and just the stress that comes with that burden also imagine is very high of just like we can't screw this up.",
+   "zh": "关于“不留任何余地”的那段话，我觉得这在一定程度上体现了对自身工作的信任价值。如果他们能相信你的数据质量卓越、可靠且一致，那你就赢了。我能理解这为何会成为你构建业务的重要核心。听你描述这个愿景，我深知这显然是个巨大的机遇，也是你们的显著优势，但随之而来的压力想必也非常巨大，毕竟我们不能搞砸。",
+   "ts": "00:57:14"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "No. Yes, Handshake should be a ... Business does billions dollars revenue as a public company, we should be able to continue to ... I mean, and it also helps our core business. The longer term opportunity that we see is it's connecting, it's building the best job mashing marketplace on the internet. It's probably one of the largest problems in the world like labor supply mashing. It's where people spend most of their time and energy, just hours of their life they spend it at work. The process of searching for a job, applying to a job is going to be completely reinvented with AI. We've been leading the charge there. An AI interviewer that's collecting skills and actually asking about your experiences, doing work simulation experiences that help employers find the best candidates. I mean, I don't know the last time you've done this, but the hiring manager process, reviewing 200 resumes, are you kidding me? (00:58:49): I'm going to sit there and review 200 resumes? Not a chance five years from now. Students manually making cover ... Not a chance. So, there will need to be a marketplace that wins in connecting supply and demand, and talent with opportunity, and we think and get psyched about the opportunity for impact here. That's my story, I went to community college, I paid my way through school. I went to a no name school in Upper Peninsula of Michigan. I worked at Palantir as an intern, it totally changed my life, and I started Handshake because I wanted to make it easier for anyone regardless of who you knew, what your parents did, what school you went to, to find a great opportunity. And I think AI, totally step function improvement in matching. And I think that our human data business is really serving as the foundation for improving matching. (00:59:44): A lot of things that we're doing in the human data business are being integrated to our core business. I think that's going to improve outcomes for employers, save them in the aggregate like billions of dollars over time. And I think it makes the experience way better for students. So, it's just like we have to meet the moment. We still have the stamina, and the excitement, and the passion internally in our core and in the new business to go charge after this. And that's a lot of the message we've been sharing internally is it's time to amp it up. This is a once in a lifetime opportunity to be positioned as well, and we are going to make the moment as a team.",
+   "zh": "不，确实，Handshake作为上市公司每年营收数十亿美元，我们理应能继续……我的意思是，这对我们的核心业务也有助益。我们看到的长期机遇在于搭建互联网上最出色的求职平台。这或许是全球最严峻的挑战之一——劳动力供需匹配问题。人们一生中大部分时间和精力都投入工作，而求职和应聘流程将被人工智能彻底重塑。我们一直引领着这场变革。通过人工智能面试官收集技能信息、深入了解求职者经历、模拟工作场景等技术，雇主能更精准地找到优秀人才。我不知道你最近有没有经历过招聘流程，但让招聘经理筛选200份简历？开什么玩笑？（00:58:49）：我要坐着筛选200份简历？五年后绝对不可能。学生手动制作求职信？想都别想。所以必须有这样一个平台，能高效匹配供需、连接人才与机遇。我们对此深感兴奋。这就是我的故事——我曾就读于密歇根州上半岛的一所不知名社区学院，在Palantir实习彻底改变了人生，后来创立Handshake，就是为了让任何人——无论背景、家庭、教育背景如何——都能轻松获得优质就业机会。我相信人工智能将极大提升匹配效率，而我们的人工智能数据业务正为此奠定基础。（00:59:44）：我们在数据业务中积累的许多技术正融入核心业务。这将提升雇主的招聘效率，长期节省数十亿美元成本，同时提升学生的求职体验。因此，我们必须紧抓机遇。无论是核心业务还是新业务，我们内部都充满活力与激情，势必全力以赴。这也是我们内部不断传递的核心理念：是时候全力以赴了。这是一生难遇的机遇，我们要携手共创辉煌。",
+   "ts": "00:57:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It really is. This very much feels like a once in a lifetime opportunity. Let me ask a few other questions along these lines that are something I've been thinking about, something that a lot of people think about, just while I have you, there's always this question of will we run out of data? Will model stop advancing? Are we going to hit some plateau and there's not actually going to be some AGI moment, SGI moment? So first of all, do you think we'll run out of data? There's a point at which we just can't produce more knowledge and data to feed these models? And along those lines, what do you think is the biggest bottleneck to advancing models faster and further?",
+   "zh": "确实如此。这感觉真是千载难逢的机会。让我再问几个相关的问题，这些都是我一直在思考的，也是很多人都在思考的。既然有机会，我想问一下，我们会不会面临数据枯竭的局面？模型会不会停止进步？会不会遇到某个停滞期，最终无法实现通用人工智能（AGI）或超级智能（SGI）的突破？首先，你认为我们会面临数据枯竭的困境吗？会不会存在无法生产更多知识和数据来喂养这些模型的临界点？顺着这个思路，你认为加快模型进展的最大瓶颈是什么？",
+   "ts": "01:00:19"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, I mean, it's just the type of data we're going to need is going to evolve. It's going to be CAD files, it's going to be scientific tool use data as they try to automate scientific discoveries and drug discovery. It's going to be esoteric operating systems that exist on scientific tools. So, I love this trajectory and stitching together step-by-step instruction following. The type of data we're going to need is going to evolve a lot. And we haven't even talked about multimodal, and video, and text and audio. There's a huge demand for audio data right now. So, the type of data's going to evolve.",
+   "zh": "是的，我觉得我们需要的数据类型会不断演变。会是CAD文件、用于自动化科学发现和药物研发的科学工具使用数据，以及存在于科学工具中的深奥操作系统。所以，我很喜欢这种循序渐进、逐步指导的学习路径。我们需要的数据类型将发生巨大变化。我们甚至还没谈到多模态数据、视频、文本和音频。目前对音频数据的需求非常大。数据类型会不断演变。",
+   "ts": "01:00:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I use voice mode all the time. That's on my default ChatGPT experience, just talking to-",
+   "zh": "是的，我一直使用语音模式。这是我默认的ChatGPT体验模式，就是和它对话——",
+   "ts": "01:01:38"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "It's amazing. It's amazing. I just had a baby on, or my wife had a baby on Sunday, and voice mode's been incredible. I mean, every night, every two hours it's like I have more questions. Voice mode's been huge. So, shot out voice mode. Yeah, so the type of data is going to collect a lot, or change a lot. I think synthetic data has a role to play and in verifiable domains, but what we consistently hear from companies it's like synthetic data is not going to dominate. There's billions, and billions, and billions of dollars of value to extract as a company over the next decade and following the frontier of AI development.",
+   "zh": "太神奇了。太神奇了。我妻子周日刚生了孩子，而语音模式简直太棒了。每天晚上、每隔两个小时，我总有更多的问题。语音模式太实用了。所以，要为语音模式点赞。是的，数据类型将收集大量数据，或者说会发生巨大变化。我认为合成数据在可验证的领域中可以发挥作用，但我们从公司那里听到的一致观点是，合成数据不会占据主导地位。未来十年，随着AI开发前沿的推进，企业将有数十亿、数百亿、数千亿的价值可以挖掘。",
+   "ts": "01:01:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me first say just huge kudos to you for just having a kid, your wife just having a kid a few days ago, and building this business that is growing bananas and doing this podcast conversation. I really appreciate you.",
+   "zh": "首先，我要向你表示衷心的祝贺，你刚生了孩子，你妻子几天前也生了孩子，还能创办这家正在蓬勃发展的公司，还能参与这场播客对话。我真的很感激你。",
+   "ts": "01:02:24"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "ts": "01:02:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Of course. Is there anything else that we haven't covered that you think might be helpful for folks to hear, or a part of your story that you think might be helpful for folks to learn from, or something you may want to just double down on that we've talked about before we get to a very exciting lightning round?",
+   "zh": "当然。还有什么我们没有讨论过的，但你认为对听众有帮助的，或者你故事中你认为对听众有启发的部分，或者我们之前讨论过的你想再深入探讨的部分，在我们进入令人兴奋的闪电问答环节之前？",
+   "ts": "01:02:36"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I mean, the thing I always love talking, I'm really passionate about people starting companies and helping them do so. I just think in this moment right now with AI, for young entrepreneurs that listen, that read this podcast, because I've been a reader since 2020. We looked.",
+   "zh": "我的意思是，我一直很喜欢谈论这个话题，我对年轻人创办公司并帮助他们做到这一点充满热情。我认为在当前的AI时代，对于收听或阅读这个播客的年轻创业者来说——因为我从2020年起就是忠实听众了——我们有所观察。",
+   "ts": "01:02:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, we did check. That's incredible.",
+   "zh": "是的，我们确实查证过了。这太不可思议了。",
+   "ts": "01:03:07"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, been a long-term reader. I'm just so curious and love sucking up-",
+   "zh": "是的，我一直是长期读者。我只是非常好奇，喜欢学习——",
+   "ts": "01:03:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Appreciate it.",
+   "zh": "谢谢。",
+   "ts": "01:03:08"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "... your interviews. But it's like you just focus on doing something of meaning that really helps people. And I think with AI, there's going to be so many opportunities to improve the way people learn. I'm just really passionate about trying to make Handshake a platform that is not only an incredible business, but is also something that really helps solve a societal problem that matters. And yeah, that's be my one shout out here. If anyone wants advice on how to do that or wants to reach out, I'm happy to chat.",
+   "zh": "好的，你提到了你的采访经历。但你似乎总是一心专注于做一些真正有意义、能帮助他人的事情。我认为在人工智能领域，将会有很多提升学习方式的机会。我对让Handshake成为一个不仅是出色企业，还能真正解决社会问题的平台充满热情。如果有人想获取相关建议，或者想交流探讨，我很乐意倾听。",
+   "ts": "01:03:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so this is an offer to share advice on starting companies within AI. Is that the offer here? Just so folks-",
+   "zh": "好的，那么这是一个分享如何在人工智能领域创办公司的建议。对吧？只是让大家——",
+   "ts": "01:03:43"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, that'd be great.",
+   "zh": "是的，那太棒了。",
+   "ts": "01:03:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I don't know how much time you'll have for the hundreds of thousands of people coming your way, but I appreciate the offer. That's very cool. Anything else before we get to a very exciting lightning round?",
+   "zh": "好的。我不知道你会有多少时间来回复数十万个提问，但还是很感谢你的提议。这太酷了。在我们进入激动人心的闪电问答环节之前，还有什么其他想分享的吗？",
+   "ts": "01:03:50"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "No.",
+   "zh": "没有了。",
+   "ts": "01:04:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, with that Garrett, we reached our very exciting lightning round. We've got five questions for you. Are you ready?",
+   "zh": "好的，加勒特，我们现在要进入激动人心的闪电问答环节了。我们为你准备了五个问题。你准备好了吗？",
+   "ts": "01:04:02"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Ready.",
+   "zh": "准备好了。",
+   "ts": "01:04:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you find yourself recommending most to other people?",
+   "zh": "你最常向他人推荐的两三本书是什么？",
+   "ts": "01:04:07"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I'm a sucker for Peter Thiel's Zero to One. I read it when I started the company, and watched Peter Thiel's startup school class at Stanford he taught back in the days where there wasn't everything written on the internet about how to start companies, and just think he was the coolest. Love Shoe Dog. I think it's the epitome of starting a company. Hard Things About Hard Things obviously, but these are all quite common books.",
+   "zh": "我超爱彼得·泰尔的《从0到1》。我创办公司时读了这本书，还在斯坦福听过彼得·泰尔的创业学课程，那时候网上还没那么多关于如何创业的资料，我觉得他简直酷毙了。我也很喜欢《鞋狗》。我觉得这本书是创业的典范。当然还有《难事大成》，但这些书都太常见了。",
+   "ts": "01:04:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But also classics. Ben Horowitz is coming on the podcast, talk about Hard Things About Hard Things.",
+   "zh": "不过也是经典之作。本·霍洛维茨即将做客我们的播客，谈论《难事大成》。",
+   "ts": "01:04:38"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Super cool.",
+   "zh": "太棒了。",
+   "ts": "01:04:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The Hard Thing About Hard Things. Yeah. Okay, have you seen a recent movie or TV show you really enjoy it? I imagine you don't have much time for this, but-",
+   "zh": "《难事大成》。是的。好的，你最近有没有看什么喜欢的电影或电视剧？我猜你没多少时间看这些，但——",
+   "ts": "01:04:43"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I'm going to get blasted for this, but I did start Game of Thrones with my wife, and I cannot-",
+   "zh": "我要被喷了，但我确实和妻子一起开始看《权力的游戏》了，而且我简直——",
+   "ts": "01:04:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "For the first time.",
+   "zh": "第一次看。",
+   "ts": "01:04:55"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:04:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool.",
+   "zh": "好的，不错。",
+   "ts": "01:04:56"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "So, I got a lot of catching up to do.",
+   "zh": "那我得补补课了。",
+   "ts": "01:04:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Why would you get ... No, this is great. It's like people that have watched it-",
+   "zh": "为什么你会被……不，这很棒。看过这部剧的人——",
+   "ts": "01:04:59"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I've loved it so far.",
+   "zh": "到目前为止我都很喜欢。",
+   "ts": "01:04:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've loved it so far? Okay. It's quite gruesome, that's the only downside of that show. Don't watch it before you go to bed, I don't know how many gruesome scenes you've seen already. Do you have a favorite product you've recently discovered that you really love?",
+   "zh": "你到目前为止都很喜欢？好的。这部剧太血腥了，这是唯一的缺点。别在睡前看，我不知道你已经看过多少血腥场面了。你最近有没有发现什么特别喜欢的产品？",
+   "ts": "01:05:02"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "The SNOO. The baby automated SNOO has really helped us a lot. So love the, shout-out SNOO team.",
+   "zh": "SNOO。自动婴儿摇篮SNOO真的帮了我们大忙。所以要特别感谢SNOO团队。",
+   "ts": "01:05:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I had a SNOO as well. We never actually turned it on, we just ended up using it as a basinet the whole time.",
+   "zh": "太棒了。我们也买过SNOO，但一直没开机，最后整个孕期都在用它当摇篮。",
+   "ts": "01:05:24"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, most of the time it's not turned on, but a couple of cries it's been turned on, it's been very helpful.",
+   "zh": "是的，大多数时候它都处于关闭状态，但有几次在遇到紧急情况时我会启用它，效果非常显著。",
+   "ts": "01:05:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have favorite life motto that you find yourself coming back to, sharing with other people?",
+   "zh": "你有没有自己钟爱的的人生格言，经常回味并与人分享？",
+   "ts": "01:05:33"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I love that leave nothing to chance, leave it all out on the field. Grew up in a really hardworking family, and dad worked really hard to provide, make it happen for us and it's like just give it your all. Leave nothing a chance.",
+   "zh": "我喜欢那种不留余力全力以赴的态度。我成长在一个勤奋努力的家庭里，父亲为了养家糊口拼命工作，让我们生活无忧。就是要竭尽全力，永不留遗憾。",
+   "ts": "01:05:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So the last question, I was researching you in prep for this podcast and there's a story that I love about your hustle early on is when you were going from campus to campus pitching schools to join Handshake, and there's a story where you had to shower in the Princeton's pool to save money because you just didn't have a place to stay. Is there something there? Is there a story there you could share?",
+   "zh": "好的。最后一个问题，我在为这期播客做准备时研究了你，发现你早期创业时到各大学校园推销Handshake平台的故事很感人。其中有个故事，你为了省钱不得不借用普林斯顿大学的游泳池洗澡，因为当时没有住宿的地方。对此你能否分享一下细节？",
+   "ts": "01:05:51"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Yeah, so it was a tough one. I mean, I almost got arrested at Princeton, because I mean, I guess for entrepreneurs that are traveling around all the time, we were sleeping out of our car. We had this Ford focus, we would put 20, 30,000 miles on it, sleep in the back of like McDonald's parking lots because they're well lit and had good wifi back in the day. And instead of staying in a hotel, a way to freshen up ahead of your meeting is every university has a pool and the pool's almost always, it is always open. We never had a situation where it's always open for people to swim in the morning, like fitness. Faculty, students. And every pool, what do they have? They have a shower. (01:06:49): So, you could go to any pool at any university in the country, and you can get a free shower and freshen up. So, the Princeton campus security did not appreciate me showering as a non-student, but I think it meaningfully helped us because the Princeton campus security called the career service center director we were selling to, being like, \"Who's Garrett Lord? Is he really here to pitch you software for your career center?\" And it made the start of the meeting with the career center really stimulating and exciting, because they were like, \"You showered in our pool, you drove here?\" \"Yeah, we drove here from Michigan.\" And so, I think that showed a level of commitment that was exciting for them.",
+   "zh": "是的，那段经历确实很艰难。作为经常四处奔波的创业者，我们当时睡在车里。我们有一辆福特福克斯，行驶了两三万英里，睡在麦当劳停车场后座，因为那里灯光明亮且有免费Wi-Fi。与其住酒店，准备会议前快速洗漱的办法就是利用各大学开放的游泳池。这些泳池几乎全天候开放，供师生健身锻炼。每个泳池都设有淋浴间。所以，在全美任何一所大学的校园里，你都能免费洗澡、整理仪容。普林斯顿校园保安不喜欢我这个非学生使用淋浴，但这反倒成了我们的优势——保安直接联系了我们正在推销的职业服务中心主任，问：“加勒特·洛德是谁？他真的来推销软件给你们职业服务中心吗？”这让与职业服务中心的初次会面变得既刺激又充满活力，他们惊呼：“你居然在我们泳池洗澡，还开车从密歇根赶来？”这份执着劲儿让他们眼前一亮。",
+   "ts": "01:06:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Fast-forward to all these founders now starting to use this growth lever of getting in trouble with the campus police to get better meetings with the school leaders. Incredible. Garrett, this is such an insane, amazing, inspiring story, just like what you're building and the opportunity here, and just how it's fast, it's going, and all the advantages you have. If I was an investor in Handshake, I'd be like, \"All right, 10 years, it's going great.\" And now it's like, \"Whoa, holy shit. Where did this come from?\" Incredible. And it's just also really meaningful. So, I'm really happy that you made time for this in spite of the madness you are in right now. Two final questions, where can folks find you if they want to maybe reach out or maybe if you're hiring, let us know. And then, how can listeners be useful to you?",
+   "zh": "快进到现在，许多创业者都开始利用与校园警方发生纠纷来争取与校方领导的优质会面。这太不可思议了。加勒特，你的故事太疯狂、太鼓舞人心、太激励人心了。无论是正在打造的公司，还是眼前的机遇，发展速度之快令人惊叹。你若是Handshake的投资者，肯定会说：“好吧，再给十年时间，进展不错。”而现在却惊呼：“哇，天哪，这一切从何而来？”太不可思议了。这份故事也意义非凡。很高兴你能抽出时间参与这期播客，尽管你现在正忙得不可开交。最后两个问题：如果听众想联系你，或者你正在招人，请告知我们。还有，听众如何能为你提供帮助？",
+   "ts": "01:07:29"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "I mean, sign up for Handshake. If you want to message me on there, it's the easiest way to reach me. Just find me at garrettlord@Handshake, and you find me on Twitter. Love X, huge X guy. You can email me at garrett@joinhandshake.com and double R, double T. And how can you be helpful? We are trying to hire so many people. We have offices in New York and in San Francisco, and London and Berlin. If you have friends that are maybe passionate about this, you let them know, or you're interested in the learning more, please reach out. We'd love to talk to you. Hiring is like the number one problem we have right now to meet the demand. So, if you're talented and interested in learning more about Handshake, if you want to work on our consumer product, if you want to work on our employer products, cool PLG issues or the state-of-the-art consumer social experience, like reach out, or you want to work on the AI business we'd love to talk to you.",
+   "zh": "我的意思是，注册Handshake平台吧。如果想在那里给我发消息，这是联系我的最便捷方式。只需在Handshake上搜索我的用户名garrettlord，即可找到我，推特账号也一样。欢迎随时给我发邮件至garrett@joinhandshake.com，注意正确拼写邮箱中的双R和双T。你们能如何提供帮助呢？我们正急切招聘大量人才。公司在纽约、旧金山、伦敦和柏林均设有办公室。如果你身边有对此感兴趣的朋友，请帮忙推荐；若有意深入了解，可随时联系我们。我们期待与您交流。当前最紧迫的挑战是招聘，以满足市场需求。因此，若你才华横溢、热衷于了解Handshake，渴望参与开发我们的消费者产品、雇主产品、复杂的PLG难题，或致力于打造顶尖的消费者社交体验，欢迎联系我们，共谋发展。",
+   "ts": "01:08:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To make it even more clear for folks, what roles are you most hiring for? Is it every role? Is it engineering?",
+   "zh": "为了让大家更清楚，你们主要招聘哪些职位？是所有职位吗？",
+   "ts": "01:09:06"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Engineers.",
+   "zh": "主要是工程师岗位。",
+   "ts": "01:09:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Engineering, all right. If you're an engineer and want to join one of the fastest growing AI companies in the world right now, here we go. We'll link to your careers page in the show notes.",
+   "zh": "好的，那就是工程师岗位。若你是一名工程师，渴望加入全球发展最快的人工智能公司之一，欢迎加入。我们会在节目笔记中附上招聘页面链接。",
+   "ts": "01:09:12"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "ts": "01:09:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, of course. Garrett, thank you so much for being here. This was incredible.",
+   "zh": "当然。加勒特，非常感谢你的到来。这次交流太棒了。",
+   "ts": "01:09:19"
+  },
+  {
+   "speaker": "Garrett Lord",
+   "en": "Of course.",
+   "zh": "不客气。",
+   "ts": "01:09:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. (01:09:26): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at Lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见。（01:09:26）：非常感谢收听。如果觉得节目有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅。也欢迎给我们评分或留下评论，这对其他听众很重要。您可以在Lennyspodcast.com查看往期节目或了解更多信息。下期节目再见。",
+   "ts": "01:09:24"
+  }
+ ]
+}

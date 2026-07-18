@@ -1,0 +1,1403 @@
+{
+ "id": "Gibson Biddle",
+ "name": "Gibson Biddle",
+ "category": "职业成长",
+ "identity": "营销/增长",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Gibson+Biddle",
+ "bio": {
+  "en": "Gibson Biddle is a veteran product leader who served as VP of Product at Netflix and Chief Product Officer at Chegg, and now advises companies and teaches product strategy through his popular newsletter on product leadership.",
+  "zh": "Gibson Biddle 是一位资深产品负责人，曾任 Netflix 产品副总裁、Chegg 首席产品官，如今通过自己广受欢迎的“产品领导力”newsletter 为企业提供咨询并讲授产品战略。"
+ },
+ "summary": {
+  "en": "In this conversation, Gibson draws on his experience shaping strategy at Netflix and Chegg to share durable lessons on product leadership and how to build a compelling product vision. He discusses the difference between a product strategy and a product culture, how to make smart bets on features, and why focusing on customer value and a clear roadmap matters more than chasing every new idea. The episode is a masterclass in pragmatic product management for leaders who want to scale both impact and clarity.",
+  "zh": "在这期对话中，Gibson 结合在 Netflix 和 Chegg 制定战略的经验，分享了关于产品领导力、以及如何打造有说服力的产品愿景的持久经验。他区分了“产品战略”与“产品文化”，讲解了如何对功能做出明智的押注，以及为何聚焦客户价值与清晰的路线图，比追逐每一个新点子更重要。这期节目是关于务实产品管理的公开课，献给想要同时放大影响力和清晰度的领导者。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "ts": "00:04",
+   "en": "Gibson Biddle, whose name is really fun to say, by the way, has directly taught and worked with more PMs than only a handful of other people in the world. Before going full time on teaching, he was VP of product at Netflix and at Chegg, and has written what is almost surely the most popular Medium post on product strategy.",
+   "zh": "吉布森·比德尔（Gibson Biddle）——顺便说一句，他的名字读起来特别顺口——直接指导和合作过的产品经理数量，在全球范围内屈指可数。在全职从事教学工作之前，他曾先后担任Netflix和Chegg的副总裁产品负责人，还撰写了Medium平台上迄今为止最受欢迎的产品策略文章。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "00:21",
+   "en": "In our chat, we learned about Gibson's very popular product strategy and prioritization framework, and we go through a bunch of real life case studies from his time in Netflix to see how they apply in the real world. I love how Gibson comes up with such clear and memorable frameworks, which help demystify the vagueness that surround strategy and prioritization. We're really lucky to have Gibson share these with us, and I hope you enjoy it.",
+   "zh": "在我们的对话中，我们了解了吉布森极具影响力的产品策略与优先级框架，并通过他在Netflix工作期间的多个真实案例研究，探讨了这些方法在现实场景中的应用。我特别欣赏吉布森能构建出如此清晰易记的框架，它们有效化解了战略与优先级制定过程中的模糊不清。能邀请吉布森与我们分享这些宝贵经验，我们深感荣幸，希望大家能从中收获真知灼见。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "00:45",
+   "en": "This episode is brought to you by Flat File. Think the last time imported a spreadsheet. Did it work the first time? Chances are it did not. You probably got some weird error, had to try a bunch of things like removing the blank title rows above your column headers, or Googling how to save with UTF-8 encoding. What even is UTF? Who cares? You're just trying to get your file where it needs to go so you can do your actual job.",
+   "zh": "本期节目由Flat File赞助。回想一下你上次导入电子表格的经历。第一次成功了吗？很可能没有。你大概遇到了各种奇怪的错误，比如删除列标题上方的空白标题行，或者在谷歌上搜索如何用UTF-8编码保存文件。UTF-8编码到底是什么？谁在乎呢？你只想把文件准确导入到需要的位置，这样才能继续开展本职工作。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "01:07",
+   "en": "Your customers run into the same issues when it matters most, right after signing up for your product. Enter Flat File. Flat File is the data onboarding platform built to take the acute pain out of importing customer data into your product so they can see the magic that you promised them. Flat File is SOC type one and two certified, GDPR compliant, and even HIPAA compliant, ensuring your customers, no matter where in the world they're located, are sharing their data securely and in compliance every step of the way. No more emailing files back and forth. No more help articles that just don't land. Just clean data on day one, when it matters most. Get started importing millions of rows of customer data in minutes at FlatFile.com/Lenny.",
+   "zh": "您的客户在最关键的时刻——刚注册您的产品后——往往会遇到同样的问题。Flat File应运而生。这款数据导入平台专为解决将客户数据导入产品时遇到的难题而设计，让客户能亲眼见证您承诺的魔法体验。Flat File通过了SOC 1和SOC 2认证，符合GDPR标准，甚至符合HIPAA法规，确保全球各地的客户都能安全、合规地共享数据。无需再来回邮件传输文件，也无需看那些根本无法被用户理解的帮助文档。只需在最关键的时刻——第一天——就能获取准确无误的数据。立即访问FlatFile.com/Lenny，几分钟内即可轻松导入数百万行客户数据。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "01:50",
+   "en": "This episode is brought to you by Coda. Coda is an all in one doc that combines the best of documents, spreadsheets, and apps in one place. I actually use Coda every single day. It's my home base for organizing my newsletter writing. It's where I plan my content calendar, capture my research, and write the first drafts of each and every post. It's also where I curate my private knowledge repository for paid newsletter subscribers, and it's also how I manage the workflow for this very podcast.",
+   "zh": "本期节目由Coda赞助呈现。Coda是一款集文档、电子表格和应用程序于一体的全能工具。我每天都会使用它，它是我的新闻通讯写作组织中心。在这里，我规划内容日程、收集研究资料、撰写每篇文章的初稿。它还是我为付费订阅用户整理私人知识库的平台，同时也用于管理本播客的工作流程。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "02:15",
+   "en": "Over the years I've seen Coda evolve from being a tool that makes teams more productive to one that also helps bring the best practices across the tech industry to life, with an incredibly rich collection of templates and guides in the Coda doc gallery, including resources for many guests on this podcast, including Shreyas, Gokul, and Shishir, the CEO of Coda. Some of the best teams out there, like Pinterest, Spotify, Square and Uber, use Koda to run effectively and have published their templates for anyone to use.",
+   "zh": "这些年来，我见证了Coda从一个提升团队生产力的工具，逐渐发展为一个将科技行业最佳实践落地实施的平台。Coda文档库中汇集了海量模板与指南，其中不乏本播客多位嘉宾（如Shreyas、Gokul，以及Coda首席执行官Shishir）的相关资源。Pinterest、Spotify、Square和Uber等行业标杆团队也都在依赖Coda高效运作，并将其模板公开发布，供全世界开发者借鉴。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "02:43",
+   "en": "If you're ping ponging between lots of documents and spreadsheets, make your life better and start using Coda. You can take advantage of a special limited time offer just for startups. Head over to Coda.io/Lenny to sign up and get a thousand dollar credit on your first statement. That's C-O-D-A.io/Lenny to sign up and get a thousand dollars in credit on your account.",
+   "zh": "如果你总在大量文档和电子表格之间来回切换，不妨试试Coda，让生活更高效。目前正为初创企业提供限时优惠，赶快前往Coda.io/Lenny注册，即可在首次结算时获得1000美元的信用额度。就是C-O-D-A.io/Lenny，注册即可在账户中获得1000美元的信用额度。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:14",
+   "en": "Gibson, I am so excited to be doing this. We've collaborated on some writing. We've done a couple of fireside chats together, but we've never really dug deep into anything, and so I'm really excited for this opportunity to chat. So, welcome.",
+   "zh": "吉布森，我很兴奋能参与这次对话。我们曾合作过一些写作项目，也一起做过几次炉边谈话，但从未真正深入探讨过某个话题。所以，我对这次交流的机会倍感期待。欢迎你的到来。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "03:27",
+   "en": "Great, Lenny. Thanks for having me. It's fun to virtually be in the same place at the same time. Someday we'll do that in person.",
+   "zh": "太棒了，莱尼。谢谢你邀请我。能在虚拟空间里相聚真是太有趣了。总有一天我们会当面相聚的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:35",
+   "en": "Oh man, I can't wait. For folks that aren't that familiar with you, could you just share a very brief overview of your journey through product?",
+   "zh": "天哪，我都等不及了。对于那些不太熟悉你的人，你能否简单介绍一下你在这条产品路线上的发展历程呢？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "03:43",
+   "en": "It's hard, because I'm older than dirt, to be very brief, but I'll give my best shot. The intro was, I discovered I loved teaching early. I ran a sailing school, took a year off from college. That was my first startup. And then, the three chapters of my life. The first one was in marketing, so I actually started in the mail room at an ad agency, and then went into account services and created a service that helped name new companies and products, like if you're in the Bay Area, the Versatel, or the Versateller, it's a Bank of America name.",
+   "zh": "这很难办，因为我年纪实在太大了，很难长话短说，但我还是尽力而为吧。开场白是，我很早就发现自己热爱教学。当时我经营了一家帆船学校，还从大学休学了一年。这是我人生中的第一家创业公司。接下来是人生的三个阶段。第一个阶段是从事市场营销工作，我最初在一家广告公司的收发室工作，后来转入客户服务部门，开发了一项为新公司和新产品命名的服务项目。比如，如果你在湾区，可能会想到\"Versatel\"或\"Versateller\"这样的名字——这都是美国银行的品牌名。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "04:10",
+   "en": "I've always been so curious about that industry, but that's a discussion for another time.",
+   "zh": "我一直对那个行业很好奇，但这得留到下次再聊了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "04:14",
+   "en": "Oh yeah, well, we can come around to that. But at the end of the day, it's all about packaging and positioning and branding. And so, I was curious about that. I got good at it. And then, I lived in Silicon Valley, and I wanted to go into tech, and so I decided to go back to business school, and I went back to Tuck, which is at Dartmouth. It's the only ski... it's the only business school that has its own ski area, which is why I went there. It's in Hanover, New Hampshire.",
+   "zh": "哦，对啊，说到这儿，我们可以再深入探讨一下。但归根结底，一切都关乎包装、定位和品牌塑造。所以我对此很感兴趣，后来在这方面变得很在行。我曾在硅谷生活过，渴望投身科技领域，于是决定重返商学院深造，最终选择了达特茅斯学院塔克商学院。这是唯一一所拥有专属滑雪场的商学院，这也是我选择它的原因。学校位于新罕布什尔州的汉诺威市。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "04:35",
+   "en": "Okay, that feels like a product market fit for Gibson.",
+   "zh": "好吧，这感觉像是吉布森产品与市场需求的完美契合。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "04:37",
+   "en": "Exactly. And then, after the school, this is the tech journey, I joined Electronic Arts. Punk kid in the right place at the right time. I joined in marketing, and then I switched over to product. It was a great place to learn product. They called it Producer College. I learned a ton, and my first startup was actually a joint venture between Electronic Arts and Disney. We created what's called EA Kits at the beginning, and that became Creative Wonders, and we sold that company to Mr. Wonderful from Shark Tank. He was the CEO of the Learning Company that made Reader Rabbit software and Oregon Trails. That dates me, because most of the listeners have probably played Oregon Trails as a kid.",
+   "zh": "没错。然后毕业后，我开启了科技之旅，加入了艺电（Electronic Arts）。这位\"叛逆少年\"在对的时间出现在了对的地方。我最初从事市场营销工作，后来转入产品部门。艺电的产品学院项目为我提供了绝佳的学习机会。我在那里收获满满，而我的第一家创业公司实际上是艺电与迪士尼的合资企业。我们最初开发了名为\"EA Kits\"的软件，后来将其改名为\"Creative Wonders\"，并最终将公司出售给《创智赢家》节目中的温德尔先生。他曾担任制作教育软件《阅读兔》和《俄勒冈之路》的The Learning Company的CEO。这段经历暴露了我的年龄，因为大多数听众应该都玩过《俄勒冈之路》这款游戏。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "05:13",
+   "en": "Dying of dysentery. That's what I remember.",
+   "zh": "死于痢疾。这就是我记得的全部了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "05:15",
+   "en": "Yeah, yeah. And so, the product roles I grew up into, I call it a muckety muck, but a VP of product or a chief product officer. Joined Netflix in 2005. I left out some failed startups. That's important. It's important to let folks know I had some failed startups, but you can gloss over in the brief version. Netflix 2005, and then 2010 I went back to my heart, which is teaching. Chegg was a textbook rental and homework help company. It continues to exist. We took that public sort of 2014.",
+   "zh": "是啊，是啊。所以，我成长过程中担任的产品职位，我称之为\"高管\"，比如产品副总裁或首席产品官。我2005年加入了Netflix。之前有过几次创业失败的经历，不过这部分我没提。这很重要——让大家知道我曾有过创业失败的经历，但简短版本里可以一带而过。2005年加入Netflix后，2010年我重返自己热爱的事业——教学。Chegg是一家教材租赁和作业辅导公司，现在依然在运营。我们在2014年左右让这家公司上市了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "05:44",
+   "en": "And then, last five years I stopped direct deposit, and I'm really back to the coda in my career. I'm back to teaching, which I really love to do. So I do talks, workshops all over the world. I do more writing, which really saves my voice, and then experiment with different ways to really try to be helpful to product leaders around the world.",
+   "zh": "然后，过去五年我停止了直接存款业务，职业生涯也真正步入了尾声。我重新回到了教学岗位，这份工作让我乐在其中。所以我会到世界各地举办讲座和研讨会，多写文章来保护嗓子健康，同时不断尝试用各种新方法，为全球的产品负责人提供帮助。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "06:02",
+   "en": "Awesome. We're going to be spending time digging into some of that stuff. Did you describe this point in your career as stopping direct deposit?",
+   "zh": "太棒了。我们接下来要深入探讨其中的一些内容。你有没有提到过，在你的职业生涯中，有一次暂停了直接存款服务？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "06:08",
+   "en": "I did.",
+   "zh": "是的，我做了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "06:09",
+   "en": "That's amazing. Wow. I've never heard it that way.",
+   "zh": "太不可思议了。哇哦。我从没听过这种说法。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "06:14",
+   "en": "At least you understood that.",
+   "zh": "至少你明白了这一点。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "06:15",
+   "en": "I totally get that. Amazing. So, a question I ask folks in your line of work especially is, how many PMs would you say you've helped train, free workshops and advising and online courses, and anything else you've done?",
+   "zh": "我完全理解这一点。太棒了。那么，我想问问从事你这行的朋友们，尤其是：通过免费研讨会、咨询服务、在线课程以及其他方式，你们帮助培训过多少产品经理呢？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "06:28",
+   "en": "I thought it was going to be a, how many PMs does it take to screw in a light bulb? I thought it was going to be a joke. Yeah, yeah. Okay, my SWAG. SWAG is a stupid wild-ass guess, important idea. So, my guess is, in real life I've worked with product leaders where I was in the building with them. It would be like 500 to 1000. When I would manage an organization, there might be 200 or 300 people in it. So, that's in real life.",
+   "zh": "我原本以为这会是个玩笑——换个灯泡需要多少条私信？我以为这会是个笑话。是啊，是啊。好吧，我随便猜猜。SWAG（愚蠢的疯狂猜测）是个重要的概念。那么，我猜在现实生活中，我曾与产品负责人共事过，当时我们都在同一栋楼里工作。换灯泡可能需要500到1000条私信。而当我管理一个团队时，团队规模通常在200到300人之间。这才是现实生活中的情况。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "06:53",
+   "en": "The next one would be via talks, workshops, newsletter. That's probably, I kind of can SWAG my way into that. Probably 50 to 100,000 a year. The reason I sort of know, I'm a feedback freak, so there's a Survey Monkey at the end of everything I do. So for instance, every morning I wake up, it's always feedback for the same talk. I did a Branding for Builders talk for Product School and there'll be like 10 surveys. I've got like 6,000 surveys for that. They're all watching and recording. My guess is, that means like 60,000 people have watched that one video, for instance.",
+   "zh": "接下来可以通过演讲、研讨会、新闻通讯等方式来实现。这方面我或许能凭借自己的社交能力轻松胜任。年收入大概在5万到10万美元之间。我之所以对此比较了解，是因为我对反馈格外敏感——每次完成工作后都会进行Survey Monkey调查。比如每天早上醒来，我总会收到关于同一场演讲的反馈。我曾为Product School举办过一场“建筑师品牌塑造”讲座，结束后就收到了约10份调查问卷，累计收到6000份反馈。这些数据表明，单个视频的观看量可能高达6万人次。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "07:26",
+   "en": "Anyways, and then lifetime, it's probably getting into 500,000 to a million. So, that's my SWAG. I could be 2X wrong on either side.",
+   "zh": "总之，考虑到终身寿命，数字很可能在50万到100万之间。这只是我个人的大致估算，实际数字可能上下浮动20%。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:34",
+   "en": "Okay, a million, potentially.",
+   "zh": "好的，可能有一百万吧。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "07:36",
+   "en": "Well, your number's bigger. You could just go off of, what, 115,000 subscribers your newsletter?",
+   "zh": "嗯，你的数字更大啊。你可以参考你通讯订阅者的数量啊，差不多有115,000人吧？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:43",
+   "en": "Yeah.",
+   "zh": "是啊。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "07:44",
+   "en": "You're getting to a billion, Lenny. You're going to get to the next level. 500 million to a billion.",
+   "zh": "伦尼，你的用户量要突破十亿大关了。你即将迎来新一轮的发展机遇，从5亿用户迈向十亿用户。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:49",
+   "en": "I feel like the level that you've helped PMs is at a deeper level for most of the folks, especially the courses you've done and things like that. So, it's a little hard to compare. But anyway, that's really impressive, and I feel like when I ask people this question, I feel like this is going to be a high bar to meet.",
+   "zh": "我觉得你对产品经理的帮助，对大多数人来说都是更深层次的，尤其是你参加过的那些课程之类的。所以，很难直接比较。但无论如何，这真的很了不起。我觉得当我问别人这个问题时，大家都会觉得这是一个很难达到的高标准。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "08:04",
+   "en": "So, I'm excited to dig into a lot of the stuff that you've learned along this journey. Maybe the area you spend most of your time on is helping PMs build their product strategy, muscle through your workshops, and you have these legendary Medium posts about product strategy. So, I'd love to spend the majority of our time talking through just helping people build this muscle. And maybe just start, you have this really simple model for describing what product strategy should be for companies: to delight customers in hard to copy margin enhancing ways. So, there's kind of these three parts, customers, hard to copy, margin enhancing. I'd love to just kind of hear your take on each of these three parts, how you came up with this, and then maybe a story or two of how you relied on this and used this at Netflix.",
+   "zh": "好的，我很期待深入探讨你在这段历程中所学到的诸多内容。或许你大部分时间都在帮助产品经理制定产品策略、顺利完成研讨会，并且你在Medium上发布了关于产品策略的经典文章。因此，我希望我们能把大部分时间花在帮助人们提升这方面的能力上。首先，你有一个非常简单的模型，用来描述公司应如何制定产品策略：以难以复制、提升利润的方式取悦客户。模型包含三个关键要素——客户、难以复制、提升利润。我很想听听你对这三个要素的理解，如何想到这个模型，以及你如何在Netflix应用这个模型并取得成效的故事。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "08:42",
+   "en": "Sure. You got the model right. And I mean, the short answer is, I definitely learned it from Reed Hastings when I started at Netflix. Actually, he did a reference check to a friend of mine, checking up on me, and the only question he asked my pal, whose name is John Daz, was, \"Hey, John, is Gib ready? Can Gib delight customers?\" That was the only question he asked in the reference check.",
+   "zh": "好的，你说对了。简单来说，我是在加入Netflix时从里德·黑斯廷斯那里学到这一点的。实际上，里德当时对我的朋友约翰·达兹进行了背景调查，询问他：“嘿，约翰，吉布准备好了吗？他能让客户满意吗？”这就是他在背景调查中唯一问到的问题。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "09:05",
+   "en": "Luckily, I built really delightful kids software. Back then, people were talking about satisfying customers, listening carefully, understanding them, et cetera. And the delight, it just said, no, no, no. The job is to delight customers. Like Peter Thiel, his book, From Zero to One. The job of an entrepreneur at the beginning is just to find out something that's 10X better. Delight is trying to work in that magnitude.",
+   "zh": "幸运的是，我开发了非常受孩子们欢迎的软件。当时人们都在谈论如何满足客户需求、认真倾听、理解他们的需求等等。但我觉得这些方法都行不通。关键在于如何真正让客户感到惊喜和愉悦。正如彼得·泰尔在《从0到1》一书中所言，创业者的首要任务就是找到比现有产品强十倍的创新点。创造惊喜，就是要朝着这个目标努力。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "09:28",
+   "en": "The hard to copy part, definitely I learned that. I had a product leader who worked for me, his name was HB Mock. He was focused on the non-member page. That's where people sign up for. They put in their email, their credit card, they would get a free trial. He'd looked like crap, like everything at startups sucks at the beginning, but he put a happy family on the couch on this screen, and that's where you put in your email. And that got a lot more people engaged. And so, it delighted customers, but it was helping to build the business, because more folks were setting up for a free trial.",
+   "zh": "那个难以模仿的部分，我确实学到了。我曾手下有个产品负责人，叫HB Mock。他主要负责非会员页面——就是用户注册的入口。用户需要输入邮箱和信用卡信息才能获得免费试用。起初页面设计得非常糟糕，毕竟创业公司初期阶段总免不了各种问题。但他在注册页面设计了一个温馨的家庭场景，画面中一家人坐在沙发上输入邮箱。这不仅提升了用户体验，还吸引了更多人注册免费试用，真正实现了客户满意和业务增长的双赢。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "09:58",
+   "en": "I'm like, that's great HB, but I'll bet my paycheck that within a week, Blockbuster's going to put a happy family on their couch, too. And this is the problem of doing things that are easy to copy. So in the long term, if you can delight customers and create hard to copy advantage, things are just a lot better.",
+   "zh": "我当时就想，HB，这确实很棒，但我敢用一个月的薪水打赌，Blockbuster也会在一周内把幸福家庭的画面搬上他们的沙发广告。这就是做容易被模仿的事业所面临的困境。从长远来看，如果你能真正打动客户，创造出难以被复制的竞争优势，事情就会好得多了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "10:17",
+   "en": "And so the last phrase, margin enhancement, that's just a fancy phrase for making money. Margin technically would mean profit. I just gave you example with that non-member page, with the happy family on the couch. It delights folks, it helps build a better business, but in that case, Blockbuster was able to copy it.",
+   "zh": "最后那句话，\"提升利润空间\"，不过是赚钱的花哨说法。从技术层面讲，\"利润空间\"本质上指的是利润。我刚刚给你们举了个例子，就是那个非会员页面，上面有坐在沙发上的幸福家庭。这能让用户满意，有助于提升业务水平，但在那样的情况下，百视达（Blockbuster）却能够模仿并复制这种创意。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "10:37",
+   "en": "So, that's the model. The hardest part in that model is, how do you balance delight versus margin? So if Netflix said, hey, everybody, you're paying $20 bucks a day, but you're going to get exactly the same service tomorrow for $5 bucks a month, you'd be just like, this is fricking awesome. You'd be really delighted. But Netflix would not, the business wouldn't work.",
+   "zh": "好的，这就是那个模型。在这个模型中，最难的部分在于如何平衡用户体验和利润。假设Netflix对用户说：\"大家好，你们现在每天支付20美元，但从明天起，每月只需5美元就能享受完全相同的服务。\"用户可能会觉得这简直太棒了，会非常兴奋。但Netflix这样做的话，业务根本就行不通。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "10:56",
+   "en": "So, one of the first places we sort of experiment on how to evaluate trade offs between delight and margin, in the old days, Netflix was a DVD by mail company, and if you ask customers what they wanted, then they all said the same thing. I want my new release DVDs faster, right? Back then, most customers would have to wait a week or two or four weeks. Back then, a movie came out in the theater, two months later it came out on DVD. We just couldn't afford to buy for that initial demand. So, the way it worked was, some people got it the next day in the mail, and some people had to wait two months.",
+   "zh": "因此，我们最初在评估娱乐体验与利润之间的权衡时，首先进行了一系列实验。回想当年，Netflix还是一家邮寄DVD的公司。当你询问用户的需求时，他们都会给出同样的回答：\"我希望能更快收到新发行的DVD。\"那时，大多数用户往往要等上一两周甚至四周才能收到影片。影片在影院上映后，通常要等两个月才能发行DVD版本。而我们当时根本无力满足用户对即时满足的需求。因此，公司的运作模式是这样的。有些用户能在次日就收到DVD，而另一些用户则需要等待整整两个月。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "11:31",
+   "en": "And so, the A/B test we set up, we said, okay, everybody says they want this, in focus groups and qualitative and surveys. Well, let's A/B test and see what we really learn. So, the AB test was called the Perfect New Release Test. Imagine we're at about a million customers circa 2005. 10,000 peeps are in a test cell. They get their new release DVD the next day in the mail. Awesome, right? And the control gets it whenever. Let's say, average maybe two weeks later.",
+   "zh": "于是，我们开展了A/B测试。用户在焦点小组、定性调研和问卷调查中都表示对某项功能有需求，但我们想通过A/B测试来验证实际效果。这个测试被命名为“完美新品发布测试”。想象一下，2005年左右我们拥有约一百万名客户。1万名用户被纳入测试组，他们次日就能收到新版DVD。太棒了，对吧？而对照组则在平均两周后才收到产品。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "12:01",
+   "en": "And so, the way we measure delight in this A/B test is, will you improve retention for the folks that are getting their DVD the next day in the mail? That's how we measured, it was retention. When Netflix started, it was like 10% canceled every month. 2005, it was about four and a half percent canceled every month. Today it's about 2% cancel every month. So, I'll just put it back to you. Do you think, when we looked at the AB test results... By the way, you can't get this wrong, Lenny, so just relax.",
+   "zh": "因此，在这项A/B测试中，我们衡量用户满意度的方式是，观察那些次日就能收到邮寄DVD的用户，其留存率是否会提升。这就是我们的衡量标准——关注用户的留存率。Netflix刚上线时，每月有10%的用户会取消订阅；2005年，这一比例降至4.5%；而如今，月均取消率仅为2%。所以，我想再问问你们：当我们看到A/B测试的结果时，你们觉得……顺便说一句，莱尼，你可别出错啊，所以放松点就好。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "12:35",
+   "en": "Excellent.",
+   "zh": "太棒了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "12:35",
+   "en": "Do you think the Perfect New Release Experience improved retention?",
+   "zh": "你认为“完美新品发布体验”提升了用户留存率吗？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "12:40",
+   "en": "My guess is, because you're telling this story, it's going to be a surprise, and I would guess that it did not.",
+   "zh": "我猜，因为你要讲这个故事，所以它肯定会带来惊喜，但我觉得实际情况可能并非如此。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "12:45",
+   "en": "Okay, so your guess is we won't see an improvement in retention. And I'm guessing people listening to us right now, there's going to be some folks that, oh, shit, yes, that's what everybody's asking for. Of course we should deliver it to them, right? Well, in this case, both right, right? We saw a very small change in retention. That was the surprise. And so, it went from something like 4.5% canceled in the control. It was 4.45. Very small change. We can measure it.",
+   "zh": "好的，你猜我们不会看到用户留存率有所提升。我猜现在听我们讲话的人当中，会有一些人会感叹：“天哪，果然啊，这正是大家期待的啊！我们当然应该满足他们的需求，对吧？” 嗯，在这种情况下，大家的想法都对，对吧？不过我们确实看到用户留存率有微小的变化。这确实令人惊讶。具体来说，对照组的用户取消订阅率从4.5%降到了4.45%。变化非常细微，但我们可以量化到这种程度。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "13:13",
+   "en": "And so, now you get in the math of delight versus margin. If you push this out to all million customers, you would essentially save 5,000 customers. And so, what's the value in saving 5,000 customers? The way we valued it, we said, well we've got 5,000 customers. The lifetime value of a customer then was a hundred bucks. And then we multiplied it by two, which is our word of mouth factor. So our theory was, if you loved it, Lenny, you'd tell your friends about it, you'd rave about it, and you'd bring in one other customer for free into Netflix. And so, we used this 2X word of mouth factor. And so if you do that math, it was worth about a million bucks to us as a company.",
+   "zh": "于是，现在你要考虑快乐体验与利润率之间的权衡了。如果你将这项服务推广至所有一百万名客户，实际上就能挽留5,000名客户。那么，挽留5,000名客户的价值有多大呢？我们估算时假设每位客户的终身价值为100美元，再乘以2（即口碑传播系数）。我们的理论是，如果你喜欢Netflix，伦尼，你会向朋友推荐它，热情宣传它，并免费为Netflix带来一位新用户。因此，我们采用了2倍的口碑传播系数。这样算下来，对我们公司而言，这笔交易的价值约为100万美元。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "13:52",
+   "en": "So now you get into, okay, what's the cost of that additional inventory? And the answer was $5 million bucks. So on one hand, you're bringing in a million bucks of value by retaining more customers, but you're spending $5 million more, so it doesn't seem to make sense.",
+   "zh": "接下来要考虑的是，额外库存的成本是多少？答案是500万美元。这样看来，虽然通过留住更多客户能创造100万美元的价值，但同时又要多花500万美元，这似乎有些得不偿失。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "14:06",
+   "en": "Okay, so easy question. I don't overthink this one, Lenny. Would you roll this out to all customers?",
+   "zh": "好的，这问题挺简单的。我不会想太多的，伦尼。你能把这个推广给所有客户吗？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:10",
+   "en": "I would not.",
+   "zh": "我不会的。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "14:11",
+   "en": "You would not. Okay. Can you help build an argument for somebody who would choose to roll it out?",
+   "zh": "你不会的。好的。你能帮我为那些选择推行这项政策的人构思一个论据吗？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:17",
+   "en": "Oh, no. Give me the hint. I'll take it.",
+   "zh": "哦，不行。给我个提示吧。我接受了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "14:18",
+   "en": "The hint was, there was an assumption in my formula. I said 5,000 customers times $100 bucks lifetime value, times a 2X word of mouth. So the argument for why somebody might do it, they disagree with the 2X word of mouth, and what the algorithm is.",
+   "zh": "提示是，我的公式中存在一个假设。我当时说的是5000名客户乘以100美元的终身价值，再乘以2倍的口碑传播效应。所以有人可能反驳的理由是，他们不认同2倍的口碑传播效应，以及算法的具体运作原理。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:33",
+   "en": "Yeah, I see where this is going. Basically, the experience is so much better that word of mouth increases. It's so delightful.",
+   "zh": "是啊，我明白你的意思了。说白了，用户体验好得多，口碑自然就会传播开来。真是太棒了！"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "14:38",
+   "en": "Yeah. Amazon would use a 10X, right? And so, sort of a wash there. You'd probably lean forward and do it. We actually worked hard to try to isolate what that word of mouth factor was. It was really frustrating. And then, the reality was, Barry McCarthy was the CFO. He was apoplectic about the idea of using a 2X, because it means you'll invest more in building a better product. If you let the product team use 10x, Barry's like, \"We don't have the money. We don't have the money to spend $5 million on DVDs.\"",
+   "zh": "是啊。如果亚马逊用10倍杠杆，那对我们来说应该没差别吧？不过可能还是得冒险一试。我们当时费了好大劲想搞清楚口碑效应到底有多大，但进展缓慢。最后，首席财务官巴里·麦卡锡坚决反对用2倍杠杆，因为那意味着要投入更多资金去打造更好的产品。他直言不讳地说：“我们没钱！我们没钱拿500万美元去买DVD光盘。”"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "15:03",
+   "en": "Anyways, this is where we sort of refined our thinking about the model of delighting customers in hard to copy, margin enhancing ways. Pop quiz, I know the answer, Lenny, but want everybody else thinking about it. What makes Netflix hard to copy?",
+   "zh": "总之，在这里我们进一步完善了我们的思路，思考如何以难以被模仿、利润提升的方式来取悦客户。来个小测验吧——莱尼，我知道答案，但想让其他人也思考一下。Netflix 到底为什么难以被模仿呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:18",
+   "en": "The licensing deals and content that they're creating.",
+   "zh": "他们签订的授权协议以及创作的内容。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "15:22",
+   "en": "Original content, yeah. Keep going.",
+   "zh": "原创内容啊，是啊，再接再厉吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:24",
+   "en": "Their brand that they've built over time.",
+   "zh": "他们历经岁月打造的品牌形象。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "15:26",
+   "en": "You trust them with their credit card every month for $20 bucks, right?",
+   "zh": "你每个月都会把信用卡交给他们，让他们代你消费20美元，对吧？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:28",
+   "en": "Oh, absolutely. I think I've been a customer for five years.",
+   "zh": "哦，当然了。我觉得我已经是这里的客户五年了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "15:31",
+   "en": "Yeah, yeah. What else makes them hard to copy?",
+   "zh": "是啊，是啊。还有什么原因让它们难以被模仿呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:34",
+   "en": "I imagine, their tech that used to be the ranking algorithm recommendation engine.",
+   "zh": "我猜，他们的技术曾用于排名算法和推荐引擎。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "15:37",
+   "en": "Yeah, so there's unique technology. Personalization is a great example. You just brought that up. There's only one other idea that I think is... Well, there's probably be two others for Netflix. So keep going, dig deep.",
+   "zh": "是啊，所以这里面有独特的技术。个性化就是一个很好的例子，你刚刚提到了这一点。还有另外一个点子，我觉得……嗯，Netflix可能还有两个其他的点子。所以继续深挖下去吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:48",
+   "en": "Maybe, I don't know if this is an answer you're thinking, but just the talent they've built up over time is probably something.",
+   "zh": "或许吧，我不知道你是否期待这样的回答，但他们多年来积累的才华或许本身就足够令人钦佩。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "15:53",
+   "en": "That's really interesting. People go to culture, and then I sort of specify, what makes the Netflix product hard to copy? So, I won't allow that one.",
+   "zh": "真有意思。人们会谈论文化，然后我再具体问一下，为什么Netflix的产品很难被模仿？所以，我不打算讨论这个问题了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:01",
+   "en": "Oh, man.",
+   "zh": "天哪，真倒霉！"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "16:02",
+   "en": "Okay, keep going.",
+   "zh": "好的，继续吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:03",
+   "en": "What makes Netflix hard to copy?",
+   "zh": "是什么让Netflix难以被模仿？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "16:05",
+   "en": "I'll give you one clue.",
+   "zh": "我会给你一个提示。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:06",
+   "en": "Okay.",
+   "zh": "好的。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "16:06",
+   "en": "What made Facebook wicked hard to copy?",
+   "zh": "是什么让Facebook如此难以被模仿？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:08",
+   "en": "Their network effects and growth loops.",
+   "zh": "他们的网络效应和增长循环。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "16:12",
+   "en": "Yeah, yeah. We actually tried to experiment with friends and social, getting movie ideas from your friends. The idea is, your friends were on the network, you wouldn't want to leave. And you'd also get great movie ideas. By the way, that was a failed hypothesis.",
+   "zh": "是啊，是啊。我们之前确实尝试过和朋友们一起玩社交功能，从朋友那里获取电影推荐的灵感。我们当时设想的是，当你的朋友们都在社交平台上活跃时，你就不想离开这个平台了。而且还能获得很棒的电影推荐灵感。不过说实话，这个假设最终还是失败了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:25",
+   "en": "Right, I was just going to say, I remember that did not work out. I don't see it anywhere.",
+   "zh": "好的，我正想说呢，我记得那次没成功。我到处都找不到它。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "16:28",
+   "en": "Yeah. It did not work out. Yeah, I guess we could make an argument today, every screen in the world is magically prewired so you can watch Netflix anytime, anywhere. There's sort of a kind of flywheel or network effect at work. But anyways, that's great. So, that's just a model. But I have found that model to be helpful in my thinking a bunch of times.",
+   "zh": "是啊，最终还是没能成功。是啊，我想我们今天可以这么说——全球每一块屏幕都被神奇地预先布线了，所以你随时随地都能观看奈飞（Netflix）。这背后其实有一种飞轮效应或网络效应在起作用。不过没关系，这确实很棒。说到这，这只是个模型。但我发现，这个模型在我的思考过程中多次发挥了作用。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:44",
+   "en": "There's a couple things I wanted to follow up on there, because there's a lot there. One is this idea of testing the ideal almost, and kind of working backwards from that. That's something I always find found really helpful. Is that something that you espouse and find to be really powerful?",
+   "zh": "关于之前提到的内容，我还有几个地方想进一步探讨一下，因为内容确实很多。其中一个观点是，几乎先设定理想状态，再由此倒推解决方案。我发现这种方法特别有用，不知道你们是否认同这种理念，并且认为它确实很有效？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "16:58",
+   "en": "Honestly, I think of these product strategies as these high level theories, these hypotheses about how you will delight customers in hard to copy, margin enhancing ways. I just gave a failed hypothesis, the social one. You actually brought up a winning hypothesis. Personalization delights customers, because it makes it easier to find movies you'll love. It's hard to copy. Netflix sort of knows the movie tastes of a billion people worldwide. That's 222 members times about five profiles per. And then the margin, this is an interesting one.",
+   "zh": "老实说，我把这些产品策略看作是高层次的理论，是关于如何以难以复制、能提升利润的方式取悦客户的假设。我刚刚提到了一个失败的假设——社交化策略。而你提到的个性化策略却是个成功的例子。个性化能让用户更容易找到自己喜欢的电影，而且这种差异化很难被模仿。Netflix 能了解全球数十亿用户的电影偏好——222万会员乘以每人平均创建的5个观影档案。至于利润层面，这部分的考量就更有趣了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "17:27",
+   "en": "When Netflix is making an investment in a TV show or movie, they kind of can guess how many people will watch it. So, they guessed that 100 million people would watch Stranger Things, so they were willing to invest $500 million. They guessed that 20 million people would watch BoJack Horseman, I'm a freak, so they're willing to make $100 million. I call that right sizing the investment, but that's how personalization helps Netflix to build margin, or to build a better business.",
+   "zh": "每当奈飞投资一部电视剧或电影时，他们大致能预估会有多少观众观看。因此，他们曾预计《怪奇物语》能吸引1亿观众，因此愿意投入5亿美元资金；而对于《马男波杰克》，他们预计仅有2000万观众，故仅拨款1亿美元。我认为这正是合理配置投资资源的明智之举，而个性化服务恰恰助力奈飞实现利润增长，打造更优质的商业生态。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "17:54",
+   "en": "Anyways, back to your original question. I mainly was just trying to find these high level theories and hypotheses that I hoped would delight in hard to copy, margin enhancing ways. The reality was, we'd have 10 ideas and probably six of them would fail, but a lot of value in the three or the four that worked.",
+   "zh": "总之，回到你最初的问题。我主要是在寻找那些高水平的理论和假设，希望能以难以复制、能提升利润的方式让客户满意。但现实情况是，我们会提出10个想法，其中可能有6个会失败，但成功的三四个想法却能创造巨大价值。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "18:10",
+   "en": "When we went to TV based systems, we actually couldn't A/B test at first, so we were going back to qual and they were looking over people's shoulders, and focus groups, et cetera. But eventually, Netflix could A/B test what's a good experience on a TV based system. They have server based systems now where they can create different experiences for different folks. So I guess my short answer was, so hard to find these product strategies that worked. There was no notion of building a perfect experience of all these things together, so we just took it one theory at a time.",
+   "zh": "转向基于电视的系统时，我们最初实际上无法进行A/B测试，所以只能回归到用户测试阶段，让测试人员现场观察用户使用情况，还会组织焦点小组讨论等。但最终，Netflix成功实现了在电视系统上优化用户体验的A/B测试。他们现在采用服务器端系统，可以为不同用户创造差异化的体验。所以我的简短回答是，要找到有效的产品策略实在太难了。当时根本没有把所有元素整合起来打造完美体验的概念，所以我们只能一次只验证一个理论。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "18:40",
+   "en": "Got it. And then, on that concept of delight, I always wanted to ask you this question. I've never had a chance. For B2B, do you find this is also something companies should really prioritize and do? Because not a lot of B2B products are delightful, and a lot of them are still really successful. How do you think about that kind of framework in B2B?",
+   "zh": "明白了。那么，关于“愉悦感”这个概念，我一直想问您一个问题，但一直没机会。针对B2B领域，您认为这也是企业应该重点关注和践行的事情吗？毕竟很多B2B产品并不能给用户带来愉悦感，但它们依然取得了巨大成功。您如何看待B2B领域的这种框架呢？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "18:55",
+   "en": "Okay, first, I think that most all of the frameworks I use work for both consumer and B2B. Personally, I've spent my whole career on consumer. The thing about consumer is, you're sort of trying to catch lightning in a bottle, right? Where enterprise, you can actually walk into it a little bit more thoughtfully. You can always find your first customers, et cetera.",
+   "zh": "好的，首先，我认为我使用的大多数框架既适用于消费者市场，也适用于B2B市场。就我个人而言，我整个职业生涯都专注于消费者市场。消费者市场的情况是，你总是在试图抓住稍纵即逝的机会，对吧？而在企业市场，你可以更谨慎地布局。总之，你总能找到你的首批客户等等。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "19:15",
+   "en": "Anyways, I was thinking about what's different. For instance, one of the hard to copy advantages of B2B is switching costs, right? I didn't bring that up in the context of Netflix. It's wicked hard to cancel. It's wicked easy to cancel Netflix and restart Disney+, whatever you want to do.",
+   "zh": "总之，我一直在思考有什么不同之处。比如说，B2B模式中一个难以被复制的优势就是转换成本，对吧？我在讨论Netflix的时候可没提过这个。取消Netflix的订阅真是难上加难，但想换成Disney+或者其他平台却轻而易举——想怎么操作都行。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "19:29",
+   "en": "I was thinking about, I used to complain that the user interface for B2B software was horrible, and it's like, you've got to do better than this. And of course, at Netflix we proved that a simple, easy experience actually improves retention. So I would advocate, this is important, and they would explain to me all the basics. Hey, Gib. Actually, one of the basics surprised me. The people that are using our software are using it 10, 12, 14 hours a day. That's very different from a Netflix experience. And in fact, they want and need to engage in the complexity. There's stuff that they're trying to do that is really complex.",
+   "zh": "我之前一直在思考这个问题——我曾抱怨B2B软件的用户界面太糟糕，觉得必须得改进。当然，我们在Netflix证明了，简洁易用的体验实际上能提升用户留存率。所以我会强调这一点很重要，而他们也会给我讲解所有基础要点。嘿，吉布。说实话，其中一个基础要点让我很惊讶。那些使用我们软件的用户，每天要用10小时、12小时、14小时。这和Netflix的用户体验完全不同。事实上，他们渴望并需要应对复杂的操作——有些他们想完成的任务确实很复杂。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "20:07",
+   "en": "You can just think about our use of spreadsheets to build a cash flow statement. I'm highlighting some differences, but the model I think is still there. If you're starting a punk B2B SaaS company, I think at the end of the day, you're trying to find something that's 10X better than what's currently out there today, and then over time, your hard to copy advantage. It will be different from Netflix. It'll be different for every startup. But if you can delight your customers in these hard to copy ways, that also builds a business.",
+   "zh": "你可以想想我们用电子表格来制作现金流量表的例子。我指出的只是一些差异，但核心模式依然存在。如果你要创办一家朋克风格的B2B SaaS公司，我认为归根结底，你需要找到比现有市场产品好十倍的解决方案。随着时间推移，这将形成难以被模仿的竞争优势。这种模式会和Netflix不同，每个初创公司的情况也各不相同。但如果你能以这些难以被复制的方式让客户满意，这本身就能成就一番事业。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "20:36",
+   "en": "I mean, the reason you do that, you want to feel like you don't have to compete with peeps, really. You don't like it when you're always on guard about what your competitors should do. You sort of want to get to this place where you don't really care, and your sort of true North is okay, how can we best serve our customer? And that's what I really love about that particular model.",
+   "zh": "我的意思是，你之所以这么做，是因为你不想与他人竞争。说真的，你不喜欢总是提防竞争对手的举动。你希望能达到一种境界——无需过分在意竞争对手的动向，真正以客户需求为导向，专注于如何为客户提供最佳服务。这正是这种商业模式最令我着迷的地方。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "20:53",
+   "en": "Lenny, I would be very careful about anything I say about enterprise and B2B, because I've spent zero hours in this, okay? Now, you said half of my audience is in B2B and enterprise, and you hear a lot about the consumerization of enterprise software, and I think that's good. I think that's helpful and important.",
+   "zh": "伦尼，关于企业和B2B领域的任何言论，我都会格外谨慎，因为我在这方面毫无经验。好吧，你提到我的听众中有一半来自B2B和企业领域，而你也经常听到人们谈论企业软件的消费化趋势。我认为这确实是个积极的趋势，既有助于推动行业发展，也具有重要意义。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:13",
+   "en": "Awesome. That's a really helpful caveat for folks listening, that if you're building a B2B business, maybe don't follow all this advice to the letter. But I imagine there's still a lot you can pull out.",
+   "zh": "太棒了。对于听众们来说，这是一个非常有用的提醒——如果你正在打造一家B2B企业，或许不必完全照搬这些建议。但我相信，其中仍有很多值得借鉴的要点。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "21:21",
+   "en": "Well, honestly, it's so idiosyncratic. It's going to be different for each company, or each startup, or different stage. And that's why the tools, the models, the frameworks I use, they have to work generally, but then people have to apply their own good judgment.",
+   "zh": "老实说，这实在是太因人而异了。每个公司、每家初创企业，以及不同发展阶段的情况都会有所不同。因此，我所使用的工具、模型和框架固然需要具备通用性，但最终还是得由人们运用自己的判断力来灵活应用。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:33",
+   "en": "Sweet. Okay. What I'd love to do is get a little more concrete using this model, and go through a few examples of how you may have thought through problems you were tackling at Netflix through this lens, to kind of see how it actually works in practice. Does that sound good?",
+   "zh": "太好了。那接下来，我想基于这个模型讲得更具体些，举几个例子，看看你们在Netflix是如何运用这个思维框架来解决问题的，看看它在实际应用中到底是如何发挥作用的。这样可以吗？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "21:48",
+   "en": "That sounds like we're going to do some rapid fire mini cases.",
+   "zh": "听起来我们要快速处理一系列小型案件了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:50",
+   "en": "That's exactly right.",
+   "zh": "没错，就是这样。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "21:51",
+   "en": "And I'm going to put you in the hot seat, Lenny. You're the proxy for the listeners today.",
+   "zh": "接下来，我要让你当一回\"热点人物\"，伦尼。今天你要替听众们出出头了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:55",
+   "en": "All right. Just make sure they're easy questions.",
+   "zh": "好的。不过你得确保这些问题简单易答。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "21:58",
+   "en": "No matter what you say, I'll make you look smart.",
+   "zh": "无论你说什么，我都会让你看起来很聪明。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "22:01",
+   "en": "I like this. I just want that applied to all of life. Okay, so the first mini case study is something that I've seen a lot of people build, kind of hack together, is this idea of watching Netflix together with friends. I think one app is called Netflix Party. So the question there is, should Netflix launch a Netflix Party feature? Basically letting people watch Netflix together but in different places?",
+   "zh": "我喜欢这个想法。我只是希望它能适用于生活的方方面面。好的，第一个小型案例研究是关于我经常看到很多人自己动手开发的应用程序——和朋友一起看Netflix的功能。有一个应用叫Netflix Party。那么问题来了，Netflix是否应该推出\"Netflix Party\"功能呢？也就是说，让用户可以在不同地点同时观看同部Netflix影片？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "22:22",
+   "en": "Yeah, yeah. It's kind of a real case. A bunch of engineers at Patreon, six or seven of them, they actually enabled, if you're using Netflix, they let you connect with your friends on Netflix, watch the same TV show or movie at the same time, and chat with each other while you're watching it, trash talk each other or use emojis, what have you. They called it Netflix party. The Netflix lawyers noticed it, and so they renamed it Teleparty. It exists. You can use it across multiple games, across Disney and Netflix, whatever you want.",
+   "zh": "是啊，是啊。这还真是个真实案例。Patreon平台的几位工程师（六七个人吧），开发了一项功能——如果你在用Netflix，他们能让你和好友同时观看同一部剧集或电影，还能边看边聊天，互相调侃或者用表情包之类的。他们把这项功能叫做\"Netflix派对\"。结果Netflix的律师发现了这个功能，要求他们改名为\"Teleparty\"。现在这项功能确实存在，你可以在多个平台上使用，包括Disney、Netflix等，随心所欲地使用。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "22:52",
+   "en": "Okay, so the hypothesis is, Netflix should launch this idea for real, not just download the silver light, download the...",
+   "zh": "好的，那么假设是，Netflix应该真正推行这个想法，而不只是下载银光软件之类的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:01",
+   "en": "Chrome extension?",
+   "zh": "谷歌浏览器扩展程序？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "23:02",
+   "en": "Chrome extension. There you go.",
+   "zh": "谷歌浏览器扩展程序。就是这样啦。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:03",
+   "en": "Yeah, yeah, yeah. I think I've tried it, actually. It's pretty cool.",
+   "zh": "是啊，是啊，是啊。我觉得我试过了，其实还挺酷的。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "23:06",
+   "en": "Yeah. It's complicated, right? I mean, you and I are both freaks, so we can figure it out. So the idea is that we'll delight customers, because this sounds like fun, especially during COVID. We can have this connected experience when we're also disconnected. Hard to copy advantage. We're kind of building a network effect. You and I will be connected and watching on Netflix. We don't want to quit because we don't want to leave each other behind. And then, the margin. For Netflix, it's largely about will it improve retention? Netflix today, 2% are canceling. Netflix has just ticked away at it point by point. It's just, it's these kinds of things that create a little bit more value, that improve retention.",
+   "zh": "是啊。这确实挺复杂的，对吧？毕竟你我都是怪咖，所以我们总能找到解决办法。核心理念就是要让客户感到愉悦，因为这听起来挺有趣的，尤其是在新冠疫情期间。我们能在保持社交距离的同时创造这种互联体验。这是难以被复制的优势。我们正在打造一种网络效应——你我会相互连线，一起在Netflix上观看影片。我们不会轻易退订，因为不想让彼此掉队。再说到利润空间。Netflix如今最关键的问题在于能否提升用户留存率？目前Netflix的用户流失率仅为2%，但这一数据一直在缓慢攀升。正是这些细节能创造更多价值，提升用户忠诚度。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "23:45",
+   "en": "The way I think about this is, the way that addition of this feature would actually improve retention is if some reasonable number of customers actually used it. And so, what I look out for is, I don't like two percenters. So if you find an idea that only works for 2% of your customers, now you're creating complexity, one more thing to choose. What happens when I hit this button?",
+   "zh": "我的看法是，如果有相当数量的客户真正使用了这个功能，那么增加这一功能实际上会提升用户留存率。因此，我特别注意的是，我不喜欢那些只能满足2%用户需求的功能。如果你提出的某个创意只能让2%的用户受益，那无异于增加复杂度，又多了一个需要用户选择的选项。点击这个按钮后会发生什么？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "24:10",
+   "en": "And frankly, some complexity that everybody else building the product forgets, right? This happened to me a lot. We'd have, in the old days, there was a profiles feature. When we launched streaming, we forgot about the profiles feature for DVD. Like, oh, crap. So, as a rule, I never used rules as thumbs, but these two percenters, I would kill them. If I launched something and it was only 2% we'd, we called it scraping the barnacles, just get rid of it.",
+   "zh": "老实说，有些复杂问题是其他产品开发者容易忽视的，对吧？我自己就多次遇到过这种情况。过去我们有个用户资料功能，但推出流媒体服务后，却把DVD版的用户资料功能给遗漏了。当时真是大失所望。所以原则上，我从不把规则当作指导原则，但对于那些只有2%用户使用的功能，我会毫不犹豫地砍掉它。如果推出的某项功能只有2%的用户在用，我们就称之为\"清理冗余\"，直接淘汰掉。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "24:34",
+   "en": "So, I think the key question here is, what percent of Netflix members would use Netflix Party if you launched to all? You want to guess at that, Lenny?",
+   "zh": "好吧，我觉得关键问题在于，如果你向所有Netflix会员开放Netflix Party服务，会有多少用户会使用这个功能？莱尼，你能猜猜看吗？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "24:44",
+   "en": "Let's say 5%.",
+   "zh": "假设是5%吧。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "24:46",
+   "en": "5%. Okay. I think that's good guess. I'm going to give you some historical context. We actually did Xbox Party back in 2008, 2009. My guess with the Xbox team was it would be a two percenter. I think it barely squeaked to 5%. And then, because it was only at 5%, we killed it. So I think that's a great guess. If you had said 10 or 15%, then I would've been scratching my head. Could that actually have a shot at improving retention?",
+   "zh": "5%。好的，我觉得这个猜测不错。我先给你们讲讲历史背景。2008年和2009年，我们推出了Xbox派对功能。我当时对Xbox团队的预测是成功率只有2%。但最终用户参与率勉强达到了5%，不过由于这个数字太低，我们最终放弃了这个功能。所以我觉得你的猜测很准确。要是你说10%或15%，我可能就得仔细琢磨了。这个功能真的能提升用户留存率吗？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "25:14",
+   "en": "Anyways, Netflix hasn't launched this. They could, of course, test it, but I think the history, the failed hypothesis of social, kind of leans against it, and I just gave you two examples. The friends network getting, giving ideas of friends and Netflix, and the second, the Xbox Party. Those are two failed instances of social. Netflix will keep experimenting with this, but in this case they chose not to. So, not enough delight despite the fact that it could build hard to copy advantage. And if you don't have enough delight, enough usage, there's no shot at improving margin.",
+   "zh": "总之，Netflix目前尚未推出这项功能。当然，他们或许会进行测试，但考虑到社交功能的失败先例（比如之前推出的\"好友网络\"功能和Xbox派对功能），我觉得这项尝试可能性不大。这些失败案例充分说明，社交功能对用户吸引力不足，难以形成难以复制的竞争优势。即便有这样的优势，用户参与度若不足以支撑高利润空间，最终也难以实现盈利目标。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "25:45",
+   "en": "Okay. You were awesome, Lenny. I told you, you sounded exceedingly smart. Okay, what do you got? What's the next one?",
+   "zh": "好的，你太棒了，莱尼。我跟你说，你听起来特别聪明。好吧，你准备了什么？下一个问题是什么？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "25:51",
+   "en": "Nailed it. Just real quick, I really like the reminder of just focusing on reach and making... As good as the idea might be, just always coming back to what is the reach of this thing? Even if conversion increases like 50%, if like 10 people see it, it doesn't really matter.",
+   "zh": "太棒了。简单说一下，我特别赞同要专注于传播范围和转化效果的提醒……  \n虽然这个想法可能很棒，但关键还是要看这个内容的传播范围有多大。即便转化率能提高50%，但如果只有10个人看到它，那意义也不大。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "26:05",
+   "en": "Yeah.",
+   "zh": "是啊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "26:05",
+   "en": "That's such a good reminder.",
+   "zh": "真是个很好的提醒啊。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "26:06",
+   "en": "Cool.",
+   "zh": "酷啊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "26:06",
+   "en": "Okay, next one is, something that you've shared is that during COVID, Netflix auto-canceled, apparently, something like half a percent of its members because they were inactive. And so, the question there would be, why do they do that, and how would Netflix have thought about that?",
+   "zh": "好的，接下来要问的是，你之前提到过，在新冠疫情期间，Netflix似乎自动取消了约半数会员的订阅服务，原因是这些用户长时间处于非活跃状态。那么问题来了，他们为什么要这么做？Netflix当时是如何考虑这个决策的？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "26:20",
+   "en": "Yeah. Probably seen Netflix's stock history. But the beginning of COVID, they thought they were going to have 8 million new members, Q1 2020. They picked up 16 million. So, that was awesome. It was about that time that my perception as the product manager at Netflix was looking at the data focused on non-member experience, I think his name is Eddie Woo. And he was looking at the data, and he noticed half percent of the members weren't actually enjoying the service, like for a year. They clearly had entered their credit card, their email a year ago, and then just forgot that they had the service.",
+   "zh": "是啊。你可能看过奈飞的股价走势。但在新冠疫情爆发初期，他们原本预计2020年第一季度能新增800万会员，结果却吸引了1600万新用户。这实在太棒了。大约在那个时候，我作为奈飞的产品经理，负责分析非会员体验相关的数据——我记得那位产品经理叫埃迪·吴。他通过数据分析发现，有半数会员在使用服务时遇到了问题，而且这种情况持续了一整年。很显然，这些用户虽然一年前就输入了信用卡信息和邮箱，但后来完全忘记了自己订阅了这项服务。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "26:51",
+   "en": "And so, when he thought about it, he said, you know, I feel like it's the right thing to actually auto cancel people who aren't using the service they're paying. Of course, he was doing it a time where there was great growth, okay? So, let's use the delight and hard to copy margin enhancing model. Is this a delightful thing to do?",
+   "zh": "于是，当他仔细考虑后说道：\"你知道吗，我觉得自动取消那些不使用付费服务的用户才是正确的做法。当然，他当时正处于业务高速增长的阶段，对吧？所以，让我们采用那种令人惊喜且难以复制的利润提升模式吧。这样做真的能带来惊喜体验吗？\""
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "27:10",
+   "en": "Absolutely. I feel really good.",
+   "zh": "绝对没问题。我感觉状态超好。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "27:11",
+   "en": "That's my question. Okay.",
+   "zh": "That's my question. Okay."
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "27:11",
+   "en": "Yeah, if a company's like, hey, okay, here, take your money back. You're not using this thing.",
+   "zh": "是啊，要是公司突然说，你看吧，反正你也不用这个东西，钱你拿回去吧。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "27:15",
+   "en": "Exactly. And what's the hard to copy advantage that you'd be building by engaging in this best practice?",
+   "zh": "没错。那么，通过践行这一最佳实践，你将打造出怎样的难以被模仿的竞争优势呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "27:22",
+   "en": "I imagine there's kind of a brand halo, just you feel good about Netflix being really good to you.",
+   "zh": "我觉得这有点像品牌光环效应——就是你会因为Netflix对你的服务非常贴心而对它心生好感。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "27:27",
+   "en": "Totally. So if I told you, and this is the case, Netflix chose to auto cancel these folks like, huh, that's a really cool thing to do. And then the margin, the bad news, you're going to lose a hundred million bucks. So, there is delight, there is hard to copy advantage, and you're going to lose a hundred million bucks. Does that delight and hard to copy advantage outweigh the negative of losing a hundred million?",
+   "zh": "完全正确。所以如果我告诉你，事实就是这样，Netflix选择自动取消这些用户的订阅，嗯，这确实是个很酷的做法。但坏消息是，你将损失一亿美元。所以，这既有令人欣喜的效果，又有难以被复制的竞争优势，但最终还是要承受一亿美元的损失。那么，这种令人愉悦的体验和难以模仿的竞争优势，是否能抵消损失一亿美元的负面影响呢？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "27:50",
+   "en": "I'm just going to ask you two more questions. Is this a high stakes decision or a low stakes decision? Eddie's decision to auto cancel these folks and lose a hundred million bucks. High stakes or low stakes? You're the product manager, Lenny.",
+   "zh": "我就再问你两个问题。这是一个高风险决策还是低风险决策？埃迪决定自动取消这些用户的订阅，导致公司损失一亿美元。这算高风险还是低风险？莱尼，你是产品经理啊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "28:04",
+   "en": "It all depends on how much a hundred million is worth to the business. I imagine Netflix is such a large scale where it's not a huge deal, and it's a one off that's not recurring, and so you could give it a shot.",
+   "zh": "这完全取决于一亿美元对该企业的价值有多大。我觉得Netflix规模如此之大，花这笔钱对他们来说应该不算太大问题，而且这只是一次性支出，并非持续性开支，所以他们或许可以考虑尝试一下。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "28:13",
+   "en": "Okay, so you've skipped ahead. You're looking too smart. On magnitude, it's a hundred million against a company that's doing 30 billion in revenue. And then, the second thing you brought up is, it's reversible, which is, he could do it now, but he doesn't have to continue this practice forever. And so, my joke there, I got married 30 years ago. I was anxious about getting married. My friend said, \"Gib, if it doesn't work out you can always get divorced.\" So they're saying it's reversible. Now I've been married 30 years, so it's worked out.",
+   "zh": "好吧，你跳过前面内容了。你可真是自作聪明。就规模而言，对手公司营收达300亿美元，而你才区区1亿。再说你提到的第二点——这件事是可逆的，也就是说他现在可以这么做，但不必永远延续这种做法。说到这里，我有个笑话。30年前我结婚时，心里很焦虑。朋友对我说：\"吉布，如果不合适，大不了离婚嘛。\"所以他们说这事儿是可逆的。如今我已经结婚30年了，可见这段婚姻还是成功了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "28:39",
+   "en": "But my point here is, as product managers, we feel like every decision we make is high stakes. It's good occasionally to think about, hey, what's the magnitude? And then, is it reversible? Amazon calls those, this was a two-way door decision. It's reversible. The one way door, those are the bigger deal. And I think frankly, most people would argue that getting married is a one way door, but hey, half of folks don't.",
+   "zh": "但我想说的是，作为产品经理，我们总觉得自己做的每个决策都至关重要。有时候不妨想一想， hey，这个决策的影响有多大？然后再看看它是否可逆。亚马逊称这类决策为\"双向门\"决策——可以回头；而\"单向门\"决策则更为重大。坦白说，我相信大多数人都会认为结婚是条\"单向门\"，但 hey，毕竟半数人选择不走这条路。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "29:01",
+   "en": "Yeah, very hard to reverse. Reversible but expensive.",
+   "zh": "是啊，很难反转。可以反转，但成本太高了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "29:04",
+   "en": "Okay, what else you got?",
+   "zh": "好的，你还有什么要分享的？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "29:05",
+   "en": "Okay, so you touched on Netflix's recent troubles with growth. And so, something that's always come up is this idea of why don't they offer a really cheap plan, or a free plan that's advertise supported. And so, I imagine you've thought about that a lot, and Netflix has thought about that a lot. How does that work with your framework?",
+   "zh": "好的，你刚才提到了Netflix近期在增长方面遇到的挑战。关于这个问题，大家常提到的解决方案是，为什么他们不推出一项非常低价的订阅计划，或者基于广告支持的免费服务？我猜你对此肯定深有思考，Netflix方面也一直在考虑这个问题。那么，这种模式如何与你们提出的商业框架相契合呢？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "29:21",
+   "en": "Well, let's fast forward two years. Netflix earnings Q1 2022 were bad. For the first time in 10 years, they actually lost customers, and they'd like to get the growth going again. Okay, that's a different context, right? Today.",
+   "zh": "好吧，让我们快进两年。2022年第一季度，Netflix的财报表现不佳。这是十年来首次出现用户流失的情况，他们急于重启增长引擎。好吧，这是一个完全不同的情况了，对吧？就说今天吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "29:37",
+   "en": "This episode is brought to you by PostHog. PostHog offers a suite of product analysis tools, including funnels, heat maps, session recording and experimentation, all in one easy to use platform. PostHog is open source, so you can host it on your own infrastructure, which means that you have control over who has access to your data and makes regulatory compliance a breeze, because you don't need to send user info to third parties.",
+   "zh": "本期节目由PostHog赞助呈现。PostHog提供一套产品分析工具，包括漏斗分析、热力图、会话录制和实验测试等，所有功能都集成在一个易于使用的平台上。PostHog是开源软件，您可以将其部署在自己的基础设施上，从而完全掌控数据访问权限，并轻松满足监管合规要求，因为无需将用户信息发送给第三方。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "30:00",
+   "en": "Post Hog's app system works seamlessly with your data warehouse, both for importing and exporting data, which enables you to bring your data into one place and easily understand user behavior across a range of touchpoints. If you'd like to learn more, check them out at PostHog.com/Lenny.",
+   "zh": "Post Hog的应用系统能与您的数据仓库无缝协作，实现数据的导入与导出。这让您可以将数据集中管理，并轻松了解用户在各个接触点上的行为模式。若您想了解更多信息，请访问PostHog.com/Lenny查看详情。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "30:18",
+   "en": "So your question is, should Netflix have a lower-priced, advertising-supported plan?",
+   "zh": "所以你的问题是，Netflix是否应该推出价格更低、由广告支持的订阅计划？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "30:25",
+   "en": "Okay, great.",
+   "zh": "好的，太棒了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "30:25",
+   "en": "Okay, let's do it. We'll DHM it. Would an ad-supported plan that's lower price be delightful for customers, Lenny?",
+   "zh": "好的，那就这么办吧。我们用DHM平台来处理。伦尼，要是能推出一个价格更低、带广告的订阅套餐，用户们会不会觉得挺不错呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "30:33",
+   "en": "I don't know if delightful is the right word, but if I didn't have a lot of cash, it would feel really nice to be able to use Netflix.",
+   "zh": "我不知道“令人愉快”这个词是否准确，但如果我手头没那么多钱，能用上Netflix还是挺不错的。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "30:39",
+   "en": "Okay, so the possible delight is, it might only cost you five bucks, or who knows, it might be free, I don't know. But for a set of customers who are ad tolerant, that might be a reasonable trade off, right? You don't have to pay $10 or $15 or $20 bucks. You could pay maybe five, or two? I don't really know what the right price is.",
+   "zh": "好吧，所以可能带来的好处是，花费可能只需五美元，或者说谁知道呢，也许免费，我也不确定。但对于那些不介意看广告的用户来说，这或许是个合理的权衡，对吧？你不必支付10美元、15美元或20美元的费用。或许只需5美元，或者2美元？我真不知道合适的价格该是多少。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "30:56",
+   "en": "Okay, so the next one is, would Netflix be building hard to copy advantage if they did this?",
+   "zh": "好的，接下来要讨论的是，如果Netflix采取这种做法，他们是否会建立起难以被模仿的竞争优势呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:00",
+   "en": "I guess the hards of copy pieces, if there's a network effect, they just accelerate that further, and that gives them some advantage. I don't know.",
+   "zh": "我觉得山寨产品的难点在于，如果存在网络效应的话，它们只会进一步加速这种效应的形成，从而为其创造某种优势。但具体情况如何，我还不太清楚。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "31:06",
+   "en": "Maybe. So if they pick up a new set of people, a new set of profiles, it's a technical term, as you get big, is you build economies of scale. So if they are able to grow, Netflix, they'll spend about $18 billion on content this year, whereas poor Amazon will only spend $8 billion. I just love saying poor Amazon. Because Netflix can amortize it across 220 million members. So, more growth, more customers, and hopefully a different segment of customers that they haven't gotten yet, so it's not just cannibalistic, could build more hard copy advantage.",
+   "zh": "或许吧。所以如果他们能吸引到一批新用户、建立起新的用户画像——这在商业术语中叫做\"规模经济\"。随着规模的扩大，成本会随之降低。比如网飞（Netflix）今年在内容上的投入约为180亿美元，而亚马逊（Amazon）仅为80亿美元。我特别喜欢说\"可怜的亚马逊\"，因为网飞能将这笔投入分摊到2.2亿会员身上。所以，用户增长、客户数量增加，希望还能吸引到尚未触及的不同用户群体，这样就不仅仅是自相竞争了，还能进一步巩固其内容优势。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "31:39",
+   "en": "My argument, I'm just going to skip ahead, if you cross fingers, I mean, you are picking up a new customer profile, new customer type, so you're going to have incremental revenues, which is really what Netflix is looking for. For me, I just want to tell you why Netflix hasn't done advertising yet. We actually did do it, 5, 6, 7, 8... 2005 through 2008. We put big-ass ad banners on every page on the site, even for the members. We did a retention test, and it actually did not hurt retention. A big surprise. And that was the first year that we generated an operating income of $20 million bucks. It was like the first profitable year.",
+   "zh": "我的观点是——我先跳过这一段。退一步讲，如果你能碰碰运气的话，你会获得新的客户资料、新的客户类型，这样就能带来增量收入，而这正是奈飞所追求的。至于我，我只想告诉你奈飞为何至今仍未投放广告。其实我们早在2005年至2008年间就尝试过——投放了巨幅广告条，甚至在会员页面也布满了广告。我们还做了用户留存率测试，结果发现这并不会影响用户留存率，这真是个惊喜。正是在那一年，我们首次实现了2000万美元的营业利润，标志着奈飞迎来了盈利元年。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "32:14",
+   "en": "We also did this at our business. We were selling used discs, previously viewed discs. That's how we first made money, and Reed Hastings, the CEO, came to me in 2008 and said, \"Gib, I need you to kill advertising and previously viewed, because I think we can deliver a profit in our core business.\" And he wanted to keep things simple, create this simple experience that's part of a subscription.",
+   "zh": "我们公司也曾采取过类似做法。当时我们销售的是二手光盘和已被他人观看过的影片。这是我们最初盈利的模式。2008年，首席执行官里德·黑斯廷斯找到我，说：\"吉布，我需要你取消广告和'已被观看'的功能，因为我相信我们能通过核心业务实现盈利。\"他希望简化业务模式，打造一种与订阅服务紧密结合的简单用户体验。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "32:34",
+   "en": "You have had this. We had a lot of pride and ownership. He didn't involve me in the decision, all of these things, right? He's just sort of sticking a gun to my head. He only asked me two questions. He said, \"Gib, who's going to be the best in the world at advertising?\" And I said, \"Google.\" And then his second question is, \"Who needs to be the best in the world of personalization?\" I said, \"We do.\" And his argument was to kill previously viewed and advertising to create a simple experience for the customers, and so that we could stay manically focused on personalization.",
+   "zh": "你也经历过这种情况。我们曾充满自豪感和主人翁意识。他根本不让我参与决策，所有这些事务都是强加于我的。他简直是在拿枪顶着我的脑袋。他只问了我两个问题：\"吉布，谁会成为全球广告领域的顶尖高手？\"我回答：\"谷歌。\"然后他又问：\"谁需要成为个性化领域的全球领军者？\"我回答：\"我们。\"他的论点是，通过取消历史浏览记录和定向广告，为用户创造简洁的体验，这样我们就能全心专注于个性化服务了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "33:02",
+   "en": "Now fast forward, so on the earnings call, for him, the debate is really between simplicity, which he's a huge fan of. But during the earnings call he said, \"Actually, there's something I believe in even more, and that's customer choice.\" And he was saying, you know what? I think for this new set of customers, giving them the choice to have a $5 a month plan with advertising... He did not say the $5 bucks. I'm just plugging that in. In this case, customer choice may be more important than delight. And in this case, rather, customer choice may be more important than the complexity of advertising, or maybe the stinky experience.",
+   "zh": "接下来快进到财报电话会议环节。对他而言，争论的焦点在于简洁性——他对此深信不疑。但在电话会议上，他表示：\"事实上，我更看重的是客户的选择权。\"他补充道：\"对于新用户群体而言，让他们有机会选择每月5美元含广告的套餐……\"（此处\"5美元\"为笔者补充，原文未明确提及）\"在这种情况下，客户的选择权可能比用户体验更重要。相较于广告的复杂性，或是糟糕的用户体验，客户的自主选择权或许更为关键。\""
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "33:39",
+   "en": "Whew. There's something important. What he said is, today it's relatively straightforward to execute an advertising-based business doing this. There's a zillion partners who could do it, so we could continue to focus on the core of what we do, which is personalization. Which I thought was a really thoughtful response. So my guess is, they will do advertising, but he was very contrite. Stock had half of its value. He felt he had disappointed shareholders. So I think he was looking for ways to earn back that trust.",
+   "zh": "呼。还有件重要的事。他说的是，现在开展基于广告的业务相对容易，合作伙伴多得数不胜数，所以我们可以继续专注于核心业务——个性化服务。我觉得这番回应相当明智。所以我猜他们会投放广告，但他对此态度很诚恳。股价已经跌去一半，他觉得辜负了股东的信任。所以我觉得他正在想办法重获股东的信任。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "34:05",
+   "en": "Yeah. The market sometimes forces you to do something you didn't expect. I really like the Socratic Method that Reed uses in the story you shared, where he kind of asks you these questions that help you get to the same conclusion he got to.",
+   "zh": "是啊。市场有时会迫使你去做一些出乎意料的事。我真的很欣赏里德在你分享的故事中运用的苏格拉底式教学法，他会通过提问，引导你得出和他相同的结论。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "34:16",
+   "en": "Honestly, I reflected on that for five years. Why didn't he engage me in the decision? And then I just realized... I mean, by the way, this being a CEO is a really hard job. But I realized I had so much pride and ownership, he just knew that I wouldn't want to kill it, that it would be hard for me to be objective. And he felt strongly that he believed he knew the right answer and said, hey, I just need you to do this. And he was right. So, it took me five years to process that, but there's a lot of things you do to support the CEO, because that job is really hard.",
+   "zh": "老实说，我为此反思了五年。他为什么不让我参与决策呢？后来我突然意识到……说真的，当首席执行官这份工作真的很不易。但我发现自己太爱面子，太想掌控局面了。他知道我不愿亲手终结这个项目，难以保持客观态度。他坚信自己知道正确的决策方向，直言：“你只需要照做就行。”事实证明他是对的。所以，我花了五年时间才想通这一点。但说真的，要想真正支持好首席执行官，确实需要付出很多心血，毕竟这份工作实在太难了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "34:47",
+   "en": "We're going to talk a bit about the role of a CPO and what you learned on that journey, but one final mini case study. Should Netflix charge for customers to share their accounts with other people, outside of their home, especially?",
+   "zh": "我们接下来会简要探讨首席产品官（CPO）的角色，以及您在这一职位历程中收获的经验。但在结束前，我想再做一个小型案例分析。您认为Netflix是否应该对用户在家庭以外将账号共享给他人（尤其是非家庭成员）的行为收费呢？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "34:59",
+   "en": "Yeah, this one's got a lot of history. Okay, so I sort of told you a bit of the story, which is Netflix's growth has been excellent until now, and the reason they had that challenging earnings call is, it was just really hard to forecast. They had the influx of customers at the beginning of COVID, I call them fence sitters, that just happened to join en masse. And then, are they going to leave when COVID lifts? Are they going to leave when the theaters open up again? They shut down, for 700,000 Russian members, they shut off the service. You can imagine that in Eastern and central Europe, churn was a little higher than expected. Just nasty.",
+   "zh": "是啊，这家公司可谓历史悠久。好吧，我之前跟你们大概讲了讲，Netflix的发展到目前为止一直很出色。但他们这次财报电话会议之所以遇到挑战，主要是因为用户增长预测实在太难了。疫情初期涌入的大量新用户，我把他们称为\"观望者\"，他们当时是顺势大量注册的。但当疫情结束后，他们会不会离开？影院重新开放后，他们还会继续订阅吗？他们甚至暂停了对70万俄罗斯用户的服务。你可以想象，在东欧和中欧地区，用户流失率比预期的要高得多——情况简直糟糕透顶。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "35:38",
+   "en": "One of the things that this cloud of COVID forecasting did, obscured how the large extent to which sharing happens. And so, what they said was, in the US and Canada, there's a hundred million customers total. They think there's about 30 million folks that are sharing their email password outside the home.",
+   "zh": "新冠疫情预测的种种不确定性之一，就是掩盖了信息共享的广泛程度。数据显示，在美国和加拿大，共有1亿用户存在账号共享行为。据统计，约有3000万人会在家庭环境之外共享自己的电子邮箱密码。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "35:57",
+   "en": "So, how did Netflix get here? Netflix generally, they've got three prices, $10, $15 and $20 bucks, and they're always trying to give people reason for choosing the $20 one. And so, if you looked at their, I call it the price and plan page, it looks like a gas pump. Do you want to the left one, the middle one, or the right hand one? One of the incentives that they provided for folks to choose the $20 a month was the number of multiple streams. They had gone all the way to four streams at the same time. So in my household, four people could be watching the same time.",
+   "zh": "那么，Netflix是如何走到今天这一步的呢？Netflix通常设有三个订阅价格——10美元、15美元和20美元——并且始终在想方设法让用户选择20美元的套餐。若你访问他们的\"价格与套餐\"页面，它的界面就像加油站一样。用户可以选择左边、中间或右边的选项。为了吸引用户选择20美元月费套餐，Netflix推出了多设备同时观看的功能——最多可同时在四台设备上观看同一部影片。比如，在我家里，四个人可以同时观看同一部影片。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "36:27",
+   "en": "And of course people shared outside the house, right? And by the way, I don't think Netflix was clear that you couldn't. So now, if you look at the price and plan page today, they're not sort of pitching for multiple streams as the reason you should go to $20 bucks. They're pitching other things. There's better resolution. That's the key one. Better sound quality. You're going to have HDR sound and video. And then, they did clarify in the fine print that you can use one, two, or four streams for members in your household.",
+   "zh": "当然，人们会在家以外的地方分享账号，对吧？顺便说一句，我觉得Netflix之前没有明确说明不允许这样做。所以现在，如果你看一下他们今天的价格和套餐页面，他们并没有把\"允许多个设备同时观看\"作为升级至20美元套餐的理由，而是强调了其他优势。比如更高的画质（这是关键点），更好的音质，支持HDR音频和视频。另外，他们在细则中确实明确说明，家庭成员可以同时使用一个、两个或四个设备进行观看。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "37:00",
+   "en": "And that was a new clarification, because it used to be kind of with a family. Kelsey and Brit are my daughters. They're in the house, of course they can use it. They go off to college, they're still my daughters, they're part of the family. Of course they can use it. Kelsey gets married. Okay, so this is the first time they clarified it.",
+   "zh": "这是一次新的澄清，因为过去大家都默认这是和家人一起使用的。凯尔西和布里特是我的女儿。她们住在家里，自然可以使用这些设施。即便她们上了大学，依然是我的女儿，也是家庭的一员。她们当然可以继续使用这些资源。凯尔西结婚了。好吧，所以这是他们首次明确说明这一点。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "37:14",
+   "en": "So now, I come all the way back to your question. As a potential growth opportunity, they'd obviously like to clarify how this should work, and they started testing in three different countries. Peru is one, and I think in the Caribbean. These smaller countries, I'm sure they're focused with new members to figure this out first. And so, they have two different things. You could let a person outside your household, you could actually pay a little extra for them as the primary, as the sponsor, if you will. And the other is a function where a person who's sharing your account in a different household can bump up to their own membership.",
+   "zh": "好的，现在回到您的问题。作为一个潜在的增长机会，他们显然希望明确这一模式应如何运作，并已在三个不同国家展开测试。秘鲁是其中之一，另外我想还有加勒比地区。这些小国，我相信他们正专注于先与新会员一起摸索清楚流程。因此，他们提供了两种方案：一是允许家庭以外的人加入；二是作为主账户持有者（可以称之为\"赞助人\"），需额外支付少量费用；第三种功能则允许在不同家庭中共享账户的用户升级为独立会员。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "37:48",
+   "en": "So, this is just complicated. Can I make the DHM model work with this? Well it explains why they did it. They were giving multiple streams because it was a really delightful experience. And Netflix says it in the rules. They were very permissive. I don't really think they worried about this. Was it building hard to copy advantage? Absolutely. More taste profiles, right? And you wouldn't leave because you didn't want to cancel the service to your daughter's and using out on the east coast. And was it building margin? Actually, it was driving people up to the $20 price point, and it was improving churn. You're getting more value out of service, okay?",
+   "zh": "好吧，这确实挺复杂的。我能让DHM模型适用于这种情况吗？嗯，这倒是解释了他们为什么这么做。他们之所以提供多重流媒体服务，是因为这确实是一种令人愉悦的体验。Netflix在规则里也明确说明了这一点，他们对此非常宽容。我觉得他们根本没把这当回事。这是在建立难以复制的竞争优势吗？当然了。比如，提供更多口味偏好选项，对吧？用户不会轻易离开，因为他们不想取消女儿的订阅服务，也不方便在东海岸换平台。那么这是在提升利润吗？实际上，他们通过这种策略把用户价格拉升至20美元档位，同时降低了用户流失率。用户从这项服务中获得了更多价值，对吧？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "38:21",
+   "en": "So now, what do they do? For me, this is just testing and math. Like, honestly, let's try it, Lenny. Well, think about those 30 million folks. If you get an email saying, hey, we've noticed you're enjoying the service on somebody else's nickel, would you like to upgrade to your own plan? What percent of those folks are going to say yes, right? I mean, do you have a guess on that? I don't have a guess and I don't have an answer. But this is the game, right?",
+   "zh": "好吧，那他们现在该怎么做呢？对我来说，这不过是测试和算数题。说真的，伦尼，咱们不妨试试看。想想那3000万用户吧。如果你收到一封邮件，里面写着：“嘿，我们发现你一直在用别人的账号享受服务，你愿意升级到自己的套餐吗？”你觉得有多少人会答应？你能猜猜看吗？我既猜不出来，也给不出答案。但这就是商业博弈，对吧？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:47",
+   "en": "I find with emails, open rates and all these things, it ends up always being really tiny. So I guess, again, probably 5%, maybe 3%.",
+   "zh": "就邮件打开率这类数据而言，最终的实际数值往往非常低。所以我觉得，可能还是和之前说的一样，打开率大概在5%左右，最多也就3%吧。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "38:54",
+   "en": "Okay. I think that's a fine guess. I'll just give you a different perspective. This is kind of like a free trial, right? they've been using a free trial. And the free trial conversion at the end of a month was 90% at Netflix, right? 90% enjoyed their first month so much that they continued with the service.",
+   "zh": "好的。我觉得你的猜测没错。我只想从另一个角度来讲讲。这就好比免费试用，对吧？他们一直都在提供免费试用服务。比如说，在Netflix平台上，每月结束时的免费试用转化率能达到90%，对吧？也就是说，90%的用户在试用第一个月后就深深爱上了这项服务，决定继续订阅。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "39:13",
+   "en": "So, I mean, I agree with you, it might be five or 10%. I was just giving you that 90% to get you to imagine, huh, maybe it could be 10%, right? Maybe it could be 20%. This is just speculation. I think they're experimenting in these smaller countries. As we do this, if it were 10%, they'd pick up an additional 3 million in a quarter. I think that's going to help them when their growth is at a standstill.",
+   "zh": "是啊，我是说，我同意你的看法，可能只有5%或10%。我刚才说90%只是想让你想象一下，嗯，也许实际比例是10%，对吧？或者可能是20%。这只是个推测。我觉得他们正在这些小国家进行试验。如果真能达到10%，那他们每个季度就能多赚300万美元。我觉得这对他们目前增长停滞的局面会有所帮助。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "39:36",
+   "en": "The other question would be, would the primary account quit when you tell them their daughters on the east coast can no longer use the service, right?",
+   "zh": "另一个问题是，如果你告诉他们，他们在东海岸的女儿们无法再使用这项服务了，那么主账户会不会被停用呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "39:45",
+   "en": "Right.",
+   "zh": "好的。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "39:46",
+   "en": "I think where I'm going on this is, I don't know if we can give any real insight. The team at Netflix, this is what they live for, and the team at Netflix is testing and experimenting. They've probably put in an assumption like yours, 5% will convert, and now they're seeing if they're right or wrong, and they're figuring it in on these smaller countries, and a year or two from now, they will have worked it all out and we'll see the answer in North America. But I think it's going to take them a year or two to figure this out, because it's really hard. But they're keenly motivated, because they're trying to get the growth going again.",
+   "zh": "我觉得我对此的看法是，我不确定我们能否提供任何真正的见解。Netflix团队把这项工作视为毕生追求，他们一直在进行测试和实验。他们可能也曾假设过像你提到的5%的转化率，现在正在验证这个假设是否正确。他们先在小型市场进行测试，等一两年后，再将经验推广至北美市场。但我认为他们需要一两年时间才能找到答案，因为这实在太难了。不过他们动力十足，因为他们急于重启增长引擎。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "40:17",
+   "en": "I was trying to watch Super Pumped on Showtime recently, and Showtime wasn't working, and I have to call my dad, because I'm leaching off their cable login account. And turned out that they moved and they changed their cable plan, and I'm probably the reason they're keeping a lot of it.",
+   "zh": "最近我想在Showtime上看《超级泵站》（Super Pumped），但Showtime服务中断了。我不得不打电话给我爸，因为我一直在用他的有线电视登录账号看节目。结果发现他们搬家后换了新的有线电视套餐，而我很可能是导致他们保留了大量旧设备的原因。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "40:32",
+   "en": "Well, so, Lenny, I was thinking about it. I'm open. I don't know the answer on this one, but just you and me comparing notes, what do you think? This is the kind of behavior that I love all product leaders to engage in. I call it building your personal board of directors. You're on mine, because I've been learning a lot about newsletters from you, right? Super helpful.",
+   "zh": "嗯，莱尼，我一直在考虑这件事。我持开放态度。对这个问题我也不确定，但你我可以交流一下想法。你怎么看？这正是我希望所有产品负责人都能养成的习惯。我把这称为建立个人顾问委员会。你就是我顾问团中的一员，因为我从你这里学到了很多关于新闻通讯的知识，对吧？真是太有帮助了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "40:51",
+   "en": "But when I would have questions like these, I would reach out to my pals, like, okay, what's the right level of investment on a mobile app versus desktop? That was a moving target for years. And I would just text my pals, and they would just give me the data. That's amazing insight, just by having peers in the business that you talk to, which this is the behavior that I want everybody out there engaged in. I call it building your personal board of directors.",
+   "zh": "但每当我遇到这类问题时，就会向我的朋友们求助。比如，移动应用和桌面端的合理投资比例应该是多少？这多年来始终是个变动的目标。我只需给朋友们发条短信，他们就能给我提供数据。这种通过与业内同行交流获取深刻见解的方式真是太棒了。我希望所有人都能养成这种习惯，我称之为\"组建自己的董事会\"。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "41:14",
+   "en": "I'd love to hear a little bit more on that, actually. How do people do that? Is it pick a few people on a topic and have them as your standing board?",
+   "zh": "实际上，我很想再听听您对此的详细见解。人们是如何做到这一点的呢？是选定几个对某个主题有专长的人，让他们成为固定的顾问委员会成员吗？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "41:21",
+   "en": "I didn't even know I was doing this. This concept began for me, I was probably 30-ish. 30, yep. I got promoted to VP and I asked my CEO, \"How do I learn how to do the job well?\" And he said, \"I don't know. Reach out and build your community of peers.\" Like, oh, that was good advice. It really was.",
+   "zh": "我甚至都不知道自己在做这件事。这个概念对我来说始于30岁左右。30岁，对。我被提拔为副总裁后，曾问我的CEO：“怎样才能把工作做得更好？”他回答：“我也不知道。去主动拓展你的同行圈子吧。”当时我心想，哦，这真是个好建议。确实如此。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "41:39",
+   "en": "So, at any moment in time... You actually had one of my board members on a podcast, Melissa Perri. She's on my board, right?",
+   "zh": "嗯，任何时候……你其实在播客上邀请过我的董事会成员之一，梅丽莎·佩里。她是我们董事会的成员，对吧？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "41:46",
+   "en": "Amazing.",
+   "zh": "太棒了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "41:46",
+   "en": "Yeah, you voted for her. So, short answer is, it's really easy to build your community of peers. Just keep up your former colleagues. Keep up on LinkedIn. The harder part is building the mentors. And the first rule of thumb is, don't ask a person to be your mentor. That's really awkward. First, identify them. Say, this is a person I think that could be helpful to me. And then, find ways to be helpful. Everybody needs help. Everybody, everybody, everybody.",
+   "zh": "是啊，你投票给她了。所以，简短回答就是，建立同行社区其实挺容易的。只要保持和前同事的联系，在领英上保持互动就行。但建立导师关系就更难了。首要原则是，别直接去求人当你的导师——那样真的很尴尬。首先，要先识别出可能对自己有帮助的人。比如说：\"这个人我觉得能给我提供有用的建议。\"然后，想办法去为对方提供帮助。毕竟每个人都需要帮助。每个人，每个人，每个人。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "42:13",
+   "en": "So, to help you understand the kind of help I need, my greatest fear is aging ungracefully, right? So I'm trying to understand what's going on. Okay, I asked you earlier, should I be on Discord, right? Like, oh, crap, do I have to be on Discord? But in many cases, somebody can help me to understand Discord. That's super helpful to me. And that's how those sort of mentor relationships eventually end up, and between the peers and the mentors, the mentors can help you to see around corners.",
+   "zh": "好吧，让我来帮你理解我需要什么样的帮助。我最大的恐惧就是老得不体面，对吧？所以我正试图弄清楚到底怎么回事。好的，我之前问过你，我是否应该加入Discord，对吧？比如，天哪，我必须加入Discord吗？但在很多情况下，有人能帮我了解Discord。这对我来说太有帮助了。这就是那种导师关系最终形成的方式，在同行和导师之间，导师能帮你看清未来可能遇到的难题。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "42:43",
+   "en": "Actually, my favorite story of somebody who did approach me, they were in data, they wanted to be in product. They kept asking me, \"Hey, do you have any startups I can work with on the weekends?\" That's a good idea. I didn't have any answers. I got sort of frustrated with them. I said, \"Just build me a website, a baby website.\" He said, \"I can't build a website.\" So I gave him my credit card and said, \"Get on Squarespace.\" If you go to GibsonBiddle.com, that's my baby website that John Lou built for me. That was incredibly helpful to me. Someday I should get a real one, but I've decided it's not that important.",
+   "zh": "实际上，我最喜欢的求职故事是这样一位数据分析师转产品经理的人。他不断问我：“嘿，你有周末能合作的初创公司吗？” 这主意不错，但我当时没有合适的资源推荐。面对他的执着，我有点烦躁，索性说：“你先给我建个网站吧，就个简易的网站。” 他却说：“我不会建网站。” 于是我直接把信用卡递给他，说：“去Squarespace建个网站吧。” 现在访问GibsonBiddle.com，就是约翰·路为我搭建的那个简易网站。这对我帮助极大。总有一天我会建个正式的网站，但我现在觉得没那么重要了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:13",
+   "en": "I also have a baby website on Squarespace.",
+   "zh": "我还在Squarespace上搭建了一个宝宝主题网站。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "43:15",
+   "en": "Exactly.",
+   "zh": "没错。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:16",
+   "en": "We're in good company.",
+   "zh": "我们身处优秀的伙伴之列。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "43:17",
+   "en": "Anyways, that's the concept of a personal board of directors. It's really important and helpful career advice in the long term.",
+   "zh": "总之，这就是个人董事会的概念。它在长期来看确实是一条非常重要且实用的职业发展建议。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:23",
+   "en": "Awesome. I'm glad we chatted about that. That wasn't something we planned to chat About. Something else I wanted to dive into, beyond strategy, is prioritization. You have a really great model for our prioritization called the JAM model, that I share often with folks. I'd love to just kind of hear your overview of this model, and when it makes sense, and just roughly how to use it.",
+   "zh": "太棒了。很高兴我们能聊聊这个话题。其实这原本不在我们的讨论计划之内。除了战略层面，我还想深入探讨一下优先级管理问题。你提出的优先级管理模型——JAM模型——非常出色，我经常向他人分享这个模型。我很想听听你对这个模型的概述，了解它在何种情况下适用，以及大致的使用方法。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "43:39",
+   "en": "Yeah, well, it's a lot easier because it spells something, right? As opposed to saying... I'll just give you a good case. I joined Chegg 2010. We were inventing a concept of renting textbooks to students instead of buying them, saving them a lot of money. And my first week was challenging, because on one end of the hall, the CEO, Dan, was saying, \"Grow, baby. Grow. The most important thing we can do as a startup is grow.\" And at the other end of the hall, I had my CFO partner, Greg, saying, \"Slow, slow, slow. We actually don't know if we have a business model that works.\" And I could tell he was sort of, the company's got like 40 people, sort of driving folks crazy.",
+   "zh": "是啊，这确实容易多了，因为单词能拼出来对吧？不像口头表达……我给你举个例子吧。2010年我加入Chegg时，我们当时正致力于开创一个新概念——向学生出租教材而非让他们购买，为他们节省大量开支。刚开始的那一周真是挑战重重。一边是首席执行官丹在会议室里大喊：“增长，宝贝！增长！作为初创公司，最重要的事就是增长！” 另一边是我的首席财务官搭档格雷格却在低声劝诫：“慢点，慢点，慢点。我们甚至不确定自己的商业模式是否可行。”当时公司才40人，大家都快被他逼疯了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "44:15",
+   "en": "So, as the product leader, what the heck should I do? And the answer was, I got them in a room and I said, \"Listen, I just need you to force rank these three factors for me: growth, engagement, and monetization. And I need the two of you to agree.\" So, you could say growth is most important. When we say growth, it's basically year over year customer growth. Do you want it to be 50% or 10%?",
+   "zh": "好的，作为产品负责人，该死的，我该怎么做呢？答案是，我把他们召集到一起，说：“听着，我只需要你们帮我按优先级排列这三个因素：增长、用户参与度和商业化变现。你们俩得达成一致意见。”所以，你们可以说增长是最重要的。当我们说增长时，主要指的是年同比的客户增长量。你们希望增长率达到50%还是10%呢？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "44:40",
+   "en": "Whatever the answer is, engagement is how I think about product quality. A more engaging product is a better product. So if you think investing in building a better product is super important, then you go with engagement, and the proxy metric that I use for that at Netflix was retention. And then, the third is monetization. You have these customers, you have this product, and how much effort do you put into turning that into a business?",
+   "zh": "无论答案是什么，用户参与度始终是我衡量产品质量的核心标准。一个更具吸引力的产品才算得上优秀产品。因此，如果你认为投资打造更优质的产品至关重要，那么就应该把重心放在提升用户参与度上。在Netflix，我们衡量用户参与度的核心指标是用户留存率。第三点是变现能力——当你拥有了这些用户和产品后，你又会投入多少精力将其转化为可盈利的业务？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "45:04",
+   "en": "So, Dan said, \"Well, that's easy. Growth, engagement, and monetization.\" And Greg said, \"Yeah, that's easy. Monetization, engagement and growth.\" He did the flip, right? I'm like, \"I'm going to come back in two hours. You guys got to fight this out.\" Which is sort of what happened.",
+   "zh": "丹接着说：“嗯，这挺简单的。增长、用户参与度和变现。”格雷格回应道：“对啊，很简单。变现、用户参与度和增长。”他把话反过来了，对吧？我当时就说：“我两个小时后再回来。你们俩得把这事儿解决了。” 结果最后还真是这样，两人最终达成了共识。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "45:19",
+   "en": "So, they agreed on growth first, engagement second, monetization third. And then, a couple months later, it started to happen again. Greg started to say, \"No, no, no.\" And so, it was that point that Greg actually left the company. Which was, these are the kinds of fundamental misalignments that can wreck startups. I'm not saying that one or the other was right or wrong, but as leaders in the organization, we've got to get some of the basic stories straight, including how do we fundamentally prioritize growth versus engagement versus monetization?",
+   "zh": "于是，他们达成了共识：首先要追求增长，其次是提升用户参与度，最后才是实现商业变现。然而几个月后，同样的问题再次浮出水面。格雷格开始反驳道：\"不行，不行，不行。\"最终，格雷格选择离开了公司。这种根本性的战略分歧正是初创企业可能遭遇的致命危机。我并不是说哪一方对或错，但作为企业领导者，我们必须理清一些基本思路——比如如何在增长、用户参与度和商业变现之间合理分配优先级？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "45:56",
+   "en": "This is really the number one source of misalignment that I discover among startups. And startups, you're always flipping back and forth between growth and engagement. Grow faster, build a better product. Grow fact forth, and then later, you get a little later to monetization. But this model, I find it super helpful to get leaders across an organization fundamentally more aligned.",
+   "zh": "这确实是我在初创公司中发现的最常见的战略失调根源。初创企业们，你们总是在增长与用户留存之间反复纠结。先快速发展，再打造优质产品；等产品成熟后，再慢慢探索变现模式。但我发现，这种模式能极大地帮助企业各级领导达成根本共识，从而实现全员战略一致。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "46:17",
+   "en": "So, if you're a PM, or maybe a founder, thinking about using this model, would the first step be get your leaders above you to kind of align with you on, of these three things, here's how we stack rank it?",
+   "zh": "因此，如果你是一位项目经理，或许还是一位创始人，正考虑采用这种模式，那么第一步会是让你的上级领导与你达成共识，围绕以下三点达成一致意见——我们该如何划分权责等级？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "46:27",
+   "en": "Personally, I'd start with a SWAG. I would take a shot, a stupid, wild-ass guess of what I think is right, so at least I started with a point of view before I shared it with my team. And frankly, the next most important thing that happens is, if you're trying to create a metric focused organization that appreciates data and learning through numbers, deciding, I mean, the hardest one is, what is your engagement metric? How do you measure product quality?",
+   "zh": "就我个人而言，我会先从SWAG（愚蠢的狂想）入手。就是先大胆猜测一下自己认为正确的方向，这样至少在与团队分享观点之前，我已经有了初步的思路。说实话，最重要的下一步就是：如果你想打造一个重视数据、善于通过数据学习的指标导向型组织，那么最难的部分就是——你的用户参与度指标是什么？如何衡量产品质量？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "46:52",
+   "en": "At Netflix, it's monthly retention, but that's a hard conversation. The growth story's pretty, like, it's usually some percentage year over year of customer growth. I mean, but it's always different, but the only variation on what you said was, have a point of view yourself, and then get everybody's feedback.",
+   "zh": "在Netflix，衡量的是月度用户留存率，但这确实是个棘手的话题。增长数据通常以同比客户增长率的形式呈现，虽然具体数值因年份不同而有所波动。但核心要点在于，你需要先形成自己的观点，之后再收集各方的反馈意见。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "47:07",
+   "en": "That's frankly, when I would join a new company, I would give myself two weeks to develop the product strategy for that company, which is a little outrageous, but I would just do it fast. I would develop the SWAG, but then I'd go to one person. \"Hey, this is my best thinking, what do you think?\" And of course, they had been there for four years. They were much smarter than I, and they would refine my thinking.",
+   "zh": "老实说，我加入新公司时，会给自己两周时间制定该公司的产品策略。这听起来有点夸张，但我就是想快点完成。我会先制定初步方案，然后直接找公司里的某个人说：“嘿，这是我的初步构想，你觉得怎么样？”当然，他们在公司待了四年，比我聪明得多，他们会帮我完善这些想法。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "47:25",
+   "en": "I'd do that one by one, and then maybe six weeks later, I could share a product strategy across the company. But this is the value of a SWAG, which is a stupid, wild-ass guess. And don't be afraid to start at that level.",
+   "zh": "我会先逐一处理这些问题，然后或许六周后，我能在全公司范围内分享产品战略。但这正是SWAG（愚蠢的疯狂猜测）的价值所在。别害怕从这个基础层面开始着手。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:36",
+   "en": "I really like that strategy, versus going in a little hole, spending months just thinking about the perfect answer, and only then presenting. I find this works better.",
+   "zh": "我真的很喜欢这种策略，而不是深陷于某个难题中，花上数月时间思考完美的解决方案，最终却只在展示环节露出马脚。我发现这种方法效果更佳。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "47:44",
+   "en": "We're hiring a consulting company to do it. Go shoot me, okay?",
+   "zh": "我们正聘请一家咨询公司来处理这件事。你就别来烦我了，行吗？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:47",
+   "en": "I like that you're hiding your mouth as you say that.",
+   "zh": "我喜欢你说这话时遮住嘴巴的样子。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "47:50",
+   "en": "Yeah. Only Lenny can see. Yeah, but this is a podcast, Gib. Nobody can see you.",
+   "zh": "是啊，只有莱尼能看到。没错，但这可是播客啊，吉布。没人能看到你的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:54",
+   "en": "Yeah. I will reveal. Okay, so on that topic actually, I'd love to transition and talk about our last topic, which is around career, or product manager. So, you're the CPO at two very successful companies, or maybe you're called the VP of product, but roughly a head of product. You have these two muckety mucks, right? Chief Muckety Muck. And in theory, this is kind of the end state of a PM career if you stay along the path. A lot of PMs go on different paths, but in theory, this is kind of where your career is heading. What would you say it takes to become a CPO someday? What kind of skills do you think you need to build that are maybe not obvious to someone that's not in that role yet?",
+   "zh": "是啊，我会透露的。好的，说到这个话题，我想转到我们上一个话题——职业发展，或者说产品经理的职业生涯。那么，你是两家非常成功的公司的首席产品官，或者可能被称为产品副总裁，但大致来说是产品部门的负责人。你手下有两位高管，对吧？首席高管。理论上讲，如果你沿着这条路走下去，这就是产品经理职业生涯的终极目标。很多产品经理会选择其他发展路径，但理论上，这就是你职业生涯的方向。你觉得要成为首席产品官，需要具备哪些技能？你认为哪些技能是非该职位从业者不易察觉的？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "48:28",
+   "en": "Yeah, let's take a little step by step. Individual contributor, and then to manager. When you're just starting, you're just trying to learn the job. And I'd say, at a high level, you're just trying to optimize for learning in your entire career. But for individuals, building products is hard, and there's a number of technical skills that are required. So yes, some technical, but a lot of creative skills. There's some consumer science, that's the A/B testing. There's the management. How do you get people working together to actually build stuff? These are technical design skills, right? These are the technical skills.",
+   "zh": "是啊，让我们一步步来讲。首先是个人贡献者，然后晋升为管理者。当你刚入行时，只需专注于掌握工作技能。我认为，从宏观层面来看，你要在整个职业生涯中持续优化学习效率。但对于个体而言，产品开发并非易事，需要掌握多项技术技能。当然，技术能力固然重要，但创造力同样不可或缺。比如用户洞察——比如A/B测试。还有管理层面，如何让团队成员协同合作完成产品开发？这些都是技术设计能力的范畴，对吧？这些才是关键的技术技能。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "48:59",
+   "en": "So, early in your career, you're just trying to learn the job. And by the way, the job is hard. And second, it's different from every company to company in different stage. So you, Lenny and I, we're just trying to be helpful in a leveraged way. But the key thing is, the job's a little different in everything. So, just try to become expert in your area, expert in whatever your one thing is that you're building.",
+   "zh": "因此，在职业生涯初期，你只是在努力熟悉这份工作。说实话，这份工作确实不易。再者，不同公司在不同发展阶段的业务模式也各不相同。所以，莱尼和我，只是想以一种能产生杠杆效益的方式提供帮助。但关键在于，每个行业的具体工作内容都有所不同。因此，你只需专注于自己所在领域的专业能力，或是深耕于你所负责的核心项目即可。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "49:19",
+   "en": "And then, the next step to become a manager is, there's a lot of, communication is sort of the heart, and that's why I try to... Product strategy is a great way to communicate what's important and what's not, try to demystify it. If you're early in your career, ask if you could be on interview teams, even if you're not hiring, because then you're starting to practice something that's really important as you want to grow your career later, which is it's really hiring and recruiting people.",
+   "zh": "接下来，成为管理者的下一步就是——沟通至关重要，正因如此我努力……产品战略是传达轻重缓急的绝佳方式，试着让它变得易于理解。如果你处于职业生涯初期，即便所在部门暂不招聘，也要主动请缨加入面试团队。这样做能让你提前掌握日后职业发展中至关重要的技能——那就是如何招聘与选拔人才。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "49:45",
+   "en": "When I was in the thick of that, I spent one to two days a week hiring and recruiting. It's really the most important thing. And then, some amazing opportunity would come along at the company and they'd say, you know what? Maybe somebody on Gib's team should do it, right? Because they knew I could replace people. There's always somebody new to pop in. So, I really was expert in hiring and recruiting later in your career.",
+   "zh": "当时我正忙得不可开交，每周要花一到两天时间招聘人才。这确实是最重要的事。然后，公司会突然冒出一些绝佳的机会，他们就会说：\"不如让Gib的团队来负责这个项目吧？\"因为他们知道我能轻松替换掉那些离职的人员。总会有新人随时加入。所以，在职业生涯后期，招聘人才确实成了我的专长。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "50:07",
+   "en": "If you want to be a muckety muck, my theory is the skills of a leader are the same, whether you're head of product, or the chief financial officer, or head of data. When I'm interviewing any of those kinds of candidates, I am looking for leadership skills. Can they do inspired communication of a vision? I do look for product strategy skills. That helps you to frame what that vision is. I do look for management skills. Have they built and managed teams?",
+   "zh": "如果你想成为一个大人物，我的观点是，无论你是产品主管、首席财务官还是数据部门负责人，领导者的核心能力都是相同的。在面试这类职位候选人时，我重点考察他们的领导才能：他们能否有效传达愿景？我也会评估产品战略能力——这能帮助他们明确愿景的具体内涵；此外，我还会关注管理技能——他们是否成功组建并管理过团队？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "50:38",
+   "en": "I look for people who are proactive, results oriented. For me, leaders lead. You can't be a follower. So, I look for really proactive, results oriented folks. And this is pretty nuanced, but later in career, I look for folks who understand how important culture is, because culture helps people to understand the skills and behaviors that are wanted of everyone within the building, and they let you provide leadership in a highly leveraged way, instead of using evil processes and meetings and rules. I look for people who appreciate culture as a tool to help lead organizations.",
+   "zh": "我寻找积极主动、以结果为导向的人。在我看来，领导者必须具备引领能力，而不能只做追随者。因此，我尤其青睐那些真正积极主动、以结果为导向的人。这听起来有些微妙，但在职业生涯后期， 我会寻找那些深知文化重要性的人才。因为文化能帮助人们理解组织内每个人所需的技能与行为规范，还能让领导者以高效的方式施展领导才能，而无需依赖繁琐的流程、冗长的会议和条条框框。我寻找那些将文化视为助力组织领导的利器的人才。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "51:18",
+   "en": "And then, of course, they had to grow up as a builder. They had to learn all those damn technical skills for product manager. If I abstract outside of all that, honestly, the thing that I probably did best, I think maybe I did three things best. To know me, I was an English major. I'm non-technical, and I didn't care. First I was in marketing, and then I went into product, which I just loved.",
+   "zh": "然后，当然，他们必须像个建筑工人一样成长。他们得掌握产品经理所需的那些烦人的技术技能。如果抛开这些不谈，说实话，我做得最出色的可能是三件事。要了解我，我是学英语专业出身的。我对技术一窍不通，但我不在乎。起初我在市场部工作，后来转到产品部门，而我对产品开发简直痴迷不已。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "51:37",
+   "en": "I think I did a good job with sort of optimizing for learning. Actually, one of my hacks was, I started doing talks. I used to call it Topic This and That, on Friday mornings, about something I had just learned. That was the easiest way for me to learn something. So, optimized for learning.",
+   "zh": "我觉得我在优化学习效果方面做得不错。实际上，我的一个小技巧是开始做演讲。我把它叫做\"随心所欲的话题分享\"，通常选在周五上午，内容都是我刚学到的东西。这对我来说是学习新知识最简单的方式。所以说，我确实在学习方面下了不少功夫。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "51:50",
+   "en": "We talked about building a personal board of directors, and that has been incredibly helpful for me, and that probably gets to the third thing. I was a pretty good picker, and the reason I was a good picker of companies is, I would lean on my personal board of directors. Some of them were CFOs. I'm like, \"Hey, Barry, I'm thinking about joining this startup, Chegg.\" Hey, as a CFO, as a VC, would you invest in it, right? It's the same question I have to ask, should I invest my time?",
+   "zh": "我们讨论过组建个人董事会，这对我帮助极大，这或许就能解释第三点了。我选公司的眼光向来不错，而我之所以能选出优质公司，关键在于我会征求个人董事会的意见。他们中有些人是首席财务官。我会问：“嘿，巴里，我正考虑加入这家初创公司Chegg。”然后，作为首席财务官兼风险投资人，巴里会说：“你觉得值得投资吗？”这和判断是否值得投入时间是一个道理——我需要反复自问同样的问题。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "52:16",
+   "en": "So, I had people like that who helped me to isolate, was Electronic Arts a good company to join in 1991? Yes. Was Netflix a good company join in 2005? Yes. Was Chegg a good company to join in 2010? Yes. So, I was fundamentally a good picker, and I would really give a lot of credit to that personal board of directors that I had for that.",
+   "zh": "是的，我身边就曾有这样的人帮我做出明智的选择。1991年加入艺电（Electronic Arts）是个正确的决定吗？是的。2005年加入奈飞（Netflix）也是个明智之选吗？是的。2010年选择加入Chegg又如何？同样正确。可见我本质上是个善于识人明智选择的人，这都要归功于我身边那群智慧的\"私人董事会\"成员。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "52:36",
+   "en": "What about just day to day as a PM, what have you found to be really good habits, and kind of like a routine that PMs follow, that you've seen to kind of contribute to the success of an ICPM, especially?",
+   "zh": "至于日常项目经理的工作，你认为有哪些真正有效的习惯或日常流程是项目经理们应该遵循的，尤其是在推动ICPM项目成功方面？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "52:49",
+   "en": "My short answer is, begin your day with intent, okay? What are the three to five things I'm hoping to do today? Second, minimize meetings, okay? Minimize meetings. That sucks the life out of everybody, including you.",
+   "zh": "我的简短建议是：用心开启新的一天，好吗？今天我希望完成哪三到五件事呢？第二点，尽量减少开会次数，好吗？开会真的很浪费大家的时间，包括你自己在内。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "53:03",
+   "en": "Spend a lot of time with your customers. It could be focus groups, it could be usability, it could be looking at survey data, it could be digging the dirt to understand their behavior to the data, and it could be designing and executing A/B test results. Those are all ways of becoming the voice of your customer, and that's a big part of your job as a product leader.",
+   "zh": "花大量时间与客户沟通。可以通过焦点小组、可用性测试、分析调查数据、深入挖掘数据以理解客户行为，或设计并执行A/B测试等方式来实现。这都是成为客户代言人的有效途径，也是产品负责人的核心职责之一。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "53:24",
+   "en": "Find a balance between doing and thinking. Most of us do, do, do. Occasionally stop and ask yourself, okay, what's important here? What should I really be doing right now, as opposed to the things that I enjoy doing? Self-managing yourself. The only reason people need managers is that we need someone to force us to do the things that are important that we don't enjoy doing. So, I'm always self-managing myself. Gib, you have to do an invoice. Crap, I've got to bill people. That's no fun, right?",
+   "zh": "找到行动与思考之间的平衡。我们大多数人都是忙忙碌碌、埋头苦干。偶尔停下来问问自己：好吧，这里最重要的是什么？此刻我真正应该做的，与我乐在其中的事情相比，哪个更重要？这就是自我管理。人们需要管理者的唯一原因，是因为我们需要有人迫使我们去做那些既重要又不讨喜的工作。所以，我一直在自我管理。吉布，你得去开张发票了。天哪，我又得给客户开发票了。这可一点都不好玩，对吧？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:56",
+   "en": "That inside voice, inside Gib.",
+   "zh": "那个内心的声音，在吉布的内心深处回荡着。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "53:57",
+   "en": "Yeah, that invoice voice. Yeah, our in-voice. Gib, you should write a damn book.",
+   "zh": "是啊，就是那个发票里的语音提示。没错，就是我们内部的发票提示音。吉布，你真该写本该死的书啊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:02",
+   "en": "Or not.",
+   "zh": "或者，也许并非如此。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "54:02",
+   "en": "We're ignoring that inside voice. Yeah, you and me both. And then, I don't know, for me, exercise is awesome for me. It keeps me happy. And don't watch too much TV, and I watch too much TV. So, there you go. And don't do what I do. Do what I say.",
+   "zh": "我们都忽略了内心的那个声音。是啊，你我都一样。然后呢，我也不知道，对我来说，锻炼真的很棒。它能让我心情愉悦。还有别看太多电视，我自己就看得太多了。所以，你们明白我的意思了。别学我，要照我说的做。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:17",
+   "en": "Right. Yeah. I also probably watch too much TV. Funny coming from someone that helped build Netflix, but I totally get it. So, too good. It's too good.",
+   "zh": "好吧，是啊。我可能也看电视看得太多了。说这话的人居然还参与过Netflix的创立，这挺有趣的，但我完全理解你的意思。真是太棒了。太棒了。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "54:25",
+   "en": "Well, my wife's trying to cure cancer. She's like, \"Oh, congratulations, Gib. You helped invent binge watching, you idiot. What good are you doing for humanity?\"",
+   "zh": "嗯，我妻子正在努力攻克癌症。她会说：“哦，恭喜你啊，吉布。你发明了追剧成瘾这种行为，真是白痴。你对人类有什么贡献啊？”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:34",
+   "en": "Oh, man. Brings us delight, and that's valuable.",
+   "zh": "天哪。这真是太棒了，能给我们带来欢乐，这才是最重要的。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "54:37",
+   "en": "Yeah, yeah. Thank you very much.",
+   "zh": "是啊，是啊。非常感谢你。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:39",
+   "en": "Final question. You've had this illustrious career. What's one piece of advice that you'd give a PM in the beginning stages of their career, and then maybe as a bonus, I want maybe mid stage. What comes to mind?",
+   "zh": "最后一个问题。您拥有如此辉煌的职业生涯。您会给处于职业生涯初期阶段的产品经理（PM）什么建议呢？然后作为额外补充，我想听听处于职业生涯中期阶段的产品经理的建议。您能想到什么建议吗？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "54:50",
+   "en": "Yeah, I think I did the early stuff. Pick the right company. At some point, understand that you are responsible for your career, not your workplace. And that's one of the reasons I encourage people to start building that personal board of directors, so you can compare notes. The other thing I say is, don't listen to your parents, because they're a generation ahead. They really don't know what the future looks like. I mean, I know I would give bad advice to my daughter, and so don't listen to your parents.",
+   "zh": "是啊，我觉得我早期的工作经历是这样的。要选对公司。到了一定阶段，你得明白，你的职业生涯由你自己负责，而不是由你的工作单位负责。这也是我鼓励人们组建个人董事会的原因之一，这样你们就能交流心得了。另外，我还想说，别听父母的，因为他们比你早一代人。他们真的不了解未来的样子。我是说，我知道自己要是给女儿建议，肯定会给出糟糕的建议，所以别听父母的。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "55:16",
+   "en": "And then later, ever since I stopped direct deposit, I think of myself as just purely career hacking. So in your career, it's just a lot like building a product. You have theories and hypotheses, you find ways to experiment with them, and then you were successful or you failed. So one of my hypothesis, whenever it was, six years ago, was I would enjoy teaching. I actually tried it. I taught at Stanford, entrepreneurship for graduate level engineers, and I really liked it, but I didn't love it, largely because I was required to be in Palo Alto every fall. I couldn't travel as much as I like to, right?",
+   "zh": "后来自从我不再使用直接存款服务后，我觉得自己不过是在职场中摸索前行。在职场中，就如同打造一款产品一样——你会提出各种理论和假设，寻找机会进行验证，最终要么成功，要么失败。六年前，我曾假设自己会喜欢教学工作。当时我确实尝试过，在斯坦福大学为研究生工程师教授创业课程，虽然我很享受这个过程，但却谈不上热爱。主要原因是每年秋季我都必须待在帕洛阿尔托，无法像我期望的那样频繁出差。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "55:52",
+   "en": "Okay, so on one hand, okay, don't teach in the classroom, and my next vector was, what if I teach outside the classroom? That's what I really love to do. I do talks, workshops, all around the world in the last two years, virtually. I just love doing that, and I have a ton of flexibility. So, that's just a little example of me treating my career like, what's my hypothesis? Finding where to experiment with, and then, based on the results, do the next thing. And I've really been doing that my entire career,",
+   "zh": "好的，首先，我不打算在课堂上授课。接下来，我想问：如果我在课堂之外授课呢？这才是我真正热爱做的事。过去两年里，我在全球各地举办讲座、工作坊，全程线上进行。我就是喜欢做这些事，而且时间灵活度很高。这只是我把职业生涯当作实验场的一个小例子——先提出假设，尝试实践，然后根据结果再调整方向。事实上，我整个职业生涯都是这么做的。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "56:16",
+   "en": "So, if you embrace this idea of experimentation, you're like a product, you need to have hypothesis, you need to try see what works. The next thing you need to do in building a product or building your career is be bold. So, don't wimp out. At some point, when I'm working with different companies, they all kind of get attracted to the small, incremental wins, and they sort of forgot what made them a successful startup in the beginning, which is taking on fundamental risk. And so, I just nicely encourage people to be bold, to go a little bit out of your comfort zone, because that's where you learn more, and that comes back to this idea of optimizing for learning.",
+   "zh": "因此，如果你认同这种实验精神，就如同打造产品一样，你需要提出假设，尝试验证哪些方法有效。在打造产品或发展事业的过程中，接下来要做的就是勇于突破。别畏首畏尾。当我与不同公司合作时，我发现他们往往会沉溺于小规模的渐进式胜利，却忘了初创公司成功的根本——那就是敢于承担根本性风险。所以，我会温和地鼓励人们勇于突破，勇于走出舒适区，因为这正是你能收获更多成长的关键所在，而这也正应验了\"以学习为优化的核心\"这一理念。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "56:52",
+   "en": "Anyways, and how do you encourage people to be bold? How do you encourage them to try new things? And the simple thing is, just start. Try it tomorrow. For me, the baby step was when I, on talks, I would just ask my friends if I could drop by and do a talk. I just did it. I didn't overthink it. I didn't spend 97 years setting up my display and getting the right clicker. I just gave a really bad talk. But that's how I started, and then I sort of optimized from there.",
+   "zh": "总之，要如何鼓励人们变得勇敢？如何鼓励他们尝试新事物？其实很简单，就从行动开始。比如明天你就可以尝试去做一件事。对我来说，迈出第一步是在参加演讲活动时，直接问朋友能否去分享一下。当时我没有过度纠结，也没有花97年时间去布置PPT、调试设备。我只是做了场很糟糕的演讲。但这就是我如何开始的，然后我再从中不断优化改进。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:21",
+   "en": "What a perfect way to end our chat. Really inspiring and helpful advice that I'm going to try to re-listen to and use myself. Just to close, where can folks find you, reach out to you, and then also just, how can listeners be useful to you?",
+   "zh": "真是为这次聊天画上了一个完美的句号。这些建议真是既鼓舞人心又实用，我打算再听一遍，好好领会并运用到实际生活中。最后，大家可以在哪里找到你、联系到你呢？另外，听众们又如何能为你提供帮助呢？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "57:33",
+   "en": "That's a great question. Thank you. The first, I would say that Lenny has been a mentor for me in \"Ask Gib\" Product Newsletter. So, I reached out to him via a Twitter and asked him lots of stupid early questions, so he was incredibly helpful. So, probably the most important thing is to know that I write a newsletter every two weeks. That's the cadence I'm on now. Lenny knew me at the beginning when I was doing dailies. He's like, \"Dude, don't burn out.\" It's called Ask Gib. I've answered like 63 questions so far. I really have enjoyed it.",
+   "zh": "问得好啊，谢谢。首先，我得说莱尼在《Ask Gib》产品通讯中一直是我的导师。我当时通过推特联系他，问了很多很傻的新手问题，他都耐心解答，真是太感激了。最重要的是，要知道我现在每两周就会发布一期通讯。刚开始做每日更新的时候，莱尼就提醒我：“老兄，别把自己累垮了。”这个栏目叫《Ask Gib》，到目前为止我已经回答了63个问题。我真的很享受这个过程。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "58:04",
+   "en": "Second thing would be my baby website GibsonBiddle.com. I have the advantage of being the only Gibson Biddle on the internet. I'm sure you're the only Lenny, but nobody can spell your last name, right?",
+   "zh": "接下来要说的是我的宝宝网站GibsonBiddle.com。我有个优势——我是网上唯一一个叫Gibson Biddle的人。我相信你也是唯一一个叫Lenny的人，但没人能正确拼写你的姓氏，对吧？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "58:15",
+   "en": "Yeah, and then the third, how can people be useful? I'm a feedback freak, so you'll notice at the end of every talk I do, every essay, whether you find me on Medium, or Ask Gib, wherever, there's a link to give me feedback. And it's always the same question: On a scale of zero to 10, where zero sucks, 10 is excellent, how likely would you be to recommend this to a friend?",
+   "zh": "是的，接下来是第三个问题：人们怎样才能发挥作用呢？我对反馈意见极其上心，所以你会发现，无论是我的每场演讲、每篇文章，还是你在Medium、Ask Gib等平台上看到我的内容，结尾处总会附上一个反馈链接。问题始终如一：以0到10分打分，0分代表极差，10分代表优秀，你有多大可能把这份内容推荐给朋友？"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "58:38",
+   "en": "That has been incredibly helpful to me, and that's how I've learned to slowly get better at everything I do. The insight I get each day from folks is amazing. And I'll ask one follow up: but what'd you like, and what could be better? And it's just been incredibly helpful. So, don't ignore that link at the end. Don't treat it like United Airlines asking how is your flight? This is important, damn it! And your feedback is incredibly helpful to me, so thank you.",
+   "zh": "这对我帮助极大，也是我如何在每一项工作中逐渐精进的秘诀。每天从大家那里获得的深刻见解令人惊叹。我想再追问一句：你们有什么期待？还有哪些方面可以改进？这真的太有用了。所以，别忽视最后那个链接。别把它当成联合航空问你旅途体验如何那样的客套话！这事儿太重要了，该死！你们的反馈对我来说无比宝贵，真心感谢。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "59:04",
+   "en": "I'm going to go answer some of your surveys now. Thank you so much for doing this. I learned a ton, and I really appreciate your time.",
+   "zh": "我现在要去回答你们的一些调查问卷了。非常感谢你们参与这次调查。我学到了很多东西，真的很感激你们抽出时间配合。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "59:10",
+   "en": "That was great fun, Lenny, and thanks a ton for your help with my Ask Gib newsletter, as well.",
+   "zh": "真是太有趣了，莱尼。另外，也非常感谢你为我的《Ask Gib》通讯提供的帮助。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "59:15",
+   "en": "Forever and Ever.",
+   "zh": "永远永远。"
+  },
+  {
+   "speaker": "Gibson Biddle",
+   "ts": "59:16",
+   "en": "Okay, cool. I'll hold you to that.",
+   "zh": "好的，没问题。我就等着你兑现承诺了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "59:19",
+   "en": "That was awesome. Thank you for listening. If you enjoyed the chat, don't forget to subscribe to the podcast. You could also learn more at LennysPodcast.com. I'll see you in the next episode.",
+   "zh": "太棒了。感谢大家的聆听。如果你们喜欢这次对话，请别忘了订阅我们的播客。更多内容请访问LennysPodcast.com。下期节目再见！"
+  }
+ ]
+}

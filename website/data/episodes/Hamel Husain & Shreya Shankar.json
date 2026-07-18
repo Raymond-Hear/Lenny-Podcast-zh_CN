@@ -1,0 +1,1895 @@
+{
+ "id": "Hamel Husain & Shreya Shankar",
+ "name": "Hamel Husain & Shreya Shankar",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Hamel+Husain+&+Shreya+Shankar",
+ "bio": {
+  "en": "Hamel Husain and Shreya Shankar are the leading voices on AI evals—Hamel a veteran ML engineer (formerly at GitHub and Airbnb) and Shreya a PhD researcher at Stanford—who teach the definitive online course that has trained over 2,000 PMs and engineers across 500 companies, including the teams at OpenAI and Anthropic.",
+  "zh": "Hamel Husain 与 Shreya Shankar 是 AI 评估（evals）领域最具代表性的声音——Hamel 是一位资深机器学习工程师（曾任职于 GitHub 和 Airbnb），Shreya 是斯坦福的博士研究员——他们开设的权威在线课程已培训超过 2000 名 PM 与工程师、覆盖 500 家公司，其中包括 OpenAI 和 Anthropic 的团队。"
+ },
+ "summary": {
+  "en": "Hamel and Shreya make the case that building evals is the highest-ROI activity for any AI product team, and that you only need to do the process once to build on it—not perfectly, but actionably. They dismantle common misconceptions (no, the AI can't just eval itself; no, you don't need a committee—appoint one trusted 'benevolent dictator' with domain expertise). The episode is a show-and-tell primer: walking through how to build an effective eval, the first steps to start, and battle-tested best practices, leaving even non-technical listeners excited to write their own.",
+  "zh": "Hamel 和 Shreya 提出，构建 evals 是任何 AI 产品团队投资回报率最高的活动，而且你只需做一次就能在其上迭代——不求完美，但求能真正改进产品。他们戳破了常见误解（不，AI 不能自己评估自己；不，你不需要一个委员会——指派一位你信任、具备领域专长的“仁慈的独裁者”即可）。这期节目是“做给你看”的入门课：手把手讲解如何构建一个有效的 eval、从哪几步开始，以及经过实战检验的最佳实践，让即便非技术的听众也跃跃欲试想写自己的 eval。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "To build great AI products, you need to be really good at building evals. It's the highest ROI activity you can engage in.",
+   "zh": "要打造出色的 AI 产品，你必须非常擅长构建评测（evals）。这是你能投入的活动里投资回报率最高的一项。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "This process is a lot of fun. Everyone that does this immediately gets addicted to it. When you're building an AI application, you just learn a lot.",
+   "zh": "这个过程很有意思。每个做过这件事的人几乎都会立刻上瘾。构建 AI 应用时，你会学到很多。",
+   "ts": "00:00:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's cool about this is you don't need to do this many, many times. For most products, you do this process once and then you build on it.",
+   "zh": "妙的是，你并不需要反复做很多很多遍。对大多数产品来说，你只要做一次这个流程，之后就在此基础上持续建设。",
+   "ts": "00:00:12"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "The goal is not to do evals perfectly, it's to actionably improve your product.",
+   "zh": "目标不是把评测做得完美，而是切实地改进你的产品。",
+   "ts": "00:00:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I did not realize how much controversy and drama there is around evals. There's a lot of people with very strong opinions.",
+   "zh": "我没意识到围绕评测竟然有这么多争议和戏剧性。很多人对此抱有非常强烈的观点。",
+   "ts": "00:00:23"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "People have been burned by evals in the past. People have done evals badly, so then they didn't trust it anymore, and then they're like, \"Oh, I'm anti evals.\"",
+   "zh": "人们过去曾被评测伤害过。有人把评测做得很糟，于是他们不再信任它，然后就会说：\"哦，我反对评测。\"",
+   "ts": "00:00:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are a couple of the most common misconceptions people have with evals?",
+   "zh": "人们对评测最常见的几个误解是什么？",
+   "ts": "00:00:36"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "The top one is, \"We live in the age of AI. Can't the AI just eval it?\" But it doesn't work.",
+   "zh": "最主要的一个是：\"我们生活在 AI 时代，不能让 AI 自己来评测吗？\"但这行不通。",
+   "ts": "00:00:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A term that you used in your posts that I love is this idea of a benevolent dictator.",
+   "zh": "我很喜欢你在文章里用的一个说法：仁慈的独裁者。",
+   "ts": "00:00:45"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "When you're doing this open coding, a lot of teams get bogged down in having a committee do this. For a lot of situations, that's wholly unnecessary. You don't want to make this process so expensive that you can't do it. You can appoint one person whose taste that you trust. It should be the person with domain expertise. Oftentimes, it is the product manager.",
+   "zh": "在做这种开放式编码时，很多团队会陷入让委员会来完成它的泥潭。可在许多场景下，这完全没有必要。你不希望把这个流程搞得昂贵到无法执行。你可以指定一个你信任其品味的人来做，最好是具备领域专业知识的人。很多时候，这个人就是产品经理。",
+   "ts": "00:00:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guests are Hamel Husain and Shreya Shankar. One of the most trending topics on this podcast over the past year has been the rise of evals. Both the chief product officers of Anthropic and OpenAI shared that evals are becoming the most important new skill for product builders. And since then, this has been a recurring theme across many of the top AI builders I've had on. Two years ago, I had never heard the term evals. Now it's coming up constantly. When was the last time that a new skill emerged that product builders had to get good at to be successful? (00:01:41): Hamel and Shreya have played a major role in shifting evals from being an obscure, mysterious subject to one of the most necessary skills for AI product builders. They teach the definitive online course on evals, which happens to be the number one course on Maven. They've now taught over 2,000 PMs and engineers across 500 companies, including large swaths of the OpenAI and Anthropic teams along with every other major AI lab. (00:02:07): In this conversation, we do a lot of show versus tell. We walk through the process of developing an effective eval, explain what the heck evals are and what they look like, address many of the major misconceptions with evals, give you the first few steps you can take to start building evals for your product, and also share just a ton of best practices that Hamel and Shreya have developed over the past few years. This episode is the deepest yet most understandable primer you'll find on the world of evals. And honestly, it got me excited to write evals, even though I have nothing to write evals for. I think you'll feel the same way as you watch this. (00:02:41): If this conversation gets you excited, definitely check out Hamel and Shreya's course on Maven. We'll link to it in the show notes. If you use the code LENNYSLIST when you purchase the course, you'll get 35% off the price of the course. With that, I bring you Hamel Husain and Shreya Shankar. (00:02:58): This episode is brought to you by Fin, the number one AI agent for customer service. If your customer support tickets are piling up, then you need Fin. Fin is the highest-performing AI agent on the market with a 65% average resolution rate. Fin resolves even the most complex customer queries. No other AI agent performs better. In head-head bake-offs with competitors, Fin wins every time. Yes, switching to a new tool can be scary, but Fin works on any help desk with no migration needed, which means you don't have to overhaul your current system or deal with delays in service for your customers. (00:03:31): And Fin is trusted by over 5,000 customer service leaders and top AI companies like Anthropic and Synthesia. And because Fin is powered by the Fin AI engine, which is a continuously improving system that allows you to analyze, train, test, and deploy with ease, Fin can continuously improve your results too. So if you're ready to transform your customer service and scale your support, give Fin a try for only 99 cents per resolution. Plus, Fin comes with a 90-day money-back guarantee. Find out how Fin can work for your team at fin.ai/lenny. That's fin.ai/lenny. (00:04:05): This episode is brought to you by Dscout. Design teams today are expected to move fast, but also to get it right. That's where Dscout comes in. Dscout is the all-in-one research platform built for modern product and design teams. Whether you're running usability tests, interviews, surveys, or in-the-wild fieldwork, Dscout makes it easy to connect with real users and get real insights fast. You can even test your Figma prototypes directly inside the platform. No juggling tools, no chasing ghost participants. And with the industry's most trusted panel plus AI-powered analysis, your team gets clarity and confidence to build better without slowing down. So if you're ready to streamline your research, speed up decisions, and design with impact, head to dscout.com to learn more. That's dscout.com. The answers you need to move confidently. Hamel and Shreya, thank you so much for being here, and welcome to the podcast.",
+   "zh": "今天的嘉宾是 Hamel Husain 和 Shreya Shankar。过去一年里，本播客最热门的话题之一就是评测的兴起。Anthropic 和 OpenAI 的两位首席产品官都曾分享：评测正成为产品构建者最重要的新技能。此后，这也成了我采访过的许多顶尖 AI 构建者反复提及的主题。两年前，我从未听说过 evals 这个词；现在它不断出现。上一次产品构建者为了成功而必须精通一项新技能，是什么时候？(00:01:41)：Hamel 和 Shreya 在把评测从一个晦涩神秘的主题，转变为 AI 产品构建者最必需的技能之一的过程中，发挥了重要作用。他们教授权威的在线评测课程，也是 Maven 上排名第一的课程。如今，他们已为 500 家公司的 2,000 多名产品经理和工程师授课，其中包括 OpenAI 和 Anthropic 团队的大批成员，以及其他所有主要 AI 实验室的成员。(00:02:07)：在这次对话中，我们会少讲理论、多做展示。我们将完整走一遍开发有效评测的过程，解释评测到底是什么、长什么样，回应许多关于评测的主要误解，给出你可以立刻开始为产品构建评测的前几步，并分享 Hamel 和 Shreya 过去几年积累的大量最佳实践。这一期是你能找到的、关于评测世界最深入却又最容易理解的入门指南。说实话，它甚至让我想去写评测，尽管我目前还没有什么东西需要评测。我想你观看时也会有同样的感觉。(00:02:41)：如果这段对话让你感到兴奋，一定去看看 Hamel 和 Shreya 在 Maven 上的课程。链接会放在节目说明里。购买课程时使用代码 LENNYSLIST，可享课程价格七折五。有请 Hamel Husain 和 Shreya Shankar。(00:02:58)：本期节目由 Fin 赞助。Fin 是客户服务领域排名第一的 AI 智能体。如果你的客户支持工单正在堆积，你就需要 Fin。Fin 是市场上表现最好的 AI 智能体，平均解决率达 65%。Fin 能处理最复杂的客户问题，没有其他 AI 智能体表现更好。在与竞争对手的正面比拼中，Fin 每次都能胜出。更换新工具确实可能让人担心，但 Fin 可在任何帮助台上运行，无需迁移。这意味着你不必彻底改造现有系统，也不用让客户服务中断或延误。(00:03:31)：超过 5,000 名客服负责人和 Anthropic、Synthesia 等顶尖 AI 公司都信任 Fin。Fin 由 Fin AI 引擎驱动，这是一个可持续改进的系统，让你能轻松分析、训练、测试和部署，因此 Fin 也能持续改善你的结果。如果你准备好改造客户服务并扩展支持能力，可以以每次解决仅 99 美分的价格试用 Fin。此外，Fin 还提供 90 天退款保证。访问 fin.ai/lenny，了解 Fin 如何为你的团队服务。网址是 fin.ai/lenny。(00:04:05)：本期节目由 Dscout 赞助。如今，设计团队既要行动迅速，也要做对事情，Dscout 正是为此而生。Dscout 是为现代产品和设计团队打造的一体化研究平台。无论你在进行可用性测试、访谈、问卷，还是现场研究，Dscout 都能让你轻松连接真实用户，并迅速获得真实洞察。你甚至可以直接在平台内测试 Figma 原型。不必在多个工具之间周转，也不用追着难找的受访者跑。凭借业内最受信赖的受访者样本库和 AI 驱动的分析，你的团队能在不放慢节奏的前提下，更清晰、更有信心地打造更好的产品。如果你准备好简化研究流程、加快决策并带来有影响力的设计，请访问 dscout.com 了解更多。网址是 dscout.com。你需要的答案，助你从容前进。Hamel 和 Shreya，非常感谢你们来到这里，欢迎来到播客。",
+   "ts": "00:01:09"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Thank you for having us.",
+   "zh": "谢谢邀请我们。",
+   "ts": "00:05:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, super excited.",
+   "zh": "是的，非常兴奋。",
+   "ts": "00:05:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm even more excited. Okay, so a couple years ago, I had never heard the term evals. Now it's one of the most trending topics on my podcast, essentially, that to build great AI products, you need to be really good at building evals. Also, it turns out some of the fastest-growing companies in the world are basically building and selling and creating evals for AI labs. I just had the CEO of Mercor on the podcast. So there's something really big happening here. I want to use this conversation to basically help people understand this space deeply, but let's start with the basics. Just what the heck are evals? For folks that have no idea what we're talking about, give us just a quick understanding of what an eval is, and let's start with Hamel.",
+   "zh": "我更兴奋。好，几年前我从未听说过 evals 这个词。现在它几乎成了我播客里最热门的话题：要打造出色的 AI 产品，你必须非常擅长构建评测。同时，世界上一些增长最快的公司，本质上也在为 AI 实验室构建、销售和提供评测。我刚刚采访了 Mercor 的 CEO。所以这里正发生着非常重大的事。我想借这次对话帮助大家深入理解这个领域，但先从基础开始。评测到底是什么？对于完全不知道我们在说什么的人，请快速解释一下什么是评测。我们先请 Hamel 来说。",
+   "ts": "00:05:07"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Sure. Evals is a way to systematically measure and improve an AI application, and it really doesn't have to be scary or unapproachable at all. It really is, at its core, data analytics on your LLM application and a systematic way of looking at that data, and where necessary, creating metrics around things so you can measure what's happening, and then so you can iterate and do experiments and improve.",
+   "zh": "当然。评测是一种系统性衡量并改进 AI 应用的方法，它完全不必让人害怕或觉得难以接近。其核心其实就是针对你的 LLM 应用做数据分析，并用系统化的方式审视这些数据；在需要时，围绕某些事项建立指标，以便衡量正在发生什么，然后据此迭代、做实验并持续改进。",
+   "ts": "00:05:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So that's a really good broad way of thinking about it. If you go one level deeper just to give people a very, even more concrete way of imagining and visualizing what we're talking about, even if you have a example to show would be even better, what's an even deeper way of understanding what an eval is?",
+   "zh": "这是一个很好的宽泛理解。如果再深入一层，给大家一种更具体的想象和可视化方式，最好再举个例子：还有什么更深入的方式能帮助理解评测？",
+   "ts": "00:06:22"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Let's say you have a real estate assistant application and it's not working the way you want. It's not writing emails to customers the way you want, or it's not calling the right tools, or any number of errors. And before evals, you would be left with guessing. You would maybe fix a prompt and hope that you're not breaking anything else with that prompt, and you might rely on vibe checks, which is totally fine. (00:07:11): And vibe checks are good and you should do vibe checks initially, but it can become very unmanageable very fast because as your application grows, it's really hard to rely on vibe checks. You just feel lost. And so evals help you create metrics that you can use to measure how your application is doing and kind of give you a way to improve your application with confidence. That you have a feedback signal in which to iterate against.",
+   "zh": "假设你有一个房产助手应用，但它没有按你希望的方式工作。它没有按你想要的方式给客户写邮件，或者没有调用正确的工具，又或者出现了各种其他错误。没有评测之前，你只能靠猜。你也许会修改一个提示词，然后祈祷这个提示词没有把其他地方弄坏；你可能还会依赖直觉检查，这完全没问题。(00:07:11)：而且直觉检查是好的，刚开始时也应该做。但它很快就会变得难以管理，因为随着应用增长，很难继续依赖直觉检查。你会感到无从下手。评测能帮助你建立指标，用来衡量应用表现，并让你有把握地改进应用，因为你有了可以据以迭代的反馈信号。",
+   "ts": "00:06:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So just to make very real, so imagining this real estate agent, maybe they're helping you book a listing or go see an open house. The idea here is you have this agent talking to people, it's answering questions, pointing them to things. As a builder of that agent, how do you know if it's giving them good advice, good answers? Is it telling them things that are completely wrong? (00:08:04): So the idea of evals, essentially, is to build a set of tests that tell you, how often is this agent doing something wrong that you don't want it to do? And there's a bunch of ways you could define wrong. It could be just making up stuff. It could be just answering in a really strange way. The way I think about evals, and tell me if this is wrong, just simply is like unit tests for code. You're smiling. You're like, \"No, you idiot.\"",
+   "zh": "为了说得更具体一点，想象这个房产智能体：它也许在帮你预约看房，或去看开放日房源。它会与人交流、回答问题、引导他们找到信息。作为构建这个智能体的人，你怎么知道它给出的建议和回答是否优质？它会不会告诉用户完全错误的内容？(00:08:04)：所以，评测的核心想法其实就是构建一套测试，告诉你这个智能体有多频繁地做了你不希望它做的错误事情。对错误可以有很多定义：它可能是在编造信息，也可能只是回答得非常奇怪。我对评测的理解，请告诉我是否不对，就是它像代码的单元测试。你在笑。你是在说：\"不，你这个傻瓜。\"",
+   "ts": "00:07:44"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "No, that's not what I was thinking.",
+   "zh": "不，那不是我在想的。",
+   "ts": "00:08:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Okay, okay, tell me. Tell me, how does that feel as a metaphor?",
+   "zh": "好，好，好，告诉我。你觉得这个比喻怎么样？",
+   "ts": "00:08:31"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Okay. I like what you said first, which is we had a very broad definition. Evals is a big spectrum of ways to measure application quality. Now, unit tests are one way of doing this. Maybe there are some non-negotiable functionalities that you want your AI assistant to have, and unit tests are going to be able to check that. Now, maybe you also, because these AI assistants are doing such open-ended tasks, you kind of also want to measure how good are they at very vague or ambiguous things like responding to new types of user requests or figuring out if there's new distributions of data like new users are coming and using your real estate agent that you didn't even know would use your product. And then all of a sudden, you think, \"Oh, there's a different way you want to kind of accommodate this new group of people.\" (00:09:24): So evals could also be a way of looking at your data regularly to find these new cohorts of people. Evals could also be like metrics that you just want to track over time, like you want to track people saying, \"Yes. Thumbs up. I liked your message.\" You want very, very basic things that are not necessarily AI-related but can go back into this flywheel of improving your product. So I would say, overall, unit tests are a very small part of that very big puzzle.",
+   "zh": "好。我喜欢你先前说的部分：我们给出了一个很宽泛的定义，评测是一整套衡量应用质量的方法。单元测试是其中一种方式。也许你希望 AI 助手必须具备某些不可妥协的功能，单元测试可以检查这些功能。但因为这些 AI 助手在完成非常开放式的任务，你可能还想衡量它们在一些模糊或含混问题上的表现，例如回应新类型的用户请求，或识别数据分布的变化。比如有一些你根本没预料到的新用户，开始使用你的房产智能体，随后你发现：哦，可能需要用不同的方式来服务这一群新用户。(00:09:24)：因此，评测也可以是定期查看数据、发现这些新用户群体的一种方式。评测还可以是你想长期追踪的指标，例如追踪用户是否会说：\"是的，点赞，我喜欢你的消息。\"你会需要很多非常基础、未必与 AI 直接相关的指标，但它们可以回流到这个持续改进产品的飞轮中。总的来说，单元测试只是那幅大拼图中很小的一部分。",
+   "ts": "00:08:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. You guys actually brought an example of an eval just to show us exactly what the hell we're talking about. We're talking in these big ideas. So how about let's pull one up and show people, \"Here's what an eval is.\"",
+   "zh": "太棒了。你们其实带来了一个评测示例，正好让我们看看我们到底在说什么。刚才一直在讲宏观概念，不如直接打开一个，向大家展示：这就是一个评测。",
+   "ts": "00:09:56"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, let me just set the stage for it a little bit. So to echo what Shreya said, it's really important that we don't think of evals as just tests. There's a common trap that a lot of people fall into because they jump straight to the test like, \"Let me write some tests,\" and usually that's not what you want to do. You should start with some kind of data analysis to ground what you should even test, and that's a little bit different than software engineering where you have a lot more expectations of how the system is going to work. With LLMs, it's a lot more surface area. It's very stochastic, so you kind of have a different flavor here. (00:10:47): And so the example I'm going to show you today, it's actually a real estate example. It's a different kind of real estate example. It's from a company called Nurture Boss. I can share my screen to show you their website just to help you understand this use case a little bit, so let me share my screen. So this is a company that I worked with. It's called Nurture Boss, and it is a AI assistant for property managers who are managing apartments, and it helps with various tasks such as inbound leads, customer service, booking appointments, so on and so forth. It's like all the different sort of operations you might be doing as a property manager, it helps you with that. And so you can see kind of what they do. It's a very good example because it has a lot of the complexities of a modern AI application. (00:11:40): So there's lots of different channels that you can interact through the AI with like chat, text, voice, but also, there's tool calls, lots of tool calls for booking appointments, getting information about availability, so on and so forth. There's also RAG retrieval, getting information about customers and properties and things like that. So it's pretty fully fleshed in terms of an AI application. And so they have been really generous with me in allowing me to use their data as a teaching example. And so we have anonymized it, but what I'm going to walk through today is, okay, let's do the first part of how we would start to build evals for Nurture Boss. Why would we even want to do that? (00:12:36): So let's go through the very beginning stage, what we call error analysis, which is, let's look at the data of their application and first start with what's going wrong. So I'm going to jump to that next, and I'm going to open an observability tool. And you can use whatever you want here. I just happen to have this data loaded in a tool called Braintrust, but you can load it in anything. We don't have a favorite tool or anything in the blog post that we wrote with you. We had the same example but in Phoenix Arize, and I think Aman, on your blog post, used Phoenix Arize as well. And there's also LangSmith. So these are kind of like different tools that you can use. (00:13:29): So what you see here on the screen, this is logs from the application, and let me just show you how it looks. So what you see here is, and let me make it full screen, this is one particular interaction that a customer had with the Nurture Boss application, and what it is is a detailed log of everything that happened. So it's called a trace, and it's just the engineering term for logs of a sequence of events. The concept of a trace has been around for a really long time, but it's especially really important when it comes to AI applications. (00:14:12): And so we have all the different components and pieces and information that the AI needs to do its job, and we are logged all of it and we're looking at a view of that. And so you see here a system prompt. The system prompt says, \"You are an AI assistant working as a leasing team member at Retreat at Acme Apartments.\" Remember, I said this is anonymized, so that's why the name is Acme Apartments. \"Your primary role is to respond to text messages from both current residents and prospective residents. Your goal is to provide accurate, helpful information,\" yada, yada, yada. And then there's a lot of detail around guidelines of how we want this thing to behave.",
+   "zh": "好，我先稍微交代一下背景。呼应 Shreya 所说的，非常重要的一点是，不能只把评测当成测试。很多人会掉进一个常见陷阱：他们直接跳到测试上，心想：\"让我写些测试。\"但通常这不是你最该先做的。你应该先做某种数据分析，借此确定到底该测试什么；这和软件工程有些不同，因为在软件工程里，你对系统如何工作有更多预期。LLM 的覆盖面大得多，也高度随机，因此这里的做法不一样。(00:10:47)：今天我要展示的例子是一个房地产案例，但与刚才的类型不同，来自一家名为 Nurture Boss 的公司。我可以分享屏幕，展示他们的网站，帮助你稍微理解这个用例。我曾与这家公司合作过，Nurture Boss 是面向公寓物业管理人员的 AI 助手，可协助处理潜在客户咨询、客户服务、预约等各种事务。作为物业经理可能会处理的各类运营工作，它都能提供帮助。它是很好的例子，因为它具备现代 AI 应用的许多复杂性。(00:11:40)：用户可以通过聊天、短信、语音等许多不同渠道与 AI 互动；此外还有工具调用，包括大量用于预约、查询可用信息等的工具调用。它也有 RAG 检索，用于获取客户、房源等相关信息。作为 AI 应用来说，它相当完整。他们非常慷慨地允许我把他们的数据作为教学案例。我们已将其匿名化；今天我要带大家走的是：我们该如何开始为 Nurture Boss 构建评测？又为什么要这样做？(00:12:36)：让我们从最开始的阶段讲起，我们称之为错误分析，也就是先查看应用数据，找出哪里出了问题。接下来我会打开一个可观测性工具。你可以使用任何工具；我只是恰好把数据加载到了一个叫 Braintrust 的工具里。我们没有偏爱的工具。在我们和你一起写的博客文章中，我们用同一个例子展示了 Phoenix Arize；我想 Aman 在你的博客文章里也使用了 Phoenix Arize。另外还有 LangSmith，这些都是可以使用的不同工具。(00:13:29)：你现在屏幕上看到的是应用日志，我先让你看看它是什么样子。让我全屏一下：这是一个客户与 Nurture Boss 应用进行的特定交互，其中详细记录了发生的一切。它被称为 trace，也就是一连串事件日志的工程术语。trace 这个概念已经存在很久，但对 AI 应用尤其重要。(00:14:12)：我们记录了 AI 完成工作所需的各种组件、信息和环节，现在看到的就是这些记录。你会看到一个系统提示词，它写着：\"你是一名 AI 助手，作为 Retreat at Acme Apartments 租赁团队的一员工作。\"记得我说过数据已经匿名化了，所以才会用 Acme Apartments 这个名字。\"你的主要职责是回复现有住户和潜在住户的短信。你的目标是提供准确、有帮助的信息。\"诸如此类。后面还有很多关于我们希望这个系统如何表现的详细指南。",
+   "ts": "00:10:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is this their actual system prompt, by the way, for this company?",
+   "zh": "顺便问一下，这是这家公司实际使用的系统提示词吗？",
+   "ts": "00:14:56"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "It is. Yes, it is.",
+   "zh": "是的，没错。",
+   "ts": "00:14:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. That's so cool.",
+   "zh": "太棒了，太酷了。",
+   "ts": "00:14:58"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "It's a real system prompt.",
+   "zh": "这是真实的系统提示词。",
+   "ts": "00:14:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's amazing because it's rare you see a actual company product's system prompt. That's like their crown jewels a lot of times, so this is actually very cool on its own.",
+   "zh": "这太棒了，因为你很少能看到一家真实公司产品的系统提示词。很多时候那就像他们的核心机密，所以仅这一点就已经很酷了。",
+   "ts": "00:15:01"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. Yeah, it's really cool. And you see all of these different sort of features that are different use cases, so things about tour scheduling, handling applications, guidance on how to talk to different personas, so on and so forth. And you can see the user just kind of jumps in here and asks, \"Okay, do you have a one-bedroom with study available? I saw it on virtual tours.\" And then you can see that the LLM calls some tools. It calls this get individual's information tool, and it pulls back that person's information. And then it gets the community's availability. So it's querying a database with the availability for that apartment complex. (00:16:01): And then finally, the AI responds, \"Hey, we have several one-bedroom apartments available, but none specifically listed with a study. Here are a few options.\" (00:16:12): And then it says, \"Can you let me know when one with a study is available?\" (00:16:16): And then it says, \"I currently don't have specific information on the availability of a one-bedroom apartment.\" (00:16:23): User says, \"Thank you.\" (00:16:25): And the AI says, \"You're welcome. If you have any more questions, feel free to reach out.\" Now, this is an example of a trace, and we're looking at one specific data point. And so one thing that's really important to do when you're doing data analysis of your LLM application is to look at data. Now, you might wonder, \"There's a lot of these logs. It's kind of messy. There's a lot of things going on here. How in the hell are you supposed to look at this data? Do you want to just drown in this data? How do you even analyze this data?\" (00:17:07): So it turns out there is a way to do it that is completely manageable, and it's not something that we invented. It's been around in machine learning and data science for a really long time, and it's called error analysis. And what you do is, the first step in conquering data like this is just to write notes. Okay? So you got to put your product hat on, which is why we're talking to you, because product people have to be in the room and they have to be involved in sort of doing this. Usually a developer is not suited to do this, especially if it's not a coding application.",
+   "zh": "是的，确实很酷。你能看到各种不同功能和用例，例如看房预约、处理申请、如何与不同用户角色沟通的指引，等等。用户进来问：\"好的，你们有带书房的一居室吗？我在虚拟看房里看到了。\"随后你可以看到 LLM 调用了几个工具：它调用了获取个人信息的工具，拉取这个人的信息；然后又查询社区房源可用情况，也就是查询这个公寓社区的房源数据库。(00:16:01)：最后，AI 回复说：\"你好，我们有几套一居室公寓可供选择，但没有明确标注带书房的。这里有几个选项。\"(00:16:12)：随后用户说：\"如果有带书房的房源，你能告诉我吗？\"(00:16:16)：AI 说：\"我目前没有关于带书房一居室公寓可用情况的具体信息。\"(00:16:23)：用户说：\"谢谢。\"(00:16:25)：AI 说：\"不客气。如果你还有其他问题，随时联系。\"这就是一个 trace 的例子，我们正在查看一个具体数据点。对 LLM 应用做数据分析时，非常重要的一件事就是直接看数据。你可能会想：\"这里有很多日志，乱糟糟的，发生了很多事。到底该怎么看这些数据？难道要淹没在这些数据里吗？又该如何分析？\"(00:17:07)：其实有一种完全可控的方法，而且不是我们发明的。它在机器学习和数据科学领域已经存在很久，叫作错误分析。面对这类数据，第一步就是写下笔记。明白吗？你得戴上产品帽，这也是我们正在和你聊这个话题的原因：产品人员必须在场，并参与这类工作。通常，开发者并不适合独自做这件事，特别是在不是编程类应用的时候。",
+   "ts": "00:15:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And just to mirror back, why I think you're saying that is because this is the user experience of your product. People talking to this agent is the entire product essentially, and so it makes sense for the product person to be super involved in this.",
+   "zh": "我来复述一下：我理解你之所以这么说，是因为这就是你产品的用户体验。用户与这个智能体交谈，本质上就是整个产品，所以产品人员深度参与其中是很合理的。",
+   "ts": "00:17:47"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. So let's reflect on this conversation. Okay, a user asked about availability. The AI said, \"Oh, we don't really have that. Have a nice day.\" Now, for a product that is helping you with lead management, is that good? Do you feel like this is the way we want it to go?",
+   "zh": "是啊。所以让我们回顾一下这次对话。好的，有位用户询问了产品的可用性。人工智能回答说：“哦，我们这里确实没有这个功能。祝你今天愉快。” 现在，针对一款帮助你进行潜在客户管理的产品，这样的回应合适吗？你觉得这正是我们希望的服务体验吗？",
+   "ts": "00:17:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Not ideal.",
+   "zh": "不是很理想。",
+   "ts": "00:18:30"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yes, not ideal, and I'm glad you said that. A lot of people would say, \"Oh, it's great. The AI did the right thing. It looked, it said, 'We didn't have available,' and it's not available.\" But with your product hat on, you know that's not correct. And so what you would do is you would just write a quick note here. You would say, \"Okay.\" You might pop in here, and you can write a note. So every observability application has ability to write notes, and you wouldn't try to figure out if something is wrong. In this case, it's kind of not doing the right thing, but you just write a quick note, \"Should have handed off to a human.\"",
+   "zh": "是的，这确实不理想，我很高兴你能指出这一点。很多人的反应可能是：\"哦，太棒了。AI做得很正确。它查看了数据，提示'我们没有空房'，然后就认定确实没有空房了。\"但从产品角度来看，你知道这种处理方式并不正确。所以你只需在这里快速记录一下情况。比如你可以写道：\"好的，我需要处理这个问题。\"你可以在系统中添加备注，每个可观测性应用都具备添加备注的功能，这样你就不必去纠结是否存在什么问题。这种情况下，AI的处理方式确实不符合预期，但你只需简单记录一下：\"应该把这个任务交给人工处理的。\"",
+   "ts": "00:18:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And as we watch this happening, it's like you mention this and you'll explain more. You're doing this, this feels very manual and unscalable, but as you said, this is just one step of the process and there's a system to this. That was just the first one.",
+   "zh": "看着这一切发生，感觉你提到了这件事，但还需要进一步解释。你现在做的事情看起来非常依赖人工操作，缺乏可扩展性。但正如你所说，这只是整个流程中的一步，背后肯定有系统的支撑。这只是第一步。",
+   "ts": "00:19:19"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, and you don't have to do it for all of your data. You sample your data and just take a look, and it's surprising how much you learn when you do this. Everyone that does this immediately gets addicted to it and they say, \"This is the greatest thing that you can do when you're building an AI application.\" You just learn a lot and you're like, \"Hmm, this is not how I want it to work. Okay.\" And so that's just an example. (00:19:58): So you write this note, and then we can go on to the next trace. So this is the next trace. I just pushed a hot key on my keyboard. Let me go back to looking at it.",
+   "zh": "是啊，你不必对所有数据都这样做。你只需抽样部分数据进行分析，结果会让你惊讶地发现能从中获取大量信息。每个尝试过的人都会立刻沉迷其中，并感叹：\"这真是开发人工智能应用时最棒的做法。\"你能学到很多东西，然后会想：\"嗯，我不希望它这样运行。好吧。\"这只是个例子。（00:19:58）你写下这段注释后，我们就可以继续下一个跟踪了。这是下一个跟踪。我刚在键盘上按了一个快捷键。让我再回来看看。",
+   "ts": "00:19:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And these tools make it easy to go through a bunch and add these notes quickly.",
+   "zh": "这些工具能让用户轻松浏览大量内容，并快速添加注释。",
+   "ts": "00:20:09"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yes. And so this is another one. Similar system prompt. We don't need to go through all of it again. We'll just jump right into the user question. \"Okay, I've been texting you all day.\" Isn't that funny? And the user says, \"Please.\" Okay, yeah, this one is just like an error in the application where this is a text message application, sorry, the channel through which the customer is communicating is through text message, and you're just getting really garbled. And you can see here that it kind of doesn't make sense. The words are being cut off like, \"In the meantime,\" and then the system doesn't know how to respond, because you know how people text message, they write short phrases. They split their sentence across four or five different turns. So in this case-",
+   "zh": "是的。这又是一个类似的系统提示。我们不需要再把整个过程讲一遍，直接进入用户的问题部分。\"好的，我一整天都在给你发短信。\"这不是很有趣吗？用户说：\"拜托。\"好的，是的，这个问题其实是应用程序中的一个错误。这是一个短信应用程序，抱歉，客户是通过短信进行沟通的，但你收到的消息却语无伦次。你可以看到这里内容有些不通顺，比如\"与此同时\"之类的词被截断了，而系统也不知道该如何回应，因为你知道人们发短信时通常会用简短的句子，把一句话分成四五个短语。所以在这种情况下——",
+   "ts": "00:20:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, so what do you do with something like that?",
+   "zh": "是啊，那遇到这种情况该怎么处理呢？",
+   "ts": "00:21:16"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, so this is a different kind of error.",
+   "zh": "是啊，所以这是一种不同类型的错误。",
+   "ts": "00:21:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm.",
+   "zh": "嗯。",
+   "ts": "00:21:19"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "This is more of, \"Hey, we're not handling this interaction correctly. This is more of a technical problem,\" rather than, \"Hey, the AI is not doing exactly what we want.\" So we would write that down too.",
+   "zh": "这更像是在说，\"嘿，我们处理这次互动的方式不对。这更多是一个技术问题\"，而不是\"嘿，人工智能没有完全按照我们的要求去做。\"所以我们也会把这部分记录下来。",
+   "ts": "00:21:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Which is still really cool.",
+   "zh": "不过这仍然很酷啊。",
+   "ts": "00:21:20"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:21:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's amazing you're catching that, too, here. Otherwise, you'd have no idea this was happening.",
+   "zh": "真没想到你在这儿也能注意到这事。要不然你根本不会知道这事正在发生。",
+   "ts": "00:21:31"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, you might not know this is happening, right? And so you would just say, \"Okay.\" You would write a note like, \"Oh, conversation flow is janky because of text message.\"",
+   "zh": "是啊，你可能都不知道这事儿正在发生，对吧？所以你只能说，“好吧。”然后写个备注，比如“哎，聊天进度卡得这么严重，肯定是短信的问题。”",
+   "ts": "00:21:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I like that, I like that you're using the word janky. It shows you just how informal this can be at this stage.",
+   "zh": "嗯，我喜欢这样，我喜欢你用“不靠谱”这个词。这显示出在现阶段交流可以有多随意、多口语化。",
+   "ts": "00:21:51"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, it's supposed to be chill. Just don't overthink it. And there's a way to do this. So the question always comes up, how do you do this? Do you try to find all the different problems in this trace? What do you write a note about? And the answer is, just write down the first thing that you see that's wrong, the most upstream error. Don't worry about all the errors, just capture the first thing that you see that's wrong, and stop, and move on. And you can get really good at this. The first two or three can be very painful, but you can do a bunch of them really fast. (00:22:38): So here's another one, and let's skip the system prompt again. And the user asks, \"Hey, I'm looking for a two- to three-bedroom with either one or two baths. Do you provide virtual tours?\" (00:22:51): And a bunch of tools are called and it says, \"Hi Sarah. Currently, we have three-bedroom, two-and-a-half-bathroom apartment available for $2,175. Unfortunately, we don't have any two-bedroom options at the moment. We do offer virtual tours. You can schedule a tour,\" blah, blah. It just so happens that there is no virtual tour, right?",
+   "zh": "是啊，本来就应该保持轻松。别想太多。做这件事有诀窍的。所以总有人问，具体该怎么做？要逐一找出日志中的所有问题吗？该记录哪些内容？答案是：先记下你第一眼看到的错误，最根本的那个。别纠结于所有错误，抓住最明显的那个就停下，继续往下看。这样练多了自然熟练。前两三次可能会很痛苦，但之后就能快速应对了。（00:22:38）再看另一个例子，还是跳过系统提示。用户问：“嘿，我想找一套两到三居室的房子，带一到两个卫生间。你们提供虚拟看房服务吗？” （00:22:51）系统调用了多个工具，回复道：“嗨，莎拉。目前我们有三居室、两卫半的公寓在出租，价格2175美元。很遗憾，目前没有两居室房源。我们确实提供虚拟看房服务，你可以预约看房”之类的。但关键是现在根本没有虚拟看房功能，对吧？",
+   "ts": "00:21:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm. Nice.",
+   "zh": "嗯，不错啊。",
+   "ts": "00:23:16"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "So it is hallucinating something that doesn't exist. Then you kind of have to bring your context as an engineer, or even product content, and say, \"Hey, this is kind of weird. We shouldn't be telling a person about virtual tour when it's not offered.\" (00:23:32): So you would say, \"Okay, offered virtual tour,\" and you just write the note. So you can see there's a diversity of different kinds of errors that we're seeing, and we're actually learning a lot about your application in a very short amount of time.",
+   "zh": "也就是说，用户看到了一些根本不存在的东西。这时候，作为工程师或产品负责人，我们需要结合上下文，指出：“嘿，这有点奇怪。我们不应该向用户推荐虚拟导览服务，如果这项功能根本不存在的话。” （00:23:32）然后，你可以回复：“好的，虚拟导览功能已启用。”并记录下相关信息。由此可见，我们发现了各种各样的错误类型，而且在极短的时间内就对你的应用有了深入的了解。",
+   "ts": "00:23:16"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "One common question that we get from people at this stage is, \"Okay, I understand what's going on. Can I ask an LLM to do this process for me?\"",
+   "zh": "现阶段，我们经常收到人们提出的一个常见问题是：“好的，我明白整个流程了。那我能请LLM（法律硕士）来帮我完成这个步骤吗？”",
+   "ts": "00:23:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm, great question.",
+   "zh": "嗯，问得好。",
+   "ts": "00:24:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "And I loved Hamel's most recent example because what we usually find when we try to ask an LLM to do this error analysis is it just says the trace looks good because it doesn't have the context needed to understand whether something might be bad product smell or not. For example, the hallucination about scheduling the tour, right? I can guarantee you, I would bet money on this, if I put that into chat GPT and asked, \"Is there an error?\" it would say, \"No, did a great job.\" (00:24:34): But Hamel had the context of knowing, \"Oh, we don't actually have this virtual tour functionality,\" right? So I think, in these cases, it's so important to make sure you are manually doing this yourself. And we can talk a little bit more about when to use LLMs in the process later, but number one pitfall right here is people are like, \"Let me automate this with an LLM.\"",
+   "zh": "还有，我特别喜欢哈梅尔最近举的那个例子，因为当我们让LLM做错误分析时，通常得到的结果是它会说\"追踪记录看起来没问题\"，因为它缺乏必要的上下文来判断某个问题是否属于产品缺陷。就拿那个关于安排参观行程的幻觉来说吧，我敢打赌，如果把这个问题输入到ChatGPT并问它\"这里有错误吗？\"它肯定会回答\"没有啊，表现得很好\"。（00:24:34）但哈梅尔清楚上下文，知道\"我们根本没有虚拟导览功能\"，对吧？所以我觉得在这种情况下，手动检查就显得尤为重要。之后我们可以再详细探讨何时在流程中使用LLM，但眼下最需要警惕的陷阱就是人们会想：\"让我用LLM把这事自动化吧。\"",
+   "ts": "00:24:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you think we'll get to a place where an agent can do this, where it has that context?",
+   "zh": "你觉得我们能达到这样一个阶段吗？到那时，代理系统能做到这一点，并且具备相应的语境理解能力。",
+   "ts": "00:24:55"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Oh, no. No, no, no. Sorry. There are parts of error analysis that an LLM is suited for, which we could talk about later in this podcast. But right now, in this stage of free form, note-taking is not the place for an LLM.",
+   "zh": "哦，不行。不不不，对不起。错误分析中有些部分确实适合用LLM来处理，我们可以等下在播客里再讨论这个问题。但现在，在这个自由发挥、做笔记的阶段，LLM并不适用。",
+   "ts": "00:24:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. And this is something you call open coding, this step?",
+   "zh": "明白了。那这一步就是你们所说的开放式编码吗？",
+   "ts": "00:25:13"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yes, absolutely.",
+   "zh": "是的，当然可以。",
+   "ts": "00:25:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Another term that you used in your posts that I love and that fits into this step is this idea of a benevolent dictator. Maybe just talk about what that is, and maybe, Shreya, cover that.",
+   "zh": "太棒了。你帖子里还有个词我很喜欢，也很符合这一步骤，那就是\"仁慈的独裁者\"这个概念。或许你可以先讲讲这个词的含义，Shreya，你来负责讲解一下这个概念吧。",
+   "ts": "00:25:17"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, so Hamel actually came up with this term.",
+   "zh": "是的，实际上是哈梅尔提出了这个术语。",
+   "ts": "00:25:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, maybe Hamel cover that, actually.",
+   "zh": "好吧，或许哈梅尔能处理这部分，实际上。",
+   "ts": "00:25:29"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "No problem. And we'll actually show the LLM automation in this example, because we're going to take this example, we're going to go all the way through.",
+   "zh": "没问题的。实际上，在这个示例中，我们会演示LLM自动化技术的应用过程，因为我们打算把这个示例完整地走一遍。",
+   "ts": "00:25:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing.",
+   "zh": "太棒了。",
+   "ts": "00:25:40"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "And so benevolent dictator is just a catchy term for the fact that when you're doing this open coding, a lot of teams get bogged down in having a committee do this. And for a lot of situations, that's wholly unnecessary. People get really uncomfortable with, \"Okay, we want everybody on board. We want everybody involved,\" so on and so forth. You need to cut through the noise. And a lot of organizations, if you look really deeply, especially small, medium-sized companies, you can appoint one person whose tastes that you trust. And you can do this with a small number of people and often one person, and it's really important to make this tractable. You don't want to make this process so expensive that you can't do it. You're going to lose out. (00:26:36): So that's the idea behind benevolent dictator, is, \"Hey, you need to simplify this across as many dimensions as you can.\" Another thing that we'll talk about later is when it goes to building an LLM as a judge, you need a binary score. You don't want to think about, \"Is this like a 1, 2, 3, 4, 5?\" Like, assign a score to it. You can't. That's going to slow it down.",
+   "zh": "因此，\"仁慈独裁者\"这个说法只是一个吸引人的术语，意思是在进行开放式编码时，很多团队会陷入让委员会来做这件事的困境。而在很多情况下，这完全没有必要。人们会对\"好吧，我们希望每个人都参与进来，每个人都出一份力\"之类的说法感到不耐烦。你需要排除这些干扰。许多组织，如果你深入观察，尤其是中小型公司，你可以任命一个你信任的人来做这件事。只需少数人参与，通常只需一个人即可，而让这个过程易于管理非常重要。你不希望让这个过程过于复杂，以至于无法实施，否则你会吃亏的。（00:26:36）所以\"仁慈独裁者\"背后的理念就是：\"嘿，你需要尽可能在多个维度上简化这个过程。\"另外，我们稍后会讨论，当将LLM作为评判者时，需要一个二进制评分。你不会去考虑\"这像1、2、3、4、5分吗？\"之类的问题，而是给它一个评分。但你做不到。这会拖慢整个进程。",
+   "ts": "00:25:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to make sure this benevolent dictator point is really clear, basically, this is the person that-",
+   "zh": "Just to make sure this benevolent dictator point is really clear, basically, this is the person that-",
+   "ts": "00:26:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Make sure this benevolent dictator point is really clear. Basically, this is the person that does this note-taking, and ideally they're the expert on the stuff. So if it's law stuff, maybe there's a legal person that owns this, it could be a product manager. Give us advice on who this person should be?",
+   "zh": "一定要让大家清楚这个\"仁慈独裁者\"的角色定位。简单来说，这个角色负责做笔记记录，理想情况下应该精通相关领域。比如说法律相关的笔记，可能就需要由法务人员负责；而产品经理可能更适合处理产品相关的笔记。能给我们一些建议，应该由谁来担任这个角色吗？",
+   "ts": "00:27:00"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. It should be the person with domain expertise. So in this case, it would be the person who understands the business of leasing, apartment leasing, and has context to understand if this makes sense. It's always a domain expert, like you said. Okay. For legal, it would be a law person. For mental health, it would be the mental health expert, whether that's a psychiatrist or someone else.",
+   "zh": "是的。应该由具备领域专业知识的人来负责。所以在这种情况下，就是那个了解租赁业务、公寓租赁，并且能够判断这种做法是否合理的人。这永远都是领域专家，正如你所说。好的。对于法律事务，就需要找法律专业人士；而对于心理健康领域，就要找心理健康专家，无论是精神科医生还是其他相关人士。",
+   "ts": "00:27:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool.",
+   "zh": "太酷了。",
+   "ts": "00:27:41"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Though oftentimes, it is the product manager.",
+   "zh": "尽管很多时候，实际承担这项任务的往往是产品经理。",
+   "ts": "00:27:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. So the advice here is pick that person. It may not feel so super fair that they're the one in charge and they're the dictator, but they're benevolent. It's going to be okay.",
+   "zh": "太棒了。所以这里的建议就是选那个人。可能你会觉得让他们当老大、当独裁者不太公平，但他们其实是善良的。一切都会好起来的。",
+   "ts": "00:27:44"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. It's going to be okay. It's not perfection. You're just trying to make progress and get signal quickly so you have an idea of what to work on because it can become infinitely expensive if you're not careful.",
+   "zh": "是啊，一切都会好起来的。这并非完美之作。你只是想尽快取得进展，快速获得反馈，这样就能明确接下来的改进方向。若不加以注意，成本可能会无限攀升。",
+   "ts": "00:27:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Okay, cool. Let's go back to your examples.",
+   "zh": "是啊。好的，太棒了。那我们再回头看看你提到的那些例子吧。",
+   "ts": "00:28:07"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, no problem. So this is another example where we have someone saying, \"Okay. Do you have any specials?\" And the assistant or the AI responds, \"Hey, we have a 5% military discount.\" User responds, and it switches the subject, \"Can you tell me how many floors there are? Do you have any one-bedrooms available or one-bedrooms on the first floor?\" And the AI responds, \"Yeah, okay. We have several one-bedroom apartments available.\" And then the user wants to confirm, \"Any of those on the first floor and how much are the one-bedrooms?\" And then also, it's a current resident, so they're also asking, \"I need a maintenance request.\" (00:28:56): You could see the messiness of the real world in here, and the assistant just calls a tool that says transfer call, but it doesn't say anything. It just abruptly does transfer call, so it's pretty jank, I would say. It's just not-",
+   "zh": "好的，没问题。这里又是一个例子，用户问：“好的，你们有任何优惠活动吗？”助手或AI回复：“嘿，我们有5%的军人折扣。” 用户接着换个话题：“能告诉我这栋楼有几层吗？你们有首层的一居室房源吗？” 助手回应：“好的，我这里有几套一居室公寓可供选择。” 用户追问：“首层的房源有吗？一居室房租多少钱？” 而对方则直接回复：“有的，首层的房源可以选。” 这时用户又补充说：“我需要提交一份维修请求。” （00:28:56）：可以看到现实世界中的混乱场景，助手只是调用了一个名为“转接通话”的工具，但没有任何提示语，只是不停地挂断电话转接到其他部门，整个流程非常不流畅，简直可以用“卡顿”来形容。简直就是……",
+   "ts": "00:28:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Another jank.",
+   "zh": "又一个烂作。",
+   "ts": "00:29:13"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Another kind of jank, a different kind of jank. So when you write the open note, you don't want to say jank, because what we want to do is we want to understand, and when we look at the notes later on, we want to understand what happened. (00:29:24): So you just want to say, \"Did not confirm call transfer with user.\" And it doesn't have to be perfect. You just have to have a general idea of what's going on.",
+   "zh": "另一种卡顿，另一种不同类型的卡顿。所以当你写备注时，别用\"卡顿\"这个词，因为我们的目标是理解问题。回头看这些备注时，我们需要明白当时发生了什么。（00:29:24）所以你只需写下\"未与用户确认通话转接\"即可。没必要追求完美，只要能大致理解当时的情况就行。",
+   "ts": "00:29:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool.",
+   "zh": "太棒了。",
+   "ts": "00:29:39"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "So, okay. So let's say we do, and Shreya and I, we recommend doing at least 100 of these. The question is always, \"How many of this do you do?\" And so there's not a magic number. We say 100 just because we know that as soon as you start doing this, once you do 20 of these, you will automatically find it so useful that you will continue doing it. (00:30:07): So we just say 100 to mentally unblock you, so it's not intimidating. It's like, \"Don't worry, you're only going to do 100.\" And there is a term for that, so the right answer is, \"Keep looking at traces until you feel like you're not learning anything new.\" Maybe Shreya should talk about-",
+   "zh": "好的，假设我们真的这么做了，那我和什雷亚建议至少要完成100次。问题总会是：“你每次要做多少次？”其实并没有一个固定的数字。我们之所以建议100次，是因为我们知道，一旦你开始做这个练习，当你完成20次后，你会自然地发现它非常有用，从而继续坚持下去。（00:30:07）所以我们设定100次的目标，是为了在心理上打破你的畏难情绪，让这个目标不显得令人生畏。就好像在说：“别担心，你只需要完成100次。”对此有个术语，正确的答案是：“继续观察示例，直到你觉得自己没有学到新东西为止。” 或许什雷亚应该接着讲讲……",
+   "ts": "00:29:39"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah. So there's actually a term-",
+   "zh": "是啊。所以实际上有个术语——",
+   "ts": "00:30:30"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "... that.",
+   "zh": "... that.",
+   "ts": "00:30:31"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "... in data analysis and qualitative analysis called theoretical saturation. So what this means is when you do all of these processes of looking at your data, when do you stop? It's when you are theoretically saturating or you're not uncovering any new types of notes, new types of concepts, or nothing that will materially change the next part of your process. (00:30:57): And this kind of takes a little bit of intuition to develop, so typically, people don't really know when they've reached theoretical saturation yet. That's totally fine. When you do two or three examples or rounds of this, you will develop the intuition. A lot of people realize, \"Oh, okay. I only need to do 40, I only need to do 60. Actually, I only need to do 15.\" I don't know. Depends on the application and depends on how savvy you are with error analysis for sure.",
+   "zh": "……在数据分析和定性分析中，存在一个概念叫做“理论饱和”。这意味着，当你完成所有数据查阅过程后，何时该停止？就是当你从理论角度看待数据时，再也发现不了任何新类型的笔记、新类型的概念，或是任何能显著影响后续分析流程的信息时。（00:30:57）这需要培养一定的直觉判断力，因此通常来说，人们并不知道自己何时达到了理论饱和阶段。这完全没关系。当你完成两到三轮这样的分析后，直觉会逐渐形成。许多人会意识到：“哦，原来只需要分析40个案例、60个案例，实际上只需要15个就够了。” 这取决于具体应用场景，也取决于你对误差分析的熟练程度。",
+   "ts": "00:30:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And your point about you're going to want to do a bunch. I imagine it's because you're just like, \"Oh, I'm discovering all these problems. I got to see what else is going on here.\"",
+   "zh": "还有你说你会想做很多事。我想这可能是因为你会觉得，\"哦，我发现了这么多问题。我得看看这里还有什么其他情况。\"",
+   "ts": "00:31:25"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Exactly.",
+   "zh": "确实如此。",
+   "ts": "00:31:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is that right?",
+   "zh": "是这样吗？",
+   "ts": "00:31:34"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "And promise, at some point, you're not going to discover new types of problems.",
+   "zh": "并且保证，在某个阶段，你不会再发现新的问题类型了。",
+   "ts": "00:31:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Awesome. So let's say you did 100 of these, what's the next step?",
+   "zh": "是啊 太棒了。那假设你已经完成了100个这样的步骤，接下来该怎么做呢？",
+   "ts": "00:31:39"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. Okay. So you did 100 of these. Now you have all these notes. So this is where you can start using AI to help you. So the part where you looked at this data is important, like we discussed. You don't want to automate this part too much.",
+   "zh": "是啊，好的。所以你已经完成了100次这样的操作，现在你手头有这些笔记了。这时候你就可以开始借助人工智能来辅助你了。正如我们之前讨论的，分析这些数据的环节很重要。你可不能把这部分也完全自动化了。",
+   "ts": "00:31:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Humans will still have jobs. This is the takeaway here. That's great.",
+   "zh": "人类仍将拥有工作机会。这就是我们今天要传达的核心观点。真是太好了。",
+   "ts": "00:31:59"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:32:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just reviewing traces. At least there's one job left for now. Great.",
+   "zh": "只是在查看一些日志。至少目前还有一项任务没完成。太好了。",
+   "ts": "00:32:02"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "So, yeah. Exactly. And so, okay. You have all these notes. Now, to turn this into something useful, you can do basic counting. So basic counting is the most powerful analytical technique in data science because it's so simple and it's kind of undervalued in many cases, and so it's very approachable for people. (00:32:33): And so the first thing you want to do is take these notes, and you can categorize them with an LLM, and so there's a lot of different ways to do that. Right before this podcast, I took three different coding agents or AI tools in how to categorize these notes. So one is, \"Okay, I uploaded into a cloud project, I uploaded a CSV of these notes, and I just exported them directly from this interface.\" There's a lot of different ways to do this, but I'm showing you the simple, stupid way, the most basic way of doing things. (00:33:13): And so I dumped the CSV in here and I said, \"Please analyze the following CSV file.\" And I told it there's a metadata field that has a note in it, but what I said is I used the word open codes, and I said, \"Hey, I have different open codes,\" and that's a term of art. LLMs know what open codes are and they know what axial codes are because it is a concept that's been around for a really long time, so those words help me shortcut what I'm trying to do.",
+   "zh": "是啊，没错。好吧，你已经有了这些笔记。现在，要把它们转化为有用的信息，你可以进行基础计数。基础计数是数据科学中最强大的分析技术，因为它极其简单，而且在很多情况下被低估了，所以对人们来说非常容易上手。（00:32:33）首先，你需要处理这些笔记，可以用LLM对它们进行分类，有很多不同的方法。在录制这期播客之前，我测试了三个不同的编码代理或AI工具来分类这些笔记。其中一个方法是：“好的，我把笔记上传到云端项目，导入一个CSV文件，然后直接从界面导出。”虽然有许多不同的方法，但我要向你展示最简单、最基础的操作步骤。（00:33:13）我把CSV文件导入这里，并告诉它：“请分析下面的CSV文件。” 我提到有一个元数据字段，其中包含笔记内容，但我用了术语“开放编码”来指代这些笔记。LLM能够理解开放编码和轴向编码的含义，因为这是一个已经存在很久的概念，所以这些术语能帮助我快速实现目标。",
+   "ts": "00:32:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. And the end of the prompt is telling it to create axial codes?",
+   "zh": "太棒了。提示的最后一句是让它生成轴向编码吗？",
+   "ts": "00:33:46"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yes. Creating axial codes, so what it does is-",
+   "zh": "是的。创建轴向编码，那么它的作用就是——",
+   "ts": "00:33:50"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "So maybe it's worth talking about what are axial codes or what's the point here? You have a mess of open codes, and you don't have 100 distinct problems. Actually, many of them are repeats, but because you phrased them differently, and that you shouldn't have tried to create your taxonomy of failures as you're open coding. You just want to get down what's wrong and then organize, \"Okay, what's the most common failure mode?\" (00:34:19): So the purpose, axial code basically is just a failure mode. It's the label or category. And what our goal is, is to get to this clusters of failure modes and figure out what is the most prevalent, so then you can go and run and attack that problem.",
+   "zh": "或许我们该聊聊什么是轴向编码，或者这到底有何意义？你手头有堆积如山的开放式编码数据，但实际上并未发现100个截然不同的问题。事实上，许多编码内容存在重复，但正因你用了不同的表述方式，导致在开放式编码阶段本不该去构建失败模式的分类系统。你只需先记录下存在的问题，再进行整理，比如\"最常见的失败模式是什么？\"（00:34:19）：所以轴向编码的核心本质上就是一种失败模式。它是标签或分类体系。我们的目标是汇集这些失败模式，找出最普遍的类型，这样你就能有的放矢地去解决关键问题了。",
+   "ts": "00:33:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really helpful. Basically, just synthesizing all these-",
+   "zh": "太有帮助了。基本上就是把这些内容整合起来就行了。",
+   "ts": "00:34:36"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Absolutely.",
+   "zh": "没错，绝对可以。",
+   "ts": "00:34:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... into categories and themes. Super cool. And we'll include this prompt in our show notes for folks so they don't have to sit there and screenshot it and try to type it up themselves.",
+   "zh": "将这些内容分成不同的类别和主题。太棒了！我们还会在节目笔记中附上这个提示，让听众无需费力截图或手动输入，直接使用即可。",
+   "ts": "00:34:39"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. Great idea. And so Claude went ahead and analyzed the CSV file and decided how to parse it, blah, blah, blah. We don't need to worry about all that stuff, but it came up with a bunch of axial codes. Basically, axial codes are categories, like Shreya said. So one is, okay, capability limitations, misrepresentation, process and protocol violations, human handoff issues, communication, quality. It created these categories. (00:35:18): Now, do I like all the categories? Not really. I like some of them. It's a good first stab at it. I would probably rename it a little bit because some of them are a bit too generic. Like what is capability limitation? That's a little bit too broad. It's not actionable. I want to get a little bit more actionable with it so that if I do decide it's a problem, I know what to do with it, but we'll discuss that in a little bit. So you can do this with anything, and this is the dumbest way to do it, but dumb sometimes is a good way to get started, so-",
+   "zh": "是啊。这主意不错。于是克劳德着手分析CSV文件，确定如何解析它，等等等等。我们其实没必要操心这些细节，但他提出了很多轴向编码。基本上，轴向编码就是分类，就像施瑞亚说的那样。比如，能力限制、虚假陈述、流程与协议违规、人工交接问题、沟通、质量等。这就是他们划分的类别。（00:35:18）现在，我对这些分类都满意吗？不尽然。有些还不错，但总体来说是不错的初步尝试。我可能会稍作调整，因为有些分类太笼统了。比如\"能力限制\"这个词，太宽泛了，没什么实际操作性。我们需要让分类更具可操作性，这样当我确定某个问题时，就能知道该如何处理。但具体细节我们稍后再讨论。这种方法适用于任何场景，虽然这是最笨拙的入门方式，但有时候笨拙也是开启进程的好办法——",
+   "ts": "00:34:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And this is what LLMS are really good at, taking a bunch of information and synthesizing it.",
+   "zh": "而这正是大语言模型（LLM）真正擅长的地方——它们能够处理大量信息并将其进行综合处理。",
+   "ts": "00:35:49"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Absolutely. Synthesizing for us to make sense of, right? Note that it's not automatically proposing fixes or anything, that's our job, but now, we can wade through this mess of open codes a lot easier. (00:36:05): Another thing that's interesting here in this prompt to generate the axial codes is you can be very detailed if you want, right? You can say, \"I want each axial code to actually be some actionable failure mode,\" and maybe the LLM will understand that and propose it, or, \"I want you to group these open codes by what stage of the user story that it's in.\" So this is where you can be creative or do what's best for you as a product manager or engineer working on this, and that will help you do the improvement later.",
+   "zh": "完全正确。归纳整理能让我们理清思路，对吧？需要注意的是，它不会自动给出修复建议之类的，那是我们的职责所在。不过现在，我们能更轻松地理清这些混乱的待办事项了。（00:36:05）：在生成轴向代码的提示中，有个很有意思的点——如果你愿意，可以把描述写得非常详细。比如你可以说：“我希望每个轴向代码都对应一种可操作的故障模式”，或许大语言模型会理解你的需求并给出对应的建议；或者你可以说：“我希望按用户故事所处的阶段来对这些待办事项进行分组。” 所以在这里，你可以发挥创意，或者根据自己的需求调整方式。这样做能帮助你后续进行改进工作。",
+   "ts": "00:35:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So there's no definitive prompt of, \"Here's the one way to do it\"?",
+   "zh": "这么说，就没有一个明确的指导方针，告诉人们应该怎么做？",
+   "ts": "00:36:40"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Absolutely.",
+   "zh": "没错，绝对可以。",
+   "ts": "00:36:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're saying you can iterate, see what works for you?",
+   "zh": "你是说你能不断尝试，看看哪种方法适合你？",
+   "ts": "00:36:43"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Absolutely.",
+   "zh": "绝对没问题。",
+   "ts": "00:36:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting the tools don't do this, or do they try and they just don't do a great job?",
+   "zh": "真有意思，这些工具居然做不到这一点？还是说它们虽然尝试了，但效果并不理想？",
+   "ts": "00:36:46"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "No, I don't think they do it. We've been screaming from the rooftops, \"Please, please-\"",
+   "zh": "没错，我觉得他们不会那么做的。我们一直到处宣传，\"求求你们了，求求你们了——\"",
+   "ts": "00:36:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哦，哇。",
+   "ts": "00:36:54"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "\"... do this.\" I do think it's a little bit hard, right? Part of this whole experience with the eval scores Hamel and I are teaching are a lot of people don't actually know this, so maybe it's that people don't know this and they don't know how to build tools for it. And hopefully, we can demystify some of this magic.",
+   "zh": "“……就这么做吧。”我确实觉得这有点难，对吧？在哈梅尔和我教授的评估分数相关课程中，有很多学员对此并不了解。所以或许是因为人们对此知之甚少，不知道该如何开发相关工具。希望我们能帮助大家揭开这其中的神秘面纱。",
+   "ts": "00:36:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And just to double-click on this point, this is not a thing everyone does or knows. This is something you two developed based on your experience doing data analysis and data science at other companies?",
+   "zh": "让我再强调一下，这可不是每个人都会做或都了解的技能。这是你们俩基于在其他公司进行数据分析和数据科学工作的经验开发出来的技能，对吧？",
+   "ts": "00:37:13"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Well, I want to caveat that we didn't invent error analysis. We don't actually want to invent things. That's bad signal. If somebody is coming to you with a way to do something that's entirely new and not grounded in hundreds of years of theory and literature, then you should, I don't know, be a little bit wary of that. (00:37:42): But what we tried to do was distill, \"Okay, what are the new tools and techniques that you need to make sense of the LLM error-out analysis?\" And then we created a curriculum or structured way of doing this. So this is all very tailored to LLMs, but the terms open coding, axial coding, are grounded in social science.",
+   "zh": "嗯，我想先说明一下，我们并没有发明错误分析这一方法。实际上，我们并不主张去\"发明\"新东西——那往往是个危险信号。如果有人向你提出一种全新的做事方式，而这种方法又没有扎根于数百年的理论和文献基础，那你或许应该保持警惕。（00:37:42）不过，我们当时的目标是提炼出关键问题：\"要想理解大语言模型（LLM）的错误输出分析，需要掌握哪些新工具和新技术？\"随后，我们为此开发了一套课程体系或结构化方法。虽然这些内容都是针对LLM量身定制的，但其中的术语如\"开放式编码\"、\"轴心编码\"等，实际上源自社会科学领域。",
+   "ts": "00:37:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay. What's funny about you guys doing this is I just want to go do this somewhere. I don't have any AI product to do this on, but it's just like, \"Oh, this would be so fun.\" Just sit there and find all the problems I'm running into and categorize them and then try to fix them.",
+   "zh": "太棒了。好吧，你们这样做挺有趣的，但我现在特别想去某个地方做这件事。不过我手头没有任何能实现这个功能的AI产品，但我就是觉得这会特别有意思。就坐在那里，把我遇到的所有问题都找出来，然后分类整理，最后再想办法解决它们。",
+   "ts": "00:38:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I love that.",
+   "zh": "我太喜欢这个了。",
+   "ts": "00:38:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hamel pulled up a video. What do you got going on here?",
+   "zh": "哈梅尔调出了一个视频。你这边有什么情况？",
+   "ts": "00:38:19"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. So I pulled up a video just to drive home Shreya's point. We are not inventing anything, so what you see on the screen here is Andrew Ng, one of the famous machine learning researchers in the world who have taught a lot of people, frankly, machine learning. And you can see this is an eight-year-old video, and he's talking about error analysis. (00:38:45): And so this is a technique that's been used to analyze stochastic systems for ages, and it's something that it was just using the same machine learning ideas and principles, just bringing them into here, because again, these are stochastic systems.",
+   "zh": "是啊。所以我找了一段视频来进一步说明Shreya的观点。我们并没有发明什么新东西，所以你们现在在屏幕上看到的是安德鲁·吴（Andrew Ng）——这位全球知名的机器学习研究者，他教过很多人，让他们真正掌握了机器学习技术。你们可以看到这段视频是八年前的，当时他正在讲解误差分析。（00:38:45）这种技术用于分析随机系统已有很久的历史，而现在我们只是将同样的机器学习思想和原理引入其中，因为说到底，这些系统本质上就是随机系统。",
+   "ts": "00:38:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Well, one thing, we're working on getting Andrew on the podcast, we're chatting, so that will-",
+   "zh": "太棒了。嗯，还有一件事，我们正在努力邀请安德鲁参加播客节目，我们正在沟通这件事，所以这件事应该很快就能落实了。",
+   "ts": "00:39:01"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Nice.",
+   "zh": "不错。",
+   "ts": "00:39:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... be really fun. Two, I love that my podcast episode just came out today is in your feed there, and it's standing out really well in that feed, so I'm really happy about that [inaudible 00:39:13].",
+   "zh": "……真的很有趣。其次，我很开心我今天刚发布的播客节目已经出现在你们的订阅推送里，而且在推送里显示得非常显眼，对此我特别兴奋（此处有语音中断，00:39:13处缺失内容）。",
+   "ts": "00:39:05"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Very nice. Yeah. The recommendation algorithm is quite good.",
+   "zh": "太棒了。是啊，这个推荐算法真是不错。",
+   "ts": "00:39:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yes. Here we go. Hope you click on that. Don't screw my algorithm. Okay, cool. So we've done some synthesis. I know we're not going to go through the entire step. This is you have a whole course that takes many days to learn this whole process. What else do you want to share about how to go about this process?",
+   "zh": "好的，开始吧。希望你们能点进去看看。别把我的算法搞砸了。好的，太棒了。我们已经完成了一些合成步骤。我知道我们没法把整个过程都讲一遍。毕竟，学习整个流程得花好几天时间。关于这个过程，你们还有什么想分享的吗？",
+   "ts": "00:39:15"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Okay. So you can do this through anything, and the same thing works just fine in ChatGPT, the same exact prompt. You can see it made axial codes. I really like using Julius AI. It's one of my favorite tools. (00:39:45): Julius is kind of this third-party tool that uses notebooks. I personally like Jupiter notebooks a lot, and so it's more of a data science thing, but a lot of product managers that are kind of learning notebooks nowadays, and it's kind of cool. It's like a fun playground where you can write code and look at data. But we don't have to go deeply into that. Just wanted to mention, you can use a lot. AI is really good at this. (00:40:10): So let's go to the fun part. Here we go. So now we have these axial codes. So the first thing I like to do, I have these open codes, and I have the axial codes, let's say, that we assigned from the cloud project or the ChatGPT. And so what I do is I collect them first and I take a look, like, \"Does these axial codes make sense?\" And I look at the correspondence between the different axial codes and the open codes, and I go through an exercise and I say, \"Hmm. Do I like these codes? Can I make them better? Can I refine them? Can I make them more specific?\" Instead of being generic, I make them very specific and actionable. (00:40:59): So you see the ones that I came up with here are tour scheduling, rescheduling issues, human handoff or transfer issue, formatting error with an output, conversational flow. We saw the conversational flow issue with the text messages. Making follow-up promises not kept. (00:41:18): And so basically, what I can do, what you can do now is you have these axial codes, and so I just collect them into a list, so this is an Excel formula. Just collect these codes into a list, and now we have a comma-separated list of these codes. And then what you can simply do is you could take your notes that you have, those open codes, and you can tell an AI, and this is using Gemini and AI just for simplicity, this is, again, we're trying to keep it simple, categorize the following note into one of the following categories as always.",
+   "zh": "好的。所以你可以通过任何工具来实现这一点，同样的提示语在ChatGPT上也能完美运行。你可以看到它生成了轴向编码。我真的很喜欢使用Julius AI，这是我最喜欢的工具之一。（00:39:45）：Julius是一种使用笔记本的第三方工具。我个人非常喜欢Jupiter笔记本，它更偏向于数据科学领域，但现在很多产品经理也开始学习使用笔记本，这挺酷的。这就像一个有趣的实验场，你可以在里面写代码、查看数据。不过我们不需要深入探讨这个。只是想提一下，AI在这方面确实很出色。（00:40:10）：现在让我们进入有趣的部分。开始吧。所以现在我们有了这些轴向编码。首先，我会把这些开放编码和轴向编码整理出来，比如说，我们从云项目或ChatGPT中分配的那些轴向编码。然后我会先收集它们，仔细看看这些轴向编码是否合理。观察不同轴向编码与开放编码之间的对应关系，进行一个梳理，问自己：\"这些编码有没有意义？能不能优化？能不能更具体？\"而不是泛泛而谈，而是要让它们非常具体、可操作。（00:40:59）：你可以看到我这里提出的有：行程安排、重新安排问题、人工交接或转接问题、输出格式错误、对话流畅度问题。我们在短信对话流畅度上遇到了问题。还有后续承诺未兑现的问题。（00:41:18）：所以基本上，我现在能做的，你也能做的，就是收集这些轴向编码。我会把它们整理成一个列表，这里用Excel公式就可以。把这些编码收集成一个列表，现在我们就得到了一个用逗号分隔的编码列表。然后你只需要把现有的笔记，开放编码，交给AI，这里用Gemini和AI只是为了简单起见，目的是保持操作简便，按照惯例将后续笔记归类到以下某个类别中。",
+   "ts": "00:39:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "For folks watching, I like all these different prompts and formulas you're sharing. This is the Google Sheets AI prompt.",
+   "zh": "各位观众，我很喜欢你们分享的这些不同提示和公式。这是谷歌表格的AI提示功能。",
+   "ts": "00:41:56"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Huge fan.",
+   "zh": "超级粉丝。",
+   "ts": "00:42:04"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "And so basically, what you could do is you can categorize your traces into one of the buckets, and that's what we have here. We have categorized all those problems that we encountered into one of these things.",
+   "zh": "基本上，您可以将这些问题归入不同的类别，而这正是我们目前所做的。我们已将遇到的所有问题都归入了这些类别中的一种。",
+   "ts": "00:42:07"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "And this is automatic, which is very exciting. I mean, the AI is doing it. So this also drives home the point that your open codes have to be detailed, right? You can't just say janky because if the AI is reading janky, it's not going to be able to categorize it. Even a human wouldn't, right? It would have to go and remember why you said janky, so it's important to be somewhat detailed in your open code.",
+   "zh": "这一过程是自动化的，这真是太令人兴奋了。我的意思是，人工智能在操控这一切。这也再次说明了你们的开放代码必须足够详细，对吧？不能只是用“不通顺”这种笼统的词汇，因为如果人工智能读到“不通顺”这样的描述，它根本无法进行分类。就连人类也不会这么做，对吧？它还得去查找你为什么会用“不通顺”这个词，所以在开放代码中保持一定的细节程度非常重要。",
+   "ts": "00:42:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So avoid the word janky. It's a good rule of thumb.",
+   "zh": "好的。那就别用“janky”这个词。这是个不错的经验法则。",
+   "ts": "00:42:45"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah. Or have it with 10 other words.",
+   "zh": "是啊。要不然就再加10个词吧。",
+   "ts": "00:42:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, okay. What is-",
+   "zh": "哦，好的。那是什么？",
+   "ts": "00:42:48"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. I was being funny.",
+   "zh": "是啊，我当时是在开玩笑呢。",
+   "ts": "00:42:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, okay. What are some of those other words that people often use that you think are not good?",
+   "zh": "好的，那你觉得还有哪些常用词汇用得不太恰当呢？",
+   "ts": "00:42:52"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I don't think it's specific words. I think it's just people are not detailed enough in the open code, so it's hard to do the categorization.",
+   "zh": "我觉得这不是因为用词不准确，而是开发者在开源代码中对细节描述得不够详尽，所以分类工作才会如此困难。",
+   "ts": "00:42:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great. And by the way, the reason you have to map them back is because, say, Claude or ChatGPT gave you suggestions and you change them and iterated on them, so you can't just go back and say, \"Cool, whatever,\" in each bucket?",
+   "zh": "好的。顺便说一下，之所以需要把这些内容映射回去，是因为比如说Claude或ChatGPT给出了建议，而你对这些建议进行了修改和优化。所以你不能在每个阶段都随意应付，简单说一句\"好吧，无所谓\"然后就结束了。",
+   "ts": "00:43:04"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, yeah.",
+   "zh": "是啊，是啊。",
+   "ts": "00:43:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great.",
+   "zh": "太好了。",
+   "ts": "00:43:17"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "That's a really good question, actually. It's good to iterate and think about it a little bit like, \"Do I like these open codes? Do these actually make sense to me?\" Just like anything that AI does, it's really good to kind of put yourself in the middle just a little bit.",
+   "zh": "实际上，这确实是个很棒的问题。多思考、多迭代，问问自己：“我喜欢这些开放代码吗？它们对我来说真的有意义吗？”就像面对人工智能的任何成果一样，适当以旁观者的视角审视一番，往往能带来更好的理解。",
+   "ts": "00:43:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's in the loop. Still space for us. Great.",
+   "zh": "已经进入循环了。还有空位给我们。太好了。",
+   "ts": "00:43:32"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "One of the things that I like to do with this step if I'm trying to use AI to do this labeling, is also have a new category called none of the above. So an AI can actually say, \"None of the above,\" in the axial code, and that informs me, \"Okay, my axial codes are not complete. Let's go look at those open codes, let's figure out what some new categories are or figure out how to reword my other axial codes.\"",
+   "zh": "如果我尝试用人工智能来进行标注工作，接下来我会做的一件事就是添加一个名为\"以上皆非\"的新类别。这样一来，人工智能就能在轴向编码中输出\"以上皆非\"，这就提示我：\"好的，我的轴向编码还不完整。让我们去看看那些尚未完成的编码，思考是否需要添加新的类别，或者调整现有轴向编码的表述方式。\"",
+   "ts": "00:43:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. And what's cool about this is you don't need to do this many, many times.",
+   "zh": "太棒了。最酷的是，你不需要反复做很多次。",
+   "ts": "00:44:00"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "No.",
+   "zh": "没有啊。",
+   "ts": "00:44:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "For most products, you do this process once, and then you build on it, I imagine, and you just tweak it over time?",
+   "zh": "针对大多数产品，你只需完成这一流程一次，然后在此基础上持续优化，逐步进行微调，对吧？",
+   "ts": "00:44:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Absolutely. And it gets so fast. People do this once a week, and you can do all of this in 30 minutes, and suddenly your product is so much better than if you were never aware of any of these problems.",
+   "zh": "完全正确。而且进展会非常迅速。人们每周都会做一次这些工作，30分钟就能完成所有流程。这样一来，你的产品质量就会比之前好得多——毕竟你之前根本没有意识到这些问题存在。",
+   "ts": "00:44:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. It's absurd to feel like you wouldn't know this is happening. Watching this happening, I'm like, \"How could you not do this to your product?\"",
+   "zh": "是啊。要是连这种事都察觉不到，那真是太离谱了。看着眼前发生的这一幕，我简直想问：“你们怎么能对自己的产品置之不理呢？！”",
+   "ts": "00:44:23"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "A lot of people have no idea.",
+   "zh": "很多人对此一无所知。",
+   "ts": "00:44:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Most people. Yeah. We'll talk about that. There's a whole debate around this stuff that we want to talk about. Okay, cool. So you have the sheet. What comes next?",
+   "zh": "多数人吧。嗯。我们来聊聊这个。关于这件事儿，有个大讨论，我们正想好好聊聊。好的，太棒了。那你现在有这份资料了。接下来要做什么？",
+   "ts": "00:44:31"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Okay. So here's sort of the big unveil. This is the magic moment right now. So we have all these codes that we applied, the ones that we like on our traces. Now, you can do the ta-da, you can count them. (00:44:56): So here's a pivot table, and we just can do pivot table on those, and we can count how many times those different things occurred. So what do we find? Find on these traces that we categorized? We found 17 conversational flow issues. And I really like pivot tables because you can do cool things. You can double-click on these. You can say, \"Oh, okay. Let me take a look at those,\" but that's going into an aside about pivot tables, how cool they are. (00:45:25): But now, we have just a nice, rough cut of what are our problems? And now, we have gone from chaos to some kind of thinking around, \"Oh, you know what? These are my biggest problems. I need to fix conversational issues, maybe these human handoff issues.\" It's not necessarily the count is the most important thing. It might be something that's just really bad and you want to fix that, but okay. Now, you have some way of looking at your problem, and now you can think about whether you need evals for some of these. (00:46:07): So there might be some of these things that might be just dumb engineering errors that you don't need to write an eval for because it's very obvious on how to fix them. Maybe the formatting error with output, maybe you just forgot to tell the LLM how you want it to be formatted, and you didn't even say that in the prompt. So just go ahead and fix the prompt maybe, and we can decide, \"Okay, do you want to write an eval for that?\" You might still want to write an eval for that because you might be able to test that with just code. You could just test the string, does it have the right formatting potentially? Without running an LLM. (00:46:53): So there's a cost-benefit trade-off to evals. You don't want to get carried away with it, but you want to usually ground yourself in your actual errors. You don't want to skip this step. And so the reason I'm kind of spending so much time on this is this is where people get lost. They go straight into evals like, \"Let me just write some tests,\" and that is where things go off the rails. (00:47:24): Okay. So let's say we want to tackle one of these things. So for example, let's say we want to tackle this human handoff issue, and we're like, \"Hmm, I'm not really sure how to fix this. That's a kind of subjective sort of judgment call on should we be handing off to a human? And I don't know immediately how to fix it. It's not super obvious per se. Yeah. I can change my prompt, but I'm not sure. I'm not 100% sure.\" (00:47:56): Well, that might be sort of an interesting thing for an LLM as a judge, for example. So there's different kinds of evals. One is code-based, which you should try to do if you can because they're cheaper. LLM as a judge is something, it's like a meta eval. You have to eval that eval to make sure the LLM that's judging is doing the right thing, which we'll talk about in a second. (00:48:25): So, okay. LLM as a judge, that's one thing. Okay. How do you build an LLM as a judge?",
+   "zh": "好的。现在要正式揭晓这个大秘密了。这就是最激动人心的时刻。我们应用了所有代码，处理了我们在日志中标注的问题。现在，你可以开始统计了。（00:44:56）：这里有一个数据透视表，我们可以对这些数据进行透视分析，统计不同问题出现的次数。那么，我们发现了什么？在分类后的日志中找到了17个对话流畅性问题。其实我特别喜欢数据透视表，因为它能实现很多酷炫的操作。比如双击数据，就能深入查看具体情况，但现在先不展开讲透视表有多棒了。（00:45:25）：现在我们对问题有了清晰的认识。从混乱中理出头绪，开始思考：“这些才是最紧迫的问题。需要解决对话流畅性问题，或许还要处理人工交接环节。” 关键不在于数量统计，而在于识别出真正亟待改进的核心问题。比如输出格式错误，可能只是因为忘了告诉LLM如何设置格式，甚至在提示语中都未提及。直接调整提示语即可，无需额外编写测试代码来验证格式是否正确。（00:46:07）：评估环节需要权衡利弊。不要过度依赖，但也要扎根于实际问题。不能跳过这一步。正因如此，我花大量时间讲解这个阶段，因为这是很多人容易迷失的地方。他们一头扎进评估环节，直奔测试环节，这才是问题根源。（00:47:24）：假设我们要解决其中一个问题。比如处理人工交接问题时，我们会思考：“嗯，我不确定如何改进。这需要主观判断是否应该交给人工处理？但我目前没有明确思路。”（00:47:56）：嗯，这对LLM作为评判者来说是个有趣的挑战。比如代码测试，只要条件允许就应该优先使用。LLM作为评判者属于元评估，需要评估其判断是否准确，具体细节我们稍后再谈。（00:48:25）：好的，LLM作为评判者是关键环节。那么如何构建这样的LLM呢？",
+   "ts": "00:44:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before we get into that actually, just to make sure people know exactly what you're describing there, these two types of evals. One is you said it's code-based and one is LLM as judge. Maybe Shreya, just help us understand what code-based eval even is? It's essentially a unit test? Is that a simple way to think about it?",
+   "zh": "实际上，在我们深入探讨之前，先确保大家能清楚理解你所描述的这两种评估方式。一种是你提到的基于代码的评估，另一种是让LLM作为评判者来进行评估。或许Shreya，你能帮我们解释一下基于代码的评估到底是什么？它本质上就是单元测试吗？用这种方式来理解它是否准确？",
+   "ts": "00:48:31"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah. Maybe eval is not the right term here, but think automated evaluator. So when we find these failure modes, one of the things we want is, \"Okay. Can we now go check the prevalence of that failure mode in an automated way without me manually labeling and doing all the coding and the grouping, and I want to run it on thousands and thousands of traces, I want to run it every week.\" That is, okay. You should probably build an automated evaluator to check for that failure mode. (00:49:12): Now, when we're saying code-based versus LLM-based, we're saying, \"Okay. So maybe I could write a Python function or a piece of code to check whether that failure mode is present in a trace or not.\" And that's possible to do for certain things like checking the output is JSON, or checking that it's markdown, or checking that it's short. These are all things you can capture in code or you could approximately capture in code. (00:49:38): When we're talking about LLM judge here, we're saying that this is a complex failure mode and we don't know how to evaluate in an automated way. So maybe we will try to use an LLM to evaluate this very, very narrow, specific failure mode of handoffs.",
+   "zh": "是的。或许\"eval\"在这里不是个合适的术语，但可以理解为\"自动化评估器\"。也就是说，当我们发现这些故障模式时，我们希望能做到：\"好的，能否用自动化方式检查这种故障模式的普遍性，而无需我手动标注、编写代码和进行分组？我想每周对数千条日志进行这种检查。\" 这意味着，我们需要构建一个自动化评估器来检测这种故障模式。\n\n（00:49:12）现在，当我们讨论基于代码与基于LLM两种方式时，意思是说：\"好的，或许我可以编写一个Python函数或一段代码，用于检查日志中是否存在这种故障模式。\" 对于某些情况，比如检查输出是否为JSON、Markdown格式，或判断内容是否简洁，这些都可以通过代码实现或近似实现。\n\n（00:49:38）这里所说的LLM评估器，指的是针对某个复杂故障模式，我们尚不清楚如何通过自动化方式进行评估。因此，或许我们会尝试利用LLM来评估这种极其狭窄、特定的交接流程故障模式。",
+   "ts": "00:48:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So just to try to mirror back what you're describing, you want to test what your, say, agent or AI product is doing. You ask it a question, it gets back with something. (00:50:05): One way to test if it's giving you the right answer is if it's consistently doing the same thing, that you could write a code to tell you this is true or false. For example, will it ever say there's a virtual tour? So you could ask it.",
+   "zh": "接下来，我想试着把你描述的内容再现一下。你想测试你的代理或人工智能产品的工作效果。你向它提问，它会给出回应。（00:50:05）：要测试它是否给出了正确的答案，一种方法是观察它是否始终能做出相同的反应。为此，你可以编写一段代码来判断答案是否正确。例如，你可以问它是否会提到\"虚拟导览\"之类的功能，然后观察它的回答是否始终一致。",
+   "ts": "00:49:56"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:50:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "\"Do you provide virtual tours?\" It says yes or no, and then you could write code to tell you if it's correct based on that specific answer. (00:50:27): But if you're asking about something more complicated and it's not binary, in one world, you need a human to tell you this is correct. The solution to avoid humans having to review all this every time automatically is LLMs replacing human judgment, and you'd call it an LLM as judge. The LLM as being the judge if this is correct or not.",
+   "zh": "“你们提供虚拟导览服务吗？”对方回答是或否，然后你可以编写代码，根据这个特定的答案判断是否正确。（00:50:27）但如果你问的是更复杂的问题，且答案不存在二选一的情况，在这种情况下，你就需要人工来判断答案是否正确。避免人类每次都需要人工审核所有内容的解决方案，就是让大语言模型（LLM）来替代人工判断，你可以称它为\"LLM法官\"——由LLM来判定答案是否正确。",
+   "ts": "00:50:18"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Absolutely. You nailed it.",
+   "zh": "没错，你说得太对了。",
+   "ts": "00:50:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great.",
+   "zh": "太好了。",
+   "ts": "00:50:48"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "So people always think, \"Oh, this is at least as hard as my problem of creating the original agent.\" And it's not, because you're asking the judge to do one thing, evaluate one failure mode, so the scope of the problem is very small and the output of this LLM judge is pass or fail. So it is a very, very tightly scoped thing that LLM judges are very capable of doing very reliably.",
+   "zh": "因此，人们总会想：“哦，这至少和创建原始智能体的问题一样难。” 但事实并非如此，因为你只需要让评判者做一件事——评估一种故障模式，所以问题的范围非常小，而LLM评判者的输出结果只有通过或不通过。换句话说，LLM评判者所需处理的问题范围极其狭窄，因此它们能够非常可靠地完成这项任务。",
+   "ts": "00:50:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And the goal here is just to have a suite of tests that run before you ship to production that tell you things are going the way you want them to? The way your agent is interacting is correct?",
+   "zh": "这么做的目的是不是就是在产品上线前运行一套测试，确保一切都按预期运行？比如，代理的交互行为是否符合规范？",
+   "ts": "00:51:18"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "The beautiful thing about LLM judges, you can use them in unit tests or CI, sure, but you could also use it online for monitoring, right? I can sample 1000 traces every day, run my LLM judge, real production traces, and see what the failure rate is there. This is not a unit test, but still now we get an extremely specific measure of application quality.",
+   "zh": "LLM评分器的妙处在于，你不仅可以在单元测试或持续集成（CI）中使用它，还能将其应用于线上监控，对吧？我每天可以采集1000条日志痕迹，运行LLM评分器，分析真实的生产环境数据，看看其中失败率是多少。这虽然不是传统的单元测试，但却能为我们提供极其精确的应用质量评估指标。",
+   "ts": "00:51:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. That's a really great point because a lot of people just see evals for being this not-real-life thing. It's a thing that you test before it's actually in the real world. And what's actually happening in the real world, you're saying you should actually do exactly that?",
+   "zh": "太酷了。你说得真在理，因为很多人都觉得评估测试和现实生活脱节。它们不过是产品在正式投放市场前进行的测试。而现实世界里真正发生的事情呢？你是在说我们应该直接照搬这些测试方法吗？",
+   "ts": "00:51:53"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:52:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Test your real thing running in production? And it's a daily, hourly sort of thing you could be running?",
+   "zh": "测试一下你的生产环境中运行的真实应用？而且这是一项日常的、每小时都需要持续运行的任务？",
+   "ts": "00:52:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Totally.",
+   "zh": "完全没问题。",
+   "ts": "00:52:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. Hamel's got an example of an actual LLM as a judge eval here, so let's take a look.",
+   "zh": "太棒了。好的，哈梅尔这里有LLM作为法官评分的实际案例，我们一起看一看吧。",
+   "ts": "00:52:10"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "I love how Shreya really teed it up for me, so thank you so much. So what we have is a LLM as a judge prompt for this one specific failure. Like Shreya said, you would want to do one specific failure and you want to make it binary because we want to simplify things. We don't want, \"Hey, score this on a rating of one to five. How good is it?\" That's just in most cases, that's a weasel way of not making a decision. Like, \"No, you need to make a decision. Is this good enough or not? Yes or no?\" (00:52:50): It can be painful to think about what that is, but you should absolutely do it. Otherwise, this thing becomes very untractable, and then when you report these metrics, no one knows what 3.2 versus 3.7 means, so.",
+   "zh": "我很感激Shreya为我做了很好的铺垫，非常感谢。关于这次任务，LLM需要对一个特定的失败案例进行评判。正如Shreya所说，我们要聚焦于某个具体的失败案例，并将其简化为二元评判标准。别搞那种\"请根据1到5分进行打分，评分越高越好\"的评分方式。这种模棱两可的做法往往是在逃避决策。关键问题是：\"这够好吗？是还是不是？\"\n\n（00:52:50）：思考这个问题可能会让人感到痛苦，但你绝对必须这么做。否则，整个问题就会变得极难解决。到时候你汇报这些指标时，没人会明白3.2分和3.7分的具体含义，所以……",
+   "ts": "00:52:16"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah. We see this all the time also, and even with expert-curated content on the internet where it's like, \"Oh, here's your LLM judge evaluator prompt. Here's a one-to-seven scale.\" (00:53:15): And I always text Hamel like, \"Oh, no. Now, we have to fight the misinformation again because we know somebody is going to try it out and then come back to us and say, 'Oh, I have 4.2 average,'\" and we're going to be like, \"Okay.\"",
+   "zh": "是啊。我们也经常遇到这种情况，甚至在网上那些由专家精心策划的内容里也会出现类似的情况，比如“哦，这里是LLM法官评估者的评分提示。评分标准是1到7分。”（00:53:15）。我总是给哈梅尔发短信说：“哦，不行。现在我们又得跟假消息作斗争了，因为我们知道肯定有人会去尝试，然后回来跟我们说‘哦，我平均得分4.2分’，而我们只能回复‘好吧’。”",
+   "ts": "00:53:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's wild how much drama there is in the evals space. We're going to get to that. Oh, man. (00:53:37): This episode is brought to you by Mercury. I've been banking with Mercury for years, and honestly, I can't imagine banking any other way at this point. I switched from Chase, and holy moly, what a difference. Sending wires, tracking spend, giving people on my team access to move money around, so freaking easy. Where most traditional banking websites and apps are clunky and hard to use, Mercury is meticulously designed to be an intuitive and simple experience.",
+   "zh": "评估领域的戏剧性事件真是令人瞠目结舌。我们待会儿再详细聊聊。天哪！（00:53:37）本期节目由Mercury赞助。我用Mercury银行服务多年了，说实话，现在我根本无法想象用其他银行的方式操作。我从Chase银行转过来后，天哪，差别太大了。转账、追踪消费记录、授权团队成员调配资金，简直轻而易举。大多数传统银行的网站和应用程序都操作繁琐、难于使用，而Mercury却精心设计，带来了直观且简单的用户体验。",
+   "ts": "00:53:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Meticulously designed to be an intuitive and simple experience, and Mercury brings all the ways that you use money into a single product, including credit cards, invoicing, bill pay, reimbursements for your teammates and capital. Whether you're a funded tech startup looking for ways to pay contractors and earn yield on your idle cash, or an agency that needs to invoice customers and keep them current, or an e-commerce brand that needs to stay on top of cash flow and access capital, Mercury can be tailored to help your business perform at its highest level. See what over 200,000 entrepreneurs love about Mercury. Visit mercury.com to apply online in 10 minutes. Mercury is a fintech, not a bank. Banking services provided through Mercury's FDIC insured partner banks. For more details, check out the show notes.",
+   "zh": "梅里克（Mercury）精心设计，旨在提供直观简洁的体验。它将您使用资金的所有场景整合至单一产品中，涵盖信用卡、发票开具、账单支付、团队成员报销及资金调配等功能。无论您是资金充足的科技初创企业，寻求支付承包商及让闲置资金增值的解决方案；还是需要为客户开具发票并确保资金流转顺畅的代理机构；抑或需要把控现金流并获取资金支持的电商品牌，梅里克都能量身定制方案，助力您的业务达到最佳运营水平。想了解20万+创业者为何钟爱梅里克？立即访问mercury.com，10分钟即可完成在线申请。梅里克是一家金融科技公司，并非传统银行。相关银行服务由梅里克的FDIC保险合作伙伴银行提供。更多详情请参阅节目笔记。",
+   "ts": "00:54:00"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Okay, so this is your judge prompt. There's no one way to do it. It's okay to use an LLM to help you create it, but again, put yourself in the loop. Don't just blindly accept what the LLM does, and in all of these cases, that's what we did. With the axial codes, we iterated on this. You can use an LLM to help you create this prompt, but make sure you read it, make sure you edit it, whatever. This is not necessarily the perfect prompt. This is just the stupid, keeping it very simple just to show you the idea. It's like, \"Okay, for this handoff failure,\" I said, \"Okay, I want you to output true or false,\" it's a binary judge. That's what we recommend. Then I just go through and say, \"Okay, when should you be doing a handoff?\" And I just list them out. (00:55:33): Okay, explicit human requests ignored or looped, some policy-mandated transfer, sensitive resident issues, tool data, unavailability, same day walk-in or tour requests. You need to talk to a human for that, so on and so forth. The idea is, now that I know that this is a failure from my data, I'm interested in iterating on it, because I know this is actually happening all the time. Like Shreya said, it would be nice to have a way not only to evaluate this on the data I have, but also on production data, just to get a sense of, what scales is this happening? Let me find more traces, let me have a way to iterate on this. We can take this prompt and I'm going to use the spreadsheet again. The first step is, okay, when I'm doing this judge... I wrote the prompt. (00:56:28): Now, a lot of people stop there and they say, \"Okay, I have my judge prompt. We're done. Good, let's just ship it,\" and the prompt says... If the judge says it's wrong, it's wrong. They just accept it as the gospel, be like, \"Okay, the LLM says it's wrong, it must be wrong. Don't do that, because that's the fastest way that you can have evals that don't match what's going on, and when people lose trust in your evals, they lose trust in you. It's really important that you don't do that, so before you release your LLM as a judge, you want to make sure it's aligned to the human. How do you do that? You have those axial codes and you want to measure your judge against the axial code, and say like, \"Hey, does it agree with me? My own judge, does it agree with me?\" Just measure it. (00:57:18): What we have here is, okay, I say, \"Assess this LLM trace.\" Again, I'm using just spreadsheets here, \"Assess this LM trace according to these rules,\" and the rules are just the prompt that I just showed you. I ask it, \"Okay, is there a handoff error, true or false?\" Then this column, let me just zoom in a bit. Column H, I have, \"Okay, did this error occur?\" Column G is whether I thought the error occurred or not. You can see-",
+   "zh": "好的，这就是你们的评判提示。没有一种固定的做法。可以用LLM来帮助你们创建提示，但还是要自己把控。别盲目接受LLM的输出，在所有情况下，我们都是这样做的。对于轴向代码，我们反复迭代了这个过程。你们可以用LLM来帮助创建提示，但一定要通读一遍，进行编辑等等。这不一定是完美的提示，只是为了展示思路而保持简单。比如，“好的，对于这次交接失败，”我说，“好的，我希望你输出‘是’或‘否’，”这是一个二元判定。这是我们推荐的做法。然后我继续列出，“好的，什么时候应该进行交接？”并逐一列出。（00:55:33）：好的，明确的人类请求被忽视或循环处理、某些政策强制的转交、敏感居民问题、工具数据、不可用性、当天到访或参观请求。这些情况需要人工处理，等等。关键是，现在我知道这是数据中的失败案例，我有兴趣对其进行迭代，因为我知道这种情况实际上一直在发生。正如Shreya所说，如果能不仅根据现有数据评估，还能基于生产数据评估，那就更好了。这样就能了解这种情况在哪些场景下频发，比如找出更多痕迹，进行迭代。我们可以用这个提示，再次使用电子表格。第一步是，好，当我进行评判时...我写了这个评判提示。（00:56:28）：现在很多人到此为止，他们说，“好，我有评判提示了。完成了。太好了，直接上线吧。”然后提示会说...如果评判者判定错误，那就是错误。他们就全盘接受，觉得“好的，LLM说错误，那肯定是错误。别这样做，因为这是导致评估与实际情况不符的最快方法。当人们对你的评估失去信任时，他们也会对你失去信任。这真的很重要，所以在将LLM作为评判者发布之前，你要确保它与人类一致。怎么做呢？用那些轴向代码，根据轴向代码衡量你的评判。例如，‘嘿，它和我一致吗？我自己的评判，它和我一致吗？’就这样衡量。（00:57:18）：我们这里的情况是，好，比如我说，‘评估这个LLM痕迹。’再说一次，我只用电子表格，‘根据这些规则评估这个LM痕迹’，规则就是我刚刚展示的那个评判提示。我问它，‘好，这里有交接错误，真或假？’然后这列，我再放大一点。H列，我有，‘好，这个错误发生了吗？’G列是我是否认为这个错误发生了。你们可以看到——",
+   "ts": "00:54:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're going through manually, you do that.",
+   "zh": "你要手动检查一下，你就这么做吧。",
+   "ts": "00:57:53"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, yeah, which we already did. We already went through it manually. It's not like we have to do it again, because we have that cheat code from the axial coding, we already did it. You might have to go through it again if you need more data, and there's a lot of details to this on how to do this correctly. You want to split your data and do all these things, so that you're not cheating, but I just want to show you the concept. Basically, what you can do is measure the agreement. Now, one thing you should know, as a product manager, is a lot of people go straight to this agreement. They say, \"Okay, my judge agrees with the human some percentage of the time.\" (00:58:41): Now that sounds appealing, but it's a very dangerous metric to use, because a lot of times, errors, they only happen on the long tail and they don't happen as frequently, so if you only have the error 10% of the time, then you can easily have 90% agreement by just having a judge say it passes all the time. Does that make sense? 90% agreement look good on paper, but it might be misleading.",
+   "zh": "是啊，是啊，我们已经做过了。我们已经手动检查过了。没必要再重复一遍，因为我们有来自轴向编码的作弊代码，之前已经处理过了。如果你需要更多数据，可能还得再检查一遍，而且正确操作有很多细节要掌握。你需要拆分数据并完成所有这些步骤，这样才不算作弊，但我只是想向你展示这个概念。基本上，你可以衡量一致性。作为产品经理，你应该知道很多人直接使用这个一致性指标。他们会说：“好吧，我的评分员和人工评分在一定比例的情况下达成一致。”（00:58:41）这听起来挺吸引人的，但这是一个非常危险的衡量标准，因为很多错误只出现在长尾部分，出现频率很低。所以如果你只有10%的错误率，那么只要让评分员每次都说通过，你就能轻松达到90%的准确率。这下明白了吧？90%的准确率看起来很棒，但可能存在误导。",
+   "ts": "00:57:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's rare, it's a rare error. Yeah.",
+   "zh": "这太罕见了，这是一个罕见的错误。是啊。",
+   "ts": "00:59:15"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "As a product manager or someone, even if you're not doing this calculation yourself, if someone ever reports to you agreement, you should immediately ask, \"Okay, tell me more.\" You need to look into it. They give you more intuition, here is like a matrix of this specific judge in the Google sheet, and this is, again, a pivot table, just keeping it dumb and simple. \"Okay, on the rows I have, what did the human think? What did I think? Did it have an error, true or false? Then did my judge have an error, true or false?\"",
+   "zh": "作为产品经理或其他相关人士，即便你自己不参与这项数据分析，但如果有人向你汇报达成一致的结果，你也应该立即追问：“好的，请详细说说。”你需要深入探究背后的原因。这里以Google表格中的特定评分矩阵为例，再次用最直观的表格形式呈现（保持简洁易懂）：“好的，我这里的行数据里，人类评分员是怎么评价的？我自己是怎么评分的？是否存在评分错误？结果是正确还是错误？然后我的评分员是否也犯了类似的错误？正确还是错误？”",
+   "ts": "00:59:18"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "The intuition here is exactly what Hamel said, where you need to look at each type of error. When the human said false, but the judge said true, or vice versa, so those non-green diagonals here, and if they're too large, then go iterate on your prompt, make it more clear to the LLM judge, so that you can reduce that misalignment. You want to get to a point where most... You're going to have some misalignment, that's okay. We talk about in our course, also how to code correct that misalignment, but in this stage, if you're a product manager and the person who's building the LLM judge eval has not done this, they're saying like, \"It agrees 75% of the time, we're good.\" They don't have this matrix and they haven't iterated to make sure that these two types of errors have gone down to zero, then it's a bad smell. Go and ask them to go fix that.",
+   "zh": "这种直觉正是哈梅尔所说的，你需要逐一分析每种类型的错误。例如，当人类评分者判定某个答案错误，而评分引擎却给出正确判定，或者反之亦然——即这些非绿色的对角线——如果误差过大，那么你就需要迭代优化你的提示语，使其更清晰易懂，让LLM评分引擎更容易理解，从而减少这种不一致性。你的目标是让大多数情况下……不一致是难免的，但我们在课程中也讲解了如何通过代码修复这种不一致性。但在现阶段，如果你是一位产品经理，而负责开发LLM评分引擎的团队却没有做到这些——比如他们只说\"准确率达到75%，没问题\"，却没有构建这样的矩阵表，也没有通过迭代确保这两类错误率降至零——这就是一个警示信号。你需要督促他们去改进。",
+   "ts": "00:59:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. That's a really good tip, what to look for when someone's doing this wrong.",
+   "zh": "太棒了。这真是个很棒的建议，告诉我们在别人做错的时候该注意什么。",
+   "ts": "01:00:52"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:00:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Actually, can you take us back to the LLM as judge prompt? I just want to highlight something really interesting here. I've had some guests on the podcast recently who've been saying, \"Evals are the new PRDs,\" and if you look at this, this is exactly what this is. Product managers, product teams, here's what the product should be, here's all the requirements, here's the how it should work. They built a thing and then they test it. Manually, often. What's cool about this is this is exactly that same thing, and it's running constantly. It's telling you, \"Here's how this agent should respond,\" and it's very specific ways. \"If it's this, this, this, do that. If it's this, this, that, do that.\" It's exactly what I've been hearing again and again, you could see right here. This is the purest sense of what a product requirements document should be, is this eval judge that's telling you exactly what it should be, and it's automatic and running constantly.",
+   "zh": "实际上，能否请您把我们带回到LLM作为评分器的示例中？我只是想强调一个非常有趣的点。最近我邀请了几位嘉宾参加播客，他们都说\"评估文档就是新的产品需求文档\"。仔细看看这里的情况，这正是其本质所在。产品经理和产品团队会制定产品规范，列出所有需求，说明产品应如何运作。他们开发出产品后，通常会手动测试。而这里的妙处在于，它做着同样的事情——而且是持续运行的。它会告诉你\"这个智能体应该如何回应\"，并给出非常具体的指令。比如\"如果是这种情况，就这样做；如果是那种情况，就那样做\"。这正是我反复听到的观点，从这里就能看出来。这种评估评分器能准确告知产品应达到的标准，完全自动化且持续运行，这正是产品需求文档应有的终极形态。",
+   "ts": "01:00:56"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, absolutely. It's derived from our own data, so of course, it's a product manager's expectations. What I find that a lot of people miss is they just put in what their expectations are before looking at their data, but as we look at our data, we uncover more expectations that we couldn't have dreamed up in the first place, and that ends up going into this prompt.",
+   "zh": "是的，当然可以。这是基于我们自身的数据得出的，所以这无疑是产品经理的预期。我发现很多人会先设定自己的预期，然后才去查看数据。但当我们真正分析数据时，往往会发现更多超出最初想象的需求，而这些需求最终都会被纳入产品设计的考量中。",
+   "ts": "01:01:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is interesting. Your advice is not skip straight to evals and LLM as judge prompts before you build the product, still write traditional one-pagers PRDs to tell your team what we're doing, why we're doing it, what success looks like. But then at the end, you could probably pull from that and even improve that original PRD if you're evolving the product using this process.",
+   "zh": "很有意思。你的建议是，在开发产品之前，先不要直接跳到评估和LLM阶段（即法官提示阶段），而是先写传统的单页PRD文档，向团队说明我们要做什么、为什么要做、成功的标准是什么。然后，当产品在迭代过程中，再以此为基础进行优化，甚至进一步完善最初的PRD文档。",
+   "ts": "01:02:05"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I would go even further to say you're going to improve... It's going to change. You're never going to know what the failure modes are going to be upfront, and you're always going to uncover new vibes that you think that your product should have. You don't really know what you want until you see it with these LLMs, so you got to be flexible, have to look at your data, have to... PRDs are a great abstraction for thinking about this. It's not the end all, be all. It's going to change.",
+   "zh": "我甚至可以进一步说，你的改进空间是无穷的……一切都将与时俱进。你永远无法预知产品会出现哪些故障模式，总会发现一些你原本以为产品应该具备的新特性。在使用这些大语言模型之前，你根本不知道自己真正想要什么，所以必须保持灵活，善于分析数据……产品需求文档（PRD）是思考这些问题的绝佳抽象工具，但它并非万能灵药。一切都在不断变化。",
+   "ts": "01:02:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that, and Hamel's pulling up some cool research report. What's this about?",
+   "zh": "我太喜欢这个了，哈梅尔又找到了份很棒的研究报告。这报告讲的是什么？",
+   "ts": "01:02:58"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "This is one of the coolest research reports you can possibly read if you want to know about evals. It was authored by someone named Shreya Shankar.",
+   "zh": "如果你想了解评估相关内容，那么这份研究报告绝对是你能读到的最酷的资料之一。它由名为Shreya Shankar的研究者撰写。",
+   "ts": "01:03:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Oh, my God.",
+   "zh": "哦，我的天哪。",
+   "ts": "01:03:13"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "And her collaborators. It's called \"Who Validates the Validated?\"",
+   "zh": "以及她的合作伙伴们。这部作品名为《谁来验证那些被验证的人？》",
+   "ts": "01:03:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's the best name for a researcher.",
+   "zh": "真是个适合研究者的绝佳名字啊。",
+   "ts": "01:03:20"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Thank you, thank you.",
+   "zh": "谢谢，谢谢。",
+   "ts": "01:03:21"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "I should let Shreya talk about this. I think one of the most important things to pay attention in this paper are the criteria drift, and what she found.",
+   "zh": "我应该让施瑞亚来谈谈这个问题。我认为这篇论文中最值得关注的点之一是标准偏差问题，以及她在研究中发现的相关结论。",
+   "ts": "01:03:24"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "We did this super fun study when we were doing user studies with people who were trying to write LLM judges or just validate their own LLM outputs. I think this was before evals was extremely popular, I feel like, on the internet. We did this project late 2023 was when we started it. But then the thing that really was burning in my mind as a researcher is like, \"Why is this problem so hard? We've been having machine learning and AI for so long, it's not new, but suddenly, this time around, everything is really difficult.\" We just did this user study with a bunch of developers and we realized, \"Okay, what's new here is that you can't figure out your rubrics upfront. People's opinions of good and bad change as they review more outputs, they think of failure modes only after seeing 10 outputs they would never have dreamed of in the first place,\" and these are experts. These are people who have built many LLM pipelines and now agents before, and you can't ever dream up everything in the first place. I think that's so key in today's world of AI development.",
+   "zh": "当时我们在做用户研究，研究对象是那些尝试编写LLM评分标准或验证自己LLM输出的人。那时候，LLM评估（evals）在互联网上还没像现在这么火爆。我记得这个项目始于2023年末。但作为研究者，当时最困惑的问题是：“为什么这个问题如此难解？机器学习和AI技术早已存在，并非新鲜事物，但为何这次却困难重重？”我们对一群开发者进行了用户研究，发现问题关键在于：无法预先制定评分标准。用户在评审大量输出样例后，对“好坏”的标准会随之调整；甚至在看到第十个输出样例时，他们才会想到一些最初根本未曾设想过的失败模式——而这些用户可是经验丰富的专家啊！他们曾构建过多个LLM管道和智能体模型，却仍无法预知所有可能的难点。这种现象在当今AI开发领域尤为典型。",
+   "ts": "01:03:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is a really good point. That's very much reinforcing what we were just talking about and that's why I'll pull this up, is just... Okay-",
+   "zh": "这一点说得太好了。这正好印证了我们刚刚讨论的内容，所以我要把这段内容调出来供大家参考。好的，继续吧。",
+   "ts": "01:04:50"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "The research behind it.",
+   "zh": "背后的研究工作。",
+   "ts": "01:04:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, okay, great. You still got to do product the same way, but now you have this really powerful tool that helps you make sure what you've built is correct. It's not going to replace the PRD process. Cool. How many, say, I don't know, LLM as judge prompts, do you end up with usually say... I don't know. I know, obviously, depends complexity to the product, but what's a number in your experience?",
+   "zh": "是啊，好的，太棒了。你还是得按老方法做产品，但现在有了一个非常强大的工具，能帮你确保开发出来的东西是正确的。它并不会取代PRD流程。不错。通常你们会用多少个，比如，我不知道，用LLM作为评判者的提示语呢？我不知道。显然这取决于产品的复杂程度，但根据你的经验，平均有多少个提示语呢？",
+   "ts": "01:04:58"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "For me, between four and seven.",
+   "zh": "对我来说，时间在四点到七点之间。",
+   "ts": "01:05:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's it.",
+   "zh": "就这样了。",
+   "ts": "01:05:22"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "It's not that many, because a lot of the failure modes, as Hamel said earlier, can be fixed by just fixing your prompt. You just didn't think to put it in your prompts, so now you put it in your... You shouldn't do an eval like this for everything, just the pesky ones that you've described your ideal behavior in your agent prompt, but it's still failing.",
+   "zh": "这种情况并不多见，因为正如哈梅尔之前所说，许多失败模式都可以通过调整提示语来解决。只是你之前没有想到在提示语中加入这些内容，所以现在你需要将其添加进来……你不必对所有情况都进行这样的评估，只需针对那些在智能体提示语中描述了理想行为却仍未能成功的棘手案例即可。",
+   "ts": "01:05:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Say you found a problem, you fixed it. In traditional software development, you'd write a unit test to make sure it doesn't happen again. Is your insight here is, \"Don't even bother writing an eval around that if it's just gone\"?",
+   "zh": "明白了。假设你发现了一个问题并解决了它。在传统软件开发中，你会编写一个单元测试来确保问题不会再次出现。那么你的见解是，如果问题已经消失了，就没必要再为此编写评估代码了吗？",
+   "ts": "01:05:43"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I think you can if you want to, but the whole game here is about prioritizing. You have finite resources and finite time, you can't write an eval for everything, so prioritize the ones that are the more pesky areas.",
+   "zh": "我觉得如果你愿意的话是可以做到的，但关键在于要学会取舍。你的资源和时间都是有限的，不可能为所有问题都写评估报告，所以应该优先处理那些最棘手的领域。",
+   "ts": "01:05:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Probably the ones that are most risky to your business if they say something like Mecha Hitler, Grok.",
+   "zh": "要是他们说出“机械希特勒”、“格罗克”之类的名字，那很可能是对你的业务构成最大威胁的。",
+   "ts": "01:06:07"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yikes.",
+   "zh": "天哪，真是要命！",
+   "ts": "01:06:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Okay, so that's very relieving, because this prompt was a lot of work to really think through all these details.",
+   "zh": "太好了。好吧，这样就让我松了一口气，因为要仔细考虑所有这些细节，这个提示可真是费了不少功夫。",
+   "ts": "01:06:15"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "But it's a lot of one-time cost. Right now, forever, you can run this on your application.",
+   "zh": "但这需要一次性投入大量成本。目前及未来，您都可以在自己的应用程序中运行这个功能。",
+   "ts": "01:06:21"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Okay, data analysis is super powerful, is going to drive lots of improvements very quickly to your application. We showed the most basic kind of data analysis, which is counting, which is accessible to everyone. You can get more sophisticated with the data analysis. There's lots of different ways to sample, look at data. We made it look easy in a sense, but there's a lot of skills here to do to it well. Building an intuition and a nose for how to sort through this data. For example, let's say I find conversational issues, this conversational flow issues. Maybe if I was trying to chase down this problem further, I would think about ways to find other conversational flow issues that I didn't code. I would maybe dig through the data in several ways, and there's different ways to go about this. It's very similar, if not almost exactly similar as traditional analytics techniques that you would do on any product.",
+   "zh": "好的，数据分析的功能非常强大，它能迅速为你的应用带来诸多改进。我们展示了最基础的数据分析方式——计数，这对每个人来说都易于上手。当然，你还可以进行更复杂的数据分析，有多种采样和数据查看的方式。我们把它说得简单易懂，但要做好这项工作需要深厚的专业技能。要培养敏锐的直觉，学会如何筛选这些数据。举个例子，假设我发现了对话流程方面的问题。若想进一步追踪这个问题，我可能会思考如何找出未被编码的其他对话流程问题。为此，我可能会从多个角度深入分析数据，而实现这一目标的方法不胜枚举。这与你针对任何产品所采用的传统分析技术非常相似，甚至可以说几乎完全一致。",
+   "ts": "01:06:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Give us just a quick sense of what comes next and then let's talk about the debate around evals and a couple more things.",
+   "zh": "先简单说一下接下来要讲的内容，然后我们再来探讨一下关于评估的争议以及其他几个问题。",
+   "ts": "01:07:41"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "What comes next after you've built your LLM judge? Well, we find that people just try to use that everywhere they can, so they'll put the LLM judge in unit tests and they will build, \"Here are some example traces where we saw that failure, because we labeled it. Now we're going to make those part of unit tests and make sure that, every time we push a change to our code, these tests are going to pass.\" They also use it for online monitoring. People are making dashboards on this, and I think that's incredible. I think the products that are doing this, they have a very sharp sense of how well their application is performing, and people don't talk about it, because this is their moat. People are not going to go and share all of these things, because it makes sense. If you are an email-writing assistant, and you're doing this and you're doing it well, you don't want somebody else to go and build an email-writing assistant and then get you out of business. (01:08:41): I really want to stress the point that it's try to use these artifacts that you're building wherever possible online, repeatedly use them to drive improvements to your product. Oftentimes, Hamel and I will tell people how to do this up to this very point, and it clicks for people and then they never come back again. Either they have, I don't know, quit their jobs, they're not doing AI development anymore, or they know what to do from here on out. I think it's the latter, but I think it's very powerful.",
+   "zh": "在构建完LLM评分器之后，接下来该做什么？我们发现很多人会尽可能地将其应用于各个场景：比如将LLM评分器集成到单元测试中，然后整理一些示例追踪记录（这些记录来自我们标注过的失败案例），确保每次代码提交时这些测试都能通过。此外，人们还将其用于在线监控，开发相关的仪表盘系统。我认为这非常了不起。那些成功应用该技术的公司，能清晰洞察应用的运行状态，但往往不轻易透露这些信息，因为这构成了他们的核心竞争力。毕竟，如果你开发的是邮件写作助手，而你的竞争对手借助同样的技术反超，那就得不偿失了。\n\n（01:08:41）我特别想强调一点：要尽可能将你开发的这些工具应用于线上场景，持续利用它们来推动产品迭代。很多时候，我和哈梅尔会把这个思路详细讲解给听众，他们听完后豁然开朗，从此踏上正轨。要么他们辞职离开AI开发领域，要么彻底掌握了后续的优化方向。我更倾向于后者，但无论如何，这种方法都极具实战价值。",
+   "ts": "01:07:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just watching you do this really opened my eyes to what this is and how systematic the process is. I always imagine you just sit on a computer, \"Okay, what are the things I need to make sure work correctly?\" What you're showing us here is it's a very simple step-by-step based on real things that are happening in your product, how to catch them, identify them, prioritize them, and then catch them if they happen again and fix them.",
+   "zh": "光是看你做这件事，就让我深刻认识到这项工作的本质，以及整个流程是多么系统化。我一直以为你只需要坐在电脑前，问自己：“哪些功能需要确保正常运行？”但你今天展示的，是基于产品实际情况的分步骤操作——如何发现问题、识别问题、优先处理问题，以及在问题再次出现时及时修复。",
+   "ts": "01:09:15"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, it's not magic. Anyone can do this, you're going to have to practice the skill, like any new skill, you have to practice, but you can do it. I think what's very empowering now is that product managers are doing this and can do this, and can really build very, very profitable products with this skill set.",
+   "zh": "是啊，这可不是魔法。任何人都能做到这一点，就像学习任何新技能一样，你得反复练习。但只要下定决心，就一定能成功。我觉得现在最振奋人心的是，产品经理们正在掌握并应用这种技能，他们能够凭借这套技能打造出极具盈利能力的产品。",
+   "ts": "01:09:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, great segue to a debate that we got pulled into that was happening on X the other day. I did not realize how much controversy and drama there is around evals. There's a lot of people with very strong opinions. How about Shreya? Give us just a sense of the two sides of the debate around the importance and value of evals, and then give us your perspective.",
+   "zh": "好的，接下来我们来聊聊前几天在X平台上引发的热议。我之前完全没意识到关于评估（evals）的争议和戏剧性场面竟如此激烈。参与讨论的人各执己见，态度十分坚决。施瑞亚（Shreya），你能否先为我们概括一下关于评估重要性和价值的辩论双方观点，再谈谈你个人的看法？",
+   "ts": "01:09:57"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah. All right, I'll be a little bit placating and I say I think everyone is on the same side. I think the misconception is that people have very rigid definitions of what evals is. For example, they might think that evals is just unit tests or they might think that evals is just the data analysis part and no online monitoring or no monitoring of product-specific metrics, like actually number of chats engaged in or whatnot. I think everyone has a different mindset of evals going in, and the other thing I will say is that people have been burned by evals in the past. I think people have done evals badly. One concrete example of this is they've tried to do an LLM judge, but it has not aligned with their expectations. They only uncovered this later on and then they didn't trust it anymore, and then they're like, \"I'm anti evals.\" (01:11:14): I 100% empathize with that, because you should be anti Likert scale LLM judge. I absolutely agree with you, we are anti that as well. A lot of the misconception stems from two things, like people having a narrow definition of evals and then people not doing it well and then getting burned and then wanting to avoid other people making that mistake. Then, unfortunately, X or Twitter is a medium where people are misinterpreting what everybody is saying all the time, and you just get all these strong opinions of, \"Don't do evals, it's bad. We tried it, it doesn't work. We're Claude Code,\" or whatever other famous product, \"And we don't do evals.\" There's just so much nuance behind all of it, because a lot of these applications are standing on the shoulders of evals. Coding agents is a great example of that, Claude Code. They're standing on the shoulders of Claude base model... Not base, but the fine-tuned Claude models have been evaluated on many coding benchmarks. Can't argue against that.",
+   "zh": "是啊，好吧，我稍微缓和一下语气，我觉得大家其实都站在同一立场。我认为误区在于人们对评估的定义过于僵化。比如，他们可能认为评估就只是单元测试，或者只包括数据分析环节，而忽略了在线监测或产品特定指标的追踪，比如实际参与的聊天次数之类的。我觉得每个人对评估的理解都存在偏差。另外，我要说的是，过去人们在评估方面吃过亏。比如，他们曾尝试进行LLM评测，但结果与预期不符。直到后来才发现问题所在，进而失去信任，进而变得反感评估。（01:11:14）我完全理解这种情绪，因为你确实应该反感基于Likert量表的LLM评测。我完全赞同你的观点，咱们也反对这种做法。很多误解源于两个方面：一是人们对评估的定义狭隘；二是评估实施不当导致失败后，人们为了避免重蹈覆辙而形成刻板印象。可惜的是，X或Twitter这样的平台上，人们总是在曲解他人的观点。于是就出现了各种极端言论，比如\"别做评估，太糟糕了\"\"我们试过，不行\"\"我们用Claude Code\"，或者引用其他知名产品案例\"我们从不做评估\"。这些言论背后其实有很多微妙之处，因为许多应用都是站在评估的肩膀上发展起来的。比如编程代理Claude Code，它就是基于Claude基础模型的改进版本...不准确说，应该说Claude的微调模型在多个编程基准测试中都表现出色。这点无可厚非。",
+   "ts": "01:10:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to make clear exactly what you're talking about there, one of the heads, I think maybe the head engineer of Claude Code, went on a podcast and he's like, \"We don't do evals, we just vibe. We just look at vibes,\" and vibes meaning they just use it and feel if it's right or wrong.",
+   "zh": "先说清楚你具体在说什么。Claude Code公司的某位高管（可能是首席工程师）在播客上表示：“我们不做评估，我们只追求直觉。我们就是观察用户的反应，”这里的“直觉”指的是他们在使用产品时，凭感觉判断其是否合适。",
+   "ts": "01:12:24"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I think that works. There's two things to that, right? One is they're standing on the shoulders of the evals that their colleagues are doing for coding.",
+   "zh": "我觉得这个办法可行。关键在于两个点，对吧？首先，他们是借助同事们在编码方面所做的评估工作来提升自己的能力。",
+   "ts": "01:12:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Of the Claude foundational model.",
+   "zh": "关于克劳德基础模型的内容。",
+   "ts": "01:12:45"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Absolutely, right? We know that they report those numbers, because we see the benchmarks, we know who's doing well on those. The other thing is they are actually probably very systematic about the error analysis to some extent. I bet you that they're monitoring who is using Claude, how many people are using Claude, how many traps are being created, how long these chats are. They're also probably monitoring in their internal team, they're dogfooding. Anytime something is off, they maybe have a cue or they send it to the person developing Claude Code, and this person is implicitly doing some form of hair error analysis that Hamel talked about. All of this is evals, right? There's no world in which they're just being like, \"I made Claude Code, I'm never looking at anything,\" and unfortunately, when you don't think about that or talk about that, I think that the community... (01:13:39): Most of the community is beginners or people who don't know about evals and want to learn about it, and it sends the wrong message there. Now, I don't know what Claude Code is doing, obviously, but I would be willing to bet money that they're doing something in the form of evals.",
+   "zh": "绝对没错，对吧？我们知道他们会上报这些数据，因为我们能看到基准测试结果，也知道哪些用户表现出色。另外，他们很可能在一定程度上对错误分析进行了系统化管理。我敢打赌，他们正在监控谁在使用Claude、使用Claude的用户数量、生成的对话陷阱数量以及对话时长。他们内部团队可能也在进行自测，每当出现异常情况时，他们或许会收到警示，或者将问题反馈给Claude Code的开发团队，而后者正在进行哈梅尔所提及的隐性错误分析。这一切都是评估工作，对吧？绝不可能出现他们只是说“我开发了Claude Code，从不查看任何数据”的情况。但遗憾的是，当人们忽视或回避谈论这些问题时，我认为整个社区……（01:13:39）：社区中大多数是新手，或者是对评估一无所知却想学习的人，这会传递出错误的信息。当然，我不了解Claude Code的具体做法，但我敢打赌，他们肯定在进行某种形式的评估工作。",
+   "ts": "01:12:47"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "We'll also say that coding agents are fundamentally very different than other AI products, because the developer is the domain expert, so you can short circuit a lot of things, and also, the developer is using it all day long, so there's a type of dogfooding and type of domain expertise that is... You can collapse the activities, you don't need as much data, you don't need as much feedback or exploration, because you know, so your eval process should look different.",
+   "zh": "我们还要指出，编码代理与其他人工智能产品有着根本的不同。这是因为开发者本身就是领域专家，所以很多问题可以通过捷径解决。此外，开发者会全天使用这些工具，因此存在一种“自家产品测试”（dogfooding）现象，以及深厚的领域专业知识……你可以简化开发流程，不需要收集过多数据，也无需进行大量反馈或探索，因为开发者对系统已然了如指掌。因此，评估流程也应与之相适应。",
+   "ts": "01:13:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Because you're seeing the code, you see the code it's generating. You can tell, \"This is great, this is terrible.\"",
+   "zh": "既然你能看到代码，就能看到它生成的结果。你可以评价道：\"这太棒了，这太糟糕了。\"",
+   "ts": "01:14:31"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, yeah. I think a lot of people had generalized coding agents, because coding agents are the first AI product released into the wild, and I think it's a mistake to try to generalize that at large.",
+   "zh": "是啊，是啊。我觉得很多人都把编码代理想得太复杂了，毕竟编码代理是首个真正面向大众推出的AI产品。但我认为把它神化成万能工具是错误的。",
+   "ts": "01:14:35"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "The other thing is, yeah, engineers have a dogfooding personality. There are plenty of applications where people are trying to build AI in certain domains and they don't have dogfooding for doctors, for example, or not out there trying to get all the most incorrect advice from AI and be tolerant and receptive to that. It's very important to keep, I think these nuanced things in mind.",
+   "zh": "另外一件事是，没错，工程师们确实有自测的心态。很多应用场景下，人们试图在特定领域开发人工智能技术，但却没有为医生等群体提供自测功能。例如，人们不会去尝试获取人工智能给出的最不准确的建议，也不会对此持宽容和包容的态度。我认为，在处理这些微妙的问题时，保持清醒的认知至关重要。",
+   "ts": "01:14:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I'm hearing from you, Shreya, interestingly, is that if humans on the team are doing very close data analysis, error analysis, dogfooding like crazy, and essentially, they're the human evals and you're describing that as that's within the umbrella of evals. You could do it that way if you have time and motivation to do that, or you could set these things up to be automatic.",
+   "zh": "谢瑞亚，我从你这里听到的很有意思的一点是，如果团队中的人类成员正在进行非常细致的数据分析、错误分析、疯狂的自我测试（dogfooding）等工作——本质上，他们就是人类评估者，而你把这类工作归入评估范畴。如果你有时间和意愿去做这些事，当然可以采用这种方法；但你也可以把这些流程自动化起来。",
+   "ts": "01:15:16"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Absolutely, it's also about the skills. People who work at Anthropic are very, very highly skilled. They've been trained in data analysis or software engineering or AI, and whatnot. You can get there, anyone can get there, of course, by learning the concepts, but most people don't have that skill right now.",
+   "zh": "确实，这也关乎技能。Anthropic的员工都非常、非常高技能。他们接受过数据分析、软件工程或人工智能等领域的专业训练。当然，只要掌握了相关概念，任何人都能达到这样的水平，但目前大多数人并不具备这些技能。",
+   "ts": "01:15:40"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Dogfooding is a dangerous one, only because a lot of people will say they're dogfooding. They're like, \"Yeah, we dogfooded,\" but are they, really? A lot of people aren't really dogfooding it at that visceral level that you would need to close that feedback loop. That's the only caveat I would add.",
+   "zh": "内部测试产品（dogfooding）这件事挺危险的，主要是因为很多人都会声称自己在进行内部测试。他们会说：“是啊，我们内部测试过了。”但他们真的做到位了吗？很多人的内部测试并没有达到那种真正深入、能有效闭合反馈循环的程度。这是我唯一要补充的警示之言。",
+   "ts": "01:16:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's also this, feels like, straw man argument of evals versus A-B tests. Talk about your thoughts there, because that feels like a big part of this debate. People are having like, \"Do you need evals if you have A-B tests that are testing production level metrics?\"",
+   "zh": "还有这样一个似是而非的论点，即评估与A/B测试相对立。能否谈谈你对此的看法？因为这似乎是这场争论的核心所在。人们会问：\"如果你已经在进行测试生产级别的指标的A/B测试了，那还需要额外的评估吗？\"",
+   "ts": "01:16:24"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "A-B tests are, again, another form of evals ,I imagine, right? When you're doing an A-B test, you have two different experimental conditions and then you have a metric that quantifies the success of something, and you're comparing the metric. Again, an eval in our mind is systematic measurement of quality, some metric. You can't really do an A-B test without the eval to compare, so maybe we just have a different weird take on it.",
+   "zh": "又说回A/B测试，我想这也是评估的一种形式吧？在做A/B测试时，会设置两种不同的实验条件，然后用某个指标来衡量某项事物的成功与否，再对这两个指标进行对比。说到评估，在我们看来就是对质量的系统性衡量，某种量化指标。如果没有可以对比的评估标准，A/B测试其实就无从谈起。所以或许我们对这两者的理解存在偏差。",
+   "ts": "01:16:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, okay. What I'm hearing is you consider A-B tests as part of the suite of evals that you do. I think when people think A-B tests, it's like we're changing something in the product, we're going to see if this improves some metric we care about. Is that enough? Why do we need to test every little feature? If it's impacting a metric we care about as a business, we have a bunch of A-B tests that are just constantly running.",
+   "zh": "是的，没错。我的理解是，你们把A/B测试视为评估套件的一部分。我觉得当人们想到A/B测试时，通常会认为这是对产品进行某种改进，然后观察这些改动是否能提升某个关键指标。这样就足够了吗？为什么我们要对每个微小的功能都进行测试呢？如果某个功能会影响我们业务关心的核心指标，那我们就会安排一堆A/B测试，不断地进行测试验证。",
+   "ts": "01:17:06"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "This is now a great point. I think a lot of people prematurely do A-B tests, because they've never done any error analysis in the first place. They just have hypothetically come up with their product requirements and they believe that, \"We should test these things,\" but it turns out, when you get into the data, as Hamel showed, that the errors that you're seeing are not what you thought what the errors might be. They were these weird handoff issues or, I don't know, the text message thing was strange. I would say that, if you're going to do A-B tests and they're powered by actual error analysis as we've shown today, then that's great, go do it. But if you're just going to do them, which we find that people try to do, just want to do them based on what you hypothetically think is what is important, then I would encourage people to go and rethink that and ground your hypotheses.",
+   "zh": "这一点现在很重要。我认为很多人过早地进行A/B测试，是因为他们从未进行过任何错误分析。他们只是凭空构想出产品需求，然后就觉得\"我们应该测试这些功能\"，但结果是，当你深入研究数据时，正如哈梅尔所展示的，你所发现的错误并非你想象中的那些。可能是一些奇怪的交接问题，又或者短信功能出了故障。我想说，如果你要进行A/B测试，并且像我们今天展示的那样，基于实际的错误分析来开展测试，那当然很棒，尽管去做。但如果你只是想凭空猜测哪些功能重要就急着上手测试，那我建议大家重新审视这个问题，确保你的假设有充分的依据。",
+   "ts": "01:17:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have thoughts on what Statsig is going to do at OpenAI? Is there anything there that's interesting? That was a big deal, a huge acquisition. A- B test company people are like, \"A-B test, the future.\" Thoughts?",
+   "zh": "关于Statsig即将在OpenAI开展的业务，你有什么看法吗？那里有没有什么值得关注的亮点？这次收购可是件大事啊，业界对此反响热烈。A/B测试领域的从业者都称赞它是\"A/B测试的未来\"。大家有什么想法吗？",
+   "ts": "01:18:23"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Just to add to the previous question a little bit, why is there this debate, A-B testing versus evals? I think, fundamentally, evals is... People are trying to wrap their head around how to improve their applications and fundamentally need to do... Data science is useful in products. Looking at data, doing data analytics. There's many different suite of tools, and you don't need to invent anything new. Sure, you don't need necessarily the whole breadth of data science, and it looks slightly different, just slightly, with LLMs. Your tactics might be different, so really what it is is using analytic tools to understand your product. Now, people say the word \"Evals,\" trying to carve out this new thing, and saying evals and then A-B testing, but if you zoom out, it's the same data science as before, and I think that's what's causing the confusion is, \"Hey, we need data science thinking,\" and AI product is helpful to have that thinking in AI products like it is in any product is my take on that.",
+   "zh": "补充一下之前的问题：为什么会出现A/B测试与评估（Evals）之争？我认为根本上，评估（Evals）是……人们试图理解如何改进应用程序，而这根本上需要……数据科学在产品中是很有用的。研究数据、进行数据分析。现在有很多不同的工具套件，你无需重新发明轮子。当然，你不一定需要数据科学的全部内容，而在LLM（大语言模型）时代，应用场景略有不同。你的策略可能会有所调整，但本质上还是在用分析工具来理解你的产品。现在人们提起“Evals”，试图开创新概念，把评估和A/B测试分开，但退一步来看，这和过去的数据科学本质上是一回事。我认为造成混淆的原因在于，“嘿，我们需要数据科学思维”，而人工智能产品和其他产品一样，都能从这种思维中受益——这就是我的看法。",
+   "ts": "01:18:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a really good take, I think just the word \"Evals\" triggers people now.",
+   "zh": "这一观点真是太有道理了。我觉得现在一提到“评估”这个词，人们就会立刻产生警惕心理。",
+   "ts": "01:19:50"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:19:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If you just call it, \"We're just doing error analysis, doing data science to understand where our product breaks and just setting up tests to make sure we know-\"",
+   "zh": "如果你只是说\"我们只是在做错误分析，利用数据科学来了解产品哪里出了问题，然后设置测试来确保我们能掌握情况\"——",
+   "ts": "01:19:53"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "That's boring, sounds boring. No, no, no. We need a mysterious term, like \"Evals,\" to really get the momentum going. Your question about Statsig, I think it's very exciting. To be honest, I don't know much about it, because I just imagine that they're this company that... There's a tool that many people use, and maybe it just so happened that OpenAI acquired them. I'm sure they've been using them in the past, I'm sure OpenAI's competitors are using Statsig as well, so maybe there is something strategic in that acquisition. I have no idea, I don't know anything there, but I think those are really the bigger questions for me than, \"Is this fundamentally changing A-B testing or making evals more of a priority?\" I think they've always been a priority, I think OpenAI has always been doing some form of them, and OpenAI has gone so far, historically speaking, as to go and look at all the Twitter sentiment and try to do some retrospective on that, and then tie that back to their products. Certainly, they're doing-",
+   "zh": "太无聊了，听起来很无聊。不不不。我们需要一个神秘的术语，比如\"Evals\"，才能真正激发讨论热情。关于Statsig的问题，我觉得这非常令人兴奋。说实话，我对它了解不多，因为我只是觉得他们是一家...  \n（此处原文有缺失，可能是对话未完整记录）",
+   "ts": "01:20:00"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Then, tie that back to their products. Certainly, they're doing some amount of evals before they ship their new foundation models, but they're going so much beyond and being like, \"Okay, let's find all the tweets that are complaining about it, all the Reddit threads that are complaining about it, and go try to figure out what's going on.\" It goes to show that evals are very, very important. No one has really figured it out yet. People are using all the available sources signal that they can to improve their products.",
+   "zh": "然后，将这一点与他们的产品联系起来。当然，他们在推出新款粉底产品前会进行一定程度的评估，但他们的做法远不止于此。他们会主动去寻找所有抱怨相关问题的推特帖子和Reddit论坛话题，深入分析问题根源。这充分说明了用户评价的重要性。目前还没有人能完全掌握其中的奥秘，但各大品牌正在充分利用一切可用的信息反馈来改进产品。",
+   "ts": "01:21:00"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "What I'll say is I'm really hopeful that it might shift or create a focus within OpenAI, hopefully. Up until now, a lot of the big labs understandably focused on general benchmarks like MMLU score, human eval, things like that, which are very important for foundation models. Those not very related to product specific evals, like the ones we talked about today, but handoff and stuff like that, they tend not to correlate.",
+   "zh": "我想说的是，我真的希望OpenAI内部能有所转变，或是形成新的工作重点。到目前为止，许多大型实验室都在合理地专注于通用基准测试，比如MMLU得分、人类评估等，这些对于基础模型来说确实非常重要。但像我们今天讨论的这些与产品特定评估关系不大的任务，比如交接工作之类的，往往与这些基准测试并无关联。",
+   "ts": "01:21:26"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, they don't correlate with math problem-solving, sorry to say.",
+   "zh": "是啊，它们和数学解题能力毫无关联，说实话挺遗憾的。",
+   "ts": "01:22:01"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Exactly. If you look at the eval products, let's say the ones up until recently that some of the big labs have, they don't have error analysis. They have a suite of generic tools, cosine similarity, hallucination score, whatever, and that doesn't work. It's a good first stab at it. It's okay. At least you're doing something, getting people, maybe it's like getting people look at data. But eventually, what we hope to see is, okay, a bit more data science thinking in this eval process. That's hopefully the tools we'll get to.",
+   "zh": "没错。看看那些评估产品，比如最近一些大实验室推出的产品，它们根本没有错误分析功能。它们只是提供了一套通用工具，比如余弦相似度、幻觉得分之类的，但这根本不管用。这种做法算是初步尝试，还算可以。至少你在行动，动员了团队，也许还能让大家关注数据。但最终，我们希望看到的是，在评估过程中能融入更多数据科学的思维方式。希望我们未来能开发出更完善的评估工具。",
+   "ts": "01:22:06"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, Pamela and I should not be the only two people on the planet that are promoting a structured way of thinking about application specific evals. It's mind-boggling to me. Why are we the only two people doing this the whole world? What's wrong? I hope that we're not the only people and that more people catch on.",
+   "zh": "是啊，我和帕梅拉不应该成为地球上唯一两个倡导针对特定应用进行结构化评估的人。这真让我感到难以置信。为什么全世界只有我们两个人在做这件事？到底哪里出了问题？我希望我们不是孤军奋战，希望能有更多人意识到这一点。",
+   "ts": "01:22:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The fact that your course on Maven is the number one highest grossing course in Maven, clearly there's demand and interest, and there's more people I think on your side. Interestingly, just as an example you've been sharing on Twitter that I think is informative, everyone's been saying how cloud code doesn't care about evals. They're all about vibes, and everyone's like, and they're the best coding agent out there, so clearly, this is right. More recently, there's all this talk about Codex, OpenAI Codex being better and everyone's switching and they're so pro evals.",
+   "zh": "你的Maven课程在Maven平台上排名第一，收益最高，这显然说明市场需求旺盛、用户兴趣浓厚。我觉得支持你的人肯定更多。说个有趣的例子，你在推特上分享的信息很有启发性——大家都在说云端编程不看重代码评分（evals），讲究的是开发体验（vibes），还有人说它是市面上最棒的编程助手。这显然印证了你的观点。最近关于Codex的讨论更是热烈，OpenAI的Codex被誉为更出色的编程助手，大家都在转用它，而且对代码评分的重视程度明显提升。",
+   "ts": "01:23:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I know.",
+   "zh": "我知道。",
+   "ts": "01:23:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:23:34"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "It gets me every time. The Internet's so inconsistent. My favorite thing was yesterday, I believe, a couple of lab mates and I were out getting dessert or something, and somebody said like, \"Oh, do you like Codex or Claude better or whatever?\" The other person said, \"Oh, I like Claude.\" Then, someone else said, \"But the new version of Codex is better.\" Then, the first person said, \"Oh, but the last I checked was two days ago, so maybe my thoughts, maybe I'm not up-to-date.\" I was like, \"Oh, my God.\"",
+   "zh": "每次都让我无语。互联网真是反复无常。昨天发生的事最让我无奈，我记得当时和几个实验室的伙伴出去吃甜点之类的，有人突然问：“哦，你更喜欢Codex还是Claude啊？”对方回答：“哦，我更喜欢Claude。”接着又有人说：“不过新版的Codex更好用啊。”然后第一个人又说：“但我上次查看还是两天前呢，说不定我的信息已经过时了呢？”我当时简直要气炸了。",
+   "ts": "01:23:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So true, so true. This is the world we live in. Oh, my God. Okay. I want to ask about just top misconceptions people have with evals and top tips and tricks for being successful. Maybe just share one or two each of each. Let me just start with misconceptions, and maybe I'll go to the Hamel first. Just what are a couple of the most common misconceptions people have with eval still?",
+   "zh": "太对了，太对了。这就是我们生活的世界。天哪。好吧。我想问问大家对评估的常见误区，以及取得成功的实用技巧和窍门。或许每种问题各分享一两个。我先从误区说起，然后再谈谈哈梅尔（Hamel）的相关内容。大家对评估还有哪些最常见的误区呢？",
+   "ts": "01:24:14"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "The top one is, \"Hey, I can just buy a tool, plug it in, and it'll do the eval for you. Why do I have to worry about this? We live in the age of AI. Can't the AI just eval it?\" That's the most common misconception, and people want that so much that people do sell it, but it doesn't work. That's the first one.",
+   "zh": "上面那个误区是：“嘿，我只要买个工具，插上电源，它就能帮我完成评估了。我干嘛还要自己操心这些事？我们都生活在人工智能时代了，难道AI不能直接评估吗？” 这是最常见的误区，人们对此需求极高，以至于有人专门卖这类产品，但效果却不尽如人意。这就是第一个误区。",
+   "ts": "01:24:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Shoot, many humans are still great. I think that's great news.",
+   "zh": "天哪，许多人类还是很棒的。我觉得这真是个好消息。",
+   "ts": "01:24:55"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "The second one that I see a lot is, \"Hey, just not looking at the data.\" In my consulting, people come to me with problems all the time, and the first thing I'll say is, \"Let's go look at your traces.\" You can see their eyes pop open and be like, \"What do you mean?\" I'm like, \"Yeah, let's look at it right now.\" They're surprised that I am going to go look at individual traces, and it always 100% of the time learn a lot and figure out what the problem is. I think people just don't know how powerful looking at the data is like we showed on this podcast.",
+   "zh": "我经常听到的第二个说法是：“嘿，你根本就没看数据啊。”在我的咨询工作中，人们总是带着问题来找我，而我首先会说：“我们先去看看你的日志吧。”你能看到他们眼睛突然一亮，问：“你这话什么意思？”我会说：“对啊，现在就去看看。”他们惊讶于我居然要逐一查看日志记录，而每次这样做都能让我收获大量信息，最终找出问题的根源。我觉得人们根本不知道查看数据能带来多大的价值——就像我们在播客里展示的那样。",
+   "ts": "01:25:00"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I would agree with that.",
+   "zh": "我同意这一观点。",
+   "ts": "01:25:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Those are the top two? Okay.",
+   "zh": "就这两个最棒的？好吧。",
+   "ts": "01:25:50"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:25:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there anything else or those are the ones solve those problems.",
+   "zh": "还有其他办法吗？还是说这些就是解决那些问题的唯一方法？",
+   "ts": "01:25:51"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Oh, those are definitely... Then, I guess the third one I would add is, there's no one correct way to do evals. There are many incorrect ways of doing evals, but there are also many correct ways of doing it. You got to think about where you are at with your product, how much resources you have, and figure out the plan that works best for you. It'll always involve some form of error analysis as we showed today, but how you operationalize those metrics is going to change based on where you're at.",
+   "zh": "哦，那些肯定是……那么，我想我要补充的第三点是，进行评估并没有一种标准的正确方法。评估方法中有很多错误的做法，但也有许多正确的做法。你需要考虑你的产品所处的阶段、可用资源的多少，并制定最适合自己的方案。正如我们今天展示的，这总会涉及某种形式的错误分析，但如何将这些指标付诸实践，将会因你所处的阶段而有所不同。",
+   "ts": "01:25:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay. What are a couple of just tips and tricks you want to leave people with as they start on their eval journey or just try to get better at something they're already doing?",
+   "zh": "太棒了。好的。当人们刚开始踏上评估之旅，或者只是想在现有工作中有所提升时，你有什么实用的小贴士或技巧可以分享给他们呢？",
+   "ts": "01:26:28"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Tip number one is just don't be alarmed or don't be scared of looking at your data. The process, we try to make it as structured as possible. There are inevitably questions that are going to come up. That's totally fine. You might feel like you're not doing it perfectly. That's also fine. The goal is not to do evals perfectly, it's to actionably improve your product. We guarantee you, no matter what you do, if you're doing parts of these process, you're going to find ways of actionable improvement, and then you're going to iterate on your own process from there. (01:27:14): The other tip that I would say is, we are very pro-AI. Use LLMs to help you organize any thoughts that you have throughout this entire process. This could be everything ranging from initial product requirements. Figure out how to organize them for yourself. Figure out how to improve on that product requirements doc based on the open codes that you've created. Don't be afraid to use AI in ways that present information better for you.",
+   "zh": "首要建议是，别对查看数据感到惊慌或恐惧。我们会尽可能让整个流程结构化，但难免会遇到各种问题。没关系！你可能会觉得自己做得不够完美，这也很正常。评估的关键不在于追求完美，而是要切实提升产品质量。我们保证，无论你处于流程的哪个阶段，只要你践行了部分步骤，就能找到可行的改进方向，并在此基础上不断优化自己的流程。（01:27:14）另外，我想说的是，我们大力支持人工智能的应用。利用大语言模型来整理整个流程中的思路吧——从最初的产品需求，到根据已创建的开放代码优化需求文档，再到用更易理解的形式呈现这些需求。别犹豫，勇敢地利用AI技术，让信息呈现方式更符合你的需求。",
+   "ts": "01:26:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sweet, so don't be scared. Use LLMs as much as you can throughout the process.",
+   "zh": "太棒了，所以别担心。整个过程中，尽可能多地利用大语言模型（LLM）吧。",
+   "ts": "01:27:44"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "But not to replace yourself.",
+   "zh": "但不是为了取代你自己。",
+   "ts": "01:27:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right. Okay, great. There's still jobs. It's great. Hamel.",
+   "zh": "好的，没错。嗯，太好了。还是有工作机会的，这真是太棒了。哈梅尔。",
+   "ts": "01:27:51"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. Let me actually share my screen, because I want to show something. To piggyback of what Shreya said is, if you heard any phrase in this podcast, you've probably heard look at your data more than anything else. It's so important that we teach that you should create your own tools to make it as easy as possible. I showed you some tools when we're going through the live example of how to annotate data. Most of the people I work with, they realize how important this is and they vibe code their own tools, or we shouldn't say vibe code. They make their own tools, and it's cheaper than ever before because you have AI that can help you. (01:28:40): AI is really good at creating simple web applications that can show you data, that can write to a database. It's very simple. For the Nurture Boss use case, we wanted to remove all the friction of looking at data. What you see here is just some screenshots of what the application that they created looks like. It's just, \"Okay, they have the different channels, voice, email, text. They have the different threads, they hid the system prompt by default.\" Little quality of life improvements. Then, they actually have this axial coding part here where you can see in red the count of different errors. They automated that part in a nice way and they created this within a few hours. It's really hard to have a one size fits all thing for looking at your data. You don't have to go here immediately, but something to think about is make it as easy as possible because, again, it's the most powerful activity that you can engage in. It's the highest ROI activity you can engage in. With AI, yeah, just remove all the friction.",
+   "zh": "是的。让我实际分享一下我的屏幕吧，因为我想展示一些东西。正如Shreya所说，如果你在本期播客中听到了任何一句建议，那很可能是\"最重要的是看数据\"。我们强调要自建工具来尽可能简化这一流程，这一点至关重要。我在演示如何实时标注数据的例子时，向大家展示了一些工具。大多数与我合作的人都意识到这一点的重要性，他们要么自己编写代码（不过不该用\"编写代码\"这种口语化表达），总之就是开发自己的工具。如今借助AI技术，创建能展示数据、能与数据库交互的简单网络应用比以往任何时候都更容易。（01:28:40）AI特别擅长创建能展示数据的简单应用，比如显示数据、写入数据库等功能。整个过程非常简单。以Nurture Boss这个案例为例，我们希望消除查看数据时的所有阻碍。你们看到的这些截图展示了他们开发的应用界面：不同的沟通渠道（语音、邮件、短信），隐藏默认的系统提示等，这些都是提升用户体验的细节。最重要的是，他们还开发了这个轴心编码模块，红色标注的不同错误数量一目了然。他们用智能化方式自动化了这一流程，仅用几个小时就完成了开发。查看数据这件事很难有一刀切的解决方案。大家不必急于照搬，但需要思考如何尽可能简化流程，毕竟这才是最能提升效率的核心活动，也是回报率最高的行为。借助AI技术，关键在于消除所有阻碍。",
+   "ts": "01:27:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's amazing. Again, I think that ROI piece is so important. We haven't even touched on this enough. The goal here is to make your product better, which will make your business more successful. This isn't just a little exercise to catch bugs and things like that. This is the way to make AI products better because the experience is how users interact with your AI.",
+   "zh": "太棒了。再说一次，我认为投资回报率这部分非常重要。我们对此甚至还谈得不够。这里的目标是让你的产品更出色，从而让你的业务更加成功。这不只是查找漏洞之类的简单测试。这是提升AI产品质量的关键途径，因为用户与AI的交互体验直接影响着产品的成败。",
+   "ts": "01:29:56"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Absolutely. If any, we teach our students, \"Hey, when you're doing these evals, if you see something that's wrong, just go fix it.\" The whole point is not to have evals, a beautiful eval suite, where you can point at it, edit it and say, Oh, look at my evals.\" No, just fix your application, make it better. If it's obvious, do it. Totally agree with you.",
+   "zh": "完全同意。如果有问题的话，我们会教导学生：“嘿，当你在进行这些评估时，如果你发现有任何错误，就直接去修正它。”关键不在于拥有一套漂亮的评估套件，让你可以指着它、编辑它，然后说：“看我的评估多棒啊！”不，你只需要去修复你的应用程序，让它变得更好。只要问题明显，就直接动手改进。完全赞同你的观点。",
+   "ts": "01:30:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. A question I didn't ask, but this is I think something people are thinking about. How long do you spend on this? How long does it usually take to do? The first time",
+   "zh": "太棒了。虽然我没问这个问题，但我觉得这是大家都在思考的。你花了多长时间做这个？通常做一次需要多久？第一次做的时候呢？",
+   "ts": "01:30:38"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I can answer for myself for applications that I work with. Usually, I'll spend three to four days really working with whoever to do initial rounds of error analysis. A lot of labeling, feel like we're in a good place to create the spreadsheet that Hamel had and everyone's on-board and convinced, and even a few LLM judge evaluators. But this is one-time cost. Once I figured out how to integrate that in unit tests, or I have a script that automatically runs it on samples and I'll create a Cron Job to just do this every week. I would say it's like, I don't know, I find myself probably spending more time looking at data because I'm just data hungry like that. I'm so curious. (01:31:23): I'm like, I've gained so much from this process and it's put me above and beyond in any of my collaborations with folks, so I want to keep doing it, but I don't have to. I would say maybe 30 minutes a week after that.",
+   "zh": "就我参与的应用项目而言，我可以为自己负责。通常，我会花三到四天时间与相关人员深入开展初步的错误分析工作。期间需要进行大量标注工作，目前我们已成功创建了哈梅尔提到的电子表格，团队成员都已达成共识，甚至包括几位LLM评分员。但这只是一次性投入。一旦我掌握了如何将其集成到单元测试中，或者开发出能自动在样本上运行该流程的脚本后，便会创建一个定时任务，每周自动执行此操作。我得说，我发现自己可能花费了更多时间研究数据，因为我实在太渴望获取更多信息了。我对此充满好奇。（01:31:23）我觉得自己从这个过程中收获颇丰，它让我的合作效率远超预期，所以我很想继续坚持下去，但其实并非必须如此。之后每周可能只需花费约30分钟即可。",
+   "ts": "01:30:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's a week essentially, a week essentially upfront, and then 30 minutes to keep improving on adding to your suite?",
+   "zh": "基本上就是一周时间，主要是前期准备阶段，之后每隔30分钟就持续优化和完善你的方案，对吧？",
+   "ts": "01:31:41"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, it's really not that much time. I think people just get overwhelmed by how much time they spend up front and then thinking that they have to keep doing this all the time.",
+   "zh": "是啊，其实时间并不算多。我觉得人们只是被前期投入的大量时间压得喘不过气，然后误以为自己必须一直这样坚持下去。",
+   "ts": "01:31:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Is there anything else that you wanted to share or leave listeners with? Anything else you wanted to double down as a point before we get to a very exciting lightning round?",
+   "zh": "太棒了。在我们进入激动人心的闪电问答环节之前，还有什么想和听众分享或留下启发的吗？有没有什么观点值得你再强调一遍的？",
+   "ts": "01:31:56"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "I would say this process is a lot of fun, actually. It's like, okay, you're looking at data. Oh, it sounds like you're annotating things. Okay. Actually, I was just looking at a client's data yesterday, the same exact process. It's a application that sends emails, recruiting emails to try to get candidates to apply for a job. We decided to start looking at traces. We jumped right into it. \"Hey, let's look at your traces.\" We looked at a trace, the first thing I saw was this email that is worded, \"Given your background, blah, blah, blah, blah, blah.\" I asked the person right away, and this is where putting your product hat on and just being critical, and this is where the fun part is. (01:32:55): I said, \"You know what? I hate this email. Do you like the email, given your background?\" When I receive a message given your background, comma, I just delete that. I'm like, \"What is this, given your background with machine learning and blah blah?\" I'm like, \"This is a generic thing.\" I asked the person like, \"Hey, can we do better than this? This sounds like generic recruiting.\" They're like, \"Oh, yeah, maybe.\" Because they were proud of it, they're like, \"The AI is doing the right thing, it's sending this email with the right information, with the right link, with the right name, everything.\" That's where the fun part is, is put your product hat on and get into, is this really good?",
+   "zh": "实际上，我觉得这个过程挺有趣的。比如，你在看数据，哦，听起来你在标注信息。好吧。我昨天刚看了一个客户的数据，流程完全一样。这是一个发送招聘邮件的应用程序，目的是吸引候选人申请工作。我们决定开始分析追踪数据，直接开干了。\"嘿，咱们看看你的追踪数据吧。\"我们查看了一条追踪记录，首先映入眼帘的是这封邮件，开头写着\"鉴于你的背景，等等等等\"。我立刻问对方——这时候你要戴上产品经理的帽子，保持批判性思维，乐趣也从此刻开始。（01:32:55）我说：\"你知道吗？我讨厌这封邮件。鉴于你的背景，你喜欢这封邮件吗？\"我收到这种\"鉴于你的背景\"的邮件，直接就删掉了。我会想：\"这算什么？鉴于你有机器学习背景之类的？\"我觉得这太普通了。我问对方：\"嘿，我们能不能做得更好？这听起来就是千篇一律的招聘邮件。\"对方回答：\"哦，或许吧……\"他们还挺自豪的，说\"人工智能做得很棒，邮件里信息准确，链接正确，名字也合适，一切都完美。\"这时候乐趣就来了，戴上产品思维去评判：这真的好吗？",
+   "ts": "01:32:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Something I want to make sure we cover before we get to a very exciting lightning round is, this is just scratching the surface of all the things you need to know to do this well. I think this is the best primer I've ever seen on how to do this well.",
+   "zh": "在我们进入激动人心的闪电问答环节之前，我想确保我们先把一些基础内容讲清楚。毕竟，要想做好这件事，你需要掌握的知识远不止这些。我觉得这份指南堪称我见过的最佳入门教程，教你如何把这件事做得又好又专业。",
+   "ts": "01:33:38"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Nice.",
+   "zh": "不错。",
+   "ts": "01:33:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But I think we did it. But you guys teach a course that goes much, much deeper for people that really want to get good at this and take this really seriously. Share what else you teach in the course that we didn't cover, and what else you get as a student being part of the course you teach at Maven.",
+   "zh": "但我觉得我们成功了。不过你们开设的课程针对那些真正想精通这门技艺、认真对待它的人，其深度远超我们的课程。请分享一下你们课程中还有哪些内容是我们没有涉及的，以及作为学员参与你们在Maven平台授课的课程能获得哪些额外收获。",
+   "ts": "01:33:51"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, I can talk about the syllabus a little bit, and then Hamel can talk about all the perks. We go through a lifecycle of error analysis, then automated evaluators, then how to improve your application, how do you create that flywheel for yourself? We also have a few special topics that we find pretty much no one has ever heard of or taught before, which is exciting. One is, how do you build your own interfaces for error analysis? We go through actual interfaces that we've built and we also live code them on the spot for new data. We show how we use Claude code cursor, whatever we're feeling in the moment that day to build these interfaces. (01:34:49): We also talk about broadly cost-optimization as well. A couple of people that I've worked with, they get to a point where their evals are very good, their product is very good, but it's all very expensive because they're using state-of-the-art models. How can we replace certain uses of the most expensive GPT-5, with 5-nano, 4-mini whatnot and save a lot of money, but still maintain the same quality? We also give some tips for that. Hamel, you're on. We also have many perks.",
+   "zh": "是的，我可以简单讲讲教学大纲，然后哈梅尔可以详细介绍所有福利。我们会逐步讲解错误分析的生命周期、自动化评估工具，以及如何优化应用程序，还有如何为自己打造良性循环。还有一些特别的主题，我们发现几乎没人听说过或教授过，这很令人兴奋。比如，如何为错误分析构建自己的界面？我们会展示实际开发的界面，并现场根据新数据实时编写代码。我们会演示如何使用Claude代码光标，以及当天随机想到的其他方法来构建这些界面。（01:34:49）我们还会广泛探讨成本优化问题。有些合作伙伴虽然产品质量出色、评估效果良好，但由于采用了最先进的模型导致成本过高。我们将探讨如何用更低成本的模型（如GPT-5 Nano、4 Mini等）替代昂贵的模型，同时保持同等质量，并为此提供实用建议。哈梅尔，接下来由你来分享。另外，我们还有许多诱人的福利等着大家。",
+   "ts": "01:34:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Talk about the perks.",
+   "zh": "是啊。要是能聊聊那些福利待遇就好了。",
+   "ts": "01:35:23"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Okay, the perks. My favorite perk is there's 160 page book that's meticulously written, that we've created, that walks through the entire process in detail of how to do evals that supplement the course. You don't have to sit there and take all these notes. We've done all the hard work for you and we have documented it in detail and organize things. That is really useful. Another really interesting thing, and something that I got the idea from you, Lenny, is, okay, this is an AI course. Education shouldn't be this thing where you are only watching lectures and doing homework assignments. Students should have access to an AI that also helps them. What we have done is we've, just like there's the LennyBot that you have.",
+   "zh": "好的，来说说这些福利吧。我最喜欢的福利就是我们编写了一本160页的精心撰写的指南，详细讲解了如何进行评估来辅助课程学习。你们不必再逐字记录笔记了，我们已经为你们完成了所有繁琐的工作，并将其详细记录和整理。这真的非常实用。还有一件很有趣的事，也是我从你，Lenny这里得到的灵感——好吧，这是一门人工智能课程。但教育不应该只是看讲座和做作业。学生应该能获得人工智能工具来辅助学习。我们所做的是，就像你们拥有的LennyBot一样。",
+   "ts": "01:35:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Dot com.",
+   "zh": "Dot com.",
+   "ts": "01:36:19"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, lennybot.com, we have made the same thing with the same software that you're using, and we have put everything we've ever said about evals into that. Every single lesson, every office hours, every Discord chat, any blogs, papers, anything that we've ever said publicly and within our course, we've put it in there. We've tested it with a bunch of students and they've said it's helpful. We're giving all students 10 months free unlimited access to that alongside the course.",
+   "zh": "是的，lennybot.com这个平台。我们用了和你们一样的软件开发了这个系统，把我们关于评分反馈的所有内容都整合到了里面。每节课的讲解、每期答疑时间、每条Discord聊天记录、所有博客文章、学术论文，以及我们在课程中公开分享的任何信息，都收录在里面了。我们已经让一批学生进行了测试，他们反馈说这个工具非常有用。现在，我们为所有学生提供为期10个月的免费无限制访问权限，与课程内容同步开放使用。",
+   "ts": "01:36:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Then, you'll charge for that later down the road?",
+   "zh": "太棒了。那你之后会对此收费吗？",
+   "ts": "01:36:56"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "I have no idea. I just take one month at a time. I don't know where we're going with that.",
+   "zh": "我也不知道啊。我只是走一步看一步。真不知道我们接下来该怎么做。",
+   "ts": "01:37:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Eight months and then we'll have to figure it out. I was thinking this whole interview should have just been our bots talking to each other.",
+   "zh": "八个月之后，我们就得想办法解决了。我觉得这场采访原本应该就让我们的机器人互相对话就好了。",
+   "ts": "01:37:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "That's amazing. I would watch that, only for 10 minutes then I don't know what they're talking about.",
+   "zh": "太不可思议了。我可能会看一看，但估计只会看十分钟左右，因为之后我就会完全听不懂他们在说什么了。",
+   "ts": "01:37:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, maybe 30 seconds. Do you guys train it on the voice mode, by the way? That's my favorite feature of Delphi's product. If not, you should do that.",
+   "zh": "是啊，也许就30秒吧。对了，你们有在语音模式上进行训练吗？这是我最喜欢Delphi产品的一项功能。要是没有的话，你们真该试试看。",
+   "ts": "01:37:14"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Oh, I think, I can't remember, I should look at it.",
+   "zh": "哦，我想，我记不起来了，得去看看。",
+   "ts": "01:37:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You definitely should. Now that we have this podcast episode, you could use this content to train it. It's 11Labs powered. It's so good. Okay, so how do they get to... I guess that's okay. They get to that once they become, enter your course.",
+   "zh": "你肯定应该这么做。既然我们已经录制了这期播客节目，你可以利用这些内容来进行模型训练。这是由11Labs提供支持的，效果非常棒。好的，那他们要怎么做才能... 嗯，这样也行。当他们加入你的课程后，就能获取这些资源了。",
+   "ts": "01:37:26"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, sign up for the course and then you'll get a bunch of emails. Everything will be clear, hopefully.",
+   "zh": "是啊，先报名这门课程，然后你就会收到一堆邮件。希望到时候一切都清晰明了。",
+   "ts": "01:37:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay.",
+   "zh": "太棒了。好的。",
+   "ts": "01:37:43"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "We also have a Discord of all the students who have ever taken the class. That Discord is so active. I can't go on vacation without getting notified on the plane.",
+   "zh": "我们还有一个所有上过这门课的学生的Discord群组。那个群组特别活跃，我每次出国度假坐飞机时，都会收到各种通知消息，根本没法好好休息。",
+   "ts": "01:37:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bittersweet, bittersweet. Incredible. Okay. With that, we've reached our very exciting lightning round. I've got five questions for you. Are you ready?",
+   "zh": "真是喜忧参半，真是喜忧参半。太不可思议了。好的，接下来我们要进行令人兴奋的闪电问答环节。我有五个问题要问你们。你们准备好了吗？",
+   "ts": "01:37:55"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yes. Let's go.",
+   "zh": "是的。我们走吧。",
+   "ts": "01:38:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's do it. Okay. I'm going to bounce between you two. Share something if you want. You can pass if you want. First question, Shreya, what are two or three books that you find yourself recommending most to other people?",
+   "zh": "好的，那我们开始吧。首先，我会轮流请两位分享各自最常向他人推荐的书籍。Shreya，你能先来吗？你可以选择直接分享书名，或者先听听其他人的推荐。接下来是Kathy，你有什么想分享的吗？",
+   "ts": "01:38:05"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I like to recommend a fiction book because life is about more than evals. Recently, I read Pachinko by Min Jin Lee. A really great book. Then, I also am currently reading Apple in China, which the name of the author is slipping my mind, but this is more of an exposition, written by a journalist on how Apple did a lot of manufacturing processes in Asia over the last couple, several decades. Very eye-opening.",
+   "zh": "我想推荐一本小说类书籍，毕竟生活不止是考试成绩。最近我读了李敏仁的《弹珠机》，这本书真的很棒。另外，我现在正在读一本叫《苹果在中国》的书，但作者的名字我一时想不起来了。这本书更像是一部纪实作品，作者以记者的视角记录了过去几十年间苹果公司在亚洲的制造历程，内容相当发人深省。",
+   "ts": "01:38:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Hamel.",
+   "zh": "太棒了。哈梅尔。",
+   "ts": "01:38:49"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, I have them right here. I'm a nerd. Okay, so I'm not as cool as Shreya is. I actually have textbooks, which are my favorite. This one is a very classic one, Machine Learning by Mitchell. Now, it's theoretical, but the thing I like about it is it really drives home the fact that Occam's razor is prevalent not only in science, but also in machine learning and AI. A lot of times the simplest, and also engineering, so a lot of times the simpler approach generalizes better. That's the thing I internalize deeply from that book. I also really like this one. Another textbook. I told you I'm a nerd. This is also a very old one, and this is Norvig algorithms. I really like it because it's just human ingenuity and it's lots of clever useful things in computing.",
+   "zh": "是啊，我这儿就放着呢。我是个书呆子。好吧，我可没施瑞娅酷。我确实有教材书，它们可是我的心头好。这一本是米切尔的《机器学习》——绝对经典之作。虽然内容偏理论性，但我最欣赏的在于它深刻阐释了奥卡姆剃刀原理不仅适用于科学领域，更能运用于机器学习和人工智能领域。很多时候，最简单的解决方案往往最有效，工程学也是如此——越简洁的方案往往更易于推广。这本书让我深有体会。还有这本，也是教材。我跟你说过我是个书呆子吧。这本更古老了，是诺维格的《算法导论》。我特别喜欢它，因为书中凝聚着人类的智慧，里面有很多计算机领域的巧妙实用技巧。",
+   "ts": "01:38:52"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "They're down the street, him and Berkeley.",
+   "zh": "他们在街那头呢，他和伯克利一起。",
+   "ts": "01:39:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The people that did that research?",
+   "zh": "进行那项研究的人？",
+   "ts": "01:39:54"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, textbook authors.",
+   "zh": "是啊，就是教材编写者啊。",
+   "ts": "01:39:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Super cool. Oh, man, nerds, I love it. Okay, next question. Favorite recent movie or TV show? I'll jump to Hamel first.",
+   "zh": "太酷了。天哪，书呆子们，我超爱这个。好吧，下一个问题。最近最喜欢的电影或电视剧是什么？我先让哈梅尔来回答。",
+   "ts": "01:39:58"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Okay, so I'm a dad of two parents. I have two parents. Sorry, two kids. Yeah, I'm a dad of two kids, and I don't really get the time to watch any TV or movies, so I watch whatever my kids are watching. I've watched Frozen three times in the last week.",
+   "zh": "好吧，我是两个孩子的父亲。确切来说，是两个孩子。抱歉，我是两个孩子的父亲，但我实在没时间看电视或电影，所以只能跟着孩子们看他们在看的东西。过去一周里，我已经把《冰雪奇缘》看了三遍了。",
+   "ts": "01:40:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Only three? Oh, okay. In the last week. Okay.",
+   "zh": "只有三个？哦，好的。上周的情况呢？好的。",
+   "ts": "01:40:25"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "That's my life.",
+   "zh": "就这吧，我的生活就是这样。",
+   "ts": "01:40:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great, Hamel. Frozen. I love it. Okay, Shreya.",
+   "zh": "太棒了，哈梅尔。《冰雪奇缘》。我超爱这部电影。好的，施瑞亚。",
+   "ts": "01:40:30"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, I don't have kids, so I can give all these amazing answers. Actually, so my husband and I have been watching The Wire recently. We never actually saw it growing up, so we started watching it and it's great.",
+   "zh": "是啊，我没有孩子，所以才能给出这些精彩的回答。说真的，我和丈夫最近一直在看《火线》这部剧。我们小时候从没看过这部剧，所以现在开始补剧，发现它真的太棒了。",
+   "ts": "01:40:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like everyone goes through that. Eventually in their life they decide, I will watch The Wire.",
+   "zh": "我觉得每个人都会经历这种过程。在人生的某个阶段，他们总会下定决心：\"我要去看《火线》这部剧了。\"",
+   "ts": "01:40:46"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I know, so we are in that right now.",
+   "zh": "我知道，所以我们现在正处于这种情况下。",
+   "ts": "01:40:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's like a year of your life. It's great. It's such a great show. Oh, man. But it's so many episodes and everyone's an hour long.",
+   "zh": "这就像你生命中的一年。太棒了。这部剧真是太棒了。天哪。不过剧集太多了，每集都有一个小时那么长。",
+   "ts": "01:40:51"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I know. I know.",
+   "zh": "我知道。我知道。",
+   "ts": "01:40:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's such a commitment.",
+   "zh": "这真是件需要全身心投入的事。",
+   "ts": "01:40:58"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "We get through two or three a week, so we're very slow.",
+   "zh": "我们每周只能处理两到三个申请，所以进展非常缓慢。",
+   "ts": "01:40:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Worth it. Okay, next question. Do you have a favorite product you've recently discovered that you really love? We'll start with Shreya.",
+   "zh": "太值了。好的，下一个问题。你最近有没有发现特别喜欢的新产品？我们先从施瑞亚开始吧。",
+   "ts": "01:41:03"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah. I really like using Cursor, honestly. Now, Claude Code. I'll say why. I'm a researcher more so than anything else. I write papers, I write code, I build systems, everything, and I find that a tool... I'm so bullish on AI assisted coding because I have to wear a lot of hats all the time. Now, I can be more ambitious with the things that I build and write papers about, so I'm super excited about those. Cursor was my entry point into this, but I'm starting to find myself always trying to keep up with all these AI assisted coding tools.",
+   "zh": "是啊，说实话，我真的很喜欢用Cursor。现在来说说Claude Code吧。我来解释一下原因。我本质上更像是一名研究人员——写论文、写代码、搭建系统，什么都做。我发现这个工具……我对AI辅助编程非常看好，因为我总是要身兼多职。现在，我能在研发项目和论文写作上更有野心了，所以对这些进展我特别兴奋。Cursor是我接触这领域的入门工具，但现在我发现自己总是在追赶各种AI辅助编程工具的更新。",
+   "ts": "01:41:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hamel?",
+   "zh": "哈梅尔？",
+   "ts": "01:41:48"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, I really like Claude Code and I like it because I feel like the UX is outstanding. There's a lot of love that went into that. It's just really impressive as a terminal application that is that nice.",
+   "zh": "是的，我真的很喜欢Claude Code，我喜欢它是因为我觉得它的用户体验非常出色。这款产品显然倾注了大量心血。作为一款终端应用能做到如此出色，着实令人赞叹。",
+   "ts": "01:41:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Ironic that you two both love Claude Code when it's just built on vibes.",
+   "zh": "真讽刺，你们俩都喜欢Claude Code，可它不过是徒有其表罢了。",
+   "ts": "01:42:04"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I think it's false. It's not just built on vibes.",
+   "zh": "我觉得这不靠谱。光靠感觉是远远不够的。",
+   "ts": "01:42:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There we go. Okay, two more questions. Hamel, do you have a favorite life motto that you find yourself using in coming back to in work or in life?",
+   "zh": "好的，接下来还有两个问题。哈梅尔，你有没有一句最喜欢的座右铭，经常在工作或生活中回想起来？",
+   "ts": "01:42:13"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Keep learning in. Think like a beginner.",
+   "zh": "继续学习吧。保持初学者的心态，虚心求学。",
+   "ts": "01:42:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Beautiful. Shreya?",
+   "zh": "真美。是施瑞娅吗？",
+   "ts": "01:42:26"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "I like that. For me, it's to always try to think about the other side's argument. I find myself sometimes just encountering arguments on the internet, like this race to eval debates and really think, \"Okay, put myself in their shoes. There's probably a generous take, generous interpretation.\" I think we're all much stronger together than if we start picking fights. My vision for evals is not that Hamel and I become billionaires. It is that everyone can build AI products, and we're all on the same page",
+   "zh": "我很赞同这一点。对我而言，关键在于始终尝试站在对方立场去思考问题。我发现自己有时在网上遇到激烈的争论时，比如那种急于对抗对方观点的辩论，心里就会想：“好吧，我换位思考一下。或许存在更宽容的理解方式。”我认为只要大家齐心协力，力量会远超各自为战。我对评测平台的愿景并非让哈梅尔和我成为亿万富翁，而是让每个人都能开发出人工智能产品，并且我们在这一目标上保持共识。",
+   "ts": "01:42:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Slash everyone becomes billionaires.",
+   "zh": "假如每个人都成为亿万富翁，那会怎样？",
+   "ts": "01:42:59"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:43:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Final question. When I have two guests on, I always like to ask this question and I'll start with Hamel. What's something about Shreya that you like most? What do you like most about Shreya? I'm going to ask her the same question in reverse.",
+   "zh": "太棒了。最后一个问题。当我邀请两位嘉宾时，我总喜欢问这个问题，我先从哈梅尔开始。关于施瑞娅，你最欣赏她哪一点？你最喜欢施瑞娅的哪一点？接下来我要反过来问她同样的问题。",
+   "ts": "01:43:04"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah. Shreya is one of the wisest people that I know, especially for being so young relative to me. I feel like she's much wiser than I am, honestly, seriously. She's very grounded and has a very even perspective on things. I'm just really impressed by that all the time.",
+   "zh": "是啊。我认识的人当中，施瑞娅是最有智慧的之一，尤其是相较于我这样年纪较大的人。她比我明智得多，这一点我毫不夸张、认真地说。她非常务实，对事物有着冷静客观的看法。我对此始终深感钦佩。",
+   "ts": "01:43:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Shreya?",
+   "zh": "施瑞亚？",
+   "ts": "01:43:18"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah. My favorite thing about Hamel is his energy. I don't know anybody who consistently maintains momentum and energy like Hamel does. I often think that I would start carrying much less about evals, if not for Hamel. Everyone needs a Hamel in their life, for sure.",
+   "zh": "是啊。我最欣赏哈梅尔的地方在于他的活力。我从未见过有谁能像他一样始终保持着势头和热情。我常想，要不是哈梅尔，我可能就不会那么在意绩效评估了。每个人的生命中都应该有这样一个哈梅尔，毫无疑问。",
+   "ts": "01:43:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, we all have a Hamel in our life now. This was incredible. This was everything I'd hoped it'd be. I feel like this is the most interesting in-depth consumable primer on evals that I've ever seen. I'm really thankful you two made time for this. Two final questions. Where can folks find you? Where can they find the course and how can listeners be useful to you? I'll start with Shreya.",
+   "zh": "好吧，我们现在每个人生活中都有一个\"哈梅尔\"（注：指课程讲师）。这一切真是太棒了，完全符合我的期待。我觉得这是我见过最有趣、最深入的评估入门指南。真的很感谢你们两位抽出时间来做这件事。最后两个问题：大家在哪里可以找到你们？课程在哪里可以获取？听众如何能为你们提供帮助？先请施瑞娅（Shreya）回答。",
+   "ts": "01:44:06"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Yeah, you can reach me via email. It's on my website. If you Google my name, that is the easiest way to get to my website. You can find the course if you Google AI Evals for engineers and product managers, or just AI Evals course, you'll find it. We'll send some links hopefully after this, so it's easy. How to be helpful? Two things always for me. One is ask me questions when you have them. I'll try to get to the respond as soon as I can. The other one is tell us your successes. One of the things that keeps us going is somebody tells us what they implemented or what they did, a real case study. Hamel and I gets so excited from these and it really keeps us going, so please share.",
+   "zh": "是的，你可以通过邮件联系我。邮箱地址在我的网站上。如果你用谷歌搜索我的名字，那是最便捷的访问方式。若想找到这门课程，可以搜索\"AI评估课程（面向工程师与产品经理）\"，或者直接输入\"AI评估课程\"就能找到。我们之后会发送一些链接，操作起来会很简单。如何给予帮助？对我来说，有两点很重要。一是当你有问题时，随时向我提问。我会尽快回复。二是分享你的成功案例。这些真实的应用案例能让我们倍感振奋，持续前进的动力源泉。所以请多多分享你的成果。",
+   "ts": "01:44:29"
+  },
+  {
+   "speaker": "Hamel Husain",
+   "en": "Yeah, it's pretty easy to find me. My website is Hamel.dev. I'll give you the link. You can find me on social media, LinkedIn, Twitter. The thing that's most helpful is to echo what Shreya said, we would be delighted if we are not the only people teaching evals. We would love other people teach evals. Any kind of blog posts, writing, especially that as you go through this and learn this that you want to share, we would be delighted to help re-share that or amplify that.",
+   "zh": "是啊，要找到我其实挺容易的。我的网站是Hamel.dev，我把链接发给你。你可以在社交媒体、领英和推特上找到我。最重要的是，我想重复Shreya说的话：如果我们不是唯一教授评估技术的人，那就太好了。我们非常希望有其他人加入教学行列。任何博客文章、书面材料，尤其是当你们在学习评估技术过程中有心得想要分享的，我们都很乐意帮忙转发或推广这些内容。",
+   "ts": "01:45:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Very generous. Thank you two, so much for being here. I really appreciate it, and you guys have a lot going on, so thank you.",
+   "zh": "太棒了。你们真是太慷慨了。感谢你们两位的到来，我非常感激。你们平时事务繁忙，还能抽空前来，这份心意我永远铭记于心。",
+   "ts": "01:45:54"
+  },
+  {
+   "speaker": "Shreya Shankar",
+   "en": "Thanks, Lenny, for having us and for all the compliments.",
+   "zh": "谢谢你，莱尼，感谢你邀请我们来，也谢谢你对我们的诸多赞美。",
+   "ts": "01:46:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "My pleasure. Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at Lennyspodcast.com. See you in the next episode.",
+   "zh": "很荣幸为您服务。大家再见啦！非常感谢您的收听。如果您觉得本节目有价值，可以在Apple Podcasts、Spotify或您喜爱的播客应用上订阅。同时，欢迎给我们评分或留下评论，这对帮助其他听众发现本节目非常有帮助。您可以在Lennyspodcast.com上收听往期节目或了解更多节目信息。下期节目再见！",
+   "ts": "01:46:05"
+  }
+ ]
+}

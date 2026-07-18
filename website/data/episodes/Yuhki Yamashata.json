@@ -1,0 +1,611 @@
+{
+ "id": "Yuhki Yamashata",
+ "name": "Yuhki Yamashata",
+ "category": "设计",
+ "identity": "设计",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Yuhki+Yamashata",
+ "bio": {
+  "en": "Yuhki Yamashita is Chief Product Officer at Figma, previously led the redesign of Uber's rider/driver apps and the YouTube iOS app at Google/Microsoft.",
+  "zh": "Yuhki Yamashita 是 Figma 的首席产品官（CPO），此前曾领导 Uber 乘客/司机端应用的改版，以及 Google/Microsoft 时期的 YouTube iOS 应用。"
+ },
+ "summary": {
+  "en": "Yuhki walks through how Figma builds product, including operationalizing quality, the case against OKRs (which he deprecated in favor of 'commitments' and headlines), and why Figma is known for both product-led growth and a community of empowered users. He shares why storytelling is key to being a great PM, owning the 'why,' and the potential impact of Adobe's acquisition of Figma. The episode is a detailed inside look at one of the most admired product teams.",
+  "zh": "Yuhki 逐步讲解了 Figma 如何打造产品，包括“将品质操作化”、反对 OKR 的理由（他以“承诺（commitments）”与“标题（headlines）”取而代之），以及为什么 Figma 既以产品驱动增长、又以支持用户的社区著称。他分享了为何讲故事是成为优秀 PM 的关键、拥有“为什么（why）”的重要性，以及 Adobe 收购 Figma 的潜在影响。本期是对最受钦佩的产品团队之一的、详尽的內部透视。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "There's something controversial about this idea that everyone can see what you're doing or that multiple designers can be in the file at the same time. We like to say that one of the first responses we saw Lenny [inaudible 01:08:35] Figma was, if this is the future of design, I'm quitting, right? I'm changing careers. (00:00:17): And there's that tension of that narrative tension, but that is signal that you're part of this revolution and you're trying to change something. And when it equips your customers or user base with that, then I think that's something that they can really get behind and champion. (00:00:35): So it's not just that they're championing for a tool, they're also championing for a new way of working. Obviously, that's a tall order or don't want to come up with that, but hopefully, if you're a founder and you're working on something, your vision is so big that you have those kind of ideas and it's like, how do you actually equip your customers to want to talk about that? (00:00:58): Welcome to Lenny's podcast. I'm Lenny, and my goal here is to help you get better at the craft of building and growing products, interview world class product leaders and growth experts to learn from their hard won experiences, building and scaling today's most successful companies. (00:01:12): Today my guest is Yuhki Yamashita. Yuhki is Chief Product Officer at Figma, where he's been for almost four years. Prior to Figma, he was at Uber, both as a Product Leader and also, interestingly, as Head of Design for one of their bigger product teams. Before Uber, Yuhki spent time at Google and Microsoft, even taught an introductory computer science course at Harvard. (00:01:33): In our conversation, we explore Figma's product development philosophy, how they build such consistently great products, how they hire, what habit Yuhki has found to be the most instrumental in his success in his career, and also what Yuhki and his product team have learned by building a product led growth business. (00:01:50): This episode builds on a newsletter post where I interview Yuhki about how Figma builds product. So if you enjoy this episode, or even while you're listening to it, I highly recommend you check it out. It's currently my fourth most popular newsletter post of all time. You can find it at lennysnewsletter.com. With that, I bring you Yuhki Yamashita, after a short word from our wonderful sponsors. (00:02:15): This episode is brought to you by Notion. If you haven't heard of Notion, where have you been? A's notion to coordinate this very podcast, including my content calendar, my sponsors, and prepping guests for launch of each episode. Notion is an all-in-one team collaboration tool that combines note-taking, document sharing, wikis, project management, and much more into one space that's simple, powerful and beautifully designed. (00:02:40): And not only does it allow you to be more efficient in your work life, but you can easily transition to using it in your personal life, which is another feature that truly sets Notion apart. The other day, I started a home project and immediately opened up Notion to help me organize it all. Learn more and get started for free. At notion.com/lennyspod, take the first step towards an organized happy team today. Again, at notion.com/lennyspod. (00:03:08): This episode is brought to you by Vanta, helping you streamline your security compliance to accelerate growth. If you're business stores any data in the cloud, then you've likely been asked, or you're going to be asked about your SOC 2 compliance. SOC 2 is a way to prove your company's taking proper security measures to protect customer data and builds trust with customers and partners, especially those with serious security requirements. (00:03:33): Also, if you want to sell to the enterprise, proving security is essential. SOC 2 can either open the door for bigger and better deals, or it can put your business on hold. If you don't have a SOC 2, there's a good chance you won't even get a seat at the table. Beginning a SOC to your port can be a huge burden, especially for startups. It's time consuming, tedious and expensive. (00:03:55): Enter Vanta. Over 3000 fast growing companies use Vanta to automate up to 90% of the work involved with SOC 2. Vanta can get you ready for security audits in weeks instead of months, less than a third of the time that it usually takes. For a limited time. Lenny's podcast listeners get $1,000 off Vanta. Just go to vanta.com/lenny, that's V A N T A.com/lenny to learn more and to claim your discount. Get started today. (00:04:28): Yuhki, welcome to the podcast.",
+   "zh": "关于每个人都能看到你正在做什么，或者多个设计师可以同时访问同一文件的这个理念，确实存在一些争议。我们曾听过莱尼（Lenny）在Figma的早期反馈，比如\"如果这就是设计的未来，那我要退出了，要转行了\"。（00:00:17）这种叙事张力确实存在，但这恰恰表明你正置身于这场变革之中，试图推动变革。当你让客户或用户群体也参与其中时，他们才会真正支持并拥护这一变革。（00:00:35）这不仅仅是推广一款工具，更是倡导一种全新的工作方式。显然，这是一个艰巨的任务，但如果你是一位创业者，正致力于某项事业，那么你的愿景必须足够宏大，才能孕育出这样的创意。那么，如何让客户真正愿意谈论这些理念呢？（00:00:58）欢迎来到莱尼的播客。我是莱尼，我的目标是帮助你提升产品打造与增长的技能，采访世界级的产品领袖和增长专家，从他们宝贵的经验中汲取养分，共同打造当今最成功的公司。（00:01:12）今天的嘉宾是山下勇基（Yuhki Yamashita）。勇基在Figma担任首席产品官已近四年。在加入Figma之前，他曾在Uber任职，既是产品负责人，又曾担任Uber某大产品团队的设计主管。在Uber之前，勇基曾供职于谷歌和微软，还曾在哈佛大学教授计算机科学入门课程。（00:01:33）在对话中，我们探讨了Figma的产品开发理念、如何打造持续出色的产品、招聘策略、勇基职业生涯中最具决定性作用的习惯，以及通过打造以产品为核心的增长型业务所获得的宝贵经验。（00:01:50）本期节目延续了此前一篇通讯文章的主题——采访勇基关于Figma产品打造的经验。因此，如果您喜欢本期节目，甚至在收听过程中，也强烈建议您去阅读那篇文章。目前它是我通讯史上第四受欢迎的文章。您可以在lennysnewsletter.com查看。接下来，有请勇基山下。在听完我们优秀赞助商的简短致辞后，让我们迎来勇基山下。（00:02:15）本期节目由Notion赞助。如果您还没听说过Notion，那您可就落伍了。Notion帮助我协调本次播客的制作，包括内容日程安排、赞助商管理以及为每期节目嘉宾做准备。Notion是一款全能的团队协作工具，集笔记、文档共享、维基、项目管理等功能于一体，界面简洁、强大且设计精美。（00:02:40）它不仅能提升您的工作效率，还能轻松应用于个人生活，这也是Notion的独特之处。前几天，我启动了一个家装项目，立即打开Notion帮助整理所有信息。了解更多并免费试用，请访问notion.com/lennyspod。今天，就从notion.com/lennyspod迈出第一步，打造一个高效快乐的团队吧。再说一次，网址是notion.com/lennyspod。（00:03:08）本期节目还由Vanta赞助，助力您简化安全合规流程，加速业务增长。如果您的企业在云端存储数据，那么您很可能被问及或即将被问及SOC 2合规问题。SOC 2是一种评估云服务安全性的标准框架。Vanta通过自动化合规检查和实时可见性，让您专注于业务增长，而非耗时耗力的合规文书工作。（00:03:40）\n通过证明贵公司采取了恰当的安全措施来保护客户数据，并与客户及合作伙伴（尤其是那些对安全要求极高的客户）建立信任。（00:03:33）：此外，如果您想向企业级客户销售产品，证明安全性至关重要。SOC 2认证要么为您赢得更大、更优质的交易机会，要么让您的业务停滞不前。如果没有SOC 2认证，您很可能连入围的机会都没有。启动SOC 2认证流程对公司而言是项沉重负担，尤其是对初创企业而言更是如此——它耗时费力、繁琐且成本高昂。（00:03:55）：这时候Vanta就能派上用场。超过3000家快速成长的公司借助Vanta将SOC 2认证相关工作自动化程度提升至90%。Vanta能让您在数周内而非数月内完成安全审计准备工作，所需时间仅为传统方法的三分之一。在限时优惠期间，Lenny播客的听众可享受Vanta 1000美元折扣。只需访问vanta.com/lenny，即可了解更多详情并领取优惠。立即行动吧。（00:04:28）：Yuhki，欢迎做客本播客。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Thank you for having me, Lenny.",
+   "zh": "谢谢你邀请我，莱尼。",
+   "ts": "00:04:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm quite honored to have you on this podcast. For folks who don't know, we actually collaborated already on a newsletter post that has quickly become my fourth most popular post of all time, which you can find if you search for how Figma builds product. And so I am really excited to dig into a lot of the stuff that we, maybe, didn't cover in that newsletter. Also, just like how product works at Figma in more depth, how the PM team works, how you think about product, and things like that. So again, thank you for joining me.",
+   "zh": "很荣幸能邀请到你参加这次播客节目。可能有些听众还不知道，我们之前曾合作撰写过一篇通讯文章，这篇文章很快就成了我个人最受欢迎的第四篇文章。大家可以搜索“Figma如何打造产品”来查看。今天我非常期待能深入探讨一些我们在那篇通讯中未曾深入讨论的内容，比如Figma的产品开发流程、产品经理团队的运作方式，以及你对产品设计的思考等诸多方面。再次感谢你能参与这次访谈。",
+   "ts": "00:04:32"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Hi, team, as a huge fan of this podcast, so really honored to be here.",
+   "zh": "嗨，团队成员们，作为这个播客的忠实听众，能受邀参与今天的节目，我深感荣幸。",
+   "ts": "00:05:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, that means a lot. I really appreciate that. So you are currently Chief Product Officer at Figma, which is such an epic role. It's such an epic company. Could you take just, maybe, a minute or two to high level share your career arc, how you got to where you're today as CPO at Figma?",
+   "zh": "哇，这对我意义非凡，真的非常感激。那么，你目前是Figma的首席产品官，这是一个极具挑战性的职位，也是家非常了不起的公司。能否请你花一两分钟时间，简要分享一下你的职业发展历程，以及你是如何成为Figma首席产品官的？",
+   "ts": "00:05:04"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "My first job out of college is actually at Microsoft, and I was the Product Manager on Hotmail. If anyone, any listener remembers Hotmail, and I didn't really know what product management was at the time, and I mute it as a interdisciplinary function that will give me exposure to all my other functions so that I can actually decide which function's interesting to me. (00:05:48): And so, spent a couple years at Microsoft. Through that, also, moved on to Hotmail to Windows. And at the time, they were working on Windows 8 and Windows 8 was really interesting because it's a very touch forward version of Windows. And so there's just a lot of conversations about UI and UX, and that was really fun for me. (00:06:07): And as I was thinking about what's next, I really felt the draw of Silicon Valley and I ended up at YouTube, and I believe Shishir has been on this podcast before?",
+   "zh": "我大学毕业后的第一份工作是在微软，担任Hotmail的产品经理。如果有听众还记得Hotmail的话，当时我并不真正了解产品管理，仅仅把它视为一个跨学科的职位，希望能接触到其他各个部门，从而判断哪个领域最能激发我的兴趣。（00:05:48）在微软工作了几年后，又转到Windows部门。当时团队正在开发Windows 8系统，这是一个非常强调触屏交互的版本，围绕用户界面和用户体验展开了大量讨论，这段经历让我乐在其中。（00:06:07）在思考下一步发展时，我被硅谷的魅力深深吸引，最终加入了YouTube。顺便说一句，希希尔（Shishir）之前也曾做客这个播客吧？",
+   "ts": "00:05:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "[inaudible 00:06:19] you.",
+   "zh": "[00:06:19的音频不清晰]你。",
+   "ts": "00:06:19"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah, so Shishir was leading YouTube at the time, and he continues to be a great mentor of mine, but had the opportunity to lead the YouTube app on iOS over there. And it was really funny because I had never touched the iPhone before my first day, so my manager, on my first day, just sent me to the Apple Store to buy an iPhone. But that was my next job and that was a really interesting change for me, too, of, and we can talk about this later, as well as different companies and different styles of product management and really figuring out, I think it was a place that taught me a lot about some of my product last weeks to date. (00:06:58): And this is also around a time where there are a lot of interesting companies that were working in the physical and digital space. And so Airbnb was one of them, Uber was another. So I felt this draw just because it seemed just a really interesting space to be in. So eventually, ended up at Uber. Uber was another company where I feel like a lot of my philosophy that, hopefully we can get into today, around how to build products, how to build products in the kind of environment that's really fast moving. And so that I learned a lot from there. (00:07:33): And to date, all those companies has really been focusing on the core experiences on consumer products, and that's really been most of my career. And as part of that, worked with a lot of amazing designers. But at Uber, I realized that I wanted to dip my toes into design directly. For the tail end, I actually switched from PM to design and managed a few design teams working on our bikes and scooter efforts just to understand what that's like. And it was around this time, around my Uber career, where we encountered this tool called Figma. (00:08:08): I'd happened to be working on a project that experimentally brought Figma into the company. It was a time in the company where we were trying to transform our culture to be much more transparent and inclusive, and Figma was the perfect fit for that. So, I got to watch how Figma changed the way it worked, how it's spread within the company. We got to know the Figma team a little bit, as well. And yeah, I was really drawn to that mission and as a product manager who's been straddling that boundary between design and products for all my career, I really loved how Figma proactively blurred that boundary and opened up that process of participating in design. So I really got behind that mission and that's how I ended up here, at Figma.",
+   "zh": "是的，当时希希尔（Shishir）负责YouTube的业务，他至今仍是我非常重要的导师。但我当时有机会负责iOS平台上的YouTube应用程序。说起来挺有趣的，我在加入苹果的第一天之前，从来没有接触过iPhone。所以第一天，经理直接派我去苹果商店买了一部iPhone。不过那是我接下来的工作，这对我来说也是一个非常有趣的转变。我们可以稍后再详细聊聊，以及不同公司和不同产品管理风格的对比，我认为这段经历让我对产品管理的诸多方面有了深刻的认识。\n\n（00:06:58）：当时有很多有趣的公司在探索实体与数字领域的融合。Airbnb就是其中之一，Uber也是。因此，我被这个领域吸引，因为它看起来非常有趣。最终，我选择了Uber。在Uber，我学到了很多关于如何在快节奏的环境中打造产品的理念，我希望今天能和大家深入探讨这些内容。\n\n（00:07:33）：到目前为止，我所任职的所有公司都专注于消费者产品的核心体验，这也构成了我职业生涯的大部分。与此同时，我与许多优秀的设计师合作过。但在Uber，我意识到自己想直接涉足设计领域。在职业生涯的尾声阶段，我从产品经理转向设计岗位，管理了几个设计团队，专注于我们的自行车和滑板车业务，目的是了解这方面的运作方式。正是在Uber任职期间，我们接触到了Figma这款工具。\n\n（00:08:08）：当时我正好在一个项目中尝试将Figma引入公司。当时公司正致力于转变文化，使其更加透明和包容，而Figma完美契合了这一需求。因此，我得以目睹Figma如何改变工作方式，以及它如何在公司内普及。我们还与Figma团队建立了良好的合作关系。是的，我深深被Figma的使命所吸引。作为一个职业生涯中一直在产品与设计之间游走的产品经理，我非常欣赏Figma主动打破界限、开放设计参与流程的方式。因此，我全心支持这一使命，最终来到了Figma。",
+   "ts": "00:06:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's so fascinating that you moved into design from product, and then back into product. At Uber, were, what was the role? You were Head of Design for the mobility team?",
+   "zh": "你从产品经理转到设计岗位，再转回产品经理，这真是太令人着迷了。在Uber，你的角色是什么？你当时是移动团队的设计主管吗？",
+   "ts": "00:08:49"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah, it's called New Mobility, focused on just our micro mobility efforts, basically. Yeah.",
+   "zh": "是的，那个团队叫New Mobility，主要专注于我们的微型移动出行业务。",
+   "ts": "00:08:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you recommend this path for PMs to switch into design? I know it's not something anyone can do, but do you feel like that is an important skill role to experience as a PM, you encourage people to try that?",
+   "zh": "你建议产品经理转到设计岗位吗？我知道这不是每个人都能做到的，但你觉得作为产品经理，拥有这样的设计经验是重要的吗？你鼓励人们尝试吗？",
+   "ts": "00:09:05"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Well, I decided it's not for everyone, but I think that it's, first of all, a really great empathy building exercise of understanding that point of view, and also pushing yourself to push on the product from a different angle. Because I think as a PM, you're in the center facilitating all these different trade offs, and when you go into design, you have to ignore some of those other aspects to really be insistent on pushing on the best experience possible. Just suspend everyone's disbelief in business feasibility or engineering feasibility to push on a vision. And that's just an interesting exercise to do. (00:10:00): And then, I think the last thing is, I actually think it's an opportunity for in design and PM to learn from each other. When I became manager of design teams, one of the things that I coach designers on, are how to win over PMs, and how to speak in PM's language, and likewise, it's important for PMs to understand that, as well. So those are some of the things that I thought were helpful, but again, it has to come from a place of passion that you know you really want to do this.",
+   "zh": "嗯，我觉得这份工作并不适合所有人，但我认为首先，这是一次非常棒的同理心培养练习，让你理解对方的观点，并促使你从不同角度推动产品设计。因为作为产品经理，你需要协调各种权衡取舍，而当你深入设计环节时，就必须暂时忽略其他方面的考量，全力以赴打造最佳用户体验。暂停所有人对商业可行性或工程可行性的怀疑，专注于推动愿景的实现。这真是一次有趣的实践。\n\n（00:10:00）：然后，我觉得最重要的一点是，设计师和产品经理之间其实有很多可以相互学习的地方。当我成为设计团队的管理者时，我指导设计师如何赢得产品经理的认可，如何用产品经理的语言进行沟通。同样，产品经理也需要理解这一点。所以这些都是我认为很有帮助的做法，但归根结底，这必须源于你对这份工作的热情和真心投入。",
+   "ts": "00:09:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Which job would you say is harder; design or product management?",
+   "zh": "你觉得设计和产品管理哪个更难？",
+   "ts": "00:10:29"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "They're hard for different reasons. I would say managing designers is harder than managing product managers.",
+   "zh": "它们难在不同的地方。我觉得管理设计师比管理产品经理更难。",
+   "ts": "00:10:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interesting.",
+   "zh": "有意思。",
+   "ts": "00:10:38"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "And I think part of it is that designers are, it's really important to focus on growing their craft and helping them develop as designers. So it might not be that the company's biggest problem is one where you can actually learn this new thing you're trying to learn as a designer, and this probably happened for engineers, too, right? You could be working on the onboarding funnel, and that might not be the best place to be learning micro interactions, or maybe it is, but those aren't always aligned. (00:11:10): Whereas, with Pms, it's a little bit more like PMs are just hungry for impact, and so you can point them to the biggest problems a company has. And while PMs also do want to understand different kinds of problems or have the experience working on different kinds of problems, at the end of the day, I feel they want to be working on the thing that matters most in the company. So from that perspective, it's easy. (00:11:31): But as you know, and the reason this podcast exists is because PM isn't easy. And so the discipline, I think, is harder in a sense that it's sometimes hard on a day-to-day pace to know if you're doing the best thing you could possibly be doing. And so I think that makes it a little bit harder as a PM, as well.",
+   "zh": "我认为部分原因在于设计师需要专注于提升自己的专业技能，帮助他们成长为优秀的设计师。所以公司面临的最大挑战可能不是让设计师学习新技能——工程师们也面临过类似情况，对吧？比如你可能在优化引导流程，但这未必是学习微交互的最佳场景，或者也许两者相关性不大。\n（00:11:10）：而对于产品经理来说，他们渴望产生影响力，所以你可以把公司最大的挑战指派给他们。虽然产品经理也希望了解不同类型的难题或拥有处理不同类型难题的经验，但归根结底，他们希望专注于公司最重要的事情。从这个角度看，这份工作就容易多了。（00:11:31）：但正如你所知，这个播客之所以存在，就是因为产品管理并不容易。所以从某种意义上说，产品管理的纪律性更高，因为有时你很难在日常工作中判断自己是否在做最优决策。所以我觉得这对产品经理来说确实更具挑战性。",
+   "ts": "00:10:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I had a designer friend who moved into a PM role, I had a product role at a startup and she's like, \"Holy shit, I had no idea how hard being a product manager was, and a product leader. I have so much more empathy for the PM role.\" And so, it's interesting, it works in both ways. Similarly, I was actually a manager of engineers, at one point, and I felt the same way where managing PMs was a lot easier than managing engineers. So, translates to a lot of different roles.",
+   "zh": "我有个设计师朋友转做了产品经理，我在一家初创公司做过产品经理，她说：“天哪，我完全不知道做产品经理和产品负责人有多难。我现在对产品经理这个角色更有同理心了。” 所以这很有意思，两者是相互的。同样，我曾在某个阶段管理工程师团队，也觉得管理产品经理比管理工程师容易得多。所以这适用于很多不同的角色。",
+   "ts": "00:11:52"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah, I can see that.",
+   "zh": "是的，我能理解这一点。",
+   "ts": "00:12:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Folks listening to your career arc and just all the places you've been, all the wonderful things you've done. Imagine many people are like, wow, how do I have a career like that? Microsoft, Google, Figma, Uber. If you had to think back and identify maybe one habit, or one skill, or behavior that you think has most contributed to your success as a leader, as a product leader, what do you think that would be?",
+   "zh": "听众们听着你讲述自己的职业生涯轨迹，听着你去过的所有地方，听着你做过的所有了不起的事情。想象一下，很多人都会感叹：哇，我要怎么才能拥有那样的职业生涯呢？微软、谷歌、Figma、优步……如果你回想一下，能否找出一个习惯、一项技能或一种行为方式，是你认为最有助于你作为领导者、产品负责人取得成功的呢？你觉得那会是什么？",
+   "ts": "00:12:20"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "People who work with me know that I often talk about storytelling and, in fact, if you've ever reported to me, storytelling has showed up in some kind of performance review, I feel, and that's how much I care about it. And I actually think that a lot of being a great product manager is being a great storyteller. And I know a lot of us have already talked about it out there. I think the importance of storytelling is understood, but maybe I would share two things that are specific about it that I think are interesting. (00:13:13): One is to understanding the power of synthesis and it's this idea that maybe even as a early career PM, you're inside some of these reviews and a lot of people say, \"Hey, at least you could take some notes for the meeting so that you're adding value.\" And so that's common advice, here, but I think the most powerful part of that is that in some ways, you can synthesize what happened. And a lot of things are said in a review and there's still this bring it all together into a distillation of a message. And even that's like, that's a lot of power, I think. And what do you take away from all these different opinions that all these leaders had, and how do you push that, push the project forward from there? So that's one example. (00:14:02): Or another example is, I really love thinking through frameworks and offering ways of talking about a problem or ways of thinking about a problem. And that's synthesis, too, of figuring out all these different disparate parts and coming up with a way to a lens to look at something. And I feel like it's something that was, I learned, mostly through literature classes almost, where you're doing literary commentary and you're reading a William Yates poem and you're trying to, you observe all these interesting things, but then you have to take those different observations and distill it into a thesis, into something cohesive. And I think that's what a good PM can do. All these different ideas, and opinions, and problems, and how do you distill it down? And so I think that's one aspect of storytelling that's really important. (00:14:54): And the other aspect of storytelling, of course, is a story is only as good as the action that it's capable of driving. And a lot of times that I often coach my product managers are on, we're living in a world where everyone is constantly distracted, and you get these 30 seconds of attention at a time. And so, just the ability to really tell something powerful that sticks is really important, the memorability of it. (00:15:21): And I often talk about memification, which is this idea that I found this out most at Uber, I feel, where there's certain insights, data insights, research insights that were memmified to the point where someone like Travis or Dara would just cite this insight in the middle of a meeting, and you know that you've really done your job as, maybe, a researcher or a data scientist or product manager if people are able to do that and draw from that in that way. And that's what, ultimately, sticks. (00:15:52): And so when you start thinking about it from that perspective, it's really powerful because it's the way in which knowledge is transferred within the company and you compel action for it. Or when I'm being, maybe, asked questions by other leaders or stakeholders, the thing that's going through my head is, okay, there's this story that, that leader is trying to develop, or a meme about what this project is about or what the biggest problem is. And so, what story are they trying to create in their head so that they can remember or talk about what's happened? (00:16:28): And if you take that mindset, you just realize that it's a really useful way to think about everything.",
+   "zh": "和我共事过的人都知道，我经常谈论讲故事的重要性。事实上，如果你曾向我汇报工作，讲故事这个话题肯定出现在某种绩效评估中，这足以说明我对它的重视。我甚至认为，成为一名优秀的产品经理很大程度上取决于成为一个出色的讲故事者。我知道很多人已经对此展开过讨论，但我认为讲故事的重要性已被广泛认可。不过，我想分享两个我认为很有趣的具体例子。  \n（00:13:13）：第一个例子是理解综合分析的力量。即使是初级产品经理，在参与评审时，很多人会说：“嘿，至少你可以为会议做些笔记，这样能增加价值。”这确实是常见的建议，但我认为最有力的部分在于，你可以将所发生的事情进行综合概括。评审中提到的许多观点，最终需要整合成一个凝练的核心信息。这其中的力量不容小觑。当你从众多领导者的不同观点中汲取精华时，如何推动项目向前发展？这就是一个例子。  \n（00:14:02）：另一个例子是，我非常喜欢通过框架来思考问题，提供解决问题或看待问题的思路。这也是一种综合分析的过程，将各种分散的元素整合起来，形成一个观察问题的视角。我觉得这主要源于我在文学课上学到的技巧——比如解读威廉·耶茨的诗歌时，需要观察各种有趣的细节，然后将这些观察结果提炼成一个连贯的论点。我认为这正是优秀产品经理所能做到的。面对各种不同的想法、观点和问题，如何进行提炼？这就是讲故事中非常重要的一个方面。  \n（00:14:54）：讲故事的另一个关键点在于，故事的价值取决于它能推动的行动。我经常指导产品经理们，生活在一个每个人都不断被干扰的世界里，每次只能获得30秒的注意力。因此，讲述一个令人难忘、易于传播的故事的能力至关重要。  \n（00:15:21）：我常提到的\"记忆化\"概念，源自我在Uber的实践。有些洞察、数据分析或研究成果被高度记忆化，以至于特拉维斯或达拉这样的高管会在会议中直接引用这些观点。当研究人员、数据科学家或产品经理能做到这一点并被他人借鉴时，他们的工作才算真正完成。这才是真正能留存于人心的东西。  \n（00:15:52）：从这个角度思考问题时，其影响力非常大，因为这正是知识在公司内传递的方式，也是推动行动的关键。当其他领导者或利益相关者向我提问时，我首先会思考：这个领导者试图构建怎样的故事？他们对这个项目或最大挑战的核心认知是什么？他们想在脑海中构建怎样的故事来帮助记忆？\n还是谈谈发生了什么事？（00:16:28）：如果你秉持这种思维方式，你会发现这确实是一种看待一切事物非常有效的方式。",
+   "ts": "00:12:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm really excited to chat about this idea because it comes up a lot. The power of storytelling, it's similar to being good at vision. It's like PMs are always told, \"Hey, you got to improve in vision.\" Here's a skill the great PMs are really strong at. And I feel like storytelling is similar. It's this vague cloud of a skill that you build over time. And you mentioned a few things that you recommend to people that you work with. Think of it as a meme, maybe. (00:17:01): Is there anything else? When you're doing a performance review with a PM and one of their skill gaps is storytelling, is there anything else you recommend they specifically do to get better at the skill, or is it just do it again and again and watch me do it, watch other people do it and you'll learn?",
+   "zh": "能聊聊这个观点我真的很兴奋，因为它经常被提起。讲故事的能力，就好比善于洞察全局的能力。产品经理们总是被告知：“嘿，你得提升洞察力了。” 而讲故事的能力正是优秀产品经理所擅长的。我觉得这是一项需要长期积累的模糊技能。你提到了几个建议，供与你共事的人参考。可以把它当作一种思维模式吧。",
+   "ts": "00:16:35"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah, I think of it as resetting the internal computer of my brain a little bit so that I start from scratch again. And when I'm starting from no context at all, can I build up the story from bare and explain what's happening? And oftentimes, you're just caught in the middle of everything and you have all this context that might not be obvious if you step away from it for just a second. (00:17:39): I guess the way to think about it is, put yourself in another user's shoes, and that user is someone who has no idea what's happening and still wants to understand, in a nuanced enough way, what you're grappling with. And so, that reset moment, and to pull yourself out helps you tell a better story, in many cases. So that's one thing that comes to mind, yeah.",
+   "zh": "是的，我把它看作是重启大脑内部运作机制的过程，让自己从零开始。当你面对完全没有上下文的场景时，能否从头构建一个故事，解释正在发生的事情？很多时候，你深陷其中，却没有意识到这一点，只要稍作退后观察，就能发现隐藏的脉络。（00:17:39）  \n我想关键在于设身处地为用户着想，假设他们对背景一无所知，却想以细致入微的方式理解你所面临的挑战。这种重启思维的时刻，能帮助你讲出更好的故事。这就是我能想到的关键点。",
+   "ts": "00:17:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So it's escape the curse of knowledge a little bit and just assume people don't know anything about the context, the background, why this is important, come back to the beginning.",
+   "zh": "明白了。所以这就是要摆脱“知识诅咒”，假设听众对背景、上下文和重要性一无所知，回归到最初的出发点。",
+   "ts": "00:18:03"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah, I think another thing that where I learned storytelling is through teaching. So when I was a course assistant for a computer science class and I had to explain pointers, you're like, okay, I really have to borrow on real world metaphors or something that is much more grounding because if you assume a lot of knowledge, then it can be inaccessible to a lot of people. And so if you can tell a story that any student can understand, then you've really done your job. And once you've learn that skill of being able to tell anyone who has no context, then it becomes much easier to turn to these other audiences that are closer and closer.",
+   "zh": "是的，我从教学中习得讲故事的技巧。比如，我担任计算机科学课程助教时，需要讲解指针概念。你得借助现实世界的比喻或更接地气的例子，如果假设听众已掌握大量知识，反而会让他们难以理解。能讲一个任何学生都能听懂的故事，才能称得上成功。当你掌握了向零基础听众讲解的技巧，再转向更专业受众就容易多了。",
+   "ts": "00:18:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When I asked you in our newsletter interview what one of the core philosophies of product managers is, in the way you think about product and the role of PM at Figma, an interesting thing that you highlighted is that to you, it's really important that PMs own the why of a product and an idea. And I think it connects to what you're talking about, now. I'm curious just why you think that's so important for product managers and why that's so core to the way you think about product, and at Figma.",
+   "zh": "在我们的新闻通讯采访中，我问你产品经理的核心理念之一是什么。谈到你在Figma对产品和产品经理角色的看法时，你提到产品经理必须掌握产品和创意背后的Why。这与你现在讨论的内容很契合。我很好奇为什么你认为这对产品经理如此重要，又为何它是Figma产品理念的核心。",
+   "ts": "00:18:51"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "I really can't remember why I heard this, but it really stuck with me because oftentimes, there's this debate about well, is a PM the person who comes up with the idea. And the answer is usually no, it doesn't have to be at all. And in many cases, in our case, your customers come up with a ton of different ideas and certainly, the what and how are things that are shared within the company and not something that PM uniquely drives. But I do think the why is something that I really always hold the PM uniquely responsible for. (00:19:48): And I think the place where I learned this, the importance of this the most, was actually first, at YouTube. I had been working at Microsoft for a long time and I was early in my career, so I was just really focused on my, what we called, our feature crew, our engineer designer, our tester, and just writing specs that really specified exactly how everything works. And so that was the Microsoft culture back then, and your specs had to be perfect, right? (00:20:19): Then moved over to YouTube, and all of a sudden, you're responsible for an entire app, and you have a pretty big team, and you cannot specify everything that happens. And so, naturally, designers and engineers are just making their own choices. Made is an error handling situation, and in Microsoft culture, you would've had a table that specifies exactly what happens during that error. But in Google culture, it's like, okay, well the engineers and designers, they can figure it out. (00:20:47): So then it's like, how do they make a really great decision? How do they make all these local decisions that you're not a part of, how do you make it so that a great decision's made? And if everyone has an understanding of why we're doing this, what problem we're solving, then people can make really great decisions. It's the only way you can really scale. So that's where it came from. (00:21:06): And then since then, I've started to realize, also, that there are other functions that do this well. So for example, our engineering team at Figma, whenever we do a retro or postmortem, we do this thing called five why's. And it's the idea behind it, it's like, well, why did this happen, outage happen, okay, and why did that thing happen? And go deep enough where you can find the root cause and go fix all those things. (00:21:28): And I think a PM can do this, too, which is a customer is asking for a feature, but then you would say, okay, why are they asking for it, and back up the problem. But I think there's one more step you can take, which is, why do they have that problem in the first place? And maybe there's something there, and that could be an opportunity to make a bigger product impact by fixing that underlying condition that created the problem in the first place.",
+   "zh": "我真的不记得自己为什么听说过这个观点，但它一直让我印象深刻，因为人们经常会争论：产品经理（PM）是否应该负责提出创意？答案通常是否定的，完全不必如此。在我们团队中，客户往往会提出大量创意，而具体的实现方式和流程通常是在公司内部共享的，并非PM独自主导。但我始终认为，“为什么”这道关卡，必须由PM来独自攻克。（00:19:48）我最深刻领悟这一点的地方，是YouTube。在微软工作多年后，我初入职场时，只专注于所谓的“功能团队”——工程师、设计师和测试人员——并撰写详细的规格说明书，精确描述每个功能的运作方式。这就是微软的文化：规格必须完美无缺。\n\n（00:20:19）转到YouTube后，责任突然加倍：你要管理整个应用团队，无法面面俱到。于是设计师和工程师开始自主决策。比如处理错误情况时，微软文化会用表格精确规定错误处理流程，而谷歌文化则强调“工程师和设计师能自行解决”。（00:20:47）这就引出了关键问题：如何做出明智决策？如何在不参与具体决策的情况下，确保最终结果优质？答案是让所有人理解背后的初衷和解决的痛点。这是规模化扩张的唯一途径。\n\n（00:21:06）此后我发现，Figma的工程团队也很擅长应用五个为什么法则。每次复盘或事后分析时，他们都会追问“为什么会这样？为什么会出故障？”，直至找到根本原因并进行修复。（00:21:28）PM也可以借鉴这一思路：当客户提出功能需求时，先追问“为什么他们需要这个功能？”再深挖背后的痛点，或许能通过解决根本问题创造更大的产品价值。",
+   "ts": "00:19:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's so cool that you actually do the five whys. I hear people talking about the five whys all the time, and I don't know, I haven't heard people actually using it. So you actually do this at your post-mortems, you said?",
+   "zh": "太酷了，你真的会用五个为什么法则吗？我总听别人谈论它，但不知道有没有人真正在用。",
+   "ts": "00:21:55"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yes. Engineering team that's accepting them, yeah.",
+   "zh": "是的，工程团队接受这种方法。",
+   "ts": "00:22:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's so interesting. Can you talk a bit more about these postmortems? Is this just when something goes wrong or is this just every project you retrospective postmortem thing?",
+   "zh": "太有意思了。能详细讲讲这些复盘会议吗？是只在出问题时才开，还是每个项目都会做？",
+   "ts": "00:22:07"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "As it relates to five whys, it's more when something went wrong. But I do think we have a retro culture, [inaudible 00:22:24], where there's always opportunity to make things better. And if you don't create the environments to talk about it, then some of those will go unaddressed forever, so.",
+   "zh": "就“五个为什么”而言，更多情况下是在事情出了问题之后才去追究。但我确实认为，我们拥有一种复古文化（此处音频断断续续，未能完整记录），总有机会让事情变得更好。若不营造出畅谈问题的环境，许多问题就会永远得不到解决。",
+   "ts": "00:22:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Okay.",
+   "zh": "好的。",
+   "ts": "00:22:33"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:22:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Another attribute of the product team and how you build product at Figma that you shared that was really interesting is you mentioned that you just have an obsession with a proximity to customers, that you make sure your PMs and product team are really close to customers. When you hear that, you're just, imagine everyone listening is like, oh yeah, we're really close to customers, we talk to customers all the time. Of course you got to talk to customers. I'm curious what it is that, maybe, you think sets you apart, in terms of how you think about being close to customers, and if there's a story, maybe, of just, wow, this is how close we are to customers and maybe something that emerged out of that, that'd be really cool to hear.",
+   "zh": "你分享的Figma产品团队的另一个特质，以及他们如何开发产品，非常有趣。你提到对贴近客户有着执着追求，确保产品经理和团队成员始终与客户保持紧密联系。听到这话时，人们可能会觉得，哦，是啊，我们确实和客户关系密切，一直在和他们沟通。和客户沟通是理所当然的。我很好奇，你们在贴近客户方面有什么独特之处，或者有没有什么故事能说明你们和客户关系有多紧密？能听听这方面的故事会很棒。",
+   "ts": "00:22:34"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Well, I think a lot of it starts with our origin story in many ways, which is that way back when, when Dylan, the small group of people were building Figma, this is the time when no one believed it was possible to have a design editor in the browser. And so it just seemed like science fiction, almost. And yet, what Dylan did consistently throughout, was just put the product in front of designers, ask them for feedback, come back to them the next time with that feedback implemented, and it becomes better and better and better. (00:23:40): And at no moment was there a tentative expectation that the designer suddenly turns around and implements that tool in their organization. It was really just about listening really carefully to what the community had to say, and through that process, making them evangelists. And that's where a lot of how Figma came to be and why we have such a strong connection with our community where we've actually, they've really helped shape the product to date, and there's a deep belief in that, and they're the ones in that are now advocating for Figma and helping us spread within the community and within their company. (00:24:20): So that's the backdrop for why we have such a strong connection with our customers, and there's a lot of things that you see. So for example, maybe someone on my team Sho, and oftentimes, Sho will tweet out to the community, here's what we're thinking, or we're actually thinking about focusing a lot more in prototyping. What are the top problems you're seeing? And people come back with all these different answers because everyone's passionate. And we go in there and just look at all the feedback and understand what people are saying and just have a stronger pulse on how people are feeling. And that's not to say that everything is then implemented verbatim, but we really find it useful to feel like we have a sense of what people are thinking. (00:25:05): And I think the most crazy version of it, maybe, is Dylan's always reading customer feedback. In fact, has reads the most customer feedback of all of us and has been doing that for a decade. And oftentimes, there used to be this thing where he would drop in tweets that he sees into different Slack channels to be like, hey, this seems concerning, or we're getting this feedback. And it got to a point where we got big enough where people would feel like they had to drop everything and deal with that tweet. (00:25:31): So Chris, our CTO, and I intervened. We created this new channel, private channel called Concerning Tweets, and it just, we're this small group of us that Dylan can drop us in. And these are tweets that aren't going viral, by any means. They're just things that you see is with one like, sometimes zero likes, but he feels there's an essence of truth to them and we make sure that we look at what's going on there and see if there isn't something much bigger that we should be focusing on. But that's the extent to which someone like Dylan, from top down, implements this idea that we need to be staying close to what our users are saying.",
+   "zh": "嗯，我认为这在很大程度上始于我们的起源故事。当年迪伦（Dylan）和一小群人正在开发Figma时，当时没人相信在浏览器中实现设计编辑器是可能的。这听起来简直像科幻小说一样。然而，迪伦始终坚持的一件事，就是把产品展示给设计师，收集他们的反馈，然后带着改进后的版本再次回归，如此循环往复。产品不断优化。（00:23:40）当时从未有人期待设计师会突然在自己的公司推广这款工具。关键在于认真倾听社区的声音，并通过这个过程让他们成为产品的传播者。Figma的成功很大程度上源于此，也源于我们与社区之间深厚的联系——社区成员实际上参与了产品的塑造，对此深信不疑，如今他们不仅在社区内推广Figma，还在各自公司内推动应用。（00:24:20）这就是我们与客户建立深厚联系的背景。举个例子，比如我团队的成员Sho经常在Twitter上向社区发声，分享我们的想法，比如“我们正考虑更专注于原型设计”，或者“大家遇到的最大痛点是什么？”社区成员会给出各种各样的反馈，因为每个人都充满热情。我们会收集这些意见，理解用户的需求，虽然并非所有建议都会被直接采纳，但这种倾听的态度非常宝贵。（00:25:05）最令人惊讶的是，迪伦始终在阅读用户反馈。事实上，他是我们中反馈收集最多的人，而且已经坚持了十年。过去他常在Slack群组中发布一些反馈，比如“这条推文看起来有点问题”，或者“我们收到了这些反馈”。后来用户群体壮大到一定程度时，大家不得不放下手头工作，去处理这些推文。（00:25:31）于是，首席技术官Chris和我介入了。我们创建了一个名为“令人担忧的推文”的私密频道，只有我们几个人能接收这些推文。这些推文并不火爆，通常只有几个赞，但迪伦认为其中有一些核心问题。我们会仔细分析，判断是否有更重要的问题需要优先处理。这就是迪伦自上而下贯彻“紧贴用户需求”的理念的具体体现。",
+   "ts": "00:23:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's an awesome idea for a channel, a way to contain that potential madness that it creates. Is there anything else you've learned around hearing feedback like that in a tweet, let's say, or just a few loud voices and deciding what to actually work on? Do you have an approach there? Just deciding what's worth paying attention to?",
+   "zh": "这个频道的创设真是绝妙，既能遏制由此产生的潜在混乱。关于如何处理推文中的反馈，比如那些只有零星几个赞但迪伦认为有道理的推文，或者如何筛选值得关注的意见，你们有没有什么经验？",
+   "ts": "00:26:13"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "As we built out our research and data functions, it's really important to balance out the vocal minority with what's actually happening. So I really view some of those tweets more as canaries in the coal mine, in a way, and inputs into, many inputs we have around everything our customers could possibly be experiencing. And it's important to realize that we have certain forums, like our support tickets, where customers are, tend to be much more dissatisfied. And we have other kinds of inputs that are sales conversations with prospects, where it's really more about perceptions around Figma, in some cases. (00:27:11): And I think it's just important, especially as a product manager, to feel like you have this balanced portfolio of different kinds of feedback to know that you don't have any blind spots. So I think that's one of the things that I focused a lot on when I came in, which is the Figma team is very good at Twitter and staying on top of the sentiments. And luckily for us, a lot of designers are on Twitter, but the reality is that most of our audience, at this point, probably aren't. And so building our capabilities to extract feedback or more insight from those other sources, as well.",
+   "zh": "在我们搭建研究和数据功能的过程中，平衡少数极端意见与实际情况至关重要。因此，我把一些推特内容更多地视为预警信号，它们为我们提供了宝贵的洞察，帮助我们全面了解用户可能遇到的各种问题。需要认识到，我们有特定的反馈渠道，比如客户支持工单，用户在那里往往更容易表达不满；还有与潜在客户的销售对话，在某些情况下更多涉及对Figma的看法。（00:27:11）我认为，作为产品经理，保持不同类型反馈的平衡视角至关重要，这样才能避免视野盲区。这也是我入职后重点关注的问题之一——Figma团队非常善于利用推特平台及时掌握用户情绪。幸运的是，很多设计师活跃在推特上，但目前我们的核心用户群体可能尚未完全覆盖。因此，如何从其他渠道挖掘反馈或获取更深入的洞察也至关重要。",
+   "ts": "00:26:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That reminds me, I think Twitter was really instrumental to the beginnings of Figma. I believe Dylan made this social graph of the most influential designers on Twitter, and that was his go-to market strategy, get those designers on Figma, and then I think he open sourced his code to do that. Is that right?",
+   "zh": "这让我想起Twitter对Figma早期发展的重要性。我记得Dylan曾绘制过Twitter上最具影响力的设计师社交图谱，这就是他的市场策略——吸引这些设计师使用Figma。后来他还开源了相关代码，对吧？",
+   "ts": "00:27:46"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah, that sounds right to me. And he is very intentional about which designers we need to win over. I think it was very novel at time.",
+   "zh": "没错，听起来很对。他对需要争取哪些设计师支持非常有策略，当时这种做法确实很新颖。",
+   "ts": "00:28:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is it like to work with Dylan Field? As an outsider, he's a legend, feels like he's an incredibly smart, talented, hardworking, CO. There's always tension a little bit between a Chief Product Officer and a CO, and so I'm just curious, what do you like to work with as a product leader? And then, is there, I don't know, a memory that comes to mind of just a way that encapsulates what it's like to work with Dylan?",
+   "zh": "和Dylan Field共事是什么样的体验？作为局外人，他是个传奇人物，感觉他极其聪明、有才华、勤奋努力。首席产品官和首席运营官之间总有一些微妙的平衡，我很好奇，作为产品负责人，您最喜欢与他合作的哪些方面？有没有什么特别的记忆能概括与Dylan共事的感觉？",
+   "ts": "00:28:11"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "We're very different, actually. And Dylan is very, he's very based on intuition and instinct. And that intuition is actually built off of thousands and hundreds of thousands of customer interactions where he might look at something and be like, \"You know what? This isn't going to land well,\" or, \"Here's the biggest problem right now.\" And you're like, well, how does it conclude that? And part of my job is to build out that logic streak for him of how did you arrive at that conclusion so that people can understand that at scale, in a way. But he's very much about that. (00:29:09): Or I think there's a way which, sometimes, it's a product manager, you want to lay out a problem and say, okay, we're going to first focus on this problem, and then [inaudible 00:29:21] these three approaches. We're going to take this approach and have a review at every step along the way. But for Dylan, I think, it's very hard for him to really fully get bought into it until he sees the end implementation to viscerally feel if this is a good solution or not. And so I think that's the kind of thinker he is where he really needs to see it to feel it. But it's not totally random. It's based on all these interactions with customers and somehow encoded in him to build up some of those intuitions. (00:29:55): And I think one of the things that's really interesting about him is that he actually really cares very deeply about any given user and how they're feeling about Figma. I remember when, during the height of the pandemic, we were doing a one-on-one walking around Delores Park, because this is the era where you would take meetings, if you take meetings, they're all outside, and then he needed to use the bathroom. So he came out to my house in the Castro, he used the bathroom, and then he met my partner, and my partner was on Figma, had Figma pulled up because he is just doing work. And then Dylan just went straight in there and wanted to ask what the biggest problems were or what's not working, and they started geeking out on some issue around Google fonts, and this is the first major interaction between the two of them. (00:30:45): But it's one of those things where that's how much Dylan cares. And on one level it's just easy to say, \"Hey, this is a single user who just happens to be using your product,\" and be dismissive with it or not care that deeply because you think you already know all the biggest problems, but that's not his attitude. And so that's the level of, I guess, customer obsession, if you will, that he exhibits and then, in turn, informs his intuitions.",
+   "zh": "实际上，我们非常不同。迪伦非常依赖直觉和本能。这种直觉源于他与数千甚至数万名客户的互动——他可能一看某个东西就会说：“你知道吗？这不会受欢迎。”或者，“当前最大的问题是什么。”你可能会问，他怎么能得出这样的结论？而我的部分工作就是为他构建这种逻辑链条，让人们能理解他是如何得出结论的。但他对此非常执着。\n\n（00:29:09）：或者我觉得有时候，作为产品经理，你可能想先列出一个问题，然后说：“好，我们先专注于这个问题，然后[00:29:21不清]这三种方法。我们会采取这种方法，并在每一步都进行审查。”但对迪伦来说，除非他看到最终的实施效果，切实感受到这是否是个好解决方案，否则他很难真正完全接受这个方案。所以我认为他就是这样一种思考者，他真的需要亲眼看到才能感知到。但这并非完全随机。这源于他与客户的所有互动，并以某种方式深深印刻在他的脑海中，从而形成这些直觉。\n\n（00:29:55）：我认为他最有趣的一点是，他真的非常关心每一位用户，以及他们对Figma的感受。我记得在疫情最严重的时候，我们在德洛丽丝公园进行一对一交流，因为那个时候开会都在户外，而他需要上厕所。所以他来到了我位于卡斯特罗区的家，用了厕所，然后见到了我的伴侣，而我的伴侣正在使用Figma，因为他当时正在工作。迪伦直接走了进去，想要询问最大的问题是什么，或者哪里出了问题，然后他们开始深入探讨Google字体的问题，这是他们两人之间的首次深度交流。\n\n（00:30:45）：但这正是迪伦的用心之处。表面上，你可能很容易说：“嘿，这只是一个恰好在使用你的产品的人。”然后对此不屑一顾，或者不那么上心，因为你认为自己已经知道所有最大的问题，但这不是他的态度。所以这就是他所展现的客户痴迷程度，如果你愿意这么说的话，而这种痴迷反过来又影响了他的直觉。",
+   "ts": "00:28:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's amazing. Figma is 10 years old at this point. He's been at this for a long time, like a decade. And the fact that he's still so obsessed with just a random person just using Figma and he's taken the opportunity to experience it in real time every chance he gets, sounds like.",
+   "zh": "太棒了。Figma已经有10年历史了。他从事这项工作已经很久了，比如十年之久。事实上，他仍然对随机使用Figma的用户如此痴迷，并且一有机会就亲自去体验，这听起来很了不起。",
+   "ts": "00:31:16"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:31:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hey, Ashley, Head of Marketing at Flatfile, how many B2B SaaS companies would you estimate need to import CSP files from their customers?",
+   "zh": "嘿，Ashley，Flatfile的营销主管，你估计有多少B2B SaaS公司需要从客户那里导入CSP文件？",
+   "ts": "00:31:33"
+  },
+  {
+   "speaker": "Ashley",
+   "en": "At least 40%.",
+   "zh": "至少40%。",
+   "ts": "00:31:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And how many of them screw that up, and what happens when they do?",
+   "zh": "那么其中有多少公司做得一团糟呢？当他们这样做时，会发生什么？",
+   "ts": "00:31:42"
+  },
+  {
+   "speaker": "Ashley",
+   "en": "Well, based on our data, about a third of people will consider switching to another company after just one bad experience during onboarding. So if your CSP importer doesn't work right, which is super common, considering a customer files are chalk full of unexpected data and formatting, they'll leave.",
+   "zh": "嗯，根据我们的数据，大约三分之一的人在入职过程中仅经历一次糟糕体验后，就会考虑跳槽到另一家公司。所以，如果你的客户端同步导入工具（CSP importer）无法正常运行——这在现实中非常常见，毕竟客户文件中往往充斥着意外的数据和格式问题——用户就会离开。",
+   "ts": "00:31:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I am 0% surprised to hear that. I've consistently seen that improving onboarding is one of the highest leverage opportunities for both signup conversion and increasing long-term retention. Getting people to your a-ha moment more quickly and reliably is so incredibly important.",
+   "zh": "听到这个我一点也不惊讶。我一直认为优化入职流程是提升用户注册转化率和提高长期留存率的最高杠杆机会之一。让用户更快、更可靠地触达“啊哈时刻”（Aha moment）至关重要。",
+   "ts": "00:32:05"
+  },
+  {
+   "speaker": "Ashley",
+   "en": "Totally. It's incredible to see how our customers like Square, Spotify and Zora are able to grow their businesses on top of Flatfile. It's because Wallace data onboarding acts like a catalyst to get them and their customers where they need to go faster.",
+   "zh": "完全同意。看到我们的客户如Square、Spotify和Zora能够在Flatfile之上发展业务，真是令人惊叹。这是因为Wallace数据入职流程就像催化剂，帮助他们和用户更快达成目标。",
+   "ts": "00:32:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If you'd like to learn more or get started, check out Flatfile at flatfile.com/lenny. (00:32:44): As an outsider, it feels like Figma is just always firing in all cylinders, shipping the best product. People love it. I use it, I should've mentioned this, but I use it probably every day for my newsletter for illustrations and banners and all this stuff. Yeah, I don't know what I do without it. And it always feels like Figma is just killing it. I know that's never the reality. I'm curious, is there a story of something that just, maybe, didn't work out the way you hoped? Whether it's a feature, a launch, or something like that that just shows people that it's, not everything always works out.",
+   "zh": "如果您想了解更多信息或立即上手，请访问flattrfile.com/lenny。（00:32:44）：作为局外人看来，Figma似乎一直势头正猛，推出最优质的产品。人们都喜欢它。我每天都要用它为我的新闻通讯制作插图和横幅，简直离不开它。但Figma总能交出亮眼答卷。我知道现实并非如此。我很好奇，是否有过不尽如人意的经历？无论是功能开发、产品发布，还是其他让用户失望的案例。",
+   "ts": "00:32:36"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "We run experiments all the time that don't come back with winning results, and we certainly have built a lot of more complex features that took a while to take off. (00:33:24): So a good example of this is in the design system space, we have something called branching and merging. And branching and merging is this workflow of maybe you're building a really complex design system, and then you don't want anyone ever randomly touching your components that are used by thousands of other projects, so you create this workflow of, someone, maybe, effectively suggesting a change, you're reviewing it and then pushing it in. (00:33:48): And so, in theory, makes a lot of sense and things that our customers asked us for, but once we built it, in the initial stages, just didn't really see that much adoption and didn't feel great because it's a really big investment for us. It's a lot of work that we put into it and there's just many different reasons. Some of it was performance, some of it was, this is a foreign workflow and it just takes time, and us helping customers implement some of those workflows, we realized some gaps because we don't really use it that much ourselves. (00:34:20): And so, I think as we're getting bigger, one of the things that I'm realizing is that we're starting to build a lot of features that are not, necessarily, for organizations like ours. And when we do that, we really need to be creative about how we understand how effective those are because we've had such a strong culture of internal testing and dogs looting, and those are the things that really helped make sure the quality of our product was good enough. But now we're working with really new types of customers and needing to push ourselves and build that muscle, as well.",
+   "zh": "我们一直在进行实验，但并非每次都能取得成功。我们也开发了许多复杂的功能，但推广效果不佳。（00:33:24）：以设计系统领域为例，我们推出了分支与合并功能。分支与合并是这样一个工作流：当你构建一个复杂的设计系统时，为了避免随意更改被数千个项目引用，你会创建一个工作流——比如有人提出更改建议，经过审核后再合并。（00:33:48）：理论上这个功能很有意义，也是客户需求，但初期推广不理想。原因多种多样：性能问题、用户接受度低，以及我们在内部测试时发现的缺陷。（00:34:20）：随着公司规模扩大，我意识到我们正在开发许多并非针对我们这类组织的功能。面对新客户，我们需要更具创新性，评估这些功能的有效性。这需要我们重新审视内部测试和迭代文化，正是这些文化保证了我们产品的质量。但现在我们要拓展新客户群体，必须突破自我，提升这方面的能力。",
+   "ts": "00:33:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of high quality software, again, I'll repeat, I think Figma is one of the most beloved software products. It's become central to a lot of the ways people work. It's also, I think, one of the fastest growing SaaS products, in general. And I don't know, this is maybe the ultimate softball question, but I'm just curious, what is it that you do at Figma to build such high quality software? Because it's rare for B2B software, especially. What do you do as a product leader, as a product team to just set this high bar, make sure that the stuff that you put out is great consistently, and the more tactical the better?",
+   "zh": "谈到高质量的软件，我再强调一遍，我认为Figma是最受欢迎的软件产品之一。它已成为人们工作方式的核心。我认为，它也是增长最快的SaaS产品之一。我不知道，这或许是个很简单的问题，但我很好奇，你们在Figma是如何打造如此高质量的软件的？因为B2B软件，尤其是这类产品，很少能做到这一点。作为产品负责人，或者整个产品团队，你们是如何设定如此高的标准，确保推出的产品始终出色的，而且越具操作性越好？",
+   "ts": "00:34:54"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "It's so important that you're using your own products. And I think we're in a very lucky position where all of us can get creative around using Figma in some way. And obviously, designers are the, internally within Figma, are the most vocal and the ones who are in the product six hours a day, essentially. But even for PMs, one of the first things I did when I arrived was we were a little bit more of a memo culture, and I was like, you know what? We should be a deck culture because we can build those decks in Figma, and just that act alone allows you to encounter a lot of issues and for you to get familiar with it. (00:36:06): And so I think there are ways in which, sometimes, you have to get creative to enable your company, your entire company to use a product more. Or as an example, recently, we just did calibrations for performance reviews in FigJam, and our Head of Design, Noah, came up with this amazing template and we distributed it through HR and that was another reason for everyone to use FigJam. And so that's the biggest thing. The more hours people are spending inside your product, internally, I think, just naturally becomes better. Because a lot of times, it's not just about people raising their hands and saying this is the problem, it's more about you just want to make your own workflows, your own day-to-day better, and derive satisfaction from improving that.",
+   "zh": "使用自己的产品至关重要。我认为我们很幸运，所有人都能以某种方式创造性地使用Figma。显然，设计师在Figma内部是最积极发声的，他们每天要花六个小时在产品上。但即使是产品经理，我上任后做的第一件事就是改变我们的备忘录文化，我想，我们应该转向演示文稿文化，因为我们可以在Figma中制作演示文稿，仅此一项就能让你发现很多问题，并逐渐熟悉它。（00:36:06）：所以我认为，有时候你必须发挥创造力，促使整个公司更多地使用某款产品。例如，最近我们在FigJam中为绩效评估做校准，我们的设计总监诺亚设计了一个很棒的模板，并通过人力资源部门分发给大家，这也是大家使用FigJam的另一个原因。这是最重要的一点。人们在内部产品上花费的时间越多，我认为自然就会越好。这往往不只是人们举手指出问题，而是你想改进自己的工作流程，让日常工作更高效，并从中获得满足感。",
+   "ts": "00:35:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So the takeaway there is get your product teams to use the product as often as possible. That is a really clever way of doing that at Figma. I know you mentioned in our newsletter interview that you switch from memos to decks. Usually, it goes the other way around, and now I get the second order effects of that where people are building their decks in Figma. That is very clever, and not everyone's building collaboration software, but that is a really clever idea. And I think there's probably a bit of trickle down from Dylan's obsession with the product in making it, just continuing to just be obsessed with making a great experience combined with that, people using the product and this trickle down of we really need to make this as awesome as possible.",
+   "zh": "所以关键在于让产品团队尽可能多地使用产品。这在Figma是一个非常巧妙的做法。我知道你在我们的新闻通讯采访中提到，从备忘录转向演示文稿。通常情况下，顺序是相反的，而现在我看到了其连锁反应，人们在Figma中制作演示文稿。这非常巧妙，并非所有人都在开发协作软件，但这确实是个很棒的想法。我认为这很可能源于迪伦对产品的痴迷，他不断致力于打造卓越的体验，再加上人们对产品的使用，这种连锁反应让大家意识到，我们真的需要把这个产品做得尽可能出色。",
+   "ts": "00:36:50"
+  },
+  {
+   "speaker": "Ashley",
+   "en": "There are other companies, for example, when I was at Uber, especially working on the driver's side, of course we went out and driving, and that speaks to some aspects of it. But one of the things that I've realized is when you are logging a bug and you add some engineers to it, to have them look into it, the degree of motivation is so different if that engineer has, somehow, experienced a problem in some way. (00:37:51): So for example, everyone at Uber would take Ubers into work, and if an engineer working a driver app saw a driver struggling with something, they would find it embarrassing and feel personally accountable to go and fix that. And when you can create that sense of personal accountability, then all these crazy things happen and all this progress happens. So I think for us, as getting creative at Uber about, okay, well how do we increase those interaction points at the point where, if someone building feels like they have some kind of personal relationship with the end user, and this is what happens, at Figma, too, where a lot of our designers feel personally accountable, in a way, because all their customers are people they already know in the community on Twitter and all those kinds of things, so they feel like they have to put something out there that's defensible or that they're really proud of. So I think that personal accountability can really make a difference.",
+   "zh": "还有其他公司。比如，我在Uber工作时，特别是负责司机端业务时，我们当然会亲自上路测试，但这只是其中一部分。我意识到，当你记录一个bug并分配工程师去调查时，如果这位工程师曾亲身经历过类似问题，那么他们的积极性会截然不同。（00:37:51）例如，Uber的员工都会开着Uber车上下班。如果某位开发司机应用的工程师看到司机遇到难题，他们会觉得很尴尬，觉得有个人责任去解决这个问题。当你能激发这种个人责任感时，奇迹就会发生，进步也会随之而来。所以我认为，对我们来说，关键在于如何在Uber创造更多互动机会。比如，当开发者觉得自己与终端用户存在某种个人联系时，奇迹就会发生。在Figma也是如此，我们的许多设计师也感到个人责任重大，毕竟他们的用户都是Twitter社区里的熟人，所以他们必须拿出经得起推敲、值得自豪的成果。因此，个人责任感确实能带来巨大改变。",
+   "ts": "00:37:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That begs a question of, I imagine this engineer at Uber coming back to their desk and like, I've got to fix this bug. And then their PM's like, no, we got goals to hit, here's our priorities, we got this roadmap, we don't have time to fix this right now. It's just one random bug. And so there's a two part question, just like you have a approach to that, do you encourage engineers, designers just fix stuff that seems broken/you mentioned that you have a fun experience with OKRs and how you've approached OKRs at Figma, and you've gone back and forth a little bit. And so maybe, as a second part, just talking about your experience with OKRs at Figma.",
+   "zh": "这让我想到，Uber的工程师回到工位后，可能会说：我必须修复这个bug。而他们的项目经理可能会说：不行，我们有目标要达成，这里是优先级清单，我们有路线图，现在没时间处理这个bug。这只是个随机出现的bug。所以这里有两个问题：首先，你如何处理这种情况？你是否鼓励工程师和设计师主动修复看似有问题的代码？你提到在Figma实施OKR（目标与关键结果）取得了不错的效果，但过程中也经历了反复。或许第二个问题是，谈谈你在Figma实施OKR的经验。",
+   "ts": "00:38:48"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "The first part, I would say that I think one of the most powerful things, especially for startups, is that bottoms up energy, and maybe a developer noticing something is wrong and just going off and fixing it. And for the most part, I try not to get in the way of that because if people are doing that constantly, and everyone the company is trying to make the product better, that is sometimes a way more effective way to improve the quality of experience than this top down of, oh, let's define this quality experience metric and try to change all the things, because you might miss these things. So that's one aspect. (00:40:01): And the second thing is, I think a lot of PMs have grown to realize this, which is, if you ask an engineer about how much time it'll cost to go and build something, and it's something that they came up with or they're advocating for, it's almost always half the time as something that you are asking for, as a PM. And that motivation is so different. (00:40:24): And that's why getting the buy-in of developers is really important, because you want to feel like they're personally vested in this problem, and then, all of a sudden, their willingness or their creativity, or all these things spike. And so when you think about all those things, when there's a situation where an engineer or a designer's trying to fix a real custom problem, I'm like, by all means.So that's on that. (00:40:50): OKR is totally bigger topic, and maybe I'll set the conflicts of why I have such this love-hate relationship with it, which is that a lot of my career, I've actually just worked on core experiences, and OKRs were the bane of my existence, in a way. Because when you're working on a core experience, sometimes you're just, I'm just trying to make the experience better. And sure, I can come up with this BS way to measure what that looks like, but that's not what I'm thinking about every day, anyway. So it just seems very performative, and there's just a lot of work that goes into it. (00:41:26): And you encounter one of two situations. One is, you come up with some secondary metric that nobody actually cares about that, technically, you can measure and, technically, you can move, but you haven't actually proven that it really matters. So maybe it is some satisfaction metric that you have on some survey, but you haven't actually done the work to show that, that actually has correlations with retention or anything that actually \"matters for real\" in the business, or it's some weird usage metric or something like that. (00:42:00): And then the other extreme is to say, no, we're going to be ambitious and we're going to send it for business goals. So for example, even if I was the PM for the rider experience at Uber, I'd be like, you know what? We're going to contribute incremental trips because the experience is going to be so good that we can get more people to come back. And I think the reality for a lot of that is, it's a metric that you don't have full control over or there are many hops until it can affect it, and okay, well maybe we can make the experience better and maybe that improves your attention and maybe this. And by the time you get there, you actually can't even prove that you moved the top level metrics. So either you anchor something that matters, but you can't move, or you anchor something that you can't move but doesn't actually matter. So that's the relationship I've had with [inaudible 00:42:45], so even it's really frustrating. (00:42:47): So when I write that thinking about, one of the things I realized is that we had OKRs, but people were treating it almost as a to-do list or a task list of, okay, here's how, by the end of quarter, I need to complete these tasks and then I'll feel like I did my job, kind of thing. And we would have these dreadful meetings where we go through these spreadsheets and have people stand up in front of everyone and talk about those commitments, or those key results, rather. But they were dreadful for a reason, which is that you just couldn't really understand what the team actually really cared about. And it got to this point where we had all these, and this is similar to the secondary metric problem, but either you couldn't approve that you actually moved it, or you're trying to work on something that I don't actually understand why it's useful. (00:43:39): And so that was when I deprecated it and said, \"I just want to understand your headline. What are you trying to do, philosophically?\" And just don't stress about whether you can measure it or not. I just don't understand what you're optimizing for, and let's first have that to date. And then once we get there, then let's talk about, okay, well what are some ways that you can measure it? And some of it's qualitative, so it's quantitative, and that's fine. And I almost feel like sometimes, it's better to take the report card approach of saying, Hey, just give yourself a score, tell me how you derive that score, let's all understand that the metrics and those inputs that go into it can change over time, and we're going to get more sophisticated about how we measure it. But at least everyone understands what on earth you're trying to go for. (00:44:29): So that's where I moved in my first year, I would say, and then we hired a Head of Data who is a friend of mine from Uber, too. And one of the things she felt was, okay, but it's still very loosey goosey, and super subjective, so let's just try to bring OKRs back and see if we can just do them better next time. And so we've done that, and they were definitely better than when I first arrived just because we had a data science team and we had more rigor around metrics and things like that. But again, this time it was less about not understanding what people were doing, but more not understanding if teams are actually committed to moving those OKRs. And one of the problems that you find is we have these OKRs, but they feel like these post-rationalizations of the projects that you're working on, anyway. (00:45:17): And at the end the quarter, you come back and see if those OKRs move, fingers crossed. But if you stop an engineer in the middle of the hallway or the virtual hallway, so to speak, and ask them, okay, what are your team's biggest goals or OKRs? [inaudible 00:45:31], they wouldn't be able to say it. They're just like, well, I'm working on this project that's really important. And so it's, well, what's the point of publishing this OKR if you're actually not thinking about moving it on a daily basis almost, right? (00:45:46): And so that's when we've tried to experiment with this terminology, well, maybe if we should call it commitments instead, people would take it a little bit more seriously. And it's my belief that oftentimes, commitments are this care between the why and the what, and sometimes the face of the commitment is the what. (00:46:05): It's a project and there are many why's behind it, or it's the why and there are many projects behind it. So that what's trying to formalize that idea, but it definitely felt a little bit complicated, a little bit. Sometimes people are like, well, OKRs exist for a reason and this is, basically, an OKR with just a different name. So my honest sense is we still haven't figured it out and we're still iterating on a bunch of different things, but I think I've developed some philosophies around it, which is, no matter what you call it, because it doesn't matter as much. (00:46:38): I think that, for me, there are three things that really matter about the good OKR, and one is legibility. People look at it and understand what it is, and it's not some weird obfuscated metric that doesn't mean anything to anyone. I think actionability, I want OKR to inspire action. You look at that and you're like, it's stirs action, makes me want to do something differently. And the third one is authenticity, which is, does this actually, honestly depict what you're doing, what you're trying to do on a day-to-day basis? Because if it doesn't, then it's hard for me to trust that, that it matters. Or if that's something that just happens to describe what you're doing but isn't really connected in a meaningful way, then I question the value of it all. (00:47:28): So that's why I am in the process. But I definitely am all ears to advice around this kind of stuff, because I feel like we haven't quite cracked the code.",
+   "zh": "关于OKR，我想说的是，我认为对于初创公司来说，最强大的力量之一就是自下而上的能量。比如，某位开发者发现了问题，然后主动去修复它。在大多数情况下，我尽量不去干预这种行为，因为如果员工能持续这样做，每个人都在为产品改进而努力，那么这种方式往往比自上而下的方式更有效——比如，定下某个质量指标然后试图改变一切，因为你可能会忽视一些关键问题。  \n（00:40:01）：第二点是，我觉得很多产品经理已经意识到这一点：如果你问工程师修复某个功能需要多长时间，而这个功能是他们自己提出的或主张的，所需时间往往是PM要求的一半。这背后的动机截然不同。  \n（00:40:24）：这就是为什么获得开发者的支持至关重要，因为你需要让他们感受到自己对这个问题有切身利益，这样他们的积极性和创造力就会激增。  \n（00:40:50）：OKR是个更复杂的话题，或许我该解释一下我对它又爱又恨的原因。我的职业生涯大部分时间都在专注核心体验，而OKR几乎成了我的克星。当你专注于核心体验时，有时你只是想让体验更好，当然，你可以想出一些衡量标准，但这并非你每天思考的重点。它看起来太形式化了，而且耗费大量精力。  \n（00:41:26）：你会遇到两种情况。一是，你提出一些次要指标，技术上可衡量、可调整，但没能证明其真正重要性。比如，某项调查中的满意度指标，但你没能证明它与用户留存或业务核心数据有相关性。二是，过于雄心勃勃地设定业务目标。例如，即便我是Uber骑手体验的产品经理，我也会说：我们要增加骑行次数，因为体验太棒了，能吸引更多回头客。但现实是，这些指标往往超出你的控制范围，或需经过多重环节才能产生影响。到头来，你甚至无法证明对顶层指标产生了影响。所以，要么你锁定重要却不可调整的指标，要么调整无关紧要的指标。这就是我与OKR的纠结关系，真是令人沮丧。  \n（00:42:00）：回想这段经历，我意识到我们需要：  \n1. 关注可衡量但易于调整的指标  \n2. 将指标与业务核心数据挂钩  \n3. 避免陷入形式主义陷阱  \n4. 保持灵活性以适应变化\n人们把OKR当作待办清单或任务列表，觉得“只要在季度末完成这些任务，就算完成了工作”。我们曾开过那些可怕的会议，翻阅电子表格，让员工当众汇报他们的承诺或关键成果。但这些会议之所以糟糕，是因为根本无法理解团队真正关心的重点。最终我们面临的问题类似于次级指标问题——要么无法验证任务是否推进，要么尝试处理那些用途存疑的指标。（00:43:39）于是我废除原有体系，问道：“我只想理解你们的核心目标。你们的理念是什么？别纠结能否量化指标，先明确你们在优化什么。”一旦目标明确，再去探讨量化方法。有些指标是定性的，没关系。甚至有时采用“成绩单式”评估更合适：直接打分、解释评分依据，让大家明白指标会随时间变化且精确度会提升，但最重要的是确保每个人都清楚目标方向。（00:44:29）这就是我上任第一年做出的调整。随后我们聘请了来自优步的数据主管。她指出：“虽然改进了，但还是不够严谨，主观性太强。不如重启OKR，争取做得更好。”通过数据科学团队的支持，我们确实有所提升。但这次问题不在于不理解团队行动，而在于无法验证他们是否真正致力于达成OKR。很多OKR看起来像是事后为项目合理化找的借口。（00:45:17）季度末回顾时，祈祷OKR能达成。但若在走廊或线上随机询问工程师团队最重要的目标，他们答不上来。他们只会说：“我在做这个重要项目。”如果OKR不被日常践行，发布又有何意义？（00:45:46）我们尝试用“承诺”替代“OKR”，希望更受重视。我认为承诺是连接“为什么”和“做什么”的桥梁，有时承诺本身就是行动方案。（00:46:05）项目背后有多个“为什么”，也有多个行动计划。这种形式化表达虽复杂，但至少能让团队明确目标方向。\n总的来说，这不过是换了个名字的OKR。所以说实话，我觉得我们至今仍未完全参透其精髓，仍在不断调整优化。但我也总结出了一些核心理念：无论你怎么称呼它，关键在于它是否能真正发挥作用。这才是最重要的。（00:46:38）对我而言，优秀的OKR应具备三项核心要素：首先是清晰易懂。人们一看就能明白其内涵，而不是那种晦涩难懂、毫无实际意义的指标。其次是可操作性。OKR应该能激发行动，让人产生改变现状的动力。第三是真实性——它是否真实反映了你的日常工作内容和目标？如果不然，我很难相信它的价值所在。若只是附和已有工作内容，却缺乏有效关联，那我会质疑其存在的意义。（00:47:28）这就是我当前正在探索的方向。但对于这类问题，我始终虚心求教，因为我深知我们尚未完全破解其奥秘。",
+   "ts": "00:39:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love hearing that. That ,hole journey. I feel like you always hear from product teams, here's what we do now. You never hear, here's the experiments we've been through, here's what we've tried, here's what worked for a while, here's what doesn't work now, and here's what we're doing now. So it's really cool just to hear all the experimentation you've done. Clearly, Figma is a company where you encourage experimentation and trying new things that aren't working, and it's cool they have the flexibility to just like, let's just do headlines for now, and no more specific goal metrics. We're just going to build things that we think are important. (00:48:09): And in the newsletter post, for folks that are listening, you actually show the templates that you're using these days for planning your projects and laying out your OKRs, so folks can check those out if they're interested in seeing how you're doing that, now. You also mentioned you've hired this awesome data scientist, and maybe just expanding that further, I imagine a lot of the success of Figma and the product that you built is the people that you hire. At Figma, I believe you have 22 product managers, which sounds very small for a company like Figma, and I imagine they're all amazing. I'm curious what you look for in product leaders and product managers that you hire that, maybe, other folks aren't as focused on, and just what does the interview process look like at Figma?",
+   "zh": "听你这么说真是太棒了。那个曲折的历程。我觉得产品团队通常只会说：\"我们现在在做这些事。\"但很少能听到他们分享：\"我们尝试过这些实验，有哪些方法暂时有效，又有哪些行不通，现在我们又在做些什么。\"所以能听你分享这些尝试过程真是太棒了。显然，Figma是一家鼓励创新和尝试的公司，他们有足够的灵活性，比如现在先专注于标题设计，不设定具体的目标指标，而是先把自己认为重要的东西做出来。\n\n（00:48:09）在新闻通讯中，听众们可以看到你们现在用于项目规划和OKR制定的模板，如果感兴趣的话可以去看看。你们还提到聘请了一位出色的数据科学家。我想，Figma和你们开发的产品之所以成功，很大程度上取决于所招募的优秀人才。据我所知，Figma有22位产品经理，相较于这样一家大公司来说这个数字确实不算多，但我相信他们都是顶尖人才。我很好奇，你们在招聘产品负责人和产品经理时，会关注哪些方面，而其他公司可能不太重视？另外，Figma的面试流程是怎样的？",
+   "ts": "00:47:38"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah, I shared some of these things. I really feel passionately about storytelling, and not to give it away or anything, but one of my favorite interview questions is asking, \"describe to me a time when you're part of controversial product decision, and what did you do,\" and all those things. And I think it's really revealing because if they can set up this conflict and understand why this problem was really important and represent both sides in such that you can understand why that conflict existed in the first place, then they can do it in this even-keeled way, where you realize that they can take on these different perspectives. You start to learn a lot about that person, I think. (00:49:35): Or sometimes, I just ask them for basic things, okay, talk about a big problem that you worked on. And the thought experiment, for me, is always coming out of that, do I feel compelled to work on that problem? And no matter how boring it sounds on the surface, I think a really great product manager can cash something, it's like, well, this is why it's so existential for us, and this why it's so interesting, and really rally the troops up. So that's one big thing of storytelling communication because at the end of the day, so much of our job, it's around that. (00:50:07): I think other than that, some of the things that I value or things I think about as, hi Dan with UX conversations, it's like we talk about problem, and I think about when you're exploring solutions, it's this tree of, okay, there's just these branches of explorations and you finally arrive at these solutions. And a ton of people who can go up and down branches really quickly, have a really high command of all these different altitudes, as well, so that we can talk through a lot of things at the end of the day, feel like we walk away with some progress. (00:50:43): And I think that at Uber, our first two Product Officer, Jeff Holden, was someone who often talked about fast forwarding to the future and this idea that, okay, let's just pretend we ran that experiment. What do you think it'll come back with? Or let's pretend we ran that, you just use a study. And the PMs who have the ability to imagine those outcomes, I think, it helps us be much more efficient, too, because we're like, well, if we all think that it's going to go there and that's not going to compel us to take any action, why do it at all? (00:51:17): And so I think a lot of PM is about those shortcuts that you have to take. And it's not just about what we build, it's about building the right things. And sometimes, it's just as important to decide not to build something, but it's all only possible if you can have that kind of imagination or that ability to see around corners.",
+   "zh": "是的，我分享过一些这类内容。我对讲故事的热情由来已久。先不剧透太多，我最喜欢的面试问题之一是：“请描述你参与过有争议的产品决策的经历，以及你当时是如何处理的？” 诸如此类的问题非常能暴露一个人的本质——如果他们能设定冲突场景，理解问题背后的核心诉求，并公正呈现双方观点，让你明白冲突产生的根源，那么他们就具备了出色的沟通能力。通过这种方式，你能深入了解对方的为人。\n\n（00:49:35）有时我也会问些基础问题，比如：“谈谈你曾参与的重大项目。” 对我来说，关键在于反思：我是否被迫参与过这个项目？即使表面看似枯燥，但优秀的产品经理总能赋予它存在的意义，激发团队热情。这正是讲故事沟通的核心——归根结底，我们的工作本质上就是围绕这些展开的。\n\n（00:50:07）除此之外，我特别珍视以下思考：比如在 UX对话中探讨问题时，我会思考当你探索解决方案时，会形成一棵决策树——分支众多，终至找到最佳方案。那些能快速切换视角、掌控不同维度的人，能让我们高效沟通，最终达成共识。\n\n（00:50:43）优步早期两位产品总监杰夫·霍尔登常提倡“快进到未来”，比如假设我们实施某个实验，得出怎样的结果；或者模拟某种场景，PM若能预见结果，效率将显著提升。毕竟如果所有人都认为某个方案可行却缺乏行动力，何必白费力气？\n\n（00:51:17）PM的核心在于高效决策——不仅关乎产品落地，更要确保方向正确。有时果断放弃某个项目同样重要，而这都依赖于洞察未来、灵活转换思路的能力。",
+   "ts": "00:48:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. I was going to ask you for your favorite interview questions in our lightning round and you jumped ahead, which is great. And those are really good examples. Hopefully, they don't give too much away. I want to chat a bit about growth and how Figma grows. If you ask people about product led growth, and just whenever people talk about product led growth, they're always companies like Figma, Slack... Figma is always seen as a model of product led growth and a product that grew through product. (00:52:04): I imagine now, there's a very robust sales team, and I imagine, even earlier than people, probably, imagined there was a sales team. I'm curious, as a product leader, what you've learned about how to effectively work with sales and what you teach your product managers about how to work with sales to collaborate effectively.",
+   "zh": "我太喜欢这点了。我本来打算在闪电问答环节问你最喜欢的面试问题，但你抢先一步说了，真是太棒了。这些例子确实很棒。希望他们不会透露太多信息。我想聊聊增长策略，以及Figma是如何实现增长的。如果你问人们关于产品主导型增长的看法，每当人们谈论产品主导型增长时，他们想到的都是Figma、Slack之类的公司……Figma一直被视为产品主导型增长的典范，是通过产品自身实现增长的典范。（00:52:04）：我猜现在Figma已经拥有一支非常强大的销售团队，而且早在人们想象中就已经有销售团队了。作为产品负责人，对于如何有效与销售团队合作，以及如何教导产品经理如何与销售团队高效协作，你有什么心得？",
+   "ts": "00:51:37"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "We're really lucky to have a sales team that understands their product really well and can hold their own with customers who are often also design leaders, product leaders and things like that. And I think that kind of credibility goes a really long way. One of the things that we all are collectively realizing is, we talk about product like growth, but in some ways, I like to think about it more as community led growth or there are certain people inside a company that feel so strongly about Figma and that they're helping push for it in these advocates and evangelizing for Figma. (00:53:03): And so oftentimes, what the sales team does is really empower those individuals to make a stronger case or connect them to the rest of the company so that we can get a wider deployment or more leadership buying and things like that. And so oftentimes, a sales team is playing that role of creating those human connections and helping equip designers that feel passionately inside a company with the data, with the stories and all those things to help make a case. And I think that's the most powerful way in which we can spread where the space of Figma is not the sales team, but in fact, it's the internal designer. (00:53:47): And so that's the mental model that I think we've been using it. We're fortunate enough to have people inside companies who are so passionate to want to play that role. And so when you take that lens on, then you start to understand, okay, how can we help set this person up for success? And the sales team has different ways to do it. The product team can help, in terms of giving them visibility into how we're thinking about evolving the product or what other customers might be doing. And so, I really see it as this partnership to enable that much as possible. And I think that's what, to me, product growth looks like at Figma, is that.",
+   "zh": "我们很幸运能拥有一支非常了解产品、能够与客户（这些客户往往也是设计负责人、产品负责人等）平起平坐的销售团队。我认为这种专业素养意义非凡。我们都逐渐意识到，我们谈论的是产品驱动的增长，但在某种程度上，我更愿意将其视为社区驱动的增长，或者说公司内部有一些对Figma充满热情的人，他们在为Figma奔走相告、积极推广。（00:53:03）：所以销售团队经常做的是赋能这些人，帮助他们更有力地传递价值，或者将他们与公司其他部门连接起来，从而实现更广泛的部署或获得更多领导层的支持等。我认为，这是我们传播Figma理念最有效的方式——销售团队并非Figma的核心，而是公司的内部设计师。（00:53:47）：所以这就是我们一直秉持的思维模式。我们很幸运能在公司内部找到充满热情、愿意承担这种角色的人。当你从这个角度出发时，就会明白，如何帮助这些人取得成功？销售团队有不同的方法来实现这一点。产品团队可以帮助他们了解我们如何规划产品发展，或其他客户的动态。所以，我认为这就是Figma的产品增长模式。",
+   "ts": "00:52:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really interesting. Basically, making your champion inside the company a superhero, helping them be more effective at what they're already doing, which is evangelizing this product that they really love. Interesting. (00:54:42): Is there anything that you think Figma did early on that you think was really important for it to start to grow, either in this way or in a different way? Imagine there's just a lot of product led growth founders that are trying to create a product led growth product, and they fail. And so I'm curious, just what do you think people often miss and what do you think Figma did right that got it going?",
+   "zh": "这真的很有趣。基本上就是把公司内部的拥护者塑造成超级英雄，帮助他们更有效地做好本职工作——推广他们真心喜爱的产品。很有意思。（00:54:42）：你觉得Figma早期做了哪些对实现增长至关重要的事情，无论是从这个角度还是其他方面？想象一下，很多产品主导型增长的创始人试图打造一款产品主导型增长的产品，但最终失败了。所以我很好奇，你认为人们经常忽视了哪些方面，Figma又做对了哪些地方，从而推动了公司的发展？",
+   "ts": "00:54:29"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "I think a lot of it was about the level of intention around building community. And the more there are organic conversations happening about Figma, the better. And one of the nice things about Figma is you can share out a file that you've been working on, and effectively open source something, but it's your way of showing, here's how we do it at so X, Y, Z company, and sharing that with the rest of the community. And when people see that and when people feel like they have this insider view in how other companies work, that's where there's a lot of interest. (00:55:38): And more recently, over the last few years, we've really been focused on a program called Friends of Figma where we have people who are passing about Figma, and all our different geographies come together in a Discord channel. They meet regularly and are helping us evangelize. And again, that's that human connection between users, and then between us and the users is something that really helps build that kind of loyalty, which is the thing that, then, fuels all the champions to really push for it, internally, and give people the enthusiasm and courage to do that inside their organization.",
+   "zh": "我认为这很大程度上与构建社区的用心程度有关。关于Figma的自然交流越多越好。而Figma的一大优点在于，你可以分享正在制作的文件，有效地实现开源，但这也是你向社区展示我们在XX公司是如何做事的方式，并与其他成员分享。人们看到这些内容后，会觉得自己对其他公司的运作方式有了深入了解，这正是引发广泛兴趣的关键所在。（00:55:38）近年来，我们一直专注于一个名为\"Figma之友\"的项目，汇聚了全球各地热爱Figma的用户。他们定期在Discord频道交流，帮助我们推广产品。这种用户之间的互动，进而与我们的深度联结，正是建立忠诚度的关键所在。这种忠诚度反过来又激励了众多拥护者在内部积极推广，让人们在组织内部获得热情和勇气。",
+   "ts": "00:55:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting how many corollaries there are to Notion and how they got started. I recently chatted with Camille, I don't know if you heard that episode, but there's a lot of similarities with how Notion use their community to help jumpstart growth and continue to grow.",
+   "zh": "有趣的是，Notion与Figma之间有很多相似之处，它们的起步之路也很相似。我最近和Camille聊过，不知道你是否听过那期播客，但Notion利用社区推动增长、持续发展的模式和Figma有很多相似之处。",
+   "ts": "00:56:16"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Totally.",
+   "zh": "确实如此。",
+   "ts": "00:56:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting that you can call that community growth, product growth. There's a lot of overlap there, potentially.",
+   "zh": "有趣的是，你可以把这称为社区增长或产品增长。两者之间可能有很多重叠之处。",
+   "ts": "00:56:30"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "For sure.",
+   "zh": "没错。",
+   "ts": "00:56:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What advice would you have for folks that are, I don't know, maybe you already shared this, but just if you're a product led growth founder listening to this, do you have any other piece of advice to that founder about how to get started with their product, their community, their growth strategy? Anything else you'd want to share there?",
+   "zh": "对于那些可能听过你分享的观点的人，或者对于那些听过这期播客、正处于产品主导型增长阶段的创始人，你有什么建议吗？关于如何启动产品、社区和增长战略，有什么额外建议吗？",
+   "ts": "00:56:37"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Maybe a different way to talk about what we just talked about, is just, there has to be this, almost irrational, this emotional response to your product and this like love for it. First, it has to be cultivated internally, too. People, internally, have to authentically love something to really stand behind it. But then, externally, too, if people are loving something to the point where they can sing at the top of their lungs and just really talk about how Figma's, great, if we can get there, that's a wonderful place to be. (00:57:27): And I think that's both a combination of you've really solved their problems well, but you also equip people with a philosophy around a different way of working. And I think that's what worked well for Figma, too, which is, there's something controversial about this idea that everyone can see what you're doing, or that multiple designers can be in the file at the same time. We like to say that one of the first responses we saw [inaudible 00:57:51] Figma was, if this is a future of design, I'm quitting. I'm changing careers. And there's that tension of that narrative tension, but that is signal that you're part of this revolution and you're trying to change something. And when it can equips your customers or user base with that, and I think that's something that they can really get behind and champion, so it's not just that they're championing for a tool, they're also championing for a new way of working. (00:58:20): Obviously, that's a tall order or [inaudible 00:58:23] come up with that. But hopefully, if your a founder, you're working on something, your mission is so big that you have those kind of ideas, and it's how do you actually equip your customers to want to talk about that?",
+   "zh": "或许谈论我们刚刚讨论的内容的另一种方式是，必须有一种近乎非理性的情感反应——对你的产品产生热爱。首先，这必须从内部培养。人们内心必须真诚地热爱某样东西，才能真正为之挺身而出。但在外部层面，如果人们对某样东西爱到能声嘶力竭地赞美它、谈论Figma有多棒的地步，那就是一种理想的状态。（00:57:27）：我认为这既需要你真正解决用户的问题，也需要为人们提供一种不同的工作理念。我认为这正是Figma成功的秘诀——让每个人都能看到你正在做什么，或者让多个设计师同时访问同一份文件，这种理念本身就存在争议。我们记得，Figma刚推出时，有人说：\"如果这就是设计的未来，那我要辞职了。我要转行了。\"这种理念带来的紧张感，反而表明你正参与一场革命，试图改变现状。当你能让客户或用户群体认同这一理念时，他们就能真正成为你的拥护者——他们支持的不只是一个工具，更是一种全新的工作方式。（00:58:20）：显然，要实现这一目标并非易事，但希望作为创始人，如果你正在开发某个产品，你的使命足够宏大，足以激发这样的想法。关键在于如何让客户真正愿意为此发声？",
+   "ts": "00:56:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. Reminds me of a quote and a tagline that the Airbnb's first growth team had for a long time. Love drives growth, not the other way around. They made posters of this, put it all over the product teams.",
+   "zh": "太棒了。这让我想起Airbnb的首个增长团队长期秉持的一句话：\"爱驱动增长，而非相反。\"他们把这句话印在海报上，贴满了各个产品团队的办公室。",
+   "ts": "00:58:35"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "I love that.",
+   "zh": "我太喜欢这句话了。",
+   "ts": "00:58:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Part of the office and seemed to have worked for Airbnb, clearly working for Figma. (00:58:54): One last question feels like a question we have to touch on. I don't know how much you can say about all this stuff, but with the potential acquisition with Adobe, which I know isn't done, yet, but I'm just curious, what do you think will change, may change, you're hoping will change, you're hoping won't change in how you build product at Figma within Adobe?",
+   "zh": "办公室里有人曾在Airbnb工作过，现在显然也在Figma工作。（00:58:54）：最后一个问题是不得不提的。我不知道你能透露多少信息，但关于与Adobe的潜在收购，我知道这笔交易尚未完成，但我很好奇，在Adobe旗下开发Figma产品时，你认为会有哪些方面发生变化、可能发生变化、希望发生变化、又希望不会发生变化？",
+   "ts": "00:58:49"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Totally. Yeah. As you said, it hasn't closed, yet, and so we're still independent companies, but when we think about that theoretical future, I think about people often ask me, so what's going to happen, in terms of the products that you work on, and how is that going to influence Figma? And the answer is, we don't know, yet, but I get excited about two avenues. One is just really continuing our current mission of making product design better. And the reality is we look at product design, a lot of people are still using both Adobe and Figma alongside each other. And maybe you're creating that micro interaction in After Effects, or maybe you're doing that intricate illustration in Illustrator, or editing Raster in Photoshop, and then you're bringing some of those things into Figma. But when you think about the end product development process, there's so many ways in which, if we can make all those things seamless so that you're not juggling a bunch of apps, or maybe you can have one single source of truth, that's really exciting to me to think about. So concretely what that means, I don't know, yet, but as thinking through those journeys, that gets exciting for me. (01:00:22): And then the other thing is really collaborating with the rest of Adobe and thinking about, we've figured out something really interesting in the form of realtime multiplayer collaboration, and that, as a platform. Adobe has a much broader set of use cases that they've been pursuing, and what do those two things together, what could that enable? And that gets exciting for me to think about all the creative tools that I've used in the past, be it video editing or 3D objects or things like that where it's, okay, if we can bring in the power of the browser, of multiplayer, of this feeling of openness, would that make it way easier for people? Would it make it much easier for people to share work or get involved? (01:01:04): So those are the things that go through my heads, in terms of what's possible. In terms of what I don't want change. I really think that we've figured out something really amazing, in terms of our relationship with the community. We talked about proximity to community and our users. Those are things that we intend to keep and keep doubling down on. And I think it's such an important part of the magic of how Figma works. So it's something that, I think, I will continue to do and that's what I draw a lot of motivation from in the first place.",
+   "zh": "完全正确。是啊。你说得对，它还没合并，所以我们现在还是独立的公司。但当我们畅想未来可能的合并时，人们经常问我：未来你们的产品会如何发展？这会对Figma产生什么影响？答案是，我们现在还不知道，但我对两个方向感到兴奋。第一个方向是继续我们当前的使命——让产品设计变得更好。现实情况是，很多人仍在同时使用Adobe和Figma。或许你在After Effects中制作微交互，或许在Illustrator里创作复杂插图，或许在Photoshop里编辑位图，然后再把这些素材导入Figma。但当你审视整个产品开发流程时，如果能让所有这些环节无缝衔接，不必在多个应用间切换，或者能拥有单一的数据源，这对我们来说太令人激动了。具体会如何实现，我现在还说不清，但思考这些可能性本身就让我兴奋不已。（01:00:22）  \n\n另一个方向是与Adobe其他团队深度合作。我们在实时多人协作方面取得了突破性成果，而Adobe作为平台，拥有更广泛的应用场景。将这两者结合，能带来哪些可能性？这让我对过去使用过的创意工具充满期待，比如视频剪辑、3D建模等——如果能引入浏览器的强大功能、多人协作的体验以及开放式协作的理念，用户分享成果、深度参与创作会变得多么容易？（01:01:04）  \n\n这些都是我脑海中浮现的可能性。但有些东西我不希望改变。我深信我们在社区关系方面做得很棒。我们强调与社区和用户的亲近感，这些都是我们要保持并不断深化的。我认为这正是Figma成功的秘诀所在。所以我会继续秉持这样的理念，这也是我最初的动力所在。",
+   "ts": "00:59:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. You also get to work with Scott Delski, which is going to be pretty sweet and hoping to get Scott on this podcast at some point, too.",
+   "zh": "太棒了。你还能和Scott Delski合作，这肯定很棒，希望未来能邀请Scott参加我们的播客。",
+   "ts": "01:01:34"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "That'll be awesome.",
+   "zh": "那太好了。",
+   "ts": "01:01:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Any closing thoughts before we get to our very exciting lightning round?",
+   "zh": "在进入激动人心的闪电问答环节之前，你还有什么总结性的想法吗？",
+   "ts": "01:01:42"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "It's really easy to listen to some of these podcasts and feel like, oh, these people have kind of figured everything out. (01:01:53): But the reality is, we haven't, and we're still experimenting with a lot of things. OKRs is a really good example of that, but a lot of other things. And so, just the other day I wrote about this idea of us living in a work in progress world, and I was talking about more from the context of we live in a world where all of our products, our product players, our strategies are work in progress, and how do you work in a world like that, when what you're reviewing can change the next day. (01:02:23): But in a similar way, I think the way we work, the way we run product processes as product managers is, itself, very much a work in progress. So I would love to encourage this kind of conversation, Lenny, that you're facilitating just because you have so much to learn from each other. And I'd love to continue to learn more from all of you on interesting ways that you grapple with these age old problems around things like how to set goals, or how to review work, or how to plan. (01:02:54): So anyway, just wanted to signal that we are very far from perfect, and I really eager to learn from everyone else, as well.",
+   "zh": "听某些播客时，真的很容易产生一种错觉，觉得“哦，这些人好像把一切都搞定了”。（01:01:53）但现实是，我们并没有做到这一点，我们仍在不断探索新事物。OKR（目标与关键结果）就是一个很好的例子，还有许多其他领域也是如此。就在前几天，我写了一篇文章，谈到我们生活在一个不断进化的世界里——我们的产品、产品团队和战略都处于持续迭代的状态。在这样一个环境中，当你回顾的成果可能转瞬即变时，该如何应对？（01:02:23）同样，我认为我们作为产品经理的工作方式，本身也处在不断进化的过程中。因此，莱尼，我非常希望能鼓励大家参与这种交流，因为我们能从彼此身上学到很多东西。我也很乐意继续向大家请教，探讨如何应对那些古老的难题，比如如何设定目标、如何评估工作成果、如何规划项目等。\n\n（01:02:54）总之，我想强调的是，我们远非完美，我也非常渴望向大家学习。",
+   "ts": "01:01:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. That also reminds me of something the Airbnb founders always came back to. Joe and Brian were both designers, and as you learn to be a designer, you are taught that everything around you is designed by someone. Someone just decided this webcam's going to look this way and work in this way, this chair, somebody decided very specifically, it's going to be like this. And we assume the things that we are working within are just, they're figured out. Someone much smarter than me figure this out. But it's usually just someone just like you that had to figure something out quickly, and then that's what you're doing now. And so they always encouraged everyone to just remember someone designed this, doesn't mean it's the perfect solution, and you should always rethink things like that and not assume.",
+   "zh": "我很喜欢这一点。这也让我想起Airbnb创始人常挂在嘴边的一句话。乔和布莱恩都是设计师。当你学习设计时，你会被教导：身边的一切都是由他人设计的。比如摄像头的设计、椅子的设计……这些都是有人精心构思的。我们总以为现有的东西都是完美的，但其实很多都是别人仓促应付的结果，而你现在所做的不过是继承了前人的成果。所以他们总是鼓励大家记住：某个东西的设计未必是完美的，我们应该不断反思，而不是想当然。",
+   "ts": "01:03:04"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yep.",
+   "zh": "是的。",
+   "ts": "01:03:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, with that, we've reached our very exciting lightning round. I've got six short quick questions for you. I'll just go through them pretty quick, whatever comes to mind, share, and we'll see how it all goes. Sound good? All right.",
+   "zh": "好的，接下来是激动人心的闪电问答环节。我准备了六个快速问题，大家可以随意分享，共同探讨。怎么样？",
+   "ts": "01:03:44"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Sounds great.",
+   "zh": "听起来不错。",
+   "ts": "01:03:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. What are two or three books that you've most recommended to other folks?",
+   "zh": "太棒了。你最推荐给别人的两三本书是什么？",
+   "ts": "01:03:56"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "First one that comes to mind is Switch, and it's really about how to affect organizational change, something that's Shishir recommended to me and we have the difficulty of affecting change in a large organization, basically, and how to overcome that. (01:04:16): The second one I would say is my favorite book of all time is one called The Story of the Stone, and it's a Chinese novel, one of the most famous Chinese novels of all time. And it's thousands of pages. It all takes place in a garden, but it's one of the most beautiful piece of work I've read, so I like to recommend that, even though it's nothing to do with PM.",
+   "zh": "首先想到的是《开关》（Switch），这本书主要讲如何推动组织变革。希希尔向我推荐过这本书，我们在大公司推动变革时常遇到困难，而这本书教会了我们如何克服这些挑战。\n\n（01:04:16）第二本是我最喜欢的书——《红楼梦》。这是一部中国小说，堪称中国文学史上最伟大的作品之一。全书长达数千页，故事都发生在一个园林里，但它是我读过的最美妙的作品之一，虽然和产品管理毫无关系。",
+   "ts": "01:04:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Did you say thousands of pages?",
+   "zh": "你说有几千页？",
+   "ts": "01:04:38"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:04:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "About a stone. Wow. I will check this out. I love it. I've not heard this one before. Favorite other podcast, other than the one you're currently on?",
+   "zh": "关于一块石头。哇。我得去看看这个。我超爱它。我之前从没听过这个播客。除了你现在参与的这个播客，你最喜欢的其他播客是什么？",
+   "ts": "01:04:41"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Well, I'll have to admit, I'm actually much more of a visual learner, not a listener, and so I rarely listen to podcasts, but the two that I have listened to, in earnest, was first one was Cereal a long time ago, and then yours. (01:05:04): So I think some of the best, actually, but otherwise, more into reading.",
+   "zh": "嗯，我得承认，我其实更偏向于视觉学习，而不是听力学习，所以我很少听播客。但我认真听过的两个播客，一个是很久以前听的《Cereal》，另一个就是你们这个。（01:05:04）：所以我觉得这两个播客确实很棒，不过除此之外，我更喜欢阅读。",
+   "ts": "01:04:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. This show's also on YouTube, for folks that don't listening and like watching things. Plug, plug. Favorite recent movie or TV show?",
+   "zh": "太棒了。这个播客在YouTube上也有，方便那些不爱听播客但喜欢看视频的人观看。顺便宣传一下。最近喜欢的电影或电视剧是什么？",
+   "ts": "01:05:09"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "The last movie I watched was called The Good Nurse, and it was about a serial killer working in a hospital, but it was a very different take on it. It was very human. It wasn't grotesque at all, and was talking about how broken our system was. So, highly recommend it. Quite sad, but yeah.",
+   "zh": "我最近看的电影叫《好护士》，是讲在医院工作的连环杀手的，但视角很不同寻常。影片很有人情味，一点也不血腥，还揭示了我们医疗体系的缺陷。强烈推荐。这部片子挺悲伤的，但确实不错。",
+   "ts": "01:05:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, good tip. What are some SaaS products that you love that you, maybe, use at Figma or that you just discovered that you find very useful?",
+   "zh": "好的，我有个建议。你们用Figma设计工具时，除了Notion、Dropbox Paper、Koda这些常用工具，还有没有特别喜欢的SaaS产品？",
+   "ts": "01:05:37"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Kind of cheating, but as I mentioned earlier, we're starting to use FigJam for everything from calibrations, to interview debriefs, to product reviews, to everything. So that's thoroughly started to dominate our usage. It's been cool to see. And then we have our usual suspects like Slack and Asana, and then we're all over the place on the rest. Some of us use Notions, some of these use Dropbox Paper, some of these uses Koda, and so we're still figuring that one, out, I'd say.",
+   "zh": "有点作弊的感觉，不过正如我之前提到的，我们现在开始用FigJam处理所有事务，从校准、面试汇报、产品评审，到所有其他事情。这款工具已经彻底占据了我们的日常使用。看到这种变化真是太棒了。然后我们还有Slack、Asana这些常用工具，其他工具大家用得比较分散。有些人用Notion，有些用Dropbox Paper，有些用Koda，总之我们还在摸索阶段。",
+   "ts": "01:05:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Dropbox Paper. Very cool.",
+   "zh": "Dropbox Paper。非常酷。",
+   "ts": "01:06:16"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:06:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that product, but I feel like no one uses it anymore, but it's cool that you guys do. Final question, favorite FigJam or Figma plugin or template?",
+   "zh": "我喜欢这个产品，但感觉现在没人用了，不过你们团队还在用真是太棒了。最后一个问题，推荐的FigJam或Figma插件或模板是什么？",
+   "ts": "01:06:18"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "We have this one called the Alignment Scale, which is a widget that you can insert into FigJam or Figma Design, actually. And we use it all the time. So basically, it's just a simple scale and whenever people click it, their face appears on one end of the spectrum or the other. And so it's our quick way of being like, we're doing a product review, we on a pulse check, we drop it in and we're like, how are people feeling aligned, not aligned? (01:06:52): And if people are aligned, we just move on. If not, then you know that it's worth a discussion. So it's just a fast way to figure out where all the hotspots are.",
+   "zh": "我们有一个叫“对齐量表”的插件，实际上可以插入到FigJam或Figma Design里。我们经常用它。基本上，就是一个简单的量表，用户点击量表的一端，面部图标就会出现在另一端。这样我们就能快速了解大家的对齐度如何。比如做产品评审、脉搏检查时，把它插入进去，然后问大家对齐度如何，不对齐的话就知道需要讨论了。这是一个快速定位热点问题的工具。",
+   "ts": "01:06:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. And if folks want to find that, they can actually go to the newsletter interview that we did. I think if you just Google how Figma builds product, it comes up number one, and then there's a link to actual template, so you can plug that right in. (01:07:13): Yuhki, thank you so much for being here. I am going to go play with Figma and FigJam right after this. Two final questions. Where can folks find you online, if they want to reach out, learn more? Are you guys hiring, anything there? And then, two, how can listeners be useful to you?",
+   "zh": "太棒了。如果大家想了解，可以去看看我们做过的采访专栏。我记得在谷歌搜索“Figma如何打造产品”时，它排在第一位，然后链接里有实际模板，可以直接插入。（01:07:13）：优基，非常感谢你今天的分享。我这就去玩Figma和FigJam了。最后两个问题：如果大家想联系你，应该去哪里？你们团队现在招人吗？还有，听众如何能帮到你们？",
+   "ts": "01:07:01"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Yes, you can find me online on Twitter or LinkedIn. Feel free to reach out there. (01:07:36): In terms of how you can be useful to us? We're really starting to build a lot of products for this audience, for product managers. FigJam is one example of this, so definitely try it out, give us the feedback, tell me all about all the cool things that you're doing or you wish you could do on FigJam or Figma. And you can tweet at me, you can find me anywhere. And, of course, we're also hiring, so if you know great people or are interested, yeah, there's a lot of roles, so please get in touch.",
+   "zh": "是的，你可以在推特或领英上找到我，随时欢迎与我联系。（01:07:36）：关于你如何能为我们提供帮助呢？我们正着力为产品经理群体打造大量产品，FigJam就是其中一例。所以一定要试用一下这款工具，欢迎给我们反馈，分享你在FigJam或Figma上正在做或希望能实现的酷炫功能。你可以在推特上@我，或者通过其他平台联系我。当然，我们现在也在招人，如果你认识优秀的人才或自己有意向加入，欢迎随时联系我们，职位需求众多，期待你的加入。",
+   "ts": "01:07:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Yuhki, thank you so much for being here.",
+   "zh": "太棒了。Yuhki，非常感谢你今天的到场。",
+   "ts": "01:08:06"
+  },
+  {
+   "speaker": "Yuhki Yamashita",
+   "en": "Thank you so much for having me, Lenny.",
+   "zh": "非常感谢邀请，Lenny。",
+   "ts": "01:08:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "感谢聆听。如果你觉得本期内容有价值，可以在苹果播客、Spotify或你喜欢的播客平台订阅本节目。同时，欢迎给我们评分或写下评论，这对其他听众找到节目会很有帮助。您可以访问l越来越多观众发现这个播客很有价值，所以别忘了在苹果播客、Spotify或你喜欢的播客应用上订阅。下一期节目再见。",
+   "ts": "01:08:11"
+  }
+ ]
+}

@@ -1,0 +1,713 @@
+{
+ "id": "Lauryn Isford",
+ "name": "Lauryn Isford",
+ "category": "运营/增长",
+ "identity": "营销/增长",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Lauryn+Isford",
+ "bio": {
+  "en": "Lauryn Isford is a growth leader who was most recently Head of Growth at Airtable, and previously led product growth at Facebook and growth for Blue Bottle's e-commerce.",
+  "zh": "劳琳·伊斯福德（Lauryn Isford）是一位增长负责人，最近担任 Airtable 的增长负责人，此前曾在 Facebook 领导产品增长，并负责 Blue Bottle 电商业务的增长。"
+ },
+ "summary": {
+  "en": "Lauryn makes the counterintuitive point that a lower activation rate (e.g., 5-15%) is often healthier than a high one, because it correlates with long-term retention. She dives deep into onboarding as one of the most undervalued growth levers and how to find your true activation metric. The episode is a tactical master class on activation and onboarding optimization.",
+  "zh": "劳琳提出了一个反直觉的观点：较低的激活率（例如 5%-15%）往往比高激活率更健康，因为它与长期留存更相关。她深入探讨了 onboarding（新用户引导）这一被严重低估的增长杠杆，以及如何找到真正的激活指标。本期是关于激活与新用户引导优化的战术大师课。"
+ },
+ "turns": [
+  {
+   "speaker": "Lauryn Isford",
+   "en": "An activation rate that falls in a lower percentage range, maybe for most companies five to 15%, is better than one that falls in a higher percentage range because it means that there's likely much higher correlation with long-term retention and you're really working hard to get most of your users to reach a state that they're not reaching today.",
+   "zh": "激活率处于较低百分比区间（比如大多数公司为5%至15%），要比处于较高百分比区间的情况更理想。这是因为这意味着该激活率与用户长期留存率的关联性很可能更高——换句话说，你正在积极努力，帮助绝大多数用户达到他们目前尚未达到的使用深度，确保他们能持续使用你的产品。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast where I interview world-class product leaders and growth experts to help you get better at the craft of building and growing products. Today my guest is Lauryn Isford. Lauryn was most recently head of growth at Airtable. Before that, she was a product growth lead at Facebook, working on user growth, internet.org, and growth of Facebook at India. Before that, interestingly, she led growth for Blue Bottle's e-commerce business. In our conversation, we dive deep into Lauryn's favorite topic, onboarding, why it's one of the biggest and most undervalued growth levers, what she's learned about optimizing onboarding flow through her work redoing Airtable's onboarding flow, what she's seen work and common pitfalls around onboarding, plus a ton of advice around figuring out your activation metric. I could talk all day with Lauryn about growth, but we had to cut this off to keep this to a reasonable length. Enjoy my conversation with Lauryn Isford after a short word from our wonderful sponsors. (00:01:19): This episode is brought to you by public.com, who want to tell you about their new treasury accounts which earn a 4.8% yield on your cash. That is higher than a high yield savings account while still being backed by the full faith and credit of the US government. Treasure yields are at a 15-year high, but buying US Treasuries is super complicated if you go to a bank or navigate an ancient government website, or at least that was the case. Now you can move your cash into US Treasuries with the flexibility of a bank account, you can access your cash whenever you want, even before your Treasury bills hit maturity. There are no hold periods, no settlement days, just a safe place to park your cash and earn a reliable yield. Public will automatically reinvest your Treasury bills at maturity so you don't have to do anything to continue growing your yield, and you can manage your treasuries alongside stocks, ETFs, crypto, and any alternative assets. Do all your investing in one place and earn 4.8%, a higher yield than a high yield savings account only with a Treasury account at public.com/lenny. (00:02:24): Today's episode is brought to you by Miro, an online visual whiteboard that's designed specifically for teams like yours and mine. I have a quick request, head on over to my board at miro.com/lenny and let me know which guest you'd love for me to have on in 2023, and while you're on the Miro board, feel free to play around with the tool. It's a great shared space to work closely with your colleagues to capture ideas, get feedback, and iterate quickly and easily on anything you're working on. For example, in Miro, you can build out your product strategy by brainstorming with sticky notes, comments, live reactions, voting tool, even an estimation app to scope out your team sprints. Your whole distributed team can come together around a wireframe and draw ideas with a pen tool or even put mocks right into the Miro board. And with one of Miro's ready-made template, you can go from discovery and research to product roadmap to customer journey flows, final mocks, you get the picture. Head on over to miro.com/lenny to leave your suggestions. That's M-I-R-O.com/lenny. (00:03:27): Lauryn, welcome to the podcast.",
+   "zh": "欢迎来到Lenny的播客节目，我会采访世界级的产品领导者和增长专家，帮助您在产品打造与增长方面精进技能。今天的嘉宾是Lauryn Isford。她最近担任Airtable的增长部门负责人，此前曾在Facebook担任产品增长主管，负责用户增长、internet.org项目以及Facebook在印度的增长业务。更有趣的是，她还曾领导Blue Bottle的电商业务增长。在我们的对话中，我们深入探讨了Lauryn最擅长的领域——用户引导（onboarding），分析了其为何是最大且最被低估的增长杠杆之一，她通过重新设计Airtable引导流程优化用户体验的经验，以及围绕用户引导的常见成功案例与常见误区。此外，还会为您提供如何确定激活指标的宝贵建议。虽然我和Lauryn可以畅聊一整天增长相关话题，但为了保持节目时长适中，我们不得不提前结束对话。感谢精彩的赞助商致辞后，让我们一同聆听与Lauryn Isford的精彩对话。\n\n（00:01:19）：本期节目由public.com赞助，他们想向您介绍其新型国债账户，该账户可为您的现金提供4.8%的收益。这比高收益储蓄账户更高，且仍受美国政府全额担保支持。国债收益正处于15年高位，但若通过银行或古老的政府网站购买国债，操作极为复杂。现在，您可以将现金转入美国国债账户，同时享受银行账户的灵活性，随时取用资金，甚至在国债到期前即可操作。无需持有期、结算日等繁琐步骤，只需一个安全的现金存放地即可获取可靠收益。Public会自动在国债到期时进行再投资，您无需额外操作即可持续提升收益，还可将国债与股票、ETF、加密货币及其他另类资产一同管理。在public.com/lenny平台上进行全平台投资，仅需4.8%的收益，远超高收益储蓄账户。\n\n（00:02:24）：本期节目由Miro赞助，这款在线视觉白板专为像您我这样的团队设计。我有个小请求，请前往miro.com/lenny访问我的白板，并告诉我您希望2023年邀请哪位嘉宾。同时，您可以在Miro白板上尽情探索这款工具。它是与同事紧密协作的绝佳共享空间，可用于捕捉创意、获取反馈，并轻松快速地迭代任何项目。例如，您可以在Miro上通过便利贴、评论、实时反馈、投票工具构建产品策略，甚至估算团队冲刺任务。整个分布式团队可以围绕线框图展开合作，使用笔工具绘制创意，或直接将模型添加到Miro白板中。借助Miro现成的模板，您可以从探索研究到产品路线图，再到客户旅程流程，最终完成模型设计。请前往miro.com/lenny留下您的建议。网址是M-I-R-O.com/lenny。",
+   "ts": "00:00:24"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Thank you. I'm so excited to be here.",
+   "zh": "谢谢。能来这里我太兴奋了。",
+   "ts": "00:03:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We've chatted a bunch over Slacks, like all these different Slacks we're in and Twitter and emails, but we've never actually chatted real time, and so I have a million questions that I want to ask you. So, thank you again for being here.",
+   "zh": "我们在Slack上聊了很多，比如我们加入的各种Slack群组、Twitter以及邮件交流，但我们从未真正进行过实时对话。所以我有无数的问题想问你。所以，再次感谢你能来参加这次交流。",
+   "ts": "00:03:31"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "We have never chatted real time, so everybody's getting the first conversation and I'm really looking forward to it.",
+   "zh": "我们从未进行过实时对话，所以这次对话对大家来说都是全新体验，我真的很期待。",
+   "ts": "00:03:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know that you have this pretty spicy contrarian take on experimentation and that I think you believe people run experiments too often and maybe not everything should be an experiment. Can you talk about that?",
+   "zh": "我知道你对实验有着非常独特的批判性观点。我认为你认为人们进行实验太频繁了，也许并非所有事情都需要成为实验。你能谈谈这个观点吗？",
+   "ts": "00:03:48"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Yes. So, experimentation is a really big part, growth culture, growth hacking culture, PLG culture, growth marketing culture, any kind of growth, at least in my sphere, and sometimes teams can be really, really dependent on experimentation when trying to grow a business. A great example of this would be consumer growth at scale. Think your classic big social company. I worked at one of them. I am a former employee of Meta back when it was called Facebook. When you're at scale trying to grow a social app, experimenting can feel second nature. It can feel like a necessary step in your product development process that you want to drive more signups or you want to drive better activation with new customers. So, you change some buttons, change a design, and A/B test it, and then see if numbers go up or down, and then make your ship decision based on it. (00:04:56): I find that there's generally two reasons why a grow team wants to experiment, and one of them is to understand more precisely the metric impact of what they're building and what they're putting in front of customers, and the other is risk mitigation where you're making so many big dramatic changes that there's some risk that while this could be really great for the business, it could also be really bad and it would be good to understand that before everybody's experiencing that in production. So, with that framework in mind, sometimes you don't need to experiment. Sometimes if the business, let's say activation, right, activation rates go up 6% versus 7%, that precision actually doesn't help all that much beyond being able to say in your performance review, \"Hey, I increased activation by 7%.\" So, it also is expensive to have folks on the ground, be it engineers, analysts, product managers, spending time understanding the results of an experiment that could otherwise be spent on road mapping, on foundational analysis, on shipping things. So, experiments can be expensive. (00:06:09): So, with all that said, generally my advice is to experiment when you need to and to primarily see it as a risk mitigation tactic when you're making dramatic changes and to let the product development process do more work. So, spend more time with customers, be more rigorous in understanding precisely what problem you're solving, get mocks in front of people and see how they react, and hopefully have more conviction than you otherwise would when you ship something that it's okay if every customer sees it tomorrow and that the experiment doesn't actually matter as much.",
+   "zh": "是的。在我的领域里，实验是增长文化、增长黑客文化、PLG文化、增长营销文化以及任何形式的增长的核心部分。至少在我的圈子里，当团队试图发展业务时，他们可能会过度依赖实验。一个典型的例子是大规模的用户增长，特别是大型社交平台。我曾在Meta（当时叫Facebook）工作过。当你要大规模发展社交应用时，实验似乎成了第二天性。这可能是产品开发过程中一个必要的步骤，比如你想增加注册量，或者提高新用户的激活率。于是你改动一些按钮、调整设计，进行A/B测试，看看数据是上升还是下降，然后据此决定是否上线新功能。（00:04:56）：我发现增长团队进行实验通常有两个原因。一个是更准确地理解他们所构建的产品或推向用户的功能对关键指标的影响；另一个是降低风险，当你要进行重大变革时，比如大规模调整产品设计，存在风险。这些变革可能对业务有益，也可能带来负面影响，所以在生产环境上线前先进行测试很有必要。基于这个思路，有时实验并非必要。例如，如果业务指标，比如激活率从6%提升到7%，除了能在绩效评估中写道“我把激活率提升了7%”之外，这点精确度并没有太大意义。因此，让工程师、分析师和产品经理花费大量时间解读实验结果，而这些时间本可以用于路线规划、基础分析和产品上线，这实在不值当。（00:06:09）：综合以上观点，我的建议是根据实际需求进行实验，当进行重大变革时，应将其视为降低风险的手段，同时让产品开发流程承担更多工作。多花时间与用户交流，严格核实要解决的问题，制作原型让用户试用，这样在上线新功能时，即使明天所有用户都能看到，也无需过度担忧实验结果是否会影响用户体验。",
+   "ts": "00:04:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's so interesting hearing that from a head of growth person. Working at Airbnb for a long time, and you talked about this, there's so much value put into the amount your experiment moves the metric is so important to, like you said, your performance review, your team's status, your team's ability to show they were successful. People look at like, you drove this metric 14%, which oftentimes you add up from experiments you've ran. How do you work in a culture like that, or is it just in that culture you may as well run experiments because that's the only way you get credit for the work you do, or is there a way to just be like, \"Wow, that is how we measure it, but it's still maybe not worth running everything as an experiment\"? How do you kind of find that balance?",
+   "zh": "听一位增长团队负责人说这些真是很有趣。在Airbnb工作这么久后，你提到这个问题时提到，实验对指标的影响被赋予了极高的价值，这对你的绩效评估、团队地位以及证明成功的能力都至关重要。人们会关注你如何将某个指标提升14%，而这通常是通过你开展的多个实验累积而来的。在这样的文化中工作是怎样的体验？或者说，这种文化是否迫使你必须通过实验来证明自己的价值？有没有办法找到平衡？",
+   "ts": "00:06:44"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "It feels to me like that is the default culture, especially as growth teams become organizations and as those organizations grow with companies into growth stage public company territory and beyond. However, I do think you can build a different culture, and the only way to escape the trap of experimenting everything is to have a very intentional culture about doing right by customers and doing the right thing for the business. A growth team or a growth org exists in service of improving the business and delivering results for the business, and whether or not you measure those precisely in an A/B test, you still shipped them or you didn't. (00:08:09): So, the rigor around your process was either there or it wasn't. This means though that there have to be other ways to motivate, reward, retain, and develop really good talent. So, a culture around the impact you had on customers as measured by qualitative feedback or as measured by deals that were closed or deals that weren't lost, or other kinds of indicators that you did the right thing for customers is important and there shouldn't be, especially in engineering within the world of growth, a culture around having to point to numbers to demonstrate your impact because if there is, then the team will biased experiments all the time, and that's not necessarily the right thing for the business. It's a very expensive cost.",
+   "zh": "在我看来，这似乎是默认的文化模式，尤其是当增长团队逐渐成长为组织，并且随着公司发展进入增长阶段乃至上市阶段时。然而，我认为确实可以建立不同的文化。摆脱“必须通过实验验证一切”的陷阱的唯一途径，是树立以客户为核心、以业务为导向的文化。增长团队或增长组织的存在，本质上是为了提升业务绩效、为企业创造价值。无论你是否用A/B测试精确衡量这些成果，核心在于你是否真正交付了成果。（00:08:09）因此，流程的严谨性要么存在，要么不存在。这意味着必须通过其他方式激励、奖励、留住和培养优秀人才。例如，以客户反馈或成败交易等定性指标来衡量对客户的影响至关重要，尤其是在增长领域的工程团队中，绝不应将数据视为衡量影响的唯一标准。如果将其作为硬性指标，团队将永远沉溺于数据驱动的实验中，而这对业务并非明智之举。这代价实在太高了。",
+   "ts": "00:07:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. It's so wild hearing this from, again, a head of growth, someone that's so analytical like you. Is there an example of something you launched that maybe most people would've run an experiment and you decided not to for one of these reasons?",
+   "zh": "哇。从一位增长团队负责人口中听到这些真是令人惊讶，尤其是像你这样极具分析思维的人。有没有例子说明你推出了某项产品，而大多数人可能会选择用实验验证，但你却出于某种原因决定不这么做？",
+   "ts": "00:08:50"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "There is a feature, a product really, that Airtable offers called Airtable Forms. It's possible you've used it. I'm not sure if you have, but-",
+   "zh": "确实有这样一个功能，Airtable提供的Airtable Forms。可能你用过，我不确定，但——",
+   "ts": "00:09:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No, I don't think so, but I will go check it out.",
+   "zh": "不，我想我没用过，但我会去看看。",
+   "ts": "00:09:10"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "You can check it out. There are some new features I'm about to tell you about, so maybe that will entice you.",
+   "zh": "好的，快来看看吧。我正要跟你介绍一些新功能，说不定能吸引你。",
+   "ts": "00:09:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There we go. Scoops.",
+   "zh": "好的，我来介绍一下。Airtable Forms和其他表单产品很相似。你可以创建一个表单，然后发送给任何人填写。填表人不必是Airtable的用户。",
+   "ts": "00:09:16"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "So, Airtable Forms is much like other forms products. You can create a form and then send it to anybody to submit. The people who submit your form don't need to be a user of Airtable.",
+   "zh": "哦，对，我用过。好的，就像把Airtable转换成表单一样。是的，我用过。好的。",
+   "ts": "00:09:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh yeah, I have used that. Okay. It's just like the turn an Airtable into a form. Yes, I've used it. Okay.",
+   "zh": "好的，继续。独家消息。",
+   "ts": "00:09:30"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Exactly. So, something we noticed is that there was a gap in feature parity for Airtable Forms where the submitter could not request a copy of their submission. So, I might send my T-shirt size to Lenny for a form around ordering swag for the company and then I might want to remember which T-shirt size that I ordered and get a copy of that in my email. We created that feature which as a result was gated on creating an account with Airtable, and we just turned it on and wanted to see what would happen because we knew from rigor of a wonderful product team doing robust customer analysis and also doing the data work that this is something that people wanted, that it was a feature that would bring value to customers, and that even if it didn't move certain metrics like a signup percentage, even if it might affect the mix shift of activation rate from folks who signed up, it would be net good for customers who were using forms and who were submitting them. (00:10:35): So, we did roll that one out without an A/B test. It did have a big enough impact on our signup metrics that we saw at top line and didn't need the A/B test to see what was happening. And we also were able to use attribution to make some analysis possible after we rolled it out so we could learn from what was happening to the base afterward.",
+   "zh": "确实如此。我们注意到Airtable Forms在功能对等性方面存在一个缺口——提交者无法请求获取其提交内容的副本。举个例子，我可能会在为公司订购周边商品的表单中向Lenny提交我的T恤尺码，然后希望能在邮箱中收到订购记录。于是我们开发了这项功能，但最初仅限于创建Airtable账户的用户使用。我们上线后观察了效果，因为我们深知优秀的产品团队通过扎实的客户分析和数据工作，清楚用户对这项功能的需求——它能为客户创造价值。即便它未能显著提升注册率，或是影响注册用户的激活率分布，但对实际使用表单并提交数据的用户而言，总体上是有益的。（00:10:35）：所以我们直接上线了这项功能，无需进行A/B测试。它对我们的注册指标产生了显著影响，我们无需通过A/B测试来验证效果。此外，上线后我们还能通过归因分析深入了解后续用户行为。",
+   "ts": "00:09:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Fascinating. That's a really good example, and I imagine that helps a lot when the head of growth is encouraging the team not to run as an experiment versus a PM on a subteam, like, \"Nah, we don't need to run this as an experiment,\" because in that case you're already acknowledging that team, \"You did a great job, look at this metric. Clearly this one moved. Clearly customers want it.\" So, to your point, basically this kind of stuff has to come top down probably for it to work well.",
+   "zh": "真有意思。这是个很好的例子。我想，当增长团队负责人鼓励团队不要把每项改进都当作实验时，比如对子团队的PM说：“不必把这当成实验”，背后其实是在认可团队的能力：“你们做得很棒，看看这个指标。显然用户需要它。”所以你的观点很对，这种决策通常需要自上而下推动才能真正发挥作用。",
+   "ts": "00:10:53"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I think it does, and it also cannot be an excuse for rigor around building well and being precise in what customers need, but overall, if you can be a results-oriented organization that just wants to do the right thing and move with urgency, then in my opinion, that's the way that you can have the most impact.",
+   "zh": "我认为确实如此。但这绝不能成为忽视用户需求、追求精确性的借口。总的来说，如果你能成为一个以结果为导向、积极进取的组织，那么在我看来，你就能产生最大的影响力。",
+   "ts": "00:11:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Okay. I didn't expect to spend that much time on that question, but there's so much there. That was really interesting. What I want to spend the bulk of our time on is onboarding. Something that I found myself, and I think you agree with a lot of this but I'll confirm, is that I've done a lot of research into the growth stories of the most successful startups, and what I find, one, is that retention ends up being the thing you got to crack. If you can't crack retention, nothing else matters. And then, two, more interestingly, onboarding ends up being one of the biggest levers to increasing retention which basically A then B equal C, onboarding ends up being one of the biggest areas of opportunity for growth teams both early on and late stage. And so, I guess the first question, would you agree with that general sentiment that onboarding is this huge opportunity and often undervalued?",
+   "zh": "太好了。好的，我没想到会花这么多时间讨论这个问题，但内容实在太多了。这真的很有趣。我想花大部分时间讨论用户引导（onboarding）。我的发现——我相信你对此有很多共识，但我还是想确认一下——是，我研究了许多成功初创企业的增长故事，发现：第一，留存率最终是必须攻克的难关。如果无法解决留存问题，别的都不重要；第二，更有趣的是，用户引导最终成为提升留存率的最大杠杆，A导致B等于C。无论是早期还是后期，用户引导都是增长团队最大的机遇领域。所以，我想第一个问题是，你是否认同用户引导是巨大机遇且常被低估的观点？",
+   "ts": "00:11:33"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Yes, I definitely agree. It depends of course on the shape of business. Not every business should prioritize onboarding first, but if you have some sort of self-serve element of your product, if someone can give your product a try, maybe you have a playground or a sandbox demo, if there's a premium element to your pricing scheme, if you maybe offer things totally for free and don't even have monetization yet, onboarding is that first really important choke point that from which downstream of onboarding so many important metrics and results flow for the business, from converting someone to a paid customer to closing a deal to growing, how many people in an organization are using your product. So, all of that really comes back to onboarding and if you can get that right, lots of good things will follow.",
+   "zh": "是的，我完全赞同。这当然取决于业务的形态。并非所有企业都应将入职流程放在首位，但如果你的产品存在自助服务元素，比如让用户试用产品，或提供沙盒演示环境；若定价方案包含付费选项；若产品完全免费且尚未实现盈利；入职流程就是最关键的节点——从用户转化为付费客户，到达成交易，再到用户增长，企业众多重要指标和成果都源于此。因此，入职流程的优化至关重要，若能做好这项工作，后续诸多积极成果也将水到渠成。",
+   "ts": "00:12:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, great. I'm glad we agreed. I already know this, but you spent a lot of time on Airtable's onboarding flow.",
+   "zh": "好的，我很高兴我们达成了共识。我已经了解过这部分内容，但你花了大量时间优化 Airtable 的入职流程。",
+   "ts": "00:13:13"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:13:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And so, I'm curious just to learn about what did you do over the time that you spent optimizing Airtable's onboarding experience, what kind of impact did you see through the work that you did there, and then just any big kind of general takeaways that either you think people should know or that you'll take with you to future opportunities around optimizing an onboarding experience?",
+   "zh": "所以，我很好奇想了解一下，在优化 Airtable 入职体验的这段时间里，你做了哪些工作，通过这些工作取得了哪些成效，以及你认为人们应该了解的或将来在优化入职体验时可以借鉴的关键经验？",
+   "ts": "00:13:21"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "We could talk about onboarding all day. This is one of my favorite things to chat about recently. So, we did have a wonderful activation team rebuild Airtable's onboarding flow over the past 12 to 18 months. This included many projects, including several big ones. So, what you've probably experienced if you signed up for Airtable recently or what you might experience if you create a new account soon is we've built an immersive wizard that we called Guided Onboarding that helped guide you through setting up your first workflow on Airtable, and in doing that reduced the cognitive load of getting started, helped you make more progress faster, and created scaffolding that more than 90% of customers would benefit from to be able to get up and running on a product that's pretty complicated. That was the first piece. (00:14:39): We also then introduced some personalization to use case on top of that. So, instead of helping you build something generic, having you build something that's relevant to you. And then we also worked on ongoing education. So, once you're in a workflow, once you've built something, how do we help you level it up to go from beginner to intermediate to advanced? One funny anecdote about this is that we actually called that project The Mole, M-O-L-E, because the design pattern in product looks like a mole. It pops up from the bottom of the screen and gives you tips as you're exploring. So, those are some of the biggest changes we made. We did retire a bunch of our tooltips which were a big part of onboarding for a really long time. So, happy to chat more about that, and then also did a bunch of more incremental optimizations as well. In general, tried to take a portfolio approach to what we did.",
+   "zh": "我们可以整天聊入职流程。这是我最近最喜欢讨论的话题之一。在过去的 12 到 18 个月里，我们确实有一个出色的激活团队重建了 Airtable 的入职流程。这包括许多项目，其中有几个规模较大。因此，你最近注册 Airtable 后可能体验到的，或者很快创建新账户时会遇到的，是我们打造了一个沉浸式向导，我们称之为「引导式入职」，帮助你完成在 Airtable 上设置首个工作流的过程，减轻入门时的认知负担，让你更快取得进展，并为超过 90% 的客户搭建了受益框架，使他们能够上手使用这款相当复杂的产品。这是第一步。（00:14:39）：此外，我们还引入了基于用例的个性化服务。因此，我们不再帮助你构建通用的东西，而是让用户构建与自身相关的体验。然后，我们还致力于持续教育。即，当你进入工作流、构建了某个东西后，我们如何帮助你提升技能，从初级到中级再到高级？关于这方面的一个有趣故事是，我们实际上将这个项目称为「鼹鼠」，M-O-L-E，因为产品中的设计模式看起来像个鼹鼠。当你在探索时，它会从屏幕底部弹出并为你提供提示。以上就是我们做出的最大改动。实际上，我们还淘汰了大量长期作为入职流程重要组成部分的工具提示。所以，很乐意进一步聊聊这些内容，同时也做了很多其他的渐进式优化。总的来说，我们尝试采取组合拳式的方法来推进工作。",
+   "ts": "00:13:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Okay. A few questions real quick.",
+   "zh": "好的。好的，几个快速问题。",
+   "ts": "00:15:36"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:15:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What were the three buckets real quick? So personalization, ongoing education, what was the first one?",
+   "zh": "能快速说一下那三个方面吗？所以个性化、持续教育，第一个是什么？",
+   "ts": "00:15:38"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "The first one was guided onboarding.",
+   "zh": "第一次是引导式入职。",
+   "ts": "00:15:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Guided onboarding.",
+   "zh": "引导式入职。",
+   "ts": "00:15:38"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:15:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What was the impact of this work, just to give people a sense of the kind of impact you can have on conversion and then whatever other metrics you looked at there?",
+   "zh": "这次工作的影响如何？能让大家了解一下你对转化率和其他指标产生了怎样的影响吗？",
+   "ts": "00:15:46"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "We were working on activation for a few years before I arrived at Airtable. There was already an awesome activation team, hard at work. Overall, the investments we made in onboarding over about a six to eight month period that included the wizard, The Mole with ongoing education, and also some personalization together drove a 20% lift in activation rate for Airtable.",
+   "zh": "我在加入Airtable之前，团队已经在入职激活方面做了几年的努力。当时已经有一个很棒的激活团队在埋头苦干。在大约六到八个月的时间里，我们在入职流程上进行了投资，包括引导式向导、持续教育的\"The Mole\"项目，以及个性化设计，最终将Airtable激活率提升了20%。",
+   "ts": "00:15:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. That sounds quite impactful, especially at a company at that scale.",
+   "zh": "哇。这听起来影响力相当大，尤其是在这样规模的公司里。",
+   "ts": "00:16:20"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "It's awesome. I would say celebrate any clear statistical significant improvement in activation rate. It's a big victory, and credit goes to the team that really spent many, many hours with customers and designing precisely to build something that could have that big of an impact. I think it speaks to the importance of really understanding what a user needs to be onboarded well, which is not the same as what your business wants the user to be onboarded to. So, delineating those and building carefully is really what made it successful.",
+   "zh": "太棒了。我要说的是，任何激活率有明显显著提升的数据都值得庆祝。这是一次重大胜利，功劳归于团队，他们花了大量时间与客户沟通，精心设计，最终打造出能产生如此巨大影响的产品。这也说明了真正理解用户如何顺利完成入职的重要性，而这与企业的期望往往不一致。因此，仔细划分需求并精心设计，才能取得成功。",
+   "ts": "00:16:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Which of these three buckets would you say had the biggest impact? Because I want to kind of get a couple levels deeper to get to what exactly did you do that worked really well.",
+   "zh": "在这三个方面中，你认为哪个影响最大？因为我想更深入地了解你们具体做了哪些有效的工作。",
+   "ts": "00:16:57"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I would say that the guided onboarding wizard which is the immersive wizard that helps you figure out how to get started was the most impactful thing we did.",
+   "zh": "我认为引导式入职向导——即帮助用户了解如何上手的沉浸式向导——是我们做的最有影响力的工作。",
+   "ts": "00:17:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it's interesting that you had tooltips and this feels like a tooltip-y thing. What is it conceptually? What's the simple way to think about the onboarding wizard versus a bunch of tooltips telling you like, \"Hey, Lauryn, click here, next go here, and then check this thing out\"?",
+   "zh": "有趣的是，你提到了工具提示，这听起来像是工具提示的概念。具体来说是什么？如何简单理解引导式入职向导与一堆工具提示相比呢？比如“嘿，Lauryn，点击这里，然后下一步去那里，最后看看这个”的提示。",
+   "ts": "00:17:14"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Totally. Imagine being in a step-by-step guide where you are asked question, for example, pick which kind of project you're working on, pick what kinds of things you'd like to track for this project, and then as you select from beautiful, easy-to-click buttons that require very little work on your part, something is visualized for you on the right half of the screen. So, you can see your workflow visually come to light as you do the work on the left half of the screen, and all of this is done for you in a very guided and instructive way.",
+   "zh": "完全正确。想象一下分步指南，用户被问到问题，比如选择正在处理的项目类型，选择希望为该项目跟踪的信息类型。然后，当用户从美观易用的按钮中进行选择时，右侧屏幕会实时可视化他们的选择。这样，用户在左侧屏幕操作时，右侧屏幕的流程就会清晰呈现，整个过程以引导性和指导性的方式进行。",
+   "ts": "00:17:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any generalized learnings from that experience of just how to do a great onboarding experience? It sounds like probably avoid tooltips, instead just kind of ask questions and show them progress as they're going through it in kind of like an immersive experience versus here's the product, check out all the cool features.",
+   "zh": "从这次经验中，有没有一些通用的心得，关于如何打造出色的入职体验？听起来可能应该避免工具提示，而是通过提问和实时进度展示来引导用户，营造沉浸式体验，而不是简单地展示产品，列出所有酷炫功能。",
+   "ts": "00:17:59"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I think there is something to be said for reducing reliance on tooltips, but I'm not sure I would go so far as to say the tooltip is dead, as much as I maybe would like to because there are too many of them out there. The reason for this is that I do believe Airtable's customers had a very specific need which was that the effort required to build basic scaffolding was too much and they needed more support, guardrails, bumpers to help them through that, and this kind of guided or immersive wizard was the best mechanism we could come up with to reduce that effort required and to make them feel more supported in their journey. I'm not sure that this pattern is one that works for every product. I think it's one that works well for a complicated product, where figuring out where to go next and how to get started is actually very challenging or has a high cognitive load. (00:19:14): So, I would keep that in mind, but in this case, it did work really well for us. I have seen some other products in the wild adopt similar patterns which gives me confidence that it is transferrable beyond Airtable and that there's probably something to it. That's definitely a big learning. I think one other big learning for us was that we had to meet users where they are. We have some awesome advanced features of really cool stuff you can do with Airtable, automations being a great example. However, users don't necessarily need to get that started on day one. They don't need to learn about the advanced stuff when they haven't even looked at a workflow before. So, we really worked hard to prioritize what the user actually needed and to consider what was necessary education versus what could be ongoing education and building it up.",
+   "zh": "我认为减少对工具提示的依赖确有其道理，但我不确定是否会说工具提示已经过时了——尽管我可能很希望如此，因为市面上太多工具提示了。原因在于，我深信Airtable的客户有一个非常明确的需求：构建基础框架所需的努力太大，他们需要更多的支持、防护措施和引导来帮助他们度过难关，而这种引导式或沉浸式向导是我们能想到的最佳机制，可以减少所需的努力，让他们在使用过程中感受到更强的支持。我不确定这种模式是否适用于所有产品。但对于复杂产品来说，当用户需要弄清楚下一步该做什么以及如何入门时，挑战确实很大或认知负荷很高，这种模式效果很好。（00:19:14）所以，我会牢记这一点，但在Airtable的案例中，这种模式确实很有效。我见过其他产品也采用了类似模式，这让我相信这种模式不仅适用于Airtable，可能还有其可借鉴之处。这绝对是一个重要的经验教训。我认为我们另一个重要的经验是，要从用户的实际需求出发。我们有一些很棒的先进功能，比如用Airtable实现自动化操作，这是一个很好的例子。然而，用户不一定需要在第一天就开始使用这些功能。当他们甚至还没看过工作流时，他们不需要去学习这些高级功能。所以，我们下了很大功夫，优先考虑用户真正需要的东西，区分必要的教育内容和可以逐步积累的教育内容。",
+   "ts": "00:18:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you talk a bit more about what that was? What did you actually do to understand the type of user, and then what did you change for them? Because we actually did something like this at Airbnb, and it was a tiny bit successful for host onboarding but it wasn't anything big. And so, I'm curious what it is you specifically did. Did you ask them a few questions and then grouped them in a group and then changed the way the rest of the flow went, or, yeah, what'd you do there?",
+   "zh": "你能详细谈谈具体做了什么吗？为了了解用户类型，你们实际做了什么？然后又为他们做了哪些改变？因为我们在Airbnb也做过类似的事情，在房东入职流程上取得了一点成功，但并不算大成功。所以，我很好奇你们具体做了什么？是问了他们几个问题，然后把他们分组，再调整后续流程的引导方式吗？还是说，你们做了其他什么？",
+   "ts": "00:20:06"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Good question. So, at the very, very beginning, we sort of said new users broadly need help. Who are they? What do we know about them? How can we help them? We spoke to a bunch of customers and also watched them get started and looked for patterns in behavior and also clusters. So, someone who is familiar with databases, somewhat technical and prefers to and has experience in building things might have a different need from onboarding than someone who is exploring a tool that was recommended to them for a project minute. With that in mind, there were some clear segments of personas or buckets of users that we could split out to give different experiences. Now that said, when we rolled out the guided onboarding wizard, it was actually just one generic onboarding that was one-size-fits-all, and while escape patches are great, we felt like we could solve, as I think I referenced earlier, more than 90% of use cases or users needs with one generic onboarding to start and then we could personalize from there. (00:21:34): When we started to personalize, generally we found bucketing customers by their learning style and their building style was more effective than more classic segmentation, like do you work in marketing, do you work in product management, do you work in operation. The reason for this is that there are many different types of building or workflows that are possible in Airtable. Some are sophisticated for use at work, some are simple for use at work, some are somewhere in between and are for a hobby use case or a consulting use case. Knowing how someone would go about building was more effective than what do you actually want to see on the other side. (00:22:19): This means that something like a template which can give you an example of how to build a use case for project management can be helpful for inspiration but might not actually be the best way to teach you how to use a product like Airtable, when instead, we could learn that you're someone who needs more familiarity with databases to be able to get to the next level, or who might need a more visual learning experience instead of a more data-forward learning experience. So, we tried to segment the experience that way and found that that yielded better results on activation than some of the more traditional segments.",
+   "zh": "问得好。最初，我们大致认为新用户普遍需要帮助。他们是谁？我们对他们有何了解？如何为他们提供帮助？我们与许多客户进行了沟通，观察他们的上手过程，寻找行为模式和用户群组。例如，熟悉数据库、具备一定技术能力且乐于搭建系统的人，与因项目临时推荐工具而探索该工具的人，其入门需求可能大相径庭。基于此，我们划分出不同用户角色或群体，为他们提供差异化体验。\n\n不过，当我们推出引导式入门向导时，它实际上是一个千篇一律的通用入门流程。虽然应急补丁固然不错，但我们认为，正如我之前提到的，通过一个通用入门流程就能满足90%以上用户的需求，随后再进行个性化定制会更有效。\n\n（00:21:34）：在进行个性化定制时，我们发现按学习风格和搭建风格对用户进行分类，比传统的行业分类（如市场营销、产品管理、运营）更有效。这是因为Airtable支持多种搭建或工作流模式：有的适合企业级应用，有的适用于日常办公，还有介于两者之间的场景，如兴趣爱好或咨询项目。了解用户的搭建方式比直观展示界面更能激发他们的兴趣。\n\n（00:22:19）：这意味着提供项目管理模板虽然能启发灵感，但未必是教授Airtable的最佳方式。相反，我们可能发现用户需要更深入的数据库基础知识才能更进一步，或者更倾向于可视化学习而非数据导向型学习。因此，我们按用户行为模式进行分类，发现这种方式比传统分类在激活用户方面效果更佳。",
+   "ts": "00:20:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And how did you decide which segment that a user was in? Was it a question you asked them right at the beginning?",
+   "zh": "那么，你们是如何判断用户属于哪个分类的？是直接在入门时询问他们的偏好吗？",
+   "ts": "00:22:52"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "We had a really awesome research team that would do some surveys and conversations with customers away from our production experience and away from individual projects. So, we had a really robust read going in to the project of who these different personas were, different building types, different learning types. That said, we do also ask folks when they sign up some questions and depending on who you are or what we might think we know about you or want to know about you, we might ask you different questions and that's in service of helping you get started. (00:23:27): I had some big ideas for how we might bring this to life even further that might come to life in the future, such as if somebody's there to just help out, if they're may be a teammate rather than a builder, if they're just there to work with someone else because Lenny invited Lauryn to work on her table because he needed Lauryn to do something or update a sprint, whatever. Lauryn needs really different onboarding than Lenny. So, actually getting that data in the flow is really useful because then we can route customers to a fully different experience. It's amazing how much low-hanging fruit there is to personalize and segment that onboarding experience in so many products that are out there. You just need to be really detail-oriented and precise on who you're working with.",
+   "zh": "我们的研究团队非常出色，他们会开展一些调查，并与客户进行交流，既不局限于我们的生产经验，也不局限于单个项目。因此，在项目开始前，我们就对不同用户角色、不同建筑类型、不同学习类型有了非常全面的了解。说到这，我们在用户注册时也会向他们提出一些问题——根据他们的身份，或者我们对他们的了解程度，我们会提出不同的问询，这都是为了帮助他们更好地上手使用产品。（00:23:27）：我对如何进一步优化用户体验有一些宏大构想，这些构想未来可能会实现。比如，如果有人只是来帮忙的，如果他们是团队成员而非施工者，如果他们只是因为伦尼邀请劳琳一起制作桌子而来，因为伦尼需要劳琳协助某项任务或更新冲刺进度——劳琳所需的入门引导与伦尼完全不同。因此，实时获取这些用户数据非常有用，这样我们就能为不同用户提供完全差异化的体验。令人惊叹的是，在市面上众多产品中，个性化和细分入门引导体验的潜力巨大——你只需要对合作对象保持足够细致和精准的洞察。",
+   "ts": "00:22:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You talked about this experience as activation, and so just digging a little bit further into that idea. One of the important kind of metrics, milestones you got to figure out when you're working on onboarding is what is an activated user, what's the activation milestone, what's the activation metric. I know you have some strong opinions and some really interesting insights into activation milestones based on your experience at Airtable. Can you chat a bit about that and just share what Airtable's activation metric ended up being?",
+   "zh": "你把这种体验称为\"激活\"，接下来想深入探讨一下这个概念。在设计入门引导流程时，关键的衡量指标、里程碑和标准之一，就是要明确\"激活用户\"的定义、激活的里程碑以及激活的衡量标准。我知道你基于在Airtable的工作经验，对激活里程碑有深刻见解，能否分享一下Airtable最终确定的激活衡量标准？",
+   "ts": "00:24:11"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Yes. So, overall, every growth team needs a north star metric. It's so important to have singular focus on what the business results are that you are working to drive in your team. On our activation team, which as I mentioned focused on onboarding, though in theory there could be other ways that you want to focus on driving activation, we had one north star metric which was what we called our team activation metric. So, this representative, a team of people were activated on Airtable's product and using it in a way that suggested they would be long-term retained. For us, that was week four, multi-user, meaning in the fourth week, more than one person on that team is active and contributing to a workflow on Airtable. (00:25:23): This metric is something that our wonderful analytics team determined to be highly correlated with long-term retention. It's also a metric that holds a relatively high bar, so it requires a number of things to be true, that something of substance has been built, that people persist and continue to collaborate, that they're collaborating on a weekly cadence, and also holds a relatively high bar on exactly how they're contributing, meaning that the sum total of this is somewhat hard to achieve which means that we have a hard job and also a high bar as an activation team to achieve that for as many customers as possible. (00:25:58): In general, I think an activation rate that falls in a lower percentage range, maybe for most companies five to 15%, is better than one that falls in a higher percentage range because it means that there's likely much higher correlation with long-term retention and you're really working hard to get most of your users to reach a state that they're not reaching today.",
+   "zh": "是的。所以，总的来说，每个增长团队都需要一个核心指标。专注于团队正在努力推动的业务成果至关重要。在我们的激活团队中，正如我之前提到的，我们专注于新用户引导流程，但理论上，你可能希望以其他方式推动激活。我们设定了一个核心指标，即我们所谓的团队激活率指标。也就是说，在Airtable产品上激活并以暗示他们会长期留存的方式使用该产品的代表性用户数量。对于我们而言，这是在第四周实现多用户激活，意味着第四周，该团队中有不止一人活跃并在Airtable上参与工作流程。（00:25:23）：这个指标是我们出色的分析团队确定与长期留存高度相关的指标。它也是一个门槛较高的指标，因此需要满足多个条件：必须构建出有价值的产品，用户要持续协作，协作频率需达到每周一次，并且对用户贡献的要求也比较高，意味着要实现这一目标的难度较大。因此，作为激活团队，我们面临着艰巨的任务，要让尽可能多的客户达到这一标准。（00:25:58）：总的来说，我认为激活率处于较低百分比范围（可能对大多数公司而言是5%至15%）比处于较高百分比范围更好，因为这意味着与长期留存的相关性可能更高，而且你真的在努力让大多数用户达到他们目前尚未达到的状态。",
+   "ts": "00:24:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I really like that heuristic. So, the idea there is when you're picking an activation metric, you want it to be in the single digits potentially because you're saying that's more likely to be correlated with retention because retention's probably pretty low long term. Is that kind of the rough idea?",
+   "zh": "我真的很喜欢这个启发式方法。所以，核心思路是，当你选择激活指标时，希望它处于个位数，可能是因为你认为这更有可能与留存相关，因为长期来看留存率可能很低。是这样的大致思路吗？",
+   "ts": "00:26:22"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "That's a rough idea. Of course, the metric should be correlated with retention no matter what, but if 40% of your customers are still active at week four maybe with a metric that would be week four active rate, then only a fraction of those are still going to be active in month 12, in month 18, and month 24, and I would much prefer to pick a more specific, more precise metric that maybe only 5% of users reach, but know that those 5% of users will be with us for the long haul, and if we could get that 5% even to 6% or 7%, it would have huge downstream effects on long-term metrics for the business. So, that's why I would opt for a more specific metric.",
+   "zh": "是这样的大致思路。当然，无论如何，这个指标都应该与留存相关，但如果第四周40%的客户仍然活跃，也许对应的是第四周的活跃率指标，那么这些用户中只有一小部分会在第12周、第18周和第24周仍然活跃。我更愿意选择一个更具体、更精确的指标，比如只有5%的用户能达到，但要知道这5%的用户会长期留存，如果我们能将这一比例提高到6%或7%，将对业务的长期指标产生巨大影响。因此，我会选择一个更具体的指标。",
+   "ts": "00:26:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So, this activation metric, week four multi-user active is a really interesting metric. Can you talk a bit about how you actually operationalize this and put this to work on your team to help people understand what to work on and make sure they're moving the right sorts of numbers?",
+   "zh": "好的。那么，这个激活指标，即第四周多用户激活，是一个非常有趣的指标。你能否谈谈如何在团队中实际应用这个指标，帮助人们理解应该努力的方向，并确保他们在正确的数据上取得进展？",
+   "ts": "00:27:22"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Totally. So, one of the first things that we did when me and my team started to revisit week four multi-user active right before we started to rebuild onboarding is break that metric down into all of its component. So, if you really think about what goes into that number, how many teams sign up as a team versus as an individual, how many of them make it to week four, how many of them have more than two people invited versus more than two people who've ever been active, versus more than two people who were active in the fourth week, maybe they have one person active in the fourth week, and then what does active mean, and what are the different kinds of behaviors that constitute contribution or being active. Doing that really detailed work on the metric helped us understand what levers we could pull to have a really big impact on activation overall. (00:28:34): Additionally, we actually started using more metrics. So, we didn't just use our activation rate metric week four multi-user active to make all of our decisions. We introduced a few more, and one of them with purely a retention metric for an individual. Are you week two retained? Are you week four retained? The other was what we called Build with a capital B, and this was roughly a sophistication score. So, for someone who's building something, have they reached sort of intermediate levels of use of Airtable? The reason why we added these metrics is we were building new mechanisms for onboarding that were helping users build more effectively and find more value in Airtable, but sometimes those treatments helped users become more sophisticated but didn't help them invite more teammates, or sometimes those new mechanisms made someone more interested in giving us a shot for a few more weeks, but what they built was actually not any more impressive than if they had done it on their own. (00:29:38): So, this group of metrics actually really set us free. It gave us those constraints where we could actually measure success in a few different ways and think about activation as being more complicated than just a single metric and celebrate anything we could do to help on a couple of dimensions. So, I know it's a little unconventional to have a few metrics that you work with, but we did find that that was really helpful when we were making big changes.",
+   "zh": "完全正确。所以，当我和我的团队在重新审视第四周的多用户活跃度之前，首先做的一件事就是将这个指标拆解成所有组成部分。换句话说，如果你仔细分析这个数字背后的因素——有多少团队是以团队形式注册的，有多少团队能坚持到第四周，有多少团队邀请了超过两人加入，又有多少团队在第四周活跃超过两人——可能其中有些团队第四周只有一人活跃。那么，“活跃”到底意味着什么？哪些行为可以被视为贡献或活跃表现？对这个指标进行如此细致的分析，帮助我们理解了如何通过关键手段来全面提升用户激活率。\n\n（00:28:34）此外，我们实际上开始使用更多指标。我们不只是用第四周多用户活跃率这一指标来做决策，还引入了其他几个指标。其中一个是纯粹针对个人用户的留存率指标：第二周留存率如何？第四周留存率如何？另一个我们称为“Build with a capital B”的指标，大致衡量用户对 Airtable 的使用复杂度。例如，用户是否达到了中级使用水平？引入这些指标的原因是，我们正在开发新的入门机制，帮助用户更高效地使用 Airtable，并从中获得更多价值。但有时这些改进措施虽然提升了用户的使用复杂度，却未能有效增加团队成员邀请量；有时新机制让用户更有兴趣再试用几周，但他们实际构建的内容与自主操作相比并没有更出色。\n\n（00:29:38）因此，这组指标真正解放了我们的思维。它为我们提供了多重衡量成功的维度，使我们认识到激活并非单一指标所能涵盖的简单问题，而是需要从多个维度去优化。诚然，使用多个指标看似非传统，但在进行重大变革时，我们发现这种方法确实非常有效。",
+   "ts": "00:27:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is actually really interesting. So, it makes it feel like the core activation metric you talked about was more of an output metric and you kind of realized here's the things we could actually be moving directly. Is that roughly how you thought about it?",
+   "zh": "这确实很有意思。所以，感觉你提到的核心激活指标更像是一个输出指标，而你在这里意识到这些才是我们可以直接推动的方向。对此，你的思考方式是否大致如此？",
+   "ts": "00:30:04"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Exactly. It also helped us grapple with some of the tensions we felt which I know a lot of teams working on activation and onboarding feel, which is picking one metric doesn't paint the whole picture of what you're trying to achieve when you help a user onboard to your product and when you educate them about what's possible. So, in having sophistication and retention and an element of team use all as part of the fabric of how we talked about activation, it made us much more well-rounded as a team.",
+   "zh": "没错。这也帮助我们化解了在激活和入门工作中常见的矛盾——选定单一指标并不能完整呈现帮助用户入门产品、向他们展示产品潜力的全貌。因此，将复杂度、留存率和团队使用情况纳入激活讨论框架，使我们团队的视野更加全面。",
+   "ts": "00:30:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That connects a bit to, so we worked on this post together about how to choose an activation metric and you shared part of this story for that post, and there's a little bit of a debate amongst folks that contributed their opinion on how to decide an activation metric, where it's a debate between is it okay to have a workspace activation metric where it's like how many boards somebody creates, how many Airtables somebody has created versus a user action, like user has created 10 tables or user using it two times a week. I think you're on the side of workspace is maybe a more interesting metric for a collaboration tool, and it's interesting that you end up with both in the end which I think is kind of where folks landed. You probably look at how's the company using this tool and then per user, are they using it consistently. So, I guess the question is just what's your take on user specific activation metric versus workspace level activation metric?",
+   "zh": "这与我们之前的讨论有些关联——我们曾一起写了一篇关于如何选择激活指标的文章，你为那篇文章分享了部分内容。关于如何确定激活指标，参与讨论的人们存在一些分歧。争论焦点在于：是选择基于工作区（如创建的板数、Airtable账号数量）来衡量激活情况，还是基于用户行为（如创建10个表格、每周使用两次等）来评估？我认为对于协作工具而言，工作区层面的激活指标或许更具价值，而最终两种衡量方式并存也符合大多数人的共识。你可能需要先观察公司如何使用该工具，再按用户维度评估其使用频率。那么，用户特定激活指标与工作区层面激活指标，你如何看待两者的平衡？",
+   "ts": "00:30:46"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I really like this question. I agree it is a great debate. I'm not sure there's a clear answer because it does depend on your product. In the case of Airtable, which is a product that has seat-based pricing and generally horizontal adoption, it totally makes sense to have a workspace activation measure because you want to understand in an account, in an organization how many folks are actually using a product and finding value. That can be different for tools that might look like Airtable but have different mechanisms for growth or different pricing or different vertical personas that tend to adopt it. So, I do think there is some variance. I do have a reaction to share with you that's a little spicy-",
+   "zh": "我很欣赏这个问题。确实是个值得探讨的议题，但没有标准答案，因为这取决于产品特性。以Airtable为例，这款产品基于座位定价，用户横向扩散较快，采用工作区激活指标是合理的，因为你需要了解账户或组织内有多少人在实际使用产品并创造价值。但对于类似Airtable但增长机制、定价模式或垂直用户群体差异较大的工具，可能需要调整策略。因此，确实存在多样性。",
+   "ts": "00:31:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Please.",
+   "zh": "请继续。",
+   "ts": "00:32:19"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "... is that it's important that growth teams are agile and this means that north stars, key metrics, focus metrics will change, and if you're working on the same metric forever, there's probably some inefficiency in actually chasing the biggest impact for the business. So, I would be open-minded about if a workspace or team or account activation metric is always the right thing to focus on. Team activation looks really healthy because your growth team did some really amazing work on it, maybe user retention is the right place to focus next year. Maybe it's more about conversion. Maybe it's more about some other signal for long-term retention, and I would be open to being dynamic and changing that metric over time. Stability in metric is great, it helps with momentum, it helps with building expertise, but sometimes we overfocus on picking the perfect north star metric and by the time you feel like you've found the perfect one, it's actually time to move on to something different and work on a different opportunity.",
+   "zh": "……我认为增长团队需要保持敏捷性，这意味着北极星指标、关键衡量标准和聚焦指标会随时间变化。如果永远只盯着同一个指标，可能无法最大化商业价值。因此，我建议对工作区/团队/账户激活指标的长期适用性保持开放态度。团队激活数据看起来很健康，这得益于增长团队的出色工作，但明年用户留存或许更值得关注，或许转化率更重要，或许需要更长远的留存信号。我主张动态调整指标。稳定的指标有助于保持势头和积累专业知识，但有时我们会过于执着于完美北极星指标，等找到所谓“完美”指标时，可能已是转向新机遇之时。",
+   "ts": "00:32:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Eppo. Eppo is a next generation A/B testing platform built by Airbnb alums for modern growth teams. Companies like Netlify, Contentful, and Cameo rely on Eppo to power their experiments. Wherever you work, running experiments is increasingly essential, but there are no commercial tools that integrate with a modern grow team stack. This leads to wasted time building internal tools or trying to run your experiments through a clunky marketing tool. When I was at Airbnb, one of the things that I loved about our experimentation platform was being able to easily slice results by device, by country, and by user stage. Eppo does all that and more, delivering results quickly, avoiding annoying prolonged analytics cycles, and helping you easily get to the root cause of any issue you discover. Eppo lets you go beyond basic click-through metrics and then set you to north star metrics, like activation, retention, subscriptions, and payments, and Eppo supports test on the front end, the back end, email marketing, and even machine learning clients. Check out Eppo at geteppo.com, get E-P-P-O.com and 10x your experiment velocity. (00:34:34): Is there an example of that that comes to mind when you talk about being a little stuck on a metric? Is that something you went through at Airtable or anywhere else you worked?",
+   "zh": "本期节目由Eppo赞助。Eppo是由Airbnb前员工为现代增长团队打造的下一代A/B测试平台。Netlify、Contentful和Cameo等公司均依赖Eppo来支持他们的实验。无论您在何处工作，开展实验都变得日益重要，但市面上却缺乏能与现代增长团队堆栈无缝集成的商业工具。这导致企业不得不耗费大量时间自行开发内部工具，或尝试通过笨拙的营销工具来运行实验。在Airbnb工作期间，我最欣赏我们的实验平台的一点是，能轻松按设备、国家和用户阶段细分实验结果。Eppo不仅能做到这一点，还能更进一步——快速提供实验结果，避免冗长的分析周期，并助您轻松锁定发现的任何问题的根源。Eppo让您超越基本的点击率指标，进而关注北极星指标，如激活率、留存率、订阅量和支付量。Eppo支持前端、后端、邮件营销甚至机器学习客户端的测试。欢迎访问geteppo.com，立即提升实验效率10倍。  \n（00:34:34）：当您谈到在某个指标上陷入困境时，能否举个例子？您在Airtable或其他公司是否有过类似经历？",
+   "ts": "00:33:24"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I've gone through it plenty of times. We actually at the organizational level on the Airtable growth award changed our north star metric a couple times which is a big deal that manifests for several teams. Roughly the arc of that change for us was shifting from being a growth org focused on revenue to a growth organization focused on user growth and customer growth. This for us was a really important moment where we decided that it was most essential in our work to grow the business to bring millions more people onto the platform, using the product and finding value in the product, because we were taking a decade's long view that they could always become monetized or converted customers later, and there wasn't really a rush. We felt that focusing on revenue led us to make some decisions that were a bit more short-term oriented than would be ideal. (00:35:39): There's also a dynamic here where in the world of enterprise SaaS, the world of B2B SaaS, there's a new theme called product-led sales that's very hot right now, and this means that often in a PLG company there's some ideal end goal of handing off certain customers to have a sales conversation or to close an enterprise contract. In that case, you might actually prefer to delay revenue for months or quarters or years to manifest it later, and when that's the case, your growth team should be fully aligned in lockstep with sales and with go-to-market team and focusing on user growth is actually the right call. So, that's an example of a big pivot that we made, and in doing that, we felt more strategic clarity and were able to move faster.",
+   "zh": "我多次遇到过这种情况。在Airtable增长奖项层面，我们曾多次调整北极星指标，这对多个团队都意义重大。这一调整的大致方向是，从专注于营收的增长团队，转向专注于用户增长和客户增长的增长团队。对我们而言，这是一个重要的转折点——我们决定，发展业务、让数百万新用户使用产品并从中获得价值，比追求短期营收更为重要，因为我们着眼于十年级别的视野，相信这些用户日后总能实现变现或转化为付费客户，并无需急于求成。我们发现专注营收会导致决策更偏向短期，这并非理想之选。  \n（00:35:39）：在企业SaaS领域，尤其是在B2B SaaS领域，目前正流行一个名为“产品主导销售”的新趋势。这意味着在PLG（产品生命周期）公司中，理想的最终目标是将某些客户移交销售团队进行谈判或完成企业合同。在这种情况下，您或许更倾向于推迟数月、季度甚至数年才能获得营收，而此时增长团队应与销售团队和市场团队紧密协作，专注于用户增长才是明智之选。这就是我们经历的重大转型范例。通过这一调整，我们获得了更清晰的战略方向，工作效率也显著提升。",
+   "ts": "00:34:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is an awesome story. How long did that process take and any advice for folks that might be going through a similar journey of maybe we should rethink our north star metric not and not be revenue? Any advice there?",
+   "zh": "这真是个精彩的故事。整个过程耗时多久？对于那些可能正经历类似转变、或许需要重新思考北极星指标而非营收的人，有什么建议吗？",
+   "ts": "00:36:25"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "In general, I would say having stability in north star metric for at least six months feels like table stakes to me and that's for the reasons that I cited before, for building momentum, for building domain expertise, and also for compounding impact in areas where you see success, where you notice growth flywheels that you can optimize. However, if you're reaching a point where that north star metric feels like it's old news, maybe you're outgrowing it, maybe you want to work on different things, I think that's great. Be open-minded about changing it up. I would generally try to start with the mechanics of the business and what you think you might be able to drive in terms of metric impact with the resources you have on your growth team. That can look different for every growth team because some of them have marketing, some are more product and engineering, some are kind of a mix of both or even something different than that. (00:37:27): So, I would start with what impact do we think we could have? Where do we think the biggest opportunity is to chase? You can literally draw a funnel on a whiteboard and map it out and brainstorm together, do some analysis on the side, and when you see what opportunity feels like the most important thing to chase, try to build a north star metric that reflects the output of that work, rather than drives all of your decision-making from the beginning. A north star metric should really be a measure of what you plan to do, the strategy you plan to deliver is delivering results for the business on the other side, rather than the other way around.",
+   "zh": "总的来说，我认为至少六个月内北极星指标保持稳定对我来说是基本要求。原因在于我之前提到的三个方面：建立发展势头、深化领域专长，以及在成功领域放大影响力，从中发现可优化的增长飞轮。然而，如果你发现北极星指标已失去新鲜感，或许说明你已超越了现有框架，或许你需要转向其他方向。我认为这很棒，应该保持开放的心态去调整指标。我通常会从业务机制入手——思考在现有增长团队资源下，如何通过指标优化提升效果。这对不同团队会有所不同，有些团队侧重营销，有些则更偏向产品与工程，还有些是两者的混合体，甚至完全不同。\n\n（00:37:27）首先，我们要评估能产生多大影响？最值得追逐的机遇在哪里？你可以直接在白板上画出漏斗图，共同探讨，进行辅助分析。当某个机遇被视为最优先追逐的目标时，再制定能反馈该成果的北极星指标，而不是让指标从一开始就主导决策。北极星指标本质上应衡量你计划采取的策略对业务的成效，而非反过来。",
+   "ts": "00:36:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, you mentioned trials and freemium at one point and I want to spend a little time on this, and I know you also have some strong opinions about this kind of debate. Another debate people have, there's always debates in growth, between offering a trial or offering a freemium product, self-serve, and I think your perspective is you should do both, and I think maybe you call it a reverse trial because I was doing some research. So, I guess is that true?, Is that how you see the world, and then just generally, why do you believe that that is the right approach?",
+   "zh": "你之前提到了试用和免费增值模式，我想多聊聊这个话题。我知道你对这类讨论有强烈看法。增长领域常有争论，比如是提供试用还是免费增值产品、自助服务模式等。我猜你认为两者都要用，我还记得你把这称为反向试用模式。是这样吗？这是否就是你的观点？再说说你为何认为这是正确策略？",
+   "ts": "00:38:05"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "What is it about all these growth people with their strong opinion?",
+   "zh": "为什么这么多增长团队的人都这么固执己见？",
+   "ts": "00:38:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right?",
+   "zh": "对吧？",
+   "ts": "00:38:34"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I guess I have so many of them. You're educating me on my own perspectives today. Freemium and free trials. So, to get on the same page with definitions for all of our wonderful listeners, a free trial is when you can use the product for free for a limited time and then your only option beyond that limited time is to pay for use of the product. Freemium would be when there are multiple options for how to use the product and one of those options is an infinitely free version of the product. So, you can use Airtable for free forever or you can pay some amount and have access to premium features. (00:39:14): So, with all that in mind, personally I'm in the camp of offering a reverse trial. Funky name, but what that means is offer a trial but also offer freemium. Do both. The reason why I like this is you get an opportunity when somebody shows up and says, \"Hey, I'm going to give your product a try today,\" to show them everything that's possible. Onboarding is a huge component of that. Help somebody get started, have those aha moments and experience initial value, but also this is your moment to showcase everything that can be done with your really cool product, and you have some limited number of days, maybe seven days, 14 days, 30 days, to showcase all of the cool things that your company is building for your customers. That is the beauty of a free trial. It's not just that someone can try your product without paying. It's that they can try even more of the product, all of the premium, amazing advanced offerings that could be possible if they decide they want to settle on a premium plan. (00:40:17): When you are deciding if this is something you want to do, I would actually take a big step back from looking at competitive pricing pages and getting into the details and reading blogs and just think about what your philosophy is as a business on monetizing customers. The reason for this is generally the reason to offer a free plan or a free trial but really a free plan, the freemium type of pricing model is if you value letting millions, tens of millions of customers give your product a try, even if they never pay you a dollar. That shows to me prioritization and value of user grab, brand awareness, and exposure of your product more than just revenue. And if that's the case, a freemium pricing structure can be really great for your product, and it give you the space to see if your product can become that household name that everybody is familiar with and can give a try and get some early value and even experience some aha moments. (00:41:24): On top of that, you can offer a free trial to show what's possible with premium value and then that really can just be focused space for you to say, \"Hey, look what's possible if you pay us $5 a month, $10 a month,\" and you might even get some extra conversion out of that and some more paid customers. So, in general, that's how I think about it. I like the reverse trial because user growth is important and if you're in a long game where you're trying to grow a business for a decade or more, ideally you're trying to get millions of people onto your product and you can always have that monetization conversation later, but you only get a couple moments where you can say, \"Hey, pull out your credit card or let's get on the phone and talk about an enterprise contract,\" with a customer before you lose trust or lose patience. And so, that focus on helping them discover value and build loyalty to you is much more important.",
+   "zh": "我想我有很多这样的产品。今天你让我重新审视了自己的观点。免费试用和免费试用版。为了让我们的听众能更清楚理解，我来解释一下定义：免费试用是指用户可以在限定时间内免费使用产品，超过试用期后若想继续使用就必须付费。而免费试用版则是指产品提供多种使用方式，其中一种是永久免费版本。比如，Airtable 用户可以永久免费使用该产品，也可以付费解锁高级功能。（00:39:14）考虑到这些情况，我个人倾向于提供反向试用模式。听起来有点奇怪，但意思是同时提供免费试用和免费试用版。这样一来，当有人试用产品时，我们既能向他们展示所有可能的功能，又能通过引导帮助他们上手、体验初始价值，还能在有限的期限内（比如7天、14天、30天）向他们展示产品所有酷炫功能。这正是免费试用的魅力所在——用户不仅能免费体验产品，还能尝试更多高级功能，如果决定订阅高级版，这些功能都将解锁。（00:40:17）在决定是否采用这种模式时，我建议先从竞争对手的定价页面中抽离出来，避免陷入细节和博客解读的漩涡，而是回归到企业变现客户的核心理念。之所以如此，是因为免费试用或免费计划的核心在于：当你重视让数百万、数千万用户试用产品时，即便他们最终不付费，也能提升品牌知名度、增加用户触达量。若秉持这种理念，免费试用模式对产品发展大有裨益，能为你赢得试用机会，让产品成为家喻户晓的存在，帮助用户快速获取价值，甚至产生惊喜时刻。（00:41:24）此外，你还可以通过免费试用展示高级版本的功能优势，之后再重点推广付费套餐，可能还能提升转化率和付费用户数量。总之，这就是我的理解。反向试用模式之所以吸引我，是因为用户增长至关重要。如果你志在十年或更久经营企业，首要任务是让数百万用户使用产品，之后再谈变现。但用户只有短暂的时间窗口能接受你的提议——比如“快掏出信用卡吧”或“我们来谈谈企业级合同”，否则信任和耐心都会流失。因此，帮助用户发现产品价值、建立忠诚度比一味追逐短期收益更为重要。",
+   "ts": "00:38:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I really like this concept, a super cool name too. I'm also thinking back to some of the SaaS tools I've used that have had this where I go straight into the pro plan and then I'm like, \"Oh, I don't want to lose all these features,\" and then I actually end up buying it. So, when I'm hearing this, it sounds to me like it's a better version of the freemium approach. I imagine there's still many SaaS tools that are very enterprise-y, take handholding, maybe this goes away. I know Elena Verna who's been on the podcast is just a huge proponent of everyone will be product-led, self-serve eventually, but until that day they're still like, I don't know, I think of Retool I think is very hands-on, handhold-y, front I think is like that. There's all these tools that people don't get really quickly. (00:42:57): And so, I guess do you still think there's a need for some of these tools that need sales and customer success involvement to stick with just trial at least for now, or do you think they should all kind of find a way to get to self-serve and a reverse trial?",
+   "zh": "我真的很喜欢这个概念，名字也超酷。我回想起自己用过的那些SaaS工具，有些产品虽然号称免费试用，但实际上用户一旦进入付费计划，就会发现失去了很多功能，最后还是不得不购买。所以听你这么说，我觉得这比传统的免费增值模式要高明得多。我知道Elena Verna曾在播客中大力主张所有产品最终都将实现自助服务和免费试用，但在那之前，人们可能还需要手把手指导。比如说Retool这样的工具，用户需要亲自操作，手把手指导，界面也比较直观。这类工具确实让很多人一时半会儿难以上手。（00:42:57）那么你觉得现在是否还有必要让某些产品在试用阶段就需要销售和客户成功团队介入？还是说它们应该想办法尽快实现自助服务和反向试用呢？",
+   "ts": "00:42:13"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I do really agree with what Elena said. I really look forward to the day when self-serve and freemium are possible for every product, but I also recognize that that can be really expensive to build and implement and is not for everyone. So, that's cool too. There are other options. In general, I think freemium and also free trials tend to be most effective when there's something that the person who signed up can actually do on their own without being handheld. It doesn't have to be full functionality. It can be exploring a sandbox or a demo or something they can poke around in and experience value, see that aha moment. That's great. That's a moment where you can give value to that person who's chosen to spend time with your product. If that's not possible, there are different ways to be creative that don't require having premium pricing. You can think about how to use concepts related to PLG and related to top of funnel adoption in different ways. (00:44:16): So, maybe you can create custom landing pages or experiences that help showcase value without a full signup or free plan or free trial experience. Maybe you give folks the ability to sign up and while they've sort of signed up as an interested customer, they're not fully experiencing things, they might not even have the option to pay for something yet, but they can learn. There's some resources. There's some education for them to experience. Or, maybe you can think about top of funnel adoption or traffic as being most helpful for extension within customers you already. So, if you've signed contracts with a couple really large Fortune 500 companies and somebody wants to join and signs up on your website from the same email domain, then you can provide an experience for them that might feel like it helps them learn the mechanics that's actually only available to folks who are part of organizations that already have contracts with you. (00:45:19): It's a different way of thinking about PLG and not necessarily something you would offer for free, they're already an enterprise customer, but some of those concepts can still have a lot of value and help you grow the footprint of an account in an organization, and those are definitely awesome things to try if you can't offer something self-serve.",
+   "zh": "我确实认同Elena的观点。我期待未来每款产品都能实现自助服务和免费试用，但也明白这对开发和实施成本极高，并非所有产品都能做到。因此，灵活变通也很重要。一般来说，免费试用和免费体验最有效的前提是，用户无需手把手指导就能独立操作产品。不需要完整的功能集，用户可以探索沙盒环境、演示版本或可自由探索的体验，感受到价值，获得惊喜时刻。这时候，你就为选择与你的产品共度时间的用户创造了价值。如果做不到这一点，就需要发挥创意，不一定要采用付费定价模式。可以考虑如何以不同方式应用PLG（产品生命周期管理）理念和漏斗顶端转化策略。比如，创建定制登录页面或体验，帮助用户展示价值，无需完整注册或试用流程。用户可以注册成为感兴趣的客户，但暂时无法付费，但可以学习。还有一些资源和教育内容供他们体验。或者，可以考虑将漏斗顶端转化或流量转化作为留存现有客户的最佳手段。例如，如果你与几家大型《财富》500强公司签约后，有人想加入并通过同一邮箱域名在你的网站注册，那么你可以为他们提供专属体验，让他们了解仅适用于现有合作伙伴的功能。（00:45:19）这是对PLG的不同思考方式，不一定免费提供，但这些用户毕竟是企业客户。这些理念仍能创造巨大价值，帮助你在组织内扩展客户群体。如果无法提供自助服务，这绝对是值得尝试的绝佳方案。",
+   "ts": "00:43:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, what I'm hearing is find ways to make things some component of it self-serve so that you don't need to necessarily talk to someone immediately. They can start to understand some element of it on maybe an interactive planning page or some very simple part of the product.",
+   "zh": "听起来你是在说要想办法让某些功能实现自助服务，这样用户就不必立即与他人沟通。他们可以在互动规划页面或产品中某个非常简单的部分开始理解相关内容。",
+   "ts": "00:45:36"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Exactly. I think the key is to figure out what it would be like for someone to experience value when there's no human sitting next to them, and that value doesn't have to be full functionality of the product.",
+   "zh": "没错。我认为关键在于，要弄清楚当用户身边没有人工服务时，他们如何能感受到价值，而且这种价值不一定需要产品具备完整的功能性。",
+   "ts": "00:45:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Coming back to onboarding, and this is my last onboarding question, I have another topic I wanted to touch on. Do you have any just general pieces of advice, either probably this will work if you're working on onboarding/things that probably won't work and are common traps that people fall into when they're trying to optimize onboarding activation flows in general?",
+   "zh": "太棒了。回到入职引导环节，这是我最后一个关于入职引导的问题。我还想谈谈另一个话题。你有没有一些通用的建议？比如哪些方法比较有效，或者哪些方法不太可行，哪些是人们在优化入职激活流程时常犯的误区？",
+   "ts": "00:46:02"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I do see a very common trap that I would love to caution against, which is that employees of a company build onboarding for customers, but they build what they think customers want rather than what customers actually want, and that manifests in an onboarding experience that's not very helpful. So, there are two patterns that I typically see. One is naming features. So, imagine you're using Airtable for the first time and you see a tooltip and it says, \"This is automations,\" and it explains what automations is to you. That's not that useful for a user who doesn't really know what's going on yet because they aren't sure if automations are relevant to them, if they're suited to their use case, what exactly the word automation entails. We've named a feature, but it's really sort of an announcement of something awesome that Airtable built, rather than an application that can help educate the user on how they'll receive more value from that feature. Try not to name features. It can be very tempting in practice, even though it sounds easy in theory.",
+   "zh": "我确实注意到一个很常见的误区，得提醒大家注意。很多公司员工为客户开发入职引导功能时，往往按照自己认为用户需要的来设计，而不是根据用户实际需求。这最终导致入职体验效果不佳。我通常会看到两种模式。第一种是功能命名。比如用户第一次使用Airtable时，看到一个工具提示写着“这就是自动化”，然后解释自动化是什么。对于不了解自动化含义的用户来说，这并不实用，因为他们不确定自动化是否与自己相关，是否适合自己的使用场景，也不清楚“自动化”这个词具体指什么。我们给功能起了个名字，但这实际上只是在宣传Airtable开发的某项功能，而不是帮助用户理解如何从该功能中获得更多价值。尽量避免直接命名功能。尽管理论上听起来简单，但实际操作时往往很难抗拒这种诱惑。",
+   "ts": "00:46:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before you move on, what have you learned about how to actually name things in such a way people understand? Is there some you do there?",
+   "zh": "在继续之前，你对如何给功能起一个让用户容易理解的名字有什么心得吗？在这方面有没有什么好的做法？",
+   "ts": "00:47:32"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Ooh, naming things in a way people understand.",
+   "zh": "哦，以人们容易理解的方式来命名事物。",
+   "ts": "00:47:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Versus the feature name, like you just said.",
+   "zh": "而不是像你刚才说的那样用功能名称。",
+   "ts": "00:47:41"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "So, instead of that, I think what would be more useful, given the constraints of using a tooltip that's pushing someone to try an automation would be to explain how the automation is relevant to them, or even better, to enable a one-touch turn-on of the automation feature or set up an automation to complete your workflow where we actually do some of the work and if you click into here, we will show you what value is possible and help you get it to the finish line. So, really focusing on that contextual application or helping to drive towards an outcome, rather than just educating on a name.",
+   "zh": "所以，在使用工具提示（引导用户尝试自动化功能）这样的场景下，如果要让用户更容易理解，关键在于解释自动化功能与他们的关联性，甚至更好的是，让用户一键启用自动化功能，或者设置一个自动化流程来完成他们的工作流——在这种情况下，我们可以替用户完成部分工作，用户点击相关提示后，就能看到其中的价值所在，帮助他们顺利完成任务。因此，真正要关注的是场景应用和结果导向，而不仅仅是功能名称的解释。",
+   "ts": "00:47:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And there's an element of smart defaulting, just like starting to do it for them versus do you want this or not.",
+   "zh": "这里还涉及智能默认设置的概念，比如自动为用户启用相关功能，而不是让他们自己决定是否需要启用。",
+   "ts": "00:48:23"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Exactly. There's also an element here of segmentation or personalization where you should be sensible about if everybody needs to know what an automation is or if there are only certain folks who actually need to learn about it and others might not need to know.",
+   "zh": "没错。这里还涉及用户细分或个性化策略，需要根据实际情况判断是否所有人都需要了解自动化功能，还是只有特定用户需要学习相关知识，而其他用户可能不需要了解。",
+   "ts": "00:48:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. All right. Back to your other suggestions.",
+   "zh": "太棒了。好的，回到你提到的其他建议。",
+   "ts": "00:48:42"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Oh yes, there is one other suggestion which is if you're working on a SaaS product, especially a freemium product, there's probably some pricing and packaging scheme that explains which features are available for free, which features are not, how many you get, and sort of maps out usage of the product, both for free users if you offer a free plan, and then for premium users if you offer premium plans. I find sometimes teams working on onboarding will map onboarding to that pricing or packaging. So, for example, maybe automations, to use the same example of the same feature, is something that's generally premium, that if somebody uses automations they're more likely to be a paying customer. It can be tempting then for an onboarding team to try to push automations to people when they're getting started because of course, we'd prefer if customers use premium features because then they might be more likely to become premium customers, but that is not in the best interest of educating a user on how to get started. (00:49:44): So, I do think it's very important to be careful that you are rooted in the customer need and rooted in helping that customer achieve maximum value, rather than sitting in the priors of what your packaging scheme might suggest or what might be in the best interest of the company.",
+   "zh": "哦，对了，还有一个建议是，如果你正在开发SaaS产品，尤其是免费增值产品，可能需要设计一个定价和套餐方案，说明哪些功能是免费提供的，哪些功能需要付费，用户可获得的功能数量，并清晰划分免费用户和付费用户的使用权限。例如，如果你提供免费计划，自动化功能通常是付费选项，因为使用自动化功能的用户更有可能成为付费客户。因此，负责用户引导的团队可能会试图在用户入门阶段就推广自动化功能，毕竟我们更希望客户使用付费功能，从而提高他们成为付费用户的概率，但这并不符合帮助用户快速上手的初衷。（00:49:44）所以，我认为至关重要的是，要始终以客户需求为核心，帮助他们实现最大价值，而不是拘泥于定价方案的设想或公司利益最大化。",
+   "ts": "00:48:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As a growth leader, how do you operationalize that? Is it set some drag metrics? Is it just philosophically, let's make sure we're optimizing the right metric? What's worked to actually avoid that problem?",
+   "zh": "作为增长团队的负责人，如何将这一理念落地？是设定一些拖延指标吗？还是从理念上确保优化正确的指标？有哪些方法能有效避免这种问题？",
+   "ts": "00:50:02"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I think north star metrics help because a team can be singularly focused on the most important result for their roadmap and their charter. However, guardrail metrics are equally important. So, an onboarding team that builds amazing onboarding that causes a 10% drop in revenue would need some sort of guardrails to make sure that they knew that that might not be the right trade for the business, and importantly, should have the rigor and passion to go deep and understand what caused that drop in revenue and figure out what it was about that onboarding that ultimately caused a guardrail metric to suffer. So, with that in mind, I think guardrail metrics can be very useful and are important to choose wisely. I love working with strong analytics partners on a growth team because rigor and education around how to think about guardrail metrics is something that we should always be thinking about, whether you are a data analyst in functional specialty or a PM or an engineer or a designer. (00:51:19): So, that's how I kind of like to think about it. I do think guardrail metrics help and then just being well reasoned and thinking about what's best for the business and speaking about your work as being what's best for the business and the customer overall, rather than being too narrow in your own swim lanes of what you work on.",
+   "zh": "我认为北极星指标很有帮助，因为团队可以专注于路线图和任务书中最重要的结果。然而，护栏指标同样重要。例如，如果一个入门团队打造的用户引导体验导致收入下降10%，那么就需要设置某种护栏机制，确保他们意识到这对业务可能不是正确的权衡。更重要的是，他们应该具备严谨性和热情，深入探究收入下滑的原因，找出入门体验中导致护栏指标受损的具体因素。基于此，我认为护栏指标非常有用，选择合适的护栏指标至关重要。我喜欢与强大的分析团队合作，因为无论你是数据分析师、产品经理、工程师还是设计师，都应该始终思考如何合理使用护栏指标。（00:51:19）这就是我的思考方式。我确实认为护栏指标很有帮助，同时要理性思考，始终以业务和客户的最大利益为核心，而非局限于自己工作的领域。",
+   "ts": "00:50:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great advice. I want to shift to a different topic and this will be much shorter. You have this really cool framework for thinking about the PLG funnel, product-led growth, and interestingly kind of trickles down to the team you build, metrics you choose, and things like that. So, can you just briefly talk about just this framework that you use to think about PLG growth in the PLG funnel?",
+   "zh": "很棒的建议。我想转到另一个话题，这个会简短一些。你有一个非常棒的框架来思考PLG漏斗和产品主导增长，有趣的是，这会延伸到你组建的团队、选择的指标等各个方面。能否简要谈谈你用于思考PLG增长和PLG漏斗的这个框架？",
+   "ts": "00:51:35"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "When I think about how to grow with PLG in a business that has some element of PLG, self-server, freemium, I usually start with a funnel that roughly maps to the same scaffolding, regardless of business. Whether I've worked on the business, whether I'm supporting the business as an advisor, I love starting with this framework. The first step is join, the second is evaluate, the third is upgrade, and the fourth is expand. This funnel represents the journey of a customer in a PLG product as they advance and develop in their lifetime of using the product. It starts with becoming a part of the account that's using the product or signing up, and you might join because you found Airtable on Twitter or you might join because Lenny invited you to use Airtable. So, there are different ways that you can join that product in the first place. (00:52:55): Then importantly, you evaluate if it's right for you, and that word choice of evaluate is deliberately not onboard or activate because it's about what the user needs to see that they are going to get the value that they want in using your product and in building a habit around it. Next is upgrade. Ideally, someone has gone from beginner to intermediate or even advanced in their ongoing education and in getting to know your product over some amount of time and they see premium value and raise their hand and say, \"I will convert to it.\" Now if you offer self-serve premium plans, that's awesome. They can do it with a credit card right in the product. Sometimes this means raising their hand to talk to sales and that's great too, but they upgrade to some sort of premium experience or to more value than what they have when they got started. (00:53:43): And finally expand, and vertical says this can be nuanced but with more horizontal tools. Ideally, a few folks, maybe one, maybe a few are using a tool in an organization and then many more adopt it over time, and that expansion drives net dollar retention, it drives brand awareness, it drives more usage in more pockets of the company, it is awesome for renewal rates if you're working with enterprise contracts, and ultimately then also brings new referrals into the product that loop all the way back to the beginning at join.",
+   "zh": "每当我思考如何在具有PLG（免费增值、自助服务、免费试用）元素的业务中与PLG共同成长时，无论业务类型如何，我通常会从一个大致对应相同框架的漏斗模型入手。无论是亲自操盘该业务，还是以顾问身份支持它，我都喜欢从这个框架出发。第一步是加入，第二步是评估，第三步是升级，第四步是扩展。这个漏斗模型描绘了PLG产品用户在使用过程中不断成长与发展的历程。用户最初可能通过不同方式加入该产品：比如在Twitter上发现Airtable后注册，或者受Lenny邀请使用Airtable。因此，加入产品的初始路径存在多种可能。\n\n接下来重要的是评估产品是否适合自己。这里有意选择“evaluate”而非“onboard”或“activate”，因为用户需要明确看到在使用产品过程中能获得预期的价值，并养成使用习惯。接下来是升级阶段。理想情况下，用户在持续学习中从初级晋升至中级甚至高级阶段，发现了高级价值后主动付费。若提供自助服务式高级套餐，用户可直接在产品内用信用卡完成升级。有时用户会主动联系销售团队，这同样值得鼓励，但核心是用户从初级体验升级到更高价值的服务。\n\n最后是扩展阶段。纵向扩展需要细致处理，但横向扩展更为常见。理想情况下，少数用户（可能一人或数人）在组织内率先使用某款工具，随后更多人逐渐跟进。这种扩展能提升净收入留存率、提升品牌知名度、扩大产品在企业各部门的应用范围，若涉及企业合同还能提升续费率，最终还能为产品带来新的推荐用户，形成闭环。",
+   "ts": "00:51:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. And what's cool is upgrade and expansion kind of bake in retention. You're not going to upgrade, you're not going to expand if you're not retained. Can you talk a little bit about how you use this framework? Do you bucket? Do you have these four teams on your growth team that focus on each of these stages? Is it more of a conceptual framework? Do you come up with KPIs for each of these steps? How do you actually operationalize this concept?",
+   "zh": "我非常认同这一点。关键在于升级和扩展环节天然包含了用户留存机制。如果用户不留存，就不会升级或扩展。能否谈谈如何应用这个框架？你们是否将团队分为四个阶段，分别专注于每个阶段？这更多是概念性框架吗？是否为每个阶段制定了KPI？如何将这个概念落地？",
+   "ts": "00:54:19"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I think this framework is a step to abstract to represent exactly how you should structure your teams or to be represented with four metrics, for KPIs. However, it's a really good conceptual way of grounding your team or your organization in the mechanics of how machine that is the business you work on run. From there, it can become much easier to communicate with each other on where you see opportunity on specific pockets of the product that might be impactful. So, for example, you might be working on a strategy related to landing pages and be able to name that that's going to help drive joins in new organization, and that's a really awesome way to communicate why you might invest there versus investing in something related to onboarding that would help with evaluate. (00:55:32): So, I love this framework because it helps everyone communicate clearly and also you can derive from it more specifically what are the opportunities that are relevant to us with this framework in mind, and then revisit it over time to gut check if you feel like maybe what you're investing in now is a bit outdated and needs a refresh, or if there are other pockets of the business that need more attention that you might be able to work.",
+   "zh": "我认为这个框架是向抽象化迈进的一步，它准确地呈现了你应该如何构建团队，或者用四个关键指标来代表KPI。不过，这确实是一种很好的概念性方法，能让你的团队或组织深入理解业务运作的机制。从这里出发，在具体产品领域寻找能产生影响的机会就变得容易得多了。例如，你可能正在制定与着陆页相关的策略，这将有助于推动新用户加入组织，这是一个非常好的沟通方式，让大家明白为什么要在这方面投入资源，而非选择与新用户入职相关但可能效果不佳的策略。（00:55:32）所以，我很喜欢这个框架，因为它能帮助每个人清晰沟通，同时你可以基于这个框架，更具体地挖掘与我们相关的机遇。随着时间推移，再次审视它，判断当前的投入是否过时，或者是否有其他业务领域需要更多关注并投入资源。",
+   "ts": "00:54:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you talk a bit about how you structured the growth team potentially based on this framework and just generally how you thought about building the growth team at Airtable?",
+   "zh": "你能否谈谈如何基于这个框架构建增长团队，以及你对Airtable增长团队的整体思考？",
+   "ts": "00:55:58"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "We had what I think is a pretty relevant set of teams. If you're thinking about building out a few in your own product or organization that focuses on sort of a PLG shape of business, we had one team working on acquisition and they were really responsible for the join. So, they mapped actually really well to this funnel. One team working on activation and they mapped pretty closely to evaluate. It wasn't a full representation of what's possible in evaluate. We were pretty focused on the self-serve business and that was different than, for example, helping an enterprise customer evaluate the right offering for them, but that activation team was most closely tied to that second step in the funnel. (00:56:50): And then we had a monetization team that worked on monetization and pricing and they mapped really closely to the upgrade part of the funnel. They did touch some other things as well. So, they worked on churn prevention and downgrades. They worked on some billing related projects, but in general, they were most thematically aligned with that upgrade step of the funnel. One area that is more emerging that's interesting is expand. So, when we got started on Airtable growth, we didn't have a team dedicated to that expand piece and it became increasingly interesting to us over time as we started to notice that larger companies were using the product. This meant that there was a bigger opportunity than there had been before to really help drive expansion and get more folks using the product in those accounts. That's an area that emerged later. That's a really good example of revisiting your priors and being resilient or agile in your org structure because it wasn't something we set out to work on initially, but it became a really clear opportunity later.",
+   "zh": "我们曾组建了一套我认为相当贴切的团队结构。如果你正考虑在自己的产品或组织中组建几个团队，专注于PLG模式的业务，我们有一个团队负责用户获取，他们真正负责用户加入。这与漏斗模型对应得很好。一个团队负责用户激活，他们与用户评估环节紧密对应。不过用户评估环节并非完全对应。我们主要专注于自助式业务，这与帮助企业客户评估适合他们的产品有所不同，但那个激活团队与漏斗模型的第二步最为紧密相关。（00:56:50）然后我们有一个货币化团队，负责货币化和定价，他们与漏斗模型的升级环节对应得很紧密。他们也涉及其他方面，比如防止用户流失和降级，以及一些计费相关项目，但总体而言，他们与漏斗模型的升级环节最为契合。一个新兴且有趣的领域是扩展。Airtable增长团队刚起步时，没有专门的扩展团队，但随着时间推移，我们注意到越来越多大企业在使用我们的产品，这意味着推动扩展、让更多用户在这些账户中使用我们的产品存在更大的机会。这是一个后来才出现的领域。这是重新审视已有假设、在组织架构中保持灵活性和适应性的很好例子，因为这并非我们最初设定的目标，但后来却成为一个显而易见的机遇。",
+   "ts": "00:56:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned that Airtable is thinking a little bit more about B2B growth versus just kind of B2C where I think it's been historically. Can you talk about that and just how you're thinking about that?",
+   "zh": "你提到Airtable正更多地考虑B2B增长，而非传统的B2C模式。你能否谈谈这一转变，以及背后的思考？",
+   "ts": "00:57:53"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "B2B growth is an emerging space for growth practitioners and hobbyists like me because the playbook hasn't been written the same way that B2C growth or consumer social growth has been. It's a new space, and there are quite a few companies that are really excited about exploring B2B growth and how to apply the DNA and the mechanics of a growth organization to more of that B2B motion or to working with more upmarket customers or enterprise customers. So, it's very top of mind for me. It's a active conversation in the growth community, especially in San Francisco. Overall, I'm really excited to see what we can do by applying this approach to growing businesses, to new types of businesses. It will require some differences in execution model. So, in B2C or in consumer social as two examples, you can experiment at large volumes or you can make changes that impact thousands or millions of people pretty easily. (00:59:15): In B2B growth, generally you're working with a much smaller set of customers and also the risk profile can be very different because smaller numbers of customers that represent larger percentages of your company's total revenue must be treated with absolute care, as opposed to a world where you might have millions of folks coming through your product every day and small changes might not have as big of an impact. In an enterprise organization, it's important to be very careful and rigorous and to prioritize that customer's needs all the time. This means that rigor, that customer conversations, that beta testing, that live prototypes and demos are significantly more important and that face time with the customer is significantly more important than it is in B2C growth. So, we'll see what happens. I'm really excited to see more folks who have given growth a try in B2C or in consumer spaces try applying it to B2B because it will become increasingly common in the industry.",
+   "zh": "B2B增长领域对于像我这样的增长从业者和爱好者而言是一个新兴的机遇，因为其增长策略与B2C或消费者社交领域的增长路径截然不同。这是一个全新的领域，许多公司正热衷于探索B2B增长策略，以及如何将增长型组织的基因与方法论应用于B2B业务，或服务于高端客户群体或企业客户。因此，这个领域令我深感兴奋。它在增长社区中引发了热烈讨论，尤其是在旧金山。总的来说，我非常期待通过这种方法来助力企业发展新业务模式。这将需要调整执行模式。以B2C或消费者社交领域为例，你可以进行大规模实验，或轻松实施影响数千乃至数百万用户的变革。但在B2B增长中，客户群体规模通常较小，风险也更高——代表公司总收入的少数关键客户必须得到格外谨慎的对待。这与日均数百万用户访问量、微小变革就能产生巨大影响的B2C增长环境截然不同。在企业组织中，必须始终以客户需求为核心，高度重视客户对话、测试、实机演示等环节。这意味着，与B2C增长相比，面对面沟通客户的时间显得尤为重要。让我们拭目以待。我期待看到更多在B2C或消费者领域尝试过增长策略的人们将其应用于B2B领域，因为这种趋势在行业内将日益普及。",
+   "ts": "00:58:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, with that, we have reached our very exciting lightning round. I've got six questions for you. I'll go through it pretty fast. Are you ready?",
+   "zh": "好的，接下来是激动人心的闪电问答环节。我准备了六个问题，大家要快速回答。准备好了吗？",
+   "ts": "01:00:19"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I'm ready.",
+   "zh": "我准备好了。",
+   "ts": "01:00:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. First question, what are two or three books that you recommend most to other people?",
+   "zh": "好的。第一个问题，请推荐两三本你最常向他人推荐的书？",
+   "ts": "01:00:28"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Ride of a Lifetime by Bob Iger. I give this to new reports on my team. Great book to read when you're thinking about your leadership style, and Rocket Men, really fun story. I love a good story about ambition and achieving awesome things.",
+   "zh": "《一生的旅程》（Ride of a Lifetime），作者鲍勃·艾格。我会把这本书推荐给团队的新员工。当你思考领导风格时，读这本书很棒。还有《火箭人》（Rocket Men），非常有趣的故事。我喜欢讲述雄心壮志和成就非凡事迹的好故事。",
+   "ts": "01:00:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's a favorite other podcast, other than the one you're currently on?",
+   "zh": "除了你现在参与的这个播客，还有其他你喜欢的播客吗？",
+   "ts": "01:00:50"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I like Fifth & Mission which is a local San Francisco podcast on local politics.",
+   "zh": "我喜欢《第五与米慎街》（Fifth & Mission），这是旧金山本地的政治播客。",
+   "ts": "01:00:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Favorite recent movie or TV show that you have watched that you've really enjoyed?",
+   "zh": "最近你看过最喜欢的电影或电视剧是什么？",
+   "ts": "01:01:01"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I really like the White Lotus Season 2. White Lotus was very fun to watch. I also, on the movie front, I'm in a habit of watching Best Picture nominees every year and last year there were a couple movies I really enjoyed, one of them was Belfast.",
+   "zh": "我很喜欢《白莲花度假村》（The White Lotus）第二季。这部剧很有趣。电影方面，我每年都会看奥斯卡最佳影片提名片，去年有几部我很喜欢，其中之一是《贝尔法斯特》（Belfast）。",
+   "ts": "01:01:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man, that was an intense movie. I watched that recently. And also, if we should turn this into a drinking game, every time someone mentions White Lotus, we drink. It's an amazing show, but it's definitely comes up often. So interesting.",
+   "zh": "天哪，那部电影太震撼了。我最近刚看过。还有，如果我们把这变成一个喝酒游戏，每次有人提到《白莲花度假村》，我们就喝一杯。这部剧太棒了，但确实经常被提起。太有趣了。",
+   "ts": "01:01:22"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Comes up too much.",
+   "zh": "出现得太多了。",
+   "ts": "01:01:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It deserves to come up often. I love it.",
+   "zh": "它应该经常出现。我喜欢它。",
+   "ts": "01:01:37"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "That's true.",
+   "zh": "确实如此。",
+   "ts": "01:01:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's great, but that'd be okay. We're going to do a drinking game from now on and I'll have a shot here. Love White Lotus. Favorite interview question that you like to ask people?",
+   "zh": "这很棒，但也可以接受。我们从现在开始玩喝酒游戏，我先来一杯。喜欢White Lotus。最喜欢问别人的面试问题是什么？",
+   "ts": "01:01:41"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Tell me about a time that you delivered something that was impactful.",
+   "zh": "跟我讲讲你曾交付过有影响力的成果的那次经历。",
+   "ts": "01:01:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What do you look for in an answer when you ask that question? What's your kind of a good sign and what's maybe a bad sign?",
+   "zh": "当你问这个问题时，会关注什么样的答案？什么样的回答是好的迹象，什么样的可能是坏迹象？",
+   "ts": "01:01:58"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I'm looking for someone to help me understand how they define impact and what it means to them. I think a good answer for growth practitioner is intrinsic motivation about having an impact on the business.",
+   "zh": "我希望有人能帮我理解他们如何定义影响力，以及它对他们的意义。我认为对于增长从业者来说，一个好的答案应该是对业务产生影响的内在动力。",
+   "ts": "01:02:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hear, hear. What are five SaaS products that you use day to day, and you can't say Airtable?",
+   "zh": "说得好。我想知道你日常使用的五个SaaS产品，不能说Airtable？",
+   "ts": "01:02:19"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "Figma, Miro, Slack, Gmail, and my fifth one, I need to think about it.",
+   "zh": "Figma、Miro、Slack、Gmail，第五个我得想想。",
+   "ts": "01:02:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's because I cut out Airtable. I got you.",
+   "zh": "因为我把Airtable淘汰了。懂了。",
+   "ts": "01:02:36"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "I know, I always say Airtable. Airtable's definitely number five.",
+   "zh": "我知道，我老是说Airtable。Airtable肯定是第五名。",
+   "ts": "01:02:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Probably number one. Okay, final question. Speaking of Airtable, what's the coolest use of Airtable you've seen?",
+   "zh": "好的。可能第一名。最后一个问题。说到Airtable，你见过最酷的Airtable用法是什么？",
+   "ts": "01:02:42"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "There was a great embedded view, which is the internal term for when you put Airtable on your website in an embedded way so people can check out cool stuff, related to finding COVID vaccine when they came out, which was really awesome. I also appreciated that a similar use of Airtable has become quite popular this year in support of facilitating folks who've been laid off to help them find new opportunities.",
+   "zh": "有一个很棒的嵌入视图，这是个内部术语，指把Airtable以嵌入方式放到你的网站上，让人们能查看酷炫内容。比如在新冠疫苗问世时，找到疫苗的相关信息，这真的很棒。我还很欣赏今年Airtable的一个类似用法变得非常流行，用来帮助被裁员的人找到新机会。",
+   "ts": "01:02:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Lauryn, this was amazing. I learned a ton. We got through everything I was hoping to get through which I did not expect. Two final questions, where can folks find you online if they want to reach out and learn more and to reach out to you, and then two, how can listeners be useful to you?",
+   "zh": "Lauryn，太棒了。我学到了很多。我们完成了所有我希望完成的内容，真是出乎意料。最后两个问题，听众们如果想了解更多信息、联系你或者提问，可以在哪里找到你？然后第二个问题，听众们如何能对你有所帮助？",
+   "ts": "01:03:15"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "You all can find me on Twitter. I'm @laurynisford. I love hearing about how folks with all different kinds of cool products are thinking about growth. In general, I find all of us are better at growing businesses when we study the awesome wins and learnings of others. So, please, my DMs are open. Send me cool things you're working on. I'd love to learn about it.",
+   "zh": "大家可以在Twitter上找到我，我是@laurynisford。我喜欢听大家讲如何用各种酷炫的产品来思考增长。总的来说，我发现当我们研究别人的精彩成功案例和经验时，我们都能更好地促进业务增长。所以，请随时给我发私信。把你正在做的好东西分享给我。我很乐意了解。",
+   "ts": "01:03:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Lauryn, thank you. Let's go drive some growth.",
+   "zh": "太棒了。Lauryn，谢谢你。我们去推动一些增长吧。",
+   "ts": "01:03:51"
+  },
+  {
+   "speaker": "Lauryn Isford",
+   "en": "All right.",
+   "zh": "好的。",
+   "ts": "01:03:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢收听。如果你觉得这期节目有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅。另外，请考虑给我们评分或留下评论，这对其他听众找到播客很有帮助。你可以在lennyspodcast.com上找到所有往期节目或了解更多信息。下一期节目见。",
+   "ts": "01:03:57"
+  }
+ ]
+}

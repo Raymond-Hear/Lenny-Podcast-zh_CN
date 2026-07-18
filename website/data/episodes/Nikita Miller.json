@@ -1,0 +1,1145 @@
+{
+ "id": "Nikita Miller",
+ "name": "Nikita Miller",
+ "category": "企业管理",
+ "identity": "产品",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Nikita+Miller",
+ "bio": {
+  "en": "Nikita Miller is SVP of Product at The Knot Worldwide who previously led growth and retention at Trello for over five years and served as VP of Product at Dooly, and is also an angel investor and advisor.",
+  "zh": "Nikita Miller 是 The Knot Worldwide 的产品高级副总裁，此前曾在 Trello 担任增长与留存负责人逾五年，并在 Dooly 担任产品副总裁，同时也是一位天使投资人与顾问。"
+ },
+ "summary": {
+  "en": "Nikita discusses how to drive alignment and urgency within product teams, arguing against the myth of perfect work-life balance in favor of intentionally optimizing for what matters most at each stage. She covers the shifting structure of product teams - the rise of shared-accountability models like the Triad and the declining role of Scrum Masters - and why explicitly defining roles and responsibilities is a catalyst for velocity. The episode also explores empathy, distributed and remote teamwork, and building celebration into products.",
+  "zh": "Nikita 探讨了如何在产品团队内部推动对齐与紧迫感，主张放弃“完美工作生活平衡”的迷思，转而针对每个阶段最重要的事进行有意识的最优配置。她讲到了产品团队结构的演变——如“三人组（Triad）”式共同担责模式的兴起，以及 Scrum Master 角色的弱化——并解释了为什么明确定义角色与职责是提升团队速度的催化剂。本期还涉及同理心、分布式与远程协作，以及在产品中刻意营造“庆祝感”。"
+ },
+ "turns": [
+  {
+   "speaker": "Nikita Miller",
+   "ts": "00:00",
+   "en": "And many of the companies that I've either worked with or advised, coached over the past few years, it was all about outcomes. Everyone was, \"Outcomes, outcomes, outcomes,\" which is right. You want to make sure you're doing the right thing with the right goal, and that's fine. And some folks, myself included at certain points, swung way too far on the outcomes train and forgot that output is an indicator of that. So if you have a team that's doing all of the ideation and figuring out how to make decisions quickly and getting the right documentation and setting up the right product briefs and design briefs and experiment briefs, all the things that we know go into to successful product development, that's great, but if you're also not shipping a lot of things to market quickly enough, then it just doesn't matter that much.",
+   "zh": "过去几年里，我合作过或为之提供咨询、指导的许多公司，都把重心放在结果上。每个人都在强调“结果，结果，结果”，这没错。毕竟，你得确保朝着正确的目标采取正确的行动，这本无可厚非。但有些人，包括我自己在某些阶段，都过度关注结果，反而忽视了产出才是衡量成果的指标。  \n\n比如，团队成员负责所有创意构思、快速决策、完善文档、制定产品规划、设计方案和实验方案等环节，这些都是成功产品开发的关键步骤。这些工作做得再出色，如果产品最终无法快速推向市场，那这一切努力就都失去了意义。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "00:52",
+   "en": "Welcome to Lenny's Podcast, where I interview world-class product leaders and growth experts to learn from their hard one experiences building and growing today's most successful products. Today my guest is Nikita Miller. A huge thank you to Camille Ricketts for recommending Nikita and for connecting us. Nikita is senior vice president and head of product at The Knot Worldwide. Before that, she was VP of product at Dooly, and before that she was head of growth and retention at Trello for over five years. In our conversation, we dig into how product managers and people getting married are similar, a bunch of advice on getting into product management, a really cool framework for how to align roles and responsibilities within your cross-functional teams, a bunch of advice for working effectively as a remote and distributed team, and the one question that Nikita asks constantly to get the most out of her teams. Nikita is amazing and I am excited for you to learn from her. With that, I bring you Nikita Miller after a short word from our sponsors. (01:51): This episode is brought to you by wealth fronts. Anyone paying attention to the stock market over the past few years knows it's been a wild ride. Many people who made risky stock bets during the bull market are now facing big losses and wondering how to make better informed investments going forward. That's why I'm excited to tell you about Wealthfront's new stock investing product, which is specifically designed to help you make better stock investments. It has all the features you'd expect, including fractional share, zero commissions and $1 minimum. But what sets it apart is a unique feature called Stock Collections. These are groups of stocks created by Wealthfront's investment team that are designed around unique investment opportunities. You can think of Wealthfront Stock Collections like Spotify Discovery Playlists, but instead of helping you find new songs, they help you discover new companies and themes to invest in. (02:38): For example, some popular collections right now are dividend to blue chip stocks, semiconductor leaders, and rising interest rates, and each collection includes a summary of the opportunity and trade-offs to help you make more intelligent investing decisions. To start investing with just $1, visit wealthfront.com/lenny. And note, I'm a Wealthfront client and they arranged for me to share this product with you. Important disclosures and details can be found in the show notes. Are you hiring, or on the flip side, are you looking for a new opportunity? Well, either way, check out lennysjobs.com/talent. If you're a hiring manager, you can sign up and get access to hundreds of hand curated people who are open to new opportunities. (03:21): Thousands of people apply to join this collective, and I personally review and accept just about 10% of them. You won't find a better place to hire product managers and growth leaders. Join almost 100 other companies who are actively hiring through this collective. And if you're looking around for a new opportunity, actively or passively, join the collective. It's free, you can be anonymous and you can even hide yourself from specific companies. You can also leave anytime and you'll only hear from companies that you want to hear from. Check out lennysjobs.com/talent. Nikita, welcome to the podcast.",
+   "zh": "欢迎来到Lenny的播客节目，在这里，我会采访世界级的产品领袖和增长专家，从他们在打造和发展当今最成功产品的过程中积累的宝贵经验中汲取真知。今天的嘉宾是Nikita Miller。特别感谢Camille Ricketts推荐Nikita并促成这次合作。Nikita现任The Knot Worldwide的资深副总裁兼产品负责人，此前她曾担任Dooly的副总裁产品经理，并在Trello担任了五年多的增长与留存负责人。我们的对话深入探讨了产品经理与新婚人士的共通之处、如何进入产品管理领域的实用建议、跨职能团队中角色与职责协同的创新框架、远程分布式团队高效协作的实用技巧，以及Nikita为充分激发团队潜能而反复追问的关键问题。Nikita才华横溢，期待您能从她身上收获宝贵见解。接下来，在赞助商致辞后，让我们迎来Nikita Miller的精彩访谈。（01:51）：本期节目由Wealthfront赞助。过去几年关注股市的人都知道，市场波动剧烈。许多在牛市中冒险投资的人如今面临巨额亏损，正焦急寻找未来更明智的投资策略。正因如此，我很高兴为大家介绍Wealthfront全新的股票投资产品。该产品专为帮助用户进行更明智的股票投资而设计，具备分股购买、零佣金、1美元最低投资等核心功能。但其独特之处在于“股票收藏”功能——由Wealthfront投资团队围绕特定投资机遇精心打造的股票组合。您可以将其视为Spotify的发现歌单，但这些组合并非推荐新歌，而是助您发现值得投资的新公司与新主题。例如，当前热门的股票收藏包括股息蓝筹股、半导体领军股和加息预期股，每个组合都附有投资机会与权衡利弊的详细解析，助您制定更明智的投资决策。只需1美元即可开始投资，访问weathfront.com/lenny即可。注：我本人是Wealthfront客户，他们特意安排我向大家推荐这款产品。更多信息请查看节目注释。  \n\n您是否正在招聘人才，或反之在寻求新机遇？无论哪种情况，都欢迎访问l越来越多的求职者申请加入这个人才库，而我个人会亲自筛选并接纳其中约10%的优质候选人。您将在这里找到招聘产品经理和增长领导者的绝佳平台。目前已有近100家公司加入这个活跃的社区。\n通过这个人才库招聘人才。如果你正在积极或被动地寻找新的工作机会，欢迎加入这个人才库。它是免费的，你可以保持匿名，甚至可以对特定公司隐身。你也可以随时退出，只会收到你感兴趣的公司的消息。欢迎访问 lennysjobs.com/talent 了解详情。尼基塔，欢迎做客我们的播客。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "03:59",
+   "en": "Hey, Lenny. Thank you. I'm excited to be here.",
+   "zh": "嘿，伦尼。谢谢你。我很高兴能来这里。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "04:02",
+   "en": "I'm excited to have you. So I don't know if you know this, but I'm actually having a kid in a couple months and I've been doing a lot of reading, as you do when you're going to be a parent. And I was reading a lot of stuff on The Bump, which turns out I realized was something that it was in your umbrella of products.",
+   "zh": "我很高兴你能来。我不知道你是否知道，我实际上几个月后就要生孩子了，所以像准父母一样，我最近读了很多相关资料。我在The Bump上查阅了很多信息，后来发现它属于你们旗下的产品系列。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "04:15",
+   "en": "It a part of The Knot Worldwide. Yeah.",
+   "zh": "它是The Knot Worldwide的一部分。是的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "04:17",
+   "en": "And then I realized y'all have that for pregnancy, you have a site to help you with proposals, you have a site for obviously wedding planning and vendors and just party planning in general. And so is the general strategy to be there for every adulting milestone in life? Is that the plan?",
+   "zh": "然后我意识到，你们不仅有孕产相关的服务，还有求婚建议网站，显然还有婚礼策划、供应商以及派对策划等板块。你们的总体策略是不是要覆盖人生中每一个重要的成长里程碑？是这样吗？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "04:34",
+   "en": "Yes. That's a nice way of putting it. We talk about it as being there for the big celebrations in life. We have these celebratory moments that mark adulthood, and so to be part of that journey, we primarily focus in the wedding space but yes, across the whole journey.",
+   "zh": "是的。这说法挺贴切的。我们把这视为参与人生重大庆典的平台。这些庆典标志着成年人生活的转变，所以我们主要专注于婚礼领域，但实际上涵盖整个人生历程。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "04:52",
+   "en": "It feels like the two pieces you're missing are divorce and funerals. Is that the plan or do you want to stick to happy things?",
+   "zh": "感觉你们缺失的两个环节是离婚和葬礼。这是你们的规划吗？还是说你们只想专注于快乐的事？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "05:00",
+   "en": "I think we're sticking to celebrations. I think we're leaning on the world needs a lot more celebration right now, so helping folks do that.",
+   "zh": "我认为我们会坚持聚焦庆典。我们认为当下世界需要更多欢庆，所以帮助人们实现这一目标。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "05:07",
+   "en": "You're here. Okay, cool. It's a really smart strategy. It makes a lot of sense, once you get someone with their wedding and then they expand from there.",
+   "zh": "你来这里了。好的，很棒。这真是个聪明的策略。一旦有人用了你们的婚礼服务，然后再从那里扩展业务，确实很有意义。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "05:15",
+   "en": "And their friends too.",
+   "zh": "还有他们的朋友们。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "05:18",
+   "en": "Interesting, right, because they register on The Knot and they'll know what's going on there.",
+   "zh": "很有意思，对吧，因为他们在The Knot上注册后，就能了解那里的动态。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "05:22",
+   "en": "That's right. You register.",
+   "zh": "没错。你需要注册。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "05:24",
+   "en": "Genius. So we're going to talk about some of the things you've learned along your time there, but I wanted to start with your previous gig at Atlassian and specifically leading growth and retention at Trello. Many people listening to this podcast either use Trello and love Trello or are thinking about using Trello, and so I thought it'd be interesting to hear just who do you find Trello is the most ideal for? When is it good and smart to go with Trello versus Jira or Linear or Asana or something like that?",
+   "zh": "太聪明了。所以我们要聊聊你在那里工作期间学到的一些东西，但我想先从你之前在Atlassian的职位说起，尤其是你在Trello负责增长和留存的工作。很多听这个播客的人要么在用Trello并喜欢它，要么正考虑使用它，所以我觉得听听Trello最适合哪些用户会很有意思。什么时候该选Trello而不是Jira、Linear或Asana之类的工具比较明智？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "05:53",
+   "en": "A few things. So I think Trello initially started out as being the task management or planning tool for anyone as opposed to the others you just mentioned, which tend to be in software in our industry, and that's who we're geared towards. Trello when it first started was very much on being simplicity of design, being easy to use, tactile, easy to onboard. You don't need customization, you can use it in single-player mode or multi-player mode. And so that meant that at the beginning, we got a lot of people using the product that were small businesses, that were families, that were people planning their weddings potentially. (06:32): And then over time, as our users became more sophisticated or had more problems to solve, that's how I think we evolved and grew with them. So some of it's around this concept of progressive disclosure where you start with a small problem and as it gets more sophisticated, Trello grows with you, whereas I think some of the other products, they start with complexity and if you want something simpler, you kind of have to pull things away or tease things apart. And that was definitely something that helps Trello stand out. I think now, many years later, you'll find that Trello is very fully featured and fully powered and they now lean into that a lot more, but that wasn't always the case.",
+   "zh": "以下是您提供的英文文本的中文翻译：\n\n 还有几点需要说明。我认为 Trello 最初是为所有人设计的任务管理或规划工具，不像您刚才提到的其他产品，后者主要面向我们行业中的软件开发者，而 Trello 的定位则更为广泛。Trello 刚推出时非常注重设计的简洁性，易于使用，直观易上手，无需定制化设置，支持单人模式和多人协作模式。因此，最初有很多小企业、家庭用户，甚至筹备婚礼的人都在使用这款产品。（06:32）随着用户需求的日益复杂化，我们也随之发展和迭代。Trello 采用了渐进式信息披露的理念——从解决小问题入手，再随着用户需求的增长而逐步扩展功能。相比之下，其他产品往往从复杂入手，如果想简化功能，就需要删减或拆分模块。这正是 Trello 脱颖而出的关键所在。如今，经过多年发展，你会发现 Trello 功能齐全、性能强大，公司也更加重视这一优势，但早期并非如此。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:14",
+   "en": "So it sounds like Trello broadly was meant for a lot more than just software teams building product?",
+   "zh": "所以听起来 Trello 最初的定位远不止是为软件团队开发产品？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "07:18",
+   "en": "Yes. It started off I think being inspired by software teams and wanting to understand how to move and manage tasks easily. That was the origin story, but then very quickly became the kind of tool that anyone could use to manage anything. And now I think we're back more the product is way more towards the software development and that's a lot more of the competitive advantage, but I think the people that are excited about Trello and the ones that made Trello really impactful weren't necessarily software.",
+   "zh": "是的。最初的灵感来自软件团队，旨在帮助他们轻松管理任务。这是它的起源故事，但很快它就发展成为一种任何人都能用来管理各种事务的工具。如今，Trello 又回归到更贴近软件开发的领域，这也是其核心竞争优势所在。不过，真正让 Trello 广受欢迎、产生重大影响的用户未必都是软件从业者。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:50",
+   "en": "Got it. When you think back to your time helping grow and retain folks on Trello, is there a big win or something you're really proud of that you think back to that was a huge success in that time to help Trello grow more or be more successful?",
+   "zh": "明白了。回顾您在 Trello 的成长和用户留存阶段，有没有什么重大成功或值得骄傲的时刻，让您觉得对 Trello 的发展起到了关键作用？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "08:07",
+   "en": "That's probably not what you'd guess. So when I started Trello, I actually joined to build out Trello's enterprise business. And so a lot of our growth and retention was actually about how to get more teams into the product and then spreading it throughout the org, so not only software teams but sales teams or marketing teams. And so the big push there was around collaboration. How do you create a shared perspective for everyone working on a project, not just a software team? (08:38): So we had a good time thinking through what's the customer experience, but obviously in the context of enterprise, which for Trello at the time was really tricky because it's such a customer first product, I think shifting our mindset to understand enterprise and teams specifically as a cohort was very different. And I think we've done a pretty good job of that or the team did a good job of that, and I think being a part now of the Atlassian suite definitely leaned into that even more.",
+   "zh": "这可能不是你所预料的。所以当我创立Trello时，我加入的初衷是为Trello的企业业务部门助力。我们早期在用户增长和用户留存方面的核心挑战，是如何让更多团队接入产品，并将其在整个组织内推广——不仅是软件团队，还包括销售团队和市场团队。因此，我们当时重点关注的是协作问题。如何为参与项目的每个人（不只是软件团队）创建一个共享视角？（08:38）  \n我们花了不少时间思考客户体验，但在企业环境下这显然是个挑战——当时的Trello作为以客户为先的产品，要转向理解企业和团队这个特定用户群体，思路转变非常大。不过我认为我们（或者说团队）在这方面做得不错，而如今Trello成为Atlassian套件的一部分，更是强化了这一点。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "09:09",
+   "en": "Was there a specific feature that unlocked a lot of opportunity or is it just broadly, there's a bunch of little things you have to add?",
+   "zh": "是否有某个特定功能为Trello带来了巨大机遇，还是说只是通过大量微调实现的？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "09:15",
+   "en": "I think it was broadly a bunch of little things. So all the enterprise features that you can imagine that all products need to operate at the enterprise level, smaller features around labels like how do you color them? How do you name them, when do they appear? When you invite people, do you invite individuals or do you invite teams? So a lot of the work was around going from single player or two, three player mode to 5, 10, 20 people.",
+   "zh": "我认为是后者——通过大量微调实现的。比如所有企业级功能，任何产品在企业环境下都需要具备这些功能；还有一些细节，比如标签的颜色和命名方式、标签何时出现、邀请成员时是邀请个人还是团队等。很多工作都是从单人或两人模式转向5人、10人、20人协作模式。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "09:41",
+   "en": "Got it. Coming back to the question of Trello versus Jira, because I think this might be interesting to people. Just if you're trying to decide should we use Trello or should we use Jira, what's a simple way to think about which way to go as a founder maybe or as a product team?",
+   "zh": "明白了。回到Trello与Jira的对比问题，因为我觉得这对人们来说可能很有趣。如果你作为创始人或产品团队在决定是用Trello还是Jira时，作为创始人或产品团队，有什么简单的方法来思考该如何选择？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "09:55",
+   "en": "I think that smaller teams, especially folks that are ideating, when you haven't landed on what you're going to build yet, I think Trello's a great product for that. For pulling ideas, for prioritizing them, for tracking how we're progressing through discovery, I think Trello's really great for that. For things that have been decided and are ready to go and are really in the breakdown these tasks and assign it to people, then something like Jira is probably a better use case, but I'm sure there people that'll disagree with that.",
+   "zh": "我认为对于小型团队，尤其是还在构思阶段的团队，当你还没有确定要开发什么产品时，Trello是个很棒的选择。用于收集创意、优先排序、追踪探索进展，Trello在这方面表现出色。而对于已经确定的产品，需要分解任务并分配给成员，那种情况下Jira可能更合适，但我相信肯定有人不同意这种观点。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "10:29",
+   "en": "Cool. Building for PMs is what you were doing while you were working in Trello. I imagine that's kind of a bittersweet experience. I imagine in some sense they're an amazing market to sell to, on the other they're probably really annoying. What's a surprise maybe or a lesson about working on building products for product managers?",
+   "zh": "不错。你在Trello工作期间就是为产品经理开发产品。我想这应该是一段苦乐参半的经历。一方面，他们是极好的销售对象；另一方面，他们可能也很烦人。对于为产品经理开发产品，有什么意外收获或经验教训吗？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "10:46",
+   "en": "I think you're right, it is a bitter sweet place to be. I think I less thought of it as building for product managers and just thought about it in the context of productivity overall. And productivity software in itself is really what's bittersweet because there are a lot of trade-offs and when you're dealing with a software team, for instance, how you measure productivity or define it for a PM or a designer or engineer and a data scientist is probably really different. And so the impossibility of solving for all of those use cases I think is always what's challenging, and we know that no one product is actually going to solve all of those use cases, no matter what the marketing taglines are out there. (11:29): And so it was really challenging to figure out what are the core things that a product manager might need to see or a designer or a developer, and how do you make sure that that core is there? So you get the 80% and then you spend time on the 20% that you know a very small segment of users are going to use, but they're probably your core, so maybe you spend some time there. But the answer is no one's going to be happy, and with Trello in particular it was challenging because for a while we built a product that was easy to use for everyone, and so then trying to really narrow in on well, what is a software development use case and what do we really need for that? And that might be very different from what a mom-and-pop shop is going to need or someone planning their wedding is going to need.",
+   "zh": "我觉得你说得对，这里的情况真是喜忧参半。我原本没怎么把它看作是为产品经理打造的工具，只是从整体生产力角度去考虑的。而生产力软件本身确实令人矛盾，因为存在诸多权衡取舍。比如，当你面对一个软件团队时，如何衡量生产力标准？对于产品经理、设计师、工程师和数据科学家而言，生产力的定义可能大相径庭。因此，要同时满足所有这些场景的需求实在太难了，而且我们知道，没有一款产品能真正满足所有使用场景，无论营销口号如何天花乱坠。（11:29）要想弄清楚产品经理、设计师或开发者真正需要看到的核心功能，并确保这些核心功能到位，这实在是个挑战。也就是说，先满足80%的基础需求，再花时间处理那20%可能只有极少数用户会用到的功能，但这些功能或许才是核心用户群体所需的，或许值得投入精力。但最终结果往往是两边不讨好。就Trello而言，挑战尤其明显。我们曾打造一款人人都能轻松上手的产品，后来却不得不缩小范围，专注于软件开发场景的需求。这与夫妻小店或婚礼策划者的需求可能截然不同。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "12:15",
+   "en": "That's a good segue to something else I wanted to ask about. You used to build for product managers and now you build for people getting married. I'm curious what is similar about those two groups and what's maybe most different?",
+   "zh": "这正好引出我想问的另一个问题：你之前为产品经理开发产品，现在却为筹备婚礼的人服务。我很好奇这两个群体有哪些相似之处，又有哪些显著差异？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "12:26",
+   "en": "A lot of similarity. So folks planning their weddings, think of it as an emotional, high stakes thing that you're hopefully going to do once, and so the pressure is really there. The pressure and expectations are really high, not unlike product managers or other folks in software, and ultimately wedding planning is this huge project where you have a bunch of stakeholders, friends, family. You need to manage multiple vendors, and the time horizon for a wedding once you're engaged is anywhere from 12 to 18 months, so it is a longtime project. I think there's a lot of similarities there. (13:06): Some of the things that are a little bit different in terms of how we're building the product is the amount of decisions probably that need that go into wedding planning are far more than you'd imagine. So one of the reasons being at the Knot is so interesting is we go all the way from planning tools, so actively, how do you help people find inspiration and plan their wedding day-to-day to two-sided marketplace. We have our e-commerce business that's supposed to be registry and paper and obviously our affiliate businesses and the ads businesses, so it's a little bit different from a SaaS productivity tool, the business that we're in, but a lot of the problems that we're solving for users are actually really simpler.",
+   "zh": "确实有很多相似之处。那些筹备婚礼的人应该把这看作是一件充满情感、承载着巨大期望的事情——希望一生只办一次婚礼，因此压力确实很大。压力和期望值都极高，这与产品经理或其他软件从业者的情况如出一辙。婚礼策划是一个大型项目，涉及众多利益相关者——亲友好友，你需要协调多个供应商，而从订婚到婚礼的筹备周期通常长达12到18个月，因此这确实是一个长期工程。我认为两者有很多相似之处。\n\n（13:06）：在产品开发方面，婚礼策划所需的决策量远超人们想象。这也是为什么在The Knot工作的体验很有趣的原因——我们的业务涵盖了从策划工具（帮助人们寻找灵感、日常规划婚礼）到双边市场（电子商务业务、婚礼礼品登记、纸品销售）等各个环节。这与我们所从事的SaaS生产力工具业务有所不同，但我们为用户解决的问题其实更简单。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "13:48",
+   "en": "Which one's more, I don't know, stress inducing.",
+   "zh": "哪个更让人倍感压力，我不知道。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "13:51",
+   "en": "That's a great question. I think that couples, it's such an emotional thing for people, for individuals and their families and their friends, so I personally feel like I empathize with that in a way that I don't do the same for product even though I'm a product manager, because there are many projects and there're always things that we need to manage and that's just part of the gig. Whereas planning your wedding, for couples this is for many the most meaningful time of their lives, and everyone does this differently. So we have folks that are planning their multi-hundred person weddings and then there are 10, 15 closest friends weddings, but the emotional side of it is the same and you don't want to let them down because most aren't going to do it again.",
+   "zh": "这是个很好的问题。对于情侣来说，这是一件充满情感的事情，对他们自己、家人和朋友来说都是如此。所以我个人对此深有共鸣，虽然我是一名产品经理，但我对产品的压力感远不及筹备婚礼的压力。毕竟产品开发中有很多项目，总是有各种事情需要处理，这只是工作的一部分。而对于筹备婚礼的情侣们来说，对于许多人来说，这是人生中最重要的时刻，每个人又都有不同的筹备方式。有些人策划数百人的盛大婚礼，而有些人则邀请10、15个最亲密的朋友，但情感层面的压力是一样的，因为大多数人一生只办一次婚礼，不容有失。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:38",
+   "en": "Yeah, okay. That's what I would've guessed. It feels like wedding couples are more stressed. I just had an idea. I imagine you think about this. We're doing a baby shower right now and it feels like you're missing a opportunity to do the baby shower invite platform.",
+   "zh": "是的，没错。我也这么想。婚礼筹备的人压力更大。我突然有个想法，不知道你有没有考虑过。我们现在正在筹备宝宝派对，我觉得你们错过了开发宝宝派对邀请平台的机会。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "14:51",
+   "en": "Yes, we've thought about it.",
+   "zh": "是的，我们考虑过这个问题。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:54",
+   "en": "And also registry, a registry platform.",
+   "zh": "还有注册系统，注册平台。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "14:56",
+   "en": "Yes, also that.",
+   "zh": "是的，还有那个。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:59",
+   "en": "Okay, okay. So many opportunities.",
+   "zh": "好的，好的。机会真是太多了。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "15:00",
+   "en": "All the life moments.",
+   "zh": "人生的每个重要时刻。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:01",
+   "en": "Oh my God. One last question about Trello. Do you have any just tips for someone using Trello and may not be aware of something they could do with Trello?",
+   "zh": "天哪。最后一个关于Trello的问题。对于使用Trello但可能不知道如何充分利用它的人，你有什么建议吗？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "15:09",
+   "en": "I think the biggest that people probably know about but are often underutilized are Power-Ups, which is basically our integrations. And Power-ups are folks that are usually doing things that are more complex, often. But Trello, when you think about it with other products like Asana, as you mentioned, Linear, some of what people are worried about is that it's just not powerful enough, and Power-Ups are a way to do that. And there are dozens and hundreds of integrations that you can use it for. So that's worth checking out.",
+   "zh": "我认为人们可能知道但常被忽视的最重要功能是Power-Ups，也就是我们的集成功能。通常，人们会把Power-Ups用于更复杂的场景。但说到Trello，与你提到的Asana、Linear等产品相比，有些人担心它功能不够强大，而Power-Ups就是解决这个问题的方式。Trello支持数十甚至数百种集成功能，值得一试。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:39",
+   "en": "Awesome. Great tip. Shifting a little bit and zooming out, you've worked at a lot of different companies at a lot of different levels, also a lot of different geographies and I want to chat about that last piece. But maybe just broadly, what are a few of your biggest lessons about building successful and impactful teams?",
+   "zh": "太棒了。好建议。再换个话题，退一步讲，你曾在不同公司、不同层级、不同地区工作过，我想聊聊这最后一点。但大致来说，你在组建成功且有影响力的团队方面，有哪些最重要的经验？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "15:59",
+   "en": "This is kind of my jam.",
+   "zh": "这对我来说还挺得心应手的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:01",
+   "en": "Excellent.",
+   "zh": "太棒了。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "16:02",
+   "en": "It's kind of what I spend a lot of time thinking about, and I think every company go into you approach it slightly differently. For me, it usually starts with individuals identifying very clearly early on roles and responsibilities, like what are the expectations of a role? So in software, for most of us one of the things that I think I've seen done well or contributed to and multiple companies is the triad, product, design, engineering, data. And what does it look like for these roles and data science that's like other?",
+   "zh": "这差不多是我花了很多时间思考的问题，我觉得每个公司对此的处理方式都略有不同。对我而言，通常从个人早期清晰界定角色与职责开始——比如一个职位的期望是什么？在软件领域，对我们大多数人来说，一个我见过很多公司做得比较好的例子是产品、设计、工程、数据这三者的协作。那么这些角色与数据科学的关系又如何呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:38",
+   "en": "I see you put data in there.",
+   "zh": "我注意到你把数据也加进去了。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "16:42",
+   "en": "I'm trying pull that in. That is my mission. I love that. My mission is product, design, engineering, data.",
+   "zh": "我正努力把这部分整合进来。这就是我的使命。我喜欢这个模式。我的使命就是产品、设计、工程、数据。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:47",
+   "en": "It's not a triad anymore though, but I love it.",
+   "zh": "虽然这不再是三角关系了，但我还是很喜欢这个模式。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "16:50",
+   "en": "I know. It's a quartet something.",
+   "zh": "我知道。这应该是个四角关系吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:50",
+   "en": "It's just a chair.",
+   "zh": "不过这就是个椅子。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "16:53",
+   "en": "It's a chair. Great. So I think about that a lot. What are the roles? What do you expect for each of them and how do you define the responsibilities that we have to each other? I know it sounds maybe on the softer side, but I think a lot of what we can solve for in creating strong teams is exactly that. The exercise that I often do is I generally have an idea of what I think the roles and responsibilities are and the expectations across these four roles, but the exercise especially with leaders in an org is to have them sit down and write them for each other. (17:29): So Atlassian has some of this that they do in the form of playbooks, but it's basically I as a product leader, I'm going to write down what I think the expectations and the role and responsibilities of my engineering manager, of my designer, of my data. And then we look at it together and then we arrive at essentially a contract with one another about what we think that looks like and what that responsibility is to our teams, and from there, we cascade it throughout the org. This is very time-intensive, as you can imagine, and often leads to a lot of debate because depending on the kind of orgs or people's backgrounds, our expectations might differ, but I think that contract early on is really important.",
+   "zh": "这是一把椅子。不错。我对此思考了很多。各个角色的职责是什么？我们对每个角色的期望是什么？我们如何界定彼此应尽的责任？我知道这听起来可能比较温和，但我认为，在打造高效团队方面，很多问题的解决之道就在于此。我常做的一个练习是，我通常对四个角色的职责和期望有一个大致的概念，但我会特别让组织中的领导者坐下来，为彼此写下这些内容。（17:29）：Atlassian有一些类似的做法，比如制定“操作手册”，但作为产品负责人，关键在于我要写下我对工程经理、设计师、数据科学家的期望和职责。然后我们一起审视这些内容，最终达成一份彼此认可的责任协议。接着，我们将这份协议在整个组织中推广。这项工作非常耗时，正如你能想象的，而且常常引发激烈讨论，因为不同组织或团队成员的背景不同，我们的期望可能存在差异，但我认为早期达成这样的协议至关重要。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "18:08",
+   "en": "This is super interesting and I want to go two levels deeper. Is there a template that you have? Is there specific questions you're answering? Is it freeform? How do you actually know what to write in one of these?",
+   "zh": "这非常有趣，我想再深入探讨两个层面。有没有模板？你们是在回答哪些具体问题？是自由发挥吗？你们是如何确定这些内容的？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "18:21",
+   "en": "There is a template. There are templates we can probably share after this-",
+   "zh": "有模板的。我们或许可以在这之后分享一些模板。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "18:24",
+   "en": "Awesome. Great.",
+   "zh": "太棒了。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "18:25",
+   "en": "... to run the roles and responsibilities, and it usually comes in a couple of forms. It's what the expectations as an IC? What's the expectation as a manager or with your team? And then what is it to each other and what are the things that are shared? So when we're running an experiment, a product manager's likely to write a product brief and go into the details of what that means. The data scientist is likely to help write the actual experiment brief, but we're all putting inputs into it. But then when it comes to data and analysis, my expectation is that both of you are doing that together.",
+   "zh": "……来明确各个角色的职责和期望。通常有几种形式。比如，IC（个人贡献者）的期望是什么？经理或团队的期望是什么？然后彼此之间的职责和共享内容是什么？在开展实验时，产品经理可能会写一份产品简报，详细说明其含义。数据科学家可能会协助撰写实际的实验简报，但所有人都会为此提供输入。但当涉及数据和分析时，我的期望是你们俩要共同完成这项工作。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "19:01",
+   "en": "And is the idea the PM writes, \"Here's what I'm planning to do,\" is it the data scientist writes on behalf of the pm, \"Here's what I expect you to do?\" Who's taking the charge in each of these?",
+   "zh": "那是产品经理写的吗？“这是我计划做的。”还是数据科学家代表产品经理写的？“这是我期望你做的。”在每个角色中，谁来负责呢？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "19:11",
+   "en": "You write your own. So I as a product manager, I write what I think my role is and also what I think what my expectations of my counterparts are and they do the same, and then we review it together.",
+   "zh": "你们各自写自己的部分。比如，作为产品经理，我写下我认为自己的角色是什么，以及我对其他角色的期望，然后他们也这样做，最后我们一起审阅。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "19:23",
+   "en": "And you encourage every team within your domain to do this amongst themselves.",
+   "zh": "并且你鼓励你所在领域内的每个团队在内部也这样做。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "19:28",
+   "en": "Yes.",
+   "zh": "是的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "19:29",
+   "en": "That is very cool. If there's an example you could share that we could put in the show notes or a template, that would be great.",
+   "zh": "这太棒了。如果你能分享一个例子，我们可以把它写进节目笔记或模板，那就太好了。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "19:35",
+   "en": "Yeah. We'll do that.",
+   "zh": "好的。我们会这么做的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "19:36",
+   "en": "What have you found as impact that comes from doing this a before and after? What kind of difference do you see having done this on team?",
+   "zh": "你发现了哪些前后对比的效果？在团队层面，你看到了怎样的变化？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "19:45",
+   "en": "So I'd say recently, I'd say in the past maybe five years, one of the things that has shifted and has caught some people by surprise, I don't know if it should or not, is around project management. So I think 10, 12 years ago, everyone expected that they would have Scrum Masters, and Scrum Masters have largely in many companies just disappeared. But then you think well, where did that responsibility go, because someone has to do project management? And this is different from program management internal to a team. (20:18): And from my perspective, a lot of that now sits with engineering managers, which is a little bit different from how it was when I started in product where actually, a lot of that was put on PMs. And some of you might recall, it caused a lot of issues with product managers because they were the ones that were constantly like, \"What's happening in the sprints? What didn't make it? Why didn't it?\" Doing a lot of that work. And I think PMs are still responsible to keep track of that, but engineering managers are increasingly expected to be the ones that are actively making sure that sprint goals, for instance, are met. And that's a shift that I've seen recently that we do have to debate often.",
+   "zh": "所以我要说，就最近而言，可能在过去五年里，一个发生变化且让一些人感到意外的事情（我不知道这是否应该发生）是关于项目管理的。所以我认为10年、12年前，大家都以为会有Scrum Master，而在很多公司里，Scrum Master已经基本消失了。但你会想，那些职责去哪儿了，因为总得有人做项目管理啊？这和团队内部的项目管理不同。（20:18）在我看来，现在很多职责都落到了工程经理身上，这和我刚进入产品管理时的情况有些不同。当时很多职责都压在产品经理身上，你们有些人可能还记得，这给产品经理带来了很多问题，因为他们总是在问：“冲刺阶段进展如何？哪些任务没完成？为什么没完成？”做着很多这类工作。不过我认为产品经理仍然有责任跟踪这些进展，但工程经理越来越被期望主动确保冲刺目标得以实现。这是我最近观察到的一个变化，也是我们经常需要讨论的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "20:57",
+   "en": "I think one of the most interesting elements of this approach is that the product manager role is so I ill-defined and so different in every company, and so I imagine much of the benefit here is just what the hell is the PM's responsibility?",
+   "zh": "我认为这种方法最有趣的点之一是，产品经理的角色在每个公司都定义得非常模糊，而且千差万别。所以我觉得这里的主要好处在于：产品经理到底该负责什么？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "20:57",
+   "en": "100%.",
+   "zh": "百分之百。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:10",
+   "en": "Is there anything that you find is surprising about what teams end up taking off the PM's plate or putting on the plate that maybe other companies don't?",
+   "zh": "你有没有发现，有些团队最终会把产品经理的职责移交出去，或者接手过来，而其他公司可能不会这样做？这点很令人惊讶。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "21:18",
+   "en": "I think a lot of people end up putting a lot on the PM's plate because of that misunderstanding. And so you end up looking at something as a group and saying, \"Well, no one human can do all of those things all the time, so let's talk about what the shared responsibility looks like.\" And what I think is really powerful about the triad is that it's a recognition of there are shared responsibilities. Who's responsible for making sure that everyone understands what we're doing and why, the PM leads that, but evangelizing that is something that would be expected of designers and engineering managers and data scientists as well.",
+   "zh": "我认为很多人最终会把太多职责加到产品经理身上，就因为这种误解。所以你最终会作为一个团队来审视这个问题，然后说：“好吧，没有人能一直做所有这些事情，所以让我们讨论一下共同责任是什么样的。”我认为三角架构的强大之处在于，它承认了责任是共享的。谁负责确保每个人都理解我们在做什么以及为什么？产品经理要主导这一点，但向其他人宣传这一点，也是设计师、工程经理和数据科学家的职责。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:57",
+   "en": "On the data scientist piece, you talked about how you're trying to embed that more and more into product teams. At Airbnb, data scientists were embedded in every team, so I totally get that.",
+   "zh": "关于数据科学家部分，你提到正努力将他们更多地嵌入产品团队。在Airbnb，数据科学家被嵌入每个团队，所以我完全理解这一点。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "22:05",
+   "en": "It's not everywhere.",
+   "zh": "但这并非普遍现象。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "22:07",
+   "en": "Yeah, exactly. What more can you share there of just why you found that to be important and how you're approaching that?",
+   "zh": "是的，没错。你能否再多分享一些关于为什么你认为这很重要，以及你们是如何推进的？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "22:13",
+   "en": "From my experience as a product manager, it was always a blocker. Getting your hands on the data, maybe having someone to troubleshoot with if as a PM you couldn't kind of understand or figure it out yourself, it was just always a blocker. And so then you'd also then have to go and negotiate with other teams about getting someone's resources to look at this problem, so that's one. The other is just that data scientists, as with most humans, we get better the more focused we are and the more in depth we are in understanding the product itself. So if you have someone that's dedicated to a zone or an area of the product, then it's much easier for them to spot patterns as opposed to attempting to understand what's happening every time a ticket comes in.",
+   "zh": "以我作为产品经理的经验来看，这始终是一个障碍。获取数据，可能需要有人协助排查问题——如果作为产品经理你自己无法理解或解决问题，这始终是个障碍。然后，你还得去和其他团队协商，争取资源来研究这个问题。这就是第一个方面。另一个方面是，数据科学家和大多数人一样，如果能更专注、更深入地理解产品本身，他们就能做得更好。所以，如果有专注于产品某个区域或领域的人，那么他们就更容易发现规律，而不是每次有工单提交时都试图理解到底发生了什么。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "22:58",
+   "en": "And so the shift you push for is instead of a centralized data team that you convince to give you resources, you embed the data scientist into the team.",
+   "zh": "所以你所倡导的转变是，不再是说服集中化的数据团队为你提供资源，而是将数据科学家嵌入团队中。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "22:58",
+   "en": "Right.",
+   "zh": "对。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:07",
+   "en": "And do you call them data scientists, do you call them analysts? How do you think about that?",
+   "zh": "那你们称他们为数据科学家，还是分析师？对此你们是怎么看的？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "23:11",
+   "en": "That also varies per company. That depends on the organization and the work. Some teams require data scientists, not all. Some require analysts, so that just depends on what the team's working on, what's needed.",
+   "zh": "这也因公司而异。这取决于组织架构和工作内容。有些团队需要数据科学家，但并非所有团队都如此。有些团队需要分析师，所以这完全取决于团队正在做什么，以及需要什么样的支持。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:27",
+   "en": "Got it. Coming back to the roles and responsibilities framework, do you encourage teams to revisit that every once in a while or is it like this team's done this thing and we're good for a while?",
+   "zh": "明白了。回到角色与职责框架，您是否鼓励团队定期重新审视这一框架，还是说一旦某个团队完成了某项任务，暂时就无需再管了？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "23:36",
+   "en": "I encourage them to revisit it and it's usually because something's fallen off the rails. I think if they were really great at it, I'd say every three months or every six months, let's have a look and see how this is going. But often it happens because there's some conflict or tension or something was missed and someone thought it was theirs or not and we have to do a quick retro.",
+   "zh": "我确实会鼓励他们定期回顾，通常是因为出现了偏离正轨的情况。我觉得如果团队执行得非常出色的话，我会建议每三个月或六个月进行一次复盘，评估进展情况。但更多时候，复盘是因为出现了冲突、紧张局势，或者某个环节被忽视，导致各方对职责分工存在歧义，这时就需要快速进行回顾总结。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:59",
+   "en": "What do you find is often that thing that is maybe missed or often causes tension?",
+   "zh": "您认为最常被忽视或引发冲突的问题是什么？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "24:04",
+   "en": "Execution. It's usually around execution and velocity.",
+   "zh": "执行问题。通常与执行效率和项目进度有关。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "24:10",
+   "en": "Not moving fast enough?",
+   "zh": "进展不够快？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "24:11",
+   "en": "Not moving fast enough.",
+   "zh": "是的，进展不够快。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "24:13",
+   "en": "What do you find often is a way to help with that as a leader of teams?",
+   "zh": "作为团队领导者，您通常如何帮助解决这些问题？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "24:18",
+   "en": "Well, one, just identifying what the velocity issue is. It can vary, so for PMs it's often around the velocity of decision-making. How long does it take us actually from saying we need to do a thing to defining it potentially, and then deciding are we actually going to do it or how? And that I think takes a long time for most companies, most people. So velocity of decision-making, so I think that tends to fall on the PM most often. The actual execution of it, the development tends to fall on both PM and engineering. So in engineering I find that depending on the org, some folks understand breaking up tickets into small pieces and why that's valuable and how to do it, and that's something that I think everyone in industry probably needs a refresher on, why that's valuable and how it works. And some of that is also shared by the PM because if you haven't articulated clearly or well enough what we're trying to do, then it is hard to break that apart. So those are the two things that are on my mind a lot.",
+   "zh": "首先，要明确效率低下的根源。这因人而异，比如对产品经理来说，关键在于决策效率。即从提出需求到确定方案，再到最终决策，整个过程通常耗时过长。这对大多数公司和团队来说都是难题。因此，决策效率往往是产品经理的责任，而具体的执行工作则由产品经理和工程团队共同承担。在工程团队中，根据不同组织架构，有些成员能理解将任务拆分成小块的重要性，以及这样做的好处。但整个行业都需要重温这些基础知识——为什么拆分任务有价值，以及如何有效实施。产品经理在这方面也需要承担责任，因为如果需求表述不清晰或不到位，就很难拆分任务。以上两点是我经常思考的问题。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "25:27",
+   "en": "Is there anything else along the lines of what you've learned about building successful teams? I really love this roles and responsibilities approach.",
+   "zh": "您在组建成功团队方面还有其他心得吗？我真的很喜欢这个角色与职责框架。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "25:35",
+   "en": "Outcomes and output also comes up a lot, and many of the companies that I've either worked with or advised, coached over the past few years, it was all about outcomes. Everyone was, \"Outcomes, outcomes, outcomes,\" which is right. You want to make sure you're doing the right thing with the right goal and that's fine. And some folks, myself included at certain points, swung way too far on the outcomes train and forgot that output is an indicator of that. (26:10): So if you have a team that's doing all of the ideation and figuring out how to make decisions quickly and getting the right documentation and setting up the right product briefs and design briefs and experiment briefs, all the things that we know go into to successful product development, that's great, but if you're also not shipping a lot of things to market quickly enough, then it just doesn't matter that much. So that conversation is one that I think we often have to revisit on all the teams I've ever been on that yes, outcomes are important, but also the indicator is around execution and velocity. So if that's not in line, then a lot of the other things don't matter that much.",
+   "zh": "成果和产出这个话题经常被提及。在过去几年里，我合作过或为之提供咨询、指导的许多公司，都把重点放在了成果上。每个人都在说：“成果，成果，成果！” 这没错。你要确保自己朝着正确的目标做正确的事，这没问题。但有些人，包括我自己在某些时候，也在成果这个问题上走得太极端，忽略了产出才是成果的指标。（26:10）：所以，如果你的团队一直在进行创意构思，快速决策，准备完善的文档，制定产品简报、设计简报和实验简报——这些都是成功产品开发的关键要素——那很好。但如果你们不能足够快地将产品推向市场，那这些努力就失去了意义。因此，我认为我们需要不断提醒所有团队：成果固然重要，但执行和速度才是关键指标。如果这两者不匹配，其他一切努力都将徒劳无功。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "26:50",
+   "en": "And so when you say outcome, you're saying here's the goal they're achieving or the impact they're having, or is it just the idea we know what our outcome will be but they're not actually shipping anything? When you say output and outcome, what are you referring to specifically?",
+   "zh": "你提到“成果”，这里指的是他们达成的目标或产生的影响，还是仅仅是我们知道最终成果会是什么，但实际上并没有任何成果？当你谈到产出和成果时，具体指的是什么？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "27:04",
+   "en": "The outcomes are understanding what the goals are and what we might do to get there. So OKRs is one way to talk about that. Great. But embedded in that is and how are we going to get there? And the fact is, the more tries you have at it, the likelier you are to get it right. So we're not actively monitoring how fast does it take us to ship things to market.",
+   "zh": "成果包括理解目标是什么，以及我们如何实现这些目标。OKR（目标与关键结果）就是其中一种方法。很好。但其核心在于，我们如何才能实现这些目标？事实上，尝试得越多，成功的可能性就越大。因此，我们并不会主动去监控将产品推向市场所需的时间。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "27:28",
+   "en": "I see. So if I can rephrase it, a lot of teams know and talk about what they should be doing. They have a strategy, they have a goal, but what you're finding is that there's just not a lot of action a lot of times and there's a huge opportunity just to get a team to actually ship more often and move faster.",
+   "zh": "我明白了。所以如果我能重新表述一下的话，很多团队都知道并谈论他们应该做什么。他们有战略，有目标，但你发现很多时候并没有实际行动。让团队更频繁地将产品推向市场，行动更迅速，这是一个巨大的机遇。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "27:46",
+   "en": "Yeah. There's not a lot of understanding of our role and urgency. It's urgent, and software in particular. You probably can't forget that because someone else is likely doing something similar or better and faster.",
+   "zh": "是的。很多人对我们的角色和紧迫性缺乏理解。这很紧迫，尤其是软件行业。你可能不能忘记这一点，因为很可能其他人也在做类似或更出色、更快的产品。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "28:02",
+   "en": "Makes me think of I think Frank Slootman is his name, the Snowflake CEO. He wrote this book called Amp It Up, where he talks about how to build thriving software companies and businesses in general. One of his three most important recommendations is always have urgency, to never let off the gas of urgency. That things always need to feel urgent.",
+   "zh": "这让我想起Snowflake公司的CEO弗兰克·斯洛特曼（Frank Slootman）。他写了一本叫《Amp It Up》的书，讲述如何打造成功的软件公司和企业。他提出的三个最重要的建议之一就是始终保持紧迫感，从不放松紧迫感的力度。事情总是需要有紧迫感。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "28:22",
+   "en": "I'll check that out. But I think product managers, I consider product to be the ones that really need to drive urgency.",
+   "zh": "我会去了解一下。但我认为产品经理——我认为产品经理才是真正需要推动紧迫感的人。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "28:33",
+   "en": "Say more about that. What have you found helps in creating that sense of urgency and continuing to increase output?",
+   "zh": "能再详细说说吗？你发现哪些方法有助于营造紧迫感并持续提升产出？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "28:39",
+   "en": "Mostly reminding people often. And I don't think that's a question of, \"Well, show me list of everything you ship. That's never going to work.\" Well, that doesn't make people feel good about the work that they're doing, but let's talk about our experimentation backlog. What do we have in there? How quickly are we getting those things out? Those are the kind of conversations that I think help. I think that having a good pulse on competition helps as just a friendly reminder that there are others out there doing this and thinking about things very similarly, possibly, to how we're thinking about it, so how do we differentiate ourselves? And a lot of that is about how quickly are we getting many ideas to market? Small tangent. The competition side is interesting to me because I've worked at a few companies where I've worked with founders who are like, \"We don't have competition, we're the only ones doing this,\" and then fast forward a few years and you're like, \"Here are all the companies that were your competition that you didn't recognize then that are shipping great product now.\"",
+   "zh": "主要是经常提醒大家。我觉得这不是那种“好吧，把你发布的所有功能列表给我看看”的方式。这根本无法让人们对自己的工作感到满意，但我们可以聊聊实验积压任务。里面都有什么？我们能多快把这些功能推向市场？这些对话才有帮助。我认为深入了解竞争对手的情况也很重要，这能时刻提醒我们，市场上还有其他公司在做类似的事情，他们的思路可能和我们不谋而合，那我们该如何脱颖而出呢？关键在于我们能多快地将创意推向市场。说个题外话，我对竞争对手这块很感兴趣，因为我在一些公司工作时，遇到过创始人说“我们没有竞争对手，我们是唯一一家做这件事的公司”，结果几年后你会发现，当时被忽视的那些竞争对手现在已经推出了很棒的产品。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "29:52",
+   "en": "This might be a tough question, but I think there's always a sense of we can move faster. It's rare that no, we're moving fast as we can. Do you have any kind of heuristic or I don't know, gut feeling of knowing and sensing where this team's doing fine versus this team isn't moving as fast as they can?",
+   "zh": "这可能是个难题，但我觉得总有一种感觉——我们本可以更快行动。很少有团队能做到“我们已经在尽快推进了”。你有没有什么经验法则，或者说直觉，能判断一个团队进展顺利还是没有充分发挥潜力？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "30:09",
+   "en": "How much time do we spend on what I'd consider optimizations versus bigger bets, and how long does does it take for that to happen? Right? Because you know you've talked to the folks or been in the companies where you talk about something that by most measures is pretty simple. Someone goes heads down for a week or two and gets it done and you talk about it and then two quarters later, someone mentions it again and you're like, \"Oh, okay. So what are all the things we did in between that time to now why that seemingly simple thing didn't get done?\" And I think that's hard to say as a product manager because everything we do is all about prioritization, and I'm sure there are a bunch of other things that were prioritized, but they're these little things that come up periodically, or bug fixes. Something is broken. How long does it take us to recognize it and actually fix it?",
+   "zh": "我们花了多少时间在那些我认为是优化措施的事情上，又花了多少时间在更重大的决策上？这需要多长时间才能实现？对吧？因为你知道，你曾与那些公司的人交流过，有些看似简单的事情，但实施起来却异常困难。有人埋头干一两周就能完成，但当你回顾时，却发现两季度后又有人重新提起同样的问题，你会说：“哦，好吧。但在这期间我们到底做了哪些工作，为什么看似简单的事情却没能实现呢？” 作为产品经理，这很难给出答案，因为我们所做的一切都需要优先级排序。我相信肯定还有其他被优先考虑的项目，但有些小问题会周期性地出现，比如漏洞修复、系统崩溃等。我们需要多久才能识别并修复这些问题？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:03",
+   "en": "Do you have a heuristic, speaking of big bets versus optimizations, of just how much time/resources to put into each bucket?",
+   "zh": "说到重大决策和优化措施，你有没有一个经验法则，确定投入每个领域的时间/资源比例？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "31:11",
+   "en": "Unfortunately, the answer is it depends. If you're working on a business that is 30 years old and has many acquisitions, it is very different from a startup or a growth stage company.I think it just varies.",
+   "zh": "很遗憾，答案是因情况而异。如果你所在的公司已有30年历史，经历过多次收购，那与初创公司或处于增长阶段的公司完全不同。我认为这因公司阶段而异。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:27",
+   "en": "Yep. That's often what I find. One last question along these lines that was on my mind as you were chatting. When you're finding that a team is not delivering as much output as you would think, what have you found works in helping them recognize that and not get defensive and not have all these excuses for why it's happening, just help them see what you see?",
+   "zh": "是的，我也经常遇到这种情况。在你交流过程中，我突然想到的最后一个问题是：当你发现团队的产出不如预期时，你采取了哪些方法帮助他们认识到问题，而不是让他们找借口或采取防御姿态，而是帮助他们看到你所看到的？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "31:46",
+   "en": "I'll tell you what I do. I don't know, I think folks might get defensive sometime.",
+   "zh": "我来分享一下我的做法。我不知道，也许人们有时会采取防御姿态。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:52",
+   "en": "Yeah, I think.",
+   "zh": "是的，我也这么认为。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "31:53",
+   "en": "But I'll tell you what I try. For me the biggest thing is just if folks are working on a sprint, it's very simply, \"What did you deliver this sprint?\" That's it.",
+   "zh": "但我会告诉你我尝试的方法。对我来说，最重要的是，如果团队正在进行冲刺阶段，简单地问：“你们在这次冲刺中交付了什么？” 就这样。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "32:04",
+   "en": "Just asking questions.",
+   "zh": "就是不断提问。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "32:05",
+   "en": "Just ask a bunch of questions. \"What did you deliver?\" And more questions, \"Okay, fine, but what did you deliver to production? Great. And how long have you been working on that? How long? What was the cycle time?\" So these questions that are really just I think seeking to understand because I understand complexity and so that exists everywhere, but maybe helping folks see that as they're reviewing their own work or their team's work goes a long way.",
+   "zh": "问一堆问题。“你们交付了什么？” 然后再问：“好的，但你们交付到生产环境了吗？太好了。那你们花了多长时间？多长时间？周期时间是多久？” 这些问题其实就是为了理解情况，因为我理解复杂性无处不在，但帮助团队在回顾自己或团队工作时意识到这一点，会大有裨益。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "32:35",
+   "en": "And it comes back to your approach of just focus on the output, not what they're planning to do, what they've actually done. This episode is brought to you by Ahrefs. You probably know Ahrefs as one of the leading all-in-one SEO tools used by companies like Facebook, Uber, Shopify, LinkedIn, Pinterest, and thousands more, but Ahrefs is not just for big companies. With their new Ahrefs Webmaster Tools, you can optimize your personal website like a professional for free. You can scan your website for over 100 common SEO issues that might be hurting your performance and search engines plus get advice on how to fix those errors. (33:09): You can have it automatically browse your website's internal and external links and get actionable insights from your backlink profiles, and you can learn what keywords your website ranks for and see how you stack up against your competitors. Visit ahrefs.com/awt and start improving your website's visibility. That's ahrefs.com/awt. Shifting a little bit, you've been a PM for a long time, since 2010 I believe, and a lot of people move out of pm and so it's really cool to talk to someone that's been in the field for a while. What have you seen in terms of how product maybe has changed? The role of product management, the role of product leadership, and also maybe other functions like designer engineering?",
+   "zh": "这一切都回归到你的方法论——只需专注于最终成果，而非他们计划做什么或实际做了什么。本期节目由Ahrefs赞助。您或许知道Ahrefs是Facebook、Uber、Shopify、LinkedIn、Pinterest等数千家公司常用的领先全能SEO工具，但Ahrefs并非只为大公司服务。其新推出的Ahrefs站长工具，免费助您像专业人士般优化个人网站。它能扫描网站中可能影响排名的100多个常见SEO问题，提供修复建议。（33:09）您可让工具自动浏览网站内外链，获取反向链接分析洞察，还能查看网站关键词排名及与竞争对手的对比。访问ahrefs.com/awt，立即提升网站可见度。（33:14）您从2010年起就担任产品经理一职，许多人从PM岗位离场，能与深耕该领域的您交流真是难得。您见证了产品管理、产品领导力等角色的哪些变化？又如何看待设计、工程等其他职能的演变？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "33:51",
+   "en": "I think the biggest change for product at macro is how mainstream it is. I still find fascinating getting degrees in product management and going to business school to transition into product management and the whole discipline. And there's a whole business, honestly, around the business of product management, which I find really fascinating and it didn't exist. And I think for better or worse, that comes with a lot of good and in some ways might have removed some of the quirkiness and creativity that probably is required of product, but that's probably a different podcast. So that's one, just macro. In terms of the roles, I think that what we were talking before about roles and responsibilities and defining those for product managers, I think product managers are increasingly I think a bit more technical or expected to be. I think there was a moment where they were technical and then it was, \"No, no, we're all generalists,\" and now I think we're going back to PMs need to be more technical. (34:54): I think designers, the expectation is that they'll be more business-oriented, design as a means, honestly, to an end. I think that's trending and probably for the better. I think the best designers I've ever worked with are also exceptionally savvy business people. And I think engineers are increasingly becoming what more product-focused, more user-focused. So product engineers is something Trello I think did really well. This idea that great ideas can come from anywhere in the org at any function I think is really magical. So as you're seeing PM's becoming more technical, I think designers becoming more business-oriented, engineers are becoming a lot more product/user-focused, to me that's amazing because it means that we're getting closer to what I'd consider really deep collaboration. And it's not to say that we're not experts. There are expertise within that that we expect of folks, but that care for other disciplines I think is where a lot of magic happens.",
+   "zh": "我认为产品管理领域最大的变化在于它已变得多么主流。我至今仍觉得，攻读产品管理学位、进入商学院转向产品管理领域，以及整个产品管理学科都非常引人入胜。说实话，还有一整个围绕产品管理业务的产业链，这让我深感着迷，而这种产业链在过去根本不存在。无论是利是弊，这种变化带来了诸多益处，但或许也削弱了产品经理所需具备的创造力和独特思维——不过这或许是另一个播客要探讨的话题了。先说宏观层面。在角色定位方面，我之前提到过产品经理的角色与职责界定问题。我认为产品经理正变得越来越技术化，或者说对技术能力的要求越来越高。此前曾有过“产品经理要成为通才”的说法，如今我们又似乎在回归——即产品经理需要具备更强的技术能力。\n\n（34:54）：设计师方面，人们期望他们更具商业导向，将设计视为实现目标的手段。我认为这种趋势总体上是积极的。我合作过的最优秀的设计师同时也是极具商业头脑的人才。工程师也正变得更以产品为中心、更以用户为导向。比如Trello在这方面就做得很出色。让组织内任何职能部门的优秀创意都能涌现出来，这种理念实在令人惊叹。随着产品经理日益技术化，设计师逐渐商业化，而工程师愈发以产品/用户为核心，这在我看来非常了不起，因为这意味着我们正朝着深度协作的方向迈进。但这并不意味着我们不需要专业知识。我们依然期望团队成员在各自领域精通，但跨学科的协作思维才是创造奇迹的关键。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:57",
+   "en": "That's really interesting. When you say PMs getting more technical, when you're hiring, interviewing, what are you looking for? Do PMs need to learn to code? How technical do you find they need to be?",
+   "zh": "这真有趣。你说产品经理越来越技术化，在招聘和面试时，你们看重什么？产品经理需要学习编程吗？你认为他们需要达到怎样的技术水平？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "36:08",
+   "en": "I don't think so, necessarily. I think a lot more PMs are. A lot more PMs are taking boot camps or coding classes, which I think is all to the good. I don't know that it's a requirement, but there is more of that and I think is very helpful. Similarly, a lot more PMs are taking more classes or digging more into data analysis, also really valuable. I don't think it's a requirement. I am not a technical PM, I don't have a tech background. I think I've been doing it long enough at this point to do okay, but I think it's a benefit.",
+   "zh": "不一定非要这样。我觉得越来越多的产品经理在参与编程训练营或编程课程，这无疑是件好事。我不认为这是硬性要求，但这种趋势确实很有帮助。同样，越来越多的产品经理在学习更多课程或深入研究数据分析，这也很有价值。我不认为这是必须的，但确实有益处。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "36:42",
+   "en": "You said that the PM is becoming more of just a thing with training classes and courses like that?",
+   "zh": "你说产品经理正变得越来越像是参加培训班、上课程之类的东西？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "36:47",
+   "en": "Yeah.",
+   "zh": "是啊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "36:48",
+   "en": "I did a search once on LinkedIn for how many product managers there are. Guess many PMs there are in the world, that have the title PM in their LinkedIn profile?",
+   "zh": "我曾经在领英上搜索过有多少产品经理。猜猜看全球有多少产品经理在领英个人资料里标注了PM这个头衔？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "36:57",
+   "en": "A lot. I'm guessing a lot.",
+   "zh": "很多。我猜应该有很多。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "36:59",
+   "en": "2 million.",
+   "zh": "200万。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "37:01",
+   "en": "That's wild.",
+   "zh": "这也太疯狂了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "37:02",
+   "en": "That's wild. And there's 800,000 just in the US.",
+   "zh": "太疯狂了。光美国就有80万。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "37:05",
+   "en": "Wow.",
+   "zh": "哇。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "37:06",
+   "en": "That's a large group that I didn't expect.",
+   "zh": "这真是个庞大的群体，我之前完全没想到。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "37:10",
+   "en": "Back in my EdTech days, a friend of mine, her kids were in school and she came in one day, her son was in grade school at the time, in elementary school and he had this match to what careers, what you see, and they had a person at a computer, this image, and it was product manager. There was an option for product manager. And that's when I knew, I was like, \"Okay, this is mainstream. We're about to become consultants.\"",
+   "zh": "回到我做教育科技的时候，我有个朋友，她的孩子在上学，有一天她来公司，她儿子当时上小学，参加了一个职业匹配测试，里面有个选项是产品经理。就是那时我意识到，产品经理已经成了主流。我们快要成为顾问了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "37:37",
+   "en": "I always used to joke, no one grows up and is like, \"I want to be a product manager when I grow up,\" but I think that's starting to-",
+   "zh": "我以前总是开玩笑说，没人会长大后说\"我长大后想当产品经理\"，但我觉得这种情况开始——"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "37:41",
+   "en": "It's a starting. It's a thing.",
+   "zh": "这是个开始。这已经成为一个职业了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "37:45",
+   "en": "While we're on that topic, I imagine people often ask you for advice on how to get into product management. Do you have any advice there for folks that are listening that maybe want to get into that?",
+   "zh": "说到这个话题，我想人们经常会问你如何进入产品管理领域。你有没有什么建议给正在听节目的朋友们，他们可能想进入这个领域？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "37:54",
+   "en": "There are many ways now. I think there are a lot of the typical programs that a lot of the big tech companies have, I think is one way. I think getting into startups as a product manager is a pretty awesome way to get into product because it's just a lot of problem-solving. The problem with that is you don't have anyone to teach you the right way, but the product will teach you the right and wrong way if you're with a team that is moving quickly. I still think working on smaller products and companies is a way great way to get into product management in part because you'll get to touch all of the functions that are required parts of the product discipline, and I think it's hard to get that experience otherwise.",
+   "zh": "现在有很多途径。我觉得很多大科技公司都有的典型项目是其中一种方式。我认为进入初创公司做产品经理是进入产品管理的一个很棒的方式，因为这里面有很多解决问题的过程。问题是没有人教你正确的方法，但如果你在一个快速发展的团队里工作，产品本身会教你正确和错误的方法。我仍然认为在较小的产品和公司工作是进入产品管理的一个很好的途径，部分原因是，你会接触到产品学科所需的所有职能，否则很难获得这种经验。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:40",
+   "en": "The PM role, we haven't talked about this, it's just very hard and very stressful and mostly sucks in many ways.",
+   "zh": "产品经理这个角色，我们还没谈到，这份工作非常辛苦、压力很大，在很多方面都很糟糕。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "38:48",
+   "en": "Yes.",
+   "zh": "是啊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:48",
+   "en": "And we could talk about that if you want, but it was more of a segue to work-life balance, which I know you have some strong opinions about. So I don't know, you could take it either direction, but just thoughts on work-life balance/how hard the PM role is.",
+   "zh": "要是你感兴趣的话，我们可以再聊聊这个话题，但我更想顺势聊聊工作与生活的平衡问题——我知道你对此有很深的见解。说实话，你可以随意展开讨论，但我还是想听听你对工作与生活平衡的看法，以及产品经理这一职位的挑战所在。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "39:01",
+   "en": "The PM role is really hard. I feel especially now that I'm managing a lot of teams and PMs at a lot of different levels, I do find that periodically I remind them with the core of my being that, \"I know this is hard.\" It is hard. There are a lot of expectations. You're expected to be competent across many areas all the time, you're expected to have an answer and you're expected to keep your calm and not lose your shit, and that's really hard. It just is. It's stressful. So I think I spend quite a bit of time with my team, my PMs, helping them understand that I understand that. And so when we're problem-solving, let's probably not solve for everything. Let's focus on one of many things that are expected. It's really hard. On work-life balance, as I mentioned to you I think about this a lot, I'm currently a mom and as you can imagine, that's a lot to manage at any given time. (40:05): And so recently, when I think about work-life balance, I don't use the word balance, I use optimization. It's this question of what are you optimizing for right now? Whether it's today or this court or this year, with the understanding that I don't think you can have it all at the same time all the time. And so I'm increasingly coming to peace with that. Where that's been interesting over the course of my career, I was chatting with my husband about this yesterday and was thinking about, early in my career I remember when we had big releases, folks would just work nonstop for a couple of weeks. We would stay in the office late, we would come in early. If it was international, we just probably wouldn't sleep because we wanted to make sure we QA'd everything before we released it, and that was an expected part of the product development life cycle. (40:55): And that was a lot of my early product years and I just did it and it was very exciting and I quite enjoyed it, but even then, the flip side of it for me was I also was a runner back then, so if I was training for a half marathon or a marathon, then the next week I'd probably do my long run in the morning and not start work until 10:00 AM. That was my version of balance. And I think many of us are lucky enough, especially in tech, that a lot of companies get that form of flexibility. So now fast forward 13 years, it is very similar. I don't do all of the drop-offs and pickups for the kids, but there are some weeks where I'm like, \"This is the week I'm going to do all of the drop-offs and pickups,\" or, \"This is the day,\" and that's felt much healthier for me than this expectation that I'm somehow going to balance it all and everything is going to be equally great or cared for all the time.",
+   "zh": "产品经理这个角色真的很难。尤其是现在，我要管理多个团队和不同层级的PM们，我发现自己时不时会用心底的声音提醒他们：“我知道这很难。”确实很难。期望太多了——人们总期待你能在各方面游刃有余，随时给出答案，保持冷静从容，这真的太难了。压力太大了。所以我会花很多时间和团队、PM们沟通，让他们明白我理解他们的处境。解决问题时，我们不必面面俱到，专注于当前最需要关注的部分即可。太难了。  \n\n关于工作与生活的平衡，我跟你们说过我经常思考这个问题。目前我是一位母亲，相信大家能想象得到，任何时候都需要兼顾太多事情。（40:05）最近我不再用“平衡”这个词，而是用“优化”。关键在于：当下你要优化什么？无论是当天、当周还是今年。毕竟我认为不可能永远同时兼顾所有事务。对此我越来越坦然了。回顾职业生涯，有趣的是，我昨天和丈夫聊起这事：早期做大版本发布时，团队会连续几周无休地工作——加班到深夜，早起赶工。若是国际版发布，可能几天几夜不眠，确保发布前质量过关。这曾是产品开发周期的重要环节。（40:55）那时我初入行就习惯这样，兴奋不已。但即便如此，我也会兼顾其他事务——比如备战半马或全马，周末长跑后10点才上班。这就是我的平衡之道。如今13年过去了，模式相似。我不再负责所有接送孩子任务，但偶尔会集中处理一周所有接送事务，或是专注某一天的安排。这比强求平衡、事事完美要健康得多。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "41:56",
+   "en": "I think what I'm hearing essentially, which I really like and agree with, is sometimes you're just going to have to go sprint and go hard and work really hard and go long hours and then that doesn't need to last forever. And then when it's not, enjoy that extra time and build and recharge and do the things you got to do.",
+   "zh": "我觉得我听到的核心观点——我非常赞同且认同这一点——就是有时候你不得不全力冲刺、拼尽全力、长时间工作，但这种状态不必永久持续。当这种状态结束时，就享受这段额外时间吧，休整充电、做该做的事。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "42:18",
+   "en": "Yeah. That's about right.",
+   "zh": "是啊。这话说得在理。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:18",
+   "en": "I find the same thing. I find that just working hard is very correlated with success, and a lot of times that's just a lot of long hours and sometimes you can't balance it for periods of time.",
+   "zh": "我也发现了同样的道理。我发现努力工作和成功高度相关，而这往往意味着长时间投入，有时甚至无法平衡工作与生活。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "42:30",
+   "en": "Right. And it can also be at different points in your life, right? So right now at this particular moment in my life, I'm probably not going to go hard at a super early stage startup because I believe that you probably need to be in person and working really hard together for long periods of time. And not everyone feel this way, I know that. I've had these conversations with lots of friends and colleagues. So personally for me, that's probably not the decision I would make at this moment in my life.",
+   "zh": "对吧。这也可能因人生阶段不同而有所差异。比如说，就我目前的人生阶段而言，我可能不会去创办一家初创公司，因为我认为在初期阶段，你需要亲自到场，与团队长时间、高强度地合作。虽然不是每个人都这么想，我深有体会。我和很多朋友、同事都讨论过这个问题。就我个人而言，这可能不是我当前的人生选择。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:02",
+   "en": "I get that. Another area I wanted to touch on is remote work and distributed work. I believe most of your career, you were remote or you worked with remote teams and distributed teams and that's such a on-trend thing now where a lot of teams are working hybrid, working remotely, working with distributed teams. What have you learned about being successful working with distributed and remote teams?",
+   "zh": "我明白了。接下来我想聊聊远程工作和分布式团队。我相信你职业生涯的大部分时间都在远程办公，或者与远程团队、分布式团队合作。如今这已成为大趋势，许多团队采用混合办公、远程办公或分布式团队模式。在与分布式及远程团队合作时，你总结出哪些成功经验？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "43:23",
+   "en": "Yes. My entire career has been with remote or distributed teams. That's right. When I started early my career, I lived abroad for a while. I lived in Shanghai. I had a core team there, but also worked for the distributed team in Europe and Latin America, which meant all kinds of crazy hours and lots of sprints like we just talked about. Things that worked well, one, documentation. It's a thing. Asynchronous communication, everyone just has to get used to it and better at it, so increasingly just being better communicators, whether it's on a video or written. (44:00): I think that's just really important, and everyone building up that muscle is really important. For all of the roles I've been in, this notion of what does it mean to have really meaningful and valuable in-person time that can sustain you for the remote and distributed time is a really important. I think a lot of what's happened now in COVID and even now, a lot of teams have never met their coworkers. They don't onboard in person, they don't have events or offsites as frequently. And I think flexibility is really great, but I think that really, that makes it really hard, and to me, what I've figured out I think is that it especially makes it hard to solve hard problems. (44:43): Solving a hard problem remotely with folks that you haven't spent in-person time with, that you haven't broken bread with, that you haven't disagreed with in person and built that trust is just really hard. In fact, it's much harder. So some of the things I've done even here at The Knot Worldwide is periodically when there's a really gnarly problem, I wave the flag and I say, \"Hey everyone, why don't we try and get together for two days and hash some of this stuff out, and then we can go back to our remote lives?\" And I think folks have been maybe unsurprisingly very open to that because I think they see not only the efficiency but the camaraderie that can happen there as opposed to what was happening potentially on a Hangouts or a Zoom call.",
+   "zh": "是的。我的整个职业生涯都在远程或分布式团队中度过的。没错。我职业生涯早期曾在海外生活过一段时间，住在上海。我在那里有一个核心团队，但同时也为欧洲和拉丁美洲的分布式团队工作，这意味着各种疯狂的工作时间和像我们刚刚讨论过的快速迭代。有效的做法之一是文档管理。这确实是个问题。异步沟通方面，大家都需要适应并提高这方面的能力，所以不断提升沟通能力至关重要，无论是视频会议还是书面沟通。（44:00）我认为这非常重要，每个人都需要锻炼这项技能。对于我所担任过的所有角色来说，如何在远程和分布式环境中拥有真正有意义且有价值的面对面交流时间，这一点至关重要。我认为新冠疫情期间以及现在，很多团队成员从未见过同事。他们不进行面对面入职，也不常举办活动或离线会议。虽然灵活性很棒，但这也带来了挑战。在我看来，灵活性让解决难题变得更加困难。比如，与未曾共处、未曾共进晚餐、未曾当面交换意见且尚未建立信任的团队远程解决难题，难度要大得多。\n（44:43）事实上，远程解决难题的难度要高得多。我在The Knot Worldwide就采取过一些措施。当遇到特别棘手的问题时，我会提议：“大家不妨聚在一起讨论两天，然后再回归远程办公模式。”令人欣慰的是，同事们对此反应积极，因为他们不仅看到了效率提升，还体会到了面对面交流所带来的凝聚力——这远比在Hangouts或Zoom会议上交流要好得多。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:28",
+   "en": "What does that event look like? Where do you do it? What's roughly an agenda?",
+   "zh": "那样的活动具体是怎样的？在哪里举办？大致的议程是怎样的？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "45:32",
+   "en": "One, the agenda is pretty tight before we get there. Myself or someone else are responsible for making sure that that's a well-articulated agenda that we all kind of agree on before we even get there, so I think that's one. I think 48 hours, two nights, and that's important to me because it tends to still just be hours in a conference room or a meeting room during the day, but you do need to build in the, \"And let's go have dinner since we're all in person anyway, or let's have an extended lunch and maybe an extended day.\" I think that's just really important. And even early in my career when I was working more internationally, the company I worked for was pretty amazing because two or three times a year, the entire company globally came together for a week or two and it made a huge difference, and many of the folks that I worked with there are still friends and mentors.",
+   "zh": "首先，我们到达会场前议程安排得非常紧凑。我或其他人需要确保在会议开始前制定一个清晰明确、大家都能达成共识的议程。这点很重要。48小时的会议时间（包括两晚），对于我来说意义非凡，因为白天通常在会议室里开会，但我们也需要安排时间，比如“既然大家都到场了，那就共进晚餐吧”，或者“延长午餐时间，延长工作时间”。这些细节对我来说至关重要。早在我的职业生涯初期，我在国际公司工作时，公司每年会组织全球员工齐聚一周或两周的会议，这对团队凝聚力提升意义重大。至今，与我共事过的许多同事仍是我的良师益友。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "46:29",
+   "en": "Are you able to share what was the challenge you're trying to overcome in one of these times?",
+   "zh": "你能否分享一下在这种情况下你试图克服的挑战是什么？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "46:34",
+   "en": "I can speak about it generally, which was just we had a change in strategy and we needed to land a couple of core decisions about what we might build. And there were lots of documents and lots of conversations, and back to the velocity of decision-making, remotely that can be really hard because with time zones, someone sends a doc, you comment on it, you get to the other day by the end of the week. And so days and days have passed and we still haven't landed it, and people have really strong opinions obviously that's something that big, so it's like, \"Nope. Okay, great. Wave the flag.\" And not everyone could make it. Most people could, and the folks who could not were, yes, on a screen.",
+   "zh": "我可以大致谈谈当时的情况。当时我们战略调整，需要就产品开发方向做出关键决策。涉及大量文档和讨论，而远程决策的效率实在太低了。时差问题导致文件发送后要等一周才能得到反馈，进展极其缓慢。最终，有些人固执己见，无法达成共识，但大多数人还是能参与其中。那些无法到场的人只能通过屏幕参与。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:15",
+   "en": "Was there anything specific in that offsite that helped you get to a resolution?",
+   "zh": "那次线下会议中有没有什么具体的解决方案帮助你们达成共识？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "47:21",
+   "en": "In that particular one, it was one, very cross-functional and the unlock there was giving the data person the space to educate all of us. That was it. It was like, \"You have the floor, educate.\"",
+   "zh": "在那次会议上，关键在于跨职能团队合作，让数据部门有机会向所有人普及知识。会议形式是：“现在请你发言，进行科普。”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:40",
+   "en": "I find that's often the solution is people just don't have all the same information that they're basing their decision on, so make sure everyone starts with the same foundation. Awesome. And that comes back to your push to get data integrated into every team and make that part of the four quad triad.",
+   "zh": "我发现解决方案往往在于确保每个人获取的信息基础一致。太棒了。这也回到了你推动将数据整合到每个团队，并将其纳入“四位一体”战略的初衷。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "47:57",
+   "en": "That chair. It's the chair.",
+   "zh": "那把椅子。就是那把椅子。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:59",
+   "en": "Anything else around remote work or distributed work that you found to be incredibly impactful or important?",
+   "zh": "在远程工作或分布式工作方面，还有哪些你认为极具影响力或重要性的经验？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "48:04",
+   "en": "Well, the flexibility of it that I'm sure you've talked about with others, that is really important. I do think that Trello and Atlassian did this really well, is having standards around a couple things. The biggest one I think was overlapping work hours. So everyone had general flexibility, but there were some set of hours where everyone needed to be online at the same time for the most part every day, and that made a big difference. Onboarding happened in person. I think that in-person onboarding for new folks is really important for everyone. For any new person to an organization, I think how we work culturally, having a contact that you can reach out to, all of that I think is really crucial. I'm definitely of the so much of my early learning was in person and I have no idea how we're going to replicate that in a non-office setting. It's just really hard.",
+   "zh": "嗯，我相信你和其他人也聊过这个话题，灵活性确实很重要。我觉得 Trello 和 Atlassian在这方面做得很好，他们围绕几个方面制定了标准。其中最重要的一点是重叠的工作时间。即便每个人都有基本的灵活性，但每天还是有固定的时段要求大部分人同时在线，这对提高效率大有裨益。入职培训必须面对面进行。我认为面对面入职对新人来说至关重要。对于任何加入新组织的人来说，了解我们的工作文化、找到可以随时联系的联系人等等，这些都非常关键。我早期的学习经历大多是面对面完成的，我实在不知道如何在非办公环境中复现这种效果。这真的很难。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "49:04",
+   "en": "How long do you try to have that person in the office for onboarding? Is it a week? Is it a few days?",
+   "zh": "你们让新人来办公室参加入职培训要持续多久？是一周？还是几天？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "49:09",
+   "en": "A week.",
+   "zh": "一周。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "49:09",
+   "en": "Awesome. Shifting a little bit, just a few more questions. You mentioned you worked in China, you also worked in the UK for a while, obviously in the US now. What have you found to be some of the biggest differences in maybe the product culture or just culture in general working in these different areas?",
+   "zh": "太棒了。再换个话题，多问几个问题。你提到自己在中国工作过，也在英国待过一段时间，现在显然在美国工作。你在不同地区工作时，发现产品文化或整体文化方面有哪些最大的差异？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "49:26",
+   "en": "The confusion around what product management is is universal. That's not specific to US I think, and the fact that it's changing, that I think was the same. I don't know that I've found that many differences in terms of how we approached goal-setting, all very similar. The need for urgency, all those principles I think this are the same no matter where you are. Part of what I experienced when I started in Shanghai was the feeling that the product manager was expected to have all the answers, which as you can imagine was really overwhelming. And so I remember because I was young and I didn't know that much about product management, and I definitely did not have all the answers, I spent a lot of time helping the team help me get answers and that was a little bit of a culture shift in our team at the time. (50:25): And I actually think that's kind of carried me through my entire career, which is trying to figure out how to share the product management load so we're equally responsible for what we're building. So that was a good unintentional learning that I think has been really important for my career. I think that part of that learning that I've had obviously here and in London as well was the figuring out how to make room for creativity. So in Shanghai and also in London at the time, this was a decade now so many things have changed since then, there just didn't seem to be as much room for ideas to come from anywhere, which I think is also related to what I've seen before. (51:13): So making space for people across functions to share ideas and then across geographies to share ideas, especially in companies where English might have been the primary language but most of the employees were not native English speakers, there was a lot of time I think that I felt that I wanted to spend, and I did, on just creating space for people to comfortably share their ideas honestly. And that for me was really formative because I think it's really impacted how I've approached my entire career and I don't know that I would have, had I not had those experiences.",
+   "zh": "关于产品管理到底是什么，这确实是个普遍的困惑。我觉得这不只是美国才有的问题，而且我认为这个定义也在不断变化。就目标设定的方式而言，我没发现有什么太大的差异，都大同小异。无论身处何地，面对紧迫需求时，那些基本原则都是相通的。我刚到上海工作时，最大的感受就是产品经理被期望能解决所有问题，这压力实在太大了。当时我还年轻，对产品管理知之甚少，根本无法满足所有需求，于是我花了大量时间帮助团队为我收集信息，这在当时的团队里确实是一次文化转型。（50:25）这段经历贯穿了我的整个职业生涯——学会如何分担产品管理的责任，让我们共同为产品负责。这是无心插柳的收获，对我的职业生涯意义非凡。另外，我在上海和伦敦都学到的一课是如何为创意留出空间。当时在上海和伦敦（那都是十年前的事了），环境与现在大不相同，似乎没有太多空间让创意自由涌现，这与我之前的观察不谋而合。（51:13）因此，要为跨职能团队创造分享想法的空间，跨地域也要如此，特别是在那些以英语为主要语言但大部分员工并非英语母语的公司里。我投入了大量精力为大家创造舒适的交流环境，这段经历对我影响深远，至今仍影响着我的职业发展路径。如果没有这些经历，我可能不会有今天的成就。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "51:52",
+   "en": "I was browsing through your LinkedIn post and you said something just like that on LinkedIn of just how formative that experience was for you. I know it's not something people can just say, \"Hey, I'm going to go to China and work for a startup,\" but it sounds like you recommend working at companies of different cultures because it feels like it is a lens.",
+   "zh": "我看过你 LinkedIn 上的帖子，你在那里也提到了这段经历对你的影响之深。我知道人们不能轻易说“我要去中国创业”，但听起来你确实推荐在不同文化背景的公司工作，因为这就像一面透镜。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "52:10",
+   "en": "Yeah. I do. I also think my family, I'm Jamaican, I'm a Jamaican immigrant, and so all of our experiences inform how we perform our jobs and how we think about problems. And being able to expand that, yes, I would recommend it to every and anyone that gets the opportunity. And I think it's really important as product managers because I think it's really hard to be a product manager if you cannot empathize with the people and problems that you're solving for, and being out of your comfort obviously is one way to learn empathy.",
+   "zh": "是的，我确实这么认为。我还觉得，作为牙买加移民，我的家庭经历影响着我们开展工作的方式和思考问题的方式。因此，我非常推荐每一位有机会出国工作的人都去体验一下这种文化差异。作为产品经理，这一点尤为重要，因为如果无法对所服务的用户和解决的问题产生共情，产品经理的工作就很难开展，而走出舒适区无疑是培养共情能力的有效途径。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "52:50",
+   "en": "I love that. One final question before we get to a very exciting lightning round, not to not count those questions. Are there just any frameworks or processes or methods that you found to be very valuable in your career as a product leader that you would want to share?",
+   "zh": "我特别喜欢这个问题。接下来进入激动人心的闪电问答环节（当然不会忽略其他问题）。作为产品领导者，你在职业生涯中发现了哪些极具价值的框架、流程或方法，愿意与大家分享吗？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "53:08",
+   "en": "The question I ask myself and I ask everyone in my life probably, whether it's on my team or when folks, friends talk to me, I always ask, \"What are you optimizing for?\" That's the question, it's what are you optimizing for? And it's the short, medium, lon-term in product, but it's what are you optimizing for today, this quarter, this year? Whatever time horizon. And I think that can be just a really illuminating way of thinking about obviously just how are you spending your time? And I think it works for product as well. Every time we talk about OKR or goal-setting, ultimately it is what are we optimizing for some period of time. And I think that always for me, whether personally or in product, is very illuminating.",
+   "zh": "我常问自己，也许会问身边每个人，无论是团队成员还是朋友——“你们在优化什么？”。这就是核心问题：你当下、本季度、本年度在优化什么？无论时间跨度如何。这能深刻揭示你如何分配时间，对产品工作同样适用。当我们谈论OKR或目标设定时，本质上都是在优化某个时间段的目标。对我个人和产品工作都极具启发意义。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:53",
+   "en": "I love that. I'm pretty sure I've asked that question 1,000 times myself. One thing I find though is people get annoyed with you just like, \"Okay. You're such a PM.\"",
+   "zh": "我特别认同。我自己也肯定问过上千次这个问题。不过有时候人们会嫌烦，觉得“好吧，你真是当产品经理当疯了”。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "54:02",
+   "en": "I know, but it works.",
+   "zh": "我知道，但这招确实有效。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:05",
+   "en": "It does work. What are some instances where you deploy this question? Is it in a meeting where someone's asking a question where you're just like, \"What are we optimizing for here?\"",
+   "zh": "确实有效。什么时候会用到这个问题？比如在会议上，当有人提问时，你会反问“我们现在优化什么？”"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "54:14",
+   "en": "I ask this question all the time. I ask this question to my husband. What are we optimizing for?",
+   "zh": "我经常问这个问题。比如我会问我丈夫：“我们现在优化什么？”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:17",
+   "en": "I'm sure he loves it.",
+   "zh": "我敢肯定他很喜欢被这么问。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "54:19",
+   "en": "He was a PM too, so he gets it.",
+   "zh": "他也曾担任过总理，所以他懂行。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:20",
+   "en": "Okay, okay. That's helpful.",
+   "zh": "好吧好吧。这挺有帮助的。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "54:23",
+   "en": "I ask this to my five-year-old, honestly. We talk about it a lot. Now we're going to quarterly planning, all of us, and now we have information from Q1 so let's look at it and say, \"Given what we know now, what are we optimizing for? Because it might not be the same thing we did before with new information or it may be,\" and that's usually just then helping us get better at figuring out obviously how we're doing trade-offs-",
+   "zh": "说实话，我会把这个问题问给我的五岁孩子。我们经常讨论这个话题。现在我们要进行季度规划，所有人都参与进来，现在我们有了第一季度的数据，所以让我们看看数据，再问问自己：\"基于我们现在所知，我们应该优化什么？因为新信息可能会改变之前的优化方向，或者可能保持不变。\"这通常能帮助我们更好地权衡利弊——"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:55",
+   "en": "That's awesome.",
+   "zh": "太棒了。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "54:56",
+   "en": "... because if the first point isn't clear, then the trade-offs aren't going to be clear.",
+   "zh": "……因为如果第一点不清楚，那么权衡利弊也会变得模糊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:59",
+   "en": "Yep. The other question is what problem are we trying to solve here? I feel like I need to make mugs and put these some mugs for product managers. Well, with that, we've reached our very exciting lightning round. I've got six questions for you. Are you ready?",
+   "zh": "是的。另一个问题是我们在这里试图解决什么问题？我觉得我需要制作一些杯子，把这些内容印在杯子上送给产品经理们。好吧，我们迎来激动人心的闪电问答环节了。我有六个问题要问你们。准备好了吗？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "55:13",
+   "en": "Yes. I don't think I prepped this, but I'm ready. Yes.",
+   "zh": "好的。我觉得我没准备这些问题，但我已经准备好了。是的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:16",
+   "en": "Okay. Well, it'll be the most fun then. What are two or three books that you recommend most to other people?",
+   "zh": "好的。那会很有趣的。你最推荐给其他人的两三本书是什么？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "55:23",
+   "en": "These are not product books. I recommend Anna Akhmatova's You Will Hear Thunder, a book of poetry that is excellent. I recommend almost anything by James Baldwin, The Fire Next Time I most recently reread, and back to software, High Output Management.",
+   "zh": "这些不是产品相关的书籍。我推荐安娜·阿赫玛托娃的《你将听到雷声》，这本诗集非常棒。我几乎推荐詹姆斯·鲍德温的所有作品，我最近重读了《下一个火灾季节》，再说回软件领域，《高效能管理》。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:43",
+   "en": "What are some favorite movies or TV shows they've recently watched that you really enjoyed?",
+   "zh": "你最近看过哪些你非常喜欢的电影或电视剧？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "55:49",
+   "en": "I am really into K dramas right now, and actually-",
+   "zh": "我现在对韩国电视剧很着迷，实际上——"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:52",
+   "en": "Is that Korean?",
+   "zh": "是韩语的吗？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "55:53",
+   "en": "... Korean dramas right now. Crash Landing on You, it's great. It's a love story.",
+   "zh": "……现在正在看的韩国电视剧。《爱的迫降》非常棒。这是一个爱情故事。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "56:01",
+   "en": "That's wonderful. Very out of the box. I love it. What's a favorite interview question that you like to ask?",
+   "zh": "太棒了。非常与众不同。我喜欢。你最喜欢问的一个面试问题是什么？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "56:08",
+   "en": "For product managers, we think about product in the context of artist, scientist, general manager. Where do you spike?",
+   "zh": "对于产品经理，我们从艺术家、科学家、总经理的角度来思考产品。你更倾向于哪一面？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "56:15",
+   "en": "Artist, scientist, general manager. Interesting. And is there one you ideally look for the answer or it depends on the role you're hiring for?",
+   "zh": "艺术家、科学家、总经理。很有趣。那么有没有一个方面是你理想中最希望应聘者具备的？还是说这取决于你招聘的职位？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "56:23",
+   "en": "It totally depends on the composition of my team.",
+   "zh": "这完全取决于我团队的构成。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "56:26",
+   "en": "Interesting. Cool. I like that. And a different triad. What's a favorite product you've recently discovered that you love?",
+   "zh": "有意思。酷。我喜欢这个观点。还有一个不同的三元组。你最近发现的最喜欢的产品是什么？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "56:33",
+   "en": "Arc by The Browser Company. I think they're a product that's clearly having a lot of fun and you can feel that in the product. When I first opened it, they have an unveiling experience, which isn't something you'd expect of a browser, and there was something really delightful about it.",
+   "zh": "浏览器公司推出的Arc产品。我觉得这是一款显然充满趣味的产品，从产品中你能感受到这种乐趣。当我第一次打开它时，他们设计了一个令人惊喜的揭幕体验——这可不是你对浏览器产品的常见期待，这种体验真的令人愉悦。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "56:51",
+   "en": "Yeah. I imagine you've heard the interview with Josh.",
+   "zh": "是啊。我想你应该听过乔希的采访。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "56:55",
+   "en": "I did.",
+   "zh": "是的，我听过。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "56:55",
+   "en": "What a guy. What a cool product. I love it. We have a whole hour and a half on it, so check that out if anyone wants to learn more about Arc. What is something relatively minor you've changed in your product development process that has had a tremendous impact in your team's ability to execute?",
+   "zh": "真是个了不起的人。产品太棒了。我超爱它。我们对此进行了长达一个半小时的讨论，如果大家想了解更多关于Arc的信息，可以去看看。你们在产品开发流程中有没有做出过一些相对细微的改进，却对团队的执行能力产生了巨大影响？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "57:11",
+   "en": "Helping product teams try and use product, design, engineering and data to understand their shared roles and responsibilities.",
+   "zh": "帮助产品团队尝试利用产品、设计、工程和数据来理解各自的角色和职责。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:19",
+   "en": "Awesome. Call back to our previous discussion. And final question. What's a pro tip for someone trying to use The Knot and or one of the other properties?",
+   "zh": "太棒了。回归我们之前的讨论。最后一个问题。如果有人想使用The Knot或其他相关平台，有什么实用建议吗？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "57:29",
+   "en": "Ooh, good question. Two things, but the big one is probably checking out The Knot Worldwide marketplace. It is the most comprehensive two-sided marketplace to find your wedding vendors to create your wedding team, and you'll find that they're really cool small businesses on there.",
+   "zh": "哦，好问题。有两个建议，但最重要的可能是去看看The Knot全球市场平台。这是寻找婚礼供应商、组建婚礼团队最全面的双边市场平台，你会发现那里有很多很棒的小型企业。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:47",
+   "en": "Awesome. I'm going to go check that out. Nikita, thank you so much for being here. I'm going to go and ask my wife what she's optimizing for and read some stuff on the phone.",
+   "zh": "太棒了。我要去看看。尼基塔，非常感谢你今天的参与。我要去问问我妻子她在优化什么，然后再手机上看看资料。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "57:56",
+   "en": "Good luck.",
+   "zh": "祝你好运。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "57:57",
+   "en": "Wish me luck.",
+   "zh": "祝我好运吧。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "57:58",
+   "en": "You said she's pregnant, right? She's optimizing for creating a human probably.",
+   "zh": "你说她怀孕了，对吧？她可能在为孕育新生命做准备。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "58:02",
+   "en": "Yeah. That seems right. Okay. I'm not going to ask. Two final questions. Where can folks find you if they want to reach out and learn more about what you're up to and how can listeners be useful to you?",
+   "zh": "是啊，看来没错。好吧，我不问了。最后两个问题。如果大家想联系你、了解更多信息，或者听众能如何为你提供帮助，可以通过哪些渠道联系你？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "58:13",
+   "en": "You? I'm on Twitter and LinkedIn, easy enough to find me. I am very responsive actually, or at least I try to be when folks reach out on anything product related. And ask me questions. I think that's always helpful. If you have other ways of doing things, I'd love to hear about it.",
+   "zh": "您？我在推特和领英上，有兴趣的话可以轻松找到我。实际上我回复消息很及时的，至少我会尽力回复任何与产品相关的问题。欢迎随时提问，我觉得这总是很有帮助的。如果您有其他做事方式，我很乐意听听。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "58:29",
+   "en": "You mentioned also that you're doing some angel investing. Is there anything you're looking for specifically that you'd want people to ping you about?",
+   "zh": "您还提到自己在做天使投资。您是否有特定的方向，希望人们能主动联系您？"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "58:35",
+   "en": "I am doing some angel investing, maybe a little bit less so recently, but I'm starting to ramp that up again. So if there are any early stage seed or pre-seed companies out there, you can ping me.",
+   "zh": "我确实在做天使投资，不过最近参与得少了些，但我正打算重新加大投入。所以如果有处于早期种子阶段或预种子阶段的公司，欢迎随时联系我。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "58:47",
+   "en": "Amazing. Nikita, thank you again so much for being here.",
+   "zh": "太棒了。尼基塔，再次感谢您参与这次访谈。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "58:50",
+   "en": "All right. Thanks a lot, Lenny.",
+   "zh": "好的，非常感谢，莱尼。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "58:52",
+   "en": "Bye, everybody.",
+   "zh": "大家再见。"
+  },
+  {
+   "speaker": "Nikita Miller",
+   "ts": "58:52",
+   "en": "Bye.",
+   "zh": "再见。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "58:55",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢您的收听。如果您觉得本期内容有价值，可以在苹果播客、Spotify或您喜欢的播客应用上订阅本节目。同时，欢迎给我们评分或留下评论，这对其他听众发现本节目非常有帮助。您可以在 lennyspodcast.com 查看往期节目或了解更多信息。下期节目见。"
+  }
+ ]
+}

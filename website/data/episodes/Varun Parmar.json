@@ -1,0 +1,869 @@
+{
+ "id": "Varun Parmar",
+ "name": "Varun Parmar",
+ "category": "企业管理",
+ "identity": "营销/增长",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Varun+Parmar",
+ "bio": {
+  "en": "Varun Parmar is Chief Product Officer at Miro and previously SVP and Chief Product Officer at Box, known for Miro's distinctive product culture.",
+  "zh": "Varun Parmar 是 Miro 的首席产品官（CPO），此前曾任 Box 的高级副总裁兼首席产品官，以 Miro 独具特色的产品文化而闻名。"
+ },
+ "summary": {
+  "en": "Varun discusses what makes Miro's product culture distinctive, how a visual-collaboration company scales while staying close to users, and lessons from leading product at both Box and Miro. He covers product-led growth, the role of craft and design, and how to keep quality high as a collaboration tool expands across enterprises. The episode is a practitioner's view of building beloved B2B products.",
+  "zh": "Varun 讨论了是什么让 Miro 的产品文化独具特色、一家视觉协作公司如何在贴近用户的同时规模化，以及从在 Box 与 Miro 领导产品中学到的经验。他涵盖了产品驱动增长、工艺与设计的作用，以及当协作工具向企业扩张时如何保持高品质。本期是关于打造受人喜爱的 B2B 产品的实践者视角。"
+ },
+ "turns": [
+  {
+   "speaker": "Varun Parmar",
+   "en": "Every single day, every single time somebody is pushing your code to production and you're releasing a feature or an enhancement, you are making the product better or you're making the product worse, but the products never remain same. So with every release that your competitor is making and every release that you're making, you are either making chess points, moves against them, positive points, or you're going negative. I think that framework, it actually drives an insane amount of clarity in terms of what you're doing and what the impact is going to be.",
+   "zh": "每一天，每当有人将你的代码推送到生产环境，你发布一个新功能或改进时，产品要么变得更好，要么变得更糟——但产品永远不会保持原样。因此，每当你的竞争对手发布新版本，或者你自己发布新版本时，你要么在与他们的“博弈”中占得先机，要么处于劣势。我认为这种思维框架能极大地帮助你清晰认识自己的工作方向，以及所产生的影响力究竟有多大。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast, where I interview world-class product leaders and growth experts to learn from their hard-won experiences building and growing today's most successful products. Today my guest is Varun Parmar. Varun is chief product Officer at Miro, and prior to Miro, he was senior vice president and chief product officer at Box. As I share with Varun at the start of our chat, I've always been really curious about the product culture at Miro, partly because everyone I've ever met from Miro has been super interesting and super smart, and partly because they've been able to grow as a business and a product in an incredibly competitive market. (00:01:07): In our conversation, we get really deep into the product values and principles at Miro, their product development process, how Varun approaches competitive threats, how a bimonthly company-wide product demo ritual led to saving months of engineering work on a feature, plus insights into how Miro got started, how they grow today, and what their product team has learned about working with a large sales org. Varun is amazing, I learned a lot, and I hope you find it as interesting as I did. With that, I bring you Varun Parmar after a short word from our sponsors. (00:01:39): Today's episode is brought to you by Miro, an online collaborative whiteboard that's designed specifically for teams like yours. I have a quick request. Head on over to my Miro board at miro.com/lenny and let me know which guests you'd want me to have on this year. I've already gotten a bunch of great suggestions, which you'll see when you go there, so just keep it coming. While you're on the Miro board, I encourage you to play around with the tool. It's a great shared space to capture ideas, get feedback, and collaborate with your colleagues on anything that you're working on. For example, with Miro, you can plan out next quarter's entire product strategy. You can start by brainstorming, using sticky notes, live reactions, a voting tool, even an estimation app to scope out your team's sprints. Then your whole distributed team can come together around wire frames, draw ideas with a pen tool, and then put full mocks right into the Miro board. (00:02:29): With one of Miro's ready-made templates, you can go from discovery and research to product roadmaps to customer journey flows to final mocks, all in Miro. Head on over to miro.com/lenny to leave your suggestions. That's M-I-R-O.com/lenny. This episode is brought to you by Braintrust, where the world's most innovative companies go to find talent fast so that they can innovate faster. Let's be honest, it's a lot of work to build a company and if you want to stay ahead of the game, you need to be able to hire the right talent quickly and confidently. Braintrust is the first decentralized talent network where you can find, hire and manage high quality contractors in engineering, design and product for a fraction of the cost of agencies. Braintrust charges a flat rate of only 10%, unlike agency fees of up to 70%, so you can make your budget go four times further. (00:03:22): Plus they're the only network that takes 0% of what the talent makes, so they're able to attract and retain the world's best tech talent. Take it from DoorDash, Airbnb, Plaid, and hundreds of other high growth startups that have shaved their hiring process from months to weeks at less than a quarter of the cost by hiring through Braintrust network of 20,000 high quality vetted candidates ready to work. Whether you're looking to fill in gaps, upskill your staff or build a team for that dream project that finally got funded, contact Braintrust and you'll get matched with three candidates in just 48 hours. Visit useBraintrust.com/lenny or find them in my show notes for today's episode. That's usebraintrust.com/lenny for when you need talent yesterday. Varun, welcome to the podcast.",
+   "zh": "欢迎来到Lenny的播客节目，我在节目中采访世界级的产品领袖和增长专家，从他们在打造和发展当今最成功产品的过程中积累的宝贵经验中汲取智慧。今天的嘉宾是Varun Parmar。他是Miro公司的首席产品官，在加入Miro之前，曾在Box公司担任高级副总裁兼首席产品官。正如我在节目开始时与Varun分享的那样，我一直对Miro的产品文化非常好奇，部分原因是Miro的每位员工都极具智慧且充满趣味，另一部分原因是他们在竞争激烈的市场中成功实现了业务和产品的双重增长。  \n（00:01:07）：在我们的对话中，我们深入探讨了Miro的产品价值观和原则、产品开发流程、Varun如何应对竞争威胁、每两个月一次的全公司产品演示仪式如何节省了数月的工程开发时间，以及Miro如何起步、如何实现当前增长，以及产品团队在与大型销售团队合作中积累的经验。Varun非常出色，我从他身上学到了很多，希望你们也能和我一样感兴趣。接下来，在我们的赞助商简短致辞后，欢迎Varun Parmar。  \n（00:01:39）：本期节目由Miro赞助，这是一款专为像您这样的团队设计的在线协作白板。我有一个小请求。请前往我的Miro板miro.com/lenny，并告诉我今年您希望我邀请哪位嘉宾。我已经收到了许多精彩建议，当您访问该页面时就能看到，所以请继续分享您的想法。在Miro板上，您可以利用这款出色的共享空间捕捉创意、获取反馈，并与同事就正在进行的项目展开协作。例如，您可以使用Miro规划下一季度的整个产品策略。您可以从头脑风暴开始，使用便利贴、实时反馈、投票工具，甚至估算应用来规划团队的冲刺阶段。然后，整个分布式团队可以围绕线框图展开讨论，用笔工具绘制创意，并将完整的模型直接添加到Miro板上。  \n（00:02:29）：借助Miro的现成模板，您可以在Miro中完成从探索与研究到产品路线图，再到客户旅程流图，最后到最终模型的全过程。请前往miro.com/lenny留下您的建议。网址是M-I-R-O.com/lenny。本期节目由Braintrust赞助，全球最具创新力的公司在此快速寻找人才，以便更快地创新。说实话，建立一家公司需要付出大量努力，如果您想保持领先地位，就必须能够快速、自信地招聘到合适的人才。Braintrust是首个去中心化人才网络，您可以在这里找到、雇佣和管理工程、设计和产品领域的高质量承包商，费用仅为传统机构的十分之一。Braintrust收取10%的固定费用，而传统机构收费高达70%，因此您的预算可以延长四倍。  \n（00:03:22）：此外，Braintrust不抽取人才收入，因此能够吸引和留住全球最优秀的科技人才。看看DoorDash、Airbnb、Plaid等数百家高增长初创公司吧，它们通过Braintrust的20,000名经过严格审核、随时待命的高质量候选人网络，将招聘流程从数月缩短至数周，成本不到传统招聘的四分之一。无论您是想填补空缺、提升员工技能还是组建梦想团队，Braintrust都能助您一臂之力。\n终于获得资金支持的项目？联系Braintrust，48小时内就能匹配到三位候选人。访问useBraintrust.com/lenny，或在今日节目的节目笔记中查找相关信息。需要紧急招募人才时，请访问usebraintrust.com/lenny。欢迎Varun做客本期播客。",
+   "ts": "00:00:33"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Thank you, Lenny. So excited to be here. Thanks for having me.",
+   "zh": "谢谢你，Lenny。很高兴能来这里。感谢你们邀请我。",
+   "ts": "00:04:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm really excited to have you here. I've been looking forward to having a chance to dig into Miro's product culture and the way Miro works for a while. We've actually had a few guests, ex-Miro... Mironeers, is that what you call yourselves?",
+   "zh": "我真的很高兴你们能来这里。我一直期待有机会深入了解Miro的产品文化和工作方式。实际上，我们已经接待过几位前Miro员工……你们自称\"Mironeers\"吗？",
+   "ts": "00:04:13"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes, Mironeers.",
+   "zh": "是的，Mironeers。",
+   "ts": "00:04:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Mironeers. So we had Elena Verna on the podcast, who's amazing, and Barbara who I think worked in marketing and everyone I've always met from Miro has been just really smart and really interesting and it just feels like you guys have a really interesting product culture that I haven't felt like has been shared a lot, and so I have a bunch of stuff I want to dig into there. One question I have at the bat, you guys have a really interesting history and specifically the way your company's structured, which is that you're collocated in Amsterdam and San Francisco. First of all, is that correct?",
+   "zh": "好的。Mironeers。之前我们在播客上邀请了Elena Verna，她非常棒，还有Barbara，我记得她在市场部工作过。到目前为止，我遇到的每位Miro员工都非常聪明且有趣。我感觉你们有非常独特的产品文化，而这部分内容分享得还不够，所以我有很多想深入探讨的地方。首先，我有个问题想问，你们公司有非常有趣的历史，尤其是公司的组织架构——在阿姆斯特丹和旧金山办公。首先，这说法对吗？",
+   "ts": "00:04:27"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "The company is a global company, so we've got 12 different hubs. We have multiple offices in US, four different offices, and then multiple hubs in Europe as well, and presence in AsiaPac as well. I think by now we have a global footprint, yeah.",
+   "zh": "这家公司是全球性的，所以我们有12个不同中心。在美国我们有多个办事处，包括四个不同的办公室，在欧洲也有多个中心，在亚太地区也有业务。可以说，我们现在已经形成了全球布局。",
+   "ts": "00:05:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. A question I wanted to ask off the bat is just how has that cross-cultural approach to product teams impacted the way that you guys built product and the way the company operates?",
+   "zh": "明白了。我首先想问的是，这种跨文化的产品团队协作方式如何影响了你们的产品开发和公司运营方式？",
+   "ts": "00:05:17"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "The one thing that's really interesting, Lenny, around the way Miro is set up is that our product organization is actually based in Europe and our go-to-market organization is worldwide. Our product management team, our designers, our engineers are located across three different hubs in Europe. What that sort of leads to is a couple of practices that we have as part of our culture. The first one is practicing empathy to gain insights. It's not just practicing empathy in terms of customers and figuring out what customer pain points and problems we can solve, but given our distributed nature in terms of having a global footprint and a lot of our go to market teams, folks in sales and marketing and customer success are in different continents or geographies, we have to make sure that we actually practice that internally. When we are interacting with folks, let's say in San Francisco, and those folks are out there meeting some of our large customers and stuff, how do we, in the product organization, understand their perspective, and bring that perspective into how we design, prioritize and build products? I think that's one thing that's unique. (00:06:43): I would say the other thing that's less to do with the location, but I think is sort of the core cultural value or philosophy that Andre, who's the founder and CEO has instilled in all of us, is practicing teamwork, how do we actually come together as a team, and bring down the silos that might exist across functions? I'll talk a little bit around how we are structured in the product organization so that it's a cross-functional perspective we bring to everything that we're doing because we believe the best work happens when we bring different diverse perspectives to the problem and then co-create the outcome that the customer is looking for.",
+   "zh": "Lenny，关于Miro的组织架构，最有趣的一点是我们的产品组织实际上设在欧洲，而我们的市场团队则遍布全球。我们的产品管理团队、设计师和工程师分布在欧洲的三个不同中心。这导致了我们文化中的一些实践。首先是通过共情获得洞察。这不仅仅是针对客户，理解他们的痛点和我们能解决的问题，而是考虑到我们的分布式特性——全球布局和许多市场团队分布在不同大洲或地区，我们必须在内部践行这种共情。当我们与旧金山的团队互动时，比如他们在那里与大客户会面，我们产品团队如何理解他们的视角，并将这种视角融入到产品设计、优先级排序和开发中？我认为这是独特之处之一。（00:06:43）：另外还有一点与地理位置无关，但我认为这是创始人兼CEO Andre灌输给我们所有人的核心文化价值或理念，那就是团队合作，如何真正凝聚成一个团队，打破跨职能部门可能存在的隔阂。我会稍微讲讲我们在产品组织中的架构，这样我们做任何事情都能从跨职能的角度出发，因为我们相信，当我们为同一问题带来多元视角并共同创造客户期望的结果时，就能产出最优质的工作。",
+   "ts": "00:05:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to pull on these threads actually real quick. You talked about this value of empathy and the importance of having empathy across... because you guys are located in different locations and have different cultures, and also this idea of teamwork. What's something that you've done that helps you do that, either build empathy and maintain empathy across teams or make sure that people work in teams and not like, \"Hey, there's this other team over there doing something else\"?",
+   "zh": "实际上，我想快速谈谈这些要点。你提到了同理心的价值，以及在不同团队和文化中培养同理心的重要性，还有团队合作的理念。你们团队分布在不同地区，拥有不同文化背景，那在这种情况下，做了哪些有助于建立和维系团队同理心的举措？或者说，如何确保团队成员能够协同工作，而不是各自为政、互不相让？",
+   "ts": "00:07:20"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "One of the most powerful things that I've seen work is the questions that you ask, the questions that you ask when you're going through product review or you are going to sit down and talk to someone and trying to understand why did they prioritize something over the other and was it something that was done through interactions they've had with folks internally or externally? I think it's the set of questions to ask in terms of how did they get to where they are today and was it informed by understanding of the insights that collectively the organization has? Was it informed by their understanding of where the market is evolving, where the competition is going. (00:08:31): Was it informed through the series of insights they have, either through inbound feedback that's coming through our different channels where customers are giving feedback or some outbound interactions that they've had? I think just trying to double click and getting to the details in terms of what insight led them to recommend certain things or make a left turn or a right turn is where I think is the most powerful way to make sure that those things are informed through practicing empathy internally and externally.",
+   "zh": "我见过最有效的方法之一，就是在产品评审或与他人沟通时，通过提问来理解他们的优先事项——这些优先事项是基于与内部或外部人员的互动而形成的吗？我认为关键在于追问他们是如何形成当前决策的，这些决策是否源于对组织共识的深刻理解？是否源于对市场动态和竞争趋势的敏锐洞察？（00:08:31）是否源于通过多种渠道收集的用户反馈？或者是基于与客户的主动沟通？我认为深入探究这些细节——比如某个洞察是如何促使他们推荐某种方案、调整策略方向的——才是确保同理心在内外部实践中落地的最有效方式。",
+   "ts": "00:07:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. There's this kind of cultural value of just assuming good intention and asking questions to understand where someone came from. I don't know if you'll have something off the top of your head, but is there a story or an example of that comes to mind where that was done well or not done well, I don't know, in something you recently were building?",
+   "zh": "明白了。这其实是一种文化价值，即假定他人怀有善意，通过提问来理解他们的出发点。我不知道你能否即兴举例，但有没有什么成功或失败的案例，能说明在近期开发项目中如何践行或未能践行这种文化？",
+   "ts": "00:08:59"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Maybe there are certain things, for example, anytime we're trying to build a new experience, one of the approach we want to take is very quickly validate that our original hypothesis, is that sound or not. We are big fans of the Design Sprint framework, what Jake Knapp has done I think is really amazing. In a short five-day window, you can get a small set of people to quickly mock up a concept, convert it into some sort of a prototype and then go out there and get some sort of a validation. Oftentimes when we are working on some of these new things, we have our product teams that are focused on zero to one initiatives, run this five-day initiative, and at the end of it we say, \"Oh, this is great. Who did you get insight from?\" There's a capability that we recently released, it's called Miro Talktrack, which essentially allows you to asynchronously do asynchronous collaboration by recording audio video on top of a Miro board. (00:10:16): We had two fundamental choices we could make. One, we could go down the path of what everyone's doing where you could do a screen recording and then spit out a series of videos, like pixels being captured. Or what we did was we actually went down a different path and the path that we went down was we basically synchronized the movement of the board. Let's say Lenny's presenting a board, some template he's created in terms of best practices for PMs, but he wants to have some sort of a talk track on top of it, an audio video feed. What we are doing is we're actually capturing the movement of the board that Lenny's going through along with the video talk track that's on top. The reason why we did that was because we had an insight that came through some of our interviews. (00:10:56): What our users want to do is they want to use Miro for collaboration. While communication is an important aspect of how teams come together, where we believe our sweet spot is that we want people to use Miro for collaboration. By making sure that they could actually use a video recording and while the video recording is playing, they could add in a sticky note, they could add in a comment, they could actually give a reaction. We were able to develop this insight by practicing empathy as part of the Design Sprint framework when we went and started to show our original concept and we walled and built on top of that.",
+   "zh": "或许有些事情是这样的，比如，每当我们尝试打造一种新体验时，我们想要采取的方法之一就是尽快验证我们的初始假设是否正确。我们非常推崇Design Sprint框架，杰克·纳普（Jake Knapp）所做的工作确实令人惊叹。在短短五天的时间里，你就能召集一小群人，快速构思一个概念，将其转化为某种原型，然后去验证它。很多时候，当我们开发这些新事物时，我们的产品团队专注于从0到1的创新项目，开展这个为期五天的项目，最后我们会说：“哦，太棒了。你们从哪里获得的洞察？”最近我们发布了一项名为Miro Talktrack的功能，它本质上允许你通过在Miro白板上录制音频和视频来异步进行协作。（00:10:16）：我们有两个基本的选择。一种是走大家都在走的路线——你可以进行屏幕录制，然后输出一系列像素化的视频。或者我们选择了一条不同的路径，我们基本上同步了白板的移动。假设莱尼（Lenny）正在展示一个白板，一些他为项目经理创建的最佳实践模板，但他希望在上面添加音频视频反馈。我们实际上是在捕捉莱尼操作白板的过程，以及叠加在上面的视频对话轨道。我们这样做的原因是，我们在一些采访中获得了一个洞察。（00:10:56）：我们的用户想要的是使用Miro进行协作。虽然沟通是团队合作的一个重要方面，但我们认为我们的核心优势在于让人们使用Miro进行协作。通过确保他们可以在视频播放时添加便签、评论和反应，我们能够开发出这种洞察。在我们实践Design Sprint框架并开始展示我们的原始概念并在此基础上进行迭代时，我们获得了这种洞察。",
+   "ts": "00:09:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is a really cool story. That came out of this Sprint framework, these five-day sprint approach.",
+   "zh": "这真是个很酷的故事。这是从Sprint框架、这种为期五天的冲刺方法中诞生的。",
+   "ts": "00:11:31"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes, that's right. Yeah.",
+   "zh": "是的，没错。是的。",
+   "ts": "00:11:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is cool. I got to have that guy on this podcast. Jake Knapp, you said, right?",
+   "zh": "太酷了。我一定要把那个人请到播客上来。杰克·纳普（Jake Knapp），对吧？",
+   "ts": "00:11:37"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes, yes, yes. I can text him right now and I can make the introductions, yes.",
+   "zh": "是的，是的，是的。我现在就可以给他发短信，介绍一下情况，是的。",
+   "ts": "00:11:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's pull him right into this podcast live, tell us how the Sprint process works. That is awesome. This connects a little bit to another question I wanted to ask around the top is, you guys are in a really competitive space and it feels like Miro was very early in online collaborative whiteboarding space and then I think during COVID it just became huge, with the remote work exploding. Like, \"Holy shit, everyone needs this immediately.\" Over the years, many companies have come into the space that you are all in and it feels like Miro continues to do extremely well. I remember when Figma launched FigJam, there was a lot of just like, \"Miro's dead. Figma's getting into the space, they're juggernaut, game over.\" Clearly that's not been the case and it just feels like, I don't know what it is internally that you all do that continues to allow you to compete and continue to innovate in the space. I'm curious just like is there something to how Miro approaches competition and also just, I don't know, the way they approach these sorts of challenges that is unique or interesting that you can share?",
+   "zh": "让我们直接把他接入这期播客现场，跟我们讲讲Sprint流程是如何运作的。太棒了。这也与我之前想提的一个问题有些关联。你们所处的领域竞争激烈，Miro在在线协作白板领域确实走在了前列。然后在新冠疫情期间，随着远程办公需求激增，这一领域一下子火爆起来。“天哪，每个人都迫切需要这个工具！”这些年来，许多公司涌入了你们所在的市场，但Miro始终表现出色。我记得Figma推出FigJam时，很多人都在说“Miro死定了，Figma要进军这个领域，他们是巨头，游戏结束了”。显然事实并非如此，我很好奇你们内部做了哪些举措，才能在竞争中立足并持续创新。我很好奇Miro是如何应对竞争的，还有，他们应对这些挑战的方式是否有独特或值得借鉴之处？",
+   "ts": "00:11:45"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "If you look at the mission for Miro, we empower teams to create the next big thing and our focus is to enable teams that are innovating, and generally innovation happens at the intersection of a bunch of cross-functional folks coming together. Like we discussed, folks in product management or design or engineering or analytics or product marketing or research. What we find, Lenny, is that there are a lot of tools out there and those tools are generally sort of focused on a particular persona and maybe they're trying to solve the needs of a designer and a designer has a workflow that they're trying to do and they're using a specific tool and they sit at the adjacency of extending that core use case. The fundamental value that Miro provides is that we enable teams. I think what's unique about our product, and we can talk about the capabilities and roadmaps and use cases that we are investing in and we already have as part of the product, is that we take a team-centric lens. (00:13:50): So we're not saying, \"Hey, we're building a tool that just works for designers,\" or \"Hey, we're building a tool that just works for engineers.\" Because we fundamentally believe that innovation happens when cross-functional teams come together. When you look at the problem through that lens, you realize that you have to actually architect your solution. You have to think about the use cases and you have to go and prioritize certain experiences that are different and our customers see value in that, right? I think that's probably one sort of big macro aspect of how we think about our capabilities and products and why our customers think of us differently. I'd say that's say one point. (00:14:27): I think the second thing is Miro is actually used obviously by teams that are creating these innovative products and we actually have broad applicability across industries and verticals. While some tools might be hyper-focused on digital experiences and Miro's has great offerings there in terms of core capabilities, what we find is that Miro is used equally by companies in manufacturing, by companies in healthcare, by companies in architecture and engineering and construction functions, by companies that are in aerospace, governmental agencies and medical agencies and so on and so forth. I think the platform is actually much more agnostic in terms of its capabilities and what we offer that actually makes it more accessible and appealing to organizations that want to go beyond just digital experiences. (00:15:26): Then I would say finally there are capabilities that are available very, very uniquely to Miro that are valued by our users. That again is a big reason people come to Miro. For example, if Lenny's trying to conduct a big workshop with a bunch of product folks and he wants to facilitate that workshop and wants to have certain folks focus on one part of the board and while others focus on the other part, then there are some advanced capabilities that enable certain use cases like workshops. Or if you want to use Miro for some team rituals or from some agile practices, there are core set of capabilities that you could use the product for that are missing in some of the other capabilities. I would say a combination of all of those three things continue to drive differentiation. I would say on top of that, we are a big fan of our community and we believe that community love is what drives us. That's the fuel that keeps us going every single day.",
+   "zh": "若审视Miro的使命，我们致力于助力团队创造下一个重大创新成果。我们的核心关注点在于赋能创新团队，而创新往往诞生于跨职能人才的深度协作之中。正如我们此前所讨论的，产品管理、设计、工程、分析、产品营销及研究等领域的专业人士共同汇聚，形成创新生态。伦尼，我们发现市面上诸多工具大多针对特定人群，或许试图满足某类设计师的需求——这些设计师遵循特定的工作流程，使用专属工具，并在核心用例的基础上进行拓展。而Miro的核心价值在于赋能团队协作。我认为我们的产品独具特色，无论是正在投入开发的功能模块，还是现有产品中的核心体验，都秉持以团队为核心的视角。我们从不局限于“专为设计师打造的工具”或“专为工程师打造的工具”，因为我们坚信创新源于跨职能团队的深度协作。若以此视角审视问题，你会发现必须精心设计解决方案，深思用户场景，并优先优化差异化体验——我们的客户正是因此深有共鸣。这或许是我们构建产品能力的核心理念，也是客户对我们评价不同的关键原因之一。\n\n（00:13:50）第二点在于，Miro确实被众多创新团队所采用，但其适用场景远不止数字体验领域。我们为各行业、垂直领域提供广泛适用性方案。虽然部分工具可能专注于数字体验，Miro在核心功能方面也表现出色，但我们发现Miro同样深受制造业、医疗、建筑工程、航空航天、政府机构、医疗机构等领域的青睐。其平台能力的包容性，使得Miro超越单一数字应用场景，吸引更多组织客户。\n\n（00:15:26）最后，Miro独有的核心功能深受用户推崇。这正是用户选择Miro的关键原因。例如，当伦尼需要组织产品团队大型研讨会时，他可以灵活配置会议板，让部分成员专注某个模块，而其他人则关注其他区域。此外，Miro还支持敏捷开发中的团队仪式，提供其他工具所缺乏的核心协作功能。三者协同作用持续打造差异化竞争优势。\n\n除此之外，我们深信社区力量是推动产品发展的核心动力。正如伦尼所言，社区的支持是我们前进的不竭动力。",
+   "ts": "00:12:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Just to summarize and I was taking notes as you're chatting, just thinking about what allows you all to continue to do well in the market, considering all the competition constantly coming at you. One, as you mentioned, just there's kind of like a innate multi-functional architecture which is hard for someone to copy if they weren't built from that without the start. Two, it sounds like you are focusing on a wide spectrum of personas and it's not just tech employees basically. Also, just there's specific features that end up being really important that maybe people have a hard time building and then this last piece of the community. Awesome.",
+   "zh": "太棒了。总结一下，您在聊天时我一直在做笔记，想了解面对激烈的市场竞争，你们是如何持续保持出色表现的。首先，正如您提到的，Miro具备一种与生俱来的多功能架构，如果不是从一开始就基于这种架构构建，其他人很难复制。第二，听起来你们正在关注广泛的用户群体，而不只是技术员工。此外，某些特定功能对用户至关重要，但其他公司可能难以开发。最后是社区建设。太棒了。",
+   "ts": "00:16:31"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yep.",
+   "zh": "是的。",
+   "ts": "00:17:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's dig into the product team a little bit and understand how you all build product and structure product team. How many PMs are there at Miro? Then just broadly, how many employees, just to give people a set of, little bit of context?",
+   "zh": "让我们深入了解一下产品团队，了解你们如何构建产品和组织产品团队。Miro的产品经理有多少人？然后大致说一下，员工总数是多少？给人们一点背景信息。",
+   "ts": "00:17:09"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Give or take about 1,800 employees at Miro globally across all of the 12 hubs, and specifically in terms of the number of product managers, there are over 450 PMs in the team.",
+   "zh": "Miro在全球12个中心共有约1,800名员工。具体来说，产品经理团队有450多人。",
+   "ts": "00:17:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Then how's the product team structured? Is it like outcome oriented? Is it product area oriented? Is it user persona oriented? Is it something else? How do you think about the structure of the product team?",
+   "zh": "那么产品团队是如何组织的？是以结果为导向？是以产品领域为导向？是以用户角色为导向？还是其他方式？您如何看待产品团队的结构？",
+   "ts": "00:17:34"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, so I would say it's maybe a hybrid structure that we have, but the foundation of the team setup is around persona. We have what we refer to as streams, some companies refer to as domains, but essentially it's a set of individuals that are focused on solving the problems for a key persona. Just to give you an example, we have a stream that's focused on enterprise, and in enterprise we are looking at the IT admin persona, we're looking at the security persona or the compliance persona. There are a set of folks who are creating a roadmap and innovating for that audience. There's another stream which is called platform where we are going after the developer install base, folks that want to use Miro as a platform and build apps that they can actually make available either on the marketplace for everyone to use or they could be developers that are inside of a large organization and they're trying to integrate Miro with their specific use cases and workflows and business systems. That's another sort of stream that's focused on that, and there are a couple of other streams like that. (00:18:53): Then finally there are some just horizontal sort of streams, if you will. We have a big focus given that we are a PLG-led company around growth and self-serve business. We've got a stream that's actually focused on our core internal infrastructure. We've got a stream that's actually focused on data science that's doing all of the magic that we started to release in terms of Miro AI, et cetera, et cetera. I would say it's a combination of those. At the heart of it is we are focused on personas and we are sort of aligning people around solving problems and creating value for that persona.",
+   "zh": "嗯，我会说我们可能采用的是混合型结构，但团队的基础是围绕用户角色展开的。我们有所谓的\"流\"（streams），有些公司称之为\"领域\"（domains），但本质上是一组专注于为关键用户角色解决问题的团队。举个例子，我们有一个专注于企业的流，在企业领域，我们关注IT管理员、安全或合规人员。有一群人正在为这些用户群体制定路线图并进行创新。还有一个名为\"平台\"的流，专注于开发者群体，他们希望将Miro作为平台，开发应用程序，这些应用程序可以在市场上供所有人使用，或者他们可能是大型组织中的开发者，试图将Miro与他们的特定用例、工作流程和业务系统集成。这是另一个专注于此的流，还有其他类似的流。（00:18:53）最后，还有一些横向的流。如果您愿意这么说的话。我们作为PLG驱动型公司，非常关注增长和自助式业务。我们有一个专注于核心内部基础设施的流，还有一个专注于数据科学的流，它负责我们开始推出的Miro AI等功能。我会说这两者相结合。核心是我们专注于用户角色，并围绕为这些用户角色解决问题和创造价值来组织团队。",
+   "ts": "00:17:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really interesting. One of the downsides of a persona-based approach I imagine is that features keep getting added that solve that user's pain points. What have you learned about keeping the product consistent and having a holistic perspective on the experience? How do you address Those challenges?",
+   "zh": "真有意思。我想，基于用户角色（persona）的方法的一个缺点是，产品会不断添加新功能来解决用户的痛点。在保持产品一致性以及从整体视角看待用户体验方面，您有何心得？您是如何应对这些挑战的？",
+   "ts": "00:19:24"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Architecturally, there are two sort of things that we have done that allow us to not pigeonhole ourselves into that specific way of working. I completely agree with you, you could lead to that. The first one is actually when we think about the product org, we call our org, it's called AMPED, A-M-P-E-D. This is actually going back to our earlier point, Lenny, we had around what's unique about the product culture, what's unique about Miro, and we talked about teams coming together, removing barriers or silos cross-functionally. AMPED stands for analytics, marketing, product, engineering and design. And everything that we do in the product org, when we say the product org, we actually don't meet product managers. We actually don't mean product managers, designers and engineers. What we mean by product org in Miro is this AMPED function. By having this cross-functional representation where product marketing team is deeply, deeply embedded inside of each of these streams, what we do is that we have different perspectives that come in where they say, \"Oh, wait a second, did you think about the end user experience?\" (00:20:49): If you think about the end user experience, you know have someone on the team that says, \"Wait a second, did you actually think about the enterprise requirements or what's needed in the largest corporation?\" I think the unique setup of bringing these cross-functional folks allows us to sort of course correct. The second thing is the ways of working that we have. We have these product reviews that happen. We generally classify anything that we are doing in terms of its complexity around a small, medium or high complexity, and anything that's being worked on is actually being shared with the entire organization. If it's something that's small to medium, it's actually shared with the entire product org. In fact, if you are non-product, you can actually subscribe to that Slack channel as well. Everybody sees what the product org is working on, everybody sees what the core hypothesis is, \"What is the solution for that, what is the proposed design for it, how are we thinking about the capabilities?\" (00:21:49): Then anything that's big actually goes through a formal process like a product review where there's a meeting and a bunch of us are in there and it's up to us, including the product leaders, to basically make sure that we are connecting the dots in terms of having a much more holistic perspective. I would say lastly, as Miro has sort of scaled the spectrum of companies all the way from a team that might have two or three people and might be taking out their credit card and using Miro for their own team all the way to a large corporation that might have 50,000, 80,000 employees, all of them are using Miro. We've come to realize that at some point the deep enterprise requirements need to be encapsulated in a set of requirements or best practices and we need to make sure that those get democratized across all of the feature teams. (00:22:36): When I'm thinking about building a new feature, I have a checklist in front of me where I can say, \"Here are the 10 things that I need to think of that I need to incorporate early on in my thinking in the architecture, in the definition of the process, so that it doesn't come downstream.\" I would say that's an area where we're still working on and more recently we put more focus and energy and there's a product manager who's now leading that particular charter.",
+   "zh": "架构层面上，我们采取了两种策略，使我们不必局限于某种特定的工作方式。我完全同意你的观点，你提到的方向是正确的。第一点是，当我们思考产品组织时，我们称之为AMPED（A-M-P-E-D）。这一点回到了我们之前提到的观点，Lenny，我们探讨了产品文化的独特之处，以及Miro的独特之处——跨职能团队的协作与打破壁垒。AMPED代表分析、市场营销、产品、工程和设计。在产品组织中，一旦提到产品组织，我们实际上不单指产品经理、设计师和工程师。我们在Miro所说的产品组织指的是AMPED功能。通过这种跨职能的架构——产品营销团队深度嵌入每个职能部门，我们获得了不同的视角。比如有人会问：“等等，你考虑过终端用户体验吗？”（00:20:49）；又比如有人会问：“你有没有想过企业的需求或大型公司的特定要求？”我认为这种跨职能团队的独特架构让我们能够及时调整方向。\n\n第二点是我们的工作方式。我们会定期召开产品评审会。所有项目会根据复杂程度分为低、中、高三个等级，所有进展都会在全公司范围内共享。低中级项目会与整个产品组织同步分享，而高复杂度项目则会进入正式评审流程，召集相关人员共同把关，确保全局视角的连贯性。我想最后要说的是，Miro的客户群体涵盖了从只有两三人的团队，到使用Miro进行内部协作的大型企业。我们意识到，针对大型企业的深层需求需要形成一套标准化要求或最佳实践，并确保这些规范在所有功能团队中得到推广。\n\n（00:22:36）当我构思新功能时，我会参考一份清单：“在架构设计和流程定义的早期阶段，需要考虑以下10个关键点，以避免问题在后续阶段暴露。” 这方面我们仍在持续改进，最近投入了更多精力，有位产品经理专门负责此项工作。",
+   "ts": "00:19:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love all these details. This AMPED structure, I love that. There's analytics, you said product marketing, analyst marketing and then product engineering design. It's rare that you see marketing as a part of teams, as a leadership, kind of part of the leadership group. Do you have a sense of what impact adding that had on the team or where that came from? Or is that just historically been something Miro has prioritized, marketing and product marketing?",
+   "zh": "我喜欢所有这些细节。这个AMPED架构真是太棒了。这里有分析、产品营销、分析师营销，还有产品工程设计。很少能看到营销被视为团队的一部分，视为领导层的一员，融入领导团队之中。你能否谈谈添加这部分对团队的影响，或者这是否只是Miro一直以来优先发展的方向——营销和产品营销？",
+   "ts": "00:22:57"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "This was done before I got here and I wish I could take credit for it, but I can't. I think this was the result of an observation, which is quite similar to what you're saying, which is while we might be developing a lot of the features and PMs or thinking bottoms-up in terms of what we are building, we might find that what we have built might not be able to capture the imagination of what we originally thought it would. A big part of that is how are you going to think about positioning, how are you going to think about competitive differentiation? How are you going to package it up so that the sellers that are out there are able to position it in a way that the customer, in this case the buyer, might be an IT professional, might a line business leader, can basically see the full vision of where we are going? I think by having product marketing as part of AMPED, we now bring that unique perspective that may be missing in certain teams. (00:24:24): PMs are more acting as product owners or more focused on core problem and solution but not thinking about positioning, because that's so important, especially when you're thinking about a market that we are increasingly in that there is competition there. That's one of the first things we started off with and that's top of mind for you as well, is that everything that we are doing has to be looked through that lens. One of the core philosophies that I have, Lenny, is that the success of a company is a direct relation of what the competition allows you to do. I feel like not many people talk about that, but in many cases in my professional career, and I've been at it for close to 24, 25 years, is that every single instance when I looked at a company accelerated their growth or there was a deceleration of growth, it was a direct relation to what the competition allowed you to do. Obviously, you have to do everything that you should be doing, but competition is the biggest variable that allows you to figure that out.",
+   "zh": "这是在我加入之前就形成的做法，真希望能归功于我自己，但没办法。我认为这源于一个观察，与你提到的很相似。虽然我们可能开发了很多功能，PM们也可能自下而上地思考产品构建，但最终发现所构建的功能未必能激发用户想象力。这其中很大一部分在于如何定位产品，如何打造差异化优势，如何将产品包装成能让销售人员有效传达愿景的形式。毕竟，客户可能是IT专业人士，也可能是业务部门领导，他们需要能清晰理解我们的发展方向。将产品营销纳入AMPED团队，就是为了引入某些团队可能缺乏的独特视角。（00:24:24）：PM们更多地充当产品负责人，或者更专注于核心问题和解决方案，而非产品定位。这点至关重要，尤其是当我们面对日益激烈的市场竞争时。这一点是我们最先关注的，也是你最关心的——我们所做的一切都必须从这个角度审视。我有一个核心理念，莱尼——公司的成功与竞争对手的容忍度直接相关。我觉得没多少人谈论这一点，但在我近24、25年的职业生涯中，每次观察到公司加速或减缓增长，都与竞争对手的容忍度直接相关。显然，你必须做好该做的一切，但竞争是解开这个谜团的最大变量。",
+   "ts": "00:23:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to hear more about your core product philosophies, but let me dig into the one you just shared. What you find is that the way you grow or stop growing is often a direct result of your competition. Is there an example of that that comes to mind? I'm guessing maybe Box versus Dropbox is an experience you had there, or if not, what's an example of that that you've experienced, to make it a little more concrete even?",
+   "zh": "我想进一步了解你的核心产品理念，但先深入探讨你刚刚分享的观点。你发现增长或停滞往往直接取决于竞争对手。这方面有具体案例吗？我猜你可能在Box与Dropbox的竞争中有所体会，如果没有，能否举个具体例子，让我们更直观理解？",
+   "ts": "00:25:24"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "For those of us who've been in the collaboration space, and I've been doing collaboration and productivity apps for over 20 years, over two decades, at some point, you have companies like Microsoft that get really attracted to a space and you can see the trajectory of a business that's growing at a certain clip and then all of a sudden there's a competitive product that enters that has the might of distribution and the might of pricing, and that's just a direct example. I think I've seen that multiple times, first at Adobe where I was part of the document cloud business, clearly saw that at Box as well. (00:26:27): I think you can, in general, sort of look at every single category and you can say that there was a category leader and they were growing at a certain clip or a certain pace and all of a sudden there were a bunch of entrants that get in and what happens to your growth rate? It's all dependent on how strong is the competitor in terms of providing a good enough solution? That's one. The second is how strong is the competition in terms of their distribution outreach? Then the third thing is how strong is the competition in terms of the pricing and packaging?",
+   "zh": "对于我们这些曾涉足协作领域的人而言——我从事协作和生产力应用开发已有20多年——在某个阶段，总会有像微软这样的公司对某个领域产生浓厚兴趣。你可以看到一家企业以某种速度增长，但突然间出现了一个拥有强大分销和定价能力的竞争产品，这只是一个典型例子。我认为我多次见证过这种情形，先是在Adobe，当时我是文档云业务团队的一员，在Box也明显感受到同样的现象。（00:26:27） 我认为，总体而言，你可以审视每个细分领域，都会发现存在一个市场领导者，他们以某种速度增长，突然间涌入一群竞争对手，那么你的增长率会如何变化？这完全取决于竞争对手在提供足够优质解决方案方面的实力有多强？这是第一个方面。第二个方面是竞争对手在分销推广方面的实力有多强？第三个方面是竞争对手在定价和打包方面的实力有多强？",
+   "ts": "00:25:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I really like this discussion, especially because often the advice is, \"Don't worry about the competition, just focus on the customer, it's going to be fine.\" Which what you're saying is that's not right, and I agree. What do you do with that in mind? How does that impact the way you build product or strategy? Is there some you could share that maybe tactically someone could leverage to how they're approaching their product strategy?",
+   "zh": "我真的很喜欢这次讨论，尤其是因为很多建议都是：“别担心竞争对手，只要专注于客户，一切都会好起来的”。但你说这是不对的，我也认同这一点。考虑到这一点，你会怎么做？这会如何影响你构建产品或制定战略的方式？有没有一些策略可以帮助人们更好地规划产品战略？",
+   "ts": "00:26:55"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "It depends on who the competition is and what is their unfair advantage here. We talked about one specific competitor and I have a lot of respect for them, by the way, and I learn a lot from them every single day in terms of how they make bets and how they enter markets and stuff. At some point I'm going to write a book on them, I feel.",
+   "zh": "这取决于竞争对手是谁，以及他们的不公平优势在哪里。我们谈到了一个特定的竞争对手，我对他们非常尊重，每天都能从他们身上学到很多东西，比如他们如何下注、如何进入市场等等。说实话，我觉得我迟早会写一本关于他们的书。",
+   "ts": "00:27:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Ooh. We'll have to come back to talk about that.",
+   "zh": "哦。我们得回头再聊聊这个。",
+   "ts": "00:27:35"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "That's right, yeah. I think it sort of comes down to how do you think about your unique place relative to all of these players, and in your customer's mind are they able to clearly understand what is the unique value that you deliver relative to everything else? Part of that is the unique capabilities you provide. Part of that is how you're packaging those unique capabilities to them, and making sure that they in their mind can see how you coexist in this overall sort of tech ecosystem that they might be investing in, to enable their employees or to enable them to operate. So I think it's sort of looking at that from that lens, yeah.",
+   "zh": "没错，我觉得关键在于你如何在所有这些参与者中找到自己的独特定位，在客户心目中，他们是否能清楚理解你相较于其他产品所提供的独特价值？这部分取决于你提供的独特功能，取决于你如何将这些独特功能包装给他们，确保他们能在脑海中看到你如何在整个科技生态系统中共存，这个生态系统可能是他们投资的对象，目的是提升员工效率或优化运营。所以我觉得应该从这个角度去思考问题。",
+   "ts": "00:27:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So what I'm hearing is be very clear about your differentiator and continue to invest there and then make sure your positioning is clear around why you're... just identifying, \"Here's why we're different and we're not just a better or worse version of this thing\" or \"Here's why we're different\" and making sure that's really clear.",
+   "zh": "明白了。所以我的理解是，要明确自己的差异化优势，持续投入其中，并确保你的定位清晰，说明“我们为何与众不同，而不仅仅是现有产品的改进版”或者“我们为何独树一帜”，并确保这一点足够明确。",
+   "ts": "00:28:26"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Exactly. I think the other thing I would say, there's another core philosophy I have, which is products either get better over a period of time or they get worse. Products never remain the same. I think you can take that philosophy to a bunch of things in life, but I'm going to take the lens of products, which is my core philosophy is every single day, every single time somebody is pushing your code to production and you're releasing a feature or an enhancement, you are making the product better or you're making the product worse, but the products never remain same. The lens for this, Lenny, is actually from a customer's perspective, from the end user perspective. The thing is that if you are a player where there's no one else in the market, that's one thing, so that's great. Kudos to you for actually identifying a blue ocean strategy and sort of executing to that. But most markets, most products, actually have either direct or indirect competitors that are available. (00:29:40): From the customer's mind, you're doing something, the competitor is doing something, so in their mind they're looking at these products and they're looking at these companies and they're saying, \"Which is better versus not?\" So with every release that your competitor is making and every release that you're making, you're either making chess points, moves against them, positive points, or you're going negative. I think that framework, if you have in mind, it actually drives an insane amount of clarity in terms of what you're doing and what the impact is going to be. Because every single move that you're making, the customer has that sort of in their mind, if not explicitly, implicitly that they're actually comparing these things. I think it brings a level of focus in terms of where you need to invest and why you need to invest and why this is going to make those decisions. (00:30:28): I think it allows at least for product leaders to make some high quality decisions around the bets that they're making and how they're going to play out in terms of eventual once the dust settles and the market at large is going to say, \"I'm going to standardize on something and now I feel I need to go get it for everyone.\" Or \"This is the tool that I want to use for this particular use case.\" That all of these decisions that you are making ladder up to that final sort of play that you have to do in terms of the market consolidation that eventually happens.",
+   "zh": "没错。我想我还要补充一点，我秉持的另一个核心理念是，产品要么在一段时间内不断改进，要么逐渐退化。产品永远不会保持原样。这种理念可以应用于生活中的诸多方面，但我以产品为视角来阐释——我的核心理念是，每一天，每次将代码推送到生产环境、发布新功能或改进时，产品要么在进步，要么在退步。产品永远不会保持原样。这种视角，莱尼，从客户的角度来看，也就是终端用户的视角。关键在于，如果你所在的市场没有其他竞争对手，那当然很棒。为你能识别蓝海战略并付诸实践点赞。但大多数市场、多数产品实际上都有直接或间接的竞争对手。（00:29:40）从客户的角度来看，你在做某件事，对手也在做某件事。在他们看来，他们会将这些产品和公司进行比较，问“哪一个更好？”因此，每次对手发布新版本，你发布新版本时，你要么在积累优势，要么在落后。我认为，如果你牢记这种框架，它会极大地提升你的决策清晰度，因为你做的每一项决策，客户都会在心里进行比较，哪怕不是显性的，也是隐性的。这能让你更清晰地知道在哪些方面需要投入，为何需要投入，以及这些决策将如何产生影响。（00:30:28）我认为这至少能让产品负责人围绕他们的决策做出高质量的判断，以及这些决策在市场最终整合时会产生怎样的影响。届时，市场会说：“我要标准化某个东西，现在我觉得需要为所有人引入它。”或者“对于这个特定用例，我想用这个工具。”你所做的所有这些决策最终都指向市场整合的终局阶段。",
+   "ts": "00:28:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is so interesting. Essentially what you're saying is that you find that being very close to and understanding the competition really well is really essential, versus this kind of the other end of the spectrum almost from just like, \"Don't worry about the competition, don't pay attention.\" I like this point, metaphor of just like, \"Are we moving ahead or further behind?\" Is that where you operationalize that to track that? Then also just how do you not over-obsess with, \"Let's just catch up, get more features,\" that kind of thing? How do you find that balance?",
+   "zh": "这太有意思了。本质上，你的观点是，密切关注并深刻理解竞争对手至关重要，而另一种极端观点则是“别管竞争对手了，别关注他们”。我很欣赏这种观点，用“我们是在前进还是落后”来比喻，是如何将其具体化来追踪进展的？同时，如何避免过度纠结于“我们要赶上进度，多做些功能”之类的事情？如何找到这种平衡？",
+   "ts": "00:30:59"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "I'll be honest, I don't think we've figured it out. We haven't cracked the nut in terms of how to operationalize this, but I know you are way smarter than me on some of these things, so maybe we can-",
+   "zh": "说实话，我觉得我们还没想明白。我们还没找到如何将这种理念具体化的方法，但我知道你在这方面比我聪明得多，也许我们可以——",
+   "ts": "00:31:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Unlikely.",
+   "zh": "不太可能。",
+   "ts": "00:31:39"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "... partner on this and come up with something.",
+   "zh": "……合作开发出解决方案。",
+   "ts": "00:31:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, that'll be something we work on. Any other product philosophies that you want to share? That was awesome.",
+   "zh": "好的，这方面我们会再深入探讨的。还有其他产品理念想分享的吗？刚才真是太棒了。",
+   "ts": "00:31:43"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "This is all sort of related to it. It's like a string of pearls. I think there's maybe one more pearl we can actually thread into the needle right here.",
+   "zh": "这其实都与此相关。就像一串珍珠。我觉得可能还有一颗珍珠，我们现在就能把它串进针里。",
+   "ts": "00:31:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's do it.",
+   "zh": "那就开始吧。",
+   "ts": "00:31:59"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Which is we talked about how do you ladder this up and stuff, and then the question is, okay, how do you know that everything that you're doing, is that in the right direction or not? Should you move slow and be much more mindful about the things that you're doing or should you move fast and make certain bets and then decide certain things and stuff? I think there are two views that are out there. My personal perspective on this is that what you want to do is that you want to be the first one to hit the brick wall. This is particularly true when you are in a market that is competitive. The reason for that is that if you consider yourself as an innovation-centric company and you believe that you are building experiences that fundamentally don't exist anywhere else and you're sort of paving the way for the rest of the folks to basically get inspired with how you are building these experiences, speed is the single biggest determinant, in my experience, in terms of who ends up being more successful versus not. (00:33:14): I don't know, maybe this is a little bit controversial where people say, Go slow to actually go fast.\" I think I have a lot of respect for that and there's certain areas you should do that, but when you are trying to figure out new experiences and stuff and you don't know if it's going to resonate or not, speed is something that you should accelerate for the organization. I think Frank Slootman talks about this a lot in his book and how can you accelerate? I think for me from a product perspective, the fundamental concept is can you be the first one to hit the brick wall where you have the learning faster than anyone else in the market so that you can decide, \"Oh my god, the path that I was going was not the right path. I need to do 10 degrees west or I need to do 30 degrees east.\" I think as long as you're one or two or three steps ahead of everyone else in terms of uncovering or discovering those insights, then I think you can continue to be ahead of the pack in terms of building your product in business.",
+   "zh": "之前我们讨论了如何逐步推进等问题，然后问题是，好，如何确保你所做的一切都朝着正确的方向发展？是应该慢慢来、更加谨慎地考虑每个决策，还是应该快速行动、先下注再调整？我认为有两种观点。我个人的看法是，你要成为第一个撞上南墙的人。尤其是在竞争激烈的市场中更是如此。原因在于，如果你自认为是一家以创新为核心的公司，相信自己正在打造前所未有的体验，为其他人铺路，让他们从你的经验中获得启发，那么速度就是决定成败的最关键因素。（00:33:14）：我不知道，也许这有点争议，有人会说，\"要慢慢来，才能真正快速前进。\"我对此很尊重，也认为某些领域确实应该这样做。但当你试图探索新体验却不确定是否能引起共鸣时，速度就是组织需要加速的关键。从产品角度看，核心理念就是：你要成为第一个撞上南墙的人，这样你就能比市场上任何人都更快地获取经验，从而决定，\"天哪，我之前走的路是错误的，我需要转向西边10度，或者东边30度。\"只要你比其他人领先一两步，发现并掌握这些洞察力，那么在产品和业务方面，你就能继续保持领先。",
+   "ts": "00:32:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're talking about urgency. I've never met a founder or a product leader who doesn't want their team to move faster. They're always encouraging their team, \"How do we move faster?\" I'm curious if there's something you've learned tactically about helping your team move more quickly. You mentioned Frank Slootman's book. Amp It Up is what it's called, by the way, in case folks want to check it out and he's big on just like creating a sense of urgency, constant urgency, and we'll link to that and share notes. But yeah, what have you found helps create urgency and generally helps your teams move faster other than just like, \"Move faster, everyone\"?",
+   "zh": "你说的是紧迫感。我从未遇到过不希望团队加快行动速度的创始人或产品负责人。他们总是在鼓励团队：\"我们如何能更快行动？\"我很好奇你是否有策略性的方法帮助团队更快行动。你提到了弗兰克·斯洛特曼的书。顺便说一下，那本书叫《Amp It Up》，如果大家想了解的话，我们会附上链接并分享笔记。但你有没有发现除了\"大家快行动\"之外的其他方法来营造紧迫感、推动团队更快行动？",
+   "ts": "00:34:21"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "My fundamental belief here, Lenny, is that every product manager... I can talk to product managers because there is reason certain ones, someone wants to be a product manager, because in my view it's one of the most thankless jobs, like you get to do a lot of [inaudible 00:35:10] and it's like, \"Why you have to do this?\" But it attracts a certain personality and that personality is driven by challenge and that personality wants to prove that they can solve this challenge and do something amazing. I think fundamentally the product persona actually wants to move fast. I think the reason why in some cases we are not able to move fast is because of roadblocks that we run into and those roadblocks can manifest themselves into technical challenges, they can manifest them in cells of organizational challenges, they could be priority challenges and so on and so forth. (00:35:52): My fundamental approach to solving that is to ensure that the product leads who are working on these capabilities can instantly raise their hand and call out that there are challenges that they are running into. Then the job of the leadership team, the product management team, is to essentially go and quickly resolve those issues. I think if you are able to resolve those issues, then what it does is it actually starts a virtuous cycle where you can actually start to see those wins. Once you see those wins, you actually create that courage to do more things. Maybe because you've seen how that specific roadblock was solved and you have a pattern matching that you've developed now, you can solve a lot of those things on your own and it's the next level of challenge that you now going to raise your hand. (00:36:41): What that does is it starts to build this organizational competency in terms of how you can figure out what to build. We all find these people in our organizations where there's someone somehow is able to do certain things in one-tenth the time that it would take a normal person. It's not that they are 10 times faster, it's just that in my observation that they've figured out which part of the core base they should build in versus not, who should be part of their team and who should not be, how they need to define that from a scope perspective, what does success look like, and it's the architecture of bringing all of these things together that actually brings that magic formula line in terms of \"Hey, we are able to deliver faster.\"",
+   "zh": "伦尼，我在这里的核心观点是，每个产品经理……我能和产品经理们交流，因为有些人之所以想成为产品经理，正是因为在我看来，这是一份最吃力不讨好的工作——你需要处理大量[00:35:10]工作，然后人们就会问：“为什么你要做这些？”但它吸引了一类特定的人才，而这种人才的驱动力来自挑战，他们渴望证明自己能解决这些挑战并创造惊人成果。我认为，从根本上讲，产品经理的角色就是要快速行动。我认为在某些情况下，我们无法快速行动的原因在于遇到的阻碍，这些阻碍可能表现为技术挑战、组织架构挑战、优先级冲突等等。（00:35:52）：我解决这些问题的基本方法是，确保负责这些功能的产品负责人能立即举手报告遇到的挑战。然后，领导团队和产品管理团队的职责就是迅速解决这些问题。我认为，如果能解决这些问题，就会形成良性循环，进而开始看到成果。一旦看到成果，就会激发勇气去尝试更多事物。也许因为你已经看到某个阻碍被解决，并且形成了应对模式，现在你就能独自解决很多类似问题，而接下来你要面对的挑战层次会更高。\n（00:36:41）：这会逐渐培养组织在如何确定产品方向方面的能力。我们在组织中都能发现这样的人：他们能以普通人十分之一的时间完成某些任务。这并不是说他们速度快十倍，而是基于我的观察，他们清楚在核心基础上哪些该构建、哪些不该构建，清楚团队成员该加入哪些、该离开哪些，从范围角度清晰界定任务，明确成功标准。正是将所有要素整合起来的架构，成就了\"我们能更快交付\"的魔法公式。",
+   "ts": "00:34:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I really like this topic. What I'm hearing is one of the biggest roots of slowdown in a company and product development is blockers not being unblocked, and I always feel the same thing. I feel like a PM's number one job is to unblock their team because their job is basically make the most out of their team that they're marshaling towards some outcome. The way you do that is just figure out what's slowing them down. You just talked about this idea of a PM raises their hand to leadership, \"Hey, we're blocked by this thing.\" Is there a process you've come up with there that helps you do that, it's connected to-",
+   "zh": "我真的很喜欢这个话题。我听到的最大问题之一就是公司和产品开发中的拖延根源在于阻碍未被解决，我对此深有同感。产品经理的首要任务就是为团队扫清障碍，因为他们的职责本质上是充分发挥所调动团队的价值。实现这一目标的方法就是找出阻碍他们的因素。你刚刚提到的产品经理向领导层举手报告\"我们被这个问题阻碍了\"，这里有没有具体的流程可以借鉴？这与——",
+   "ts": "00:37:19"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, I would say we are trying to sort of systematically ingrain this in the culture of the organization. We have a motto in the product org, it's very simple, single sentence, deliver customer value faster with high quality. That's it. Everything that we do, and when I say everything, everything, Lenny, from performance and reward system and measurements, everything is based on this one single statement and it has three attributes. The first one is deliver customer value, and we believe customer value is only delivered when customers use it. Anytime as a PM at Miro, when you ship something, we are looking at, \"Well, what was the metric you were going to move and how much did it move?\" We have some original targets that we can go back to. That's the first aspect of what we're doing, deliver customer value. (00:38:35): The second one is move faster, and there are certain cycle times that we are measuring across the organization. From the time you came up with the idea to the time that you actually pitched a solution to the time you actually shipped it, to the time we actually moved the metric, it's information that has been collected and is being made available to the organization. You can say, \"Hey, if it was a small, medium or large, what's the average? What's the medium, what's the variance?\" And you can say, \"Hey, looking at this data, what can be improved?\" That's on the faster aspect of it. Then the last one is around high quality, which is we want to build best in class collaboration experiences, so we are always getting inspired by what we find in applications and experiences that we see around us and we are saying, \"Hey, when it comes to designing, sharing flows, we believe that these are the three apps that have best in class sharing flows when it comes to designing some synchronous capabilities like this. These are the best in class apps that we should look at.\" (00:39:31): We are always trying to make sure that we are benchmarking ourselves against that and we have our design team. On a regular basis, like when we ship stuff on a monthly basis, our design leadership team does a triage of everything that got shipped into high quality or not high quality. It's just like a binary function, and we're doing that and we're saying, \"Hey, the reason why we believe it's not high quality is because A, B, C, D, E and we're making it available to other designers so they can actually start to build that telemetry in terms of some things are more subjective.\" But you can start to see some patent matching and say like, \"Hey, this is what great looks like.\"",
+   "zh": "是的，我会说我们正试图有条不紊地将这一理念深深植入公司的文化之中。我们产品团队有一条座右铭，非常简洁，仅一句话：以高质量更快地为客户创造价值。仅此而已。我们所做的一切——我说的是所有事情，莱尼——从绩效与奖励体系到数据衡量，一切都基于这条核心理念，且它有三个核心属性。第一是「交付客户价值」。我们坚信，只有当客户真正使用产品时，价值才能被兑现。在Miro担任产品经理时，每次发布新功能时，我们都会关注：「你们设定的指标移动了多少？达到了多少目标？」我们会回溯最初设定的目标。这是我们行动的首要准则——交付客户价值。\n\n（00:38:35）第二点是「加速迭代」。我们在全公司范围内衡量各个周期时长。从构思到提出解决方案，再到最终上线，再到指标数据变动——所有这些信息都被收集并向全公司开放。你可以问：「如果分小、中、大三种规模，平均值是多少？中位数是多少？方差是多少？」你还可以分析数据：「通过这些数据，我们能优化哪些环节？」这就是加速迭代的核心。\n\n最后是「追求卓越」。我们致力于打造行业领先的协作体验。为此，我们不断借鉴市面上优秀的应用与体验：在设计协作流程时，我们会研究哪些应用拥有最佳的分享功能；在设计同步协作能力时，又会参考哪些应用的同类功能最为出色。（00:39:31）我们定期对照这些标杆进行评估。每月上线新功能后，设计团队会对所有功能进行质量评估，判断其是否达到高质量标准。这就像一个二元判定函数：我们会指出存在的问题，如A、B、C、D，并将这些反馈分享给其他设计师，让他们借鉴。当然，有些判断会带有主观性，但通过不断积累，我们能形成共识：「这才是优秀设计的标准样板」。",
+   "ts": "00:37:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Linear. Let's be honest, the issue tracker that you're using today isn't very helpful. Why is it that always seems to be working against you instead of working for you? Why does it feel like such a chore to use? Well, Linear is different. It's incredibly fast, beautifully designed, and it comes with powerful workflows that streamline your entire product development process, from issue tracking all the way to managing product roadmaps. Linear's designed for the way modern software teams work. What users love about linear are the powerful keyboard shortcuts, efficient GitHub integrations, cycles that actually create progress, and built-in project updates that keep everyone in sync. In short, it just works. Linear is the default tool of choice among startups and it powers a wide range of large established companies such as Vercel, Retool and Cash App. See for yourself why product teams describe using linear as magical. Visit linear.app/lenny to try Linear for free with your team and get 25% off when you upgrade. That's linear.app/lenny. (00:41:15): Okay, so every month or so the design team looks at everything that's shipped and puts things into a bucket. Either this is... It's like a binary thing, high quality or not high quality.",
+   "zh": "本期节目由Linear赞助。说实话，你现在使用的issue跟踪工具实在不太好用。为什么它总是跟你作对而不是为你服务？为什么用起来总感觉那么麻烦？Linear则截然不同。它速度极快，设计精美，还配备了强大的工作流功能，助力你从issue跟踪到产品路线图管理的整个产品开发流程。Linear专为现代软件团队的工作方式而设计。用户最爱它的快捷键、与GitHub的高效集成、真正能推动进展的迭代周期，以及能让团队保持同步的内置项目更新功能。简而言之，它就是好用。Linear是初创公司的首选工具，也为Vercel、Retool和Cash App等大型成熟企业提供支持。快来亲自体验为何产品团队称使用Linear是种魔法般的体验吧。访问linear.app/lenny，即可与团队免费试用Linear，升级时还可享受25%折扣。（00:41:15）：好的，每个月左右，设计团队会审视所有已上线的产品，并将它们分类。要么这是……这就像个二元分类，高质量或低质量。",
+   "ts": "00:40:06"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:41:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, that is so cool. Then, one, what do they do with that? Do they send it out to the product team? Then two, is this just like FYI or is it like, \"We need to fix all these low quality things going back\"? Or is it more just like, \"For the future, please be aware these are not high quality\"?",
+   "zh": "哇，太酷了。那么，第一，他们怎么处理这些反馈？是发送给产品团队吗？第二，这只是个提醒还是他们需要回溯处理低质量的问题？或者更像是说，“未来请注意这些低质量问题”？",
+   "ts": "00:41:24"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, so it's actually both. Generally what happens is that the design leadership team is doing this and there's one particular design leader who's the designated person to make sure that this is happening on a regular basis. Right now the way we're using it is that we are actually using it to calibrate and align around the design leadership around what we mean by high quality. Because it's one of those things, it's like if you've never seen colors and I ask you, \"Lenny, describe pink and compare that to red,\" and if you haven't seen colors, how do you describe colors? You can't. But if I show you and I say, \"Lenny, these are three examples of what pink is and these are three examples of red is,\" then you're like, \"Oh, I get pink and I get red.\" There are certain things that you just like when you write it's very, very hard to describe it, but if you show specific examples, it's very clear, \"Oh, I get it. I get how pink is different than red.\" But if I try to describe it, it's going to be very hard. (00:42:35): So we got into these endless conversations at some point about a year ago where we were saying, \"We need high quality, we need high quality.\" And people are like, \"Let's just go and define this thing.\" We had a bunch of our leaders go and write documents, really long documents in terms of what are the attributes and how do we define those attributes and how do we measure those attributes and how do we enable people to do that? It felt like it's a good thing because we are trying to codify it, but it also felt like it was a very heavy way of solving that problem. Then we just came up with this approach, which is like, \"What's great versus not great\" and just start classifying it. As you know, it's like modern AI systems are classification systems and we [inaudible 00:43:12]-",
+   "zh": "是的，实际上两者都有。通常设计领导团队会负责这项工作，由一位指定的设计负责人确保定期开展这项工作。目前我们的使用方式是，利用它来校准和统一设计团队对“高质量”的定义。因为这就像，如果你从未见过颜色，我问你，“Lenny，描述一下粉色并与红色比较”，如果你没见过颜色，你怎么描述？你没法描述。但如果我展示给你并说，“Lenny，这些是粉色的三个例子，还有三个红色的例子”，那么你就会说，“哦，我明白粉色和红色的区别了”。有些东西你写出来很难描述，但如果展示具体例子，大家就一目了然，“哦，我懂了，粉色和红色的区别在哪儿”。但如果我试图描述，那就很难了。（00:42:35）：所以大约一年前，我们陷入了无休止的讨论，人们说：“我们需要高质量，我们需要高质量。”然后有人说：“我们去定义这个概念吧。”我们让一群领导者去写文件，非常长的文件，内容涉及定义属性、如何衡量属性，以及如何让人们去执行。但感觉这虽然是件好事，因为我们试图将其规范化，但又显得过于繁琐。然后我们就想出了这个方法，就是“什么是优秀，什么是不优秀”，然后开始分类。正如你所知，现代AI系统就是分类系统，我们[00:43:12未录音]",
+   "ts": "00:41:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I was going to say, sounds like reinforcement learning approach here.",
+   "zh": "是啊，我正想说，这听起来像是强化学习的方法。",
+   "ts": "00:43:12"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:43:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Defining cost.",
+   "zh": "定义成本。",
+   "ts": "00:43:14"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "That's right. That's right. I think it's worked decently well. I would say with most things we need to operationalize it and we need to make sure that now we are democratizing it and everybody has access to it and so on and so forth. But I think it's been a good start and now we are sharing this more openly with others in the org.",
+   "zh": "没错。没错。我觉得效果还不错。我觉得大多数事情都需要将其付诸实践，确保现在我们在实现民主化，让每个人都能用上它等等。但我认为这是一个好的开端，现在我们正更开放地与组织内的其他人分享这些经验。",
+   "ts": "00:43:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When I said that, I imagined you... From the outside, you have a very unique culture and approach your product. That's a great example of that. I've never heard of a process like this. What I'm hearing is essentially you're trying to build the muscle within the organization of what is quality. It's like this continued heuristic of, \"Okay, I get it.\" So PMs on the team start to understand in their head what that means.",
+   "zh": "我这么说的时候，我想象的是你……从外部看，你们有非常独特的文化和产品开发方式。这就是一个很好的例子。我从未听说过这样的流程。我听到的实质上是，你们在努力在组织内部建立对“质量”的共识。这就像一个持续的启发过程：“好的，我懂了。”这样一来，团队中的产品经理们就能在脑海中理解这意味着什么。",
+   "ts": "00:43:37"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "00:43:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Super cool. You also talked about, in the middle part of that sentence, of moving faster and that you track and measure that somehow. Can you talk more about that? Because that's something every product team is always trying to understand. \"How do we know if we're going faster, if we're going as fast as we could?\" How do you actually do that? How do you measure these things?",
+   "zh": "太棒了。你还在句子中间提到要加快进度，并且你们以某种方式对此进行追踪和衡量。能详细讲讲吗？因为这正是每个产品团队始终在努力理解的问题：“我们如何知道自己是否在加速，是否达到了最佳速度？”你们到底是如何做到的呢？如何衡量这些指标？",
+   "ts": "00:43:57"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "The core philosophy there is velocity is more like the game of golf where you're just playing against yourself. It's not like if Lenny and Varun are out at the golf course, it doesn't matter. I'm not competing against you, I'm just competing against myself because that's the only... I'm going to just hit the ball, so it's like how much better can we get? I think our core philosophies around that and what we're trying to do is that on all the product teams, the feature teams that we have, we're just collecting all the information and we are making it available to everyone so that they can actually see what the cycle times are. What we are interested in is from the time that you have an insight, from the time you believe \"I can do something unique for my user, for my persona,\" how long does it take for you to actually deliver that value? (00:45:04): We have a product process that we follow, which starts with a P-strat, which is a strategy, and then we go into P0, which is definition of the problem, then we go into P1, which is definition of the solution, and then we go into P2, which is once the solution is shipped, are we hitting the metrics that we originally had defined upfront before we decided to work on this. You have all of these stage gates and then we basically classify everything that we are doing in small, medium, large. You can go in and you can say, \"Hey, I thought this was a small thing,\" and small thing is something you can get it done in less than a month, and so on and so forth. There are 50 other product teams that are shipping these features, and what's the average, what's the variance, what's the median? (00:45:48): \"Oh, wait a second, actually it seems like I took way more time in the problem definition stage. Let me actually try to go talk to this other product team that actually did it much faster,\" or \"Oh, I actually did it really, really fast, and the reason why I did it fast was because of this. Let me go share this out with the broader team.\" Usually the product ops function, we call it product excellence internal, sort of product excellence function, is recording some of these things. I would say getting reliable data, and then because we have some things that are going through meetings and there are some things that are going through Slack, we could do better on some of those dimensions, but all of this data is available and we provided it openly and folks can benchmark themselves against that.",
+   "zh": "他们的核心理念是，速度更像是高尔夫比赛——你只需与自己较量。就比如说，如果莱尼和瓦伦在高尔夫球场上打球，别人并不会在意。我不是在和你们竞争，而是在和自己较量，因为这是唯一的……我只管击球，看看我们能提升到什么程度。我认为我们的核心理念以及当前的工作方向是，在所有产品团队和特性团队中，我们会收集所有信息并公开共享，让每个人都能看到周期时间究竟有多长。我们感兴趣的是从你获得洞察的那一刻，到你认为“我能为用户或用户角色创造独特价值”的那一刻，再到实际交付价值所需的时间。（00:45:04）：我们遵循的产品流程始于P-strat（战略阶段），接着是P0（问题定义阶段），随后是P1（解决方案定义阶段），最后是P2（解决方案上线后是否达到了预先设定的指标）。整个流程设有多个阶段关卡，我们会将所有工作分为小型、中型、大型三类。你可以进入系统查看：“嘿，我原以为这只是个小项目”，然后根据不同类别设定完成时限。（00:45:48）：“哦，等等，似乎我在问题定义阶段花了太多时间。不如去和另一个进展快得多的产品团队交流一下，”或者“哦，我确实完成得很快，原因就在这里。我要把这个经验分享给整个团队。”通常，产品运营部门（我们内部称之为产品卓越团队）会记录这些信息。我认为获取可靠数据至关重要。虽然有些信息通过会议讨论，有些则在Slack上交流，但我们本可以在这方面做得更完善。不过所有数据都是公开的，大家可以据此进行自我对标。",
+   "ts": "00:44:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So cool. Okay, so you have this P-strat, you called it, document which is kind an initial concept and then it's interesting you use the P0, P1, which is often for bugs, but it's cool that you use it for defining your products. So P-strat is just an idea pitch. P0 is a spec, basically, like a one-pager for the product, and then P1 and P2 are basically getting to \"Here's the actual product we're building.\" And you basically track time per step and map it to, \"Here's how large this project should be.\" Over time you track per person, it sounds like, just like are you matching the benchmarks of how long a small project should take across each step?",
+   "zh": "太酷了。好的，你们的P-strat文件，顾名思义就是初步构想，然后P0、P1这些阶段通常用于处理Bug，但你们用它们来定义产品真是巧妙。P-strat就是创意提案，P0类似产品一页纸说明，P1、P2就是实际产品研发。你们会追踪每个阶段的时间，并与预期规模进行对比。随着时间推移，你们会追踪每个人的进度，确保小型项目在每个阶段都符合基准时间吗？",
+   "ts": "00:46:34"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, exactly.",
+   "zh": "对，就是这样。",
+   "ts": "00:47:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, that is extremely cool. Whatever templates you can share, these things that we can include in the show notes would be awesome.",
+   "zh": "哇，真是太棒了。如果能分享相关模板，放进节目笔记里就再好不过了。",
+   "ts": "00:47:14"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes.",
+   "zh": "好的。",
+   "ts": "00:47:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Because people are always looking for just like, \"Ah, I want do some of this stuff.\" If they can just plug and play, the more, the merrier.",
+   "zh": "毕竟，人们总是在寻求这样的机会：“啊，我想做些这样的事。”如果他们能轻松上手，那就越多越好。",
+   "ts": "00:47:22"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:47:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Shifting a little bit, it sounds like you guys are doing Scrum in some form. Can you just talk about just broadly the product development process? How long you or your sprints, how long do you plan for in the future, in detail specifically just like high level, how does the product development process work?",
+   "zh": "稍微换个话题，听起来你们团队正在以某种形式使用Scrum框架。能否大致讲讲产品开发流程？你们的冲刺周期有多长？未来有怎样的规划？能否具体分享一下高层面的流程运作机制？",
+   "ts": "00:47:29"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "There are certain things that I learned at Box and that inspired some things that we do at Miro, and there are certain things that we've evolved. One of the things that we've instituted is our roadmap process, so that's sort of the first thing around how the different teams are looking at the things that they're going to work on. We have a rolling six month roadmap, it seems large, but we've got, like I mentioned, a number of enterprise customers. If I've learned one thing that large enterprises is asking for a roadmap review. That tends to be my favorite meeting of sitting down with the enterprise leaders and walking through what we are working on. What we've done is we've tried to architect something which actually allows our customers to get what they're looking for, but at the same time does not remove the agility that is so important for us to deliver value faster. (00:48:41): What we do is we have a rolling six month roadmap that gets updated every three months and the first three months of that roadmap, we have a 80% position level, which means that 80% of the things that we claim to be on the roadmap will get done. That's the target. For the next three months, because it's six months, so the first three months is 80%, the next three months is 50%, so we have a much lower level of resolution in the next three months after that. What that allows the product teams to do is actually have flexibility, which is based on what the customers are asking for and based on what the competitive moves are, based on some technology breakthroughs that happen around large language models, they can pivot and they can pivot and move towards that and they won't get penalized either by the customer or internally in terms of doing that. That's what we do and that's all at on the backdrop of an annual strategy that we publish. (00:49:34): Every year we publish a strategy white paper that it gets published internally available to every single Mironeer across all functions that clearly articulates the key bets that we want to make. Why do we want to make those bets? What is the expected outcome and how does that ladder up into the overall business outcomes that we are trying to drive from an OKR perspective as well as the overall business strategy that we have. So people take that product strategy, white paper or artifact, and then against that they're building their roadmaps which get updated every three months. Then inside of the teams, we enable teams to be quite autonomous in terms of some of the rituals that they're doing. We want them to obviously embrace best practices. We've got a team of agile coaches that share best practices or are available to help if there's certain specific needs that teams have. (00:50:31): Then I think on top of that, there are certain key, I would say, rituals that we do that maybe are unique. For example, we have something called as Miro Connect, which happens every other Friday. Every other Friday, for example, in our Amsterdam office, you can go in there and at 4:00 in the afternoon, 4:00 to 7:00 or 8:00, and sometimes it goes really late, you've got a bunch of product teams sitting around tables and it feels like, \"Oh, it's like a pitch or something.\" And people are coming in, they're having a good time, you've got a drink in your hand, there's maybe some light music playing in the background and you're going from table to table and you have teams that are actually showing all the amazing work that... If done right, it happens once in a while, but if done right, it's magical in terms of the outcomes that you can get. (00:51:20): I'll tell you, there was a team that actually was presenting at our Berlin hub and they were saying, \"We're working on this feature, and there's an engineer who walks over to that desk and says, 'What are you working on?'\" The team describes it, \"Oh, we are trying to do something like this.\" And this engineer had actually worked on that particular problem in their prior life, literally they had implemented this. So he says, \"So how are you going to implement this?\" And the team, the engineer that's sitting there, says, \"This is the approach I'm going to take and it's going to take me three months.\" He's like, \"Oh, would you mind if I go and help you with this?\" They're like, \"Sure, more the merrier. Go ahead.\" So this person puts down their beer and says, \"Okay, I'm having a good time. Let me just head back to my home.\" And in the next three or four hours goes and codes the entire thing, makes a poll request. (00:52:10): Next day in the morning one of the engineers from this core team that was exhibiting at Miro Connect looks at the poll request, reviews the code and says, \"Yes, something that would have taken three months for this core team because they didn't have the expertise literally got done in three hours because there was another engineer that ran into them and said, \"I know how this is done. I can actually help you here,\" and went ahead and did the right thing. We are trying to create these magic moments. It happens once in a while, but we have one success story and I like to tell that in every opportunity that I get. But that's another sort of unique thing that we've done in terms of book-ending things around how we operate here.",
+   "zh": "有些东西是我在Box公司学到的，也启发了我们在Miro公司的一些做法；还有一些则是我们自主发展出来的。我们建立的路线图流程就是其中之一。这是关于不同团队如何规划未来工作方向的首要机制。我们采用的是滚动式的六个月路线图，虽然看起来时间跨度较大，但正如我之前提到的，我们有众多企业级客户。就我所知，大型企业最关注的是路线图评审环节。这类会议通常是我最喜欢的环节——与企业领导层坐下来，一起梳理我们的研发进展。\n\n（00:48:41）我们制定的滚动式六个月路线图每三个月更新一次。前三个月的路线图完成度目标为80%，即80%的已规划内容能如期交付。接下来三个月的目标则降至50%，确保在快速交付价值的同时不牺牲灵活性。这种机制让产品团队能够根据客户需求、竞争动态以及大型语言模型等技术突破灵活调整方向，而无需担心客户或内部的质疑。所有这些都基于我们每年发布的年度战略框架。\n\n（00:49:34）每年我们都会发布战略白皮书，内部全员共享，清晰阐述我们希望布局的核心方向、背后的逻辑、预期成果，以及这些方向如何与OKR体系及整体业务战略相结合。各团队以此为基础制定三个月更新一次的路线图。同时，我们赋予团队自主管理部分流程的权限，鼓励他们遵循最佳实践。若有特定需求，敏捷教练团队会提供指导支持。\n\n（00:50:31）此外，我们还有一些独特的仪式。比如每隔一周的周五举办的“Miro Connect”活动。每个周五下午四点至七点或八点，阿姆斯特丹办公室的团队会聚集在一起。现场氛围像是创意分享会或推介会，人们手持饮料，背景音乐轻柔，各个产品团队轮流展示他们的创新成果。这种活动偶有神来之笔，但若能做好管理，其带来的协同效应堪称惊艳。\n获取。（00:51:20）：我跟你说，有个团队当时在柏林总部做展示，他们说：“我们正在开发这个功能。”有个工程师走到那张桌子前问：“你们在做什么？” 团队描述道：“哦，我们正在尝试做这样的东西。” 而这位工程师恰好曾在前一家公司解决过同样的问题——他真的实现过这个功能。于是他问：“那你们打算怎么实现呢？” 坐在那里的工程师回答：“我打算用这种方法，大概需要三个月。” 工程师又问：“那你介意我来帮你吗？” 团队说：“当然不介意，多一个人多一份力量，快去吧。” 于是那个人放下手中的啤酒，说：“好吧，我玩得挺开心的，要回家了。” 接下来的三四个小时里，他把整个功能写了出来，还提交了投票请求。（00:52:10）：第二天早上，Miro Connect展会上那个核心团队的工程师看到投票请求，审核了代码后感叹：“哇，这个功能原本需要核心团队三个月才能完成，因为他们缺乏相关专业知识，结果只用了三个小时就搞定了。” 因为有位工程师恰好路过，说：“我知道怎么做这个，我能帮你们。” 于是他立刻行动起来。我们就是在努力创造这些神奇时刻。这种情况偶尔会发生，但我们确实有过成功案例，每次有机会我都喜欢分享。但这也是我们在运营理念上形成闭环的独特之处。",
+   "ts": "00:47:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That story is like a dream for any PM. Just imagine saving months of work with one conversation. I imagine people were like, \"How do we replicate this often?\" I love that. With these meetings, just to understand, if their team is in Berlin, let's say, there's a screen there in front of a table and they're talking through a screen, like a video conference?",
+   "zh": "那个故事对任何产品经理来说都像一场梦。想象一下，只需一次对话就能节省数月的工作时间。我能想象当时人们会问：“我们怎么能经常复制这种模式呢？” 我太喜欢这种做法了。说到这些会议，如果他们的团队在柏林，比如说，桌子前有个屏幕，通过视频会议进行沟通？",
+   "ts": "00:52:50"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah. I mean, right now what we've figured out is that it is really hard to do these events over audio-video conferencing and stuff. So generally what happens is that you have an audio-video bridge that's playing, but mostly it's people walking up to the respective teams and then having a live conversation. That's usually how these things are operated. Yeah.",
+   "zh": "是的。我的意思是，目前我们发现，通过音频视频会议之类的形式来举办这些活动真的很困难。所以通常的情况是，会有一个音视频桥接在播放，但大多数时候，人们会走到各自的团队面前，然后进行实时对话。这就是这些会议的运作方式。是的。",
+   "ts": "00:53:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Okay, so you have six month rolling roadmaps. You have a yearly vision strategy for the company, two week sprints. Is there also a quarterly OKR sort of process or is it-",
+   "zh": "明白了。好的，那么你们有为期六个月的滚动路线图，还有公司的年度愿景战略，以及两周的冲刺周期。是否还有季度OKR之类的流程，或者——",
+   "ts": "00:53:34"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah.",
+   "zh": "有的。",
+   "ts": "00:53:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... those or not? There is, okay.",
+   "zh": "……这些流程吗？有的，是的。",
+   "ts": "00:53:48"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "There is, yeah.",
+   "zh": "有的，是的。",
+   "ts": "00:53:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you just talk a little bit about how that works?",
+   "zh": "能否稍微讲讲这个流程是如何运作的？",
+   "ts": "00:53:49"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes, yes, yes. At Miro, we practice OKRs and it starts off at the company level, and then those company level OKRs are taken by the AMPED organization. Like we describe, it's the AMPED organization, and then we break it up and I would say we have refined it over the period of time, the two years that I've been at Miro. Early on we were doing OKRs on a quarterly basis, and I would say more recently we've actually evolved to six month KRs. What we found was that six month was the right cadence in terms of giving enough time for teams to basically push forward in executing these KRS and minimizing the \"overhead\" of doing replan every single quarter. We found that it was much more effective and efficient for the entire organization to do it on a six-month basis. However, we are doing traction on a monthly basis. So every four weeks, as AMPED, we are looking at our KRS for the AMPED organization on a monthly basis doing traction. However, the planning, the targets, are done on a six-month basis.",
+   "zh": "好的，好的，好的。在Miro，我们践行OKR，首先从公司层面开始，然后这些公司层面的OKR会被AMPED组织接手。正如我们所描述的，AMPED组织会将其分解，我想说，在我加入Miro的这两年里，我们对其进行了优化。早期我们每季度做一次OKR，而最近我们实际上已经进化到六个月的KR了。我们发现六个月的周期更合适，一方面给团队足够的时间推进KR的执行，另一方面又能最大限度减少每个季度重新规划的「额外工作」。我们发现对整个组织来说，六个月的周期更高效。不过，我们每月也会做追踪。所以每四周，作为AMPED团队，我们会每月检查AMPED组织的KR进展。但规划和目标设定还是按六个月为周期。",
+   "ts": "00:53:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love how OKRs could just be anything, could be every six months, could have objectives, could have key results. It's just such a term that just applies to anything that people do with goals, basically.",
+   "zh": "我喜欢OKR可以是任何形式，可以是每六个月一次，可以有目标，可以有关键结果。这只是一个适用于任何设定目标的术语，基本上就是这样。",
+   "ts": "00:55:06"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "That's true.",
+   "zh": "没错。",
+   "ts": "00:55:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it works. It's great.",
+   "zh": "而且确实有效。太棒了。",
+   "ts": "00:55:18"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "That is so true.",
+   "zh": "确实如此。",
+   "ts": "00:55:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Again, if there's any templates that your team could share of the way you do that stuff, that would be amazing, and we'll include that in the show notes.",
+   "zh": "再说一次，如果你们团队能分享一些你们如何做这些事情的模板，那就太棒了，我们会把这些内容放进节目笔记里。",
+   "ts": "00:55:21"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, absolutely. Because I think, as you would expect, we run Miro on Miro, so there's a lot of things that we could share as templates in terms of how we are running things on Miro, not just as OKRs, but in terms of product reviews. We have ways of how we are doing asynchronous reviews combined with synchronous reviews and there's this blended experiences that we have, and so we can definitely share out with the community how we do some of these things.",
+   "zh": "好的，当然可以。因为我觉得，正如你所料，我们在Miro上也使用Miro，所以我们有很多模板可以分享，比如我们如何在Miro上运作OKR，不仅仅是产品评审方面。我们有异步评审与同步评审相结合的方式，还有混合体验，所以我们肯定可以向社区分享我们是如何做这些事情的。",
+   "ts": "00:55:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. That's a great segue to another question I was going to ask is just what other tools, what's in the stack of the product team's workflow? So Miro, obviously. Maybe talk about what use Miro for, but then what else is in there? What do you use for task management, bug tracking, things like that? Design?",
+   "zh": "太棒了。这正好引出了我接下来想问的一个问题——产品团队的工作流程中还用到了哪些其他工具呢？显然Miro是其中之一。你能讲讲Miro的具体用途吗？那其他工具呢？比如任务管理、缺陷追踪、设计协作之类的工具，你们都用什么？",
+   "ts": "00:55:55"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Starting from the bottom-up infrastructure view, so all of our tickets are handled in Jira and we are using some of the newer capabilities in Jira in terms of coming up with roadmaps and coming up with the priorities and stuff. On top of that, all of the specs generally get recorded in Confluence. Having said that, we're actually a big fan of tools like Google Docs as well as Coda that allows us to track our KRs in a pretty effective way. On top of that, obviously we use Miro a lot, I would say for a lot of our things, especially on the product and design side of the team. Generally all of our insights get captured inside of Miro board, so when we are going and conducting user experience interviews and stuff, we will record those and then those recordings get added to a Miro board, so Miro access the content hub or a team hub for a particular project. (00:57:20): Once you capture all of those insights, then generally all of the brainstorming and team ideation happens on the Miro board as well, so Miro's actually also used as a tool to facilitate meetings and workshops. Once all of that is synthesized into a set of recommendations and outcomes, so when we go into these product reviews that we were talking about, Lenny, the same Miro board then gets manifested into a set of presentations, so we use Miro for presentations. We've actually made some really amazing updates in terms of our capabilities there and if folks haven't checked them out, I would strongly encourage them. There's a capability called Showtime that basically abstracts out the UI and lets people focus on the content, but do it in a way that it's interactive so everyone that's on the call can have reactions, can share their comments and leave comments while the presentation is happening without actually disrupting any of the flow for the user, so we use that a lot for presentations as well. (00:58:15): I would say more recently what we've started to do is that we've started to move some of our synchronous meetings into asynchro view. I talked about this Talktrack feature that we have, and a lot of teams, what they would do is that they would actually send you five minute, 10 minute Talktrack in advance and it's just a link to a Miro board, you click on it and then you just sit back and relax. Then you have this magical experience where you're sitting back and the Miro board is automatically moving because Lenny was recording it like that. Then you have the video play and then you can pause it anytime, you can add in your comments and stuff so that the next time when you meet, instead of actually providing context to everyone, those synchronous sessions are lot more deliberate and focused on driving outcomes or achieving consensus, so people are just focusing on the comments that were added as part of a async product review so that when they meet synchronously they can use that. Miro boards are used for that as well. (00:59:06): I would say now a lot of our dashboarding shows up in Miro boards now. We recently released data visualization capabilities around most popular VI tools. At Miro we use Google Looker a lot, so a lot of our dashboards are in Looker, and what you would typically find is that our analyst team and product teams will just grab a link to a Looker dashboard, put it on a Miro board, and it unfolds into a full visualization. Unlike a screen grab, you never have to go update it because right there on the Miro board, it's always updated and you can refresh that, so you basically have this experience where Miro acts as that single source of truth for a lot of the teams across the entire journey of product development where a single Miro board is meeting the needs of multiple use cases there.",
+   "zh": "让我们从自下而上的基础设施视角出发。目前，我们所有的任务都在Jira中处理，并利用Jira的一些新功能来制定路线图、确定优先级等事项。此外，所有规范文档通常都记录在Confluence中。话虽如此，我们也非常青睐Google Docs和Coda等工具，这些工具能有效地追踪我们的关键结果（KRs）。除此之外，我们团队在产品和设计领域广泛使用Miro平台，所有洞察都被记录在Miro看板中。例如，在进行用户体验访谈时，我们会录制相关内容，随后将这些录音添加到Miro看板中，使其成为特定项目的知识中心或团队中心。（00:57:20）：收集所有洞察后，团队通常在Miro看板上进行头脑风暴和创意构思。Miro还被用作会议和研讨会的工具。当所有观点被提炼成一系列建议和成果时，我们会将这些内容转化为演示文稿，供产品评审使用。我们近期对Miro功能进行了重大升级，强烈推荐大家体验其中的Showtime功能。该功能能抽象掉UI界面，令用户专注于内容呈现，同时支持实时互动——参会者可随时评论、分享见解，而无需打断演示进程。（00:58:15）：最近我们开始将部分同步会议转为异步模式。通过Talktrack功能，团队可提前发送5分钟或10分钟的Talktrack链接，用户点击即可直接进入Miro看板，轻松参与互动。借助录制功能，演示过程可自动推进，参会者可随时暂停、添加评论，确保同步会议更高效地达成共识或形成统一意见。Miro看板同样适用于此类场景。（00:59:06）：目前，我们的大多数仪表板都迁移至Miro平台。近期我们发布了基于主流可视化工具的数据可视化功能。在Miro中，我们大量使用Google Looker，分析师和产品团队可直接将Looker仪表板链接导入Miro看板，实现全面可视化。与截图不同，Looker仪表板会自动更新，用户无需手动维护。Miro真正成为多项工作的单一数据源。\n在整个产品开发过程中，各团队仅需使用一块 Miro 白板，就能满足多个场景下的使用需求。",
+   "ts": "00:56:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Then for the road-mapping, is that in Miro, each team's roadmap, or do you use something like Jira?",
+   "zh": "接下来是路线图规划，在Miro中，每个团队的路线图是如何制定的？还是说你们使用Jira之类的工具？",
+   "ts": "00:59:51"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, so I think we've got a couple of tools for road-mapping, and our observation is that while those tools are great for the unique needs that they're solving, we haven't found a universal solution for road-mapping. So there are some teams that use Miro for road-mapping and they would use the Kanban widget in Miro for that. What are they working on? What's coming next? What's in the backlog? But I would say it is a problem that is not completely solved in terms of how do we actually bring these artifacts together at scale. (01:00:27): What we are starting to see, and this is actually a unique use case of Miro, is that we actually enable our entire field organization using Talktracks. What happens is that we have our entire roadmap published out as a Miro board for enablement purposes, so that that's a artifact that is approved to be shown to a customer. What you will see is that you'll see five or six recordings in there, and the leader for enterprise has done a five-minute recording on everything they're working on. The leader for platform has done that. The leader for end user experience has done that. The person who's driving some of our AI experience has done that. So you can go in and you can just click on that video and you can meet your needs by using Miro and this capability that we have.",
+   "zh": "是的，我们有几个用于路线图规划的工具。我们的观察是，虽然这些工具能很好地满足各自独特的需求，但我们尚未找到一个通用的路线图解决方案。有些团队使用Miro进行路线图规划，他们会使用Miro中的看板小组件来实现这一功能。他们正在做什么？接下来有什么计划？后备任务有哪些？但我认为，在如何大规模整合这些成果方面，这个问题尚未完全解决。（01:00:27）我们开始注意到的一个独特的Miro应用场景是，我们通过Talktracks为整个现场团队赋能。具体做法是，我们将整个路线图以Miro看板的形式发布，以便于沟通，这是一个获准向客户展示的成果。您会看到里面有五六个录制视频，企业部门负责人会用五分钟的视频介绍他们正在进行的工作，其他部门负责人也如此操作。比如平台部门负责人、终端用户体验负责人，以及负责AI体验的团队成员都会这样做。您可以进入系统，点击这些视频，通过Miro及其相关功能满足您的需求。",
+   "ts": "00:59:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. It sounds like each team can basically choose the tools they want to use. There's no standardized, everyone needs to use Jira or Miro for their roadmap. I like that. I like how teams do that often. Maybe one last question around the product org, and then I want to shift a little bit to growth and how Miro grows and things you have learned about growing. Question I always try to get to is how do you think about balancing new bets and innovation with maintenance and just general incremental work? Do you have some sort of philosophy as a product leader broadly, and then maybe at Miro specifically, of just how to balance investments in these two buckets and maybe three buckets, bugs, incremental work, and then just big bet? How do you think about that?",
+   "zh": "太棒了。看起来每个团队都可以自由选择他们想用的工具，没有强制要求必须使用Jira或Miro来规划路线图。这点很棒，我也喜欢团队经常这样做。最后我想问一个关于产品组织的问题，然后再稍微转向增长策略，谈谈Miro是如何发展的，以及你们在增长方面有哪些经验教训。我一直想问的是，作为产品负责人，您如何平衡新尝试和创新与维护现有业务、渐进式改进之间的关系？您作为产品领导者，或者具体到Miro团队，是否有一些理念来平衡这两类投资，或许还有第三类，比如处理漏洞、渐进式改进，以及重大创新项目？您是如何看待这个问题的？",
+   "ts": "01:01:09"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "We have some rule of thumbs in terms of how we want to allocate our investments across these buckets. I would say a lot of it, Lenny, actually depends on the state of the team. There are certain teams that have more tech debt than others. There are certain teams that are actually working on some really big zero to one features than other teams, and so I think there is a variance. The standard deviation actually is dependent on which part of the spectrum that you're in, which is are you a team that we believe needs to create the next generation experience on the platform and hence we have to prioritize innovative work or are you the team that's actually so critical to actually meeting our objective around better board performance or any of the other things that we believe are important and hence we need to invest in those critical areas? (01:02:41): But I would say in general innovation versus not, varies on a spectrum of anywhere from 60 to 80%. I would say about 20 to 40% of the available capacity at any given time is either getting allocated to architectural initiatives. There's a technology roadmap that our CTO is driving that we believe is extremely important as the platform scales, and now as we have over 50 million people on the platform, so we continuously have to invest in making sure that the platform can scale. There are certain teams that probably have 40 to 50% of their allocation towards that because they're a critical part of the component. There are other teams that are maybe more end user focused and are more UI focused where that allocation is lower. But I think general rule of thumb is 20% is always a given, but it can go as high as 40 to 50%.",
+   "zh": "关于如何在不同投资领域分配资源，我们有一些经验法则。我想说，莱尼，这在很大程度上取决于团队的现状。有些团队的技术债务比其他团队多得多，有些团队正在开发一些重大从0到1的功能，因此我认为存在差异。标准偏差实际上取决于你所处的阶段——你是需要为平台创造下一代体验的团队，还是对提升董事会绩效等其他重要目标至关重要的团队？（01:02:41）但总的来说，创新与否的比例在60%到80%之间变化。任何给定时间内，约20%到40%的可用资源会被分配到架构项目上。我们的首席技术官正在推动的技术路线图对平台扩展至关重要。如今平台已拥有超过5000万用户，因此我们必须持续投资以确保平台能够扩展。有些团队可能将40%到50%的资源分配到这方面，因为他们是关键组件的核心部分。而其他团队可能更侧重于终端用户体验，UI相关的投入则较低。但一般来说，20%是固定比例，但也可以上升到40%到50%。",
+   "ts": "01:01:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On bigger bets and longer-term thinking?",
+   "zh": "关于大规模押注和长期思考？",
+   "ts": "01:03:30"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, 20 to 40% goes on the technology-related initiatives and maintenance and stuff.",
+   "zh": "是的，20%到40%用于技术相关的项目、维护等。",
+   "ts": "01:03:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, got it. Infrastructure, maintenance, making sure everything's there. Got it.",
+   "zh": "哦，明白了。基础设施、维护，确保一切正常运转。懂了。",
+   "ts": "01:03:38"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "[inaudible 01:03:44] Exactly, yeah.",
+   "zh": "[01:03:44不可听清]没错，就是这样。",
+   "ts": "01:03:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Then what about just big, long-term bets that you're not expecting to pay off anytime soon? Do you have a heuristic of just what percentage of, say, total resources you put there?",
+   "zh": "那对于那些短期内看不到回报的大型长期项目呢？你有没有一个经验法则，规定投入总资源的百分比是多少？",
+   "ts": "01:03:44"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "You've probably seen this, the framework of three horizon, it's quite popular in McKinsey and Harvard [inaudible 01:04:01] school and so on and so forth, is horizon one business, which is the thing that's delivering food on the table. Generally there's about a 70% allocation of resources that we have, give or take. Then there is horizon two, which is an adjacent thing. With the next 12 to 36 months we believe it's material. Usually that tends to be around 20% of the allocation. Then there's horizon three, which is three years out, three to five years, next generation things, and that's about 10% of the ratio. So it's like 70/20/10 across horizon one, two, and three.",
+   "zh": "你可能见过这个，三重视野框架，在麦肯锡和哈佛商学院等机构很流行。一级视野是业务层面，直接带来收益。通常我们会分配70%左右的资源。二级视野是相邻领域，未来12到36个月内会产生重大影响，通常占20%左右。三级视野是三年到五年，下一代创新，占10%左右。所以一级、二级、三级分别是70/20/10的比例。",
+   "ts": "01:03:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Any other thoughts along the lines of just how you think about product before we shift? I only have a few questions around the growth story of Miro and what you've learned about growing.",
+   "zh": "太棒了。在我们转换话题之前，你对产品还有什么其他思考吗？我只想问几个关于Miro增长故事和经验教训的问题。",
+   "ts": "01:04:30"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "In terms of product leadership and what we believe is the way we want product leaders to be developed and I think it's more of a people philosophy. We have our product leadership which constitutes of all of the folks who are running all of these streams, and I always tell them that you have two personas that you have to think about. Everyone who's on the product leadership team is a product leadership team member. The fundamental thing that you have to do is drive accountability. The number one thing that a product leader on the product leadership team needs to do is drive accountability with others in the product leadership team. The other persona that they have is that they are a stream leader. They're actually responsible for delivering value for the respective persona and respective customers and stuff. So when you put on the persona hat of a stream leader, which is different than the persona or of a product leader, your number one metric, the number one goal that you have, is drive improvement. (01:05:42): When you go back and you work with your team, always have the lens are you improving things and whatever you want to improve, but you always have to ask yourself, \"Today compared to yesterday, tomorrow compared to today, have I improved things? That's the yardstick you should think about. When you go sit in the product leadership team every Monday afternoon at 1:00 in the afternoon when we meet together, your number one goal is actually to drive accountability around this and are you making sure that we as leaders in the organization are doing the right thing for the company?\" I think that's a philosophical construct that I always remind people in terms of what they should be doing. As an example, tomorrow we have calibrations, we have our annual review cycle happening in the company.",
+   "zh": "就产品领导力而言，以及我们所认同的培养产品领导者的方式而言，我认为这更多是一种人才管理理念。我们有自己的产品领导团队，成员包括负责所有产品线的人员。我总是告诉他们，必须考虑两个角色定位。产品领导团队的每位成员都必须承担两个角色：一是推动问责制；二是作为产品线负责人，为各自的客户群体创造价值。当以产品线负责人的角色出现时（与产品领导者的角色有所不同），你的核心指标和首要目标就是推动改进。（01:05:42）：当你回归团队工作，始终要以改进为核心，无论你想改进什么，但你必须时刻自问：“今天与昨天，明天与今天相比，我是否有所改进？”这才是你应当关注的衡量标准。每周一下午1点开会时，产品领导团队的首要任务就是推动问责，确保我们作为组织中的领导者为公司做出了正确决策。我认为这是一种理念构建，我总是用它来提醒大家应当如何行事。比如明天我们要进行绩效评估，公司年度评审周期也即将启动。",
+   "ts": "01:04:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Good times. Always a blast.",
+   "zh": "真开心。每次都特别愉快。",
+   "ts": "01:05:42"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes, exactly, always fun and so critical as a leader, because it sets the tone for everything that you're going to do. In my opening remarks, the only thing I'm going to remind everyone in the room is that \"Your number one goal here is to be a product leader and accountability is what you have to write. That's it. Just hold each other as accountable, including myself in terms of making sure that as we go in, that's the key thing.\" I think once people understand the duality of how they need to operate across those two specific goals, it actually leads to really high-performing teams and teams that actually are able to create somewhat of a magic if they are open and there is trust that has been built in the team.",
+   "zh": "是的，没错，总是很有趣，对领导者来说也至关重要，因为它为你接下来要做的一切奠定了基调。在我的开场发言中，我要提醒在场的每位：\"你们在这里的首要目标就是成为产品领导者，而问责制就是你们必须践行的。就是这样。彼此监督问责，包括我自己在内，确保我们朝着正确的方向前进，这才是关键。\" 我认为，一旦人们理解了在两个特定目标之间保持平衡的重要性，这实际上会促成高绩效团队的形成——只要团队成员保持开放、互相信任，这样的团队就能创造奇迹。",
+   "ts": "01:06:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When you say accountability, what does that look like? Is it pointing out, \"Hey, you didn't achieve this thing we were trying to achieve\" or \"You didn't do a great job leading this meeting\"? Is it just direct feedback often or is there some other way you see that manifested, and what do you like to see?",
+   "zh": "你说的问责制具体是什么样的？是直接指出\"嘿，你没有达成我们设定的目标\"，还是\"你没有把会议主持得很好\"？通常是直接反馈吗？还是有其他表现形式？你希望看到怎样的表现？",
+   "ts": "01:07:07"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, I think it's basically practicing feedback in a very open and constructive way and focusing on what is important for the business and not shying away from having some of those observations and conversations, not shying away from them. But it's all in the lens of what is the right thing to do for the business, and if you feel that that one or more members of the leadership team are not living up to what needs to be done, then just voicing it. It's not like you're complaining or anything, it's just like, \"I have this perspective. Is this the right perspective or not?\" Because actually it ties very well with the overall cultural values that we have. (01:08:02): If you do things with the lens that you are being empathetic, then you pose it as a question as opposed to a statement. I think that's one of the things that we practice a lot at Miro is that I believe that I am seeing there are certain things that are happening that it could be just me that I'm not seeing the other things. \"But what is it? Can you help me understand? Can you help me figure out that why certain things are happening? Because I might just be missing the perspective.\" But because you bring it up, and that's part of practicing accountability in an empathetic way, it actually gets the entire team in the right mindset in terms of how they operate.",
+   "zh": "是的，我认为这基本上就是以非常开放和建设性的方式进行反馈，关注对业务至关重要的事情，不回避提出这些观察和对话，不回避它们。但这一切都基于对业务最有利的考量，如果你觉得领导团队中有一人或多人没有做到应尽之责，那就大胆说出来。这样做并非抱怨，而是表达自己的观点：\"我有这样的看法。这是正确的视角吗？\"因为这实际上与我们所秉持的整体文化价值观高度契合。（01:08:02）：如果你以同理心为出发点，那么你就应该以提问而非陈述的形式提出问题。我认为这正是我们在 Miro 经常践行的一点——当我发现某些正在发生的事情时，可能只是我个人的视角，而忽略了其他人的看法。\"但具体是什么呢？你能帮我理解吗？你能帮我弄清楚为什么某些事情会发生吗？因为我可能忽略了某些视角。\"但因为你提出了这个问题，这正是以同理心践行问责制的一部分，它实际上能让整个团队形成正确的运作思维模式。",
+   "ts": "01:07:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Has anyone given you some sort of direct feedback recently or pointed out something you didn't do well that held you accountable that you can share?",
+   "zh": "最近有没有人给你一些直接的反馈，或者指出你做得不好的地方，从而让你承担责任，你可以分享一下？",
+   "ts": "01:08:39"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "All the time. Yeah, all the time. When we do our offsites, this is actually a fun thing, is that every offsite that I do with my leadership team, usually there is a one to two hour session where it is feedback to Varun, and I actually do it openly. I will have about eight to 10 people in the room and I will force people to be very honest and I want to show my vulnerabilities to everyone, that I am not perfect and I have lots of areas to improve. Every time people do it, it's interesting that they open up in very amazing ways and I think I love it because it helps me become better. It helps me identify my blind spots. But what it does is, because I do it in an open way, it brings a lot of trust. It brings trust that I do it openly and I'm an open book and they can share whatever they want, not just with me but openly in front of everyone.",
+   "zh": "一直都有。是的，一直都有。当我们举办非正式会议时，这其实是个很有趣的环节。每次我和领导团队开非正式会议时，通常会有一到两个小时的时间用于给 Varun 反馈，我会公开地进行反馈。会议室里会有大约 8 到 10 个人，我会要求大家非常诚实，我也愿意向每个人展示自己的脆弱之处——我并非完美，还有很多需要改进的地方。每次大家这样做时，很有趣的是，他们会以令人惊叹的方式敞开心扉。我认为我喜欢这样做，因为它能帮助我变得更好。它能让我识别自己的盲点。但这样做的好处是，因为我以公开的方式进行，反而赢得了大家的信任。大家信任我公开透明，他们可以随心所欲地分享，不只是对我，而是公开地在所有人面前分享。",
+   "ts": "01:08:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are you willing to share one thing they suggested that they pointed out that they wish you did differently or better?",
+   "zh": "你愿意分享他们提出的一个建议吗？他们希望你以不同或更好的方式做事。",
+   "ts": "01:09:43"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, I think in general, finding time with me tends to be a bit of a hard thing, and generally there's always this feedback, which is need more time, maybe more responsiveness over email or Slack or something like that. That's an area that I'm constantly working on and improving, so yeah.",
+   "zh": "是的，我认为总体来说，大家找时间与我交流往往比较困难，而反馈内容通常都是\"需要更多时间\"，也许是希望我能更及时回复邮件或 Slack 消息之类的。这正是我一直在努力改进的领域，所以是的。",
+   "ts": "01:09:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That feels like a cop out. That doesn't feel too painful to hear. I'm like, \"Yeah, yeah, I know. I don't have a lot of time. I'm sorry.\" But I get it, and that comes back to your point about blockers and how important it's to unblock teams because that leads to a lot faster progress.",
+   "zh": "这听起来像是在推诿。听起来倒不算太难接受。我会说，\"是啊，是啊，我知道。我时间不多。很抱歉。\"但我理解，这又回到了你关于障碍以及解除团队障碍的重要性这一点，因为这能让团队进步得更快。",
+   "ts": "01:10:11"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "That's true, that's true.",
+   "zh": "没错，确实如此。",
+   "ts": "01:10:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so let me shift a little bit to Miro's growth and I only have a few questions here. I know it's getting late on your side so I don't want to keep you too long.",
+   "zh": "好的，接下来我要稍微转向Miro的增长策略，我这里就只有几个问题。知道你们那边时间不早了，所以不想占用你们太多时间。",
+   "ts": "01:10:28"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Sure.",
+   "zh": "没问题。",
+   "ts": "01:10:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The first is something I'm on this constant quest to understand how companies got their first users, and I haven't actually heard the story of how Miro got its first thousand users or customers. I know you weren't there in the early days, but you happen to know how Miro initially grew and got their first thousand users and customers?",
+   "zh": "第一个问题是我一直在努力理解公司如何获得首批用户，但我还没听过Miro如何获得首千名用户或客户的故事。虽然你不在公司早期，但你是否了解Miro最初是如何增长并获得首千名用户和客户的？",
+   "ts": "01:10:35"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "I think the fundamental thing there is that we always had user first approach and reaching out to certain communities that were relevant to what was a key part of lighting the fire, if you will, the proverbial way people start to talk about the product. Given the collaborative nature of the product, some of the early adopters invited people who were also early adopters and the flywheel started to work. I've heard that we did a fair amount of content marketing and listing the product on sites like Capterra sort of helped. There was some early investments in terms of SEO and organic growth, so there was a focus there, which was the main source of driving traffic. The top of the funnel came through that. (01:11:43): The product teams were very intensely focused on building vital loops as a key mechanism of driving growth, once the traffic came in. Every interaction that actually introduced barrier, they looked at it and they looked at the data and they said, \"Let's reduce this barrier. Let's remove this thing so that the product could be effectively embraced.\" It was an evolution over a period of time. There was also the fact that early on in the journey, some of the features were presented on a trial basis and then later on the model was evolved from a trial basis, time limited to a premium model that further accelerated the growth for the business. I would say those were some of the approaches that were taken to get to the first thousand users or so.",
+   "zh": "我认为关键在于我们始终坚持以用户为先的理念，通过接触与产品核心相关的特定社区来点燃用户讨论热情。鉴于产品的协作属性，早期用户会邀请其他早期用户加入，形成良性循环。我听说公司做了很多内容营销，比如将产品上架Capterra等平台也起到了帮助作用。此外，在SEO和自然增长方面也早期投入了资源，这些都是推动流量的主要来源。顶部漏斗阶段就是这样实现的。（01:11:43）：产品团队在流量涌入后，高度专注于构建关键增长机制——关键循环。每当某个功能增加障碍时，他们都会分析数据并调整：“让我们减少这个障碍，移除这个阻碍，让产品更易被接受。” 这是一个逐步演进的过程。早期阶段，部分功能以试用形式推出，后来模式从试用转为付费，进一步加速了业务增长。我认为这些策略正是帮助Miro获得首千名用户的关键。",
+   "ts": "01:10:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You talked about how Miro grows, where it has this magical loop of \"I use Miro to for myself, then I share it with my team in whatever way I'm using it.\" They're like, \"Oh, Miro, this is cool.\" Then they start using it and then they share it with people that they want to work with, and it creates this loop of growth.\" I imagine that's how Miro mostly grew initially and continues to grow. Is there anything surprising or unintuitive about how Miro grows that is beyond that? I imagine sales is a part of it and we can talk about that, but is there anything else that is interesting that is worth mentioning?",
+   "zh": "你之前提到Miro的增长策略，即“我先自己使用Miro，再以某种方式与团队分享”，然后团队成员会觉得“Miro真酷”并开始使用，再分享给合作伙伴，形成增长循环。我想这就是Miro最初和持续增长的主要方式。除了这些，还有没有什么令人惊讶或出乎意料的增长策略？我猜销售也是其中一部分，之后可以再谈，但有没有其他值得一提的有趣之处？",
+   "ts": "01:12:34"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "No, I think that's the key of the growth. I think there are specific use cases where they are uniquely sort of geared towards inviting a lot of new people. For example, Miro is loved as a workshopping tool, and so generally one person is using Miro, but they invite 10, 15, 20, 50, 200, 300 people to that workshop. There are specific use cases where people get introduced to the product and then go and sign up for it and then start to use it for that use case or other use cases. I think the other accelerant in all of this is the templates that we have, in particular the role that Miroverse plays in all of this. (01:13:49): Just to give you an example here, there was a template which was created around FIFA World Cup, so there was a FIFA World Cup diagram. Cornelius, he's the founder and managing director of a Canadian strategic service design consultancy firm. He created this Miroverse template and it had over 100,000 views and about 15,000 copies were made of the single template. Given the popularity of all of this, it actually got indexed by Google. When you went in the search, you actually saw the Miroverse FIFA template show up when you were trying to search for FIFA World Cup, and that was another sort of acquisition channel top of funnel that actually drew a lot of users to it. So I think I would say the Miroverse is also a key accelerant to this.",
+   "zh": "嗯，我认为这正是增长的关键所在。有些特定的使用场景下，Miro 产品本身就极具吸引力，能轻松吸引大量新用户。比如，Miro 被视为一个头脑风暴工具，通常一个人使用 Miro 时，会邀请 10 人、15人、20人、50人、200人、300人参与同一场头脑风暴。还有一些特定的使用场景下，用户接触到产品后会主动注册并开始使用，比如 Miroverse 平台的模板功能就起到了关键作用。\n\n（01:13:49）我举个例子：有一个以国际足联世界杯为主题的模板，里面有世界杯相关的图表。康奈利斯是加拿大一家战略服务设计咨询公司的创始人兼总经理，他创建了这个 Miroverse 模板，该模板的浏览量超过 10 万次，单个模板被复制了约 1.5 万次。鉴于其受欢迎程度，该模板甚至被谷歌收录了。当用户搜索“国际足联世界杯”时，Miroverse 的模板会出现在搜索结果中，这实际上是吸引用户的首要渠道之一。所以我认为 Miroverse 也是增长的关键驱动力。",
+   "ts": "01:13:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If you had to think about the pie chart of how Miro grows, what percentage roughly would you say is word of mouth, organic, versus what you just described, which is essentially a CO versus sales, outbound sales? How do you think about that? Is there a way to model that simply?",
+   "zh": "如果要画一张 Miro 增长的饼状图，你认为口碑传播和自然增长占多大比例？与你刚刚提到的以客户获取为核心、外向型销售的增长方式相比，比例大约是多少？你如何看待这种增长模式？有没有简单的方法来量化这一比例？",
+   "ts": "01:14:45"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Without getting into specific numbers and stuff, I would say fundamentally Miro is a product-led growth company and product channels are one of the highest contributors for growth of users. As the business has evolved to serve the needs of some of the largest corporations in the world, the enterprise segment and the enterprise persona when they're trying to provision Miro for tens of thousands of users who then go conduct hundreds of thousands of workshops on Miro that invite millions of users on the platform, is a key part of the flywheel that we are seeing. I would say product channels are probably very strong and increasingly enterprise is a key part of that acceleration.",
+   "zh": "不具体透露数字的话，我认为 Miro 根本上是一家产品驱动型增长公司，产品渠道是用户增长的最大贡献者之一。随着业务不断发展以满足全球大型企业的需求，企业级用户和企业客户在为数万用户部署 Miro 时，会举办数十万场研讨会，吸引数百万用户加入平台，这正是我们所见证的增长飞轮的关键环节。我认为产品渠道非常强大，企业级用户正日益成为增长的核心驱动力。",
+   "ts": "01:15:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A great segue to our final question, which is the idea that you started a product growth, sounds like clearly it's a big part of growth today, but as every product growth company does eventually you have a large sales team, I imagine, what have you learned as a product leader working with sales, especially at a product growth company about how to make that relationship work and have a product work effectively with a sales org?",
+   "zh": "这正好引出我们的最后一个问题：你启动了产品增长战略，显然这在当今增长中占据重要地位。但像每个产品增长型公司一样，最终都会组建一个庞大的销售团队。我想知道，作为产品负责人，尤其是在产品增长型公司中，你在与销售团队合作时，学到了哪些让这种合作关系行之有效、让产品与销售团队协同高效的经验？",
+   "ts": "01:15:53"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "There are a few learnings and I would say maybe this is one area where we are working on how we could be doing better in terms of bringing ourselves closer to our high-touch and bringing high-touch closer to self-serve, in terms of how we operate overall. It's a lot of hard work, I would say first of all, basically, to bring both of these organizations together and you have to be very deliberate around the points of intersection and you have to make sure that these organizations don't consider themselves as competition. It's one product, one company, just two channels of how we are serving our customers. There's some things that we've done which is have the product marketing team that basically works across both of these functions and make sure that they are bridging what we are hearing from the sales organization in terms of what directly customers need on the enterprise side, and then what do we need on the self-serve side. (01:17:23): There's a full process in terms of how the handoff happens across the maturity of the account. It can start as a self-serve, it drives adoption, and once there's adoption, there's a hand raiser that happens and then there's a sales rep that gets engaged and you go through the qualification process and then you have an opportunity to expand the account. We've over the years sort of architected and built the entire funnel and what the process is, and that's also sort of a key part of how all of this operates. But like I said, I think there are a few areas where we could further streamline how we operate and think of it as one single unit.",
+   "zh": "学到了一些经验，我想说，也许这正是我们正在努力改进的领域之一——如何让我们的高接触服务更贴近客户，同时让自助服务更便捷，整体提升运营效率。首先，这需要付出大量努力。基本上，要把这两个部门整合起来，必须精心规划双方的合作界面，同时确保这两个部门不会将彼此视为竞争对手。毕竟，我们是同一家公司，只不过采用了两种不同的客户服务模式。为此，我们采取了一些措施，比如让产品营销团队横跨这两个部门，确保他们能准确传达销售团队的需求——一方面是企业客户的实际需求，另一方面是自助服务用户的具体需求。（01:17:23）：在客户成熟度不同的情况下，交接流程也各不相同。客户可能从自助服务起步，逐步提高接受度。一旦用户接受了产品，交接流程就会启动，随后销售代表介入，完成资格审核流程，最终才有机会拓展客户规模。多年来，我们精心设计并搭建了整个销售漏斗体系，这也是整个运营机制的核心。但正如我所说，我认为我们仍有几个可以进一步优化运营流程的领域，最终将其视为一个统一的整体。",
+   "ts": "01:16:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I imagine that is true for every company out there.",
+   "zh": "我想这对所有公司来说都是如此。",
+   "ts": "01:18:05"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:18:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One maybe final question before we get to our very exciting lightning round. What are some features that people could look forward to that are coming with Miro?",
+   "zh": "在进入激动人心的闪电问答环节之前，最后再问一个问题：Miro即将推出的新功能有哪些值得期待的地方？",
+   "ts": "01:18:09"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "We recently, about a month ago, announced Miro AI, the backdrop of all the amazing work that's happening around generative AI and large language models and stuff. I think it was really, really exciting to see all of the community enthusiasm around the use cases that we launch. So we're going to be taking it across the finish line and doing a general availability in the coming weeks and months. I think that's one big thing and we'll be adding more capabilities there. Just today we actually announced a bunch of really deep enhancements and updates around how Miro can be used for team rituals and agile practices. Now you can actually do retrospectives in Miro where you can have a private mode where while Lenny's typing his feedback during retrospective, nobody else can see it and then one click you can reveal it. I just saw some of the results of the feedback and it was rated as the number one feature people saw. (01:19:14): There's also some deeper integrations in terms of bringing an entire program board from Jira to start to do dependency mapping inside of Miro in a fun and collaborative way, to use this dependency mapping along with program board to start to do program increment planning, which is essentially scrum of scrums or big room planning that's happening. There's some really amazing capabilities that we've added there, which is on the backdrop of some of the updates we've made in terms of estimation of sprint story points and so on and so forth. Now there's a whole plethora of capabilities and apps that are available as part of the platform that allow you to have your entire team conduct your team rituals in Miro and you can automate certain things, you can streamline things, you can do certain things in async and then do the rest in synchronous ways, so I think that's been a big update as well.",
+   "zh": "最近，大约一个月前，我们推出了Miro AI，它是生成式人工智能、大型语言模型等领域所有精彩成果背后的支撑平台。看到社区对我们推出的用例案例反响热烈，真是令人振奋。因此，我们将在未来几周至几个月内正式将其全面上线。我认为这是重大的进展，我们还将持续扩展其功能。就在今天，我们宣布了针对团队仪式和敏捷实践的多项深度升级。现在，用户可以在Miro中开展回顾会议，启用隐私模式时，参与者输入的反馈内容不会被其他人看到，点击一键即可公开。今天我刚看到反馈结果，这项功能被评为最受期待的新功能。\n\n（01:19:14）此外，我们还深化了与Jira的集成，将整个项目看板引入Miro平台，以有趣且协作的方式开展依赖关系映射。借助这种依赖关系映射与项目看板相结合，用户可规划项目增量计划，这实质上是Scrum中的Scrum或大会议室规划的延续。我们还对冲刺故事点的估算等功能进行了优化。如今，平台上已涌现大量应用，助力团队在Miro中开展各类仪式，自动化流程、精简工作、实现异步协作与同步沟通的无缝衔接，这无疑是重大升级。",
+   "ts": "01:18:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. With that, we've reached our very exciting lightning round. I've got six questions for you. Are you ready?",
+   "zh": "太棒了。至此，我们迎来激动人心的闪电问答环节。我有六个问题要向您提问。准备好了吗？",
+   "ts": "01:20:12"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes.",
+   "zh": "好的。",
+   "ts": "01:20:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, let's do it. What are two or three books that you have recommended most to other people?",
+   "zh": "那我们开始吧。您向他人推荐最多的两三本书是什么？",
+   "ts": "01:20:20"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "One is, I love this, When Breath Becomes Air by Paul Kalanithi. It's one of those really emotional books that at the end of it, you might have tears in your eyes, but really, really amazing. We talked about Frank Slootman's Amp It Up, and then Satya Nadella's Hit Refresh. I think philosophically some of the things that we talked about today are inspirations that I found in some of these books.",
+   "zh": "第一本是保罗·卡拉尼提的《当呼吸化为空气》。这本书情感真挚，读到最后你可能会热泪盈眶，但确实非常震撼。我们还提到了弗兰克·斯洛特曼的《Amp It Up》，以及萨蒂亚·纳德拉的《重启》。我认为今天讨论的一些理念，正是从这些书中获得的灵感。",
+   "ts": "01:20:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's a recent favorite movie or TV show?",
+   "zh": "最近你最喜欢的电影或电视剧是什么？",
+   "ts": "01:20:49"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Ted Lasso. I don't know if it's a recent one or not, but something-",
+   "zh": "《特德·拉索》。不知道算不算最近的，但有件事——",
+   "ts": "01:20:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's a new season.",
+   "zh": "新一季已经上线了。",
+   "ts": "01:20:55"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yeah, I've enjoyed a lot. I think it's a very positive and uplifting message. I think the performance is huge. It's humorous, the characters are well-developed, so I think overall it's a treat, at least for, me to watch.",
+   "zh": "是啊，我特别喜欢看。我觉得它传递了非常积极向上的信息。演员的表演也超棒。剧情很幽默，人物塑造得也很丰满，所以总的来说，这部剧太棒了，至少对我来说是这样。",
+   "ts": "01:20:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's a favorite interview question you like to ask?",
+   "zh": "你最喜欢问的一个面试问题是什么？",
+   "ts": "01:21:13"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "I actually ask a math problem. For those of you who interviewed with me, I have this math problem, which is based on how Adobe created its first Creative Suite bundle. I was actually part of the team that came up with the pricing and packaging for the first Creative Suite post-acquisition of Macromedia. It's a math problem that allows you very quickly to figure out people in terms of their problem-solving skills. Usually I give that problem to people. I've given it to, I don't know, 700, 800 people, so I now have a very, very well established standard distribution of how long it takes for people, where do they get stuck and where they've gotten stuck, for those people I've hired, what evidence do I have in terms of using that as a framework in terms of them being able to solve things? So that's my favorite question.",
+   "zh": "实际上，我要出个数学题。面试过我的人都知道，这个数学题是基于Adobe如何打造首个Creative Suite套件而设计的。我曾参与Macromedia被收购后首个Creative Suite定价和包装方案的制定。这个数学题能快速评估应聘者的解决问题能力。我通常会把这个题目给很多人做过，不知多少次了，现在我已经建立了一套非常完善的标准数据库，记录了不同人完成这道题所需的时间、遇到的难点，以及最终雇用他们的成功案例。通过这个框架，我能有效判断应聘者是否具备解决问题的能力，所以这是我最喜欢的面试问题。",
+   "ts": "01:21:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So you're saying you've mapped back people that have done a certain way on the problem with their success and you've kind of found that it's a good signal of their performance?",
+   "zh": "所以你的意思是，你能将完成这道题的人与他们的成功表现对应起来，从而发现这是一个衡量他们绩效的有效指标？",
+   "ts": "01:22:08"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Yes. Not directly, but yes, correlation and stuff.",
+   "zh": "是的。虽然不完全直接相关，但确实存在关联性。",
+   "ts": "01:22:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's amazing. That's one of the biggest problems with interviewing. You think you're asking all these amazing questions and it's such a good signal, you have no idea. No one goes back and is like, \"Oh, this person sucked. This person didn't... \" That's really cool to get that much data on that one question. Two more questions for you. What's something relatively minor that you've changed in how you do product development that has had a tremendous impact on your team's ability to execute?",
+   "zh": "太棒了。这正是面试环节最大的难题所在。你以为自己问了所有精彩的问题，觉得这是个绝佳的评估指标，却根本不知道真实结果。没人会事后反思说“哦，这个人真烂，那个人不行……”能从一个问题中获取如此丰富的数据，真是令人惊叹。再问两个问题吧。你在产品开发过程中做过哪些相对细微的改进，却对团队执行能力产生了巨大影响？",
+   "ts": "01:22:21"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "We talked about some of that, sort of removing the roadblocks. I think having this motto of great customer value faster with high quality, just the simplicity of that and it's actually part of our evaluation rubric, it's part of how we measure ourselves and stuff. So I think just coming up with these simple concepts that you can rally the organization around, and I think it's still a work in progress, but something that I believe is leading to positive outcomes.",
+   "zh": "我们之前讨论过一些问题，比如消除障碍。我提出的口号是“以高质量快速创造卓越客户价值”，这个理念简单明了，实际上它也是我们的评估标准之一，是我们衡量自身表现的重要依据。我认为制定这些能凝聚团队共识的简单理念非常重要，虽然这仍在不断完善中，但我相信它正在带来积极成果。",
+   "ts": "01:22:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question. What's your favorite Miro template?",
+   "zh": "最后一个问题，你最喜欢的Miro模板是什么？",
+   "ts": "01:23:07"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "It's the FIFA World Cup actually. I am so fascinated with what was done. Yeah, it's the latest one, but I think there's a bunch of them in terms of retros as well, and I think... like your template as well.",
+   "zh": "实际上是FIFA世界杯的模板。我对他们的设计太着迷了。最新一届确实很棒，但往届的回顾模板也很棒，我觉得……你的模板也不错。",
+   "ts": "01:23:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. We will link to all of those. Varun, this was amazing. Everything I expected and more, your team is as interesting and unique as I thought, and I am excited for people to learn from you and we're going to share a lot of links alongside this episode in the show notes. Two final questions, where can folks find you online if they want to reach out and learn more, and how can listeners be useful to you?",
+   "zh": "太棒了。我们会把所有相关链接附在节目笔记里。Varun，这次访谈太精彩了。你完全符合我的期待，甚至超出预期。你的团队和你的个人魅力正如我所料般有趣独特。我期待大家能从你身上学到更多东西，我们会把大量相关资源分享给听众。最后两个问题：如果想联系你或者了解更多信息，哪里可以找到你？听众又如何能为你提供帮助？",
+   "ts": "01:23:21"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Thank you, Lenny. It was a lot of fun. I enjoyed our interaction. You folks can find me online on LinkedIn. I think that's probably the best way to connect with me. I think in terms of one or two things I can ask everyone is that, one is if you are an existing Miro user and you use the product for something interesting, I highly encourage you to contribute it as a template as part of Miroverse. There's a lot of folks who use that and we would love for you to contribute there. The second thing is, I know a lot of product development teams, PMs and designers are big fans of you, Lenny, so those are also the users that use Miro. If there's anything we could do to make the product better, if there's things that you feel like we can expand the platform into, we would love to hear from you and just reach out to me directly over LinkedIn, direct message or connect with me there and yeah, and let us know. We're here to serve.",
+   "zh": "谢谢你，莱尼。今天的交流非常愉快。我很享受与大家的互动。大家可以在领英上找到我，我觉得这应该是与我保持联系的最佳方式。接下来我想请大家做两件事：第一，如果你已经是Miro的用户，并且用它做过有趣的项目，我强烈建议你将其作为模板贡献到Miroverse平台。我们有很多用户会用到这些模板，期待你的贡献。第二，我知道很多产品开发团队、产品经理和设计师都是你的忠实粉丝，而这些用户恰恰是Miro的核心用户。如果大家对产品有改进建议，或者希望拓展平台功能，欢迎随时通过领英直接联系我，发送私信或建立连接，让我们共同进步。我们随时为大家服务。",
+   "ts": "01:23:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Varun, thank you again for being here.",
+   "zh": "太棒了。瓦伦，再次感谢你的参与。",
+   "ts": "01:24:40"
+  },
+  {
+   "speaker": "Varun Parmar",
+   "en": "Thanks, Lenny. Awesome.",
+   "zh": "谢谢，莱尼。太棒了。",
+   "ts": "01:24:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见了。非常感谢大家的聆听。如果觉得这期内容有价值，可以在苹果播客、Spotify或你喜欢的播客应用上订阅本节目。同时，欢迎给我们评分或写下评论，这对其他听众发现本节目非常有帮助。您可以访问lennyspodcast.com查看过往所有节目或了解更多信息。下期节目再见。",
+   "ts": "01:24:45"
+  }
+ ]
+}

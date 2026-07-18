@@ -1,0 +1,869 @@
+{
+ "id": "Nabeel S. Qureshi",
+ "name": "Nabeel S. Qureshi",
+ "category": "企业管理",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Nabeel+S.+Qureshi",
+ "bio": {
+  "en": "Nabeel S. Qureshi is a writer, researcher, and engineer who studied AI policy at the Mercatus Center and documented Palantir's distinctive product-management model.",
+  "zh": "纳比尔·S·库雷希（Nabeel S. Qureshi）是一位作家、研究员与工程师，曾在 Mercatus Center 研究 AI 政策，并系统记录过 Palantir 独特的产品管理模式。"
+ },
+ "summary": {
+  "en": "Nabeel explains Palantir's unusual PM model: only proven \"forward-deployed engineers\" could become PMs, screening for independent thinking and broad intellectual curiosity. He describes how these engineers embedded with customers to deeply understand problems before productizing. The episode is a fascinating study of a PM culture very different from the mainstream.",
+  "zh": "纳比尔解释了 Palantir 非同寻常的 PM 模式：只有证明了自己的\"前沿部署工程师\"才能成为 PM，以此筛选出独立思考与广博智识好奇心的人。他描述了这些工程师如何深入客户现场、在产品化之前深度理解问题。本期是对一种迥异于主流的 PM 文化的精彩研究。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "30% of PMs that leave Palantir start a company. Just give us a picture of what the people are like.",
+   "zh": "离开Palantir的项目经理中有30%会创办自己的公司。能否给我们描述一下这些人的特点？",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I feel like they screened really hard for a few traits in particular. One is like very independent-minded people who weren't afraid to push back. Two is people with broader intellectual interests.",
+   "zh": "我觉得他们对某些特质筛选得非常严格。第一类是那些有独立思考能力、不怕提出异议的人；第二类是拥有广泛知识兴趣的人。",
+   "ts": "00:00:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's the difference between, say, a PM at Palantir versus a traditional PM?",
+   "zh": "Palantir的项目经理和传统项目经理有什么区别？",
+   "ts": "00:00:15"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "They were extremely careful about only making people PMs who had first proven themselves out as forward deployed engineers. You basically could not become a PM any other way. There's two types of engineer at Palantir. So, there's one that works on the core product and they're a traditional software engineer. There was a different type of engineer which you sent into the field. You would spend maybe Monday to Thursday and you would actually go into the building where the customer worked and you would work alongside them. You would literally get a desk there and so, that engineer became known as a forward deployed engineer.",
+   "zh": "他们非常谨慎，只让那些先证明过自己是前沿部署工程师的人担任项目经理。除此之外，晋升项目经理的路径基本不存在。在Palantir，工程师分为两类：一类是专注核心产品开发的传统软件工程师；另一类是被派往客户现场的工程师。他们通常周一至周四在客户的办公楼工作，与客户团队并肩协作，并在那里设立专属办公桌。这种工程师被称为\"前沿部署工程师\"。",
+   "ts": "00:00:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's something that you believe that most other people don't?",
+   "zh": "你认为大多数人不认同的观点是什么？",
+   "ts": "00:00:51"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I think this is a somewhat contrarian view within tech.",
+   "zh": "我觉得这在科技行业里算是一个比较反主流的观点。",
+   "ts": "00:00:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Nabeel Qureshi. Nabeel is a founder, a writer, a researcher, and an engineer. He was recently a visiting scholar researching AI policy at the Mercatus Center alongside Tyler Cowen. At one point, he worked with the National Institute of Health and major clinical centers to create the largest medical data set in the world. He worked at the Bank of England for a bit. He was founding member and VP of Business Development at GoCardless, one of Europe's biggest financial technology unicorns. (00:01:23): And most related to the topic of this conversation, Nabeel spent almost eight years at Palantir as a forward deployed engineer working on public health projects with US federal agencies, including public health services during the COVID-19 response and applied AI in drug discovery. Whether you are a fan of Palantir or hate everything that they do, they are an important and fast-growing company that is pumping out incredible product leaders, as you'll hear more than any other company in the world. So, it is worth studying and understanding. (00:01:52): I've never heard an in-depth conversation digging into how they operate, build product, hire, and were able to scale from a primarily services business to a software business. So, I am very excited to bring you this inside look. In our conversation, we go deep into what the heck does Palantir even do, why getting good at managing lots of data is an underappreciated secret to their success, a look at the unique forward deployed engineer role that they innovated, and what other companies can borrow from their insights here. Also, how they hire and how they build amazing product leaders, plus a ton of advice on talking to customers, building products, and starting companies. (00:02:26): If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. Also, if you become an annual subscriber of my newsletter, you get a bunch of amazing products for free for a year, including Superhuman, Notion, Linear, Perplexity, Granola and more. Check it out at lennysnewsletter.com and click Bundle. (00:02:44): With that, I bring you Nabeel Qureshi. (00:02:47): This episode is brought to you by WorkOS. If you're building a SaaS app, at some point, your customers will start asking for enterprise features like SAML authentication and SCIM provisioning. That's where WorkOS comes in, making it fast and painless to add enterprise features to your app. Their APIs are easy to understand so that you can ship quickly and get back to building other features. Today, hundreds of companies are already powered by WorkOS, including ones you probably know like Vercel, Webflow and Loom. (00:03:19): WorkOS also recently acquired Warrant, the fine-grained authorization service. Warrant's product is based on a groundbreaking authorization system called Zanzibar, which was originally designed for Google to power Google Docs and YouTube. This enables fast authorization checks at enormous scale while maintaining a flexible model that can be adapted to even the most complex use cases. (00:03:42): If you're currently looking to build role-based access control or other enterprise features like single sign-on, SCIM or user management, you should consider WorkOS. It's a drop-in replacement for auth zero and supports up to one million monthly active users for free. Check it out at WorkOS.com to learn more. That's WorkOS.com. (00:04:05): This episode is brought to you by Attio, the AI native CRM. Attio is built to scale with your business from day one. Connect your email and calendar and Attio instantly builds a CRM that matches your business model with all of your company's contacts and interactions enriched with actionable insights. Sync in your product usage, billing info, or any other data sources and Attio's flexible data model will handle it all without any rigid templates or workarounds. (00:04:33): With Attio, AI isn't just a feature, it's the foundation. You can do things like instantly prospect and route leads with research agents, get real-time insights from AI using customer conversations, and build powerful AI automations for your most complex workflows. Industry leaders like Flatfile, Replicate and Modal are already experiencing what's next for CRM. Go to attio.com/lenny to get 15% off your first year. That's attio.com/lenny. (00:05:08): Nabeel, thank you so much for being here. Welcome to the podcast.",
+   "zh": "今日嘉宾是纳比尔·库雷希（Nabeel Qureshi）。纳比尔是一位创始人、作家、研究员和工程师。他近期在梅卡图斯中心（Mercatus Center）担任访问学者，研究人工智能政策。此前，他曾与泰勒·考恩（Tyler Cowen）合作，致力于创建全球最大规模的医疗数据集。他还曾在英格兰银行任职，担任欧洲顶级金融科技独角兽企业GoCardless的联合创始成员及业务发展副总裁。（00:01:23）：最贴近本期话题的是，纳比尔在Palantir公司担任了近八年的前沿部署工程师，与美国联邦机构合作开展公共卫生项目，包括新冠疫情期间的公共卫生服务，并将人工智能应用于药物研发。无论你对Palantir心存好感还是厌恶其行事作风，这家发展迅速的重要公司正源源不断地输出令人惊叹的产品领袖——其人才培养体系的深度解析将比其他任何公司都更值得研究。（00:01:52）：我从未听过深入剖析其运营机制、产品研发、人才招募以及如何从服务型业务成功转型为软件企业的对谈。为此，我倍感兴奋地为大家呈现这场内部视角的深度访谈。在对话中，我们将深入探讨Palantir究竟做些什么、为何精通大数据管理是其成功的秘诀、创新性的前沿部署工程师角色，以及其他企业可借鉴的洞见。此外，如何招聘和培养卓越的产品领袖，以及产品研发与创业建议也将一一呈现。（00:02:26）：若您喜欢本播客，请别忘在喜马拉雅或YouTube订阅关注。若成为我通讯的年度订阅用户，您将免费获得包括Superhuman、Notion、Linear、Perplexity、Granola等在内的多款优质产品。详情请访问lennynewsletter.com并点击“套餐”选项。（00:02:44）：现在，让我们迎来纳比尔·库雷希。（00:02:47）：本期节目由WorkOS赞助。如果您正在开发SaaS应用，客户迟早会要求企业级功能如SAML认证和SCIM配置。WorkOS能轻松无缝地为应用添加这些功能。其API易于理解，让您快速上线并专注于其他功能。当前已有数百家公司（如Vercel、Webflow和Loom）借助WorkOS成功运营。（00:03:19）：WorkOS近期收购了精细化授权服务Warrant。Warrant基于开创性的Zanzibar授权系统，该系统最初为Google Docs和YouTube设计。它能在海量规模下快速进行授权校验，同时保持灵活的模型，适应最复杂的场景。（00:03:42）：若您正致力于构建基于角色的访问控制或其他企业级功能（如单点登录、SCIM或用户管理），WorkOS是drop-in替代Auth Zero的绝佳选择，免费支持每月100万活跃用户。访问WorkOS.com了解更多详情。（00:04:05）：本期节目由AI原生CRM Attio赞助。Attio自诞生之初便能随业务规模同步扩展。连接您的邮箱和\nCalendar和Attio能即刻构建一个与您的商业模式相契合的CRM系统，整合公司所有客户联系人及互动记录，并赋予其可操作的洞察力。您只需同步产品使用数据、账单信息或其他数据源，Attio灵活的数据模型就能一站式处理所有信息，无需依赖僵化的模板或临时方案。  \n（00:04:33）：在Attio，AI并非单纯的功能模块，而是整个系统的根基。您可以实现即时挖掘潜在客户、通过研究代理快速分配销售线索、利用客户对话实时获取AI洞察，还能为最复杂的工作流程构建强大的AI自动化流程。Flatfile、Replicate和Modal等行业领军者已率先体验到CRM的未来图景。访问attio.com/lenny，即可享受首年15%折扣优惠。就是attio.com/lenny。  \n（00:05:08）：纳比尔，非常感谢您今天的参与。欢迎来到我们的播客。",
+   "ts": "00:00:58"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Thanks, Lenny. Glad to be here.",
+   "zh": "谢谢你，莱尼。很高兴能来这里。",
+   "ts": "00:05:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In our chat today, I want to zero in on a post that you recently wrote where you shared your reflections on your time at Palantir. You spent something, maybe just under eight years there. The reason I'm really interested in Palantir is I've been doing a bunch of research recently looking into which companies hire the best product managers and create the best product managers, and Palantir just keeps coming up over and over in the work that I'm doing. (00:05:37): So, I'll share a few stats real quick. I looked at which companies produce the most founders, especially out of their PM team, and Palantir is, by far, number one. 30% of PMs that leave Palantir start a company. And number two is 18% and that's Intercom. So, that stat, I looked at which companies PMs that leave get immediately promoted in their next role, Palantir is number one of all companies in the world. (00:06:02): I looked at which companies' PMs become the first PM at another startup that they join, Palantir is number two in the world. And then I looked at which companies alumni PMs become heads of Product down later in their career, Palantir is number three in the world. Also, just the company is doing extremely well. It's worth, I think, something like $200 billion these days. So, there's a lot to learn from Palantir. (00:06:27): I actually want to start a question that I imagine every employee at Palantir constantly gets that, and I still don't think people totally have an answer in their head. What does Palantir do?",
+   "zh": "今天的聊天，我想重点探讨你最近写的一篇帖子，分享你在Palantir工作的感悟。你在那里待了大概八年。我对Palantir特别感兴趣的原因是，我最近一直在研究哪些公司能培养出最优秀的产品经理，并打造出最出色的产品团队，而Palantir在我所做的研究中频频出现。（00:05:37）：所以，我先快速分享几个数据。我研究了哪些公司培养出最多的创始人，特别是从产品经理团队中走出的创始人，Palantir是迄今为止第一名。30%的离开Palantir的产品经理会创办公司。第二名是18%，这家公司是Intercom。所以，我还研究了哪些公司的产品经理离职后能在下一份工作中迅速晋升，Palantir是全球所有公司中第一名。（00:06:02）：我还研究了哪些公司的产品经理加入新创公司后能成为首任产品经理，Palantir是全球第二名。然后，研究哪些公司的校友产品经理在职业生涯后期能成为产品负责人，Palantir是全球第三名。此外，Palantir本身也发展得非常出色。据我所知，它目前市值约2000亿美元。所以，我们能从Palantir身上学到很多东西。（00:06:27）：实际上，我想先抛出一个问题，我想Palantir的每位员工肯定都经常被问到这个问题，但我觉得人们可能还没有完全想出答案。Palantir是做什么的？",
+   "ts": "00:05:14"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "That's a great question. You started off with an easy one, Lenny. So, Palantir is, the way I describe it, is they achieve outcomes for their customers very tactically. The way they do that tends to be through a data platform. So, they have what I consider to be the world's best data platform, and I can go into what that means in a second. And then there's a couple of different versions of this. So, there's one that's optimized for intelligence and defense use cases that one is called Gotham. And then there's one that's more optimized for commercial use cases and that one's called Foundry. (00:07:12): And that's the classic explanation of what they do. So, they sell a data platform. They typically work with very large customers is the other thing. So, it's going to be Fortune 50. It's going to be governments around the world. It's going to be those kinds of customers. So, that's the capsule answer, but there's lots to unpack in there.",
+   "zh": "这是个很棒的问题，莱尼。你开场问了个简单的问题。那么，Palantir在我看来，是通过非常务实的方式为客户创造价值的。他们通常通过数据平台来实现这一目标。所以，他们拥有我认为是全球最好的数据平台，我稍后会解释这意味着什么。然后，还有几个不同的版本。比如，一个专为情报和国防用例优化的版本，叫Gotham。另一个更专为商业用例优化的版本，叫Foundry。（00:07:12）：这就是他们业务的经典解释。所以，他们卖的是数据平台。他们通常与大型客户合作，这也是另一回事。所以，通常是《财富》50强企业，是世界各地的政府。就是这些客户。所以，这是一个简要的回答，但里面有很多值得深入探讨的地方。",
+   "ts": "00:06:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay, and we're going to touch on a lot of this stuff, including the data piece. I want to start with talking about just the people and the culture of Palantir. You shared a bunch of really funny stories of what it's like to come to work and even interview at Palantir. There's a story you shared where because maybe the co-founder, you're walking by and he's chewing ice, and that's some benefits to cognition. Just give us a picture of what the people are like, especially early days Palantir and the culture and how unique it might seem.",
+   "zh": "太棒了。好的，接下来我们要深入探讨很多内容，包括数据部分。我想先从Palantir的团队和文化入手。你分享了很多关于在Palantir工作甚至面试的趣事。比如，你提到因为联合创始人可能在嚼冰块，这对认知有好处。你能给我们描述一下Palantir的团队是什么样的吗？特别是Palantir早期阶段的文化，以及它看起来有多独特。",
+   "ts": "00:07:32"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, it's definitely, it's an add-a-one company. I don't know how else you would start this company if you were not somebody like Peter Thiel. And so far as, it seems like there was a point at which they owned a silly fraction of the office space in Palo Alto. So, you'd walk around Palo Alto and there would just be Palantir hoodies, Palantir buildings everywhere and so on. (00:08:21): And so, I feel like what happened at some point is they raised a lot of money and they resorted to all these really interesting ways of just getting top talent out of places like Stanford and other top schools and just people who knew the founders who tended to be very interesting intellectual people. And I feel like they screened really hard for a few traits in particular. So, I would say one is very independent-minded people, people who weren't afraid to push back, who questioned the frame of everything and thought for themselves and had strong convictions. (00:08:55): Two is just people with broader intellectual interests. Karp just released a new book and he's quoting Habermas and all these European intellectuals and just things you don't typically see a tech CEO do. And so, I think there's that intellectual strand in the company. And then yeah, I think three is just people who are very intensely competitive. There's a sort of win at all costs mentality to the company. And so, I think those were the set of traits that were this gravity while in California at a certain time. And so, you just had a lot of really fascinating people joining the company at that time. (00:09:33): The way they screened for this was interesting too. So, for the longest time, they had... Everyone does this now, I think, but at the time, it was a little bit rarer, is a founder had to interview you in order for you to receive an offer. And so, a founder, it could have been Alex Karp, it could have been Stephen Cohen. Earlier on, it might have been somebody like Joe Lonsdale, but it was always one of these people. (00:09:54): And the interviews were pretty strange. With Stephen, it would be, you'd be chatting about philosophy for an hour and a half and it would very much just be like he would pick a topic out of thin air. It was impossible to prepare for, and then he would just go very, very deep and try and test the limits of your understanding. But it would really just be a fun conversation and then if you pass the vibe check, you'd be in. And so, there was that strong selection mechanism. (00:10:20): There was also the question of, I think it might have been Thiel who mentioned this, but he thinks that a lot of the best recruiters in the world or the companies that attract talent, they put out this distinctive bad signal and it has to turn some people off. That's the key of a good, bad signal. So, I think in the present day, OpenAI and Anthropic, they're both sucking up some of the best talent that you and I know. And I think one way they do do that, and they are sincere in this, but they do really attract people who are almost messianic about the potential of artificial super intelligence and who really believe this is the only thing that matters and it is going to be the biggest thing in the world. (00:10:56): I think Palantir's version of that was that they were quite focused on things like preserving the West. There was a slogan of Save the Shire, right? So, they were talking about military and defense and intelligence and the importance of that well before everybody else. And bear in mind, this was during the era when it was social, mobile, local apps. You had, social media was on the rise. You had, the hot companies were Facebook and Pinterest and things like that. And so, this was, at the time, a very strange thing. (00:11:26): And so, I think to be drawn to that, you had to look at the other options and say, \"Well, this is fine, but what am I really doing in life?\" Whereas you had this other place that was like, \"Hey, come solve the hardest, messiest problems in the world with us.\" And I think just at that time, that really drew some really good people.",
+   "zh": "是的，这绝对是一家\"加一号\"公司。如果你不是像彼得·泰尔这样的人物，我实在想不出还有什么其他方式能创办这样一家公司。似乎在某个阶段，他们在帕洛阿尔托市占据了极大比例的办公空间。走在帕洛阿尔托街头，你随处可见Palantir的连帽衫、Palantir大楼等等。\n\n（00:08:21）：我觉得后来发生的情况是，他们筹集了大量资金，采取了各种极具创意的方式从斯坦福等顶尖学府挖来顶尖人才，以及与创始人相识且思想相投的杰出人才。这些人才在筛选时特别注重几项特质。首先，他们必须具备独立思考的能力，不畏权威，善于质疑现有框架，独立思考并坚守信念。\n\n（00:08:55）：其次，他们需具备广泛的知识兴趣。卡普最近出版的新书中引用了哈贝马斯等欧洲思想家的观点，这在科技CEO中实属罕见。这显示了公司深厚的知识底蕴。\n\n（00:09:33）：他们的筛选机制也很独特。如今这已成为行业常态，但在当时实属难得——创始人必须亲自面试求职者才能发放录用通知。面试官可能是亚历克斯·卡普、斯蒂芬·科恩，早期可能还有乔·隆斯代尔等人，但最终都是这些核心人物。\n\n（00:09:54）：面试过程极为奇特。比如斯蒂芬会突然提出某个哲学话题，让你畅谈一个半小时。这些问题完全无法预料，他会深度探讨，试图挑战你的认知极限。但整个过程充满乐趣，如果你能通过气场测试，就会获得录用资格。\n\n（00:10:20）：我记得泰尔曾提到，吸引顶尖人才的公司往往会释放特定的负面信号，以此筛选人才。这是好坏信号的关键所在。如今OpenAI和Anthropic正在吸纳大量顶尖人才。他们通过真诚的理念吸引追随者——这些人对人工超智能的潜力近乎狂热，坚信这是未来最重要的科技趋势。\n\n（00:10:56）：Palantir的理念则聚焦于\"保卫西方\"。他们曾打出\"拯救夏尔\"的口号，比其他公司更早关注军事、国防和情报领域的重要性。要知道，当时正值社交、移动和本地应用盛行的时代。\n当时媒体行业正蓬勃发展。热门公司有Facebook、Pinterest之类的。所以，这在当时是个很奇特的现象。（00:11:26）所以，我觉得要被吸引到这里，得先审视其他选择，然后问自己：“嗯，这样也挺好，但我的人生真正意义何在呢？”而另一边却在说：\"嘿，快来和我们一起解决世界上最难、最混乱的问题吧。\"我觉得正是在那个时候，这种召唤真正吸引了许多优秀人才。",
+   "ts": "00:07:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We're going to talk about the reasons people don't necessarily like Palantir and the moral question of what they do, but when people look at a company that is like... I guess OpenAI, to your point, is a good example where they're just so turned off by maybe their approach. What you're missing is that's potentially intentional because it actually draws in the people they really want. (00:12:03): It makes me think about, I was involved in creating the core values at Airbnb and something that we learned at going through that process is, when you define the values for your company, it's really important to clarify who this is not for, exactly as you described, which feels unnatural. Like, \"Oh, we want to be inclusive, we don't want to make people feel like they don't belong.\" But the whole idea is to be clear on here's who will thrive here and here's who's aligned with our mission. And what I'm hearing is Palantir and these companies take it to the extreme.",
+   "zh": "我们接下来要讨论人们不喜欢Palantir的原因，以及他们所做之事在道德层面引发的争议。但当人们审视像OpenAI这样的公司时——正如你所指出的，这是一个很好的例子，人们可能对其方法感到反感。你忽略了一点，这或许是故意为之，因为这恰恰吸引了他们真正想要的人才。（00:12:03）：这让我想到，我曾参与Airbnb核心价值观的制定。在这个过程中，我们认识到，当为公司定义价值观时，明确不为谁服务至关重要，正如你所描述的，这种做法让人感觉不自然。比如，“我们希望包容，不想让人们感到被排斥。” 但关键在于要明确哪些人能在此蓬勃发展，哪些人与我们的使命相契合。而我所听到的是，Palantir等公司将这种做法推向了极端。",
+   "ts": "00:11:43"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "A hundred percent, yeah. On my team at Palantir, one process that we followed, I could talk about this more if it's interesting, is when you started a new project, you basically had to organize what they called a murder board for it. I think this is originally an army type. So, the idea is, basically, you write up a two-page plan for the project. You invite three or four smart folks who don't know anything about the project and their job is just to tear apart your plan. (00:12:56): And so, you have to write, here's the vision for this, here are the goals, here are the tactics over the next three months. And one section was principles that you're following for this project. And I remember giving this advice a lot was just like when people joined, they would write principles such as move fast and I would always be, \"Everyone likes to move fast.\" It is not a good principle actually because nobody can really disagree with this reasonably. You need something that actually a lot of people are going to go, \"Why are you taking this principle? This seems wrong to me.\" So, you need something that people can disagree with.",
+   "zh": "完全正确。就我在Palantir的团队而言，我们遵循的一个流程——如果有兴趣的话我可以多说几句——是启动新项目时，必须为其组织所谓的“批判性讨论会”。我认为这最初源自军队的做法。基本上，就是为项目写一份两页的计划书。邀请三四位对项目一无所知的聪明人士，他们的任务就是把你的计划撕个粉碎。（00:12:56）：所以，你必须写下项目愿景、目标、未来三个月的策略，还有一个部分是项目遵循的原则。我记得自己经常给出这样的建议：当新人加入时，他们会写下诸如“快速行动”之类的原则，而我总会说：“每个人都喜欢快速行动。”但这其实不是一个好原则，因为没有人能合理地反对它。你需要一些能引发争议的原则。",
+   "ts": "00:12:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to come back to the beginning of what you described of what they look for, what Palantir looks for in people. You talked about independent-minded, a lot of interests, broad interests, and competitive. First of all, I think a lot of people hearing that, especially the last part, be like, \"I don't want to work there.\" Why does this work? Because this isn't naturally what you would think of as how you build the most amazing, productive team.",
+   "zh": "我想回到你最初描述的Palantir选人标准。你提到了独立思考能力、广泛兴趣、好胜心等。首先，我觉得很多人听到这些，尤其是最后一点，可能会想：“我不想在那儿工作。”为什么这种做法有效呢？因为这并非人们通常认为的打造最出色、最高效团队的标准方式。",
+   "ts": "00:13:29"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I think it just draws people who want to win. I think that's what was really important. The other piece of it, I think, is that there's actually, and this was much truer 10 years ago, is there was a lot of talent that was a little bit outside of the tech ecosystem but could easily have been very successful within it. So, people who got out of the military or one of the intelligence agencies and they were doing, let's say, an MBA somewhere to transition into the corporate world. And I think, typically, they would have taken a position at a classic Fortune 500 corporation. And actually, Palantir managed to get a bunch of that talent. And at the time, that was very undervalued. (00:14:32): The people who succeed the most in the Marines or the Special Forces or whatever it is, tend to be pretty smart people. They tend to have accomplished very difficult goals in very hostile environments. And it turns out that when you're starting a somewhat chaotic tech company, that's actually a very useful skill to have. Again, I think more companies are doing this now, so Scale AI and et cetera. But at the time, that was a very differentiated talent pool. (00:14:57): And so, I think having those values as opposed to maybe the values that were more in fashion then, so talking about how inclusive you are, or the sushi that you serve at lunch, or whatever it is, it just drew a very different crowd. And I think the game that was being played there was, one, it's mission alignment. You're doing a defense company, that's the kind of person you want to attract. But I think there's also, two, which is just what is the talent that maybe is a little bit undervalued now and how do you actually draw those people to you? And I think that game is always shifting.",
+   "zh": "我认为它吸引的都是那些渴望成功的人。这才是最重要的。另外，我觉得还有一点——10年前情况更是如此——有很多才华横溢的人原本处于科技生态系统之外，却能在其中轻松取得巨大成功。比如那些从军队或情报机构退役后，选择攻读MBA以转入企业界的人。我认为，他们原本很可能在传统的财富500强公司任职。但Palantir成功吸引了大量这类人才，而当时这些人才被严重低估了。  \n（00:14:32）：在海军陆战队或特种部队等环境中表现出色的人，往往都非常聪明。他们往往能在极端恶劣的环境中完成极具挑战性的目标。事实证明，当你创办一家稍显混乱的科技公司时，这些技能非常有用。如今越来越多的公司在效仿这种模式，比如Scale AI等公司。但在当时，Palantir吸引的才是真正与众不同的人才库。  \n（00:14:57）：所以，我认为Palantir推崇的价值观与当时流行的价值观不同——比如强调包容性，提供午餐寿司之类的。这吸引了截然不同的人才群体。我认为Palantir玩的是双重博弈：首先是使命匹配。作为一家国防公司，你需要吸引具备相应技能的人才；其次是挖掘那些目前可能被低估的才能，并有效吸引这些人才。这种博弈一直在变化中。",
+   "ts": "00:13:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is definitely starting to explain why so many Palantir alumni go on to start companies and become leaders at other companies. These are leaders that you're hiring. So, it feels like a lot of it is just the talent you hire are people that are naturally leaders.",
+   "zh": "这确实开始解释为什么那么多Palantir校友后来创办公司或成为其他公司的领导者。这些都是你要招聘的领导者。所以，感觉很多时候就是你招聘的人天生就是领导者。",
+   "ts": "00:15:31"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I think you're right, and we can get more into it, but I think there was also a very concrete set of ways where that place was a training ground for founders. I even think it turned a lot of people who might not have become founders into good founders because of the way it works. So, I think there was a selection effect there, but there is also some training effect too, but it's unique to the way the company works.",
+   "zh": "我觉得你说得对，我们可以深入探讨一下，但我认为Palantir还为创始人提供了非常具体的培养平台。我甚至认为它把很多原本可能不会成为创始人的人培养成了优秀的创始人，因为它的运作方式很独特。所以，这里既有选拔效应，也有培养效应，但这两者都与公司的运作方式息息相关。",
+   "ts": "00:15:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And is that along the lines of the forward deployed engineer stuff or is that something else?",
+   "zh": "那这和前线工程师之类的模式类似吗？",
+   "ts": "00:16:08"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "It is that, yes.",
+   "zh": "是的，就是这样。",
+   "ts": "00:16:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool. We're going to get to that. I love it. Okay, amazing. Before we do that, one last thing is something I've seen is that you guys at Palantir don't really have titles. Everyone's the same level and just generic titles for everyone. Talk about that. Why do you think that was important? Why was that useful?",
+   "zh": "好的，很棒。我们接下来要探讨这个问题。我很感兴趣。好的，太棒了。在讨论之前，最后一个问题是，我发现Palantir的员工通常没有职位头衔。每个人都是同一个级别，所有人只有通用头衔。能谈谈这个吗？你为什么认为这很重要？为什么有用？",
+   "ts": "00:16:12"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I don't know this for sure, but I do know that Thiel writes about this in Zero to One and his take is just that as soon as we have these title, you have a thing that people are competing for and then you get these very unproductive conflicts. You get people optimizing to game the system. You get Goodhart's law everywhere. So, it's like you have a metric and then people basically manage to the metrics. (00:16:50): I don't want to pick on any one company, but if you take Google, for example, there's a lot of interesting posts by people who left Google and they cite this as a reason why they got a little bit disgruntled, is that there's a way to get promoted. Rather than, let's say, improving an existing product, what you do is you start a completely new product and that has your name attached to it. And then when it comes to promotion season, you could say, \"Hey, I did this new thing.\" And then boom, you have a new Google product, but it's maybe confusing to the end user. (00:17:15): So, I think they wanted to avoid all these kinds of dynamics. And so, the way that they did that was they said, \"Well, titles are not going to be this memetic totem that everybody competes for. Instead, everyone is just going to have the same slightly meaningless title, which is forward deployed engineer.\" And the only people who did have titles were the CEO and then there were six directors and that was it. And now, I think it's a little bit more nuanced. There are different teams. There are some people with titles, but honestly, it was almost like... (00:17:45): We used to joke about it. It's like people would leave the company and then you'd see them update their LinkedIn and they would be like, \"Oh yeah, I was totally the SVP of XYZ.\" And it's like, \"No, you weren't. You're just...\" But then it's like I totally understand it too because when you leave the company, you have to make your experience legible to the next person. And so, guess what? Things like SVP actually do matter. (00:18:08): And so, yeah, I think they wanted to avoid this intel competition. There are downsides to doing this. So, maybe the competition isn't as explicit around a specific title, but instead, what it becomes about is there's a particular exact or something and you want to gain that favor. And so, it becomes more about who can get in the inner circle of this person or whatever. And there were those dynamics too. (00:18:32): I actually am a big fan of this philosophy though, the no titles one. I think what it did do is that it basically said if you are in, let's say you're in a role of you're leading a very important project, which could happen, what it said was... This is always fluid. So, you are in this role because you're very good and so, it's a meritocratic thing. But if you start performing well, it's actually very easy to shift that because there is no explicit \" I am the GM of this project title.\" And so, you always had to earn your place in the company. You always had to earn the right to work on what you were working on, and I think that was a good side effect.",
+   "zh": "我不确定具体情况，但我知道泰尔在《从0到1》中提到过这一点。他认为，一旦我们有了这些职位头衔，就会引发人们争相追逐的竞争，进而导致低效的冲突。人们会想方设法利用系统漏洞来获取利益，到处都能看到古德哈特定律在起作用。所以，职位头衔就成了一个指标，人们会围绕它制定策略。（00:16:50）我不想点名批评某家公司，但以谷歌为例，很多离职员工都提到，晋升机制让他们心生不满。晋升的捷径是开发一个新产品，只要挂上自己的名字，到了晋升季就能说：“看，我开发了这个新项目。”然后就推出了新产品，但用户可能一头雾水。\n（00:17:15）谷歌试图避免这种恶性循环。他们的做法是取消职位头衔，不让它们成为人们争相追逐的象征。所有员工都统一使用一个意义模糊的头衔——“前线工程师”。只有CEO和六位董事拥有正式职位头衔。如今，谷歌的职位体系更加灵活，各个团队有各自的职位，但说实话，这种做法曾引发很多误解。我们常开玩笑：有人离职后，更新领英资料时写着“曾任XYZ公司高级副总裁”，结果被纠正：“不，你不是，你只是……”。但仔细想想也合理，毕竟离职后你需要向新雇主证明自己的价值，职位头衔确实有意义。\n（00:18:08）谷歌的无头衔政策有其优点，但也存在隐患。竞争不再体现在职位头衔上，而是围绕特定资源展开，比如某个特定项目的优先级。人们争相加入某个核心圈子，这种竞争同样激烈。\n（00:18:32）不过我非常赞同这种无头衔理念。它本质上传递了一个信息：如果你负责某个重要项目，凭实力晋升即可。即使职位头衔不明确，晋升也会根据实际表现调整，没有固定的职位标签。人们必须通过自身价值赢得职位和项目参与权，这才是良性循环。",
+   "ts": "00:16:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's start talking about forward deployed engineers. What is a forward deployed engineer?",
+   "zh": "接下来聊聊前线工程师。什么是前线工程师？",
+   "ts": "00:19:12"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "So, the way this originated was, basically, you can think of it as there's two types of engineer at Palantir. So, there's one that works on the core products. So, they don't necessarily leave the building in Palo Alto or New York or the offices. They're very much working on the core products and they're a traditional software engineer. (00:19:35): Because of the way the company works where you had these very large engagements with these large entities, there was a different type of engineer which you sent into the field. So, what that meant was you would spend maybe Monday to Thursday and you would actually go into the building where the customer worked and you would work alongside them. You would literally get a desk there. And so, that engineer became known as a forward deployed engineer. (00:19:55): So, within the company, that function is known as business development or BD. And then PD is product development. So, it's where the product is made. And so, within BD, you had forward deployed engineers. There are actually two types. So, there is one that it's a more technical software engineer. So, you have to pass a software engineering interview and prove your chops there and you would typically have a CS degree, but there was actually a type of forward deployed engineer that didn't have that. So, you would still get a technical interview, but it would be less about, do you know the specifics of this C++ algorithm? And it would be more about just like can you reason about data? We didn't have that division originally, but it turns out that there's a lot of people who are technical adjacent, shall we say, who you really need in the room when you're working with these large organizations or these large companies, because translating what you're doing into language that would resonate with an executive or being able to navigate the social dynamics in a room, all these are very valuable skills. And so, the hiring criteria there were a little different. It was a bit more about, are you savvy as a human? But all of that was given the title of forward deployed engineer, and it's just an engineer who works with customers.",
+   "zh": "好的，首先让我把这段内容准确翻译成中文。原文主要讲的是Palantir公司工程师的两种类型：一种是专注于核心产品的传统软件工程师，他们通常在帕洛阿尔托或纽约的办公室工作，另一类是被派往客户现场的\"前沿部署工程师\"，他们需要与客户紧密合作，协助产品开发。\n\n接下来，我需要确保技术术语的准确性，比如\"forward deployed engineer\"应该翻译成\"前沿部署工程师\"，而\"business development\"则译为\"业务开发\"或\"商业拓展\"。另外，涉及到具体职位和招聘标准的部分，比如\"CS degree\"要译成\"计算机科学学位\"，同时保持句子的流畅自然。\n\n还要注意口语化表达，比如\"it's pretty radical\"可以译为\"这真是太前卫了\"，保持原文的语气。最后，要确保整个翻译连贯，逻辑清晰，让读者能够清晰理解Palantir的工程师模式及其背后的商业逻辑。\n\n在翻译过程中，可能会遇到一些需要意译的地方，比如\"engagement\"在这里指的是与大客户的合作项目，翻译成\"合作项目\"比较合适。同时，保持专业术语的一致性，比如\"PD\"始终译为\"产品开发\"，避免混淆。\n\n最后，通读译文，检查是否有语法错误或不通顺的地方，确保译文既忠实于原文，又符合中文的表达习惯。比如原文中的时间节点和职位描述，要确保时间顺序和逻辑关系清晰，让读者能够顺畅理解整个招聘和工作流程。",
+   "ts": "00:19:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so just to make this crystal clear for people, a lot of people hear this idea of Palantir having forward deployed engineers. A few other companies have done this. It's pretty radical. So, as you described, you basically have a desk at a company. So, you worked with Airbus and we'll talk about that. So, let's just make it real. So, you have a desk and a computer and login access and all these things at Airbus. You go to their office four times a week. You're sitting there with their employees working side by side, building a product for them, versus what most people do where \"they just talk to customers,\" where they do an interview once in a while, they do a Zoom, they share mocks, things like that. This is like that on steroids. Is that roughly the way to think about it?",
+   "zh": "好的，首先我需要把用户提供的英文文本准确翻译成中文。原文主要讲的是Palantir公司的工程师类型，包括两种类型：一种是专注于核心产品的传统软件工程师，他们通常在帕洛阿尔托或纽约的办公室工作；另一种是被派往客户现场的\"前沿部署工程师\"，他们需要与客户紧密合作，协助产品开发。\n\n接下来，我需要确保技术术语的准确性，比如\"forward deployed engineer\"应该翻译成\"前沿部署工程师\"，而\"business development\"则译为\"业务开发\"或\"商业拓展\"。另外，涉及到具体职位和招聘标准的部分，比如\"CS degree\"要译成\"计算机科学学位\"，同时保持句子的流畅自然。\n\n还要注意口语化表达，比如\"it's pretty radical\"可以译为\"这真是太前卫了\"，保持原文的语气。最后，要确保整个翻译连贯，逻辑清晰，让读者能够清晰理解Palantir的工程师模式及其背后的商业逻辑。\n\n在翻译过程中，可能会遇到一些需要意译的地方，比如\"engagement\"在这里指的是与大客户的合作项目，翻译成\"合作项目\"比较合适。同时，保持专业术语的一致性，比如\"PD\"始终译为\"产品开发\"，避免混淆。\n\n最后，通读译文，检查是否有语法错误或不通顺的地方，确保译文既忠实于原文，又符合中文的表达习惯。比如原文中的时间节点和职位描述，要确保时间顺序和逻辑关系清晰，让读者能够顺畅理解整个招聘和工作流程。",
+   "ts": "00:21:10"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "It is, yeah. And so, we would really be there a lot of the time. And so, the side effect of that was, one, you learn to live and breathe the customer's problems and you learn to speak their language. And eventually, they saw you as one of them and so, you develop these really close bonds with the customers. So, at Airbus, I would be at the factory where the planes were produced, or I'd be sitting next to people diagnosing issues with aircraft or whatever it was. Similarly, later on, I worked with the NIH, which was part of the US government, and I actually had a badge there and I would work with civil servants and biologists and clinicians and people who were working there. (00:22:31): And so, it's this pretty radical thing as you suggest. I think the key thing there from a business point of view is the average deal that Palantir had was very large in the many, many millions of dollars, which means that you could pay for this as part of the thing that the customer got. And then it was priced according to the value that the customer got. (00:22:51): So, as a simple example, if you're Airbus and let's say that you have an issue with one of your planes and you need to fix it, and fixing that is worth a $100 million or something to you, that's how it would be priced. It would not be priced as, \"Hey, you're buying data infrastructure and it's similar to Snowflake or Databricks or one of these other providers. It's much more anchored to, here is the outcome. (00:23:15): But then the job of the forward deployed engineer is not just to deploy software. It is not just to sell software. It is to actually solve the problem. And so, you would have to be there. You would have to meet the key stakeholders who are actually in charge of reporting to the CEO about the specific issue. You would have to become their friend. You would have to gain their trust. And you would have to, in some cases, create new software such that it could actually solve the novel problem that was in front of you. (00:23:41): So, I would have friends who worked with one of our energy company customers and they would have to learn the ins and outs of how oil wells work. And then out of that, it turns out that having streaming data is actually very valuable for this use case. And so, boom, suddenly, there's a product that can handle streaming data that becomes part of the core platform. But that would be the motion, is you learn about the problem. You figure out what software would best address it. You build that software. You use it to accomplish the goal. And then eventually, that gets folded into the broader product suite. (00:24:13): And so, you can start to see why this would be a good forge for founders. And this was actually part of my thesis going in and joining, was I said, \"Well, say, I got five reps of this,\" which I got more than that. But say, you got five reps of doing this in five disparate contexts, you actually become very good at this cycle of, okay, go into the building, gain the trust of the person, meet the people that are going to become your users, talk to them about their problems, make sure you're building something that actually solves them, and it's just a boondoggle. (00:24:43): Get really fast feedback and iteration loops. So, every week, you would have a cadence where it's like Monday, you go in. You do your meetings. Monday night, you build something. Tuesday, you show it to somebody. Tuesday, you get the feedback. Tuesday night, you iterate on it. Wednesday, you show it to somebody. Wednesday night, you iterate on it. So, you get four of these, five of these cycles every single week.",
+   "zh": "确实如此。所以，我们大部分时间都会待在客户身边。这样做的副作用之一是，你得学会站在客户的立场看问题，说他们的语言。最终，他们会把你视为自己人，你和客户之间会建立起非常紧密的联系。在空中客车公司时，我会待在飞机生产工厂，或者坐在诊断飞机故障的人旁边。同样，后来我在美国政府机构NIAH工作时，虽然那里有徽章，但我还是要和公务员、生物学家、临床医生等工作人员打交道。\n\n（00:22:31）：正如你所说，这确实很极端。从商业角度看，Palantir的平均合同金额非常大，动辄数百万美元，这意味着你可以将成本计入客户的项目费用中，并根据客户获得的价值定价。（00:22:51）：举个简单的例子，如果你是空中客车公司，发现飞机存在问题需要修复，而修复成本可能高达1亿美元左右，定价就会基于这个实际价值。而不是按“你购买的是数据基础设施，类似于Snowflake或Databricks等供应商”来定价。定价更贴近于“这是最终成果”。\n\n（00:23:15）：前沿部署工程师的职责不只是部署软件，不只是销售软件，而是要真正解决问题。为此，你必须深入现场。必须结识负责向CEO汇报具体问题的关键利益相关者。必须赢得他们的信任，有时甚至需要开发新软件来解决眼前的新问题。（00:23:41）：比如，我有朋友与某能源公司客户合作，他们必须了解油井的运作原理。最终发现，对该场景来说，流数据非常有价值。于是，一款支持流数据的专有产品应运而生，成为核心平台的一部分。\n\n（00:24:13）：这就是为什么这对创业者来说是个绝佳的磨练场。加入Palantir时，我的论点是：“比如，我有五次这样的机会。”实际收获远超预期。但在五个不同场景中重复这个过程，你就能迅速精通这个闭环：进入客户现场，赢得信任，接触用户，了解他们的痛点，开发解决方案，最终将其纳入产品体系。\n\n（00:24:43）：这样就能快速获得反馈和迭代周期。每周流程如下：周一进场开会，周一晚开发，周二展示，周二收集反馈，周二晚迭代，周三再重复一遍。如此循环四次。\n每周要经历这五个周期。",
+   "ts": "00:21:51"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "It already got it. So you get four of these, five of these cycles every single week, and you're moving incredibly fast. So 6 weeks in, you've suddenly gotten to, wow, this is really valuable, and somebody's willing to pay you whatever, $20 million for it, and boom. I think this is why you get so many founders coming out of this same process.",
+   "zh": "他们已经成功了。所以每周你会经历四个这样的循环，五个这样的周期，而且进展极其迅速。六周后，你突然意识到，哇，这真的很有价值，有人愿意为此支付2000万美元，然后一切就水到渠成了。我认为这就是为什么那么多创业者能从这个流程中脱颖而出。",
+   "ts": "00:25:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's becoming very clear why so many founders emerged out of Ballinger. Okay. So an important element of this as you described, is that the idea here is build this as a one- off solution to solve a real problem at say Airbus or some government organization. And then the idea as you create something out of that, that then Ballinger can sell to other companies. What's extra cool about that is they pay you to solve this problem for them and then that is funding this other product that Ballinger can now sell to everyone. What a cool business. (00:25:51): However, early days Ballinger, everyone thought it was just this services business or just consultants building software for companies like Airbus, there's no way they can make this a platform that works for a lot of people. Clearly, that's what's happening and it worked out. This is like the holy grail. Solve one customer's problem and then sell it to everyone else. Every SaaS business basically would love to do this. What do you think allowed them to actually achieve this and be good at this? What are some principles that worked?",
+   "zh": "现在越来越清楚为什么有那么多创业者从Ballinger走出了。好的。正如你所描述的，这个流程的一个重要元素是，初衷是为空客或某些政府机构等客户开发一次性解决方案，解决实际问题。然后，当你基于此创造出某种产品后，Ballinger就能将其销售给其他公司。更酷的是，他们会付钱让你为他们解决问题，然后这些资金又能用于支持Ballinger现在可以面向所有人销售的其他产品。这真是个很棒的商业模式。（00:25:51）：然而，在Ballinger成立初期，每个人都认为这只是一家为空客等公司提供服务的咨询公司，根本不可能把它打造成适用于众多客户的平台。显然，事实证明了相反的结论，这简直是圣杯般的存在。解决一个客户的问题，然后将其销售给其他所有SaaS公司。这听起来很棒。你认为是什么让他们能够真正做到这一点并擅长此道？有哪些原则起了作用？",
+   "ts": "00:25:20"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah. That's a great question and it's true. I think that from when I joined until maybe until IPO and a little bit after, I was told, \"Hey, isn't this basically a sparkling extension? Isn't it a consulting business lopping as a product company?\" And eventually it became undeniable. One, because I always laugh when people are like, \"What does Palantir do?\" It's like you can go onto YouTube and just search Palantir demo and you'll get plenty of demos of how the software looks. Not many people know about this, but you can go and sign up with a credit card right now and start using it.",
+   "zh": "是的。这是个很棒的问题，确实如此。从我加入到IPO后不久，我一直被问：“这不就是个闪亮的扩展产品吗？不就是个咨询公司转型为产品公司的例子吗？”最终，这一观点变得不可辩驳。首先，当人们问‘Palantir是做什么的？’时，我总是笑着回答。其实你可以在YouTube上搜索‘Palantir演示’，就能看到大量软件演示视频。很多人不知道，但你现在就可以用信用卡注册并开始使用它。",
+   "ts": "00:26:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I can have a Palantir account?",
+   "zh": "我可以注册Palantir账户吗？",
+   "ts": "00:26:22"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "You actually can. Yeah.",
+   "zh": "实际上可以的。是的。",
+   "ts": "00:26:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I did not know that. That's cool.",
+   "zh": "我不知道这个功能。太酷了。",
+   "ts": "00:26:22"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah. I think it's called AIP now. So it's not actually that mystical and there is a product, and if you look at the margins, they show that. So they have 80% plus margins, which is not really what you would get if you were actually a consulting company. It would be closer to 20 or 30%. So then your question was, well, how did they actually achieve this? I think there was just incredible talent in the product development organization, really top tier, incredible talent. And it took some really, really smart people to take the set of internal tools that we were using at the time to create value of customers and then go, what is the unified version of this? Would this look like if this were a product? And out of that process that I saw came Foundry assume there was a similar process with Gotham a while back. But basically it's like, the motion was that you would go in and early on you were basically armed with Jupyter Notebooks and some data integration stuff, but it was very primitive and you had to create value that way. (00:28:03): But we kept building tooling that was useful for forward deployed engineers. So we were our own first customers and at some point there was this concept of, \"Wait, what if we take our internal tools and we let our customers use them?\" And I remember at the time, this is a really radical idea. And then Shyam Sankar, I think he's the CTO, maybe he's the president now, he just mandated like, \"Okay. Every customer deployment you have to have a customer using this within three months or whatever.\" So it was horrible at the time because these had been built for these nerdy Silicon Valley engineers, and so they weren't particularly usable. They would crash all the time. You'd have to debug spark errors or whatever it was. But basically that process brought a lot more rigor to our thinking about the product. (00:28:52): And out of that kind of, I would say three or four year process came the Foundry product. And then there was a lot of focus around things like performance and reliability and so on. That was all really painful. So yeah, I think the answer was just talent. And then there was this recognition that we do. We do know things that most people do not know about how data works in large organizations. That was the other thing. We discovered a lot of \"secrets\" in this process of living with customers for so long. (00:29:25): The basic one was just data integration is massively painful inside organizations. This is very hard to understand unless you've worked in a large organization, but it's actually impossible to even now to get access to a lot of your own internal data that you need to do your job. So you'll hear stories of people being like, \"I'm trying to calculate our sales this quarter, and I had to wait six weeks for some other analytics team to get me this deliverable.\" So just knowing problems like that and being able to focus our product efforts around those problems, meant that we were able to build something generalizable there.",
+   "zh": "是的。我觉得现在它叫AIP了。所以这其实没那么神秘，而且确实有产品。如果你看一下利润率，就能看出来。他们的利润率超过80%，这可不是咨询公司能达到的水平。一般利润率在20%到30%左右。那么你的问题是，他们到底是怎么做到的？我觉得主要是因为产品开发团队里有极其出色的人才，真的是顶尖级别的。需要非常聪明的人才能把我们当时使用的内部工具转化为客户价值，然后再思考：如何将这些工具整合成统一的产品？如果这是一款产品会是什么样子？我见证的整个过程中，Foundry与Gotham也有类似的探索。但核心思路是，你一开始只能用Jupyter Notebook和一些数据集成工具，但这些工具非常原始，你只能靠这种方式创造价值。（00:28:03）但我们不断开发对前线工程师有用的工具。我们自己就是第一个客户。后来有个人提议：“等一下，如果我们把内部工具开放给客户使用会怎样？”我记得当时这是一个非常激进的想法。然后Shyam Sankar——我想他现在是CTO，或者已经是总裁了——强制规定：“每个客户部署项目，必须在三个月内让客户上手使用这些工具。”这在当时非常艰难，因为这些工具是为硅谷的极客工程师设计的，并不好用。经常崩溃，要调试Spark错误之类的。但这个过程让我们的产品思维更加严谨。（00:28:52）经过三四年的探索，Foundry产品才最终成型。然后我们把重点放在性能、可靠性等方面，过程非常痛苦。是的，关键在于人才。还有我们意识到，我们确实了解大多数人不知道的企业数据运作原理。在与客户长期共处的过程中，我们发现了很多“秘密”。比如，企业内部的数据集成极其痛苦。这点除非你在大公司工作过，不然很难理解。甚至现在要获取自己完成工作所需的内部数据都非常困难。你会听到有人抱怨：“我要计算本季度销售额，却等了六周才从其他分析团队拿到数据。”所以，了解这些问题并围绕这些问题调整产品方向，意味着我们能够开发出通用性的解决方案。",
+   "ts": "00:26:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. There's a lot here. First of all, you talk about Gotham and Foundry. I know that we'll link to videos of people checking these out, but just what's the simplest way to understand what these two products do?",
+   "zh": "好的，内容很多。首先，你提到了Gotham和Foundry。我知道我们会链接到人们测试这些产品的视频，但最简单的方法是什么，能理解这两个产品做什么？",
+   "ts": "00:30:00"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "So Gotham is optimized for military and defense use cases and intel as well. I would say they both have some things in common. So they both have, I would describe this almost as a pyramid where the bottom layer is data ingestion, the middle layer is data mapping, and then the top layer is anything that's user facing. So any UI component. And then if you think of Foundry for a second, there's different tools that allow you to ingest data to it. There's different tools that allow you to easily build data pipelines and clean up data, which everybody has to do. And then there's a bunch of tooling that allows you to build compelling UIs on top, do point and click analytics, do notebook style workflows, however technical you are. So that's, I mean, when it's a platform, it's a suite of things that has a common data backing but contains a bunch of different applications.So I think that is somewhat true of Gotham as well. But when you log in, you see this unified interface. (00:31:08): So what is the actual difference then? I would say with Gotham, you're looking much more at workflows like that involve maps, for example. So when you're doing a military operation, a lot of the time you are going to be looking at a map and you are going to be monitoring the movement of troops or tanks or whatever it is. Another big difference is the idea of graph-based analysis. So Gotham, one of the use cases was finding combing through networks of terrorists and basically finding the bad guys. So being able to do queries that are graph-based was important. So it's like, \"Who is everybody that Lenny called in the last week?\" Imagine all the nodes fanning out from there. And then it's like, \"Okay. Well, this one looks interesting. Let's zoom in on that. What is this person's location?\" (00:31:56): So it's this very graph-based way of thinking that also applies to things like fraud. So Gotham has been deployed against fraud, but if you look at Foundry, it doesn't actually emphasize that component so much because it turns out, let's say you're a B2B SaaS company, you're probably not doing that much graph-based analysis. You're doing things that look a lot more like classic SQL queries, tables, that kind of stuff. So Foundry is a lot more traditional in that way.",
+   "zh": "因此，Gotham 专为军事和防御应用场景以及情报收集而优化。我认为它们有一些共同点。可以把它想象成一个金字塔结构，底层是数据摄取，中层是数据映射，顶层是面向用户的部分，比如任何 UI 组件。再来看 Foundry，有不同的工具用于数据摄取，还有便于构建数据管道和清理数据的工具——这些都是每个人都需要做的。此外，还有一系列工具支持构建引人注目的 UI，提供点击式分析和笔记本风格的工作流，无论用户技术水平如何。因此，当它是一个平台时，它是一套拥有共同数据支撑但包含多个不同应用的集合。\n\n我认为 Gotham 也是如此。但当你登录后，会看到一个统一的界面。（00:31:08）：那么实际的区别在哪里呢？我认为 Gothm 更侧重于涉及地图的工作流。例如，在军事行动中，你通常需要查看地图，监控部队或坦克的移动情况。此外，图形分析也是一个重要差异。Gothm 的一个应用场景是梳理恐怖分子网络，找出坏人。因此，能够进行基于图形的查询非常重要。比如，“过去一周内，Lenny 联系过的所有人是谁？”想象所有节点从这里向外辐射。然后，“好的，这个看起来很有意思，让我们放大看看这个人位置在哪里？” （00:31:56）：这种基于图形的思维方式也适用于欺诈检测。Gothm 已被用于反欺诈，但如果你看 Foundry，它并没有特别强调这一部分，因为事实上，比如你是一家 B2B SaaS 公司，可能不会进行太多基于图形的分析。你更多的是进行经典的 SQL 查询、处理表格之类的工作。所以 Foundry 在这方面更传统。",
+   "ts": "00:30:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That was an amazing explanation. For the first time, I am starting to understand what these products do. Basically, it's just sucks in a bunch of data, cleans it up so you can actually trust it and then helps you interact with it in various use cases, maps, graphs, tables.",
+   "zh": "这真是一个精彩的解释。第一次，我开始理解这些产品的功能了。基本上，它们就是吸入大量数据，清理数据以确保可靠性，然后在各种应用场景（地图、图表、表格）中帮助用户与数据交互。",
+   "ts": "00:32:20"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:32:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Amazing. The example you gave of what you worked on at Airbus, you described it as basically a sauna for making planes. Is that right?",
+   "zh": "好的。太棒了。你之前提到的在空中客车公司的项目例子，你说那基本上就是一个制造飞机的桑拿房。对吗？",
+   "ts": "00:32:36"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:32:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So how much of that does becomes a part of this core product versus stays this one-off thing? Is it elements, that's a cool innovation, let's put that into Foundry. How does that work?",
+   "zh": "那么这些内容有多少会成为核心产品的一部分，又有多少会作为一次性项目存在？比如有些元素是很有创新的东西，我们把它放进 Foundry 里。这是怎么运作的？",
+   "ts": "00:32:45"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "This was a really interesting story actually. So the initial problem that we came into with Airbus was that they had a new aircraft called the A350 beautiful aircraft. By the way, if you get to, I think if you fly New York to Singapore, it's often in that A350. Really nice. So it was a relatively new aircraft at the time, and their mandate to us was, \"Okay. We need to ramp up production of this really fast,\" much faster than we've ever done it before. So it's like the numbers are very approximate, but it's like, \"Okay. We're producing 4 this month, we need to do 8 the next month, 16 the month after, and so forth, and you are going to help us do it.\" So this goes back to what I was saying earlier is the mandate wasn't like, \"Hey, we need to upgrade our data infrastructure. We thought you guys would be met the list of requirements.\" It was much more just like, \"Please help us accomplish this mission. This is the big thing.\" (00:33:42): So we went in, scoped out the problem. There were a bunch of different things that we could build that helped accelerate this, but one of the basic problems that we figured out was that without getting too much into the weeds, the way the factory would work, is that there's a bunch of stations and you can think of the plane as literally moving between each station and then each station would do a certain set of work on it. So initially, it's literally a big fuselage and the fuselage is sitting there and then people are doing a bunch of work orders against it. They need parts in order to do that work. And then at some point they say, \"Okay. This is ready to move to Station 31, and the plane is physically moved to the next station and then Station 31 does its next thing.\" (00:34:23): So in order for the next station to do its work properly, they need to know, one, what work was done at the previous station and what work is remaining? Two is just like, if you think about this problem, not all work is going to get done on time. So things carry over to the next team, and the next team then has to... So when I'm describing this problem to you can start to visualize, okay, maybe I need some Gantt chart to this, and I need the ability to click in and say, \"Okay. What did Station 30 do and what work orders remained undone?\" And then it's like, \"Okay. For those work orders, what parts do I need and where in the factory might they be?\" So this was very, very hard to do as it is. A lot of it was just relying on people going and having conversations with other people on the factory floor, and coming from tech where it's maybe not as complicated as building aircraft, that is a phenomenally complicated process, but it is easy to see, okay, you can actually improve this problem with software. (00:35:20): All that data was stored in SAP and SAP is like established software. It's good at what it does, but it's not the most user-friendly necessarily, especially if you're not an expert in how it stores data. The table names are very hard to understand and read. So one of the things we figured out was just if you can pull in these tables that may as well be written in completely alien language, the table name would just be like S3, F1_Z or something like that. And you'd have to know, okay, this is the table where the part ID is stored or something. (00:35:51): If you could pull in those tables and join them in the right ways, and then just map them to human concepts that humans can understand, so things like a part a work order, an aircraft, et cetera, and basically build a hierarchy or mapping between them, then what you can do is, a user can just log in and say, \"Okay. Aircraft 79, where is that? Okay. It's at Station 31. All right. These are the work orders, et cetera.\" So you've translated it into a more human-legible thing. (00:36:16): So the thing we built, I slightly flippantly described it as Asana. It's a little different. But basically that's what it did, was it gave you a unified view of, okay, this is what's going on inside the factory. This is the work that needs to be done on this particular plane. And then me today going to my job at Station 31, what work orders do I need to fulfill and where are the parts that I need to do that? So did this directly become a part of Foundry? Not exactly, because the way that other companies work is not going to be using this same set of concepts, but the overall idea of taking a bunch of tables, and then mapping them to human understandable concepts was a very powerful one. (00:36:58): So this actually resulted in a big piece of Foundry now, which they call Ontology. You've probably heard this term as you've seen... If you see Palantir presentations, they always talk about Ontology. This is what they actually mean by that, is it is a set of concepts that is understandable to you as a human and you are not having to go and dig around and do. You're just able to say, \"Where is the aircraft now and where is it going next?\" So the ontology became a huge piece of Foundry. It was directly informed by the learnings that we had from building that application inside that factory. And I would say it's still a very big differentiator today. I don't think too many other companies ship this kind of stuff yet.",
+   "zh": "实际上，这是一个非常有趣的故事。当时我们与空中客车公司遇到的首要问题是，他们有一款名为A350的全新飞机——一架极其漂亮的飞机。顺便说一句，如果你乘坐纽约至新加坡的航班，往往会搭乘A350机型。它确实很棒。但这款飞机当时还比较新，他们给我们的任务是：“好的，我们需要尽快提高这款飞机的生产速度”，速度要比以往任何时候都快得多。具体数字可能不太准确，但大致是这样的：本月生产4架，下个月8架，再下个月16架，以此类推，而你们要协助我们完成这个任务。  \n\n（00:33:42）：所以我们深入研究了这个问题。有许多可以加速生产的方案，但我们发现的核心问题是（这里不深入技术细节），工厂的运作方式是这样的：有多个工位，你可以把飞机想象成在各个工位之间移动，每个工位都会完成一系列生产任务。最初，飞机就是一个大机身，静止在那里，然后工人会执行一系列工单作业。这些作业需要零部件支持。到了某个阶段，他们会说：“好的，现在要转移到31号工位了。”飞机就会被实际移动到下一个工位，31号工位再继续下一阶段的工作。  \n\n（00:34:23）：为了让下一个工位能正常工作，必须了解两点：一是上一个工位完成了哪些工作，还有哪些工作未完成？二是，假设有些工作无法按时完成，任务会延续到下一个团队，新的团队又需要处理这些遗留工作。当我向你们描述这个问题时，你们可能会想到，可能需要用甘特图来呈现，需要能点击查看：“好的，30号工位完成了哪些工作，还有哪些工单未完成？”然后再追溯：“好的，这些工单需要哪些零部件，又在工厂的哪个位置？”  \n\n（00:35:20）：所有数据都存储在SAP系统里，而SAP是成熟的软件，功能强大，但用户体验不佳，尤其是对数据存储不熟悉的人来说。表名极难理解。比如S3、F1_Z之类的名称，根本看不懂。  \n\n（00:35:51）：我们发现，即使是用完全陌生的语言编写的表格（比如S3，F1_Z），通过正确的关联，也能映射到人类可理解的概念，比如零部件ID、工单、飞机等，最终构建起层次结构或映射关系。  \n\n---\n用户只需登录后说一句：“好的，79号飞机在哪儿？”系统会回复：“在31号站点。这些是相关的工作单等信息。”这样一来，你就把它翻译成了更符合人类阅读习惯的表述。（00:36:16）我们开发的这个系统，我曾随口把它比作Asana。不过两者还是有细微差别的。但基本功能是一样的，它能让用户统一掌握工厂内部的动态，清晰了解某架飞机的待办任务。例如，今天我要去31号站点工作，需要完成哪些工作单，又在哪里能找到完成这些任务所需的零部件？那么这个系统是否直接成为了Foundry的一部分呢？不完全是，因为其他公司的运作方式可能不会采用相同的概念体系。但将一系列表格映射为人类易懂的概念这一核心思路，是非常有效的。（00:36:58）这最终形成了Foundry的重要组成部分，他们称之为“本体论”。如果你看过Palantir的演示文稿，就会发现他们总在提及“本体论”。这里的本体论指的是一套人类易于理解的概念体系，无需费力查找。用户只需问：“飞机现在在哪儿？接下来要去哪儿？”本体论就成了Foundry的核心组件。它的诞生直接源于我们在工厂内开发该应用时积累的经验。我认为这至今仍是我们的一大竞争优势，目前其他公司很少能提供类似的解决方案。",
+   "ts": "00:32:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. I love how excited you still are about this. I could see it being so fulfilling to solve this big problem. I saw a stat that I think, 4X their productivity. What was the number there?",
+   "zh": "哇。你对这件事还是那么兴奋。我能想象解决这个大问题会带来多大的满足感。我看到一个数据，好像是他们生产效率提高了四倍。具体数字是多少来着？",
+   "ts": "00:37:41"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah. I don't recall the exact stat, but we did ramp up production, I think at least 4X that 1 year, which I mean obviously, they did this and we just helped with it. But that CEO said that we played a critical part.",
+   "zh": "是啊。我记不清具体数据了，但我们确实提升了产能，至少在那一年提高了四倍。当然，这主要是他们自身的努力，我们只是协助了一下。但那位CEO说我们起到了关键作用。",
+   "ts": "00:37:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Also, you moved to France, I think for this. That was how forward deployed you were. You lived in France for how long?",
+   "zh": "对了，你为了这项工作搬到了法国吧。真是深入一线部署啊。你在法国待了多久？",
+   "ts": "00:38:05"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah. I lived in France for about a year and a half. The way they built their planes is they manufacture different components around Europe. So they build the tail in Spain and the fuselage in part of the UK and Germany and so forth. So they basically ship everything to France to be assembled at the end, which you can imagine this is a very messy process. So I was mostly in France, but there would be weeks where I'd have to fly between all these countries just to figure out where things were.",
+   "zh": "是的，我在法国待了大约一年半。他们制造飞机的方式是把不同部件分散在欧洲各地生产。比如，尾翼在西班牙制造，机身部分在英国和德国生产。最后所有部件都运到法国组装，你可以想象这过程相当混乱。所以我大部分时间都在法国，但有时需要飞往各个国家，协调部件位置。",
+   "ts": "00:38:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In your post you wrote about how just the life of forward deployed engineers is pretty crazy. You just get a call sometimes like, \"Hey, you're flying to this random country tomorrow. Get ready.\" Is that just life as a forward deployed engineer?",
+   "zh": "你在帖子里写到前线工程师的生活真是疯狂。有时候突然接到通知：“嘿，你明天要飞去某个国家，准备好吧。”这就是前线工程师的生活吗？",
+   "ts": "00:38:39"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "It is. Yeah. The company had a very, I would say, aggressive attitude towards travel in the sense of when you join, you were basically told, \"Look, you have to be okay with travel. Are you okay with that?\" And the attitude, which again I think is a very founder friendly one is you need to be willing to just jump on a plane that night if that's the best thing to do for this customer and if it's going to get us to where it needs to be to win. So there were many times when it would be like, \"I need to take this cross continental flight tomorrow for this particular thing because it will be useful.\" (00:39:26): So I think that's one of the takeaways for me was just being in person is so valuable when you are working with some external party, just going there for a few days and spending time with them, maybe going out for dinner. You build so much more trust than if you're trying to close a customer over Zoom or do an engagement over Zoom. It's just the vibe is completely different. So yeah, getting on a plane was a really cool part of our job for a very long time. This obviously changed around 2020 because COVID happened, the company IPO, and so there needed to be a bit more internal controls around this. But I would say pre-2020, this was a very big part of the culture.",
+   "zh": "是啊。这家公司对出差的态度非常积极。加入公司时，他们基本会问：“你能接受频繁出差吗？”这种理念对创始人很友好，就是你必须愿意在深夜搭上飞机，如果这对客户有利，能帮助我们达成目标，那就必须去。很多时候就是：“我明天要飞去另一个大洲，就为了处理这件事。”（00:39:26）我觉得这让我领悟到一个道理——当与外部合作伙伴合作时，亲自到场比远程沟通效果好得多。比如去客户那里待几天，共进晚餐，建立的信任远超远程协作。氛围完全不同。所以很长一段时间以来，出差都是我们工作中很酷的部分。但2020年后因为疫情、公司上市等因素，内部管控加强了，出差频率下降了。但在2020年前，这绝对是公司文化的重要组成部分。",
+   "ts": "00:38:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm excited to have Andrew Luo joining us today. Andrew is CEO of OneSchema, one of our longtime podcast sponsors. Welcome, Andrew.",
+   "zh": "今天很高兴Andrew Luo能加入我们。Andrew是OneSchema的CEO，也是我们播客的长期赞助商之一。欢迎你，Andrew。",
+   "ts": "00:40:03"
+  },
+  {
+   "speaker": "Andrew Luo",
+   "en": "Thanks for having me, Lenny. Great to be here.",
+   "zh": "谢谢邀请，Lenny。很高兴能来。",
+   "ts": "00:40:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So what is new with OneSchema? I know that you work with some of my favorite companies like Ramp and Vanta and Watershed. I heard you guys launched a new data intake product that automates the hours of manual work that teams spent importing and mapping and integrating CSV and Excel files?",
+   "zh": "OneSchema有什么新动态吗？我知道你和Ramp、Vanta、Watershed等我喜欢的公司合作过。听说你们推出了一个新的数据采集产品，能自动化处理团队导入、映射和整合CSV、Excel文件时耗费的大量手动工作时间？",
+   "ts": "00:40:13"
+  },
+  {
+   "speaker": "Andrew Luo",
+   "en": "Yes. So we just launched the 2.0 of OneSchema FileFeeds. We have rebuilt it from the ground up with AI. We saw so many customers coming to us with teams of data engineers that struggled with the manual work required to clean messy spreadsheets. FileFeeds 2.0 allows non-technical teams to automate the process of transforming CSV and Excel files with just a simple prompt. We support all of the trickiest file integrations, SFTP, S3, and even email.",
+   "zh": "是的。我们刚刚推出了OneSchema FileFeeds 2.0版本。我们从头开始，完全基于人工智能进行了重建。我们发现许多客户带着数据工程师团队来找我们，他们在清理混乱的电子表格时遇到了繁琐的手动工作。FileFeeds 2.0让非技术团队只需简单提示，就能自动化CSV和Excel文件的转换过程。我们支持所有最复杂的文件集成方式，包括SFTP、S3，甚至电子邮件。",
+   "ts": "00:40:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I can tell you that if my team had to build integrations like this, how nice would it be to take this off our roadmap and instead use something like OneSchema?",
+   "zh": "我可以告诉你，如果我的团队要自己开发这样的集成功能，能把这项工作从我们的路线图中移除，转而使用像OneSchema这样的工具，那该多好啊！",
+   "ts": "00:40:55"
+  },
+  {
+   "speaker": "Andrew Luo",
+   "en": "Absolutely, Lenny. We've heard so many horror stories of outages from even just a single bad record in transactions, employee files, purchase orders, you name it. Debugging these issues is often finding a needle in a haystack. OneSchema stops any bad data from entering your system and automatically validates your files, generating error reports with the exact issues in all bad files.",
+   "zh": "当然，Lenny。我们听过太多因为交易记录、员工档案、采购订单等中哪怕只有一条错误记录就导致系统中断的可怕案例。调试这些问题往往就像大海捞针一样困难。OneSchema能阻止任何错误数据进入您的系统，并自动验证文件，生成包含所有错误文件精确问题的错误报告。",
+   "ts": "00:41:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know that importing incorrect data can cause all kinds of pain for your customers and quickly lose their trust. Andrew, thank you so much for joining me. If you want to learn more, head on over to oneschema.co. That's oneschema.co. (00:41:37): There's a lot of founders listening to this and a question that I'm thinking and they're probably thinking, and there's two questions here. One is how hardcore to go potentially with their own forward deployed operation. And then two is just how and a company I know is actually doing this, how far to go with one company's problem and invest in just like we are going to nail solving this one customer's problem with the hope that this is something we can abstract and sell as a big platform. So let me start there. And you're building a company, any I guess insights or advice on just how far to go down this road of we'll solve customer one's problem and we bet that this is going to be a big opportunity for a lot of other companies?",
+   "zh": "我知道导入错误数据会给您的客户带来各种麻烦，并迅速失去他们的信任。Andrew，非常感谢你加入我们的对话。如果您想了解更多信息，请访问oneschema.co。（00:41:37）：有很多创业者在听这个节目，我也在思考一个问题，他们可能也在思考，我这里有两个问题。一是，他们应该多么坚定地推进自己的前端部署运营。二是，我知道有一家公司正在这么做，他们在一个客户的问题上投入了大量精力，然后希望能将其抽象化并作为一个大平台出售。那么让我从这里开始。你们在创办公司时，有没有什么见解或建议，关于在解决第一个客户的问题上应该走多远，以及我们如何相信这对很多其他公司来说也是一个巨大的机会？",
+   "ts": "00:41:24"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "So I would say on the forward deployed piece, my friend Barry McCardel, the CEO of Hex, the analytics company, he wrote a really good post about this actually, and his take was just like, \"You probably don't need forward deployed engineers.\" It's very specific. But I think basically the thing there is you have to be willing to be quite almost wasteful. You have to be willing to invest a lot in finding the thing. And for that you just need a certain ticket size. So you need each customer's revenue to be probably in the billions of dollars. If it's below that, you're probably not looking at a traditional forward deployed engineer motion. It's something a little bit different. (00:42:59): So I think one thesis that a lot of people left Palantir with and started companies around was there's a lot of customers that Palantir won't serve because maybe they're too small a ticket size. So actually you could go and do something like Palantir for those companies, but instead of charging them $5 million, you're charging them 250K. So in a scenario like that, you might still have forward deployed engineers, but they're not going to France and spending five days a week in a factory. It's more like you'll have one person and they're looking after five different customer accounts. It's more of that ratio in order to make the numbers work. So I think a lot of the principles can be abstracted from that experience, but it is a really specific sales motion that depends on a specific way of doing business. (00:43:49): I think to your other question, yeah, I think it's obviously something that is very hard to give a general answer to. My main thing here is just that you can definitely tell when you are just doing consulting and when you are closer to building a product. And I think the error that people make more often than not is they are actually too stuck on their own product vision. That's the mistake I've seen a little bit more actually than the other way around. If you go to an enterprise customer, and let's say you think you're doing analytics software and it turns out they don't actually care about internal analytics this much, they actually have this other massive burning problem and they don't have a good solution to it yet. I think a lot of people are unwilling to go and pivot to the big problem because they're like, \"Well, we're analytics software and so maybe this customer is a fit for our thing,\" and maybe that's the right call. In some scenarios, that is the right call. You should go find a different customer where your thing resonates more. (00:44:48): In other scenarios, it's actually the right call to pivot and just put everything on that big problem instead and then go and find other customers for that thing. There's no hard and fast rule. I remember reading a really interesting post by, I think it was David Hsu from Retool who had this exact thing. I think he worked at Palantir for a while too. He said that they had the Retool product and it wasn't getting any traction at all. And then he tried an outbound email campaign where he literally just changed the subject line to build internal tools easily. And then suddenly they started getting all these replies from CTOs who were just like, \"Yeah. This is actually a huge pain point for me.\" (00:45:28): But the exact same solution, they were previously framing it as, I think it was supercharged Excel or something like that, and nobody was biting. So they just changed the way they framed it and found a different set of buyers and succeeded that way. So yeah, no hard and fast rule, but I think it's always you need to have this matrix of options in your mind and be very deliberate about which one you are going with and why.",
+   "zh": "这么说吧，在前沿部署方面，我的友人巴里·麦卡德尔（Barry McCardel）——分析公司Hex的首席执行官——写过一篇关于这个话题的精彩文章。他的观点是：“你可能不需要前沿部署的工程师。” 这观点很明确。但我认为关键在于，你必须甘于承受一定的资源浪费。为了找到客户，你需要投入大量精力，而这就需要一定的客户规模。也就是说，每个客户的年营收至少要达到数十亿美元。如果低于这个标准，那你可能就不需要前沿部署的工程师了。这种模式本质上有所不同。  \n\n（00:42:59）：所以我认为很多离开Palantir后创办新公司的同事都有一个共识：有很多客户Palantir无法服务，因为他们的客户规模太小。换句话说，你可以为这些公司提供类似Palantir的服务，但收费从500万美元降到25万美元。在这种情况下，你可能仍会派遣工程师，但他们不会去法国工厂每周驻场五天。更可能是派遣一名工程师负责五个不同客户的账户。这种比例调整才能让商业模式可行。  \n\n（00:43:49）：至于你的另一个问题，是的，我认为这确实很难给出一个通用答案。我想说的是，关键在于你能否分清何时是在做咨询工作，何时更接近产品开发。人们常犯的错误是过于执着于自己的产品愿景。相比之下，我更常看到这种情况：当你去拜访企业客户时，比如你以为自己在做分析软件，但结果发现他们对内部分析并不重视，而是有其他更紧迫的需求却尚未找到解决方案。很多人不愿意转向这个大问题，因为他们会想：“我们是分析软件公司，这个客户可能适合我们的产品。”或许这种判断没错。但在某些情况下，转向大问题才是正确的选择。  \n\n（00:44:48）：在其他情况下，转向大问题并全力以赴解决它，然后再为这个解决方案寻找其他客户才是明智之举。没有固定的规则。我记得读过一篇很有趣的文章，作者是来自Retool的大卫·许（David Hsu），他也曾在Palantir工作过。他提到他们的Retool产品一度毫无进展。后来他尝试了一次外部邮件营销，仅仅把邮件主题改为“轻松构建内部工具”，结果突然收到CTO们的大量回复，他们纷纷表示：“是啊，这正是我们的大痛点。”  \n\n（00:45:28）：但同样是同样的解决方案，他们之前定位的是“超级Excel”之类的，根本没人感兴趣。于是他们改变了表述方式，找到了不同的客户群体，最终取得了成功。所以确实没有固定规则，但我认为\n关键在于，你得在脑海中构思出一系列备选方案，并深思熟虑地决定选择哪一个，以及背后的原因。",
+   "ts": "00:42:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think your piece of advice is really important there. Usually in your experience, you're saying people index too far too? Like now, what they're asking me to do is not what I think they need or what customers will need. You're saying it's actually more likely they're right, and that's maybe where you should be focusing more versus this abstract vision and original idea you had?",
+   "zh": "我觉得你提的这个建议真的很重要。通常以你的经验来看，你说人们也经常做得太过火吧？比如现在，他们让我做的事，并不是我认为他们需要的，或者客户真正需要的。你说他们很可能是对的，或许你应该更关注这一点，而不是你原本设想的抽象愿景和创意？",
+   "ts": "00:45:53"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I think so, yeah. I think it's very hard to not be anchored to your own experience and your conceptions as a problem. And one thing I've seen in really strong founders is they're able to drop a bunch of those assumptions and almost treat a new opportunity as a completely blank slate. And then just figure out how to reshape things so that you're taking advantage of that, and that's how you don't get stuck at a local maximum.",
+   "zh": "是啊，我也这么认为。很难不受限于自己的经验和固有观念。那些真正优秀的创始人，他们能放下很多假设，几乎把新机遇视为一张白纸，然后想办法重塑一切，这样才能突破局部最优。",
+   "ts": "00:46:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Your other piece of advice is also really great. So people hear this and they're like, \"We don't afford an engineer to sit at one customer prospects office and build stuff for them.\" But your point is you can have one for five different customers. They're not there full time. They bounce around, but they're... It's almost like sales engineering, just like what you call it sparkling sales where they help make it successful. I know Looker is a famous example. They think they called them forward deployed engineers. Do you know any other companies by the way, that some version of forward deployed engineers?",
+   "zh": "你提的另一个建议也很棒。人们一听这个，可能就会说：“我们可请不起工程师专门去客户办公室为他们开发产品啊。”但你的核心观点是，可以为五个不同的客户各派一位工程师。他们不需要全职驻场，可以灵活调配，重点在于销售工程——就像你说的闪亮销售，帮助客户成功。我知道Looker就是个典型例子，他们称这些工程师为“前置部署工程师”。你知道还有其他公司有类似前置部署工程师的模式吗？",
+   "ts": "00:46:37"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "There's a lot. I mean, I know that the AR-Labs are hiring forward deployed engineers now, they're building forward deployed engineering teams and they could make it work, but I think there's going to be key differences. I don't see Anthropic going into an enterprise customer and building some entirely from scratch solution for them. It's going to be something that leverages the Anthropic set of products. So there's a lot of companies that have this label now, but I think what's really confusing about, it's just that it means a few different things. There's another post by Ted Mabrey who's I think the head of commercial at Palantir, and that's a very good one too, to point with those too.",
+   "zh": "有很多例子。比如AR-Labs现在就在招聘前置部署工程师，组建前置部署工程团队，他们或许能成功，但我觉得关键差异在于。我不认为Anthropic会去企业客户那里从零搭建解决方案，而是会基于Anthropic现有产品进行优化。现在很多公司都打着这个旗号，但问题在于这个概念涵义不一。Palantir的商业负责人Ted Mabrey写过一篇很棒的文章，也值得一读。",
+   "ts": "00:47:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So say someone was, \"I want to try this sort of thing in my company,\" what would be a few bullet points if things they should get right? You're describing the spectrum of what people describe as forward deployed engineers, if they were to try to do this, what do you think they need to most do correctly for it to be successful?",
+   "zh": "假设有人想在公司尝试这种模式，需要注意哪些关键点？你描述了人们对前置部署工程师的不同理解，如果要实施这类模式，你认为最关键的成功要素是什么？",
+   "ts": "00:47:46"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "The key things that made our model work well, one, they were actually real engineers who could build product themselves. That's a very big difference. I think a lot of the time companies will say, \"This person's a forward deployed engineer,\" but actually they're mostly there to be more of a solutions architect, or they're not necessarily building anything to know, but they're just listening and trying to find a way of deploying the existing product. They're not empowered to do new product. So the really radical thing Palantir said was, \"No. Go in and if you need a completely new product to do this, you can go ahead and build it.\" And I think that's really the key difference. (00:48:44): The other stuff I've already mentioned, the value of being in person, and I think building close personal bonds with your customers. I do think the better founders do this anyway. They're on texting terms with their buyers, they become friends with them outside of work, and they see them as humans who they're trying to help. I think this is very motivating, gaining a really deep understanding of the business that your customers are in and knowing how those dynamics work. So a simple example might be, say hospitals in America. It's very counterintuitive to think of a hospital as a business. People think of it as it's a place where you get healthcare, but actually if you view it the way a COO or CMO views it, it's going to look very, very different too. (00:49:34): As a very simple example, sorry, this is a little bit dark, but how restaurants want to turn over tables as fast as possible in order to maximize for the day? Hospitals actually want to do the same with patients. They would like to treat you and then get you out of a bed so they can free up the bed to get a new person in there. So that's not super intuitive, unless you think hard about how the revenue for that hospital works. But then once you think about it, you're like, \"This has a bunch of problems associated with it.\" And you start to go into really interesting...",
+   "zh": "让我们的模式行之有效的关键因素之一，是他们实际上都是能够亲自开发产品的工程师。这是一个巨大的差异。我认为很多公司会声称\"这个人是前线部署的工程师\"，但实际上他们大多只是充当解决方案架构师的角色，或者说他们并非真正在开发新产品，而只是在倾听并试图找到部署现有产品的方案。他们没有被授权开发新产品。所以Palantir提出的真正激进观点是，\"不行。直接去开发，如果需要全新的产品来实现目标，那就去开发。\" 我认为这才是关键的区别。（00:48:44）：我已经提到的其他要点包括，亲自到场的重要性，以及与客户建立亲密的个人联系。我认为优秀的创业者无论如何都会这样做。他们与客户保持短信沟通，在工作之余成为朋友，将客户视为需要帮助的人。我认为深入理解客户所在的业务及其运作机制非常有激励作用。比如，拿美国的医院来说。人们很难把医院视为一门生意，他们更习惯将其视为提供医疗服务的场所，但如果从首席运营官或首席营销官的视角来看待医院，其运作逻辑会截然不同。（00:49:34）：举个简单的例子，抱歉，这有点偏颇，但餐厅为了尽快翻台以获取最大收益的做法，医院其实也在对患者采取同样的策略。他们希望尽快治疗患者，然后让患者离开病床，以便腾出床位接收新患者。这听起来并不直观，除非你仔细思考医院的收入模式。但一旦你深入思考，就会发现这背后存在诸多问题。接着你会进入非常有趣的探讨领域。",
+   "ts": "00:48:04"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "... problems associated with it, and you start to go in really interesting directions.",
+   "zh": "... 相关的深层问题，并开启非常有趣的探索方向。",
+   "ts": "00:50:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's just like the words and memes, and take you a long way working and understanding it.",
+   "zh": "这些术语和梗图确实能在理解和实践中助你一臂之力。",
+   "ts": "00:50:05"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:50:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so essentially the things you want to get right, make sure it's in person, make sure the person is technical, make sure they have a deep understanding of the business and the problems they're having. The technical piece is interesting with AI tools these days, making everyone technical in some sense. You could argue this is going to become more common, people can just open up Cursor, Windsurf and just start adding features.",
+   "zh": "好的，所以关键在于确保团队亲自到场，确保成员具备技术能力，确保他们对所在行业和客户面临的问题有深刻理解。如今借助AI工具，技术门槛在降低，人人都能在某种程度上具备技术能力。你可以说这种趋势会越来越普遍，人们只需打开Cursor、Windsurf等工具就能开始添加功能。",
+   "ts": "00:50:10"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I think this is a really interesting thesis you've just hit on, and I expect to see a lot more startups that take advantage of that insight.",
+   "zh": "我认为你刚刚提出的观点非常有趣，我期待看到更多初创公司能借此获益。",
+   "ts": "00:50:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Basically it makes forward deploying engineers cheaper.",
+   "zh": "基本上，这让前线部署的工程师成本更低了。",
+   "ts": "00:50:38"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:50:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is the current state of forward deploying engineers at Palantir? How much has it changed over the past few years? If you join now, is this still something you can do?",
+   "zh": "Palantir目前的前线部署工程师现状如何？过去几年里有怎样的变化？如果现在加入，人们还能从事这类工作吗？",
+   "ts": "00:50:42"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, of course. I should obviously emphasize that one, I left the company in 2023, and so this is just my personal view, I don't speak for them. I think that if you think about it, one of the metrics that the company had to measure its own success was essentially revenue per engineer, and so the more \"product leverage\" you had, the higher that number was. So if you had to throw a lot of people at every marginal problem, then you weren't doing so well at that because you're basically building a new thing every single time, and you are in effect a consulting business. If on the other hand, every time you encounter a new customer, the product turns out to be relevant to them, then great, and so this product leverage metric was actually a very unique thing and kind of a North Star for the company for the whole time I was there. (00:51:37): If you reason that out, what that means is that in the early stage of the company, you will have a customer and then you might have five to 10 engineers working at that customer. And so over time you want that ratio to change. So you want it to be each customer, because the product is so powerful, maybe AI coding's gotten a lot better, each customer you only need two people, and then maybe you actually get to a point where you can have one person looking after multiple customers. And I think that's how the job has changed, is now it's a little bit more about you have multiple customers, maybe you're spending less deep time with each individual one of them, but it's a lot clearer what problem you're solving across multiple customers and you have more of a kind of defined offering. (00:52:21): And so I do think that has been a bit of a change, but the company remains a very interesting and dynamic place to be. In some sense the story's only starting, because one lens through which you can view this company is they spent 20 years basically building the mother of all data foundations for every important institution in the world, and I guess what's very valuable now that AI models are out is proprietary data that isn't public. Suddenly you have access to that and you are in a very privileged position to help your customers deploy AI in a way that makes them successful, and that solves real business problems. That is essentially the bull thesis for this company and why it's probably going to 100X again. And so it's still a really interesting time to join but I do think the nature of the ratio of people to a customer, for example, is one big difference now.",
+   "zh": "是的，当然。我得强调一点，我在2023年离开了那家公司，所以这只是我个人的观点，不代表公司立场。我认为，如果你仔细想想，公司衡量自身成功的指标之一，本质上就是每位工程师的营收。因此，产品杠杆效应越高，营收就越高。如果你每次遇到边缘问题都得投入大量人力，那说明你做得并不好——因为你每次都在从零搭建新东西，实质上就是在做咨询业务。相反，如果每次遇到新客户，产品都能与他们的需求高度契合，那就太棒了。在我任职期间，这一产品杠杆效应指标始终是公司的独特核心指标。\n\n（00:51:37）：从这个逻辑来看，在公司初期阶段，会有一个客户，然后可能需要5到10名工程师为该客户服务。而随着时间推移，你希望这个比例发生变化。理想情况下，每个客户只需两名工程师，甚至可能发展到一人服务多个客户的阶段。我认为这正是工作性质的转变——现在更多是服务多个客户，可能花在每个客户上的深度时间更少，但能更清晰地看到跨多个客户所解决的问题，并形成更明确的服务体系。\n\n（00:52:21）：所以我确实认为这带来了些许变化，但这家公司仍然是一个非常有趣且充满活力的工作场所。从某种意义上说，公司的故事才刚刚开始。审视这家公司的视角之一，是他们花了20年时间为全球重要机构搭建数据基础设施的巨构。如今AI模型问世后，专有数据（非公开数据）变得尤为珍贵。突然间，你能获取这些数据，并处于一个极具优势的位置，帮助客户成功部署AI，解决实际商业问题。这本质上是这家公司的核心理念，也是其股价有望再翻100倍的根本原因。因此，现在加入依然是一个绝佳时机，但我认为当前人均客户服务比例已发生重大变化。",
+   "ts": "00:50:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Not investment advice, but it might 100X. I totally understand why that might happen. So let's talk about the data piece, you said that this was one of the secrets of Palantir's success, this early insight into the power of ingesting data, cleaning data, being able to analyze and work with it. What a marketing share there, just what they figured out about why this is so valuable, why it's so hard and how they achieved it?",
+   "zh": "这不是投资建议，但股价确实可能再翻100倍。我完全理解为什么会出现这种情况。所以让我们谈谈数据部分，你提到这是Palantir成功的秘诀之一，即早期就洞察到数据摄取、数据清理、分析和应用的强大价值。这真是营销的精妙之处，他们深刻理解了数据的价值所在、其中的挑战所在，以及如何克服这些挑战。",
+   "ts": "00:53:16"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I think it's just very obvious as soon as you step into a corporation and spend a couple of days there really, is you're like, all right, let's suppose your job is to increase sales, so the first thing you want to do is get a clear picture of what's going on. All right, so let me go and query the sales database. Oh wait, where's the sales database? I can't get access to this. Okay, I need to file an access ticket. All right, now I have to wait one week. And so everywhere we went, this was the big pain point, was we have to wait six to eight weeks just to get data access, and then when you do get data access, it's not like the data's in an easily queryable format, you actually really have to know what you're doing in order to get the right metrics out, and so on and so forth. (00:54:21): And so it turned out like, okay, it's this iceberg analogy where the actual analysis is actually just the tip of the iceberg, it's kind of the last five or 10%, and the 95% before that is, I am gaining access to the data, I am cleaning the data, I'm joining the data, I'm normalizing it, putting it all in the same format. And so once we spotted that, then it's like, okay, there's actually a lot of product to be built there just to make that process easier. People don't think of Palantir as this place where innovative new product and UX ideas come out, but I actually think it's been one of the most generative companies for that specifically in the last 20 years, it's just that most of that didn't see the light of day and so people don't know. But if you look at the product primitives that they developed in order to make the things I just mentioned a lot easier, they're actually really valuable and interesting and could probably form the basis of independent companies themselves. (00:55:21): And so, yeah, it just took every single step of that process became much, much easier once there was a software solution around it. So if you talk about data ingestion, there's essentially a universal data adapter that's part of Foundry. It can read anything, so JDBC, S3 buckets, whatever you want. It allows us to look into the data, maybe preview the first 20 rows, and then it allows you when you're ready to set up a schedule and just pull it in on some cadence. That process alone for an engineer used to take a long time, especially pre-Vibe coding, and managing all those cron jobs and doing this analytics, VM somewhere inside the customer's tenant was a huge pain. (00:56:04): And so you productize that piece, then it's like, okay, once you have the data, it's like how do you actually join it? What if you're non-technical? Is there a way for a non-technical user to be able to join tables and see what the result is? And so there's all these very fascinating business problems that, because I think the access was very difficult to get, and people hadn't really solved before, and so there was a lot of white space to do some product innovation. So now I would say Foundry's definitely the best data platform in the world just because it has all these different applications within it that solve these discrete parts. And it came out of this, years of painful experience, watching people have to clean data and join it and figure out what this table name meant and so on and so forth.",
+   "zh": "我觉得一旦你进入一家公司，待上几天，就会发现一个显而易见的问题：首先，你得清楚了解业务现状。比如，如果你的任务是提高销售额，首先要做的是获取一份清晰的数据报告。好的，我去查询销售数据库。等等，销售数据库在哪儿？我连访问权限都没有。好吧，我得申请访问权限。然后又要等一周。无论我们去哪里，遇到的都是同样的痛点：获取数据访问权限要等六到八周，而且即便拿到权限，数据格式也极不友好，必须专业解析才能提取正确的指标，如此种种。（00:54:21）这就像冰山理论，真正需要分析的数据只是冰山一角，95%的基础工作在于获取数据、清理数据、合并数据、标准化格式。一旦意识到这一点，我们就明白，整个流程需要大量产品创新来简化流程。人们可能不认为Palantir是创新产品和用户体验的温床，但实际上它是过去20年里最具创新力的公司之一，只是大部分成果未能公之于众。但如果你看看他们为简化上述流程开发的底层产品，它们极具价值且富有趣味性，足以成为独立公司的基础。（00:55:21）是的，只要有对应的软件解决方案，整个流程就能变得简单得多。比如数据摄取方面，Foundry内置通用数据适配器，可读取任何数据源（JDBC、S3桶等），支持数据预览和定时导入。这种工程师常用的流程在Vibe之前需要耗费大量时间管理Cron任务和VM资源，客户内部的VM环境更是让人头疼。（00:56:04）将这些功能产品化后，数据获取后如何关联数据成了关键问题。非技术用户如何实现表关联并查看结果？这些商业问题因获取数据困难且未被充分解决而充满创新空间。因此我认为Foundry是全球最佳数据平台，因为它内置了多个应用，专注于解决这些细分场景。这些创新源于多年痛苦的实践经验，见证了人们清理数据、关联表格、破解表名含义等艰辛历程。",
+   "ts": "00:53:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You shared in your post this kind of evocative story of some people's jobs is just to gate keep the data. They're there to give you access to this very valuable data within the organization, and how hard it is to get. That was a lot of this work, is just breaking through those political battles of like, \"Okay, we need this data for the good of the company and took a lot of work.\" I guess anything there you want to add?",
+   "zh": "你在帖子中分享的这种关于某些人工作职位的令人难忘的故事，实质上就是为了控制数据访问权限。他们在组织内为你提供获取这些宝贵数据的途径，而获取这些数据实属不易。这项工作的核心就是突破那些政治斗争，比如“好吧，我们需要这些数据来促进公司发展，但这太难了”。你对此还有什么想补充的吗？",
+   "ts": "00:56:50"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "It is, yeah. It's a huge pain, and there are good reasons for it. It's not like folks are malicious here. If you're IT or if you're an InfoSec type person, then your goal is to prevent data breaches and to make sure that sensitive information doesn't spread too wide. And so what's the easiest way to do that? It's to lock the data down, basically be a gatekeeper for access. I think where it got a little bit more interesting was where your skills are valuable and depend on you being the gatekeeper. So what I mean by that is let's say I'm the only guy who understands the way the sales calculation pipeline works and I write the SQL for it. All the requests from business SMEs come to me, I have a big queue of them, it takes me weeks to get through this queue. I have a great job, I have great job security, and people depend on me. (00:58:05): And so now along comes this company and they're like, \"Hey, actually we want to make sales data available to everyone and we want to make it point and click.\" Suddenly you're like, \"Hey, hang on, what am I going to do?\" And so that's where I think there was a lot of difficulty and I always say people are like, what accounts as competitors? I don't think it's the ones that you would think of necessarily. Palantir's biggest competitor is a company rolling its own solution, and so the biggest difference would just be a CIO saying, \"I'm going to build my own data infrastructure, I'm going to own it, it's going to be on top of one of the hyperscalers, and we're all just going to do our own analytics ourselves.\" And what we came along with, which was quite disruptive to this model, was saying, \"No, actually all your data is going to get ingested into this one platform and everybody in your company is going to use it.\" The trade-off is it's going to be really, really easy for everyone to do things. But as you can imagine, some people weren't a huge fan of that model.",
+   "zh": "确实如此。这真的很让人头疼，但背后有充分的理由。人们并非恶意行事。如果你从事IT或信息安全领域的工作，那么你的目标就是防止数据泄露，确保敏感信息不被广泛传播。那么，最简单的实现方法是什么？就是把数据锁起来，成为访问权限的守门人。更吸引人的地方在于，你的专业技能对公司至关重要，必须由你来担任守门人。举个例子，我是唯一理解销售计算流程并为其编写SQL的人员，所有业务部门的请求都由我处理，积压的任务堆积如山，花几周时间才能处理完。我工作稳定，职位有保障，人们都依赖我。（00:58:05）：突然公司来了个新提议：“嘿，我们想让所有人都能点选式获取销售数据。”你会立刻陷入犹豫：“等等，我该怎么办？”这就是我认为存在诸多困难的地方。我常被问到谁是竞争对手？我觉得不一定是我们想象中的那些。Palantir最大的竞争对手是自行开发解决方案的公司，最大的差异在于，首席信息官可能会说：“我要建立自己的数据基础设施，由我掌控，架设在超大规模云平台上，大家各自开展分析。”而我们提出的颠覆性方案是：“不，所有数据都集中到一个平台，公司所有人都共享使用。” 权衡之下，每个人操作都变得极其便捷。但可以想象，有些人对这种模式并不买账。",
+   "ts": "00:57:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It feels like Glean is the biggest competitor to Palantir after I hear this, do you know about that company?",
+   "zh": "听你这么说，我觉得Glean是Palantir最大的竞争对手，你了解这家公司吗？",
+   "ts": "00:59:01"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I do, yeah, Glean looks amazing from the outside. So many differences there, I can totally see why you would say this, but-",
+   "zh": "是的，我了解。Glean从外部看确实很棒。两者有诸多差异，我完全理解你为何这么说，但——",
+   "ts": "00:59:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Clearly a different use case but it feels like the reason they've been successful is they figured out a lot of this data ingestion, permissions, search stuff. I never thought of it that way.",
+   "zh": "显然用例不同，但感觉他们成功的原因在于，他们攻克了数据导入、权限控制和搜索等诸多难题。我从未从这个角度思考过。",
+   "ts": "00:59:15"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:59:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interesting. Okay, I want to talk about hiring, you talked a bit about this. You're starting a company again, what are some of the key lessons you've learned from your time at Palantir when you are hiring people for your company? I don't know if you're actually hiring people yet, maybe when you may start hiring.",
+   "zh": "有意思。好，我想谈谈招聘事宜，你之前提到过这点。你现在又在创办新公司，在为公司招聘人才时，从Palantir的经历中吸取了哪些关键教训？我不知道你是否已经开始招聘了，或许还未开始。",
+   "ts": "00:59:24"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, we have six people at the moment, so a really reasonably small team. I think with hiring, it's funny, man, there's so much hiring advice online and you read it and you're like, \"Yeah, this is super obvious.\" And then when you live it, you're suddenly like, \"Aah, this is why people say this.\" So a few simple examples are I think the thing that is really hard to find is somebody who really, really has a lot about doing the thing and will go that kind of extra 20%. I think when you hire out, especially not to pick on them, but I think if you hired a [inaudible 01:00:17] right, it's like people want a 400K a year job, they would like to work a certain number of hours, they would like to ship some code and then go home, that's basically the model that you get accustomed to even if you don't intend to when you work at a big company. (01:00:31): And so if you hire out of that for a really small startup, it can be really challenging because a lot of your success as a startup depends on each individual person being like, \"No, I'm really going to, I'm work this evening if that's what it takes to get this thing working, and I'm not just going to check my boxes, I'm actually going to look towards what is the real outcome that this business is trying to achieve.\" And everything I'm saying feels kind of obvious, but when you actually feel that difference between somebody who's just checking the boxes and somebody who's kind of an animal in this way, they'll actually go and pursue and accomplish the end outcome, that difference is very, very big and it matters so much for your first 20 people. And there's no science to finding these people. It's not like you can just put somebody who cares about outcomes in your JD and then suddenly you'll get all these people applying. (01:01:18): So then it's like, okay, well how do you screen for that and how do you find those types of people? And so that's where it gets really interesting. I think that's where the mission alignment comes in, and so you do have to find people who, for what you are doing, have this extra maybe private reason to care about it a little bit more than the average person. So I think for Palantir, they did hire a lot of vets, for example, or maybe people who were a little bit more patriotic or pro-America than the average tech employee, and those people had an extra reason to Palantir and an extra reason to try that little bit harder. And so what I'm doing is a little bit more in the kind of medical and health space, and so I think people who have themselves had experiences with this system have maybe had relatives go through difficult experiences with things like cancer or whatever it is. They're just that extra bit motivated to really care about the thing you're trying to do and then work that little bit harder, and so I think aggressively filtering early on to things like mission fit, how much have you cared about stuff in the past, and what's an example. (01:02:29): You ask questions like, what's the hardest you've ever worked to get something done and why? And that does differentiate a lot of people, a lot of people don't actually have a great answer to that. So I would say that's been a really big learning, is it's less about testing for the right skills, yes, that's important, two it's much more about just who has that extra 20%.",
+   "zh": "是的，我们目前有六个人，所以是一个相当小型的团队。我觉得招聘这件事挺有意思的，你看网上那么多招聘建议，看完后总觉得“这太显而易见了”。但当你亲身经历时，才会突然意识到“原来人们说这些话是有道理的”。举几个简单的例子：真正难找的人，是那种对工作充满热情、愿意付出额外20%努力的人。特别是招聘初创公司的人（这里不针对具体公司），他们往往期望一份年薪40万美元的工作，按固定工时上班，完成代码后就下班——这基本上是大公司员工习惯的模式。但当你把这种标准应用到小型初创公司时，挑战就来了。初创公司的成功很大程度上取决于每个人的自驱力：比如“不，我今晚必须加班完成任务，而不是走走形式”，以及“我要为公司的目标全力以赴，而不是只完成任务”。这些道理听起来显而易见，但当你真正感受到那种只求完成任务的人和真正有使命感的人之间的差别时，那种差别就非常明显了。对前20名员工来说，这至关重要。招聘这些人没有标准答案，不能在招聘说明里写上“重视结果”然后就等着申请人蜂拥而至。\n\n接下来要考虑的是，如何筛选出这些人？这时候使命契合度就显得至关重要了。你必须找到那些对你的事业有额外私人关怀的人。比如Palantir就雇佣了许多退伍军人，或者比普通科技员工更有爱国情怀的人，这些人对Palantir有额外动力。对我来说，医疗健康领域的招聘更讲究。比如有亲属曾经历癌症等疾病的人，他们会更有动力去关心你所做的事业，并付出更多努力。因此，早期筛选时要聚焦使命契合度，比如“你曾为达成目标付出多大努力，为什么？”。这样的问题能区分出不同的人群，很多人都答不上来。这就是我最大的收获：招聘不只是测试技能，固然重要，但更关键的是寻找那额外20%的努力。",
+   "ts": "00:59:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really interesting, everything you've shared is essentially around motivation, and drive, and passion, and kind of just commitment to working on this intently, and it's almost like a second thought of just like, oh, also they're really smart and skilled at stuff. It feels like that's just table stakes and this is actually what makes the difference in your experience.",
+   "zh": "太有意思了，你分享的这些内容基本上都围绕着动机、驱动力和激情展开，还有全身心投入工作的决心。而人们往往会把这些视为理所当然，认为这不过是成功的必要条件。但实际上，这些品质才是真正让你的经历与众不同的地方。",
+   "ts": "01:02:47"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, I totally agree, and I think it's different for every business. So I think if you're in a space like B2B SaaS where maybe it's a little harder to tell the story of like, oh, this is so mission-critical, whatever, there are other ways of getting at this thing. So for example, I know a lot of people, again, it's a little played out now, but I know a lot of people who for sales teams, they will explicitly go for people who were professional athletes or played sports in college, and it's like, okay, what does that test for? It's like you are very, very disciplined, you're very, very goals and numbers oriented and you're willing to just work really, really hard. And so there's all these kind of lateral ways of getting at these qualities that I think you just have to be intentional about as a founder. As a personal example, I'm a runner and so I actually love meeting fellow runners and I kind of joke like, \"Oh, maybe I'll go higher from run clubs or something like that.\" (01:03:57): But it's just same with I play a lot of chess, I love meeting chess players. I'm not necessarily saying that's the right kind of hire for me, but I think having this thing of here are some traits that seem uncorrelated, but which actually give you good signal to this person's personality, those are actually really important. The last thing I'll say just as a funny illustration of that concept is I think Max Levchin tells the story of somebody interviewing at PayPal early on and he passed all the skill interviews and then it just got to the final round and he said something about liking to shoot hoops, like he liked to play basketball, and they were like instant reject. The vibe here was like if you're not a mega Linux nerd, hardcore computer person, then we don't want you here, even if you actually passed all the tests just because you like to shoot hoops. Now whether that was the right call or the wrong call, don't know, but that's an example of what I'm talking about.",
+   "zh": "是的，我完全同意你的观点。我认为每个行业的情况都不尽相同。比如，在B2B SaaS领域，要想讲述一个“这项任务至关重要”之类的故事可能更困难，但总有其他方法能传达同样的理念。举个例子，我认识很多人，虽然这个方法现在已经有点老生常谈了，但他们在组建销售团队时，会明确倾向于选择有专业运动员背景或大学运动员经历的人。这背后传递的是什么信息呢？这意味着他们极其自律，目标和数据导向，并且愿意付出巨大努力。还有很多类似的迂回方式能挖掘出这些品质，作为创始人，你必须有意识地去发掘这些特质。以我个人为例，我是个跑步爱好者，所以我特别喜欢结交其他跑者，还会开玩笑说：“或许我该从跑步俱乐部招人之类的。” （01:03:57）但道理是一样的，我也经常下棋，喜欢结交棋友。虽然我不认为这些人一定适合我公司，但我认为有些看似无关的特质能有效传递出对方的性格特征，这确实很重要。最后我再举个有趣的例子说明这个观点。我记得Max Levchin讲过一个故事，早期PayPal面试时，有个候选人通过了所有技能测试，但到了最后一轮面试时，他提到自己喜欢打篮球，结果被当场拒绝。当时的氛围是，如果你不是个超级Linux极客、深度技术宅，那我们就不需要你，就算你通过了所有测试，只要你喜欢打篮球，我们也不想要你。虽然这做法对错尚有争议，但这正是我要说明的点。",
+   "ts": "01:03:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that's a great echo back. People hearing this may be like, \"What the hell? How dare they do that?\" But this is exactly what you said at the beginning of our conversation, that like an approach to building a generational business is to be very clear about who this is not for, and that's okay, it's your company, not everyone needs to work there. And it's almost saving them time because they might realize this isn't for me, this isn't the people I want to be around necessarily. So I think it's important to see that side of it, is it's your business, it's important to be clear about who is a good fit for the company and who's not. Speaking of that, let's talk about product management for a bit. I know Palantir PMs are not traditional product managers. I imagine people have the title, Product Manager at Palantir, okay, so if so, as far as you understand what's the difference between say a PM at Palantir versus a traditional PM say at a FANG company?",
+   "zh": "我觉得你总结得太到位了。听众可能觉得：“什么鬼？他们怎么能这么做？” 但这正是你开场时说的，打造代际企业的关键在于明确“这份工作不适合谁”，这没关系，这是你的公司，不需要所有人都来工作。这甚至能节省他们的时间，让他们意识到这份工作不适合自己，不必浪费时间纠结。说到这里，咱们再聊聊产品管理。我知道Palantir的产品经理和传统产品经理不同。我猜Palantir的产品经理头衔是产品经理，但据我了解，Palantir的产品经理和FANG公司（Facebook、亚马逊、谷歌、网飞）的产品经理有何不同？",
+   "ts": "01:04:54"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Palantir was, as far as I remember, quite anti-PM for a while and eventually we did need them because we just got more serious about product testing.",
+   "zh": "就我所记得的，Palantir曾有一段时间对产品经理持非常反感的态度，但最终我们还是需要他们，因为我们对产品测试的重视程度越来越高了。",
+   "ts": "01:05:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Classic story, classic story.",
+   "zh": "老生常谈的故事，经典的故事。",
+   "ts": "01:05:57"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "A classic story.",
+   "zh": "一个经典的故事。",
+   "ts": "01:05:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In many companies,",
+   "zh": "在许多公司里，",
+   "ts": "01:06:00"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "The big difference or one big difference I noticed was that they were extremely careful about only making people PMs who had first proven themselves out as forward deploying engineers. You basically could not become a PM any other way. So as an example, when I mentioned earlier the thing that we built for the plane factory, the person who was managing that deployment, she later became the PM for ontology, and it was just because she'd kind of proven her method in the field. And the reason for that's pretty simple, it's going to be someone who understand how customers work and has that customer empathy, and it's going to be someone who has this drive to get things done because that's what BD selected for. I think the failure mode that they were very, very averse to in traditional PMs was this kind of Google Docs syndrome of like, okay, I'm going to write my product requirement documents, and I'm going to manage it in this very sort of sane, rational way I think, so the company was really rigorous about that. (01:07:04): And so basically PMs were almost always internal promotions and they always came from BD. I am not aware of a single case where we took somebody who was a PM at a place like Google, which produces many excellent PMs and hired them successfully into Palantir, it's just a very different vibe. So I think that was one thing. This is maybe more of a classic PM trait, but you just had to be either an engineer yourself or extremely good at working with engineers, and the ones I saw who succeeded the most were just best friends with their engineering team. And the team would always just be like one, it was called the group pm and then it would be a lot of very, very good engineers. And basically the success or failure mode was just do the engineers and trust you? I mentioned before Palantir how is very almost disagreeable personalities, and so if you didn't gain the trust of engineering team pretty fast, you didn't last very long.",
+   "zh": "我注意到的一个重大区别，或者说一个关键区别在于，他们极其谨慎，只让那些先在一线工程岗位上证明了自己的人担任产品经理。除此之外，几乎没有其他晋升途径。举个例子，我之前提到的我们为飞机工厂开发的项目，那位负责该项目部署的工程师后来成为了本体论部门的产品经理，原因很简单——她在实战中证明了自己的方法论。这一决策背后的逻辑很简单：产品经理必须理解客户的运作方式，具备客户同理心，并且要有推动项目落地的驱动力——毕竟Palantir的BD部门正是为此而选拔人才的。他们极其反感传统产品经理身上那种Google Docs式的思维模式，比如“好的，我要写产品需求文档，然后用一种理性、合理的方式管理它”。公司对此要求非常严格。（01:07:04）：因此，产品经理基本上都是内部晋升，而且都来自BD部门。我不知道有哪一个案例是我们从谷歌这样的培养了许多优秀产品经理的公司成功挖来的。这里氛围截然不同。所以这就是关键点之一。这或许更符合经典的产品经理特质，但你必须要么自己是工程师，要么非常善于与工程师合作。我见过最成功的产品经理都是与工程团队关系极为融洽的。团队通常只有一位PM，叫做“组内PM”，成员都是非常优秀的工程师。成功或失败的关键在于能否赢得工程团队的信任？我之前提到过，Palantir的员工个性极具挑战性。如果你不能迅速获得工程团队的信任，就很难长久待下去。",
+   "ts": "01:06:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think we've cracked the question of why are Palantir PM's so successful? First of all, the hiring bar is just basically hiring for leaders in a lot of different ways, to this, I don't know, forge for founders where they're working with a company solving a real problem, building a real product that makes money, and then those are the people that become the PMs at Palantir and then they go on to leave and that's why 30% of them end up starting companies, I'm surprised it's not higher, or become first PMs at other companies or heads of product.",
+   "zh": "我认为我们已经解答了为什么Palantir的产品经理如此成功这个问题。首先，招聘标准基本上是从多个角度筛选领导者，比如那些与创始人共同解决实际问题，打造能盈利的产品的人，这些人才最终成为Palantir的产品经理，之后有的离职创业，有的成为其他公司的首席产品官。",
+   "ts": "01:07:58"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, absolutely, it's crazy. I was part of a pretty small team within Palantir, I think it was 20 to 25 people when I joined, and I think at least six of them now are either unicorn or just pre-unicorn founders from that group of 25 people, which is actually a crazy ratio. And then a bunch more have become founders recently at an earlier stage, so yeah, there's all these little pockets of excellence and it's been really interesting to see. I think the other thing that's driving that a little bit is when you leave, it's just such an interesting company to work at that I think the retention numbers were actually very high for that company. People would often stay a lot longer than maybe the average Valley tenure. And so when you left, it was really this decision of just something very specific is pulling you and you want to kind of play the next level of the game, and so it was very unusual for someone to leave and then join maybe a more traditional tech company. It's sort of like you're either going to go become a founder or why would you leave when there's so many interesting different things to work on? And I know that sounds a little culty, but that's what everyone thinks.",
+   "zh": "是啊，这确实太疯狂了。我在Palantir的一个小团队里工作，刚加入时团队规模约20到25人，现在这25个人中至少有6位要么是独角兽公司创始人，要么是即将成为独角兽的创始人——这个比例实在太高了。还有更多人最近在更早期阶段就成为了创业者。所以确实存在很多卓越的小群体，看到这些真是很有趣。我觉得另一个推动因素是，当你离开Palantir时，这家公司实在太有吸引力了，以至于它的员工留存率非常高——人们往往会比硅谷平均任职时间长得多。所以当你离开时，往往是出于某种特定原因，比如想挑战更高的职业境界。很少有人离开Palantir后会去传统科技公司工作。要么就是去创业，要么就是留在Palantir。听起来有点像邪教，但大家都这么想。",
+   "ts": "01:08:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I could totally see that. A lot of people that left Airbnb have never found something more meaningful, it's just hard, especially if you're early. There's a stat that I didn't share that I think is really interesting, and when you look at YC founders and where they've come from, I think you maybe shared in your post that there's more YC ex-Palantir founders than there are ex-Google founders in spite of Google being something like 50 times bigger sample size.",
+   "zh": "我完全能理解这种现象。很多离开Airbnb的人都没能找到更有意义的事业，实在太难了，尤其是在早期阶段。有一个很有趣的数据，我之前没分享过——当你观察YC的创始人来自哪里时，你可能在帖子里提到过，YC的Palantir前创始人比Google前创始人还多，而Google的规模可是Palantir的50倍左右。",
+   "ts": "01:09:35"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, yeah.",
+   "zh": "是啊，是啊。",
+   "ts": "01:10:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's talk about the moral question of Palantir. A lot of people probably seeing the title of this episode, hearing this, will not be excited about Palantir being highlighted and promoted, a lot of people kind of disagree with what Palantir's doing. Builds products that kill people in some ways, they work with governments they don't agree with. I know you wrote a really insightful way of how you approach this question when you decided to work at Palantir and how you see people tackle with this, can you just talk about the framework that you landed on and how you thought about this yourself?",
+   "zh": "咱们来聊聊Palantir的道德问题。很多人看到这一集的标题，听到这个话题，可能对Palantir被重点宣传感到不适，很多人不认同Palantir的做法。比如Palantir的产品在某种程度上会危及生命，他们还与不被认可的政府合作。我知道你写过一篇很有见地的文章，讲述自己决定加入Palantir时如何看待这些问题，以及人们如何应对这些挑战。你能谈谈你最终形成的框架，以及你个人的思考吗？",
+   "ts": "01:10:02"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, it's a really interesting topic, it's definitely very nuanced. I think what I was trying to say in that post was a couple of things. One was that there was a lot of upside there. So I worked on the US Covid response, I have friends who worked on Operation Warp Speed, and these are all things that I think saved a lot of lives, and I was pretty focused while I was working at NIH on cancer research. And so to me, these were just obviously good things and you couldn't do them anywhere else, and so that was alone a reason to stay. The question I had in that post was, well, okay, there are definitely going to be other pieces of this that people object to. So during the 2016 to 2020 era, it became a pretty common thing to go into work in New York and you'd have people protesting outside your office or doing all kinds of things. And so there was this question of, well, is this okay? And I think the point I was trying to make was it's rare that disengagement is the correct answer, and I think it's more recognized now, but especially then it went a bit too far. (01:11:41): So the famous example here is Google kind of disengaging with a Pentagon AI project just because some people felt that working with the Pentagon was itself morally bad. I think that's a way to sort of the left of what the median American would say, I think the median American would say it's fine to work on defense stuff within reason and assuming you're doing largely good things, and so there was just this kind of almost arbitrage there at some point of just hang on, it's not like working on defense is inherently evil, it's actually a pretty interesting thing. And then there's this question of, well, would you rather be in the room and making this better or not? And so I'm struggling with how much I can share here, but as a simple example, if you're doing even a workflow, which I think many people would not be super comfortable with, let's say you're targeting somebody for some kind of strike. If you compare the way it's done now to maybe the way it was done in 2010, it's going to be a lot more targeted, it's going to be a lot more accurate, and so you've actually improved that process and reduced the chance of error. Maybe you should feel good about that, right? Now, that is a bullet many people are not willing to bite. (01:12:52): I didn't work on the defense side of the company myself, but I think you have to be okay with these kinds of grade zones and actually actively thinking about what you are doing. And that doesn't mean that it's always the right thing to do to work in a defense company. Maybe we go into a very dark future and we start being the bad guys in some ways, and then it's probably not a great idea to work at a defense company. So it's a shifting landscape but I kind of felt pretty strongly that a lot of people in tech just didn't want to think about this at all. (01:13:29): So you have engineers now who are working on optimizing short form videos for higher engagement, and you sort of want to say to them like, \"Hey, are you thinking about what this is doing to the brains of young children?\" Or \"Have you seen an 11-year-old kind of scrolling something for five hours and do you think this is a good thing?\" And I think people don't want to think about this stuff too much. I'm not saying I know the answer, but there was almost this refusal to look at what tech was doing from a political lens for a very long time. It was just like, \"Hey, let us play with our toys, let us sit in our little park, and don't bother us, and we're just going to build cool stuff and launch it.\" (01:14:08): And 2025, we're in a very, very different state of the world, tech is involved in politics now, and politics basically came to tech. There's this famous image of Mark Zuckerberg, he's sitting in Congress and he kind of looks very pale, and he's like, \"Why have they dragged me in here again?\" But I think tech went through this journey of, oh, we're suddenly becoming important now, oh, we're really, really important now, oh, we better stop playing this game of politics. And so I think what I'm saying now is a lot more consensus than it was 10 years ago, but at the time, the feeling was just like, \"Look what we are doing is political, so you better engage with that.\"",
+   "zh": "是啊，这确实是个很有趣的话题，而且涉及诸多复杂层面。我在那篇帖子里想表达的观点有几个方面。首先，美国在新冠疫情期间的应对措施确实有很多积极成果。比如，我参与过美国新冠疫情应对工作，还有朋友参与过“快速行动计划”，所有这些努力都拯救了无数生命。我在国家卫生研究院（NIH）专注癌症研究期间，也觉得自己的工作意义重大——这些显然都是积极正面的，而且这些工作在其他地方是无法开展的，这本身就是我留下的理由。但帖子中我也提到了一个问题：人们对某些事务的反对意见确实存在。在2016至2020年间，去纽约上班经常会遇到人们在办公室外抗议，这让我不禁思考——这种行为是否合理？我认为答案是，逃避责任绝非明智之举。虽然如今人们对此的认识有所提升，但当时这种极端做法实在过火了。（01:11:41）举个著名的例子：谷歌因为部分员工认为与五角大楼合作本质上不道德而退出五角大楼的人工智能项目。这类观点其实偏离了大多数美国人的立场。大多数美国人认为，在合理范围内参与国防项目并无不可，只要所做之事本质上是善意的。所以在某种程度上，人们会权衡利弊——留下来工作是否比逃避现实更有意义？我难以在此详细阐述，但举个简单的例子：就连许多人可能不愿触及的流程，比如针对特定目标实施打击行动。对比2010年与现在的执行方式，后者显然更具精准性和针对性，极大降低了误伤风险。这难道不值得欣慰吗？但这类观点在许多人眼中依然难以接受。\n\n（01:12:52）我本人并未在国防部门工作，但我认为必须正视这些道德灰色地带，主动审视自己的行为。这并不意味着在国防公司工作永远正确。若未来世界陷入黑暗局面，我们或许会成为反派角色，那时选择国防公司或许就不明智了。不过大环境确实在变化，我深切感受到许多科技从业者根本不愿深思这些问题。（01:13:29）比如，现在有工程师致力于优化短视频以提高用户参与度，你想对他们说：「嘿，你们有没有考虑过这对儿童大脑的影响？」或者「你见过11岁孩子连续五小时刷短视频吗？你觉得这正常吗？」但人们往往不愿深究这些问题。当然我也不自诩能给出完美答案，但长期以来，人们始终拒绝从政治视角审视科技行业的运作，仿佛只要埋头搞技术就万事大吉。\n并将其推向市场。  \n（01:14:08）：到2025年，世界局势将截然不同。科技如今已深度介入政治领域，而政治力量也已渗透至科技行业。马克·扎克伯格在国会听证会上的画面令人难忘——他面色苍白，似乎在想：“他们怎么又把我请来了？” 但我认为科技行业曾经历过这样一个阶段：起初我们突然意识到自己变得举足轻重，接着又认为自己至关重要，最后不得不停止玩弄政治游戏。如今我所说的观点，比十年前已更具共识性。但在当时，人们的普遍态度是：“我们所做的一切都具有政治属性，所以你们最好参与其中。”",
+   "ts": "01:10:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think when this became really real for a lot of people is with the Ukraine War, the government's running out of certain vehicles and ammunition, we're just not able to produce it, and then we're like, \"Oh, thank God for a company like Anduril and all these other tech companies that are actually ahead and keeping us ahead.\" I think the only reason the US is ahead of that...",
+   "zh": "我认为对很多人来说，乌克兰战争才是让这一切真正成为现实的转折点。政府的某些车辆和弹药库存告急，我们根本无力生产，随后人们感慨道：\"感谢上帝，有安德里尔这样的公司，还有其他诸多科技企业，他们始终走在前沿，助力我们保持领先。\" 我觉得美国之所以能在太空竞赛中领先中国，唯一的原因就是SpaceX这样的公司长期深耕该领域。因此，许多人逐渐意识到，或许我们确实需要这些技术。",
+   "ts": "01:14:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And keeping us ahead. I think the only reason the US is ahead of China and the space race is because SpaceX just is one company that just has been doing this for a long time. So I think a lot of people have kind of realized, okay, maybe we need these things.",
+   "zh": "并保持领先地位。我认为美国能在太空竞赛中领先中国，唯一的原因就是SpaceX这样的公司长期深耕该领域。因此，许多人逐渐意识到，或许我们确实需要这些技术。",
+   "ts": "01:15:00"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Right. And I would make this argument as well, it's like people are like, well, how can you feel good about working in defense? And it's like, well, you're not going to feel great if China invades Taiwan, actually, you're not going to. I think you are probably also not going to like that outcome. So we do just live in this world where you do need to build up deterrents to these things and they better be good. So to me, it didn't feel that difficult of a question. I think when you zoom into particular things, they can be very difficult questions and there have been a bunch of those in the last couple of years. But yeah, again, disengagement isn't the answer.",
+   "zh": "好的。我也想谈谈这个问题。有些人会问：在国防领域工作怎么能让人感到自豪呢？对此我要说，如果中国入侵台湾，你肯定不会感到开心。你大概也不会乐见这种结果。所以我们确实生活在这样一个世界里——你必须建立对这些威胁的威慑力量，而且这些防御体系必须足够强大。对我来说，这个问题并不难理解。当然，当你深入探讨具体问题时，可能会遇到非常棘手的难题，过去几年里就有很多这样的例子。不过，退出国际事务绝不是解决之道。",
+   "ts": "01:15:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. And again, it's not for everyone. I think that's an important kind of theme through this conversation is some companies ... like, to build ... sometimes to build a generational, really successful company, you need to turn some people off because that's what brings in the best talent oftentimes. (01:16:03): Okay. Just a few more questions. Kind of like stepping back a little bit. You're building a company again. What are a few core pieces of advice that you're bringing to your new startup that will inform how you build this company, from your experience at Palantir? We talked about a lot of stuff. Is there anything, I don't know if there are three things that you think are like, \"I'm definitely going to do these things this way because it worked really well at Palantir.\"",
+   "zh": "是的。再说一次，这并不适合所有人。我认为这次对话中一个重要的主题是，有些公司……比如，要建立……有时候要打造一家经久不衰、真正成功的公司，你就得得罪一些人——因为这往往能吸引最优秀的人才。（01:16:03）：好的，再问几个问题。先退后一步。你现在又在创业了。从你在Palantir的经验中，有哪些核心建议会影响你新公司的建设？我们讨论了很多内容。是否有哪三点是你认为“在Palantir行之有效，所以我一定要在新公司这样做”的？",
+   "ts": "01:15:46"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "One thing is probably just really fast iteration cycles. So placing a lot of bets and then being really rigorous about just going through that cycle very soon. I have this [inaudible 01:16:40]principles, and one of the things on there is basically saying EOP successes goes up the more bets you make, and it's sort of a function of how many bets you make and the probability of success of those individual bets, right? And so one easy way to almost guarantee that you'll hit something is just to make a lot of bets and then just kind of cycle through them very quickly. Now, obviously this is difficult, often this question of, well, is this bet actually failing or are we quitting too soon, kind of thing. But that's kind of one principle I take, is just test this thing very early. You know, like the classic \"why feed, why see\" thing is just when you take something to a customer, ask them to pay you a lot of money and [inaudible 01:17:22] then find a new problem. Don't wait three weeks, which is what every founding team typically does because you don't have that kind of time. (01:17:29): I do think the importance of just having a really tight, distinctive internal culture and building a strong feeling of trust within a team is really important. And kind of like you mentioned with Airbnb, and people definitely felt this at Palantir, there was this feeling of like, well, you worked here, you must be good. I trust you, and all of that. And I think it's so important to create that and you kind of know that feeling. That's what ... like, people ask me, should I go work at place X or should I just go be a founder straightaway? I don't know the answer for everyone, but I will say one of the benefits of working at a place like that is you just have all these internal benchmarks now for, okay, this is what this should feel like, and if it doesn't feel like that, we're off. And I can't imagine not having those benchmarks and just kind of having to figure it all out. (01:18:21): So yeah, I think that thing, too, is just distinctive, internal, strong team culture. And then I think for me, think three is just working with a really messy part of the real world. So I kind of joked when I left, like, I am excited to just do pure software. I'm excited to, I don't know, I want to build an ID or something and just not have a support email even and all of that. But it turned out, look, my comparative advantage in a lot of ways was the networks I'd built and the experience I'd had in engaging with the messy parts of the world. And they do need technology a lot, right? (01:19:00): There's this horrifying thought I have sometimes of just like, maybe we'll get ATI in the next two years and the healthcare sector will still be broken and it will still be impossible to afford rent in New York City and build houses and all these things. And that may well become true. And so I think it's important to engage with those parts of the world too, even though they're really, really challenging. And I think the really nice thing about LLMs is that actually, there's so many workflows now that are accessible to you as a tech founder and people are somehow more open to working with tech companies than they ever were before. Selling into the sectors of the economy in 2015, incredibly hard. I think now post the ChatGPT moment, people are willing to give chances to small startups that they weren't willing to do previously. As you mentioned earlier, the cost of doing things like forward-deployed engineering has fallen by maybe five to 10 x now at least. And so there's a lot of new possibilities and I'm excited to engage with the best.",
+   "zh": "或许最重要的一点是快速的迭代周期。因此，我们会频繁尝试新想法，然后迅速完成整个迭代周期。我有一些[听不清01:16:40]原则，其中一条基本观点是，EOP（工程到产品）的成功概率会随着尝试次数的增加而提升，这取决于尝试次数和每个尝试的成功概率。那么，要想几乎确定能有所收获，最简单的方法就是频繁尝试并快速迭代。当然，问题往往在于判断某个尝试是否真的失败了，还是我们过早放弃了。但我秉持的一个原则是，尽早测试新想法。就像经典的“为什么喂食，为什么验证”原则，当你把产品推向客户、收取高额费用后，却发现新的问题。这时候不要等三周——毕竟大多数创业团队都等不了那么久。（01:17:29）我认为打造紧密独特的内部文化、在团队中建立牢固的信任感至关重要。正如你提到的Airbnb案例，Palantir的员工也深有体会——在这里工作的人都会被默认是优秀的，彼此信任。这种文化的塑造非常重要，你能感受到那种氛围。当有人问我应该去X公司工作还是直接创业时，我无法给出统一答案，但我要说，在这种公司工作的好处之一就是，你能内置一套标准来衡量是否达标，如果达不到标准，就果断调整。我无法想象没有这些标准只能靠自己摸索。（01:18:21）还有一点是与真实世界复杂场景的深度对接。比如我离开Palantir时曾开玩笑说，很期待做纯软件开发，比如开发个ID系统之类的，甚至不需要客服邮箱。但后来发现，我的比较优势其实在于我建立的人脉网络和与现实世界复杂场景打交道的经验。这些领域对技术的需求同样巨大啊。（01:19:00）有时我会产生可怕的担忧：也许未来两年内我们就能掌握AIGC技术，但医疗保健系统依然崩坏，纽约市的房租依然高得离谱，房屋建设依然停滞。这种情况很可能成真。因此，尽管与现实世界的交融充满挑战，但我们仍需积极参与其中。LLM技术的出现确实为科技创业者带来了新机遇，人们对与科技公司的合作也比以往开放得多。2015年想把技术卖给传统行业难如登天，现在ChatGPT引发的热潮让人们更愿意给小型初创公司机会。正如你之前提到的，前端工程的成本现在至少降低了5到10倍。总之，机遇比比皆是。\n种种可能性让我倍感兴奋，我渴望与最优秀的人才携手共进。",
+   "ts": "01:16:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, that is some alpha right there that you're finding, that some of these very large organizations are more open to working with startups, because classically, investors don't want to invest in companies that are going after healthcare companies and governments and things like that. So it is really interesting actually to hear. (01:20:17): I'm going to mirror back the tips you just shared, and there's actually a secondary tip that I think is the more interesting piece. So the first thing you're taking away is iterate quickly, but I love your tip of ask for lots of money quickly, early, to see if it's an actual idea that people will pay lots of money for. And if not, move on. I love that. (01:20:35): The other is build a very distinct culture, but the piece you share there that I love even more is this idea of knowing what a high bar looks like, knowing what awesome A plus people look like, and you need to work at a company like Palantir to actually see that. So the advice there I feel is just work at a company that is amazing, first, with the best talent, to understand what that should look like, plus you build a network of those folks. So I think that's really interesting. (01:21:03): And then the other pieces of advice you're pulling away is work on really hard, messy problems because that's where the biggest opportunities are, and it's sounding like this is the easiest time to actually do that. Amazing. (01:21:13): Okay. I'm going to take us to a recurring theme on this podcast called AI Corner. And what we do in AI Corner is we share some way that .. and this is you sharing ... some way that you've found AI to be useful in your day- to-day, either in life or in work. Is there any way you found some tool ... some AI tool useful that you can share?",
+   "zh": "哇，你发现的这个机会真是了不起啊！现在很多大型机构都更愿意与初创企业合作，因为传统上，投资者不愿投资那些针对医疗保健公司、政府等领域的公司。所以能听到你分享这些真的很令人兴奋。（01:20:17）：我要回顾一下你刚才提到的建议，还有一个更让我感兴趣的次要建议。首先，你提到的要快速迭代，但我特别喜欢你提到的尽早、大量筹集资金的建议，这样就能知道是否有市场愿意为这个创意买单。如果不行，就及时调整方向。我觉得这个方法很棒。（01:20:35）：另一个建议是建立独特的企业文化，但我更欣赏你提到的要清楚高标准的样子，知道A+级人才该是什么样子。这只有在像Palantir这样的公司才能亲眼见识到。所以我的建议是，先在一家顶尖公司工作，接触最优秀的人才，了解行业标杆的样子，同时建立人脉网络。我觉得这真的很有意义。（01:21:03）：还有一个建议是解决那些复杂、混乱的问题，因为这些地方往往蕴藏着最大的机遇。听起来现在正是尝试的好时机。太棒了。（01:21:13）：好的，我要带大家进入本期播客的常规环节——“AI角落”。在“AI角落”，我们会分享AI技术在日常生活或工作中发挥作用的案例。你们有没有发现什么AI工具特别实用的，可以和大家分享一下？",
+   "ts": "01:20:01"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Oh my gosh, there are so many. I'll give you a few examples. So I use Wispr Flow quite a bit. So this is the talk to your keyboard and it will transcribe for you app. Very good. It's just great when you are iterating very quickly with an LLM and sometimes you have to do these paragraph-long prompts and it's just easier to speak into them. So Wispr Flow, I like.",
+   "zh": "天哪，太多了。我举几个例子吧。比如我经常用Wispr Flow。这是一款语音转文字的应用。非常好用。当你和大语言模型快速迭代时，经常需要写长段落的提示语，用语音输入会更方便。所以我很喜欢Wispr Flow。",
+   "ts": "01:21:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to double down on that, you press a button and you start talking-",
+   "zh": "再详细说一下，按个按钮就能开始说话——",
+   "ts": "01:22:01"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:22:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it's writing out what you're saying. Cool. And there have been these products for a long time, Dragon Dictate and all these guys. Is the difference now these are just very, very good now at actually transcribing what you're saying?",
+   "zh": "它会把你说的话转写出来。太酷了。类似的产品已经存在很久了，比如Dragon Dictate之类的。现在的区别在于这些应用在转写语音方面做得非常好了？",
+   "ts": "01:22:05"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I think that's right. Yeah, they use a really good model and so it rarely makes mistakes even when I think it's quite challenging. And then, yeah, the UX I think they just nailed. So that's really good one. (01:22:27): I love Claude Code for developing. Even though I have my complaints about it, there's something just very addictive about just telling it what to do. And it's basically something that you run within the terminal of your computer, and so you just type Claude, it opens up the Claude interface. It's very cute, it's very beautifully designed, and you just tell it what to do. And it actually operates on the file system directly. So if you're like, \"Hey, create a bunch of these files,\" that'll just do it and you don't need to go and muck around inside Finder yourself. And then it'll do these really complicated pull requests and it'll basically execute them quite well. So to me, this is a very exciting kind of preview of AI agents.",
+   "zh": "我觉得没错。是啊，他们用了一个非常好的模型，所以即使我觉得这很具挑战性，它也很少出错。然后，我觉得他们的用户体验设计得非常棒。这真是很棒的产品。（01:22:27）：我喜欢Claude Code用于开发。尽管我对它也有不满的地方，但只要告诉它该怎么做，就会有一种让人上瘾的感觉。基本上，你只需在电脑终端中运行Claude，输入“Claude”就能打开Claude界面。它设计得非常可爱、美观，你只需告诉它该做什么。它实际上直接操作文件系统。比如，如果你说：“嘿，创建一堆这些文件”，它就会直接处理，不需要你自己在Finder里费劲操作。它还能处理非常复杂的拉取请求，并且能很好地执行这些操作。所以对我来说，这是一个非常令人兴奋的AI代理预览。",
+   "ts": "01:22:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's what I was going to ask. So this is essentially an AI agent engineer. I didn't know that's what Claude Code did. Very cool.",
+   "zh": "这正是我想问的。所以这本质上是一个AI代理工程师。我之前都不知道Claude Code有这个功能。太酷了。",
+   "ts": "01:23:03"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah. It's sort of a guided agent, but yeah, it is really sweet. And then yeah, I'm just enjoying ... you know, every week there's a new, wonderful new thing to play with. Last seven days, I've been testing Gemini Pro 2.5. Excellent model. I don't love Google's UX sometimes, but I was playing with that. And I use LLMs every day for all kinds of things. The other day I was doing taxes and I needed to classify a bunch of transactions based on some metadata, and so I just wrote a script up really quickly and it did that. So.",
+   "zh": "是啊。这有点像一个引导式代理，不过确实很棒。然后我现在就很享受……你知道的，每周都有新的好玩的东西可以尝试。过去七天，我一直在测试Gemini Pro 2.5。模型很棒。我有时不太喜欢谷歌的用户体验，但我一直在试用它。我每天都在用LLMs做各种事情。前几天我在报税，需要根据一些元数据对一堆交易进行分类，所以我很快写了个脚本，然后它就完成了。所以。",
+   "ts": "01:23:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love just the smile on your face as you're describing all these AI tools. I think a lot of people are just like, holy shit, I'm just overwhelmed with all the things I need to be paying attention to. All these things I'm hearing, all these tools I got to try. And I love just this vibe of just like, this is incredible and so fun. We need more of that. (01:24:01): Okay. I'm going to take us to another recurring segment on the podcast. You're going to get a double whammy. Contrarian Corner. So here's the question. What's something that you believe that most other people don't?",
+   "zh": "我喜欢你描述这些AI工具时脸上的笑容。我觉得很多人都觉得，天哪，所有需要关注的东西都太多了。听到的所有这些东西，所有需要尝试的工具。我就喜欢这种感觉，觉得这太不可思议、太有趣了。我们需要更多这样的东西。（01:24:01）：好的，我要把节目带入另一个固定环节了。你们将迎来双重惊喜。异见角。那么问题来了。有什么是你认为大多数人都不认同的观点？",
+   "ts": "01:23:43"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I think going to college is great. I think this is a somewhat contrarian view within tech, maybe not in the broader economy, but I often see people saying just like, oh, if you can just drop out when you're 18 and just start working, why would you go to college? And I think this is completely wrong, but maybe it's good advice for 5% of the population who probably would've been to your fellows anyway. But college is one of the few times when you can just make really, really deep friendships. You are in typically a nice campus. If you're in North America, you get to spend all of your time just thinking and writing papers and reading books and hanging out with your friends. (01:24:49): And it's actually very precious and it's very hard to find that kind of time after you turn 21 because you got to pay your rent, you've got to work, you've got to do all this stuff. Let's say you make a bunch of money, you take a career break, it's still ... all your friends are working and you always feel like there's a ticking time or on top of your head or something. (01:25:09): So just taking those three or four years at the very beginning and going really deep on lots of different intellectual topics and being able to try different things and discover more about yourself. I'm a big college fan. I can't comment on the ROI or whatever. I personally think the ROI is great, even though the fees are kind of high in the U.S., but that's probably my kind of contrarian within tech view is don't drop out of college unless you have a really good reason.",
+   "zh": "我认为上大学很棒。我觉得这在科技界算是个非主流观点，也许在更广泛的经济领域不算，但我经常看到人们说类似\"如果你18岁就能退学去工作，干嘛还要上大学？\"之类的话。我觉得这种观点完全错误，不过对5%的人来说或许是个好建议——反正他们可能本来就会去读大学。但大学是为数不多的能让你结交真正深厚友谊的时期。你身处优美的校园环境中。若是在北美，你可以把所有时间都花在思考、写论文、阅读书籍以及和朋友们相聚上。（01:24:49）这种时光其实非常珍贵，而过了21岁就很难再找到这样的时光了——因为你得付房租、工作、处理各种事务。即便你赚了大钱、休假，也总会觉得时间紧迫，压力重重。（01:25:09）所以在刚开始的三四年里，能深入探讨各种知识主题、尝试不同事物、更好地认识自己，这真是太棒了。我非常推崇大学教育。我暂且不谈投资回报率之类的，我个人认为即便美国学费高昂，投资回报率也是很可观的。但这或许就是我这个科技界的非主流观点吧——除非有充分理由，否则别退学。",
+   "ts": "01:24:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's so funny that that is contrarian and it does sound contrarian. I had a great time in college here. Here. Okay. Is there anything else, Nabeel, that you wanted to share or leave listeners with before we get to our very exciting lightning round?",
+   "zh": "真有趣，这观点确实算非主流。我在大学里过得很开心。嗯。好的。Nabeel，在我们进入激动人心的闪电问答环节之前，你还有什么想和听众分享或留给他们的吗？",
+   "ts": "01:25:35"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "No, I think it's a really exciting time in the world. I think AI can be exhausting, but it does really just open up the possibility of building a better world in all these ways. And so I think just reassess what you're doing every couple of months and make sure that it's aligned with where I think AI is going and make sure that you are working on something that you feel has very high potential if it succeeds. And I think that's more important than ever now just because the amount of leverage we have with technology is at the highest point in history.",
+   "zh": "没有了。我觉得当下世界形势令人振奋。人工智能确实让人筋疲力尽，但它确实为我们开辟了构建更美好世界的可能性。所以我认为每隔几个月就重新评估自己的工作方向很重要，确保它与我对人工智能发展方向的看法相契合，确保自己正在做的事情一旦成功就具有极高的潜力。在当下，这比以往任何时候都更加重要，因为我们借助科技所能发挥的影响力达到了历史顶峰。",
+   "ts": "01:25:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me double click on that real quick. So for people that want to do what you're describing, what helps you understand where AI is heading and just kind of align with it, are there places of information and news you find useful? Is it just play with it kind of thing? What would you recommend?",
+   "zh": "让我再快速点一下。如果有人想做你描述的那些事，有助于他们理解人工智能发展方向并与之保持一致的信息和新闻来源有哪些？是说多玩玩技术吗？你有什么推荐？",
+   "ts": "01:26:22"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "This is the big question. I use X a lot to keep on top of AI, so I would just recommend finding a good Twitter list and maybe following people off of that. There's some good newsletters. I really like Latent Space, I know his X handle, it's Swyx, S-W-Y-X. I can't remember his actual name, but that one is very good and it's pretty technical. I would recommend trying to stick to the more technical newsletters if possible. I think there's a lot of philosophy about AI or AI policy type stuff, and I think that's good if that's your area, but it's an area where it's very easy to have a lot of takes on it. You're not necessarily learning a lot by reading those. (01:27:16): But I think it's just important to know what's going on and make sure you are revisiting your own workflows as often as possible. And just making sure that the people who went here are going to be the kind of hybrid cyborgs who fuse with the AIs. This actually played out in chess, if I can take a slight detour, is the chess players who succeeded the most in the mid 2010s especially were the ones who were really early adopters of neural network based chess engines. So when DeepMind did that thing, there was very quickly an open source version of it called Leela, and you find basically the very top players like Magnus Carlson, Fabiano, they were the ones who kind of mind melded the most with Leela and learned how it played and then kind of started copying its moves. (01:28:06): And so I think just becoming a cyborg to the extent that you can. And then I think there's this barbell thing of, it's also important to just leave everything at go touch grass just for your own mental sanity.",
+   "zh": "这是个关键问题。我经常用X平台来追踪AI领域动态，所以我建议你先找一个优质的Twitter账号列表，或许从其中的人物入手追踪。市面上有不少优质的订阅资讯，我个人很推荐《Latent Space》（推特账号：Swyx，S-W-Y-X）。我记不清他的真名了，但这个账号内容非常专业，技术性极强。如果可能的话，我建议大家尽量关注技术性较强的资讯推送。市面上有很多关于AI哲学或政策的讨论内容，如果这正是你的研究方向，那固然不错，但这类内容往往众说纷纭，读者很难从中获得实质性收获。  \n\n（01:27:16）不过，我认为最重要的是了解行业动态，并尽可能频繁地审视自己的工作流程。正如我之前提到的，确保自己能成为与AI深度融合的混合体。这在国际象棋领域已有先例——2010年代中期，那些在国际象棋领域取得显著成就的顶尖棋手，多是率先采用神经网络引擎的先行者。例如，当DeepMind开发出AlphaGo时，开源版本Leela很快应运而生。卡尔森、法比亚诺等顶级棋手正是与Leela深度融合、理解其策略并模仿其招式的先锋。  \n\n（01:28:06）所以，我认为关键在于尽可能提升自己的综合能力。同时，保持适当的休息也很重要，这不仅有助于心理健康，更能让思路更清晰。",
+   "ts": "01:26:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Excellent advice. And with that, Nabeel, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "非常棒的建议。好的，纳比尔，我们现在要进入激动人心的闪电问答环节了。你准备好了吗？",
+   "ts": "01:28:18"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:28:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Here we go. What are two or three books that you find yourself recommending most to other people?",
+   "zh": "开始吧。你最常向他人推荐的两三本书是什么？",
+   "ts": "01:28:25"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "The first one that comes to mind is Impro by Keith Johnstone. This is actually ... I wrote about it in that essay. It's one of the books that [inaudible 01:28:36] used to send to people. I just think it's a really interesting book. So nominally speaking, it's about improvisational theater, which I believe this guy was a pioneer of. He was a British guy, Keith Johnstone, active between the '60s and the 80s I think. And Impro is just this really interesting book about creativity and how social behavior works and basically just what he taught his improv students. It's a very weird book. It's full of these unbelievably strange ideas. There's a lot of very tactical things he tells you to do in the first chapter, for example, just to break out of your own mental frameworks, really just wild stuff. (01:29:16): He'll tell you to walk backwards while counting down from a hundred and think about some problem that you're struggling with and there's all these kind of odd things. But the number of ideas per page I've found on that book is extremely high. The concepts about how social interaction works and how things like status and so on play into your social behavior are super important. And they made every kind of fully deployed engineer read that for the simple reason that I think it just helps you kind of read people better and interact with them better and become more conscious of how you are coming across and just modulate that.",
+   "zh": "首先想到的是基思·约翰斯通的《即兴》。这本书实际上……我在那篇文章里写过。这本书是我过去常推荐给别人的。我觉得它非常有趣。严格来说，这本书讲的是即兴戏剧，我相信这位先驱者是英国人，名字叫基思·约翰斯通，活跃于60到80年代。《即兴》这本书探讨了创造力和社会行为机制，基本上就是他教给学生的东西。这本书非常奇特，里面有很多令人难以置信的奇思妙想。第一章就有很多实用技巧，比如打破思维框架，非常疯狂的建议。（01:29:16）他会让你倒着走路，从100倒数，同时思考自己正在纠结的问题，还有各种奇怪的练习。但每页书中提出的观点密度极高，那些关于社会互动机制、地位等因素如何影响行为的概念非常重要。每个工程师都应该读一读这本书，原因很简单，它能帮助你更好地理解他人，更有效地与人沟通，并更清楚自己的言行给别人的印象，从而进行调整。",
+   "ts": "01:28:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is the title again?",
+   "zh": "标题再说一遍是什么？",
+   "ts": "01:29:51"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Impro.",
+   "zh": "改进一下。",
+   "ts": "01:29:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Impro. Okay, cool. We'll link into it in the show notes.",
+   "zh": "再改进一下。好的，太棒了。我们会在节目笔记里提到这个的。",
+   "ts": "01:29:53"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, so Impro is number one. I think just to go a little more highbrow, maybe Shakespeare's history plays, there's a set of them called the Henriad, so like Henry IV, Henry V, Henry VI. I find most people don't read these, so they'll read Hamlet or Macbeth or whatever, but the Henry one is absolutely incredible. You don't have to be interested in British monarchy or British history in order to enjoy them. They're actually some of the most interesting and insightful books I've read about power and how power works and politics and what the sacrifices that you might have to make if you want to be a successful king in that case. But it transfers over. (01:30:35): I think it is worth thinking really hard about, I think especially in a world where everything is kind of organized around these prominent figures and personalities now. When you think about the current administration, you think Trump, Elon, or when you think about AI, you think of Sam Dario, right? And so I think it's important to understand, how do you think about these personalities and yeah, the kind of game that they're playing. And Henry is actually ... the Henriad is an incredible kind of set of books around that. (01:31:05): They're also easy to read, which sounds hilarious when I say it, but you can read a Shakespeare play in a day. They're sort of ... I don't know, they're like 50 pages long. It's not that bad. You have to get used to the language. Yes. But I would recommend that for sure. I guess you asked for two to three. I love High Output Management by Andy Grove. I just think that's a great business book, and people tend to read summaries of it on the internet more than they actually read the book. But the actual book has a lot of really interesting stories and explanations about ... I think the most powerful thing about that book is actually how Andy Grove thinks, and less any of the specific tactics there. And I think you don't get that unless you read how he came up with all these things.",
+   "zh": "是的，Impro 排第一。我觉得再说得高深一点，比如莎士比亚的历史剧系列，叫亨利亚德（Henriad），包括《亨利四世》《亨利五世》《亨利六世》。我发现大多数人不读这些剧本，他们会读《哈姆雷特》《麦克白》之类的，但亨利亚德系列绝对令人惊叹。你不必对英国王室或英国历史感兴趣，也能从中获得乐趣。这些书实际上是我读过的最有趣、最具洞察力的作品之一，涉及权力运作、政治博弈，以及为了成为成功的君王可能必须做出的牺牲。但其中的道理是共通的。（01:30:35）我认为这值得深思，尤其是在当今世界，一切似乎都围绕着这些杰出人物和名人展开。当你想到现政府时，想到特朗普、埃隆·马斯克；谈到人工智能时，想到山姆·达里奥，对吧？所以我认为理解这些人物及其玩的游戏很重要。亨利亚德系列确实……是一套令人惊叹的书籍。（01:31:05）它们也很容易阅读，说起来有点好笑，但你一天就能读完一部莎士比亚戏剧。它们大概……50页左右，不算太难。你得适应那种语言。是的。但我肯定会推荐这两本。安迪·格鲁夫的《高效能人士的七个习惯》。我觉得这是一本很棒的商业书籍，人们更多是在网上看总结而不是真正读这本书。但原著里有很多有趣的故事和解释……我认为这本书最有价值的地方在于安迪·格鲁夫的思维方式，而不是书中提到的具体策略。除非你了解他是如何想出所有这些策略的，否则你无法领会其中的精髓。",
+   "ts": "01:29:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Your first two books were extremely out there versus what other people have recommended, and the third book was the most recommended book on this podcast. So I love that spectrum that we just went on. Perfect. Okay, next question. Do you have a favorite recent movie or TV show that you've just really enjoyed?",
+   "zh": "你推荐的前两本书和其他人推荐的书差别很大，而第三本书是这个播客上被推荐最多的书。所以我很喜欢我们刚刚讨论的这种多样性。太棒了。好的，下一个问题。你最近有没有特别喜欢的电影或电视剧？",
+   "ts": "01:31:48"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "The last movie I really loved was a Decision to Leave. It's a Korean movie. It's by the Director of Old Boy, which maybe some people have heard of. It's a great movie. I think it was released a couple years ago and the basic premise is, there's a detective who is investigating a woman who's accused of killing her husband, and he gradually starts falling for her, which starts to affect his judgment in all these ways. Just a really fascinating kind of psychological thriller with a sort of romantic element to it. Visually, very beautiful. Yeah, I think a lot of the most interesting movies nowadays come from abroad actually. So East Asia, South Asia, places like that. TV, I don't watch so much yet. It's been a while.",
+   "zh": "我最近特别喜欢的一部电影是《离家》。是韩国电影，由《老男孩》的导演执导，可能有些人听说过。这是一部很棒的电影。它是几年前上映的，基本剧情是，侦探调查一名被指控杀害丈夫的女性，但逐渐对她产生感情，进而影响了他的判断。这是一部非常引人入胜的心理惊悚片，还带有浪漫元素。视觉效果也非常美。是的，我觉得现在很多最有趣的电影都来自国外。比如东亚、南亚之类的地方。电视剧的话，我最近没怎么看了。已经有一阵子了。",
+   "ts": "01:32:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Totally understandable for a founder. Okay, next question. Do you have a favorite product that you've recently discovered that you just really love? It could be an app, it could be something physical, it could be a water bottle.",
+   "zh": "完全可以理解，作为创始人这很正常。好的，下一个问题。你最近有没有发现特别喜欢的产品？可能是应用，也可能是实体商品，比如水杯之类的。",
+   "ts": "01:32:47"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "I don't have a good answer to that one. I guess I don't buy enough stuff.",
+   "zh": "这个问题我答不上来。我觉得我买的东西太少了。",
+   "ts": "01:32:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Fully acceptable. There's no wrong answers in the lightning round. Moving on, do you have a favorite life motto that you often find useful in work or in life that you come back to, that you share with friends or family?",
+   "zh": "完全没关系。闪电问答环节没有正确答案。接下来，你有没有最喜欢的的人生格言？那种在工作或生活中常用的、反复回味、与朋友或家人分享的？",
+   "ts": "01:33:01"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "So there's this architect called Christopher Alexander who wrote these beautiful books that are about beauty and kind of more than architecture. And he was a teacher at UC, Berkeley, and he got really frustrated with the students because he just felt like they were always turning in kind of average work. And so he would always tell them every week, imagine there's a gothic cathedral in France called Charge. And he would say, you have to aim for Charge. You have to make something that is better than that. That should be your goal, not to just turn in something that's what you feel is good enough. You actually have to try and be better than the very, very best that ever did it. And I find myself just repeating this a lot to myself. It's just aim for that, really try and do that. Otherwise, it's very easy to anchor on something right in the middle. And you do this unconsciously all the time.",
+   "zh": "有个叫克里斯托弗·亚历山大的建筑师，他写过几本关于美的书，内容远不止建筑。他曾在加州大学伯克利分校任教，但对学生很失望，因为总觉得他们的作业平庸。他每周都会给学生讲，假设法国有座叫尚蒂伊的哥特式大教堂。你必须以尚蒂伊为目标，创作出超越它的作品。这才是你的目标，而不是仅仅满足于自己觉得足够好的作品。你必须超越前人。我经常默默对自己说这句话。永远朝着那个目标努力，否则很容易陷入平庸。",
+   "ts": "01:33:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So is that the motto, just aim for Charge?",
+   "zh": "那这就是你的格言？就是以尚蒂伊为目标？",
+   "ts": "01:34:09"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah, yeah, yeah.",
+   "zh": "对，对，对。",
+   "ts": "01:34:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Most people have no idea what that would be, but with the context is quite powerful. Final question, what's a classic novel that `you think would be most valuable for product builders?",
+   "zh": "我喜欢这个。大多数人可能不知道这是指什么，但结合上下文就很有力量。最后一个问题，哪本经典小说对产品开发者最有价值？",
+   "ts": "01:34:13"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "My favorite novel is Anna Karenina, and I would recommend that everyone read Erica.",
+   "zh": "我最喜欢的书是《安娜·卡列尼娜》，还推荐大家读《艾丽卡》。",
+   "ts": "01:34:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm reading that right now. I've never read it before.",
+   "zh": "我现在正在读这本书，以前从没读过。",
+   "ts": "01:34:32"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "No way. And yeah, so it's by Leo Tolstoy. It's this epic 19th century Russian novel that follows a set of characters across society. And I think it's just extraordinary because what's amazing about him is he's just able to imagine himself into the brain of anybody. And so even ... he will briefly just go into the consciousness of, I don't know, the servant who's bringing the meal to the table or something like that. And he'll just tell you a page of what they were thinking, and then he'll just flip back into his main character's head. And I think that is the most impressive demonstration of this kind of skill I've ever seen. (01:35:12): And I think, to connect it to your question, this is what you have to do if you're going to be really good at product, is you have to really think yourself into the other person's head, and you have to be really seeing it the way that they do. And it's so hard, especially as a founder or product person, not to just get stuck on your own way of seeing the problem, right? You wrote up this doc, you made these marks. You're like, this is going to be great. And then you take it to somebody, they don't care that much. You really have to exercise your empathy and understand why they see it that way and what they actually care about.",
+   "zh": "不会吧。他是列夫·托尔斯泰的作品。这部19世纪俄罗斯史诗级小说，追踪了社会各阶层人物的命运。我觉得它太伟大了，托尔斯泰能设身处地地从任何人的视角出发。比如他会短暂进入仆人端饭的意识流，描述他们的想法，再切换回主角视角。这是我见过最令人惊叹的叙事技巧。（01:35:12）这和你的问题有关——要想做好产品，就必须真正设身处地为他人着想，理解他们的视角。这对创始人或产品经理来说尤其重要，别总局限于自己的视角。写好文档，标注需求后，对方却不感兴趣。这时你就需要锻炼同理心，理解对方的关切所在。",
+   "ts": "01:34:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a beautiful way to bring it all together. Let me also add, while I'm reading the book, something ... a tip here is, people talk about having Chat GPT voice mode, just kind of sitting there next to you. I found that extremely helpful with this book where I just ask what the hell does this thing mean? There's all these Russian dances and balls and etiquette. You just ask and you're like, I'm reading Anna Karenina, what does this mean? And it just tells you.",
+   "zh": "把所有内容整合起来的方式真是太棒了。还要补充一点，我在读这本书的时候，发现有个小技巧……比如，人们常说Chat GPT有语音模式，就好像它坐在你旁边一样。我发现这对读《安娜·卡列尼娜》特别有用——当我遇到不理解的地方，比如俄罗斯的舞会礼仪之类的，只要问一句“这到底什么意思？”它就能立刻给出解释。",
+   "ts": "01:35:43"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:36:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So there's another cool tip for AI. Okay. With that, Nabeel, this was incredible. Two final questions in case people want to look you up. Where can they find you online and how can listeners be useful to you?",
+   "zh": "还有个AI使用小技巧。好的，接下来Nabeel，真是太棒了。最后两个问题，方便听众加你联系。哪里能找到你？",
+   "ts": "01:36:04"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Find me online, my website is nabeelqu.co and my X handle is Nabeel QU, I'm probably most active on that, but yeah, my website has all the links and a bunch of essays and interesting stuff. How can you help me? I would say send me an email. My email is on my website. Introduce yourself, say hi. I love meeting people. I don't always have time for coffees nowadays or things like that, but I genuinely do get a lot of energy from just receiving emails from interesting people, so please do reach out.",
+   "zh": "网上可以搜我的网站nabeelqu.co，X号是Nabeel QU，我在那比较活跃。我的网站上有所有链接，还有很多文章和有趣内容。怎么能帮到你？给我发邮件吧，我的邮箱在网站上。介绍一下自己，打个招呼。我喜欢认识新朋友。虽然现在没时间喝咖啡之类的，但收到有趣邮件真的能让我充满活力，所以欢迎联系。",
+   "ts": "01:36:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Definitely check out Nabeel's Principles. Is that the name of that post?",
+   "zh": "太棒了。一定要看看Nabeel的《原则》。这篇文章的名字对吧？",
+   "ts": "01:36:48"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:36:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great. Okay. That's one to start with, and then also there's the Palantir Post that we just talked through. Okay. Nabeel, thank you so much for being here.",
+   "zh": "好。先从这篇开始，再看看我们刚讨论的Palantir那篇。好的，Nabeel，非常感谢你今天的分享。",
+   "ts": "01:36:53"
+  },
+  {
+   "speaker": "Nabeel S. Qureshi",
+   "en": "Thank you. Appreciate it, Lenny.",
+   "zh": "谢谢。很感激，Lenny。",
+   "ts": "01:37:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见。感谢收听。如果觉得有价值，可以在Apple Podcasts、Spotify或喜欢的播客应用上订阅。也欢迎给我们评分或写评论，这对其他听众很重要。更多往期内容和节目详情请访问lennyspodcast.com。下期再见。",
+   "ts": "01:37:02"
+  }
+ ]
+}

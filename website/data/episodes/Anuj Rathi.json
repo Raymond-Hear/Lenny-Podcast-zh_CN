@@ -1,0 +1,605 @@
+{
+ "id": "Anuj Rathi",
+ "name": "Anuj Rathi",
+ "category": "企业管理",
+ "identity": "产品",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Anuj+Rathi",
+ "bio": {
+  "en": "Anuj Rathi is Chief Product and Marketing Officer at Jupiter Money, previously SVP of Revenue and Growth at Swiggy, VP of Product at Snapdeal, and the first PM at Flipkart's buyer experience team.",
+  "zh": "Anuj Rathi 是 Jupiter Money 首席产品与营销官，此前曾任 Swiggy 营收与增长高级副总裁、Snapdeal 产品副总裁，以及 Flipkart 买家体验团队的第一位产品经理。"
+ },
+ "summary": {
+  "en": "Anuj explains how product management differs in India and shares lessons on building product experiences for new-to-internet users at massive scale. He describes operationalizing Amazon's “working backwards” process and why he pushes teams to explore three divergent directions before settling on a plan. The conversation also covers why PMs and companies should be far more full-stack than they typically are.",
+  "zh": "Anuj 解释了印度市场的产品管理有何不同，并分享了为海量“新上网用户”打造产品体验的心得。他讲述了如何将亚马逊的“逆向工作法”落地，以及为何他推动团队在定案前先探索三个截然不同的方向。对话还涵盖为何产品经理和公司应当比现在更“全栈”。"
+ },
+ "turns": [
+  {
+   "speaker": "Anuj Rathi",
+   "en": "There are only three reasons why things do not happen the way you want them to happen as a leader. You can look at a person, and you would say either that person can't do, which is a capability issue, or they won't do, which is a motivation or an alignment issue, or they were not set up to do, which is really your problem that you didn't set up the ways of working now design properly. So, as a leader, do you have the right people in terms of capability? If not, is the right answer for us to coach them or to really put them... or mentor them and so on, or move them to some other place because maybe their capability is suited elsewhere? If they won't do, why won't they? Are they not aligned to you? Do they not agree with your vision? Do they not just have enough time? So on and so forth. So you need to really go deeper there. Why won't they do?",
+   "zh": "作为领导者，事情没有按照你希望的方式发生的原因只有三个。你可以看着一个人，你会说这个人要么做不到，这是一个能力问题，要么他们不会做，这是一个动机或一致性问题，或者他们没有被设置去做，这实际上是你的问题，你没有正确设置现在设计的工作方式。那么，作为领导者，你是否拥有合适的人才？如果不是，那么正确的答案是我们指导他们或真正安置他们......或指导他们等等，或者将他们转移到其他地方，因为也许他们的能力适合其他地方？如果他们不做，为什么不做？他们与你不一致吗？他们不同意你的愿景吗？他们的时间还不够吗？等等。所以你需要真正深入那里。他们为什么不这样做？",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Anuj Rathi. I've been looking to get more India-based product leaders on the podcast because this podcast has a large audience in India. When I put out a call on Twitter and LinkedIn asking people who I should have on, Anuj was the single most requested person. Anuj is Chief Product and Marketing Officer at Jupiter Money. Previously, he was Senior Vice President of Revenue and Growth at Swiggy where he spent seven years. He was also VP of Product at Snapdeal, a Senior PM at Walmart Labs, and the very first Product Manager at Flipkart where he led the buyer experience team. (00:01:24): In our conversation, we dig into how product management is different in India, Anuj's lessons about building product experiences for new users, how he operationalized the working backwards process at the companies he's worked at, why he pushes his teams to explore three divergent directions before settling on a plan, why he thinks product managers and companies should be much more full stack than they are. Also, a bunch of frameworks and contrarian takes about building product and your career in product. A big thank you to Sayan Maiti and Nikhil Kulkarni for helping me navigate the product scene in India. Look for more amazing India-based product leaders to come. With that, I bring you Anuj Rathi after a short word from our sponsors. (00:02:08): This episode is brought to you by Sanity. Your website is the heart of your growth engine. For that engine to drive big results, you need to be able to move super fast, ship new content, experiment, learn, and iterate, but most content management systems just aren't built for this. Your content teams wrestle with rigid interfaces as they build new pages. You spend endless time copying and pasting across pages and recreating content for other channels and applications, and their ideas for new experiments are squashed when developers can't build them within the constraints of outdated tech. (00:02:39): Forward-thinking companies like Figma, Amplitude, Loom, Riot Games, Linear, and more use Sanity to build content growth engines that scale, drive innovation, and accelerate customer acquisition. With Sanity, your team can dream bigger and move faster. As the most powerful headless CMS on the market, you can tailor editorial workflows to match your business, reuse content seamlessly across any page or channel, and bring your ideas to market without developer friction. Sanity makes life better for your whole team. It's fast for developers to build with, intuitive for content managers, and it integrates seamlessly with the rest of your tech stack. Get started with Sanity's generous free plan, and as a Lenny's Podcast listener, you can get a boosted plan with double the monthly usage. Head over to sanity.io/lenny to get started for free. That's sanity.io/lenny. (00:03:30): This episode is brought to you by Vanta, helping you streamline your security compliance to accelerate your growth. Thousands of fast-growing companies like Gusto, Com, Quora, and Modern Treasury trust Vanta to help build, scale, manage, and demonstrate their security and compliance programs, and get ready for audits in weeks, not months. By offering the most in-demand, security and privacy frameworks such as SOC 2, ISO 27001, GDPR, HIPAA, and many more, Vanta helps companies obtain the reports they need to accelerate growth, build efficient compliance processes, mitigate risks to their businesses, and build trust with external stakeholders. Over 5,000 fast-growing companies use Vanta to automate up to 90% of the work involved with SOC 2 and these other frameworks. For a limited time, Lenny's Podcast listeners get $1,000 off Vanta. Go to vanta.com/lenny. That's V-A-N-T-A.com/lenny to learn more and to claim your discounts, Get started today. (00:04:31): Anuj, thank you so much for being here, and welcome to the podcast.",
+   "zh": "今天，我的客人是阿努吉·拉蒂。我一直在寻找更多印度产品领导者加入播客，因为该播客在印度拥有大量受众。当我在 Twitter 和 LinkedIn 上打电话询问我应该关注谁时，Anuj 是请求最多的人。 Anuj 是 Jupiter Money 的首席产品和营销官。此前，他曾在 Swiggy 担任收入和增长高级副总裁七年。他还曾担任 Snapdeal 的产品副总裁、沃尔玛实验室的高级产品经理以及 Flipkart 的首位产品经理，并领导了买家体验团队。 (00:01:24)：在我们的对话中，我们深入探讨了印度的产品管理有何不同、Anuj 关于为新用户构建产品体验的经验教训、他如何在他工作过的公司中实施逆向工作流程、为什么他推动团队在制定计划之前探索三个不同的方向、为什么他认为产品经理和公司应该比现在更加全栈。此外，还有一些关于构建产品和产品职业生涯的框架和逆向思维。非常感谢 Sayan Maiti 和 Nikhil Kulkarni 帮助我了解印度的产品场景。期待更多令人惊叹的印度产品领导者的到来。在我们的赞助商简短发言后，我为您带来了 Anuj Rathi。 (00:02:08)：本集由 Sanity 为您带来。您的网站是您增长引擎的核心。为了使该引擎能够带来巨大的成果，您需要能够超快速地移动、发布新内容、实验、学习和迭代，但大多数内容管理系统并不是为此而构建的。您的内容团队在构建新页面时会与严格的界面作斗争。您花费无休止的时间跨页面复制和粘贴以及为其他渠道和应用程序重新创建内容，当开发人员无法在过时技术的限制下构建新实验的想法时，他们的新实验想法就会被粉碎。 (00:02:39)：Figma、Amplitude、Loom、Riot Games、Linear 等具有前瞻性思维的公司使用 Sanity 来构建内容增长引擎，以扩展规模、推动创新并加速客户获取。有了 Sanity，您的团队就能梦想更大、行动更快。作为市场上最强大的无头 CMS，您可以定制编辑工作流程以匹配您的业务，跨任何页面或渠道无缝地重用内容，并将您的想法推向市场，而无需开发人员遇到麻烦。理智让整个团队的生活变得更好。它对于开发人员来说构建速度很快，对于内容管理者来说很直观，并且它与您的技术堆栈的其余部分无缝集成。开始使用 Sanity 慷慨的免费计划，作为 Lenny's Podcast 听众，您可以获得每月使用量翻倍的增强计划。前往 sanity.io/lenny 免费开始。那是 sanity.io/lenny。 (00:03:30)：本集由 Vanta 为您带来，可帮助您简化安全合规性以加速您的成长。 Gusto、Com、Quora 和 Modern Treasury 等数千家快速发展的公司信赖 Vanta 来帮助构建、扩展、管理和演示其安全与合规计划，并在数周（而不是数月）内为审核做好准备。通过提供最受欢迎的安全和隐私框架（例如 SOC 2、ISO 27001、GDPR、HIPAA 等），Vanta 帮助公司获取加速增长、构建高效合规流程、降低业务风险以及与外部利益相关者建立信任所需的报告。超过 5,000 家快速发展的公司使用 Vanta 自动化 SOC 2 和其他框架所涉及的高达 90% 的工作。在有限的时间内，Lenny's Podcast 听众可享受 Vanta 1,000 美元优惠。访问vanta.com/lenny。请访问 V-A-N-T-A.com/lenny，了解更多信息并申请折扣，立即开始。 (00:04:31)：Anuj，非常感谢您来到这里，欢迎来到播客。",
+   "ts": "00:00:50"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Thank you so much, Lenny. Thank you for having me.",
+   "zh": "非常感谢你，莱尼。谢谢你有我。",
+   "ts": "00:04:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's my pleasure. I haven't told you this, but when I put a call out on Twitter and LinkedIn for people's favorite India-based product leaders, you are the single most recommended person, and so I just wanted to start with how does it feel to be the most loved India-based product leader at least according to my Twitter followers and LinkedIn followers?",
+   "zh": "这是我的荣幸。我没有告诉过你这一点，但是当我在 Twitter 和 LinkedIn 上征集人们最喜欢的印度产品领导者时，你是最受推荐的人，所以我只想首先谈谈成为最受喜爱的印度产品领导者的感觉如何，至少根据我的 Twitter 粉丝和 LinkedIn 粉丝的看法？",
+   "ts": "00:04:37"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Well, it feels really good, and I really feel it's come together because I've been doing product management for the longest time. In 2010, when I started the product management journey with Flipkart. I think that that was a time when there were not a lot of products being built for India. So I think one part is just the tenure, and B, I think it's just a lot of people have known the work.",
+   "zh": "嗯，感觉真的很好，而且我真的觉得它已经走到了一起，因为我做产品管理的时间最长了。 2010 年，我开始了 Flipkart 的产品管理之旅。我认为那个时候没有为印度制造很多产品。所以我认为一方面是任期，另一方面，我认为只是很多人都知道这项工作。",
+   "ts": "00:04:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. You're very modest. I wanted to start with a question about product in India, and I'm just curious just how is product management and product building in general just most different in India?",
+   "zh": "惊人的。你很谦虚。我想从一个关于印度产品的问题开始，我只是很好奇印度的产品管理和产品构建总体上有何不同？",
+   "ts": "00:05:20"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yeah. I think that's a very interesting question, and I think about this all the time. When I look at product management in India, and I do have a lot of friends comparing product management versus in US or even in Europe versus even in China, Southeast Asia, et cetera. I think India has had a very interesting journey of products in general and hence, product management also. I think till about 2010-ish, there were not really many products built for the Indian consumers in the first place. There were a lot of products being built, a lot of technology being built, but largely, because it was a back office, so you had a lot of great engineers working in companies which would build products for the American customer or even for the European customer and so on. So once these startups started coming in, which were thinking about building for the Indian consumers, I think we did not really have that talent which we could directly tap into. We're trained into product building. Forget product management as a field in the first place. There were no colleges which were teaching anything about this. There was no playbooks, and so on, and so forth. We would go to the internet, and look at YouTube, and look at SVPG and all of that, but what we would understand would not... you could not put directly to the Indian startups. (00:06:48): The way that they shaped up I think also shaped up the way product management field would evolve in India. So it's taken a bunch of iterations, and I think there are two or three different waves that have come in, and we are way closer to how good product management should be done in India. We still have a little bit way to go compared to, say, US. I also think of it along... For example, in US, the product building culture probably started in 1970s, the modern software product building culture, and you didn't only have product manager, but the entire ecosystem... If you think about a company, who is the VP of business, and who is the VP of supply, and sales, and ops, and technology, and all of that? That group knew how to work with each other to build software products. They understood how that would be built and what to expect. (00:07:37): I think in India, when we were in 2010, et cetera, even those different people who needed to come together to build, say, e-commerce, they would come from, say, FMCG, or they would come from manufacturing and so on. What they would have seen in their journeys in terms of what we expect is a very request response kind of understanding which is, \"Here's machinery. If I give this X resources, I expect, with a little bit of variability, why predictable output will come,\" and that mentality also moved on to what I expect from product managers or product building journeys and so on. So I think over a period of time, a lot of those cycles have happened, and a lot more other leaders in companies have now seen those cycles and understood, \"All right. Now, I understand software is not machinery. Consumers are not predictable as much as we thought.\" That has led to, now, finally, I think, product management coming of age.",
+   "zh": "是的。我认为这是一个非常有趣的问题，我一直在思考这个问题。当我观察印度的产品管理时，我确实有很多朋友将产品管理与美国甚至欧洲的产品管理与中国、东南亚等地的产品管理进行比较。我认为印度的产品之旅总体上非常有趣，因此产品管理也是如此。我认为直到 2010 年左右，一开始并没有太多为印度消费者打造的产品。有很多产品正在构建，很多技术正在构建，但很大程度上，因为它是一个后台办公室，所以你有很多优秀的工程师在为美国客户甚至欧洲客户等构建产品的公司工作。因此，一旦这些初创公司开始进来，考虑为印度消费者打造产品，我认为我们并没有真正拥有可以直接利用的人才。我们接受过产品构建方面的培训。首先忘记产品管理作为一个领域。没有任何大学教授这方面的内容。没有剧本等等。我们会上网，看看 YouTube，看看 SVPG 等等，但我们所理解的不会……你不能直接把它放在印度初创公司身上。 (00:06:48)：我认为他们的形成方式也塑造了印度产品管理领域的发展方式。因此，这经历了一系列的迭代，我认为已经出现了两到三个不同的浪潮，我们离在印度应该如何进行良好的产品管理已经更近了。与美国相比，我们还有一段路要走。我也想到了......例如，在美国，产品构建文化可能始于 1970 年代，现代软件产品构建文化，你不仅有产品经理，还有整个生态系统......如果你想想一家公司，谁是业务副总裁，谁是供应副总裁，销售副总裁，运营副总裁，技术副总裁，以及所有这些？该团队知道如何相互合作来构建软件产品。他们了解如何构建以及期望什么。 (00:07:37)：我认为在印度，当我们在 2010 年等时候，即使是那些需要聚集在一起建立电子商务等不同的人，他们也会来自快速消费品，或者来自制造业等。他们在旅程中看到的就是我们所期望的一种非常请求响应的理解，即“这是机器。如果我提供 X 资源，我期望，有一点可变性，为什么会出现可预测的输出，”这种心态也转移到了我对产品经理或产品构建旅程等的期望。因此，我认为在一段时间内，已经发生了很多这样的周期，并且公司中更多的其他领导者现在已经看到了这些周期并理解了，“好吧。现在，我明白软件不是机器。消费者并不像我们想象的那样可预测。”我认为，这最终导致了产品管理的成熟。",
+   "ts": "00:05:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You said that, I guess, in the Bay Area, things started 1970s, something like that. When would you say things started to really ramp up in modern product thinking in India?",
+   "zh": "我想，你说过，在湾区，事情始于 20 世纪 70 年代，类似的事情。您认为印度的现代产品思维什么时候开始真正兴起？",
+   "ts": "00:08:34"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "I think 2010 was when it started because... Look, there were a few products that were built before that also, and I think somebody said this clearly that usually, when modern consumer internet starts coming in countries, it usually starts with travel, so you do have... Basically, any country, we would start with, usually, the first travel company. So I think India started with some companies like MakeMyTrip and so on way earlier. There were a few very interesting products being built in India which were solving uniquely for the Indian consumers that were in the matrimony side which is Shaadi.com, and Bharmatrimony.com, and so on. We're like, \"What do you think about Tinder?\" India is famous for arranged marriages, so a product that would really understand that, \"Hey, if you're a parent, if you want to get your kid up for matrimony, how would you solve for them?\" and that marketplace of matchmaking, et cetera started. (00:09:34): So a few blips here and there which was following uniquely for India. I think 2010 was a decade or time when I can very clearly imagine that's where a lot of people started building for India. So I think, again, Flipkart started that kind of journey, but in a couple of years, then they were like, say, Ola which was, in a way, similar to Uber, what they were doing elsewhere, and then a whole bunch of other startups that started coming in. So, for example, in food delivery, when I was working at Swiggy, that came in like, say, 2015, 2014, in that timeframe. Now, you see a whole bunch of startups which are trying to do not only things which are... what could an Uber for India look like or what could a DoorDash for India look like. Very different and also, very innovative. So I think now is the time when you see a lot more product building around that area.",
+   "zh": "我认为 2010 年是它开始的时候，因为……看，在那之前也有一些产品，我想有人明确表示，通常，当现代消费者互联网开始进入国家时，它通常从旅行开始，所以你确实有……基本上，任何国家，我们通常都会从第一家旅游公司开始。所以我认为印度很早就开始了像 MakeMyTrip 等这样的公司。印度正在开发一些非常有趣的产品，这些产品为婚姻方面的印度消费者提供了独特的解决方案，例如 Shaadi.com 和 Bharmatrimony.com 等。我们会问“你觉得 Tinder 怎么样？”印度以包办婚姻而闻名，因此一款产品能够真正理解“嘿，如果你是父母，如果你想让你的孩子结婚，你会如何解决他们的问题？”婚介市场等也开始了。 (00:09:34)：这里那里出现了一些印度特有的现象。我认为 2010 年是我可以非常清楚地想象到很多人开始为印度建设的十年。所以我认为，Flipkart 再次开始了这样的旅程，但几年后，他们就像 Ola，在某种程度上类似于 Uber，他们在其他地方所做的事情，然后一大堆其他初创公司开始进入。所以，例如，在食品配送领域，当我在 Swiggy 工作时，就像 2015 年、2014 年那样，在那个时间段内出现了。现在，你会看到一大群初创公司不仅试图做一些事情……印度的 Uber 是什么样子，印度的 DoorDash 是什么样子。非常不同，也非常创新。所以我认为现在是时候看到围绕该领域构建更多产品的时候了。",
+   "ts": "00:08:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Where are some numbers of just like companies in India, people in India's money spent in India? I don't know. Things that would be like, \"Wow, that is a much bigger opportunity than I thought.\"",
+   "zh": "印度有多少类似的公司，印度人的钱都花在印度了？我不知道。事情就像是，“哇，这比我想象的要大得多。”",
+   "ts": "00:10:24"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Okay. This is a very wide question, so I'll tell you. Before the opportunity in India, I think I'll talk about the complexity in India which I think a lot of people don't understand. India has what? 1.4 billion people. So there were three waves, really, that happened in India, but also, in the globe. I think first wave was from desktop to mobile, and then even from mobile to smartphones. From smartphones, there was what we call the Jio revolution. There's an Indian company called Reliance Jio that basically got internet at the cheapest prices for smartphones. So because of this, a whole population came onto the internet which was hungry for newer products, newer content, completely different ways of interacting with each other, and using internet for all sorts of different things. That was one of the waves. (00:11:24): The other part is really what the Indian government really enabled which is... especially in digitization of a bunch of absolute core fundamental citizen-related machinery which is either through digital payments, which is a whole bunch of Indians now started having a bank account by default, and something called UPI. So even if you do not have a bank account or that bank account is linked to your mobile phone number, but now everybody would pay through that, and that brought in a very different kind of revolution. So even if 5 rupees, that is basically 10 cents or less than that, that would be paid through UPI, and people started moving away from cash and so on. There's something called the India Stack that is all of these things coming together, which is social security, identity, payments, and so on, that a whole bunch of other apps can now use to build their own layers on top of that. So many interesting cases started coming about. So that's one which is just a number and the infrastructure. (00:12:25): Now, the other thing to look at is India is very diverse, so the number of languages spoken here, even the official languages is so high, and they say... There's an elders' quote in India like, \"Every 15 miles, the language will change, and the people and the culture will change, and it's a huge country of so many people.\" So your traditional ways of thinking about products also, the \"Who I'm building for?\" is very different. \"Are you building for this person or that?\" Et cetera. So a bunch of frameworks break down because it's not even that the same language will apply. While English is a language that is used by the people at least who have the money and who have the dollar to even give to you, but you have to think way more widely. (00:13:06): The other thing about India that is interesting is the price that people are willing to pay. Generally, it does look at the per capita money that people have. It is very low. It's in the two, two and a half thousand dollar range compared to US which is maybe 30 times more and so on. So while there's a lot of people who are going to give you traffic, and engagement, and so on, but the craft of actually choosing the right kind of paying customer who will actually come, and engage, and give you money is at a premium. So a lot harder work needs to be done. If you're running e-commerce, who are the people who will pay me delivery fee? Who are the people who will actually buy this expensive stuff? So a whole bunch of different ways of thinking has evolved in this country, and that's why it's so vibrant and so different than any other global products.",
+   "zh": "好的。这是一个非常广泛的问题，所以我来告诉你。在印度的机会之前，我想我会谈谈印度的复杂性，我认为很多人不理解这一点。印度有什么？ 14亿人。因此，确实发生了三波浪潮，不仅发生在印度，而且发生在全球。我认为第一波浪潮是从桌面到移动，然后甚至从移动到智能手机。从智能手机开始，出现了我们所说的 Jio 革命。有一家名为 Reliance Jio 的印度公司，基本上以最便宜的智能手机价格接入互联网。正因为如此，整个人群来到了互联网上，他们渴望更新的产品、更新的内容、完全不同的彼此互动方式，以及使用互联网来做各种不同的事情。那是其中一波浪潮。 (00:11:24)：另一部分实际上是印度政府真正启用的，特别是在一堆绝对核心的基本公民相关机制的数字化方面，这些机制要么通过数字支付，要么通过数字支付，现在很多印度人开始默认拥有银行账户，以及称为 UPI 的东西。因此，即使你没有银行账户，或者银行账户与你的手机号码相关联，但现在每个人都可以通过它进行支付，这带来了一场非常不同的革命。因此，即使 5 卢比（基本上是 10 美分或更少），也可以通过 UPI 支付，人们开始放弃现金等。有一种叫做“印度堆栈”的东西，它把所有这些东西聚集在一起，包括社会保障、身份、支付等等，一大堆其他应用程序现在可以使用它来构建自己的层。许多有趣的案例开始出现。所以这只是一个数字和基础设施。 (00:12:25)：现在，另一件事是印度非常多样化，所以这里使用的语言数量，甚至官方语言都非常多，他们说......印度有一句长辈的话，“每 15 英里，语言就会改变，人民和文化也会改变，这是一个人口众多的大国。”所以你对产品的传统思考方式也是如此，即“我为谁打造？”是非常不同的。 “你是为这个人还是那个人建造？”等等。因此，一堆框架崩溃了，因为甚至无法应用相同的语言。虽然英语是一种至少有钱甚至有美元给你的人使用的语言，但你必须更广泛地思考。 (00:13:06)：印度另一件有趣的事情是人们愿意支付的价格。一般来说，它确实着眼于人们的人均拥有的金钱。它非常低。与美国相比，它的价格在两千、两千五千美元之间，可能是美国的 30 倍等等。因此，虽然有很多人会给你带来流量、参与度等等，但真正选择真正会来、参与并给你钱的正确类型的付费客户的技巧是非常宝贵的。因此，还需要做很多艰苦的工作。如果你经营电子商务，谁会向我支付送货费？哪些人会真正购买这些昂贵的东西？因此，这个国家已经形成了一系列不同的思维方式，这就是为什么它如此充满活力，并且与任何其他全球产品如此不同。",
+   "ts": "00:10:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Fascinating. I could keep going, but I want to talk product. I've collected a bunch of questions from people that know you or people that have worked with you about a bunch of different stuff, so I'm just going to go a little bit all over the place. The first area I wanted to talk about is the user experience. Apparently, you have a interesting insight and a different approach of thinking about new users and new user experiences.",
+   "zh": "哇。迷人。我可以继续，但我想谈谈产品。我从认识你的人或与你共事过的人那里收集了很多关于很多不同问题的问题，所以我只想稍微介绍一下。我想谈的第一个领域是用户体验。显然，您对新用户和新用户体验有有趣的见解和不同的思考方法。",
+   "ts": "00:14:01"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "One of the things that I realized once we started working with the products is that product managers and generally, companies are too engrossed in thinking about... because they are very close to the product. It's close to their heart, and they're looking at it all the time. They're looking at a lot of minor nuances in terms of how this works and feels, and almost inherent into this is the bias that everybody is thinking about this product all day, all the time, and so on, and so forth. Whereas the reality is most consumers in the country or in your target market, they don't care, and they may have sometime heard about your product. The word of mouth is not ever so strong, even if you're the strongest brand, and so on, and so forth, but that is the customer that you've got to bring in, and then serve. (00:15:07): So there's very interesting insight that I heard from Scott Belsky from Adobe, and then now, he's doing very interesting stuff, and that stayed with me which was you have to think about users on modern internet consumers having three attributes. So they are lazy, they are vain, and they're selfish. So lazy meaning, \"I don't have time for this, so blow my mind away. Otherwise, I'm not going to pay attention.\" Vain which means, \"I have a habit. I'm solving this problem in a particular way, and here, you come with your two-pack product and ask me to change my habit. Do you really expect me to do that?\" That's second. That's their inherent attribute. The third one is that they're selfish like, \"Show me what's in it for me.\" (00:15:52): Once you start thinking about users in that vein, and if these users are not even using your product, suddenly, you realize, \"Oh my god, it's quite difficult even... How do I attract this kind of customer, and if my marketing team has done a good job at bringing this user to my product, how do I actually now empathize with this lazy, selfish, and vain customer, and build my product in a way so that I can make this appear on your site like this is the thing that you have to use, the way you write your copy, the way you build your onboarding, the way you do your first warm welcome?\" It's going to make the biggest amount of change in terms of a product success, then your core product features that you're going to build for your loyal consumers. (00:16:37): So that one insight, and I've seen and applied that multiple times not only the companies that I worked with, the companies I've consulted and spoken with. Most neglect it. Well, they get user onboarding is important, but just how important is that is one, and B, the craft of thinking like a user who's lazy, vain, and selfish, and basically, rejecting all your products, but this does not work for this kind of customer. It's extremely hard. It's very hard, but it's totally worth it if you put that lens on.",
+   "zh": "一旦我们开始使用产品，我意识到的一件事是产品经理和一般公司都过于专注于思考......因为他们非常接近产品。它离他们的心很近，他们一直在关注它。他们正在研究其工作原理和感觉方面的许多细微差别，而几乎固有的偏见是每个人都整天、一直在思考这个产品，等等。尽管现实情况是该国或您的目标市场中的大多数消费者并不关心，而且他们有时可能听说过您的产品。口碑并不是那么强大，即使你是最强大的品牌，等等，但这就是你必须引入并服务的客户。 (00:15:07)：我从 Adob​​e 的 Scott Belsky 那里听到了非常有趣的见解，现在他正在做非常有趣的事情，这一点一直困扰着我，那就是你必须考虑具有三个属性的现代互联网消费者中的用户。所以他们是懒惰的，他们是虚荣的，他们是自私的。懒惰的意思是，“我没有时间做这个，所以让我的思想消失。否则，我不会注意。” Vain 的意思是，“我有一个习惯。我正在以一种特定的方式解决这个问题，而在这里，你带着你的两件装产品来要求我改变我的习惯。你真的希望我这样做吗？”那是第二。这是他们与生俱来的属性。第三个是他们很自私，就像“告诉我这对我有什么好处”。 (00:15:52)：一旦你开始以这种方式思考用户，如果这些用户甚至没有使用你的产品，你会突然意识到，“天哪，这甚至相当困难......我如何吸引这种客户，如果我的营销团队在将这个用户吸引到我的产品方面做得很好，那么我现在如何真正同情这个懒惰、自私和虚荣的客户，并以某种方式构建我的产品，以便我可以让它出现在你的网站上，就像这样你必须使用的东西，你编写文案的方式，你建立入职的方式，你第一次热烈欢迎的方式？”它将在产品成功方面做出最大的改变，然后是你将为忠实消费者构建的核心产品功能。 (00:16:37)：这是一种洞察力，我不仅在与我合作过的公司、与我咨询过和交谈过的公司多次看到并应用了这一点。大多数人都忽视了它。嗯，他们让用户入职很重要，但这到底有多重要，一是，二是像懒惰、虚荣和自私的用户一样思考的技巧，基本上，拒绝你的所有产品，但这对这类客户不起作用。这是非常困难的。这很难，但如果你戴上镜头，那就完全值得了。",
+   "ts": "00:14:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there an example of you using this framework on a product you worked on where you're just like, \"Here's a thing we really did...\" I don't know, had a big impact or really surprised everyone?",
+   "zh": "有没有一个例子，你在你开发的产品上使用这个框架，你会说，“这是我们真正做过的一件事……”我不知道，是否产生了很大的影响，或者真的让每个人都感到惊讶？",
+   "ts": "00:17:06"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "So we used it in two different areas. So one is, of course, products I worked on. So I worked in Swiggy for the last seven years, and really, when we started working towards this user, instead of thinking about everybody as, \"This is what our onboarding experience looks like, and this is what our product is.\" So, essentially, we used, basically, say, a key that it's... \"We are a food delivery app. We are a grocery delivery app, and we have these bunch of things.\" Instead of that, we just started reframing it from the point of view of, \"What would you want, and how could you use us? What is it in it for you?\" and we started connecting all our marketing messages along with the onboarding. So even going out market and thinking, \"Where do you actually find us? How did you know about us? It's a reasonably large brand. Why have you not already downloaded us and used us? Have you used us and rejected us in the past?\" So building that entire mental model and looking at a user from the point of view of, \"Let's assume that you have heard about us 20 times. What was that exact situation that brought you to download this app?\" (00:18:20): So right from the entire journey of you hearing us, what was the trigger, and what was the marketing message, and what was the promotion that we were running? How do we continue that journey on your onboarding from your splash, that 200 rupees of... X rupees if you buy from us, continuing that entire journey in the language that they understand and with the user experience that is continuation from the marketing to product, other thing that we started focusing on a lot more, and it instantly started showing us results. But while I'm talking about just a very simple example and everybody should be doing it, that is true even when you have a particular app which has multiple products and many product lines. It's the same principle that applies there, and that's where I think the largest amount of delta that happens that people don't know really why are we not able to cross-pollinate or cross-sell, and so on, and so forth. (00:19:14): Right now, I'm working with a company called Jupiter which is a financial services app, and it's a neobank. So we care for personal finance, and it has a bunch of offerings. There's a personal account or savings account. There's a credit card. There's mutual funds. There is investments in, say, gold, and FD, and so on, and so forth. It's a bunch of things. But when people think about why using us only for one service and just go away, actually, the key is to recognize that this user has found value in... They are not interested in all the other things that you talked about, so be able to empathize with that user, and now thinking about the behavioral science aspects in terms of, \"How do I convert this user from one to the other?\" That I think is extremely important.",
+   "zh": "所以我们在两个不同的领域使用它。当然，其中之一就是我开发的产品。因此，过去七年我在 Swiggy 工作，实际上，当我们开始针对这个用户工作时，我们并没有将每个人都视为“这就是我们的入门体验，这就是我们的产品”。所以，本质上，我们基本上使用了一个密钥……“我们是一个食品配送应用程序。我们是一个杂货配送应用程序，我们有这些东西。”相反，我们只是开始从以下角度重新构建它：“您想要什么？您如何使用我们？它对您有什么好处？”我们开始将所有营销信息与入职联系起来。因此，即使走出市场并思考，“您实际上在哪里找到我们？您是如何知道我们的？这是一个相当大的品牌。为什么您还没有下载我们并使用我们？您过去是否使用过我们并拒绝过我们？”因此，建立整个心理模型并从以下角度看待用户：“假设您已经听说过我们 20 次。具体是什么情况促使您下载此应用程序？” (00:18:20)：那么从您听到我们讲话的整个过程来看，触发因素是什么，营销信息是什么，我们正在进行的促销活动是什么？我们如何继续你的入职旅程，从你的飞溅，那200卢比……X卢比，如果你从我们这里购买，用他们理解的语言继续整个旅程，并提供从营销到产品的延续的用户体验，这是我们开始关注更多的事情，它立即开始向我们展示结果。但是，虽然我谈论的只是一个非常简单的示例，每个人都应该这样做，但即使您有一个包含多个产品和许多产品线的特定应用程序，情况也是如此。同样的原则也适用于此，我认为这就是最大数量的三角洲发生的地方，人们并不真正知道为什么我们不能异花授粉或交叉销售，等等。 (00:19:14)：现在，我正在与一家名为 Jupiter 的公司合作，这是一家金融服务应用程序，也是一家新银行。所以我们关心个人理财，它有很多产品。有个人帐户或储蓄帐户。有一张信用卡。有共同基金。例如，有黄金、FD 等投资。这是一堆事情。但是，当人们思考为什么只使用我们的一项服务然后就离开时，实际上，关键是要认识到该用户已经发现了价值……他们对您谈到的所有其他事情都不感兴趣，因此能够同情该用户，现在考虑行为科学方面的问题，“我如何将该用户从一个用户转换为另一个用户？”我认为这一点非常重要。",
+   "ts": "00:17:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So a couple things I'm hearing here. One is the importance of focusing on not people currently using your product, but this idea of maybe the marginal user or the adjacent user, the next state of users is who you should be thinking about when you're trying to optimize onboarding the user experience, and then two is... Something that sounds like you've had a lot of success with is picking one value prop, maybe one positioning statement, and then following that through their entire journey versus like, \"Here's all the things we do.\" Is that right?",
+   "zh": "我在这里听到了一些事情。一是重要的是不要关注当前使用你产品的人，但这种想法可能是边缘用户或相邻用户，下一个用户状态是你在尝试优化用户体验时应该考虑的人，然后二是......听起来你已经取得了很大成功的事情是选择一个价值支柱，也许是一个定位声明，然后在他们的整个旅程中遵循这一点，而不是像“这就是我们所做的所有事情。”是这样吗？",
+   "ts": "00:20:00"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "That's absolutely right. Let me give an example of this one. One of the reasons why I really feel product managers must, if not better, but equally understand, category consumers which are not in market or which are not really buying your products just yet. As good as the marketer or the brand expert in your team does... because they really are tasked with, \"What is that one message that I can say that will make the user take attention or get to like, 'Oh, this is interesting,' and direct attention towards your product?\" If the product managers are able to do that, then they will choose that positioning and essentially, understand, \"What is my hope product, and what is the hope that...\" At least get them to try my app or any of those things, right? So if they understand it as well as the marketer, and then understand, \"Over a period of time, what is the right time when I introduce them to this other one rather than being very greedy about letting the new user try everything?\" So that's one. (00:21:37): The other thing that I feel a lot of product managers don't do right is... \"Forget about everything. Here's my app. Go figure,\" is how most of the products are designed unfortunately. Automatically, these things will happen without any intervention. I have created something which is so beautiful, and once you tap that icon, everyone can say, \"That is my product that is so working perfectly,\" but they don't really think about, \"At what moment do I actually get this user here, and will they use it?\" Well, this user is lazy, vain, and selfish.",
+   "zh": "这是绝对正确的。让我举一个例子。我真的觉得产品经理必须（如果不是更好的话）同样理解那些不在市场上或还没有真正购买你的产品的类别消费者的原因之一。就像您团队中的营销人员或品牌专家所做的那样……因为他们的任务实际上是：“我可以说的一条信息是什么，可以让用户引起注意或喜欢，‘哦，这很有趣’，并将注意力转移到您的产品上？”如果产品经理能够做到这一点，那么他们就会选择该定位，并且从本质上理解，“我希望的产品是什么，希望......”至少让他们尝试我的应用程序或任何这些东西，对吧？因此，如果他们和营销人员一样理解它，然后理解，“在一段时间内，什么时候是我向他们介绍另一个产品的合适时机，而不是非常贪婪地让新用户尝试一切？”这就是其中之一。 (00:21:37)：我觉得很多产品经理做得不好的另一件事是......“忘记一切。这是我的应用程序。想想看”，不幸的是，这就是大多数产品的设计方式。这些事情会自动发生，无需任何干预。我创造了一些非常漂亮的东西，一旦你点击那个图标，每个人都可以说，“这就是我的产品，运行得非常完美”，但他们并没有真正考虑，“我什么时候才能真正让这个用户来到这里，他们会使用它吗？”好吧，这个用户是懒惰、虚荣、自私的。",
+   "ts": "00:20:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That phrase reminds me of something I always think about. Marc Andreessen had this great quote that your user's time is already allocated. They're not looking for more apps to download. They already have a plan for the day. Basically, they have things to do. They're not like, \"Hmm, what's another iPhone app I'm going to check out right now?\" So somehow you have to convince them, \"This is worth your time,\" and I like this framework. Is there an example of a phrase you found really effective either at Swiggy, or Jupiter, or Flipkart, or anything just like, \"Here's a really quick example of something that had a big impact on either simplifying the value prop,\" or if you don't have an example top of mind, what was the impact you saw from implementing some of these ideas?",
+   "zh": "这句话让我想起了我一直在思考的事情。马克·安德森 (Marc Andreessen) 曾说过这样一句话：你的用户的时间已经被分配了。他们并不是在寻找更多的应用程序来下载。他们已经制定了当天的计划。基本上，他们有事情要做。他们不会说，“嗯，我现在要查看的另一个 iPhone 应用程序是什么？”因此，你必须以某种方式说服他们，“这值得你花时间”，而且我喜欢这个框架。是否有一个您发现在 Swiggy、Jupiter、Flipkart 真正有效的短语示例，或者类似的内容，“这是一个对简化价值支柱产生重大影响的非常简单的示例”，或者如果您没有想到示例，那么您在实施其中一些想法时看到了哪些影响？",
+   "ts": "00:22:09"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "I'll talk about a phrase that I now use with product managers a lot to simplify how they should be thinking. I think one thing is... and that's not only for the consumers, but even how we operate. We are product managers, and we are in the business of influence. Users are doing something, and now we want them to do something else. Our engineers are doing something, and now we want to influence them into building something fast. Really, leadership has some plans. We'll influence them to, essentially, look at a plan, and basically, sign off, and do something else. We are in the business of influence, and you are doing this all the time internally. Otherwise, you're not successful even in shipping. Now, we have to extend this to our users and really think about it from that point of view. So you are a full-stack influencer and not only an external influencer. So we've got to think more like sales, more like marketing, more like influencers.",
+   "zh": "我将谈论我现在经常与产品经理一起使用的一个短语，以简化他们的思考方式。我认为有一件事是……这不仅关系到消费者，也关系到我们的运营方式。我们是产品经理，我们从事的是影响力行业。用户正在做某事，现在我们希望他们做其他事情。我们的工程师正在做一些事情，现在我们希望影响他们快速构建一些东西。确实，领导层有一些计划。我们将影响他们，从本质上来说，看看一个计划，然后基本上，签字，然后做其他事情。我们从事的是影响力业务，而你们一直在内部这样做。否则，你连发货都不会成功。现在，我们必须将其扩展到我们的用户，并从这个角度真正考虑它。所以你是一个全栈影响者，而不仅仅是一个外部影响者。因此，我们必须更多地从销售、营销、影响者的角度来思考。",
+   "ts": "00:22:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One of the most important skills for a product manager is influencing people on team, and I like the point that you're also trying to influence your user. That's interesting. Just more reason to get really good at influence, so. I actually have a newsletter about how to get better influence based on Frodo Baggins and Lord of the Rings. We'll link to that in the show notes. Okay. Let's shift to a different topic. You have a really concrete way of actually implementing the working backwards process. We had one of the authors of the book Working Backwards on recently, and I'm excited to just hear what you've learned about how to actually put this into practice. It's easy to hear about, \"Let's work backwards,\" but doing it is a different beast, and so I'd love to hear what you've learned there.",
+   "zh": "产品经理最重要的技能之一是影响团队中的人员，我喜欢你也试图影响你的用户这一点。那很有意思。只是更有理由真正擅长影响力，所以。事实上，我有一份关于如何根据弗罗多·巴金斯和《指环王》获得更好影响力的时事通讯。我们将在演出笔记中链接到该内容。好的。让我们换一个话题。您有一种非常具体的方法来实际实施逆向工作过程。最近，我们有一位《向后工作》一书的作者，我很高兴听到您学到了如何将其付诸实践。很容易听到“让我们逆向工作”，但这样做却是另一回事，所以我很想听听您在那里学到了什么。",
+   "ts": "00:23:42"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "So I think the people who invented working backwards is clearly Amazon. I think they started this entire process which are like, \"Hey, why don't you write a press release, and with that press release, we'll work backwards from that one?\" I thought that was a very cool idea, and I was trying to dig down into like, \"Hey, why does it work?\" My insight or at least the way that I thought about this one is it's not working backwards only from a customer value proposition. \"Will our customers love it, and will they pay for it? Is it noteworthy, and is it something that we should even be working?\" While that is one of the most important things that the Working Backwards framework teaches us, but essentially, what you're working backwards from is an entire machinery at a particular day that is working for... For the date of GTM, what do we need to do from here till that particular day so that the GTM is successful, but also, what will be the machinery we would have created so that this product is successful? (00:25:20): Now, because you're already talking about GTM, you're already thinking about, \"How will users love it? What is the money that we'll spend? What are the alternatives that we will... routes that we have explored that finally we have zeroed in on and all of those?\" So they are all going to be a part of a PR review. If I take a slightly open stance on this one, what is a press release? A press release is you have a one-pager which talks about what are we building, what is a particular date, what is the exact value proposition, what will consumers say, what will the business manager say, how will they respond, how will they use it. But the one thing that comes out from this framework is that you can use it for a whole bunch of other things. You can use it for negotiation, for example, because you start with a date, and then you say, \"This is the one-pager that I need to ship, and I want the consumers to see that.\" You can use it to now go to our VP Engineering and say, \"By this date, can we build all of this?\" Now, they do not have all the PRDs and everything, but they can give you a sense that this is too aggressive or this is not and so on. (00:26:18): We can also use the quotes here to actually find alliances or find people who are going to actually derail this. So you actually use the customer quote to basically say, \"I want my customers to say this. From marketing and from my pricing team, can we actually ship this so that consumers will say that?\" Then, from the business owner's quote, you actually say, \"This is what we are shipping, but what are your goals? Can you say that within three months, we would have achieved this much?\" So using that to build one entire picture is one way that I found it really powerful because if you find disagreements here, then say, \"I can't ship it,\" then you change the date, and then you change the goals because all of these things are changing together. So instead of one, you find the other set of all the things that need to come together for that press release to go live is the real value. (00:27:07): The other part that I found interesting here is that I really truly believe in the power of three. So I actually ask my teams to write three press releases, alternative and divergent like, \"What if we...\" Suppose you're launching a membership program. So, instead of two tiers, let's do three tiers, or for example, let's take another one which is instead of building a membership, let's build up tiering pricing program with membership points. Instead of this segment, let's use another segment. Let's say within these three, and they all need to be fully thought-through, and that helps the leadership choose. (00:27:44): So the two things that work here. When you are in the product discovery phase, you would have heard from a lot of folks. Finally, if you show them just one roadmap, it feels like, \"Hey, this person didn't...\" They listened to my interesting point which was valuable, but didn't include it. But when you're doing this three PR FAQs, I considered this, and this added up to a story that eventually is valuable, this alternative route. I considered your point of view, and I created a story, but unfortunately, it is not adding up so we rejected it. So, now, people can compare and contrast, and that's a very powerful leadership tool. That, actually, is a very powerful tool even for CXOs. When they say, \"Let's build this,\" you'll say, \"Here are three ways we can build this, and here's the reason why I'm not building what you said because you would like these two more.\"",
+   "zh": "所以我认为发明逆向工作的人显然是亚马逊。我认为他们开始了整个过程，就像是，“嘿，你为什么不写一份新闻稿，然后通过该新闻稿，我们将从那个新闻稿开始倒推？”我认为这是一个非常酷的想法，我试图深入研究，“嘿，为什么它有效？”我的见解，或者至少是我对这个问题的思考方式是，它不仅仅从客户价值主张出发。 “我们的客户会喜欢它吗？他们会为此付费吗？它值得注意吗？这是我们应该努力的事情吗？”虽然这是逆向工作框架教给我们的最重要的事情之一，但本质上，你逆向工作的是在某一特定日期正在工作的整个机器......对于 GTM 的日期，我们需要从现在到那特定的一天做什么才能使 GTM 成功，而且，我们将创建什么机器才能使该产品成功？ (00:25:20)：现在，因为您已经在谈论 GTM，所以您已经在思考，“用户会如何喜欢它？我们会花多少钱？我们会采取哪些替代方案……我们已经探索过的路线，最终我们已经锁定了所有这些路线？”所以它们都将成为公关审查的一部分。如果我对此采取稍微开放的立场，那么什么是新闻稿？新闻稿是一页纸，讨论我们正在构建什么、特定日期是什么、确切的价值主张是什么、消费者会说什么、业务经理会说什么、他们将如何回应、他们将如何使用它。但是这个框架带来的一件事是你可以将它用于很多其他事情。例如，您可以将其用于谈判，因为您从一个日期开始，然后您说：“这是我需要运送的单页寻呼机，我希望消费者看到它。”您现在可以使用它来联系我们的工程副总裁并询问：“到这个日期，我们可以构建所有这些吗？”现在，他们没有所有的 PRD 和一切，但他们可以给你一种感觉，这太激进了，或者这不是，等等。 (00:26:18)：我们还可以使用此处的引言来实际寻找联盟或找到真正会破坏这一情况的人。因此，您实际上使用客户报价基本上是说：“我希望我的客户这么说。从营销和我的定价团队来看，我们实际上可以运送这个产品，以便消费者会这么说吗？”然后，从企业主的引言中，你实际上会说，“这就是我们要发货的东西，但是你的目标是什么？你能说在三个月内，我们会取得这么多成就吗？”因此，用它来构建一幅完整的图画是我发现它非常强大的一种方式，因为如果你在这里发现分歧，然后说，“我不能发货”，然后你改变日期，然后你改变目标，因为所有这些事情都在一起改变。因此，您会发现新闻稿发布所需的另一组所有内容才是真正的价值，而不是其中之一。 (00:27:07)：我发现这里有趣的另一部分是我真的相信三个的力量。所以我实际上要求我的团队写三份新闻稿，不同的和不同的，比如“如果我们......”假设你正在启动一个会员计划。因此，我们不要做两层，而是做三层，或者例如，让我们采取另一层，而不是建立会员资格，让我们用会员积分建立分层定价计划。让我们使用另一个段来代替这个段。比如说这三个，都需要经过深思熟虑，这有助于领导层的选择。 (00:27:44)：所以有两件事在这里起作用。当您处于产品发现阶段时，您会听到很多人的意见。最后，如果你只向他们展示一张路线图，感觉就像是，“嘿，这个人没有……”他们听取了我的有趣观点，这是有价值的，但没有包括在内。但是，当你做这三个公关常见问题解答时，我考虑了这一点，这构成了一个最终有价值的故事，即这条替代路线。我考虑了你的观点，并创作了一个故事，但不幸的是，它不合逻辑，所以我们拒绝了它。所以，现在，人们可以进行比较和对比，这是一个非常强大的领导工具。事实上，即使对于 CXO 来说，这也是一个非常强大的工具。当他们说，“让我们构建这个”时，你会说，“我们可以通过以下三种方式来构建这个，这就是为什么我不构建你所说的方法的原因，因为你还想要这两种。”",
+   "ts": "00:24:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a really cool idea of just using the PR FAQ and working backwards process to think very differently partly to make sure you've explored all the options, partly to just think through things that are in the back of people's minds and see if there's something there before committing to the one direction.",
+   "zh": "这是一个非常酷的想法，仅使用公关常见问题解答和逆向工作流程来进行非常不同的思考，部分是为了确保您已经探索了所有选项，部分是为了思考人们脑海中的事情，看看在致力于一个方向之前是否有一些东西。",
+   "ts": "00:28:36"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "So the FAQs also are very important to set processes in the system. For example, now, at Jupiter, we have a financial services app. So every FAQ will mandatorily have, \"How are you going to make sure that it is fully compliant? Have you gotten sign-off from A, B, C people? Have you actually thought about legal aspects, and so on, and so forth?\" So, for example, you can use the FAQs very effectively here. Whereas, for example, when it was Swiggy, and it's a three-way marketplace, you have consumers, delivery executives, and restaurant partners. Now, any small change that you do on, say, delivery partners, for example, if you're working on optimizing their earnings per hour which will lead to some changes in cost per delivery, but that may have a completely different impact on delivery fee. (00:29:31): I'm just making this up, but now, because of so many moving parts in your FAQs, you're explicitly asking, \"Have you thought about what are the implications on restaurant partners? Have you thought about what are implications on delivery partners?\" We, in fact, also have that PR FAQ in terms of we write down the different segments of delivery partners, and sometimes it will have extremely weird correlations because those product managers on one side of the equation have started thinking or at least consulting the other part of the marketplace, \"What could this mean for you?\" It gets everybody together to create very crisp products that work for all sides of the marketplace.",
+   "zh": "因此，常见问题解答对于在系统中设置流程也非常重要。例如，现在，在 Jupiter，我们有一个金融服务应用程序。因此，每个常见问题解答都必须包含“您如何确保它完全合规？您是否得到了 A、B、C 人员的签字认可？您是否真正考虑过法律方面的问题等等？”例如，您可以在这里非常有效地使用常见问题解答。然而，例如，当它是 Swiggy 时，它是一个三向市场，有消费者、送货主管和餐厅合作伙伴。现在，您对送货合作伙伴所做的任何小改变，例如，如果您正在努力优化他们的每小时收入，这将导致每次送货成本发生一些变化，但这可能会对送货费用产生完全不同的影响。 (00:29:31)：这只是我编造的，但现在，由于您的常见问题解答中有如此多的变化，您明确地问：“您是否考虑过这对餐厅合作伙伴有何影响？您是否考虑过对送货合作伙伴有何影响？”事实上，我们也有公关常见问题解答，我们写下了交付合作伙伴的不同部分，有时它会产生极其奇怪的相关性，因为等式一侧的那些产品经理已经开始思考或至少咨询市场的另一部分，“这对你意味着什么？”它将每个人聚集在一起，创造出适用于市场各个方面的非常清爽的产品。",
+   "ts": "00:28:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One thread I'm pulling out of a few of your stories so far is you often come back to this full-stack approach to many models. So you talked about how PM is like an influencer, but also, they're influencing users. That's a cool way of thinking about it. With this working backwards process, you can use it to think about the full stack of launch, not just what features you're going to build. I know you also have some strong opinions about product managers, and they should be much more full-stack than most PMs. Does that ring a bell, and if so, can you talk about that?",
+   "zh": "到目前为止，我从您的一些故事中提取的一条线索是，您经常会回到许多模型的全栈方法。所以你谈到了 PM 如何像一个影响者，而且他们也在影响用户。这是一个很酷的思考方式。通过这个向后工作的过程，您可以用它来考虑启动的完整堆栈，而不仅仅是要构建哪些功能。我知道你对产品经理也有一些强烈的看法，他们应该比大多数产品经理更加全栈。这是否引起了人们的注意？如果是的话，您能谈谈吗？",
+   "ts": "00:30:10"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yes. No, I think it is the same thread that is connecting the first and the second. I think product managers have to own outcomes and not only features and parts of the problem. Well, they will own some parts of the problem fully, but if they need to work with everybody to make sure that eventual product that they launch is successful and not only successful from the point of view of, \"Hey, we launched something that works for users,\" et cetera, that's not the definition of success. Did it work in the way that it really changed the behavior of the kind of user that we wanted to achieve a business outcome that will build a capability that is important for us? All of those things combined will not happen if the product manager is only thinking about their part. So they have to think about external users, they have to think about competition, they have to think about other product managers and product leaders about engineering, about marketing, and so on because it's such a diverse field. (00:31:36): Unless you really... and I'm not saying you need to be an authority of that. Either you are very, very good at that, or you have built partnerships, and have run your ideas or product through those people and gotten weighted from them, and finally made a decision around that part, I don't think you'll be very successful. So, in my opinion, the full-stack product managers are the ones who are going to be more successful rather than product managers who are doing very good at one particular area only. So there's one book which is Range, right? I'm sure you may have heard about it, right? Even the first chapter, what they talk about is... They take two examples. One is the example of Federer, Roger Federer. So, with Roger Federer, for example, I think I'll just continue that, that till 18, he played a bunch of racket sports, and this wasn't even tennis. But then, you bring in ideas from one racket sport to the other, and second to the third, and so on, and so forth, and now you have such a range of ideas that you can connect a lot more dots and actually ship it. I think that's a better playbook for being more successful in product.",
+   "zh": "是的。不，我认为连接第一条和第二条的是同一条线。我认为产品经理必须拥有结果，而不仅仅是问题的特征和部分。好吧，他们将完全承担问题的某些部分，但如果他们需要与每个人合作以确保他们推出的最终产品是成功的，而不仅仅是从“嘿，我们推出了适合用户的东西”等角度来看的成功，那么这不是成功的定义。它的工作方式是否真正改变了我们想要实现的业务成果，从而构建了对我们来说很重要的功能的用户行为？如果产品经理只考虑自己的部分，那么所有这些事情都不会发生。因此，他们必须考虑外部用户，他们必须考虑竞争，他们必须考虑其他产品经理和产品领导者的工程、营销等，因为这是一个如此多样化的领域。 (00:31:36)：除非你真的......而且我并不是说你需要成为这方面的权威。要么你非常非常擅长这一点，要么你已经建立了合作伙伴关系，并通过这些人来运行你的想法或产品并从他们那里获得权重，最后围绕这部分做出了决定，我认为你不会很成功。因此，在我看来，全栈产品经理会比只在某一特定领域表现出色的产品经理更成功。那么有一本书就是《Range》，对吧？我相信你可能听说过，对吧？即使是第一章，他们谈论的也是……他们举了两个例子。一是费德勒的例子，罗杰·费德勒。所以，以罗杰·费德勒为例，我想我会继续这样，直到 18 岁，他参加了一系列球拍运动，而这甚至不是网球。但是，然后，你将想法从一项球拍运动引入另一项运动，然后将第二项运动引入第三项运动，依此类推，现在你有了一系列的想法，你可以连接更多的点并实际交付它。我认为这是在产品方面取得更大成功的更好的策略。",
+   "ts": "00:30:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was just watching a documentary on... I think it was called Greatness and had Wayne Gretzky. He had exactly the same experience actually. When he was young, he played hockey just during the winter times, and during summer, he played other sports. Hockey was just like one sport he played, and then eventually started to focus on it, and they talked about how people that played different sports in their childhood actually ended up being much better at that one sport that they chose. So a lot of parallels. I know you also have a lot of interesting ways of thinking about coming up with a roadmap ideas, and ideating and building a roadmap backlog. So you already talked about this idea of going in very divergent directions and seeing if that leads anywhere. There's a couple more someone shared. One is you have this idea of show don't tell. What is that?",
+   "zh": "我刚刚在看一部关于……我想它叫《伟大》的纪录片，里面有韦恩·格雷茨基。他实际上也有过完全相同的经历。当他年轻的时候，他只在冬天打曲棍球，夏天则参加其他运动。曲棍球就像他玩的一项运动一样，然后最终开始专注于它，他们谈论了在童年时期参加不同运动的人实际上如何在他们选择的一项运动中表现得更好。所以有很多相似之处。我知道您也有很多有趣的方式来思考提出路线图想法，以及构思和构建路线图积压工作。所以你已经谈到了朝着非常不同的方向前进并看看是否会带来任何结果的想法。还有人分享了一些。一是你有这种“表演而不是讲述”的想法。那是什么？",
+   "ts": "00:32:41"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Actually, show don't tell is an idea which is an extension of what we are talking about from what backwards. When we're talking about working backwards, one is a PR FAQ which is a written documentation of what we are trying to achieve. Show don't tell is essentially a way in where the product manager starts ideating with the entire experience, and they actually create all the collaterals together of a user they need to begin with if you're working on a single-play product which is a single-user product. Then, you actually start bringing together your marketers and others in terms of, \"What is literally the first screen, and how is my user getting here?\" It's not as simple as he imagines somebody who will be doing this and reaching here. We try to recreate an exact situation. (00:34:16): There's a concept of person, not personas. So we'll talk about personas, but we try to go to, \"All right. No. Don't think about agentic user. Let's say Lenny, 30 years old, doing A, B, C things, earning this much, et cetera, et cetera. His relationship with this category of food delivery is X. These are the things that he has done in the last month. In the last three days, there were the needs, desires, aspirations, fears, frustrations, et cetera, et cetera.\" We say, \"Okay. It's 11:00. What's happened? Why is this user open, or what triggered this particular app, and then what happened?\" So you literally start from there, and I think 50% of my product reviews are on that part, and then when we say, \"All right. Then, this app got open. Do we have the right kind of way forward for Lenny to actually achieve what he came here for?\" Literally, each pixel, and each copy, and each word is going to be in service of that part. (00:35:08): So that's showing the entire journey rather than just staying and assuming. So that is something that I've found really powerful with respect to even designing products or even thinking about why are we building something. What it also helps is when we are building complex products, especially in marketplaces because once you are building this for the user, simultaneously, something is happening on the other part if it is simultaneous, if it's a real-time marketplace, or something like that. So you're building something for the user and saying, \"All right. If this guy ordered, now there's a 30 minutes time when our delivery executors will come to the user with food. What is happening? What's the emotional state of the user, and let's plot out the 30 minutes time, and let's create various scenarios. Is it like, 'Hey, maybe he went to the restaurant, and the food is delayed,' or the dude on a bike, his bike got punctured, et cetera. Now, what is the consumer thinking at this time?\" So you show all of those things in real time, and that cuts out a whole bunch of random ways in which the product could have looked like if you're creating even a chatbot. So just having that showcase of all journeys coming together helps a lot in building your products in the right way.",
+   "zh": "实际上，“表演而不是讲述”是一个想法，它是我们所讨论的内容向后延伸的一个想法。当我们谈论逆向工作时，其中一个是公关常见问题解答，它是我们试图实现的目标的书面文档。展示而不讲述本质上是产品经理开始构思整个体验的一种方式，如果您正在开发单人产品（即单用户产品），他们实际上会一起创建他们需要开始的所有用户资料。然后，您实际上开始将营销人员和其他人聚集在一起，讨论“第一个屏幕实际上是什么？我的用户如何到达这里？”这并不像他想象的那么简单，有人会这样做并到达这里。我们尝试重现一个确切的情况。 (00:34:16)：有一个人的概念，而不是角色。所以我们会讨论人物角色，但我们会尝试去说，“好吧。不。不要考虑代理用户。假设 Lenny，30 岁，做 A、B、C 的事情，赚了这么多，等等。他与此类送餐的关系是 X。这些是他在上个月所做的事情。在过去的三天里，有需求、欲望、愿望、恐惧、挫败感等。诸如此类，等等。”我们说，“好吧。现在是 11:00。发生了什么？为什么这个用户打开，或者是什么触发了这个特定的应用程序，然后发生了什么？”所以你真的从那里开始，我认为我 50% 的产品评论都在这一部分，然后当我们说，“好吧。然后，这个应用程序开放了。我们是否有正确的前进方向，让莱尼真正实现他来这里的目的？”从字面上看，每个像素、每个副本、每个单词都将为该部分服务。 (00:35:08)：所以这展示了整个旅程，而不仅仅是停留和假设。因此，我发现这对于设计产品或什至思考我们为什么要构建某些东西来说非常强大。它还有帮助的是，当我们构建复杂的产品时，尤其是在市场中，因为一旦你为用户构建这个产品，同时，另一部分就会发生一些事情，如果它是同时发生的，如果它是实时市场，或者类似的东西。所以你正在为用户构建一些东西，并说：“好吧。如果这个人点了餐，现在我们的送货执行者将在 30 分钟内给用户送食物。发生了什么？用户的情绪状态如何，让我们规划出这 30 分钟的时间，然后创建各种场景。是不是像，‘嘿，也许他去了餐厅，食物被延误了’，或者骑自行车的家伙，他的自行车得到了刺穿等等。现在，消费者此时在想什么？”因此，您可以实时显示所有这些内容，并且如果您正在创建聊天机器人，那么就消除了产品可能看起来的一大堆随机方式。因此，仅仅展示所有旅程的结合对于以正确的方式构建您的产品有很大帮助。",
+   "ts": "00:33:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, essentially, just getting very detailed and very concrete with the product experience that you're building thinking about the user experience. Sounds like a lot of work. I can't imagine you do this often. Is the advice here to do this once a year or once and just keep it updated? It sounds like you did this at Swiggy, and that was a really impactful way of building the product.",
+   "zh": "因此，从本质上讲，只需非常详细和具体地了解您正在构建的产品体验，并考虑用户体验。听起来工作量很大。我无法想象你经常这样做。这里的建议是每年执行一次还是一次并保持更新？听起来您在 Swiggy 就是这样做的，这是构建产品的一种非常有影响力的方式。",
+   "ts": "00:36:19"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yeah. I think there's not only one way actually. I think I recommend this every product manager to do a show don't tell version of their current version. At the same time, there's a new version all the time. So they can compare and contrast, and very easily explain to everyone why they're doing something. In fact, that wall... So it's called a wall. It also becomes one common place where you can get all the stakeholders in because it becomes... Instead of just doing the elevator pitch, you can actually do detailed discussions on why I'm choosing this versus something else, and so on, and so forth. That's a product manager's version of doing this. (00:37:10): There's also a product leader's version of doing this thing which is recycle strategy on a page, and a lot of people call it like growth loops. Right? Don't show our user's journey. Now, let's see the entire strategy of the company together on one page. \"All right. This is what the market looks like, and why will we get what kind of users? What is our activation budgets, and how many of them are we going to get to this next stage and get them to use it? How will we get them to cross-pollinate into different sections? Do we need a membership program? Are there any different levers which will press more or less and so on?\" So that also is a show don't tell, and not only one, but usually, I like to create three of them as well like, \"Why did we choose a strategy versus the other?\" That, for example, is a very good way for our product leaders to get to one strategy that their CXOs align with and something that they can essentially tell the entire product and other teams, \"This is what we're going to follow.\"",
+   "zh": "是的。我认为实际上不止一种方法。我想我建议每个产品经理都做一个展示，不要告诉他们当前版本的版本。与此同时，不断有新版本出现。这样他们就可以进行比较和对比，并且很容易地向每个人解释他们为什么要做某事。其实那堵墙……所以才叫墙。它也成为一个常见的地方，你可以让所有利益相关者参与其中，因为它变得……你不仅可以进行电梯游说，还可以详细讨论为什么我选择这个而不是其他东西，等等。这是产品经理的做法。 (00:37:10)：还有一个产品负责人的版本，即页面上的回收策略，很多人称之为增长循环。正确的？不要展示我们用户的旅程。现在，让我们在一页上一起看到公司的整个战略。 “好吧。这就是市场的样子，为什么我们会吸引什么样的用户？我们的激活预算是多少，我们要进入下一阶段并让他们使用多少用户？我们如何让他们交叉授粉到不同的部分？我们是否需要会员计划？是否有任何不同的杠杆可以或多或少地施加压力等等？”因此，这也是一个无法讲述的节目，不仅是一个，而且通常，我也喜欢创建其中三个，例如“为什么我们选择一种策略而不是另一种策略？”例如，对于我们的产品负责人来说，这是一种非常好的方法，可以让他们的 CXO 制定出符合的策略，并且他们基本上可以告诉整个产品和其他团队，“这就是我们要遵循的策略。”",
+   "ts": "00:36:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Wix Studio. Your agency has just landed a dream client, and you already have big ideas for the website, but do you have the tools to bring your ambitious vision to life? Let me tell you about Wix Studio, the new platform that lets agencies deliver exceptional client sites with maximum efficiency. How? First, let's talk about advanced design capabilities. With Wix Studio, you can build unique layouts with a revolutionary grid experience and watch as elements scale proportionally by default. No-code animations add sparks of delight while adding custom CSS gives total design control. Bring ambitious client projects to life with any industry with a fully integrated suite of business solutions from e-commerce to events, bookings, and more, and extend the capabilities even further with hundreds of APIs and integrations. You know what else? The workflows just make sense. There's the built-in AI tools, the on-Canvas collaborating, a centralized workspace, the reuse of assets across sites, the seamless client handover, and that's not all. Find out more at wix.com/studio. (00:39:14): What kind of impact have you seen from implementing something like this, or is there an example of something that came out of this that was a big unlock? Again, it's probably a lot of work for someone to put together a whole board, keep it updated, screenshots, marketing, funnels of where people are coming from. What sort of impact do you see from doing this either on growth or people, what people think?",
+   "zh": "本集由 Wix Studio 为您带来。您的代理机构刚刚找到了一位梦想客户，并且您已经对网站有了很大的想法，但是您是否拥有将您的雄心勃勃的愿景变为现实的工具？让我向您介绍一下 Wix Studio，这个新平台可以让代理机构以最高效率交付卓越的客户网站。如何？首先我们来谈谈先进的设计能力。借助 Wix Studio，您可以通过革命性的网格体验构建独特的布局，并观察元素默认按比例缩放。无代码动画增添了欢乐的火花，而添加自定义 CSS 则提供了全面的设计控制。借助从电子商务到活动、预订等的完全集成的业务解决方案套件，将雄心勃勃的客户项目带入任何行业，并通过数百个 API 和集成进一步扩展功能。你知道还有什么吗？工作流程才有意义。还有内置的人工智能工具、画布上的协作、集中的工作空间、跨站点的资产重用、无缝的客户端移交，而这还不是全部。如需了解更多信息，请访问 wix.com/studio。 (00:39:14)：您从实施这样的事情中看到了什么样的影响，或者是否有一个由此产生的重大解锁的例子？再说一遍，对于某人来说，将整个面板放在一起，保持更新，屏幕截图，营销，人们来自哪里的渠道可能需要做很多工作。您认为这样做对增长或人们有什么样的影响，人们的想法如何？",
+   "ts": "00:38:09"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "I think the largest impact that happens here is on alignment, so how CXOs are thinking if that is not very clear, and that can be a document, and so on, and so forth. But for a lot of people, it's not very clear on... I can see one part of the funnel. I can understand... The marketing team can understand the best why we are acquiring those users, but they don't fully see the picture of, \"If I attract this kind of users, why will these users become loyal, and what does that entire thing look like or, say, some other team which is building a part of the product? Where do I come in and so on?\" So I think the largest impact that the show don't tell has is on, basically, getting the entire company together on the same page and them being able to understand why I'm doing, and which part of the entire picture I am working on, and why others are working on so that I can actually work with them to solve that part. That's one. (00:40:30): The other thing that it helps, Lenny, is it also helps in choosing directions, like I said, because we are not doing one, but three of them. I'm choosing one alternative versus the other, and sometimes these strategic discussions, they can get going all sorts of different ways, and maybe you will talk about one particular unique point and go deeper rather than look at the entire picture together and say, \"This is good because of all of these five points that we presented in page one versus the other one.\"",
+   "zh": "我认为这里发生的最大影响是一致性，如果这不是很清楚的话，CXO 是如何思考的，这可以是一个文档，等等。但对于很多人来说，这并不是很清楚……我可以看到漏斗的一部分。我可以理解……营销团队最能理解我们为什么要获取这些用户，但他们并没有完全了解“如果我吸引了这类用户，为什么这些用户会变得忠诚，整个事情是什么样子，或者说，其他一些团队正在构建产品的一部分？我从哪里进来等等？”所以我认为这部剧没有讲述的最大影响基本上是让整个公司聚集在同一页面上，他们能够理解我为什么这样做，我正在研究整个图片的哪一部分，以及为什么其他人正在研究，这样我就可以真正与他们合作解决该部分。这是一个。 (00:40:30)：莱尼，它的另一件事是它也有助于选择方向，就像我说的，因为我们不是在做一个，而是三个。我选择一种替代方案而不是另一种方案，有时这些战略讨论可以以各种不同的方式进行，也许你会谈论一个特定的独特点并进行更深入的讨论，而不是一起看整个图片并说：“这很好，因为我们在第一页和另一页中提出了所有这五点。”",
+   "ts": "00:39:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think the other benefit, just one of the benefits of working backwards in Amazon's whole written-down memo approach is it forces you to crystallize ideas and not stay superficial because there's so many good ideas in theory. But then, when you have to get really concrete, that's actually a terrible idea. Basically, it's the same benefit in a lot of ways of get very concrete. What are you actually going to do? That will help you identify, \"Okay. This isn't going to work. What are we even thinking?\" So I like that. Awesome. Okay. Another framework that you have is something that you call the four BB framework for product strategy. Can you talk about what that's all about?",
+   "zh": "我认为另一个好处，只是亚马逊整个书面备忘录方法中逆向工作的好处之一，它迫使你具体化想法，而不是停留在肤浅的层面上，因为理论上有很多好想法。但是，当你必须变得非常具体时，这实际上是一个糟糕的主意。基本上，它在很多方面都有同样的好处，而且非常具体。你实际上打算做什么？这将帮助你识别，“好吧。这行不通。我们到底在想什么？”所以我喜欢这样。惊人的。好的。您拥有的另一个框架被称为产品战略的四个 BB 框架。你能谈谈这到底是怎么回事吗？",
+   "ts": "00:41:01"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "We essentially saw that if a startup actually usually wants to do a bunch of things across the border, there's always like, \"Hey, I should be investing in tech debt or building core platforms. That would really help my product in the long term. That's super important,\" and that's my engineering managers and largely, people asking for that bandwidth. Then, there is the product manager themselves who's basically saying, \"I want to do feature enhancement, bug fixes, my version twos, a few areas, experiments, and so on, and so forth.\" That's a regular product backlog that would work on screen by screen, and there's this leadership which will say, \"You know what? Now, we have a suite of products. Now, I want to take a large delta bit that may work. It may not work, but we need to make sure that it works, but I need work across teams, and it's not only one person that needs to do it. I need contribution from four or five of you that come together and deliver that,\" or there are places where a company is just reimagining their identity, or they're pivoting which is like, \"All right. We were doing X. Now, we are doing X plus Y. That's how we want to be known,\" or, \"We were doing X. Now, we want to do very little of X because current consumers, okay, we will take care of them, but now we want to pivot into Y.\" (00:42:55): So it usually is in four of these buckets, and what really happens is it gets down to product managers eventually prioritizing between these four. So I don't think it's a tactical prioritization product manager call. It really is a product strategy call, and the conversation that needs to happen is between, say, the head of product and the CEO or even the leadership. If I gave you a hundred focus points, how much will you put in each of these buckets, and what are those four buckets? Those are the four BB buckets, so what are the ones? We call them... First BB is Brilliant Basics. The reason why we call it BB, Brilliant Basic, you need to brand... You cannot brand it as tech debt, so it feels like very off because these are brilliant, these are important. That's what the company's built on, and the company needs to invest in that. So that's one. (00:43:46): The second one is Bread and Butter. So that's your backlogs. If the product managers had no big ideas, and they just were left on their own, what would they come up with in terms of just improving that line of business that they're given? Then, there are Big Bets. Now, that's where your larger ideas that have come together, but how many big bets should we take, or is this big bet even a big one? That's where you're working backwards or PR FAQs start becoming even more important because those are the kind of bets that cannot be taken without everybody basically signing up, working backwards, and saying, \"We will all make this successful.\" (00:44:26): Breaking Bad essentially is a different world altogether. That's where you want to redefine your company. For example, in Swiggy, if we were doing food delivery, now we want to do grocery delivery as well. It's like these are two companies working together, or from a food delivery company, we wanted to become a convenience company. So that's almost breaking bad. Again, like I said, we got cheesy, but the good thing that happens is now what you can do is, along with your leadership, take stock, and the head of product essentially can say, \"You know what? In the next year, I can invest a lot less on my brilliant basics, and we should as a company focus a lot on this breaking back because that is existential.\" But then, we should not look back and say, \"Why were tech systems a little bit broken this time? We had a little bit more down times.\" (00:45:17): You can basically blow it out and almost showcase what to expect. For example, if we are just working on a whole bunch of bread and butters, so you'll start seeing a lot fewer bugs, customers will be a little happier. You worked a lot more... drill in basics. Tech systems are nice, but you didn't create any differentiators. Well, none of your bets went out, and your competitors are catching up. So does that sound like a better future? These are hard questions, and these privatization questions... I don't think of product management questions so much as product strategy questions, but in a lot of cases, executors don't know what they're trading off against. (00:45:53): So if you are able to create the conversation around which buckets do we want to put in and create three alternatives... I have tried to do that a bunch of times. Let's look at strategy A, and we see how to be divergent. Suppose we were putting a lot fewer focus points in brilliant basics and a lot more on, for example, big bets, then there will be a risk that they will be like, \"We won't have any experiments or very less experiments. Bugs will stay bugs, but we will get a shot at changing the game.\" Is that a future that sounds better or something else which is like because you're pained also by a lot of bugs and constant down times, which is more secure, but we won't build something amazing, so which sounds better? Because you are able to drive that, now the clarity to the product managers is way clearer in terms of what will they do. Also, they would know that if they have been signed up for a big bet, then they will need to contribute to the PR FAQ. They will need to contribute to the actual working on that irrespective of what their product was, but now they're part of something bigger.",
+   "zh": "我们基本上看到，如果一家初创公司实际上通常想要跨境做很多事情，那么总是会这样，“嘿，我应该投资技术债务或构建核心平台。从长远来看，这确实对我的产品有帮助。这是非常重要的，”这就是我的工程经理和很大程度上要求这种带宽的人。然后，产品经理自己基本上会说：“我想做功能增强、错误修复、我的版本二、一些领域、实验等等。”这是一个常规的产品积压工作，会在屏幕上逐个屏幕地工作，领导层会说，“你知道吗？现在，我们有一套产品。现在，我想要采取可能有效的大增量。它可能行不通，但我们需要确保它有效，但我需要跨团队工作，而且需要的不仅仅是一个人。我需要四五个人的贡献，齐心协力并交付它，”或者在某些地方，公司只是重新构想他们的身份，或者他们正在转向，“好吧。我们正在做 X。现在，我们正在做 X 加 Y。这就是我们想要被认识的方式，”或者，“我们正在做 X。现在，我们想做很少的 X，因为当前的消费者，好吧，我们会照顾他们，但现在我们想转向 Y。” (00:42:55)：所以它通常分为四个类别，而真正发生的情况是产品经理最终在这四个类别之间确定优先级。所以我不认为这是产品经理的战术优先级呼吁。这实际上是一次产品战略电话会议，需要在产品主管和首席执行官甚至领导层之间进行对话。如果我给你一百个焦点，你会在每个桶中投入多少，这四个桶是什么？这是四个 BB 桶，那么是哪些呢？我们称它们为……First BB 是 Brilliant Basics。我们之所以称之为 BB，Brilliant Basic，你需要品牌化……你不能将其品牌化为技术债务，所以感觉很不对劲，因为这些很出色，这些很重要。这就是公司的基础，公司需要对此进行投资。这就是其中之一。 (00:43:46)：第二个是《面包和黄油》。这就是您的积压订单。如果产品经理没有什么伟大的想法，他们只能靠自己，那么他们会想出什么来改进他们所分配的业务线呢？然后，还有大赌注。现在，这就是你更大的想法聚集在一起的地方，但我们应该下多少大赌注，或者这个大赌注甚至是一个大赌注？这就是你要逆向工作的地方，或者公关常见问题解答开始变得更加重要，因为如果没有每个人基本上都签名、逆向工作并说“我们都会让这件事成功”，那么这些赌注是不可能进行的。 (00:44:26)：《绝命毒师》本质上是一个完全不同的世界。这就是您想要重新定义您的公司的地方。例如，在 Swiggy，如果我们从事食品配送，现在我们也想做杂货配送。就好像这是两家公司一起合作，或者从一家食品配送公司，我们想成为一家便利公司。所以这几乎是坏事。再说一次，就像我说的，我们变得俗气，但现在发生的好事是，你现在可以做的是，在你的领导力的帮助下，进行盘点，产品负责人基本上可以说，“你知道吗？明年，我可以减少对我出色的基础产品的投资，作为一家公司，我们应该重点关注这种突破，因为这是事关生存的。”但是，我们不应该回头说：“为什么这次技术系统有点坏了？我们的停机时间多了一点。” (00:45:17)：你基本上可以把它吹出来并几乎展示出预期的结果。例如，如果我们只是在生产一大堆面包和黄油，那么您会开始看到更少的错误，客户会更高兴一些。你做了更多的工作...基础知识的练习。技术系统很好，但你没有创造任何差异化因素。好吧，你的赌注都没有兑现，而你的竞争对手正在迎头赶上。那么这听起来像是一个更美好的未来吗？这些都是难题，这些私有化问题……我认为产品管理问题不如产品策略问题，但在很多情况下，执行者不知道他们要权衡什么。 (00:45:53)：所以，如果你能够围绕我们想要放入哪些存储桶创建对话并创建三个替代方案......我已经尝试过很多次了。让我们看看策略A，看看如何发散。假设我们在出色的基础知识上投入了更少的关注点，而更多地投入到大赌注等方面，那么他们就会有这样的风险：“我们不会进行任何实验或很少进行实验。错误将永远是错误，但我们将尝试改变游戏规则。”这是一个听起来更好的未来，还是其他一些听起来更好的东西，因为你也因为很多错误和持续的停机时间而痛苦，这更安全，但我们不会构建一些令人惊奇的东西，所以哪个听起来更好？因为你能够推动这一点，所以现在产品经理更清楚他们要做什么。此外，他们会知道，如果他们已经注册了一个大赌注，那么他们将需要为公关常见问题解答做出贡献。无论他们的产品是什么，他们都需要为实际工作做出贡献，但现在他们是更大事业的一部分。",
+   "ts": "00:41:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. I love it. Okay. So just to summarize so people can have just a very short definition of this framework. Brilliant Basics is essentially tech debt and things that you just have to do like hygiene almost. Bread and Butter is essentially optimizing the product, existing product. Big Bets are big bets, and Breaking Bad are just future big rocket like moon shots just transform the way the business works?",
+   "zh": "惊人的。我喜欢它。好的。总结一下，这样人们就可以对这个框架有一个非常简短的定义。辉煌的基础本质上是技术债务和你只需要做的事情，比如卫生。 Bread and Butter 本质上是在优化产品、现有产品。大赌注就是大赌注，《绝命毒师》只是未来的大火箭，就像登月一样，只是改变了商业运作的方式？",
+   "ts": "00:47:03"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "That's right.",
+   "zh": "这是正确的。",
+   "ts": "00:47:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. It's also interesting. Another thread that comes up again and again in your advice is exploring all the options before committing to one like you always... I think it sounds like you always try to recommend three. I guess let me say what I always find is important there is I think it's important for the product manager to recommend one along with that. It's not just like, \"Here's three. You tell me which one you do.\" It's like, \"Here's three. Here's my recommendation why.\" Is that your advice too, or do you see something-",
+   "zh": "我喜欢它。这也很有趣。您的建议中一次又一次出现的另一个主题是在像往常一样做出选择之前探索所有选项……我认为听起来您总是尝试推荐三个。我想让我说一下我一直认为很重要的一点，我认为产品经理推荐一个也很重要。这不仅仅是“这是三个。你告诉我你做哪一个。”就像，“这是三个。这是我的推荐原因。”这也是你的建议吗，还是你看到了什么——",
+   "ts": "00:47:30"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "100%, 100%. So when you have explored the three, you essentially have done the work one like, \"I have covered all bases and also crystallized them into a concrete option. Now, I'm choosing one on the company's behalf on the basis of whatever I know about the market, about the company, about our strategy, and about how we will make it successful.\" Now, if I miss something, it's also a time where you can actually work with leadership and other product managers to essentially get that knowledge complete, or if you're 80% right, you can actually use elements of strategy two and strategy three to bring into one. So that's always the way that your thing that... one very concrete option, but because you have these other tools so that you're not missing and bringing it together. But ultimately, you're the one who is going to champion this, and that's where the other leadership element of Amazon comes in which is disagree and commit. But once we have aligned on this one, we'll all commit to launching this, and then the leadership should not go back and forth on that part.",
+   "zh": "100%，100%。因此，当你探索了这三者之后，你基本上就完成了一项工作，比如“我已经涵盖了所有基础，并将它们具体化为一个具体的选择。现在，我根据我对市场、公司、我们的战略以及我们如何使其成功的了解，代表公司选择一个。”现在，如果我错过了什么，你也可以与领导层和其他产品经理实际合作，从根本上完成这些知识，或者如果你的正确率达到 80%，你实际上可以使用策略二和策略三的要素将其整合到一起。所以这始终是你的事情......一个非常具体的选择，但因为你有这些其他工具，所以你不会错过并将它们组合在一起。但最终，你是那个要拥护这一点的人，这就是亚马逊的另一个领导元素的用武之地，即不同意和承诺。但一旦我们在这一问题上达成一致，我们都会致力于启动这一项目，然后领导层就不应该在这方面来回摇摆。",
+   "ts": "00:47:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. I want to go in a completely different direction. It feels like you have a lot of contrarian opinions about how to build product, and how to build teams, and build companies, and things like that, so I just want to start broad. What are some things you have contrarian opinions about, things you believe that a lot of other people maybe don't believe or seek differently?",
+   "zh": "惊人的。我想走向一个完全不同的方向。感觉你对如何构建产品、如何构建团队、如何创建公司等等有很多相反的观点，所以我只想从广泛的角度开始。您对哪些事情有相反的看法，您认为很多其他人可能不相信或有不同的寻求？",
+   "ts": "00:48:59"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "So one, for example, excellence and speed. There's always a question around that. \"Hey, would you rather ship faster, or would you rather ship better?\" In my opinion, when you have to make a choice, think more and ship better. Most experiments should be thought experiments. They should not even be tried out because they're obviously going to fail which is contrary to, \"Let's try it out, and then let's see.\" I think that wastes a lot of company time. If you had smart people who could do metathinking, a lot of experiments would just not even be like... It's not a rule, but it's a preference. I think speed and excellence are two different axes. Ideally, you should be better at both, but if you had to choose one, choose excellence. (00:50:04): There's another contrarian opinion which is... I think most product managers, and again, I'm probably talking a little bit of the kind of people that I work with and have interacted with in product. Most product managers should not even be product managers. They should think a little bit more around whether this is actually the right field for them because I think a lot of people from other areas have entered the field without fully realizing what it takes. So there is definitely a way in which you can coach yourself, and then work your way upwards of that one, but it can make you quite miserable if it's not right for you.",
+   "zh": "例如，卓越和速度。总是有一个问题围绕着这个问题。 “嘿，你愿意运送得更快，还是运送得更好？”在我看来，当你必须做出选择时，多思考并提供更好的服务。大多数实验应该是思想实验。它们甚至不应该被尝试，因为它们显然会失败，这与“让我们尝试一下，然后看看”相反。我认为这浪费了很多公司时间。如果你有聪明的人可以进行元思考，那么很多实验就不会像……这不是规则，而是一种偏好。我认为速度和卓越是两个不同的轴。理想情况下，你应该在这两方面都做得更好，但如果你必须选择其中之一，那就选择卓越。 (00:50:04)：还有另一种相反的观点，那就是……我认为大多数产品经理，再说一次，我可能会谈论一些与我一起工作并在产品中与之互动的人。大多数产品经理甚至不应该成为产品经理。他们应该更多地思考这是否真的适合他们，因为我认为很多来自其他领域的人已经进入这个领域，但没有完全意识到它需要什么。所以肯定有一种方法可以让你自我指导，然后继续努力向上，但如果它不适合你，它会让你非常痛苦。",
+   "ts": "00:49:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there something folks should look for there that will tell them you probably shouldn't be a product manager? Either motivation, or skill set, or background, or anything?",
+   "zh": "人们应该在那里寻找一些东西来告诉他们你可能不应该成为产品经理？要么是动机，要么是技能，要么是背景，还是其他什么？",
+   "ts": "00:50:49"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "No. I don't think about particular domains that you come from. I have, again, a simple framework of three. I think the first thing is essentially raw sharps, and that can manifest itself into problem identification and problem solving. That's one, and also, higher-order thinking and all of that. I think that is super important. The second one is what I call drive or grit. I think with that comes a whole bunch of qualities around curiosity, learnability, never giving up, consumer-backward thinking, \"I really want to solve this,\" and all of that that comes with that. Third, which is a little difference, we talked about that, is influence. You're in the business of influence, and if you can see yourself that, \"I'm built this way,\" or, \"I want to really get better at these,\" that's when I think this field is going to serve you well.",
+   "zh": "不，我不会考虑您来自的特定领域。我再次有一个简单的三个框架。我认为第一件事本质上是原始锐利，这可以体现在问题识别和解决问题上。这就是其中之一，也是高阶思维等等。我认为这非常重要。第二个是我所说的动力或毅力。我认为随之而来的是好奇心、学习能力、永不放弃、消费者落后思维、“我真的想解决这个问题”等一系列品质，所有这些都随之而来。第三，我们谈到了一点区别，那就是影响力。你从事的是影响力行业，如果你能看到自己，“我就是这样构建的”，或者“我真的想在这些方面做得更好”，那么我认为这个领域将会很好地为你服务。",
+   "ts": "00:50:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that everything is three. How handy.",
+   "zh": "我喜欢一切都是三的。多么方便啊。",
+   "ts": "00:51:45"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Only the BBs are four. I wish I could compress them three.",
+   "zh": "只有 BB 是四个。我希望我能把它们压缩成三个。",
+   "ts": "00:51:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. There's too many things to do there. Essentially, these are maybe your perspective on the most important PM skills. A good way to think about it. Influence, grit, and just being smart.",
+   "zh": "是的。那里有太多事情要做。从本质上讲，这些可能是您对最重要的 PM 技能的看法。一个很好的思考方式。影响力、勇气和聪明。",
+   "ts": "00:51:51"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Mm-hmm.",
+   "zh": "嗯嗯。",
+   "ts": "00:52:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think what you said here is not like you have to be amazing at these to get into product and do well. It's you need to be excited about getting better at these skills.",
+   "zh": "我认为你在这里所说的并不是说你必须在这些方面表现出色才能进入产品并做得很好。你需要对提高这些技能感到兴奋。",
+   "ts": "00:52:03"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yes. That's right.",
+   "zh": "是的。这是正确的。",
+   "ts": "00:52:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome.",
+   "zh": "惊人的。",
+   "ts": "00:52:12"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Well, I think it's not as if that everybody is born with a lot of influence. Of course, you can get better at it, but it's a prospect of that, \"Hey, I will need to be influential to succeed at this job.\" That should excite you and not scare you away. You should not think like, \"Hey, you know what? I can get away from this and still be very successful product manager,\" because most likely, you will not.",
+   "zh": "嗯，我认为并不是每个人生来就有很大的影响力。当然，你可以做得更好，但这是一个前景，“嘿，我需要有影响力才能在这份工作上取得成功。”这应该会让你兴奋而不是吓跑你。你不应该这样想：“嘿，你知道吗？我可以摆脱这个，并且仍然是非常成功的产品经理，”因为很可能你不会。",
+   "ts": "00:52:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe spending a little more time here. So, smart, you're probably not going to be able to do a lot about. In terms of grit or influence, is there anything you can share about what you've seen most helps people develop at these skills other than just doing the job for a while, and then starting to get better at this?",
+   "zh": "也许在这里多花一点时间。所以，聪明的，你可能无能为力。就勇气或影响力而言，您是否可以分享一下您所看到的最能帮助人们发展这些技能的东西，而不仅仅是做一段时间的工作，然后开始做得更好？",
+   "ts": "00:52:34"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yeah. I think even smartness, I think 80% of that smartness, I think, is something that's very achievable. You don't need to be outstanding on that. Domain knowledge, for example, is something just like... An average smart person with no domain knowledge versus you armed with a lot of knowledge around domain and so on can already take you there, but you can take better decisions. I think first one is more about decision-making, problem identification, problem solving, and all of that. So I think that really can be developed at least to a level where you are very effective. Drive, I think, is probably the hardest to coach, probably the hardest. I've not seen people with less drive actually eventually turning out with a lot of drive, et cetera, but they can be inspired. I think you need to be a person who can think about it that way, but the third one, influences, I think, there's no negotiation there. You need to really think that, \"I have to be good at this one.\" (00:53:46): There's another framework that, Lenny, I wanted to talk about. When I look at product leadership in general and how do you think about different people and so on. When is it a product manager problem, or your problem, or a company problem? There are only three reasons, again, why things do not happen the way you want them to happen as a leader. You can look at a person, and you would say either that person can't do, which is a capability issue, or they won't do, which is a motivation or an alignment issue, or they were not set up to do, which is really your problem, that you didn't set up the ways of working now design properly, or we are okay as such and such, and so on, and so forth. (00:54:26): So, as a leader, it's almost the opposite of what we talked about, great influence and raw sharps. Do you have the right people in terms of capability? If not, is the right answer for us to coach them or to really put them... or mentor them and so on, or move them to some other place because maybe their capability is suited elsewhere? If they won't do, why won't they? Are they not aligned to you? Do they not agree with your vision? Do they not just have enough time? So on and so forth. So you need to really go deeper there. Why won't they do? (00:55:05): There are different answers for that, but if it's a setup issue, and at least I've realized that apart from what product managers can do, almost 70%, 80% of problems why things don't happen are a setup issue. Product leaders or other leaders have not thought through what OKRs are doing to my company, not really fully thought through around org design. If you've read the book called TEEN Topologies, that's one interesting book which starts with Conway's law and essentially saying, \"Show me an engineering architecture, and I will actually tell you what the org design of this company is,\" but that also manifests itself in products that you can basically look at a product. In most cases, you will be able to say what was org design that led to this kind of product.",
+   "zh": "是的。我认为即使是聪明，我认为 80% 的聪明也是可以实现的。你不需要在这方面表现出色。例如，领域知识就像……一个没有领域知识的普通聪明人与拥有大量领域知识的你相比，已经可以带你到达那里，但你可以做出更好的决策。我认为第一个更多的是关于决策、问题识别、问题解决等等。所以我认为至少可以发展到非常有效的水平。我认为，驾驶可能是最难教练的，也可能是最难的。我还没有看到那些动力不足的人最终会变得动力十足，等等，但他们可以受到启发。我认为你需要成为一个能够这样思考的人，但第三个，影响，我认为，那里没有谈判。你需要认真思考，“我必须擅长这一点。” (00:53:46)：Lenny，我想谈谈另一个框架。当我总体上看待产品领导力以及你如何看待不同的人等等时。什么时候是产品经理的问题，还是你的问题，还是公司的问题？同样，事情没有按照你作为领导者希望的方式发生的原因只有三个。你可以看着一个人，你会说，要么那个人不能做，这是一个能力问题，要么他们不会做，这是一个动机或一致性问题，或者他们没有被设置去做，这实际上是你的问题，你没有正确设置现在设计的工作方式，或者我们这样等等都可以，等等。 (00:54:26)：所以，作为领导者，这几乎与我们谈论的相反，巨大的影响力和原始的锐利。就能力而言，您是否拥有合适的人员？如果不是，那么正确的答案是我们指导他们或真正安置他们......或指导他们等等，或者将他们转移到其他地方，因为也许他们的能力适合其他地方？如果他们不做，为什么不做？他们与你不一致吗？他们不同意你的愿景吗？他们的时间还不够吗？等等。所以你需要真正深入那里。他们为什么不这样做？ (00:55:05)：对此有不同的答案，但如果这是一个设置问题，至少我已经意识到，除了产品经理可以做的事情之外，几乎 70%、80% 的事情没有发生的问题都是设置问题。产品领导者或其他领导者没有思考 OKR 对我的公司做了什么，没有真正充分思考组织设计。如果你读过《TEEN Topologies》这本书，那是一本有趣的书，它从康威定律开始，本质上是说，“给我展示一个工程架构，我实际上会告诉你这家公司的组织设计是什么”，但这也体现在产品中，你基本上可以看到一个产品。在大多数情况下，您将能够说出是什么组织设计导致了此类产品。",
+   "ts": "00:52:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have heard that book mentioned a couple of times recently. I got to check it out just to the three you just shared, which is another three. I love it. Can do, won't do. What was the third one again, didn't do?",
+   "zh": "我最近多次听到有人提到这本书。我只检查了你刚才分享的三个，这是另外三个。我喜欢它。能做，不会做。第三个又是什么，没做？",
+   "ts": "00:55:51"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Not set up to do.",
+   "zh": "没有设置做。",
+   "ts": "00:56:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Not set up to do. That one is long. That's a long one. I think what's cool about these are they're essentially ways to measure performance. Maybe if you're a product manager, like performance reviews, it's like, \"Did you have the skills to do this? Did you have the motivation to do this, or is it something not set up for you?\" You weren't set up for success, basically?",
+   "zh": "没有设置做。那个很长。那是一篇很长的文章。我认为这些的最酷之处在于它们本质上是衡量性能的方法。也许如果你是一名产品经理，就像绩效评估一样，“你有能力做到这一点吗？你有动机这样做吗？或者这不是为你设置的吗？”基本上，你还没有为成功做好准备？",
+   "ts": "00:56:03"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Mm-hmm.",
+   "zh": "嗯嗯。",
+   "ts": "00:56:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Let's go to AI corner, something I'm trying to do with every guest. Is there anything you've learned about working with AI that you think might be helpful to listeners?",
+   "zh": "好的。让我们去人工智能角吧，这是我试图与每位客人一起做的事情。您认为在使用人工智能方面学到的任何东西可能对听众有帮助吗？",
+   "ts": "00:56:21"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yeah. I think a couple of things. I think working with AI, many, many teams and companies get too excited about AI, and the possibilities, and so on, and it's almost like a solution ready to find a problem within their companies, which also is fine because now you're thinking about possibilities on what this particular technology can do for my company. So it's a good way to start, but many people don't actually use it in the best way possible and force fit it. Instead of that, you can think about, \"How do I get AI to work with HI?\" Again, it's connecting back with... and this is something that Swiggy CEO, Sriharsha, invented this term called HI just to make sure that everybody understands. (00:57:13): Artificial intelligence is important as much as human intelligence. If you're not humanly intelligent, you're not going to be artificially intelligent or AI really help your company a lot. So, literally, any product that you're building, even when it is technologically quite interesting, and exciting, and so on, it needs to be balanced out and work together along with a great UX, along with behavioral science. The combination of those two will actually make sure that you're getting the best outcome of that, unless you are building something which is completely backed and with no human interventions. We're talking about consumer products largely.",
+   "zh": "是的。我认为有几件事。我认为在与人工智能合作时，许多团队和公司对人工智能及其可能性等感到过于兴奋，这几乎就像一个准备好在公司内部发现问题的解决方案，这也很好，因为现在你正在考虑这种特定技术可以为我的公司做些什么的可能性。所以这是一个很好的开始方式，但很多人实际上并没有以尽可能最好的方式使用它并强行适应它。相反，你可以思考“如何让 AI 与 HI 一起工作？”再说一次，它与……联系在一起，这是 Swiggy 首席执行官 Sriharsha 发明的这个术语，称为 HI，只是为了确保每个人都能理解。 (00:57:13)：人工智能与人类智能一样重要。如果你没有人类智慧，你就不会成为人工智能，或者人工智能不会真正为你的公司带来很多帮助。因此，从字面上看，您正在构建的任何产品，即使它在技术上非常有趣、令人兴奋等，也需要平衡并与出色的用户体验和行为科学一起工作。这两者的结合实际上将确保您获得最佳结果，除非您正在构建完全支持并且没有人为干预的东西。我们主要讨论的是消费品。",
+   "ts": "00:56:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've helped build some of the most successful marketplaces in India and in the world. I'm curious just what may be a lesson or two about building a successful marketplace?",
+   "zh": "您帮助建立了印度和世界上一些最成功的市场。我很好奇关于建立一个成功的市场可能有什么教训？",
+   "ts": "00:57:51"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "One thing that I would definitely want to talk about is when you're thinking marketplaces, it's not as a one plus one equals two, it multiplies. We're thinking about three-way marketplaces. You almost not need to think like it's a two-dimensional plane going into three-dimension. It becomes that amount of complexity, and your regular product management and leadership principles start failing. So a bunch of usual suspects will not work. Let me give an example. OKRs will not work. Why not? So, fundamentally, OKRs are a way to think about objectives and key results, but the fundamental assumption here is that it is solving for a kind of user, and that kind of user, you can divide and conquer. Of course, there will be a little bit of tussle between different teams, but you can get them to work with each other. But if it is working for three different kinds of users, then all the goals will all the time be in conflict with each other.",
+   "zh": "我肯定想谈论的一件事是，当你思考市场时，它不是一加一等于二，而是乘法。我们正在考虑三向市场。你几乎不需要认为它是一个二维平面进入三维。它变得如此复杂，你的常规产品管理和领导原则开始失败。所以一堆常见的嫌疑人是行不通的。让我举个例子。 OKR 不会起作用。为什么不呢？因此，从根本上来说，OKR 是一种思考目标和关键结果的方法，但这里的基本假设是它正在解决一种用户的问题，而对于这种用户，你可以分而治之。当然，不同团队之间会存在一些争执，但你可以让他们相互合作。但如果它适用于三种不同类型的用户，那么所有目标将始终相互冲突。",
+   "ts": "00:58:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are examples of the three users? There's like the delivery person, the restaurant-",
+   "zh": "这三个用户的例子是什么？比如送货员、餐厅——",
+   "ts": "00:59:00"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "The end user. So if you have... I'll give you an example of. On the consumer side, we need to collect more delivery fee. What does that really mean for those other two? On the restaurant side, hey, we need to get more commissions because profitability is a goal. On the delivery partner side, it means pay them less or optimize a little bit more. But once you start moving one lever, those two are already stretched towards the other directions. They're not independent levers in the first place, and the way to even model them out... How will it work? What if we choose X versus what... Ys will change. Y on Z. Z will change. It's almost impossible to do that. (00:59:43): So I've seen OKRs fail multiple times when you're running this kind of a marketplace. Big bets work much better. That's when you say, \"Hey, we want to take this bit,\" but it's all going to be... It's all going to come together as... If we pull this lever, then something else will change. So here's the entire story of, \"Let's go make this profitable by making delivery fee higher, but maybe not touching earnings per hour, or maybe not touching restaurant commissions.\" Things like that. So I've at least found that's a better way to choose strategically which direction we have to go. (01:00:18): The other thing is managing multiple empathies together that's not straightforward. So, again, Swiggy being a real-time, hyper-local marketplace, and we discussed about that, right? As soon as the order comes, what happens between when user does this and when delivery executor is doing something else, and what are absolute different kind of scenarios that are going to be faced by the delivery executor? At the same time, how will I really work with the user to manage their emotions? So you need to manage a whole bunch of these things together, and product management here, you cannot have... The delivery executive product manager only care about that side. They also need to be a champion on the consumer side and vice versa.",
+   "zh": "最终用户。所以如果你有......我会给你一个例子。在消费者方面，我们需要收取更多的配送费。这对另外两个人来说到底意味着什么？在餐厅方面，嘿，我们需要获得更多佣金，因为盈利是目标。在交付合作伙伴方面，这意味着少付钱给他们或者多优化一点。但一旦你开始移动一个杠杆，那两个杠杆就已经向其他方向拉伸。首先，它们并不是独立的杠杆，甚至对它们进行建模的方法……它将如何工作？如果我们选择 X 与...Y 会发生变化。 Z 上的 Y。Z 将会改变。这几乎是不可能的。 (00:59:43)：因此，当您运行此类市场时，我多次看到 OKR 失败。大赌注效果更好。那时你会说，“嘿，我们想拿走这一点”，但这一切都会……这一切都会聚集在一起……如果我们拉动这个杠杆，那么其他事情就会改变。所以这就是整个故事，“让我们通过提高送货费来实现盈利，但也许不触及每小时收入，或者也许不触及餐厅佣金。”诸如此类的事情。所以我至少发现这是从战略上选择我们必须走的方向的更好方法。 (01:00:18)：另一件事是同时管理多种同理心，这并不简单。所以，再说一遍，Swiggy 是一个实时、超本地化的市场，我们对此进行了讨论，对吗？一旦订单到来，当用户执行此操作和交付执行者执行其他操作之间会发生什么，以及交付执行者将面临哪些完全不同的场景？同时，我将如何真正与用户一起管理他们的情绪？所以你需要一起管理一大堆这些事情，而这里的产品管理，你不能……交付执行产品经理只关心这一面。他们还需要成为消费者方面的拥护者，反之亦然。",
+   "ts": "00:59:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I find with marketplaces... Uber went through this, Lyft went through this where the supply often just gets squeezed because they need to deliver for the customer. So drivers end up getting housed. Airbnb hosts get pushed to do things they may not want to do. Imagine delivery people, same thing.",
+   "zh": "是的。我发现在市场上……Uber 经历过这个，Lyft 也经历过这个，供应经常受到挤压，因为他们需要为客户送货。所以司机最终都会得到安置。 Airbnb 房东被迫去做他们可能不想做的事情。想象一下送货员，同样的事情。",
+   "ts": "01:01:03"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Now that you mentioned Uber, for example, one of the things that companies which were running taxi businesses. If you have just one limited pool of money, for example, and you want to get the marketplace humming with respect to number of orders per day, how do you decide, \"Should I incentivize my users, for example, for the first ride, first 10 rides, and so on, or put zero money in there, but incentivize my drivers?\" You need to come here, so you have to think about liquidity also in very different ways, and sometimes you need to pull the lever completely towards the other side. So the experiments also. A/B experiments also don't work, and that's a very unique thing about marketplaces. I mean, not work the way that you would expect them to work because there are network effects all over. So if you have to run A/B experiments on your drivers side, if you put half drivers on A versus half on B, but there is a network effect between the both of them.",
+   "zh": "例如，现在您提到了优步，这是经营出租车业务的公司之一。例如，如果你只有一个有限的资金池，并且你想让市场在每天的订单数量方面蓬勃发展，你如何决定，“我应该激励我的用户，例如第一次乘车、前 10 次乘车等等，还是投入零钱，但激励我的司机？”你需要来到这里，所以你必须以非常不同的方式考虑流动性，有时你需要将杠杆完全拉向另一边。故实验也。 A/B 实验也不起作用，这是市场的一个非常独特的事情。我的意思是，不要按照你期望的方式工作，因为到处都有网络效应。因此，如果您必须在驱动程序端运行 A/B 实验，如果您将一半驱动程序放在 A 上，将一半驱动程序放在 B 上，但两者之间存在网络效应。",
+   "ts": "01:01:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When you're trying to decide which side of the marketplace to focus on and prioritize, do you have any lessons or rules of thumb of just focus on the customer and index towards their happiness versus the supply versus, say, the delivery person?",
+   "zh": "当您试图决定要关注和优先考虑市场的哪一方面时，您是否有任何经验教训或经验法则可以只关注客户并指数他们的幸福感，而不是供应与送货员？",
+   "ts": "01:02:19"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "There's one thing that I think marketplaces need to realize is that, A, you need to be operating in a stable marketplace. So all sides need to be stable enough so that they're not going to go away. So I think that's a starting point, and that's an important point because once we have established that, then after a stable marketplace, then we say, \"Which are the kind of customer that we are in the service for? Which are the customer that we will really focus on?\" For example, Amazon is very, very clearly a customer-centric company. If they have to make a choice, they won't because they need to have a stable marketplace. So sellers also are very... as important, but slightly more important than the customer. (01:03:10): For example, if you looked at, say, Taobao or in Alibaba, their way of thinking is their aim in life is to create life-changing experience for 10 million Chinese sellers, and they will create a marketplace from the point of view of sellers which can actually sell. Again, they will have the same consumer app, and a seller work, and so on. They are in the service of sellers, so you really need to derive from the company's vision. I think the way we had thought about it at Swiggy that we had to clarify in our values that the first value is... Initially, it used to be customer comes first, but that was very confusing because everybody is a customer. Even a restaurant is a selling customer and so on. We had to clarify that consumer comes first, the end consumer which is actually eating food because we are a convenience company that delivers to the end consumer, and when you're thinking about restaurants or delivery partners, we work with them because we both are... When you're talking with the delivery partner, Swiggy and the delivery partner, we both are in the service of the customer. So you'll build that app also from that perspective and even the restaurant side also from that perspective that we both are together in the service of the end customer.",
+   "zh": "我认为市场需要认识到的一件事是，A，你需要在一个稳定的市场中运营。所以各方都需要足够稳定，这样他们才不会消失。所以我认为这是一个起点，也是一个重要的点，因为一旦我们建立了这一点，那么在稳定的市场之后，我们就会说，“我们为哪些类型的客户提供服务？我们真正关注的客户是哪些？”例如，亚马逊显然是一家以客户为中心的公司。如果他们必须做出选择，他们不会因为他们需要有一个稳定的市场。因此，卖家也非常……同样重要，但比客户稍微重要一点。 (01:03:10): 举个例子，如果你看看淘宝或者阿里巴巴，他们的思维方式是他们的人生目标是为1000万中国卖家创造改变生活的体验，他们会从卖家的角度创建一个真正可以销售的市场。同样，他们将拥有相同的消费者应用程序和卖家工作，等等。他们是为卖家服务的，所以你确实需要从公司的愿景中获得灵感。我认为我们在 Swiggy 的思考方式是，我们必须在我们的价值观中澄清，第一个价值观是……最初，它曾经是客户至上，但这非常令人困惑，因为每个人都是客户。甚至餐馆也是销售顾客等等。我们必须澄清，消费者至上，最终消费者实际上正在吃食物，因为我们是一家向最终消费者提供送货服务的便利公司，当您考虑餐馆或送货合作伙伴时，我们会与他们合作，因为我们都是……当您与送货合作伙伴、Swiggy 和送货合作伙伴交谈时，我们都是在为客户服务。因此，您也将从这个角度构建该应用程序，甚至餐厅方面也将从我们共同为最终客户服务的角度构建该应用程序。",
+   "ts": "01:02:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like you have probably a hundred more frameworks, and processes, and acronyms we can talk about, but I know you got to go. Is there anything else you wanted to touch on, or is there anything else you want to leave listeners with before we get to our very exciting lightning round?",
+   "zh": "我觉得你可能还有一百多个我们可以讨论的框架、流程和首字母缩略词，但我知道你必须离开。在我们开始激动人心的闪电回合之前，您还有什么想谈的吗？或者您还有什么想留给听众的吗？",
+   "ts": "01:04:25"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Just last few words that I want to revise. Work backwards from an amazing future. So first thing is creatively imagine a future, and then work backwards from that, and essentially, think what will make that successful, and be paranoid about... that everything is going to go wrong. Hence, I need to just make sure that it all comes together.",
+   "zh": "最后几句话我想修改一下。从美好的未来开始倒退。因此，第一件事就是创造性地想象一个未来，然后从那里开始倒退，本质上，思考什么能让未来成功，并对……一切都会出错感到偏执。因此，我需要确保所有这些都整合在一起。",
+   "ts": "01:04:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Only the paranoids survive. Great advice to leave people with. We've reached our very exciting lightning round. I've got six questions for you. Are you ready?",
+   "zh": "只有偏执狂才能生存。给人们留下的好建议。我们已经进入了非常激动人心的闪电回合。我有六个问题要问你。你准备好了吗？",
+   "ts": "01:04:59"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:05:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "您向其他人推荐最多的两三本书是什么？",
+   "ts": "01:05:07"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "One book is Working Backwards. We covered that. The other one that has shaped my beliefs a lot is called How Brands Grow by a professor called Byron Sharp. There are two paths to it, How Brands Grow 1 and 2, that's both very good. The other book which I really love is... and recently, Kunal Shah, who's the founder of Cred, an Indian startup, suggested is The Luxury Strategy. The reason why I love that book is because it gets into the depth of the human psychology behind hierarchies, and how lords, and kings, and those kind of social hierarchies have shaped how people think about aspirational products and so on. So highly recommend it.",
+   "zh": "一本书是《逆向工作》。我们对此进行了介绍。另一篇对我的信念影响很大的书是拜伦·夏普（Byron Sharp）教授的《品牌如何成长》（How Brands Grow）。有两条路可以实现，品牌如何成长 1 和 2，都非常好。我真正喜欢的另一本书是……最近，印度初创公司 Cred 的创始人 Kunal Shah 推荐的书是《奢侈品战略》。我喜欢这本书的原因是因为它深入探讨了等级制度背后的人类心理，以及领主、国王和这些社会等级制度如何塑造了人们对理想产品等的看法。所以强烈推荐它。",
+   "ts": "01:05:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's a favorite recent movie or TV show that you've really enjoyed?",
+   "zh": "您最近最喜欢的电影或电视节目是什么？",
+   "ts": "01:05:52"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "I really like to do reruns of The Office. I was trying to think about this as, \"What is a recent movie that I watched?\" I'm like, \"No.\" I keep on going back to The Office and some other episode. Like today, I have a lot of stories from Michael Scott.",
+   "zh": "我真的很喜欢重播《办公室》。我试着思考这个问题：“我最近看的一部电影是什么？”我说：“不。”我不断地回到《办公室》和其他一些剧集。就像今天一样，我有很多迈克尔·斯科特的故事。",
+   "ts": "01:05:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. The US one, not the British one, or do you watch both?",
+   "zh": "好的。美国的，不是英国的，还是两者都看？",
+   "ts": "01:06:13"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "No. I watch both, but the US one has a lot more seasons.",
+   "zh": "不。我两部都看，但美国的有更多季。",
+   "ts": "01:06:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite interview question that you like to ask candidates when you're interviewing product-manager-specific?",
+   "zh": "当你面试产品经理时，你有最喜欢问候选人的面试问题吗？",
+   "ts": "01:06:21"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "\"Which are the products where you decide speed is more important versus which are the products where you have to say excellence is what's important?\" I think that gives me a good understanding of their frameworks and why they're just saying what, and then we go back into concrete examples where they chose one versus the other, and then take it from there.",
+   "zh": "“您认为哪些产品的速度更重要，而哪些产品您必须说卓越更重要？”我认为这让我很好地理解了他们的框架以及为什么他们只是说了什么，然后我们回到具体的例子，他们选择了一个而不是另一个，然后从那里开始。",
+   "ts": "01:06:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Then, what do you look for In a good answer to that question?",
+   "zh": "那么，您在寻找该问题的良好答案时需要什么？",
+   "ts": "01:06:46"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "I look for, essentially, their assessment of risk, their assessment of how important or how well have they assessed the market and the competition or the competitive products in that market. If their answer is, \"Let's ship something, and we'll find out, and so on,\" that also gives me, basically, a point of view that they really don't understand that this product, what they're talking about with the shipping speed, is not really... The V part of the MVP is not viable or is not... I don't know. How do you call the MLP or whatever? But it's not differentiated enough that it can be marketed. It is not worth enough where we can take it to user. It's not going to work for a lazy win and selfish user, and maybe that's not the answer towards speed versus excellence versus, for example, there's some products which are... There's a very clear competitive differentiation that we can find. There was a clear market gap. I want to launch something even if it is half-baked. No problem. I want to go, take it out, get user feedback, I trade, and so on. So understanding of the market, A, but B, also understanding of the core orientation.",
+   "zh": "本质上，我寻找的是他们对风险的评估，他们对市场以及该市场中的竞争或竞争产品的重要性或评估程度的评估。如果他们的答案是，“让我们发货一些东西，我们会找到答案，等等”，这基本上也给了我一个观点，即他们真的不明白这个产品，他们所说的发货速度，并不是真的...... MVP 的 V 部分不可行或不...... 我不知道。你怎么称呼 MLP 之类的？但它的差异化程度还不够，无法推向市场。如果我们可以把它带给用户的话，它的价值还不够。它不会为懒惰的胜利和自私的用户工作，也许这不是速度与卓越的答案，例如，有一些产品......我们可以找到非常明显的竞争差异化。存在明显的市场缺口。我想推出一些东西，即使它是半生不熟的。没问题。我想去，把它拿出来，获取用户反馈，我进行交易，等等。所以了解市场，A，但B，也了解核心定位。",
+   "ts": "01:06:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It comes back to your ongoing advice of being full-stack in a lot of ways, and in this case, being a full-stack PM thinking about marketing, launch, and adoption, all those things. Next question, what is a favorite product you've recently discovered that you really like?",
+   "zh": "这又回到了你一直以来关于在很多方面成为全栈的建议，在这种情况下，作为一个全栈 PM 思考营销、发布和采用，所有这些事情。下一个问题，您最近发现的您真正喜欢的最喜欢的产品是什么？",
+   "ts": "01:08:00"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "The very recent product that I like is called RISE. It's a sleep track app because I am half insomniac, and for the longest time, I was thinking about, \"How can I track this? What am I doing, and how can I actually get better at this?\" So I really like the way that they actually help the end user. It's just been a week since I've started using it, but recommend it.",
+   "zh": "我最近喜欢的产品叫做 RISE。这是一个睡眠跟踪应用程序，因为我半失眠症，在很长一段时间里，我都在想，“我怎样才能跟踪这个？我在做什么，我怎样才能真正做得更好？”所以我真的很喜欢他们实际帮助最终用户的方式。虽然刚开始使用一周，但还是推荐一下。",
+   "ts": "01:08:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Has that helped your sleep yet or too soon to say?",
+   "zh": "这对您的睡眠有帮助吗？还是现在说还为时过早？",
+   "ts": "01:08:42"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "It's helped me track my sleep, so it's... Now, it's getting into the zone where it is actionable, but I like it.",
+   "zh": "它帮助我跟踪我的睡眠，所以它......现在，它正在进入可操作的区域，但我喜欢它。",
+   "ts": "01:08:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, okay. We'll see.",
+   "zh": "好吧，好吧。我们拭目以待。",
+   "ts": "01:08:51"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "We'll see.",
+   "zh": "我们拭目以待。",
+   "ts": "01:08:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite life motto that you often come back to, share with people, think about in either work or life?",
+   "zh": "您是否有一条最喜欢的人生格言，是您在工作或生活中经常回顾、与人分享、思考的？",
+   "ts": "01:08:53"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "I would call it a life motto as much, but one of the things that I keep telling my people who work with me, alongside me, and so on is, \"Stop externalizing.\" That's one, which also means the more artistic way to say that is you are the reason for your own misery. So that's something that I keep using a lot more in a fun way. But if things go wrong, if that leadership meeting didn't happen in that way, if my product bombed, and so on, go back and let's ask ourselves what could we have done better, what I could have done better, and so on. Of course, because I'm also a poker player, so in a way, I understand there is half luck involved and half skill. But over a long period of time, if it's only luck and you're failing, and failing, and failing, you have to go and look back at your skill. So, yeah. You are the reason for your own misery.",
+   "zh": "我也将其称为人生座右铭，但我不断告诉与我一起工作、与我并肩工作的人的一件事是，“停止外在化”。这就是其中之一，这也意味着用更艺术的方式来说，你是自己痛苦的原因。所以我一直以一种有趣的方式更多地使用它。但如果出现问题，如果领导会议没有以这种方式举行，如果我的产品失败了，等等，那么我们就回去问问自己，哪些方面我们可以做得更好，哪些方面我可以做得更好，等等。当然，因为我也是一名扑克玩家，所以在某种程度上，我明白这其中一半是运气，一半是技巧。但在很长一段时间内，如果只是运气，而你不断失败，不断失败，你就必须回头审视自己的技能。所以，是的。你就是你自己痛苦的原因。",
+   "ts": "01:09:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that advice. Be very empowering, and be responsible. Final question. I was stalking your LinkedIn. You host an event called The Secret Soiree, which is not that secret because you post about it, but I'm curious, just what is that all about, and what got you to do these sorts of events?",
+   "zh": "我喜欢这个建议。非常有权力，并且有责任感。最后一个问题。我在跟踪你的 LinkedIn。你举办了一个名为“秘密晚会”的活动，这并不是那么秘密，因为你发布了有关它的信息，但我很好奇，这到底是关于什么的，是什么让你去做这些类型的活动？",
+   "ts": "01:09:50"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "So we just started, me and an ex-colleague of mine, Shivangi. So we essentially wanted to meet cool people around. So that's how it started. Interesting people without agenda who can come together and discuss interesting stuff about entrepreneurship, about startups, about products, about connections, and so on, and so forth. So it just started like that, and now we are onto many, many more interesting things that we are bringing in terms of cohorts which will be team-based. So it could be around product management, around marketing, around growth, and so on. We are strictly keeping it not-for-profit for at least the next year, but long way to go.",
+   "zh": "所以我们才刚刚开始，我和我的前同事 Shivangi。所以我们本质上是想认识周围很酷的人。事情就是这样开始的。没有议程的有趣的人可以聚集在一起讨论有关创业、初创公司、产品、联系等等的有趣内容。所以事情就这样开始了，现在我们正在做很多很多更有趣的事情，我们将在基于团队的群体方面带来更多有趣的事情。所以它可以围绕产品管理、营销、增长等等。我们至少在明年严格将其保持为非营利性质，但还有很长的路要走。",
+   "ts": "01:10:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing, and so for listeners, is this something they could join? Who should look into this? Who is this for?",
+   "zh": "太棒了，那么对于听众来说，这是他们可以加入的吗？谁应该调查这个问题？这是给谁的？",
+   "ts": "01:10:51"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Absolutely. At that time, probably, we'll not call it The Secret Soiree once we have probably expanded.",
+   "zh": "绝对地。到那时，一旦我们可能扩大规模，我们可能就不会再将其称为“秘密晚会”了。",
+   "ts": "01:10:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No longer secret. Okay. Cool, and then I guess they just follow you on LinkedIn, right? That's how they can keep up to date with these sorts of events. Okay. Cool.",
+   "zh": "不再是秘密。好的。酷，然后我猜他们只是在 LinkedIn 上关注你，对吗？这就是他们能够及时了解此类事件的方式。好的。凉爽的。",
+   "ts": "01:11:02"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yes, on LinkedIn as well as on Twitter.",
+   "zh": "是的，在 LinkedIn 和 Twitter 上。",
+   "ts": "01:11:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Anuj, we've gone through so many topics. We've talked about breaking bad and full-stack product management, full-stack thinking, working backwards, bread and butter, rule of threes. I don't know. So many things. Two final questions. Where can folks find you online if they want to reach out and follow up on anything we've talked about, and how can listeners be useful to you?",
+   "zh": "惊人的。 Anuj，我们讨论了很多话题。我们讨论了破局和全栈产品管理、全栈思维、逆向工作、面包和黄油、三人法则。我不知道。这么多的事情。最后两个问题。如果人们想要联系并跟进我们谈论的任何事情，可以在哪里找到您？听众如何对您有用？",
+   "ts": "01:11:12"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Yes. So I'm on Twitter, so on twitter.com/anujrathi, and LinkedIn, you can just search my name. I'm pretty active on both of them. I do a bunch of... not podcasts all the time like you host, Lenny, but a bunch of other events as well as talks, so. I keep on posting on Twitter. They can find me there.",
+   "zh": "是的。我在 Twitter、twitter.com/anujrathi 和 LinkedIn 上，你可以搜索我的名字。我对这两件事都非常积极。我做了很多……不是像你主持的那样一直播客，莱尼，而是很多其他活动以及演讲，所以。我继续在推特上发帖。他们可以在那里找到我。",
+   "ts": "01:11:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Anuj, thank you so much for being here.",
+   "zh": "惊人的。阿努吉，非常感谢你来到这里。",
+   "ts": "01:11:55"
+  },
+  {
+   "speaker": "Anuj Rathi",
+   "en": "Thank you so much, Lenny, for hosting.",
+   "zh": "非常感谢莱尼的主持。",
+   "ts": "01:11:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's my pleasure. Bye, everyone. (01:12:05): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "这是我的荣幸。再见，大家。 (01:12:05)：非常感谢您的收听。如果您发现这很有价值，您可以在 Apple Podcasts、Spotify 或您最喜欢的播客应用程序上订阅该节目。另外，请考虑给我们评分或留下评论，因为这确实有助于其他听众找到播客。您可以在 lennyspodcast.com 上找到所有过去的剧集或了解有关该节目的更多信息。下一集见。",
+   "ts": "01:12:01"
+  }
+ ]
+}

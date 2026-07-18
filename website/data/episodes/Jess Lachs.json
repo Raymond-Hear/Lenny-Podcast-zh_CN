@@ -1,0 +1,767 @@
+{
+ "id": "Jess Lachs",
+ "name": "Jess Lachs",
+ "category": "企业管理",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Jess+Lachs",
+ "bio": {
+  "en": "Jessica Lachs is Vice President of Analytics and Data Science at DoorDash, where she has built one of the largest and most respected data teams in tech over a 10+-year tenure and was the company's first GM launching new markets; she previously founded the social-gifting startup GiftSimple.",
+  "zh": "Jessica Lachs 是 DoorDash 的分析与数据科学副总裁，在十余年任期里打造了科技圈规模最大、最受尊敬的数据团队之一，也是公司开拓新市场的第一位 GM；她此前创办了社交送礼初创 GiftSimple。"
+ },
+ "summary": {
+  "en": "Jessica makes the case that analytics should be a business-impact function, not a service desk—answering 'what do we do now?' not just 'why?'. She argues for a centralized data org, explains why retention is a terrible metric to goal on (find a short-term measure that drives long-term output), and shares what to look for when hiring data people. The conversation is full of concrete examples of how DoorDash's data team shaped real decisions, plus great stories from the company's scrappy early days.",
+  "zh": "Jessica 主张分析应当是一个“驱动业务影响”的职能，而非服务台——回答“我们现在该怎么做？”，而不只是“为什么？”。她主张数据团队集中化，解释了为何“留存”是个糟糕的考核指标（应找一个能驱动长期产出的短期指标），并分享了招聘数据人才时看重的点。对话充满了 DoorDash 数据团队如何影响真实决策的具体案例，以及公司草创期的精彩故事。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "So you've built one of the largest and most respected data teams in all of tech.",
+   "zh": "看来你成功打造了科技领域规模最大、最受尊敬的数据团队之一。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "For me, analytics is a business impact driving function and not purely a service function, not just answering the why, but answering the, \"What do we do now that we know this?\"",
+   "zh": "对我而言，分析是推动业务价值的职能，而非单纯的服务性职能。它不仅要解答“为什么会这样”，也要回答“既然知道了这些，那接下来该怎么做”。",
+   "ts": "00:00:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One of your colleagues told me that you are incredibly good at defining metrics.",
+   "zh": "有位同事跟我说，你在定义指标方面极其出色。",
+   "ts": "00:00:15"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Retention is a terrible thing to goal on. It's almost impossible to drive in a meaningful way in a short term. Ultimately, you want to find a short-term metric you can measure that drives a long-term output.",
+   "zh": "留存率是个很难设定目标的指标。短期内很难有效提升。最终，你需要找到一个短期可衡量的指标，以此推动长期成果。",
+   "ts": "00:00:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned the early team. I felt extreme ownership.",
+   "zh": "你提到了早期团队。我感受到了一种强烈的责任感。",
+   "ts": "00:00:32"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yes, you are a data scientist, but your goal is to figure out what's happening. And if that means that you're going to pick up the phone and call customers, then that is what you're going to do to roll up your sleeves.",
+   "zh": "没错，你是数据科学家，但你的目标是弄清楚正在发生什么。即便这意味着你要拿起电话致电客户，那也是你必须亲力亲为的。",
+   "ts": "00:00:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Jessica Lachs. Jessica is Vice President of Analytics and Data Science at DoorDash, which has built one of the biggest and most impactful data teams in tech. She's been at DoorDash for over 10 years and was the first GM at DoorDash responsible for launching new markets. Previously, Jessica founded GiftSimple, a social gifting startup and began her career in investment banking at Lehman Brothers. (00:01:11): In our conversation, we go deep on how to build and scale your data org, including why a centralized org model is so effective. What to look for when hiring data people, how to pick the right metrics for teams to align incentives and drive the right sorts of outcomes. Examples of how the data team at DoorDash has helped the business make better decisions, a bunch of great stories about the early days of DoorDash and a ton more. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing feature episodes and helps the podcast tremendously. (00:01:44): With that, I bring you Jessica Lachs. Jessica, thank you so much for being here and welcome to the podcast.",
+   "zh": "今天的嘉宾是杰西卡·拉克斯。杰西卡是DoorDash的分析与数据科学副总裁，该公司打造了科技领域规模最大、最具影响力的数据团队之一。她在DoorDash任职逾十年，曾担任首位负责开拓新市场的总经理。此前，杰西卡创立了社交礼物初创公司GiftSimple，并在雷曼兄弟开启投资银行生涯。（00:01:11）：在我们的对谈中，我们深入探讨了如何构建和扩展数据组织，包括为何集中式组织模式如此高效。招聘数据人才时应关注哪些方面，如何为团队选择合适的指标以统一激励机制并推动正确的成果。DoorDash数据团队如何助力业务做出更优决策的案例，DoorDash早期阶段的精彩故事，以及更多精彩内容。如果您喜欢本播客，别忘了在您喜欢的播客应用或YouTube上订阅和关注。这是避免错过精彩节目的最佳方式。（00:01:44）：接下来，让我们欢迎杰西卡·拉克斯。杰西卡，非常感谢您的到来，欢迎加入我们的播客。",
+   "ts": "00:00:48"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Thank you so much for having me. I'm very excited to be here.",
+   "zh": "非常感谢您的邀请。能来这里我很兴奋。",
+   "ts": "00:01:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So you've built one of the largest and most respected data teams in all of tech. I've heard from a number of people that look to you for advice when they're trying to build and scale their data teams. And then DoorDash in particular is an incredibly complex business. There's three or maybe even four sites to the marketplace. There's this operational element. From the outside, it just feels extremely complicated and wild. I imagine from the inside it's even more wild. Let's talk about some of the things you've learned about building and scaling the team. You have a fairly contrarian perspective on how to structure data teams. This was referenced when we had Elizabeth Stone on the podcast too. She approaches data the same way. So I'd love to hear just your take on how to structure data teams within companies. (00:02:42): This episode is brought to you by Webflow. We're all friends here, so let's be real for a second. We all know that your website shouldn't be a static asset. It should be a dynamic part of your strategy that drives conversions. That's business 101. But here's a number for you. 54% of leaders say web updates take too long. That's over half of you listening right now. That's where Webflow comes in. Their visual-first platform allows you to build, launch, and optimize webpages fast. That means you can set ambitious business goals and your site can rise to the challenge. Learn how teams like Dropbox, IDEO, and Orangetheory trust Webflow to achieve their most ambitious goals today at webflow.com. (00:03:30): This episode is brought to you by Anvil. Their document SDK helps product teams build and launch software for documents fast. Companies like Carta and Vouch Insurance use Anvil to accelerate the development of their document workflows. Getting to market fast is a top priority for product teams, and the last thing that you or your developers want is to build document workflows from scratch. It's time-consuming, expensive, and distracts from core work. You could stitch together multiple tools and manage those integrations or you can use an all-in-one document SDK. (00:04:04): Most product managers will tell you, \"Paperwork sucks.\" Anvil's document SDK helps teams get to market fast, incorporate your brand's style, and give you back time to focus on your company's core differentiated features. For your users paperwork often starts with an AI-powered web form styled and embedded in your application. From there, you can route data to your backend systems and to the correct fields in your PDFs via API. Complete the process with a white labeled e-signature. The best part about Anvil is the level of customization their SDK provides. Non-technical folks love Anvil's drag-and-drop builder and developers love their flexible APIs and easy-to-understand documentation. (00:04:46): Build documents software fast with Anvil, that's useanvil.com/Lenny to learn more or start a free trial. That's useanvil.com/Lenny.",
+   "zh": "看来你已经组建了科技界规模最大、最受尊敬的数据团队之一。我听说许多人向你寻求建议，试图建立和扩展自己的数据团队。特别是DoorDash，这家公司业务极其复杂。其市场平台由三个甚至四个站点组成，还有后台运营层面。外界看来它极其复杂且混乱，想必内部管理更是挑战重重。今天我们来聊聊你如何构建和扩展数据团队的经验吧。\n\n你对数据团队架构有着颇具争议的见解。Elizabeth Stone在我们的播客中也提到了类似观点。她采用了类似的方法来处理数据问题，所以很想听听你对企业内部数据团队架构的看法。（00:02:42）：本期节目由Webflow赞助。大家都是朋友，坦诚说吧。我们都知道网站不应是静态资产，而应是推动转化效果的动态策略。这是商业常识。但有个数据值得关注：54%的领导者认为网站更新耗时过长。这意味着半数听众都面临同样的困境。这正是Webflow的用武之地。其视觉优先平台能助你快速搭建、上线和优化网页。这意味着你能设定宏伟商业目标，而你的网站也能迎接挑战。立即访问webflow.com，了解Dropbox、IDEO和Orangetheory等团队如何借助Webflow实现最雄心勃勃的目标。（00:03:30）：本期节目由Anvil赞助。其文档SDK助力产品团队快速构建和发布文档相关软件。Carta和Vouch Insurance等公司正使用Anvil加速文档工作流开发。对于产品团队而言，快速上市是首要任务，而开发人员最不愿做的事就是从零构建文档工作流。这既耗时又昂贵，还会分散核心工作精力。你可以拼凑多个工具并管理这些集成，或者直接使用一体化文档SDK。（00:04:04）：大多数产品经理都会说：“文书工作太烦人了。”  Anvil的文档SDK助团队快速上市，融入品牌风格，并腾出时间专注于公司核心差异化特性。对于用户而言，文书工作通常始于AI驱动的网表格，并嵌入应用程序中。随后，你可通过API将数据传输至后端系统和PDF文档中的正确字段。最后用白标电子签名完成整个流程。Anvil的SDK提供高度自定义功能，非技术人员喜爱其拖放式构建器，开发者则青睐其灵活的API和易懂的文档。（00:04:46）：快速构建文档软件，访问useanvil.com/Lenny了解更多或开始免费试用。",
+   "ts": "00:01:58"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "There's two main things that I think are important when you're structuring a team. The first is I believe that analytics should have a seat at the table just like engineering and product and the business folks, the operators. For me, analytics is a business impact driving function and not purely a service function. I think there are analytics teams at other companies where they are answering people's questions, maybe even through Jira tickets, we're building dashboards. That was never really of interest to me. That wasn't the team that I wanted to build. (00:05:35): For me, it's about finding opportunities, about having a point of view on the decisions that we should make, not just answering the why but answering the so what. \"So what do we do now that we know this?\" And so that's definitely one thing as far as my point of view on building a data team. I think the second thing which may be a little more contrarian is I think there are people out there who think that analytics should be embedded into business units. I strongly disagree. I believe a central model, a center of excellence is superior and I'm happy to talk about why, but that's something that I feel quite strongly about. We've tried it or I shouldn't... well, we've experimented in the past with the alternative, so putting it into a business unit and it's just much more problematic and I think the value you get from a central model is far greater than some of the things that you might lose.",
+   "zh": "关于如何组建团队，我认为有两点至关重要。首先，我认为分析团队应当与工程、产品及业务部门（包括运营人员）同等重要地参与决策过程。对我而言，分析团队应当作为推动业务成果的职能部门，而非单纯的服务型部门。我曾在其他公司见过这样的分析团队，他们只是被动地解答问题，或许甚至通过Jira工单处理用户需求，但这类团队并不能真正激发我的兴趣——这不是我想要打造的团队。\n\n（00:05:35）对我而言，关键在于寻找机遇，为我们应当做出的决策提供见解。不仅要回答“为什么要做”，也要思考“现在该怎么做”。当我们掌握了这些信息后，下一步该如何行动？这就是我构建数据团队的核心理念。\n\n第二点观点可能更具争议性——我认为分析团队不应嵌入业务部门。我坚决反对这种做法。我坚信集中式模式（即卓越中心）更胜一筹，具体原因我乐意展开探讨。但我们曾尝试过将分析团队嵌入业务部门的做法，结果却问题重重。与集中式模式相比，嵌入式模式的价值实在微不足道。",
+   "ts": "00:04:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, let's definitely talk about it. And just to make sure people understand, when you say central versus embedded, is that in terms of reporting lines, in terms of their goals?",
+   "zh": "好的，我们确实需要深入探讨这个问题。首先，您提到的“集中式”和“嵌入式”模式，是指汇报线还是团队目标呢？",
+   "ts": "00:06:36"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "It's a great question. So mostly it's in terms of reporting lines because I think on the goal side, that is something where we have the same goals that our partner teams have, and I think that that's actually an important part of a successful central model. So when I say central model, it just means that for marketing analytics, marketing analytics is part of the broader analytics team. It does not sit and report in through marketing. Just to clarify.",
+   "zh": "这个问题问得很好。主要体现在汇报线层面，因为我认为在目标设定上，我们与合作团队的目标是一致的，这正是集中式模式成功的关键所在。所以我所说的集中式模式，指的是市场分析团队作为更广泛的分析团队的一部分，而非单独向市场部门汇报。这里需要明确一下。",
+   "ts": "00:06:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So the reporting functions at some companies, there's the head of marketing or some partners to the head of marketing where the data, say, analyst or biz ops people or data scientists would report potentially to them and that's it. And they're not as connected to the core, to the rest of the data team, the rest of the analytics team versus-",
+   "zh": "明白了。有些公司的汇报机制是，市场部负责人或其上级直接接收数据分析师、业务运营人员或数据科学家的汇报，仅此而已。他们与核心数据团队或分析团队的联系并不紧密——",
+   "ts": "00:07:13"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Exactly. Yeah.",
+   "zh": "没错。",
+   "ts": "00:07:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:07:31"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "So you'd have a bunch of smaller, of course, data teams that sit embedded within the functions. And I understand why business leaders like that. You're embedded within the function, so you're a part of the team. That ownership, that camaraderie that comes with that, I think you can solve for that. But I do understand that that is a benefit. I think the other benefit of course is the business leaders control the roadmaps so they get to dictate the work. They know that they have help and resources in that area when they need them. So that certainty, that control, I totally understand the value there, but I think that those are two things that you can solve for if you know that those are the biggest issues with a central team. So for us, we have a central analytics team, but we are divided up into pods that map perfectly with how product engineering, operations marketing are structured as well. (00:08:33): And so our team de facto has these folks embedded with our partner teams, even though the reporting structure is up through a central org through me. And that helps the team to feel like they are one team, both in terms of the analytics team feeling like it's one team, but also to use the marketing example, the marketing folks are one team and because the analytics shares the same goals as the marketing leaders, your incentives are aligned to work on the most important things and your success is their success and vice versa. So I think that that's been really a happy medium, but still preserves all the benefits of a central org. And there are a lot of them.",
+   "zh": "因此，你会有许多规模较小的数据团队，嵌入在各个职能部门中。我理解为什么企业领导者喜欢这种模式。你嵌入在职能部门中，因此成为团队的一员。这种归属感和团队协作精神，我认为是可以解决的。但我确实理解这种模式的优势。另一个好处当然是，业务领导者可以掌控项目路线图，从而主导工作进程。当他们需要数据支持时，知道能获得所需的帮助和资源。因此，这种确定性和掌控权的优势，我完全理解其价值。但我认为，如果你知道这是中央团队面临的最大挑战，那么这些问题都是可以解决的。\n\n对我们来说，我们有一个中央分析团队，但我们被分成多个小组，这些小组与产品工程、运营和营销等部门的结构完美匹配。（00:08:33）：因此，我们的团队实际上将这些人员嵌入到合作伙伴团队中，尽管汇报层级是通过中央组织向我汇报的。这有助于团队感觉自己是一个整体——无论是分析团队，还是以营销为例，营销团队都是一个整体。由于分析团队与营销领导者有着相同的目标，双方的激励机制一致，致力于解决最重要的问题，彼此的成功也相互促进。因此，我认为这是一个很好的折中方案，同时也保留了中央组织的所有优势。这样的例子还有很多。",
+   "ts": "00:07:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to hear about them, but I think something that some people may think when you say essential org is like a silo data team that sits there and they're like a service org a little bit within the company. It's like, \"Hey, I need some data help.\" And you try to convince that, \"Hey, I need some help on this thing.\" And that's not what you're saying.",
+   "zh": "我想听听你的具体做法，但有些人可能会认为“核心组织”就像一个独立的数据团队，坐在那里充当公司内部的服务部门。就像，“嘿，我需要数据方面的帮助。”然后你试图说服他们，“嘿，我需要你帮忙解决这个问题。”但这不是你的意思。",
+   "ts": "00:09:23"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Oh, no. No, no, no. That job seems terrible. I don't want that job. No, to the earlier point, we have a seat at the table. We are business partners, we are thought partners with our product counterparts, with our engineering counterparts, with our ops counterparts, and we again, share the same goals and have the same initiatives that they do. And it's just our job to come at it from a data-driven place. We bring to the table insights on things that we've noticed, deep dives that we do to understand the problems that we're trying to solve better. If we need to grow, what are the most efficient ways to grow? What are the trade-offs that we have to make? Where are their pockets of opportunity? That is what I expect my team to be able to bring to that table, the proverbial table, that we want to see that. And in order to earn their spot, that's the deal. We get the seat at the table and we need to earn it by bringing opportunities that we all can go and go after.",
+   "zh": "哦，不，不，不，不。那种工作听起来很糟糕。我可不想做那种工作。不，回到前面提到的观点，我们在决策桌上有一席之地。我们是业务伙伴，是与产品团队、工程团队、运营团队的思想伙伴。我们与他们共享相同的目标和倡议。我们的工作就是从数据驱动的角度看问题。我们为他们提供见解，深入挖掘以更好地理解我们试图解决的问题。如果我们需要增长，最有效的增长方式是什么？我们需要做出哪些权衡？他们哪里有机会之窗？这就是我期望我的团队能在决策桌上（也就是所谓的‘谈判桌’）上展现出来的。而要赢得这个席位，这就是交易条件。我们在决策桌上占据一席之地，就必须通过提供大家都能追随的机会来证明自己的价值。",
+   "ts": "00:09:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So in a sense, it is embedded. They're embedded in cross-functional teams across the org, but they report up to essential org to you essentially in the end?",
+   "zh": "太棒了。所以从某种意义上说，他们是嵌入式的。他们嵌入在整个组织的跨职能团队中，但最终向你汇报到中央组织吗？",
+   "ts": "00:10:52"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:11:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. What are some of the benefits of this approach?",
+   "zh": "不错。这种方法有哪些好处？",
+   "ts": "00:11:02"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Oh, there's so many. Okay, so the first thing is a consistent and high talent bar. I think this is something I saw when we would have some pockets of analytics folks embedded is having a consistent bar for talent in terms of what we're looking for, what are the technical skills, what are the soft skills? And being able to evaluate candidates with that same bar, using our same rubric. You just get more consistent and higher talent in my opinion. I think that's number one. Number two is actually growth opportunities. So if you're siloed, you may be the most senior data person within... I keep picking on marketing. But you might be the most senior data scientist within marketing. Where do you go from there? I think when you have the central org, you're able to see if there are growth opportunities in other areas within the company. (00:12:04): And so that really helps folks to stay engaged because they can look at new problems if the problems they've been working on for several years are getting maybe boring and they want something new, there's an opportunity, move from marketing over to merchant analytics. And then I think similarly, if there isn't a promotion or room to grow, if you want to be a people manager and there just isn't a people management role within your functional area, well, you've got 10 other ones to look at and maybe there is that opportunity. So I think it helps with the growth opportunities for the team, which helps to retain talent. So that's a second thing. The third thing is just consistency of methodologies and metrics. So you don't have sales that was as defined by one team and sales as defined by another team. You just have sales and everybody is using the same metrics, the same methodologies, and you're able to improve your methodologies with input from more people. (00:13:10): And rather than recreating the wheel, building the same churn prediction model on six different teams. You can instead build one and have the input of six different teams. I think that's definitely another benefit. Also helps you just scale because you start to see the same problems across teams and so you're like, \"Ooh, this is an issue that we need to get ahead of. This is something we need to automate,\" or, \"This is something that we need to improve upon,\" or, \"a problem that is going to grow as our business, as our teams scales.\" So I think it helps you see around corners a little bit more. (00:13:45): And then just lastly, there's a team culture brand. I think that's really important, not just externally for recruiting top talent, but the team is really proud to be members of the analytics team. We have a unique culture of learning, of sharing. You have someone you can go to talk about your challenges. You have someone who can peer review your work. I think just having that team culture that we have is really important. And it's a lot harder to get when you have the individual silos, particularly in an earlier stage when it's a smaller team, you just don't have as many people around. Everybody wants to have friends at work and we're creating an environment where they can find like-minded data nerds.",
+   "zh": "天哪，太多要点了。好的，首先是保持一致且高标准的人才筛选机制。我认为这是在我们嵌入分析团队时，看到的一个关键点——即在人才标准、技术技能和软技能方面要设定统一的衡量标准。用同样的评分标准去评估候选人，最终能招到更稳定、更高素质的人才。这是我认为最重要的一点。\n\n第二点是成长机会。如果你被困在孤立的部门，比如我在营销部门的例子——你可能是营销团队中最资深的数据科学家。但接下来该怎么发展呢？当有中央团队时，就能看到公司其他部门的成长机会。（00:12:04）这能帮助员工保持积极性，因为当他们深耕多年的项目变得枯燥时，可以转向新领域。比如从营销转到商家分析。同样，如果没有晋升机会或发展空间，比如想成为人力经理但所在部门没有相关职位，那其他部门总有空缺。这能为团队创造成长机会，进而留住人才。\n\n第三点是方法论和指标的统一。比如不要让不同团队对销售数据有不同定义。统一使用相同的指标和方法论，还能集思广益改进流程。（00:13:10）而不是让六个团队各自开发相同的客户流失预测模型，而是整合六个团队的智慧。这无疑是另一个优势。它还能助力规模化——当团队发现相似问题时，就能提前预警、自动化或改进流程，避免重复造轮子。\n\n最后是团队文化品牌。这不仅对外招揽顶尖人才很重要，更重要的是团队成员对数据分析团队的自豪感。我们拥有独特的学习与分享文化，有人能倾听你的挑战，也有人会审阅你的工作。这种文化氛围在分散的团队中很难形成，尤其在初期规模较小的团队中，团队成员更需要这样的归属感。",
+   "ts": "00:11:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It makes me think about Airbnb's first data team. I don't know if you know Riley Newman well, but he built Airbnb's first data team and it was actually an analytics team. They called themselves the 'A-Team' on the point of culture, and that always felt a lot of fun and they loved being part of that team.",
+   "zh": "这让我想起Airbnb的首个数据团队。我不知道你是否了解莱利·纽曼，但他组建的Airbnb首个数据团队其实就是一个分析团队。他们以\"A-Team\"为名，强调团队文化，总是充满乐趣，成员们都乐于成为其中一员。",
+   "ts": "00:14:33"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah. We have the same, but now I feel a lot less special for coming up with that name.",
+   "zh": "是啊。我们也有过类似的经历，但现在一想到自己想出那个名字就觉得自己没那么了不起了。",
+   "ts": "00:14:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, you called it A-Team also?",
+   "zh": "哦，你也把它叫做A-Team吗？",
+   "ts": "00:14:55"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, we got the A-Team, yeah.",
+   "zh": "对啊，我们当时用的就是A-Team。",
+   "ts": "00:14:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then I think they moved away from it when there was a push. Now we're data scientists, we're not analytics or analysts. And that was like, I don't know, 10 year ago, like [inaudible 00:15:08] data science. We're data scientists.",
+   "zh": "后来当有新的业务需求时，我们就放弃了这个名字。现在我们是数据科学家，不再是分析师或分析员了。那都是大约10年前的事了，当时（听不清00:15:08）数据科学还处于起步阶段。我们现在就是数据科学家。",
+   "ts": "00:14:59"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "We'll always be the A-Team.",
+   "zh": "我们永远都是A-Team。",
+   "ts": "00:15:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's so many threads I want to follow here, one that's a tangent, but something that I think a lot of people struggle with is you talked about how you want your data team, your analytics team to be proactive, to find opportunities, to give you ideas, to help you figure out what to build, not just answer questions. At the same time, there are many questions that teams need to get answered. Do you have any advice for just how to set up a team where they both find time to explore, dig, show opportunities and come up with big ideas and also, \"Hey, we just need to figure out the funnel conversion on this thing,\" or \"Hey, what do you think? What's happening in China right now?\" Thoughts there?",
+   "zh": "这里有太多我想深入探讨的点了。其中一个偏题的话题是，很多人都面临的挑战是，你提到希望数据团队、分析团队能够主动出击，寻找机会，为你提供思路，帮助你确定要开发的项目，而不只是回答问题。与此同时，团队也需要处理很多日常问题。你有没有什么建议，能让团队既有时间探索、挖掘、发现机会，又能产出像“我们需要优化这个转化漏斗”或者“你怎么看？中国现在的情况如何？”这样的实用见解？",
+   "ts": "00:15:11"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, such a good question. I think it's something that never gets easier. You have to be very intentional to carve out time for exploratory work for deep dives because as you mentioned, there are always more questions and more work to be done than hours in the day. And so I think being intentional about it and setting goals for your team around finding these insights through self-directed work is an important mechanism for holding ourselves accountable to that goal because it tends to be the first thing that goes when you get a lot of inbounds, you're like, \"All right, well, let's deep dive on something that I don't know if it's really something. It could be high ROI, it could be low ROI, I don't know.\" So the expected value is lower than this known thing that I can deliver and make someone happy. (00:16:42): So I think to prevent that time from just slipping away, you really have to be intentional. We would do hackathons for our team to carve out days to just go and look into these really interesting things and find opportunities. And I think we have the support of our business partners because so many great insights have come from these deep dives and it really has been some of the work that drives future roadmaps. So they're always really great at allowing us to have this time and actually encourage us often to have this time for some self-directed work, to go find the next big opportunity.",
+   "zh": "嗯，这确实是个难题。必须刻意为探索性工作和深度研究腾出时间，因为正如你所说，每天要处理的问题和工作量永远超出可用时间。所以我觉得，团队要刻意为此设定目标，通过自主学习来挖掘这些洞察，这对自我约束至关重要。因为当大量突发任务涌来时，人们往往会先放下这些探索性的工作，因为不确定它是否真的有价值，可能高ROI，也可能低ROI，难以预料。所以预期价值远低于那些已知的、能让别人满意的成果。（00:16:42）所以要防止这些时间被白白浪费，就必须有意识地安排。我们会为团队举办黑客马拉松，专门腾出几天时间，让大家去研究那些真正感兴趣的领域，寻找机会。我们得到了业务伙伴的大力支持，因为很多重大洞察都来自这些深度研究，也确实为未来的路线图提供了方向。所以他们总是很支持我们腾出时间，让我们自由探索，寻找下一个重大机遇。",
+   "ts": "00:15:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If there's no answer that comes to mind, that's totally cool. But is there an example of one of these insights that someone on the data team came up with that led to something big for DoorDash that you're able to share?",
+   "zh": "如果现在暂时想不出例子，那也没关系。但有没有数据团队成员提出的某个洞察，最终为DoorDash带来了重大成果，你能分享一下？",
+   "ts": "00:17:23"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "So one interesting example was from a hackathon we did a couple of years ago where we were looking at referral as a channel for consumer acquisition. And when you compare that channel to others, it was below average in terms of the engagement you'd see from consumers who came through that channel and the payback period. And rather than just lowering spend on referrals and moving right along, we really wanted to understand what was happening. And so during the hackathon, we did a deep dive into referral. We actually tried referring each other. We tried committing referral fraud, creating new accounts to get around rules. And we uncovered a lot of fraudulent behavior through this deep dive. We ordered so many cupcakes to the office. I remember using referral credits because you had to place an order to be able to get the referral bonus. So we would create the account, place the orders, and we just kept ordering cupcakes. (00:18:39): And what we noticed was that referral as a channel was a bit misleading when you would look at the average in terms of payback and that it was really a bimodal distribution and you had one group of really great consumers who were referring other really great consumers, and the payback on those consumers was really strong. In fact, if that's all you saw, you would spend a lot more on that channel. (00:19:08): And then what was happening was you had this other group of consumers that were not as good people who were posting referral codes online and getting people who were just in it to get free discounts and credits. And we had at that point in time, pretty lax fraud rules. And we didn't have caps on these things. All of which came about from this deep dive where we found that this group of consumers was really a drag on the efficiency of this marketing channel. And so I think that's an example of a few things that we like to do at DoorDash. One being these deep dives and taking the time to really understand the problem and then ultimately make a bunch of recommendations for what we should do, including better fraud checks, caps on referrals, et cetera, et cetera. But also how the average can be incredibly misleading. And so looking at distributions and trying to break down what you're seeing to find ways that you can optimize in ways that you can gain in efficiencies.",
+   "zh": "举个有趣的例子，是我们几年前参加的一次黑客马拉松，当时我们把引荐作为用户获取的渠道来研究。当把这个渠道与其他渠道相比时，它在用户参与度和回报周期方面都表现平平。我们没有简单地削减引荐推广的预算，而是深入剖析了其中的问题。黑客马拉松期间，我们对引荐机制进行了深入研究，甚至互相互相推荐用户，尝试利用漏洞创建新账户获取奖励。通过这次深入调查，我们发现了大量欺诈行为。比如，我们曾大量订购纸杯蛋糕——因为引荐奖励需要下单才能领取，所以我们创建账户、下单，再不断重复这个过程。（00:18:39）我们发现，引荐作为获客渠道存在误导性——平均回报率存在双峰分布：一部分优质用户会推荐其他优质用户，回报率极高；另一部分用户则通过在网上发布引荐码吸引只为获取免费折扣和积分的用户。当时我们对欺诈行为管控宽松，没有设置上限。通过这次深入调查，我们发现这部分用户严重拖累了营销渠道效率。这也启发了我们在DoorDash的实践：一是深入研究问题，制定优化方案；二是揭示平均值的误导性，解析数据分布，优化策略效率。",
+   "ts": "00:17:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's an awesome story, great memory to come up with that one. So this is a really good example of a way to carve out time for the data team to think long-term, think look for opportunities, find big ideas. So the hackathon is one idea. Imagine many data people are struggling often to push back on asks that are just like, \"h, we need to know. We just need this one thing. Here's a question, just answer this one question part.\" Do you have any advice to data to get better at pushing back? Sounds like a bit of cultural like, \"We have time, we need to work on these bigger things.\" But just any advice for data leaders or data ICs to find time for these sorts of things?",
+   "zh": "这真是个精彩的故事，回忆起来很棒。这是为数据团队腾出时间进行长期思考、寻找机会、发现大创意的绝佳范例。黑客马拉松就是一个典型例子。想想看，很多数据人员经常被迫应付诸如“我们需要知道这个数据”、“回答这个问题”等被动请求。您对数据人员在抵制这种被动需求方面有什么建议吗？听起来需要一种文化转变：“我们有时间了，应该专注于更重要的事。”对于数据领导者或数据部门，如何为这类工作争取时间呢？",
+   "ts": "00:20:21"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, saying no to someone is never fun. I think as a self-proclaimed people-pleaser, you don't want to say no, especially when it's something you can do and you know that you can very easily with maybe an hour's work, make someone happy. I think it's really important to establish a culture and for leadership to really establish the rules of working and that operating model so that some of the junior folks aren't forced to always have to say no. And I think one of the ways we do that is through our goaling. So because our goals are the same as our business partners, we're able to pretty easily say, \"Hey, we've got a limited amount of time. These are our goals. What are the most important things that we are going to work on this week or this month in order for both of us to hit our goals?\" (00:21:49): And so when something comes up to be able to say, \"Hey, this data poll that you want me to do, is this more important than these other three things that I was going to be working on? Yes or no?\" And I think sometimes people don't necessarily realize the trade-offs, and when you make them apparent and you put them front and center, they realize that, \"Oh, actually, you know what? That asset's not important. That can wait.\" So I think that that's definitely something I would recommend, which is always share the trade-offs. Don't suffer in silence with, \"How am I going to do all four of these things?\" Bring it up and say, \"Hey, this is what I was planning to do. If you want me to do this extra new thing, then one of these other things is going to have to drop. (00:22:36): I personally don't think that your ask is more important than these three things, but maybe there's new information, maybe there's context I don't have, so let's talk about it.\" Rather than just being like, \"No, I won't do that.\" That's not a great approach either. I think having the conversation and constantly reevaluating your prioritization to make sure you're working on the most important things or your team is working on the most important things is really good hygiene to have with your business partner. So some teams do that through a weekly standup like, \"Here's what we're going to do this week. Do we like this prioritization? Do we not?\" Some folks do it less formally than that. I think you got to figure out what works for you. But to the earlier point, it's a conversation with your engineering partner, your product partner, your ops partner, you're all on the same team, you're all trying to achieve the same goals and you're all incentivized to have your analytics team working on the most impactful things.",
+   "zh": "是啊，对别人说不总是件容易的事。我觉得作为一个自认的讨好型人格，你总不愿意拒绝别人，尤其是当你明明能做到这件事时，只要花一个小时左右就能让别人开心。我认为建立一种文化非常重要，领导层也需要明确制定工作规则和运营模式，这样基层员工就不必总是被迫拒绝别人。我们通过设定目标来做到这一点，因为我们的目标与业务伙伴一致，所以我们能很轻松地说：“嘿，我们时间有限。这些是我们的目标。本周或本月我们要重点做哪几件事才能达成目标？”（00:21:49）当有新任务出现时，比如你想让我做这个数据调查，但它比我原本要做的其他三件事更重要吗？是或否？我觉得有时候人们不一定能意识到这种权衡。当你把这些权衡摆在明面上，他们就会意识到：“哦，实际上这项资产并不重要。它可以等一等。”所以我认为一定要分享这些权衡，而不是默默忍受。“我该怎么把这四件事都做完？”把问题提出来说：“嘿，我原本计划做这些事。如果你想让我做这项额外的新任务，那其他三项中的某一项就得往后排。”（00:22:36）我个人不认为你的请求比这三件事更重要，但也许有新信息，或许我还不知道上下文，所以我们来讨论一下。”而不是直接说“不，我不做”。这也不是个好办法。我认为和你的业务伙伴进行对话，持续重新评估优先级，确保你或你的团队都在做最重要的事，这才是和业务伙伴保持良好关系的关键。有些团队通过每周站会来做到这一点，比如“本周我们要做这些事。你们觉得这个优先级合理吗？不合理吗？”有些团队则不那么正式。但你得找到适合自己的方式。回到前面提到的观点，这就是和你的工程伙伴、产品伙伴、运维伙伴的对话。你们同属一个团队，都在为同一个目标而努力，都希望分析团队能专注于最有影响力的工作。",
+   "ts": "00:20:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This advice is great for any role basically. And if I were to summarize it to a couple words, it's just prioritize and communicate what your priorities are and then align on the trade-offs of shifting your priorities.",
+   "zh": "这条建议对任何角色来说都非常实用。如果要用几个词概括，那就是优先排序并沟通你的优先事项，然后就调整优先事项的权衡达成一致。",
+   "ts": "00:23:32"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Every once in a while you just throw one over and say, \"You know what? This is quick. I'll do it.\" At least I do. I think sometimes just knock it out, build some goodwill. I think that that's also important. But usually it's not something you can do in five minutes and in that case it's that ruthless prioritization for sure.",
+   "zh": "偶尔你会顺手接下：“你知道吗？这很快就能做完。我来做吧。”至少我会这样做。我觉得有时候直接做完，建立好感也很重要。但通常这不是五分钟就能完成的事，这种情况下当然需要严格的优先排序。",
+   "ts": "00:23:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then there's also the side that you talked about of just show that you can provide value doing these things that are longer term, like prove your worth. \"Hey, look at all these opportunities I found for our team over time, I should keep spending time on these other areas,\" versus the on fire stuff.",
+   "zh": "然后还有你提到的另一面——你需要证明自己能通过做一些长期工作来创造价值，比如证明自己的价值。“嘿，看看我为团队找到的这些机会，我应该继续在其他领域投入时间。”而不是一味追求短期热点。",
+   "ts": "00:24:05"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:24:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When you're hiring people for your team, I'm curious what you look for and you think is incredibly important that maybe other people aren't prioritizing as much. What do you focus on when you're hiring?",
+   "zh": "在为团队招聘人才时，我很好奇你会看重哪些特质，又认为哪些特质至关重要，而其他人可能不那么重视。招聘时你会重点关注什么？",
+   "ts": "00:24:19"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah. So everybody needs to have a certain set of technical skills. I think that's a non-starter. We have a technical bar, we do a technical screen. So I think that's table stakes. There's some really unique characteristics that I've noticed when I look at some of the top talent that I've had on the team or have on the team. I think the first thing is just curiosity. You can't teach curiosity, or at least I haven't found a way to do it. If somebody else knows how, please let me know. Somebody who is just self-motivated to pull on the threads when they find them. So they don't just answer a question. They're like, \"Hmm, this thing seems a little odd. I'm going to dig in and look. Even though I could say I'm done, I answered the question, I did the thing I was going to do.\" The person that has that curiosity, something seems off, something doesn't really make sense and goes and proactively looks into what that is. That is just so valuable. So I really look for that curiosity and that self-motivation to do it without being told.",
+   "zh": "是的。每个人都需要具备一定的技术技能。我觉得这是一个基本要求。我们设定了技术门槛，也会进行技术筛选。所以我认为这属于入门标准。我注意到一些顶尖人才身上有一些非常独特的特质。首先就是好奇心。好奇心是无法教会的，至少我还没找到方法。如果有人知道方法，请告诉我。还有那些能主动挖掘问题的人。他们不只是回答问题，而是会说：“嗯，这个情况有点奇怪。我要深入调查一下。即使我已经完成了任务，回答了问题，也要继续挖掘。”那些有好奇心、能主动挖掘问题的人非常宝贵。所以我特别看重这种好奇心和主动性，不需要别人督促就能行动。",
+   "ts": "00:24:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How do you test for that? How do you do that in an interview and get a sense of if they're good at that?",
+   "zh": "如何测试这些特质？在面试中如何判断他们是否具备这些能力？",
+   "ts": "00:25:39"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "One way you can do it through the questions you ask is have something that is not quite right within the case that you're presenting and see if people notice first and foremost. And even if they don't, if you point it out like, \"Where do they go with that?\" I think that that's something that you can test for. I think you can also ask for examples that for these folks typically will highlight this, they'll talk about, \"I noticed this thing, and so we decided to investigate.\" So I think that there are ways that you can get that signal through the interview process, but it's really hard. I think testing for hard skills is a lot easier than testing for soft skills. And I think in some of the questions we ask, we'll ask a question with the idea that we're assessing something separate than what the question is necessarily asking. And I think that this is one example of where that really works.",
+   "zh": "一种方法是通过提问来测试。比如在你给出的案例中故意设置一些不合理的地方，看看他们能否首先发现问题。即使他们没发现，你也可以指出问题并追问：“接下来你会怎么做？”我觉得这是一种测试方法。你也可以让他们举例说明，通常他们会说：“我注意到这个问题，于是我们决定深入调查。”所以在面试过程中确实有办法捕捉到这些信号，但这很难。我觉得测试硬技能比测试软技能容易得多。在某些问题中，我们会故意设置隐藏的考查点，比如通过一个问题来评估与问题本身无关的能力。这个例子就说明这种方法很有效。",
+   "ts": "00:25:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You said that you give them a case. What does that look like? What is the actual approach to how you do this interview?",
+   "zh": "你说你会给他们一个案例。具体形式是怎样的？你如何进行这种面试？",
+   "ts": "00:26:47"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Our interview process has in the early stages a coding exercise. So we do our technical screen and a shortened version of a business case. So real world problem solving. Typically, it's something actually from DoorDash history, like a real problem that we had to see how people can problem solve on the fly. I think that that's an important skill to be able to have, which is, how do you take a problem, break it down, talk through it. A little bit like some of those consulting cases that you hear about, but something that's really rooted in real problems. And I think you can learn a lot from those types of cases where, yes, you get to see how people handle ambiguity and structured problem solving, but ultimately most people get something wrong. They make an assumption that's wrong because well, I would hope that the interviewer knows the business better than the interviewee. (00:27:56): And seeing how people react to being told they're wrong is a really important signal in my opinion. Seeing how people respond, how they're able to take new information and pivot, how they're able to make a decision. So that's another thing that I like to see in cases where, hey, you may not know the real right decision. You might say, \"Hey, I could see it going one way, I could see it going the other way.\" But I always push people to say, \"If you had to make a call right now, what would it be?\" So are people able to have a point of view without full information because that's life. Sometimes you have to just pick a direction and make a decision even though you don't have perfect information. So I like to see some of these softer skills and how they manifest throughout a case interview, even if it's not specifically what I'm asking with the literal problem we're solving in the case.",
+   "zh": "我们的面试流程在初期会安排编程测试。因此，我们会进行技术筛选，并简化版的商业案例分析。这实际上是在解决现实世界中的问题。通常，这些案例会选自DoorDash的历史案例，旨在考察候选人如何即兴解决问题。这种能力至关重要——它需要你能将问题拆解、理清思路。这有点像你听说的那些咨询案例，但这些案例更贴近真实的商业场景。我认为从这类案例中能收获诸多启发。当然，你能看到人们如何应对不确定性，如何进行结构化问题解决，但最终多数人都会出错。他们会因为假设错误而误入歧途——毕竟，我希望面试官比应聘者更熟悉业务。（00:27:56）在我看来，观察应聘者面对错误时的反应至关重要。观察他们如何接受新信息、调整思路并做出决策。这也是我喜欢在面试中观察的另一项能力——当你无法确定最佳决策时，应聘者可能会说：“我觉得有两种可能的方向。”但我总会追问：“如果现在必须做出决定，你会怎么选？”这样能考察应聘者在信息不完备的情况下形成观点的能力，因为这就是现实。很多时候，你必须在不掌握完美信息的情况下做出选择。因此，我希望在案例面试中看到这些软技能的体现，即便这些技能与我们所解析的具体案例无关。",
+   "ts": "00:26:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Along these lines, but in a different direction. You don't actually have a deep data science data background before you got into this stuff. I know you had some art background, you had an art portfolio back in school, and I think a lot of people wouldn't imagine that for someone being head of analytics for a company like DoorDash. I don't exactly know the question, but I guess is there anything there that you think would be interesting for people to know or hear?",
+   "zh": "再说回正题，但换个角度。您在投身这份工作前并没有深厚的数据科学背景。我知道您有艺术背景，学生时代有艺术作品集，我想很多人都难以想象像DoorDash这样的公司，分析部门的负责人竟有艺术背景。我不确定具体问题是什么，但您觉得有没有什么背景信息值得分享或探讨？",
+   "ts": "00:28:57"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, it's funny. I joke that I have a job I'd never be hired for because I don't have a traditional data science background. And I know that Elizabeth Stone on her podcast with you talked a lot about her non-traditional background for a CTO. So hey, maybe there's something to it. But I became a data scientist out of necessity. I completely self-taught in terms of SQL and Python and I did it because there was a need at DoorDash for someone to help figure out what the right goals were, how we set those goals, how we were performing different markets early in the DoorDash story, so 10 years ago at this point. And I think I just gravitated towards that type of work and Tony recognized that superpower in me even though I don't have that formal training. So yeah, I'm a bit of an artist for fun, but I guess a data scientist in practice or for career. (00:30:31): But I think that that non-traditional background has been a great thing because I'm able to hire people who have the technical skills that I don't have, the folks with PhDs in statistics and the data scientists, machine learning and otherwise. I am able to hire those folks and yet keep them really focused on driving business impact because my background was on the finance side, and so I've always been a pragmatist. And for me, the purpose of our team is to drive business impact. And so the mix between the technical skills of the smarter people that I've hired, the smarter than myself, and my grounding in driving business impact has been a really great partnership.",
+   "zh": "是啊，这挺有趣的。我常开玩笑说，我得到这份工作是因为传统数据科学背景不足，而非自身能力。不过我知道伊丽莎白·斯通在她与你的播客中多次谈到她作为首席技术官的非传统背景。所以，或许这其中确有其因。但我当初成为数据科学家纯属无奈之举。在DoorDash早期（约十年前），我完全自学了SQL和Python技术，因为公司急需有人帮助制定正确的目标、设定绩效指标，并分析不同市场的表现。托尼尽管看重我的实践能力，但我毕竟没有正规培训背景。不过说真的，我在业余时间倒是挺有艺术细胞的，但职业生涯里我始终是一名务实的数据科学家。\n\n（00:30:31）不过这种非传统背景反倒成了优势——我能招到具备我所欠缺的技术专长的员工，比如统计学博士、数据科学家、机器学习专家等。我既能聘请这些人才，又能确保他们专注于业务价值的提升，因为我有金融领域的从业背景，所以向来务实。对我而言，团队的核心使命就是创造商业价值。将我招募的比我更优秀的技术人才与我深厚的业务洞察力相结合，形成了一种极其高效的协作模式。",
+   "ts": "00:29:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's quite an inspiring story for someone that is just starting out and doesn't necessarily have a lot of experience in data, but also just generally. I think this is a really cool example. You could be successful in a field that you don't have a ton of background in. I'm curious what you think it was in you that allowed you to succeed in this and get to where you are today. What do you think you did right or what is some habits or ways of thinking that you think helped you achieve that?",
+   "zh": "对于刚入行且缺乏数据领域深厚经验的人，甚至对所有人来说，这都是一个非常鼓舞人心的故事。我认为这是一个绝佳的范例。即便你不具备某个领域的深厚背景，也能在其中取得成功。我很好奇，是你身上的哪些特质助你达成今天的成就？你认为自己做对了哪些事情，或者有哪些思维习惯或方法对你的成功有所助益？",
+   "ts": "00:31:21"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "First off, I have imposter syndrome like everybody else. So it's not like I have this crazy sense of confidence of like, \"Oh, I can do anything.\" I definitely have the same doubts that others have. I think part of it was probably not even realizing what I was doing. When you're at a startup and things are moving quickly and you see a problem, and I've always liked solving problems, so I was like, \"All right, how do I solve this problem?\" It was like, \"Oh, well, I need access to the data. I don't have access to the data. All right, I'll ask an engineer to get me the data. Well, this isn't going to scale. I can't always bother an engineer, so how do I figure out how to get the data myself? Well, let's learn Python.\" So I think it happened organically and I don't think I realized at the time what I was even doing. (00:32:41): And then I think if you think about things from first principles about what you need right now in front of you to unblock yourself or solve a problem, and you just focus on that instead of thinking about a global org that you're trying to build. I think that that helps. So for me, it was always about solving the problem in front of me the best way I could. And if that meant I needed to hire an engineer to report into me through the finance org, then that was what we were going to do and nobody was going to tell me I couldn't do it. So I think it's a belief in yourself, and ultimately it's just my desire to solve problems and figure out what has to get done is, I think, ultimately how it came about.",
+   "zh": "首先，我和其他人一样都有冒名顶替综合症。所以我并没有那种自视甚高的感觉，觉得自己无所不能。我和其他人一样也会有同样的疑虑。我想部分原因可能在于我当时甚至没有意识到自己在做什么。当你在一家初创公司，事情进展迅速，你看到一个问题，而我一直喜欢解决问题，所以我就想：“好吧，我该怎么解决这个问题？”比如，“哦，嗯，我需要访问数据，但我没有权限。好吧，我会让工程师帮我获取数据。不过这玩意儿没法扩展，我又不能总是麻烦工程师，那我该怎么自己获取数据呢？嗯，那就学Python吧。”所以我觉得这都是自然而然发生的，我当时甚至没有意识到自己在做什么。（00:32:41）：然后我认为，如果你从第一性原理出发，思考当前眼前需要什么才能突破困境或解决问题，而不是去考虑你正试图建立的全球性组织。我觉得这很有帮助。所以对我来说，一直都是尽最大努力解决眼前的问题。如果这意味着我需要雇一个工程师，让他通过财务部门向我汇报，那我们就这么做，没有人能告诉我不行。所以我认为这是一种对自己的信念，最终还是源于我渴望解决问题，弄清楚必须做什么，我想这就是成功的秘诀。",
+   "ts": "00:31:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that so much. There's so many elements there that I think a lot of people can learn from. I feel like there's also this underlying current of you're just motivated for this to work. You wanted DoorDash to succeed, and you're just like, \"I will do what I need to do to make this happen. I need to solve these problems. I'm not going to overthink. Do I have the skills necessarily to do these things [inaudible 00:33:48]?\"",
+   "zh": "我太喜欢这段话了。里面有很多元素，我觉得很多人都能从中学习。我感觉还有一种潜在的动力，就是你就是想让这件事成功。你希望DoorDash成功，然后你就想：“我要做我需要做的，才能让这件事成功。我需要解决这些问题。我不会想太多。[00:33:48不清]我有必要的技能来做这些事吗？”",
+   "ts": "00:33:30"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, I think I'm competitive. I think that's a trait that you find in a lot of early DoorDash folks and current DoorDash folks, to be honest, just wanting to win and being willing to do whatever you need to win. So roll up your sleeves, do something that's not your job. I think back to early days of taking out the garbage on Saturday nights because it needed to get done. I think that that was something that is ingrained in our culture from Tony Xu, from our founder and CEO, and I think that really resonated with me, and I feel like I've always operated that way as well. And I think that that helped me in my career to be able to do what I've done without really thinking about it too much.",
+   "zh": "是的，我觉得我很有竞争意识。我觉得这是很多早期DoorDash员工和现任DoorDash员工共有的特质，就是想赢，愿意为胜利付出一切。所以挽起袖子，做一些不属于你职责的事。我回想起早期周六晚上倒垃圾的日子，因为这些事必须完成。我觉得这就是从我们的创始人兼CEO徐 Tony Xu 那里传承下来的文化，深深根植于我们的基因里，我觉得这对我影响很大，我也一直这样做事。所以这也帮助我在职业生涯中能够做到现在这些事，而无需过多思考。",
+   "ts": "00:33:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any other memories or stories of the early days of DoorDash that would be fun to share? Something that sticks with you of like, \"Wow, I can't believe that's what it was like?\"",
+   "zh": "有没有其他关于DoorDash早期的回忆或故事，分享出来会很有趣？比如让你感叹“哇，真不敢相信当时是这样”的那种？",
+   "ts": "00:34:40"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Oh man, there's so many, including so many mistakes that we've made. But I think something that really stands out to me is before I moved to the analytics area, I was actually a GM. I was the first GM at DoorDash and I was in Boston in 2014 launching the city of Boston when nobody knew who we were. And we would wake up early in the morning, 5 A.M. and we would go out, it was the winter of 2014. We'd go out and we'd hand out promo codes consumers outside of the [inaudible 00:35:30] in Boston, and these promo cards would be attached to kind bars so people would take them. And the whole team, it was a small team, there were four of us, but the whole team would go out in the morning to do this. And I think back to our sales guy, shout out to Joey G. So Joe Graccio is our sales guy in Boston-",
+   "zh": "天哪，遇到的挑战太多了，包括我们犯过的诸多错误。但有一件事让我印象特别深刻。在转到分析部门之前，我曾担任过总经理。我是DoorDash首位总经理，2014年在波士顿启动业务时，我们还默默无闻。当时是冬天，早上5点我们就出门发送优惠码，这些优惠码附在巧克力棒上，方便路人领取。整个团队规模很小，只有四个人，但我们每天早上都会集体外出宣传。还要特别提到我们的销售人员乔伊·G（Joey G.）——他在波士顿市场开拓商家资源方面表现出色。",
+   "ts": "00:34:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "[inaudible 00:35:47] Joey G.",
+   "zh": "[不可听清 00:35:47] 乔伊·G。",
+   "ts": "00:35:47"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "And he was gold on signing merchants on the platform. (00:35:55): That was how he was gold. His compensation was tied to that. And yet in the morning when we would go out, he was with us handing out promo codes because he was part of the team because he wanted to win. We wanted to grow the business. And I think that that is just a great example of the culture that Tony and the early employees and Stanley and Andy, other co-founders really instilled in all of us early in those days. So I think that that ownership, that extreme ownership of the outcome is definitely one of the things. (00:36:32): I think the other is just being very customer first. And I say customer, I mean consumers, dashers and merchants as all being our customers. And the first time I ever went to the office headquarters in Palo Alto, which at the time was in an animal hospital. The first time I went there, there was a huge site outage and the whole company, it was like 20 people at the time, the whole company jumped online to do customer support, to answer the phones, to make sure that folks were getting refunds for orders that weren't going through, make sure the orders that were out there were getting delivered, just dropped everything and hopped on to do support. (00:37:15): And I was brand new, didn't really know how to use the tools, and so it was like, \"How can I be useful?\" And so back in those days, we used to order dinner to the office using DoorDash. And so in order to preserve about three dashers who would've had to deliver food to us, I was like, \"I'm going to go out, go out dashing, go get everyone pizza so that we could feed the masses doing credits and refunds and do what we had to to make sure that we were serving our customers well.\" And I think that night was one of the largest refunds as a percent of our bank account that we had ever given out. And I think Tony, there were two examples that he's talked about where we just gave a lot of money back to customers because it was the right thing to do because our service failed and we wanted to do right by them. (00:38:06): So I think that those are two stories that stick out in my mind and really highlight culturally what makes DoorDash unique and what I think has been a really important part of our success.",
+   "zh": "他在签约商家方面堪称高手（00:35:55）。他的薪酬与业绩挂钩。即便早晨外出宣传时，他也会和我们一起发送优惠码，因为他是团队的一员，志在共赢。我们想拓展业务。我认为这正是托尼、早期员工、斯坦利和安迪等联合创始人在早期为我们注入的文化精髓。这种对结果的极度负责，绝对是关键所在。（00:36:32）另一核心理念就是以客户为先。所谓客户，既包括消费者、外卖员，也包括商家。我第一次去帕洛阿尔托总部时，那时公司还设在一家宠物医院。第一次去那里，公司遭遇了大规模系统故障。当时只有20名员工，全员上线提供客户支持，接听电话，确保未成功的订单退款，保证已下单的订单按时配送，所有人放下手头工作，全力支援。\n\n（00:37:15）我当时新人一个，完全不会用工具，心里想：“我能帮上什么忙？”于是我们开始用DoorDash为办公室订餐。为了节省三名外卖员为我们送餐的时间，我决定亲自外卖，帮大家买披萨，这样我们就能专心处理退款和退货事宜，确保为客户提供优质服务。我记得那晚我们发放的退款金额占银行账户比例创下新高。我想托尼提到的两个例子也很能说明问题——我们曾退还大量款项，因为服务出了问题，这是正确的选择。",
+   "ts": "00:35:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me of the story that Tony and all the early employees, and I imagine you did this just like, \"We're dashers,\" it's like a rotation where you dash for a while. Is that part of the culture?",
+   "zh": "这让我想起托尼和早期员工的故事。我猜你们当时也这样做过：“我们也是外卖员啊。”这就像轮班制，先外卖一阵子。",
+   "ts": "00:38:20"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, so we have a program, a WeDash program, and Keith Yandell, who's our chief business officer, did your podcast last year and he talked about this. But four times a year all the employees go out and go dashing or do customer support, and it's part of our culture that I love. I actually go pair dashing, so I go together with one of my colleagues. We've done it for years now, and it's a fun thing that we do together four times a year. Actually, usually more than that. And it's important because you get to use the product, you build empathy with all the audiences. I think all of us order DoorDash a lot, so we've built empathy with consumers. But being able to go and understand what it's like to go out dashing and when you're in the restaurant going and talking with merchants and seeing the experience from their point of view, I think it's just incredibly important. And of course we find a lot of bugs like, \"Hmm, this doesn't work the way it should, let me report this.\" So I think it's also just great for catching bugs in the product.",
+   "zh": "是的，我们有一个项目，叫WeDash项目。我们的首席商务官基思·扬德尔去年参加了你们的播客节目，他谈到了这个项目。但每年四次，全体员工都会出去送餐或提供客户支持服务。这是我们文化中我最喜欢的一部分。我实际上会和同事一起送餐合作。我们已经这样做了很多年了，这是一项我们每年四次共同参与的有趣活动。实际上，通常次数还不止于此。这很重要，因为你能亲自使用产品，增进对所有用户群体的理解。我想我们大家都经常使用DoorDash，所以我们与消费者之间建立了共鸣。但能够亲自去送餐，了解送餐者的感受，当你身处餐厅与商家交流时，从他们的视角看问题，我认为这非常重要。当然，我们还能发现很多漏洞，比如“嗯，这个功能不应该这样啊，让我去报告一下”。所以我认为这对发现产品漏洞也非常有帮助。",
+   "ts": "00:38:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Attio, a radically new type of CRM. There's a world where your CRM is powerful, easily configured, and deeply intuitive. Attio makes that a reality. Attio is built specifically for the next era of companies. It syncs with your data sources, easily configures to their unique structures and works for any go-to-market motion from self-serve to sales led. Attio automatically enriches your contacts, syncs your e-mail and calendar, gives you powerful reports and lets you quickly build Zapier style automations. (00:40:17): The next era of companies deserves more than an inflexible one-size-fits-all CRM. Join modal, replicate 11 labs and more, and scale your startup to the next level. Head to at attio.com/Lenny and you'll get 15% off your first year. That's attio.com/Lenny. (00:40:39): I want to come back to a thread, something you mentioned where you and a lot of the early team had felt extreme ownership over the company and that's why a lot of this stuff happened. For people, every founder, every product team, they're going to like, \"Yes, we need that. Let's make sure everyone on the team feels extreme ownership.\" Is there anything that you think that the early team did to create that or is it hiring, just pick people that will have that feeling already, or is cultural?",
+   "zh": "本期节目由Attio赞助，这是一款全新的CRM产品。在未来，CRM系统应该强大、易于配置且极具直观性。Attio让这一愿景成为现实。Attio专为新时代企业打造。它能与您的数据源同步，轻松适应独特的业务结构，适用于从自助服务到销售主导的任何市场拓展模式。Attio自动丰富您的联系人信息，同步邮箱和日历，提供强大的报表功能，并支持快速构建Zapier风格的自动化流程。（00:40:17）：新时代企业理应获得比千篇一律的CRM产品更优质的服务。加入modal、11 labs等平台，将您的初创企业提升至新高度。访问attio.com/Lenny，即可享受首年15%折扣。（00:40:39）：我想回到您提到的那个话题，您和早期团队中的许多人对公司有着极强的归属感，这也是许多事情得以实现的原因。对于每位创始人和产品团队来说，他们都会想：“是的，我们需要这样做。让我们确保团队中的每个人都有极强的归属感。”您认为早期团队是如何创造这种归属感的？是招聘合适的人，还是通过文化塑造？",
+   "ts": "00:39:43"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "I think it's both. It's definitely cultural. I think it comes from the top and I think that Tony exhibits this extreme ownership and looks for it in others. So I think that helps. But I think even today I expect of my team that same extreme ownership over the outcomes. And so I'm more interested in our team figuring out how to solve a problem than the box that someone fits in like, \"I'm a data scientist and so I only do these things.\" Right? It's like, \"No. I mean, yes, you are a data scientist, but your goal is to figure out what's happening, and if that means that you're going to pick up the phone and call customers, then that is what you're going to do.\" And I think that expecting that and setting that as the norm for the team, this ownership of the outcome is something that we continue to do at DoorDash and instill in everyone whether you were early or just joined last month.",
+   "zh": "我认为两者皆有。这绝对是文化层面的东西。我认为它源自高层领导，托尼就展现出这种极强的归属感，并在他人身上寻找这种特质。所以我认为这很有帮助。但即使在今天，我也期望我的团队对结果拥有同样的极强归属感。所以比起让某人被框定在某个角色里，我更感兴趣的是让团队想办法解决问题，而不是被框定在某个角色里。比如，“我是一名数据科学家，所以我只做这些事情。”对吧？而是，“不。我的意思是，是的，你是一名数据科学家，但你的目标是弄清楚正在发生什么，如果这意味着你要拿起电话给客户打电话，那你就应该去做。”我认为期望团队拥有这种归属感，并将其设定为团队的规范，这种对结果的归属感，是我们在DoorDash一直践行并灌输给每个人的东西，无论你是早期加入还是上个月才加入的。",
+   "ts": "00:41:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there an example of that that comes to mind of someone practicing extreme ownership, like a data scientist calling someone or something along those lines?",
+   "zh": "您能否举个例子，说明什么样的人在践行“极端所有权”理念？比如，数据科学家会给某人或某个部门打电话之类的？",
+   "ts": "00:42:09"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, so I actually had a meeting yesterday morning with the team that's working on some of our affordability initiatives and we had shipped something that we expected to work, and it didn't. And instead of, \"You can dig into the data,\" to understand the segments of consumers that you would expect it to work with and those that it wouldn't, of course we did that. But ultimately it was like, \"I don't know why.\" And that's where qualitative research is superior to quantitative research, it's asking for the context, to actually talking to people to figure out what was the motivation, what worked, what didn't for them. And so the team, data scientists included, just sat and made phone calls. And so they were talking about what they found from those phone calls and that's going to inform future decisions. And I think rather than saying, \"Well, that's what the qualitative research team is supposed to do,\" it's like, \"No, no, no, that is what our team, anyone's team is supposed to do because that's what's needed to unblock us from this next test that we want to run because we need to know what we are testing.\" (00:43:23): So I think that it happens every day. I think I really love when I see team members go outside the traditional bounds of what a data science role might be and do some product management work, do some engineering work. I think that that's part of what keeps the job interesting. I think it's part of what makes our team special is that that is not only allowed, it's encouraged, and probably also a reason why we've had folks who've gone from my team to the product org and to the ops org and to the finance org is because they get to do and experience parts of that job and get a good sense for what that's like and then realize it's something that they love. So I think it's definitely something we encourage at DoorDash.",
+   "zh": "是的，昨天上午我和负责可负担性计划的团队开了个会。我们推出了一个本以为能有效的方案，结果却不尽如人意。不是让他们去深入分析数据，找出预期有效的消费者群体和无效的群体——当然我们也这么做了。但最终还是会说：“我不知道为什么会这样。” 这时候定性研究就比定量研究更有优势了，它需要深入了解背景，真正与人交流，搞清楚他们的动机是什么，有什么地方做对了，有什么地方做错了。所以团队成员，包括数据科学家们，就坐下来打电话。然后他们会聊聊从这些电话中发现的问题，这些信息将为未来的决策提供参考。我觉得不能简单地说“这就是定性研究团队该做的事”，而是应该说：“不，不，不，这是我们团队、任何团队都该做的事，因为这正是我们解开下一步测试困局所需要的。” （00:43:23）所以我觉得这种情况每天都在发生。我特别喜欢看到团队成员突破数据科学角色的传统界限，参与产品管理工作，甚至工程开发工作。我认为这正是这份工作保持趣味性的原因之一，也是我们团队的独特之处——不仅允许这样做，还积极鼓励这样做。这或许也是为什么有员工从我的团队转到产品部门、运营部门、财务部门的原因，因为他们能接触到这些工作的不同方面，对其本质有深刻理解，最终意识到自己热爱这份工作。所以在DoorDash，我们绝对鼓励这种跨界尝试。",
+   "ts": "00:42:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. I want to move in a slightly different direction. One of your colleagues told me that you are incredibly good at defining metrics, which is so important to get right for a business, especially when it's complex at DoorDash. And I hear you're especially good at finding the right metric to drive the right incentive, especially when the business is really messy and things like that. So I'm just curious what you've learned about how to pick good metrics and align incentives well.",
+   "zh": "我很欣赏这一点。接下来我想问个不同方向的问题。您的一位同事告诉我，您非常擅长定义指标，这对企业的运营至关重要，尤其是在DoorDash这样复杂的环境中。我听说您特别善于找到正确的指标来驱动合适的激励措施，尤其是在业务非常混乱的情况下。所以我很好奇，您在选择有效指标和合理设计激励机制方面有什么心得？",
+   "ts": "00:44:17"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "I've learned a lot of things about metrics, mostly from bad metrics. I actually think you learn a lot from picking the wrong metric. Ultimately, you want to find a short-term metric you can measure that drives a long-term output. So people always talk about, \"Oh, we want to drive an improvement in retention.\" Retention is a terrible thing to goal on because it's almost impossible to drive in a meaningful way in the short term, and yet you want to be able to experiment and iterate quickly. So what are the things that drive retention? What are the inputs? So I think it's really important to find the right inputs, and then through experimentation test whether or not those short-term inputs are driving the long-term output that you're looking for. I think that's one thing. I think keeping things simple is another thing I've learned over the years, maybe it's data scientists, but they tend to love these composite metrics with a coefficient. (00:45:44): \"We're going to wait this input at X and this input at X+2.\" And then you end up with a metric that nobody really understands that doesn't actually mean anything. And you're like, \"I don't know if a 0.1 increase is it a lot? Is it good? Is it bad?\" So they're just hard to work with. (00:46:07): And so I always encourage folks, just pick something simple, even if it's not perfect and your composite would be more perfect. If people understand it, if they have an intuition around it, if it's something that people can talk about across the company, it's going to be a much better metric in terms of driving real outcomes than your made up composite score that nobody understands. So I think keeping things simple is also really important. And then I think the last thing I'll say is it's important to understand how metrics across the company equate to one another. (00:46:43): And so we spend a lot of time quantifying things in terms of a common currency. So for example, if I were to lower price by a dollar, what would I get in terms of, we'll say, volume? Well, what if I lowered delivery times by a minute? What do I get for that in terms of volume? And so now you can make trade-offs between maybe your marketing team and your logistics team because you have this common currency that everyone can talk about. And so we've done that. We've tried to quantify all of the levers of our business, price, selection, quality in common terms, so that if we have, say, a dollar to spend, we know what we get depending on where we put it, over what timeframe. I think that that helps us make decisions more quickly because we know what our options are. We know we have our inventory of things that we can do, short-term, long-term, and what we get for it. So it definitely helps us to make decisions more quickly and hopefully better decisions.",
+   "zh": "我学到了很多关于指标的知识，大多是从糟糕的指标中吸取的教训。实际上，我认为从选择错误的指标中也能收获很多。最终，你希望找到一个短期可衡量的指标，能推动长期的产出。所以人们总是说：“哦，我们想提高用户留存率。”但留存率是一个极难设定目标的指标，因为短期内很难以有意义的方式提升它。然而你又希望能快速进行实验和迭代。那么，哪些因素能驱动用户留存呢？输入条件是什么？我认为找到正确的输入条件至关重要，然后通过实验测试这些短期输入是否能推动你所期望的长期产出。这很重要。多年来，我还意识到另一件事——也许数据科学家们也深有体会，他们往往喜欢那些带有系数的复合指标。（00:45:44）：“我们要等待X时刻的这个输入和X+2时刻的这个输入。” 最终你得到一个没人真正理解、毫无意义的指标。你会想：“0.1%的增长算多？好还是坏？”所以这些指标很难操作。（00:46:07）：所以我总是鼓励大家选择简单的东西，即便它不完美，你的复合指标或许更完美。但只要人们能理解它，有直观认识，能在全公司范围内进行讨论，它就会比那些没人懂的复合评分更能推动实际成果。因此，保持简单性也非常重要。最后我想说的是，理解公司内各指标之间的关联也很重要。（00:46:43）：所以我们花大量时间将各种事物量化为通用货币。例如，如果我把价格降低一美元，销量会增加多少？如果我把交付时间缩短一分钟呢？这样一来，营销团队和物流团队就能进行权衡，因为大家都有一个可以交流的通用货币。我们已经这样做了。我们努力将业务的所有杠杆（价格、选品、质量）量化为通用术语，这样当我们有1美元预算时，就能根据不同投入在不同时间框架内的效果做出选择。我认为这有助于我们更快地做出决策，因为我们清楚自己的选择范围，知道可以利用的短期、长期资源，以及它们带来的回报。因此，这确实能帮助我们更快地做出决策，希望还能做出更明智的决策。",
+   "ts": "00:44:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "These are so awesome. I definitely want to follow up on some of this. This is so good. So maybe on this last one, which we did at Airbnb also like, how does everything translate into Knight's book and booking? Every decision we make, what is the actual Knight's book impact? And so I imagine in your case, I don't know if you want to talk about these things. I imagine it's transactions, or purchases, or GMB or something like that, so I'm guessing is the final metric. I don't know. Is that something you talk about or you don't talk about that?",
+   "zh": "这些太棒了。我肯定想深入探讨其中一些内容。这太棒了。那么最后一个例子，我们在Airbnb也做过类似的尝试，比如，如何将所有指标与Knight的书和预订量关联起来？我们做的每个决策，实际对Knight的书有何影响？所以我猜在你们公司，我不知道你们是否愿意谈论这些内容。我猜是交易量、购买量、GMB之类的，最终指标应该是预订量吧？我不知道，你们是否谈论过这些？",
+   "ts": "00:47:56"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "We measure things in terms of GOV, so Gross Order Value, and also volume.",
+   "zh": "我们用GOV来衡量，即总订单价值，还有交易量。",
+   "ts": "00:48:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. [inaudible 00:48:34]. Okay, so basically every other metric that people are gold on as much as you can translate, there's a model that translates that into Gross Order Value and volume? Awesome. So when a team is saying, \"Hey, we're going to change the onboarding flow and impact conversion here.\" I don't know. I guess what are some examples of other metrics on teams that potentially translate into GOV and volume just to make it even more real?",
+   "zh": "明白了。[00:48:34的不可听清内容]。好的，基本上来说，人们关注的其他所有指标，只要能转化成毛订单价值和交易量的，都有对应的模型吧？太棒了。所以当一个团队说\"嘿，我们要改进新用户引导流程，提升转化率\"之类的，我不知道，你能不能举些例子，说明其他团队的哪些指标可能转化为毛订单价值和交易量，这样更直观些？",
+   "ts": "00:48:33"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah. So everything from the example that you started with, which is an improvement in the login flow, how many more consumers are getting onto the app and ultimately placing orders. And so you can translate that to, of course, orders and GOV. But then something as interesting as selling a Thai restaurant in Sacramento, we're able to say, \"What do we think that that gets us in terms of GOV from the consumer by selling that Thai restaurant?\" So it's every area of the business, it's mobilizing more dashers on the road. What does that do to our quality metrics in terms of delivery times? How does that translate? So because of that, we're able to figure out if we want to spend the dollar or spend the time, the team's time, on improving conversion or spending more money in marketing or onboarding more dashers or signing more restaurants or adding more grocery stores. So we are able to look across the whole business and figure out what is the right mix of actions to take to achieve our goals.",
+   "zh": "是的。从你提到的例子开始，比如改进登录流程，让更多用户下载应用并下单。然后这些数据就能转化为订单量和毛订单价值了。还有一些更有趣的案例，比如在萨克拉门托卖泰国餐厅，我们可以分析通过卖这家泰国餐厅，能为公司带来多少毛订单价值？这适用于业务的方方面面，比如调动更多外卖骑手上路，这会对我们的配送时效等质量指标产生什么影响？如何量化这些影响？基于此，我们就能判断是该投入资金还是人力，提升转化率，还是加大营销投入，或者增加骑手数量、签约更多餐厅、开设更多生鲜超市。这样我们就能统筹全局，找到实现目标的最优策略组合。",
+   "ts": "00:49:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I could see as you talk about this why this is so important in a marketplace, especially a multi-sided marketplace where there's always trade-off decisions between supply investment and demand growth and dasher growth. I don't even know, my brain would explode trying to think about all these things, so I get exactly why this is so important to business. Okay. And then in terms of the simple recommendation, I think when people hear like, \"Yeah, keep it simple,\" they're like, \"Yeah, yeah, we're going to keep it simple.\" What are some things that point to, \"This is not simple,\" that tell you like, \"No, this is way too complicated. You should try to simplify this metric even though it's not ideal. It's not the perfect metric, but it needs to be simpler.\"",
+   "zh": "听你讲这些，我能理解为什么这在市场平台上如此重要，尤其是在多边市场中，供给投资、需求增长和骑手增长之间总是存在权衡取舍。我甚至觉得，要是把所有这些因素都考虑清楚，我的脑子肯定会炸掉。所以我完全明白这对业务有多重要。好的。那关于简化指标的建议，我觉得人们听到“保持简单”时，通常会说“是啊，是啊，我们要保持简单”。但有些情况会让人意识到“这并不简单”，比如“不行，这太复杂了。你应该简化这个指标，虽然它不完美，但必须更简单易懂。”",
+   "ts": "00:50:18"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah. So we had a score for merchant health, which we tried experimenting with, which was a combination of factors that we had found would lead to a merchant being on the platform and getting an order. So we wanted to make sure that the merchant had active hours on the platform and had images and had a full menu that was accurate and robust. A number of different inputs. And we created a composite that weighted all of these different inputs. And then we were like, \"What is our merchant health score?\" And you were like, \"It's 0.35. It's not 35%. So what is that, that 0.35? I don't know what it is.\" So instead of that, we said, \"What are the most important factors in order... First, let's measure how many of the new merchants are getting an order within their first, say, seven days on the platform. (00:51:57): And then let's look at how many of our merchants are doing these things we know are important. So these inputs. So let's goal our team on getting merchant photo coverage up. Let's goal the team on making sure that we have open hours, accurate hours.\" So yes, someone might say it's simpler to have a composite metric, but it was so hard to understand what it was and how to move it that it became meaningless. And ultimately moving to something that was simpler to understand, even if it meant having three metrics instead of one, it ultimately was better for the team because folks knew what they were trying to move. And so yeah, maybe we missed number four, five and six on the list of things, but you got one through three and that's 95% of it anyway. So once we get success with that 95, then let's talk about figuring out the other 5%.",
+   "zh": "是的。所以我们曾推出一个商家健康评分机制，尝试用它来衡量商家在平台上的活跃度以及获取订单的概率。具体来说，我们综合了多个因素，比如商家在平台上的活跃时段、图片展示、菜单信息的准确性和完整性等。我们创建了一个综合评分模型，对这些不同因素进行加权评估。然而，用户对这个评分机制的理解存在困难，比如“商家健康评分到底是多少？”用户可能误解为“0.35”是百分比，但实际上这是0.35分。我们不得不重新调整思路：首先，重点监测新入驻商家在平台首七天内获得订单的比例；其次，确保所有商家都做好了关键优化，比如完善图片展示、调整营业时间等。最终，我们将团队目标聚焦于提升商家图片覆盖率和营业时间准确性等核心指标。虽然这意味着需要同时管理三个指标而非一个综合评分，但团队更容易理解并推进优化工作。毕竟，95%的关键指标已达成，剩余5%的优化空间可逐步推进。",
+   "ts": "00:50:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's so funny because this is exactly what we went through at Airbnb, we had, we call that a healthy host. I led the host quality team for a while and we came up with this healthy host metric that was six factors of a host, like the cancellation rate, the review rate, their response rate and things like that. And then we're just like, \"Cool, let's move this, let make more hosts healthy.\" And then you end up like, \"Okay, which one do we focus on?,\" And, \"Oh, what about all these others?\" And we ended up basically focusing on one at a time. And so let's just make that the goal for now and then rotate through the different biggest [inaudible 00:53:28] opportunities to move. [inaudible 00:53:30].",
+   "zh": "这真有趣，我们在Airbnb也遇到过类似问题。我们曾推出“健康房东”评分标准，将房东的取消率、评价率、回复率等六项指标纳入考量。结果却陷入纠结：“重点关注哪项指标？”“其他指标怎么办？” 最终我们选择逐一突破。例如，先专注于某个关键指标，待优化完成再转向下一个。",
+   "ts": "00:52:55"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Exactly. I think in hindsight for the example you give, which of those six things are actually the most important? And if you're able to then quantify which one matters most, you work on that one first and you materially move that one and then you work on the next one. You want to move them all. But being able to prioritize and know what you're going to get for a 20% improvement in, say, your cancellation rate, that's where analytics I think can add a lot of value. Because yes, ultimately you'll get to all of them, but the way you do that and the time can have a meaningful impact on your growth. If you can target the most problematic things first and solve those, you get more bang for your buck and that compounds over time. And so doing the things that matter first and most quickly is a competitive advantage in my opinion.",
+   "zh": "确实如此。回顾案例，六项指标中哪些最重要？若能量化最关键的因素，先攻克核心问题，再逐项推进。用户希望同时优化所有指标，但优先级管理至关重要。例如，提升20%的取消率所需的分析价值远超其他指标。先解决最紧迫的问题，事半功倍，长期来看能形成良性循环。",
+   "ts": "00:53:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The other thing we found along those same lines is rotating between different metrics is so not efficient because you get good at, \"We're going to move this metric.\" And your team's like, \"Cool, we totally understand this lever,\" like cancellation rate. We become really smart at cancellation rate and then three months later, you need to switch to response rate and they have to learn a whole new paradigm of how to think about it. And it's just super inefficient. So we found basically, just keep a team on the metric until there's no more opportunities and give another team one of these other metrics.",
+   "zh": "我们还发现，在同一个领域内频繁切换不同的衡量标准效率极低。比如，你刚掌握了一个衡量标准，团队就开始兴致勃勃地说：“我们要调整这个指标！”但三个月后，你又得改成另一个指标，他们又得重新学习全新的思维模式。这实在太低效了。所以我们的做法是，直到某个团队对某个指标已经无计可施时，再交给另一个团队处理。",
+   "ts": "00:54:21"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:54:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So many lessons. Okay. And the first thing you said on how to pick a good metric about this idea of short-term metrics that have long-term impact. How did you phrase that again?",
+   "zh": "学到太多了。好的。你之前提到的如何选择一个好的衡量标准，特别是那些具有长期影响的短期指标。你具体怎么说的来着？",
+   "ts": "00:54:52"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, so we find proxy metrics for long-term outcomes.",
+   "zh": "对，我们会为长期结果找寻替代衡量标准。",
+   "ts": "00:55:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. And it's similar to the simple metric, and it all comes down to, again, just like the metric should be something probably, you can move, you can understand, that's close enough to this ideal, perfect metric, but isn't necessarily the entire ideal. Okay, awesome. Anything else along these lines of just picking metrics, working with metrics that you've learned that would be worth [inaudible 00:55:28]?",
+   "zh": "太棒了。这和简单衡量标准的理念很相似，关键在于，衡量标准应该易于理解、易于操作，尽可能接近理想的完美衡量标准，但不必追求完美。好的，很棒。还有其他关于选择衡量标准、处理已学到的衡量标准的经验值得分享吗？",
+   "ts": "00:55:05"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "With metrics, we are often looking at the average, and I think we talked about this a little bit earlier, but making sure that you're looking at the edge cases and your fail states is also really important. And so we often will set goals actually and create metrics around those edge cases. So like the disaster deliveries, the ones that go terribly wrong. So we have this concept of Never Delivered, which is orders that are never delivered. We're really great at naming things at DoorDash, and they're very rare. And so if you were just looking at the average effect or the average consumer experience, it would never come up. If you were just measuring quality based on average values of delivery times and lateness [inaudible 00:56:18], these wouldn't show up because they are so rare, but they're terrible. They're terrible experiences for consumers. They lead to churn. (00:56:27): They're incredibly expensive because you're refunding an order or repurchasing food and having to send another dasher to deliver that repurchased food. So they're very expensive, they're costly from a consumer experience standpoint. And I think if you're not looking for these fail states, they are often missed. So I think when you're picking metrics, yes, you want to improve engagement and you want to improve conversion, and there's a lot of things that are averages overall that you want to move, but it's so important to find these edge cases in these fail states and actually set concrete goals around eliminating them because it can be really powerful.",
+   "zh": "在衡量标准方面，我们经常关注平均值。我想我们之前稍微提到过，但确保关注边缘案例和失败状态也非常重要。因此，我们经常设定目标，并围绕这些边缘案例创建衡量标准。比如灾难性配送任务——那些严重出错的订单。在DoorDash，我们对这些情况有专门的命名，比如“从不配送”（指永远未能配送成功的订单）。我们很擅长给这些情况起名字，但它们确实非常罕见。如果你只看平均效果或平均消费者体验，可能根本注意不到这些问题。比如，如果你仅根据平均配送时间和延迟来衡量质量，这些问题就不会显现出来，因为它们太罕见了。但它们确实很糟糕，对消费者来说是极坏的体验，会导致客户流失。（00:56:27）它们成本极高，因为你得退款、重新购买食物，还得派新的外卖员去重新配送。总之，从消费者体验角度看，它们代价巨大。如果你不关注这些失败状态，很容易忽视它们。所以在选择衡量标准时，除了提升用户参与度和转化率，还有很多平均值指标需要改进，但找到这些边缘案例和失败状态，并设定明确的消除目标，效果会显著得多。",
+   "ts": "00:55:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So the tip here is actually make that a goal like, never deliver at some team, just keep cutting that down?",
+   "zh": "所以这里的建议就是，把这作为一个目标，比如某个团队永远不配送失败的订单，然后不断优化？",
+   "ts": "00:57:11"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Exactly. So we have part of our quality analytics team and we have product engineering and ops on it as well. Their goal is to eradicate Never Delivered. And in order to do that, you have to understand why they happen. Sometimes it's human error, sometimes it's fraud. And then figure out ways that you can prevent them, that you can fix them while it's happening and ultimately just get rid of them from the system. And you're never going to completely get rid of them, but you can make a meaningful impact to make them even more rare than a fraction of a percent.",
+   "zh": "没错。所以我们有部分质量分析团队成员，还有产品工程和运营人员参与其中。他们的目标是彻底消除“未送达”问题。而要做到这一点，就必须先理解这种情况发生的原因。有时是人为失误，有时是欺诈行为。然后要想办法预防这些问题，及时纠正现有问题，最终将其从系统中彻底清除。虽然永远无法彻底消除这些问题，但我们可以通过有效措施将其发生率降至远低于千分之一的水平。",
+   "ts": "00:57:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. And I feel like people may be hearing this and like, \"Of course, why would you not focus on terrible work experiences?\" But I think in most companies, they look at the big numbers, they look at the averages as you said like, \"Oh, it almost never happens. Why do we even spend any time on this?\" And your point is, you should actually spend time on these really terrible experiences, even if it's a tiny portion of your business. I guess maybe share why that's important. Is it just because that has trickle-down effects on the brand?",
+   "zh": "是的。我觉得人们听到这些可能会想：“当然，难道不应该专注于糟糕的客户体验吗？”但我认为在大多数公司里，他们只看大数据，只看平均值。比如他们会说：“哦，这种情况几乎不会发生，我们为什么还要在这上面浪费时间？”而你的观点是，实际上应该花时间关注这些极其糟糕的体验，即便它们只占业务的一小部分。我猜你能否解释一下为什么这很重要？是因为这会对品牌形象产生连锁反应吗？",
+   "ts": "00:58:00"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, I think it's a couple of things. So just because something doesn't happen frequently doesn't mean that it's not important. So the Never Delivered example is a great one in that this is leading directly to churn and it's also costing a lot of money far more than its frequency would suggest. And I think the fact of the matter is is when you have things that cause churn, you're losing all of that consumer's subsequent orders, and that is not necessarily observed. You're just seeing one bad experience, you're not seeing all of the lost orders because they're lost. And so I think that sometimes this is an area where the data doesn't show you the full picture. And being able to quantify the impact on engagement, on profitability, will make it stand out as something that really, that you would maybe miss if you weren't really looking for it. (00:59:25): And then I think the other thing is with something like login errors, sometimes you don't see it in the data because people can't even get into the data. If you're not able to log in, you're not making any purchases, you're not ordering, and so you may not see it in the data that you're looking at. And so that's also something that I think is important for data folks to think about, which is what data don't we have? What data might we be missing? Where might there be opportunities and things that we actually need to identify and fix that we may not see? Because in this case, with login failures, they're not able to log in. They're not in the denominator, and so we're missing out on them from the data set entirely.",
+   "zh": "是的，我觉得有几个方面的原因。某件事发生得不频繁并不意味着它不重要。“未送达”案例就是一个很好的例子，因为这直接导致客户流失，而且其造成的损失远超其发生频率所应承担的责任。关键在于，当出现导致客户流失的问题时，会失去所有后续订单，而这往往被忽视了。你只看到一次糟糕的体验，却看不到所有流失的订单，因为它们已经流失了。所以我认为有时候数据并不能完整呈现全貌。能够量化对用户参与度和盈利能力的影响，才会让这些问题凸显出来，否则你可能根本不会注意到它们。（00:59:25）：然后我觉得还有一点，关于登录错误的问题，有时数据里看不到这些问题，因为用户根本无法登录。如果登录不了，就无法进行购买或下单，所以你看到的数据里可能没有这些记录。因此，我认为数据团队需要思考的问题是，哪些数据我们没有？哪些数据可能被遗漏了？哪里有机会和问题需要我们识别并解决？因为在登录失败的情况下，用户无法登录，他们不在分母里，因此我们完全无法从数据集中获取这些信息。",
+   "ts": "00:58:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just a couple of more questions. There's one that I skipped that I'm just going to come back to. It's completely out of nowhere, but I think it might be interesting is about a global data org. So you run a global data org, you have data scientists and analysts and biz ops people all over the world, not just the US. I'm curious just how is it different managing data people in different countries versus just the US? What's a big difference?",
+   "zh": "再问几个问题。有一个我跳过了，现在再回来。这个问题完全出乎意料，但我觉得可能很有意思，关于全球数据组织的。你们运营着全球数据组织，在世界各地（不只是美国）都有数据科学家、分析师和商业运营人员。我很好奇，在不同国家管理数据团队和在美国管理相比，有什么不同之处？最大的区别是什么？",
+   "ts": "01:00:15"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Everyone always asks about the differences. What I am surprised by is how similar things are, how similar people are, the data scientists themselves, but also consumers and dashers and couriers, as we call them at Volt. There's a lot more similarities than differences. I do think that when you built a business in the US and then you introduce new countries, having different currencies and different languages adds complexity that you weren't necessarily familiar with. I think similarly in EU countries versus non-EU countries in Europe, there's different regulation. So that adds a fun layer of complexity. So I do think that it adds complexity to the problem set, but ultimately so many of the problems are the same. It feels a little bit like going into a test having seen the answer key. And so for me, there are problems we've encountered at Volt through Volt analytics where I'm like, \"Oh, we've had a similar problem. (01:01:49): I have an instinct for what the answer might be. Let's still test because there could be differences cultural or otherwise, but I feel like I know where we're going to end.\" And then sometimes there are problems where it's new for one reason or another, and it's exciting because you're like, \"All right, let's see if things are different here.\" Let's see what ideas might work in a Volt country that don't work in a DoorDash country and vice versa. So I think I tend to focus more on what's the same, and then I'm pleasantly surprised when I find things that are different because that keeps you on your toes and keeps things interesting.",
+   "zh": "大家总是问起各国之间的差异。但让我惊讶的是，无论是业务模式、数据科学家群体，还是消费者、外卖骑手和快递员（在Volt我们称他们为\"Dashers\"），各国之间其实有很多相似之处。相似之处远多于差异。我认为，当你在美国建立业务后，再向其他国家拓展时，汇率和语言差异确实会增加原本不熟悉的复杂性。同样，欧盟国家与非欧盟国家在监管方面也存在差异，这又增添了一层有趣的复杂性。所以我确实认为这会让问题变得更复杂，但归根结底，许多核心挑战都是相似的。这就像在考试中提前看到答案，心里已经有底。虽然有时候也会遇到新问题，但只要能找到相似之处，比如\"我们之前也遇到过类似问题，可能答案相似\"，或者\"虽然这里有文化差异，但核心思路应该是一样的\"，都会让我倍感欣慰。反之，遇到全新的挑战时，比如\"这里和DoorDash的玩法不同\"，也会激发我的探索欲望，探索在Volt的市场中行之有效的方案在DoorDash却行不通的例子。所以我更倾向于关注共性，当发现差异时也会倍感惊喜，因为这能时刻保持专注，让工作充满趣味。",
+   "ts": "01:00:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm going to take us to AI Corner. This is a segment we have in the podcast where I try to understand how people are using AI in their day-to-day and in their business. I'm curious if you've found some really interesting way of using AI ideally in... you can go in either one of these directions, and how you or your team work day-to-day using AI tools to make you more efficient, or integrating AI into your product, making DoorDash better.",
+   "zh": "接下来我们进入AI角。这是播客中的一个环节，我想了解大家如何在日常工作和业务中应用AI。我很想听听，你们是否找到了一些非常有趣的AI应用方式，或者团队如何通过AI工具提高效率，或者如何将AI融入产品，让DoorDash变得更出色。",
+   "ts": "01:02:31"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, I think that there are opportunities in both. I think one of the things I'm really excited about is actually the former. So in helping to make the team more productive, we do something called Office Hours at DoorDash, the analytics team. And it's something that we started eight years ago, and it was a way to provide support for teams that at the time we just didn't have the bandwidth to support. So we would go, in the early days, we'd go sit in a room and we'd say, \"Come on in and we'll help you with anything you need help with. We'll help teach you SQL. We'll help look at some of your work. We'll be a thought partner. You could just come learn what we're working on.\" Whatever it was. We would do two hours every week of Office Hours at different times to be friendly to different time zones. (01:03:52): And I think one of the things I'm excited about is being able to really empower some of the folks that are still coming to Office Hours for one thing or another to be able to use AI to help edit queries on their own for example, to be able to say, \"Here's a query. I want to make this. Please adjust this to our grocery business so that I can see the GOV for grocery.\" And so working to build these tools that will help not just our team in terms of time saving, and also to be honest, folks are going to use it on our team, but really to be able to empower non-technical users to be able to do things on their own and not have to take up bandwidth for the analytics team.",
+   "zh": "是的，我认为两者都有机会。让我特别兴奋的是前者。在帮助团队提高生产力方面，我们在DoorDash分析团队推行了一个叫做“办公时间”的项目。这个项目始于八年前，旨在为当时我们没有精力支持的团队提供支持。早期时，我们会坐在一个房间里，告诉大家：“随时来找我们吧，无论你需要什么帮助，我们都会教你SQL，帮你审阅工作成果，还能成为你的智囊。只要来学习我们的项目进展就行。”无论是哪种需求，我们每周都会在不同时段举办两小时的“办公时间”活动，以适应不同时区的需求。\n\n（01:03:52）我最期待的是能真正赋能那些因各种原因仍来参加“办公时间”的同事。比如，他们可以用AI自主编辑查询语句，例如：“这里有个查询，我想针对我们的生鲜业务进行调整，让我能看到生鲜业务的GMV数据。” 我们致力于开发这些工具，不仅能为团队节省时间（说实话，我们团队也会用到），更能让非技术用户自主完成任务，无需占用分析团队的精力。",
+   "ts": "01:02:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So essentially it's a chatbot that anyone in the company can talk to you to get advice on how to write SQL queries, query data and things like that?",
+   "zh": "所以本质上，这是一个公司内部的聊天机器人，任何人都可以找它获取如何编写SQL查询、查询数据等方面的建议？",
+   "ts": "01:04:40"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:04:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a clever name for this chatbot per chance?",
+   "zh": "这个聊天机器人有没有一个巧妙的名字？",
+   "ts": "01:04:49"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "So it's not clever. It's called Ask Data AI, and that's named for our internal Slack channel that used to be the open Q&A for people to ask data. So it's not at all clever.",
+   "zh": "其实并不巧妙。它叫Ask Data AI，这个名字来源于我们内部的Slack频道，这个频道曾用于开放式问答，方便大家提问数据相关的问题。所以名字一点也不巧妙。",
+   "ts": "01:04:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But it's clear.",
+   "zh": "但很清晰。",
+   "ts": "01:04:51"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "But again, it goes with the theme of very, very specific naming conventions that we have at DoorDash; Never Delivered and Ask Data AI.",
+   "zh": "不过说回来，它和DoorDash非常特定的命名约定很契合；比如Never Delivered和Ask Data AI。",
+   "ts": "01:05:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. Just clarity above all else. That's something I've learned from an editor that I work with. Jess, is there anything else that you want to share or leave listeners with? For folks that are trying to build their data teams, make their data teams more efficient, is there any final wisdom nugget you'd want to share?",
+   "zh": "我喜欢这个名字。首要的是清晰明了。这是我从合作的编辑那里学到的。杰斯，你还有什么想和听众分享的吗？对于那些正努力打造数据团队、提高数据团队效率的人，你有什么最终的智慧之言想分享吗？",
+   "ts": "01:05:18"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "I think the only thing that I want to reiterate is that you don't necessarily need a formal training in whatever it is you're building. And I think that also goes towards the folks that you hire onto the team. And so I mentioned earlier that we've had a lot of folks go to product or go to ops from the team. What I didn't mention is how many folks we've actually had join the analytics team from partner teams. So whether that was from engineering or from our ops team or marketing or finance, we are a net importer of talent as opposed to a net exporter of talent. And I think that that's because my own experience coming over from operations, from being a GM and making that transition into analytics, I find that I'm drawn to other folks who want to make a similar transition. (01:06:39): Now again, you have to have the technical skills, and most of these folks have acquired these skills on the job, whatever job they are doing at DoorDash before they transition to the analytics team, or they had maybe some formal training in school. But I love seeing the folks that make that transition and actually want to join the analytics team, even if they're not a career or data scientist. I think it creates a really unique environment where you have folks on the team from different backgrounds with different expertise who can teach each other things. So I can teach you how to build a discounted cash flow model in Excel, and I can learn how to make kick-ass slides from someone who has a background in consulting. And I can learn about common gotchas in statistics from someone who comes to us with a Master's or a PhD in statistics, and we've got our econometrics folks and we've got our economists. We just have a group of people with different backgrounds who can all teach each other how to be better. And we're not all carbon copies of each other.",
+   "zh": "我想我唯一想重申的一点是，无论你正在开发的产品或项目，都不一定需要接受过正式的培训。这同样适用于你招入团队的成员。我之前提到过，我们团队中有很多人从其他岗位转向产品或运营岗位。但我没提到的是，从合作团队加入分析团队的人数更多。无论是来自工程部门、运营团队、市场营销还是财务部门，我们实际上是人才的净引入者，而非净输出者。我认为这源于我自己的经历——从运营岗位转向分析岗位时，我发现自己被那些渴望实现类似转型的同事所吸引。（01:06:39）现在，再次强调，你必须具备技术技能。这些人中的大多数都是在职场中习得这些技能的，无论他们在加入分析团队前在DoorDash担任何种职位，或许还接受过正规教育。但我乐于看到那些愿意转向分析团队的同事，即便他们并非职业数据科学家。我认为这营造了一个独特的环境——团队成员来自不同背景，拥有不同专长，他们可以互相学习。我可以教你如何在Excel中构建贴现现金流模型，也可以向擅长咨询的人学习如何制作出色的幻灯片，还能向拥有统计学硕士或博士学位的人学习统计学中的常见陷阱。我们有计量经济学专家和经济学家。团队成员背景各异，但都能互相提升。",
+   "ts": "01:05:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I'm hearing is you try to optimize almost for a lot of different complementary skills and very different backgrounds almost.",
+   "zh": "我听到的是，你们试图优化几乎各种互补技能和截然不同背景的人才。",
+   "ts": "01:07:55"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Exactly. And also people who have experience at different size companies. I think I love folks from startups who have that hustle and grit, but I also love folks who've seen what scale looks like and can help us see around corners as far as what problems we will encounter as the business is growing. And I think it is not just about a diversity of skill and a diversity of background, it's also diversity of prior company and stage. That can be really a unique way to think about structuring your team so that you get the best of both worlds.",
+   "zh": "没错。还有在不同规模公司有经验的人。我喜欢那些来自初创公司、充满干劲和韧性的人，但我也喜欢那些见识过规模是什么样子、能帮助我们预见业务增长过程中会遇到哪些问题的同事。我认为这不仅关乎技能的多样性和背景的多样性，还关乎之前公司规模和发展阶段的多样性。这或许是构建团队的独特思路，让你能两全其美。",
+   "ts": "01:08:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Well, just when you thought we were done, we reached our very exciting lightning round. Are you ready?",
+   "zh": "太棒了。嗯，就在你以为我们结束时，我们迎来了一个令人兴奋的闪电问答环节。准备好了吗？",
+   "ts": "01:08:40"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "I am. Let's do it.",
+   "zh": "我准备好了。开始吧。",
+   "ts": "01:08:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's do it. Okay. First question, what are two or three books that you've recommended most to other people?",
+   "zh": "开始吧。好的。第一个问题，您向他人推荐最多的两三本书是什么？",
+   "ts": "01:08:48"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "I tend to read fiction, particularly historical fiction, and I love spy novels. So I think my brain is always in problem-solving mode even when reading. A recent book that I read that I enjoyed was The Rose Code by Kate Quinn, and it's about women code breakers in World War II, and I really enjoyed that. But rather than recommending a book... I guess I did just recommend a book, but rather than recommending another book, I am going to recommend the Libby app and supporting your local public library because I love the library and I love Libby, so I'll give that as my other recommendation.",
+   "zh": "我通常喜欢读小说，尤其是历史小说和间谍小说。所以即使在阅读时，我的大脑也总处于解决问题的模式中。最近我读了一本很喜欢的书，叫《玫瑰密码》（The Rose Code），作者是凯特·奎因（Kate Quinn），讲述了二战期间女性密码破译者的故事，我非常喜欢这本书。不过我不想推荐一本书……好吧，我刚刚确实推荐了一本书，但我不打算再推荐另一本书了。我要推荐的是Libby应用程序和支持当地公共图书馆，因为我热爱图书馆，也喜欢Libby，所以这就是我的另一个推荐。",
+   "ts": "01:08:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Beautiful. Very on brand with sharing economy, company stuff. Libby. Cool. Okay, next question. Favorite recent movie or TV show?",
+   "zh": "太棒了。非常符合共享经济和公司宣传的风格。Libby。酷。好的，下一个问题。最近最喜欢的电影或电视剧是什么？",
+   "ts": "01:09:37"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, another one. I don't actually watch a lot of TV, definitely don't watch a lot of movies. In fact, haven't seen some of the movie greats. I get yelled at a lot by my friend. \"I can't believe you haven't seen that.\" I tend to re-watch things, so series from the past, over and over again. I think it's just like how I shut my brain off. So I've recently re-watched The West Wing, which is one of my favorite shows of all time, probably for the 50th time.",
+   "zh": "又来一个。我其实不怎么看电视，也不怎么看电影。事实上，我有些电影巨作都没看过。朋友经常对我发脾气：“真不敢相信你居然没看过那个。”我习惯反复看以前的剧集，这样能让大脑放松。比如最近我又重温了《白宫风云》（The West Wing），这是我最喜欢的剧集之一，可能已经是第50遍了。",
+   "ts": "01:09:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh my God.",
+   "zh": "天哪。",
+   "ts": "01:10:15"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "And Alias, which was a Jennifer Garner series from the early 2000s. Also, Spy. So I'm noticing a theme. I think I really love the spy genre. But yeah, I've watched those. They're both great, but not at all current.",
+   "zh": "还有《双面女间谍》（Alias），这是2000年代初詹妮弗·加纳（Jennifer Garner）主演的剧集。还有《间谍风云》（Spy）。看来我有偏好间谍题材的趋势。不过是的，我都看过了。它们都很棒，但都不是当下热门的。",
+   "ts": "01:10:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Perfect. Perfectly acceptable. Do you have a favorite product that you recently discovered that you really love?",
+   "zh": "完美。完全可以接受。你最近有没有发现特别喜欢的产品？",
+   "ts": "01:10:33"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "This is a bit of a curveball. So Korean sunscreens. So I burn really easily, so I have to wear sunscreen and I love Korean sunscreens. I was introduced to them by a friend of mine, and they're just far superior to what we have in the US. So I highly recommend people give Korean sunscreens a try, particularly there's a Beauty of Joseon on branded sunscreen. It's just amazing and is delightful to wear, which is important when you have to wear it every day.",
+   "zh": "这问题有点出乎意料。说说韩国防晒霜吧。我很容易晒伤，所以必须涂防晒霜，而韩国防晒霜比美国的要好得多。我是被朋友安利的，真的强烈推荐大家试试，尤其是Joseon Beauty品牌的防晒霜。效果超棒，用起来很愉快，这很重要，毕竟每天都要涂。",
+   "ts": "01:10:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've been trying to wear more sunscreen as I age, and so this is a really good tip. Was that a brand you recommended?",
+   "zh": "随着年龄增长，我也越来越注意防晒了，所以这是个很棒的建议。这是某个品牌推荐的吗？",
+   "ts": "01:11:09"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah. So Beauty of Joseon is the brand.",
+   "zh": "是的。Joseon Beauty这个品牌。",
+   "ts": "01:11:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Beauty of Joseon.",
+   "zh": "Joseon Beauty。",
+   "ts": "01:11:15"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "There's another brand, Isntree, which also has a great sunscreen. But I'll be honest, almost every Korean sunscreen I've tried is great.",
+   "zh": "还有Isntree这个品牌，他们的防晒霜也很棒。不过说实话，我试过的几乎所有韩国防晒霜都很棒。",
+   "ts": "01:11:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I'm Googling this as soon as we get off. Do you have a favorite life motto that you often come back to and share and or share with family and friends even more [inaudible 01:11:39]?",
+   "zh": "好的。一结束我就去搜一下。你有没有最喜欢的座右铭，经常回想、分享给家人朋友的？",
+   "ts": "01:11:28"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "I do. So there's a John Steinbeck quote, which I'm not big on quotes, but I like this one, which is that, \"It's a common experience that a problem difficult at night is resolved in the morning after the committee of sleep has worked on it.\" I find that that's something I really live by. First off, I love sleep and I try to get as much of it as possible. But the other thing is that if I'm stuck on a problem or if I am writing a response to something like a tense issue or an emotional issue, often I find that if I put down my thoughts, go to sleep, check it in the morning, I end up with a better outcome. So all of a sudden you have a new perspective and clarity on a problem you were stuck on, or you realize that you weren't clear in the way you were communicating your thoughts because you were emotional about something and you're able to put together a much better response to an e-mail or to whatever problem you're handling. So sleep can solve lots of problems.",
+   "zh": "是的，我确实认同这一点。这里有一句约翰·斯坦贝克的名言，虽然我不太喜欢引用名言，但我很喜欢这句：“夜晚难以解决的问题，到了清晨，在睡眠委员会工作过后，往往就能迎刃而解。” 我发现这句话确实是我生活中的真谛。首先，我热爱睡眠，尽可能多睡。但另一方面，如果我被某个问题困住，或者在回复敏感或情绪化议题时卡壳，往往放下思绪入睡，次日清晨再重新审视时，就能得到更好的解决方案。比如，你会突然对困住你的问题产生新的视角和清晰的思路，或者意识到自己因情绪激动而未能清晰传达想法，从而能更好地回复邮件或处理手头难题。可见睡眠能解决许多问题。",
+   "ts": "01:11:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love sleep as well. I'm always telling my wife, \"Let's go to sleep.\" Like, \"Okay, I'll be there soon.\" I love that advice. Okay, two more questions. Who's influenced you most in your career? Is there someone that comes to mind?",
+   "zh": "我也喜欢睡眠。我总是对我妻子说：“咱们睡吧。”比如，“好的，我马上就到。” 我很喜欢这种建议。好的，再问两个问题。谁对你的职业生涯影响最大？你能想到谁吗？",
+   "ts": "01:12:46"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "So I think two answers, a multi-part answer. So I think first my career has been in male-dominated industries and I've worked with just some incredible women who've really influenced me. When I was a banker, there were two senior bankers, Vanessa Roberts and Gina Tarone at Lehman Brothers where I worked. And they were just so incredible. They were just so good at their jobs and I found that really inspiring. (01:13:29): And then at DoorDash, Tia Sherringham, who is our GC, and Liz Jarvis-Shean, who leads comms, are just dominant in their fields. And I think that that's really empowering and have been big influences on me to just see strong, powerful women kicking ass and that helps me believe that I can do the same. So that's one answer. (01:13:54): And then the other answer, sort of cliche, but my parents. My mom was a statistician at the UN before she got married, and she actually chose to stay home and raise three children, so I'm the youngest. And when I was in, I think it was elementary school, decided to go back to school, switch careers and become a nurse. And so the fact that she embarked on this completely new career in her forties after 15 years as a stay-at-home mom and my father supported this. I think that that was really, really influential and was probably the first time I saw that you can do whatever you put your mind to, no matter your age, no matter your circumstances. So that was really influential and I don't think I've ever told her that. So hi, Mom.",
+   "zh": "我觉得有两个答案，一个多部分的回答。首先，我的职业生涯一直在男性主导的行业中工作，但遇到过一些非常出色的女性，她们真正影响了我。比如，我做银行家时，雷曼兄弟公司的两位资深银行家——凡妮莎·罗伯茨和吉娜·塔罗内，她们太了不起了。她们在工作中表现出色，我深受启发。（01:13:29）：然后在DoorDash，首席法务官蒂娅·谢林汉姆和负责公关的利兹·贾维斯-希恩，在各自领域都非常出色。我认为这真的很鼓舞人心，能看到强大的女性在事业上大放异彩，这让我相信自己也能做到。（01:13:54）：再说另一个答案，可能有些老生常谈，但就是我的父母。我母亲在结婚前曾是联合国统计员，但后来选择留在家中抚养三个孩子，我是最小的。我记得自己上小学时，决定重返校园，转行成为护士。她四十多岁，在做了15年全职妈妈后，开始这份全新的职业，而我父亲全力支持她。我认为这真的很有影响力，这可能是我第一次意识到，无论年龄多大，无论身处何种境遇，只要下定决心，就能达成目标。这对我影响很大，但我从未对她说过。所以，妈妈，您好。",
+   "ts": "01:13:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hi Mom. Thank you, mom.",
+   "zh": "妈妈，你好。谢谢你，妈妈。",
+   "ts": "01:14:44"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, I think that was influential for my career. Definitely.",
+   "zh": "是的，我认为这对我的职业生涯很有影响。绝对的。",
+   "ts": "01:14:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a beautiful answer. Fun fact, I worked with Liz at Airbnb. Your person you just mentioned in the comms team.",
+   "zh": "这真是个精彩的回答。趣闻是，我在Airbnb时和利兹共事过。你刚刚提到的公关团队里的那位。",
+   "ts": "01:14:49"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "[inaudible 01:14:57]. She is great.",
+   "zh": "[01:14:57未录音]。她很棒。",
+   "ts": "01:14:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "She's amazing. Final question. So when you joined DoorDash, imagine it wasn't obvious that it was going to work. I imagine it was still like, \"This was a crazy idea. Maybe it'll work, maybe not.\" Is there a moment you recall where you're like, \"I think this is going to be a big success? I think this is actually going to work out?\"",
+   "zh": "她太了不起了。最后一个问题。那么当你加入DoorDash时，想象一下当时并没有明显的迹象表明它会成功。我想当时大家可能还在想：“这真是个疯狂的想法。也许它能成功，也许不行。”你是否记得有那么一个时刻，你突然觉得：“我觉得这会大获成功！我觉得这事儿肯定能成！”",
+   "ts": "01:14:58"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "To be honest, I went into DoorDash because I wanted to learn for the experience. I thought it was interesting, problems with interesting people. I never thought too much about whether it would work. I of course wanted it to work and was very competitive and wanted to win. I think there's two moments that stand out. One was when the third party market share data showed that we had become the number one player after, I think we started at number four or five. And I think that that was really exciting to see the trajectory and to see us gain in category share. That was exciting. I probably didn't see it until months after it had happened because we don't spend a ton of time focusing on it, but I do remember somebody wanted to include the graph in some presentation, some sales material, and we're like, \"Oh, we're number one. That's incredible. We used to be number five.\" So I'd say that that was one. (01:16:17): The other one that stands out was, the first talk I gave in a lot of these startup talks in the early days in Boston, and I'd asked the audience, \"How many of you have used DoorDash?\" And there'd be like three people who would raise their hand. And then it was a few years ago, maybe 2018, 2019, and I was giving a talk and I asked the audience, \"How many of you have used DoorDash?\" And almost everyone's hands went up. And that was actually pretty memorable for me because in my mind, we were still the small startup that no one had heard of where I had to over enunciate the D's in DoorDash. So people didn't think I worked for Jordash, the nineties' denim company. And so that was pretty meaningful to me when just so many people had used the product or were consumers of DoorDash. It was pretty exciting. And I still get excited. I saw DoorDash mentioned in a book recently that I was reading. It was like, \"We're in the book.\" So those little things when you become part of the cultural lingo that I think are really, really special.",
+   "zh": "说实话，我加入DoorDash是因为我想从中学习经验。我觉得这很有趣，是和有趣的人一起解决问题。当时我并没太想它能否成功。我当然希望它能成功，我很有竞争意识，渴望赢得胜利。我觉得有两个时刻特别值得回味。一个是第三方市场份额数据显示，我们从最初的四五名一跃成为第一名的时候。我觉得看到这个趋势，看到我们在品类份额上不断提升，真是太激动了。这事儿直到几个月后我才意识到，因为我们平时不怎么关注这些数据，但我记得有人想把图表放进演示文稿或销售材料里，我们当时就说：“哇，我们是第一名了。太不可思议了。我们以前可是第五名啊。”所以我觉得这算一个时刻。（01:16:17）另一个时刻是在波士顿早期创业活动上，我第一次做演讲时，问听众：“有多少人用过DoorDash？”当时只有三个人举手。几年前，大概2018年或2019年，再做演讲时，我问听众：“有多少人用过DoorDash？”几乎所有人都举手了。这对我来说意义非凡，因为在我看来，我们当时还是个默默无闻的小创业公司，我甚至得把DoorDash的D发音强调清楚，免得人们以为我在为90年代的牛仔裤品牌Jordash工作。所以当那么多人用过DoorDash，或者是DoorDash的消费者时，我真的很感动。这太令人兴奋了。直到最近，我还在读的一本书里看到提到了DoorDash。书里写道：“我们上书了。”所以这些小细节，当你成为文化语境的一部分时，真的非常特别。",
+   "ts": "01:15:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, I'm a very happy customer of DoorDash. I've never had a Never Deliver. It's always there, sometimes a little late. Usually it's perfect. Thank you for everything you do. Go team DoorDash. (01:17:44): Two final questions. Where can folks find you online if they want to follow stuff that you do? I know you've been doing more writing on LinkedIn and things like that, so just help people understand where to find you and how can listeners be useful to you?",
+   "zh": "嗯，我是DoorDash的忠实用户。从来没有过“永不送达”的情况。虽然有时送货会晚一点，但通常都很完美。感谢你们所做的一切。DoorDash团队加油。（01:17:44）最后两个问题。如果大家想关注你的动态，哪里可以找到你？我知道你最近在LinkedIn上写了不少文章之类的，能帮大家了解一下如何找到你吗？",
+   "ts": "01:17:33"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yeah, so as you mentioned, to find me LinkedIn, I don't have a huge social presence, but I am on LinkedIn and I am currently writing a series of blog posts about my experience building a global analytics org at DoorDash. Some of the lessons I've learned over the last 10 years. So definitely check those out. (01:18:16): And as far as your second question of how listeners can be useful to me, I guess read the post on LinkedIn and I'd love to hear what people think, whether you agree with my point of view or not. That being said, be nice. I want honest feedback, but I want kindness as well. So yeah, just engage with the content and let me know what y'all think. I think I do have a broader ask, which is just to encourage folks listening to TruthSeek, something I take seriously at DoorDash. It's a company value. But there's a lot of misinformation out there and it's often up to us as individuals to figure out what's fact and what's fiction. So I have a plea for folks to do your best, to search for the truth and speak the truth, and I think we'll all be better off for it. And of course, use DoorDash.",
+   "zh": "是的，正如你提到的，想在领英上找到我，我在社交媒体上的活跃度不算高，但我确实有领英账号，目前正在写一系列博客文章，分享我在DoorDash建立全球分析部门的经验，分享过去10年里我学到的一些教训。所以一定要去看看那些内容。（01:18:16）至于你提到的第二个问题，听众如何能对我有所帮助，我想说，去读我在领英上的那篇帖子，我很期待听到大家的想法，无论你们是否认同我的观点。不过请保持友善。我希望得到诚实的反馈，同时也希望大家能友善相待。所以请积极参与内容讨论，让我知道你们的想法。我确实还有一个更宏大的请求，那就是鼓励听众们关注《TruthSeek》节目。这是我在DoorDash非常重视的一项价值观。但现在网上有很多虚假信息，往往需要我们每个人去辨别真假。所以我恳请大家尽力搜寻真相、说出真相，我相信这样对我们大家都有好处。当然，也欢迎大家使用DoorDash。",
+   "ts": "01:17:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Of course.",
+   "zh": "当然。",
+   "ts": "01:19:13"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Yes, there are three things that listeners can do.",
+   "zh": "是的，听众可以做三件事。",
+   "ts": "01:19:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're at DoorDash.com. That was awesome. I love that last point as well in addition, to use DoorDash. Jessica, thank you so much for being here.",
+   "zh": "你可以在DoorDash.com上找到我。太棒了。我也很喜欢最后一点——使用DoorDash。杰西卡，非常感谢你能来。",
+   "ts": "01:19:18"
+  },
+  {
+   "speaker": "Jessica Lachs",
+   "en": "Thank you for having me. It was a lot of fun.",
+   "zh": "谢谢你邀请我。非常开心。",
+   "ts": "01:19:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Same for me. Bye, everyone. (01:19:32): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "我也是。再见，各位。（01:19:32）非常感谢收听。如果你觉得这个节目有价值，可以在Apple Podcast、Spotify或你喜欢的播客应用上订阅。另外，请考虑给我们评分或留下评论，这对其他听众找到这个播客很有帮助。你可以在lennyspodcast.com上找到所有往期节目或了解更多信息。下期节目见。",
+   "ts": "01:19:29"
+  }
+ ]
+}

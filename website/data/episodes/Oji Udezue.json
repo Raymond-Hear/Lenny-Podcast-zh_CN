@@ -1,0 +1,821 @@
+{
+ "id": "Oji Udezue",
+ "name": "Oji Udezue",
+ "category": "运营/增长",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Oji+Udezue",
+ "bio": {
+  "en": "Oji Udezue is Chief Product Officer at Typeform and a veteran product and growth leader who has built and scaled products at Microsoft, Atlassian, Calendly, and Twitter.",
+  "zh": "Oji Udezue 是 Typeform 的首席产品官（CPO），也是一位资深的产品与增长领袖，曾在 Microsoft、Atlassian、Calendly 和 Twitter 打造并扩展产品。"
+ },
+ "summary": {
+  "en": "Oji presents frameworks for finding big B2B SaaS ideas by targeting high-frequency, broad workflows, and introduces the 'zone of benefit' concept that a solution must be roughly 3x better than the status quo to win. He discusses how to identify your ideal customer profile and how companies can navigate from low-frequency niches toward category-leading positions. The conversation draws on his rare cross-company perspective on what actually drives product and growth.",
+  "zh": "Oji 提出了一套寻找大型 B2B SaaS 创意的框架——瞄准高频、广覆盖的工作流，并引入了“收益区间（zone of benefit）”的概念：解决方案必须比现状好大约 3 倍才能取胜。他讨论了如何识别理想客户画像（ICP），以及企业如何从低频小众定位逐步迈向品类领先。对话依托他在多家不同公司的罕见跨视角，剖析了究竟是什么真正驱动产品与增长。"
+ },
+ "turns": [
+  {
+   "speaker": "Oji Udezue",
+   "en": "Products who try to be viral just for what I call synthetic virality that fail. Because in the end, if you're synthetically viral and people get to the product and it sucks, that's it. Slack wasn't even viral, there was no synthetic virality. Slack couldn't even connect to organizations for the longest time. You could be working on the third floor, and someone using Slack on the fourth floor and you would have no clue, there's no way to share it with them. But what happens when you went to lunch? People are like, \"We got Slack and this is amazing.\" And people on the third floor are like, \"Holy shit, when can we get it?\" Boom, boom, boom. This is the bedrock of virality. Build a great product that solves a sharp problem.",
+   "zh": "那些为了所谓“合成式病毒性传播”而试图走红的产品，最终都失败了。因为到头来，如果你产品只是表面热闹，用户体验却糟糕，那就注定失败。Slack当初甚至没有病毒式传播，也没有所谓的“合成式病毒性传播”。Slack最初甚至无法连接到企业系统——你可能在三楼工作，四楼有人使用Slack，你却一无所知，更无法与他们共享信息。但当大家午餐聚会时，人们会惊呼：“我们用了Slack，太棒了！”三楼的人则会激动地问：“天哪，什么时候能用上？”轰隆，轰隆，轰隆。这才是病毒式传播的根基——打造能解决痛点的好产品。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast, where I interview world-class product leaders and growth experts to learn from their hard-won experiences building and growing today's most successful products. Today my guest is Oji Udezue. Oji has helped build and grow products at Microsoft. He worked on Windows, outlook, Hotmail and inner Explorer, at Atlassian where he was head of product for all their communication tools, at Calendly, where he was chief product officer, at Twitter where he was head of product for creation and conversation. He's currently chief product officer at Typeform, which I am a happy customer of. Oji has one of the broadest and most interesting careers in product, and he's also one of the most thoughtful humans I've met. In our conversation, Oji shares some of his favorite product frameworks and also why you should be really careful applying frameworks at your company. We dig into what he's learned from Calendly and Atlassian and a Typeform on how to do product led growth successfully, and also how to get really sharp with your ICP or ideal customer profile. (00:01:31): Also, how to increase your products virality and a concept called forest time, which I love. And even his favorite Nigerian food, which I am currently on the hunt for. With that, I bring you Oji Udezue after a short word from our sponsors. (00:01:44): You fell in love with building products for a reason, but sometimes the day-to-day reality is a little different than you imagined. Instead of dreaming up big ideas, talking to customers and crafting a strategy, you're drowning in spreadsheets and roadmap updates, and you're spending your days basically putting out fires. A better way is possible. Introducing Jira Product Discovery, the new prioritization and road mapping tool built for product teams by Atlassian. With Jira Product Discovery, you can gather all your product ideas and insights in one place and prioritize confidently, finally replacing those endless spreadsheets. (00:02:20): Create and share custom product roadmaps with any stakeholder in seconds. And it's all built on Jira where your engineering teams already working, so true collaboration is finally possible. Great products are built by great teams, not just engineers, sales, support, leadership, even Greg from finance. Anyone that you want can contribute ideas, feedback, and insights in Jira Product Discovery for free, no catch. And it's only $10 a month for you. Say goodbye to your spreadsheets and the never ending alignment efforts. The old way of doing product management is over. Rediscover what's possible with Jira Product Discovery. Try for free at atlassian.com/lenny, that's atlassian.com/lenny. (00:03:01): Oji, Thank you so much for being here and welcome to the podcast.",
+   "zh": "欢迎收听Lenny的播客节目，我每期都会邀请世界级的产品领袖和增长专家，聆听他们在打造和发展当今最成功产品过程中积累的宝贵经验。今天的嘉宾是Oji Udezue。Oji曾在微软参与过Windows、Outlook、Hotmail和Internet Explorer的开发；在Atlassian担任过所有沟通工具的产品负责人；在Calendly担任首席产品官；在Twitter负责内容创作和对话功能。目前他是Typeform的首席产品官，而我恰好是Typeform的忠实用户。Oji拥有极其广泛而有趣的产品职业生涯，也是我见过最具洞察力的人之一。在对话中，Oji分享了他最喜欢的产品框架，以及为何在公司应用框架时需谨慎行事。我们深入探讨了他在Calendly和Atlassian的经验，如何成功实现产品主导型增长，以及如何精准锁定理想客户画像（ICP）。（00:01:31）：此外，如何提升产品的病毒式传播，还有一个我超爱的概念叫“森林时间”。以及他最爱的尼日利亚美食，我现在正积极寻找。接下来是赞助商的简短宣传后，欢迎Oji Udezue。（00:01:44）：你最初爱上产品开发是有原因的，但现实往往与想象不同。与其空想宏大愿景、与客户沟通、制定策略，你却深陷于电子表格和路线图更新中，整天忙于灭火。其实还有更好的方法。Atlassian推出的新工具Jira Product Discovery，专为产品团队打造的优先级排序和路线图工具。通过Jira Product Discovery，你能将所有产品创意和洞察集中管理，轻松确定优先级，彻底告别无穷无尽的电子表格。（00:02:20）：数秒内即可为任何利益相关者创建并分享定制产品路线图。所有功能都基于你的工程团队已在使用的Jira平台构建，真正实现协作无障碍。优秀的产品由优秀的团队打造，不只是工程师、销售、支持、领导层，甚至财务部的Greg都能免费贡献想法、反馈和见解。每月仅需10美元，告别电子表格和永无止境的协调工作。传统的项目管理方式已过时。快来Atlassian.com/lenny免费试用Jira Product Discovery，重新定义产品管理的可能。（00:03:01）：Oji，非常感谢你的到来，欢迎收听播客。",
+   "ts": "00:00:37"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Thank you, Lenny. It's a pleasure to be here.",
+   "zh": "谢谢你，莱尼。很高兴能来这里。",
+   "ts": "00:03:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's my pleasure. You've been a PM and a product leader in so many amazing and also just very different companies, all with very different approaches to product and growth. And I think you have this very rare broad perspective on what works in product and growth across a lot of different ways of doing it. And so I have a bunch of questions for you. I hope you came ready for that.",
+   "zh": "荣幸之至。你曾在许多出色且风格迥异的公司担任产品经理和产品负责人，每家公司的产品与增长策略都各具特色。我认为你对产品与增长领域的成功之道有着难得的宏观洞察力，且能从多元视角阐释其中的有效路径。因此我准备了诸多问题，希望你已做好充分准备。",
+   "ts": "00:03:14"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I am ready.",
+   "zh": "我已准备就绪。",
+   "ts": "00:03:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:03:35"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yes, sir.",
+   "zh": "是的，先生。",
+   "ts": "00:03:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. Okay, so I want to start with frameworks. You've written and shared a bunch of really interesting frameworks for how to think about product and growth, and so I just want to dig into a couple of them. And one of them is around how to find big B2B SaaS ideas and it's around finding the right workflow. Could you just share this framework and also just how founders and also investors can use this idea to find big ideas?",
+   "zh": "我很乐意。首先我想谈谈框架。你曾撰写并分享过许多关于产品与增长思考的有趣框架，我想深入探讨其中几个。其中一个是如何挖掘B2B SaaS领域的重大创意，关键在于找到合适的工作流程。你能否分享这个框架，并讲讲创始人和投资者如何借助这一思路寻找突破性创意？",
+   "ts": "00:03:37"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Thank you. So I think you're referring to where do you fish to find a unicorn.",
+   "zh": "谢谢。您指的应该是如何寻找独角兽企业。",
+   "ts": "00:04:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's it.",
+   "zh": "没错。",
+   "ts": "00:04:05"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "And the thing behind that is people can find that on Substack and the Medium, my writings. But the premise is that there's a lot of risk in building startups, and the last decade of product management and startups has really focused on the method of building software and companies. We talk about the lean approach, we talk about fail fast, [inaudible 00:04:28] and so on and so forth. And I think that that was a necessary phase for us because a lot of innovation was just the ideas of founders unvalidated by customers, and we needed this inflection point in our discipline. People need to understand though that customer science is not the solution to everything otherwise OpenAI will never have done anything. It's also innovation. And so the problem space and the solutions to the problems space is still a big driver of success in building software companies. (00:05:03): What problem are you really solving? And if you believe that the problem space is key, so what problems will predict success? In B2B SaaS especially, which is much easier to circumscribe is where I start to think about, look, how do you tell from the beginning? Because an investor as well as an operator. Now to segment this space, I think of two dimensions. One is how many departments in the company does the workflow you're trying to solve apply to? Is it just a few or is it all of them? And the second is how intense or how frequent is the workflow executed? Is it daily? Is it weekly? Is it three times a week? And so on and so forth. Now if you draw a nice quadrant of these two things, then you can start to have some predictive power. Things that are useful in every department I call every one workflows, like things like collaboration, like Slack, email, calendaring, workflows, social knowledge and Notion and so on and so forth. (00:06:04): And then things that apply to single departments, I call niche and that's what I call niche. And then the intensity is about frequency. A month is not infrequent, daily is super frequent. If you divide the market or the enterprise into frequency and into how broad the workflow is, you can actually have predictive power. And what I found by looking at the biggest company is public and private in each quadrant was that every one frequent workflows intuitively are the most profitable to work on, but also the hardest to get into because they're dominated by Microsoft and Google and very, very large companies. For example, one of my friends is the CEO of Coda. And so this is interesting, because he's in that space, for him to think about. (00:06:58): And then the place where B2B SaaS really thrives is niche workflows that are highly frequent. High ni is what I call it, high frequency niche. And then there are the other two quadrants that are a bit more challenging. And then you have to figure out how to navigate your way into one of the other two. If you are in one of the top two quadrants, high ni and high everyone and you solve a really important problem, workflow problem, you can probably turn into a billion-dollar company. If you do the other two, there's some challenges that you have to go through. And the framework talks about how you should navigate those places into success. And I think it's very important because if this is true, and by the way, like I said, I did some validation on it, founders can start to, before they invest years, start to think about what probability of success is. And if you're an investor like me or VC, you can start to think about how you deploy your money.",
+   "zh": "背后的原因在于，人们可以在Substack和Medium上找到我的文章。但前提是，创业公司面临诸多风险，过去十年的产品管理和创业实践主要聚焦于软件和公司构建的方法论。我们谈论精益方法、快速迭代等理念，我认为这对我们来说是一个必要的阶段，因为当时许多创新仅是创始人未经客户验证的想法，我们需要这个行业变革的契机。不过人们需要明白，客户科学并非万能良药，否则OpenAI永远不会取得任何成果。创新本身也是解决问题的重要手段。因此，问题空间与解决方案的匹配度仍是软件公司成功的核心驱动力。（00:05:03）：你真正在解决什么问题？如果你认为问题空间是关键，那么哪些问题能预示成功？尤其在B2B SaaS领域，界定更清晰的领域让我开始思考：如何从一开始就能判断？作为投资者和运营者，我认为可以从两个维度入手：一是所要解决的工作流适用于公司多少部门？是少数部门还是全部部门？二是工作流的执行频率和强度如何？是每日执行？每周执行？还是每周三次？如此等等。将这两个维度绘制成二维坐标图，就能获得一定的预测能力。适用于每个部门的工作流，我称之为通用工作流，例如协作工具Slack、邮件、日历、Notion等。\n\n（00:06:04）：而适用于单个部门的工具，我称之为利基产品。这里的“利基”指的是专注某个细分领域。至于执行频率，月度执行不算罕见，日执行则极为频繁。如果将市场或企业按执行频率和工作流覆盖范围划分，就能获得预测能力。通过观察各个象限中的头部公私企业，我发现高频、广覆盖的工作流通常最易盈利，但进入门槛也最高，往往由微软、谷歌等巨头把持。例如，我的朋友Coda的CEO就深有体会。\n\n（00:06:58）：B2B SaaS真正蓬勃发展的领域在于高频利基工作流。这里的“高频利基”指的是高频、高覆盖的利基产品。其他两个象限则更具挑战性。企业需找到切入点。如果处于高频、高覆盖的象限，并解决关键工作流问题，或许能成长为十亿美元级公司；若处于其他象限，则需克服重重难关。框架旨在指导如何在这些领域取得成功，这点至关重要。若这一观点成立（我已验证过），那么创始人就能在投入多年前评估成功概率，投资者也能更明智地配置资金。",
+   "ts": "00:04:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are examples of companies in each of those quadrants? If you can frame this and I don't know if you have this in your head already.",
+   "zh": "每个象限中的公司都有哪些例子？如果你能把这个框架整理出来，我不知道你是否已经在脑海中有了答案。",
+   "ts": "00:07:57"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "High frequency everyone workflows tend to be things that are done by the doorman to the CEO. So it's email, it's collaboration, it is writing, it is math, all the basic things. At Atlassian, we spend a lot of time thinking about this. So Word, we've had word processing forever in the workspace. Things like Notion and Confluence are huge as sort of evolution of that, Slack, email. Companies in that space, Google, Microsoft, Atlassian, et cetera. And the high ni, which is high frequency niche, you have things like Jira, you have things like tools for recruiters, you have martech, you have sales tech. (00:08:49): And we know the companies behind them, Atlassian, Salesforce, so on and so forth. And then in the low frequency everyone, you have things like maybe form tools. And actually, they're not that many of them, low frequency everyone or even expense. Actually, the best expensing. Not everyone does it all the time, but everyone essentially has to do some of it, mostly, at least a lot of people. And then there's a low frequency niche, which is particular department. So planning, which is done by FPNA, but done infrequently, things like that.",
+   "zh": "高频日常工作流程通常是从门卫到CEO都要用到的东西。比如邮件、协作、写作、数学等基础功能。在Atlassian，我们花了很多时间思考这个问题。Word在工作场所已经存在很久了。Notion和Confluence等工具是其进化版本，还有Slack、邮件等。属于这个领域的公司有谷歌、微软、Atlassian等。高频利基市场方面，Jira之类的工具，还有招聘工具、营销技术、销售技术等。（00:08:49）我们知道这些背后的公司，比如Atlassian、Salesforce等等。然后在低频日常工作流程中，可能有表单工具之类的。实际上这类产品并不多，要么是低频日常，要么是费用管理。实际上，最好的费用管理工具不是每个人都会一直使用，但基本上每个人至少偶尔会用到。还有低频利基市场，针对特定部门。比如规划，由FPNA负责，但使用频率较低。",
+   "ts": "00:08:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How frequent is frequent in your experience? Does it have to be once a week at least? What do you think is that minimum bar?",
+   "zh": "在你的经验中，“频繁”到底有多频繁？至少每周一次吗？你认为最低标准是什么？",
+   "ts": "00:09:30"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Frequent is every day really or multiple times a week. Infrequent starts to be like two times a week, once a month. And of course there's a big interregnum in the middle of that.",
+   "zh": "频繁指的是每天使用，或者每周多次使用。低频则可能是每周两次、每月一次。当然，两者之间还有很大的过渡空间。",
+   "ts": "00:09:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting that there are examples of companies that succeeded in those lower quadrants of infrequent, say the expensing use case. Do you have a sense of what it takes to win there? Because I imagine most startups are in that area, and I imagine founders are like, what can we do to win still?",
+   "zh": "有趣的是，在低频日常工作流程领域也有成功的公司案例，比如费用管理场景。你觉得在那里获胜需要什么条件？因为我猜大多数初创公司都在这个领域，创始人可能会问，我们该怎么做才能在那里胜出？",
+   "ts": "00:09:51"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Well, this isn't a static framework in the sense that companies are not destined to be one of these things. The essence of strategy is to navigate from the curve of travel is essentially go from the lower to the higher. Atlassian is trying to go from high niche to high everyone with Confluence and with all the tools that they have. People below are trying to get into the high frequency niche by focusing on their core customer. So what it looks like in say low frequency everyone workflows, something like that is, well, if some people are using it infrequently, but they must use it, well that's a good thing. But then maybe you provide a module that is used by the finance department every day, and so suddenly you're moving into the high frequency everyone workflow. So it's about finding a part of the organization that considers this mission-critical and then solving their problems beyond the problems for everyone for example, in that quadrant.",
+   "zh": "嗯，这不是一个静态的框架，公司不一定非得局限于这些类别。战略的本质是从曲线中找到出路，基本上是从低到高过渡。Atlassian正试图通过Confluence和现有工具从高利基市场转向高频日常市场。低端市场的公司则试图通过专注核心客户进入高频日常市场。比如说，如果有些人偶尔使用某个工具，但又必须使用，那就是件好事。但也许你提供了一个财务部门每天使用的模块，这样一来你就进入了高频日常工作流程。因此，关键在于找到一个认为这项任务至关重要的部门，然后解决他们的问题，超越普通用户的需求，例如在那个象限中。",
+   "ts": "00:10:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there an example that comes to mind of either at Calendly or Typeform or Atlassian where you pushed it further up the frequency direction or the everyone direction?",
+   "zh": "在Calendly、Typeform或Atlassian中，有没有例子能让你想到他们把频率或覆盖面提升到了更高的水平？",
+   "ts": "00:11:08"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "For example, at Typeform, now this is real for me, Typeform technically is low frequency niche or low frequency everyone, depending on how easy it is to use and how it surrounds the customer. And one of the things that I'm trying to do as part of product strategy is to move it into high frequency niche, high ni, which is a very productive place to be. So for marketers, for salespeople, I want to make sure that they think of us first. And because we are particularly good at customer facing interactions, if they think that we are the way to win new business and to make money, then a portion of our audience, not every single one of them will consider us high ni. And I think expanding that foothold is the way to navigate a business like that. You can see that with Qualtrics, you can see that with SurveyMonkey. Lots of companies are thinking about how to further unbundle that market for a very, very specific kind of customer. And that is what they're trying to do. They're trying to hit the high ni, even for that more generic workflow.",
+   "zh": "例如，在Typeform公司，现在对我来说这已经是现实了。从技术层面讲，Typeform属于低频利基市场，或者说对所有人来说都是低频市场——这取决于它对客户的友好程度和易用性。作为产品策略的一部分，我正努力将其转变为高频利基市场，这才是最具生产力的位置。因此，对于营销人员和销售人员，我要确保他们首先想到我们。由于我们特别擅长面向客户的互动，如果他们认为我们是赢得新业务和赚钱的关键，那么我们的一部分受众（并非所有人）就会将我们视为高频利基市场。扩大这一市场份额正是经营此类业务的关键所在。你可以看到Qualtrics和SurveyMonkey的例子，许多公司都在思考如何为特定客户群体进一步拆分这个市场。这正是他们正努力做的。即便面对更通用的工作流程，他们也要瞄准高频利基市场。",
+   "ts": "00:11:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's an awesome example. You also have this framework that I think you call the zone of benefit, which is around how much better does your solution have to be than the status quo? A lot of people are like, \"Hey, look at this product, it's better than what you have now.\" And usually people are like, \"Ah, whatever. It's good enough.\" And you've had some insights on just how much better it needs to be for people to care. Can you share that?",
+   "zh": "这是一个绝佳的例子。你还有一个框架，我想你称之为\"效益区\"，即你的解决方案要比现状好多少倍？很多人会说，\"嘿，看看这个产品，它比你现在用的要好\"。但通常人们会说，\"啊，随便啦，已经足够好了。\" 你对让人们真正在意需要好到什么程度有深刻见解，能否分享一下？",
+   "ts": "00:12:27"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Honestly, the reason I like being a product manager is on any given day, I'm drawing from anthropology, sociology, behavioral economics, leadership, communication skills. I'm trained, I have a master's in engineering, so I'm an engineer as well. I've done marketing and sales, so really pulling from so many things. And the reason I talk about the zone of benefit is ultimately what we're trying to do is impedance match technology to humans. That's it. If you really think about it, that's one essence of what we're trying to do. So the zone of benefit works as a framework because people will not pay for things that don't either really shrink the workflow that they're doing or doesn't give them superpower. So the same amount of time, but twice as much output. But the most important thing is that it has to be noticeable. (00:13:39): If you do something 20% better, often people just around you, just as a human, people don't notice. And so for a product to make a difference, it has to be at least two, three more X for people to say, \"You know what? This is offering enough value for me to maybe make a switch in cost,\" and so on and so forth. And it really comes down to look, economic theory tells us that people work for leisure, they work enough to afford their leisure. It's sort of broad, and I know some people don't necessarily do that. Especially in the tech industry, people just love to work. But that is really it, when you think about eight billion people on the planet. And there's a lot of benefit really hones in on the fact that if you're going to help me work less, make about the same amount of money, then for me to notice you, you have to accelerate me by three times for me to care.",
+   "zh": "说实话，我喜欢做产品经理的原因在于，每天我都在运用人类学、社会学、行为经济学、领导力和沟通技巧。我接受过工程学硕士训练，所以我也是工程师。我做过市场和销售工作，因此从多个领域汲取养分。谈到效益区，最终我们的目标是让技术与人类实现阻抗匹配。就是这样。如果你深入思考，这正是我们努力的核心所在。效益区作为一个框架之所以有效，是因为人们不会为那些既不能显著简化他们正在进行的工作流程，又不能赋予他们超能力的东西买单。同样的时间，但产出翻倍。但最重要的是，它必须引人注目。（00:13:39）：如果你把某件事做得好20%，通常身边的人——作为普通人——根本注意不到。为了让产品有所不同，它必须至少再提升两到三倍的效益，人们才会说：“你知道吗？这个为我提供了足够的价值，或许我可以换个更划算的选择。”等等。这归根结底是，经济理论告诉我们，人们工作是为了休闲，他们工作到足以负担得起休闲生活。这说法比较宽泛，我知道有些人不一定认同这一点。尤其是在科技行业，人们就是喜欢工作。但对于地球上80亿人来说，这才是关键所在。其中有很多益处都聚焦于这样一个事实：如果你能帮助我减少工作量，同时赚取差不多的钱，那么要让我注意到你，你就必须让我效率提升三倍，我才会感兴趣。",
+   "ts": "00:12:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, awesome. So three times. So the idea there is you should feel like this is three times more productive in the thing that I'm trying to do or saves me three times, I don't know, I do it three times faster.",
+   "zh": "好的，太棒了。所以三次。关键是，你应该觉得这能让我的工作效率提高三倍，或者为我节省三倍的时间，我不知道，反正能让我做事快三倍。",
+   "ts": "00:14:36"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, that's when people actually feel it and they feel it enough where they part with money.",
+   "zh": "是啊，那时候人们真的能感受到这种效果，他们能感受到其中的价值，甚至愿意为此掏钱。",
+   "ts": "00:14:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. And I think what's cool about this is it helps you identify the ICP for your product if you're working a startup or even a new product within an existing product to figure out who exactly is going to most benefit from this. Is that part of this?",
+   "zh": "太棒了。我觉得这很酷的是，如果你是在创业公司工作，或者是在现有产品中开发新产品，它能帮助你确定产品的理想客户画像（ICP），找出谁最能从中受益。这是其中的一个关键点吗？",
+   "ts": "00:14:49"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yes, yes. Your best customers aren't price sensitive for what you're shooting for because they get it. They fundamentally understand it. So yes, when you're shooting for ICPs, now every startup has marketing problems getting an audience problem. But once you start getting a decent audience, over 100 people or more, you should start to notice the people who are like, \"You know what? This, I really care about this.\" And that starts to tell you a little bit about who's your target audience.",
+   "zh": "对，对。对你所追求的客户来说，价格不是敏感点，因为他们能理解其中的价值。他们从根本上就懂。所以是的，当你致力于确定理想客户画像时，每个初创公司都会面临获取受众的营销难题。但一旦你成功吸引了一批体量较大的受众，比如超过100人或更多用户，你应该开始注意那些会说：“你知道吗？这个，我真的很在乎这个。” 这样的人会让你逐渐明白谁才是你的目标客户。",
+   "ts": "00:15:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Would you be up for sharing the ICP of some of the companies you worked at? Just to give people a sense of what would be a good ICP.",
+   "zh": "你能分享一下你曾工作过的公司的ICP吗？让大家对理想客户画像有个概念。",
+   "ts": "00:15:33"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I think for Atlassian, it's really kind of obvious. It's developers mostly. But it's tech teams writ large because the fundamental of an R and D team is building stuff. And Jira helps the engineers who actually build stuff to track what they do and to give visibility to it so that they can be valuable to the organization. So that is incontroversial. So the ICP is really clear and have been clear for Atlassian for a very long time. Calendly is this weird company where people don't see all the value. People think it's just casual scheduling. But really the people who care about scheduling the most, and I don't mean calendaring. Calendaring is very different from scheduling. (00:16:25): The people who care about scheduling the most are salespeople because it's the lifeblood of them earning money and marketers, because it's the lifeblood of them maybe learning about their customer. Recruiters, because it's the lifeblood of them attracting and scheduling the people that they need to do their job. So Calendly's ICPs were people who were scheduling with people who were not in the organization for some business reason. Typeform is marketers mostly because Typeform exists to make the web talkative, to make it more human. And with Typeform, you can brand that conversation and actually make it conversational because one question at a time, the beautiful design. And so marketers feel like we help their websites talk to each other. Product people think we help their web apps talk to people they care about, UX people feel the same way. So those are some, I think the interesting thing is Twitter.",
+   "zh": "我觉得Atlassian的ICP很明显，主要是开发者。但更广泛地说，是技术团队，因为研发团队的核心工作就是开发产品。Jira帮助实际开发产品的工程师追踪他们的工作进展，并提高工作可见度，这样他们才能为公司创造价值。这是毫无争议的。所以Atlassian的ICP一直很明确，而且很长一段时间以来都保持清晰。Calendly是个很奇特的公司，人们不理解它的全部价值。人们以为它只是随意安排日程的工具。但实际上，最在乎日程安排的人——我不是说日历管理，而是日程安排本身——是销售人员，因为这关乎他们赚钱的命脉；是市场人员，因为这关乎他们了解客户的命脉；是招聘人员，因为这关乎他们吸引和安排所需人才的命脉。所以Calendly的ICP是那些因业务需要与公司外部人员安排日程的人。而Typeform主要面向市场人员，因为Typeform的存在是为了让网络更具交互性，更人性化。通过Typeform，你可以给对话打上品牌标签，让对话真正具有互动性——一次一个问题，设计美观。所以市场人员觉得我们帮助他们的网站相互对话。产品经理认为我们帮助他们的应用与他们关心的用户对话。用户体验设计师也有同样的感受。所以这些都是有趣的例子，我觉得推特也是个很有意思的案例。",
+   "ts": "00:15:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was going to ask what the ICP for Twitter might be, still.",
+   "zh": "我还想问一下，推特的ICP可能是什么。",
+   "ts": "00:17:27"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "So Twitter is actually more fun in terms of ICP because first of all, I'll talk about the things that's not obvious about Twitter. 30% of Twitter's customer base were unseen, they were media organizations, people like the NFL, the NBA, HBO, who wanted their content to reach more people, to be in conversational spaces. And they were essentially business customers and not seen in the conversation pool, it's not obvious. But we interacted with them all the time and we rev shared ads for their videos, because we're making content all the time. And so Twitter was a way to extend the monetization of that content, that inventory that already had. But when you go to the consumer side of Twitter, who was the ICP? (00:18:25): Well, actually Twitter understood, and this is sort of reflected in what Elon Musk is doing these days, that he doesn't seem to understand. And if you ask anyone who was at Twitter, you'll see the understanding in their eyes and the fact that he doesn't understand, because Twitter's ICP is bifurcated. On one side, it is the most accomplished people in the world, the people who have something to say. This is why there's neuro Twitter, there's weather Twitter, there is cancer Twitter, and so on and so forth. In fact, if something breaks, some new innovation happens in the world, it probably breaks on Twitter before it breaks anywhere else, because these are people in informal communities following each other and sharing their results. (00:19:10): So basically there's this big circle of experts. We break down into celebrities, we break down into luminaries, leaders and so on and so forth. That's the ICP. Now how does Twitter work? These people attract the other 90% who listen to these people, but also they need to create their own informal communities around the things they're passionate about and have this mimetic relationship with the luminaries and the experts. And that is sort of the planet Twitter, experts on one side, humans who need to connect with the things they're passionate about, the people who are like them, that is the ICP of Twitter, the people who have something to say in those two categories.",
+   "zh": "事实上，推特在ICP方面更有趣。首先，我要谈谈推特不为人熟知的方面。推特30%的客户群体是隐形的，他们是媒体机构，比如NFL、NBA、HBO等，这些机构希望自己的内容能被更多人看到，并参与到对话中。他们本质上是商业客户，但在对话池中并不显眼，这一点并不明显。不过我们一直与他们互动，为他们的视频分享广告，因为我们一直在创作内容。因此，推特是延长这些已有内容和库存的变现渠道。但当你转向推特的消费者端时，谁是ICP呢？（00:18:25）：其实推特明白这一点——这在埃隆·马斯克近期的行为中有所体现，他似乎并不理解这一点。如果你问任何曾在推特工作过的人，他们眼中会闪现出这种理解，而马斯克却不明白，因为推特的ICP是分裂的。一方面，这里聚集着世界上最有成就的人，他们有话要说。这就是为什么会有“神经推特”、“天气推特”、“癌症推特”等等。事实上，如果世界上有重大突破或创新，推特上很可能比其他任何地方更早出现相关讨论，因为这些人属于非正式社区，相互关注并分享成果。\n（00:19:10）：所以基本上有一个庞大的专家圈子。我们可以将他们分为名人、杰出人物、领导者等。这些就是ICP。那么推特是如何运作的呢？这些人吸引了其他90%的人来聆听他们的声音，但他们也需要围绕自己热爱的事物创建自己的非正式社区，并与这些杰出人物和专家建立模仿关系。这就是推特的世界：一方面是专家，另一方面是需要与自己热爱的事物建立联系、寻找同类的人——这就是推特的ICP，属于这两类、有话要说的人。",
+   "ts": "00:17:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are you happy you're not working on Twitter anymore?",
+   "zh": "你很高兴自己不再在推特工作了吗？",
+   "ts": "00:19:58"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I am ecstatic, I'm ecstatic. It seems like such a shitshow, no shade on anything or anyone purposely. But look, what's happening is evident. So I don't think I have much to say about that.",
+   "zh": "我太高兴了，太高兴了。看起来那简直就是一场闹剧，我没有恶意针对任何人或任何事。但看吧，现在发生的事情很明显。所以我觉得我对此没什么可说的。",
+   "ts": "00:20:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, what a wild ride over there. Zooming out on the frameworks question, when I asked you ahead of our chat about what frameworks you love and anything you think would be interesting to share, you had a really interesting response and so I'd love for you to just share your perspective on frameworks broadly.",
+   "zh": "是啊，那边真是疯狂了。退一步讲框架问题，我在我们的聊天前问你，你喜欢哪些框架，有没有什么你觉得分享起来会很有趣的，你的回答非常有趣，所以我希望你能广泛分享一下你对框架的看法。",
+   "ts": "00:20:18"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah. Look, I'm two things simultaneously. One is actually, I like frameworks. The way that I try to express them is mental models because the essence of a framework and a mental model is that it is a shortcut. It packages some dense thinking into a way for you to approach a problem or to approach an opinion and so on and so forth. So I do collect them. But I think that what's important, I feel in product management, is to have the ability to understand the fundamentals or the empirical relationship that constructs a framework in the first place. In math, you would call it being able to derive the equation. And the reason that's important is because there's so much uncertainty in what we do. Product management isn't a science. In fact, programming isn't even a science really, because if it was, we'd treat it differently. So the art of building, say a software company that is profitable is not scientific. (00:21:36): There's a lot of uncertainty, a lot of unknowns, there's timing issues. So I guess while I love mental models, while I love frameworks, what I want people who listen to me and maybe listen to you to understand is you have to go deeper. Because as situations change, as an investor and advisor to startups, I advise differently if you are just starting, if you're in the middle, and if you're scaling. In the book that I'm writing on product, I actually make that distinction a lot in the book, which stage are you? Because then the thing that applies to you is different. If you understand the fundamentals, you'll be able to use frameworks in a much more productive way because you'll adapt it to your stage, you'll adapt it to the problem. And I think that's really important. I see lots of people using frameworks very blindly, and I think that's harmful to them and harmful to their businesses.",
+   "zh": "是啊。你看，我同时有两个身份。首先，我确实喜欢框架。我试图用思维模型来表达它们，因为框架和思维模型的本质就是一种捷径。它将一些复杂的思考方式打包成一种方法，帮助你解决问题、理解观点等等。所以我确实会收集这些框架。但我认为，在产品管理中，更重要的是要具备理解构建框架的基本原理或经验关系的能力。在数学中，你会称之为能够推导出方程式。这一点之所以重要，是因为我们所做的事情存在太多不确定性。产品管理不是一门科学。事实上，编程甚至都算不上科学——如果编程是科学，我们对待它的方式就会截然不同。所以，建立一家盈利的软件公司的艺术，并非是科学。（00:21:36）：存在诸多不确定性，存在许多未知数，还有时机问题。所以我想，虽然我喜欢思维模型，喜欢框架，但我希望听我讲话的人——包括听你讲话的人——能明白一点：你必须深入思考。因为随着情况变化，作为初创公司的投资者和顾问，我会根据公司所处的不同阶段给出不同的建议——无论是刚起步、处于发展中期，还是在扩张阶段。在我正在写的产品管理书籍中，我在书中多次强调这个区别：你处于哪个阶段？因为适用于你的方法会有所不同。如果你理解了基本原理，你就能更有效地运用框架，因为你能将其适应自己的发展阶段，适应所面临的问题。我认为这点非常重要。我看到很多人盲目地使用框架，我认为这对他们和他们的业务都是有害的。",
+   "ts": "00:20:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a great segue to where I wanted to take us next, which is around the book that you're writing, which is my understanding is it's product management for product led growth. And I'm on your wait list to find out when it's out, and I saw that the other day you asked people for their advice on what to call the book. Do you have any favorites at this point of what you might title it?",
+   "zh": "接下来我要引出我想探讨的下一个话题，那就是你正在写的那本书。据我了解，书的主题是产品管理与产品驱动型增长。我在你的邮件列表上，等着书出版的消息。前几天我看到你征求读者对书名建议的推文。目前你有没有特别喜欢的书名？",
+   "ts": "00:22:31"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Well first of all, there are two things happening with the book. One is I believe PLG is, I have maybe a different definition of PLG, but I think the way that we are basically adapting products to the consumer or to the business professional and using the product itself to sell the value proposition is really key to transitioning from what we used to do 20 years ago to today. Basically, I think even enterprise companies will tend towards a consumer type product management over the next decade than the other way around, that's my bet. And so let's call that PLG, just writ large. And also I think product management is set for growth. So obviously that's good for you, Lenny, because everyone needs to know how to do this. (00:23:39): It's an integrative art within building software and software is seeding the world, the book, I want to get very practical. What matters about doing those two things well, and the best titles coming up are, my original title was Building Rocket Ships. So it's like how do you think through all the different things you need to build a really successful software company? Think about the practice, think about the business, meld those two things together. So a lot of people love that title. Well, there's a huge variation in submissions. So I think we're going to do that one more time and offer more options before we nail down the title of the book, so still TBD.",
+   "zh": "嗯，首先，关于这本书，有两件事值得探讨。第一点是，我认为PLG（产品生命周期管理）很重要。我可能对PLG有不同的定义，但我认为我们将产品适应消费者或商业用户，并利用产品本身来传递价值主张的方式，确实是从20年前到今天转型关键的要素。基本来说，我认为未来十年，即使是企业公司也会倾向于采用消费者类型的产品管理模式，而不是反过来——这就是我的预测。所以让我们把这部分称为PLG的大写版本。另外，我认为产品管理领域将迎来快速发展。这对莱尼来说显然是个好消息，因为每个人都需要掌握这方面的技能。（00:23:39）在软件开发领域，产品管理是一门综合性艺术，而软件正在改变世界。这本书，我想写得非常实用。在这两件事上做得好至关重要，目前最受欢迎的书名是《打造火箭飞船》。所以这本书的核心在于，如何统筹考虑打造一家成功软件公司所需的各种要素？既要考虑实践，又要兼顾商业逻辑，将两者完美融合。很多人都喜欢这个书名。不过投稿内容差异巨大。所以我们打算再征集一轮意见，然后再确定书名，所以目前还没最终定下来。",
+   "ts": "00:22:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool, all right. I'm excited to see where you land. So let's just spend some time on PLG. I feel like this is your bread and butter as a product leader. You've worked at some of the most successful PLG companies and I think you have some of the most unique perspectives on what works and doesn't work. And I saw you shared a preview of what you're going to be sharing the book, and so there's a few things there that I thought were really interesting that I haven't seen other places when it comes to PLG. So I was just going to dig into it-",
+   "zh": "太棒了，好吧。我很期待看到你的成果。接下来我们就专注PLG吧。我觉得这对你来说是强项，毕竟你曾在PLG领域最成功的公司工作过，对其中的成败秘诀有着独特见解。我看到你分享了新书的预览，其中有几点观点在PLG领域很新颖，别处难得一见。所以我特别想深入探讨一下——",
+   "ts": "00:24:22"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yay.",
+   "zh": "太好了。",
+   "ts": "00:24:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Absolutely. The first is this framing that you had for where to start and how to focus with your PLG problem. And you described it as starting with a sharp problem. Can you talk about what that means?",
+   "zh": "当然。首先，你提到的如何从PLG问题入手并聚焦核心的框架。你说要从一个尖锐的问题入手，能具体解释一下吗？",
+   "ts": "00:24:49"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, so I'm trying to connect dots. The sharp problem is a little bit of that whole quadrant framework, which is what problem are you going to work on? I think that problems have predictive power of success if you actually solve the problem. And this is different from, I have an idea, yeah. I think that a lot of innovation can come from inspiration, but the best inspiration comes from understanding customers and their problems. So my advice to founders is pick a problem that is materially felt by your customers, pain points that steal their time, their energy, their money, their focus, the inability to afford their leisure. If you can solve those kinds of problems, and look, I know that it's broad, because it requires insight. The best founders often are people who felt a problem, understand it, understand that it's really difficult, and understand that there may be like five, 10, 20 billion people who feel it and they don't want to solve that problem versus I feel a problem, but only 100,000 people care. In which case, maybe it's not that intense anyway, unless you can charge them thousands and thousands of dollars. (00:26:22): So pick those kinds of problems. If you have the narrative in your head that if you really solve this, people will pony up. That's what I ask people to find. Too many of us just have a sharp idea. Look, I've built a startup on a non-sharp problem, and I knew how it felt. Well, I also know working in companies that are solving sharp problems how it feels, it's a huge tailwind to do that. In fact, when you work on sharp problems, it's hard to fail because you can make mistakes and the customer's obsession will carry you, but if you work on something that doesn't have a sharp problem, mistakes can kill you because essentially you're having to pay a lot for marketing, you're having to pay a lot for word of mouth. People, when they get poor, they don't care about it, like recessions.",
+   "zh": "是的，我正在努力理清思路。关键问题在于整个象限框架——你要解决什么样的问题？我认为，如果你能真正解决问题，就能预见成功的可能性。这和\"我有个想法\"不同。很多创新源自灵感，但最棒的灵感往往来自对客户及其问题的深刻理解。因此，我给创业者的建议是：选择一个客户切实感受到的痛点——那些耗费他们时间、精力、金钱、注意力，甚至让他们无力享受休闲时光的问题。若能解决这类问题（我知道这听起来很宏大，因为它需要洞察力），往往能收获最佳创意。最优秀的创业者往往亲身感受到问题所在，理解其复杂性，意识到可能有50亿、100亿人面临同样的痛点，而非只有10万人感兴趣。除非你能向他们收取高额费用，否则这种痛点可能并不足够强烈。\n\n（00:26:22）所以要选择这类问题。当你脑海中浮现\"如果能真正解决这个问题，人们就会买单\"的场景时，那才是我希望人们去寻找的。太多人只是一时灵光一闪。看，我曾基于一个不算尖锐的问题创办过一家初创公司，当时我深有体会。但在解决尖锐问题的公司工作时，你能感受到巨大的助力——即使犯错，客户的执着也会支撑你前进。而面对不尖锐的问题，错误却可能致命，因为你不得不投入大量营销成本，靠口碑传播。人们在经济低迷时往往漠不关心。",
+   "ts": "00:24:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Coming back to something you mentioned earlier about just how much pain it needs to be for people to care or how much pain it needs to solve versus the status quo, I think is a really important element of this. I think most founders like, no, I need to solve a problem. But usually it's not painful enough or it's not solving it enough, given either an example of something that you've tried or you've seen of just like that was a sharpish problem but not sharp enough and people didn't care, either a company worked or a startup you advised of just like, okay, it wasn't sharp enough.",
+   "zh": "回到你之前提到的——问题必须足够令人痛苦，人们才会关注，或者与现状相比有多大改进——我认为这是一个关键要素。多数创业者都想\"不，我要解决问题\"。但通常问题不够痛切，或者解决力度不够。无论是基于你尝试过的例子，还是见过的其他案例——比如某个创业公司试图解决尖锐问题却失败，或者你指导的初创公司因不够尖锐而失败。",
+   "ts": "00:27:15"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I don't want to create enemies because I know a lot of founders. But here's one, here's one. I don't know if you remember during the pandemic, this venture studio by I think one of the ex founders of Evernote created mmhmm camera, remember that?",
+   "zh": "我不想树敌，因为我认识很多创业者。但这里有个例子，不知道你是否还记得疫情期间，由Evernote前创始人之一创立的风险投资工作室开发的mmhmm相机，还记得吗？",
+   "ts": "00:27:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh yeah, absolutely. Yeah, great video.",
+   "zh": "哦，对，绝对是。是的，视频很棒。",
+   "ts": "00:28:04"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "It was fun, but I don't think it was a sharp problem. It was fun, but yeah, it didn't change the world of your Zoom camera. It didn't change the world of your collaboration. And so I think that's one example of a non-sharp problem, for example, for most people.",
+   "zh": "很有趣，但我不认为这是尖锐问题。很有趣，但没能改变你Zoom相机的世界，也没改变你的协作方式。所以我认为这就是一个非尖锐问题的例子，至少对大多数人来说是这样。",
+   "ts": "00:28:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are signs that it's sharp enough, just like in your experience? I know you talked about it steals your time, energy, money focused. What are flags that this is sharp enough in your experience?",
+   "zh": "根据你的经验，怎样判断问题足够尖锐？我知道你提到过它耗费时间、精力、金钱、注意力。在你看来，哪些迹象表明问题足够尖锐？",
+   "ts": "00:28:31"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I think there are two ways to think about it. If you are in the trenches as a founder, the easiest way to map out a sharp problem is draw the current approximate average workflow for your target customer, at least what you think is a target, and then draw the workflow after they've used your software and see how much shorter it is, yes or no. And then try to measure those lines. If you draw them as horizontal lines, try to measure those lines and see if it's much shorter. If it's 2X shorter, 3X shorter, so let's say pre-customer, that is the best way to hone in on it. Post customer, you should talk to the people who are most enthusiastic and derive their workflow and their workflow change and try to measure that. I think that's how you figure out if it's a sharp problem or not. (00:29:37): The other thing that we talk about in startup super early stage world is, I call it the whites of their eyes. When you take a problem and you share it with someone who it's going to affect their workflow, and I use the word workflow a ton because I don't use specs anymore or use cases, I think workflows are the unit of productivity. When you see people's eyes get big and they expose more whites to you, you're probably onto something. It's not enough, that's not a workflow thing, that's an excitement thing. But people often react that way when you're solving a really sharp problem for them. And then people spontaneously bring up money, it's like when can I pay? When can I... Those kinds of things give you an indication.",
+   "zh": "我认为有两种思考方式。如果你作为创始人亲身经历创业过程，最简单的方法就是描绘出目标客户当前大致的工作流程——至少是你所设想的目标客户的工作流程——然后再描绘出他们使用你的软件后的工作流程，看看是否缩短了很多。接着尝试测量这些线段。如果你把它们画成水平线，再去测量，发现确实缩短了很多。比如说，如果缩短了两倍、三倍，那么在产品尚未面向客户之前，这就是锁定核心问题的绝佳方法。面向客户后，你应该与最热情的用户交流，了解他们的工作流程变化并进行测量。我认为这就是判断问题是否尖锐的关键。\n\n（00:29:37）：在创业初期阶段，我们常讨论的一个现象，我称之为“眼白部分”。当你向将受你的产品影响的人提出一个问题时，如果你看到他们的眼睛突然放大，眼白部分暴露得更多，这通常意味着你找到了关键点。光是这样还不够，这不是关于工作流程的问题，而是他们对解决方案的兴奋反应。当你为他们解决一个真正尖锐的问题时，人们往往会自发地提起资金问题，比如“我什么时候能付款？”“什么时候能用上？”这些反应能给你提供重要线索。",
+   "ts": "00:28:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Two other versions of the showing more whites of your eyes, which I love. Two other versions of that I've heard is one is you see their pupils dilate and they're just like, \"Whoa, I need this now.\" And then the other is someone described it as, you see this nod of as you're talking, they're just like, \"Oh, I get it. I get this.\" And then they're like, \"Okay, we need this in our company.\"",
+   "zh": "关于“眼白部分”的另外两个版本，我也很喜欢。其中一个版本是看到对方瞳孔放大，他们会感叹：“哇，我现在就需要这个！”另一个版本是有人描述说：当你说话时，他们会频频点头：“哦，我懂了。我明白了。然后他们会说：“好，我们公司也需要这个。”",
+   "ts": "00:30:23"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I'm a little over those ones because sometimes it's just excitement and just noise. And so the things I said previously about workflow compression or capability inflation, I think those are more reliable, which is all about customer research and customer conversations. That's what I would focus on. Yeah, I'm saying all this from mistakes I've made, basically. So I feel like this is scar tissue, which is what I'm trying to pour into the book.",
+   "zh": "我对这些反应有点审慎，因为有时这只是兴奋带来的噪音。所以我之前提到的那些方法，比如工作流程压缩或能力提升，我认为这些更可靠。这都与客户研究和客户对话有关。这才是我真正关注的重点。是的，我说这些都是从我自己犯过的错误中总结出来的。所以我觉得这些都是宝贵的经验，我正把它们写进书里。",
+   "ts": "00:30:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of talking to customers, another one of your big bullet points in the book is around continuous customer discovery, and I'm curious what you found to be successful in actually doing that. A lot of people talk about it when you keep talking to customers, get feedback constantly. What actually works in your experience?",
+   "zh": "说到与客户沟通，书中另一个重要的要点是持续的客户发现。我很好奇，在实际操作中，你发现哪些方法是有效的。很多人谈到要不断与客户沟通，持续获取反馈。根据你的经验，哪些方法确实有效？",
+   "ts": "00:31:18"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, I feel like all of park management is about discovery these days. Everyone talks about it, and I want to make a distinction. I think discovery is when you use customer conversations to understand a very specific thing that you want to optimize further workflow that you want to optimize further. And then you call the people who are most likely to be affected and you do use various research strategies to talk to them. There's a version of that also that is what I call continuous conversations, which is a Calendly and a Typeform, which we'll do more and more of. You should organize it so that your PMs, your designers, your engineering managers and your PMMs are constantly talking to customers by default. Meaning that customer conversations show up on their calendar every week automagically, without them getting involved. And then they're trained on how to have the conversation, because the death of customer discovery is friction. If you ask individuals to do customer discovery, they will not do customer discovery. (00:32:49): This is the thing that dies in an innovative company because it's very difficult to actually talk to the right customer, not talk to any customer, talk list of the right customer continuously. But there's a third thing that I like to talk about, which is customer listening. In fact, I'm going to talk about this at industry in October, the PM Conference. Customer listening is different. It's not really discovery. It is the scarfing up of customer signals that are happening constantly anyway. So people are talking on social, people are talking on app stores and G2 crowd. If you have a instrumented churn survey, people are talking. If you have NPS, people are not only giving you the scores where they're putting in the verbatims. If you have a bug report, which we had at Atlassian, people are filing bugs, developers love to file bugs, so of course we have that for that audience. And then if you go to Zendesk and customer support, people are either talking about one thing all the time or a range of things, and you can see the frequency distribution. (00:34:01): And of course in Salesforce, you have closed one. These are all things happening no matter what you do. Whether you're listening or not, you're getting these signals. One of the big, hairy, audacious goals of product management is being able to process these signals efficiently. We did it in a certain way at Calendly, which I drew a rig together through workflows and Slack, and then having individuals triage those things. And if you can do that hard and at industry, I'll talk a little bit about how to do it. It's not exactly discovery. It is what matters. Our job is to meld customer delight with business ambition. And it feels essential beyond discovery that you are listening and you're understanding what matters from a customer delight perspective. And I don't think many of us do this really well. I've tried to do it everywhere I've gone, Twitter, Atlassian, Calendly, now at Typeform. But it still feels like something that the industry can get better at.",
+   "zh": "是啊，我觉得如今整个产品管理领域都热衷于“客户洞察”这个概念。每个人都在谈论它，但我想对此做个区分。在我看来，真正的客户洞察是指通过与客户的对话来理解某个具体问题，进而优化工作流程。然后，你会联系最可能受影响的人群，并运用各种研究策略与他们展开交流。还有一种类似的做法，我称之为“持续对话”，比如使用Calendly和Typeform工具——我们会越来越多地应用这些工具。理想情况下，产品经理、设计师、工程经理和项目管理经理应当默认就与客户保持沟通。也就是说，每周自动在他们的日历中安排客户对话，无需他们主动参与。同时，他们需要接受如何有效沟通的培训，因为客户洞察的核心在于消除阻碍。如果让个人去主动开展客户洞察，他们往往会敷衍了事。\n\n（00:32:49）这正是创新型公司容易失败的关键点——真正与合适的客户对话、持续获取客户反馈并非易事。还有第三个概念——客户倾听。事实上，我将在10月的PM大会上重点探讨这个话题。客户倾听与传统的客户洞察不同，它不是主动探索，而是持续收集本就存在的客户信号。例如，用户在社交媒体、应用商店和G2 Crowd平台上的讨论；仪表化的流失率调查；NPS评分背后的真实反馈；Atlassian内部的bug报告系统（开发者热衷于提交bug报告）；Zendesk客户支持数据中的频繁反馈模式；Salesforce中的客户成交数据……无论你是否主动倾听，这些信号都会源源不断地传来。\n\n（00:34:01）产品管理的核心挑战在于高效处理这些信号。我们在Calendly通过工作流和Slack搭建了处理机制，并安排专人进行分类处理。在Industry大会上，我将详细分享相关实践。这并非传统意义上的客户洞察，而是至关重要的客户倾听。我们的职责是将客户满意度与商业目标相结合。除了洞察能力，更重要的是持续倾听客户声音，从客户满意度的角度理解关键需求。我认为多数从业者在这方面做得不够。我曾在Twitter、Atlassian、Calendly等平台反复实践，如今在Typeform也持续探索，但整个行业仍有提升空间。",
+   "ts": "00:31:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This touches on advice that Teresa Torres teaches around continuous customer discovery. And she actually had a really good tactic, that I'll share here that stuck with me, about how to actually do this. So the way she recommends companies do this is have a little popup on your site asking visitors like we'd love to talk to you and get your feedback on our product. And it just links them to a Calendly to book a meeting, and that's how it shows up on the calendar.",
+   "zh": "这涉及到特蕾莎·托雷斯（Teresa Torres）关于持续客户探索的建议。她确实有一个非常好的策略，我在这里分享一下，让我印象深刻，关于如何具体做到这一点。因此，她建议公司在网站上设置一个弹窗，询问访客：“我们很乐意与您交流，并获取您对我们产品的反馈。” 然后将他们引导至Calendly平台预约会议，这就是它在日历上显示的方式。",
+   "ts": "00:35:08"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, that's what we did at Calendly. But I will say, so a couple of caveats, we did that in the community. We had community at calendly.com and we understood that that was a self-selected group. But it was still important to talk to them because they were still representative. And of course you should do it in a product. The challenge of that approach is always is it the right customer? And the pro/con of that is talking to one customer is useless, talking to 100 is super useful. And so the challenge is are you targeting the right person? (00:36:09): So some intelligence upfront and who to show it to and why you're showing it to them, so that they can come is interesting. Very particularly effective by the way for growth, because if people don't activate or churn, they don't want to talk to you. But if you can present that thing in their activation or conversion journey, they might actually talk to you. And so that's really key. So I 100% agree with Teresa, that's exactly what you should do for not even, I wouldn't even call it discoveries for listening, and some of it can be discovery. Yeah, I think that's exactly what you should do.",
+   "zh": "是的，这正是我们在Calendly所做的。但我要说明几个注意事项：我们是在社区中这样做的。我们在calendly.com上建立了社区，我们知道这是一个自愿加入的群体。但与他们交流仍然很重要，因为他们仍然具有代表性。当然，你也应该在产品中这样做。这种方法的挑战始终在于：客户是否合适？其利弊在于，与一个客户交流毫无意义，与100个客户交流则非常有用。因此，关键在于你是否针对了正确的人？（00:36:09）：所以事先要进行一些分析，确定向谁展示，以及为什么要向他们展示，这样他们才会前来，这很有趣。顺便说一句，这对增长特别有效，因为如果人们不激活或流失，他们就不想与你交流。但如果你能在他们的激活或转化过程中呈现这些内容，他们可能会真正与你交流。因此，这真的很关键。所以我完全同意特蕾莎的观点，这正是你应该做的，甚至我不会称之为探索，而是倾听，而其中一些也可以被视为探索。是的，我认为这正是你应该做的。",
+   "ts": "00:35:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As you're talking I'm realizing I'm using most of the products you help build. I'm on Twitter a lot. I use Calendly a lot. I use Typeform as my default survey tool.",
+   "zh": "你说话的时候，我意识到我正在使用你帮助开发的大多数产品。我经常使用Twitter。我经常使用Calendly。我使用Typeform作为我的默认调查工具。",
+   "ts": "00:36:45"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I saw that, my team is really excited that you're using Typeform.",
+   "zh": "我看到了，你团队对你们使用Typeform非常兴奋。",
+   "ts": "00:36:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've impacted my life in so many ways, Oji.",
+   "zh": "你以多种方式影响了我的生活，奥吉。",
+   "ts": "00:36:59"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I think you owe me money, Lenny-",
+   "zh": "我觉得你欠我钱呢，莱尼-",
+   "ts": "00:37:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What do you need? How much? Give me your Venmo QR code, it's on [inaudible 00:37:09]. (00:37:11): You fell in love with building products for a reason, but sometimes the day-to-day reality is a little different than you imagined. Instead of dreaming up big ideas, talking to customers and crafting a strategy, you're drowning in spreadsheets and roadmap updates, and you're spending your days basically putting out fires. A better way is possible. Introducing Jira Product Discovery, the new prioritization and road mapping tool built for product teams by Atlassian. With Jira Product Discovery, you can gather all your product ideas and insights in one place and prioritize confidently, finally replacing those endless spreadsheets. (00:37:47): Create and share custom product roadmaps with any stakeholder in seconds. And it's all built on Jira, where your engineering team is already working, so true collaboration is finally possible. Great products are built by great teams, not just engineers, sales, support, leadership, even Greg from finance. Anyone that you want can contribute ideas, feedback, and insights in Jira Product Discovery for free, no catch. And it's only $10 a month for you. Say goodbye to your spreadsheets and the never ending alignment efforts. The old way of doing product management is over. Rediscover what's possible with Jira Product Discovery. Try for free at atlassian.com/lenny. That's atlassian.com/lenny. (00:38:32): Getting back on track. Another important part of the book that you're writing is around onboarding. And something that I talk a lot about on this podcast is just the power of onboarding and how impactful it's to retention and so much of the eventual success of your product and how customers use it. And so I'd love to hear just your advice on what you think is really important, I guess why onboarding is so important in success and PLG. And also just what tactics have you found to be really effective?",
+   "zh": "你需要什么？需要多少钱？把你的Venmo二维码给我，链接在[无法听清00:37:09]。（00:37:11）：你爱上产品开发是有原因的，但有时日常工作与你的想象略有不同。与其构思宏伟蓝图、与客户沟通并制定策略，你却深陷于电子表格和路线图更新中，整天疲于应对各种突发状况。其实还有更好的选择。Atlassian推出的Jira产品探索工具，专为产品团队打造的优先级管理与路线图规划工具。借助Jira产品探索，你能将所有产品创意与洞察汇聚一处，自信地进行优先级排序，最终告别那些永无止境的电子表格。（00:37:47）：数秒内即可创建并与任何利益相关者共享定制产品路线图。所有功能均基于工程团队已在使用的Jira平台构建，让真正的协作成为可能。优秀的产品由优秀的团队打造，不只是工程师、销售、支持、领导层，甚至财务部的Greg也能参与其中。在Jira产品探索中，任何人都能免费贡献想法、反馈与洞察，而你每月仅需支付10美元。告别电子表格，结束无休止的沟通协调。传统产品管理方式已过时。立即体验Jira产品探索的无限可能，免费试用请访问atlassian.com/lenny。（00:38:32）：回到正题。你正在撰写的书中，关于用户入职（onboarding）的内容也很重要。在本播客中，我经常强调入职的重要性，它对用户留存率、产品最终成功以及客户使用体验的影响都极为深远。因此，我很想听听你对入职在成功和PLG模式中重要性的见解，以及你发现的有效入职策略。",
+   "ts": "00:37:04"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Let me talk about a few fundamentals. Onboarding is a substitute for sales and all these account management teams for millions of customers. The task is how do you make it approximate a human and how friendly a human is and how approachable a human is? Because if you can do that, then you can process thousands and thousands of customers very quickly. Onboarding is an exercise in understanding the mindset of a buyer, of an evaluator. It's nothing more than that. Meaning that the province of understanding is social psychology, it's not really product, it's biopsychology. And guess who knows a lot about this stuff, it's people in the offline industry. The people who stock shelves, the people who provide inventory online and so on and so forth. They are extraordinarily good at this. So the reason I say this is to divert people who are [inaudible 00:40:00] to really find where to source their inspiration from for onboarding, first of all. (00:40:06): If you think about this as intentful in that way, which is people come not knowing anything about you and in a progressively developed confidence that you are the tool of choice, you then have to break it down into how does that journey go through a mind, the average mind anyway, and how do you assist each part? One is value proposition, understanding, one is trying to see if it's simple enough and provides enough value. One is kicking tires and one is making the choice that this is something I'm going to go forward with. How does your onboarding support hit all of these things? Now I think there are two parts of onboarding. One is mandatory, the setup, it has to be spare. I try not to make it more than three screens, but it's about how do you say what this does and provide the essential setup that your customer needs to be successful? (00:41:05): At Calendly, for example, we asked them about connecting their calendar and setting some defaults. Is it 9:00 to 5:00 or whatever that is? Those two things set up all the future success. And if we made it optional, more people would fail. So it's information and the essential setup, and it should be as short as possible. Then there's a whole other set of things that should be optional because they're not necessary for everyone to be successful, but they're beneficial if people are curious. And also, it can be what we call a random access, so people can get back to it any time they want, if they're feeling help. And so if you divide onboarding into those two things and then figure out what to put in one and what to put in the other, I think you can be quite successful. And this is just the tip of the iceberg that I get into in the book.",
+   "zh": "让我来谈谈几个基础问题。入职流程是销售的替代品，也是数百万客户的账户管理团队所承担的任务。关键在于如何让它尽可能贴近人性化，让用户感觉友好且易于接近？因为如果能做到这一点，就能快速处理数千名客户的需求。入职流程实质上是理解买家和评估者的思维模式。这就是全部要点所在。理解的范畴属于社会心理学，而非产品设计或生物心理学。猜猜谁在这方面深有研究？就是线下行业的人——货架陈列员、线上库存管理员等等。他们在这方面堪称行家。说这些是想提醒那些（00:40:00）过度纠结于技术细节的人，要先找准入职流程的灵感源泉。\n\n（00:40:06）：若从用户意图角度思考，用户对你的产品一无所知，但逐渐建立信任并选择你作为首选工具。那么关键在于如何让用户在大脑中完成这个认知过程，特别是普通用户的心理路径。首先要理解价值主张，评估是否足够简洁且价值显著。接着是试用阶段，最后是做出决策。你的入职流程如何全方位支持这些阶段？\n\n入职流程可分为两部分：一是必须完成的核心设置，需保持简洁。我尽量控制在三个页面以内。二是可选内容，满足用户个性化需求。例如，Calendly会引导用户关联日历并设置默认设置，如工作时间9点至5点等。这些基础设置对用户成功至关重要，若设为可选，成功率会大打折扣。因此，核心信息和必要设置要简洁明了，并尽可能缩短流程。可选内容可供用户根据需求自由选择，支持随机访问功能，让用户随时获取帮助。将入职流程分为两部分，再合理分配内容，成功几率会大大提升。这只是我书中探讨的冰山一角。",
+   "ts": "00:38:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any examples of really big onboarding wins, things that really helped with conversion or activation that come to mind?",
+   "zh": "有没有特别成功的入职流程案例，能有效提升转化率或激活率？",
+   "ts": "00:41:56"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Well, I think keep it short is one big win. The fewer things, the better, that are essential, that everyone has to go through. It's unclear if all those clickthroughs go here, go here, and all those things work-",
+   "zh": "简洁高效就是一大成功之道。核心流程要简明易懂，人人必经。用户是否会逐项点击指引？",
+   "ts": "00:42:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The wizards, yeah.",
+   "zh": "比如引导式向导。",
+   "ts": "00:42:16"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah. The wizards have had, in my experience, limited benefit. So much as just directing people to the one thing that they need to do post mandatory onboarding. Having examples, not 10, one or two of what good looks like is particularly powerful because it's mimetic. People see, oh, okay, this is exactly what I'm shooting for, is very powerful. In terms of trial and conversion, letting people understand and being very clear about where they are in the trial cycle, whether you want them to pay for it now or they need to pay for it later, after seven days. Having them understand that really clearly so they know where they are versus they feel like they're completely at sea, I think is very important for conversion. (00:43:07): I think there are a few things like that, but I also want to mention that it's different for every product. Depending on where you are in the quadrant and the amount of augmentation and problem solving and how sharp the problem is, you might want to adjust your approach. And this is the kind of thing that there's some fundamentals, but it's not necessarily this one size fits all. In fact, at Typeform, we're trying to maybe invent a new twist on freemium just because of some of the things we're seeing for our particular customers. And so yeah, these are for me, some new learning as well as I go through each different product.",
+   "zh": "是的。以我的经验来看，向导功能的益处有限。它们主要就是把人们引导到强制入职后需要做的一件事上。提供示例——不是10个，而是1-2个优秀案例——尤其有效，因为这种示范效应很强。人们看到后，会觉得，哦，原来这就是我要努力达成的目标，这效果很棒。在试用和转化方面，确保用户理解并清楚自己在试用周期中的位置——无论是现在付费，还是七天后再付费——让他们清楚自己的处境，而不是感到迷茫，这对转化至关重要。  \n（00:43:07）：我认为还有一些类似的做法，但每个产品都不同。取决于你所处的象限、产品对用户问题的解决程度以及问题的紧迫性，你可能需要调整方法。这类问题有一些基本原则，但并非放之四海而皆准。事实上，我们在Typeform正试图为免费增值模式开创新思路，因为我们为特定客户观察到了一些问题。因此，对我来说，每个不同产品都是新的学习机会。",
+   "ts": "00:42:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Along these lines of onboarding activation and getting a user activated is really important. And I'm curious, do you have an example of what an activation milestone was at Calendly or Twitter or a Typeform? Just to give people a sense of like here's a good example of an activated user milestone.",
+   "zh": "围绕激活用户这一点，入职激活和用户激活非常重要。我很好奇，你们在Calendly、Twitter或Typeform有没有激活里程碑的例子？让人们了解一个激活用户的优秀范例。",
+   "ts": "00:43:49"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I think this goes back to people, the Pendos and the Amplitudes of this world. You have to think through your aha journey. Like at Calendly and also at Typeform we have three thresholds of increasing activation. And we just try to make sure that people go through each one as many people as possible. And frankly, we try to figure the drop-off between the increasing definitions of activation. So at Calendly we want to make sure you've created your first meeting. But then if you've created five within a week, that's really much more powerful. At Typeform, it's really about have you published the form and have you gotten responses? And have you gone to look at what the responses mean in the insights page, for example. (00:44:52): At Twitter it is are you following anyone or are you being followed? Because that verb, follow, is the way you start to construct your informal community. Remember what I said is Twitter is for people who want informal community around a topic that is not... Facebook is about who do you know, Twitter is about who do you want to know? Who's passionate about what you're passionate about? And so if you haven't set up your follow graph at all, you're not going to really activate. It's not going to be compelling for you.",
+   "zh": "我认为这要回归到Pendo和Amplitude这样的公司。你们必须仔细规划用户的aha时刻。比如在Calendly和Typeform，我们设定了三个递增的激活门槛，并努力让尽可能多的用户通过每个门槛。坦白说，我们还试图了解每个激活定义之间的转化率差异。在Calendly，我们希望确保用户创建了第一个会议。但如果用户一周内创建了五个会议，效果会更显著。在Typeform，关键在于用户是否发布了表单并获得了反馈，以及是否在洞察页面查看了反馈数据。  \n（00:44:52）：在Twitter上，关键在于用户是否关注了别人或者被别人关注。因为“关注”这个动作是构建非正式社区的起点。记住我之前说过的，Twitter是为那些希望围绕某个非正式话题建立社区的人而设计的，而Facebook则侧重于社交关系。Twitter的核心是让人们围绕感兴趣的话题找到志同道合的人。所以如果用户根本没有建立关注图，他们就很难真正激活起来。这对他们来说毫无吸引力。",
+   "ts": "00:44:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome, those are great examples. It's funny hearing that Twitter activation milestone out of context sounds, so creepy. Have you followed anyone or is anyone following you?",
+   "zh": "太棒了，这些例子都很棒。脱离上下文听Twitter的激活里程碑，听起来有点吓人。你有没有关注过别人或者被别人关注过？",
+   "ts": "00:45:23"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, because a lot of people go in and then they tweet into the void or they don't feel like they have a voice. But that's not the most important thing. Most important thing is are you getting content that you are interested in that makes you want to come back and see more of it and follow is a huge part of doing that.",
+   "zh": "是啊，因为很多人加入后要么在社交媒体上发些没人回应的内容，要么觉得自己没有发声的机会。但这都不是最重要的。最重要的是，你能否获得感兴趣的内容，让用户愿意回来看更多内容并关注，这才是关键。",
+   "ts": "00:45:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Just on the point of Twitter, I don't know if this goes anywhere, but it's crazy how it keeps going no matter how much destruction is happening all around, employees-",
+   "zh": "是啊，说到推特，我不知道它能走多远，但令人惊讶的是，无论周围有多大的动荡，它依然能继续运转，员工们——",
+   "ts": "00:45:47"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Oh, you want me to talk about that? Because I want to talk about this.",
+   "zh": "哦，你想让我谈这个？因为我想谈谈这个。",
+   "ts": "00:45:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Please, let's do it.",
+   "zh": "拜托，开始吧。",
+   "ts": "00:45:58"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "So one of the things they, I don't want to say they, one of the things I learned early on is network effects.",
+   "zh": "所以他们（我不想说是“他们”），我早期学到的一件事就是网络效应。",
+   "ts": "00:46:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:46:11"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Network effects, let me define it. Network effects is when you create value for passive members by other people joining the network. So I am by myself, I have done nothing. I'm at home, chilling, but one person joins the network and immediately I gain benefit, okay. So think about Facebook. If there are eight billion people on Facebook, it means that all of a sudden I can reach everyone on the planet. And so the more people on Facebook, the more it's valuable to me regardless of my effort. That's network effect. If I'm into Word, word processor, Microsoft Word, and the more people who use that file format, it means that the more Word documents I can read. (00:47:05): And so I did nothing, so by increasing the people adoption of Word, I gain benefit. Network effect, that's what it is. So Twitter and then this is the mental model of critical mass, network effect is about critical mass. You hit a critical mass and sometimes that's not mathematically defined, and then you've hit network effect because people want to come because people are already there. So Twitter has hit critical mass and lots of your favorite social networks. Network effects is a feature by itself, and it's the most powerful feature. A good way to illustrate the power of network effects is Twitter did not die because Threads came about, that's the power of network effect. In fact, the last telegram was sent in 2016, over 100 years after it was invented because of network effects. It had to be manually closed down. (00:48:03): I believe Friendster is still alive, so we have to be really clear that it's really hard to kill a network effects business. Now how do you actually accomplish it if you were to accomplish it? Well, the revenue side of any social network is vulnerable to attack. So for example, if advertisers stop being on Twitter, for example, they're not gone because again, network effects affects them. They want to go where the eyeballs are. But if for some reason they disappeared, while the people will continue to come, the ability to have money to improve the network will disappear. And that is a negative spiral. What is very, very hard to kill business, it's hard to kill software that's reached network effect, although you can kill businesses that have reached network effect.",
+   "zh": "网络效应，让我来定义一下。网络效应是指，当其他人加入网络时，你为被动成员创造价值。所以我独自一人，在家放松，但一个人加入网络，我立即就能获益。那么想想Facebook。如果Facebook有80亿用户，那意味着我突然就能联系到全球所有人。所以Facebook的用户越多，对我来说就越有价值，无论我自己如何努力。这就是网络效应。如果我用微软Word处理文档，使用该文件格式的人越多，我就越能读取更多Word文档。（00:47:05）：所以我什么都没做，但随着更多人采用Word，我就能获益。这就是网络效应。Twitter和这种临界质量的心理模型，网络效应就是关于临界质量的。当你达到临界质量时（有时这不是数学定义的），你就触发了网络效应，因为人们想加入，因为其他人已经在那里。所以Twitter已经达到了临界质量，许多你喜欢的社交网络也是如此。网络效应本身就是一项功能，而且是最强大的功能。说明网络效应威力的一个好例子是，Threads的出现并没有让Twitter消亡，这就是网络效应的力量。事实上，电报最后一次发送是在2016年，距离它发明已经超过100年了，因为网络效应。它不得不被手动关闭。（00:48:03）：我相信Friendster仍然存在，所以我们必须清楚，杀死一个网络效应业务非常困难。现在如果你要做到这一点，你该怎么做呢？嗯，任何社交网络的收入端都容易受到攻击。例如，如果广告商停止在Twitter上投放广告，他们不会消失，因为网络效应仍然影响着他们。他们想去有眼球的地方。但如果他们因为某种原因消失了，虽然用户会继续来，但用于改进网络的资金就会消失。这就是一个负向螺旋。真正难以杀死的业务，是达到网络效应的软件，尽管你可以杀死已经达到网络效应的业务。",
+   "ts": "00:46:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a really important and interesting insight. I think what's even especially interesting about Twitter is Elon and the team have removed every other benefit of Twitter, like the brand, gone, employees, 80% gone. Every part of it is being cut off, except for the network effects, and so it's a really cool case study. Dan Hockenmaier tweeted this, was a previous guest, of just like it's a good case study of what is just the power of just network effects.",
+   "zh": "这真是一个非常重要且有趣的见解。我认为Twitter特别有趣的地方在于，埃隆和他的团队剥离了Twitter的其他优势——品牌消失、员工离职，80%的员工被裁掉。除了网络效应外，其他一切都在被切断，因此这是一个非常棒的案例研究。丹·霍肯迈尔（Dan Hockenmaier）曾在推特上发文，他曾是嘉宾，称这是一个关于网络效应力量的绝佳案例研究。",
+   "ts": "00:48:56"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "That's right. I did a really interesting course at Berkeley Business School, asked about technology companies and so on, and this is a perfect case study on network effect. The best I've ever seen. It is incredible.",
+   "zh": "没错。我在伯克利商学院上过一门非常有趣的课程，研究科技公司等领域，而Twitter的案例研究堪称关于网络效应的完美范例。这是我见过最出色的案例之一，真是令人惊叹。",
+   "ts": "00:49:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, it's wild Threads isn't able to get there quickly, unlike what it felt like initially.",
+   "zh": "是啊，让人惊讶的是Threads没能迅速取得成功，不像最初预期的那样。",
+   "ts": "00:49:36"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Threads will prosper, I believe. And again, it'll just be another click for advertisers who understand the Facebook marketplace versus Twitter ad marketplace is much harder to access. And so I think the way Threads wins is the revenue spiral versus the pure activity spiral.",
+   "zh": "我相信Threads会发展得很好。我再说一次，广告商会发现，与Facebook市场相比，Twitter广告市场更难触达。这意味着Threads的成功之路将是收入螺旋式上升，而非单纯的活跃用户数量攀升。",
+   "ts": "00:49:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interesting. Where essentially they find ways to, even with lower base, generate revenue, which drives advertisers, drives more investment.",
+   "zh": "有意思。基本上他们能找到办法，即便在用户基础较低的情况下也能创造收入，从而吸引广告商和更多投资。",
+   "ts": "00:50:02"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Correct, correct, correct.",
+   "zh": "没错，没错，没错。",
+   "ts": "00:50:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. All right. That'll be fun story to watch. Kind of along those same lines, I want to chat about virality a little bit. You worked on some of those viral products out there in B2C, I guess Twitter is an example, but also in B2B, which is really rare and interesting. And I know there's no silver bullet for increasing virality, but everyone's always wondering, how do I increase the virality of my product? So I'm curious, anything you could share, any tactics that you've seen work to increase the virality, especially of a B2B product?",
+   "zh": "太棒了。好吧。这会是个很有趣的发展故事。顺便说一下，我想聊聊病毒式传播。您曾参与过一些B2C领域的病毒式产品，比如Twitter，但B2B领域的病毒式传播案例更是罕见且有趣。我知道增加病毒式传播没有万能法宝，但大家总想知道如何提升产品病毒性。所以我很好奇，您能否分享一些成功的策略，特别是针对B2B产品？",
+   "ts": "00:50:11"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Well, as is my style, I want people to understand what virality is in the first place because I think people have misconceptions about it. People think virality is some Hotmails tag at the bottom that says, we'll get a free account. Virality is really when the word of mouth of a product is high quality. That's really the essence of it. Let me rephrase that. It's when customers market your product. And that is incredibly powerful, but also that's incredibly actionable, if that makes sense. There are products who try to be viral just for what I call synthetic virality that fail. Because in the end, if you're synthetically viral and people get to the product and it sucks, that's it. That's the end. Even Hotmail, for example, people talk about the viral tag. I don't know, you know what I'm talking about? Because I-",
+   "zh": "嗯，按照我的风格，我首先想让大家理解病毒式传播到底是什么，因为我觉得人们对它存在误解。人们以为病毒式传播就是Hotmail底部有个标签写着“免费账户”之类的。但病毒式传播的本质是产品口碑的高质量。这才是关键所在。让我换个说法。就是让客户主动推广你的产品。这非常强大，也非常可行，如果您能理解的话。有些产品为了追求所谓的“合成病毒性传播”而失败了。因为到头来，如果产品本身很糟糕，用户体验不佳，那就完了。就拿Hotmail来说，人们谈论的病毒式标签。我不知道您是否明白我的意思？因为我——",
+   "ts": "00:50:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Absolutely, at the bottom, yes [inaudible 00:51:34].",
+   "zh": "没错，底层逻辑就是这样，对 [00:51:34的模糊音频]。",
+   "ts": "00:51:32"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Well remember, it wasn't just that. It was one of the first webmail things. And webmail was revolutionary because you didn't have to have a POP3 client and lose your email across multiple devices. It solved a lot of really good problems for customers at the time for email. And so when they arrived from the free account, it was like, holy crap, this is amazing. And so let's do that. Uber doesn't have any weird viral traps, but it compresses the workflow of getting a cab so much that it's viral, if that makes sense. In fact, it was this time where Austin kicked them out for and other apps came in and filled the void, and then it came back after the year and just crushed everybody. There was no campaign, it was just viral by itself. So that's what virality is. So then the question is how do you increase it? (00:52:30): Well look, fundamentally build a great product that solves a sharp problem and build it really well. If you do this, this is the bedrock of virality. If you don't do this, there's no viral tactic that will work in a sustained way. It will fizzle. But if you do this, you can lay on synthetic virality strategies for referral, strategies for coming back into the app and creating an account. Remember before Calendly, there was Acuity scheduling, there was other things. The difference was Calendly was so well-made, so simple for schedulers, so respectful of schedulers' time, not just the creator's time that the virality worked. It did not work for others who sucked. Xted AI and other places, they weren't that good. You have to be good to be viral.",
+   "zh": "请记住，这不只是一个产品。它是首批网络邮件服务之一，而网络邮件之所以具有革命性，是因为用户无需安装POP3客户端，也无需在不同设备间来回切换查收邮件。这为当时的用户解决了诸多痛点。所以当免费账户涌入时，人们惊呼“天哪，这太棒了”，于是纷纷加入其中。优步（Uber）虽然没有那些奇特的病毒式传播策略，但它极大地简化了叫车流程，这才让它能像病毒般传播开来——如果这能让你明白其中的道理的话。事实上，正是奥斯汀市将优步赶出当地市场后，其他应用涌入填补空白，随后优步在一年后卷土重来，彻底击败所有竞争对手。这并非精心策划的营销活动，而是产品本身的魅力所致。所以关键问题在于如何提升病毒式传播效果？（00:52:30）：说真的，从根本上打造一款能解决核心痛点的优质产品，并精心打磨其体验。如果做到这一点，这就是病毒式传播的基础。若未能达成目标，再多的营销手段也难以持续奏效，最终只能半途而废。但只要做好了基础工作，后续的推荐策略、用户回访策略以及账户创建策略才能真正发挥作用。在Calendly之前，市场上有Acuity Scheduling等同类产品。但Calendly的独特之处在于：其界面设计极为简洁，预约流程对用户友好，充分尊重用户的时间投入——而非只关注创作者的便利性——这才成就了病毒式传播。其他竞品之所以失败，是因为产品体验太差。Xted AI等产品之所以不行，就是因为本身质量不达标。",
+   "ts": "00:51:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is such an important insight, that everyone looks at Calendly like of course you're sharing calendars with everyone, it's going to go viral. That's like what a cool trick. But your point is so interesting that there's previous versions of that, but the product itself wasn't great. The experience wasn't great. It was too complicated, it didn't work, and that's what made it so viral.",
+   "zh": "这真是个深刻的洞见。人们总以为Calendly之所以能迅速传播，是因为用户能轻松与他人共享日程表，但你的观点更有趣：市场上早有类似产品，但因产品体验糟糕而失败。Xted AI等竞品之所以不行，就是因为质量不达标。",
+   "ts": "00:53:33"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, there may be several things I think affect virality. But I think that this is the nugget that people need to take away, that is the foundation of bedrock of all of them. Customer support actually affects virality. If you have fanatical customer support, people will love it. Viral tactics like the page that says, oh, get an account, and so on. All these signing documents, Calendly and so on and so forth. Network effects as in Calendly, you have these green dots. If you and a person have, Calendly tells you when you're free, all network effects, really high quality execution, synthetic virality all contribute to net virality. But the fundamental is exactly what we just discussed.",
+   "zh": "没错，影响病毒式传播的因素可能有很多。但最核心的关键在于，病毒式传播的基础是产品本身的卓越体验。客户支持对病毒式传播同样重要。优质的客户支持能赢得用户口碑。像“立即注册”等推广页面，以及签署文档等功能。Calendly的绿色点亮效果等网络效应，真正高水平的执行力，以及合成性病毒式传播，都为病毒式传播助力。但根本点在于我们刚刚讨论的核心要素。",
+   "ts": "00:53:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just got to get it all right. No big deal.",
+   "zh": "关键在于把每个环节都做好。没那么难。",
+   "ts": "00:54:38"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Build the best product possible, honestly, if you want to be viral. Slack wasn't even viral, there was no synthetic virality. Slack couldn't even connect to organizations for the longest time. Why? You could be working on the third floor and so on, using Slack on the fourth floor, and you would have no clue. There's no way to share it with them. But what happens when you went to lunch? People are like, \"We got Slack and this is amazing.\" And people on the third floor are like, \"Holy shit, when can we get it?\" Boom, boom, boom. Great product first is virality.",
+   "zh": "如果你想让产品病毒式传播，首先要打造出极致的产品。Slack甚至不具备病毒式传播能力，没有合成性病毒式传播。Slack很长一段时间都无法接入企业系统。为什么？你在三楼工作，四楼的人用Slack，你根本不知道。想和他们分享也无从下手。可午餐时人们发现“我们用了Slack，太棒了”，三楼的人又问“什么时候能用？”轰隆，轰隆，轰隆。产品先行才是病毒式传播的关键。",
+   "ts": "00:54:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Seth Godin has this phrase they always come back to, if you want to make your product remarkable, something people want to remark about, and that's basically the core of word of mouth.",
+   "zh": "赛斯·高汀（Seth Godin）常提及这样一个观点：如果你想让你的产品引人注目，让人们津津乐道，这基本上就是口碑营销的核心。",
+   "ts": "00:55:14"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yes, yes, yes.",
+   "zh": "是的，是的，是的。",
+   "ts": "00:55:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was watching a talk you did on this kind of topic and you had this great phrase that you sort of touched on, but I think it's so good, and I just want to make sure we highlight it, which is that virality is customer augmented marketing.",
+   "zh": "我之前看过你关于这个主题的演讲，你提到了一个很棒的观点，但我觉得它太棒了，所以想确保我们能重点强调一下，就是病毒式传播是客户助力的营销。",
+   "ts": "00:55:24"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, I think it is the thing that I started with first. It's when your marketing is essentially done by your customers because what it does, it affords you the ability to spend less on marketing. And you can either uplevel your marketing execution or save money that you can put in the product. Atlassian spends maybe like 10, 20 percentage points less on marketing than the equivalent competitors because it's viral and also because it's network effects at this point as well, say Jira. And so it's customer augmented marketing. Your customers are either forcing other people to adopt it or shaming them into adopting it or FOMOing them into adopting it. So yes, virality is essentially customer oriented marketing, which gives you options.",
+   "zh": "是的，我认为这就是我最先提到的核心概念。当你的营销主要由客户来完成时，它能为你节省营销成本，让你有更多资金投入产品或提升营销效果。例如，Atlassian在营销上的投入比同类竞争对手低10%到20%，因为Jira等产品具有病毒式传播效应和网络效应。这就是客户助力的营销。你的客户会迫使其他人采用你的产品，或通过羞辱他们、制造紧迫感来促使他们转换。所以没错，病毒式传播本质上是以客户为导向的营销，它为你提供了更多选择。",
+   "ts": "00:55:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that phrase, I'm going to use it now. I have just a few more questions before we get to a very exciting lightning round, and these are kind of random two topics that I wanted to chat on. One is this concept that you call forest time. It's a post you wrote about the importance of forest time. Can you just describe what that is and why it's so important, and then also just how to do this?",
+   "zh": "我太喜欢这个说法了，现在就用起来。在我们进入激动人心的闪电问答环节之前，我还有几个问题想问。其中一个是关于你提到的\"森林时间\"（Forest Time）的概念。这是你写的一篇关于\"森林时间\"重要性的文章。能否请你解释一下什么是\"森林时间\"，它为何如此重要，以及如何践行这一理念？",
+   "ts": "00:56:28"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I operate, I'm an operator right now, meaning that I'm building things, I work for a company. But I also advise and invest, which is different. When I'm advising, I'm looking from above, from outside, I have a bird's eye view and I'm able to say, \"You know what? This will work. This won't work. What have you done? Can I look at the results?\" And then cycle the advice based on what you're seeing and what I'm seeing. When I'm operating, I'm building a team, I'm hiring, I'm managing all the things, Alina, shout out that hates sometimes. And that's what I'm doing. When you are operating, you have the tug of war. It is so intense that you don't have the attention to have a bird's eye view constantly. (00:57:39): And so forest time is the idea that you make time within your week, within your month to see the forest for the trees. Most of the time when you're operating, you're seeing the tree, which is the problem in front of you. But sometimes you need to see the forest, so you can figure out it as an alternate path, different from the one that you are currently on your campaign. And so it's time to elevate, to get some bird's eye view, to see the entire landscape and see the alternative paths through the current problems that you're escaping. And I think that it has to be very intentional. And intentionality there is, I have published a workflow, a document that helps you make that step to make that elevation. (00:58:25): Like what are the issues? What are alternative ways to solve this potentially that I'm not seeing? Et cetera. And what I try to do is I try to create that forest time for my executive team as well because it's not just me that suffers from this, it's most everybody. In fact, it's most PMs because PMs are so influential that the spoke of the wheel of product creation and product development that we often, it's a sine wave. You are discovering and shaping problems and then you are commanding and captaining execution. And it's endless and they're endless meetings. And so you need to create time for forest time, for elevation. If you don't, you'll become less effective over time. It's just attrition.",
+   "zh": "我现在是一名运营者，也就是说，我在负责搭建团队、招聘员工、管理各项事务——阿丽娜（Alina）有时会对此颇有微词。这就是我的日常工作。但我同时也提供咨询和投资服务，这两者有所不同。作为顾问，我需要从宏观视角审视问题：我会站在局外审视全局，说：“这个方案可行，这个方案行不通。你做了什么？能让我看看结果吗？”然后根据实际情况调整建议。作为运营者，我需要亲力亲为，组建团队、招聘人员、处理各种事务——阿丽娜有时会对此颇有微词。这就是我的日常工作。在运营阶段，压力重重，根本无暇顾及宏观视角。（00:57:39）所以“森林时间”指的是在每周或每月中抽出时间跳出日常琐事，审视大局。多数时候，身处运营岗位的我们只关注眼前的树木，也就是眼前的问题。但有时我们需要退后一步，审视整个森林，寻找突破现有困境的替代路径。这就需要提升视野，跳出固有思维模式。我为此专门编写了一份工作流程文档，帮助团队成员实现这种思维转变。（00:58:25）比如：问题出在哪里？有没有可能采用我们尚未考虑到的解决方案？等等。我还努力为我的管理团队创造这种“森林时间”，因为这不仅是我个人的困扰，也是大多数人的共性问题。事实上，大多数产品经理都深受其害，因为产品经理是产品创造和开发的核心力量，通常处于产品生命周期的波峰与波谷之间：先是发现并塑造问题，接着指挥执行。这是一个无穷无尽的循环，会议永无止境。因此，我们需要为提升视野留出时间。如果不这样做，效率迟早会被消磨殆尽。",
+   "ts": "00:56:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then just to make it even more concrete for people, what are examples of forest time? Is it taking time off? Is it advising on the side? Is it-",
+   "zh": "再具体说说什么是“森林时间”？是休假吗？是兼职咨询吗？还是——",
+   "ts": "00:59:14"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "It is taking a day off at the end of a month, a full day or two days. And instead of just playing golf, although that's fine, it is doing a workflow, worksheet to survey the forest specifically. And sometimes managers are like, \"Wait, you're giving people a day off when they should be working harder and harder?\" And I think it's completely worth it. It's not about working harder, it's working smarter. It's about seeing more options than you see. And so I'm very happy to give that time to product managers, to product executives or design executives or engineering executives. (01:00:01): Because I think that if they do it properly, then we'll have better execution in the long run. Let's put it this way, in product development, we aim for maybe like 10% of the time and then we execute and build for the other side. It's not just, there's more stuff we do. If your aim is off, then you are spending one, $2 million incorrectly of people's time. And so forest time should improve your aim. That's the entire point, because your aim is a precursor to a huge amount of investment. And so I think it's well worth it.",
+   "zh": "就是在月底抽出一天或两天完整的休息时间。不是去打高尔夫（虽然打高尔夫也不错），而是通过工作流程和工作表，专门审视大局。有时候管理者会问：“等等，你们给人放一天假，他们不是应该更拼命工作吗？”我觉得这完全值得。重点不在于加班，而在于更高效地工作。关键在于开拓更多视野。因此，我很乐意为产品经理、产品高管、设计高管或工程高管提供这种时间。（01:00:01）因为我相信，如果他们能合理利用这段时间，长期来看我们的执行效率会更高。打个比方，在产品开发中，我们可能只投入10%的时间用于构思，然后投入90%的时间去执行。如果构思偏差，就意味着浪费了两百万美元的人力成本。因此，“森林时间”应该能帮助我们校准目标。这才是核心意义所在，因为目标是后续大量投入的先决条件。所以我认为这非常值得。",
+   "ts": "00:59:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this. So specifically what you do with your team is once a month, you give them a day to do this kind of worksheet that you put together?",
+   "zh": "我太喜欢这个了。具体来说，你每月一次让团队成员花一天时间完成你整理的这类工作表吗？",
+   "ts": "01:00:36"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:00:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then that worksheet is in this post that you wrote, that you point to. Is that right?",
+   "zh": "然后这个工作表就在你写的这篇帖子里，你提到的那个，对吧？",
+   "ts": "01:00:45"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Correct, correct.",
+   "zh": "没错，完全正确。",
+   "ts": "01:00:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay, great. This is very practical advice. I love it. Okay, one last question before a very exciting lightning round. You worked at Bridgewater Associates, which I didn't know until I started digging into your past. That sounds creepy. And Bridgewater Associates famous for what? Ray Dalio's hedge fund, author of Principals and all these other incredible books, and it's a very unique working environment. So I just wanted to ask about your experience there, specifically one of the craziest things there is just this thing called dots I think it's called, where people just call out mistakes that people make at the company and it's public. Is that how it actually was? Any memories of that?",
+   "zh": "太棒了。好的，很棒。这真是非常实用的建议。我很喜欢。在开始深入了解你的过往经历之前，我还不知道你曾在桥水基金工作。这听起来有点吓人。桥水基金以什么闻名呢？雷·达利奥的对冲基金，他写了《原则》等多本精彩著作，而且那里的工作环境非常独特。所以我想问问你在那里的经历，特别是他们那套“点评文化”——就是公开指责公司里别人的错误。这是真实存在的吗？你对此有什么记忆吗？",
+   "ts": "01:00:50"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, yeah. I was a senior management, what's called an SMA, which is the management layer right under Ray's team. And we were the priests of the Church of Bridgewater. Bridgewater did things like record, this is public knowledge, I'm not saying anything-",
+   "zh": "是的，是的。我当时是高级管理层，简称SMA，属于雷的团队下方的一个管理层。我们被称为桥水基金的“牧师”。桥水基金有一些做法，比如记录员工的错误行为，这都是公开的，不是我乱说——",
+   "ts": "01:01:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, he writes about-",
+   "zh": "是的，雷在书里写过——",
+   "ts": "01:01:50"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "... before every meeting. Eventually we created a dot collector, which allows you to rate people in real time. So I'm just having a conversation with you and before the meeting closes, in front of each other, I pull up my laptop and I rate you and rate the interaction. And in theory, the idea is that if you constantly rate people across hundreds of interactions, then you build a picture of them that is fairly accurate, statistically accurate, that will transcend maybe emotional relationship as wisdom of the crowd idea. So that's a theory. In practice, it is emotionally exhausting. And like you said, the little creepy, even the recording. (01:02:38): So I think there were things about Bridgewater that I understood intellectually in terms of the purpose that Ray had designed, but didn't quite work. It's like the way I think about this is the theory of the principles are really good. The practice and the execution can be quite off and not very human or not very empathetic. But I will say this, Bridgewater taught me things that I don't think any other organization in the world thought taught me. One example is Bridgewater thinks of people in three dimensions, their skills, their attributes, and their values. Most organizations think about people in terms of just their skills. But it makes sense that people have attributes and values, that people are timid, people are bold, people like to jump in, people like to stand back. (01:03:38): All these other things, we think about personality and proclivity. Bridgewater tries to establish and measure them and also tries to write job descriptions that say, this is the kind of attributes we're looking for, not just the skills we're looking for. And then of course values. Are you a thief or are you a principled? And so on and so forth. Now that idea of looking at talent or people in general, both in your professional life and in your personal life, is a huge addition to me as a professional from Bridgewater. So I'm saying that there were things I didn't enjoy about Bridgewater, but things that I learned that I've learned nowhere else as well.",
+   "zh": "每次会议前，我们都会这样做。最终，我们开发了一个“点数收集器”，能让大家实时给同事打分。比如，我现在正在和你们交流，会议结束前，我们会当面拿出笔记本电脑，互相打分。从理论上讲，如果你能在数百次互动中持续评估他人，就能构建出相当准确、具有统计意义的画像，这种画像或许能超越情感关系，形成所谓的“群体智慧”。但在实践中，这实在令人心力交瘁。正如你所说，甚至连录音功能都让人觉得有点毛骨悚然。（01:02:38）：所以，我对桥水公司的理解是，雷·达里奥设计的目标理念本质上是好的，但执行效果却不尽如人意。比如，我认为他们的原则理论很棒，但实际操作和执行却存在偏差，缺乏人性化和同理心。但我要说的是，桥水教会了我一些其他组织从未传授过的理念。比如，桥水用三维视角看待人才——技能、特质和价值观。大多数公司只关注技能，但桥水认为人有特质和价值观，比如胆小、勇敢、积极参与、保持观望等。我们关注个性和倾向性，努力量化这些特质，并编写职位描述时强调所需的价值观，而不仅仅是技能。还有价值观部分，比如判断一个人是小偷还是有原则的人等等。现在，无论是职场还是个人生活中，用这种方式审视人才的能力，都是我在桥水获得的宝贵收获。当然，桥水也有让我不适的地方，但从专业角度来看，这些收获是无与伦比的。",
+   "ts": "01:01:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Did you take that to what you do today? Thinking of people in those three different ways and-",
+   "zh": "你有没有把这些理念应用到现在的工作中？用这三种不同的视角看待人才——",
+   "ts": "01:04:18"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "100%. in my professional life, in my personal life, when I interview people, I am cognizant of those three things and I try to extract those three things, because I think it improves your success. Famously, all the weird skill-based interviewing at Google was only 50/50 predictive. And the reason is Google did not consider the other two things, I believe. Bridgewater was willing to endure 80% attrition to arrive at the best people. Now I don't think it works for them because some of their system was not empathetic of humans, like expecting humans to be computers. But I thought that was a very important insight.",
+   "zh": "百分之百正确。在职场和个人生活中，面试时我都会关注这三个维度，并努力挖掘它们，因为我相信这能提升成功率。众所周知，谷歌那些奇怪的基于技能的面试预测准确率只有50%。这是因为谷歌没有考虑其他两个维度。我认为桥水愿意承受80%的离职率，只为招到最优秀的人才。不过我觉得他们的系统对人类不够友好，比如期望人像计算机一样运作。但我认为这是一个非常重要的洞察。",
+   "ts": "01:04:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Oji, is there anything else that you want to share before we get to our very exciting lightning round?",
+   "zh": "太棒了。Oji，在我们进入激动人心的闪电问答环节之前，你还有什么想分享的吗？",
+   "ts": "01:05:08"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "In the history of product development, we have basically started to create abstraction to guide our work versus the Wild, Wild West. So the engineers came up with agile and peer programming and all these things. The designers have come up with design thinking, design sprints, and combined with research to talk about how to do discovery of various complexity. And the question is the product abstractions, because there's code, there's product in this business. So the product and business layer, what is our abstraction? What is our crucible for organizing our work? (01:05:52): We don't even have one. We don't have a name for it. And so the idea of a part system is that there's an abstraction above agile and design thinking that we have to pay attention to build solid organizations and to execute well at the product and the business layer. This is a co-creative framework with me and Ezinne. And the idea here is how do you construct a good product system? And literally, you could boil it down into a checklist of the systems you need to build a really good cohesive R and D organization. So I think that's the tee up. I'm going to have to leave you thirsty because someone else is probably going to go deep into it.",
+   "zh": "在产品开发史上，我们基本上开始创建抽象概念来指导我们的工作，而非任由其自由发展。因此，工程师们提出了敏捷开发和对等编程等方法；设计师们则开发了设计思维、设计冲刺等理念，并结合研究来探讨如何探索各种复杂问题的解决方案。关键在于产品抽象层——毕竟在这个行业中，既有代码，也有产品。因此，产品与业务层的抽象概念是什么？我们组织工作的核心框架是什么？（01:05:52）：我们甚至没有一个统一的框架。我们甚至没有一个专有名词来定义它。那么，零部件系统这个概念是什么？它是敏捷开发和设计思维之上的一个抽象层级，我们必须关注它，以构建稳固的组织，并在产品和业务层面高效执行。这是我和Ezinne共同开发的协作框架。其核心在于如何构建一个优秀的产品系统。简而言之，你可以将其归纳为构建一个真正高效的研发组织所需的系统清单。接下来就交给你们去深入探讨了。",
+   "ts": "01:05:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. And that's your wife that you mentioned who you are co-creating this framework with and who we're going to have on the podcast in the future.",
+   "zh": "太棒了。你提到与你共同开发这个框架的妻子，我们未来还会邀请她上播客。",
+   "ts": "01:06:35"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "That's right.",
+   "zh": "是的。",
+   "ts": "01:06:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is it like being married to another product leader? Would you recommend?",
+   "zh": "与另一位产品负责人结婚是什么感觉？你会推荐吗？",
+   "ts": "01:06:41"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "100%, you can have really productive conversations and you can redesign other company's applications in one conversation in the evening.",
+   "zh": "百分之百推荐。你们可以进行非常高效的对话，甚至在晚上的一次谈话中就重新设计其他公司的应用程序。",
+   "ts": "01:06:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Well, that was almost the lightning round question, but I moved it up earlier. And so with that we've reached our very exciting lightning round. Are you ready?",
+   "zh": "太棒了。好的，那差不多到了闪电问答环节了。你们准备好了吗？",
+   "ts": "01:06:57"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, I'm ready. Let's do it.",
+   "zh": "是的，我准备好了。开始吧。",
+   "ts": "01:07:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, great. Let's do it. What are two or three books that you've recommended most to other people?",
+   "zh": "好的，太棒了。开始吧。你向他人推荐最多的两三本书是什么？",
+   "ts": "01:07:07"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "There's one business book that I recommend, I think it's called The Halo Effect. It's basically a book that lets you call on all these business books that tell you all kinds of stupid shit. It is how to deconstruct what is important in a business and self-help book and what is not important and what is just circumstantial storytelling with random facts and form-fitting evidence. It's called The Halo Effect. Read it. Why do you need to read it? Because garbage in, garbage Out. (01:07:45): People were amazed at the Outlier Effect, Malcolm Gladwell, and then people have been tearing it down for 15 years now. But everyone ingested it and thought it was the most important thing. But how do you know what's important to take away from them and what's not? The Halo Effect will help you. And then the other thing is, I read for pleasure because I read a lot for work. And so science fiction is the thing. There's lots to recommend, but I would say that people should either read Dune, Frank Herbert or Foundation by Asimov. If you haven't read those two things and you're a science fiction person, you really should. The world building is incredible. I understand Tolkien and fantasy, but the science fiction side of it is those two books.",
+   "zh": "有一本商业书籍我推荐，叫《光环效应》。这本书能让你质疑所有那些告诉你各种无稽之谈的商业书籍。它教你如何解构商业和自助书籍中真正重要的内容，以及那些只是附带故事、随意拼凑证据的部分。就叫《光环效应》。去读吧。为什么要读？因为输入什么，就会输出什么。（01:07:45）：人们对《异类效应》惊叹不已，马尔科姆·格拉德威尔的作品也曾广受追捧，但15年来，人们一直在批判它。但每个人都接受了这些观点，认为它们至关重要。但你如何判断哪些是真正值得借鉴的，哪些只是附带的故事和随意拼凑的证据？《光环效应》会帮你分辨。另外，我因为工作需要大量阅读，所以也为了乐趣而阅读。科幻小说是我的最爱。有很多推荐，但我建议大家读弗兰克·赫伯特的《沙丘》或阿西莫夫的《基地》。如果你没读过这两部作品，又是科幻爱好者，那真是太遗憾了。其中的世界观构建令人惊叹。我理解托尔金和奇幻作品，但科幻领域的这两部作品堪称典范。",
+   "ts": "01:07:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's also a TV series of Foundation now, which I can say recommend absolutely. But it's a beautiful show.",
+   "zh": "如今《基地》也拍成电视剧了，这部剧我绝对推荐。但它真是一部美轮美奂的作品。",
+   "ts": "01:08:32"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Yeah, no. I haven't watched Foundation yet. I just felt super weird watching it after reading it. And I could only make it through three quarters of Dune. Well one, but I will make it through them. I don't expect them... The books are glorious. If you love prose, the books are, man, crazy. But I will get through them eventually.",
+   "zh": "是啊，不用说。我还没看过《基地》。不过读完原著后再看剧，感觉怪怪的。而《沙丘》我只看完了四分之三。好吧，也许有一天能看完。但我不抱太大希望……原著太棒了。如果你喜欢散文，那这套书简直是狂暴的存在。不过我总会看完它们的。",
+   "ts": "01:08:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've not actually read Dune, but the movie was incredible. I played the video game Dune where you're just mining spice all day and it's just stuck in my brain forever. Okay, next question. What is a favorite interview question that you like to ask candidates that you're interviewing?",
+   "zh": "我其实没读过《沙丘》，但那部电影太棒了。我玩过《沙丘》游戏，就是每天挖矿开采香料的，那游戏画面至今让我念念不忘。好吧，下一个问题。你面试候选人时，最喜欢问的两个问题是什么？",
+   "ts": "01:09:04"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I try to ask two. I feel like it's going to give people a cheat sheet when I interview them. But I try to ask two questions. So I'm not a person who does favorites, so it's hard for me to pick favorites. But I ask people to introduce themselves and I think it tells me a lot about them, how they tell about themselves, what they say about themselves and the content of it. I ask people about the things they think they're truly great at and then I ask people the things they think they need to learn. The latter too is about their professional skill, their craft. I think it tells me a lot about how they communicate, it tells me a lot about how thoughtful they are. It tells me a lot about what they're proud of and what they lead into. And those kinds of things are very important to me.",
+   "zh": "我尽量问两个。我觉得如果每次面试都问一样的问题，会让候选人觉得有标准答案。不过我还是会问两个问题。一个是自我介绍，这能让我了解他们，观察他们的表达方式和内容。另一个是让他们说出自己最擅长的事和需要提升的技能。这既能考察他们的专业能力，也能观察他们的沟通和思考方式。这些细节对我很重要。",
+   "ts": "01:09:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite product you recently discovered that you love?",
+   "zh": "最近有没有发现什么特别喜欢的产品？",
+   "ts": "01:10:10"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I have been optimizing my workspace a lot. So I'm on a kick right now where I use Windows. I was in the Windows PM and I still have my Windows box. But a lot of people, we use Mac at work and I've used Mac for the last few years. So even though I switched between them, I've spent a lot more time on Mac and my Windows experience is completely optimized. It is perfect. But Mac, I'm like the Windowing sucks, there's all these gaps I see. So I've been trying to figure out how to dial in my Mac experience. (01:10:49): I hate the activity monitor, sucks. What's a replacement? The sound. It doesn't support sound through HDMI or sound through... I don't know, just some weird setup. So I've been optimizing that. One particular product that I like in the context of that is Unlocks. It's one man product that allows me to just look at my phone and log into my Mac when I walk up and then locks it when I walk away. And it'll actually detect my proximity. So it'll start the login process while I get close. I think that's incredible and I feel like it improves my productivity.",
+   "zh": "我最近一直在优化我的工作环境。现在我痴迷于Windows系统。我曾在Windows项目组工作，现在还留着那台Windows电脑。但很多人工作用Mac，我自己过去几年也一直用Mac。所以尽管我在这两者间切换过，但用Mac的时间更多，现在Windows体验已经完美了。但Mac系统……我觉得窗口管理太糟糕了，到处都是漏洞。所以我一直在优化Mac体验。（01:10:49）：我讨厌活动监视器，太烂了。有什么替代品吗？还有声音问题，HDMI接口不支持声音输出……我也不知道，设置太奇怪了。所以我一直在优化这部分。其中一个特别喜欢的工具是Unlocks。这是个单人开发的软件，让我走近电脑就能自动登录，离开时自动锁屏。它能检测到我的位置变化。登录过程会在我靠近时自动启动。我觉得这太棒了，大大提高了我的工作效率。",
+   "ts": "01:10:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Very cool. Sounds like a lot of haterade for Macs over here.",
+   "zh": "真酷。听起来你对Mac电脑挺有意见的。",
+   "ts": "01:11:26"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Well, for someone who uses it a lot, no, I think pros and cons. I'm no longer paid by Microsoft, so there are things I don't like. But there are also things that the Mac isn't perfect either.",
+   "zh": "嗯，作为常用用户，我觉得优缺点都有。微软不再给我发工资了，所以有些地方我不喜欢。但Mac系统也有不完美的地方。",
+   "ts": "01:11:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, indeed. What is a favorite life motto that you repeat to yourself or share with other people, either in work or in life that you find valuable?",
+   "zh": "是啊，很有道理。你有没有什么特别珍视的人生格言，既能激励自己，又能与他人分享，无论是在工作中还是生活中？",
+   "ts": "01:11:42"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I've taken to saying that there's more knowledge outside my head than inside it. And this is a plea for curiosity. I have three main things that are my North Star personally. Obviously when I say personally, I mean everything professionally. Which is originality, curiosity, and wisdom. And so this thing about there's more knowledge outside my head than inside my head is a plea for curiosity, it's a plea for skepticism. It's a plea to be humble about what you know, no matter how old you are, about the world around you, and always be listening for more. Even when you know something, let other people speak because they might add 10% more to the 90% you know. And so being an active listener is very important.",
+   "zh": "我常说，我的脑袋里装着的知识远不及脑袋外面的多。说这话，是在呼吁保持好奇心。我个人认为，对我而言，职业生涯中最重要的三个核心价值观是：原创力、好奇心和智慧。所以，当我说\"脑袋外面的知识比脑袋里的多\"时，其实是在呼吁保持好奇心，呼吁保持怀疑精神。呼吁谦逊地认识自己所知，认识周遭的世界，时刻保持倾听的姿态。即便你已经掌握了某些知识，也要让别人发声——因为他们能为你已知的90%知识再添上10%的价值。积极倾听至关重要。",
+   "ts": "01:11:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Beautiful. Last question, you are from Nigeria. What is a Nigerian food that you think people need to find and get ASAP?",
+   "zh": "太棒了。最后一个问题，你来自尼日利亚。有什么尼日利亚美食是你觉得人们应该尽快去寻找尝试的？",
+   "ts": "01:12:48"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I'll recommend two, depending on how familiar you are. So if you've never had fried plantain with beef stew-",
+   "zh": "我会推荐两种，取决于你对它们的熟悉程度。如果你从未品尝过炸木薯搭配炖牛肉——",
+   "ts": "01:12:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man, that sounds great.",
+   "zh": "天哪，听起来太棒了。",
+   "ts": "01:13:06"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "... then you should stop what you're doing, stop work, whatever you're doing, find your next Nigerian friend and go get some, okay? This is the food that most Nigerians will basically trade years of life to have access to, okay. So that's what I would say. And then the second thing is if you want to be in the in club in Nija, as we call it, you got to try pepper soup.",
+   "zh": "……那你得停下手头的事，停下工作，停下任何正在做的事，找个尼日利亚朋友去尝尝，好吗？这道美食是大多数尼日利亚人愿意为之付出多年光阴也要品尝到的，明白吗？所以我会这么推荐。第二道美食是，如果你想加入我们所谓的\"尼日利亚圈子\"，就得尝尝辣椒汤。",
+   "ts": "01:13:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Pepper soup.",
+   "zh": "辣椒汤。",
+   "ts": "01:13:48"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "Now, if you all are not into spicy stuff, I'm sorry, the door is close to you. But pepper soup is really... And it is amazing. It'll make you sweat, but it's delicious and you should give it a shot.",
+   "zh": "现在，如果你们不喜欢辣的东西，那很遗憾，你们不符合条件。但辣椒汤真的……太棒了。它会让你出汗，但味道绝佳，你应该试试看。",
+   "ts": "01:13:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oji, I think we've solved many people's sharp problems. I really appreciate you making time being here. Two final questions. Where can folks find you online if they want to reach out? And how can listeners be useful to you?",
+   "zh": "oji，我觉得我们已经解决了很多人急切想知道的问题。非常感谢你抽空来这里。最后两个问题。读者如果想联系你，可以在哪里找到你？听众如何能为你提供帮助？",
+   "ts": "01:14:05"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "I publish on Substack when I have time, you should check it out. It's usually all about things that are beneath the surface. What's behind the thing. I believe that's how you'll find it. I'm on Twitter as well, so you can follow me because I will talk about products. How you can be useful to me is go follow me on Twitter, sign up for updates on the book. If you do, I will draw from that audience to help name the book, to help design the cover for the book. The book is intended to have a freemium because I want this book to be available to people in Africa and India, across the world. So there'll be a free version of it and there'll be premium versions with more tools, more help, and maybe even interviews with luminaries that you care and love as well. And so hopefully that will fund the free side of it as well. So come in, become part of the party, maybe join a pre-read, an early draft read. That is the best way you can help. So this is a call to all PMs and people of goodwill.",
+   "zh": "我有空的时候会在Substack上发文，你可以去看看。内容通常都是深层探讨的，探究事物背后的真相。我相信这才是找到真相的途径。我也在Twitter上，你可以关注我，因为我会谈论产品。听众如何能为我提供帮助，就是去Twitter上关注我，订阅新书更新。如果你这么做了，我会从这些读者中抽取人来为书命名，设计书的封面。本书计划采用免费增值模式，因为我想让非洲、印度以及全球各地的人都能读到这本书。所以会有免费版本，也会有付费版本，提供更多工具、更多帮助，甚至可能采访你所关心的和喜爱的杰出人物。希望这样能为免费版本提供资金支持。所以快来加入吧，或许参与预读、早期草稿阅读。这是你们能提供最大帮助的方式。所以这是向所有产品经理和善意之人的呼吁。",
+   "ts": "01:14:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. What a great answer to that question. I'm going to go get some pepper soup and some plantain beef meals. Thank you so much for being here, and I'm going to go get some food.",
+   "zh": "太棒了。对这个问题的回答真是精彩绝伦。我要去吃些辣椒汤和炸木薯牛肉餐了。非常感谢你来这里，我要去吃点东西了。",
+   "ts": "01:15:29"
+  },
+  {
+   "speaker": "Oji Udezue",
+   "en": "All right. Thank you, Lenny. It was super enjoyable and love hanging out and God speed.",
+   "zh": "好的。谢谢你，Lenny。今天非常愉快，很高兴能相聚，祝你一帆风顺。",
+   "ts": "01:15:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. (01:15:51): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见。（01:15:51）：非常感谢大家的收听。如果您觉得这期内容有价值，可以在Apple Podcast、Spotify或您喜欢的播客应用上订阅本节目。另外，请考虑给我们打个分或写个评论，这对其他听众找到本节目会有很大帮助。您可以在lenny's podcast.com上查看往期节目或了解更多信息。下一期节目再见。",
+   "ts": "01:15:48"
+  }
+ ]
+}

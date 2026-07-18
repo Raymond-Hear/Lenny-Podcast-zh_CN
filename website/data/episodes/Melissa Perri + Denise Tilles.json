@@ -1,0 +1,803 @@
+{
+ "id": "Melissa Perri + Denise Tilles",
+ "name": "Melissa Perri + Denise Tilles",
+ "category": "企业管理",
+ "identity": "产品",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Melissa+Perri+++Denise+Tilles",
+ "bio": {
+  "en": "Melissa Perri and Denise Tilles are the authors of Product Operations, with Melissa known for Escaping the Build Trap and both helping companies scale product management through product ops.",
+  "zh": "梅丽莎·佩里（Melissa Perri）与丹尼斯·蒂勒斯（Denise Tilles）是《产品运营》（Product Operations）一书的作者；梅丽莎以《逃离构建陷阱》（Escaping the Build Trap）闻名，二人都通过产品运营帮助公司扩展产品管理能力。"
+ },
+ "summary": {
+  "en": "Melissa and Denise make the case for a dedicated product operations function that handles shared systems so PMs can focus the majority of their time on strategic work. They explain the emerging role of product ops and how to build it at scale. The episode is a deep dive into a critical but often missing piece of modern product organizations.",
+  "zh": "梅丽莎和丹尼斯论证了：应设立专门的产品运营职能来处理共享系统，让 PM 能把大部分时间聚焦在战略工作上。她们解释了产品运营这一新兴角色，以及如何在规模上构建它。本期深入探讨了现代产品组织中关键却常被缺失的一环。"
+ },
+ "turns": [
+  {
+   "speaker": "Melissa Perri",
+   "en": "Do you want to hire 10,000 product managers and let them all do these things off the side of their desk and then concentrate on strategic work 30% of the time or do you want them concentrating on strategic work majority of the time and then help build a product operations team around them that can create these shared systems and this infrastructure to allow them to work better?",
+   "zh": "你是想雇佣1万名产品经理，让他们在办公桌边完成这些日常工作，之后把30%的时间投入战略工作？还是希望他们大部分时间专注于战略规划，并围绕他们组建产品运营团队，共同搭建共享系统和基础设施，以提升工作效率？",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guests are Melissa Perri and Denise Tilles. This is a rare two-guest episode. Melissa and Denise are authors of an awesome new book called Product Operations: How Successful Companies Build Better Products at Scale. Melissa is a legend in the product management community. She's the author of the foundational handbook, Escaping the Build Trap. She runs a product management training organization called Produx Labs, teaches product management at Harvard, and has worked with hundreds of companies on their product management function. Denise is a product leader, coach, and consultant helping companies with their product vision, strategy, and execution, and works with Melissa at Produx Labs. (00:01:02): In our conversation, we get super deep into the emerging role of product ops. As you'll hear in our conversation, over the past few years, this role has gone from almost non-existent to something like half of scaling tech companies with at least one product ops person. This new role is probably the thing that's most changing in the role of product management. After this conversation, I'm convinced it's a great thing. (00:01:24): We chat about what the role concretely is, how it differs from product management and project management, what to look for in your first product ops hire, how to roll out a product ops function, why product managers shouldn't be afraid of this role and how your life gets significantly better, plus, a case study on how they rolled out product ops function at a large company, and so much more. With that, I bring you Melissa Perri and Denise Tilles after a short word from our sponsor. (00:01:50): You fell in love with building products for a reason, but sometimes the day-to-day reality is a little different than you imagined. Instead of dreaming up big ideas, talking to customers, and crafting a strategy, you're drowning in spreadsheets and roadmap updates and you're spending your days basically putting out fires. A better way is possible. Introducing Jira Product Discovery, the new prioritization and road mapping tool built for product teams by Atlassian. With Jira Product Discovery, you can gather all your product ideas and insights in one place and prioritize confidently, finally replacing those endless spreadsheets. Create and share custom product roadmaps with any stakeholder in seconds, and it's all built on Jira, where your engineering team's already working so true collaboration is finally possible. (00:02:36): Great products are built by great teams, not just engineers, sales, support, leadership, even Greg from finance. Anyone that you want can contribute ideas, feedback, and insights in Jira Product Discovery for free, no catch, and it's only $10 a month for you. Say goodbye to your spreadsheets and the never ending alignment efforts. The old way of doing product management is over. Rediscover what's possible with Jira Product Discovery. Try it for free at atlassian.com/lenny. That's atlassian.com/lenny. (00:03:13): Melissa and Denise, thank you so much for being here. Welcome to the podcast.",
+   "zh": "今天的嘉宾是梅丽莎·佩里（Melissa Perri）和丹妮丝·蒂尔斯（Denise Tilles）。这是一期难得的双嘉宾特辑。梅丽莎和丹妮丝合著了一本精彩的新书《产品运营：成功公司如何大规模打造优质产品》。梅丽莎是产品管理领域的传奇人物，她撰写了开创性的手册《摆脱构建陷阱》。她运营着产品管理培训机构Produx Labs，在哈佛大学教授产品管理课程，并为数百家公司提供产品管理方面的支持。丹妮丝是一位产品领袖、教练和顾问，专注于帮助企业制定产品愿景、战略和执行方案，同时与梅丽莎在Produx Labs共事。\n（00:01:02）：在对话中，我们深入探讨了新兴的\"产品运营\"角色。正如对话中所提到的，过去几年间，这个角色从几乎不存在，发展到如今半数以上规模化科技公司都至少配备一名产品运营人员。这个新角色可能是产品管理领域最具变革性的变化。经过这次对话，我深信这是一件好事。\n（00:01:24）：我们讨论了这个角色的具体职责、它与产品管理和项目管理的区别、如何寻找首位产品运营人才、如何建立产品运营职能、产品经理为何不应惧怕这个角色，以及它将如何显著提升你的工作效率。此外，我们还将分享在一家大型公司推行产品运营职能的案例研究等诸多内容。接下来，在赞助商的简短致辞后，欢迎梅丽莎·佩里和丹妮丝·蒂尔斯。\n（00:01:50）：你当初爱上产品开发工作是有原因的，但有时现实与想象相差甚远。与其沉浸在宏伟构想、客户沟通和战略制定中，你却深陷于电子表格和路线图更新之中，每天都在忙于救火。更好的方式是存在的。Intuit旗下Atlassian推出的新工具Jira Product Discovery，为产品团队量身打造的优先级排序和路线图工具。通过Jira Product Discovery，你可以将所有产品创意和洞察集中管理，轻松制定优先级，最终取代那些无穷无尽的电子表格。几秒钟内即可创建并与任何利益相关者共享定制产品路线图，且所有功能均基于Jira平台构建，你的工程团队早已在此协作，真正实现无缝协作。\n（00:02:36）：优秀的产品由优秀的团队打造，不只是工程师、销售、支持、领导层，甚至财务部的格雷格（Greg）也能参与其中。任何人都可以在Jira Product Discovery中免费贡献想法、反馈和洞察，无需任何附加条件，每月仅需10美元。告别电子表格，告别无止境的协同工作。传统的产品管理方式已然过时。重新探索Jira Product Discovery带来的无限可能。立即免费试用：atlassian.com/lenny。就是atlassian.com/lenny。\n（00:03:13）：梅丽莎和丹妮丝，非常感谢你们的到来。欢迎来到播客。",
+   "ts": "00:00:25"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "ts": "00:03:17"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Thanks for having us.",
+   "zh": "感谢邀请我们。",
+   "ts": "00:03:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You are the second ever guest duo I've had on the podcast. Melissa, this is your second appearance on the podcast, and you two have a new book out, which I have right here. It's called Product Operations: How Successful Companies Build Better Products at Scale. What I want to do with our time today is to help people fully understand the role of product operations from every direction as much as we can get through in an hour. How does that sound?",
+   "zh": "你们是我们播客有史以来第二对嘉宾组合。梅丽莎，这是你第二次做客我们的播客了，你们二位刚出版了一本新书，我手里就有一本，书名是《产品运营：成功企业如何在规模化中打造优质产品》。今天我们想做的，就是尽可能在一小时内从各个角度让大家全面理解产品运营这个角色。你们觉得怎么样？",
+   "ts": "00:03:19"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Sounds great.",
+   "zh": "听起来很棒。",
+   "ts": "00:03:44"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Great.",
+   "zh": "好的。",
+   "ts": "00:03:44"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Let's do it.",
+   "zh": "那就开始吧。",
+   "ts": "00:03:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So first question, just to set a little context on this role, how popular and how common is the role at this point? I did a quick skim of just awesome companies and really successful companies, and every single one of them seems to have a product ops role at this point. OpenAI, Uber, Stripe, Ramp, Deal, those are just the few that I looked at. Is that what you're seeing? How should people think about how popular and how common this role has become?",
+   "zh": "太棒了。首先有个问题，想给这个角色做个背景介绍，目前这个角色在业界的受欢迎程度和普及程度如何？我快速浏览了一些很棒的公司和非常成功的公司，每一家似乎都有产品运营岗位。OpenAI、Uber、Stripe、Ramp、Deal，这些只是我看过的几个例子。你们也是这么看的吗？大家该如何看待这个角色的普及程度和受欢迎程度？",
+   "ts": "00:03:45"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I think over the last few years, we definitely have seen product operations start booming. It did originate in a lot of big companies that you mentioned too like Uber. The head of product operations at Uber and the person who started it, Blake Samic, is a case study in our book and he also did it at Stripe and he does it at OpenAI. So it's pretty funny that you mentioned those three because that's Blake right there who did that. We have seen a very good transition from people whispering about product operations, and I know when I wrote my first book, Escaping the Build Trap, in 2018 I mentioned it in there because we had just started doing it at Athenahealth. (00:04:49): I saw this as a really big issue in trying to make a complete product management function there and especially at scale. We had 365 product teams. We were trying to figure out how does this all come together, and product operations for me was a key part of it. So when I had first written it into that book, a lot of people were like, \"Oh, what is this thing? I think we need it. Do we need more?\" and that's what got us to start writing this book. Since then, I've seen a lot more companies coming out and either making more mature product operations teams that started probably before that or actually introducing them now.",
+   "zh": "过去几年，我们确实看到产品运营开始蓬勃发展。它确实起源于你提到的很多大公司，比如Uber。Uber的产品运营负责人布莱克·萨米奇（Blake Samic）是我们书中的一个案例研究，他之前在Stripe工作，现在在OpenAI任职。说来有趣，你提到这三家公司，正好布莱克就在现场。他在Uber的经历对我们很有启发。我们从最初在Athenahealth开始做产品管理功能时就注意到这个问题（00:04:49）。我把它视为一个重大挑战，尤其是在大规模环境下如何构建完整的产品管理职能。我们当时有365个产品团队，试图整合所有资源，而产品运营对我来说是关键部分。所以当我第一次把这个概念写进书里时，很多人问：“哦，这是什么？我们需要它吗？我们需要更多吗？”这就是促使我们开始写这本书的原因。从那以后，我看到越来越多的公司要么组建了更成熟的产品运营团队，要么现在才开始引入这个角色。",
+   "ts": "00:04:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I guess maybe thinking about just tech companies, if you had to put a number on some rough percentage of interesting fast-growing, hyper growth, these startups, is there a percentage you'd put on how many of them have a product ops person at this point?",
+   "zh": "或许只考虑科技公司，如果要大致估算一下快速增长、超高增长的初创公司中，有多少公司目前有产品运营人员呢？",
+   "ts": "00:05:21"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "We don't have a hard and fast number, I'll say that on this, but we have seen that. Let's take a sampling of maybe something that I know better. When I teach CPO accelerator, when I teach people in these cohorts, out of the 20, 25 people that we'll have in a cohort, I'd say at least half of them have somebody doing something product ops related. It might not be a mature function, it might just be one person on it, but at least half of them have somebody doing something.",
+   "zh": "我们没有确切的数据，但确实看到了这种趋势。以我更熟悉的领域为例。在我教授CPO加速器课程时，20到25名学员中，至少有一半有从事产品运营相关工作的人。这可能不是成熟的职能部门，可能只有一个人负责，但至少有一半的公司有相关人员。",
+   "ts": "00:05:34"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "That's a good yardstick because I teach a product operations masterclass for Produx Labs with Melissa, and it's been interesting. I do some pre-work and try to understand where folks are in the products journey. When we started offering this class in 2020, about 60% were products curious. As time has gone on, it's really gone down and people have started to add it. They just want to understand what's the best way to optimize it. So I would say it's gone from that level to, say, probably 60% of them do have it now and then want to understand how to optimize it.",
+   "zh": "这是个很好的衡量标准，因为我和梅丽莎一起为Produx Labs开设产品运营大师班，体验很有趣。我会做一些前期准备工作，试图了解参与者在产品之旅中的不同阶段。2020年我们开始提供这门课程时，约60%的学员对产品感兴趣。随着时间推移，这个比例逐渐下降，人们开始主动参与。他们只想了解如何优化产品的最佳方法。所以我认为这个比例现在可能达到了60%的人拥有产品运营角色，并渴望掌握优化策略。",
+   "ts": "00:06:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a sense of when this started to inflect and become such a common thing? When I was a product manager, I had no product ops person. So it's really fascinating to me to learn about this emergence. I know there's probably not a date, but just it sounds like maybe after your last book was published. Is there a timeframe of this became a thing? Is it this guy you mentioned that's now at OpenAI that started spreading it?",
+   "zh": "你知道这个趋势何时开始转变并变得如此普遍吗？我当产品经理时，身边没有产品运营人员。所以了解这种新兴趋势真的很吸引人。虽然没有确切的日期，但听起来可能是在你上一本书出版后。那么这个趋势兴起的时间框架是怎样的？你提到的现在在OpenAI工作的那个人，他们是否推动了这一趋势？",
+   "ts": "00:06:41"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Blake, I think, was one of the people at the beginning who was talking about it the most and he's done a lot of work, I think, to push product operations and tell people about it. So that was great. I know Pendo has been speaking about product ops a little bit more and that's where I started to notice that it was picking up steam. I think around 2019 is when Pendo started talking about product operations. So it was roughly right after my book came out that I saw more people speaking about it and now they're trying to figure out, \"Do we standardize it? What do we need? How does this actually look like in organizations?\" but I think it's been probably a good five years of now hearing people doing it in realtime.",
+   "zh": "布莱克应该是最早谈论这个话题的人之一，他为推广产品运营做了很多工作。我知道Pendo最近也更多地提及产品运营，我就是从那时开始注意到这个趋势正在升温。2019年左右，Pendo开始讨论产品运营。所以大约在我书出版后不久，我发现越来越多人谈论这个话题，现在他们正试图弄清楚：“我们要不要将其标准化？我们需要什么？在组织中它应该是什么样子？”但我认为，在过去五年里，听到人们实时实践这个概念的情况确实越来越多了。",
+   "ts": "00:07:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome, and it sounds like maybe just in the last few years it started to really take off. We actually had Christine from Pendo on the podcast talking about product ops about a year ago at this point. So this is a great followup to a lot of that. Before we talk about what is product ops and what are the functions, what would you say are the biggest benefits to a company having a product ops role and also just what's a sign that you should probably seriously consider bringing on a product ops person and starting to invest in that area?",
+   "zh": "太棒了，听起来可能就在过去几年里它真正开始流行起来了。大约一年前，我们在播客上邀请了Pendo的克里斯汀来谈论产品运营。所以这次对话是对那次讨论的绝佳延续。在我们讨论产品运营是什么以及其职能之前，你认为对于一家公司来说，设立产品运营角色最大的好处是什么？还有，怎样判断一家公司应该认真考虑引入产品运营人员并开始在这一领域投入资源呢？",
+   "ts": "00:07:41"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "It's really about helping the product managers focus on what they were actually hired for, the strategic work. In my role on the operating side and managing teams and Melissa as well, more and more product managers are taking on the data, harvesting the data, implementation and just to get data to work with, they're spending 20%, 30% of their time. So what would that look like if they were enabled and had all of those great inputs to actually focus on company growth, achieving the value, achieving the scaling goals that the company had? So it's really about helping them focus on what they were hired for.",
+   "zh": "这实际上是帮助产品经理专注于他们被聘用时应做的工作——战略性工作。就我而言，在运营层面管理团队，以及梅丽莎和我一样，越来越多的产品经理开始承担数据收集、数据处理和实施工作，而这些工作占据了他们20%、30%的时间。那么，如果他们能获得这些优质的投入，专注于公司增长、实现价值、达成扩展目标，那会是什么样的情景呢？所以关键在于帮助他们专注于被聘用时应做的工作。",
+   "ts": "00:08:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Again, when I was a PM, I had no product ops person, and having read your book, basically all the things product ops does is stuff PMs historically have done. To me, it's scary to give up all those things and put them on someone else's plate. There's the ideal of, \"Oh, amazing, I don't have to do all these things. I'll focus on things I really get excited about,\" but there's also this new fear of, \"Oh, someone else is going to take these things and maybe they won't do as well. There's this new process I have to think about. There's new lines of communication.\" So what's your biggest pitch to a product manager starting to hear about product ops and this fear of like, \"Oh, man, my job is going to be weird. This new person I have to deal with all the time. I used to do all these things.\" How do you help a PM get excited about this?",
+   "zh": "再次强调，我担任产品经理时，身边没有产品运营人员。读了你的书后，我发现产品运营所做的大部分工作，传统上都是产品经理在负责的。要把这些职责交给别人，让我有些担忧。虽然有些人会想，\"太棒了，我终于可以把这些琐事交出去，专注于真正让我兴奋的工作了！\"但同时又会产生新的恐惧：\"哦，别人会接手这些工作，而且可能做得不如我好。现在又多了一套新的流程要考虑，还有新的沟通渠道要搭建。\" 那么，对于刚听说产品运营概念、心存恐惧的产品经理，你最想说些什么呢？比如，\"天哪，我的职责要变了。还要和新人打交道，而这些事我以前都是自己做的。\"你如何帮助产品经理对此产生热情呢？",
+   "ts": "00:08:48"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Product operations does not take away decision making rights from the product manager. It's there to inform them. So if you're judging your success as a product manager of, \"Hey, I do the SQL queries and I have to spend the 50 hours to set up all these customer interviews and calls,\" that to me is very operational process type work, but it's not work that's going to help you make a decision about your product. That's why we're looking at the product operations team because what I've seen is product managers doing this off the side of their desk like me too. I got excited about this because when I was at OpenSky in early days of my product management career, I had to go learn MongoDB to get data out of a database. I was sitting through a MongoDB class learning how to do this. I knew SQL, but we did not use the SQL database then. I had to go learn MongoDB so I would stop bothering the engineers to be able to actually just measure if my products and my features were doing anything correct. (00:10:27): That was a lot of time that I spent doing that instead of spending it on good feature work and on understanding my customers and working with my developers and figuring out what we were actually going to build, instead I'm out here learning this programming language, which I never used again, by the way. Never used it again after that. That to me is the stuff that product ops takes away from the product managers. (00:10:51): What I constantly hear from product managers though is, \"I am so busy, I don't have time to do the things that I need to do correctly. I'm so busy trying to line up customer interviews,\" or, \"I'm so busy just trying to get data out of systems. I'm fighting these fights to get the things that I need to do my job correctly that I don't have time to do my job correctly,\" and that's what we're trying to help them with. So I wouldn't be afraid that product ops is coming in here. It's not supposed to be something that's providing more overhead. It's supposed to be something that's a little more liberating and helps free you up from all the busy work.",
+   "zh": "产品运营并不会剥夺产品经理的决策权，而是为他们提供信息支持。比如，如果你把自己作为产品经理的成功标准定为\"我亲自编写 SQL 查询，花 50 个小时安排所有客户访谈和电话会议\"，那么在我看来，这些都是典型的操作性工作，并非能真正助力你做出产品决策的核心任务。这就是我们关注产品运营团队的原因，因为我发现很多产品经理都在偷偷摸摸地做这些事——我自己也曾如此。让我兴奋的是，早在 OpenSky 担任产品经理初期，我为了从数据库中提取数据，不得不自学 MongoDB。我参加 MongoDB 课程学习如何操作。当时我虽然会 SQL，但公司没用 SQL 数据库。为了不必再麻烦工程师，我必须学会 MongoDB，这样才能衡量产品和功能是否正确发挥作用。（00:10:27）：我为此浪费了大量时间，本可以把精力投入到优质功能开发、理解客户需求、与开发者合作、规划产品路线图上，但最后却在学习这门编程语言，顺便说一句，此后再也没用过它。这才是产品运营从产品经理手中夺走的职责。（00:10:51）：但我经常听到产品经理抱怨：\"我太忙了，没时间把事情做得完美。光是协调客户访谈就忙得不可开交。\"或者\"光是从系统中提取数据就耗尽精力。为了完成本职工作，我不得不应对这些琐事，却无暇专注于核心任务。\"这正是我们要帮助他们解决的难题。所以我不必担忧产品运营的到来。它不应成为增加管理成本的负担，而应是一种解放生产力的存在，让产品经理从繁琐的日常事务中解脱出来，专注于创新和创造价值。",
+   "ts": "00:09:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a great pitch. I always thought product management is an insane role with way too much going on, and that's why everyone's always burnt out and stressed. There's just so many things you have to do. So I totally get how this is happening and why this is happening. I love that you're helping people figure out how to actually do it well. Let's actually get into what the role actually is. I think it's a really confusing role. A lot of people hear product ops and everyone know what it is. There's maybe research synthesis, there's some data stuff. What's the simplest way to think about what is the general consistent roles of a product ops person and what they can do for your company?",
+   "zh": "你的讲解太棒了。我一直觉得产品管理是个压力巨大、事务繁多的职位，这也是为什么大家总是身心俱疲、压力重重。要做的事情实在太多了。所以我完全理解这种情况的根源，也明白你为何要帮助人们真正做好这份工作了。现在让我们深入探讨一下这个职位的实际内涵。我觉得这是一个相当令人困惑的角色。很多人听说过“产品运营”，但可能不太清楚具体含义。有人会想到研究整合、数据分析之类的。那么，如何最直观地理解产品运营人员的核心职责，以及他们能为公司带来哪些价值呢？",
+   "ts": "00:11:26"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "The way we think about it is structured around the three pillars that we talk about in the book, so business and data insights, more of the quantitative side, making sure that the product manager has all of these engagement and revenue inputs to make smart decisions, the customer market insights, so the qualitative. We talked about this a little bit earlier in terms of finding folks to speak to, making sure you're speaking to more than one just customer. Finally, the third pillar is process and practices. So it's really around those areas and it depends on what your company needs and where the biggest opportunities and challenges might be.",
+   "zh": "我们对此的理解主要围绕书中提到的三大支柱展开：商业与数据洞察（偏定量维度），确保产品经理掌握所有影响决策的用户参与度和营收数据；客户与市场洞察（偏定性维度），比如通过深度访谈获取多元化反馈；最后，流程与实践部分。具体内容取决于公司实际需求，以及可能面临的最大机遇与挑战。",
+   "ts": "00:12:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So the three, just to reshare what you just said, the three pillars of product ops, business, data and insights, customer and market insights and the process of how you build product and helping the business operate more effectively in the way they build product.",
+   "zh": "太棒了。所以这三个支柱就是——产品运营、商业与数据洞察、客户与市场洞察，以及产品开发的流程与实践，助力业务更高效地打造产品。",
+   "ts": "00:12:43"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Sounds great when you say it. Yes.",
+   "zh": "你这么一说听起来很清晰。确实。",
+   "ts": "00:13:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have the notes and this is exactly described in your book, so well-described. Is there one of these three that you find most important, impactful? Is it really dependent on the business and their needs or what the PM wants to do? How do you think about, I don't know, which of these three is maybe most important or is it a super dependent?",
+   "zh": "我看过笔记，你在书中对此描述得非常详尽。那么这三个支柱中，你认为哪个最重要、最具影响力？这是否取决于公司的实际需求，还是产品经理自身的诉求？你如何看待这三个部分的相对重要性，或者说它们是否存在依存关系？",
+   "ts": "00:13:03"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "So we usually see that high growth companies start with business data and insights and make sure that they can actually monitor what they're doing and get the strategic inputs. We see larger companies and enterprises go more towards the process and governance, especially if they're in, let's say, a transformation because they don't have the infrastructure to run good product. Let's say it's that way. They're usually just starting out, they're just forming their teams. Let's say they just trained product managers and now they're like, \"What else do we need to do besides just training product managers to make this work?\" So they need an operating model and they typically don't have a product operating model. (00:13:58): In that case, they're looking at even just, \"How do we do roadmaps across the organization so that I as a chief product officer or VP of product can actually just have transparency into what my teams are doing?\" Jira does not work for that. You need a portfolio tool to be able to roll that up into something that makes sense. Again, that helps me as a VP now or a CPO make strategic decisions and it helps me monitor my teams and understand, \"Are we actually spending money on the right things? Are we doing the right work?\" So they tend to do it more on the process and governance side, but it's all in service of being able to make rapid strategic decisions and get good products out there to the world.",
+   "zh": "通常，我们会发现高增长公司从商业数据和洞察入手，确保能够有效监控自身运营并获取战略洞见。相反，大型企业和成熟公司则更侧重于流程和治理体系，尤其是在转型阶段——毕竟它们缺乏支持产品研发的基础设施。举个例子：这些公司可能刚刚起步，正在组建团队。比如，他们培训了产品经理后，会思考“除了培养产品经理，我们还需要做些什么才能让业务顺利开展？”因此，他们急需建立运营模式，而许多公司此前并未建立产品运营体系。（00:13:58）：在这种情况下，他们会着手构建全公司路线图系统，以便产品负责人或副总裁能清晰掌握团队工作进展。Jira等工具在这方面效果不佳，需要引入项目组合管理工具来整合数据。这类工具能助力VP或CPO制定战略决策，监督团队工作进展，评估资源是否合理配置、项目是否按正确方向推进。因此，成熟公司更侧重于流程和治理体系，但这一切都是为了能快速制定战略决策，将优质产品推向市场。",
+   "ts": "00:13:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a really handy way of thinking about it. So just to say what you said again, for high growth companies, you're finding of these three pillars generally where product ops can help most is the business and data insights, helping them understand what's happening and make decisions more quickly, which makes a lot of sense. For more established older companies going through a digital transformation, oftentimes it's helping them with their process and making them more efficient in how they operate. Is there also a bucket for the middle pillar of customer and market insights or is that spread across?",
+   "zh": "这确实是一种很实用的思考方式。再总结一下您的观点。对于高增长公司而言，产品运营最能助力的三个核心领域通常是商业数据洞察和战略洞察，帮助他们快速理解市场动态并做出决策，这非常合理。对于正经历数字化转型的成熟企业，产品运营则侧重于优化流程和提升运营效率。那么客户与市场洞察这一中间环节是否也需要同等重视，还是被分散在不同部门？",
+   "ts": "00:14:40"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "That's the squishy middle. When I do teach this class, I ask people what their perception is of product ops and people never think that. So that's an area definitely for growth I think at a lot of companies.",
+   "zh": "这确实是个模糊的中间环节。我在授课时发现，很多学员对产品运营的认知存在偏差。因此，我认为这正是许多公司亟待提升的能力领域。",
+   "ts": "00:15:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How does that piece work with user research and that team?",
+   "zh": "用户研究与该团队如何协同？",
+   "ts": "00:15:26"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "So we've seen a lot of the work that is done in that team. They work with user research. Now, in organizations where let's say, this happens in a lot of organizations but not all of them, where product oversees design as well and user research and it oversees UX, this becomes seamless because you are going to have, let's say, a product ops person usually with a user research background who's going to be helping to do the stuff we talk about and the customer market insights piece, which is pulling all the research that's been done, like the customer interviews, all those things together into things like a findings database. So there's great tools out there like Dovetail, but you can also roll your own, and it's about aggregating all the interviews or customer research that's been done so people can query it and start to see what do we already know so we're not going out there and duplicating a bunch of research. (00:16:22): It's also about finding participants who want to opt into research. So making sure that you have customers aware that, \"Hey, we might contact you to do customer interviews. This is why. Do you want to participate in alphas and betas? If so, this is what it entails.\" If we can build a database of people and customers that we have who opt into those types of things, it makes it easier for product managers to go out and contact them and say, \"Hey, by the way, we got a beta. Do you want to do it?\" They know what it is, they're expecting it. They know what the cadence is that people will reach out to them on to do research, and the user researchers can use that as well. (00:16:58): Now, the thing about the customer and market insights piece is that that person who's streamlining those activities and building those systems, they're not usually the same person who's doing the user research. So this is not about taking user research away from product managers or from user researchers, it's about enabling them to do it more effectively, enabling the insights to be put out across the company more effectively, and also helping them get in touch with users and get that feedback. (00:17:30): Another piece of this too that we talk about is getting qualitative insights from sales and support. So we always hear from sales teams, and this is the classic product management tension, \"The product managers aren't listening to me\" or, \"I've told them five months ago that I had this problem with these customers that were going to churn.\" We didn't build those features. What this function does with the customer and market insights here is that it helps get a lot of that information back to the product team in an effective way. (00:18:00): Then it also helps communicate back to sales, \"Hey, let's be a little transparent about how we're using that feedback.\" So that's how we can communicate it back in strategy. Let them know where we stand with working on those ideas or solving those problems for customers, but usually, there's a wealth of qualitative information stuck somewhere in our organization systems, whether it's in Salesforce, whether it's in support tickets, in somebody's Google doc of their customer interviews that they've been doing, and what we're trying to do is get that out of these individual systems and into somewhere where a lot of people can take those qualitative insights and start to learn from them.",
+   "zh": "到目前为止，我们已经了解了该团队的大部分工作。他们专注于用户研究。如今，在许多组织中（虽然并非全部），当产品部门同时负责设计、用户研究和用户体验时，整个流程会更加顺畅。这是因为通常会有具备用户研究背景的产品运营人员，协助完成我们提到的各项工作——包括客户市场洞察部分，即将所有已完成的研究（如客户访谈等）整合到发现数据库中。市场上有很多优秀的工具，比如Dovetail，但也可以自行开发。关键在于汇总所有访谈或用户研究数据，方便人们快速查阅，避免重复研究。  \n\n（00:16:22）：另一个关键点是寻找愿意参与研究的参与者。需要确保客户知晓：“我们可能会联系您进行用户访谈。原因是……您是否愿意参与产品测试版？如果愿意，需要注意以下事项。”通过建立参与用户研究的数据库，产品经理能更高效地联系这些用户。  \n\n（00:16:58）：客户与市场洞察团队与用户研究团队并非同一部门。这并非剥夺产品经理或用户研究者的权限，而是帮助他们更高效地开展工作，确保洞察信息在全公司范围内有效传达，并助力他们与用户保持沟通。  \n\n（00:17:30）：我们还探讨了从销售和支持部门获取定性洞察的做法。销售团队常抱怨：“产品经理不听我们的意见。”或“五个月前我就告知他们客户流失的问题，却未见成效。” 客户与市场洞察团队通过有效手段将这些信息反馈给产品团队。  \n\n（00:18:00）：同时，团队还需向销售部门透明传达反馈成果。例如，通过战略汇报让销售了解产品进展，或告知他们如何利用反馈优化产品。实际上，许多定性信息分散在不同系统中，如Salesforce、支持工单或用户访谈文档中。我们的目标是将这些信息整合到统一平台，方便团队学习与应用。",
+   "ts": "00:15:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "People always ask me, \"What's changing in product management? What's the future of product management?\" I'm always like, \"Nothing. It's going to be basically the same. It's just never going to be fully defined. It's going to keep doing this weird role,\" but I feel like this is actually the answer. What's changing in product management is this product ops role is emerging, taking a lot of these things that PMs don't necessarily want to be doing or aren't amazing at and giving you more space to do the things they really want to do. So I think that's pretty amazing. I think if you think about the timeline, you said five years ago there was no real product ops. Today, half of companies essentially have a product ops role and I'm guessing in another few years it'll be much higher. So this is really interesting.",
+   "zh": "人们总是问我：“产品管理领域有什么变化？产品管理的未来会怎样？”我通常会说：“没什么变化。基本还是老样子，只是永远不会被完全定义清楚。它会继续扮演这个奇怪的角色。”但我觉得这其实就是答案。产品管理领域正在兴起的产品运营角色，承担了许多产品经理不愿做或不擅长的工作，给了他们更多专注于真正想做之事的空间。所以我觉得这太棒了。回顾时间线——五年前根本没有真正的产品运营角色。如今，半数公司基本都设有产品运营岗位，我猜再过几年这个比例会更高。这真的很有趣。",
+   "ts": "00:18:36"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I'm excited about it too. I think what we saw before was that, like you were saying, product management was this squishy role for a long time, but now we're standardizing what do product managers do. What's happening, I think, though is product managers become more prevalent, and as people realize that this is a critical role for companies, whether you're a software company or a bank or something else. We build businesses off of software in today's world and if you're not building software, you are behind. With more and more software that we're putting out there, product managers don't have time to go do all these things off the side of their desk and it's fine when you're a small startup. I was doing it too. Like I said, I had to go learn MongoDB when I was in a smaller company, and then we start to scale and I've got more and more product responsibility and I'm like, \"I don't have time to go learn MongoDB now,\" and that's where people start to burn out and where they get frustrated, like you said. (00:20:09): We've got more and more systems, we've got more software tools out there that product managers are using, and it becomes a lot to track. So it's either, for companies, do you want to hire 10,000 product managers and let them all do these things off the side of their desk and then concentrate on strategic work 30% of the time or do you want them concentrating on strategic work majority of the time and then help build a product operations team around them that can create these shared systems and this infrastructure to allow them to work better?",
+   "zh": "我也对此感到兴奋。我认为过去产品管理长期被视为一个模糊的角色，但现在我们正在规范产品经理的职责。不过更重要的是，产品经理正变得越来越普及。人们意识到无论是软件公司、银行还是其他行业，这都是至关重要的角色。在当今世界，企业都依赖软件来构建业务。如果不开发软件，就会落后。随着我们推出的软件越来越多，产品经理没时间兼顾桌面外的其他事务。在小型初创公司时我也这样做过。但当公司规模扩大后，我承担了更多产品责任，就不得不说：“现在没时间再去学MongoDB了。”这正是人们开始精疲力竭、心生挫败的原因，正如你所说。\n\n(00:20:09)：我们有越来越多的系统和软件工具需要产品经理使用，管理起来压力巨大。对公司而言，要么雇佣1万名产品经理，让他们兼顾桌面外的任务，同时将30%的时间用于战略工作；要么让他们专注于战略工作，由围绕他们的产品运营团队构建共享系统和基础设施，以提升工作效率。",
+   "ts": "00:19:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that's such a powerful way of thinking about this. I imagine PMs listening to you saying, \"I don't have to learn MongoDB and SQL anymore,\" would think. Actually, no, I think that's good. They should learn to do SQL and run their own data, but I think the important pieces here, yes, it would be great, but as you scale, it becomes harder and harder to have time to do all that because things ... You end up with other work that you need to be doing. So in theory, it would be awesome if your PMs could run their own queries and do their own research and create the whole process, but it just becomes harder and harder. (00:21:12): It reminds me of a lot of companies that are trying to delay hiring a product manager in general and instead giving the role to engineers and designers. My feedback is always like, \"That's great as long as they want to be doing all these things that are not generally what they enjoy doing,\" like an engineer doesn't necessarily love running meetings and writing one pagers and strategy docs and taking notes. So I think it's a similar thing where, sure, it's great until you don't really want to be doing that or you don't have time for that and you have your actual job you need to be doing.",
+   "zh": "我觉得这种思考方式太有洞见了。我能想象产品经理听你说\"我再也不用学习MongoDB和SQL了\"时会怎么想。其实不然，我觉得这挺好的。他们确实应该学会使用SQL并管理自己的数据，但关键在于，虽然这样做很棒，但随着团队规模扩大，要腾出时间做这些事会越来越难，因为……总会有其他需要优先处理的工作。理论上，如果产品经理能自主执行查询、开展研究并全程把控整个流程，那当然再好不过，但现实往往事与愿违。\n\n（00:21:12）这让我想起很多公司普遍倾向于推迟招聘产品经理，反而把相关职责交给工程师和设计师。我总是给出这样的反馈：\"只要他们愿意做这些通常不怎么喜欢的事，那倒也无妨。\"毕竟工程师未必热衷于主持会议、撰写一页纸提案、制定战略文档以及做会议记录。所以这道理类似——在你真正不愿做这些事，或者根本没时间做这些事、需要专注本职工作之前，一切都挺美好的。",
+   "ts": "00:20:39"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "That's your full-time job and your OKRs and your goals are really around the outcomes for the company, you're like, \"But I wrote 20 scripts this year.\" So we need to help them focus on the things that they're being expected to deliver in terms of value.",
+   "zh": "你的全职工作是围绕公司的业务成果制定OKR和目标，但他们可能会说\"可我今年写了20个脚本啊\"。于是我们需要帮助他们专注于那些真正被期望创造价值的任务。",
+   "ts": "00:21:41"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I also think it's funny how many people want to be a product manager until they realize what product management entails. This happens a lot and I saw it with my MBA students at Harvard too. We do a whole class, they play a product manager. I had a lot of people opt out of being a product manager at the end of it. They were like, \"I did not realize it was like that. I did not realize I had to do so many things.\" I think a lot of what gets them as well is the type of context switching that's required as a product manager. So you already, just with the basis of what we have to do, do so many different things of user research, working with the designers, working with the developers, working with executives, working with different stakeholders. You got to context switch to be able to relate to all them. You got to empathize with all these different people. You have to do all these different tasks to do this type of work. (00:22:46): Then you got to go figure out what template to put your roadmap in, which is going to be different template than the other 80 product managers on your team because somebody didn't come in and just say, \"Hey, we're going to use this.\" That type of work to me is just distracting from it. Is it hard for a product leader to just be like, \"Hey, this is a template we're using\"? No, but then if that product leader has to go out and train 80 other people on that template, make sure it's consistently updated all the time, make sure it's in the right formats, make sure it's in the right software, that is where the overhead comes in, and a lot of product leaders are doing this right now and what we're trying to do is free up individual product managers, but also those product leaders. (00:23:33): So I work with all these CPOs, these VPs of product and they're like ... I see them just not working on strategy. I'm like, \"Why are you not working on strategy?\" and they're like, \"I don't have time to do that. I'm in here stopping all these fires. I'm figuring out what template I should put my roadmap in.\" Like I said, it's not hard. They know what template it should be in, but think about if you now can delegate that to somebody else and say, \"I want it in this template. Go roll it out. Go roll it out, go train everybody on it, find the right software for it, do it.\" It frees those people up, the leaders, to go work on strategy. That's why you're spending so much money for a product leader, anyway. That's why you spend so much money for a product manager, anyway. So to me, these things are not impossible to do. It's just do we have the right people doing them?",
+   "zh": "我也觉得很有意思的是，很多人一开始想成为产品经理，但当他们真正了解产品经理的工作内容后，往往会望而却步。这种情况屡见不鲜，我在哈佛商学院的MBA学生身上也观察到过类似现象。我们曾举办过一门完整课程，让学生扮演产品经理角色。课程结束后，很多学生都选择放弃产品经理的职位，他们感慨道：\"我之前完全没意识到会这么复杂，光是用户研究、与设计师、开发者、高管及其他利益相关者沟通这些工作就够让人头疼了。\"我认为，让他们望而却步的另一个关键因素是产品经理需要频繁切换工作场景。仅就日常工作而言，产品经理就需要处理用户研究、与设计师合作、与开发者沟通、与高管协作等多项任务，还要应对不同利益相关者的需求。为了与这些不同角色建立有效沟通，产品经理必须具备高度的同理心和情商，完成一系列跨职能的任务。\n\n（00:22:46）：然后，你还要去研究路线图该用哪种模板，而你的团队里其他80位产品经理可能用的都是完全不同的模板，因为没人统一制定标准。这类琐碎的工作只会分散精力。作为产品负责人，直接下达“我们统一使用这个模板”难道很难吗？不难，但如果还要亲自培训80个人、确保模板持续更新、格式统一、软件适配，这才是真正的管理负担。很多产品负责人正深陷其中，而我们的目标就是解放产品经理的精力，同时也减轻他们的管理压力。\n\n（00:23:33）：我接触过很多首席产品官和产品副总裁，他们总说……我发现他们根本没时间专注战略规划。我问：“为什么不专注战略呢？”他们回答：“没时间啊，总是在救火。光是选哪个模板就忙得不可开交。”其实选模板并不难，他们明明知道该用哪个模板，但如果能把这项任务委托给他人，比如“用这个模板，统一推广，培训所有人并选定合适的软件工具”，这样就能腾出他们的精力专注战略规划。这正是我们花大价钱聘请产品负责人的意义所在，也是产品经理被高度重视的原因。所以在我看来，很多事情并非不可完成，关键在于是否有合适的人来承担这些职责。",
+   "ts": "00:21:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "For PMs that are trying to figure out what remains on their plate, what are the the pieces that a PM should keep and not offload on a product ops person?",
+   "zh": "对于那些正试图理清产品经理职责边界的产品经理来说，哪些工作是产品经理应该保留而不能外包给产品运营人员的？",
+   "ts": "00:24:23"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "They don't want to offload decision rights. You should never be outsourcing your decision making to a product ops person. That's not the point. They're the product manager for the product managers. That's how I think about it. So their decision should be around, \"How do I operationalize great product management here?\" but as a product manager, you shouldn't be delegating to them to make any decisions about their product, and that's not their job. If they are coming to you and saying, \"You should build this,\" that's not their job either. That's not the right thing. (00:25:03): So making the actual decision and then putting that decision into play with your teams, that's the type of work that you want to hold onto for a product manager. So while a product ops person can help you point you in the right direction, let's say, to find customers, maybe even help you get in touch with the customers, send out the email to invite them to a meeting or operationalize that, hopefully that's automated. I would love a product ops person to automate that type of stuff. You are going to be doing the user research. The product ops person you can go to and maybe say, \"Hey, this is the type of problems that we're understanding,\" and maybe they help you find other pieces of information around the organization on those topics and bring it to you, but they're not going to be the ones reading through all this information and being like, \"You should build this.\" (00:25:49): They're also not going to be the ones who you say, \"Hey, I made this decision about what to build, told the team about it, the team got together. Can you go monitor the developers and make sure they're building it on time?\" No, they're not project managers, they're not the people who are going to be on top of your developers watching them build things, making sure that everything's out on time. That's not their role either. They're not going to handle hard stakeholder conversations about trade-offs for you, all of those things that you are going to want to keep ownership of because at the end of the day as a product manager, your job is to produce outcomes and you do need to make sure that you're monitoring those outcomes and moving towards them. You don't want to offload their responsibility.",
+   "zh": "他们不想放弃决策权。你永远不应该把决策权外包给产品运营人员。这不是重点。他们是产品经理的\"产品经理\"。这就是我的看法。所以他们的决策应该围绕\"如何在此处将优秀的产品管理付诸实践\"展开。但作为产品经理，你不应该把自己产品的决策权委派给他们，那不是他们的职责。如果他们来找你说\"你应该开发这个功能\"，那也不是他们的工作。那是不对的。（00:25:03）：所以，真正做出决策并将其在团队中落地，这才是产品经理应该坚守的职责。当然，产品运营人员可以为你指明正确的方向，比如帮助你寻找客户，甚至协助你与客户取得联系，发送邮件邀请他们参加会议，或者将这些工作自动化——我倒是希望产品运营人员能把这类事务自动化。但用户研究工作还是要由你来做。你可以去找产品运营人员，说：“嘿，我们正在理解这类问题。”或许他们会帮你从公司内其他部门收集相关信息并提供给你，但他们不会通读所有信息后说：“你应该开发这个功能。”（00:25:49）：他们也不会替你说：“嘿，我已经决定了要开发什么功能，跟团队说了这事，团队开会了。你能去监督开发人员，确保他们按时交付吗？”不，他们不是项目经理，也不是会时刻监督开发人员、确保按时交付的人。那也不是他们的职责。他们也不会替你处理与利益相关者关于权衡取舍的艰难对话。所有这些事情都需要你亲自把控，因为说到底，作为产品经理，你的职责是创造成果，同时确保成果得以推进。你不能把这些责任推卸出去。",
+   "ts": "00:24:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I took a couple notes of just things that the PM continues to own, whatever, in quotes, no one owns anything, strategy, vision, prioritizing, resource allocation, trade-off decisions, hard conversations around trade-offs and stakeholder input and things like that. Is there anything else in that bucket of just stuff a PM, a product manager continues to be responsible for?",
+   "zh": "所以我记下了一些笔记，列出产品经理持续负责的工作，比如策略、愿景、优先级排序、资源分配、权衡决策、与利益相关者进行艰难对话等。还有其他产品经理必须亲自负责的核心职责吗？",
+   "ts": "00:26:31"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Well, there's a big piece that we're missing, go-to-market, and that's where product ops could really make a difference in terms of connecting those teams, but also being the first point of contact for sales, first point of contact for product, and enabling just some efficiencies if we want to call it process or method, but just trying to help break down the silos. (00:27:19): A company I'm working with right now, there's big challenge with that and it's a large enterprise level company. So how do we break down all of the different silos between departments and team leads and whatnot? So it's really talking about, \"Here's how we're going to do it. Here's some simple templates we will use at training sales, training product,\" and then getting that into play. Doing the book and doing our research, that was a consistent story point from a lot of people that we interviewed that go-to-market was a really big pain point.",
+   "zh": "嗯，我们现在还缺一个关键环节——市场推广（go-to-market）。这正是产品运营（product ops）能发挥作用的地方，它能有效连接各个团队，同时成为销售团队和产品团队的首要联络点，并通过优化流程或方法提升效率，从而打破部门间的隔阂。（00:27:19）我目前合作的一家大企业在这方面就面临巨大挑战。那么如何打破部门间、团队负责人等层面的隔阂呢？关键在于制定统一的行动方案，比如“这就是我们的执行方案”，并在培训销售团队和产品团队时推广这些模板。同时，我们需要不断研究优化，采访过的许多受访者都提到，市场推广是他们面临的最大痛点。",
+   "ts": "00:26:55"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "So I think too what Denise was saying is product ops will take on a lot of the coordination of those types of things and making the standardized templates, but as a product manager, your role in informing what the go-to-market is doesn't change. You're still putting the inputs in there. So maybe product ops will provide, for example, templates and help say, \"Hey, here's the different pieces that we need to make a go-to-market plan,\" for example, \"Here's the templates. Here's what I gathered from people,\" but you as a product manager still have to fill out your parts. (00:28:21): You still have to go talk to the salespeople. You still have to work with the marketing people to make sure it's positioned correctly, but the product ops person can help with the program management around it of getting those people together, having consistent templates, creating the cadence for when you review those things, making sure that they all align and they're all in one place so you're not going to find them everywhere, and then making sure that go-to-market process is consistent across the organization so that it's not like, as Denise said, it's not like everybody's reinventing the wheel and somebody on a go-to-market team has to figure out how to go-to-market differently with a different product team.",
+   "zh": "所以我认为丹妮丝（Denise）所说的意思是，产品运营将承担起协调这些工作的重任，提供标准化模板等支持。但作为产品经理，制定市场推广策略的核心职责不会改变。你仍然需要提供关键输入。例如，产品运营可能会提供模板，并协助整理信息，比如“这些是制定市场推广计划所需的关键要素”，“这些是我们收集的意见”，但产品经理仍需填补空白部分。（00:28:21）你仍需与销售团队沟通，确保产品定位准确，与市场团队协作优化定位策略，制定定期复盘机制，确保各部门信息统一，避免各自为政。此外，产品运营还需统一整个组织的市场推广流程，避免各团队因产品差异而另起炉灶。",
+   "ts": "00:27:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. That's a really handy and important addition. You mentioned project management. I imagine many people think product ops also takes on project management. What's a good way to think about project management versus product ops? There's also program management. Do you have a way of thinking about those roles?",
+   "zh": "太棒了。这真是非常实用且重要的补充说明。你提到了项目管理。我想很多人认为产品运营也会承担项目管理的职责。如何正确区分项目管理和产品运营的角色呢？还有项目管理（program management），你对这些角色的理解是什么？",
+   "ts": "00:28:57"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "The way I like to think about it is, however, whatever they're doing in terms of the three pillars of product ops is really thinking about, as I mentioned earlier, increasing the speed and quality of decision making and all of the pillars of play into that. Program manager, I think, is really thinking about larger company initiatives and the duration of their work is ongoing versus a project manager, they're responsible for certain project that's at a time box and an end date, but it does get a little wiffy, for sure.",
+   "zh": "不过在我看来，产品运营的三个核心职责都致力于提升决策速度和质量，而项目管理（product ops）正是围绕这一核心展开的。至于项目经理（program manager），我认为他们更关注大型企业的战略性举措，工作周期更长，而项目经理则负责有时间节点和结束日期的特定项目。不过这两者的界限确实有些模糊。",
+   "ts": "00:29:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to go back to the three pillars real quick and go one level deeper to help people understand what they actually entail and what are the jobs of a product ops person. So just we could even keep this brief, but just let's say with business data and insights, what are the functions and jobs and things that a product ops person would be doing for your company?",
+   "zh": "我想快速回顾一下“三支柱”模型，再深入探讨一下，帮助大家理解其具体含义，以及产品运营人员的职责。简而言之，关于商业数据与洞察，产品运营人员在公司中会承担哪些职能与任务？",
+   "ts": "00:29:43"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "A lot of companies will have a data science team or a business intelligence team and you don't have to reinvent the wheel, you don't have to have your internal product ops type of intelligence team, but it's about connecting those and making sure you're putting that with a product lens, and especially, say, with finance too. You don't want all the product managers hitting up the CFO for that month's revenue or having questions. So it's about accessing all of these inputs and putting it through a product lens and then making sure that product managers actually know what to do with it, can action it.",
+   "zh": "许多公司都设有数据科学团队或商业智能团队，无需从零开始组建内部产品运营类型的智能团队。但关键在于要将这些团队有效对接，并确保从产品视角出发开展工作，尤其是与财务部门的协作。理想情况下，产品经理不应再去向首席财务官询问当月营收数据或提出相关疑问。因此，关键在于整合所有数据输入，透过产品思维视角进行解读，并确保产品经理能够有效利用这些信息并将其转化为行动。",
+   "ts": "00:30:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So it's essentially running queries for you, generating charts and graphs and recommendations based on what the data's telling you. Basically, it's doing all the data stuff that a PM would be doing. Is there anything else there?",
+   "zh": "这实质上包括为你执行数据查询、生成图表及基于数据洞察提供建议。简而言之，产品运营人员会承担产品经理原本需要处理的所有数据相关工作。这方面还有其他需要补充的吗？",
+   "ts": "00:30:36"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Also helping the leaders too. So we're talking about it from a product management perspective, but I think this one especially becomes really critical for leaders and executives. A lot of times, and I sit through board meetings where we talk about ARR, we talk about retention, we talk about net retention, and we talk about all of these business metrics, and they're great for monitoring the health of our business, but where product ops comes into play in business data and insights is how do we monitor the health of our product. (00:31:22): So as a chief product officer, ARR is interesting to me, but it's not as interesting to me as ARR by customer segment. It's not as interesting as ARR by product line. It's not as interesting if I take that and then look at it by retention or adoption by product or feature set or adoption by customer segment by product. When we start to put those lenses on it, they now become a really powerful strategy insight. (00:31:49): So what I think these people do and do really well is even at the executive level, they help you ... You as a product leader are like, \"I need these types of insights. This helps me. This is how our business runs and this is how I want to set the strategy.\" These people make those dashboards, make those repeatable insights for you. Then ideally, they know the data so well and they know your business so well that they can surface up other opportunities for you as well to look at data that you didn't know was there or can find these interesting trends. (00:32:18): So they are very much like the people digging into the data, they're just doing it with more of a product lens instead of, like Denise said, an overall company metric lens. It's not just in service of the product managers. I just wanted to point that out because I think this becomes so powerful for leaders because if leaders don't understand those types of metrics, they can't actually monitor their strategies. They can't go back and say, \"Oh, we decided to go upmarket into the enterprise.\" Look, we've got enterprise revenue, but are you actually looking at where the enterprises are adopting different product lines? Are you looking at how the enterprise uses different features, and if certain enterprises are using these types of features, are they less likely to churn? It's those types of insights that I think are really important on this lens.",
+   "zh": "同时，这对领导者们也有帮助。我们从产品管理的角度来讨论这个问题，但我认为这对领导者和高管们来说尤为关键。很多时候，我参加董事会会议时，大家会谈论ARR（年度经常性收入）、客户留存率、净留存率等商业指标。这些指标对于监控业务健康状况固然重要，但产品运营在商业数据和洞察方面发挥作用的地方在于，我们如何监控产品的健康状况。（00:31:22）所以作为首席产品官，ARR对我来说固然有意义，但比起按客户细分、产品线划分的ARR，或是按产品或功能集的留存率、客户细分的采用率来划分的ARR，这些维度下的ARR对我更有价值。当我们以这些视角去分析时，它们就能成为非常强大的战略洞察工具。（00:31:49）所以我认为这些人员所做的，而且做得非常出色的是，即便是在高管层面，他们也能帮助你……作为产品负责人，可能会说：“我需要这些类型的洞察。这对我很有帮助。这能让我了解业务运作情况，也能让我制定战略。”这些人会为你搭建这些仪表板，提供可重复的洞察。理想情况下，他们对数据了如指掌，对你的业务也了如指掌，能够为你挖掘其他机遇，比如发现你未曾注意到的数据，或是发现有趣的趋势。（00:32:18）所以他们很像那些深入挖掘数据的人，只是他们更多地从产品视角出发，而不像丹妮丝所说的从公司整体指标视角出发。这不只是为产品经理服务。我想强调这一点，因为我认为这对领导者来说非常重要。如果领导者不理解这些类型的指标，他们就无法有效监控战略。他们无法回过头来说：“哦，我们决定向企业级市场进军。”但看看我们的企业收入数据，实际上你们有没有去观察企业在采用不同产品线的情况？有没有去观察企业如何使用不同功能？某些企业使用这些功能时，流失率是否更低？我认为从这个角度来看，这些类型的洞察非常重要。",
+   "ts": "00:30:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As a PM hearing that somebody else will be doing this, it feels really weird. This feels like such a core job of a PM is to spend a lot of time with data, try to find opportunities, try to find things going well, not going well, but I think the message, again, is not you shouldn't be doing that as a PM and it's not bad if you are really good at it, it's you probably just don't have a lot of time to do it well. If you can find someone that's really good at this and has time, that doesn't have all the other thousands of things on their plate, you'll actually end up finding more interesting results, finding more interesting insights. You're probably missing a bunch of stuff because you don't actually have a lot of time. Is that generally the way you think about it?",
+   "zh": "作为产品经理，听到别人要来做这些事，感觉真的很奇怪。这感觉像是产品经理的核心职责——花大量时间研究数据，寻找机会，发现问题所在。但我想再次强调的是，这并不是说产品经理不该做这些事，如果你真的擅长这方面也未尝不可，只是你可能没有足够的时间把它做得更好。如果你能找到真正擅长这项工作、又有充足时间的人——而不是让他们分心于其他成千上万件事——你最终会发现更有趣的结果，获得更有价值的洞察。由于你自己没有足够的时间，你很可能错过了很多东西。你们对此普遍是这么看的吗？",
+   "ts": "00:33:09"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Yeah, and I think too, the business and data insights people, they're not going to be experts on product. They're almost always not. We had a couple analysts at Produx Labs and they were ex-McKinsey, ex-Deloitte. They didn't know anything about product. So we taught them the product piece and we were the ones who were like, \"Here's the interesting data I know I'm going to need to see,\" and they were able to pull those things together in views where we could actually dig into it, but that was a jumping off point on the quantitative research where we're like, \"Okay. Now we need to go do the qualitative.\" (00:34:18): I think for product managers, you still need to be super comfortable with data. If you can't read these charts, if you can't see or understand trends, and a lot of times too, if you're putting this stuff in Looker or a BI tool, ideally, you can pull ad hoc reports yourself. It's just that you don't have to craft a SQL query to do it. You still need to understand the relationship between data and product and you still need to understand what good data looks like. You need to understand too things like causation and correlation. You need to understand that, \"If I put out this crazy marketing launch on Thursday, that's why all of a sudden we got a million signups on Thursday and we didn't get a million signups on Wednesday.\" They still need to understand all those things, and I don't think that becomes any less important. I don't think understanding and interpreting trends becomes any less important as a product manager's job. I just think it's about putting data into the hands of product faster so that it's not about you having to fight your way through bureaucratic processes at your company to get that data. (00:35:21): So product ops can help streamline things that we know we're going to look at repeatedly. There's a bunch of stuff that we know we should look at. So put them in a dashboard like, \"Why should I have to go pull that report ad hoc every single time?\" Put them in a dashboard, put them in a report. Same for board slides. We had one of my friends who's the chief product officer of Forsta, Brian Bhuta, and he said, \"I love product ops because when we prepare for board meetings, I know there's a certain set of information that I'm going to have to put together for this board meeting, and then when we go do it manually, it becomes obsolete by the time the board meeting's over and then I got to start again and prepare for the next three months and do the board meeting again.\" So it's like you don't want your data to be obsolete. You want this to be in a repeatable fashion for things that you know are repeatable, but it doesn't get you off the hook of still looking for trends and looking for insights.",
+   "zh": "是啊，我也觉得，业务和数据洞察部门的人，他们通常不会是产品方面的专家。几乎从来都不是。我们在Produx Labs有几个分析师，他们之前分别来自麦肯锡和德勤。他们对产品一无所知。所以我们教会了他们产品相关的知识，然后我们会对他们说：“这里有一些有趣的数据，我知道你们需要看到这些数据。”他们就能把这些数据整合成可视化的报告，让我们能够深入分析。但这只是定量研究的起点——接下来我们会说：“好的，现在我们需要进行定性研究了。” （00:34:18）：我认为对于产品经理来说，仍然需要对数据非常熟悉。如果你看不懂这些图表，如果你看不到或理解不了趋势，很多时候即使你把这些数据放进Looker或商业智能工具里，也希望自己能随时生成临时报告。但你不需要编写SQL查询来实现这一点。你仍然需要理解数据与产品之间的关系，理解优质数据的标准。你还需要理解因果关系和相关性。比如，“如果我们在周四推出这个疯狂的营销活动，周四一下子就获得了一百万注册用户，而周三却没有达到这个数字。”这些都需要你去理解，我认为这绝不是可有可无的。我认为作为产品经理，理解和解读趋势的工作永远重要。我只是认为要更快地将数据交到产品团队手中，这样你就不必在公司繁琐的流程中费力获取数据了。（00:35:21）：所以产品运营可以帮助简化那些我们知道会反复查看的内容。有一堆我们知道应该经常查看的东西。把它们放进仪表板，比如，“为什么每次都得手动拉取报告？”把它们放进仪表板，放进报告里。董事会演示文稿也是如此。我有个朋友，Forsta的首席产品官Brian Bhuta，他说：“我喜欢产品运营，因为当我们为董事会会议做准备时，我知道有一些特定的信息需要为这次会议整理出来。但如果我们手动去做，这些信息在会议结束时就过时了，然后我又得重新开始，为接下来的三个月准备，再开一次董事会。” 所以你不想让数据过时。你希望这些可重复的内容在可重复的场景中发挥作用，但这并不能让你逃避寻找趋势和洞察的责任。",
+   "ts": "00:33:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You fell in love with building products for a reason, but sometimes the day-to-day reality is a little different than you imagined. Instead of dreaming up big ideas, talking to customers, and crafting a strategy, you're drowning in spreadsheets and roadmap updates and you're spending your days basically putting out fires. A better way is possible. Introducing Jira Product Discovery, the new prioritization and roadmapping tool built for product teams by Atlassian. With Jira Product Discovery, you can gather all your product ideas and insights in one place and prioritize confidently, finally replacing those endless spreadsheets. Create and share custom product roadmaps with any stakeholder in seconds and it's all built on Jira where your engineering team's already working so true collaboration is finally possible. (00:37:04): Great products are built by great teams, not just engineers, sales, support, leadership, even Greg from finance. Anyone that you want can contribute ideas, feedback, and insights in Jira Product Discovery for free, no catch, and it's only $10 a month for you. Say goodbye to your spreadsheets and the never ending alignment efforts. The old way of doing product management is over. Rediscover what's possible with Jira Product Discovery. Try it for free at atlassian.com/lenny. That's atlassian.com/lenny. (00:37:38): We had a guest on, Casey Winters, and he has this perspective that when you have ops, operational people, that's generally a sign that something is not efficient and it could be made more efficient with software and product. Not everything can be productized, but do you have a perspective on that, that ops is often a sign where software, hopefully someday, could do itself?",
+   "zh": "您爱上产品开发工作是有原因的，但有时现实与想象略有出入。与其构思宏伟蓝图、与客户沟通并制定战略，您却深陷于堆积如山的电子表格和路线图更新中，整天疲于应对各种突发状况。更好的方式是可行的。Atlassian推出的Jira产品探索（Jira Product Discovery）——专为产品团队打造的优先级排序与路线图工具，助您将所有产品创意与洞察汇聚一处，自信地进行优先级排序，彻底告别无休止的表格填写。只需数秒即可创建并与任何利益相关者分享定制产品路线图，且所有功能均基于工程团队已熟练使用的Jira平台，因此真正的协作终于成为可能。（00:37:04）：优秀的产品由卓越的团队打造，不只是工程师、销售、支持、领导层，甚至财务部的格雷格（Greg）也能贡献创意、反馈与洞察。在Jira产品探索中免费无忧地进行贡献，无需任何附加条件，每月仅需10美元。告别无休止的表格填写与协调工作，传统产品管理方式已然过时。快来atlassian.com/lenny免费试用，重新发现Jira产品探索的无限可能。",
+   "ts": "00:36:17"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "You still need people to oversee those programs. So I don't think they would fully be obsolete. It wouldn't be like this whole role goes away completely, but they're the people who should be looking at, \"What can we do to optimize and streamline this?\" and not do it with human components. I think that's why a product management mindset lands so well to a product ops function too because you're like, \"How do I use software or tools or processes or frameworks to help fill in some of these gaps and standardize it and then let it run?\" That what I was meaning by the shared services model. (00:38:32): If you really think in that format, it's not like, \"Hey, I need a team of 10,000 product ops people.\" I think you're doing it wrong if you're doing that right. It should be a well-run lean team who thinks about how to leverage tools for this or building your own or whatever and your products for the product team, and that's how it should be seen. So what I mean it shouldn't be obsolete one day, if you are building, let's say, products for the product team, you still need somebody to look over that product and make sure it's relevant. At the pace of everything changing like it does today, so many things are so different than they were five years ago, you want somebody to be looking over that and making sure they're still up-to-date, it's still relevant, it still works for our company and stuff like that, but you're going to have a smaller subset of people doing that. It's not going to be like, \"Oh, I need a product ops team for every product manager that's on here.\" That's not how it should work at all.",
+   "zh": "您仍然需要人员监督这些项目。所以我认为产品运营（Product Ops）人员不会完全被淘汰。这并非意味着整个角色会彻底消失，但他们应该思考：“我们如何优化和简化这一流程？”而非依赖人力资源。我认为这正是产品管理思维模式与产品运营职能高度契合的原因——您会思考：“如何利用软件、工具、流程或框架来填补这些空白并实现标准化？”这正是我所说的共享服务模式的含义。（00:38:32）：如果您以这种思维模式看待问题，就不会说：“嘿，我需要一个由10,000名产品运营人员组成的团队。” 如果您这样做，那就是方向错误了。它应该是一个运作良好的精益团队，他们思考如何利用工具来实现这一目标，或自主开发相关工具，为产品团队服务。这才是正确的视角。所以产品运营职能不会在某一天被淘汰。如果您为产品团队开发产品，仍然需要有人来审核该产品，确保其相关性。鉴于当今事物变化的速度，许多事情与五年前相比已截然不同，您需要有人持续关注这些变化，确保产品始终与时俱进、符合公司需求等，但负责这些工作的团队规模会更小。这绝不是“每个产品经理都需要一个产品运营团队”的模式。",
+   "ts": "00:38:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that is going to make a lot of people feel better hearing that. Do you have any rule of thumb or way of thinking about just how many product ops people you want per product manager, per team? What's a simple heuristic for just how many people you may need?",
+   "zh": "我觉得听到这话很多人会感觉好很多。你有没有什么经验法则或思考方式，能告诉我们每个产品经理对应多少产品运营人员，或者每个团队需要多少产品运营人员？有没有一个简单的启发式方法来判断可能需要多少人？",
+   "ts": "00:39:27"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I don't have a hard and fast rule on that one, but I would say if you are at a one-to-one ratio, you're doing it wrong. Absolutely.",
+   "zh": "我对此没有一个固定的规则，但我要说的是，如果你们是1比1的比例，那你们就做错了。绝对的。",
+   "ts": "00:39:43"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "If you're at one-to-hundred, you're doing it wrong.",
+   "zh": "如果你们是1比100，那你们也做错了。",
+   "ts": "00:39:47"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Yeah, too. I also think it's like ... So when we talked about it too with this hybrid versus shared services model, if you have a hybrid model, let's say, and typically, this is a symptom that your data is not well-instrumented. Let me put it that way as well. Sometimes you need a stopgap holdover until you can well-instrument your data or something, and that could be as long as it takes for certain companies. In this case, like we said, you might have a business data and insights person aligned to every director of product who oversees multiple Scrum teams. You might have one aligned to every VP of product, depending on how much help you need to get the product data out of things. (00:40:37): Now, if you have a very well-instrumented dataset like we were talking about at Doodle or something like that, you're probably going to have way less people because the product managers are armed and capable of going in there and being able to pull the queries themselves, do their ad hoc research themselves because they made it accessible and you made it possible for them to go do that. (00:40:59): So I do think there's a balance there between how good your company is instrumented both for everything, for all three of these pieces that we're talking about relative to the size of your product ops team. It might take some more manpower at the beginning to get it going, but, ideally, you streamline this team and it becomes pretty lean and pretty small and they're overseeing multiple programs or software systems that run themselves.",
+   "zh": "是啊。我还觉得……所以当我们讨论混合模式和共享服务模式时，我要说的是，如果你采用混合模式，这通常意味着你的数据没有得到很好的仪表化。我也这么说。有时候你需要一个权宜之计，直到你能很好地仪表化你的数据，或者类似的事情，这可能需要某些公司很长时间。在这种情况下，比如我们说的，你可能有一个与每个监督多个Scrum团队的产品总监对接的商业数据和洞察专员。你可能有一个与每个产品副总裁对接的，这取决于你需要多少帮助来从产品数据中提取信息。（00:40:37）：现在，如果你有一个像我们在Doodle谈论的那样非常好的仪表化数据集，你可能需要更少的人，因为产品经理有能力自己去获取数据，进行临时研究，因为你让数据可访问了，让他们能够自己去做这些事。（00:40:59）：所以我确实认为，在公司仪表化程度、我们谈到的这三个部分，以及产品运营团队的规模之间存在一个平衡。可能一开始需要更多人手来启动，但理想情况下，你会精简这个团队，使其变得非常精简和小型化，他们监督多个自主运行的程序或软件系统。",
+   "ts": "00:39:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, it gives me a lot of hope that this isn't going to become just another massive org within a company. It is looking at companies that are incredibly efficient like Ramp and Deal that have very few employees, very few product managers, and they have product ops people. So that tells me there's a lot of leverage that you can find from just maybe, I don't know, one or two that's probably not a large team of product ops people there.",
+   "zh": "嗯，这让我很有希望，这不会成为公司内部又一个庞大的组织。我们看到像Ramp和Deal这样效率极高的公司，员工很少，产品经理也很少，但他们有产品运营人员。这告诉我，我们可以从比如一两个产品运营人员中找到很大的杠杆作用，可能不需要一个大型的产品运营团队。",
+   "ts": "00:41:25"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "We say too, get started with one person. We described these three pillars and repeatedly through the book we're like, \"Hone in on what's the most important part for you that's going to help you right now,\" that we talk through, and then just take one person and throw that out there. Usually, you can get so much leverage from that that it frees you up to do a lot of the stuff that you need to get done. Then when you're ready and you see the next hurdle and it's not something that first person can take on, then you might add one more person. (00:42:18): There are different expertise, I think, between the three different pillars and the people who would oversee it, and that's something to take into account as well. So like we said, in business data and insights, that person typically is not an expert on product. Hopefully they get ramped up on it working with you, but they're typically not an expert on product. A lot of times these people are not coming from a product management background. That's going to be actually a different person than I would look at to help with the governance and product pieces. That person needs to be a product background person because they're usually helping roll out the roadmap stuff, coach people on how to do it, helping to define the different systems and processes that you need on your product operating model, and if they have no experience with product management at all, that's going to be really hard for them to do and it's probably not going to be great. (00:43:05): We do see this trend of people throwing agile coaches at this, and agile coaches who have never been a product manager before in a well-run company are going to struggle there because they're going to revert back to agile processes and optimizing for things like Scrum, but they're not going to do what that role is designed for, which is to help product management processes. We don't usually need another agile coach telling us how to run a standup. We need people to come in and help us figure out who's invited to these cross-functional roadmap reviews, what inputs do we need on there, and what decisions do we need to make coming out of it, and how do we communicate it at the correct level to executives as well so we're not digging into Jira at these meetings in front of A CEO. CEOs don't care about what's in Jira. Well, they shouldn't. Let's put it that way.",
+   "zh": "我们还说，可以先从一个人开始。我们在书中反复强调：“专注于对你当下最重要、最能提供帮助的部分”，然后和对方深入探讨，最后让这个人先去试试看。通常，这样做能带来巨大的推动力，让你能腾出手来处理其他急需完成的任务。等你准备好迎接下一个挑战时，发现新障碍超出了第一个人的能力范围，这时你再增加人手也不迟。（00:42:18）  \n我们认为，三大支柱及其负责人员之间存在不同的专业领域，这也是需要考虑的因素。比如，在业务数据与洞察方面，负责人员通常不是产品专家。希望他们能通过与你合作快速掌握相关知识，但他们本质上并非产品专家。很多此类人员并非来自产品管理背景。这类角色需要有产品管理经验的人来负责治理和产品部分，因为他们通常要协助推进路线图工作，指导团队执行，构建产品运营模式所需的系统和流程。如果他们完全没有产品管理经验，完成这些任务会非常困难，效果也很难令人满意。  \n（00:43:05）  \n我们确实看到一些公司会派敏捷教练来负责这些工作，然而在成熟的公司中，没有产品管理经验的敏捷教练往往会遇到困难。他们可能会回到敏捷流程，优化Scrum之类的工具，但却无法完成敏捷教练的核心职责——支持产品管理流程。我们通常不需要另一个敏捷教练来教我们如何开站会。我们需要的是能帮我们规划跨职能路线图评审会的专家，明确需要哪些输入，制定哪些决策，并以合适的方式向高管汇报，这样我们就不必在CEO面前翻看Jira了。CEO们对Jira里的内容并不感兴趣。嗯，他们也不该感兴趣。这么说吧。",
+   "ts": "00:41:48"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Shouldn't.",
+   "zh": "应该不会吧。",
+   "ts": "00:43:57"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "They want to know like, \"What are the big pushes that we're doing to help us reach our strategic objectives?\" So it's helping that they know a little more about the right size of communication, the different cross-functional teams, what product managers do on a daily basis and what's important to them, and that's really critical in that role. So that's where, I think, your teams might just be slightly bigger from a perspective of more than one person. I'm not saying hundreds of people, but you might need a couple different people in this organization because the roles are slightly different. For the market research and the customer research thing too, you might need somebody with a user research background for that. Somebody who did research ops is a great person for that.",
+   "zh": "他们想了解的是：“我们正在采取哪些重大举措来助力实现战略目标？” 因此，让他们对沟通的适度性有更深入的认识，对跨职能团队有更清晰的理解，对产品经理日常工作的内容及其关注点有更深刻的认识，这对他们的工作至关重要。基于此，我认为你们团队的规模可能需要稍作调整，比如增加一到两名成员。我不是说要增加数百名员工，但你们的组织架构或许需要有所调整，因为各职位的职责略有不同。就市场调研和客户研究而言，你们可能需要具备用户研究背景的人才。曾从事研究运营的人选会是理想的人选。",
+   "ts": "00:43:59"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "It's pretty unusual, I think, to see companies start out with an entire team. I worked with Sam's Club and they were planning to do it that way, but mostly we see it starting organically. I think the way [inaudible 00:44:53] mentioned in her story of being a PM and feeling the pain and having the empathy of wanting to make it better, and that's typically the generation of these roles, that it might be someone being allocated part-time from their PM role and finding out that they really do enjoy this enablement aspect of it and that's where it grows.",
+   "zh": "我觉得，公司一开始就组建一个完整团队的情况相当罕见。我曾与山姆会员店合作，他们原本也打算这样做，但大多数情况下，这种角色是自然演变的。正如[00:44:53未听清]在她的故事中提到的，作为产品经理，她深切体会到用户的痛点，并怀揣着改善现状的同理心。这类角色通常是从产品经理岗位抽调部分时间来负责支持工作，随后发现自己真正热爱这种赋能客户的工作，于是逐渐发展成为全职角色。",
+   "ts": "00:44:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So let's just lean into this topic of just how to start rolling it out at your company, and you've already talked about a bunch of tips there. By the way, if you buy your book at the end there, there's this really beautiful little guy, there you go, I think, on the camera of just a little yellow brick road of all the steps that it takes to roll it out.",
+   "zh": "太棒了。接下来我们深入探讨如何在公司内推行这个角色。您已经分享了许多建议。顺便说一句，如果您在最后购买书籍，里面有一个精美的视觉指南，展示了从产品管理中剥离出来的各个步骤，就像《糖果乐园》里的路径一样。",
+   "ts": "00:45:12"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Yes, Candyland.",
+   "zh": "没错，就是《糖果乐园》。",
+   "ts": "00:45:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Candyland. So on this topic of just who to start with, sounds like you recommend start with one person, and what I'm hearing is pick one of these three pillars that you think is most highest leverage potentially to take off your product management plate. Is that right?",
+   "zh": "《糖果乐园》。关于起步阶段，您建议从一个人开始，并从您认为最能发挥杠杆作用的三个支柱中选择一个，将其从产品管理职责中剥离出来。是这样吗？",
+   "ts": "00:45:32"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Yup.",
+   "zh": "是的。",
+   "ts": "00:45:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So what else should people be thinking about in starting to roll this role out, starting to build this team?",
+   "zh": "那么，在开始推行这个角色、组建团队时，人们还需要考虑哪些其他因素？",
+   "ts": "00:45:49"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "That's a great question. So one of our case studies is Shintaro Matsui at Amplitude, and he created the role at Amplitude. When you think about, it's Meta. So they're creating a tool that helps in terms of product operations, but they're enabling it there as well. So he's done a really great job of getting that set up and really being a thought leader there. So the case study that we chatted with him about was introducing it and how do you get it going and how do you build the momentum and show the quick wins. That was his top tip was making sure that you set, understand, first of all, you may have a perception of what the biggest needs are, but doing your listening tour and doing your user research, some research sprints, understanding there may be a huge opportunity, but it also sounds massive in your team of one, where can you make the most difference quickly? Where can you have the most impact? (00:46:46): So identifying those, celebrating those wins, making sure everybody understands that, and then showing what's above the line with a person of one the capabilities you'll have, and then below the line, things that you may not get but you could if we did think about building the team and setting the expectations as well.",
+   "zh": "这是个很棒的问题。我们案例研究中的一个例子是Amplitude的松井信太郎，他在那里创建了这个角色。想想看，这家公司是Meta。所以他们开发了一个帮助产品运营的工具，但同时也在内部推广这一理念。他在建立这个角色、推动其发展、营造势头并展示快速成果方面做得非常出色。他的首要建议是首先要明确目标。您可能对最紧迫的需求有自己的看法，但通过倾听和用户研究、快速调研等方式，您会发现一个巨大的机会，但在一个人的团队中，这听起来又过于宏大。在这种情况下，您如何快速创造最大价值？如何产生最大影响？（00:46:46）：所以要识别这些成果，庆祝这些成功，确保每个人都理解这一点，然后展示单人团队所具备的上线能力，以及下线部分可能无法实现但如果组建团队并设定预期就能实现的功能。",
+   "ts": "00:45:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you suggest they try to hire someone that has already been a product ops person? Is it okay to hire someone that hasn't then they just become a product ops person? How important is that experience?",
+   "zh": "您建议他们优先聘请已经担任过产品运营角色的人吗？如果没有相关经验，直接培养是否可行？这种经验有多重要？",
+   "ts": "00:47:04"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "I think if you find someone that's done the role of product management, awesome. If someone's set it up somewhere ... Look at Blake Samic, started from Uber to Strike to AI. Clearly, he's got a model going that's really successful. So if somebody could get a Blake Samic, I would say definitely do that.",
+   "zh": "我认为如果能找到已经担任过产品管理角色的人，那当然很棒。如果有人在其他地方建立过这样的角色……看看布莱克·萨米奇，从Uber到Strike再到AI。他显然有一个非常成功的模式。所以如果能找到一个布莱克·萨米奇，我肯定会建议这样做。",
+   "ts": "00:47:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It'd be hard to pull him away from OpenAI.",
+   "zh": "要把他从OpenAI挖过来可不容易。",
+   "ts": "00:47:32"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I don't think he's leaving there right now. Just started, got a lot of work ahead of him.",
+   "zh": "我觉得他现在不会离开那里。他才刚入职，未来还有很多工作要做。",
+   "ts": "00:47:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We have a lot of LinkedIn requests right now. Here they come.",
+   "zh": "我们现在有很多领英上的请求。它们来了。",
+   "ts": "00:47:42"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Poor Blake. Sorry, sorry for your inbox. I think too it's about if you're going all in. If you're just trying to get buy-in for this and let's say it's originating from a CPO or a product leader who's like, \"Hey, let's start this out,\" but the company's not ready to invest all the way, you might pull somebody from a different function, let's say, have them be the product ops person and try to rapidly demonstrate value. If you're a CPO or a leader and you're like, \"I got budget. I know this is important. I'm totally bought in. Let's go,\" you're probably better off hiring, let's say, somebody who's done this before, somebody who's experienced, but also somebody who could be more of a VP or director of product ops and then they can go do the hiring and figuring out, \"Do we pull people from other functions and streamline it?\" That helps free up the leader as well from not having to go find 8,000. It's never going to be 8,000 people, but eight people to do that function. (00:48:43): So that would be a way to look at it as well. So if people are not quite sold on it, you might want to start with one function. Figure out where the burning issue is. Demonstrate that value. Show that it's something that you want to actually invest in, and then you might want to hire in a leader or help build up the team from there.",
+   "zh": "可怜的布莱克。抱歉，抱歉打扰你的收件箱了。我觉得关键在于你是否要全力以赴。如果你只是想争取支持，比如说由首席产品官或产品负责人提议“嘿，咱们开始吧”，但公司还没准备好全力投入，那你或许可以从其他部门抽调人员，让他们担任产品运营角色，快速证明价值。如果你是首席产品官或高管，觉得“我有预算，我知道这很重要，我完全支持，咱们行动吧”，那你或许更适合招聘有经验的人，比如曾成功负责过此类项目的VP或总监，让他们负责招聘和架构调整，比如从其他部门调人并优化流程。这也能让高管腾出精力，不必亲自去寻找8000人（当然实际不会有8000人，而是8个人来负责这个职能）。（00:48:43）这也是一种思路。如果大家对此还有疑虑，可以先从一个部门试点，从痛点入手，证明价值，表明这是值得投入的项目，之后再招聘领导或组建团队。",
+   "ts": "00:47:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It feels like that first hire is so important because if they don't do great, the whole role of product ops starts to get a bad tinge within the company. So there's a lot of pressure on making sure that first person succeeds. I guess more reason to buy your book and make sure that they do it right.",
+   "zh": "感觉首位招聘人员至关重要，因为如果他们做得不好，产品运营部门在公司内部就会名声受损。所以首位招聘人员必须成功，这压力太大了。看来更有理由买你的书，确保他们能做好这件事了。",
+   "ts": "00:49:00"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "If you feel like you as a leader can coach the product ops person and you have time to coach the product ops person, let's say, through being a good product ops person and getting started with it and directing them, you're probably good at taking somebody who does not have experience but has the right skillset and then you can teach them. If you have absolutely no time to coach this person and they're not super self-directed, let's say, so they're not going out taking classes, reading the books, doing that type of thing, probably going to want to hire somebody who's done it before, at least that portion of it, and then that person can help coach other people grow the function. (00:49:55): It's the same thing with product management. We look at these teams especially in a lot of transformation companies. We have a lot of product managers who've never been product managers before, and a lot of leaders who've never been product managers before, and they ask me, \"Do I hire in experienced leaders or what?\" and I'm like, \"Well, if those product leaders need to go coach other product managers, then you need somebody who's experienced in there. You need somebody who knows how to get that work done. If they don't have time to learn, if you're not on a timeline to actually teach these people these things and get them up to speed, then you need somebody to hit the ground running.\" (00:50:29): So I'd look at it for how much time do we have to demonstrate value, how much coaching is available to get this person into the right mindset and the right skillset to do this and execute. I think that that's needed in almost every role, not just this one.",
+   "zh": "假如你觉得自己作为领导者能够指导产品运营人员，并且有时间这样做——比如，通过自己成为一名优秀的产品运营人员、从零开始培养他们并提供指导——那么你很可能善于培养缺乏经验但具备合适技能的人才。反之，若你根本没有时间指导这位新人，而且他们又不善于自我驱动（比如不主动参加培训、研读相关书籍等），那么你可能更倾向于聘请有相关经验的人才，至少在某个特定领域有过成功经验的人，这样他们才能帮助其他人提升团队能力。\n\n（00:49:55） 产品管理领域的情况类似。我们观察到许多转型型企业中的团队，存在大量从未担任过产品经理的PM，以及许多从未担任过产品负责人的领导者。他们会问我：“是聘请有经验的领导者，还是另觅高明？”我的回答是：“如果这些产品负责人需要去指导其他产品经理，那么你需要有经验的人才加入团队——一个知道如何把工作做好的人。若他们没有时间学习，若你没有时间表来教会这些人相关技能并让他们快速上手，那么你就需要一个能直接上手的人才。”\n\n（00:50:29） 所以我会评估：我们有多少时间来证明价值？有多少指导资源能帮助这个人建立正确的思维模式和掌握所需技能？我认为这几乎适用于所有职位，而不只是产品运营或产品管理。",
+   "ts": "00:49:17"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "One thing I wanted to mention was whether to hire products or product manager person for the role with the background of product ops or product management, there's not a ton of folks out there that have a products title, but as you're looking, dig in because this person may have been doing a lot of the work as a product manager or within that title. So there's a lot of people out there that probably would fit that profile, but not with a proper product ops title.",
+   "zh": "我想提一点：在招聘有产品运营或产品管理背景的人才担任产品或产品经理角色时，市面上并无太多标注产品头衔的人才。但在筛选时，请深挖潜力——这些人可能已在产品经理岗位或相关头衔下承担过大量相关工作。因此，许多人才可能符合这一描述，但并非拥有正式的产品运营头衔。",
+   "ts": "00:50:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are the key skills that you find are really important for finding this person, especially if they don't have this role? My guess is dependent on the pillar, if they're data-focused, research-focused or process-focused. What do you suggest to make sure you're looking for when you're hiring this person?",
+   "zh": "在寻找这样的人才时，哪些关键技能最为重要，尤其是在他们未曾担任过该角色的情况下？我猜这取决于核心职责——是数据导向、研究导向还是流程导向。您建议在招聘时应重点关注哪些方面？",
+   "ts": "00:51:10"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "With the business data and insights, you're looking for somebody who's really good at interpreting data, telling stories with data, somebody who's good at communicating to many different types of stakeholders about the data and putting it into useful ways. What I wouldn't hire for that role as a first person is it's not a database engineer. That's not what we're doing. We're not SQL-ing, turning things into the right SQL tables. We're instead trying to get the information out of the SQL tables and make sense out of it. (00:51:59): So we actually find people with consultant backgrounds who are really good at this because they're usually churning out these types of reports and stuff for PE firms, VC firms, and whoever were their clients to begin with. What would be ideal is if that person has a lot of experience with a BI tool like Looker or Tableau as well and they could use it. That's not always the case. Sometimes those people are really good at Excel and PowerPoint, but they're not great at the Looker and BI. If you could find that two things together though, home run right there. (00:52:31): So this person's probably a data analyst background. We did have a business intelligence background like you were talking about as well, something like that for the business and data and insights role. It does not have to be a product manager. I think you can help them, steer them in the right directions for what questions you need to answer. They shouldn't be the ones coming up with all the questions you need to answer. It'd be great if they surface some insights, but you ask them the questions, they can go get the answers.",
+   "zh": "基于业务数据和洞察力，我们需要招聘一位善于解读数据、用数据讲故事的人，同时要能向各类利益相关者清晰传达数据信息，并将其转化为实用价值。我首先不考虑数据库工程师担任这个角色，因为我们的工作重点并非 SQL 编程或将数据转换为标准 SQL 表格，而是从 SQL 表格中提取信息并进行深度解析。（00:51:59）因此，我们倾向于招募具有咨询背景、擅长此类工作的人才——他们通常为私募股权公司、风险投资机构及其他客户撰写各类报告。理想的候选人应精通 Looker 或 Tableau 等商业智能工具，但这并非必备条件。有时他们仅擅长 Excel 和 PowerPoint，却不熟悉 Looker 或商业智能工具。若能兼具这两项能力，那就堪称完美匹配。（00:52:31）该职位候选人需具备数据分析师背景。我们确实也曾招聘过您提及的商业智能背景人才，符合业务与数据洞察力双重需求的专业人士。产品经理并非必须担任此角色，但您可以为其提供指导，帮助他们明确需要解答的关键问题。不应由产品经理包办所有提问——理想情况下，他们应主动挖掘洞察点，而您则负责提出问题，共同推动决策。",
+   "ts": "00:51:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What about for the other two pillars?",
+   "zh": "其他两个核心职位呢？",
+   "ts": "00:53:01"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Well, in terms of the process and practices, I think this person really needs a super high EQ, understanding what the needs are, but also has a good spidey sense of how much methods do we need to think about bringing to the team and thinking about how those things get introduced that it's not a mandate, but it's a suggestion of how we can work. Typically, product managers will be pretty open to that because if they're like, \"I don't know what the roadmap template is. I don't know what the roadmap cadence is.\" \"Here's some guidance.\" \"Awesome. Now I don't have to think about how to do it, I'm just going to do it.\" (00:53:38): So I think someone who has a lot of experience understanding the underlying tensions and opportunities, and then feels good and understands how to implement the systems thinking and also understands it's not a set it and forget it, that they're constantly reevaluating the processes, the tools, \"Are these working for us?\" Then understands, I think, in more broadly, \"As my CPO is getting ready for a board meeting, what are the inputs they're going to need? As we're getting ready for the QBR, are the PMs ready? Do we have a cohesive stories? Anybody taking the time to look at all of the different presentations to make sure that we're giving the same perspective or building towards a certain strategy that everybody's focused on?\" So that would be my advice.",
+   "zh": "就流程与实践而言，我认为该职位需具备极高情商，既要理解业务需求，又要善于把握引入新方法的时机。产品经理通常乐于接受建议，他们会说：“我不知道路线图模板该如何设置。”“这里有一些指导方针。”“太棒了！现在我无需费心思考如何操作，直接照做即可。”（00:53:38）因此，我认为理想候选人需深谙潜在矛盾与机遇，善于实施系统思维，并理解这并非一劳永逸的解决方案——需持续评估流程与工具。“当首席产品官为董事会会议做准备时，他们需要哪些资料？”“在季度业务回顾（QBR）前夕，产品经理是否已准备就绪？我们是否有连贯的汇报框架？”这些都是我给出的建议。",
+   "ts": "00:53:02"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I think for customer and market research part, you're looking for somebody with more of a user research background here, but process-oriented. So I'd look for somebody who knows user research code, knows really good tactics for that because it can help create the toolkits, get the right type of prototyping and usability software in there. They know what good interviewing looks like, that type of stuff, but they also got this need to make things better. So they're like, \"I need to create a system to do this.\" They're good at operationalizing stuff. I think that's a skill for everybody. They're like, \"I can build a system to fix this.\" That's actually a really good interview guild that I would ask a product ops person and I never came up with it. I never thought about that before, but it's like, \"Tell me about some process or something that you had to do in your job that you really hated and that you ended up just trying to automate a way or build a system around it to make it better.\" That would be a great interview question for anybody in those roles, I think. (00:55:27): With the user and market insights person too, there's not a ton of people out there doing this, but there is a little research ops movement out there that I think could be really valuable here. So Jen Cardello, who is our case study on Fidelity, she runs their user insights team there and she's our VP of, I think it's user insights and she does oversee all the user researchers as well, but she also oversees a research ops team, and the research ops team is responsible for building their participant database. They also help build toolkits for people to do user research. They oversee any of the user research tools. They also go out and train other people in doing good user research. (00:56:07): So with them, that looks like not everybody's allowed to go talk to customers and financial firms like this because of compliance reasons. They make sure they certify people to be able to go do good research up to certain points and they get levels for how far they can go so that they can democratize the research and help put it into their hands. Then if there's compliant issues around different research studies, they come back to Jen's team and the user researchers will help them complete it. (00:56:33): So it's about how we ... There's a lot of legal things about what you can say and what you can't say to customers and stuff like that, what you can ask them, and they're navigating those complexities around there. So Jen comes from a research ops background. She comes from a whole UX background, but research ops is her thing and she's fantastic at setting up that stuff. She and I worked together at Athenahealth and she did that there. So I watched her put that into place and it was amazing and now she does it at Fidelity. (00:57:00): So if you find somebody with that background, golden, but if you find somebody who ... If you can't find somebody like Jen because there's only one Jen, you should look for somebody who has at least a user research background, probably some UX background. They're really good at doing that and they want to operationalize it.",
+   "zh": "我认为在客户和市场研究方面，你需要找一个有用户研究背景但注重流程导向的人。所以我会寻找既懂用户研究代码，又精通相关策略的人——这些技能能帮助他们搭建工具包，选择合适的原型设计和可用性测试软件。他们要清楚高质量访谈的标准，还要有持续优化流程的意愿。比如他们会说：“我需要建立一个系统来解决这个问题。”这种善于将想法付诸实践的能力对每个人都很重要。他们会说：“我能开发一个系统来修复这个问题。”这其实是一个很棒的面试问题，我建议产品运营人员可以用这个问题。我从未想到过，但可以这样问：“请分享你在工作中遇到过的最让人头疼的流程或问题，最后你是如何通过自动化或搭建系统来优化它的。” 我认为这对任何相关职位都是绝佳的面试题。\n\n（00:55:27）关于用户和市场洞察方面的职位，虽然目前从事这方面工作的人不多，但研究运营领域正在兴起，我认为这对我们很有价值。比如Fidelity的案例研究对象Jen Cardello，她负责用户洞察团队，同时也是该团队的副总裁。她不仅管理用户研究员，还领导研究运营团队。研究运营团队负责建立参与者数据库，开发用户研究工具包，并为其他人提供优质的用户研究培训。\n\n（00:56:07）由于合规原因，Jen的团队成员无法直接与客户和金融机构接触。他们通过认证确保研究人员在特定范围内开展工作，设定不同权限级别以实现研究民主化。若研究项目存在合规问题，团队会提交给Jen的团队，由用户研究员协助完成。\n\n（00:56:33）关键在于如何处理合规问题。比如，关于向客户透露信息的限制，以及问卷设计的规范，他们需要巧妙应对这些复杂问题。Jen来自研究运营背景，拥有完整的用户体验经验，但研究运营是她的专长，她在Athenahealth和Fidelity都表现出色。\n\n（00:57:00）如果能找到具备相关背景的人，那再好不过。但若找不到Jen这样的人才，至少要确保候选人有用户研究背景，可能还需具备用户体验经验。他们要善于将研究成果转化为可执行的方案。",
+   "ts": "00:54:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Jen's about to get a bunch of LinkedIn requests too.",
+   "zh": "Jen又要收到一堆领英请求了。",
+   "ts": "00:57:18"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Sorry for your inbox, Jen.",
+   "zh": "Jen，真是麻烦你了。",
+   "ts": "00:57:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like the research team is going to hate people now for pulling you into product ops. Who would you suggest product ops report to generally at least to start?",
+   "zh": "我感觉研发团队现在会因为你把他拉进产品运营部门而对他心存不满。你觉得产品运营部门通常应该向谁汇报？至少在初期阶段应该向谁汇报？",
+   "ts": "00:57:23"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Head a product.",
+   "zh": "向产品负责人汇报。",
+   "ts": "00:57:35"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "CPO.",
+   "zh": "首席产品官（CPO）。",
+   "ts": "00:57:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Such a clear, quick answer. I love it. How do they find time to train and work with this person? Are they the right-hand person that helps them just make everything more efficient? What's a way? What's that relationship like?",
+   "zh": "回答得如此清晰、简洁。我太喜欢了。他们怎么有时间培训和指导这个人？他们是首席产品官的得力助手吗？帮助他们提高效率吗？具体怎么做？这种关系是怎样的？",
+   "ts": "00:57:38"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I think definitely their right-hand person, and we say to a lot of CPOs, especially high growth companies, \"Make your first hire just a product ops person to help you get this data out and start looking at it,\" because that helps them with board meetings, it helps them set strategy. Usually when you walk into a growth stage company, that's the first thing that you need to do is make sure that it's working, that you need to set it. Typically, when you're getting hired, there's usually a strategy problem and that person, they're like your right-hand man trying to operationalize that. So I definitely think that you're going to be guiding them there. (00:58:23): I think this comes back to our question though about, do you hire somebody with experience or do you hire somebody who's new to it? If you as a CPO don't have a lot of time to train up somebody on product ops because you've got 8,000 fires to fight, then hire somebody with experience who knows how to do it and operationalize it. If you are like, \"My biggest issue is business data and insights,\" for example, \"and I just need to get my data so that I can do the strategy pieces and then I need to think through and work through what I want product ops to look like,\" maybe then you just hire the data analyst. If they're confident in the data analysis piece, it's pretty easy, I haven't done this myself, to teach them about what types of information you need to see as a product person. They're going to need a lot more handholding at the beginning because they're not going to know all the different cuts of data, but it's not an investment of an inordinate amount of time to be able to get something valuable back. (00:59:20): It's not like training for 40 hours a week and then waiting six months to see results. It's more about, \"I need you to go pull these types of cuts. Here's why. Let me explain to you this so that you learn it and then you can think about it next time,\" but that's going to help you there too. So I think it really depends. So how fast you need product ops fully rolled out and then how much time you have to train people, and then where you're starting from there and how big and how much buy-in you have to grow this thing from the get-go.",
+   "zh": "我觉得他肯定是首席产品官的得力助手。我们常对很多CPO，尤其是高增长公司说：“首位招聘的产品运营人员，要帮助你提取数据并开始分析。”因为这能助力董事会会议，助力战略制定。通常进入成长阶段的公司，首要任务就是确保数据系统正常运作并进行优化。刚入职时，公司往往面临战略问题，而这个人就像你的得力助手，帮助你将战略落地。（00:58:23）不过这又回到了我们的问题：是招聘有经验的人，还是新手？如果CPO没有时间培训产品运营人员，因为日常工作繁忙，那就直接招聘有经验的人，让他们快速上手。如果你面临的主要问题是商业数据和洞察，比如“我需要获取数据以制定战略”，然后再思考产品运营部门的架构，或许可以先招聘数据分析师。如果他们对数据分析有信心，教他们产品视角需要关注的数据类型并不难。初期他们需要更多手把手指导，因为他们不熟悉各种数据维度，但投入适度时间就能获得宝贵成果。（00:59:20）这不是每周培训40小时然后等半年才见效，而是逐步引导：“现在去提取这些数据。原因是这样的。让我解释一下，这样你就能掌握，然后下次再优化。”这也会助你一臂之力。所以关键在于：你需要多快让产品运营部门全面运转起来，培训时间有多少，初始基础如何，以及从一开始就获得多大的支持和认可。",
+   "ts": "00:57:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Maybe as a last question, I'd love to go through a quick case study of a company you worked with and just share maybe how you rolled it out, what you ran into, challenges you had to overcome, and maybe the benefits and impact that adding this role had.",
+   "zh": "太棒了。最后一个问题，我想快速分享一个你合作过的公司的案例，讲讲如何推进、遇到的挑战、克服的难题，以及这个角色带来的益处和影响。",
+   "ts": "00:59:49"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "When I was at Athenahealth, we were doing a ... Athenahealth has always been a software company, so let me put it that way, but they didn't have a formal product management role and they had just implemented it when I came in. So the chief product officer brought me in. He did not have an extensive product background, so he said, \"I need to train all these product people and figure out what to do with this organization.\" So I came in to help him do that. We had over 360 product managers. We had 5,000 software developers there and it was a massive platform, $8 billion in market cap, I think, electronic health record system. (01:00:42): So this is where I started to realize we needed product ops. This was me discovering this. So I'll tell you how we rolled it out and probably what we would do differently next time, but we had trained all the product managers. People were starting to use a lot of the things that we were teaching, and we saw that the maturity was getting a lot better in the organization, which was fantastic, but then we started to run into these problems, and these problems that we found could not be solved by just training product managers, and that's where the concept for product ops came up. (01:01:11): We also realized we had way too many product managers, just way too many product managers. There was one person reporting into one person all the way down, and we were like, \"This is not helpful.\" So we ended up training everybody, teaching people about what the role was, and then thinking through as we encounter these other problems, \"What else do we need besides product managers?\" Product ops became one of the things. We also had people actually move out of product management into other roles. We had people become data analysts, we had people become user researchers, we had people go into other parts of the organization, but a lot of people after we trained them actually just self-selected out of product management and some of them did come to us and say, \"What else is there?\" (01:01:53): When we looked at the product ops role, we said, \"Okay. What are the big fires that we have to fight that's just not from a lack of skills perspective?\" That's a big part about product ops. It's not a replacement for product managers or product leaders not having product management skills. It's to help skilled product managers and product leaders do their job better. So this will never replace the fact that people don't have the skills to do their job. (01:02:19): So where we ran into issues was, one, getting insights back to the executives on what the teams were actually doing. So the CEO and I were sitting there trying to set strategy and set the vision for the company and I was helping him formulate it into written form and help him deploy it and think through where we want it to go. He was in Jira, digging around in Jira trying to find information on what people were working on, and I was like, \"You're not going to find that in Jira, especially when we've got hundreds of thousands of tickets for 5,000 people. You're not going to find this in there.\" (01:02:57): That started to show me, \"Hey, he's looking for this. What do you want to see?\" He's looking for a portfolio roadmap of what everybody's doing and he wanted to see what are the big pushes we're making from a feature perspective and how do they tie back to our overall strategy and our goals. What's going to help our retention? What's going to help us get new customers? What's going to help us move into the enterprise, which was a big thing we were doing going upmarket into hospitals? We had no transparency into the allocation of R&D on that and also the roadmaps on that. (01:03:29): So one of the things that we were trying to do in product ops was build that view, try to figure out how we get people to put the right information into Jira at the right level. So we actually had to train people on how to write ... At the time, we only had Jira, so epics in Jira that were not just build a button, they were more substantial than that. They actually had to meet behind it so we could look at it. Then we had to go out and find the right software to roll that up into a portfolio view so the executives could get the insights they were looking for. (01:04:00): We also had to build a way to track the OKRs that were deployed and actually see where it was. So we had to build the dashboards for that. So we started there and that became really important because that was a big issue was just the executive visibility, how do we make consistent roadmaps across the organizations, how do we get visibility into what's going on. As we started to identify more and more things, we said, \"We're a huge team. We should actually have somebody overseeing this.\" (01:04:27): Data and insights was a really big issue in the company in general, and we knew we had to instrument things better, and at the time, they brought in Amplitude and they were starting to put an Amplitude everywhere in the organization, but it wasn't fully rolled out yet. So we had these people who were going around trying to help the individual product teams get the information out of Amplitude and we said, \"We need this to be more of a consistent thing, a consistent program.\" (01:04:52): So that sparked the need for having our first product operations leader. So we ended up creating a VP of product operations and somebody moved from the product management role into that. She was much more of a process type person. She wanted to really help arm the teams into being able to get good data out there, but she understood product management well enough where she knew how all this stuff worked and she wanted to create the systems internally. (01:05:17): So reporting into her, we had a business data and insights team that was overseeing Amplitude rollout and they were also putting people around the director level overseeing usually five to let's say eight Scrum teams on the director level, sometimes smaller just depending on the product. We had a business data and insights person embedded at that level to help get the ad hoc reports out now because we weren't well-instrumented. We said, \"We're still making the programs and the shared services at the top level, but these people need to make decisions today. So how do we get them to do that?\" So she oversaw that team. She had somebody directed there. (01:05:55): then we also had the people looking at the portfolio views and the governance and the rollout and the rollout of that getting put into that as well. So that helped us get going with that. On the other side, so this didn't fall under product operations at the time, but like I said, Jen Cardello was doing research ops there and leading this team around the user insights. She got the participant database out. That was fantastic. She got out a bunch of different user research tools. They made a design systems database too that helped us be able to do prototyping a lot faster and have consistent design processes, which was amazing. (01:06:32): The head of UX reported into the chief product officer. So it still fell under the CPO, but it reported into the head of UX on that side and that was totally fine because we just collaborated with them pretty much all the time. So that's how we started to roll it out and get going and that's where that need was and it became so much better to get the insights that we needed out there. (01:06:53): Then what happened was, actually, Athenahealth at this time, it was really wild and private. So this is where I left and a lot of leaders left at the same time, but they ended up restructuring it and they actually kept the product ops team. So now, Tim Davenport oversees product ops team. He was the chief of staff for the chief product officer at the time and he's been building it, again, taking the stuff that worked and then building onto it, and they're actually one of our key studies in the book as well about what Tim's doing now and how he's orchestrated as well to help with opex and capex and accounting type issues that they were having too. (01:07:28): So Athenahealth has been through many different restructurings since I've been there, but they have always kept product ops and their current chief product officer said that he will never go anywhere else that doesn't have product ops. That's how much he believes in it.",
+   "zh": "我在Athenahealth工作时，我们当时正在做一个……Athenahealth一直是一家软件公司，所以这么说吧，但他们当时并没有正式的产品管理职位，我加入后他们才刚刚设立这个职位。于是首席产品官找我加入。他本身没有深厚的产品背景，所以他说：“我需要培训所有产品团队成员，规划如何运作整个组织。”于是我来帮助他做这件事。我们当时有超过360名产品经理，还有5000名软件开发人员，平台规模庞大，市值约80亿美元，属于电子健康记录系统。（01:00:42）：就在这时，我开始意识到我们需要产品运营团队。这是我对此的发现。我会讲讲我们是如何推行产品运营的，或许还能谈谈下次会如何改进，但我们确实培训了所有产品经理。人们开始应用我们传授的许多方法，组织的成熟度明显提升，这很棒，但随后我们遇到了一些问题，这些问题仅靠培训产品经理无法解决，产品运营的概念由此产生。（01:01:11）：我们还意识到产品经理数量过多，太多太多了。从上到下每个人都只对一个人汇报，我们觉得这毫无帮助。于是我们最终对所有人进行培训，教他们理解产品经理的角色，然后在遇到其他问题时思考：“除了产品经理，我们还需要什么？” 产品运营团队就是其中一项。我们甚至有一些人从产品管理岗位转向其他角色，比如成为数据分析师、用户研究员，或者进入组织的其他部门。但许多接受培训后的人最终主动退出产品管理领域，有些人确实来问：“还有其他机会吗？” （01:01:53）：审视产品运营角色时，我们问：“好吧，我们需要应对哪些迫在眉睫的挑战？” 这正是产品运营的核心所在。它并非取代产品经理或产品领导的技能缺失，而是帮助有能力的管理者更好地开展工作。因此，它永远无法替代那些缺乏技能的人。 （01:02:19）：我们遇到的难题之一是，向高管汇报团队实际进展情况。我们和CEO坐在一起，试图制定公司战略和愿景。我帮他将其转化为书面文件，协助部署并思考未来方向。他却在Jira系统里翻找信息，试图了解团队在做什么。我说：“你别在Jira里找了，尤其是我们有5000名员工，数十万个工单。你找不到的。” （01:02:57）：这让我意识到：“他在找什么？” 他需要一份产品路线图，了解每个人在做什么项目，从功能角度看哪些是重头戏，又如何与我们的整体战略和目标相结合。哪些能提升用户留存率？哪些能帮助我们赢得新客户？哪些能助力我们进军企业级市场？这正是我们向高端市场进军的关键举措。\n医院？我们对研发资源分配和路线图规划缺乏透明度。（01:03:29）：因此，产品运营团队试图建立这样的视图，引导团队将正确的信息以合适的层级录入Jira系统。当时我们仅有Jira平台，因此Jira中的“Epic”任务不只是“构建按钮”那么简单，而是需要更深入的规划。为此，我们必须召开专题会议进行讨论。随后，我们需要寻找合适的软件将这些信息整合成项目组合视图，以便高管们获取所需洞察。（01:04:00）：此外，我们还需追踪已部署的OKR进展并实时掌握执行情况。因此，我们专门搭建了相关仪表盘。这些基础工作的确至关重要，因为高管层对项目进展的把控能力，以及各部门路线图的统一性，都曾成为关键挑战。随着问题逐渐浮出水面，我们意识到团队规模庞大，急需设立专门职位进行统筹管理。（01:04:27）：数据与洞察力是公司整体面临的重大挑战。我们深知必须优化数据采集体系，当时公司已引入Amplitude分析平台并开始在全公司推广，但系统尚未全面上线。因此，我们组织团队成员协助各产品团队从Amplitude中提取数据，并计划将这项工作提升为系统化项目。（01:05:17）：最终，我们设立了首位产品运营副总裁一职，并从产品管理岗位调派人员担任此职。她更偏向流程型思维，既能为团队提供数据支持，又深谙产品管理逻辑，善于搭建内部数据体系。（01:05:55）：在她的领导下，商业数据与洞察团队负责Amplitude平台的推广，并派遣副总监级别人员管理5-8个Scrum团队，视具体产品规模而定。团队配备专业人员协助处理临时报告需求，因为当时数据采集体系尚不完善。我们需要确保高层决策层面与基层团队之间的信息流转顺畅。（01:06:32）：此外，用户洞察团队（当时隶属于产品运营）在Jen Cardello的领导下开展工作，成功搭建参与者数据库，整合多款用户研究工具，并建立设计系统数据库，这些举措极大提升了原型设计效率，推动了设计标准化进程，成效显著。（01:07:03）：用户体验部门直接向首席产品官汇报，保持了与CPO的职能对接，但具体工作由用户体验负责人统筹管理。\n\n---\n另一方面，这完全没问题，因为我们几乎一直与他们合作。所以我们就是这样逐步开展工作的，这也正是我们最初的需求所在——通过获取所需的洞察力来提升效率。（01:06:53）随后的情况是，Athenahealth当时的运作方式非常混乱且封闭。正因如此，我和许多高管同时离开了公司，但他们最终对公司进行了重组，保留了产品运营团队。如今，Tim Davenport负责监督产品运营团队。他曾是首席产品官的幕僚长，一直在不断完善团队，借鉴成功经验并在此基础上进行创新。Tim目前的做法以及他如何协调处理运营成本、资本支出和财务管理等问题，也成为我们书中重点研究的案例之一。（01:07:28）自从我离开后，Athenahealth经历了多次重组，但始终保留了产品运营团队。现任首席产品官表示，他绝不会去没有产品运营团队的公司工作。这足以说明他对产品运营团队的重视程度。",
+   "ts": "01:00:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. What a testament to the value of product ops, 100% retention on the role through all these transitions. One of the interesting things you said is within this VP of product ops managed a bunch of different people and teams, which is really interesting because I always imagine product ops VP would manage product ops people. Is that common where they lead, say, there's a data team you mentioned and a few other team?",
+   "zh": "哇。产品运营的价值真是显而易见啊，在所有变动中，这个岗位的留存率达到了100%。你提到的有趣点是，产品运营副总裁要管理多个不同的人员和团队，这真的很有意思，因为我一直以为产品运营副总裁应该只负责产品运营团队。这种情况常见吗？比如说，你提到的数据团队，还有其他团队？",
+   "ts": "01:07:43"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Yeah. In this case, we did have her managing the business data and insights people and they were data analysts. I wouldn't say they were data engineers or anything like that, but there were people who were really good at pulling SQL and analyzing data from a product perspective. We actually moved. I should say this as well. We moved a lot of people who didn't want to be product managers but were good at that out of the role and into that role. So they had some product background, they had been trained in product, they were really good at the data pieces, but they were more suited for that than they were suited for product management. Like I said, a lot of people opted out. They were like, \"Get me out of this role. I don't want to do this.\" They wanted more of a transactional type role or diving into data, and a lot of it came down to I think people under anticipate how much they're going to have to deal with stakeholders, and once they have to, they're like, \"Oh, God, I don't want to do this,\" and I see that over and over again when it happens with product management. (01:09:00): So she oversaw them, but they did work closely with the data people on the CTO side. There was a whole data team on the CTO side who were doing more of the database administration and the instrumentation of things. They were also helping to roll out Amplitude, instrument it correctly, and building the right views and things like Amplitudes or the other product analytics or other tools that they were using. We did not have Tableau at the time. That was something that was added later, but they were in charge of utilizing the data and trying to build those insights.",
+   "zh": "是的。在我们公司，她确实负责管理商业数据和洞察团队，这些人都是数据分析师。我不会说他们是数据工程师之类的，但确实有一些人非常擅长从产品视角提取SQL数据并进行分析。实际上，我们还进行了调整。我也应该说明一下。我们把很多不愿做产品经理但又擅长这方面的人从产品经理岗位调到了这个角色。他们有产品背景，接受过产品培训，数据能力也不错，但相比产品管理，他们更适合这个角色。就像我说的，很多人选择退出。他们会说：“让我离开这个岗位吧。我不想做这个。”他们更想做交易型角色，或者深入研究数据。很多情况下，人们低估了需要与利益相关者打交道的难度，等真要面对时，就会说：“天哪，我不想做这个。” 我在产品管理领域反复看到这种情况。  (01:09:00)：所以她监督这些团队，但他们确实与CTO团队的数据人员密切合作。CTO团队有一个完整的数据团队，负责数据库管理和工具集成。他们还帮助部署Amplitude，正确配置Amplitude，构建合适的视图，以及使用Amplitude、其他产品分析工具或其他相关工具。当时我们没有Tableau，那是后来才添加的。但他们负责利用数据并试图构建洞察力。",
+   "ts": "01:08:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. With that, we've reached our very exciting lightning round. I've never done this with two people. We'll see how it goes. So you can pick the question you want to take or both answer. Here we go. What are two or three books you've recommended most to other people?",
+   "zh": "太棒了。说到这，我们迎来了一个非常激动人心的闪电问答环节。我从没和两个人一起做过这种环节。看看效果如何吧。你可以选择你想回答的问题，或者两个都回答。开始吧。你向其他人推荐最多的两三本书是什么？",
+   "ts": "01:09:33"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "I'll take that. Of course, Escaping the Build Trap. It's true.",
+   "zh": "我来回答。当然，《逃离构建陷阱》。这本书说得很对。",
+   "ts": "01:09:48"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I thought you would say that.",
+   "zh": "我就知道你会这么说。",
+   "ts": "01:09:51"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Another one that I recommend is called Traffic. It came out this year by Ben Smith, around the invention and growth of HuffPo and Gawker and whatnot. I was in media at Condé Nast then, so peripherally part of it. It's an exciting ride that has an ending that we all know, but it's a good story, good tale.",
+   "zh": "我推荐的另一本书叫《流量》，本·史密斯今年出版的，讲的是HuffPo和Gawker等媒体的创立和发展。我当时在康泰纳仕做媒体工作，所以算是间接参与其中。这是一段激动人心的旅程，结局我们都知道，但故事很精彩。",
+   "ts": "01:09:54"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "The Art of Action I think is a fantastic book on strategy and I always recommend this to people and it's out of the realm. There's a lot of great product management books out there too, but I like this one because it's a sleeper hit, I think, in the product management community. It is a fantastic description of deploying strategy and how you can tell if strategy is well-deployed in organizations or if there's gaps that you need to fill. So I find that when people read it, they go, \"Oh, my God, we have all of these problems,\" and I'm like, \"Yup, that's a strategy deployment and strategy creation problem. That's pretty apparent.\" So that's my favorite book to recommend to people. I love Theresa Torres' Continuous Discovery Habits. Fantastic book as well, just to give a shout out in the product world too.",
+   "zh": "我认为《行动的艺术》是一本关于战略的绝佳书籍，我总是向人们推荐它，它超出了人们的想象。市面上也有很多优秀的产品管理书籍，但我特别喜欢这本，因为它在产品管理领域堪称一匹黑马。我认为它出色地描述了如何部署战略，以及如何判断组织中的战略是否得到了有效实施，还是存在需要填补的空白。所以当人们读到它时，会感叹：“天哪，我们也存在这些问题。”而我会说：“没错，这就是战略部署和战略制定的问题，显而易见。”所以这是我最喜欢推荐给别人的书。我还很喜欢特蕾莎·托雷斯的《持续探索习惯》。这本书也很棒，我想在产品界也推荐一下。",
+   "ts": "01:10:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Next question, favorite recent movie or TV show that you've really enjoyed?",
+   "zh": "下一个问题，您最近有没有特别喜欢的电影或电视剧？",
+   "ts": "01:10:57"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Deutschland 82, 86, 89. It's on Hulu. Highly recommend it, about East Germany.",
+   "zh": "《德国82、86、89》。这部剧在Hulu上播出。强烈推荐，讲的是东德的故事。",
+   "ts": "01:11:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Like Pedal.",
+   "zh": "比如《踏板》。",
+   "ts": "01:11:08"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Yeah, really great.",
+   "zh": "是的，真的很棒。",
+   "ts": "01:11:09"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "I am going to go ... I just watched the House of Usher on Netflix. I love the ... It's Halloween right now. Well, it was just Halloween.",
+   "zh": "我要去……我刚在Netflix上看完《庄园幽灵》。我超爱这个……现在正值万圣节。嗯，刚刚过完万圣节。",
+   "ts": "01:11:12"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Perfect.",
+   "zh": "完美。",
+   "ts": "01:11:12"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "So I was watching all the scary movies, but I love the Netflix genre of everything from the Haunting of Hill House. Those were great.",
+   "zh": "所以我一直在看各种恐怖片，但我最喜欢Netflix上从《鬼入侵》开始的所有类型片。那些都非常棒。",
+   "ts": "01:11:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I started watching that and then I gave up quickly, but I should give it another chance. My wife and I have been stuck on Love is Blind. Classic.",
+   "zh": "太棒了。我开始看，但很快就放弃了，不过我应该再给它一次机会。我和妻子最近一直在追《爱情盲盒》。这部剧太经典了。",
+   "ts": "01:11:31"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Same.",
+   "zh": "一样。",
+   "ts": "01:11:39"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Good one.",
+   "zh": "不错。",
+   "ts": "01:11:40"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Same.",
+   "zh": "一样。",
+   "ts": "01:11:40"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Good one.",
+   "zh": "不错。",
+   "ts": "01:11:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a terrible, wonderful show.",
+   "zh": "真是一部糟糕又精彩的剧集。",
+   "ts": "01:11:41"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "It is. It's the high low.",
+   "zh": "确实如此。它兼具高雅与低俗元素。",
+   "ts": "01:11:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Next question, do you have a favorite interview question that you'd like to ask when you're hiring people?",
+   "zh": "下一个问题，您在招聘时最喜欢问的面试问题是什么？",
+   "ts": "01:11:45"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "When was the last time you changed your mind about something really important and why? So do they have a learning mindset? Do they have self-awareness? Can they acknowledge where they were and how they evolved? So that's usually a pretty insightful question.",
+   "zh": "您上一次改变对某件重要事情的看法是什么时候，为什么？这样就能判断他们是否有学习型思维吗？他们是否有自我意识？他们能承认自己的过去和成长吗？所以这通常是个很有洞察力的问题。",
+   "ts": "01:11:49"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Mine's probably tell me about a time that you failed and what happened. That one's an interesting one too because if nobody has an example of a time that they failed, that right there is an interesting sign. Two, I feel like everybody tries to turn it into a positive story. They really try to spin it and I'm like, \"I don't even want you to spin it. I just want to tell me what you learned.\" It's fine to say what you learned at the end of that. I think that's okay, but they're like, \"Oh, but this happened and all these things were great afterwards,\" and I'm like, \"I'm not looking for a fantastic outcome. I'm just looking for did you fail and did you learn something from it.\"",
+   "zh": "我最喜欢的可能是让他们讲一次自己失败的经历以及结果。这是个很有趣的问题，因为如果没人能举出失败的例子，那本身就是个值得注意的信号。其次，我觉得每个人都会试图把它包装成一个积极的故事。他们总想粉饰太平，而我会说：“我不想听你美化它，我只想知道你从中学到了什么。”你可以在最后再说学到了什么。我觉得这没问题，但他们会说：“哦，但后来发生了这些事，结果都很棒。”而我会说：“我不关心结果，我只想知道你有没有失败，有没有从中吸取教训。”",
+   "ts": "01:12:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite product you've recently discovered that you really like?",
+   "zh": "您最近有没有发现特别喜欢的产品？",
+   "ts": "01:12:43"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Well, there's one I'm going to have to plug. It's not that I recently discovered it, but I talked about all the issues that we had at Athenahealth with the portfolio management system, and after that, I discovered Dragon Boat and I'm now on their advisory board, but it helped me solve that problem. So much of rolling up everything that was in Jira sits on top of it and being able to look at it in a great view. So that was so, so good. (01:13:13): Another one that I have not been involved with but that I just really love because I think they're doing great things with, again, in the product ops world, is Dovetail and they are a research repository out there and they're also putting AI on top of it to help generate insights into all the research that's been done. I have no affiliation with Dovetail, but I really love what they're doing because I've had that problem of us rolling our own research repository over and over and over again, and now we've got a tool out there to do it.",
+   "zh": "嗯，有一个我得推荐一下。虽然我最近才发现它，但之前我谈到了Athenahealth在投资组合管理系统方面遇到的种种问题。在那之后，我接触到了Dragon Boat，现在我成了他们的顾问委员会成员，但它确实帮我解决了那个问题。把Jira里所有内容整合起来的功能非常棒，能以直观的视角查看所有信息。这真是太棒了。（01:13:13）：另一个我没参与过但非常欣赏的公司是Dovetail。他们在产品运营领域做得很棒，是一家研究库平台，还在其基础上应用了人工智能，帮助人们从已有研究中提取洞见。我和Dovetail没有合作关系，但我真的很欣赏他们的工作，因为我们曾反复尝试自己搭建研究库，现在终于有了一个现成的工具可以解决这个问题。",
+   "ts": "01:12:47"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "I guess the one I would mention is Vistali, and some product leaders that I'm working with right now are playing around with it, and it's an interesting tool that's a single workspace that you can connect your strategy and discovery and delivery visually and guides people along those paths as well. So interested to play with it more, but it piqued my interest.",
+   "zh": "我想提到的还有Vistali，我现在合作的一些产品负责人正在试用它。这是个很有趣的工具，提供了一个单一的工作空间，你可以直观地连接战略、发现和交付路径，还能沿着这些路径引导团队。很期待能更深入地探索它，但它确实引起了我的兴趣。",
+   "ts": "01:13:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite life motto that you often repeat to yourself, often share with someone, come back to often to help either with work or with life?",
+   "zh": "你有没有经常对自己重复、经常与人分享、经常回味以帮助工作或生活的心灵鸡汤？",
+   "ts": "01:14:05"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Mine's both, especially with teams that I'm working with or cross-functional stakeholders that if you try to serve everybody, you serve no one. So it's about honing in on who you're actually building your product for, who your persona is, and then with my children in terms of try to be everyone's friend, but it may not happen. So it goes both ways.",
+   "zh": "我两者都有，特别是对于合作的团队或跨职能的利益相关者来说，如果你试图取悦所有人，就等于取悦不了任何人。所以关键在于明确产品真正为谁服务，了解你的用户画像。对我和孩子相处时，比如想成为每个人的朋友，但可能做不到。所以这两者是相通的。",
+   "ts": "01:14:15"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "What's the worst that can happen with most of the things that I've done? To me when I get scared about something or trying to do something or even interpersonal reactions where I'm like, \"God, I have to have this hard conversation with this person,\" my brain, I try to tell myself, \"What's the worst that can happen?\" Usually when you sit down and start to think about it, it's not as bad as you anticipate. So for me, that's always helped me manage my anxiety around difficult situations or taking a leap and trying to get out there. I think in my younger days, I was a little crippled by overthinking and by being too anxious about things and not taking big leaps. So I've tried to stick by that and keep asking myself, \"What's the worst that can happen?\" and it's usually not as bad as you think it is.",
+   "zh": "我做过的大多数事情，最坏的情况会怎样？对我来说，当我对某件事感到恐惧，或者尝试做某件事时，甚至在人际交往中遇到需要严肃对话的局面时，我的大脑会提醒自己：“最坏的情况会怎样？”通常当你静下心来思考时，情况并没有你预想的那么糟糕。所以对我来说，这一直帮助我应对困难局面时的焦虑，或者勇敢尝试新事物。回想年轻时，我曾因过度思考、过度焦虑而裹足不前，错失良机。所以我一直努力秉持这个理念，不断问自己：“最坏的情况会怎样？”，结果往往比你想象的要好得多。",
+   "ts": "01:14:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Final question, since there's two of you, we'll end in a really sweet way. What's one thing you really admire about each other?",
+   "zh": "我喜欢这个问题。最后一个问题，因为你们两人都在场，我们会以一个温馨的方式结束。你们最欣赏对方的哪一点？",
+   "ts": "01:15:27"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Melissa is a legend, but behind the legend, she's just a really great collaborative person. So of course, we got to know each other really well writing this book together. We worked together before that, but it was a really great way of staying connected to a former colleague, someone in the industry. Especially during COVID, it was a really great way of building towards something that was bigger than the both of us. So what I love about her is that she's really revered by so many folks, but really approachable and really truly wants to help people.",
+   "zh": "梅丽莎是个传奇人物，但在传奇背后，她其实是个非常善于合作的人。所以在共同撰写这本书的过程中，我们彼此熟悉得非常快。之前我们也曾合作过，但这次合作是保持与前同事、业内人士联系的绝佳方式。尤其是在新冠疫情期间，这为我们共同打造比个人更宏大的事业提供了宝贵契机。让我欣赏她的地方在于，她备受尊崇却又平易近人，真心愿意帮助他人。",
+   "ts": "01:15:36"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Thanks, Denise. What I love about Denise is she's really this calming, patient presence and she approaches everything with so much professionalism, but also can really get to the meat of the problem, help calm down certain situations where escalated, turn them around, and she's got this patience and calm about her in everything that she does that helps you focus, helps you concentrate on the big issues and she can really steer people in the right direction. So to me, I've always admired watching her coach and lead people. She led her analysts at Produx Labs as well. When things would go slightly awry or a situation would go out of hand, Denise was always like, \"Nope, we'll just fix it,\" and dove in and was able to make it better. I always really appreciated that.",
+   "zh": "谢谢你，丹妮丝。我欣赏她的是，她总能带来令人安心的耐心与专业精神。她处理问题时务实高效，能迅速切中要害，化解紧张局势。她做事时始终保持冷静，让人专注于核心问题，能引导他人朝着正确方向前进。我一直很钦佩她指导和领导团队的能力。她在Produx Labs也出色地领导过分析师团队。当事情稍有偏差或局面失控时，丹妮丝总会说：“没关系，我们能解决。”然后亲自介入，扭转局面。我对此深感赞赏。",
+   "ts": "01:16:16"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Oh, shocks. We might've had a few of the what's the worst that could happen moments, right?",
+   "zh": "哦，天哪。我们可能也经历过不少“最坏情况会怎样”的时刻，对吧？",
+   "ts": "01:17:13"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Always.",
+   "zh": "每次都是。",
+   "ts": "01:17:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. You two are awesome. For folks listening, make sure to grab their book, Product Operations. You can find it on Amazon, I imagine. Share where else people can find it, but two final questions. Where can folks find you online if they want to reach out and how can listeners be useful to you?",
+   "zh": "太棒了。你们俩真是了不起。对于听众朋友们来说，别忘了去买他们的书《产品运营》。应该能在亚马逊上找到吧。我会分享其他购买渠道，但最后两个问题。如果想联系你们，可以在哪里找到你们？听众朋友们如何能为你们提供帮助？",
+   "ts": "01:17:17"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Productoperations.com, we've got some downloadables that are available for folks and questions if you want to get in touch with us. How can they help us? I'm trying to think here.",
+   "zh": "Productoperations.com，我们为读者准备了下载资源。还有问题的话随时联系我们。你们如何能帮助我们？我现在在想。",
+   "ts": "01:17:32"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Tell us your stories about product operations. We want to hear how people are implementing it, what's working, what's not working. We're always learning about this too, and I think we said in this book, it's ticking off now, but it's by no means standardized. So we want to hear about what's happening, how has your company been successful or not successful with it, what have you seen work, what have you seen not work. So definitely reach out and let us know about it. Also, you can help us by buying the book and leaving us an Amazon review if you do read it because that does help authors and we self-publish this one too, so that always helps us on there. (01:18:17): You can find both of us on LinkedIn as well. I'm Melissa Jean Perri, I think on, there, but if you look for Melissa Perri, I usually pop up and Denise Tilles. Then if you want to contact us, product operations.com, we got a form on there to reach out.",
+   "zh": "请和我们分享你们在产品运营方面的故事。我们想听听大家是如何实施的，哪些方法有效，哪些无效。我们自己也在不断学习，正如我们在书中所说，虽然产品运营正在推进，但远未形成标准化。因此，我们希望听到大家的实践经验，看看你们的公司是如何成功或失败的，哪些方法有效，哪些无效。所以一定要联系我们，让我们了解你们的做法。另外，买了书的朋友可以在亚马逊上给我们写评价，这对作者很有帮助，我们这本书也是自出版的，这对我们在平台上的推广也很有帮助。（01:18:17）你们也可以在LinkedIn上找到我们。我是梅丽莎·简·佩里，我想在那里能找到我，但如果你们搜梅丽莎·佩里，我通常会出现，还有丹妮丝·蒂尔斯。想联系我们的话，可以访问productoperations.com，我们在那里设有联系表单。",
+   "ts": "01:17:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Productoperations.com. Is that the best way to find where to buy the book or are there other sites you recommend people go check it out?",
+   "zh": "Productoperations.com。这是购买书籍的最佳途径吗？还是有其他推荐的购买渠道？",
+   "ts": "01:18:31"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "We do. We just got it. Self-publishing has been fun, but we just got it where it is distributing now to Barnes and Noble and other bookstores. So you can usually find it on anything, but if you go to the website, it will have the most up-to-date information on where you can find it. Then if you go to your bookstore and some people are against Amazon, so if you go to your bookstore and ask for it, they will be able to order it for you.",
+   "zh": "是的，我们确实做到了。我们刚刚完成了相关工作。自助出版的过程很有趣，但现在我们的书已经开始在巴诺书店等实体书店上架了。所以你通常能在各大平台上找到它，但如果你访问我们的官网，里面会提供最新的销售信息。另外，有些人可能反感亚马逊平台，所以如果你去书店询问，他们会帮你下单购买。",
+   "ts": "01:18:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Thank you two for being here.",
+   "zh": "太棒了。感谢两位今天的到来。",
+   "ts": "01:19:00"
+  },
+  {
+   "speaker": "Melissa Perri",
+   "en": "Thanks for having us.",
+   "zh": "感谢大家的邀请。",
+   "ts": "01:19:03"
+  },
+  {
+   "speaker": "Denise Tilles",
+   "en": "Thanks for having us.",
+   "zh": "感谢邀请。",
+   "ts": "01:19:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "My pleasure. Bye, everyone. (01:19:09): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "不客气。大家再见。（01:19:09）：非常感谢大家的收听。如果您觉得这期内容有价值，可以在Apple Podcasts、Spotify或您喜欢的播客应用上订阅本节目。另外，请考虑给我们打个分或写个评论，这对其他听众发现本节目会很有帮助。您可以在lennyspodcast.com查看往期节目或了解更多关于本节目的信息。下期节目再见。",
+   "ts": "01:19:05"
+  }
+ ]
+}

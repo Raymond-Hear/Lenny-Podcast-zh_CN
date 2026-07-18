@@ -1,0 +1,28 @@
+# Local credentials
+website/build/.ark.env
+.env
+.env.*
+
+# Translation scratch files and runtime logs
+website/work/
+website/data/*.log
+website/data/*.err
+website/build/*.log
+website/build/*.err.log
+website/build/*_work.jsonl
+
+# Generated caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local preview artifacts
+website/data/test-server.*
+website/test-output/
+website/dist/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

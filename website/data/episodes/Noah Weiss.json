@@ -1,0 +1,1715 @@
+{
+ "id": "Noah Weiss",
+ "name": "Noah Weiss",
+ "category": "企业管理",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Noah+Weiss",
+ "bio": {
+  "en": "Noah Weiss is Chief Product Officer at Slack, where he has spent the last seven years, after previously serving as Head of Product at Foursquare and as a product manager at Google and Fog Creek.",
+  "zh": "Noah Weiss 是 Slack 的首席产品官（CPO），已在那里工作七年，此前曾任 Foursquare 的产品负责人，以及 Google 与 Fog Creek 的产品经理。"
+ },
+ "summary": {
+  "en": "Noah shares the ten traits of great product managers and how to collaborate effectively with strong, product-minded founders. He explains the 'Complaint Storm' process Slack uses to surface and act on user frustration, and reflects on turning around Slack's self-serve business after it plateaued in 2019. The conversation also covers how he thinks about AI in product after 15 years across Google, Foursquare, and Slack, plus lessons on competing with Microsoft Teams and Discord.",
+  "zh": "Noah 分享了优秀产品经理的十大特质，以及如何与强势且具备产品思维的创始人高效协作。他介绍了 Slack 用来收集并响应用户情绪的“吐槽风暴（Complaint Storm）”流程，并反思了 2019 年自助业务陷入瓶颈后如何实现逆转。对话还涵盖他基于在 Google、Foursquare 和 Slack 共 15 年经验对产品中 AI 的思考，以及应对 Microsoft Teams 和 Discord 竞争的经验。"
+ },
+ "turns": [
+  {
+   "speaker": "Noah Weiss",
+   "en": "We have this mental metaphor that we talk a lot about, getting to the next hill. The actual wording is \"Take bigger boulder bets.\" I think teams can often get lost crawling up that hill, not realizing that there's a huge, incredibly beautiful range behind it where we've over time freighted new teams from scratch that incubated in a new area before the areas mature.",
+   "zh": "我们有一个心智隐喻，经常聊到，就是『爬到下一座山头』。确切的说法是『下更大胆的赌注』（Take bigger boulder bets）。我觉得团队常常会在爬那座山时迷失，没意识到它背后还有一片巨大、美得惊人的山脉——我们在那些领域成熟之前，随着时间推移，从零组建了新的团队，让它们在新区里孵化。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "We did that with a lot of these native audiovisual products like huddles and clips really in the pandemic because our customers were demanding it from us. I think in the AI space, we're trying to hear from customers, what do you wish Slack could do if it had these new superpowers? Let's incubate a couple teams or prototype, give them space to run and pilot and then get something to launch that's amazing. Blows people away. That's the formula that we've seen.",
+   "zh": "我们在大流行期间，就是这么做的——针对一大批原生的影音产品，比如 huddles 和 clips，因为客户在向我们强烈要求。我觉得在 AI 领域，我们在试着听客户的声音：如果 Slack 有了这些新超能力，你希望它能做什么？我们孵化几个团队、或者做个原型，给他们空间去跑、去试点，然后做出一个能发布的、惊人东西。把人惊艳到。这就是我们见过的公式。",
+   "ts": "00:00:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's podcast where I interview world-class product leaders and growth experts to learn from their hard one experiences building and growing today's most successful products. Today my guest is Noah Weiss. Noah is chief product officer at Slack where he spent the last seven years. Prior to that he was head of product at Foursquare, which is near and dear to my heart as you'll hear at the top of this episode. Prior to that, he was a PM at Google and at Fog Creek Software.",
+   "zh": "欢迎来到 Lenny 的播客，在这里我采访世界级的产品负责人和增长专家，从他们打造和增长当今最成功产品的艰辛一手经验里学习。今天我的嘉宾是 Noah Weiss。Noah 是 Slack 的首席产品官，在那里待了过去七年。在那之前，他是 Foursquare 的产品负责人——这你也很快会在节目开头听到，对我来说是极其亲切的。再往前，他是 Google 和 Fog Creek Software 的产品经理。",
+   "ts": "00:00:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In our conversation we cover the 10 traits of great product managers, how to work effectively with strongly opinionated and product-minded founders, what Noah has learned about working effectively with AI in your product over his last 15 years at Google and Foursquare and now Slack. We talk about a process called Complaint Storms that helps Slack build better product. Plus, what he is learned from Slack's self-service business plateauing back in 2019 and how they turned it around and what they took away from that experience.",
+   "zh": "在我们的对话里，我们覆盖了优秀产品经理的 10 个特质、如何与态度强硬又有产品思维的创始人高效合作、Noah 在他过去 15 年于 Google、Foursquare、如今 Slack 里，关于在产品中和 AI 高效合作学到了什么。我们聊到一个叫『抱怨风暴』（Complaint Storms）的流程，它帮 Slack 造出更好的产品。此外，还有他从 Slack 的自助服务业务在 2019 年触顶停滞中学到了什么、他们如何扭转局面、以及从那次经历里带走了什么。",
+   "ts": "00:01:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Also, how he thinks about competition with Microsoft Teams and with Discord. Also, a bunch of new data advice, which I found very helpful. This was such a great in-depth conversation about all things product and leadership, and I'm really excited for you to hear this episode. With that, I bring you Noah Weiss after a short word from our sponsors.",
+   "zh": "还有，他怎么看待与 Microsoft Teams 和 Discord 的竞争。此外，还有一堆关于数据的新建议，我觉得非常有帮助。这是一场极其精彩的、关于产品和领导力方方面面的深度对话，我真的非常兴奋你能听到这期。说到这儿，在赞助商短广告之后，我把 Noah Weiss 带给你。",
+   "ts": "00:01:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Sidebar. Are you looking to land your next big career move or start your own thing? One of the most effective ways to create a big leap in your career and something that worked really well for me a few years ago is to create a personal board of directors, a trusted peer group where you can discuss challenges you're having, get career advice, and just gut check how you're thinking about your work, your career, and your life.",
+   "zh": "本期节目由 Sidebar 赞助。你是否在寻求下一次重大的职业跃迁，或者开启自己的事业？创造一次职业大跨越最有效的方式之一——也是几年前对我特别管用的一招——是建立一个『个人董事会』，一个你信得过的同侪小组，在那里你可以讨论正面临的挑战、获得职业建议，并且就你对工作、职业和人生的想法，做个直觉上的核对。",
+   "ts": "00:01:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This has been a big trajectory changer for me, but it's hard to build this trusted group. With Sidebar, senior leaders are matched with highly vetted, private supportive peer groups to lean on for unbiased opinions, diverse perspectives and raw feedback. Everyone has their own zone of genius. Together, we're better prepared to navigate professional pitfalls leading to more responsibility, faster promotions, and bigger impact.",
+   "zh": "这对我来说是个巨大的轨迹改变者，但要建立起这个可信赖的小组很难。有了 Sidebar，高层领导者会被匹配进经过严格筛选的、私密的、互相支持的同侪小组，可以倚靠它们获得不带偏见的意见、多元的视角和直白的反馈。每个人都有自己天才的领域。合在一起，我们更能从容应对职业上的陷阱，通向更大的责任、更快的晋升、和更大的影响。",
+   "ts": "00:02:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Guided by world-class programming and facilitation, Sidebar enables you to get focused tactical feedback at every step of your journey. If you're a listener of this podcast, you're likely already driven and committed to growth. A Sidebar personal board of directors is the missing piece to catalyze that journey. Why spend a decade finding your people when you can meet them at sidebar today? Jump the growing wait list of thousands of leaders from top tech companies by visiting sidebar.com/lenny to learn more. That's sidebar.com/lenny.",
+   "zh": "在世界级的项目设计和引导之下，Sidebar 让你在旅程的每一步都能获得聚焦的、战术性的反馈。如果你是这档播客的听众，你大概已经很有驱动力、也致力于成长。一个 Sidebar 的个人董事会，是催化那段旅程所缺的那块拼图。何必花十年去寻找你的同类，既然今天就能在 sidebar 遇见他们？跳过那不断变长的、来自顶级科技公司数千名领导者的等候名单，访问 sidebar.com/lenny 了解更多。就是 sidebar.com/lenny。",
+   "ts": "00:02:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Superhuman. How much time do you spend in email each day? How about your team? You may not realize this, but your email tools are wasting your time. Superhuman is blazingly fast email for high performing teams. Built to work with Gmail and Outlook, teams who use Superhuman spend half the time in their inboxes respond to twice the number of emails and save over four hours a week.",
+   "zh": "本期节目由 Superhuman 赞助。你每天在邮件上花多少时间？你的团队呢？你可能没意识到，但你的邮件工具正在浪费你的时间。Superhuman 是为高效团队打造的、快到发光的邮件工具。它基于 Gmail 和 Outlook 构建，使用 Superhuman 的团队，在收件箱里花一半的时间、回复两倍的邮件量、每周省下超过四个小时。",
+   "ts": "00:03:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's over a month of save time per year. With Superhuman, you can split your inbox into streams or VIPs, team members and emails from your favorite products to reduce context switching and make sure you never miss an important email. You can start reminders if you don't hear back so that you can follow up and never drop the ball on an email thread. You can also work faster than ever before with powerful AI features like writing, editing, summarizing and even translating.",
+   "zh": "那是一年下来超过一个月的省下时间。有了 Superhuman，你可以把收件箱拆成不同的信息流或 VIP、团队成员、以及来自你最爱产品的邮件，以减少上下文切换，并确保你绝不错过重要邮件。如果没收到回音，你可以设提醒，从而能跟进、绝不在一个邮件串上掉球。你还能靠强大的 AI 功能——比如写作、编辑、摘要、甚至翻译——比以往更快地上手。",
+   "ts": "00:03:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Join the ranks of the most productive teams and unleash the power of Superhuman. Try one month free at superhuman.com/lenny. That's superhuman.com/lenny. Noah, welcome to the podcast.",
+   "zh": "加入最高效团队的行列，释放 Superhuman 的力量。在 superhuman.com/lenny 免费试用一个月。就是 superhuman.com/lenny。Noah，欢迎来到播客。",
+   "ts": "00:04:08"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Thank you for having me. I'm excited to finally get to join and been a longtime listener.",
+   "zh": "谢谢你邀请我。我真的很兴奋终于能上节目，而且我一直是老听众了。",
+   "ts": "00:04:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel the same way in reverse. I've been really excited that you're finally on the podcast. I don't know if you know this, but this is actually going to be the last podcast I'm recording before I go on pat leave. This is going to play while I'm on break. Coincidentally, you're actually just returning from pat leave is what I just learned.",
+   "zh": "反过来，我也有同感。你终于上了播客，我真的超兴奋。我不知道你知不知道，但这其实会是我休陪产假之前录的最后一期播客。它会在我休假期间播放。巧的是，你恰恰刚从陪产假回来——这是我刚知道的。",
+   "ts": "00:04:29"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:04:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me ask you a question. What advice do you have for someone about to enter the beginning of baby life from someone that is exiting that and going back to work?",
+   "zh": "让我问你一个问题。从一个正要走出那段、回到工作的人的角度，你对一个即将进入育儿初期的人，有什么建议？",
+   "ts": "00:04:48"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "First off, I mean obviously congratulations, you're about to go on. A rollercoaster of emotion, sleep and everything else. I literally went back to work two days ago. I think my, maybe, advice about being a new parent is better than my advice about being at PM right now. Here are the three ... My wife and I wind up coming up with three maxims that we want to be using throughout the first two months to keep ourselves grounded.",
+   "zh": "首先，当然要恭喜你，你马上就要开始了。一段情绪、睡眠、以及一切的其他东西的大起大落。我 literally 两天前才回去工作。我觉得，我关于『当个新手上父母』的建议，可能比我此刻关于当 PM 的建议更好。有这么三条……我和我太太最后总结出了三条格言，想在前两个月里一直用，好让我们自己稳住。",
+   "ts": "00:04:55"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "First one, I would say a little bit better every day. No matter how many books you read and how much money ouster you consume, there's nothing like actually doing it. It's a physical thing being a new parent. Getting a little bit better every day, giving yourself permission to be like that didn't go great and that's okay. That's number one.",
+   "zh": "第一条，我会说，每天好一点点。无论你读了多少本书、消化了多少课程，都没法和真正去做相比。当个新手上父母，是件身体力行的事。每天好一点点，允许自己承认『那次搞得不太好』，而那没关系。这是第一条。",
+   "ts": "00:05:19"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Number two, don't over extrapolate from the early days. The fourth trimester is a real thing. These babies come out. They're not fully baked. They can't even support their own heads. If you try to extrapolate everything, the next 18 years are going to be the first 18 days, it's going to be sobering. Keep that perspective. They develop so much every week, part of the fun.",
+   "zh": "第二条，别从最初那几天过度外推。『第四孕期』是真实存在的。这些宝宝生出来，还没完全长好，连自己的头都撑不住。如果你试图把一切外推，那接下来的 18 年就会是头 18 天，那会让人清醒得难受。保持那个视角。他们每星期都进展那么多，那本身就是乐趣的一部分。",
+   "ts": "00:05:39"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Then the third thing, which I got advice from this from a good friend is like you got to fully get into it as a parent. There's nothing that replaces. Actually, you got to change the diapers. You got to do the feeds. When they're up, even though they can't talk, you got to talk to them. You got to listen to what they're saying and just be fully present near the moment.",
+   "zh": "然后第三条，是我从一位好朋友那儿得来的建议：作为父母，你得完全投入进去。没有什么能替代这个。说真的，你得换尿布。你得喂奶。他们醒着的时候，哪怕他们还不会说话，你也得对他们说话。你得听他们『说』的，并且在那一刻完全在场。",
+   "ts": "00:06:03"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I realized for myself, and then basically at full digital detox. You saw how long it took for me to reply to your emails. I was like, \"Throw the devices away. Just fully with our daughter, [inaudible 00:06:34], and our family.\" I feel like it was so much more rewarding. I felt really connected with her now after these couple months. It's a crazy time. You're going to really love it. It's going to drive you mad at that times as well. That's all of it.",
+   "zh": "我对自己有这个觉悟之后，基本上就进入了彻底的数字断舍离。你也看到了，我回你邮件花了多久。我当时就想：『把那些设备扔掉。就完全和我们女儿、[inaudible 00:06:34]、和我们家人在一起。』我觉得那要有回报得多。这几个月下来，我现在觉得和她真的有连接。那是一段疯狂的时光。你会真的爱死它。它有些时候也会把你逼疯。就这些了。",
+   "ts": "00:06:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. We're going to be pivoting this podcast into a parenting podcast. This is awesome advice. I wrote everything you just said on this little post-it as you're talking. I'm going to put that up in our nursery and see how it all goes. One thing that's tough about my career path in this weird life is I don't get a nice pat leave, paid pat leave from a big company.",
+   "zh": "好吧。我们要把这档播客转型成育儿播客了。这建议太棒了。你讲的时候，我把你刚说的每句话都写在这张小便利贴上了。我要把它贴到我们育儿室里，看看一切会怎样。我这段怪人生里，职业路径上有件难事：我没法从大公司拿到优厚的陪产假、带薪陪产假。",
+   "ts": "00:06:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've actually been working on stacking guest post and podcast ahead of my leave so that I can actually, as exactly as you said, just get fully into it.",
+   "zh": "其实我一直在提前囤积客座文章和播客，赶在我休假之前，这样我就能——就像你刚说的——真的完全投入进去。",
+   "ts": "00:07:06"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Smart.",
+   "zh": "聪明。",
+   "ts": "00:07:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I have awesome guest posts coming. All these podcasts are backlogged, so I'm hoping it all works out.",
+   "zh": "对。我有超棒的客座文章要发。所有这些播客都排着队呢，所以我盼着一切都能成。",
+   "ts": "00:07:16"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "That's a smart way to do it. Yeah.",
+   "zh": "那是聪明的做法。对。",
+   "ts": "00:07:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On a totally different topic, you're ahead of product at Foursquare. I don't know if you know this. I actually built a startup on Foursquare's API. It's a company called Localmind. For folks that don't know about it, the way it worked is basically let you talk to someone, checked in on Foursquare anywhere in the world if you're thinking about going there.",
+   "zh": "聊个完全不一样的话题，你曾在 Foursquare 管产品。我不知道你知不知道。我其实在 Foursquare 的 API 上建过一个创业公司。叫 Localmind。给不知道的人说一下，它的运作方式基本是：如果你正考虑去某个地方，它能让你和在世界上任何地方的、在 Foursquare 签到了那儿的人聊上。",
+   "ts": "00:07:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You could be like, \"Hey, is this bar fun right now? What's happening there?\" Before you actually show up. We ended up selling the company to Airbnb. Ended up not being a big problem for enough people and that's how I ended up at Airbnb. But it was quite magical and API was amazing. I guess I just want to say thank you for building an awesome product and awesome API.",
+   "zh": "你可能会像：『嘿，这酒吧现在好玩吗？那儿在搞什么？』在你真正出现之前。我们最后把公司卖给了 Airbnb。最后它没成为足够多人的大问题，而那就是我怎么到了 Airbnb 的。但它相当有魔力，而且 API 很惊艳。我想我只是想说，谢谢你打造了一款超棒的产品和超棒的 API。",
+   "ts": "00:07:39"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Thank you for being a developer on top of the ecosystem. I mean it's interesting with Foursquare. I will talk about this I'm sure later. I feel like I have more lessons learned and more scar tissue from the crazy up and down of ... I don't know what. It was 2010 to 2015 roughly. I think there's something actually where you learn more from the things that don't fully work out or don't quite achieve what you wanted to achieve.",
+   "zh": "谢谢你作为生态之上的开发者。我是说，Foursquare 这事儿挺有意思。我后面肯定会聊到。我觉得我从那忽上忽下的疯狂里，学到了更多教训、也有了更多伤疤——我不知道怎么形容。大概是 2010 到 2015 年。我觉得有件事是真的：你从那些没完全成、或者没完全达成你目标的事里，学到的反而更多。",
+   "ts": "00:07:58"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "You actually have a feedback loop where you get a lot of negative signal about like, \"Okay. That didn't work. That didn't work. What can I actually learn, take away from that?\" It's still great. I still love using Foursquare. I think we got caught in the death star of Instagram's ascent back in 2012, 2013. But I hope a product like that exists forever in the future and I'm glad you got to build the company, landed Airbnb through it. It's a great story.",
+   "zh": "你其实有个反馈回路，会收到很多负面信号，像：『好，那没成。那没成。我到底能学到什么、带走什么？』那依然很棒。我依然爱用 Foursquare。我觉得我们是栽进了 Instagram 在 2012、2013 年崛起的那个死星里。但我希望那样的产品在未来永远存在，而且我很高兴你得以建立那家公司、并借此落脚 Airbnb。这是个很棒的故事。",
+   "ts": "00:08:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Looking back at Foursquare, do you think there was a path to building a massive consumer app type business or is that just never going to work out? I know they went in direction of B2B data business. I guess was there a path or was it just like, \"No. That was never going to work out?\"",
+   "zh": "回头看 Foursquare，你觉得有没有一条路能建成一个庞大的消费级应用类生意，还是说那根本就走不通？我知道他们后来走向了 B2B 数据生意的方向。我猜，是有那么条路，还是说它就只是像：『不。那从来就走不通？』",
+   "ts": "00:08:52"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "It's tricky. I mean I'm not going to do 30-minute post, because I probably bore everyone. But it's not about this. We've all thought about this a lot on the early team there. I think the biggest probably lesson learned, frankly, is that we were really close with the Instagram folks early on. They were big developers on our platform. They used the Foursquare API before they were bought by Facebook.",
+   "zh": "这挺棘手的。我是说，我不会来个 30 分钟的长篇，因为那大概会让人听烦。但这不在点上。我们早期团队里的所有人都想过很多。我觉得，坦白讲，最大的教训大概是：我们早期和 Instagram 那帮人走得很近。他们是我们平台上很大的开发者。他们在被 Facebook 收购之前，就用着 Foursquare 的 API。",
+   "ts": "00:09:09"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think in hindsight we were a little bit mistaken to believe that the idea that the atomic unit would be a person talking about a place that they're at and you have to have a physical place to tie it to versus a person sharing a moment or an experience that they're having in the world. Sometimes that might have a place connected to it.",
+   "zh": "我觉得事后看来，我们有点误信了那个想法：原子单位会是一个人在谈论他所在的、而且你必须有个实体场所才能绑定的地点，相对地，是一个人分享他在世界上正拥有的某个时刻或体验。有时那可能会连着一个地点。",
+   "ts": "00:09:28"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think that one change in framer on what you would say a customer actually wanted to do, that probably was the thing that took this away on the social side. I think on the more local discovery side, it's actually what people wind up be using the product much more for over time getting personalized recommendations and getting tips when you go to a place and all the push notifications.",
+   "zh": "我觉得，在『一个客户真正想做的』上，那个框架上的转变，大概就是让它在社交侧出局的东西。我觉得在更偏本地发现的那一侧，人们随着时间推移，其实越来越多地用这个产品，是为了获得个性化的推荐、以及去一个地方时拿到贴士、还有各种推送通知。",
+   "ts": "00:09:47"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Again, it was hard to stay ahead, I think specifically of Google, because they had billion plus Google Maps users distributed on Android and iOS. Even though they might only take a couple years, eventually they would wind up replicating a lot of the functionality and then I think it was hard to regain that momentum. Much of this stuff is luck and timing and just coincidences of history.",
+   "zh": "再说一次，要保住领先很难，我觉得 specifically 对 Google 而言，因为他们有超过十亿的 Google 地图用户，分布在 Android 和 iOS 上。哪怕他们可能只花几年，最终也会把大量功能复制出来，然后我觉得就很难重拾那个势头了。这类事很多是运气、时机、以及纯粹的历史巧合。",
+   "ts": "00:10:10"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think there was a path. I think in the end we lost their social sales and then Google was able to catch up on the utility side. Now the company's built a really valuable B2B API company which offers a story. I mean Slack is in some ways a pivot, obviously, from a consumer company to a B2B company. But that that's my mini postmortem, what could have been with Foursquare.",
+   "zh": "我觉得是有一条路的。我觉得最后我们丢了他们的社交势头，然后 Google 在实用那一侧赶了上来。如今这家公司已经建成了一家很有价值的 B2B API 公司，这本身就是个故事。我是说，Slack 某种程度上显然也是一次转型——从消费级公司转到 B2B 公司。但那是我小小的复盘，关于 Foursquare 本可能成为什么。",
+   "ts": "00:10:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting how many consumer companies pivot to B2B because it turns out that's where the money ends up being.",
+   "zh": "有意思，这么多消费级公司都转向 B2B，因为到头来钱是在那儿。",
+   "ts": "00:11:00"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. I think the feedback to you get from our people willing to pay for the product that you're building is so much faster than can I build a large-scale consumer business and when they hope to have enough reach to then slap ads onto it. That's a much more of a try to hit a home run and hope it works out. But you don't really know if you're doing it along the way. Yeah. I think B2B is a easier to have a more incremental, successfully business than pure consumer.",
+   "zh": "对。我觉得，从那些愿意为你正在打造的产品付钱的人那儿得到的反馈，比『我能建一个大规模的消费级生意、并盼着有足够触达、然后往上面贴广告』要快得多。后者更像是一种试图本垒打、并盼着它能成。但一路上你其实并不知道自己在不在正轨上。对。我觉得 B2B 比纯消费级更容易做出一个更渐进、更成功的生意。",
+   "ts": "00:11:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Speaking of Foursquare, Dennis Crowley was the CEO and founder, a very strong product-minded founder. I know you've worked with a number of very strong product-minded founders including Stewart Butterfield, Dennis, obviously we just talked about, maybe others. I'm curious what you've learned as a product leader working with very opinionated founders.",
+   "zh": "好。说到 Foursquare，Dennis Crowley 是 CEO 兼创始人，一位非常强势、有产品思维的创始人。我知道你和好几位非常强势、有产品思维的创始人合作过，包括 Stewart Butterfield、刚刚聊过的 Dennis，也许还有别人。我好奇，作为一个产品负责人，和这些态度强硬、主意已定的创始人合作，你学到了什么。",
+   "ts": "00:11:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think this is interesting not just as a product leader working with very product-minded CEOs, but also as a first PM at a startup you're often put in this tough spot of just the founders just telling you what to do and you have to go build it versus having a lot of say in agency. I'm curious what you've learned about working and being successful in that position, which is often really hard.",
+   "zh": "我觉得这有意思，不只对作为产品负责人、和非常有产品思维的 CEO 合作而言，也对一个创业公司的首位 PM 而言——你常被放在那个尴尬位置上：创始人就告诉你该做什么，你得去造，而不是在决策上有很多发言权。我好奇，关于在那个位置上工作并成功，你学到了什么，那通常真的很难。",
+   "ts": "00:11:56"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I would say to folks in general, if you're joining company and the CEO does the role that is your functional area of expertise, it's probably the area where you'll learn the most because they're hopefully world class at it. But also, one will you'll be the most frustrated at times because you're going to feel like you have less agency. You should just know that going into it.",
+   "zh": "我会概括地告诉人们：如果你加入一家公司，而 CEO 正是做你那个专业职能领域的，那大概就是你学得最多的领域，因为他们希望在那上是世界级的。但同时，那也会是你有时最沮丧的领域，因为你会觉得自己的自主权变少了。你在进入之前就该知道这一点。",
+   "ts": "00:12:14"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "If you go to company to run by a former marketer and you're in marketing, they'll probably want to have a lot of say and influence over that. I think just going into knowing that is good. Looking back, I would say probably two main things stand out of what's really worked with both Dennis and Stewart, not just for me but I think for the teams that work with him as well.",
+   "zh": "如果你去一家由前市场人运营的公司、而你做市场，他们大概会想在那一摊上有很多发言权和影响力。我觉得，进去之前就知道这点，是好事。回头看，我会说，和 Dennis 与 Stewart 真正奏效的，大概有两点最突出——不只对我，我想对那些和他们共事的团队也是。",
+   "ts": "00:12:33"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The first is, I think as much as possible, I think maybe we'll talk about this a little bit later as well, is getting to the point where you have alignment on the principles for what it means to build a great product of that company. Not just about if the intuition and tasting gut, but how do you distill that to principles that become the language of the company so that everybody else can start thinking through a similar frame or similar lens when you're designing a product.",
+   "zh": "第一点是，我觉得尽可能是：达到那样一个状态——你们对『打造这家公司的好产品意味着什么』的原则，达成对齐。不只是凭直觉和味觉般的 gut（直觉），而是你如何把那个提炼成原则，成为公司的语言，好让其他人在设计产品时，能透过类似的框架或类似的透镜去思考。",
+   "ts": "00:12:52"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Because otherwise it can feel a little bit Goldilocks every time a team builds something, they take it to the CEO. CEO is like, \"No, not quite right. Again, no, not exactly that.\" Then you don't have the language to actually have a more constructive review. Then doing that at the little strategy as well. I think the product founder CEO is always going to be the holder of the vision for the company. I'm sure at Airbnb. I imagine Brian was very much like that as well.",
+   "zh": "因为否则的话，每次一个团队做出点什么、拿去给 CEO，都会有种『金发姑娘』（总是不满意）的感觉。CEO 会像：『不，不太对。又不对，不是那个。』然后你们就没有那种语言，去进行更有建设性的评审。然后在小战略层面也这么做。我觉得，产品型的创始人 CEO，永远会是公司愿景的持有者。我敢说在 Airbnb 也是这样。我想象 Brian 也非常像那样。",
+   "ts": "00:13:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Absolutely.",
+   "zh": "绝对。",
+   "ts": "00:13:40"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think it's actually great to say, \"Okay. The overall vision for the company, is it the responsibility of any one team to have everyone buy into that vision, but then to have space for teams to be able to actually do creative work, do explorations because you know that it's aligned with that high level vision.\"",
+   "zh": "我觉得其实很好地说：『好。公司的整体愿景，是任何一个团队的责任，要让所有人都买账那个愿景；但接下来，要留给团队空间，让他们能真正做创造性的工作、做探索，因为你知道那与那个高层级的愿景是对齐的。』",
+   "ts": "00:13:41"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "If you can get that alignment and you can get those principles as the common language of what creative software looks like, I think you can have a really good working relationship. Then the other bit I would just say is I think when to involve the founder CEO in a project is really important. The short version I think that works the best is almost like a U-curve where the X-axis is time and the Y-axis is level of involvement.",
+   "zh": "如果你能拿到那个对齐、并且把那些原则变成『有创造力的软件长什么样』的共同语言，我觉得你就能拥有一段很好的工作关系。然后另一点我想说的是：我觉得，何时让创始人 CEO 介入一个项目，真的很重要。我觉得最好使的简短版本，差不多像一条 U 形曲线——横轴是时间，纵轴是介入程度。",
+   "ts": "00:13:57"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think you want to get the founder CEO really involved early on, especially if it's a big new project, to make sure that there's strategic buy-in that you agree on the principle strategy and approaching you agree on the goals and the anti-goals, getting that to then the team can run and explore. Then I think at the very end you want them to really be bought in that did you build something that's up to the quality ... the company?",
+   "zh": "我觉得你想让创始人 CEO 在早期就深度介入，尤其如果是个重大的新项目，好确保有战略上的认同——你们在原则、战略、切入方式上达成一致，在目标和反目标上也达成一致——拿到那个之后，团队才能去跑、去探索。然后我觉得，在非常末端，你想让他们真正买账：你造出的东西，是否达到了那家公司的质量……？",
+   "ts": "00:14:22"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Is this something that's going to customers, literally taste the soup. What's missing in it? I think at most companies that have a maniacally customer-focused founder, if you don't do that last step, it's going to be much more painful after you launch because they weren't part of that co-creation of the team. I think that formula winds up working pretty well if you throw in that alignment on principles and envision.",
+   "zh": "这东西是要给客户的，得真的去尝那口汤。里面缺了什么？我觉得在大多数拥有『对客户着了魔般专注』的创始人的公司，如果你不做那最后一步，发布之后会痛苦得多，因为他们没参与团队那个共同创造的过程。我觉得，如果你把那个在原则上的对齐、以及愿景加进去，那个公式最终会相当管用。",
+   "ts": "00:14:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That usually sounds nice in theory, but I often imagine you get to that final step and the founder is like, \"What the hell is this? This is not at all what I was hoping it be.\" Is there an example of that, that comes to mind where you maybe went through that and then it's just like, \"No. That did not work out the way we expected\" and if not, no problem.",
+   "zh": "那通常在理论听起来挺好，但我常想象你到了那最后一步，创始人却像：『这他妈是什么？这完全不是我盼着的样子。』有没有一个这种例子，浮上你心头——也许你经历过那个，然后就：『不。那没按我们预期的那样成。』如果没有，也没关系。",
+   "ts": "00:15:08"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. I mean I think that does happen. The ship is maybe ... the end of the year is the level of engagement and often that last level of engagement, that's where there's actually the most rapid refinement that you're doing. I think what's important there is that hopefully you're refining in code and you're not still at static design mocks because using the software is so different than looking at what the software will visually appear.",
+   "zh": "对。我是说，我觉得那确实会发生。那艘船也许……年末是介入的程度，而往往那最后一级的介入，恰恰是你做最快速精修的地方。我觉得那里重要的是：希望你是在代码里精修，而不是还停在静态设计稿上，因为用这个软件和看这个软件视觉上会长什么样，是天差地别的。",
+   "ts": "00:15:26"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think what we would wind up doing with Stewart at Slack, for example, is we would get the entire development team, engineers design product, user research and Stewart together in a room and we almost do a bug bash together. The idea was like, \"We're doing it all together. We're trying to make the best product possible, making great softwares really messy and we're all trying to clean up the mess together.\"",
+   "zh": "我觉得我们和 Stewart 在 Slack 会最终做的，比如，是把整个开发团队——工程师、设计、产品、用户研究——和 Stewart 一起请进一个房间，然后我们几乎像一起做个找虫大会。想法就像：『我们全在一起做。我们想造出尽可能最好的产品，造伟大的软件真的很乱，而我们都在试着一起把那摊乱收拾干净。』",
+   "ts": "00:15:51"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Sometimes you might find things like, \"Okay. This entry point really isn't working, maybe we have to move this entry point. That's maybe a bigger change.\" But I think often what you'd find is just all those bits of polish and refinement and doing the little delightful things that might otherwise be missing to raise that craft bar and doing a real collective way so it doesn't just feel like the team says. \"We want to ship.\" The founder says, \"No, it's not ready.\"",
+   "zh": "有时你可能会发现像：『好。这个入口点真的行不通，也许我们得挪这个入口点。那也许是更大的改动。』但我觉得你常会发现的是，就那些打磨和精修的碎片、以及做那些本可能被漏掉的小巧思，好把工艺的标杆抬上去，并且以一种真正集体的方式去做，这样它就不会只是感觉像团队说『我们想发。』创始人说『不，还没好。』",
+   "ts": "00:16:15"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Ideally as a group you're saying, We want to get it to a bar that's going to delight our users and here's the gap from where we are today to what we want to shift.\" I think that mentality winds up being a lot more constructive, but that's not always easy to do.",
+   "zh": "理想地，作为一个群体你们在说：『我们想把它抬到一个能让我们用户惊艳的标杆，而这是从我们今天所在、到我们想移向之处之间的缺口。』我觉得那种心态最终会建设性得多，但那不总容易做到。",
+   "ts": "00:16:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You talked about creating these principles, which is an awesome approach of just creating guardrails for the team so they think the way the founder and the head of product think. What are some examples of principles you have and had early on maybe at Foursquare or Slack?",
+   "zh": "你聊到创立这些原则，这是一种很棒的做法——就给团队设护栏，好让他们按创始人和产品负责人思考的方式去想。你在早期——也许在 Foursquare 或 Slack——有过、并且拥有的一些原则例子是什么？",
+   "ts": "00:16:54"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I mean Slack I think is where we enshrined them much more because we scaled the org so much, more that we needed principles. I think for us, they were really about unpacking just the mission, which for Slack is making people's working lives simpler, more pleasant, more productive. That's the mission of the company. The question is how does software help do that? That's what the principles or their answer.",
+   "zh": "我是说，Slack 我觉得是我们把原则立得更牢的地方，因为我们组织扩张得那么多，更需要有原则。我觉得对我们来说，它们真正是关于拆解那个使命——对 Slack 而言，就是让人们的职业生活更简单、更愉快、更高产。那是公司的使命。问题是软件如何帮着做到那个？那正是那些原则、或者它们的答案。",
+   "ts": "00:17:07"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "For us, we've got five, four principles. They've largely stayed the same. Some of the language has changed over the last couple of years. But at least for the last four or five years we've had these. The first is be a great host, which is all about that level of craft, the relentlessly saving people's steps. If you're, let's say, a host at Airbnb, it's like putting clean towels on the bed. No one has to wonder \"Are these for me?\" That type of foresight.",
+   "zh": "对我们来说，我们有五条、四条原则。它们大体上没变。有些措辞在过去几年里改过。但至少过去四五年我们一直有这些。第一条是『做个好主人』，那全是关于那种工艺程度、那种不停地替人省步子。如果你，比如说，是 Airbnb 的一个房东，那就像在床上铺上干净的毛巾。没人会疑惑『这是给我的吗？』那类的先见。",
+   "ts": "00:17:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's actually a value at Airbnb. Exactly.",
+   "zh": "那其实正是 Airbnb 的一个价值观。没错。",
+   "ts": "00:17:57"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Oh, really?",
+   "zh": "哦，真的？",
+   "ts": "00:17:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's actually be a host at Airbnb is one of the four core values.",
+   "zh": "其实『在 Airbnb 做个主人』是四大核心价值之一。",
+   "ts": "00:18:00"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Right. Maybe we borrowed that or someone was inspired by it. But be a great host. It sounded aspirational. I love that.",
+   "zh": "对。也许我们借了那个，或者有人受它启发。但『做个好主人』。它听起来让人向往。我爱这个。",
+   "ts": "00:18:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Yeah. It's a little bigger.",
+   "zh": "对。对。它稍微大一点。",
+   "ts": "00:18:09"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "There's a famous user design book called Don't Make Me Think, which we sold the title of for our next principle. That's really just about as people building the software, you know how it works so well. You care about all the nuances and intricacies and you really want your users to love it as much as you do. But often actually, that owner's delusion that someone else will care as much about the software that you built as you do, prevents you from actually making something that's simple, comprehensible, understandable.",
+   "zh": "有本著名的用户设计书叫《别让我思考》，我们把它的书名拿来做我们下一条原则。那真的只是关于：作为造软件的人，你多懂它怎么运作得那么好。你在意所有的微妙和繁复，而你真的希望你的用户和你一样爱它。但往往，那种主人的错觉——以为别人会像你一样在乎你造的软件——反而阻止了你真正做出简单、可理解、看得懂的东西。",
+   "ts": "00:18:11"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "One of the core tenets of Slack is pretty complex under the surface, is how do we actually make people not have to think, how do we not reinvent the wheel if there's existing design patterns to use, how do we actually wind up designing for people who come from many different backgrounds and we cater to their needs in ways that don't make them have to customize it too much?",
+   "zh": "Slack 的一条核心原则，表面下其实相当复杂，是：我们到底如何让人不必去想、如果有现成的设计范式可用，我们如何不去重复造轮子、我们到底如何为来自许多不同背景的人做设计，并以不让他们过度自定的方式去迎合他们的需求？",
+   "ts": "00:18:43"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "There's a saying we also have, which is more clicks can often be okay. You'll often have in optimization experimentation circles like, \"Oh, every click, remove it.\" But I actually think in a lot of software when it's not transactional, helping people understand what they're doing, giving them confidence, helping them have trust in the steps, we've seen that that can actually be a better experience. That's another example of don't make it stressful, help people chill out when they're using this offer. That's the idea beyond that one.",
+   "zh": "我们还有一句说法，就是『多几次点击往往也行』。在优化实验圈子里，你常会听到像：『哦，每多一次点击，就去掉它。』但我其实觉得，在很多并非交易型的软件里，帮人理解他们在做什么、给他们信心、帮他们对那些步骤建立信任——我们见过，那其实可以是一种更好的体验。那是『别让它 stressful、帮人在用这个东西时放松下来』的另一个例子。那就是那一条背后的想法。",
+   "ts": "00:19:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Shifting a little bit. I know you guys have been working on a bunch of AI stuff at Slack. I believe you've been working on AI related stuff for many years. I think at Google you worked on a lot of AI related products. I feel like a lot of people are just getting into this and trying to figure out, \"How do we integrate AI and ML and LLMs into our product and how do we not just waste our time chasing things?\"",
+   "zh": "稍微转个弯。我知道你们在 Slack 搞了一堆 AI 的东西。我相信你们搞 AI 相关的东西很多年了。我觉得在 Google 你做的是大量 AI 相关的产品。我感觉很多人刚入门，正试图搞清：『我们如何把 AI、ML 和 LLM 整合进我们的产品，又如何不只是浪费时间在追逐东西上？』",
+   "ts": "00:19:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to ask you just in your time working with AI over the many years you've been doing it and share a little bit about what you've been doing there. What are some things you've learned about how to be actually effective and build valuable products and not just fall for the shiny object issue and trap?",
+   "zh": "我想问你，就在你这些年做 AI 的时光里，分享一点你在那儿做了什么。关于如何真正有效、造出有价值的产品、而不只是掉进闪亮物件的问题和陷阱里，你学到了什么？",
+   "ts": "00:19:55"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I mean, it's almost 15 years ago now that I was working at Google in search on what later became called the knowledge graph. This idea of building a canonical repository of information of people, places, things in the world and relationships between them. Back then, it was a lot of the same ideas, but obviously the techniques. I have got a lot more mature.",
+   "zh": "我是说，差不多 15 年前了，我在 Google 搜索部门，做后来被称为知识图谱的东西。那个想法是建一个关于人、地点、事物、以及它们之间关系的、规范性的信息仓库。那时候，很多想法是一样的，但技术显然不同。现在的技术成熟得多。",
+   "ts": "00:20:11"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "We used natural language processing to extract all this information from the web and try to build this database of facts. An idea then was could you take queries, people have like, \"What are the tallest fountains in Europe or what of the most popular beaches in Southern California?\" Be able to actually give answers not just 10 blue links.",
+   "zh": "我们用自然语言处理，从网上抽取所有这些消息，试着建这个事实数据库。当时的一个想法是：你能否接住那些查询——人们会像：『欧洲最高的喷泉是哪些？或者南加州最受欢迎的海滩是哪些？』——从而真能给出答案，而不只是十个蓝色链接。",
+   "ts": "00:20:33"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think the thing that's really changed, it's super exciting in the last 6, 12 months with LMs and chat GPT and everything else is the idea that now you can take not just knowledge about the world but actually have natural language generation where suddenly the computer can talk back to you in a way that feels extremely human. Then the creative applications of that are pretty massive and exciting.",
+   "zh": "我觉得真正变了的东西，是在过去 6 到 12 个月里、随着 LM 和 ChatGPT 以及一切其他东西，超级令人兴奋的——那个想法是：如今你拿到的不只是关于世界的知识，而是真的有了自然语言生成，电脑突然能以极度像人的方式回你话。然后那带来的创造性应用，是相当庞大、也相当令人兴奋的。",
+   "ts": "00:20:53"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "That's, I guess, the lineage there. I think from over the years back at Google at Foursquare, we did a lot of personalization and recommendations at Slack we have search and ML that's coming infused throughout the product. I think a couple things come out as ... I guess the principles that we've used over the years, back then at Google, one of the big ones, was that the promise of the UI has to match the quality of the underlying data, which is to say ... I think this is actually one of the failings of the various LMs right now is they all appear supremely confident even when they're completely hallucinating.",
+   "zh": "那，我猜，就是那条血脉。我觉得从这些年——回 Google、在 Foursquare——我们在 Slack 做了大量个性化和推荐，我们有搜索和 ML 正被注入整个产品。我觉得有几件事浮现……我猜我们这些年里用的原则，当年在 Google，大的一条是：UI 的承诺必须匹配底层数据的质量，也就是说……我觉得这其实是当前各种 LM 的一个失败之处——它们哪怕在完全胡说八道时，也显得极度自信。",
+   "ts": "00:21:19"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think that's going to be something that people are going to have to work on a lot, which is to figure out how to be not so faultless, to acknowledge when you're not sure, because otherwise, it undermines the trust people have in the system. Using a lot of transparency about where the data comes from so people can actually build credibility and the tools is really important.",
+   "zh": "我觉得那会是人们将不得不大力去攻克的东西，也就是搞清如何别那么无懈可击，在你不确定时肯于承认，因为否则，它会破坏人们对系统的信任。大量运用关于数据从哪来的透明度，好让人们能真正建立起对工具和系统的可信度，是真的很重要。",
+   "ts": "00:21:53"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Then I think making sure that as you're designing the products that you have virtuous cycles that are naturally part of the product experience where you can get training data as a byproduct of people naturally using the software and then can make the model that you're building behind the scenes smarter, more accurate, more predictive.",
+   "zh": "然后我觉得，要确保在设计产品时，你有那些良性闭环，它们天然就是产品体验的一部分——你能把人们自然使用软件时产生的训练数据，当作副产品拿到，然后让背后那个你正在建的模型，变得更聪明、更准、更具预测力。",
+   "ts": "00:22:11"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "A classic example of that would be Netflix back in the day, their rating system, they actually have a feedback loop from their customers then make the system better at predicting. I think people you are still trying to figure out what does that look like in this world in LLMs?",
+   "zh": "一个经典的例子会是当年的 Netflix，他们的评分系统，其实有个来自客户的反馈回路，让系统更会预测。我觉得人们现在仍在试图搞清，在 LM 这个世界里，那会长什么样？",
+   "ts": "00:22:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Something I hope that you're all building at Slack is a way to ask a bot questions based on all the conversations in the Slack. I've been looking for that product for a while now.",
+   "zh": "有件东西，我希望你们在 Slack 都在建——一种基于 Slack 里所有对话、去问一个 bot 问题的方式。我找这种产品找了一阵子了。",
+   "ts": "00:22:42"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I can safely say we have a lot of prototypes internally where we are playing with this. I think it is actually funny as a aside in one of the original Slack, I don't know, product vision decks back in 2014. There was our whole strategy, there's four parts. Then part number four, which was a joke at the time, was then do magic AI stuff on top.",
+   "zh": "我可以安心地说，我们内部有大量的原型，正在玩这个。我觉得作为题外话其实很好笑：在最早的 Slack 里——我不知道——2014 年的产品愿景幻灯片里。我们有整套战略，分四部分。然后第四部分，当时是个玩笑，是『然后在上头做点神奇的 AI 东西』。",
+   "ts": "00:22:51"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "We didn't even know what the state of AI would be. By the time hopefully companies have their collective knowledge in Slack and now we're finally at the period where the magic AI stuff seems finally pretty amazing, pretty magical. Yeah. We're doing a lot of prototyping internally and also trying to work with the ecosystem around as well, because there's so many companies doing amazing work in this space.",
+   "zh": "我们当时根本不知道 AI 会是什么状态。等到（希望如此）各家公司把他们集体的知识放在 Slack 里，而如今我们终于到了那个阶段——神奇的 AI 东西似乎终于相当惊人、相当有魔力了。对。我们在内部做了大量原型，也在试图和周边的生态合作，因为有太多公司在这个空间里做着惊人的工作。",
+   "ts": "00:23:13"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "That if you work at a company where you have so much knowledge in your Slack channel repository that you can suddenly get amazing leaps in productivity to help you better do your job because that knowledge is in Slack, but it's sometimes hard to reach and I think these technologies can make that possible.",
+   "zh": "也就是，如果你在一家公司工作，而你的 Slack 频道仓库里有那么多知识，你能突然获得惊人的生产力跃升，帮自己把工作做得更好——因为那知识在 Slack 里，但有时很难够到——而我觉得这些技术能让那成为可能。",
+   "ts": "00:23:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This reminds me of something Gustav, the CPO and CTO and co-president of Spotify share that they always have a deck and a vision of just a play button within Spotify, you just play and all magic happens and it's the best music and thing exactly what you want to hear and just how that isn't actually possible and it's still not possible. Exactly to your point, you have to really think about how does it act? How close is it to the reality? If it's not actually there, he was saying how like, \"We'll pick two songs that are correct at a 10 just because we don't really know exactly what you want to hear right now.\"",
+   "zh": "这让我想起 Gustav——Spotify 的 CPO 兼 CTO 兼联席总裁——分享过的一件事：他们总有一份幻灯片和一个愿景，就是在 Spotify 里只要一个播放键，你一按，所有魔法就发生，放出正合你意、最棒的音乐。而那其实不可能，而且至今仍不可能。正合你的点，你得真的去想：它实际表现如何？它离现实多近？如果它其实不在那儿，他当时就说，像：『我们就挑两首对的歌，准确率大概 10 吧，因为我们其实并不确切知道你现在想听什么。』",
+   "ts": "00:23:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's no point in trying to design that right now because that's not actually going to be delivering on the promise.",
+   "zh": "现在去设计那个没意义，因为它其实交付不了那个承诺。",
+   "ts": "00:24:23"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Right. Yeah. I love that. Our version of that has always been that you open up Slack and suddenly instead of having to read through dozens of channels or find these mentions that magically Slack could just tell you in order that you would care about a summary of all the interesting things that have happened and then let you dig in if you want to your very own personal chief of staff who knew everything that you cared about and read everything that you could read.",
+   "zh": "对。对。我爱那个。我们那个的版本，一直是：你打开 Slack，突然间，不必再去翻几十条频道、或者找那些 @提及，Slack 能神奇地、按你会在意的方式，直接告诉你一个所有发生过的、有意思之事的摘要，然后如果你想深挖，它让你挖——就像你专属的、私人参谋长，知道你在意的一切、也读完了你能读的一切。",
+   "ts": "00:24:27"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I don't think that's going to quite be possible anytime soon. But I think Spotify heading towards that north star you wind up developing. I hope a lot of really compelling projects experiences along the way.",
+   "zh": "我觉得那短期内还不太可能完全成真。但我觉得到那个北极星，Spotify 正在行进而去，你最终会发育出它。我希望沿途有一大堆真正引人入胜的项目体验。",
+   "ts": "00:24:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, man. The more I think about it, the more amazing opportunities exist in Slack. It's all text. It's amazing. Okay. There's a lot of cool stuff coming I imagine.",
+   "zh": "对，老兄。我越想，Slack 里存在的惊人机会就越多。它全是文字。太惊人了。好。我想象有一大堆酷东西要来。",
+   "ts": "00:25:02"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yes.",
+   "zh": "对。",
+   "ts": "00:25:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I can't wait.",
+   "zh": "我等不及了。",
+   "ts": "00:25:10"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yes.",
+   "zh": "对。",
+   "ts": "00:25:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On that topic, how do you think about creating teams within Slack and AI specifically? Are you recommending each team think about how AI can make their stuff better or are you dedicating, \"Here's the AI team and they're going to work on stuff\" and you guys just keep ship what you're shipping and keep moving your metrics?",
+   "zh": "顺着那个话题，你是怎么思考在 Slack 内、specifically 在 AI 上组建团队的？你是在建议每个团队都想想『AI 如何让我们自己的东西更好』，还是你在专设：『这是 AI 团队，他们去搞东西』，而你们就继续发你们在发的、继续推动你们的指标？",
+   "ts": "00:25:12"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I mean the unfair answer is a hybrid of the two, which is to say we have a central machine learning and search team. But a lot of people have expertise in this field to build infrastructure that everybody can use. What we've done is because the space is evolving so quickly, literally every month, the capabilities are evolving, the risks and tradeoffs are evolving a ton.",
+   "zh": "我是说，不偏不倚的答案是两者的混合——也就是，我们有一个中央的机器学习与搜索团队。但很多人有这个领域的专长，能建出人人可用的基础设施。我们所做的，是因为这个空间演进得太快了，literally 每个月，能力在演进、风险和权衡也在大量演进。",
+   "ts": "00:25:29"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "What we want to do is actually spin up a couple different teams that are focused on prototyping, using that common infrastructure but in specific directions that are all a little bit different. We've got a common ML, let's say in search team and now we have a bunch of teams that are working in parallel and different customer problems that we're trying to solve using that shared infrastructure.",
+   "zh": "我们想做的，其实是启动几个不同的团队，专注于原型开发，用那套共同的基础设施，但朝各自略有不同、特定的方向。我们有个共同的 ML——比如说在搜索团队——而如今我们有一批团队，在平行地、针对不同客户问题工作，试图用那套共享基础设施去解决。",
+   "ts": "00:25:52"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think this isn't the steady state. I think over time, what it'll probably look like is that all the existing product areas, as soon as we know more of the shape of what the technology is capable of will just have AI capabilities as part of their roadmaps. Just like every product team is responsible for their own mobile roadmap. They don't outsource it to someone else.",
+   "zh": "我觉得这不是稳态。我觉得随着时间，它大概会长成这样：所有既有的产品板块，一旦我们对技术能成什么样的轮廓知道更多，就会把 AI 能力作为它们路线图的一部分。就像每个产品团队都对自家的移动路线图负责。他们不会把它外包给别人。",
+   "ts": "00:26:17"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But I think today when things are moving so quickly, you actually want a little bit of a more ad hoc, flexible approach to move quickly and that's what we're doing.",
+   "zh": "但我觉得到今天，当事情动得这么快，你其实想要一种更临机、更灵活的做法去快速移动——而那正是我们在做的。",
+   "ts": "00:26:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's what I've been hearing from everyone I've been asking this question. The search ranking team is always seems to be the center of all this and then it's a few experiments here and there. That's an interesting pattern I've been noticing.",
+   "zh": "那正是我问过这问题的人里，大家都告诉我的。搜索排序团队似乎总是这一切的中心，然后这儿那儿有几个实验。那是我注意到的一个有趣模式。",
+   "ts": "00:26:49"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Good to know.",
+   "zh": "知道了就好。",
+   "ts": "00:26:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I heard that you have a process internally called Complaint-Storms. I'd love to understand what that is.",
+   "zh": "我听说你们内部有个流程叫『抱怨风暴』（Complaint-Storms）。我很想弄懂那是什么。",
+   "ts": "00:27:00"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "It something that started. I want to say back in end of 2019, maybe early 2020. The idea a little bit was how do we help as a team look at the software that we build with fresh eyes, because we've been set at Slack for a long time. Slack maybe more than almost any other company maybe like Figma is probably similar. I was listening to the podcast just earlier today where if you work on Figma, you work on Slack.",
+   "zh": "那是很久前开始的东西。我想说是 2019 年底、也许 2020 年初。那个想法有点是：作为团队，我们如何带着新鲜的眼睛，去看我们造的软件——因为我们在 Slack 待太久了。Slack 也许比几乎任何别的公司都更甚，也许像 Figma 大概也类似。我今天稍早就在听那个播客，里面说如果你在 Figma 工作，你就在 Slack 工作。",
+   "ts": "00:27:05"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "You also live in Slack and you live in Figma all day so you can become more of a power user than anyone else on earth. What we were realizing, especially for people trying to build Slack for the next million customers, the people who have never used Slack before, it was becoming increasingly hard to have empathy for what their usage of Slack would look like. How would they look at it in a more critical way? How would they care less than we cared?",
+   "zh": "你也整天活在 Slack 里、活在 Figma 里，于是你能成为比地球上任何人都更强的超级用户。我们当时意识到，尤其对那些试图为下一批百万客户建 Slack 的人——那些从没用过 Slack 的人——要去共情他们的 Slack 用法会长什么样，正变得愈来愈难。他们会以更挑剔的方式看它吗？他们会比我们在意得少吗？",
+   "ts": "00:27:30"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "What we started doing with these complaints storms and idea was really simple, which is we'd get a team together often Stewart myself would also join and we'd actually start off with other products first in adjacent spaces and we'd say, \"Okay. As a group we're going to go through the customer journey from the moment you land on the website through, let's say it's a workplace product, getting your first account going, getting the first couple of users on board, getting to the point of value.",
+   "zh": "我们开始做这些抱怨风暴，想法其实很简单：我们会把团队聚起来——常常 Stewart 和我自己也会加入——而我们会真的先从相邻空间里别的产品开始，然后我们说：『好。作为一个群体，我们要走一遍客户旅程——从你踏上网站的那一刻起，穿过——比如说那是个职场产品——开起你的第一个账户、让头几个用户上船、走到价值点。』",
+   "ts": "00:27:56"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "We're going to do it on one screen. Someone's going to project and then people are going to fill in every issue, everything that's confusing, every pain point, not bones, but ways in which if you didn't care about the software, you don't work on it, what would actually confuse you? What would stop you in your tracks?",
+   "zh": "我们要在一块屏幕上做。有人会投屏，然后人们会填进每一个问题、每样让人困惑的东西、每一个痛点——不是骨头，而是：如果你不在乎这软件、你不在它上工作，什么会真的让你困惑？什么会让你当场愣住？",
+   "ts": "00:28:21"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "From that you went generating a bunch of amazing inspiration by looking at someone else's product in a really critical way for things you might want to try in your own product. Once you get to that, then it becomes easier to actually do with your own software, but it is a little painful obviously. Same with watching usability tests to look at your own baby in a way that is, \"Okay. I'm trying to find all the words. I'm trying to find all the problems.\"",
+   "zh": "从那个出发，你通过用真正挑剔的方式看别人的产品，生出了大量惊人的灵感，针对你也许想在自己产品里试的东西。一旦你到了那一步，再去对自己家的软件做，就更容易了——但它显然有点痛。看可用性测试、以『好，我在试图找出所有的词、找出所有的问题』的方式去看自家的孩子，也是同理。",
+   "ts": "00:28:38"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But that's one up being a pretty great source. Whenever a team I think either gets stuck or feels like they reach a dead end in a direction is doing complaint-storms about the product area that they're in or using adjacent products just to get inspiration. Then I think it unlocks a lot more creative views than the problem space.",
+   "zh": "但那最终成了相当棒的源头。我觉得，无论何时一个团队卡住、或者觉得自己在一个方向上走到了死胡同，去做针对他们所在产品板块的抱怨风暴、或者用相邻产品，就只是为了拿灵感。然后我觉得，它解锁的创造性视角，远比问题空间本身多。",
+   "ts": "00:29:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's similar to a process that I learned Stripe has called friction logging. But I love the nuance here of starting with someone else's product because I could totally see how that makes you feel better looking at your product in real life. It's not like we suck. It's okay, everyone's has so much opportunity.",
+   "zh": "它类似于我得知 Stripe 有个叫『摩擦记录』的流程。但我爱这里那个微妙处——从别人的产品开始——因为我完全能看出，那如何让你在真实生活里看自家产品时感觉更好。不是像『我们烂』。而是：好，人人都还有那么多机会。",
+   "ts": "00:29:23"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Exactly. Yeah. I've heard that from Stripe, too. I think gets a similar place. I think it's the doing it ... I think the byproduct is that you also get calibration on product pace, product quality, and as a team you develop that together. Again, similar to the principles, it's like how do you get these things that are hard to actually feel collectively on the same page about and how do you calibrate? It's another good way to do it.",
+   "zh": "没错。对。这个我也从 Stripe 听过。我觉得它到的是相似的地方。我觉得做这件事……我觉得那个副产品是：你也在产品节奏、产品质量上拿到了校准，而且作为一个团队，你们一起把它发展出来。再说一次，类似于那些原则，它就像：你如何让这些难在集体上真正同页共感的东西被感觉到、并且你如何校准？那是另一种好做法。",
+   "ts": "00:29:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm imagining some PMs might be hearing this and wonder, \"Okay. Great. Now the founders and the execs have all these things that they want us to fix. I have goals to hit. I got a roadmap. How do you think about prioritizing things that come up in these sorts of sessions for the team and how do they mix and match versus all the other stuff that you want to do? Or is it just like they don't actually have a huge roadmap and this is a way to inform the roadmap?",
+   "zh": "我在想象，有些 PM 也许正听着这个、然后纳闷：『好。棒。现在创始人和高管有了所有这些他们想让我们修的东西。我有要达成的目标。我有路线图。你是怎么思考、为团队排定这些在那种会议里冒出来的东西的优先级？它们和你所有其他想做的事，如何混搭？还是说，其实他们并没有一张巨大的路线图，而这只是个给路线图提供信息的方式？』",
+   "ts": "00:30:01"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "No. I mean, more broadly, I think the way that we think about, or us to think about our roadmap for any feature team at Slack is that it's a portfolio and it's meant to be a portfolio that's diversified a couple different ways. I think one is you want to diversify things that are meant to be new capabilities versus making the thing you've already built a little bit better every day. Similar to parenting.",
+   "zh": "不。我是说，往宽里讲，我觉得我们思考的方式——或者我们在 Slack 对任何功能团队的路线图去思考的方式——是把它当成一份组合，而且它该是一份以几种不同方式做了多元化的组合。我觉得其一，你想让意在成为新能力的、和每天把你已造出的东西弄好一点点的，做多元化。类似于育儿。",
+   "ts": "00:30:23"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Are there things that are meant to be risky that you aren't sure are going to work but might have a lot of upside versus things that are known bets. Then I think often you're balancing are you doing things that are meant to have impact that you're already very confident in versus things that are meant to learn about a new possibility space.",
+   "zh": "有没有那种意在冒险、你不确定会成、却可能有大量上行的东西，相对地，有没有那种已知的下注？然后我觉得，你常是在平衡：你做的是意在产生你已经很有把握的影响的东西，还是意在了解一个新可能性空间的东西？",
+   "ts": "00:30:47"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think for most teams, this stuff usually wind up tactically filling up that bucket of, \"Let's make the existing product a little bit better every day for users.\" At Slack we have this thing we call customer Love Sprints, which is an interesting way team to figure out how to get this on their roadmap is it's hard to allocate that work throughout the quarter.",
+   "zh": "我觉得对大多数团队，这类事往往最终在战术上填进了那个桶：让我们每天给用户把既有产品弄好一点点。在 Slack 我们有个叫客户热爱冲刺的东西，它是个有意思的方式——团队能搞清如何把这件事放上自己的路线图，因为要在整个季度里拨出那块工作，很难。",
+   "ts": "00:31:05"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "What we'll wind up doing often is have a team do a two-week customer love sprint, almost like a hackathon, but with that burndown list of what we think is the lowest effort, highest impact changes that we can make to generate more love from our customers and whatever that feature areas. Then people just sprint for two weeks, design product engineering, and then you have a bunch of things that you celebrate.",
+   "zh": "我们最终常做的，是让一个团队做一个为期两周的客户热爱冲刺，简直像个黑客松，但带着那样一张燃尽表——列着我们觉得是最低投入、最高影响的改动，能给我们的客户生出更多热爱、无论在那哪个功能板块。然后人们就冲刺两周，设计、产品、工程，然后你就有一大堆值得庆祝的东西。",
+   "ts": "00:31:26"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "At the end, the goal is to ship all of them. This isn't hacks that you throw away. That's how we end up prioritizing it off in that work is actually making it this really fun total change of pace throughout the quarter to not do big feature work that may take months, but to do all these small delightful things that customers are going to love at the end. That's the other way that we figure out how to balance it in.",
+   "zh": "到末尾，目标是把它们全发出来。这不是你扔掉的那些 hack。那是我们最终如何在那块工作里排定优先级——它其实让整个季度有了一种真正好玩的、彻底的节奏变化：不去做大块可能要花几个月的功能工作，而是去做所有这些小的、客户最终会热爱的巧思。那是我们搞清如何平衡它的另一种方式。",
+   "ts": "00:31:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. How often do you do these sorts of customer Love Sprints?",
+   "zh": "我爱这个。你们多常做这种客户热爱冲刺？",
+   "ts": "00:32:11"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I would think teams that work on very user facing products do it at least once a quarter. I think other teams that work on maybe less user facing might do it maybe twice a year. But quarterly is a pretty healthy cadence.",
+   "zh": "我会想，做非常直面用户产品的团队，至少每季度做一次。我觉得别的、也许没那么直面用户的团队，也许一年两次。但每季度是个相当健康的节奏。",
+   "ts": "00:32:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. I didn't know about that. That connects to ... Slack has always been a very delightful product. I remember early on the animations were so awesome, the little twirly, I don't know, pounds hashtag thing. It feels like Slack has always invested in delight. How do you operationalize that? Is it these customer Love Sprints? Is there something else that's just like we need to allocate some percentage, just make things really fun even though it's not going to move any metric?",
+   "zh": "哇。我之前不知道这个。这连上了……Slack 一直是个让人很愉悦的产品。我记得早期那些动画超棒，那个小转转、我不知道、pounds 的井号东西。感觉 Slack 一直都在愉悦上下注。你们如何把它运营化？是靠这些客户热爱冲刺吗？还是有别的，就像：我们得拨出某个百分比，就为了让东西真的好玩，哪怕它不会推动任何指标？",
+   "ts": "00:32:26"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I would say it's a little bit good DNA of the company, honestly, which is that for co-founders trying to build a massive online role playing game for many years that was called Glitch and their background was all in building delightful, playful experiences. Glitch didn't work out. But, yeah, there's a whole long backstory. But the short version is a tool they had built internally that they then wound up spitting out a company from which became Slack.",
+   "zh": "我会说，老实讲，那是公司一点点好的 DNA——也就是那几位联合创始人，曾花很多年试图建一个庞大的在线角色扮演游戏，叫 Glitch，而他们的背景全在打造愉悦的、好玩的体验。Glitch 没成。但，对，有一整个长长的背景故事。简短版是：他们内部建过一个工具，然后那个工具最终吐出了一家公司，而那家公司成了 Slack。",
+   "ts": "00:32:51"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think that DNA we're trying to build a consumer grade experience that just happens to be for work is really ingrained in the company. It's also a big part of how we hire. I would say certainly the majority of PMs designers and engineers who joined Slack had never worked at an enterprise software company before. It's not like most people had worked at Oracle or SAP, it's most people had worked at consumer companies or game companies.",
+   "zh": "我觉得那个 DNA——我们试图打造一种恰好是用在职场上的消费级体验——是真的深植于公司的。它也是我们如何招人的一大块。我会说，确实，加入 Slack 的大多数 PM、设计师和工程师，之前从没在一家企业软件公司干过。不像大多数人在 Oracle 或 SAP 干过，大多数人在消费级公司或游戏公司干过。",
+   "ts": "00:33:18"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "They bring that focus in the spirit and then I would say the last bit beyond kind of the principles and the complaints-storms and the customer love is that we have this amazing team that we call the CET team, the Customer Experience Team. They're in some ways the team that is doing our scale at Foursquare is most often in touch with our customers.",
+   "zh": "他们把那种专注带进精神里，然后我会说，除了那些原则、抱怨风暴、和客户热爱之外，最后一块是：我们有个超棒的团队，叫 CET 团队，也就是客户体验团队。在某种程度上，他们是在规模上——就像我们在 Foursquare 时——最常和我们的客户接触的团队。",
+   "ts": "00:33:44"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "From the very early days people used to do CE shifts if you worked in products so that you can actually figure out what's frustrating, what's confusing. We have a really great pipeline for getting the insights from the CE team of what are the obstacles, the pain points, the most frequent complaints into the hands of the product teams to be able to prioritize, to figure out, yeah, not all these are going to move a given metric. They might not achieve something for the business.",
+   "zh": "从很早的日子起，如果你在产品部门工作，人们会去做 CE 轮值，好让你真能搞清什么让人沮丧、什么让人困惑。我们有一个真的很棒的管线，能把来自 CE 团队的洞察——哪些是障碍、哪些是痛点、哪些是最频繁的抱怨——交到产品团队手里，让他们能排定优先级、能搞清：对，不是所有这些都会推动某个给定指标。它们也许不会为公司达成什么。",
+   "ts": "00:34:02"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But collectively, I think the way that Slack thinks about competition is we obsess it about customers. We build something they'll love enough to tell their coworkers and the rest takes care of itself.",
+   "zh": "但集合起来，我觉得 Slack 思考竞争的方式是：我们对客户着了魔。我们造出某种东西，让他们爱到会去告诉同事，其余的自会照料自己。",
+   "ts": "00:34:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of competition, something I wanted to ask you a bit about. Early on Slack was competing against this product called HipChat and that's actually what I used at our startup and we love HipChat. It was so hilarious, just these memes everywhere and their billboards are amazing. But then Slack ate their lunch later on. I'm just thinking out loud, discord feels like that was the big threat and how Microsoft Teams obviously.",
+   "zh": "说到竞争，有件事我想稍微问你一下。早期 Slack 在和一款叫 HipChat 的产品竞争，那其实正是我们创业公司用的，我们超爱 HipChat。它那么好笑，到处都是那些梗图，他们的广告牌也惊人。但后来 Slack 把他们的午餐吃掉了。我只是在大声想，Discord 感觉像是那个大威胁，还有显然的 Microsoft Teams。",
+   "ts": "00:34:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm curious just how you think about competition and even just what you've learned about working in a space where there's a lot of competition and thinking about that long-term and even short-term.",
+   "zh": "我纯粹好奇你是怎么思考竞争的，还有就在个竞争很强的空间里工作你学到了什么，以及关于那个的长期、甚至短期思考。",
+   "ts": "00:35:03"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. I mean each of those is an interesting mini lesson learned about those. I think the through line for all of them I would say is still the max that we have in trailing, which is we're customer obsessed but competitor aware. I think it's a little bit different. I think some companies are like ... I don't know, Uber for example, I think was notorious competitor obsessed and they tried to delete customers when they could.",
+   "zh": "对。我是说，它们每一个都是关于那些、学到的一个有趣的小教训。我觉得贯穿它们全体的那根线，我会说是我们一直拽在手里的最大原则，也就是：我们对客户着了魔，但对竞争对手有意识。我觉得这有点不一样。我觉得有些公司像……我不知道，比如 Uber，我觉得是出了名的对竞争对手着了魔，而且一有机会就想干掉客户。",
+   "ts": "00:35:12"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think HipChat. I don't think Slack sought out to kill HipChat. At Foursquare we used ... I think it was called Campfire back in the day for the 37 singles people. It was a whole generation of those products. I think Slack came along and I think they had a couple of innovations. One was they had a great mobile experience that synced across every client. Search actually worked and then they brought a lot of the best parts of consumer messaging into the workplace like the emoji and reactions and all those bits.",
+   "zh": "我觉得 HipChat。我不觉得 Slack 是处心积虑要干掉 HipChat 的。在 Foursquare 我们用过……我记得当年叫 Campfire，给那 37 个单身的哥们用。那是整整一代的这类产品。我觉得 Slack 后来居上，而我觉得他们有几项创新。其一，他们有个很棒的、能跨每个客户端同步的移动体验。搜索是真的能用，然后他们把消费级通讯里最好的那些部分——比如 emoji 和表情回应、以及所有那些碎片——带进了职场。",
+   "ts": "00:35:35"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think it turns out that if you're 10X better on a couple of those axes, then you can see a huge change in behavior. I think that's what happened with that move from the HipChat Campfire to Slack world. Discords interesting. I mean we keep aware of Discord. But it is so much more focused on the consumer. Originally, it was [inaudible 00:36:23] out for community space. I think at Slack the lesson I would have, I think we learned in a good way is we've always really been focused on groups of people who are trying to do work together.",
+   "zh": "我觉得结果证明，如果你在那几个轴向上好出 10 倍，你就能看到行为的巨大改变。我觉得那就是从 HipChat、Campfire 世界转向 Slack 世界时发生的事。Discord 有意思。我是说我们一直对 Discord 有意识。但它那么地更聚焦在消费级。最初，它是为社区空间而生的。我觉得在 Slack，我会给的教训是——我觉得我们以好的方式学到了——我们一直真的聚焦在正试图一起把工作做出来的一群人上。",
+   "ts": "00:36:04"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "That winds up being a completely different audience to build for than communities. I think that focus has been really helpful and I think Discord's amazing and many people love it and the people who use Discord certainly use it in very different way than people who use Slack at work.",
+   "zh": "那最终成了和社区完全不同的、要去构建的受众。我觉得那个聚焦一直很有帮助，而且我觉得 Discord 很惊人、很多人爱它，而用 Discord 的人，用法肯定和在工作里用 Slack 的人非常不同。",
+   "ts": "00:36:33"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think Microsoft obviously has become over time the biggest competitor there. I think the origin of Teams really was a defensive move for them to protect Office because Office is an incredible, very profitable monopoly in the productivity space. I think when they built Teams it was more of a covering their flank versus Slack on the ascent.",
+   "zh": "我觉得 Microsoft 显然随着时间成了那里最大的竞争对手。我觉得 Teams 的起源，对他们来说真的是一步防守棋，用来保护 Office，因为 Office 是生产力空间里一个不可思议、极赚钱的垄断。我觉得他们建 Teams 时，更多是在掩护自己的侧翼，相对当时正在上升的 Slack。",
+   "ts": "00:36:49"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think as Teams has evolved over time, it's become much more of a video conferencing product that competes with Zoom and Google Meet. The people who use Teams use it completely different than Slack where you live and breathe and channels and work and workflows all day long.",
+   "zh": "我觉得随着 Teams 随时间演进，它成了更偏视频会议的产品，和 Zoom、Google Meet 竞争。用 Teams 的人，用法和用 Slack 的人完全不同——在 Slack 里你整天活着、呼吸着、频道、工作、工作流。",
+   "ts": "00:37:10"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think what we've seen there too is that a lot of our customers, they happily use both. Most Fortune 500 companies have either a subscription or a Google Workplace subscription and all of those customers who use those also use Slack. We like to say that Slack is this connected tissue that makes all the rest of your tools that much better.",
+   "zh": "我觉得我们在那儿也看到的是：我们很多客户，都开心地两个都用。大多数财富 500 强公司，要么有 Slack 订阅、要么有 Google Workplace 订阅，而所有那些用那些的客户，也都用 Slack。我们喜欢说：Slack 是那块相连的组织，让其余所有你的工具都变好那么多。",
+   "ts": "00:37:25"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think there we've taken very much an open ecosystem and platform approach and we've just been focused on how do we keep building the best version of what Slack can be as a new category of software for our customers and staying aware of our competitors, but really obsessed on what are the new ways that we can delight our users as the years go by.",
+   "zh": "我觉得在那儿，我们采取的是非常开放的生态和平台路线，而我们一直聚焦在：作为软件的一个新品类，我们如何持续造出 Slack 能成为的最好版本，给我们的客户；并且对竞争对手保持有意识，但真的对客户着了魔——关于随着年岁流去，我们有哪些新方式能让我们用户惊艳。",
+   "ts": "00:37:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Slack is a big-ish company within now let's say a big company. But it feels like you still are launching really interesting stuff, you launch huddles, clips, there's this AI stuff coming, sounds like. I'm curious what you have done at Slack to enable these sorts of zero to one bets and what you've seen is important to allow for innovation along those lines.",
+   "zh": "Slack 如今就算是个挺大的公司、可以说大公司了。但感觉你们仍在发布真正有意思的东西，你们发 huddles、clips，还有这听起来要来的 AI 东西。我好奇，你在 Slack 做了什么，去促成这类从零到一的下注，以及你看到什么对沿这些线的创新是重要的。",
+   "ts": "00:38:04"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think maybe we're all a little self-delusional, because I think everyone who works at Slack likes to think that we're still at a small startup. I think keeping that spirit alive, honestly culturally has been a big part of it. I think going back to the principles early on, one of the ones that we did talk about, literally one of the actual wording is take bigger boulder bets.",
+   "zh": "我觉得也许我们全都有点自我妄想，因为我觉得每个在 Slack 工作的人都喜欢觉得自己还在一个小创业公司。我觉得老实讲，在文化上让那种精神活着，一直是其中一大块。我觉得回到早期那些原则，我们确实聊过的其中之一，字面上一句确切的说法就是：下更大胆的赌注。",
+   "ts": "00:38:26"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The idea there is that it's really easy to fall into the trap of just constant incrementalism. The concept, it's like a feature team and you have like a KPI and you feel like your whole life is measured by that similar KPI going up 1% a quarter and then you lose sight of what's beyond the horizon. We have this mental metaphor that we talk a lot about getting to the next hill.",
+   "zh": "那个想法是：跌进只是不停渐进的陷阱，真的很容易。那个概念，就像一个有功能的团队，你有个 KPI，而你觉得自己的整段人生都被那个类似的 KPI 每季度涨 1% 衡量着，然后你就看不见地平线之外是什么了。我们有这个常聊的心智隐喻：爬到下一座山头。",
+   "ts": "00:38:43"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The idea is that if you're in a mountain range and you're maybe in the little valley, you can see what's right in front of you. But you have no idea how tall the mountains are behind. I think teams can often get lost crawling up that hill, not realizing that there's a huge, incredibly beautiful range behind it.",
+   "zh": "那个想法是：如果你在一道山脉里、也许在那个小山谷里，你能看到正眼前的是什么。但你根本不知道背后那些山有多高。我觉得团队常常会在爬那座山时迷失，没意识到它背后还有一片巨大、美得惊人的山脉。",
+   "ts": "00:39:07"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Take bigger boulder bets. Get to the next hill to see what the horizon wants around you. That's how we think about it strategically. Then I think structurally the way we've approached it is that we've over time freighted new teams from scratch that incubated in a new area before the area mature. We did that with a lot of these native audiovisual products like huddles and clips really in the pandemic because our customers were demanding it from us.",
+   "zh": "下更大胆的赌注。爬到下一座山头，去看看你周遭的地平线想要什么。那就是我们从战略上思考它的方式。然后我觉得，在结构上我们切入它的方式是：随着时间，我们从零组建了新的团队，让它们在某个领域成熟之前，在新区里孵化。我们在大流行期间，就是针对一大批这类原生的影音产品——比如 huddles 和 clips——这么做的，因为我们的客户在向我们强烈要求。",
+   "ts": "00:39:26"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "They were like, \"We love living in Slack all day. But we feel disconnected from our teammates when we can't be in the same physical place. What can you do to help us?\" That's where that came from. I think in the AI space now, it's a similar thing, which is what we're trying to hear from customers. What do you wish Slack could do if it had these new superpowers? Let's incubate a couple teams, a prototype there and then figure out what can get to real product market fit.",
+   "zh": "他们当时像：我们爱整天活在 Slack 里。但当我们没法在同一个实体场所时，我们觉得和队友失联了。你能做什么帮我们？那就是它从哪儿来的。我觉得如今在 AI 空间，是类似的事，也就是我们在试着听客户的声音。如果 Slack 有了这些新超能力，你希望它能做什么？我们孵化几个团队、在那儿做个原型，然后搞清什么能走到真正的产品市场契合。",
+   "ts": "00:39:49"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think when we have those teams, I think it's important to just give them space to run, to give them ... get a gel free card for maybe the normal process of, \"Okay. Our planning quarterly reviews\" and make it feel something that is the pace of learning is what matters. How fast are you prototyping, how fast are you learning from users and then getting to do that publicly and pilot and then get something to launch that's amazing, blows people away. That's the formula that we've seen.",
+   "zh": "我觉得当我们有了那些团队，重要的是就给他们空间去跑、给他们一张免凝胶卡，也许免去那个常规流程：好。我们的计划、季度评审，并且让它感觉：真正要紧的是学习的节奏。你原型做得有多快、你从用户那儿学得有多快，然后得以公开地做、去试点，然后做出一个能发布、能惊艳众人的东西。那就是我们见过的公式。",
+   "ts": "00:40:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Vanta, helping you streamline your security compliance to accelerate your growth. Thousands of fast-growing companies like Gusto, Com, Quora, and Modern Treasury trust Vanta to help build, scale, manage, and demonstrate their security and compliance programs and get ready for audits in weeks, not months.",
+   "zh": "本期节目由 Vanta 赞助，帮你精简安全合规、加速你的增长。成千上万家快速增长的公司——比如 Gusto、Com、Quora 和 Modern Treasury——都信任 Vanta，帮它们建设、扩展、管理、并展示自己的安全和合规项目，并在数周而非数月内为审计做好准备。",
+   "ts": "00:40:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "By offering the most in-demand security and privacy frameworks such as SOC 2, ISO 27,001, GDPR, HIPAA, and many more, Vanta helps companies obtain the reports they need to accelerate growth, build efficient compliance processes, mitigate risks to their businesses, and build trust with external stakeholders. Over 5,000 fast-growing companies use Vanta to automate up to 90% of the work involved with SOC 2 and these other frameworks. For a limited time, Lenny's podcast listeners get $1,000 off Vanta. Go to vanta.com/lenny, that's V-A-N-T-A .com/lenny to learn more and to claim your discounts. Get started today.",
+   "zh": "通过提供最抢手的安全和隐私框架——比如 SOC 2、ISO 27,001、GDPR、HIPAA，以及许多更多——Vanta 帮公司拿到它们加速增长所需的报告，建起高效的合规流程，缓解对它们业务的风险，并与外部利益相关者建立信任。超过 5,000 家快速增长的公司用 Vanta 自动化掉 SOC 2 及这些其他框架中多达 90% 的工作。限时优惠，Lenny 播客听众在 Vanta 上省 1,000 美元。前往 vanta.com/lenny，就是 V-A-N-T-A .com/lenny，了解更多并领取你的折扣。今天就起步。",
+   "ts": "00:41:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One of the things I love learning about from product teams is their unique rituals and traditions. I'm curious what's maybe the most interesting or unique or fun or funny ritual or tradition on the product team of things you all maybe do regularly?",
+   "zh": "我从产品团队那儿最爱学的一件事，就是他们独特的仪式和传统。我好奇，在你们产品团队里，也许最有趣、最独特、最好玩或最好笑的仪式或传统是什么，也许是你们定期会做的？",
+   "ts": "00:41:39"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "One of the things that we do, which is always a little bit funny, I mean, it's more of a emotional thing rather than a practical thing is that at all hands we'll often wind up taking specific tweets that people had about the product and Twitter. People say the craziest thing sometimes. Sometimes they're really heartwarming like customer love, but often it's just the meanest, most frustrating complaints that people have.",
+   "zh": "我们做的一件事，一直有点好笑——我是说，它更多是情绪性的、而非实用性的——是在全员大会上，我们常会搬出一些特定的、人们对产品和 Twitter 发的推文。人们有时会说最疯的话。有时它们真的暖心，像客户的热爱，但往往那只是人们最刻薄、最让人沮丧的抱怨。",
+   "ts": "00:41:56"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "It's honestly meant for us to just have a pulse on, we're at people actually saying and feeling in the wild and not thinking too seriously, but keeping that sense of ... I think that the distance you have from your users as your user base gets more and more diverse and larger I think can make it harder to actually develop the product because you're not designing for yourself anymore.",
+   "zh": "它老实讲是为了让我们自己有个脉搏：在野地里，人们到底在说什么、感受什么，而不必太严肃地想，但保持着那种感觉……我觉得，随着你的用户群变得愈来愈多元、愈来愈大，你和用户之间的距离，反而会让真正去开发产品变得更难，因为你不再是在为自己设计了。",
+   "ts": "00:42:21"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think all the ways that we help keep people grounded in what are actual users actually saying. That's one big way. The other that reminded me of which is actually probably better, maybe delete that last one because it's kind of boring.",
+   "zh": "我觉得所有那些我们帮着让人们扎根在真实用户到底在说什么上的方式。那是一个大方式。另一个让我想起的——其实也许更好——也许是删掉上一条，因为它有点无聊。",
+   "ts": "00:42:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No. It's great. We're not deleting nothing.",
+   "zh": "不。它很棒。我们什么都不会删。",
+   "ts": "00:42:55"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Fine. Usability. I'm a big believer in you want to be data-informed, but you don't want to be so data-driven that you actually don't have a pulse of what real people feel when they're using your product. We're really big into user research, not as it gives you the answer, but it helps at least pose a lot of questions for you when you watch how someone actually uses the software.",
+   "zh": "行。可用性。我是个大信徒：你想被数据告知，但你不想被数据驱动到——当你其实对用户在用你产品时的真实感受，完全没有脉搏。我们超投入用户研究，不是因为它给你答案，而是当你看一个人到底怎么用这个软件时，它至少帮着你提出大量问题。",
+   "ts": "00:42:57"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Historically, it's really hard to get PMs, let alone engineers actually attend user research sessions. What we wound up doing, especially in the pandemic when we first went remote, is now you can dial into usability sessions and to make it really attractive for the team, what we would do is have people live in a thread, write their real time thoughts of ... so painful, how they use that, or I can't believe they missed that, or, oh, that gave me this idea from seeing how they were doing that to do this other thing.",
+   "zh": "历史上，要让 PM 们——更别提工程师——真的去参加用户研究环节，真的很难。我们最终做的，尤其在我们最初转远程、在大流行期间，是如今你能拨进可用性环节；而为了让它对团队真正有吸引力，我们做的是：让人们活在一个 thread 里，写下他们实时的想法——比如那么痛、他们怎么用那个、或者我真不敢信他们漏掉了那个、或者哦那个给了我这个点子、从看他们怎么做那个、去做另一个东西。",
+   "ts": "00:43:21"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Then you wind up having the PMs, the engineers, designers and the user researcher all in one Slack thread live, responding, reacting to usability session. Then suddenly that thread becomes actually the best source of truth for the research report that then gets written up.",
+   "zh": "然后你最终让 PM、工程师、设计师和用户研究员，全在一个 Slack thread 里、实时地，回应、对可用性环节做出反应。然后突然间，那个 thread 其实成了那篇研究报告的、最好的真相源头，而报告随后会被写就。",
+   "ts": "00:43:50"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But I think most importantly, it gets the team almost like the complaint-storms, but actually watching someone else do it in the shoes of an actual human being trying to use the thing that you thought was so brilliant and yet has all these flaws. It's humbling. It's filled with humor and also it's I think really constructive for the teams to do it that way.",
+   "zh": "但我觉得最重要的，是它让团队——几乎像抱怨风暴那样——但其实是看着另一个人，穿着一个真实人类、试图用那个你本以为那么 brilliant、却有着所有这些缺陷的东西的鞋。那是让人谦卑的。它充满幽默，而且我觉得，对团队以那种方式去做，真的很有建设性。",
+   "ts": "00:44:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was going to ask where they actually share these thoughts. In Slack makes a lot of sense.",
+   "zh": "我正要问，他们到底在哪儿分享这些想法。在 Slack 里分享，很说得通。",
+   "ts": "00:44:27"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. I mean it turns into a report at some point, but literally just link back to the original thread and then you have 100 people's reaction as the report is ongoing.",
+   "zh": "对。我是说它到某个点会变成一份报告，但 literally 只要链回那个原始 thread，然后你就有 100 个人的反应，而报告还在进行中。",
+   "ts": "00:44:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If only there was a AI tool to summarize all of your thoughts.",
+   "zh": "要是有一个 AI 工具能帮你把脑子里那些想法全都总结一下就好了。",
+   "ts": "00:44:41"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "We've got a prototype for that. Hopefully it'll work well enough that actually be useful for customers, too.",
+   "zh": "我们已经做了一个原型。希望它真的够好用，不仅对我们有用，对客户也能真正派上用场。",
+   "ts": "00:44:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You tweeted once about how ... I think maybe around the time you joined Slack around 2019 that the self-service business of Slack basically plateaued and it wasn't clear why. I'm curious just what that period was like and how did you get to the bottom of what was going on and turn things around.",
+   "zh": "你曾经发过一条推文，大概是在 2019 年你加入 Slack 前后，说 Slack 的自助服务业务基本停滞了，而且搞不清楚原因。我很好奇那段时期到底是什么样子的，你是怎么弄清楚到底发生了什么，又是怎么扭转局面的。",
+   "ts": "00:44:51"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. It was actually a couple years after I joined, but it was a point where I was focused on the self-service business because we had this period with Slack where I would say maybe 2014 to 2017 where it was almost all self-service and it was just growing like gangbusters. Then we started spinning up the sales team and an enterprise team. We started focusing mostly on that.",
+   "zh": "对。其实那是我加入几年之后的事了，但当时我正专注于自助服务业务。因为 Slack 有过一段时期，大概从 2014 到 2017 年，几乎全都是自助服务，而且增长得极其疯狂。后来我们开始组建销售团队和企业团队，重心就主要转向了那边。",
+   "ts": "00:45:09"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think we saw the team that was working on, but it was primarily the company's focus was all driving enterprise deals, getting to that next level of maturity. Then in 2019, I think we started to see that when we looked beneath the surface, the fundamentals of the self-service business weren't looking as healthy as they used to be.",
+   "zh": "我觉得我们看到，虽然团队还在做，但公司整体的注意力都放在了拿下企业大单、把成熟度推向新高度上。然后到了 2019 年，我们开始往深处看，发现自助服务业务的健康度已经不如从前了。",
+   "ts": "00:45:30"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think the biggest thing as we dug into it was a little bit to what we were talking about earlier with the motivation and complaints terms is it was getting harder to understand what the next generation of Slack customers really wanted from the product. Whether you're thinking about this as crossing the chasm or moving from kind of early adopters to the needs, the more majority or later adopters, I think we're at that point where not every technologically sophisticated company on earth was using Slack, but most were, and we were getting into a market that customers just had different needs. They had different levels of sophistication.",
+   "zh": "我们深挖下去，最大的发现有一点呼应了前面聊到的动机和抱怨——就是越来越难搞清楚下一代 Slack 客户到底想要什么。不管是把它理解为跨越鸿沟，还是从早期采用者转向更主流、更晚采用的那批用户的需求，我觉得我们当时就处在那个节点：地球上不是每一家技术成熟的公司都在用 Slack 了，但大多数已经在了，于是我们开始进入一批需求不同的客户市场，他们的成熟度也不同。",
+   "ts": "00:45:50"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "We did a lot of user research. We looked at all these cohort curves, which you can imagine suddenly they're like, \"Huh, they're not as healthy as they used to be like. What's going on?\" I think we got a bunch of insights from it. But I think really what we want to change about how we were operating was instead of to continue to try to optimize the things that had worked over the last couple years, we said, \"Okay. Let's throw the whole roadmap away and instead let's come up with a bunch of hypotheses about what could be new levers that could actually help based on the insights that we now have about the next set of customers.\"",
+   "zh": "我们做了大量用户研究，看了各种同期群曲线，你完全可以想象那种感觉：嘿，怎么不像以前那么健康了，怎么回事？我们从中得到了不少洞察。但真正改变我们运作方式的，是我们不再继续优化过去几年奏效的那些东西，而是说：好，我们把整个路线图推倒重来，根据现在对下一批客户的新认知，提出一堆假设，看看哪些是新杠杆，真的能起作用。",
+   "ts": "00:46:24"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "\"We're going to try to quickly learn which of these levers are real and which of these are just totally off the mark.\" We had to say for the next six months, we're probably not going to drive any impact at all. It's only going to be about learning. But at the end of that, hopefully we wind up finding a couple different levers that had years of room run and that's what wound up happening.",
+   "zh": "我们要快速试出这些杠杆里哪些是真的、哪些是彻底跑偏的。我们得说清楚：接下来半年，我们可能根本不会产生任何业务影响，只为学习。但半年之后，希望我们能找到几个还有好几年增长空间的杠杆——事实证明确实如此。",
+   "ts": "00:46:56"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "We wound up doubling the rate of our new pay customer growth in the year and a couple years after that and accelerating the self-service business. I think it really came from stepping back, being humble, not feeling like we deserve to have every company on earth sign up and then figuring out how to optimize for learning. In the long term you could get the impact.",
+   "zh": "那一年以及之后几年，我们把新增付费客户的增速提高了一倍，并重新加速了自助服务业务。我觉得关键就在于退一步、保持谦逊，不要觉得地球上有每家公司都理所应当该来注册我们，然后去优化学习。长期来看，影响自然就来了。",
+   "ts": "00:47:19"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But knowing that for the next couple quarters we're going to sacrifice impact for the sake of learning. I think that was a good muscle to build, but it was definitely not easy to do at the time.",
+   "zh": "不过也要知道，接下来的几个季度我们要为学习而牺牲业务影响。我觉得这确实是值得锻炼的一种能力，但当时做起来绝对不容易。",
+   "ts": "00:47:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, the story begs the question, what are the levers that worked? Whatever you can share.",
+   "zh": "嗯，这个故事让人忍不住想问：到底哪些杠杆奏效了？能分享的尽量分享一下。",
+   "ts": "00:47:49"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "One of the big things that we wound up focusing on is what we talk about is comprehension, desirability. The fundamental challenge I think for new users or new teams using your product once you get past the kind of tech early adopters is do they comprehend what this thing is for? Do they understand how it works? Then desirability is why should they care? Most people at work are not like,\" Hey. You know what I want to do today is start using an entirely new tool and convince all my coworkers to get on board.",
+   "zh": "我们最终聚焦的一个大头，就是我们前面聊到的：理解度，以及渴望度。我认为，一旦过了技术早期采用者这一阶段，新用户或新团队使用你产品时最根本的挑战就是：他们理解这东西是干嘛的吗？他们懂它怎么用吗？而渴望度则是：他们为什么要关心它？大多数人上班的时候可不会想，嘿，我今天最想干的事就是开始用一整套全新工具，还得说服所有同事都上车。",
+   "ts": "00:47:53"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "That is not part of your job. Your job has goals and measurements and everything else. Really ... understanding that. How do you push on that in that new user experience? It sounds maybe a little ludicrous, but Slack always has a free product. Obviously, there's a free tier that you can use, but we had never actually figured out a trial strategy where we actually gave you a taste of the paid product.",
+   "zh": "那本不在你的工作范围内。你的工作有目标、有考核，还有别的一堆事。真正理解这一点之后，你怎么在新用户体验里推动这件事？听起来可能有点离谱，但 Slack 一直都有免费产品。当然有免费档可以用，可我们以前从来没真正搞出一个试用策略，让你真正尝到付费产品的味道。",
+   "ts": "00:48:22"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Either we're on the free tier or we get to pay for the paid tier. And that wound up being one of, I think the Ripest veins is figuring out how to give people a taste of the full premium Slack experience so that they would never want to go back and doing that in a variety of different points in the customer journey. Then I'd say the other biggest thing I would call the one out is we really need to figure out a new north star metric for motivating the teams across Slack.",
+   "zh": "要么在免费档，要么直接付费买完整档。而那最终成了最成熟的一个方向之一：琢磨怎么让人们先尝一口完整的高级 Slack 体验，让他们再也不想回去，而且要在客户旅程的好几个不同节点上都这么做。另外一个我要单独点名的大头是，我们确实需要为整个 Slack 找到一个新的北极星指标来激励各个团队。",
+   "ts": "00:48:44"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "At that point in time, we basically had paid customers and then we had creative teams, which is the very, very beginning, very, very end of the journey. We did a lot of quantitative research and data science and wound up coming up with this new metric we call successful teams, which is a little bit ... I feel a lot of companies have this Facebook, I'm lucky number seven or whatever it was.",
+   "zh": "那时候，我们基本只有付费客户，以及创意团队——也就是旅程最最开头、最最末尾的那一小撮。我们做了大量定量研究和数据科学工作，最终搞出了一个叫成功团队的新指标，有点像……我感觉很多公司都有那种 Facebook 的七项魔法数字之类的东西。",
+   "ts": "00:49:09"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Where what we found was that if you could get five people using Slack, the majority of the work week to just communicate at all, that would be a successful team there were going to be 400% more likely to upgrade over the next six months. That seems like a very low bar, five people to use Slack throughout the work week, not even every day. But it turns out that if you could get that level of critical mass the rest would take care of itself.",
+   "zh": "我们发现的规律是：如果能有五个人在工作周里哪怕只是用 Slack 沟通，那就是一个成功团队，而这样的团队在接下来六个月里升级付费的可能性要高出 400%。这门槛听起来很低——五个人整个工作周用 Slack，甚至都不用每天都用。但事实证明，只要能达到这个临界规模，后面的事就顺理成章了。",
+   "ts": "00:49:28"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "We wound up motivating not just the team that was focused on self-service but all these other feature teams across the company to drive more new successful teams, knowing that if we can move that which is much earlier in the funnel but not a top of funnel metric, then it would actually drive upgrades and paid customers and thus revenue long-term. That was a huge turning point for how we rally product teams around somebody to actually drive that self-service business.",
+   "zh": "于是我们不只是激励专注自助服务的团队，而是让公司里所有其他功能团队都去推动更多新的成功团队——我们知道，如果能推动这个指标（它更靠漏斗上游，但也不是最顶端的指标），长期就会真正带动升级、带来付费客户，进而带来收入。这对我们如何把产品团队凝聚到自助服务业务上，是一个巨大的转折点。",
+   "ts": "00:49:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Man, this feels like its own podcast. Just to analyze the things you learned down this journey, and there's so many takeaways here. One is just the importance of an activation metric that is predictive of retention sales. It sounds like you landed on five people in a company like DAU basically for a week, something like that. That's awesome.",
+   "zh": "天哪，这感觉都能单独开一档播客了。光是剖析你这一路学到的东西就够，而且收获太多了。其中一点就是：一个能预测留存和销售的激活指标太重要了。听起来你最终落到的是大约五个人、在公司里基本像 DAU 那样、持续一周之类。这点太赞了。",
+   "ts": "00:50:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Then the other interesting takeaway here is I'm actually doing a bunch of interviews with founders of the most successful B2B companies and interestingly, not all, maybe half are like, \"I still don't think we have product market fit. They're at a billion dollars valuation growing crazy.\" They're like, I feel like I have product market fit with the current users but I don't with the people I want next.",
+   "zh": "另一个有趣的收获是，我最近正采访一批最成功 B2B 公司的创始人，有意思的是，并不是所有人都这样，大概一半人会说：我到现在还是觉得我们没真正找到产品市场契合。他们估值都已经十亿美金、增长疯狂了，却说：我觉得对现在的用户是契合了，但对我想拿下的下一批人还没契合。",
+   "ts": "00:50:40"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "That's exactly right. I think that's exactly right. I think of product market fit is almost like you keep stacking these S-curves where you get product market fit in a small group and then you suddenly reach exponential growth because you can crack that coal group, that type of audience, but then you start declining because you start hitting the ceiling of, we've got in, I don't know what it might be every development team in the US to be using this product.",
+   "zh": "完全正确。我觉得就是这么回事。我觉得产品市场契合有点像你不断堆叠一条条 S 曲线：你在一个小群体里找到契合，然后因为撬动了那类人群而迎来指数级增长；但随后你开始下滑，因为你撞到了天花板——比如美国所有的开发团队都用上我们的产品了，差不多到头了。",
+   "ts": "00:51:08"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Then you jump up to the next S-curve, which is like how do we get technology savvy teams that aren't developers or how do we get people who are in large eventerprises who are outside the US. Each become new curves that you have to build product market fit for. I think it's just all a huge exercise in being self-critical, being humble, not presuming that you've cracked this thing forever and keeping kind of a very beginner's mindset of what does the next audience need. \"",
+   "zh": "然后你跳到下一条 S 曲线，比如：怎么拿下那些不是开发者的技术敏感型团队？或者怎么拿下美国以外大型企业里的人？每一条都是一个你需要重新建立产品市场契合的新曲线。我觉得这整个就是一场保持自我批判、保持谦逊的修炼，不要假定自己已经一劳永逸地破解了这事，始终用初学者的心态去想：下一批受众需要什么？",
+   "ts": "00:51:30"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Your previous audience. Didn't need it all.",
+   "zh": "你之前那批受众，根本不需要这些。",
+   "ts": "00:51:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If you think about the pie chart of what you had to change to make it work, how much of it was it messaging, positioning, onboarding, optimization versus product features?",
+   "zh": "如果用一个饼图来看，为了让它奏效，你不得不改变的那些东西里，有多少是信息传达、定位、引导、优化，又有多少是产品功能本身？",
+   "ts": "00:52:01"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I would say maybe 60-40 in the sense of the early journey. I mean not just obviously positioning messaging, but the entire experience of unboxing Slack if you will with your team. We called it the day one journey, but extended to really kind of day 30 in reality and it's a single player and multiplayer experience. It is really complex.",
+   "zh": "我会说大概是六四开，指的是早期旅程。我指的不仅是定位和话术，而是你和团队一起开箱体验 Slack 的整个感受。我们叫它第一天旅程，但其实延伸到差不多第三十天，而且是单人加多人混合的体验，非常复杂。",
+   "ts": "00:52:10"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But then I think what we realized was you can make that incredible, but if fundamental parts of the product were missing that would make it comprehensible to the next audience, then you're going to have problems. It sounds maybe impossible to remember, but Slack used to not have wizzywig message composition.",
+   "zh": "不过后来我们意识到，就算你把那段体验做得再惊艳，如果产品里缺少一些基础功能，导致下一代受众根本理解不了它，那还是会有问题。听起来可能很难想象，但 Slack 以前连可视化消息编辑框都没有。",
+   "ts": "00:52:33"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "You used to have to use mar, down. Making that wizzywig was a huge boost making mobile work offline so it worked no matter where you were in the world was another big one. All the things about configuring your sidebar notification so that as you scale it you should just Slack it and become overwhelming. Those are some of the foundational product investments that we wound up making so that next generation of Slack customers could get value and not be overwhelmed or daunted by it.",
+   "zh": "你以前得用 Markdown。把它改成可视化编辑，是巨大的提升；让移动端能离线工作、不管你在世界哪个角落都能用，是另一大块。还有所有关于配置侧边栏通知的事，让你规模变大时不会被 Slack 淹没。这些都是我们最终做下的基础产品投入，好让下一代 Slack 客户能真正获得价值，又不会被它压垮或吓退。",
+   "ts": "00:52:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe one last question along these lines, people look at Slack as maybe the first major product-led growth success story and they always look at Slack of like, \"Oh, we just want to grow Slack. Let's see what they did.\" For people that are studying Slack's journey and success, what do you think Slack did right early on that maybe people don't recognize or don't appreciate enough that founders today should be thinking about more so versus just like let's just make a freemium product.",
+   "zh": "顺着这个方向最后一个问题吧。很多人把 Slack 看作也许是第一个产品驱动增长的成功案例，总是盯着 Slack 说：哦，我们就是想照着 Slack 增长。对于那些研究 Slack 历程和成功的人来说，你觉得 Slack 早期哪些做对的事，是大家没意识到或不够重视、而今天的创始人更该去思考的——而不是简单地照抄做一个免费增值产品？",
+   "ts": "00:53:22"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Right. I mean, I think, maybe the most telling thing is when Slack started, certainly when I joined still, I don't think a word or acronym product-led growth existed. It wasn't like we were really good at taking this playbook and applying it. I think it was more that whole term of art became a thing as maybe many other freemium SaaS products took off.",
+   "zh": "对。我觉得最有说服力的也许是：Slack 刚起步时，甚至到我加入时，产品驱动增长这个词、这个缩写都还不存在。我们并不是特别擅长套用某个现成打法。我觉得更多是随着很多别的免费增值 SaaS 产品起飞，这个行业术语才慢慢成了一个概念。",
+   "ts": "00:53:48"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Not to be repetitive. But I think the core of it really was building a product that customers loved enough that they would put their own social capital on the line to get their coworkers on board 5 to 50 people.\" At the time the biggest company I imagined using Slack was 50 people because I don't know how this is going to work beyond that, maybe it'll become pandemonium. Obviously, that was the initial, I think real, real strong product market fit.",
+   "zh": "不想重复。但核心真的就是：打造一个客户足够热爱的产品，以至于他们愿意拿出自己的社交资本，去把同事都拉上车——5 到 50 人。当时我能想象使用 Slack 的最大公司也就 50 人，因为我不知道超过这个规模会怎样，也许就乱成一团了。显然，那是最初、也是真正强悍的产品市场契合。",
+   "ts": "00:54:13"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But the other bit which then was what powered the enterprise business was teams of 5 to 50 people who worked at larger companies. I think what wound up happening was that you would have teams that was independently at a company like IBM or Disney or Capital One or whoever it might be, or Comcast discovering Slack using it for themselves because they thought it would just make their working lives simpler, more pleasant, more productive, and maybe not even know that anyone else at the company was using Slack.",
+   "zh": "但另一块后来驱动了企业业务的，是那些在更大公司里、由 5 到 50 人组成的小团队。后来发生的是：像 IBM、迪士尼、Capital One，或者康卡斯特这类公司里，会有团队自己发现并私下用起 Slack，因为他们觉得这能让工作生活更简单、更愉快、更高效，甚至可能压根不知道公司里还有别的人在用 Slack。",
+   "ts": "00:55:11"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Then by the time we then scaled our enterprise sales team, I mean, truly the exercise initially was just take customer domain, sort by number of active users and call them in the order of that which is, \"Hey, by the way, you have a couple thousand people actually using Slack at your company. Do you want to think about a broader deployment or controls or analytics?\"",
+   "zh": "等我们后来扩张企业销售团队时，最初的打法简直就是：拿客户域名，按活跃用户数排序，然后按那个顺序挨个打电话——嘿，顺便说一句，你们公司其实已经有几千人在用 Slack 了，要不要考虑更大范围的部署，或者要些管控、分析功能？",
+   "ts": "00:55:39"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think that was it. That's consumer great experience that customers love enough to get their coworkers on and pay for themselves. Then at enterprise companies like having a bunch of different flowers sprouting so that eventually you could roll up an enterprise-wide deal and then was all the tactics. But I think that that was where it started.",
+   "zh": "我觉得就是这么回事：先有消费者级的绝佳体验，客户爱到愿意拉同事上车、还自己掏钱；然后在大企业里像长出一朵朵花，最后才能汇总成一笔全企业级的大单，之后才是各种战术。但起点就是那个。",
+   "ts": "00:55:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The way you described it at the beginning of make a product that people want to share with their colleagues reminds me of a ... I was just listening to an interview with Seth Godin who's this marketing legend. I think he has a new book. He is on every podcast. He had this really great quote that the products that win are ones that you want to tell your friends about.",
+   "zh": "你开头描述的那种——做个人们想跟同事分享的产品——让我想起一件事。我刚听了一期营销传奇人物 Seth Godin 的采访，他好像出了本新书，现在每个播客都能看到他。他有句特别棒的话：赢的产品，是那些你忍不住想告诉朋友的产品。",
+   "ts": "00:56:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's a really simple concept. Basically, it's like it's word of mouth is how you have to win. But I think that's so true and every successful company I talk to ends up being like, \"We just want to build something people want to share with their friends,\" even if it's growing in some other way, SEO paid feels like that's always at the root of it is you just want to tell your friends about it because you love it. Slack I think is a great example of that.",
+   "zh": "概念很简单：口碑才是你必须取胜的方式。但我觉得这话太对了，我聊过的每一家成功公司最后都会说：我们就是想做出人们愿意分享给朋友的东西。哪怕它靠别的路径在增长，SEO、付费投放，根子上好像永远都是这个——你就是太爱它了，忍不住想告诉朋友。Slack 我觉得就是个绝佳例子。",
+   "ts": "00:56:37"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think that's true. I mean obviously, there are categories of enterprise software that isn't true for in security or ...",
+   "zh": "我觉得确实如此。当然，有些企业软件品类不属于这种情况，比如安全类，或者……",
+   "ts": "00:56:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But even that I think if it's an awesome security product you're like, \"Hey, you got to check out this century or whatever or sneak.\"",
+   "zh": "但就算那一类，我觉得如果是个超棒的安全产品，你也会说：嘿，你一定得看看这个某家的安全方案或者别的产品。",
+   "ts": "00:57:05"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. Good friends with Vanta's CEO Christina. I feel like they run those stories where whoever would've thought that a compliance company would be something that people raved about to their other startup friends, like, \"Oh, my God. You don't want to deal with SOC's compliance? You got in Vanta. It's amazing.\"",
+   "zh": "对。我跟 Vanta 的 CEO Christina 是好朋友。我觉得他们讲的就是这类故事——谁能想到一家合规公司会成为人们向创业圈朋友狂热安利的对象，比如：天哪，你不想自己折腾 SOC 合规？上 Vanta 啊，太神了。",
+   "ts": "00:57:13"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. Maybe that is true. I think especially in this day and age where all the marketing acquisition channels have been so saturated, people optimizing so much, I think it's really hard to scale a big enough business if you don't have some amount of word of mouth and customer love driven growth. I think it's hard to scale it on like, \"We're going to just play the cat game and in hopes that the numbers work out.\"",
+   "zh": "对。也许真是这样。我觉得尤其在这个年代，所有营销获客渠道都极度饱和、人人都在拼命优化，如果你没有一点口碑和顾客热爱驱动的增长，很难把生意规模做起来。光靠玩数字游戏、指望账算得过来就想做大，我觉得很难。",
+   "ts": "00:57:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I remember Slack rolling out at Airbnb and all the designers getting so excited about it, creating their channels and everyone's just like, \"What the hell are they doing as this thing?\" Then it did exactly what you're describing just spread. Everyone's just like, \"Whoa, this is cool.\" They're all telling each other that how useful it is to them and spread like crazy.",
+   "zh": "我记得 Slack 在 Airbnb 铺开时，所有设计师都兴奋得不行，建自己的频道，大家一开始都像：这帮人在搞什么鬼？然后它恰恰就像你说的那样扩散开，所有人都哇这东西好酷，互相安利它对自己多有用，疯了一样传开。",
+   "ts": "00:57:51"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I love that.",
+   "zh": "我喜欢这个。",
+   "ts": "00:58:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there anything else on Slack that you think would be interesting to share in terms of what makes it a successful product team, product business before I move on to another topic?",
+   "zh": "在换话题之前，关于 Slack 还有什么有意思的、能分享它为何是个成功产品团队、成功产品生意的东西吗？",
+   "ts": "00:58:09"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The other thing I think is maybe a little bit interesting in terms of how we develop product and it's really different and it's changed over time, which is that obviously the easiest person to build for is yourself and the next easiest is people who look almost exactly like you or have similar preferences and sophistication. I think in the early days of Slack, that's basically what we did.",
+   "zh": "另一件我觉得有点意思的，是关于我们怎么开发产品，这真的跟别家很不一样，而且随着时间也变了——最容易为其做产品的人是你自己，其次最容易的是跟你几乎一模一样、偏好和成熟度相近的人。我觉得 Slack 早期基本就是这么干的。",
+   "ts": "00:58:20"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I mean it was really just trying to build for small technologically savvy teams in terms of you could build a pretty big business making a great product for them. Over the years, obviously, that's changed. One of the things I think that we've done, which has worked really well, one obviously is we've figured out how to do experimentation in a SaaS product, which is not always obvious because the metrics are much longer term than you land at a checkout page and then you hit Checkout.",
+   "zh": "当时真的就是想为小型的技术敏感团队做产品，而光是为他们做出一款好产品，就能撑起相当可观的生意。这些年，这显然变了。我们做对的一件事，其中一个是搞清了怎么在 SaaS 产品里做实验，这并不总是一目了然，因为指标比到了结账页点一下结账要长得多。",
+   "ts": "00:58:41"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But I think the other thing is we figured out how to scale up getting real customers using Slack in the wilds for new functionality. We have this really robust program that we call our pilot program where we have, I don't know, probably thousands of different customers that have all signed different agreements now where we can actually roll out to progressively larger user bases, because Slack is a multiplayer product.",
+   "zh": "但另一件事，是我们搞清了怎么规模化地让真实客户在实战中用上 Slack 的新功能。我们有一个非常扎实的项目，叫试点计划（pilot program），大概有几千家不同的客户签了各种协议，我们可以把功能逐步推给越来越大的用户群——因为 Slack 是个多人产品。",
+   "ts": "00:59:07"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "You often have to roll out real net new functionality to a whole company or whole team because otherwise you can't use huddles by yourself, for example. Then we have a really great program for actually getting feedback from those customers both through Slack connect itself through surveys and this winds up being a lifeblood of feature teams where you can, by the time you actually launch a big net new feature for Slack, have done so much customer feedback from people actually using in the wild to get work done and so much more confidence in what you're building from the metrics and the surveys that we do that you know can't guarantee it's going to be a hit.",
+   "zh": "你经常得把全新的功能整个推给一整家公司或一个团队，否则你自己一个人是用不了 huddles（语音聊天室）的。然后我们有一个特别好的机制，能通过 Slack Connect 本身和调查问卷，从这些客户那里拿到反馈。这对功能团队来说就是生命线——等你真正发布一个 Slack 的重大新功能时，已经收集了大量真实客户在实战中拿它干活儿的反馈，加上我们做的指标和问卷带来的信心，虽然还是不能保证一定爆红。",
+   "ts": "00:59:30"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But you can be really confident not because it just worked well internally, which is no longer that predictive, but because it worked well for a thousand different companies, in 50 different countries, in 20 different industries. I think not early on SaaS companies don't need to figure that out, but I think as you grow and as you have a more diverse customer base as you said all these SaaS founders who said, \"Hey, you got to keep reestablishing product market fit.\"",
+   "zh": "但你能很有底气，不是因为它在我们内部跑得好——那个已经不那么有预测性了——而是因为它在上千家不同公司、50 个不同国家、20 个不同行业里都跑得好。我觉得早期 SaaS 公司还不需要搞清楚这个，但随着你增长、客户群越来越多元，就像你说的那些 B2B 创始人讲的：你得不断重新建立产品市场契合。",
+   "ts": "01:00:05"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think that is a programmatic way of being able to do that with your product development process. That's pretty interesting.",
+   "zh": "我觉得这正是用产品开发流程、以系统化方式去做这件事的办法。挺有意思的。",
+   "ts": "01:00:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Any tips for how to choose who to include in this group if someone wants to build something like this for themselves?",
+   "zh": "如果有人想给自己建一套这样的东西，在挑选纳入这个群体的人方面，有什么建议吗？",
+   "ts": "01:00:37"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think the two most important things are you want a lot of diversity in terms of industry, company size, location and so on. I think you want to pick people who are actually motivated to want to be part of the development process and have a slightly higher risk tolerance. Not every company wants to actually be beta testing new functionality that might get removed.",
+   "zh": "我觉得最重要的两点是：首先行业、公司规模、地区等方面要高度多元；其次要挑那些真的有动力、愿意参与开发过程、风险容忍度稍高的人。不是每家公司都愿意去测一个可能随时被砍掉的新功能。",
+   "ts": "01:00:43"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Making sure we have this champion network that we built that people who love Slack enough that they're willing to put up with a little bit of pain in that rougher period are willing to have something that they try to use and then we decide actually we're going to kill that feature before we ever ship it to everybody. Diversity and pain tolerance.",
+   "zh": "我们要确保建起一张拥护者网络：那些足够热爱 Slack、愿意在那段比较粗糙的时期忍受一点痛苦，愿意试用一个东西、然后我们决定在全面发布前把它砍掉的人。一句话：多元 + 能忍痛。",
+   "ts": "01:01:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This reminds me of something else, the CTO Stripe shared of how they build new product, which is they pick a couple customers that need a problem solved and they just build it for them essentially and with them and in B2B. Generally, it's a lot easier to build something people really want because they are very motivated for you to solve their problem and they're going to put in the time. You don't need a thousands of people involved, you just need a couple.",
+   "zh": "这让我想起另一件事：Stripe 的 CTO 分享过他们怎么做新产品——挑几个有某个问题待解决的用户，基本就是为他们、和他们一起把东西做出来。在 B2B 里，通常你只要满足几个真正有动力让你解决他们问题的人，就容易做出大家真正想要的东西，因为他们会投入时间。你不需要上千人参与，几个就够了。",
+   "ts": "01:01:24"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. I definitely think it was one of those things where if you can do it away and they say I can't live without it, the classic not ... Do you like it? Sure. But can you work without this thing? If the answer is definitely not, you've built something that probably a lot of other companies will want to.",
+   "zh": "对。我绝对认为这就是那种情况：如果你能远远地做出来，而他们说我没这东西活不下去——经典的不是问喜不喜欢，而是问能不能没有它。如果答案绝对是不能，那你做出的东西大概别家公司也会想要。",
+   "ts": "01:01:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. I'm going to shift to a totally different topic, which could also be its own whole podcast, but let's just see how it goes. You're with this, I'd say famous blog post on product management called The 10 Traits of Great Product Managers. I want to just try to go through this list briefly and just see how it goes. This could be an hour of conversation. But let's just run through it, because I think it'd be useful for people to hear and I think these are all 100% true even though you wrote this number of years ago at this point and let's just see what comes up. Then I have a few follow-up questions on this list.",
+   "zh": "好。我要切到一个完全不同的话题了，这个话题本身也能开一整档播客，不过就先看看能聊成什么样。你有一篇很有名的关于产品管理的博客文章，叫《优秀产品经理的 10 个特质》。我想就顺着这个清单快速过一遍，看看能聊出什么。这本来能聊一小时。但我们快速走一遍吧，因为我觉得对大家有用，而且这些即使你写了好些年，现在看也 100% 成立。我们就看看会冒出什么，之后我对这个清单还有几个追问。",
+   "ts": "01:02:04"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "These traits are ... I wrote this other thing, which is the five minutes about product management, which are all the things that people think product management is and why they switch to the job and they're disappointed by. Then I was like, \"Let me actually write a positive version of this,\" which is the things that the job actually is about. It's not a career ladder. It's not the, \"Here's the structured interview things that you should interview for.\"",
+   "zh": "这些特质是……我之前写过另一篇叫《关于产品管理的五分钟》，里面列举了人们以为产品管理是什么、以及为什么转岗进来会失望的那些事。然后我就想：干脆写个正面版本吧，也就是这工作真正是关于什么的。它不是职业阶梯，也不是那种该按结构化面试去考察的东西。",
+   "ts": "01:02:34"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But I think it's the actual job of product management, what is it about, what does success look like? I don't think they're really in a particular order in hindsight, but I'll read them in order. Living the future and work backwards I think is very much the idea of as a PM is one thing they're responsible for. It's having a longer-term vision and time horizon. How do you carve out time to not just be what are we doing over the next two weeks.",
+   "zh": "而是产品管理真正的工作——它是关于什么、成功长什么样？我觉得回想起来它们没有特定顺序，但我就按原顺序念吧。活在未来、倒推回来，我觉得这非常契合 PM 的一项责任：拥有更长期的愿景和时间跨度。你怎么挤出时间，不只是想接下来两周要干嘛，而是……",
+   "ts": "01:02:56"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But six months, a year, two years from now, how do you immerse yourself in them and bring ideas back, bring inspiration back to the team.",
+   "zh": "……而是半年、一年、两年之后，你怎么沉浸其中，把想法和灵感带回到团队里。",
+   "ts": "01:03:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm going to just going to throw comments at as you're going through them, just add to them. I love that this is exactly Amazon's approach of work backwards, working backwards process. At Airbnb, this is actually the main thing Brian want pushed everyone to do is just think about the idealized product of a magical world where this is totally solid and then work backwards from that. Then Paul Graham talks about this, too, just live in the future and build it.",
+   "zh": "我边听你念边往里加几句感想吧。我很喜欢，这简直就是亚马逊的逆向工作法（working backwards）。在 Airbnb，Brian 推着所有人做的核心事情也就是这个：先去想那个理想化的、魔法般完美的产品，然后从那倒推回来。Paul Graham 也聊过这个，就是活在未来、把它造出来。",
+   "ts": "01:03:27"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I definitely riffed off at least the Paul Graham thing because I remember reading that essay of he thinks everyone thinks that you can get ideas by, I don't know, sitting with their co-founder laying in Dolores Park looking up at the sky and conjuring up the next unicorn or something. Definitely not how that works. You have to actually immerse yourself in the problem space and try to imagine what the future world looks like and then what's missing for people to get to that future state. Yeah. I agree.",
+   "zh": "我肯定至少借用了 Paul Graham 那个说法，因为我记得读过他那篇随笔，他说大家都以为点子是靠什么办法想出来的——比如和联合创始人在 Dolores Park 躺着看天，就凭空召唤出下一个独角兽。绝对不是那么回事。你得真的沉浸到问题空间里，去想象未来世界长什么样，然后想：人们要到达那个未来状态，还缺什么？对，我同意。",
+   "ts": "01:03:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I also saw a great tweet by [inaudible 01:04:21] the other day about how if you're working at a company with good leaders, they're never going to be sad that your vision is too big and too ambitious. If there's some reality to it that often they want that just like, \"Let's go. Let's think bigger. How do we change the way we think about the future of all this stuff?\"",
+   "zh": "前几天我还看到 [inaudible 01:04:21] 发的一条很棒的推文，说如果你在一家有好领导的公司，他们绝不会因为你的愿景太大、太野心勃勃而沮丧。只要它有点现实根基，他们往往正想要那个：来吧，想得再大点，我们怎么重新思考这一切的未来？",
+   "ts": "01:04:20"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. I mean that was when I was at Google, the thing I took away most from any review with Larry and Sergei was they would ask how could we get 100X the scale or how could this work for this, would seem like an outlandish use case but would push the team to think much further into the future. Yeah. I think definitely what the founders always want.",
+   "zh": "对。我在 Google 时，从 Larry 和 Sergey 任何一次评审里学到最多的就是：他们会问，我们怎么才能把规模做到 100 倍？或者这东西怎么能用于那个听起来离谱的用例？这会逼着团队把目光放得更远。对，这绝对是创始人永远想要的。",
+   "ts": "01:04:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's what Brian Chesky always said too, just like, \"How do we 10X this? What would it take to 10X this idea?",
+   "zh": "Brian Chesky 也总这么说：我们怎么把它做到 10 倍？要 10 倍这个想法，得付出什么？",
+   "ts": "01:04:56"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:05:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay.",
+   "zh": "太棒了。好。",
+   "ts": "01:05:01"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Okay. The second one, which is maybe obvious, but thinking about how do you actually amplify your team? How do you facilitate ideas? How do you create energy? How do you create momentum? A PM role I think can be a little bit unsatisfying if you're useful, where you create things yourself opposed to you are the one who's amplifying what the work that's being created by everyone else is. You have to get into that more of a facilitator mindset.",
+   "zh": "好。第二条，可能显而易见，但就是：你怎么真正放大团队的能量？怎么促成好点子？怎么制造能量、制造势头？我觉得 PM 这个角色如果只想着自己造东西、而不是去放大别人创造的东西，会有一点不满足。你得进入一种更像 facilitator（助推者）的心态。",
+   "ts": "01:05:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I think about here is a lot of teams don't want PMs on their team or don't like PMs or don't think PMs are valuable. What I find is that just means your PMs not good because if you have a good PM, they're just going to help you do the best work of your life. They're going to help you clarify things, prioritize well, unblock you, all that stuff.",
+   "zh": "我在这里想到的是：很多团队不想要 PM、不喜欢 PM、觉得 PM 没价值。但我的发现是，那只能说明你们的 PM 不行——因为一个好的 PM，只会帮你做出这辈子最棒的工作。他会帮你厘清思路、排好优先级、帮你扫清障碍，诸如此类。",
+   "ts": "01:05:26"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Totally. I wish should find out who wrote that expression early on of PM should be mini-CEOs. I think that's the most dangerous piece of advice ever in the history of product management because I think that is how you end up having PMs who try to act like dictators instead of leaders and facilitators. Because if you're acting like that, yeah, your team can completely reject you and say I never want another PM again.",
+   "zh": "完全对。我真希望能查出来最早是谁说出 PM 应该是迷你 CEO 这句话的。我觉得那是产品管理史上最危险的一条建议，因为它会让 PM 变成想当独裁者、而不是领导者和助推者。如果你那么做，团队完全可以彻底拒绝你，说我再也不要 PM 了。",
+   "ts": "01:05:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. So many UPMs are just like, \"I'm finally going to have the power, finally.\" If they move from engineering or some other role and then they get there like, \"Oh, what the hell? Is that to convince everyone of all these things I want to do?\"",
+   "zh": "对。太多 PM 一上来就像：我终于有权力了，终于。尤其是从工程或其他岗位转过来，到了位置上才发现：搞什么，合着得去说服所有人接受我想做的这些事？",
+   "ts": "01:06:09"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "That actually, I'm going to skip in a slightly different direction of the order of this post. But the fifth one that I wrote in there was your job as to facilitate the pace and quality of decision making. That is very different than you are the person who makes all the decisions. In fact, I think one of the things that PM struggled with early on is how do you actually get the team to be able to make high quality decisions quickly without you arbitrarily playing tiebreaker all the time.",
+   "zh": "其实这我要稍微跳出原文的先后顺序。我写的第五条是：你的工作是促成决策的速度和质量。这跟你来拍板做所有决策，完全是两码事。事实上，我觉得 PM 早期最难熬的一点就是：你怎么让团队不用你总当和事佬、不用你每次都随便裁决，就能快速做出高质量决策。",
+   "ts": "01:06:20"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "It's a soft art to be able to do that. But I think that is actually how you have a really healthy team dynamic instead of PM to want to say, \"Okay. Now it's my turn to get to make the decisions.\" It's definitely not what the job is about.",
+   "zh": "这要拿捏得恰到好处，是个软功夫。但我觉得那才是一个真正健康的团队动态该有的样子，而不是 PM 想着：好，现在轮到我来做决定了。那绝对不是这份工作该有的样子。",
+   "ts": "01:06:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What that makes me think about is I taught a course on product management at one point that I paused for now of just the core job of a PM is to figure out what's next for every single person on the team. There's this meme or GIF of a dog on a train and he's just laying the tracks as the team is moving forward ahead of them just one step at a time. To do that, this is such an important part of that is just help people make decisions, unblock them.",
+   "zh": "这让我想到，我有阵子开了门产品管理课、现在先停了——课程核心就是：PM 的根本工作，是弄清楚团队里每一个人下一步该干嘛。有个梗图或 GIF 是火车上一只狗，在团队向前冲的时候，它就在一节节地铺铁轨，永远只领先一步。要做到这点，其中极重要的一部分就是帮大家做决策、帮他们扫清障碍。",
+   "ts": "01:07:01"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Totally. I'll combine two of these together. One is you do have to have impeccable execution. This is more of a baseline thing. But I've never seen a PM who was disorganized or didn't do follow-up or wasn't clear about expectations or timelines. It's not high in Maslow's hierarchy of PM enjoyment. But I do think it's a baseline expectation.",
+   "zh": "完全对。我把其中两条合起来说。一条是你确实得有无可挑剔的执行力。这更像一个底线要求。但我从没见过哪个 PM 是混乱的、不跟进的、对期望和时间线含糊不清的。它在马斯洛需求层次里不算 PM 最享受的部分，但我认为那是底线预期。",
+   "ts": "01:07:24"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The thing I think is more enjoyable and probably the most important thing in the long-term is focusing on impact primarily to the customer experience but also to the business. I think there's that saying growth solves all problems. I think impact solves all PM issues, which is if a team is consistently building things people love and changing the director of the business, everything else is just an input.",
+   "zh": "我觉得更有意思、而且长期看最重要的，是聚焦于影响——首要是对客户体验，其次是对业务。有句话叫增长解决一切问题。我觉得影响解决一切 PM 的问题，也就是说，如果一个团队持续在造人们热爱、并且改变业务方向的东西，其他一切都只是输入项。",
+   "ts": "01:07:47"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think that focus and understanding as your point about laying the tracks is what direction do you need to go as a team to actually drive that impact? That's probably the single thing that PM can most control.",
+   "zh": "我觉得那个聚焦和你说的铺铁轨，指向的是同一个问题：作为一个团队，要驱动那个影响，你该往哪个方向走？这大概是 PM 最能掌控的单件事。",
+   "ts": "01:08:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. I always recommend exactly that if your career is not going as well as you'd hoped or you're not getting promoted, it's usually you're not delivering impact, whatever that means to the company. It may be moving a metric may mean building great product that the founders really love.",
+   "zh": "我喜欢这个说法。我也总是给出一模一样的建议：如果你的职业发展不如预期、或者一直升不上去，通常是你没交付影响——不管那对公司意味着什么。它可能是一个指标的移动，也可能是做出创始人真正热爱的好产品。",
+   "ts": "01:08:28"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:08:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Main impact can mean a lot of different things. But it's so true. On the executing impeccably bucket, the way I think about that is as a great PM you need to have this aura of \"I've got this.\" Anytime someone puts something on your plate, it's not going to fall off. You're not going to forget about it. You're not going to let a ball drop that if the more you can create this aura of \"I got this,\" the more responsibility people are going to give you, the more impact you'll end up having, the more people want to work with you and all that.",
+   "zh": "影响可以意味着很多不同的东西。但确实如此。在执行无可挑剔这一条上，我的理解是：一个出色的 PM 要散发一种我搞定了的气场。任何时候有人把事交给你，它不会掉地上，你不会忘，你不会让任何一个球漏掉。你越能营造出这种我搞定的气场，人们就越敢把更多责任交给你，你最终的影响就越大，越多人想跟你共事，等等。",
+   "ts": "01:08:43"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. Ben Horowitz was a board member back at Foursquare. I remember he used to have this saying very Yoda of good leaders need to say what they're going to do and then do what they said. If they can't then they need to follow up and explain why. I mean that's like the amendment and I think that is what good execution looks like.",
+   "zh": "对。Ben Horowitz 当年是 Foursquare 的董事会成员。我记得他常挂嘴边一句话，特别像尤达：好的领导者要说到做到；如果做不到，就得跟进并解释为什么。我觉得那就是补充条款，而那正是一个好执行该有的样子。",
+   "ts": "01:09:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That last point is so important. You may not be able to do all the things on your plate, but just telling people. Hey, I'm not going to get to this thing. Let's reprioritize as such a small thing you could do and really creates that, or if you got this, they're not going to forget about this thing asked you to do.",
+   "zh": "最后这点太重要了。你可能没法把盘子里的每件事都做完，但只要告诉别人：嘿，这事我顾不上了，咱们重新排个优先级——就这么个小动作，就能真正建立起那种信任；或者你展现出我搞定了，他们就不会担心你忘了他们托付的事。",
+   "ts": "01:09:33"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. You're the shock absorber for the team. You're the thing that builds people's confidence that things are going to be running smoothly and you'll get over the Navajo speed bumps and whatever else. I'll combine two or three of these that are related or just more skills. I said right well. I actually think especially as you get to more senior positions, writing is the only scalable way of having influence on a larger, larger product org.",
+   "zh": "对。你是团队的减震器。你是那个让别人有信心、相信事情会平稳运转、相信你能跨过那些 Navajo 级别的坑洼的人。我再合并几条相关的、或者就是几项技能来说。我前面说到了写作，但其实我觉得尤其当你到更资深的位置，写作是对更大的产品组织施加影响力的唯一可规模化方式。",
+   "ts": "01:09:47"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "There's a book called On Writing by Stephen King, which I recommend to literally everybody. Stephen King, you're like ... See he's not maybe the most literary critical acclaimed author, but he's a prolific author who publishes things that people love and tell their friends about and he has a great short book on the practice of writing high-quality, high-volume production.",
+   "zh": "有本叫《On Writing》的书，是 Stephen King 写的，我 literally 推荐给每一个人。Stephen King 嘛，你可能觉得他不算最有文学口碑的作家，但他是个高产的作者，写的东西人们爱看、还会安利给朋友，而且他有一本很棒的薄书，讲怎么高产又高质地写作。",
+   "ts": "01:10:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before you move on, I'll throw a couple more books that I found useful in my writing. One is actually called On Writing Well. That's funny that they're so similarly titled, which basically every chapter is just another way to cut more from your writing. More and more parts you should cut. Interestingly, I do have a lot of guest posts in my newsletter and I find 90% of the time if I just cut the first paragraph of what they first took a crack at and jumps straight into the thing, immediately gets better. This book talks a lot about that.",
+   "zh": "你往下说之前，我补几本我在写作上觉得有用的书。一本其实叫《On Writing Well》。标题这么像挺逗的，它基本上每一章都是另一种删减你文字的方式——一茬一茬地砍。有意思的是，我的 newsletter 里确实有很多客座文章，我发现十次里有九次，只要把作者初稿的第一段砍掉、直接切入正题，文章立刻变好。这本书讲了很多这个。",
+   "ts": "01:10:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Another book that is amazing for writing better is Nobody Wants to Read Your Shit by the guy that wrote The War of Art, forget his name. But that book is awesome and it's just like nobody wants to read what you're writing. Here's how to maybe make it something people want to read. Then recently I read one called Several Short Sentences or something like that. It's all about just writing short sentences and that helps a lot. There you go. Three more recommendations.",
+   "zh": "另一本对写作超有帮助的是《Nobody Wants to Read Your Shit》，作者是写《The War of Art》那个人，名字我忘了。但那本书超棒，核心就是：没人在乎你想写什么，这里是如何让它变成人们想读的东西。最近我还读了一本叫《Several Short Sentences》还是什么的，通篇就是写短句，也很有帮助。喏，又多了三本推荐。",
+   "ts": "01:11:07"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Okay. I got to read the last two. I haven't read those, but they sound perfect. Okay. Maybe I'll throw one more. Let's say we talked about this earlier, but actually read this in the post many years ago, is optimizing for the pace of learning and knowing that long-term massive thing that's going to drive impact. I think it can be hard if you're a PM for a feature team. You're part of a big company. I don't know. I'm making this up.",
+   "zh": "好。最后两本我得读读，还没看过，但听起来正合我意。好。也许我再补一本。咱们前面聊过，但其实这篇文章里好些年前就写了：为学习的速度优化，知道那个长期会带来巨大影响的东西。我觉得如果你是一个功能团队的 PM、在一家大公司里，这可能会很难。我就瞎编个例子。",
+   "ts": "01:11:32"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "You're on the AdWords team at Google and you're responsible for the bid input selector or something and probably is a whole team, honestly, now at this point. You've got such a set of blinders on that I think it can be hard to think about what else could this team become, what else could you drive beyond the thing that's right in front of you?",
+   "zh": "你在 Google 的 AdWords 团队，负责那个出价输入选择器什么的，老实说到现在估计都成一整个团队了。你的视野会被蒙得那么窄，以至于很难去想：这个团队还能变成什么？除了眼前这件事，你还能驱动什么？",
+   "ts": "01:11:55"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Optimizing for learning, being willing to take those bolder bets, knowing you can be wrong in the short-term, but that you'll learn new levers that will be really fruitful in the long-term. It's a portfolio approach to product, but I think a really important one.",
+   "zh": "为学习优化、愿意下更大胆的赌注、知道短期你可能错、但长期会学到真正有果实的杠杆。这是一种产品上的组合思维，但我觉得非常关键。",
+   "ts": "01:12:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was just interviewing a product leader at Asana, Paige Costello. We were talking about how she's often the youngest person in the room and often manages people that are much older than her and more experienced than her and asked her just how do you that? How do you succeed in that environment?",
+   "zh": "我刚采访了 Asana 的一位产品负责人 Paige Costello。我们聊到，她经常是房间里最年轻的人，带的人往往比她年长、比她有经验，我就问她：你是怎么做到的？怎么在这种环境里成功？",
+   "ts": "01:12:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What she's found is just being the person that has the answers and the insights in meetings, people obviously run to her like, \"Hey, what do you think of this?\" Because she just knows what people are going to need. I think that's exactly what you're talking about here is just be the person that knows the most about the problem, the customers, the space.",
+   "zh": "她的发现就是：做那个在会议里有答案、有洞察的人，人们自然会跑来找她：嘿，你觉得这个怎么样？因为她就是知道大家会需要什么。我觉得这恰恰就是你说的——做那个对问题、对客户、对这个领域知道得最多的人。",
+   "ts": "01:12:46"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. Then I'll combine the last two just because I know time. But the combination of ... I wrote data fluency, which is not to say that every PM needs to be a statistician. I mean it's great. I mean you've had a lot of great posts about how to understand some of the basics of experimentation, correlation, causation and statistical significance. That's all great.",
+   "zh": "对。最后两条我合起来说，因为我知道时间紧。组合是……我写了数据素养（data fluency）。这不是说每个 PM 都得是统计学家。当然那也很好。你写过很多好文章，讲怎么理解实验、相关性、因果、统计显著性这些基础。那些都很好。",
+   "ts": "01:13:04"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "But by data fluency, I think it's more actually what you were just saying, which is you know enough about the insights about your customers that it can then inform making higher likelihood product bets and that data can be quantitative, that data can be survey based, it can be from doing 100 meetings with customers yourself. Those are all types of data inputs to me. Being really fluent and then maybe combining that with great product taste.",
+   "zh": "但数据素养，我觉得更像是你刚说的那个：你对客户足够有洞察，以至于能据此下出概率更高的产品赌注；而那数据可以是定量的，可以是问卷式的，也可以是你自己做了 100 场客户访谈得来的。对我而言这些都是数据输入。真正吃透它，再也许把它和优秀的产品品味结合起来。",
+   "ts": "01:13:23"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I know it's a controversial statement now to say that there is taste for product. But I do think in all the love of the frameworks and the analytics and everything else and in the field of product, I think people sometimes lose sight of, \"It's a creative field.\" It's not art on its own. But you could get all the inspiration from art and I actually think there's a lot ... there's a book, I think it's called Creative Selection, I forget the exact name of it, about some of the early iPhone development teams at Apple and working with Steve Jobs there.",
+   "zh": "我知道现在说产品品味是个有争议的说法。但我确实觉得，在所有人痴迷框架、分析、以及各种产品方法论的同时，人们有时忘了：这是一门创造性工作。它自己不是艺术，但你完全可以从艺术里汲取灵感。其实我觉得……有本书，好像叫《Creative Selection》，确切名字我忘了，讲的是苹果早期 iPhone 开发团队、和 Steve Jobs 共事的那段。",
+   "ts": "01:13:49"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I've never worked at Apple. But I actually think it's the best book I've read about the just iterating creative work of building new products and what it means to have taste, which is to say you've developed some amount of intuition for what people will likely love before you're able to test it. Anyway, I think taste plus fluency and data, that too is a combination, is a pretty powerful combo.",
+   "zh": "我没在苹果干过。但我真心觉得那是我读过的、关于构建新产品这种创造性迭代工作、以及什么叫有品味的最好的一本书——也就是说，在还没法测试之前，你已对某些人可能会爱上的东西培养出了一点直觉。总之，品味加数据素养，这俩组合也是一个相当强悍的搭配。",
+   "ts": "01:14:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me ask you just a couple questions about this list before we get to a very exciting lightning round and I can let you go.",
+   "zh": "在进到超精彩的快问快答、然后放你走之前，关于这个清单我想先问你几个问题。",
+   "ts": "01:14:48"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Okay.",
+   "zh": "好。",
+   "ts": "01:14:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Of these 10 attributes, say you're a new product manager, if you had to pick two or three that you think are most important to get right and focus on in your early career, which would you say they would be?",
+   "zh": "这 10 个特质里，假设你是一个刚入行的产品经理，如果只能挑两三个你认为最该做对、最该在职业生涯早期聚焦的，你会选哪几个？",
+   "ts": "01:14:56"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think for early on in your career, what I would say is getting great at execution. It's a thing that you can most control. Then I think building that news for impact, even if the impact is more local, because that's how you actually will demonstrate momentum and build credibility and then actually do think early on getting really fluent on the data and the research side that you can have insights that you can read back to your team.",
+   "zh": "我觉得在职业早期，最该说的是把执行力练到极好——这是你最能掌控的事。然后是建立对影响的嗅觉，哪怕那影响更局部，因为那正是你展现势头、建立可信度的途径；再到真的在数据和研究侧变得很熟练，让你能带回团队一些洞察。",
+   "ts": "01:15:06"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Those are to me the most slammed up ways of becoming someone who starts to build credibility as a product manager in any organization.",
+   "zh": "对我来说，这些就是成为那种在任何组织里都开始建立可信度的最扎实路径。",
+   "ts": "01:15:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. That's what I always tell on new PMs too, is just get really good at execution because that creates that aura of, \"Oh, this person's just killing it. They're just shipping on time. People know it's happening. They're hitting dates,\" things like that.",
+   "zh": "太棒了。这也是我总跟新 PM 说的：就把执行力练到极致，因为它能营造出那种气场——哦，这人简直杀疯了，按时交付、大家知道进度、踩中节点，诸如此类。",
+   "ts": "01:15:38"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:15:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The last question is just say more of a senior product leader, say, on director. Are there three other attributes you think are ones they should focus on most or maybe the same?",
+   "zh": "最后一个问题，假设是一个更资深的产品负责人，比如总监级。有没有另外三个你认为他们最该聚焦的特质，还是说一样？",
+   "ts": "01:15:49"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. I mean I think this is where the pace and quality decision making starts to matter a lot more because you're still unresponsible sometimes for teams of teams and you're helping to facilitate high quality decisions, often ones that have a lot of uncertainty or risk or ambiguity. How do you keep the organization unblocked, not just a team moving well.",
+   "zh": "对。我觉得到了这个层级，决策的速度和质量就开始重要得多，因为你有时候要对多个团队负责，你要帮着促成高质量的决策，而那往往充满不确定性、风险或模糊性。你怎么让整个组织不被卡住，而不只是让一个团队跑顺。",
+   "ts": "01:15:59"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think the living in the future and working backwards, I think the more senior you get, it's always going to be the product founder who is responsible for the ultimate vision, but you become more responsible for that meeting a longer-term strategy to realize that vision. Becoming just someone who can dedicate more of your time to be out of the fray of the day-to-day and think more about the longer-term strategy that you want to pursue.",
+   "zh": "我觉得活在未来、倒推回来，你越资深，终极愿景终究是产品创始人在负责，但你会对接一个更长期的战略、去实现那个愿景这件事，负起更多责任。你要成为那个能拨出更多时间、跳出日常纷争、去想你真正想追求的长期战略的人。",
+   "ts": "01:16:21"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The last one, and we talked about just earlier, but I think being a really good writer, it is just the highest leverage usage of your time. If you want to influence an organization at least for one that doesn't just spend all day in meetings, but I think it's really hard to dedicate the time to it because you're probably spending most of your day in meetings. It's the antidote to that to scale your ability to influence the product direction and maybe even the principles and how you develop product at a company.",
+   "zh": "最后一条，我们前面聊过，但就是：做一个真正好的写作者，这是对你时间杠杆最高的一件事。如果你想影响一个组织——至少是影响一个不全天泡在会议里的组织——我觉得很难挤出时间写，因为你一天大半都在开会。但写作正是那帖解药，能规模化你影响产品方向、甚至影响原则和产品开发方式的能力。",
+   "ts": "01:16:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, with that, we've reached our very exciting lightning round. I've got six questions for you. Are you ready?",
+   "zh": "好，说到这，我们到了超精彩的快问快答环节。我有六个问题，准备好了吗？",
+   "ts": "01:17:17"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Let's do it.",
+   "zh": "来吧。",
+   "ts": "01:17:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "你最经常推荐给别人的是哪两三本书？",
+   "ts": "01:17:23"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "These may not be the most unique, but I will say them, which is Innovator's Dilemma by Clayton Christiansen, whether you're working a large company and you're suffering it or you're working a startup and you're trying to out flank an incumbent, I still do think that and innovative solution, the follow on are the best books on product strategy to read.",
+   "zh": "这些可能不算最独特，但我还是要说：Clayton Christiansen 的《创新者的窘境》（The Innovator's Dilemma），不管你在大公司正受其苦，还是在创业公司想侧翼包抄在位者，我依然觉得它以及续作是关于产品战略最好读的书。",
+   "ts": "01:17:27"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "If you're moving into more of a leadership or management position, I think Radical Candor by Kim Scott is just incredible and worth everyone reading. Frankly, if you're a PM and you're doing soft influence, I think it's really important. Then the third one, which is maybe a little off the beat of path, there's a book called Leadership in Turbulent Times by Doris Goodwin who's a presidential historian.",
+   "zh": "如果你正转向更多领导或管理岗，我觉得 Kim Scott 的《 Radical Candor》（极限坦诚）简直神作，值得人人都读。说真的，如果你是个做柔性影响力的 PM，我觉得这特别重要。第三本可能有点偏门，有本叫《Leadership in Turbulent Times》（动荡时代的领导力），作者是总统历史学家 Doris Goodwin。",
+   "ts": "01:17:47"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "It's this amazing book that looks at four of the most notable presidents and how their leadership style evolved when they were in really critical hard times in their presidency. I just think it's actually the best book about leadership style and how do you evolve and how do you deal with crises, which again is maybe later on in your career. But I love getting inspiration from not just reading books about tech and product and I think that's one of the best ones.",
+   "zh": "这本书超棒，它研究了四位最知名的总统，以及他们的领导风格在总统任内最危急艰难的时刻是怎么演变的。我就觉得它其实是关于领导风格、关于你怎么进化、怎么应对危机最好的一本书——这也许更偏职业生涯后期。但我喜欢从非科技非产品的书里汲取灵感，而这一本就是最好的之一。",
+   "ts": "01:18:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite recent movie or TV show you really enjoyed?",
+   "zh": "你最近特别喜欢的一部电影或剧集是什么？",
+   "ts": "01:18:40"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The obvious answer, which I'm sure many people would say would be Succession. I'm not going to ruin anything for the finale because people haven't seen it all. But the writing, the Shakespearean level drama of it all, it's just incredible and just heart wrenching that you wind up loathing most of the characters. But you can't take yourself out of it.",
+   "zh": "最显而易见的答案，我猜很多人都会说是《继承之战》（Succession）。我不剧透大结局，因为有人还没看完。但它的剧本、那种莎士比亚级别的戏剧张力，简直不可思议，而且让人心碎——到头来你几乎厌恶里面大多数角色，却还是停不下来。",
+   "ts": "01:18:43"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The one that's maybe less common, and I watched right when we started paternity leave is The Bear, I don't know if you heard about it.",
+   "zh": "另一部可能没那么常见、我正好在休陪产假时看的是《熊家餐馆》（The Bear），不知道你听没听过。",
+   "ts": "01:19:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The restaurants.",
+   "zh": "那家餐厅的。",
+   "ts": "01:19:11"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:19:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Seen that. Yeah.",
+   "zh": "对，看过。嗯。",
+   "ts": "01:19:13"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I'm a sucker for incredible cinematography, just what they do in basically the single room of this restaurant and kitchen and just the piece of it. I think it's just an incredible piece of art. I don't know if it's the best show ever, but it is a really moving, emotionally jarring piece of TV.",
+   "zh": "我是那种会被绝佳摄影迷住的人，他们基本就在这间餐厅厨房的单个空间里拍，那种质感，我觉得就是一件不可思议的艺术品。我不知道它是不是史上最好剧集，但它确实是一部动人、情绪上极具冲击力的电视作品。",
+   "ts": "01:19:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Also, quite stressful to watch.",
+   "zh": "而且，看着还挺让人紧张。",
+   "ts": "01:19:34"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Very sure. I would not relax to it to go to sleep.",
+   "zh": "非常对。我绝对不会睡前拿来放松。",
+   "ts": "01:19:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But Awesome. Okay. Favorite interview question that you'd like to ask candidates?",
+   "zh": "好，太棒了。你最喜欢问候选人的面试问题是什么？",
+   "ts": "01:19:39"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "That would depend a lot, I think on obviously, the seniority level and things like that. But I think the more general, and I always love to ask people is what unfair secrets have you learned to improve the velocity and energy level of a product team? When I say unfair or you in secret, I usually mean not something that you probably read on a medium input. But what did you learn? How did you learn it and how does it work and how do you apply it? You also just get amazing interesting bits of inspiration from asking that.",
+   "zh": "那要看很多因素，比如资历层级之类。但一个更通用的、我总是爱问别人的是：你学到了哪些不公平的秘诀，能提升产品团队的速度和能量？我说不公平或秘诀，通常指不是你在某篇 Medium 文章上读来的那种；而是你到底学到了什么、怎么学到的、它怎么运作、你怎么应用它？问这个，你还能收获特别有意思的灵感碎片。",
+   "ts": "01:19:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite product you've recently discovered that you love?",
+   "zh": "你最近发现、并爱上的一个最喜欢的产品是什么？",
+   "ts": "01:20:17"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "This will also serve for recommendations for you based on or you've not thread about parenting clients because none of the products I've learned or loved recently have been software. But they're all maybe software enabled. The Nanit, which is a weird name, but it's this AI-enabled camera for basically watching your day as they sleep. It's like incredible, look, because you sleep analytics and really helps you be a less neurotic parent. I would highly recommend it.",
+   "zh": "这个也能算给你的一个推荐，前提是你没聊过育儿类话题——因为我最近喜欢或学到的产品没有一个是软件，但它们都算是软件赋能的。一个是 Nanit，名字怪怪的，但它是一个 AI 赋能的摄像头， basically 用来盯着宝宝睡觉。它超棒，会给你睡眠分析，真的帮你变成一个不那么神经质的家长。我强烈推荐。",
+   "ts": "01:20:21"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "The SNOO, which is basically this amazing device that can help soothe your kid when all they need is a little bit of that soothing while they sleep so that you can sleep a little bit more. You can tell the steam here is sleep. The last one is there's this chemical up baby that has this whole elaborate stroller system with interchangeable parts and, honestly, it's just an incredibly well-designed piece of hardware that works in and out of the car.",
+   "zh": "还有 SNOO，基本就是个神器，能在宝宝只需要一点安抚就能睡着时帮你哄睡，好让你多睡一会儿。你看这边的线索都是睡眠。最后一个是 Uppababy 的一款，有一整套可换零件的手推车系统，说真的，就是一件设计极好的硬件，上车下车都好使。",
+   "ts": "01:20:48"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. I think I've re-appreciated really well-designed hard products that are not necessarily hardware from Apple and that has been what baby new parents is about.",
+   "zh": "对。我觉得我重新欣赏了那些设计很好的实体产品——不一定是苹果出的硬件——而这恰恰就是新手爸妈的世界。",
+   "ts": "01:21:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have all three. Also, a huge shout-out to the Nanit team who sent me a Nanit and all the stuff around the Nanit. Thank you. I'm not going to name the specific PM who sent it to me, because I don't remember his name off the top of my head, but thank you, Nanit.",
+   "zh": "这三样我全有。也大力鸣谢 Nanit 团队，他们送了我一台 Nanit 和周边一堆东西。谢谢你们。我就不点名具体哪位 PM 送的，因为一时想不起他名字了，但谢谢你，Nanit。",
+   "ts": "01:21:26"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Yeah. It turned out there was a whole world of baby tech, which I had no idea. I mean, it makes sense that existed, but you never know about until you're a parent. Now, I'm obsessed.",
+   "zh": "对。结果发现有整整一个婴儿科技的世界，我以前完全不知道。我的意思是它存在很合理，但你不当父母根本不会知道。现在，我着迷了。",
+   "ts": "01:21:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One tip that for Nanit, my wife and I have been playing with different names for our kid and we have been changing his name in the Nanit so that anytime we go into the room it sends us a push, \"Hey, there's activity in the room with the names so that we could feel the different names.\"",
+   "zh": "关于 Nanit 有个小技巧：我和我老婆一直在拿不同的名字试我们的宝宝，我们就不断在 Nanit 里改他的名字，这样每次进房间，它都会推一条消息：嘿，房间里有个叫某名的活动。好让我们感受不同名字的感觉。",
+   "ts": "01:21:49"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I love that. Yeah. My wife and I did something similar where we had three or four final name contenders and we didn't use the Nanit for. But we literal just picked a week and said, \"On Monday we're going to like refer to the future baby by that name for the entire week and give some personification to it.\" That helped us get down from four to one. Yeah.",
+   "zh": "我喜欢这个。对。我和我老婆也干过类似的事：我们留了三四个决赛名字，没用 Nanit，但就真挑了一周，说周一开始就整周用那个名字指代未来的宝宝，给它一点人格化。那帮我们从四个减到一个。对。",
+   "ts": "01:22:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a wide-ranging set of pieces of advice we got on this podcast. Two more questions. What is something relatively minor you've changed in how you develop product at Slack that has had a lot of impact on your ability to execute?",
+   "zh": "这期播客里我们聊了一组跨度极广的建议。还有两个问题。在 Slack 里，你改了某个相对微小、却极大提升你执行能力的事情是什么？",
+   "ts": "01:22:28"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "By far, the biggest thing, which is more of a cultural shift is that we stopped spending so many cycles on design explorations of static mocks or walkthroughs and said, \"How quickly can we get into prototyping the path in real software, even if it's messy and you throw it away,\" at least for something like Slack. You got to live and touch and smell the software. You can't just look at it. That's been a huge unlock for avoiding spending months on design debates and just getting to, well, how does the software feel? That's what matters.",
+   "zh": "到目前为止最大的一件事，更像一次文化转向：我们不再把那么多周期花在静态稿或走查的设计探索上，而是说，我们多快能进到真实软件里把那条路径做成原型——哪怕它很乱、最后会扔掉——至少对 Slack 这类产品，你必须去摸、去用、去感受这个软件，不能只看着它。这对避免花几个月吵设计、直接进入到软件到底什么感觉，是个巨大的解锁。那才是关键。",
+   "ts": "01:22:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of Slack, final question, what is your favorite Slack pro tip that people may not be aware of?",
+   "zh": "说到 Slack，最后一个问题：你最爱的、人们可能不知道的 Slack 使用技巧是什么？",
+   "ts": "01:23:12"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I'm going to give two because if someone asks me this, \"I'm like, these are the two things that if you're not in love with Slack, you'll fall in love with Slack.\" The first is obviously you have a sidebar, it can be unruly, but you can customize the sidebar into sections and each of those sections you can have settings like. \"Show unread only\" or \"Sort by recency,\" or \"Sort by alphabetical,\" whatever it might be. You can collapse the section so you don't see it all at once.",
+   "zh": "我给两个，因为有人这么问我时我会说：这两样，如果你还没爱上 Slack，会让你爱上它。第一个显然是你有个侧边栏，它可能很乱，但你可以把侧边栏自定义成区块，每个区块都能设像显示未读、按最近活动排序、按字母排序之类的设置。你还能折叠区块，不用一次全看见。",
+   "ts": "01:23:19"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think having a well-managed sidebar, which doesn't actually take that long, it's like this amazing thing because then all this inbound is structured in an order and a grouping that fits how you want to view your working life. Customizing the sidebar. The second thing is just use the quick switcher for everything. Just hit Apple K and just start typing and it feels like they're playing a video game, just hopping around channels, people, files, search. Pretty much all the actions you can take are on as well.",
+   "zh": "我觉得有个管理得当的侧边栏，其实花不了多少时间，却像件神器，因为所有涌入的信息都被按你想要的顺序和分组结构化了。自定义侧边栏。第二件事就是凡事用快捷切换器（quick switcher）。按一下 Cmd+K 就开始打字，感觉像在打电子游戏，在频道、人、文件、搜索之间跳来跳去。基本所有操作都在上面。",
+   "ts": "01:23:44"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I think most SaaS products now have borrowed that pattern. You can use another software, but it works particularly well in Slack.",
+   "zh": "我觉得现在大多数 SaaS 产品都借用了这个模式。你用别的软件也能用到，但它在 Slack 里尤其好使。",
+   "ts": "01:24:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No. I know the last thing you needed was to record a podcast your first week back to work. I so appreciate you making the time. It feels like we're two ships passing in the night from pat leave and to new pat leave. Two final questions. Where can folks find you online if they want to reach out and learn more and how can listeners be useful to you?",
+   "zh": "不。我知道你最不需要的就是回岗第一周就来录播客。我特别感激你抽时间。感觉我们就像两艘在夜里错过的船，一个刚结束陪产假、一个刚要开始。最后两个问题：大家如果想联系你、多了解你，能在网上哪里找到你？听众又能怎么帮到你？",
+   "ts": "01:24:23"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "I will confess that I haven't used Twitter in months because I was doing digital detox, but still I think @Noah_Weiss is a pretty good place to find me online and whether there or anywhere else, still love to have peoples like Slack feature requests, especially about things that you wish were possible or that would get the rest of your company to join on Slack because you love it, but you can't convince them. Those are always golden nuggets.",
+   "zh": "我得坦白，我好几个月没用 Twitter 了，因为我在做数字排毒，但 @Noah_Weiss 依然是个能找到我的好地方；不管在那还是别处，我还是很爱听大家提 Slack 的功能需求，尤其是那种你希望它能做到、或者能帮你说服公司其他人也用上 Slack 的事——因为你爱它，却说服不了他们。那些永远都是金子般的宝物。",
+   "ts": "01:24:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Noah, thank you so much for being here.",
+   "zh": "太棒了。Noah，非常感谢你来到这里。",
+   "ts": "01:25:04"
+  },
+  {
+   "speaker": "Noah Weiss",
+   "en": "Thank you so much for having me.",
+   "zh": "太谢谢你请我来了。",
+   "ts": "01:25:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家拜拜。非常感谢收听。如果你觉得这期有价值，可以在 Apple Podcasts、Spotify 或你最爱的播客应用上订阅本节目。也请考虑给我们评分或留言，这能帮到别的听众找到这个播客。你可以在 lennyspodcast.com 找到往期所有节目或了解更多。下期见。",
+   "ts": "01:25:08"
+  }
+ ]
+}

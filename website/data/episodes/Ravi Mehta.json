@@ -1,0 +1,797 @@
+{
+ "id": "Ravi Mehta",
+ "name": "Ravi Mehta",
+ "category": "企业管理",
+ "identity": "产品",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Ravi+Mehta",
+ "bio": {
+  "en": "Ravi Mehta is co-founder and CEO of Outpace and a veteran product leader who was Chief Product Officer at Tinder, Product Director at Facebook, and VP of Product at Tripadvisor.",
+  "zh": "Ravi Mehta 是 Outpace 的联合创始人兼 CEO，也是一位资深产品领导者，曾任 Tinder 首席产品官、Facebook 产品总监，以及 Tripadvisor 产品副总裁。"
+ },
+ "summary": {
+  "en": "Ravi shares the mindshifts required when moving from a big-company product leader to a founder, especially the difference between speed (volume of work) and latency (time to learn from an idea). He explains why plugging into an early-stage founder network early matters more than relying on a big-company network, and introduces his 'product strategy stack' for separating goals, roadmaps, and strategy. The episode is rich with advice for PMs aspiring to start companies.",
+  "zh": "Ravi 分享了从大公司产品领导者转型为创始人所需的心智转变，尤其是“速度（工作量）”与“延迟（从想法中学习的耗时）”的区别。他解释了为何尽早接入早期创业网络，比依赖大公司人脉更重要，并介绍了用于区分目标、路线图与战略的“产品战略栈（product strategy stack）”。本期为有志创业的 PM 提供了丰富建议。"
+ },
+ "turns": [
+  {
+   "speaker": "Ravi Mehta",
+   "en": "The framework I like to use with product leaders that I'm coaching is to think about a matrix. Your ideal goal is to lead in a scalable way, which means you feel really confident about the direction of your team and your team has the autonomy to move in that direction. There's another really effective way of leading, which is selective micromanagement, which if you don't feel confident in the direction that your team is moving, the right answer is not to be hands-off and to let them go in that wrong direction. The right answer is to micromanage, but do it in a very tactical and a very temporary way so that you can help them understand what is the right direction moving forward so that you can then pull back.",
+   "zh": "我在指导产品负责人时常用的框架是构想一个矩阵。你的理想目标是以可扩展的方式进行管理，即你对团队的发展方向充满信心，并且团队成员有自主权朝着既定方向前进。另一种非常有效的管理方式是选择性微观管理。当你对团队的发展方向缺乏信心时，正确的做法不是放任自流任其偏离正轨，而是以极具策略性、暂时性的微观管理方式介入，帮助团队成员认清正确的前进方向，之后再逐步退出管理角色。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast. I'm Lenny and my goal here is to help you get better at the craft of building and growing products. I interview world-class product leaders and growth experts to learn from their hard one experiences building and scaling today's most successful companies. (00:00:59): Today my guest is Ravi Mehta. Ravi was chief product officer at Tinder, the product director at Facebook, VP of product at Tripadvisor, and now he's co-founder and CEO of a company called Outpace that he shares a bit about. Ravi is one of my favorite writers and sharers of product wisdom and he also helped create and teaches the Reforge programs on product leadership and product strategy, which is where we spend most of our time. We talk about how to get better at crafting product strategy, how to develop your skills as a product leader, and a bit about the differences between being a PM at a large company versus building your own company. Like I say in the intro, I feel like more people need to know about Ravi and I'm excited to help you with that. With that, I bring you Ravi Mehta after a short word from our wonderful sponsors. (00:01:47): This episode is brought to you by Merge. Every product manager knows the pain of slowing product velocity when developers struggle to build and maintain integrations with other platforms. Merge's unified API can remove this blocker from your roadmap. With one API, your team can add over 150 HR, ATS, accounting, ticketing and CRM integrations right into your product. You can get your first integration into production in a matter of days and save countless weeks building custom integrations, letting you get back to building your core product. Merge's integrations speed up the product development process for companies like Ramp, Drata, and many other fast growing and established companies, allowing them to test their features at scale without having to worry about a never-ending integrations roadmap. Save your engineers' countless hours and expedite your sales cycle by making integration offerings your competitive advantage with Merge. Visit merge.dev/lenny, you get started and integrate up to five customers for free. (00:02:49): Today's episode is brought to you by OneSchema, the embeddable CSV importer for SaaS. Customers always seem to want to give you their data in the messiest possible CSV file. And building a spreadsheet importer becomes a never-ending sync for your engineering and support resources. If you keep adding features to your spreadsheet importer, the customers keep running into issues. Six months later, you're fixing yet another date conversion edge case bug. Most tools aren't built for handling messy data, but OneSchema is. Companies like Scale AI and Pave are using OneSchema to make it fast and easy to launch delightful spreadsheet import experiences from embeddable CSV import to importing CSVs from an SFTP folder on a recurring basis. Spreadsheet import is such an awful experience in so many products. Customers get frustrated by useless messages like Error Online 53 and never end up getting started with your product. OneSchema intelligently corrects messy data so that your customers don't have to spend hours in Excel just to get started with your product. For listeners of this podcast, OneSchema's offering a $1,000 discount. Learn more at oneschema.co/lenny. (00:03:58): Ravi, welcome to the podcast.",
+   "zh": "欢迎收听莱尼播客。我是莱尼，我的目标是帮助大家提升产品打造与成长的技能。我会采访世界级的产品领袖和增长专家，从他们在打造和扩展当今最成功公司的实战经验中汲取真知。（00:00:59）：今天的嘉宾是拉维·梅塔。拉维曾担任Tinder的首席产品官、Facebook的产品总监、TripAdvisor的副总裁，现在他是Outpace公司的联合创始人兼首席执行官，他将向我们介绍这家公司。拉维是我最喜欢的写作和产品智慧分享者之一，他还参与创建并教授Reforge的产品领导力和产品战略课程，这也是我们节目的核心内容。我们将探讨如何提升产品战略制定能力、如何提升产品领袖技能，以及在大型公司担任产品经理与自主创业的差异。正如我在开场白中所说，我觉得更多人应该了解拉维，很高兴能为大家介绍他。接下来，在我们的优秀赞助商致辞后，我们将迎来拉维·梅塔的分享。（00:01:47）：本期节目由Merge赞助。每个产品经理都深知，当开发者在与其他平台的集成中遇到困难时，产品开发速度会放缓。Merge的统一API可以消除路线图上的这一障碍。通过单一API，您的团队可以将150多个HR、ATS、会计、票务和CRM集成直接添加到产品中。您可以在几天内将首个集成投入生产，节省数周自定义集成的时间，让您专注于核心产品开发。Merge的集成加速了Ramp、Drata等众多快速成长和成熟公司的产品开发进程，使他们能够大规模测试功能，而无需为无穷无尽的集成路线图担忧。通过将集成作为竞争优势，节省工程师数千小时时间，缩短销售周期。访问merge.dev/lenny，即可免费开始并集成最多五个客户。（00:02:49）：本期节目由OneSchema赞助，OneSchema是SaaS的可嵌入CSV导入器。客户似乎总是想以最混乱的CSV文件形式提供数据。构建电子表格导入器会让工程和支持团队陷入无休止的同步困境。若不断添加功能，客户就会不断遇到问题。六个月后，您又在修复另一个日期转换的边缘案例错误。大多数工具都无法处理混乱的数据，但OneSchema可以。Scale AI和Pave等公司正在使用OneSchema，快速轻松地推出令人愉悦的电子表格导入体验——从可嵌入的CSV导入，到定期从SFTP文件夹导入CSV。许多产品中的电子表格导入体验都糟糕透顶。客户会被“错误在线53”之类的无用提示困扰，最终无法开始使用产品。OneSchema能智能纠正混乱数据，让客户无需在Excel中花费数小时即可上手使用产品。听众可享受1,000美元折扣优惠。了解更多信息请访问oneschema.co/lenny。（00:03:58）：拉维，欢迎来到播客。",
+   "ts": "00:00:46"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, thank you for having me. I'm excited to be here.",
+   "zh": "好的，感谢邀请。我很高兴能来参加节目。",
+   "ts": "00:04:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I've been a huge fan of your writing for a long time. And this may sound a little weird, but I just feel like not enough people know about you and I'm just excited to learn from you and also just to share your wisdom with more people.",
+   "zh": "很久以来，我一直是您作品的忠实粉丝。说起来可能有点奇怪，但我总觉得了解您的人太少了。能向您学习，能把您的智慧分享给更多人，我感到非常兴奋。",
+   "ts": "00:04:02"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Oh, thank you. That means a lot. I've been a fan of all of your work as well. I've been following the podcast. It's been great to see how it's evolved over the years.",
+   "zh": "哦，谢谢您。这对我意义非凡。我也一直是您所有作品的粉丝。我一直在关注您的播客，看到它这些年来的发展真是太棒了。",
+   "ts": "00:04:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome, man. I really appreciate that. It continues evolving. So just to start with a little bit of your background, can you just take a minute to share just like an overview of your career arc and touch on some of the wonderful things you've done and then just talk a little bit about what you're up to these days.",
+   "zh": "太棒了，兄弟。我真的很感激。它还在不断发展壮大。首先，您能否简单介绍一下自己的背景，分享一下您的职业发展历程，谈谈您做过的一些出色工作，再聊聊您目前的计划。",
+   "ts": "00:04:20"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, I've been in the tech industry for a long time, so I will date myself. I started in the mid-90's. My dad was at American Express and he had just done a big buy of computers, one of their first big installations of computers, and he brought home an Apple TC computer, and back then there wasn't much to do on it other than to learn to code. So I started coding really young. I was nine, 10 years old and really just fell in love with technology and that's persisted with me today. (00:05:03): I started a game company in high school. I did that full time and part time in college, so I dropped out for a little bit during college. Went back and finished up my degree. And then my first role out of school was Microsoft, and so I joined Microsoft at a really interesting time when they were making a pretty significant investment in games. And so I joined as one of the first few people on the Xbox Live team. Really focused on thinking about how does a company that's building its future on the internet think about where gaming is going. And that was really different than how other companies in the space like Nintendo or Sony were thinking about gaming. (00:05:36): Spent about six years there, worked on stuff on the platform side, on the content side. It was a really great experience, but I knew I wanted to go earlier stage. So straight after Microsoft, I went to business school, dabbled a little bit in management consulting, but decided I really wanted to build things and so I went back into an early stage startup right after business school. I started as employee number one at a FinTech startup. Shortly after that I joined Brian Balfour, who's the CEO of Reforge at his first startup. (00:06:03): And my most recent few roles have been product leadership roles at Tripadvisor where I was head of the consumer product team, product leadership role at Facebook, and then I was the chief product officer at Tinder. And for the last couple of years I've gone back into the startup side of things and happy to talk about that some more.",
+   "zh": "是的，我在科技行业待了很久了，说起来可能有点暴露年龄。我从90年代中期就入行了。我父亲在美国运通工作，刚采购了一批电脑设备，这是他们最早大规模安装计算机的项目之一。他把一台苹果TC电脑带回家，那时候除了学习编程，电脑上没太多其他可玩的。所以我很小就开始编程，九岁、十岁的时候，就深深爱上了科技，这份热爱一直延续至今。（00:05:03）：高中时我创办了一家游戏公司。上大学期间，我全职兼职做游戏，甚至在大学期间短暂退学，后来又回去完成了学业。毕业后，我的第一份工作是在微软，当时微软正大力投资游戏领域，我是Xbox Live团队的首批成员之一。团队致力于思考——一家将未来押注在互联网的公司，该如何看待游戏的未来发展方向。这与任天堂、索尼等游戏巨头截然不同。（00:05:36）：在微软工作了约六年，参与过平台和内容方面的工作。那是一段很棒的经历，但我渴望接触更早期的项目。离开微软后，我进入商学院学习，尝试过管理咨询，但最终决定投身创业。商学院毕业后，我加入了Reforge的首席执行官布莱恩·巴尔弗的初创公司。（00:06:03）：最近的职位包括在TripAdvisor担任消费者产品团队负责人、Facebook的产品领导，以及在Tinder担任首席产品官。过去几年，我又回到了初创领域，很乐意和大家深入探讨。",
+   "ts": "00:04:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, let's talk a little bit about what you're doing now and just to kind of put that out there and then we'll keep going.",
+   "zh": "是的，让我们先聊聊您目前的工作，抛个砖引玉，再继续深入。",
+   "ts": "00:06:18"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "That sounds good. So I spent about 10 years or so at bigger companies working with large product management teams and large engineering teams. I find that work incredibly fulfilling in terms of the ability to impact people at scale, but I was also really missing the idea of building something new and really thinking about where things are going and not having to solve for some of the legacy constraints that large businesses have to solve for. So I decided to leave Tinder and at that point started to explore what I wanted to do next. (00:06:48): I spent about 18 months working with Reforge as an entrepreneur in residence or an executive in residence with Reforge, helping them build and launch the product leadership program and helping them launch the product strategy program. And during the process of doing that, I had conversations with dozens of people that were at the middle point of their career and found a really interesting common challenge in that there's lots of ways to learn new skills. Now there's great podcasts and blogs. There's great cohort-based courses like Reforge. But one of the things I found incredibly helpful in my career that really helped me level up was one-on-one coaching. There was nothing that could really replace the opportunity to have a conversation with someone who had the ability to ask the right questions, had the ability to help you see around corners, do the experiences that they had had. And coaching had just not gotten any more accessible over the years. (00:07:39): And so about 18 months ago, I decided to start Outpace, which is a company focused on making elite expert-driven coaching available to everyone. And we're using a combination of really focusing on the product, using a lot of systems and content to structure the coaching process. We're also using AI to make coaches more efficient with the goal of making expertise-driven coaching a lot more accessible for folks.",
+   "zh": "听起来不错。所以我在大公司工作了大约10年，与大型产品管理团队和工程团队合作。我发现这种工作非常有成就感，因为能大规模影响他人，但我也非常怀念创建新事物的感觉，怀念思考事物发展方向的乐趣，而不必去解决大公司遗留的诸多问题。因此我决定离开Tinder，转而开始探索下一步的职业方向。（00:06:48）我在Reforge担任驻场创业导师或高管导师，历时约18个月，帮助他们打造并推出产品领导力项目和产品战略项目。在此过程中，我与数十位处于职业生涯中期的人士进行了交流，发现一个非常普遍的挑战：虽然现在有优质的播客和博客，还有像Reforge这样的基于队列的课程，但我发现对职业发展最有帮助的还是一对一的指导。没有什么能真正替代与能够提出正确问题、帮助你预见未来、分享自身经验的人交流的机会。然而多年来，此类指导服务的可及性却越来越低。（00:07:39）因此大约18个月前，我决定创立Outpace，这家公司致力于让精英级专家指导服务触手可及。我们通过专注产品设计、利用大量系统和内容来规范指导流程，并借助AI提升导师效率，旨在让专业指导服务更加普及。",
+   "ts": "00:06:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So a first area I wanted to spend a little time on is you talked about your career arc, you're CPO at Tinder, product director at Facebook, VP at Tripadvisor, and now you started a company and you've started companies in the past. A lot of PMs listening to this have a hope that they will start a company someday and they're probably working at a company like a big tech company somewhere or not, or they're starting a company right now and they're kind of in the process of starting a company. And I'm curious what you found to be the biggest differences between being a product leader at a bigger company versus a startup, especially your own startup, and especially what are maybe the biggest surprises you've felt from moving and making that transition?",
+   "zh": "太棒了。首先我想花点时间聊聊你的职业发展历程——你在Tinder担任首席产品官，在Facebook担任产品总监，在TripAdvisor担任副总裁，现在又创办了自己的公司。很多听众都希望未来能自己创业，他们可能在大型科技公司工作，或者正在筹备新公司。我很好奇，在大公司担任产品负责人与创业公司（尤其是你自己的公司）相比，最大的差异在哪里？又有哪些转变最令你感到意外？",
+   "ts": "00:08:04"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "There's been a couple of really interesting mind shifts I've had to go through over the last 18 months as I moved from a product leadership role to a founder role. The first one is really thinking differently about speed. I think there's this common, I would say it's a misconception that startups are faster than larger companies. And what I found initially is actually things felt slower when I started my own company because I didn't have as many engineers to work with. I didn't have a team built around things. We didn't have momentum around existing users to be able to research and target. (00:09:15): And what I realized as I've kind of been through the journey over the last 18 months is that the speed that startups have is not really about velocity. Bigger companies can always get more done, they can always spend more, they can always move with a higher degree of velocity than smaller companies. The advantage a smaller company has really is in latency. You can have an idea one day, you can test it the next day, and as a result you can have this really short cycle time between an assumption or a hypothesis and being able to validate that hypothesis. And that's just not true at larger companies where there's a lot more momentum. (00:09:49): The analogy I like to use, it's like driving a car. If a car is going really, really fast, it can't turn as quickly, the turning radius is lower. And so startups have a really tight turning radius and bigger companies have a really high rate of velocity. And so that was one of the things that for me took some adjustment in terms of thinking about how to boil down what would've been a pretty big ambitious plan at a larger company into something that has much smaller pieces and where you can iterate towards things and get data every day or every couple of weeks rather than have a bigger project that might take a quarter long to execute.",
+   "zh": "过去18个月里，从产品领导者转型为创业者，我经历了两次非常重要的思维转变。第一个转变是重新审视速度的概念。我发现人们普遍误以为初创公司比大公司行动更迅速。但刚创办公司时，我却深切体会到，速度感反倒会变慢——因为缺乏足够的工程师团队协作，缺乏围绕用户数据建立的成熟体系，也缺少现有用户的推动力来支持研究和定位目标。（00:09:15）经过这18个月的探索，我逐渐意识到初创公司的速度优势并非体现在速度本身。大公司永远能投入更多资源、调动更高效率实现更快的执行速度。初创公司的真正优势在于延迟性——一个想法诞生后，次日就能进行测试，假设与验证之间的周期极短，而大公司往往因流程惯性难以做到这一点。（00:09:49）我常用的一个比喻是开车：速度过快时，转弯半径会变小，操控性降低。初创公司就像灵活的转向器，而大公司则像高速行驶的巨轮。因此，如何将大公司雄心勃勃的宏大计划拆解成可迭代的微观任务，每日或每几周就能获取数据反馈，这对我的思维转变至关重要。",
+   "ts": "00:08:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just so folks understand what you mean by that, this interesting difference between speed and latency. So what exactly is the difference? Latency is basically how fast you can make decisions and change courses. Is that how you think about it?",
+   "zh": "为了让大家更清楚你提到的速度与延迟的差异，具体来说有什么不同呢？延迟本质上是决策和调整方向的速度。对此你是怎么理解的？",
+   "ts": "00:10:23"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I think about velocity is sort of the quantity of work and latency is how quickly you can go from an idea to actually being able to test that idea and learn whether or not that idea was the right one.",
+   "zh": "我认为速度是工作量的量级，而延迟是从构思到验证假设的速度。",
+   "ts": "00:10:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool.",
+   "zh": "不错。",
+   "ts": "00:10:46"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "One of the questions to test out latency that I likes to ask PMs is if there's a really simple change that you want to make to a product, like being able to change a button so you can test two different texts on a particular button, how long does it take to go from we think that this change is worth making to actually getting the results of whether or not it was the right change?",
+   "zh": "我喜欢向产品经理提的一个测试延迟的例子是，假设你想对产品做一个简单改动，比如调整按钮文案以测试两种版本的效果，从确定要改到实际获取结果，需要多长时间？",
+   "ts": "00:10:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Cool.",
+   "zh": "明白了。不错。",
+   "ts": "00:11:07"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "The second thing is really thinking differently about how to make decisions. I think a lot of really effective companies today that have large audiences get to rely on an experimental way of making decisions. So you throw things out there, you run an experiment, you get to see what's statistically significant, and based on that, that provides a really nice way to learn about what users want and iterate towards an optimal product. (00:11:33): At a startup, you can't do that. You just don't have those users to test with. And I think a lot of startups make the mistake of trying to use an experimental approach too early where it just takes either way too long to get statistically significant results, which reduces that latency, or those results aren't as valid because you have to use a much smaller sample set. And so I've had to shift my mindset from an experimental-oriented approach to making decisions to much more of a conviction-oriented approach. (00:12:02): And I've often found myself asking the question of like, do we just have enough data to have informed conviction and we should move forward and stop digging, move forward in a particular direction, and then see whether or not that turns out to be the right one? Because too often in a startup you can spend a lot of time in paralysis around analyzing market research or going through all of the different things you could do strategically, thinking about all the different potential variants that you could build, all the different pricing strategies, whereas instead, a startup just makes sense to kind of get to a point where you have conviction, execute on that, and then move on to whether or not that felt like the right thing, in which case you can double down, or that was the wrong thing, in which case you can shift direction and do that pretty quickly.",
+   "zh": "接下来是真正以不同方式思考决策问题。我认为如今许多拥有大量用户的真正高效公司，都依赖于实验性决策方式。即先抛出想法，进行实验，观察数据是否具有统计学意义，基于此，得出用户需求并迭代优化产品。（00:11:33）：但初创公司无法做到这一点，因为缺乏可供测试的用户群体。许多初创公司会过早尝试实验性方法，要么花费过多时间获取具有统计学意义的结果，延误决策，要么因样本量过小导致结果缺乏说服力。因此，我不得不将决策思维从实验导向转向信念导向。（00:12:02）：我常问自己：我们是否已掌握足够数据来形成有依据的信念？是否该推进某个方向并验证其正确性？因为初创公司常陷入分析市场研究、制定战略方案、构思多种产品变体与定价策略的瘫痪状态，反而应当在形成信念后迅速执行，再根据效果调整方向。",
+   "ts": "00:11:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. What else?",
+   "zh": "不错。还有什么要分享的？",
+   "ts": "00:12:44"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "One of the things that I've found really surprising is the networks are pretty different. So I've gotten a chance to work with an incredible amount of great people over the years and when I was starting a company, I was excited to reach out to people, tell them what I was doing, and there were a number of people that I'd worked with at larger companies that I was potentially excited about working with. (00:13:04): And what I found was that the people sort of really build their lifestyles and their careers around a particular stage. And there are some people that like to move between stages, but the majority of people don't. A lot of people that are at larger companies, they like the benefits that come with that. They like the types of problems that they're working on, yet there's a whole other community of people who love to work earlier stage. It could be founders. It's also freelancers who like to help to build startups. It's investors and angels. And so that's been a really interesting part of the journey is meeting new people, getting to know those networks and starting to build out a group of people that are as passionate about that earlier stage as I am.",
+   "zh": "我发现最令人惊讶的是人脉网络的巨大差异。多年来，我有幸与众多优秀人才共事。在创办公司初期，我满怀热情联系前辈，向他们介绍项目，但发现许多在大公司工作的人将生活与事业局限于特定阶段。（00:13:04）：他们享受大公司的福利，专注于特定领域的挑战，但同样有群体热衷于早期创业——创始人、自由职业者、天使投资人等。这段旅程中最有趣的部分，就是结识新朋友，了解这些生态，并逐渐组建起一群与我一样热爱早期阶段的人。",
+   "ts": "00:12:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So you're finding that the network you may have had from say Tinder or Facebook aren't like the entrepreneurial type that maybe aren't... They're not necessarily as useful as hiring potential and things like that? Is that what you're finding?",
+   "zh": "明白了。所以你发现，比如在Tinder或Facebook积累的人脉，可能不符合创业者的需求？他们对招聘潜力或相关资源的帮助没那么大？是这样吗？",
+   "ts": "00:13:45"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah. I think a lot of times people that are at larger companies, they're used to working in a particular way. They've mastered their craft. In terms of how they think about the next thing in their career, they really want to go deeper into that craft. And people who like the earlier stage or much more generalist, they're fine with kind of moving back in time. You're not going to find a lot of senior engineering leaders or senior product leaders that want to write codes and specs at big companies, but you will find those in those networks of people that are founders and that are interested in the earlier stage.",
+   "zh": "是的。我认为很多在大公司工作的人，他们习惯了特定的工作方式。他们已经精通了自己的专业领域。在思考职业生涯下一步时，他们真正希望能在该领域深耕。而那些喜欢初创阶段或更具通才特质的群体，他们并不介意回归早期阶段。大公司里你很难找到想写代码和编写规格说明书的资深工程师或产品负责人，却能在创始人及对初创阶段感兴趣的人群中找到这些人才。",
+   "ts": "00:13:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a really interesting insight that you think you're building this huge network from a big company you're working at and it may not be the network you need when you want to start a company. Do you have any other pieces of advice for a founder that's like, \"Hey, I want to start a company in the future in the next few years, let's say at Facebook or Google\"? Any other things you think they could be doing now to set themselves up for success?",
+   "zh": "你提到从当前就职的大公司建立庞大的人脉网络，但这未必是创业者所需的资源。针对那些未来几年想在Facebook或谷歌等大公司创办初创企业的创业者，你有什么建议吗？他们现在可以采取哪些措施为成功铺路？",
+   "ts": "00:14:30"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I think it's important to plug into an early stage network as soon as possible. There's a bunch of different ways to do that today. There's communities that are focused on founder dating, there's communities focused on just being a place where founders can spend time. There's a great community of people in the indie hacker community and a few other related communities. And so I think it's important to connect with folks that are builders that are excited about entrepreneurship both on the development side and the operations side, as well as on the investment side. Connecting with angels and investors who are seeing what's happening within earlier stage companies. What are the things that are top of mind? What are the technology trends that people are really taking advantage of? (00:15:31): Another really interesting, I think, difference is the way that you market and grow for an early stage company is very different than how you might market or grow for a later stage company where you have much larger budgets. And so the people that might be great at building out marketing campaigns at a larger company are going to be very different than the people who are more sort of earlier stage. More hackers that are looking at. There's these really interesting new channels of distribution that you can take advantage of or interesting techniques on TikTok or interesting SEO techniques that you can take advantage of. So it's really two different networks as well as two different bases of knowledge. And so I think it's important for people that want to eventually found something to work on fostering that network so that you can connect into that community at the moment that you're ready to make that leap.",
+   "zh": "我认为尽早融入初创阶段的人脉网络至关重要。如今有各种各样的途径实现这一目标。例如，专注于创始人社交的社区、为创始人提供交流平台的社区，以及独立黑客社区等相关社群。因此，与那些在开发、运营和投资方面对创业充满热情的建设者建立联系非常重要。与天使投资人和关注初创公司动态的投资者建立联系同样重要。他们会关注哪些热点问题？人们正在利用哪些技术趋势？（00:15:31）：另一个有趣的差异在于，初创公司在市场推广和业务增长方面的策略与大公司截然不同。大公司拥有更雄厚的预算，营销活动也更为成熟。因此，在大公司擅长营销的人才与初创公司需要的营销人才存在巨大差异。初创公司可以利用TikTok等新兴平台的创新分发渠道或SEO优化技巧。总之，这两个领域既有不同的社交网络，也有不同的知识体系。因此，想要创业的人应当尽早建立这样的社交网络，以便在准备好迎接挑战时能顺畅融入这个社区。",
+   "ts": "00:14:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any other specific communities that come to mind as places that either you found valuable or that you think are worth checking on for folks that are like, \"Cool, indie hackers. I'll check that out\"? Is there anything else that comes to mind as a really good place to spend some time right now?",
+   "zh": "你能否推荐一些具体的社区？无论是自己曾受益的社区，还是认为值得关注的社区，比如“独立黑客社区”？还有其他值得投入时间的优质平台吗？",
+   "ts": "00:16:15"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, I think two of the best communities are the indie hacker community. What I really like about that is it's a lot of people who are thinking about how do I build something solo? And that's really different from being at a larger company. If you can think about a spectrum of you have a larger company, somewhere in the middle, you have VC-backed startups where you can take some of the ways of thinking about things that you learn at a bigger company and apply it because you have the ability to invest a significant amount of resources. And then at the opposite side, there's one person who's got a dream. They want to start something. They're trying to figure out how to do everything themselves. They're entirely generalists in terms of being both builders and sellers, as well as figuring out all the logistics. So I like the indie hacker community. (00:17:08): Another really good community is Everything Marketplaces. Mike, the founder of that community, has just done a fantastic job of bringing together a set of founders. He's specifically focused on marketplace businesses, which have some unique dynamics to them, especially in the very early stage. But it's a great example of even if you're not into marketplaces, I think it's worth looking at what they're creating, the events that they're running, and the people that are involved. They've just done a great job of curating that whole experience to provide a really great foundation for founders.",
+   "zh": "是的，我认为两个最棒的社区之一是独立黑客社区。我特别喜欢这个社区的地方在于，里面有很多正在思考如何独自创建产品的人。这与在大公司工作截然不同。如果把范围拉开来看，你会发现一端是大型公司，另一端是风投支持的初创公司。在大型公司里，你可以借鉴一些管理思路，因为公司有充足的资源投入。而在另一端，则是怀揣梦想的个人创业者，他们想独自开创事业，需要全盘考虑从产品开发到销售，再到后勤保障的所有事务。所以我很欣赏独立黑客社区。  \n\n（00:17:08）另一个很棒的社区是Everything Marketplaces。社区创始人Mike出色地汇聚了一批初创企业创始人。他特别专注于市场平台业务，这类业务在初期阶段有着独特的挑战。但即便你对市场平台不感兴趣，我也认为他们的创新成果、举办的活动以及参与的成员都值得关注。他在打造整个社区体验方面做得非常出色，成功为创业者们提供了坚实的基础。",
+   "ts": "00:16:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm also a huge fan of the community. I love Mike. We're internet friends. He'll love hearing this. I think the site is everythingmarketplaces.com to check out the community. And if it's not, you can just Google it. We'll also put in the show notes. (00:17:49): So Reforge, you brought it up a couple times, and this kind of gets to what I want to spend the meat of our conversation around. You built the Reforge product leadership program, the product strategy program. So those are two areas you spend a lot of time thinking about product leadership, product strategy. (00:18:05): So starting with product strategy. Every PM, every founder, every leader would say that they want to get better at strategy. I guarantee if I ask every PM, do you want to get better product strategy? A hundred percent would say absolutely. But it's this very mushy, vague, general idea of strategy. I'm going to get better at strategy. I'm going to be better. I'm going to be more strategic. You have this really cool kind of framework, mental model that you call the product strategy stack. And so I want to spend a little time on just talking about what is this concept and how does it help you think about strategy, mission, vision, all these things and how these things play together. So let's just start with what is the product strategy stack?",
+   "zh": "我也是这个社区的忠实粉丝。我很欣赏Mike，我们在网上是朋友。他听到这些肯定会很开心。如果你想了解这个社区，可以访问everythingmarketplaces.com，或者直接谷歌搜索。我们也会把链接放在节目笔记里。  \n\n（00:17:49）说到Reforge，你提过几次这个平台，这也正是我想深入探讨的核心话题。你打造了Reforge的产品领导力项目和产品战略项目。这两个领域你投入了大量精力去思考产品领导力和产品战略。  \n\n（00:18:05）先从产品战略说起。每个产品经理、每位创始人、每位领导者都会说他们想提升战略能力。我敢保证，如果我问每个产品经理：你想提升产品战略能力吗？百分之百的人都会说“当然想”。但这只是一个模糊、抽象的概念——“我要提升战略能力”、“我要更具战略思维”。你提出的产品战略栈这个框架和思维模型非常棒。我想花点时间深入探讨这个概念，它如何帮助我们思考战略、使命、愿景等核心问题，以及这些元素如何协同运作。首先，我们先来理解什么是产品战略栈？",
+   "ts": "00:17:38"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "The goal of the product strategy stack is to help people take a set of terms that are normally conflated together, like goals, roadmap, strategy, and separate them into really clearly defined parts. And the reason I first started using this concept is I would often have PMs come to me and they wouldn't know whether to decide between doing A or B. So it might be that there's two features, they're roughly the same opportunity size, and they wouldn't know whether or not they should execute the first feature or execute the second feature. (00:19:16): And more often than not, when I talked to teams and helped to debug that issue, what it came down to was that there wasn't a deep enough understanding of what the strategy is. So what is the framework that should actually inform that prioritization? And so oftentimes I was seeing difficulty prioritizing as well as tactical issues surface in the day-to-day and be able to be tracked back to pretty fundamental gaps in terms of an individual PM's understanding of strategy. And oftentimes those gaps were not just because the person might not understand the strategy, it may also be because the strategy hasn't been completely defined. (00:19:55): And so the private strategy stack is a system that helps people understand what framework they're using in order to make decisions and what's going to drive value for the business. So the top of the stack is the company mission and the company mission is the change the company wants to bring to the world. It's really a qualitative aspirational statement of what is the company's purpose. And in some cases it might not be a company, it might be a particular team within a company or it might be a particular subsidiary depending on the environment you're in. But it's basically the overarching mission that helps to guide the process of moving forward. (00:20:33): The second thing is strategy. So whereas a mission is aspirational, strategy is rigorously logical. The strategy is the logical plan that your company's going to use to bring that mission into being. And so it's got to be very specific, it's got to be very rigorous, and it's basically the approach of the plan that the company will use to make progress on achieving its mission. And so the mission and the strategy at the company level really define what is the company trying to accomplish. And so the next level of the strategy stack is the product strategy. And the product strategy is the connective tissue between what is the company trying to accomplish and what are the day-to-day things that the product team is doing. And so underneath the product strategy, the product strategy informs a roadmap and the roadmap ultimately informs the goals. (00:21:20): And so those five pieces, the company mission, the company strategy, the product strategy, the product roadmap, and the product goals all work together as a system where if a PM is looking to define strategy, they can work top to bottom, and if they're looking to debug strategy, they can actually work bottom to top. And so if you're having trouble meeting your goals, it might be because the roadmap isn't set up so that it can help move those goals forward. If the roadmap isn't right, it might be because the product strategy hasn't been really clearly articulated. If the product strategy isn't right, it might be because the team doesn't understand deeply enough what the company's strategy is, how the product fits into it, and ultimately the company's mission that it's trying to make progress on.",
+   "zh": "产品战略体系的目标是帮助人们将通常被混为一谈的术语（如目标、路线图、战略）清晰地分解开来。最初我开始使用这个概念的原因是，产品经理们经常来找我，无法决定是选择方案A还是方案B。比如，可能有两个功能机会，规模大致相同，但他们拿不定主意，是先执行第一个功能还是第二个功能。（00:19:16）  \n更常见的情况是，当我与团队沟通并帮助他们解决这个问题时，归根结底是因为对战略的理解不够深入。那么，应该用什么框架来指导优先级排序呢？因此，我经常遇到优先级排序困难，以及日常工作中出现的战术问题，而这些问题的根源往往在于产品经理对战略缺乏深刻理解。这些问题并非仅仅源于个人理解不足，还可能源于战略本身尚未充分定义。（00:19:55）  \n因此，私有战略体系是一个帮助人们理解决策框架并明确商业价值的系统。体系的顶层是公司使命，公司使命是企业希望为世界带来的改变。这实际上是企业宗旨的高层次愿景陈述。在某些情况下，它可能不属于整个公司，而是公司内部的某个团队或子公司，这取决于所处的环境。但无论如何，公司层面的使命都是推进进程的指引。（00:20:33）  \n第二层是战略。使命是高远的愿景，而战略则需要严密的逻辑推理。战略是公司实现使命的具体计划，必须具体化、严谨化，它是公司推进使命的行动指南。因此，公司层面的使命和战略共同定义了企业的奋斗目标。体系的下一层是产品战略。产品战略是连接公司使命与产品团队日常工作的桥梁。（00:21:20）  \n这五个部分——公司使命、公司战略、产品战略、产品路线图和产品目标——共同构成一个闭环系统。产品经理若要制定战略，可以自上而下逐步推进；若要排查战略问题，则可自下而上逐步溯源。若难以达成目标，可能是路线图未能有效支持目标实现；若路线图存在问题，则可能源于产品战略表述不清；若产品战略存在问题，则可能源于团队对公司战略、产品定位及使命追求的理解不足。",
+   "ts": "00:18:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Super cool. I have a bunch of questions. One is, interestingly, vision doesn't come up in the stack. Does it roll...",
+   "zh": "太酷了。我有一堆问题。有趣的是，愿景这个话题在对话中几乎没被提及。它是被融入到……",
+   "ts": "00:22:04"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:22:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... into one of these? Or do you just no vision necessary?",
+   "zh": "……这些内容中吗？还是说根本不需要愿景？",
+   "ts": "00:22:11"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I think about vision as part of mission.",
+   "zh": "我把愿景视为使命的一部分。",
+   "ts": "00:22:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. That's what I thought.",
+   "zh": "不错。我也是这么想的。",
+   "ts": "00:22:14"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I always get confused about what the difference is between vision and mission. And so when I was originally working on this, there was a version of this that had the mission and the vision together. There were versions that kept it separate. Often what I've heard of as the distinction is the vision is sort of the vision that the company sees for the future, and then the mission is the mission that the company has in light of that vision. And I think you can really bring those two together and you can both describe that world and the role that the company plays in a single statement. And that's usually enough to make progress and help to start to define the strategy.",
+   "zh": "我总是分不清愿景和使命的区别。所以最初做这个项目时，曾有版本把愿景和使命合并在一起，也有版本分开处理。通常我听说两者的区别在于，愿景是公司对未来的展望，而使命是基于这个愿景制定的行动。我认为这两者可以合并在一起，用一句话既描述未来世界又阐明公司的角色，这通常足以推动进展并帮助定义战略。",
+   "ts": "00:22:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool.",
+   "zh": "不错。",
+   "ts": "00:22:55"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "But I know you've written about this as well and you've put a spotlight on vision. So I'd be curious as to how you see the mission and the vision playing together.",
+   "zh": "但我知道你也写过相关文章，特别强调了愿景的重要性。所以我很好奇你如何看待愿景和使命的协同作用。",
+   "ts": "00:22:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I think the most important thing is people just get stuck on these and try to define them and make them perfect. And I think the most important thing is just don't overthink it. Just put something that sounds right and people are excited about it in a [inaudible 00:23:16]. That's the most important thing. The way I think about it is mission is just like what are you trying to achieve in the world? And then the vision is what is the world look like once you've achieved it? What is the vision of the future? And the mission is what are you trying to do in this future? So that's the way I think about it. What are you trying to do? What does it look like? But I think keeping it as one thing is great. Like whatever works. There's no one way to do it. (00:23:38): I also know that you're a big believer in the vision when you think about a vision and define a vision, making it very visual versus just like a doc. Can you talk about that?",
+   "zh": "是的。我认为最重要的是人们总纠结于定义和完善这些概念。关键是别想太多，先写出听起来合理且能激发热情的内容。这才是关键。我是这么理解的：使命就是你想在世界上实现什么目标？愿景就是当你实现目标后世界会变成什么样？未来愿景是什么？而使命就是在未来你要做什么？所以我这么看。做什么？未来会是什么样？但我觉得把两者合并成一个整体很棒。只要行之有效就行。（00:23:38）：我知道你很重视愿景。在构思和定义愿景时，如何让它更具视觉效果而非只是一份文档？能谈谈这个吗？",
+   "ts": "00:23:04"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "This framework originally started when I was at Tripadvisor and we had to develop a plan for what we wanted the strategy to be for trip planning. This was going to be a really big new feature for the company and for product. Trip planning is one of these intractable problems or been a number of startups that started as trip planning startups and nobody had really nailed it. Google at the time had a trip planning app that had some interesting elements to it, but it wasn't really clear that they were nailing it. And so we knew that there was both a really valuable problem to solve here, but also a really difficult problem. And we wanted to take an end-to-end approach to solving for this where rather than just kind of working bottoms up and getting to things experimentally where we might not actually ladder up to a clear product strategy, we had said we wanted to work top down, define what do we want to achieve, how we're going to achieve it, and what are the incremental steps we're going to use to get there. (00:24:41): And one of the things that we said with stake that we put in the ground was the strategy doc wouldn't be complete without wireframes. This was the first time that we were doing that in the context of strategy. And the thing that we were really trying to solve for is the fact that oftentimes when you talk about strategy in words alone, everyone takes away a different interpretation of that strategy, whereas when you actually can show people wireframes of what the product will look like when that strategy is implemented, it creates much more alignment. (00:25:14): And so the analogy I like to use, it's a little bit like working with an architect. You would never work with an architect that didn't provide you a blueprint of the house that they want to build for you because being able to describe a house in words alone is not enough. Everyone will come away from that with sort of a different interpretation of what is needed. But once you can see the blueprint, and the blueprint doesn't need to be high fidelity, it's a conceptual framework that shows you how things are laid out, it helps you understand how the pieces are going to come together. And most products are ultimately rendered in terms of visuals. They're pixels on a screen. And so it's important for you to understand how are those pixels going to be organized. (00:25:56): I think an interesting litmus test question for this is, and a lot of mobile apps can only have four or five things on their nav bar. What are the four or five things? If you just describe your strategy in words, people might come up with one nav bar that's completely different than another nav bar. And as a result, you then find that the moment that you're implementing your mobile app, that there's completely different perceptions of what's valuable to the company and how the functionality should be organized. And so the process of setting your strategy and then defining it really crisply in wireframes helps to get really specific and concrete about what it is that you're building, what's going to fulfill the strategy, and what are some of the trade-offs that you need to make in order to bring that into fruition because there's always going to be a limited number of pixels on the screen.",
+   "zh": "这一框架最初源于我在TripAdvisor任职期间，当时我们需要为旅行规划策略制定一份规划。这对公司和产品而言都是一项重大的新功能。旅行规划是许多初创公司都曾尝试过但未能成功攻克的难题。当时谷歌虽然推出了旅行规划应用，添加了一些有趣的功能，但尚未真正证明其成功。因此，我们深知这既是一个极具价值的待解决问题，又是一个极具挑战性的难题。我们希望采用端到端的方法来解决这个问题——而不是从底层逐一尝试，最终可能无法形成清晰的产品策略。相反，我们决定自上而下规划：先明确目标、制定实现路径，再逐步落地每个阶段的细节。  \n\n（00:24:41）：我们提出的关键要求之一是，策略文档必须附带线框图。这是我们首次将线框图纳入战略规划流程。通过直观展示产品落地后的界面设计，策略沟通的效果远胜于单纯的文字描述。  \n\n（00:25:14）：我常用的一个比喻是，合作建筑师时，你绝不会接受一份没有房屋蓝图的方案——仅用语言描述房屋结构是不够的，每个人都会产生不同的理解。但当你看到蓝图时，即便蓝图不必精细到极致，只要能清晰呈现布局结构，就能让各方达成共识。毕竟大多数产品最终都是以视觉形式呈现的，都是屏幕上的像素点，所以理解这些像素如何排列组合至关重要。  \n\n（00:25:56）：一个有趣的验证标准是，许多移动应用的导航栏通常只能容纳四到五个项目。若仅用文字描述策略，每个人设计的导航栏可能会大相径庭。结果到了实际开发时，团队会发现对产品价值和功能布局存在严重分歧。因此，先制定策略，再用线框图清晰落地，能确保团队对产品结构、功能实现和取舍逻辑达成共识，因为屏幕上的像素数量总是有限的。",
+   "ts": "00:23:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Imagine PMs listening to this might feel. \"Okay, yes, I would love wireframes in all of my vision documents, full fidelity designs of everything I want to do. Here's what I'm doing.\" I imagine they often don't have a designer available, they don't have lists together for some review that's coming up. What do you suggest to these folks? Is it like as a PM, just sketch it out briefly is something better than nothing? What do you suggest for when there's like just not anyone to help them do this well?",
+   "zh": "试想一下，产品经理听到这些可能会作何感想。\"好的，没错，我希望所有愿景文档都附带线框图，包含我想要实现的所有功能的完整设计图。以下是我正在做的。\" 我猜他们往往手头没有设计师，也没能把待审的材料整理成清单。针对这些情况，你有什么建议？作为产品经理，简要勾勒草图总比没有强吧？当身边没有人能帮忙做好这件事时，该怎么办？",
+   "ts": "00:26:43"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I think it's great if you're able to work with a designer, but I also think it's really important for PMs to understand design, to understand UX and UI. You can always just sketch things on paper if you don't have design skills. I've also, time and time again throughout my career, I've gone back to Balsamiq, which is a really good wireframing tool. It's been around for a while. It's incredibly fast to work with, and often in an afternoon you can create a set of very high level conceptual wireframes that you can put in front of people that will give them a much clearer understanding of what it is you're trying to build than if you were just to share them with them a spec that is words alone. (00:27:51): So I would suggest learn how to sketch, learn Balsamiq. Having that ability to think at a conceptual level about how UI and UX works is I think a critical part of being a product manager. And if it's a skill that you don't have today, there's great resources to be able to work on that skill. And I think it'll make you feel a lot more empowered as a product manager as well if you don't need to feel like you've got to depend on a designer to help you visually think through your product each and every time.",
+   "zh": "我认为如果能与设计师合作当然再好不过，但产品经理理解设计、理解用户体验（UX）和用户界面（UI）也至关重要。即便没有设计技能，你也可以在纸上快速勾勒草图。在我的职业生涯中，我多次重温 Balsamiq 这款线框图工具，它已经存在多年了。用它设计快速且高效，通常一个下午就能完成一套概念性的线框图，比单纯用文字描述产品功能更直观。（00:27:51）所以我建议学习草图绘制，掌握 Balsamiq 的使用。具备从概念层面思考 UI 和 UX 设计的能力，是产品经理的核心技能。如果你目前不具备这项技能，也能通过学习资源提升自己。当你无需依赖设计师来视觉化产品时，作为产品经理的掌控感会大大增强。",
+   "ts": "00:27:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. No excuses PMs.",
+   "zh": "不错。产品经理们，没有借口了。",
+   "ts": "00:28:18"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:28:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So coming back to the product strategy stack, can you share an example of a company you worked at and how that stack kind of all played out? Like an example, and just to come back to its mission strategy, product strategy, roadmap, goals. And while you're talking, I'm going to try something new. I'm going to pull up a window that shows your visual of this thing and it'll show up I think in my screen. Look at that. And so if you're on YouTube. Or you can actually watch these videos on Spotify now in case yet people that are listening have notice...",
+   "zh": "好的。回到产品战略堆栈，你能否分享一个你曾就职的公司的案例，展示整个堆栈是如何运作的？比如一个例子，回到使命战略、产品战略、路线图、目标等。我现在要尝试新功能。我会打开一个窗口展示你的视觉效果，应该能在我的屏幕上显示出来。看看这个。你们可能在 YouTube 上看到了。或者现在在 Spotify 上也能观看这些视频了，以防正在收听的听众注意到...",
+   "ts": "00:28:20"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Oh, cool.",
+   "zh": "哦，真酷。",
+   "ts": "00:28:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... [inaudible 00:28:48] new feature they just unlocked for my podcast or these videos are on Spotify. So cool opportunity to check it out on Spotify or YouTube. But let me come back to you with the question. Basically, is there an example you could share maybe from Tinder or Facebook or something like that of the product strategy stack in action?",
+   "zh": "... [00:28:48 未录音] 他们刚为我的播客或这些视频解锁了新功能。在 Spotify 或 YouTube 上看看真是个好机会。但让我回到你的问题上。基本上，能否分享一个产品战略堆栈在实际应用中的案例，比如 Tinder 或 Facebook 之类的？",
+   "ts": "00:28:48"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "So the article itself has an example, which I won't go through now, of Slack versus Discord. I think that's a really interesting example because the products are so similar and yet the company strategies and the missions are so different. They're serving incredibly different audiences despite the fact that many of the items on those teams roadmaps are likely the same. Threading, reactions, channels, video chat, things of that sort. I think a really interesting example from my past life is comparing Tinder versus Hinge.",
+   "zh": "文章本身有一个例子，讲的是 Slack 和 Discord 的对比，我现在就不详细讲了。我认为这是一个非常有趣的例子，因为两款产品非常相似，但公司的战略和使命却截然不同。尽管两支团队路线图上的许多项目可能相同，但他们服务的受众却截然不同。比如线程、反应、频道、视频聊天之类的。我过去经历过的一个非常有趣的例子是比较 Tinder 和 Hinge。",
+   "ts": "00:29:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's that?",
+   "zh": "那是什么？",
+   "ts": "00:29:32"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Both of them are dating apps, but they have missions that are really different. So Hinge's mission is almost created in response to Tinder. Hinge's mission is designed to be deleted. This is something that is prevalent throughout all of the marketing, which is, come to our app, we know that if our app works for you, you're going to find someone, you're going to kick off a long-term relationship and you're going to delete our app. And we consider that a success, versus Tinder's mission is really to make single life more fun. Tinder's mission is to be an app that's on people's phone whenever they're single and often throughout their 20s and into their early 30s. And so those missions are really different. One is a temporary use case, the other is a continuous use case. And so despite the fact that they're serving the same underlying use case, which is to help people meet each other, they have very different missions. (00:30:24): The company strategies are also pretty different. They have some similarity around how the apps are monetized. Both apps are freemium. You can use the product for free. And then there's particular features that are monetized. The features that are monetized share some commonality. So there's some commonality in terms of monetization model. There's a really big difference in terms of customer acquisition model. Hinge relies a lot on television ads that helps them reach the audience that is likely to use their product. Tinder relies much more on influencer marketing and event-based marketing. So there's some interesting similarities between the companies in terms of their strategies and some interesting and important differences. (00:31:04): The product strategies for Tinder and Hinge are actually really different. So Tinder was the original swipe-based dating app. It was built to be a really lightweight experience where swiping is really fast, getting into a match is really easy, chatting is really easy. And Hinge is one of the first really successful post swipe dating apps. So they deliberately did not build a product around the mechanic of swiping. Instead, they wanted people to spend more time on each other's profiles. They wanted to create more tools for those profiles. So Tinder profiles are very simple. Hinge profiles have prongs. Those prongs allow people to get to know each other. That sparks interesting conversations, that leads to deeper conversations that ultimately leads to long-term relationships. And so because of that difference in product strategy, there's some differences in product roadmap, but there's also some similarity in product roadmap. Both Tinder and Hinge made a significant investment in video chat post pandemic, knowing that people were going to spend a lot more time online before they met in person. And so as a result, they needed to enable people to talk with each other via video within the product. [NEW_PARAGRAPH]And then the last piece is on goals. So ultimately both companies have very similar goals in terms of they measure success based on meaningful conversations. So they want people to match, they want people to chat with each other, but the specific product mechanics that enable people to get into those conversations are different. So the high level product goals are really similar. Some of the more detailed product goals are really different. And so using the strategy stack, you can get a really good feel for where strategy is informing particular decisions and when a decision should look like competitors and when a decision should be different than what one of your competitors or comparables is doing.",
+   "zh": "两款应用都是约会软件，但它们的核心使命截然不同。Hinge的使命几乎是为对抗Tinder而设计的。Hinge的核心理念是让用户主动卸载应用。这一策略贯穿于整个营销宣传中——来试用我们的应用吧，我们深知只要产品对您有效，您就能找到心仪之人，开启一段长期恋情，随后自然会卸载应用。我们将此视为成功。而Tinder的使命则在于为单身生活增添乐趣。Tinder致力于成为用户单身期间（通常是20多岁至30岁出头阶段）随时可用的应用。两者的使命差异巨大，一个是临时使用场景，另一个是持续使用场景。尽管两者服务于相同的核心场景——帮助人们结识彼此，但策略却天差地别。\n\n（00:30:24）两家公司的商业策略也存在显著差异。在盈利模式上，两款应用均采用免费增值策略，用户可免费使用核心功能，但部分特色服务需付费。这些付费功能在变现模式上存在共性，但获客策略却大相径庭。Hinge大力投放电视广告，以触达潜在用户群体；Tinder则更依赖网红营销和活动营销。两家公司在策略层面既有趣味相投之处，也存在重要差异。\n\n（00:31:04）产品策略方面，Tinder与Hinge的差异显著。Tinder是首款基于滑动匹配的约会应用，致力于打造极简轻量体验——滑动操作快捷，匹配成功容易，聊天顺畅。Hinge则率先成功构建滑动匹配之外的约会场景，通过延长用户停留时间和丰富个人资料互动来提升用户体验。Tinder个人资料简洁，Hinge则引入“分支”功能，增加用户互动维度，促进深度对话，最终促成长期关系。\n\n（00:32:54）产品路线图方面，两款应用在视频聊天功能上作出重大投入。疫情后，用户线上社交需求激增，产品需支持实时语音沟通。目标层面，两家公司高度一致——以高质量对话为衡量成功的核心标准，但实现路径各有特色。策略框架帮助企业清晰判断何时需模仿竞争对手，何时需另辟蹊径。\n\n[NEW_PARAGRAPH]最后是目标层面，两家公司在衡量成功标准上高度一致——以高质量对话为核心。两者都希望用户成功配对、展开对话，但实现路径却各有不同。借助策略框架，企业能清晰判断何时需模仿竞争对手，何时需另辟蹊径。\n竞争对手或可比公司目前的运营情况。",
+   "ts": "00:29:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have so many questions about Tinder. It feels it's such an interesting company and journey and product. I guess one question is you shared some examples of product features that you built because of the specific strategy. Is there any others that come to mind of just like, we built this thing and Hinge would never build it because we have such different strategies?",
+   "zh": "关于Tinder，我有太多疑问了。这家公司、其发展历程以及产品都令人感兴趣。我想问的一个问题是，你曾分享过因特定策略而开发的某些产品功能示例。还有其他例子吗？比如，我们开发了某个功能，而Hinge绝不会推出，因为我们的策略截然不同。",
+   "ts": "00:32:42"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "There's a counter example, which I think is really interesting, which is almost every dating app has filters and a whole set of filters. So you can filter based on occupation, income, religion, height, smoking preference. And Tinder, it's now got some ability to filter, but for the large part has resisted the urge to put those filters into place. And the reason was from a product philosophy standpoint, they wanted people to get to know each other and chat rather than to feel like Tinder's a search engine for people where you plug in a bunch of criteria, you can go into that specific filtered list, and then meet only the people that you want to meet. (00:33:43): And that really reflects in the product as well. A lot of people like using that product because they meet people that they say they never would've met otherwise. Because if they were given the ability to put their criteria in, of course they're going to put their criteria in and they're going to look at a filtered, narrower set of people. And so by keeping the product experience really lightweight, really serendipitous, they were able to create a way of meeting each other that's really different than the other dating products, which are more of those search engines for people.",
+   "zh": "有个反例，我觉得很有意思。几乎所有交友应用都有筛选功能和一系列筛选选项，比如按职业、收入、宗教、身高、吸烟偏好筛选。而Tinder现在虽然有筛选功能，但在很大程度上拒绝加入这些筛选项。这是出于产品理念的考量——他们希望用户能通过聊天相互了解，而不是把Tinder当成搜索引擎，输入一堆条件标准，再从筛选后的名单中挑选想见的人（00:33:43）。这在产品设计上体现得非常明显。很多人喜欢用这款产品，因为他们说在Tinder上结识了原本不可能认识的人。若让用户输入筛选条件，他们肯定会勾选一堆条件，筛选出更有限的匹配对象。因此，Tinder保持产品体验的轻松和随机性，成功打造了与其他搜索型交友产品截然不同的交友方式。",
+   "ts": "00:33:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When you think back on your time at Tinder, what's like a memory or story or wild experience that comes to mind if there's something that comes to mind?",
+   "zh": "回想在Tinder的时光，有没有什么难忘的回忆、故事或奇特经历？",
+   "ts": "00:34:10"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "So Tinder was always interesting in terms of product discovery. We did a lot of focus groups when I was there. We had people talk about their preferences around dating both one-on-one and ending groups, and those always led to really interesting conversations. One of the things that to me was the most surprising is when I was there, we noticed that there was a small set of Tinder that were spending a lot on Tinder. And so you'll often see this behavior in social games where you have users that are essentially whales, who your average ARPU might be $30 and a whale is spending $200 or $300. And so we noticed that a really significant percentage of a la carte revenue, which is microtransactions, was coming from a very small single digit percentage of users. And when we looked at how much people were spending, our hypothesis was these must be high net worth people that are looking to flaunt their wealth and they don't really care about the money.",
+   "zh": "Tinder在产品探索方面一直很有趣。我在那里时做了很多焦点小组调研。用户会谈论他们对一对一约会和群组约会的偏好，这些讨论总是引发有趣的交流。最让我惊讶的是，我们发现Tinder上有一小部分用户在平台上消费巨额金额。这在社交游戏中很常见，用户被称为\"鲸鱼\"（指高消费玩家），平均每用户月收益（ARPU）可能30美元，而鲸鱼用户可能花200或300美元。我们注意到相当大比例的点餐式收入（微交易）来自极少数用户。当我们分析用户消费金额时，我们的假设是这些用户一定是高净值人群，喜欢炫耀财富，根本不在乎钱。",
+   "ts": "00:34:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are they spending on, by the way, just to make that clear, because it's been a long time since I've tried with Tinder. What are you buying in Tinder? What are the microtransactions?",
+   "zh": "顺便问一下，他们都买些什么？因为我已经很久没用过Tinder了。Tinder上都有哪些微交易？",
+   "ts": "00:35:11"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, so Tinder's monetization model has two pieces to it. It's got a subscription. There's a couple of different tiers to the subscription. There's a base subscription called Tinder Plus. And then there's the default subscription or the main subscription called Tinder Gold. And Tinder Gold, the advantage of Tinder Gold is it essentially allows you to break the rules of Tinder. So Tinder, normally you can't see who swiped on you and you're only going to match with someone if you swiped right on them and they've swiped right on you. Tinder Gold allows you to see all of the people who have swiped right on you, so you can go through those people and determine do you want to match with them. So really important sort of fundamental capability that people are willing to pay for. (00:35:57): On top of that, there's a set of a la carte products where you can buy... You can essentially buy them in bulk. You can use one of them. You can buy multiple of them. The two primary ones are super like. So super like allows you to send a super like to an individual person. If you send that super like, they're three times more likely to match with you. So it's a really good way, in a very targeted way, say that you want to meet and match with someone. (00:36:22): The other product is boost. And so boost works the same way that Facebook boost works or any other boost product works where your profile is going to show up a certain amount of times within the feed. If you pay to boost it, it will show up more often. And so what we noticed was that there was a set of people that were spending hundreds of dollars a month on boost and super like. Let's just identify some of these users, put together a usability study and start to talk to some of them and understand why they're using Tinder and that why and why they're willing to spend so much money. (00:36:55): And so what we found was actually it was very different than what we had assumed. It was essentially people saying, \"I really want to meet someone.\" They have a use case. So sometimes these were folks that were in the military, so they were moving around a lot, or they were sales folks, they were often in different cities, or they were someone that was new to a particular city. And it wasn't that they were higher net worth. They weren't earning any more than the average Tinder user. They just had a much more intense use case. They wanted to meet someone. And what they were framing the cost of Tinder on was not the cost of other subscriptions. They were framing it on the cost of dating. And they were saying, \"If I go on a few dates a month, that's probably a couple hundred dollars.\" Anyway, could be even more than that depending on whether you're in New York City or other places. And so they thought about that spend of a couple hundred dollars a month on Tinder as a small investment to make sure that they could date the people that they wanted. (00:37:48): And so it was a really interesting example of we identified something quantitatively that was really interesting that we knew was potentially a lever to grow the business. Our assumptions about why that use case was that use case were wrong. And when we ended up talking to users, we had some really surprising and fun conversations as a result, and we were also able to recalibrate and understand what those people were solving for. They're really solving for the utility of meeting people more effectively and not having to spend as much of their time to do it. And they were framing the price in very different ways than the average user.",
+   "zh": "是的，Tinder的盈利模式分为两部分。首先是订阅服务，分为多个层级。基础订阅服务名为Tinder Plus，而默认订阅服务则称为Tinder Gold。Tinder Gold的核心优势在于能让你突破平台规则。例如，用户通常无法查看谁对自己点赞，也只有当你对对方点赞且对方也对你点赞时才能匹配成功。但Tinder Gold允许你查看所有对你点赞的人，这样你就能筛选出感兴趣的对象。这项核心功能让用户愿意为此付费。\n\n除此之外，平台还提供按需付费产品，比如“超级点赞”和“推广服务”。“超级点赞”能让你向特定用户发送专属点赞，匹配概率提升三倍；而“推广服务”则通过提高曝光频率来吸引潜在用户。我们注意到，部分用户每月在推广和超级点赞上花费数百美元，于是开展了用户研究，深入了解他们的需求。\n\n研究发现，这些用户的使用场景与预期大相径庭。他们通常有明确的社交需求，比如军人、销售人员、刚到陌生城市的人等。他们的经济实力与普通用户相当，但需求更为迫切。用户将Tinder的费用视为约会成本，而非其他订阅服务的替代品。他们计算每月几次约会的成本，认为这笔支出是值得的。\n\n这启示我们：量化数据可能存在误导，需深入用户群体，重新理解他们的真实需求。通过对话，我们发现用户将Tinder视为高效社交的工具，愿意为此投入资金，而非简单地将其当作其他订阅服务的替代品。",
+   "ts": "00:35:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I always love these examples where you see something in the data, you think it's something and then ends up being something else after you talk to customers. Can you share what you built or changed in the product because of that? Or is that a private?",
+   "zh": "我总是很喜欢这些例子——你从数据中发现某种趋势，以为是这样，但和用户沟通后发现根本不是那么回事。能否分享一下因为这些发现而对产品进行的改进？或者这属于保密信息？",
+   "ts": "00:38:18"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, so there were two things that came out of those conversations. One is Tinder Platinum. So that's a third tier of the product that is a little bit more expensive and then comes with some additional features, as well as a bundle of these consumables that you can use within the product, additional super likes and boost. (00:38:49): And the other feature that came out of that is it's almost like a super swipe. It's the ability to, instead of just send a super like, you can send a super like with a note. And so it costs a lot more than a super like does, but it essentially allows you to break another rule of Tinder, which is you can't chat with anyone before you match. This allows you to send that first chat message to a person before you've matched. Basically to show that you're really interested in matching with that person further increases the likelihood that you'll match with them. And we were able to price it at a point which was much higher than we thought the pricing was going to be because we knew that people were thinking very differently about what the utility of that would be.",
+   "zh": "是的，通过这些交流，我们得出了两个关键点。第一个是推出了Tinder Platinum。这是产品线中的第三层级，价格稍高，但附带了额外功能和一系列可在产品内使用的虚拟道具，比如超级点赞和助推功能。（00:38:49）另一个创新功能类似于超级滑动，但用户可以附加备注而非仅发送普通超级点赞。这种服务比普通超级点赞价格更高，但能突破Tinder的规则——即匹配前禁止聊天。用户可以在匹配前向对方发送首条聊天消息，通过展示真诚兴趣来提升匹配概率。由于用户对该功能的价值认知超出预期，我们定价远高于预期。",
+   "ts": "00:38:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is awesome. What a success story of a product team, product experience going through discovery research, data, designs, launch, revenue. Nice work.",
+   "zh": "太棒了。这真是产品团队的成功典范——从探索研究、数据分析、设计迭代，到产品上线和创收。干得漂亮！",
+   "ts": "00:39:26"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "And it was great. And the [inaudible 00:39:38] was working on it for about a week. She was running into my office a couple times every time she had a call with one of these folks to share what she learned. And so those are the high level takeaways, but it was really interesting to get to know this demographic better. And then just talk to users. I think oftentimes people don't spend enough time just picking up the phone and having a conversation one-on-one with the user of a product and getting into understanding their psychology, what value they're getting and how to really optimize for that.",
+   "zh": "整个过程非常精彩。[听不清00:39:38]在项目上投入了约一周时间，每次与用户沟通后都会来办公室分享所获见解。这些是高层洞察，但深入了解目标用户群体非常有趣。还要多和用户交流。我觉得很多人没有花足够时间与产品用户进行一对一沟通，理解他们的心理诉求、获取的价值以及如何优化体验。",
+   "ts": "00:39:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today's episode is brought to you by Miro, an online visual whiteboard that's designed specifically for teams like yours and mine. I have a quick request, head on over to my board at miro.com/lenny and let me know which guest you'd love for me to have on in 2023. And while you're on the Miro board, feel free to play around with the tool. It's a great shared space to work closely with your colleagues to capture ideas, get feedback, and iterate quickly and easily on anything you're working on. (00:40:30): For example, in Miro, you can build out your product strategy by brainstorming with sticky notes, comments, live reactions, voting tool, even an estimation app to scope out your team sprints. Your whole distributed team can come together around a wireframe and draw ideas with a pen tool or even put mocks right into the Miro board. And with one of Miro's ready-made templates, you can go from discovery and research to product roadmap to customer journey flows to final mocks. You get the picture. Head on over to miro.com/lenny, leave your suggestions. That's M-I-R-O.com/lenny. (00:41:05): I feel like being a PM is such a thankless job so often and these are what you live for as a PM. It's just like these success stories.",
+   "zh": "本期节目由Miro赞助，这款在线视觉白板专为像你我这样的团队设计。我有个小请求，请前往miro.com/lenny查看我的白板，并告诉我你希望我在2023年邀请哪位嘉宾。访问Miro白板时，欢迎随意探索。这是一个绝佳的共享空间，能与同事紧密协作，快速捕捉创意、获取反馈并迭代项目。（00:40:30）例如，在Miro中，你可以通过便利贴头脑风暴构建产品策略，添加评论、实时反应和投票工具，甚至使用估算应用规划团队冲刺。整个分布式团队可以围绕线框图展开合作，用笔工具绘制创意，或直接在Miro白板上制作模型。借助Miro的现成模板，你可以从探索研究到产品路线图，再到客户旅程流图，最终完成模型设计。总之，你懂的。请前往miro.com/lenny留下你的建议。网址是M-I-R-O.com/lenny。（00:41:05）我觉得产品经理这份工作常常得不到应有的认可，而这些成功案例正是我们作为PM的意义所在。",
+   "ts": "00:40:05"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Absolutely. One of the things that was unexpected when I started at Tinder was a couple times a week I would meet someone or I'd be in an Uber and the Uber driver would tell me, people would share like, \"Oh, I met my boyfriend or girlfriend, or I met my wife or my husband on the platform.\" And it was really great to hear the stories. One of the things I didn't realize is the degree to which because of Tinder's very lightweight designs, it's been able to support the LGBTQ community much better than other dating products. And so some of my most fulfilling conversations with people who felt like they wouldn't have met their significant other without Tinder because there was just no place to do that.",
+   "zh": "没错。我刚加入Tinder时，最意外的事情之一就是，每周总有几次我会遇到新朋友，或者在优步车上听到司机分享他们的故事，比如“哦，我在平台上遇到了男朋友/女朋友，或者找到了另一半”。听这些故事真的很棒。但我之前没意识到，由于Tinder的设计非常简洁，它比其他交友产品更好地支持了LGBTQ群体。其中一些最让我感动的对话，是那些觉得如果没有Tinder就遇不到另一半的人——因为他们根本没有其他相遇的平台。",
+   "ts": "00:41:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, man. Fulfilling, impactful, interesting, surprising. What a role. Actually met my wife online on a defunct dating site app called howaboutwe.com. Do you remember that one at all?",
+   "zh": "哇，真令人惊喜。太有意义了，也太有影响力了。这真是了不起的成就。实际上，我是在一个已经下线的交友应用howaboutwe.com上认识我妻子的。你还记得那个平台吗？",
+   "ts": "00:41:43"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "No. I haven't even heard that.",
+   "zh": "不记得了。我甚至都没听说过。",
+   "ts": "00:41:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It was too good. It just matches people. It's like it reached Hinge's vision too well where they just... nobody needed to stay on. We don't just spend a lot of time on it, but basically the concept was how about we? And it's like a date concept. So instead of browsing profiles, you browse date ideas and then you say, \"Hey, I want to do this date with you and let's go out and try it out.\" And it worked out for us.",
+   "zh": "那个平台太棒了。它能精准匹配用户。它甚至超越了Hinge的愿景——Hinge的理念是让用户无需长期停留在平台上。我们虽然没在上面花太多时间，但核心概念就是“那要不约个会？”然后用户可以浏览各种约会创意，接着说“嘿，我想和你一起尝试这个约会”，结果我们就成功了。",
+   "ts": "00:41:58"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "That's really cool. There's so much opportunity. I think there's a lot of really good dating ideas that haven't been explored yet.",
+   "zh": "太酷了。有太多的机会了。我觉得还有很多优秀的交友理念尚未被探索。",
+   "ts": "00:42:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm. Interesting. All right. Good investment tip. Coming back to the product stack, getting back on track. One interesting thing about your product stack that's a little bit contrarian is you put goals after roadmap. And I'm curious why that is? Why you think goals should come after having a roadmap?",
+   "zh": "嗯，有意思。好的，我再问个问题。关于产品路线图，你把目标放在路线图之后，这有点与众不同。为什么会这样？你为什么认为目标应该在路线图之后呢？",
+   "ts": "00:42:25"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, it's definitely a contrarian point of view. I've had a few people yell at me about this. Typically, what happens is goals are almost the start of a strategic process rather than the end of it. A company will say, \"We need to increase our revenue by X, or we need to increase our retention by Y. What's our strategy to be able to do that?\" And what I've found over the years is that that goals first approach puts the entire energy of the product team on moving the goals without any sort of structure of what success looks like and why. (00:43:17): The analogy I like to use, it's a little bit like taking a road trip and starting out by saying, \"Hey, we need to drive 250 miles.\" It's like, no, if you're going to take a road trip, you first decide where you want to drive to. If you're in LA, you might take a road trip to Vegas. And so our destination is Vegas, and we'll know whether or not we reach there if we've driven 250 miles. Because that 250-mile goal is in the context of a destination. (00:43:42): And so I think about all of the pieces of the strategy stack as being really clear about what is the end destination that you're solving for, and then you should work on goals to the extent that they help you reach that destination. And if you find that achieving your goal is actually pulling away from the destination, then there's a really important conversation to be had about do we leave that gain on the table because it's not aligned with our destination, or do we need to change our destination? And I think what happens too often when people start with goals and then create the roadmap is that the goal takes precedence and there's no context, there's no principles that are ultimately driving that. And so those decisions about the direction of the product come and go without even really being noticed because there's nothing to calibrate against.",
+   "zh": "是的，这绝对是一个反主流观点。我曾为此被不少人指责过。通常来说，目标几乎是战略进程的起点，而非终点。一家公司会说：“我们需要将收入提升X，或者将客户留存率提高Y。那么，我们该如何实现这些目标呢？” 多年来我发现，这种先设定目标的做法会让产品团队把全部精力都投入到达成目标上，而缺乏对成功定义及原因的系统思考。（00:43:17）：我常用的一个比喻是，类似于开启一次公路旅行时先说：“嘿，我们需要开250英里。”但不行，若要开启公路旅行，首先要确定目的地。如果你在洛杉矶，或许会选择去拉斯维加斯。我们的目的地是拉斯维加斯，而250英里是否能抵达那里取决于目的地的设定。（00:43:42）：因此，我认为战略体系的各个环节都必须清晰：你要解决的终极目标是什么？然后，你应当根据目标来制定达成该目标的路径。如果发现达成目标的过程偏离了终极目标，那么就需要认真思考：是放弃这个目标，因为它与终极目标不符，还是调整终极目标？我认为很多时候，人们先设定目标再制定路线图时，往往会让目标凌驾于终极目标之上，缺乏最终驱动目标的框架和原则。因此，关于产品方向的决策往往来来去去，却鲜少得到审视。",
+   "ts": "00:42:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I a hundred percent agree that strategy should come ahead of goals. What's interesting is, so if your approach is strategy then figure out what you're building and then figure out your goals, how do you prioritize the roadmap? Because from my perspective, come up with your strategy how are we going to get to where we're going to get. Goals to me are how we measure progress towards that. And then the roadmap comes out of what's going to help us achieve this goal, and how do we prioritize based on what's going to most impact this goal that we have. So how do you approach prioritizing and picking what's going to be in the roadmap if you don't have your goals? Is it more like, here's the main KPI, or you have a rough sense of KPIs and metrics you're going to watch and use that to prioritize? Or how do you think about that?",
+   "zh": "所以我完全认同战略应当先于目标。有趣的是，如果你的方法是先制定战略，再明确要建设的产品，最后设定目标，那么路线图的优先级该如何排序？从我的角度来看，先制定战略——我们将如何抵达目标？对我来说，目标是衡量实现目标进展的指标。然后，路线图应基于有助于达成目标的因素，并根据对目标影响最大的因素进行优先级排序。那么，若没有明确的目标，该如何确定路线图的优先级呢？是以主要KPI为导向？还是大致确定要监控的KPI和指标，并以此为依据进行优先级排序？你又如何看待这个问题？",
+   "ts": "00:44:31"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, I think as part of the strategy, you'll typically have some quantifiable elements of that strategy. So for example, for Tripadvisor, our strategy was with trip planning, we wanted people to come directly to Tripadvisor and spend more time on Tripadvisor. And so what was happening was that most of a person's usage of Tripadvisor was interleaved with visits to Google. And so people would search for something, Boston hotels, come to Tripadvisor. They might say, \"No, I want to look at New York.\" They Google New York hotels, and they come and look at Tripadvisor. And Tripadvisor's in a really good position to actually not have a person go back to Google because we knew about the preferences, we knew about their states, we knew who else they might be traveling with. And so more of that planning activity could happen directly within the product. (00:46:01): And so the problem was that at a company like Tripadvisor, which is very experimental, very quantitatively focused, the product teams were constantly optimizing for what's going to drive bookings in the moment. And so the thing that drives bookings from a visit to Google naturally moves a person down a transaction path and gets them to the booking and doesn't have them stop along the way to set up their trip and start to add things to their trip and create their wishlist. That actually gets in the way of the transaction itself. And so in the absence of that strategy around, we actually want to get people to come directly to Tripadvisor more often. We were doing so many things that ultimately undermined that strategy and got people to sort of leapfrog through the product instead of stay with the product. (00:46:50): And so that's a really good example of where if we know we want to generate that long-term continuous relationship with the user, there's a set of things from a roadmap standpoint that we can do to do that. We can prioritize those things, we can use numbers, we can opportunity size them, we can prioritize based on that, and then we can measure whether or not we're made progress based on that strategic and very conceptual understanding of where we want to go.",
+   "zh": "是的，我认为作为战略的一部分，通常会有一些可量化的元素。以猫途鹰（Tripadvisor）为例，我们的战略是围绕旅行规划展开的，希望用户能直接访问猫途鹰并在平台上停留更久。然而，用户使用猫途鹰的过程中，往往会频繁切换到谷歌搜索。比如，用户搜索“波士顿酒店”后，可能会跳转到猫途鹰，但又会被引导回谷歌继续搜索纽约酒店。猫途鹰原本有很好的机会留住用户，因为我们掌握了用户的偏好、旅行状态和同行伙伴信息，但由于产品团队过于关注短期转化目标，导致用户无法专注于规划行程，最终流失了大量潜在客户。",
+   "ts": "00:45:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So the biggest takeaway I think we both fully agree on is your strategy should come ahead of having goals and coming up with your goals and aligning on goals. No question. (00:47:25): Speaking of goals, you also have some really interesting insights on just how to come up with goals and best practices for aligning and setting goals. I'd love to dig into that a little bit and then I have another topic I want to talk about.",
+   "zh": "所以，我认为我们都深有共识：战略必须先于目标设定，之后才能制定具体目标并达成共识。这是毫无疑问的。（00:47:25）  \n说到目标设定，你在如何制定目标以及如何有效达成目标方面有很多深刻见解。我很想深入探讨这个话题，然后再聊聊其他内容。",
+   "ts": "00:47:14"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, that sounds good. So I've done a little bit of writing about goals, which came out of... I've been at multiple companies that have put OKRs into practice and had a really hard time with that. And I've talked to a lot of product teams who have had a hard time. So the question I started asking is, why are companies having a hard time with OKRs? What's happening that is preventing teams from being able to set goals that they really understand how to achieve and achieving those goals? (00:48:01): And one of the things that I found, which I think was sort of a first principle that's happening at a lot of companies, is this idea of always focusing on outcomes over outputs and comes from a good place, which is ultimately, and I think this is the case, ultimately, a PM needs to measure their success based on whether or not they generate valuable outcomes for the business. But that doesn't necessarily mean that in this quarter we need to commit to a specific outcome or that we should commit to a specific outcome that we may or may not know how to move. (00:48:33): And so I think ultimately the goal is to drive outcomes, but oftentimes there's things that come before that that need to be addressed ahead of time so that you can really understand what the plan for meeting those outcomes is going to look like. And so I refer to that as the frontier of understanding. There's a point at which what the team knows and what the team doesn't know. There's a junction point there, which is this frontier. And it could be actually we don't know what moves retention. If you ask me to remove retention, I can brainstorm 10 experiments, but I don't actually know why people are continuing to use our product. And so then it doesn't make sense to commit to a retention goal because you're going to sort of throw a spaghetti against the wall, have a bunch of experiments, [inaudible 00:49:16] will stick, and maybe you'll be able to move the metric, but you won't have understood exactly why, or you might move the metric in a way that is not tied to the strategy that you have as a business. (00:49:27): So the first type of risk is really understanding risk. And if you don't understand how to move a particular metric, then the right goal is to set a goal to increase your understanding not to move that metric. Once you have an understanding of how to move the metric, your team may or may not be able to execute very well. It might not be able to execute those sorts of experiments. It may not have the resources that it needs to execute. And so then you might want to set an execution goal. So we want to hit 20 experiments this quarter, and if you can hit those 20 experiments, you'll know that you're executing really, really well. And even if those experiments don't work, that moves that frontier a little bit forward. (00:50:04): And then finally the ultimate frontier is strategic risk. We understand how to move retention or we think we understand how to move retention. We're going to do a set of things to do that. And then either we'll learn that our understanding is correct, in which case we can pull that lever more, or we'll learn that it's not correct, in which case we need to go back to understanding and goal ourselves based on that.",
+   "zh": "是啊，这听起来不错。所以我写了一些关于目标设定的文章，这些想法源于……我曾在多家实施OKR的公司工作，发现实施起来困难重重。我还与许多产品团队交流过，他们也遇到了同样的挑战。因此，我开始思考一个问题：为什么这么多公司在OKR实施上困难重重？究竟是什么因素导致团队无法设定切实可行的目标并最终达成这些目标？（00:48:01）  \n\n我发现的一个核心问题，也是许多公司普遍存在的误区，是始终关注结果而非产出。这种理念出发点是好的，毕竟项目经理最终需要根据是否为业务创造了有价值的结果来衡量成功。但这并不意味着我们必须在本季度承诺达成某个具体结果，或者强制设定一个可能实现也可能无法实现的目标。（00:48:33）  \n\n所以我认为，最终目标是推动结果的实现，但往往在此之前需要先解决一些前置问题。比如，团队对某个结果的理解程度如何？团队是否存在未知的领域？这就是“理解的前沿”。当团队对某个领域知之甚少时，就需要提前探索。这正是需要突破的边界。例如，团队可能不清楚如何提升用户留存率。如果你让我去提升留存率，我能想出10个实验方案，但我根本不清楚用户为何持续使用我们的产品。因此，盲目设定留存率目标是没有意义的，因为这无异于碰运气——可能其中某个实验能带来微弱改善，但却与业务战略脱节。（00:49:27）  \n\n所以，第一类风险是理解风险。如果团队不清楚如何提升某个指标，那么正确的做法应该是设定提升理解能力的目标，而不是强制达成指标。一旦团队理解了如何提升指标，团队可能执行不力——缺乏执行实验的资源和能力。这种情况下，可以设定执行目标，比如本季度完成20个实验。即使实验失败，也能推动理解边界前移。（00:50:04）  \n\n最后，终极边界是战略风险。我们理解了如何提升留存率，或者自认为理解了如何提升。但实际操作过程中，要么验证自己的理解是正确的，可以进一步推进；要么发现理解有误，需要回归理解，重新设定目标。",
+   "ts": "00:47:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really interesting. So the term is frontier of understanding, right?",
+   "zh": "这真的很有趣。那么“理解的前沿”这个术语，是对吧？",
+   "ts": "00:50:24"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, exactly.",
+   "zh": "是的，没错。",
+   "ts": "00:50:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And there's four buckets that you just described of types of goals. Can you repeat them again?",
+   "zh": "您刚才提到的四种目标类型，您能再复述一遍吗？",
+   "ts": "00:50:29"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah. So the four buckets are, it starts with understanding risk, which is we have something that we want to do but we don't really understand what the levers are. Then the next thing is dependency risk, which is we understand what we think the levers are, but we may or may not have the tools that we need in order to make progress. Then there's execution risk, which is we have all the resources that we need, we have a really strong hypothesis, and then we may or may not be able to execute against those hypotheses. And the last thing is strategic risk, which is we have a hypothesis and it might turn out that that was not the right hypothesis.",
+   "zh": "好的。这四种类型分别是：首先是理解风险，即我们想做某件事，但不清楚关键影响因素；接下来是依赖风险，即我们知道影响因素，但可能缺乏推进所需的工具；然后是执行风险，即我们具备所有资源，有明确的假设，但能否成功执行尚存不确定；最后是战略风险，即我们的假设可能最终被证明是错误的。",
+   "ts": "00:50:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man. I wanted to move on to a different topic, but I want to dig into this a little bit because it's really interesting. So a lot of people work at companies where their product manager, leader is not going to be like, \"Cool, let's spend a quarter understanding if we can move this metric.\" That seems like you have to be a really evolved leader to be okay with that, or is that even not a good idea to spend a quarter doing that? How do you think about not actually having a goal that is moving a metric that people care about and focusing on understanding and kind of pushing this frontier of understanding further versus just moving a metric that people actually want you to move?",
+   "zh": "天哪。我本想转到下一个话题，但这个话题实在太有意思了。很多公司里的产品经理或领导者不会说：“好的，我们花一个季度时间去了解是否能提升这个指标。”要做到这点，领导者得非常开明才行，或者说，这样做根本不明智吧？您怎么看待这种情况：如果没有一个能推动人们关心的指标的目标，而是专注于理解和突破认知边界，而非简单地去提升一个现有指标？",
+   "ts": "00:51:07"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "It might be that for the quarter, the way that the company works, the things that it's focused on. You need to actually commit to a goal to move retention or a goal to move your follower count or something like that. There's two ways to do that. One is you can commit to that goal and then in three months kind of hope for the best and just do a lot of work that you think might actually move the lever. The other thing is to say actually that journey towards hitting that particular goal, we can break into. Initially let's spend a couple of weeks understanding. We'll talk to customers. We'll do some analysis. We'll form some really good hypotheses. And then based on those hypotheses we'll start to figure out what do we need to execute on in order to start to validate those hypotheses. And then we can execute on those things and validate those hypotheses. (00:52:28): And depending on where in the quarter things start to go off the rails, you'll have a feeling for where that frontier is. And when you miss the goal, you can then go back to the team or the leadership and say, \"We missed our goal, but I think I know why. Here's the things that we did within the quarter and here's where things started to go off the rails. Here's what I'd suggest that we commit to for the next quarter so that we can be much more sure that we're going to hit our goal.\" (00:52:50): And leadership is always going to be outcome driven, but they also want to have a lot of confidence that we're going to be able to hit those outcomes. And so if you can clearly convey the learning and provide a really clear path that will get them that confidence, they're often going to be much more [inaudible 00:53:07] than you anticipate. I think the desire to always set outcome-based goals is just shorthand for we want you to move the needle and we want you to be thinking about that. That doesn't mean that you do that in the absence of really detailed understanding and really honing your execution process so that you can execute flawlessly. So approaching things in that way can help you change the conversation and make it much more specific.",
+   "zh": "可能是由于本季度公司的运作方式以及其关注的重点所在。你需要真正致力于某个目标，比如提升用户留存率、增加粉丝数量之类的。实现这一目标有两种方法。一种是设定目标，然后在三个月内寄希望于最好的结果，同时开展大量你认为可能推动进展的工作。另一种方法是分解实现目标的路径。首先，花几周时间进行理解。我们会与客户沟通，进行分析，形成合理的假设。然后基于这些假设，确定需要采取哪些行动来验证这些假设。接着实施这些行动，并验证假设。（00:52:28）：根据季度进展中可能出现偏差的情况，你就能清楚界限所在。当未能达成目标时，可以向团队或领导层汇报：“我们未能达成目标，但我认为原因在于……”。接着列出季度内采取的措施、偏差产生的环节，并提出下季度需重点推进的方向。（00:52:50）：领导层始终以结果为导向，但他们也希望对达成目标充满信心。因此，若能清晰传达学习成果，并提供明确的路径来获取这种信心，他们往往会比你预期的更积极支持。我认为设定基于结果的目标，实质上是希望你推动进展并持续思考。但这并不意味着在缺乏深入理解和优化执行流程的情况下就能轻松达成目标。因此，以这种方式处理问题能帮助你转变对话重点，使讨论更具针对性。",
+   "ts": "00:51:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you also have a post about this exact topic, right?",
+   "zh": "你还有一篇关于这个主题的文章，对吧？",
+   "ts": "00:53:31"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I do, yeah. I've got a post on the Reforge blog. Can't remember the title. I think it's Set Better Goal with NCTs instead of OKRs.",
+   "zh": "是的，我在Reforge博客上写过一篇文章。标题记不清了。好像是《用NCTs而非OKRs设定更优目标》。",
+   "ts": "00:53:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool. So if your manager is not buying what you're saying, that could be interesting to share with them and see if that'll change their mind. Your first point is worst case, you just hope for the best. You know that your frontier understanding is not that far, but still set that ambitious outcome-based goal and then hopefully works out. But in reality, it may not be realistic.",
+   "zh": "好的，不错。如果你的经理不认同你的观点，可以分享这篇文章看看能否改变他们的看法。你的第一个观点是，退一步说，你只能寄希望于最好的结果。你知道对目标的理解还不够深入，但还是设定了雄心勃勃的基于结果的目标，然后祈祷能成功。但实际上，这可能不现实。",
+   "ts": "00:53:40"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I think we can think about it as two by two matrix. On one axis of the matrix you have, did we hit our goals? And on the other access we have, do we know why? And ultimately you want to be in the upper right quadrant. You want to hit your goals and know why you hit your goals. Some teams are in the quadrant where they hit their goals, but they don't know why, which is good for now, but it's eventually going to catch up with you. And then an important thing to be in is if you didn't hit your goals to make sure that you're at least understanding why or at least you're making progress on understanding why. And I think too often teams get so focused on the goals, they get less focused on the learning.",
+   "zh": "我认为我们可以将其视为一个二维矩阵。在矩阵的一轴上，你要问自己：我们是否达到了目标？在另一轴上，你要问自己：我们是否清楚达成目标的原因？最终，你希望自己的位置处于右上象限——既达成目标，又能解释达成目标的原因。有些团队虽然达成了目标，但却不清楚原因。这在短期内或许无伤大雅，但最终必将自食其果。若未能达成目标，关键在于确保至少能理解其中的原因，或者至少在理解原因的道路上有所进展。我发现很多团队过于专注于目标，却忽视了学习的重要性。",
+   "ts": "00:54:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, final topic, product management competencies. So this is a post you wrote a while ago. It's the post I've shared most of your many writings online, and I'm going to pull up this image on my screen. So another plug to check it out on YouTube or Spotify. Can you talk about what this is and why it's important for PMs to think of their career in this view and in general just understand what the components of a great PM are?",
+   "zh": "好的，最后一个话题——产品管理能力。这是你不久前写的一篇文章，也是我在网上分享过你众多作品中最多的一篇。我现在要把这张图片展示在屏幕上。再推荐一下，你可以在YouTube或Spotify上查看相关内容。能否谈谈这篇文章的内容，以及为什么产品经理需要从这个视角看待自己的职业生涯？总的来说，能否解释一下成为一名优秀产品经理所需的核心要素？",
+   "ts": "00:54:33"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, definitely. So we developed this at Tripadvisor. When I joined Tripadvisor, the company was newly public and as part of being a newly public company and wanted to grow different teams really quickly including the product team. And what we were finding is that hiring a product out of industry, and at the time we were based in Boston. So hiring a really good experience PM in Boston was taking between three and six months, and that just was too long to reach the sort of growth goals that we wanted to hit from a team perspective and a headcount perspective. (00:55:34): And so the head of product there came up with this program called the product rotational program, where we would hire people directly out of business school and out of undergrad into their first product role regardless of whether or not they had prior product experience. And they would go through two years of rotations. So four six-month rotations where they would be able to focus on teams that are zero to one teams or growth teams or infrastructure teams. So the goal was in about two years to get a person to be able to experience various different parts of product management and have them come out with the skills to be a senior and effective product manager. (00:56:12): And so as part of that, we really needed to define very clearly what is product management and how do we help people identify the skills that they need to be an effective product manager and give them a plan so that they can grow those skills. And so that's how this framework initially came to be. The framework consists of 12 competencies in four different areas. These competencies I think are the same for APMs as they are for CPOs, and I can talk a little bit about how they change as a person gets more senior. But these 12 areas are equally important regardless of where you are within your product management journey. The specifics might change, but the overlying structure remains the same. (00:56:51): The first thing that's really important is product execution. So PMs need to be able to work with their teams to build product, and that breaks down into three sub-competencies. The first is functional specification. So that's the ability to work with your team to define what is the PRD or the functional specification that defines what you want to build. The second thing is product delivery, which is the ability to work with engineering and design and the other teams to take that specification and turn it into working product. And the third piece, which I've changed from quality assurance is now product quality, is making sure that what you build is high quality, not just from a technical perspective, but also from a design perspective, a usability perspective and a business perspective. (00:57:34): And so ultimately that's the foundation of being a successful product manager is being able to execute. And that's as true for an APM as it is for a VP or a CPO. An APM is going to think about product execution in terms of their day-to-day individual contribution. But a CPO is going to think about product execution in terms of the systems that they create to enable teams to define really good specifications, to deliver products really effectively, to execute flawlessly and to deliver products that have a very high bar of quality. (00:58:04): The second area is customer insight. So in addition to being able to build products, you need to understand customers so you can figure out what to build. The three subcomponents here are fluency with data, which is the ability to use all of the data at your fingertips to make decisions about what customers need. The second one is voice of the customer, which is the ability to have the conversations with the customer so that the product manager can be the advocate for the customer throughout the entire company as well as the advocate within the product. (00:58:31): The third is user experience design. And so this goes back to our earlier conversation about wireframes. I think a fundamental part of being a really good product manager is the ability to think about the user experience in a very detailed way to make sure that you're not just defining functionality, but you're really clearly understanding how that functionality turns into user experience. And this is very explicitly user experience design and not user interface design because the experience of your product may vary. If you're building APIs, then your experience is actually the API spec. If you're building ML models, then your experience might be the training models or the other systems that you're using to identify the effectiveness of those training models. So this can be a skill that you can think about really broadly across a lot of different product roles. (00:59:17): The third piece is product strategy, and that breaks down into three things. The first one is being able to own business outcomes. So it's really important to move away from thinking about product as shipping features to driving business outcomes. And so this competency is about understanding how does your product or the features that you're working on plug into the business and drive value for the business. The next competency is product vision and road mapping. So that's the ability to take the individual pieces of work that you're doing for a product and put those together into a coherent vision and roadmap that allows you to build towards the product strategy and the company strategy over time. The third one is strategic impact. You're just like product road mapping as a sequence of features. I think about strategic impact as a sequence of business outcomes. So initially [inaudible 01:00:08] really focused on owning business outcomes and delivering business outcomes. But ultimately what's really important is does that sequence of business outcomes move the strategy forward and help you deliver impact on that strategy? (01:00:21): And then the fourth and final piece is all about leadership. So it's influencing people. The first up competency is stakeholder inclusion, so that's being able to work with all of the different people throughout your organization to rally them around the work that you're doing. The second one is team leadership. This is one that doesn't actually come into play until you have direct reports, but once you have direct reports, being able to help those direct reports become really great product managers is a critical skill. And the last one, which is always really important for PMs, is being able to manage up so that you can win the support of the leadership within your organization.",
+   "zh": "是的，当然。我们在TripAdvisor开发了这个项目。当我加入TripAdvisor时，这家公司刚刚上市，作为一家新上市的公司，我们希望快速壮大各个团队，包括产品团队。但我们发现，从行业外招聘产品经理非常困难——当时我们总部位于波士顿，在波士顿招聘一位优秀的产品体验经理需要三到六个月的时间，而这对实现团队和人员规模的增长目标来说实在太慢了。（00:55:34）于是产品负责人提出了\"产品轮岗计划\"，专门招募刚从商学院或本科毕业的学生，让他们直接进入产品经理岗位，无论是否有产品经验。通过为期两年的轮岗——每次六个月——他们可以深入零到一团队、增长团队或基础设施团队。目标是在两年内让这些新人掌握产品管理的各个方面，成长为资深且高效的产品经理。（00:56:12）为此，我们必须清晰定义什么是产品管理，以及如何帮助人们识别成为高效产品经理所需的技能。我们由此开发了这个框架。框架包含四个领域的12项能力。我认为这些能力对APM和CPO同样适用，但随着职级提升，侧重点会发生变化。不过无论处于产品管理生涯的哪个阶段，这12项能力都同样重要。具体细节可能有所调整，但核心结构保持不变。（00:56:51）首要核心能力是产品执行。产品经理需要与团队合作开发产品，具体分为三项子能力：第一项是功能规范，即与团队共同定义PRD或功能规范；第二项是产品交付，即与工程、设计等团队将规范转化为可用的产品；第三项是产品质量（替代原有的质量保证），确保产品不仅技术过硬，还在设计、可用性和商业价值方面达到高标准。（00:57:34）产品执行是成功产品经理的基石，无论是APM、VP还是CPO都必须具备这一能力。APM关注个人日常贡献中的产品执行，而CPO则专注于搭建系统，帮助团队制定优质规范、高效交付产品、确保无缝执行并交付高质量成果。（00:58:04）第二核心能力是客户洞察。除了产品开发，还需理解客户需求以明确产品方向。子能力包括数据流畅性（利用现有数据）和客户洞察（理解用户需求）。\n做出关于客户需求的决策。第二个是\"客户之声\"，即与客户进行对话的能力，这样产品经理就能在整个公司内为客户发声，同时在产品团队内部也充当客户的代言人。（00:58:31）：第三个是用户体验设计。这又回到了我们之前关于线框图的讨论。我认为，成为一名优秀的产品经理的关键在于能够以非常细致的方式思考用户体验，确保你不仅定义了功能，还清楚理解这些功能如何转化为用户体验。这显然属于用户体验设计，而非用户界面设计，因为产品的体验可能因场景而异。如果你开发的是API，那么用户体验实际上就是API规范；如果你开发的是机器学习模型，那么用户体验可能是训练模型或用于评估这些模型有效性的其他系统。因此，这项技能可以广泛应用于许多不同的产品角色。（00:59:17）：第三个部分是产品战略，它可分为三个方面。第一个是能够主导业务成果。关键在于从只专注于产品功能的交付转向推动业务成果。因此，这项能力需要理解你的产品或正在开发的功能如何融入业务，为业务创造价值。接下来是产品愿景和路线图规划。这意味着能够将你为产品所做的各个工作环节整合成一个连贯的愿景和路线图，逐步实现产品战略和公司战略。第三个是战略影响。你可以将产品路线图视为一系列功能的序列，而战略影响则是一系列业务成果的序列。因此，最初你可能专注于主导业务成果的交付，但最终更重要的是，这一系列业务成果是否能推动战略前进，并帮助你对该战略产生影响？（01:00:21）：最后一个部分是领导力。即影响他人。第一个能力是利益相关者参与，这意味着能够与组织内的不同人员合作，让他们团结在你所做的工作周围。第二个是团队领导力。这项能力通常在你有直接下属后才会发挥作用，但一旦有了直接下属，帮助他们成为优秀的产品经理是一项关键技能。最后一点，对产品经理始终非常重要的是向上管理，以赢得组织内领导层的支持。",
+   "ts": "00:55:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. What a crazy-ass job this product management job is.",
+   "zh": "太棒了。这份产品管理工作真是太疯狂了。",
+   "ts": "01:00:53"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "It's crazy, isn't it?",
+   "zh": "真是疯狂，不是吗？",
+   "ts": "01:00:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Look at this thing.",
+   "zh": "看看这个东西。",
+   "ts": "01:00:58"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "You just got to do that and then you're good.",
+   "zh": "你只需要做这些，然后就没问题了。",
+   "ts": "01:00:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man. This is an incredible framework. I've never found a simpler, more beautiful, very clear, easy to consume and share version of what the PM role is. So if people are looking for some inspiration for figuring out how to define the PM role with their company, set up their career ladders, I always point them to this and we'll definitely link to this in the show notes. And thank you for doing such a great job walking through it. There's a lot there.",
+   "zh": "哦天哪。这是一个令人难以置信的框架。我从未见过如此简单、美观、清晰易懂且易于传播的产品经理角色定义版本。所以，如果有人想为如何在公司中定义产品经理角色、搭建职业晋升阶梯寻找灵感，我总是会向他们推荐这个框架，我们肯定会在节目笔记中附上链接。感谢你出色的讲解内容，里面有很多干货。",
+   "ts": "01:01:02"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, definitely. And then on my website I've got a downloadable kit that's got tools to evaluate yourself. It goes into each of the competencies in more detail. It talks about some of the different archetypes. So you'll find certain styles of PMs have certain clusters of competencies. If you're a growth PM, you might have a certain focus that might include a lot of focus on data and outcome ownership. If you're more of a product discovery or product innovation PM, you may have a different set of skills. So being able to map yourself out. We'll help you understand where you want to grow and what types of roles are a really good fit for you.",
+   "zh": "是的，绝对如此。在我的网站上，我提供了一个可下载的工具包，里面有自我评估的工具。它更详细地介绍了每个能力模块，还探讨了不同的产品经理角色原型。比如，你会发现不同类型的产品经理拥有不同的能力集群。如果你是一名增长型产品经理，可能更注重数据和结果负责；如果你是产品探索或创新型产品经理，所需技能则有所不同。通过自我测评，你能清晰了解自己的发展方向，以及哪些角色最适合你。",
+   "ts": "01:01:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Plug the site while you're at it. Where do they find this exactly?",
+   "zh": "顺便宣传一下网站。用户具体在哪里能找到这些内容？",
+   "ts": "01:02:01"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "They can find it at ravi-mehta.com. So M-E-H-T-A.",
+   "zh": "他们可以在ravi-mehta.com找到。网址是M-E-H-T-A。",
+   "ts": "01:02:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sweet. You have this kind of concept of exponential feedback that kind of relates to this and just partly touches on why this is so important for PMs to think about. Can you talk a bit about that?",
+   "zh": "太棒了。你提到的指数级反馈概念与此相关，也部分解释了为什么产品经理需要重视这一点。能否详细讲讲？",
+   "ts": "01:02:07"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, definitely. So this is something we talked about in the product leadership program. One of the most challenging things I think for both a PM as well as a product leader is to figure out how to grow yourself and grow your team. And a key way to do that is through feedback. It's really important to provide people with good feedback to help them understand how to grow. But the problem is, and this is true in a casual one-on-one, as much as it's true in an annual performance review, it's oftentimes the feedback that people provide is very surface level. It may focus on particular symptoms but not root causes. (01:02:53): And so one of the ways that this framework can help is, I'll often encourage people when they're first starting to use the framework, just to go through each competency and rate themselves needs focus, on track or outperforming on each of the competencies to quickly get a read on where you feel like you're landing. You can ask your manager to do that same thing. You can do that in five or 10 minutes. And then the areas where your manager and you see eye to eye and the areas where you guys see differently is stimulus for a really deep conversation. (01:03:25): And so I think that is like the entry point to providing exponential feedback. And I think about exponential feedback as feedback that has compounding returns. So if you give someone feedback on a particular symptom or you give them feedback on something that's tactical and they fix that in a moment, the feedback, the conclusion of that feedback, it just happens and then it's gone. But if instead you help a person understand the underlying behaviors that led to that particular situation, then they can focus on growing themselves. They can also focus on helping to diagnose their own performance more effectively, and that leads to compounding returns where they just keep getting better and better over time. [NEW_PARAGRAPH]And so the ability to kind of apply the competencies as a lens helps you move out of that abstract, kind of surface level feedback into very specific categorizations of things that a person might need to work on, which I think gets to the root cause of areas a person can grow in and that ultimately leads to more effective feedback that has those compounding returns.",
+   "zh": "是的，绝对没错。这正是我们在产品领导力项目中探讨的内容。我认为，无论是产品经理还是产品负责人，最具挑战性的事情之一，就是如何提升自己和团队的成长能力。而获取反馈正是实现这一目标的关键途径。为员工提供有效的反馈，帮助他们明确成长方向至关重要。但问题在于，无论是在随意的一对一交流中，还是在年度绩效评估中，人们提供的反馈往往流于表面，仅关注具体问题而忽视深层根源。（01:02:53）  \n\n这个框架能发挥作用的方式之一是，当人们刚开始使用这个框架时，我通常会鼓励他们逐一评估每个能力项，自我评定在这些能力上是需要改进、进展顺利还是表现出色。这样能快速了解自身的成长现状。可以让你的经理也进行同样的评估，用五到十分钟就能完成。然后观察你们在哪些方面看法一致，哪些方面存在分歧，这将为深入对话提供契机。（01:03:25）  \n\n我认为这就是提供指数级反馈的切入点。指数级反馈指的是能产生复合效益的反馈。例如，如果你仅针对某个症状或战术性问题提供反馈，而对方很快就能改正，那这种反馈的效果可能转瞬即逝。但如果你能帮助对方理解导致该问题的深层行为模式，他们就能专注于自我提升，并更有效地诊断自身表现。这种反馈会产生复合效益，随着时间推移，他们会不断进步。  \n\n将这些能力项作为评估框架，能帮助你从抽象的表面反馈转向具体的成长方向，直击个人提升的核心根源，最终提供能产生复合效益的有效反馈。",
+   "ts": "01:02:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On that thread, just maybe a last question here. If your manager isn't good at this and isn't giving you this sort of feedback, do you have any advice for how to get feedback from people like this, mentors, anything like that? If your manager just kind of isn't doing that, isn't filling that role for you.",
+   "zh": "关于这个话题，最后再问一个问题。如果你的经理不擅长提供这类反馈，你有没有什么建议如何从导师或其他人那里获得反馈？如果你的经理没有承担起这个角色，没有提供有效的反馈，你该如何应对？",
+   "ts": "01:04:25"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "One of the things you can do if you are in a product role is ask them to do this exercise and evaluate you. Your manager will almost certainly have some impression of your performance that they haven't necessarily... If they're not doing it proactively, they probably have it intuitively. And helping them get it down on paper and getting it more specific can be a really good way to start that conversation. So that's one thing that you can do. (01:05:06): A second thing is I think oftentimes people refrain from giving feedback when they feel like that feedback is going to be intrusive. So just inviting your manager to say, \"Look, I'm really looking to level up. Please give me feedback whenever you see something. You can give it to me in real time. Don't worry about wordsmithing it. I just want to make sure that I'm getting better.\" That agreement with your manager and giving them permission to give you that feedback will make sure that the stream of feedback has a much higher volume and starting with the quantity of feedback as a way to get eventually to quality of feedback as well.",
+   "zh": "如果你身处产品岗位，有一件事可以做，那就是请他们参与这个练习并对你的表现进行评估。你的经理几乎肯定对你的工作表现有一些印象，但他们不一定会主动表达出来……如果他们没有主动这么做，那很可能已经凭直觉有所察觉。帮助他们将这些想法写下来，使其更具条理性，是开启这场对话的绝佳方式。这就是你可以做的一件事。（01:05:06）：第二件事是，我认为人们往往会因为担心反馈会显得唐突而避免给予反馈。所以不妨主动邀请你的经理说：“看，我真的想提升自己。请随时告诉我你的看法。可以实时反馈，不用字斟句酌，我只想确保自己能不断进步。” 与经理达成这样的共识，并允许他们随时给予反馈，这样能确保反馈的频率大大增加。先从增加反馈的数量入手，逐步提升反馈的质量。",
+   "ts": "01:04:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As you're talking, I'm thinking of the advice Jules Walter shared on this podcast a couple episodes ago of when you get feedback, no matter how it makes you feel, whether you're melting inside or not, just be very enthusiastically. Thank you so much for that. That was really helpful.",
+   "zh": "你讲的时候，我突然想起朱尔斯·沃尔特几期前在播客上分享的建议：无论收到反馈时感觉如何，内心是否崩溃，都要保持热情积极的态度。非常感谢，这建议太实用了。",
+   "ts": "01:05:40"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "It's so key because then you've rewarded the person for giving you feedback, even if it hurts inside, and then they'll want to do it in the future.",
+   "zh": "这很关键，因为这样你就奖励了对方给予反馈的行为，即便反馈内容让你心里难受，他们下次也会更愿意这么做。",
+   "ts": "01:05:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Anything else that you want to touch on or share before we get to our very exciting lightning round?",
+   "zh": "是的。在我们进入激动人心的闪电问答环节之前，你还有什么想补充或分享的吗？",
+   "ts": "01:05:59"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "One of the challenges I hear PMs that are moving into leadership roles is they often worry about micromanaging their teams. And so I kind of see two failure modes for people that are taking on their first leadership role. The first one is that they do actually micromanage, and so they don't let the person on their team have the autonomy that they need to figure out a path forward. And there's two problems in that, one that really makes that person feel like you don't trust them. The second thing is that rate limits the size of the team that you can manage because you can only do that for a finite set of people before you yourself are tapped out on bandwidth. And it's usually a couple of folks. So that's one failure mode where people sort of treat their first direct reports as an extension of themselves. (01:06:51): The second failure mode that I commonly see is just a completely hands-off mode of leadership where a person assumes that the new person on their team, they trust them, they give them a lot of autonomy, but as part of that, they don't give them the context that they need. So that person may be able to be successful but may actually lack the guard rails and the frameworks to channel their efforts. And so I think the right solution here is to say, actually micromanagement is not a bad thing. Some of the most innovative leaders in tech are famous micromanagers. Steve Jobs is a micromanager. Elon Musk is a micromanager. Mark Zuckerberg's a micromanager. Ultimately as product builders and products innovators, the details matter and sometimes you need to zoom into what does the text on a particular button say, and you might have a strong opinion on that. And so it's okay to engage at that level. (01:07:46): I often encourage product leaders to think about their process of becoming more senior, not as a matter of getting more and more high level, but of increasing their dynamic range. So a CPO, it's not that a CPO never thinks about tactical issues, it's that they spend a lot of time on strategy, but they also can zoom into specific issues. And so a framework I like to use with product leaders that I'm coaching is to think about a matrix. Your ideal goal is to lead in a scalable way, which means you feel really confident about the direction of your team and your team has the autonomy to move in that direction. (01:08:22): There's another really effective way of leading which is selective micromanagement, which if you don't feel confident in the direction that your team is moving, the right answer is not to be hands-off and to let them go in that wrong direction. The right answer is to micromanage, but do it in a very tactical, in a very temporary way so that you can help them understand what is the right direction moving forward, so that you can then pull back. And the two failure modes are if you're hands-off and you let that team go off the rails, that hands-off mode of leadership might feel really good in the short term. It might help you avoid micromanaging in the short term, but ultimately it's going to mean that that team doesn't get to where they need to go. (01:09:03): And then what we commonly think of as micromanagement, I think more of as micro mismanagement, which is you don't feel like you've got a sense of control or a sense of confidence about what the team's doing. The team doesn't feel like they have a sense of autonomy. There's not a clear end in sight, and ultimately both the leader and the team are frustrated. So I think the two really effective functional ways of leading are scalable leadership where the team has autonomy, you have confidence or selective micromanagement where for a brief period of time you might take away some of the team's autonomy to set them on the right track, but with the goal of getting back into that scalable leadership mode.",
+   "zh": "我听说，许多初次担任领导角色的产品经理都面临一个挑战——他们往往担心过度微管理团队。基于此，我总结出两种初级领导者容易陷入的失败模式。第一种是真的过度微管理，剥夺了团队成员自主探索前进路径的权限。这种做法有两个问题：一是让团队成员觉得你不信任他们；二是由于你只能同时管理有限数量的人，最终会被团队规模所束缚，通常只能管理几个人。这就是第一种失败模式——把直接下属视为自己的延伸。  \n\n（01:06:51）第二种常见的失败模式是完全放手式领导。这种领导者假定新加入的团队成员值得信任，于是赋予他们大量自主权，但却忽视提供必要的上下文指导。这种方式可能让团队取得短期成功，但却缺乏方向指引。正确的解决方案是承认微管理并非坏事。科技界许多创新型领导者都是著名的微管理者——史蒂夫·乔布斯、埃隆·马斯克、马克·扎克伯格皆是如此。作为产品创新者，细节至关重要，有时你需要仔细检查按钮文案的每个字，并对此提出专业见解。这种深度参与是完全合理的。  \n\n（01:07:46）我常鼓励产品领导者将晋升视为动态能力提升的过程，而非层级攀升。例如，首席产品官（CPO）并非从不关注战术问题，而是将更多精力投入战略规划，同时保持对细节的把控。我常用的一个框架是矩阵思维。理想状态是以可扩展的方式领导团队，即对方向有清晰把握，同时赋予团队自主探索的权限。  \n\n（01:08:22）选择性微管理也是有效策略。当对团队方向缺乏信心时，放任其偏离轨道绝非明智之举。正确做法是以战术性临时微管理来引导团队回归正轨。两种失败模式：放任自流导致团队偏离轨道；过度微管理则让团队失去自主性。  \n\n（01:09:03）所谓微管理，实质是缺乏掌控感与信心。当团队失去自主权，无法预见清晰的终点时，领导者与团队都会陷入挫败感。两种有效领导方式：可扩展领导（赋予团队自主权）与选择性微管理（在关键时刻介入纠偏）。\n既有自主权，又要保持信心；或者采用选择性微观管理策略。在短时间内，你可能会暂时剥夺团队的部分自主权，以便让他们走上正确的轨道，但最终目标是重新回归到可扩展的领导模式中。",
+   "ts": "01:06:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I really like this topic. I feel like this could be a whole other thread. Maybe one quick question along these lines. Would you call it selective micromanagement?",
+   "zh": "我真的很喜欢这个话题。我觉得这可以单独开个帖子讨论。或许可以顺便问个相关问题：你会把这称为选择性微管理吗？",
+   "ts": "01:09:40"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:09:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a heuristic you have in mind of just like what does that mean in practice? Like one out of every 10 decisions, maybe you push them in a direction that you'd need them to go. How do you figure out what's selective enough or is there in your experience?",
+   "zh": "你有没有什么启发性的方法来解释这在实际中意味着什么？比如每10个决策中，你可能就把其中一个往你希望的方向上推。你是如何判断什么样的行为算“选择性”微管理的呢？或者说根据你的经验，有没有相关标准？",
+   "ts": "01:09:48"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I think it often comes down to being overly detailed at the moment that you see a problem. So helping the team get back on track by any means necessary, including potentially you're getting really detailed about the decisions that the team is making. But as you do that, think about the frameworks that you're using to help the team make decisions and help the team understand that framework. And so over time, the goal is to replace you actively kind of going in and guiding the team's decisions with them having a framework that they really understand so that they can make the decisions that are aligned with where you think the right direction is to go. And the ultimate success is that you give enough of a framework and the team has enough autonomy that they get to answers that are even better than you could come up with. And so that gives the team an incredible feeling of power and that gives you as a leader an incredible feeling of confidence in the team's ability.",
+   "zh": "我觉得这通常源于在发现问题时过于关注细节。比如通过各种手段帮助团队重回正轨，包括对团队决策进行过度细致的指导。但在做这些事时，你需要思考用什么框架来帮助团队做决策，并确保他们理解这个框架。最终目标是让团队主动接管决策权，而不是被动接受你的指导。理想情况是，你提供足够的框架，团队凭借自主权做出比你预期的更好的决策。这会给团队带来强大的掌控感，也会让你作为领导者对团队能力充满信心。",
+   "ts": "01:10:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Yeah. Well, this makes me think about it as a product leader. Most of the time you need to push your team to do the thing that you believe is right, and maybe once in a while let them make a mistake and have them learn from it. But it's not the other way. It's not like, \"Cool, let them make all the mistakes and once in a while correct.\" It's the opposite. Your ass is on the line if they waste time and resources and fail. So yeah, your job is to make sure they're heading in the right direction.",
+   "zh": "明白了。作为产品负责人，我觉得你需要推动团队朝着你认为正确的方向前进，可能偶尔让他们犯错并从中学习。但反之则不行。如果他们浪费时间和资源并失败了，责任最终还是落在你头上。所以你的职责就是确保他们朝着正确的方向前进。",
+   "ts": "01:10:59"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "There's another framework that we talk about in product leadership which goes into this topic, which is as someone who's working with a manager, there's kind of two things that you're constantly solving for. One is the degree to which you're aligned with your manager, and the second is the degree to which your manager has confidence in you. And so if there's a high degree of alignment and a high degree of confidence, you have full support, but there might be cases where there's actually not a high degree of alignment. You want to go in a different direction than your manager wants to go in, but if you have their confidence, you'll get their permission, you'll get their support to go in that direction. (01:11:56): And so keeping an idea of where you are on that radar is really helpful for understanding the currency that you have to be able to push things in the direction that you think is the right one. And if you don't have your leader's confidence and you're not aligned with them, that's not a recipe for success. One of those things needs to change. Either you need to do things that they are aligned with or you need to do things to win their confidence in your ability to pick a different path forward.",
+   "zh": "在产品管理中我们还讨论过另一个框架：作为与经理合作的人，你需要不断解决两个问题。一是与经理的目标是否一致，二是经理对你的信任程度。若两者高度一致，你就能获得全力支持；但如果不一致，比如你想走与经理相反的方向，只要得到他们的信任，你就能获得许可和支持。（01:11:56）因此，了解自己在这些维度上的位置，对你能否推动团队朝着正确方向前进至关重要。如果得不到领导的信任或与他们目标不一致，那就注定失败了。其中一项必须改变。要么顺应他们的意愿，要么努力赢得他们对另辟蹊径的信任。",
+   "ts": "01:11:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I like that. One final tangential totally out of nowhere question. I had on my notes that you've been doing some stuff with AI in your coaching work. And so I wanted to ask you, how do you think AI will work with PMs and just coaches and us as, I don't know, professionals in the workplace? What have you found so far in your experience there?",
+   "zh": "我喜欢这个想法。最后再问一个完全不相干但突然冒出来的问题。我记得你的笔记里提到，你在教练工作中使用了人工智能技术。所以我想问一下，你认为人工智能将如何与项目经理、教练以及我们这些职场人士合作？到目前为止，你在实践中发现了什么？",
+   "ts": "01:12:23"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "So when we started Outpace, we knew that AI was going to continue to advance and that eventually we would want to think about AI as a way to amplify coaches and to help make them more efficient and more effective. We thought that that was going to be a multi-year journey and that we would get to it at some point in the future. But this year's been incredibly exciting with the advances that we've seen from OpenAI and Stable Diffusion and Midjourney and all of these different models. [NEW_PARAGRAPH]And so we've actually accelerated a lot of our roadmap around that. We have an interesting opportunity to use AI in the product where one of the things that makes Outpace different from other coaching platforms is we provide both content as well as the coach. And so each week a person will go through a 20 or 30-minute session. That session includes a brief audio lesson and then includes interactive exercises that go into how would you use the things that you just learned in that lesson. (01:13:42): And so one of the things that we have is we've got text content from all of the participants in Outpace where they're providing very specific answers to very specific questions. We're using that content to prompt, in this case, OpenAI, to give suggestions to the coach. And so the coach can go in and say, \"Help me with a suggestion of what I should say as feedback to this particular response.\" And then the coach can go in and tailor that based on what they know about that person. And one of the most amazing things is we've been able to simulate different styles of leadership by using different types of prompts. So we can have suggestions that are really action oriented that provide lists of next steps. We can have suggestions that are more sympathetic that focus on the person's feelings. We've got suggestions that are more inquisitive, which ask follow-up questions. We've got suggestions which are informative, which provide frameworks and advice. (01:14:32): So it's really pretty remarkable how far the technology has come. I know we're at an interesting time right now. It's going to be interesting to see how things play out. I think one of the most interesting things about it is not AI as a replacement for people, but AI as a way to amplify people and make them more effective. And I think we'll see a lot of that in terms of both image generation and text generation where it's less about AI doing all the work and more about AI providing a really good starting point.",
+   "zh": "当我们创立Outpace时，我们就知道人工智能会持续发展，最终我们会将其视为一种增强教练效率和效果的工具。我们原以为这将是一个多年发展的过程，但今年的进展令人振奋——OpenAI、Stable Diffusion和Midjourney等模型的发展速度超出了我们的想象。[新段落]因此，我们已经大大加快了相关路线图的推进。我们有一个有趣的机会，将人工智能应用于产品中。Outpace与其他教练平台的不同之处在于，我们既提供内容也提供教练服务。每周，用户会完成20至30分钟的课程，包括简短的音频课程和互动练习，帮助他们应用刚刚学到的知识。（01:13:42）目前，我们收集了所有Outpace参与者的文本内容，他们提供了针对特定问题的具体答案。我们利用这些内容来引导OpenAI为教练提供建议。例如，教练可以输入“请为这段回应提供反馈建议”，OpenAI会根据用户提供的信息进行个性化回复。最令人惊叹的是，通过不同的提示语，我们可以模拟不同类型的领导风格。比如，提供以行动为导向的建议列表，提供更具同理心的情感支持，提出探索性问题，提供信息性建议等。（01:14:32）技术的发展速度实在令人惊叹。我知道我们正处于一个有趣的阶段。未来会如何发展，将非常值得关注。我认为最有趣的部分不是人工智能取代人类，而是它能增强人类的能力，提高工作效率。这在图像生成和文本生成方面都将得到体现——重点不在于让AI包办一切，而在于为人类提供优质的起点。",
+   "ts": "01:12:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love the idea that people have these visions of where their product's going to go in five, 10 years, and the vision's happening so soon. And that's got to feel nice, but then you got to rethink, \"Oh my God, what's our new vision of the future at this pace?\"",
+   "zh": "我喜欢人们对产品未来五年、十年愿景的构想，而现实进展如此之快。这感觉一定很棒，但随之而来的是重新思考：“天哪，以这样的发展速度，未来我们的新愿景会是什么？”",
+   "ts": "01:14:58"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "It's been really exciting. I haven't been this excited about tech in a long time. And I think it was, we knew we would need to pivot in order to embrace this more, but it completely makes sense and it fits really nicely into something that we're already doing.",
+   "zh": "整个过程非常激动人心。我已经很久没有对科技如此兴奋了。我们知道需要调整方向以更好地拥抱这种变化，但这一切都顺理成章，与我们现有的工作方向完美契合。",
+   "ts": "01:15:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well with that, we've reached our very exciting lightning round. I've got six questions for you. I'm going to power through them and whatever comes to mind, just share it away. Sound good?",
+   "zh": "好的，接下来我们要进行激动人心的闪电问答环节。我准备了六个问题，大家可以畅所欲言。听起来不错吧？",
+   "ts": "01:15:24"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "That sounds good.",
+   "zh": "听起来很棒。",
+   "ts": "01:15:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. What are two or three books that you recommend most to other people?",
+   "zh": "太好了。你最推荐给别人的两三本书是什么？",
+   "ts": "01:15:36"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I really like Hooked. That's a book that I know came out a few years ago, but I find that that model is just such an effective model for thinking about how to create products that are engaging. I also really like Working Backwards. I think Amazon has such a unique way of going about building product, and they've been so opinionated about what matters within that process. It's great to get a really detailed window into that. I was always curious about how it worked, and Working Backwards was a great way too to understand that a lot better.",
+   "zh": "我特别喜欢《上瘾》。这本书几年前出版的，但我发现里面提到的产品设计模型，对打造引人入胜的产品非常有效。我还很喜欢《倒退工作法》。亚马逊在产品开发方面有独特的思路，他们对产品开发流程中的关键环节也极具洞察力。能深入了解他们的方法真是太棒了。我一直很好奇他们的运作模式，《倒退工作法》让我对此有了更清晰的认识。",
+   "ts": "01:15:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "For folks that are interested in that, we had Ian McAllister on the podcast talking a lot about that stuff. So if you're interested in Working Backwards and don't want to read the book, there's a podcast episode for you. Speaking of podcast, what's a favorite other podcast of yours other than the one you're currently on?",
+   "zh": "对感兴趣的人来说，我们在播客上邀请了伊恩·麦卡利斯特详细探讨过这些内容。所以如果你对《倒退工作法》感兴趣但不想读原书，播客节目会是很好的选择。说到播客，除了你现在参与的播客，还有其他喜欢的吗？",
+   "ts": "01:16:09"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah. One of my favorites is The Ezra Klein Show. I love the fact that he talks about a bunch of different topics. He's often got contrarian points of view. He just had an episode recently about a skeptical take on AI that I disagreed with a lot, but it was really interesting to think about it from a different perspective.",
+   "zh": "是的。我最喜欢的播客之一是《埃兹拉·克莱恩秀》。我喜欢他探讨各种不同话题的风格。他经常提出一些反主流观点，最近他做了一期关于人工智能的怀疑论，我虽然不认同，但从不同角度思考这个问题还是很有趣的。",
+   "ts": "01:16:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One of the best compliments I got about this podcast is someone telling me that they listened to these two podcasts as the only two podcasts they listen to, and they always have to pick one or the other when they're going in their morning walk. [inaudible 01:16:45].",
+   "zh": "我收到过的最好的赞美之一，是有人告诉我，他们把你的播客和《埃兹拉·克莱恩秀》作为唯一收听的两个播客，每天晨跑时总要在两者中二选一。[1:16:45未录音]",
+   "ts": "01:16:36"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "You and I were talking a few months ago, and that's sort of the boat that I'm in. I've been listening to your podcast. I've been listening to Ezra Klein, and then there's a couple of others that are in the mix, but the ones that I keep going back to when I'm walking the dog are those two podcasts.",
+   "zh": "几个月前我们聊天时，我也处于类似的境况。我一直在听你的播客，也听埃兹拉的节目，还有其他几档，但晨跑时反复回听的还是这两个。",
+   "ts": "01:16:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a dream.",
+   "zh": "真是梦想成真了。",
+   "ts": "01:16:58"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Thanks for having me on.",
+   "zh": "感谢邀请我参加节目。",
+   "ts": "01:16:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man. It's not over yet. Next question. Favorite recent movie or TV show that you've really enjoyed?",
+   "zh": "天哪，还没结束呢。下一个问题：你最近最喜欢的电影或电视剧是什么？",
+   "ts": "01:17:00"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "I love Andor. I just finished watching it about a week ago. I think it's not just a great Star Wars piece of content, it's just a really great piece of science fiction. I think a lot of science fiction has gotten very samey and very dystopian recently. This was such an interesting reflection of what's happening today, really deep thinking about what the future could look like, really good expansion of the universe. So it's just great on a lot of levels.",
+   "zh": "我超爱《安多》。我大约一周前刚看完。我觉得它不仅是《星球大战》系列的佳作，更是优秀的科幻作品。最近很多科幻作品都千篇一律、充斥反乌托邦题材，而这部作品对当下现实的反思深刻，对未来可能性的思考也颇具深度，宇宙观的拓展也非常出色。真是各方面都超棒。",
+   "ts": "01:17:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Frigging love Andor. Huge plus one on that. Favorite interview question that you like to ask.",
+   "zh": "我太爱《安多》了！强烈推荐！最喜欢问的采访问题是什么？",
+   "ts": "01:17:27"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "My favorite interview question is, tell me about a product that you love. And I can have that question last five minutes. I can have that question last 60 minutes. And so that's the first question that I'll typically ask people during a screening interview. I use the word love very deliberately. I want to see what products in their lives they really gravitate to and they engage with and that they can use that word with. That helps me understand a lot about what they value. And then I'll ask a whole series of questions, which is, why do you love it? Why do you think other people love it? What would you like to see about it in the future? Pick a feature that you'd like to build for that product. Why do you think that's a good feature? How would you measure the success of that feature? (01:18:11): So I've used this for years. It's just such a good way to help understand the product sense that a person has, help get to know a person a little bit better. It's always interesting when people pick products that are more physical products to see what they're into in terms of hobbies and things of that sort.",
+   "zh": "我最喜欢的面试问题是，告诉我你喜欢的一款产品。我可以让这个问题持续五分钟，也能让它延续60分钟。这通常是我在筛选面试中最先问候的问题。我特意使用“喜欢”这个词，是想看看他们生活中真正热衷并深度参与的那些产品，以及他们能用这个词来形容的产品。这能让我更好地理解他们的价值观。接下来我会追问一系列问题：你为什么喜欢它？你觉得其他人为什么会喜欢它？你希望未来能看到哪些改进？你想为这款产品开发哪项功能？你为什么认为这项功能很棒？又该如何衡量其成功效果？（01:18:11）  \n多年来我一直用这个方法。这是了解候选人产品敏感度、深入了解他们的绝佳途径。当有人选择实体产品时，我会格外感兴趣，借此探究他们的兴趣爱好等深层特质。",
+   "ts": "01:17:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are five SaaS products that you use at your company or on your team?",
+   "zh": "你们公司或团队使用的五款SaaS产品是什么？",
+   "ts": "01:18:26"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Airtable has been amazing. It's such a powerful tool. We just rebuilt our accounting system in Airtable. Webflow, we're using constantly. It's really changed how we think about building products. We now ask, do we need to build code or can we do something in Webflow? We're using Superhuman. I spend most of my day in Superhuman. It's an incredibly fast email client, so I love having it on my team. A lot of the team today is using Descript or Descript to edit videos. They found that to be something that works so much better than prior audio and video editing solutions. And then I've always loved Balsamiq. I've been a Balsamiq user for probably 10 years now, and whenever I get stuck on a user experience issue, I go in, I create some wireframes, and it always helps.",
+   "zh": "Airtable太棒了。它是个强大的工具。我们刚用Airtable重建了会计系统。Webflow我们一直在用，它彻底改变了我们的产品开发思路。我们现在会问：是需要写代码，还是能在Webflow里实现？Superhuman是我日常主要使用的邮件客户端。Descript/Descript被我们用来剪辑视频。他们发现这个工具比以往的音频和视频编辑解决方案好用太多了。Balsamiq我也一直爱用，使用了大概10年。每当我在用户体验方面卡壳时，就会用它快速创建线框图，效果总是很棒。",
+   "ts": "01:18:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We use Descript/Descript, I also don't know how to pronounce it, on this podcast. So a huge recommend of that. Final question. You are building a company that is helping people find coaches. Do you have any tips for someone that is talking to a potential coach and what they should maybe ask them when they're trying to decide if it would be a good fit?",
+   "zh": "我们播客用的就是Descript/Descript，我也不知道怎么发音。强烈推荐这个工具。最后一个问题。你正在打造一个帮助人们寻找教练的公司，对于那些正在与潜在教练沟通的人，你有什么建议？在判断是否合适时，他们应该问些什么？",
+   "ts": "01:19:13"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah. I think one of the questions that's really helpful is tell me about the client that you're most proud of helping. What was the challenge if they were facing? How did you help them meet that challenge? The person doesn't need to go into anything confidential, of course, but I think what's really nice about that question is it get you really deep insight into what they value. You get to see where their pride comes from. It gives you insight into how they engage with the people that they're helping. And then you can understand, does that sort of map with what you're looking for in terms of a coach?",
+   "zh": "是的。我觉得一个很有用的问题是，告诉我你最引以为傲帮助过的客户。他们面临的挑战是什么？你如何帮助他们克服这些挑战？当然，候选人无需透露任何机密信息。但这个问题的好处在于，能让你深入了解他们的价值观，看到他们的自豪感从何而来。这能让你了解他们如何与受助者互动。然后你就能判断，这是否与你对教练的期望相契合？",
+   "ts": "01:19:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Ravi, this was everything I hoped it would be. I learned a lot. I had a lot of fun. Two final questions. Where can folks find you online if they want to learn more, and how can listeners be useful to you?",
+   "zh": "拉维，这次访谈完全符合我的期待。我收获满满，乐趣无穷。最后两个问题：如果读者想了解更多信息，哪里能找到你的信息？听众如何能为你提供帮助？",
+   "ts": "01:20:03"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "My startup is Outpace. You can find it at outpace.co. We published a lot of free resources. We just published a resource that you helped us with, Lenny, called Unlock Your Product Manager Potential. We also have a Q and A service where you can ask questions of coaches. Our goal with Outpace is to get more and more people to experience coaching, whether that's in an active coaching relationship or just a really quick conversation with a coach. So come to outpace.co. That'll be really helpful for us and hopefully really helpful for you as well. And then if you want to follow me, I'm on LinkedIn. You can also read my writing at ravi-mehta.com.",
+   "zh": "我的创业公司叫Outpace，网址是outpace.co。我们发布了大量免费资源。最近刚上线了一份由Lenny协助制作的资源，名为《释放你的产品经理潜力》。我们还提供问答服务，用户可以向导师提问。Outpace的目标是让越来越多的人体验到教练指导，无论是通过深度合作关系，还是与导师进行快速交流。所以请访问outpace.co吧。这对我们和大家都将非常有益。另外，如果想关注我，我在LinkedIn上有账号，也欢迎访问ravi-mehta.com阅读我的文章。",
+   "ts": "01:20:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Ravi, again, thank you for being here, and we'll share all these in the show notes and all these links you mentioned. Thanks again.",
+   "zh": "太棒了。Ravi，再次感谢你今天的参与，我们会把你提到的所有资源和链接都整理到节目笔记里。再次感谢。",
+   "ts": "01:20:49"
+  },
+  {
+   "speaker": "Ravi Mehta",
+   "en": "Yeah, thanks so much for having me. This has been great.",
+   "zh": "是的，非常感谢邀请。今天的交流很棒。",
+   "ts": "01:20:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "感谢聆听。如果觉得内容有价值，欢迎在Apple Podcast、Spotify或你喜欢的播客应用上订阅节目。也欢迎给我们评分或留下评论，这对其他听众发现节目很有帮助。您可以在lennyspodcast.com查看往期节目或了解更多信息。下一期节目见。",
+   "ts": "01:21:01"
+  }
+ ]
+}

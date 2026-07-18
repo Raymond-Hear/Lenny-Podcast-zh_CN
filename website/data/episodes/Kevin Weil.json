@@ -1,0 +1,1139 @@
+{
+ "id": "Kevin Weil",
+ "name": "Kevin Weil",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Kevin+Weil",
+ "bio": {
+  "en": "Kevin Weil is the Chief Product Officer of OpenAI, maker of ChatGPT, and has previously led product at Twitter, Meta's Novi, and Planet Labs.",
+  "zh": "凯文·韦尔（Kevin Weil）是 OpenAI（ChatGPT 的开发者）的首席产品官，此前曾领导 Twitter、Meta 的 Novi 以及 Planet Labs 的产品。"
+ },
+ "summary": {
+  "en": "Kevin argues the AI model you use today is the worst you'll ever use, because capabilities improve every couple of months. He describes OpenAI's mindset of building for the edge of current model abilities, knowing they'll soon be surpassed. The episode also reflects on his earlier Libra project and what it means to build inside the center of the AI storm.",
+  "zh": "凯文认为，你今天使用的 AI 模型将是你这辈子用过最差的，因为能力每隔几个月就会提升。他描述了 OpenAI 紧贴当前模型能力边界去构建产品的思路，因为知道这些能力很快会被超越。本期还回顾了他早年的 Libra 项目，以及身处 AI 风暴中心意味着什么。"
+ },
+ "turns": [
+  {
+   "speaker": "Kevin Weil",
+   "en": "The AI models that you're using today is the worst AI model you will ever use for the rest of your life, and when you actually get that in your head, it's kind of wild. Everywhere I've ever worked before this, you kind of know what technology you're building on, but that's not true at all with AI. Every two months, computers can do something they've never been able to do before and you need to completely think differently about what you're doing.",
+   "zh": "你们如今使用的AI模型，可能是你们余生中用过的最差的AI模型。一旦你真正意识到这一点，就会觉得不可思议。在此之前我工作的所有地方，你都能清楚自己所依赖的技术基础，但AI领域完全不是这样。每隔两个月，计算机就能完成前所未能实现的任务，而这就要求你必须彻底重新审视自己的工作思路。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're chief product officer of maybe the most important company in the world right now. I want to chat about what it's just like to be inside the center of the storm.",
+   "zh": "你现在是全球最重要公司的首席产品官。我想和你聊聊身处风暴中心是一种什么样的体验。",
+   "ts": "00:00:21"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Our general mindset is in two months, there's going to be a better model and it's going to blow away whatever the current set of limitations are. And we say this to developers too. If you're building and the product that you're building is kind of right on the edge of the capabilities of the models, keep going because you're doing something right. Give it another couple months and the models are going to be great, and suddenly the product that you have that just barely worked is really going to sing.",
+   "zh": "我们的基本心态是，每隔两个月就会出现更先进的模型，它会彻底突破当前技术的局限。我们也对开发者这样说。如果你正在开发的产品正好处于现有模型能力边缘，那就继续推进，因为你做对了。再等几个月，模型性能就会大幅提升，而你现在勉强能运行的产品也会迎来质的飞跃。",
+   "ts": "00:00:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Famously, you led this project at Facebook called Libra.",
+   "zh": "众所周知，你曾在Facebook领导过名为Libra的项目。",
+   "ts": "00:00:51"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Libra is probably the biggest disappointment of my career. It fundamentally disappoints me that this doesn't exist in the world today because the world would be a better place if we'd been able to ship that product. We tried to launch a new blockchain. It was a basket of currencies originally. It was integration into WhatsApp and Messenger. I would be able to send you 50 cents in WhatsApp for free. It should exist. To be honest, the current administration is super friendly to crypto. Facebook's reputation is in a very different place. Maybe they should go build it now.",
+   "zh": "Libra可能是我职业生涯中最大的遗憾。最让我失望的是，今天的世界没有这样的产品——如果我们当时能成功推出这个产品，世界会变得更美好。我们曾尝试推出一个新的区块链项目，最初它是多种货币的组合，还计划与WhatsApp和Messenger整合。我本可以在WhatsApp上免费给你转账50美分。这本该成为现实的。说实话，当前政府对加密货币非常友好，而Facebook的声誉却急转直下。或许他们现在应该重新启动这个项目了。",
+   "ts": "00:00:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Kevin Weil. Kevin is chief product officer at OpenAI, which is maybe the most important and most impactful company in the world right now, being at the forefront of AI and AGI and maybe someday super intelligence. He was previously head of product at Instagram and Twitter. He was co-creator of the Libra Cryptocurrency at Facebook, which we chat about. He's also on the boards of Planet and Strava and the Black Product Managers Network and the Nature Conservancy. He's also just a really good guy and he has so much wisdom to share. We chat about how OpenAI operates, implications of AI and how we will all work and build product, which markets within the AI ecosystem, companies like OpenAI won't likely go after and thus are good places for startups to own. Also, why learning the craft of writing evals is quickly becoming a core skill for product builders, what skills will matter most in an AI era and what he's teaching his kids to focus on and so much more. (00:02:24): This is a very special episode and I am so excited to bring it to you. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. If you become an annual subscriber of my newsletter, you get a year free of Perplexity Pro, Linear, Notion Superhuman and Granola. Check it out at lennysnewsletter.com and click bundle. With that, I bring you Kevin Weil. This episode is brought to you by Eppo. Eppo is a next-generation A/B testing and feature management platform built by alums of Airbnb and Snowflake for modern growth teams. Companies like Twitch, Miro, ClickUp and DraftKings rely on Eppo to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features and Eppo helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. (00:03:18): When I was at Airbnb, one of the things that I loved most was our experimentation platform where I could set up experiments easily, troubleshoot issues, and analyze performance all on my own. Eppo does all that and more with advanced statistical methods that can help you shave weeks off experiment time and accessible UI for diving deeper into performance and out-of-the-box reporting that helps you avoid annoying prolonged analytic cycles. Eppo also makes it easy for you to share experiment insight with your team, sparking new ideas for the A/B testing flywheel. Eppo powers experimentation across every use case, including product, growth, machine learning, monetization, and email marketing. Check out Eppo at geteppo.com/lenny and 10X your experiment velocity. That's geteppo.com/lenny. (00:04:06): This episode is brought to you by Persona, the adaptable identity platform that helps businesses fight fraud, meet compliance requirements, and build trust. While you're listening to this right now, how do you know that you're really listening to me, Lenny? These days, it's easier than ever for fraudsters to steal PII, faces and identities. That's where Persona comes in. Persona helps leading companies like LinkedIn, Etsy, and Twilio securely verify individuals and businesses across the world. What sets Persona apart is its configurability. Every company has different needs depending on its industry, use cases, risk tolerance and user demographics. That's why Persona offers flexible building blocks that allow you to build tailored collection and verification flows that maximize conversion while minimizing risks. Plus Persona's orchestration tools automate your identity process so that you can fight rapidly shifting fraud and meet new waves of regulation. Whether you're a startup or an enterprise business, Persona has a plan for you. Learn more at withpersona.com/lenny. Again, that's withpersona.com/lenny. Kevin, thank you so much for being here and welcome to the podcast.",
+   "zh": "今日嘉宾是凯文·韦尔（Kevin Weil）。凯文是OpenAI的首席产品官，OpenAI或许是当今全球最重要、最具影响力的公司，引领着人工智能、通用人工智能（AGI）乃至未来超级智能的发展。他曾担任Instagram和Twitter的产品负责人，参与创建了Facebook的Libra加密货币（我们在节目中会深入探讨这一话题）。此外，他还入选了Planet、Strava、黑人产品经理网络（Black Product Managers Network）及自然保护协会（Nature Conservancy）的董事会。他为人正直，智慧非凡，我们聊到了OpenAI的运营模式、人工智能的深层影响、产品开发的未来方向、AI生态系统中的核心市场、OpenAI等巨头可能不会涉足的领域，以及写作评估技能为何正成为产品开发者的核心能力，还有AI时代最关键的技能、他如何教导子女专注发展等诸多话题。  （00:02:24）：这是一期非常特别的节目，我很高兴能与大家分享。如果您喜欢本播客，请别忘了在您喜爱的播客应用或YouTube上订阅并关注。若您成为我通讯的年度订阅用户，即可免费获得Perplexity Pro、Linear、Notion Superhuman和Granola的一年使用权限。请访问lennynewsletter.com并点击“套餐”选项了解详情。现在，让我们迎来凯文·韦尔。本期节目由Eppo赞助。Eppo是一款由Airbnb和Snowflake前员工为现代增长团队打造的下一代A/B测试和功能管理平台。Twitch、Miro、ClickUp和DraftKings等公司依赖Eppo来推动实验。实验对增长至关重要，能帮助理解新功能的表现，而Eppo通过先进的统计方法帮助您缩短实验周期，并以易用的UI深入分析性能，避免冗长的分析周期。此外，Eppo还让您能轻松与团队分享实验洞察，激发A/B测试飞轮的新思路。Eppo支持产品、增长、机器学习、变现和邮件营销等场景的实验。欢迎访问geteppo.com/lenny，提升实验速度10倍。  （00:04:06）：本期节目由Persona赞助——这家适应性强的身份平台助力企业打击欺诈、满足合规要求并建立信任。当您正在收听本节目时，您如何确定自己确实在听我，Lenny说话？如今，欺诈者窃取个人身份信息（PII）、面部和身份特征比以往任何时候都更容易。这正是Persona的用武之地。Persona帮助LinkedIn、Etsy和Twilio等领先公司安全验证全球个人和企业身份。其独特之处在于可配置性。每家公司因行业、用例、风险承受能力和用户群体而需求各异。这就是Persona提供灵活构建模块的原因，让您能够构建定制的收集和验证流程，最大化转化率同时最小化风险。此外，Persona的编排工具\n自动化您的身份验证流程，助您有效应对快速变化的欺诈威胁，应对新一轮监管挑战。无论您是初创企业还是大型企业，Persona都能为您量身定制解决方案。欲了解更多信息，请访问withpersona.com/lenny。再次强调，网址是withpersona.com/lenny。凯文，非常感谢您的参与，欢迎加入我们的播客节目。",
+   "ts": "00:01:27"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Thank you so much for having me. We've been talking about doing this forever and we made it happen.",
+   "zh": "非常感谢邀请我们。我们讨论合作这件事已经很久了，如今终于实现了。",
+   "ts": "00:05:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We did it. I can't imagine how insane your life is, so I really appreciate that you made time for this and we're actually recording this the week that you guys launched your new image model, which is a happy coincidence. My entire social feed is filled with ghiblifications of everyone's life and family photos and everything, so good job.",
+   "zh": "我们做到了！真不敢想象你们的生活有多忙碌，所以特别感激你们能抽出时间参与这次合作。更巧的是，我们录制这期节目正值你们推出新图像模型的同一周。我的社交动态里满是大家的生活写照、家庭照片等等，真是太棒了。",
+   "ts": "00:05:27"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yep, mine too. My wife, Elizabeth, sent me one of hers, so I'm right there with you.",
+   "zh": "是啊，我也是。我妻子伊丽莎白也给我发了一张她的照片，看来我们感同身受。",
+   "ts": "00:05:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me just ask, did you guys expect this kind of reaction? It feels like this is the most viral thing that's happened in AI, which a high bar since, I don't know, ChatGPT launched. Just like, did you guys expect it to go this well? What does it feel like internally?",
+   "zh": "我只想问，你们预料到会引发这样的反响吗？这感觉是AI领域最热门的话题了，自从ChatGPT问世以来就达到了很高的标准。说真的，你们预料到会如此成功吗？内部团队的感受如何？",
+   "ts": "00:05:51"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "There have been a handful of times in my career when you're working on a product internally and the internal usage just explodes. This was true by the way when we were building stories at Instagram. More than anything else in my career, we could feel it was going to work because we were all using it internally and we'd go away for a weekend. Before it launched we were all using it and we'd come back after a weekend and we would know what was going on and be like, \"Oh, hey, I saw you were at that camping trip, how was that?\" You were like, \"Man, this thing really works.\" ImageGen was definitely one of those, so we'd been playing with it for, I don't know, a couple months and when it first went live internally to the company, there was kind of a little gallery where you could generate your own, you could also see what everyone else was generating and it was just nonstop buzz. So yeah, we had a sense that this was going to be a lot of fun for people to play with.",
+   "zh": "在我的职业生涯中，曾有几次产品内部使用量暴增的情况。比如在Instagram开发Stories功能时，内部团队用得超火。就我个人而言，ImageGen就是这样的例子。我们内部测试了几个月后，当它正式上线时，公司内部有一个小画廊，大家可以在那里生成自己的图片，同时也能看到其他人的作品，讨论热度一直居高不下。所以我们当时就预感到，这款产品会让用户玩得不亦乐乎。",
+   "ts": "00:06:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's really cool. That should be a measure of just confidence into something going well that you're launching is internally everyone's going crazy for it.",
+   "zh": "太酷了。内部团队对产品反响如此热烈，这本身就是产品成功的有力证明。",
+   "ts": "00:06:58"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. Especially social things because you have a very tight network as a company socially, so you know each other and you're experts in your product hopefully. And so there's some sense in which if you're doing something social and it's not taking off internally, you might question what you're doing.",
+   "zh": "是啊，尤其是社交类产品，因为公司内部社交网络很紧密，大家彼此熟悉，而且都是产品专家。所以如果社交功能在内部不受欢迎，你可能会怀疑自己的设计方向。",
+   "ts": "00:07:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, and by the way, the Ghibli thing, is that something you guys seeded or how did that even start? Was that an intentional example?",
+   "zh": "对了，关于吉卜力主题，你们是特意推广的，还是自然而然兴起的？这是有意为之的吗？",
+   "ts": "00:07:23"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I think it's just the style people love and the model is really capable at emulating style or understanding what... It's very good at instruction following. That's actually something that I think people... I'm starting to see people discover with it, but you can do very complex things. You can give it two images, one is your living room and the other is a whole bunch of photos or memorabilia or things you want and you say, \"Tell me how you would arrange these things.\" Or you can say, \"I'd like you to show me what this will look like if you put this over here and this thing to the right of that and this one to the left of this, but under that one.\" And the model actually will understand all of that and do it. It's incredibly powerful. So I'm just excited about all the different things people are going to figure out.",
+   "zh": "我觉得这只是人们喜欢的风格，而且模型在模仿风格或理解用户需求方面确实很出色。它在执行指令方面也非常出色。这其实是人们正在发现的一个特点，尽管现在还处于探索阶段，但你可以完成非常复杂的任务。比如，你可以给它两张图片，一张是你的客厅，另一张是一堆照片、纪念品或你想要摆放的物品，然后问它：“告诉我如何把这些东西布置起来。”或者你可以说：“我想让你展示一下，如果把这个放在这儿，把那个放在那儿，把这个放在左边，再把那个放在右边，会是什么样子。”模型真的能理解所有这些指令并执行出来。它的能力令人惊叹。所以我对人们即将发现的各种可能性感到兴奋不已。",
+   "ts": "00:07:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. All right. Well, good job. Good job team OpenAI. Let's get serious here and let's zoom out a little bit. The way I see it is you're chief product officer of maybe the most important company in the world right now. Just not to set the bar too high, but you guys are ushering in AI, AGI at some point, super intelligence at some point. No big deal. I have more questions for you than I've had for any other guest. Actually put out a call-out on Twitter and LinkedIn and my community just like what would you want to ask Kevin? And I had over 300 well-formed questions and we're going to go through every single one. So let's just get started. I'm just joking.",
+   "zh": "好的。嗯，干得好。OpenAI团队做得很棒。让我们严肃一点，稍微回顾一下大局。在我看来，您现在是全球最重要公司的首席产品官。别设定太高的标准，但你们正在引领人工智能、通用人工智能（AGI）以及未来某个时候的超级智能的发展。这没什么大不了的。我对您的提问比对其他嘉宾都多。我在推特、领英和我的社区发了征集问题，问大家想问凯文·布伦南什么问题。结果收到了300多个条理清晰的问题，我们会一一解答。所以让我们开始吧。只是开个玩笑。",
+   "ts": "00:08:11"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Cool.",
+   "zh": "不错。",
+   "ts": "00:08:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I picked out the best and there's a lot of stuff I'm really curious about.",
+   "zh": "我挑选了最精彩的问题，还有很多我也很好奇的。",
+   "ts": "00:08:46"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Well, it's 1 PM here. It doesn't get dark for a while, so let's do it.",
+   "zh": "嗯，现在是下午1点。这里天黑得很晚，所以我们开始吧。",
+   "ts": "00:08:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, here we go. Okay, so first of all, I'm just going to take notes here. When is AGI launching? When in December?",
+   "zh": "好的，开始吧。首先，我要在这里做笔记。AGI什么时候推出？12月份？",
+   "ts": "00:08:53"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I mean, we just launched a good ImageGen model. Does that count?",
+   "zh": "我是说，我们刚刚推出了一个不错的ImageGen模型。这算吗？",
+   "ts": "00:08:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's getting there. It's getting there.",
+   "zh": "它正在接近目标。",
+   "ts": "00:09:03"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "There's this quote I love, which is \"AI is whatever hasn't been done yet\" because once it's been done, when it kind of works, then you call it machine learning, and once it's kind of ubiquitous and it's everywhere, then it's just an algorithm. So I've always loved that we call things AI when they still don't quite work and then by the time it's like an AI algorithm that's recommending you follow, oh, that's just an algorithm, but this new thing, like self-driving cars, that's it. I think to some degree we're always going to be there and the next thing is always going to be AI and the current thing that we use every day and is just a part of our lives, that's an algorithm.",
+   "zh": "我喜欢这句话：“人工智能就是尚未实现的东西。”因为一旦实现了，当它能正常运作时，我们就称之为机器学习；当它无处不在时，就只是算法。所以我一直很喜欢我们在东西还没完全成熟时就称之为人工智能，而当它像推荐引擎一样被广泛应用时，人们又说这只是算法。但像自动驾驶汽车这样的新事物，大家就觉得理所当然了。",
+   "ts": "00:09:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's so interesting because in the Bay Area you see self-driving cars driving around and it's so normal now when four years ago and three years ago, you would've seen this and you'd be like, \"Holy shit, what is... We're in the future.\" And now we're just so take it for granted.",
+   "zh": "这很有趣。在湾区，你会看到自动驾驶汽车四处行驶，现在这已经很正常了。但四年前、三年前，你看到这些场景时，会惊呼：“天哪，这是什么……我们这是未来啊。”而现在我们却习以为常了。",
+   "ts": "00:09:46"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I mean there's something like that with everything. If I showed you... When GPT-3 launched, I wasn't at OpenAI then. I was just a user, but it was mind-blowing. And if I gave you GPT-3 now I just plugged that into ChatGPT for you and you started using it, you'd be like, \"What is this thing?\" It's like mess.",
+   "zh": "我是说，一切事物都存在类似的情况。如果我给你看……GPT-3推出时，我当时不在OpenAI工作。那时我只是个用户，但它的表现令人惊叹。现在如果我把GPT-3给你，你直接插入ChatGPT开始使用，你可能会说：“这是什么玩意儿？”简直一团糟。",
+   "ts": "00:10:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Flop, flop.",
+   "zh": "失败，失败。",
+   "ts": "00:10:22"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I had the same experience when I first got into a Waymo, your very first ride, at least my very first ride, my first 10 seconds in a Waymo, it starts driving and you're like, \"Oh my God, watch out for that bike.\" You're holding onto whatever you can. And then five minutes in, you've calmed down and you realize that you're getting driven around the city without a driver and it's working. You're just like, \"Oh my God, I am living in the future right now.\" And then another 10 minutes, you're bored, you're doing email on your phone, answering Slack messages, and suddenly this miracle of human invention is just an expected part of your life from then on. And there is really something in the way that we all are adapting to AI that's kind of like that. These miraculous things happen and computers can do something they've never been able to do before and it blows our mind collectively for a week and then we're like, oh, yeah. Oh, now it's just machine learning on its way to being an algorithm.",
+   "zh": "我第一次乘坐Waymo时也有同样的体验——至少我第一次乘坐时，刚坐进Waymo的头十秒，它就开始自动驾驶，你会惊呼：“天哪，小心那辆自行车。”你死死抓住能抓住的任何东西。五分钟后，你冷静下来，意识到自己正在无人驾驶的情况下在城市里穿行，而且一切运作正常。你会感叹：“天哪，我现在真的置身未来了。” 再过十分钟，你觉得无聊了，开始用手机处理邮件、回复Slack消息，从此这项人类发明的奇迹就成了你生活中的常态。其实我们所有人适应AI的过程都存在类似的阶段。这些奇迹般的技术变革发生了，计算机做到了前所未能做到的事情，全世界为之惊叹一周，然后我们就觉得，哦，对啊，现在这不过是机器学习走向算法的必经之路。",
+   "ts": "00:10:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The craziest thing about what you just shared actually is, I don't know, ChatGPT, which is now feels terrible. 3.5 was a couple years ago, and imagine what life will be like in a couple years from now. We're going to get to that, where things are going, what you think is going to be the next big leap. But I want to start with the beginning of your journey at OpenAI. So you worked at Twitter, you worked at Facebook, you worked at Planet, Instagram. At some point you got recruited to go and come work at OpenAI. I'm curious just what that story was like of the recruiting process of joining OpenAI as CPO. Is there any fun stories there?",
+   "zh": "你刚刚分享的最疯狂之处在于，我不知道，ChatGPT现在用起来体验糟糕透顶。3.5版本是几年前发布的，想象一下几年后生活会变成什么样。我们会探讨技术的发展方向，以及你认为下一个重大突破会是什么。但我想从你加入OpenAI的初期说起。你曾在Twitter、Facebook、Planet、Instagram工作过，最终被招募到OpenAI担任首席产品官。我很好奇加入OpenAI的招聘过程是怎样的？有没有什么有趣的故事？",
+   "ts": "00:11:23"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "If I'm remembering the timeline right, we communicated at Planet I was leaving and I was planning to just go take some time. I wasn't going to stop working, but I was also happy to take the summer. This was maybe April or something. I was like, cool, I'm going to have the summer with my kids. We're going to go to Tahoe or something and I'll actually get to hang out rather than what I usually do going up and down and all that. And then Sam and I had known each other lightly for a bunch of years and he's always involved in so many interesting things like companies building fusion and all these things. So he'd always been somebody that I would call occasionally if I was starting to think about my next thing because I like working on big tech forward, sort of next wave kind of things. (00:12:49): And so I called him and I think Vinod also helped to put us in touch again. And this time it wasn't like, \"Oh, you should go talk to these guys working on fusion.\" He said, \"Actually, we're thinking about something, you should come talk to us.\" I was like, \"Okay, that sounds amazing. Let's do it.\" And it goes really fast, really, really fast. I met most of the management team in a brief period of time, a few days, and they were telling me, 'Look, we're basically going to move as fast as we want to move. And if you talk to everyone, everyone likes you, you're ready to go.\" Sam came over for dinner and we had a great evening together just talking about OpenAI in the future and getting to know each other better. And at the end I was like, I was going to go in the next day for a bigger round of interviews and Sam was saying, \"Hey, it's going really well. We're really excited.\" (00:13:52): And I said, \"Cool. So how do I think about tomorrow?\" And he said, \"Oh, you'll be fine. Don't worry about it. And if it goes well, we're basically there.\" And so I go in the next day, meet a bunch of people, have a great time. I really enjoyed everybody I met with. In any interview, you can always second guess yourself like, oh, I shouldn't have said that thing or that thing I gave a bad answer on I wish I could redo, but I came away feeling like I think that went pretty well. And I was expecting to hear that weekend basically because they sort of set expectations as soon as if this goes well, we're ready to go. And I didn't hear anything. And then it was like Monday, Tuesday, Wednesday, I still didn't hear anything and I reached out to folks on the OpenAI side a couple of times, still nothing. (00:14:45): And I was like, \"Oh my God, I screwed it up. I don't know where I screwed it up, but I totally screwed it up. I can't believe it.\" And I was going back to Elizabeth, my wife and being like, \"What did I do? Where do you think I...\" Getting all crazy about it and then it's still nothing. And finally it was like nine days later, they finally got back to me and it turned out there was a bunch of stuff happening internally and this, that and the other thing, and there's just a million things happening. And they finally were like, \"Oh yeah, that went well. Let's do this.\" And I was like, \"Oh, okay, cool, let's do it.\" But it was nine days of agony and they were just super busy on some internal stuff and there I was fretting every single day and re-going over every line of our interview process.",
+   "zh": "要是我没记错时间线的话，当时我们在Planet上聊到我要离开了，计划休息一段时间。虽然不会停止工作，但也乐意享受这个暑假。大概是在四月左右，我当时想，太棒了，我能和孩子们共度夏天。我们会去太浩湖之类的地方，我终于能真正放松了，而不是像往常那样忙忙碌碌。（00:12:49）那时我和山姆已经认识多年，他一直参与许多有趣的项目，比如研发核聚变技术的公司之类的。所以每次我考虑下一步事业时，都会偶尔联系他，因为我喜欢参与前沿科技、开创未来浪潮的项目。（00:13:52）这次他主动联系我，文诺也帮忙牵线搭桥。这次他不再说\"你应该去和那些研究核聚变的人聊聊\"，而是说\"我们正在筹备一个项目，你应该来加入我们。\"我一听，\"好啊，听起来太棒了。那就来吧。\"整个过程进展得极快，非常快。短短几天内，我见了大部分管理团队成员，他们对我说：\"看吧，我们想怎么快就怎么快。如果你和每个人都聊过，他们都很喜欢你，那你就可以加入了。\"山姆来家里共进晚餐，我们聊得很愉快，畅谈OpenAI的未来和彼此的了解。临走时，我本想第二天去参加下一轮面试，但山姆说：\"进展得很顺利。我们都很兴奋。\"（00:14:45）我问：\"那明天我该怎么准备？\"他说：\"别担心，放轻松。如果顺利，我们就定了。\"第二天我去见了很多人，也很愉快。我很喜欢见到的每一个人。在面试中，你总会自我怀疑，比如\"我不该说那句话\"\"我回答得不好，真希望能重来\"，但整体感觉不错。他们本说周末会给消息，但一直没动静。周一、周二、周三，还是没消息，我多次联系OpenAI那边，依然石沉大海。（00:15:46）我心想：\"天啊，我搞砸了。我不知道哪里出错了，但肯定是我搞砸了。真不敢相信。\"回到家，我妻子伊丽莎白问：\"你怎么了？\"我抓耳挠腮，整天焦虑不安，最后还是一无所获。九天后，他们终于回复，说内部有各种事情缠身，忙得不可开交。我又纠结了一天，又重温了整个面试过程。",
+   "ts": "00:12:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It makes me think about when you're dating someone and you've texted them and you're not hearing anything back, you assume something is wrong.",
+   "zh": "这让我想起约会时发消息对方不回，你会觉得是不是出问题了。",
+   "ts": "00:15:33"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, totally.",
+   "zh": "是啊，没错。",
+   "ts": "00:15:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They might just be busy.",
+   "zh": "他们可能只是太忙了。",
+   "ts": "00:15:41"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I have a hard time about it still.",
+   "zh": "我对此至今仍感头疼。",
+   "ts": "00:15:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's wild. I love that it worked out. And I guess the lesson there is don't jump to conclusions.",
+   "zh": "太不可思议了。真高兴事情最终解决了。我想从中得到的教训就是别急着下结论。",
+   "ts": "00:15:47"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. Have a little bit of chill.",
+   "zh": "是啊。要保持冷静。",
+   "ts": "00:15:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of that, I want to chat about what it's just like to be inside the center of the storm. Again, you work at a lot of, let's say traditional companies even though they're not that traditional, Twitter and Instagram and Facebook and Planet, and now you work at OpenAI. I'm curious, what is most different about how things work in your day-to-day life at OpenAI?",
+   "zh": "说到这，我想聊聊身处风暴中心是什么感觉。再说吧，你在很多传统公司工作，比如推特、Instagram、脸书和Planet，现在又在OpenAI工作。我很好奇，在OpenAI日常工作中，最显著的不同之处是什么？",
+   "ts": "00:15:59"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I think it's probably the pace. Maybe it's two things. One is it's the pace. The second is everywhere I've ever worked before this, you kind of know what technology you're building on. So you spend your time thinking about what problems are you solving? Who are you building for? How are you going to make their lives better? How are you going to... Is this a big enough problem that you're going to be able to change habits? Do people care about this problem being solved? All those good product things. But the stuff that you're building on is kind of fixed. You're talking about databases and things and I bet the database you used this year is probably 5% better than the database you used two years ago, but that's not true at all with AI. It's like every two months computers can do something they've never been able to do before and you need to completely think differently about what you're doing. (00:17:10): There's something fundamentally interesting about that makes life fun here. There's also something we will maybe talk about evals later, but it also really, in this world of... Everything we're used to with computers is about giving a computer very defined inputs. If you look at Instagram for example, there are buttons that do specific things and you know what they do. And then when you give a computer defined inputs, you get very defined outputs. You're confident that if you do the same thing three times, you're going to get the same output three times. LLMs are completely different than that. They're good at fuzzy subtle inputs. Then all the nuances of human language and communication, they're pretty good at. And also they don't really give you the same answer. You probably get spiritually the same answer for the same question, but it's certainly not the same set of words every time. And so you're much more, it's fuzzier inputs and fuzzier outputs. And when you're building products, it really matters whether there's some use case that you're trying to build around. (00:18:16): If the model gets it right 60% of the time, you build a very different product than if the model gets it right 95% of the time versus if the model gets it right 99.5% of the time. And so there's also something that you have to get really into the weeds on your use case and the evals and things like that in order to understand the right kind of product to build. So that is just fundamentally different. If your database works once, it works every time. And that's not true in this world.",
+   "zh": "我觉得主要在于工作节奏。或许有两个方面。一是工作节奏。二是我之前工作的公司，你都清楚所基于的技术平台。所以你会思考要解决什么问题？为谁开发？如何让他们的生活更美好？这个问题是否足够重要，能改变人们的习惯？人们是否关心这个问题的解决？这些都是优秀产品该考虑的。但底层技术是固定的。比如你用的数据库，今年可能比两年前只提升了5%，但AI领域完全不是这样。每两个月计算机就能做到以前从未做到的事，你必须彻底重新思考自己的工作方式。（00:17:10）这其中的根本趣味性让工作充满乐趣。还有一些我们稍后会谈到的评估问题，但最重要的是，在这个世界里……我们习惯的计算机技术都是基于明确的输入。如果看Instagram，有特定的按钮，你知道它们的功能。当你给计算机明确的输入时，就能得到明确的输出。你可以确信，如果三次做同样的事，结果会一致。但LLM完全不同。它们擅长处理模糊的微妙输入，比如人类语言和交流中的各种细微差别。它们给出的答案也不尽相同。面对同一个问题，你可能得到大致相同的回答，但每次用词肯定不同。所以工作时，你必须深入研究应用场景和评估指标，才能明白该打造什么样的产品。这就是根本的不同。传统数据库只要能正常运行一次，就能一直正常运行。但在AI领域可不是这样。",
+   "ts": "00:16:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's actually follow this thread on evals. I definitely wanted to talk about this. We had this legendary panel at the Lenny & Friends Summit. It was you and Mike Krieger and Sarah Guo moderating.",
+   "zh": "咱们还是接着聊评估模型这事吧。我特别想跟大家分享一下这个话题。在Lenny & Friends峰会上，我们那场传奇的讨论环节真是太精彩了。当时主持讨论的是你、Mike Krieger和Sarah Guo。",
+   "ts": "00:18:45"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "That was fun.",
+   "zh": "那场讨论太有意思了。",
+   "ts": "00:18:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So fun. The thing that I heard that kind of stuck with people from that panel was a comment you made where you said that writing evals is going to become a core skill for product managers, and I feel like that probably applies further than just product managers. A lot of people know what evals are. A lot of people have no idea what I'm talking about. So could you just briefly explain what is an eval and then just why do you think this is going to be so important for people building products in the future?",
+   "zh": "太有意思了。在那场讨论中，有个观点让我印象特别深刻，就是你提到写评估报告将成为产品经理的核心技能。我觉得这不仅适用于产品经理，很多人都听说过评估报告，但还有更多人完全不了解这是什么。所以能否请你简单解释一下什么是评估报告，以及为什么你认为这对未来开发产品的人如此重要？",
+   "ts": "00:18:58"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, sure. I think the easiest way to think about it is almost like a quiz for a model, a test to gauge how well it knows a certain set of subject material or how good it is at responding to a certain set of questions. So in the same way you take a calculus class and then you have calculus tests that see if you've learned what you're supposed to learn. You have evals that test how good is the model at creative writing? How good is the model at graduate level science? How good is the model at competitive coding? And so you have these set of evals that basically perform as benchmarks for how smart or capable the model is.",
+   "zh": "好的，没问题。最简单理解的方式就是把评估报告看作是对模型进行测试，评估它对特定知识的掌握程度，或者它回答特定问题的能力如何。就像你学习微积分课程后，会通过考试来检验是否掌握了应学知识一样。评估报告也能测试模型在创意写作方面的能力、在研究生级别科学知识方面的掌握程度，以及在竞技编程方面的水平。这些评估报告本质上就是衡量模型智能程度或能力的基准。",
+   "ts": "00:19:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is it a simple way to think about it, like unit tests for model?",
+   "zh": "这么理解简单吗？就像模型的单元测试？",
+   "ts": "00:20:04"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, unit tests, tests in general for models. Totally.",
+   "zh": "没错，单元测试，或者说对模型进行的常规测试。完全正确。",
+   "ts": "00:20:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great, great. Okay. And then why is this so important for people that don't totally understand what the hell's going on here with evals? Why is this so key to building AI products?",
+   "zh": "太棒了，太棒了。好的。那对于那些不太清楚评估报告到底怎么回事的人来说，这为什么如此重要？为什么这对开发AI产品至关重要？",
+   "ts": "00:20:10"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Well, it gets back to what I was saying. You need to know whether your model is going to... There are certain things that models will get right. 99.95% of the time and you can just be confident. There are things that they're going to be 95% right on and things they're going to be 60% right on. If the model's 60% right on something, you're going to need to build your product totally differently. And by the way, these things aren't static either. So a big part of evals is if you know you're building for some use case. So let's take our deep research product, which is one of my favorite things that we've released maybe ever. The idea is with deep research for people who haven't used it, you can give ChatGPT now an arbitrarily complex query. It's not about returning you an answer from a search query, which we can also do. (00:21:10): It's here's a thing that if you were going to answer it yourself, you'd go off and do two hours of reading on the web and then you might need to read some papers and then you would come back and start writing up your thoughts and realize you had some gaps in your thinking. So you go out and do more research. It might take you a week to write some 20 page answer to this question. You can let ChatGPT just like chug for you for 25, 30 minutes. It's not the immediate answers you're used to, but it might go work for 25, 30 minutes and do work that would've taken you a week. So as we were building that product, we were designing evals at the same time as we were thinking about how this product was going to work and we were trying to go through hero use cases. (00:21:57): Here's a question you want to be able to ask. Here's an amazing answer for that question. And then turning those into evals and then hill climbing on those evals. So it's not just that the model is static and we hope it does okay on a certain set of things, you can teach the model. You can make this a continuous learning process. And so as we were fine-tuning our model for deep research to be able to answer these things, we were able to test is it getting better on these evals that we said were important measures of how the product was working? And it's when you start seeing that and you start seeing performance on evals going up, you start saying, \"Okay, I think we have a product here.\"",
+   "zh": "嗯，这就回到了我之前说的。你需要知道你的模型是否能……有些事情模型能做得很准确。99.95%的情况下你可以放心，另一些事情模型能做到95%准确，还有些事情只能做到60%准确。如果模型对某个问题的准确率只有60%，你就需要完全重新设计你的产品了。顺便说一句，这些标准也不是一成不变的。所以评估阶段很重要，比如如果你知道自己要为某个用例开发产品。就拿我们的深度研究产品来说吧，这是我们推出的最棒的产品之一。这个产品的核心理念是，针对那些从未使用过它的人，你现在可以向ChatGPT提出任意复杂的查询。这不是简单的搜索返回答案（我们也能做到），而是假设你要自己回答这个问题时，你可能会先花两个小时在网上查资料，然后可能需要阅读一些论文，最后再开始整理思路，发现自己的想法有漏洞，于是你又去进行更多研究。写一份20页的回答可能需要一周时间。而你可以让ChatGPT花25到30分钟就能处理这个问题。虽然它给出的不是你习惯的即时答案，但它可能花25到30分钟就能完成原本需要一周才能完成的工作。所以在开发这个产品时，我们一边设计评估标准，一边思考产品的运作方式，还不断尝试关键用例。（00:21:10）这里有个你想问的问题。这里有个很棒的答案。然后把这些转化为评估标准，再在这些评估标准上不断优化。所以模型不是一成不变的，我们希望它在某些方面表现出色，你可以教会模型，让这成为一个持续学习的过程。在我们为深度研究产品微调模型以便回答这些问题时，我们能够测试它在我们定义的重要评估标准上是否有所提升。当你开始看到评估结果上升时，你就会说：“好吧，我觉得我们有了一个产品了。”",
+   "ts": "00:20:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You made a kind of a comment along these same lines around evals that AI is almost capped in how amazing it can be by how good we are at evals. Does that resonate? Any more thoughts along those lines?",
+   "zh": "你之前也提到过类似的观点，即AI的表现上限取决于我们评估的水平。这点你认同吗？对此你还有什么其他想法吗？",
+   "ts": "00:22:35"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I mean, these models are their intelligences and intelligence is so fundamentally multidimensional so you can talk about a model being amazing at competitive coding, which may not be the same as that model being great at front-end coding-",
+   "zh": "我的意思是，这些模型的智能是有限的，而智能本身是多维度的。所以你可以说一个模型在竞技编程方面很出色，但这可能和它在前端编程方面的表现完全不同。",
+   "ts": "00:22:48"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "... may not be the same as that model being great at front-end coding or back-end coding or taking a whole bunch of code that's written in COBOL and turning it into Python. And that's just within the software engineering world. So I think there's a sense in which you can think of these models as incredibly smart, very factually aware intelligences, but still most of the world's data, knowledge, process is not public. It's behind the walls of companies or governments or other things. And same way, if you were going to join a company, you would spend your first two weeks onboarding. You'd be learning the company-specific processes. You'd get access to company-specific data. The models are smart enough, you can teach them anything, but they need to have the raw data to learn from. (00:23:58): So there's a sense in which I think the future is really going to be incredibly smart, broad-based models that are fine-tuned and tailored with company-specific or use case-specific data so that they perform really well on company-specific, or use case-specific things. And you're going to measure that with custom evals. So what I was referring to is just like these models are really smart, you need to still teach them things if the data's not in their training set, and there's a huge amount of use cases that are not going to be in their training set because they're relevant to one industry or one company.",
+   "zh": "可能这些模型擅长前端编码或后端编码，或者能将用COBOL编写的代码转换成Python代码，但这仅限于软件工程领域。所以我认为，从某种意义上讲，你可以将这些模型视为极其智能、对事实高度敏感的智能体，但世界上绝大多数数据、知识和流程并非公开可用——它们被封存在公司、政府或其他机构的内部系统中。同样，如果你加入一家新公司，入职的前两周通常会接受公司特定流程的培训，获取专有数据。这些模型固然足够智能，你可以教会它们任何知识，但它们需要原始数据来进行学习。（00:23:58）因此，我认为未来将出现极其智能、广泛适用的模型，通过公司或场景特定的数据进行微调和定制，从而在特定领域或场景中表现出色。评估这些模型的标准将是定制化的评估指标。我所说的意思是，尽管这些模型非常智能，但如果数据不在它们的训练集中，就需要手动教导它们。许多用例由于与特定行业或公司相关，根本不会出现在训练集中。",
+   "ts": "00:23:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm just going to keep following the thread that you're leading us down, but I'm going to come back because I have more questions around some of these things. So you came to a space that I think a lot of AI founders are thinking about is just, where's OpenAI not going to come squash me in the future? Or one of the other foundational models. So it's unclear to a lot of people just like, \"Should I build a startup in this space or not?\" Is there any advice you have or any guidance for where you think OpenAI, or just foundational models in general likely won't go and where you have an opportunity to build a company?",
+   "zh": "我会继续跟随你提到的思路，但稍后我还有更多问题需要探讨。显然，许多AI创始人都在思考一个问题：未来OpenAI或其他基础模型会如何压制我的创新？因此，许多人对此感到困惑，比如“我是否应该在这个领域创业？”你能否给出一些建议，指出OpenAI或其他基础模型不太可能涉足的领域，以及创始人有机会创办公司的领域？",
+   "ts": "00:24:40"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "So this is something that Ev Williams used to say back at Twitter that's always stuck with me, which is, \"No matter how big your company gets, no matter how incredible the people are, there are way more smart people outside your walls than there are inside your walls.\" And that's why we are so focused on building a great API. We have 3 million developers using our API. No matter how ambitious we are, how big we grow, by the way, we don't want to grow super big, there are so many use cases, places in the world where AI can fundamentally make our lives better. We're not going to have the people. We're not going to have the know-how to build most of these things. (00:25:55): And I think, like I was saying, the data is industry-specific, use case-specific, behind certain company walls, things like that. And there are immense opportunities in every industry and every vertical in the world to go build AI-based products that improve upon the state of the art. And there's just no way we could ever do that ourselves. We don't want to. We if we did want to, and we're really excited to power that for 3 million-plus developers and way more in the future.",
+   "zh": "这让我想起埃文·威廉姆斯（Ev Williams）在Twitter上常说的一句话：“无论你的公司规模多大，无论团队多么出色，公司外部总有比内部更聪明的人才。”正因如此，我们致力于打造强大的API。我们的API已有300万开发者在使用。无论我们多么雄心勃勃、多么渴望扩张（顺便说一句，我们并不追求无止境的增长），世界上总有无数用例和领域，AI能够从根本上改善人们的生活。但我们永远无法独自完成这些任务。我们也不想这样做。如果我们真心想做，并且我们对此充满热情，我们将为超过300万的开发者赋能，并在未来吸引更多用户。",
+   "ts": "00:25:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Coming back to your earlier point about the tech changing constantly and getting faster, not exactly knowing what you'll have by the time you launch something in terms of the power, the model. I'm curious what allows you to ship quickly and consistently in such great stuff? And it sounds like one answer is bottoms-up empowered teams versus a very top-down roadmap that's planned out for a quarter. What are some of those things that allow you to ship such great stuff so often, so quickly?",
+   "zh": "回到你之前提到的技术不断变化且发展迅速的话题，以及在推出产品时无法准确预知其算力和模型的情况。我很好奇，是什么让你们能如此高效、稳定地推出优质产品？听起来一个关键点在于自下而上赋权团队，而不是从上而下制定季度路线图。还有哪些因素能让你们频繁、高效地交付优质成果？",
+   "ts": "00:26:24"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. I mean, we try and have a sense of where we're trying to go, point ourselves in a direction so that we have some rough sense of alignment. Thematically, I don't for second, and we do quarterly roadmapping. We laid out a year-long strategy. I don't for a second believe that what we write down in these documents is what we're going to actually ship three months from now, let alone six or nine. But that's okay. I think it's like an Eisenhower quote, \"Plans are useless. Planning is helpful,\" which I totally subscribe to, especially in this world. It's really valuable. If you think about quarterly road roadmapping for example, it's really valuable to have a moment where you stop and go, \"Okay. What did we do? What worked? What went well? What didn't go well? What did we learn and now what do we think we're going to do next?\" (00:27:44): And by the way, everybody has some dependencies. You need the infrastructure team to do the following things, partnership with research here. So you want to have a second to check your dependencies, make sure you're good to go and then start executing. We try and keep that really lightweight because it's not going to be right. We're going to throw it out halfway because we will have learned new things. So the moment of planning is helpful even if it's only partially. (00:28:12): So I think just expecting that you're going to be super agile and that there's no sense writing a three month roadmap, let alone a year long roadmap because the technology's changing underneath you so quickly. We really do try and go very strongly bottoms up, subject to our overall directional alignment. We have great people. We have engineers and PMs and designers and researchers who are passionate about the products they're building and have strong opinions about them and are also the ones building them. So they have a real sense of what the capabilities are too, which is super important. (00:28:49): So I think you want to be more bottoms up in this way. So we operate that way. We are happy making mistakes. We make mistakes all the time. It's one of the things I really appreciate about Sam. He pushes us really hard to move fast, but he also understands that with moving fast comes, we didn't quite get this right or that we launched this thing, it didn't work. We'll roll it back. Look at our naming. Our naming is horrible.",
+   "zh": "是的。我们的确会努力明确前进方向，保持大致的战略一致性。从主题层面讲，我毫不怀疑季度路线图的重要性。我们制定了全年战略，但绝不认为三个月后、六个月后甚至九个月后就能完全按照这些文档交付产品。这没关系。我特别认同艾森豪威尔的名言：“计划是无用的，规划才有价值。” 在当今世界，这句话尤其适用。比如季度路线图环节，就是个绝佳的反思时刻：回顾过去，评估成果，剖析成功与失败，汲取经验，进而规划未来。（00:27:44）此外，团队间存在诸多依赖关系。比如基础设施团队需要与研究部门合作。关键在于，得先审视这些依赖关系，确保万无一失，再着手执行。我们尽可能保持流程的轻量化，因为规划难免会出错。中途可能会推倒重来，但这正是规划的价值所在。（00:28:12）所以别指望能做到完美敏捷，也没必要写三个月路线图，更别提一年。技术迭代太快，规划总会滞后。我们坚持自下而上的方向，紧密围绕整体战略方向。我们拥有优秀的团队——工程师、产品经理、设计师和研究人员，他们对产品充满热情，深知技术边界，这对决策至关重要。（00:28:49）所以我们要坚持自下而上的理念。我们的工作方式就是如此。我们乐于接受失败，经常犯错。这也是我特别欣赏山姆的一点。他既推动我们快速行动，又理解快速行动可能导致的失误。比如我们的命名系统就很糟糕。",
+   "ts": "00:26:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That was a lot of questions people had for you. Model names, yeah.",
+   "zh": "人们对你的提问可真多啊。",
+   "ts": "00:29:14"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "It's absolutely atrocious and we know it, and we will get around to fixing it at some point, but it's not the most important thing and so we don't spend a lot of time on it.",
+   "zh": "确实糟糕透顶，我们也知道，但这不是最重要的事，所以没花太多心思。",
+   "ts": "00:29:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But it also shows you how it doesn't matter. Again, ChatGPT the most popular, fastest growing product in history, it's the number one AI, API and model. So clearly it doesn't matter that much.",
+   "zh": "但这也说明没关系。再说ChatGPT，史上最受欢迎、增长最快的产品，头号AI、API和模型。显然这并不重要。",
+   "ts": "00:29:27"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "And we name things like o3 mini high.",
+   "zh": "还有我们给产品起名，比如o3 mini high。",
+   "ts": "00:29:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Man, I love it. Okay. So you talked about roadmapping and bottoms up and I'm really curious, is there a cadence or a ritual of aligning with you or Sam or you review everything that's going out? Is there a meeting every week or every month where you guys see what's happening?",
+   "zh": "天啊，我太喜欢这个了。好的。你之前提到了路线图和自下而上，我真的很好奇，是否有某种节奏或流程来与你或山姆对齐，或者你会审查所有即将发布的内容？每周或每月是否会开会回顾进展？",
+   "ts": "00:29:46"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "On key projects. So we do product reviews and things like that, like you would expect. There isn't a ritual because there isn't... I would never want us to be blocked on launching something, waiting for a review with me or Sam, if we can't get there. If I'm traveling or Sam's busy or whatever, that's a bad reason for us not to ship. So obviously for the biggest, most high priority stuff, we have a pretty close beat on it, but we really try not to, frankly. We want to empower teams to move quickly, and I think it's more important to ship and iterate. (00:30:42): So we have this philosophy, we call iterative deployment, and the idea is we're all learning about these models together. So there's a real sense in which it's way better to ship something even when you don't know the full set of capabilities and iterate together in public. And we co-evolve together with the rest of society as we learn about these things and where they're different and where they're good and bad and weird. I really like that philosophy. (00:31:12): I think the other thing that ends up being a part of our product philosophy is the sense of model maximalism. The models are not perfect. They're going to make mistakes. You could spend a lot of time building all kinds of different scaffolding around them. And by the way, sometimes we do because sometimes there are kinds of errors that you just don't want to make, but we don't spend that much time building scaffolding around the parts that don't match that because our general mindset is in two months there's going to be a better model and it's going to blow away whatever the current set of limitations are. (00:31:52): So if you're building, and we say this to developers too, if you're building and the product that you're building is right on the edge of the capabilities of the models, keep going, because you're doing something right because you give it another couple months and the models are going to be great, and suddenly the product that you have that just barely worked is really going to sing. And that's how you make sure that you're really pushing the envelope and building new things.",
+   "zh": "对于关键项目。我们会进行产品评审之类的活动，这很正常。但其实并没有固定的流程，因为我们不想因为等待我的评审或山姆的审批而延误发布。如果我出差了，或者山姆太忙之类的，这都不是不发布的理由。所以对于最重要的高优先级项目，我们会密切关注进展，但说实话，我们尽量避免这种做法。我们希望赋予团队快速行动的权力，我认为快速发布和迭代更重要。（00:30:42）：我们秉持迭代式部署的理念，核心思想是我们都在共同探索这些模型。所以即使你不完全了解某种模型的全部功能，尽快上线并在公开场合迭代，效果也要好得多。当我们了解这些模型的差异、优缺点和怪异之处时，我们会与社会共同进化。我真的很喜欢这种理念。（00:31:12）：我们产品理念的另一个核心是模型最大化主义。模型并非完美无缺，它们会犯错。你可能会花大量时间围绕它们搭建各种框架。说实话，有时我们确实会这么做，因为有些错误是必须避免的，但对于不符合模型标准的部分，我们不会花太多精力去搭建框架，因为我们相信两个月后就会有更好的模型问世，届时它将彻底突破现有局限。（00:31:52）：如果你正在开发产品（我们也对开发者说过），如果你开发的产品刚好处于模型能力边缘，那就继续推进，因为你做得对。再等几个月，模型就会大放异彩，而你那个勉强能用的产品最终会大放光彩。这就是如何确保你真正突破极限，创造新事物的方法。",
+   "ts": "00:30:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I had the founder of Bolt on the podcast, StackBlitz is the company name, and he shared this story that they've been working on this product for seven years behind the scenes and it was failing. Nothing was happening. And then all of a sudden it was, sorry to mention a competitor, but Claude came out or a Sonnet 3.5 came out and all of a sudden everything worked and they've been building all this time and finally it worked. And I hear that a lot with YC, just like things that never were possible now are just becoming possible every few months with the updates to the models.",
+   "zh": "我曾在播客上邀请过Bolt的创始人，公司名叫StackBlitz。他分享了一个故事，他们七年来一直在幕后开发这个产品，但一直失败。毫无进展。然后突然间，Claude推出了Sonnet 3.5，或者某个竞争对手的产品发布了，突然间一切都正常了。他们一直努力，最终成功了。我经常在YC听到类似的故事，比如之前不可能的事情，现在每隔几个月随着模型更新就变得可能了。",
+   "ts": "00:32:19"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, absolutely.",
+   "zh": "是的，绝对的。",
+   "ts": "00:32:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me actually ask this, I wasn't planning to ask this, but I'm curious if you have any quick thoughts just why is Sonnet so good at coding, and thoughts on your stuff getting as good and better at actual coding?",
+   "zh": "说实话，我本没打算问这个，但我很好奇为什么Sonnet在编码方面如此出色，以及你们的产品在实际编码方面能否变得同样优秀和更出色？",
+   "ts": "00:32:50"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. I mean, kudos to Anthropic. They've built very good coding models. No doubt. We think that we can do the same. Maybe by the time this podcast has shipped, we'll have more to say, but either way, all credit to them. I think intelligence is really multi-dimensional and so I think the model providers... It used to be that OpenAI had this massive model lead, 12 months or something ahead of everybody else. That's not true anymore. I like to think we still have a lead. I'd argue that we do, but it's certainly not a massive one. And that means that there are going to be different places where the Google models are really good or where Anthropic models are really good, or where we're really good and our competitors are like, \"We got to get better at that.\" And it actually is easier to get better at a certain thing once someone's proved it possible than it is to forge a path through the jungle and doing something brand new. (00:34:03): So I just think as an example, it was like nobody could break 4 minutes in the mile, and then finally somebody did and the next year 12 more people did it. I think there's that all over the place and it just means that competition is really intense, and consumers are going to win and developers are going to win and businesses are going to win in a big way from that. It's part of why the industry moves so fast, but all respect to the other big model providers. Models are getting really good. We're going to move as fast as we can and I think we've got some good stuff coming.",
+   "zh": "是啊。我是说，Anthropic干得很棒。他们构建了非常出色的编码模型，这毫无疑问。我们认为自己也能做到这一点。或许等这期播客播出时，我们会有更多要说的，但无论如何，都要向他们致敬。我认为智能是多维度的，因此模型提供商……过去OpenAI曾拥有巨大的模型领先优势，比其他公司领先12个月之类的。但这种情况已不复存在。我倾向于认为我们仍有领先优势。我敢说我们确实有，但肯定不算巨大。这意味着在某些方面，谷歌模型表现出色，在另一些方面Anthropic模型表现出色，还有些地方我们表现优异，而竞争对手则会说：“我们必须在这方面做得更好。”实际上，当有人证明某件事可行时，比起在丛林中开辟新路径，要想在某个特定领域取得进步要容易得多。（00:34:03）：所以我举个例子，比如过去没人能在一英里赛跑中突破4分钟大关，但最终有人做到了，次年又有12个人做到了。我认为这种情况随处可见，这意味着竞争异常激烈，消费者、开发者和企业都将从中大获其利。这也是这个行业发展如此迅速的部分原因，但还是要向其他大型模型提供商致敬。模型正变得越来越出色。我们会尽可能快地推进，我认为我们即将推出一些很棒的成果。",
+   "ts": "00:33:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Exciting. This makes me also think about, in many ways other models are better at certain things, but somehow ChatGPT is the... If you look at all the awareness numbers and usage numbers, it's like no matter where you guys are in the rankings, people seem to just think of AI ChatGPT almost as the same. What do you think you did right to win in the consumer mindset, at least at this point and awareness in the world?",
+   "zh": "太令人兴奋了。这让我也思考，尽管其他模型在某些方面更出色，但ChatGPT似乎还是……看看所有认知度和使用率数据，无论你们在排名中的位置如何，人们似乎都把AI和ChatGPT视为同义词。你们认为在消费者心目中获胜的关键因素是什么，至少在当下和全球认知度方面？",
+   "ts": "00:34:36"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I think being first helps, which is one of the reasons why we're so focused on moving quickly. We like being the first to launch new capabilities. Things like deep research. Our models, they can do a lot of things. So they can take real-time video input, you have speech to speech, you can do speech to text and text to speech. They can do deep research. They can operate on a canvas, they can write code. So ChatGPT can be this one- stop-shop where all the things that you want to do are possible. And as we go forward in it, we have more agentic tools like Operator where it's browsing for you and doing things for you on the web, more and more you're going to be able to come to this one place to ChatGPT, give it instructions and have it accomplish real things for you in the world. There's something fundamentally valuable in that. So we think a lot about that. We try to move really fast so that we are always the most useful place for people to come to.",
+   "zh": "我认为先发优势有所帮助，这也是我们为何如此专注于快速行动的原因之一。我们喜欢成为首批推出新功能的公司。比如深度研究。我们的模型能做很多事情。它们可以接收实时视频输入，进行语音转语音和语音转文本处理，还能进行深度研究。它们可以在画布上操作，编写代码。因此，ChatGPT可以成为一站式平台，满足你想做的所有事情。随着我们的推进，我们还有更多智能工具，比如Operator，它能为你浏览网页、在网上帮你做事。你将越来越能够来到ChatGPT这个平台，提供指令，让它为你完成现实世界中的任务。这其中有非常宝贵的价值。因此我们对此进行了深入思考。我们努力快速行动，以便始终成为人们最常使用的平台。",
+   "ts": "00:35:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What would you say is the most counterintuitive thing that you've learned after building AI products or working at OpenAI, something that's just like, \"I did not expect that?\"",
+   "zh": "在开发AI产品或在OpenAI工作后，你学到的最违背直觉的东西是什么？就是那种“我完全没想到”的情况。",
+   "ts": "00:36:04"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I don't know, maybe I should have expected this, but one of the things that's been funny for me is the extent to which you're trying to figure out how some product should work with AI, or even why some AI thing happens to be true, you can often reason about it the way you would reason about another human and it works. So maybe a couple examples. When we were first launching our reasoning model, we were the first to build a model that could reason, that could, instead of giving you just a quick system one answer right away to every question you asked, it was the third Emperor of the Holy Roman Empire, here's an answer. (00:36:59): You could ask it hard questions and it would reason. The same way that if I asked you to do a crossword puzzle, you couldn't just snap fill in everything. You would be, \"Well, okay. On this one across, I think it could be one of these two, but that means there's an A here. So that one has to be this, away, back track, step-by-step build up from where you are.\" Same way you answer any difficult logistical problem, any scientific problem. So this reasoning breakthrough was big, but it was also the first time that a model needed to sit and think. And that's a weird paradigm for a consumer product. You don't normally have something where you might need to hang out for 25 seconds after you ask a question. (00:37:40): So we were trying to figure out what's the UI for this? With deep research where the model's going to go and think for 25 minutes sometimes, it's actually not that hard because you're not going to sit and watch it for 25 minutes. You're going to go do something else. You're going to go to another tab or go get lunch or whatever, and then you'll come back and it's done when it's like 20, 25 seconds or 10 seconds, it's a long time to wait, but it's not long enough to go to do something else. (00:38:09): So you can think, if you asked me something that I needed to think for 20 seconds to answer, what would I do? I wouldn't just go mute and not say anything and shut down for 20 seconds and then come back. So we shouldn't do that. We shouldn't just have a slider sitting there. That's annoying. But I also wouldn't just start babbling every single thought that I had. So we probably shouldn't just expose the whole chain of thought as the model's thinking, but I might go like, \"That's a good question. All right.\" I might approach it like that and then think. You're maybe giving little updates and that's actually what we ended up shipping. (00:38:49): You have similar things where you can find situations where you get better thinking sometimes out of a group of models that all try and attack the same problem, and then you have a model that's looking at all their outputs and integrating it and then giving you a single answer at the end. I mean, sounds a little bit like brainstorming. I certainly have better ideas when I get in a room and brainstorm with other people because they think differently than me. So anyways, there's just all these situations where you can actually reason about it like a group of humans or an individual human and it works, which I don't know, maybe I shouldn't have been surprised but I was.",
+   "zh": "我也不知道，或许我早该预料到这一点，但让我觉得有趣的是，你们试图弄清楚某个产品如何与人工智能协同运作，甚至探究某些人工智能现象背后的逻辑时，往往会像推理人类行为一样去推理。这里举几个例子。当我们首次推出推理模型时，我们是首批构建能进行推理的模型的团队。与传统的快速回答系统不同，这个模型能真正思考用户的问题。比如当你问“罗马帝国第三任皇帝是谁？”时，它不会直接给出答案，而是会深入思考：“嗯，可能是A或B，但如果选A，那这里就必须有字母A。所以应该选B。”这就像解填字游戏时，你不会一下子填满所有空格，而是逐步推理，最终得出正确答案。这种推理突破意义重大，但这也是首个需要让模型停下来思考的案例。对于消费级产品来说，这确实是个奇怪的范式——用户提问后，通常不会等25秒才得到答案。  \n\n接下来我们要考虑用户界面设计。面对需要模型深思熟虑25分钟的场景，设计UI其实不难，因为用户不会一直盯着看。相反，他们会去处理其他任务，比如切换标签页、吃午饭等。当思考完成后，用户可能只需等待20秒、25秒或10秒，虽然时间较长，但也足够完成其他操作。  \n\n如果让你思考一个需要20秒才能回答的问题，你会怎么做？你不会沉默25秒然后突然恢复正常。这就是我们不该做的。我们不能直接展示模型的整个推理过程，那样太烦人。但我们也不会把每个想法都大声说出来。可能我们应该先说“这问题不错”，然后再思考。用户可能需要逐步获得反馈，这正是我们最终实现的交互方式。  \n\n还有类似的场景，比如让多个模型共同解决同一问题，之后再由一个模型整合所有输出并给出最终答案。这听起来有点像头脑风暴。我在与他人头脑风暴时，确实能获得更好的灵感，因为他们能提供不同视角。总之，在许多情况下，用户可以像人类团队或单个个体一样进行推理，这一点让我感到惊喜，或许我本不该感到惊讶，但事实如此。",
+   "ts": "00:36:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so interesting because when I see these models operate, I never even thought about you guys designing that experience. To me, it just feels like this is what the LLM does. It just sits there and tells me what it's thinking. And I love this point you're making of let's make it feel like a human operating and well, how does a human operate? Well, they just talk aloud. They think, here's the thing I should explore. And I love that deep sequence to the extreme of that where they're just like, \"Here's everything I'm doing and thinking.\" And people actually like that too, I guess. Was that surprising to you, \"Maybe that could work too. People seem to like everything?\"",
+   "zh": "这真的很有趣，因为当我看到这些模型运行时，我从未想过你们会设计出这样的体验。对我来说，感觉这就是LLM的本质——它只是坐在那里，告诉我它在想什么。我很欣赏你们提出的观点：让它感觉像是人类在操作。那么，人类是如何操作的呢？嗯，他们会大声思考。比如，“我应该探索这个问题。”我喜欢这种深入到极致的交互方式——模型会像人类一样说：“这是我正在做和思考的一切。”我猜人们也确实喜欢这种体验。这让你感到惊讶吗？“也许这也能行得通。人们似乎对一切都感兴趣？”",
+   "ts": "00:39:27"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. We learned from that actually because when we first launched it, we gave you the subheadings of what the model was thinking about, but not much more. And then deep seek launched and it was a lot and we went, I don't know if everyone wants that. There's some novelty effect to seeing what the model's really thinking about. We felt that too when we were looking at it internally. It's interesting to see the model's chain of thought, but it's not... I think at the scale of 400 million people, you don't want to see the model babble a bunch of things. (00:40:34): So what we ended up doing was summarizing it in interesting ways. So instead of just getting the subheadings, you're getting one or two sentences about how it's thinking about it and you can learn from that. So we tried to find a middle ground that we thought was an experience would be meaningful for most people, but showing everybody three paragraphs is probably not the right answer.",
+   "zh": "是的。我们从中吸取了教训。最初推出时，我们只给用户提供模型思考内容的副标题，但没有更多信息。后来DeepSeek推出时，内容量太大了，我们就想，不知道大家是否真的需要这样。看到模型真实的思考过程确实有趣，我们内部测试时也感受到了这一点。了解模型的思考链条很有意思，但……考虑到4亿用户的规模，你总不想让模型语无伦次地乱说一通吧。（00:40:34）所以我们最终采取了巧妙的总结方式。用户不再只看到副标题，而是能获得一两句关于模型思考过程的描述，这样更具参考价值。我们努力找到一个平衡点，既能让大多数人获得有意义的体验，又不会用三段冗长文字把大家淹没。",
+   "ts": "00:40:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This reminds me of something else you said at the summit that has really stuck with me, this idea that chat, people always make fun of chat is not the future interface for how we interact with AI, but you made this really interesting point that may argue the other side, which is, as humans we interface by talking and the IQ of a human can span from really low to really high and it all works talking to them and chat is the same thing and it can work on all kinds of intelligence levels. Maybe I just shared it, but I guess anything there about just why chat actually ends up being such an interesting interface for LLMs?",
+   "zh": "这让我想起你在峰会上提到的另一个观点，一直让我印象深刻。你提到人们总拿聊天功能开玩笑，但聊天绝非未来与AI交互的终极界面。你提出了一个很有趣的反论点：人类通过对话进行交互，人类的智商从极低到极高不等，但对话始终有效。聊天功能同样适用于各种智力水平的人。我可能只是随口分享了这个观点，但我很好奇，聊天为何能成为LLM如此有趣的交互界面？",
+   "ts": "00:40:57"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. I don't know, maybe this is one of those things I believe that most people don't believe, but I actually think chat is an amazing interface because it's so versatile. People tend to go, \"Chat. Yeah. We'll figure out something better.\" And I think it's incredibly universal because it is the way we talk. I can talk to you verbally like we're talking now. We can see each other and interact. We can talk on WhatsApp and be texting each other, but all of these things is this unstructured method of communication and that's how we operate. (00:42:12): If I had some more rigid interface that I was allowed to use when we spoke, I would be able to speak to you about far fewer things and it would actually get in the way of us having maximum communication bandwidth. So there's something magical. And by the way, in the past it never worked because there wasn't a model that was good at understanding all of the complexity and nuances of human speech, and that's the magic of LLMs. So to me, it's like an interface that's exactly fit to the power of these things. And that doesn't mean that it always has to be just like I don't necessarily always want to type, but you do want that very open-ended, flexible communication medium, it may be that we're speaking and the model's speaking back to me, but you still want the very lowest common denominator, no restrictions way of interacting.",
+   "zh": "是啊。我不知道，也许这就是我相信的大多数人不相信的事，但我确实认为聊天界面非常棒，因为它用途广泛。人们往往会说：“聊天？是啊，我们总能找到更好的替代品。” 而我认为它具有极强的普适性，因为它就是我们日常交流的方式。我现在可以口头和你交谈，我们可以面对面互动，还能在WhatsApp上发消息，但所有这些都是非结构化的交流方式，而这正是我们的日常操作模式。（00:42:12）：如果我们对话时只能使用某种严格的界面，我们能聊的内容就会少得多，而且这还会阻碍我们实现最大化的沟通效率。所以这里有种神奇之处。顺便说一句，过去这项技术之所以行不通，是因为没有一种模型能有效理解人类语言的所有复杂性和细微差别，而这正是LLM（大语言模型）的魔力所在。所以对我来说，这是一个完全贴合这些技术强大功能的界面。这并不意味着你总要用键盘输入，但你确实需要那种非常开放、灵活的交流媒介。可能我们正在交谈，模型也在回应我，但你还是希望交流方式尽可能简单，没有任何限制。",
+   "ts": "00:41:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so interesting. That's really changed the way I think about this stuff is that point that chat is just so good for this very specific problem of talking to superintelligence basically.",
+   "zh": "这太有意思了。这真的改变了我对这个问题的看法——聊天对于与超级智能对话这种特定场景来说实在太棒了。",
+   "ts": "00:43:04"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "By the way, I think it's not that it's only chat either. If you have high volume use cases where they're more prescribed and you don't actually need the full generality, there are many use cases where it's better to have something that's less flexible, more prescribed, faster to specific task, and those are great too, and you can build all sorts of those. But you still want chat as this baseline for anything that falls out of whatever vertical you happen to be building for. It's like a catch-all for every possible thing you'd ever want to express to a model.",
+   "zh": "顺便说一句，不只是聊天适用。如果你有高频使用场景，流程更规范，不需要完全的通用性，还有很多场景下，使用灵活性较低、流程更规范、针对特定任务更高效的产品会更好，比如聊天机器人。这类产品也很棒，而且你可以开发各种各样的这类产品。但对于你正在开发的任何垂直领域中的边缘情况，你还是会希望聊天作为基础设施。它就像一个万能工具，涵盖了你想向模型表达的任何可能性。",
+   "ts": "00:43:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm excited to chat with Christina Gilbert, the founder of OneSchema, one of our long-time podcast sponsors. Hi, Christina.",
+   "zh": "我很兴奋能和OneSchema的创始人克里斯蒂娜·吉尔伯特聊聊，她是我们播客的长期赞助商之一。嗨，克里斯蒂娜。",
+   "ts": "00:43:51"
+  },
+  {
+   "speaker": "Christina Gilbert",
+   "en": "Yes. Thank you for having me on, Lenny.",
+   "zh": "是的。感谢你邀请我，莱尼。",
+   "ts": "00:43:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is the latest with OneSchema? I know you now with some of my favorite companies like Ramp, Vanta, Scale and Watershed. I heard that you just launched a new product to help product teams import CSVs from especially tricky systems like ERPs?",
+   "zh": "OneSchema最近有什么新动态吗？我知道你和Ramp、Vanta、Scale和Watershed等我最喜欢的公司合作过。我听说你们刚推出了一个新产品，帮助产品团队从ERP等复杂系统导入CSV文件？",
+   "ts": "00:44:00"
+  },
+  {
+   "speaker": "Christina Gilbert",
+   "en": "Yes. So we just launched OneSchema FileFeeds, which allows you to build an integration with any system in 15 minutes as long as you can export a CSV to an SFTP folder. We see our customers all the time getting stuck with hacks and workarounds, and the product teams that we work with don't have to turn down prospects because their systems are too hard to integrate with. We allow our customers to offer thousands of integrations without involving their engineering team at all.",
+   "zh": "是的。我们刚刚推出了OneSchema FileFeeds，它能让你在15分钟内与任何系统建立集成，只要你能将CSV文件导出到SFTP文件夹即可。我们经常看到客户被黑客手段和临时解决方案困住，而与我们合作的产品团队也不必因为系统集成困难而拒绝潜在客户。我们让客户无需动用工程团队就能提供数千种集成服务。",
+   "ts": "00:44:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I can tell you that if my team had to build integrations like this, how nice would it be to be able to take this off my roadmap and instead, use something like OneSchema and not just to build it, but also to maintain it forever.",
+   "zh": "我可以告诉你，如果我的团队必须开发这样的集成功能，能把这项任务从我的路线图中移除，转而使用OneSchema之类的工具来实现集成并进行长期维护，那该有多好啊。",
+   "ts": "00:44:37"
+  },
+  {
+   "speaker": "Christina Gilbert",
+   "en": "Absolutely, Lenny. We've heard so many horror stories of multi-day outages from even just a handful of ad records. We are laser-focused on integration reliability to help teams end all of those distractions that come up with integrations. We have a built-in validation layer that stops any bad data from entering your system, and OneSchema will notify your team immediately of any data that looks incorrect.",
+   "zh": "当然，Lenny。我们听过太多因为几条广告记录出错导致数日停机的恐怖故事。我们正全力关注集成的可靠性，帮助团队消除集成带来的各种干扰。我们内置了验证层，可阻止错误数据进入系统，OneSchema还会立即通知团队任何看起来不正确的数据。",
+   "ts": "00:44:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know that importing incorrect data can cause all kinds of pain for your customers, and quickly lose their trust. Christina, thank you for joining us. And if you want to learn more, head on over to oneschema.co. That's oneschema.co. (00:45:23): I want to come back to that you talked about researchers and their relationship with product teams. I imagine a lot of innovation comes from researchers just like having an inkling and then building something amazing and then releasing it, and some ideas come from PMs and engineers. How do those teams collaborate? Does every team have a PM? Is it a lot of research-led stuff? Give us a sense of just where ideas and products come from mostly.",
+   "zh": "我知道导入错误数据会给客户带来诸多困扰，还会迅速失去他们的信任。Christina，感谢你加入我们的讨论。如果你想了解更多信息，请访问oneschema.co。（00:45:23）：我想回到你提到的研究人员与产品团队的关系问题。我相信很多创新都源于研究人员，他们可能先有一些灵感，然后开发出惊人的产品并将其推向市场，而有些想法则来自产品经理和工程师。这些团队是如何合作的呢？每个团队都有产品经理吗？很多创新是由研究主导的吗？请给我们讲讲创意和产品主要从哪里产生的。",
+   "ts": "00:45:08"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "It's an area where we're evolving a lot. I'm really excited about it, frankly. I think if you go back a couple of years when ChatGPT was just getting started, obviously, I wasn't in OpenAI, but...",
+   "zh": "这是一个我们正在积极探索的领域。说实话，我对此非常兴奋。我记得几年前ChatGPT刚起步时，显然我不在OpenAI，但……",
+   "ts": "00:45:49"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Obviously I wasn't an Open AI, but... We were more of a pure research company at the time. Chat GPT, if you remember, was a low-key research preview.",
+   "zh": "显然我不在OpenAI，但……当时我们更像是一家纯粹的研究公司。回想起来，ChatGPT只是一个低调的研究预览版。",
+   "ts": "00:46:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "For many years.",
+   "zh": "持续了好多年。",
+   "ts": "00:46:14"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. It wasn't a thing that the team launched thinking it was going to be this massive product.",
+   "zh": "是的。当时团队并没有把它当作一个大型产品来开发。",
+   "ts": "00:46:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, Chat GPT. Yeah.",
+   "zh": "哦，ChatGPT。是的。",
+   "ts": "00:46:19"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "And it was just a way that we were going to let people play with and iterate on the models. So we were primarily a research company, a world-class research company, and as ChatGPT has grown and as we've built our B-to-B products and our APIs and other things, now we're more of a product company than we were. I still think we can't... Open AI should never be a pure product company. We need to be both a world-class research company and a world-class product company, and the two need to really work together, and that's the thing that I think we've been getting much better at over the last six months. If you treat those things separately and the researchers go do amazing things and build models and then they get to some state and then the product and engineering teams go take them and do something with them, we're effectively just an API consumer of our own models. (00:47:17): The best products though are going to be, it's like I was talking about with deep research, it's a lot of iterative feedback. It's understanding the products you're trying to sell or the problems you're trying to solve, building evals for them, using those evals to go gather data and fine-tune models to get them to be better at these use cases that you're looking to solve. It's a huge amount of back and forth to do it well. And I think the best products are going to be ENG product design and research working together as a single team to build novel things. So that's actually how we're trying to operate with basically anything that we build. It's a new muscle for us because we're kind of new as a product company, but it's one that people are really excited about because we've seen every time we do it, we build something awesome, and so now every product starts like that.",
+   "zh": "这只是一种让我们让人们能够玩转模型并对其进行迭代的方式。所以我们最初是一家研究型公司，一家世界级的研究公司。随着ChatGPT的发展，以及我们开发B端产品、API等业务，现在我们更像是一家产品公司了。我仍然认为我们不应该……OpenAI永远不应该是一家纯粹的产品公司。我们需要既是世界级的研究公司，也是世界级的产品公司，两者必须紧密协作。过去六个月里，我们在这方面做得越来越好。如果将两者分开——研究人员开发出惊人的模型，然后产品和工程团队接手并加以应用——我们实际上就成了自己模型的API消费者。（00:47:17）：但最好的产品需要深层研究带来的反复反馈，需要理解你试图销售的产品或解决的问题，为其建立评估体系，利用这些评估收集数据并微调模型，以便在你希望解决的用例中表现得更出色。要做好这件事需要大量反复迭代。我认为最好的产品将是ENG产品设计和研究团队作为一个单一团队共同合作，创造新事物。这实际上是我们开发任何产品时都努力遵循的原则。这对我们来说是一个新的挑战，因为我们作为产品公司还比较新，但人们对此非常兴奋，因为每次我们这样做都能创造出很棒的产品，现在每个产品都是这样开始的。",
+   "ts": "00:46:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How many product managers do you have at Open AI? I don't know if you share that number, but if you do.",
+   "zh": "Open AI有多少产品经理？我不知道你们是否分享这个数字，但如果分享的话。",
+   "ts": "00:48:07"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Not that many, actually. I don't know, 25. Maybe it's a little more than that. My personal belief is that you want to be pretty PM light as an organization just in general. I say this with love because I am a PM, but too many PMs causes problems. We'll fill the world with decks and ideas versus execution. So I think it's a good thing when you have a PM that is working with maybe slightly too many engineers because it means they're not going to get in and micromanage. You're going to leave a lot of influence and responsibility with the engineers to make decisions. It means you want to have really product-focused engineers, which we're fortunate to have. We have an amazingly product focused, high agency engineering team. But when you have something like that, you have a team that feels super empowered, you have a PM that's trying to really understand the problems and gently guide the team a little bit but has too much going on to get too far into the details, and you end up being able to move really fast. So that's kind of the philosophy we take. (00:49:23): We want Product ENG leads and product engineers all the way through. We want not too many PMs, but really awesome, high quality ones, and so far that seems to be working pretty well.",
+   "zh": "实际上不算多。我不知道，25个吧。可能比这多一点。我的个人观点是，作为一个组织，总体上应该尽量减少产品经理的数量。我这么说是因为我自己就是产品经理，但太多产品经理会带来问题。我们会让世界充斥着各种方案和想法，却缺乏执行。所以我认为当产品经理与稍微多一些的工程师合作时，是件好事，因为这意味着他们不会过度微管理。你会把很多影响力和责任留给工程师，让他们做出决策。这意味着你需要有真正以产品为导向的工程师，我们很幸运能拥有这样一支团队。我们有一支非常以产品为导向、自主性很强的工程团队。但当你有这样的团队时，团队会感到被赋予了极大的权力，产品经理会努力真正理解问题并温和地引导团队，但又没有太多精力深入到细节中，这样最终就能快速推进。这就是我们采取的理念。（00:49:23）：我们希望从头到尾都有产品工程负责人、产品工程师。我们希望产品经理数量不算多，但必须是真正出色、高质量的产品经理，到目前为止，这似乎效果不错。",
+   "ts": "00:48:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I imagine being a PM at Open AI is a dream come true for a lot of people. At the same time, I imagine it's not a fit for a lot of people. There's researchers involved, very product minded engineers. What do you look for in the PMs that you hire there for folks that are like, \"Maybe I shouldn't go work there. I shouldn't even think about that.\"",
+   "zh": "我想，在Open AI担任产品经理对很多人来说是梦想成真。但与此同时，这份工作可能并不适合很多人。这里有科研人员，还有极具产品思维的工程师。你在招聘产品经理时看重哪些特质？那些会想“或许我不该去那里工作，甚至不该考虑这份工作”的人，又该如何判断？",
+   "ts": "00:49:36"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I think, I've said this a few times, but high agency is something that we really look for, people that are not going to come in and wait for everyone else to allow them to do something, they're just going to see a problem and go do it. It's just a core part of how we work. I think people that are happy with ambiguity, because there is a massive amount of ambiguity here, it is not the kind of place, and we have trouble sometimes with more junior PMs because of this, because it's just not the place where someone is going to come in and say, \"Okay, here's the landscape, here's your area, I want you to go do this thing.\" And that's what you want as an early career PM. I mean, no one here has time and the problems are too ill-formed and we're figuring them all out as we go. And so high agency, very comfortable with ambiguity, ready to come in and help execute and move really quickly. That's kind of our recipe. (00:50:55): And I think also happy leading through influence because... I mean it's usual as a PM, people don't report to you, your team doesn't report to you, et cetera, but you also have the complexity of a research function, which is even more sort of self-directed and it's really important to build a good rapport with the research team. I think the EQ side of things is also super important for us.",
+   "zh": "我说过很多次，高度的主动性是我们非常看重的一项品质。这些人不会坐等别人批准他们的行动，而是会发现问题后主动解决。这是我们工作方式的核心。我认为还需要乐于接受不确定性的人，因为这里充满了大量的不确定性。初级产品经理在这方面会遇到困难，因为这里没有那种“好的，我现在给你画个框架，告诉你职责范围，然后让你去执行”的模式。这正是初级产品经理所渴望的。这里没人有充足的时间，问题也常常定义模糊，我们都是边做边调整。所以我们需要高主动性、能适应不确定性的人，他们要能迅速行动、执行任务。这就是我们的招聘标准。（00:50:55）此外，还要善于通过影响力来领导团队……作为产品经理，通常下属不直接向你汇报，团队也无需向你汇报。但这里还有科研团队的复杂性，他们更加自主，能与科研团队建立良好关系至关重要。情商对我们来说也非常重要。",
+   "ts": "00:49:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know at most companies, a PM comes in and they're just like, \"Why do we need you?\" And as a PM you have to earn trust and help people see the value, and I feel like at Open AI it's probably a very extreme version of that where they're like, \"Why do we need this person? We have researchers, engineers, what are you going to do here?\"",
+   "zh": "我知道在大多数公司，产品经理入职后会被问“我们为什么需要你？”而在Open AI，这种质疑可能达到了极致：“我们为什么要招你？我们有科研人员、工程师，你能做什么？”",
+   "ts": "00:51:24"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, I think people appreciate it done right, but you bring people along. I think one of the most important things a PM can do well is be decisive. So there's a real fine line. You don't want to be making... I mean it's kind of like, I don't love the PM as the CEO of the product illusion all the time, but just like Sam in his role would be making mistakes if he made every single decision in every meeting that he was in. And he would also be making mistakes if he made no decisions in any meetings that he was in, right? It's understanding when to defer to your team and to let people innovate. And when there is a decision to be made that people either don't feel comfortable with or don't feel empowered to make, or a decision that has too many different disparate pros and cons that are spread out across a big group and someone needs to be decisive and make a call, it's a really important trait of a CEO. (00:52:41): It's something Sam does well, and it's also a really important trait of a PM kind of at a more microscopic level. So because there's so much ambiguity, it's not obvious what the answer is in a lot of cases, and so having a PM that can come in and... And by the way, this doesn't need to be a PM, I'm perfectly happy if it's anybody else, but I kind of look to the PM to say, if there's ambiguity and no one's making a call, you better make sure that we get a call made and we move forward.",
+   "zh": "是的，我觉得人们欣赏把事情做好的能力，但你得能带领团队。我认为产品经理最重要的一项技能就是果断决策。这里存在着一个微妙的平衡点。你不想做得太过火……我的意思是，我不太喜欢那种把产品经理当成产品 CEO 的幻想，但就像山姆（Sam）在他的角色中所做的那样，如果他在每次会议上都参与每个决策，那也会犯错。如果他在任何会议上都不做任何决定，那同样会出问题，对吧？关键在于要理解何时该让团队自主创新，何时又需要果断决策。当面临一个团队成员不愿或无权做出的决定，或者一个存在太多不同利弊权衡、需要在大群体中达成共识的决定时，果断决策就是 CEO 的重要特质。（00:52:41）这正是山姆做得很好的地方，也是产品经理在微观层面需要具备的重要能力。由于存在诸多不确定性，在很多情况下答案并不明显。因此，需要有产品经理能站出来……顺便说一句，这不一定非得是产品经理，其他角色也可以，但我更倾向于产品经理在不确定性出现、无人决策时，站出来推动决策，确保项目推进。",
+   "ts": "00:51:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This touches on a few posts I've done of just, where is AI going to take over work that we do versus help us with various work? So let me come at this question from a different direction of just how AI impacts product teams and hiring, things like that. So first of all, there's all this talk of LM's doing our coding for us, and 90% of code is going to be written by AI in a year. Dario at Anthropic said that. At the same time, you guys are all hiring engineers like crazy, PM's like crazy. Every function is dead, but you're still hiring every single one. I guess just, first of all, let me just ask this, how do you and the team, say engineers, PMs, use AI in your work? Is there anything that's really interesting or things that you think people are sleeping on in how you use AI in your day-to-day work?",
+   "zh": "这让我想起我之前写的几篇文章，探讨的是人工智能将接管我们现有工作的哪些领域，以及如何助力我们完成各种任务？所以我这次想从另一个角度来探讨人工智能对产品团队和招聘的影响。比如，人们总说 LM 会为我们写代码，未来一年内 90% 的代码将由人工智能编写。Anthropic 的达里奥（Dario）曾这么说。与此同时，大家都在疯狂招聘工程师、产品经理。所有职能部门都面临裁员，但你们还在疯狂招聘。我想先问问大家，你们和团队，比如工程师、产品经理，是如何在工作中运用人工智能的？有没有什么特别有趣的案例，或者你们认为人们忽视了的日常应用人工智能的技巧？",
+   "ts": "00:53:07"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "We use it a lot. I mean, every one of us is in Chat GPT all the time summarizing docs, using it to help write docs with GPTs that write product specs and things like that, all the stuff that you would imagine. I mean talk about writing evals, you can actually use models to help you write evals and they're pretty good at it. That all said, I'm still sort of disappointed by us, and I really mean me, in, if I were to just teleport my five-year-old self leading product at some other company into my day job, I would recognize it still. And I think we should be in a world, certainly a year from now, probably even more now, where I almost wouldn't recognize it because the workflows are so different and I'm using AI so heavily, and I'd still recognize it today. So I think in some sense, I'm not doing a good enough job of that. (00:54:46): Just to give an example, why shouldn't we be vibe coding demos right, left and center? Instead of showing stuff in Figma, we should be showing prototypes that people are vibe coding over the course of 30 minutes to illustrate proofs of concept and to explore ideas. That's totally possible today, and we're not doing it enough. Actually, our chief people officer, Julia, was telling me the other day, she vibe coded an internal tool that she had at a previous job that she really wanted to have here at Open AI and she opened, I don't know, Windsurf or something, and vibe coded it. How cool is that? And if our chief people officer is doing it, we have no excuse to not be doing it more.",
+   "zh": "我们经常使用它。我是说，我们每个人都在Chat GPT上不断地总结文档，利用它帮助撰写产品规格说明书之类的文档，所有你能想象到的用途。我是说谈到写评估报告，你实际上可以用模型来帮助你写评估报告，而且它们做得相当不错。话虽如此，我对我们自己还是有点失望——说实话，我自己也是如此。如果我把五年前在其他公司负责产品的那个人直接传送到我现在的工作岗位上，他们肯定还是能认出这个世界。但我认为，从现在起的一年后，甚至更早，我们就应该生活在一个完全不同的世界里——工作流程会大不相同，我们会大量使用AI，但我现在回想起来，还是能认出这个世界。所以从某种意义上说，我在这方面做得不够好。\n\n（00:54:46）：举个例子，为什么我们不应该到处展示vibe coding的演示呢？我们不应该在Figma上展示东西，而应该展示人们在30分钟内vibe coding出来的原型，用来展示概念验证和探索想法。这在今天是完全可行的，但我们做得还不够。实际上，我们的首席人力官朱莉娅前几天告诉我，她vibe coding了一个她在前一家公司用过的内部工具，她特别想把它引入Open AI，于是她打开了Windsurf之类的工具，vibe coding了出来。多酷啊！如果我们的首席人力官都能这么做，我们就更没有理由不推广了。",
+   "ts": "00:53:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's an awesome story. And some people may not have heard this term vibe coding. Can you describe what that means?",
+   "zh": "这真是个很棒的故事。有些人可能没听说过vibe coding这个术语。你能解释一下它的意思吗？",
+   "ts": "00:55:34"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, I think this was Andrej's term.",
+   "zh": "是的，我想这是安德烈的术语。",
+   "ts": "00:55:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Karpathy. Yeah.",
+   "zh": "卡尔帕西。是的。",
+   "ts": "00:55:45"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Andrej Karpathy. Yeah. So you have these tools like Cursor and Windsurf and GitHub Copilot that are very good at suggesting what code you might want to write. So you can give them a prompt and they'll write code and then as you go to edit it, it's suggesting what you might want to do. And the way that everyone started using that stuff was, give it a prompt, have it do stuff, you go edit it, give it a prompt, and you're kind of really going back and forth with the model the whole time. As the models are getting better and as people are getting more used to it, you can kind of just let go of the wheel a little bit. And when the model's suggesting stuff, it's just like, tap, tap, tap, tap, tap. Keep going. Yes, yes, yes, yes, yes. (00:56:29): And of course the model makes mistakes or it does something that doesn't compile, but when it doesn't compile, you paste the error in and you say, go, go, go, go, go. And then you test it out and it does one thing that you don't want it to do, so you enter in an instruction and say, go, go, go, go, go, and you just let the model do its thing. And it's not that you would do that for production code that needed to be super tight today yet, but for so many things, you're trying to get to a proof of concept, you're getting to a demo and you can really take your hands off the wheel and the model will do an amazing job, and that's vibe coding.",
+   "zh": "安德烈·卡尔帕西。是的。所以你有像Cursor、Windsurf和GitHub Copilot这样的工具，它们非常擅长提示你可能想写的代码。所以你可以给它们一个提示，让它们做一些事情，然后你去编辑它，它会提示你可能想做什么。最初大家使用这些工具的方式是，给它一个提示，让它做一些事情，然后你去编辑它，再给它一个提示，这样就一直和模型来回交流。随着模型越来越好，人们越来越习惯使用它，你就可以稍微放松一点了。当模型提示一些东西时，就点击、点击、点击、点击、点击。继续下去。是的，是的，是的，是的，是的。（00:56:29）：当然，模型会出错或者做一些无法编译的东西，但当它无法编译时，你把错误粘贴进去，然后说，继续，继续，继续，继续，继续。然后你测试一下，它又做了你不想让它做的事情，于是你输入一个指令，说，继续，继续，继续，继续，继续，然后就让模型自己发挥了。虽然你现在还不会把它用于需要非常严谨的生产代码，但对于很多事情，比如你想得到一个概念验证，或者做一个演示，你可以真正放手让模型去做，它会做得很棒，这就是vibe coding。",
+   "ts": "00:55:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's an awesome explanation. I think the pro version of that, which is, I think, the way Andre even described it as you talk, there's a step like whisper or super whisper or something like that where you're talking to the model, not even typing.",
+   "zh": "太棒了！我觉得那个专业版功能，安德烈在描述的时候提到过，你直接和模型对话，甚至不用打字，类似于低语模式或超级低语模式之类的。",
+   "ts": "00:57:05"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, totally.",
+   "zh": "是啊，没错。",
+   "ts": "00:57:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man. So let me just ask, I guess, when you look at product teams in the future, you talked about how you guys should be doing this more, instead of designs, having prototypes, what do you think might be the biggest changes in how product teams are structured or built? Where do you think things are going in the next few years?",
+   "zh": "天哪。那么我想问一下，你对未来的产品团队有什么看法？你提到要更多地关注产品设计而非原型制作，你认为产品团队的架构或组建方式会有哪些重大变化？未来几年内会朝着哪个方向发展？",
+   "ts": "00:57:19"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I think you're definitely going to live in a world where you have researchers built into every product team. And I don't even mean just at foundation model companies because I think the future... Actually, frankly one thing that I'm sort of surprised about about our industry in general is that there's not a greater use of fine-tuned models. A lot of people... These models are very good, so our API does a lot of things really well, but when you have particular use cases, you can always make the model perform better on a particular use case by fine-tuning it. It's probably just a matter of time. Folks aren't quite comfortable yet with doing that in every case. But to me, there's no question that that's the future. Models are going to be everywhere just like transistors are everywhere, AI is going to be just a part of the fabric of everything we do, but I think there are going to be a lot of fine-tuned models because why would you not want to more specifically customize a model against a particular use case? (00:58:37): And so I think you're going to want sort of quasi researcher machine learning engineer types as part of pretty much every team because fine-tuning a model is just going to be part of the core workflow for building most products. So that's one change that maybe you're starting to see at foundation model companies that will propagate out to more teams over time.",
+   "zh": "我觉得未来每个产品团队都会配备研究人员。这不只是大型模型公司需要这样做，我认为整个行业都应该更广泛地应用微调模型。很多人……这些模型已经很出色了，我们的API在很多方面表现出色，但针对特定用例时，通过微调模型能显著提升性能。这或许只是时间问题。目前大家对在每个场景都进行微调还不太习惯，但在我看来，微调模型是未来的趋势。模型将像晶体管一样无处不在，人工智能将融入我们日常工作的方方面面，但会有大量微调模型出现——毕竟何乐不为呢？针对特定用例量身定制模型不是更合理吗？（00:58:37）所以我认为每个团队都需要类似研究员兼机器学习工程师的角色，因为微调模型将成为大多数产品开发的核心流程。这或许是大型模型公司正在探索的方向，未来会逐渐普及到更多团队。",
+   "ts": "00:57:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm curious if there's a concrete example that makes that real, and I'll share one that comes to mind as you talk, which is, when you look at Cursor and Windsurf, something I learned from those founders is that they use a Sonnet, but then they also have a bunch of custom models that help along the edges that make the specific experience that's not just generating code even better like auto-complete and looking ahead to where things are going. So is that one or any other examples of which you... What is a fine-tuned model? Do you think teams will be building with these researchers on their teams?",
+   "zh": "我很好奇是否有具体案例能说明这一点。我举个例子，Cursor和Windsurf的创始人告诉我，他们使用了Sonnet模型，但还开发了大量定制模型，提升边缘体验，比如自动补全、预测代码走向等，让生成代码之外的用户体验更流畅。这样的微调模型是否常见？你认为团队会引入这些研究人员吗？",
+   "ts": "00:58:57"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. I mean, so when you're a model, you're basically giving the model a bunch of examples of the kinds of things you want it to be better at. So it's, \"Here's a problem, here's a good answer. Here's a problem, here's a good answer,\" Or, \"Here's a question, here's a good answer times a thousand or 10,000.\" And suddenly you're teaching the model to be much better than it was out of the gate at that particular thing. We use it everywhere internally. We use ensembles of models much more internally than people might think. So it's not, \"I have 10 different problems. I'll just ask baseline GPT four oh about a bunch of these things.\" If we have 10 different problems, we might solve them using 20 different model calls, some of which are using specialized fine-tuned models, they're using models of different sizes because maybe you have different latency requirements or cost requirements for different questions. (01:00:32): They are probably using custom prompts for each one. Basically you want to teach the model to be really good at... You want to break the problem down into more specific tasks versus some broader set of high level tasks. And then you can use models very specifically to get very good at each individual thing. And then you have an ensemble that tackles the whole thing. I think a lot of good companies are doing that today. I still see a lot of companies giving the model single, generic, broad problems versus breaking the problem down, and I think there will be more breaking the problem down using specific models for specific things, including fine tuning.",
+   "zh": "是的。我的意思是，当你作为模型训练师时，基本上就是给模型提供大量示例，让它在某个特定领域表现得更出色。比如，“这里有个问题，给出一个好的答案。”或者“这里有个问题，给出上千个或一万个好的答案。”很快，你就能教会模型在该领域远超初始水平的能力。我们在内部广泛应用这种策略。实际上，我们内部使用模型集成的频率比人们想象的要高得多。所以不会是，“我有10个不同的问题，就直接让基线GPT-4处理所有这些问题。”如果有10个不同的问题，我们可能会用20个不同的模型来解决，其中一些会使用专门微调过的模型，模型规模也各不相同，因为不同问题的延迟要求或成本需求可能不同。（01:00:32）他们很可能为每个问题使用定制的提示语。基本上，你要教会模型在某个特定领域做到极致……你需要将问题分解为更具体的任务，而非笼统的高级任务。然后可以针对每个单独任务使用特定模型，最终通过模型集成完成整体任务。我认为现在很多优秀的公司都在这样做。我仍然看到很多公司给模型提出单一、通用、宽泛的问题，而不是将问题分解成更细致的任务。我相信未来会有更多公司通过针对特定任务使用专用模型，包括微调模型来分解问题。",
+   "ts": "00:59:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And so in your case, because this is really interesting, is that you're using different levels of Chat GPT, like a 1 0 3 and stuff that's earlier because it's cheaper.",
+   "zh": "就你们的情况而言，非常有趣的是，你们使用了不同版本的Chat GPT，比如1.0、3.0之类的，因为它们更便宜。",
+   "ts": "01:01:15"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "There'll be parts of our internal stack. I'll give you an example. Customer support, with 400 plus million weekly active users, we get a lot of inbound tickets. I don't know how many customer support folks we have, but it's not very many, 30, 40, I'm not sure, way smaller than you would have at any comparable company, and it's because we've automated a lot of our flows. We've got most questions using our internal resources, knowledge base, guidelines for how we answer questions, what kind of personality, et cetera. You can teach the model those things and then have it do a lot of its answers automatically, or where it doesn't have the full confidence to answer a particular question, it can still suggest an answer, request a human to look at it and then that human's answer actually is its own sort of fine tuning data for the model. You're telling it the right answer in a particular case. (01:02:29): We're using... At various places. Some of these places, you want a little bit more reasoning, is not super latency sensitive, so you want a little more reasoning, and we'll use one of our O series models. In other places, you want a quick check on something and so you're fine to use four oh mini, which is super fast and super cheap. In general, it's like specific models for specific purposes and then you ensemble them together to solve problems. By the way, again, not unlike how we as humans solve problems, a company is arguably an ensemble of models that have all been fine tuned based on what we studied in college and what we have learned over the course of our careers. We've all been fine tuned to have different sets of skills and you group them together in different configurations and the output of the ensemble is much better than the output of any one individual.",
+   "zh": "接下来是我们内部技术栈的部分。我举个例子。客户支持部门每周有超过4亿活跃用户，我们收到了大量用户咨询。尽管我不确定具体有多少客服人员，但确实不多，大概30到40人，这远比其他同类公司少得多。这是因为我们对许多业务流程进行了自动化处理。大多数常见问题都能通过内部资源、知识库、回答指南和个性化设定来解决。模型可以学习这些规则，从而自动生成答案。若模型对某个问题信心不足时，会给出建议性回答，并请人工核查。人工核查后的结果反过来又会成为模型微调的数据，帮助模型不断优化。（01:02:29）我们在不同场景下使用不同模型。有些场景对延迟要求不高，可以使用O系列模型；而有些场景需要快速校验时，则选用速度极快且成本低廉的四Oh Mini模型。总之，针对不同需求选用特定模型，再将它们组合起来，就能解决问题。这与人类解决问题的方式颇为相似——一家公司本质上就是由基于大学所学和职业生涯积累的知识进行微调的模型集合，每个人都具备不同技能组合，通过不同配置组合起来，最终产出远超单个个体的智慧成果。",
+   "ts": "01:01:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Kevin, you're blowing my mind. That sounds exactly correct. And also, different people, you pay them less, they cost less to talk to, some people take a long time to answer, some people hallucinating. This is...",
+   "zh": "凯文，你真是让我惊叹不已。这听起来太准确了。还有，不同的人薪资不同，沟通效率也不同，有些人回复慢，有些人甚至会胡言乱语。这真是……",
+   "ts": "01:03:20"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I'm telling you. This is a mental model but really does work in thinking...",
+   "zh": "我跟你说。这种思维模型确实很管用……",
+   "ts": "01:03:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, right. Yeah. This is great. Some people are visual, they want to dry out their thinking, some people want to talk word cell. Wow, this is a really good metaphor. So again, coming back to your advice here because I love that we circled back to it, you're finding a really good way to think about how to design great AI experiences and LMs, I guess, specifically is think about how a person would do this.",
+   "zh": "哦，对。太棒了。有些人善于视觉化，他们想理清思路；有些人则喜欢用文字表达。哇，这真是个绝妙的比喻。所以回到你之前的建议——我特别喜欢你又回到了这个点上——你找到了一个思考如何设计出色的AI体验和语言模型的绝佳方法，我猜具体来说就是设身处地从人的角度去思考。",
+   "ts": "01:03:41"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Well, it's maybe not always the answer is to think about how a person would do it, but sometimes to gain intuition for how you might solve a problem, you think about what an equivalent human would do in those situations and use that to at least gain a different perspective on the problem.",
+   "zh": "嗯，也许不总是要从人的角度出发，但有时为了获得解决问题的直觉，你可以想想在类似情况下人类会怎么做，然后利用这个思路至少获得一个不同的视角。",
+   "ts": "01:04:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, this is great.",
+   "zh": "哇，太棒了。",
+   "ts": "01:04:18"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Because some of this really is talking to a model. There's a lot of prior art because we talk to other humans all the time and encounter them in all sorts of different situations, and so there's a lot to learn from that.",
+   "zh": "因为有些情况确实是在和模型对话。毕竟我们日常和人类交流时也会遇到各种情况，所以这里有很多可以借鉴的经验。",
+   "ts": "01:04:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so speaking of humans, I want to chat about the future a little bit. So you have three kids, and a community member asked me this hilarious question that I think it's something a lot of people are thinking about. So this is Patrick [inaudible 01:04:47]. I worked with him at Airbnb. He says ask what he's encouraging his kids to learn to prepare for the future. I'm worried my 6-year-old by the year 2036 will face a lot of competition trying to get into the top roofing or plumbing programs and need a backup plan.",
+   "zh": "好的，说到人类，我想聊聊未来。你们有三个孩子，有位社区成员问了我一个特别有趣的问题，我觉得这也是很多人都在思考的。这位叫帕特里克的朋友（01:04:47），我在Airbnb时和他共事过。他问我，如何让孩子们学会为未来做准备。我担心我6岁的孩子到2036年面对激烈的竞争，争取进入顶尖的屋顶修缮或管道安装项目时，会需要一个后备计划。",
+   "ts": "01:04:34"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "That's funny. So our kids, we have a 10 year old and eight year old twins, so they're still pretty young. It's amazing how AI native they are. It's completely normal to them that there are self-driving cars. That they can talk to AI all day long. They have full conversations with Chat GPT and Alexa and everything else. I don't know, who knows what the future holds? I think things like coding skills are going to be relevant for a long time, who knows? But I think if you teach your kids to be curious, to be independent, to be self-confident, you teach them how to think, I don't know what the future holds, but I think that those are going to be skills that are going to be important in any configuration of the future. And so it's not like we have all the answers, but that's how Elizabeth and I think about our kids.",
+   "zh": "这真有趣。我们家有10岁和8岁的双胞胎孩子，所以他们还很小。令人惊讶的是，他们对人工智能的熟悉程度堪称天生。自动驾驶汽车对他们来说再正常不过，他们整天和人工智能对话。和Chat GPT、Alexa等平台的对话对他们来说轻而易举。我不知道未来会怎样，但我认为编程技能在很长一段时间内都会很重要，谁知道呢？不过我觉得如果教会孩子们保持好奇心、独立自主、自信自立，教会他们如何思考问题，我觉得无论未来如何变化，这些技能都会很重要。我们并非无所不知，但伊丽莎白和我就是这样看待孩子的教育的。",
+   "ts": "01:05:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And do you find that AI... There's a lot of talk about AI tutoring. Is that something you guys are doing? I know they're using Chat GPT, I love all the photos you post where they're playing with prompts and stuff, but I guess is there anything there you're experimenting with or you think is going to become really important?",
+   "zh": "你们觉得人工智能...现在有很多关于人工智能辅导的讨论。你们有在做这方面的尝试吗？我知道你们在用Chat GPT，我很喜欢你们发的那些孩子们玩Prompt的照片，但我想你们是否也在尝试其他可能变得非常重要的技术？",
+   "ts": "01:06:02"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "This is something that... It's maybe the most important thing that AI could do. Maybe that's a grand statement. There are lots of important things that AI can do, including speeding up the pace of fundamental science research and discovery, which maybe is actually the most important thing AI can do. But one of the most important things would be personalized tutoring. And it kind of blows my mind that there is still... I know there are a bunch of good products out there. Khan Academy does great things. They're a wonderful partner of ours. Vinod Khosla has a non-profit that's doing some really interesting stuff in this space and is making an impact. But I'm kind of surprised that there isn't a 2 billion kid AI personalized tutoring thing because the models are good enough to do it now, and every study out there that's ever been done seems to show that when you have... Like, education is still important, but when you combine that with personalized tutoring, you get multiple standard deviation improvements in learning speed. (01:07:31): And so it's uncontroversial, it's good for kids, it's free. Chat GPT is free, you don't need to pay, and the models are good enough. It still just kind of blows my mind that there isn't something amazing out there that our kids are using and your future kids are using, and people in all sorts of places around the world that aren't as lucky as our kids to be able to have this sort of built-in, solid education. Again, Chat GPT is free. People have Android devices everywhere. I really just think this could change the world and I'm surprised it doesn't exist and I want it to exist.",
+   "zh": "这可能是人工智能能做的最重要的事情之一。也许这话说得太夸张了。人工智能能做很多重要的事情，包括加速基础科学研究和发现的步伐，这或许才是人工智能最重要的贡献。但最重要的应用之一肯定是个性化辅导。让我震惊的是，现在居然还没有一个价值20亿美元的儿童人工智能个性化辅导项目。模型现在已经足够成熟，可以做到这一点了。所有已有的研究似乎都表明，当把教育和个性化辅导结合起来时，学习速度能提升多个标准差。（01:07:31）这毫无争议，对孩子们有益，而且免费。Chat GPT是免费的，无需付费，模型也足够成熟。仍然让我难以置信，为什么没有一个令人惊叹的产品，让我们的孩子、未来的孩子以及世界各地不像我们这么幸运、无法获得这种系统化优质教育的人都能使用。再说一次，Chat GPT是免费的。到处都有安卓设备。我真的觉得这能改变世界，我很惊讶它还不存在，我希望它能出现。",
+   "ts": "01:06:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This kind of touches on something I want to spend a little time on, which is a lot of people also worry a lot about AI, where it's going, they worry about jobs it's going to take, they worry about the super intelligence squashing humanity in the future. What's your perspective on that and just the optimistic case that I think people need to hear?",
+   "zh": "这让我想多谈谈一个话题，即许多人对人工智能的发展深感担忧。他们担忧它将取代大量就业岗位，担忧超级智能未来会压制人类。关于这些问题，您有何看法？尤其是，我认为人们需要听到的乐观观点是什么？",
+   "ts": "01:08:08"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I mean, I'm a big technology optimist. I think if you look over the last 200 years, maybe more, technology has driven a lot of the advancements that have made us the world and the society that we are today. It drives economic advancements, it drives geopolitical advancements, quality of life, longevity advancement. I mean, technology's at the root of just about everything, so I think there are very few examples where this is anything but a great thing over the longer term. That doesn't mean that there aren't...",
+   "zh": "我的意思是，我是个技术乐观主义者。回顾过去200年甚至更久的历史，技术推动了诸多进步，成就了我们今天的世界和社会。它促进了经济发展、地缘政治进步、生活质量提升、寿命延长。可以说，技术几乎渗透到方方面面。因此，我认为从长远来看，人工智能绝非坏事。这并不意味着不存在……",
+   "ts": "01:08:27"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "... a great thing over the longer term. That doesn't mean that there aren't temporary dislocations or where there aren't individuals that are impacted, and that matters too. So it can't just be that the average is good. You've got to also think about how you take care of each individual person as best you can. (01:09:18): It is something that we think a lot about and as we work with the administration, as we work with policy, we try and help wherever we can. We do a lot with education. One of the benefits here is that ChatGPT is also perhaps the best reskilling app you could possibly want. It knows a lot of things. It can teach you a lot of things if you're interested in learning new things. (01:09:43): These are very real issues. I'm super optimistic about the long run, and we're going to need to do everything we can as a society to ensure that we make this transition as graceful and as well-supported as we can.",
+   "zh": "就长期而言，这确实是一件好事。但这并不意味着不会出现暂时的混乱，也不意味着不会有个人受到影响，而这些问题同样值得关注。因此，仅关注平均数据是不够的。我们还必须尽最大努力关怀每一位个体。（01:09:18）这是我们深思熟虑的问题。在与政府合作、制定政策时，我们会尽可能提供帮助。我们在教育领域投入了大量精力。ChatGPT或许是目前最出色的再培训应用程序之一，它知晓诸多知识。如果你有学习新技能的意愿，它能为你提供丰富的指导。（01:09:43）这些都是实实在在的问题。我对长远前景持乐观态度，但作为一个社会，我们需要竭尽全力确保这一转型尽可能平稳且获得充分支持。",
+   "ts": "01:09:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To give people a sense of where things might be going. That's a big question in a lot of people's minds. So someone asked this question that I love, which is, \"AI is already changing, creative work in a lot of different ways, writing and design and coding, what do you think is the next big leap? What should we be thinking is the next big leap in AI-assisted creativity specifically, and then just broadly, where do you think things are going to be going in the next few years?\"",
+   "zh": "为了让人们对未来趋势有所把握。这是许多人心中的重大疑问。有人曾向我提出一个我很喜欢的疑问：“人工智能已经以多种方式改变着创意工作，比如写作、设计和编程。您认为下一个重大突破是什么？具体而言，在人工智能辅助的创意领域，我们应当关注哪些方向？更宏观地看，在未来几年里，您认为整个行业将朝着哪个方向发展？”",
+   "ts": "01:09:59"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. This is also an area where I'm a big optimist. If you look at Sora, for example. I mean we talked about ImageGen earlier and the absolute fount of creativity that people are putting across Twitter and Instagram and other places. I am the world's worst artist like the worst. Maybe the only thing I'm worse at than art is singing. Give me a pencil and a pad of paper and I can't draw better than our eight-year-old. But give me ImageGen and I can think some creative thoughts and put something into the model and suddenly have output that I couldn't have possibly done myself. That's pretty cool. (01:11:09): Even you look at folks that are really talented. I was talking to a director recently about Sora, someone who's directed films that we would all know, and he was saying, for a film that he's doing, take the example of some sort of sci-fi-ish, think of Star Wars, and you've got some scene where there's a plane zooming into some Death Star-like thing. And so you've got the plane looking at the whole planet, and then you want to cut to a scene where the plane's kind of at the ground level, and all of a sudden you see the city and everything else. How are we going to manage that cut scene? And that transition? (01:11:51): And he was saying, \"In the world of two years ago, I would have paid a 3D effects company a hundred grand and they would've taken a month, and they would've produced two versions of this cut scene for me. And I would've evaluated them. We would've chosen one, because what are you going to do? Pay another 50 grand and wait another month. And we would've just gone with it. And it would be fine. Movies are great. I love them. And there've been...\" (01:12:25): Obviously, we can do great things with the technology that we've had, but you now look at what you can do with Sora. And his point was, \"Now, I can use Sora, our video model, and I can get 50 different variations of this cut scene just me brainstorming into a prompt and the model brainstorming a little bit with me. I've got 50 different versions. And then of course, I can iterate off of those and refine them and take different ideas. And now I'm still going to go to that 3D effects studio to produce the final one, but I'm going to go having brainstormed and had a much more creative approach with an outcome that's much better. And I did that assisted by AI.\" (01:13:08): My personal view on creativity in general is that it's no one's going to... You don't type into Sora like, \"Make me a great movie.\" It requires creativity and ingenuity, and all these things, but it can help you explore more. It can help you get to a better final result. So, again, I tend to be an optimist in most things, but actually, I think there's a very good story here.",
+   "zh": "是啊。这也是我非常乐观的一个领域。比如说索拉（Sora）吧。我之前提过ImageGen，还有人们在推特、Instagram等平台上展现出的无穷创意。我自己算世界上最差劲的艺术家了，可能除了画画之外，我最不擅长的就是唱歌了。给我一支铅笔和一张纸，我画出来的东西连八岁小孩都比不上。但用ImageGen，我就能构思出一些创意想法，输入到模型里，然后突然就能产出超出我个人能力的成果。这真是太棒了。（01:11:09）：就连那些才华横溢的人也不例外。我最近和一位导演聊起索拉，他执导过我们都熟知的电影。他说，在他正在制作的一部科幻片里，有个场景是飞机飞向类似死星的物体。飞机先是俯瞰整个星球，然后镜头切换到地面视角，突然就能看到城市和其他景象。怎么实现这个切换呢？（01:11:51）：他说：“两年前，要是让我找3D特效公司做这个，得花十万美元，耗时一个月，还只能做出两个版本让我评估。最后选一个版本，接着再等一个月再花五万美元来完善。这样做电影太糟糕了。我热爱电影，也见证了……” （01:12:25）：显然，现有技术也能做出不错的东西，但看看索拉能带来什么。他的观点是：“现在我用索拉的视频模型，自己构思提示词，再让模型辅助思考，就能得到50个不同版本的切换场景。然后我还能在此基础上进行迭代和优化，最终再找3D特效公司完成最终制作，但这次我已经有了更成熟的创意和思路。”（01:13:08）：我对创意的总体看法是，没有人能……你不会对索拉说：“给我拍一部大片吧。” 这需要创造力和巧思，但它能帮助你探索更多可能，获得更好的最终成果。所以，总的来说，我对大多数事物都持乐观态度，但我确实认为这里有很好的机遇。",
+   "ts": "01:10:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know Sam Altman, I think it was him who tweeted recently, the creative writing piece that you guys are working on where it's... He is very bad at writing creative stuff, and he shared an example where it's actually really good. I imagine that's another area of investment.",
+   "zh": "我认识山姆·奥特曼，我记得是他最近在推特上分享的创意写作例子。他自己写东西很糟糕，但分享的例子却很棒。我想这也是值得投资的领域之一。",
+   "ts": "01:13:31"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, there's some exciting stuff happening internally with some new research techniques. We'll have more to say about that at some point. But yeah, Sam sometimes likes to show off some of the stuff that's coming, which is smart. By the way, it's very indicative of this iterative deployment philosophy. We don't have some breakthrough and keep it to ourselves forever, and then bestow it upon the world someday. We kind of just talk about the things we're working on and share when we can and launch early and often, and then iterate in public. I really like that philosophy.",
+   "zh": "是的，公司内部正在进行一些令人兴奋的研究技术开发。我们稍后会详细介绍。但没错，山姆有时喜欢展示即将推出的新成果，这很明智。顺便说一句，这恰恰体现了我们迭代式部署的理念。我们不会把突破性成果藏着掖着，最后再一次性公布，而是尽可能多地分享进展，早早发布并频繁迭代，最后在公开场合进行优化。我真的很欣赏这种理念。",
+   "ts": "01:13:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love all these hints that a few things coming. I know you can't say too much. You talked about how there might be a coding leap coming in the near future maybe by the time this comes out. Is there anything else people should be thinking about, might be coming in the near future? Any things you can tease that are interesting? Exciting?",
+   "zh": "我喜欢你透露的这些即将推出的新功能的暗示。我知道你不能多说。但你提到可能在不久的将来会有编码方面的突破，也许就在这期播客发布的时候。接下来还有什么值得期待的新进展吗？有没有其他即将问世的有趣技术？令人兴奋的消息？",
+   "ts": "01:14:22"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Man, this hasn't been enough for you?",
+   "zh": "天啊，你还嫌不够？",
+   "ts": "01:14:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Only everything is getting better every day.",
+   "zh": "一切都在日新月异地进步。",
+   "ts": "01:14:41"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. I'm like, man, I hope we get some of this stuff out before the episode launches so-",
+   "zh": "是啊。我就想，天哪，希望我们能在这一期播客发布前把这些成果推出来——",
+   "ts": "01:14:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is your new timebox.",
+   "zh": "这就是你的新时间节点。",
+   "ts": "01:14:49"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "... I don't piss people off. The amazing thing to me is we were talking earlier about how far models have come in just a couple of years. If you went back to GPT-3, you'd be disgusted by how bad it was, even though Lenny of two years ago was mind-blown by how good these were. And for a long time, we were iterating every six to nine months on a new GPT model. It was like GPT-3, GPT-3.5, 4, and now with this o-series of reasoning models, we're moving even faster. Every roughly three months, maybe four months, there's a new o-series model, and each of them is a step up in capability. (01:15:41): And so the capabilities of these models are increasing at a massive pace. They're also getting cheaper as they scale. You look at where we were even a couple of years ago. I think the original, I don't know, what was it, GPT-3.5 or something was like 100 x the cost of GPT-4o mini today in the API. A couple of years, you've gone down two orders of magnitude in cost for much more intelligence. And so I don't know where there's another series of trends like that in the world. Models are getting smarter, they're getting faster, they're getting cheaper, and they're getting safer too. They hallucinate less every iteration. (01:16:27): And so the Morse Law and transistors becoming ubiquitous. That was a law around doubling the number of transistors on a chip every 18 months. If you're talking about something where you're getting 10 x every year, that's a massively steeper exponential. And it tells us that the future is going to be very different than today. The thing I try and remind myself is, the AI models that you're using today is the worst AI model you will ever use for the rest of your life. And when you actually get that in your head, it's kind of wild.",
+   "zh": "……我可不想惹人生气。对我来说，最惊人的是我们之前讨论的，模型在短短几年内取得的巨大进步。如果回看GPT-3，你会对它糟糕的表现感到震惊，而两年前的莱尼却对其卓越的表现惊叹不已。长期以来，我们每六到九个月就会迭代一个新的GPT模型。先是GPT-3、GPT-3.5、GPT-4，现在又有了o-系列推理模型，我们的进展速度更快了。大约每三个月，甚至四个月，就会推出一个新的o-系列模型，每个模型都比前一个有更大的能力提升。（01:15:41）：因此这些模型的能力正在以惊人的速度提升。随着规模扩大，成本也在降低。看看几年前的我们。我记得最初的GPT-3.5之类的模型，API上的成本是今天GPT-4o mini的100倍。短短几年间，成本下降了两个数量级，却换来了更强的智能。真不知道世界上还有哪种技术能有这样的指数级增长。模型越来越智能、速度越来越快、成本越来越低，安全性也越来越高，每次迭代产生的幻觉越来越少。（01:16:27）：就像摩尔定律和晶体管的普及。那个定律是每18个月晶体管数量翻倍。但如果你谈论的是每年增长10倍的技术，那就是指数级增长得多了。这告诉我们，未来将与今天大不相同。我努力提醒自己，你今天使用的AI模型，将是余生中使用的最差的AI模型。当你真正意识到这一点时，真是令人惊叹。",
+   "ts": "01:14:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was going to actually say the same thing, and that's the thing that always sticks with me when I watch this thing. You're talking about Sora, and I imagine many people hearing that are like, \"No, no. It's not actually ready. It's not good enough. It's not going to be as good as a movie I see in the theater.\" But the point is what you just made that this is the worst it's going to be. It will only get better.",
+   "zh": "我其实也想说同样的话，这也是我每次看这段内容时最深有感触的地方。你谈到Sora，我相信很多听众都会说：“不，不。它还没准备好。它还不够好，不可能比得上我在影院看的电影。” 但关键在于你刚刚提到的，这已经是最糟糕的阶段了。之后只会越来越好。",
+   "ts": "01:17:08"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, model maximalism. Just keep building for the capabilities that are almost there, and the model's going to catch up and be amazing.",
+   "zh": "是啊，模型至上主义。只要不断提升那些几乎触手可及的能力，最终模型就会迎头赶上并创造惊喜。",
+   "ts": "01:17:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Escape to where the puck is going to be.",
+   "zh": "追随冰球的轨迹，顺势而为。",
+   "ts": "01:17:35"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:17:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This reminds me, I was just using... I was duplifying everything the other day and I was just like, \"What is taking so long.\"",
+   "zh": "这让我想起前几天我在复制所有内容时，还一直在想：“怎么要花这么久时间？”",
+   "ts": "01:17:38"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "As one does.",
+   "zh": "就像人们常说的那样。",
+   "ts": "01:17:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just like cut... What was that?",
+   "zh": "就像剪辑……那是什么？",
+   "ts": "01:17:43"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I said, as one does.",
+   "zh": "我说，就像人们常说的那样。",
+   "ts": "01:17:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As one does these days. I was just like, \"It's taking a minute to generate this image of my family in this amazing way.\" Come on, what's taking so long. You just get so used to magic happening in front of you.",
+   "zh": "就像如今人们常说的那样。我当时就想：“用这种惊艳的方式生成家庭照片怎么要花一分钟时间？”得了吧，这有什么好慢的？你只是太习惯于眼前魔术般的效果了。",
+   "ts": "01:17:46"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, totally.",
+   "zh": "是啊，一点没错。",
+   "ts": "01:17:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, final question. This is going to go in a completely different direction. A lot of people asked about this. So famously, you led this project at Facebook called Libra, which is now called Novi. A lot of people always wondered, \"What happened there? That was a really cool idea.\" I know some people have a sense there's regulation challenges, things like that. I don't know if you've talked about this much. So I guess, could you just give people a brief summary of just what is Libra? This project you working on, and just what happened, and how you feel about it?",
+   "zh": "好，最后一个问题。这个问题会转向一个完全不同的方向。很多人都问过这个问题。众所周知，你在Facebook领导了一个叫Libra的项目，现在改名为Novi了。很多人一直好奇：“那到底发生了什么？那可是个很酷的想法。” 我知道有些人觉得里面有监管挑战之类的问题。我不知道你是否谈过太多。所以我想，你能不能给人们简单概括一下Libra到底是什么？你参与的这个项目，到底发生了什么，以及你对此的看法？",
+   "ts": "01:17:59"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. I mean, David Marcus led it, and I happily work for him and with him. I think he's a visionary and also a mentor and a friend. Honestly, Libra is probably the biggest disappointment of my career. When I think about the problems we were solving, which are very real problems. If you look at, for example, the remittance space, people sending money to family members in other countries, it is maybe... I mean it's incredibly regressive, right? People that don't have the money to spend are having to pay 20% to send money home to their family. So outrageous fees, it takes multiple days, you have to go then pick up cash from... It's all bad. (01:19:11): And here we are with 3 billion people using WhatsApp all over the world, talking to each other every day, especially friends and family, and exactly the kind of people who'd send money to each other. Why can't you send money as immediately, as cheaply, as simply as you send a text message? It is one of those things when you sit back and think about it, that should just exist. And that was what we set out to try and do. (01:19:41): Now, I don't think we played all of our cards perfectly. If I could go back and do things, there are a bunch of things I would do differently. (01:19:50): We tried to get it all at once. We tried to launch a new blockchain. It was a basket of currencies originally. It was integration into WhatsApp and Messenger, and I think the whole world kind of went like, \"Oh my God, that's a lot of change at once.\" And it happened also to be at the time that Facebook was at the absolute nadir of its reputation. And so that didn't help. It was also not the Messenger that people wanted for this kind of change. We knew all that going in, but we went for it. (01:20:21): I think there are a bunch of ways that we could do that that would've introduced the change a little bit more gently, maybe still gotten to that same outcome, but fewer new things at once and introduced the new things one at a time. Who knows? Those were decisions we made together. So we all own them. Certainly, I own them. But it fundamentally disappoints me that this doesn't exist in the world today because the world would be a better place if we'd been able to ship that product. I would be able to send you 50 cents in WhatsApp for free. It would settle instantly. Everybody would have a balance in their WhatsApp account. We'd be transact... I mean, it should exist. (01:21:03): I don't know. To be honest, the current administration is super friendly to crypto. Facebook's reputation, Meta's reputation is in a very different place. Maybe they should go build it now.",
+   "zh": "是的。我的意思是，大卫·马库斯领导了这个项目，我很乐意为他工作，也很享受与他共事的时光。我认为他是个有远见的人，同时也是导师和朋友。说实话，Libra项目可能是我职业生涯中最大的遗憾。当我回想起我们当时要解决的问题——那些实实在在存在的难题时。比如汇款领域，人们给身处其他国家的家人汇款，这简直……我是指这太不人道了，对吧？那些没有余钱的人却要花20%的手续费才能把钱寄回家。手续费高得离谱，转账还需要数天时间，还得亲自去领现金……简直糟透了。（01:19:11）如今全球有30亿人每天通过WhatsApp相互交流，尤其是亲友之间，这正是他们最常相互转账的场景。为什么不能像发短信一样即时、低廉、简单地转账呢？当你静下心来思考这个问题时，它本该自然而然地存在。这正是我们当初努力要实现的目标。（01:19:41）现在回想起来，我们确实没有把每件事都处理得完美。如果能重来，我会做出很多不同选择。（01:19:50）我们试图一口气解决所有问题。我们试图推出全新区块链，最初是货币篮子，然后整合到WhatsApp和Messenger平台。但当时整个世界仿佛在说：\"天哪，一下子变动太多了！\"而Facebook当时正处于声誉最低谷，这无疑雪上加霜。此外，Messenger也不是人们期望用于此类变革的平台。我们事前就清楚这些问题，但还是选择全力推进。（01:20:21）我认为有很多改进方案能更平稳地引入变革，或许最终结果相同，但一次只推出一个新功能，逐步推进。谁知道呢？这些都是我们共同做出的决定。所以责任由我们所有人共同承担。当然，我也深感遗憾，因为如果我们当时能成功推出这款产品，世界会变得更美好。比如我在WhatsApp上免费给你转50美分，就能即时到账。每个人都能在WhatsApp账户里存钱。我们本可以实现交易……这本该存在的。（01:21:03）说实话，当前政府对加密货币非常友好，Facebook和Meta的声誉也已大为改观。或许他们现在应该去开发它了。",
+   "ts": "01:18:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was looking at the history of it, and apparently, they sold the tech to some private equity company for 200 million bucks.",
+   "zh": "我查看了它的历史，显然他们把技术卖给了一家私募股权公司，价格是2亿美元。",
+   "ts": "01:21:13"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, yeah, and-",
+   "zh": "是啊，是啊，还有——",
+   "ts": "01:21:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They had to buy it back.",
+   "zh": "他们不得不把它买回来。",
+   "ts": "01:21:21"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "There are a couple of current blockchains that are built on the tech because the tech was open-sourced from the beginning. Aptos and Mistin are two companies that are built off of this tech. So at least all of the work that we did, did not die and lives on in these two companies, and they're both doing really well. But still, we should be able to send each other money in WhatsApp, and we can't today.",
+   "zh": "现在有几家区块链公司基于这项技术开发产品，因为技术从一开始就是开源的。Aptos和Mistin就是两家基于此技术的公司。所以至少我们所做的一切努力并没有白费，仍体现在这两家公司中，而且它们发展得都很不错。但即便如此，我们现在还是无法在WhatsApp上给彼此转账。",
+   "ts": "01:21:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hear, hear. Well, thanks for sharing that story, Kevin. Is there anything else you want to share or maybe a last negative advice or insight before we get to our very exciting lightning round?",
+   "zh": "好的，听起来不错。嗯，凯文，感谢你分享这个故事。还有什么想分享的吗？或者在我们进入激动人心的闪电问答环节之前，你能给我们最后一个负面建议或见解吗？",
+   "ts": "01:21:49"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Ooh, the lightning round. Let's just go do that.",
+   "zh": "哦，闪电问答环节。咱们直接开始吧。",
+   "ts": "01:21:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's do it. With that, Kevin, we reached our very exciting lightning round. Are you ready?",
+   "zh": "好的。那么，凯文，我们要进入激动人心的闪电问答环节了。你准备好了吗？",
+   "ts": "01:22:01"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah.",
+   "zh": "好的。",
+   "ts": "01:22:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's do it. Okay. What are two or three books that you find yourself recommending most to other people?",
+   "zh": "开始吧。好的。你有没有两三本你最常向别人推荐的书？",
+   "ts": "01:22:06"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Co-Intelligence by Ethan Mollick, a really good book about AI and how to use it in your daily life as a student, as a teacher. He's super thoughtful. Also, by the way, a very good follow on Twitter. The Accidental Superpower by Peter Zion. Very good if you're interested in geopolitics and the forces that sort of shape the dynamics happening. And then I really enjoyed Cable Cowboy, I don't know who the author is, but the biography of John Malone. Just fascinating. If you like business, especially if you want to get into... I mean the man was an incredible dealmaker and shaped a lot of the modern cable industry. So that was a good biography.",
+   "zh": "伊桑·莫利克的《协同智能》。这本书讲AI，以及如何在日常生活中运用它，无论是作为学生还是教师。他思路非常深刻。顺便说一句，他在Twitter上也很值得关注。彼得·齐奥恩的《无意的超级大国》。如果你对地缘政治和塑造现代动态的力量感兴趣，这本书很棒。还有我非常喜欢的《有线电视牛仔》，我不知道作者是谁，但这是约翰·马龙的传记。太精彩了。如果你对商业感兴趣，尤其是想涉足……要知道他是个了不起的交易高手，对现代有线电视行业影响深远。所以这是一本很棒的传记。",
+   "ts": "01:22:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "These are all first-time mentions, which is always a great,",
+   "zh": "这些都是首次提及的，总是很棒。",
+   "ts": "01:22:53"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Oh, good.",
+   "zh": "哦，太好了。",
+   "ts": "01:22:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Next question. Do you have a favorite recent movie or TV show that you really enjoyed?",
+   "zh": "下一个问题。你最近有没有特别喜欢的电影或电视剧？",
+   "ts": "01:22:56"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I wish I had time to watch a TV show, so I'm-",
+   "zh": "我希望我有时间看电视剧，所以我-",
+   "ts": "01:23:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just Sora videos.",
+   "zh": "就看Sora的视频。",
+   "ts": "01:23:06"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah, right. I don't know. When I was a kid, I read the Wheel of Time series and now Amazon has it as they're in the third season of it, so I want to watch that. I haven't yet. Top Gun 2 was an awesome movie. I think that's no longer new.",
+   "zh": "对啊，对啊。我不知道。小时候我读过《时光之轮》系列，现在亚马逊把它拍成电视剧了，第三季都出了，我想看。但还没看。《壮志凌云2》是一部很棒的电影。我觉得它已经不算新片了。",
+   "ts": "01:23:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That shows when the last time you watched a movie was.",
+   "zh": "这显示出你最近看电影的时间了。",
+   "ts": "01:23:28"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "But I like the idea. I want more Americana. I want more being proud of being strong. And I thought Top Gun 2 did a really good job of that. Pride and patriotism, I think the US could use more of that.",
+   "zh": "但我喜欢这个主意。希望能多一些美国风情，多一些为强大而自豪的感觉。我觉得《壮志凌云2》在这方面做得很棒。自豪和爱国主义，我觉得美国可以多一些。",
+   "ts": "01:23:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a favorite product that you've recently discovered that you really love, other than your super intelligence internal tool that you all have access to? I'm just joking.",
+   "zh": "除了你们都能用的内部工具“超级智能”之外，还有没有最近发现的、你特别喜欢的产品？我开玩笑的。",
+   "ts": "01:23:48"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "That's right. Internal AGR.",
+   "zh": "对呀。内部AGR。",
+   "ts": "01:23:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that's right.",
+   "zh": "对呀，对呀。",
+   "ts": "01:23:57"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Well, I think vibe coding with products like Windsurf is just super fun. I'm having a great time doing that. I still just love that our chief people officer vibe coded some tools. Maybe the other one is Waymo. Every chance I get, I'll take a Waymo. It's just a better way of riding, and it still feels like the future. So they've done an amazing job.",
+   "zh": "嗯，我觉得用Windsurf这样的产品做代码开发超级有趣。我现在玩得很开心。我还是很喜欢我们的首席人力官编写的一些工具。可能还有Waymo。只要有机会，我都会选Waymo。它就是一种更好的出行方式，感觉还是未来。他们的工作太棒了。",
+   "ts": "01:24:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. By the way, I had the founder of Windsurf on the podcast. It might come out before this or after this. And also Cursor's CEO is coming on the podcast either before or after this.",
+   "zh": "太棒了。顺便说一句，我在播客上邀请了Windsurf的创始人。可能这期播客之前或之后就会上线吧。还有Cursor的CEO也会在播客上亮相，时间可能在之前或之后。",
+   "ts": "01:24:24"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Oh, cool. I have a ton of respect for what those guys are doing. Those are awesome products.",
+   "zh": "哦，太棒了。我对那些人的工作充满敬意。他们的产品真是太棒了。",
+   "ts": "01:24:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just changing the way everyone builds product. No big deal.",
+   "zh": "只是在改变每个人构建产品的方式。没什么大不了的。",
+   "ts": "01:24:36"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:24:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A couple more questions. Do you have a favorite life motto that you often repeat yourself, find really useful in work or in life?",
+   "zh": "再问几个问题。你有没有一条自己常挂在嘴边、觉得在工作或生活中非常有用的座右铭？",
+   "ts": "01:24:40"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yeah. So actually, this is interestingly enough, it is more of a philosophy, but then I thought Zuck encapsulated it one time on a Facebook earnings call. So I actually had this made into a poster. It sits in my room. But somebody was asking Mark. This is literally on an earnings call, so it's like an analyst on an earnings call asking him. It was some quarter when Facebook had grown a lot. This was back in the 20 teens sometime, I think. But he's like, \"So what did you do? What was it that you launched? What was the one thing that drove all this growth for you?\" And he said something to the effect of, \"Sometimes it's not any one thing, it's just good work consistently over a long period of time.\" And that's always stuck with me. (01:25:33): And I think it is. I mean I run ultra marathons. It's like it's just about grinding. I think people too often look for the silver bullet when a lot of life and a lot of excellence is actually showing up day in and day out, doing good work, getting a little bit better every single day, and you may not notice it over a week or even a month. And a lot of people then kind of get dismayed and stop. But actually, you keep doing it. The gains keep compounding. And over the course of a year, two years, five years, it adds up like crazy. So good work consistently over a long period of time.",
+   "zh": "有的。说起来挺有意思的，这更像是一种哲学理念，但我记得扎克伯格在一次Facebook财报电话会议上概括过。所以我把这句话印成了海报，挂在自己房间里。但之前有人问马克·扎克伯格这个问题。这句话就是在财报电话会议上说的，当时有分析师问他：\"Facebook增长这么快，你们做了什么？推出了什么产品？是什么因素推动了这一切增长？\"扎克伯格回答大意是：“有时候没有什么神奇的秘诀，只是长期持续地做好工作。\" 这句话一直让我印象深刻。（01:25:33）：我觉得确实如此。比如我跑超级马拉松，关键就是坚持不懈。我觉得很多人总想寻找速成之道，而生活中的许多成就和卓越实际上是日复一日地做好工作，日积月累，虽然一周或一个月看不出效果，但长期坚持就能看到成果。所以长期持续地做好工作真的很重要。",
+   "ts": "01:24:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. I got to make a poster of this now. That is-",
+   "zh": "我太喜欢这句话了。我现在就得去把它做成海报。这真是——",
+   "ts": "01:26:13"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "We'll get you one.",
+   "zh": "我们会给你准备一份。",
+   "ts": "01:26:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I so resonate with that. Okay, I'll take it. That is so good. Okay, final question. I'm going to ask if you have any prompting tricks, and I'm going to set it up first. But think about if you have a trick that you could recommend to people for prompting LLMs better. I had a guest, Alex Komorowski, come on the podcast. He's from Stripe and writes his weekly reflections on what's happening in the world. A lot of them are AI-related. (01:26:36): And he once described an LLM as a zip file of all human knowledge. All the answers are in there, and you just need to figure out the right question to ask to get the answer to every problem basically. And so it just reminded me how important prompt engineering is and knowing how to prompt well. You're constantly prompting ChatGPT. What's one tip, one trick that you found to be helpful in helping you get what you want?",
+   "zh": "我太认同这句话了。好的，我接受这个观点。这太棒了。最后一个问题。我想问你有没有什么提示技巧，我先抛个题目。但你有没有什么建议，能帮助人们更好地提示LLM（大语言模型）？我邀请过嘉宾亚历克斯·科莫罗夫斯基上节目。他来自Stripe，每周都会写反思文章，内容多与AI相关。（01:26:36）：他曾把LLM描述成人类所有知识的压缩包。所有答案都在里面，你只需要找到正确的问题，就能得到每个问题的答案。这让我意识到提示工程的重要性，以及如何有效地进行提示。你一直在提示ChatGPT。你有什么有用的技巧或窍门吗？",
+   "ts": "01:26:15"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Well, I'll say, first of all, I want to kill the idea that you have to be a good prompt engineer. I think if we do our jobs, that stops being true. It's just one of those sharp edges of models that experts can learn. But then, just over time, you shouldn't need to know all that. The same way you used to have to get deep into, \"What's your storage engine in MySQL? Are you using InnoDB 4.1?\" There's still use cases for that if you're at the deep edge of MySQL performance. But most people don't need to care. And you shouldn't need to care about minute details of prompting if AI is really going to become broadly adopted. (01:27:39): But today, we're not totally there. I think by the way, we are making progress there. I think there is less prompt engineering than there had to be before. But in line with some of the fine-tuning stuff I was talking about and the importance of giving examples, you can do effectively poor man's fine-tuning by including examples in your prompt of the kinds of things that you might want and a good answer. So like, \"Here's an example and here's a good answer. Here's an example, and here's a good answer. Now, go solve this problem for me.\" And the model really will listen and learn from that. (01:28:15): Not as well as if you do a full fine-tune, but much more than if you don't provide any examples. And I think people don't do that often enough.",
+   "zh": "好吧，我首先要说，我想打破一个观念，那就是你必须成为一个出色的提示工程师。我认为只要我们做好本职工作，这种观念就站不住脚了。这只是模型中的一些难点，而专家们可以掌握这些知识。但随着时间推移，你其实不需要了解所有这些细节。就像过去你必须深入探究“MySQL的存储引擎是什么？你用的是InnoDB 4.1吗？”之类的问题一样——如果你深入研究MySQL性能优化，这种方法仍有用。但对大多数人来说没必要深究。同样，如果AI要真正普及，你也不需要过度关注提示的细微差别。（01:27:39）但目前我们还做不到这一点。我得说我们在这方面确实在进步。现在需要的提示工程师比以前少多了。但结合我之前提到的微调技巧以及提供示例的重要性，你可以通过在提示中加入示例来实现类似的低成本微调，比如“这里有个示例和正确答案。现在去解决这个问题吧。”模型真的会听从指令并从中学习。（01:28:15）虽然效果不如全面微调，但比不提供示例要好得多。我觉得人们用得还不够多。",
+   "ts": "01:27:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. One tip that I heard, I'm curious if this works is you tell it, \"This is very, very important to my career.\" Make it really understand like, \"Someone will die if you don't answer me correctly.\" Does that work?",
+   "zh": "太棒了。我听说过一个技巧，不知道有没有用，就是你对它说：“这对我的职业生涯非常非常重要。”让它真正理解，比如“如果你不能正确回答，我的人生就完了”。这样行得通吗？",
+   "ts": "01:28:24"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "It's really weird. There's probably a good explanation for this. But you can also say things. So, yes, I think there is some validity to that. You can also say things like, \"I want you to be Einstein. Now, answer this physics problem for me,\" or, \"You are the world's greatest marketer, the world's greatest brand marketer. Now here's a naming question.\" And there is something where it sort of shifts the model into a certain mindset that can actually be really positive.",
+   "zh": "确实挺奇怪的。这背后可能有合理的解释。但你也可以试试。比如，“我希望你成为爱因斯坦。现在给我解答这个物理问题吧”，或者“你是最伟大的营销人员，全球最顶尖的品牌营销专家。现在这里有个命名问题。”这样能让模型进入特定思维模式，效果确实不错。",
+   "ts": "01:28:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I use that tip all the time actually. I always... When I'm coming up with questions for interviews and I use it occasionally to come up with things I haven't thought of, I actually type, \"You're the world's best podcast interviewer.\"",
+   "zh": "我经常用这个技巧。每次为面试出题时，我偶尔会用它来激发灵感，比如输入“你是最出色的播客采访者”。",
+   "ts": "01:29:10"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "01:29:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have Kevin Weil coming on the pod... Yeah, it actually works.",
+   "zh": "我邀请了凯文·韦尔来参加播客……确实有效。",
+   "ts": "01:29:21"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "By the way, back to our other point that we made a few times. You do do that sometimes with people. You sort of put them... You frame things, you get them into a certain mindset, and the answer is completely different. So I think there are human analogs of this one more time.",
+   "zh": "顺便说回我们之前多次提到的观点。有时候你也会对人这样做。你会给他们设定框架，让他们进入特定思维模式，答案就会完全不同。所以我觉得这其中有可以类比人类思维的地方。",
+   "ts": "01:29:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Kevin, this was incredible. I was just thinking about a way to end this. The way I feel like... I feel like not only are you at the cutting edge of the future. You and the team are kind of actually the edge that is creating the future. And so it's a real honor to have you on here and to talk to you and to hear where you think things are going and what we need to be thinking about, so thank you for being here, Kevin.",
+   "zh": "凯文，太棒了。我一直在想怎么结束这次对话。我觉得你不仅站在未来的前沿。你和团队实际上正在创造未来的边界。能邀请你来参加节目，与你交流，聆听你对未来的见解和建议，真是荣幸之至。谢谢你能来，凯文。",
+   "ts": "01:29:42"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Oh, thank you so much for having me. I get to work with the world's best team, and all credit to them, but really appreciate you having me on. It's been super fun.",
+   "zh": "哦，非常感谢邀请我。我能与世界上最棒的团队共事，这都要归功于他们，但真的很感激你们能让我参与其中。整个过程超级有趣。",
+   "ts": "01:30:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I forgot to ask you the two final questions. Where can folks find you if they want to reach out, and how can listeners be useful to you?",
+   "zh": "我忘了问你最后两个问题。如果大家想联系你，可以在哪里找到你？听众怎样才能为你提供帮助？",
+   "ts": "01:30:17"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "I am @kevinweil, K-E-V-I-N-W-E-I-L on pretty much every platform. I'm still a Twitter DAU after all these years. I guess an X DAU, LinkedIn, wherever. And I think the thing I would love from people, give me feedback. People are using ChatGPT. Tell me where it's working really well for you and where you want us to double down. Tell me where it's failing. I'm very active and engaged on Twitter. I love hearing from people, what's working and what's not, so don't be shy.",
+   "zh": "我是@kevinweil，在几乎所有平台上都能找到我。这么多年过去了，我还是Twitter的DAU用户。估计也是X的DAU用户，领英用户等等。最希望大家能给我反馈。大家都在使用ChatGPT。告诉我它在哪些方面表现出色，又希望我们在哪些方面加倍努力。也请指出它哪里做得不好。我的推特账号很活跃，乐于听取大家的意见，分享成功经验和遇到的挑战，所以别害羞哦。",
+   "ts": "01:30:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I learned following you helps you figure out all the stuff that you're launching. You share all the things that are going out every day, or week, month, so that's also a benefit. And by the way, 400 million weekly active users all emailing you feedback. Here we go.",
+   "zh": "而且我发现关注你能帮我了解你们正在推出的所有项目。你每天、每周、每月都会分享最新动态，这对我也很有帮助。顺便说一下，每周有4亿活跃用户会给我们发送反馈。开始吧。",
+   "ts": "01:30:56"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "Yes, let's do it.",
+   "zh": "是的，那就开始吧。",
+   "ts": "01:31:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's going to work out great. Okay. Well, thank you, Kevin. Thanks for being here.",
+   "zh": "一定会很棒的。好的，谢谢你，凯文。感谢你今天的参与。",
+   "ts": "01:31:09"
+  },
+  {
+   "speaker": "Kevin Weil",
+   "en": "All right, man, thanks so much. See you soon.",
+   "zh": "好的，伙计，非常感谢。回头见。",
+   "ts": "01:31:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "再见，各位。非常感谢收听。如果你觉得这期内容有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅本节目。另外，请考虑给我们评分或写评论，这对其他听众找到节目会很有帮助。你可以在lennyspodcast.com找到所有往期节目或了解更多信息。下期节目见。",
+   "ts": "01:31:13"
+  }
+ ]
+}

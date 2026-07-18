@@ -1,0 +1,785 @@
+{
+ "id": "Amjad Masad",
+ "name": "Amjad Masad",
+ "category": "产品",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Amjad+Masad",
+ "bio": {
+  "en": "Amjad Masad is the co-founder of Replit, an AI-powered platform for building and shipping software with over 34 million users, on a mission to make creating software dramatically easier.",
+  "zh": "Amjad Masad 是 Replit 的联合创始人，这是一个拥有超 3400 万用户的 AI 软件开发与部署平台，使命是让创建软件变得容易得多。"
+ },
+ "summary": {
+  "en": "Amjad demos what Replit can do today—letting anyone build and ship software, including full startups, with minimal technical skill—which he argues will blow people's minds. He predicts the bottleneck shifts from making things to generating ideas, and imagines a future where someone runs a billion-dollar company with zero employees. The conversation explores the profound implications for the future of product development, product management, and founders as AI lowers the cost of building.",
+  "zh": "Amjad 演示了 Replit 今天的能力——让任何人都能用极少的技术技能构建并发布软件（包括完整的创业项目），他认为这会让人大开眼界。他预测瓶颈将从“做出来”转向“想出来”，并想象未来有人用零员工运营一家十亿美元公司。对话深入探讨了 AI 降低构建成本后，对产品开发、产品管理和创始人的深远影响。"
+ },
+ "turns": [
+  {
+   "speaker": "Amjad Masad",
+   "en": "The idea behind Replit is that making software today is very difficult. We want to make it easier. People view this as a developer in their pocket essentially. We have 34 million users globally. There's people everywhere learning to code on Replit, building startups, building personal software, personal tools.",
+   "zh": "Replit 背后的想法是今天做软件非常难。我们想让它更容易。大家基本把它看作口袋里的开发者。我们全球有 3400 万用户。到处都有人在 Replit 上学编程、建创业公司、建个人软件、个人工具。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "For people building products, say, product managers, founders, what skills do you see will matter more, matter less?",
+   "zh": "对于做产品的人，比如 PM、创始人，你看到什么技能会更重要、更不重要？",
+   "ts": "00:00:20"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Typically, you're bottlenecked where your ideas are not fitting in because they need to be made and they need to be made quickly. Now, you open up that bottleneck. So now actually making things is a lot easier. Actually, you become limited by how fast you can generate ideas.",
+   "zh": "通常你的瓶颈是你的 idea 没法 fit 进因为它们需要被做出来、需要快速做。现在你打开那个瓶颈。现在做东西容易多了。其实你被你能多快产生 idea 限制。",
+   "ts": "00:00:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think people are unaware of just how far things have gone.",
+   "zh": "我觉得大家没意识到事情已经走了多远。",
+   "ts": "00:00:44"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "I could imagine whatever five years from now, someone running a billion-dollar company with zero employees where it's like the support is handled by AI, the development is handled by AI, and you're just building and creating this thing.",
+   "zh": "我能想象五年后有人零员工运行十亿美元公司，客服由 AI 处理、开发由 AI 处理、你就是 build 和创造这个东西。",
+   "ts": "00:00:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Man, the future is wild. Today, my guest is Amjad Masad. Amjad is the co-founder of Replit, an AI-powered software development and deployment platform for building and shipping software. It's one of the fastest-growing developer communities and AI products in the world. There's a lot of talk these days about how AI is changing, how products will be built, how product teams are going to operate, which functions will be more and less valuable over time. But I feel like very few people have actually seen what modern AI tools can do and have fully grasped how much you can get done with very little technical skill now and in the future. And so I'm going to do an experiment with this podcast where I'm going to do a series of behind the product episodes where we go deep on important products that product builders should be aware of and should probably start playing with. (00:01:54): In our conversation, Amjad does a demo of what you can do with Replit today, which is going to blow your mind. And then we spend most of the conversation talking about the implications of this on the future of product development, on the future of product management, and on the future of startups and founders. It's a very exciting time. It's also a very scary and destabilizing time for a lot of people, and my thinking is the more you are aware of what's possible today and where things are going, the better position you'll be in to thrive in this very wild and crazy future that is coming very fast. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing feature episodes, and it helps the podcast tremendously. With that, I bring you Amjad Masad. Amjad, thank you so much for being here. Welcome to the podcast.",
+   "zh": "天哪，未来太疯狂。今天的嘉宾是 Amjad Masad。Amjad 是 Replit 联合创始人，Replit 是 AI 驱动的软件开发和部署平台，用于构建和发布软件。它是世界增长最快的开发者社区和 AI 产品之一。现在很多人在谈 AI 怎么改变产品构建方式、产品团队怎么运作、哪些职能未来更重要或更不重要。但我觉得很少有人真见过现代 AI 工具能做什么、完全 grasp 现在和未来用很少技术技能能完成多少。所以我要在这播客做个实验，做一系列 behind the product 专题，深入产品 builder 该知道、大概该开始玩的重要产品。(00:01:54)：在我们对话里 Amjad demo 了 Replit 今天能做什么，会让你 mind blown。然后我们大部分时间谈这个对产品开发未来、产品管理未来、创业公司和创始人未来的影响。非常 exciting 的时间。对很多人也是非常 scary 和 destabilizing 的时间，我的想法是你越意识到今天可能什么、事情往哪走，你越能在很快到来的非常疯狂未来里 thrive。如果你喜欢这档播客，别忘了在你最喜欢的播客 app 或 YouTube 订阅关注。这是不错过未来节目的最好方式，也极大帮助播客。下面请出 Amjad Masad。Amjad 非常感谢你来，欢迎来到播客。",
+   "ts": "00:01:01"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "It's my pleasure.",
+   "zh": "我的荣幸。",
+   "ts": "00:02:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I thought it'd be great to start with just having you explain what is Replit? What's the vision? Where is this going? What job does it do for people?",
+   "zh": "我觉得开始最好让你解释 Replit 是什么？愿景是什么？这往哪走？它为人做什么工作？",
+   "ts": "00:02:47"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "The idea behind Replit is that making software today is very difficult and we want to make it easier. One of the reasons for the difficulty is that it is very fragmented, so you would need to download what's called an IDE. It's basically a code editor. You need to download the runtime, basically Python or JavaScript, need to figure out a package manager to configure your kind of open source packages, and once you've done all of that, you need to figure out how to deploy it, how to share it. So it's a very hard process, and that's one of the ways where people get stuck and never learn how to code because it just feels like this cumbersome IT process. (00:03:42): And so the vision for Replit has always been is like, okay, making software is fun, is great, more people should do it, but so for more people to do it, it needs to be easier to do, it needs to be in one place, and it needs to be learnable. It's easier to learn. So that's the product today. It is I think one of the more easier IDEs/ environment/deployment environment on the internet, and I think we make it really easy for people to just jump in even without prior experience of coding, especially now with the new AI products that we built.",
+   "zh": "Replit 背后的想法是今天做软件很难、我们想让它更容易。难的原因之一是它很碎片化，你需要下载所谓 IDE，基本是代码编辑器。你需要下载 runtime，基本是 Python 或 JavaScript，需要 figure out 包管理器配置开源包，一旦做完所有那个，你需要 figure out 怎么部署、怎么分享。所以是非常难的过程，那是人卡住、从没学会编程的方式之一因为它感觉像这个繁琐的 IT 流程。(00:03:42)：所以 Replit 的愿景一直是：做软件有趣、好、更多人该做，但要更多人做它需要更容易、在一个地方、可学。更容易学。所以那是今天的产品。它是我认为互联网上更易用的 IDE/环境/部署环境之一，我觉得我们让人很容易就跳进来即使没有编程经验，尤其现在我们建的新 AI 产品。",
+   "ts": "00:02:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by WorkOS. If you're building a SaaS app, at some point, your customers will start asking for enterprise features like SAML authentication and SCIM provisioning. That's where WorkOS comes in, making it fast and painless to add enterprise features to your app. Their APIs are easy to understand so that you can ship quickly and get back to building other features. Today, hundreds of companies are already powered by WorkOS, including ones you probably know like Vercel, Webflow, and Loom. WorkOS also recently acquired Warrant, the Fine Grained Authorization service. Warrant's product is based on a groundbreaking authorization system called Zanzibar, which was originally designed for Google to power Google Docs and YouTube. This enables fast authorization checks at enormous scale while maintaining a flexible model that can be adapted to even the most complex use cases. If you're currently looking to build role-based access control or other enterprise features like single sign-on, SCIM, or user management, you should consider WorkOS. It's a drop-in replacement for Auth0 and supports up to 1 million monthly active users for free. Check it out at workos.com to learn more. That's workos.com. (00:05:40): This episode is brought to you by Persona, the adaptable identity platform that helps businesses fight fraud, meet compliance requirements, and build trust. While you're listening to this right now, how do you know that you're really listening to me, Lenny? These days, it's easier than ever for fraudsters to steal PII, faces, and identities. That's where Persona comes in. Persona helps leading companies like LinkedIn, Etsy, and Twilio securely verify individuals and businesses across the world. What sets Persona apart is its configurability. Every company has different needs depending on its industry, use cases, risk tolerance, and user demographics. That's why Persona offers flexible building blocks that allow you to build tailored collection and verification flows that maximize conversion while minimizing risk. Plus Persona's orchestration tools automate your identity process so that you can fight rapidly shifting fraud and meet new waves of regulation. Whether you're a startup or an enterprise business, Persona has a plan for you. Learn more at withpersona.com/lenny. Again, that's withpersona.com/lenny. What's the scale of Replit at this point? How large has this gotten? How many people are using it?",
+   "zh": "本期节目由 WorkOS 赞助。如果你在建 SaaS app，某个点你的客户会开始要企业功能如 SAML 认证和 SCIM provisioning。这就是 WorkOS 的用武之地，让你快速无痛地给 app 加企业功能。他们的 API 易懂所以你能快速 ship 和回去建别的功能。今天数百家公司已由 WorkOS 驱动，包括你可能知道的 Vercel、Webflow、Loom。WorkOS 最近还收购了 Warrant，细粒度授权服务。Warrant 的产品基于叫 Zanzibar 的开创性授权系统，最初为 Google 设计驱动 Google Docs 和 YouTube。这能在巨大规模下快速授权检查同时保持灵活模型可适应最复杂用例。如果你在找建 RBAC 或其他企业功能如单点登录、SCIM、用户管理，你该考虑 WorkOS。它是 Auth0 的 drop-in 替代，支持最多 100 万月活免费。去 workos.com 了解更多。就是 workos.com。(00:05:40)：本期节目也由 Persona 赞助，可适应的身份平台帮企业打击欺诈、满足合规、建信任。你现在在听这个时，你怎么知道你真在听我 Lenny？这些日子欺诈者偷 PII、人脸和身份比以往容易。这就是 Persona 的用武之地。Persona 帮 LinkedIn、Etsy、Twilio 等领先公司安全验证全球个人和企业。Persona 的与众不同是可配置性。每个公司因行业、用例、风险容忍度、用户人群有不同需求。所以 Persona 提供灵活 building block 让你建定制收集和……",
+   "ts": "00:04:22"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "We have 34 million users globally. We have a large global presence. There's people everywhere learning to code on Replit, building startups, building personal software, personal tools or internal tools of the companies. More recently, we've been expanding to companies. We released our kind of B2B package in July, and that's been growing really fast. It's been really fun to see people bring Replit to work as well.",
+   "zh": "我们全球有 3400 万用户。我们在全球有大量存在。到处都有人在 Replit 上学编程、建创业公司、建个人软件、个人工具或公司内部工具。最近我们在向公司扩展。7 月发布了 B2B 包，增长很快。看到大家把 Replit 带到工作很好玩。",
+   "ts": "00:06:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Damn, I knew it was popular. I didn't realize it was that large actually. As I was preparing for this podcast episode, there's this tweet that went viral where this guy, Jevin, who I actually know. I know this guy from Canada, he's awesome, tweeted about how his 11-year-old girl built an app in Replit. She just had an idea and she built it. And the best part of it is someone in the... replied to him and they're like, \"You have to launch an app. You have to host it somewhere. You have to build a database. You have to deploy it. There's no way to do that.\" And he's like, \"No, that's exactly what Replit did.\"",
+   "zh": "天哪，我知道它受欢迎。我没意识到那么大。我为这期准备时，有个推 viral 了一个叫 Jevin 的人，我其实认识。我认识这个加拿大人，他很 awesome，发推说他 11 岁女儿在 Replit 建了个 app。她就一个 idea 就建了。最棒的是有人回复他说「你得 launch app。你得 host 它。你得建数据库。你得部署。没法做那个。」他 like「不，那正是 Replit 做的。」",
+   "ts": "00:07:25"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah, that's what we do. Everything that commenter was talking about, and he's right. The surprising thing about an 11-year-old building an app is not so much even the coding, it is like all the nonsense around it, and so we just abstract all that away.",
+   "zh": "对，那就是我们做的。那个评论者说的一切，他对。11 岁建 app 让人惊讶的其实不是编程，是它周围所有 nonsense，我们就是 abstract 掉所有那个。",
+   "ts": "00:07:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that and I struggled with that myself when I was an engineer way back in the day.",
+   "zh": "我爱那个，我当年做工程师时也挣扎于那个。",
+   "ts": "00:08:19"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Oh, you were an engineer. I didn't know that.",
+   "zh": "哦，你做过工程师。我不知道。",
+   "ts": "00:08:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was. I was an engineer for 10 years. I was an engineering manager, and then I jumped ship into product.",
+   "zh": "我是。我做了 10 年工程师。我做工程经理，然后跳到产品。",
+   "ts": "00:08:26"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Wow.",
+   "zh": "哇。",
+   "ts": "00:08:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm happy I did but I do miss that. I was not an amazing engineer. I was a good enough startup engineer, so this is the kind of stuff that I would've left to use. So we're going to jump into a demo of what this actually looks like. I thought maybe actually before we get into it, there's other tools that people are aware of that help you build stuff. And so to put a finer point on what this does and how it's different from other things, you may have heard of, say, Cursor, it comes up a lot these days, just talk about a little bit about the competitive landscape of who else is out there that helps you build product.",
+   "zh": "我很高兴我做了但我确实 miss 那个。我不是 amazing 工程师。我是够好的创业工程师，所以这种东西是我会 left 用的。我们要 jump 进 demo 这实际长什么样。我想也许在开始前，有别的工具大家知道帮 build 东西。所以为 point 更精细这做什么和怎么不同于你听过的别的，你可能听过 say Cursor，这些天经常出现，聊一点竞争格局还有谁在外面帮你 build 产品。",
+   "ts": "00:08:32"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Again, we go back to this idea of end-to-end platform for making software. So that's from writing code all the way to deploying it, and monetizing it and all of that. Now, every step in the process of the software development lifecycle, there are a lot of different tools. So Cursor is a fork of VS Code that's made that has really awesome AI tools, but that's an editor. You still need runtime, you still need a deployment environment. Actually, quite a few users use Cursor in tandem with Replit, because Replit just simplifies the runtime and deployment environment. (00:09:42): And so you have products, AI products, different places in the software development lifecycle, but really what differentiates Replit is that we do everything, but also that makes it harder to adopt for certain people. If you're at a big company, it's very easy to bring a new editor and start coding with it. It's quite hard to bring something that's quite opinionated about everything from how the code runs to how the code deploys, but that's the trade-off we're willing to make is like yeah, we're not going to get into the enterprise main software development pipeline, but we want to empower everyone to be able to build software, and that means product managers, designers. We have operations people, sales ops, HR ops. We have lawyers using Replit, and so it is democratizing the act of software engineering.",
+   "zh": "再说一次，我们回到端到端做软件平台的 idea。从写代码到部署、变现所有。现在软件开发生命周期每一步有很多不同工具。Cursor 是 VS Code 的 fork，有非常 awesome 的 AI 工具，但那是编辑器。你仍需 runtime、仍需部署环境。其实不少用户 Cursor 和 Replit 一起用，因为 Replit 简化 runtime 和部署环境。(00:09:42)：所以你在软件开发生命周期不同地方有 AI 产品，但 Replit 的差异化是我们做一切，但那也让某些人更难采用。如果你在大公司，带新编辑器开始编程很容易。带一个对一切从代码怎么跑到怎么部署很有意见的东西挺难，但那是我们愿意做的 trade-off：我们不会进企业主软件开发流程，但我们要 empower 每个人能 build 软件，那意味着 PM、设计师。我们有运营人、sales ops、HR ops。我们有律师用 Replit，所以它在 democratize 软件工程的行为。",
+   "ts": "00:09:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing, and that's why you're here. Let's do a demo. While you're pulling it up, you're going to share your screen and show us what this product can do. And the reason I am excited about doing a demo, and this is an experiment, kind of a new type of podcast episode I'm doing where we're diving into specific products and what they can do, I feel like there's so much talk about AI and what it's doing and people keep reading about, oh, AI can do this and AI can do that, and I feel like not many people actually see this stuff in action, especially the most cutting edge stuff. I think people are unaware of just how far things have gone and how much is actually possible, especially when someone that knows what they're doing is using the product. So I'm excited to show people what is actually possible and especially because this is going to impact the future of product management and product teams. So I'll turn that over to you. Give us a demo.",
+   "zh": "太好了，这就是为什么你在这。来 demo。你 pull up 时，你要 share screen 给我们看这个产品能做什么。我兴奋做 demo 的原因——这是实验、一种新播客我们在 dive 进具体产品和它们能做什么——我觉得有那么多 AI 谈论和它在做什么，大家一直读 AI 能做这、AI 能做那，我觉得没什么人真见过这些 in action，尤其最 cutting edge。我觉得大家没意识到事情走了多远、多少其实可能，尤其当知道在做什么的人用产品时。所以我兴奋给大家看实际可能什么，尤其因为这会影响产品管理和产品团队未来。所以我转给你。给我们 demo。",
+   "ts": "00:10:49"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Awesome. So this is Replit's homepage. You can create what's called a Repl, which is a project. We have all sorts of languages. You can pick from really in the hundreds, but most recently, and this is how Replit became a thousand times easier, is you can just describe what you want to make. So you go on this home page, we have this text box, and you can write something like make me a cool app or what have you, but a more descriptive prompt is better. (00:12:11): And so I asked RPM at Replit, Aman Mathur who's a fan of the show to tell me what PMs like to build. And so he came up with a prompt. He kind of really crafted a great prompt. So I'm going to put it here. And basically, what we're asking for is we want to build a web application. You can say what stack you want to use or you can leave it up to the AI to decide. Here we're saying build it in Node.js for product managers to track feature requests on a public dashboard. So say I have a product, I'm growing, I have a community, I want that community to engage with building the product. I want them to submit feature requests, vote on them. I want to be able to manage that. So we're talking here about the features of voting system, feature requests.",
+   "zh": "太好了。这是 Replit 首页。你可以创建所谓 Repl，就是项目。我们有各种语言。可以从几百个里选，但最近，这也是 Replit 变得千倍容易的方式，你可以就描述你想做什么。你到这个首页，我们有这个文本框，你可以写 like 给我做个酷 app 什么的，但更描述性的 prompt 更好。(00:12:11)：所以我问了 Replit 的 PM Aman Mathur——他是节目 fan——告诉我 PM 喜欢建什么。所以他来了一个 prompt。他真 craft 了一个好 prompt。我放这里。基本我们在要的是建一个 web 应用。你可以说用什么 stack 或留给 AI 决定。这里我们说用 Node.js 建，给 PM 在公共 dashboard 上跟踪 feature request。比如我有产品、在增长、有社区，我要社区参与 build 产品。我要他们提交 feature request、投票。我要能管理那个。所以我们这里谈投票系统、feature request 的 feature。",
+   "ts": "00:11:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Read a few of them just for folks that aren't watching on YouTube to give them, send some of the stuff in this prompt.",
+   "zh": "念几个给不在 YouTube 看的人，给他们这个 prompt 里的一些东西。",
+   "ts": "00:13:02"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "So a feature requests submission, so allowing the users to add features. A voting system, so allowing users for these features, feature requests and status tracking, being able to, it's like a kind of advance style board with columns like planned and progress, so that way the admin can kind of share with the community what they're building. And we want it to be user-friendly design, so make it modern and all of that nice kind of prompty things. And then admin controls for product manager. So as a product manager, I want to be able to really manage this community.",
+   "zh": "feature request 提交，允许用户加 feature。投票系统，允许用户对这些 feature request 投票，状态跟踪，能够，像一种 advanced style board 有 planned 和 in progress 列，让 admin 能和社区 share 他们在 build 什么。我们要 user-friendly 设计，modern 所有那些 nice prompty 东西。然后 PM 的 admin 控制。作为 PM 我要能真管理这个社区。",
+   "ts": "00:13:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that it builds internal tools too, not just the front end.",
+   "zh": "我爱它也建内部工具，不只前端。",
+   "ts": "00:13:44"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes. Exactly. Exactly. All right, so we're going to start building. Since this is a pretty big, big prompt, the initial coding might take a while. There's different styles of using Replit agents. I often go with minimalist prompts. That's also how I code as well. I have a vague idea for what I want to build and iterate from there. Other people, product managers like to write PRDs and more descriptive things, and you can do either of those things. The AI now responded and then said, I'll build all of that for you. I'm going to build up the initial prototype and you can tell me how it feels, and then we can make it better from there. The AI is also suggesting, adding comment threads, implementing email notifications, and so I can select those and it's being creative, it's telling me what else I could build, but for now, I'm just going to go with a prototype and then we can assess from there. (00:14:50): So as you see, as the prototype is starting, you can see this progress pane where we can watch the AI doing its thing here. It's created a Postgres database. Obviously, when we're building a full-stack application, you need to be able to save things. This is one of the cool things about Replit. We have all these services, storage, database. So now it's coding, it's building the database schema. Now, it's building the home page, and it's actually quite fun and edifying to watch it build this, because you can really start to learn how to structure web apps. And if it runs into a problem and as things get complicated, it might run into a problem and you want to be able to help debug and things like that, it's good to be able to have an idea of what's going on, but it's not necessary. I think a lot of people just don't care about the code and are still able to build things, but we want to make the process transparent. We want to show people exactly what the agent is doing.",
+   "zh": "是。exactly。exactly。好，我们开始 build。因为这是个挺大的 prompt，初始编程可能要一阵。有不同 style 用 Replit agent。我常 minimalist prompt。那也是我编程方式。我有模糊 idea 想建什么、从那迭代。别人 PM 喜欢写 PRD 和更描述性东西，你可以做任一。AI 现在回应说我会为你建所有那个。我会建初始 prototype 你告诉我感觉，然后我们可以从那变好。AI 也在 suggest 加 comment thread、实现邮件通知，所以我可以选那些，它在 creative，告诉我还能建什么，但现在我就走 prototype 然后我们可以从那评估。(00:14:50)：如你所见 prototype 开始，你可以看到这个 progress pane 我们可以看 AI 做它的事。它建了 Postgres 数据库。显然建全栈应用时你需要能存东西。这是 Replit 酷的事之一。我们有所有这些服务、存储、数据库。现在它在编程、建数据库 schema。现在在建首页，看它建这个其实挺好玩和 edifying 因为你真能开始学怎么结构 web app。如果它碰到问题、随着事变复杂它可能碰到问题、你要能帮 debug 那些，能对在发生什么有 idea 好，但不必要。我觉得很多人就是不在乎代码仍能 build 东西，但我们要过程透明。我们要给大家看 agent 确切在做什么。",
+   "ts": "00:13:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're basically sitting there behind an engineer on a computer and just watching them code is what the experience feels like.",
+   "zh": "你基本坐在一个工程师电脑后面就看他们编程，是体验感觉。",
+   "ts": "00:15:57"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah, and actually, the way we built it is it's a multiplayer system. So Replit has real time, what we call multiplier coding, and we reused the multiplayer system to build the agent. So the agent in the code is structured as another user of the platform. So basically, we're both coding together. So I can go into the files here and that's the thing that makes Replit really cool. I think people are familiar with some of the more chat interfaces like v0 and others where it's purely chat, but this is a full IDE where you can go and look at the files and edit them yourself or ask the AI for an explanation.",
+   "zh": "对，其实我们 build 的方式是 multiplayer 系统。Replit 有 realtime、我们叫 multiplayer coding，我们重用 multiplayer 系统 build agent。所以 agent 在代码里 structure 为平台另一个用户。基本我们都在一起编程。我可以进文件这里，那是让 Replit 真酷的事。我觉得大家熟悉一些更 chat 的界面如 v0 和别的纯 chat，但这是 full IDE 你可以进看文件、自己编辑或问 AI 解释。",
+   "ts": "00:16:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's the limitation of what this can do today? What can't you do? Say you're like, you have zero coding experience, what sorts of products can you not yet build with something like this that might be possible in the future? How far does this take you now?",
+   "zh": "今天这能做什么的限制是什么？你不能做什么？say 你零编程经验，你还不能建什么产品但未来可能？这现在带你多远？",
+   "ts": "00:16:51"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "You can build MVPs. I think you can also start to get some initial users. I think when you start iterating on the product like large iterations, you might run into problems. For example, it's not very good at database migrations, and so we're trying to fix that. So when you're iterating on the product, a lot of the times, you're actually changing the structure of the app and that requires database migrations. And so now it might change the database in a way that creates an error that's unrecoverable. And at that point, you might get stuck, especially if you don't know how to code. (00:17:56): Some people will figure it out by going to ChatGPT and Claude and asking questions and I actually am really inspired about how persistent some of our users are, which is really amazing. But I think you'll get an MVP pass, the MVP where it's a product that's working and you need to change and iterate on it. It's still a struggle now, but I expect over the next few months, we'll continue. It's if you think about it's like we're building as you were building, so we're building out the agent so that it can continue getting better as our users are also building their applications.",
+   "zh": "你能建 MVP。我觉得你也能开始获一些初始用户。我觉得当你在产品上迭代如大迭代，你可能碰到问题。比如它不太擅长数据库 migration，我们在试修。所以当你在产品上迭代很多次你其实在改 app 结构那需要数据库 migration。所以现在它可能改数据库方式造成不可恢复错误。那时你可能卡住，尤其如果你不会编程。(00:17:56)：有些人会 figure out 去 ChatGPT 和 Claude 问问题，我其实对我们一些用户的 persistence 很受启发，真 amazing。但我觉得你会过 MVP 那关，MVP 是一个 work 的产品你需要改和迭代。现在仍 struggle，但我预期接下来几个月我们继续。如果你想我们在 build 你在 build，我们在 build agent 让它继续变好当我们的用户也在 build 他们应用。",
+   "ts": "00:17:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So what I'm hearing is it's really good at building the first version and helping you get to something that you can even have people use. It's not amazing yet evolving from there, using AI to help you make the product better and better and better and iterate.",
+   "zh": "懂。所以我听到的是它真擅长建第一版、帮你到甚至能让人用的东西。它还不太 amazing 从那进化、用 AI 帮你把产品越来越好越好迭代。",
+   "ts": "00:18:40"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes.",
+   "zh": "是。",
+   "ts": "00:18:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But you can get in there if you know how to code and take it from there, right?",
+   "zh": "但你能进去如果你会编程、从那接，对吧？",
+   "ts": "00:18:55"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes or you can hire someone. We have a feature on the site called Bounties where you can hire human coders to kind of help you finish.",
+   "zh": "是或你能雇人。我们网站有功能叫 Bounties 你能雇人编程帮你完成。",
+   "ts": "00:19:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's going to be our job for humans. That'll remain for a while.",
+   "zh": "那将是人类的工作。那会保留一阵。",
+   "ts": "00:19:14"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "You know what we want to do? We want to get to a point where the agent can go grab a human when it runs into a problem. I think that would be sick.",
+   "zh": "你知道我们想做什么？我们想达到 agent 碰到问题时能去 grab 人。我觉得那会 sick。",
+   "ts": "00:19:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, my God. It's like everything's reversed. I love it. Oh, I think it might be done. Check that out.",
+   "zh": "天哪。像一切 reverse 了。我爱。哦我觉得可能 done 了。看那个。",
+   "ts": "00:19:32"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah. So now the agent is asking us, is the application running and showing the homepage?",
+   "zh": "对。现在 agent 问我们 app 运行了吗、显示首页了吗？",
+   "ts": "00:19:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Like it's confirming.",
+   "zh": "像它在确认。",
+   "ts": "00:19:46"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah, almost asking us to do a QA. I'll just say yes. So it found an error. So there's an error here and it's like there's a dumb warning, \"I'm going to fix it.\" So in the meantime, as it's fixing it, so it can be proactive, right? Because it looks at all the errors and things like that, but in the meantime, we can use it. I just created an account. It's coding.",
+   "zh": "对，几乎叫我们做 QA。我就说是。它发现一个错误。这里有错误、有个 dumb warning「我去修。」同时它修时，它可以 proactive 对吧？因为它看所有错误那些，但同时我们可以用。我刚建了账号。它在编程。",
+   "ts": "00:19:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "[inaudible 00:20:12] It's cool.",
+   "zh": "[听不清] 太酷了。",
+   "ts": "00:20:12"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Let's see how it restart. Okay, we'll wait for it.",
+   "zh": "看它怎么 restart。好，我们等它。",
+   "ts": "00:20:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How long would you say it would take an engineer to build this? A typical engineer?",
+   "zh": "你觉得一个工程师建这个要多久？典型工程师？",
+   "ts": "00:20:16"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "A few days, I would say to a week. I mean, if you're really good, it might be hours but it probably would take me a few days. I would say I'm like decent engineer, it'll take you a few days.",
+   "zh": "几天到一周吧。如果你真好的话可能几小时但大概我要几天。我是 decent 工程师，要几天。",
+   "ts": "00:20:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it took how much? 5 to 10 minutes.",
+   "zh": "而这花了多少？5 到 10 分钟。",
+   "ts": "00:20:40"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah, and it probably cost us something in the sense.",
+   "zh": "对，而且大概花了我们一些 sense。",
+   "ts": "00:20:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, in terms of compute.",
+   "zh": "哇，算力上。",
+   "ts": "00:20:50"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "In terms of compute, yeah. Probably, I would estimate it like 15 cents or something like that.",
+   "zh": "算力上，对。大概估计 15 美分什么的。",
+   "ts": "00:20:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Okay, so here it is.",
+   "zh": "哇。好，这是它了。",
+   "ts": "00:20:58"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Here it is. And the agent was like, \"Okay, this is looking good, completed it if you want to deploy it.\" But I'm like, \"Okay, I'm going to test it first.\"",
+   "zh": "这是它。agent like 好这个 looking 好，completed 如果你想 deploy。但我 like 好，我先 test。",
+   "ts": "00:21:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And so currently, it's living just locally on your local host.",
+   "zh": "所以目前它只在你 local host 上。",
+   "ts": "00:21:09"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah. It's not local host, it's on a Replit but yes, it's the equivalent of local host. Because it's really easy, I can even invite you to this session. You can be here with me and so it's all online.",
+   "zh": "对。不是 local host，在 Replit 上但对，是 local host equivalent。因为很简单我甚至能邀请你到这个 session。你能和我在这所以全在线。",
+   "ts": "00:21:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it.",
+   "zh": "懂。",
+   "ts": "00:21:26"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "So let's submit a feature. So make the product prettier. That's what a typical user might say. So we have this here, you can upvote it. I guess I can't upvote it because I'm the user that created it, but created another user. You can upvote it. But now we need to be able to move things around as the admin, so I don't know how to log into the admin panel. So I'm going to ask the agent, how do I log into the admin panel? So it might've already built the feature, and it's not exposed in the right way. It'll be able to [inaudible 00:22:08]",
+   "zh": "好，我们 submit 一个 feature。让产品更漂亮。那是典型用户会说的话。我们这有这个，你能 upvote。我猜我没法 upvote 因为我是创建它的用户，但创建另一个用户。你能 upvote。但现在我们需要能作为 admin 移动东西，所以我不知道怎么登 admin panel。所以我要问 agent 怎么登 admin panel？它可能已建了 feature 但没以对的方式暴露。它能[听不清]",
+   "ts": "00:21:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I love about just watching you interact with this thing, and just real quick throughout, it feels like an engineer that is behind the scenes building this thing like on Slack and you're just talking to them. They built this thing, they're like, \"Check this out, I'm done.\" And you're like, \"Oh, okay, about how do I log into this admin panel?\" And they're like, \"Okay, here we go.\"",
+   "zh": "我喜欢看你和这个互动的，就快速说贯穿，感觉像一个工程师在幕后建这个 like 在 Slack 上你就在和他们说话。他们建了这个就 like 看这个，我 done。你就哦好，怎么登这个 admin panel？他们就好的来。",
+   "ts": "00:22:08"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah. So it says, \"Would you like me to help you register account?\" So it's creating an account, an admin account for me. So it's not only builds things, it also maintains things. In this case, it's actually doing SQL queries. It's not writing code to create an admin account for us.",
+   "zh": "对。它说你想我帮你注册账号吗？所以它在建账号、admin 账号给我。它不只建东西，也维护东西。这个 case 它其实在做 SQL query。它不是写代码建 admin 账号。",
+   "ts": "00:22:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's insane. I want to talk about the implications of this on product development and product management and founders, but what we just witnessed is somebody, I know you do have technical abilities, but someone that didn't have to have any technical skill, build a real product that people can use in five minutes that looks good and works, and you could keep making it better by talking to this agent.",
+   "zh": "这 insane。我想谈这个对产品开发和 PM 和创始人的影响，但我们刚见证的是某人——我知道你有技术能力——但不需要任何技术技能的人，5 分钟建了一个真产品人能用、好看、work，你可以继续和这个 agent 说话让它更好。",
+   "ts": "00:22:51"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "I'll tell you from our experience what we're seeing, there's so many products that are empowering developers. It's a very easy calculation to say We're going to make engineers 20% better and we're going to sell it to companies and we're going to take 10% of that value, right? That's why there's so many startups now that are just trying to make engineers a little better. Our calculation is like, well, what if you made everyone developer? What does that look like? And so when we released agent and really made programming a lot easier, what we're seeing is that people, exactly like you said, people view this as a developer in their pocket essentially. What we're hearing from customers is that I'm doing things I would otherwise have to go hire a developer, but also because the activation energy is lower than going to hire developer, whether Upwork or other places, I'm building a lot more ideas that otherwise I wouldn't have built. (00:24:26): I think it was it called the javelin's paradox or something like that, which is when the cost of things go down, the total consumption of it goes up, which I'm not sure why they call it a paradox, but the cost of electricity goes down, maybe you would expect that the total spend goes down, but actually total spend goes up because people consume more of it. And so I think that's going to be the case of software. As the costs go down, people will just make a lot more software to improve their lives and to improve their work and start more startups and all of that.",
+   "zh": "我从我们经验告诉你我们看到什么，有那么多赋能开发者的产品。很简单的计算说我们要让工程师好 20%、卖给公司、take 10% 价值对吧？所以有那么多创业公司现在试让工程师好一点。我们的计算是如果让每个人都是开发者呢？那长什么样？所以当我们发布 agent、真让编程容易很多，我们看到的是人——如你所说——基本把它看作口袋里的开发者。我们从客户听到的是我在做我本来得去雇开发者做的事，但也因为激活能比去雇开发者低——不管是 Upwork 还是别的地方——我在 build 更多 idea 我本来不会建的。(00:24:26)：我觉得是叫 Javelin 悖论什么的，当东西成本下降，总消费上升，我不确定为什么叫悖论，但电的成本下降你可能预期总花费下降但其实总花费上升因为人消费更多。所以我觉得软件会是这样。成本下降，大家就会做更多软件改善生活、改善工作、start 更多创业公司等等。",
+   "ts": "00:23:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So to follow that thread, what are you seeing inside of startups or even big companies in terms of how folks are already using this knowing this is the worst it will be and it will only become smarter and better these days? How are people actually using this that are say product managers or just non-technical people within startups or bigger companies?",
+   "zh": "所以跟那条线，你在创业公司甚至大公司里看到大家已经怎么用这个，知道这是它最差的时候、只会更聪明更好？大家实际怎么用这个 say PM 或非技术人员在创业公司或大公司里？",
+   "ts": "00:25:05"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "On the SMB side of things, a lot of people are building kind of back office tools. So we have real estate agents that have a lot of data, have a lot of things they want to manage in their business that building a lot of these tools, that they otherwise would have to buy, but typically when you buy, it's actually not exactly what you need. And that's kind of the problem with SaaS, like one size fits all. And so a lot of people are seeing it as sort of a SaaS replacement for in-house tools and things like that. And then when you go to the bigger companies, it's anywhere from prototyping to actually production apps to tools as well. So we've seen product managers build, like I said, like a v1 of an app and actually go out and test it with users. I can't name the company, but there's a public company that have used Replit to test a v1 of an app. (00:26:35): And obviously after that sort of works, they take it to the engineers and they're like, \"Okay, we built this thing. We think it's a great thing. We test it with some users. Let's go actually put it on the roadmap and build it into the actual product.\" So you are instead of unblocking product managers from having to need engineers for everything that they want to build so they can really build the v0 or v1 of the product. (00:27:04): And that's super empowering for them. We saw it also with marketing departments like SpotHero has a head of marketing that actually can code decently well but use Replit to build these apps, and they built a competitive analysis application that looks at a competitor's pricing and makes sure that they're benchmarked correctly. And so it's a full stack app use database and everything and it runs on a continuous fashion. And we see sales engineers use Replit to spin up prototypes really quickly. So actually someone at X, formerly Twitter is on the partner engineering side of things, and he uses Replit agent to spin up applications and prototypes for customers to see how they can use the X API.",
+   "zh": "在 SMB 那边很多人建后台工具。我们有房产经纪有很多数据、很多想管理的事，建很多这些工具他们本来得买，但通常买的不完全是你需要的。那是 SaaS 的问题，一刀切。所以很多人把它看作内部工具的 SaaS 替代。然后你到大公司，从 prototype 到实际生产 app 到工具都有。我们看到 PM 建 app 的 v1 实际出去和用户测。我不能说公司名但有个上市公司用 Replit 测 app v1。(00:26:35)：显然那个 work 后他们拿给工程师就「好我们建了这个。觉得是好东西。和用户测了。让我们真的 put 在路线图上 build 进实际产品。」所以你是在把 PM 从需要工程师做一切 unblock，他们能真建产品 v0 或 v1。(00:27:04)：那对他们超赋能。我们也看到营销部门如 SpotHero 有个营销负责人其实编程不错但用 Replit 建这些 app，他们建了竞品分析 app 看竞争对手定价确保 benchmark 正确。所以是全栈 app 用数据库一切、持续运行。我们看到 sales engineer 用 Replit 快速 spin up prototype。其实 X（前 Twitter）有人 partner engineering 那边，他用 Replit agent 给客户 spin up app 和 prototype 看他们怎么用 X A……",
+   "ts": "00:25:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this. I love these examples. By the way, the demo, is there anything else you want to share about the demo before we close that out?",
+   "zh": "我爱这个。我爱这些例子。顺便 demo 还有什么想分享 before 我们 close 那个？",
+   "ts": "00:28:06"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "So it created an admin account. We can ask it with the username, password and kind of go into it and manage it but basically that's it. The app's complete in terms of what we ask for. We can send it out. I can give you a URL. Let's actually just deploy it really quickly to show people how you can deploy.",
+   "zh": "它建了 admin 账号。我们可以问用户名密码、进去管理但基本那是了。app 完成我们要求的。可以发出去。我可以给你 URL。让我们快速 deploy 给大家看怎么 deploy。",
+   "ts": "00:28:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe the show notes, we'll link to the app, you could check it out.",
+   "zh": "也许 show notes 我们链接到 app 你能看。",
+   "ts": "00:28:35"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Sounds good.",
+   "zh": "好。",
+   "ts": "00:28:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool. That's amazing. So this is deploying it onto some cloud provider. I don't know what you use, but...",
+   "zh": "好，酷。太棒了。所以这是部署到某个云 provider。不知道你用什么但……",
+   "ts": "00:28:38"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "We use Google Cloud. So we abstract all of that away from you, but we use Google Cloud behind the scenes.",
+   "zh": "我们用 Google Cloud。我们从你 abstract 掉所有那个，但背后用 Google Cloud。",
+   "ts": "00:28:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Imagine a place where you can find all your potential customers and get your message in front of them in a cost-efficient way. If you're a B2B business, that place exists, and it's called LinkedIn. LinkedIn Ads allows you to build the right relationships, drive results, and reach your customers in a respectful environment. Two of my portfolio companies, Webflow and Census, are LinkedIn success stories. Census had a 10x increase in pipeline with a LinkedIn startup team. For Webflow, after ramping up on LinkedIn in Q4, they had the highest marketing source revenue quarter to date. (00:29:26): With LinkedIn Ads, you'll have direct access to and can build relationships with decision makers including 950 million members, 180 million senior execs and over 10 million C-level executives. You'll be able to drive results with targeting and measurement tools built specifically for B2B. In tech, LinkedIn generated 2 to 5x higher return on ad spend than any other social media platforms. Audiences on LinkedIn have two times the buying power of the average web audience, and you'll work with a partner who respects the B2B world you operate in. Make B2B marketing everything it can be and get $100 credit on your next campaign. Just go to linkedin.com/podlenny to claim your credit. That linkedin.com/podlenny. Terms and conditions apply. Let's go down this thread actually while this is happening, just like what allows for this to be possible technology wise? What is the stack? Whatever you can share that enables this to exist.",
+   "zh": "想象一个地方你能找到所有潜在客户、以成本高效方式把信息推到他们面前。如果你是 B2B 业务，那个地方存在，叫 LinkedIn。LinkedIn Ads 让你建对的关系、驱动结果、在尊重的环境里触达客户。我两个投资组合公司 Webflow 和 Census 是 LinkedIn 成功故事。Census 用 LinkedIn startup 团队 pipeline 增 10 倍。Webflow 在 Q4 ramp up LinkedIn 后有最高营销来源收入季度。(00:29:26)：用 LinkedIn Ads 你直接接触和建关系决策者包括 9.5 亿会员、1.8 亿资深高管和超过 1000 万 C 级高管。你能用专为 B2B 建的定向和衡量工具驱动结果。在科技领域 LinkedIn 广告花费回报比其他社交媒体高 2 到 5 倍。LinkedIn 受众购买力是平均 web 受众两倍，你和尊重你 B2B 世界的伙伴 work。让 B2B 营销成为它能成为的一切，下个 campaign 得 100 美元 credit。去 linkedin.com/podlenny 领取。就是 linkedin.com/podlenny。条款适用。让我们跟这条线这个在发生时，什么允许这个技术上可能？stack 是什么？你能分享的使这存在的。",
+   "ts": "00:28:52"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah, for sure. First of all, it's all the abstractions that we built. So the way a Replit works is the very bottom layer. It's our runtime. So this is the operating system, this is the package manager, this is the language runtimes. We built a system that is able to install packages in any language, including native packages. So the AI, anytime, it needs a package. I can go here and show one of those. By the way, the AI can take screenshots as well so that it checks it works. So here you can see it is taking screenshots to make sure that the homepage is rendering. Here, you can see it wanted a drag and drop library, and so it installed that. And so it has access to all the packages across all languages, including Linux and all of that. And then the layer on top of that is the editor and the infrastructure that runs the editor, including what I described as the multiplayer editor. (00:31:33): And then we expose all of that infrastructure to the AI. And there's almost like a new discipline called AI Computer interfaces. So sort of like HCI is now a ACI and turns out LLMs need interfaces that are actually quite different than humans. They're trying to make them use human interfaces like Anthropic's computer use, but those are really expensive and you need to process all this images and video. So instead, for the shell for example, we give it sort of a text representation of what the shell is doing at a certain increments for package installation. We give it a certain tool for editing. We give it an editor tool that when it's writing the code, it's getting feedback on whether there are errors or not, similar to what a human sees, but it's actually old text just to make it easier. So that's AI computer interface, and obviously, all of that is sitting on foundation models. So the improvement in foundation models has allowed us to build this. (00:32:51): The most important model that we use is the Sonnet model from Claude, from Anthropic, and it is the best model at coding. So that's the model we use for coding, but we use models from OpenAI as well because a multi-agent system. And so we have models that are critiquing. We have manager editor model, and we have a critique model and different models will have different powers. We also train some of our models, like the embedding model for search is something we trained internally. So I actually wrote about it back in '22. I said it's going to be society of models, like products will be made of a lot of different models, and it's quite a heavy engineering project.",
+   "zh": "对，当然。首先是我们建的所有 abstraction。Replit 运作方式最底层是 runtime。操作系统、包管理器、语言 runtime。我们建了一个能在任何语言装包的系统包括 native 包。所以 AI 任何时候需要包我可以这里展示一个。顺便 AI 也能截图所以它检查 work。这里你能看到它在截图确保首页在 render。这里你能看它要个 drag and drop library 就装了那个。所以它能访问所有语言所有包包括 Linux 那些所有。然后上面那层是编辑器和运行编辑器的基础设施包括我描述的 multiplayer 编辑器。(00:31:33)：然后我们把所有那个基础设施 expose 给 AI。几乎有个新学科叫 AI Computer Interface。所以 HCI 现在是 ACI，turns out LLM 需要的界面和人类很不同。他们在试让它们用人类界面如 Anthropic 的 computer use，但那些很贵、需要处理所有图像和视频。所以相反，比如 shell 我们给它文本表示 shell 在特定增量做什么。包装安装给它特定工具。编辑给它编辑器工具当写代码时得到是否有错误的 feedback 类似人看到的但其实是纯文本让它更容易。所以那是 AI computer interface，显然所有那个坐在基础模型上。基础模型改进让我们能建这个。(00:32:51)：我们用的最重要模型是 Claude 的 Sonnet 模型 from Anthropic，它是最好编程……",
+   "ts": "00:30:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To say the least. We were talking offline and you said you've been working on this since 2009 when you first built the first idea of Replit. Is that right?",
+   "zh": "至少。我们线下聊你说你从 2009 年就做这个、第一次建 Replit idea。对吗？",
+   "ts": "00:33:47"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes.",
+   "zh": "是。",
+   "ts": "00:33:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, my God.",
+   "zh": "天哪。",
+   "ts": "00:33:58"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Here's the deployed app. I can send it to you and you can use it and you can see my request even on the logged out page so I can register, upload it, and log in as admin and move things around. We can see what's in progress, what's completed.",
+   "zh": "这是部署的 app。我可以发给你你能用、你能在登出页看到我的 request 所以我能注册、上传、登 admin 移动东西。我们能看到什么 in progress、什么 completed。",
+   "ts": "00:33:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This looks like a product. I could see designers spending days designing, passing it to engineering, PMs, having feedback, engineers taking a few days to build it.",
+   "zh": "这看起来像个产品。我能看到设计师花几天设计、传给工程、PM feedback、工程师花几天 build。",
+   "ts": "00:34:14"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes.",
+   "zh": "是。",
+   "ts": "00:34:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And here's just a prompt, here's what I want.",
+   "zh": "而这只是一个 prompt，这是我想要的。",
+   "ts": "00:34:27"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "That's right. And we can iterate on it very easily. We can also iterate on the UI. We can say, I don't like this or that, and it'll do a good job. So we can go here, we can start a new session or a new session to create an entirely new feature here, and it'll just do the right thing.",
+   "zh": "对。我们可以很容易迭代。也能迭代 UI。可以说我不喜欢这个或那个，它会做好。所以我们可以这里开始新 session 创建全新 feature，它就做对的事。",
+   "ts": "00:34:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it builds from that code base. It understands here's what you've built. I want to add this thing.",
+   "zh": "它从那个代码库 build。它理解这是你建过的。我想加这个。",
+   "ts": "00:34:47"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes.",
+   "zh": "是。",
+   "ts": "00:34:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好。",
+   "ts": "00:34:52"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "And that becomes your history, right? This was the v1 and now I'm working on this new feature, and it's almost like what engineers do in Git commit messages. By the way, it generates Git commit messages for everything that it does so you can roll back as well. And so we're trying to make it so that yes, it's for everyone, but we're trying not to abstract too much away. We want to build tools for you to learn to use. And so we want power users to be able to understand the full power of Replit and it is really deep product. I think you can spend a couple of years to kind of master it.",
+   "zh": "那变成你的历史对吧？这是 v1 现在我在做这个新 feature，几乎像工程师在 Git commit message 做的。顺便它为它做的一切生成 Git commit message 所以你能 rollback。所以我们在试让它对每个人，但试不太多 abstract。我们要为你建工具学用。我们要 power user 能理解 Replit 的 full power，它是很深产品。我觉得你能花几年 master。",
+   "ts": "00:34:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to talk about implications, but I want to come back to something you mentioned that is incredible that people may have missed. You basically built a computer specifically designed for the AI agent to use that is a different version of a computer specifically optimized for how AI wants to use a computer.",
+   "zh": "我想谈影响，但我想回到你提到的让人 incredible 可能大家 miss 了。你基本建了一个专为 AI agent 使用的电脑，是不同版本的电脑、专为 AI 想用电脑优化的。",
+   "ts": "00:35:40"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah. So there's an entire discipline called like HCI, right? It's like how do you do that-",
+   "zh": "对。有整个学科叫 HCI 对吧，就是你怎么做——",
+   "ts": "00:36:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Human-computer interaction.",
+   "zh": "人机交互。",
+   "ts": "00:36:07"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah. So now there are papers about AI computer interfaces and interactions. And so large language models are trained on large stacks of corpus from the internet, but they're still kind of alien creatures. So they're not like humans, so they have different behaviors. It's unclear what's the best way to give it an editor. So there's so many experimentation about what's the best way to give it a view on what's editing, how many files can you show it before it starts to hallucinate. And right now, it's more of an art than science, but it's becoming more and more like a science.",
+   "zh": "对。现在有关于 AI computer interface 和 interaction 的论文。大语言模型在互联网大量语料上训练但仍是有点外星生物。所以不像人，有不同行为。不清楚给编辑器最好方式是什么。所以有很多实验关于给编辑 view 最好方式、能 show 多少文件 before 它 hallucinate。现在更多是艺术不是科学但越来越像科学。",
+   "ts": "00:36:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is insane. So it's a simple way to think about it. There's this foundational model, here's what I want you to build, and here's a computer to use to build it.",
+   "zh": "这 insane。简单想是这样：基础模型，这是我要你 build 的，这是电脑用来 build 它。",
+   "ts": "00:36:55"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes.",
+   "zh": "是。",
+   "ts": "00:37:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How am I [inaudible 00:37:07]",
+   "zh": "我怎么[听不清]",
+   "ts": "00:37:05"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Here's a computer with a set of tools. Here's a tool to install a package. Here's a tool to edit the code. Here's the tool to run a SQL query and also services. Here's a bunch of services you can graph from. Here's a database service, here's an object source service, here's an auth service. So you can think about it as a bunch of external services, the computer with a bunch of tools, and they're all interfacing with the foundation model.",
+   "zh": "这是带一组工具的电脑。这是装包工具。这是编辑代码工具。这是跑 SQL query 工具还有服务。这是一堆服务你能 grab。数据库服务、object storage 服务、auth 服务。所以你可以想成一组外部服务、带一堆工具的电脑，都和基础模型 interface。",
+   "ts": "00:37:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's funny listening to this how, it starts to feel like the fact that we might be living in a simulation is not as far-fetched as it may feel. Like this feels like the beginnings of what a simulation computer would be.",
+   "zh": "有趣听这个怎么开始感觉我们可能住在模拟里没那么 far-fetched。像这感觉像模拟电脑的开始。",
+   "ts": "00:37:38"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes. You can go really Sci-Fi on this and it's like where is it headed, right?",
+   "zh": "是。你可以很 Sci-Fi 关于这个，就是它 head 哪对吧？",
+   "ts": "00:37:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:38:03"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "If we give it enough tools, let's say, I can drop it in Slack and instead of interfacing with it in this fashion, I want to interface with it in a totally autonomous way. So we actually have this feature coming up where instead of me testing it, we give it another agent. So here, instead of me interfacing with it and saying this is running or not running, we can give it another agent that is actually testing the application and then let's say interface with it entirely through Slack. And I'll say something like, give me Taylor Swift tickets the moment they land. (00:38:49): And so it'll build an app that continuously monitors the web for when Taylor Swift tickets land and there's an agent that's using the app to be able to get that. And you can imagine it has some kind of wallet or credit card. And then the moment it lands, it gets it. What I'm trying to say is that software, like agents being able to do software, is how AI gets more general because software runs our lives, runs the internet, runs our businesses. And so the more competent AI becomes that software, the more general they are in terms of what they can do.",
+   "zh": "如果我们给它够多工具 say 我能 drop 它在 Slack 而不是以这个方式 interface 我要以完全自主方式 interface。我们其实有这个 feature 要来，而不是我 test 它我们给它另一个 agent。这里而不是我 interface 说这运行没我们给它另一个 agent 实际测试 app 然后比如完全通过 Slack interface。我会说 like Taylor Swift 票一上架就给我。(00:38:49)：所以它会建 app 持续监控 web 当 Taylor Swift 票上架就有 agent 用那个 app 能拿到。你能想象它有某种钱包或信用卡。然后一上架就拿到。我想说的是软件、agent 能做软件是 AI 变更 general 的方式因为软件运行我们的生活、互联网、业务。所以 AI 作为软件越能干、它们能做的越 general。",
+   "ts": "00:38:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, this can go in so many directions. I'm going to bring us back to the implications for people building products, say, product managers, founders, how does this change, that function, that skill set? What skills do you see will matter more matter less? Which functions are maybe in some danger and they should start thinking about a different career path?",
+   "zh": "好，这能去很多方向。我带我们回到对做产品的人的影响，PM、创始人，这怎么改变那个职能、技能集？你看到什么技能更重要、更不重要？哪些职能可能有危险该开始想不同职业路径？",
+   "ts": "00:39:36"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "One interesting persona that we're seeing is the CEO, the CEO of startup. Andrew Wilkinson from Tiny is a big user. And so these people are typically creatives. They built a company, they hired people. A lot of them can't code. A lot of them are designers or product managers or something else. And you can imagine a bottleneck, you can imagine a bunch of ideas in their head, and the ideas have to translate through them talking. And then someone else listening to them and assuming that someone else actually understands what they say, and then that's someone else going and trying to build what they want to build. And also assuming that person has time, because a lot of times, your engineers are kind of stuck building the current thing. They're not thinking about the future thing. And so what gets me excited is a lot of these CEOs are building the future concept, the next product they're going to build, the next, say, company they're going to build. (00:41:08): And so it unlocks the creativity and again, sort of unblocks them from that. And look, it's a v1 of the product but it can push things forward. You can touch it, you can feel it, you can say, okay, this really has lags and we should work on it. You give it to your engineers and they can improve on it from there. So that's one persona but I'm really excited about it, the CEO/founder. In companies, one of the things that I think is sort of hard about tech companies is these silos between designers, product managers, and engineers. And everyone feels that pain of, we have low bandwidth communication, which is language and then text on Slack and Zoom calls. And it leads to a lot of frustration, because it's really easy to misinterpret people and again, leads to siloing where people working on something, and then you pass it on to the next team and it's not really what they expect. (00:42:30): That happens a lot between designers and engineers, but the common language that everyone shares is code. Ultimately in software tech companies, everything that we're talking about need to eventually flush out in terms of code. And so what if the language becomes actually working prototypes and working applications? For example, we have a Figma extension that translate Figma mocks into React that runs on Replit. So instead of giving the engineers just mocks or screenshots, whatever, you just say, oh, here's a bunch of React code, just make sure it runs on our infrastructure but don't mess with it, don't move the pixels around. And so I think it just opens up silos of the companies, make communication around product a lot more concrete, because I can give you a working prototype and that'll change how people work, if you can imagine that everyone can make software. It's really kind of a radical reimagining of not just what tech companies are but really what most companies are because everyone can be more general.",
+   "zh": "我们看到一个有趣 persona 是 CEO、创业公司 CEO。Tiny 的 Andrew Wilkinson 是大用户。这些人通常是创意人。建了公司、雇了人。很多不会编程。很多是设计师或 PM 或别的。你能想象瓶颈、一堆 idea 在脑里，idea 得通过他们说话 translate。然后别人听他们、假设别人真理解他们说的、然后那个别人去试 build 他们想 build 的。也假设那个人有时间因为很多时候你的工程师在 build 当前的东西。他们没在想未来东西。所以让我兴奋的是很多这些 CEO 在 build 未来概念、下一个要 build 的产品、下一个要建的公司。(00:41:08)：所以它 unlock 创造力、unblock 他们那个。看，是产品 v1 但能推事前进。你能 touch、feel、说 okay 这真有 lag 我们该 work。你给工程师、他们能从那改进。那是一个 persona 但我很兴奋，CEO/创始人。在公司里，我觉得科技公司难的事之一是设计师、PM、工程师之间的 silo。大家都感受那个痛：低带宽沟通是语言、Slack 文字、Zoom。导致很多 frustration 因为很容易误解人、又导致 silo 人在做东西然后传给下一团队不是他们期望的。(00:42:30)：设计师和工程师之间很多那个发生，但大家共享的通用语言是代码。最终在软件……",
+   "ts": "00:39:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So say you're a PM listening to this, an engineer or designer, what skills do you think if you were one of these folks? If you were in building Replit right now, what kind of skills would you suggest folks focus on more and would you think are just like, okay, this can be less valuable in the future, don't worry about these sorts of things? And you can either pick one of those three functions or all three.",
+   "zh": "所以 say 你是 PM 听这个、工程师或设计师，你觉得什么技能如果你是这些人之一？如果你现在在 build Replit，你会建议大家聚焦什么、什么觉得 okay 未来不那么有价值别担心这些？你可以选那三个职能之一或全部。",
+   "ts": "00:44:04"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "I think a very important scale that's perhaps harder to develop but it's worth working on is being generative, being more generative, being able to generate new ideas quickly, because you can think about it as a factory line. So you have ideas, you have the production of these ideas or the initial production of these ideas, and then you have other people that want to consume these ideas or work with you on these ideas. And so typically you're bottlenecked by the middle part where your ideas are kind of like they're a lot of them and they're not fitting in, because they need to be made and they need to be made quickly. And so now you open up that bottleneck. So now actually making things is a lot easier. Actually, you become limited by how fast you can generate ideas, and I find that true of myself as well. I consider myself quite generative, but now I have this tool and I can build a lot more and explore a lot more and I'm finding that, well, actually, I'm running out of ideas sometimes. (00:45:53): So training that muscle I think is a good thing. I think learning a little bit of coding and not the traditional way of learning coding. If you go to a coding bootcamp, they're going to start with what is Git? Actually my co-founder, Haya, was a designer. When we're first building the Replit together, she went to WebAssembly to do a coding course. And the first day, they spent this whole time on Git and she's like, \"What is that? What does it do?\" I still don't know what it exactly does, but it's like you're inverting the process, you're giving the tool before the actual problem. And so I think all of that stuff, you don't have to worry about, so things that you don't have to worry about. I think a lot of the, as a PM, as a designer, as someone who's not in your code editor every day, don't worry about all the tooling. (00:47:09): And if you learn a little bit of coding just by talking to an AI, doing a little bit of debugging, building something with Replit, running into a problem and trying to fix it just using AI, you'll learn a bit of coding. And I have this that's been called not by me, dubbed as Amjad's Law, which is the return on investment for learn to code is doubling every six months. And really just learning a little bit of that skill, learning a bit of skill about how to prompt AI, how to read code, and be able to debug it. Every six months, that's netting you more and more power because you're going to be able to create a lot more. It's going to be easier to create. You're going to be able to create a lot more complete things. So that's another skill that I think could be necessary.",
+   "zh": "我觉得一个很重要也许更难发展但值得 work 的是 being generative、更 generative、能快速产生新 idea 因为你可以想成流水线。你有 idea、这些 idea 的生产或初始生产、然后有别人想消费这些 idea 或和你 work。通常你被中间部分瓶颈，你的 idea 很多 fit 不进因为它们需要被做、需要快速做。现在你打开那个瓶颈。做东西容易多了。其实你被你能多快产生 idea 限制，我觉得对我自己也是。我挺 generative 但现在有这个工具我能 build 更多、explore 更多、我发现其实我有时 idea 不够。(00:45:53)：所以练那个肌肉我觉得好。我觉得学一点编程不是传统方式。去编程 bootcamp 他们会从什么是 Git 开始。其实我联合创始人 Haya 是设计师。我们最初一起建 Replit 时她去 WebAssembly 上编程课。第一天全花在 Git 上她就「那是什么？做什么？」我仍不确切知道它做什么但你在 invert 过程、在问题前给工具。所以我觉得所有那个你不该担心。作为 PM、设计师、不在代码编辑器每天的人别担心所有工具。(00:47:09)：如果你学一点编程就通过和 AI 说话、做一点 debug、用 Replit 建东西、跑 int……",
+   "ts": "00:44:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is super interesting. Okay, so this last point, you made Amjad's Law. It's interesting because when people, as someone's listening to this, I could see them being like, engineers are in trouble. Why do you need engineers at this point? These agents are building the code. Your point is specific engineering skills are going to be incredibly valuable and more and more. How often are they doubling would you say? Every year you said?",
+   "zh": "这超有趣。好，这最后一点，你做了 Amjad 定律。有趣因为大家听这个时我能看到他们 like 工程师在麻烦了。为什么需要工程师？这些 agent 在建代码。你的点是特定工程技能会极有价值、越来越多。你说多久翻倍？每年你说？",
+   "ts": "00:48:15"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "No, every six months.",
+   "zh": "不，每六个月。",
+   "ts": "00:48:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Every six months, these specific engineering skills are becoming more valuable. And the idea is you don't need to know everything. You don't need to know the foundation, to build the app as much. It's more to unblock the agent and understand the mental model of how this stuff is built so that you can move forward fast.",
+   "zh": "每六个月这些特定工程技能变得更宝贵。idea 是你不需要知道一切。你不需要知道基础、建 app 那么多。更多是 unblock agent、理解这东西怎么建的心智模型这样你能快速前进。",
+   "ts": "00:48:41"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "That's right. That's right. Understanding the basic components of it, I would say, yes.",
+   "zh": "对。对。理解基本组件对。",
+   "ts": "00:48:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, so it's like we need new engineering schools to teach you these very specific skills versus spending years on algorithms.",
+   "zh": "对，所以像我们需要新工程学校教你这些非常特定技能 vs 花几年在算法上。",
+   "ts": "00:49:03"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "And I think no one has done that yet, and I think this is a big business probably ready to get built. It's like AI native coding. It's totally different than traditional coding. That's why on Hacker News, there's so much skepticism about AI native coding tools, because they're like yeah, it's a glorified autocomplete. And I understand if you're writing operating system, kernels, it's not really doing that much for you, but if you're building products, it's building it for you at this point. And so if you're starting a school to teach AI native coding, you would skip so much of computer science and the basic tools, and you would teach the basic idea of how to structure an app, and then you would teach prompting and then you would teach, I think a little bit of debugging. I think debugging is quite a good skill right now to learn.",
+   "zh": "我觉得没人做过那个，我觉得这是个准备好被建的大生意。AI 原生编程和传统编程完全不同。所以 Hacker News 上有那么多对 AI 原生编程工具的怀疑因为他们 like 那是 glorified autocomplete。我理解如果你在写操作系统 kernel 它对你没那么多，但如果你在 build 产品，它在帮你建。所以如果你 start 学校教 AI 原生编程你会跳过那么多计算机科学和基本工具，你会教怎么结构 app 的基本 idea，然后教 prompting 然后教一点 debug。我觉得 debug 现在是挺好学的技能。",
+   "ts": "00:49:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interestingly, if you want to be good at debugging, there's a lot you need to understand, which is basically what you're saying is that's the subset of things to understand is things that break. And to do that, you have to understand how it all works. What are servers? What are APIs? All these things. Okay, so we've been talking about how this is very good right now, building a prototype, building a v1, MVP, people can use it, you can deploy it. You deploy this app, people can start using it, and there's a scale it can reach. Do you see a future where you can build a Salesforce sized business fully Replit or other tools that can scale to hundreds of billions of dollars of value? Or is there just going to always be some limit of like, you need actual engineers and designers sitting on this thing, building it, thinking it? Awesome.",
+   "zh": "有趣的是如果你想擅长 debug 有很多你需要理解，基本是你在说的是那是要理解的东西子集是会坏的东西。要做那个你得理解它怎么 work。什么是服务器？什么是 API？所有这些。好，我们一直在谈这个现在很好，建 prototype、建 v1、MVP 人能用、能 deploy。你 deploy 这个 app 人能开始用、有它能达到的规模。你看到未来能完全用 Replit 或别的工具建 Salesforce 规模业务、scale 到数千亿美元价值？还是总有限制 like 你需要实际工程师和设计师坐这上面 build、想？太好了。",
+   "ts": "00:50:22"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "If my law is directionally correct, even if the months are not, I'm not exactly right that the duration is correct, you're going to see a compounding effect of the power. It's actually quite hard to convince yourself. But if you really convince yourself that we are on a massive scale of improvement in AI, then the answer is yes. And it's absurd to my engineering mind that I'm saying it is, but know Ray Kurzweil, this futurist talks about how exponentials are really hard for humans to grasp. And so actually when we started building the agent, I told the team, it's easy and we fall in this trap before. It's easy to build and optimize for today. In '22, we built Copilot-like thing and autocomplete. We train our own models, we optimize the hell out of them. But at some point, that modality was kind of not the right modality, which is the autocomplete modality. (00:52:11): And the right modality is actually this, I think for now, as being able to chat inside the programming environment and for the agent to create things for you. But in order for us to make that bat, a year ago the models were actually not there. The models could not do this, but we were like, okay, we're going to build for the models that are landing in six months. And truly six months later, the model started to land that are capable of this, of the reasoning that we needed and whatever. And so that was like saw it if you want, which is, oh, wow, we switched to it and the reasoning improved so much. And six months later, you have a son of you too. And so it's really almost like a six months cadence. And so if we're really on this trajectory, then I would say next year, you're able to just scale and maybe you get thousands of users paying you. (00:53:08): The AI can do maintenance. We already showed the AI doing SQL queries and doing migrations, so I will be able to do maintenance, debugging, things like that. I think where it gets really tough is that when you're hitting scale and you want to architect a system that is resilient, and so that means you would start sharding databases and you would start using different queue systems and components and things like that. And I think the AI needs to have access to the entire suite of tools to be able to do this. (00:53:49): And I think that's going to be the next bottleneck. And I think the AI needs to be a lot more reliable at doing that. But I could imagine whatever, five years from now, someone running a billion dollar company with zero employees where it's like the support is handled by AI, the development is handled by AI, and you're just building and creating this thing that people are finding valuable and are paying you for it. That being said, it's worth thinking about the economics of it. If the cost of software goes down a lot, then what is the price that you can charge on software? So can you actually build the next Salesforce if anyone can generate Salesforce? And then the question is, and this is why I emphasize being generative, because I think then the thing that will make you better is by being able to iterate and improve the thing really quickly and generate new ideas.",
+   "zh": "如果我的定律方向对，即使月份不对、我不完全对 duration 对，你会看到 power 的复合效应。其实很难说服自己。但如果你真说服自己我们在 AI 改进的大规模上，答案是是。对我工程脑说这个很荒谬但知道 Ray Kurzweil 这个未来学家谈指数对人类多难 grasp。所以其实我们开始建 agent 时我告诉团队，容易、我们之前掉进这个 trap。容易 build 和 optimize 今天。22 年我们建了 Copilot 类的东西和 autocomplete。我们训自己模型、optimize 到极致。但某点那个 modality 不是对 modality 即 autocomplete modality。(00:52:11)：对 modality 其实是这个，我觉得目前，能在编程环境里 chat、agent 为你创建东西。但为让我们做那个 bet，一年前模型其实不在。模型做不了这个，但我们 like 好我们为六个月后的模型 build。真的六个月后模型开始到能做这个的，我们需要的推理什么的。所以那像 saw it if you want，哦哇我们切到它、推理改进那么多。六个月后你有 Sonnet 2。所以真的几乎六个月节奏。所以如果我们真在这个轨迹上那我会说明年你能就 scale、也许得到几千付费用户。(00:53:08)：AI 能做维护。我们已展示 AI 做 SQL query 和 migration 所以我能做维护、debug 那些。我觉得真难的是当你 hit scale 想架构……",
+   "ts": "00:51:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And stay ahead of all the other people building these tools so quickly. Oh, my God. An interesting other kind of mental model I'm seeing as you talk about this sort of thing is not to offend religious folks, but there's this concept of God of the gaps. I imagine you've heard that where it's like God explains all the things that we don't yet understand. And over time that kind of space shrinks and God's like all the things we don't get yet, those gaps. That was God that proves there needs to be a God. And it feels like right now, humans are the gaps in these tools or these agents you talk about that you can hire within Replit are fixing these little gaps. And over time, AI will fix these things themselves.",
+   "zh": "以及领先所有其他在快速建这些工具的人。天哪。一个有趣的其他心智模型我看到你谈这个——不冒犯宗教人士——有个概念叫 gaps 的 God。我想你听过，就是 God 解释我们还不理解的一切。随时间那个空间缩小、God 是我们还不懂的那些 gaps，那个 God 证明需要 God。感觉现在人类是这些工具或你说的 agent 在 Replit 里雇的 gap，在修这些小 gap。随时间 AI 会自己修这些。",
+   "ts": "00:55:01"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "That's right.",
+   "zh": "对。",
+   "ts": "00:55:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And these gaps will shrink.",
+   "zh": "这些 gap 会缩小。",
+   "ts": "00:55:44"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Unless we hit some fundamental limit and the current regime of AI, which I'm not an expert about how far transformers could scale, but I feel like we found the thing that could scale pretty far, but maybe there are limitations in data or other things like that that we could be surprised by. But if there isn't, then we are on a massive trajectory of removing these gaps quickly.",
+   "zh": "除非我们 hit 某个根本限制在当前 AI regime，我不是专家关于 transformer 能 scale 多远，但我觉得我们找到了能 scale 挺远的东西，但也许数据或其他什么有局限我们可能被 surprise。但如果没有那我们在快速移除这些 gap 的大轨迹上。",
+   "ts": "00:55:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, very true. We have no idea. We keep thinking it's just going to keep going, but maybe it'll stop at some point. I could keep going and going, but I think we should also let people go play with these things and process all the things we've been talking about. Is there anything else that you think might be helpful for folks to think about or learn or study?",
+   "zh": "对，很真。我们不知道。我们一直想它会继续但也许某点停。我能继续但我觉得该让大家去玩这些东西、处理我们聊的。有什么别的你觉得对大家想或学或研究有帮助？",
+   "ts": "00:56:23"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "I'll give advice to founders or leaders at companies. The way we work is going to change rapidly, and it's important to be resilient to that change. One thing that I think is really difficult now is having roadmaps, especially if you're doing anything in AI, but really anything that AI could affect, you want to be able to react to it really quickly. And so when the Anthropic drop the computer use set of capability, we slaughtered our roadmap because we don't really have an explicit roadmap. We immediately jumped on it and started building things and we launched some things around it. We're going to be doing more with it, but there's going to be capabilities that are going to drop. And you want to really, in some cases, if it really affects your business, you want to be able to jump on it really, really quickly. So being agile, not being stuck with roadmaps, being able to just say, oh, we're just going to switch priorities right away, is going to be super important. (00:57:59): Not being, like I said, with silos at Replit, there's so many people that are on the scale of designer to engineer, designer, product manager. Actually, I mentioned Amman earlier. He started as a designer at Replit, and now as a product manager. We have people who start as designers, become engineers, and we have people in the middle and we're comfortable with that design engineers that fit at different parts of the scale. And the design engineers go to the design correct meetings and some designers go to the engineering meetings. You got to be fluid because again, when designers can code and engineers can design, I mean it really becomes, you can't have a lot of structure around that. So you want to build a culture and you want to build an environment or milieu that is really, really flexible, which is uncomfortable for a lot of people.",
+   "zh": "我给创始人或公司 leader 建议。我们工作方式会快速改变，对那个改变 resilient 很重要。现在我觉得很难的一件事是 roadmap，尤其如果你在 AI 做什么，但真任何 AI 能影响的，你要能很快 react。所以当 Anthropic drop computer use 能力我们 slaughter 了 roadmap 因为我们没有明确 roadmap。我们立即跳上去开始 build 东西、launch 了一些围绕它的。我们会做更多，但会有能力 drop。你要真在某些 case 如果真影响你业务你要能非常快跳上。所以 agile、不被 roadmap 卡、能就说哦我们立刻切优先级，会超重要。(00:57:59)：不——如我说——有 silo。在 Replit 有很多设计师到工程师 scale 上的人。设计师、PM。其实我提过 Aman，他开始在 Replit 是设计师现在是 PM。我们有设计师变工程师，我们有中间的，我们舒适 design engineer fit 不同部分 scale。design engineer 去设计 review 会议、一些设计师去工程会议。你得 fluid 因为再说当设计师能编程、工程师能设计，你真没法有大量结构围绕那个。所以你要建文化、建环境或 milieu 真非常灵活，那对很多人不舒服。",
+   "ts": "00:56:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Man, the future is wild. Everyone's a hybrid person now. Let me just actually double down on what you just said, which I think is really interesting. It's almost like if you're an engineer, where your skill set will become most valuable is unblocking these AI tools and knowing debugging and figuring out how to allow it to go further and further and further. Within PM and design land, based on what you're describing, where the skills will become more valuable is generating ideas, almost like finding opportunities, discovery, finding what problems need to be solved, and then articulating that as clearly as possible to the AI tooling.",
+   "zh": "天哪未来太疯狂。现在每个人都是 hybrid 人。让我 double down 你刚说的我觉得很有趣。几乎像如果你是工程师，你的技能最宝贵的地方是 unblock 这些 AI 工具、知道 debug、figure out 怎么让它更远更远更远。在 PM 和设计领域，基于你描述的，技能更宝贵的地方是产生 idea、几乎像找机会、discovery、找什么问题需解决、然后尽可能清晰 articulate 给 AI 工具。",
+   "ts": "00:59:03"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "That's right.",
+   "zh": "对。",
+   "ts": "00:59:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Super interesting.",
+   "zh": "超有趣。",
+   "ts": "00:59:45"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah, this is a very crisp sort of advice that people can follow today, I think.",
+   "zh": "对，这是非常 crisp 建议大家今天能 follow。",
+   "ts": "00:59:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man, what a world. Okay, I'm jot. This is incredible. My mind is racing. I've got to go build some apps immediately.",
+   "zh": "天哪什么世界。好，我在记。这太 incredible。我脑子在转。我得马上建些 app。",
+   "ts": "00:59:50"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yes, you've back. Love that.",
+   "zh": "对，你 back。爱那个。",
+   "ts": "00:59:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I will do that. So just to leave listeners with a couple things. One is just, what should they know? Where do they find you? How do they try Replit? Anything else other than just go to replit.com?",
+   "zh": "我会做的。所以给大家留几个东西。一是他们该知道什么？哪能找到你？怎么试 Replit？除了去 replit.com 还有别的吗？",
+   "ts": "01:00:00"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Yeah, just go to replit.com. It's an open beta right now. We're kind of quickly improving and going to exit beta I think in a few weeks. But if you're comfortable testing something that's not perfect, go to replit.com. If you subscribe to our core plan, you should be able to access the agent and start using it. And we are, I think the place where we're most active is Twitter. So Twitter are like X, the handle Replit, R-E-P-L-I-T or my handle @amasad.",
+   "zh": "对，就去 replit.com。现在 open beta。我们在快速改进、几周后退出 beta。但如果你舒适测试不完美的东西去 replit.com。如果你订阅 core plan 你该能 access agent 开始用。我们最活跃的地方是 Twitter。Twitter 或 X，handle Replit R-E-P-L-I-T 或我的 @amasad。",
+   "ts": "01:00:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, yeah. One other thing I wanted to make sure we had a chance to touch on is you're working on something new, something that's coming in the very new future, maybe the day this episode drops. Talk about that.",
+   "zh": "哦对。还有一件我想确保有机会 touch 的是你在做新东西、非常近期要来的、可能这期 drop 那天。聊那个。",
+   "ts": "01:00:45"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "All right. So depending on when the episode is coming out, this could be the first time people hear about it. But we have this product called agent. It is sort of high agency, does everything from setting up the project and all of that. And so now, we are working on assistant. Assistant is let's say the cousin of agent. It is a little less powerful but a lot more controllable. You can focus on features or areas of the code that you want to change and you still don't have to know how to code, but it is a lot more manageable and it is a lot faster. (01:01:38): So you saw how it took some time to kind of create the project and code some of the things. Assistant is in the order of milliseconds and seconds to be able to respond to you. And so again, as I talk about the idea of tools, we want people to have as much power and autonomy as possible. And so there are certain instances where agent is the best. It's going to do the debugging for you, it's going to create the database for you. But if you want more control, assistant is going to give you that.",
+   "zh": "好。取决于这期何时出，这可能是大家第一次听到。但我们有这个产品叫 agent。高 agency，从 setup 项目做一切。现在我们在做 assistant。assistant 比如说 agent 的表亲。没那么强大但更可控。你能聚焦你想改的 feature 或代码区域，仍不需会编程，但更可管、更快。(01:01:38)：你看到它花了一些时间建项目和编一些东西。assistant 是毫秒和秒级回应你。再说一次，我谈 idea 工具时我要大家有尽可能多 power 和自主。所以某些情况 agent 最好。它为你 debug、建数据库。但你要更多控制 assistant 给你那个。",
+   "ts": "01:00:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just so folks totally understand what this is going to do for them. What's the mental model for what this is? If it's like a person, we're helping you out.",
+   "zh": "让大家完全理解这为他们做什么。这个的心智模型是什么？如果是个人我们在帮你。",
+   "ts": "01:02:09"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Agent is like having a developer work. You give them the PRD, right? And they're going to go and build the thing. Assistant is like you're sitting next to them. So they built the thing and now you walk over to their desk and you say, let me move this button. Three pixels to the left. Let me change this thing. So small increments of changes that you want happen really quickly and you want it reliably, that will give you that. So it's just much faster iteration on UI and things like that.",
+   "zh": "agent 像有个开发者 work。你给 PRD 对吧？他们去建东西。assistant 像你坐在他们旁边。他们建了东西、你走到他们桌说让我把这个按钮移三个像素左。让我改这个。小增量改动你想快速发生、可靠地，它给你那个。所以就是 UI 等更快迭代。",
+   "ts": "01:02:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Incredible. The future is wild. Final question I always ask everybody, how can listeners be useful to you?",
+   "zh": "incredible。未来太疯狂。最后一个问题我对每个人问：听众怎么能帮到你？",
+   "ts": "01:02:58"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Come work at Replit. We have a PM role. I think up if you're product manager. We're hiring engineers and product managers. So come work at Replit or refer someone to Replit, especially if you're like our tools and you want them to get better. The best way to do that is to get us great people we can hire.",
+   "zh": "来 Replit 工作。我们有 PM 职位。如果你是 PM。我们在招工程师和 PM。所以来 Replit 工作或推荐人来 Replit，尤其如果你喜欢我们工具、想它们变好。最好方式是给我们能雇的 great 人。",
+   "ts": "01:03:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, you're about to get a flood of product managers applying. Goodluck.",
+   "zh": "嗯，你即将得到 PM 申请洪水。祝好运。",
+   "ts": "01:03:25"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Amazing. I love that.",
+   "zh": "太好了。我爱那个。",
+   "ts": "01:03:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amjad, thank you so much for being here. This was incredible.",
+   "zh": "Amjad 非常感谢你来。这太 incredible。",
+   "ts": "01:03:30"
+  },
+  {
+   "speaker": "Amjad Masad",
+   "en": "Thank you. Thank you for your podcast and the community that you've built and newsletter and everything. It's been awesome to watch.",
+   "zh": "谢谢你。谢谢你播客和你建的社区和 newsletter 一切。看着真 awesome。",
+   "ts": "01:03:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thanks, man. Appreciate that. Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "谢谢兄弟。appreciate。大家再见。非常感谢你的收听。如果你觉得有价值，可以在 Apple Podcasts、Spotify 或你喜欢的播客 app 上订阅。也请考虑给我们评分或留评，这真的能帮到其他听众发现这档播客。你可以在 lennyspodcast.com 找到所有往期节目或了解更多。下期见。",
+   "ts": "01:03:40"
+  }
+ ]
+}

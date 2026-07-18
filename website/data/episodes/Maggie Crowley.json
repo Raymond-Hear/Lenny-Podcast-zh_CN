@@ -1,0 +1,1121 @@
+{
+ "id": "Maggie Crowley",
+ "name": "Maggie Crowley",
+ "category": "企业管理",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Maggie+Crowley",
+ "bio": {
+  "en": "Maggie Crowley is VP of Product at Toast and has held product leadership roles at Charlie Health, Drift, BevSpot, and TripAdvisor.",
+  "zh": "玛吉·克劳利（Maggie Crowley）是 Toast 的产品副总裁，曾在 Charlie Health、Drift、BevSpot 和 TripAdvisor 担任产品领导职务。"
+ },
+ "summary": {
+  "en": "Maggie argues that when you catch yourself saying \"that's not my job,\" it's usually exactly what you should do to move faster. She describes the PM as the emotional center of the team, responsible for keeping everyone motivated and optimistic. The episode is full of grounded advice on ownership, scrappiness, and doing whatever it takes to ship.",
+  "zh": "玛吉认为，当你忍不住说\"那不是我的活儿\"时，那往往恰恰是你应该去做、从而更快推进的事。她把 PM 描述成团队的\"情绪中心\"，负责让大家保持动力与乐观。本期充满了关于主人翁意识、灵活务实以及\"为交付不遗余力\"的扎实建议。"
+ },
+ "turns": [
+  {
+   "speaker": "Maggie Crowley",
+   "en": "If you ever find yourself saying something like, that's not my job, that's probably a thing you should do. And you know what? It probably isn't your job and it probably is someone else's job and you can spend your life getting frustrated at that or you can just get over and get the work done. And people who are willing to just get the work done will move faster. Their products will be more successful and they probably aren't carrying around all that anger and crappy emotion because as a PM, for better or for worse, and maybe this is not how we all want it to be, but you're oftentimes the emotional center of the team and it's your job to keep people motivated, keep people excited, keep them bought into the project, and you just have to keep that optimism going and it's hard work and part of it can be just like, you know what? Let me take that on. I'll do this thing. I'll hop on this sales call, I'll implement this with the customer. You just have to do whatever it takes.",
+   "zh": "如果你发现自己总在说\"这不是我的工作\"之类的话，那很可能这件事你应该去做。知道吗？这确实可能不是你的工作，而是别人的职责。你要么终日为此感到沮丧，要么就放下架子，把工作完成。那些愿意埋头工作的团队成员，往往能进展得更快。他们的产品更易获得成功，而且他们可能不会被负面情绪所困扰。因为作为产品经理，无论是好是坏，也许这并非我们都乐见的局面，但你往往是团队的情绪核心，你的职责是激励大家，保持他们的热情，让他们全身心投入项目。你必须始终保持乐观，这是一项艰巨的任务。有时你得主动承担责任：我来接这个销售电话吧，我来和客户一起实施这个方案吧。但关键是，你必须不择手段地把工作完成。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Maggie Crowley. Maggie is currently vice president of Product at Toast. Prior to this, she was VP and head of product at Charlie Health, senior director of product at Drift, director of product at BevSpot, a product manager at TripAdvisor. She's also got an MBA from Harvard Business School. She was also an Olympic speed skater, which is insane and incredibly cool. And in our conversation we discuss the three most common threads across the best product managers that she's worked with, hired and managed how to very tactically write out a product strategy to share with your team and manager why being data-driven is a red flag for product thinking. Why product content you find online can be dangerous. Her best advice for how to break into product management. Also, the impact writing online has had on her career and so much more. Maggie is amazing. (00:01:44): I'm excited for you to learn from her like I did. With that, I bring you Maggie Crowley after a short word from our sponsors. This episode is brought to you by Productroadmap.ai and ignition Productroadmap.ai is the first AI roadmapping suite. It helps ensure roadmaps drive revenue by instantly aligning product with your sales and marketing teams to capture upsell opportunities. Built by early leaders from Rippling and Craft, it automatically identifies feature gaps from your CRM data and your customer conversations, adds them to shareable roadmaps, easily prioritized by revenue impact, and then seamlessly closes the loop with sales reps via targeted notifications when feature gaps are closed. As part of Ignition's broader go-to market operating system, Productroadmap.ai can also help create better handoffs and collaboration with product marketing teams by giving both teams the tools to research, plan, orchestrate and measure the process of building products and going to market. Packed with integrations, AI automation and communication tools. It's truly a one-stop shop for product and marketing to bring things from concept to launch. To sign up, go to productroadmap.ai and use promo code Lenny to get 75% off your first year. (00:03:00): This episode is brought to you by Composer, the AI powered trading platform now with retirement accounts, algorithmic trading has historically been reserved for the hedge fund elite. Now with Composer, you can automate your trading with a library of over 1,000 strategies that are easy to understand and tweak using an AI assistant and visual editor. Composer is the first ever algorithmic trading platform where you don't need any coding experience. It includes a full range of trading indicators for you to get creative and a Discord community of 2,500 traders to discuss your ideas with. Composer also has a powerful backtester to see the historical performance of your strategies and you can then invest with a single click. Once you invest, composer will automatically trade for you based on the logic of your strategy. With $1 billion in trading volume and over 1 million trades executed Composer already has many big time investors using the platform regularly. Head to composer.trade and use the code Lenny for an extra week of free trial on your composer membership. That's composer.trade. (00:04:06): Maggie, thank you so much for being here. Welcome to the podcast.",
+   "zh": "今日嘉宾是玛吉·克劳利（Maggie Crowley）。玛吉目前担任Toast公司的产品副总裁。在此之前，她曾担任Charlie Health公司的产品副总裁兼负责人、Drift公司的产品高级总监、BevSpot公司的产品总监，以及TripAdvisor公司的产品经理。她还拥有哈佛商学院的MBA学位。此外，她曾是奥运会速滑运动员，这一经历既令人惊叹又酷到不行。在我们的对谈中，我们探讨了她所接触、雇佣和管理过的最优秀产品经理的三个共通特质；如何以切实可行的方式撰写产品战略并与团队和上级分享；为何数据驱动思维在产品思维中可能是个危险信号；网络上常见的产品内容为何存在风险；以及如何成功进入产品管理领域的建议。同时，她还分享了写作对职业生涯的影响等诸多内容。玛吉真是太棒了。（00:01:44）：我很期待你们能像我一样从她身上收获宝贵经验。接下来，在我们的赞助商致辞之后，有请玛吉·克劳利。  本期节目由Productroadmap.ai和ignition提供支持。Productroadmap.ai是首款AI路线图套件。它通过即时将产品与销售及营销团队对齐，捕捉追加销售机会，确保路线图推动收益增长。由Rippling和Craft的早期领导者打造，它能从CRM数据和客户对话中自动识别功能缺口，将其添加至可共享的路线图，通过收益影响轻松排序优先级，并在功能缺口关闭时通过定向通知与销售代表无缝衔接。作为Ignition更广泛的市场运营系统的组成部分，Productroadmap.ai还能通过为产品营销团队提供研究、规划、协调和衡量产品与市场过程的工具，助力双方实现更顺畅的交接与协作。内置集成、AI自动化和沟通工具，它确实是产品与营销将构想转化为现实的一站式平台。注册请访问productroadmap.ai，使用促销代码Lenny可享受首年75%折扣。（00:03:00）：本期节目由Composer赞助，这款AI驱动的交易平台现已支持退休账户。算法交易历来是对冲基金精英的专属。现在，Composer让您无需任何编程经验即可自动化交易。它包含1000多个易于理解和调整的策略库，以及AI助手和可视化编辑器。Composer是首个无需任何编程经验的算法交易平台。它提供了全套交易指标供您发挥创意，还有2500名交易员组成的Discord社区供您交流想法。Composer还配备强大的回测器，查看策略的历史表现，随后一键投资。一旦投资，Composer将根据您的策略逻辑自动为您交易。凭借10亿美元的交易量和超过100万笔执行的交易，Composer已成为许多大型投资者定期使用的平台。访问composer.trade并使用代码Lenny，即可在Composer会员资格上获得额外一周免费试用。那就是composer.trade。（00:04:06）：玛吉，非常感谢你能来参加节目。欢迎来到播客。",
+   "ts": "00:00:57"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Thanks for having me. I'm super excited.",
+   "zh": "谢谢邀请。我超级兴奋。",
+   "ts": "00:04:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You put out so much content across podcasts, blogs, tweets, I'm sure there's other things I haven't even seen. And so what I've done is I've scoured all of your content as much as I could to find topics that we could dig into in our conversation today. And I thought it'd be fun to start with how to become a successful product manager and what it takes to be a successful product manager, especially long-term in your career. You've worked with a bunch of PMs, you've hired a lot of PMs, you've managed a lot of PMs, and so I guess the question is just what are some common threads you've seen across the best product managers?",
+   "zh": "您在播客、博客、推特上发布了大量内容，我相信还有很多我没见过的。所以我做了件事，就是尽可能仔细浏览了您的所有内容，寻找我们今天可以深入探讨的话题。我觉得从如何成为一名成功的产品经理，以及成为一名成功的产品经理需要具备哪些条件说起会很有趣，特别是从职业生涯的长期角度来看。您与很多产品经理合作过，也招聘过很多产品经理，还管理过许多产品经理，所以我想问的问题是，您在最优秀的产品经理身上看到的共同特质是什么？",
+   "ts": "00:04:12"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, it's an interesting question mostly because I've worked in startups, zero to one, scaling stage startups, enterprise, all that kind of stuff. And there's a lot of content out there I think on how those roles are different and how PMs are different across those different types of companies. But what I've seen is that there are some standard things that are the same across the role no matter whether you're a consumer, B2B or startup or a large company and in particular about what sets PMs apart from one another. And the things that I look for when I'm hiring or when I'm looking to promote people or when PMs stand out, even when you're not looking are three things. (00:05:31): First, I think the best PMs are really good at breaking things down and simplifying things. So, finding at any moment what is the really truly the only thing you need to do, especially in a big company, there are 8 million priorities, there's 700 OKRs, there's 25,000 projects you could work on, and teams will get bogged down in that complexity. Similarly speaking at a startup, you might think that it's easy to find the one thing to do, but at the same time there's so many fires that are happening and so many things you could do in such a world of opportunity that even just picking one and sticking with it is really difficult. And so the best PMs not only can find the one thing to work on, but they can stay with that one thing long enough to actually finish it.",
+   "zh": "是的，这是一个很有趣的问题，主要是因为我曾在初创公司工作过，从零到一，再到扩张阶段的初创公司，还有企业公司等等。关于这些不同类型的公司中产品经理角色的差异，以及产品经理的不同之处，我认为有很多相关内容。但我发现，无论您是在消费者领域、B2B领域、初创公司还是大型公司，产品经理这个角色都有一些不变的标准特质，特别是区分不同产品经理的特质。当我招聘或晋升员工时，或者当产品经理表现出色时，即使他们自己没有主动表现，我也会关注三个方面。（00:05:31）：首先，我认为最优秀的产品经理都非常善于拆解问题并化繁为简。无论何时，都能找到真正需要做的那件事，特别是在大公司里，优先级有八百万个，OKR有700个，项目有25000个，团队很容易被复杂的环境拖累。同样，在初创公司里，你可能会觉得找出那件要紧事很容易，但同时也面临着诸多紧急任务和大量可做之事。在这样的机会丛林中，能选定一件事并坚持到底真的很难。因此，最优秀的产品经理不仅能找到要做的那件事，还能长期专注于此并最终完成它。",
+   "ts": "00:04:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that's a really interesting point, because it sounds simple. Also, just this idea of simplifying, but I think there's so much up there partly because within simplifying is prioritizing and you can almost boil down the job of the PM as they're just prioritizing and telling people what is next. And so I think that's a really powerful point you're making.",
+   "zh": "我觉得这点很值得深思，因为这听起来很简单。还有，关于化繁为简的概念，但我认为这里面有很深的奥义，简化其实就是优先排序。可以把产品经理的工作归结为优先排序和告诉团队下一步该做什么。所以我觉得您提出的观点非常有价值。",
+   "ts": "00:06:15"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Prioritization is a tough word because there's so much wrapped up in that and what it means to prioritize. And I've worked for people who wanted to understand the formula for prioritization and why this thing and how can you prove that this is the right thing to work on and not that thing. And then a week goes by and then they want to reevaluate the priority and they want to re-litigate the priority. And so it's so much more than just a moment in time deciding, but it's the ability to stay with it and to make sure that it continues to be the most important thing, that you finish it and actually see that it works and that you can get people to continue to stay excited and engaged in that project. (00:07:13): Because I think a lot of when we talk about product, it's like, oh, what should you build? What should you ship? But then you actually have to ship that and that can take a week, a month, three months, six months, a year. And so as a PM, your job is to stay on that and be the person who's beating that drum over and over again, and the best PMs are the ones who can do that and have the resilience and the energy to stay with it.",
+   "zh": "优先排序是个棘手的词汇，因为它涵盖了太多层面，也蕴含着深刻的含义。我曾为一些希望理解优先排序公式的人工作，他们总想知道为什么要优先处理某件事，又该如何证明这个决策是正确的。但一周过去后，他们又想重新评估优先级，再次争论这个问题。因此，优先排序绝非一时之选，而是要坚持下去，确保它始终是最重要的事务，直至完成并验证其成效，还要持续激发团队对项目的热情。\n\n（00:07:13）：因为谈及产品时，人们往往纠结于“该开发什么？该上线什么？”。但实际上，上线可能需要一周、一个月、三个月、六个月的时间。作为产品经理，你的职责是持续跟进，始终保持推动力，而优秀的产品经理必须具备这种韧性和耐力，才能始终如一地把事情做好。",
+   "ts": "00:06:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Energy. That's a really important part of that. I'm going to ask you how you suggest people get better at these things. So, either we can go into how you found you get better at simplifying or we go through all three and then we can come back, however you prefer.",
+   "zh": "能量。这是至关重要的一点。接下来我想问问大家，如何才能在这方面有所提升。或者我们可以先快速过一遍三个要点，再深入探讨，按您的意愿安排。",
+   "ts": "00:07:38"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Let's just do all three really quick and then we can dig in.",
+   "zh": "那就快速过一遍三个要点吧。",
+   "ts": "00:07:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sounds great.",
+   "zh": "听起来不错。",
+   "ts": "00:07:54"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "So, yeah, first one, simplifying. I think the second one has to do with this point about sticking with something and it's following up on results. So many people in the spec or the one pager or something will say, okay, here's the metric that I care about. Here's what I want to move. Awesome. Maybe they'll even write a SQL query, get a dashboard going, figure out what the number is today, that gets you some extra points, but the really, really good PMs remember to follow up. Because especially when you're in management, couple layers up in management, I'm not going to remember to follow up on that feature, but if a PM comes back to me and says, \"Hey, remember we did that thing, here's what happened.\" I can't tell you how rare that is and how many times as a leader you might have to ask for that and for the people you don't have to ask that of is one of the best things when I'm looking at PMs and it's easy. (00:08:43): It's not hard to do that, especially if you've set up metric tracking or you know how to pull that information or you have somebody who can help you get that. It's pretty easy to do and it's really high value activity. And then the third thing, and I think maybe we'll talk about this later too, is that a phrase actually we were talking about David Cancel before we started carrying the water, and this was a big theme when I joined Drift, and this is about how you can't be a good PM if you're not willing to do the hard boring unglamorous work of customer support, sales, marketing, writing, copy, project management, you have to do that stuff. It's your job. No one else is going to do it, because at the end of the day, you're responsible for outcomes and results. So, you're the person that has to do that, and if you're willing to do that work, that's what's going to make your product successful, which is what makes you successful.",
+   "zh": "好的，第一个要点是简化复杂问题。第二个要点是坚持到底并跟进结果。许多人在需求文档或单页计划中会写道：好的，我关注这个指标，推进这个目标。不错，也许他们甚至会写个SQL查询，搭建个仪表盘，看看当前数据，但真正优秀的产品经理会持续跟进。尤其是在管理层级较高的职位上，如果我不主动追踪某个功能，产品经理主动汇报：“记得我们做了这个事，结果如何？”这种汇报太难得了。作为领导者，如果你不必催促下属完成这些工作，那就是最棒的。（00:08:43）：这并不难做到，尤其是如果你已建立指标追踪系统、掌握数据提取技巧，或者有助手支持的话。这些都是低成本、高价值的工作。第三个要点——我们稍后再探讨——是关于客户支持、销售、市场、文案、项目管理等基础工作的价值。优秀的产品经理必须亲力亲为这些工作，没人能替代你，因为最终的成果由你负责。正因如此，你必须亲自承担这些工作。如果你愿意承担这些职责，产品才能成功，你自己才能成功。",
+   "ts": "00:07:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's such an interesting list because when you ask most people what you need to get better at to become a great product manager, it's always communication skills, collaboration skills, vision, strategy, and it feels like these are input metrics to what it's normally what people think about.",
+   "zh": "这份清单相当有趣，因为当你问大多数人要成为一名优秀的产品经理需要提升哪些能力时，他们的回答总是沟通技巧、协作能力、愿景和战略，而这些似乎都是人们通常认为的输入指标。",
+   "ts": "00:09:33"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Those things to me, communication, super important, analytical ability, really, really important. The ability to look at a, especially if you're doing something that has a user experience component, the ability to look at that and understand if it's going to work and build up intuition around that, also really important. Those are things that I would see as sort of basics of the role. These are the things that make you great at the role and strategy to me, and hopefully we'll talk about strategy in a bit. It's one tiny slice. You do a strategy, but it's 5% of the work that you do. Yes, it's important because you want to get your strategy and you need to pick the right products, but at the end of the day, the person who has a good strategy will not be as successful as the PM who ships more stuff, gets more reps and has the ability to actually create impact. So, to me, you could be great at strategy, but if you're not good at this stuff and your stuff isn't getting out the door, you're never going to be that great at the job.",
+   "zh": "对我而言，沟通能力至关重要，分析能力也同样重要。若你从事涉及用户体验的工作，能够审视产品并判断其可行性，并由此建立直觉，这一点也极为关键。这些在我看来都是该职位的基本要素。它们决定了你能否在这个岗位上表现出色，而战略能力对我而言只是其中一小部分。制定战略固然重要，但这仅占你工作的5%之多。诚然，制定合理的战略和选对产品至关重要，但归根结底，拥有出色战略能力的PM若不能推出更多产品、积累更多经验并真正创造价值，最终也不会比那些高产输出的PM更成功。因此，在我看来，即便你精通战略，若无法将成果落地，永远无法成为卓越的产品经理。",
+   "ts": "00:09:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And impact is the other one. Everyone's always like, what makes a great PM? Oh, drive a lot of impact. And again-",
+   "zh": "另一个关键词是影响力。人们总说如何成为优秀的PM？“要创造重大影响力”。但他们从不解释具体方法。",
+   "ts": "00:10:48"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "But they never say how.",
+   "zh": "没错，就是这样。",
+   "ts": "00:10:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right, exactly.",
+   "zh": "比如，“好，我们制定战略，创造影响力。”但当我刚入行时，听到这些建议却茫然无措。当时我满怀热情，觉得“影响力？好，我要创造影响力。”却发现现实与理想相差十万八千里。",
+   "ts": "00:10:54"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "It's like, cool, let's do a strategy, let's have impact. Then when I was starting off as a PM, I was hearing this advice and reading about it and I was sitting there saying, awesome, I want to create impact. And I'm looking at my job thinking, now what? Yeah, impact. Let's do it. Where is it? How do I find it? Someone help me.",
+   "zh": "我很喜欢这种挑战。好，我们回到这三个核心要素。我很好奇，你是如何提升这些能力的？能否分享一个具体案例？比如，如何提升沟通能力？如何锻炼这种能力？",
+   "ts": "00:10:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. Okay, so let's go back to these three and I'm curious just what you found helps you become better at these things and also just an example if you can share. So, say what's simplifying? How does one build that muscle?",
+   "zh": "我期待听听你的见解。回到这三个要素，我很想了解你如何提升这些能力，以及能否分享具体案例。比如，如何提升沟通能力？如何锻炼这种能力？",
+   "ts": "00:11:14"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "This is a tough one because some people, a broad generalization that I think comes up in things like when you're interviewing PMs for a job and you say things like are they a simplifier or are they complexifier? Do they make things complicated? And so some of it's a little bit of just who you are and how you think. But having said that, there's one tool that I use that I actually learned from my dad when I was in grade school, which is when you write something, for example, and a lot of what we do as PMs is written, when you write something, read it out loud, literally just read the thing you wrote out loud and half the time you'll realize it's way too complicated, it doesn't make sense. Or what happens is when someone comes to me and they say, okay, I'm working on this thing, check it out, can you read it? (00:12:10): I read it and then I put it down and I say, \"What are you trying to say?\" And 99% of the time they say, \"Oh, users are really struggling with this problem. We found this in research and we think that the way to solve it's to do X\", but that's not what the document says. And so my reaction is always, and if anyone who I've worked with is listening to this, they're going to laugh is always, \"Just say that. Just say that thing. The thing that you said to me in conversation is the thing you should write.\" There's no reason why your pros in a document has to be a certain way. We're not in school. Our goal is to get things done. So, those are just some simple tricks that I've used to help simplify what I've already been working on. (00:12:54): And as for how to boil things down and really find the most important thing to do, which is another part of simplification, I think the best thing you can do is just get as many reps in as you can, have people review your work and listen to them. There's a thing that happens I think with PMs where you join a company and then all of a sudden it's like my boss doesn't know what they're doing and the highest paid person's opinion and the founder wants to swoop in and mess everything up, but those people had an insight on the market that you're in that made the company worth founding and they probably know more than you and so you might want to listen to them. And so find people who can review your work, listen to them and ask them to help you simplify.",
+   "zh": "这是个棘手的问题，因为有些人——我觉得这种情况在面试产品经理时会很常见，比如你问他们是简化者还是复杂化者？他们是否把事情搞得过于复杂？所以这在某种程度上取决于你个人的性格和思维方式。不过说到这儿，我倒是从小学时父亲那里学到一个方法：当你写下某段文字时（比如我们产品经理常做的工作），读出声来——真的大声朗读一遍。很多时候你会发现内容太复杂，根本说不通。又比如有人找我看设计稿时，我读完后会问：“你想表达什么？” 99%的人会说：“用户在这方面遇到了难题，我们通过调研发现问题根源，觉得应该用X方式解决”，但设计稿里根本没体现这些逻辑。所以我的建议是，直接说你实际想说的。如果你曾与我共事过的人听到这番话一定会笑：\"就直接说嘛！直接把对话里说的话写下来就行了。\" 文档里的专业术语没必要太书面化——我们又不是在上学，目标是把事情做成。这些都是我用来简化已有工作的简单技巧。  \n\n至于如何提炼核心要点，即简化的另一层含义，我认为最好的方法就是多实践、多征求意见。产品经理常会遇到这样的情况：加入新公司后，突然发现老板啥都不懂，创始人又想亲自操刀毁掉成果，但这些人对市场有深刻洞察，正是他们的见解成就了公司。所以要多听取他们的意见，找到能帮你简化的人。",
+   "ts": "00:11:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'll share a couple other things that came to mind as you were talking, because this is a very hard thing to teach and you kind of have to do it again and again and honestly, I have this one manager who taught me to simplify in my writing and strategy docs one-pagers and things like that, and I think that actually had a big impact on my newsletter success is learning just to strip down as much as you can and anything that isn't necessary. So, there's a couple things that I'll share real quick. One is there's this book I read called On Writing Well, that is one of the most impactful books for writing for me, and the whole book is like, I don't know, 20 chapters and every chapter is more things you should cut from your writing and they show all these examples of like, here's a before and here's an after. (00:14:18): And all these words were cut and nothing changed. They're completely necessary. So, I think that book can help and partly it's just like what is not necessary? You think all these adjectives are important. Another thing I found really helpful is the rule of thirds, I guess the rule of three, of just always having three. Try not to go beyond three when you're giving strategy bets or priorities or things like that. Just try to keep things under three.",
+   "zh": "接下来，我想分享几个在你发言时突然想到的要点，因为这确实是很难传授的技能，你必须反复实践。说实话，我曾遇到一位经理，他教会我如何简化写作和策略文档（如一页纸提案等），这对我的新闻通讯成功起到了重要作用——学会尽可能删繁就简，剔除所有不必要的内容。接下来，我会快速分享几点心得。首先，我读过一本叫《On Writing Well》的书，它对我的写作影响最大。整本书分为约20个章节，每个章节都教你如何从作品中删减冗余内容，并通过前后对比的例子展示，删减后的文本毫无影响，完全必要。所以这本书确实很有帮助。另外，要注意哪些内容是非必要的？你可能觉得某些形容词很重要，但实际上它们可有可无。\n\n还有一点我发现很管用，那就是“三分法”原则——策略建议、优先事项等内容最好控制在三个或以下。保持简洁明了即可。若有第四个要点，需想办法整合进去。四个要点看起来会显得凌乱不整洁。\n\n是的，我完全认同这种商学院前顾问的观点：任何列表都应控制在三个或更少，绝不超过三个。要保持数字整齐，若有第四个要点，需想办法巧妙整合。\n\n没错，我也曾犯过超过三个要点的错误，但现在努力避免了。\n\n你用的Notion平台，三个要点下有子项目，但至少结构清晰。\n\n没错。还有一点，关键是要专注于最重要的内容。人们常想把一堆想法堆在一起，但这样只会冲淡整体效果。应该选取最具影响力的核心内容，舍弃那些虽有作用但重要性次之的部分。",
+   "ts": "00:13:39"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, it's a very sort of business school ex-consultant point of view that I do agree with and share, which is there's always three things or fewer, never more than three things. You have to have a nice round couple and if you have a fourth, you've got to figure out how to squish it in there because it just doesn't look right if there's four.",
+   "zh": "是的，我完全认同这种商学院前顾问的观点：任何列表都应控制在三个或更少，绝不超过三个。要保持数字整齐，若有第四个要点，需想办法巧妙整合。",
+   "ts": "00:14:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Agree. Yeah, even though I've been guilty of more than three, try hard to avoid it.",
+   "zh": "同意。虽然我自己也曾犯过超过三个要点的错误，但现在努力避免了。",
+   "ts": "00:15:02"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, you're using notion and you have your three bullets expanding and there's sub bullets, but at least you have that top line.",
+   "zh": "是的，你用的Notion平台，三个要点下有子项目，但至少结构清晰。",
+   "ts": "00:15:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's right. The other thing is I think that there's just a focus you need to get good at just like, people often want to lump together a bunch of ideas and then every time you do that it just dilutes everything. So, I think there's just a lot of power and pick the thing, pick the thing that's going to have the most impact and cut other stuff that may have some impact but is much less important.",
+   "zh": "没错。还有一点，关键是要专注于最重要的内容。人们常想把一堆想法堆在一起，但这样只会冲淡整体效果。应该选取最具影响力的核心内容，舍弃那些虽有作用但重要性次之的部分。",
+   "ts": "00:15:13"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I think again, simplification is something and prioritization, which is sort of the same thing, gets tossed around a lot as a thing you have to get good at, but it's really challenging. Getting to the one thing you should do is extremely difficult and being able and having the gumption to say no to all those other things is really hard, because there's probably at any given time, 10 things you should do, but you can't do 10 things, you'll never be successful if you do that in a number of things. And so you have to pick one. (00:15:59): And so it's both figuring out how to get confident in your decision and then B, having the willingness, and maybe I should have added this to my what makes great PMs list, the willingness to make the bet and be responsible for it. And that's what I think separates the PM role from a lot of other roles and why it's such a challenging job when done right is because you have to be willing to take responsibility and it's your job to pick the thing and it's your job to be accountable to your team for picking the thing so you better get it right.",
+   "zh": "我再想一想，简化和优先排序是同一个概念，但人们总把它们挂在嘴边，仿佛这是一项必须掌握的技能，但实际上这很难做到。确定你应该专注于哪件事极其困难，而能够拒绝其他所有事情的诱惑更是难上加难，因为任何时候可能都有10件你应该做的事，但你不可能同时做好10件事。如果你想在多项事情上出色，那注定会失败。所以你必须选定一件。（00:15:59）：这既需要学会如何对自己的决定充满信心，也需要具备勇气——或许我本该把这一点加到“优秀产品经理的特质”清单里——即敢于下注并为此负责的勇气。这就是产品经理角色与其他许多角色截然不同的地方，也是做好产品经理工作如此具有挑战性的原因——你必须愿意承担责任，选定重点任务，并对团队负责。因此，你必须选对。",
+   "ts": "00:15:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Ownership such an important part of just being a PM. Again, coming back to this interview I just did with an ex Amazon guy, that's one of their principles at Amazon is just leaders, basically ownership, feeling like you have ownership of what you're working on.",
+   "zh": "“所有权”是产品经理角色的核心要素。再说回我刚完成的亚马逊前员工采访，亚马逊的核心原则之一就是领导者要具备所有权感，要觉得自己对正在做的工作拥有掌控权。",
+   "ts": "00:16:32"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I agree, but to me at least the word ownership doesn't have the same oh shit feeling as you're making a bet. You make a bet, that means you know that there's a chance that the thing you're working on is not going to work out and you still have to be the one to do the thing, jump off the ledge, drop in on the ski run. So, ownership to me never signaled that risk that I think comes with being a PM.",
+   "zh": "我同意，但至少对我来说，“所有权”这个词没有那种“天啊，我在下注”的紧迫感。下注意味着你知道自己所做之事可能失败，但你仍必须承担责任，必须勇往直前、迎难而上。所以，对我来说，“所有权”从未传递出我认为产品经理角色所附带的风险感。",
+   "ts": "00:16:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Good point. On the simplify concept, it reminds me at Airbnb, one of the core values at Airbnb for time was simplify. Is this idea that we should always try to be simplifying, and then it turned out the founders realized we're not actually great at this and it's unfair for us to say this is a value for not doing it. So, they actually cut it as a core value because their feeling was we shouldn't have aspirational values, we should reflect who we actually are, and they actually cut two different values to be more clear, even though they still want to simplify, they're just like, we're not actually good at this, so why are we pretending like we are.",
+   "zh": "说得好。关于简化这个概念，这让我想起Airbnb。他们最初的核心价值观之一就是“简化”。但后来创始人意识到，他们自己并不擅长做到这一点，所以不能把“简化”作为价值观却又要求别人去践行。于是他们干脆将其从核心价值观中删除，因为他们觉得不应该设定不切实际的愿景，而是要忠实于自身实际。尽管他们仍然想简化，但他们坦言自己做不到，所以何必假装能做到呢？",
+   "ts": "00:17:10"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I think maybe I'm good at it on paper, but there's been many times where I've been in situations where things are not simple and you just have to keep fighting for it.",
+   "zh": "我觉得自己可能只是理论上擅长，但实际遇到复杂情况时，还是得不断为之奋斗。",
+   "ts": "00:17:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Someone's trying to think about, okay, I want to become better as a PM and I'm going to try to start simplifying. What are examples of simplifying? Is it reduce your email length? Is it one pager focus? What are these buckets of things? And then also if there's an example of something you've simplified that comes to mind",
+   "zh": "有人可能会想，嗯，我想成为更优秀的产品经理，所以要开始简化。简化的例子有哪些呢？是缩短邮件长度？还是用一页纸的重点汇报？这些都是哪些范畴？如果大家能想到自己简化过的例子，那就更好了。",
+   "ts": "00:17:54"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "On what to simplify and more specifics, I would say anything can be simplified and shortened. Maybe another way to say shorten it. Definitely emails. I read them sometimes don't love them. Make them short. The Minto principle is something that I would recommend everyone do, which is put the headline, the full conclusion first and then you're supporting argument second.",
+   "zh": "关于简化和具体内容，我想说任何东西都可以简化和缩短。或许还有其他简化它的方法。比如邮件，我有时会读邮件，但不太喜欢它们。一定要让邮件简短。明托原则是我推荐大家都应该遵循的，即先放置标题和最终结论，再逐步展开论点。",
+   "ts": "00:18:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have a newsletter post about that exact concept that people that I will link in the show notes that gives you-",
+   "zh": "我有一篇关于这个概念的时事通讯文章，我会在节目笔记中附上链接——",
+   "ts": "00:18:36"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Fantastic.",
+   "zh": "太棒了。",
+   "ts": "00:18:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The Minto Pyramid principle.",
+   "zh": "明托金字塔原则。",
+   "ts": "00:18:42"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yes, everyone should do that. A lot of new PMs fall into the trap of thinking that they should have some sort of buildup. Don't do that. Just tell me whatever the thing is, everyone will thank you. Doing things like that, things like you said, limiting your strategy docs, your conclusions, your next steps to three things maximum. I would generally say a rule of thumb would be pretty much every doc you write, you can delete the first two paragraphs that you've written. You don't need them. My dad, again, to go back to my dad when I would write, and this sounds cruel, but I promise it wasn't. When I would write a paper for school, he would just, and this is we didn't really have computers, whatever, he would just take away the first page and he'd be like, just start here. He would go, \"Everything on the first page is crapola, don't use it.\" (00:19:30): And he wouldn't even read it, which would drive me crazy. He would just like, \"Oh, it's crap. I don't care about that.\" So, I would do that and then just get other people, there's probably somebody around you that's good and find people to edit your work and to look at it. I have a little Slack workspace that has three people in it, me and two other women who are product leaders, and we oftentimes send each other our work still and we say, \"Hey, I'm struggling with this. Can you read it? Help me make it simpler. Can you help me fix this up?\" And we do that for each other. So, find a peer maybe who's in a non-competitive space who can do that for you. I mean I still use those people to help me.",
+   "zh": "是的，每个人都应该这么做。很多新晋产品经理会陷入一个误区，认为自己需要铺垫一些背景内容。别这样做。直接告诉大家重点就行，每个人都会感激你的。比如你提到的那些做法，比如把策略文档、结论和下一步行动限制在最多三点之内。我通常的经验法则是，几乎每份你写的文档都可以删掉前两段。它们没用。我父亲，回到我小时候写论文的经历，这听起来可能有点严厉，但我保证他不是故意的。当我为学校写论文时，他会直接拿走第一页，然后说：\"就从这里开始吧。\"他会说：\"第一页的都是垃圾，别用了。\"（00:19:30）他甚至都不读内容，这让我很抓狂。他只是说：\"哦，太烂了。我才不在乎呢。\"所以我会这么做，然后找其他人帮忙。身边可能有做产品经理的优秀人士，可以让他们帮你审稿和润色。我有一个Slack工作区，里面有三个人，包括我和另外两位产品负责人，我们经常互相发送工作成果，互相说：\"嘿，我写这个遇到了难题。你能看看吗？帮我简化一下？\"我们互相帮助。",
+   "ts": "00:18:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is extremely cool. Can you talk more about this group that you have?",
+   "zh": "这太棒了。能多聊聊你这个小组吗？",
+   "ts": "00:20:10"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, I don't know if it's a group. It's like three friends. Shout out Alexa and Daphne. Yeah, I mean the three of us all worked together when we were at Drift. We've stayed in touch and I've just found that in order to be good at your job continuously, you need people who can help give you feedback, and the more senior you get, the harder that is. And so having people who can give you another point of view who maybe you can vent to if it's not appropriate as a leader who can give you other experiences that they're going through has been incredibly valuable. And so we just have a little group chat that is focused on product.",
+   "zh": "是的，我不知道这算不算一个小组。就是三个朋友。向Alexa和Daphne致敬。是的，我们在Drift工作时就一起共事过。一直保持联系。我发现，要持续做好本职工作，需要有人给你反馈。职位越高，越难做到这一点。所以有能给你另一种视角的人——如果你作为领导不方便倾诉——能给你分享经验的人，这太有价值了。所以我们就组建了一个专注于产品的小组聊天室。",
+   "ts": "00:20:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so cool. Is there a tip you could share for someone that wants to create something like this? Is it important for you to have worked with them before? Is Slack a good way to communicate? Anything there that's just like, oh yeah, here's a cool tip.",
+   "zh": "太棒了。对于想创建这样小组的人，有什么建议吗？必须和他们合作过才行吗？Slack是沟通的好方式吗？有没有什么特别的技巧可以分享？",
+   "ts": "00:20:49"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Slack just worked for us where we are during the day, and I think having easy access to it was important. You could probably use WhatsApp or a literal group text. There are small community, there's one, I worked in healthcare for a year and a bit, and there's a Slack community that somebody organized for heads of products and healthcare startups that is similar to those really, really powerful and a really great space to be in. And so you just have to kind of suss out where these things are. You work with amazing people and there's people around you who are going to become your friends, and so keep an eye out for them and keep in touch with them when you leave a job because you never know when they might become your little Slack workspace.",
+   "zh": "斯莱克（Slack）在我们日常工作中非常顺手，随时能访问它很重要。你或许也可以用WhatsApp或者群发短信。不过有些社区规模较小，比如我曾在医疗保健领域工作过一年多，有人为产品负责人和医疗保健初创公司组建了一个Slack社区，效果非常好。所以你只需要去挖掘这些资源。与优秀的人共事，他们可能会成为你的朋友，离职后也要保持联系，因为说不定哪天他们就会成为你Slack工作区的核心成员。",
+   "ts": "00:21:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, I love it. Okay, I'm glad we talked on that. Okay, back on track. The second bucket you described as following up on results, is it just do that. Is there anything more you can add there?",
+   "zh": "哦，我太喜欢这个观点了。好的，很高兴我们能聊到这点。回到正题。你提到第二个要点是跟进结果，那具体该怎么做呢？有没有什么额外建议？",
+   "ts": "00:21:39"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I put reminders in my calendar. I mean, yeah, it's just do that. But if you're launching a product, usually you release something and you have that initial push of a couple of weeks where you're finding bugs and you're maybe you're pulling metrics and everyone remembers it, then I would remember two weeks after that, a month after that, six months after that, put a reminder in your calendar to check your dashboard or check the metrics or check whatever it is that you were doing, and you won't forget and then share them with whoever might care about it. And it's as simple as that.",
+   "zh": "我会在日历里设置提醒。没错，就是这么简单。但如果你要推出新产品，通常刚发布时会有几周的推广期，期间会发现漏洞、收集数据，大家都很关注。但两周后、一个月后、半年后，你需要在日历里设置提醒，检查仪表板、数据指标或者其他关键项，这样就不会遗漏了。然后把这些信息分享给可能感兴趣的人，就这么简单。",
+   "ts": "00:21:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And is the reason this is one of the three things you think are most consistent across great PMs, that it helps your manager see you like, wow, Maggie's so on top of everything, or is it more that you learn from that experience and drive more impact or is it both?",
+   "zh": "为什么你认为这是优秀产品经理最一致的三个特质之一？是因为这能让经理对你刮目相看——哇，Maggie真是掌控全局，还是因为你从中吸取经验、创造更大影响力，或者两者兼而有之？",
+   "ts": "00:22:20"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "It's definitely both. I'm not going to pretend like if you're just great at your job quietly that you're going to get what you want. Just if you're toiling in the background, doing a great job getting results. If you have a great manager, maybe you'll be successful. Great managers are few and far between, and I am of the opinion that I never wanted to rely on someone else to get what I wanted. And so I would always make sure to share that, always make sure to share my progress because I didn't want to leave it up to chance that someone would notice. So, I would suggest doing it for both reasons. And that's one of those things that people want to pretend that everything's perfect and we're all great and we're always going to get what we want and always going to get that promotion, but you have to work for it.",
+   "zh": "两者皆有。我不会假装只要默默做好工作就能如愿以偿。光是埋头苦干、取得成果固然重要，但如果有优秀的经理，可能更容易成功。优秀的经理实属难得，而我从不指望靠别人来实现目标。所以我会确保分享进展，避免让别人忽视你的努力。我建议两者兼顾。这正是人们总想假装一切完美、自己无所不能、总能升职的缘故，但成功需要靠自己努力。",
+   "ts": "00:22:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that point. It reminds me what I find one of the most important traits of a great product manager is they create this aura that they've got this, they put something on their plate and they're not going to drop it, that the threads are not going to be forgotten. And this connects to me there. They feel like Maggie's going to tell me what happened with this experiment. I don't have to think about it as a manager.",
+   "zh": "我很认同这一点。它让我想起优秀产品经理最重要的特质之一：他们营造出一种掌控全局的氛围，一旦接手某项任务绝不放手，不让任何线索被遗忘。这点我深有共鸣。比如我总觉得Maggie会跟我汇报实验结果，作为经理我根本不用操心这些。",
+   "ts": "00:23:22"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, that's a really good point. And then you mentioned this a little bit ago, the side benefit is that you learn more. You will go back and learn why something happened or why it didn't happen, and the more that you follow up on what you've been doing and the more you learn, the better you get every time you ship something. To me, the other answer of what makes a great PM is family shipped a lot of stuff. The more you ship, the more you learn. And that's why it can take years to build up expertise because you just have to ship a lot of stuff.",
+   "zh": "是啊，这确实是个很棒的观点。你之前也提到过，这还有一个额外的好处——你能学到更多东西。当你回顾过去，思考某件事为何发生或未能发生时，当你不断追踪自己的工作进展并不断学习时，每次发布新成果时你都会变得更出色。在我看来，成为一名优秀产品经理的另一个关键因素是多参与项目。越是频繁地发布产品，你就能学到越多东西。这也是为什么积累专业技能需要多年时间，因为你必须不断实践。",
+   "ts": "00:23:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's a lot of people that are always frustrated. They're not getting promoted quickly enough as a PM. They're not moving off the ladder like, oh my god, I've been a PM for two years. I'm not a senior PM yet. Can you speak more to just that thought and just how long it takes to get actually good? I guess I'll share briefly in my experience, it took me four years to actually know what the hell I was doing as a PM and then things started to really take off. What's your experience?",
+   "zh": "很多人总是感到沮丧。他们晋升产品经理的速度不够快。他们的职业阶梯似乎停滞不前——比如，天啊，我做产品经理两年了，还是不是高级产品经理。你能否详细谈谈这个问题，以及真正精通这份工作需要多长时间？我简单分享一下自己的经历：我花了四年时间才真正明白自己在做什么，之后才开始取得真正的进展。你有什么经验吗？",
+   "ts": "00:24:19"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I would say similarly, it took a lot of years to feel confident that I knew what I was doing. My first PM job was a product management rotation job at TripAdvisor. I had no PM background. It was after business school and I left those two years thinking, yeah, I've worked on four different teams over the two years. I've shipped all this stuff, I'm good. Went to a startup, there was another product person there, they left and I was the only product person at the startup. And I realized really quickly, I had no idea what I was doing. I had no one to learn from. I had only had two years of experience and I was not ready for that job. I didn't feel confident in the decisions I was making. That's why I joined Drift is because that team had all these really incredible product thinkers on it and they were shipping all sorts of stuff. They had all this momentum and I thought, okay, that's where I'm going to go to learn. (00:25:29): And so then two more years. So, that's five years until I really felt like I knew what I was doing. And that's because it takes a long time to ship stuff. And so to people who want to progress, you can progress by job hopping, you can progress by going in and out of startups. But to me staying at that, when I was at Drip, I was there for almost four years. I got to see two or three cycles of the same product and I learned more from that than I did out of the year or so I spent doing other things each at a time because you got to see the consequences of your decisions and that's rare. And people, myself included, of course you want to get promoted, of course you want to move up. I'm ambitious. Lots of people are ambitious, but for better or for worse, spending the time is really helpful and I think allowed me to move faster later because I had just spent the time grinding it out for a while in order to be better later.",
+   "zh": "我也有类似的经历。花了很多年才有信心认为自己做得不错。我第一份产品经理工作是在TripAdvisor的轮岗项目中完成的。我没有产品经理背景，那是在商学院毕业后做的。那两年结束时，我离开公司时觉得，自己在四个不同团队工作过，发布了不少产品，应该还不错。后来去了一家初创公司，那里只有我一个产品经理。很快我就意识到，自己完全不知道在做什么。没有可以学习的对象，仅有的两年经验根本不足以胜任那份工作。我对自己的决策缺乏信心。这就是我加入Drift的原因——那支团队里有许多极具产品思维的人，他们不断发布新成果，充满活力。我当时就想，嗯，我要去那里学习。（00:25:29）又过了两年。总之，花了五年时间我才真正觉得自己掌握了诀窍。这是因为发布新成果需要大量时间。因此，想要晋升的人可以通过跳槽或频繁加入初创公司来实现。但对我来说，在Drift待了近四年更有意义。我见证了同一款产品的两三个迭代周期，从中学到的东西远超在其他公司短暂工作的效果，因为你能看到自己决策的后果，而这在其他地方是很难获得的。当然，人人都想晋升，都想往上爬，我也雄心勃勃。很多人也是如此，但无论好坏，多花时间磨砺自己确实很有帮助，我相信这让我日后能更快地进步。",
+   "ts": "00:24:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, is that advice you often give of go deep into a company or a product versus just bounce and track a bunch of different companies or depends?",
+   "zh": "那么，你常给出的建议是深入一家公司或一个产品，还是频繁跳槽、追踪不同公司的情况？",
+   "ts": "00:26:31"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "It depends. There are lots of really good reasons to bounce. I've done it, many people have done it, but I was surprised at how much I value that experience of having stuck around for a while and how much I learned from it was something I hadn't expected going into it, especially because you don't hear that point of view as much or as I wasn't hearing that point of view as much when I was thinking about the sort of arc of my career, but I'm glad that I did it. And then of course people always want to get promoted, always ask that question and my answer is always create impact and that can take time.",
+   "zh": "这得看情况。有很多充分的理由去尝试跳槽。我自己就经历过多次跳槽，很多人也都这么做过，但让我惊讶的是，我越发珍视那种坚持下去的经历，以及从中获得的成长——这远超我最初的预期。尤其是在规划职业生涯时，我并未过多考虑这种长期投入的重要性，但现在看来，这段经历确实意义非凡。我很庆幸自己当时的选择。当然，人们总想升职，总会问这个问题，而我的回答始终是：创造价值，而这可能需要时间。",
+   "ts": "00:26:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "At my first job, I was there for nine years and then I started a company for a year and a half and then we sold to Airbnb, and then I was at Airbnb for seven years. So, I'm very much on that train of just, not that I intended for that to happen, but I definitely went deep and I think there's pros and cons, but there's so many pros to that, so many reasons. Okay. Let's talk about the last part, which is the third point you made, which is carrying the water, I think is how you described it.",
+   "zh": "在我的第一份工作中，我待了九年。之后，我创办了一家公司，一年半后将其出售给Airbnb，随后在Airbnb工作了七年。所以，我的人生轨迹就是这样——并非刻意为之，但确实深耕其中。我认为这有利有弊，但利远大于弊。好的，让我们来谈谈最后一点，即你提到的第三个观点——\"默默付出\"，我记得你就是这么形容的。",
+   "ts": "00:27:16"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah. This one, there's no tips and tricks. It's just do the work. If you ever find yourself saying something like, that's not my job, that's probably a thing you should do. And you know what? It probably isn't your job and it probably is someone else's job and you can spend your life getting frustrated at that or you can just get over and get the work done. And people who are willing to just get the work done will move faster, their products will be more successful and they probably aren't carrying around all that anger and crappy emotion. (00:28:17): Because we touched on this earlier as a PM for better or for worse, and maybe this is not how we all want it to be, but you're oftentimes the emotional center of the team and it's your job to keep people motivated, keep people excited, keep them bought into the project, and you just have to keep that optimism going. And it's hard work. It's really hard work to stay positive and to keep people amped for that thing. And part of it can be just like, you know what? Let me take that on. Let me grab that, whatever. I'll do this thing. I'll hop on this sales call, I'll implement this with the customer. You just have to do whatever it takes.",
+   "zh": "是的。对于这一点，并没有什么技巧或捷径。只需埋头苦干即可。如果你发现自己在说\"这不是我的工作\"，那很可能就是你该做的事。说实话，这或许确实不是你的工作，很可能是别人的职责。你可以终日为此感到沮丧，也可以在完成任务后释然。那些甘愿埋头工作的人会进展得更快，他们的产品也会更成功，而且他们可能不会被各种负面情绪所困扰。（00:28:17）：因为我们之前在谈及产品经理时曾提到，无论好坏，你往往是团队的情感核心，你的职责是保持团队的积极性，激发他们的热情，让他们全心投入项目。你必须始终保持这种乐观态度。要保持积极向上，并让大家为项目充满热情，这实在不易。有时你只需说一句：\"好吧，让我来接手吧。\"或者\"我来处理这个问题吧。\"你必须全力以赴。",
+   "ts": "00:27:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me of one of your lessons that you shared, in one of your podcast episodes. It was one of your PM lessons of 2021, and the lesson was, when in doubt it's your job as a PM, which I think relates very much to which it just shared. Can you speak to that?",
+   "zh": "这让我想起你曾在播客中分享的一个经验教训。那是2021年你分享的产品经理经验之一，核心观点是：当你心存疑虑时，作为产品经理，你的职责就是勇往直前。我觉得这与你刚刚分享的内容高度契合。你能谈谈这一点吗？",
+   "ts": "00:28:55"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "It might actually make sense to put this in the context of the other roles that are part of the team. So, as an engineer, your job is to write the code to really reduce this down and build the thing and make it work to spec. As a designer, maybe your job is to design the thing, design the solution, design the user experience. Obviously there's lots more complexity in that role. Design your amazing engineering, your amazing TLDR, caveat, whatever. But as a PM, you don't have that thing, right? (00:29:41): It's not like, oh, my job is just to write the one-pager. That's not true. Your job isn't just to pick the problem. Your job is to deliver a business result. And so you're uniquely positioned to have to fill in all the gaps because no one else is incentivized to do that. As an engineer, you can finish your work and hand it off and say, I did it, and the good ones care, but you don't have to care. As a PM, you're not going to do your job unless that problem gets solved for the customer or the user at the end of the day. And so your job is to make sure everything happens for that product.",
+   "zh": "或许将这件事置于团队中其他角色的背景下会更合理。作为工程师，你的职责是编写代码以简化整个流程，构建产品并确保其符合规格。作为设计师，你的任务可能是设计产品、规划解决方案、优化用户体验。显然，设计师的职责更为复杂——设计出惊艳的工程方案，撰写简洁明了的摘要，附加免责声明等等。但作为产品经理，你却没有这些优势，对吧？（00:29:41）这可不是说\"我的工作就是写一份简介\"。事实并非如此。你的职责不只是选定问题，而是要交付商业成果。因此，你需要填补所有空白，因为其他人没有这样的动力去做到这一点。工程师完成工作后可以移交任务并说\"我完成了\"，优秀的工程师会关注质量，但你不必为此负责。而产品经理只有在最终为客户或用户解决问题时才能算完成任务。因此，你的职责是确保产品开发的每个环节都顺利推进。",
+   "ts": "00:29:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me of another interview you did where you talked about how a lot of the PM job sucks. It's not as glamorous as people often think, and most of the job is these really boring, annoying things. I guess, is there anything you want to add there of just a lot of people want to get into PM, they're like, oh, I'm going to run the show. It's going to be so great. I'm going to be a product manager and tell people what to do. But that's not how it is.",
+   "zh": "这让我想起你之前的一次采访，你提到产品经理的工作其实很糟糕。它并不像人们想象的那样光鲜亮丽，大部分工作都是些无聊又烦人的事情。我猜，有很多人想进入产品经理领域，他们会想，\"哦，我要掌控全局。肯定很棒。我要成为产品经理，告诉别人该做什么。\"但现实并非如此。",
+   "ts": "00:30:17"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "It's just one of those things that people, and when I joined product, it was just sort of becoming a cool job. It wasn't the hot job on campus when I was in business school. That was more private equity, venture capital. And now there's a sense of cachet around it. But again, it comes back to that earlier point, which is you do get to do cool stuff. You get to decide what gets built. That's cool. You have a lot of ownership like we talked about. You could see it as you have a lot of power, but at the same time you're responsible. (00:31:12): And so with that comes this responsibility to get it right, to make the right bets, ship the right products, get them out the door. And so there's a lot of bullshit work you have to do. Again, project management is one everyone hates on. QA is a really good one. You should QA your products. That's great if you have a QA team, you should QA them. You should know how they work. You should implement with your customers, you should be able to sell them, you should be able to find users. All that stuff is stuff that you should be able to do, and none of it is above you.",
+   "zh": "这只是人们常犯的误区。我加入产品团队时，它刚开始被视为一份很酷的工作。当我在商学院时，私募股权和风险投资可比产品经理更受追捧。如今，产品经理又有了某种光环。但归根结底，还是要回到之前的观点——你确实能做很酷的事情。你可以决定建造什么产品。这很棒。你能感受到自主权，正如我们所讨论的。你可以把这视为拥有巨大权力，但与此同时你也要承担责任。（00:31:12）因此，伴随而来的是确保决策正确、押注准确、推出正确的产品并将其推向市场的责任。你必须做很多琐碎的工作。再说项目管理，人人都讨厌它。QA也是个很好的例子。你应该对产品进行QA测试。如果有QA团队，你应该亲自测试。了解他们的工作原理。与客户一起实施产品，学会销售产品，寻找用户。所有这些都是你应该具备的能力，没有任何工作是高高在上的。",
+   "ts": "00:30:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If someone is listening and they're not a PM and they are not convinced to not get into product manager, they still want to become a PM, what is your best advice for selling that is trying to get into product management of how to actually break into product management?",
+   "zh": "如果有听众不是产品经理，但仍不死心想进入产品经理领域，想成为产品经理，你能给出什么最佳建议来说服他们进入产品管理呢？",
+   "ts": "00:31:42"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I thought about this one a lot and I consulted the Slack workspace team. Because it's been a long time since I've tried to get into product. And so I didn't know what was going on these days because it's hard and I don't know if things have changed. I went to business school and that's how I got in. There was a program that took MBA students. I think there are some entry-level programs out there, big tech companies, if you can get them, I think they're really hard to get because they're very few and far between. And so the most common two paths that I've seen are people who switched laterally within a company. Again, challenging but can be done. Or people who joined startups. So, when I was at my last startup, I did hire someone who was coming out of business school who hadn't been into product into a PM role. And I can't say I wouldn't do it because it was awesome and she was amazing, but it takes a lot of work. (00:32:49): The reason why people don't do it is because as a manager, it takes a lot of work because there's so much that these people need to learn. And what we ended up doing is she and I spent four months working together in a WeWork in person to help her onboard really quickly into the role, which was so rewarding. And I loved every second of it, and I wish I could do that again and again and again. But to get that, she basically just hounded me. Christina, if you're listening, you emailed me a lot. We talked a lot and we waited until the time was right and then you finally convinced me to do it. So, I don't know. I don't if there's a reliable path that I can say this is what my advice would be other than try a startup network. See what you can do.",
+   "zh": "我对此思考了很多，还咨询了Slack工作区团队。因为我已经很久没尝试进入产品领域了。所以我不了解如今的行业动态，毕竟这条路很艰难，而且我也不确定情况是否有所变化。我曾就读于商学院，通过这个途径进入了产品领域。当时有一个项目，专门招收MBA学生。我觉得现在也有一些入门级项目，大型科技公司也会有这类机会，但这些机会非常难得，僧多粥少。常见的两条路径是：一是横向调动到同一家公司；二是加入初创公司。我在上一家初创公司时，就曾聘请过一位刚从商学院毕业、毫无产品经验的人担任PM职位。我不能说我不推荐这种做法——她非常出色，但这确实需要付出巨大努力。（00:32:49）人们不愿意这么做的原因在于，作为管理者，需要投入大量精力去帮助新人快速上手。我们最终的解决方案是，她和我在WeWork办公室共事了四个月，帮助她快速适应角色，这个过程收获满满。我至今仍热爱那段时光，真希望能重来无数次。但要做到这一点，她简直把我缠得不行。克里斯蒂娜，如果你正在听的话，你当时给我发了很多邮件。我们聊了很多，等待时机成熟，最终你成功说服了我。所以，我也不确定是否有可靠的路径可以给出建议，除了尝试加入初创公司网络，看看能做些什么。",
+   "ts": "00:31:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you've made up this point elsewhere, which I think is an additional key piece is once you have a PM title on your resume, everything gets easier. As a hiring manager, I'm just like, I look at a resume like, oh, they've never been a PM. This isn't the role. It's rarely that someone wants someone that's never been a PM.",
+   "zh": "你之前在其他地方也提到过一个关键点：一旦简历上有了PM头衔，一切都会变得容易得多。作为招聘经理，我看到简历时会想，哦，他们从未担任过PM。这不是合适的角色。很少有人会想要没有PM经验的人。",
+   "ts": "00:33:33"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah. And I tell people, I do unsurprisingly talk to lots of people who either are in product or want to be in product. And that's one of the things I always tell them because if they're deciding between roles and they have an opportunity to do something, and my advice is always, if you can get someone to stamp you with the product manager role, take it. Because to your point, it's what we screen on. It's for better or for worse, it's just like you have to get that first job. And then once you get that first job, it all gets easier. You can get in and then you can talk about your experience because then the second question I have is, what have you shipped? So, it's like, have you been at PM before? What have you shipped? And it's fascinating how quickly people can't answer that question. And the people who can are always several steps ahead of the people.",
+   "zh": "是的。我经常告诉人们（不出所料，我和很多从事或想从事产品工作的人交流过），我会反复强调这一点：如果你正在权衡不同职位机会，遇到有机会担任PM的职位，就一定要抓住它。因为正如你所说，我们筛选候选人时会看重这一点。无论好坏，关键在于你必须获得第一份PM工作。一旦获得这份工作，一切都会变得容易许多。你可以进入这个领域，然后谈论你的经验，因为接下来我会问：你之前做过产品吗？你交付过什么成果？令人惊讶的是，很多人根本答不上来这个问题。能回答的人总是比其他人领先好几步。",
+   "ts": "00:33:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's shift topics and talk about product strategy. Many people are told you need to get better product strategy. You're not great at strategy. A lot of people are also just confused, what is strategy? How do I get better at strategy? How do we describe a strategy? And you have a really great explanation and overview of how to think about this stuff. So, I'd love to hear your take on just how do you actually write out and describe a strategy.",
+   "zh": "让我们转换话题，聊聊产品策略。很多人被告知需要提升产品策略能力，但他们对策略不擅长。许多人也感到困惑：什么是策略？如何提升策略能力？如何描述一份策略？你对此有非常精彩的解释和概述。所以，我很想听听你对如何实际撰写和描述策略的看法。",
+   "ts": "00:34:36"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Sure, yeah. And another thing that happens, and I'll give the outline, but another thing I hear, especially as you get further in your career, and unfortunately if you're maybe an underrepresented person in tech, is that you need to be more strategic. And so that's feedback that almost always happens, especially if you're a woman in product, in tech who's knocking at the door of a leadership role. You've probably gotten that feedback. And so I made it my mission to figure out what the heck is this thing? How do I do it? How can I do it in a way that is demonstrable so that I'm never getting that feedback that's like, oh, she's not strategic. And so what I did was something that I kind of did in the background because I had an engineer who I worked with who really wanted to understand why we were doing what we were doing, and he was not satisfied with sort of a surface level answer. (00:35:57): And he was just pushing and pushing and pushing. And so what I did was I just wrote out a Google doc and I started with like, okay, and not fancy, these are just bullets. What is the mission? What is the point of the company? What are our goals? Maybe we have some sort of high level framing of what we're working on. And then I had this big section that was just the landscape. And in that section I put in what's going on with our business? What's happening with our products? What's our point of view on the market? Who are our competitors? A SWOT analysis, key risks that we might be facing. Just dump that all on paper. Then what are the current quarters business goals or however you do planning, what are the current things that your company's working on? Then I put in, all right, that's sort of the context that we're operating in. (00:36:44): Then I wanted to understand where are we. So what is an honest accounting of the current state of your product, the business overall, and then the specific area that you're working in. What works, what doesn't work? What are your customers saying? Bottoms up feedback, users, customers, teams, what are your support tickets? Get that all out on paper. And then really importantly, where are your technical hurdles? What are the big pieces of tech debt? What are your engineering and technical teams always harping on that they want to invest in? Are there some big things coming down the pipe that you need to think about? Just get everything on paper. And then usually in the process of writing all that down, you'll start to see, okay, I kind of get where we are. I kind of get what the challenge is. And then you write a section that's like, what's the opportunity? (00:37:34): From all of that, what's going to bubble up as the top one or two opportunities for your team? Where do you want to play? Where can you win? Where's the unique? Based on your unique competitive advantage, where do you think you all should be and why? And then based on that opportunity, what are the challenges? So, what's going to be the hardest about taking advantage of that? What has to be, another way to frame it is what has to be true about the world for that to work? That's a one that's been helpful. And then what would you do? Take a swing at writing down your solution, what you would need to build, how might it work? Anything that you have, this is where I would say three bullets, maybe what you might want to do and then a plan. If no one else had an opinion, how would you go about it? (00:38:26): How would you sequence it? What would you do? How might you get the team to work on it? What would your team have to look like? How much would it cost to do it? All that you can start to layer in all that kind of stuff. And then I just share the doc. Share it with everybody. There should not be any secret. And you should be able to walk all the way from your company's mission down to the individual priority on your team and see the logic chain and why you got there. And if anyone doesn't agree with it, they can call out where their disagreement lands in that landscape. But at least then you've put everything on paper, you understand how you got to where you're going, and then you can have an argument about the different pieces and points of data and feedback that you're getting, but at least people understand how you got where you got. And then it doesn't become like, I don't agree with you. It becomes, I don't agree with this point.",
+   "zh": "好的，没问题。还有另外一件事，我经常遇到的，尤其是在职业生涯中晋升阶段，如果你恰好是科技行业中被边缘化的人群，就会被告知需要更具战略眼光。这类反馈我听得太多了。比如，如果你是一位在产品或技术领域敲开领导岗位大门的女性，可能就会听到类似\"你不够有战略思维\"的批评。于是我决心探究其背后的深层原因：如何才能真正做到战略清晰？\n\n（00:35:57）我当时找了一位工程师同事，他总想了解我们工作的意义，普通的解释根本无法满足他。于是我写了一份Google文档，内容分为几个部分：首先是使命陈述，公司的核心目标；其次是宏观环境分析，包括市场动态、竞争对手、SWOT分析等；然后是当前业务目标和工程团队的优先事项；最后是技术挑战和机遇。\n\n（00:36:44）接下来，我需要审视现状：产品现状、市场反馈、用户痛点、技术债务等问题。通过梳理这些信息，我逐渐明确了团队的核心挑战和机遇，进而制定行动计划。\n\n（00:37:34）最后，要确定团队的核心机遇：基于独特竞争优势，如何突破技术瓶颈，抓住市场机遇。然后，针对每个机遇，拆解关键挑战，确保团队能够高效执行。\n做这件事需要花多少钱？你可以逐步整合所有相关内容。然后我只需把文档分享给所有人。不应该有任何秘密。你们应该能够从公司的使命一路追溯到团队的个体优先事项，理解其中的逻辑链条，以及为何会得出这样的结论。如果有人对此有异议，他们可以指出异议所在。但至少这样一来，你把所有内容都落实到纸面上，清楚自己是如何达成目标的。之后，你们可以就不同的观点、数据和反馈展开讨论，但至少大家都能理解最终决策的依据。这样争论就不会演变成“我不同意你的观点”，而是变成“我不同意这个具体论点”。",
+   "ts": "00:35:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is such a cool way of doing it. By the way, is there a template that we can point people to that has this sort of-",
+   "zh": "这真是个超酷的做法。顺便问一下，有没有一个模板可以推荐给别人，里面有这类内容的？",
+   "ts": "00:39:18"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "There's not, I've only ever done it in a loose Google doc and then it just grows and changes. I can maybe try to write up those bullets, but it's just like I just make headers and then I just start dumping content in it.",
+   "zh": "没有，我以前都是在一个松散的Google文档里做的，然后它就不断扩充和变化。我或许可以试着把那些要点写出来，但我就是先做个标题，然后再往里填内容。",
+   "ts": "00:39:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yes, that's all people need. If you end up creating that before this comes out, we'll throw it in the show notes. And if not, people can just bother you on Twitter and ask Maggie, where's that template that we talked about?",
+   "zh": "是啊，这正是人们需要的。如果你在这一期播客发布前能完成这个模板，我们会把它放进节目笔记里。如果不行的话，人们可以直接在Twitter上找你或者问Maggie，我们提到的那个模板在哪里？",
+   "ts": "00:39:36"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, I'm happy to write it on a piece of paper and take a photo of it and send it around.",
+   "zh": "好的，我很乐意把它写在纸上，拍张照片发给大家。",
+   "ts": "00:39:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There you go. Just make it really grainy and an artifact. We found Maggie's template. This is awesome. So, I've never heard of a version of this with so much depth into the landscape, and I think that's so smart because so much of conflict and disagreement comes from you just don't have the same information or the manager, exec or whatever doesn't think you have the information. So, if you just lean into, here's everything that I know and here's what's happening, and if you disagree with this goal, tell me, and then it'll change the plan.",
+   "zh": "好的，就把它拍得模糊一点，让它看起来是手写的。我们找到了Maggie的模板。这太棒了。所以，我从未听说过有这么深入洞察行业全貌的版本，我觉得这太明智了，因为很多冲突和分歧都源于你没有相同的信息，或者经理、执行团队之类的认为你没有这些信息。所以，如果你就坚持说，我知道的这些情况就是这样，正在发生这些事，如果你对这个目标有异议，请告诉我，然后我们再调整计划。",
+   "ts": "00:39:49"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "00:40:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And yeah.",
+   "zh": "是啊。",
+   "ts": "00:40:18"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Part of it's also that typically speaking, when you're doing a strategy, you're doing it at a higher level. So, I don't think every product needs a strategy. Every feature doesn't need a strategy for example, you don't need to do this if you're working on a tiny slice of a product and you have user feedback, don't overcomplicate it, just do the stuff that makes sense. But especially as I've gotten more senior in my career, the questions are bigger and the impact is broader and the timelines are longer. And honestly, it was also because I wanted to get it right. I didn't want to make a bet on something and put a bunch of resources against a problem and get it wrong. And so this was also homework that I wanted to do for myself to know that I was going to do the right thing. For some reason, I'm always paranoid that other people have more information or doing it better than I'm doing it. (00:41:11): So, I was like, okay, I have to write it all down and then make sure I got it right and share it with everyone and make sure that they agreed with me so that I didn't screw this thing up. And it just was such a useful exercise that I kept doing it. And of course people don't read it. People only read a tiny section. You'll run into the same problems you run in with everything else, but at least I knew that I had done the work and if people cared to engage with it was there.",
+   "zh": "部分原因还在于，通常来说，当你制定战略时，都是在更高的层面做的。所以，我不认为每个产品都需要战略。例如，每个功能都不需要战略，如果你只负责产品的一个小模块，并且有用户反馈，就不必把事情复杂化，只要做些有意义的事就行。但随着我在职业生涯中晋升得越高，面临的问题就越大，影响也越广，时间线也越长。说实话，也是因为我想把事情做对。我不想在某个问题上押注，然后投入大量资源却做错了。所以这也是我为自己做的“功课”，确保我能做出正确的决策。出于某种原因，我总是担心别人有更多信息或者做得比我好得多。（00:41:11）所以我就会想，好吧，我必须把所有内容都写下来，然后确保准确无误，分享给所有人，确保他们也认同我的观点，这样我就不会把事情搞砸了。而这恰恰是一个非常有用的练习，所以我一直坚持做下去。当然，人们并不读它。他们只会看一小部分。你会遇到和其他事情一样的问题，但至少我知道我已经完成了这项工作，如果人们愿意参与其中，那资料就在那里。",
+   "ts": "00:40:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, along those lines, I was going to actually ask, how long do you find this should be depending either on the timescale, say you're doing a quarterly strategy or a year, how many pages should this doc be as any guide?",
+   "zh": "那么，顺着这个思路，我想问一下，根据时间尺度，比如你做季度战略还是年度战略，这个文档应该有多少页，作为一个参考？",
+   "ts": "00:41:33"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "It's long. It gets real long.",
+   "zh": "很长。变得非常长。",
+   "ts": "00:41:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is long?",
+   "zh": "什么叫长？",
+   "ts": "00:41:48"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "The actual content, I end up writing a summary to go back to the Minto principle. I end up doing the whole thing, then putting a summary at the top so that there's one, within the first, above the fold, if you will. You can kind of get the point and the suggestion on what I think we should do or what the strategy should be, should be customizable in that section. But it can go 20 pages just because if you really want to get deep in a competitor or there's interesting market dynamics, interesting technological changes that are happening. Sometimes I'm screenshotting other companies marketing websites and dumping that in there. And that might be some interesting comments. So, it doesn't have to just be words or it can be all kinds of different things that you might want to put in there.",
+   "zh": "至于实际内容，最后我会写一个总结，回归到明特奥原则（Minto principle）。整个过程我会先完成所有内容，然后把总结放在顶部，这样用户就能在首页上方一目了然。如果你愿意，可以把它称作“首屏内容”。你能通过这个部分大致理解我的观点和建议，了解我们应该采取的策略或流程。当然，策略部分可以根据需求进行调整。但有时内容会长达20页——比如当你需要深入分析竞争对手，或是关注有趣的市场动态和技术变革时。有些时候我会截取其他公司的营销网站截图并放入文档中，其中可能包含一些有价值的见解。所以，文档不必只有文字，可以包含各种你想添加的元素。",
+   "ts": "00:41:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you made the point that it's not like you expect people to read this whole thing. There's the summary that gives them a conclusion and in theory if they want to really dig into it, they can. But I guess how do you find that balance of writing everything and making it so long that no one's ever going to read it to like this is actually going to be useful to someone and plus here's a summary.",
+   "zh": "你提到用户不必通读整个文档。这里有个总结部分能让他们快速获取结论。理论上，如果他们想深入研究，还能继续阅读。但关键在于如何平衡两者——既要写得全面，又不能太冗长，让人望而却步。最终目标是提供实用内容，并附上总结。",
+   "ts": "00:42:37"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "It comes back to the reason why I write the document in the first place. And that's for me. So, it's my homework to do my job effectively. I just make sure to share it. And I find that my, especially my engineering and design counterparts, if you're working in a true triad, will almost always engage really deeply on the doc because they're pretty much also on the line and they want to make sure that when they sign their teams up to do whatever it is that they believe in the thing that you're working on. (00:43:28): And so I find that those people will engage pretty deeply. Sometimes you'll have more junior folks on the team that'll just be interested and they'll get really into it too. And then there's some people that'll skim the upfront part and either say, yeah, that looks great, or You're dumb, I hate this. And okay, sure. There's always those people. So, it never really mattered to me that people read the whole thing. It was more I knew I had to do it to be confident in my own decisions and then I could facilitate a conversation, so it didn't really matter.",
+   "zh": "这让我回想起最初写这份文档的初衷。其实这是为自己服务的——确保自己能高效完成工作。关键是分享成果。我发现，尤其是工程和设计团队，如果是真正的三角合作模式，他们往往会深入研究文档，因为他们也身处一线，需要确保团队成员能真正认同你的项目理念。（00:43:28）有时候团队中的初级成员也会参与其中，他们会很感兴趣，甚至深入探讨。当然，也会有人只浏览前几页，要么说\"不错\"，要么\"你太蠢了，我讨厌这个\"。这种情况总是存在的。所以我从不强求所有人通读全文。关键是我需要通过这份文档增强自己的决策信心，然后推动讨论，所以结果比过程更重要。",
+   "ts": "00:42:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Eppo. Eppo is a next generation A/B testing and feature management platform built by alumni of Airbnb and Snowflake for modern growth teams. Companies like Twitch, Miro, ClickUp and DraftKings rely on Eppo to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features. And Eppo helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. When I was at Airbnb, one of the things that I left most was our experimentation platform where I could set up experiments, easily, troubleshoot issues, and analyze performance all on my own. (00:44:38): Eppo does all that and more with advanced statistical methods that can help you shave weeks off experiment time and accessible UI for diving deeper into performance and out of the box reporting that helps you avoid annoying prolonged analytic cycles. Eppo also makes it easy for you to share experiment insights with your team, sparking new ideas for the A/B testing flywheel, Eppo powers experimentation across every use case, including product growth, machine learning, monetization, and email marketing. Check out Eppo at getepo.com/lenny and 10X your experiment velocity. That's getE-P-P-O.com/lenny. Is there an example of a strategy you were thinking about recently or that you worked on in the past just to give people something concrete of like here's what Maggie thinks of as a question she's going to develop a strategy around?",
+   "zh": "本期节目由Eppo赞助。Eppo是一款由Airbnb和Snowflake前员工为现代增长团队打造的下一代A/B测试与功能管理平台。Twitch、Miro、ClickUp和DraftKings等公司都依赖Eppo来推动实验项目。实验对推动增长和了解新功能的表现愈发重要，而Eppo能助您提升实验效率，同时提供其他商业工具无法比拟的深度分析。当我在Airbnb时，最怀念的正是我们的实验平台——我能自主设置实验、排除故障并分析效果。\n\n（00:44:38）：Eppo通过先进的统计方法实现了这一切及更多功能，助您将实验时间缩短数周。平台还提供了直观的UI，助您深入解析实验表现，以及开箱即用的报告功能，避免冗长的分析周期。Eppo还让您能轻松与团队分享实验见解，激发A/B测试飞轮的新思路。Eppo支持产品增长、机器学习、变现和邮件营销等全场景的实验管理。欢迎访问getepo.com/lenny，提升实验效率10倍。网址是getE-P-P-O.com/lenny。",
+   "ts": "00:43:58"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, I think, obviously this is where product content gets really challenging because obviously I can't really talk about the stuff I'm currently working on.",
+   "zh": "是的，我觉得显然这部分产品内容的翻译会比较有挑战，因为我确实不能谈论我当前正在做的事情。",
+   "ts": "00:45:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just tell us all of the secrets. And that [inaudible 00:45:38] know.",
+   "zh": "那就把所有秘诀都告诉我们吧。还有[不可听清00:45:38]。",
+   "ts": "00:45:36"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "The toast PR department would be really unhappy with me. It's questions like, if you're a director of product somewhere, maybe you're running a section of a business and it's annual planning. We're in Q4. What are you going to do next year? How do you answer that question? How do you back up your choices for that? You use a doc like this. Maybe you are realizing that the product that you're working on doesn't really matter, it's not really making an impact. You're kind of treading water. I would use this as a tool to figure out, okay, well what else could you do? So, yeah, quarterly planning, annual planning. If you feel like your team needs to make a pivot or if you think that there's a really interesting new opportunity that your business or your team should go after, is another time I might use something like this.",
+   "zh": "Toast的公关部门会对我很不满的。比如说，如果你是一家公司的产品总监，负责某个业务部门的年度规划，第四季度了，明年要做什么？你怎么回答这个问题？怎么为你的选择提供依据？你会用这样一份文档。或者你可能意识到你正在做的产品并不重要，没有产生影响，只是原地踏步。我会用这个工具来思考，嗯，那你还能做什么？所以，季度规划、年度规划。如果你觉得你的团队需要调整方向，或者你认为有新的机会值得你的公司或团队去追逐，那也是我可能会用到这个工具的时候。",
+   "ts": "00:45:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. This reminds me a little bit of, I keep mentioning this chat with Bill Carr that I had who is an early Amazon exec and how the narrative approach at Amazon, one of the benefits of that and the reasons they go there is partly for you to realize this is a bad idea before anyone even needs to give you feedback. And that's why they force you to write six pages in depth about your idea and then it goes in these concentric circles through the company. And idea is like, here's okay, and this is just not a good idea. Here's all the reasons why. So, I think there's a lot of similarities there.",
+   "zh": "太棒了。这让我想起我和亚马逊早期高管Bill Carr的对话，他们在亚马逊的叙事方法，其中一个好处就是让大家在得到反馈之前就意识到这是一个糟糕的想法。这就是为什么他们强制你写六页关于你的想法的深度分析，然后在公司内部进行层层讨论。一个想法可能会被认可，也可能会被否定，所有理由都摆在那里。所以我觉得这两者有很多相似之处。",
+   "ts": "00:46:30"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, there are many, many times when if you combine this artifact and process with the point about simplification where through that process you just start cutting so many things because then what happens is, let's say you've gone through this exercise and you're like, okay, I know exactly what my three things are that I want to work on. Then there's a moment where you take the strategy and then you look at your roadmap and they're never the same. And the roadmap is just bloated with all of this random stuff that like, oh, well, we have to do that because of this, or we have to do that because of that. (00:47:37): This thing we're still working on, this is like six months delayed, so we're still going to do the thing. And then all of a sudden you've got 90% of your resources committed to things that don't track against your strategy. And it's a really interesting moment as a leader especially to sit there and go, well, what do we do? What do you do when you have that problem? And especially if you're a PM, you probably don't have the agency to say, scrap the entire roadmap and work on my new strategy. But at least it allows you to think about critically about whether you should be doing what you're doing and allows you to evaluate whether those things are still the most important things to work on.",
+   "zh": "是啊，有很多很多时候，如果你把这个工件和流程与简化原则结合起来，通过这个过程你会开始削减很多东西，因为接下来会发生的是，假设你完成了这个练习，然后你会说，好的，我确切知道我想致力于的三个方向。然后会有一个时刻，你拿起这个策略，再看看你的路线图，它们根本不一样。路线图上充斥着各种杂乱无章的事情，比如，哦，我们因为这个原因必须做这个，或者因为那个原因必须做那个。（00:47:37）这件事我们还在做，已经延迟了六个月，所以我们还是要继续做。然后突然间，你90%的资源都投入到了与你的战略不符的事情上。这对领导者来说是一个非常有趣的时刻，尤其是要坐下来想，嗯，我们该怎么办？当你遇到这个问题时该怎么办呢？特别是如果你是一名产品经理，你可能没有权力说废掉整个路线图，转而专注于新的战略。但至少这能让你批判性地思考，你是否应该继续做你正在做的事情，以及评估这些事情是否仍然是最重要的工作方向。",
+   "ts": "00:47:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm going to summarize the template real quick, and then I'm going to have another question kind of along the lines. So, if you're trying to create your own little template, you start with the mission of the business, and then I imagine you also share the mission of your team because oftentimes it's a little more specific, if you're working on it like a product team strategy. Then there's a landscape of what's happening. So, you include competitive, SWOT analysis of competition risks, product state, business state, things like that. (00:48:38): And then you share the current goals of what you're trying to achieve as a team slash business. And there's an account, honest accounting of what's happening in the product and technical hurdles and things like that that'll keep you from moving, I guess, achieving some of these goals. And then you share, here's the opportunity I see, how we win and how we actually achieve this opportunity where we place bets and things like that, or we could place bets. Then challenges of doing this, what needs to be true for this to be possible? And then you finally get to, here's what I think we should do, essentially the solution, ideally three bullet points, and then the plan. And I imagine the plan is step one, get sign off from exec. Step two, resource the team. Step three, start on this design research sprint.",
+   "zh": "我会快速总结一下这个模板，然后再提出一个相关的问题。所以，如果你想创建自己的小模板，你首先要确定企业的使命，然后我猜你也会分享团队的使命，因为通常来说，在制定产品团队战略时，它会更具体一些。接下来是现状分析，包括竞争分析、SWOT分析、竞争风险、产品状态、业务状态等诸如此类的内容。（00:48:38）然后你要分享当前团队/企业试图达成的目标。接着要诚实地评估产品和技术方面的障碍，以及这些障碍如何阻碍你实现目标。然后你要分享你看到的机遇，如何取胜，以及如何抓住这些机遇，比如下赌注等。然后是挑战部分，哪些条件必须满足才能实现这些机遇。最后你要给出你的解决方案，理想情况下是三个要点，然后是计划。我猜计划的第一步是获得高管批准，第二步是为团队配备资源，第三步是开始设计研究冲刺。",
+   "ts": "00:48:09"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Pretty much.",
+   "zh": "差不多吧。",
+   "ts": "00:49:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. All right. Amazing. Somebody will create this template if you don't end up doing it.",
+   "zh": "太棒了。好的。太好了。如果你们最终不做这个模板，总会有人会创建的。",
+   "ts": "00:49:26"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:49:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's another-",
+   "zh": "还有另外一个——",
+   "ts": "00:49:32"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I hope somebody does.",
+   "zh": "希望有人能做。",
+   "ts": "00:49:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. That'd be awesome. If they do, I will tweet it and we put it in the show notes.",
+   "zh": "好的。那太棒了。如果他们做了，我会发推文，并把它放进节目笔记里。",
+   "ts": "00:49:34"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Great.",
+   "zh": "太好了。",
+   "ts": "00:49:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So many promises already from this podcast. Along the same lines, you also have a one-pager template and process that I think people find really useful. So, how about we chat about that one briefly and then I'm going to go in a whole different direction.",
+   "zh": "这一期播客已经给出了很多承诺。同样地，你们还提供了一页纸的模板和流程，我觉得大家会觉得这非常实用。所以，咱们先简单聊聊这个模板，然后我要转向一个完全不同的方向。",
+   "ts": "00:49:39"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Okay. Yeah, I don't think I have much to say about this. That has not been said by many people many times, but whether it's a spec, a PRD, a one pager, I don't even know what else people call it. It's the document that you use to define the thing that you're doing as a product team, and that means product design, engineering, your little squad. And what I think is really useful about this process is that it's the PM's artifact. So, designers produce designs, engineers write code. What do PMs do? A lot of people might say nothing. In theory, we write at least this document and it can be a pain. I've seen lots of ways where it hasn't been done very well, but when I think it's done really well and when it's really effective is it's a tool that allows the PM to start with why. And if you structure it correctly, the most important section in my opinion in the document is the first part, which is like what is the background and context? (00:51:00): What is the problem, why does it matter and why does it matter now? And if you get those things right, the rest gets really easy, but it gives you a chance as a PM to center the team around the problem, why that problem exists, whether it's created by your own product or it's something the user is experiencing and why that problem is worth solving. That's a part that I think people sometimes forget to think about and why it's we're solving right now versus all the other problems you could be solving and then it can become the home base of the decisions that you make along the way. So, I think it's best when you have those sections and then also best when you write down on this day, we made this decision or we decided not to do this or we decided only to solve this part of the problem, not this part of the problem. Keeping a running list of that and a link off to all the different artifacts and research and things is helpful for a team.",
+   "zh": "好的。是的，我觉得关于这个我没太多要说的。虽然很多人多次提及这个话题，但无论是规格说明书、产品需求文档、单页文档，还是其他叫法，我都不太清楚。总之，这份文件是产品团队用于定义产品开发方向的核心文档，涵盖产品设计、工程开发和项目组等各个环节。我认为这个流程最有价值的部分在于，它是产品经理的核心产物。设计师负责设计，工程师编写代码，那产品经理做什么？很多人可能会说产品经理什么都不做。理论上，产品经理至少要起草这份文档，而这项工作往往令人头疼。我见过很多做得很糟糕的例子，但真正出色的案例能有效引导团队围绕问题展开思考。若结构合理，文档中最重要的部分当属开头部分——背景与上下文是什么？问题是什么？为什么它重要？为什么现在必须解决？只要把这些问题理清楚，后续工作就会变得顺理成章。这部分内容往往被忽视，但它能让产品经理以问题为核心，明确问题产生的原因（无论是产品自身导致，还是用户实际遇到的痛点），以及解决该问题的价值所在。这是人们常忽略的关键思考维度，也是我们当下为何选择解决这个问题而非其他问题的核心逻辑。文档还应记录每日决策，比如“我们决定采用这个方案”、“暂不考虑某个方案”或“仅专注于解决问题中的某个维度”等。这份动态记录与各类研究资料的关联链接，对团队决策至关重要。",
+   "ts": "00:49:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, just to summarize, what would be the headings again, just if someone's taking notes and wants to create the rule template?",
+   "zh": "总结一下，如果有人需要制作模板，标题部分应该包括哪些内容？",
+   "ts": "00:51:52"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I don't think these templates have to be really complicated. It's like background and context. The problem. I would literally write why this problem matters and why this problem matters now. Don't make it complicated, just answer those questions and if you can do that, and then again, it's only really helpful if then you bring that document before you go any further to your team and you use it to have a conversation and you get the smart people around you to take shots at it. I should have mentioned this earlier with the strategy. The first person I go to is typically speaking my engineering counterpart and I say, shred this, go through it, rip it apart, vomit comments on it, tear this down how it gets better. And as a PM you can't be precious about your work. You need people to poke holes in it.",
+   "zh": "我觉得这些模板不必过于复杂。比如背景与上下文、问题部分。我会直接写下“为什么这个问题重要？”以及“为什么现在必须解决这个问题？”。别搞得太复杂，只要回答好这些问题就行。另外，只有当你把这份文档拿给团队讨论，让聪明的同事们批评指正时，它才会真正发挥作用。我之前在讲策略时提到过，通常我首先会找工程师同事，让他们把文档拆解、批评、提意见，帮助改进。作为产品经理，不能对自己的工作太在意，必须接受别人的质疑。",
+   "ts": "00:51:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The why this matters now point is so interesting. I don't often hear that and I think it's such an important part of specs and plans and strategies because there's so many things you can do and there's certain things that are perishable that you can only do now. That if you don't do now you miss up the opportunity. And so I think that's a really interesting element that most people don't include and it reminds me of, I think I've done enough podcast episodes now where I'm just connecting all these things as people are talking. [inaudible 00:53:16] the John Nash thing happening where Karri, the founder of Linear talked about this concept of side quests as a founder. Because he's so good at staying focused and I was just like, \"How do you stay focused and just get stuff done when you have so many people coming out?\" He's just like, \"There's the main quest and then there's the side quests and side quest I don't need to do right now. There's the main quest which is build up really successful business.\" And I feel like this is a good example of that in action.",
+   "zh": "如今为何要关注这个问题实在太有趣了。我不常听到这种说法，但我认为这在制定规范、计划和战略时至关重要，因为有很多事情可以做，而有些事情一旦错过就无法挽回。若现在不行动，就会错失良机。所以我觉得这是大多数人未曾纳入考虑的关键要素，这让我想起自己主持的播客节目——在嘉宾发言时，我总会将各种观点串联起来。\n\n[00:53:16的背景音]约翰·纳什（John Nash）提到的例子让我印象深刻。Linear的创始人卡里（Karri）谈到创始人需设定“主线任务”和“支线任务”。他善于保持专注，当被问及如何在众多事务中保持专注时回应道：“主线任务是打造成功的业务，支线任务可以先放一放。”这恰恰印证了这个理论在实践中的成功案例。",
+   "ts": "00:52:48"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, I love his take on quality and taste too.",
+   "zh": "是的，我也非常欣赏他对质量和品味的见解。",
+   "ts": "00:53:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. What a gem.",
+   "zh": "是啊，真是个难得的智慧之珠。",
+   "ts": "00:53:43"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, big fan of that. But yeah, I mean it's really hard to stay disciplined, it's hard to stay focused and to your point, there's a million things you could do at any given time, especially if you work at a bigger company. And so the why now is an important question to answer because if not, somebody's going to ask you. So, you may as well think about it.",
+   "zh": "没错，我非常赞同他的观点。不过说真的，保持自律和专注实在不易。正如你所说，尤其是在大公司工作，随时都有无数事情要处理。所以“为何现在行动”这个问题至关重要，否则总有人会追问你原因。所以，不妨早点想清楚。",
+   "ts": "00:53:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, it's interesting why now comes up a lot in investing in startups but rarely in product building and it feels like it should. Although I will say in the research I've done, why now ends up not being that important for startups being successful or not. So, I think there's a two sides to that coin. Anyway, I'm going to move on to a different topic and this might become a new thing that we do and I'm going to call it contrarian corner. I asked you if you have contrarian opinions about things before we started recording this episode and you had some really good ones. So, there's a couple topics I'm going to chat about and we'll see if this becomes a recurring theme and you're laughing and nodding your head, what are you thinking as I say this?",
+   "zh": "是啊，有趣的是，“为何现在行动”在投资初创公司时频频被提及，但在产品开发中却鲜少被提及，而这本应是相通的。不过我研究后发现，“为何现在行动”对初创公司的成功影响并不显著。所以这事儿得辩证看。总之，我要转到另一个话题了，或许会开辟一个新栏目，叫“逆向思维角”。在录制这期节目前，我问过你们对某些事物是否有逆向看法，你们给出的观点都非常精彩。所以我会聊几个话题，看看是否能形成固定栏目。你们现在笑着点头，我说这些时你们在想什么？",
+   "ts": "00:54:02"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I'm thinking about when I had a podcast, you would do a show on a topic and we would click the end recording button and then every single guest would be like, I had no idea what I was doing. I made it all up, it was waterfall. None of that matters. I didn't know what I was ... People would say the wildest stuff and I would sit there as a PM and just think what. We just talked about this framework, we just talked about this thing and that's how you're supposed to do it. And then they would get off the official part and just say, yeah, it's wild. Nothing goes the way you want it to go. We're all just kind of making it up as we go. And so I hope that you get more of those takes in this part of the show.",
+   "zh": "我在想自己主持播客时的情况。我们会围绕某个主题展开讨论，结束录制后，每位嘉宾都会说，我当时完全不知道自己在做什么，全凭想象，流程混乱。这些都不重要。我也不知道自己在做什么……人们会说最疯狂的想法，而作为产品经理的我只能默默想，这到底怎么回事？我们刚讨论了这个框架，刚谈了那个方法，结果实际操作时却一团乱麻。真希望在节目中能听到更多这样的见解。",
+   "ts": "00:54:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm very sensitive to that point right now because someone just tweeted about how they're just finding that many of my newsletter posts about how companies write product are the ideal version of what they do and I rarely or they rarely share, here's all the challenges we're having, which I think there's truth to that, but I also get into a lot of failures on this podcast. Actually, I think the podcast is a lot more of just here's things that go wrong versus the newsletter. So, I'm just like shit, I need to do more of that. So, I love that you mentioned that and let's see what we can get into. But I guess maybe before we get there, is there an example of something that didn't go just along the lines of some sort of failure slash mistake?",
+   "zh": "我现在对此特别敏感，因为有人刚在推特上说，我关于公司如何写产品文案的通讯内容，往往都是理想化的版本，而现实中很少能真正做到。我很少分享这些内容，但在播客里却经常谈论失败案例。说实话，我觉得播客更多是分享失败经历，而非通讯内容。所以我现在觉得，天哪，我得多分享些失败案例了。很高兴你提到这个问题，让我们深入探讨一下。不过在深入之前，有没有例子能说明产品开发过程中遇到的失败或错误？",
+   "ts": "00:55:18"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I might be foreshadowing, but a question I ask in every product interview is what's the worst product you've ever shipped? And that's because I don't think you're a good PM if you haven't shipped something that's really shitty, you just haven't had enough reps, you haven't done it enough time. And it's not only that you've done it but that you can admit it and which one it is. That's so important. And I remember, it was so dumb, I'm still so mad about this, that we did this. I won't name which team, which company, I'm not going to call that out, but we decided we needed to do a rewrite, red flag number one of a existing product and engineer who I'd worked with many times. We had a really good relationship and this person was like, yeah, yeah, it's going to take six months, no problem. (00:56:47): Core part of the product been around for forever. One of those things that the code is still, it's still the code written by the founders kind of thing. It didn't take six months, it took two and a half years. It still wasn't done. It almost never, it went on for so much longer than it should have. It took us forever to get to feature parody. It was the worst project. So, many people rotated in and out of it. Everyone thought it was dumb, sunk cost fallacy, just the worst. And it's because A, we got arrogant and we thought we could do it. B, we skipped discovery. We didn't really write a one-pager, we just went for it. We didn't do enough technical and design research into what the requirements would actually have to be. And there you have it.",
+   "zh": "我可能在暗示，但我在每次产品面试中都会问一个问题：你推出的最糟糕的产品是什么？因为我认为，如果你没有推出过真正糟糕的产品，那你就不是一个优秀的产品经理。你只是缺乏足够的经验，尝试次数不够。而关键不在于你是否推出了产品，而在于你能否承认失败并指出问题所在。这点至关重要。我记得有个例子，真是太蠢了，至今想起来还是气不打一处。我们决定重写一个现有产品，这个人我合作过很多次，是个很棒的工程师。他一开始说没问题，六个月搞定。结果花了两年半还没完成。核心功能部分僵持了太久，代码还是创始人写的，根本没达到预期。最终我们花了无数时间才实现基本功能。这真是最失败的项目了。很多人参与其中又离开，大家都觉得这项目太蠢，陷入沉没成本谬论，简直糟糕透顶。原因在于：A、我们太自大，认为自己能搞定；B、我们跳过了探索阶段。根本没写需求文档，直接上手，没有充分调研技术和设计需求。就是这样。",
+   "ts": "00:55:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And did not work out or was it a huge success in the end and it changed the trajectory of the business?",
+   "zh": "那最后结果如何？是大获成功还是彻底失败，改变了公司发展轨迹？",
+   "ts": "00:57:34"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Absolutely not. But you know what, I didn't get fired, so it's fine.",
+   "zh": "绝对失败。不过好在我没被炒鱿鱼，还算幸运。",
+   "ts": "00:57:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like I've gone through those experiences and then three, four years later it's like another, maybe this rewrite and redesign may work because we haven't updated this thing in a long time.",
+   "zh": "我感觉自己也经历过类似的经历，三年四年后，可能再来一次重写或重新设计，但实际上我们早就该更新那个产品了。",
+   "ts": "00:57:43"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Just don't do it. Don't rewrite. If anyone ever tells you to do a rewrite, don't do it. A side by side re-write, nope.",
+   "zh": "千万别重写。任何人让你重写，都别答应。那种一对一的对比重写，千万别做。",
+   "ts": "00:57:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, what I run into is once you get too far down a redesign slash rewrite everyone's building in that new world and then you launch an experiment's negative and then it's just like, oh, we just got to launch it. We're going to claw back. We're going to get figure out how to get back to neutral someday.",
+   "zh": "是啊，我遇到的情况是一旦你深入到重新设计或重写阶段，每个人都在新世界里开发，然后实验失败了，结果只能硬着头皮上线，再想办法回归正轨。",
+   "ts": "00:57:59"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:57:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:58:15"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah. Don't do that.",
+   "zh": "是啊，可别那么做。",
+   "ts": "00:58:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Good times. Okay, well maybe we'll start a failure corner. That could be a new segment. We may have a little sound and theme music, but this time we have contrarian corner and you have a couple contrarian opinions about a couple topics. The first is product management. What is something that you believe about product management that maybe other people are less convinced by?",
+   "zh": "真是有趣的时光。好吧，或许我们可以开设一个“失败角”栏目。这会是个新板块。我们可能需要配上点音效和主题音乐，但这次我们要打造一个“反向思维角”，大家可以就几个话题分享些不同见解。第一个话题是产品管理。关于产品管理，你有什么观点是其他人不太认同的？",
+   "ts": "00:58:16"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "The one I like to have in this area is that people who are really excited about being data-driven, to me that is oftentimes a red flag for their product thinking, especially if it's an executive who's saying things like, oh, so we make all our decisions with our dashboards. To me that says that the team is over-emphasizing quantitative data at the expense of qualitative data and they're not using good judgment. They probably don't do a lot of direct user research. They don't really understand the humans who are using the thing, what they need, what they care about, and they're managing via a dashboard. And maybe if they got really, really good at picking metrics, it would be fine. And oftentimes maybe it is fine. Maybe you have a high volume business that's really easy to run experiments on and that works for you. But most PMs, most jobs, most products, you're going to be better off talking to 10 users and you'll get more and better insights out of why things are happening than you would with any dashboard.",
+   "zh": "我在这方面特别想说的是，很多对数据驱动特别狂热的人，在我看来，这往往是他们产品思维的警示信号，尤其是当是高管说出“我们所有决策都基于仪表板数据”这种话时。这说明团队过度依赖定量数据，却忽视了定性数据，没有运用良好的判断力。他们可能根本不做用户调研，完全不了解产品用户的需求和痛点，只是靠仪表板来管理产品。或许他们如果能精通指标选择，倒也无妨。但大多数情况下，这么做未必有效。可能你所在的公司业务量大、实验成本低，这种策略对他们适用。但对于大多数产品经理、多数职位和多数产品而言，与10位用户交流会比依赖仪表板更有收获，能获得更深刻的洞察，理解产品背后的逻辑。",
+   "ts": "00:58:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, the takeaway there is just be careful when someone is saying they're super data-driven. Our team is super data-driven or company company's super data-driven.",
+   "zh": "所以，关键是当有人自诩“数据驱动”时，要保持警惕。比如团队自诩“数据驱动”或者公司号称如此。",
+   "ts": "00:59:51"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, and maybe it's true and that's great. I am not saying that you don't need data. You absolutely do need to instrument your products and understand if it's working at scale, but you can't forget that, you need to know why. It won't tell you why anything is happening. If you don't understand why it's happening, I don't think you can come up with good insights about what you should do next. One quick story on this. I remember really early on in my career, Adam Medros, who was a VP [inaudible 01:00:24] at TripAdvisor, we were in a room, just had this meeting called product review that was amazing when I first joined and someone was justifying this project and he just, I hope he is okay with me saying this because this is my memory of this moment. (01:00:38): He was just like, this is an obviously better thing. Just do it. Stop. Stop it. Stop doing all the stuff that you're doing. Stop with these numbers, whatever it was that they were doing, if it's obviously better, if it's logically better, use your good judgment and do that thing and let's move on. And I've always thought about that, but you can just do the obviously better thing.",
+   "zh": "是啊，或许他们说得没错，这固然好。但我不是说你不需要数据。当然需要对产品进行数据监测，了解其大规模应用效果，但别忘了更重要的是理解其背后的逻辑。数据无法解释事件发生的深层原因。如果你不理解因果关系，就无法得出有效的洞察。说个小故事。我记得职业生涯早期，在TripAdvisor担任VP的亚当·梅德罗斯（Adam Medros）参加产品评审会时，有人试图为某个项目辩护。他说：这显然是个更好的方案，直接去做吧。停下。别再纠结数据了。如果方案明显更优、逻辑更清晰，就用你的判断力去推进吧。这个时刻让我印象深刻，但我一直认为，有时候确实该直接选择明显更好的方案。",
+   "ts": "01:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I love that I pull that card sometimes, but I think you almost have to do it that way of just like, okay, everyone, this one's just obviously a good idea. Let's just do it. Enough research. Okay, another topic that you have some interesting opinions about his product content very close to our hearts, both my heart and your heart. Do share.",
+   "zh": "是啊，我有时也会搬出这张牌，但我觉得必须采取这种方式：好吧，大家，这事儿显然没问题。直接做吧。别再调研了。好吧，还有个你很有见解的话题——产品内容。这对我们双方都意义非凡。请分享一下你的观点。",
+   "ts": "01:00:58"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Really if you're going to make good content, you have to sanitize and frameworkize the thing that you're working on. And then slowly, I think for a lot of people who are reading it and looking at it, their thinking starts to become, well look how well I did this framework. Look how well I implemented this thing. And they lose touch with the point which is creating impact. And so all of this content makes it really noisy and then makes people think that, oh, if I just do these things that I'll get what I want. And now I'll just check off my list and then I checked it off and then I should get my promotion at the end of the day. But it's like the best PMs have built up so many different frameworks and they can apply them in different ways. And then sometimes they throw them out and they say, nothing I have in my toolkit makes sense for this moment, but I know what to do because I have intuition and I have data and I've talked to users or whatever. (01:02:16): And so content sometimes can get in the way of the impact because you're trying to apply it and you think that the point is the framework and the point is the one pager or whatever it is that you're doing when it's not. And then if you're a leader and maybe if you've had the good and ill fortune of having published content, someone comes to you and says, well, you said in that one podcast episode that you don't believe in roadmaps, so why are you asking me for a roadmap? And then you're the who's sitting there being like, well, it's a little more complicated than that. And that was a fun take that I had, but I actually need to understand what we're doing because planning and I need to figure out what my budget is, blah, blah, blah.",
+   "zh": "老实说，如果你想创作优质内容，就必须对自己正在做的事情进行精简和框架化处理。然后，我觉得很多读者和观众会开始思考：看看我这框架做得多好，看看我这功能实现得多棒。然而他们却忽视了最初的目标——创造影响力。于是所有这些内容就变得冗余，让人们误以为只要照着模板做就能达成目标。最后他们只是在勾选任务清单，却始终得不到想要的晋升机会。\n\n（01:02:16）：优秀的产品经理会积累大量框架，并能灵活运用。有时他们会抛弃旧框架，坦言：现在这个场景用不上这些工具，但我凭借直觉、数据和用户反馈就能找到正确的解决方案。\n\n（02:01:28）：有时内容反倒成了阻碍，因为人们试图套用模板，却忽视了核心要点——框架只是工具，关键在于用数据和洞察力去解决问题。当领导者被追问：你不是说不信路线图吗？那为什么还要让我写路线图？你只能尴尬地解释：实际情况更复杂……",
+   "ts": "01:01:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's so funny that I didn't think about you as a leader having put stuff out that people put back at you. And I think your point about one for you, for people to consume content online about how to do product management, you have to really distill it. And to your point, it often loses the nuance. Because if you had all the ones, no one's going to even read it so complicated and long. And then the other point of there's also just it has to be interesting. So, if it's another just like, here's how a roadmap really is successfully and it's like what everyone's already done, no one's going to read it. So, you always have to have a new take. And with that comes, it's not actually always true. I just wanted people to react to this idea.",
+   "zh": "太有趣了，我从没想过你也会遇到被质疑的情况。关于产品管理内容，你提到要精简易懂，避免冗长。这点很对，但用户往往忽略细节。比如长篇大论的路线图教程，根本没人会看。必须保持趣味性，让读者有共鸣。",
+   "ts": "01:02:52"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, I mean it's helpful. I think there's some people who create, I mean there's many things at my last role, we all had your newsletter and we listened to the show and then people would bring, I should have found a clip, but I can't remember, there were a couple of moments where we would listen to a piece of it or find an article and say, oh, this could help. Or what if we did it that way? I think there was a newsletter article about Figma and they had some templates. They're like product review template for FigJam. Love that one. Use that one all the time.",
+   "zh": "确实很有帮助。我记得在上家公司，大家都订阅你的邮件、听你的播客。有人会拿出某个片段，比如关于Figma的模板文章，应用到FigJam的产品评审中。这种案例太棒了，我们常用。",
+   "ts": "01:03:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing.",
+   "zh": "太棒了。",
+   "ts": "01:04:06"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "So, yeah, I mean the stuff's really useful. It's just like you have to be smart about when you apply it. And then if you're a leader and there's all this content available, you have to know why you're not following the rules.",
+   "zh": "是的，这些内容确实实用。但关键在于何时该套用，何时该创新。作为领导者，面对海量内容时，必须清楚为何要打破常规。",
+   "ts": "01:04:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If they're just like, hey, look at this newsletter post letting you write, we should be doing it this way. Versus I think people assume these are the one way to do it or innately will work at your company. And I really like your point, which maybe counter to what I do, but I think it's an important nuance that I feel like I should add to every newsletters. This isn't necessarily going to work at your company. Sometimes the culture is different and this won't fit or this isn't a complete version. As much as I try to give people, here's everything you need to do this thing well, there's always a little bit missing",
+   "zh": "他们可能只是说，嘿，看看这篇时事通讯帖子，里面教你如何写作，我们应该也照这个方法做。但人们往往误以为这就是唯一的正确做法，或者默认它在你的公司就能奏效。我很赞同你的观点——虽然这可能与我的做法相悖，但我认为这是一个重要的细微差别，值得我在每期时事通讯中强调。这种方法未必适用于你的公司。有时公司文化不同，难以落地，或者这套方案并非完整的解决方案。即便我尽力为大家提供做好这件事所需的全部要素，总还是会遗漏些关键点。",
+   "ts": "01:04:18"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "And I think if you don't have that context, it can be a little demoralizing like, well, how am I ever going to do that thing that they get to do at this magical company? But again, if you view it as more like here all the tools that you can add to your toolkit and you pull them out when you're in a situation from which they can be useful, that's how I think about it. Versus this is the one way to do it like you said, the only way you can write a one page or the only way you can write an experiment, it's more like you can do it in many different ways.",
+   "zh": "我觉得如果没有这种背景知识，可能会让人有点沮丧，比如，天哪，他们在那家神奇的公司里能做到那些事，我怎么可能也做到呢？但话说回来，如果你把这看作是可以扩充自己技能库的工具——在需要时随时拿出来使用——我觉得这才是正确的思路。而不是那种“这就是唯一正确的做法”之类的说法。就像你说的，写一页纸的提案或者设计实验，可能有无数种方法。",
+   "ts": "01:04:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I find myself, I'm not actually, I rarely tell people here's the way to do it. Usually what I try to describe is here's how the best companies do it, as much as I can get into and leave it to the reader to decide is this going to be a fit for me, should I try to implement it? But still, I think there's an implication. This is the way to do research, here's the way to do roadmap, here's the way to prioritize. But I think it's interesting that you also, yourself create a lot of content and you actually found a lot of value from being, let's not call you content creator because I don't like being labeled as a creator myself.",
+   "zh": "我发现自己很少直接告诉别人应该怎么做。通常我会尽可能详细地描述顶尖公司的做法，让读者自己判断是否适合自己，是否值得尝试。但这种思路确实存在暗示。比如，研究应该这样做，路线图应该这样制定，优先级排序应该这样处理。不过有趣的是，你自己也创作了很多内容，并且从中获得了很大价值。虽然我不喜欢被贴上“内容创作者”的标签，但还是要说，你确实是个很棒的内容创作者。",
+   "ts": "01:05:19"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Someone one's called me a product influencer and I'll died like a little bit.",
+   "zh": "有人称我为“产品影响者”，我当时简直激动得不行。",
+   "ts": "01:05:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's how I feel. I'd love to hear just the impact you've seen from spending time creating podcasts and blog posts and tweeting about really great stuff because a lot of people are thinking about investing in this stuff.",
+   "zh": "这就是我的感受。我很想听听你通过创作播客、博客文章和推特分享优质内容所产生的影响，毕竟很多公司都在考虑投入这类资源。",
+   "ts": "01:05:59"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, it's probably the best thing I've ever done for my career and I am so grateful for the people whose idea it was, who supported me and especially at Drift, when that became such a part of what we were doing at that time. And it's been helpful for a couple of reasons. One is just networking and access. I probably wouldn't be here today if I hadn't done that and if a friend of a friend had read the thing, it's like it just creates so many more connections. And so access to people and networking is one of the first benefits. (01:06:51): Also building a personal brand is really helpful if you want, one of the things that I always wanted to do with my career is try to make it so that I'm always employable. I just didn't want to, I'm an 08 grad not to put my age out there, and it was a hard time. And so I've always had this in the back of my mind, you want to be able to have a solid career. And so I thought that investing in my personal brand would be a way to help me get access to roles. It helps in recruiting as well when I'm trying to hire people. Because a lot of my job now is bringing people in and because I've been vocal about how I like to work and who I am, a lot of people and they will send me a note and say, I want to work with you, or I want to work on a team like that. (01:07:35): And that's huge because if my job is to hire people, then that's great and people can get a sense of who I am without needing to be on the phone with me. My favorite benefit outside of those things has been that it's helped me learn more from the work I've done than I otherwise would've been able to. Because in order to make content, you have to think through what you did, you have to summarize it, process it, make it interesting for people. And then especially if it's in a podcast meeting, talk to somebody about it. And the process of doing that means that you're paying attention to what you're learning along the way. And so often we don't do that because we're busy working, we have our lives, things are happening. And that to me is, I think what's made me a better product person faster is because I spent the time to think about what I was doing in a way that I wouldn't have if I didn't have to write something down.",
+   "zh": "是啊，这大概是我职业生涯中做过的最棒的事，我非常感激那些提出这个想法、支持我的人——尤其是Drift团队，当时这项工作已然成为我们当时工作的核心部分。它带来了诸多益处：首先是人脉拓展和资源获取。如果没有参与这项工作，我今天大概不会站在这里；如果不是朋友的朋友读了那篇文章，我也不会获得如此多的机会。获取人脉和资源无疑是首要的收获。\n\n（01:06:51）此外，若想在职业生涯中保持竞争力，我认为投资个人品牌建设至关重要。我是2008届毕业生（不方便透露年龄），当时就业形势严峻。于是我始终将个人品牌建设视为职业生涯的核心支柱。通过个人品牌塑造，我不仅能获得更多职位机会，在招聘时也更具说服力。因为我现在的工作职责之一就是招募人才，而当我公开分享工作理念和个人风格时，许多求职者会主动联系我，表示希望加入这样的团队。\n\n（01:07:35）最宝贵的收获在于，个人品牌建设让我能比以往更深入地反思工作历程。在创作内容时，必须系统梳理工作经验、提炼核心要点并使其趣味横生。尤其是在播客会议中与他人讨论时，整个思考过程迫使我持续关注自身成长的点滴。相反，日常工作中我们常因忙碌或分心而忽视这些关键反思。",
+   "ts": "01:06:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Something that comes across in your content that you've somehow figured out is to avoided being cringy and very thirsty for followers. And I think when a lot of people here build a personal brand, it's like, I don't want to.",
+   "zh": "从你的内容中能感受到，你成功避开了那种令人尴尬、急切追逐粉丝的套路。我觉得很多本地人士在打造个人品牌时，总会想：我不想这样做。",
+   "ts": "01:08:28"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I know. It makes me ill even saying that, it's like too gross.",
+   "zh": "我懂。光是说出来都让我难受，太恶心了。",
+   "ts": "01:08:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I never thought of it or wanted to think of it that way. And I'm just curious what advice you'd give to people that want to go down this route without feeling, I guess one, is just feeling like they're being cringey, and two, avoiding content people be like, oh my God, I can't believe this stuff [inaudible 01:09:02].",
+   "zh": "我从未这样想过，也不想这样想。我很好奇，对于那些想走这条路却又不想陷入尴尬境地的人，你会给出什么建议？比如，一是避免尴尬；二是避免内容让人觉得\"天哪，这也太离谱了\"（01:09:02处语音模糊）。",
+   "ts": "01:08:47"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, the clickbait tweet thread situation. I think the step one's going to be cringe. Your first 10, 20, however many posts are going to be bad. I would imagine if you went back and listened to your first episode, you would be cringing just because you've learned so much since then. Right?",
+   "zh": "是啊，比如那种标题党推特话题的情况。第一步肯定会很尴尬。前十条、二十条帖子都会很糟糕。我敢打赌，如果你现在回听自己的第一期播客，肯定会觉得尴尬，因为你自那以后进步太大了。对吧？",
+   "ts": "01:09:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:09:02"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "It's natural.",
+   "zh": "这很正常。",
+   "ts": "01:09:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Although randomly the first episode ever is the most popular episode. So, with [inaudible 01:09:29], which I could see why it was so popular.",
+   "zh": "尽管首集播出时反响平平，但它却意外地成了最受欢迎的一集。所以，就拿[听不清 01:09:29]来说，能理解它为何如此受欢迎。",
+   "ts": "01:09:23"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "So, it went really hot with your first guest.",
+   "zh": "第一位嘉宾的互动确实非常热烈。",
+   "ts": "01:09:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's right. That's right.",
+   "zh": "没错。没错。",
+   "ts": "01:09:34"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "So, yeah, first get over the fact that it's going to be cringe. It's going to be cringe. Like anything, you just have to get started and it'll fade away eventually and you don't have to think about it. Two B, this is such gross advice, but you have to be authentic. It has to be real. And I think what came through in the show that I did was those were my real questions that I was really working on. (01:09:59): So, we joked about how we would turn off the recording and then we would get the real story, but I would turn the recording off and I would say, okay, we talked about this thing. Here's actually happening in my job today, what would you do? And so those were real questions that I had, real processes that I was working on and real advice that I needed at that time. And I think that's why it was valuable is because I was actively a PM and the way that I'm still actively in product, that was always something that I wanted because it meant that the content had to be relevant for me and wasn't just for likes and share.",
+   "zh": "所以，首先要接受这种尴尬感是不可避免的。这种尴尬感迟早会消失，最终你会习惯它，不必刻意去在意。说个难听点儿的，这建议太烂了，但你必须保持真实。内容必须真实可信。我在节目中呈现的自我，正是那些我真正在思考的问题。（01:09:59）：我们曾开玩笑说，关掉录音机就能听到真实的故事，但我每次都会关掉录音机，然后问：好吧，我们刚聊到这个事儿。今天我工作中遇到的真实情况，你会怎么做？这些都是我真实面临的问题，正在解决的难题，以及当时急需的建议。我觉得这档节目之所以有价值，正是因为我当时还是一名产品经理，而我至今仍活跃在产品领域。这意味着内容必须与我的实际工作相关，而不是为了博眼球和传播量而生。",
+   "ts": "01:09:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think there's some two really important points there that stood out to me. One is your stuff's going to be terrible if you don't actually have any background or experience in the things, you're just pretending. It's like you're acting like someone that knows about this thing, but you don't actually. And so I think that's an incredibly important part of this is don't try to become an online creator person if you haven't done the thing, because people will see that you don't know what you're really talking about and you'll run out of stuff and it'll be like, okay, well I did it for two months and I have nothing more to say.",
+   "zh": "这里有两点让我印象深刻。第一，如果你对某个领域没有背景或经验，内容注定会糟糕透顶。你只是在假装懂行，却实则一窍不通。第二，如果你没有亲身实践过某个领域，就别试图成为网络创作者。人们会看穿你的虚伪，内容枯竭后只能无奈放弃。",
+   "ts": "01:10:34"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "01:11:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then the other piece is there's a guest who shared this quote that has stuck with me from Einstein, which is something like, \"Seek not to be successful but of value.\" And I find that that's a really good framing for sharing stuff is just share things that are interesting to you and useful and come at it from this is useful, not from, I'm trying to build a following. Because people can tell if that's the-",
+   "zh": "还有一点，嘉宾分享了爱因斯坦的一句话，让我深有共鸣：“不要追求成功，而要追求有价值。” 我认为这句话为内容分享提供了绝佳框架——分享真正感兴趣且有用的内容，出发点应该是内容本身的价值，而非为了积累粉丝。人们能轻易辨别出你是否真心在创作，还是在迎合大众。",
+   "ts": "01:11:05"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah, people can absolutely tell. And the other thing is there's a little bit of too cool for school mixed in here and there are definitely people who will tell you your content is cringe or make fun of you or whatever because that's what they want to do. And I'm not even going to get into psychology of that, but people will do that. And I've always been of the mind that the really interesting people out there, people who are unashamedly interested in stuff and who are like, yeah, I'm nerding out about this and I'm sharing it because I'm interested in it. And for better for worse, I love working in product. I love the job. (01:12:08): Even all the gross stuff you have to do, it's super interesting. You meet really cool people, you get to ship stuff, you get to see the stuff get used by people and solve problems. It's a really cool job and I've always been interested in how to do it better and it doesn't matter to me that some people might think that's cringe because that's cool, but this is what I do all day long, so I'd like to get better at it.",
+   "zh": "是啊，人家肯定能看出来。另外，这里还夹杂着一种\"自命不凡\"的意味，总会有人说你的内容很尴尬、嘲笑你之类的，因为他们就是想这么做。我甚至都不想深究其心理机制，但人们就是会这么做。我一直认为，那些真正有趣的人——那些毫不掩饰地对某件事感兴趣、会说\"我对这个很着迷，所以要分享出来\"的人——无论结果好坏，我都热爱产品工作。我热爱这份职业。（01:12:08）：即使你得做些讨厌的事，也非常有趣。你能结识很酷的人，参与产品发布，看到产品被人们使用并解决问题。这真是一份很棒的工作。我一直想如何把它做得更好，即使有些人觉得这很尴尬，但这很酷，因为这是我每天的工作，所以我想把它做得更好。",
+   "ts": "01:11:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that's such a big part of it. I didn't even mention that. Just it needs to feel really authentic and clearly for you is just like, there's just stuff I want to share because it's really interesting to me.",
+   "zh": "我觉得这很重要。我甚至都没提到这一点。关键是内容得真实自然，对你来说，就是“有些东西我很想分享，因为它们对我来说真的很有趣”。",
+   "ts": "01:12:26"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:12:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The way I actually started writing was exactly the two reasons you just shared. One is I wanted to learn the thing and so writing helped me figure things out. And then two is I just thought it was interesting and I found it useful and I just assumed other people might find it useful. So, I did also learn, and I wonder if you found this too, is that you think the things are not going to be that interesting or useful to people, so basic for you, but people find the most basic stuff so interesting. Because there's always more to learn about how to roadmap, how to prioritize, how to hire, how to talk, to have difficult conversations, performance review.",
+   "zh": "我真正开始写作的原因正是你刚刚提到的两个原因。一是我想学习相关知识，所以写作帮助我理清思路；二是我觉得内容很有趣、很有用，就想其他人可能也会觉得有用。比如，我确实学到了东西，不知道你有没有同感，就是你可能觉得某些东西对别人来说太基础、太无聊，但人们却觉得这些最基础的东西很有趣。比如，关于路线图规划、优先级排序、招聘、沟通、困难对话、绩效评估，总有更多东西可以学习。",
+   "ts": "01:12:37"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "All of that is absolutely true. And I think one of the first pieces of content that I was really happy with was I was working with somebody and they were making a PowerPoint presenter slides or whatever, and I just wrote out in my notebook like, okay, here's how I do that. I start with an outline on paper and then I draw little boxes for the slides and I write out the headline of the slides. And then once I have a tight outline and I have the literal text that will go across the top of each of those things, then I sketch out how I want the slides to go. And then I go into Google Docs and I actually make the slide. (01:13:51): And it was like some silly little thing and this person sat there and said, holy, you just totally changed the way I did this and this took me 75% less time than it would've taken me otherwise. And I was like, I may do this dumb drawing. Why is this a big deal? And yeah, that's when I realized that the stuff that's easy for you might be a stuff that is most interesting because it's something that maybe you're really good at that you don't realize.",
+   "zh": "这一切都千真万确。我记得我第一次写的比较满意的内容，是和别人合作做PPT演示文稿时，我在笔记本上写下：好的，我会这样做。先在纸上列大纲，再为每个幻灯片画小框，写下标题。等大纲确定，标题也写好后，再画出幻灯片的布局。然后用Google Docs把幻灯片做出来。（01:13:51）：这只是个小技巧，但那个人坐下来说，天哪，你彻底改变了我的做法，比我之前省了75%的时间。我就想，我只是画了张图而已，这有什么大不了的？那时我意识到，对你来说简单的事物，可能对别人来说最有趣，因为这或许正是你擅长却未曾意识到的。",
+   "ts": "01:13:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think people need to really internalize that point. If there's something that you're doing that you consistently find useful and works often, that is going to be really useful for someone to hear. So, that could be a good place to start. Maggie, we've gone through everything that I was hoping to get through and more, which is awesome.",
+   "zh": "我觉得大家真的需要深刻理解这一点。如果你正在做某件事，并且发现它确实有用、经常奏效，那么分享给别人听会很有帮助。这或许是个不错的切入点。玛吉，我们已经讨论完了所有我希望探讨的内容，甚至超出了预期，这太棒了。",
+   "ts": "01:14:13"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Great.",
+   "zh": "太好了。",
+   "ts": "01:14:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before we get to a very exciting lightning round, is there anything else that you want to share or touch on think might be useful to leave folks with?",
+   "zh": "在我们进入激动人心的闪电问答环节之前，还有什么你想分享或提及的，觉得对大家有帮助的？",
+   "ts": "01:14:32"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "My hope is always that people listen to stuff like this and realize that it's messier than you think you can fail a lot and still be successful and that they should have fun. I think that gets missed in a lot of the product content is like, have fun, enjoy it. People are weird, people do weird stuff and you build stuff for people, which it makes it all very entertaining. So, I've always found a lot of joy in the job.",
+   "zh": "我一直希望大家听完这些内容后，能意识到事情比你想象的更复杂——你可能会多次失败，但最终仍能成功。最重要的是，要享受这个过程。我觉得很多产品内容都忽略了这一点：要玩得开心，享受过程。人都是奇怪的，人们会做出奇怪的事，而你要为人们开发产品，这一切就变得非常有趣。所以，我在这份工作中一直能找到很多乐趣。",
+   "ts": "01:14:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And to your point of carrying the water as a PM where you're kind of doing all the things, it's like you can create that fun. You can make the team your own fun and change the culture, create the culture. I find that so underappreciated for PM.",
+   "zh": "至于你提到的产品经理要当“救火队员”，什么都得管——其实你可以创造这种乐趣。你可以让团队自得其乐，改变团队文化，塑造团队文化。我发现这一点在产品经理群体中被严重低估了。",
+   "ts": "01:15:04"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Absolutely.",
+   "zh": "确实如此。",
+   "ts": "01:15:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, well with that, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "好的，现在进入激动人心的闪电问答环节。大家准备好了吗？",
+   "ts": "01:15:17"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I'm ready.",
+   "zh": "我准备好了。",
+   "ts": "01:15:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maggie, what are two or three books that you've recommended most to other people?",
+   "zh": "玛吉，你向别人推荐最多的两三本书是什么？",
+   "ts": "01:15:22"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "First, most common one is probably the Presentation Secrets of Steve Jobs, the little tiny one, really great way to improve your speaking skills and your presentation skills and to get distracted executives to agree with the point you're making. So, that's one. Thinking in Bets by Annie Duke is the second one. Coming back to the point about being able to make bets, I think that one's a really interesting one. And then bonus third one, this is more like a desk reference that I now have on my desk, the Scaling People book by Claire Hughes Johnson. I really enjoyed the way that one is working and it just sits on my desk and I reference it every once in a while, especially as manager.",
+   "zh": "首先，最常见的可能是《史蒂夫·乔布斯的演讲秘诀》，那本很薄的小书，真的能大大提升你的演讲技巧和展示能力，让那些心不在焉的高管也认同你的观点。这是第一本。安妮·杜克的《思考的赌局》是第二本。回到如何下注这个话题，我觉得这本书非常有趣。第三本推荐是克莱尔·休斯·约翰逊的《人才倍增法则》。这本书现在就放在我的书桌上，用起来很方便，特别是作为管理者时，我时不时会翻阅参考。",
+   "ts": "01:15:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have it both under my laptop right where I'm sitting and then also way behind there and it's one of the most popular episodes I've done with Claire, so if folks haven't listened to that one. Highly recommend. She's incredible. Great choice. What is a favorite recent movie or TV show you've really enjoyed?",
+   "zh": "我的笔记本电脑下方就放着这本书，后面还有一本。这是我和克莱尔合作过的最受欢迎的节目之一，如果大家还没听过的话，强烈推荐。她太棒了。选得好。",
+   "ts": "01:16:11"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Okay, so my husband is in the industry, as we say here in LA, and so we watch a lot of good and bad shows in TV, but I think my favorite one that I've watched recently was Slow Horses. Gary Oldman is incredible. Highly recommend.",
+   "zh": "好的，我丈夫在洛杉矶的这个行业，所以我们看了很多电视节目，有好有坏。但我最近最喜欢看的是《慢马》。加里·奥尔德曼太棒了。强烈推荐。",
+   "ts": "01:16:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, I haven't heard that one yet. Good tip. What is a favorite interview question you really like to ask which I think you already gave away, but let's touch on it again.",
+   "zh": "哇，我还没听过这部剧呢。好建议。你最喜欢问的一个面试问题是什么？虽然你之前已经提到过，但还是再聊聊吧。",
+   "ts": "01:16:43"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I did. Yeah, it is what is the worst product that you've ever shipped? I think the best answers are ones, and I don't even care if someone listens to this and then I do this in an interview, people immediately laugh a little bit. They remember the horrible thing they did and then they share that horrible thing with you. And it tells me you have some humor, you're humble and you can point out when you've made a mistake. You've done enough to be able to confidently say, of course I've made a mistake. Because none of us are perfect. And you know how to spot those mistakes and you can learn from them. And I've always found that those conversations are the most interesting.",
+   "zh": "我提到过。是这样的，你问过的最好的问题之一是：“你推出的最失败的产品是什么？” 我觉得最好的回答是那些坦诚的人，甚至当我把这个问题用在采访中时，人们都会笑一笑。他们会回忆起自己做过的糟糕事，然后分享给你。这显示出你的幽默感、谦逊，以及能承认错误的勇气。你已经足够自信地说，“当然我犯过错，毕竟人无完人。” 你能识别出这些错误，并从中吸取教训。我发现这样的对话最有意思。",
+   "ts": "01:16:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite product you've recently discovered that you really like?",
+   "zh": "你最近发现的最喜欢的产品是什么？",
+   "ts": "01:17:29"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "One because I've seen you on Twitter, you're a future fit guy.",
+   "zh": "因为我在推特上看到过，你是个未来健身达人。",
+   "ts": "01:17:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I'm.",
+   "zh": "是啊，我是。",
+   "ts": "01:17:36"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Is that correct?",
+   "zh": "对吗？",
+   "ts": "01:17:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I use it three times a week. I love it.",
+   "zh": "我每周用三次。我很喜欢。",
+   "ts": "01:17:37"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Yes. I was also a future fit person. I think it's great. It's a great product. I'm now on Ladder Fit.",
+   "zh": "是的。我以前也是个未来健身达人。我觉得这产品很棒。我现在用Ladder Fit。",
+   "ts": "01:17:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've heard of that.",
+   "zh": "听说过。",
+   "ts": "01:17:46"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "And personally, I love not being, I don't have to talk to the coach every day. I don't need the accountability, so that's not a thing that I needed as an ex athlete. So, for me, that didn't serve me and I like the anonymity of it and it comes with a totally unhinged group chat for your whole team. It's fantastic. I'm really enjoying it.",
+   "zh": "对我个人来说，我不喜欢每天和教练交流，不需要那种监督，所以作为前运动员，我不需要那种模式。对我来说，那种模式没用，我喜欢它的匿名性，还附带一个整个团队的疯狂群聊。太棒了。我真的很喜欢。",
+   "ts": "01:17:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sweet.",
+   "zh": "不错。",
+   "ts": "01:18:07"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "So, that's one more of a funny one. And the second one, not to get real niche, but I think good products are products that are focused. They do one thing incredibly well and they're not, to your point about side quest, there's no side quests. I'm a new mom. There's this app called Pump Log. I have never seen an execute so well on one problem. There's not a single thing where I think, oh, I wish it did this. It does it. It's like I paid $14 for it. I've never paid for an app like that in my life.",
+   "zh": "好的，这又是个有趣的故事。第二个观点是，别追求太小众的产品，但我认为好的产品必须专注于某一件事。它们在某个特定领域做到极致。就像你说的支线任务，根本没有那些东西。我刚当了妈妈，有个叫Pump Log的应用。我从没见过哪款产品能如此精准地解决一个问题，没有任何让我后悔的地方。它就该这样，我花14美元买的，这辈子从没为类似应用花过钱。",
+   "ts": "01:18:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, I'm downloading it right after we finish. Do you have a favorite life motto that you either repeat yourself, often like to share with folks, find useful, and just kind of living life?",
+   "zh": "好的，等我们结束后我马上就下载。你有没有一条生活格言，既能反复自述，又喜欢与人分享，觉得很有用，还能融入日常生活？",
+   "ts": "01:18:40"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "I'm sure there's mottos' I could say that would be aspirational mottos', but the real one is if it's worth doing, it's worth doing well. And again, from being in sports to going to school to being in product, in my opinion, if you're going to do something, do it to the best of your ability because that's what you do with your day. You spend so much time working, you may as well be good at it or trying to get good at it. And that's always how I've lived my life.",
+   "zh": "我肯定能说出一些励志格言，但真正实用的是：如果值得做，就要做好。无论是运动、求学还是产品开发，在我看来，既然要做，就要竭尽全力做到最好，因为这决定了你一天的价值。既然要投入大量时间工作，不如把它做得出色，或者努力做到出色。这就是我的人生信条。",
+   "ts": "01:18:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I so love that message. I always think about that. Final question, you are an Olympic speed skater, which I don't think people would know necessarily. That's insane. My question is there some bad speed skating that would surprise people that would be like, what?",
+   "zh": "我太喜欢这个理念了。我经常思考这个问题。最后一个问题，你是奥运会速滑选手，我想很多人可能不知道。这太不可思议了。我的问题是，有没有一些糟糕的速滑经历，让人惊讶得想说：什么？",
+   "ts": "01:19:20"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Ooh, that is one I've never been asked before. The whole experience, I've obviously learned a ton from it, and I think what might surprise people about being a small sport athlete is that you have to think in four or eight year chunks. And so it's one of those things where you grind for so long in a dark corner and then you get a chance to get the light to shine on you and you learn how to love the process. Especially for speed skating, I was a long track speed skater, it's a 400-meter rink. (01:20:15): You just are always turning left and going in a circle. There's not a lot going on. It's just you and your thoughts and you just really, really learn how to get good at perfecting something over and over again, and you learn how to grind, you learn how to focus, and I think it's also cool you get to go superfast. But yeah, I don't know if that would surprise people about speed skating, but I think just about being a small sport elite athlete, it's really about years and years and years of toiling and silence to get maybe one shot at something great.",
+   "zh": "哦，这个问题我从没被问过。整个经历让我收获颇丰。作为小众体育项目的运动员，最令人惊讶的是你必须以四年或八年的周期规划。就像在黑暗角落埋头苦干很久，突然迎来聚光灯照耀的时刻。你学会热爱这个过程。特别是速滑，我是长道速滑选手，赛道400米。（01:20:15）你只是一圈圈地左转，几乎没什么花样。就是你和自己的思绪作斗争，不断磨砺技艺，学会专注。我觉得能跑得超快也很酷。但我不确定这对速滑是否有启发，但对于小众体育项目的精英运动员来说，就是年复一年地默默耕耘，只为争取一次登上大舞台的机会。",
+   "ts": "01:19:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, much of what you just said would apply 100% to product management and I love that. Maggie, you are awesome. Two final questions. Where can folks find you online if they want to reach out and maybe ask you any follow-up questions, and then two, how can listeners be useful to you?",
+   "zh": "你刚刚说的很多观点完全适用于产品管理，我太赞同了。Maggie，你太棒了。最后两个问题。如果听众想联系你，或者有后续问题，哪里能找到你？第二个问题，听众如何能为你提供帮助？",
+   "ts": "01:20:46"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "You can find me on Twitter for sure. By LinkedIn, but just speaking of cringe, I just can't get into LinkedIn posting.",
+   "zh": "你肯定能在Twitter上找到我。至于LinkedIn，说实话我实在没法适应那个平台的发帖模式。",
+   "ts": "01:21:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "LinkedIn's gotten better, I'd give it a shot. It's actually pretty interesting now, which sound weird to say.",
+   "zh": "LinkedIn现在改进了很多，我觉得值得一试。现在它其实挺有趣的，说起来挺奇怪的。",
+   "ts": "01:21:09"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Thinking about it, I better go back to work in a couple of weeks and thinking about LinkedIn. But yeah, Twitter for sure, LinkedIn for sure, and I've always tried to be helpful to other people, so I don't have an answer for how people can be helpful to me, my goal is really to share what I've been doing, the rooms that I get to be in, the access to the content and the people and the learning that I've had. So, hopefully I can find ways to keep sharing that.",
+   "zh": "仔细想想，几周后我最好还是回去工作，再说说领英（LinkedIn）。不过推特（Twitter）肯定还是要用的，领英也不能落下。我一直致力于帮助他人，但对于别人如何能帮到我，我还真没想好答案。我的目标就是分享自己近期的经历、参与的项目、获取的内容资源、结识的人脉以及从中获得的学习收获。希望能找到持续分享这些内容的办法。",
+   "ts": "01:21:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe check out Toast and use Toast when they're at restaurants.",
+   "zh": "或许可以试试Toast，在餐厅用餐时用Toast支付。",
+   "ts": "01:21:39"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Oh yes, Plug, Toast. Come work with us. We're the best. I get to work with John Cutler. It's phenomenal.",
+   "zh": "哦，对，Plug，还有Toast。来我们公司工作吧。我们是最棒的。我能和约翰·卡特勒（John Cutler）共事，这简直太棒了。",
+   "ts": "01:21:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Legendary, previous guest. Are there roles you're hiring for just for folks that are listening and just like, hey, maybe I should go do that.",
+   "zh": "太传奇了，上期嘉宾。有没有适合正在听节目的听众的职位空缺？比如，嘿，或许我该去应聘一下。",
+   "ts": "01:21:50"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "There are always roles that are open. I don't know what the most open roles are right now, but yeah, check it out. It's a great place.",
+   "zh": "我们一直有职位空缺。我不知道当前最紧缺的职位是什么，但还是去看看吧。我们公司很棒。",
+   "ts": "01:21:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Willing to the careers page.",
+   "zh": "欢迎访问我们的招聘页面。",
+   "ts": "01:22:01"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Awesome.",
+   "zh": "太棒了。",
+   "ts": "01:22:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maggie, thank you again so much for being here.",
+   "zh": "玛吉，再次非常感谢你能来。",
+   "ts": "01:22:03"
+  },
+  {
+   "speaker": "Maggie Crowley",
+   "en": "Thank you, Lenny. It was awesome.",
+   "zh": "谢谢你，莱尼。这真是太棒了。",
+   "ts": "01:22:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见了。非常感谢你们的收听。如果你觉得这期节目有价值，可以在苹果播客、Spotify或你喜欢的播客应用上订阅节目。另外，请考虑给我们评分或留下评论，这对其他听众找到节目会有很大帮助。你可以在 lennyspodcast.com 查看往期节目或了解更多信息。下期节目再见。",
+   "ts": "01:22:07"
+  }
+ ]
+}

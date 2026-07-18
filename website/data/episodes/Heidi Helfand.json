@@ -1,0 +1,509 @@
+{
+ "id": "Heidi Helfand",
+ "name": "Heidi Helfand",
+ "category": "企业管理",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Heidi+Helfand",
+ "bio": {
+  "en": "Heidi Helfand is an organizational-design consultant, workshop leader, and author of Dynamic Reteaming, who after two decades in tech became an expert on how to reorganize teams effectively and why change is good for them.",
+  "zh": "Heidi Helfand 是一位组织设计顾问、工作坊引导者，也是《Dynamic Reteaming》的作者；在科技行业深耕二十年后，她成为“如何有效重组团队”以及“为何变化对团队有益”的专家。"
+ },
+ "summary": {
+  "en": "Heidi argues that constantly stable teams aren't actually best—dynamic reteaming reduces attrition, stagnation, and knowledge silos—and lays out the five types of reteaming plus the anti-patterns to avoid when reorganizing. She covers what team structure is most conducive to creating brand-new products, why being transparent about reorg plans is worth it, and how she herself became such a remarkably good listener. It's a practical guide to the 'people layer' of building software that most leaders neglect.",
+  "zh": "Heidi 主张“永远稳定的团队”并非最好——动态重组（dynamic reteaming）能降低流失、停滞与知识孤岛，并梳理了五种重组类型，以及在重组时应避免的反模式。她谈到了哪种团队结构最有利于从零打造新产品、为何把重组计划透明化是值得的，以及她自己是如何成为如此出色的倾听者的。这期节目是关于“做软件时的人”这一被多数领导者忽视的层面的实用指南。"
+ },
+ "turns": [
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Reteaming is hard. Reorgs are hard. You can't lump them all into one thing with oh, it's all great all the time. No, it's not. If we could just build the software, deliver to the customer, get the product market fit, hey, have we delighted them or not? If only it could be that easy. No, we have the people layer, so let's focus there too.",
+   "zh": "团队重组很难。组织架构调整也很难。你不能把这些问题一概而论，说什么“每次都很顺利”。不，事实并非如此。要是我们能直接开发软件、交付给客户、实现产品与市场的匹配，那还能不让客户满意吗？要是事情真能这么简单就好了。不行，我们还得处理人员层面的问题，所以也得把精力放在这块上。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Heidi Helfand. After two decades in the tech industry, Heidi became fascinated with how teams are organized, how org structures change and how to set teams up for success through that change. She now teaches workshops and runs courses and consults on how to effectively reorganize your teams. And in her book Dynamic Reteaming, Heidi delves deep into why change is actually good for your teams, why you're better off not having super stable teams, how to effectively execute reorgs, and through that, how to reduce attrition, stagnation, and knowledge silos. In our conversation, Heidi shares the five types of reteaming, anti-patterns to avoid when making org changes, what sort of team structure is most conducive to creating totally new products, why being transparent about your reorg plans is definitely worth considering. Also, how Heidi became such a great listener with a lot of really interesting insights and advice there and so much more. Huge thank you to John Cutler for introducing me to Heidi. With that, I bring you Heidi Helfand after a short word from our sponsors. (00:01:29): This episode is brought to you by productroadmap.ai and Ignition. Productroadmap.ai is the first AI roadmapping suite. It helps ensure roadmaps drive revenue by instantly aligning product with your sales and marketing teams to capture upsell opportunities. Built by early leaders from Rippling and Craft, it automatically identifies feature gaps from your CRM data and your customer conversations, adds them to shareable roadmaps easily prioritized by revenue impact, and then seamlessly closes the loop with sales reps via targeted notifications when feature gaps are closed. As part of Ignition's broader go-to-market operating system, productroadmap.ai can also help create better handoffs and collaboration with product marketing teams by giving both teams the tools to research, plan, orchestrate and measure the process of building products and going to market. Packed with integrations, AI automation and communication tools, it's truly a one-stop shop for product and marketing to bring things from concept to launch. To sign up, go to productroadmap.ai and use promo code Lenny to get 75% off your first year. (00:02:36): This episode is brought to you by Hex. If you're a data person, you probably have to jump between different tools to run queries, build visualizations, write Python, and send around a lot of screenshots and CSV files. Hex brings everything together. Its powerful notebook UI lets you analyze data in SQL, Python, or no-code in any combination and work together with live multiplayer and version control. And now Hex's AI tools can generate queries and code, create visualizations, and even kickstart a whole analysis for you all from natural language prompts. It's like having an analytics copilot built right into where you're already doing your work. Then when you're ready to share, you can use Hex's drag and drop app builder to configure beautiful reports or dashboards that anyone can use. Join the hundreds of data teams like Notion, AllTrails, Loom, Mixpanel and Algolia using Hex every day to make their work more impactful. Sign up today at hex.tech/lenny to get a 60-day free trial of the Hex team plan. That's hex.tech/lenny. (00:03:41): Heidi, thank you so much for being here and welcome to the podcast.",
+   "zh": "今日嘉宾是海蒂·赫尔方德（Heidi Helfand）。在科技行业深耕二十年后，海蒂开始着迷于团队的组织方式、组织结构的变革，以及如何通过变革为团队注入成功动力。如今，她开设工作坊、授课课程，并为客户提供高效重组团队的咨询服务。她的著作《动态团队重组》深入探讨了变革为何对团队有益、为何不应追求过度稳定的团队结构、如何有效执行重组，以及如何借此减少人员流失、停滞不前和知识割裂等问题。对话中，海蒂分享了五种团队重组类型、组织变革中应避免的反模式、最有利于创造全新产品的团队结构类型，以及为何公开重组计划绝对值得考虑。此外，海蒂还成为了一位出色的倾听者，提供了许多极具洞察力的见解和建议。特别感谢约翰·卡特勒（John Cutler）将海蒂介绍给我。接下来，在我们的赞助商简短致辞后，让我们迎来海蒂·赫尔方德的访谈。（00:01:29）：本期节目由productroadmap.ai和Ignition赞助。Productroadmap.ai是首款AI路线图套件。它通过即时将产品与销售及营销团队对齐，捕捉追加销售机会，确保路线图推动收入增长。该产品由Rippling和Craft的早期领导者打造，能自动从CRM数据和客户对话中识别功能缺口，将其轻松添加到可共享的路线图中，并通过有针对性的通知及时告知销售代表功能缺口已被解决。作为Ignition更广泛的市场运营系统的组成部分，Productroadmap.ai还能通过为产品营销团队提供研究、规划、协调和衡量产品开发及市场推广过程的工具，助力实现更好的交接与协作。凭借集成功能、AI自动化和通信工具，它是产品与营销将创意转化为成果的一站式平台。注册即可访问productroadmap.ai，使用促销代码Lenny即可享受首年75%折扣。（00:02:36）：本期节目由Hex赞助。如果你是一位数据从业者，可能需要在不同工具间切换来运行查询、构建可视化、编写Python代码，并频繁发送大量截图和CSV文件。Hex将所有功能整合在一起。其强大的笔记本UI让你能以任意组合方式分析数据（SQL、Python或无代码），并通过实时多人协作和版本控制与团队共同工作。现在，Hex的AI工具能从自然语言提示中生成查询和代码、创建可视化，甚至为你启动整个分析流程。这就像是在你现有工作环境中内置了一个分析副驾驶。准备分享时，可使用Hex的拖放式应用生成器配置美观的报告或仪表板，任何人都能轻松使用。数百个数据团队（如Notion、AllTrails、Loom、Mixpanel和Algolia）每天都在使用Hex，让工作更具影响力。立即注册，访问hex.tech/lenny即可获得60天免费试用（Hex团队计划）。即hex.tech/lenny。",
+   "ts": "00:00:25"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Thanks, Lenny. Great to be here.",
+   "zh": "谢谢，Lenny。很高兴能来。",
+   "ts": "00:03:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's great to have you here. So I had this colleague at Airbnb, her name was Jana, and she always had this joke that she shared that if it's been six months and she hasn't switched teams or hasn't moved desks, she knew there was this reorg coming, there's something happening, something was coming to change everything. And you wrote a whole book about this general idea of teams changing, reorgs, you call reteaming. I have the book right here. It's called Dynamic Reteaming: The Art and Wisdom of Changing Teams. I feel like just people underestimate the opportunities and benefits of change, and I think that we see it as a scary thing. So I'm really excited to spend time with you and chat about this topic. Before we get into the meat of it, I'm just curious why you decided to spend so much of your time researching this area of team change, reorgs, reteaming.",
+   "zh": "很高兴您能来参加这次交流。之前我在Airbnb有一位同事，叫贾娜。她常开玩笑说，如果六个月过去了，团队成员没有调动或换工位，那就意味着组织架构调整即将来临，重大变革即将到来。而您写了一整本书，探讨团队变革、组织架构调整和团队重组的理念。我这儿正好有这本书，叫《动态团队重组：团队变革的艺术与智慧》。我觉得人们往往低估了变革带来的机遇和益处，反而将其视为可怕的挑战。所以很期待与您深入探讨这个话题。在深入主题之前，我很好奇您为何花费大量时间研究团队变革、组织架构调整和团队重组领域。",
+   "ts": "00:03:47"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah, that's a good question. It wasn't necessarily planned. I had been working in a variety of different fast-growing startups for most of my career in 20 years in software-as-a-service companies in particular. And I read a lot of books to try to get better at my work and what we're doing in our teams. I have a lot right over there as you can see, and a lot of the books I would read on teams and the advice that I would get from people would be, you really want to keep your teams the same. You want to go for that forming, storming, norming, performing kind of thing. And I had thought about that and I was like, wait, well it wasn't really possible for us when I was at a startup and I was the 10th employee and we grew to 900 people and now thousands of people, our team's kind of morphed and changed. (00:05:28): So I feel like if you're in a fast-growing company or a shrinking company, look there, don't look at trying to fight the natural evolution. I was just trying to prove a point and to illustrate that teams change. And I was also curious to see, well, was that just my experience and the experience of my colleagues in Southern California? What is it like for other people? So I was just curious.",
+   "zh": "嗯，这是个很好的问题。其实这并非刻意为之。在我20年的职业生涯中，尤其是在软件即服务公司里，我曾在多个快速发展的初创企业工作过。为了提升工作能力和团队管理水平，我阅读了大量书籍。正如您所见，我这里有不少书籍。许多关于团队管理的书籍都强调，要保持团队稳定，经历组建、冲突、规范、执行等阶段。但我曾思考过这个问题——在初创公司工作时，这对我来说根本不可行。比如，我加入时是第十名员工，后来团队规模扩大到900人，如今更是数千人。团队成员不断变更。（00:05:28）所以我认为，无论是在快速发展的公司还是缩减规模的公司，顺应自然演变比强行抗拒要明智得多。我只是想用实际案例证明团队会变革，同时也好奇这是否仅是我和南加州同事的个人经验，其他地区的情况又如何？所以我很好奇。",
+   "ts": "00:04:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You have this code in your book where you say something like, sure, we deliver software on time, we make products people love and want to buy, but there's this people layer that happens that people may not be thinking enough about. Is there anything more you can say to that?",
+   "zh": "您在书中提到，团队按时交付软件、开发出人们喜爱购买的产品固然重要，但人力层面的变革往往被忽视。您能否对此进一步展开？",
+   "ts": "00:05:56"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah, I think a lot of the things that I would read about teams just are naturally focused on, well, you want to build things that customers love. You want it to be an enjoyable experience, you want to deliver on time. There's a reason we're there as a business, but there's also a lot of company building that happens in building the people structures and just when you go from one to many to a multitude, there's a lot of work that goes into it. This is enablement type work and it's where I focused a lot of my time and my career helping make teams and organizations successful. So there is this people layer, however, I've thought about this a lot over the years and I think it would be highly convenient if we could just focus on building products that people love and getting product market fit, talking to customers. (00:07:06): It would be great if it could only be that, but the reality is we're humans together and there's a lot of opportunity to build companies that delight people where they're excited to be included in decision-making about how the organization grows and changes or shrinks. So yeah, there's this whole kind of other area of work that I think just doesn't get enough attention and I guess that's where I live and breathe.",
+   "zh": "是的，我觉得很多关于团队的文章都自然而然地聚焦于——嗯，你要打造客户喜爱的产品。你要确保用户体验愉快，要按时交付。作为企业存在的初衷固然重要，但在构建团队架构、从单人到多人再到庞大团队的过程中，还有大量工作需要投入。这属于赋能型工作，正是我职业生涯中花费大量精力帮助团队和组织取得成功的领域。不过，关于人员架构层面，我这些年思考了很多。我认为，如果我们能专注于打造人们喜爱的产品、实现产品与市场的匹配、倾听客户反馈，那将再好不过。（00:07:06）：要是真能如此就太棒了，但现实是，我们都是人，总有机会打造能让人们为之兴奋的公司——让他们乐于参与组织发展、变革乃至收缩的决策过程。所以，是的，还有一整个领域的工作，我觉得它没有得到足够重视，而这正是我全身心投入的方向。",
+   "ts": "00:06:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay, so I definitely want to get into the five types of reteaming as you described, but before we get there, what I find with reorgs and change is that it often leads to the biggest career opportunities because there's new roles to be filled. If things aren't changing, there's not going to be all of a sudden, \"Hey, we have this new role that we want for you.\" I don't know. A lot of the leaders that move up quickly are the ones that seem to take advantage of change and think ahead and get involved and position themselves in a way where like, \"Okay, cool, there's a new position. Oh, clearly it's going to be Heidi.\" Is there anything you can share there? Any advice for people that maybe see reorgs coming and what they can do to help themselves in that pending change?",
+   "zh": "太棒了。好的，我肯定想深入探讨你提到的五种重组团队的类型，但在此之前，我发现重组和变革往往会带来最大的职业机遇，因为会有新角色需要填补。如果没有变化，就不会突然冒出“嘿，我们有个新职位想让你来担任。”我不知道，很多晋升迅速的领导者，似乎都能善于利用变革，未雨绸缪、积极参与，并为自己定位。比如，“好吧，不错，有个新职位。哦，显然应该给海蒂。” 你能分享一些见解吗？对于那些可能预见到重组即将到来的人，有什么建议能帮助他们在即将到来的变革中为自己争取机会？",
+   "ts": "00:07:38"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I really like it when there's transparency in reorgs. There's a story in my book from Christian Lima at Spotify about how they reorged a large infrastructure team. They visualized it on whiteboards and brought people over to the whiteboards to see the future team structure that the leaders wanted and they got input into the design. We did this at Procore as well inspired by Christian and his story and we had... I think there were 80 people involved in this platform organization that was splitting from two large clusters of teams into three. And I remember when we rolled out the whiteboards from a back office where we were talking about this change for a few weeks and it was scary to roll these whiteboards out because it impacts people's day to day. It's like when somebody is suggesting that maybe you do something different or that something different happens, sometimes it can be kind of triggering. You want to know what's going on. So anyway, but we had courage together. (00:09:31): So we rolled these whiteboards out and it had the team structure with everyone's names on it. It had the name of the team, the mission of the team, how many open slots for hiring across all of these different teams, and then people's names in their existing team positions. And people were invited to look, give feedback. They identified mistakes that we had in the design, \"Oh, this team might be better over here and here's why.\" And people had the opportunity to see opportunities within their own company that they might say, \"Hey, I'm interested in this, might I be considered for this?\" And then they could have their discussion. So I really liked that the opportunities were shared and presented, so it wasn't some sort of thing that happened in some kind of back room for the whole time. We unearthed the beginning of a plan. (00:10:31): I think sometimes when you convene people for a meeting to talk about anything, it's good to have a starting point. So we had this starting point, we had a variety of different things and I call it whiteboard reteaming in my book and I write about that. And there's even structures that are more open than that. Redgate Software in Cambridge UK. Chris Smith is a colleague of mine and they do regular open self-selection reteaming activities when they're changing their strategic priorities. He talks about this globally very interesting space and it's even more open than putting the names on the whiteboards. They have teams give pitches and this is what they're looking for and they have a whole method for enabling people to say, \"Hey, I'm interested in this.\" I think that really helps because sometimes you might think, \"Oh, no one's going to want to work on this.\" But people can be delighted by working on things that another person doesn't think are particularly interesting. (00:11:38): So giving choice is important. And again, there are different grades of transparency. We weren't up for doing this kind of open reteaming self-selection event, but we were open to the whiteboard variant.",
+   "zh": "我真的很喜欢重组过程中的透明度。在我的书中，斯波特尼（Spotify）的克里斯蒂安·利马（Christian Lima）讲述了他们如何重组一个大型基础设施团队的故事。他们将重组方案可视化地呈现于白板上，邀请团队成员到白板前查看领导层期望的未来团队架构，并收集他们的意见。我们受克里斯蒂安故事的启发，在普罗科尔（Procore）也尝试了类似做法，当时有约80人参与到这个从两个大型团队集群拆分成三个平台组织的重组中。我记得我们在后台办公室讨论了数周后，终于将白板推向公众视野——这对人们日常工作影响巨大，犹如有人提议做出改变或实施新举措时，人们往往会产生抵触情绪，急于了解其中的缘由。因此，我们需要共同鼓起勇气。\n\n（00:09:31）：我们推出了带有团队结构图的白板，上面标注着每个人的姓名、团队名称、各团队的招聘空缺数量，以及现有团队职位的成员名单。人们被邀请查看并提出反馈。他们指出了设计中的疏漏，例如“这个团队或许更适合放在这里”，还为同事创造了发掘内部机遇的机会——比如“我对这个职位感兴趣，能否考虑我？”通过这种方式，机遇得以公开共享，不再深藏于幕后。我们共同开启了重组计划的初稿。\n\n（00:10:31）：我认为召集大家开会讨论任何事项时，最好能有一个明确的起点。我们提供了这样的起点，并在书中将其称为\"白板重组\"。甚至还有更开放的模式，比如英国剑桥的Redgate软件公司。我的同事克里斯·史密斯（Chris Smith）在调整战略重点时，会定期举办开放式自选重组活动。他们让团队进行项目推介，明确需求，并制定机制让员工主动表达兴趣。这比仅仅在白板上写名字要高效得多。\n\n（00:11:38）：赋予选择权至关重要。透明度也有不同的程度。我们当时不具备举办那种开放式自选重组活动的条件，但至少推出了白板版本。",
+   "ts": "00:08:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I imagine individual employees hearing this of just being involved in the reorg strategy sounds amazing. Executives and leaders hearing this are probably really afraid and feel like there's no way this can work well. And so what I want to understand is how do you actually set this up for success? What I'm imagining when you do this is many people disagree. There's teams people want to join, there's teams people don't want to join. It seems like there's a consensus challenge where do you wait for everyone to agree? Does someone end up making a decision? Does it distract everyone from the work they're doing when you're kind of involving everyone in the reorg? Versus what typically happens, it secretly is planned amongst executives. No one knows it's coming. And I think the reason they do that is because they don't want to distract anyone and they don't want anyone to start freaking out until it's like, \"Here's the final plan. Here's what we're doing.\" So what other advice do you have for people that want to practice this way of reteaming and reorging where they involve the actual team in the plan?",
+   "zh": "我能想象，听到要参与重组策略的普通员工会觉得这听起来很棒。但高管和领导层听到这个消息，可能就会感到恐惧，觉得这根本不可能成功。所以我想了解的是，如何才能让这项重组真正取得成功？我能想象，在实施过程中会遇到很多分歧——有些团队成员想加入，有些则不愿意。似乎存在一个共识挑战：如何让所有人达成一致？最终会由某个人来做决定吗？当让所有人都参与重组时，会不会让大家分心于日常工作？相比之下，传统的重组方式通常是高管们私下筹划，直到最后才告知全体员工。我认为他们这样做的原因，是不想让任何人分心，也不想让大家在计划正式公布前产生恐慌情绪。那么，对于那些希望以让团队全程参与的方式进行重组的人，你们还有什么建议吗？",
+   "ts": "00:11:56"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "There's a book by William Bridges called Transitions: Managing Life's Changes. I have it right here. Making Sense of Life's Changes. He talks about endings, neutral zone, and new beginning. Ending: you're going through a change, your team is changing. Neutral zone: the period of kind of liminality where you're like, \"Gosh, I don't know how this is going to go.\" You're not quite comfortable. You're not quite in that new reality yet. You're still thinking about what it was like before. And once you're in that new reality and leaders can paint the vision and picture about the benefits of the new reality and the purpose and why we're here and anchor to that to try to raise positivity. But once I learned about that transition framework, going through any subsequent changes myself became a lot easier to grasp and it really kind of makes changes in any part of your life. I mean, his book is not written about software development or product development. (00:14:00): Sometimes we're going to have a say, we're going to be able to participate, sometimes we're not. And being clear on who the decision maker is in a change is really important. (00:14:11): There's another framework that I really like. I don't think it's in my book, but I've written about it in my new book, but it's called RIDE. And we had a chief people officer at Procore and she's now at UKG, Pat Wadors. She taught us the RIDE framework for decision making clarity and it's who's requesting the change, who can give input to the change, who's the decider on the change, and who's going to execute on the change? So it's like R-I-D-E. And I googled this for a while; I couldn't find anything on it. I encouraged her to write about it and I credit her to that, Pat Wadors. She's awesome. (00:14:53): So a lot of the times it's like, what's the problem you're going to solve? You have a current state and a future state and that future state might be up to discussion, but maybe it's not depending on what it is. You're getting acquired, you're probably not going to have a standup meeting and talk about should we get acquired or not? No, you're not part of that decision. And then how's the change going to get rolled out or how are we going to do it? (00:15:22): In other cases at the team level, maybe you have a retrospective and you determine, \"Hey, I think we'd be a bit more effective and we'd be able to deliver at a better cadence if we were two teams instead of one team.\" And if teams have the ability to talk about that and impact and have some agency into how their part of the org evolves and change, I think that could be really cool. I think that could be really empowering. I think that could help us feel more ownership in that company that we're in. It doesn't always have to be like decision making equals hierarchy or the person at the top. It doesn't have to be like that. (00:16:01): But again, reteaming is hard. Reorgs are hard. You can't lump them all into one thing with, oh, it's all great all the time. No, it's not. It's not. But anyway, we need to focus there. We got to focus on this people layer because reteaming is inevitable. We might as well get better at it because we're going to have to deal with it. If we could just build the software, deliver to the customer, get the product market fit, hey, have we delighted them or not? If only it could be that easy. No, we have the people layer. So let's focus there too.",
+   "zh": "威廉·布里奇斯（William Bridges）有一本名为《过渡：管理生活中的变化》的书，我手头就有这本书。书中探讨了结束、过渡期和新开端三个阶段。  \n**结束阶段**：你正在经历变革，或者你的团队正在变革。  \n**过渡期**：这是一个不确定的阶段，你会想：“天啊，我不知道接下来会怎样。”你既不适应现状，也尚未完全融入新环境，还在怀念过去。  \n一旦进入新环境，领导者需要描绘新现实的愿景，强调其好处和使命，并以此激发积极性。  \n但当我了解了这个过渡框架后，之后再经历任何变革都变得容易多了。这套思维模型适用于生活的各个方面。（00:14:00）：有时候我们能参与决策，有时候不能。明确变革中的决策者至关重要。  \n（00:14:11）：还有一个我非常喜欢的框架，虽然书中没有提及，但我在新书中有所阐述，叫做RIDE框架。Procore的前首席人力官帕特·沃德斯（Pat Wadors）教给我们这个框架，用于明确决策角色：谁提出变革，谁能提供意见，谁是决策者，谁负责执行？  \n（00:15:22）：很多时候，关键问题是：“你要解决什么问题？”你需要明确现状和未来状态。未来状态可能需要讨论，但也要视情况而定。比如被收购后，你不可能召开站会讨论是否该被收购？不，你不参与这个决策。那么变革如何推进？  \n（00:16:01）：团队层面可能需要回顾总结，发现：“嘿，如果我们分成两个团队而非一个，效率会更高。”如果团队能参与讨论，影响变革进程，赋予他们自主权，这会非常棒。  \n变革不一定等同于层级决策或高层拍板。  \n（00:17:18）：但团队重组确实困难。重组也不容易。不能把它们一概而论，说都是好事。这是不现实的。所以我们必须专注于人员层面，因为团队重组不可避免。我们不妨提高这方面的能力，毕竟总要面对它。",
+   "ts": "00:12:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On this transparent collaborative reteaming, final question here is just would you recommend time boxing this so that it doesn't suck up everyone's brain power for weeks and weeks and weeks? Or is it very dependent?",
+   "zh": "关于这种透明协作式的团队重组，最后一个问题是，你是否建议为其设定时间限制，以免耗费大家数周的精力？或者说这是否取决于具体情况？",
+   "ts": "00:16:37"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah, you got to time box it.",
+   "zh": "是的，必须设定时间限制。",
+   "ts": "00:16:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Is there advice you have on how long?",
+   "zh": "好的。那你对时长有什么建议吗？",
+   "ts": "00:16:52"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Make a schedule biased towards shorter as opposed to longer. You don't want to deliberate on this forever, because especially as you include more people, it can be distracting. So you want to proceed as expediently as you can.",
+   "zh": "制定一个偏向缩短而非延长的日程表。别让这个问题永远悬而未决，尤其是当团队成员增多时，容易分散注意力。所以要尽可能高效推进。",
+   "ts": "00:16:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, let's talk about the types of reteaming. This is kind of the core of your book and we haven't even gotten there yet. So you've identified there's five ways teams change. Can you just walk through them, help people understand what they are. And then also, we use this term reorg a lot in this conversation. I think that's the way most people think about change. After we go through this list, what does reorg refer to when it's maybe from the perspective of these five ways of teams changing?",
+   "zh": "好的，接下来聊聊团队重组的类型。这是你们书的核心内容，但我们还没深入探讨。你指出团队变革有五种模式，能否逐一讲解，让大家理解各模式的含义？另外，咱们在讨论中频繁提到“重组”这个词，我觉得这是大多数人理解变革的视角。回顾这五种模式后，从这五种团队变革模式的视角来看，重组具体指什么？",
+   "ts": "00:17:10"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Sure. Okay, so the five patterns of reteaming. One by one, someone joins your company or someone leaves your company, grow and split. It's a growth pattern. Teams grow bigger and then they split into two or more teams. Opposite of grow and split is merging. Sometimes two or more teams merge together. It's more of a shrinking pattern. We might be seeing more of this these days as companies downsize. Things merge together and consolidate. Isolation is, or innovation by isolation. Start a new team off to the side, a beneficial silo, give that team process freedom, great for catalyzing new product lines within your existing company. Also great for emergencies and they just happen anyway if we have incidents and people have to come together, solve an incident and then go back to their teams. And switching. So switching is moving from one team to another team. You can do this at a variety of cadences, short term, long term. (00:18:36): And then difference between a reteaming and a reorg. I think reorg is a word that has very traditional baggage and connotations. And when I was writing Dynamic Reteaming, it just didn't feel like an appropriate word to use for, well, Sue is looking to learn a little bit about how our web operations work, she's going to move to that team. It didn't feel appropriate to call that a reorg because Sue's moving and switching from one team to the next. I think reorg again... Reorganization is a traditional word. It implies on the large, it implies top-down changes that you have say no. It's something different than what I consider reteaming, which is these five patterns that happen at different levels.",
+   "zh": "好的。首先是团队重组的五种模式：新成员加入、老成员离职、团队壮大与拆分。这是壮大模式，团队规模扩大后分裂成两个或多个团队。与壮大模式相反的是合并模式，两个或多个团队合并。这属于收缩模式，近年来随着企业裁员，这种模式越来越常见。再说隔离模式，即通过隔离实现创新。组建新团队，作为有益的信息孤岛，赋予其流程自由度，有助于现有公司内催生新产品线，也适用于应急情况，比如处理突发事件后团队重组。最后是切换模式，即从一个团队转移到另一个团队。切换可以短期或长期执行。",
+   "ts": "00:17:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So let me just repeat back these five. So one by one, basically people joining your team, leaving your team, something very natural. People do all the time.",
+   "zh": "好的，我来复述一下这五种模式。首先是人员加入或离职，这是很自然的现象。",
+   "ts": "00:19:30"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Your company.",
+   "zh": "公司层面。",
+   "ts": "00:19:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Or your company, yeah. Growing, splitting a team gets really large and then it's like, okay, let's just split this into two, focus them on specific things instead of this one team trying to cover too much. Merging teams, the opposite of that. Isolation. I want to chat about that one a little more where you just have a team off to the side and they're just dedicated to something that you find really important. So with isolation, you have this awesome story of your time at a company called Expertcity, which turned into something people know most likely and ended up being a great outcome because of this reteaming into an isolation team. Could you talk about that?",
+   "zh": "或者说你的公司，嗯。团队不断壮大，规模过大时就得拆分，让他们专注于特定领域，而不是让一个团队承担过多职责。反之，合并团队则意味着隔离。我想多聊聊隔离策略——你让某个团队独立运作，专注于你认为至关重要的事务。说到隔离策略，你在Expertcity公司的工作经历堪称典范。当时该团队被分离出来，专注于某项核心业务，最终成就了非凡成果。能否跟我们分享一下这段经历？",
+   "ts": "00:19:39"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah, so I've been at different startups that have grown bigger and one of them, I was the 15th employee. I started as a web editor and became an interaction designer. And we were going to change the world and it was very exciting. We were in Santa Barbara, California. So the company's called Expertcity. And we were working on our first product, which was a marketplace for tech support. So imagine you have a problem on your computer, you can go to our website and then you can select an expert to see and control your screen to help you solve your tech support challenge. And so we had the screen sharing technology that we were inventing in the company. We had the web-based software to manage the interaction between the customer and the expert. We had the experts. We had in-house experts and then the vision was global worldwide experts. You were going to be like this marketplace, this eBay of services is what we talked about in the early days. I was really into this. (00:21:17): This was my first job in tech and I became an interaction designer working on kind of front-end UI flows with engineers. It's actually before the word interaction designer, my title was navigation designer. We made this up. So I was very into... It was before the words like UX and other things. People were talking about information architecture and other sub-genres of design. And we had individual offices. I had all the interaction flows on my walls. I was really into the words and one day I was in there and we were working on a new flow. We had all these hopes and dreams for this product and the CEO came into my office and he said, \"Heidi, stop working on the marketplace. We're not going to do that product anymore. We're killing it because nobody's buying it and made six bucks or something last month.\" And he said, \"Go to the beach.\" We were by Santa Barbara. I'm like, \"What do you mean go to the beach?\" He's like, \"Well, I don't want you to start any work that you're going to have to maintain later as we figure out our next step.\" And I was like, \"Okay.\" (00:22:29): I remember that day and I'm looking around my office and all these flows on the walls. So really these were domains like domain-driven design. It was all these web domains and which user interactions were going to happen and all these hopes and dreams and it was the first time in my career where we were told not to work on something. It wasn't paused. Some people say, \"Oh, we're going to pause this,\" and then they never get back to it. This thing was like [inaudible 00:22:59]. And I didn't get it. I just didn't get it. I cried, I acted out, I sent this email like, \"How can we kill the marketplace? It must live.\" It was quite an experience. (00:23:14): But then, and I don't know what the timing was, I was invited to be on this team off to the side and there was market validation going on. Our founders and product and others became students of market validation, Four Steps to the Epiphany. So we had built this thing, we spent all this time on this marketplace, but nobody would buy it. And so it was like do or die. We had to shift. This was before lean startup. So Four Steps to the Epiphany was the book, it was the manual, it was guiding the way. And so there were people that had a ton of conversations with potential customers about this new thing that we were going to build. (00:23:58): And so I was invited to be at this team off to the side and there was a small team and we didn't have to do waterfall software development. We were freed from that. We were liberated from that. We got to work in other ways. And I remember working with an engineer and we were figuring out how to create a forgot password flow because none of these patterns existed back then and we got to do this stuff. We got to deploy more frequently and the product was called GoToMyPC where you could see and operate someone's computer from a distance. And that was essentially the pivot that I feel like saved the company. Later we went on, we got folded back into the teams and we built GoToMeeting and GoToWebinar as a technical project manager at that time. So taking a team off to the side, giving that team process freedom. They didn't want us distracted from the drag. (00:24:58): When you're working on an existing product line, you get this cadence and it can become a mature cadence. Maybe people work in two weeks or one week now, but when you're working on something new, you need faster iteration loops. And our founders knew that need. So it was a privilege and I was delighted to be part of this other team and it was really, really exciting. So then looking back over the years, I was like, yeah, isolated teams, beneficial silos. Again, it's going against green of what some of these books say, oh, you want to desilo everything? No, sometimes there's a reason why you have a problem. You want to solve the problem. This was like, I mean, was this company going to go under? I didn't think of those kind of things at the time because I was just super into the work and very passionate and motivated about what we were building. But yeah, isolation pattern came up and we used it at another startup as well ever since. (00:25:59): So yeah, that's the story of Expertcity and from my perspective. Ask different people at different vantage points, but that... If we would've stayed within our teams and we would've had to develop with pixel-perfect mockups done in Photoshop like, \"Here you go,\" I don't think we would've been fast enough. That was not good for the innovation that we needed. So it's also like innovation by isolation. It's good for emergencies. I was at another startup, we had performance issues with our first product. People left teams, brought a consultant in, went into a conference room for a couple of weeks, figured out some major changes that needed to happen, solve them, went back to the teams. This is not a new concept. The Chicken McNugget was saved by an isolated team, SWAT team. (00:26:57): There's a book called Teamwork. It's an old book from, I think the '70s, I have in my bookshelf here, and there's a story of the Chicken McNugget that you can read about where they brought in a consultant and had a very small team who worked in a different... They didn't work in their same plant where they were developing the product. They worked in a different plant. They reported straight up to one of the executives at McDonald's. And yeah, the Chicken McNugget lived on because it was like having challenges in the test marketplace in Indianapolis. So we didn't make this up. It's just like some of these things are kind of like, \"Oh, it's like a noticing,\" and then you're like, \"Oh, that's pattern.\" So it's collection.",
+   "zh": "是的，我曾在几家发展壮大的初创公司工作过，其中一家公司我是第15位员工。我最初担任网页编辑，后来转任交互设计师。我们曾立志改变世界，那段时光非常激动人心。公司位于加利福尼亚州的圣巴巴拉，名为Expertcity。我们当时正开发首款产品——一个科技支持平台市场。想象一下，当你的电脑出现问题时，只需访问我们的网站，就能选择专家远程控制你的屏幕，帮助你解决技术难题。我们自主研发了屏幕共享技术，开发了基于网页的客户与专家互动管理软件，还组建了内部专家团队。最初的愿景是打造全球性的专家服务平台，堪称\"服务领域的eBay\"。我对此充满热情（00:21:17）。这是我在科技领域的第一份工作，当时我担任交互设计师，与工程师们共同负责前端UI设计。那个时候甚至还没有\"交互设计师\"这个职位，我的头衔是\"导航设计师\"——这是我们自创的称呼。当时人们谈论的更多是信息架构等设计分支，办公室里每个人都有独立的工作区，我的墙上贴满了交互流程图。我对设计术语如数家珍，有一天我们在讨论新流程时，CEO突然进来宣布：\"海蒂，别再开发市场平台了。用户不买账，上个月只赚了六美元。去海滩放松吧。\"（00:22:29）我至今难忘那一天——看着办公室墙上堆积如山的流程图。这就像域驱动设计的雏形，精心规划每个用户交互场景，承载着所有希望与梦想。那是我职业生涯中第一次被要求放弃一个项目。不是暂停开发，而是彻底砍掉。这与人们口中的\"暂停项目\"不同——那些项目往往半途而废。这次决策异常决绝。我哭了，情绪失控，发邮件抗议：\"为什么要砍掉市场平台？它必须活下去！\"这段经历刻骨铭心。\n\n（00:23:14）但不知为何，我被邀请加入一个独立团队，开始进行市场验证。创始团队研读《四步走创业法》，将所有心血投入这个市场平台，却始终难获认可。生死攸关之际，我们不得不转型。这比精益创业早得多，那本《四步走创业法》就是指引手册。团队成员与潜在客户反复打磨新产品概念，最终成功转型。\n嗯，我记得当时和一位工程师一起工作，我们正在研究如何创建一个忘记密码的流程，因为当时根本没有这样的模式，我们不得不自己摸索。我们不得不更频繁地部署产品，当时这款产品叫GoToMyPC，用户可以远程查看和操作他人的电脑。这实际上是拯救公司的关键转折点。后来我们被重新整合到团队中，以技术项目经理的身份参与了GoToMeeting和GoToWebinar的开发。当时就是把一个团队单独分出来，给予他们流程上的自由。他们不想让我们被日常琐事分心。\n\n（00:24:58）：当你负责现有产品线时，会形成一种固定的节奏，可能变成一种成熟的流程。但当你开发新产品时，就需要更快的迭代周期。我们的创始人深知这一点。所以能参与另一个团队对我来说是一种荣幸，真的非常激动人心。回首往事，我意识到，嗯，隔离团队是有益的，也是有利的壁垒。这与一些书籍所提倡的去除壁垒的观点相悖。有些书说要打破壁垒？不，有时候问题本身就需要隔离来解决。比如当时公司是否会倒闭？当时我并没有想太多，因为我全身心投入工作，充满热情和动力。不过隔离模式确实有效，我们在另一家初创公司也沿用了这一策略。\n\n（00:25:59）：所以这就是Expertcity的故事，从我的视角来看。不同的人从不同角度讲述，但这……如果我们一直待在原来的团队中，用Photoshop制作的像素级模型来开发产品，可能就无法跟上节奏了。这对我们所需的创新不利。所以隔离也可以促进创新。它适用于紧急情况。我在另一家初创公司时，我们的首款产品出现性能问题。有人离开团队，引入顾问，几个人在会议室里闭门数周，确定了需要调整的关键点，解决问题后再反馈给团队。这并非新概念。麦当劳的麦乐鸡就是由隔离团队——SWAT团队拯救的。\n\n（00:26:57）：有一本叫《团队合作》的书，是70年代的老书，我书架上就有。书中讲述了麦乐鸡的故事：他们引入顾问，组建了一个小团队，在不同工厂工作，不在开发产品的原工厂。直接向麦当劳高管汇报。最终麦乐鸡得以延续，因为在印第安纳波利斯的测试市场遇到了挑战。所以这些案例并非虚构，只是有些现象让人恍然大悟，然后意识到这就是一种模式。所以这就是模式的积累。",
+   "ts": "00:20:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's this idea of a startup within a big company. Everyone's like, \"Oh, it's just like the startup within a big company. We have all the resources that we need. There's no less risk, but we can innovate and try new things.\" Rarely does it feel like it work out. You're sharing stories where it does. Is there anything you found or any advice for how to actually be successful in this idea of having a team off to the side doing something innovative and different?",
+   "zh": "人们总有这样一种想法——在大公司内部创办初创企业。大家都会说：“哦，这不过是大公司内部的初创部门嘛。我们拥有所需的一切资源，风险虽不比初创公司低，但至少能创新尝试新事物。” 但这种模式很少能真正成功。虽然有些成功案例值得分享，但更多时候却事与愿违。对于如何让团队能在大公司内部成功开展创新和差异化业务，你有什么心得或建议吗？",
+   "ts": "00:27:39"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "At AppFolio we did this. So there's a company called SecureDocs; it branched off into its own company and it was just acquired, I believe in 2022. When SecureDocs was happening, I was not on that team. I was on the other teams and I was watching, and again, same pattern. A team was created off to the side and they were given process freedom. They worked in more of a daily sprint style as opposed to the two-week sprint style that our other teams were doing at the time at early AppFolio. And so, one, isolate the team or put them in a different area. We could still see them. We were in this big open room, but it was their team area. I mean we had these impermanent walls between some of the teams. It was their region and they claimed it and they named themselves. (00:28:58): And so, one, separate location. There's another story in the book about a team that incubated a product idea within Citrix and they were in a garage of all places, so they were really isolated. But just put the team in a different region, make it that area. That's number one. (00:29:17): Number two, tell other people not to disturb this team. That's key. And hearing it from a leader is really, really important. No, you're not going to pull them into something else. They're working on this other thing. So people need to shed their skin of the other things that they're working on. If you take a bigger picture, kind of forest through the trees picture, you want people pairing and switching pairs so they're not single owners of the system. So when they have an opportunity to do something that could be really important to the company beyond one of these isolated teams, they can fade out and not be the only owner that has to transfer knowledge and then field questions for two years on how that system works. You want to build this redundancy in your teams. So that's like if you really want to plan ahead, do that first. Have that as part of how you operate, building this team redundancy and switching, because then it frees people to not be the only owner of a system and chained to a system. (00:30:15): And so isolate them. Tell people not to bother them. Do pairing and have shared ownership so it's easier for somebody to switch into something like this. Process freedom. Again, they can do things differently. Ideally they report up to someone that really has decision-making authority and decisions won't get reversed. Or they have to go through some complex web of like, \"Is it okay if we do this?\" No, you need a clear decision-making structure. They saw that at the McDonald's case study as well, which is not in my book, but it's in [inaudible 00:30:52] book called Teamwork. (00:30:53): And then that group, having that senior leader that they report into, getting the clear lines of communication there is also really important. So not having this heavyweight bureaucracy of, I don't know, quarterly business updates where everybody's making a slide deck for two years before they go to that meeting, trying to relieve the team of things like that and make it lighter. (00:31:25): And some of these teams, like SecureDocs became another product at AppFolio that was very, very successful. At one point, I think it was before we went public, it branched off into its own separate entity. I think maybe they shared a board member or something. I don't know how that worked, but it became its own entity. SecureDocs became separate and then it grew from there. And then it became this wonderful successful product that was recently acquired. People come and go at companies and companies grow and change and morph, and that was one case of departures that it's like bitter, sweet. You're happy for your friends and colleagues say, \"Oh, he's going to be a CTO. He's going to be the CTO.\" (00:32:14): There's this entity. I remember visiting their office in Santa Barbara. It's great to see your friends succeed and thrive. And we developed other companies in that way.",
+   "zh": "在AppFolio，我们就是这么做的。有一家叫SecureDocs的公司，它分拆成了独立的实体，我记得是在2022年被收购的。当SecureDocs项目启动时，我并不在那个团队里。我当时在其他团队，但我观察到同样的模式。一个团队被单独分离出来，被赋予了流程自由。他们采用更类似于日常冲刺的模式，而不是我们当时在AppFolio早期阶段采用的两周冲刺周期。首先，要隔离这个团队或将他们置于不同的区域。我们仍能看到他们，但他们在一个大开放式房间里，但那是他们的团队区域。我是说，有些团队之间有临时隔断墙。这是他们的专属区域，他们据为己有，并为自己命名。（00:28:58）：所以，第一，分隔地点。这本书中还有另一个故事，讲的是Citrix内部一个团队孵化产品创意，他们竟选在了一个车库里，这样他们就被完全隔离了。但只需将团队置于不同的区域，划出他们的专属空间。这是第一点。\n\n（00:29:17）：第二，告诉其他人不要打扰这个团队。这很关键。领导层的表态至关重要。不要把他们拉去参与其他项目。他们正在做这项工作。因此，人们需要放下手头其他项目的包袱。如果从大局出发，透过现象看本质，你会希望团队成员进行配对合作和角色轮换，这样他们就不会成为系统唯一的所有者。当他们有机会参与对公司至关重要的项目，而非仅限于某个孤立团队的工作时，他们可以淡出不再是唯一的知识传承者和技术支持者，不必在接下来的两年里回答系统如何运作的问题。你需要为团队建立冗余机制。因此，如果你真的想未雨绸缪，先从这两点入手。将这作为团队运营的基本准则，建立团队冗余和轮换机制，这样人们就能更轻松地转换到新项目上。赋予他们流程自由。再次强调，他们可以采用不同的方法。理想情况下，他们向真正有决策权的人汇报，决策不会被推翻。或者他们不必经历复杂的审批流程，比如“我们这样做可以吗？”不，你需要清晰的决策结构。麦当劳的案例研究中也有类似的做法，虽然不在我的书中，但在[未录音00:30:52]的《团队合作》一书中有所提及。\n\n（00:30:53）：然后，让他们汇报的上级领导明确沟通路径也非常重要。不要有那种繁琐的官僚程序，比如季度业务更新会，让每个人为那次会议准备幻灯片长达两年之久，试图为团队减负，让流程更高效。\n\n（00:31:25）：像SecureDocs这样的团队最终成为AppFolio的另一个非常成功的产品。我记得在我们上市前，它分拆成了独立实体。我想他们可能共享董事会成员或其他资源。我不清楚具体运作方式，但它最终独立发展。SecureDocs分离后得以发展，最终成为最近被收购的成功产品。公司里人来人往，公司不断壮大……\n变迁与蜕变，这就是离别的一种形式，既有苦涩，也有甜蜜。当你为朋友和同事感到高兴时，他们会说：“哦，他要当CTO了。他要成为CTO了！”（00:32:14）。这家公司至今仍在运营。我记得曾去过他们位于圣巴巴拉的办公室。看着朋友们取得成功、蓬勃发展，这种感觉真是棒极了。我们也正是以这种方式，助力了其他公司的成长。",
+   "ts": "00:28:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. I think it's really nice to hear there's many success stories of this idea of a mini little startup within a company, and these are really good tips. (00:32:37): This episode is brought to you by Ahrefs. Many of you already know Ahrefs as one of the top tools for search engine optimization. It's used by thousands of SEOs and companies like IBM, Adidas and eBay. What you may not know is that there's a free version that was made with small website owners in mind. It's called Ahrefs Webmaster Tools. It's free and it can help you bring more traffic to your website. Ahrefs Webmaster Tools will show you keywords that you rank for and back links that you can get. It also performs automated site audits to find what issues prevent your website from ranking higher on Google. Every detected issue comes with a detailed explanation and advice on how to fix it. Visit ahrefs.com/awt, set up a free account, connect your website and start improving it. That's A-H-R-E-F-S.com/awt. (00:33:27): I feel like to me one of the most important ones you've talked to. And this is having an executive essentially sponsoring this team and supporting and protecting it versus some managers just like, now we're going to go do this off to the side, because otherwise no one's going to really take that seriously.",
+   "zh": "太棒了。听到公司内部开展小型创业项目的成功案例真是令人欣喜，这些建议也非常实用！（00:32:37）本期节目由Ahrefs赞助。相信大家对Ahrefs并不陌生，它是搜索引擎优化领域的顶级工具之一，已被数千名SEO从业者及IBM、阿迪达斯、eBay等公司广泛采用。但你可能不知道，Ahrefs还推出了专为小型网站所有者设计的免费版——Ahrefs Webmaster Tools。它能免费帮助你提升网站流量，提供关键词排名及反向链接分析，并通过自动站点审计发现阻碍网站在谷歌上获得高排名的潜在问题。每个问题都会附带详细解释及优化建议。访问ahrefs.com/awt，注册免费账户，连接你的网站并立即优化。（00:33:27）在我看来，您提到的其中一个最重要模式是高管对团队的支持与保护，而不是某些管理者将其视为可随意搁置的项目，否则没人会真正重视。",
+   "ts": "00:32:28"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah, I think that's really, really important. I'll also say that things don't always succeed a hundred percent. I've seen isolated teams within companies where someone has the opportunity to sell something, they talk to their friends who are the engineers who build the feature for them, but then it leaves something for other people to maintain later and they weren't involved in the decisions. And it can be a big mess for all of these patterns there. It's like kind of like balconies and basements. You can screw it up too. It's not all stuff is hard. That's why I like to lean into it and I've written about it. Things take effort. The tree is going to drop the leaves and you got to sweep them up. Everything takes work and effort.",
+   "zh": "是的，我认为这确实非常重要。我还要说，事情并非总能百分之百成功。我见过公司内部的孤立团队：有人有机会销售某项产品，便找来负责开发该功能的工程师朋友讨论，但随后却将维护工作留给其他人，而他们自己并未参与决策。这种模式可能引发严重混乱，就像 balconies and basements 的比喻，处理不当会引发一系列问题。并非所有事情都很难，这就是为什么我乐于深入探讨并撰写相关内容。树叶会掉落，你必须及时清理，一切都需要付出努力。",
+   "ts": "00:33:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We've talked about the isolation pattern. I thought it'd be good to talk through the rest of the patterns real quick and share maybe one or two tips for how to be successful or make it work well or better.",
+   "zh": "我们已经讨论了孤立模式。我想快速回顾其他模式，并分享一两个成功秘诀或优化建议。",
+   "ts": "00:34:33"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Sure.",
+   "zh": "当然。",
+   "ts": "00:34:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before you start, actually, I think I missed a nuance and you corrected me, but I think I missed it, which is for the one-on-one pattern, it's actually describing joining the company specifically not joining a team. Is that right?",
+   "zh": "实际上，开始之前，我觉得我漏掉了一个细节，您还纠正了我，但我确实遗漏了。关于一对一模式，它实际上描述的是加入公司而非加入团队。是吗？",
+   "ts": "00:34:46"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah. And in the book it might be a little blurred because this is like some of the... Switching and one by one sound very similar, and they do have some Venn diagram overlaps, but I'll distinguish them as I talk about them.",
+   "zh": "是的。书中可能有些模糊之处，因为“Switching”和“One by one”听起来很相似，它们确实有一些维恩图重叠，但我会在讲解时区分它们。",
+   "ts": "00:34:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool.",
+   "zh": "好的。",
+   "ts": "00:35:11"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "So one by one, someone joins your company or they leave your company. So the tip with one by one is when someone joins, help them feel a sense of belonging, and you can do that through not having their first day be them sitting over there alone. You could have someone have a first pair. There's a chapter in my book about onboarding. This is in the space of onboarding. Also with one by one, when people join, you also need to pay attention to the people who are already there and it's good for them to know when someone is joining the company; that it shouldn't be a surprise. So visualizing the hiring and the opportunities is something that I think is a really good idea. It could be challenging for someone if somebody joins and they become their manager, but what if that person wanted to be the manager and then they brought in someone from the outside to become the manager? (00:36:08): So you need to pay attention to the new hires that are joining, help them feel a sense of belonging, get them to talk about themselves, which is said to increase their sense of connection and retention. There's some research in the book The Culture Code by Daniel Coyle, which talks about that. But then it's also important to coach the people through change that are already at the company, especially if they weren't involved in the particular decision, bringing on this new leader that comes in and brings in all their people. So you got to pay attention to different people. (00:36:45): Grow and split is a natural thing that happens when you're like startup scale up and growing bigger and bigger. The first team probably grows bigger and then splits into two or three. So when the team gets bigger, facilitation and communication tends to break down. So some signals that teams might bring up when they feel like a change might be helpful is the meetings are taking longer. You're in that case where it's harder to make decisions. It was easier when there were like five of us, but now they're 13. The work becomes divergent. They're working on this one thing, they're working on something else. No one's paying attention in the standup so much anymore because this work has diverged. And those are a few of the signals. And then someone typically brings it up. If you normalize the idea that it's okay for teams to have input into their future structures, maybe they'll bring it up and decide that, \"Hey, it might be better if we split.\" (00:37:52): Sometimes splitting though can create dependencies that weren't there when you were together as one team. So you inherit other problems or you might inherit challenges like, all right, the team decides it's far effective if they split into two or three, but we just have one product manager, we just have one designer. We just have one person who helps us anticipate quality challenges. So it's a lot of problem trading when you do a lot of this stuff. Like anything, you have a challenge, how might we solve it? Well, there's option A, option B and option C. So that's grow and split and it's very common I think when your company is growing and changing, kind of like that. (00:38:37): Merging is the opposite of grow and split. Two or more teams combine together. Or at a higher level, a company acquires another company and then there's a merging that happens. So merging I think is related to when companies downsize or shrink, things consolidate, come together, or again, when at the company level companies combine, one acquires another, gets acquired. How that goes down varies, but there's this concept called panarchy that I write about in my book that a lot of these changes is changes at the individual level, the team level, the team of teams level, department level, the company level. So yeah, merging. So there's a business decision that the companies merge together and then changes might ensue. (00:39:28): So maybe the company wants to get ahead on building and having another vertical in their SaaS company. We acquired a company at AppFolio to bring us faster into workflow software for law firms. So we acquired a company based in San Diego, and that got us a couple of years ahead. I remember one of the leaders saying that. So again, we weren't involved... I wasn't involved in this decision as an IC at the time. So it could be a business decision for merging at that level. It could be that people leave, there are departures and teams and responsibilities consolidate together. That's merging. So it could be that kind of shrinking that we're seeing. It could be that the company is having one leader instead of three and there's a consolidation and the teams kind of merge together. So it's the opposite of grow and split. (00:40:23): One activity I do like to do with teams that merge is called story of our team. That's in chapter 13 of the second edition. So with story of our team, each team makes a timeline of... They stand in order of when they joined their team and they make a timeline with milestones of when they joined their team, when people left, and significant events and things they created that they're excited about and that they're proud of. And that they branch together with their newly merged team, and then it's good to get a shared sense of history. So you have these teams or companies that come together, they make shared timelines, they share their milestones and things that they built that they're proud of. They tell each other about it and then they have a sense of like, \"Wow, we didn't know that. Oh, I didn't know that you had built a system like that. We did too.\" Or, \"We've never built anything like that. That is so cool. What did you learn from that?\" We get to learn about each other and then we're together. We're like, \"All right, we're this merged entity now. What's next?\" Looking out to the future so we have the same shared vision. So I love doing that. There's different tactics you can do before, during, and after each of these patterns. Yeah, that's merging. (00:41:46): Isolation we talked about before. Put the team up to the side, give them process freedom, have them report up to a decision maker, tell the other teams not to bother them. Let them work at the cadence that they want to work at. That makes it easier. If you are doing a short-term thing, you got to work it out with the larger entity so you don't create something in isolation that other people have to maintain. There's ways that this can be messed up. (00:42:15): And then switching. Switching pattern is really tied to learning and development and fulfillment. It could be that you want to work with other people. Like forming, storming, norming, performing, Tuckman's model, he forgot the phase called stagnating. Sometimes it feels like we're in a team for too long. We're tired of working with these people. We want a little variety. We want to work with that person over there. Or maybe we want to work on a new system. We don't have the opportunity to do that in our current team, but what if we could work on that system over there with those people? It could totally refresh us. It could be like having a new job within our same company. It could extend the lifespan of the amazing employee in your company. So switching is tied to that kind of fulfillment, which is one of the reasons why I made it separate from one by one and tied that to the company. (00:43:11): The other thing with switching is that you could create safety nets in your company through switching. I just wrote a newsletter post about this yesterday because maybe we're going to have some more changes this year. Maybe companies are going to be hiring less. I don't like the thought of companies downsizing or having layoffs or anything like that, but I think to myself, well, have multiple owners of a system. So not only one person is that tower of knowledge that owns that one system. There's some stories in my book where I interviewed Richard Sheridan, who is the chief storyteller and co-founder of a wonderful company called Menlo Innovations in Ann Arbor, Michigan. They built their company Menlo to have people work in pairs. Not just the software engineers; team members work in pairs and they switch pairs at a regular cadence. And you know that when you're joining the company because you're involved in some kind of pairing. So there's parity from when you're interviewing to when you're at the company. (00:44:14): But switching also helps build that knowledge redundancy in your company. A little more about tolerance. So if someone leaves, they don't leave with all the information in their head. We had that. At that first startup Expertcity, we had some single owners of systems and when they left, it just becomes a challenge and a setback. And at AppFolio we shared a founder between the first startup and the second startup. Many of their early engineers from that first startup went to the second startup. (00:44:50): I was 10th at AppFolio. I was 15th at Expertcity. So we wanted to work together. So it was that global idea of switching one by one or similar. But anyway, at the second startup we had the chance to do things differently. So we had pairing and switching pairs and test-driven development. We had help to do that, but this kind of redundancy built safety into our systems, especially when AppFolio is processing a lot of rent payments. There's a lot of money. There's ACH going through. Those are critical systems and it's very important that things are safe and secure. You don't want to haphazardly switch people around. You can screw this up, again, that balconies and basements concept. You don't want somebody over here, they will switch every two weeks and have no say in their team. There's ways to screw all of this up, but there's other ways to do it well. (00:45:48): I remember when we were at our first team at AppFolio and we did a grow and split. It grew and it split into two or three teams. I remember there was a loss for some of the engineers who wanted to pair program with some of the other engineers, and they started a regular rotation themselves from one team to the next, and that brought fulfillment. It brought joy. I mean they would see each other in the workspace every day, but they wanted to work together. It brought them learning joy and fulfillment, and I love that. For those who are like keep the team stable and the same forever, I'm like, \"Well, what about that?\" It brings me satisfaction and joy when I see my colleagues. It's like autonomy, mastery, purpose, like Dan Pink's book Drive, when people are really given some agency and the opportunity to work a little bit differently than maybe that traditional boxed version you might see on my bookshelf. You can really create not only products that people love, but companies that people love and want to be at.",
+   "zh": "因此，员工陆续加入或离开公司是常态。在处理这种情况时，关键在于让新人感受到归属感。这可以通过避免他们在入职首日独自坐在角落的方式实现。比如，可以安排新人与老员工搭档。我的书中有一章专门讲入职流程，这正是入职管理领域的核心内容。此外，新人加入时，还需关注已在岗员工的感受，让他们提前知晓新人加入的消息，避免让他们感到意外。清晰传达招聘信息和发展机遇至关重要，尤其是当新人加入后成为他们的直属上级时，这可能引发管理层动荡。\n\n（00:36:08）：新人入职时，要帮助他们融入团队，鼓励他们自我介绍，这能增强归属感和留存率。丹尼尔·科伊尔《文化密码》一书中提到相关研究。但更重要的是，要为已在岗员工提供过渡指导，尤其是当他们未参与引入新领导层的决策时。需要关注不同群体的需求。\n\n（00:36:45）：随着公司发展壮大，团队自然会经历成长与分裂。最初的团队可能壮大后分裂为两到三个小组。团队规模扩大时，沟通与协作效率会随之下降。团队感知到变革需求的信号包括：会议时间延长、决策困难、工作分散等。此时，通常会有人主动提出解决方案。如果让团队参与未来架构设计，问题就能得到有效解决。\n\n（00:37:52）：但分裂可能带来依赖性问题，如团队分裂后发现资源不足。例如，原本一个产品经理、一名设计师、一名质量把控专员等职位分散后难以满足需求。这种权衡需要谨慎处理。\n\n（00:38:37）：合并是分裂的反向操作。多个团队整合或公司收购其他公司都会引发合并。合并通常发生在公司缩减规模、资源整合或公司层面的战略调整时。其复杂性需要用A、B、C方案来拆解。\n在我的书中，这些变化大多发生在个人层面、团队层面、团队的团队层面、部门层面和公司层面。所以，是的，合并确实存在。公司决定合并，随后可能引发一系列变革。（00:39:28）：比如，公司可能希望在SaaS领域拓展新垂直市场。我们收购了AppFolio公司，得以更快地进入律师事务所工作流软件领域。我们收购了位于圣地亚哥的公司，这为我们提前了几年布局。我记得当时有位高管提到过这点。当时我作为个体贡献者并未参与此决策。所以合并可能是基于商业考量。合并可能导致人员离职、团队与职责整合。这就是合并的本质。（00:40:23）：对于合并团队，我喜欢开展一个名为“团队故事”的活动。这在第二版第13章中有详细介绍。通过这个活动，各团队成员按加入团队的顺序排列，制作时间线图，标注加入团队的关键节点、人员离职的时间点，以及团队自豪感满满的成果。随后，新合并的团队会将这些故事融合在一起，共同建立共享的历史认知。通过这种方式，合并后的团队能更好地理解彼此，分享经验，激发灵感。我们会发现许多共同点，比如“原来你也开发过类似系统！”或者“我们从未尝试过这种方法，太酷了！”通过这种方式，我们能更好地协同工作，共同展望未来。（00:41:46）：隔离策略我们之前已经讨论过了。将团队暂时隔离，赋予其流程自主权，让他们向决策者汇报，并告知其他团队不要打扰他们。让团队按照自己的节奏工作。这样能让工作更高效。如果是短期项目，需要与更大规模的组织协作，避免孤立开发无法被其他团队接手。这种做法可能存在隐患。（00:42:15）：转换模式与学习、发展和成就感密切相关。可能是团队成员希望与其他人合作，比如经历组建、冲突、规范、执行等阶段。塔克曼模型中遗漏了停滞阶段。有时团队合作时间过长，成员感到厌倦，渴望新鲜感，想要与其他人合作开发新系统。若当前团队无法实现这一愿景，或许可以与其他团队合作开发新系统。这能彻底激发团队活力，就像在同一公司内换一份新工作一样，能延长优秀团队的生命周期。\n你们公司的一名员工。所以，轮换制度与这种成就感息息相关，这也是我将其与逐个轮换分开，并将其与公司层面相联系的原因之一。（00:43:11）：轮换制度的另一个好处是，公司可以通过轮换机制建立安全保障网。我昨天刚写了一篇通讯文章，谈到今年可能会有更多变革，企业或许会减少招聘。我不愿看到公司裁员或裁员，但我会想，嗯，建立多个系统所有者，这样就不会有一个人成为某个系统的知识孤岛。我的书中提到，我采访了理查德·谢里丹，他是密歇根州安娜堡Menlo Innovations公司的首席故事讲述者和联合创始人。他们建立的Menlo公司，要求团队成员以两人为一组进行协作，并定期更换搭档。当新员工加入公司时，他们就参与到这种协作模式中。所以，从面试到入职，整个流程都保持着这种平等性。（00:44:14）：但轮换制度还能为公司建立知识冗余。再谈谈容错能力。如果有人离职，他们不会带走所有知识。我们在第一家初创公司Expertcity时就遇到过这种问题，系统所有者离职后，整个团队陷入混乱。AppFolio公司则在第一家初创公司和第二家初创公司之间共享创始人团队。许多首家初创公司的早期工程师都加入了第二家初创公司。（00:44:50）：我在AppFolio是第十号员工，在Expertcity是第十五号员工。所以我们希望协同工作。这种全球性的轮换理念类似于逐个轮换。但无论如何，第二家初创公司给了我们机会进行创新。我们引入了搭档机制、轮换搭档以及测试驱动开发。我们有专业团队支持，但这种冗余机制为我们的系统注入了安全保障，尤其是在AppFolio处理大量租金支付时。涉及巨额资金，ACH转账系统至关重要，必须确保系统安全可靠。不能随意调换人员，否则会导致系统故障，陷入“阳台与地下室”的困境。不能让某人每两周轮换一次，却对团队没有话语权。这种做法可能会搞砸一切，但也有正确的实施方式。（00:45:48）：记得在AppFolio的第一个团队时，我们进行过团队扩张和拆分，最终分成两三个团队。我记得有些工程师想与其他工程师搭档编程，他们自发形成定期轮换机制，从一个团队到另一个团队，这带来了成就感和快乐。他们每天在工作区见面，却渴望一起工作。这种学习的快乐和成就感让我着迷。对于那些想让团队永远稳定不变的人，我会说：“那又怎样？”当我看到同事时，内心充满满足和喜悦。这就像丹·平克的《驱动力》一书所提倡的自主、掌控和目标感，当人们获得一定自主权，有机会以不同于传统模式的方式工作时，你就能创造出不仅受人喜爱的产品，更能打造出卓越的公司。\n人们热爱并渴望身处其中的地方。",
+   "ts": "00:35:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All these stories of team changes and reorg, it made me think about a quote that one of my managers always used to say about reorging and changing teams is that there's no perfect org structure. There's only the best idea you have at the time for what the org could be. And then there's the issues with that org that you identify as you're putting in place and then set up processes and systems around to try to catch that dependencies, as you said, or overlap of ownership. Is there anything along those lines that comes up of just things you found of just like, there's never going to be the perfect way to do it. This is just our best idea at the time and here's how we deal with the downsides of this approach?",
+   "zh": "所有这些关于团队变动和组织重组的故事，让我联想到我的经理常说的一句话：没有完美的组织结构，只有你当时能想到的最佳方案。随后，在实施过程中，你会发现组织中存在的问题，并据此建立流程和制度来解决依赖关系或权责重叠等问题。你有没有遇到过类似的情况？就是永远没有完美的解决方案。这只是我们当时能想到的最佳方案，然后我们再想办法应对其缺点。",
+   "ts": "00:47:03"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah, I think there's a lot of wisdom to what your manager said and your colleague there because yeah, I mean as time goes on, conditions change. We evolve and change. We're subject to different influences. COVID happens. We weren't dealing with that 10 years ago. We grow and adapt and morph. We try to get together and make the best decisions that we can when we're faced with challenges, and a lot of it is problem trading. We have this challenge today. We decide, oh, there's a few ways we could handle this. Pros and cons of each solution. It's like the Toyota Kata, like grasp the current condition. You'll experience you have challenges. What's the next evolution or the next target condition? How might you get there? And then you're there and you're like, okay, grasp the current target condition. What's it like? What are you experiencing? Oh, we might try this. We're always transforming from the current state to the future state. (00:48:54): So to that, I would ask people, well, how do you want that to be? And how do you want to show up and be as a leader? You want to just be like, \"All right, I've got to get this done. The reorg is done by an email and we're just sending it out, or this small team change. And here it is; it's done. Goodbye.\" Or is it a little bit where you get people's input? And that in itself, you got to weigh what you're dealing with, again. But I like to think about that. What kind of leader do you want to be? Leaders need patience. It's hard to be a leader. It's challenging, but what kind of an environment or vibe do you want to cultivate in your teams and what do you want the people to be like? (00:49:42): I have a degree in teaching English and applied linguistics, and I remember studying Paulo Freire and other educational problem-posing methods of education. We have these teams that solve these complex problems and challenges and build these really cool things for customers. Let's involve them in some of the org decisions that are going to be part of their daily life. Really, you like that idea. Again, it's not perfect. You can't involve people on everything, especially if they're wide-scale changes that you just can't.",
+   "zh": "是的，我认为你的经理和同事说得很明智。毕竟，随着时间推移，环境会变化，我们也会随之发展和调整，受到各种因素影响。比如新冠疫情，我们十年前可没遇到过这些挑战。我们不断成长、适应和变革。当面对挑战时，我们会集思广益，权衡各种解决方案的利弊。这就像丰田KATA管理法——先把握现状，发现问题，设定下一个目标状态，再思考如何达成。完成一个阶段后，再审视当前状态，发现新的挑战，如此循环往复。\n\n(00:48:54)：回到正题，我想问大家：你希望自己成为怎样的领导者？是那种下达邮件通知重组完成就拍拍屁股走人的领导，还是愿意倾听员工意见的领导？这需要根据实际情况权衡利弊。但我更想探讨：你想成为什么样的领导者？领导者需要耐心，任重道远。但你希望为团队营造怎样的氛围，培养怎样的员工素质？\n\n(00:49:42)：我有英语教学和应用语言学学位，还研究过保罗·弗莱雷的教育行动研究法。我们组建的团队需要解决复杂问题，为客户创造价值。为何不让他们参与组织决策呢？毕竟，决策会直接影响他们的日常工作。但这并非完美方案，无法让所有人参与所有决策，尤其是大规模变革时。",
+   "ts": "00:47:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Along these lines of doing things badly sometimes, you have this whole section on anti-patterns of reteaming. I think there's about five of them. I don't know if you have these all top of mind, but if you do, I'd love to hear some anti-patterns.",
+   "zh": "说到做事不当的问题，你提到的重组反模式清单有五个。我不知道你是否都记得，但如果记得的话，我很想听听你的见解。",
+   "ts": "00:50:19"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah. Well, one of them is people always think that reteaming is, you have a pool of people and you're assigning them to a bunch of different projects like, \"Okay, you'll work 10% on this one, 5% on this one, 20% on this one. We are going to allocate the resources from our component-based teams into these different projects.\" We did that in Waterfall like many years ago, but that doesn't really work. A lot of the times the percentages don't add up. It's very hard for people to multitask and be involved in multiple efforts at once. It's hard for the brain with all the context switching that needs to happen in that case. So I call that the percentage anti-pattern. (00:51:15): There's also, I probably wrote about it like, poof, they're gone or suddenly they're here. Reteaming or having people suddenly show up and you weren't expecting them or suddenly they're gone and there's no communication around it whatsoever, that's another anti-pattern.",
+   "zh": "是的。嗯，其中一个误区是，人们总以为重组团队就是把一群人分配到不同的项目中：比如，“好吧，你在这个项目上投入10%的精力，这个项目5%，再那个项目20%。我们要把基于组件的团队的资源分配到这些不同项目中。”多年前我们在瀑布式开发中就这么做过，但这根本行不通。很多时候，分配比例加起来根本对不上。人们很难同时处理多项任务、参与多个项目。大脑在这种需要频繁切换上下文的情况下会非常吃力。所以我把这叫做“百分比反模式”。\n\n（00:51:15）：还有，我可能写过类似的例子，比如他们突然出现或消失。重组团队，或者有人突然加入而你毫无预料，或者他们突然离开却毫无沟通。这也是一个反模式。",
+   "ts": "00:50:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One of the ones I love is this idea of spreading high performers. This idea of we're going to spread the high performers across other teams.",
+   "zh": "我特别喜欢的一个想法是，分散高效团队。就是把高效团队分散到其他团队中去。",
+   "ts": "00:51:32"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "That's an AppFolio story. Jon Walker was telling me back in the day that... I mean, he did this experiment. He had this thought that many of... There's one team that was like, I guess they were delivering at this cadence that they loved and they were building this stuff and there's this energy and you can almost feel it. Like let's just spread the people from that team across the other ones and then we'll have that. And it didn't work. He didn't have that. It didn't happen. And that was a visceral learning for him that it doesn't essentially work. And people are like, what does it take to be a high performing team? What does it take to have that magical team experience where there's that chemistry and the people are together? And there's stories in the book. Damon Valenzona was telling me one about how it's like's a band and we're with off each other. We're creating this music together. So John felt like he essentially destroyed that when he split up that team. So that's the story that inspired that anti-pattern.",
+   "zh": "这是一个AppFolio的故事。乔恩·沃克以前跟我讲过……我是说，他做过这个实验。他有个想法，认为很多……有一个团队，他们以自己喜欢的节奏交付项目，充满活力，你几乎能感受到那种氛围。然后他就想，把那个团队的人分散到其他团队中，就能复制那种氛围。但结果并不理想。他没能做到。根本没成功。这对他来说是个深刻的教训，说明这种做法根本行不通。人们会问，要成为高效团队需要什么？要拥有那种神奇的团队体验——成员之间默契配合、齐心协力——需要什么？书中还有很多故事。比如达蒙·瓦伦佐讲过一个乐队的故事，成员们相互磨合，一起创作音乐。所以约翰把那个团队拆分后，就把那种化学反应彻底毁了。这就是那个反模式背后的故事。",
+   "ts": "00:51:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The reason people are worried about reteams and reorgs is this... A lot of times it's exact reason that you just shared, which is our team is amazing. I don't want it to change. I don't want to split. I don't want to add anyone. I don't want to remove anyone. I guess is there anything else along those lines to help people feel better about, no, this is actually going to be okay and/or it's inevitable. It's not going to last.",
+   "zh": "人们对重组团队和架构调整感到担忧的原因……很多时候就是你刚刚提到的那个原因——我们的团队太棒了。我不想让它变。我不想拆分。我不想加人。我不想裁人。有没有其他类似的理由能让人们安心点，觉得“其实没关系”或者“这是不可避免的”。反正这种状态不会持久。",
+   "ts": "00:52:49"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I think sometimes you have that awesome team situation. It's an enjoyable experience. People are learning. You're looking forward to it every day. You're delivering the stuff that people love. You're telling people what's going on. You have that matched expectation where people aren't breathing down your neck because it's late or something. Sometimes you want to keep that team together. You don't want to destroy that dynamic. But the thing is, maybe that's a small startup that grows and you need to grow because you have a bigger vision and it needs to be more than these 10 people. And so there is sometimes this feeling of loss, like, \"This is our company. This is my experience at this company of 10 people, but suddenly we're 20 people. It doesn't feel the same like it did anymore and it feels different.\" (00:54:05): And people, they always ask the question, \"How do we maintain our culture? It feels different than it was before.\" The thing is, it is different, and our companies go through stages. The company of today is not the company it was a year ago. The people turn over and change, what we work on turns over and change. The whole world and industry and global events change and put different pressures on us, and we got to live in this global context. So nothing lasts. Sometimes I have a picture of myself holding an ice cream cone that's melting. Not to be a total downer, but appreciate it when you're on a team and you love it and it's amazing because these are our lives and we have to have gratitude and appreciate what we have because naturally things evolve and change. It's just inevitable. So we appreciate what we have. (00:55:07): A lot of us can look back on our careers and remember those times when we were, in my case, skipping through the halls because I was so happy. And I was like I couldn't even tell you. Well, why was I skipping through the halls at that moment? What was it? Well, it was the people and the conditions and what we were doing and the time, the era almost because yeah, it does change. (00:55:30): There's a book by Ichak Adizes called Managing Corporate Lifecycles. It's one that many of us read for years at AppFolio, maybe the previous company as well. The Adizes Institute influenced some of our leaders and they influenced us with this. And it talks about the different stages of companies from birth. There's go-go stage, maturity, death of companies. These are like lifecycles. The company grows and changes and morphs and changes. The people in the teams do that as well. I have an ecocycle in my book where I talk about that kind of aging and changing. Then there's a disruption and you have a new beginning. We're part of these stories that are in progress. This is not an unchanging, unmoving entity that we work in. So just be kind to each other, enjoy your experiences and learn as much as you can.",
+   "zh": "我觉得有时候你会遇到那种超棒的团队氛围。这是一种令人愉悦的体验。大家都在学习成长，每天都满怀期待地投入工作。你交付出让用户喜爱的成果，及时沟通项目进展。团队成员之间心意相通，没有人因为项目进度紧张而催促你。有时你真想让这样的团队一直保持下去，不愿打破这种默契。但问题是，或许这只是初创阶段的小团队，随着公司发展壮大，团队必须扩容，以实现更宏大的愿景。这时就会产生一种失落感——“这曾是我们的公司，我在这家十人团队的经历如此美好，如今却多了十个人，一切都变了样。”（00:54:05）  \n人们总会问：“如何维持企业文化？为什么感觉和以前不一样了？” 事实上，文化确实会随时间变化。如今的公司已非一年前的模样，人员流动、工作内容更迭、全球环境与行业变革都给我们带来了新的压力。我们必须顺应时代大势。没有什么是永恒的。有时我会想象自己手握正在融化的冰淇淋——不是要扫兴，而是要珍惜当下：当你身处热爱且出色的团队时，请感恩这段时光，因为人生如逆水行舟，自然会有新旧交替。这就是生命的轮回。（00:55:07）  \n回顾职业生涯，许多人都能记起那些快乐的时光——比如我在走廊上雀跃欢呼的场景。当时的喜悦难以言表。为何我会如此兴奋？答案在于团队成员、工作环境、时机、时代的共同作用，改变是不可避免的。所以，珍惜当下吧！（00:55:30）  \n伊夏克·阿迪齐斯的《企业生命周期管理》一书对我们影响深远。阿普福利公司乃至前东家都将其奉为经典。阿迪齐斯研究所的理念影响了我们的管理者，也感染了我们。书中描绘了企业从诞生到消亡的不同阶段，这就像生命的轮回。企业在成长中不断蜕变，团队成员亦是如此。我的《生态循环》一书中也探讨了类似的迭代与更新。然后，当变革来临时，新的篇章又将开启。我们身处一个不断演进的故事之中，没有什么是永恒不变的。所以，请善待彼此，享受当下，尽可能多地学习与成长。",
+   "ts": "00:53:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me of advice Sheryl Sandberg shared when she came to the Airbnb offices. Someone asked her: \"What advice do you have to deal with all this constant change?\" Like the quote I shared at the top of the episode of every six months, there's a massive reorg. Our culture's changing. Teams keep changing. It's constant flux. What is your advice to deal with that? And her advice was: That is good. The fact that you're growing so fast and having to change is the best case scenario because the alternative is you are not growing and it's much harder and much more painful because the changes are much harder. People get let go. Your business may go away. So her advice is just, this is good. Change means things are... And growth leads to change, especially hypergrowth, and that you should appreciate this time versus be afraid of it and think that it's a negative.",
+   "zh": "这让我想起谢丽尔·桑德伯格（Sheryl Sandberg）来Airbnb办公室时分享的建议。有人问她：“面对这些持续的变化，你有什么建议？”正如我在本期节目开头分享的名言，每隔六个月就会有一次大规模的重组。我们的文化在变，团队不断更迭，变化永无止境。你对此有何建议？她的回答是：这很好。你发展如此迅速，不得不应对变化，这是最佳情形，因为另一种情况是停滞不前，变化就更痛苦了。人们会被裁员，业务可能倒闭。所以她的建议是：这很好！变化意味着事物在发展……增长必然带来变化，尤其是高速增长，你应该欣然接受这种变化，而非心怀恐惧，将其视为负面因素。",
+   "ts": "00:56:30"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "And it seems like she had such a wide vantage point and could see the forest through the trees of the fact that, well, this company's doing well and this is why we're growing and changing. And I remember one of my leaders, CTO Jon Walker, AppFolio, he told me that once too. He was like... I'd be having a problem or something and I'd come to him and he'd always say to me, \"It's always great to be at a successful company, Heidi.\" And it's like, well, yeah, sometimes you don't think about the finances when you're in your day to day and you have a problem with another person or they come to you and they have a problem with this other person. But in the grand scheme of it, how is the company doing? It's really a critical vantage point that we need to remind ourselves of. But yeah, I wouldn't say all change is always good. Your mileage may vary there, but the general idea that the company is doing well, you're growing and changing, you're trying to make things happen, I think is definitely the space I'd rather be in than the opposite.",
+   "zh": "她似乎拥有广阔的视野，能够透过表象看清本质——这家公司发展良好，正因如此我们才在不断成长与变革。我记得我的上司之一，AppFolio的CTO乔恩·沃克（Jon Walker）也曾对我说过。他会说：\"海蒂，能在一家成功的公司工作真是太棒了。\"是啊，有时候日常工作中遇到问题，我们会陷入琐碎纠纷，或者被他人找茬，但从大局来看公司运营如何？这正是我们需要时刻提醒自己的关键视角。不过我不会说所有变化都是好事——仁者见仁，但公司发展良好，团队在成长，人们在积极推进项目，这无疑比反面情况要好得多。",
+   "ts": "00:57:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I think it's especially true for people that haven't worked at a company that didn't work out where they think this sucks when really this is pretty good compared to all the things that could be happening.",
+   "zh": "对于那些曾在失败公司工作过的人来说，这点尤其真切。他们总觉得糟糕透顶，但与可能发生的其他情况相比，这其实已经相当不错了。",
+   "ts": "00:58:31"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah, yeah, definitely. So we coach and help each other as we go along.",
+   "zh": "是的，确实如此。我们在前进的过程中会互相指导、互相帮助。",
+   "ts": "00:58:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question before we get to a very exciting lightning round. Used to work with John Cutler, who was a previous guest on this podcast, and he had a question that he wanted me to ask you. He said that, \"Heidi is one of the best listeners I've ever worked with.\" And so the question is, what's your secret to being a good listener?",
+   "zh": "在进入激动人心的闪电问答环节之前，最后一个问题。曾与本期嘉宾约翰·卡特勒（John Cutler）共事，他有个问题想让我转达给你们。他说：“海蒂是我合作过的最出色的倾听者之一。”所以问题来了：成为一名优秀倾听者的秘诀是什么？",
+   "ts": "00:58:48"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Well, listening is a muscle to build and to always work on. You got to put your attention out. Focus on the other person. Sometimes if I'm looking down, maybe I reconnect and look at them. You got to read body language and other things. I'm trained as a co-active coach, which involves different levels of listening. So you have level one, which is internal listening. Like if you and I are talking, but I'm thinking about what am I going to have for lunch? I'm in level one. I've got to redirect it out to you and focus on you. So when I focus on you is I'm in level two listening. I'm putting my attention out and I'm really anchoring towards you. It's a coaching skill. (00:59:47): And then level three is global listening, environmental listening. If a marching band suddenly walked behind you, I'm going to point that out because it's in my field. I'm not going to ignore that. I'm going to bring that up. So we pay attention to the vibe and the feel in the room and where we're at. But then also if you're talking about something and suddenly you go like this or you have this kind of sudden pain in your neck when you're talking about this one thing, I might notice that you're doing this and touching your neck because that's information. That's a kind of listening, and so I might ask you about that. Or if the face turns red or you look down or away, it's another kind of listening. So Co-Active Training Institute, coactive.com is my co-active coaching training, so I learned it from them, Henry Kimsey-House and-",
+   "zh": "嗯，倾听是一项需要培养和持续练习的能力。你必须把注意力投向外界，专注于对方。有时候如果我低头看手机，可能就需要重新调整注意力，抬头看向对方。你还需要解读对方的肢体语言和其他微表情。我接受过协同教练培训，这涉及不同层次的倾听技巧。第一层是内在倾听，比如我们交谈时，我却在想午餐吃什么。这时候我就需要把注意力重新拉回对方，专注于他们。这就是第二层倾听——外向倾听。我会把注意力投向对方，真正与他们建立连接。这是一项教练技能。（00:59:47）第三层是全局倾听，即环境倾听。例如，如果身后突然响起行进乐队的声音，我会指出这一点，因为这属于我的观察范围，我不会忽视它。我会提起这个变化，留意房间里的氛围和整体情境。还有，如果对方在谈论某件事时突然做某个动作，比如手势，或者脖子突然疼痛，这些都是需要捕捉的信息。我会根据这些线索调整对话方向。例如，面色泛红、目光移开，这些都是非语言信号，同样需要解读。因此，我会通过这些技巧提升倾听能力。",
+   "ts": "00:59:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, that is an awesome answer. There's a lot of depth there. So coactive.com, I'm going to check that out. So you actually got trained in this skill. Okay, that's great. That'll make people feel better. They're like, okay, amazing. I'm going to check this out. I'm going to try to be a better listener through the rest of this podcast episode from these tips.",
+   "zh": "哇，这真是个精彩的回答，内容很深入。我要去看看coactive.com这个网站。看来你接受过专业培训。太棒了，这能帮助人们提升倾听技巧。他们会觉得，哇，太棒了。我要去看看这些技巧，努力在接下来的播客中成为更好的倾听者。",
+   "ts": "01:00:48"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I will say that sometimes I'm not a good listener though.",
+   "zh": "不过有时候我确实做不到好的倾听者。",
+   "ts": "01:01:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, so it goes. Heidi, is there anything else you wanted to touch on or share before we get to our very exciting lightning round?",
+   "zh": "是啊，人无完人。海蒂，在我们进入激动人心的闪电问答环节之前，你还有什么想补充或分享的吗？",
+   "ts": "01:01:13"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I don't think so. I really appreciate your questions and talking with you.",
+   "zh": "我想没有了。非常感谢你的提问和交流。",
+   "ts": "01:01:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "好的，现在我们进入激动人心的闪电问答环节。准备好了吗？",
+   "ts": "01:01:28"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:01:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. First question, what are two or three books that you've recommended most to other people?",
+   "zh": "好的。第一个问题，您向他人推荐最多的两三本书是什么？",
+   "ts": "01:01:34"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Leading Intelligent Teams is one, Liberating Structures is another one, and of course, Transitions by William Bridges. I also like the Leader's Guide to Participatory Decision-Making.",
+   "zh": "《领导智慧团队》是其中一本，《解放结构》是另一本，当然还有威廉·布里奇斯的《过渡时期》。我还很喜欢《参与式决策指南》。",
+   "ts": "01:01:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a favorite recent movie or TV show that you really enjoyed?",
+   "zh": "最近有没有您特别喜欢的电影或电视剧？",
+   "ts": "01:01:53"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I did like The Bear, the cooking-related show, the restaurant-related show, and gets into the hospitality industry. I really like that. Movies, there isn't really one that stands out. I always look forward to being on an airplane to see what movies are playing, but no movie for you.",
+   "zh": "我确实喜欢《熊》这部与烹饪相关的剧集，还有那部关于餐厅的剧集，涉及酒店业的部分。我特别喜欢这些。电影方面，没有特别突出的作品。我总是在飞机上期待看看播放什么电影，但没有适合您看的影片。",
+   "ts": "01:01:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite interview question that you like to ask people that you are interviewing?",
+   "zh": "您最喜欢向面试者提问的面试问题是什么？",
+   "ts": "01:02:21"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I always like to ask people, \"Well, why do you want to join our company? What is it about working with us that would be exciting for you? Why our company as opposed to another one?\"",
+   "zh": "我总是喜欢问别人：“嗯，你为什么想加入我们公司？和我们一起工作对你来说有什么令人兴奋的地方？为什么选择我们公司而不是其他公司？”",
+   "ts": "01:02:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What do you look for in their answer that is a good sign?",
+   "zh": "在他们的回答中，你会寻找哪些迹象来判断他们是否优秀？",
+   "ts": "01:02:39"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "They have some knowledge about what we do, what we build. Maybe they bring up that they've noticed something on one of the websites or a product launch that we just announced, just that maybe it's part of their story in their career. They're going in this direction, and they heard about us and they thought, \"Wow, I would love to work on that.\"",
+   "zh": "他们对我们的业务和产品有一定了解。也许他们会提到，他们注意到了我们刚发布的某个网站或产品发布的信息，或者这些信息与他们的职业发展方向相契合。他们正朝着这个方向发展，一听说我们公司，就心想：“哇，我真想参与到这样的项目中。”",
+   "ts": "01:02:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a favorite product you've recently discovered that you really love?",
+   "zh": "你最近有没有发现特别喜欢的产品？",
+   "ts": "01:03:08"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I'm very into vintage clothing and specifically real wool cashmere, not synthetic blends. I also like vintage blazers. A lot of the times where I'm giving a talk, I'm wearing a vintage blazer. I really like the clothing and design, and I kind of really, really love unusual vintage pieces that I could find, but they do need to... A lot of the fast fashion that's out there today is a lot of these blends with these materials that you've never heard of, but there's something special about vintage cashmere, for example.",
+   "zh": "我对复古服装很着迷，尤其是纯羊毛羊绒制品，而不是合成混纺材质。我也喜欢复古西装外套。每次做演讲时，我都会穿一件复古西装外套。我真的很喜欢复古服装的设计，尤其是那些我能找到的独特复古单品，但这些单品确实需要……如今市面上的快时尚产品大多是用你从未听说过的材料混纺而成的，但比如说，复古羊绒制品就很特别。",
+   "ts": "01:03:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a source for some good stuff? Is it like eBay? Is it stores locally? Is there a site? Is there somewhere you're finding some good stuff?",
+   "zh": "你有没有好的购物渠道？是eBay吗？还是本地商店？或者某个网站？有没有你能找到好东西的地方？",
+   "ts": "01:03:56"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I travel around the world and I give talks on reteaming. I do workshops. And usually I go to vintage and antique stores. I was just in Berlin. I was doing that. I was doing it in London. And yeah, I love thrifting, Salvation Army, Goodwill, any of these places that we have in many of the US cities, the Humana line of stores that I've been to in Europe and other places. I try to find the small, unusual antique places as well. My aunt's an antique dealer in Michigan, and she doesn't specialize in vintage clothing, but I just love that idea of discovering unique and unusual things that maybe they remind you of times in the past. Maybe you find that, \"Oh my gosh, we had that mug back in the '80s or whatever, or in the '90s.\" Things can kind of remind people of other times. So I like that. I think there's information stored in unique items.",
+   "zh": "我环游世界，进行团队协作方面的演讲和工作坊。通常我会去逛复古和古董店。我刚去过柏林，在那里也做过类似的事。在伦敦也是如此。是的，我喜欢淘旧货，比如救世军慈善店、Goodwill二手店，以及美国许多城市的Humana连锁店。我也喜欢寻找那些小而独特的古董店。我阿姨在密歇根州经营古董店，虽然她不专营复古服装，但我就是喜欢那种能发现独特而奇特物品的感觉，也许这些物品会让你回想起过去的时光。比如，你会突然发现：“天哪，我们在80年代或90年代用过那个杯子。”这些物品能让人想起过去的时光。我觉得独特物品中蕴藏着信息。",
+   "ts": "01:04:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Beautiful. I bet Berlin has some really cool vintage stuff, really wacky stuff.",
+   "zh": "太棒了。我敢打赌柏林一定有很多很酷的复古好物，各种奇特的东西。",
+   "ts": "01:05:12"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Yeah, there's a lot of really interesting places to explore, and I think it's just so much more interesting than some of the brand new kind of stuff.",
+   "zh": "是啊，那里有很多有趣的地方可以探索，我觉得这比那些新品有趣多了。",
+   "ts": "01:05:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Agreed. Two more questions. Do you have a favorite life motto that you often find yourself coming back to or sharing with friends or family, either in work or in life?",
+   "zh": "同意。再问两个问题。你有没有喜欢的座右铭，经常回味或与朋友、家人分享，无论是在工作中还是生活中？",
+   "ts": "01:05:30"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I like asking people how can you be kind to yourself?",
+   "zh": "我喜欢问别人如何善待自己。",
+   "ts": "01:05:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Say more.",
+   "zh": "再详细说说。",
+   "ts": "01:05:47"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I ask myself that too. I used to run a lot in Santa Barbara at Ellwood, which is a beautiful trail that you can go down to the ocean, you come back up. It's like More Mesa in Santa Barbara, and I would run and then I'd be like, \"God, this is so hard.\" And then I would walk for a little while and I'd think to myself, \"Well, how can I be kind to myself? I mean, what am I doing here? Does it have to be fast? No. I am here to decompress and enjoy, so how can I be kind to myself?\" I think sometimes I get hard on myself or have very high expectations kind of achiever mentality, and I've learned through the years that it's okay to slow down. It's okay to not go, go, go the whole time. So I would ask other people that as well, especially if they're going through a challenge or burning midnight oil or whatever. It's like, \"What about self-care? How can you be kind to yourself?\"",
+   "zh": "我自己也常常这样问自己。我以前常在圣巴巴拉的埃尔伍德小径跑步，那条美丽的步道可以下到海边，再跑回来。它和圣巴巴拉的莫尔梅萨很像，每次跑完后我都会感叹：“天哪，这太难了。”然后我会走一会儿，心里想：“嗯，我该对自己好一点。毕竟我来这里是为了放松享受，又何必追求速度呢？” 这些年我也学会了放慢脚步，不必时刻紧绷神经。所以我也会这样问别人，尤其是那些正面临挑战、熬夜加班的人。我会说：“那自我关怀呢？你怎么才能善待自己？”",
+   "ts": "01:05:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Beautiful. Final question. I was scouring your LinkedIn and I saw a quote from the CTO of AppFolio in his endorsement of you. Said that you were the unofficial director of fun at AppFolio. Is there a story that comes to mind of something that you did at AppFolio that created a lot of joy and fun for the team?",
+   "zh": "太棒了。最后一个问题。我浏览了你的领英页面，看到AppFolio的CTO在推荐你时用了一句话，说你是“AppFolio非官方的欢乐大使”。有没有什么在AppFolio的趣事，能让整个团队充满欢乐和乐趣？",
+   "ts": "01:06:56"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "We had these hack days, and I think they do that to this day. So twice a year we'd bring people together and we copied and learned from Atlassian. I remember we had calls with some coaches from Atlassian for how did they do their ShipIt Day, or they originally called it FedEx Day, changed it to ShipIt Day. We followed their model and we'd had this two o'clock on Thursday at two o'clock on Friday where we'd build whatever we wanted and we'd have a theme, and then we'd have goofy prizes at the end that were like traveling trophies. One of them was like a clickety-clack keyboard that we spray-painted gold by the railroad tracks, but people could work on anything. There were teams that formed... We did it with a self-selection marketplace. People formed their topics and teams, and one team hid geocaches throughout Santa Barbara. They're there to this day because we registered them with the Geocaching website. Another team built a vintage video game machine, and it was in the dev room. Another one they catapulted. They built this... Is it a trebuchet?",
+   "zh": "我们每年有两次黑客日，直到现在还在延续。每次活动前，我们会模仿Atlassian的做法，比如学习他们的ShipIt Day（原名FedEx Day）模式。记得我们会邀请Atlassian的教练指导团队如何举办ShipIt Day。活动时间定在周四下午两点到周五下午两点，大家可以自由发挥，围绕特定主题创作，最后还会颁发一些趣味奖品，比如旅行纪念奖杯。其中有一个团队在铁轨旁喷绘了一把金色键盘，供大家使用；还有团队打造复古游戏机放在开发室；还有团队制作弹弓，把水果射向停车场。我都不知道我们怎么能瞒过保安的，但毕竟那是创业初期。我们还组织了地理藏宝活动，至今那些宝藏还在Geocaching网站上；还有团队建造了老式游戏机，甚至安装在开发室。另外还有团队制作了投石机，把水果射向停车场。我都不知道我们怎么能逃过罚款，但当时确实是初创阶段。",
+   "ts": "01:07:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:07:16"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "That catapult this fruit in the parking lot. I don't know how we got away with that, but we were in the early days. We did a lot of fun stuff like that, and you could work with different people, build these larger relationships, which later makes it easier for reteaming, because then later if you reteam, you're not strangers with people, so you want to cultivate the community. So we had this department of fun. We would plan the fun in a variety of other ways as well.",
+   "zh": "那个在停车场射水果的弹弓。我不知道我们怎么能逃过罚款，但当时确实是初创阶段。我们还做了很多类似的趣事，让大家能与不同的人合作，建立深厚的关系，这对后续团队协作大有裨益。比如团队重组时，大家不再是陌生人，更愿意共同发展社区。所以我们设立了专门的趣味部门，还会通过各种方式策划欢乐活动。",
+   "ts": "01:08:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So fun. Heidi, you're awesome. I think we've helped a lot of people feel better about the endless change that they're probably going through right now. Two final questions. Where can folks find your book, find you online if they want to reach out, and how can listeners be useful to you?",
+   "zh": "太有趣了。海蒂，你太棒了。我觉得我们已经帮助很多人更好地面对了当前可能正在经历的无尽变化。最后两个问题。读者在哪里能找到你的书？如果想联系你，又该怎么做？听众如何能为你提供帮助？",
+   "ts": "01:08:56"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "You can go to heidihelfand.com or Google my name and I come up. Heidi@dynamicreteaming.com, heidi.helfand@gmail.com you can find me. I'm out there. And yeah, I love to work with companies and teams going through change, and I do that in a variety of ways. Teach workshops, do talks. So if any of this is interesting, reach out.",
+   "zh": "您可以访问heidihelfand.com，或者在谷歌上搜索我的名字就能找到我。我的邮箱是Heidi@dynamicreteaming.com，Heidi.helfand@gmail.com，您可以通过这些联系方式找到我。我一直在积极参与工作，为正在经历变革的公司和团队提供支持，采取的方式多种多样，包括举办工作坊、进行演讲等。如果您对这些内容感兴趣，随时联系我。",
+   "ts": "01:09:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then do you also consult and work with individual companies or not?",
+   "zh": "那您是否也为个别公司提供咨询服务呢？",
+   "ts": "01:09:33"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "I do. Yeah. I do that now. I like to work on a retainer basis or I'll even join a team, so looking for the-",
+   "zh": "是的，我现在会做这类工作。通常我会按小时收费，或者直接加入团队参与项目。",
+   "ts": "01:09:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right.",
+   "zh": "好的。",
+   "ts": "01:09:37"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "... next one.",
+   "zh": "……接下来。",
+   "ts": "01:09:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. And we'll link to all this stuff in the show notes. Heidi, thank you again so much for being here.",
+   "zh": "太棒了。我们会把所有相关信息放在节目笔记里供大家查阅。海蒂，再次感谢您今天的到来。",
+   "ts": "01:09:47"
+  },
+  {
+   "speaker": "Heidi Helfand",
+   "en": "Thanks so much, Lenny.",
+   "zh": "非常感谢，莱尼。",
+   "ts": "01:09:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. (01:09:57): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见。（01:09:57）：感谢您的收听。如果您觉得本期节目有价值，可以在Apple Podcasts、Spotify或您喜欢的播客应用上订阅。同时，欢迎给我们评分或留下评论，这对其他听众找到节目会很有帮助。您可以访问lennyspodcast.com查看往期节目或了解更多信息。下期节目见。",
+   "ts": "01:09:54"
+  }
+ ]
+}

@@ -1,0 +1,1481 @@
+{
+ "id": "Petra Wille",
+ "name": "Petra Wille",
+ "category": "企业管理",
+ "identity": "产品",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Petra+Wille",
+ "bio": {
+  "en": "Petra Wille is an independent product leadership coach and author of Strong Product People, who for a decade has helped product teams and their managers level up, focusing on the crucial first-line manager layer.",
+  "zh": "Petra Wille 是一位独立的产品领导力教练，也是《强势产品人才》（Strong Product People）一书的作者，十年来一直帮助产品团队及其管理者提升能力，尤其专注于至关重要的“一线经理”层级。"
+ },
+ "summary": {
+  "en": "Petra explains why coaching - not just managing - is the key skill for new product managers and leaders, and how to do it well. She makes the case that storytelling is essential for getting promoted and rallying teams, and that finding a PM community is one of the highest-leverage moves for growth. Drawing on coaching hundreds of product leaders, she offers concrete ways to develop the 'eight-legged' skill set a modern product person needs.",
+  "zh": "Petra 解释了为什么“辅导（coaching）”而非仅仅是管理，是新任产品经理与领导者的关键能力，以及该如何做好它。她论证了讲故事对于升职和凝聚团队至关重要，而找到一个产品经理社群则是成长中性价比最高的动作之一。基于辅导数百位产品领导者的经验，她给出了培养现代产品人所需的“八足”技能组合的具体方法。"
+ },
+ "turns": [
+  {
+   "speaker": "Petra Wille",
+   "en": "Getting promoted is way harder if you're not good in telling stories and rallying the team behind the shared goal and all these kind of things, and you usually achieve this through good storytelling techniques. And in some teams, I've seen the product person not being really, really good at it, but then the whole team helped creating these stories and stuff like this. So you definitely could compensate to some extent, but I would consider it a bit of a career staller if you don't get to a decent level of storytelling and to a decent level of public speaking.",
+   "zh": "如果你不擅长讲故事、把团队团结在共同目标之下，以及诸如此类的事情，升职就会难得多——而你通常是通过良好的讲故事技巧来实现这一点的。我在一些团队里看到，产品负责人本身并不特别擅长这个，但整个团队一起帮忙打造这些故事之类的。所以你确实能在某种程度上弥补，但如果你在讲故事和公开演讲上达不到一个像样的水平，我会认为这有点像是职业发展的绊脚石。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast. I'm Lenny, and my aim here is to help you get better at the craft of building and growing products. Today, my guest is Petra Wille. Petra is an independent product leadership coach and author of Strong Product People. And for the past 10 years, she's been helping product teams boost their skill sets and up their game. Alongside her freelance work, Petra organizes events in Hamburg, Germany, where she's based, and does a ton of one-on-one coaching, and speaking, and writing.",
+   "zh": "欢迎来到 Lenny 的播客。我是 Lenny，我的目标就是帮你把打造和增长产品的手艺做得更好。今天的嘉宾是 Petra Wille。Petra 是一位独立的产品领导力教练，也是《Strong Product People》一书的作者。过去 10 年里，她一直在帮助产品团队提升技能、更上层楼。除了自由职业工作，Petra 还在她所在德国汉堡组织活动，并做了大量的 1 对 1 教练、演讲和写作。",
+   "ts": "00:00:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In our conversation, we focus on three things. One, how to become the best coach for PMs, which is really important if you're a new PM manager, and even if you're not a new manager. Two, how to become a better storyteller and why that's important for leaders at every stage of their career. And three, why finding a PM community is so valuable and how to go about finding one. Petra is awesome, and it was such a fun chat. And so with that, I bring you Petra Wille.",
+   "zh": "我们的对话聚焦三件事。一，如何成为 PM（产品经理）最好的教练——如果你是新晋 PM 经理，这非常重要，即便你不是新经理也很重要。二，如何成为更好的讲故事者，以及为什么这对处于职业生涯各阶段的领导者都重要。三，为什么找到一个 PM 社群很有价值，以及怎么去找。Petra 太棒了，这次聊天非常有趣。那么，请出 Petra Wille。",
+   "ts": "00:01:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hey, Ashley, Head of Marketing at Flatfile. How many B2B SaaS companies would you estimate need to import CSV files from their customers?",
+   "zh": "嘿，Ashley，Flatfile 的市场总监。你估计有多少 B2B SaaS 公司需要从客户那里导入 CSV 文件？",
+   "ts": "00:01:32"
+  },
+  {
+   "speaker": "Ashley",
+   "en": "At least 40%.",
+   "zh": "至少 40%。",
+   "ts": "00:01:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And how many of them screw that up, and what happens when they do?",
+   "zh": "其中又有多少把这件事搞砸了？搞砸了会发生什么？",
+   "ts": "00:01:42"
+  },
+  {
+   "speaker": "Ashley",
+   "en": "Well, based on our data, about a third of people will consider switching to another company after just one bad experience during onboarding. So if your CSV importer doesn't work right, which is super common, considering customer files are chock-full of unexpected data and formatting, they'll leave.",
+   "zh": "根据我们的数据，大约有 1/3 的人只要在上手（onboarding）阶段有过一次糟糕的体验，就会考虑换到另一家公司。所以如果你的 CSV 导入器不好使——这超级常见，毕竟客户的文件里塞满了意想不到的数据和格式——他们就会走人。",
+   "ts": "00:01:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I am 0% surprised to hear that. I've consistently seen that improving onboarding is one of the highest leverage opportunities for both signup conversion and increasing long-term retention. Getting people to your aha moment more quickly and reliably is so incredibly important.",
+   "zh": "我对此一点都不意外。我一贯观察到，改善上手流程是提升注册转化率和长期留存率杠杆最高的机会之一。让人们更快、更可靠地到达\"顿悟时刻\"（aha moment）实在太重要了。",
+   "ts": "00:02:04"
+  },
+  {
+   "speaker": "Ashley",
+   "en": "Totally. It's incredible to see how our customers like Square, Spotify, and Zuora are able to grow their businesses on top of Flatfile. That's because flawless data onboarding acts like a catalyst to get them and their customers where they need to go faster.",
+   "zh": "完全同意。看到我们的客户，比如 Square、Spotify 和 Zuora，能在 Flatfile 之上发展业务，真的很不可思议。这是因为无缝的数据上手就像催化剂，让他们和他们的客户更快到达想去的地方。",
+   "ts": "00:02:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If you'd like to learn more or get started, check out Flatfile at flatfile.com/lenny.",
+   "zh": "如果你想了解更多或开始使用，请访问 flatfile.com/lenny 查看 Flatfile。",
+   "ts": "00:02:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Mixpanel, offering powerful self-serve product analytics. If you listen to this podcast, you know that it's really hard to build great product without making compromises. And when it comes to using data, a lot of teams think that they only have two choices, make quick decisions based on gut feelings or make data-driven decisions at a snail's pace, but that's a false choice. You shouldn't have to compromise on speed to get product answers that you can trust. With Mixpanel, there are no tradeoffs. Get deep insights at the speed of thought at a fair price that scales as you grow. Mixpanel builds powerful and intuitive product analytics that everyone can trust, use, and afford. Explore plans for teams of every size and see what Mixpanel can do for you at mixpanel.com. And while you're at it, they're hiring. Check out mixpanel.com to learn more.",
+   "zh": "本期节目由 Mixpanel 赞助，它提供强大的自助式产品分析。如果你听这个播客，你就知道，要在不妥协的情况下做出好产品真的很难。说到用数据，很多团队以为自己只有两个选择：要么凭直觉快速做决定，要么以蜗牛速度做数据驱动的决定——但这是个伪选择。你不该为了获得可信的产品答案而在速度上妥协。用 Mixpanel，没有权衡取舍。以思想的速度获得深刻洞察，价格公道，且随你成长而扩展。Mixpanel 打造了强大而直观、人人都能信任、使用并负担得起的产品分析。去 mixpanel.com 探索适合各种规模团队的方案，看看 Mixpanel 能为你做什么。顺便说一句，他们在招人。去 mixpanel.com 了解更多。",
+   "ts": "00:02:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Petra, thank you for being here. Welcome to our little podcast.",
+   "zh": "Petra，感谢你来。欢迎来到我们的小播客。",
+   "ts": "00:03:35"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Hi, Lenny. Such an honor to be here on a Friday night.",
+   "zh": "嗨，Lenny。周五晚上能来这里，真是我的荣幸。",
+   "ts": "00:03:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Friday night your time, Friday morning my time. Thank you for making the time.",
+   "zh": "你那边周五晚上，我这边周五早上。谢谢你抽时间。",
+   "ts": "00:03:43"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Of course.",
+   "zh": "当然。",
+   "ts": "00:03:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're a product leadership coach. Can you just talk about what you do as a product leadership coach and then also just a bit about the numbers of PMs you work with, the number of companies you work with, the impact you had, just to set a little bit of context in your background?",
+   "zh": "你是一位产品领导力教练。你能不能先讲讲你作为产品领导力教练是做什么的，再讲一点你合作过的 PM 数量、公司数量、产生的影响，好为你的背景铺点底？",
+   "ts": "00:03:48"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "How I usually describe it is that I work with people leading product people, so that's the product leadership level that I'm looking at. So that might be a CPO in a smaller startup or a product director, a product team lead, these are the folks that I'm usually working with for the last four years, I'd say. And before that, I coached product managers, so IC level product folks. And before that, I did a lot of product discovery coaching for teams and whole product organizations. And you asked about how many people I may have influenced. That's a real hard question so to say. So in one-on-one coachings, that's what I know. I coached around 130 people so far over the last few years, which is already a lot. Most of them have, yeah, 10 to 20 sessions with me. Some really stick with me over the years so they have more sessions.",
+   "zh": "我通常的描述是：我和\"带领产品人的人\"一起工作，也就是我所关注的产品领导力层面。那可能是小初创里的 CPO，也可能是产品总监、产品团队负责人，这些人是我过去四年主要合作的。在那之前，我教练的是产品经理，也就是个人贡献者（IC）层级的产品人。再往前，我做了大量产品探索（product discovery）方面的团队和整个产品组织的教练。你问到可能影响过多少人。这真是个难回答的问题。一对一教练这块，我是知道的：过去几年我大约教练了 130 人，这已经很多了。他们大多跟我做了 10 到 20 次。有些人这些年一直跟着我，所以会话更多。",
+   "ts": "00:04:01"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So that's that. And then I have group coaching sessions and corporate and then public setups. And that's, I would say, another 150. And it's all product leads. So usually, those people are working with a team of 10 product people and there are some ripple effects. So I think I have an impact on their lives as well if I'm coaching their boss or the line manager so to say. Plus, the teams that I work with as a discovery coach, plus the people that read my book and hopefully are using some of the techniques. And in the end, yeah, I did a bit of the math and I think it might be around 50,000, 60,000 people. If we look at it from the product leadership to IC level structure, yeah, that might be the impact. So that's a pretty impressive number.",
+   "zh": "就这些。然后我还有团队教练、企业内训和公开场次。那块大概又有 150 人。而且都是产品负责人。通常这些人带着 10 人的产品团队，还有一些涟漪效应。所以我觉得，如果我教练的是他们的老板或直线经理，我对那些下属的生活也有影响。再加上我作为探索教练带过的团队，还有读我书、希望用上一些技巧的人。最终我做了一点算术，觉得大概有 5 万、6 万人。如果从产品领导力到 IC 层级的结构来看，影响可能就是这个数。所以这是个相当惊人的数字。",
+   "ts": "00:04:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. That is an impressive number. And I always love chatting with folks that do the work you do because there's such a unique insight into working one on one with PMs that are trying to get better and understanding what trends are happening across PMs at different companies and different countries and things like that. So I'm excited to dig into a bunch of stuff.",
+   "zh": "哇。这是个惊人的数字。我一向喜欢和做你这种工作的人聊，因为一对一地跟那些想变好的 PM 合作，会获得一种独特的洞察——能理解不同公司、不同国家的 PM 身上正在发生什么趋势。所以我很兴奋能深挖一堆东西。",
+   "ts": "00:05:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The other thing that I love about where you're focused, there's a lot of people that focus on ICEPMs and there's a lot of people that focus on senior leaders, VPs, CPOs. And I love that it feels ... And correct me if I'm wrong, but you are focused on this middle layer of first line managers, directors.",
+   "zh": "我很喜欢你专注的方向的另一点：很多人专注在 IC 级 PM 上，也有很多人专注在资深领导者、VP、CPO 上。而我喜欢的是——如果我没理解错——你专注在这中间层：一线经理、总监。",
+   "ts": "00:05:53"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Exactly, yes.",
+   "zh": "对，正是。",
+   "ts": "00:06:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Which I feel like is often the most important and influential layer of a company because they're the ones doing a lot of the work at making a lot of the decisions day to day.",
+   "zh": "我觉得这往往是一家公司里最重要、最有影响力的层，因为大量的工作和日常决策都是他们在做。",
+   "ts": "00:06:08"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "That is the case. Plus, at least with a lot of clients that I'm working with, they are not trained product people. So they often come from a marketing background, or a business background, or from the data background, so to say, or the engineering background, but they often never have worked in a product management role. So they're missing a lot of basic product management practice and a lot of empathy for the struggle of the product people to some extent. Plus, how should you help people grow if you have no clue what their role actually is all about? So that's what I actually like to help them with, to get this clarity on a strong compass how the best product organizations and product managers should be working.",
+   "zh": "确实如此。而且，至少我合作的很多客户，他们并不是科班产品人。他们常来自市场背景、商业背景、数据背景，或者工程背景，但他们往往从没做过产品管理角色。所以他们缺了很多基础的产品管理实践，也在某种程度上缺了对产品人挣扎的理解与共情。再说，如果你根本不知道他们的角色到底是什么，你该怎么帮他们成长？所以这正是我喜欢帮他们的地方——让他们清晰起来：最好的产品组织和产品经理应该怎么工作，有个强指南针。",
+   "ts": "00:06:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to go a little bit on that tangent because that's an interesting point you just raised. When you work with folks that are not product people and that end up leading product people and trying to better product, what's the thing they lack most, the skill or the understanding of product? If you had to think of one or two things that these people are like, \"Okay, they totally missed this part about product management, about building product.\"",
+   "zh": "顺着你刚提的那个有趣的点稍微岔开一下。当你和那些不是产品人、却最终去带领产品人、去改善产品的人合作时，他们最缺的是什么——是技能还是对产品的理解？如果你要挑一两个他们\"完全错过了产品管理、错过打造产品这块\"的点，会是什么？",
+   "ts": "00:07:02"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "One thing that has made me sense out the most is I see product people on the IC level have to go through some of the struggles on their own, even if our product community has some best practices to it. Because as the line manager has no clue about the product community out there and the craftless product management, they often struggle to point them in the right direction to say, \"Hey, I think that's a problem somebody else already had. So maybe you could watch a talk or read this blog post or there's a book about this particular thing and then go try it.\" So that's the first thing. So product people IC level often have done to learn a lot of things on their own, so to say, because nobody's curating their progression for them to some extent. So that is one thing.",
+   "zh": "最让我觉得\"嗯？\"的一点是：我看到 IC 级的产品人即便在我们的产品社群有一些最佳实践，也常常得自己去扛一些挣扎。因为直线经理对外部的产品社群和\"无手艺的产品管理\"一无所知，他们往往很难把人指向正确的方向，说\"嘿，我觉得这是别人已经遇到过的问题。所以也许你可以看个演讲、读这篇博客，或者有本关于这个具体事情的书，然后去试试。\"所以这是第一点。IC 级产品人常常不得不自己学很多东西，因为在某种程度上没人帮他们策划成长路径。这是其一。",
+   "ts": "00:07:23"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then I use this metaphor of the eight-legged creature because people tend to talk about T-shaped employee profiles, but T-shaped is so not enough for a product person, right? We want them to understand underlying problems of the business and the users finding solution for those, getting things out of the door with the team, doing a lot of product discovery, looking at the data, how people are using it, iterating on the products. So there's so many things that we want them to be good at and to understand that and the complexity that the role actually brings with it. That's sometimes hard for people that have never worked as a product person to really understand. So, yeah, if I would need to pick two things, then that's maybe the two biggest differences.",
+   "zh": "然后我用\"八条腿的生物\"这个比喻，因为人们爱说 T 型员工画像，但 T 型对产品人来说远远不够，对吧？我们希望他们懂业务和用户背后的底层问题、为那些问题找到解法、和团队一起把东西推出去、做大量产品探索、看数据了解人们怎么用、对产品迭代。我们想让他们擅长、理解的事情太多了，也理解这个角色本身带来的复杂度。这对从没做过产品人的人，有时真的很难理解。所以，如果非要挑两点，那也许就是这两大差异。",
+   "ts": "00:08:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The first one is such a great one. It comes up a lot on these chats of just how much of getting better product is just doing it. You can read all the books, you can take all the courses, you can read my newsletter, you can read your book, which we'll talk about, but there's only so far you'll get without actually just doing it and just failing, doing great things that succeed. And it takes years, right? It's not like something you'll do six months, \"All right, I'm feeling really good about being a product manager.\"",
+   "zh": "第一点说得太好了。这些聊天里经常冒出来：把产品做好，有多少其实就是\"去做\"。你可以读遍所有书、上遍所有课、读我的 newsletter、读你的书——我们待会会聊——但没有真正去做、去失败、去做成那些成功的好事，你只能走到某一步。而且这要花好几年，对吧？不是你做六个月就能说\"好了，我对做产品经理感觉很不错了\"的事。",
+   "ts": "00:08:56"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, I totally agree. I so often have said the sentence of, it's not a role, it's a career being in product and, really, there's so many things to learn and so many things to get good at. Yeah, I totally agree.",
+   "zh": "对，我完全同意。我常说一句话：在产品里，这不是个角色，而是一份职业。真的，有太多东西要学、太多东西要精通。对，我完全同意。",
+   "ts": "00:09:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, crazy ass role. Speaking of your book, you wrote a book, it's about product leadership and coaching, and we're going to touch on some of the things you wrote in the book, but can you just briefly describe the book that you wrote, who it's for, what it's about?",
+   "zh": "是啊，这角色太离谱了。说到你的书，你写了一本书，是关于产品领导力和教练的，我们会聊到书里写的一些东西，但你能先简短描述一下你写的这本书吗——给谁看的、讲什么？",
+   "ts": "00:09:32"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "It's quite a niche book, right? So it's focusing on people managing product people, so product leads and then the people development part of their job. So it's not another book talking about how to come up with a great product strategy. There definitely is a chapter on that to some extent, but it's more how you coach those things. So it's not so much about how you do these things on your own, it's more how you could help product people to understand hypothesis-driven product discovery a bit more, or how could you help them think about team motivation, or how could you help them get better and giving feedback, all these kind of things.",
+   "zh": "它是本相当垂直（niche）的书，对吧？它聚焦在\"管理产品人的人\"身上，也就是产品负责人，以及他们工作中\"人员发展\"那部分。所以它不是另一本讲怎么做出好产品战略的书。那方面确实有一章，但更多是讲你怎么去教练这些事。所以它不太是关于你怎么自己去做这些事，而更多是关于你怎么帮产品人更理解假设驱动的产品探索，或者你怎么帮他们思考团队动力，或者你怎么帮他们变得更好、更会给反馈，诸如此类。",
+   "ts": "00:09:42"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So this book has this meta level of helping product leads to develop their product folks. And that is actually what the book talks about in five different parts. And I think 28 chapters if I get it right.",
+   "zh": "所以这本书有个元层面：帮产品负责人发展他们的产品人。而书正是分五个部分来讲这个的。我想大概有 28 章，如果我没记错。",
+   "ts": "00:10:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, it's a lot of chapters. What is it called? Where can people find it? Just while we're on this topic and then we'll get into some of this.",
+   "zh": "哇，好多章。它叫什么？人们在哪能找到？趁这个话题我们就说一下，然后我们再深入其中一些。",
+   "ts": "00:10:35"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "It should be available on Amazon and it's Strong Product People: A Complete Guide to Developing Great Product Managers. That's actually the title and the subtitle, so to say.",
+   "zh": "它应该在亚马逊上有，叫《Strong Product People: A Complete Guide to Developing Great Product Managers》（强大的产品人：培养优秀产品经理的完整指南）。那其实既是主标题也是副标题。",
+   "ts": "00:10:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Strong Product People. Okay. I read parts of the book, I looked at a lot of the stuff that you write online and some of your videos, and there's three things that I want to spend our time together on to dig into. One is what you just talked about, how to become a better coach to product managers for PMs. Two is storytelling skills. You have a lot of great stuff on just becoming a better storyteller. And then three is how to find great community to become a better PM. Does that sound good?",
+   "zh": "太棒了。Strong Product People。好。我读了书的一部分，看了你网上写的大量内容以及一些视频，有三件事我想把我们的时间花在深挖上。一是你刚说的——如何成为 PM 更好的教练。二是讲故事技巧。你有很多关于如何成为更好讲故事者的好内容。三是如何找到好的社群来成为更好的 PM。这样行吗？",
+   "ts": "00:10:52"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, that sounds amazing. That stood up.",
+   "zh": "行，听起来太棒了。赞同。",
+   "ts": "00:11:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, great. Awesome. So the first topic, basically, the premise of your book is just how to become a better coach to product managers. And for me, actually personally, the biggest inflection in my career was having an awesome manager who helped me become a better PM, and that was the point in my career where I really accelerated. And so I fully buy into the power of having a great manager and a coach, and oftentimes those aren't the same people. And you have these five ingredients that you have to be the best coach to product managers.",
+   "zh": "好，很棒。那么第一个话题，你这本书的前提基本就是如何成为 PM 更好的教练。对我个人而言，我职业里最大的拐点，是有一个很棒的经理帮我成为更好的 PM——那是我职业真正加速的点。所以我完全相信有个好经理、好教练的力量，而且这两者往往不是同一个人。你有成为 PM 最好教练的\"五种要素\"。",
+   "ts": "00:11:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And so just to start, what are these five ingredients? What do you have to get right to be a great coach to PMs?",
+   "zh": "那么先开始，这五种要素是什么？要当好 PM 的教练，你得把什么做对？",
+   "ts": "00:11:52"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, I'm glad you're asking. So I was already referencing to number one. And number one is really having a solid definition of what a good product person looks like in your context. So what is your definition of good, so to say? And a lot of the product leads that I'm working with have this as an implicit feeling based, experience-based thing. They can talk about some of the aspects, but it's often the case that they not have fully reflected on what a personality traits that I want to see in product people that are hard to develop while I'm coaching them, and what are skills, and know-how, and capabilities that I want to see in the product people that I'm working with. And some are super good and have it all written down, but most of the product folks that I'm working with haven't. So that is step number one is doing this reflection.",
+   "zh": "好，很高兴你问。我前面已经提到第一点了。第一点真的就是：在你所处的具体情境下，对\"一个好的产品人长什么样\"有一个扎实的定义。也就是，你说的\"好\"到底是什么？我合作的很多产品负责人把这当作一种基于经验、隐约的感觉。他们能讲出一些方面，但常见的情况是，他们没有充分反思过：哪些是我希望在产品人身上看到、却很难在教练过程中培养出来的性格特质，哪些是我希望在产品人身上看到的技能、知识和能力。有些人超级棒，全写下来了，但我合作的大多数产品人没有。所以第一步就是做这个反思。",
+   "ts": "00:11:57"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Then step number two is having a clear idea where every PM currently is in their current career, in their situation, life in general, all these kind of things. So put the pin on the map, so to say, and then think about what is your vision for them in the future, so how good could it get? And I usually encourage product leads to think bigger than their current role at the current company because that's the longer term thing. And then even more important is what I call the next bigger challenge.",
+   "zh": "然后第二步是：对每个 PM 当下在他们的职业、处境、整体生活里处于什么位置，有清晰的认识。也就是在地图上插个图钉，然后想想你对他们未来的愿景是什么——能好到什么程度？我通常鼓励产品负责人想得比他们当前在公司里的角色更大，因为那是更长远的事。然后更重要的，是我所谓的\"下一个更大的挑战\"。",
+   "ts": "00:12:54"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So what is the next bigger challenge I would love to assign this product person to if I could because I know that would help them to learn a new skill or to, yeah, again, you know how, whatever it is, right? And creating such a list once a quarter, for example, you block yourself an hour in your calendar, you write down the names of your direct reports, and then you just think about, \"Okay, what would be this next bigger challenge for them?\"",
+   "zh": "也就是：如果可以，我最想指派给这个产品人的\"下一个更大的挑战\"是什么？因为我知道那能帮他们学一项新技能，或者，你知道，whatever。比如每季度做这么一次清单：你在日历里给自己留一小时，写下直接下属的名字，然后就想想\"好，他们的下一个更大挑战会是什么？\"",
+   "ts": "00:13:27"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "It's not always the case that this comes around the corner the next day. Sometimes it takes a quarter or two or three, but if you wrote it down, you will see this opportunity and then you could assign this person to the opportunity and really help them grow substantially over time. So that's number two. Then, hopefully, you share this vision you're having for them with them and do a bit of an alignment session because it's not always that they have the same things in mind. Maybe your vision for them opens up their thinking and reflection a little bit more, but you have to have this conversation where you actually see them, and that's a lot of encouragement and bringing out the best in them and these kind of things. Then it's definitely a development plan, but I think that's more on them than it is on you because you don't get the apps from other people's branches.",
+   "zh": "这不一定第二天就碰上。有时要等一两个季度，甚至三个，但如果你写下来了，你就会看到这个机会，然后就能把这个机会指派给这个人，真正帮他们在时间中大幅成长。这是第二点。然后，希望你能把这个愿景分享给他们，做个对齐会话，因为他们想的不一定和你一样。也许你对他们的愿景能稍微打开他们的思路和反思，但你必须真的\"看见\"他们、有这场对话，这里面有很多鼓励和激发他们最好的一面之类的事。然后肯定还要有个发展计划，但我觉得那更多是他们的、而不是你的事，因为你没法替别人\"长肌肉\"。",
+   "ts": "00:13:53"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So you cannot really help them develop, but you could remind them of going to the gym, for example, which would be step number five, by the way, that's the follow-up. But the development plan is something where a lot of product managers need help with because that's the inspirational part, that's situational part. That's where you could help them to really see some of the differences between your definition of good and their current profile, and maybe they need to get better in prioritization, maybe user interviewing is something they want to get better at. And then you could help them defining steps that they could take small things that they could learn. Maybe it's a book, maybe it's giving a presentation at a conference, maybe it's reflecting on your way of prioritizing, and then look at what others are doing. So whatever it is, that is something you could help them with.",
+   "zh": "所以你没法真的帮他们发展，但你可以提醒他们\"去健身房\"——顺便说，这就是第五步，跟进。但发展计划是很多产品经理需要帮助的地方，因为那是激励的部分、情境的部分。在那你可以帮他们真正看到：你的\"好\"定义和他们当前画像之间的差距；也许他们需要提升优先级排序，也许用户访谈是他们想提升的。然后你可以帮他们定出步骤、可以做的小事、能学到的东西。也许是一本书，也许是在会议上做个演讲，也许是反思你自己的优先级方式、再看看别人怎么做。总之，这是你能帮上忙的。",
+   "ts": "00:14:45"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then finally, it's the follow-up. That's sometimes just a nudge every once in a while at the water cooler to say, \"Hey, how is it going with your personal development plan?\" And some really need the weekly reminder and some maybe need even a daily email, whatever it is, ask them how they want to be reminded of the personal development and how you could help them and the system while doing that because they still have a day job, right? So the development will never be the number one priority, and it shouldn't.",
+   "zh": "最后就是跟进。有时只是在饮水机旁偶尔推一下，说\"嘿，你的个人发展计划进展如何？\"有些人真的需要每周提醒，有些人也许需要每天一封邮件，whatever——问他们希望你怎么提醒他们个人发展、你怎么在过程中帮他们、以及用什么系统，因为他们还有本职工作，对吧？所以发展永远不该是头号优先级，也不应该是。",
+   "ts": "00:15:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So just to summarize really quick, I have the list here in front of me. One is have a clear sense of just what it takes to be a competent PM in your role. Two is an idea of where that PM is today and one thing they could do to improve. Three is a shared vision of how they'll take that next step. Four is having a development plan of how they can move towards this vision. And then the last piece is a commitment, just following up with them and making sure they're staying on top of this.",
+   "zh": "太棒了。我快速总结一下，我手头有这个清单。一是对你角色里\"一个称职 PM 需要什么\"有清晰的感觉。二是知道这个 PM 今天在哪、以及他们能做的一件提升的事。三是共享一个\"他们怎么迈下一步\"的愿景。四是有个发展计划，讲他们怎么朝这愿景走。最后是承诺，也就是跟进他们、确保他们跟上进度。",
+   "ts": "00:15:58"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Exactly.",
+   "zh": "正是。",
+   "ts": "00:16:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's interesting about this, just looking at this, it feels a lot like a roadmap and a strategy and a vision for a product. The definition where you're today is the problem, idea of where you're going to go next is like a strategy, and then there's a vision of where you're going to go together and then you check in. So it's these standups. Do you think of it that way at all or is that just something I'm noticing?",
+   "zh": "有意思的是，看这个，它特别像一个产品的路线图、战略和愿景。你今天的定位就是问题，你接下来要去哪的想法就像战略，然后有个\"我们一起去哪\"的愿景，然后你做 check-in，就像每日站会。你是这么想的，还是只是我注意到了？",
+   "ts": "00:16:23"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I think about it that way as well, even to an extent because so many companies are lacking the real strategy bit, right, and it's similar with the people development strategy. That is something that I see not being present in so many environments as well. So even that similarity is a given, I'd say. Yeah.",
+   "zh": "我也这么想，甚至在某种程度上——因为那么多公司缺真正的战略这块，对吧？人员发展战略也类似。我看到很多环境里也没有这个。所以即便这种相似性也是必然的，我觉得。对。",
+   "ts": "00:16:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Which of these do you find is the most lacking usually or slash where do you think the biggest ... If someone were to just like, \"I want to be a better manager,\" where would you suggest they start? Is it right at the top, figure out what a great PM at this company is?I'mq",
+   "zh": "这里面你觉得通常最缺的是哪个，或者说——如果有人想\"我要做个更好的经理\"，你会建议从哪开始？是直接从最上面——弄清这家公司优秀的 PM 是什么样的吗？",
+   "ts": "00:17:00"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "That is a great question. No, I usually advise people to start with the development plan because even if you have never done the assessment and even if you don't have your compass, your definition of what makes a good product manager, you usually have an idea or they have an idea of what they want to learn next or where they want to get better at. So I said they say something like my storytelling capabilities are maybe not as good as they could be or prioritization is people are constantly complaining behind my back that they don't get the order of the things in my backlog or whatever it is, or they think my opportunity solution freeze, and suck, or whatever it is.",
+   "zh": "好问题。不，我通常建议人们从发展计划开始，因为即便你从没做过评估、即便你还没有你的指南针、那个\"什么是好 PM\"的定义，你通常也有个想法，或者他们有个想法：接下来想学什么、想在哪些方面变好。所以他们可能会说：我的讲故事能力可能没到该有的水平，或者优先级排序上人们总在背后抱怨他们搞不清我 backlog 里的顺序，whatever，或者觉得我的\"机会-方案树\"（opportunity solution tree）烂透了，whatever。",
+   "ts": "00:17:14"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And you could use that and start helping them creating this development plan. That's not a structured assessment, but that's a perfect start. And then it's obviously the follow-up that makes a big difference and that just takes so little time from the product lead, the small notches, that's super easy. And these development plans, I usually tell people to create a new one with a new headline or topic once a quarter or every four months. So that is not a massive time invest as well. So that would be my suggestion for where to start, if that helps.",
+   "zh": "你就可以用那个，开始帮他们做发展计划。那不是结构化的评估，但却是完美的起点。然后显然是跟进，那才是真正拉开差距的地方，而它从产品负责人那儿只花极少时间——那些小推一下，超级容易。这些发展计划，我通常让人每季度或每四个月用新标题、新主题做一个新的。所以也不是巨大的时间投入。所以如果这有帮助，那就是我建议的起点。",
+   "ts": "00:17:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I love that advice because I can imagine a lot of people get stuck in that first one of, \"I don't know all of the things that I need to know about what a great PM right now is.\" So that's a nice simple way to start.",
+   "zh": "对，我喜欢这个建议，因为我能想象很多人卡在第一条上：\"我现在还不知道优秀 PM 需要懂的所有事。\"所以这是个漂亮又简单的起点。",
+   "ts": "00:18:29"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And there is another aspect to it. A lot of product leads try to create their compass. And while they do so, they think about, \"Maybe I should have an aligned version with my peers.\" So the other product leads in the company. And then we're talking about the career levels and all these things and often takes ages until something is coming back from HR or you have a unified version. So that is something where I usually say, \"No, start with your own personal team because the folks in your team usually just have you as a line manager. So grade your compass and encourage your peers to grade their compass and, a bit down the line, it might make sense to harmonize some of that, but it's better to start helping your product folks and giving them some orientation than being totally paralyzed by the fact that it's not a compass that is used in the whole company.\"",
+   "zh": "还有另一面。很多产品负责人试图做他们的指南针。他们做的时候会想：\"也许我应该和同侪有个对齐的版本。\"也就是公司里其他产品负责人。然后我们就聊职级阶梯之类，常常要等 HR 很久才出东西，或者你才有统一版本。所以我通常说：\"不，从你自己的团队开始，因为你团队的人通常只把你当直线经理。所以先做你的指南针，鼓励同侪也做他们的指南针，过一阵子也许再做些协调，但比起因为'这不是全公司用的指南针'就完全瘫痪，开始帮你的产品人、给他们些方向更好。\"",
+   "ts": "00:18:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to talk about this compass and how to figure out what a competent PM is. And I know you have a framework around this and I have some stuff I'll actually share, too. But on this latter piece of checking in the development plan, I wrote about this once, but I'll share it here briefly. Something that I did with my PMs that was so effective was every time we did a performance review, every six months, we had a performance review, we put together a Google Doc with all of the things that we agree they should be working on and we pick, say, five themes or three themes, and then we pick very concrete things they should do over the next six months that will help them develop these things.",
+   "zh": "我想聊这个指南针，以及怎么弄清\"称职 PM\"是什么。我知道你在这上面有个框架，我也有一些东西要分享。但关于后面对发展计划做 check-in 这点，我以前写过，这里简单分享一下。我和我 PM 做过一件超有效的事：每次我们做绩效评估（每半年一次），我们就弄一个 Google Doc，列上我们一致同意他们该做的事，挑比如五个或三个主题，然后挑非常具体、他们未来六个月该做的事——这些能帮他们发展这些方面。",
+   "ts": "00:19:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then more importantly to your last point is we did a monthly coaching session where we looked at the status of each of these things. So there's a color code for each of these 10 things that we all agreed you should be doing these things over the next six months and we checked in how they're going, so that the next performance review, it's not like, \"Oh, I forgot all these things.\"",
+   "zh": "然后更重要、呼应你最后那点的是：我们有一个月度教练会话，看每件事的状态。我们对那 10 件事（我们都同意他们未来六个月该做这些）做了颜色编码，check-in 它们进展如何，这样到下次绩效评估，就不会\"哦，这些我全忘了\"。",
+   "ts": "00:20:06"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:20:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's all like, \"Oh, yeah [inaudible 00:20:25].",
+   "zh": "全是\"哦，对 [听不清 00:20:25]……",
+   "ts": "00:20:24"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah. Yeah, exactly. And really, all of us know consistency beats intensity. So, really, the smaller time investments on a weekly basis and that applies for the PM's time investment in learning new things and it applies to the product leads investment and helping their people to grow. I think for both parties, it's more likely and more pleasant if you have small chunks of people development in your calendar. And that's why I like your story, right, because you were focusing on regular check-ins more than into the big bang 360-degree reviews.",
+   "zh": "对。对，正是。而且我们大家都知道：持续性胜过强度。所以，真的，每周的小时间投入——这既适用于 PM 投入时间学新东西，也适用于产品负责人投入时间帮他们成长。我觉得对双方来说，如果日历里是小块的人员发展，更可能、也更愉快。所以这就是我喜欢你故事的原因——你关注的是规律 check-in，而不是那种\"大爆炸\"式的 360 度评估。",
+   "ts": "00:20:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it builds on what your point of the development plan is something the person develops like, \"Here's what I believe I should be working on.\" And it's not like you inform it a bit and give them feedback and maybe this isn't or maybe [inaudible 00:21:12] this other thing. But, yeah, the fact that they own it, I think, is really powerful.",
+   "zh": "这也建立在你说的——发展计划是那个人自己发展的，比如\"这是我认为我该专注的事\"。不是你单方面通知、给反馈说\"这个也许不对、或那个别的也许……\"。但，对，他们拥有它，这点我觉得力量很大。",
+   "ts": "00:21:00"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, yeah.",
+   "zh": "对，对。",
+   "ts": "00:21:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Going back to knowing what is a competent PM at a company. Something I want to ... I'll make sure to include in the show notes for this is I actually did all this research on the career ladders at all of the biggest tech companies. So I have the spreadsheet that it's public of just the skills that every company evaluates your PMs by, but most companies don't have. They're not great. So say your company doesn't have a career ladder competency framework leveling thing, what do you suggest folks do to help figure out what is a competent PM here at our company?",
+   "zh": "回到\"知道公司里称职 PM 是什么\"。有件事我想……我会确保放进这期的 show notes——其实我做过研究，关于所有大科技公司的职级阶梯（career ladder）。所以我有个公开的表格，就是每家公司评估 PM 的那些技能，但大多数公司的并不好。所以假设你公司没有职级阶梯、能力框架、定级那套，你建议人们怎么做，来弄清\"我们公司称职 PM\"是什么？",
+   "ts": "00:21:16"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I'd say use one of the assessments that are already out there. Maybe we can include this as well. I wrote a blog post where I put all the ones that I'm aware of into, so there's the PM Daisy and, obviously, Marty Cagan has an assessment, and I created a framework called the PMwheel and there are a few others in there. Go find one that is close to what you actually think a good PM should look like and then customize it. Don't use it just by copy paste because sometimes you have just rather technical PMs in your organization and then all these assessment points about user interviews and discovery are maybe not that applicable in your situation, right?",
+   "zh": "我会说，用那些已经存在的评估工具之一。也许这个我们也放进去。我写过一篇博客，把我知道的都列进去了——所以有 PM Daisy，当然 Marty Cagan 有个评估，我做了个叫 PMwheel 的框架，里面还有几个别的。找一个接近你认为好 PM 该什么样的，然后定制它。别只是复制粘贴就用，因为有时你组织里的 PM 偏技术，那所有关于用户访谈和探索的评估点也许在你的情境里不适用，对吧？",
+   "ts": "00:21:50"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So use one template that is close what you want to achieve, heavy customize it because it is really a great inspiration to see, \"Oh, these are all the things that other people think a PM should be doing.\" Or maybe you could merge one or two of those and tailor it to your needs. So that will be my first suggestion. Plus, reflecting on the personality traits because I think there are some things that you better hire for and that are super hard to develop in a corporate environment. So for me, that, for example, is curiosity. I think product people need to be curious about the world, how it works, about things, no matter the topic.",
+   "zh": "所以用个接近你想达成的模板，大力定制它，因为看到\"哦，别人认为 PM 该做所有这些事\"真的是很好的启发。或者你可以合并一两个、按你的需求裁剪。这是我的第一个建议。再加上，反思性格特质，因为有些东西你最好招人时就招到，而在企业环境里极难培养。比如对我来说，是好奇心。我觉得产品人需要对世界、对它的运作、对事物好奇，无论什么主题。",
+   "ts": "00:22:33"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "The best product people that I know, whatever the topic is, they're interested and tell me more about it. So that is, for example, there's something I would always check when hiring product people because I know it's hard to build that muscle or empathy, definitely something that I want to hire for. I know that I can help them develop this muscle a bit more and stepping into shoes of users, and stakeholders, and colleagues easier. But still, if there is, yeah, not a decent level of empathy built into this person, then it's nearly impossible for me as a product lead to help them get towards a seasoned level. So that's another important thing. Think about personality traits and think about skills and know-how and to think about skills and know-how. Use some of the already established assessments.",
+   "zh": "我认识的最好的产品人，无论什么主题，他们都感兴趣、会跟我说更多。所以那是我招产品人时总会查的一点，因为我知道那块肌肉、或共情，很难建立。绝对是我会招人时就看重的。我知道我能帮他们再多发展这块肌肉、更容易站到用户/干系人/同事的鞋里。但即便如此，如果这个人里没有还行的共情底子，那作为产品负责人，我几乎不可能帮他们达到老练的层级。所以那是另一件重要的事。想想性格特质，想想技能与知识。用些已有的评估。",
+   "ts": "00:23:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So we will try to link to as many of those that you mentioned in the show notes. Maybe talk about the PMwheel, which is the framework that you suggest for folks to understand, just like what are all the skills that a PM needs to have.",
+   "zh": "所以我们会尽量在 show notes 里链到你提到的那些。也许聊聊 PMwheel——你建议人们用来理解\"PM 需要哪些技能\"的框架。",
+   "ts": "00:24:03"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "It's hard to talk about that really briefly. So I split all the things that PMs usually do in eight buckets, so to say. And it starts with our day able to understand the underlying problems that users and the company actually is having. Are they good in finding solutions to those problems? Then they do some planning parts. Are they able to maybe come up with a roadmap or with good goals that are aligning the team, these kind of things. And it's get it done that's already able to actually deliver the thing to work with the team that's maybe writing backlog items and all these kind of things.",
+   "zh": "很难真的三言两语讲完。所以我把 PM 通常做的事分成八个桶（bucket）。从\"能理解用户和公司实际面临的底层问题\"开始。他们擅长为这些问题找解法吗？然后他们做一些规划的部分。他们能做出路线图、或能对齐团队的好目标吗，这类事。然后是\"把它做完\"——能真的和团队交付东西、写 backlog 条目之类。",
+   "ts": "00:24:14"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Then it's listen and learn. So are they able to really gather a lot of data these days and then look into what customers are actually saying. So the qualitative and quantitative aftermath of stuff going live. And are they able to iterate on the solutions that they shipped?",
+   "zh": "然后是\"倾听与学习\"。他们能真的收集大量数据、再看客户实际在说什么吗？也就是东西上线后的定性和定量后续。他们能对已发布的解法迭代吗？",
+   "ts": "00:24:51"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then it's another three buckets that are a bit out of the PM process, which is team. So do they know about how teams actually are different from working with individuals? Do they think they have to motivate a team? Can you motivate a team? So this whole teamwork part. Then it's personal growth. I put it on my PMwheel because I want that to be part of every conversation that I have with my PM. So that's why it's on the wheel. And then last, but not least, it's agile because when I was still coaching PMs, I often found that they never reflected on the underlying basics of agile ways of working. So they often never heard about the agile manifesto, or agile values, or agile principles, no matter what framework they're using. But I think that is key. So that's bucket number eight.",
+   "zh": "然后是另外三个稍微跳出 PM 流程的桶，先是\"团队\"。他们懂团队和跟个人工作到底有什么不同吗？他们觉得自己得激励团队吗？你能激励团队吗？这一整个团队合作的部分。然后是\"个人成长\"。我把它放上我的 PMwheel，因为我想让它成为我和我 PM 每次对话的一部分。所以它在轮子上。最后但同样重要的是\"敏捷\"（agile），因为当我还在教练 PM 时，常发现他们从没反思过敏捷工作方式的底层基础。所以他们常从没听说过敏捷宣言、敏捷价值观、敏捷原则，无论用什么框架。但我觉得那是关键。所以那是第八个桶。",
+   "ts": "00:25:07"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And every of those buckets comes with at least 15 framing questions. So is this person good at doing this? Is this person good in doing that? And it hopefully gives you a really nice and well-rounded picture of where this person currently is. And I usually advise people to do a self-assessment, then ask their line management for an assessment, and ideally some of your team members because they have a different perspective on you as a product management personality as well.",
+   "zh": "每个桶至少带 15 个框架性问题。比如这个人擅长做这个吗？那个人擅长做那个吗？它希望给你一幅真的很好、很全面的图：这个人目前在哪。我通常建议人们做自评，然后请直线经理评估，理想情况下再请几个团队成员，因为他们对你作为产品管理者的性格也有不同视角。",
+   "ts": "00:25:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So folks who want to see that, maybe they Google PMwheel, Petra, and also link to it. How did you develop this? I managed it and came from talking to a lot of PMs and just like, \"Here's the things that I see again and again PMs need to be good at to be successful.\"",
+   "zh": "想看那个的人，也许 Google 一下 PMwheel、Petra，我们也会链过去。你是怎么开发它的？我本以为它来自和很多 PM 聊、然后\"哦，这是我又一次次看到 PM 要做好、要成功需要的东西\"。",
+   "ts": "00:26:27"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, it was actually ... That would have been pretty cool. It was more the personal need of me starting off as a product coach. And you had this sense of, \"I need this compass,\" because how should you start a coaching conversation. I first have to learn about what is their perception about them and their capabilities in there and the help. And then I can help them work on some of the things they want to work on. But it is often that coaches come totally unprepared to the coaching, especially when the companies actually are paying it for them and to some extent forcing them into the coaching. And then they're just like, \"Okay, they told me to show up. Petra, what should we do in these sessions?\" And then that's why I created the PMwheel to have these first conversations about where they think we should invest more time in our coaching sessions. So that's how I created it.",
+   "zh": "对，其实……那就太酷了。它更多来自我作为产品教练起步时的个人需要。你会有种\"我需要这个指南针\"的感觉，因为教练对话怎么开始？我得先了解他们对自身和能力的认知，才好帮。然后我才能帮他们做他们想做的事。但常发生的是，教练毫无准备地来，尤其当公司真的付钱、某种程度上逼他们来教练时。然后他们就\"好了，他们让我来。Petra，这些会话我们干嘛？\"所以我才做了 PMwheel，用来开启那些\"他们觉得我们该在教练会话里多投入哪\"的初次对话。我是这么做出来的。",
+   "ts": "00:26:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Coming back to just the bigger question, we've been talking about just how to become a better manager lead, a coach to your product managers. It's interesting how simple it is. The way you frame this in your writing is it's like five ingredients to be the best coach your PMs have ever had. And if you look at this list of things to do, it's very straightforward and not a lot of work. Figure out what they need to do to be successful, where are they now, align on that with them, and then just give them some things to focus on to move closer to where they need to be. That doesn't take a lot of time.",
+   "zh": "酷。回到那个更大的问题，我们一直在聊怎么成为更好的经理、带头人、成为 PM 的教练。有意思的是它多简单。你在写作里把它框成\"成为 PM 有过的最棒教练的五种要素\"。看这个待办清单，非常直白、不费事。弄清他们需要做什么才能成功、他们现在在哪、和他们对齐，然后给他们些可专注的事去靠近该去的地方。不花多少时间。",
+   "ts": "00:27:35"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, I totally agree. The book talks about some more aspects, actually. So that's more or less the first two parts of the book. And then there is more on onboarding and hiring, create product people. There is a lot more. So that's actually the biggest part about how to coach certain concepts of today's product management industry, so to say. Hypothesis-driven product development, for example.",
+   "zh": "对，我完全同意。书里其实还聊了更多方面。那大概就是书的前两部分。然后还有更多关于上手、招聘、培养产品人。还有不少。那其实是最大的一块——怎么教练当今产品管理行业里某些概念，比如假设驱动的产品开发。",
+   "ts": "00:28:11"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "How do you explain these concepts to people that are not yet familiar with these things? And really, it helps product leads to reflect, \"Okay, what are the small things that I could help them to get better at certain things?\" Because that's actually where a lot of the magic happens. We tend to read all the books and we tend to know all our thought leaders and all these kind of things, but our product people often need super practical advice. So maybe it's really something like explaining them the Eisenhower matrix for getting better time management because they never heard about anything that could help them prioritize their tasks because that's the reality that we find in a lot of the companies, right? So that big part of the book is really this, how do you really help them understand the small tasks and things that the daily work requests them to do.",
+   "zh": "你怎么向还不熟悉的人解释这些概念？真的，它帮产品负责人反思：\"好，我能帮他们在某些事上变好的小事情是什么？\"因为魔法其实就发生在那。我们 tendency 是读遍所有书、认识所有思想领袖之类，但我们的产品人常常需要超实用的建议。所以也许就是像给他们讲艾森豪威尔矩阵（Eisenhower matrix）来改善时间管理——因为他们从没听过任何能帮他们排任务优先级的东西，因为那是我们很多公司里的现实，对吧？所以书里很大一块真的是这个：你怎么真帮他们理解日常工作要求他们做的小任务、小事情。",
+   "ts": "00:28:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think a lot of that I find is when you need something, that's the time to find it, and introduce it, and read about it. There's so much content.",
+   "zh": "我觉得很多那种，是当你需要某样东西时，就是引入它、读它的时候。内容太多了。",
+   "ts": "00:29:31"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:29:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm guilty of this. Just there's a lot of stuff to read and listen to as a PM. And I find you don't need to be listening to and reading everything all the time. It's just like, I need to figure out how to prioritize. Let's see what's out there that's awesome. And maybe save it for the future, but there's so much stress, I think, that goes into like, \"Oh my God, I got to read everything all the time.\"",
+   "zh": "我有罪。作为 PM 有太多东西要读要听。我发现你不需要一直听、一直读所有东西。就是\"我得弄清怎么排优先级。看看外面有什么超棒的。\"也许为将来存着，但我觉得有太多压力来自\"天哪我得一直读所有东西\"。",
+   "ts": "00:29:41"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, I totally agree. I think two weeks ago, one of my coaches told me that he stopped reading a lot of books and consuming a lot of content and he instead dedicates the whole year to using one methodology or book. So in that case, pick Teresa's Continuous Discovery Habits and that's what they read over and over again for the whole year. And I think it's an interesting way of looking at things.",
+   "zh": "对，我完全同意。我想两周前，我一个教练告诉我，他停了大量读书、消费大量内容，反而把整年献给用一个方法论或一本书。所以那个例子里，挑了 Teresa 的《Continuous Discovery Habits》（持续探索习惯），他们一整年反复读那个。我觉得这是看待事物的有趣方式。",
+   "ts": "00:30:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is interesting. That's a very committed, better pick the right book that are or whatever [inaudible 00:30:35].",
+   "zh": "那有意思。那是种很投入的方式——最好挑对书，或者 whatever [听不清 00:30:35]。",
+   "ts": "00:30:30"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, that she has said is true. Yeah. But maybe some of your colleagues pick another book and then you can just share what you learned, and what works better, and a bit of a community thing.",
+   "zh": "对，她说的那是真的。对。但也许你一些同事挑另一本，然后你们就能分享学到什么、什么更好用，有点社群的感觉。",
+   "ts": "00:30:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, we're going to get to that. I like that. Before we get to retelling topic, is there anything else you want to share along the lines of the folks are just like, \"I want to become a better coach to my PMs?\" Any other thoughts you want to close with?",
+   "zh": "哦，我们会聊到那个。我喜欢。在我们进入\"复述\"话题前，关于\"我想成为 PM 更好的教练\"，你还有什么想分享的？还有什么想收尾的想法？",
+   "ts": "00:30:44"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah. One easy tip is get yourself a list of great questions that you could ask in one on ones if you don't have the time to prepare. That will be one of my tips as well. There's several great coaching books out there. Some of questions are in my book as well. Yeah, just find some coaching questions, make your small compilation, and then really see what resonates with your team, and that often is a bit of a health check. So how are you doing? What would make you more successful in the role that you're currently having? All these kind of things could be helpful.",
+   "zh": "对。一个简单贴士：如果你没时间准备，就给自己备一份\"一对一能问的好问题\"清单。这也是我的贴士之一。外面有几本不错的教练书。有些问题我书里也有。总之找些教练问题，做个你自己的小合集，然后看哪些和你团队有共鸣——那常常也是一种健康度检查。比如\"你怎么样？\"\"什么能让你在现在的角色里更成功？\"这类事会有帮助。",
+   "ts": "00:30:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have any other examples of those? That's actually useful and just a few more examples of coaching questions.",
+   "zh": "你还有别的这类例子吗？那真的有用，再来几个教练问题的例子。",
+   "ts": "00:31:38"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, it really depends. So what I find super helpful is a list of emotions because people tend to find it really hard to talk about how they currently really are. And I don't know why this is the case, maybe it's stress, maybe it's not feeling comfortable to talk about this with your line manager, which is another topic, and bringing us back to the topic of company culture. But that, for example, is something that I always have handy. And if I have this notion of, \"Okay, this person maybe really needs a hack to some extent,\" then this conversation about, \"Hey, look, there is this list of 30 emotions, where do you think you currently add and why and could I help you with that?\" So that could be something. And then there are ... I think you talked about Mochary the other day, right?",
+   "zh": "对，真的看情况。我觉得超有用的是一份情绪清单，因为人们常觉得很难谈自己当下真实的状态。我不知道为什么，也许是压力，也许是不太舒服跟直线经理聊这个——那是另一个话题，也把我们带回公司文化这个话题。但比如那份清单我总是备着。如果我觉得\"好吧，这人也许在某种程度上真需要发泄一下\"，那就有这场对话：\"嘿，看，这份 30 种情绪的清单，你觉得你目前在哪个上、为什么、我能帮上什么？\"那可以是一种。然后还有……我想你前几天聊了 Mochary，对吧？",
+   "ts": "00:31:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. That episode just came out.",
+   "zh": "对。那期刚出。",
+   "ts": "00:32:31"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, exactly. And he has a great framework as well. I would need to look the questions up, but maybe we put them in the show notes as well. That's a bit of in-house check as well and huge. First of all, it's five easy assessment questions for your folks. And then it's more of, \"Okay, if you're ranking yourself a six, how could I help you to make it a seven?\" So it really focuses on incremental improvements, not crazy stressing everybody out improvements, not, \"What could I do to make it a 10?\" It's more really, \"How could I improve your situation? Really build rapport, really be there for your product folks.",
+   "zh": "对，正是。他也有个很棒的框架。我得查查那些问题，但也许我们也放进 show notes。那也有点像是内部检查，很大。首先，是对你团队的五道简单评估题。然后更多是\"好，如果你给自己打了 6 分，我怎么帮你到 7 分？\"所以它真聚焦在渐进式改进，不是那种把所有人逼疯的改进，不是\"我怎么让你到 10 分？\"而是真的\"我怎么改善你的处境？\"真的建立 rapport、真的为你产品人而在。",
+   "ts": "00:32:33"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And I think creating this list of coaching questions as a go-to list could improve the quality of your one on ones because, let's face it, we often run into those ones. Either we ditch them or we run into those ones completely unprepared. And a development plan could help and a prepared list of coaching questions could help to make it way easier. And for your PMs to feel more valued.",
+   "zh": "我觉得做这份教练问题清单作为\"随手清单\"，能提升你一对一的质量，因为，说实话，我们常撞上那些（一对一）。要么我们跳过它们，要么完全没准备地撞上。发展计划能帮，准备好的教练问题清单也能帮，让这事容易得多，也让你 PM 感觉更被重视。",
+   "ts": "00:33:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a great callback to the Matt. And by the way, his name's France, Matt Moshary, instead of Mochary. The C-H was like a sh.",
+   "zh": "那是很好的呼应 Matt。顺便，他叫 France，Matt Moshary，不是 Mochary。那个 C-H 发\"什\"的音。",
+   "ts": "00:33:37"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I see.",
+   "zh": "我懂了。",
+   "ts": "00:33:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Now, we know.",
+   "zh": "对。现在，我们知道了。",
+   "ts": "00:33:44"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "[inaudible 00:33:46] learn something. Now, we know. That's good.",
+   "zh": "[听不清 00:33:46] 学到东西。现在，我们知道了。那好。",
+   "ts": "00:33:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. And you pointed out in his curriculum, he has a bunch of questions that you mentioned about where are you at one to 10 on this thing and then how do we get you to ...",
+   "zh": "对。而且你在他的课程里指出，他有一堆你提到的那种问题——你在这件事上一到十分在哪，然后我们怎么让你到……",
+   "ts": "00:33:49"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yes.",
+   "zh": "对。",
+   "ts": "00:33:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... eight or nine. So we'll link to that in the show notes also. So many more things to read from this podcast.",
+   "zh": "……八或九。所以我们也会在 show notes 里链到那个。这播客有太多东西要读了。",
+   "ts": "00:33:57"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So many things to link. Sorry.",
+   "zh": "太多要链的了。抱歉。",
+   "ts": "00:34:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Good God, poor listeners.",
+   "zh": "天哪，可怜的听众。",
+   "ts": "00:34:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by AssemblyAI. If you're looking to build powerful AI-powered features in your audio or video products, then you need to know about AssemblyAI. AssemblyAI is the API platform for state-of-the-art AI models, the thousands of product-led growth companies like Spotify, Loom, and CallRail are using to infuse AI into their products. With simple APIs, developers and PMs can get access to powerful AI models for transcription, summarization, and dozens of other tasks that are fast, secure, and production ready. All of their models are researched and trained in-house and continuously updated by their team of AI experts, which, for PM, makes it easy to build and ship new AI-powered features.",
+   "zh": "本期节目由 AssemblyAI 赞助。如果你要在音频或视频产品里构建强大的 AI 驱动功能，那你就得知道 AssemblyAI。AssemblyAI 是顶尖 AI 模型的 API 平台，成千上万家产品驱动增长的公司（如 Spotify、Loom、CallRail）正在用它把 AI 注入产品。通过简单的 API，开发者和 PM 就能获得强大的 AI 模型，用于转录、摘要和几十项其他任务——快速、安全、可投产。他们所有模型都是内部研发并持续更新，由 AI 专家团队维护，对 PM 来说，这让构建和发布新的 AI 驱动功能变得容易。",
+   "ts": "00:34:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Product teams at the startups and enterprises are using AssemblyAI to automatically transcribe and summarize phone calls and virtual meetings, detect topics in podcasts, pinpoint when sensitive content is spoken, redact PII from audio videos, and way more.",
+   "zh": "初创和企业的产品团队正在用 AssemblyAI 自动转录和摘要电话与虚拟会议、检测播客里的主题、精确定位敏感内容何时被说出、从音视频里遮蔽 PII（个人身份信息），以及更多。",
+   "ts": "00:34:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Visit assembly ai.com to try AssemblyAI's API for free and start testing their models in their no-code playground. That's assembly ai.com.",
+   "zh": "访问 assemblyai.com 免费试用 AssemblyAI 的 API，在他们无代码 playground 里开始测试模型。就是 assemblyai.com。",
+   "ts": "00:35:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, let's get to a happier, simpler topic, maybe not, storytelling. So just setting context. It feels like as a PM, also as a founder, also as just a leader of any kind, you're always told you need to be a great storyteller. That's a big part of leadership. Be a great storyteller because that gets people excited and onboard with your building. But it feels like I've heard so many things about becoming a better storyteller. There's always feels great when you're reading it and then you get to a deck you're starting or a meeting you're about to run or a doc and like, \"Shit, how do I make this a good story?\" I need some conflict maybe and a ... I don't know, there's a hero's journey, there's all these things that you're like, \"I don't know, I don't know what I'm doing.\"",
+   "zh": "好，我们聊个更开心、更简单的话题——也许也不简单——讲故事。先铺个底：作为 PM、作为创始人、作为任何类型的领导者，你总被说要是个好讲故事者。那是领导力很大的一部分。做个好讲故事者，因为那能让人们兴奋、认同你做的东西。但感觉我听过太多关于\"变好讲故事\"的东西。读的时候总觉得很棒，然后你面对一个要开始的 deck、要开的会、要写的文档，就\"靠，我怎么把它变成好故事？\"我也许需要点冲突、一个……我不知道，有英雄之旅、有所有这些东西，你就\"我不知道，我不知道我在干嘛。\"",
+   "ts": "00:35:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I guess just a broad question. Say you're PM who wants to get better at storytelling, do you have any things you would suggest that are just concrete things someone could do today, tomorrow, this week to become a better storyteller, to level up their storytelling skills?",
+   "zh": "所以先问个宽泛的。假设你是想提升讲故事的 PM，你有没有什么建议——就是今天、明天、这周能做的、具体的事，来变好、升级你的讲故事技能？",
+   "ts": "00:36:02"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yes, I think I would love to mention two things. So first of all, people that's starting, often they are getting a better storytelling journey. Often totally underestimate how many time actually great storytellers are investing in creating the stories and making sure they can share the story in nice ways and formats. So that's maybe the first tip, you have to plan to put in a lot of work to create your story.",
+   "zh": "有，我想提两点。首先，刚起步的人常常在\"变好讲故事\"这条路上，严重低估真正厉害的讲故事者投入了多少时间去创作故事、确保能用漂亮的方式和格式分享故事。所以那也许是第一条贴士：你得计划投入大量工作来创作你的故事。",
+   "ts": "00:36:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And when you say a lot of work, what are you thinking? What's an order of magnitude of time depending on the scale of the story or a deck, or?",
+   "zh": "你说大量工作，你指的是什么？按故事或 deck 的规模，时间量级大概是多少？",
+   "ts": "00:36:46"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Rule of thumb. So I think if you ... Let's say you want to explain the rest of the company what you and the team are up for the next three to four months, so to say. Then I think that's two weeks of work, not eight hours a day, obviously, but two weeks of work, maybe one or two hours a day to really carve that story and think about different audiences and different framings of, when am I able to tell the story? And that is actually, I think, a rule of thumb of time investment. So it takes time because people often think, \"I don't know, you just get better overnight in telling great stories.\" It's just not how it works. So you have to practice and you have to put in a lot of work and time to come up with a logical, compelling, motivating story that then lasts for longer than a week or two. So that's a lot of work.",
+   "zh": "经验法则。比如，假设你想向公司其他人解释你和团队接下来三到四个月要做什么。那我觉得是两周的工作量——当然不是每天八小时，而是两周的工作量，也许每天一两个小时，真的去雕琢那个故事、想不同的受众、不同的框架：我什么时候能讲这个故事？而这其实我觉得就是时间投入的经验法则。所以它花时间，因为人们常想\"我不知道，你就是一夜之间变会讲好故事的。\"根本不是那样运作的。所以你得练、得投入大量工作和时间，才能做出一个逻辑清晰、有说服力、能激励人、而且能持续超过一两周的故事。所以那是大量工作。",
+   "ts": "00:36:55"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then the other tip would be really make sure that you're using language that speaks to the heart and the minds of the people because we constantly tend to use too much of our business lingo and it's banner blindness. Some of the words that we're using people totally overhearing them because we're using them so often. And it could be even things like product discovery. So maybe your company is already so fed up with all your product discovery stuff that you should start using different terms. Even if then, say, hypothesis-driven product management, it's more or less the same thing, and maybe it's even too complex. Maybe you can find something simpler and say, \"We need to learn something about this particular thing,\" because studies show that's a scientific background. Stories really have an impact on our brain.",
+   "zh": "然后另一贴士是：真的确保你用的语言能说到人们的心和脑。因为我们老是 tendency 用太多业务行话，那是\"横幅盲\"（banner blindness）。我们用的有些词人们完全听不见，因为我们用太频繁了。甚至\"产品探索\"都可能。也许你公司已经受够你所有产品探索的东西，你该开始用不同词了。即便比如\"假设驱动的产品管理\"，它基本是同一件事，而且也许还太复杂。也许你能找更简单的，说\"我们需要就这个具体的事学点东西\"——因为研究显示那是有科学背景的：故事真的对我们大脑有影响。",
+   "ts": "00:37:48"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So hormones get released depending on how the story is actually formed, if they have cliffhangers or if it's really like, whoa, with the hero and think, \"Where is it going to take him\", or something like that. And that releases, yeah, hormones in your brain and that only happens if you're using natural world, so to say. So you could talk about smell, and sense, and how people feel, and how their life would be better if this product would be out, all these kind of things. So really make sure that you think about that really speak to their minds and to their hearts and remove all your three-letter abbreviations and all these kind of things, which is something that everybody says as well. But it is way harder to do it when you really start to create your story to remove all these terms. And that takes a lot of time, yeah, as well. So you have to really put an effort into the don't use too much [inaudible 00:39:46].",
+   "zh": "所以荷尔蒙会释放，取决于故事怎么构造——有没有悬念（cliffhanger），或者真的像\"哇，英雄要被带去哪\"之类。那会释放大脑里的荷尔蒙，而那只有当你用\"自然语言\"时才会发生。所以你可以谈气味、感觉、人们什么感受、如果这个产品出来他们的生活会怎么变好，这类事。所以真的确保你想的是能说到他们脑和心的话，去掉你所有三个字母的缩写和这类东西——这也人人在说。但当你真开始创作故事时，去掉所有这些词要难得多。那也很花时间。所以你得真投入努力去\"别用太多[听不清 00:39:46]\"。",
+   "ts": "00:38:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So the first point, which I love, is you think people are just good at this and naturally great at telling a great story. But a lot of it is ... Right. Some people are ... You do it enough and you're like, \"It'll be quicker probably.\" But for most people, it's going to be just put in the time and it gets better and better and your story merges, you practice.",
+   "zh": "所以第一点，我喜欢，是你以为人们天生就擅长、天然会讲好故事。但其实很多是……对。有些人……你做得够多就会\"可能更快了\"。但对大多数人，就是投入时间，然后越来越好、你的故事成型、你练习。",
+   "ts": "00:39:47"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah. And it's a cultural thing. So I really find in average Americans, for example, being better at it than most of us Europeans. And I think that's because even in your school system, it seems to me, I don't know, you tell me if that is the case, but storytelling and being in front of a class or something like this is something that is encouraged and valued already, where at least when I was at school, this was not part of the whole system at all. So really late it was part of what we did, but not from an early age. So it's just not something, yeah, that we trained in or that we used to. So sometimes even speaking in front of 30 people, people are freaking out because they never did that. So that's their cultural differences to that definitely as well.",
+   "zh": "对。而且这是文化的事。比如我真的发现普通美国人平均比我们多数欧洲人强。我觉得那是因为甚至在你们的学校系统里——我不确定，你告诉我是不是——讲故事、在全班面前之类，是受鼓励、被看重的事，而至少我上学时，这完全不是整个系统的一部分。所以很晚才成为我们做的事，而不是从小就有。所以它就不是我们训练过、习惯的事。所以有时甚至在 30 人面前说话，人们就吓坏了，因为从没做过。所以那绝对也有文化差异。",
+   "ts": "00:40:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of the idea of speaking in public and being nervous and that kind of thing, which I always get really nervous speaking in public and people don't think that when they hear me and other folks that are publicly speaking, but it's like freaks me out every time. Do you have any advice for people that want to become better public speakers/be less nervous speaking publicly?",
+   "zh": "说到公开演讲、紧张这类，我每次公开演讲都超级紧张——人们听到我和别的公开演讲者时不这么觉得，但每次都吓死我。你对想变好公开演讲、少紧张的人有什么建议？",
+   "ts": "00:40:57"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I was really bad in [inaudible 00:41:21] as well, I have to tell you. And it's still not something that I love, but I know it's part of the work that we do.",
+   "zh": "我[听不清 00:41:21]也真的很差，得告诉你。而且它仍不是我爱的，但我知道那是我们工作的一部分。",
+   "ts": "00:41:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:41:30"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And so the easiest way is to get in front of really small and super friendly audiences. So that is, I think, the first starting point. And I don't know where that is. That could be your team, that's a super small audience, usually five to 10 people, or maybe you pine with your company of 80 people or 120 people, maybe the company all-hands is already something where you could actually speak. That was my first time and I had to speak in front of the whole company at a company all-hands around 90 people back at the time. And I only had to give a brief update on what we did the last two weeks and it was like five minutes on stage, but it freaked me out.",
+   "zh": "所以最简单的方法是站在真的很小、超友好的观众面前。我觉得那是第一个起点。我不知道那在哪。可能是你团队，那是超小观众，通常五到十人，或者也许你在 80 或 120 人的公司，全公司大会也许就是你能真上去讲的地方。那是我第一次——我得在全员大会面对全公司大概 90 人讲话。我只需简要更新我们前两周做了什么，台上五分钟，但吓死我了。",
+   "ts": "00:41:31"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So that's where I'm coming from and it really helped me to start small. Then product tanks, for example, this local product community meetups totally helped me because friendly human beings and not too many of them. So sometimes they're just 30 people attending and then you in the summer, not so many people are coming, so why not giving a talk there? So really start small and then grow the audience over time and always make sure, because that helped me a lot, to get feedback from strangers and peers if possible. Because the peers tend to give you the harsher critique, so to say, where the strangers are more polite, but they're not so familiar with the work you do or with the story that you want to tell so they can spot some gaps in your storytelling technique or something like that.",
+   "zh": "所以我就是这么过来的，从小开始真帮了我。然后比如 Product Tanks——本地产品社群的聚会——完全帮了我，因为友好的人、而且不太多。有时就 30 人参加，夏天人更少，那为啥不在那做个 talk？所以真从小开始、随时间扩大观众，并总是确保——因为那帮了我很多——尽可能从陌生人和同侪那得到反馈。因为同侪倾向给你更狠的批评，而陌生人更礼貌，但他们不熟悉你的工作或你想讲的故事，所以能发现你讲故事技巧里的某些漏洞。",
+   "ts": "00:42:14"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So that is something that helped me a lot to always have this friendly soul in the front row, where I know I get some feedback from later on. Plus, then having complete strangers and there's always somebody coming up after the talk, right, so they could be your first person giving you some stranger feedback, so to say.",
+   "zh": "所以那帮了我很多：总在头排有个友好的人，我知道晚点能从他那拿到反馈。再加上完全陌生的人——讲完总有人上来，对吧？所以他们可以是你第一个给陌生人反馈的人。",
+   "ts": "00:43:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What about if you're just about to give a talk and you're like, \"Oh my god, I'm so nervous,\" do you find anything that helps you get over that?",
+   "zh": "那如果你正要上台、想\"天哪我好紧张\"，你发现有什么能帮自己跨过去？",
+   "ts": "00:43:25"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I think the two things that work well, it's either the Superman pose, so that is one thing. If you're standing like this looking straightly up, that is one thing that helps many people. It's not my preferred one. And then the other one is a bit of the gorilla thing, just like tapping here. There is ... I don't know what's the English-",
+   "zh": "我觉得两点管用，一是超人姿势（Superman pose），那是一点。你像这样站着、直视上方，那帮很多人。不是我偏好的。另一点是点像大猩猩那种，就拍拍这儿。有……我不知道英文叫——",
+   "ts": "00:43:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Vagus, the vagus nerve.",
+   "zh": "迷走神经，vagus nerve。",
+   "ts": "00:43:56"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "No, it's not the vagus nerve.",
+   "zh": "不，不是迷走神经。",
+   "ts": "00:43:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, a different.",
+   "zh": "哦，另一个。",
+   "ts": "00:43:57"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I think it's thymus.",
+   "zh": "我觉得是胸腺（thymus）。",
+   "ts": "00:43:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好。",
+   "ts": "00:43:58"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I need to look it up. And if you just, yeah, hit that softly for some time ...",
+   "zh": "我得查查。如果你就……对，轻轻拍那会儿……",
+   "ts": "00:43:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I can hear it.",
+   "zh": "对，我能听到。",
+   "ts": "00:44:07"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "... then, yeah, that bumps your energy level, so to say. So that helps me. And again, friendly faces front row. So find people that you like and respect and that you know have the spark in their eyes when you start talking. That definitely helps as well.",
+   "zh": "……然后，对，那会——怎么说——提升你的能量水平。所以那帮了我。还有，头排友好面孔。找你喜欢、尊重、而且你知道你一开始讲他们眼里就有火花的人。那肯定也帮。",
+   "ts": "00:44:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you suggest doing these moves in the bathroom where no one can see you, or?",
+   "zh": "你建议在没人的洗手间做这些动作吗，还是？",
+   "ts": "00:44:24"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yes, backstage. You're doing those ones backstage. And think about what you're wearing because if you're wearing something like that and do this before you enter the stage, people might see that.",
+   "zh": "对，后台。你在后台做这些。而且想想你穿什么，因为如果你穿成那样、上台前做这个，人们也许会看到。",
+   "ts": "00:44:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They might love that.",
+   "zh": "他们也许会爱死。",
+   "ts": "00:44:38"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:44:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just come out beating your chest. It's a power move.",
+   "zh": "直接拍着胸走出来。那是权力姿态。",
+   "ts": "00:44:38"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:44:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you think it's important for PMs and leaders in general to get great at public speaking or do you think it's okay if they are just okay?",
+   "zh": "你觉得对 PM 和领导者总体而言，把公开演讲练到很好重要吗，还是说\"还行\"就够了？",
+   "ts": "00:44:39"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "It really depends. So I think not being able to speak publicly and to bring your point across ... Because a lot of people do public speaking, but they never bring their point across. So if you want to achieve both things, I think it is a career solo if you can for a product person. Can do the IC level product management job, but getting promoted is way harder if you're not good in telling stories and rallying the team behind the shared goal and all these kind of things. And you usually achieve this through good storytelling techniques.",
+   "zh": "真的看情况。我觉得，不能公开演讲、不能把你的点讲清楚……因为很多人做公开演讲，却从没把点讲清楚。所以如果你想两样都做到，我觉得对产品人来说是个职业独奏（solo）。能做 IC 级产品管理工作，但如果你不擅长讲故事、不擅长把团队团结在共同目标后，升职就难得多——而你通常是通过好的讲故事技巧实现这一点的。",
+   "ts": "00:44:53"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And in some teams, I've seen the product person not being really, really good at it, but then the whole team helped creating the stories and stuff like this. So you definitely could compensate to some extent, but I would consider it a bit of a career solo if you don't get to decent level of storytelling and to a decent level of public speaking. So, yeah, I think it's important.",
+   "zh": "在一些团队里，我看到产品负责人本身不特别擅长这个，但整个团队一起帮忙打造故事之类的。所以你确实能在某种程度上弥补，但如果你在讲故事和公开演讲上达不到像样水平，我会认为有点像职业独奏。所以，对，我觉得它重要。",
+   "ts": "00:45:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Who's the best storyteller PM that you've met and what made them great?",
+   "zh": "你见过的最好的讲故事 PM 是谁，是什么让他们厉害？",
+   "ts": "00:45:54"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "That's another hard question. So who had the biggest influence on me was definitely Jason Goldberg. He was my former boss and he was the first person that came into the startup that I was working for back at the time. And he was really the first person who entered every stage that he could find to talk about the things that he wants to achieve with us as a product team and as a product organization. In a way, it was really motivational, so it really helped me to experience that and how he was using this product, evangelizing techniques, yeah, to actually really tell the whole company what we're up for currently and what the problems out there he thinks are worth solving. So that was definitely an inspiration.",
+   "zh": "那又是个难问题。对我影响最大、绝对是 Jason Goldberg。他是我前老板，是第一个进我当时那家初创的人。他是真的第一个进每个他能找到的舞台，去讲他想和我们作为产品团队、产品组织一起达成的事。某种程度上，那真励志，真的帮我体验到、以及他怎么用产品传道（evangelizing）技巧，真去告诉全公司我们目前在做什么、他觉得外面哪些问题值得解决。所以那绝对是启发。",
+   "ts": "00:45:59"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then I think another great speaker is definitely Hans Rosling. He's no longer with us. That's sad. But he gave great TED Talks, really data-heavy TED Talks because they often hear from product people, yeah, but the work we do that's so boring, how could we make a great story out of that? And I think Hans Rosling showed over and over again that you can. So that definitely is an inspiration.",
+   "zh": "然后我觉得另一个很棒的演讲者是 Hans Rosling。他已经不在了，可惜。但他给过很棒的 TED 演讲，真的那种数据密集的 TED 演讲——因为常从产品人那听到\"对，但我们的工作很无聊，怎么从中做出好故事？\"而我觉得 Hans Rosling 一遍遍展示了你可以。所以那绝对是启发。",
+   "ts": "00:46:47"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then on a totally different note, I love spoken word poetry because it really talks to the heart and minds of people. And in my coaching, I usually send people off to the TED Talk from Sarah Kay, which has the nice title, If I Should Have a Daughter. And that really helps people to understand, \"Ah, okay, that's how you could be playful with words.\" And that's what happens to me personally and to my body and to my emotions if I listen to something like that. So that's maybe three things I could be mentioning.",
+   "zh": "然后在完全不同的方向上，我爱口语诗（spoken word poetry），因为它真能说到人们的心和脑。在我教练里，我通常让人去看 Sarah Kay 的 TED 演讲，标题很妙：《如果我有女儿》（If I Should Have a Daughter）。那真帮人理解\"啊，好，你可以这么玩文字。\"以及听这种东西时，我个人、我的身体、我的情绪会发生什么。所以那也许是三件我能提的。",
+   "ts": "00:47:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hans Rosling's the guy with the world poverty charts and ...",
+   "zh": "Hans Rosling 是那个做世界贫困图表的人，还有……",
+   "ts": "00:47:49"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Exactly.",
+   "zh": "正是。",
+   "ts": "00:47:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, yeah.",
+   "zh": "对，对。",
+   "ts": "00:47:54"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "On world and data.",
+   "zh": "关于世界和数据的。",
+   "ts": "00:47:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "00:47:57"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Now, his son is, I think, in charge, but, yeah.",
+   "zh": "现在他儿子，我想，在管，不过，对。",
+   "ts": "00:47:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. I'm excited. I'm going to watch that one again. That's a good reminder. Maybe just another question around storytelling. Say you're a PM and you're about to start a document or a deck and you just want it to be a good story, what are two or three things you should just do to set yourself up for success?",
+   "zh": "酷。我很兴奋。我要再看一遍那个。好提醒。也许就讲故事再来一个问题。假设你是 PM，正要起一个文档或 deck，就想要它是个好故事，你该做哪两三件事来让自己成功？",
+   "ts": "00:48:00"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah. First of all, don't sit in front of the blank page for too long, just start drafting something. I think there's a lot of beauty in story as a design tool, so to say, because it's even easier to change a story than it is to change a prototype, right? So even before you put something in writing, you could start talking about it and see how it lands and then tweak it. And I think that's the first thing, get going.",
+   "zh": "对。首先，别在空白页前坐太久，就开始起草点什么。我觉得故事作为设计工具有种美——因为改故事比改原型还容易，对吧？所以甚至在你落笔前，你就可以开始讲它、看它落地如何、再调。我觉得那是第一件事：动起来。",
+   "ts": "00:48:17"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then the other thing is go start talking about your story, go test it, see how it resonates, and then tweak it. And maybe you could use one of the proven story structures, find the one that helps you most. Really, even if it's super boring, but I'll use this hero's journey a lot where I think about, should I put the team in the heart of the story? Because if it's a story that should help me to motivate the team or to inspire the team to actions or something like that, then maybe it's nice if I put them in the center of the story and make them the heroes and talk about the demons and monsters they have to fight to once arrived at this brighter future.",
+   "zh": "然后另一件事是：开始讲你的故事、去测试它、看它共鸣如何、再调。也许你可以用个被验证过的故事结构，找对你最有用的那个。真的，即便它超无聊，但我常用英雄之旅（hero's journey），我会想：该把团队放故事中心吗？因为如果是个该帮我激励团队、启发团队行动的故事，那也许把团队放中心、让他们当英雄、讲他们得打败的恶魔和怪物、直到到达更光明的未来，会不错。",
+   "ts": "00:48:43"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And maybe some other times, it makes sense to put the user there and really talk about how their world and lives would have improved once this product is out and available. Or maybe it's even a feature that we're talking about or a bigger redesign or whatever you're currently working on, right? But you could use this proven story structure and see what are the things in there. So the call to adventure, what is the call to adventure? What is this bright future? And it helps you to start and to get going.",
+   "zh": "也许另一些时候，把用户放那、真讲他们世界和生活在这个产品出来可用后会怎么变好，更有意义。或者也许我们聊的是个功能、或更大的重新设计、whatever 你正在做的，对吧？但你可以用这个被验证的故事结构，看里面有什么。比如\"冒险的召唤\"（call to adventure）是什么？那个光明未来是什么？它帮你开始、动起来。",
+   "ts": "00:49:25"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then I usually advise people to have the story handy in various formats. So spoken that you could actually talk about it. Written, because we all tend to work in remote or asynchronous environment. So just a recorded video maybe. Yeah, it's good, but maybe a written version of it is nice as well. And the next one is an illustration that helps you making some of the core points of your story visible to the audience. And that could be a whiteboard drawing, a flipchart drawing. It could be a bigger, maybe it's five slides with emotional pictures on it or whatever it is, but be visual with your story as well.",
+   "zh": "然后我通常建议人们把故事以多种形式备着。口述的——你真能讲它。书面的——因为我们 tendency 在远程或异步环境工作。所以也许一段录好的视频。对，挺好，但也许也来个书面版。再一个是插图，帮你把故事的一些核心点让观众看见。那可以是白板画、挂图（flipchart）画。可以是更大的，也许五张带情绪化图片的 slide 之类，whatever，但也要让你的故事可视化。",
+   "ts": "00:49:55"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And then you should have it ready in three different formats in a super short 75-second elevator pitch version. In the six minutes, I can do this before we actually start planning version. And ideally, I have to go to the company all-hands and have to talk about what we will look into for the next four months. And that's maybe an 80 minutes version. And 80 minutes is the length of an average TED Talk, and there is a reason for that. It has to do with attention spans and all these kind of things. So that's why I advise people to use this three length.",
+   "zh": "然后你该在三种不同长度里备好：超短的 75 秒电梯演讲版；六分钟版——我能在我们真开始规划前做这个；理想情况下，我得去全员大会、讲我们接下来四个月看什么，那是大概 80 分钟版。而 80 分钟是平均 TED 演讲的长度，那是有原因的——和注意力时长之类有关。所以我建议人们用这三种长度。",
+   "ts": "00:50:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "An example you're using there is a PM designing the vision for their team potentially or their strategy for the next, say, six months, right?",
+   "zh": "你那用的例子，是 PM 为他们团队、或他们接下来（比如）六个月的战略设计愿景，对吧？",
+   "ts": "00:51:14"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, exactly. So we don't need to create this complicated story for the next sprint, I'd say. That's too much of an effort, maybe waste of time. You need to look a bit further out to make it worth spending a lot of time on creating your story.",
+   "zh": "对，正是。所以我觉得我们没必要为下个 sprint 搞这个复杂故事。那太费劲，也许是浪费时间。你得看得更远一点，才值得花大量时间创作你的故事。",
+   "ts": "00:51:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If you had to pick one book or resource that helped you become a better storyteller or that you found other people coming back to that helps them level up their storytelling skills, what comes to mind? I'll share one first as you think about that. There's a recent book that you wouldn't think would be good at this, but it is really good at helping understand how to tell a story. And it's called Nobody Wants to Read Your Shit. And it's by ... Yeah. And the title alone is a great lesson, which is, nobody wants to read your stuff. Yeah. But the premise of the book is how to make it so that people find it interesting and useful. It's by Steven Pressfield who wrote The War of Art and Bagger Vance and all these things. So it's one of his new books, I think. So that's what comes to mind.",
+   "zh": "如果你要挑一本帮你变好讲故事、或你看到别人反复回看、帮他们升级讲故事技能的书或资源，什么会冒出来？我先分享一本，你边想。有本近期出的书，你不会觉得它擅长这个，但它真的擅长帮人理解怎么讲故事。它叫《Nobody Wants to Read Your Shit》（没人想读你那破玩意）。作者是……对。光标题就是好教训：没人想读你的东西。对。但书的前提是怎么让人觉得有趣、有用。它是写《The War of Art》《Bagger Vance》那堆的 Steven Pressfield 写的。所以我想是他较新的书之一。那就是我冒出来的。",
+   "ts": "00:51:38"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "That's pretty cool.",
+   "zh": "那挺酷。",
+   "ts": "00:52:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What comes to mind.",
+   "zh": "什么冒出来。",
+   "ts": "00:52:22"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Back in the day when Marty Cagan was my product coach, he made me read Selling the Dream, which is the Macintosh story on product evangelizing by Guy Kawasaki. And it didn't help me to become a better storytelling, but it helped me realize that it's really important that I work on that skill. So that is actually the trigger and material that helped me is basically everything from Nancy Duarte and Duarte Inc. So there are even leadership books about rituals and how to ignite the spark in all the people you're having. So they're talking a lot about the leadership aspect of storytelling, but they have something for the IC level as well, 72 rules on storytelling and all these kind of things. And I have a lot of free material. I know it's not a book, but they have several books and that was great material that helped me to become better.",
+   "zh": "早些年 Marty Cagan 当我产品教练时，他让我读《Selling the Dream》——Guy Kawasaki 写的、关于 Macintosh 产品传道的故事。它没帮我变好讲故事，但帮我意识到练这个技能真重要。所以那其实是触发点，而真正帮我的材料基本是 Nancy Duarte 和 Duarte Inc. 的一切。他们甚至有关于仪式、怎么点燃你所有人身上的火花的领导力书。所以他们聊很多讲故事的领导力层面，但他们也有给 IC 级的东西，比如《72 条讲故事规则》之类。我有很多免费材料。我知道那不是书，但他们有好几本书，那是帮我省好的材料。",
+   "ts": "00:52:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Man, the show notes on this episode are going to be out of control. It's going to hit some limit for [inaudible 00:53:20].",
+   "zh": "天，这期的 show notes 要疯了。要撞上[听不清 00:53:20]的某个上限了。",
+   "ts": "00:53:16"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, maybe we're ... Yeah, the longest show notes ever. Sorry.",
+   "zh": "对，也许我们……对，史上最长 show notes。抱歉。",
+   "ts": "00:53:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh my God. Yeah, it's going to be rough. I'm actually going to try to get Nancy Duarte in this podcast.",
+   "zh": "我的天。对，会很难搞。我其实想试着把 Nancy Duarte 弄进这播客。",
+   "ts": "00:53:24"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Ooh, yeah.",
+   "zh": "哦，好啊。",
+   "ts": "00:53:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So that's a good ... That's-",
+   "zh": "所以那是好……那是——",
+   "ts": "00:53:30"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Say hi if you do. Yeah, I'm a fan.",
+   "zh": "如果你请到，替我问好。对，我是粉丝。",
+   "ts": "00:53:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, I'll do that. I'll do that. Okay. So getting to our final topic, which is around community. You're a big fan of finding community and just the power of being in a community, and I know you've done a bunch of research there, you're just like pumping your fist as we talk about this. I love it. So tell us why you're such a big fan of the power of community for product managers in general.",
+   "zh": "好，我会那么做。我会那么做。好。那么我们来到最后一个话题——社群（community）。你是找社群、社群力量的大力粉丝，我知道你在那做了不少研究，我们聊这个时你就在那握拳。我爱了。所以跟我们说说，为什么你这么推崇社群对 PM 的力量。",
+   "ts": "00:53:34"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Again, the starting point was a rather egocentric starting point because I'm constantly thinking about, how could I scale the work that I do because I still see so many companies not getting a product coach or I still see so many companies where people development is not a priority, all these kind of things. And at some point, I thought, if the line manager is not taking care of the personal development, who could? And I talked to several of my colleagues about the question and, at some point, somebody said, \"Yeah, that's what community of practices are often used for.\" So that's where a lot of people get their inspiration. And basically, I reflected on my career. And early on, I was in a super engaging product organization where, really, we tried a lot, we shared a lot. A lot of the things that we tried didn't work at all, but others really fell on fertile grounds and we could learn from each other.",
+   "zh": "再次，起点其实相当自我中心，因为我一直在想：我怎么把我做的工作规模化？因为我仍看到那么多公司不请产品教练，仍看到那么多公司不把人员发展当优先级，之类。有天我想：如果直线经理不照顾个人发展，谁能？我和几个同事聊了这个问题，有次有人说\"对，那正是实践社群（community of practice）通常的用途。\"所以那正是很多人获得启发的地方。然后我基本反思了我的职业。早年我在一个超投入的产品组织里，我们真试了很多、分享了很多。很多试的根本不行，但另一些真落在了沃土上，我们能互相学。",
+   "ts": "00:53:54"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "And we invested quite some time in this sharing, but everyone got better over time because of this community being present. And so I decided to make this my topic for this year's research, so to say. And I was talking to a lot of my clients and former clients, \"Hey, are you running a community of practice? If you don't run a community of practice, why is that?\" Often, they have never considered running one, they don't know where to start. So that's another problem, obviously. And at some point, I decided to conduct a survey to see if random strangers can tell me about their companies and their community of practice. And it was super interesting as well.",
+   "zh": "我们在这分享上投入了相当多时间，但每个人随时间都变好了，因为有这个社群在。所以我决定把这也做成我今年研究的主题。我和很多客户、前客户聊：\"嘿，你们在运营实践社群吗？如果没，为什么？\"常是他们从没考虑过运营一个，不知道从哪开始。所以那显然是另一个问题。有天我决定做个调查，看随机陌生人能不能告诉我他们公司和他们的实践社群。也超有意思。",
+   "ts": "00:54:55"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "For example, I found that oftentimes there is a bit of a community of practice internally, but they never heard about external product community. So they never heard of your community or to raise this community or mind the product or any of those external communities. And that is shocking to an extent as well because we're all so friendly human beings, happy to share what we learn, and they don't have to go through the same things over and over again. So that's why I think it's a super important question and I would love to help a bit more companies to start a community of practice or to mature the community of practice that they're already having.",
+   "zh": "比如，我发现常常公司内部有点实践社群，但他们从没听说过外部产品社群。所以他们从没听说过你的社群、或 Raise The Bar 这个社群、或 Mind the Product、或任何那些外部社群。那在某种程度上也吓人，因为我们都是这么友好的人，乐意分享学到的，他们不必一遍遍经历同样的事。所以我觉得这是超重要的问题，我很想帮更多公司启动实践社群、或让他们已有的实践社群更成熟。",
+   "ts": "00:55:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What impact have you seen folks get when they join or find a great community? And then what are communities that you find are most useful? You mentioned ... And I want to get your advice on what I could do to make it even better, but maybe those two questions. What impact do you find when you find a great community and then what are some that you [inaudible 00:56:31]?",
+   "zh": "你看到人们加入或找到好社群后获得什么影响？然后哪些社群你觉得最有用的？你提到了……我想就\"我怎么让它更好\"听你的建议，但也许先这两问。找到好社群时你发现什么影响，然后有哪些你[听不清 00:56:31]？",
+   "ts": "00:56:14"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "One impact, definitely, is stickiness. So people tend to stay with companies where they're learning and growing and can, yeah, get to mastery, so to say. Hello, Daniel Pink. So that is really something that people are thriving for, and if they find this in a company and a product community of practice could be a big part of that. So that is one impact.",
+   "zh": "一个影响，绝对是\"粘性\"（stickiness）。人们倾向留在那些能学习、成长、能——怎么说——达到精通的公司。你好，Daniel Pink。那是人们真正渴望的，如果他们在公司里找到这个，而产品实践社群可以是其中很大一部分。所以那是一个影响。",
+   "ts": "00:56:31"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Then the other impact, there's less people development on the desk of the product lead if there is a good product community of practice. So product leads, your life will get so much easier if there is a product community of practice. And it's actually a pretty cheap way of doing people development because trainings are expensive, conference tickets are expensive, getting external product coach, expensive. But helping people to learn from each other by making room for that and giving them a bit of time to reflect and to share what they're learning, that's rather cheap. So I think that is the benefits that I see.",
+   "zh": "然后另一个影响：如果有好的产品实践社群，产品负责人桌上的人发展活就少了。所以产品负责人，如果有产品实践社群，你的生活会轻松太多。而且它其实是个相当便宜的人发展方式，因为培训贵、会议门票贵、外部产品教练贵。但帮人们互相学——腾出空间、给他们点时间反思和分享学到什么——那相当便宜。所以我觉得那是我看到的好处。",
+   "ts": "00:56:59"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Training budget impact. People tend to stay with the company a bit longer. Leadership wise, it's less a time that you have to invest in people development. And then it's just fun for a lot of people. That's another uptake, I'd say.",
+   "zh": "培训预算影响。人们倾向在公司多留一阵。领导力上，你投入人发展的时间少了。然后对很多人就是好玩。那是另一个好处，我觉得。",
+   "ts": "00:57:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are signs that the community that you're in, say, you found?You mentioned a bunch that I think are awesome. Teresa's community, we'll talk about my Slack a little bit. Mind the Product.",
+   "zh": "你身处的社群、比如你找到了，有什么信号说明它是好社群、值得你花时间？是那种该留下，还是\"算了，走人\"？",
+   "ts": "00:57:54"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yes.",
+   "zh": "对。",
+   "ts": "00:58:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are signs that the community you're in is good with your time? Something you should stick with versus like, \"Nah, get out of there.\"",
+   "zh": "你身处的社群有什么信号说明它对得起你的时间？是该坚持，还是\" nah，离开那\"？",
+   "ts": "00:58:03"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "That is actually a good question. So I would say, if it helps you with networking, that is really something good if you meet nice, interesting people. So that is one thing I would love to mention. And then if you're learning something new every now and then, maybe not every day, maybe not every week, but every now and then, there should be some real nuggets where you think, \"Oh, this is making my life easier,\" or \"This is super interesting. I would never ever have stumbled upon this thing without the community.\" So learning something new and then reflecting on how much you already learned about a certain topic or know about a certain topic, which is contributing to the community.",
+   "zh": "那其实是个好问题。我会说，如果它帮你建立人脉（networking），那真是个好东西——如果你遇到 nice、有趣的人。所以那是我想提的一点。然后如果你时不时能学到点新东西——也许不是每天、不是每周，但时不时——该有些真金子，让你想\"哦，这让我的生活更容易了\"或\"这超有趣，没有这社群我绝不会撞上这个\"。所以学到新东西，然后反思你在一个话题上已经学了多少、知道多少，那也是在对社群做贡献。",
+   "ts": "00:58:10"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "You could be a community moderator, you could be somebody organizing some of the rituals, you could be somebody just sharing what you learned. So I think that is something that could be in a good community that is possible at least to share that everybody's sharing and that there's mutual trust and then it's often just, if you enjoy being part of this community. That's, I think, another super important thing to look into. Do you like the people there? Do you like to hang out with them? Do you think they're kind, lovely human beings? And is there some level of activity in the community because there's too many dead ones out there, more or less? And I think these are the things that I, yeah, would use as a benchmark.",
+   "zh": "你可以当社群 moderator，可以当组织某些仪式的人，可以就当分享学到什么的人。所以我觉得那是一个好社群里可能有的——至少可能大家都在分享、有相互信任，而且通常就是：你是否享受作为社群一部分。那我觉得是另一个超重要、该看的点。你喜欢那里的人吗？你喜欢和他们混吗？你觉得他们善良、可爱吗？社群里有没有某种活跃度——因为外面死掉的社群太多了，多少算？我觉得这些是我会用作基准的东西。",
+   "ts": "00:58:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When you're talking about this, initially, I was just imagining online communities, but there's also, obviously, offline communities probably somewhere in your local city.",
+   "zh": "你聊这个时，一开始我只想到线上社群，但显然也有线下的、大概在你当地城市的。",
+   "ts": "00:59:37"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, product things.",
+   "zh": "对，产品类的。",
+   "ts": "00:59:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right. Just like ... Yeah.",
+   "zh": "对。就像……对。",
+   "ts": "00:59:44"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:59:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. So I think ... I don't know if people thought that when I was talking, but, yeah, there's probably meetups happening in your city with product managers that are meeting each other every week, every month maybe.",
+   "zh": "对。所以我觉得……不知人们听我讲时是不是这么想，但，对，你城市里大概有 PM 聚会，每周、或也许每月互相见。",
+   "ts": "00:59:46"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:59:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That sounds awesome. And I love your point about the why of the community versus a course versus reading lots of books. It's really affordable to join some product community, especially if it's online.",
+   "zh": "那听起来超棒。我爱你说的——为什么是社群、而不是课程、而不是读很多书。加入某个产品社群真负担得起，尤其如果是在线的。",
+   "ts": "00:59:56"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yes.",
+   "zh": "对。",
+   "ts": "01:00:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And the ROI could be really high.",
+   "zh": "而 ROI 可能真高。",
+   "ts": "01:00:10"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah. And it brings so much clarity in your thinking if you're sharing some things you learned with the community that this is a massive uptake as well, so give back. That really makes sense for you personally as well.",
+   "zh": "对。而且如果你和社群分享学到的东西，它会给你的思考带来超多清晰——那也是巨大的好处，所以要回馈。那对你个人也真有意义。",
+   "ts": "01:00:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So you mentioned my Slack community. So if folks don't know this and they're listening, basically, if you're a paid subscriber committees letter, you get access to the Slack and there's about 10,000 people in there, mostly PMs and founders and growth leaders, and it's pretty damn incredible. It's probably the thing I'm most proud of of all the things I've done over the last few years around this newsletter and podcast.",
+   "zh": "你提到了我的 Slack 社群。如果听的人不知道，基本就是：如果你是付费订阅我 newsletter 的，你就能进 Slack，里面大概一万人，大多是 PM、创始人和增长负责人，真的相当不可思议。那大概是我过去几年围绕 newsletter 和播客做的所有事里最骄傲的。",
+   "ts": "01:00:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And so if you're not in there, you should definitely check it out. It's thriving. There's meetups happening all over the world every month. There's a mentorship program, there's mastermind groups, all kinds of stuff. And you're familiar with it. And so I just wanted to ask you while I have you here, do you have any advice for how to make this community even more great?",
+   "zh": "所以如果你不在里面，你绝对该去看看。它很兴旺。全世界每月都有聚会。有导师项目、有 mastermind 小组、各种东西。你也熟悉它。所以我只是趁你在，想问你：对我怎么让这个社群更棒，有什么建议？",
+   "ts": "01:00:48"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "That is not an easy question. First of all, congratulations. I really think it's a massive achievement to start such a community and to really have such a vibrant community because I know it takes a lot of energy investment at first to get it going and then a lot of energy to keep it on a certain level, so to say.",
+   "zh": "那不是个容易的问题。首先，恭喜。我真觉得启动这样一个社群、并真有个这么有活力的社群，是巨大的成就，因为我知道一开始要让它动起来要投入大量精力，然后要保持在一定水平也要大量精力。",
+   "ts": "01:01:06"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah. What I found helpful is I have this community canvas that I use when I'm working with clients and some of these things require workshops to some extent. So it helps to reflect on what is the purpose of the community and that changes over time with the community members that are currently part of this community, right? So that is not a stable thing. So sometimes everybody has to pause for a second and then think about what is the purpose of this community, what are our values, and how will we define success?",
+   "zh": "对。我发现有用的是：我有个\"社群画布\"（community canvas），我和客户工作时用，其中一些事在某种程度上需要工作坊。所以它帮人反思：社群的目的是什么——而那随当前社群成员变化，对吧？所以不是稳定的事。所以有时大家都得停一下，想想社群的目的是什么、我们的价值观是什么、我们怎么定义成功？",
+   "ts": "01:01:29"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "It's pretty boring, I know, because it sounds so, so familiar with what we do in product management, but I think it applies for product communities as well. And then you need to find good rituals and rhythm, and you, Lenny, were already talking about some of the ones you are using. I know, for example, what Teresa is doing in her community. I interviewed her this year, so there is a blog post on that online as well where she talks about what she tried, and what did work, and what did not work. So I think that is important.",
+   "zh": "我知道那挺无聊，因为听起来和我们产品管理做的太熟了，但我觉得它也适用于产品社群。然后你需要找到好的仪式和节奏，而你 Lenny 已经聊了你在用的一些。比如我知道 Teresa 在她社群里做什么。我今年采访了她，所以网上也有篇关于那的博客，她讲她试了什么、什么管用、什么不管用。所以我觉得那重要。",
+   "ts": "01:02:05"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Then maybe not so important for your community. Well, let's see. Let's discuss, let me hear what you think, which is incentives and sponsoring. So how do you, yeah, value contribution? Are you giving back? Is it a kudos mechanism or is it something where people really earn badges of honor or earn time, earn more training budget. That's what a lot of companies do, right? If you're playing an active role in the community, then you get more training budget to spend or something like that, or they grant you time to do so. So if you say like, \"Hey, I want to be part of this product community, could I travel a quarter or something like that because I want to go and see those people?\" That is something that people do. So incentives and sponsoring, then it's roles. And that will be interesting in your case as well. Is Lenny the center of the community?",
+   "zh": "然后也许对你的社群没那么重要。嗯，看看。我们讨论下，听你怎么想——是激励和赞助。你怎么，对，重视贡献？你在回馈吗？是那种 kudos（点赞致谢）机制，还是人们真赚荣誉徽章、或赚时间、赚更多培训预算？很多公司就这么做，对吧？如果你在社群里活跃，就给你更多培训预算花，或之类，或他们给你时间去做。比如你说\"嘿，我想参与这个产品社群，我能每季度出差一下吗，因为我想去见那些人？\"人们就那么做。所以激励和赞助，然后是角色。你这 case 也挺有趣。Lenny 是社群的中心吗？",
+   "ts": "01:02:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I try really hard not to do that, actually.",
+   "zh": "对，其实我真的努力不那样做。",
+   "ts": "01:03:34"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, right. Yeah.",
+   "zh": "对，正是。对。",
+   "ts": "01:03:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a [inaudible 01:03:36] try to not be the beacon of all answers. The actual goal of the community was I will not have all the answers. Let's just bring a bunch of smart people together that are already there's this interesting filter of who pays for content about product and growth and stuff.",
+   "zh": "那是[听不清 01:03:36]努力不做所有答案的灯塔。社群真正的目标是：我不会拥有所有答案。就把一群聪明人聚一起——而这里有个有趣的过滤器：谁会为关于产品和增长的内容付费。",
+   "ts": "01:03:36"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:03:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Filter's really interesting. So the whole idea was get out of the middle of this thing and let people help each other and it's worked out really well.",
+   "zh": "过滤器真有意思。所以整个想法是：从中间退出来，让人们互相帮助——而它运作得真不错。",
+   "ts": "01:03:53"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah, because that's what I would say after doing all this research, it's not sustainable if the whole community is on the shoulders of one, two, three people. So you need to distribute the workload and you need to distribute this responsibility because sometimes even things like, yeah, policing the community is not a pleasant job. And if there's only one person dealing with all of these things, then it's not really community because then it's a bit organized like a company in this pyramid scheme.",
+   "zh": "对，因为那是我做了所有研究后会说的：如果整个社群压在一、二、三个人肩上，是不可持续的。所以你得把工作量分散、把责任分散，因为有时甚至像\"治理社群\"都不是愉快的工作。如果只有一个人处理所有这些，那它就不是真社群，因为那有点像公司式的金字塔结构。",
+   "ts": "01:03:59"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "So I think more of it as circles, different circles of interest, and then building bridges between them because maybe not everybody in your community is interested in the same topics, but maybe they are the smaller circles of 10, 15 people interested in this one topic, 10, 15 people interested in this other topic. You may be connecting the dots, you may be giving a bit of impulse and inspiration, but maybe other people are doing the exact same thing, sharing their best reads and their worthy to watch videos, and all these kind of things. So content and curation, definitely, is another thing that you should think about and reflect on once in a while.",
+   "zh": "所以我觉得更多把它想成圆圈、不同的兴趣圈，然后在它们之间架桥——因为也许不是你社群里每个人都对同一话题感兴趣，但也许有 10、15 人的小圈对这一个话题感兴趣，10、15 人对另一个话题感兴趣。你也许在连点，也许给点推动和启发，但也许别人在做完全一样的事、分享他们最好的读物、值得看的视频，之类。所以内容和策展（curation）绝对是另一件你该时不时想、反思的事。",
+   "ts": "01:04:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Thanks for the advice. Curious is so important. Especially early on, I found keeping the signal to noise high always. And especially early on, it was a really prayerful. So there's a lot of focus [inaudible 01:05:19] detail oriented about it all.",
+   "zh": "酷。谢谢建议。好奇心真重要。尤其早期，我发现一直保持高信噪比。尤其早期，那是真的很用心。所以有很多聚焦[听不清 01:05:19]对细节的在意。",
+   "ts": "01:05:08"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yeah. Plus, a lot of communities that I see use engagement as a success metric, and I'm actually not sure if this is a good success metric. So as you say, signal versus noise is maybe the better success metric, which leads us the down the rabbit hole of how to [inaudible 01:05:38]. But, yeah, engagement is maybe not the predominant success factor for a community.",
+   "zh": "对。加上，我看到的很多社群把参与度（engagement）当成功指标，而我其实不确定这是不是好指标。所以如你所说，信噪比也许是更好的成功指标——那把我们带进\"怎么[听不清 01:05:38]\"的兔子洞。但，对，参与度也许不是社群主导的成功因素。",
+   "ts": "01:05:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that's interesting. You also said it's a lot of work. And just to give some shout-outs to folks that help me run this community that we have, I couldn't do this without them. Trey, who leads the community. Keani who-",
+   "zh": "对，那有意思。你也说它工作量很大。就致意一下帮我运营这个社群的人，没有他们我做不到。Trey，社群负责人。Keani，她——",
+   "ts": "01:05:44"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Hello, Trey.",
+   "zh": "你好，Trey。",
+   "ts": "01:05:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hello, Trey.",
+   "zh": "你好，Trey。",
+   "ts": "01:05:55"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I know Keani.",
+   "zh": "我认识 Keani。",
+   "ts": "01:05:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Keani curates the best conversations in the Slack every week and then shares them in this bonus email, Community Wisdom.",
+   "zh": "Keani 每周在 Slack 里策展最好的对话，然后在那份加餐邮件《Community Wisdom》里分享。",
+   "ts": "01:05:58"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Nice.",
+   "zh": "不错。",
+   "ts": "01:06:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then Ria, who's been helping out run the meetup program. And then Jess who's helping with our mentorship program and a few other things. So that's the core team that helps this whole thing run. Thank you to them all.",
+   "zh": "还有 Ria，一直在帮运营聚会项目。还有 Jess，帮我们的导师项目和其他几件事。所以那是帮整个东西运转的核心团队。谢谢他们所有人。",
+   "ts": "01:06:04"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Thank you. And it's super interesting that you're sharing that because companies often don't want to invest in, yeah, full-time community manager is maybe the wrong word because that not necessarily has to be a full-time role, but there need to be some people that really have a decent amount of time to invest in running this community because otherwise it's not working. And I still think it is still cheaper than sending everybody to trainings and conferences all the time, and it has a lot of, yeah, ripple effects and network effects.",
+   "zh": "谢谢。而且你分享这个超有意思，因为公司常不想投入——\"全职社群经理\"也许词不对，因为那不一定得是全职角色，但得有些人有相当多时间投入运营这个社群，否则它不运转。而我仍觉得它比一直把所有人送培训、送会议便宜，而且有很多涟漪效应和网络效应。",
+   "ts": "01:06:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, guess what, we've reached our very exciting lightning round.",
+   "zh": "好，你猜怎么着，我们到了超刺激的快问快答。",
+   "ts": "01:06:48"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "[inaudible 01:06:52].",
+   "zh": "[听不清 01:06:52]。",
+   "ts": "01:06:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I'm going to ask you a few questions. Whatever comes to mind, let me know. We'll go through it pretty fast.",
+   "zh": "所以我要问你几个问题。想到什么说什么。我们过得挺快。",
+   "ts": "01:06:52"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yes.",
+   "zh": "好。",
+   "ts": "01:06:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And are you ready?",
+   "zh": "准备好了吗？",
+   "ts": "01:06:57"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I'm so ready.",
+   "zh": "我超准备好了。",
+   "ts": "01:06:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So ready. What are two or three books that you recommend most to other people?",
+   "zh": "太准备好了。你最常推荐给别人的两三本书是什么？",
+   "ts": "01:06:59"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "The Art of Thinking Clearly by Dobelli. It talks about human biases in a really nice and illustrated way. Then what I use a lot in my coaching practice, especially with senior executive, is Outcomes Over Output because it's a super strong concept, I'd say. And then maybe I want to mention two books that are not yet written, but two concepts that I hope will make it into books, and one is Martin Eriksson's Decision Stack. And then there is another book about public speaking that hopefully might come out if some people are supporting it on Kickstarter. And that is called Present Yourself, a public speaking book.",
+   "zh": "Dobelli 的《清晰思考的艺术》（The Art of Thinking Clearly）。它用很妙、很有插图的方式讲人类偏见。然后我在教练实践里、尤其和高管用的，是《Outcomes Over Output》（成果重于产出），因为那是个超强的概念，我觉得。然后也许我想提两本还没写出来的书、但我希望成书的俩概念，一个是 Martin Eriksson 的\"决策栈\"（Decision Stack）。另一个是本关于公开演讲的书，如果有些人在 Kickstarter 上支持它，希望会出。那叫《Present Yourself》，一本公开演讲书。",
+   "ts": "01:07:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. If you can sign a link to that, we'll include it also in the show notes.",
+   "zh": "太棒了。如果你能给个链接，我们也放 show notes。",
+   "ts": "01:07:42"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Of course.",
+   "zh": "当然。",
+   "ts": "01:07:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The record ...",
+   "zh": "记录……",
+   "ts": "01:07:46"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Show notes, hello.",
+   "zh": "Show notes，你好。",
+   "ts": "01:07:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... longest-ever show notes. Speaking of that, what's another podcast that you love?",
+   "zh": "……史上最长 show notes。说到那个，你爱的另一个播客是什么？",
+   "ts": "01:07:48"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I love the Product Experience podcast. And if you're able to speak German, then there is one that is called [foreign language 01:07:58]. That's a nice interview series.",
+   "zh": "我爱《Product Experience》播客。而且如果你会讲德语，有个叫 [外语 01:07:58] 的。那是很好的访谈系列。",
+   "ts": "01:07:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "[foreign language 01:08:02], I like that. I do not speak German, but I thought it'd be fun to listen to, anyway. What's a favorite recent movie or TV show that you've enjoyed?",
+   "zh": "[外语 01:08:02]，我喜欢。我不会讲德语，但我想听着也会好玩。你最近喜欢、享受的电影或剧集是什么？",
+   "ts": "01:08:02"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Maybe New Amsterdam. I loved it. That's actually a medical director, Matt, and he's finding very unconventional ways to solve problems and I think he's a great leader, so maybe that's a nice framing for watching the show.",
+   "zh": "也许《New Amsterdam》。我爱它。那其实是个医疗总监，Matt，他用非常不常规的方式解决问题，我觉得他是个好领导者，所以也许那是看这剧的好框架。",
+   "ts": "01:08:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What was it called? New Amsterdam?",
+   "zh": "它叫什么？New Amsterdam？",
+   "ts": "01:08:26"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "New Amsterdam.",
+   "zh": "New Amsterdam。",
+   "ts": "01:08:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sweet. What's a favorite interview question that you'd like to ask when you're interviewing folks?",
+   "zh": "棒。你面试人时喜欢问的一个最爱的面试题是什么？",
+   "ts": "01:08:28"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Definitely the tell me about the last time. So tell me about a time when you did your last round of user interviews. Tell me about your last time when you onboarded a new colleague because I think as a user interviewing this, tell me about the last time you really, yeah, sparks nice conversations and interviews.",
+   "zh": "绝对是\"告诉我上一次……\"那种。告诉我你上一轮用户访谈是什么时候。告诉我你上次 onboard 新同事是什么时候，因为我觉得作为用户访谈，这种\"告诉我你上次真的……\"会引出不错的对话和面试。",
+   "ts": "01:08:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are five SaaS tools or products that help you do the work that you do now? And if there aren't enough of those, just great apps that you love right now.",
+   "zh": "哪五个 SaaS 工具或产品帮你做你现在的工作？如果不够，就说你现在爱的 app。",
+   "ts": "01:08:54"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "I'm totally not into product management SaaS tool these days because as I'm just coaching people on hourly basis, I'm no longer the one looking into the SaaS tools they're using. So that's quite a tough question. Things that I use a lot in my personal work is rather boring stuff like bookkeeping software and time tracking [inaudible 01:09:25]-",
+   "zh": "我现在完全不碰产品管理的 SaaS 工具，因为我只是按小时教练人，不再是我去看他们用的 SaaS 工具。所以那是个挺难的问题。我个人工作里用的东西是相当无聊的——比如记账软件和工时追踪[听不清 01:09:25]——",
+   "ts": "01:09:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Which ones? That's interesting.",
+   "zh": "哪些？那有意思。",
+   "ts": "01:09:24"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Harvest is what I use for time tracking and bookkeeping, and I love that. It makes my life easier since a few years already. And then, yeah, new banking apps that are coming up that I'm using for my accounts. One is Qonto, I think it's a German bank, but they really did a great job in the user experience, super seamless in the apps and all these kind of things. Yeah. So that's two cool products that I love to use.",
+   "zh": "我用 Harvest 做工时追踪和记账，我爱它。几年来它让我的生活更容易。然后，新出的银行 app，我用它们管账户。一个是 Qonto，我想是家德国银行，但他们在用户体验上真的做得好，app 里超级顺滑之类。对。所以那是我爱用的两个酷产品。",
+   "ts": "01:09:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great. Who else in the industry do you most respect as a thought leader, influencer-type person?",
+   "zh": "好。行业里你最尊重的、作为思想领袖/影响者类型的人是谁？",
+   "ts": "01:09:54"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "As I'm a conference organizer as well for a conference that was called the Product Engage here in Hamburg, that is the super hard question for me to ask because so many people have been on that stage, that I would consider being a thought leader, they would maybe not consider them being a thought leader. I think the thought leader thing is pretty hard anyway, so there's so many different voices in our industry. And I think looking at the guest list of your podcast actually is a very good start when you think about thought leaders and getting more inspirations because they are ones that we know and some hidden gems on there.",
+   "zh": "因为我也是会议 organizer——在汉堡办叫 Product Engage 的会议——那个问题对我超难问，因为有那么多人在过那个舞台，我会认为是思想领袖的，他们也许不认为自己是的。我觉得\"思想领袖\"这事本来就挺难，我们行业有太多不同声音。而我觉得，看你的播客嘉宾名单其实是找思想领袖、获取更多启发的好起点，因为那些是我们认识的、还有些隐藏宝石在其中。",
+   "ts": "01:10:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great answer. Great answer. Petra, thank you so much for doing this. We've hit the record on show note length, I guess, so that's a milestone. Congrats.",
+   "zh": "好答案。好答案。Petra，太感谢你做这期。我们大概破了 show notes 长度记录，所以那是个里程碑。恭喜。",
+   "ts": "01:10:37"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Yes, thank you. Was a pleasure.",
+   "zh": "对，谢谢。是我的荣幸。",
+   "ts": "01:10:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Two final questions. Where can folks finding online if they want to learn more, reach out, maybe work with you and how can listeners be useful to you?",
+   "zh": "最后两个问题。人们想多学、联系、也许和你合作，能在哪找到你在线？听众怎么帮到你？",
+   "ts": "01:10:51"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Ooh, interesting. Yeah, the first one is easy, LinkedIn, Petra Wille, you can find me there. And then there is my website, Petra-W-I-L-L-E.com. That's my website. And how can listeners be helpful to me? Whew, that's a tough one. I think it could be mutual beneficial if you are a product manager IC level and you would love to get better supported in your personal development and go by my book and just hand it to your manager, if that's appropriate. Or just put it on their desk and just forget that it's there and hopefully they read it or something like that. I think that is how I would love to answer the last question.",
+   "zh": "哦，有意思。对，第一个简单，LinkedIn，Petra Wille，你能在那找到我。然后有我的网站，Petra-W-I-L-L-E.com。那是我的网站。听众怎么帮我？唔，那挺难。我觉得如果你是 IC 级产品经理、想要个人发展得到更好支持，去买我的书、合适的话直接递给你经理。或者就放他们桌上、然后假装忘了它在那，希望他们读——或之类。我觉得那是我会怎么答最后一问。",
+   "ts": "01:10:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Remind folks what the book is called and they can find on Amazon [inaudible 01:11:43].",
+   "zh": "提醒人们书叫什么、他们在亚马逊能找到[听不清 01:11:43]。",
+   "ts": "01:11:40"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Strong Product People.",
+   "zh": "《Strong Product People》。",
+   "ts": "01:11:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Strong Product People. Go check it out on Amazon.",
+   "zh": "《Strong Product People》。去亚马逊看看。",
+   "ts": "01:11:46"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Exactly.",
+   "zh": "正是。",
+   "ts": "01:11:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Petra, thank you so much for doing this.",
+   "zh": "Petra，太感谢你做这期。",
+   "ts": "01:11:48"
+  },
+  {
+   "speaker": "Petra Wille",
+   "en": "Lenny, was a pleasure.",
+   "zh": "Lenny，是我的荣幸。",
+   "ts": "01:11:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's my pleasure.",
+   "zh": "是我的荣幸。",
+   "ts": "01:11:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢收听。如果你觉得这期有价值，可以在 Apple Podcast、Spotify 或你喜欢的播客应用上订阅本节目。也请考虑给我们评分或留言评论，这真的能帮其他听众找到本播客。你可以在 lennyspodcast.com 找到所有往期节目或了解更多关于节目的信息。下期见。",
+   "ts": "01:11:54"
+  }
+ ]
+}

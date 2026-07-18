@@ -1,0 +1,995 @@
+{
+ "id": "Zevi Arnovitz",
+ "name": "Zevi Arnovitz",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Zevi+Arnovitz",
+ "bio": {
+  "en": "Zevi Arnovitz is a PM at Meta (previously at Wix) who, despite having no technical background, learned to use Cursor and Claude Code to build real products entirely on his own.",
+  "zh": "Zevi Arnovitz 是 Meta 的产品经理（此前在 Wix），尽管没有技术背景，他却学会了用 Cursor 和 Claude Code 完全靠自己构建出真正的产品。"
+ },
+ "summary": {
+  "en": "Zevi shares his remarkably practical workflow for building real software as a non-technical PM, using AI coding tools like Cursor and Claude Code. He explains how he scopes, iterates, and ships products solo, and offers a copyable system any non-technical product person can adopt. The episode is an empowering, concrete demonstration that the AI tooling shift has rewritten what a PM without code can do.",
+  "zh": "Zevi 分享了他作为非技术型 PM、用 Cursor 和 Claude Code 这类 AI 编程工具构建真正软件的、异常务实的工作流。他解释了自己如何界定范围、迭代并独自交付产品，并给出了任何非技术产品人都可复制的系统。本期是一次赋能性的、具体的演示：AI 工具的变革已经重写了“没有代码的 PM”所能做到的事。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "You are a product manager shipping product without knowing how to write code, barely knowing how to review code.",
+   "zh": "你是个产品经理，却不会写代码，甚至连代码评审都 barely 懂。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I have zero technical background, did music in high school ... when Sonnet 3.5 came out. I remember watching a YouTube video building apps using Bolt or Lovable. It basically felt like someone came up to me and said, \"You have superpowers now.\"",
+   "zh": "我毫无技术背景，高中时学过音乐……那时候 Sonnet 3.5 刚推出。我记得当时看过一个用 Bolt 或 Lovable 开发应用的 YouTube 视频，感觉就像有人走到我面前说「你现在拥有超能力了」。",
+   "ts": "00:00:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "These days, you're using Cursor with Claude Code.",
+   "zh": "如今，你用 Cursor 搭配 Claude Code 工作。",
+   "ts": "00:00:19"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "If you're non-technical like me, code is terrifying, but AI just makes it so much possible. In the next coming years, I think everyone's going to become a builder. Titles are going to collapse and responsibilities are going to collapse.",
+   "zh": "如果像我一样非技术出身，代码确实让人头疼，但人工智能让这一切变得容易得多。在未来几年，我觉得每个人都会成为创作者。职位名称会被淡化，职责也会被重组。",
+   "ts": "00:00:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The main challenge people have is reviewing the code that AI has written.",
+   "zh": "人们面临的主要挑战是评审人工智能写出的代码。",
+   "ts": "00:00:33"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "It's very difficult for me to catch mistakes. What I'll do is basically /review. This tells Claude to start reviewing its own code, but what's even cooler is I have Codex as well as Cursor open. I will have each of them review the code.",
+   "zh": "对我来说，发现错误非常困难。我通常会用 /review 指令，让 Claude 开始评审自己的代码，但更酷的是，我同时打开了 Codex 和 Cursor，让它们各自评审代码。",
+   "ts": "00:00:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This comes back to this quote. I think everyone's always hearing. It's not that you will be replaced by AI. You'll be replaced by someone who's better at using AI than you.",
+   "zh": "这让我联想到那句话：人们总在说你会被人工智能取代，但更可能的是，你会被比你更善于利用人工智能的人取代。",
+   "ts": "00:00:52"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "It's the best time to be a junior, contrary to what a lot of people are saying, how there's no more junior roles out there. Yeah, that's true, but also when else in history could you get out of school and just build a startup on your own?",
+   "zh": "恰恰相反，尽管很多人说初级职位越来越少，但现在正是初级开发者的最佳时代。没错，初级职位确实在减少，但历史上还有什么时候能让你一毕业就独自创办一家初创公司呢？",
+   "ts": "00:00:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Zevi Arnovitz. Zevi is a PM at Meta. Prior to that, he was a PM at Wix, and this is a truly remarkable conversation that every non-technical product person needs to hear. Zevi is super young and has no technical background, but as a smart, young, ambitious person, has learned how to use Cursor and Claude Code to build significant and real products completely on his own, and he's created his own very clever and effective workflow that everyone listening can copy. (00:01:40): To make that copying even easier, at the top of the show notes of this episode, you can download all of the prompts and /commands and start doing all of this yourself. Zevi shows you how to work with cursor to quickly add your ideas to Linear to explore your idea with AI, how to develop your plan, how to then build the thing, and then have different LLMs review your code and update your documentation, and then use all of this as a learning opportunity to develop your own sense of how things work. (00:02:07): I haven't stopped thinking about this conversation since we had it, and everyone needs to pay attention to what AI is unlocking for non-technical people. A huge thank you to Tal Raviv for encouraging me to meet Zevi. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. (00:02:23): It helps tremendously. And if you become an annual subscriber of my newsletter, you get 19 premium products for free for an entire year including Lovable, Replit, Bolt, Gamma, n8n, Linear, Devin, PostHog, Superhuman, Descript, Wispr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas. Head on over to lennysnewsletter.com and click product pass. With that, I bring you Zevi Arnovitz after a short word from our sponsors. (00:02:50): This episode is brought to you by 10Web, the company that pioneered AI website building before ChatGPT. In the last three years, over two million websites have been generated with 10Web's vibe coding platform. 10Web's vibe coding platform is a powerful way to build websites. Think of it as lovable for WordPress, front end and backend. Users can build any website at any complexity, e-commerce, portfolios, information websites, blogs, and it comes with the WordPress admin panel and thousands of ready to use plugins. (00:03:22): 10Web also offers website generation as an API as a service for SaaS companies, marketplaces, hosting providers, MSPs and agencies. SaaS companies can embed it via API so that users can launch AI generated sites directly inside of their platform, connected to their own data. Agencies and MSPs can get a white label dashboard to manage clients and resell under their brand. Hosting providers can self-host the API builder on their own infrastructure. (00:03:49): Check it out at 10web.io/lenny and use code Lenny for exclusive free credits and 30% off API or white labeled solutions. That's the number 10web.io/lenny, vibe coding platform as an API. Today's episode is brought to you by DX, the developer intelligence platform designed by leading researchers. To thrive in the AI era, organizations need to adapt quickly, but many organization leaders struggle to answer pressing questions like, which tools are working? How are they being used? What's actually driving value? (00:04:25): DX provides the data and insights that leaders need to navigate this shift. With DX, companies like Dropbox, Booking.com, Adyen, and Intercom get a deep understanding of how AI is providing value to their developers and what impact AI is having on engineering productivity. To learn more, visit DX's website at getdx.com/lenny, that's getdx.com/lenny. Zevi, thank you so much for being here and welcome to the podcast.",
+   "zh": "今日嘉宾是 Meta 公司的产品经理泽维·阿诺维茨（Zevi Arnovitz）。在此之前，他曾在 Wix 担任产品经理。这是一场非技术产品从业者必听的精彩对谈。泽维年少且无技术背景，但凭借聪明才智和雄心壮志，他仅凭 Cursor 和 Claude Code 等工具，就独自打造出了极具价值的实体产品。他的高效工作流程堪称典范，听众们完全可以效仿。（00:01:40）  \n为方便复制，您可以在本期节目笔记顶部下载所有提示语和命令，立即实践。泽维将向您展示如何利用 Cursor 快速将创意导入 Linear 平台，通过 AI 探索构想，制定方案，构建产品，再让不同的大语言模型（LLM）审核代码并更新文档，最后将这一切转化为学习机会，深化对产品运作机制的理解。（00:02:07）  \n自对谈结束后，我便对 AI 赋予非技术人员的可能性念念不忘。特别感谢塔尔·拉维夫（Tal Raviv）促成这次交流。若您喜欢本播客，别忘在喜马拉雅或 YouTube 订阅关注。（00:02:23）  \n订阅我的年度通讯，即可免费获取 19 款优质产品，包括 Lovable、Replit、Bolt、Gamma、n8n、Linear、Devin、PostHog、Superhuman、Descript、Wispr Flow、Perplexity、Warp、Granola、Magic Patterns、Raycast、ChatPRD、Mobbin 和 Stripe Atlas。立即访问 lennysnewsletter.com，点击“产品通行证”。  \n本期节目由 ChatGPT 时代的 AI 网站建设先锋 10Web 赞助。在过去三年里，超过 200 万个网站通过 10Web 的 Vibe 编码平台诞生。Vibe 编码平台是强大的网站构建工具，堪称 WordPress 前端与后端的 Lovable。用户可轻松搭建任意复杂度的网站——电商、作品集、资讯站、博客等，并配备 WordPress 管理面板及数千款即用型插件。  \n（00:03:22）  \n10Web 还为 SaaS 公司、市场平台、托管商和代理机构提供 API 生成服务。SaaS 公司可通过 API 嵌入，直接在平台内生成由 AI 驱动的网站，并连接自有数据；代理机构可获取白标控制面板管理客户并以自有品牌销售；托管商可在自有基础设施上自托管 API 构建器。  \n（00:03:49）  \n访问 10web.io/lenny，使用优惠码 Lenny 即可获得免费积分及 API/白标解决方案 30% 折扣。  \n\n本期节目由 DX 赞助——由顶尖研究者打造的开发者智能平台。若想在 AI 时代蓬勃发展，企业需快速适应，但许多领导者却在诸如哪些工具有效、如何应用、真正创造价值的因素等关键问题上苦苦挣扎。  \n（00:04:25）  \nDX 为企业提供所需数据与洞察，助力其完成这一转型。Dropbox、Booking.com、Adyen 和 Intercom 等公司借助 DX，深入了解 AI 如何为开发者创造价值，以及 AI 正在产生何种影响。\n工程生产力。欲了解更多信息，请访问 DX的官网getdx.com/lenny，网址是getdx.com/lenny。泽维，非常感谢你能参与本次访谈，欢迎来到我们的播客节目。",
+   "ts": "00:01:11"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Thanks for having me, Lenny. I'm a huge fan of the show and tons of people that I've admired most and learned the most from. I've been on here, so it's a crazy moment for me. I'm really excited for this.",
+   "zh": "感谢邀请，莱尼。我是这个节目的忠实听众，也是许多我最敬佩、从中获益最多的前辈的粉丝。这次能来参加节目，对我来说真是激动人心的时刻，真的太兴奋了。",
+   "ts": "00:04:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I really appreciate that. I want to start by reading actually a note I got about you from Tal Raviv, who is a previous podcast guest, many times newsletter collaborator. One of the most AI forward product managers that I know I've learned a ton from him. So here's what he said about you when he introduced us. (00:05:23): Zevi is the most hands-on vibe coding PM I know, and I've personally learned so much from him. His engineers at Meta ask him to teach them how to do what he does. Every time we get coffee, I repeatedly get this feeling of everyone needs to be hearing this.",
+   "zh": "非常感谢。我想先读一封塔尔·拉维夫（Tal Raviv）写给你的信。他曾多次做客我的播客，也是我通讯栏目的合作伙伴。他是我认识的最具人工智能前瞻性的产品经理，从他身上我学到了很多。下面是他在介绍你时所说的内容。（00:05:23）：泽维是我认识的最亲力亲为的编码产品经理，我从他身上学到了很多。Meta公司的工程师们都请他教他们如何做他做的事。每次我们一起喝咖啡时，我总会反复感叹：每个人都应该听听这些见解。",
+   "ts": "00:05:06"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "That's so nice.",
+   "zh": "这真是太好了。",
+   "ts": "00:05:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And so that's the goal. That's the goal of this conversation is to help more people hear what you figured out. We're going to get very hands-on. We're going to do a lot of show versus tell, showing people what you've figured out about how to be a PM, a non-technical PM building stuff. I want to give people a little bit of background on you because I think this is going to inspire a lot of listeners to feel like they can also do what we're about to show you. This is going to look very advanced, but just give people a little bit of sense of just your background.",
+   "zh": "所以这就是我们的目标。这次对话的目的是帮助更多人了解你的心得。我们会非常注重实践，少说多做，向大家展示如何成为一名非技术型产品经理，如何打造产品。我想先简单介绍一下你的背景，因为我相信这会激励许多听众，觉得自己也能做到我们即将展示的那些事。这看起来可能很高深，但还是先让大家对你的背景有个初步了解。",
+   "ts": "00:05:38"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I'm very non-technical. I have zero technical background. Did music in high school. A lot of Israelis do technology units in the Army. I was not in a tech unit. And basically a year ago, I was traveling with my wife for three months in Asia and we were in Japan and that was around when Sonnet 3.5 came out. And I remember watching a YouTube video. I think it was either Greg Isenberg or Riley Brown and they were basically building apps using, it was either Bolt or Lovable, just using AI. (00:06:39): And it was like a crazy moment for me because I was watching this and it basically felt like someone came up to me and said, \"Hey Zevi, there's this cool new technology you should check out. You should really give it a try. Oh, and by the way, you have superpowers now.\" And the second I got home from Japan, I didn't even unpack my bags, ran to my computer, opened Bolt, opened an account, and for the past year I've been building. (00:07:03): And the last thing I'll say on that is we talked about this a bit before we started recording, but I was prepping with Claude for the episode and I was trying to clarify what my goal is for this episode. And Claude said, \"If people walk away thinking how amazing you are, you failed. And if people walk away and open their computer and start building, you've succeeded.\" So I really hope that we can inspire some people to do the same.",
+   "zh": "我完全非技术出身，毫无技术背景。高中时学过音乐。很多以色列人都会在军队里参加技术单位训练，但我没参加过技术单位。大约一年前，我和妻子在亚洲旅行了三个月，期间去了日本，恰逢 Sonnet 3.5 发布。我记得当时看了一个 YouTube 视频，应该是格雷格·伊森伯格（Greg Isenberg）或莱利·布朗（Riley Brown）讲的，他们用 Bolt 或 Lovable 等工具，仅靠人工智能就能开发应用。这对我来说是个震撼的时刻，感觉就像有人走过来对我说：“嘿，泽维，有个超酷的新技术，你应该试试看。哦，对了，现在你有了超能力。”我一从日本回家，根本没拆行李，就冲到电脑前注册了 Bolt 账号，过去一年我一直在开发产品。（00:07:03）：最后我想说的是，我们在录制前聊过这个问题，但我和克劳德（Claude）一起准备这期节目时，试图明确我的目标。克劳德说：“如果人们走后觉得你太棒了，那你就失败了。如果人们走后打开电脑开始行动，那你就成功了。” 所以我真心希望我们能激励一些人也这样做。",
+   "ts": "00:06:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that so much. I feel like that should be the goal for my podcast. If you're like, \"I love that guest.\" It's less of a win. If it's just like, \"Oh, I'm so inspired to do the thing that they figured out, that is the real win.\" I love, Claude is the best.",
+   "zh": "我太喜欢这个理念了。我觉得这才是我播客的核心目标。如果听众只是觉得嘉宾很棒，那说明没达到目标。真正成功的是听众受启发后开始行动。这才是真正的胜利。克劳德是最棒的。",
+   "ts": "00:07:27"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I agree.",
+   "zh": "我完全同意。",
+   "ts": "00:07:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So let's dive in and give people, let's start with kind of a high level overview of how you operate and you use AI in your job. What are the core tools and just what's kind of like the frame of reference for the workflow that you figured out and how you operate?",
+   "zh": "好的。那么，让我们深入探讨一下，先为大家概括一下您在工作中如何运用人工智能，以及您是如何操作的。核心工具都有哪些？您总结出的工作流程框架是怎样的？又是如何开展工作的呢？",
+   "ts": "00:07:42"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "This all started where I was a project's power user. I love projects, GPT projects.",
+   "zh": "这一切都始于我成为某个项目的深度用户。我特别喜欢项目，尤其是基于GPT的项目。",
+   "ts": "00:07:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "ChatGPT projects?",
+   "zh": "基于ChatGPT的项目吗？",
+   "ts": "00:08:03"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, exactly. GPT projects and Claude projects, which are basically a shared folder of chats which share both custom instructions and shared knowledge base. And I think it was around when GPT started using memory where I thought it was interesting, but it really annoyed me because I do a bunch of different things. I'm a terrible runner, I'm a PM, I was a student, psychology student, so I had all these different facets of life. And what happened was the memory feature was mixing stuff up. (00:08:39): So like I talked to GPT about running and it would say, \"Oh yeah, after this 5K, you're going to crush all your next product reviews.\" And it's like, okay, I understand that you have that in your memory, but it's just not relevant. And projects basically allows you to compartmentalize and have things within the right context. So tracking back to the story I told when we came back from Japan, I started building this app. (00:09:05): The first thing I noticed was that these products were built in a way where, and when I say these products, I mean Bolt and Lovable, were built in a way where they were super eager to write code. So their system prompt was you're a coding agent. So when you'd write something, they'd straight away start coding. So at the beginning of a project, this was super fun and exciting because they just go and start building your app. (00:09:27): But later on when things got more complex, this created much more problems because planning is really important when you're implementing something technical and let's say you're implementing payments or something that's going to be a change to your database. If the coding agent is just like, \"All right, I got it.\" And just starts writing code, this always results in terrible things, some really gnarly bugs that I had. (00:09:51): And to mitigate this, what I did was I created sort of a CTO. So again, I'm not technical. I have been in product for a while, but I know zero stuff about code. So basically what I did was I created a CTO with the custom prompt of it being the complete technical owner of the project. So I told it, \"I own the problem. I own how we want the users to feel. You're the complete owner of how this is going to be built. I want you to challenge me. I don't want you to be a people pleaser.\" (00:10:24): All these things that kind of mitigate the regular ChatGPT-isms. I always think about this where for some reason, the easiest way for me to think about AI is to imagine it as people. And I think ChatGPT would probably be the worst CTO because it's such a people pleaser and it's so sycophantic where ... Just a short story I had a few weeks ago, I was trying to learn about Bun JavaScript, which was acquired by Anthropic and I was trying to understand what they do. (00:10:54): So I was talking to GPT and this wasn't within my co-founder CTO project and I asked it if it's similar to a different framework that I have in my app called Zustand, which nothing to do at all with what Bun JavaScript does. And basically GPT goes, \"Oh yeah, it's exactly the same.\" And then it started talking about what it meant and I was like, \"Wait, no, these are not the same at all.\" And it said the most terrifying and hilarious thing. (00:11:22): He goes, \"Oh, I'm sorry. I thought you were just making this up and I was riffing with you.\" And I was like, \"Oh no, no, no, this is terrible.\" So basically if regular ChatGPT was a CTO, that would be the CTO who goes along with your dumbest ideas. So creating the project allowed me to mitigate that.",
+   "zh": "是啊，就是这样。GPT项目和Claude项目，本质上就是一个共享的聊天文件夹，里面既有自定义指令，也有共享的知识库。我记得GPT开始使用记忆功能的时候，我觉得挺有意思的，但其实这让我很头疼，因为我做的事情太杂了。我跑步技术烂，是个产品经理，还当过心理学学生，生活里有各种各样的面向。结果记忆功能把这些东西混在一起了。（00:08:39）比如我跟GPT聊跑步，它会说：“哦对，跑完这5公里，你就能把接下来的产品评测都搞定了。” 好吧，我知道你记忆里有这些内容，但这根本不相关啊。项目功能能让你把不同内容分门别类，放在合适的上下文里。比如我之前讲的从日本回来的故事，我开始开发那个应用。（00:09:05）我首先发现这些产品（比如Bolt和Lovable）的设计太激进了，总想让你直接写代码。系统提示会说“你是个编码工程师”，然后你一写代码，它就直接开始编码。项目刚开始这很有趣，但后来事情复杂了就出问题了。比如你要实现支付功能，或者改动数据库结构，这些技术性任务需要规划。如果编码工程师一上来就说“好的，我懂了”，然后直接写代码，往往会出大问题，比如我遇到过很严重的Bug。（00:09:51）为了解决这个问题，我设置了一个CTO角色。虽然我不懂技术，但做过产品经理，至少对代码一窍不通。所以我用自定义提示创建了一个CTO角色，明确规定他是项目的技术负责人。比如我告诉它：“我负责整体体验，负责用户感受。项目的技术实现由你全权负责。要挑战我，而不是讨好我。” （00:10:24）这些设置有效缓解了ChatGPT的常见问题。我总觉得把AI拟人化最容易理解。比如ChatGPT可能就是最差的CTO，因为它太讨好用户，太阿谀奉承了。几周前我学习Bun JavaScript（被Anthropic收购的框架），想了解他们的技术栈。（00:10:54）我跟GPT聊天，这不在我的合伙人CTO项目里。我问它和Zustand框架是否相似，但Zustand和Bun完全不同。结果GPT说：“哦对，一模一样。” 然后开始讲解原理，我说：“等等，不一样的。” 它最后说了最恐怖又搞笑的话。（00:11:22）它说：“哦，对不起，我以为你在开玩笑，跟我互动呢。” 我说：“不不不，这太糟糕了。” 所以如果普通的ChatGPT是CTO，它肯定会附和你最糟糕的想法。创建项目让我能有效规避这些问题。",
+   "ts": "00:08:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So this is, just to be super clear, you have a ChatGPT project that you've given a prompt to be your CTO of your product and being a non-technical person, this is kind of like the thing you talk to when, and we'll get to what you're actually using to build when you have questions about architecture and decisions that are technical.",
+   "zh": "嗯，首先我要明确一点，你有一个用ChatGPT做项目的经历，让它担任你产品的CTO。作为一个非技术人员，这就像是你和它对话的工具，当你遇到架构或技术决策的问题时，它能提供帮助。",
+   "ts": "00:11:40"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. So now I'll show my full workflow and I don't involve GPT anymore, but I definitely would recommend, even though the technology has gone ... So when I started this, there was no plan mode or ask mode. It was just build on these products on Lovable and Bolt, and they've progressed a ton. A lot of what I had as workflows have become ingrained in these products, which is really interesting. (00:12:24): I would still recommend start with a project for, first of all, the reason that I said, and also it kind of puts you in a place where you're in a chatbot and not writing code. So you take the time to converse and to learn, which I think is critical. And the second thing is if you're non-technical like me, code is terrifying. It's the scariest thing in the world to look at, and I look at it as kind of like exposure therapy. (00:12:49): I think if you see this where I'm working like in Claude or in Cursor, you might be excited to start using those, but I would really recommend starting slow with a GPT project, beautiful UI, super simple, then maybe graduate to like a Bolt or a Lovable, and then go to Cursor in light mode, slowly, slowly, gradually ease in until you open a terminal, go full dark mode, go full dev. So I would really recommend doing this gradually.",
+   "zh": "是的。接下来我要展示我的完整工作流程，现在我不再使用GPT了，但我还是强烈推荐先从一个项目入手。首先，我之前提到过，这能让你专注于聊天机器人而非编码。这样你就有时间交流和学习，这点很关键。其次，如果你像我一样非技术出身，编码会让人望而生畏。看着代码就像在接受心理治疗一样。（00:12:24）如果你看到我在Claude或Cursor上工作，你可能会兴奋地想立即使用它们，但我建议先从一个GPT项目入手，比如界面美观、操作简单的项目，然后再逐渐升级到Bolt或Lovable，最后再用Cursor的轻量模式，逐步适应，直到你最终打开终端，完全进入深色模式，彻底投入开发阶段。我真的建议循序渐进。",
+   "ts": "00:12:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is awesome advice. And so just to be clear, these days you're using Cursor with Claude Code powering it. And what I love about that is that you've never written code. The way you put it, you're afraid of even looking at code.",
+   "zh": "这真是很棒的建议。那么再明确一下，现在你用的是Cursor，底层用Claude Code支持。让我感兴趣的是，你从未写过代码。正如你所说，你甚至害怕看代码。",
+   "ts": "00:13:19"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, 100%.",
+   "zh": "是的，完全赞同。",
+   "ts": "00:13:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You can do exposure therapy, and I love that Cursor is useful to you. And what you're telling us is that graduating from a ChatGPT project that is kind of your technical co-founder kind of taught you enough to feel more comfortable going straight to cursor. You said that you actually went to Bolt and Lovable kind of in the interim and then you went just straight to Cursor. What's the reason to just go straight to Cursor? Is it just Cursor can do everything and once you get the hang of it, it's actually the most powerful tool?",
+   "zh": "你可以进行心理治疗，而Cursor对你很有用。你告诉我们，从一个把你当作技术合伙人的ChatGPT项目毕业后，你掌握了足够的知识，得以更自如地直接使用Cursor。你说你在此期间用了Bolt和Lovable，然后直接转用Cursor。为什么直接转用Cursor呢？是因为Cursor能处理一切吗？一旦你掌握了它，它就是最强大的工具吗？",
+   "ts": "00:13:33"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, I think I graduated from each tool when I kind of outgrew it. So Bolt was awesome until I was trying to connect payments to my app and I kind of started losing it and then I graduated to Cursor and I've actually fallen in love with Claude. So I'm using Claude Code, but that also runs within Cursor, and I think this is Tal who told me this. (00:14:22): I'm not sure who he's quoting, but code is just words at the end of the day. So it's just files on your computer. So basically you can be working on the same project and carry it from app to app. And especially now, I can work with multiple models and apps on my project. So start slow, but definitely there's a lot of places you can graduate to.",
+   "zh": "是的，我觉得每个工具我都是在超越它后才升级的。Bolt很棒，直到我尝试把支付功能接入我的应用时，才开始遇到问题。然后我升级到Cursor，现在我还爱上了Claude。所以我现在用Claude Code，但它也在Cursor里运行，我想是Tal告诉我的。（00:14:22）我不确定他引用的是谁，但代码终究只是电脑里的文件。所以你可以在不同应用间切换同一个项目。尤其是现在，我可以在项目中同时使用多个模型和应用。所以要慢慢来，但确实有很多升级的可能性。",
+   "ts": "00:14:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. Should we dive into screen share showing how you operate?",
+   "zh": "太棒了。好的，我们要开始屏幕共享，展示你的操作流程吗？",
+   "ts": "00:14:42"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Awesome. I pulled up cursor. Can you see it?",
+   "zh": "太好了。我打开了Cursor，你能看到吗？",
+   "ts": "00:14:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm.",
+   "zh": "嗯。",
+   "ts": "00:14:49"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Perfect. So within my code base, what you can see here on the left, these are all my code files. Here on the right is Cursor. So this is basically like having AI, which has access to all the code. And here in the middle, I have Claude Code running. And what you can see here, I'm going to close cursor for a second. What you can see here are all my /commands. (00:15:10): Basically what /commands are, they are reusable prompts that I save within the code base that I can run by writing / and then the name of the file. So here you can see Create Issue, which is the first command that I'm going to use. And basically what this tells Claude, it says the user is meant development and thought of a bug or a feature and improvement, capture it fast so they can keep working. (00:15:32): And then it basically says, this is the format that I want you to capture the linear issue in, and it explains a bunch of things what exactly Claude needs to do to get there. So the way I invoke this is basically I'll do /create issue and this injects this prompt into Claude. So it says, \"I'm ready to help you to capture this issue, what's on your mind.\" (00:15:56): So basically when I'll do this is if I'm working on a big project and I suddenly come across a bug or have an idea that I don't want to work on right now, but I want to work on later, I'll do this really quick and Claude's main goal is to quickly capture what I'm thinking about. So quickly to run through my full workflow. So basically it starts with creating an issue. So this is the create issue /command, which basically tells Claude that I'm mid-development and it should quickly capture what I'm thinking about and create an issue within linear. (00:16:26): Then later on, when I want to pick this up, I have the exploration phase. Exploration phase is basically telling Claude, we're going to only explore what we want to solve here. It could either pull from linear or I can just speak freely to it. And what it will do is it will analyze and understand the issue and just ask clarifying questions. The next phase after we've done finished exploration phase is we're going to create a plan. (00:16:50): So you can see create plan. This basically has a template that I love for creating plans, and the output of this at the end of the day will be a markdown file with our plan that we can end up building along with code. After creating the plan, we have execute plan. After execution, we have review and then we have peer review, which is really cool and we'll get into later on, and at the end, we update the docs. (00:17:14): So this is updating documentation and everything so that agents can write better code later on. So I think what we'll do is we're going to build a feature live for my app, which I think is really cool. But first what I'd like to do is show you the app so you have some context. So this is StudyMate. It's a platform for students, which allows them to upload study materials and create interactive tests based on their own materials. (00:17:40): So here we can go to the top. Let's upload a PDF. We can decide what pages we want to be quizzed on. We can decide the number of questions, the difficulty level. And basically what happens behind the scenes is we send the information the user uploaded along with the system prompt and any other augmentations the users decided to Gemini and we create a quiz. These are challenging questions that are meant to assess comprehension. You even have some hints and once we do a few of these, we can submit ... I got them right?",
+   "zh": "太棒了。在我的代码库中，你们在左边看到的这些都是我的代码文件。右边是 Cursor。这基本上就像让 AI 访问所有代码一样。而中间运行的 Claude Code 可以处理用户的命令请求。（00:15:10）：基本上，/commands 是可重用的提示语，我将它们保存在代码库中，用户可以通过输入 / 并跟上文件名来运行。例如，\"Create Issue\" 是我即将使用的第一个命令。它会告诉 Claude，用户正处于开发过程中，遇到了 bug 或功能改进需求，需要快速记录下来，以便继续工作。（00:15:32）：然后它会说明我希望 Claude 以何种格式捕获线性问题，并详细解释了 Claude 需要执行的步骤。我通过 /create issue 触发这个提示，Claude 会回复：\"我准备好帮你记录这个问题，请说吧。\"（00:15:56）：基本上，我会在大型项目中遇到 bug 或灵感时，快速记录下来，然后再处理。Claude 的主要目标是快速捕获我的想法。接下来，我会简要介绍整个工作流程。首先是创建问题。/create issue 命令会告诉 Claude 我正在开发过程中，需要快速记录想法并创建线性问题中的条目。（00:16:26）：然后在探索阶段，我会告诉 Claude 只需探索当前需要解决的问题。探索阶段可以从线性问题中提取信息，或者我可以自由地与它对话。Claude 会分析问题并提出澄清性问题。完成探索阶段后，我们会制定计划。（00:16:50）：接下来是执行计划。执行完成后，我们会进行回顾和同行评审，这部分非常棒，稍后会详细介绍。最后，我们会更新文档。（00:17:14）：这涉及更新文档等操作，以便智能助手能更好地编写代码。接下来，我想为我的应用实时开发一个功能，我觉得这非常酷。但首先，我想向你们展示这个应用，让你们有个整体了解。这是 StudyMate，一个面向学生的平台，允许他们上传学习资料并基于自己的材料创建互动测试。（00:17:40）：在这里，我们可以上传 PDF 文档，选择需要测试的页面数量和难度级别。后台会将用户上传的信息、系统提示以及用户选择的任何增强功能发送到 Gemini，我们会创建一个测试。这些是用于评估理解程度的挑战性问题。甚至还有一些提示功能，完成几道题后，我们可以提交... 我答对了吗？",
+   "ts": "00:14:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Terrible results.",
+   "zh": "糟糕的结果。",
+   "ts": "00:18:21"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, lucky.",
+   "zh": "是啊，真幸运。",
+   "ts": "00:18:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And so just to be really clear about this, this is like a side business that you have, an app that you built that's making money. That's like a thing you vibe coded having no technical experience.",
+   "zh": "所以说清楚一点，这就像你的一项副业，你开发的能赚钱的应用。这就像你完全没有技术经验，却随意敲代码做出来的东西。",
+   "ts": "00:18:23"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, this is my weekend project. Yeah. This is what I do.",
+   "zh": "是啊，这是我的周末项目。是的。这就是我做的事。",
+   "ts": "00:18:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing.",
+   "zh": "太棒了。",
+   "ts": "00:18:35"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "On weekends. Yeah. So you get basically deep explanations into why each question was wrong or each question was right. And at the moment, StudyMate only has multiple choice questions. And I was doing some competitor research over the last weekend and I saw competitors who had true or false questions and also fill in the blank questions, which I loved. So I think that'd be really cool if we could build that live. How's that sound?",
+   "zh": "周末的时候。是的。所以你基本上能深入了解每个问题的错误原因或正确答案。目前，StudyMate只有多项选择题。我上周末做了些竞品研究，看到有些竞品有判断题和填空题，我特别喜欢。所以如果我们能实时开发这些功能就太棒了。你觉得怎么样？",
+   "ts": "00:18:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. Crossing your fingers, this all work. I just want to highlight the stuff you shared right before this in cursor. So this is a huge deal, what you describe here. This is essentially what you've figured out is a way as a person that has no idea how to write any code, how to build a product in Cursor as a product manager using this series of /commands that you've concocted that you're going to be sharing with listeners. They can download all these and just use them directly. They don't have to figure out all these prompts that you've figured out.",
+   "zh": "我超爱这个。祝你好运，希望一切顺利。我想重点强调你刚刚在cursor里分享的那些内容。你描述的这部分太重要了。这本质上就是你作为一个完全不懂如何写代码、如何在cursor中做产品经理的人，如何利用你创造的一系列/命令来实现目标。听众可以直接下载这些命令，直接使用，不用自己去摸索那些提示语。",
+   "ts": "00:19:00"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, 100%. Basically what happened was I formulated the backbone of this with the CTO, and it was basically within the system prompt of the CTO project that I had within GPT. So it said, step one, we do this. Step two, we do this. And now I'll keep building. And if I see something that happens over and over again, I'll just create a /command and then it will be automated within the workflow.",
+   "zh": "对，百分之百正确。基本上，我们和CTO一起制定了框架，然后把它整合到GPT项目的系统提示里。所以它会说，第一步，我们做这个。第二步，我们做那个。现在我会继续开发。如果我发现某个重复出现的问题，我就会创建一个/命令，然后它会自动纳入工作流程。",
+   "ts": "00:19:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. So just to summarize the /command. So one is create an issue in Linear, which I love. Linear is awesome. Shout out Linear.",
+   "zh": "太棒了。总结一下这个/命令。一个是在Linear中创建问题，我超爱Linear。Linear太棒了。致敬Linear。",
+   "ts": "00:19:54"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "That's also from the product pass.",
+   "zh": "这也是来自产品路径的。",
+   "ts": "00:20:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "From the product pass. Oh my God, what a value? Okay. So step one is create the issue in linear. So it's a command. So this prompt /command you've created, just create issue. Then it's explore, which is explore the idea, help me ideate on what this could be. And this is Claude helping you think through the feature and product. And then it's actually create the plan. (00:20:26): And so it's like the AI helping you build the plan to build the product. Then it's actually execute, which is just build the thing. And then there's this review, peer review step, which is awesome that you'll share. And then there's document, update documentation based on the new feature that we're adding. Sweet.",
+   "zh": "来自产品路径。天哪，太有价值了！好的。第一步是在Linear中创建问题。就是一个命令。你创建的这个提示/命令，就是创建问题。然后是探索，就是探索这个想法，帮我构思可能的方案。这是Claude帮你思考功能和产品。然后是实际创建计划。（00:20:26）：所以就是AI帮你制定产品建设计划。然后是执行，就是把东西建起来。然后是评审，同行评审步骤，太棒了，你会分享这个步骤。最后是文档，根据新添加的功能更新文档。太棒了。",
+   "ts": "00:20:04"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. Cool. So let's go ahead and start building. So I'm going to use Wispr Flow to dictate and basically this starts with /create issue. So this basically sends that prompt. And I love this because I usually do this during when I'm building something else. So basically it tells Claude that I'm mid building something and I don't have a lot of time to waste time on this. (00:21:12): So just ask some brief questions so that you have enough to capture within linear. So I want to add fill in the blank questions to StudyMate. I want this to be 30% of tests to be generated as fill in the blank questions. I want there to be six potential answers for two blank spots, and of course there's only going to be two correct answers. So one correct answer and two incorrect answers for each spot and I want the interface to be drag and drop. (00:21:43): So that's just basically a quick think of how I want this to work. So it's going to ask me a few questions. Quizzes are 100% multiple choice, question structure, single sentence passage to blanks and priority. So one and two are correct, and this is not high priority. It's a nice to have feature. (00:22:10): So now basically what Claude is going to do is it's going to use MCP, which is basically a technology that was created by Anthropic, which gives AI the ability to use tools. So this is connected to my linear. So what it's going to do now is it's going to use everything we've said and create an issue within Linear.",
+   "zh": "是啊。太棒了。那我们开始动手建吧。首先，我要用 Wispr Flow 来口述，基本上从 /create issue 开始。这会触发一个提示框。我喜欢这个功能，因为通常我在开发其他项目时也会用它。这样就能告诉 Claude 我正在忙着开发其他东西，没时间在这上面浪费时间。（00:21:12）：所以就简单问几个问题，确保能在 Linear 里完整记录。我想在 StudyMate 里添加填空题，让填空题占测试题的 30%。每个空格有两个可能的答案，其中一个正确，另一个错误。界面要支持拖放操作。（00:21:43）：这就是我对功能的快速构想。它会问我几个问题。测试题都是 100% 的多选题，题目结构是单句段落填空，优先级设定。一个空格有两个答案，其中一个正确，另一个错误。这只是个可选功能。（00:22:10）：接下来 Claude 会用 MCP，这项由 Anthropic开发的技术，能让 AI 使用工具。它会连接到我的 Linear 账号。现在它会综合我们之前的讨论，在 Linear 里创建一个任务。",
+   "ts": "00:20:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And by the way, as this is loading, I just love the way, the way you described this, especially doing voice mode, it's like exactly how you would talk to an engineer describing a feature, \"Here's what I want.\" And then they ask you questions, here's the clarification.",
+   "zh": "对了。顺便说一句，载入过程中，你描述这个功能的方式太棒了，特别是用语音模式，就跟和工程师讨论功能需求一模一样，“这是我想要的”。然后他们会问你问题，给你解释说明。",
+   "ts": "00:22:30"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. So at first when I was doing this with the CTO, I would do it with ChatGPT voice mode, and that was crazy. That literally felt like ideating with a person. It would push back, ask questions, and maybe one day the coding tools will get there too, but that was exactly ... It really felt like sitting with my CTO. Great. So created STU88. So if we open up Linear now, we should be able to see ... Let's see where STU88. (00:23:14): There it is. Fill in the blank questions with drag and drop interface. So it has a TLDR, it has the current state. It did a little bit of research on the code base, I think, expected outcomes, some context. So yeah, so this is basically ready for me to pick up when I'm interested in building. So now let's say a few days go by, I finished the current project I'm working on, I can pick it up. (00:23:36): So when I pick it up, I do /exploration phase, which is what we said. And then instead of pressing enter, I'll press tab and I'll show you this. So basically, exploration phase, what it does is it will take an argument. This is basically a placeholder within the prompt, which allows me to enter something that is extra context for the AI. So I can say here, Linear STU88, which is referencing the ticket. And now what it's going to do is it's going to go, it's going to fetch the Linear ticket.",
+   "zh": "是啊。刚开始和 CTO 一起做的时候，我用了 ChatGPT 的语音模式，简直太疯狂了。感觉就像和人一起构思一样。它会反驳、提问，也许未来编程工具也能做到这样，但当时真的……就像和我的 CTO 坐在一起。太棒了。所以创建了 STU88。现在打开 Linear，应该能看到……STU88 在哪儿。（00:23:14）：在这儿。填空题界面，支持拖放操作。里面有 TLDR，还有当前状态。它对代码库做了些研究，预期结果，还有一些背景信息。所以这基本上可以等我有空再继续开发了。比如说，等我完成当前项目，再回来看看。（00:23:36）：等我回来看的时候，先进行 /exploration 阶段，就是我们之前说的。然后不用按回车键，按 Tab 键，我给你演示一下。基本上探索阶段会接受一个参数。这是提示框里的占位符，让我能输入额外的上下文信息。比如这里我可以写 Linear STU88，指代那个任务。接下来它会去获取 Linear 里的那个任务。",
+   "ts": "00:22:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And what's the idea? What's the goal of the exploration phase? This ideate on the idea. Is that the-",
+   "zh": "那这个阶段的目的是什么？探索阶段的目标是什么？就是构思这个想法。对吧。",
+   "ts": "00:24:12"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Exactly.",
+   "zh": "对。",
+   "ts": "00:24:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好。",
+   "ts": "00:24:12"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "So it's both for the CTO to deeply understand the problem that we're trying to solve and also understand the current state of the code base, what files need to be affected, and how is the best way to implement this technically. And usually what happens is right now, Claude is just basically reading a bunch of files, understanding the basic structure of the code, and then it's going to come back with a bunch of clarifying questions that will decide how we end up implementing this.",
+   "zh": "因此，CTO既要深入理解我们试图解决的问题，也要了解代码库的现状，明确需要修改的文件，以及如何以最佳方式从技术层面实现这一目标。目前，Claude主要是在阅读大量文件，理解代码的基本结构，随后会提出一系列澄清性问题，根据这些问题决定最终的实现方式。",
+   "ts": "00:24:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So it feels like it's talking to your engineering manager.",
+   "zh": "这感觉就像是在和你的工程经理对话。",
+   "ts": "00:24:44"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Exactly, exactly. 100% this is how I think about it.",
+   "zh": "没错，完全正确。这就是我的理解方式。",
+   "ts": "00:24:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you said that you're a CTO, so you used to use ChatGPT prompt to have a CTO in there. Now the CTO's living inside here in Cursor?",
+   "zh": "你说自己是CTO，所以过去你会用ChatGPT的提示功能模拟CTO的行为。现在CTO直接内置在Cursor中了？",
+   "ts": "00:24:51"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, because of the way the tools have developed and they've become so good at both exploration and code execution. So now it's just a habit that I call it a CTO, but it's basically all in one. The same agent will both do the exploration and write the plan and end up executing the code.",
+   "zh": "是的，因为工具的发展日新月异，它们在探索和代码执行方面都变得非常出色。所以现在我习惯称它为CTO，但实际上它集探索、规划和代码执行于一体。同一个智能体既能进行探索，又能制定计划，最终执行代码。",
+   "ts": "00:25:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So it's basically it's Claude Code. Is there a prompt you gave it to act like that? To act like the right kind of CTO?",
+   "zh": "明白了。所以这基本上就是Claude Code。你们有没有给它特定的提示，让它表现得像真正的CTO？",
+   "ts": "00:25:19"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, so within the Claude.md, which is basically the system prompt that's loaded within Claude's context in every conversation, I have some basic stuff like this is our workflow, this is how we work. Within exploration phase, I want you to challenge my thinking, all kinds of stuff like that that can be loaded within the Claude.md file.",
+   "zh": "是的，在Claude.md文件中（这是每次对话时加载到Claude上下文中的系统提示），我添加了一些基础内容，比如我们的工作流程、协作方式。在探索阶段，我希望它能挑战我的思维，提出各种问题等，这些都可以加载到Claude.md文件中。",
+   "ts": "00:25:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. One last question before we move on here, just because I'm thinking about it as this happens, the Linear issue that you generated, how often is it actually great and ready? How often do you have to edit it? What's the quality of the Linear ticket that it generates? Because a lot of people are probably wondering just like all these terrible linear issues are being created by AI. Are they actually any good?",
+   "zh": "好的。在我们继续之前，我最后还有个问题，因为我正在思考这个过程。你们生成的Linear问题实际质量如何？需要多次编辑吗？生成的Linear工单质量如何？因为很多人可能在想，AI生成的Linear问题是不是质量很差？",
+   "ts": "00:25:47"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "It's completely different because I'm a company of one. So a lot of the context is within here and there's no need for me to talk to other teams and understand. It's basically very accessible, and also I can easily see when Claude understood something wrong. (00:26:26): I don't want to say that I would create Linear issues at work like this, but definitely if you're building your own side project, they're pretty quality. And also, it just kicks off when I want to start working on it. I wouldn't say it's ready to be built. It's ready to start being explored.",
+   "zh": "情况完全不同，因为我是一人公司。所以很多上下文都在这里，不需要和其他团队沟通理解。它非常易用，我还能轻松发现Claude理解错误的地方。（00:26:26）：我不想说我在工作中会这样创建Linear问题，但如果你在开发自己的副业项目，它们的质量还是不错的。而且，一旦我想开始做项目，它就会启动。我不会说它已经可以直接构建了，但它已经可以开始探索了。",
+   "ts": "00:26:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So it's just the beginning of an idea. Actually, let's come back after we go through this flow of how you would approach this if you were at say Meta or another, maybe a smaller company, how this workflow might work at a larger company that isn't just your own startup.",
+   "zh": "明白了。所以这只是一个想法的开始。实际上，等我们讨论完你的整个流程后，再回过头来看看，如果你是在Meta或其他公司（比如规模较小的公司），如何在大型公司（而不仅仅是你的初创公司）中实施这样的工作流程。",
+   "ts": "00:26:44"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. Interesting.",
+   "zh": "是的。很有意思。",
+   "ts": "00:26:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's come back to that.",
+   "zh": "我们稍后再讨论这个问题。",
+   "ts": "00:26:57"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Cool. All right. So this is Claude coming back. I have a comprehensive understanding of the code base. I thoroughly analyzed StudyMate live codebase and understand the current system, feature quest and key areas that it's identified. Usually I'd spend a lot of time going over this because this is super, super important, but just for the sake of development right now, we're going to brush through this. (00:27:22): Now Claude basically comes back after it's gone through the code base and understood the way it currently works. It's basically telling me what the current understanding is. So it's talking about how the app is set up at the moment, how the data is structured, what it understood from the feature quest, and what it has identified as key areas, and then it asks me some questions. (00:27:46): So it's asking about the scope, it's asking about the data model, the UX/UI of the feature, how it should be validated, how it should be graded, what changes need to be happened to the AI system prompt and all kinds of questions about the app. I've prepared answers to all these questions beforehand because I don't think we all want to sit through this. So I'm just going to paste that in and we'll see what Claude says.",
+   "zh": "太棒了。好的。Claude回来了。我对代码库有了全面的了解。我仔细分析了StudyMate的实时代码库，理解了当前系统的运作方式、功能需求以及已确定的关键领域。通常我会花大量时间仔细研究这些内容，因为这极其重要，但为了推进开发进度，我们现在就快速过一遍。（00:27:22）：现在Claude在完成代码库分析并理解当前系统运作方式后回来了。它基本上是在向我汇报目前的理解情况。比如应用的架构设计、数据结构、从功能需求中提取的信息，以及它所识别的关键领域，然后它会向我提出一些问题。（00:27:46）：它会询问功能的范围、数据模型、用户体验/界面设计、如何进行验证、如何评分、AI系统提示需要做哪些改进，以及关于应用的各种问题。这些问题我之前都准备好了答案，因为我觉得我们没必要全程回答这些问题。现在我直接把答案粘贴进去，等着Claude给出反馈。",
+   "ts": "00:26:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. I love it. And I love just scanning those questions I was asking. It's like such smart, sophisticated, important questions instead of just, \"Cool, here I go, I'm going to build it.\"",
+   "zh": "太棒了。我喜欢这个过程。能快速浏览我之前提出的那些问题真是太好了。这些都是明智、深思熟虑且至关重要的问题，而不是那种“好吧，我要开始开发了”的简单思路。",
+   "ts": "00:28:08"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, and I think this is the big difference between just vibe coding and going along with the vibes and really building serious apps. I spend a lot, a lot of time going back and forth and understanding. Also, a very cool /command that I haven't showed yet is learning opportunity, which basically when something is really difficult for me to understand, I'll do /learning opportunity and then talk about what I want to learn. (00:28:44): And this basically primes Claude and says, \"I am a technical PM in the making. I have mid-level engineering knowledge. I understand architecture and basically I want you to explain what we're currently working on using the 80/20 rule.\" So this is a great way to learn. I would definitely take this and every time you kind of see something that you don't fully understand, I would definitely use this to learn. (00:29:08): Great. So Claude basically comes back and says how it understands the current data model and how it's going to implement. Yeah, so it's ready to create the plan. So basically what I'm going to do now is I'm going to go and do /create plan and while Claude is doing this, I'm going to show really quick what this looks like. So basically, these plans are from a template that I found on Twitter. (00:29:36): I forgot who it was, but it was just a template that really resonated with me. And it's basically saying, based on our exchange, create a markdown file that will be the plan, include clear, minimal, concise steps, track the status. So this basically has like status trackers on each task that Claude updates as it's going through and it will have a TLDR, some critical decisions that we've made and the plan itself. (00:30:00): So Claude has finished writing the plan, so we'll be able to look and see exactly what the plan is. So it has a TLDR, it has the critical decisions we've made and the tasks broken down. And this is a perfect plan and it's also a really good way to write this because a lot of times, I'll use different models to execute certain stuff. So Cursor has an amazing model called Composer, which is superfast. So a lot of things that are not that complex, I'll use Composer. (00:30:31): Gemini 3 that just came out is unbelievable at UI. So a lot of times, I'll split the plan into backend and front end, and then I'll have Gemini just read the plan and do the front end. So having this as a markdown file is really good. And also going forward, it's really good to have within the app so that later on, if an agent is writing code in a certain area, I can see what's already been done there. (00:30:54): So what we're going to do now is we're going to execute the plan. So now I think we're going to do this with Cursor just because Composer is so freaking fast. So what we can do is basically just say execute and then we can tag the file. And Composer is ridiculously fast. So that's it. It's off. It basically understands what the plan is and it's going to go ahead and start writing the code.",
+   "zh": "是啊，我觉得这就是随意编码和真正开发严肃应用之间的巨大差异。我花了大量时间反复理解各种东西。还有一个我还没展示过的超酷命令叫\"学习机会\"。当我遇到难以理解的内容时，就会用这个命令，然后说明自己想学习什么。（00:28:44）：Claude回复说，他现在意识到我是个未来的技术产品经理，具备中级工程知识，理解架构，并且希望用80/20法则来指导当前工作。这真是学习的好方法。我建议大家每次遇到不理解的内容，都用这个命令来学习。（00:29:08）：太棒了。Claude回复说，他理解了当前的数据模型并准备实施方案。接下来我要用/create plan命令创建计划，同时Claude会展示这个计划的具体内容。（00:29:36）：我忘了是谁，但我在Twitter上找到的这个模板真的让我深有共鸣。它基于我们的对话，生成一个Markdown文件作为计划，包括清晰、简洁的步骤和状态追踪。每个任务都有状态跟踪，Claude会实时更新，还会包含TLDR、关键决策和计划本身。（00:30:00）：Claude完成了计划，我们可以查看具体内容。里面有TLDR、关键决策和分解后的任务。这是一个完美的计划，用Markdown格式也很棒，因为我常用不同模型来执行不同任务。比如Cursor的Composer模型速度超快，处理不复杂的任务时我会用它。刚发布的Gemini 3在UI方面令人惊叹。我常把计划拆分成后端和前端部分，然后让Gemini负责前端部分。用Markdown格式保存计划也很方便。未来还计划将其集成到应用中，方便后续开发者在特定区域编码时能查看已完成的工作。",
+   "ts": "00:28:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me ask you a question while this is happening.",
+   "zh": "趁现在有空，我想问你个问题。",
+   "ts": "00:31:20"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Awesome.",
+   "zh": "太棒了。",
+   "ts": "00:31:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have many questions, so this is a good time to ask a few of them. You said that Lovable and Bolt and other apps in that space are just not enough to build really serious apps and you have to move to Cursor to do that. Tell us more about that. Just what's the limitation you ran into with those products and why you switched to Cursor?",
+   "zh": "我有很多问题，趁现在有机会问几个。你说Lovable、Bolt等应用不足以开发真正严肃的应用，所以必须转用Cursor。能详细说说吗？你遇到哪些限制，为何转用Cursor？",
+   "ts": "00:31:23"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I started using Cursor and Claude Code a few months ago and I haven't looked back, but at that time, these teams have been moving like crazy. So I don't want to say I wouldn't trust them. I don't know what the current state is. But for me, it was basically the issue of I felt that Bolt was being very opinionated on how I should do things. And I felt like my knowledge has gotten to a point where I can graduate and be more in control. (00:32:11): By the way, I think that the main difference between all these tools is basically the harness. So the models are all the same models. I'll run Claude within Cursor, I'll run it within Claude Code, and it's also the models that Claude is also the model that is underlying Bolt and Lovable, but basically, Bolt and Lovable will add a bunch of levels in the middle that will take all kind of guesswork and hard decisions out for the user. (00:32:37): So the user doesn't have to make these hard decisions. So it's also very easy to build, but the flip side of that is that you have less control. And basically Claude Code is just taking Claude and shoving it straight in your code system and giving it full tools and to do whatever it wants, but also with that comes a lot of decisions that you need to make. So I don't know if you can't build really amazing production apps using Bolt or Lovable now, but I think basically if you want the most cutting edge abilities of the models and you want to be able to make all the decisions on your own, it's probably best to be on one of these tools.",
+   "zh": "几个月前，我开始使用Cursor和Claude Code，从此一发不可收拾。但当时这些工具的发展速度实在太快了。所以我不想说我不信任它们，我不知道它们现在的情况如何。但对我来说，主要问题在于我觉得Bolt在指导我如何做事时太爱固执己见了。我觉得自己的知识水平已经到了可以毕业、能更好掌控局面的阶段。（00:32:11）：顺便说一句，我认为所有这些工具的主要区别在于框架层面。模型都是一样的，我可以在Cursor中运行Claude，在Claude Code中运行Claude，Claude也是Bolt和Lovable的基础模型。但Bolt和Lovable会在中间增加一层抽象，替用户处理各种猜测和艰难决策。（00:32:37）：所以用户无需做这些艰难决定。构建起来也很容易，但缺点是控制权较低。而Claude Code就是把Claude直接塞进你的代码系统，提供全套工具，让它随心所欲，但随之而来的是你需要做很多决策。所以我不确定现在是否能用Bolt或Lovable开发出真正出色的生产级应用，但我认为，如果你想获得模型的最前沿能力并自己全权做决策，使用这些工具中的任何一个都是不错的选择。",
+   "ts": "00:31:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I'm feeling and hearing is that planning work that you did, that's the stuff that Lovable, Bolt, and would you put Replit in that bucket too?",
+   "zh": "我感觉和听到的信息是，Lovable、Bolt和Replit都在做规划工作，你会把Replit也归入这一类吗？",
+   "ts": "00:33:13"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, for sure. Lovable, Bolt, Replit, Base44.",
+   "zh": "对，肯定的。Lovable、Bolt、Replit、Base44。",
+   "ts": "00:33:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "v0.",
+   "zh": "v0。",
+   "ts": "00:33:21"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, v0, all same bucket.",
+   "zh": "对，v0，都归为一类。",
+   "ts": "00:33:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So essentially, they're doing that planning for you. And as you said, they're very opinionated. They try to make it easy. So it's just like, \"Here's how to do it. Here's the way we think is best for people.\" And what you're saying is once you're trying to get a little more serious about it or want to go in a different direction, you don't have the power to change how they plan. So Cursor lets you do that.",
+   "zh": "所以本质上，他们在替你做规划。正如你所说，他们非常固执己见。他们试图让一切变得简单。所以就像，“这样做。这样我们认为对用户最有利。” 而你说的是，一旦你想更认真对待它或想朝不同方向发展，你就无权改变他们的规划方式。所以Cursor能让你做到这一点。",
+   "ts": "00:33:27"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, I don't want this to come out like I'm badmouthing them. Base44, let's say.",
+   "zh": "是的，我不想说这些工具不好。我说Base44吧。",
+   "ts": "00:33:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No, absolutely.",
+   "zh": "不，绝对不会。",
+   "ts": "00:33:53"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. Base44 does an amazing job at basically taking all the complex guesswork out of building product and just allows you to just go with the vibes and build, but it will do sign in with Google for you and it will do a database, but then you don't have decisions on what database am I using. Do I need sign in with Google this way or another way? It would just do it out of the box. So that's basically the trade-off there.",
+   "zh": "是的。Base44在去除构建产品时的复杂猜测方面做得非常出色，允许你顺其自然地进行开发，但它会自动用Google登录，处理数据库，但你无需决定使用哪种数据库。是否以这种或那种方式使用Google登录？它会自动处理这些。所以这基本上就是权衡之处。",
+   "ts": "00:33:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Shout out Maor, the founder of Base44.",
+   "zh": "太棒了。向Base44的创始人Maor致敬。",
+   "ts": "00:34:16"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. Maor Shlomo. Yeah. He's amazing.",
+   "zh": "是的。Maor Shlomo。是的。他太棒了。",
+   "ts": "00:34:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I just love how this is like the way you're like flinging, what's the word? Slinging models like Gemini 3 for frontend. I love that you've never written any code and you're just like, \"Cool, use Gemini for this and Claude for this. And I'm just working on Cursor, talking to this CTO, helping you build stuff and build significant product.\"",
+   "zh": "好吧。我特别喜欢你这样做事的方式，就好像你在随心所欲地调用各种工具，比如Gemini 3之类的前端框架。我很欣赏你从未写过代码，却能轻松地说\"用Gemini处理这个，用Claude处理那个\"，然后继续开发Cursor，与CTO交流，帮助别人搭建产品。",
+   "ts": "00:34:23"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. We just live in the craziest of times where basically the world changes once a week, it feels like. And there is just no boundaries. You can use all of these just on your regular MacBook or regular laptop. And I have these moments, I call them time machine moments, which is basically this week, for instance, I was prepping for the podcast using Claude with a project. (00:35:17): I was building, I was fully localizing StudyMate from Hebrew to English, which I did in two days, which would probably take a dev team weeks. And I was building a personal site, which went from no domain, no nothing, to live on a domain within an hour and a half. And I was doing all three of these in parallel. And there was a point where basically all three of the agents were running, so I didn't have anything to do. (00:35:41): I just had to let them think, and these are the time machine moments where I feel like I was in the future and I just stick my head out of the time machine and whoever's next to me, at the moment it was my wife, I'll just say, \"We live in the future.\" And she'll be like, \"Huh, what?\" And I'll be like, \"No, no, don't worry about it.\" But it's just basically so crazy that all these things are just an API away. You can use anything. So I think it's an awesome time to be curious and optimistic and hardworking.",
+   "zh": "是啊。我们生活在最疯狂的时代，感觉每周世界都在发生巨变，完全没有边界。你可以在普通的MacBook或笔记本上使用所有这些工具。我有过一些\"时光机时刻\"。比如这周，我用Claude为一个项目做准备，（00:35:17）我正在把StudyMate从希伯来语本地化到英语，仅用两天就完成了，而这对开发团队来说可能需要几周时间。我还在搭建个人网站，从没有域名、一无所有，到在一个小时内上线。我同时进行这三项工作，当三个代理程序都在运行时，我完全无事可做。（00:35:41）我只能让它们自己思考，这就是\"时光机时刻\"——我感觉自己身处未来，然后探出头来，看看旁边的人（当时是我妻子），然后说\"我们生活在未来\"。她会问\"什么？\"我会说\"别在意\"。但这些东西只要接口调用一下就能实现，实在太不可思议了。所以现在正是保持好奇、乐观和勤奋的绝佳时机。",
+   "ts": "00:34:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "These are my favorite kinds of podcast guests. People that are living in the future, figuring out all these things and then are just kind of come back, as you said, poke your head out of the rocket ship and just like, \"Hey, here's this thing that I figured out. Here's where we're going.\"",
+   "zh": "这些人是我最喜欢的播客嘉宾。他们活在未来，解决各种难题，然后像你说的，探出头来，说\"嘿，我搞定了。我们要往这儿走了。\"",
+   "ts": "00:36:08"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, best time to be alive. So awesome. So it looks like it's finished. So now what we're going to do is we're going to run the app locally and we'll be able to see what Composer ended up building and we're going to see if anything else is needed on our end to maybe do some manual review. Does that sound good?",
+   "zh": "是啊，活在当下真是太棒了。看起来一切都完成了。接下来我们要在本地运行应用程序，看看Composer最终搭建了什么，还需要在我们这边做些什么，比如手动审核。这样行吗？",
+   "ts": "00:36:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sounds great. And I love, that was like, I don't know, a few minutes where if it was a human engineer, it'd be like days, maybe a week for work.",
+   "zh": "听起来不错。我也喜欢这种感觉，就好像……我不知道，人类工程师可能需要几天甚至一周才能完成同样的工作。",
+   "ts": "00:36:42"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "For sure. Yeah, for sure. No, Composer like the one thing is it's just so, so blazing fast, keeps you in flow. So yeah, full features take minutes.",
+   "zh": "确实。是的，Composer速度超快，让你一直保持高效。所以完整功能只需要几分钟。",
+   "ts": "00:36:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it probably costs a couple bucks in AI credits.",
+   "zh": "可能还需要花几美元购买AI积分。",
+   "ts": "00:37:00"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I don't even look. I used to be so stingy about paying for products and now I'm just basically, I look at it all as tuition, as stuff that I'm paying for learning. So I don't know how much it costs, but it's definitely worth it.",
+   "zh": "我甚至都不去看了。我以前对付费产品很吝啬，现在我把它们都看作是学习的费用。所以我不知道具体花费多少，但绝对值了。",
+   "ts": "00:37:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That explains why they're the fastest growing products in history.",
+   "zh": "这就解释了为什么它们是史上增长最快的产品。",
+   "ts": "00:37:18"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "100%.",
+   "zh": "百分之百正确。",
+   "ts": "00:37:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Your marketing website sets the tone for your brand and is the one touchpoint that every single one of your customers sees. In today's age, if you're still having a hard time making small changes and simple updates to it, you are doing something wrong. That is why so many companies from early stage startups to Fortune 500s, including companies like DoorDash, Zapier, Perplexity, and ElevenLabs turn to Framer, the website builder that turns your .com from a formality into a tool for growth. Framer works like your team's favorite design tool and comes with real-time collaboration, a robust CMS with everything you need for great SEO and advanced analytics that includes integrated AB testing. (00:38:01): Changes to your Framer site go live to the web in seconds with a single click and without any help from engineering. Whether you want to launch a new site, test a few landing pages or migrate your full.com, Framer has programs for startups, scale-ups, and large enterprises to make going from idea to live site as easy and fast as possible. Learn how to turn your website into a growth engine from a framer expert or get started building for free today at framer.com/lenny, that's framer.com/lenny. Rules and restrictions may apply.",
+   "zh": "你的营销网站为你的品牌定下基调，是每位客户都会接触到的首要接触点。当今时代，若你仍在为网站的微调和简单更新而犯愁，那就说明你做错了。正因如此，从初创公司到《财富》500强企业——包括DoorDash、Zapier、Perplexity和ElevenLabs等公司——都选择了Framer这款网站构建工具。它能将你的.com域名从形式化转变为增长引擎。Framer的操作体验如同你团队最爱的设计工具，具备实时协作功能、全面的CMS系统，涵盖出色的SEO优化需求，以及集成AB测试在内的深度分析模块。（00:38:01）：只需单击按钮，几秒钟内即可将Framer网站上线，无需工程团队协助。无论是发布新站、测试着陆页，还是迁移整个.com域名，Framer都为初创公司、成长型企业和大型集团提供了全方位支持，助力从创意构思到实战落地的全流程快速高效。立即访问framer.com/lenny（就是framer.com/lenny），免费开启你的增长引擎之旅。相关条款与限制可能适用。",
+   "ts": "00:37:23"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "So now we have this feature, which basically we built and I can ask it to make some changes because it's running locally and once it's ready, I'll be able to ship it to users. So now the next phase after I've QA'd it and basically tested it manually, I'll have Claude review its own work. So what I'll do is I'll reopen Claude Code.",
+   "zh": "现在我们有了这个功能，基本上是我们自己开发的，我可以让它进行一些修改，因为它是在本地运行的，一旦准备好了，我就可以把它推送给用户。所以现在，在我完成QA测试并手动测试之后，下一个阶段就是让Claude来审查它自己的工作了。那么我要做的是重新打开Claude Code。",
+   "ts": "00:38:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this because this is one of the things that comes up a lot in this podcast is writing code is now so easy. The main challenge people have is reviewing the code that AI has written.",
+   "zh": "我喜欢这一点，因为这个播客中经常提到的一个问题是，现在编写代码变得非常容易了。人们面临的主要挑战是审查AI编写的代码。",
+   "ts": "00:38:56"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "100%.",
+   "zh": "百分之百。",
+   "ts": "00:39:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And what you're doing here is you're having Claude review its own code.",
+   "zh": "而你现在所做的是让Claude来审查它自己的代码。",
+   "ts": "00:39:05"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, so this is another thing where it's very difficult for me to catch mistakes. So my review process has gone through a bunch of iterations to really be as good as possible and to catch as many things as possible. So I'll always manually QA at first to make sure if I can see any mistakes that Claude made. And then what I'll do is basically /review. (00:39:32): And this tells Claude to start reviewing its own code. But what's even cooler and something that I'm really proud of is I will usually do multiple reviews and I'll have Codex, which is ChatGPT's competitor to Claude Code, as well as cursor open, and I will have each of them review the code. And then what I do is I have a /command called peer review, which is really interesting. And basically what it does is it's going to take Claude, which is usually the agent who I'm working with. (00:40:07): And just to put this in a mental model, this is basically my dev lead that I'm working with. The /command is basically saying, \"You're the dead lead on this project. Other team leads within the company have looked at your code and reviewed it and found these issues.\" Don't take what they said at face value. The reason is you have more context than them and you led this project. (00:40:33): You need to either explain why the stuff they found are not real issues and wrong or fix them yourself. And it's really cool because the way I look at these things is I look at the models, I try to imagine them as people and I can really tell you how each one of these would be as a real human because they have-",
+   "zh": "是啊，这就是我很难发现错误的另一个方面。所以我的代码审查流程经历了多次迭代，力求尽可能完善，尽可能多地发现问题。首先，我总会手动进行质量保证测试，确保能发现Claude可能犯的错误。接下来，我会使用/review命令（00:39:32），让Claude开始自检代码。但更酷的是，也是我最引以为傲的一点，我通常会进行多次审查。除了Claude Code的竞争对手Codex（ChatGPT的另一个版本）和Cursor Open，我还会让这些模型分别对代码进行评审。还有一个非常有趣的命令叫peer review（00:40:07）。这条命令会把Claude设定为负责项目的开发负责人，相当于我的技术主管。通过这个命令，我可以告诉Claude：“你是这个项目的负责人，其他团队的负责人已经审阅了你的代码，发现了这些问题。别全盘接受他们的意见，因为你比他们更了解项目全貌，应该自行判断他们指出的错误是否合理。”（00:40:33）接下来，我要么解释为什么他们发现的问题并非真正的问题，要么直接修改代码。最棒的是，我在处理这些问题时，会把各个模型想象成真实的人，这样就能清楚理解每个模型的表现——",
+   "ts": "00:39:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Each model.",
+   "zh": "每个模型的具体情况。",
+   "ts": "00:40:54"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. Each model has such distinct characteristics. So let's say Claude, she would be the perfect CTO. She's very communicative. She's very smart. She doesn't just go with the flow and do whatever you tell her. She's very opinionated, but also super collaborative, which is I think why I'm always drawn to Claude because I need to do so much learning and it's your dream, a very communicative, but very opinionated dev lead, but then there's also Codex. (00:41:26): So I use Codex 5.1 Max, whatever. I don't know, they're not the best at naming models, but GPT's model. I always imagine it as like the best coder within the company who comes to the office with a hoodie and sandals and sits in a dark room. And you basically only bother him when you have the worst bugs and you say, \"Listen, we have this bug and it will just close the door for two hours and come out and say, I fixed it.\" And you're like, \"Wait, what? Are you going to tell us what happened or whatever?\" (00:41:56): And he's like, \"Don't worry about it. I fixed it.\" It's like really not communicative, but it solves all the worst problems. And let's say Gemini is like a crazy scientist who's super artsy, super talented at designing, but if you sit next to it and watch it work, it's terrifying. You would fire that person instantly. This might be just my experience, but when I'm using Gemini within antigravity, which is Google's new competitor to Cursor, when it's writing code, you can see the steps it's taking and it's terrifying. (00:42:28): You'll say, \"I want you to redesign the top of the dashboard.\" And you're looking at its thought process and it will say, \"Oh, first things first, I'll delete the dashboard.\" And then it'll be like, \"Nope, that was a mistake. I'll bring it back.\" And then it will say, \"Oh, can I edit the database?\" And you're like, \"No, do not edit the database. You're just doing a redesign.\" And then it will end up designing something beautiful. So the way there is a rollercoaster and very scary, but at the end of the day, Gemini is very good at design. (00:42:55): So I think that using all these models and basically playing to their strengths and mitigating their weaknesses by using other models is a game changer for me. So I'll do peer review a bunch of times and I'll have other models review other models code and kind of have them fight it out basically. Sometimes Claude Code will get really sassy and be like, \"This has been raised for the third time. And for the third time I'm telling you, this is not an issue. This is by design.\" So it's just a really cool thing that I've added and I haven't seen many people doing it.",
+   "zh": "是啊，每个模型都有非常鲜明的特点。就拿克劳德来说，她绝对是完美的CTO。她善于沟通，非常聪明。她不会随波浮动，也不会盲从你的指示。她很有主见，但又非常善于合作。这可能就是我一直被克劳德吸引的原因——因为我需要不断学习，而她正是你梦寐以求的那种沟通能力强又有主见的开发负责人。\n\n再说科德克斯。（00:41:26）：我用的是科德克斯5.1 Max版。说实话，他们给模型命名真不怎么样，不过这毕竟是GPT模型。我总想象它是公司里最牛的程序员，穿着连帽衫和凉鞋上班，坐在昏暗的房间里。只有当你遇到最严重的漏洞时，才会去打扰他。他会关上门两小时，然后出来说：“我修好了。” 你会问：“等等，什么？你要跟我们讲讲过程吗？” 他会说：“别管了。我修好了。” 这模型确实不爱沟通，但能解决所有难题。\n\n再说双子座，它就像个疯狂的科学家，极具艺术天赋，设计能力超强。但如果你坐在旁边看着它工作，那简直吓人。你肯定会立刻解雇这个家伙。这可能只是我的经验，但当我在谷歌的新竞争对手Antigravity中使用双子座时，它写代码的过程简直惊人。（00:42:28）你会说：“我要你重新设计仪表板顶部。” 你看着它的思考过程，它会说：“首先，我要删掉仪表板。” 然后又说：“不，这是个错误，我要恢复原样。” 接着它会问：“哦，我能编辑数据库吗？” 你会说：“不行，不许编辑数据库。你只是在做重新设计。” 最后它会设计出漂亮的界面。所以整个过程就像过山车一样刺激又吓人，但最终双子座在设计方面确实很出色。\n\n（00:42:55）所以我觉得利用这些模型，发挥它们的优势，用其他模型弥补它们的缺点，对我来说真是改变游戏规则的。所以我会多次进行同行评审，让其他模型互相评审代码，基本上就是让它们互相竞争。有时克劳德会特别泼辣地说：“这已经第三次被提出问题了。第三次我告诉你，这不是问题，这是设计故意这样的。” 这真是我添加的一个很酷的功能，我还没见过很多人这么做。",
+   "ts": "00:40:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is such an incredible rant/way to understand what's going on. Okay, awesome. So we just ran the review. So show us what we saw there and let's actually try this peer review. I'm really excited to see what you learned there.",
+   "zh": "这真是一次令人惊叹的吐槽/理解现状的过程。好的，太棒了。我们刚刚完成了评审。现在请展示一下我们看到的内容，然后真正尝试一下同行评审。我真的很期待看到你们在那里学到了什么。",
+   "ts": "00:43:31"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. So basically Claude has reviewed its code and it's found a bunch of bugs, a critical bug it found in the prompt, some high bugs, some medium bugs, and now what I'll do is I'll do the same thing with the other models. So Codex has a built-in code review that you can do, or I just like to say review all the code in this branch. (00:44:11): Of course, branch is referring to the GitHub branch that we're working on. We're not working on the live code base. And then I'll do this with Composer say with, let's do it with Composer One. So I'll do /review here as well. And basically these are both going to run and do a in-depth review similar to what Claude does. But again, because of the differences between the models, they're all going to catch different things and they're all going to look differently, and this is a really cool way to work. (00:44:40): It's basically if you had other team leads within the company review the code. Here, you can see how fast Composer is. I think GPT probably will take a bunch of time. Like I said, it's in its own dark room right now reviewing code and we'll come back in a few minutes.",
+   "zh": "是的。基本上，克劳德已经审查了代码，发现了许多漏洞，包括在提示语中发现的一个关键漏洞，还有一些高优先级和中等优先级的漏洞。接下来，我要对其他模型也进行同样的操作。Codex有一个内置的代码审查功能，你可以使用它，或者我更愿意说对这个分支中的所有代码进行审查。（00:44:11）：当然，分支指的是我们正在工作的GitHub分支。我们不是在处理实时代码库。然后我会用Composer进行同样的操作，比如用Composer One。同样，我也会在这里运行/review。基本上，它们都会进行与克劳德类似的深入审查。但由于不同模型之间的差异，它们会捕捉到不同的内容，呈现出不同的结果，这确实是一种很棒的工作方式。（00:44:40）：这基本上就像让公司的其他团队负责人来审查代码一样。在这里，你可以看到Composer的速度有多快。我认为GPT可能会花费大量时间。就像我说的，它现在正在自己的“密室”里审查代码，几分钟后我们再回来。",
+   "ts": "00:43:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool. So we can let these run in. We don't actually have to go through the whole process, but is the idea once you get these results, you run peer review and you copy and paste kind of these results. Is that the idea?",
+   "zh": "好的，太棒了。所以我们可以让这些运行起来。我们实际上不必完成整个过程，但你的想法是，一旦得到这些结果，就进行同行评审，然后复制粘贴这些结果。对吗？",
+   "ts": "00:44:56"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Exactly. I'll copy and paste the results. I'll do peer review and then I'll say dev lead one and then paste from one of the models. And then I'll say dev lead two and paste from the other model and basically have them fight it out until I feel like we have no more issues.",
+   "zh": "没错。我会复制粘贴这些结果。我会进行同行评审，然后说第一个开发负责人来自哪里，然后从其中一个模型中粘贴。然后我会说第二个开发负责人来自哪里，然后从另一个模型中粘贴，基本上让它们互相竞争，直到我觉得没有更多问题了。",
+   "ts": "00:45:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Incredible.",
+   "zh": "太不可思议了。",
+   "ts": "00:45:17"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "For me, this is super important because I'm not technical and I'm not a developer. And I'll also use /learning opportunity a bunch during this to learn about stuff that I don't understand or don't fully grasp.",
+   "zh": "对我来说，这非常重要，因为我不是技术人员，也不是开发者。我还会在此期间大量利用/学习机会，了解我不理解或不完全掌握的东西。",
+   "ts": "00:45:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Incredible. What a clever solution to solving this code review problem where it's like, I don't know what you ... I don't know how to recode, so what am I going to even ... Yeah.",
+   "zh": "太不可思议了。这真是解决代码审查问题的聪明解决方案，比如，我不知道你……我不知道如何重写代码，那我该怎么办……是啊。",
+   "ts": "00:45:31"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:45:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Incredible. Let's wrap up this workflow. Is there anything else that's important in this workflow? And again, all this stuff is going to be available where people can just plug this stuff into their Cursor account and use it themselves.",
+   "zh": "好的。太棒了。让我们总结一下这个工作流程。在这个工作流程中还有什么其他重要的事情吗？再次强调，所有这些内容都将可用，人们可以将其插入他们的Cursor账户并自行使用。",
+   "ts": "00:45:40"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "100%. The one thing I'll say is that I think just like working in general with AI and even just like working on any product, doing constant postmortems is critical. So a lot of times we'll find all these kind of bugs or maybe Claude will fail to execute something correctly. And at the beginning when I started vibe coding, I would basically just keep running at it like running at the wall and until it worked. And once it worked, I was like, \"All right, awesome. This works. Let's keep going.\" But I've learned over time that updating documentation and tooling is one of the biggest hacks for productivity. (00:46:31): So when Claude will fail to do something or I'll see this really bad bug that shows that Claude really didn't understand something, I'll ask it, \"What in your system prompt or tooling made you make this mistake?\" And Claude will kind of like go introspective and think of what made it create that mistake. And then I'll say, \"Okay, great. Let's update your tooling and documentation so that this mistake never occurs again.\" And I do this every time I'm either building an internal tool or anything. And I think this is just like working. (00:47:03): If you end up doing a bunch of mistakes and then end up releasing the feature to users, so you're like, \"All right, it's a big success.\" But going back and even when you've succeeded, looking and understanding what you did and what you could have done better is critical. And also using AI, this is probably one of the biggest unlocks. Going back to your prompts, understanding what was not good enough, iterating on them and then seeing how AI's responses get better, I think that's probably one of the most important things and one of the things that divides between people who are okay with using AI and the people who actually know how to use it.",
+   "zh": "百分之百。我要说的是，我认为无论是在人工智能领域工作，还是开发任何产品，进行持续的复盘都是至关重要的。很多时候，我们会发现各种各样的漏洞，或者Claude可能无法正确执行某项任务。刚开始开发Vibe Coding时，我基本上就是一直猛撞南墙，直到最终成功。成功后，我会想：“好吧，很棒。问题解决了，继续前进。”但随着时间推移，我意识到更新文档和工具是提高生产力的最有效方法之一。（00:46:31）：比如，当Claude无法完成某项任务，或者我发现一个严重的漏洞，表明它没有理解某个概念时，我会问它：“你的系统提示或工具在哪里导致了这个错误？”Claude会进行自我反思，思考导致错误的原因。然后我会说：“好的，太好了。让我们更新你的工具和文档，确保这种错误再也不会发生。” 每次开发内部工具时，我都会这样做。我认为这就是工作的本质。（00:47:03）：如果你最终犯了一堆错误，然后把功能推送给用户，结果却被视为巨大的成功。但回过头来，即使成功了，回顾并反思自己做得不够好的地方，以及本可以做得更好的地方，同样至关重要。特别是利用人工智能技术，这可能是最大的突破之一。回顾你的提示语，理解哪里做得不够好，进行迭代，然后观察AI的响应如何不断优化，我认为这可能是最重要的部分，也是区分能熟练使用AI的人和仅会使用AI的人的关键所在。",
+   "ts": "00:45:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is such good advice. So what I'm hearing is when the models do something dumb, make a mistake, you ask it to reflect on what the mistake it made was, and then you update the /command prompts with that knowledge so that in the future, it's not making that same mistake, and it just keeps getting better.",
+   "zh": "这真是非常好的建议。听起来是这样的，当模型做出了愚蠢的决定或犯了错误时，你会让它反思错误的原因，然后用这些知识更新/command提示语，以便未来它不会再犯同样的错误，不断改进。",
+   "ts": "00:47:38"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:47:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "These things just keep getting smarter and smarter. So you're building up this really incredible prompt that just gets better and better.",
+   "zh": "这些东西会变得越来越智能。所以你正在构建一个真正令人惊叹的提示语，不断优化改进。",
+   "ts": "00:47:56"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Exactly. Not always the /commands. It will sometimes update different documentation or its tooling, but basically it's understanding what the root cause of the mistake that the AI made and fixing it.",
+   "zh": "没错。并不总是/commands。有时它会更新不同的文档或工具，但基本上就是理解AI犯错误的根本原因并进行修复。",
+   "ts": "00:48:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So the models are getting smarter and then there's also the other parts of your workflow can get smarter as you find flaws in the way it does stuff.",
+   "zh": "太棒了。所以模型越来越智能，同时你工作流程中的其他部分也会随着发现其运作方式中的缺陷而变得更加智能。",
+   "ts": "00:48:15"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "100%. Yep.",
+   "zh": "百分之百。是的。",
+   "ts": "00:48:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay. Is there anything else there before I move in a couple other directions?",
+   "zh": "太棒了。好的。在转向其他话题之前，还有什么其他问题吗？",
+   "ts": "00:48:26"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I think that's it. I think we covered pretty much everything. Basically, just to wrap this up, what I do is I do a bunch of code review and then update the documentation so that everything is documented. So the next time I try to build a feature in this area, there won't be any mistakes. And then I'll do a bunch of testing. I'll do some user testing as well before I release this to general availability. Obviously we're not going to release this. This was just a show, but hopefully maybe by the time the podcast comes out, I'll have done this correctly and release the feature.",
+   "zh": "我觉得就这样了。我觉得我们已经把所有内容都讲完了。基本上，总结一下，就是我会做一堆代码评审，然后更新文档，确保所有内容都有记录。这样下次我要在这一领域开发新功能时，就不会出错了。之后我会做一堆测试，还会在正式发布前进行用户测试。显然我们现在不会正式发布。这只是一次演示，但希望等播客播出时，我已经正确完成了开发并发布了新功能。",
+   "ts": "00:48:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's incredible that this was not possible, I don't know, two years ago, maybe a year ago, you are a product manager shipping a product without knowing how to write code, barely knowing how to review code. You said you're afraid of looking at code. As a product manager, you're building a product in Cursor using all of these different AI models. You're making money with this product. We're so used to this now, but it's insane what is now possible.",
+   "zh": "真难以置信，两年前甚至一年前这都不可能做到。你是个产品经理，却连代码都不会写，甚至连代码评审都 barely 会。你说你害怕看代码。现在你却用 Cursor 搭建产品，里面用了各种 AI 模型，还能靠这个产品赚钱。我们现在都习以为常了，但这实在太不可思议了。",
+   "ts": "00:48:59"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "It's the best time to be live. 100%. I think that I understand the fear, but AI just makes it so much possible. Just a quick side note here, my brother, who I'm building one of the apps with is an entrepreneur. He has a beautiful business that helps old people and seniors understand to use technology and AI better. And he's basically doing the same kind of learning as me, and he's replaced all of the tools he was paying for. I think he was paying for Zapier and Airtable, and he's basically built a full-fledged CRM system and automation system for his business completely alone. So for the people who are curious, optimistic, hardworking, this is the best time to be a builder.",
+   "zh": "现在是创业的最佳时机。百分之百认同。我理解大家的恐惧心理，但 AI 让这一切成为可能。顺便说一句，我和一起开发应用的兄弟是创业者。他有一家很棒的公司，帮助老年人更好地使用科技和 AI。他也在和我一样学习，替换了所有付费工具。他之前用 Zapier 和 Airtable，现在完全自己搭建了全面的 CRM 和自动化系统。所以对那些好奇、乐观、勤奋的人来说，这正是成为创始人的最佳时机。",
+   "ts": "00:49:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And what I love about this conversation we're having here is it feels like the biggest barrier for a lot of people is like, how do I get started? What exactly do I do? I open up cursor. It looks very intimidating. I don't know how to write code. I don't know how to build stuff. I don't know about databases. And so you're going to be sharing all these /commands and basically this whole workflow with the audience.",
+   "zh": "我喜欢我们今天的对话，因为对很多人来说，最大的障碍就是：如何开始？具体该怎么做？打开 Cursor 后，界面看起来很吓人。不会写代码，不知道怎么搭建东西，不懂数据库。接下来你要把所有这些命令和整个工作流程分享给听众。",
+   "ts": "00:50:14"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:50:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:50:36"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "And like I said, just start at GPT. Start on GPT, tell it what your idea is, tell it to explain to you what are even the first steps of thinking, what are the decisions you need to make? And just be inquisitive, learn. Don't rush things. It's very important to just dive in and really spend the time to learn.",
+   "zh": "就像我说的，从 GPT 开始。先用 GPT，告诉它你的想法，让它解释第一步的思考过程，需要做哪些决策？保持好奇心，学习。别着急。重要的是深入探索，花时间学习。",
+   "ts": "00:50:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you share this. One of your /commands is learning opportunity, and it's how you learn a lot of these things. Just teach me this thing and how this database issue works.",
+   "zh": "然后你分享这些内容。你的一个命令是 \"learning opportunity\"，通过它学习很多东西。比如教我这个数据库问题是怎么回事。",
+   "ts": "00:50:56"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:51:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. There's a couple directions I want to make sure we touch on. One is coming back to a question I asked earlier about how this might work at a larger company. Say it's not like Meta, but just like, I don't know, a thousand person company, 500 people. How much of this can you plug and play into a workflow as a PM at a larger company? What would be your advice for someone that may want to start trying to ship code, at least showing people what's possible?",
+   "zh": "好的。接下来我想确保我们讨论几个方向。一个是回到我之前的问题：这在大公司如何运作。假设不是 Meta 这样的公司，而是千人公司、五百人公司。作为 PM，你能在多大程度上将这些内容直接应用到大公司的流程中？对于那些想尝试写代码、至少向人们展示可能性的人，你有什么建议？",
+   "ts": "00:51:05"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I think that first making your code base AI native is a really important step, and I think this needs to be done by technical people. So basically my codebase has a ton of just plain text in it. So it will have a bunch of markdown files that explain to agents how to work in certain areas of the code base and high level structure so that the agents navigate through the code base easier. (00:51:54): And I think that if this is set up in a really good way, I still don't think PMs should be shipping heavy database chain migrations or any big project, but contained UI projects, especially if you just build it, create the PR and send it to a dev to do the final finishes. I think that's definitely something that's possible. And I think we're going to see that a lot in the next coming years. I think basically everyone's going to become a builder, so it should be really interesting.",
+   "zh": "我认为首先让你的代码库实现AI化是一项非常重要的步骤，而且这项工作需要由技术人员来完成。所以基本上我的代码库里有很多纯文本内容。因此，会有很多Markdown文件，用于向智能体解释如何在代码库的特定区域和高层结构中工作，以便智能体能更轻松地浏览代码库。（00:51:54）：我认为如果这项设置得当，我仍然不认为产品经理应该负责重大的数据库链迁移或任何大型项目，但可以处理一些局部的UI项目，特别是如果你只需构建它、创建PR并将其发送给开发人员进行最终完善的话。我认为这绝对是可行的。而且我认为在未来几年里，我们会经常看到这种情况。我认为基本上每个人都会成为开发者，所以这应该会非常有趣。",
+   "ts": "00:51:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So your advice here is as a PM, maybe don't go right to Cursor, start building, shipping, trying to ship features to production, especially complicated features. Do you think we'll get there? Do you think in a couple years, PMs will be doing this and it'll feel less scary and crazy?",
+   "zh": "好的。所以你的建议是，作为产品经理，也许不要直接去使用Cursor，而是开始构建、交付，尝试将功能上线到生产环境，尤其是复杂的功能。你认为我们能做到吗？你认为在几年内，产品经理会这样做，并且感觉没那么可怕和疯狂吗？",
+   "ts": "00:52:25"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "If there are PMs. Yeah, I think titles are going to collapse and responsibilities are going to collapse and everyone's just going to be building. I definitely think that the models, the context window is getting bigger, the models are getting smarter and I definitely see how PMs or any other background can be writing. At the moment, I wouldn't wait for that. I would use this as a collaborative learning opportunity to work with your dev team. It's going to be difficult. (00:53:14): A lot of developers are very, very skeptic about the current state, and I think that it's going to be a lot of sales work on your end to convince, but if you're able to convince, and I think teams that are really sold on this and want to take the time to work on their workflow about how can our team become more AI native, I think that these teams are going to probably be a few years in the future and they're going to look back at the few weeks they spent setting this up as the best time they spent.",
+   "zh": "如果有产品经理的话。是的，我认为职位名称和职责会逐渐模糊，每个人都会直接参与开发。我确实认为模型、上下文窗口正在变得更大，模型也越来越智能，我确实看到产品经理或其他背景的人都可以进行编写。目前，我不会等待这一天。我会把这当作一个合作学习的机会，与你的开发团队合作。这会很困难。（00:53:14）：很多开发者对当前的状况非常怀疑，我认为你需要做很多说服工作，但如果你能成功说服那些真正热衷于此并愿意花时间优化工作流程、让团队更符合AI化标准的团队，我认为这些团队将在未来几年内取得成果，他们回顾这几周花在设置上的时间时，会觉得这是他们最宝贵的经历。",
+   "ts": "00:52:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me ask you another question around just the job of a PM. One of the biggest fears people have with these AI tools for PMs for every function I imagine is just you start to rely on these things, your skills start to atrophy, you're producing all this slop that looks great, cool, amazing strategy doc. No, it's actually not at all good. Are these Linear tickets or just products that are half-baked? (00:54:08): What's your take on these two parts of just like, how has this impacted your craft as a PM? Do you feel like this is weakening your skills because you're so reliant on these tools and just how do you keep the quality of this stuff up and not just like, \"Eh, it's just a bunch of AI generated slop.\"",
+   "zh": "让我再问你一个关于产品经理工作的问题。我想对于每个职能的产品经理来说，使用这些AI工具的最大担忧之一就是开始依赖这些工具后，他们的技能会逐渐退化。他们可能会制作出看起来很棒、很酷、很惊艳的战略文档，但实际上质量很差。这些是线性的任务，还是只是半生不熟的产品？（00:54:08）：你如何看待这两个方面？这对你的产品经理技能有何影响？你是否觉得这会削弱你的技能，因为你太依赖这些工具了？你如何保持这些工作的质量，而不是觉得“嗯，这不过是一堆AI生成的垃圾”。",
+   "ts": "00:53:43"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I have a very strong disagree to this and I've heard it a bunch. I remember when I started using Tal Raviv has this whole course on building a PM Copilot using projects, which is probably one of the best courses that you can take. And when I started working with my own Copilot, I remember people at work looking and saying like, \"Oh, so you're basically outsourcing your thinking.\" And to me, that's just the worst way to look at it. (00:54:53): And I think for some reason, these people usually have a high correlation with the kind of person who doesn't like to show their presentation when it's only 10% done or doesn't want to ask for help a lot. I think that there's a misconception with a lot of PMs that the job is always having the right answers and being the smartest person in the room. And at least how I was trained and how I believe the role of the PM is, it's the exact opposite. (00:55:22): It's basically harnessing anything that can get us as quick as possible to delivering the right solution to users. And I just think this is like that really smart person that has context or your mentor or whatever, but is just always available and doesn't judge you and can really help you. So if you're using it to just create your outputs and then putting them out there, yeah, that's AI slot, but it's also human error. (00:55:49): I think it's really important that you own your own outputs. If you put anything out there or show something in a product review and you say, \"Oh, sorry, that was built by AI.\" That's your mistake. I think if you use these intentionally and really take the time to understand how to use AI in the correct way, it's one of the biggest game changers that will make you much better as a PM. (00:56:13): And another thing here is that, especially for more junior PMs, it allows you to play at such a higher level than you would normally. I think that at Wix, I wasn't thinking of what's the marketing strategy of the company and how will the onboarding be completely revamped within the whole product. But on my side product, I can just do whatever decisions I want and think of the strategy and marketing and the messaging. (00:56:39): And this is basically just getting me reps, which is one of the most important things at the beginning of your career. So I understand the fear that how do you outsource certain stuff and you're not owning 100% of everything, but I think the upside is so much more valuable. And I think the only way that AI makes you worse at your job is if you're using it wrong.",
+   "zh": "我对此深有异议，而且我听过很多类似的观点。我记得我刚开始使用Tal Raviv的课程时，他讲授了如何利用项目构建PM助手（PM Copilot），那可能是你能学到的最佳课程之一。当我开始使用自己的助手时，我记得同事们总会开玩笑说：“哦，你这就是把思考外包出去了呀。” 对我来说，这种看法简直糟糕透顶。（00:54:53）  \n我觉得有些人通常对这种现象高度认同，他们往往不喜欢在演示文稿完成10%时就展示出来，或者不愿意频繁寻求帮助。我认为很多PM存在一个误区，认为这份工作必须时刻给出正确答案，成为房间里最聪明的人。但至少按照我所受的培训和对PM角色的理解，这恰恰相反。（00:55:22）  \n其核心在于充分利用一切资源，让我们尽快为用户提供正确的解决方案。我认为这就像一个拥有丰富背景知识的智者、导师或其他可靠资源——他们随时待命、善解人意、能提供有效帮助。所以如果你只是用它来生成最终输出然后直接发布，那确实是AI的功劳，但这同时也是人为失误。（00:55:49）  \n我认为自主承担输出成果至关重要。比如你把某个产品推向市场时，如果说”哦，抱歉，这是AI做的”，责任就归你了。我认为若能有意地利用AI，并花时间掌握正确的使用方法，这将是提升PM能力的重大突破。（00:56:13）  \n另外，对初级PM来说，AI能让他们站在更高的视角操作。我在Wix时，从不考虑公司的营销策略或如何彻底革新整个产品的入门流程。但在自己的副业产品上，我可以随心所欲地制定决策，规划策略、营销和信息传递。（00:56:39）  \n这无形中为我积累了口碑，而这正是职业生涯初期最重要的财富。我理解人们对“外包某些工作”和“无法完全掌控一切”的担忧，但我认为其带来的益处远超代价。只有当你错误使用AI时，它才会让你工作表现变差。",
+   "ts": "00:54:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there anything that you've learned about reducing the sloppiness of the output, just like a tip for keeping the quality high of the stuff that it produces?",
+   "zh": "你有没有什么降低输出粗糙度的技巧，能保证产出的质量？",
+   "ts": "00:57:03"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Similar to people, setting up AI for success, for the task at hand. So if I just brought in a junior to write a deck or something and I didn't give it any guideline, I just said, \"Give a strategy deck.\" He would probably just go online and find top strategy deck and just reproduce that, which is basically what AI is doing. It's basically just fed all of the internet. (00:57:40): So instead of that, guiding it and giving it context on what your style of writing is and what you're trying to solve and all these different things, I think that's probably one of the biggest unlocks. So that's just a quick tip. And also Cursor has a /command called deslop, which is basically going back over the code. I don't know if this is integrated into the product yet, but it's on Twitter. Their founders have been talking about this, so that's definitely something I would run after just to make sure that no slop is left behind.",
+   "zh": "就像人类一样，要让AI能成功完成手头的任务。比如，如果我让一个初级员工去写一份策略文案，却不给任何指导，只说\"写一份策略文案\"，他很可能就上网找最热门的策略文案模板直接套用，这正是AI现在做的事。它基本上就是把整个互联网上的内容都吸收了。（00:57:40）所以，与其这样，不如引导它，告诉它你的写作风格、你要解决的问题等等，我觉得这才是关键所在。这只是个快速建议。另外，Cursor还有一个叫\"deslop\"的命令，用来回顾代码。我不知道这个功能是否已集成到产品中，但开发者在推特上提过，他们正在开发这个功能。这绝对值得关注，确保代码质量不打折扣。",
+   "ts": "00:57:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so funny, deslop. Okay. One more question, which may lead to something else, but kind of going in a whole different direction. You used AI to help you actually interview for the job that you got at Meta. Talk about how you did that, because a lot of people right now are struggling to find a job reading about all these people using AI to help them interview. You actually did it. What did you use? What worked?",
+   "zh": "这太有趣了，\"deslop\"这个词。好吧，再问一个问题，这个问题可能有点跑题，但方向完全不同。你用AI成功获得了Meta的面试机会。能讲讲你是怎么做到的吗？现在很多人找工作，看到别人用AI辅助面试，自己却无从下手。你却成功了。用了什么工具？效果如何？",
+   "ts": "00:58:12"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I feel like the analogy here is I have 12 nieces and nephews and you can see how people who have grown up in a different world, how their mind is formed differently. So if you ask me, how do you answer a phone, I'll do this. But a child now, when you say, \"How do you answer the phone?\" They'll do this. They'll do the iPhone answer. And I feel like people who are growing up now in their professional lives were the same just with AI. (00:59:06): So every time I'm faced with a new challenge or problem, I think AI first how to solve it. So Meta reached out and said they'd like me to interview. Straight away, I opened up a project within Claude. I started looking online for all the best information out there, things that I resonated with. I took a ton of frameworks and stuff from Ben Erez who has written a guest post for you, who I think is one of the best minds out there right now. (00:59:33): And basically I created a project which was my coach, which I would come and consult what to do at each phase. I would mock interview with, and this was amazing. Also, I created a game in Base44, which helped me ... I was really struggling with segmentation within the product questions, so thinking of the correct segments. So I basically just created a quiz game, which creates questions and different segmentations and I have to choose. (00:59:59): So this was like, I spun this up. It's a web app that I would play sometimes when I was on the bus to work. So basically, I think Ben talks about this a bunch, so I don't just go read Ben's stuff, but just creating a project and feeding it with all the best information on the internet and then mocking a bunch. I will say that the biggest game changer for me was doing human mocks. (01:00:22): So cold outreaching to people on LinkedIn and having them do actual mocks for me, I think that at the end of the day, especially for the Meta PM prep, which is super competitive and difficult, I think there's no way to get around that.",
+   "zh": "我觉得这里的类比是，我有12个侄子侄女，你可以看到他们在不同环境下成长，思维方式也不同。比如我问他们怎么接电话，他们会按传统方式操作。但现在的小孩听到\"怎么接电话\"，他们会用iPhone的接听方式。这让我觉得，现在职场中成长起来的人，在AI面前也面临同样的挑战。（00:59:06）所以每次遇到新挑战或问题，我首先会考虑用AI解决。比如Meta联系我说想让我去面试。我立马在Claude里创建了一个项目，开始在网上搜索最优质的信息，找到共鸣的框架和内容。我从Ben Erez那里借鉴了大量框架，他为你们写过客座文章，我认为他是当下最优秀的思想者之一。（00:59:33）我基本上创建了一个项目作为我的教练，每个阶段遇到问题时都会来咨询。还进行了模拟面试，这太棒了。另外，我在Base44里创建了一个游戏，帮助我解决产品问题中的细分问题，所以我需要选择正确的细分选项。（00:59:59）我把这个项目快速搭建起来。它是一个网页应用，我有时会在上班路上玩。总之，我觉得Ben经常谈论这些，但我不只是看他的文章，而是创建项目，收集互联网上的优质信息，然后进行大量模拟练习。对我来说，最重要的突破就是进行真人模拟面试。（01:00:22）所以我主动联系LinkedIn上的用户，让他们为我进行真实模拟面试。我认为归根结底，特别是对于竞争激烈、难度极高的Meta产品经理面试来说，没有别的捷径可走。",
+   "ts": "00:58:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so cool they use that post. I wasn't aware. We're going to link to it. And in that post, Ben shares all these prompts you can feed ChatGPT to help you prepare for interviews, do mocks online. It's a really important point to say that those take you to a point, but it's actually better to use humans. I actually have a post coming out soon in collaboration with Noam Segal about how everyone is using AI to interview. (01:01:02): And one of the most interesting ways I've heard people and that we've found in this research was that people use it to get feedback. They record the interview and then it gives them feedback. Here's where you could have done better. Here's what you missed because the feedback loop is so missing. No one ever tells you, here's what you did badly in this interview. No one tells you that, and AI can do that.",
+   "zh": "他们用了那篇帖子真是太棒了。我之前都不知道。我们要把链接放上去。Ben在那篇帖子里分享了所有你可以用来准备面试、进行在线模拟的提示。关键在于，这些方法能帮你入门，但最好还是借助真人来提升。很快我会和Noam Segal合作发布一篇文章，探讨大家如何利用AI进行面试。（01:01:02）：我听说最有趣的应用之一是人们用它获取反馈。他们录下面试过程，AI会给出反馈，指出可以改进的地方。比如，\"你漏掉了这个问题\"，或者\"你的回答有待优化\"。传统面试中没人会告诉你哪里做得不好，AI却能做到这一点。",
+   "ts": "01:00:38"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "So I'll add two things to that. One, which is exactly this. So I'll mock with AI. Also, I did something really cool where there's a question bank online free by Louis Lynn, which basically is an always updating bank of questions that people are asked in real interviews. And I basically used Comet, which is the Perplexity's browser. And I had the agent run all kinds of analyses on what the most asked questions are. And that's how I knew how to prioritize what questions I would mock. (01:01:52): And then at the end of these mocks, I would tell Claude within the project, \"You're my coach and I don't want you to make me feel good. I want you to make me as ready as possible for these interviews. So give me feedback, like you said.\" And the other thing that I did was really cool was some questions where I didn't have time to mock. I would ask Claude to play the candidate, and then it would just give me a really good answer. And I could also learn from that, like learning from someone who does a perfect answer.",
+   "zh": "接下来我要补充两点：第一点，正如Ben所说。我会用AI进行模拟练习。还有个超酷的做法，Louis Lynn免费提供了在线题库，里面都是真实面试中常问的问题。我用Comet浏览器让模型分析最常被问到的问题，这样就能优先模拟这些问题。（01:01:52）：模拟结束后，我会在项目里告诉Claude：\"你是我教练，我不需要你让我感觉良好。你得帮我尽可能为面试做好准备。所以别留情面，给出真实反馈。\"另外，我会让Claude模拟面试官，这样AI就能给出完美的回答，我也能从中学习。",
+   "ts": "01:01:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, man. I really love the way you phrased it, that people kind of in your generation, the default is, \"I have something I need to do. Let's go to AI immediately and help me prepare for this thing, help me figure it out.\"",
+   "zh": "天啊，我太喜欢你这种表达方式了。你这一代人似乎默认：\"我需要做某件事，就立刻用AI帮忙准备。\"",
+   "ts": "01:02:20"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:02:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And this comes back to this quote that I always think about, which I think everyone is always hearing, but it's such an important quote that it's not that you will be replaced by AI at least for a long time. It's you'll be replaced by someone who's better at using AI than you.",
+   "zh": "这让我想起一句我常挂在嘴边的话，虽然大家都听腻了，但它很重要：至少短期内AI不会取代你，但会取代比你更善于利用AI的人。",
+   "ts": "01:02:33"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "I agree.",
+   "zh": "我同意。",
+   "ts": "01:02:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And that's what these conversations are for to help people keep up with all that and to learn some of these skills. And again, see where the future is going and start to learn how to get there yourself. Okay. Zevi, before we get to our very exciting lightning round, I'm going to take us to a recurring segment on this podcast I call Failure Corner. (01:03:05): And why I love this segment is people come on this, just even this conversation, it's like all these amazing things you figured out, everything is going so well. People rarely hear the things that don't go well, and those are often the most interesting and impactful stories. So the question is just, what's the story of a time you failed in your career and what did you learn from that experience?",
+   "zh": "这正是我们今天探讨的重点，帮助大家跟上潮流，掌握这些技能。再回头看看未来趋势，开始学习如何适应。好的，Zevi，在我们进入激动人心的闪电问答环节之前，我要带大家进入本期播客的固定环节——失败角。（01:03:05）：我喜欢这个环节的原因是，参与嘉宾们会分享成功故事，但失败经历同样值得关注。人们很少提及失败，但这些故事往往更具启发性和影响力。所以今天的问题是：你在职业生涯中遇到过哪些失败经历，又从中获得了哪些教训？",
+   "ts": "01:02:48"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, I love this. I love this. I love Failure Corner, big fan. So I'll tell a story about when I started at Wix. So basically I started within Wix as a student program and straight out of the student program, you get put into a certain team. So I was in the editor, which is the core product of Wix. And the other PMs were just the best PMs almost at Wix. (01:03:51): There's four other people had much more experience than me and they were ridiculously good. And I remember coming in and thinking like, my first product review, I'm going to blow these people's socks off. They're not going to believe how good of a PM I am. And I basically didn't really share what I was thinking. I would work tons of hours alone and I was like, \"I'm going to kill this product review. They're going to be so impressed.\" And I ended up failing miserably. My product review was not good. (01:04:19): It wasn't the format they expected. They had a ton of questions that I missed and I felt awful when it was over. I was like, \"Ah, you're such an idiot.\" And I saw that everyone was like, \"All right, cool. Yeah, just come back in two weeks and we'll keep getting at this.\" And I understood in that moment that they had zero expectation of me being a 10X PM, but the expectation of me was being a 10X learner. (01:04:42): And the second I understood that, my whole mindset shifted. And I think this is probably the best tip that I give now to junior PMs is basically be the best learner you can be at the beginning. No one expects you to know all the answers and no one expects you to be good. So basically what I did was I took each person on the PM team, there was four other PMs and I assessed what their strength is and used them as a mentor for that. (01:05:08): So Neri who's still my mentor till today, he has the best product sense of anyone I've met. Oya is super, she's like a methodology expert. She just thinks in frameworks. Yahra, who is the head of product, basically can look at a product and then instantly understand the third and fourth order effects of them, the system thinking. So every time I had an issue with one of these areas, I would come to one of them and consult them, and this does two things. First of all, I learned a ton. (01:05:35): And the second thing is that when the next time, the next product review, my success felt to them like their success because it wasn't this kid who's trying to show us up how cool he is. It was like our mentee kind of making us all proud. And it was such a great shift for me. And basically at the end of the day, I really excelled through this.",
+   "zh": "是啊，我超爱这个故事。我太喜欢《失败角》这个节目了，是忠实粉丝。所以我要讲讲自己在Wix的入职经历。当时我作为学生项目的成员加入Wix，一结束学生项目就会被分配到某个团队。我当时负责的编辑团队，是Wix的核心产品。其他产品经理几乎都是Wix里最顶尖的。（01:03:51）：团队里有四个经验远超我的人，他们简直太厉害了。我记得刚加入时想，第一次产品评审，我要惊艳所有人。他们肯定会惊叹我是个多么出色的产品经理。结果我根本没分享自己的想法。整天埋头工作，自以为能拿下评审，结果惨败。我的评审反馈很糟糕，格式不符合要求，遗漏了很多问题，结束时我尴尬得不行。心想：“天啊，我真是白痴。”但大家还是说：“好的，下周再来继续改进。”那一刻我意识到，他们对我的期望不是成为10倍高效的产品经理，而是成为10倍高效的学习者。\n（01:04:42）：明白这一点后，我整个心态都变了。现在我给初级产品经理最重要的建议就是：刚开始要尽可能成为最优秀的学习者。没人期望你无所不知，也没人要求你一开始就很出色。所以我针对每个产品经理团队成员进行了评估，充分利用他们的优势作为导师。\n（01:05:08）：比如至今仍是导师的Neri，他的产品敏锐度是我见过最强的。Oya是方法论专家，总是用框架思维解决问题。Yahra作为产品负责人，能瞬间理解产品的三四阶效应，具备系统思维。每次遇到难题，我都会向他们请教，这样做有两个好处：一是自己学到很多；二是下次评审时，成功成果更像是团队的共同胜利，而不是某个新人秀技的机会。这对我来说是个重大转变。最终我成功突围了。",
+   "ts": "01:03:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is an awesome story. And this idea of learning is such a good thread throughout this whole conversation that AI is good at getting stuff done, but it's also really good at helping you learn how to do the thing and to be this partner, this thought partner, the way you talked about the interview process you went through and this learning opportunity /command. So awesome. Great story. Zevi, okay. Before we get to our very exciting lightning round, is there anything else that you wanted to share? Anything you want to leave listeners with?",
+   "zh": "这真是个精彩的故事。整个对话中关于学习的理念贯穿始终，AI确实能高效完成任务，但更重要的是帮助你学会如何做事、成为合作伙伴，正如你所说的面试流程和学习机会/指导。太棒了。Zevi，接下来是激动人心的闪电问答环节，还有什么想和听众分享的吗？",
+   "ts": "01:05:57"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. So kind of to tie back into the first thing I said where if people walk away thinking, \"Zevi's so cool.\" Then I've failed here. I think that it's just the best time to be alive, I think. It's the best time to be a junior contrary to what a lot of people are saying how there's no more junior roles out there and people get out of school and you can't find a role. (01:06:52): Yeah, that's true. But also when else in history could you get out of school and just build a startup on your own with a couple of friends completely bootstrapped. And I see more and more people towards the end of my time at Wix, I was interviewing and I saw more and more people building their own stuff with AI. And I think contrary to what a lot of people think, it's the best time to be a junior. (01:07:17): It's the best time to be a learner. And I think if any listener is listening to this and you're a curious person, you're a hardworking person, I want to say kind, I'm not sure, but if you're a kind person and a good communicator, you have such an unfair advantage and you can give more value to companies than most people who have 20 years of experience. So I really hope people get inspired by this and start killing it with their projects.",
+   "zh": "是啊。所以我要回到我最初说的话——如果人们离开时觉得“泽维太酷了”，那我就失败了。我觉得现在正是最美好的时代，尤其对于初级职员而言。尽管很多人说初级职位已经消失，毕业生找不到工作机会，但我认为相反，现在正是初级职员大展身手的最佳时机。（01:06:52）：没错。但历史上还有什么时候能让初级职员自己和几个朋友白手起家创办初创公司呢？在Wix工作的最后阶段，我面试了很多人，发现越来越多人用人工智能技术开发自己的项目。这与许多人的看法相反，现在正是初级职员大放异彩的时代。（01:07:17）：现在最适合学习的时代。如果听众中有人好奇、勤奋、善良——我不确定是否要用“善良”这个词，但如果你善良且善于沟通，那你就拥有了巨大的优势，能为公司创造比拥有20年经验的人更大的价值。所以我真心希望大家能从这次对话中获得启发，开始在项目中大显身手。",
+   "ts": "01:06:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. So many ways to be inspired from this conversation. Zevi, with that, we've reached our very exciting lightning round. I've got five questions for you. Are you ready?",
+   "zh": "太棒了。从这次对话中能获得很多启发。泽维，接下来是我们激动人心的闪电问答环节。我有五个问题要问你，准备好了吗？",
+   "ts": "01:07:44"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yep, let's do it.",
+   "zh": "好的，开始吧。",
+   "ts": "01:07:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you find yourself recommending most to other people?",
+   "zh": "你最常向别人推荐的两三本书是什么？",
+   "ts": "01:07:54"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "So I'll take one from each kind of genre. So in fiction, I love The Fountainhead by Ayn Rand, one of my favorite books. Really makes you think, really makes you feel. Business books, I'm a big fan of Shoe Dog, the Nike story, one of my favorite books.",
+   "zh": "那我每个类型各推荐一本。小说方面，我最喜欢的是安·兰德的《源泉》，是我最喜欢的书之一。它真的能让你深入思考，感同身受。商业书籍方面，我很喜欢《鞋狗》——耐克的故事，也是我最喜欢的书之一。",
+   "ts": "01:07:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I just finished reading that. So funny.",
+   "zh": "我刚读完那本书。太有趣了。",
+   "ts": "01:08:15"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Amazing.",
+   "zh": "太棒了。",
+   "ts": "01:08:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is great. It was great.",
+   "zh": "太好了。真是棒极了。",
+   "ts": "01:08:17"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. I love Shoe Dog. And then more on the psychology side Mindset by Carol Dweck, who coined the term growth mindset. It's just such an amazing book. It kind of sounds like a self-help book, but then you understand that it's completely psychological and is based on research and that book completely changed my life. (01:08:39): Really, I was always with a fixed mindset, and then after reading that, I kind of understood that it was something holding me back. And since then, I've been really, really trying to cultivate a growth mindset. So I really recommend everyone reading that.",
+   "zh": "是啊。我超爱《鞋狗》的。然后在心理学方面，卡罗尔·德韦克的《成长型思维》，她提出了“成长型思维”这个概念。这本书太棒了。它听起来像是自助书籍，但你会发现它完全基于心理学研究，彻底改变了我的生活。（01:08:39）：说真的，我以前一直有固定型思维模式，读完那本书后，我意识到这是在阻碍我自己。从那以后，我一直在努力培养成长型思维。所以我真的推荐大家都读一读。",
+   "ts": "01:08:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Again, connects to that thread of the way you described it, being a 10X learner versus a 10X doer. Okay. Next question. Favorite recent movie or TV show you have really enjoyed?",
+   "zh": "再说回你之前提到的10X学习者和10X执行者的话题。好的，下一个问题。你最近看过最喜欢的电影或电视剧吗？",
+   "ts": "01:08:51"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, actually, my wife is really into film, so we watch a lot of TV. It's probably our favorite together time. I just finished watching The Pitt, which was amazing. It was really good. And my first recommendation to everyone is if you haven't seen Severance run to see Severance, one of my favorite shows.",
+   "zh": "是啊，其实我妻子对电影很感兴趣，所以我们经常一起看电视。这可能是我们最喜欢的相处时光。我刚看完《皮特》系列，太棒了。真的很棒。我最想推荐给大家的是《断头台》，如果你还没看过，一定要去看，这是我最喜欢的剧集之一。",
+   "ts": "01:09:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a favorite product that you have recently discovered that you really love?",
+   "zh": "最近有没有发现特别喜欢的产品？",
+   "ts": "01:09:21"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "This is a good question. I'm always trying new products. I'll always have three or four browsers installed on my computer and all this different kind of stuff, and I recently discovered a Loom alternative. I was kind of disappointed with Loom. They were taking so much money and the product, I don't know, I just didn't love it. And there's an open source alternative called Cap, which is just really well-crafted. You can see that the person was really sweating the details and it's just a really, really great alternative. So I've been using that recently.",
+   "zh": "这是个好问题。我一直在尝试新产品。我的电脑上总是安装着三四个浏览器，还有各种各样的工具，最近我发现了一个Loom的替代品。我对Loom挺失望的，他们收费太高，产品方面嘛，我也不知道，总之我不喜欢它。有一个叫Cap的开源替代品，设计得非常精良。能看得出开发者在细节上下了很大功夫，真是个非常棒的替代品。所以最近我一直在用它。",
+   "ts": "01:09:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's also a product called Supercut that I love that's also a Loom alternative. Shout out. Okay. Two more questions. Do you have a favorite life motto that you find yourself coming back to in work or in life?",
+   "zh": "还有个叫Supercut的产品，我也很喜欢，它也是Loom的替代品。推荐一下。好的，再问两个问题。你有没有一条在工作或生活中经常回想的座右铭？",
+   "ts": "01:09:58"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah. I'm kind of between two right now. One, which has become a Twitter meme basically, which is you can just do things. I feel like that is basically going always in my head every time I do something that I'm just shocked at the speed and ability to do things now so you can just do things, and the second one I stole from my brother. His motto is nobody knows what the fuck they're doing. And I just love that. And I think it kind of makes you take life more lightly. So yeah, nobody knows what the they're doing.",
+   "zh": "有啊，目前我有两个选择。一个在推特上成了梗，叫“你能把事儿做成”。每次我做成一件事时，都会惊叹于现在的效率和能力真是太高了，所以“你能把事儿做成”。第二个是我从我哥那儿偷来的。他的人生格言是“没人知道自己在干什么”。我超爱这句话，它能让你更淡定地看待生活。所以，没人知道自己在干什么。",
+   "ts": "01:10:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think people see these companies on the outside and it feels like everything they've got all figured out. And if you're ever on the inside of a company that's doing really well, you're like, how is this staying on the rails? How is this still a thing that is working? Doesn't make any sense. It's all about to fall apart. Yeah. Okay. (01:10:54): Last question. You've had a long entrepreneurial thread throughout your career. There's a couple other real world businesses you've started in the past. You did a thermal clothing business and then like a hummus delivery thing. So maybe pick one of those and just tell the story of what that's about.",
+   "zh": "人们从外部看这些公司，总觉得他们把一切都安排得井井有条。但如果你身处一家运营良好的公司内部，就会发现怎么能一直维持下去？怎么能持续成功？根本说不通。感觉随时都要崩盘了。好的，最后一个问题。你职业生涯中一直有创业经历，过去还创办过其他实体企业。比如做过保暖服生意，还有送鹰嘴豆泥的服务。你能不能选其中一个，讲讲背后的故事？",
+   "ts": "01:10:39"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Yeah, I'd love to. Really fun that you asked about this. So I'll tell the thermal clothing because I think it's really cool. So in high school, I was selling thermal clothes in 10th grade for one of my sister's friends or something, and basically it was just packs of thermal clothing, shirt and pants. I grew up in Jerusalem, so it's a bit chillier there. (01:11:34): So it was perfect for the weather. And in 10th grade, when I was selling them, they were like 20, $25 a piece and I was making like $4 a sale, and if you look in the food chain, I was like sixth or seventh down the line. So this was like crazy margins. So during the summer I thought about it like I should just go straight to the importer. So throughout the summer I called the importer and at first he was really, really mad. (01:12:00): He was like, no, you have to work for me for years to get to this state. And I said, listen, man, I'm finishing school soon. This is not going to be my career. Either do it or not. And we basically negotiated throughout the whole summer. And this was also like how I did things before ChatGPT. So he would throw out something, he'd say, \"Oh, the import tax has gone up.\" And I'll just search Google, like Import Tax Israel and start reading. (01:12:25): And I'll be on the phone with him and I'll be like, \"Hey, I would just basically stall.\" And then I'd somehow come back with a challenge. And I ended up getting a really great price, like 12 and a half dollars a piece. So I was making 100% profit and I spread throughout a bunch of different schools. Each school, I had the coolest people in school selling for me. And then a really fun thing that I did was we had a really awesome basketball team and our basketball team would basically be 30 points up within the first half and it kind of got boring for the crowd. (01:13:01): So I wrote a song, like a basketball chant about Thermal Clothes that basically has my number within it. And the end of it was if you join in now, we'll give you a discount. And it was with drums and everything. And still when I go to Jerusalem, I know some people who I don't even know my number by heart because they know it by the tune. And sometimes when I walk in Jerusalem, people stop me and say like, \"Hey, it's Thermal Zevi.\" So that was just a really cool experience as a kid.",
+   "zh": "是啊，我很乐意分享。很高兴你问起这个话题。让我来讲讲保暖衣吧，我觉得这真的很酷。高中的时候，我在十年级帮我姐姐的朋友卖过一批保暖服，主要是保暖上衣和裤子的套装。我在耶路撒冷长大，那里天气比较冷。（01:11:34）所以这些衣服对当地天气来说再合适不过了。十年级卖这些衣服的时候，每件售价20到25美元，我每笔销售能赚4美元。按整个销售链条来算，我大概处于第六或第七层级。当时利润空间简直太高了。夏天的时候我就在想，直接找进口商得了。整个夏天我一直联系进口商，一开始他特别生气。（01:12:00）他说，不行，你得为我工作好多年才能达到这个水平。我说听着，兄弟，我很快就要毕业了，这又不是我的职业出路。要么做，要么不做。整个夏天我们一直在谈判。这也是我在ChatGPT出现之前的做事方式。他抛出个难题，比如“进口税涨了”，然后我直接去谷歌搜索“以色列进口税”，开始查资料。（01:12:25）我一边和他通电话，一边拖延时间，最后反驳他的质疑。最后我成功拿到了超划算的价格，每件12.5美元，利润率100%。然后我把货分发到不同学校，每所学校都有最酷的学生帮我销售。还有个很有趣的点，我们篮球队特别强，上半场就能领先30分，让观众觉得有点无聊。（01:13:01）于是我写了一首关于保暖衣的篮球助威歌，里面还嵌入了我的电话号码。结尾是\"现在加入我们，就能享受折扣\"，配上鼓点和其他元素。直到现在回耶路撒冷，我还有人不认识我但记住了那首歌。走在街上有人还会拦住我说\"嘿，我是Thermal Zevi\"。真是童年难忘的经历啊。",
+   "ts": "01:11:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This explains so much just the marketing genius of that move. Oh man. Okay. Zevi, this was incredible. Two final questions. Where can folks find you if they want to reach out and maybe follow up on some of the stuff? We'll link to the scripts and prompts and all that in the show notes so you don't have to read that, and then how can listeners be useful to you?",
+   "zh": "这充分说明了你当时的营销天赋。天哪。好的，Zevi，这太不可思议了。最后两个问题。如果听众想联系你，或者想跟进一些内容，可以在哪里找到你？我们会在节目笔记中附上链接和提示，这样大家就不用手动查找了。还有听众如何能帮到你呢？",
+   "ts": "01:13:29"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Awesome. So I've been helped throughout my whole career a ton, so I love helping any way I can. So reach out on LinkedIn or on X. I'd really love to help whoever I can. How can listeners be useful to me? So if you're a student, try StudyMate, tell me what you think. If you're in Israel and you are not using dictation yet, try Dibur2text. Tell me what you think.",
+   "zh": "太棒了。我整个职业生涯都受益匪浅，所以很乐意尽可能提供帮助。可以通过领英或X（平台名）联系我。想帮助谁就尽力帮吧。听众如何能帮到我呢？如果你还是学生，可以试试StudyMate，说说你的想法。如果你在以色列还没用过语音转文字软件，可以试试Dibur2text，分享一下你的体验。",
+   "ts": "01:13:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I just love how much you're giving away and how useful that's going to be to so many people. So again, we'll link to that in the show notes. Zevi, you're awesome. Thank you so much for being here. Thank you so much for sharing so much. This is going to help, I think, a lot of people and I think it's going to help people get over the hump on. Okay, I see all these people doing cool stuff. Here's how I can actually do this stuff. So thank you so much for being here and for sharing so much.",
+   "zh": "太棒了。我真心感激你分享的这些内容，它们对很多人都非常有用。所以，再次强调，我们会在节目笔记中附上相关链接。泽维，你太棒了。非常感谢你能来到这里，也感谢你分享了这么多干货。我相信这会帮助很多人，帮助他们克服难关。好的，我看到很多人都在做很酷的事。这让我明白，自己也能把这些知识付诸实践。再次感谢你的到来和分享。",
+   "ts": "01:14:14"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Thank you for having me. And if you build something cool with some stuff that I learned here, hit me up, send me. I'd love to see.",
+   "zh": "感谢邀请。如果你用在这里学到的知识开发出很酷的东西，记得联系我分享成果，我很期待看到成果。",
+   "ts": "01:14:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Zevi, thank you so much for being here.",
+   "zh": "太棒了。泽维，非常感谢你能来参加节目。",
+   "ts": "01:14:43"
+  },
+  {
+   "speaker": "Zevi Arnovitz",
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "ts": "01:14:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见。非常感谢收听。如果你觉得这期节目有价值，可以在苹果播客、Spotify或你喜欢的播客应用上订阅节目。另外，请考虑给我们评分或留下评论，这对其他听众找到节目会很有帮助。您可以在l越来越多地了解更多关于该节目的信息。下一期节目再见。",
+   "ts": "01:14:46"
+  }
+ ]
+}

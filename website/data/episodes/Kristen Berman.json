@@ -1,0 +1,1187 @@
+{
+ "id": "Kristen Berman",
+ "name": "Kristen Berman",
+ "category": "企业管理",
+ "identity": "创始人/CEO",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Kristen+Berman",
+ "bio": {
+  "en": "Kristen Berman is the CEO and co-founder of Irrational Labs, a behavioral-design firm that helps companies like Google, Airbnb, and Microsoft build better products, and co-founded the Common Cents Lab at Duke.",
+  "zh": "克里斯滕·伯曼（Kristen Berman）是行为设计公司 Irrational Labs 的 CEO 兼联合创始人，该公司帮助 Google、Airbnb、微软等企业打造更好的产品；她还联合创办了杜克大学的 Common Cents Lab。"
+ },
+ "summary": {
+  "en": "Kristen explains how behavioral science reveals that people act on emotion and social norms, not pure rationality, and how products can be designed to steer better behavior. She introduces the 3B Framework of Behavioral Design with real case studies, including work with TikTok. The episode shows how to apply psychology to drive engagement and growth without manipulation.",
+  "zh": "克里斯滕解释了行为科学如何揭示：人是基于情绪与社会规范行事，而非纯粹理性，以及产品如何被设计来引导更好的行为。她以 TikTok 等真实案例介绍了\"行为设计 3B 框架\"。本期展示了如何运用心理学推动用户参与和增长，且不带操纵色彩。"
+ },
+ "turns": [
+  {
+   "speaker": "Kristen Berman",
+   "ts": "00:00",
+   "en": "Economics says, \"Look, people are rational. We make decisions with no emotion. We use lots of computational energy, weigh the pros and cons.\" I mean, obviously, that's just not true. It ignores the whole field of psychology. And so, in behavioral economics, you combine the field of psychology and economics and say, \"Look, people make decisions with lots of emotion. We are present bias. We over-weighed our present selves. We follow social norms.\" But the good news is that we do these things in predictable ways. And once you understand how and why people behave, you can start to change it. And so, behavioral science and behavioral design basically uses those insights on psychology to actually apply it within real world problems.",
+   "zh": "经济学家会说：“看，人是理性的。我们做决策时不受情绪影响，充分权衡利弊。”但显然这根本不正确——它忽视了整个心理学领域。因此，在行为经济学中，我们将心理学与经济学相结合，指出：“看，人们做决策时充满情绪。我们受制于现状偏差，过度重视当下自我，还会追随社会规范。”不过好消息是，人们的这些行为模式是可预测的。一旦你理解了人们行为背后的机制和原因，就能着手改变现状。因此，行为科学和行为设计实质上是将心理学研究成果应用于现实世界问题的解决中。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "00:45",
+   "en": "Welcome to Lenny's Podcast. I'm Lenny, and my goal here is to help you get better at the craft of building and growing products. I interview world-class product leaders and growth experts to learn from their hard one experiences building and scaling today's most successful companies. Today, my guest is Kristen Berman. Kristen is the CEO and co-founder of Irrational Labs where she and her team use behavioral science to help companies like Google, Airbnb, PayPal, Microsoft, Fidelity, and TikTok build better and more successful products.",
+   "zh": "欢迎收听莱尼的播客。我是莱尼，我的目标是帮助你提升打造和发展产品的技能。我会采访世界级的产品负责人和增长专家，学习他们在打造和扩展当今最成功企业的过程中积累的宝贵经验。今天的嘉宾是克里斯汀·伯曼。克里斯汀是Irrational Labs的首席执行官兼联合创始人，她与团队通过行为科学，助力谷歌、Airbnb、PayPal、微软、富达和TikTok等公司打造更优质、更成功的产品。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "01:15",
+   "en": "In our conversation, we cover a ton of real-life examples of product changes that have her and her team helped craft that led to significant impact at the companies. We talk about what biases and psychologies they find most commonly get in the way of people achieving what they want achieve in your product, her biggest surprises and insights about human psychology and how it relates to product design, a couple of real-life case studies including our work with TikTok and the change they made in the product as a result, and so much more. I found this conversation super fascinating and super tactical, and I can't wait for you to hear it. And so with that, I bring you Kristen Berman.",
+   "zh": "在我们的对话中，我们探讨了大量真实案例，展示了她与团队共同参与的产品变革如何为企业带来显著影响。我们探讨了在产品设计过程中，哪些偏见和心理因素最常阻碍人们达成目标。她分享了对人类心理及其与产品设计关联性的深刻见解，还分享了与TikTok合作的案例研究，以及该产品因而做出的改进。整场对话既引人入胜又极具实用价值，我迫不及待想让大家一同聆听。现在，让我们欢迎Kristen Berman上台。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "01:55",
+   "en": "Hey, Ashley, head of marketing in Flatfile. How many B2B SaaS companies would you estimate need to import CSV files from their customers?",
+   "zh": "嗨，Flatfile公司的市场部负责人阿什利。你估计有多少B2B SaaS公司需要从客户那里导入CSV文件呢？"
+  },
+  {
+   "speaker": "Ashley",
+   "ts": "02:02",
+   "en": "At least 40%.",
+   "zh": "至少40%。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "02:04",
+   "en": "And how many of them screw that up, and what happens when they do?",
+   "zh": "又有多少人把这事搞砸了呢？而当他们搞砸时，又会发生什么呢？"
+  },
+  {
+   "speaker": "Ashley",
+   "ts": "02:07",
+   "en": "Well, based on our data, about a third of people will consider switching to another company after just one bad experience during onboarding. So, if your CSV importer doesn't work right, which is super common considering customer files are chock-full of unexpected data and formatting, they'll leave.",
+   "zh": "嗯，根据我们的数据，大约三分之一的人在入职过程中仅经历一次糟糕体验后，就会考虑跳槽到其他公司。所以，如果你的CSV导入工具出了问题——考虑到客户文件中往往充斥着意外的数据和格式问题，这种情况其实挺常见的——他们很可能会离开。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "02:26",
+   "en": "I am 0% surprised to hear that. I've consistently seen that improving onboarding is one of the highest leverage opportunities for both signup conversion and increasing long term retention. Getting people to your aha moment more quickly and reliably is so incredibly important.",
+   "zh": "听到这个消息我一点也不惊讶。我一直认为优化新用户引导流程是提升注册转化率和增强用户长期留存率的最高效手段之一。让用户更快、更可靠地触达\"顿悟时刻\"（Aha moment）至关重要。"
+  },
+  {
+   "speaker": "Ashley",
+   "ts": "02:41",
+   "en": "Totally. It's credible to see how our customers like Square, Spotify and Zuora are able to grow their businesses on top of Flatfile. It's because [inaudible 00:02:50] data onboarding acts like a catalyst to get them and their customers where they need to go faster.",
+   "zh": "完全正确。看到我们的客户如Square、Spotify和Zuora能够在Flatfile平台上成功发展业务，这一点确实令人信服。这是因为[此处语音不清，00:02:50]数据导入机制就像一剂催化剂，助力他们和他们的客户更快地达成业务目标。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "02:58",
+   "en": "If you'd like to learn more or get started, check out Flatfile at flatfile.com/lenny.",
+   "zh": "如果你想了解更多信息或立即开始使用，请访问Flatfile官网：flatfile.com/lenny。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:06",
+   "en": "This episode is brought to you by Whimsical. When I ask product managers and designers on Twitter what software they use most, Whimsical is always one of the most mentioned products, and the users are fanatical. Whimsical is built for collaborative thinking combining visual, text, and data canvases into one fluid medium. Distributed teams use Whimsical for workshops, whiteboarding, wire frames, user flows, and even feature specs. And that includes thousands of built-in icons and a rich library of templates. See why product teams at leading companies call Whimsical a game changer. Visit whimsical.com/lenny to have my own templates added to your account when you sign up. That's whimsical.com/lenny.",
+   "zh": "本期节目由Whimsical赞助。当我在推特上询问产品经理和设计师最常用的软件时，Whimsical总是被频频提及，而且用户对它的热情堪称狂热。Whimsical专为协同思维而设计，将视觉、文本和数据画布融为一体，形成流畅的创作环境。分布式团队用它来举办研讨会、进行白板设计、制作线框图、规划用户流程，甚至编写功能规范。平台还内置数千个图标，并提供丰富的模板库。难怪众多顶尖公司的产品团队都称Whimsical是变革者。在此访问whimsical.com/lenny，当您注册账号时，即可将我的专属模板添加至您的账户。网址是whimsical.com/lenny。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:54",
+   "en": "Kristen, welcome to the podcast.",
+   "zh": "克里斯汀，欢迎做客我们的播客节目。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "03:57",
+   "en": "Thanks, Lenny. Great to be here.",
+   "zh": "谢谢你，莱尼。很高兴能来这里。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:58",
+   "en": "It's great to have you. You're on something called Irrational Labs, and so, to set a little context for folks, can you just talk about what it is you all do at Irrational Labs?",
+   "zh": "很高兴您能加入我们。你们所在的公司叫做Irrational Labs，所以为了让大家更好地了解情况，能否先讲讲Irrational Labs团队的主要业务方向？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "04:08",
+   "en": "Yeah, so Irrational Labs, we are a behavioral science consulting and design shop. So, we think about all things behavior change. We work on understanding psychologies that drive users, and then designing and testing ways to change behavior and drive engagement.",
+   "zh": "是的，Irrational Labs是一家行为科学咨询与设计公司。我们致力于研究一切与行为改变相关的课题。我们专注于理解影响用户行为的心理机制，并通过设计和测试各类方法来改变用户行为、提升用户参与度。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "04:28",
+   "en": "I started it in 2013 with Dan Ariely, who's a famed behavioral economist. We started just working with a handful of companies, and now we have a team of 20 behavioral scientists working on behavior change across industries.",
+   "zh": "2013年，我与著名的行为经济学家丹·阿里利（Dan Ariely）共同创立了这个项目。最初我们只与少数几家公司合作，如今已拥有一支由20名行为科学家组成的团队，致力于推动各行业的行为改变。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "04:43",
+   "en": "Can you talk about some of the companies that you've worked with, just to give us some examples? And then, what kind of stuff have you actually helped them with?",
+   "zh": "您能否谈谈您曾合作过的部分公司，举几个例子供我们参考？然后，您具体为这些公司提供了哪些方面的帮助？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "04:50",
+   "en": "We started a lot of our work at Google. We were actually embedded within Google for around three years. I even had a bus pass. And we started their behavioral economics team. We worked with over 25 teams from like self-driving cars to YouTube. And so, that was a big piece of the early work. And then recently, we've done work with TikTok where we've tried to... It actually accomplished decreasing misinformation share by 24%. We worked with one medical on how to increase setting doctor's appointments right away during the onboarding, and that worked and drove it up by 20%. We worked with Credit Karma on basically helping them increase set up for reoccurring deposits. We did that and increased it by 18%. So, basically a variety of ways to drive behavior change. Done stuff with Intuit, Microsoft, LinkedIn, and obviously, a variety of startups as well.",
+   "zh": "我们在谷歌开展了许多工作。实际上，我们在谷歌内部工作了约三年时间。我甚至还持有谷歌的公交卡通行证。我们还组建了谷歌的行为经济学团队，与超过25个团队展开合作，涵盖从自动驾驶汽车到YouTube等多个领域。这是早期工作的核心部分。近年来，我们与TikTok合作，成功将虚假信息传播率降低了24%。我们与一家医疗机构合作，帮助他们提升新用户注册时的即时预约率，最终成功提升了20%。我们还与Credit Karma合作，帮助他们提高重复存款的设置成功率，最终将该项数据提升了18%。总之，我们通过多种方式推动行为改变。此外，我们还与Intuit、微软、领英等公司，以及众多初创企业开展了合作。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "05:45",
+   "en": "Wow. Okay, we're definitely going to talk about some of those examples. I'm super curious to hear what you did with TikTok, big company and story these days. Before we get to that, what exactly is behavioral design, and can you just define this space for us?",
+   "zh": "哇哦。好的，我们肯定会探讨其中的一些案例。我特别好奇想听听你最近在TikTok上的尝试、以及关于大公司和成功案例的分享。在深入这些话题之前，您能先为我们定义一下\"行为设计\"这个概念吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "06:00",
+   "en": "Let's start with what is behavioral economics? So, basically, behavioral economics is a reaction to economics. So, economics says, \"Look, people are rational. We make decisions with no emotion. We use lots of computational energy, weigh the pros and cons.\" I mean, obviously, that's just not true. It ignores the whole field of psychology. And so, in behavioral economics, you combine the field of psychology and economics and say, \"Look, people make decisions with lots of emotion. We are present bias. We over-weighed our present selves. We follow social norms.\" But the good news is that we do these things in predictable ways. And once you understand how and why people behave, you can start to change it. And so, behavioral science and behavioral design basically uses those insights on psychology to actually apply it within real world problems.",
+   "zh": "先来解释一下什么是行为经济学。简单来说，行为经济学是对传统经济学的反思。传统经济学认为：\"人是理性的，做决策时不受情绪影响，充分计算利弊\"。但显然这种假设并不成立——它忽视了心理学领域的研究成果。因此，行为经济学将心理学与经济学相结合，指出：\"人类的决策充满情绪波动，我们受制于现状偏见、高估当下自我、追随社会规范\"。但好消息是，这些行为模式具有可预测性。一旦理解了人们行为背后的心理机制，我们就能有针对性地加以改变。因此，行为科学和行为设计正是利用这些心理学洞见，将其应用于现实世界的决策优化中。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "06:51",
+   "en": "What are some of the biggest surprises, or maybe unintuitive results that you've come across working with companies using these insights in behavioral design, behavioral economics?",
+   "zh": "在与那些将行为设计和行为经济学见解应用于实践的公司合作过程中，你们遇到过哪些最令人惊讶，或者说最出乎意料的结果呢？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "07:02",
+   "en": "Yeah, great question. One story that recently happened is actually a surprise that happened to the client. The partner was shocked. It actually didn't surprise us. And so, this was with a popular FinTech app and their most requested feature was budgeting. So, it came through all the support forums, interviews, felt like a table stakes feature; people wanted budgeting. And so, if you're the PM there, you're probably like, \"You may talk to a few other users. You may get some confirmation, but you're likely building budgeting.\" And that's really where they were when we came and started working with them. We couldn't move them in another direction, but we did convince them to do an experiment. So, we convinced them to test, and there was three conditions. One was the control, which is just telling people how much they spend, and the other two were variations on budgeting. So, two different ways to do budgeting.",
+   "zh": "是的，问得好！最近遇到的一个案例，着实让客户大吃一惊，合作伙伴也感到震惊。但其实这对我们来说并不意外。当时是一款热门金融科技应用，其最受期待的功能是预算管理。通过各种支持论坛和用户访谈，我们发现用户普遍认为这是一项基本功能——大家都渴望能进行预算管理。作为项目经理，面对这种共识，你大概会想：“再去征求几位用户意见，确认一下需求，但最终肯定还是要开发预算功能。”这正是我们介入合作前，他们的项目进展阶段。我们无法改变他们的方向，但成功说服他们开展了一项实验。实验设定了三个条件：一个是控制组，仅告知用户消费金额；另外两个组则分别测试两种预算管理方案。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "07:57",
+   "en": "So, big experiment. This is with 10,000 people, so we can really trust the results. And what happened? Nothing. So, they were shocked. The team was shocked. Remember, this is a big investment of time and effort, took a lot of energy to build. Zero change in average spend, zero change in spend variability. And so, the question is: Why weren't we surprised? Why were they surprised? The thinking here is if you map out every single step that it takes to do this behavior, and the behavior would be reducing your spend, it's pretty clear that budgeting just isn't going to pull the weight. And this is what we call a behavioral diagnosis, where you map out every single step. So, you'd have to know what your budget is. You'd have to know where in the month you are. You'd have to make a plan to do it. You then have to do it multiple times during the month. Incredibly difficult to do this one behavior. And once you do that behavioral diagnosis and you map out... We try to understand what people actually do versus what they say they will do. And by doing that, it becomes wildly clear that we should all be skeptical that budgeting would actually work to change the behavior that you're trying to get to.",
+   "zh": "好的，这是一项大型实验，涉及1万名参与者，因此我们可以充分信赖实验结果。但结果如何呢？毫无变化。整个团队都大吃一惊。要知道，这项研究耗费了大量时间和精力，花费了巨大心血。平均消费额毫无变化，消费波动性也丝毫未减。那么问题来了：为什么我们不感到惊讶？为什么他们会如此震惊？关键在于，如果你完整地剖析实现这一行为所需的每一步——而减少消费就是一个典型行为——就会发现预算工具根本无法发挥作用。这种分析过程被称为行为诊断，即系统性地拆解每个行为步骤。首先，你得清楚自己的预算额，掌握当前月份的进度，然后制定具体计划，最后在月内多次践行。但这种行为习惯的养成实在太难了。通过行为诊断，我们能清晰发现：人们实际行为与口头承诺之间存在巨大落差。由此可见，我们对预算能有效改变行为的信心必须打上折扣。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "09:03",
+   "en": "Yeah, I'm also not surprised that didn't have a big impact. I have so many apps with budgeting features and I've tried many times to use them and it never sticks. It's like, \"Eh, I'm just going to...\" It's too much work.",
+   "zh": "是啊，我也不奇怪它没能产生太大影响。我下载过很多带有预算功能的应用，也尝试过多次使用它们，但始终无法坚持下去。总觉得：“哎呀，我还是算了吧……” 毕竟这实在太费功夫了。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "09:15",
+   "en": "It's way too much work. And so, sometimes, any kind of work that we put on the user, we should be skeptical. We have to really prove that it's worth their time, and then measure if they actually do it.",
+   "zh": "这工作量实在太大了。所以，有时候，我们给用户布置任何任务时，都应该保持怀疑态度。我们必须切实证明这项任务值得他们花费时间，然后再去衡量他们是否真的会去执行。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "09:26",
+   "en": "Is there a better approach to that specific problem that you've found, or is that too broad of a question?",
+   "zh": "针对那个特定问题，你是否找到了更好的解决方法？或者说这个问题问得是否太宽泛了？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "09:33",
+   "en": "The first line of defense in any problem solving would be, how would you make it easier for somebody to do? And so, in the personal finance world, really, the answer to most things is just default. So, it worked for automatic enrollment 401(k). The reason we have retirement savings in America is because people are defaulted into saving from their paycheck. So, that would be first line of defense. Obviously, difficult for product teams to execute on, takes a lot of backend infrastructure. So, if we were just solving the personal financial management stuff of like a budgeting alternative, we'd actually go to making it not just logistically easier, but cognitively easier. So, we call them rules of thumb; instead of having to decide in the moment, do I do this thing? And you're weighing the pros and cons. It's kind of typical econ, like, how much is this $3 worth to me? You'd actually make a rule of thumb that says, \"Do I do it, or not?\" So, instead of deciding, do you take a Lyft when you're coming home from work, you'd have a rule of thumb that says, \"I don't take Lyft on the weekdays. I take it on the weekends.\" Very simple now to actually make this kind of decision. It's a heuristic . It's not going to be perfect, but it's going to help you reduce your spend in an easier way, at least, in a way that you'd stayed adherent to.",
+   "zh": "解决任何问题时的首要防线都是：如何让用户更容易完成任务？在个人理财领域，大多数问题的答案其实都是默认选项。比如自动加入401(k)计划的功能之所以能成功，就是因为美国的退休储蓄体系通过从用户工资中自动扣除的方式实现了默认储蓄。这就是第一道防线。但显然，产品团队要实现这样的功能难度很大，需要强大的后台基础设施支持。\n\n如果我们只想解决预算管理等个人理财难题，关键在于让用户的决策过程不仅更符合逻辑，更符合认知习惯。我们称之为\"经验法则\"。用户无需在当下权衡利弊，而是可以根据既定规则快速行动。例如，用户可能纠结于\"下班回家时该不该叫Lyft车\"，但通过制定规则\"工作日不叫Lyft，周末可以\"，就能轻松做出选择。这是一种启发式决策，虽然不完美，但至少能帮助用户更轻松地控制开支，且更容易坚持下去。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "10:46",
+   "en": "It reminds me a bit of James Clears' idea of creating this identity for yourself where he is like, \"If you're like, 'I am a person that doesn't take Lyft on the weekdays', that becomes kind of this identity component and that makes it easier for you not to do that.\" Is that related?",
+   "zh": "这让我想起了詹姆斯·克利尔（James Clear）提出的为自己塑造身份的理念。他举例说：“如果你对自己说：‘我是一个平日不乘坐Lyft的人’，那么这就形成了一个身份标签，让你更容易坚持不乘坐Lyft。” 这两者有联系吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "11:00",
+   "en": "Yeah, basically. Sometimes, we think behavior change is driven by our attitudes, our preferences like, \"I really want to be a runner\" or \"I really like this thing.\" But in reality, our behavior is driven by what we do. So, in order to change behavior, you have to do something different. It's not enough to have a goal objective to do it. And I think, maybe that's the big annoying thing about the self-help industry. It kind of just tells you it's enough to have a goal. It's not enough. You actually need to redesign your environment to change your behavior.",
+   "zh": "是啊，大体来说确实如此。有时候，我们以为行为改变是由态度或个人偏好驱动的，比如“我真的想成为一名跑步者”或者“我特别喜欢这件东西”。但实际上，我们的行为是由行动本身所驱动的。因此，要想改变行为，就必须采取不同的行动。仅有目标是远远不够的。我觉得，这或许正是自助行业最令人厌烦的地方——它总告诉你只要设定目标就行，但这远远不够。实际上，要想改变行为，你还需要重新设计自己的环境。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "11:35",
+   "en": "Is there any other examples of big surprises or unintuitive results from work you've done?",
+   "zh": "你们在工作中有没有遇到过其他令人大吃一惊或出乎意料的结果呢？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "11:40",
+   "en": "One big one is actually... And I'm sure people listening have worked on signup flows before. This is kind of a common question and challenge in product world. And the common thinking is, and most often correct, that if you reduce friction to the signup flow, your conversion will increase. This is kind of the law that we all live by. And yet, there is one example, one time, where this is just not true, that you can actually increase friction and increase conversion. So, actually Lenny, have I ever told you about my mother?",
+   "zh": "其中一个重要问题实际上是……我相信在座听众之前都曾参与过注册流程的优化工作。这在产品设计领域是一个常见的难题和挑战。普遍观点——而且通常是正确的——认为如果能减少注册流程的阻碍，转化率就会提升。这几乎是我们都遵循的铁律。然而，确实存在这样一个例子，一个特定的案例，恰恰证明了这个观点是错误的——你完全可以增加注册流程的阻碍，同时提升转化率。那么，伦尼，我有没有跟你讲过我母亲的故事呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "12:12",
+   "en": "Nope.",
+   "zh": "不了啦。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "12:13",
+   "en": "Okay. So, now you're thinking about my mother.",
+   "zh": "好的。那么，现在你正在想我母亲的事了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "12:16",
+   "en": "Oh.",
+   "zh": "哦。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "12:16",
+   "en": "Before, you were not thinking about... There's nothing about my mother, but I just made you think about my mother by asking you a question.",
+   "zh": "之前，你并没有想起……这里并没有提到我母亲，但我只是通过问你一个问题，让你不由自主地想起了她。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "12:22",
+   "en": "Son of a gun.",
+   "zh": "真是倒霉透顶！"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "12:23",
+   "en": "So, when you ask a question, you can insert an idea into someone's head, you can get them thinking about something different. And so, in a sign up flow, what would you want people to be thinking about? You probably want them to be thinking about the benefits that you offer. So, if you ask them a question they can think about the benefits, it's going to increase their motivation to get over the hump of the future friction you're going to put in front of them because now they understand the benefits. So, as an example, if you go to Apartment List, they ask you questions during the signup flow that's like: What kind of apartment do you want? Do you want a studio, or a one-bedroom, a five bedroom? Do you want a patio, a basement, a view? Now, all of a sudden, I'm thinking, I'm engaging with the benefit. I understand how much supply that they have. So, if you Stitch Fix, or... Actually, Trunk Club has come out and said they did this and it increased conversion by 133%.",
+   "zh": "因此，当你提出一个问题时，就能将某个想法植入用户的脑海中，促使他们转换思路。在注册流程中，你希望用户专注于什么？很显然，你希望他们关注你提供的价值主张。若通过提问让用户意识到这些好处，他们便更有动力克服未来可能遇到的阻碍——毕竟他们已清楚了解自身能获得的益处。以Apartment List为例，其注册流程会询问用户：你想要哪种户型？是单间公寓、一居室、五居室？你希望有露台、地下室还是观景窗？这些问题瞬间激发了用户的兴趣，让他们深切感受到平台的资源优势。比如Stitch Fix就曾采用这种策略，甚至Trunk Club也公开表示，通过此举转化率提升了133%。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "13:16",
+   "en": "So, asking these questions can really drive conversion. We actually did something where we put a quiz on a partner's website. It's TytoCare which is basically a device that lets you remotely connect to a physician. It's a little bit hard to use, but we wanted to help people understand the device, and we asked them questions about their medical behavior, their frequency use of technology. And for people who completed a quiz, 53% of them went on to purchase versus 37% who didn't complete. So, these type of questions can have a real impact.",
+   "zh": "因此，提出这些问题确实能有效提升转化率。我们曾在合作伙伴的网站上推出过一个测试活动。TytoCare是一款能让用户远程连接医生的设备，但这款设备的使用略显复杂。我们希望帮助用户更好地了解这款设备，并向他们询问了医疗行为及科技产品使用频率等问题。完成测试的用户中，53%最终购买了该设备，而未完成测试的用户比例仅为37%。可见，类似这类问题的互动能产生切实的影响。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "13:51",
+   "en": "And so, very tactically, the idea here is you add a step to your flow that asks the user some question that isn't actually something you need an answer to, but may get them to be more excited by finishing. Is that right?",
+   "zh": "因此，从策略角度来看，这里提出的思路是，在用户流程中增加一个步骤，向用户提出一些其实不需要答案的问题，但这样做可能会让他们更有动力去完成整个流程。是这样理解的吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "14:04",
+   "en": "Exactly, yeah. And I would say probably most teams can do this. You can replace the carousel. The carousel is something where it tells you the benefit, but we want people to actively engage with the benefit so that they're thinking about how you can improve and affect their lives.",
+   "zh": "没错，确实如此。我觉得大多数团队都能做到这一点。你可以替换掉那个轮播图。轮播图的作用是向用户展示产品的好处，但我们希望用户能主动去探索这些好处，这样他们就能思考如何通过产品来提升生活质量、改变自身处境。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:22",
+   "en": "So, you said it's worked a couple times. It probably isn't something that usually works. Is there experience like sometimes it may work, maybe worth trying, but usually probably won't work. Is that generally right?",
+   "zh": "嗯，你说这办法用过几次。可能它不是那种经常管用的方法。是不是有种经验，觉得有时候可能会有用，或许值得一试，但通常来说不太管用？这样说对吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "14:32",
+   "en": "We want to remove the field that was like an open text fields where we're asking people an open-ended question and we improved conversion by 40% page over page. So, for sure, some questions are harder and you should not ask them. When questions are easier and it's a drop down multiple choice, this is when you should be trying it. But definitely, the recommendation is not to ask a hard question where people have to think about it.",
+   "zh": "我们想移除那种开放式文本字段，也就是那种让用户回答开放性问题的字段。通过这种改进，我们的转化率每页提升了40%。所以，确实有些问题确实比较难，应该避免提问。相反，当问题更简单，采用下拉式多选题时，就可以尝试使用这种形式。但最重要的是，建议不要设计那种需要用户深入思考的难题。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "14:58",
+   "en": "By the way, for the question that we did, that was open text, the folks on the team thought that it was an easy question. But most questions when you're asking people with an open text field, it's just not an easy question.",
+   "zh": "顺便说一下，我们之前做的那个开放式文本题，团队里的人都觉得挺简单的。但大多数开放式文本题，问用户自由回答时，其实都不是容易回答的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:10",
+   "en": "Right. I hate those open text fields. And then, just one last, because I imagine people listening to this are like, \"Oh, maybe I should run this experiment.\" Is the general best practice to ask a question that gets you to think about something that motivates you by finishing? What's like the rough mental model there?",
+   "zh": "好的。我讨厌那些开放式文本输入框。最后再问一个问题，因为我觉得听众可能会想：“哦，也许我该做这个实验。” 一般来说，最佳做法是设计一个问题，让参与者通过完成任务来反思那些能激发他们动力的因素。那么，这个过程的大致心理模型是怎样的呢？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "15:26",
+   "en": "I think each product, obviously, will be different. One example would be, if I'm a bill pay app, you could tell me that I could pay my bill once a week, every day, every month, I could time it, but a better approach would be to ask me, \"Do you want us to pay your bills immediately, or every week, or every month?\" And so, what you're doing there is engaging people in the setup and actually implicitly telling them, \"We can pay your bills immediately.\" So, would think about combining those two is showing people the benefit, like, how fast you want us to pay your bills, which gets you to think about how fast they are, and the settings which is actually you're really doing something to help the app work.",
+   "zh": "我认为每款产品显然都会有所不同。举个例子，如果我是一款账单支付应用，你可以告诉我可以每周、每天、每月支付一次账单，我也可以自行设定时间，但更好的做法应该是问我：“你希望我们立即为你支付账单，还是每周、每月支付？”这样做实际上是在让用户参与到应用的设置过程中，同时暗示他们：“我们可以立即为你支付账单。” 所以，我认为将这两者结合起来的关键在于向用户展示其好处，比如你希望我们多快为你支付账单，这能让用户意识到应用的支付速度有多快，而设置选项则是在真正帮助应用正常运行。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:09",
+   "en": "Awesome. Before we dive even deeper into more examples, I wanted to zoom out for a moment and I'm curious just how did you even get into behavioral economics? You said you worked with Dan Ariely. How did all this come about?",
+   "zh": "太棒了。在我们深入探讨更多案例之前，我想先退后一步，顺便问一下，你是如何接触到行为经济学领域的呢？你之前提到曾与丹·阿里利合作过，这一切是如何促成的呢？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "16:22",
+   "en": "Yeah, great question. So, I met Dan around 2008 and if you don't know Dan Ariely, definitely worth a Google. And at that time, he had just written his first book, Predictably Irrational, and I was a product manager at Intuit working on QuickBooks online. So, first use, customer discovery, and really after reading the book, hearing the talk, it's just like this light bulb went off and it was like... I'm talking to five to 10 customers to inform a feature, a product, and trying to come up with some insight on human behavior. And yet, there's this whole field that studied this, that has papers in thinking and studies why we behave the way we do. And so, this was like, \"Wow. I can't believe we're just missing out on it in the product community.\" And so, I started working with Dan. We started and now, 14 years later, it's what I do; bring behavioral insights to product teams.",
+   "zh": "是啊，这个问题问得太棒了。我大约在2008年认识了丹·阿里利，如果你不了解他的话，不妨去谷歌一下他。当时他刚写完第一本书《可预测的非理性》，而我还在Intuit公司担任产品经理，负责QuickBooks在线版项目。最初的使用场景是客户发现阶段。读完那本书、听过他的演讲后，我突然灵光一现——我当时正在通过访谈5到10位客户来完善某个功能或产品设计，试图洞察人类行为模式。然而，整个产品界对此却知之甚少，甚至没有相关研究成果。当时我就感叹：“天哪，产品社区怎么会错过这些宝贵的洞察呢？” 于是我开始与丹合作。14年后的今天，这份热情依然驱动着我——将行为科学的洞察注入产品团队的工作中。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "17:19",
+   "en": "And you said you were running an embedded team within Google to work on this sort of thing?",
+   "zh": "还有，你说你当时在谷歌内部组建了一个嵌入式团队，专门负责这类项目？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "17:23",
+   "en": "Yeah. So, basically, Google... It was kind of our first mover in thinking about how important understanding behavioral science was to product and marketing development. And so, it was Dan and I in the beginning, and over the course of the three years we hired internal Googlers, we brought in more people on our team, and really were an internal consultant where we'd be pitched to other teams, work with them from start to end on a project. And now, Google has one of the bigger behavioral science teams that's out there.",
+   "zh": "是的。所以，基本上，谷歌……它可以说是我们最先意识到理解行为科学对产品和营销开发至关重要的一家公司。最初只有丹和我两人，经过三年的发展，我们招募了谷歌内部的成员，将更多人纳入团队。当时我们实际上充当了内部顾问角色——其他团队会向我们提出需求，我们会全程参与项目的策划与执行。如今，谷歌已拥有业内规模较大的行为科学团队之一。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "17:50",
+   "en": "Wow. Okay. So, you've worked with how many companies at this point, roughly?",
+   "zh": "哇哦。好的。那到目前为止，你大概和多少家公司合作过呢？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "17:56",
+   "en": "I'd say hundreds.",
+   "zh": "我觉得有好几百个吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "17:58",
+   "en": "Hundreds, okay.",
+   "zh": "几百个？好吧。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "17:59",
+   "en": "I mean... Yeah, hundreds.",
+   "zh": "我的意思是……嗯，几百个吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "17:59",
+   "en": "Okay. So, there's hundreds of companies. There's also, I imagine, hundreds of these kind of biases and heuristics and kind of behavioral expectations of people. I'm curious, out of the work that you've done, what are the most common biases, heuristics of people that you find most useful in improving product experiences in product design? What's kind of the handful that ends up being most useful?",
+   "zh": "好的。所以，市面上有数百家公司。我想，人们也存在着数百种偏见、启发式思维模式以及行为预期。我很好奇，在你所做的研究中，哪些最常见的人类偏见和启发式思维模式，对产品设计中提升用户体验最为有效？最终证明最有用的那些具体是哪些呢？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "18:21",
+   "en": "Totally. And there are so many mistakes that humans make and we can call them biases, heuristics. Our team uses psychologies. What are the psychologies that drive us? And so, to tackle this, our team basically has created a model of behavior change. We call the three Bs. And this summarizes the most important psychologies that drive user that are important to the product manager and the marketers. We've used this at Google, Microsoft, LinkedIn, so all the companies that we work with, and they now use it. And so, the three B framework, first B is actually not a psychology, but it is the most important part of behavior change, and it should be obvious if you think about behavior change, behavioral economics, it is behavior. In order to change behavior, you have to pick a behavior that you want to change. So, companies are really good at outcomes, but just not as sharp at picking the behavior.",
+   "zh": "完全同意。人类会犯很多错误，我们可以将这些错误称为偏见或启发式思维。我们的团队借助心理学理论开展工作。那么，驱动我们行为的关键心理学原理是什么？为此，我们团队构建了一个行为改变模型，简称\"三B模型\"。该模型概括了对产品经理和营销人员至关重要的用户行为驱动心理学原理。我们曾在谷歌、微软、领英等合作伙伴公司应用这一模型，如今这些公司也纷纷采用了这一框架。首先，第一个\"B\"并非心理学概念，但它是行为改变最核心的要素。若你研究过行为经济学，就会发现答案显而易见——行为改变的关键在于明确目标行为。许多公司善于设定最终目标，却往往忽视选定具体行为这一关键环节。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "19:13",
+   "en": "When I say behavior, I mean action. The thing that you want someone to do. By the way, the only wrong answer here is log in. It's not about logging in, it's about what you do after you log in. And when we're consulting teams, it would be like... We need to get uncomfortably specific, we say. Just really specific in the behavior. So, example, if I'm Peloton PM and I'm working on the app, I would say something like, \"Within seven days of somebody starting the app, they do two 10-minute workouts with two different instructors.\" Now, obviously that is wildly specific and you'd probably be very happy if they did one workout with one instructor, but the reality is if you don't define that behavior you're going to change. You can't actually define the psychologies that affect someone's decision making when doing that behavior. So, that's the first B.",
+   "zh": "我所说的行为，指的是用户需要完成的具体动作。比如，你希望某人做某件事。顺便说一句，这里唯一错误的答案是\"登录\"。这里重点不在于登录本身，而在于登录后的具体行为。在为团队提供咨询时，我们会特别强调——我们需要做到极致的具体化，在行为描述上精准到极致。举个例子，如果我是Peloton的产品经理，负责开发应用程序，我可能会设定这样的目标：\"用户在启动应用后的七天内，需完成两次10分钟的锻炼课程，且教练需为不同人\"。显然，这个要求极其具体，如果用户只完成一次锻炼、且教练是同一个人，你可能也会感到满意。但现实是，如果不明确界定这些行为，用户的行为会随意变动。毕竟，你无法准确预测用户在执行这些行为时，其背后的心理动机和决策机制。所以，这就是第一个\"B\"原则。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "20:01",
+   "en": "Second B, again, is probably pretty obvious and is very critical. It's just barriers. So, we need to reduce the barriers to doing the behavior. And there are two types of barriers we look at. One is logistical. So, this is just the stuff in our way; could be entering a credit card, could be any form field. And then, the second is cognitive. So, the cognitive barriers get in our way as well. These are things like uncertainty aversion. This is optimism bias, information aversion. These are the things that would prevent... Status quo, big one. It's just you do the same thing today that you did yesterday. Your job is-",
+   "zh": "接下来是第二个B，同样，这点可能相当显而易见，而且至关重要。说白了，就是各种障碍。所以，我们需要减少行为实施的障碍。我们主要关注两类障碍：一是逻辑障碍，即阻碍我们行动的具体因素，比如输入信用卡信息、填写表单等；二是认知障碍，即潜意识里的心理障碍，比如不确定性厌恶、乐观偏差、信息回避等。这些心理因素会阻碍人们采取行动。还有一个关键因素——惯性思维，即今天重复昨天的行为。你的工作就是——"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "20:37",
+   "en": "Please. Can you talk about those three? Just through out there, just briefly. I'm curious about the specific biases while we're there.",
+   "zh": "请问。您能谈谈那三个吗？就随便说说，简单说一下。我很好奇我们在那儿的时候会遇到哪些具体的偏见。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "20:42",
+   "en": "Yeah. So, uncertainty aversion, when something is uncertain or we're not... I'll give you an example of your Lyft. There's logistical friction which is wait time. But then, there's also this uncertainty of is it going to come on time? When is it going to come? And with this uncertainty, you're probably going to look for other options. You're going to open up Uber and say like, \"Maybe it'll come faster.\" And so, when there is uncertainty in our life, we either look for other options, or we just don't make a decision at all. Right? This is, by the way, very big in healthcare where when you're very uncertain about something, you may not even go to the doctor, or you may just make the wrong decision.",
+   "zh": "是的。所以，不确定性厌恶，当某件事存在不确定性，或者我们无法……我举个Lyft的例子。首先是后勤方面的摩擦——等待时间。但除此之外，还有不确定性，比如车会不会准时到达？什么时候到达？面对这种不确定性，你很可能会去寻找其他选择。你可能会打开Uber应用，心想：“或许它会来得更快。” 所以，当生活中的不确定性出现时，我们要么寻找其他选择，要么干脆不做决定。对吧？顺便说一下，这在医疗保健领域尤为重要。当你对某件事存在极大不确定性时，你可能根本不去看医生，或者做出错误的决定。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:22",
+   "en": "Got it.",
+   "zh": "明白了。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "21:23",
+   "en": "And same with status quo effect where... Underlying status quo effect is this idea that we always take the path... Not always, but majority. You don't really say always when you're talking about human behavior. Human behavior is very complex. More often than not, we take the path of least resistant, that we do the thing that's easiest, and typically, the thing that's easiest is the thing that we've done yesterday and the day before. And so, when you're asking someone to do something different, which is what most product, especially startups, are trying to do, you actually have to increase their motivation or make it easier, reduce the barriers to get them to do that. And so, status quo effect is a big, big one that folks are fighting.",
+   "zh": "关于现状效应也是如此……现状效应的核心在于，我们总是倾向于选择既定路径……当然并非所有人都如此，但大多数人都会如此。谈及人类行为时，很难用\"总是\"来概括——毕竟人类行为极其复杂。通常情况下，我们会选择阻力最小的路径，选择最简单的事物。而最简单的事物往往就是我们昨天或前天做过的。因此，当你要求人们做出改变（而这正是大多数产品团队，尤其是初创公司试图达成的目标）时，你必须增强他们的动力，或者降低障碍，让他们更容易接受新事物。现状效应无疑是人们需要克服的一大挑战。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "22:02",
+   "en": "Awesome. Thanks for sharing those. Let's keep going.",
+   "zh": "太棒了。谢谢你分享这些。咱们继续吧。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "22:05",
+   "en": "Cool. So, the third B is benefits. This is where you want to increase the... Not just benefits, but the immediate benefits of doing something. We are all present bias, which means we prioritize our present self over our future self, so there are plenty of reasons that somebody, your customer, your user should take an action, but you actually have to give them a reason to take an action today.",
+   "zh": "好的。那么，第三个B是好处。这里你需要强调……不只是好处，而是立即行动就能获得的好处。我们都有“现时偏好”的心理倾向，也就是说我们更看重当下的自己而非未来的自己。因此，即便客户或用户有很多理由应该采取行动，但你必须给他们一个今天就行动的充分理由。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "22:30",
+   "en": "So, as an example, if you're Asana, and if you're trying to get someone to log a task, the right thing for them to do is log the task because it's going to get their project done on time. You're going to have a collaborative and communicative team that you're going to want to be on. But one of the real reasons we may log a task is because of completion bias. We want to see the checkbox. We may log it because of social desirability bias where other people see that we're getting our work done. There's a notification that goes to my teammate when I complete something. So, these are the immediate benefits that we have to build into products and features to drive use.",
+   "zh": "举个例子，如果你是Asana的用户，当你试图让别人记录任务时，正确的做法应该是让他们去记录任务，因为这有助于项目按时完成。你会希望自己的团队既善于协作又善于沟通。而我们记录任务的真正原因之一，是出于完成偏见。我们想看到那个勾选框。我们可能因为社会认同偏见而记录任务——当其他人看到我们完成了工作时，会觉得我们很能干。当我完成某项任务时，系统会向我的队友发送通知。这些都是我们必须在产品和功能中内置的即时好处，以推动用户使用。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:07",
+   "en": "Awesome. I definitely have completion bias. I love checking those freaking checkboxes. I know Asana is famous for that little unicorn confetti thing, right? For making you feel really good when you complete something.",
+   "zh": "太棒了。我确实有完成任务的强迫症。我超爱勾选那些该死的复选框。我知道Asana因为那个小独角兽庆祝动画而出名，对吧？每次完成任务时，那种满足感简直爆棚。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "23:17",
+   "en": "Yeah. I don't know how much emphasis to put on these kind of confetti stuff. I think the idea of being done is... That psychological understanding that you completed it, confetti or not, is very powerful.",
+   "zh": "是啊。我不知道该怎么看待这些庆祝用的彩纸屑之类的东西。我觉得那种\"大功告成\"的成就感……即便没有抛洒彩纸，也能通过心理暗示获得那种完成任务后的满足感，这真的很强大。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:33",
+   "en": "I love confetti. Okay, so just to recap, there's the three Bs. Behavior, what is the behavior you're trying to change? And the way you described it sounds like the activation milestone. That's the way most companies think about that. Is that right?",
+   "zh": "我喜欢彩纸屑。好的，让我来总结一下。就是三个B：行为，你想改变的行为是什么？从你描述的情况来看，这听起来像是激活里程碑。这也是大多数公司对此的理解，对吧？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "23:46",
+   "en": "Yeah. I would say the activation milestone and the novel thing here is just getting really specific about this behavior, so much that if you're not arguing with your teammates, you're doing it wrong.",
+   "zh": "是啊。我觉得这次活动的亮点和创新之处在于，它把这种行为规范得极其细致，以至于如果你不和队友争执，那你就是做错了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:59",
+   "en": "About which behavior and...",
+   "zh": "关于哪种行为以及……"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "24:01",
+   "en": "Yeah.",
+   "zh": "是啊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "24:01",
+   "en": "... I imagine this often comes... Similarly to the activation kind of moment, it comes back... Working backwards from what is most likely to keep this person around long-term, kind of to keep them retained, right?",
+   "zh": "……我觉得这种情况经常会出现……就像那种激活用户的关键时刻一样，它会再次浮现……我们可以从最有可能让这个用户长期留存的因素入手，也就是说要想办法留住他们，对吧？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "24:12",
+   "en": "Yeah, exactly. So, what correlates with retention and what provides an immediate value to them by doing this behavior.",
+   "zh": "是啊，没错。那么，哪些因素与用户留存率相关，又有哪些行为能为用户带来即时价值呢？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "24:18",
+   "en": "Awesome. Okay. So, behavior, then barriers. How do you break down barriers, logistical and cognitive. And then, benefits. The point about being an immediate benefit is a really interesting one because, yeah, you may be like, \"In a year from now I might earn some money, but I'm not going to do anything hard right now if I'm not going to make any money right now.\"",
+   "zh": "太棒了。好的，那接下来是行为，然后是障碍。如何突破后勤和认知方面的障碍呢？然后是好处。要知道，立即获得好处这一点非常有意思。是啊，你可能会想：“一年后我或许能赚些钱，但如果现在做不了什么困难的事，就没法马上赚到钱啊。”"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "24:36",
+   "en": "Exactly. And so, this is a tough one because we want to believe that people really do and use our products for the end benefit, but we really need to give people the reason to do it today.",
+   "zh": "确实如此。所以这确实是个难题——我们希望人们能真正使用我们的产品，最终从中获益，但我们现在真正需要做的，是为人们提供一个即刻行动的理由。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "24:47",
+   "en": "Awesome. I want to dive into a of couple case studies of companies that I know you've worked with. Maybe before that, I thought it'd be good to ask this question about the dark side of this stuff. I imagine people often worry about, \"Hey, are you just tricking people into doing things they don't want to do? That's not good.\" How do you think about that line?",
+   "zh": "太棒了。我想深入探讨几个你曾合作过的公司的案例研究。或许在此之前，先来探讨一下这类技术的阴暗面会比较合适。我猜人们常担心：\"嘿，你们是不是在骗人们做他们不想做的事？这可不太好啊。\" 你对这种担忧怎么看？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "25:06",
+   "en": "Yeah, it's a great question. I think, the answer to this really, with many things in life, comes down to incentives. So, what are the incentives of the product teams, of you, your manager, the team, working on this? I like to say we are what we measure, and it really matters what you measure. I'll give you a personal example.",
+   "zh": "是啊，这确实是个很棒的问题。我认为，这个问题的答案——就像生活中的许多事情一样——归根结底在于激励机制。那么，产品团队、你自己、你的经理以及整个团队，致力于这项工作的动机是什么？我常说\"我们就是我们所衡量的东西\"，而你衡量的东西至关重要。我可以举个个人的例子说明这一点。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "25:27",
+   "en": "Yeah.",
+   "zh": "是啊。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "25:28",
+   "en": "LendingClub, a while ago, hired me to increase their conversion flow for borrowers. They're a lending app and they wanted to get more borrowers in the flow. The novel thing here was that they would pay me a lot of money if I hit a bump. It was like a five-point bump and zero if I didn't hit anything. [inaudible 00:25:47]",
+   "zh": "不久前，LendingClub聘请我为他们的借款人提升转化率。他们是一家贷款应用平台，希望能吸引更多借款人使用平台服务。合同中的独特条款是，如果我能成功提升转化率，他们会支付我丰厚的奖金——若转化率提升5个百分点即可，若未达标则无需支付任何报酬。[此处音频中断，00:25:47处出现静音]"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "25:47",
+   "en": "That was that. That's your incentive structure.",
+   "zh": "就这样吧。以上就是你的激励机制了。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "25:50",
+   "en": "Right. So, my incentive structure was to increase the conversion flow, and over the course of working with them, I became a predatory lender. I was suggesting things that the legal team was like, \"No, Kristen, of course you cannot do that.\" Setting some contacts, I was at that time leading a Duke University lab called Common Sense Lab. It was focused on low to moderate income Americans thinking about their financial health, building savings apps for them. So, here I am, this kind of do good, non-profit, very focused on financial health of Americans, and my other hat was predatory lender for LendingClub. And so, it's really about the incentives that we're giving ourselves and our team that will drive how anything is used. Much less behavioral economics of these tactics, but generally, the success of your team.",
+   "zh": "好的。所以，我的激励机制是提高转化率。在与他们合作的过程中，我逐渐变成了一个掠夺性贷款人。当时我提出的某些建议，法律团队都会说：\"不行，克里斯汀，你当然不能这么做。\"我当时还负责管理杜克大学的一个实验室，叫做\"常识实验室\"。实验室专注于帮助中低收入美国人提升财务健康水平，为他们开发储蓄应用。于是，我一方面以非营利组织的身份致力于提升美国人的财务素养，另一方面又在LendingClub担任掠夺性贷款人。可见，激励机制对资源的有效利用至关重要。这里涉及的不仅是行为经济学策略，更关键的是团队的成功动力。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "26:46",
+   "en": "You may not have a clear answer to this, but any advice for setting those incentives correctly? Anything you've seen work well?",
+   "zh": "您可能对此没有明确的答案，但对于如何正确设置这些激励措施，您有什么建议吗？您见过哪些实施效果良好的案例吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "26:52",
+   "en": "Yeah. I think for us there's two tips. One would be to set the incentive on the behavior because the behavior is going to align more with the customer outcomes than the active use or the retention. And of course... And I'm not suggesting we don't measure active use and retention in these things, you should definitely measure them, but setting the incentive, and the KPI, and the product, and the marketing team on the behavior is going to result in a more customer-friendly product and outcome.",
+   "zh": "是的。我认为对我们来说，主要有两个建议。第一是将激励措施建立在用户行为之上，因为用户行为更能与客户成果产生共鸣，而非单纯关注活跃度或留存率。当然……我并不是说我们不该衡量活跃度和留存率——这些数据确实很重要，但将激励机制、关键绩效指标、产品设计以及营销团队都围绕用户行为来展开，最终会打造出更贴近客户需求的产品和服务体系。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "27:18",
+   "en": "And then, second would be increasing the duration of the incentive. So, if you're trying to hit a quarterly outcome, you're likely going to do things that will impact the short term to give that a bump. If you're trying to hit an annual or even longer outcome, you're going to be looking out for the best interest of the company and the consumers in a little bit different way.",
+   "zh": "接下来，第二点是延长激励措施的持续时间。假设你正努力达成季度业绩目标，可能会采取一些短期措施来推动业绩提升。但如果你要实现年度甚至更长期的目标，就需要从更长远的角度出发，兼顾公司利益和消费者需求，采取更为审慎的策略。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "27:39",
+   "en": "Awesome. For the LendingClub example, what did you end up doing in the end, by the way? Did she just like, \"Nah, let's not do this.\"",
+   "zh": "太棒了。说到LendingClub这个例子，最后你到底怎么处理的？她是直接说\"算了，还是别做这个了\"吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "27:44",
+   "en": "I can't actually reveal the intervention that we did, but I did miss it. So, there was a five... Wait, by the way, point, not percentage bump, which is a lot, and we got 4.5. So, we almost hit it, but it's a clip, it doesn't work that way.",
+   "zh": "实际上我不能透露我们采取的干预措施，但我确实错过了一个关键点。当时目标是实现5%的增长……等等，对了，是增长点数，不是百分比，不过增幅也很大，最终我们达到了4.5%。虽然差点就达成目标了，但这是个片段化的数据，实际效果可能有所偏差。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "27:59",
+   "en": "Almost sold your soul for that bump, and you didn't get there.",
+   "zh": "就为了那点蝇头小利，你差点出卖了自己的灵魂，结果却功亏一篑。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "28:02",
+   "en": "I know.",
+   "zh": "我知道。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "28:02",
+   "en": "It seems like [inaudible 00:28:03]",
+   "zh": "It seems like [inaudible 00:28:03]"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "28:02",
+   "en": "It was a good lesson in incentive [inaudible 00:28:05]. And by the way, at that point, LendingClub was offering good rates to borrowers. There was efficacy in the idea of it, which is LendingClub lending to people who have lower FIGO and with better rate. And yet, you still want to have... You don't want to become the predatory lender in that situation.",
+   "zh": "这是一堂关于激励机制的深刻一课[00:28:05，语音不清]。顺便说一句，当时LendingClub确实为借款人提供了优惠利率。这种模式在理念上是有效的，即LendingClub向信用评分较低的人群提供更低的贷款利率。但即便如此，你仍需谨慎行事——在这种情况下，你绝不想沦为高利贷机构。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "28:23",
+   "en": "Okay, awesome.",
+   "zh": "好的，太棒了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "28:25",
+   "en": "Are you hiring, or on the flip side, are you looking for a new opportunity? Well, either way, check out lennysjobs.com/talent. If you're a hiring manager, you can sign up and get access to hundreds of hand-curated people who are open to new opportunities. Thousands of people apply to join this collective, and I personally review and accept just about 10% of them. You don't find a better place to hire product managers and growth leaders. Join almost a hundred other companies who are actively hiring through this collective.",
+   "zh": "您是在招人吗？或者反过来，您是在寻找新的职业机遇吗？无论哪种情况，都欢迎访问lennysjobs.com/talent网站。若您是招聘经理，可以注册并获取数百名精心筛选的求职者信息——这些候选人正积极寻求新的发展机遇。数千人申请加入这个人才库，而我个人会严格筛选，仅接纳约10%的申请者。在这里您能找到最优质的产品经理和增长团队负责人。目前已有近百家企业通过这个平台积极招聘人才，欢迎加入我们的行列！"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "28:55",
+   "en": "And if you're looking around for a new opportunity actively or passively, join the collective. It's free. You can be anonymous, and you can even hide yourself from specific companies. You can also leave any time and you'll only hear from companies that you want to hear from. Check out lennysjobs.com/talent.",
+   "zh": "如果你正在积极或被动地寻找新的机遇，不妨加入我们的求职平台。它完全免费，你可以匿名注册，甚至可以选择对特定公司隐身。随时可退出平台，只会收到你感兴趣的公司的招聘信息。欢迎访问lennysjobs.com/talent了解详情。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "29:15",
+   "en": "So, there's two companies that you worked with that I use, and I'm curious what you did for them and how you worked with them. One is TikTok, and then the other's One Medical. It'd be cool to just hear what you did for them, what they wanted your help with, and then just kind of what you took away, how it went, all that.",
+   "zh": "嗯，你之前合作过的两家公司我也用过，我很好奇你为他们做了些什么，又是如何与他们合作的。一家是TikTok，另一家是One Medical。能听听你为他们做了哪些工作，客户希望你提供哪些帮助，再聊聊你的收获、合作过程以及整体体验就太棒了。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "29:32",
+   "en": "Great, yeah. So, TikTok is obviously a big platform, and with any big social media platform, they have misinformation on it. This is not just a problem with TikTok. Facebook and Twitter have it, and misinformation is growing. And so, they asked us to help decrease the spread of misinformation on their platform.",
+   "zh": "太好了，我明白了。显然，TikTok是一个大型平台，任何大型社交媒体平台都存在信息误导的问题。这不只是TikTok独有的问题。Facebook和Twitter也存在类似问题，且虚假信息传播现象日益严重。因此，他们邀请我们协助减少虚假信息在其平台上的传播。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "29:51",
+   "en": "There's lots of ways that we could take that, and the first thing that we did, as we kind of do with any company, is think about what is the behavior that you want to change. And so, we narrowed on decreasing shares. So, we could have said likes. We could have said comments, or general engagement which is a broad thing, but we narrowed on decreasing the shares. So, when you're actually going to see a misinformation video, we want to decrease the number of people that share it.",
+   "zh": "关于这个问题，我们可以从多个角度来分析。首先，就像对待任何公司一样，我们首先要明确希望改变的具体行为。因此，我们把重点放在减少视频的分享次数上。当然，我们也可以考虑点赞数、评论量或者整体互动量等指标，但最终我们选择专注于降低视频的分享量。这样一来，当用户看到虚假信息视频时，我们就能有效减少其传播范围。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "30:18",
+   "en": "So, that was the first step. The second step is, this three B model, how do we think about the barriers? With TikTok, the thing that you want to do is get people to do something less. When you want to get somebody to do something more, you make it easier. When you want someone to do something less, you make it...",
+   "zh": "好的，这是第一步。第二步是关于这个“三B模型”，我们该如何看待其中的障碍呢？就TikTok而言，你要做的就是让用户少做一些事情。当你想让用户多做些什么时，就得想办法让这件事变得更容易；而当你想让用户少做些什么时，就得反其道而行之……"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "30:36",
+   "en": "Put up barriers.",
+   "zh": "设置障碍物。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "30:38",
+   "en": "Put up barriers, yeah. Actually, a nice example of it's an elevator study where basically, you want people to use the stairs. And so, what the researchers did was make the elevator door close 16 seconds longer. So now, you get in the elevator, you're annoyed. It's harder to use the elevator, and people went to the stairs.",
+   "zh": "设置障碍，确实是个好办法。有一个电梯研究的例子，研究者希望人们多使用楼梯。为此，他们把电梯门关闭的时间延长了16秒。结果发现，人们进入电梯后会感到不耐烦，觉得使用电梯变得麻烦，于是更多人选择走楼梯了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "30:55",
+   "en": "16 seconds, interesting number.",
+   "zh": "16秒，有趣的数字。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "30:57",
+   "en": "16 sec... We can't wait 16. And then, it's actually kind of long, though. You're standing there [inaudible 00:31:02].",
+   "zh": "16秒……我们可等不了16秒啊。不过说真的，这时间确实有点长了。你就站在那儿，啥也不说[听不清00:31:02]。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:01",
+   "en": "So long. I'd use the stairs, yeah.",
+   "zh": "再见了。我会走楼梯的，嗯。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "31:03",
+   "en": "Yeah. And so, that's kind of what we did for TikTok, which is, basically, you're in a very hot state. TikTok is a very fast platform, and so we just slowed people down. Two things. There was a label on the video, which is kind of classic in the misinformation world where you tell users that it's unverified information. And the second thing was, once you click the share button, we popped up something that said, \"Are you sure?\" And this was basically slowing people down. So, logistical friction, and actually cognitive friction because we're asking people to reconsider a prior decision and question their self. And so with that, both those things, the label on the video and the popup, reduced shares by 24%.",
+   "zh": "是啊。所以，这就是我们在TikTok上采取的策略。基本上，用户当时处于一种非常激动的状态。TikTok是一个节奏极快的平台，所以我们就让用户慢下来。主要有两个措施。一是给视频加标签，这在虚假信息领域是经典做法，告知用户信息未经核实。二是一旦用户点击分享按钮，我们会弹出提示框问“你确定吗？”这些策略有效降低了分享量，效果显著——标签和弹窗提示共使分享量下降了24%。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:42",
+   "en": "Wow.",
+   "zh": "哇。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "31:43",
+   "en": "And these are tactics that Facebook and Twitter are also using to slow people down. This was actually one of the first [inaudible 00:31:48] published studies that showed that this drove down misinformation.",
+   "zh": "这些策略其实也是Facebook和Twitter用来减缓信息传播速度的手段。这是首批证明此类措施能有效减少虚假信息的研究之一。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:51",
+   "en": "Can you talk a bit about how you came to those two conclusions? I know you work really closely with the product team and there's this whole process you go through. How do you come up with these ideas? How many ideas did you test? Is there anything more you could share on that?",
+   "zh": "能否谈谈你们是如何得出这两个结论的？我知道你们与产品团队密切合作，整个过程很复杂。你们是如何构思这些策略的？测试了多少种方案？能否分享更多相关信息？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "32:03",
+   "en": "Yeah. It's actually a pretty involved process. First, we did a literature review which is basically saying like, Look, we're not the first people to think about this. Let's talk to the expert and understand what has worked and what hasn't.\" So, with that, actually, one of the insights was that reminding people about their value of accuracy. So, most people want to be accurate. Most people actually don't want to share this information. And so, if you can remind people at the point of sharing... By the way, it doesn't work if you remind people before or after. It's at the point of sharing, that this is unverified information, studies have shown that this could decrease share. So, we took that piece. We also took the hot and cold state literature that says, \"If you actually don't want to get someone to do something, how do you intervene?",
+   "zh": "是的。这其实是一个相当复杂的过程。首先，我们进行了文献综述，基本上就是说，看看我们不是第一个想到这个问题的人。让我们和专家交流，了解哪些方法有效，哪些无效。基于此，关键的洞察之一是提醒用户重视准确性。大多数人希望信息准确，大多数人实际上不愿分享这些信息。所以，如果能在分享环节提醒用户……顺便说一句，如果在分享前后提醒，效果都不理想。正是在分享环节，告知用户信息未经核实，研究表明这能减少分享量。因此，我们采用了这一策略。我们还参考了关于“冷热状态”的文献，研究表明，如果你不想让某人采取某种行动，该如何进行干预？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "32:46",
+   "en": "So, we did this literature review. We came up with a hypothesis, and we had probably 30 different ways to implement this because the hypothesis is just a starting point. And then, we put it into quantitative research. So, we actually put five different version of the popup in front of over a thousand users, which... We got users from Prolific, which is a platform where you can easily test things.",
+   "zh": "所以，我们进行了文献综述，提出了一个假设，可能有30种不同的实现方式，因为假设只是一个起点。然后，我们将其转化为定量研究。因此，我们向超过千名用户展示了五种不同版本的弹窗提示……这些用户来自Prolific平台，在那里可以轻松测试各种方案。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "33:09",
+   "en": "Prolific? Cool. I haven't heard that.",
+   "zh": "Prolific？不错啊。我还没听说过这个平台。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "33:11",
+   "en": "We didn't measure the idea, \"Do people like this?\" We measured a condition against another condition. So, relatively, what condition is more likely to work than the other condition, and that would increase our intuition than it would work in market. We're not saying that studies outside of the product are end-all be-all, but it's going to drive our intuition up a lot more.",
+   "zh": "我们没有衡量“用户是否喜欢这个方案”，而是将一种条件与另一种条件进行对比。也就是说，哪种条件更有可能奏效，相较于市场上的实际效果，哪种更易推广。我们不是说产品之外的研究就是万能的，但它能极大提升我们的直觉判断。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "33:34",
+   "en": "For the research that you did, I imagine that's a lot of the value that you and your team bring to a group. For folks that are just on their own maybe, is there any advice for how to find research on problems you're trying to solve?",
+   "zh": "就你所做的研究而言，我想这正是你和团队为某个团队创造价值的重要部分。对于那些独自工作的人来说，有没有什么建议能帮助他们找到自己试图解决的问题的相关研究？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "33:46",
+   "en": "Yeah. I would say, basically, if you're looking at a new problem, it's very tempting to talk to [inaudible 00:33:53] users in the beginning. We would basically say, \"Look, go spend a day on the internet googling to see what else has been done.\" Google Scholar is a great place to start. Hot tips would just be making sure you're searching the right keyword. So, if you're looking at something in healthcare, you'd want to know what are the buzz words for chronic care and things that would actually drive you to a meta-analysis that would summarize what's already been done. So, Google Scholar, a great place to start. And then, coming up with the hypothesis and putting them to test. We never do a UX study where we're just showing people one thing because they could really like it or hate it, but they could really like or hate all the designs. We have no idea. So, when we're doing this, we always present multiple options, and then relatively look for which one is going to drive the behavior we're intending to change.",
+   "zh": "是的。我觉得基本上，如果你正在研究一个新问题，一开始就和用户交流是很有诱惑力的。我们通常会说：“去网上搜搜看有没有相关研究。”Google Scholar是个很好的起点。关键是要确保搜索的关键词准确。比如，如果你研究的是医疗领域，就要了解慢性病护理的流行术语，这些术语可能会引导你找到总结已有研究的荟萃分析。所以，Google Scholar是个很好的入口。然后是提出假设并进行验证。我们从不做那种只给用户展示一种设计然后判断他们喜不喜欢的用户体验研究，因为他们可能喜欢或不喜欢所有设计，我们根本无法判断。所以在做这类研究时，我们总会提供多个选项，然后比较哪个设计能真正促成我们想要改变的行为。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "34:44",
+   "en": "Is there a reason you did UX-oriented test versus testing the product? Is it just because they weren't ready to build an experiment in product yet?",
+   "zh": "你做用户体验导向的测试而不是产品测试，是有什么原因吗？是因为产品还没准备好做实验吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "34:52",
+   "en": "Yeah. We actually only got two conditions in product, which for us is we would like more and it was... We don't know if we're going to get a second bat at this. So, we said, \"Well, two conditions plus the control.\" But what should those two conditions be? So, for us, we want to de-risk the launch as much as possible.",
+   "zh": "是的。我们产品里只有两个条件，对我们来说还不够，但不知道是否还有机会优化。所以我们说，“两个条件加一个对照组。”但这两个条件应该是什么？对我们来说，就是要尽可能降低产品上线的风险。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:11",
+   "en": "Awesome. And is that feature in the product today?",
+   "zh": "太棒了。这个功能现在在产品里吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "35:13",
+   "en": "It is.",
+   "zh": "在的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:14",
+   "en": "Amazing.",
+   "zh": "太棒了。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "35:14",
+   "en": "Yes, it is in the product, and they've done more global launches as well.",
+   "zh": "是的，产品里有，而且他们还在全球范围内推广了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:19",
+   "en": "Sweet. I am clearly not sharing misinformation because I haven't seen it yet.",
+   "zh": "太好了。看来我没提供错误信息，因为我还没见过。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "35:26",
+   "en": "You may not be searching the right thing. If you search medical, COVID, politics, you may get it.",
+   "zh": "你可能搜索的关键词不对。如果你搜索医疗、新冠、政治，可能搜不到。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:32",
+   "en": "Oh, boy. Here comes the decline of me. Okay. So, next case study that I thought would be fun to talk about is One Medical which I'm a happy customer of. What did you do with them?",
+   "zh": "天哪。我真是老了。好吧。接下来我想聊的案例研究是One Medical，我是他们的忠实用户。你们为他们做了什么？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "35:44",
+   "en": "Yeah. Basically, One Medical asked us to increase engagement. This is a classic question. How do you increase engagement in a product or service, right?",
+   "zh": "是的。基本上，One Medical让我们提高用户参与度。这是个经典问题——如何提高产品或服务的用户参与度，对吧？"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:54",
+   "en": "Engagement, meaning just using it more often?",
+   "zh": "参与度，就是让用户更频繁地使用？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "35:56",
+   "en": "Right, exactly. That's the real question, what does engagement mean? Actually, a have fun exercise that people could do with their teams is if you ask everyone on the team what engagement means separately, you can compare answers and most likely, people are saying different things. And if you guys can't agree internally on what to do or what engagement means, it's very difficult to build a product by which your users understand what to do.",
+   "zh": "对，就是这个问题。参与度到底意味着什么？实际上，一个有趣的练习是让团队里的每个人分别定义参与度，然后比较答案，很可能大家会说出不同的定义。如果团队内部对如何定义参与度或参与度意味着什么都无法达成一致，那么就很难打造出用户能理解该怎么做的产品。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "36:19",
+   "en": "Yup.",
+   "zh": "是的。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "36:20",
+   "en": "Yeah. So, after lots of debate, we came up with a key behavior to target. Basically, somebody setting up a doctor's appointment right after signing up for One Medical. This is really important because more likely than not, you're going to sign up for One Medical, six months later, you're going to get a fever and get sick, and are you going to remember this app that you signed up for six months ago? Probably not.",
+   "zh": "是的。所以，经过多次讨论，我们确定了一个关键的优化方向。基本上，就是让用户在注册One Medical后，立即预约医生。这点非常重要，因为很可能用户注册了六个月后，才突然发烧生病，但你还能记得六个月前注册的这个应用吗？大概率记不住。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "36:44",
+   "en": "You're going to do the same thing you did before, which is call the doctor that you've normally gone to. So, really important for One Medical upfront, during onboarding, to set the mental model of what they can be used for in going to that doctor's appointment. Then, we looked to the barriers. One of the barriers, like, who is going to be your provider, your doctor. Picking somebody is hard. Finding an appointment time is hard. We're all busy people. How are you going to fit it in? Knowing actually what One Medical can help you with, also difficult. Like, what is this company thing and what should I go to them for? And then, the benefits. What are the benefits? And the benefits for using One Medical is you get your questions answered immediately. It's very simple, but you can really get your health questions and issues addressed. And so, the simple intervention we did was, just during onboarding, we asked people a few questions about their health; mental, sleep, physical. We then recommended a provider. So, instead of having lots of choice, we decreased the choice, recommended them one provider, told them why, and then recommended appointment times. And limited the amount of appointment times. It was for tomorrow. We recommended a virtual appointment so it'd be a quick thing that you could do from your home. And then, that intervention, the onboarding intervention, increased bookings by 20% during onboarding.",
+   "zh": "你还是会像以前那样，直接打电话给常去的医生。所以，对One Medical来说，最重要的是在用户注册时就建立正确的预期，让他们明白这个应用能在看医生预约上提供哪些帮助。接下来，我们分析了阻碍用户使用的障碍。比如，选择医生是个难题。另外，预约时间也难协调，毕竟大家都很忙。还有，用户可能不清楚One Medical能提供哪些服务，比如这家公司的定位是什么，什么时候该用它？然后，好处部分也很重要。核心好处就是能快速解答健康问题。为此，我们在注册流程中做了几个简单干预：首先询问用户健康状况（心理、睡眠、身体方面），然后推荐一位医生，说明推荐理由，最后推荐预约时间。预约时间仅限次日，且建议采用虚拟问诊，方便用户在家完成。这些优化措施让注册期间的预约量增加了20%。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:06",
+   "en": "Of appointments?",
+   "zh": "预约量？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "38:07",
+   "en": "Of appointments, yeah.",
+   "zh": "是预约量。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:08",
+   "en": "With this-",
+   "zh": "通过这些措施——"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "38:11",
+   "en": "Onboarding. I don't know if I went through that when I joined One Medical.",
+   "zh": "注册流程优化。我不知道自己加入One Medical时有没有经历过这个流程。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "38:13",
+   "en": "This is recent.",
+   "zh": "这是最近才改进的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:14",
+   "en": "Okay, cool. Yeah. By the way, One Medical's awesome. As you're talking, I'm thinking if you could think about what are the five most commonly successful changes to a flow. One right now you just shared was reducing options, which is interesting.",
+   "zh": "好的，不错。顺便说一句，One Medical真的很棒。你讲的时候，我就在想，如果能总结一下流程优化中最成功的五个改进点会怎样。比如你刚刚提到的减少选项，这很有意思。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "38:31",
+   "en": "Yep.",
+   "zh": "是的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:31",
+   "en": "And then, another you mentioned earlier is just reminding you of maybe what you're going to get out of it at the end. I don't know. Is there anything that comes to mind of here's a subset of things that seems to often work when you're trying to improve, say, activation or conversion of a flow?",
+   "zh": "另外，你之前提到过要提醒用户最终能获得什么好处。我不知道，你能不能举个例子，说明在提升用户活跃度或转化率时，哪些子集的优化措施往往比较有效？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "38:46",
+   "en": "I would caveat all this with behavior is contextual. Why we are religious about testing is because it's hard to drag and drop from different contents. So, I'd caveat with that. And of course, there are some rules of thumb. So, one thing, really, is about showing people the benefit right away, really not under or overestimating that people understand the benefit of your app. So, how do you get them to experience it immediately? I would say that that's one.",
+   "zh": "我要提醒大家，用户行为是情境化的。我们之所以强调测试的重要性，是因为不同内容很难直接复制粘贴。所以这点需要注意。当然，也有一些经验法则。比如，让用户立即感受到好处很重要，既不能高估也不能低估用户对应用价值的理解。那么如何让他们立即体验到好处呢？我觉得这是一个关键点。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "39:17",
+   "en": "And then, the other is really just the reducing... I hate to sound so simplistic, but a lot of it is about making things easier logistically and cognitively, and making the benefit much more clear, salient. We say moving it from abstract to concrete. You really want to move something from the world of people can't really imagine how it would fit in their life to how does it actually fit in their life and keeping them going.",
+   "zh": "然后，另一个关键点就是简化流程……我不想说得太简单，但很多时候就是要从逻辑和认知层面简化流程，让好处更清晰、更突出。我们说要把抽象概念转化为具体场景。要让用户从“这东西怎么融入我的生活”转变为“它到底怎么融入我的生活”，并持续推动他们前进。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "39:45",
+   "en": "If it's a long signup flow and people need to drop out, how do you send them reminders to pull them back in, and then when they are back in, land them on the spot that they were at. So, Wealthfront has said one of their key insights was when people dropped out of the flow, normally they would just put people back at the beginning. That's really frustrating. If you can put people back where they landed, they're more likely to continue.",
+   "zh": "如果用户在注册流程中中途退出，你要如何通过提醒让他们重新加入，然后当他们回归时，再把他们带到中断的步骤。Wealthfront曾指出，他们的一个关键洞察是，用户退出流程后，通常会被带回起点。这真的很令人沮丧。如果能让用户回到他们停止的步骤，他们更有可能继续下去。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "40:11",
+   "en": "That makes sense. Reduces barriers. I'm learning.",
+   "zh": "有道理。减少障碍。我学到了。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "40:13",
+   "en": "Exactly.",
+   "zh": "没错。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "40:14",
+   "en": "So, there's two really interesting things you just said that I'd love to dive into a little bit. One is showing the benefit of something right away. Is there an example of that that comes to mind where you did that and it worked out really well? What's an example of showing a benefit?",
+   "zh": "你刚才提到的两个很有趣的点，我很想深入探讨一下。一个是立即展示好处的例子，你能想到一个成功案例吗？能举个展示好处的例子吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "40:30",
+   "en": "There's two ways to do benefits. One is the actual one that a consumer has. So, Asana and the collaborative communicator versus maybe one that's more immediate. When we're thinking about more immediate benefits, this could actually be things like social norms where you're telling people everybody else is doing something, and to them the benefit of doing this is following the herd. We all, by the way, don't like to think that we're part of the herd, but we all will succumb to this at some point in our lives.",
+   "zh": "展示好处有两种方式。一种是消费者实际获得的好处，比如Asana和协作通信工具；另一种是更即时的好处。当我们考虑更即时的好处时，可能涉及社会规范，比如告诉人们其他人都在做某件事，这样用户的好处就是随大流。说实话，我们都不愿承认自己是随大流的人，但人生某个阶段我们都会屈服于这种心理。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "41:00",
+   "en": "And so, one example is where we worked with a company called Study. This was a FinTech app and we're helping people to sign up or sync their bank account. Syncing their bank account is a required step in any kind of FinTech app, and yet so difficult, big drop off point. Just by reframing the choices of getting someone to think about completing a step versus the benefit that would come to them after... So, the benefit of syncing their bank account was actually huge. You'd get to see your income. You're really actually changing someone's financial picture by doing it, and they're signing up for it. They know it. But the small immediate benefit is how you're framing each step. Each step is going to give you the immediate benefit. So, for this one, it was a completion bias thing again where people are motivated to complete something. Sometimes we'll do an error message if it's really important for the app to work. And again, you shouldn't do that all the time, but if it's really important, the benefit is actually decreasing that error message on the screen. We call this Right for Wrong, doing the right thing for the wrong reason, where the right thing may be completing the flow, but the wrong reason is seeing that error message go away. Again, I would use that with caution. People will not use and love your app if you're putting error messages all over it.",
+   "zh": "举个例子，我们曾与一家叫Study的公司合作。这是一款金融科技应用，帮助用户注册或同步银行账户。同步银行账户是所有金融科技应用的必经步骤，但却极易导致用户流失。通过重新构思，让用户思考完成某个步骤的意义，而非着眼于后续的好处……同步银行账户的好处其实非常大。用户可以查看自己的收入。通过这个操作，你真正改变了他们的财务状况，所以他们愿意注册。用户清楚这一点。但即时的微小好处在于如何框定每个步骤。每个步骤都要给予即时好处。所以对于这个案例，又回到了完成偏好的问题，用户被激励去完成某个步骤。有时如果应用的正常运行非常重要，我们会用错误提示。但别总这么做，如果真的很重要，减少屏幕上的错误提示才能带来好处。我们称之为“以错换对”，做正确的事却出于错误的理由。比如正确的做法是完成整个流程，但错误的理由是让错误提示消失。再强调一次，要谨慎使用这个策略。用户不会喜欢满屏错误提示的应用。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:17",
+   "en": "That makes sense. I think you mentioned this. I haven't mentioned, but you wrote a guest post for my newsletter. It's one of the most read posts of the newsletter on just using...",
+   "zh": "嗯，有道理。我记得你提到过这点。虽然我没提过，但你确实为我的新闻通讯写过一篇客座文章。这篇文章是通讯中阅读量最高的帖子，主要讲如何利用……"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "42:25",
+   "en": "Cool.",
+   "zh": "不错。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:26",
+   "en": "... a lot of the... Yeah. I don't know if I told you that.",
+   "zh": "……很多……对啊。我不确定有没有跟你说过。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "42:27",
+   "en": "Yeah. That's awesome.",
+   "zh": "是啊，这太棒了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:29",
+   "en": "And it's about using these insights to improve conversion in general. So, we'll link to that in the show notes. And I think, in that post, you mentioned this concept of Right for Wrong. It might be worth spending a little more time on this, just like what does that mean and what's an example that?",
+   "zh": "而且这篇文章主要讲如何利用这些洞察来提升整体转化率。所以，我们会在节目笔记中附上链接。我记得你在那篇文章里提到了“Right for Wrong”这个概念。或许值得再多花点时间解释一下这个概念，比如它的含义和具体案例？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "42:42",
+   "en": "When we think about Right For Wrong, we're helping people again do the right thing... So, this is a behavior that they want to do, but the reason is actually probably not related. So, if you think about just vaccines and what we saw here, the reason to get a vaccine is to help my neighbor and prevent them from getting sick. And yet, what happened? We gave people donut, give people free pot or marijuana. There were lottery tickets in Ohio. So, this is the Right for Wrong idea where you're really substituting... By the way, one of the bigger voting interventions is just having pizza show up at the poll line. You're motivating people to go vote not because they want to contribute to democracy, but because there's pizza in the poll line. So, at some level, we're pretty simple human where we want an immediate benefit. Clubhouse actually was an interesting example of this at some level where you saw two levels of status in Clubhouse. There were the people who were friends with the people on stage, and then there was everyone else. So, that was a motivator to be friends with more people and start following people so that you could be in that little bucket of friends with other people.",
+   "zh": "当我们思考“Right for Wrong”时，我们其实是在帮助人们做正确的事……所以，这是他们想做的事，但背后的动机可能并非相关。比如我们拿疫苗接种来举例，接种疫苗的理由是帮助邻居，防止他们生病。但结果呢？我们给人们捐甜甜圈、免费大麻券，俄亥俄州还有彩票奖励。这就是“Right for Wrong”的理念，即用其他东西替代真正的原因。顺便说一句，投票干预的一个重要例子就是在投票点提供披萨。这能激励人们去投票，不是因为他们想为民主做贡献，而是因为投票点有披萨。所以在某种程度上，我们人类很简单，总是希望获得即时的利益。Clubhouse就是一个有趣的例子，它在不同层级设置了身份标识。台上的嘉宾有朋友，而其他人则没有。这就促使人们多交朋友、关注他人，以便能加入那个小圈子。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "43:56",
+   "en": "So, we're giving people kind of some other reasons to do a thing that they may want to do, but they don't necessarily have the motivation to do it right away. If you think about Peloton, yes, I want to work out. Yes, I want to have a healthy person, but maybe I want to go to the class because the instructor making a shout out, or there's some streak that I'm trying to continue. So, their right for wrong here is the real reason to work out is to improve my physical health, but while I just want that instructor to give me a shout out.",
+   "zh": "所以，我们给人们一些其他理由，让他们去做想做的事，但他们未必有立即行动的动力。拿Peloton来说，用户可能想锻炼，但动机不一定强烈。也许他们想去上课，因为教练会点名，或者想保持连胜记录。所以他们的“Right for Wrong”在这里就是：真正的锻炼动机是提升身体素质，但他们更想得到教练的点名。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:29",
+   "en": "So, the key there, just to kind of come back to the dark side of some of this stuff, is you want to make sure the end mean is good and right, whatever it is.",
+   "zh": "所以关键在于，确保最终目的是善意且正确的，无论是什么目的。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "44:38",
+   "en": "Exactly, yeah. And so, again, all these things... The possibility of using anything for negative outcomes exist, and really it's about the incentives. It's what is your incentive to drive the customer benefit, and that's really where we say you have to be measuring the customer outcomes. You have to be focused on the customer outcomes.",
+   "zh": "没错，确实如此。所以，所有这些东西……利用任何手段达到负面结果的可能性都是存在的，关键在于激励机制。你的激励是什么，推动客户利益？这就是我们说你必须衡量客户成果，必须关注客户成果的原因。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "44:58",
+   "en": "Some of the toughest teams we have understanding this are non-profits. We worked with one company a while ago. We tried to get them to add a deadline because they were trying to help people sign up for interviews. So, they were basically filtering people before Staples would get them for an interview. They'd do the interview prep. They'd help them show up for the interview. But the reality is that sometimes people miss this stuff. It takes a long time to get to the interview. And so, our push to them was to add a deadline to help people show up. Sometimes we say deadlines are a gift. You're just helping people kind of prioritize this. And they said, \"No. Absolutely not. We cannot add a deadline. This is just too hurtful.\" And the reality is when you add deadlines, and we've done this in multiple companies, where you add a deadline, more people do the thing, right? Because you're helping kind of create the right for wrong reason, giving people the wrong reason to do the behavior that they actually want to do. We added a deadline to Kiva's flow for when their borrowers were signing up and we increased their conversion. So, obviously, you can use this in ways that are unintended and it really has some upside to help people.",
+   "zh": "有些最难理解这一点的团队是非营利组织。我们不久前曾与一家公司合作。我们试图让他们设置一个截止日期，因为他们当时正试图帮助人们报名参加面试。所以，他们基本上是在Staples安排面试之前就筛选求职者。他们会进行面试准备，帮助求职者按时参加面试。但现实情况是，有时人们会错过这些信息。到面试环节需要很长时间。因此，我们向他们提议增加截止日期以帮助人们按时到场。我们有时会说截止日期是礼物——你只是在帮助人们优先处理这件事。但他们拒绝了：“不，绝对不行。我们不能设置截止日期。这太伤人了。” 事实上，当你设置截止日期时（我们在多家公司都这么做过），更多人会采取行动，因为你是在用错误的理由营造正确的动机，让人们误以为是为了他们真正想做的事而采取行动。我们为Kiva的借款人报名流程添加了截止日期后，转化率大幅提升。所以显然，截止日期可能会产生意想不到的效果，但它确实有助于人们行动起来。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "46:07",
+   "en": "I imagine you're building this just like toolbox of ideas that end up working often at flow. I know you said that you can't just copy and paste. Rarely is it just like, \"Oh, this worked at 10 other companies, it'll probably work here.\" But that's kind of a cool thing that your team's probably doing just making this big list of here's 10, 20 things that we could start with these ideas and talk about them.",
+   "zh": "我猜你们把这些策略整合成一个工具箱，在流程设计中经常使用。我知道你说过不能直接复制粘贴。很少有情况是\"哦，这个在其他10家公司成功了，这里应该也能行\"。但这正是你们团队的巧妙之处——列出10到20个可行的创意清单，进行讨论。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "46:27",
+   "en": "Yeah. Once you understand the psychology of human behavior, you really start to understand and see patterns. We started with the idea that behavioral economics shows that people act in irrational ways, but we do it in predictable ways. And so, once you start understanding this, you can really start designing for the behavior change at this kind of predictable level.",
+   "zh": "是的。一旦你理解了人类行为的心理机制，就会发现并能识别出规律。我们从行为经济学出发，发现人们会以非理性的方式行事，但这种行为具有可预测性。一旦你理解了这一点，就能在可预测的层面设计行为改变策略。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "46:47",
+   "en": "For a product team that's listening to this and they're like, \"Oh, we can't work with you guys right now. We can't afford it. We don't have time, just generally, but I want to think about this stuff and maybe implement it on my team.\" What would you suggest to say a PM leading a team that wants to implement some of these principles?",
+   "zh": "对于听了这些内容却觉得\"我们现在没法合作，负担不起，时间不够\"的PM团队，我建议他们怎么做？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "47:06",
+   "en": "Yeah. I would probably start from the process angle. We have the three B framework, which again, the most important step is defining the behavior. So, if you were to do a workshop with your team on what is the uncomfortably specific behavior that you want to change and you align everyone to this, it's going to be much easier for you to change that behavior because the psychology that drive that behavior will be a better conversation and more obvious.",
+   "zh": "我可能会从流程角度入手。我们的三B框架中，最重要的一步是定义行为。如果你能和团队一起参加研讨会，明确你想改变的具体行为，并让所有人达成共识，那么改变这种行为就会容易得多，因为驱动这种行为的心理机制会更清晰、更易理解。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "47:31",
+   "en": "So, first in starting with the behavior, to get everyone in a room do a small workshop. The second would be the behavioral diagnosis. And this is the toolkit in behavioral science where we study not what people say they will do, but what they actually do. And so, the behavioral diagnosis, I'd say, it's like a journey map on steroids where you're really trying to map the steps that get people to the behavior change. And again, just doing this, teams have light bulbs. And this is one of the main things that we work with teams on; we help them do the behavioral diagnosis to have those light bulbs, and then we help diagnose and design the intervention.",
+   "zh": "好的，首先从行为入手，让所有团队成员参加一个小型研讨会。接下来是行为诊断。这是行为科学中的工具箱，我们研究的不是人们说他们会做什么，而是他们实际做了什么。所以，我觉得行为诊断就像是深度版的用户旅程地图，真正试图描绘出让人们实现行为改变的各个步骤。通过这样做，团队成员往往能灵光一现。这是我们与团队合作的主要内容之一——我们帮助他们进行行为诊断，激发灵感，然后再设计干预措施。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "48:07",
+   "en": "Can you talk a bit more about this behavioral diagnosis step? What actually happens there?",
+   "zh": "你能详细讲讲这个行为诊断步骤吗？具体怎么操作的？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "48:11",
+   "en": "There's kind of two steps. One, you can outline the full high level flow where you're saying maybe there's 50 steps in getting to the behavior, and you can do this before they hit your product, too. But when we're working with just a very kind of... We want to help a team grow their product versus develop a new product, if it's just about growing and improving the current product, we'll do a deck of 200, 300 slides of screenshots where it's just very detailed analysis of the steps that it takes to get to the behavior change. And then, we overlay the psychologies that are driving people at each step. This actually takes a really long time, but the light bulbs of how you actually get to that beha... As I said, behavior change isn't easy. It's complex. It's hard. It's noisy. And so, you have to understand the steps that get you there before you're trying to change it.",
+   "zh": "大致分两步。第一步，你可以勾勒出整个高层流程，比如说实现某个行为可能需要50个步骤，这可以在产品上线前就完成。但当我们面对的是一个正在成长的团队，帮助他们改进现有产品而非开发新产品时，我们会制作200到300页的幻灯片，详细分析实现行为改变的各个步骤。然后，我们会叠加每个步骤中影响人们行为的各种心理因素。这确实需要很长时间，但通过理解实现行为改变的各个步骤，才能真正找到突破口。毕竟，行为改变并不容易——它复杂、困难、充满阻碍。在尝试改变行为之前，你必须先理解达成目标的步骤。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "49:04",
+   "en": "Wow, that sounds really useful. So, you go through the product, make a screenshot of every little step, and then connect what barrier's keeping them from progressing. Is that roughly right?",
+   "zh": "哇，这听起来真的很有用。那你们会逐一分析产品中的每个小步骤，然后找出阻碍他们前进的障碍，对吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "49:15",
+   "en": "Exactly, yeah. So, maybe in a health app, it's information aversion. They don't actually want to see their test result. That's a step, and then we attach that psychology to that step and now we can have a brainstorm about, \"Well, what would help decrease information aversion to get them over the next hump?\"",
+   "zh": "没错。比如在健康类应用中，可能是用户对信息的抗拒，他们不想看到自己的检测结果。这就是一个步骤，然后我们将这种心理因素与该步骤相结合，接着就能集思广益，思考如何减少信息抗拒，帮助用户跨越下一个障碍。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "49:33",
+   "en": "What's cool about this is you could just... As a team, you have all these things you're trying to improve, all these flows and steps and things like that, and basically, these psychologies, as you call them, are useful to just anything you're trying to optimize. I imagine there's just like a list on Wikipedia of all these human psychologies and biases. I imagine a better way to learn about this is to take your course. So, maybe it's a good time to just chat about the course that you teach versus coming in house and working with the team. Can you talk a bit about that? Or are those the same thing?",
+   "zh": "这项技术的妙处在于，团队在改进产品、优化流程等方面，遇到的所有难题都可以借助这些心理因素来分析。我想维基百科上应该有完整的人类心理学与偏好列表。要深入了解这些知识，最好的办法就是参加你的课程。所以，现在或许可以聊聊你教授的课程与现场辅导的区别。能谈谈这两者的区别吗？或者它们本质上是一回事？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "50:02",
+   "en": "No, that's perfect. Yeah, so we have a... Thanks for the tee up, Lenny. Appreciate it. We have a bootcamp course, which basically is a self-paced online course that you can go in and understand. It has a lot of our case studies, many of them I didn't talk about here, and we walk you through the process. You'll have an intro call with us. There's a Slack group. There's office hours really trying to help people go through the process of behavioral design yourself, and it really brings these concepts to life and helps you apply them to your product. So, I think, starting with that bootcamp is a great place for designers, product managers, marketers, researchers to start. I can send you this. We have a Sweet 16, some of the 16 biases that we refer to most. The three Bs is an easy way to evaluate a product if you're just starting, but as you get deeper, these different psychologies will pop up.",
+   "zh": "没错，太完美了。嗯，所以我们有一个……感谢你介绍，莱尼。我很感激。我们有一个训练营课程，基本上是一个自定进度的在线课程，你可以登录了解相关内容。里面有很多我们的案例研究，其中很多我在这里没有提到，还会带你逐步完成整个过程。你会和我们进行一次介绍性通话。还有一个Slack群组。每周的办公时间专门帮助大家自己探索行为设计的流程，能让这些概念生动起来，并帮助你将其应用到你的产品中。所以，我认为，从这个训练营入手，对于设计师、产品经理、市场营销人员和研究人员来说都是一个很好的起点。我可以把资料发给你。我们还有“十六大偏见”（Sweet 16），这些是我们最常提到的16种偏见。三个B原则（three Bs）是刚开始评估产品时一个简单的方法，但随着你深入了解，不同的心理学概念就会逐渐浮现。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "51:02",
+   "en": "Awesome. Please send that and we will link to it in the show notes. Just a couple more details in this course, how often do you run it? How long does it take generally for folks to take?",
+   "zh": "太棒了。请把资料发送给我们，我们会在节目笔记中附上链接。关于这个课程，还有几个细节，你们的课程多久举办一次？通常人们完成课程需要多长时间？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "51:10",
+   "en": "Yeah. So, once a year we'll do a cohort course that's a little bit more in depth, but the best way is this kind of self-paced course. It's a eight-week course and we give you a month extra to go through it. There's 16 modules and there's homework throughout it that you can post in Slack and get feedback from behavioral scientists. So, a pretty interactive course, but you can go through it on your own and even share with your team. We do group things. We'll do like a team of 10, and then we can give you a private office hour where we just riff with you on your product challenges.",
+   "zh": "是的。我们每年会举办一次深度课程，但最好的方式是这种自定进度的课程。这是一个为期八周的课程，我们会给你额外一个月的时间完成学习。课程包含16个模块，整个过程中还有作业，你可以在Slack上发布并获得行为科学家的反馈。所以，这是一个互动性很强的课程，但你也可以自行学习，甚至与团队分享。我们会组织10人的小组，然后为你们提供私人办公时间，与你们一起探讨产品挑战。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "51:46",
+   "en": "Awesome. And folks can find that at irrationallabs.com. Is that right?",
+   "zh": "太棒了。人们可以在irrationallabs.com上找到相关信息，对吧？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "51:49",
+   "en": "Yeah. Thanks again for this.",
+   "zh": "是的。再次感谢。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "51:50",
+   "en": "irrationallabs.",
+   "zh": "irrationallabs。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "51:50",
+   "en": "Yeah, irrationallabs.com is the spot, and if you... Probably signing up for a newsletter is also... We publish all of our research there and other kind of fun behavioral insights.",
+   "zh": "是的，irrationallabs.com就是这个入口，如果你……可能订阅时事通讯也很不错。我们在那里发布所有研究成果和其他有趣的行为洞察。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "52:01",
+   "en": "Sweet. Well, with that, we've reached our exciting lightning round.",
+   "zh": "好的。那么，接下来我们要进行激动人心的闪电问答环节了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "52:05",
+   "en": "So, I'm just going to ask you a bunch of quick questions. Whatever comes to mind, fire away and we'll just go through them real fast. Sounds good?",
+   "zh": "那么，我要问你一堆快速问题了。想到什么就说什么，我们会快速过一遍。听起来不错吧？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "52:11",
+   "en": "Great.",
+   "zh": "好的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "52:12",
+   "en": "Okay, cool. What are two or three books that you recommend most to other people?",
+   "zh": "好的，很酷。你最推荐给别人的两三本书是什么？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "52:17",
+   "en": "I would be [inaudible 00:52:17] not to say Predictably Irrational. I think this is a great starter book for people getting interested in the field. Influence is also a great starter book for people getting interested in the field. Many times you read Influence and you change Your Career. It's a really powerful book. And then, the under-talked about one is [inaudible 00:52:35] author Robert Frank. He wrote Darwin Economy, and he talks more about kind of status, and social norms, and how this drives a lot of our behavior. So, I'd recommend Robert Frank as an author in Darwin Economy.",
+   "zh": "我会推荐[听不清00:52:17]《可预测的非理性》。我认为这本书对于刚开始对这个领域感兴趣的人来说是一个很好的入门书籍。《影响力》也是一个很好的入门书籍。对于刚开始对这个领域感兴趣的人来说。很多时候你读了《影响力》之后，会改变你的职业生涯。这是一本非常有力的书。然后，不太被提及的是[听不清00:52:35]作者罗伯特·弗兰克。他写了《达尔文经济学》，更多地讨论了地位和社会规范，以及这些如何驱动我们的很多行为。所以，我推荐罗伯特·弗兰克和他的《达尔文经济学》。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "52:48",
+   "en": "What's another favorite podcast other than the one you're currently on?",
+   "zh": "除了你现在参加的这个播客，还有其他你最喜欢的播客吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "52:51",
+   "en": "Science of Change is my actual podcast, so a little self-promotion. We interview product leads and talk about what they've done in their product. And then, the other one is, No Stupid Question. This is by the Freakonomics. Stephen Dubner and Angela Duckworth come together and just answer questions about behavior change.",
+   "zh": "《变革科学》是我主持的播客节目，所以先自我宣传一下。我们会采访产品负责人，探讨他们在产品开发中的实践经验。另外还有《无需愚蠢的问题》这个节目，由《魔鬼经济学》的斯蒂芬·达布纳和安吉拉·达克沃斯共同主持，专门解答行为改变相关的问题。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:11",
+   "en": "What's a favorite recent movie or TV show?",
+   "zh": "你最近最喜欢的电影或电视剧是什么？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "53:14",
+   "en": "I love The Rehearsal. This is-",
+   "zh": "我喜欢《排练人生》。这部剧——"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:16",
+   "en": "I can see you loving it.",
+   "zh": "我能想象你会喜欢它。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "53:17",
+   "en": "Yeah. So, it's basically made me feel that it's rehearsing life. And I think, sports, it's so obvious you want to practice. I just started ping pong lessons actually, and I'm doing the same stroke for an hour. But in life, we don't rehearse as much. I don't write an email a hundred times, and then practice sending it. And so, I think there's probably an opportunity for us all to learn some lessons from that.",
+   "zh": "是啊。这部剧让我感觉它在排练生活。我觉得体育运动中，大家很清楚需要不断练习。我最近刚开始学乒乓球，连续一个小时都在重复同一个动作。但在生活中，我们却很少这样刻意练习。我不会把一封邮件写一百遍再练习发送。所以我觉得我们或许都能从中汲取一些启发。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:42",
+   "en": "Have you seen Nathan For You, his other show?",
+   "zh": "你看过他的另一部节目《为你服务》吗？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "53:44",
+   "en": "I have, yeah. The Rehearsal was just so compelling and I'm not usually somebody who watches media, so this was mind blowing. I loved it.",
+   "zh": "看过了。《排练人生》太引人入胜了，而我通常不怎么追剧，所以这部剧让我惊叹不已。我超爱它。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:52",
+   "en": "I actually like Nathan For You better.",
+   "zh": "但我其实更喜欢《为你服务》。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "53:54",
+   "en": "Oh, interesting. Okay.",
+   "zh": "哦，有意思。好的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:54",
+   "en": "Yeah.",
+   "zh": "是啊。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "53:54",
+   "en": "I'll give another...",
+   "zh": "我再举个例子……"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "53:57",
+   "en": "What a weird show, but I love it. Okay, next. What is a favorite interview question that you like to ask?",
+   "zh": "这部剧太奇怪了，但我超爱它。好的，下一个问题。你最喜欢问的面试问题是什么？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "54:03",
+   "en": "So, interview for... I'll take this as interviews for people when we're hiring. I would caveat to say, interviews, actually we know, don't predict job performance. So, very little to no evidence would say interviews will predict how I perform on the job.",
+   "zh": "所以，面试……我把这理解成招聘时的面试。我得提醒一下，面试其实并不能预测工作表现。所以几乎没有证据表明面试能预测一个人在工作中的表现。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "54:19",
+   "en": "Shush. Just kidding.",
+   "zh": "嘘。开玩笑的。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "54:20",
+   "en": "We use skill assessments and trials as ways to predict job performance, but interviews are good at predicting affinity and culture fit. And so, if you want to ask a question about that, one of my favorite questions is just, what is a personality trait that defines you? So, really, one that you are filled with strength, but that also can be seen as something you're working to improve. So, for me, I may be confident, but that may mean that I'm not listening. And so, we have really strong personality. People are really quick at answering this question. They really know the thing that they do good but also could hurt them, and I find that it helps understand a person a little bit easier and faster.",
+   "zh": "我们用技能评估和试用来预测工作表现，但面试能有效预测求职者的亲和力和文化适应度。所以如果你想问这个问题，我最喜欢的一个问题是：“你最典型的个性特征是什么？” 就是那种你引以为傲，但同时也可能需要改进的特质。比如我可能很自信，但这也意味着我不善于倾听。这样我们就能更深入、更快速地了解一个人。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:04",
+   "en": "Last question, who else in the industry do you most respect as a thought leader?",
+   "zh": "最后一个问题，行业内你最尊敬的思想领袖是谁？"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "55:08",
+   "en": "I don't know if people will know him, but Chris York. He is a behavioral scientist, designer. I would go to Chris and ask him a question, and just accidentally, in the last year, had done full research on the question and has a very thoughtful answer. Chris York wins for me.",
+   "zh": "不知道大家是否认识他，但克里斯·约克。他是行为科学家、设计师。我会去问他问题，而他总能在过去一年里意外地对问题进行全面研究，并给出深思熟虑的答案。克里斯·约克在我心中的地位无人能及。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:32",
+   "en": "Amazing. Have not heard of him. We'll look him up. Kristen, thank you so much for being here. I feel like you're going to change a lot of people's behaviors. You're going to break barriers for a lot of products. And there'll be many benefits that come out of our chat. Thank you again for doing this.",
+   "zh": "太棒了。我之前从没听说过他。我们会去查查资料的。克里斯汀，非常感谢你能来参加节目。我觉得你会改变很多人的行为习惯，为许多产品打破障碍。我们的这次对谈肯定会带来诸多积极影响。再次感谢你参与这次访谈。"
+  },
+  {
+   "speaker": "Kristen Berman",
+   "ts": "55:47",
+   "en": "Wonderful. Thanks for having me, Lenny. This is super fun.",
+   "zh": "太棒了。感谢邀请，莱尼。这次交流真是太有趣了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "55:50",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes, or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢你们的收听。如果觉得这期节目有价值，欢迎在Apple Podcasts、Spotify或你喜欢的播客应用上订阅。同时，欢迎给我们打分或写下评论，这对其他听众发现这个播客会有很大帮助。您可以访问l越来越多地参与到中文的交流和学习中来。"
+  }
+ ]
+}

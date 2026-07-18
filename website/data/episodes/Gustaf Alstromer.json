@@ -1,0 +1,761 @@
+{
+ "id": "Gustaf Alstromer",
+ "name": "Gustaf Alstromer",
+ "category": "企业管理",
+ "identity": "创始人/CEO",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Gustaf+Alstromer",
+ "bio": {
+  "en": "Gustaf Alstromer is a group partner at Y Combinator, where he has worked with 600+ startups, and previously started Airbnb's original growth team; he is also a driving force behind YC's focus on climate tech.",
+  "zh": "Gustaf Alstromer 是 Y Combinator 的集团合伙人，已辅导 600 多家初创公司，此前创办了 Airbnb 最初的增长团队；他也是 YC 聚焦气候科技的重要推动者。"
+ },
+ "summary": {
+  "en": "Gustaf boils startup failure down to one root cause—not talking to users, and therefore never finding product-market fit—and shares the most common mistakes YC founders make and the advice partners give most often. He covers the attributes of successful founders, why having a technical co-founder matters, and how YC's 'make things people want' still holds. The conversation also dives into climate tech: why momentum has shifted, what's new and exciting, and how to think about entering the space.",
+  "zh": "Gustaf 把创业失败归结为一个根本原因——不与用户交谈，因而永远找不到产品市场契合，并分享了 YC 创始人最常见的错误以及合伙人最常说起的建议。他谈到了成功创始人的共性、为何技术联合创始人至关重要，以及 YC 的“做人们想要的东西”为何至今成立。对话还深入气候科技：势头为何转变、有什么新鲜而令人兴奋的事，以及想进入这个领域该如何思考。"
+ },
+ "turns": [
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "If I drill down what makes companies fail, it's quite simple. It's just like they don't talk to users, which means they don't find product market fit. And if they don't find product market fit, nothing else really matters. What mistakes do people make is like it is all about that. It's all about talking to customers and learning that you're building something that's actually useful. YC Slack headline is make things people want, and it's still true and it's always going to be true.",
+   "zh": "若要剖析导致公司失败的根本原因，其实很简单。核心问题在于他们不与用户沟通，因此无法找到产品与市场的契合点。而若无法实现产品与市场的契合，其他一切努力都将徒劳无功。人们常犯的错误往往归结于此——关键在于与客户沟通，了解用户真正需要的产品。YC Slack的口号是“打造人们真正想要的产品”，这句话至今仍不失其真理性，并且将永远是正确的准则。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast where I interview world-class product leaders and growth experts to learn from their hard one experiences building and growing today's most successful products. Today my guest is Gustaf Alstromer. Gustaf is a group partner at Y Combinator where he's been for almost six years. Prior to that, Gustaf was at Airbnb for over four years where he started the original Airbnb growth team and where I was very lucky to get to work alongside him for a number of years. Gustaf is also at the heart of YC's increased focus on climate tech, and in my opinion is one of a handful of people who've had an incredible impact on the increasing amount of investment and people flowing into climate tech. (00:01:10): We chat in depth about what's happening in climate tech, why things have shifted so much recently, what's new and exciting, and how to think about the space if you're hoping to make the jump. We also get deep into Gustaf's experience working with over 600 startups over his time at YC. We talk about what are the most common mistakes that early stage startups and founders make, what advice YC partners give founders most often, the most common attributes of successful founders, the importance of having a technical co-founder and why that's the case, so much more. I guarantee you will leave this episode smarter and more inspired and I can't wait for you to hear it. With that, I bring you Gustaf Alstromer after a short word from our wonderful sponsors. (00:01:53): This episode is brought to you by Linear. Let's be honest, the issue tracker that you're using today isn't very helpful. Why is it that always seems to be working against you instead of working for you? What does it feel like such a chore to use? Well, Linear is different. It's incredibly fast, beautifully designed, and it comes with powerful workflows that streamline your entire product development process from issue tracking all the way to managing product roadmaps. Linear is designed for the way modern software teams work. What users love about Linear are the powerful keyboard shortcuts, efficient GitHub integrations, cycles that actually create progress, and built-in project updates that keep everyone in sync. In short, it just works. Linear is the default tool of choice among startups and it powers a wide range of large established companies such as Vercel, Retool and Cash App. See for yourself why product teams describe using Linear as magical visit linear.app/lenny to try Linear for free with your team and get 25% off when you upgrade. That's linear.app/lenny. (00:03:02): This episode is brought to you by Eppo. Eppo is a next generation A/B testing platform built by Airbnb alums for modern growth teams. Companies like Netlify, Contentful, and Cameo rely on Eppo to power their experiments. Wherever you work, running experiments is increasingly essential, but there are no commercial tools that integrate with a modern grow team stack. This leads to wasted time building internal tools while trying to run your experiments through a clunky marketing tool. When I was at Airbnb, one of the things that I loved about our experimentation platform was being able to easily slice results by device, by country, and by user stage. Eppo does all that and more, delivering results quickly, avoiding annoying prolonged analytics cycles, and helping you easily get to the root cause of any issue you discover. Eppo lets you go beyond basic clickthrough metrics and instead you turn north star metrics like activation, retention, subscriptions, and payments. Eppo supports test on the front end, the back end, email marketing and even machine learning clients. Check out Eppo at getepo.com. Get, E-P-P-O.com, and 10X your experiment velocity. (00:04:15): Gustaf, welcome to the podcast.",
+   "zh": "欢迎来到Lenny的播客节目，在这里我会采访世界级的产品领袖和增长专家，从他们打造和发展当今最成功产品的艰辛历程中汲取经验。今天的嘉宾是Gustaf Alstromer。Gustaf在Y Combinator担任合伙人已近六年。此前，他在Airbnb工作了四年多，亲手组建了Airbnb最初的增长团队。我很幸运能与他共事多年。Gustaf还是YC日益关注气候科技的核心人物，在我看来，他是推动气候科技领域投资与人才涌入的少数关键人物之一。\n\n（00:01:10）：我们深入探讨了气候科技领域的现状、近期变革的原因、最新动态，以及对希望进军该领域者的建议。我们还深入剖析了Gustaf在YC期间与600多家初创公司合作的经验，讨论了初创公司和创始人最常犯的错误、YC合伙人最常给予创始人的建议、成功创始人最常见的特质、为何必须有技术合伙人等诸多问题。相信听完本期节目，您将收获满满的智慧与启发，敬请期待。接下来，在我们优秀赞助商的简短致辞后，欢迎Gustaf Alstromer的到来。\n\n（00:01:53）：本期节目由Linear赞助。说实话，您当前使用的issue tracker并不高效。为何它总像与您作对而非助力您？为何使用体验如此糟心？Linear则截然不同。它速度极快，设计精美，内置强大的工作流，助您从issue追踪到产品路线图管理，全流程高效。Linear专为现代软件团队打造，深受用户喜爱的功能包括强大的快捷键、GitHub高效集成、真正推动进展的迭代周期，以及自动同步项目更新的功能。简而言之，它就是高效的代名词。Linear已成为初创企业的默认选择，Vercel、Retool和Cash App等大型成熟公司也广泛采用。快来亲自体验为何产品团队称其神奇吧！访问linear.app/lenny，免费试用Linear，并在升级时享受25%折扣。就是linear.app/lenny。\n\n（00:03:02）：本期节目由Eppo赞助。Eppo是由Airbnb前员工为现代增长团队打造的下一代A/B测试平台。Netlify、Contentful和Cameo等公司都依赖Eppo来推动实验。无论您在何处工作，开展实验日益重要，但市面上却没有与现代增长团队堆栈无缝集成的工具。这导致团队不得不耗费大量时间构建内部工具，同时通过笨拙的营销工具运行实验。我在Airbnb时，最喜欢实验平台的一点是能够轻松按设备、国家和用户阶段切分结果。Eppo能做到这一切甚至更多：快速呈现结果，避免冗长的分析周期，并帮助您轻松找到问题的根源。Eppo让您超越基本的点击率指标，转而关注激活、留存、订阅和支付等核心指标。Eppo支持在实验中测试\n欢迎来到本期播客。今天的嘉宾是 Gustaf，Eppo 公司的创始人兼首席执行官。Gustaf 曾在多个初创公司担任高级职位，包括 Salesforce、Jive Software 和 DocuSign。Eppo 是一家专注于实验驱动增长的软件公司，致力于帮助企业提升实验效率，缩短产品上市时间。Gustaf 将为我们分享他在增长黑客领域的经验，特别是如何利用实验来推动业务增长。\n\n（00:03:30）Gustaf，欢迎来到我们的播客。请向听众介绍一下自己。\n\n（00:04:15）Gustaf，欢迎来到播客。",
+   "ts": "00:00:30"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Thank you, Lenny. Honestly, it's so great to see you. I'm excited to be talking to you.",
+   "zh": "谢谢你，莱尼。说实话，能见到你真是太好了。能和你聊聊，我很兴奋。",
+   "ts": "00:04:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've been looking forward to this conversation for a while ever since we booked this. We worked together at Airbnb for many years. I was really lucky to get to work with you before you moved on to bigger and better things at YC. Speaking of Airbnb, you once tweeted about how special an experience that was for you, and I think even more interestingly, how many of the people that have left Airbnb can't find another place that's as special that just like that bar has been set too high. And so my first question is just like, what do you think it was that made Airbnb so special? Why was it such an important experience for you and other people? And even more importantly, just what is it that you take from that experience that you bring to startups that you work with now?",
+   "zh": "自从我们预定这次对话以来，我一直很期待这场交流。我们在Airbnb共事多年。在你转投YC开启更广阔事业之前，能与你共事，我深感荣幸。说到Airbnb，你曾在推特上提到那段经历对你意义非凡。更有趣的是，许多离开Airbnb的人都感叹，那里设定的标准太高，以至于很难找到同样特别的新工作。所以我的第一个问题是，你认为是什么让Airbnb如此特别？为什么它对你们以及其他人来说如此重要？更重要的是，你从那段经历中带走了哪些东西，并将其应用于现在合作的初创公司？",
+   "ts": "00:04:22"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah, it's funny. I think this year in a couple of months it'll be 10 years ago since you and me started Airbnb.",
+   "zh": "是啊，说来有趣。再过几个月，就是你和我创立Airbnb的十周年了。",
+   "ts": "00:05:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow.",
+   "zh": "哇。",
+   "ts": "00:05:07"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "It was 2012. The reason I treated that was I asked everyone that I'd met after Airbnb, because I had this experience of like, this was the highlight of my career up until then, at least being in the team like that and I asked everyone, \"Have you found anything better?\" Besides maybe one or two people, I haven't heard anybody say that they found something better. And they all missed that dearly. I thought a lot about why that was the case, but I would say Airbnb did not feel like a normal job. It felt like more like a group of friends trying to just do something together and we were friends. At least in the beginning it did not feel like this was a job. It was sort of like an ongoing project and an assembly of amazing people. I think in the end we managed to build two things, like a really successful company, thanks to Joe and Nate and Brian just for starting this. Without them there would be nothing to build. (00:06:04): I think people don't like to use the word family, but I feel like that way because when I go and meet with Airbnb alumnis from that team. We have a very special bond that reminds me of close social connections more than anything else. It does not remind me of coworkers. I asked myself why this was the case. The best answer I have is probably we brought in a special type of people. We had very diverse backgrounds. A lot of us was former founders. Not many of us were career people from the technology industry of the early days, not many of us. (00:06:37): I think that bar that we set, the first, I believe when I joined there was probably five or seven PMs and there was 30 engineers or something and you joined a little bit before me, those people set the bar or set the standard of what we were looking for afterwards. I think it took a long time to change that narrative. I mean, eventually you have to hire people that only had big corporation careers, but I don't remember we did that for a long time. When I actually read my goodbye note recently, my words there still means a lot to me and it means sort of like you're trying to reflect on exactly these things on like, building a great company that became successful and being part of this sort of family of really close friends.",
+   "zh": "那是2012年。我之所以特别关注这段经历，是因为我在Airbnb之后遇到的每个人，都曾问过他们：“你找到比Airbnb更好的工作了吗？”除了个别例外，其他人都说找不到。他们都无比怀念那段时光。我曾深思其中的原因，但我认为Airbnb不像普通工作。它更像是一群朋友试图共同完成某件事，我们就是朋友。至少在最初，它不像是一份工作。它更像是一个持续的项目，汇聚了众多杰出人才。我认为最终我们成功打造了两样东西——一家非常成功的公司，这要归功于乔、内特和布莱恩的创业初心。没有他们，就没有什么可以搭建的。（00:06:04）：我知道人们不喜欢用‘家庭’这个词，但我就是这么觉得的。当我去见Airbnb那个团队的校友时，我们之间有一种特殊的纽带，比起同事关系更像亲密的朋友。我问自己为什么会这样。我能想到的最好的答案是，我们吸引了特别类型的人才。我们背景各异。团队里很多人曾是创业者，但早期科技行业的职业人士却很少。（00:06:37）：我认为我们设定的那个标准，第一个标准是，我加入时大概有五到七位产品经理，30位工程师左右，而你比我稍早加入的人，他们为后来者树立了标杆。我认为改变这种叙事花了很长时间。最终你不得不招聘那些只有大公司工作经验的人，但我不记得我们这么做过很久。当我最近读到自己的告别信时，我写的那些话对我意义非凡，它们让我反思正是在这些方面——打造一家成功的伟大公司，成为这个由亲密朋友组成的大家庭的一员。",
+   "ts": "00:05:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So it sounds like if you had to boil down what Airbnb did, it sounds like hiring was the main piece that impacted the way it turned out just like the founders being very specific about the type of people they were hiring.",
+   "zh": "听起来如果要概括Airbnb的成功秘诀，招聘策略无疑是关键因素之一——创始人对招聘人才的严格把关至关重要。",
+   "ts": "00:07:21"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Absolutely.",
+   "zh": "确实如此。",
+   "ts": "00:07:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there anything that's like, I don't know, a take away there of just what you recommend to founders, like hiring. People know, be very careful who you hire. The first, I don't know, 10 people will impact the culture long term. But I don't know. Is there anything just abstracting away there of just what to look for in that first batch of hires?",
+   "zh": "有没有什么经验值得总结，比如说对创始人有什么建议，比如招聘问题。大家都知道，聘用合适的人至关重要。前10名员工会对公司文化产生长期影响，但具体该怎么做呢？",
+   "ts": "00:07:32"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "It's a tricky one because I would like to say that all the things that we did were the cost of the outcome of this, but that's not really how the world works. Some of the things we did work, some of the things that we did did not work. It's hard for us to actually disentangle what those things are, but I think we can talk about the things that we did. First of all, we made sure we hired people that were really excited to be there, right? They wanted to build Airbnb and they were really excited to work on Airbnb. That was the most important thing. Of course people had other offers, but I think you can figure out from those offers are you excited to be here or not. So that was probably the first thing. (00:08:30): The second thing I think is trying to understand the true motivations of the people that were there, like lower, \"Why are you here?\" We did something we call culture interviews that I think the founders have written about or there's probably content online about this. We did a lot of culture interviews early on to try to figure out we got the people that were there that mapped our core values and were really excited to work on Airbnb. I think finally, I don't know how this happened, we did pick people from diverse backgrounds. Most startups don't have most of the PMs being former founders, but I believe that was the case for the first 10 or 12 or 15 PMs at Airbnb. A lot of us were former founders. I think that that made a big difference for how you make decisions and how you get started on things. (00:09:21): I think I actually see this a lot in the Airbnb founders. They really care about the time at YC and they tried to recreate YC inside Airbnb a couple of times with demo day and with so new products completely isolated from the rest, starting with doing things that don't scale and talking to customers. So I think that that experience had made a big impact on them, but it's hard to say just these two things go and apply these things. It's actually kind of hard to say, \"Well that will work at it as Airbnb.\" I think that's a really tricky question to answer. (00:09:51): The last thing I would say is Airbnb had an incredible business model, an incredible business from early on and it was hard to fail. What I mean by that is it's hard to fail with a company. You can fail with individual things inside the company, but a company was still going to succeed. I think we all felt that. A lot of companies don't have the ability to take risks like Airbnb did early on because they don't have something that's so obviously great.",
+   "zh": "这确实是个棘手的问题。我本想说我们所做的所有决策都是为了最终的成功铺路，但现实并非如此。有些措施奏效了，有些则适得其反。我们很难理清其中的因果关系，但至少可以谈谈我们采取的措施。首先，我们确保招聘的人员对加入Airbnb充满热情。他们渴望参与Airbnb的建设，并为此激情满满。这是最重要的考量。当然，候选人可能还有其他 offer，但通过这些 offer，你能判断他们是否真心想来 Airbnb。（00:08:30）第二点是深入挖掘员工的真实动机。比如问他们：“你为什么来这里？”我们开展了所谓的“文化访谈”（culture interviews），创始人曾对此进行过阐述，网上也应该有相关内容。早期我们通过多次文化访谈，确保入职员工既认同我们的核心价值观，又对在 Airbnb 工作充满热情。我觉得最后，虽然不确定具体如何做到的，但我们确实成功招募了背景多元的人才。大多数初创公司的高级产品经理都曾是创始人，但 Airbnb 的前10到12位产品经理几乎都是如此。我们中的许多人都是前创始人。我认为这对决策和项目启动方式产生了深远影响。（00:09:21）我觉得Airbnb的创始人身上有很多值得借鉴的特质。他们非常重视在YC的经历，并试图在Airbnb内部复刻YC的模式，比如举办Demo Day，以及让新产品在初期与其他部门隔离，专注于做不易规模化的事情、倾听用户反馈等。我认为这种经历对他们影响深远，但要将这些经验直接应用到Airbnb的具体案例中并非易事。（00:09:51）最后我想说，Airbnb从一开始就拥有令人惊叹的商业模式，成功的可能性极高。我指的是这家公司很难失败。公司内部的某些项目可能会失败，但整体方向不会偏离。我们都深有体会。很多公司没有Airbnb早期那样的冒险精神，因为他们没有那么明显的成功蓝图。",
+   "ts": "00:07:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a really interesting point on the last piece that you may have the most amazing culture and hire incredibly well, but if the company doesn't work out, it's not going to be looked back as like, \"Wow, that was an amazing experience, but we failed.\"",
+   "zh": "关于你刚刚提到的最后一个观点——即便你拥有最棒的文化、招聘了最出色的团队，但如果公司最终失败了，人们也不会回首说\"哇，那真是一段超棒的经历，可惜我们最终失败了\"——这确实很有意思。",
+   "ts": "00:10:18"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:10:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that's interesting. So you mentioned YC and this kind of is a good segue to where I want to focus most of our time. You mentioned that you've worked with over 600 companies at this point, which is absurd. It feels like it's you get some statistical significance on takeaways at this point of what works and doesn't work. So I have just a bunch of questions about your experience working at YC and with all these companies. The first is I think about this quote that Elad Gill tweeted once and he wrote, I think, a post about it. Elad Gill is a legendary angel investor. He said that starting a company is an act of desperation. You're either desperate to change the trajectory of your career or you're desperate to make a bunch of money, you're desperate to achieve some kind of mission or build a specific product that you're just like, \"I need this to exist.\" I'm curious if you agree with that sentiment and then I have a follow-up question around that.",
+   "zh": "嗯，确实很有意思。你提到过YC，这里正好可以顺便聊聊我最想深入探讨的主题。你说目前已经与600多家公司合作过，这数字太惊人了。感觉你已经能从中总结出一些关于成功与失败的规律。所以我对在YC工作以及与这么多公司合作的经历有很多疑问。首先，我想起Elad Gill曾在推特上提到的观点，他还写过一篇相关的博文。Elad Gill是传奇天使投资人，他说创办公司往往源于绝望——要么是迫切想改变职业轨迹，要么是急于赚大钱，或是想实现某种使命或打造特定产品。不知你是否认同这种观点？然后我还有后续的问题想问。",
+   "ts": "00:10:30"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah, actually I haven't heard it before, but you know me, I'm an optimistic person. I think it probably reflects on my view of this question, but I would say desperation sounds like a negative place that you're starting at. I actually think that most people to start companies start from a positive place. But the motivations, I agree with what he said, can be very diverse for successful founders, right? (00:11:41): So we actually asked this in one of the early Group Office Hours sessions. We asked them, \"Why are you doing this?\" And we don't want to hear an answer like, \"I found this niche of the market.' That's not the why. The why is like, \"Why will you come in and work late after four years when you have no money left and everything's going to shit?\", right? Then the niche market is not the answer. There's something deeper than that. We've learned that it varies a lot for people's motivations to start companies. Some of them just want to solve some technical problem that they feel are passionate about solving. Some of them want to prove themselves in front of others or prove themselves towards themselves. Some have grand really important motivations to change the world and they will say things like, \"I want to give everyone water or I want to solve climate change or I want to democratize publishing.\" You can imagine any number of large ideas. Some people just want to start a big company and just want to be successful. (00:12:44): It doesn't matter, in my experience, what your motivation is. I don't think either of these motivations. It sounds like some of them will be better than others. In my experience, it's not the case. The motivation will change over time to just running this thing, right? Like once something becomes big, it's hard to think every day about exactly why you got started because the motivation is just like it can be fun and work on boring things because it's fun to build something big. Everything doesn't have to be shiny and big and grandiose because there are many ideas that are \"boring,\" but just the idea of running the company becomes the motivation eventually.",
+   "zh": "嗯，实际上我之前没听过这个观点，但你知道我是个乐观主义者。我觉得这可能反映了我对这个问题的看法。不过说真的，绝望听起来像是创办公司时的负面出发点。我认为大多数创业者都是从积极的初衷出发的。但我同意他说的，成功的创始人动机确实各不相同，对吧？（00:11:41）我们在早期Group Office Hours的会议上就问过这个问题：\"你们为什么要做这件事？\"我们不想听到\"我发现了某个细分市场\"的回答。这不是核心原因。真正的问题应该是：\"四年后没钱了，一切都要崩盘时，你为什么还会继续加班？\"细分市场不是答案。背后有更深层的动机。我们发现人们创业的动机千差万别。有些人只想解决自己热衷的技术难题；有些人想向他人或自己证明自己；有些人怀揣着改变世界的宏伟愿景，比如\"我想让每个人都能用上水\"\"我想解决气候变化问题\"\"我想让出版民主化\"等等。这类宏大构想不胜枚举。还有些人只想创办大公司，追求成功。（00:12:44）但以我的经验来看，动机并不重要。我不认为某种动机比其他更好。在我看来，动机会随时间演变，最终归结为运营公司本身。例如，当公司规模做大后，人们很难每天反思最初的创业初衷，因为动机已经演变为享受运营乐趣、专注于枯燥工作，因为构建大公司的过程本身就充满乐趣。并非所有创意都必须光鲜亮丽、宏伟壮观，许多看似\"枯燥\"的想法同样值得运营，最终动机也会回归到公司运营本身。",
+   "ts": "00:11:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really interesting that one of the main things you look for, it sounds like when you're interviewing, is how strong and durable is that drive to build this company. Is that what you're saying?",
+   "zh": "真有意思，你提到在面试中最看重的一点，是创始人建立公司的动力有多强、多持久。您是这个意思吗？",
+   "ts": "00:13:17"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "It's actually kind of hard for screen for motivation, I would say, in interviews because the purpose of this kind of Office Hour question is to highlight why someone is there and highlight the diversity of reasons people are there and sometimes even highlight from one founder to another co-founder why they are doing this. They might have never talked about this. Actually, surprisingly, often founders have not talked about why they're doing this. And just knowing why someone is here really helps with conflict resolution for example, really helps with understanding why someone is there on a certain day or something like that. So it's not something we screen for as much as I think we try to help founders discover this among themself and really know this about themself. I've just accepted that the motivations to start companies is widely diverse.",
+   "zh": "其实在面试中筛选动机挺难的，因为Office Hour环节的目的是突出创始人为何选择创业，展现他们的多样性，有时甚至要让创始人互相讲述创业初衷。这些话题他们可能从未提及。令人惊讶的是，创始人往往对自己的创业动机语焉不详。比如，了解创始人的初衷对化解冲突很有帮助，能理解他们为何在某天选择创业之类的。所以我们不怎么筛选动机，更倾向于帮助创始人自己挖掘内在动机。我已经接受了创业动机千差万别的现实。",
+   "ts": "00:13:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you ever discourage founders from starting a company when you see that maybe it won't be a durable kind of lasting motivation or whatever other reasons just knowing how hard starting a company ends up being?",
+   "zh": "当您发现创始人可能缺乏持久的动机，或者存在其他问题时，会劝阻他们创业吗？比如，创业可能并非自然的职业晋升之路。",
+   "ts": "00:14:13"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "It's a good question. I would say sometimes if someone doesn't have a motivation or don't know why they're doing this, they're doing this because they read that it would be a natural career step. So a good reason to not start a company is if you think of starting a company as a career step. Well, it is not. Because if it's successful, it'll be your entire career. It'll be 10 years most likely. And if it's not successful, then it's not something that people generally aspire to start. So non-successful startups. So I think people will start companies because this is sort of something they want to put on their resume. They have not understood what startups are or why you should do them. (00:14:58): Sometimes you can screen and kind of figure this out, but sometimes people don't even know why they're starting a company when they get started and it kind of gets figured out along the way. And that's okay. I don't want to discourage people who don't know exactly why they're starting this company just to start a company. They might figure out along the way and find the true motivation after doing this for a little bit or finding that it's really fun. (00:15:21): I think I discourage people to start startups if they have so many other things that are important than their life that are more important than the startup. So if there are financial constraints or family constraints or relationship constraints and they are going to trump this, then yeah, you should think a second time perhaps because startups are hard. They're much harder than a normal job. Equally hard if they're successful or failure, right? There's no middle way, we're like, \"Oh, my company is doing great so I can chill.\" That doesn't work that way either. So I don't really discourage or encourage people, I just want them to have all the information.",
+   "zh": "这是个好问题。我觉得有时候创始人没有明确动机，或者不清楚自己为何创业，可能只是因为听说创业是职业晋升的必经之路。但这种想法是错误的。如果创业成功，它将成为你全部事业，可能持续十年；如果失败，那就不是人们理想中的创业之路了。所以很多创业失败的案例。人们创业可能只是为了在简历上添彩，却不了解创业的真谛或动机。（00:14:58）有时通过筛选能发现问题，但有时创始人创业时甚至不清楚动机，而是在过程中逐渐领悟。这没关系。我不会劝阻那些不清楚动机的人创业，他们或许会在过程中找到真正的动力。（00:15:21）我会劝阻那些生活中有比创业更重要的事务（财务压力、家庭羁绊、感情纠葛）的人创业。如果这些问题压倒性存在，就该三思了。创业太难了，比普通工作难得多，无论成功还是失败都一样艰辛，没有中间路径。以为“公司发展顺利就能轻松”的想法也是错的。所以我不劝阻也不鼓励，只想让他们掌握所有信息。",
+   "ts": "00:14:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned YC Office Hours and I had a question around this. I'm working on this piece where I'm interviewing a bunch of B2B founders of companies that are doing super well and I asked them a few questions like, \"How'd you come up with the idea? How'd you find your first few customers?\" it's shocking how many of them bring up a conversation in YC Office Hours as the most pivotal point that set them on the trajectory that they're on now. I'm curious what happens in these Office Hours? What are the most common pieces of advice that you give or maybe most surprising pieces of advice that you give in these Office Hours so that people can get maybe a glimpse into these conversations you have?",
+   "zh": "你提到了YC的办公时间，我对此有个疑问。我正在撰写一篇报道，采访了许多发展势头极佳的B2B初创公司创始人，并向他们提了几个问题，比如“你是如何想出这个创意的？你是如何找到首批客户的？”令人惊讶的是，其中许多人都将YC办公时间视为他们事业发展轨迹的关键转折点。我很好奇这些办公时间里都发生了什么？你们在那里给出的最常见建议是什么？或者说，有哪些最令人惊讶的建议？这样读者或许能一窥你们在这些对话中所探讨的内容。",
+   "ts": "00:16:03"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "So at YC we have two type of Office Hours, two of the common ones. We have regular Office Hours, which is usually a one-on-one or basically the founders talking to me, or me plus another partner. They happen every week or every other week throughout the entire program. And they happen years after the program on the regular basis. Then we have Group Office Hours, which is you and six or seven other startups talking to us. They have [inaudible 00:17:07] a little bit different purpose. So the goal of the regular Office Hour, I always ask the question, \"What's holding you back from moving faster? We don't want to hear updates, we don't want to hear strategy questions. We want to understand what's slowing you down or what's holding you back from moving even faster. You generally have a specific goal.\" (00:17:27): And I think that question of what's slowing you down or were holding you back crystallizes the priorities. There are only so many things you can do as a startup and there are only so many things that matters at that stage. And by asking that question, we can start digging into, \"Okay, what's the goal? What are the things that drives towards that goal? What are the things that's slowing you down towards that goal?\" Usually, the founders don't know what's slowing it down, so the conversation and us probing questions actually leads to us or them discovering what it is just slowing them down. (00:17:59): In the Group Office Hour, it's a little bit different. The Group Office Hour holds a couple of different purposes. One of them is if I think back on Paul and Jessica's motivation to start YC, this is a surprise to them, but starting a company is incredibly lonely. You can't really lean on your employees and say, \"Hey, I'm feeling really shitty as a founder today. Everything is going to shit.\" Employees isn't going to take that well. So you lean on perhaps your investors, but they're not really available. But what you can lean on is other founders because they're all in the same situation. It's sort of like when you ask a founder the question, \"How are things going?\", it's so emotional for them to answer that question because it's never going well, right? It's never like, \"Oh, everything is going fantastic.\" They might say that, but everybody knows all founders, when they look each other's eyes, then no, that's not the answer. (00:18:48): So founders have infinite number of problems that they're thinking about all the time, which is why they're allergic to the question, \"How are things going?\" But when YC started, we put all the founders in a group together in a room and they started learning that all founders, all companies are broken in some way, right? They're all having these massive problems and they're all feeling that anxiety when they hear the question, \"How are things going?\" And just hearing other founders explain their problems, perhaps solving their problems, is a really good way for yourself to both feel motivated to do it yourself and see how problems get solved when other companies are having similar problems. Nowadays because of the scale at YC, we group companies together that have the same problems or the same area that they're operating in. (00:19:30): The second thing that Group Office Hours do well is accountability, right? We ask you, \"What were your goals? What were your goals for the last two weeks? Did you hit them?\" And then that gives founders accountability because founders are competitive. They don't want to look bad. They don't want to come back after two weeks and say \"Nothing worked,\" or at least like, \"We didn't learn anything.\" They want to learn something and make progress whether it's positive or negative. (00:19:54): Group Office Hours to me is the most magical moment because it really creates this very intense three or four month period. Founders often come back to us afterwards and say, \"Hey, we want to do that again. We don't have this really intense, really productive period. We don't have a program exactly. We have other programs, but we don't have anything exactly that mimics that experience.\" But we do encourage founders to continue with Group Office Hours after YC. Many of them do and many of them, ad hoc, continue to meet for years in this group setting where they ask the same kind of questions to each other, to hold themselves accountable, to learn from each other, and to just have someone else to lean on. I think this was unknown and somehow the world didn't know before that starting company is super lonely and you have all these anxiety. By just talking to other people who have the same problems, it's just one of the best thing you can do.",
+   "zh": "因此，在YC，我们有两种类型的办公时间，其中最常见的两种是常规办公时间和小组办公时间。常规办公时间通常是一对一的交流，或者是创始人与我，或者是创始人与另一位合伙人之间的对话。这种会议每周或每两周举行一次，贯穿整个项目期间，甚至在项目结束多年后也会定期举行。而小组办公时间则不同，你和其他六七家初创公司一起参与讨论，目的有所不同。  \n\n常规办公时间的核心问题是：“是什么在阻碍你加速前进？”我们不想听汇报，也不想听战略问题，我们想了解是什么在拖慢你的脚步，或者阻碍你更快地发展。通常创始人都有一个明确的目标。（00:17:27）我认为“是什么在阻碍你前进？”这个问题能清晰地聚焦优先事项。初创公司能做的事情有限，处于这个阶段重要的事情也有限。通过这个问题，能帮助我们深入探讨：“你的目标是什么？推动目标实现的关键因素是什么？阻碍你达成目标的因素是什么？” 通常创始人并不知道是什么在拖慢进程，所以对话和我们的追问能帮助他们发现阻碍因素。  \n\n小组办公时间则有所不同。它有几个不同的目的。其中之一是回想保罗和杰西卡创立YC的初衷时会发现，这对他们来说是个惊喜——创办公司其实非常孤独。你无法向员工倾诉：“作为创始人，今天我感觉糟透了。一切都乱套了。” 员工不会善意接受这种抱怨。但你可以向其他创始人求助，因为他们都处于相同的境地。比如当你问创始人“情况如何？”时，他们会情绪激动地回答，因为情况从不顺利，对吧？他们可能会说一切顺利，但所有创始人都知道，当他们互相对视时，大家都知道这不是真相。  \n\n（00:18:48）创始人总有无数的难题需要时刻思考，这也是他们对“情况如何？”这个问题避之不及的原因。但YC创立之初，我们把所有创始人聚集在一起，他们开始意识到所有创始人、所有公司都存在或多或少的缺陷。大家都面临着重大挑战，听到“情况如何？”这个问题时都会感到焦虑。亲眼目睹其他创始人解决问题，也能激励自己去行动，同时了解类似问题的解决之道。如今，由于YC的规模扩大，会将面临相同问题或处于相同业务领域的公司分组讨论。  \n\n小组办公时间的另一个重要作用是责任追究。我们会问：“你们的目标是什么？过去两周的目标达成了吗？” 这能让创始人承担责任，因为他们天生好胜，不愿出丑。不想两周后回来说“毫无进展”，或者至少不想让别人知道自己无能为力。\n“我们什么都没学到。”他们希望通过学习获得进步，无论是积极的还是消极的收获。（00:19:54）：对我来说，“团体办公时间”是最神奇的时刻，因为它真正造就了那段长达三四个月的高强度学习期。很多创始人事后会回来对我们说：“嘿，我们想再经历一次那种状态。我们现在没有这样高强度、高产出的阶段了。虽然我们也有其他项目，但没有一个能完全复刻那种体验。”不过我们确实鼓励创始人在完成YC项目后继续开展“团体办公时间”。许多人确实这么做了，还有不少人会临时组织小组会议，持续多年。他们会在这种集体环境中互相提问、互相监督、相互学习，彼此借力。这让我意识到，创办公司其实是一件非常孤独的事，充满各种焦虑感。而与那些正面临相同挑战的人交流，恰恰是能获得巨大助力的最佳方式之一。",
+   "ts": "00:16:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's so many things that come up when you talk about this. One is I had a startup at one point and we worked in the coworking space. We joined the coworking space because we're like, \"Oh, we'll meet other founders. It'll be social, we won't be alone.\" But it turns out everyone's just heads down, headphones on, \"I don't have time for anything. I just need to work.\" It's like a microcosm of that experience that even if you're surrounded by founders, no one has time to do anything. They're just working.",
+   "zh": "谈到这个话题，脑海中涌现出诸多回忆。其中之一是我曾创办一家初创公司，当时我们入驻了共享办公空间。选择那里是因为我们心想：“能结识其他创业者，一起社交，避免孤单。”但结果发现，每个人都埋头工作，戴着耳机，“忙得不可开交，根本无暇他顾”。这仿佛是那种孤独感的缩影——即便身处创业者群体中，大家也无暇交流，始终专注于工作。",
+   "ts": "00:20:45"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "You got to schedule it and force it and put the laptops on the floor and the phones on the floor and you just sit there with pen and paper. That's how you have to do it. We tried to mimic that as much as we could over Zoom. But honestly the best experience of this was in person, in a ring, in mountain view with no computers and everyone just paying attention to everyone. That was the best experience. Yeah, that's what I remember is one of the most meaningful parts of YC. I didn't have it myself when I did YC, but now everyone has it.",
+   "zh": "你必须主动安排时间，强制执行，收起笔记本电脑和手机，拿起纸笔静心专注。这才是有效的做法。我们曾试图在Zoom会议上模拟这种氛围，但最棒的体验还是面对面交流——在山景城的圆桌会议上，大家放下手机，专心聆听。这才是最难忘的YC经历。我参加YC时没有这样的体验，但如今所有人都经历过了。",
+   "ts": "00:21:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The other thing that's made me think about is someone tweeted once, \"Don't ever ask a founder how they're doing or how it's going. It just creates all this anxiety because nothing's ever going great.\"",
+   "zh": "还有一件事让我深有感触，有人曾发推文：“千万别问创业者进展如何或情况怎样。这只会引发焦虑，因为从来没有什么事进展顺利的。”",
+   "ts": "00:21:36"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Don't do it. Everybody looks at each other's eyes and they know that they're allergic to that question.",
+   "zh": "别这么做。大家四目相对，都明白这个问题会引发不适。",
+   "ts": "00:21:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's hilarious. So just to summarize the questions you said you asked, the one is in the individual Office Hours, is what's holding you back. And then in the group setting, what was the question again that you asked?",
+   "zh": "太逗了。总结一下你提到的两个问题：一是在单独办公时间里，问他们阻碍进展的因素；二是在集体会议上，问他们过去两周的目标完成情况，以及未达成目标的原因。简单明了。通过分享阻碍因素和达成目标的秘诀，能让同处一室的其他七家初创公司受益匪浅。",
+   "ts": "00:21:50"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "What are your goals for next two weeks and what were your goals for the last two weeks and did you hit the goals? And if you didn't hit them, what came in the way of hitting the goals? It's very simple. That can uncover lots of problems that other founders are having exactly in the same way. Just by talking about the things that held you back or the things that allowed you to hit your goals, uncover something material for the other seven companies doing that in the ring.",
+   "zh": "如果退后一步，审视你接触过的初创公司，你认为早期阶段创业者最常犯的错误是什么？",
+   "ts": "00:22:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If you kind of zoomed out a little bit and thought about the startups you've worked with, what would you say are the most common mistakes that early stage startups make broadly?",
+   "zh": "太多了。说真的，我最初了解创业就是通过谷歌搜索，偶然发现保罗·格雷厄姆的文章，因为他总是在写这些内容——",
+   "ts": "00:22:26"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "There's so many. I mean, this is how I initially learned about startups, by searching for that on Google and landing on Paul Graham's articles because he kept-",
+   "zh": "哇。",
+   "ts": "00:22:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow.",
+   "zh": "太棒了。",
+   "ts": "00:22:45"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I think I've written many articles about this topic because it is so common. So this topic can go on forever. But if I take the most recent experience I've had in YC, I would say startups fail, one, because they don't talk to customers. And if you don't talk to customers or users, you don't actually know what's important. If you don't know what's important, it doesn't matter what you build, it doesn't matter kind of what ideas you have in your head if you don't actually know what it is that you need to build and you don't validate with customers. That's where a lot of the failure stems from. A lot of early YC for us or early part of the program is us pushing and probing founders to be like, \"Tell us about the conversations you've had with the customers. What did you learn? Can you show us the organizations?\" Or like all these questions, like, \"What are the software they're using? What are they paying for? What problems do they have? How are they describing the intensity of that problem?\" So that's what we spent a lot of time early at YC. (00:23:43): After that, I would say one of the commons mistakes in... I'm not talking about generally startups here, I'm talking inside YC. The second most common thing I see in YC is people are just afraid to talk to customers. They're just not trying hard enough to get in front of customers. I think this comes from, technical people tend to think that software is just sort of solution to everything. But really what you should need to do is to talk to someone over Zoom or over phone or in person, even better. People are just afraid of doing that and they're afraid of being rejected. These are common, people that want to build good products are just really afraid of people saying no. (00:24:25): The problem is, which anyone who hasn't done sales before that joined YC, they realize this, is that if you take the average customer group in the world, 90% are not early adopters. It doesn't matter if you have something new and cool, they're just not interested. They are not incentivized to take risks in their job to try something new. They're just incentivized to not take risks and just continue what they're doing. Those 10 percents are the early adopters. They're The ones that you actually want to reach. But that means you have to reach 10 to find one. And then you convince that one person to get on the phone or a video call with you. And that takes work and it takes a lot of work. I think people don't really think of this. This is common knowledge, basic stuff for salespeople, but founders should never done sales before just get surprised by the percentages and the sort of what it means to do this. (00:25:12): If I think of more generally outside of YC, so these are two kind of things I experience within YC, but I think generally outside of YC, I would say the two most common problems the same one is not talking to customers, the other one is not being technical and not knowing what it takes to build successful technology company. It means having technical founders and it means being able to build the first prototype. This is something we screen for when we interview people in YC and we aren't accepting a whole lot of team that don't know how to build or get their first prototype built themselves because we know it is a super common value pattern. (00:25:50): I can go on and on and on and on for this one, but honestly if I drill down what makes companies fail, it's quite simple. It's just like they don't talk to users, which means they don't find product market fit. And if they don't find product market fit, nothing else really matters. What mistakes do people make is it is all about that. It's all about talking to customers and learning that you're building something that's actually useful. YC Slack headline is make things people want, and it's still true and it's always going to be true.",
+   "zh": "我觉得我写过很多关于这个话题的文章，因为它实在太常见了。所以这个话题可以永远聊下去。但如果我以最近在YC的经历为例，我会说创业公司失败的原因之一，是因为他们不去和客户交流。如果你不和客户或用户对话，你就根本不了解什么才是重要的。如果你连什么重要都不知道，那无论你建什么产品，无论你脑子里有什么想法，如果你不去验证客户需求，那都是徒劳的。这正是很多失败的根源所在。在YC早期阶段，我们会反复敦促创始人去和客户交流：\"告诉我们和客户的对话内容，你们学到了什么？能让我们看看他们的组织架构吗？\"诸如此类的问题，比如\"他们用的是什么软件？他们为哪些服务付费？他们面临哪些问题？他们如何描述问题的紧迫性？\"这些都是我们在YC早期阶段花费大量时间关注的点。（00:23:43）：接下来，我要说另一个常见错误——我这里说的不是一般创业公司，而是YC里的情况。YC里最常见的错误之一，就是人们不敢去和客户交流。他们没有足够的勇气去接触客户。我认为这源于技术人员倾向于认为软件是解决一切问题的万能钥匙。但实际上，你需要做的是通过Zoom、电话或者面对面交流去和用户对话。人们害怕被拒绝，害怕被否定。这些都是常见的心理障碍——那些想打造优质产品的人，就是害怕听到客户说“不”。（00:24:25）：问题在于，任何没做过销售却加入YC的人都会意识到，全球90%的客户群体都不是早期采用者。你即便有再酷炫的新产品，他们也无动于衷。他们没有动力去冒险尝试新事物，只想按部就班。只有10%的客户是早期采用者，他们才是你真正需要触达的对象。但这意味着你要接触10个客户才能找到一个。而要说服这个客户和你通电话或视频通话，又需要付出大量努力。我觉得人们对此缺乏认识。这对销售人员来说是常识，但没做过销售的创始人往往会被这些比例和背后的逻辑惊到。（00:25:12）：如果把话题扩展到YC之外，我在YC里遇到的两个问题同样适用于外部环境：一是缺乏客户沟通，二是缺乏技术能力，不懂如何打造成功的科技公司。这意味着创始人必须具备技术背景，还要能完成第一个原型。这也是我们在YC面试时筛选的关键指标，我们不接受很多不懂得如何开发原型、自己都做不出来的团队，因为我们深知这是一种极其常见的失败模式。（00:25:50）：关于这个话题我可以讲个没完，但说实话，如果深挖创业公司失败的原因，其实很简单。就是他们不去和用户交流，导致无法找到产品市场匹配点。如果找不到产品市场匹配点，无论你建什么产品，无论你脑子里有什么想法，都徒劳无功。\n产品是否好用，这才是最重要的。人们常犯的错误往往出于此。关键在于与客户交流，了解他们真正需要什么，从而打造出真正有用的产品。YC Slack的口号是“做出人们想要的东西”，这句话至今仍适用，未来也将永远正确。",
+   "ts": "00:22:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is really interesting and good advice. It's interesting that... Like, \"Talk to customers,\" people hear that all the time. They're like, \"Of course we're going to talk to customers. We're going to do that of course.\" And your experience is they know this but they just don't do it probably because they're afraid. Maybe also because they think they already know what they need to build and it's like, \"Yeah, we're good.\"",
+   "zh": "这真是很有趣的建议。很有意思的是……比如，“去和客户聊聊”，人们老是听到这句话。他们会说：“我们当然会和客户沟通啊。这是理所当然的啊。”但你的经验表明，他们明明知道这一点却不去做，可能是因为害怕。或许还因为他们觉得自己已经清楚需要开发的产品，所以就自以为是地说：“我们已经做得很棒了。”",
+   "ts": "00:26:23"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "And you have all these validators, right? So the people are validating that even if you don't talk to customers, why has he accepted you? This investor invested in you. This investor said you were great, like blah blah blah. All these different validations that you confuse with product market fit, right? We have to remind everyone on the first day in YC, \"None of you have product market fit because you probably don't,\" right? Almost nobody has. Because people confuse this external validation with the thing that matters the most, which is talking to customers and learning what matters. It's just like a thing that just keeps coming back. Some get really good at it. And that is the source of successful startups, is when you really get good at this.",
+   "zh": "还有那些验证者，对吧？所以人们会质疑，即便你不去和客户交流，那个投资者为什么会投资你呢？那个投资者说你很棒，等等等等。这些外部验证的标准，你会把它们和产品市场契合度混为一谈，对吧？我们在YC第一天就得提醒所有人：“你们谁都没有产品市场契合度，因为你们很可能没有。”几乎没人有。因为人们把这种外部验证和最重要的环节——去和客户交流、了解用户需求——搞混了。这就是个循环往复的问题。有些人很擅长这一点。而成功的创业公司往往就是在这一点上做得好的。",
+   "ts": "00:26:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me coming back to Airbnb, one of the most important moments in Airbnb history was Paul Graham telling the founders of Airbnb, \"Where are your customers?\" And they're like, \"Oh, they're in New York\" and he's like, \"Why are you talking to me and not in New York right now talking to them?\" And they talk about that all the time.",
+   "zh": "这让我想起Airbnb的例子。Airbnb历史上最重要的时刻之一，是保罗·格雷厄姆对创始人说的“你们的客户在哪里？”他们回答“哦，他们在纽约啊”，然后他反问“那你为什么不去纽约和他们交流，而来和我聊天？”他们现在还经常提起这件事。",
+   "ts": "00:27:21"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah, it's absolutely true. I think he wrote the article Do Things That Don't Scale as a learning.... The learning there was the Airbnb founders doing the trips to New York and learning about how to build Airbnb, which is a very counterintuitive idea, which is when you have to spend the most amount of time with your customers. I think Airbnb is sort of one of the best stories inside YC of doing this well.",
+   "zh": "是啊，这完全正确。我记得他写《做那些不可扩展的事》这篇文章，目的是让创业者明白……其中的核心启示是Airbnb的创始人亲自去纽约，了解如何打造Airbnb。这是个非常反直觉的做法，因为你必须花最多时间和客户在一起。我认为Airbnb是YC里在这方面做得最成功的案例之一。",
+   "ts": "00:27:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This also reminds me, I've been talking to a bunch of founders recently. I asked them, \"How many customers have you talked to help figure out this idea?\" So just the other day it was 150 financial CROs that they talked to before they actually started raising this round. Another company, actually two Airbnb guys that started, they actually ran ads I think on LinkedIn to find specific people to talk to and that specific role. And they talked to probably at least 100, maybe 200. So there's a strong correlation there.",
+   "zh": "这也让我想起最近和很多创始人交流的经历。我问他们：“为了验证这个想法，你们和多少客户交流过？”前几天，有个公司在融资前找了150位金融CRO做访谈。还有个公司，两个Airbnb出身的创始人，他们在LinkedIn上投放广告，专门找特定职位的人交流。可能他们至少找了100到200个人。可见这两者之间有很强的关联。",
+   "ts": "00:27:57"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah, I think that's the volumes that people don't expect. They think they might have to talk to five, but I think you have to talk to 25 to 50. That means you have to reach out to a lot more to be able to get to people that are potentially early adopters. Those ones you talk to are also the ones that become your customers. So you are already doing most of the sales by just doing this work anyway.",
+   "zh": "是啊，我觉得大家低估了交流的数量。他们以为只需要和五个人聊聊，但实际上你得和25到50个人沟通。这样才能接触到那些潜在的早期用户。而你交流过的这些人，往往也会成为你的客户。所以只要你肯下功夫，就能完成大部分销售工作了。",
+   "ts": "00:28:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have maybe one tactical tip you could share of just either getting over your fear of talking to customers or just holding yourself accountable to actually doing it?",
+   "zh": "你有没有什么实用的技巧，可以帮助人们克服和客户交流的恐惧，或者督促自己去行动？",
+   "ts": "00:28:45"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah, I tell this story, I actually told this story yesterday. So remember when you sign up first service that's a cool service and you hear about in TechCrunch or something like that and then you realize you already signed up a year ago, right? And then from the founder's perspective, you sign up to something you never used it. So the founders who build those services, their inclination to think is that \"Everybody hates me because they sign up and they never use me.\" They never use the service. The fear of that is that basically the fear of rejection. So if I put my thing out there and most people won't use it and they will tell all their friends how shitty this thing is, you should never even sign up for it, that's the fear people have, but the truth is that people sign up for it and be like, \"Oh, I'm busy. I got something else to do.\" And they actually don't remember or care. (00:29:43): So whenever you sign for something that you signed up a year ago, think of yourself that that is the common customer experience, which is that you just sign up for a lot of stuff you don't even remember you. You never have this, \"I hate this thing' reaction. You always have this like, \"I'm indifferent to this thing. I don't actually care to even complete the sign up flow or try it out,\" right? I think that's the thing that people need to remember, is that the worst thing that can happen to startup is not that people hate what you're doing, it's that they're completely indifferent to what you're doing. It's not the worst thing, but the most common thing that happens is people just is indifferent. But it doesn't give you a second chance. Let's say, it always gives you a second chance and you really need to internalize that people have busy lives and if people don't actually use what you're building, that's fine. You can reach out to them a year from now or six months from now or two weeks from now and they probably will if you make some improvements. (00:30:37): I think people just have this fear that, \"If I get a lot of rejection, that means everything is bad.\" But the rejection should be put in context to the early adopter idea and that most people who don't care are not early adopters, who don't want to dig into new things. And that the more narrow of a solution you have to a specific problem, the fewer people actually want to dig in. But that's where you have to start because you cannot build the whole thing right up front and make everybody loves you. That doesn't really work that way. (00:31:07): Even Airbnb was like air mattresses or staying in someone's homes when they're home. That was not the complete solution of Airbnb. But there were early adopters who dug in and be like, \"Yep, I like that. I like those two things. I want to have people stay in my living room in my mattress.\" But that's not what Airbnb is about today, and a lot of those things were unknown at the time. But I think people are just afraid of rejection and you just need to overcome that fear and just learn that there's nothing that's really that bad that can happen when people don't use the service or sign up and don't care. It's not really that bad.",
+   "zh": "是啊，我讲过这个故事，昨天刚讲过一次。还记得你第一次注册某项服务时，那是个很酷的服务，你在TechCrunch之类的平台上听说过它，然后才意识到自己一年前就注册过，对吧？而从创始人的角度看，他们会想：“大家都讨厌我，因为他们注册了却从不使用。”但用户根本没用过这项服务。这种恐惧实质上是害怕被拒绝。若你推出产品，大多数人不会用，还会跟朋友抱怨产品有多烂，劝他们别注册。但事实上，人们注册后往往会说：“哦，我很忙，有别的事要做。”他们根本不记得，也不在乎。（00:29:43）所以当你注册一年前用过的服务时，要提醒自己这是常见的用户体验——人们注册了太多东西，甚至都不记得。用户不会产生“我讨厌这个东西”的反应，而是会说：“我对这个无感，甚至懒得完成注册流程或尝试使用。”这才是人们需要记住的——初创公司最怕的不是用户讨厌你的产品，而是他们对产品无动于衷。这不是最糟糕的情况，但最常见的情况是人们就是无动于衷。但这不会给你第二次机会。比如说，用户总会给你机会改进，但你必须深刻认识到人们生活忙碌，若他们不使用你的产品，那也没关系。你可以在一年后、六个月后、两周后再联系他们，只要你有所改进，他们很可能就会回心转意。（00:30:37）我觉得人们总是害怕：“如果遭遇大量拒绝，就意味着产品很糟糕。” 但这种拒绝需要放在早期采用者的背景下看待。大多数不感兴趣的人都不是早期采用者，他们不愿深入探索新事物。解决特定问题的方案越窄，愿意深入探索的人就越少。但这正是你必须从起点开始的地方，因为你不可能一开始就做好一切，让所有人都喜欢你。这根本行不通。（00:31:07）就连Airbnb最初也只是提供充气床垫或入住他人住宅的服务。这并非Airbnb的完整解决方案。但当时有早期采用者深入研究，说：“是的，我喜欢这两个功能。我想让别人住在我的客厅，用我的床垫。” 但这不是Airbnb现在的主营业务了，当时很多功能都还不为人知。但我觉得人们就是害怕被拒绝，你只需要克服这种恐惧，明白当用户不使用你的服务或不注册、不在乎时，其实也没什么大不了的。这真的没那么糟糕。",
+   "ts": "00:28:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me of a quote that I always love for Mark Andreessen, that everyone's time is already allocated. They don't have space for your product right now. They already have plans for their day.",
+   "zh": "这让我想起马克·安德森的一句话：“每个人的时间都是有限的。他们现在没有空间给你的产品。他们已经安排好了一天的行程。”",
+   "ts": "00:31:42"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Totally.",
+   "zh": "完全同意。",
+   "ts": "00:31:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it takes a lot to convince someone to pay attention to anything. I guess that just comes back to why it's so important that your product is solving a real pain and not just a nice little toy that is better than what's out there, but not so much better that you're like, \"I need this right now.\" So maybe just along those lines, do you have any thoughts on just the importance of that pain and just how critical that is?",
+   "zh": "让别人关注任何事物都需要花费很大力气。我想这正说明了为什么你的产品必须要解决一个真实的痛点，而不仅仅是一个比现有产品更好的小玩意儿。但即便如此，也不至于让人感叹“我现在就需要这个”。所以，基于这个思路，你对痛点的重要性以及其关键性有什么见解吗？",
+   "ts": "00:31:51"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I actually recorded... I'm happy of these videos, but I've recorded two videos on YouTube as part of YC Startup School last fall. You can go watch them on YouTube right now. One of them is how to talk to users and the other one is how you sell or how you use sales. The one about talking to users, I think there's a difference in asking someone, \"Do you have a problem with X, Y, Z? Is this podcasting setup working for you?\" And people say, \"Yeah, it's kind of working.\" But if you are a podcasting setup experts and you watch people use some other thing that's really shitty, they might also think that it's pretty good. But you have to watch them do it. And the best way for you to figure out what is the intensity of the problem is not to ask them but to watch them or to watch them solve the thing that they do. (00:33:06): You know how a lot of non-technical people don't know how to automate things? So they will do the same thing in Excel like a million times by just tapping because that's the only thing that they know and they're not technical enough to write some kind of script to do it, and you just have to watch those people to just feel the pain. You can't actually ask them how difficult is it to do X, y, z because they won't even know that it's that difficult to them. So the best thing I've learned about how to discover the pain is to watch people, have them screen share, have them walk you through their daily workflow about the area where you're doing some discovery. That is the best thing. (00:33:43): I'll give you another example. So there's a bunch of waste companies that are doing EV charging for electric cars and they're like, \"What are the problems in EV charging?\" And I was like, \"Just rent an EV and go and charge at all the non Tesla chargers and see what they say, see what you experience.\" And the truth is that it's just like garbage. A lot of EV charting systems are just so shitty and the apps are terrible. You just have to just use them yourself to know how bad it is.",
+   "zh": "实际上我录制了……我对这些视频很满意，但去年秋天在YC创业学校上，我在YouTube上录制了两个视频。你们现在可以在YouTube上观看。其中一个是如何与用户沟通，另一个是如何销售或利用销售技巧。关于与用户沟通的那个视频，我认为问用户“你在X、Y、Z方面有问题吗？这个播客设置对你有用吗？”和让他们说“嗯，还算能用”是有区别的。但如果你是一个播客设置方面的专家，看到别人使用一些非常糟糕的设备时，他们可能也会觉得还不错。但你必须亲眼看着他们操作。要想了解问题的严重程度，问他们是没用的，最好是观察他们操作，或者观察他们解决问题时的表现。（00:33:06）：你知道很多非技术人员不知道如何自动化操作吗？所以他们会在Excel里重复做无数次同样的操作，只是因为这是他们唯一会的，又没有技术能力写脚本去实现自动化。你必须亲眼看着他们操作，才能感受到他们的痛苦。你没法问他们做X、Y、Z有多难，因为他们甚至意识不到这对他们来说有多难。所以发现痛点的最好方法就是观察人们，邀请他们进行屏幕共享，让他们演示你在做探索的领域的日常工作流程。这才是最有效的方法。（00:33:43）：我再举个例子。有很多废物管理公司在做电动汽车充电业务，他们会问：“电动汽车充电存在哪些问题？”我就会说：“去租一辆电动车，在所有非特斯拉充电桩上充电，看看他们怎么说，看看你的实际体验。” 说实话，那些充电系统简直一团糟，很多充电应用也糟糕透顶。你必须亲自使用才能知道有多糟糕。",
+   "ts": "00:32:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's cool how often it just comes back to, \"Just go do the thing. Do things that don't scale.\" Classic YC advice. I want to come back to something you mentioned that I want to pull a thread on as the technical co-founder, being technical early on, just to cover that. So I know YC looks to... Having a technical founder is an important variable in you're deciding to accept a company. Say someone doesn't have a technical co-founder, do you have any advice for what they could do, like what often can work?",
+   "zh": "很棒的是，很多时候答案都是“去做就行了。做那些不可扩展的事情。” 这就是YC的经典建议。我想再回到你提到的另一个点——作为技术合伙人，早期专注技术的重要性，这里就点到为止。所以我知道YC在筛选公司时，技术创始人是一个重要的考量因素。如果有人没有技术合伙人，你有什么建议他们可以怎么做，比如哪些方法通常有效？",
+   "ts": "00:34:13"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah, I think the first thing is to understand the value of technical co-founder. So some people who are in this situation where they have an idea of something they want to build and they don't have anyone to help build them in building it, I had a friend Paul who gave this incredible quote, he said, \"I have an idea for a song, I just need a musician to help me make it,\" right? That's kind of similar to how it is with engineering. If you view output of engineering as like, \"I just have an idea for a song, I just need someone to actually make it for me\" and then you're not valuing software engineering or mechanical engineering or any engineering skill set deep enough, right? (00:35:17): The truth is that the engineering part is the really hard part. The first thing I would say is you need to learn how to value the engineering piece. Let me give you an example of how you don't do that. You applied to YC and you have 90% for yourself and 10% for the engineer. You're basically saying that like, \"Oh, the engineering part of this company is only worth 1/10th of me. I'm the non-technical person.\" So that to me is a signal that you're not really valuing engineering. (00:35:44): Okay, so how do you go out about and find someone? Well, the truth is that there are a lot of technical co-founders. The technical people, they also want to find business co-founders. They don't want to do other part. They don't want to do sales and they actually don't really care that much about fundraising. They just want to solve the problem. And that's fine. We built something called co-founder matching where those funders can meet, but if you don't participate in that, you can just start by asking the best technical people that you know. \"Are you interested in starting a company with me?\" Same thing with rejection. Many of them will just say, \"No, I have a great job, I'm really happy.\" But some of them will have thought about starting a company for a while and was hoping that someone would come and ask them to do that. So you have to remove your fears and go and ask the best people. (00:36:29): The reason you want to have a technical co-founder and not a hired engineer or not a hired contracting team is because so many of the decisions you're going to make are technical and so many of the iterations you're going to make relies on engineering. And if you don't understand that, you won't actually make the right decisions anyway. It's not like service. You have an idea for a product, you build a product and you're done. There's infinite number of iterations in that process. (00:36:54): And then finally, I would say a lot of people learn how to code themselves, right? So there are a lot of places online that you can learn the skillset that takes to build a prototype. You might not be the best engineers. So there are many successful startup founders who are not the best engineers because they stop coding when they hire three or four engineers, that's fine. But you need to be sufficiently good that you understand the value of engineering and that you understand that the best way to solve most of the problem is with software. There are a lot of founders who just, for whatever reason, study something else that doesn't have to be a conscious or very precise reason that you had when you were 18 or 19 and then you're 25, you're like, \"Oh, I wish I know how to code\" and then just learn to code and they learn how to code. It's not that more difficult than that.",
+   "zh": "是的，我认为首先要理解技术联合创始人的价值。所以有些人处于这样的境地——他们有想开发的产品，但找不到人来帮忙实现。我的朋友保罗曾说过一句很棒的话：“我有个歌曲创意，只是需要一位音乐人帮我把它做出来。”这和工程领域的情况很相似。如果你把工程成果视为“我有个歌曲创意，只是需要别人帮我实现”，那你就低估了软件工程、机械工程或任何工程技能的价值，对吧？（00:35:17）：事实上，工程部分才是真正难的部分。我首先要说的是，你需要学会如何重视工程部分。让我举个反面例子：你向YC申请融资，90%归你自己，10%归工程师。这等于在说：“这家公司的工程部分只值我自己的十分之一。我是非技术人员。”在我看来，这就是不重视工程的表现。（00:35:44）：好的，那怎么才能找到合适的人呢？事实上，技术联合创始人很多。他们也想找到商业联合创始人。他们不想负责销售和融资，只想解决问题。这没关系。我们开发了一个叫“联合创始人匹配”的平台，让双方能对接，但如果你不参与这个平台，你可以先问问你认识的最优秀的技术人员：“你有兴趣和我一起创业吗？”面对拒绝也要坦然。很多人会说：“不了，我现在工作很好，很开心。”但有些人可能已经考虑创业很久，期待有人来邀请他们。所以你要克服恐惧，主动去问最优秀的人。（00:36:29）：为什么要找技术联合创始人，而不是雇佣工程师或承包团队？因为很多决策和迭代都需要技术支持。如果你不理解这一点，就无法做出正确决策。这和服务行业不同。服务行业是有了产品概念就能直接做，但创业过程中迭代无数次。（00:36:54）：最后，很多人自学编程，对吧？网上有很多资源能教你开发原型所需的技能。你不一定是顶尖工程师。很多成功的创业者并非最优秀的工程师，因为他们雇佣三四名工程师后就不再编程了。这没关系，但你至少要足够优秀，理解工程的价值，明白用软件解决问题是最佳方案。很多创业者因为各种原因（不一定是18、19岁时就有的清晰规划），25岁时才想学编程然后自学成功。这比想象中容易得多。",
+   "ts": "00:34:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Have you ever seen a startup work out if they had a contracting firm, like engineering firm build a product? Does that ever work or were you just like, \"No, do not ever do this\"?",
+   "zh": "你们有没有见过创业公司让外包公司，比如工程公司来开发产品？这种方式可行吗？还是说你们当时会直接说“不行，还是别这么做”？",
+   "ts": "00:37:42"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Basically, I can't recall any specific ones where people have a contracting firm but I've recalled founders where let's say you had two non-technical founders, but they valued engineering and they had an ability to build a team of great people that were not co-founders and they gave them equity and they become successful. There are many examples of that I would say, but I don't remember any specific examples where you had a contracting team building the whole thing. I think the reason for that is it takes more than just sort of riding a spec to build a product. You can't actually spec yourself to a great product. You have to just be part of the iterations yourself. That's why I think someone being the engineer, having the idea of what iteration looks like and just doing it is how you do things. (00:38:38): I think that the cases where I've seen non-technical founders make this work is that they have really good engineering teams who feel like they're founding team. It might not be co-founders per YC-7 definition of having 10%, but they feel like they're the bonding team.",
+   "zh": "基本上，我记不起来有哪家公司让外包公司开发产品，但我倒是记得有些创业者——比如说有两个非技术型创始人，但他们重视工程技术，并且有能力组建一支非联合创始人的优秀团队，给他们股份，最终取得了成功。这样的例子有很多，但我不记得有哪家公司完全让外包团队来开发整个产品。我认为原因在于，打造一款产品需要的远不止是纸上谈兵。你不可能仅凭想象就打造出一款出色的产品，必须亲身参与产品的迭代过程。这就是为什么我认为，由工程师主导产品开发、亲自把控迭代流程才是正确的做法。（00:38:38）：我见过非技术型创始人成功案例的，他们拥有非常优秀的工程团队，这些团队感觉自己就是创始团队。虽然按照YC7 10%股权的定义，他们不算联合创始人，但他们确实把自己视为团队的核心成员。",
+   "ts": "00:37:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This reminds me of a story of just the recent podcast interview I did with the CPO of Calendly. She talked about how when Calendly started, they actually had a Ukrainian dev team built the first product. Not only did they help them build the first product, they actually ended up driving all the growth initially because they saw Calendly and started using it within their firm.",
+   "zh": "这让我想起最近我采访Calendly首席产品官的播客内容。她提到Calendly刚成立时，实际上是由一支乌克兰开发团队开发的首款产品。这支团队不仅帮助他们完成了首款产品的开发，还在初期推动了产品的增长，因为他们在自己的公司内部率先使用了Calendly。",
+   "ts": "00:38:52"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Wow.",
+   "zh": "哇。",
+   "ts": "00:39:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then everyone that they knew started using it and spread within Ukraine and they actually continue to work with that firm. They're still the [inaudible 00:39:20] team for Calendly or some part of it.",
+   "zh": "然后他们认识的每个人都开始使用它，在乌克兰范围内传播开来，至今仍在与这家公司合作。他们仍然是Calendly的[听不清00:39:20]团队或其中的某个部分。",
+   "ts": "00:39:14"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Wow.",
+   "zh": "哇。",
+   "ts": "00:39:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah",
+   "zh": "是啊",
+   "ts": "00:39:24"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Wow, that's cool.",
+   "zh": "哇，真酷。",
+   "ts": "00:39:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's a success story.",
+   "zh": "这确实是个成功案例。",
+   "ts": "00:39:24"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I mean, I would say it's certainly the case that in some countries people have other jobs while they start the startups, so like the engineers. In Ukraine for example or in Eastern Europe, it's very common that if they start their own startup, they actually have a full-time job as a contractor while they're starting the startup because that's how you pay the bill because often you can't raise money. And that's fine too.",
+   "zh": "我的意思是，我认为在某些国家，比如乌克兰或东欧，人们在创业初期确实会兼职做其他工作来维持生计。比如工程师们在那里很常见，如果他们创办自己的初创公司，通常会一边找全职工作做外包，一边创业，因为这样才能维持生计，毕竟很多时候初创公司很难融资。这种模式也无可厚非。",
+   "ts": "00:39:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. That's some hustle. (00:39:49): This episode is brought to you by Pando, the always on employee performance platform. How much do you love the performance review process? Yeah, it's time-consuming, subjective, biased, and there's rarely any transparency. With the rapid shift to distributed work, it's a struggle to create the structure and transparency that you want to help your employees have the highest impact and growth in their careers. Pando is disrupting the old paradigm of performance management, including a continuous employee-centric approach so employees stay engaged, see their progression in real time, and know exactly when and how they can level up. With Pando, managers can leverage competency-based frameworks to effectively coach and develop their teams and align on consistent growth standards resulting in higher quality feedback and higher performing teams. Visit pando.com/lenny for more info and get a special discount when you sign up and reference this podcast. That's pando.com/lenny. (00:40:47): I want to zoom out a little bit and ask another big question and see what answer you have for this. If you just think about the most successful startups in YC or even just the companies you worked with, if you had to pick just one or two attributes of what's most common across successful companies, what would that be?",
+   "zh": "太棒了。真是拼命干啊。 （00:39:49）：本期节目由员工绩效管理平台Pando赞助。你们有多讨厌绩效评估流程？没错，这个流程既耗时又主观，充满偏见，而且缺乏透明度。随着远程办公模式的快速普及，要想为员工创造理想的职业发展环境，构建所需的架构和透明度体系变得愈发困难。Pando正在颠覆传统的绩效管理范式，推行以员工为核心的持续发展模式，让员工保持积极性实时了解自身成长进度，清晰掌握晋升路径。借助Pando，管理者可以运用基于能力的框架有效指导团队成长，统一发展标准，从而获得更高质量的反馈，打造高绩效团队。更多信息请访问pando.com/lenny，注册时提及本播客还可享受特别优惠。网址是pando.com/lenny。 （00:40:47）：我想把视野拉宽一点，再提一个大问题。看看你们对此有何见解。若回顾YC旗下最成功的初创企业，甚至只需列举你们曾合作过的公司，如果要选出成功企业最常见的两项特质，那会是什么？",
+   "ts": "00:39:46"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I would say the most common reason that I've seen founders succeed or companies succeed, it comes down to the founders and characteristics of those individuals. The most important characteristics of those individuals are they're really determined to win and they don't give up when things are hard and they have an internal motivation that's just really infectious to people around them, which is how they end up building really good teams around them. People are actually going to want to go and work for them. I have numerous examples of people like this where the CEO or one of the founders are just really inspirational people. (00:41:42): The second thing I would say is they are technical. So that's kind of like they're technical enough. If I would grade companies on a scale of technical to less technical, more technical founders are more likely to succeed, I would say. And then I would say they figure out how to talk to users and move fast early on so they don't wait for permission from their investors or from YC or from someone else to make progress. They're like, every day or every week there's continuous progress. They're not doing this for someone else, they're doing this for the customers. They're not doing this for the investors, that's for sure. The investors are sort of in the way more or less. And they're just naturally focusing on the customers. (00:42:29): Finally, what I would say is the skill that's really attributed to great founders is excellent communication skills. So the ability to communicate really complicated ideas clearly, to enjoy the communication part, right? Enjoying communication is often kind of correlated with enjoying doing fundraising, which is an important part of some companies' success. Not all of them, but for some of them. I would say communication or storytelling is part of the same arc, right? And those are part of the same thing that actually motivates people around you. If you can communicate why you're building, what you're building and why it's important to the world, tell a story about that, that can motivate people around you to just want to follow you. I think it's rare that I've seen founders succeed where the founder isn't in some way an inspirational person or someone that is a good communicator. Most of the time, you at least have respect or you somewhere know that they're going to succeed, right? And that is what inspires you to be around them or be on their team.",
+   "zh": "我认为，我见过的创业者成功或公司成功的最常见原因，归根结底在于创始人及其个人特质。这些创始人最重要的特质在于，他们下定决心要赢得胜利，面对困难时永不放弃，并且拥有一种极具感染力的内在驱动力，这种驱动力能让周围的人深受鼓舞，这也是他们最终能组建优秀团队的原因。人们实际上会愿意为他们工作。  \n（00:41:42）：第二点是他们具备技术能力。换句话说，他们在技术层面足够出色。如果要给公司按技术程度划分等级，我会说技术能力更强的创始人更有可能成功。然后，他们能及早找到与用户沟通并快速推进的方法，不必等待投资者、YC 或其他人的许可来取得进展。他们每天或每周都在持续推进。他们做这件事不是为了别人，，而是为了客户。当然，更是为了投资者——投资者在某种程度上只是旁观者。他们天生就专注于客户。  \n（00:42:29）：最后，真正能赋予伟大创业者成功的技能是卓越的沟通能力。因此，他们有能力清晰传达复杂的想法，并享受沟通的过程，对吧？享受沟通往往与享受融资过程相关，而融资是一些公司成功的重要因素——并非所有公司，但对部分公司而言如此。我认为沟通或讲故事是同一回事，也是激励周围人追随你的关键。如果你能传达你为何要创业、你正在做什么以及它为何对世界重要，讲述这个故事，就能激励周围人追随你。我认为，很少能看到创业者成功，而这位创始人不是某种鼓舞人心的人物或出色的沟通者。大多数情况下，你至少会对他们心怀敬意，或者知道他们注定会成功，对吧？而这正是激励你追随他们或加入他们团队的原因。",
+   "ts": "00:41:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is a really cool list. So just to summarize, one, they have the strong will to win, and with that they're inspirational. They kind of pull people along and get people really excited. Two is they're more likely to succeed if they're technical and can build a thing. Three, they figure out how to talk to customers, don't wait, just start doing it. And they're just obsessed with that versus what investors want them to do and they don't want to talk to the investors to make time for the customers. And then excellent communication skills, which comes back to the first. They're able to story tell and get people excited. Is that right?",
+   "zh": "这真是一个很棒的总结。总结一下，第一，他们有强烈的求胜意志，并因此具有感染力。他们能带动人们前进，让人们充满热情。第二，如果他们技术能力强、能构建产品，就更有可能成功。第三，他们能找到与客户沟通的方法，不等待，立即行动。他们专注于此，而非听从投资者的意见，不想为了投资者的要求而拖延时间去服务客户。第四，卓越的沟通能力，这又回到了第一点。他们能够讲故事，让人们兴奋不已。对吗？",
+   "ts": "00:43:33"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah, I would say those are the attributes of successful things. To be a super successful company, there's something else that have to happen. Those things are not things you can put on a list because they are the outliers, right? If you look at startups on a typical YC batch, there'd be a couple billion companies. Those are the outliers. They'll almost certainly have all the things that we've talked about. Many other companies in the batch will have that too, but then what makes someone a true outlier is something that is unknown. That's why so many investors said no to Airbnb when they were not trying to raise money because that was an outlier idea. It was an idea that was not logical and did not make sense to most people. Those kind of ideas, the ones that end up succeeding often don't make sense to people. There's some reason that no one has done this before because they're just not natural next step of the world.",
+   "zh": "是的，我认为这些就是成功事物的特质。要成为一家超级成功的公司，还有一些必须发生的条件。这些条件无法被列成清单，因为它们属于极端个例，对吧？如果你看看YC典型批次中的初创公司，通常会有几十家估值数十亿美元的公司。这些才是极端个例。它们几乎肯定具备我们之前讨论过的所有要素，但批次中的许多其他公司也会具备这些要素。然而，真正让某家公司成为极端个例的因素，却是未知的。这就是为什么许多投资者在Airbnb不融资时拒绝了它——因为那是一个非逻辑的创意，对大多数人来说毫无意义。那些最终成功的创意，往往在人们看来毫无道理。这背后总有某种原因——因为它们并非世界自然演进的下一步。",
+   "ts": "00:44:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a great segue to a question I've been meaning to ask, which is, how good are you at predicting in a batch which startups are going to be the monster hits? So maybe like you and then just generally YC, how good are you all at knowing what's going to work out, is going to be the next Airbnb or Dropbox?",
+   "zh": "这正好引出我一直想问的一个问题：你们在批次中预测哪些初创公司会成为巨头成功案例的能力有多强？那么也许就你个人，或者说YC整体而言，你们对哪些公司会成功有多少把握？能成为下一个Airbnb或Dropbox的公司？",
+   "ts": "00:44:57"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I think the truth is that we're not very good at knowing what's going to succeed. Certainly we cannot figure out who's going to be the really successful company in the batch. That's not possible. What we're good at is knowing what failure looks like. What we sometimes like to tell founders at the beginning of the batch is like, \"If you fail, please do it in some new exciting way. Not one that we've seen 100 times.\" Because we have seen people fail for a large number of reasons. The best way for us to sort of not predict, but the best way for us to make more companies succeed is to tell them how they might fail, right? Be very direct and honest with them and say, \"You doing these three things, these things are likely going to lead that you won't succeed.\" And if we do our job well, most people get that feedback and they're on the track for succeeding. (00:46:06): Now, which of those companies end up becoming the best? There are so many things that are uncorrelated to being the best, and it's the things that people don't like. I'm in a hot industry, I was writing up on TechCrunch like, this investor started talking to me. You'd be surprised how many of the things I just mentioned are uncorrelated to outlier success, right? That's why it's so hard to actually do this. I think people really want these questions to be answered. People really want to believe that you can pick really great companies at the seed stage, but everything I've learned from the plus 600 companies that I've worked with is that it's just not that easy and it's maybe not even possible and certainly not possible when you talk about finding the outlier companies. I don't think it's that easy. And if it was easy, then we would accept a lot fewer companies. We just accept those ones, but it's just not that easy.",
+   "zh": "我认为事实上，我们并不擅长预测哪些公司会成功。当然，我们无法准确判断批次中哪家公司会真正成功。这根本不可能。我们擅长的是预知失败可能的样子。我们有时会在批次开始时告诉创始人：“如果你们失败了，请以一种新奇刺激的方式失败。别走我们已经见过100次的老路。”因为我们见过太多因各种原因失败的案例。我们最好的策略不是预测，而是告诉他们可能失败的方式。坦率且诚实地告诉他们：“如果你做这三件事，很可能导致你无法成功。”如果我们工作做得好，大多数人会接受这些反馈，并走上成功之路。\n\n（00:46:06）那么，这些公司中哪些最终能成为最成功的呢？有很多因素与成功无关，而且往往是人们不喜欢的因素。我身处热门行业，曾在TechCrunch上写道，某位投资者开始和我交谈。你会惊讶地发现，我刚才提到的许多因素与成功个例毫无关联，对吧？这就是为什么这项工作如此困难。我认为人们真的希望这些问题能得到答案。他们真的希望相信在种子期就能选出真正优秀的公司，但我从合作过的600多家公司中学到的一切表明，这并不容易，甚至可能根本不可能，尤其是在寻找极端成功案例时更是如此。我认为这并不容易。如果容易的话，我们接受的公司会少得多。我们现在接受这些公司，但这确实不容易。",
+   "ts": "00:45:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a sense of which ones are likely to work out better than others? Or is it just like, \"We have 150 really unclear, but one of these, hopefully.\"",
+   "zh": "你对哪些公司更有可能取得更好的成果有感觉吗？还是说只是“我们有150家情况不明朗的公司，但其中一家希望能成功”？",
+   "ts": "00:46:59"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "One good indicator is if each new Office Hour there is really exciting new stuff, right? We're not talking about the same thing we talked about two weeks ago or four weeks ago. They've already done that stuff, right? Like, \"Oh, I was trying to sell to these three customers. Well, they already bought it. I'm not actually talking to seven others.\" And now we are talking about a different price and different product because they're like, they want more of what we're doing. If I'm experiencing that, and that's like a consistent trend, then when people draw this revenue graph of this 10% weekly growth rate kind of situation, those are the companies that we attribute that to. It's like if you're able to make that progress on that short amount of timescale, you are on track to do something well. (00:47:51): Now, a lot of other things have to go well for you to ultimately be able to succeed, but progress on this weekly or biweekly timescale is a really good indicator of someone who'll succeed. To me, much better indicator than I am in this market or I'm talking to this investor or something like that. But those are much worse indicators of someone succeeding than I'm making progress and it's pretty fast clip.",
+   "zh": "一个很好的指标是，每次新的办公时间会议都会带来令人兴奋的新进展，对吧？我们不是在谈论两周前或四周前讨论过的事情。他们已经处理过那些问题了，对吧？比如，“哦，我原本想向这三个客户推销产品。结果他们已经买过了。我现在要跟另外七个客户沟通。”而现在我们在谈论不同的价格和产品，因为他们想要我们提供更多服务。假如我能感受到这种变化，并且这种趋势持续下去，那么当人们绘制出每周增长10%这种情况的收入图表时，我们就会将其归功于这些公司。就像如果你能在短时间内取得这样的进展，就说明你走在正确的道路上。\n\n（00:47:51）：当然，要想最终取得成功还需要很多其他因素，但每周或每两周的进展情况确实是判断一个人能否成功的很好指标。在我看来，这比判断自己是否身处某个市场、是否与某位投资者交谈之类的指标要靠谱得多。但这些指标远不如我在取得快速进展方面的表现来得重要。",
+   "ts": "00:47:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interesting. And so what I'm hearing is at the beginning of a batch, we're just in a bet on a bunch of companies that have a lot of potential founders, technical maybe, they have the strong will to win and all these things. Through the batch, you're looking at the companies that are exceeding your expectations week to week in terms of progress that they're making.",
+   "zh": "有意思。所以我的理解是，在批次开始时，我们只是在押注一群有巨大潜力的创始人，可能技术能力很强，有强烈的求胜欲望之类的。在批次过程中，我们会观察那些每周都超出预期的公司，观察他们的进展情况。",
+   "ts": "00:48:17"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I mean, sometimes it could be different reasons that people are not making progress. But if you are making continuous progress, and I think Paul and Jessica said this, this was true early days in YC, if you are hitting your goals and you're making progress continuously, if that continues, that's a really strong correlation to some success. But again, going back to the question, can we predict who's going to be the best ones? No. And that's why we really focus on trying to meet people not to fail. Especially good teams can't fail. If you have a really talented team who's really technical in how to build a product but they make some other basic mistakes, like not talking to customers or something like that or trying to build everything all at once, I feel like it's our responsibility to make sure they don't make the basics mistakes that we've seen many times. We need to help them at least make some spectacular mistake that we haven't seen before. Then that's a high potential team. If someone's on a good track for a decent idea but they're still early, that's a really good potential.",
+   "zh": "我的意思是，有时候人们进展不理想可能有其他原因。但如果你能持续取得进展，我想保罗和杰西卡也说过这点，这在YC早期就是如此——如果你能达成目标并持续进步，如果这种情况持续下去，就与成功高度相关。但回到问题，我们能预测谁会是最出色的吗？不行。这就是为什么我们真正专注于试图帮助人们避免失败。尤其是优秀的团队不应该失败。如果你有一个技术能力很强、善于开发产品但犯了一些其他基本错误的团队，比如不与客户沟通或者试图一次性完成所有开发，我觉得我们有责任确保他们不犯我们多次见过的那些基本错误。我们至少要帮助他们避免犯一些我们从未见过的严重错误。这样的团队才有巨大潜力。如果某个团队在一个不错的想法上进展顺利但还处于早期阶段，那也是一个很有潜力的团队。",
+   "ts": "00:48:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have kind of a fun question that I wanted to try, which is kind of connected to this idea around attributes of successful founders and companies. So I had this founder friend named Flow, and he was asking me recently, \"If you had to think about the most successful founders, which attributes do they have?\" And he kind of gave me this list and it's kind of like two ends of a spectrum. So I thought it'd be fun to just go through this list and see, in your experience, which end of the spectrum, if any, are associated and correlated with the most successful founders. Does that sound good?",
+   "zh": "我有个有趣的问题想尝试一下，这与成功创始人和公司特征的讨论有关。我有个叫Flow的创始人朋友，他最近问我：“如果你要想想最成功的创始人，他们都有哪些特征？”他给了我一个列表，大致可以分为两个极端。所以我觉得很有趣的是，根据你们的经验，这两个极端中的哪一个（如果有的话）与最成功的创始人相关或有相关性？听起来不错吧？",
+   "ts": "00:49:30"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Sure. Sure. Let's do it.",
+   "zh": "当然。当然。咱们开始吧。",
+   "ts": "00:50:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So the first is speed versus quality. Is there end of the spectrum where you find that most successful founders are either speed-focused or quality-focused?",
+   "zh": "好的。首先是速度与质量的权衡问题。是否存在这样一种极端情况，即最成功的创业者要么专注于速度，要么专注于质量？",
+   "ts": "00:50:03"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Sometimes founders ask us this question, \"What should I focus on? Growth or retention?\" And the answer is, they're asking us for permission to not do one or the other. The truth is, to succeed, you have to do both. I would argue that speed versus quality, there's different level of speed and different level of quality at different stage of the company. But the truth is that you always have to move fast and you have to understand what the meaning of quality is, right? (00:50:35): So I think I actually don't see that as a spectrum, but I would say if you move fast with talking to customers, you'll build something that have potential having quality because you know a lot about the problem. I think when people think about quality, they often think about, \"What is my personal definition of quality?\" I have a bar of quality, but quality to me of a good product idea, a good startup idea, has more to do with the customer think is valuable. And if you move fast by talking to customers and having customer learnings and know the problems, then you will actually come up with something that's high quality. So they're not at a spectrum to me.",
+   "zh": "有时候创业者会问我们这个问题：\"我应该专注于什么？增长还是留存？\"答案是，他们其实是在寻求许可，不想在两者中做出取舍。事实上，要想成功，两者都必须兼顾。我认为速度与质量的问题，在公司的不同阶段有着不同层次的速度和质量要求。但关键在于，你必须始终保持快速行动的能力，同时理解质量的真正含义，对吧？（00:50:35）：所以我不认为这是一个非此即彼的二分法。但我要说的是，如果你能快速与客户沟通，你就能开发出有潜力的产品，因为你对问题有深入了解。人们谈到质量时，往往会问\"我的个人定义是什么？\"我对质量有自己的标准，但对我来说，一个好的产品创意、一个好的创业想法的质量，更多地取决于客户认为它有价值。如果你能通过与客户交流、获取客户反馈并深入理解问题来快速行动，那么你最终就能开发出高质量的产品。所以对我来说，这两者并非对立的。",
+   "ts": "00:50:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. Let's try another one. Confidence versus humility as a founder?",
+   "zh": "好的，我们再试试另一个问题。作为创业者，自信与谦逊之间的平衡如何？",
+   "ts": "00:51:11"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I don't think that they're on a spectrum. I think that learning to predict confidence as a founder is critical going back to this communication piece of motivating people around you, right? I wouldn't want to join a company where the founder's completely not confident in their own idea, right? Because that is going to shine through. An investor isn't going to want to invest in someone who's completely not confident in that idea. So learning to first build your own confidence for what you're working on and then predicting that confidence to the people around you I think is critical. A lot of people will have doubt around you. And if you're not predicting that confidence, it's not clear that anybody else will if you're the founder. You're the one who's have to do it. (00:51:58): I think that you can predict that confidence while having a strong sense of humility towards the people around you. But I think when it comes to startups, learning to have that confidence is an important piece of the early days, right? And especially if you're building something that's very difficult, that takes a lot of work and a lot of money, protecting the confidence that you will succeed is critical for everybody that's doubting you. And those doubting you is a lot of people around you, right? And you just need to have an unnatural amount of confidence to prove them wrong. I think, again, this is not on the spectrum with humility. In fact, the most successful founders are often the most... You cannot inspire people around you if you don't have a strong sense of humility. People don't actually want to spend time with you, which means they don't want to work for you or invest in you. Again, you need both, but they serve different purposes when you get started.",
+   "zh": "我不认为这是一个二分法。我认为学会培养作为创业者的自信至关重要，这又回到了激励身边人的沟通层面。比如，我不想加入一个对自己想法完全没有信心的创业者团队，因为这种不自信会显露无遗。投资者也不会愿意投资一个对自己想法完全没有信心的人。因此，首先要为自己正在做的事情建立自信，然后向身边的人传递这种自信，我认为这很重要。很多人会质疑你。如果你不传递这种自信，那么作为创始人，你就需要独自承担这个责任。你需要先建立起自己的信心，然后再把这种信心传递给身边的人。我认为你可以在保持谦逊的同时培养这种自信。但在创业初期培养这种自信非常重要，尤其是当你面临极具挑战、需要大量投入时间和资金的项目时，保护自己成功的信心对那些怀疑你的人至关重要。而这些怀疑你的人往往就是你身边的很多人，你只需要拥有超乎寻常的自信来证明他们是错的。我再次强调，这与谦逊并非对立。事实上，最成功的创业者往往最具...如果你没有强烈的谦逊感，就无法激励身边的人。人们实际上不想花时间与你相处，这意味着他们不想为你工作或投资于你。所以你需要两者兼顾，但在创业初期，它们服务于不同的目的。",
+   "ts": "00:51:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Tough gig this founder life. You got to got to be everything. Let's see if there's a big difference in this next one. Execution and tactics versus focusing on strategy and kind of higher level stuff. How deep do founders go that you find that are most successful?",
+   "zh": "创始人的生活可真不容易。你得样样精通。看看接下来这段对话能否揭示出显著差异——是专注于执行与战术，还是着眼于战略与更高层面的规划？你认为那些最成功的创始人能深耕到何种程度？",
+   "ts": "00:52:48"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "So this one actually I have a strong opinion about. I think that the reason that we talk about strategy a lot is because it goes back to business school. The origin of business school was to teach people to join the corporate world. And in the corporate world, strategy matters, right? So when you join a big company, you're employee number 2,010 or something, then you probably might have a business school job where thinking about corporate strategy is an important thing. When you are a small startup, strategy does not matter because there's not that much a strategy as about. Maybe later on you might be fruitful to think about strategy, but strategy kind of assumes that you can do multiple things at the same time, which small startups cannot. They can just do one thing at the same time. So execution is the thing that matters for companies. (00:53:51): Whenever someone wants to have a strategy conversation, it assumes that they don't understand their priorities. The priorities is always a list from top to bottom where there's one thing that's more important than the others. You can't really have a strategy session about the other things because there's only one thing to work on. So to me, a clear answer here is the good founders are execution-oriented and they just continually have one priority of what they're trying to go for. And then they're just hitting that priority all the time and then new priorities will come up and you don't really have time to have a discussion about company strategy. Company strategy also assumes that you have product market fit because you already have something that's working. If you don't have that, then getting to people wanting your product, that is your strategy. You don't have any other strategy.",
+   "zh": "关于这个问题，我深有感触。我认为我们频繁谈论战略的原因，源于商学院教育的传统。商学院的起源是为了培养企业人才，而在企业界，战略至关重要。当你加入大公司时，可能只是第2010号员工，此时战略思维是必备技能。但对初创公司而言，战略意义不大——因为初期缺乏清晰的战略方向。即便日后战略规划有用，但这往往假定创始人能同时处理多项任务，而初创企业往往只能专注于一件事。因此，执行力才是企业的核心竞争力。\n（00:53:51）：每当有人想讨论战略时，往往意味着他们尚未明确优先事项。优先事项本应是按重要性排序的清单，核心任务应高于其他事项。若要讨论次要策略，就必须先确定核心任务。因此，成功的创始人必须以执行为导向，始终专注于当下最重要的目标，不断推进，新的优先事项出现时，根本无暇空谈公司战略。战略规划还假定产品已实现市场匹配，但初创公司往往尚未达到这一阶段。此时，如何让用户接受产品才是核心策略，否则再无其他战略可言。",
+   "ts": "00:53:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. We found one that's quite different one on the spectrum or the other. How about autocratic and kind of like, I don't know, I think of Steve Jobs-like versus kind of consensus, collaborative driven, if this is a spectrum at all. And then where do you find founders might fit that are most successful?",
+   "zh": "太棒了。好的，我们发现了两个截然相反的观点。比如，专制型领导与协作型领导相比（如果这能构成一个维度的话），哪种更适合成功的创始人？",
+   "ts": "00:54:36"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I don't know if I have an answer to that question because I think when you work at early stage, you might look different than when you work at late stage. I don't spend a lot of time with founders that have thousands of employees and hearing how they are in the... When I talk to those founders, I talk to them one-one-one and I only hear from their perspective. So I don't actually know how they're peering in a large corporate setting. But when you're a small company, you're three people or five people or 10 people, you cannot be an autocratic decision maker. The founding team have a founding team decision making dynamic that could look different. Sometimes it's like everybody decides together on everything and sometimes you say, \"I have my area of expertise and you have yours. We split it up, the decision making.\" Either of those things are fine. I think you just have to have a process so you don't rehash every decision after you made them a million times. (00:55:42): I would say the thing that matters the most at that point is to be willing to adhere to the process that you and your founding team have come up with. Your individual nature could be different in a different role in a different company. But for a startup to work out, you have to have a specific process on how you make decisions. Those are on a very short sprints, like weekly or biweekly. And everyone needs to feel good about decisions after the fact. At least they feel good about the process. I don't think that you can just decide... You can't also be fully collaborative, everyone gets decided about everything. So small startups agree on how they decide together. So after that, everyone just follow the process. That's usually how things work out.",
+   "zh": "我不知道对这个问题有没有答案，因为我觉得在创业初期，你的处境可能和后期有所不同。我不常接触那些拥有数千名员工的创始人，听他们讲述自己在大公司中的处境……当我与这些创始人交流时，我都是一对一交谈，只能从他们的视角去理解。所以我其实不清楚他们在大型企业环境中的决策方式。但对于小公司来说，比如三个人、五个人或十个人这样的团队，你不可能成为独裁式的决策者。创始团队的决策机制可能各不相同。有时大家会共同决定所有事务，有时则会分工合作：“我负责这个领域，你负责那个领域，共同做出决策。” 这两种方式都可以接受。关键在于要建立一套流程，这样就能避免在每次决策后反复讨论。（00:55:42）：我认为此刻最重要的是愿意遵守你和创始团队共同制定的决策流程。个人性格可能在不同公司、不同角色中有所不同。但对于初创企业而言，必须有一套明确的决策流程。这些决策周期通常很短，比如每周或每两周一次。决策完成后，每个人都需要对结果感到满意，至少要对决策流程感到满意。我认为你不能一味独裁……也不能完全放任所有决策由他人决定。因此，小型初创企业需要共同商定决策方式，之后所有人就按流程行事。这才是成功的关键。",
+   "ts": "00:54:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, I got one more. Cares more about the product or cares more about the distribution and growth strategy?",
+   "zh": "好的，我还有一个问题。是更关注产品，还是更关注分销和增长策略？",
+   "ts": "00:56:27"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Well, there's a lot of assumptions built into that, I would say, because caring about the product to me is caring about the customers. Sometimes if I would say something like, \"Oh, great founders care about the product,\" a lot of founders misinterpret that as in my personal perception of the product or my ideas of what the product is. And that's wrong. The right perception there is the expectations or the use of the product from the customers. So if you are meaning focus on the product or cares about the product in that sense that your customers care about, then absolutely, I think that's a really, really critical, important thing to have early on, like talking to users, doing things you don't scale. Once you get big, if you don't figure out a scalable distribution strategy, you won't succeed. And those are different for different companies, but they're not doing anything that don't scale. (00:57:27): Doing things that don't scale is not a scalable strategy. Eventually, something specific will be the things that work for you. If you're lucky, people will talk about your product and you'll have organic growth. But in many cases, that sales, that is some kind of consumer distribution strategy. You can't start with that. I've seen a lot, and this is when I had to reset my thinking coming from a growth team joining YC, is you can't start a startup ethic with a growth team mindset because that is just scalable things all the time. And really what you need to go back to is doing things that don't scale and unscale your way of thinking about customers. But it's really useful to have the growth mindset once something is working, right? Once you have thousands of people signing up everything every day, well how do you get to 2,000? Well, that's probably something that looks more like this thing that the growth team would do or distribution team would do. (00:58:21): I would say everyone has different experiences of this based on their prior experience, right? So if you work for a company that was infinitely successful, then you won't care so much about this. If you work for Google, you'll never even think about this because distribution is just the website. But if you work for a really small shitty product, then you think a lot about distribution because that's natural to you on how you succeed. So I think at the end of the day, talking to customers matters the most. That is what it means to care about a product to me. And then distribution is something that you will definitely invest a lot in once something is working.",
+   "zh": "嗯，我得说这里面有很多假设，因为对我来说，关心产品就等于关心客户。有时候如果我说\"优秀的创始人关心产品\"，很多创始人会误解为这是我个人对产品的看法，或者是我对产品的定义。这是错误的。正确的理解应该是客户对产品的期望或使用方式。所以如果你指的是像客户关心的那样关注产品或关心产品，那么绝对的，我认为这在早期阶段是至关重要的，比如与用户交流，进行不规模化的尝试。一旦公司规模变大，如果你没有找到可扩展的分销策略，就无法成功。不同的公司有不同的策略，但都不能做不可扩展的事情。（00:57:27）：做不可扩展的事情不是可扩展的策略。最终，总会有适合你的具体方法。如果你运气好，人们会谈论你的产品，你就能实现自然增长。但在很多情况下，这种销售行为实际上是某种消费者分销策略。你不能从这开始。我有很多这样的经历，当我从一个增长团队加入YC时，就不得不重新调整思维模式，因为增长团队总是在做可扩展的事情。而真正需要回归的是做不可扩展的事情，重新调整对客户的思考方式。但一旦事情开始运转，拥有增长思维模式确实很有用，对吧？比如当每天有数千人注册时，你该如何再增加2000用户？这可能更像是增长团队或分销团队会做的事情。（00:58:21）：我认为每个人对此的经历都不同，取决于他们的过往经验。例如，如果你所在的公司一直非常成功，那么你可能不太在意这些。如果你在谷歌工作，你甚至不会考虑这些问题，因为分销就是建个网站。但如果你在一个很小的烂产品上工作，那么你就会花很多心思在分销上，因为这对你成功至关重要。所以我认为归根结底，与客户交流最为重要。这就是我所说的关心产品。然后，一旦事情开始运转，你肯定会投入大量精力在分销上。",
+   "ts": "00:56:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. All right. I have probably a hundred other questions I want to ask along these lines, but I want to make sure we get to another topic which I know is near and dear to your heart, which is climate tech. So my understanding is you're instrumental in pushing YC to focus on climate tech as a focus area. I believe you led the charge on their initial request for startups I think is the term where you all put out like, \"Here's who we want to fund.\" I think you've mentioned you funded a couple dozen climate tech companies and the last few batches, is that all generally correct?",
+   "zh": "太棒了。好的，我可能还有一百个其他问题想问，但我想确保我们能谈到另一个你非常关心的主题，那就是气候科技。据我所知，你在推动YC将气候科技作为重点领域方面发挥了重要作用。我相信你带头提出了最初的创业公司申请要求，我记得你们发布了一个公告，类似于“我们想资助这些公司”。我记得你资助了几十家气候科技公司，最近几批也是如此，对吗？",
+   "ts": "00:58:53"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "First, request for startup was actually Sam Altman and a few other folks that was kind of that one who drove that. The second one that we wrote into our actual request for startup, I wrote that one, was carbon removal specifically focused on. And then naturally the people that apply with climate tech ideas get in my reading queue of applications and I read them and I interview them. Not all of them, but many of them. I think today we funded over 130 plus companies that are focused on climate tech in some way or another.",
+   "zh": "首先，启动资金申请实际上是由山姆·奥尔特曼（Sam Altman）和其他几个人发起的，他们是推动这一进程的主要力量。我们在实际启动资金申请中提到的第二个项目——专注于碳清除技术——也是由我亲自撰写的。自然而然，那些提出气候科技创意的申请者会进入我的申请阅读列表，我会阅读他们的提案并进行面试。虽然并非所有申请者都能获邀，但许多人确实获得了机会。如今，我们资助了130多家以某种方式专注于气候科技的公司。",
+   "ts": "00:59:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow.",
+   "zh": "哇哦。",
+   "ts": "00:59:53"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "The trend line is that really ambitious people who want to start companies in this area. Some of them want to start the companies because the climate tech is the number one problem, but they don't view this as a nonprofit. Now I want to really make this as a distinction. People somehow think that starting a climate tech company is doing good for the world, but it probably doesn't have a lot more than that. The truth is that the world have decided. Because climate is one of the biggest problems that we're facing, if not the biggest, we've decided that we are going to stop doing the things that we're doing and we're going to change our entire energy system and change all the things that we do that emits carbon. And we have just decided, governments have decided this. The question is how it's going to happen, but this decision has been made. (01:00:42): In that transition, we're talking about trillions of dollars of money moving from things that cause climate change to things that don't. The scale of this transition is not something we've seen recently. Like software is not that big in comparison. It actually is much smaller than this transition. So I think if you look at something like Tesla, which now has, I don't know, $600, $700 billion market cap, that's just one company that currently provides a couple percent of all the cars in the United States, new cars sold. And that is already one of the biggest companies in the world and has now the biggest, richest person in the world. We've only seen the beginning of this. The economical motivation be behind the decisions that people are making are just as strong as I want to fix climate change because this is just a really good business. This change have attracted a large set of software founders that you and me know that listen to this podcast that said, \"My skills is relevant here. There are a lot of things that I can do. And if not, I can learn those things.\" (01:01:43): But most importantly, the skills of working for startups is really, really critical to join this transition. A lot of them have started companies or joining companies. I still get an email every week from some accomplished software engineer who asked me \"Which software companies should I work for to fix climate change?\" And I've gotten those emails for two or three years now. This thing just attracts really, really ambitious people. It's not stopping. It's accelerating. I feel lucky to work with so many of these great founders because they are uniquely interesting people.",
+   "zh": "当前趋势是，许多真正雄心勃勃的人希望在这一领域创办公司。有些人创办公司是因为气候科技是头号难题，但他们并不将其视为非营利事业。现在我想特别强调这一点：人们似乎认为创办气候科技公司就是在为世界做贡献，但其实远不止于此。事实上，全世界已经做出了决定。由于气候是我们面临的最大挑战之一——甚至可以说是最大的挑战——我们决定停止现有行为，彻底改变能源体系，淘汰所有排放碳的活动。各国政府已经下了这个决心。关键在于如何实现这一目标，但这个决定已经做出。（01:00:42）：在这一转型过程中，数万亿美元资金将从导致气候变化的行业转移至无害行业。这种规模的转变是我们近期从未见过的。相比之下，软件行业根本不算大。这次转型规模远超软件行业。以特斯拉为例，其市值约6000亿至7000亿美元，但它仅占美国新车销量的几%。即便如此，特斯拉已成为全球市值最高、最富有公司之一。而这仅仅是开端。人们做出决策的经济动机同样强大——既想解决气候问题，又视之为良机。这一变革吸引了大批软件领域创业者，比如听过本播客的听众们，他们会说：“我的技能能派上用场。我能做很多事，如果不行，我也可以学习。”（01:01:43）：但最重要的是，创业公司所需的技能对参与这一转型至关重要。许多人已创办或加入相关公司。每周我仍会收到成功软件工程师的邮件，询问：“我该去哪家软件公司工作才能助力气候行动？”这样的邮件我已收到两三年了。这项事业吸引了无数极具雄心的人才，其势头不减反增。我很幸运能与众多杰出创始人共事，他们都是极其有趣的人。",
+   "ts": "00:59:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've noticed exactly the same thing of just how many smart, driven, amazing people are like, \"I just want to move to a climate tech company. That's all I'm looking for now.\" Just to give you credit, I feel like you are ahead of the curve on the shift that's started to happen and pushed YC to focus on this really early. I always think like, \"Man, I know Gustaf and I feel like Gustaf has made such a massive impact on the investment and focus in startups on climate.\" And so I just want to give you huge props for doing that and being so at the forefront of a lot of this.",
+   "zh": "我也注意到了同样的现象——太多聪明、有上进心、了不起的人都说\"我只想去一家气候科技公司工作。这就是我现在唯一的目标\"。说实话，我觉得你走在了时代前列，率先察觉到了正在发生的变革，并早早推动了YC将重点转向这一领域。我总会想，\"天啊，我认识古斯塔夫，我觉得他对气候领域初创企业的投资和关注产生了巨大影响。\"所以我要为你点个大大的赞，感谢你为此付出努力，始终走在潮流前沿。",
+   "ts": "01:02:16"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Thank you. I mean, sometimes I'd say that it matters to someone who has the credibility of YC to start accepting these companies. It does matter. I remember when I spoke to Diego from Pachama in 2018 when he was starting Pachama, we were whiteboarding in YC. He was a YC alumni starting a different company. The word climate tech did not exist. People were unsure if investors would fund companies like these. Pachama's raised $60 million to have, I don't know, lots of big customers, lots of employees and it's clearly doing really well. But I think at the time of 2018 it was kind of unknown. One of the reasons it was unknown is we had this previous bubble, clean tech bubble, in 2008, 2009, 2010 that didn't work out because of a number of specific reasons and investors were just afraid of funding things because they had some scar tissue or scars from this previous thing that happened. (01:03:46): Now that turned out upside down. The number of new investors that are investing in climate tech is as big of a trend as any other trend we've seen in the last decade or two decades. There's just an enormous focus on the investing side. Most recently, me and another guy, David Rusenko, wrote this request for startup, a new updated, very detailed list of... I hope we can post it in the show notes, a very detailed list of ideas or areas where we think it might be worth looking If you want to start a company. (01:04:18): Now, we don't know what good ideas look like. We don't know. But we can tell you where all the areas of opportunity exist. We should go and look for good ideas. We wrote this because in response to all these people that come to us and say, \"I want to work on climate tech. I don't have a good idea because I don't have any specific experience in this stuff.\" And then we're just like, \"Don't work on these three things but go and work on any of these 25 directions.\" It already has generate a good response. I think it'll generate more response. But I think it's important for YC to tell the world that we look and fund these things. And that's always been the reasons we had requests for startups, is to let people know that these are things that we actually want to fund.",
+   "zh": "谢谢你。我是说，当YC这样有公信力的机构开始接纳这类公司时，确实意义重大。2018年我和Pachama的迭戈交流时，他刚创办Pachama，当时我们在YC的白板上讨论。他是YC的校友，创办新公司时气候科技这个概念还不存在。当时投资者对这类公司的融资态度不确定。Pachama后来融资了6000万美元，拥有众多大客户和员工，发展显然很顺利。但在2018年，这个领域还鲜为人知。其中一个原因是2008、2009、2010年的清洁科技泡沫以失败告终，投资者因此心有余悸。（01:03:46）但如今情况完全反转了。投资气候科技的新投资者数量，堪比过去十年或二十年间任何其他热门领域的规模。投资端的关注度空前高涨。最近，我和大卫·鲁森科整理了一份更新版的创业指南，详细列出了我们认为值得探索的创意方向和领域。（01:04:18）我们不知道好的创意长什么样，但能指明所有机会所在的领域。我们应该去寻找好的创意。这份指南的初衷是回应那些来找我们说：\"我想做气候科技，但我没有相关经验，没有好点子。\"然后我们就说：\"别纠结这三个方向，试试这25个方向中的任何一个吧。\"反响已经很不错，相信未来会更火热。但YC向世界宣告我们在关注并资助这类项目至关重要。YC历来通过创业指南向外界传递信号，告诉人们我们愿意资助这类项目。",
+   "ts": "01:02:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I actually moderated a panel a couple weeks ago. This organization called the Climate Draft put together PMs that are in climate tech. A lot of the questions were just like, \"What kind of background do I need to move into climate tech startup to start a climate tech company?\" It's interesting, every single one again and again just said like, \"Your actual regular PM skills is all we need.\" There's a lot of people already at the company that are experts in the science and that's okay if you have no experience. They just need the business experience, how to operate, how to execute, standard stuff that PMs learn. And so would you agree with that that you don't need to have this deep background in science and climate to move into the space?",
+   "zh": "几周前，我其实主持过一场小组讨论。一个叫“Climate Draft”的组织把从事气候科技领域的项目经理们聚集在一起。很多问题都是类似的：“要进入气候科技初创公司创办一家气候科技公司，需要具备怎样的背景？”有趣的是，每个参与者都反复强调：“我们只需要你具备常规的项目经理技能。”公司里已经有很多在科学领域的专家，即便你没有相关经验也没关系。他们只需要商业经验、运营能力、执行能力等PM们需要掌握的标准技能。那么你是否认同，要进入这个领域并不需要深厚的科学和气候领域背景？",
+   "ts": "01:04:58"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah, I would say if you were working on a software company and even some of the hardware companies, that's probably generally true. Absolutely. It's much more valuable to have that background than to have this specific domain expertise background. Those are complimentary. But as a PM, having the solid PM background is the more valuable piece I would say. Being a competitive PM, coming from a really good culture of product management, knowing what good looks like, that's invaluable to some of these companies because in the past they weren't able to hire these people. So I agree with that 100%. (01:06:14): In terms of founders, I've seen everything, right? I've seen people having some domain expertise starting a company and really succeeding. I've seen people who had no domain expertise and learned everything they need to know. Maybe they partnered up with someone who had a domain expertise and then succeeded. I've seen all of it and I actually think that you can succeed in either of these categories. You don't need the deep expertise. It depends really on all the area you're in. But someone like Pachama, Diego and Tomas did not have expertise in forests besides the personal experience. They just had a willingness to solve the problem and it really worked out for them.",
+   "zh": "是的，我认为如果你在软件公司工作，甚至在一些硬件公司工作，这通常是正确的。绝对的。拥有这种背景比拥有特定领域的专业知识更有价值。两者是相辅相成的。但作为项目经理，我会说拥有扎实的PM背景更有价值。成为一个有竞争力的PM，来自一个优秀的产品管理文化，知道什么是好的产品，这对这些公司来说是无价的，因为过去他们无法招聘到这些人才。所以我完全同意这一点。（01:06:14）：就创始人而言，我见过各种各样的情况，对吧？我见过有一些领域专业知识的人创办公司并取得巨大成功。我也见过没有领域专业知识的人通过学习掌握所需知识。也许他们与有专业知识的人合作后成功了。我见证了这一切，我认为这两种情况都能成功。你不需要深厚的专业知识。这取决于你所处的领域。但像Pachama这样的公司，Diego和Tomas除了个人经验外对森林领域并不专业。他们只是有解决问题的意愿，最终成功了。",
+   "ts": "01:05:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned you have this list of areas you're excited about. I know we'll share in the show notes, but is there any you want to highlight, just like here's areas you're most excited about and want to fund and/or are there companies you want to mention that are super interesting and super cool in the space that people should know about?",
+   "zh": "你提到你有一份你感兴趣的领域列表。我知道我们会在节目笔记中分享，但有没有你想特别强调的领域，比如你最感兴趣、最想投资的领域，或者有没有在这个领域非常有趣、很酷的公司，值得人们了解？",
+   "ts": "01:06:51"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "We wrote the list and we are highlighting companies in each of the categories. I don't know if I want to highlight any specific categories, but I can talk about some of the things that we've funded in the past that has real legs. So here's how I generally think about climate tech. So we have to decarbonize all the things we do that emits emissions. That means we have to change a bunch of things in the world, change transportation, change energy, change homes, all of these things, or change how we heat homes for example. (01:07:35): And then there is carbon removal. Carbon removal is sort of like, well even if we do all of this stuff really well, it's probably not going to be enough. And because there's an opportunity and there's some evidence to suggests that we can actually remove carbon from atmosphere in some way or another, a lot of companies are also working on this at the same time. I would say we need to do both and they're not in conflict. We probably are going to need to do both. Well, we certainly need to do the first one. (01:08:02): On the decarbonization side, there's infinite number of categories of our society where we met a lot of carbon, right? So I'll give you an example. Shipping is a really big deal. A lot of carbon emissions come from freight ships around the world. That's not obvious solution how you would solve that because the kind of oil that they run on is really cheap and it's a very low margin business and they don't have a whole lot of incentives to change besides what is coming down regulatory. So it's not a national solution where someone to be a cool, someone will build a test off ships and it just work out. But the two companies to be funded in that area, one of them is Seabound who is building carbon capture and removal for ships. (01:08:41): The other one is Fleetzero who build electrical ships. Electrification is on and again and again and again and again and whenever it's being applied, turn out to be a more efficient way of doing whatever thing that you were previous doing with the combustion industry. It is almost no maintenance. It's cheaper to build. The batteries are more expensive, it's cleaner and it fits the carbon coal you have. There's just a bunch of benefits there, but there has limitations. Usually the limitations on electrification has to do with batteries. It's like how far can you go? Now that category is what I call the... Which is a very important kind of critical one, which is the carbon accounting and sort of the recommendation systems that help big company account for the carbon that they have and they are giving some recommendations of what you do. (01:09:25): So I'll give you three examples. We funded Unravel Carbon, which is carbon counting software in Singapore, focusing on Asia, probably the leading one there. There's company called Carbon Chain, which is focused specifically on supply chain and shipping and raw materials, stuff like that out of UK. And then there's ANAI here in the Bay area. Who knows how this market is going to play out, but this market has carbon accounting customer demand right now, right? So all the large companies of the world have other either promised the government, promised their shareholders or promised the public, or maybe even the employees, they go into decarbonize. They don't always have an idea how to do it. These software platforms is like the plug and play \"This is how you do it.\" (01:10:07): And then I'll give you two examples of things you can go into if you don't have any specific domain expertise and just a good software engineer. There's a company called Enode. They are basically building Plaid for EV chargers and Plaid for home energy system. So if we imagine that the future of all homes or future of all charging of EVs is going to be a bunch of energy appliances that are run by small computers, they're all wifi connected, you can connect to them and do things, tell them to turn on, turn off, turn on when it's cheap, turn off when it's whatever, all these different things that are valuable for the energy grid. Then you need a software platform to connect with all of them. And that's what Enode has been building. (01:10:48): Another related company is called Static. Static is the Airbnb for EV charging in India. The reason that you need something like that is you don't have Tesla charging. You don't really have public charting in general. People don't have outlets in their garage and they don't have garages. So you need to build a new bottom up EV charging system or platform, and that's what Static has been doing. They're actually building out public charging infrastructure as well, but they have their own app. So if you use a Static app, they'll direct you to all the Static chargers. I believe that they're the biggest or the fastest growing EV charging network in India, which is the second-biggest country, if not the biggest country in the world right now. (01:11:25): So the potential of these ideas, even that they're doing well now is just infinite, such an enormous market. If you succeed in one of these things, I don't think we are going to have as many gas stations as we have today and different networks. We're not going to have the same in EV charging. It's going to be a lot more consolidated around the use experience of the end user and the app they open to do this stuff. So I'm pretty convinced that there's real big opportunities for software entrepreneurs to figure this out. There's some companies in the current batch that are focused on this too. (01:11:59): The final one I would mention is Heart Aerospace. We have a Heart Aerospace and the Right Electric and a few others focused on aviation. Aviation is another big difficult to decarbonize. Heart and Right are focusing on battery electric planes. So they're basically making commercial airplanes that fly on batteries and flying electric motors and it's incredible to see.",
+   "zh": "我们列出了这份清单，并重点介绍了每个类别中的公司。我不确定是否想重点介绍某些特定类别，但我可以谈谈我们过去投资过的一些真正有潜力的气候科技项目。以下是我对气候科技的总体看法：我们必须让所有排放温室气体的行为实现脱碳。这意味着我们必须改变世界的诸多方面——交通、能源、住宅等领域，或者说改变我们供暖住宅的方式。（01:07:35）  \n接下来是碳捕集与封存技术。即便我们把所有这些事情都做得非常出色，可能也不足以应对气候挑战。由于存在机会且有证据表明我们可以通过某种方式从大气中去除碳，许多公司同时也在开展相关研究。我认为我们需要同时推进这两项技术，而两者并不矛盾。我们很可能需要同时做到这两点。首先，必须先做好脱碳工作。  \n在脱碳方面，我们社会中存在无数排放碳的领域，对吧？我举个例子。航运是一个非常重要的领域。全球货船排放了大量碳。但解决这个问题并非易事，因为船只使用的燃油价格低廉，利润微薄，除了监管要求外，它们几乎没有动力去改变现状。因此，这不是一个国家层面的解决方案，不能指望某个公司或机构突然研发出测试船只，然后就成功了。但我们在该领域投资的两家公司值得关注：Seabound致力于为船只开发碳捕集与封存技术；Fleetzero则专注于电动船舶。  \n电动化技术一次又一次地证明，在任何应用场景下，它都能比传统燃油工业更高效、更环保。它几乎无需维护，建造成本更低，电池价格虽高，但整体更清洁，也符合碳排放目标。不过电动化技术也存在局限性，主要是电池续航问题。  \n接下来是碳核算与推荐系统类别。这类技术对大公司至关重要，帮助它们核算碳排放并提供减排建议。  \n（01:09:25）  \n我举三个例子：我们投资了新加坡的碳核算软件公司Unravel Carbon，该公司专注于亚洲市场，可能是该领域的领军者；英国的Carbon Chain专注于供应链、航运和原材料等领域；湾区的ANAI。  \n目前市场对碳核算的需求十分旺盛，全球大公司纷纷承诺向政府、股东、公众或员工实现脱碳，但他们往往缺乏具体实施方案。这些软件平台就像即插即用的工具，提供现成的解决方案。  \n（01:10:07）  \n最后，对于没有特定领域专业知识但擅长软件工程的人，我会推荐两个入门方向：\n有一家名为Enode的公司。他们主要致力于为电动汽车充电器和家庭能源系统打造类似Plaid的平台。假设未来所有家庭或电动汽车充电都将依赖由小型计算机驱动的能源设备，这些设备通过Wi-Fi连接，用户可以远程操控它们开关机、调控充电时段等，这对能源网而言极具价值。为此，需要一个软件平台将所有设备互联，这正是Enode正在打造的核心技术。  \n\n（01:10:48）另一家相关公司名为Static。Static是印度电动汽车充电领域的Airbnb模式平台。之所以需要这样的服务，是因为印度缺乏特斯拉充电网络，公共充电桩普遍匮乏，许多家庭车库既没有充电设施也缺乏停车位。因此，必须从零开始构建全新的电动汽车充电系统或平台，这正是Static的核心使命。他们不仅在开发公共充电基础设施，还推出了专属应用程序。用户使用Static应用后，系统会引导其前往所有指定充电站。据悉，Static目前已成为印度（全球第二大电动汽车市场）规模最大、发展最快的充电网络。  \n\n（01:11:25）这些创新理念的潜力巨大且市场广阔。若能成功应用于其中一项技术，未来电动汽车充电行业或将彻底革新。与传统加油站不同，未来充电网络将围绕用户体验和应用程序展开整合。因此，我坚信软件创业者在此领域蕴藏着巨大机遇，目前多个初创公司正专注于此方向。  \n\n（01:11:59）最后提到的公司是Heart Aerospace。Heart Aerospace与Right Electric等多家公司正致力于航空领域的脱碳创新。Heart Aerospace专注于电池驱动飞机，Right Electric则专注于电动飞行器。这些公司正努力打造可使用电池和电动发动机飞行的商用飞机，其技术突破令人惊叹。",
+   "ts": "01:07:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a killer list. We're definitely going to include links to all these companies in the show notes. Something I was thinking about is, so one narrative violation you mentioned is that there's actually money to be made in climate tech. It's not impact-oriented market anymore. It might be worth chatting about why that happened, but the question I want to get to is also things are going well. A lot of progress is being made. People see climate change and it's like we're dead, it's game over. But it feels like battery prices are coming down, solar's coming down, wind powers ramping up, all these startups are investing. So it'd be fun to just hear what's going well and maybe what is there to be optimistic about, but then also, \"Okay, yeah, things are going well, but there's still things that are not going so great and where we need to double down.\"",
+   "zh": "真是个超棒的清单。我们肯定会把所有这些公司的链接放在节目笔记里。我一直在思考的一个问题是，你提到的违背常规观念之一是，气候科技领域其实是能赚钱的。它不再是以影响为导向的市场了。或许值得探讨一下为什么会出现这种情况，但我更想聊聊当前进展顺利的部分。很多进展正在发生。人们一提到气候变化，就觉得“我们完蛋了，游戏结束了”。但感觉电池价格在下降，太阳能成本在降低，风能正在兴起，还有很多初创公司在投入资金。所以很想听听哪些方面进展顺利，哪些地方值得乐观，但同时也要坦然承认，“好吧，是的，进展顺利，但仍有一些问题亟待解决，我们需要加倍努力。”",
+   "ts": "01:12:22"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Two specific things that went well in the last say 12 or 24 months. First one was politics. So in the United States we got the IRA, which is like it's called the Inflation Reduction Act. It makes sense because shift into greener energy is going to actually reduce inflation because it reduces energy costs. But it's really a climate bill, right? It really is a bill that is focusing on onshoring, a lot of supply chain for the green economy and incentivizing a lot of this change that we just talked about. Whether it's carbon removal or home energy or home heating, whatever it might be, this bill addresses all of it and is massive. So that's one really good news. Politics didn't have a lot of good news in the US for a long time on this. Maybe not ever actually. (01:13:52): The second good news, and it's such a good news that Europe is now trying to conquer. They're not trying to counter the IRA with their bill because they're seeing some of the battery companies saying, \"Well, I'll actually going to build the next factor in US, not Europe anymore. I changed my mind.\"",
+   "zh": "过去12到24个月里有两个特别成功的例子。第一个是政治层面的。在美国，我们通过了《通胀削减法案》（IRA）。之所以叫这个名字，是因为向绿色能源转型实际上能降低通胀，因为能源成本会下降。但这本质上是一项气候法案，对吧？它主要关注绿色经济的本土化和供应链，激励我们刚刚讨论的那些变革。无论是碳捕获、家庭能源还是供暖，法案都涵盖了所有方面，而且规模巨大。真是好消息。美国在这方面的政治进展长期以来一直乏善可陈，甚至可以说从未有过进展。（01:13:52）第二个好消息是，欧洲现在正试图效仿。他们不想用自己的法案来对抗IRA，因为他们看到一些电池公司表示：“好吧，我决定在美国建厂，不再去欧洲了。我改变主意了。”",
+   "ts": "01:13:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哦，哇。",
+   "ts": "01:14:05"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "So Europe now has to counter with their incentives as well. The second good news is corporations are now customers. So maybe three or four years ago you went to a Fortune 100 company and you're like, \"Hey, do you want to buy my XYZ decarbonation solution?\" What it's like? The software platform or EVs or whatever it might be. They're like, \"Well, talk to this person on this floor. Maybe they can help you.\" And this person was not really empowered to make decisions. That has changed. Now they're like, \"Actually, we promised our shareholders to reduce emissions by 2% every year and we also promised the government and we promised whatever publicly to do that. So we got to do that.\" They're like, \"Where do we start? What's the first 2% that we got to decarbonize? Maybe that starts with energy. Oh, we'll change our energy providers.\" But they are now showing up as customers, not just with LOIs but paying actual for contracts, right? Doing investments in these companies because they've all see the future and they don't want to be behind. (01:15:02): There's financials motivations for this. They want to get access to capital that has some strings attached to some of these things, but they don't want to fall behind. And then they don't want to be the Toyota to Tesla, where Toyota said, \"We are not going to do battery electric.\" It's just like they're still saying that sometimes and everybody else is like, \"Tesla is the one we got to copy because that's the one that's winning.\" All these corporations are really afraid of being the Toyota. They're really afraid of being the last one who's not changing and then the world will move past them and then they're going to die. So I think the motivation here is intrinsically survival and it's really about sort of adopting this because this is where the world is going. (01:15:39): I think these are the two best news. The thing that I think what... We also wrote about this in the request for startups. This is not a thing where you can convince everybody to just agree with you. And even if you did, people wouldn't know what to do. So you have to view this as an economical opportunity and say... We can't convince everybody that this is going to be the thing that's going to happen. It doesn't actually matter if you convince everybody. What matters is that sufficient amount of corporations are convinced that they change their habits. And then you can sell the things you're building to them. (01:16:09): As sort of founder, just focus on your customers and focus on B2B. That's what most people I recommend to do here because that's where most of the change is going to happen. That's why I'm really optimistic about these startups and these founders. What they're doing is, in my opinion, more impactful than someone running a campaign trying to convince some other people that this is a big problem. Even when people know that climate change is problem, they don't know exactly what to do about it. But the startup founders, they know.",
+   "zh": "欧洲现在也不得不拿出自己的激励措施了。第二个好消息是，企业现在已经成为客户了。三四年前，如果你去找一家《财富》100强公司，可能会说：“嘿，你们想买我的脱碳解决方案吗？”结果呢？他们会说：“去找楼上那个人吧，也许他能帮你。”而那个负责人通常没有决策权。但现在情况变了。他们会说：“实际上，我们向股东承诺每年减少2%的碳排放，还向政府和公众做出了同样的承诺。所以我们必须做到。”  “那从哪里开始呢？首批2%的减排目标从哪里着手？或许从能源入手。我们可以换个能源供应商。”  “但他们现在以客户身份出现了，不再只是签个意向书，而是直接签订合同，进行投资。”（01:15:02）“这背后有财务动机。他们想获得附带条件的资金，但又不想落后。不想重蹈丰田的覆辙——丰田曾说‘我们不做纯电动车’，现在人们还在嘲笑丰田，说‘特斯拉才是我们该效仿的典范’。所有企业都害怕成为丰田。害怕成为最后一个拒绝变革的落伍者，最终被时代淘汰。”  “所以，根本的驱动力是生存，是顺应大势。” （01:15:39）“这两个消息是最振奋人心的。我们在征集创业项目时也强调了这一点。你不可能让所有人都认同你的观点，就算说服了别人，也没人知道该怎么做。关键在于把这视为经济机遇，告诉他们……我们无法说服所有人，但只要足够多的企业接受变革，你就能把自己的产品卖给他们。”  “作为创业者，只需专注客户，聚焦B2B领域。这是我的建议，因为这里将见证最多的变革。我对这些初创企业和创业者充满信心。他们正在做的事，在我看来，比试图说服别人气候变化是个大问题的活动更有意义。即使人们意识到气候变化是个问题，但他们不知道该怎么做。但创业者们，他们清楚该怎么做。”",
+   "ts": "01:14:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You touched on this, but it feels like one of the biggest shifts is capitalism is kicked in and is now leaning into climate tech startups and that's-",
+   "zh": "你提到过这一点，但感觉最大的转变之一是资本主义开始介入，现在正投身于气候科技初创企业，这真是——",
+   "ts": "01:16:37"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yes. Absolutely. Absolutely.",
+   "zh": "是的。绝对是。",
+   "ts": "01:16:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... making a big dent. Well, with that, we've reached the final part of our chat, which is the very exciting lightning round. I've got six questions for you. Are you ready?",
+   "zh": "……产生了重大影响。好的，到此为止，我们的对话进入最后阶段——激动人心的闪电问答环节。我有六个问题要问你，准备好了吗？",
+   "ts": "01:16:48"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah.",
+   "zh": "好的。",
+   "ts": "01:16:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you recommend most to other people?",
+   "zh": "你们最推荐给别人的两三本书是什么？",
+   "ts": "01:16:59"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "The first one I recommend, I think I have it here. Yeah, this one. It's called The 100% Solution. It's written by Solomon Goldstein-Rose. It's for people who think climate change is a problem but don't know what to do about it, or they're just kind of in despair or think they're like, \"Ah, everyone are going to die,\" right? There are some books written where the outcome of the book is like, \"We're all going to die,\" but the truth is that we're not all going to die. This book is trying to cover the 100% of all the solutions in detail, kind of much more detailed version of the request of Sharp that we wrote. It gets you freely optimistic. And I give that to anybody who's cared about climate change because it really lays out this from a very optimistic way of looking at the world. And that's why I recommend that book more than almost anything else. That's probably my number one book.",
+   "zh": "第一本我推荐的，我这里应该有。嗯，这本。叫《100%解决方案》，是所罗门·戈尔茨坦-罗斯写的。这本书是给那些认为气候变化是个问题但不知道该怎么做的人，或者他们只是感到绝望，或者觉得“啊，大家都要死了”的人看的。有些书的结局是“我们都要死了”，但事实上并非如此。这本书试图详细涵盖所有100%的解决方案，比我们写的Sharp的要求要详细得多。它能让你保持乐观积极。我把这本书送给任何关心气候变化的人，因为它真的以一种非常乐观的视角看待世界。这就是为什么我最推荐这本书。它可能是我最喜欢的书。",
+   "ts": "01:17:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I love that if just a one book, here's the book you got to read. I like that approach. What's a favorite recent movie or TV show that you've really enjoyed?",
+   "zh": "太棒了。如果只推荐一本书，那这本你必须得读。我喜欢这种方法。你最近看过最喜欢的电影或电视剧吗？",
+   "ts": "01:18:00"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Oh, I watched so much. I don't know. I love Emily in Paris on Netflix. I think I have TV serves different purpose for me these days. It's just like entertainment.",
+   "zh": "哦，我看了很多。我不知道。我喜欢网飞上的《艾米丽在巴黎》。我觉得电视对我来说现在有不同的用途了。它只是娱乐。",
+   "ts": "01:18:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I get that.",
+   "zh": "是啊，我明白了。",
+   "ts": "01:18:22"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "But what else movie do I watch? We watch the Everything All at Once. I thought that was a really good movie. That was-",
+   "zh": "但我还看过什么电影呢？我们看了《万物一息》。我觉得那是一部非常好的电影。那部电影——",
+   "ts": "01:18:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, it might win Best Picture.",
+   "zh": "是的，它可能会赢得最佳影片奖。",
+   "ts": "01:18:30"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:18:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We have a drinking game here. People say White Lotus, we drink. And so you did not, that's probably for the best. Favorite interview question that you like to ask YC founders when you're interviewing them?",
+   "zh": "我们这里有个喝酒游戏。有人说《白莲花度假村》，我们就喝一杯。所以你没说，那可能更好吧。你面试YC创始人时，最喜欢问他们的一个问题是什么？",
+   "ts": "01:18:32"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "What have you done since you applied to YC on your product? What are specific things that you've accomplished since you applied? Because that usually is a month or two month months ago.",
+   "zh": "自从你向YC提交产品申请以来，做了什么？申请后，你具体取得了哪些成果？因为那通常是在一两个月前的事了。",
+   "ts": "01:18:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. It connects so much with what you said earlier.",
+   "zh": "太棒了。这和你之前说的一点都相符。",
+   "ts": "01:18:51"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I hope the answer is like, \"Here are all the things that we did.\"",
+   "zh": "我希望他们的回答是：“我们做了所有这些事情。”",
+   "ts": "01:18:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Versus we just prepared for this interview.",
+   "zh": "而不是只是为这次面试做准备。",
+   "ts": "01:18:59"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Exactly. Exactly.",
+   "zh": "没错。完全正确。",
+   "ts": "01:19:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Most out there wild startup you have funded?",
+   "zh": "你资助过的最疯狂的初创公司是什么？",
+   "ts": "01:19:02"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I think I would say when I stepped onto the hangar floor of Heart Aerospace. I can send you a photo. Literally, I am looking at an airplane that's being made and I'm like there's no SaaS company's office you can walk into and you just open your mouth and you're like, \"What the hell is this?\" There are a few of those companies that are space companies or airspace companies or something like that where it's just a different feeling that you fund them and you can touch it. I have a lot of appreciation for things like that now because they're much harder to do, but when you succeed, they're much more tangible and you can be like, \"I have a tiny little piece in this space rocket or this airplane that we funded or this satellite above us.\" I really think that that's in some way a strong legacy compared to some other things that exist and just replace other softwares. And all these are better businesses, but there are strong legacies.",
+   "zh": "我想应该是在我踏上Heart Aerospace机库地面那一刻。我可以发张照片给你。说实话，我正看着一架正在制造的飞机，而你走进一家SaaS公司的办公室，打开嘴巴问“这到底是什么鬼？”就没那种感觉了。有几家太空公司或航空航天公司之类的，当你资助了它们后，能亲手触摸到成果，这种感觉截然不同。如今我对这类事物心怀敬意，因为它们的实现难度要大得多，但一旦成功，成果就变得触手可及——你会想，“我在资助的太空火箭或飞机里占据了一小块空间，甚至参与了头顶上卫星的研发。” 相比那些只需替代其他软件的公司，我认为这类企业更具深远意义，留下的遗产也更加厚重。",
+   "ts": "01:19:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's a pro tip for applying to YC?",
+   "zh": "申请YC有什么专业建议吗？",
+   "ts": "01:20:06"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Pro tip. Number one thing is go to YouTube and type in like... I think there's a video that we've recorded which is about how you succeed with your application [inaudible 01:20:18]. It's an hour long video that gives you all the pro tips on how to do it. We told people in advance, \"Once you've watched that video, then see if you know anybody who've done YC and then reach out to them and maybe ask them if YC is right for you, but also ask them what's important for you to, as you kind of approaching applying to YC, writing the application, during the interview, what were the things that matter?\" Those are probably the two things I would do.",
+   "zh": "专业建议。首要步骤是去YouTube搜索……我记得我们录过一个视频，讲如何成功申请[01:20:18音频不清晰]。那个一小时的视频会教你所有申请技巧。我们提前告知申请者：“看完视频后，看看身边有没有成功加入YC的人，然后联系他们，询问YC是否适合你，同时了解申请、面试阶段的关键要点。”这大概是我会给出的两个建议。",
+   "ts": "01:20:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question, what's one pro tip for visiting Sweden?",
+   "zh": "最后一个问题，去瑞典旅游有什么专业建议？",
+   "ts": "01:20:46"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "First of all, you should visit in the summer. It's a really good time to be there. It's a very different country in the winter. Try to go outside the cities into the nature and then prepare yourself for Swedes not all being Americans. They're a little bit more colder and have a little bit more distance to you and they don't randomly talk to you like I've learned to do here in America. I think you just have to go along with a little bit different of a vibe than you have here in the US. Most people actually love it. Most people who have just been, they love it, but most of them go in the summer.",
+   "zh": "首先，夏天去最合适。冬季的瑞典完全是另一番景象。尽量走出城市，深入自然风光，同时要做好心理准备——瑞典人不像美国人那么热情。他们的社交距离更大，交流更冷淡，不会在街头随意攀谈。我觉得你需要适应与美国不同的社交氛围。不过大多数游客都很喜欢瑞典，尤其是夏天去的人。",
+   "ts": "01:20:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This reminds me, I wanted to close it, but there's a tweet once about how in Sweden when you go to someone's house, they don't feed you. It's not expected that you will have food. You have to bring your own food. Is that true? And what's that about?",
+   "zh": "这让我想起之前有个推特说，在瑞典去别人家做客，他们不会提供食物。这是真事吗？具体怎么回事？",
+   "ts": "01:21:23"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "It's absolutely true. I actually gave an unconference talk about this topic. The unconference talk was all of the strange things to Swedish people do and why. If i would summarize it, yes, we do that. I actually experienced that. I went to a friend's house and they had dinner and I waited in my friend's room while they had dinner. That was just normal. And why did that happen? I think there's a strong sense of individual responsibility in Sweden, which kind of reaches over to unfriendliness, [inaudible 01:22:10] from an American or foreign lens because this is so crazy. But in Sweden it's just like, \"Well, you take care of your kids. I'll take care of my kids.\" And it's not really a question. (01:22:18): I think that a lot of the motivations of why Swedes are strange, one of them is we don't want to be indebted to someone else. So we never want to feel like... Which is why you wouldn't... For example, if you go to a bar in Sweden, you don't buy a round, you buy your own beer because maybe you have to figure out the money at the end of the day, things like that. I think it's just actually quite individualistic society, but it's individualistic with heart I would say. There's a warmth to it, but it will definitely be appeared strange to people who don't really understand this. They think people are cold and they're just like they don't understand that there's actually a heart behind this stuff.",
+   "zh": "这确实是事实。实际上，我曾在一场非正式会议上就这个话题发过演讲。那场演讲主要讲瑞典人做的一些奇怪事以及背后的原因。如果要总结一下，没错，我们确实会这样做。我亲身经历过。比如，我去朋友家做客，他们吃晚餐时，我就在朋友的房间里等着。这在瑞典很正常。为什么会这样呢？我认为瑞典人有很强的个人责任感，这在外国人眼中可能显得不够友好——毕竟这太不可思议了。但在瑞典人看来，这不过是：“你负责照顾自己的孩子，我负责照顾我的孩子。”这根本不是个问题。\n\n（01:22:18）：我认为瑞典人被视为奇怪的部分原因之一，是我们不想依赖别人。所以我们从不愿感到被拖累。比如在瑞典酒吧，你不会请客买酒，而是自己买，因为可能到最后还得算钱之类的。我认为瑞典社会确实非常个人主义，但我要说这种个人主义是带着温度的。虽然有时候会让人觉得奇怪，但那些不理解的人会误以为瑞典人冷漠无情，殊不知背后其实饱含深情。",
+   "ts": "01:21:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That sounds really smart, to be honest, the system. I would be into it, but I can see how people are very confused. Gustaf, I can't thank you enough for doing this. This was incredible. I know that people listening to this are going to leave informed, inspired, motivated, hopefully motivated to move faster and make more progress. Two final questions. Where can folks find you online if they want to learn more or ask you may be follow up questions? And two, how can listeners be useful to you?",
+   "zh": "说实话，这个系统听起来真的很聪明。我很感兴趣，但我能理解人们为什么会感到困惑。古斯塔夫，非常感谢你做这期分享。太棒了。我知道听众们听完后会收获满满，备受启发，充满动力，希望能更快行动、取得更大进步。最后两个问题。如果听众想了解更多信息或提问，可以在哪里找到你？第二个问题：听众如何能对你有所帮助？",
+   "ts": "01:23:00"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "I tweet sometimes on twitter.com/gustaf. The most useful things that I put out is probably on the YC's YouTube channel. So I record a couple videos on growth, on sales, on how to talk to customers. I actually send them to people all day long because the Start School videos that we made are a lot of preparation went into it and it answers most of the questions that people have. So watch those first, I would say. But yeah, sometimes I tweet other stuff that people can follow. That's fine. How can people be useful to me? I love hearing feedback from founders, what they're working on. I want to hear kind of questions they have about their companies. But I want to also really emphasize that to apply to YC, you don't need to know any of us. You don't need to reach out to us. It doesn't make any specific difference. (01:24:15): The principles in YC is that you should be able to become an insider in YC in Silicon Valley without knowing anybody. That's kind of what the application process is about. So feel free to reach out to us if you have questions, but don't feel like that's required to be a good YC applicant. It's actually the opposite in that we read and treat all the applications equally. Thank you so much for listening to this podcast. I mean, it made me happy you made all the way to the end.",
+   "zh": "我有时会在Twitter上发推，账号是twitter.com/gustaf。我发布的最有用的内容可能在YC的YouTube频道上。比如，我录制了一些关于增长、销售、如何与客户沟通的视频。我整天都在把这些视频发送给别人，因为我们制作的Start School视频经过了大量准备工作，能回答大多数人的疑问。所以我建议先看看那些视频。不过有时我也会发其他推文，供大家关注。听众如何能对我有帮助？我喜欢听创始人的反馈，了解他们正在做什么。我想听听他们对公司的疑问。但我也要强调一点，申请YC并不需要认识我们中的任何人。你无需主动联系我们。这根本没有什么区别。（01:24:15）：YC的原则是，即使你不认识任何人，也应该能在硅谷的YC圈子里成为行家。申请流程就是要实现这一点。所以如果有问题，可以随时联系我们，但别觉得这是成为优秀YC申请者的必要条件。相反，我们会平等对待所有申请。非常感谢收听这期播客。能听到你们听完整个节目，我真的很开心。",
+   "ts": "01:23:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, extra credit for listening to the end. I also just want to say while you're saying that, it feels like YC is such a good force for the world. It just enables so much innovation and progress. And if technology is what drives the world forward, IC is so at the center of a lot of that. So just huge props to what YC is doing and what you're doing, Gustaf.",
+   "zh": "是啊，能听完这番话真是难能可贵。我还想说，在你提及此事时，我深切感受到YC对世界的影响力实在太大了。它为创新和进步注入了巨大动能。若说科技是推动世界前进的力量，那么YC无疑是这一进程的核心角色。古斯塔夫，你和YC所做的一切都值得高度赞赏。",
+   "ts": "01:24:44"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "We feel a lot of responsibility towards that. That's for sure.",
+   "zh": "对此，我们深感责任重大。这是毫无疑问的。",
+   "ts": "01:25:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, I'll let you go. Again, Gustaf, thank you for doing this.",
+   "zh": "好的，我现在就让你走了。再次感谢你能来参加节目，古斯塔夫。",
+   "ts": "01:25:05"
+  },
+  {
+   "speaker": "Gustaf Alströmer",
+   "en": "Thank you so much.",
+   "zh": "太感谢你了。",
+   "ts": "01:25:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢你的收听。如果你觉得这个节目有价值，可以在 Apple Podcasts、Spotify 或你喜欢的播客应用上订阅。另外，请考虑给我们打个分或写个评论，这对其他听众找到这个播客真的很有帮助。你可以在 lennyspodcast.com 上找到我们所有的往期节目或了解更多关于这个播客的信息。下期节目再见。",
+   "ts": "01:25:12"
+  }
+ ]
+}

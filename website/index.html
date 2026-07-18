@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lenny 播客访谈库</title>
+<link rel="stylesheet" href="assets/style.css?v=20260718">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">L</span><span data-i18n="siteTitle">Lenny 播客访谈库</span></a>
+  <nav class="site-nav" aria-label="主要导航">
+    <a class="active" href="index.html" data-i18n="libraryNav">访谈录</a>
+    <a href="knowledge.html" data-i18n="knowledgeNav">知识地图</a>
+    <a href="media.html" data-i18n="mediaNav">书影音库</a>
+    <a href="project.html" data-i18n="projectNav">项目</a>
+    <a href="about.html" data-i18n="aboutNav">关于网站作者</a>
+  </nav>
+  <button id="langToggle" class="lang-toggle">EN</button>
+</header>
+<main class="container">
+  <div class="hero">
+    <div class="hero-kicker" data-i18n="heroKicker">人物 · 观点 · 方法</div>
+    <h1 data-i18n="heroTitle">从 329 场对话里，找到能解决问题的方法</h1>
+    <p data-i18n="siteSub">按嘉宾、问题和主题进入访谈，再沿着观点与方法之间的联系继续探索。</p>
+    <div class="hero-stat"><strong>329</strong><span data-i18n="episodes">期完整访谈</span></div>
+  </div>
+  <section class="author-ribbon" aria-label="网站作者">
+    <div><span>CREATED BY</span><strong>聆风Raymond</strong><p>把好内容整理成能反复使用的知识资产。</p></div>
+    <div class="author-ribbon-actions"><a href="about.html">关于网站作者 <b>→</b></a><a href="https://okjk.co/zo7xKT" target="_blank" rel="noopener">即刻 <b>↗</b></a><a href="https://github.com/Raymond-Hear" target="_blank" rel="noopener">GitHub <b>↗</b></a></div>
+  </section>
+  <div class="controls">
+    <div class="search-wrap"><span class="search-icon">⌕</span><input id="search" class="search" type="search" placeholder="搜索嘉宾、访谈主题、公司或关键词…"></div>
+    <div class="filters">
+      <div class="filter-row" id="topicFilters"></div>
+      <div class="filter-row" id="idFilters"></div>
+    </div>
+  </div>
+  <div class="result-bar"><span id="resultCount"></span><button id="clearFilters" class="text-btn" hidden data-i18n="clear">清除筛选</button></div>
+  <div id="grid" class="grid"></div>
+  <div id="loadSentinel" class="load-sentinel"></div>
+  <div id="empty" class="empty" hidden></div>
+</main>
+<footer class="site-footer">
+  <div class="footer-intro">
+    <span class="section-kicker">CREATED BY</span>
+    <strong>聆风 Raymond</strong>
+    <p>持续整理产品、增长、创业与 AI 访谈知识库。</p>
+  </div>
+  <div class="contact-dock" aria-label="联系与关注">
+    <a class="contact-card" href="https://github.com/Raymond-Hear" target="_blank" rel="noopener">
+      <span>GitHub</span><strong>Raymond-Hear</strong>
+      <span class="contact-popover">查看项目与公开创作记录</span>
+    </a>
+    <a class="contact-card" href="https://okjk.co/zo7xKT" target="_blank" rel="noopener">
+      <span>即刻</span><strong>聆风 Raymond</strong>
+      <span class="contact-popover">查看日常想法与内容更新</span>
+    </a>
+    <button class="contact-card contact-wechat" type="button" aria-label="查看微信公众号二维码">
+      <span>微信公众号</span><strong>聆风Raymond</strong>
+      <span class="contact-popover qr-popover"><img src="assets/raymond-wechat-qr.jpg" alt="微信公众号「聆风Raymond」二维码"><em>微信扫码关注</em></span>
+    </button>
+    <a class="contact-card" href="about.html">
+      <span>About</span><strong>关于网站作者</strong>
+      <span class="contact-popover">了解聆风Raymond和这个知识库</span>
+    </a>
+  </div>
+</footer>
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+<script src="assets/app.js?v=20260718"></script>
+<script src="assets/common.js?v=20260719"></script>
+</body>
+</html>

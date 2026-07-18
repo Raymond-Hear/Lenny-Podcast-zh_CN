@@ -1,0 +1,953 @@
+{
+ "id": "Andy Raskin_",
+ "name": "Andy Raskin_",
+ "category": "市场营销",
+ "identity": "创始人/CEO",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Andy+Raskin_",
+ "bio": {
+  "en": "Andy Raskin is a strategic-narrative expert who helps CEOs and company leaders align their teams around a simple story — a \"strategic narrative\" — that clarifies why customers need their product and unifies sales, marketing, product, and hiring; he has worked closely with founders and companies including Gong, Salesforce, Uber, Dropbox, Square, and IBM, and his post \"The Greatest Sales Deck I've Ever Seen\" is widely cited in business circles.",
+  "zh": "Andy Raskin 是一位战略叙事专家，帮助 CEO 和企业领导者用「战略叙事」这一简单故事让团队对齐——明确为什么客户需要他们的产品，并统一销售、市场、产品和招聘的方向；他曾与 Gong、Salesforce、Uber、Dropbox、Square、IBM 等公司密切合作，其文章《我见过最牛的销售 Deck》在商业圈广受引用。"
+ },
+ "summary": {
+  "en": "Andy Raskin argues that most people still pitch with what he calls the \"arrogant doctor\" approach — name a problem, then explain why your solution beats the alternatives — but that framing no longer works. He lays out a \"strategic narrative\" framework: name the shift from an old game to a new game and define the stakes, name the object of the new game (e.g., \"turn customers into subscribers\"), show the obstacles in the way, and then explain how you help overcome them. Using clients like 360Learning, Zuora, and Gong, plus companies like Drift, he shows how this narrative turns the product into a prop for the story, generates endless marketing content, and becomes the north star for product decisions. Andy also clarifies his skepticism of \"category creation\" — a category name is just shorthand for a movement, and the story itself is what matters — and notes the framework delivers the most value for B2B enterprise tech companies, especially around Series B or when an old story needs to expand.",
+  "zh": "Andy Raskin 认为，大多数人在商业里用的还是「傲慢医生」式 pitch——先讲问题，再讲自己的方案为什么更好——但这种套路已经失效了。他提出「战略叙事」框架：先讲世界正在从旧游戏转向新游戏的转变并定义赌注，再给新游戏命名一个目标物（如「把客户变成订阅者」），接着展示通往目标的障碍，最后讲如何克服这些障碍。他用自己的客户（如 360Learning、Zuora、Gong）和 Drift 等公司举例，说明这套叙事能让产品成为故事的道具、让营销内容源源不断，并成为产品决策的北极星。Andy 还澄清了他不太待见「创造品类」的执念——品类名只是运动的简写，真正重要的是故事本身；这套框架对 B2B 企业科技公司价值最大，通常在 B 轮之后或公司需要扩张老故事时最该投入。"
+ },
+ "turns": [
+  {
+   "speaker": "Andy Raskin",
+   "en": "The way I learned how to pitch in business school, and I think the way most people did is what I call the arrogant doctor. So you have a problem, a pain, I have a solution, a treatment, and I'm going to tell you why it's better than all the other treatments. And the structure that I read about in these movies was different. Every movie starts with some kind of shift in the world, and I call this shift the shift from the old game to a new game. The archetypal example of this, I think in the business world, is what Benioff did with Salesforce. So he comes in and he says, \"Hey, software is over and there's this new world called the cloud, a new game, new rules. That's the new way to win. And we're going to help you if you're in there.\" This structure really is about defining a movement, and that's very different from, \"Hey, I'm going to solve your problem.\"",
+   "zh": "我在商学院学怎么 pitch 的方式，我觉得大多人也是，是我叫「傲慢的医生」。所以你有个问题、痛点，我有个解决方案、治疗，然后我会告诉你为啥它比所有其他治疗好。而我在这些电影里读到的结构不同。每部电影以世界里某种转变开始，我管这转变叫「从旧游戏到新游戏的转变」。这的 archetypal 例子，我觉得商业世界里，是 Benioff 用 Salesforce 做的。所以他进来他说「嘿，软件完了，有个新世界叫云，新游戏、新规则。那是赢的新方式。我们会在你进去时帮你。」这结构其实是定义一场运动，那很不同于「嘿，我要解你的问题」。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast where I interview world-class product leaders and growth experts to learn from their hard won experiences building and growing today's most successful products. Today my guest is Andy Raskin. Andy helps CEOs and company leaders align their teams around something he calls a strategic narrative, which as you'll learn all about in this episode, is essentially a simple story that helps people understand why they need your product. And with that helps you align your sales, marketing, and product teams along with your fundraising and even your hiring efforts.",
+   "zh": "欢迎来到 Lenny 的播客，我采访世界级产品领导和增长专家，从他们打造和成长当今最成功产品的来之不易经验学习。今天我的嘉宾是 Andy Raskin。Andy 帮 CEO 和公司领导围绕他叫「战略叙事」的东西对齐团队，正如你这期会学到，本质是个简单故事、帮人理解为啥他们需要你产品。并由此帮你对齐销售、营销、产品团队，连同你的融资甚至招聘努力。",
+   "ts": "00:00:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Andy has worked closely with some of the most successful founders and companies out there, including companies like Gong, Dropbox, Uber, Salesforce, Square, IBM, and many others. In our conversation, Andy explains why most people are pitching their product completely wrong, why focusing on the problem you're solving for people is no longer an effective pitch and how the strategic narrative helps you frame your solution in a much more effective way. Andy also shares a ton of examples of the framework in action, why focusing on categories and category creation is so limiting, signs your narrative needs to work and so much more. Enjoy this episode with Andy Raskin after a short word from our sponsors.",
+   "zh": "Andy 紧密合作过一些最成功的创始人和公司，包括 Gong、Dropbox、Uber、Salesforce、Square、IBM 等。我们的对话里，Andy 解释为啥大多人完全 pitch 错他们的产品、为啥聚焦你为人解的问题不再是有效 pitch、以及战略叙事怎么帮你以有效得多的方式框你的解决方案。Andy 也分享一堆框架实战的例子、为啥聚焦品类和品类创造这么局限、你叙事需要工作的信号、以及更多。享受这期跟 Andy Raskin，在赞助短广告后。",
+   "ts": "00:01:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Coda. You've heard me talk about how Coda is the doc that brings it all together, and how it can help your team run smoother and be more efficient. I know this firsthand because Coda does that for me. I use Coda every day to wrangle my newsletter content calendar, my interview notes for podcasts, and to coordinate my sponsors. More recently, I actually wrote a whole post on how Coda's product team operates, and within that post, they shared a dozen templates that they use internally to run their product team, including managing a roadmap, their OKR process, getting internal feedback, and essentially their whole product development process is done within Coda.",
+   "zh": "本期由 Coda 赞助。你听我说过 Coda 是怎么把一切带到一起的 doc、怎么帮团队更顺和高效。我 firsthand 知道因为 Coda 为我做那个。我每天用 Coda 整理我的 Newsletter 内容日历、我的播客采访笔记、协调赞助商。最近我其实写了整篇文讲 Coda 产品团队怎么运作，里面他们分享了十几个内部用的模板跑产品团队，包括管理路线图、OKR 流程、拿内部反馈，基本他们整个产品开发流程在 Coda 里做。",
+   "ts": "00:02:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If your team's work is spread out across different documents and spreadsheets and a stack of workflow tools, that's why you need Coda. Coda puts data in one centralized location regardless of format, eliminating roadblocks that can slow your team down. Coda allows your team to operate on the same information and collaborate in one place. Take advantage of this special limited time offer just for startups. Sign up today at Coda.io/Lenny and get $1,000 starter credit on your first statement. That's C-O-D-A.io/Lenny to sign up and get a startup credit of $1,000. Coda.io/Lenny.",
+   "zh": "如果你团队的工作 spread 跨不同文档和表格和一堆工作流工具，那就是为啥你需要 Coda。Coda 把数据放一个集中地不管格式，消除能拖慢团队的路障。Coda 让你团队在同信息上运作、在一个地方协作。利用这特别限时优惠就给初创。今天在 Coda.io/Lenny 注册、在第一张账单拿 1000 刀 starter credit。就是 C-O-D-A.io/Lenny 注册拿 1000 刀初创 credit。Coda.io/Lenny。",
+   "ts": "00:02:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are you hiring or on the flip side, are you looking for a new opportunity? Well, either way, check out Lennysjobs.com/talent. If you're a hiring manager, you can sign up and get access to hundreds of hand curated people who are open to new opportunities. Thousands of people apply to join this collective, and I personally review and accept just about 10% of them. You won't find a better place to hire product managers and growth leaders.",
+   "zh": "你在招人、或 flip side，你在找新机会？好，任一种，查 Lennysjobs.com/talent。如果你是招人经理，你能注册拿数百个手工策展的、对机会开放的人。数千人申请加入这 collective，而我个人审、只接受约 10%。你找不到更好地方招 PM 和增长领导。",
+   "ts": "00:03:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Join almost 100 other companies who are actively hiring through this collective. And if you're looking around for a newer opportunity, actively or passively, join the collective. It's free. You can be anonymous and you can even hide yourself from specific companies. You can also leave anytime and you'll only hear from companies that you want to hear from. Check out Lennysjobs.com/talent.",
+   "zh": "加入近 100 其他正通过这 collective 招人的公司。而如果你在找更新的机会、主动或被动，加入 collective。免费。你能匿名、甚至从特定公司藏自己。你也能随时离开、你只会听到你想听的公司。查 Lennysjobs.com/talent。",
+   "ts": "00:03:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Andy, welcome to the podcast.",
+   "zh": "Andy，欢迎来播客。",
+   "ts": "00:04:16"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Oh, thanks Lenny. So great to talk with you.",
+   "zh": "哦谢谢 Lenny。超高兴跟你聊。",
+   "ts": "00:04:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You are quite known as someone that helps CEOs optimize their pitch, their story, their strategy, which we're going to get deep into. But before we do that, can you just give us a little glimpse into how you found your way into this line of work?",
+   "zh": "你相当 known 为帮 CEO 优化他们的 pitch、故事、战略，我们要深聊。但之前，你能就给点 glimpse 你怎么找到进这行的？",
+   "ts": "00:04:21"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I started as a coder. I was a computer science major, undergrad, a friend and I had an idea for an app. So this was like during the dot com years. So Windows app, and we coded a little prototype and we started, we put it out there, we started getting some users and we thought, \"Oh, okay, maybe we can get some investments.\" So of the two of us, I spoke English fluently. So we decided, okay, I'll write the investor pitch. So I wrote the pitch, we sent it out and the reaction was really bad. One VC wrote back and said, \"Listen, I rate every plan I get on a scale of 1 to 10, and yours is a 1,\" and the next to the one he wrote in parentheses, \"Worst,\" in case we thought maybe that was the top of his rating scale.",
+   "zh": "我起步是个 coder。我是 CS 专业、本科，一个朋友和我有 app 想法。所以那是 dot com 年。Windows app，我们 coded 个小原型、开始、放出去、开始拿些用户、我们想「哦好，也许我们能拿些投资。」所以我们俩，我英文流利。所以我们决定，好，我来写 investor pitch。所以我写了 pitch、发出去、反应真差。一个 VC 写回「听，我给我收的每个 plan 打 1 到 10 分，你的是 1」，然后他在括号写「最差」，以防我们想也许那是他评分顶端。",
+   "ts": "00:04:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Brutal.",
+   "zh": "残忍。",
+   "ts": "00:05:20"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, brutal. But then lower down, so this was back when they would like you'd print, send the hard copy of the plan and they might mail it back with comments written in. And he had written in, \"Not a compelling story.\" A few weeks later, I'm walking by this Barnes & Noble and there's a sign in the window that says, \"For anyone who wants to tell a compelling story,\" okay, that's me. And there's an arrow that points to these books and they turned out to be screenwriting books. I didn't know anything about this, so I started reading these books and it strikes me a movie is a pitch. What is Star Wars a pitch for? It's a pitch for be good, care about people, trust The Force in their terms. But I don't have couple hours. I'm pitching a business. It's very different. I'm not writing a three X screenplay.",
+   "zh": "对，残忍。但然后下面——那是他们还让你打印、寄 hard copy plan、他们可能 mail 回写评论。而他写了「不是个 compelling 故事。」几周后，我走过 Barnes & Noble、窗上有个标「给任何想讲 compelling 故事的人」，好，那是我。有个箭头指向这些书、结果是编剧书。我啥都不知道，所以我开始读这些书、它 strike 我电影是个 pitch。Star Wars 是个 pitch for 啥？它是个 pitch for 善良、在乎人、信原力——用他们的词。但我没几小时。我在 pitch 生意。很不同。我不是写三幕剧本。",
+   "ts": "00:05:22"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "So what applies, what doesn't apply? I mean these are questions I think I'm still asking, but I did my best to take some of the learnings of how the movie was structured. It was very different from how my pitch was structured and kind of restructure it. And we did that and we sent the pitch out and we start getting more interest. It was really clear. And then we had a term sheet I think a few months later and I'm like, \"What is this story thing?\" That we didn't change the product, it was basically the same business just sort of how we talked about it. That was really interesting to me.",
+   "zh": "所以什么适用、什么不？我是说这些是我觉得还在问的问题，但我尽力拿了些电影怎么结构的学。它很不同于我 pitch 怎么结构、就 restructure 它。我们做了、发出去、开始拿更多兴趣。真清楚。然后我们有 term sheet 我想几个月后、我像「这故事东西是啥？」我们没改产品，基本同生意就我们怎么谈它。那真有趣给我。",
+   "ts": "00:06:11"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I mean, over the next 10, 15 years, I thought about, \"Hey, maybe I could do consulting with this.\" CEOs who heard about this were asking me about it. But I still was like, \"No. No CEO's going to budget a line item for the story. That's not a thing.\" So I just didn't do it for a really long time until eventually I was proven wrong about that.",
+   "zh": "我是说，接下来 10、15 年，我想「嘿，也许我能用这个做咨询。」听到这的 CEO 问我关于它。但我仍像「不。没 CEO 会 budget 个 line item 给故事。那不是个事。」所以我就是很久没做、直到最终我被证明错。",
+   "ts": "00:06:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And how many years ago was this at this point?",
+   "zh": "而这点到现在多少年前？",
+   "ts": "00:07:13"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "So this was dot com. This was like '98 when I was pitching that company.",
+   "zh": "所以那是 dot com。那是像 98 年我 pitch 那公司。",
+   "ts": "00:07:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I think there's a couple interesting tidbits about this. One is that interesting opportunities arise when you're doing something you're excited about. So you had the startup, it didn't work out, but you had a problem that you solved for yourself and that led to another, a bigger opportunity for your career.",
+   "zh": "惊人。我觉得这有几件有趣 tidbit。一是有趣机会 arise 当你做你兴奋的事。所以你有初创、它没 work out、但你有你为自己解的问题、那 lead 到另一个、更大的职业机会。",
+   "ts": "00:07:20"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, totally.",
+   "zh": "对，完全。",
+   "ts": "00:07:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So that's interesting. And then also just some of the best opportunities arise from solving your own problem, not planning to start something with it, but just like, \"I have a problem.\" Turns out [inaudible 00:07:44]-",
+   "zh": "那有趣。然后也只一些最好机会 arise 从解你自己的问题，不是计划用这个 start 啥，而就像「我有问题」。结果——",
+   "ts": "00:07:35"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, I think that's same with you. Right, Lenny? You started writing about stuff and boom, that became the thing.",
+   "zh": "对，我觉得你也是那样。对吧 Lenny？你开始写东西、boom，那成了那事。",
+   "ts": "00:07:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Absolutely. It was not quite boom, but eventually it became boom.",
+   "zh": "绝对。它不是 quite boom，但最终成了 boom。",
+   "ts": "00:07:49"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Feels like boom from outside.",
+   "zh": "从外面感觉像 boom。",
+   "ts": "00:07:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that's how it goes. It always overnight for everyone else that isn't here.",
+   "zh": "对，就那样。对不在场的每个人总是 overnight。",
+   "ts": "00:07:55"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Right, exactly.",
+   "zh": "对，正是。",
+   "ts": "00:08:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Okay, so let's get into it. So you help CEOs at this point come up with what you call a strategic narrative and you help them not only come up with this strategic narrative, but you help their teams align around this strategic narrative. So let's just start with what is a strategic narrative?",
+   "zh": "对。好，进入正题。所以你帮 CEO 在这点想出你叫战略叙事的东西、你帮他们不只想出这战略叙事，还帮他们团队围绕这战略叙事对齐。所以就从什么是战略叙事开始？",
+   "ts": "00:08:03"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, you'd think, I've been doing this for 10 years, I'd have a very snappy definition of it there, and I don't know if I'm really happy with ... like I've ever found one that totally gets at it yet. The one thing I say is it's this one story that the CEO uses to drive success in marketing, sales, but also product. That it becomes like a north star, strategic north star for product roadmap, for fundraising, for recruiting, really everything.",
+   "zh": "对，你会想，我做这 10 年，我会有个很 snappy 定义，我不知道我是否真 happy 用……像我从没找到个完全 get 到它的。我说的一件事是它是这 CEO 用来 drive 营销、销售、还有产品成功的一个故事。它变成像北极星、战略北极星给产品路线图、给融资、给招聘、真的一切。",
+   "ts": "00:08:19"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "What I think is really interesting as a kind of qualifier is that this story has a certain structure. Like I said, when I found those screenwriting books, I sort of shifted the structure. And the traditional structure, the way I learned how to pitch in business school, I think the way most people did is what I call the arrogant doctor. So you have a problem, a pain, I have a solution, a treatment, and I'm going to tell you why it's better than all the other treatment.",
+   "zh": "我觉得真有趣作为 qualifier 是这故事有某结构。像我说，当我找到那些编剧书，我 sort of shift 了结构。而传统结构，我在商学院学怎么 pitch 的方式，我觉得大多人是，是我叫「傲慢的医生」。所以你有个问题、痛点，我有个解决方案、治疗，然后我会告诉你为啥它比所有其他治疗好。",
+   "ts": "00:08:54"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Not to say it's not better, but just this is the structure of it, and it kind of sets you up for bragging. Let me tell you why it's so great. And the structure that I read about in these movies was different. In the movies, every movie starts with some kind of shift in the world, in the character's world. And I call this shift the shift from the old game to the new game. And the archetypal example of this, I think in the business world is what Benioff did with Salesforce. So he comes in and he says, \"Hey, software is over,\" meaning software in the sense that we're going to own it and maintain it, \"And there's this new world called the cloud, a new game, like the new rules, everything has changed and that's the new way to win. And we're going to help you if you're in there.\" This structure really is about defining a movement and that's very different from, \"Hey, I'm going to solve your problem.\"",
+   "zh": "不是要说它不好，但就这是它的结构，而且它 kind of set 你 up for bragging。让我告诉你为啥它这么棒。而我在这些电影读到的结构不同。在电影里，每部电影以世界里某种转变开始、在角色的世界。而我管这转变叫「从旧游戏到新游戏的转变」。这的 archetypal 例子，我觉得商业世界里是 Benioff 用 Salesforce 做的。所以他进来他说「嘿，软件完了」——意思是软件我们拥有维护那 sense——「有个新世界叫云，新游戏、像新规则、一切变了、那是赢的新方式。我们会在你进去时帮你。」这结构真是定义一场运动、那很不同于「嘿，我要解你问题」。",
+   "ts": "00:09:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think the Salesforce example is an awesome example of your approach. If they were thinking about it in the old way, what would Salesforce have done? How would they have pitched it if not for, \"Everyone's moving to the cloud, your dumb for using desktop software,\"?",
+   "zh": "我觉得 Salesforce 例子是你方法的超棒例子。如果他们用旧方式想，Salesforce 会做啥？他们怎么 pitch 如果不是「大家都在移云、你用桌面软件真蠢」？",
+   "ts": "00:10:34"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Well, I think they would've just come out and said like, \"Oh hey ...\" I mean CRM by the way, was already a category. I mean, already Siebel was the huge giant of that space. There were already even companies doing it online, doing it through the web. And so they would've come and said, \"Oh, we're easier to install, faster to get up and running than Siebel,\" or, \"We have this much functionality compared to,\" I think it was, was it NetSuite? Or, I don't know. It was some early Salesforce-like thing that was out there. They would've done these sort of comparison things.",
+   "zh": "好，我觉得他们会就出来说「哦嘿……」我的意思是 CRM 顺便已是品类。我的意思是已经 Siebel 是那空间巨兽。甚至已有公司在线做、通过 web 做。所以他们会来说「哦，我们比 Siebel 易装、更快跑起来」或「我们有这么多功能比」——我想是 NetSuite？或我不知道。是某个早期 Salesforce 样东西在那。他们会做这些 sort 比较东西。",
+   "ts": "00:10:48"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And Benioff, I mean he is a pretty proud guy. I think he did still say like, \"Hey, we're the number one CRM,\" but wasn't what they led with. They led with this story about this fundamental paradigm shift and, are you in or are you not in? And what they did was instead of just saying, \"Hey, we're better than,\" they said, \"Hey, all those others, those Siebel's, they're part of that old game. You want to play that software game? Be my guest, go buy Siebel,\" and of course we know how it played out.",
+   "zh": "而 Benioff，我是说他相当 proud 人。我觉得他仍说「嘿，我们是头号 CRM」，但不是他们 lead with。他们 lead with 这关于基本范式转变的故事、你 in 或 not in？而他们做的是，不是就说「嘿，我们比好」，而是说「嘿，所有那些其他、那些 Siebel，他们是那旧游戏一部分。你想玩那软件游戏？请便，去买 Siebel」而当然我们知道怎么 play out。",
+   "ts": "00:11:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So the crux of the approach is instead of, \"Problem, solution, you should go do this,\" it's, \"The world is changing, here's where it's going and we're going to help you get there.\" I want go in a little more depth of the framework. But before that, what are some other examples to give people a sense of like, oh, I see, I understand what this might be.",
+   "zh": "所以方法的核心是，而不是「问题、解决方案、你该去做这个」，是「世界在变、这是它去哪、我们帮你到那」。我想深一点框架。但之前，有其他例子给人感觉「哦，我 see，我懂这可能是什么」？",
+   "ts": "00:12:02"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, so another great example and no coincidence, so is Zuora. So Zuora is the company I wrote about in this post called The Greatest Sales Deck I've Ever Seen, the CEO of Zuora, Tien Tzuo, was employee number 11 at Salesforce. So he learns this from Benioff. And he's pitching, \"Hey, in the old world, businesses operated on transactions. You sold things to people outright. In this new world,\" he calls it the subscription economy, where people want the benefits of those things without necessarily having to pay for them. And of course gives all these examples of all the winners in this, look at all the winning companies. They're all basically going to this new model.",
+   "zh": "对，所以另一个超棒例子、不巧合，是 Zuora。所以 Zuora 是我在那篇《我见过最牛销售 deck》帖子写的公司，Zuora 的 CEO Tien Tzuo 是 Salesforce 第 11 号员工。所以他从 Benioff 学这个。而他 pitch「嘿，在旧世界，企业靠交易运作。你 outright 卖东西给人。在这新世界」他叫它订阅经济，人们想要那些东西的好处而不必 necessarily 付钱买。而当然给所有赢家例子、看所有赢公司。他们基本都去这新模型。",
+   "ts": "00:12:19"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And so he's pitching someone like Ford and you can imagine they're going to Ford and pitching a subscription for car service, which is quite different from just a lease. And they're starting out with this. This is the big shift. Another one, team I worked with early on, and I think they'd agree their story came out of this work was Gong. So Gong everyone probably knows by now, they take the video recordings of all your sales calls and they stick AI onto it and come out with all these insights. And that story is, hey, goodbye opinions. Used to be a world where sales is run on opinions. Hello reality, that now all the winners are adopting this new mindset where we really have to see what's really going on.",
+   "zh": "所以他 pitch 像 Ford——你能 imagine 他们去 Ford pitch 车的订阅服务，那相当不同于就 lease。而他们从这开始。这是大转变。另一个，我早合作的团队、我觉得他们会同意他们故事出自这工作，是 Gong。所以 Gong 现在人大概知道，他们拿你所有销售电话的视频录音、贴 AI 上去、出所有洞察。而那故事是，嘿，再见观点。曾是销售靠观点跑的世界。你好现实，现在所有赢家在 adopt 这新心态——我们真得看真在发生啥。",
+   "ts": "00:13:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In the Gong example, let's say, what would they have done if they were going, \"Here's the problem, here's the solution, here's what we're going to do for you,\"?",
+   "zh": "在 Gong 例子，就说，如果他们走「这是问题、这是解决方案、这是我们要为你做的」，他们会做啥？",
+   "ts": "00:13:56"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, I mean that's kind of what they were doing when they started out. And I'm not saying that didn't work totally. I mean already by the time they started doing this, they were starting to become a big company. I remember Bendov said to me, \"Listen, Andy,\" they were around series B, I think this is around 2018. It's like, \"We're going to be a huge company. The question is how huge. And I think that this narrative along the lines of Zuora or Salesforce, if we get this right, this is going to be a multiplier on our growth.\"",
+   "zh": "对，我是说那 kind of 是他们起步做的。我不是说那完全不 work。我是说已经到他们做这时，他们开始成大公司。我记得 Bendov 跟我说「听，Andy」他们在 series B 左右，我想约 2018。像「我们要成大公司。问题是多大。而我觉得这沿 Zuora 或 Salesforce 线的叙事，如果我们搞对，这会是我们增长的乘数。」",
+   "ts": "00:14:03"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "So I don't remember exactly the pitch beforehand, but it was very much like, \"Hey, we're going to record your calls. We're going to get insights from them. They're better than the insights you could get from Salesforce.\" There wasn't this kind of unifying kind of movement ideology that put it all in context. And what was really interesting was one thing, I don't think they'd be upset if I shared, and maybe it's known. Initially, they were seen as a tool for sales operations, for someone who's going to record the calls and what this narrative did for them. And I think it was already starting to happen, but what it really coalesced was this is a tool for sales leadership.",
+   "zh": "所以我不太记得之前 exact pitch，但很像是「嘿，我们会录你电话。我们会拿洞察。它们比你能从 Salesforce 拿的好。」没有这种 unifying 运动意识形态把它放 context。而真有趣的一件，我觉得他们不会 upset 我分享，也许 known。最初，他们被看作销售运营的 tool、给会录电话的人、而这叙事为他们做的。我觉得它已经在发生，但真 coalesced 的是这是销售领导的 tool。",
+   "ts": "00:14:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You talked about Zuora in the post you wrote, and I imagine many people listening are like, \"Oh, shit. This is the guy that wrote that post that everyone's always sharing with me about how to make a deck.\" And I wanted to ask, how impactful was that one piece of writing for you in your career, just like as a tangent?",
+   "zh": "你在你写的帖子聊 Zuora，我 imagine 很多听的人像「哦糟。这是写那篇人人总分享给我关于怎么做 deck 的帖子的 guy。」而我想问，那一篇写作对你职业多 impactful，就作为 tangent？",
+   "ts": "00:15:23"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I had written some other posts on Medium in particular. Medium has changed quite a bit, but back then I found that I could write stuff there and get really a lot of people who were interested in what I was interested would sort of come in and create some noise about it. So I was already doing this kind of work for a couple of years, but that post immediately got something like 2 million views around the world and I started getting inquiries from teams all over the world.",
+   "zh": "我写过其他 Medium 帖子。Medium 变了不少，但那时我发现我能在那写、拿真很多人感兴趣的来、create 些 noise。所以我已做这工作几年，但那帖子立刻拿全球约 2 百万 views、我开始收全球团队询问。",
+   "ts": "00:15:39"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And it was I think what really allowed me to say no, okay, I could do this work. That CEO's would budget a line item for this. Because I think if you really understand that post, it's not really about a sales deck, it's really about this story that Tien, the CEO is telling everywhere and that is showing up in the sales deck and structuring it that way.",
+   "zh": "而我觉得那是真让我能说 no、好我能做这工作。那 CEO 会 budget line item 给这个。因为我觉得如果你真懂那帖子，它不是真关于销售 deck，是真关于 Tien 这 CEO 到处讲的这故事、它出现在销售 deck 并那样结构它。",
+   "ts": "00:16:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think it's just another example that comes up a bunch on this podcast is just the power of writing and the power of content. Yeah, and you're shaking your head.",
+   "zh": "我觉得这只是这播客常冒的另一个例子——写作的力量、内容的力量。对，你在点头。",
+   "ts": "00:16:40"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Totally. I mean, I had a little mini career as a journalist, as a freelance writer and I really loved that. I actually, I took a class in New York called How to Write a Magazine Article, because I was sort of mid-career, I was curious. And the class wound up being more about how to sell a magazine article. And I found I really loved that, pitching articles, but one thing that was always a downer for me was there's always this editor sort of deciding what's going to be out there.",
+   "zh": "完全。我是说我有个 mini 职业当记者、自由写手、我超爱。我其实在纽约上了叫《怎么写杂志文章》的课，因为我 mid-career、好奇。而课 wound up 更多关于怎么卖杂志文章。我发现我超爱那个、pitch 文章，但一直 downer 的是总有个编辑决定啥出去。",
+   "ts": "00:16:48"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And when you work with a great editor, it's great, they make yourself better and they're priceless. But still there's this intermediary. What started to happen, I think around when I started writing around 2013, '14, you start to see these platforms, like Medium, even LinkedIn where you can just write and have this audience and I think no way I could do this, the work I do if that development hadn't happened first.",
+   "zh": "而当你跟好编辑工作，它棒，他们让你更好、无价。但仍有这中介。啥开始发生，我想约当我 2013、14 开始写，你开始看这些平台像 Medium、甚至 LinkedIn 你能就写、有这受众、我觉得没 way 我能做这工作如果那发展没先发生。",
+   "ts": "00:17:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm taking us off track, but I want to go a little deeper with this. I find that there's kind of two paths to writing online. One is your path where you write one piece that just blows up like crazy. The other path is more my path where I just write consistently for a long time, and both work and most people try to go your path and they never succeed. It's really hard to make something gets 2 million views, but you can go that path.",
+   "zh": "我把我们带偏，但我想深一点这。我发现 kind of 两条路写线上。一是你路——你写一篇就爆。另一条更我路——我就一直一致写很久，都 work、大多人试你路、从没成功。做件 2 百万 views 真难，但你能走那路。",
+   "ts": "00:17:53"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "This is like you said earlier, hey, it seems like boom, but really it didn't. So that was probably the 30th or 40th piece and they were gradually getting more and more traction. There was one I wrote before that about, it's kind of dissecting Elon Musk's pitch for the Powerwall, the battery that they sell. And that one got maybe few hundred thousand views and also was a big jump. And then the next one got some poultry number. So what I find is like, yeah, there's this a while where you're writing and it feels like you're talking to nobody and then gradually it grows and you'll have these peaks, but then over time is where the magic is.",
+   "zh": "这像你早说，嘿，好像 boom，但其实不是。所以那大概是 30 或 40 篇、他们逐渐拿更多 traction。有篇我之前写关于，kind of 解剖 Elon Musk 的 Powerwall pitch、他们卖的电池。那篇拿 maybe 几十万 views、也是大跳。然后下篇拿些 poultry 数。所以我发现是，对，有段你写、感觉你对没人说、然后逐渐长、你会有这些峰、但随时间才是 magic。",
+   "ts": "00:18:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, I'm really glad you pointed that out, that it rarely is just you write one thing and it's boom.",
+   "zh": "好，我真高兴你指出，它很少就你写一篇就 boom。",
+   "ts": "00:19:03"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I'll also say, sorry, because I worked in a magazine, I haven't done a newsletter because that idea of having a deadline all the time and constantly having to, we used to call the magazine Feed the Beast, I feel so free not to have that. So for now at least I haven't done that.",
+   "zh": "我也说，抱歉，因为我曾在杂志工作，我没做 newsletter 因为那一直有 deadline 的想法、一直得，我们以前叫杂志 Feed the Beast，我感觉 so free 不用那样。所以至少现在我没做。",
+   "ts": "00:19:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know that well, so let me take us back on track and let's talk about just the high level framework here. So you talked about, it starts with this idea of tell people worlds changing, join this movement. What's the simple way to think about this, the pieces of this strategic narrative framework?",
+   "zh": "我深知，所以让我带我们回轨道、聊这高层框架。所以你聊了，它从「告诉人世界在变、加入这运动」这想法开始。简单想这个、这战略叙事框架的 pieces 是什么？",
+   "ts": "00:19:27"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "A lot of times people will contact me, say, \"Hey, I tried it, didn't work.\" Well, one very common thing, at least earlier was they would basically just take the Zuora deck, they'd get ahold of it and just put their logo on it. And so that's not going to work. One thing is we're not just saying, \"Hey, the world is changing.\" And then sometimes I'll see, \"The world is changing,\" and there'll be, \"Used to be,\" and there's a long list of things and then, \"Now it is,\" a long list of bullet points.",
+   "zh": "很多时候人联系我、说「嘿，我试了，不 work。」好，一个非常 common 事，至少早是他们会 basic 就拿 Zuora deck、搞到、放他们 logo 上。那不 work。一件事是我们不只说「嘿，世界在变。」而有时我看「世界在变」、会有「曾是」、一长串事、然后「现在是」一长串 bullet。",
+   "ts": "00:19:42"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "What's really, I think key is naming it, naming that old game. The examples you saw, software, cloud, transactions, subscription opinions, reality. This very, very concise naming is really key. And it's hard because in making it compact you're losing completeness. So you can imagine you're in a meeting, someone says like, \"Hey, how about we do transactions to subscriptions?\" And someone says, \"Well I don't know, there's a lot of things I don't really subscribe to. Subscription economy, really?\" So we're always kind of overstating it in a way, but it's not a problem. I don't think people say like, \"Oh that's wrong, subscription economy, because I still go to the grocery store and buy things.\" So anyway, that's the first piece.",
+   "zh": "真我觉得 key 是 naming it、naming 那旧游戏。你看到的例子，软件、云、交易、订阅、观点、现实。这非常非常 concise naming 真 key。而它难因为做 compact 你失 completeness。所以你能 imagine 你在会、有人说「嘿，我们做交易到订阅？」有人说「嗯我不知道，有很多事我不真订阅。订阅经济，真？」所以我们总 kind of overstate 它，但没问题。我不觉得人说「哦那错，订阅经济，因为我仍去杂货店买东西。」所以总之，那是第一块。",
+   "ts": "00:20:11"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "The second piece is what I call naming the stakes. And there's a few ways to do this, but one that's really great if we can do it is to name the winners to show that winners are already playing this new game. So for instance with Zuora they're saying, \"Hey, look, look at all the new winners,\" this is like 2015 so, \"Airbnb, Box,\" all these companies, they're already doing this subscription thing.",
+   "zh": "第二块是我叫 naming the stakes。有几种方式，但一个真棒如果我能做，是 naming the winners 显示赢家已在玩这新游戏。所以比如 Zuora 他们说「嘿，看，看所有新赢家」——这是像 2015 所以——「Airbnb、Box」所有这些公司，他们已在做这订阅事。",
+   "ts": "00:20:59"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And by the way, overall they show this scary stat about the longevity of Fortune 500 companies. It's getting smaller, and so it's a little disingenuous, but basically they make this case that, \"Hey, companies are dying, the ones that are winning are doing this.\" And so to the extent we want to make this life and death just like a movie. This is again, I'll make the parallel to Star Wars. So Luke, he spends the first 15 minutes of the movie belly aching. He wants to be a pilot, he wants to go out and have adventures in space. So Obiwan comes, he says, \"Hey, we got this mission, this princess we got to go,\" and all this stuff, \"Let's go. I'll teach you to be a pilot. We'll go have adventures in space.\" What does Luke say? He says, \"Ooh, you know what, I can't really get involved. They got to go home. It's late.\" Who does this sound like? The reluctant buyer.",
+   "zh": "而顺便，overall 他们 show 这 scary stat 关于 Fortune 500 公司 longevity。它在变小，所以有点 disingenuous，但 basic 他们做这 case「嘿，公司在死，赢的在做的。」而 so 就我们想 make 这 life 和 death 就像电影。这 again，我 make 平行 Star Wars。所以 Luke，他花电影前 15 分钟 belly aching。他想当飞行员、想出去太空冒险。所以 Obiwan 来，他说「嘿，我们有这任务、这公主我们得去」所有这、「走。我教你当飞行员。我们去太空冒险。」Luke 说啥？他说「哦，你知道，我真不能 involve。他们得回家。晚了。」这 sound 像谁？不情愿买家。",
+   "ts": "00:21:28"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "So yeah, \"I want to be innovative and all this. Ooh, you know what? I don't have budget this quarter.\" So how does George Lucas change Luke's mind? He basically kills the aunt and uncle, sorry, spoilers, it's been 40 years though. If you haven't seen it, you're probably not going to see it. Kills the aunt and uncle. Now it's pretty clear they're coming for Luke. Now the stakes are life and death. Probably he's going to be dead. But there is this other path that Obiwan holds out for him.",
+   "zh": "所以对，「我想创新 all this。哦你知道，我这季度没预算。」所以 George Lucas 怎么改 Luke 想法？他 basic 杀 aunt 和 uncle，抱歉剧透，但 40 年了。如果你没看，你大概不会看。杀 aunt 和 uncle。现在清楚他们在找 Luke。现在 stakes 是 life 和 death。可能他会死。但 Obiwan 为他留这另一路径。",
+   "ts": "00:22:27"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And whenever I work with teams and I talk about this, so they're like, \"Okay, I guess we got to then for kill the prospect's aunt and uncle,\" and basically yes, I mean figuratively. We got to show them that the future is not going to just be sort of okay. People talk about making it emotional and I've always wondered, what does that mean? Literally, what is the definition? This is for me the definition, is that the prospect doesn't see the future as sort of okay. They see it as split between a very negative outcome and a potentially very positive outcome.",
+   "zh": "而每当我跟团队合作、聊这个，他们像「好，我想我们得 then 为杀 prospect 的 aunt 和 uncle」而 basic 对，我意思是 figuratively。我们得 show 他们未来不会就 okay。人聊 make 它 emotional 而我总 wonder 那是啥意思？literal，定义是啥？这对我定义是，prospect 不把未来看就 okay。他们看它 split 在非常负结果和潜在非常正结果之间。",
+   "ts": "00:22:55"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "The third piece is what I call naming the object of the new game. I used to call it the promised land message, but I've changed it to this because I've found that it's sort of a little more fruitful. This subscription economy, transactions, it can get a little highfalutin and sort of big, but on the website when we just have to boil it down to a couple of words that's going to be clear right away, what can we say? And I find that what's the object of the new game really boils it down as kind of the rallying cry of the movement. So the example with Zuora, the object for a while was turn customers into subscribers. Very simple. It just sort of flows from it. Airbnb for a while had this one, live anywhere. If you think about-",
+   "zh": "第三块，我称之为「给新游戏命名一个目标物」。我以前管它叫「应许之地信息」，但后来改成了这个说法，因为我发现这样其实更有用。订阅经济、交易这些词，讲起来可能有点高大上、有点虚，但在网站上我们得把它浓缩成几个字，让人一眼就明白，那能说什么？我发现「新游戏的目标物是什么」这个问法，最能提炼出整个运动的集结号。比如 Zuora 当时有一阵子用的就是「把客户变成订阅者」，特别简单，顺理成章就出来了。Airbnb 有一阵子用的说法是 live anywhere（随时随地住下）。你想啊——",
+   "ts": "00:23:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Belong anywhere.",
+   "zh": "Belong anywhere（随处为家）。",
+   "ts": "00:24:21"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Well actually it was-",
+   "zh": "嗯，其实它当初是——",
+   "ts": "00:24:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, live like a human.",
+   "zh": "哦对，live like a human（像人一样生活）。",
+   "ts": "00:24:24"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "So you're right, it was, \"Belong anywhere,\" and then it switched to, \"Live there.\" I may have the chronology wrong, but it was the two of those things. You know better than I do. But either one, I mean think they're saying very similar things. Hey, there's this new world where you don't have to live in hotels, you can stay in people's houses. What's the object of that game is to belong anywhere, but live there. And I love it when it works that way where it's almost like an asymptotically unachievable thing. You are never literally going to live there. And if you think about it, this buyer mission statement, this rallying cry, I think of it really as the mission of the company. I mean, what is the mission of Airbnb other than to help people live there if they're going to be customer focused and all that?",
+   "zh": "你说得对，它当初是「Belong anywhere（随处为家）」，后来换成了「Live there（就在那儿生活）」。时间顺序我可能记反了，但就是这两句话。你比我清楚。但不管哪句，我觉得它们表达的意思非常接近。看，这个世界不一样了，你不一定非得住酒店，可以住在别人家里。这个新游戏的目标物，就是「随处为家」，或者「就在那儿生活」。我特别喜欢这种写法，因为它几乎是一个永远逼近却达不到的状态。你永远不可能真的「就在那儿生活」。想想看，这其实就是买家的使命宣言、整个运动的集结号，我把它看成这家公司的使命。如果 Airbnb 以客户为中心，它的使命除了帮人们「在那儿生活」还能是什么？",
+   "ts": "00:24:25"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "The fourth piece is, okay, well this object of the game, winning this game, it better be hard because if it's not, why would we even exist? Just with the movie, if Luke can just go destroy the Death Star then no movie. So there's got to be sort of obstacles in the way, things that are preventing them from. So saying, \"Okay, you want to turn customers into subscribers.\" So whereas Zuora, where they go next is to say, \"Okay, well how are you going to measure lifetime value?\" Because now you have this always on thing. \"How are you going to measure preferences and how they're changing over?\" All these new kind of challenges that didn't exist before. And then these are like the monsters in Lord of the Rings or the Empire in Star Wars, these are the obstacles.",
+   "zh": "第四块是，这个目标物、要赢下这个游戏，它最好很难，因为如果不难，我们凭什么存在？就像电影里，如果卢克轻轻松松就把死星炸了，那电影就没了。所以中间一定得有障碍、有阻挡你前进的东西。比如「好，你想把客户变成订阅者」——Zuora 接下来就会说，「那你怎么衡量客户终身价值？」因为现在这是个一直在线、持续发生的事。「你怎么衡量他们的偏好，以及偏好怎么随时间变化？」这些全是以前不存在的新挑战。这些就像《指环王》里的怪兽、《星球大战》里的帝国，是我们要跨越的障碍。",
+   "ts": "00:25:17"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I think about them because they sound like problems. This is what people would normally say, \"Oh, these are the problems we solve.\" But by setting up this story thing first we've repackaged them as obstacles to a new goal state that we've already positioned as life and death. So they take on this much more emotional meaning. We understand why they matter. And then of course the last piece is now talking about, well, how are we going to overcome these obstacles? Narrative people, in the movie business they call these the magic gifts that the main character gets to go help them win. What are the ways? Now we can talk about that and success stories and all the rest of the stuff.",
+   "zh": "我管它们叫障碍，是因为它们听起来像「问题」。一般人会说「哦，这些就是我们解决的问题」。但因为我们先把这个故事搭起来了，我们就把它们重新包装成了「通往一个我们已经定义为生死攸关的新目标」的障碍。所以它们承载的情感分量就完全不一样了。我们明白它们为什么重要。最后一块当然就是，我们怎么克服这些障碍？电影圈里管这些叫主角拿到的「魔法礼物」，帮他赢。有哪些办法？这时候我们就可以聊这个，以及成功案例，还有别的一切。",
+   "ts": "00:26:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's some obvious parallels to the hero's journey here. I imagine that it was a source of inspiration, and the Star Wars I think is the epitome of that journey. Can you talk about just how related those two are, how you think about that?",
+   "zh": "这里明显能对应上英雄之旅的套路。我猜那是你的灵感来源，而《星球大战》大概就是这种旅程的集大成者。你能讲讲这两者的关系有多紧密吗，你是怎么看这件事的？",
+   "ts": "00:26:58"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, I mean so hero's journey is this book that comes from, I think it's Hero of A Thousand Faces is a book by Joseph Campbell, a sociologist. He looks at myths over different cultures and different times and he finds this kind of common structure that he calls the hero's journey. I mean it's some controversy about that, about his book. Is it a very male oriented sort of take on things and a bunch of things.",
+   "zh": "行。英雄之旅来自一本书，我记得是约瑟夫·坎贝尔写的《千面英雄》，他是个社会学家。他研究了不同时代、不同文化的神话，发现了一个共同结构，叫英雄之旅。不过关于那本书也有些争议，比如它视角是不是太以男性为中心，还有一堆别的。",
+   "ts": "00:27:09"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "But even that aside, I found when I would talk about hero's journey and stuff, it's just like, it didn't really tell me what to do. Yeah, okay, yeah I got to do this pitch. So in the hero's journey there's like refusal of the call. That's actually that thing where Luke says he doesn't want to go and where the buyer says, \"Hey, I don't have budget.\" But I don't know, it was just too theoretical for me to really ... when I use it, people seem to sort of glass over. So I just don't really talk about that at all. But yeah, I mean that's behind a lot of this stuff for sure.",
+   "zh": "但抛开这些不谈，我发现当我聊英雄之旅那些东西的时候，它其实没告诉我该怎么做。好好好，我该做个这样的 pitch。英雄之旅里有个「拒绝召唤」，就是卢克说不想去、买家说「我没预算」的桥段。但对我来说它太理论化了，真用起来大家会走神。所以我干脆完全不提它。不过没错，这一切背后确实站着英雄之旅。",
+   "ts": "00:27:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that makes sense because I think if people hear about that all the time when they're like, become a better storyteller, tell your story in this hero's journey, and it's like, \"I don't know what I'm doing.\"",
+   "zh": "有道理，因为我觉得人们老听人说「你要做个更好的说书人、把你的故事按英雄之旅来讲」，然后就懵了——「我不知道该怎么做啊」。",
+   "ts": "00:28:17"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Also, I would say there's storytelling as a skill kind of thing, which is a great thing. Learn how to tell stories better, blah, blah, blah, blah. I'm not really interested in that in my work, what I'm interested in is the one story and the structure of that one story. And this one story, it doesn't really have ... like, the world is moved from transactions to subscriptions. There's not a main character in that story who's like having a problem and getting saved. It's almost as if what's happening is we're turning the person we talk to into the main character. By spelling out the shift, we're changing their world and we're saying, \"Hey, you got to change and you want to come with us.\"",
+   "zh": "还有一点，讲故事作为一种技能本身是好事，学着把故事讲得更好之类的。但我在工作里并不关心那个。我关心的是「那一个故事」以及它的结构。这个故事里其实没有主角——「世界从交易走向订阅」，这个故事里并没有一个主角遇到麻烦然后被拯救。它更像是我们把对话对象变成了主角。通过把那个转变讲清楚，我们改变了他们的世界，然后说「嘿，你得变了，你要不要跟我们一起走」。",
+   "ts": "00:28:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's almost like you're putting them into the hero's journey, like, \"Here's how you win.\"",
+   "zh": "几乎等于你把他们放进英雄之旅里了，像在说「来，这是你赢的方式」。",
+   "ts": "00:29:13"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Exactly. I love that.",
+   "zh": "没错，我喜欢这个说法。",
+   "ts": "00:29:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me just try to summarize what you shared, this five step framework. So you start with here's a new movement that's happening and you want to name it, you want to name the stakes and there's winners and losers and here's already happening and it's really important. Then you want to name the object of the new game, like turning customers into subscribers. Then show the obstacles, here's why it's challenging, and then talk about how you're going to overcome these obstacles.",
+   "zh": "让我试着总结一下你分享的这个五步框架。第一步，先说现在有个新运动正在发生，你要给它命名，你要定义「赌注」——有赢家也有输家，而且这事已经发生了，非常重要。然后你要给新游戏命名一个目标物，比如「把客户变成订阅者」。接着展示障碍，说明为什么它很难；最后讲你怎么克服这些障碍。",
+   "ts": "00:29:18"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And by the way, the naming of the object of the new game, I find it often is really nice to do it as a question. So we hey, there's this shift from transactions to subscriptions and look, everyone's doing it. So we asked a simple question, what would it take to turn every customer into a subscriber? And this way we're kind of bringing the person we're pitching to almost like they're coming along with us as a co, I don't know, adventurer in crafting this story.",
+   "zh": "而且顺带一提，给新游戏的目标物命名，我发现有种特别好的方式是用提问。比如，从「交易到订阅」的转变已经发生、大家都在做，于是我们抛出一个简单的问题：「要把每一个客户都变成订阅者，需要什么条件？」这样一来，我们几乎是把对方拉进来，像共同冒险的伙伴一样，一起把这个故事构建出来。",
+   "ts": "00:29:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. This episode is brought to you by Eco. Last month Eco users earned an average of $84 in cash back rewards. How? With Eco the future of personal finance. Eco is the update to a misaligned financial system providing an app that works just like your bank but removes almost all of the middlemen, helping even the best money optimizers optimize in less time automatically.",
+   "zh": "我喜欢这个。本期节目由 Eco 赞助。上个月 Eco 用户平均拿到的返现奖励是 84 美元。怎么做到的？通过 Eco——个人金融的未来。Eco 是对一个错配的金融系统的升级，它提供的应用用起来跟你的银行一样，但去掉了几乎所有的中间商，连最会理财的人都能用更少的时间自动把钱打理得更好。",
+   "ts": "00:30:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What if you earn rewards for paying your rent or got rewarded for ordering food and shopping online or even earn rewards for saving each month? And then imagine if you got rewarded again just for getting rewarded. With Eco, you can spend at some of your favorite merchants and automatically get 5% cash back plus Eco's APY rewards look more like $80, not 80 cents. And then there are Eco points, the world's first open reward system. You earn them whenever you do almost anything in the eco app. Eco is working to make these points the most rewarding points ever so it pays to be early.",
+   "zh": "如果你付房租能赚奖励、点外卖和网购能赚奖励、甚至每月储蓄也能赚奖励，会怎样？再想象一下，你因为拿到奖励而再次被奖励。用 Eco，你可以在一些你最喜欢的商家消费，自动拿到 5% 返现；而 Eco 的 APY 奖励看起来更像 80 美元，而不是 80 美分。还有 Eco 积分，全球第一个开放式奖励系统。你在 Eco 应用里几乎做任何事都能赚到积分。Eco 正努力让这些积分成为有史以来最超值的积分，所以早进场才划算。",
+   "ts": "00:30:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sound too good to be true? Go to Eco.com/Lenny, sign up for an onboarding and find out why it isn't. Lenny's podcast listeners who attend an Eco welcome session will get an exclusive 4% APY on deposits over $1,000. Learn more at Eco.com/Lenny, that's E-C-O.com/Lenny. Maybe just to reinforce this even more, what if we go through the five steps and just with one company as an example and just talk about what each of those were for them?",
+   "zh": "听着太好以至于不像是真的？去 Eco.com/Lenny，注册并完成入门流程，看看为什么它不是。参加 Eco 欢迎会的 Lenny 播客听众，能在超过 1000 美元的存款上拿到专属的 4% APY。了解更多请访问 Eco.com/Lenny，也就是 E-C-O.com/Lenny。为了再强化一下这个框架，要不我们拿一家公司当例子，把那五步走一遍，讲讲他们每一步具体是怎么做的？",
+   "ts": "00:31:13"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Okay, great. So there's a company called 360Learning. So this company, I don't know if folks know, but this company is raised over $200 million. They're in the space of corporate training software. So big companies, they have to train their people on all kinds of stuff. So you want to go through that one?",
+   "zh": "好，没问题。有这么一家公司叫 360Learning。这家公司我不知道大家熟不熟，它融资超过了 2 亿美元，做的是企业培训软件。大公司得给员工做各种培训。你想讲这家？",
+   "ts": "00:31:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that sounds great.",
+   "zh": "好啊，听起来不错。",
+   "ts": "00:32:01"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Okay, great. By the way, Nick Hernandez is the CEO and Nick's been on my podcast, so he's talked about this. So they for a long time were pitching themselves as collaborative learning. So they have features that let people sort of collaborate on courses and all kinds of stuff. And Nick is often pitching CEOs, of course his team is as well. And he told me that it was sort of falling a little bit flat. People, collaborative learning, whatever. How are you different from this learning platform, this learning platform?",
+   "zh": "好。顺便说，Nick Hernandez 是他们的 CEO，他也上过我的播客聊过这个。他们很长一段时间把自己定位成「协作式学习」(collaborative learning)。他们的功能能让人们协作做课程之类的。Nick 经常要跟 CEO 们 pitch，他的团队也一样。他告诉我，那种讲法有点水土不服。人们会说「协作式学习，那又怎样？你跟这个学习平台、那个学习平台有什么不一样？」",
+   "ts": "00:32:03"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And so when we worked together this collaborative learning, it's almost like a category name or a descriptor or something. They were so embedded that I decided, I don't even want to take it out, but can we define it in terms of a story? So the story they came to was, hey, used to be that companies train their people through basically a mindset of top-down learning. There's going to be some learning guru at the company, they're going to get all the courses, they're going to put it all together and sort of send out this training material to everybody.",
+   "zh": "所以我们合作的时候，这个「协作式学习」几乎像是个品类名或者描述词。他们已经陷在里面了，我甚至不想把它拿掉，但能不能用一个故事来定义它？于是他们讲出来的故事是：以前公司培训员工靠的是一种自上而下的心态。公司里会有一个「学习大师」，把所有课程打包好，然后发给所有人。",
+   "ts": "00:32:42"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "What's happening now is winning companies are approaching this differently. They're adopting this approach we might call upskill from within, which is if you look at Google, there's this page where I think you can go, it's a public. You can connect with Google's AI experts. They literally turn their internal experts into champions that are educating, not even just the company but even external people. They've created this culture of our own people are going to be the educators. So that's the shift from top down to this upskill from within. And of course I just even started to do the second piece which was like, hey, look at the big companies who are doing this.",
+   "zh": "而现在，领先的公司做法不同了。他们采用一种我们或许可以叫「从内部提升技能」(upskill from within) 的方式。比如你看 Google，有个公开页面，你能连上 Google 的 AI 专家。他们真的把自己的内部专家变成布道者，去教别人——不仅是公司内部，连外部的人也教。他们营造了一种文化：我们自己的员工就是老师。这就是从「自上而下」到「从内部提升技能」的转变。当然我刚才其实已经顺带做了第二步，就是「看看那些正在这么做的大公司」。",
+   "ts": "00:33:23"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And then I think they showed, \"Hey, you're not doing this. Look, training is becoming very expensive. People don't care. So this is the downside. So we're creating these sort of stake ...\" And also I think he has something about how training now, like companies, if you don't adapt, if you can't get these skills to your people, if you're a car company and you can't get these skills around electric cars, you're dead.",
+   "zh": "然后我想他们展示了「你看，你没这么做。培训越来越贵，人们也不在乎了。这就是代价」。所以我们建立了那种「赌注」——而且我记得 Nick 还讲过一个点：现在培训这件事，如果一家车企不能把电动车相关的技能带给员工，你公司就完了。",
+   "ts": "00:34:10"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Nick was in France and he saw this poster, a recruiting poster from McDonald's and it said, \"Hey, if you work at McDonald's you're going to learn from everybody else on your team.\" And it was like, wow, there it is. So there's another example we used as a kind of winner example. And so then the question became, I can't remember exactly, it was something like, how do you upskill from within? What would it take for you to turn your experts into champions of learning in the company and turn them into stars, and all this?",
+   "zh": "Nick 在法国看到一张麦当劳的招聘海报，上面写着「在麦当劳工作，你能向团队里的每个人学习」。他当时就想，哇，就是它了。所以那成了我们用的另一个「赢家」例子。于是问题就变成了——具体原话我记不清了——大概是「你怎么从内部提升技能？要把你的专家变成公司里学习的 champion，把他们变成明星，需要什么条件？」诸如此类。",
+   "ts": "00:34:35"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And then I'm going to forget here what all the obstacles were. But I think it was things like, well, how are you going to make it possible for anybody to create a course? People who might have expertise in electric engines but don't know how to create a course, how are you going to make sure that there's still the learning department, they're going to keep control and can ... all this. You can imagine all the different kind of questions. And then of course now 360Learning starts talking about all that stuff.",
+   "zh": "然后具体的障碍我有点忘了。但应该是类似「怎么让任何人都能创建课程？」这种。有些人可能在电动车引擎上是专家，但不会做课程。怎么保证学习部门仍然有掌控权？你能想象各种问题。然后 360Learning 就可以开始聊这些了。",
+   "ts": "00:35:06"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "What Nick has told me, I'm actually going to be on a webinar with Nick where someone asked me, \"Could you bring in a CEO who could talk about this stuff? Not just you B blabbing on about strategic narrative.\" And so Nick is going to join it. And we had a dress rehearsal the other day and he was telling me it's just like when he starts with this now he doesn't even get the question anymore of well how are you different from this other learning platform? Which used to always be the thing. It's just a much more seamless, okay, yeah, talk to our learning people, get this going. So it's just sounds like it's been really effective for them.",
+   "zh": "Nick 跟我说过——其实我马上要跟他一起做个 webinar，有人跟我说「你能不能请个 CEO 来聊这事儿？别光你一个人在那儿吹战略叙事」。所以 Nick 会来。前几天我们彩排，他告诉我，现在他一上来用这套，就再也没人问「你跟别的学习平台有什么不同」了——以前这问题永远都在。现在顺多了，人家直接说「好，去跟我们的学习团队谈谈，把它推起来」。所以对他们的效果看起来真的很好。",
+   "ts": "00:35:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's actually was what I was going to ask next is what kind of impact have you seen with someone shifting their pitch story from this doc? What was the arrogant doctor approach to the strategic narrative?",
+   "zh": "这恰恰是我接下来想问的：有人把 pitch 从那种「傲慢医生」式换成战略叙事之后，你看到过什么样的影响？",
+   "ts": "00:36:13"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, I mean it's always this kind of thing I hear. I mean, of course it's very difficult to measure this. I mean, what was the value of the strategic narrative for Gong and its growth? Was it 3X versus 1X, 2X? Or I don't, who knows, right? But the things I hear from CEOs, a few things. One is that when they're pitching, they're not pitching features out of context, they're pitching now a movement which is a lot better place to be, I think. In a way you're not pitching product. Product is like a prop for making the story come true. Very important prop, but there's this higher level overlay that becomes the focus of the conversation, at first, and of course we're going to get into product and that helps sell. Once we have this story then everything in marketing can be all about this story.",
+   "zh": "嗯，我听到的永远是这类反馈。当然这很难量化。战略叙事对 Gong 的增长值多少钱？是 3 倍还是 1 倍、2 倍？谁知道呢。但我从 CEO 们那儿听到几件事。一个是，他们在 pitch 的时候，不再脱离语境地吹功能，而是在 pitch 一场运动，这在我看来是个好得多的位置。某种程度上你不是在卖产品，产品像是让故事成真的道具。很重要，但它上面还盖了一层更高的东西，一开始对话的焦点是那一层，当然之后我们会进到产品、那会帮我们成交。一旦有了这个故事，营销里的一切就都能围绕它转。",
+   "ts": "00:36:23"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "With Zuora, if you look at their website, well when they first started doing this, maybe 80% of the content is not, \"Hey, let me tell you about how Zuora is so great,\" or, \"Here's our new release,\" or whatever. It's, \"Here's how music companies are embracing subscriptions. Here's how luxury goods companies are embracing subscriptions.\" It's all these kind of almost trend pieces that become unlimited fodder. And again, you're not touting your ... it's less salesy, right?",
+   "zh": "你看 Zuora 的网站，他们刚开始做这个的时候，大概 80% 的内容不是「来，让我告诉你 Zuora 多牛」或者「这是我们的新版本」，而是「音乐公司怎么拥抱订阅」「奢侈品公司怎么拥抱订阅」。全都是这种几乎像行业趋势文章的东西，取之不尽。你不是在自卖自夸，没那么重的推销味了，对吧？",
+   "ts": "00:37:21"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Another thing I just hear always, I just interviewed a CEO this morning for my podcast and this is the first thing he actually said was, \"It becomes the strategic north star for the product.\" So what he was telling me, and this was actually a little unusual, I asked him, \"Why did you come to me at first?\" And of course I'd asked him that before, but he said something this time that was a little different from what I'd heard before. He said, \"We are constantly getting feature requests through sales, through customer success. And we had sort of no way, bar to decide well what do we take on, what don't we take on? And this clearly has become our bar.\"",
+   "zh": "另一件我总听到的事——今天早上我刚采访了一个 CEO 录我的播客，他开口第一句就是这个：「它成了产品的战略北极星」。他跟我说了点有点不一样的东西。其实我之前问过他「你当初为什么来找我」，这次他说的话跟以前不太一样。他说「销售、客户成功那边不断给我们提功能需求，我们以前没有什么标准来判断该接哪些、不接哪些。现在这个清楚地成了我们的标尺。」",
+   "ts": "00:37:51"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "If you think about it for 360Learning, does it help us upskill from within? It's in. Does it not? Or it's prioritized. Does it not? Less prioritized. Amit Bendov told me this directly, he said we exactly the same thing. He said, \"We get a lot of requests for features and a lot of them are basically about opinions, some way to record opinions.\"",
+   "zh": "你想想 360Learning，「这能帮我们从内部提升技能吗？」能就做，不能就排后面，优先级低。Amit Bendov（Gong 的 CEO）直接跟我说过一模一样的话。他说「我们收到很多功能请求，很多本质上就是『做个记意见的地方』这种」。",
+   "ts": "00:38:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And this is Gong.",
+   "zh": "这就是 Gong。",
+   "ts": "00:39:04"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "\"We're not going to do those.\" In Gong, yeah. \"We're not going to do those.\"",
+   "zh": "「我们不做那些。」对，Gong 说的就是「我们不做那些」。",
+   "ts": "00:39:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any companies out there that maybe aren't clients that you see as like, wow, these guys are nailing it and they're doing a great job of this strategic narrative?",
+   "zh": "有没有哪家公司，可能不是你的客户，但你觉得「哇，这群人太到位了，把战略叙事做得特别好」？",
+   "ts": "00:39:08"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Well, one that really comes to mind is, I mean it's been out there for a while, but Drift. Drift comes out with essentially like a chatbot for your website, which might be the 30th chatbot for your website. And they don't say, \"Hey, here's why our chatbot is the best one.\" They start from a completely different place, which is, \"Hey, used to be people would sort of wait around for you to get back to them. It was a world of later. They called it the world of forms. You put up a web form and you expect someone's going to fill it out and maybe wait a few days while you take your sweet time deciding if you're going to get back to them.\"",
+   "zh": "有一个我一直记得的，虽然出来有一阵子了——Drift。Drift 做的本质上就是你网站上的一个聊天机器人，而那可能是第 30 个网站聊天机器人了。但他们不说「嘿，我们的聊天机器人为什么最好」。他们从一个完全不同的地方起笔：「以前人们得干等着你回消息，那是个『以后再说』的世界」。他们管那叫「表单的世界」——你放个网页表单，期待有人填完，然后等上几天，你慢悠悠地决定要不要回。",
+   "ts": "00:39:15"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And David Cancel and David Gerhardt started from right the beginning saying, \"Now we're in a world of now, where buyers are ...\" I think they showed this woman, I remember it was this woman sleeping with her phone. That's your prospect. They're always on and they're going to expect you to be engaging with them right away. And they called this conversational marketing, and they really went with that and created I think a whole movement and they broke away from all of the other chatbots.",
+   "zh": "David Cancel 和 David Gerhardt 从一开始就讲：「现在我们进入『当下』的世界，买家是……」我记得他们放了个女的抱着手机睡着的画面。那就是你的潜在客户。他们永远在线，期望你立刻跟他们互动。他们把这个叫「对话式营销」(conversational marketing)，真的把它做成了整个运动，从所有其他聊天机器人里杀了出来。",
+   "ts": "00:39:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome example. So earlier you threw out this word category, and I've noticed you haven't talked about category and category creation too much, and I think that you're kind of not a fan of this idea of creating a category and focusing on category. I'd love to hear your perspective on how that all relates to the stuff you recommend.",
+   "zh": "很棒的例子。你前面抛出了「品类」(category) 这个词，但我注意到你不太聊品类和「创造品类」，而且我觉得你其实不太待见「创造品类、聚焦品类」这套思路。我很想听听你的看法，这跟你推荐的东西怎么关联。",
+   "ts": "00:40:35"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Lenny, are you trying to get me in trouble? Like that guy who guy on your podcast who attacked jobs to be done?",
+   "zh": "Lenny，你是想给我惹麻烦吗？像你播客上那个怼「jobs to be done」的家伙？",
+   "ts": "00:40:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Apparently, let's do it. Let's see what kind of trouble we can get into.",
+   "zh": "显然，来吧。看看我们能惹出什么麻烦。",
+   "ts": "00:41:02"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I would soften it a little bit and not just ... because I don't want the ire of the category design folks, but I really would soften and say, I wouldn't say I'm not a fan of creating category. Look, I think if you look at Play Bigger, which has become The Bible of that category creation thing, if you look behind that going to, what do they say the category is? They say it's a narrative. It's a story about how the world was to how it is. And so what I find though is that when people think about category creation, they tend to just focus on, okay, well, what is this category name going to be that we got? What are these three words or two words, whatever, that are going to magically make us seem like we're totally different from everybody else?",
+   "zh": "我会把话说得柔一点，不是直接否定——因为我也不想惹怒品类设计那帮人。但我会软化地说，我不会说我不喜欢创造品类。你看，那本《Play Bigger》成了品类创造的圣经，但你翻到背后看它怎么定义品类的？它说品类是一个叙事，一个「世界过去怎样、现在怎样」的故事。但我发现，当人们想「创造品类」的时候，往往只盯着「我们要起个什么品类名」，那两三个词，指望它魔法般地让我们显得跟所有人都不一样。",
+   "ts": "00:41:06"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And A, I think that's not really possible. These three words aren't going to do it. Take Gong, I mean already other companies were using this term revenue intelligence. With Gong, it suddenly becomes a thing because I think they have this opinions-to-reality story behind it. At one point, again, I asked Amit, he said, \"Yeah,\" because I remember he really struggled, \"What should we call it? What should we call it?\"",
+   "zh": "第一，我觉得那不现实。这三词成不了事。拿 Gong 说，别的公司已经在用「revenue intelligence（营收智能）」这个词了。Gong 让它成了一回事，是因为它背后有「意见变成现实」的故事。 again，我问过 Amit，他说「对」，因为他当时真的很纠结「叫什么好、叫什么好」。",
+   "ts": "00:41:52"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "He came up with that one. But then when I asked him later, he is like, \"Yeah, you know what? In hindsight we probably could have called it strawberry intelligence. It didn't matter. It was really the story that sort of mattered.\" I think he was exaggerating a little bit. And I think the category people would actually agree with this, I think they would agree with, hey, these three words are, it's sort of a shorthand for this movement of old game narrative.",
+   "zh": "他想出了这个词。但后来我问他，他说「回头看，我们大概叫它 strawberry intelligence（草莓智能）也行。其实无所谓。真正重要的是那个故事」。我觉得他有点夸张。而且品类那帮人其实也会同意这点——那三词无非是这个「旧游戏到新游戏」运动的简写。",
+   "ts": "00:42:20"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "But I guess I feel like still by calling it category and category name, we're just focusing on those three words so much. And what happens often is CEOs will, they'll kind of come up with this little category, like what happened with Nick at the 360Learning with collaborative learning. We have this name, but we don't know how to tell the story around it. So my feeling is like, well, let's focus on the story. So that's why I talk about strategic narrative and movement creation versus category creation. If someone decides that your movement is a category, great. Bonus.",
+   "zh": "但我感觉，光是叫它「品类」「品类名」，我们就太聚焦那三个词了。常发生的是，CEO 们搞出这么个小品类——就像 Nick 在 360Learning 搞出「协作式学习」——有了名字，却不知道怎么围绕它讲故事。所以我的感觉是，先把故事搞扎实。这就是为什么我讲「战略叙事」和「运动创造」，而不是「品类创造」。如果有人觉得你的运动就是个品类，那很好，算是附赠。",
+   "ts": "00:42:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I see. So essentially your approach is category can play a part of this, but there's a bigger question you have of what's the story, what's the movement, what are the obstacles and categories and element of that potentially?",
+   "zh": "我明白了。所以本质上你的方法是：品类可以占一席之地，但更大的问题是「故事是什么、运动是什么、障碍是什么」，品类顶多是其中的一个元素？",
+   "ts": "00:43:32"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I mean, I almost see them as orthogonal, like with HubSpot. HubSpot had this narrative around inbound. It used to be just outbound stuff, now we're going to have inbound. And that wasn't really a category. Back then they were probably known as marketing automation. Now they're probably known as CRM because they've broadened. But this movement is the thing that's sort of the constant and in some ways orthogonal to whatever category they're in.",
+   "zh": "我觉得我几乎把它们看成是正交的。像 HubSpot，它围绕「inbound（集客）」有个叙事：以前都是 outbound，现在我们做 inbound。那其实不是个品类。那时候他们可能被叫做「营销自动化」，现在因为他们扩了，可能被叫 CRM。但这个运动才是那个恒定的东西，某种程度上和它处在什么品类是正交的。",
+   "ts": "00:43:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is the strategic narrative framework right for essentially any company or is there a sweet spot? And I've noticed most of the companies you've been talking about are B2B SaaS. So I don't know, maybe if there's a spectrum of perfect fit for strategic narrative framework and then not a fit at all. What's along that spectrum?",
+   "zh": "战略叙事框架适合所有公司吗，还是有个最佳适用区间？我注意到你聊的大多数公司都是 B2B SaaS。所以我不知道，也许从「完美适用」到「完全不适用」有个光谱，光谱上都有哪些？",
+   "ts": "00:44:16"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Yeah, well you can see, I mean it takes a little time to tell this story and you were kind of framing it a little bit and we're telling it in lots of different channels. So I think it does really play well in this enterprise sales context because also we have a group buyer there. So it's not just one person who's doing some research. This whole group has to have a uniting story. So I think you're right that in noticing that the companies that this tends to resonate with tend to be B2B, enterprise sales, technology I think because often the product is very complicated. That arrogant doctor stuff comes from an age when the things people were selling were products on shelves that didn't change much, cans of soup at the supermarket or a car in a dealership. Even software back then, shrink-wrapped in a box, doesn't change.",
+   "zh": "嗯，你能看出来，讲这个故事要花点时间，你也已经在框架里铺垫了一点——而且我们要在很多渠道都讲它。所以我觉得它在企业销售场景里特别好用，因为那儿的买家是一群人。不是一个人在做调研，而是整个群体得有一个 unifying 的故事。所以你说得对，这套东西最容易引起共鸣的是 B2B、企业销售、科技公司，因为产品往往很复杂。「傲慢医生」那套来自一个产品摆在货架上、变化不大的年代——超市里的罐头汤、经销商那里的车。就连那时候的软件也是装在盒子里卖的，不变。",
+   "ts": "00:44:33"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "B2B software, this stuff is changing by the minute. And does it even make sense to make a claim to say, \"Oh, we have these features and they have those features, therefore we're better,\" does that make any sense? That said, hey, I was looking for a sports watch, a Fitbit and I'm comparing specs and I'm doing all that stuff. And so that mode of buying is still happening, but I think, so yeah, when consumer products companies contact me, I usually say, \"No.\" Occasionally they still say, \"Okay, yeah, we'll build this, we still want to have this narrative.\" But yeah, I think it has the most value, most impactful right away for B2B enterprise technology companies.",
+   "zh": "B2B 软件，这玩意儿每分钟都在变。还去宣称「哦我们有这些功能、他们有那些功能，所以我们更好」，有任何意义吗？话是这么说，我买运动手表、Fitbit 的时候也在对比参数、干那些事。那种购买模式依然存在。但我觉得，所以——消费产品公司来找我，我一般说「不」。偶尔他们还是会说「好吧，我们还是想建这个、还是想要这个叙事」。但没错，它对 B2B 企业科技公司价值最大、影响最直接。",
+   "ts": "00:45:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just a few more questions. One is just what's a sign that you should spend time in this area, that something is broken in your strategic narrative story pitch?",
+   "zh": "就剩几个问题了。一个是，有什么信号说明你该在这块花时间了，说明你的战略叙事、你的 pitch 出问题了？",
+   "ts": "00:46:33"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Well, I can tell you what I hear from CEOs when they contact me. I always ask, what's happening? Because that idea I had, no CEO's going to budget a line item for this. I'm basically asking, why was I wrong? So a few things they tell me, one is that the company is maturing from a point a stage where they've been successful, but that success is ... one CEO put it this way, was brute force of the founders. So the founders are in every meeting, they're in every product discussion, every sales call, and that's shifting, the company's getting bigger.",
+   "zh": "我可以告诉你 CEO 们联系我时都怎么说。我总会问「发生了什么？」因为我之前有个想法——没有哪个 CEO 会为这个列个预算条目。我其实是在问「我之前为什么是错的？」他们告诉我几件事。一个是公司正在成熟，从早期靠创始人「蛮力」成功的阶段走出来。有个 CEO 是这么说的：成功靠的是创始人的蛮力。创始人每会必到，每个产品讨论、每个销售电话都在，但现在公司在变大，这撑不住了。",
+   "ts": "00:46:42"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Usually I'm seeing this around series B where the company is getting ... so they can't be in every sales call, every market call and they're looking to transmit all the good stuff and some direction in a way that people are going to remember and all that. Everything from how we pitch to what the product should be and all that, and they see this as that.",
+   "zh": "我通常在 B 轮左右看到这个——公司变大，创始人没法再进每一个销售电话、每一个市场电话了，他们想把那些好东西和方向，用一种人们能记住的方式传下去。从我们怎么 pitch 到产品该是什么样，他们都把这看成那个载体。",
+   "ts": "00:47:21"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "There's another point that I see people contacting me at, which is where they're growing. It's usually a bit later where they've scaled tremendously successfully. Now we're either acquiring or building out whole new product units. And that old story we told is just, it's just not big enough and we got to expand it to something bigger. This is the example of OneTrust, which the CEO I had on my podcast recently. Starts out with just, I think it's data privacy around the regulations that people have to be able to say, \"Don't track me,\" things like that. And then they buy these other company and now we have this much bigger offering. So how do we tell the story? And then I guess the third one is some form of pivot where hey, we were telling an old story but whatever, the market changed or whatever and we want to go in a different direction.",
+   "zh": "还有个节点我也看到人们来找我，就是他们已经增长得很大、很成功了。现在要么在收购、要么在新建一整个产品部门。而那个老故事太小了，装不下，得扩成更大的故事。OneTrust 就是例子，它的 CEO 最近上了我的播客。它起步时大概只做围绕法规的数据隐私——人们得能说「别追踪我」之类。后来他们收购了别的公司，现在产品大得多。那故事怎么讲？第三类则是某种转型：以前讲老故事，但市场变了，想换个方向。",
+   "ts": "00:47:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Say a founders listening to this and they're like, \"Okay, I realize I need to do this. I haven't spent enough time on this. Something's not working. This could be a huge unlock for us.\" What are the first couple steps they could take to start to figure this out? And I imagine at some point it's like, go talk to Andy. He'll help you through this. Is there stuff you can do on your own? How do you go about figuring this out?",
+   "zh": "假设一个创始人听着这个想「好，我意识到我得做这个。我之前花的时间不够。哪里不对劲。这对我们可能是个大解锁」。他们最先能做的几步是什么？我猜某个节点是「去找 Andy 聊聊，他会带你过一遍」。但自己能做点什么？你怎么着手搞清楚这个？",
+   "ts": "00:48:53"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Well, a lot of folks have emailed me over the years like, well I told you before, there were some who emailed me like, \"Hey, tried it, didn't work.\" But many more have emailed me, \"Hey, I tried it, it did work. Thank you.\" And so yeah, just try to lay out that structure and try it mean even when I work with teams, I adapt what people might call sort of lean approach. I want to get that thing out there into sales calls. We're not rolling it out to the whole sales team right away, but getting it out into some sales calls and get a sense, \"Hey, is this resonating? Are people given the nods?\"",
+   "zh": "这些年很多人邮件我，就像我前面说的，也有人写「试了，没成」。但更多是写「试了，成了，谢谢」。所以，去把那个结构铺出来、去试，哪怕很有用。我带团队的时候，会用人们说的「精益」思路。我想尽快把它丢进销售电话里。不是马上铺给整个销售团队，而是先放到一些销售电话里，感受一下「嘿，这有共鸣吗？人们在点头吗？」",
+   "ts": "00:49:11"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Ideally by the way, one way I look to test it, is it working, is when we talk about this shift and the stakes and do they stick. Do they kind of say, \"Yeah, let me tell you how that's playing out for us,\"? Or, \"Am I? Yes, I'm seeing that.\" Sometimes I'll literally, I'll train salespeople to ask them that question, like, \"Am I crazy or are you seeing this?\" And what do they say? And you can usually tell if they're in and it's qualitative. But I really like that kind of testing to see if it's working. And I think anybody can do that.",
+   "zh": "顺带一提，我判断它有没有用的一个方式是：当我们讲那个转变和赌注时，对方会不会接住。他们会说「对，跟我说说这在我们这儿怎么显现的」，或者「是吗？我确实看到了」。有时候我会直接训练销售去问那个问题：「是我疯了，还是你也看到了这个？」他们怎么答？你通常能判断他们进没进场，这是个定性的判断。但我很喜欢这种测试来看它有没有用。我觉得谁都能做这个。",
+   "ts": "00:49:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a template or guide you have online for folks to follow other than maybe just listening to this podcast and reading? Is there a post that's like, \"Here's the framework defined, and go follow these steps,\"?",
+   "zh": "你网上有没有个模板或指南让大家照着做，除了听这期播客和阅读？有没有一篇像「这是框架定义，按这几步走」这样的文章？",
+   "ts": "00:50:32"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I mean, I guess the closest is that The Greatest Sales Deck I've Ever Seen post, which is the Zuora deck. But even there, people have asked me for a framework and presentation companies say, \"Can we have your template so we could make it available to people? We'll revenue share with you or something.\" And I am so against this template. Every team I work with, it's different. It's not the same number of slides. Sometimes we can lay out this shift in one slide, sometimes it just feels better or the team likes it better, whatever, if it's a few and we're sort of getting people into it. Sometimes there's no slides. So I am really hesitant to recommend any template. And what I'd say is these are principles for building it, not any prescribed formula.",
+   "zh": "嗯，最接近的应该是那篇《我见过最牛的销售 Deck》，讲的是 Zuora 的那套。但即便在那儿，也有人跟我要框架，演示公司也说「能把你的模板给我们吗？我们发给人们用，跟你分润之类的」。我特别反对这种模板。我合作的每个团队都不一样。幻灯片数量不固定。有时候我们用一页就铺完这个转变，有时候团队觉得拆成几页感觉更好，我们就拆。有时候根本不用幻灯片。所以我真的很犹豫推荐任何模板。我要说的是：这些是构建它的原则，不是什么规定好的公式。",
+   "ts": "00:50:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If they do want to reach out to you while we're on this topic, what's the best way to contact you?",
+   "zh": "如果他们想趁这个话题联系你，最好的联系方式是什么？",
+   "ts": "00:51:37"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Connect with me on LinkedIn. That's usually a good one. And I'm usually posting things on LinkedIn that I've learned from working with other teams.",
+   "zh": "在 LinkedIn 上连我。 LinkedIn 通常比较靠谱。我一般会在 LinkedIn 上发一些我从跟别的团队合作里学到的东西。",
+   "ts": "00:51:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Last question before we get to a very exciting lightning round. Speaking of LinkedIn, you posted how in a working session with companies that the second session is always this low point they all go through and that everyone's starting to get discouraged and pained. And first of all, I love the expectation setting. You're like, \"This is going to suck initially and it'll get better.\" Why is that the low point and what is it that they focus on in that second session?",
+   "zh": "好。在进入超刺激的快问快答之前，最后一个问题。说到 LinkedIn，你之前发过，跟公司做工作坊时，第二次会议总是所有人都会经历的低谷，大家开始泄气、觉得痛苦。首先我很喜欢这种预期管理——你就像在说「一开始会很难受，但会好起来的」。为什么那是低谷？他们在第二次会议里聚焦的是什么？",
+   "ts": "00:51:52"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Well, apparently I'm not doing enough of an expectation setting, because what that post was about was this woman. So when I work with a CEO I always ask them to create what I call a strategic narrative team of up to four people. And usually those are leads of marketing, sales, whatever. In this case, the CFO was a really important person in this company. And so the CEO wanted her as part of this team. And she said to me at the end, she's like, \"I love where we got to.\" I always ask, \"What worked? What didn't work?\" And she's like, \"I love where we got to. That worked great. What didn't work was like, you told us that this second session was going to be bad, but I think you could have drilled home more like exactly how bad.\"",
+   "zh": "嗯，显然我的预期管理做得还不够，因为那篇帖子讲的是这个女的。我跟 CEO 合作时，总会让他们组一个最多四人的「战略叙事小组」，通常是市场、销售的负责人之类的。这回这家公司里 CFO 是个很关键的人，所以 CEO 想让她进小组。结束时她对我说「我很喜欢我们最后到的地方」。我总问「什么好用、什么不好用」，她说「我喜欢最后的结果，那部分很棒。不好用的是——你说过第二次会很难受，但我觉得你本可以更强调到底有多难受」。",
+   "ts": "00:52:17"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And then I asked her, \"Actually, could I have that quote with your face on a slide that I now present to future teams?\" She said, \"Yeah, you could do that.\" So the way I work it is I have a kickoff session where essentially I'm asking people on the team, what are these pieces? What is this old game, new game shift? How do we talk about when to set the stakes and everything I just took you through? And we have like five people in the room. There's going to be ... we're going to come out of this with notes and notes, boards and boards of ideas of this stuff.",
+   "zh": "然后我问她「能不能把这句话配上你的照片，做张幻灯片，我拿去给以后的团队看？」她说「行」。我的做法是，先有个启动会，其实就是问团队里的人：这几块都是什么？旧的游戏、新的游戏的转变成了什么？我们怎么设赌注、怎么讲我刚带你走完的那些？屋里大概五个人，出来时会有一堆笔记、一堆白板的好点子。",
+   "ts": "00:52:58"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "And so then two things happen. One is I ask the team to start interviewing customers about how they see this shift and sometimes the customers will literally give us the words and that can be helpful in sort of aligning if we have differences. But I also start working with the CEO one-on-one and we build a first version of this thing, and it's the second session where we present this first version to the team and think about what's happening.",
+   "zh": "然后两件事会发生。一是我让团队开始去访谈客户，看他们怎么看这个转变——有时候客户会原话把词给到我们，如果我们有分歧，这很有助对齐。二是我开始跟 CEO 一对一地干，搭出这东西的第一版。到了第二次会议，我们把第一版讲给团队听，一起想想发生了什么。",
+   "ts": "00:53:34"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "The team has just given us millions of gold ideas, truly they're all ... and in order to make something sort of clean and powerful, the CO and I have had to pretty much throw out all of them, save one or two. And there's going to be feelings about that, first of all. Second of all, if this were easy to just get all ... interview everybody, come up with it, they would've done it. So it's going to be wrong.",
+   "zh": "团队刚给了我们无数金点子，全是宝藏。但为了做出干净又有力的东西，CEO 和我基本得把绝大部分扔掉，只留一两个。首先，这会有情绪。其次，如果这事容易——访谈所有人、想出来——他们早就做了。所以它一定是错的。",
+   "ts": "00:54:02"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "But the good news is this is where the team gets to weigh in. I also ask, what's working, not working in this thing? And when we learn how it's not working, that gives us the juice to then me and the CEO go back to the drawing board. We plan on this in advance, we're going to go back to the drawing board and then bring up something good. So having a shit draft is a million times more valuable than having all these great ideas. But it's also really painful. It's painful not only for them, but for me. No matter how many times I say this, I expect they're going to love it in that first one too. And I'm really pissed off when they don't. But luckily now I've done enough times I know that's going to happen.",
+   "zh": "但好消息是，这正是团队能插话的地方。我也问「这东西哪里好用、哪里不好用？」当我们搞清楚它怎么不好用时，那股劲儿就来了——我和 CEO 回到画板上重新来。我们提前就计划好：会回到画板，再拿个好东西出来。所以一份糟糕的草稿，比那一堆好点子有价值一百万倍。但它也很痛苦。不仅他们痛苦，我也痛苦。不管我说多少遍，我还是会期待他们在第一版就爱上它。他们不爱时我真的很恼火。但幸好现在做得够多了，我知道那会发生。",
+   "ts": "00:54:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was just watching a documentary about Annie Lamont who came up with the first draft concept for writers that I stick to.",
+   "zh": "我刚看了个关于 Annie Lamont 的纪录片，她给作家提了「初稿」这个概念，我一直奉行。",
+   "ts": "00:55:20"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I'm a firm believer in that. Yeah.",
+   "zh": "我特别信这个。对。",
+   "ts": "00:55:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As you're talking, one last thought that I had is, so you'd work with because and founders. I feel like this could be just as useful to product leaders, product managers working on a product that they're launching, just like what is the movement, where it's happening, here's why this product's important. Do you find that too?",
+   "zh": "你讲的时候，我最后一个想法是：你跟 CEO 和创始人合作。我觉得这对产品负责人、产品经也同样有用——他们推一个产品上线时，也可以想「运动是什么、它正在哪发生、为什么这个产品重要」。你也这么觉得吗？",
+   "ts": "00:55:30"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Absolutely. And very frequently, the product leader, chief product officer is part of this group. What I'd say though is that the reason ... so after I did this work for a few years, I looked back and I was like, which were the engagements I did where I can see it, and the narrative is really this true north star for everything?",
+   "zh": "绝对。而且非常常见的是，产品负责人、CPO 就是小组的一员。不过我要说的是——我做了几年这工作后回头看，哪些合作里我能看到、这个叙事真的成了所有事的真正北极星？",
+   "ts": "00:55:45"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "It was always the ones where the CEO was leading it, not just in name, but literally the person who called me who was working on the drafts with me and going through. And so initially I didn't insist that it would be the CEO doing that, but eventually I started to, and I think even for a product leader, you're going to want the support. You don't want to be just telling that story in product. You're going to want that supported from this Zuora person who gave me the initial deck, he said it, \"It was like I had air cover and I was just going down and knocking down deals on the ground.\" You're going to want that air cover in marketing, sales, recruiting, everything. And how much better is it if it's really driven by the CEO and you have that?",
+   "zh": "永远是那种 CEO 在亲自带的项目——不只是挂名，而是真的那个打电话给我、跟我一起起草、一起过的人。所以一开始我没坚持要 CEO 来做，但后来我开始坚持了。而且我觉得即便对产品负责人，你也需要支持。你不想只是产品在讲这个故事。你会想要那种「空中掩护」——最早给我那套 deck 的 Zuora 的人说过：「就像有人给我空中掩护，我直接下去地面把单子 knocked down。」你会想要市场、销售、招聘、一切方面的这种掩护。如果真由 CEO 驱动、你又有这掩护，那好到什么程度？",
+   "ts": "00:56:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Is there anything else you wanted to touch on or you want to share before we get to our very exciting lighting round?",
+   "zh": "太棒了。在进超刺激的快问快答之前，还有别的想聊或想分享的吗？",
+   "ts": "00:57:01"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "No, except I love category design people and it's really just sort of terms that I like that are ... you know what? Forget it. Scratch that part.",
+   "zh": "没有，除了——我其实挺喜欢品类设计那帮人的，就是有些说法我挺喜欢的……你知道吗，算了，那段删了吧。",
+   "ts": "00:57:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I thought that was funny.",
+   "zh": "我觉得那段挺好笑的。",
+   "ts": "00:57:19"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Oh yeah. Okay. Yeah, we could leave it in. We could leave it in. You could even leave this in where I'm telling you to scratch it.",
+   "zh": "哦对，好。那留着吧，可以留着。你甚至可以把「我让你删掉」这段也留着。",
+   "ts": "00:57:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sounds good. I was actually going to joke that I was going to cut this out and leave you hanging, but okay.",
+   "zh": "行。我本来还想开玩笑说我要把这段剪掉、让你吊在那儿，不过好吧。",
+   "ts": "00:57:26"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "No, you can do that. Yeah. Category design people. Love you. Don't hate me. Thank you.",
+   "zh": "不，你可以那么做。对。品类设计那帮人，我爱你们。别恨我。谢谢。",
+   "ts": "00:57:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great. I love it. We're going to be okay, I think. Well, with that, we've reached our very exciting lightning round. I've got five questions for you. Are you ready?",
+   "zh": "好。我喜欢。我们没事的，我想。好，那我们到了超刺激的快问快答环节。我给你五个问题，准备好了吗？",
+   "ts": "00:57:37"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I'm ready. I saw like what you sent them, but I didn't really look at them, so I'm just going to tell you what I said. I'll go off that.",
+   "zh": "准备好了。我看了你发的那些，但没真看内容，所以我就按我说的讲，顺着来。",
+   "ts": "00:57:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Perfect. Excellent. The best version of this. What are two or three books that you've recommended most to other people?",
+   "zh": "完美。太好了。最经典版本。你最经常推荐给别人的两三本书是什么？",
+   "ts": "00:57:52"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "One of the books that I read initially from that Barnes & Noble, it was Story by Robert McKee. I think a lot of people know about it who are sort of interested in story stuff, but it's kind of a Bible of people who are doing screenwriting and stuff. If anyone who's in Hollywood who thought about going to Hollywood, they know about this book. I love a book called Out of Sheer Rage. It's really not about what I do or anything, but the author is Geoff Dyer. Geoff, he's written a lot of books that are kind of essay memoir, and this is a book about him trying to write a book about DH Lawrence. So it's all about procrastinating and like, \"Oh, I'm supposed to write this book. I'm about to go on a trip somewhere. Should I bring the collected works of DH Lawrence with me on the trip because that'll help me start the book, but maybe I shouldn't because it's not going to ... Then I could come back refreshed without having ...\" Basically, it's all that. It's this sort of in the head. I just really enjoy that book.",
+   "zh": "我最早在 Barnes & Noble 读的一本是 Robert McKee 的《Story》。对故事感兴趣的人很多都知道，它几乎是编剧圈的圣经。任何想去好莱坞的人都知道这本书。我还很喜欢一本叫《Out of Sheer Rage》的书。它其实跟我做的不搭边，但作者是 Geoff Dyer。他写了很多散文式回忆录，这本讲的是他试图写一本关于 DH Lawrence 的书。所以全是关于拖延——「哦我该写这本书。我要去旅行了，要不要把 DH Lawrence 全集带上，帮我开个头？但也许不该带，因为带了这个可能反而……然后我回来时精神焕发的，啥也没……」基本就是这些脑内戏。我真心喜欢那本书。",
+   "ts": "00:57:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's a favorite recent movie or TV show that you really enjoyed?",
+   "zh": "最近有哪部特别喜欢的电影或剧集吗？",
+   "ts": "00:58:59"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Station 11. Station 11. That was just so beautiful to me.",
+   "zh": "《Station 11》。就那一版。对我来说太美了。",
+   "ts": "00:59:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Trippy. That was a trippy movie. Did not expect to go where it went. I usually ask what's a favorite interview question you like to ask, and I don't know how often you're interviewing people, but does anything come to mind when I ask that?",
+   "zh": "迷幻。那是部迷幻的电影，没想到它往那个方向走。我通常问「你最喜欢的一个面试问题是什么」，不知道你面试人多不多，但听到这个你想到什么吗？",
+   "ts": "00:59:09"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Well, I can tell you one thing I ask when I speak with CEOs is I like to ask, what role has this narrative played in your leadership? How does it work in your leadership? And it's always really interesting for me to hear that, 'cause I often hear things that I don't expect.",
+   "zh": "嗯，我可以告诉你我跟 CEO 们聊时常问的一个：我喜欢问「这个叙事在你的领导力里扮演了什么角色？它在你的领导里怎么运作？」听他们讲总是很有意思，因为我常听到意料之外的东西。",
+   "ts": "00:59:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's a favorite product you've recently discovered that you just really like?",
+   "zh": "最近有没有发现什么特别喜欢的产品？",
+   "ts": "00:59:39"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I recently got a Fitbit. I think I may have mentioned it earlier. I was looking for a product like that, and so far I'm really loving it.",
+   "zh": "我最近买了个 Fitbit。前面可能提过。我当时在找这类产品，目前真的很喜欢。",
+   "ts": "00:59:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Have you tried other versions of Fitbits or that's the one that's working?",
+   "zh": "太棒了。你试过别版本的 Fitbit 吗，还是就这个用着顺手？",
+   "ts": "00:59:53"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I also ordered a Polar at the same time and wound up returning the Polar. Basically, it was just a little clunkier on my wrist, so I went with a Fitbit. Well, do you have one that you recommend instead?",
+   "zh": "我同时订了个 Polar，后来把 Polar 退了。 basically 它戴在手腕上笨重一点，所以我选了 Fitbit。你有推荐的别的吗？",
+   "ts": "00:59:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I just have the Apple Watch and I've never tried a Fitbit and it gives me all this stuff that seems cool, but I've never gone further.",
+   "zh": "我就用 Apple Watch，从没试过 Fitbit。它给我一堆看起来很酷的功能，但我没再深挖过。",
+   "ts": "01:00:13"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "I got the Fitbit like a week ago and I actually still am on the fence whether I bring it back to return it for the Apple Watch, so I'm enjoying it, but we'll see.",
+   "zh": "我大概一周前买的 Fitbit，其实还在犹豫要不要退了换 Apple Watch。所以挺喜欢的，但再看吧。",
+   "ts": "01:00:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Final question. You're expert on presentations and I imagine you spend a lot of time in decks, and so just what's like one small change people can make to how they put together a deck or a presentation that will make their presentation a lot better?",
+   "zh": "好。最后一个问题。你是演示专家，我想你花很多时间在 deck 上，所以——人们做 deck 或演示时能做的一个小改变，能让演示好很多，是什么？",
+   "ts": "01:00:28"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "This is the one thing, make the title the takeaway of the slide so that the person looking at it has to do zero work to take away. So example, you'll sometimes see, \"The problem,\" or, \"The team.\" Replace, \"The team,\" with, \"Our team is veterans of whatever industry,\" or every single slide it's a takeaway, not a label. It'll make everything flow a lot better.",
+   "zh": "就这一件事：把幻灯片标题写成这页的「结论」，让看的人零费力就能拿走重点。比如你有时看到「The problem（问题）」或「The team（团队）」。把「The team」换成「我们的团队是某某行业的老兵」。每一页都是结论，不是标签。这会让一切顺畅很多。",
+   "ts": "01:00:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You did a killer job answering the lightning round questions without having a peek at what they were going to be. Andy, this was incredibly insightful. I'm going to go start working on my strategic narrative for my podcast and newsletter. Two final questions. Where can folks find you online if they want to reach out, learn more, maybe consider working with you? And then how can listeners be useful to you?",
+   "zh": "你刚才没偷看问题就把快问快答答得这么漂亮。Andy，这期太有洞察了。我要去给我播客和 newsletter 写战略叙事了。最后两个问题。人们想联系你、了解更多、甚至考虑跟你合作，能在哪找到你？然后听众能怎么帮到你？",
+   "ts": "01:01:17"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "So I mentioned LinkedIn as a way to connect with me. That's fine. My website is AndyRaskin.com. I also have a podcast where I talk with CEOs, so if you're interested in hearing more details about actual use of this, it's called The Bigger Narrative. My mom introduces every episode. I sent her the interviews in advance. I call her and interview about what she thinks people will get out of it, and that conversation becomes the intro to the podcast episode. And what was the last question?",
+   "zh": "我刚说了 LinkedIn 是联系方式，那个可以。我的网站是 AndyRaskin.com。我还有个播客，跟 CEO 们聊，如果你想听更多实际使用的细节，叫 The Bigger Narrative。每一集都是我妈做开场。我提前把访谈发给她，打电话问她觉得人们能从中得到什么，那段对话就成了每集的开场。最后一个问题是什么来着？",
+   "ts": "01:01:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How can listeners be useful to you?",
+   "zh": "听众能怎么帮到你？",
+   "ts": "01:02:04"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Useful to me. Just if you try any of this stuff, let me know. Like, \"Hey, worked. Didn't work. Have this question.\" I would love to hear that stuff.",
+   "zh": "帮到我。就如果你试了任何这些东西，告诉我。比如「嘿，成了。没成。有个问题」。我很想听这些。",
+   "ts": "01:02:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Andy, thank you again for being here.",
+   "zh": "太棒了。Andy，再次感谢你来。",
+   "ts": "01:02:17"
+  },
+  {
+   "speaker": "Andy Raskin",
+   "en": "Thanks so much for having me, Lenny. This is really fun.",
+   "zh": "Lenny，太谢谢你了。这真的很有趣。",
+   "ts": "01:02:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at LennysPodcast.com. See you in the next episode.",
+   "zh": "大家拜拜。非常感谢收听。如果你觉得有价值，可以在 Apple Podcasts、Spotify 或你喜欢的播客应用上订阅本节目。也请考虑给我们评分或留评，这真的能帮到其他听众找到这档播客。你可以在 LennysPodcast.com 找到所有往期节目或了解更多。下期见。",
+   "ts": "01:02:22"
+  }
+ ]
+}

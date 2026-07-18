@@ -1,0 +1,821 @@
+{
+ "id": "Chip Huyen",
+ "name": "Chip Huyen",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Chip+Huyen",
+ "bio": {
+  "en": "Chip Huyen is an AI expert, author of Designing Machine Learning Systems, and founder focused on helping companies build great AI products, with deep experience in ML fundamentals and production.",
+  "zh": "Chip Huyen 是一位 AI 专家、《设计机器学习系统》（Designing Machine Learning Systems）作者，也是致力于帮助企业打造优秀 AI 产品的创始人，在机器学习基础与生产化方面有深厚经验。"
+ },
+ "summary": {
+  "en": "Chip explains ML basics accessibly—pretraining, post-training, RAG, reinforcement learning, RLHF—and then gets into what it actually takes to build great AI products versus what people assume. She argues most companies stall not for lack of tools but because they don't understand their users' real needs and can't measure productivity gains. The conversation is a clear, practical guide to avoiding the “AI hype gap” and shipping products that work.",
+  "zh": "Chip 以易懂的方式讲解机器学习基础——预训练、后训练、RAG、强化学习、RLHF——并深入探讨打造优秀 AI 产品真正需要什么，而非人们想当然的。她认为多数公司停滞不是因为缺工具，而是不理解用户真实需求、无法衡量生产力提升。对话是避开“AI 炒作鸿沟”、交付真正可用产品的清晰实用指南。"
+ },
+ "turns": [
+  {
+   "speaker": "Chip Huyen",
+   "en": "A question that get asked a lot and a lot is, \"How do we keep up to date with the latest AI news?\" Why do you need to keep up to date with the latest AI news? If you talk to the users who understand what they want or they don't want, look into the feedback, then you can actually improve the application way, way, way more.",
+   "zh": "人们经常问的一个问题是：“我们如何及时了解最新的人工智能新闻？”为什么需要了解最新的人工智能新闻？如果您与了解他们想要或不想要什么的用户交谈，查看反馈，那么您实际上可以进一步改进应用程序。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A lot of companies are building AI products. A lot of companies are not having a good time building AI products.",
+   "zh": "许多公司正在开发人工智能产品。许多公司在构建人工智能产品方面进展不顺利。",
+   "ts": "00:00:15"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "We are in an ideal crisis. Now, we have all this really cool tools to do everything from scratch and have new design. It can have you write code. You can have new website. So in theory, we should see a lot more, but at the same time, people are somehow stuck. They don't know what to build.",
+   "zh": "我们正处于一场理想的危机之中。现在，我们拥有所有这些非常酷的工具，可以从头开始做所有事情并进行新设计。它可以让你编写代码。您可以拥有新网站。所以从理论上讲，我们应该看到更多，但与此同时，人们却不知何故陷入困境。他们不知道要建造什么。",
+   "ts": "00:00:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All this AI hype, the data is actually showing most companies try it, doesn't do a lot. They stop. What do you think is the gap here?",
+   "zh": "所有这些人工智能炒作，数据实际上显示大多数公司都在尝试，但效果并不明显。他们停下来。您认为这里的差距是什么？",
+   "ts": "00:00:33"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "It's really hard to measure productivity. So, I do ask people to ask their managers, \"Would you rather give everyone on the team very expensive coding agent subscriptions or you get an extra head count?\" Almost every one, the managers will say head count. But if you ask VP level or someone who manage a lot of teams, they would say, \"Want AI assistant.\" Because as managers, you are still growing, so for you having one HR head count is big. Whereas for executives, maybe you have more business metrics that you care about. So you actually think about what actually drive productivity metrics for you.",
+   "zh": "衡量生产力确实很难。因此，我确实要求人们询问他们的经理，“您愿意为团队中的每个人提供非常昂贵的编码代理订阅还是您获得额外的人员数量？”几乎每一位经理都会说人数。但如果你问副总裁级别或管理很多团队的人，他们会说，“想要人工智能助理。”因为作为管理者，你仍在成长，所以对你来说拥有一名人力资源人员是很大的。而对于高管来说，也许您有更多关心的业务指标。因此，您实际上应该考虑什么因素能够真正推动您的生产力指标。",
+   "ts": "00:00:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Chip Huyen. Unlike a lot of people who share insights into building great AI products and where things are heading, Chip has built multiple successful AI products, platforms, tools. Chip was a core developer on NVIDIA's NeMo platform, an AI researcher at Netflix. She taught machine learning at Stanford. She's also a two-time founder and the author of two of the most popular books in the world of AI, including her most recent book called AI Engineering, which has been the most read book on the O'Reilly platform since its launch. (00:01:41): She's also gotten to work with a lot of enterprises on their AI strategies, and so she gets to see what's actually happening on the ground inside a lot of different companies. In our conversation, Chip explains a lot of the basics like, what exactly does pre-training and post-training look like? What is RAG? What is reinforcement learning? What is RLHF? We also get into everything she's learned about how to build great AI products, including what people think it takes and what it actually takes. We talk about the most common pitfalls that companies run into, where she's seeing the most productivity gains and so much more. (00:02:12): This episode is quite technical, more technical than most conversations I've had, and is meant for anyone looking for a more in-depth conversation about AI. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. And if you become an annual subscriber of my newsletter, you get a year free of 16 incredible products, including Devin, Lovable, Replit, Bolt, n8n, Linear, Superhuman, Descript, Wispr Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, and Mobbin. Head on over to lennysnewsletter.com and click product pass. With that, I bring you Chip Huyen after a short word from our sponsors. (00:02:47): This episode is brought to you by Dscout. Design teams today are expected to move fast but also to get it right. That's where Dscout comes in. Dscout is the all-in-one research platform built for modern product and design teams. Whether you're running usability tests, interviews, surveys, or in the wild field work, Dscout makes it easy to connect with real users and get real insights fast. You can even test your Figma prototypes directly inside the platform. No juggling tools, no chasing ghost participants, and with the industry's most trusted panel, plus AI-powered analysis, your team gets clarity and confidence to build better without slowing down.So if you're ready to streamline your research, speed of decisions, and design with impact, head to dscout.com to learn more. That's D-S-C-O-U-T.com, the answers you need to move confidently. (00:03:39): Did you know that I have a whole team that helps me with my podcast and with my newsletter? I want everyone on my team to be super happy and thrive in their roles. Justworks knows that your employees are more than just your employees. They're your people. My team is spread out across Colorado, Australia, Nepal, West Africa, and San Francisco. My life would be so incredibly complicated to hire people internationally, to pay people on time and in their local currencies, and to answer their HR questions 24/7. But with Justworks, it's super easy. Whether you're setting up your own automated payroll, offering premium benefits or hiring internationally, Justworks offers simple software and 24/7 human support from small business experts for you and your people. They do your human resources right so that you can do right by your people. Justworks, for your people. Chip, thank you so much for being here, and welcome to the podcast.",
+   "zh": "今天，我的嘉宾是 Chip Huyen。与许多分享构建伟大的人工智能产品和发展方向的见解的人不同，奇普已经构建了多个成功的人工智能产品、平台和工具。 Chip曾是NVIDIA NeMo平台的核心开发人员、Netflix的AI研究员。她在斯坦福大学教授机器学习。她还是人工智能领域两本最受欢迎书籍的创始人和作者，其中包括她最近出版的《人工智能工程》一书，该书自推出以来一直是 O'Reilly 平台上阅读量最大的书籍。 (00:01:41)：她还与许多企业就人工智能战略进行了合作，因此她可以了解许多不同公司内部实际发生的情况。在我们的谈话中，Chip 解释了很多基础知识，例如训练前和训练后到底是什么样子？什么是RAG？什么是强化学习？什么是 RLHF？我们还探讨了她所学到的有关如何构建出色的人工智能产品的所有知识，包括人们认为它需要什么以及它实际需要什么。我们讨论了公司遇到的最常见的陷阱，她发现在这些陷阱中生产力得到了最大的提高，等等。 (00:02:12)：这一集非常技术性，比我所经历过的大多数对话都更具技术性，适合任何寻求有关人工智能更深入对话的人。如果您喜欢这个播客，请不要忘记订阅并在您最喜欢的播客应用程序或 YouTube 中关注它。如果您成为我的时事通讯的年度订阅者，您将获得一年免费的 16 种令人难以置信的产品，包括 Devin、Lovable、Replit、Bolt、n8n、Linear、Super human、Descript、Wispr Flow、Gamma、Perplexity、Warp、Granola、Magic Patterns、Raycast、ChatPRD 和 Mobbin。前往 lennysnewsletter.com 并单击产品通行证。在我们的赞助商简短发言后，我为您带来了 Chip Huyen。 (00:02:47)：本集由 Dscout 为您带来。如今的设计团队不仅要快速行动，还要做到正确。这就是 Dscout 的用武之地。Dscout 是专为现代产品和设计团队构建的一体化研究平台。无论您是在进行可用性测试、访谈、调查，还是在野外工作，Dscout 都可以让您轻松与真实用户联系并快速获得真正的见解。您甚至可以直接在平台内测试 Figma 原型。无需杂耍工具，无需追逐幽灵参与者，借助业界最值得信赖的小组，再加上人工智能驱动的分析，您的团队将获得清晰度和信心，从而在不放慢速度的情况下更好地构建。因此，如果您准备好简化研究、决策速度并进行具有影响力的设计，请前往 dscout.com 了解更多信息。这就是 D-S-C-O-U-T.com，您需要自信地行动的答案。 (00:03:39)：您知道我有一个完整的团队帮助我制作播客和时事通讯吗？我希望我团队中的每个人都超级快乐并在自己的角色中茁壮成长。 Justworks 知道您的员工不仅仅是您的员工。他们是你的人。我的团队分布在科罗拉多州、澳大利亚、尼泊尔、西非和旧金山。我的生活将变得极其复杂，要在国际范围内雇用员工、按时以当地货币支付员工工资、以及 24/7 回答他们的人力资源问题。但有了 Justworks，这一切就变得非常简单。无论您是要设置自己的自动工资单、提供优质福利还是进行国际招聘，Justworks 都可以为您和您的员工提供简单的软件和来自小型企业专家的 24/7 人工支持。他们正确地利用您的人力资源，以便您能够正确地对待您的员工。适合您的员工。 Chip，非常感谢您来到这里，欢迎来到播客。",
+   "ts": "00:01:11"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Hi, Lenny. I've been a big fan of the podcast for a while, so I'm really excited to be here. Thank you for having me.",
+   "zh": "嗨，莱尼。一段时间以来，我一直是播客的忠实粉丝，所以我很高兴来到这里。谢谢你有我。",
+   "ts": "00:04:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to start with this table/chart that you shared on LinkedIn a while ago that went super viral, and I think it went super viral because it hit a nerve with a lot of people. Let me just read this and we'll show this on YouTube for people that are watching. So it's this very simple table you shared of what people think will improve AI apps and what actually improves AI apps. What people think will improve AI apps, staying up to date with the latest AI news, adopting the newest agentic framework, agonizing about what vector databases to use, constantly evaluating what model is smarter, fine-tuning a model. And then you have what actually improves AI apps, talking to users, building more reliable platforms, preparing better data, optimizing end-to-end workflows, writing better prompts. Why do you think this hit such a nerve with people? If you had to boil it down, what do you think people are missing about building successful AI apps?",
+   "zh": "我想从您不久前在 LinkedIn 上分享的这张表格/图表开始，它非常火爆，我认为它之所以如此火爆，是因为它触动了很多人的神经。让我读一下此内容，我们将在 YouTube 上向正在观看的人展示此内容。因此，您分享了这张非常简单的表格，其中列出了人们认为可以改进人工智能应用程序的内容以及实际改进人工智能应用程序的内容。人们的想法将改善人工智能应用程序，了解最新的人工智能新闻，采用最新的代理框架，苦恼于使用哪些矢量数据库，不断评估哪种模型更智能，对模型进行微调。然后你就可以真正改进人工智能应用程序，与用户交谈，构建更可靠的平台，准备更好的数据，优化端到端工作流程，编写更好的提示。你认为为什么这会如此触动人们的神经？如果你必须归结起来，你认为人们在构建成功的人工智能应用程序时缺少什么？",
+   "ts": "00:04:40"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "[inaudible 00:05:30] question that get asked a lot and a lot is that, \"How do we keep up to date with the latest AI news?\" I'm like, \"Why? Why do you need to keep up to date with the latest AI news?\" I know it sound very counter-intuitive, but there's just so much news out there. A lot of people also ask me questions like, \"How do I choose between two different technologies?\" Maybe like recently, MCP versus agent-to-agent protocol? And it was like, \"Which one is better or this or that?\" I think it's a [inaudible 00:05:59] question you should ask them is like, \"First, how much of the improvement could you get from optimal solutions versus non-optimal solutions?\" Right? And sometimes they were like, \"Actually, it's not much.\" Right? (00:06:10): I was like, \"Okay, if it's not much improvement, then why do you want to spend so much time debating something that doesn't make that much difference to your performance?\" Another question they ask is like, \"If you adopted a new technology, how hard it could be to switch that out to another?\" And sometimes they will like, \"Oh, I think it could be a lot of work switching it out.\" And I'm just like, \"Hmm, let's say here's a new technology. It hasn't been tested by a lot of people, and if you would adopt it, you would be stuck with it forever. Do you actually want to adopt it?\" Maybe you want to think twice about over commit to new technologies that hasn't been better tested.",
+   "zh": "[听不清 00:05:30] 被问得很多的问题是，“我们如何跟上最新的人工智能新闻？”我想，“为什么？为什么你需要了解最新的人工智能新闻？”我知道这听起来很违反直觉，但外面有太多新闻了。很多人还问我这样的问题：“我如何在两种不同的技术之间进行选择？”也许像最近一样，MCP 与代理间协议？就像，“哪个更好，这个还是那个？”我认为你应该问他们一个 [听不清 00:05:59] 的问题，“首先，与非最优解决方案相比，你可以从最优解决方案中获得多少改进？”正确的？有时他们会说，“实际上，这并不多。”正确的？ (00:06:10)：我当时想，“好吧，如果没有太大改进，那你为什么要花这么多时间讨论那些对你的表现没有太大影响的事情呢？”他们问的另一个问题是，“如果你采用了一项新技术，将其转换为另一种技术有多难？”有时他们会喜欢，“哦，我认为将其切换可能需要很多工作。”我就想，“嗯，假设这是一项新技术。它还没有经过很多人的测试，如果你采用它，你将永远坚持它。你真的想采用它吗？”也许您需要三思而后行，不要过度致力于尚未经过更好测试的新技术。",
+   "ts": "00:05:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love your just broader advice is just simple like, to build successful AI apps, talk to users, build better data, write better prompts, optimize the user experience, versus just like, what is the latest and greatest? What's the best model to use right now? What's happening in AI? Let me follow this thread of this idea of fine-tuning and basically post-training. There's all these terms that people hear in AI, and I think this is going to be a really good opportunity for people to learn what we're actually talking about, since you actually do these things, you build these things, you work with companies doing these things. There's a few terms I want to sprinkle in through the conversation, but let's start with this one. What's the simplest way for someone to understand? What is the difference between pre-training and post-training and then just how fine-tuning fits into that, just what fine-tuning actually is?",
+   "zh": "我喜欢你更广泛的建议，很简单，比如构建成功的人工智能应用程序，与用户交谈，构建更好的数据，编写更好的提示，优化用户体验，而不是像，什么是最新和最好的？现在使用的最佳模型是什么？人工智能领域正在发生什么？让我跟随这个微调和基本上后训练的想法的线索。人们在人工智能中听到了所有这些术语，我认为这对于人们了解我们实际上在谈论的内容来说将是一个非常好的机会，因为你实际上在做这些事情，你构建了这些东西，你与做这些事情的公司合作。我想在谈话中加入一些术语，但让我们从这个开始。人们理解的最简单的方法是什么？训练前和训练后有什么区别，微调是如何融入其中的，微调到底是什么？",
+   "ts": "00:06:49"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Chip disclaimer, I don't have full visibility on what this big secretive frontier labs are doing. But right from what I heard, so I think it's like one is, supervised fine-tuning when you have demonstration data, and you have a bunch of experts, \"Okay, here's a prompt, and here is what the answer should be like.\" You just train it to emulate what the human expert could be like. That's also what a lot of people would like, so open-source models are doing as they do it by distillation. So instead of having human experts to write really great answers to prompts, they get very popular, famous good models to generate a response to it and getting this train smaller models to emulate. (00:08:23): Sometimes you see people just like... So, that's because I really appreciate open source community by the way, but going from being able to train models that can emulate a existing good model. It's very different from being [inaudible 00:08:38] trained good models, like an output for existing good model. So, it's a big step there. Yeah, we have my supervised fine-tuning, and another thing that's very big, I'm not sure you have guests talking about it already, but reinforcement learning is everywhere.",
+   "zh": "芯片免责声明，我不完全了解这个大型秘密前沿实验室正在做什么。但据我所知，我认为这就像当你有演示数据并且有一群专家时进行监督微调，“好吧，这是一个提示，这就是答案应该是什么样的。”你只需训练它模仿人类专家的样子即可。这也是很多人想要的，因此开源模型正在通过蒸馏来做到这一点。因此，他们不是让人类专家针对提示写出真正出色的答案，而是使用非常流行、著名的优秀模型来生成对此的响应，并让这列较小的模型进行模拟。 (00:08:23)：有时你会看到人们就像......所以，这是因为我真的很欣赏开源社区，但从能够训练可以模拟现有良好模型的模型开始。这与 [听不清 00:08:38] 训练好的模型有很大不同，就像现有好的模型的输出一样。所以，这是一个很大的进步。是的，我们有我的监督微调，还有另一件事非常大，我不确定你们已经有客人谈论它，但强化学习无处不在。",
+   "ts": "00:07:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's pause on that because I definitely want to spend time on that, and that's such cool topic that's merging more and more in my conversations. But just to even summarize the things you just shared, which I think is really, really important stuff. So, the idea here is a model, essentially this algorithm piece of code that someone writes and say the frontier models are feeding it just like the entire internet of content, and basically, it's trying to test itself on predicting across all that data the next word, essentially. Token is the correct way of thinking about it, but a simpler way to think about it is the next word in text. As it gets it wrong, it adjusts these things called weights, essentially. Just like, is that a simple way to think about it, even that's just very surface level?",
+   "zh": "让我们暂停一下，因为我确实想花时间在这上面，这是一个很酷的话题，越来越多地融入我的谈话中。但只是总结一下您刚刚分享的内容，我认为这非常非常重要。所以，这里的想法是一个模型，本质上是有人编写的这段算法代码，并说前沿模型就像整个内容互联网一样提供给它，基本上，它试图测试自己，从本质上预测所有数据的下一个单词。令牌是正确的思考方式，但更简单的思考方式是文本中的下一个单词。当它出错时，它本质上会调整这些称为权重的东西。就像，这是一种简单的思考方式吗，即使这只是非常表面的水平？",
+   "ts": "00:08:52"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "So, I think of language modeling as a way of encoding statistical information about language, right? So, let's say that we both speak English, so we get a sense of what is more statistically likely. If I say my favorite color is, then you would say, \"Okay, that should be another color.\" The word blue would be much more likely to appear than the word like [inaudible 00:09:59], right? Because statistically, blue is more likely to [inaudible 00:10:02] my favorite color is. So, it's a way of encoding statistical information. (00:10:07): So when language modeling, when you train a large amount of data, you see a lot of languages, a lot of domains. So it can tell, okay, your basic size is standard. Then the user do the prompts and it could come with the next most likely token. So by the way, it's not a new idea actually. So it's the idea comes very, very old, from the 1951 papers like English entropy. I think it's by Claude Shannon, it's a great paper. And I think it reveals a story I really like is from... Did you read Sherlock Holmes by the way?",
+   "zh": "所以，我认为语言建模是一种对语言统计信息进行编码的方式，对吧？因此，假设我们都说英语，这样我们就可以了解统计上更有可能的情况。如果我说我最喜欢的颜色是，那么你会说，“好吧，那应该是另一种颜色。”蓝色这个词比 [听不清 00:09:59] 这样的词更有可能出现，对吧？因为从统计数据来看，蓝色更有可能 [听不清 00:10:02] 我最喜欢的颜色。所以，这是一种对统计信息进行编码的方式。 (00:10:07)：所以在语言建模时，当你训练大量数据时，你会看到很多语言、很多领域。所以它可以告诉你，好吧，你的基本尺寸是标准的。然后用户按照提示进行操作，它可能会带有下一个最可能的标记。顺便说一句，这实际上并不是一个新想法。所以这个想法非常非常古老，来自 1951 年的论文，比如英国的熵。我认为这是克劳德·香农 (Claude Shannon) 写的，这是一篇很棒的论文。我认为它揭示了一个我真正喜欢的故事，来自……顺便问一下，你读过《夏洛克·福尔摩斯》吗？",
+   "ts": "00:09:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I read a few Sherlock Holmes books. Yeah.",
+   "zh": "是的，我读了几本夏洛克·福尔摩斯的书。是的。",
+   "ts": "00:10:39"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah. So this is story of when Sherlock Holmes says using this statistical information to help solve a case. So this is his story. There is somebody left a message with a lot of stick figures. So Sherlock Holmes was like, okay, he knows that in English, the most common letter is E. Then the most common stick figure must be E. And then he goes, he stopped like that, [inaudible 00:11:07]. So the code... So I think there's language. So in a way, it's simple language modeling, but instead of at a work level, he does this as character level and token is something in between, right? A token is not quite a word, but it's bigger than a character. So let's say we say token because it would help us reduce vocabulary because which character is smallest amount of vocabulary right now. So alphabet has 26 character, but words can have millions and millions, right? Whereas tokens, you can be able to get the sweet spot between the two. (00:11:44): So let's say that we have the new word, how to say it, like podcasting, right? Let's say it's a new word, but it can divide a podcast and ing. So people understand, okay, podcast, we know the meaning. We know that ing is a verb, gerund, whatever it is. So we even know the word podcasting so that's why the token comes in. But yeah, the pre-tuning is basically encoding statistical informations of language to have you predict what is most likely. I think that most likely is the most simple way of doing it because it's more building a distribution of, okay, so the next token could be more 90% of the the time it could be a color, 10% of the time could be something else. So it basically distribution so language could pick, depending on your sampling strategy. Do you want it to always pick the most likely token or do you want it to pick something more creative? So I think my sampling strategy, I think is something extremely important. It can have you boost a performance in a huge way and very, very underrated.",
+   "zh": "是的。这是夏洛克·福尔摩斯说使用这些统计信息来帮助破案的故事。这就是他的故事。有人留下了很多简笔画的留言。所以夏洛克·福尔摩斯就像，好吧，他知道在英语中，最常见的字母是 E。那么最常见的简笔画一定是 E。然后他就这样停了下来，[听不清 00:11:07]。所以代码......所以我认为有语言。因此，在某种程度上，这是简单的语言建模，但他不是在工作级别，而是在字符级别和令牌之间进行此操作，对吧？令牌不完全是一个单词，但它比一个字符更大。假设我们说 token 是因为它会帮助我们减少词汇量，因为哪个字符现在是词汇量最小的。字母表有 26 个字符，但单词可以有数百万个字符，对吧？而代币，您可以在两者之间找到最佳平衡点。 (00:11:44)：假设我们有一个新词，怎么说呢，就像播客一样，对吧？假设这是一个新词，但它可以区分 podcast 和 ing。所以人们明白了，好吧，播客，我们知道它的含义。我们知道 ing 是一个动词、动名词，无论它是什么。所以我们甚至知道播客这个词，这就是令牌出现的原因。但是，是的，预调整基本上是对语言的统计信息进行编码，以便让您预测最有可能的内容。我认为这很可能是最简单的方法，因为它更多地构建了一个分布，好吧，所以下一个标记可能 90% 的时间可能是颜色，10% 的时间可能是其他东西。所以它基本上是分布的，因此语言可以根据您的采样策略进行选择。您希望它始终选择最有可能的标记，还是希望它选择更有创意的标记？所以我认为我的抽样策略非常重要。它可以极大地提高你的表现，但它却被非常非常低估。",
+   "ts": "00:10:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, awesome. So essentially, a model is just code with this whole set of weights, essentially the statistical model that has learned to predict what comes next after certain words and phrases?",
+   "zh": "好吧，太棒了。所以本质上，模型只是具有整套权重的代码，本质上是学会预测某些单词和短语之后接下来会发生什么的统计模型？",
+   "ts": "00:12:49"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:13:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then post-training and fine-tuning, specifically, is doing that same thing. So pre-training you get GPT5. Fine-tuning is someone taking GPT5 and doing the same sort of thing, adjusting these weights a little bit for specific use cases on data that they find is necessary to do their very specific use case. Is that a simple way to think about it?",
+   "zh": "具体来说，训练后和微调就是做同样的事情。所以预训练你会得到 GPT5。微调是指有人采用 GPT5 并做同样的事情，针对他们认为完成特定用例所必需的数据的特定用例稍微调整这些权重。这是一个简单的思考方式吗？",
+   "ts": "00:13:03"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah, I think weights is functions, right? So let's say you have... Maybe it has a functions of maybe Lenny's height is maybe 1X plus something or 2X [inaudible 00:13:38] and plus something is the weights, right? So you change it until you fit the correct data, which is my height and your height. So you can think it's a weight, as just a weight, say function. So you train, adjust the weights so they can fit the data, which is the training data.",
+   "zh": "是的，我认为权重是函数，对吗？假设你有...也许它有一个函数，也许莱尼的身高可能是 1X 加一些东西或 2X [听不清 00:13:38] 再加上一些东西就是重量，对吧？所以你改变它，直到适合正确的数据，即我的身高和你的身高。所以你可以认为它是一个权重，就像一个权重，比如说函数。因此，您进行训练，调整权重，以便它们可以拟合数据，这就是训练数据。",
+   "ts": "00:13:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. So we're talking about pre-training, post-training, fine-tuning. Is there anything else here that's important to share about just what this is exactly? What people need to understand about these parts of training?",
+   "zh": "惊人的。好的。所以我们谈论的是预训练、训练后、微调。关于这到底是什么，这里还有什么重要的事情需要分享吗？人们需要了解培训的这些部分的哪些内容？",
+   "ts": "00:13:54"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "So the vast majority of time, we don't touch on pre-training model. As users, we don't use it at all.",
+   "zh": "所以绝大多数时候，我们不会触及预训练模型。作为用户，我们根本不使用它。",
+   "ts": "00:14:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right. It's already done for us.",
+   "zh": "正确的。它已经为我们做好了。",
+   "ts": "00:14:12"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah. So I think my [inaudible 00:14:15] is a bit of fun process when my friend's training model is they try to play with their pre-training model and they're horrendous. They're saying things like [inaudible 00:14:23] \"Oh, my gosh.\" Yeah, it's crazy. So it's very interesting to look at how much of post-training can change the model behavior and I think that's where a lot of time, is a lot of people are spending energy on nowadays, their frontier lab, is on post-training. Because pre-training, I think... So pre-training have been used to increase the general capacity of capabilities of a model. And it needs a lot of data and model size to increase the model capabilities. And at some point, we are actually have kind of maxed out on the internet data. And people text data max out. I think a lot of people are doing with other data like audios and videos, and everyone's trying to think of what is the new source of data, but where like post-trading, but middle course of this is more of everyone have very similar pre-training data, is that post-training is where they make a big difference nowadays.",
+   "zh": "是的。所以我认为我的 [听不清 00:14:15] 当我朋友的训练模型是他们尝试使用他们的预训练模型并且他们很可怕时，这是一个有趣的过程。他们会说[听不清 00:14:23]“哦，天哪。”是的，这太疯狂了。因此，看看训练后可以在多大程度上改变模型行为是非常有趣的，我认为这就是现在很多人在他们的前沿实验室上花费大量时间和精力进行训练后的地方。因为预训练，我认为......所以预训练被用来增加模型能力的一般能力。并且需要大量的数据和模型大小来增加模型能力。在某些时候，我们实际上已经用尽了互联网数据。人们的文本数据已达到极限。我认为很多人都在处理音频和视频等其他数据，每个人都在尝试思考新的数据来源是什么，但就像交易后一样，但中间更多的是每个人都有非常相似的预训练数据，而训练后是他们现在能发挥很大作用的地方。",
+   "ts": "00:14:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is a good segue to, you talked about supervised learning versus unsupervised learning. I love, we're getting into this, by the way. This is super interesting. So you talk about labeled data. Basically, supervised learning is AI learning on data that somebody has already labeled and told it, here's correct versus incorrect. For example, this is spam versus not spam. This is a good short story. This is not a good short story. We've had the CEOs of a lot of these companies that do this for labs, Mercor and Scale, Handshake, there's Micro, there's a few others. So is that essentially what these companies are doing for labs, giving them labeled data, high-quality data to train on?",
+   "zh": "这是一个很好的延续，您谈到了监督学习与无监督学习。我爱，顺便说一句，我们正在讨论这个。这非常有趣。所以你谈论的是标记数据。基本上，监督学习是人工智能对某人已经标记并告诉它的数据进行学习，这里是正确与不正确的。例如，这是垃圾邮件与非垃圾邮件。这是一个很好的短篇故事。这不是一个好的短篇故事。我们有很多这样的公司的首席执行官为实验室做这件事，比如 Mercor 和 Scale、Handshake、Micro，还有其他一些公司。那么，这本质上是这些公司为实验室所做的事情，为他们提供标记数据、高质量的数据来进行训练吗？",
+   "ts": "00:15:21"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "It is in a way, but I think it's more like a product of big equations. So there are a lot more different components than that. So that's why I was talking about reinforcement learning. I'm not sure if your CEO [inaudible 00:16:09] interview bring up that term. So the idea is that once you [inaudible 00:16:14]... So let's say you have a model, give the model a prompt and it produce an output. You want to buy, once you reinforce, encourage the model to produce an output that is better. So now it comes to how do we know that the answer is good or bad? So usually, people relies on signals. So one way to get a first one good or bad is human feedback. They happen to be have two responses. You can, okay, this one one's better than the other. And we do that is because as humans, we tend to, it's very hard to give a concrete score, but it's easier to do comparisons. (00:16:53): If you ask me, okay, give this song a score, I'm not a musician and don't know how hard it is. It's like yeah, I don't know what, out of 10 I going to remove six. And if you ask me again a month from now and I completely forgotten, okay, maybe now seven, only four, I don't know. But then if you ask me, okay, here are two songs and which one would you prefer to play for the birthday party? I was like, \"Okay, I can prefer this song.\" So comparisons a lot easier. So [inaudible 00:17:18] have a human, you have human feedback and then you use this human feedback to treat a reward model to tell which and then the reward model help you like, okay, it's a model that produce this response. (00:17:28): It's [inaudible 00:17:30] can score, is this good or bad? And you try to bias toward producing better model, the better responses. Another ways you can, instead of using a human, so you can use AI because the response and say good or bad, right? Or in fact the thing is that people are very big on nowadays, verifiable rewards, which it's natural. So basically, they give it a math problem and then math solutions is a model app a solution. Okay, it's expected response should be 42 and if it doesn't provide 42, then it's wrong. Now it's not a good response. So yes, a lot of time, people using this human laborer, human laborers should produce, how to say, expert questions and I say expected answers and in the ways that [inaudible 00:18:16] systems that verifiable so that the models can be trained on. Yeah.",
+   "zh": "在某种程度上是这样，但我认为它更像是大方程的产物。因此，还有更多不同的组件。这就是我谈论强化学习的原因。我不确定您的首席执行官 [听不清 00:16:09] 采访中是否提到了这个术语。所以我们的想法是，一旦你 [听不清 00:16:14]...假设你有一个模型，给模型一个提示，它会产生一个输出。你想要购买，一旦你强化，鼓励模型产生更好的输出。那么现在我们如何知道答案是好还是坏呢？所以通常情况下，人们依赖信号。因此，获得第一个好或坏的方法之一是人类反馈。他们碰巧有两种反应。你可以，好吧，这个比另一个好。我们这样做是因为作为人类，我们往往很难给出具体的分数，但进行比较更容易。 (00:16:53)：如果你问我，好吧，给这首歌评分，我不是音乐家，不知道它有多难。就像是的，我不知道是什么，在 10 个中我要删除 6 个。如果你一个月后再问我，我完全忘记了，好吧，也许现在是七个，只有四个，我不知道。但如果你问我，好吧，这里有两首歌，你更喜欢在生日聚会上播放哪一首？我当时想，“好吧，我更喜欢这首歌。”所以比较起来就容易多了。所以 [听不清 00:17:18] 有一个人，你有人类反馈，然后你使用这个人类反馈来处理奖励模型来判断哪个，然后奖励模型帮助你喜欢，好吧，这是一个产生这种响应的模型。 (00:17:28)：[听不清 00:17:30] 可以得分，这是好是坏？你尝试偏向于产生更好的模型、更好的响应。你可以用另一种方式，而不是使用人类，所以你可以使用人工智能来做出反应并说好或坏，对吧？或者事实上，现在人们非常看重可验证的奖励，这是很自然的。所以基本上，他们给它一个数学问题，然后数学解决方案是一个模型应用程序的解决方案。好的，预期响应应该是 42，如果没有提供 42，那么它就是错误的。现在这不是一个好的回应。所以，是的，很多时候，人们使用这个人类劳动者，人类劳动者应该产生，怎么说，专家问题，我说的是预期的答案，并且以[听不清的00:18:16]系统可验证的方式，以便可以训练模型。是的。",
+   "ts": "00:15:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, I'm really glad you went there. This is essentially RLHF reinforcement learning with human feedback, which is exactly what I wanted to also talk about, right?",
+   "zh": "好吧，我真的很高兴你去了那里。 This is essentially RLHF reinforcement learning with human feedback, which is exactly what I wanted to also talk about, right?",
+   "ts": "00:18:19"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah. So I think it's general, it's a way of learning. It's training is [inaudible 00:18:33] learning and whether it learn from human feedback or AI feedback or verifiable rewards, I think I say it's just different way of collating signals.",
+   "zh": "是的。所以我认为这是普遍的，这是一种学习方式。它的训练是 [听不清 00:18:33] 学习，无论它是从人类反馈、人工智能反馈还是可验证的奖励中学习，我想我说这只是整理信号的不同方式。",
+   "ts": "00:18:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Yeah. We had the CEO of Anthropic on the podcast and he talked about their version of RLHF, which is AI driven reinforcement learning. I love the way you phrased it where basically you want to help the model, you want to reinforce correct behavior and correct answers, and this is the method to do it, whether it's say an engineer seeing an output from a model being like, \"No, here's how I would code it differently.\" And it's training a different model that the original model works with to tell it, am I correct or not correct? Is that right, roughly?",
+   "zh": "惊人的。是的。 Anthropic 的首席执行官在播客中谈到了他们的 RLHF 版本，即人工智能驱动的强化学习。我喜欢你的措辞方式，基本上你想帮助模型，你想强化正确的行为和正确的答案，这就是做到这一点的方法，无论工程师看到模型的输出是否会说，“不，这就是我会如何以不同的方式编码它。”它正在训练原始模型所使用的不同模型来告诉它，我是正确的还是不正确的？ Is that right, roughly?",
+   "ts": "00:18:44"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:19:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:19:16"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I think that's a way of looking into it. I think that's a space is so exciting nowadays because there are so many domain expert task that the model developers want models to do well on, right? Let's say you're accountant. Maybe you want to use a model to have accounting task and need a lot of accounting data examples from accountant. So you need to hire a lot of them, should I do it or everyone [inaudible 00:19:41] physics problems, everyone should do, I don't know, legal questions and stuff or engineering questions or somebody was telling me they want to do, using coding to source scientific problems and not just coding to build product, which is another different whole realm of things. And I also using very specific toolings. I'm not sure what apps you use, but maybe like a [inaudible 00:20:04] app or QuickBooks or Google Excel. They have very specific tools, specific expertise. So you want the model [inaudible 00:20:13] learn. (00:20:13): So they need a lot of humans expert in this area should create data to train them and it's a massive thing people because everyone wants a lot of data and wants [inaudible 00:20:25] unlimited budget. But whether, I think this is also a little bit of low-key, interesting economics. I'm not sure you've talked to the guests about, I thought it's very interesting [inaudible 00:20:35] think about because it's very lopsided, right? Because they're only a very small numbers of frontier labs and they want a lot of data and there's a massive amount of startups or company providing related data. So you can see these companies like this startup doing data labeling. They have maybe some massive AR, but if you ask them, \"Okay, so how many customers you have?\" And they could be very small numbers, I'm not sure. I'm not sure you... I saw you smiling.",
+   "zh": "我认为这是一种研究方式。我认为现在这个领域非常令人兴奋，因为模型开发人员希望模型能够出色地完成许多领域专家的任务，对吗？假设你是会计师。也许您想使用模型来完成会计任务，并且需要会计师提供大量会计数据示例。所以你需要雇用很多人，我应该这样做还是每个人都这样做[听不清00:19:41]物理问题，每个人都应该做，我不知道，法律问题和东西或工程问题或者有人告诉我他们想做，使用编码来寻找科学问题，而不仅仅是编码来构建产品，这是另一个不同的整体领域。我还使用非常具体的工具。我不确定您使用什么应用程序，但可能像 [听不清 00:20:04] 应用程序或 QuickBooks 或 Google Excel。他们拥有非常具体的工具、具体的专业知识。所以您希望模型 [听不清 00:20:13] 学习。 (00:20:13)：因此，他们需要大量该领域的专家创建数据来培训他们，这是一件大事，因为每个人都想要大量数据，并且想要 [听不清 00:20:25] 无限的预算。但是否，我觉得这也是一个有点低调、有趣的经济学。我不确定你有没有跟嘉宾谈过，我觉得这很有趣[听不清00:20:35]想想因为它很不平衡，对吧？因为他们只是极少数的前沿实验室，他们需要大量的数据，而有大量的初创公司或公司提供相关数据。所以你可以看到像这家初创公司这样的公司正在做数据标签。他们可能有一些大型 AR，但如果你问他们，“好吧，那么你有多少客户？”我不确定它们可能是非常小的数字。我不确定你...我看到你在微笑。",
+   "ts": "00:19:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, yeah, yeah, we chatted about that.",
+   "zh": "是啊，是啊，是啊，我们聊过这个。",
+   "ts": "00:21:03"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah, so I'm a little bit like [inaudible 00:21:08] uneasy. I have a company's growing crazy, but it's heavily dependent on two or three companies. And at the same time, if I was this company, frontier labs, what could be the right economical things for me to do? Now I want a lot of startups. I want to have a lot of providers so I can pick and choose, and as this providers can also to compete each other to lower the price and it's so dependent on [inaudible 00:21:34] regardless. So I feel like, yeah, so this whole economics is very interesting to me and I'm curious to see and how it plays out.",
+   "zh": "是的，所以我有点 [听不清 00:21:08] 不安。我有一个公司正在疯狂增长，但它严重依赖于两三个公司。同时，如果我是这家公司，前沿实验室，什么对我来说是正确且经济的事情？现在我想要很多初创公司。我想要有很多提供商，这样我就可以挑选，并且因为这些提供商也可以相互竞争来降低价格，所以无论如何，它都非常依赖于 [听不清 00:21:34]。所以我觉得，是的，整个经济学对我来说非常有趣，我很好奇它会如何发挥作用。",
+   "ts": "00:21:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I'm hearing is you're bearish on the future of these data labeling companies because as you said, they don't have a lot of leverage over pricing because they have so few customers and there's so many people getting into the space. So basically, even though there's some of the fastest growing companies in the world, you're feeling like there's a challenge up ahead.",
+   "zh": "我听到的是，你对这些数据标签公司的未来持悲观态度，因为正如你所说，他们在定价方面没有太多的影响力，因为他们的客户太少，而进入这个领域的人太多。所以基本上，即使有一些世界上发展最快的公司，你也会感觉前方存在挑战。",
+   "ts": "00:21:42"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I'm not sure if I'm bearish on it. I think I'm curious because I think things has a way of work out in ways that I don't expect. So I think that maybe these companies, they have a lot of data, maybe they wouldn't be able to use that to have some insight that helps them stay ahead of the curve. So I don't know.",
+   "zh": "我不确定我是否看跌它。我想我很好奇，因为我认为事情会以我意想不到的方式发展。所以我认为，也许这些公司拥有大量数据，也许他们无法利用这些数据来获得一些洞察力来帮助他们保持领先地位。所以我不知道。",
+   "ts": "00:22:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A very fair answer. Okay, while we're on this topic, I want to chat about evals, which is a very recurring topic in this podcast. This is the other piece of data content these companies share that AI labs really need. Can you just talk about what an eval is, the simplest way to understand it and then how this helps models get smarter?",
+   "zh": "一个非常公平的答案。好的，当我们讨论这个主题时，我想谈谈评估，这是这个播客中经常出现的主题。这是这些公司分享的人工智能实验室真正需要的另一条数据内容。您能谈谈什么是 eval、理解它的最简单方法以及它如何帮助模型变得更智能吗？",
+   "ts": "00:22:22"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "So I think people approach eval, I think they're two very different problems. One is a app builder and can I say have an app that do maybe a chatbot? Very simple answer first thing that came to my mind and I want you to know if chatbot is good or bad. So it needs to come away with evaluate the chatbot. Another thing is, I think of this as a task-specific eval design. So let's say I'm a model developer and I want to make my model better at code writing. And it was like, \"Okay, but how do I even measure code writing?\" (00:23:19): So I need someone to understand code writing and think about what makes a story good and then design the whole dataset and then criteria to evaluate code writing. So yeah, I think there's that. I think it's more like eval design that is very interesting [inaudible 00:23:39] work criteria, [inaudible 00:23:42] work guidelines, how to do it and then also train people how to do it effectively. So I guess, [inaudible 00:23:49], I think eval is really, really fun because it's extremely creative. I was looking at different eval people built and it was like, \"Wow.\" It's not dry at all. It's just super, super, super fun.",
+   "zh": "所以我认为人们在处理 eval 时，我认为这是两个非常不同的问题。一个是应用程序构建器，我可以说有一个可以做聊天机器人的应用程序吗？我首先想到的非常简单的答案，我想让你知道聊天机器人是好还是坏。因此，需要评估聊天机器人。另一件事是，我认为这是一个特定于任务的评估设计。假设我是一名模型开发人员，我想让我的模型更好地编写代码。就像，“好吧，但是我如何衡量代码编写呢？” (00:23:19)：所以我需要有人了解代码编写并思考如何使故事变得精彩，然后设计整个数据集以及评估代码编写的标准。是的，我想就是这样。我认为这更像是评估设计，非常有趣 [听不清 00:23:39] 工作标准、[听不清 00:23:42] 工作指南、如何做到这一点，然后还培训人们如何有效地做到这一点。所以我想，[听不清 00:23:49]，我认为 eval 真的非常有趣，因为它非常有创意。我看着人们构建的不同评估，感觉就像“哇”。一点也不干。这真是超级、超级、超级有趣。",
+   "ts": "00:22:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We had a whole podcast on evals with Hamel and Shreya. That's exactly what they talked about is just, it's actually really fun to create evals for companies, especially. So let's still dig into that one a little bit more. There's this kind of debate online that, I don't know how big of a deal this debate is, but it feels like people spend a lot of time thinking about this, this idea of, do we need evals for AI products? Some of the best companies say they don't really do evals, they just go on vibes. They're just like, \"Is this working well? Can I feel it or not?\" What's your take on just the importance of building evals and the skill of evals for AI apps, not the model companies?",
+   "zh": "我们与 Hamel 和 Shreya 一起制作了一整套关于评估的播客。这正是他们所说的，为公司创建评估实际上非常有趣，尤其是。因此，让我们继续深入研究一下这一点。网上有这样的争论，我不知道这个争论有多大，但感觉人们花了很多时间思考这个，这个想法，我们是否需要对人工智能产品进行评估？一些最好的公司表示，他们并没有真正进行评估，他们只是进行氛围营造。他们只是想，“这运作良好吗？我能感觉到吗？”对于人工智能应用程序（而不是模型公司）构建评估的重要性和评估技能，您有何看法？",
+   "ts": "00:24:01"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "You don't have to be absolutely perfect, I think, to win. You just need to be good enough and being consistent about it. Okay, this is not a philosophy I follow, but I have worked with enough companies to see that play out. So when I say, why a company don't eval? Let's say you are an executive and you want to have a new use case. So here's a use case you started out, built and it's like it works well. The customers are somewhat happy. You don't have the exact metric for it. (00:25:05): So the traffic keeps increasing, people seem happy, people keep buying stuff and now here's our engineer coming like, \"Okay, we need eval for it.\" And it was like, \"Okay, how much effort do we need to go into eval?\" And they were like, \"Okay, maybe two engineers, this much, this much.\" And it could maybe would improve that and it was like, \"Okay, so how much expected gain can I get from it?\" And the engineer would be like, \"Oh, maybe you can improve it from 80% to 82%, 85%.\" (00:25:33): And it was like, \"Okay, but [inaudible 00:25:35] that two engineers and we going to launch a new feature, then it could give me so much more improvement.\" So I think it's one of them is eval. Sometimes people think of eval as like okay, this is good enough, just don't touch it. If you do spend a lot of energy on eval, it would only incremental improvement where it spends the energy on another use case and maybe [inaudible 00:25:55] good enough that you can vibe check it. (00:25:57): So I do think maybe that's a debate is about. I do think that a lot of time people just get things to the place where it's like, okay, good enough, people run. But in the end, but of course there's a lot of risk associated with it because if you don't have a clear metric, you have a good visibility to [inaudible 00:26:17] applications or models performing it might do something very dumb or it can cause you, I know something crazy can happen. So yeah, so I do think eval is very, very important if you have, if you operate a scale and where failures can have catastrophic consequences. (00:26:38): Then you do need to be very tyrannical about what you put in front of the users, understand different failure modes, what could go wrong and also maybe in a space when that it's a feature, the product is a competitive advantage. You want to be the best at it. So you want to have a very strong understanding of where you are and where you are with the competitors. But it's just something that's more a low-key, okay, this is like something is like, okay, that's not the core but it helps with our users. (00:27:04): Then maybe you don't need to be so obsessed or theoretical about it. It's like, okay, that's good enough for now and if it fails, then it fails. Okay, I know it's so terrifying. But yeah, I think it's all about the question of return investment. I'm a big fan of eval, I love reading eval. And I says, I understand why some people would choose to not focus on eval right away and choose bringing on new functionalities instead.",
+   "zh": "我认为，你不必绝对完美才能获胜。你只需要足够好并保持一致即可。好吧，这不是我遵循的理念，但我已经与足够多的公司合作以看到这一点。那么当我说，为什么公司不进行评估呢？假设您是一名高管，并且想要一个新的用例。这是您开始构建的一个用例，看起来效果很好。顾客有些高兴。你没有准确的衡量标准。 (00:25:05)：因此流量不断增加，人们看起来很高兴，人们不断购买东西，现在我们的工程师来了，“好吧，我们需要对其进行评估。”就像，“好吧，我们需要付出多少努力来进行评估？”他们说，“好吧，也许两个工程师，就这么多，这么多。”它可能会改善这一点，就像，“好吧，那么我可以从中获得多少预期收益？”工程师会说，“哦，也许你可以把它从 80% 提高到 82%、85%。” (00:25:33)：就像是，“好吧，但是 [听不清 00:25:35] 我们和两名工程师将推出一项新功能，然后它可以给我带来更多改进。”所以我认为 eval 就是其中之一。有时人们认为 eval 就好像好吧，这已经足够好了，只是不要碰它。如果您确实在评估上花费了大量精力，那么它只会在将精力花费在另一个用例上的情况下进行渐进式改进，并且也许 [听不清 00:25:55] 足够好，您可以检查它。 (00:25:57)：所以我确实认为这可能是一场辩论。我确实认为很多时候人们只是把东西拿到那个地方，就像，好吧，足够好了，人们就跑了。但最终，当然存在很多与之相关的风险，因为如果您没有明确的指标，那么您对执行它的 [听不清 00:26:17] 应用程序或模型有很好的可见性，可能会做一些非常愚蠢的事情，或者可能会导致您，我知道可能会发生一些疯狂的事情。所以，是的，所以我确实认为评估是非常非常重要的，如果你有，如果你操作一个规模，并且失败可能会产生灾难性的后果。 (00:26:38)：那么你确实需要对呈现在用户面前的内容非常专制，了解不同的故障模式，可能会出现什么问题，而且也许在一个空间中，当它是一个功能时，产品就是一个竞争优势。你想成为最擅长的。因此，您希望对自己的处境以及与竞争对手的处境有一个非常深入的了解。但这只是比较低调的东西，好吧，这就像是，好吧，这不是核心，但它对我们的用户有帮助。 (00:27:04)：那么也许你不需要对此如此痴迷或理论化。就好像，好吧，现在已经足够好了，如果失败了，那就失败了。好吧，我知道这太可怕了。但是，是的，我认为这都是关于回报投资的问题。我是 eval 的忠实粉丝，我喜欢阅读 eval。我说，我理解为什么有些人会选择不立即关注评估，而是选择引入新功能。",
+   "ts": "00:24:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. That is a really pragmatic answer. What I'm hearing is evals are great, very important, especially if you're operating at scale, but pick your battles. You don't need to write evals for every little feature. Something that Hamel and Shreya shared is that people need just, I don't know, five or seven evals for the most important elements of their product. Is that what you see or do you see a lot more in production that people build and need?",
+   "zh": "惊人的。这是一个非常务实的答案。我听到的是，评估很棒，非常重要，尤其是当你大规模运营时，但要选择你的战斗。您不需要为每个小功能编写评估。 Hamel 和 Shreya 分享的一点是，人们只需要（我不知道）对其产品中最重要的元素进行五到七次评估。这是您所看到的，还是您在生产中看到了人们构建和需要的更多内容？",
+   "ts": "00:27:32"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I don't think of just a fixed number on the evals. What was the goal of eval? The goal of eval is to guide the product development. So you see eval, because I think I'm a big fan of eval, is that it helps you uncover opportunities where the progress are doing well. So sometimes, we've seen a very obvious [inaudible 00:28:15] where you look at the eval and we realize it's like, okay, it performed really poorly on this specific segment of users and then we look into it's like, okay, what's wrong with it? And it turns out, it's like we just don't have a good messaging to it. So people should just focus on the things that we're doing poorly, can improve significantly. Yeah, so I kind of like the number of eval is really depends. We have seen product with hundreds of different metrics.",
+   "zh": "我认为评估的不仅仅是一个固定的数字。评估的目标是什么？评估的目标是指导产品开发。所以你看到 eval，因为我认为我是 eval 的忠实粉丝，因为它可以帮助你发现进展顺利的机会。所以有时，我们会看到一个非常明显的[听不清 00:28:15]，当你查看评估时，我们意识到，好吧，它在这个特定的用户群体中表现非常差，然后我们会调查它，好吧，它出了什么问题？事实证明，我们只是没有向其传达良好的信息。因此，人们应该只关注我们做得不好、可以显着改进的事情。是的，所以我有点喜欢评估的数量确实取决于。我们已经看到了具有数百种不同指标的产品。",
+   "ts": "00:27:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哦，哇。",
+   "ts": "00:28:40"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "People going crazy, this is because that product is general, have different names, have one eval for, I don't know, verbosity, have one eval for user sensitive data and another is for length but has a number of, okay, let's just give a good example, concrete example, like deep research. So you have the application, you have views and model to do deep research for you. Okay, have a prompt. Let me say, okay, do me a comprehensive research on only Lenny's Podcast and help me propose, show me report on what kind of topics he's interested in, what kind of videos could get the most views or what topics that he's missing on that he should be covering, right? Have that prompt. Then how do you evaluate the result? I don't think there's one metrics that would help. Maybe it's like maybe you have a hundred, I think somebody has a benchmark and is get a hundred expert, write a bunch of prompts and they go through, on the answers on AI and do it. And it's extremely costly and slow. (00:29:46): But [inaudible 00:29:47] might have something else. First of all, one way I was thinking about it, I was talking to a friend about it and one way it's like, how would you produce the result of the summary? At first you need to, what you do, gather informations and to gather informations you need to do a lot of search queries. You gather, grab the search results and then some of the search results you aggregate and then maybe say, okay, I'm still missing on this. You have to go another route and on another route, [inaudible 00:30:17] have the summary. So every step of the way, you need evaluations. You don't [inaudible 00:30:21] end-to-end. Maybe it was a search query in my first thing about, okay, now I write five search queries. I might look into how good are the search queries? Do they as they similar to each other because you need five search queries are very similar? Okay, Lenny Podcast, Lenny Podcast last month, Lenny Podcast two months ago. (00:30:39): It's not very exciting. But if the query is a podcast, the keywords are more diverse and then look at the results of the search query and then say you enter the search query. Lenny Podcast data labeling and they come up with 10 pages, 10 results. And then you come up with like, oh, Lenny Podcast on, I don't know, frontier labs, and you have 10 results. [inaudible 00:31:06] different webpages. Okay, how much of them overlapping... Are we doing both the breadth, getting a lot of page, but also, do we have depth and also do you have relevance because if we come up with a search query, it's completely irrelevant to the original prompt. So I feel like every aspect of it, it would need a way of evaluating. So I don't think it's how many eval should I get, but how many eval do I need to get a good coverage, a high confidence in my application's performance and also to help me understand where it is not performing well so that I can fix it.",
+   "zh": "人们会发疯，这是因为该产品很通用，有不同的名称，有一个评估，我不知道，冗长，有一个评估用于用户敏感数据，另一个评估是长度，但有很多，好吧，让我们举一个很好的例子，具体的例子，比如深入研究。所以你有了应用程序，你就有了为你做深入研究的观点和模型。好的，有提示。让我说，好吧，我只对莱尼的播客进行全面的研究，并帮助我提出建议，向我展示他感兴趣的主题类型，什么样的视频可以获得最多的观看次数，或者他应该涵盖哪些主题，对吧？有那个提示。那么你如何评价这个结果呢？我认为没有一个指标可以提供帮助。也许就像你有一百个，我认为有人有一个基准，并且找了一百个专家，写了一堆提示，然后他们根据人工智能的答案进行了检查并执行。而且它的成本极其高昂且速度缓慢。 (00:29:46)：但是 [听不清 00:29:47] 可能还有其他东西。首先，我在思考这个问题，我正在和一个朋友谈论这个问题，从某种程度上来说，你会如何得出总结的结果？首先，您需要做什么，收集信息，并收集信息，您需要进行大量搜索查询。你收集、抓取搜索结果，然后汇总一些搜索结果，然后可能会说，好吧，我仍然错过了这一点。你必须走另一条路线，在另一条路线上，[听不清 00:30:17] 有总结。因此，每一步都需要评估。你不[听不清 00:30:21] 端到端。也许这是我第一件事的搜索查询，好吧，现在我写了五个搜索查询。我可能会调查一下搜索查询有多好？它们是否彼此相似，因为您需要五个搜索查询非常相似？好的，莱尼播客，上个月的莱尼播客，两个月前的莱尼播客。 (00:30:39)：这不是很令人兴奋。但如果查询是播客，关键字就更加多样化，然后查看搜索查询的结果，然后说您输入搜索查询。 Lenny 播客数据标签，他们得出 10 个页面，10 个结果。然后你想出，哦，Lenny Podcast，我不知道，前沿实验室，你有 10 个结果。 [听不清 00:31:06] 不同的网页。好吧，它们有多少重叠……我们是否既要广度，又要获得大量页面，而且我们是否有深度，是否具有相关性，因为如果我们提出搜索查询，它与原始提示完全无关。所以我觉得它的每个方面都需要一种评估方式。所以我不认为我应该进行多少次评估，而是我需要多少次评估才能获得良好的覆盖范围，对我的应用程序的性能有很高的信心，并帮助我了解它在哪里表现不佳，以便我可以修复它。",
+   "ts": "00:28:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. And I'm hearing also just especially for the very core use case, the most common path people take in your product is where you want to focus.",
+   "zh": "惊人的。我还听说，特别是对于非常核心的用例，人们在你的产品中最常见的路径就是你想要关注的地方。",
+   "ts": "00:31:43"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah, yeah.",
+   "zh": "是啊是啊。",
+   "ts": "00:31:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. There's one more term I want to cover and I want to go a somewhat different direction. RAG? People see this term a lot, R-A-G. What does it mean?",
+   "zh": "好的。我还想涵盖一个术语，并且我想朝一个不同的方向发展。抹布？人们经常看到这个词，R-A-G。这是什么意思？",
+   "ts": "00:31:54"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "So RAG stands for Retrieval-Augmented Generations [inaudible 00:32:08] not a specific true generative AI. So the idea is just for a lot of questions, we need context to answer. So I think it came pretty, I think it's from the paper 2017. So someone was like, so they realized it's for a bunch of benchmark. When the question answering benchmarks, they realized it's like, okay, if we give the model informations about the questions, the next answer can be much, much better. So what they do with that is try to retrieve information from Wikipedia. So for question [inaudible 00:32:39], just retrieve that and then put it into the context and answer. It does much better. So I feel like it sounds like a no-brainer, right? I mean, obviously. So I think that's what RAG is, as a simplest sense, it's just providing the model with a relevant context so that it can answer the questions. And it's where things get really more interesting because traditionally, when it started out, RAG is mostly text. (00:33:03): So we talk about a lot of way of how to prepare data so that the model can retrieve effectively. Let's say that not everything is a Wikipedia page. A Wikipedia page is pretty contained and you know, okay, everything about it is about a topic. But a lot of time, you have documents of like [inaudible 00:33:19] and they have a weird way of structures of documents. Let's say that you had documents about Lenny Podcast and in the future, in the beginning a document it's like, from now on, podcast wouldn't refer to Lenny's Podcast. So let's say somebody in the future is like, \"Okay, tell me about Lenny. Lenny's work.\" And because as a [inaudible 00:33:40] document does not have the term Lenny, you just don't know, you might not retrieve it. And if the document is long enough that it's chunked into a different part, so the second part doesn't have the word Lenny, so you cannot reach it. So you have to find a way to process data. So that makes sure it's like... It can retrieve, the information is just relevant to the query even though it might not immediately obvious that it's related. (00:34:02): So people come up with only thing of, I think, contextual visual, like giving X chunk of the data, the relevant, maybe in a summary metadata so that it knows or some people use as hypothetical questions. It's very interesting for even the chunk of documents, I must generate a bunch of questions that the chunks can help answer so that when I have a query, it's like okay, does it match any of the hypothetical questions? It can fetch it. So it's very interesting approach. Okay, so maybe before I go to the next thing, I just want to say this data preparations for RAG is extremely important. And I would say this in a lot of the companies that I have seen, that's the biggest performance, in their RAG solutions coming from better data preparations, not agonizing over what [inaudible 00:34:51] databases to use because [inaudible 00:34:53] database, of course is very important to care about things like latency or if you have very specific access patterns like read-heavy or write-heavy, of course, it's like it matters. But in term of pure quality answers, I think the data preparation is just [inaudible 00:35:07].",
+   "zh": "所以 RAG 代表检索增强一代 [听不清 00:32:08]，而不是特定的真正的生成人工智能。所以这个想法只是为了解决很多问题，我们需要上下文来回答。所以我认为它很漂亮，我认为它来自 2017 年的论文。所以有人觉得，所以他们意识到这是为了一堆基准。当问答基准测试时，他们意识到，好吧，如果我们为模型提供有关问题的信息，下一个答案可能会好得多。所以他们所做的就是尝试从维基百科检索信息。因此，对于问题 [听不清 00:32:39]，只需检索该问题，然后将其放入上下文中并回答即可。它做得更好。所以我觉得这听起来是理所当然的，对吧？我的意思是，显然。所以我认为这就是RAG，从最简单的意义上来说，它只是为模型提供相关的上下文，以便它能够回答问题。这就是事情真正变得更有趣的地方，因为传统上，当它开始时，RAG 主要是文本。 (00:33:03)：所以我们讨论了很多如何准备数据以便模型能够有效检索的方法。假设并非所有内容都是维基百科页面。维基百科页面内容非常丰富，你知道，好吧，它的所有内容都与一个主题有关。但很多时候，你有类似 [听不清 00:33:19] 的文档，而且它们的文档结构有一种奇怪的方式。假设您有关于 Lenny Podcast 的文档，在将来，一开始的文档就像是，从现在开始，podcast 将不再指 Lenny 的 Podcast。假设将来有人会说：“好吧，告诉我有关莱尼的事。莱尼的工作。”而且因为 [听不清 00:33:40] 文档没有术语 Lenny，所以您只是不知道，您可能无法检索到它。如果文档足够长，可以分成不同的部分，那么第二部分就没有 Lenny 这个词，所以你无法找到它。所以你必须找到一种处理数据的方法。因此，这确保了它就像......它可以检索，信息只是与查询相关，即使它可能不会立即明显地表明它是相关的。 (00:34:02)：所以我认为，人们只想出上下文视觉的东西，比如提供X块相关的数据，可能在摘要元数据中，以便它知道或有些人用作假设问题。即使对于文档块来说，这也很有趣，我必须生成一堆可以帮助回答的问题，这样当我有查询时，就好像好吧，它是否与任何假设的问题匹配？它可以取到它。所以这是非常有趣的方法。好吧，也许在我开始下一件事之前，我只想说 RAG 的数据准备工作非常重要。我想说的是，在我见过的很多公司中，这是最大的性能，他们的 RAG 解决方案来自于更好的数据准备，而不是为使用什么 [听不清 00:34:51] 数据库而烦恼，因为 [听不清 00:34:53] 数据库当然对于关心诸如延迟之类的事情非常重要，或者如果您有非常特定的访问模式，例如读重或写重，当然，这就像它很重要。但就纯粹质量答案而言，我认为数据准备只是[听不清00:35:07]。",
+   "ts": "00:32:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When you say data preparation, what's an example to make that real and concrete for us to understand?",
+   "zh": "当你说数据准备时，有什么例子可以让我们更真实、更具体地理解呢？",
+   "ts": "00:35:06"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "So one way is mentioned as in you have chunks of data. So we have think about how big of each chunk should be. Because if it's sort of think about it's a context you want to maximize, maybe you can, it's very simple example. You want to retrieve a thousand words. So if a data chunk is long, then it's more likely to contain more relevant metadata so it can retrieve more. But if it's too long then you have a thousand word. And so chunk is like a thousand words, you can reach one chunk. So it's not very useful. But if it's too short, then you can retrieve more relevant information also. It can retrieve a wider range of documents and chunks, but at the same time each chunk is too small to contain relevant information. (00:36:02): So we have very nice chunk design, how big each chunk should be. You add contextual informations like summary, metadata, hypothetical questions. Somebody was telling me just a very big performance they got is that from rewriting their data in the question-answering format. Instead of having... So they have a podcast instead of just chunking the podcast, you just reframe, rewrite it into here's a question, here's answers and produce a lot of them. It can use AI for that as well. So that's one example of data processing. A lot of example I see is for people helping, using AI to help specific [inaudible 00:36:40] use and documentations. And we write documentation. Usually a lot of documentation today is written for human reading and AI reading is different because it's different because humans, we have common sense and we kind of know what it is. So one things are, even for human experts, they have the context that AI doesn't quite have. (00:36:59): So somebody told me that what's a big change they have is let's say, that you have a function. The documentation for this, maybe the library. As a library said okay, the output of this one is maybe talking for, I don't know, some crazy term, maybe some temperature or something on the graph. It should be like one zero or minus one. And as a human expert maybe understand the scale, what one in the scale mean, but for AI, just really doesn't understand what that means. So actually, have another annotation layer for AI. It's like, okay, good temperatures equal one means like that. It's not like it's a actual temperature. It's associated with the scale over there. So just saving all this data processing to make it easier for AI to retrieve the relevant information to answer the questions.",
+   "zh": "因此提到了一种方法，因为您有大量数据。所以我们要考虑每个块应该有多大。因为如果你想最大化它的上下文，也许你可以，这是一个非常简单的例子。你想检索一千个单词。因此，如果数据块很长，那么它更有可能包含更多相关的元数据，以便它可以检索更多。但如果太长，那么你就有一千个字了。所以块就像一千个单词，你可以达到一个块。所以它不是很有用。但如果它太短，那么您也可以检索更多相关信息。它可以检索更广泛的文档和块，但同时每个块都太小而无法包含相关信息。 (00:36:02)：所以我们有非常好的块设计，每个块应该有多大。您可以添加上下文信息，例如摘要、元数据、假设问题。有人告诉我，他们获得的一个非常大的表现就是以问答格式重写数据。而不是......所以他们有一个播客，而不是仅仅对播客进行分块，你只需重新构建，将其重写为这里的问题，这里的答案并产生很多答案。它也可以使用人工智能来实现这一点。这就是数据处理的一个例子。我看到的很多例子都是人们提供帮助，使用 AI 来帮助特定的 [听不清 00:36:40] 使用和文档。我们编写文档。通常，今天的很多文档都是为人类阅读而编写的，而人工智能阅读是不同的，因为它是不同的，因为人类，我们有常识，我们知道它是什么。所以有一件事是，即使对于人类专家来说，他们也拥有人工智能所不具备的背景。 (00:36:59)：所以有人告诉我，他们有一个很大的改变，比如说，你有一个函数。这方面的文档，也许是图书馆。正如一个图书馆所说，好吧，这个的输出可能是在谈论，我不知道，一些疯狂的术语，也许是一些温度或图表上的某些东西。它应该类似于一零或负一。作为一名人类专家，也许了解这个规模，了解这个规模的含义，但对于人工智能来说，他真的不明白这意味着什么。所以实际上，还有另一个人工智能注释层。就像，好吧，好的温度等于这样的意思。这不像是实际温度。这和那边的规模有关。因此，只需保存所有这些数据处理，以便人工智能更容易检索相关信息来回答问题。",
+   "ts": "00:35:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Persona, the verified identity platform, helping organizations onboard users fight fraud and build trust. We talk a lot on this podcast about the amazing advances in AI, but this can be a double-edged sword. For every wow moment, there are fraudsters using the same tech to wreak havoc, laundering money, taking over employee identities and impersonating businesses. Persona helps combat these threats with automated user business and employee verification. Whether you're looking to catch candidate fraud, meet age restrictions or keep your platform safe, Persona helps you verify users in a way that's tailored to your specific needs. Best of all, Persona makes it easy to know who you're dealing with without adding friction for good users. This is why leading platforms like Etsy, LinkedIn, Square and Lyft trust Persona to secure their platform. Persona is also offering my listeners 500 free services per month for one full year. Just head to withpersona.com/lenny to get started. That's withpersona.com/lenny. Thanks again to Persona for sponsoring this episode. (00:38:51): Awesome. Okay. So you've talked a bit about how you work with companies on these sorts of things, on their AI strategies, on their AI products, how they build, which tools they build, all these things. I want to spend a little time here because a lot of companies are building AI products. A lot of companies are not having a good time building AI products. Let me ask a few questions along these lines of what you've learned working with companies that are doing this well. One is just, I guess, in terms of AI tool adoption and adoption in general within companies, there's all this talk recently of just all this AI hype. The data is actually showing most companies try it. Doesn't do a lot, they stop. And so there's all this just maybe this isn't going anywhere. So in terms of just adoption of tools in AI within companies, what are you seeing there?",
+   "zh": "本集由经过验证的身份平台 Persona 为您带来，帮助组织的船上用户打击欺诈并建立信任。我们在这个播客上谈论了很多关于人工智能的惊人进步，但这可能是一把双刃剑。在每一个令人惊叹的时刻，都有欺诈者使用相同的技术造成严重破坏，洗钱，接管员工身份并冒充企业。 Persona 通过自动化的用户业务和员工验证来帮助应对这些威胁。无论您是想发现候选人欺诈、满足年龄限制还是保证平台安全，Persona 都可以帮助您根据您的特定需求定制方式验证用户。最重要的是，Persona 可以让您轻松了解正在与谁打交道，而不会给优秀用户带来麻烦。这就是为什么 Etsy、LinkedIn、Square 和 Lyft 等领先平台信任 Persona 来保护其平台的安全。 Persona 还为我的听众提供一整年每月 500 项免费服务。只需前往 withpersona.com/lenny 即可开始。这是 withpersona.com/lenny。再次感谢 Persona 赞助本期节目。 (00:38:51)：太棒了。好的。所以你已经谈到了如何与公司在这些事情上合作，他们的人工智能战略，他们的人工智能产品，他们如何构建，他们构建了哪些工具，所有这些事情。我想在这里花一点时间，因为很多公司都在开发人工智能产品。许多公司在构建人工智能产品方面进展不顺利。让我问几个问题，这些问题是关于您在与做得很好的公司合作中学到的东西。我想，就人工智能工具的采用和公司内部的普遍采用而言，最近有很多关于人工智能炒作的讨论。数据实际上显示大多数公司都在尝试。没有做太多事情，他们就停下来了。所以这一切也许不会有任何进展。那么，就公司内部人工智能工具的采用而言，您看到了什么？",
+   "ts": "00:37:45"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "For GenAI in company, I think there are two types of GenAI toolings that have been, I've seen ones is to internal productivity, like have coding tools, Slack chatbot, internal knowledge. A lot of big enterprises have some a wrapper around models, so with access to maybe some different type of a RAG solution. I think we talk about data or kind of like text-based RAG. We haven't talked about agentic RAG or I haven't talked about multi-modal RAG yet. But this, yes, it's a whole very exciting area around that. So basically, it should allow the employee to access internal document. Somebody ask, okay, I'm having a baby. What could be the maternal or paternal policy or am I having these operations with the health benefit cover that or I want you to interview, I want to refer my friend. What will be the process for that? So a lot of this having chatbot, internal chatbot to help with internal operations. (00:40:35): And another things, another category is more customer facing or partner facing. So product customers support chatbot is a big one. If you're a hotel chain, you might have a booking chatbot, which is somehow massive. A lot of booking chatbot because I guess it's... I do have this theory of a lot of applications companies pursue because they can't measure the concrete outcome. And I feel like booking or a sales chatbot, it's very clear. There was a conversion rate right now with that chatbot with human operators and what could be conversion rate with a chatbot and certain, somehow I think it's very clear outcomes and companies are easier to buy into these solutions. So a lot of companies have that customer facing chatbot. (00:41:20): So that is another category of tool and I think that for customers or external facing tools, because people are driven to choose applications with clear outcomes. So the questions of adopting them is really based on whether they see the outcome or not. Of course, it's not perfect because sometimes the outcome can be bad not because the idea or the application's idea [inaudible 00:41:52] is bad. It's just because the process of building it is not that great. Yeah. So it's tricky. For the internal adoptions of toolings or internal productivities, that's where it gets tricky. I would say a lot of companies [inaudible 00:42:08] think of AI strategy. I think of AI strategies usually have two key aspects. It's like use cases and the second is talent. You might have great data for great use cases, but you don't have talents and you cannot do it. (00:42:23): So a lot of time at the beginning with GenAI and sometimes I'm really admire a lot of companies for that, it's just like [inaudible 00:42:28] was like, okay, we need our employees to be very GenAI aware, very AI literate. So what I do is I start maybe adopting a bunch of tools for the team to use. They have a lot of up-skilling workshops, they encourage learning and then it's a really, really good thing. And it's also willing to spend a lot of money into adopting, giving people chargeability, subscriptions, purchase subscriptions, [inaudible 00:42:56] subscriptions to get the employees to be more AI literate. And that's the thing is a lot of... There's a [inaudible 00:43:05] may say, okay, we spend a ton of money on this tooling, but then we don't see because you can see the usage, but people don't seem to use them as much and what is the issue. So yeah, so I think that is tricky. Yeah.",
+   "zh": "对于公司的 GenAI，我认为有两种类型的 GenAI 工具，我见过一种是为了内部生产力，比如编码工具、Slack 聊天机器人、内部知识。许多大型企业都有一些模型包装器，因此可以访问某种不同类型的 RAG 解决方案。我认为我们谈论的是数据或类似基于文本的 RAG。我们还没有讨论过代理 RAG，或者说我还没有讨论过多模式 RAG。但是，是的，这是一个非常令人兴奋的领域。所以基本上，它应该允许员工访问内部文档。有人问，好吧，我要生孩子了。母亲或父亲的政策是什么，或者我是否在健康福利保险范围内进行这些手术，或者我希望您面谈，我想推荐我的朋友。过程是怎样的？因此，很多都有聊天机器人、内部聊天机器人来帮助内部运营。 (00:40:35)：另一件事，另一个类别是更多面向客户或面向合作伙伴。因此，产品客户支持聊天机器人是一件大事。如果您是一家连锁酒店，您可能有一个预订聊天机器人，其规模相当庞大。很多预订聊天机器人，因为我猜它是......我确实有很多应用程序公司追求的理论，因为他们无法衡量具体结果。我感觉就像预订或销售聊天机器人一样，非常清楚。现在，聊天机器人与人类操作员的转化率以及聊天机器人的转化率可能会是多少，某种程度上，我认为这是非常明确的结果，公司更容易购买这些解决方案。所以很多公司都有面向客户的聊天机器人。 (00:41:20)：所以这是另一类工具，我认为对于客户或面向外部的工具来说，因为人们被迫选择具有明确结果的应用程序。因此，采用它们的问题实际上取决于他们是否看到结果。当然，它并不完美，因为有时结果可能很糟糕，而不是因为想法或应用程序的想法 [听不清 00:41:52] 不好。只是因为构建它的过程不是那么好。是的。所以这很棘手。对于工具的内部采用或内部生产力来说，这就是棘手的地方。我想说很多公司 [听不清 00:42:08] 都在考虑人工智能战略。我认为人工智能策略通常有两个关键方面。这就像用例，第二个是人才。您可能拥有适合出色用例的大量数据，但您没有才能，也无法做到这一点。 (00:42:23)：一开始花了很多时间使用 GenAI，有时我真的很钦佩很多公司，就像 [听不清 00:42:28] 一样，好吧，我们需要我们的员工非常了解 GenAI，非常了解人工智能。所以我所做的就是开始采用一堆工具供团队使用。他们有很多技能提升研讨会，鼓励学习，这是一件非常非常好的事情。它还愿意花费大量资金来采用，为人们提供收费、订阅、购买订阅、[听不清 00:42:56] 订阅，以使员工更加了解人工智能。这就是很多... [听不清 00:43:05] 可能会说，好吧，我们在这个工具上花了很多钱，但后来我们看不到，因为你可以看到用法，但人们似乎并没有那么多地使用它们，这是什么问题。是的，所以我认为这很棘手。是的。",
+   "ts": "00:39:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What do you think is the issue? Is it just they don't know how to use them? What do you think is the gap here? Do you think we'll get to a place of just like, wow, work is completely different because of AI for a lot of companies?",
+   "zh": "您认为问题出在哪里？难道只是他们不知道如何使用它们吗？您认为这里的差距是什么？你认为我们会因为很多公司的人工智能而陷入这样的境地吗？哇，工作完全不同了？",
+   "ts": "00:43:20"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "The main thing is it's really hard to measure productivity again. So I talk to a lot of people on their website. First of all, [inaudible 00:43:40] is coding. A lot of companies not using coding agents or coding [inaudible 00:43:45] coding. And I was asking, I was like, \"Do you think that it helps with your productivity?\" And a lot of times, the questions are very [inaudible 00:43:56] okay, I feel like it's [inaudible 00:43:59] better. And I said, okay, because we have more PRs, we see more code and then immediate [inaudible 00:44:04]. Okay, but of course, code, number of live code is not a good metric for that. So it's really, really tricky and it's something funny. So I do ask people to ask their managers because I work with usually VP level, so they have multiple teams under them. So I asked them, okay, do you ask some managers, okay, would you rather have access... (00:44:28): Would you rather give everyone on the team very expensive coding agent subscriptions or you get an extra headcount? Let's say maybe and almost everyone could say the managers could say headcount. But if you ask VP level or someone who manage a lot of teams, they would say just like [inaudible 00:44:48] good one, AI, a system as tools. And the reason is that we could say okay, because as manager is right, because you are still growing. You're not as a level when you manage hundreds of thousands of people. So for you, having one HR headcount is big. So you want that not for productivity reasons, but because you just want to have more people working for you. Whereas for executives, you care more about, maybe you have more business metrics that you care about. So you actually think about what actually drive productivity metrics for you. So it is tricky and I think that the question of productivity. I'm not sure it's fundamentally is the [inaudible 00:45:32] more productive, but it's just like we don't have a good way of measuring productivity improvement. (00:45:37): Another thing is also very [inaudible 00:45:40]. And I think it's like people do tell me that they notice different buckets of employees, different reactions to AI assist tools. First of all, I keep going back to coding because coding is big and it's easier to reason somehow. So it says I have different reports. One team would tell me that... One of people tell me, okay, amongst on his engineers, he thinks senior engineers would get the most output, would be more productive because it's like, okay, so that person's very interesting. So he actually divided his team to three buckets, but he didn't tell them, obviously. He was like, okay, here's more currently best performing, average performing and lowest performing. And then there's a randomized trial. So they give half of each group access to Cursor. And then [inaudible 00:46:31] noticed over time it was like, okay, something funny. The group that get the biggest performance boost, in his opinion, he was very close to his team. (00:46:39): The biggest performance boost [inaudible 00:46:41] the senior engineer, the highest performing. So the highest performing engineer get the biggest boost out of it. And then the second group is the average performing. So his opinion is like, okay, the highest performing engineers is also normal practice. They also know how to solve problems. So they have some solved problem better. Whereas the people who have the lowest performing, they only don't care much about work. So it's easier to just go on autopilot, get it to generate that code and just do it or just don't know how to do it. Another company, however, they tell me just actually, senior engineers are the one most resistant to using AI as this tooling because they said it's like, okay, but AI, because they are more opinionated and they have very high standard. It was like, okay, but AI code, [inaudible 00:47:30] code just sucks. So just very, very resistant in using it. So I don't know, I haven't quite been able to reconcile very different reports on that yet.",
+   "zh": "最主要的是，很难再次衡量生产力。所以我在他们的网站上和很多人交谈。首先，[听不清 00:43:40] 正在编码。许多公司不使用编码代理或编码 [听不清 00:43:45] 编码。我问，“你认为这对你的生产力有帮助吗？”很多时候，问题非常 [听不清 00:43:56] 好吧，我觉得 [听不清 00:43:59] 更好。我说，好吧，因为我们有更多的 PR，我们看到更多的代码，然后立即[听不清 00:44:04]。好的，但是当然，代码、实时代码的数量并不是一个很好的衡量标准。所以这真的非常非常棘手，而且很有趣。所以我确实要求人们询问他们的经理，因为我通常与副总裁级别一起工作，所以他们下面有多个团队。所以我问他们，好吧，你问一些经理吗，好吧，你愿意访问... (00:44:28)：你愿意为团队中的每个人提供非常昂贵的编码代理订阅还是你获得额外的员工人数？假设几乎每个人都可以说经理可以说员工人数。但如果你问副总裁级别或管理很多团队的人，他们会说就像 [听不清 00:44:48] 很好，人工智能，一个作为工具的系统。原因是我们可以说好吧，因为作为经理是对的，因为你仍在成长。当你管理几十万人的时候，你就不是一个水平了。因此，对您来说，拥有一名人力资源人员就很重要了。因此，您希望这样做并不是出于生产力原因，而是因为您只是希望有更多的人为您工作。而对于高管来说，你更关心，也许你有更多你关心的业务指标。因此，您实际上应该考虑什么因素能够真正推动您的生产力指标。所以这是一个棘手的问题，我认为这是生产力的问题。我不确定它是否从根本上提高了 [听不清 00:45:32] 的生产力，但这就像我们没有衡量生产力提高的好方法。 (00:45:37)：另一件事也非常[听不清00:45:40]。我认为人们确实告诉我，他们注意到不同的员工群体，对人工智能辅助工具的不同反应。首先，我不断地回到编码，因为编码很大，而且更容易推理。所以它说我有不同的报告。一个团队会告诉我...其中一个人告诉我，好吧，在他的工程师中，他认为高级工程师会获得最多的产出，会更有生产力，因为这就像，好吧，所以那个人非常有趣。所以他实际上把他的团队分成了三个部分，但显然他没有告诉他们。他说，好吧，这里有更多目前表现最好的、平均表现和表现最低的。然后是一项随机试验。因此，他们让每组的一半人访问 Cursor。然后 [听不清 00:46:31] 随着时间的推移，我注意到，好吧，有些有趣的事情。在他看来，获得最大绩效提升的团队与他的团队非常接近。 (00:46:39)：性能提升最大[听不清00:46:41]高级工程师，性能最高。因此，表现最好的工程师可以从中获得最大的提升。然后第二组是平均表现。所以他的观点是，好吧，表现最好的工程师也是正常做法。他们也知道如何解决问题。所以他们更好地解决了一些问题。而表现最差的人，只是不太关心工作而已。因此，更容易进行自动驾驶，让它生成代码并直接执行或只是不知道如何执行。然而，另一家公司告诉我，实际上，高级工程师是最抵制使用人工智能作为这种工具的人，因为他们说，好吧，但是人工智能，因为他们更加固执己见，并且有非常高的标准。就像，好吧，但是人工智能代码，[听不清 00:47:30] 代码很糟糕。所以非常非常抗拒使用它。所以我不知道，我还无法调和有关此事的截然不同的报告。",
+   "ts": "00:43:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is so interesting. So just to make sure I'm hearing what the story, so there's a company you work with, that did a three bucket test with their engineering team where they created three sorts of groups, the highest performing engineers, mid-performing engineers, lowest performing engineers, and gave some of them, so they gave some of them access to say, Cursor. Was it Cursor or what did they give them access to? It was Cursor, right?",
+   "zh": "这太有趣了。为了确保我听到了这个故事，有一家与您合作的公司，与他们的工程团队进行了三桶测试，他们创建了三类小组，表现最高的工程师、表现中等的工程师、表现最低的工程师，并给了其中一些人，所以他们给了其中一些人访问光标的权限。是光标还是他们允许他们访问什么？是光标，对吧？",
+   "ts": "00:47:39"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I think it was Cursor.",
+   "zh": "我认为这是光标。",
+   "ts": "00:48:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool. And so within-",
+   "zh": "好吧，酷。所以在里面——",
+   "ts": "00:48:04"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I didn't work with them. This is more like a friend company.",
+   "zh": "我没有和他们一起工作。这更像是一个朋友公司。",
+   "ts": "00:48:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. It's a friend's company.",
+   "zh": "好的。这是一个朋友的公司。",
+   "ts": "00:48:08"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:48:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So did they give half of the higher performing engineers Cursor and half not or how did they do the split there?",
+   "zh": "那么，他们是否给了一半表现较高的工程师 Cursor，一半没有，或者他们是如何进行分割的？",
+   "ts": "00:48:09"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah, so they give half of the entire company but half of each bucket. Yeah.",
+   "zh": "是的，所以他们捐出了整个公司的一半，但每个桶都捐了一半。是的。",
+   "ts": "00:48:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Whoa.",
+   "zh": "哇哦。",
+   "ts": "00:48:18"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "And then they observe the difference in productivity.",
+   "zh": "然后他们观察生产力的差异。",
+   "ts": "00:48:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I see. So how do they even do that? They're just like, \"Okay, you get cursor, you don't get cursor.\" How did they do that? That's so interesting.",
+   "zh": "我懂了。那么他们是如何做到这一点的呢？他们就像，“好吧，你得到了光标，你没有得到光标。”他们是怎么做到的？那太有趣了。",
+   "ts": "00:48:21"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah, I didn't get into the mechanics of it, but I was like, \"I respect you for doing a randomized trial on that.\"",
+   "zh": "是的，我没有深入了解它的机制，但我想，“我尊重你对此进行的随机试验。”",
+   "ts": "00:48:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so cool.",
+   "zh": "那太酷了。",
+   "ts": "00:48:33"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah. Yeah.",
+   "zh": "是的。是的。",
+   "ts": "00:48:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Wow. How large was this engineering team? Was it like hundreds of people?",
+   "zh": "好的。哇。这个工程团队有多大？是不是有几百人？",
+   "ts": "00:48:34"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "It's not that large. It's about maybe 30 to maybe 40. Yeah.",
+   "zh": "它没有那么大。大约是 30 到 40。是的。",
+   "ts": "00:48:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "30 to 40. Okay.",
+   "zh": "30到40。好的。",
+   "ts": "00:48:43"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:48:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Okay. So they found that the highest performing engineers had the most benefit from using AI tools and then behind them was the middle tier engineers and the worst performers or the lowest performers. Okay.",
+   "zh": "哇。好的。因此他们发现，绩效最高的工程师从使用人工智能工具中获益最多，然后是中层工程师和绩效最差或绩效最低的工程师。好的。",
+   "ts": "00:48:44"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "But it's also not the same everywhere.",
+   "zh": "但各地情况也不尽相同。",
+   "ts": "00:48:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right. Right. Right, right.",
+   "zh": "正确的。正确的。对，对。",
+   "ts": "00:48:59"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Some companies are different.",
+   "zh": "有些公司则不同。",
+   "ts": "00:48:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right. This other example you shared of just senior engineers in this one example are most resistant to changing the way they work, which I get. I do feel like the most valuable people right now other than ML researchers and AI researchers like yourself, are senior engineers because it feels like junior engineers are just, so much of this is now done by AI, but an engineer that knows what they're doing that understands how things work at a large scale with AI tools, just basically infinite junior engineers doing their bidding, feels like an extremely valuable and powerful asset.",
+   "zh": "正确的。您分享的另一个例子是高级工程师在这个例子中最不愿意改变他们的工作方式，我得到了这一点。我确实觉得，除了像你这样的机器学习研究人员和人工智能研究人员之外，现在最有价值的人是高级工程师，因为感觉初级工程师只是，现在很多工作都是由人工智能完成的，但是一个知道自己在做什么、了解如何使用人工智能工具大规模工作的工程师，基本上就是无数的初级工程师在执行他们的命令，感觉就像是一个极其有价值和强大的资产。",
+   "ts": "00:49:03"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah, I definitely really appreciate, as you see companies, we appreciate engineers who have a good understanding of the whole systems and be able to have good problem solving skill are thinking holistically instead of locally. Or when our company have seen the way they work, as they told me is we're completely different now. So they actually restructured engineering org so that they get more senior engineers should be more in the peer review because they get writing guidelines on what is a good engineering practices, what is the process would be like. (00:50:12): Or maybe like okay, so they write a lot of processes on how to work well. And then they have more junior engineers just produce code and submit PR, but senior engineer more in the reviewing case. So I think it might be prepared for the future. So another company actually told me something very similar. So preparing for the future once they only need a very small group of very, very strong engineers to create processes and reviewing code to get into production but get AI or junior engineers to produce code. But then the question becomes just like, how does one become a very strong senior engineer.",
+   "zh": "是的，我真的很欣赏，正如你们看到的公司一样，我们欣赏那些对整个系统有很好的理解并能够良好地解决问题的技能的工程师，他们会进行整体思考，而不是局部思考。或者当我们公司看到他们的工作方式时，正如他们告诉我的那样，我们现在完全不同了。因此，他们实际上重组了工程组织，以便他们获得更多的高级工程师，应该更多地参与同行评审，因为他们得到了关于什么是良好的工程实践、流程是什么样的编写指南。 (00:50:12)：或者也许好吧，所以他们写了很多关于如何良好工作的流程。然后他们有更多的初级工程师只负责编写代码并提交 PR，但更多的高级工程师则负责审查案例。所以我认为它可能是为未来做好准备的。所以另一家公司实际上告诉了我一些非常相似的事情。因此，为未来做好准备，一旦他们只需要一小群非常非常强大的工程师来创建流程并审查代码以投入生产，但让人工智能或初级工程师来生成代码。但接下来的问题就变成了，如何成为一名非常强大的高级工程师。",
+   "ts": "00:49:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right. That's right. That's right. That's the problem. Yeah.",
+   "zh": "正确的。这是正确的。这是正确的。这就是问题所在。是的。",
+   "ts": "00:50:54"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah. So I don't know what's the process I was thinking about, yeah.",
+   "zh": "是的。所以我不知道我在想什么过程，是的。",
+   "ts": "00:50:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No one's thinking about it. It's a problem. We won't have any more in 10, 20 years. There'll be no more engineers because no one's hiring junior engineers. Although I could make the case. Junior engineers, people just getting into computer science right now, are just AI native. And in theory, you could argue they will become really good really fast if they're curious, aren't just delegating, learning and thinking to AI, but learning how to actually, using it to learn how to code well and architect correctly. You could argue they'll be the most successful engineers in the future.",
+   "zh": "没有人考虑这个问题。这是一个问题。 10年、20年后我们不会再有这样的事了。不会再有工程师了，因为没有人雇用初级工程师。虽然我可以证明这一点。初级工程师，那些刚刚进入计算机科学领域的人，都是人工智能原生者。从理论上讲，你可以说，如果他们有好奇心，他们会很快变得非常优秀，不仅仅是向人工智能委托、学习和思考，而是学习如何实际操作，用它来学习如何良好地编码和正确地构建架构。你可以说他们将成为未来最成功的工程师。",
+   "ts": "00:51:01"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I do think that what I mentioned said relating to architect. I think I grouped that in my system thinking. I do think it's very important skill because I think AI can help automate a lot of disjointed skills, but knowing how to utilize the skills together to solve problems is hard. So that's a webinar between Mehran Sahami who is one my favorite professors. He was a chair of the curriculum at the CS Department at Stanford. So he spent a lot of time thinking about CS educations, what should students learn nowadays in the area of AI coding. And then the other person is Andrew Ng, which is of course, is a legend in the AI space. And Mehran Sahami, Professor Sahami, said something very interesting. He said a lot of people think that CS is about coding, but it's not. Coding is just a means to an end. (00:52:27): CS is about system thinking, using coding to solve actual problem and problem solving will never go away because what AI can automate more stuff. The problem is just get bigger. But as a process of understanding what caused the issue and how to design step-by-step solution to it, will always be there. So I think an example of, I actually have a lot of issues with AI for in the way of it's debugging. So I'm not sure you use a lot of AI for coding, but something I have noticed and also seen from my friends, it's like it is pretty good when you have very clear, well-defined tasks. Maybe write documentations, fix specific features or build an app from scratch. Doesn't have to interact with a large access in code base, but you added something a little bit more complicated, maybe required interaction with other components and stuff. It's usually not that good. (00:53:21): And for example, I was using AI to deploy an applications and it was testing out a new hosting service I was not familiar with. It was like, okay. Usually they inform me, so working AI does give me is confidence to try a new tool. Before what AI is like trying new tools has written, not documentations for the beginning, but I was like, okay, just try it out and learn. So I was testing out this new hosting service and it kept getting a bug, so was very, very annoying. And it was like, okay, I asked [inaudible 00:53:51], fix it. And it kept changing the way, maybe change the environment variable, fix the code, maybe not change from the function to this function, maybe change the language, maybe it doesn't process JavaScript, I don't know, whatever. And it didn't work. And it was like, okay, that's it. (00:54:07): I'm just going to read documentation myself and see what's wrong. And it turns out, it's like I'm on another tier, the [inaudible 00:54:16] I want did not, is not available in this tier, right? So I feel like, okay, so the issue with [inaudible 00:54:22] was just trying to focus on fixing things from a different component versus the issue is from a different component. So I think of, okay, be understanding how different components work together and where the source of issue might come from. You need to give a holistic view of it. And it's made think is like, okay, how do we teach AI system thinking that I have all the human experts having very much [inaudible 00:54:46] scaffold just like, okay, for this kind of problem, look into this, look into that, look into that, and then stuff. So [inaudible 00:54:53] that could be one way, but that's also made me think is, how do we teach humans, system thinking? Yeah. So yeah, I think it's very interesting skill. I do think it's very important.",
+   "zh": "我确实认为我提到的内容与建筑师有关。我想我将其归入我的系统思维中。我确实认为这是非常重要的技能，因为我认为人工智能可以帮助自动化许多脱节的技能，但知道如何一起利用这些技能来解决问题是很困难的。这是 Mehran Sahami 举办的网络研讨会，他是我最喜欢的教授之一。他是斯坦福大学计算机系课程的主席。所以他花了很多时间思考CS教育，现在学生在AI编码领域应该学什么。另一个人就是吴恩达（Andrew Ng），他当然是人工智能领域的传奇人物。萨哈米教授迈赫兰·萨哈米说了一些非常有趣的话。他说很多人认为CS就是编码，但事实并非如此。编码只是达到目的的一种手段。 (00:52:27)：计算机科学是关于系统思考的，使用编码来解决实际问题，而问题解决永远不会消失，因为人工智能可以自动化更多的东西。问题只会变得更大。但作为理解导致问题的原因以及如何设计逐步解决方案的过程，将始终存在。所以我想一个例子，我实际上在人工智能的调试方面遇到了很多问题。所以我不确定你在编码时使用了大量的人工智能，但我注意到并且从我的朋友那里看到，当你有非常清晰、定义明确的任务时，它会非常好。也许编写文档、修复特定功能或从头开始构建应用程序。不必与代码库中的大量访问进行交互，但您添加了一些更复杂的东西，可能需要与其他组件和内容进行交互。通常情况不太好。 (00:53:21)：例如，我正在使用人工智能来部署应用程序，它正在测试我不熟悉的新托管服务。就像，好吧。通常他们会告诉我，所以工作人工智能确实给了我尝试新工具的信心。在人工智能就像尝试新工具之前已经写过，而不是一开始的文档，但我想，好吧，只是尝试一下并学习。所以我正在测试这个新的托管服务，但它不断出现错误，所以非常非常烦人。就像，好吧，我问[听不清 00:53:51]，修复它。它不断改变方式，也许改变环境变量，修复代码，也许不从函数改变到这个函数，也许改变语言，也许它不处理JavaScript，我不知道，无论如何。但它不起作用。就好像，好吧，就是这样。 (00:54:07)：我要自己阅读文档，看看出了什么问题。事实证明，就像我在另一层，我想要的 [听不清 00:54:16] 没有，在这一层中不可用，对吗？所以我觉得，好吧，[听不清 00:54:22] 的问题只是试图专注于修复来自不同组件的问题，而不是来自不同组件的问题。所以我想，好吧，了解不同的组件如何协同工作以及问题的根源可能来自哪里。你需要对它有一个整体的看法。这让人思考，好吧，我们如何教授人工智能系统，因为我让所有人类专家都拥有非常多的[听不清的00:54:46]支架，就像，好吧，对于这种问题，研究这个，研究那个，研究那个，然后再做其他的事情。所以 [听不清 00:54:53] 这可能是一种方式，但这也让我思考，我们如何教导人类系统思维？是的。是的，我认为这是非常有趣的技能。我确实认为这非常重要。",
+   "ts": "00:51:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's exactly the same insight Bret Taylor shared on the podcast. He's the co-founder of Sierra. He created Google Maps. He was CEO of Salesforce, Quip, a few other things. And I asked him just like, should people learn to code? And his point is exactly what you said, which is taking computer science classes is not about learning Java and Python. It's learning how systems work and how code operates and how software works broadly, not just, here's a function to do a thing. (00:55:32): One thing that I wanted to help people understand, you wrote this book called AI Engineering, which is essentially helping people understand this new genre of engineer and you have this really simple way of thinking about the difference between an ML engineer and an AI engineer, which has a really good corollary to product managers now, of just an AI product manager versus a non-AI product manager. The way you describe it and fill in what I'm missing is just ML engineers built models themselves. AI engineers use existing models to build products. Anything you want to add there?",
+   "zh": "这与布雷特·泰勒在播客上分享的见解完全相同。他是Sierra 的联合创始人。他创建了谷歌地图。他是 Salesforce、Quip 等公司的首席执行官。我问他，人们应该学习编码吗？他的观点正是你所说的，上计算机科学课程不是为了学习 Java 和 Python。它正在学习系统如何工作、代码如何运行以及软件如何广泛工作，而不仅仅是一个做某事的函数。 (00:55:32)：我想帮助人们理解的一件事是，你写了一本名为《人工智能工程》的书，这本书本质上是帮助人们理解这种新的工程师类型，你用一种非常简单的方式来思考机器学习工程师和人工智能工程师之间的区别，这对现在的产品经理来说是一个非常好的推论，即人工智能产品经理与非人工智能产品经理。你描述它并填写我所缺少的内容的方式只是机器学习工程师自己构建的模型。人工智能工程师使用现有模型来构建产品。您想在那里添加什么吗？",
+   "ts": "00:55:04"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "One thing I really dislike about writing books is that it has to define this and I think it's like no definitions would be perfect because they always be edge cases. But yeah, in general, I think it's just like GenAI as a service, more as a service, when somebody build the models for you and the base model performance is a pretty [inaudible 00:56:26]. So it's like it's enabled people to just like, okay, now I want to integrate AI into my product. I don't need to learn [inaudible 00:56:34] even though knowing that could really help. But yeah, it makes an entry barrier really low for people who want to use AI to build product and at the same time, AI capabilities are so strong. It's also increased the possibilities, the type applications that AI can be used for. So I think yes, both entry barriers' is super low and a demand for AI applications a lot bigger. So it feels, it's very, very exciting. It's opens up a whole new ball of possibilities.",
+   "zh": "我真正不喜欢写书的一件事是它必须定义这一点，我认为没有任何定义是完美的，因为它们总是边缘情况。但是，是的，总的来说，我认为这就像 GenAI 作为一项服务，更多的是作为一项服务，当有人为你构建模型并且基本模型性能非常好时 [听不清 00:56:26]。所以这就像它让人们喜欢，好吧，现在我想将人工智能集成到我的产品中。我不需要学习 [听不清 00:56:34] 即使知道这确实有帮助。但是，是的，对于那些想要使用人工智能来构建产品的人来说，进入门槛非常低，同时人工智能的能力又非常强大。它还增加了人工智能可用于的可能性和应用类型。所以我认为是的，进入门槛非常低，而且对人工智能应用程序的需求要大得多。所以感觉非常非常令人兴奋。它开启了全新的可能性。",
+   "ts": "00:56:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. It's like now you don't have the time, now you don't have to spend time building this AI brain. Now you can just use it to do stuff, such an unlock. Okay. Maybe just a final question. You get to see a lot of what's working, what's not working, where things are heading. I'm curious just if you had to think about in the next two or three years, just where things are heading, how do you think building products will be different? How do you think companies working will be different if you had to think of maybe the biggest change we expect to see in the next few years, in terms of how companies work?",
+   "zh": "是的。就好像现在你没有时间，现在你不必花时间构建这个人工智能大脑。现在你可以用它来做一些事情，比如解锁。好的。也许只是最后一个问题。你会看到很多什么在起作用，什么在不起作用，以及事情的发展方向。我很好奇，如果您必须考虑未来两三年内事情的发展方向，您认为构建产品将会有何不同？如果你必须考虑我们预计在未来几年内公司运作方式方面可能会看到的最大变化，你认为公司的运作方式会有何不同？",
+   "ts": "00:57:04"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I think in a lot of organizations they don't move that fast, but at the same time, they move faster than I expected because again, I think it's like bias and don't work with dinosaur companies who don't care. I think a lot of executives who come to me are very forward-looking. So maybe for me, I'm very biased towards organizations is move fast. So yeah, I think one big change I see just in organizational structure. I think this a lot of value plays in... So before we have a lot of disjointed teams. We have very clear engineering team, product team, but then there's a question of who should write eval? Who should own the metrics? And it turns out, eval, it's not a separate problem. It's a system problem because you need to look into different components, how they interact with each other. You need user behaviors because you need to know what users care about so that you can write eval reflect what users care about. (00:58:44): So all of that you can sort it from you look into different component architectures, place guardrails and stuff. So it's just engineering, but understanding users is what product. So because of a lot of things and eval is extremely important. So the kind of bring product team and engineering team, even marketing team like user acquisition, very close to each other. So yes, since in a ways if people are structuring, so that's more communications between previously very distinct functions. Another thing is I also see as teams, of course, I think about what can be automated in the next few years and what work cannot be automated. And I seen that people already shedding, actually it's a little bit scary to think about it, but I also think it's the teams, they would've told me, it's just like okay, this is good and you and me, but we have got rid of these functions for a lot of things like previously outsourced, for example. (00:59:37): Traditionally, it's a business outsourcing that's not core to them and can be in a more systematized. So with that, you can actually use AI to automate a lot of that. And so as a separation people thinking more of what is the value of junior engineers or senior engineers, how should we restructure engineering org for that? Yeah, so I do definitely think that is one thing to successful organization. People are just moving pieces around and thinking about use cases, whether you need to spin out new use cases and who would lead a new effort. That is one big change. Another thing in terms of AI, I think there's, I'm not sure how true this is. I guess, I'm also on the camp of thinking that it has merit, is a camp of okay, base models we have probably not quite maxed out, but we're unlikely to see really, really strong, crazily strong model. (01:00:44): So you remember when we have GPT, right? And then GPT2, which is a big step up, an [inaudible 01:00:49] better than GPT and then GPT3, which much, much bigger than GPT4, much, much bigger. And then of course, GPT5, but it's GPT5, that scale of much bigger step jump compared to the previous, I think it's debatable. So I think that we had disappointment, the base model performance improvement is not going to be mind-blowing. It was in the last three years. So I think there's a lot of improvements when I see in the post-training phase, in the application building phase. And yes, also I think that's where I feel I would see a lot of improvement there. I also very interest in multimodality. So we've seen a lot of text base, but I think there's a lot of audio, videos use cases that is very, very exciting. (01:01:45): And I think audios is not quite as solved. Well, I think because I do work with a couple of voice startups and when it comes to, think about voice, it's an entirely different beast. So let's say have chatbot. We go from a text chatbot to voice chatbot. It's like the consoles are completely different because now with voice chatbot, we need to think about latency because I think multiple steps, first have voice to text, text to text, text question into text answer and then text to voice answer. So you have multiple hops and latency become very important. And there's a question, what does it make you sound natural? So for example, people think of in AI and humans, when humans talk to each other, if I say, you try to interrupt me and say, Chip [inaudible 01:02:36]. I would pause and I try to hear you out. (01:02:38): But sometime even if I just like say some word, like acknowledge when I, mm-hmm, mm-hmm, that I shouldn't stop. It's just continue. So the question of forced interruption and whether it's, should I stop or not, it's a big in what perceived as natural conversations. And that's also regulations because a lot of time, people want to build AI chatbot, voice chatbots that sound like humans, try to trick users into thinking that they're talking to humans, but also maybe potential regulation saying okay, you have to disclose to users when you talk, if the bot is talking to is human or AI. So I think this a whole space, I think it's not quite as solved as you think. But it's not quite like an AI foundation model problem because a human interruption detection, it's actually a classical machining problem. (01:03:32): It's a different framing, but you can give classifier for that. Or the question of latency, actually a massive engineering challenge, not an AI challenge. Of course, it can be an AI challenge because people are trying to build voice-to-voice model. So instead of having to firstly transcribe the voice from me into text and then get a model [inaudible 01:03:54] text answer and get another model should turn from text to speech, you can just do voice-to-voice directly. So that is something we're working on, but it's very hard. Yeah. So yeah, so even audio, I think of it's the easier than video because video have both image and voice. It's already pretty hard. So I think there's a lot of challenges in that space.",
+   "zh": "我认为在很多组织中，他们的行动速度没有那么快，但与此同时，他们的行动速度比我预期的要快，因为我再次认为这就像偏见，不与那些不在乎的恐龙公司合作。我认为很多来找我的高管都非常有前瞻性。所以也许对我来说，我非常偏向于快速行动的组织。所以，是的，我认为我在组织结构方面看到了一个重大变化。我认为这很有价值……所以在我们有很多支离破碎的团队之前。我们有非常明确的工程团队、产品团队，但是有一个问题是谁来写eval？谁应该拥有这些指标？事实证明，eval，这不是一个单独的问题。这是一个系统问题，因为您需要研究不同的组件以及它们如何相互作用。你需要用户行为，因为你需要知道用户关心什么，以便你可以编写 eval 来反映用户关心什么。 (00:58:44)：因此，您可以通过查看不同的组件架构、放置护栏等内容来对所有这些进行排序。所以这只是工程，但了解用户才是产品。所以由于很多事情，eval 是极其重要的。所以那种让产品团队和工程团队，甚至像用户获取这样的营销团队，彼此非常接近。所以是的，因为在某种程度上，如果人们正在构建，那么以前非常不同的职能之间就会有更多的沟通。另外一点就是我也把团队看成是团队，当然我会思考未来几年什么工作可以自动化，什么工作不能自动化。我看到人们已经在脱落，实际上想想它有点可怕，但我也认为这是团队，他们会告诉我，这很好，这对你和我来说都很好，但我们已经摆脱了这些功能，例如以前外包的很多事情。 (00:59:37)：传统上，这是一种业务外包，不是他们的核心，可以更加系统化。因此，你实际上可以使用人工智能来自动化很多工作。那么作为一个分离的人更多地思考初级工程师或高级工程师的价值是什么，我们应该如何重组工程组织呢？是的，所以我确实认为这对于成功的组织来说是一回事。人们只是四处移动并思考用例，是否需要推出新的用例以及谁将领导新的工作。这是一个很大的变化。关于人工智能的另一件事，我认为，我不确定这有多真实。我想，我也认为它有优点，是一个好的基础模型阵营，我们可能还没有完全达到极限，但我们不太可能看到真正非常强大、非常强大的模型。 (01:00:44)：所以你还记得我们有 GPT 的时候，对吧？然后是 GPT2，这是一个很大的进步，[听不清 01:00:49] 比 GPT 更好，然后是 GPT3，它比 GPT4 大得多，大得多。当然还有GPT5，但它就是GPT5，与之前相比，跳跃的规模要大得多，我认为这是值得商榷的。所以我认为我们感到失望，基本模型性能的改进不会令人兴奋。这是最近三年的事了。所以我认为，当我在培训后阶段、应用程序构建阶段看到有很多改进。是的，我也认为这就是我觉得我会看到很多改进的地方。我对多模态也很感兴趣。我们已经看到了很多文本库，但我认为还有很多音频、视频用例非常非常令人兴奋。 (01:01:45)：我认为音频还没有完全解决。嗯，我认为因为我确实与几家语音初创公司合作，当谈到语音时，它是一个完全不同的野兽。假设有聊天机器人。我们从文本聊天机器人转变为语音聊天机器人。就像控制台完全不同，因为现在有了语音聊天机器人，我们需要考虑延迟，因为我认为有多个步骤，首先有语音到文本，文本到文本，文本问题到文本答案，然后文本到语音答案。因此，您有多个跃点，并且延迟变得非常重要。还有一个问题，是什么让你听起来很自然？例如，人们会想到人工智能和人类，当人类彼此交谈时，如果我说，你试图打断我并说，Chip [听不清 01:02:36]。我会停下来，试着听你说完。 (01:02:38)：但有时即使我只是想说一些话，比如承认当我，嗯嗯，嗯嗯，我不应该停下来。这只是继续。因此，强制中断的问题以及我是否应该停止，这对于被认为是自然对话的人来说是一个大问题。这也是法规，因为很多时候，人们想要构建人工智能聊天机器人，听起来像人类的语音聊天机器人，试图欺骗用户认为他们正在与人类交谈，但也可能潜在的法规说好吧，当你说话时，你必须向用户透露，如果机器人正在与人类或人工智能交谈。所以我认为这是一个完整的空间，我认为它并没有像你想象的那么解决。但它不太像人工智能基础模型问题，因为人为干扰检测，它实际上是一个经典的加工问题。 (01:03:32)：这是一个不同的框架，但你可以为此提供分类器。或者延迟问题，实际上是一个巨大的工程挑战，而不是人工智能挑战。当然，这可能是人工智能的挑战，因为人们正在尝试构建语音到语音模型。因此，您不必首先将我的语音转录为文本，然后获取模型 [听不清 01:03:54] 文本答案并获取另一个模型应从文本转换为语音，您可以直接进行语音到语音。这就是我们正在努力的事情，但这非常困难。是的。所以，是的，即使是音频，我认为它也比视频更容易，因为视频既有图像又有声音。已经很难了。所以我认为这个领域存在很多挑战。",
+   "ts": "00:57:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That was an awesome list of things. Let me mirror them back real quick. So what you're predicting in the next few years, things that will change in the way we work, and these actually resonate with so many conversations I've had on this podcast. So says, just kind of doubling down on where things are heading. One is the blurring of lines between different functions instead of just design engineering. Everyone's going to be doing a lot of different things now. Two is, just more of work being automated with agents and all these AI tools and just in theory, productivity going up. Third is, a shifting from pre-training models to post-training, fine-tuning and things like that because to your point, models maybe are slowing down in how smart they're getting. (01:04:57): Although, I'll point folks to the, I had a chat with the co-founder of Anthropic. He made a really good point here. He's like, we're really bad at understanding what exponentials feel like when we're in the middle of that. And also, models are being released more often. So the difference between them we may not notice because they're just happening more often versus GPT3 came out a year before after GPT2. Maybe true, maybe not. And then the fourth point you made is this idea of multimodal, investing in multimodal experiences. I cannot wait for ChatGPT voice mode to get better at interruption, exactly what you're saying. I'm just talking to it and then someone makes a little sound and it's like [inaudible 01:05:33]. Okay. And then you have to, and then it's like, and then it stops talking. It's so annoying.",
+   "zh": "这是一个很棒的清单。让我快速将它们镜像回来。那么，您对未来几年的预测，我们工作方式将会发生的变化，这些实际上与我在这个播客上进行的许多对话产生了共鸣。这么说，只是加倍关注事情的发展方向。一是不同功能之间的界限变得模糊，而不仅仅是设计工程。现在每个人都会做很多不同的事情。二是，更多的工作通过代理和所有这些人工智能工具实现自动化，理论上生产力会提高。第三，从训练前模型转向训练后、微调等类似的事情，因为就你的观点而言，模型的智能程度可能正在减慢。 (01:04:57)：不过，我会向人们指出，我与 Anthropic 的联合创始人进行了交谈。他在这里提出了一个非常好的观点。他说，当我们身处其中时，我们真的很难理解指数的感觉。而且，模型的发布也更加频繁。因此，我们可能不会注意到它们之间的差异，因为它们只是发生得更频繁，而 GPT3 是在 GPT2 之后一年才发布的。也许是真的，也许不是。然后你提出的第四点是多式联运的想法，投资多式联运体验。我迫不及待地希望 ChatGPT 语音模式在中断方面变得更好，正如你所说的那样。我只是在和它说话，然后有人发出一点声音，就像 [听不清 01:05:33]。好的。然后你必须这样做，然后就好像，然后它就停止说话了。太烦人了。",
+   "ts": "01:04:16"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I'm shocked that we don't have better voice assistant at home yet. I think I have been testing out a bunch, honestly. I keep hoping, oh my God, that could be the one and then I know how many of them I just had to give away because they're not that good.",
+   "zh": "我很震惊我们家里还没有更好的语音助手。老实说，我想我已经测试了很多。我一直希望，天哪，这可能就是那个，然后我知道我不得不放弃其中的多少，因为它们不是那么好。",
+   "ts": "01:05:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think it's coming. I hear it's coming. Anthropic's working with someone that, I don't know if it's launched or not yet.",
+   "zh": "我想它即将到来。听说它要来了Anthropic 正在与某人合作，我不知道它是否已经启动。",
+   "ts": "01:05:49"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah, [inaudible 01:05:55] want to bring back to what you mentioned about your guest from Anthropic, mentioned about the performance improvement. I think there's a big change, I think this difference between a model-based capability. So I'm talking about the pre-trained model versus the perceived performance perform. So let's say, I'm not sure you thought about, are you familiar with the term test time compute?",
+   "zh": "是的，[听不清 01:05:55] 想回顾一下您提到的关于来自 Anthropic 的客人的内容，提到了性能改进。我认为基于模型的能力之间存在很大的变化。所以我谈论的是预先训练的模型与感知的性能表现。那么，我不确定您是否想过，您是否熟悉术语“测试时间计算”？",
+   "ts": "01:05:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I don't think so. Help us understand.",
+   "zh": "我不这么认为。帮助我们理解。",
+   "ts": "01:06:20"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "So this idea is like okay, you have a fixed amount of compute. So you're going to spend a lot of compute on pre-training or training the model. Pre-training and then I've spent a lot of some compute fine-tuning and the ratio of pre-training to the post-training compute is crazy, varies between different lab. And also, since then has a spend compute on generate inference. When I have a trends and fine-tuning model and now you want to serve it to users. So I might type a question in a prompt and if generate, do inference and that requires a compute. And I guess, I feel about discussion of should I spend more compute on pre-training or fine-training or inference because inference and people thought I was just like test time compute. So spending more compute on inference is like calling test time compute as a strategy of just allocating more resources, compute resource to generate inference when I shouldn't bring better performance and how does that do it? (01:07:22): Let's say you have a math questions and maybe instead of just generate one answer again generate four different answers and say okay, whichever is the best according to some standard or okay, I have four answers and then maybe three of them say 42 and one of them says 20. You say okay, three of them in agreement. So the answer should be 42. So just people shouldn't generate a bunch of it. Or another thing is a lot of time like reasoning, thinking, it just be able to generate more thinking tokens, like spend more time thinking before showing the final answers. It's like require more compute but also give more better performance. So yeah, so I think it's like from the ease of perspective when the model spend more time exploring different potential answers, thinking longer, it can give you much better final answers. But the base model itself does not change.",
+   "zh": "所以这个想法就像好吧，你有固定的计算量。因此，您将花费大量计算来预训练或训练模型。预训练，然后我花费了大量的计算微调，预训练与训练后计算的比率非常疯狂，不同实验室之间有所不同。而且，从那时起，生成推理就花费了计算力。当我有了一个趋势和微调模型，现在你想将其提供给用户。因此，我可能会在提示中输入一个问题，如果生成，则进行推理，这需要计算。我想，我觉得讨论我是否应该在预训练、精细训练或推理上花费更多的计算，因为推理和人们认为我就像测试时计算一样。因此，在推理上花费更多的计算就像将测试时间计算称为分配更多资源的策略，当我不应该带来更好的性能时，计算资源来生成推理，这是如何做到的？ (01:07:22)：假设你有一道数学题，也许不是只生成一个答案，而是再次生成四个不同的答案，然后说“好吧”，根据某个标准，无论哪个是最好的，或者“好吧”，我有四个答案，然后可能其中三个说 42，其中一个说 20。你说好吧，其中三个人同意。所以答案应该是 42。所以人们不应该生成一堆它。或者另一件事是大量的时间，比如推理、思考，它只是能够产生更多的思考标记，比如在给出最终答案之前花更多的时间思考。这就像需要更多的计算，但也提供更好的性能。所以是的，所以我认为从简单的角度来看，当模型花更多时间探索不同的潜在答案，思考更长时间，它可以给你更好的最终答案。但基本模型本身并没有改变。",
+   "ts": "01:06:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome.",
+   "zh": "惊人的。",
+   "ts": "01:08:16"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Does it make sense?",
+   "zh": "有道理吗？",
+   "ts": "01:08:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yes, that does. Absolutely.",
+   "zh": "是的，确实如此。绝对地。",
+   "ts": "01:08:18"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah?",
+   "zh": "是的？",
+   "ts": "01:08:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is a good corollary to Ben Man's point.",
+   "zh": "这是本·曼观点的一个很好的推论。",
+   "ts": "01:08:19"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:08:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Chip, we covered a lot of ground. I've gone through everything I was hoping to learn and more. Before we get to a very exciting lightning round, is there anything else that you wanted to share? Anything else you want to leave listeners with?",
+   "zh": "奇普，我们涵盖了很多内容。我已经完成了我希望学到的一切以及更多。在我们开始激动人心的闪电回合之前，您还有什么想分享的吗？您还有什么想留给听众的吗？",
+   "ts": "01:08:23"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "So I do work with a few companies that does these things of they want employees to come up with ideas. So there's a big debate on what is a better way for AI strategy, should they be top out or bottom up, should executives come up with one or two killer use case and everyone allocate resource to that, should you give engineers and PMs and smart people come up with ideas. And I think it's a mixture of both. So some companies it was like, okay, we hire a bunch of smart people, let's see what they come up with and they organize more hackathons or internal challenge to get people to build product. And one thing that I noticed, a lot of people just don't know what you built. And it shocked me why I feel like we are in some kind of an idea crisis, right? (01:09:21): Now, we have all this really cool tools to have. You do everything from scratch, can have you design, it can have you write code, it can build website. So in theory, we should see a lot more, but at the same time, people are somehow stuck. They don't know what to build. And I think it's like, maybe you see a lot of had to do with maybe society expectations because we have gone into this phase of specializations, people very highly specialized and people are supposed to focus on one thing really well instead of being a big picture. And we don't have a big picture view. It's hard to come up with ideas of what you build. (01:09:58): So I know what, when I work with this company on this hackathon, we do work on come up with a guideline, how to come up with ideas. And usually what we think of is like, okay, one tip is go look from the last week. For a week, just pay attention to what you do and what frustrates you. And when something frustrates you, think about, is there anything we can do? Can it be done a different way? So it's not frustrating and you can talk, people can swap to accept [inaudible 01:10:27] or teams, and I even see they come on frustrations. Maybe there's something you can think about just to build something around that. So yeah, so I feel like just notice how we work, thinking of ways, constantly ask questions, how can this be better? And then I just build something to address the frustrations, I think it's a good way to learn and adopt AI.",
+   "zh": "因此，我确实与一些公司合作，这些公司做这些事情，他们希望员工提出想法。因此，关于什么是更好的人工智能战略方式存在着一场大争论，应该是自上而下还是自下而上，高管是否应该提出一两个杀手级用例并且每个人都为此分配资源，是否应该让工程师、产品经理和聪明人提出想法。我认为这是两者的混合体。所以有些公司就像是，好吧，我们雇佣了一群聪明的人，让我们看看他们能想出什么，然后他们组织更多的黑客马拉松或内部挑战来让人们构建产品。我注意到一件事，很多人只是不知道你建造了什么。让我震惊的是，为什么我觉得我们正处于某种理念危机中，对吧？ (01:09:21)：现在，我们拥有所有这些非常酷的工具。你从头开始做一切，可以让你设计，它可以让你编写代码，它可以让你建立网站。所以从理论上讲，我们应该看到更多，但与此同时，人们却不知何故陷入困境。他们不知道要建造什么。我认为，也许你会看到很多与社会期望有关的事情，因为我们已经进入了这个专业化阶段，人们非常专业化，人们应该真正专注于一件事，而不是关注大局。而且我们没有大局观。很难对你要构建的东西提出想法。 (01:09:58)：所以我知道，当我在这次黑客马拉松中与这家公司合作时，我们确实致力于制定指导方针，如何提出想法。通常我们的想法是，好吧，一个建议是看看上周的情况。一周内，只需关注你所做的事情以及让你感到沮丧的事情。当某件事让你感到沮丧时，想一想，我们能做些什么吗？可以用不同的方式来做吗？所以这并不令人沮丧，你可以交谈，人们可以交换接受[听不清01:10:27]或团队，我什至看到他们感到沮丧。也许你可以考虑一些事情来围绕它构建一些东西。所以是的，所以我觉得只要注意我们的工作方式，思考方法，不断提出问题，这如何才能更好？然后我只是构建一些东西来解决挫折，我认为这是学习和采用人工智能的好方法。",
+   "ts": "01:08:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think people have felt exactly what you're describing every time they open up one of these vibe coding tools where you could just describe anything you want. I'm like, \"I don't know, what do I want?\" And I love this very tactical piece of advice, just like what frustrates you, just pay attention to where you're frustrated. For example, I just built a very cool little vibe coded app. I was working on a newsletter post inside Google Docs and I pasted all these images into the Google Doc, from screenshots and stuff and then I forgot, oh yeah, you can't take images out of Google Docs. It's like this Hotel of California experience where you can paste stuff into it, very hard to get images back out. So I just went to all the vibe coded tools and just built an app that I can give you a Google Doc URL and it let me download all the images automatically. And it worked amazingly well and I made it really cute. And I'll link to it in the show notes.",
+   "zh": "我认为人们每次打开这些氛围编码工具之一时都会准确地感受到您所描述的内容，您可以在其中描述您想要的任何内容。我想，“我不知道，我想要什么？”我喜欢这个非常有策略的建议，就像你感到沮丧的事情一样，只要注意你感到沮丧的地方即可。例如，我刚刚构建了一个非常酷的小型振动编码应用程序。我当时正在 Google Docs 内撰写新闻通讯文章，我将所有这些图像（包括屏幕截图和其他内容）粘贴到 Google Docs 中，然后我忘记了，哦，是的，你不能从 Google Docs 中取出图像。这就像加州旅馆的体验，你可以将东西粘贴到其中，但很难将图像恢复出来。所以我就使用了所有的vibe编码工具并构建了一个应用程序，我可以给你一个Google文档URL，它可以让我自动下载所有图像。它的效果非常好，我把它做得非常可爱。我将在演出笔记中链接到它。",
+   "ts": "01:10:46"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "OH, I would love to see that. I'm very bullish on using AI, just create micro tools. It's just something just make your life a bit easier.",
+   "zh": "哦，我很想看到这一点。我非常看好使用人工智能，只需创建微型工具即可。这只是让你的生活变得更轻松一点。",
+   "ts": "01:11:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A hundred percent. I feel like that's one of the main ways people are using these tools, just a little niche problem they have. With that, Chip, we've reached our very exciting lightning round. I've got five questions for you. Are you ready?",
+   "zh": "百分之一百。我觉得这是人们使用这些工具的主要方式之一，只是他们遇到了一个小问题。奇普，就这样，我们进入了非常激动人心的闪电回合。我有五个问题要问你。你准备好了吗？",
+   "ts": "01:11:41"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah, always. No, no, no. It depends on how hard the questions are.",
+   "zh": "是的，总是。不，不，不。这取决于问题的难度。",
+   "ts": "01:11:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They're very consistent across every guest. So I imagine you've heard them before. First question, what are two or three books that you find yourself recommending most to other people?",
+   "zh": "他们对每位客人都非常一致。所以我想你以前听过它们。第一个问题，您发现自己最向其他人推荐的两三本书是什么？",
+   "ts": "01:11:58"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I'm really terrified of book recommendations because I feel like what books [inaudible 01:12:15] you should read really depends on what they want and where they're in life and where they want to get to. But just several books that I do think's have really changed the way I think and see the world. So one thing is The Selfish Gene, that's to understand, it actually helped me with the question whether I want to have kids or not because it's understanding more of a lot of our functions, the way we operate is the functions of our genes and genes want to do one thing, to procreate. (01:12:46): So yes, in a way, the book also proposed another thing is so everyone wants to live forever and maybe it's not consciously, but subconsciously, we do want that. And there are two ways. One is via genes. Genes [inaudible 01:13:00] want to continue forever, but [inaudible 01:13:03] two ideas. I think there's something [inaudible 01:13:05]. It's just like being able, if you have some ideas out there and then it's last for a long time, it's going to live on. I know it's a little bit abstract, but I thought it's very interesting. (01:13:16): The other books I really, really like is from the book from Singaporean previous, I think he is [inaudible 01:13:24] as a Father of Singapore, I don't know, Lee Kuan Yew. I'm not sure what's the title is, but he was the one who led Singapore from, he's changed Singapore from a Third World country to a first world country within 25 years. And I have never seen any country leaders spent so much effort into putting down his thought of how to build a country like that. (01:13:47): And as I talk a lot about public policy, how to create policies that encourage people to do the right things that is good for the nations and also talking about foreign affairs, foreign policies, the liberation of the country, but other. So it's a really good book to think about. For me, it's a system thinking, but it's a different kind of system which a country, which a lot of us don't get a chance to ever experiment in our life. So it's good to learn about that.",
+   "zh": "我真的很害怕书籍推荐，因为我觉得你应该读什么书 [听不清 01:12:15] 实际上取决于他们想要什么、他们在生活中的位置以及他们想要到达的地方。但我确实认为只有几本书真正改变了我思考和看待世界的方式。所以有一件事是《自私的基因》，那就是理解，它实际上帮助我解决了我是否想要孩子的问题，因为它更多地了解我们的功能，我们运作的方式是我们基因的功能，而基因想做一件事，那就是生育。 (01:12:46)：所以，是的，在某种程度上，这本书还提出了另一件事，那就是每个人都想永远活下去，也许这不是有意识的，但在潜意识里，我们确实想要这样。有两种方法。一种是通过基因。基因 [听不清 01:13:00] 希望永远继续下去，但 [听不清 01:13:03] 有两个想法。我认为有一些东西 [听不清 01:13:05]。这就像能够，如果你有一些想法，然后它会持续很长时间，它就会继续存在。我知道这有点抽象，但我认为这很有趣。 (01:13:16)：我真的非常喜欢的其他书来自新加坡以前的书，我认为他是[听不清01:13:24]作为新加坡之父，我不知道，李光耀。我不知道标题是什么，但他是领导新加坡的人，他在 25 年内将新加坡从第三世界国家变成了第一世界国家。我从来没有见过哪个国家领导人花费如此多的精力来放下他如何建设这样一个国家的想法。 (01:13:47)：正如我谈论了很多公共政策，如何制定政策来鼓励人们做对国家有利的正确事情，还谈论了外交事务、外交政策、国家解放等等。所以这是一本非常值得思考的好书。对我来说，这是一种系统思维，但对于一个国家来说，这是一种不同类型的系统，我们很多人在生活中都没有机会尝试过。所以了解这一点是件好事。",
+   "ts": "01:12:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What was the name of that second book?",
+   "zh": "第二本书的名字是什么？",
+   "ts": "01:14:13"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "It's called From Third to First World. Actually, I think I have it somewhere here. Yeah.",
+   "zh": "它被称为从第三世界到第一世界。事实上，我想我有它在这里的某个地方。是的。",
+   "ts": "01:14:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There it is.",
+   "zh": "就在那里。",
+   "ts": "01:14:20"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "It's a very heavy book.",
+   "zh": "这是一本非常厚重的书。",
+   "ts": "01:14:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Show and tell.",
+   "zh": "展示并讲述。",
+   "ts": "01:14:21"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:14:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. I definitely want to read that. That's a really good [inaudible 01:14:26]. I've heard a lot about just the impact he's had and I've seen all these videos on Twitter of just his really wise insights into how to build a thriving society. And clearly, it works.",
+   "zh": "太棒了。我绝对想读那篇文章。这真的很好 [听不清 01:14:26]。我听说过很多关于他所产生的影响，并且在 Twitter 上看过所有这些视频，这些视频展示了他对如何建设繁荣社会的真正明智的见解。显然，它有效。",
+   "ts": "01:14:23"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah. Can you believe, how does he time to write such a thick book? It's insane.",
+   "zh": "是的。你能相信，他是怎么花时间写出这么厚的书的？太疯狂了。",
+   "ts": "01:14:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is. Claude, please summarize. I'm just joking. By the way, Selfish Gene, I also absolutely love that book. That is such a good choice. It's such an under the radar kind of book that really changed the way I see the world as well. So really good pick. Okay, next question. Do you have a favorite recent movie or TV show you really enjoyed?",
+   "zh": "那是。克劳德，请总结一下。我只是开玩笑。顺便说一句，《自私的基因》，我也非常喜欢那本书。这是一个很好的选择。这是一本不为人所知的书，它也真正改变了我看待世界的方式。所以真的是不错的选择。好的，下一个问题。您最近有最喜欢的电影或电视节目吗？",
+   "ts": "01:14:39"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "So I watched a lot of movie and TV shows as a research because I working on my first novel and I recently sold it. So I'm interested what makes, it's a drama. It's not a science fiction or anything that tech people usually read. So it very, I know it's a very out of left field and very, so it's almost like reading, watching TV to see what kind of stories become popular, trying to understand the trope and stuff like that. So I'm not sure if the audience will like...",
+   "zh": "所以我看了很多电影和电视节目作为研究，因为我正在写我的第一本小说，并且最近卖掉了它。所以我很感兴趣是什么让它成为一部戏剧。这不是科幻小说或科技人员通常阅读的任何内容。所以它非常，我知道这是一个非常左领域，非常，所以它几乎就像阅读，看电视，看看什么样的故事会流行，试图理解比喻之类的东西。所以不知道观众会不会喜欢……",
+   "ts": "01:14:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, what's one? What's one that taught you something about writing?",
+   "zh": "嗯，什么是一呢？哪一篇教会了你写作方面的知识？",
+   "ts": "01:15:28"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I think like Yanxi Palace. It's a Chinese TV show.",
+   "zh": "我觉得像延禧宫。这是一个中国电视节目。",
+   "ts": "01:15:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Okay. I haven't heard that one on the podcast before. Okay, cool.",
+   "zh": "凉爽的。好的。我以前没在播客上听过这个。好吧，酷。",
+   "ts": "01:15:37"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:15:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Next question. Do you have a life motto that you often think about, come back to when you're dealing with something hard, whether it's in work or in life?",
+   "zh": "下一个问题。您是否有一条人生格言，当您处理困难的事情时，无论是在工作中还是在生活中，您都会经常思考并回想起来？",
+   "ts": "01:15:43"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "This sounds very nihilist. I think to say, in the end, nothing really matters. Usually, I think of in the grand scheme of things, in a billion years, nothing will, no one would ever be there. I think okay, someone will argue with me about that. [inaudible 01:16:05]. So my theory's like, in a billion years, none of us would ever exist. So whatever messy things, like crazy things we do or how bad we do it, I mean, no one would be remember, wouldn't be there to remember it. And I think in a way, it sounds scary, but it's very liberating because it just allows me say, okay, let's just try things out, right? Why does it matter? And there's a story of recently, so I have some family member who passed away recently. And I was talking to my dad because I couldn't be home for that. (01:16:36): I was asking my dad like, \"Okay, os there anything I can do to make the person...\" Something like comfort. So anything that you can get the persons. And my dad was just like, \"What can he possibly want at this moment?\" It just made me feel at the end of life, there's nothing that can bring you, like material can bring you joy. There's no money, no product, nothing. And in way, it makes me feel like, okay, what really do I really care about at the end of the day? So I guess it's like I think about it. It's just like, okay, maybe I fail it, maybe I don't get that contract. Maybe those things, but in the end of life, I don't think that actually really matters. So in a way, it's quite liberating.",
+   "zh": "这听起来非常虚无主义。我想说，到最后，没有什么真正重要的。通常，我会想到，在宏伟的计划中，十亿年后，什么都不会发生，也不会有人在那里。我想好吧，有人会为此与我争论。 [听不清 01:16:05]。所以我的理论是，十亿年后，我们谁都不会存在。因此，无论发生什么混乱的事情，比如我们做过的疯狂的事情或者我们做得有多糟糕，我的意思是，没有人会记得，也不会在那里记住它。我认为在某种程度上，这听起来很可怕，但它非常解放，因为它只是让我说，好吧，让我们尝试一下，对吧？为什么这很重要？最近有一个故事，我的一些家人最近去世了。我正在和我爸爸说话，因为我不能回家。 (01:16:36)：我问我爸爸，“好吧，我能做些什么来让这个人……”类似安慰之类的东西。所以任何你能得到的人。我爸爸就想，“他现在可能想要什么？”它只是让我在生命的尽头感到，没有什么可以给你带来，就像物质可以给你带来快乐一样。没有钱，没有产品，什么都没有。在某种程度上，这让我觉得，好吧，归根结底我真正关心的是什么？所以我想这就像我想的那样。就像，好吧，也许我失败了，也许我没有得到那份合同。也许这些事情，但在生命的最后，我认为这实际上并不重要。所以在某种程度上，这是相当解放的。",
+   "ts": "01:15:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know you said it might be nihilistic. This is what Steve Jobs shared too in one of his most famous speeches. Just we all die someday day, so don't take things so seriously and it is freeing. Absolutely. It just makes you appreciate every moment, every day you have. Just like, yeah, let's just do something hard and scary. Okay, final question. You talked about how you're writing a novel. Most people in tech have never written something creative and fiction. What's just one thing you learned in the process about how to write better stories, better fiction?",
+   "zh": "我知道你说这可能是虚无主义的。这也是史蒂夫·乔布斯在他最著名的演讲之一中分享的内容。只是有一天我们都会死去，所以不要把事情看得那么严重，这就是自由。绝对地。它只会让你珍惜每一刻、每一天。就像，是的，让我们做一些困难和可怕的事情。好的，最后一个问题。你谈到了你是如何写小说的。大多数科技人士从未写过一些有创意和虚构的东西。关于如何写出更好的故事、更好的小说，您在这个过程中学到了什么？",
+   "ts": "01:17:15"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "A lot of time when we read, we get tripped up by some small things. So I think I want to do creative writing because I just want to go a better writer and it tells us maybe try a different audience could have me become better at anticipating what this different type of audience would want to hear and what they care about. So it's a way for me to get a... So I think if I write it or even any kind of content creations is about predicting the user's reactions, right?",
+   "zh": "很多时候我们在读书的时候，都会被一些小事绊倒。所以我想我想做创意写作，因为我只是想成为一名更好的作家，它告诉我们也许尝试不同的观众可以让我更好地预测这种不同类型的观众想听到什么以及他们关心什么。所以这对我来说是一种获得……所以我认为如果我写它甚至任何类型的内容创作都是为了预测用户的反应，对吗？",
+   "ts": "01:17:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The next token.",
+   "zh": "下一个令牌。",
+   "ts": "01:18:14"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "You do a podcast.",
+   "zh": "你做一个播客。",
+   "ts": "01:18:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just kidding.",
+   "zh": "只是在开玩笑。",
+   "ts": "01:18:15"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Yeah. Yeah, so you do a podcast, it's like, okay, what kind things that the users could find engaging, right? And I find this a little bit and a lot of companies you have launch a product, you have a narrative coming out and say, okay, how do we position this product in a way that users would want? So I feel like I have done technical writing for a while and I felt like I had some experience trying to predict what engineers would want to hear or care about. But then I don't have any experience like this, completely different type of audience. So that's what I want to, creative writing, writing a story. And that's why I was doing a lot of research [inaudible 01:18:55]. I mean, doing research [inaudible 01:18:56] enjoyed a lot, watching a lot of dramas. I just see what people like. So one thing that I care about is, I think I learned what emotional journey was from a editor. (01:19:05): So when we write something we care about how users would feel across a story. We want something in the beginning, we want something, we need to have a hook so that people continue reading. But we also don't want too much of drama because we'll get too tired because you're emotionally exhausted because it's like you're being emotionally manipulated a lot of time. So it gave a emotional journey, maybe have some climax or something more chill, maybe like... And also care about another thing I didn't realize is, for me, for technical writing, you entirely focus on the content, the argument. It's very impersonal. For example, people like ML compilers, doesn't matter if they like the person telling them about compiler or not because it's just objective [inaudible 01:19:56]. But for a novel, people care about character likeability. (01:20:00): So in the first version of my story, it makes the characters a little bit more, very logical, very rational, and just does everything just very rationally. And then the feedback I got is, I have a very good friend read it and he was like, he's an amazing person, he's a great person. And he was like, \"Chip, I'll be honest, I hate that person.\" So it doesn't matter as a story, it's just like the person is so unlikeable, that's why he doesn't want to continue. So is a second version. It makes that person, the character more likable. How she makes that character more likable is that you put in some vulnerability sometimes it's like okay maybe it's person have setback because sometimes we can relate to it. So in a lot of ways, it's very interesting. A lot of it is about understand the emotional bit, like how the users feel, not just about the story but also about the characters.",
+   "zh": "是的。是的，所以你做了一个播客，就像，好吧，用户会觉得什么样的东西有吸引力，对吧？我发现这一点，很多公司推出了产品，都会有一个叙述，然后说，好吧，我们如何以用户想要的方式定位这个产品？所以我觉得我已经做了一段时间的技术写作，并且我觉得我有一些尝试预测工程师想要听到或关心什么的经验。但我没有这样的经历，完全不同类型的观众。这就是我想要的，创意写作，写故事。这就是我进行大量研究的原因 [听不清 01:18:55]。我的意思是，做研究 [听不清 01:18:56] 很享受，看了很多戏剧。我只是看看人们喜欢什么。所以我关心的一件事是，我想我从编辑那里学到了什么是情感旅程。 (01:19:05)：所以当我们写东西时，我们关心用户对故事的感受。我们一开始就想要一些东西，我们想要一些东西，我们需要有一个钩子，以便人们继续阅读。但我们也不想要太多的戏剧性，因为我们会变得太累，因为你在情感上疲惫不堪，因为你就像在情感上被操纵了很多时间。所以它给了一个情感之旅，也许有一些高潮或更冷静的东西，也许像……而且还关心我没有意识到的另一件事是，对我来说，对于技术写作，你完全专注于内容、论点。这是非常不人性化的。例如，人们喜欢 ML 编译器，他们是否喜欢告诉他们有关编译器的人并不重要，因为它只是客观的 [听不清 01:19:56]。但对于小说来说，人们关心的是人物的可爱程度。 (01:20:00)：所以在我的故事的第一个版本中，它让角色变得更加有逻辑，非常理性，并且做所有事情都非常理性。然后我得到的反馈是，我有一个很好的朋友读了这本书，他说，他是一个了不起的人，他是一个伟大的人。他说：“奇普，说实话，我讨厌那个人。”所以作为一个故事来说并不重要，只是这个人太不讨人喜欢了，所以他才不想继续下去。第二个版本也是如此。它使那个人、这个角色更讨人喜欢。她如何让这个角色变得更讨人喜欢，因为你有时会表现出一些脆弱性，就像好吧，也许这个人遇到了挫折，因为有时我们可以理解它。所以从很多方面来说，这都非常有趣。其中很多是关于理解情感部分，比如用户的感受，不仅仅是故事，还有角色。",
+   "ts": "01:18:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so interesting. Wow. I learned a lot more there than I thought. That was awesome. Really good example. Chip, two final questions. Where can folks find you online, if they want to reach out and maybe work with you or maybe even just share the stuff that you offer if folks want to reach out. And then how can listeners be useful to you?",
+   "zh": "那太有趣了。哇。我在那里学到的东西比我想象的要多得多。太棒了。真是个好例子。奇普，最后两个问题。人们可以在网上哪里找到您，如果他们想联系您，也许可以与您合作，或者如果人们想联系您，甚至可以分享您提供的东西。那么听众如何对你有用呢？",
+   "ts": "01:20:50"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "I'm on social media, LinkedIn, Twitter. I don't post a lot, but I keep telling myself that I should do more because I kind of like the conversation with readers. So I'm actually about to I start a Substack. So I have a placeholder for Substack right now and I'm thinking of doing it for more system thinking because I think it's a very interesting skill. I'm also thinking of doing a YouTube channel on book reviews and basically books than help you think better. So I think it's the first book I'm a review is probably like this book because it's my favorite book growing up and I've been keep on reading it. So yeah, so how can you be helpful? Send me books that you like, books that help you have changed the way you think or change you the way you do anything. So I would appreciate it.",
+   "zh": "我使用社交媒体、LinkedIn、Twitter。我发帖不多，但我不断告诉自己应该做更多，因为我有点喜欢与读者交谈。所以我实际上即将开始一个子堆栈。所以我现在有一个 Substack 的占位符，我正在考虑这样做是为了更多的系统思考，因为我认为这是一项非常有趣的技能。我还考虑在 YouTube 上建立一个关于书评和书籍的频道，以帮助你更好地思考。所以我认为这是我评论的第一本书，可能就像这本书一样，因为它是我成长过程中最喜欢的书，而且我一直在读它。是的，那么你能提供什么帮助呢？把你喜欢的书寄给我，这些书可以帮助你改变你的思维方式或改变你做事的方式。所以我会很感激。",
+   "ts": "01:21:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I'm excited to read that book.",
+   "zh": "惊人的。我很高兴读那本书。",
+   "ts": "01:22:00"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Mm-hmm.",
+   "zh": "嗯嗯。",
+   "ts": "01:22:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Chip, thank you so much for being here.",
+   "zh": "奇普，非常感谢你来到这里。",
+   "ts": "01:22:03"
+  },
+  {
+   "speaker": "Chip Huyen",
+   "en": "Thank you so much, Lenny, for having me.",
+   "zh": "非常感谢你邀请我，莱尼。",
+   "ts": "01:22:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "再见大家。非常感谢您的聆听。如果您发现这很有价值，您可以在 Apple Podcasts、Spotify 或您最喜欢的播客应用程序上订阅该节目。另外，请考虑给我们评分或留下评论，因为这确实有助于其他听众找到播客。您可以在 lennyspodcast.com 上找到所有过去的剧集或了解有关该节目的更多信息。下一集见。",
+   "ts": "01:22:07"
+  }
+ ]
+}

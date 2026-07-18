@@ -1,0 +1,773 @@
+{
+ "id": "Aparna Chennapragada",
+ "name": "Aparna Chennapragada",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Aparna+Chennapragada",
+ "bio": {
+  "en": "Aparna Chennapragada is Chief Product Officer at Microsoft overseeing AI product strategy for productivity tools and agents, previously CPO at Robinhood and a long-time VP at Google (Lens, Search, Shopping, AR).",
+  "zh": "Aparna Chennapragada 是微软首席产品官，负责生产力工具与智能体的 AI 产品战略，此前曾任 Robinhood 首席产品官，以及 Google 长期副总裁（负责 Lens、搜索、购物、AR 等）。"
+ },
+ "summary": {
+  "en": "Aparna argues that even as models “eat” products, design and taste remain central, and introduces NLX—natural language as the new UX—with its own grammars and invisible UI elements. She describes B2B as like Jean-Claude Van Damme doing the splits across two moving trucks, and why PMs should still learn to code. The conversation covers why the PM role isn't going anywhere and how her team “lives in the future” to build toward what's coming.",
+  "zh": "Aparna 认为，即便模型“吃掉”产品，设计与品味依然核心，并提出 NLX——自然语言即新的用户体验——它自有语法和看不见的 UI 元素。她把 B2B 比作“让·克洛德·范·达姆在两辆行驶卡车间劈叉”，并解释了 PM 为何仍该学编程。对话涵盖为何 PM 角色不会消失，以及她的团队如何“活在未来”以面向将要到来的东西而构建。"
+ },
+ "turns": [
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I have a cheesy Chrome extension. Literally whenever I open a new tab, it just says, how can you use AI to do what you're going to do right now?",
+   "zh": "我有一个俗气的 Chrome 扩展程序。从字面上看，每当我打开一个新选项卡时，它只会说，你如何使用人工智能来做你现在要做的事情？",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How do you see the future of product development being different?",
+   "zh": "您如何看待产品开发的未来？",
+   "ts": "00:00:06"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "If you're not prototyping and building to see what you want to build, I think you're doing it wrong. It becomes even more important to have that territorial and taste-making at the heart of it because, otherwise, you just have a Frankenstein product.",
+   "zh": "如果您没有进行原型设计和构建来看看您想要构建什么，我认为您做错了。将领土和品味置于其核心变得更加重要，因为否则，你就只是拥有一个弗兰肯斯坦产品。",
+   "ts": "00:00:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's this acronym that you taught me, NLX. What is that?",
+   "zh": "这是你教我的缩写，NLX。那是什么？",
+   "ts": "00:00:23"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Natural language interface. NLX is the new UX. Often I hear a product builders say, \"Oh, yeah. With AI, the model eats the products.\" That doesn't mean it's not designed. You and I are having a conversation. It's a podcast. I'll have another conversation at Microsoft and that's a meeting. Conversations also have grammars. They have structures. They have UI elements. They're invisible. What are the new principles, new constructs in natural language as an interface?",
+   "zh": "自然语言界面。 NLX 是新的用户体验。我经常听到产品开发者说：“哦，是的。有了人工智能，模型就会吃掉产品。”这并不意味着它没有被设计。你和我正在交谈。这是一个播客。我将在微软进行另一次谈话，那就是一次会议。对话也有语法。他们有结构。他们有 UI 元素。他们是看不见的。自然语言作为界面的新原则、新结构是什么？",
+   "ts": "00:00:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I just saw that Cursor hit 300 million ARR in two years. Interestingly, you guys were very well positioned to do really well in this AI coding tool space. You guys had Copilot, the first tool in the world at this stuff. So ahead of everyone, what happened?",
+   "zh": "我刚刚看到 Cursor 在两年内达到了 3 亿 ARR。有趣的是，你们处于非常有利的位置，可以在这个人工智能编码工具领域做得非常好。你们有 Copilot，世界上第一个这方面的工具。那么在大家面前，到底发生了什么？",
+   "ts": "00:00:52"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I would say...",
+   "zh": "我会说...",
+   "ts": "00:01:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Aparna Chennapragada. Aparna is chief product officer at Microsoft where she oversees AI product strategy for their productivity tools and their work on agents. Previously, she was chief product officer at Robinhood, vice president at Google, where she worked on Google lens, search, shopping, augmented reality, AI assistant, and a lot more. She was also a long-time engineering leader at Akamai, and on the board of eBay and Capital One. (00:01:32): In our conversation, we chat about how working in B2B is like being Jean-Claude Van Damme doing the splits across two moving trucks, how she's operationalizing her team living in the future so that they're building towards where things are going, why people still need to learn to code, why the PM role isn't going anywhere, why NLX is the new UX, and so much more. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. Also, if you become an annual subscriber of my newsletter, you get a year free of a bunch of products including Linear, Superhuman, Notion, Perplexity, and Granola. Check it out at lennysnewsletter.com and click bundle. With that, I bring you Aparna Chennapragada. (00:02:11): This episode is brought to you by Eppo. Eppo is a next-generation AB testing and feature management platform built by alums of Airbnb and Snowflake for modern growth teams. Companies like Twitch, Miro, ClickUp, and DraftKings rely on Eppo to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features, and Eppo helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. (00:02:41): When I was at Airbnb, one of the things that I left most was our experimentation platform, break it, set up experiments, easily troubleshoot issues, and analyze performance all on my own. Eppo does all that and more with advanced statistical methods that can help you shave weeks off experiment time and accessible UI for diving deeper into performance and out-of-the-box reporting that helps you avoid annoying prolonged analytic cycles. Eppo also makes it easy for you to share experiment insights with your team, sparking new ideas for the AB testing flywheel. Eppo powers experimentation across every use case, including product growth, machine learning, monetization, and email marketing. Check out Eppo at geteppo.com/Lenny and 10x your experiment velocity. That's get E-P-P-O .com/Lenny. (00:03:28): This episode is brought to you by Pragmatic Institute, the trusted leader in product expertise. Pragmatic Institute helps product professionals turn ideas into impact through proven courses, workshops, and certifications designed for real-world success. For over 30 years, they've trained more than 250,000 product leaders at companies like Google, Microsoft, and Salesforce equipping them with practical strategies to build and scale market-winning products. Pragmatic's full-time instructors each bring over 25 years of hands-on leadership experience, teaching strategies proven to deliver real-world results. And it's not just about what you learn, it's also about who you learn it with. Completing a course connects you to an active community of over 40,000 product professionals. You'll engage in meaningful conversations, collaborate with peers and mentors, and gain direct instructor access to refine your strategies and stay ahead of trends. Get 20% off with code LENNY20 at PragmaticInstitute.com/Lenny. Aparna, thank you so much for being here and welcome to the podcast.",
+   "zh": "今天我的嘉宾是 Aparna Chennapragada。阿帕娜 (Aparna) 是微软的首席产品官，负责监督生产力工具的人工智能产品策略以及代理的工作。此前，她曾担任 Robinhood 首席产品官、谷歌副总裁，负责谷歌镜头、搜索、购物、增强现实、人工智能助手等领域的工作。她还是 Akamai 的长期工程领导者，以及 eBay 和 Capital One 的董事会成员。 (00:01:32)：在我们的对话中，我们讨论了在 B2B 工作如何就像让-克洛德·云顿 (Jean-Claude Van Damme) 在两辆移动卡车之间进行分流，她如何运作未来的团队，以便他们朝着事情的发展方向前进，为什么人们仍然需要学习编码，为什么 PM 角色不会消失，为什么 NLX 是新的用户体验，等等。如果您喜欢这个播客，请不要忘记订阅并在您最喜欢的播客应用程序或 YouTube 中关注它。另外，如果您成为我的时事通讯的年度订阅者，您将获得一年免费的一系列产品，包括 Linear、Super human、Notion、Perplexity 和 Granola。请访问 lennysnewsletter.com 查看并单击“捆绑”。接下来，我为您带来 Aparna Chennapragada。 (00:02:11)：本集由 Eppo 为您带来。 Eppo 是由 Airbnb 和 Snowflake 的校友为现代增长团队打造的下一代 AB 测试和功能管理平台。 Twitch、Miro、ClickUp 和 DraftKings 等公司依靠 Eppo 来支持他们的实验。实验对于推动增长和了解新功能的性能越来越重要，Eppo 可以帮助您提高实验速度，同时以其他商业工具无法做到的方式解锁严格的深度分析。 (00:02:41)：当我在 Airbnb 时，我留下最多的东西之一就是我们的实验平台，我自己打破它、设置实验、轻松解决问题并分析性能。 Eppo 通过先进的统计方法完成了这一切，并提供了更多功能，可以帮助您缩短数周的实验时间，并且可访问的 UI 可以更深入地了解性能，而开箱即用的报告可以帮助您避免烦人的长时间分析周期。 Eppo 还使您可以轻松地与您的团队分享实验见解，激发 AB 测试飞轮的新想法。 Eppo 为每个用例提供实验支持，包括产品增长、机器学习、货币化和电子邮件营销。请访问 geteppo.com/Lenny 查看 Eppo，将您的实验速度提高 10 倍。那就访问 E-P-P-O .com/Lenny。 (00:03:28)：本集由值得信赖的产品专业领导者 Pragmatic Institute 为您带来。 Pragmatic Institute 通过专为现实世界的成功而设计的经过验证的课程、研讨会和认证，帮助产品专业人士将想法转化为影响。 30 多年来，他们为 Google、Microsoft 和 Salesforce 等公司培训了超过 250,000 名产品领导者，为他们提供了构建和扩展赢得市场的产品的实用策略。 Pragmatic 的全职讲师均拥有超过 25 年的实践领导经验，其教学策略已被证明可以带来现实世界的成果。这不仅与您学到什么有关，还与您和谁一起学习有关。完成课程后，您将接触到由 40,000 多名产品专业人士组成的活跃社区。您将参与有意义的对话，与同事和导师合作，并直接与讲师联系以完善您的策略并保持领先趋势。在 PragmaticInstitute.com/Lenny 上使用代码 LENNY20 可享受 20% 的折扣。阿帕娜，非常感谢您来到这里，欢迎来到播客。",
+   "ts": "00:01:08"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Thank you, Lenny. Thanks for having me.",
+   "zh": "谢谢你，莱尼。谢谢你有我。",
+   "ts": "00:04:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When I asked a lot of people that work with you, what I should ask you about and what I should know about you, something that came up again and again, it's something that I think most people don't know about you, which is that you're big into stand-up comedy, and you take it semi-seriously. Just how serious are you about this? How much of your life is this and most importantly, how does this help you build better products?",
+   "zh": "当我问了很多和你一起工作的人时，我应该问你什么，我应该了解你什么，这些事情一次又一次地出现，我认为大多数人都不了解你，那就是你热衷于单口喜剧，而且你半认真地对待它。你对此有多认真？这是你生活的一部分，最重要的是，这如何帮助你打造更好的产品？",
+   "ts": "00:04:37"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "It's hard to say I'm serious about a funny business, but I do watch and do stand-up comedy. I do open mics. I've done a few shows.",
+   "zh": "很难说我是认真对待有趣的事情的，但我确实观看并表演单口喜剧。我确实打开麦克风。我已经做过几场演出了。",
+   "ts": "00:04:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow.",
+   "zh": "哇。",
+   "ts": "00:05:09"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I have one set brewing that is around AI, unsurprisingly AI and tech and Silicon Valley. It's really interesting for me. This was an accidental discovery. I had always been an SNL fan and Discovery fan, but I went to an open mic because my son sings, and he went to the open mic for singing and he is like, \"Mom, you should go do this.\" And I was like, \"Oh, let me go give it a try,\" and I found that I enjoyed it and was good at it. To your question though, about building better products, I'd say both have PMF, I mean, product market fit, punchline market fit. (00:05:49): Actually, there are a couple of things that I do find really powerful and useful because in open mics or even when you're testing these things, it's a very tight cycle of iteration, and you get live... Open mics are the real live experiments. You put something out there, you get very clear micro feedback from users, and then you get tough feedback sometimes. And I think as product builders, that's actually one of the great skills to have, which is you sometimes launch stuff that have a fantastic vision, but the first version is not quite there. And Reid Hoffman says this, \"Hey, if you don't launch the first version and are not embedded, you're doing it too slow.\" Just that gap in closing that, it's good resilience.",
+   "zh": "我正在酝酿一套围绕人工智能的方案，毫不奇怪的是人工智能、科技和硅谷。这对我来说真的很有趣。这是一个偶然的发现。我一直是《周六夜现场》和探索频道的粉丝，但我去了开放式麦克风，因为我儿子唱歌，他也去开放式麦克风唱歌，他说，“妈妈，你应该这样做。”我当时想，“哦，让我去尝试一下，”我发现我很喜欢它并且很擅长。不过，对于你的问题，关于打造更好的产品，我想说两者都有 PMF，我的意思是，产品市场契合度，点睛之笔的市场契合度。 (00:05:49)：实际上，我确实发现有一些东西非常强大和有用，因为在开放麦克风中，甚至当你测试这些东西时，这是一个非常紧凑的迭代周期，然后你就可以开始了……开放麦克风是真正的现场实验。你把一些东西放在那里，你会从用户那里得到非常清晰的微反馈，然后有时你会得到严厉的反馈。我认为作为产品构建者，这实际上是一项伟大的技能，这就是你有时会推出具有梦幻般愿景的东西，但第一个版本还没有完全实现。 Reid Hoffman 说道：“嘿，如果你不推出第一个版本并且没有嵌入，那么你就做得太慢了。”只是缩小差距，这是很好的弹性。",
+   "ts": "00:05:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I never saw these corollaries between these two things. I didn't realize you actually did shows, and you're working on a set. I wasn't going to ask you for a joke, but if you're working on a whole thing about AI, is there something that you can share from that set?",
+   "zh": "是的。我从未见过这两件事之间的推论。我没有意识到你真的做过演出，而且你正在制作一套。我不想问你一个笑话，但如果你正在研究有关人工智能的整个事情，你可以从这个系列中分享一些东西吗？",
+   "ts": "00:06:30"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "One joke I'd maybe share is people think about these AI chat products as women because you don't know what's going on. It's a black box, and you don't know what they're thinking. There's an entire set around that, but obviously on the flip side too, that they're probably more like men in the sense that they hallucinate a lot. They kind of are not yet reliable.",
+   "zh": "我可能会分享的一个笑话是，人们将这些人工智能聊天产品视为女性，因为你不知道发生了什么。这是一个黑匣子，你不知道他们在想什么。围绕这一点有一整套，但显然也有另一面，他们可能更像男人，因为他们经常产生幻觉。他们还不太可靠。",
+   "ts": "00:06:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm afraid to laugh with this a little bit. This is great.",
+   "zh": "我有点不敢笑了。这太棒了。",
+   "ts": "00:07:12"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "And even when they don't know the answer, they make up stuff. They're very confident.",
+   "zh": "即使他们不知道答案，他们也会编造一些东西。他们非常有信心。",
+   "ts": "00:07:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is good. Where are we going to be seeing the show by the way?",
+   "zh": "这很好。顺便问一下我们要去哪里看演出？",
+   "ts": "00:07:21"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "TBD.",
+   "zh": "待定。",
+   "ts": "00:07:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. This is great. Okay, let's get serious again. So you worked at most of your career at a lot of consumer internet companies. You worked at Google, Robinhood, you're on the board of eBay, you're on the board of Capital One. Now, you're at Microsoft. I'm curious just what is most different about working at a company like Microsoft and building product at a company like Microsoft?",
+   "zh": "好的。这太棒了。好吧，让我们再次严肃起来。所以你职业生涯的大部分时间都在很多消费互联网公司工作。你曾在谷歌、Robinhood 工作过，你是 eBay 的董事会成员，你是第一资本的董事会成员。现在，你在微软。我很好奇在微软这样的公司工作和在微软这样的公司构建产品最大的不同是什么？",
+   "ts": "00:07:24"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I think intellectually I knew that, hey, enterprise, particularly the area that I look at most at Microsoft is focused on enterprise and productivity and transforming companies through AI. And to me, I think two things really strike as very different. One, in fact, I just posted about this the other day saying, in consumer, you're kind of like, \"Oh, we have a playbook for make the product work or make the feature work and make it delightful,\" but I think in the enterprise, you almost have... Every time you think you have one use case, you have really two, which is how do you make sure that the feature works well and there's governance of the feature. (00:08:25): If you think about even something as simple as sharing a link to a document, you want it to be easy, frictionless, but at the same time, you want that to be secure and safe and being able to have auditability and all of those things. And often, I find that when you go from a consumer enterprise, you fall into a trap of either disregarding that and say, \"Oh, we'll just focus on one side of the house,\" or overly crippling the user experience side and leaning on the other side. So I think there's an art and science and nuance and playbook there too, so that's one big learning for me. The other learning, and especially in the AI era for me has been about this... I think there's a famous trailer from the 2000s on Van Damme on these two buses [inaudible 00:09:13] splits.",
+   "zh": "我认为从理智上来说，我知道，嘿，企业，尤其是我最关注的微软领域，重点是企业和生产力，以及通过人工智能实现公司转型。对我来说，我认为有两件事确实非常不同。一，事实上，我前几天刚刚发帖说，在消费者中，你有点像，“哦，我们有一本剧本可以让产品发挥作用，或者让功能发挥作用并使其令人愉快，”但我认为在企业中，你几乎已经......每次你认为你有一个用例时，你实际上有两个用例，这就是你如何确保该功能运行良好并且有对该功能的治理。 (00:08:25)：如果您考虑像共享文档链接这样简单的事情，您希望它简单、无摩擦，但同时，您希望它安全可靠，并且能够具有可审核性和所有这些东西。我经常发现，当你从一家消费企业离职时，你会陷入一个陷阱，要么忽视这一点，然后说，“哦，我们只关注房子的一侧”，要么过度削弱用户体验，而倾向于另一侧。所以我认为那里也有艺术和科学以及细微差别和剧本，所以这对我来说是一个很大的学习。其他学习，尤其是在人工智能时代，对我来说是关于这个的……我认为 Van Damme 上的这两辆公交车 [听不清 00:09:13] 上有一个 2000 年代著名的预告片。",
+   "ts": "00:07:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Like doing the splits.",
+   "zh": "就像做劈叉一样。",
+   "ts": "00:09:14"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah, doing the splits, exactly. I feel like a lot of the companies, including the tech companies, but certainly the enterprises that I talk to are in these two modes where one hand, this is the most compressed tech cycle that we've ever experienced. It's in the order of weeks and months versus years and decades. If you think about mobile and cloud and internet, and there's just so much happening, the intelligence overhang. On the other hand, there's also humans and habits that... Productivity habits change. It's hard to change and change management through the company is also hard. You don't want to be rash on that. So it's like the future is unevenly distributed but even within the companies.",
+   "zh": "是的，确实是在做劈叉。我觉得很多公司，包括科技公司，但当然，我采访过的企业都处于这两种模式，一方面，这是我们经历过的最压缩的技术周期。它的数量级为几周和几个月，而不是几年和几十年。如果你想到移动、云和互联网，就会发现正在发生如此多的事情，那就是智能过剩。另一方面，人类和习惯……生产力习惯也会改变。改变很难，通过公司改变管理也很困难。你不想对此鲁莽。因此，未来的分布似乎是不均匀的，但在公司内部也是如此。",
+   "ts": "00:09:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On the second bucket of the bus that Van Damme's riding on of governance and adoption and changing behavior and stuff, is there something you've learned about how to get past that, help that along more?",
+   "zh": "在 Van Damme 乘坐的第二桶公共汽车上，关于治理、采用以及改变行为和事物，您是否学到了一些关于如何克服这一点、进一步帮助它前进的东西？",
+   "ts": "00:09:59"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "The thing not to do is hold back folks who are early adopters. I think that's the other one learning. In fact, I think that's one of the reasons why recently... I've been working with folks to say, \"Can we have both,\" which is the longer-term change management, being able to do it in a trusted way, at the same time do this program we are calling Frontier program and roll out cutting edge experimental features. We just built this world's first deep research agent made for work, post-trained for work. And of course, it has all sorts of edges, rough edges, but if there are only adopters in an enterprise or outside, how can we put that in the hands of those folks without insisting that all of the company be completely developing different muscles?",
+   "zh": "不应该做的就是阻止那些早期采用者。我认为这是另一种学习。事实上，我认为这就是为什么最近......我一直在与人们合作说，“我们可以两者兼而有之”，这是长期的变革管理，能够以可信的方式做到这一点，同时执行我们称之为前沿计划的计划并推出尖端的实验功能。我们刚刚构建了世界上第一个专为工作而设计、经过培训后工作的深度研究代理。当然，它有各种各样的边缘，粗糙的边缘，但如果只有企业内部或外部的采用者，我们如何才能把它交给这些人，而不坚持要求所有公司都完全发展不同的肌肉？",
+   "ts": "00:10:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This program Frontier you're talking about, I wanted to spend a little time on it. So what is the idea? The idea here is people are working in this futuristic environment. How does that actually work?",
+   "zh": "你说的这个程序 Frontier，我想花一点时间在上面。那么这个想法是什么呢？这里的想法是人们在这个未来的环境中工作。这实际上是如何运作的？",
+   "ts": "00:11:04"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah, I think the idea is exactly this, which is I want to kind of institutionalize and operationalize my personal model of living one year in the future and say, \"What does this...\" Imagine a company or a setup like Frontier Consulting Group or Frontier Inc., right? And if you did live in that environment where you had all the AI tools and really advanced deep research intelligence on tap, what are the kinds of questions you'd be asking? What's the kind of work you'd be doing? How would you change how you're going about your work day? So that's the premise and you'd say, \"Hey, how does it change an individual?\" But also down the lane, we want to think about what does a Frontier team look like. We talk a lot about Frontier labs and models. I think models layer is amazing and obviously that's what empowers all these product building to happen, but I want to push us to think about what does a Frontier product look like? And more importantly, how does a Frontier way of working like? What does a team with three people and tons of compute and AI tools look like?",
+   "zh": "是的，我认为这个想法正是这样的，我想将我未来一年的个人生活模式制度化和可操作化，然后说，“这是什么......”想象一下像 Frontier Consulting Group 或 Frontier Inc. 这样的公司或机构，对吗？如果你确实生活在拥有所有人工智能工具和真正先进的深度研究智能的环境中，你会问什么样的问题？你会从事什么样的工作？您将如何改变您一天的工作方式？这就是前提，你会说，“嘿，它如何改变一个人？”但同时，我们也想思考一支 Frontier 团队是什么样子的。我们谈论了很多关于前沿实验室和模型的内容。我认为模型层是令人惊奇的，显然这就是所有这些产品构建得以发生的原因，但我想促使我们思考前沿产品是什么样子？更重要的是，Frontier 的工作方式如何？一个由三人组成、拥有大量计算和人工智能工具的团队是什么样的？",
+   "ts": "00:11:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So how exactly does this work? There's a team within Microsoft that's like your job is to use all of our latest tools and build product using that. Does that work?",
+   "zh": "那么这到底是如何运作的呢？ Microsoft 内部有一个团队，您的工作就是使用我们所有最新的工具并使用这些工具构建产品。那有用吗？",
+   "ts": "00:12:20"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "That is the setup. We are just a few weeks into that setup, but meanwhile what we have done is we've actually set up a fake company and said, \"Hey, if you are somebody who wants to come play with some of the cutting edge science projects and deep research agents and agents at work, come party here.\"",
+   "zh": "这就是设置。我们刚刚开始这个设置几周，但与此同时，我们所做的实际上是建立了一家假公司，并说：“嘿，如果你想参与一些前沿的科学项目和深入的研究代理和工作代理，请来这里参加聚会。”",
+   "ts": "00:12:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. And it's only a few weeks in. Okay, so TBD how it all goes.",
+   "zh": "哇。现在才几周时间。好吧，一切进展如何，待定。",
+   "ts": "00:12:51"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah. And again, these are micro... Let's see. The meta point here also is that in the traditional way, we've kind of always thought about across the companies, across industries, really thinking about roll-outs in these macro ways. You build something and you kind of roll it out, you have a general availability for, and then you take the time. And that's really important too because, again, we are talking about pharma companies, legal companies relying on this. So we do want to have that. But at the same time, given the compressed cycles of AI, how do we start to have people experience what's the one year in the future?",
+   "zh": "是的。再说一次，这些都是微观的……让我们看看。这里的元点还在于，以传统方式，我们一直在考虑跨公司、跨行业，真正考虑以这些宏观方式进行推广。你构建了一些东西，然后将其推出，获得了普遍可用性，然后你就花时间了。这也非常重要，因为我们再次谈论的是依赖于此的制药公司和法律公司。所以我们确实想要这样。但与此同时，考虑到人工智能的压缩周期，我们如何开始让人们体验未来的一年是什么？",
+   "ts": "00:12:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's follow this thread in a few different directions. There's how product development changes, there's how engineering changes. There's also just agents. I know you're spending a lot of time in agents, feels like you're not an AI company these days if you're not working on agents or building an agent.",
+   "zh": "让我们从几个不同的方向来追踪这个线索。产品开发如何变化，工程如何变化。也有只是代理。我知道你花了很多时间在代理上，如果你不致力于代理或构建代理，那么现在感觉你不是一家人工智能公司。",
+   "ts": "00:13:29"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Lenny, you're doing this wrong. You didn't use the word agents so far into the conversation.",
+   "zh": "莱尼，你做错了。到目前为止，您在谈话中还没有使用“特工”这个词。",
+   "ts": "00:13:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I try hard to push it out as far as I can. It's like every conversation in San Francisco, it's just like how long until I start talking about AI? It's like three minutes. Average, I bet. Oh, man. Okay, so with agents, I know that you're leading a lot of this work at Microsoft and a lot of people are wondering what the hell does this mean? What is going to change? Give us just a glimpse into how you see the world being different in a world of agents being around more.",
+   "zh": "我尽我所能地努力把它推出去。就像旧金山的每一次谈话一样，就像我要多久才能开始谈论人工智能？好像是三分钟。我敢打赌，平均水平。哦，伙计。好的，关于代理，我知道你在微软领导了很多这项工作，很多人都想知道这到底意味着什么？将会发生什么变化？让我们大致了解一下，在代理越来越多的世界中，您如何看待世界的不同。",
+   "ts": "00:13:51"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "There's a short term and there's a long term, right? There's a lot of hyperventilated, excited talk about the eventual future and all of that. I take a much more practical product building lens on this, and I think about these. At the end of the day, there are tools. Yes, underneath it, there's stochastic models versus very deterministic programming models. You can tell I'm a computer scientist like the way that worldview definitely shapes how I think about this. To me, the short term is there's an evolution. We had apps, and now I think we are firmly in the assistance era where there's human driving the... That's what we think of as co-pilot, right? I think the human driving in the driver's seat but having a lot of assistance from AI. (00:15:07): So I think of this as then you look at the dimension of almost autonomy and delegation and intelligence. As the intelligence, for example, when deep reasoning unlock happened, of course, then you can delegate more to the agent. So I think, to me, there's one dimension where you say, \"Hey, agents are somewhat independent software processes that can kind of run tasks,\" and you're not just thinking about handholding and fine motor stuff. You're saying, \"Hey, here's my goal. Go make this happen.\" I'll give you an example. So we are working on this researcher agent for work. And last night, I said, \"Hey, I have an important meeting coming up with the leadership team. I really want to present these frameworks here and this is the roadmap here. Go back and look at all the people that are in the meeting. What are their views on this topic and come up with how I should I be thinking about the right persuasion pitch here?\" (00:16:07): And what's magical about this is not just that it's saving time. Typically, we think about the, so far, AI as summarizing a document or saving time. This is like fighting synapses that I didn't quite have and actually giving me new insights and giving me, dare I say, superpowers. So that's a natural evolution of AI, I would say. So when I think about agents, I think about three things. One is an increasing level of autonomy and kind of independence that you can delegate higher and higher order tasks. Second thing I think of it is complexity. So it's not just a one-shot, \"Hey, create this image or do this thing or summarize the document,\" it's build me this prototype that expresses my idea of, say, an augmented reality app. It's a complex task. And then the third thing I would say is asynchronous. It works when you are not working. I think that's the other big thing about these things that you don't have to sit in front of it.",
+   "zh": "有短期也有长期，对吧？对于最终的未来以及所有这一切，有很多过度兴奋的讨论。我对此采取了更实用的产品构建视角，并思考了这些。归根结底，还是有工具的。是的，在它的下面，有随机模型与非常确定性的编程模型。你可以看出我是一名计算机科学家，就像世界观确实塑造了我对此的看法一样。对我来说，短期内是有一个演变。我们有应用程序，现在我认为我们已经坚定地处于由人类驾驶的辅助时代......这就是我们所认为的副驾驶，对吗？我认为人类坐在驾驶座上驾驶，但得到了人工智能的很多帮助。 (00:15:07)：所以我认为这就是你看到几乎自治、授权和情报的维度。作为智能，例如，当发生深度推理解锁时，当然，你可以将更多任务委托给代理。所以我认为，对我来说，有一个维度，你会说，“嘿，代理是某种程度独立的软件进程，可以运行任务”，而你不仅仅考虑手持和精细运动的东西。你会说：“嘿，这就是我的目标。去实现它吧。”我给你举个例子。所以我们正在研究这个研究代理的工作。昨晚，我说，“嘿，我要与领导团队召开一次重要会议。我真的很想在这里展示这些框架，这就是这里的路线图。回去看看所有参加会议的人。他们对这个话题有什么看法，并提出我应该如何在这里思考正确的说服方式？” (00:16:07)：这的神奇之处不仅仅是节省时间。到目前为止，我们通常认为人工智能是总结文档或节省时间。这就像与我不具备的突触作斗争，实际上给了我新的见解，并给了我，我敢说，超能力。我想说，这是人工智能的自然演变。所以当我想到代理时，我会想到三件事。一是自主性和独立性不断提高，您可以委派越来越高阶的任务。我想到的第二件事是复杂性。因此，这不仅仅是一次性的，“嘿，创建这个图像或做这个事情或总结文档”，它为我构建了这个原型，表达了我对增强现实应用程序的想法。这是一项复杂的任务。然后我要说的第三件事是异步。当你不工作的时候它就可以工作。我认为这是这些东西的另一件大事，你不必坐在它面前。",
+   "ts": "00:14:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This answers the question of what is an agent essentially, these three bullet points. So what are the three again?",
+   "zh": "这回答了代理本质上是什么的问题，这三个要点。那么这三个又是什么呢？",
+   "ts": "00:17:05"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "When I think about agents, I think about these three things. So one, it's autonomy like being... And it's a spectrum, it's not a zero-one, it's how do I actually delegate things that it can do. Second, I think of as complexity. It's not a one-shot, \"Hey, summarize this document, generate this image, but it's build me this prototype or help me knock this meeting out of the park.\" And then the third one I think of is it's a much more natural interaction. That doesn't just mean chat, but it may be actually jumping on a meeting with the agent and being able to talk through all of it or point it to things that I wanted done differently. So I think all three things, the autonomy, the complexity, and the natural interaction are at least product principles that will shape really good ones, good agents.",
+   "zh": "当我想到代理时，我会想到这三件事。所以，它是一种自治，就像是……它是一个范围，它不是一个零一，它是我如何实际委派它可以做的事情。其次，我认为复杂性。这不是一次性的，“嘿，总结这个文档，生成这个图像，但它为我构建了这个原型，或者帮助我成功地完成了这次会议。”我想到的第三个是这是一种更加自然的互动。这不仅仅意味着聊天，而且可能实际上是在与代理人会面时进行讨论，或者指出我想要以不同方式完成的事情。所以我认为，自主性、复杂性和自然交互这三件事至少是产品原则，将塑造出真正优秀的人、优秀的代理人。",
+   "ts": "00:17:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really helpful. Along this line of agents, there's this acronym that you taught me as we were chatting ahead of this podcast, NLX, what is that and how does that relate to agents and why are people not thinking about this enough?",
+   "zh": "这真的很有帮助。沿着这条代理线，有一个缩写词是您在播客之前教给我的，NLX，它是什么，它与代理有何关系，为什么人们没有对此进行足够的思考？",
+   "ts": "00:17:58"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Oh, that's one of my Roman empires these days. The natural language interface. NLX is the new UX. Here's the deal. To me, I think traditionally we've thought very consciously about GUI because the graphical interfaces are not something natural, and so they have had to be explicitly designed, but they're rigid interfaces. What we have with conversational interface and natural language is it's a much more elastic, right? That doesn't mean it's not designed. Often, I hear a product builders say, \"Oh, yeah. With AI, the model leads to the product. So it's just you chat with it.\" You and I are having a conversation, it's a podcast. I'll have another conversation at Microsoft and that's a meeting. (00:18:59): So conversations also have grammars, they have structures, they have UI elements, they're invisible. And so one of the things that I see and I'm really excited about is what are the new principles, new constructs in natural language as an interface? I'll give you a few examples. And actually a lot of startups as well as big companies are really experimenting with this stuff. One is if you think about it, prompt itself is a new construct and that's a new UI element just like a dropdown was or a menu was. But others that are emerging, especially for agents, I think are plans. So when you give a high level goal, what we are seeing is that when the agent comes back with a plan, preferably an editable plan, that's a new construct. (00:19:44): The other one that I think about a lot is showing the work, progress. You see this with different products. You see with the Copilot, you see with ChatGPT, DeepSeek, this idea of thinking aloud and it's kind of showing the work, but how much do you do it? If it's too verbose, it feels like I'm running some cron job and scripts, but if it's too terse, then I don't know if it's going in the right path, and I don't have the confidence yet. So there are all these new elements. So if you are a product whittler, this is a fun new space to be digging in for product design.",
+   "zh": "哦，那是我现在的罗马帝国之一。自然语言界面。 NLX 是新的用户体验。事情是这样的。对我来说，我认为传统上我们非常有意识地思考 GUI，因为图形界面不是自然的东西，因此必须明确设计它们，但它们是严格的界面。我们的对话界面和自然语言更具弹性，对吧？这并不意味着它没有被设计。我经常听到产品开发者说，“哦，是的。有了人工智能，模型就可以产生产品。所以你只需与它聊天即可。”你和我正在对话，这是一个播客。我将在微软进行另一次谈话，那就是一次会议。 (00:18:59)：所以对话也有语法、有结构、有 UI 元素，但它们是不可见的。因此，我看到并且真正令我兴奋的一件事是，自然语言作为界面的新原则、新结构是什么？我给你举几个例子。事实上，很多初创公司和大公司都在尝试这些东西。一个是，如果你仔细想想，提示本身是一个新的构造，它是一个新的 UI 元素，就像下拉菜单或菜单一样。但我认为其他正在出现的计划，特别是对于代理商来说，都是计划。因此，当你给出一个高层次的目标时，我们看到的是，当代理带着一个计划（最好是可编辑的计划）返回时，这是一个新的构造。 (00:19:44)：我经常思考的另一件事是展示工作和进展。您可以在不同的产品中看到这一点。你会看到 Copilot，你会看到 ChatGPT、DeepSeek，这种大声思考的想法，它有点展示作品，但你做了多少？如果它太冗长，感觉就像我正在运行一些 cron 作业和脚本，但如果它太简洁，那么我不知道它是否走在正确的道路上，而且我还没有信心。所以就有了所有这些新元素。因此，如果您是一名产品工匠，那么这是一个值得深入研究产品设计的有趣新空间。",
+   "ts": "00:18:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is really interesting because I think people chat with all these chat bots and it just feels like this is just the way it is, but you actually are designing every element of the interaction, how much to share, but how much you're thinking, here's my plan, what do you think. So I think this will surprise a lot of people, just realizing there's so much that goes into just designing even these what seemingly are simple conversations.",
+   "zh": "这真的很有趣，因为我认为人们与所有这些聊天机器人聊天，感觉就是这样，但实际上你正在设计交互的每个元素，分享多少，但你在想多少，这是我的计划，你觉得怎么样。所以我认为这会让很多人感到惊讶，因为他们意识到设计这些看似简单的对话需要做很多事情。",
+   "ts": "00:20:22"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah. Another good example is follow-ups, right? You could say, \"Look, you asked me a question,\" and then I could ask a follow-up set of things, and that's explicitly should be designed for success. So for example, if I said, \"Hey, create an image,\" and it created a black and white like a clip art version of something. What are the next obvious follow-ups that it should be suggesting proactively? Now, too much and you are kind of annoying me, but too little in some sense, you've lost an opportunity to direct me or guide me into a happy path here.",
+   "zh": "是的。另一个很好的例子是后续行动，对吧？你可以说，“看，你问了我一个问题”，然后我可以问一系列后续问题，这显然应该是为了成功而设计的。例如，如果我说，“嘿，创建一个图像”，它就会创建一个黑白图像，就像某些东西的剪贴画版本一样。它应该主动建议的下一个明显的后续行动是什么？现在，太多了，你有点烦我，但从某种意义上说，太少了，你失去了指导我或引导我走上幸福之路的机会。",
+   "ts": "00:20:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This resonates a lot with when we had Kevin Weil on the podcast, he talked about this question of just how much to show about what you're saying. And it's interesting that DeepSeek went the extreme of just showing everything and people liked it too. I think that was interesting.",
+   "zh": "当凯文·韦尔（Kevin Weil）在播客上做客时，这引起了很大的共鸣，他谈到了“要展示多少内容”这个问题。有趣的是，DeepSeek 走极端，只展示一切，人们也喜欢它。我认为这很有趣。",
+   "ts": "00:21:25"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah, and I think it's a point in time thing too, Lenny, because in some sense right now these things are such black boxes. They're almost like peeking under the hood for anything. Even if it's verbose feels like, \"Oh, I know what's happening,\" especially because the compute inference time, it's taking long to think. So it just feels like if you just went silent, I'd be very uncomfortable, I think.",
+   "zh": "是的，我认为这也是一个时间点，莱尼，因为从某种意义上说，现在这些东西都是黑匣子。他们几乎就像在引擎盖下偷看任何东西。即使它很冗长，感觉就像是“哦，我知道发生了什么”，特别是因为计算推理时间，需要很长时间来思考。所以感觉如果你保持沉默，我想我会很不舒服。",
+   "ts": "00:21:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know.",
+   "zh": "我知道。",
+   "ts": "00:22:02"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Exactly. So I do feel like there's that point in time, but over time, I also feel like this is an area ripe for personalization. For example, again in human, my API would be very different from somewhere. My interface is probably different from others, and I might just want the direct, \"Hey, give me the TLDR,\" versus the, \"Oh, so I went here and then I went there,\" and I'm like...",
+   "zh": "确切地。所以我确实觉得存在这个时间点，但随着时间的推移，我也觉得这是一个成熟的个性化领域。例如，在人类中，我的 API 会与其他地方有很大不同。我的界面可能与其他人不同，我可能只想要直接的“嘿，给我 TLDR”，而不是“哦，所以我去了这里，然后我去了那里”，我就像......",
+   "ts": "00:22:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Following the start a little bit. We're talking about just how the future is going to be different. There's designing for these chat experiences, there's agents, kind of zooming out to just product development in general, it feels like you're at the forefront of a lot of the tools that are going to change the way we build products and also your teams are working with a lot of these tools that no one else has access to. So let me just ask, how do you see the future of product development being different from today most, and what do you think product builders should be preparing for doing to succeed in that future?",
+   "zh": "下面开始一点点。我们正在谈论未来将如何不同。有针对这些聊天体验的设计，有代理，有点缩小到一般的产品开发，感觉就像您处于许多工具的最前沿，这些工具将改变我们构建产品的方式，而且您的团队正在使用许多其他人无法访问的工具。所以我想问一下，您认为产品开发的未来与今天有何不同？您认为产品构建者应该准备做什么才能在未来取得成功？",
+   "ts": "00:22:28"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I'll start with one stark statement that I say internally and externally, and I am trying to live it is that in this day and age, if you're not prototyping and building to see what you want to build, I think you're doing it wrong. I call it the prompt sets of the new PRDs. I really insist on folks saying if you're building new projects, new features of course come with prototypes and prompt sets. And I think the notion is not to say, \"Hey, now everybody's just a biggest version of a software engineer.\" It is to say you have the fastest path to seeing and experiencing what's in your mind to be able to communicate, right? It's a much more high bandwidth way of communication. I think about that as a really a loop accelerator in terms of product building. That's number one. When in doubt, as someone put it, demos before memos, right? I think that's really number one. (00:24:04): I would say number two, this one is a little bit tricky I'd say, is that what I'm seeing is that the time to first demo is much shorter, but the time to a full deployment is going to take longer. So I think that there's going to be an uneven cadence. So typically, I think there was much more of a you've been this thing, you take a few weeks and then you can iterate and so on. But that inner loop of prototyping and iterating and getting even user research through AI conversations, all of that gets shortened. But I think the bar for scale, therefore becomes much high. In some sense, if you look at it, there's going to be a supply of ideas, a massive increase in supply of ideas in prototypes which is great. It raises the floor, but it raises the ceiling as well. In some sense, how do you break out in these times that you have to make sure that this is something that rises above the noise? So I would say that it's simultaneously thinking about not chasing after every idea. I think is the second one. (00:25:14): I'd say the third thing is there's a lot of conversation around full stack builders. What does the team of the future look like? A product building team. What I think about is I think that is inevitable in terms of there will be a few folks that are, especially at the prototyping early idea discovery stage that the lines of blurred, there'll be a few taste makers at the same time. I think you can still have a lot of people experimenting. It becomes even more important to have that editorial and taste making in a Frontier, one or a few at the heart of it because otherwise you just have Frankenstein product. That definitely doesn't change. (00:25:58): I have one other additional bonus thing, which is a lot of folks think about, \"Oh, don't bother studying computer science or the coding is dead,\" and I just fundamentally disagree. If anything, I think we've always had higher and higher layers of abstraction in programming. We don't program in assembly anymore. Most of us don't even program in C, and then you're kind of higher and higher layers of abstraction. So to me, they will be ways that you will tell the computer what to do, right? It'll just be at a much higher level of abstraction, which is great. It democratizes. There'll be an order of magnitude more software operators. Instead of Cs, maybe we'll have SOs, but that doesn't mean you don't understand computer science and it's a way of thinking and it's a mental model. So I strongly disagree with the whole coding is dead.",
+   "zh": "我将从我在内部和外部所说的一个鲜明的声明开始，我试图生活在当今时代，如果你不进行原型设计和构建来看看你想要构建什么，我认为你做错了。我称之为新 PRD 的提示集。我真的坚持人们说，如果你正在构建新项目，新功能当然会附带原型和提示集。我认为这个概念并不是说，“嘿，现在每个人都只是软件工程师的最大版本。”这就是说，你有最快的途径来看到和体验你的想法，从而能够进行交流，对吗？这是一种更高带宽的通信方式。我认为这实际上是产品构建方面的循环加速器。这是第一。当有疑问时，正如有人所说，演示先于备忘录，对吧？我认为这确实是第一。 (00:24:04)：我想说第二点，我想说的是，这个有点棘手，我所看到的是，第一次演示的时间要短得多，但完整部署的时间将需要更长的时间。所以我认为节奏会不均匀。所以通常情况下，我认为更多的是你已经经历了这件事，你需要几周的时间，然后你可以迭代等等。但原型设计、迭代、甚至通过人工智能对话进行用户研究的内部循环，所有这些都被缩短了。但我认为规模的门槛因此变得很高。从某种意义上说，如果你看一下它，将会有大量的想法，原型中的想法供应大量增加，这是很棒的。它提高了地板，但也提高了天花板。从某种意义上说，在这些时候你如何突破，你必须确保这是超越噪音的事情？所以我想说的是，它同时考虑不要追逐每一个想法。我认为是第二个。 (00:25:14)：我想说的第三件事是，围绕全栈构建器有很多讨论。未来的团队是什么样的？产品构建团队。我的想法是，我认为这是不可避免的，因为会有一些人，特别是在原型设计的早期想法发现阶段，界限变得模糊，同时会有一些品味创造者。我认为仍然可以让很多人进行试验。在 Frontier 中进行社论和品味制作变得更加重要，其中一个或几个处于其核心，否则你就只有弗兰肯斯坦的产品。这绝对不会改变。 (00:25:58)：我还有另外一件额外的事情，很多人都会想，“哦，不要费心去学习计算机科学，否则编码就死了，”我根本不同意。如果有的话，我认为我们在编程中总是有越来越高的抽象层。我们不再用汇编语言编程了。我们大多数人甚至不使用 C 语言编程，然后你就处于越来越高的抽象层。所以对我来说，它们将是你告诉计算机做什么的方式，对吧？它将处于更高的抽象级别，这很棒。它实现了民主化。软件运营商的数量将会增加一个数量级。也许我们会有 SO，而不是 C，但这并不意味着你不了解计算机科学，它是一种思维方式，是一种心智模型。所以我强烈不同意整个编码已经死了。",
+   "ts": "00:22:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. I love that. And SO is a software operator, what is that? What that stands for?",
+   "zh": "太棒了。我喜欢那个。 SO是软件操作员，那是什么？那代表什么？",
+   "ts": "00:26:54"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah, I just made it up but yes.",
+   "zh": "是的，我刚刚编出来的，但是是的。",
+   "ts": "00:27:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool. This idea of prototyping as being kind of core to building these days, is there anything you do within Microsoft to operationalize that and make that just a thing everyone has to do? Is it just culturally do it or is it like you must show me a prototype before you show me it.",
+   "zh": "好吧，酷。如今，原型设计已成为构建的核心，您在 Microsoft 内部是否采取了任何措施来实施这一想法，并使之成为每个人都必须做的事情？这只是文化上的做法，还是你必须先给我展示一个原型，然后才能向我展示。",
+   "ts": "00:27:04"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Again, the future is here, unevenly distributed, even in Microsoft I would say, but there is certainly a strong cultural momentum and shift and desire to say, \"Hey, let's actually look at live demos, live prototypes, and to even communicate the ideas. And to me, I mean, it's not always possible because obviously there are things that are deeply... If you're trying to change something in the bowels of Excel, you probably don't. There's even enough depth in the product that what you need to do, and you don't need to prototype that. But if you're especially thinking about new things and new products, new features, absolutely.",
+   "zh": "再说一次，未来就在这里，分布不均匀，即使在微软，我想说，但肯定有一种强大的文化动力、转变和愿望，“嘿，让我们实际看看现场演示、现场原型，甚至交流想法。对我来说，我的意思是，这并不总是可能的，因为显然有些东西是深刻的……如果你试图改变 Excel 内部的某些东西，你可能不会。产品中甚至有足够的深度，你需要做的，而且你不需要对其进行原型设计，但如果你特别考虑新事物、新产品、新功能，那是绝对可以的。",
+   "ts": "00:27:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, let's talk about product management. There's this fear that emerged as soon as all these AI coding tools came out of just like PMs are dead, we don't need PMs. We could just build things ourselves. What are these people hanging around for? And what I found is it's actually the opposite that now that coding is easy. Now, the question is more and more, what should we be building? Why should we be building it? Is this right? Is this the right solution? Then getting adoption for it, which is what PMs are really good at. I feel like it's the opposite. PMs are the most important role. It'll change too, but let me get your take. Just what do you think the future of product management looks like? Do you think it's dead? Do you think it's going to thrive? Do you think it's going to change?",
+   "zh": "好吧，我们来谈谈产品管理。一旦所有这些人工智能编码工具问世，就会出现这种恐惧，就像产品经理死了一样，我们不需要产品经理。我们可以自己建造东西。这些人闲逛是为了什么？我发现事实恰恰相反，现在编码很容易。现在，问题越来越多，我们应该构建什么？我们为什么要建造它？这是对的吗？这是正确的解决方案吗？然后获得采用，这才是产品经理真正擅长的。我感觉恰恰相反。 PM 是最重要的角色。它也会改变，但让我听听你的看法。您认为产品管理的未来是什么样的？你认为它死了吗？你认为它会蓬勃发展吗？你认为它会改变吗？",
+   "ts": "00:28:01"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yes. Look, if you are a TPS report, mostly process person, and a lot of companies do get confused about product management and process and project management, I think then you do have a question of, \"Hey, what is the value add here,\" especially if AI can read and write 50,000 meeting notes and track things and send emails and so on, but what I do think on the flip side is the taste making and the editing function becomes really, really important. In a world where the supply of ideas, supply of prototypes becomes even more like an order of magnitude higher, you'd have to think about what is the editing function here. (00:29:34): So that does mean that the bar is higher for product folks, but I think there's an interesting side effect I am observing in startups that I'm advising, companies and even within the companies that there used to be more gatekeeping I would say, in terms of like, \"Oh, we should ask the product leader what they think.\" And again, there is a role for that editing function, but you have to earn it now. You just don't get it because of this title, but there's also just unlock of latent really good ideas from smart engineers, smart user researchers, smart designers who now have this expert in their pocket to kind of round out all the other things that they're not typically skilled at to bring forward their ideas and that's amazing, I think.",
+   "zh": "是的。看，如果你是一个 TPS 报告，主要是流程人员，而且很多公司确实对产品管理、流程和项目管理感到困惑，我想你确实有一个问题，“嘿，这里的附加值是什么”，特别是如果人工智能可以读写 50,000 份会议记录并跟踪事情和发送电子邮件等等，但我确实认为另一方面是品味制作和编辑功能变得非常非常重要。在一个想法的供应、原型的供应变得更高一个数量级的世界里，你必须考虑这里的编辑功能是什么。 (00:29:34)：所以这确实意味着产品人员的门槛更高，但我认为我在我建议的初创公司、公司甚至公司内部观察到了一个有趣的副作用，即过去有更多把关的公司，我会说，“哦，我们应该问问产品负责人他们的想法。”再说一次，编辑功能是有一个角色的，但你必须现在就获得它。你只是不会因为这个头衔而得到它，但是聪明的工程师、聪明的用户研究人员、聪明的设计师也释放了潜在的真正好的想法，他们现在口袋里有这位专家，可以完善他们通常不擅长的所有其他事情来提出他们的想法，我认为这是令人惊奇的。",
+   "ts": "00:28:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I think that expert, it's interesting, I'm working with an engineer on some stuff and he uses ChatGPT to even communicate to me in a more effective ways like, \"Turn his pitch into something that will convince Lenny, this is a good idea.\"",
+   "zh": "我认为这位专家很有趣，我正在与一位工程师合作研究一些东西，他甚至使用 ChatGPT 以更有效的方式与我沟通，例如，“把他的演讲变成可以说服莱尼的东西，这是一个好主意。”",
+   "ts": "00:30:25"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "By the way, that is actually one of my common use cases, which is the WWXD I call it. What would X do? I use it to say, \"Hey, what would Satya think about this particular set of conversations or ideas that we are pitching and so on.\" This is the power of, I think deep reasoning plus relevant context, right? This engineer you're talking about has that context about you and so it's kind of very interesting.",
+   "zh": "顺便说一句，这实际上是我的常见用例之一，我称之为 WWXD。 X会做什么？我用它来表达：“嘿，萨蒂亚对我们正在推销的这组特定对话或想法有何看法？”我认为这就是深层推理加上相关背景的力量，对吗？你所说的这位工程师与你有这样的背景，所以这很有趣。",
+   "ts": "00:30:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If only everyone was as famous as Satya and had so much information out there, but I guess you can import all their emails or whatever tools exist to just understand from the conversations you've had with that person.",
+   "zh": "如果每个人都像萨蒂亚一样出名并且拥有如此多的信息就好了，但我想你可以导入他们所有的电子邮件或任何现有的工具来从你与那个人的对话中了解。",
+   "ts": "00:31:06"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah. And I think this goes back to actually what you were saying too, which is I think this idea of what is the... There's like a coil spring. There's an intelligence overhang that I just see across the board. And I think the part of product development has to almost rewire ourselves to, I think, Tobi from Shopify calls it the reflexive AI usage. And that's not as easy, and I've been thinking about why. Basically, I mean, I have a cheesy Chrome extension. Literally whenever I open a new tab, it just says, \"How can you use AI to do what you're going to do right now?\" It's very cheesy, but it kind of helps to pause and think, \"Oh, what am I trying to do here?\" (00:31:56): But the reason I find it hard, and when I talk even people who are living and breathing in this space, they find it hard is that the updating of the priors is really hard. The models couldn't do some things one year ago. I mean, image generation was full of spellings or reasoning. You just couldn't have deeper and smarter answers. You couldn't do data analysis. So my impression of it from change, trying it a few months ago, that prior needs to be updated. And it's hard to do that, right? You have to do something almost counterintuitive and against the grain to say, \"No, no, ignore what you learned about what this can or cannot do.\" The baby just grew up to be a 15-year-old in a month.",
+   "zh": "是的。我认为这实际上也可以追溯到你所说的，我认为这个想法是什么......就像一个螺旋弹簧。我全面看到了情报悬而未决的问题。我认为产品开发的部分几乎必须重新连接，我认为，Shopify 的 Tobi 称之为反射性人工智能使用。但这并不那么容易，我一直在思考为什么。基本上，我的意思是，我有一个俗气的 Chrome 扩展程序。从字面上看，每当我打开一个新选项卡时，它只会说：“你如何使用人工智能来做你现在要做的事情？”这很俗气，但它有助于停下来思考，“哦，我在这里想做什么？” (00:31:56)：但我觉得很难的原因是，当我和那些生活在这个空间里呼吸的人交谈时，他们也觉得很难，因为先验的更新真的很难。一年前，模型还无法完成某些任务。我的意思是，图像生成充满了拼写或推理。你无法获得更深入、更明智的答案。你无法进​​行数据分析。所以我对它的印象是从改变开始的，几个月前尝试过，之前的需要更新。而且很难做到这一点，对吧？你必须做一些几乎违反直觉和违反常规的事情来说：“不，不，忽略你学到的关于它能做什么或不能做什么的知识。”一个月后，宝宝就长到15岁了。",
+   "ts": "00:31:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that last point is so important that we've tried these tools over the years. And so far, it hasn't been amazing and then all of a sudden it is, and you kind of don't know that and you've given up almost and things change.",
+   "zh": "我认为最后一点非常重要，以至于我们多年来一直在尝试这些工具。到目前为止，它还不是令人惊奇，然后突然之间，你不知道这一点，你几乎放弃了，事情发生了变化。",
+   "ts": "00:32:40"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I think that's actually... If you are a product builder listening to it, that's a really interesting arbitrage thing for you. If you can kind of cut against the grain and say, \"No, I won't have that scar tissue around.\" This didn't work a few months ago and keep setting high expectations and demand more of the AI today, I think you can unlock more.",
+   "zh": "我认为这实际上是......如果您是一名产品构建者，正在听它，那么这对您来说是一个非常有趣的套利事情。如果你能逆着原则说：“不，我周围不会有疤痕组织。”几个月前这还行不通，今天继续设定很高的期望并要求更多的人工智能，我认为你可以解锁更多。",
+   "ts": "00:32:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's a lot of alpha in doing that.",
+   "zh": "这样做有很多阿尔法。",
+   "ts": "00:33:15"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "That's right.",
+   "zh": "这是正确的。",
+   "ts": "00:33:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today's episode is brought to you by Coda. I personally use Coda every single day to manage my podcast and also to manage my community. It's where I put the questions that I plan to ask every guest that's coming on the podcast, it's where I put my community resources, it's how I manage my workflows. Here's how Coda can help you imagine starting a project at work and your vision is clear, you know exactly who's doing what and where to find the data that you need to do your part. In fact, you don't have to waste time searching for anything because everything your team needs from project trackers and OKRs to documents and spreadsheets lives in one tab all in Coda. (00:33:54): With Coda's collaborative all in one workspace, you get the flexibility of docs, the structure of spreadsheets, the power of applications, and the intelligence of AI all in one easy to organize tab. Like I mentioned earlier, I use Coda every single day and more than 50,000 teams trust Coda to keep them more aligned and focused. If you're a startup team looking to increase alignment and agility, Coda can help you move from planning to execution in record time. To try it for yourself, go to coda.io/Lenny today and get six months free of the team plan for startups. That's C-O-D-A .io/Lenny to get started for free and get six months of the team plan, coda.io/Lenny. I'm going to come back to this cheesy plugin, say more about this. So this is a plugin that just lets you put a custom message on every new tab, and you have it say, how can you use AI to do this?",
+   "zh": "今天的节目是由 Coda 为您带来的。我个人每天都使用 Coda 来管理我的播客和社区。这是我提出问题的地方，我计划向播客中的每一位来宾提出问题，这是我放置社区资源的地方，这是我管理工作流程的方式。以下是 Coda 如何帮助您想象在工作中启动一个项目，并且您的愿景很清晰，您确切地知道谁在做什么以及在哪里可以找到完成您的工作所需的数据。事实上，您不必浪费时间搜索任何内容，因为您的团队所需的一切（从项目跟踪器和 OKR 到文档和电子表格）都位于 Coda 的一个选项卡中。 (00:33:54)：借助 Coda 的协作式全合一工作区，您可以在一个易于组织的选项卡中获得文档的灵活性、电子表格的结构、应用程序的强大功能以及 AI 的智能。正如我之前提到的，我每天都使用 Coda，超过 50,000 个团队相信 Coda 可以让他们更加协调和专注。如果您是一个希望提高一致性和敏捷性的初创团队，Coda 可以帮助您在创纪录的时间内从计划转向执行。要亲自尝试，请立即访问 coda.io/Lenny，并获得六个月免费的初创公司团队计划。这是 C-O-D-A .io/Lenny，免费开始并获得六个月的团队计划，coda.io/Lenny。我将回到这个俗气的插件，对此进行更多讨论。所以这是一个插件，可以让你在每个新选项卡上放置自定义消息，你可以说，如何使用人工智能来做到这一点？",
+   "ts": "00:33:19"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah, it's as cheesy as that. And it's interesting because it works. In the last few weeks alone, I've been doing this experiment to say, \"Hey, how much more AI pill can I get?\" Both at work and in personal life to say, \"When I'm trying to do anything manual, should I be demanding the AI to do this?\"",
+   "zh": "是的，就是这么俗气。这很有趣，因为它有效。仅在过去几周，我就一直在做这个实验，目的是说：“嘿，我还能得到多少人工智能药丸？”无论是在工作中还是在个人生活中，“当我尝试手动做任何事情时，我是否应该要求人工智能来做这件事？”",
+   "ts": "00:34:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's so cool. Do you know the name of this Chrome extension by any chance otherwise?",
+   "zh": "太酷了。否则你知道这个 Chrome 扩展程序的名称吗？",
+   "ts": "00:35:08"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "No. No. I built it.",
+   "zh": "不，不，是我建造的。",
+   "ts": "00:35:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You built a Chrome extension. That's so cool. Okay. Did you use AI to build it?",
+   "zh": "您构建了一个 Chrome 扩展程序。太酷了。好的。你使用人工智能来构建它吗？",
+   "ts": "00:35:13"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Of course.",
+   "zh": "当然。",
+   "ts": "00:35:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Which tool did you use to do that? Some kind of Microsoft tool I imagine.",
+   "zh": "哇。您使用哪种工具来做到这一点？我想象的是某种微软工具。",
+   "ts": "00:35:21"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yes. No, actually, it was just like, I mean, I live in GitHub and GitHub Copilot, so I just was like, \"Okay, let's go build this Chrome extension.\"",
+   "zh": "是的。不，实际上，我的意思是，我住在 GitHub 和 GitHub Copilot 中，所以我就说，“好吧，让我们去构建这个 Chrome 扩展程序。”",
+   "ts": "00:35:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are you releasing this for the general public?",
+   "zh": "您是否向公众发布此内容？",
+   "ts": "00:35:33"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "No, I mean, that's the amazing thing. It took me like 10 minutes to do this.",
+   "zh": "不，我的意思是，这才是令人惊奇的事情。我花了大约 10 分钟才完成这件事。",
+   "ts": "00:35:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, let's link to it. Let's get it out there, open source this thing. Okay. You mentioned Satya, I have a question about this. So you're one of the very few people that have worked very closely with both Satya and Sundar at Google. Let me ask you this. How do their leadership styles differ, and is there just a fun story you could share about each of them?",
+   "zh": "好的，让我们链接到它。让我们把它拿出来，开源这个东西。好的。你提到了萨蒂亚，我对此有一个疑问。因此，您是在 Google 与 Satya 和 Sundar 密切合作的极少数人之一。让我问你这个。他们的领导风格有何不同？您可以分享他们每个人的有趣故事吗？",
+   "ts": "00:35:43"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah. I do feel lucky to have a window into these two amazing leaders of this generation. I would say, I mean, again, no surprise as you'd expect from CEOs of multi-trillion dollar market cap tech companies, they are 99.99 percentile in almost every dimension you'd think of intellect, empathy, leadership, product, strategy. There are, of course, flavors of differences. I was the technical advisor for Sundar for the first... At Google and set up the office of the CEO there. And they're, again, a matter of time and context because there's a lot more consumer-oriented focus there. So what I did find Sundar great at it is being really calm and measured and thoughtful in terms of making sure that things have... Dealing with the complex ecosystems. (00:36:57): If you think about the phone ecosystem or even the search and publisher and advertiser ecosystem, it's a very complex ecosystem. He was a master at that. He's a master at that. And I think on Satya, I find it amazing the appetite he has for learning and fine tuning his mental models and just the zoom levels that he can operate at. The macro, the strategy, what's the game? Also the micro, \"Hey, why are we not...\" Here's a specific insight that I saw on Twitter, and you can count on the fact that he's ahead of pretty much everybody else in terms of spotting those early things too. So it's just been learning from the firehose as they put it.",
+   "zh": "是的。我确实很幸运能够有机会了解这一代两位出色的领导人。我想说，我的意思是，正如你对市值数万亿美元的科技公司的首席执行官所期望的那样，这并不奇怪，他们在智力、同理心、领导力、产品、战略等几乎所有方面都达到了 99.99%。当然，口味上也有差异。我第一次在 Google 担任 Sundar 的技术顾问，并在那里设立了首席执行官办公室。这又是一个时间和背景问题，因为那里有更多以消费者为导向的焦点。因此，我确实发现 Sundar 擅长的是在确保事情……处理复杂的生态系统方面非常冷静、谨慎和深思熟虑。 (00:36:57)：如果您考虑一下手机生态系统，甚至搜索、发布商和广告商生态系统，就会发现这是一个非常复杂的生态系统。他是这方面的大师。他是这方面的大师。我认为在萨蒂亚身上，我发现他对学习和微调他的心理模型以及他可以操作的缩放级别的兴趣令人惊讶。宏观、策略、游戏是什么？还有微观，“嘿，我们为什么不……”这是我在 Twitter 上看到的一个具体见解，你可以相信他在发现这些早期事物方面也领先于几乎其他所有人。所以正如他们所说，它只是在向消防水带学习。",
+   "ts": "00:36:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a cool opportunity to work with two incredible folks. Okay, let's go in a whole different direction. Let me just ask you this question that I've been asking people more and more. What's the most counterintuitive lesson that you've learned about building products that goes against common startup wisdom, common product building wisdom.",
+   "zh": "与两个令人难以置信的人一起工作真是一个很棒的机会。好吧，让我们朝一个完全不同的方向前进。让我问你这个我一直在问人们的越来越多的问题。关于构建与常见的初创公司智慧、常见的产品构建智慧相悖的产品，您学到的最违反直觉的教训是什么？",
+   "ts": "00:37:39"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I don't know if it's as common as it should be, and it's like a counterintuitive thing, but I've repeatedly learned that when you're doing something new, zero-to-one, the temptation is to kind of think about... It's like that South Park episode. Step one, think about the problem. Step two, question-",
+   "zh": "我不知道它是否应该如此普遍，而且这就像一个违反直觉的事情，但我反复了解到，当你在做一些新的、从零到一的事情时，你会忍不住想……这就像南方公园的那一集。第一步，思考问题。第二步，提问——",
+   "ts": "00:37:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Underpants. I think it's Underpants, step one.",
+   "zh": "内裤。我认为这是内裤，第一步。",
+   "ts": "00:37:57"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Underpants. Exactly, right? So I do feel like there's a temptation to rush and say to go to scale before solve. So I've always said to my teams solve before scale. So what that does mean is there's a different posture and different mode when you're trying to solve a problem versus scaling something that's either post-product market fit or even at least in roughly in the ballpark. So to give you a couple of examples, I think when you look at the solved stage, there are wide lurches. You got to be very comfortable with the fact that you're day one thinking about, \"Hey, a plant detection tool.\" And then day 15, you're like, \"Oh, actually, the tech is really good for translating foreign language.\" By the way, this is not hypothetical. This is what we kind of looked at in Google Lens back then and said, \"Okay, what is the intersection and so on?\" (00:39:17): So from the outside, it looks like chaos, but actually, in the... And you should be very comfortable... Not only tolerant, I think you should have an appetite for that because the last thing you want is prematurely fix on one local hill. And then you're climbing that in start-ups and entire product areas and companies, big companies make that mistake and three years later you're like, \"Oh, how do I get off this hill?\" So I'd say that's one big counterintuitive. When you're trying to think about what mode you're in, are you in the solved mode? Are you in the scale mode? One example is kind of making sure that you're comfortable with the chaos. I think the other lesson I've learned is the danger of metrics. And I think again, if you have worked on Google Search or if you worked on Office products, you really have a very fine-grained sense of what are the metrics for this product? (00:40:11): You have the input metrics out, you have the whole shebang, but when you're looking at something zero-to-one. If you decide on a metric two prematurely, that's false precision first of all, right? I mean, CTR. When you have a thousand people, it doesn't mean anything. Retention also may not mean anything. So really being very wary of this big guy, big girl of grownup metrics as I call it, right? You are looking for more qualitative, the sound of click, and what is your... The other kind of the handler uses, what is your set timer and play music? So if you look at Alexa and Siri and Google Assistant and all these things, they had a very promising broad interface. You could say anything, but I think there was one or two things that it was really good at. You could set a timer, you could play music, and you could play trivia. And so you've got to nail those things before you say, \"Oh yeah, here you can do anything with it,\" which is not a good recipe.",
+   "zh": "内裤。完全正确，对吧？所以我确实觉得有一种诱惑，急于说在解决之前先扩大规模。所以我总是对我的团队说先解决再扩大规模。所以这意味着，当你试图解决一个问题时，与扩展一些适合产品后市场的东西，甚至至少在大致范围内的东西时，会有不同的姿态和不同的模式。因此，给您举几个例子，我认为当您查看已解决的阶段时，会发现存在很大的困难。您必须对自己第一天想到的事实感到非常满意，“嘿，植物检测工具。”然后第 15 天，你会说，“哦，实际上，这项技术对于翻译外语来说真的非常好。”顺便说一句，这不是假设。这就是我们当时在 Google Lens 中看到的内容，然后说：“好吧，交集是什么？等等？” (00:39:17)：所以从外面看，它看起来很混乱，但实际上，在...而且你应该非常舒服...不仅是宽容，我认为你应该对此有兴趣，因为你最不想要的就是过早地固定在当地的一座山上。然后你在初创企业、整个产品领域和公司中攀爬，大公司犯了这个错误，三年后你会想，“哦，我该如何离开这座山？”所以我想说这是一个很大的违反直觉的现象。当您尝试思考自己处于哪种模式时，您是否处于已解决模式？您处于缩放模式吗？一个例子是确保你能适应这种混乱。我认为我学到的另一个教训是指标的危险。我再次想，如果您从事过 Google 搜索工作或者从事过 Office 产品工作，那么您确实对该产品的指标有非常细粒度的了解？ (00:40:11)：你已经有了输入指标，你已经有了整个shebang，但是当你查看零到一的东西时。如果您过早地决定度量二，那么首先这就是错误的精度，对吧？我的意思是，点击率。当你有一千个人时，这没有任何意义。保留也可能没有任何意义。所以真的要对我所说的这个大男人、大女孩的成人指标非常警惕，对吗？您正在寻找更多的定性，点击的声音，您的... 另一种处理程序使用什么，您设置的计时器和播放音乐是什么？因此，如果你看看 Alexa、Siri 和 Google Assistant 以及所有这些东西，就会发现它们拥有非常有前途的广泛界面。你可以说什么，但我认为有一两件事是它真正擅长的。你可以设置计时器，可以播放音乐，还可以玩问答游戏。因此，在你说“哦，是的，在这里你可以用它做任何事情”之前，你必须先把这些事情搞清楚，这不是一个好的秘诀。",
+   "ts": "00:38:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Not so funny. That's exactly what I use my Google Home for, so basic. I don't do the trivia thing now maybe I got to give this shot.",
+   "zh": "没那么好笑。这正是我使用 Google Home 的目的，非常简单。我现在不做琐事了，也许我必须尝试一下。",
+   "ts": "00:41:11"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Got to try that. Yeah.",
+   "zh": "必须尝试一下。是的。",
+   "ts": "00:41:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's something along these lines that I've also seen you talk about, which is how to go zero-to-one with something, just a little framework for helping you know if this is the right time for this idea. How do you think about that?",
+   "zh": "我也看到你谈论过一些类似的事情，那就是如何从零到一地处理某些事情，只是一个小框架来帮助你知道现在是否是实现这个想法的正确时机。您对此有何看法？",
+   "ts": "00:41:21"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah. And when you think about the solved mode, and this is again sticking with my whole living in one year in the future, I gravitated towards the zero-to-one and solved mode products completely thinking about new category of products. And what I've found, both the hard way I would say, is that you do want to look for at least two out of these three factors, inflection points here if you want to make a really good product. Number one is there a... Shift is a step function in the tech. That's somewhat obvious I would say. Deep learning was one for Google lens. Back then, speech recognition was a step function for conversational search. I would say for Robinhood, the generational shift was very clearly, and the fact that phones were a primary means for you could actually have mobile app for finance that you could use. So look for that inflection. What is the tech inflection? And right now, of course, like LLMs and reasoning models are that step function, but that's not enough. (00:42:35): I would say the second factor that we should look for is, what is the consumer behavior shift? So to give you an example, when we started working on Google Lens, what we said is, \"Look, people were taking mostly pictures for sharing, selfies and sunsets and so on. And suddenly, when storage became free, mostly free, and everybody had phones everywhere all the time, you took pictures of everything. And then you had enough of pictures or you use the camera as the keyboard for your world, for the real world. And so how do you then say, \"Oh, this consumer shift is big, and so therefore, as you go order of magnitude more photos, then you want more to come out of them and you can apply AI to that.\" (00:43:24): And I'd say the third inflection point, particularly I would say in enterprise but also in consumer, is the business model shift. Is there an inflection natural inflection point in the business model? So any great products, if you think about all the way from search, again, the second price option and the fact that you had CPCs, same thing with SaaS and the fact that you could actually charge or monetize enterprise products in a different way. And with AI, of course the monetization is a whole different... We've just barely scratched the surface of whether you do seat monetization, usage like on tap, and then of course outcome-based stuff, outcome-based monetization. Hey, have you solved the problem for me and then I will pay you some fees. So all three to me are kind of like, great, but at least two out of three for a good product.",
+   "zh": "是的。当你想到解决模式时，这再次与我未来一年的整个生活相结合，我倾向于完全考虑新产品类别的零到一和解决模式产品。我发现，我想说的是，如果你想制造出真正好的产品，你确实需要在这三个因素中至少寻找两个拐点。第一是... Shift 是技术中的阶跃函数。我想说，这有点明显。深度学习是谷歌镜头的其中之一。当时，语音识别只是对话式搜索的一个阶跃功能。我想说，对于 Robinhood 来说，代际转变非常明显，事实上，手机是你的主要手段，你实际上可以拥有可以使用的移动金融应用程序。所以寻找这种变化。技术的变化是什么？当然，现在法学硕士和推理模型就是阶梯函数，但这还不够。 (00:42:35)：我想说我们应该寻找的第二个因素是，消费者行为的转变是什么？举个例子，当我们开始开发 Google Lens 时，我们说的是，“看，人们拍摄照片主要是为了分享、自拍和日落等。突然间，当存储变得免费，大部分都是免费的，每个人都随时随地都有手机，你就拍下了所有东西。然后你就有了足够的照片，或者你使用相机作为你的世界、现实世界的键盘。那么你怎么会说，“哦，这种消费者转变很大，因此，当你采取数量级时更多照片，然后你想要从中得到更多，你可以应用人工智能。”（00:43:24）：我会说第三个拐点，特别是在企业中，而且在消费者中，是商业模式的转变。商业模式中是否存在拐点自然拐点？所以，任何伟大的产品，如果你从搜索一直思考，再次，第二个价格选择和你有每次点击费用的事实，与SaaS相同的事实以及你的事实实际上可以以不同的方式对企业产品进行收费或货币化。当然，货币化是完全不同的……我们刚刚触及了是否进行座位货币化、使用情况的表面，当然还有基于结果的货币化，嘿，你帮我解决了问题吗，然后我会向你支付一些费用。所以对我来说，这三个都很好，但至少三分之二是一个好产品。",
+   "ts": "00:41:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So this essentially... When investors look at startups, they're always asking, why now? Why is this the time to start this thing? And so your advice here is there's three ways to look at it. Two of these three should be true. There should be a shift in technology, some new technology that has enabled this now recently. There's a shift in consumer behavior, and then there's maybe a new sort of... Or you've invented a new business model, any way to monetize something that it gives you an advantage over folks trying to do it today.",
+   "zh": "所以这本质上是......当投资者关注初创公司时，他们总是会问，为什么是现在？为什么这个时候开始做这件事呢？所以你的建议是从三种角度来看待它。这三个中的两个应该是真的。技术应该发生转变，一些新技术最近已经实现了这一点。消费者行为发生了转变，然后可能会出现一种新的……或者你发明了一种新的商业模式，任何一种货币化的方式，它都可以让你比今天尝试这样做的人更有优势。",
+   "ts": "00:44:21"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yep, absolutely.",
+   "zh": "是的，绝对是。",
+   "ts": "00:44:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. You did mention Robinhood, I think in that example. That was another good example of phones-",
+   "zh": "惊人的。我想在那个例子中你确实提到了罗宾汉。这是电话的另一个很好的例子——",
+   "ts": "00:44:52"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah, I mean, talk about the business model of, again, not having a zero fees. And again, that combination of all of these things is what can unlock it. You can't just say, \"Oh, we'll just have a much more better intuitive interface and hope that people will switch to it.\"",
+   "zh": "是的，我的意思是，再次谈论不为零费用的商业模式。再说一次，所有这些东西的结合才能解锁它。你不能只是说，“哦，我们只会有一个更好的直观界面，并希望人们会转向它。”",
+   "ts": "00:44:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so speaking of zero-to-one products, I'm going to take us to a occasional segment on this podcast that I call Hot Seat Corner. And I have a question for you that is on my mind and it's come up in a couple recent podcasts actually. So there's these companies like Cursor, VZero, Lovable, Bolt, Replit that are the fastest growing company's history. I just saw that Cursor hit 300 million ARR in two years. Interestingly, you guys were very well positioned to do really well in this space, this AI coding tool space. You guys had Copilot, the first tool in the world at this stuff, so ahead of everyone. You build VS Code, which is what all these companies are forking to build on. You have incredible AI infrastructure, incredible AI talent. So this could have been your market. What happened? What happened, Aparna?",
+   "zh": "好的，说到零到一的产品，我将带我们进入这个播客的一个偶尔的部分，我称之为“Hot Seat Corner”。我有一个问题要问你，这个问题实际上在最近的几个播客中出现过。 Cursor、VZero、Lovable、Bolt、Replit 等公司是历史上增长最快的公司。我刚刚看到 Cursor 在两年内达到了 3 亿 ARR。有趣的是，你们处于非常有利的位置，可以在这个人工智能编码工具领域做得非常好。你们拥有 Copilot，这是世界上第一个在这方面的工具，所以领先于所有人。您构建 VS Code，这是所有这些公司都在分叉的基础上构建的。你们拥有令人难以置信的人工智能基础设施、令人难以置信的人工智能人才。所以这可能是你的市场。发生了什么？发生了什么事，阿帕娜？",
+   "ts": "00:45:16"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "It's interesting, the framing... So I'm a dead user of GitHub Copilot, and I would say, \"Look, if you unpack...\" I think the beauty of this is that code generation has become an amazing tool that LLMs have unlocked. So it is actually really good excitement and action that now code generation has just opened up all of these things that... We talked about the whole idea of prototyping, goes from idea to marks and idea to a clickable prototype in a few minutes. Those are the kinds of things that, of course, we should expect code generation to enable. The way I think about how we are positioned and what we do with GitHub is... So it's a system, not just a product or a set of features. (00:46:52): If I think about GitHub, it's for folks who have the repo there and you have... Of course, you have the assistance in terms of autocomplete and you can chat, but now we have the agent board. It's one of the fastest loops that we are seeing, really strong positive feedback. So in some sense, when you have a system, what you are looking for in terms of building and designing it is not just a single product that can grow, but what is the repository? What is your context? What are the set of features that grow from your expertise? If you're a really expert coder, you want the assistance this product needs to scale for that. If you're a wide coder, you should still be able to do that and so on. So that I think is the way that GitHub is positioned to build on and growing honestly really well.",
+   "zh": "这很有趣，框架......所以我是 GitHub Copilot 的死用户，我会说，“看，如果你解压......”我认为这样做的美妙之处在于代码生成已经成为法学硕士解锁的一个惊人的工具。所以，现在代码生成刚刚打开了所有这些东西，这实际上是非常令人兴奋和行动......我们讨论了原型设计的整个想法，在几分钟内从想法到标记，从想法到可点击的原型。当然，我们应该期望代码生成能够实现这些功能。我对我们的定位以及我们如何使用 GitHub 的看法是……所以它是一个系统，而不仅仅是一个产品或一组功能。 (00:46:52)：如果我想到 GitHub，它是为那些拥有存储库的人准备的，而你……当然，你可以在自动完成方面获得帮助，并且可以聊天，但现在我们有了代理板。这是我们看到的最快的循环之一，非常强烈的积极反馈。所以从某种意义上说，当你拥有一个系统时，你在构建和设计它时所寻找的不仅仅是一个可以增长的单一产品，而是存储库是什么？你的背景是什么？从您的专业知识中发展出来的功能有哪些？如果您是一位真正的专家编码员，您希望获得该产品扩展所需的帮助。如果您是一名广泛的编码员，您仍然应该能够做到这一点等等。所以我认为 GitHub 的定位就是以这种方式进行构建并诚实地发展。",
+   "ts": "00:46:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's so interesting. So the core of this is everyone ends up in GitHub anyway, no matter what tool they use and that's kind of the-",
+   "zh": "那太有趣了。所以核心是每个人最终都会进入 GitHub，无论他们使用什么工具，这就是——",
+   "ts": "00:47:46"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah. The idea again is that code generation as a tool will unlock lot more products. I mean, they're not all competitors to the fact of... They're not all kind of doing the same job. I think when you are... At the end of the day, you are building code for companies to run on, you need to have a system. You need to have kind of the ability, an entire Swiss Army toolkit, not just the autocomplete, not just a chat, not just like a software agent that runs and you kind of hand hold. You need all of this to work together, and that's what the GitHub product is going after.",
+   "zh": "是的。这个想法再次是，代码生成作为一种工具将解锁更多产品。我的意思是，他们并不都是竞争对手……他们并不都在做同样的工作。我认为当你......最终，你正在构建供公司运行的代码时，你需要有一个系统。你需要有一种能力，一个完整的瑞士军队工具包，而不仅仅是自动完成，不仅仅是聊天，不仅仅是像一个运行的软件代理一样由你掌控。您需要所有这些才能协同工作，这就是 GitHub 产品所追求的目标。",
+   "ts": "00:47:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All roads lead to GitHub. On the flip side of this question, there have been probably 5,000 startups that have tried to disrupt Excel and you guys just keep winning, so something there is working really well.",
+   "zh": "条条大路都通 GitHub。另一方面，大约有 5,000 家初创公司试图颠覆 Excel，而你们一直在获胜，所以其中的一些东西确实运作良好。",
+   "ts": "00:48:30"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "That is so interesting you say that. So when I came to Microsoft, and I'm an Excel fan, so I actually had a conversation with one of the OG Excel product folks. I was like, \"an, what is it about this product?\" And he said a couple things that were really interesting for me that just stuck with me. One is and I said, \"Hey, Excel is a proof that non-coders also have to program.\" Programming is really powerful and it's the tool that gives all of the non-coders a really powerful programming ability, and I thought that was just really striking. (00:49:22): And then the second thing that I found out super cool, I don't know if you know this, but I didn't know at least before two years ago that there are these amazing Excel championships like World Excel championships where you see folks who can do just magic. And to me, I think the insight here is also that some tools are harder to learn. Perhaps in the beginning there's friction in terms of learning, but great to use. So it's a very good case of, hey, the learning curve initially, the one-time learning curve might be tricky, but it is because there's so much power and depth in the tool.",
+   "zh": "你这么说真是太有趣了。因此，当我来到 Microsoft 时，我是一名 Excel 粉丝，所以我实际上与一位 OG Excel 产品人员进行了交谈。我当时想，“这个产品有什么特点？”他说了一些对我来说非常有趣的事情，让我印象深刻。其中之一是，我说：“嘿，Excel 证明了非编码人员也必须编程。”编程真的很强大，它是一种为所有非编码人员提供真正强大的编程能力的工具，我认为这真的很惊人。 (00:49:22)：然后我发现的第二件事非常酷，我不知道你是否知道这一点，但至少在两年前我并不知道有这些令人惊叹的 Excel 锦标赛，例如世界 Excel 锦标赛，在那里你可以看到人们可以创造奇迹。对我来说，我认为这里的见解还在于有些工具更难学习。也许一开始在学习方面会有摩擦，但使用起来很棒。所以这是一个很好的例子，嘿，一开始的学习曲线，一次性学习曲线可能很棘手，但这是因为该工具有如此强大的功能和深度。",
+   "ts": "00:48:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's so interesting. I never thought of Excel as a programming language, but it makes sense and I feel like once you get used to it and this is just the way things work, you're kind of stuck there and everything else has to basically copy that model, which is hard to be as good.",
+   "zh": "那太有趣了。我从来没有想过 Excel 作为一种编程语言，但它是有道理的，我觉得一旦你习惯了它，这就是事情的工作方式，你就会被困在那里，其他一切都必须基本上复制该模型，这很难做到那么好。",
+   "ts": "00:50:02"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah. And I think the depth then the attention that the team has given, and again, that's the compounding effect over decades of working on deep, deep signal from people who depend on it day in and day out.",
+   "zh": "是的。我认为，深度就是团队给予的关注，这也是几十年来日复一日依赖它的人们对深层次信号的研究所产生的复合效应。",
+   "ts": "00:50:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. To kind of start to close out our conversation, I want to ask this question around your career. I find that most people have one moment in their career that changes the trajectory of their career. It could be a manager they had, it could be a project they worked on, it could be just the job they landed. What would you say is the most pivotal moment in your career that eventually led you to becoming chief product officer at Microsoft?",
+   "zh": "好的。为了结束我们的谈话，我想问一下你的职业生涯这个问题。我发现大多数人在职业生涯中都会有一个时刻改变他们的职业轨迹。这可能是他们的经理，可能是他们从事的项目，也可能是他们找到的工作。您认为您职业生涯中最关键的时刻是什么，最终导致您成为微软的首席产品官？",
+   "ts": "00:50:29"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Actually, there is one moment where it was a turning point for me. I was in Google Search, I was working on this idea that I thought should just work and it didn't. I said, \"Hey, these phones are becoming a thing. Personalization has to be important.\" So I probably banged my head against the wall for a year or so trying to make personalization work. And it turns out when you have a query that you put into Google Search, the personalization didn't matter as much. And so we disbanded the team, but then I think I started working on this product called Google Now, which was a twist on that, which said, \"Hey, actually on the phone, we should be able to push content. It's not about searching with personalization.\" For example, if you have a flight coming up, we should be able to say, \"Hey,\" connect the dots and say, \"you should leave now given the traffic and where you need to go,\" and so on or if you're deeply interested in stand-up comedy with deadpan artists, you should check out Mitch Hedberg. (00:52:00): These are kind of these really moments that the smartphone should be smarter. So I let that product through the initial zero-to-one phase, and that was a pivotal moment. It made me realize two things. One, I really love seeing around the corner and kind of seeing where things go and building the product rise to the occasion way more than the scaling and sustaining products. Second, it's harsh, but being early is the same as being wrong. This is pre-LLMs, pre-deep learning a lot of the really amazing ideas in terms of next token predictor, et cetera. We'd been thinking of it but didn't have the horsepower to go... The interface was great, the intelligence wasn't there. And I'd say the third thing that stuck with me is I got to work with some really smart... They talk about talent density now, and I think really smart people who have gone on to do amazing things, and so it gave me a taste of what a small group of people can do.",
+   "zh": "事实上，有一个时刻对我来说是一个转折点。我在谷歌搜索中，正在研究这个想法，我认为应该可行，但事实并非如此。我说：“嘿，这些手机正在变得流行。个性化必须很重要。”因此，我可能用头撞墙一年左右，试图让个性化发挥作用。事实证明，当您在 Google 搜索中输入查询时，个性化就不再那么重要了。所以我们解散了团队，但后来我想我开始开发这个名为 Google Now 的产品，这是一个转折，“嘿，实际上在电话上，我们应该能够推送内容。这不是个性化搜索。”例如，如果你有航班即将起飞，我们应该能够说，“嘿”，将这些点连接起来并说，“考虑到交通状况和你需要去的地方，你现在应该离开”等等，或者如果你对面无表情的艺术家的单口喜剧非常感兴趣，你应该看看米奇·赫德伯格。 (00:52:00)：这些都是智能手机应该变得更智能的真正时刻。因此，我让该产品经历了最初的从零到一的阶段，这是一个关键时刻。这让我意识到两件事。第一，我真的很喜欢看到即将发生的事情，看到事情的发展方向，并构建适合场合的产品，而不是扩展和维持产品。其次，这很残酷，但早做就等于犯错。这是法学硕士预科课程，深度学习预科课程，涉及下一个令牌预测器等方面的许多真正令人惊叹的想法。我们一直在考虑这个问题，但没有足够的能力去实现……界面很棒，但智能不存在。我想说的第三件事困扰着我，我必须与一些非常聪明的人一起工作……他们现在谈论人才密度，我认为非常聪明的人已经做出了惊人的事情，所以这让我尝到了一小群人可以做什么。",
+   "ts": "00:50:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's such a great story because it didn't work out in the end. Google Now kind of went away. And by the way, I super remember that product. It was very cool. I remember looking at it was very delightful and happy. And so I also have this segment on the podcast called Failure Corner, where people share a story of failure and how that helped them. And I love this as a combination of those two.",
+   "zh": "这是一个很棒的故事，因为它最终没有成功。 Google Now 有点消失了。顺便说一句，我非常记得那个产品。非常酷。我记得当时看着它是非常愉快和幸福的。因此，我在播客上也有一个名为“失败角”的片段，人们在其中分享失败的故事以及失败如何帮助他们。我喜欢这两者的结合。",
+   "ts": "00:53:02"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah. I mean, I'm not going to lie. I think it was painful when you do that because you see the vision of what can be and what is, and sometimes it's hard limitations. Sometimes, in this case, it takes five years or 10 years to really unlock the intelligence, but sometimes it's one or two key click stops away from the product being great and part of figuring out is knowing when you're in what situation.",
+   "zh": "是的。我的意思是，我不会撒谎。我认为，当你这样做时，你会感到痛苦，因为你看到了未来的愿景和现实，有时这是硬性的限制。有时，在这种情况下，需要五年或十年的时间才能真正解锁智能，但有时只需一两次关键点击就可以让产品变得出色，而弄清楚你何时处于何种情况是其中的一部分。",
+   "ts": "00:53:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How long was that period from starting out until just moving on and it's not working?",
+   "zh": "从开始到继续前进并且不起作用，这段时间需要多长时间？",
+   "ts": "00:53:50"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Yeah, I would say in that case, one of the good things is, again, it led the foundation of... It was one of the foundations of the Google Assistant. And of course, as the LLMs step function happened now with Gemini, it kind of works out. And I think it's the same thing across the board, which is sometimes you want to figure out the invariance that do work that then go on to the next version of the product. And other times, you just have to start over.",
+   "zh": "是的，我想说，在这种情况下，好处之一是，它再次奠定了……它是 Google Assistant 的基础之一。当然，随着双子座现在发生了法学硕士的阶跃功能，它有点成功了。我认为这是同样的事情，有时你想找出有效的不变性，然后继续到产品的下一个版本。而其他时候，你只需要重新开始。",
+   "ts": "00:53:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is Google Now the first agent before agents? That's what it feels like.",
+   "zh": "Google Now 是代理商之前的第一个代理商吗？就是这样的感觉。",
+   "ts": "00:54:26"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "That was certainly the idea, but it is fascinating to me that the interface, that there, we had the opposite problem. Whether you think about all the voice assistants, the interface is like we overshot and the intelligence wasn't there. Today, I feel like there's an opposite problem. I think these things have amazing intelligence and the interface we have largely is like the AOL Dial-Up Modem Chatbot.",
+   "zh": "这当然是这个想法，但令我着迷的是界面，在那里，我们遇到了相反的问题。无论你考虑所有的语音助手，界面就像我们超越了并且智能不存在。今天，我觉得存在相反的问题。我认为这些东西具有惊人的智能，我们拥有的界面很大程度上就像 AOL 拨号调制解调器聊天机器人。",
+   "ts": "00:54:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We've covered a lot of ground. Is there anything that you wanted to chat about or leave listeners with, maybe a last nugget of wisdom before we get to a very exciting lightning round?",
+   "zh": "我们已经涵盖了很多内容。在我们进入激动人心的闪电回合之前，您有什么想聊的或留给听众的吗？也许是最后的智慧？",
+   "ts": "00:54:55"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I think I would say one thing that I'm really excited about is this idea of figuring out how we as people and agents collaborate together. I think there's some great set of products and experiences to be reimagined. That's my other Roman empire, which is how do we actually have this co-working space where you have the humans and agents and how do you actually have an output that's much, much more significant than what any one of us or any few of us can produce?",
+   "zh": "我想我想说的一件让我真正兴奋的事情是弄清楚我们作为人和代理如何共同协作的想法。我认为有一些很棒的产品和体验需要重新构想。这是我的另一个罗马帝国，这就是我们如何真正拥有这个拥有人类和代理人的联合办公空间，以及如何真正拥有比我们任何一个人或我们少数人所能产生的重要得多的产出？",
+   "ts": "00:55:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, I need to hear more about this. When do you imagine a co-working space of humans and agents? What does this look like? Is this Microsoft teams or is this a physical place with little robots?",
+   "zh": "嗯，我需要听到更多有关此事的信息。您什么时候想象人类和代理的共同工作空间？这看起来像什么？这是微软团队还是一个有小机器人的物理场所？",
+   "ts": "00:55:40"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Oh, I had a thought of the physical place, but I am thinking a lot about... Right now, all of these experiences are very civil player, and I do think there's an opportunity to think about how do we... Again, I'm living one year in the future, how do we actually have collaborate with each other, but also with agents and really figure out, for example, what tasks can we delegate? What can we inspect? How do we actually have information that flows between people that agents can mediate, and so on.",
+   "zh": "哦，我想到了物理地点，但我思考了很多……现在，所有这些体验都是非常民间的，我确实认为有机会思考我们如何……再说一遍，我生活在未来一年，我们如何真正相互合作，而且如何与代理合作，并真正弄清楚，例如，我们可以委派哪些任务？我们可以检查什么？我们实际上如何拥有代理可以调解的人与人之间流动的信息，等等。",
+   "ts": "00:55:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, I'm curious to see what you guys got cooking. With that, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "好吧，我很好奇你们都做了什么菜。至此，我们进入了非常激动人心的闪电回合。你准备好了吗？",
+   "ts": "00:56:24"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Let's do it.",
+   "zh": "我们开始做吧。",
+   "ts": "00:56:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's do it. First question, what two or three books that you find yourself recommending most to other people?",
+   "zh": "我们开始做吧。第一个问题，您发现自己最向其他人推荐哪两三本书？",
+   "ts": "00:56:32"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Oh, I have recency bias, but I've been reading this book called The Brief History of Intelligence, phenomenal book and like lots of underlining from me. And I think it kind of... The premises too, it looks at the evolution of intelligence like human intelligence and the brain development and connects that to what we are seeing with AI.",
+   "zh": "哦，我有新近偏见，但我一直在读这本书，名为《智力简史》，这是一本非凡的书，而且我也做了很多强调。我认为这有点......前提也是，它着眼于人类智能和大脑发育等智能的进化，并将其与我们在人工智能中看到的联系起来。",
+   "ts": "00:56:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite recent movie or TV show that you've really enjoyed?",
+   "zh": "您最近有最喜欢的电影或电视节目吗？",
+   "ts": "00:57:02"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Hacks. I've been watching this. It's about a woman who's a great standup comedian of... I think it's set in the fact that she grew up in the '70s and '80s and really tried to break through in an industry that hasn't traditionally been very friendly to women, so really fun and quirky.",
+   "zh": "黑客。我一直在看这个。这是关于一位伟大的单口喜剧演员的故事……我认为这是因为她在 70 年代和 80 年代长大，并真正试图在一个传统上对女性不太友好的行业中取得突破，所以非常有趣和古怪。",
+   "ts": "00:57:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite product that you've recently discovered that you really love, could be an app, could be some physical?",
+   "zh": "您最近发现自己真正喜欢的最喜欢的产品可能是应用程序，也可能是实体产品？",
+   "ts": "00:57:31"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I do use a lot of Microsoft products, GitHub Copilot being one of them, but I think the one that maybe I'll pick is Granola, I think, is the name of the app. I found it really useful. I just gave it a spin the other day and I'm like, \"Oh, this is really useful in terms of being able to, again, without being intrusive, just capture the thoughts, notes, and structure it, put some...\" It felt like one of those things where, yep, the confidence of a few things like we were talking about like the transcription, real-time transcription tech has gotten really good. Voice recognition is great, and then enough of the LLM magic on top of it to make it structured and contextual.",
+   "zh": "我确实使用了很多 Microsoft 产品，GitHub Copilot 就是其中之一，但我认为我可能会选择 Granola，我想，这是应用程序的名称。我发现它真的很有用。前几天我刚刚试了一下，我想，“哦，这真的很有用，再次能够在不打扰的情况下，捕捉想法、笔记和结构，放一些……”感觉就像是这样的事情之一，是的，像我们正在谈论的一些事情的信心，比如转录，实时转录技术已经变得非常好。语音识别非常棒，而且法学硕士的魔力足以使其变得结构化和上下文相关。",
+   "ts": "00:57:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I am a huge fan of Granola. I'll give a quick picture here. If you become an annual subscriber of my newsletter, you get a year free of Granola for your entire company.",
+   "zh": "我是格兰诺拉麦片的超级粉丝。我将在这里快速介绍一下。如果您成为我的时事通讯的年度订阅者，您的整个公司将获得一年的免费格兰诺拉麦片。",
+   "ts": "00:58:18"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Did not know that.",
+   "zh": "不知道。",
+   "ts": "00:58:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There we go, and then just check that out, lennysnewsletter.com, and you click the word bundle and you'll see how to do that.",
+   "zh": "我们就这样，然后检查一下，lennysnewsletter.com，然后单击“捆绑”一词，您就会看到如何做到这一点。",
+   "ts": "00:58:29"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Very cool.",
+   "zh": "非常酷。",
+   "ts": "00:58:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Very cool. Two more questions. Do you have a favorite life motto that you often come back to when you're dealing with something maybe you share with folks that they find useful as well in work or in life?",
+   "zh": "非常酷。还有两个问题。你有没有最喜欢的人生格言，当你处理一些事情时，你经常会想起这句话，也许你会与人们分享，他们认为在工作或生活中也有用的事情？",
+   "ts": "00:58:34"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "I have one. In fact, actually, this is my email signature for, I don't know, for the last 20 years or so. It says the best way to predict the future is to invent it. I think it's a quote by Alan Kay. I find it useful for two things. One is no one knows anything. When you think about all the folks who think about, \"Hey, this is exactly how everything's going to look and this is exactly the sequence,\" and so on, I think there's no substitute to experientially building it. I think the second part is if you think there's something that should exist, go build it.",
+   "zh": "我有一个。事实上，事实上，这是我过去 20 年左右的电子邮件签名，我不知道。它说预测未来的最好方法就是发明它。我认为这是艾伦·凯的一句话。我发现它有两个用途。一是没人知道任何事情。当你想到所有那些想“嘿，这就是一切的样子，这就是顺序”等等的人时，我认为没有什么可以替代体验式构建它。我认为第二部分是如果你认为有一些东西应该存在，那就去构建它。",
+   "ts": "00:58:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Final question. We've talked about standup comedy a bit. Is there a favorite under the radar standup comedian that you think people should go check out?",
+   "zh": "我喜欢那个。最后一个问题。我们已经讨论过一些单口喜剧了。您认为人们应该去看看有哪些备受关注的单口喜剧演员吗？",
+   "ts": "00:59:24"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Oh, there's a couple of them. So one, I think, there's an Indian American or I think a British Indian standup comedian. Her name is Sindhu Vee, super smart, mom comedy, and I think the other one that... This is definitely not under the radar, but I just love his stick is Nate Bargatze. He's just so good.",
+   "zh": "哦，有几个。所以，我认为，有一位印度裔美国人，或者我认为有一位英属印度单口喜剧演员。她的名字叫 Sindhu Vee，超级聪明，妈妈喜剧，我认为另一位......这绝对不在雷达​​之下，但我只是喜欢他的坚持是 Nate Bargatze。他真是太好了。",
+   "ts": "00:59:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Aparna, this was amazing. Two final questions. Where can folks find you online if they want to reach out maybe and follow up on anything you shared and how can listeners be useful to you?",
+   "zh": "阿帕娜，这太棒了。最后两个问题。如果人们想要联系并跟进您分享的任何内容，可以在哪里找到您？听众如何对您有用？",
+   "ts": "00:59:59"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "You can find me on LinkedIn and Twitter. Aparna CD is the handle. I do post stuff a lot more on LinkedIn these days, so would love to hear thoughts, comments, conversations there. I'd say one thing that would be super interesting is if any of this stuff spark conversations, particularly around this, what can a small team with a lot of AI tools do or new products that folks are really excited about, saying that they should exist, hit me up.",
+   "zh": "您可以在 LinkedIn 和 Twitter 上找到我。 Aparna CD 是手柄。这些天我确实在 LinkedIn 上发布了更多内容，所以很想听听那里的想法、评论和对话。我想说的一件非常有趣的事情是，如果这些东西中的任何一个能够引发对话，特别是围绕这个问题，一个拥有大量人工智能工具的小团队可以做什么，或者人们真正兴奋的新产品，说它们应该存在，请联系我。",
+   "ts": "01:00:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Aparna, thank you so much for being here.",
+   "zh": "惊人的。阿帕娜，非常感谢你来到这里。",
+   "ts": "01:00:42"
+  },
+  {
+   "speaker": "Aparna Chennapragada",
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "ts": "01:00:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "再见，大家。非常感谢您的聆听。如果您发现这很有价值，您可以在 Apple Podcasts、Spotify 或您最喜欢的播客应用程序上订阅该节目。另外，请考虑给我们评分或留下评论，因为这确实有助于其他听众找到播客。您可以在 lennyspodcast.com 上找到所有过去的剧集或了解有关该节目的更多信息。下一集见。",
+   "ts": "01:00:46"
+  }
+ ]
+}

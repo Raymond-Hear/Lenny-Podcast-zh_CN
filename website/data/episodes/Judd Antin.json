@@ -1,0 +1,881 @@
+{
+ "id": "Judd Antin",
+ "name": "Judd Antin",
+ "category": "设计",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Judd+Antin",
+ "bio": {
+  "en": "Judd Antin is a user research leader who built the research practice at Facebook and spent years as head of research at Airbnb, and whose mentees now lead research at Figma, Notion, Slack, and more.",
+  "zh": "贾德·安廷（Judd Antin）是一位用户研究领军人物，他曾在 Facebook 建立用户研究体系，并长期担任 Airbnb 的研究负责人，他的许多下属如今在 Figma、Notion、Slack 等公司领导研究团队。"
+ },
+ "summary": {
+  "en": "Judd coins \"user-centered performance\" to describe research done to signal customer obsession rather than to actually learn and change decisions. He argues the goal of research should be to falsify assumptions, not merely validate them. The episode warns against box-checking studies run too late to matter and offers a healthier philosophy for using research.",
+  "zh": "贾德创造了\"以用户为中心的表演\"（user-centered performance）一词，用来描述那些只是为了彰显\"以用户为中心\"、而非真正为了学习并改变决策的研究行为。他认为，研究的目标应该是去证伪假设，而不只是验证它们。本期提醒人们警惕那些为走流程而在为时已晚时才进行的研究，并提出了更健康的用研理念。"
+ },
+ "turns": [
+  {
+   "speaker": "Judd Antin",
+   "en": "User-centered performance refers to customer obsession or user-centered practice that is symbolic rather than focused on learning. It's hugely common, I would argue. It's work we do to signal to each other how customer obsessed we are, not because we want to make a different decision. If your listeners are like, \"I don't do that.\" I'm like, \"Think about it for a second. This is extremely common.\" Every time a PM comes to a researcher at the end of a product process and says, \"Can you just run a quick user study just to validate our assumptions,\" that's user-centered performance. It's too late to matter. We got to ship it. What they want is to check the box. One of my big mantras was, \"We don't validate, we falsify. We are looking to be wrong.\" Many PMs, many designers are not in that place. They do not want to be wrong. They're looking to validate, and that's user-centered performance.",
+   "zh": "以用户为中心的表现，指的是那种以客户为核心、但更多停留在形式而非真正学习层面的做法。我敢说这种现象极为普遍。人们之所以这么做，更多是为了向彼此彰显自己对客户的关注，而不是为了做出不同的决策。如果听众会说：“我从不这么做。”我会回应：“仔细想想，这种情况其实很常见。”每次产品经理在产品开发流程尾声找到研究员，说：“能不能快速做个用户调研，验证我们的假设？”这就是典型的以用户为中心的表现。但那时已经为时已晚——产品必须上线了。他们真正想要的，不过是完成这个流程上的一个任务而已。我曾反复强调：“我们不去验证，而是去证伪。我们渴望被证明是错的。” 然而很多产品经理和设计师并没有这样的心态。他们不愿承认自己可能错了，只想通过验证来确认自己的假设——这才是以用户为中心的表现。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Judd Anton. Judd helped build the user research practice at Facebook. He was a longtime head of research at Airbnb, and his direct reports have gone on to lead research teams at Figma, Notion, Slack, Robinhood, Duolingo, Fair, and other amazing companies. These days, Judd spends his time consulting, helping companies with organizational challenges, product strategy, design, research, hiring, onboarding, and crisis management. In our conversation, we unpack a conclusion that Jud has come to recently about how the user research field is going through a reckoning and what needs to change both within the user research field and how companies leverage user research going forward. (00:01:37): Judd shares what the user research field has gotten wrong over the last decade, how PMs and designers rely on user research too often, and to answer the wrong questions, where user research will continue to provide significant value, and how to best leverage your researchers, why it's important for researchers to think about the business goals more versus just what the users need, what to look for when you're hiring a user researcher, how PMs can be better partners to researchers, and also a phenomenon that I love that Judd describes and often witnesses, that he calls user-centered performance, where everyone acts like they care about the user, but they're just doing it for show and already know what they want to do. This episode has a lot of spicy takes and will probably upset some people, but Judd is sharing some real talk, here, that I think we all need to hear. With that, I bring you Judd Antin after a short word from our sponsors. (00:02:27): This time of year is prime for career reflection and setting goals for professional growth. I always like to spend this time reflecting on what I accomplished the previous year, what I hope to accomplish the next year, and whether this is the year I look for a new opportunity. That's where today's sponsor Teal comes in. Teal provides you with the tools to run an amazing job search with an AI powered resume builder, job tracker, cover letter generator, and Chrome extension that integrates with over 40 job boards, Teal is the all-in-one platform you need to run a more streamlined and efficient job search and stand out in this competitive market. There's a reason nearly one million people have trusted Teal to run their job search. If you're thinking of making a change in the new year, leverage Teal to grow your career on your own terms. Get started for free at tealhq.com/lenny. That's tealhq.com/lenny. (00:03:18): This episode is brought to you by Vanta, helping you streamline your security compliance to accelerate your growth. Thousands of fast-growing companies like Gusto, KOM, Quora, and Modern Treasury trust Vanta to help build scale, manage, and demonstrate their security and compliance programs, and get ready for audits in weeks, not months. By offering the most in-demand security and privacy frameworks such as SOC 2, ISO 27001, GDPR, HIPAA, and many more, Vanta helps companies obtain the reports they need to accelerate growth, build efficient compliance processes, mitigate risks to their businesses, and build trust with external stakeholders. (00:03:55): Over 5,000 fast-growing companies use Vanta to automate up to 90% of the work involved with SOC 2 and these other frameworks. For a limited time Lenny's podcast listeners get $1,000 off Vanta. Go to vanta.com/lenny, that's V-A-N-T-A.com/lenny to learn more and to claim your discounts. Get started today. Judd, thank you so much for being here. Welcome to the podcast,",
+   "zh": "今日嘉宾是贾德·安东（Judd Anton）。贾德曾助力Facebook建立用户研究团队，还长期担任Airbnb的研究主管，其直接下属如今已在Figma、Notion、Slack、Robinhood、Duolingo、Fair等知名公司领导研究团队。如今，贾德致力于咨询服务，帮助企业应对组织挑战、制定产品战略、进行设计创新、开展用户研究、招聘人才、推动新人入职及危机管理。在本期对话中，我们探讨了贾德近期得出的一个重要结论：用户研究领域正经历一场变革，既需要行业内部变革，也需要企业在未来更有效地利用用户研究成果。（00:01:37）贾德分享了过去十年用户研究领域的误区，指出产品经理和设计师过度依赖用户研究、错误提问的现象。他还指出用户研究将持续创造重大价值的领域，以及如何充分发挥研究人员的价值。他强调研究人员应更多关注商业目标，而非仅满足用户需求；招聘用户研究人员时需关注哪些关键要素；产品经理如何更好地与研究团队合作。此外，贾德还描述了一个他深有体会的现象——“以用户为中心的表演”，即许多人表面声称关注用户需求，实则作秀或早已心有所属。本期节目充满了深刻见解，可能引发一些争议，但贾德的坦诚发言值得我们聆听。接下来，在赞助商简短致辞后，我们将连线贾德·安东。（00:02:27）每年这个时候正是职业反思和制定专业发展目标的黄金期。我总会花时间回顾过去一年的成果、展望新的一年，并思考是否该寻求新的机遇。今天的赞助商Teal正好能满足这些需求。Teal提供一站式求职平台，包含AI驱动的简历生成器、职位追踪器、求职信生成器，以及与40余个招聘网站集成的Chrome扩展程序。Teal正是你高效求职、在激烈市场中脱颖而出的利器。近百万求职者选择Teal助力求职，这绝非偶然。如果你也想在新年迎来改变，不妨借助Teal按自己的节奏发展事业。免费试用请访问tealhq.com/lenny。（00:03:18）本期节目由Vanta赞助，助力企业简化安全合规流程，加速业务增长。Gusto、KOM、Quora、Modern Treasury等数千家快速成长的公司信任Vanta，借助其SOC 2、ISO 27001、GDPR、HIPAA等热门安全框架，快速构建规模化、管理并展示安全合规计划，并在数周而非数月内完成审计准备。Vanta通过提供SOC 2等框架的高效报告生成，帮助企业获得加速增长所需的合规报告，建立高效合规流程，降低业务风险，并赢得外部利益相关者的信任。（00:03:55）超过5,000家快速成长的公司使用Vanta，将SOC 2等框架相关工作自动化率提升至90%。限时优惠中，Lenny的播客听众可享受Vanta1000美元折扣。访问vanta.com/lenny，即可了解更多详情并领取优惠。立即行动吧。贾德，非常感谢你的到来。\nhere. Welcome to the podcast,",
+   "ts": "00:00:54"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Lenny, thanks for having me.",
+   "zh": "莱尼，感谢你邀请我。",
+   "ts": "00:04:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's my pleasure. So we actually worked together at Airbnb for many years. And as I was preparing for this, I realized how many of the people that you managed went on to do amazing things. So I'm just going to read a list of people that worked for you and what they do now. We had Matt Gallivan, who now leads research at Slack. We have Janna Bray, who leads research at Notion, Celeste Ridlen, who leads research at Robinhood. Rebecca Grey, who leads research at Fair, Hannah Pileggi, who I think was leading research at Duolingo, Louise Beryl, who leads research at Figma, and then Noam, who was leading research at Wealthfront. I think he moved on to something else. What a fricking crazy alumni community and group from this one team that you hired and incubated.",
+   "zh": "我很荣幸。实际上，我们在Airbnb共事了多年。在为这次访谈做准备时，我意识到你曾管理过的许多人都取得了非凡的成就。所以我现在要列出曾为你工作过的人及其现状。马特·加利万（Matt Gallivan）现在在Slack负责研究工作。詹娜·布雷（Janna Bray）在Notion负责研究工作。塞莱斯特·里德伦（Celeste Ridlen）在Robinhood负责研究工作。丽贝卡·格雷（Rebecca Grey）在Fair负责研究工作。汉娜·皮莱吉（Hannah Pileggi）我记得曾在Duolingo负责研究工作。路易丝·贝里尔（Louise Beryl）在Figma负责研究工作。还有诺亚（Noam），他曾在Wealthfront负责研究工作。不过听说他后来转行了。从你招募和培养的这个团队走出的人才组成的校友社区真是太不可思议了。",
+   "ts": "00:04:24"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "No, I've never looked at that list, but I'll tell you, I have been so privileged to work with all these amazing humans. I can't take credit for it. They're just outstanding people. And I'm glad the diaspora is out there, because these people, rock stars.",
+   "zh": "不，我没看过那份名单，但我可以告诉你，能与这些优秀的人共事，我深感荣幸。这都归功于他们，他们实在太出色了。我很高兴看到这个由你招募和培养的团队形成了如此庞大的校友群体，他们都是行业内的明星。",
+   "ts": "00:05:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. The main reason that I wanted to do a podcast episode with you is that you wrote this piece that was titled The User Research Reckoning is Here, which I understand caused quite a stir in the research community and I think adjacent communities. And let me just read one of your takeaways at the top of your post to give people a sense of what it was about. You wrote, \"The user research discipline over the last 15 years is dying. The reckoning is here. The discipline can still survive and thrive, but we'd better adapt, and quick.\" Before we get into the meat of the piece, could you share a bit about just the reaction to this piece and maybe if it was a surprise and what you expected would happen when you put this out?",
+   "zh": "好的。我想和您做这期播客的主要原因是您写了一篇题为《用户研究的觉醒时刻到来了！》的文章，我知道这篇文章在研究社区乃至相关领域引发了不小的讨论。让我先读一下您帖子开头的一个要点，让大家了解文章主旨。您写道：\"过去15年，用户研究领域正在走向衰落。觉醒的时刻到了。这个领域仍能存续并蓬勃发展，但我们必须迅速适应。\" 在深入探讨文章核心观点之前，您能否谈谈这篇文章引发的反响？是否出乎您的意料？您期望发表后会产生怎样的反响？",
+   "ts": "00:05:23"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah, I was definitely surprised. I wrote it because I wanted to start a conversation about something I was thinking about. I didn't really know who would read it. And in the end it turned out a lot of people read it. I learned that using the word reckoning may have been a mistake because it inspires a lot of drama in a conversation that I wanted to be really productive and positive. Overall, I would say, though, that the response was very positive. It seemed to resonate with a lot of people who reached out to me. I spent a lot of time talking to teams, to designers, to researchers, but there were also a ton of critiques. (00:06:43): I would say some of it was like people thought I was throwing research or researchers under the bus, like, \"It's researchers' fault. We're doing it wrong.\" Which I don't believe at all. And that I wasn't taking responsibility as a research leader or a design leader myself. And the most interesting one I would say was the anti-capitalist crew, because one of my points that we'll talk about is that I think researchers need to be more profit focused. And there are a lot of people out there who, I think they think that's not cool or not research's job, and I'm like, \"Well, what are we doing then, if we're not helping businesses succeed?\" But that was the most surprising critique, for sure.",
+   "zh": "是的，我确实很惊讶。我写这篇文章是为了开启一场对话，我当时并不知道会有多少人阅读。结果发现读者众多。我发现用\"觉醒\"这个词可能有些不妥，因为它在对话中引发了太多的戏剧性反应，而我本想让讨论积极且富有建设性。不过总体而言，反响还是很积极的。很多联系我的人都表示共鸣。我花了很多时间与团队、设计师和研究者交流，但也收到了大量批评。（00:06:43）：其中最让我惊讶的是反资本主义阵营，因为我的一个观点是研究者需要更关注盈利。这让很多人觉得这不酷，或者认为这不是研究者的职责。我想说，那我们不帮助企业成功，又该做什么呢？但这种批评确实最让我意外。",
+   "ts": "00:06:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've worked with some of those people who are just like, \"Why are we growing? Why do we focus so much on growth? Why do we need to grow this business?\"",
+   "zh": "我曾与一些人合作过，他们会问：\"为什么我们要增长？为什么我们如此关注增长？为什么我们需要让这项业务增长？\"",
+   "ts": "00:07:23"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:07:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I get that.",
+   "zh": "所以我懂了。",
+   "ts": "00:07:29"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Maybe it's the wrong industry for them.",
+   "zh": "也许这对他们来说不是合适的行业。",
+   "ts": "00:07:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I'm not a fan of that. Okay. Let's actually dig into the meat of your message, and the big takeaway, and the conclusion of what you're finding is happening in user research. And I know a lot of this comes from a lot of user researchers have been laid off at a lot of companies. It was one of the hardest hit teams. And so I think a lot of this comes from that. So yeah, so let's just start big and then see where it goes.",
+   "zh": "是啊。我不喜欢这样。好吧。让我们真正深入探讨你消息的核心内容、主要观点以及用户研究领域当前现状的总结。我知道很多用户研究员在许多公司被裁员，这是受影响最严重的团队之一。所以我认为很多问题源于此。那么，让我们先从大局入手，再看看后续发展。",
+   "ts": "00:07:32"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "So yeah, everybody who's paying attention has noticed that there have been a bunch of layoffs. And I think back in the summer I was thinking, \"Listen, this seems to be hitting UX and UX research particularly hard. Is there something going on? Is there a bigger picture?\" The reason I use the word reckoning is because to me that's like, \"Hey, a moment to take stock.\" And triggered by the fact that a lot of wonderful humans may have lost their jobs, and many more are afraid of losing their jobs. And so if it's a sign, the fact that research has been hit so hard, it's a sign of what? And so the thesis of my article is really, it's a sign that maybe the system is a little more broken than we think and that research is not driving the value or impact that it should or could. And that's for a bunch of reasons, I think. Some of it is stuff that research can do better, and a lot of it is how research is integrated and positioned in companies. (00:08:46): And at the root of all that, I think, is that we're just doing too much of what I would consider the wrong type of research. And what I mean by the wrong type of research is I have this framework, and it's in the article, macro, middle range, and micro research, at least three ways to talk about it. And it's pretty simple, the intuition of what those are. So macro research is big picture, strategic, business focused, forward-looking innovation, look at the market, look at competitors, long-term research to understand where the product should go next, stuff like that. (00:09:20): And then you have micro research, which a lot of really technical usability falls into this, all the beautiful stuff that researchers do to enable a really high quality, excellent, pixel perfect thing to go out the door, laser-focused research to understand AB test results, stuff like that. And then you have this middle range, which is this blobular place where the research questions are middle altitude and a lot of the core, let's say user understanding questions fall here. And a lot of what research is doing is research in that space. It's, \"Let's take a group of people and ask some questions about how they think, feel, behave, how they're using a product or not using a product.\" And it's just this devastating mix of really interesting to many, including researchers, and not impactful enough for the business. That's the core thesis. Researchers do it because it's interesting, but honestly, and a thing we should talk about, Lenny, is researchers also do it because it's the kind of work we most often get asked to do.",
+   "zh": "是啊，每个关注此事的人都注意到有大量裁员。我记得去年夏天我就想，\"听着，这似乎对用户体验和用户研究领域打击尤其严重。是不是有什么深层原因？是不是有更宏观的背景？\"我之所以用\"清算\"这个词，是因为对我来说，这意味着\"嘿，是时候反思一下了。\"而触发我反思的因素是，许多优秀的人可能失去了工作，还有更多人害怕失去工作。那么，如果研究领域受到如此严重的冲击，这意味着什么？我文章的核心论点是，这表明系统可能比我们想象的更加失灵，研究并没有发挥出应有的价值或影响。这其中有很多原因，一些是研究本身可以改进的地方，还有很多是研究在公司中整合和定位的方式问题。(00:08:46):而所有这些问题的根源，我认为是我们正在做太多我认为错误类型的研究。我所说的错误类型的研究是指我有一个框架，文章中提到宏观、中间范围和微观研究，至少有三种说法。这很简单，直观地理解这些层级。宏观研究是大局观、战略导向、以业务为中心、前瞻性创新，观察市场、研究竞争对手、进行长期研究以理解产品下一步该怎么走，诸如此类。(00:09:20):然后是微观研究，许多技术性很强的可用性研究属于这一类，研究人员做得非常出色的所有事情，比如让产品尽可能高质量、完美无缺地推向市场，进行AB测试等。这里有中间范围，这是一个模糊的领域，研究问题处于中等高度，大多数核心的用户理解问题都属于这一类。很多研究工作都处于这个领域。就是\"让我们选一组人，问他们一些关于他们如何思考、感受、行为，以及他们如何使用或不使用产品的问题。\"这是一个毁灭性的组合，对包括研究人员在内的许多人来说都很有趣，但对业务却没有足够的影响。这就是核心论点。研究人员做这些是因为有趣，但说实话，我们应该谈谈，Lenny，研究人员也做这些是因为这是我们最常被要求做的工作。",
+   "ts": "00:07:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. That's exactly what I was thinking. As a PM, that's what I want to get answers to, is like, \"How should we think about this one product?\" And I totally get this.",
+   "zh": "是啊。这正是我的想法。作为产品经理，我想得到的答案是，\"我们应该如何考虑这款产品？\"我完全理解。",
+   "ts": "00:10:22"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah. The questions turn out to be really interesting and there are many cases at many companies where it's super impactful. But the problem with those types of questions is they tend to, they trigger all the worst stuff that researchers experience. So they yield results which are interesting, but sometimes hard to operationalize. They trigger the post hoc bias, really, really, really well where a lot of people can say confidently like, \"Oh, that was obvious. We knew that already.\" And they fulfill this need for us to feel and be customer obsessed, user-centered, without changing anything. So doing too much of that research to me is a symptom of a broken system, and where companies are really different from each other. I heard from so many after this article and they're like, \"Well, my company and my industry is like this or not like this.\" (00:11:24): But in tech, we spent the last many years hiring, hiring, hiring researchers, but maybe, I'm sure most of your listeners are familiar with the idea of a ZIRP. Maybe it was a zero interest base phenomenon, where it was okay when the money was easy, to hire researchers, even though we were not setting them up properly. We're were going to set them up to fail. We set them up as a service function. We didn't know what research was for. We didn't know how to really drive impact with it. And that's where the reckoning comes from. It's like that era is over. Research, I think, is more crucial than ever. Good, great researchers are more impactful than ever. But it's in a new space. We're in a new space now.",
+   "zh": "是啊。这类问题确实很有趣，很多公司都有过案例，效果非常显著。但这类问题的弊端在于，它们往往会激发研究者最不愿面对的情绪反应。比如，他们会轻易陷入“这太明显了，我们早就知道”的自满心理。这种问题还助长了事后诸葛的倾向，让人们轻易对结果下判断，满足了我们“以客户为中心、以用户为核心”的虚荣感，却没有带来真正的改变。在我看来，这种过度研究的现象，反映了系统性的缺陷，也暴露了不同公司之间的巨大差异。文章发布后，许多人反馈说：“我们的公司和行业并非如此。” （00:11:24）但在科技行业，我们过去多年来一直在招聘研究人员，但很遗憾，大多数听众都熟悉“零利率政策”（ZIRP）的概念。在资金宽松时期，招聘研究人员似乎无伤大雅，即便我们没有为他们搭建合理的框架，注定他们会失败。我们把他们当作服务部门，却忽视了研究的真正价值和影响力。这正是行业变革的根源所在——那个时代已经结束了。如今，研究比以往任何时候都重要，优秀的研究者也比以往更具价值。但研究已进入新阶段，我们正站在新的起点上。",
+   "ts": "00:10:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to make sure people understand this framework. And specifically, how would you best describe the difference between this middle range research and macro research?",
+   "zh": "我想确保大家理解这个框架。具体来说，如何最好地区分中级研究和宏观研究？",
+   "ts": "00:12:05"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Middle range research is usually focused on a more specific set of research questions or a constituency. So if macro is like, \"Let's understand the overall competitive landscape. Let's do a concept car type project where we really look ahead. Let's get involved with strategic planning,\" which is a wonderful thing for researchers to do, do TAM studies, other things like that, that stuff lives in the macro space. (00:12:42): The middle range space is like, what's a good example? \"We want to know how Airbnb hosts feel about their payment options.\" That's a really interesting, reasonable question. And we can go out and do research on that, but it's not that specific. It's not really targeted at a business problem yet. It could be. Maybe that's a result of the research, but it yields these middle range insights in which we've learned things like, \"Well, hosts want flexibility about their payment options.\" I'm making this up. And that's a good example where it's like, \"It's not that that's not an interesting set of questions, it's just not quite pointed enough.\" And it's not framed in the language of the funnel, or the business strategy, or the OKRs. It's not quite enough aligned enough to that. It's too blobular in that middle level and it ends up not driving impact.",
+   "zh": "中级研究通常聚焦于更具体的研究问题或特定群体。宏观研究可能包括“了解整体竞争格局”、“进行概念车级别的前瞻性项目”、“参与战略规划”等。这类研究固然值得开展，但不属于中级研究范畴。（00:12:42）中级研究的典型例子是什么？比如，“我们想了解Airbnb房东对支付选项的看法”。这是一个很有趣且合理的问题。我们可以开展相关研究，但不够具体，尚未真正针对业务问题。或许这会成为研究成果，但它属于中级洞察，比如“房东希望支付选项更灵活”。我举这个例子是想说明，“这些问题并非不值得研究，而是不够精准”。它不符合漏斗模型、商业战略或OKR的表述框架，与业务目标的关联度不够，过于宽泛，最终难以产生实际影响。",
+   "ts": "00:12:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think it also leads to a lot of the things as you described, people don't like about research. It delays everything. You have to wait for the research to be done to have an answer, to make a clear decision. It also creates this issue that people complain about, that PMs and product teams don't want to just make a decision on their own. They're like, \"I will get this additional data point and make sure research tells us this is the right answer instead of just trusting there.\" God, I guess maybe along those lines, this might be going off a little track, but what's your advice there for, say, product managers or PMs or product teams to not necessarily rely on research for that middle research?",
+   "zh": "我认为这也导致了你所描述的很多问题，人们不喜欢研究工作。它会拖慢一切进程。你必须等待研究完成才能得到答案，才能做出明确的决策。这也引发了人们抱怨的一个问题——产品经理和产品团队不愿意自行做决定。他们会说：“我要获取这个额外的数据点，并确保研究能告诉我们这是正确的答案，而不是仅凭直觉。”天哪，我猜或许在某种程度上，这可能有些偏题，但对于产品经理、PM 或产品团队来说，要避免过度依赖研究进行中间环节的决策，你有什么建议吗？",
+   "ts": "00:13:38"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I think the reason why so many PMs ask for those middle range questions is because they haven't really gotten deep with their researcher in a way which can leverage it for maximum impact. So if the question is like, \"Hey, Judd, you just pointed out a bunch of problems, can you be more solutions oriented?\" Well, the solution is simple but not easy to me. It's that we need to restructure the way we make products in a way which integrates research much more fully. It looks like consistent relationships in which researchers, and the work, and the insights they provide are a part of the process from beginning to end. (00:14:51): And I think, Lenny, you as a PM, that's how you worked. I remember you, I know who you worked with. You worked with great researchers. But honestly, most product processes are not that way. And so that's when research is a service function. It gets called in right at the end. It's reactive in the sense that a researcher in the room listening and participating in the conversation could have a ton of impact on framing exactly the right question that will drive maximum business impact, maximum product improvement at that moment, and then go do it quick, and get back, and we're onto the next. But they weren't there, the relationship wasn't there. They're not engaged in the project from the beginning. And that's the number one root of the problem. As long as research is a service discipline, I think we're going to be stuck in this spot.",
+   "zh": "我认为很多 PM 会提出这些中间环节的问题，是因为他们没有真正与研究人员深入合作，从而无法充分利用研究的价值。例如，如果有人问：“嘿，贾德，你刚指出了一堆问题，你能更偏向解决方案吗？”嗯，解决方案很简单，但对我来说并不容易。我们需要重新构建产品开发流程，使研究更全面地融入其中。理想的状态是建立持续的合作关系，让研究人员、他们的工作以及他们提供的洞察从始至终成为整个流程的一部分。（00:14:51）：伦尼，作为产品经理，你就是这样做的。我记得你，我知道你和谁合作过。你与优秀的研究人员共事过。但说实话，大多数产品流程并非如此。这时候研究就成了服务性职能。它往往是在最后阶段才被召入。这种被动应对的方式意味着，如果有研究人员在场并参与讨论，他们本可以对准确制定推动业务影响最大化、产品改进最优化的关键问题产生巨大影响，然后迅速行动、反馈，再继续下一个环节。但他们并未参与其中，合作关系也不够紧密。他们从一开始就未深度介入项目。这才是问题的核心根源。只要研究仍是服务性学科，我认为我们就会深陷这种困境。",
+   "ts": "00:14:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When people might be hearing this, on the one hand, it's research has been not as helpful to teams as they thought, and researchers have been spending time on the wrong thing. On the other hand, your advice is integrate research from the beginning, make them more involved throughout. And I think that might confuse people. How should people think about, like, \"Research is actually more important? You should integrate them more deeply.\"",
+   "zh": "听众可能一方面会觉得研究对团队的帮助不如预期，希望研究人员能把时间花在更重要的事情上；另一方面，你又建议从一开始就深度整合研究，让他们全程参与其中。我觉得这可能会让人们感到困惑。人们应该如何看待这个问题？比如，“研究实际上更重要？你们应该更深入地整合他们。”",
+   "ts": "00:15:37"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "There's a vicious cycle that's been happening, is from where I sit, and this is what I hear from many, many researchers and research leaders, which is a lot of companies hired a lot of researchers with great intentions, didn't quite know how to integrate them. And UX research is a newer discipline, so maybe that's not surprising. We're still learning how to use it. \"Cool, let's evolve.\" But a lot of companies hired these people, but they hired them into kind of like a service discipline, very reactive, not in the room, not integrated in the way I said. (00:16:30): And so they had less input on the questions to ask, or they're included, but only at the end. And then they're unable to build those direct relationships, to be there in the room to actually drive the questions and insert insights. Because a good researcher is like the repository of insights you need for growth, but they're not there. They don't participate in the decision. So they end up doing research. They have jobs to do, so they do research that is too reactive, it doesn't matter, and then it's less impactful. Executives conclude that therefore researchers are not as impactful and then they get sidelined or laid off and the cycle continues. (00:17:07): So I think the short circuit is the constant engagement. If you take a great researcher and you insert them consistently in a product process, I feel confident that researcher will drive a product improvement, metrics impact, growth, all the things that you want to see as a PM and a product leader. It's just that's the exception, not the norm these days.",
+   "zh": "一直存在着一个恶性循环。以我的观察来看，以及我从众多研究人员和研究负责人那里听到的情况，很多公司在招聘研究人员时怀着美好的愿景，却不知道如何有效地整合他们。用户体验研究是一门新兴学科，所以出现这种情况或许并不意外——我们仍在探索如何充分运用它。“好吧，那就继续改进。”但许多公司把这些研究人员归入服务性岗位，要求他们被动响应，无法深度参与项目全过程。（00:16:30）结果，他们对研究问题的贡献微乎其微，或是只能在项目末期参与其中。更糟糕的是，他们无法与团队建立直接联系，无法在现场推动研究进程，提供关键洞察。因为优秀的研究人员本应是推动业务增长所需的洞察库，但现实中却被边缘化。他们无法参与决策过程，最终只能被动完成研究任务，研究成果缺乏影响力。高管们因此认为研究人员缺乏价值，于是将其边缘化或裁员，恶性循环不断重演。（00:17:07）我认为问题的核心在于持续的深度参与。若能让优秀的研究人员持续融入产品开发流程，我相信他们必将推动产品改进、提升关键指标、促进业务增长——这些正是产品经理和产品负责人所期望的成果。但遗憾的是，如今这类成功案例实属少数，远非常态。",
+   "ts": "00:15:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This may be a hard question to answer, but when people hear, \"If you have a great researcher, here's how you approach it.\" What are signals that your researchers is great versus not great? What are some things people could look for to tell them, like, \"Oh, maybe I have the wrong researcher on my team.\"",
+   "zh": "这个问题可能很难回答，但当人们听到“如果你有优秀的研究人员，以下是操作指南”时，如何判断研究人员是否真正出色？有哪些迹象能让人们意识到“或许我的团队中选错了研究人员”？",
+   "ts": "00:17:31"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "The best researchers I think are first of all, multi method. The first iteration of user research was primarily a qualitative discipline. But a strong opinion that I have is that is largely one of those models that needs to evolve. It's not that qualitative user research is no longer important. It's that the best researchers have five tools. I think they have five tools. And those five tools are number one, what we would call formative or generative user experience research. So looking ahead, innovation focused, really open-ended, maybe more ethnographic, \"Let's go out into the field and talk to host and guests on Airbnb. Let's see people using our product in the field,\" stuff like that. So that's formative. (00:18:27): The second type is evaluative, so more like usability testing. The third tool is a basic rigorous survey design. It's the best scaled way to get responses from communities small and large. You can get a lot out of really well crafted surveys. But to do that, you have to have the fourth tool, which is applied statistics, the best research, know a little bit of stats. You can't interact in a world of AB testing without knowing basic statistics. (00:18:56): And then in the old version of this, the fifth tool was SQL, because I think good researchers need to be able to run their own queries. These days, so much of that is dashboarded, that the fifth tool may now be prompt engineering, which is a thing we could talk about, but I think maybe that's the fifth tool is somewhere, is it technical skills that fall in between querying your own data, understanding it very well in companies that are awash with data and then interacting with generative AI.",
+   "zh": "我认为最优秀的研究者首先要具备多元方法论。用户研究最初阶段主要以定性研究为主。但我坚信，这一范式需要不断进化。并非定性用户研究不再重要，而是最顶尖的研究者手中拥有五种工具。我认为他们掌握了五项技能。首先是形成性或生成性用户体验研究。比如展望未来，以创新为导向、开放式探索的研究，可能更偏向民族志研究——“让我们深入Airbnb平台，与房东和客人交流，观察他们如何使用我们的产品”。这属于形成性研究。\n\n（00:18:27）第二类是评估性研究，即可用性测试。第三种工具是基础的严谨性调查设计，这是获取大规模或小规模社区反馈的最佳方式。精心设计的调查问卷能收获大量信息。但要做到这一点，必须掌握第四项技能——应用统计学。若想开展AB测试，基本的统计学知识必不可少。\n\n（00:18:56）过去第五项技能是SQL，因为优秀的研究者需要能够自主查询数据。如今，这类技能已被仪表板取代，或许如今的第五项技能应是提示工程——这是一个值得探讨的领域，但我认为第五项技能或许介于自主查询数据、在数据海洋中深度理解数据，以及与生成式AI交互之间。",
+   "ts": "00:17:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. That's such a cool list. Okay, so just to playback, formative, generative, innovative skills to think bigger and come up with new ideas, usability.",
+   "zh": "太棒了。这真是个很棒的清单。好的，我再回顾一下：形成性、生成性、创新性技能，拓展思路提出新想法，可用性测试。",
+   "ts": "00:19:24"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yep.",
+   "zh": "对。",
+   "ts": "00:19:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, usability. How did you describe it? I have a different word, here. Evaluate? Evaluative?",
+   "zh": "是的，可用性测试。你怎么描述的？我这里有个不同的词，评估？评估性研究？",
+   "ts": "00:19:35"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Evaluative, right.",
+   "zh": "评估性研究，对。",
+   "ts": "00:19:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:19:41"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "So we're evaluating products and doing more. Really that's the micro level of research.",
+   "zh": "所以我们在评估产品，进行更多研究。这就是研究的微观层面。",
+   "ts": "00:19:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Survey design, being really rigorous about it, applied statistics, and then SQL/dashboard/prompt engineering.",
+   "zh": "调查设计，严格把控，应用统计学，然后是SQL/仪表板/提示工程。",
+   "ts": "00:19:47"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "00:19:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe just one last question along this thread, also a big question, but any advice for how to evaluate these skills/interview for them? I know this is its own deep topic, but any advice for someone trying to find this person?",
+   "zh": "或许最后再问一个相关的问题，也是个大问题，但对于如何评估这些技能/面试这些人才，有什么建议吗？我知道这是一个深奥的话题，但对于寻找这样人才的人，有什么建议吗？",
+   "ts": "00:19:54"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I've interviewed hundreds or thousands of researchers, and the way I usually approach that is you want a researcher who's got a Swiss army knife, because if all you have is a hammer, then everything looks like a nail. And so if you give in the context of an interview, let's say, a researcher, a pretty juicy, open-ended research question, and you want to see how they handle it, and a good answer is usually multi-method. We're not going to handle it in any one way. We're going to say, \"Well, here's a couple of ways we could deal with this. Here's how we could do this in a day, or a week, or a month.\" We usually don't have a month, but sometimes big research projects go on for that long. \"And here are the different sets of methods that we can use.\" (00:20:44): So see where they go. It's actually pretty simple. Most researchers are deeper in one than the other, and sometimes you can make up for those five tools with the team. So you have experts who are t-shaped, but maybe deeper in one or several of those ways. But when I built a team at Meta and at Airbnb, that was my goal, is individually as researchers build up those tools and then as a team build deep expertise that would fill all the gaps.",
+   "zh": "我采访过数百甚至数千名研究人员，我通常采取的方法是，你需要一个\"多面手\"的研究人员。毕竟，如果你只有一把锤子，那么所有问题看起来都像是钉子。比如，在采访中，如果你给研究人员一个相当有挑战性的开放式研究问题，并想观察他们的处理方式，一个好的答案通常会采用多方法论。我们不会局限于单一方法，而是会说：“好吧，我们有几个处理方案。一天、一周、一个月内能完成的方案各不相同。”当然，通常我们没有一个月的时间，但大型研究项目有时确实需要那么久的时间。然后再列出可用的不同方法组合。（00:20:44）这样就能观察他们的思路。这其实很简单。大多数研究人员在某个领域比其他领域更精通，有时你可以通过团队弥补这五种工具的不足。因此，研究人员需要具备T型能力，但可能在其中一个或多个领域更深厚。不过我在Meta和Airbnb组建团队时，目标就是让每位研究人员都能掌握这些工具，然后作为团队共同打造深厚的专业能力，以填补所有空白。",
+   "ts": "00:20:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Coming back to the main premise of your post, one of your big takeaways is, \"Researchers need to be much more business oriented, thinking about what helps the business versus the user.\" Which I think to a lot of researchers will feel really weird. Can you just talk about your takeaways there?",
+   "zh": "回到你帖子的核心观点之一，你的主要见解是\"研究人员需要更具商业导向，思考如何为业务而非用户创造价值\"。我认为很多研究人员会觉得这很奇怪。你能否谈谈你的核心观点？",
+   "ts": "00:21:10"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "So much of user experience practice, not just research, but design too, is focused on empathy and very user-centered. This is beautiful. I'm not saying that we should abandon that. I think what I'm saying is there's an overlapping event, where you have the user and profit or the business. And what researchers need to do is be way more explicit about finding that overlap. So one thing, when researchers ask for advice, they're like, \"Well, what should I do to be more business or profit focused?\" I say something like, \"Did you read the last quarterly report, If it's a public company? Did you listen to the shareholder call?\" And they're probably like, \"No, it's full of a bunch of language I didn't quite get.\" (00:22:12): And I'm like, \"Yep.\" So there you go. That's the language you need to learn. Scour your Google Drive folder, your internal folder and look for all of the documents that are about this quarter, or this halves, or next half strategy. What are the OKRs? Understand the metrics and the conversion funnel, know it back and forward, because then what you're doing is you're proposing, if you're in the active conversation, you're saying, 'Cool, I hear you asking that research question. I've identified this is exactly the spot in the funnel where I think we need to do work. There's an opportunity here. Or that competitor is eating our lunch with this group of users. I know that because I read the competitive report and I understand it deeply.'\" So those are skills that some researchers have and a lot are building these days, but historically, last 15 years, it hasn't been a thing we've been as focused on, and I think that's an evolution that needs to happen.",
+   "zh": "用户体验实践——不仅是研究，还有设计——很大程度上都以同理心为核心，以用户为中心。这很棒。我不是说我们应该抛弃这一点。我想说的是存在一个重叠区域，即用户与利润或业务之间的关联。研究人员需要更明确地找到这个重叠点。比如，当研究人员寻求建议时，他们会问：\"我该如何更关注业务或利润导向？\"我会问：\"你读过最近的季度报告吗？如果是上市公司的话？你听过股东电话会议吗？\"他们可能会回答：\"没有，那些术语我不太懂。\"（00:22:12）我就会说：\"没错。\"这就是你需要学习的语言。翻遍你的Google Drive文件夹、内部文件夹，寻找所有关于本季度、半年或下半年战略的文件。OKR是什么？了解转化漏斗和指标，烂熟于心，因为这样在主动参与对话时，你就能说：\"很酷，我听说你提了那个研究问题。我已经确定了转化漏斗中的关键节点，这里有机会。或者那个竞争对手正在抢走我们的用户群体。我读了竞争报告，理解得很透彻。\" 这些技能有些研究人员已经具备，许多人如今正在培养，但在过去15年里，我们对此关注不够。我认为这是一个需要改进的趋势。",
+   "ts": "00:21:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think a lot of PMs listening to this are going to be like, \"Hallelujah.\" This is exactly what I've been trying to convince people of. It's what I've been trying to convince my researchers of, and design often falls into this.",
+   "zh": "我觉得很多听众听了这番话都会感慨：“谢天谢地！”这正是我一直试图说服人们的观点。过去我也一直试图让我的研究人员明白这一点，但设计工作往往会陷入这种困境。",
+   "ts": "00:23:06"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "But Lenny, the opposite is true, too, because you got to take the average PM who lives in that land, all day, every day, and what they do is not in the Venn. I think those are people who are also performing customer centricity and performing user-centeredness a lot, when they're really not interested. And so this is not about researcher. This takes two sides. Fixing this broken system takes everyone, researchers, PMs, designers, everyone at a company, but also the way that organization is structured, and integrating itself in a different way. Everybody's got to come to the table.",
+   "zh": "但伦尼，事实恰恰相反，因为你得面对那些整天埋头于日常工作的普通产品经理，他们的做法根本不符合用户中心的理念。我认为，这些人往往会高举用户至上、以用户为中心的口号，但实际上他们对此并不感兴趣。这不只是研究人员的问题，而是需要整个团队、公司架构乃至组织文化的深度变革。每个人都必须参与进来。",
+   "ts": "00:23:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Such a good point. And you have this actual term that you call user-centered performance, where it's the performance of being user-centered. Can you talk about that and then just what advice you'd give to PMs that, hearing this, are like, \"Yes, I love everything you're saying,\" and then not realizing maybe they're too far in that extreme?",
+   "zh": "你提到的\"用户中心表现\"这个概念很棒，能否具体解释一下？你给那些听了之后大呼\"太赞了！\"的PM们什么建议？他们可能意识不到自己已经陷入极端境地了。",
+   "ts": "00:23:55"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "User-centered performance is a term I made up, because it's fun to make up terms. And it refers to customer obsession or a user-centered practice that is symbolic rather than focused on learning. So it's hugely common, I would argue. It's work we do to signal to each other how customer obsessed we are, not because we want to make a different decision. And if your listeners are like, \"I don't do that.\" I'm like, \"Think about it for a second.\" Because this is extremely common. It shows up in explicit ways and implicit ways. (00:24:52): So explicitly, I would say every time a PM comes to a researcher at the end of a product process and says, \"Can you just run a quick user study just to validate our assumptions?\" That's user-centered performance. It's too late to matter. That PM is not interested in being wrong at all. It's too late in the game for that. We got to ship it. What they want is to check the box. So any check the box style research is a wild example of user-centered performance. (00:25:22): I would argue every researcher has probably had to do executive listening sessions because a lot of PMs, founders, product people, but designers, too, they want to get close to the customer. And so, like, \"Can I do some focus groups? I want to be there. I want to ask them questions.\" This is 97% performance. It's well-intentioned, but it isn't focused on learning. It isn't going to drive better outcomes or more impact. (00:25:49): And then there's all these implicit ways that people engage in that kind of user performance, too. A lot of it comes down to cognitive biases, confirmation bias, ego. One of my big mantras was, \"We don't validate, we falsify. We are looking to be wrong.\" That is the mindset you should use when you're approaching insights and research. \"I want to be wrong. I want you to do research that shows we were off base in the following ways. Tell me exactly how and why in a way that allows me to fix it quickly.\" But many PMs, many designers are not in that place. They do not want to be wrong. They're looking to validate. And that's user-centered performance.",
+   "zh": "\"用户中心表现\"是我自己创造的术语，因为创造术语很有趣。这个术语指的是那些象征性而非基于学习的客户痴迷或用户中心实践。我认为这种现象极为普遍。无论是显性表现还是隐性行为，都随处可见。（00:24:52）：显性例子包括，产品经理在产品流程结束时对研究人员说：“能不能快速做个用户研究验证我们的假设？”这就是典型的用户中心表现。此时再做验证已然无济于事。这位PM根本不想承认自己可能错了。毕竟产品已经上线，他们只想完成任务。任何形式的\"走过场式研究\"都是用户中心表现的典型例子。\n（00:25:22）：我敢说，每个研究人员都曾被迫参加高管听取会，因为很多产品经理、创始人、产品人员甚至设计师都想亲近用户。比如：“我能参加焦点小组吗？我想亲自提问。” 这就是97%的用户中心表现。出发点是好的，但并非基于学习，无法带来更好的成果或更大的影响力。\n（00:25:49）：此外，人们还以各种隐性方式参与这种用户中心表现。很多时候这源于认知偏差、确认偏差和自我膨胀。我的口头禅是：“我们不验证，我们证伪。我们要承认自己可能错了。” 这才是面对洞察和研究时应秉持的思维方式。“我希望自己错了。我希望研究能指出我们在以下方面存在偏差。请用让我能快速纠正错误的方式准确指出原因和方式。” 但很多产品经理和设计师并未做到这一点。他们不想承认错误，只想验证自己的假设。这就是用户中心表现。",
+   "ts": "00:24:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, man. I think a lot of people are hearing this and feeling exposed.",
+   "zh": "天啊。我觉得很多人听了这番话都会感到自己被揭穿了。",
+   "ts": "00:26:29"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Exposed.",
+   "zh": "被揭露了。",
+   "ts": "00:26:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like you're like this Deep Throat person coming from sharing these things people don't want to talk about at the office.",
+   "zh": "我觉得你就像那个深喉（Deep Throat）人物，喜欢在办公室里分享那些人们不愿谈论的事。",
+   "ts": "00:26:35"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I know.",
+   "zh": "我知道。",
+   "ts": "00:26:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's this quote in your post I'm going to read. \"Product managers love to ask for middle range research that they can use to justify decisions they're reluctant to make on their own. User designers love to ask for middle range research because it fits their model of what proper design process should look like. Executives love to ask for middle range because they don't really understand what research is for, and helps them do performative user-centeredness. In the end, they will decide based on their own opinions.\"",
+   "zh": "你帖子里有一句话我要读一下。\"产品经理喜欢要求中等程度的研究，这样他们就能为自己不愿独自做出的决定找借口。用户设计师喜欢要求中等程度的研究，因为这符合他们对正确设计流程的认知。高管们喜欢要求中等程度的研究，因为他们根本不明白研究的意义，而这能让他们假装以用户为中心。最终，他们还是会根据自己的意见做决定。\"",
+   "ts": "00:26:42"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "There is an important place for intuition in product development, of course. The best designers, researchers, product people develop strong intuition for the product. But you got to understand, intuition is where all of those biases lie. It's where all your blind spots are. And what great insights people do, what great researchers do when you're next to them all the time, is they'll expose you. I don't have to be the Deep Throat, because you have somebody who's professional job is ... Keeping you honest is probably the wrong way to put it, but as somebody whose capabilities are about expanding your horizons, making it so that your intuition is constantly improving, you don't have to rely on it when your intuition and the evidence sort of collide in a way that either affirms or falsifies the product decision you made. Now something really good is happening. (00:28:00): And the other thing that is inherent in that quote is I, at Airbnb, wore many hats over the years. I was head of research two different times. I was head of design for guest products. And my last job was I was head of the design studio, so UX research, UX design, writing, localization, they all reported up to me. So I've seen this from many disciplinary angles in the UX field. And researchers aren't the only ones who are guilty of this. I would say design has a ton of performance. And it comes from the fact that we have figured out user-centered design, this process, or design thinking, which IDEO popularized. Like, \"That's what we're supposed to do, right? Bezos told us that we, as PMs, had to be customer obsessed. So that's what we're supposed to do.\" (00:28:48): It's a really common and damaging thing when we don't genuinely have that growth learning mindset, and it's easy to sideline researchers. We don't need them in that situation. We've got our guts. Isn't the gut where a great PM, a great founder needs to have that gut? And they do, but they need to be open to the fact that your gut, is limited, and biased, and narrow, and wrong sometimes.",
+   "zh": "当然，直觉在产品开发中占据重要位置。最优秀的设计师、研究人员和产品经理都能对产品形成强烈的直觉。但你要明白，直觉恰恰是各种偏见的温床，也是你盲点的来源。当优秀的研究者或设计师长期陪伴在你身边时，他们会揭露你的不足。我不必扮演深喉的角色，因为有人以此为职业……用“保持诚实”来形容可能不太准确，但作为能拓展你视野、不断提升直觉能力的人，当你的直觉与证据发生冲突时，无论是印证还是推翻你的产品决策，这时你都不必再依赖直觉。现在真正的好事正在发生。（00:28:00）：上述引言中还隐含着一个事实：我在Airbnb多年来身兼数职。我曾两次担任研究主管，负责客人产品的用户设计工作。最后的职位是设计工作室负责人，所以用户体验研究、用户设计、文案撰写、本地化等部门都向我汇报。因此，我从多个角度观察过用户体验领域的各个学科。并非只有研究人员有此问题。设计领域也存在大量表面功夫。这源于我们对以用户为中心的设计、IDEO推广的用户体验设计思维的理解。比如，“这就是我们该做的，对吧？贝索斯告诉我们，作为产品经理必须以客户为中心。所以我们就该这么做。” （00:28:48）：当我们没有真正树立成长型学习心态时，就会陷入一个常见且有害的陷阱——轻易忽视研究人员。在这种情况下，我们不需要他们。我们有直觉。难道伟大的产品经理、创始人不应该有这种直觉吗？他们确实需要，但也要承认直觉有限、带有偏见、有局限性，有时甚至是错误的。",
+   "ts": "00:27:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The two sides of this is trust your gut opinion, \"I don't need research, I don't need data. I have opinions, and my own experience, and I'm going to use the product, and let's just go with what feels right to me.\" Versus pure data-driven research driven for designers that are maybe listening for product managers. Do you have any advice for just where to fall on that spectrum and just how to best leverage research to inform that opinion?",
+   "zh": "两方面的选择是：要么相信直觉，“我不需要研究，不需要数据。我有自己的观点和经验，我要用产品试试，看看感觉对不对。” 要么纯粹为设计驱动的研究，适合可能在听的产品经理们。你对如何在这两个极端之间找到平衡，有何建议？如何最有效地利用研究来支持决策？",
+   "ts": "00:29:13"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah, I taught a class at UC Berkeley this semester on leadership, and we talk about that a lot, because great leaders develop intuition. It's the pattern matching part of experience, where you develop heuristics which allow you to make good judgments even if you can't quite explain where that judgment came from. That's what the gut is. But it's also, like I said, where bias comes from, where all the cognitive biases, there's a list of 151 of them on Wikipedia, I won't name them, but all those thorny things that lead us astray, the behavioral economists and social psychologists study, those live in the gut. And so the advice is when you are looking to check your gut, you have to do that thing. A lot of your listeners have probably read Thinking Fast and Slow, System 1, System 2. Right?",
+   "zh": "是的，我这学期在加州大学伯克利分校教了一门关于领导力的课程，我们在课上经常讨论这个话题，因为优秀的领导者会培养直觉。这是经验中模式匹配的部分，你会形成一些启发式规则，即使无法解释判断依据，也能做出正确决策。这就是直觉的本质。但正如我所说，这也是偏见的来源——所有认知偏见（维基百科上列举了151种偏见，我就不一一列举了），以及那些误导我们的棘手问题，行为经济学家和社会心理学家研究的这些偏见，都深藏在直觉之中。因此，当你想要验证自己的直觉时，必须采取行动。相信你们许多听众都读过《快慢思维》一书，里面提到的系统1和系统2。对吧？",
+   "ts": "00:29:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I have it here, right under my laptop, actually, holding up my laptop screen.",
+   "zh": "我把书放在这儿了，就在笔记本电脑旁边，举起笔记本电脑屏幕给大家看。",
+   "ts": "00:30:29"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "That's so appropriate, Lenny. So the secret is not that sexy. It's System 2. So you engage that slow, methodical process in which you do analytic thinking as a means of checking your gut. Slow in the grand scheme of things. Slow meaning not a split second decision, not like months of analysis. That's not what I mean. (00:30:54): The other thing you can do, and there's really great research on this, is you bring in the wisdom of the crowd. So the wisdom of the crowd is a phrase a lot of people are familiar with, and it works in a specific situation. The wisdom of the crowd works when the people involved with the decision are bringing diverse sources of information and judgment to the table. Obviously, if everybody has the same sources of information, then it doesn't matter how many people are out there. So if you want to check your gut, get a bunch of different guts together, get a bunch of different people in the room who can bring evidence and intuition to bear, and have an open, direct end kind conversation in which we might disagree. You know who's great at that? Researchers",
+   "zh": "说得太贴切了，莱尼。所以秘诀没那么神秘。就是系统2。所以你要启动那个缓慢、系统化的思考过程，通过分析性思维来验证自己的直觉。在宏观层面上是缓慢的，不是瞬间的决定，也不是数月的分析。这不是我的意思。（00:30:54）：另一个方法——对此有大量研究——就是借助群体智慧。群体智慧这个概念很多人都熟悉，它在特定情境下有效。当参与决策的人能带来多样化的信息和判断时，群体智慧就能发挥作用。如果所有人获取的信息来源相同，那么再多人也没用。所以要验证自己的直觉，就要汇集各种不同的直觉，让不同的参与者带来证据和直觉，进行开放、直接的对话，甚至可能产生分歧。谁最擅长这种对话？研究人员",
+   "ts": "00:30:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Leading those discussions essentially, and getting a bunch of people's opinions.",
+   "zh": "基本上就是主持这些讨论，让大家各抒己见。",
+   "ts": "00:31:38"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah, this is the structural solution I'm talking about, Lenny, is like, \"I never asked for research teams to have their own separate OKRs.\" I said two things, \"Number one, what's the teams? Shouldn't the PMs, the engineers, the designers and the research, everybody should have the same set of metrics for success because either we're doing it together or we're not.\" And then I said, \"My metric for success is when they won't have that meeting without you.\" That's my metric for success. If they cannot have that decision making meeting without the researcher there, that means you've developed influence, strong, trusting relationships, you're an active participant in the process, not just somebody who provides input into someone else's process. And that is when researchers can have huge impact.",
+   "zh": "是的，莱尼，我说的结构性解决方案就是——“我从不要求研究团队有独立的OKR。”我说了两点：“第一，什么是团队？产品经理、工程师、设计师和研究人员不应该有不同的成功标准。” 然后我说：“我的成功标准是，如果没有你，他们就不会开那个决策会议。” 这就是我的成功标准。如果没有研究人员，他们就无法开那个决策会议，那就意味着你建立了影响力，建立了信任关系，你是流程的积极参与者，而不仅仅是为别人的流程提供意见。只有这样，研究人员才能产生巨大影响。",
+   "ts": "00:31:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think of the PM role in a similar way, even though people won't have these meetings with PMs, because they're often at the center of lot of the stuff, but you want to be a PM that people want on their team. There's a lot of teams that are like, \"We don't want and PMs, we don't need product managers. They just get in the way.\" And I find that that's only the case when the product manager's not great, and not really good at their job, because most great PMs just make everyone's life easier.",
+   "zh": "我对产品经理（PM）角色的看法也类似，尽管人们通常不会与PM们开这种会议——因为PM们往往是许多事情的核心人物，但你应该成为那种人们愿意让其加入团队的产品经理。很多团队会说：“我们不需要PM，不需要产品经理，他们只会碍事。”我发现这种情况通常只出现在产品经理能力不佳、无法胜任工作的情况下，而大多数优秀的PM只会让大家的工作更轻松。",
+   "ts": "00:32:29"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "They do. The grease, I-",
+   "zh": "他们确实是。润滑剂，我——",
+   "ts": "00:32:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The grease.",
+   "zh": "润滑剂。",
+   "ts": "00:32:51"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "... love it.",
+   "zh": "……喜欢它。",
+   "ts": "00:32:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned also, before we started recording, that the biggest challenge for user researchers is in their relationship with their product manager. Can you speak to that and what you've seen there?",
+   "zh": "你之前还提到，在我们开始录音之前，用户研究员面临的最大挑战是与产品经理的关系。你能谈谈这一点，以及你所观察到的现象吗？",
+   "ts": "00:32:54"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I'm wary of overgeneralizing, but I can tell you that from my experience and from what I hear, the product research or product insights relationship is one of the most challenged. And I think it comes from the fact that fundamentally, many researchers are just not included in the process that PMs are running. And then, actually, I did some asking around before this podcast, and so I thought, \"There are some tropes that researchers have about PMs that are worth PMs knowing, just like four or five of them, the things that researchers know PMs say, which drive us nuts because they're not true.\" (00:33:51): So the first one is that research just slows us down. Research is too slow. This is bullshit. A great research team can do research in a day, a week, or a month. It just depends on what you want to get out of it, like, \"How much detail do you need? How many people do we need to talk to? What is the depth or breadth? Do we need to go to seven different countries to talk about our constituencies in Latin America?\" Well, that's not going to happen overnight, but we don't often need that. The other way to look at that is that is it slower to get it wrong and fix it than to take a hot second to do the work to get it right the first time? So that's BS. Good research doesn't slow us down, it speeds us up.",
+   "zh": "我不愿意一概而论，但根据我的经验和所听到的情况，产品研究或产品洞察与产品经理的关系是最具挑战性的。我认为这源于一个根本问题：许多研究人员被排除在PM们运作的流程之外。实际上，在这次播客录制前，我也做了一些调查，发现研究人员对PM们有一些刻板印象，PM们应该了解这些刻板印象，比如有四五个常见的误区，这些说法让研究人员抓狂，因为它们根本不真实。（00:33:51）：第一个误区是研究会拖慢进度。研究速度太慢。这简直是胡说八道。一个优秀的研究团队可以在一天、一周或一个月内完成研究。这取决于你希望从中获得什么样的信息，比如“你需要多详细的信息？我们需要采访多少人？研究的深度和广度是怎样的？我们需要去七个不同的国家了解拉丁美洲的用户群体吗？”嗯，这肯定不是一夜之间就能完成的，但我们通常不需要那样做。另一种看法是，犯错后再纠正比花时间把工作做对更慢吗？所以这纯粹是胡说八道。好的研究不会拖慢进度，而是会加速进程。",
+   "ts": "00:33:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And also just along those lines, a big part of your premise is you don't need to do as much research as people are doing, like this middle research that a lot of the time is put into.",
+   "zh": "另外，基于这一点，你的核心观点之一是人们不需要做那么多研究，比如很多时候投入的中间阶段的研究。",
+   "ts": "00:34:36"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah. Research can go super fast. I think especially, so the macro level research, I hope what it is tied to things like annual planning processes. We did a thing at Airbnb several years that we called, it was like Insights 2019, Insights 2020. They were concept car projects. And we spent quite a long time synthesizing the entire year's worth of insights from every place we could get them and then developing with designers and engineers like a concept car for five years in the future. So that's a long process. (00:35:16): But the micro level, there's so much business value to be derived there, so much business value, and it can go so fast, Lenny, it can go so fast. You can have results in 48 hours on these things. We did a thing at Airbnb. There's a famous story which I'll only tell in the abstract, because I don't want to out anything, but we call it the multimillion dollar button. And basically we did research which revealed that people weren't going down the purchase funnel because they were afraid. The calls to actions on the button was making them afraid that it would initiate a purchase when really it was just taking the next step. (00:35:58): We changed the text on the button with help from our amazing content design, our UX writing team. We basically changed seven characters and made Airbnb millions of dollars, because what we found out was really simple. It was just like, \"Hey, this button feels scary. The CTA on the button feels scary.\" So that's a great example of how micro ... And that happened in like 48 hours, we would discover that insight, or overnight, basically. And we were like, \"Hm, maybe we should test some other CTAs.\" We did the conversion, we added like 1%, which is really, really hard to do. So that's a quick example of how that type of quick research can drive a huge amount of business value.",
+   "zh": "是啊。这项研究进展得非常快。我觉得特别是宏观层面的研究，应该与年度规划流程等相关联。几年前，我们在Airbnb做了一个项目，叫做“2019洞察”和“2020洞察”。它们就像概念车项目。我们花了很长时间，整合了全年从各个渠道收集的洞察数据，然后与设计师和工程师一起，为未来五年的发展构思概念车。这确实是个漫长的过程。（00:35:16）但微观层面却能创造巨大的商业价值，进展速度极快，莱尼，真的非常快。你可以在48小时内就得到这些项目的结果。我们在Airbnb做过一个项目。有一个著名的案例，我只想简单提一下，不方便透露细节，但我们称之为“价值百万美元的按钮”。基本上，我们的研究发现用户不愿意进入购买流程，是因为他们心存恐惧。按钮上的行动呼吁让他们误以为点击就会立即购买，而实际上只是下一步操作。（00:35:58）在我们出色的内容设计团队和用户体验文案团队的帮助下，我们只改动了七个字符，就为Airbnb创造了数百万美元的价值。我们发现的问题其实很简单，就是“这个按钮让人感到不安，CTA也让人觉得可怕”。这就是微观层面研究的绝佳案例。整个过程只用了48小时左右，我们就发现了这个洞察，或者说是一夜之间发现的。然后我们就想，“嗯，也许我们应该测试其他CTA”。我们进行了转化测试，转化率提升了1%，这可真是难上加难啊。这就是快速研究如何能创造巨大商业价值的一个小例子。",
+   "ts": "00:34:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Ahrefs. Many of you already know Ahrefs as one of the top tools for search engine optimization. It's used by thousands of SEOs and companies like IBM, Adidas and eBay. What you may not know is that there's a free version that was made with small website owners in mind. It's called Ahrefs Webmaster Tools. It's free and it can help you bring more traffic to your website. Ahrefs Webmaster Tools will show you keywords that you rank for and backlinks that you can get. It also performs automated site audits to find what issues prevent your website from ranking higher on Google. Every detected issue comes with a detailed explanation and advice on how to fix it. Visit ahrefs.com/awt, set up a free account, connect your website, and start improving it. That's A-H-R-E-F-S.com/A-W-T. (00:37:29): So just to make this even clearer, I think this middle research zone is the stuff that does slow people down, I imagine. It's like, \"What are the challenges hosts have with payments on Airbnb?\" What you're basically saying is, \"Spend your time doing the micro stuff like usability research and then the bigger stuff that's part of overall planning. That's part of the planning cycle. It's not like every project you're working on, you need to have a whole research project on.\"",
+   "zh": "本期节目由Ahrefs赞助。你们很多人都知道Ahrefs是搜索引擎优化领域的顶级工具之一。它被数千名SEO从业者和IBM、阿迪达斯、eBay等公司广泛使用。但你们可能不知道的是，有一个免费版本是专为小型网站所有者设计的。它叫Ahrefs Webmaster Tools。免费版能帮助你为网站带来更多流量。Ahrefs Webmaster Tools会向你展示你排名靠前的关键词和可以获取的反向链接。它还会自动进行网站审计，找出阻碍你的网站在谷歌上获得更高排名的问题。每个检测到的问题都会附带详细的解释和修复建议。访问ahrefs.com/awt，注册免费账户，连接你的网站，开始优化吧。网址是A-H-R-E-F-S.com/A-W-T。（00:37:29）所以更明确地说，我觉得这个中间研究区是会拖慢人们进度的地方，我能想象得到。比如，“Airbnb上的房东在支付方面遇到哪些挑战？”你基本上是在说：“把时间花在微观层面的研究上，比如可用性研究，然后再做宏观层面的规划。这些都是规划周期的一部分。不是说你做的每个项目都需要开展一整套研究项目。”",
+   "ts": "00:36:39"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Exactly. The micro research should be much more common. A lot of researchers think that that's scut work, that usability is something junior researchers do. I completely disagree. I think we need to get back there as an industry and be like, \"When you make a product easier to use, when you discover problems with functionality, business metrics we care about will go up.\" I've seen it happen. But that's not just work for interns and new grads, that's for sure. (00:38:24): And then the planning process, absolutely. If we're integrated from beginning to end, we can help. And the thing about that middle range, I think you're right. That's the stuff that makes the stereotype that research is slow, and a lot of times it's also because it's just not pointed enough. The researcher can also say in that moment, \"I have studied the business plan. I know exactly where, I've seen the metrics trend, I have an idea about exactly where that's going to go.\" We still need to do that middle range research. The question is valuable, but it's now very pointed and the time is worth it.",
+   "zh": "确实如此。微观研究应该更普及。很多研究者认为这只是些琐碎工作，认为可用性测试只是初级研究者的职责。我对此完全不认同。我认为我们整个行业需要回归初心，应该意识到：当你让产品更易用时，当你发现功能缺陷时，我们关心的商业指标就会提升。我亲眼见证过这种效果。但这绝不是实习生和应届生的专属工作，这一点毋庸置疑。（00:38:24）至于规划流程，绝对如此。如果我们能从始至终全程参与，我们就能提供帮助。关于中间环节的研究，我认为你说得对。这正是人们认为研究进展缓慢的根源，往往也是因为目标不够明确。研究者可以在那个关键时刻说：“我研究过商业计划书，清楚问题的症结所在，我已经看到数据趋势，我对未来的发展方向有清晰的把握。”我们仍然需要进行这种中间环节的研究。这种质疑是有价值的，但现在需要更有的放矢，时间成本也值得投入。",
+   "ts": "00:37:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay, I want to cure the rest of these tropes.",
+   "zh": "太棒了。好的，我要把剩下的这些刻板印象都消除了。",
+   "ts": "00:38:58"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Okay, research is too slow is the first one. The second one, I can do my own research. Why do I need researchers? And that's true, as product people, I hope you are engaging with customers and listening well. But no offense, garbage in, garbage out. The thing is, anyone can talk to a user. That does not constitute research or insights work because one user can be powerful, but one user can be idiosyncratic. And a researcher knows how to get to the heart of that really quick. They know how to take that conversation, and understand, and situate it in a way which means like, \"Sure, democratize research. That's happening. There are tools out there that will let anybody get customer feedback, voice a customer type stuff.\" But a researcher is there to help you turn garbage into something that's not garbage and avoid the bias that can come from you just reaching out to your cousin's family and then doing whatever they thought you should do to the product. So that's the second trope. (00:40:08): The third one is AB test everything. And AB tests are great, but one of my most painful things to do is to sit in a room full of PMs and data scientists who have just seen the results of an experiment that flipped a stat sig, and then they're like, \"Cool, I was significantly down over this course of time for these users.\" And then they just start speculating about why that is, because the AB test rarely tells you why it changed in the way it did. And then this endless flywheel of AB testing goes and I'm like, \"Hey, you don't have to guess. I know somebody who can get you an answer or at least evidence that addresses the question of why did we see the test result we did in a very short amount of time? Or you could use your customers as Guinea pigs, and throw more experiments at them over and over, and spend a long time on it, and come to the same place in the end.\"",
+   "zh": "首先，“研究太慢了”这个刻板印象。第二个是“我自己就能做研究，为什么还需要研究者？”这确实没错，作为产品经理，我希望你们能积极与客户沟通，认真倾听。但恕我直言，鱼目混珠。任何人都能和用户交谈，但这并不等同于研究或洞察工作。一个用户可能是很有代表性的，但也可能是个例。研究者知道如何快速抓住核心问题，他们能把对话内容提炼、理解，并以一种系统化的方式呈现。比如，“是的，让研究民主化。这正在发生。市面上有工具能让任何人获取客户反馈，收集用户意见等。” 但研究者的作用在于帮你把“垃圾”转化为有价值的信息，避免因盲目采纳亲戚的建议而导致的偏见。因此，这是第二个刻板印象。（00:40:08）第三个是“AB测试万能”。AB测试固然很棒，但我最头疼的事，就是坐在一屋子PM和数据科学家面前，看着实验结果显示统计显著性，然后他们兴奋地说：“酷，我们的用户在这段时间内明显下滑了。” 接着他们就开始猜测原因，因为AB测试很少能解释结果为何会发生这样的变化。然后这种无休止的AB测试循环继续下去，我就会说：“嘿，你们不必猜测。我认识能在短期内为你们解答疑惑的人，或者至少能提供证据说明为什么我们会看到这样的测试结果？或者你们可以把用户当成实验小白，一遍又一遍地进行实验，耗费大量时间，最终得到相同的结论。”",
+   "ts": "00:39:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think a similar critique that PMs often have is AB testing is conclusive scientifically, statistically, user research is just talking to a bunch of people. Why would I trust that? What is your best way to help PMs realize that this is actually very valuable data and you should listen to it? It's not just, you know, a story here and there.",
+   "zh": "我认为PM们常有的批评是AB测试在科学和统计上是确定性的，而用户研究只是和一群人聊天。我该如何让PM们意识到这其实是很有价值的数据，他们应该认真对待呢？这不只是偶尔的零星案例。",
+   "ts": "00:41:03"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah. No, I think they're both right. AB testing is as close as we can get to making causal claims about products. Research is usually not oriented towards making causal claims or it should not be, but those causal claims rarely tell you how and why things happen. And if you want to not make that mistake again in the future, you need to know how and why. If you want to build a better product in a way that doesn't just answer this narrow question that an AB test answered, you need to know how and why. And so you need both. Beautiful partnerships between data scientists and research and insights people are, I think what we're going to see in that next evolution. And if you set that virtuous cycle up, if you set up the engagement where those people are involved from the beginning, you don't make those mistakes. You get the causal relationship, which is valuable for one reason and the hows and whys, which are valuable for other reasons.",
+   "zh": "是的。不，我觉得两者都对。AB测试是我们尽可能接近对产品进行因果关系主张的最佳方式。研究通常不以提出因果关系主张为导向，或者说不应该以此为目标，但这些因果关系主张很少能告诉你事物是如何发生的以及为何会发生。如果你想未来不再犯同样的错误，你就需要了解其中的因果机制。如果你想开发出不仅能回答AB测试所回答的那个狭隘问题的更优质产品，你就需要了解其中的因果机制。因此，两者缺一不可。我认为，在下一次产品进化过程中，数据科学家与研究及洞察人员之间将形成美好的合作关系。如果你能建立起这种良性循环，如果能从一开始就让这些人员参与其中，那么你就不会犯那些错误。你能获得因果关系，这对一方面很有价值；而因果关系背后的原理与逻辑，对另一方面也很有价值。",
+   "ts": "00:41:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. I think there's two more tropes you had.",
+   "zh": "太棒了。好的。我觉得你还有两个常见的误区。",
+   "ts": "00:42:19"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "One of them is a simple one, which is like everyone loves to quote that it turns out a totally apocryphal Henry Ford quote about, \"If I'd asked my users.\" It turns out to the best of our knowledge, he did not say that. And-",
+   "zh": "其中一个很简单，就是大家都喜欢引用亨利·福特那句完全虚构的名言：“如果我当初询问用户意见的话……”。据我们所知，他根本没说过这句话。还有——",
+   "ts": "00:42:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Really? What?",
+   "zh": "真的吗？什么？",
+   "ts": "00:42:35"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah, I know. Isn't that sad?",
+   "zh": "是啊，我知道。多可悲啊。",
+   "ts": "00:42:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I didn't know that.",
+   "zh": "我不知道这事。",
+   "ts": "00:42:36"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I know. Sorry to burst your bubble, Lenny.",
+   "zh": "我知道。抱歉让你失望了，莱尼。",
+   "ts": "00:42:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哇哦。",
+   "ts": "00:42:40"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Who was-",
+   "zh": "谁——",
+   "ts": "00:42:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Does anyone say anything? I feel like every quote is-",
+   "zh": "有人提过这事吗？我感觉每个引语都是——",
+   "ts": "00:42:41"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Is apocryphal, now? I know.",
+   "zh": "虚构的？我知道。",
+   "ts": "00:42:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. What is reality? Geez, can we? Well, let's just-",
+   "zh": "是啊。现实到底是什么？天哪，我们能做到吗？好吧，那我们就——",
+   "ts": "00:42:46"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Okay, maybe he said that. He certainly believed that. That's what the historians say. But the reason that makes researchers so angry is because that's not research. That's not what researchers do. A researcher who's going to ask customers what they want is a bad researcher. You need a different researcher. I've never done that in my career. No one on my team has ever run a study that's like that. So that just makes researchers mad. (00:43:16): And then the last one is about post-hoc bias. It's, \"We knew this already. That was obvious.\" And I think a lot about this book, which I would recommend to your listeners. The author is a sociologist at UPenn named Duncan Watts, and the title is Everything is Obvious If You Already Know the Answer. And it's about hindsight bias. He makes the argument that we rely too much on intuition, heuristics, and pattern matching in a way that is inappropriate to our experience. And it's like it leads us astray. It's like a form of self gaslighting. And it happens because we end up selectively remembering things and then constructing narratives around them in a way which makes us feel like we already knew that, when we in fact did not. (00:44:05): And he talks about this other, one of those cognitive biases called the narrative fallacy, which is the idea that people love to make convenient, simple stories about the past. If I asked you about your career, Lenny, and how you got to be this amazing podcast host, you'd be like, \"Well, let me tell you about this series of events.\" And we do that. It's part of how we make sense of our lives and the information around us, but it would probably be a lie in the sense that we all twist the evidence we have to fit the narrative we want to be true, because it's simple, and lovely, and makes us happy.",
+   "zh": "好吧，也许他是这么说的。他确实这么认为。历史学家们是这么说的。但让研究者们最生气的是，这根本不是研究。这不是研究者该做的事。一个去问客户他们想要什么的研究者，是个糟糕的研究者。我们需要另一种研究者。我职业生涯中从未这么做过。我的团队里也没有人做过这样的研究。所以这真的让研究者们很生气。（00:43:16）：最后一个话题是事后偏差。就是“我们早就知道了。这很明显。”我经常想起这本书，我推荐给听众。作者是宾夕法尼亚大学的社会学家邓肯·沃茨，书名叫《如果你已经知道答案，一切就显而易见了》。书里讲的是后见之明偏差。他认为我们过度依赖直觉、启发式思维和模式匹配，这种做法与我们的经验不符。它会让我们误入歧途。这是一种自我欺骗。这种情况之所以发生，是因为我们会选择性地记住一些事情，然后围绕这些事情编造故事，让自己觉得自己早就知道了，而实际上并非如此。（00:44:05）：他还谈到另一个认知偏差，叫叙事谬误，就是人们喜欢把过去编织成简洁、美好的故事。比如，如果我问你职业生涯如何成为如此出色的播客主持人，你可能会说：“嗯，让我给你讲讲这一系列事件吧。”我们都会这么做。这是我们理解生活和周围信息的方式，但从某种意义上说，这很可能是谎言，因为我们总会扭曲现有证据来符合自己希望成立的叙事，因为它简单、美好，让我们开心。",
+   "ts": "00:42:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This is going to sound self-serving, but I find I'm the opposite. I'm like, \"I have no idea how this all came about. Here's some things that happened, and somehow I ended up here.\" But maybe I'm being very modest and try to not give myself any credit.",
+   "zh": "这听起来可能有点自吹自擂，但我恰恰相反。我会说：“我根本不知道这一切是如何发生的。这里发生了一些事，然后不知怎么我就到了这里。”但也许我太谦虚了，不愿居功。",
+   "ts": "00:44:36"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "That's beautiful.",
+   "zh": "太棒了。",
+   "ts": "00:44:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you for these tropes, by the way. This was fun. I didn't know you were going to do that. So that's a fun, little collection we've got, here.",
+   "zh": "谢谢你分享这些比喻。很有趣。我不知道你会这么做。所以我们收集了一堆有趣的小例子，放在这里。",
+   "ts": "00:44:50"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Thanks.",
+   "zh": "谢谢。",
+   "ts": "00:44:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I wanted to ask about, there's this tweet by Patrick Collison that I've brought up a couple of times on this podcast, that I think is really interesting. And his tweet is this, \"In my opinion, the best product will stem from a very strong mental model of the domain and user. User research can help you get such a model and validate it along the way. But it's important to view the syllogism of UXR as model of user research, to improving your mental model of the user, to what product you should build versus user research tells you what product to build.\" Does that resonate in any way thoughts on that way of thinking about user research?",
+   "zh": "我想问一下，有关帕特里克·科利森的推文，我在播客里提过几次，我觉得很有意思。他的推文是：“在我看来，最好的产品源于对领域和用户非常强大的心理模型。用户研究可以帮助你获得这样的模型，并在过程中验证它。但重要的是，要把用户体验研究的三段论看作是用户研究模型，进而改进你对用户的心理模型，再到你应该开发什么产品——而用户研究会告诉你应该开发什么产品。” 你对这种思考用户研究的方式有什么共鸣吗？",
+   "ts": "00:44:56"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah, there's a double-edged sword we talk about a lot in the research community, which is about making recommendations for design. So the best research doesn't leave it at that. It tells you, and it's like the what, the so what, and then the then what. But the problem with that is some researchers go too far in the other direction, where they're like, \"We ran this study, it yielded these insights, and therefore this is what we should build.\" And everyone else on the team is like, \"Whoa, whoa, whoa. Glad to hear your thoughts on the matter, but there's a lot going on here. Maybe we should talk about it.\" And that makes perfect sense. That's a failure of communication. (00:46:19): And I think that speaks to the thing that Patrick is saying, is like, \"Good research can sometimes tell us exactly what the problem is and exactly how to fix it.\" An example of that is the multimillion dollar button I told you about. But in a lot of the bigger picture questions, especially the macro ones and maybe also the really pointed middle range ones, the point isn't really, \"This is exactly what we should do and this is exactly what we should build.\" It is, \"Let us develop a framework which is based on actual evidence, and then together as a team figure out how we want to experiment our way to a successful product.\"",
+   "zh": "是啊，在研究领域，我们常提到一把双刃剑，那就是设计建议的提出。最优质的研究不止于此，它会告诉你问题所在，指出其深层原因，并给出后续行动方案。但问题在于，有些研究者会走向另一个极端，他们会说：“我们做了这项研究，得出了这些见解，所以我们应该据此设计产品。”而团队中的其他人会说：“等等，等等。很高兴听到你的想法，但这里还有很多需要探讨的地方。”这完全合理。这就是沟通不畅的表现。（00:46:19）我认为这正应了帕特里克所说的：“优秀的研究有时能精准指出问题所在，并给出解决方案。” 比如我提到的那个价值数百万美元的按钮案例。但对于更宏观的问题，尤其是宏观层面的问题，或许还有一些更具针对性的中级问题，关键不在于“我们应该这样做，应该设计这样的产品”，而在于“让我们基于真实证据构建一个框架，然后团队共同探讨如何通过实验实现成功的产品。”",
+   "ts": "00:45:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To close the loop on this specific thread, what is your advice to teams, researchers to help move out of this reckoning, and to move forward, and help the field, both from a user researcher perspective and also from just a company that maybe laid off a bunch of user researchers or is trying to decide what to do with their researchers?",
+   "zh": "回到这个具体话题，你对团队和研究者有什么建议，能帮助他们摆脱这种困境，继续前进，并为整个领域做出贡献？无论是从用户研究者的角度，还是从那些裁减了大量用户研究者，或正试图决定如何安置现有研究者的公司的角度来看。",
+   "ts": "00:46:53"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Thank you for asking. I think I said to you earlier, and I feel some pressure as maybe the first conversation that you've had specifically about research on this podcast.",
+   "zh": "感谢你的提问。我想我之前跟你说过，作为这个播客上首个专门讨论研究的嘉宾，我感到有些压力。",
+   "ts": "00:47:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I think so.",
+   "zh": "是啊，我也这么觉得。",
+   "ts": "00:47:23"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "And I want to help. I believe so much in this discipline of research and insights, and I think when I said, \"The UX research discipline of the last 15 years is dying,\" I didn't mean that I think research is dying, far from it. I think that there's a version of it, which we're now moving past and into a new version. We're going through an evolution, as many do. And so the question for me is like, \"How can researchers, and the companies, and the other people with whom they work create a new version, a different version, an evolution, which is hugely impactful for the business?\" (00:47:57): And so the advice I'd give to researchers about that is develop diverse research skills. Remembering the five or five and a half tool list that I mentioned earlier, really go deep on that business knowledge, so speaking the language of product, and business, and metrics, and understanding exactly how to use your insights like a scalpel, building those strong relationships, which is not a thing that researchers can do by themselves. It requires two-way engagements, and also in a way which allows researchers to do fewer things better. (00:48:30): So most researchers that I know are working on teams where they're like, \"I'm the only researcher, and I have seven PMs and 20 designers, and I'm trying to do 10 projects.\" And no one's going to do a good job that way. So researchers have to learn with their partners about how to say no and focus on the most important things. But that's only half of it, right? That's the research side. (00:48:51): I have two thoughts about what companies should be doing. The first one, it's a little bit of an aside, but not really. One thing I learned by through the responses to the article was everybody came out of the woodworks from the variety of insights disciplines that are out there. Because I come from a tradition of user experience research or user research, but there are many insights disciplines in many industries, and they all wanted to claim one type of research or another, and say, \"Oh, well, we overhear in consumer insights or market research have been doing that well for years.\" And there are many insights disciplines. And generally I think creating silos is stupid. (00:49:33): Actually, I'm curious what you think, because here's the number one thing I heard when I joined Airbnb and you were there, is I did it a quick listening tour where I talked to a bunch of product people. And they all said the same thing. They were like, \"Listen, we have all these different people throwing insights over the transom. And it's great. We want to hear from the data scientists, from the product specialists, from the customer service people, and the voice of the customer, whatever, all that stuff. But they're all coming over the side and we don't know what to make of it. It's too much.\" (00:50:03): And that, as much as anything, is an argument for companies to stop siloing research disciplines. So when I joined Airbnb, I set out to create an integrated insights function where it's like, \"Let's do UX research, let's talk about the market and competitors when we have to. Let's integrate smartly with data science functions. Let's integrate all the stuff we're getting from customer service feedback.\" We brought over what was then the NPS program and said, \"Hey, if we're getting customer feedback there, let's all just use it all to fuel this one insights machine.\" So that's the first piece of advice I'd give companies. (00:50:38): And the second one, without being a broken record, is to think differently about the broken cycle. So integrate researchers into a unified, lean process. So if the researcher is not there from beginning to end, if there are not strong relationships between product people and design people at every level, engineering people at every level, and somebody who's their insights partner, we're going to fall back into this problem where we're just a service discipline, we're not extracting the maximum value, it comes too late, we don't know what questions to ask, we're ignorant about what research can do. And so creating that integrated, lean process where a researcher is arm in arm from the beginning, is the most important advice I'd give.",
+   "zh": "我想帮助大家。我对研究与洞察这门学科深信不疑，但当我说\"过去15年的用户体验研究学科正在走向衰落\"时，绝不是说研究本身正在消亡——远非如此。我认为当前版本的研究正在被淘汰，我们正迈向一个全新的阶段。正如许多行业经历的演变过程一样，对我来说，关键问题在于：研究者、企业以及与他们合作的各方如何共同创造一个全新的、影响深远的研究范式，从而为业务带来显著价值？（00:47:57）  \n针对这一挑战，我的建议是培养多元化的研究技能。回想我之前提到的五种或五个半半的工具清单，务必深入掌握商业知识——学会用产品、商业和数据的语言交流，理解如何将洞察像手术刀般精准运用，建立牢固的合作关系——这绝非研究者单枪匹马能完成的任务。它需要双向沟通，同时让研究者能够专注于更少但更高效的任务。（00:48:30）  \n我认识的大多数研究者身处这样的团队：\"我是唯一的研究者，团队里有七位产品经理和20位设计师，我还要同时推进10个项目。\"这种模式注定难出佳作。研究者必须与合作伙伴共同学习如何说“不”，并专注于最重要的事务。但这只是问题的一半，另一半在于研究者自身。（00:48:51）  \n关于企业应如何行动，我有两点思考。第一点看似离题，但实则不然。通过文章评论，我发现各洞察领域的从业者纷纷站出来，比如用户体验研究、消费者洞察、市场调研等，他们都试图将某种研究类型据为己有，声称\"我们在消费者洞察或市场研究领域多年来就擅长这些\"。实际上，各洞察领域众多且彼此割裂，形成隔阂实属愚蠢之举。（00:49:33）  \n我很好奇您的看法。当年我加入Airbnb时，曾快速走访多位产品人员，他们的共识是：\"各部门纷纷抛出洞察，但信息量过大，杂乱无章。我们想听数据科学家、产品专家、客服人员的声音，但这些碎片化信息让团队无从下手。\"（00:50:03）  \n这恰恰说明，企业亟需打破研究学科的割裂壁垒。我在Airbnb的首要任务是打造整合型洞察体系：开展用户体验研究，必要时跨界研究市场与竞争对手；与数据科学团队深度协作；整合来自客服反馈的各类洞察。我们接手了当时的NPS项目，提出\"将客户反馈统一输入同一洞察引擎\"的策略。这是我给企业的首要建议。（00:50:38）  \n第二点建议同样重要：突破固有思维模式。\n将研究人员纳入一个统一、高效的流程之中。因此，如果研究人员并非自始至终参与其中，如果产品团队与设计团队、各级工程团队之间缺乏紧密协作，或是缺少能充当他们洞察伙伴的人才，我们就会重蹈覆辙——研究只沦为一种服务性学科，无法充分挖掘其价值，成果往往出现得太晚，我们不知道该提出哪些问题，且对研究的潜力一无所知。因此，构建一个从始至终紧密协作的整合型高效流程，才是我能给出的最重要建议。",
+   "ts": "00:47:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That last piece may be the answer to this next question, but the question is how can product managers be better partners to user researchers/get more leverage out of user researchers?",
+   "zh": "最后那部分或许能解答下一个问题，但关键在于，产品经理如何能更好地与用户研究员合作/从用户研究中获取更大价值？",
+   "ts": "00:51:19"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I think that is in many ways the answer, making sure that they are creating a process for the product, for their products, that it integrates user researchers and insights from beginning to end. Also, being willing to partner with the research on the roofless prioritization. I used to say that, \"A full plate for a researcher was probably three things, two big projects and a small project, like a side project. More than that, your researcher is probably not doing a very good job. And a project may take 48 hours. That's okay. But so they need your help to prioritize, they need you to participate. Great PMs will take the time to be with researchers to go into the field, even to travel.\" Did you ever do that, Lenny?",
+   "zh": "我认为答案在于多方面——确保为产品、为他们的项目建立一个从始至终都整合用户研究员及研究洞察的流程。此外，愿意在无边界优先级排序上与研究团队合作。我曾说过，\"一个研究员的满负荷状态大概是三个项目：两个大项目和一个小项目，比如副业项目。超过这个量，说明研究员可能没做得很好。一个项目可能需要48小时。这没关系。但他们需要你帮忙排优先级，需要你参与其中。优秀的产品经理会抽出时间陪研究员去做实地调研，甚至出差。\" 你有过这样的经历吗，莱尼？",
+   "ts": "00:51:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I did. I went with Louise, who introduced, we came up with this, basically told me to chat with you about this topic.",
+   "zh": "有过。我和路易丝一起去的，她介绍了我们。她基本上让我来和你们聊聊这个话题。",
+   "ts": "00:52:15"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Thanks, Louise.",
+   "zh": "谢谢，路易丝。",
+   "ts": "00:52:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thanks, Louise. We did a whole tour to Paris, our whole team, or the leads of our team went to Paris to do a bunch of focus groups and a bunch of user research behind actual mirrors. I've never done that before that trip, and it was amazing. We learned a ton.",
+   "zh": "谢谢，路易丝。我们整个团队去了巴黎，团队领导们去巴黎做了一系列焦点小组和真实镜像背后的用户研究。在那次行程前我从未有过这样的经历，收获非常大。我们学到了很多。",
+   "ts": "00:52:24"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Can I tell you a quick story about behind the mirror?",
+   "zh": "能给我讲个关于镜像背后的快速故事吗？",
+   "ts": "00:52:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Please.",
+   "zh": "请讲。",
+   "ts": "00:52:40"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "This is back from when I was at Facebook. And there was the high times there, it was like 2012, '13, and newsfeed is really taking off, ads are going into newsfeed. And I was a leader of a team that was working among other things on how to address post quality. Like, \"How do we think about what's a good post and how do we get feedback about it?\" And so there was a team of engineers that thought, \"One thing that you can do on Facebook is hide a post.\" So they were like, \"This is easy. Let's look at the posts that are hidden the most and use that as the signal of what's a good post on Facebook?\" Seems reasonable. And something tripped me on this one. And so I did two things. (00:53:26): So the first thing I did is I looked at the distribution of hiding by user, and found out that it's power law distributed, like everything on the internet. There are a few people on Facebook who hide a ton, and then most people don't hide at all. And so then what we did was, we call these super hiders, we called them super hiders. And so we said, \"Let's find super hiders around the office, and we'll get a super hider in, and we'll do a really traditional user interview.\" We just wanted to see. So literally the first person who walked in, I remember, because this was a person who had those fingernails that are so long, you don't know how they can do touchscreens, but they did. They were amazing at it. And it was one of those rooms with the glass. And I insisted that the ENG directors, the product people, and they were willing, whatever. (00:54:20): So everybody's behind the glass, and I'm there with them, and the excellent researcher is in the room, and they come in, and we're just doing a traditional think aloud study. And so they go, \"Hey, can you open up your Facebook app? We would just love to see what your experience is like.\" So they open up Facebook, and were looking, and they look at the first story, and they hide it. They go to the second story and they hide it. And this went on for a while. (00:54:43): And she's definitely using Facebook, but every time she'd finish with a story, she'd hide it. And the people in the back room were starting to chatter. And they're like, \"Wait, what? What is happening right now?\" And like the good researcher that this person was, they let it continue, and they're like, \"Whoa, can you tell me what you're thinking right now?\" Come to find out that she was like, \"Well, I hid that story because I'd seen it already.\" The model she was going for was inbox zero, which was sad, because it was infinitely scrolling. She would never get there. (00:55:16): And the reason I liked that story is because the people in the back room had their minds blown. It was not that we assumed that was common behavior, like this person could have been unique, but it was enough, because those people were there, experiencing the research, that N of one allowed them to burst their own bubble and realize, \"Okay, we can't think so naïvely about hides as a signal anymore.\" And we came up with a better solution.",
+   "zh": "这是关于我在Facebook工作的经历。当时正值2012、2013年左右，新闻推送功能如日中天，广告也开始大量涌入平台。我当时领导的一个团队，负责研究如何提升帖子质量，比如\"如何定义优质帖子，以及如何获取用户反馈\"。当时有个工程师团队提议：\"用户可以通过隐藏帖子来表达不满。何不参考被隐藏最多的帖子，将其作为优质内容的评判标准？\"这个思路看似合理，但我却发现了其中隐患。于是我做了两件事：（00:53:26）首先，我分析了用户隐藏帖子的分布规律，发现其呈现幂律分布——和互联网上的多数现象类似。Facebook上有少数用户频繁隐藏帖子，而绝大多数人几乎从不隐藏。于是我们找来这些\"超级隐藏者\"，进行传统用户访谈。记得第一位访谈对象指甲超长，却能熟练操作触摸屏，令人惊叹。整个访谈在玻璃隔间进行，我坚持让工程师、产品经理等全程旁观。（00:54:20）访谈过程中，用户打开Facebook，不断隐藏推送内容，直到最后坦言：\"我已经看完所有帖子，现在只想隐藏它们。\"这让后台团队目瞪口呆。原来她对每个帖子看完后都会隐藏，完全不符合我们预期的用户行为模型。",
+   "ts": "00:52:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is an awesome story and such a good example of you don't need statistical significance to get massive insights. One example just gives you a, \"Wow, this might be exactly what's happening. Let's go validate that.\" Versus, like, \"We are confident, 100%, this is what happened.\" I love that. It reminds me actually in the mirror study that I was talking about in Paris, there's a Facebook element to it, too. We were trying to convince hosts how to feel more comfortable accepting guests who are booking instantly. And one of our theories was if they were connected on Facebook, they would be more comfortable letting someone book instantly.",
+   "zh": "真是个精彩的故事，也是个绝佳的例子，说明你无需统计学意义就能获得重大洞察。一个例子只会让你感叹：“哇，这可能就是实际情况。我们去验证一下吧。”而不是那种“我们百分之百确定，这就是事实”的态度。我很喜欢这种思维方式。这让我想起我在巴黎提到的镜子研究，其中也涉及到Facebook元素。我们当时试图让房东更愿意接受即时预订的客人。其中一个理论是，如果房东在Facebook上互为好友，他们会更愿意让别人即时预订。",
+   "ts": "00:55:47"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:55:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And we're just like, \"Hey, what if you were to connect Facebook and see if they're friends?\" And everybody in Paris was very afraid of connecting and giving Facebook any data, way ahead of what the US hosts were feeling.",
+   "zh": "我们就说：“嘿，要是能把Facebook账号关联起来，看看他们是否是好友呢？” 但巴黎的房东们对关联Facebook数据非常抗拒，远比美国房东担忧得多。",
+   "ts": "00:56:21"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:56:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So it just made it very clear nobody wants to actually give Facebook any data. So it was very anti-Facebook at that point.",
+   "zh": "这充分说明没人愿意把数据交给Facebook。当时整个欧洲都对Facebook持反感态度。",
+   "ts": "00:56:34"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah, that's so interesting. Germany and France were always our bellwethers for what the rest of the world would be thinking with data privacy concerns.",
+   "zh": "是啊，这太有意思了。德国和法国一直是我们观察全球数据隐私担忧趋势的风向标。",
+   "ts": "00:56:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, man. Okay, a couple more things. A lot of this started with a lot of layoffs within user research. And I think between the lines, there's a sense of teams don't need as many researchers as they hired during the ZIRP era. I think a question in everyone's mind is just like, \"How many researchers do we need? What is a good ratio?\" I imagine there's not a simple answer, here, but just what's your general advice to companies of how many researchers is it right?",
+   "zh": "天哪。好吧，还有几点想说。这一切始于用户研究部门的大规模裁员。其实字里行间透露出一个信号：团队对研究人员的需求量已远低于零利率时代招聘的规模。大家都在思考一个问题：“我们到底需要多少研究人员？合理的比例是多少？” 我想这没有标准答案，但你对企业有什么建议吗？研究人员的合理配置应该是怎样的？",
+   "ts": "00:56:49"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "This is a thing I've thought a lot about, especially in my role as the head of the design studio, that was my fundamental question. It's like, \"You have all these writers, designers, researchers, how do you structure them, how many, and where, and who works on what?\" And the organizing principle for me was always relationships. You know you have enough when the people who need to have a concept research partner have them. And I would much rather create pain in that situation than spread someone too thinly. So my advice was always like, \"Don't try to create a researcher to cover this entire product space. Pair a researcher up with somebody who's going to involve them in a consistent, engaged process, and let them go to work, and see the impact they're going to have, but protect their time. And then other people are like, \"Wait a second, that person's doing great work. I want some of that.\" (00:58:02): And creating that pain for them, because it's a pain of loss, is the number one way to grow headcount. That's how I always approached getting more headcount, was not arguing abstractly for why research is important, but by asking partners who wish they had it, to do the arguing for me. And so you're right, there isn't a clean answer for like, \"Hey, this is the right ratio,\" because it really depends on the nature of the product. Like, \"Is it a early stage product? Is it a late stage product? Are we talking about a startup or a late stage company?\" But I would argue there's always room for a researcher. Lenny, I'll tell you, and I used this in a keynote talk I gave lately. You published recently a list of, I think it was about 20 B2B companies and their first 10 employees. Do you remember doing that?",
+   "zh": "这是我深思熟虑过很多次的问题，尤其是在我担任设计工作室负责人时，这始终是我的核心疑问。比如，“你手下有这么多作家、设计师、研究员，如何合理分配资源？人数多少？分布在哪里？谁负责什么工作？”对我来说，组织原则始终围绕人际关系展开。当需要研究伙伴的人能顺利找到合适人选时，你就知道团队配置是合理的。相反，我宁愿制造些痛苦，也不愿让团队成员过度分散精力。所以我的建议一直是：“别试图为整个产品领域配备研究员。让研究员与能持续参与项目、积极互动的人搭档，让他们发挥作用，同时保护他们的工作时间。然后其他人会说，‘等等，那个人工作成果太棒了，我也想要这种资源。’” （00:58:02）为他们制造这种“失去的痛苦”感，才是增加团队规模的首要方法。我获取更多人力的策略，从来都不是抽象地论证研究的重要性，而是让那些渴望研究资源的合作伙伴为我代言。确实，没有一个标准答案能说“研究员的最佳比例是多少”，因为这完全取决于产品性质。比如，“是早期阶段产品？还是成熟产品？是初创公司还是成熟企业？” 但我始终认为，每个团队都应该配备研究员。伦尼，我记得你最近在一次主题演讲中提到了20家B2B公司的首批10名员工名单。你还记得这份名单上研究员的数量吗？我给你个提示。",
+   "ts": "00:57:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Absolutely.",
+   "zh": "当然记得。",
+   "ts": "00:58:51"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Do you remember how many researchers are anywhere on that list? I'll give you a hint.",
+   "zh": "你记得名单上任何地方有几个研究员吗？我给你个提示。",
+   "ts": "00:58:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Not too many.",
+   "zh": "不算多。",
+   "ts": "00:58:57"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "It's between zero and two. It's one. There's one researcher on that list, anywhere. Anywhere. And that's messed up to me. Now, look, it's just these 20 companies, and each is in their own space, so I'm not going to overgeneralize. But a researcher can drive incredible value no matter what stage a company is at, because a good researcher makes you go faster, not slower, and they drive impact because they answer questions which are impossible to answer in any other way. That's true if you're a startup. It's true if you're a late stage company. Now, if it's your first 10 employees, one researcher is going to go a long way. As you grow, making sure that you're matching up researchers so that they have strong partners in the key parts of the business is the best way to figure out if you have enough.",
+   "zh": "在0到2个之间。只有一个。名单上任何地方只有一个研究员。这对我来说太不可思议了。现在看吧，这只是20家公司，每家都有各自的业务领域，所以我不会一概而论。但研究员无论公司处于哪个阶段都能创造巨大价值，因为优秀的研究员能加速进程而非拖慢脚步，他们能解决其他方式无法解答的问题。无论是初创公司还是成熟企业皆是如此。现在，如果是你的首批10名员工，聘请一名研究员就能产生巨大影响。随着团队壮大，确保研究员与业务关键部门的强力伙伴形成默契配合，才是判断团队规模是否合理的最佳方式。",
+   "ts": "00:58:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interesting. So your advice is, as you're starting a company, your pitch is that you'll have a lot more leverage and move faster hiring a researcher versus generally an engineers, but you'd be trading off, essentially. That's what most of the hires end up being.",
+   "zh": "有意思。所以你的建议是，在创办公司时，要强调聘请研究员能带来更大杠杆效应、更快推进进程，而相比之下聘请工程师可能弊大于利。这正是大多数招聘决策的核心考量。",
+   "ts": "00:59:45"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I am reluctant to overgeneralize, and I would say I know many founders who are in startup mode are like, \"I know what I need to build. The problem is that I need people who can help me execute.\" And I think that's right. And so everything's a trade off. But remember, imagine that you could have that Swiss army knife at your disposal. Maybe you've got an MVP out the door, and you're looking to make your first major iteration, or like many startups, you need to pivot. This is where it's like, \"Hey, you don't have to do that alone.\" We deify startup founders who pivot appropriately, but I think that is what we would might call moral luck, where we deify the ones who got it right, and even though they made exactly the same decisions as the one who got them wrong. (01:00:46): And the fact of the matter is, if you have an insights person with you who has that Swiss army knife of tools, you're not in it alone. You don't have to guess. Ultimately, it will still come down to a tough decision that you and founders have to make, but you can have evidence that bears on that decision, which you wouldn't be able to get any other way.",
+   "zh": "我不太愿意一概而论，但我要说，我认识许多处于创业模式的创始人，他们会说：“我知道我需要开发什么产品。但问题是，我需要能帮我执行的人。” 我认为这没错。一切都是权衡取舍。但请记住，想象一下你能拥有一把瑞士军刀般的全能工具。或许你已经推出了最简可行产品（MVP），正准备进行首次重大迭代，又或许像许多初创公司一样，需要转型。这时候就需要有人搭把手了。我们神化那些成功转型初创公司的创始人，但我认为这或许可以称为“道德运气”——我们把成功者神化，即便他们和失败者做出了完全相同的决策。（01:00:46）事实上，如果你身边有具备全能技能的洞察专家，你就不是孤军奋战了。你无需再靠猜测。最终，关键决策仍要由你和创始人共同做出，但你可以获得支持决策的证据——这些证据是其他方式无法获得的。",
+   "ts": "00:59:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To close out on this, and I have just a couple more questions on this thread, I think one of your big messages to researchers is, \"You can be empowered. It's up to you to do the right sort of research and to move your career in the right direction, not become a researcher people don't need.\" And there's this quote that you have at the top of your post, where a lot of the reaction, or I guess the way you put it is, \"I know what you're thinking, they just don't get it. We're so misunderstood. Our plight is to deliver insights that users use to drive business value while we're forgotten, never driving the roadmap, no seat at the table, consistently miscast, only to be laid off in the end.\" And what I'm hearing from you is like, \"You can change that. You can push back on doing research that isn't actually contributing.\" But let me ask you, what's your lasting, I don't know, advice you would leave researchers with to be successful?",
+   "zh": "最后，关于这个话题，我还有几个问题。你给研究人员传递的一个重要信息是：“你可以提升自己的价值。关键在于你要进行正确的研究，推动自己的职业发展，而不是成为被市场忽视的研究者。”你在帖子顶部引用了一句话，许多人的反应是：“我知道你们在想什么，他们就是不理解我们。我们太被误解了。我们的使命是提供用户可用的洞察来创造商业价值，却被忽视，既不参与路线图制定，也没有决策席位，总是被误解，最终还要被裁员。” 从你的话中，我听出：“你可以改变这种现状。你可以拒绝参与那些无法创造价值的研究。” 但我想问你：你对研究人员成功的最持久建议是什么？",
+   "ts": "01:01:05"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah, it's tough to be operating in a broken system, and so I feel that response, where you feel kind of powerless, but I think that's not likely to lead us past this moment to the next evolution of research. So that's where it's like I don't blame any researcher at all for being in the spot they're in. It's been a tough go. However, crying about our lot is not going to get us anywhere. So I think the point of the article for me, and this is advice I give companies all the time when I do consulting with them, is like, \"Hey, we can set this up in a different way, which responds to the current environment in a way which will drive a huge amount of impact.\" Now, that takes companies making the right choices. It also takes researchers owning up and developing skills, pushing back, understanding what research can have the most value, developing the skills, and the knowledge, and language around the business, becoming more influential, being excellent communicators. (01:02:55): It's one of the things I would evaluate the most in hiring, especially research leaders, because I needed them to show and teach by example, is like isn't just rigorous research. It's like if a tree fell in the forest and no one was there to hear it, you need to communicate it effectively, and you need to do it in a way that's appropriate to the audience. Because If I'm talking to you, Lenny, it's different than I'm talking to Brian Chesky at Airbnb. And so I got to be able to give that presentation effectively, and get right to the heart of it, and speak the right language. And so if you're a researcher, it's not hopeless. Actually the discipline, the future is so bright, and we can help it along by continuing to develop these different skills as companies build a model that's more inclusive.",
+   "zh": "是啊，在一个支离破碎的系统中开展工作确实很艰难，所以我能理解那种感到无能为力的情绪，但我认为这不太可能让我们跨越当下这个阶段，进入研究的下一个发展阶段。因此，我完全不责怪任何身处困境的研究者。这一路走来确实不容易。不过，抱怨现状并不能解决问题。对我而言，这篇文章的核心意义在于——这也是我为客户提供咨询时一直强调的建议——“嘿，我们可以以不同的方式构建体系，从而适应当前的环境，并创造巨大的影响力”。但这需要企业做出正确的选择，也需要研究者勇于担当、提升技能，敢于反击，深刻理解研究的核心价值，掌握商业领域的专业术语，增强影响力，成为出色的沟通者。\n\n（01:02:55）：这正是我在招聘时最看重的，尤其是招聘研究型领导者时。我要求他们以身作则、言传身教，因为这不仅关乎严谨的研究。就像森林里倒了一棵树，如果没有人听到声音，你就需要有效地传达信息，而且要根据听众的需求选择合适的表达方式。比如对我来说，和莱尼交流与和爱彼迎的布莱恩·切斯基对话的要求截然不同。因此，我必须能有效地进行演示，直击核心问题，用恰当的语言表达。如果你是研究者，一切并非无望。实际上，整个学科前景广阔，而我们可以通过不断提升这些技能，助力企业构建更包容的模式来推动其发展。",
+   "ts": "01:01:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. I have one just random, tangential question about NPS. You have strong opinions about NPS, and I just wanted to hear your perspective on the value of NPS, your experience with NPS.",
+   "zh": "太棒了。好的，我还有个随机、稍微偏题的问题，关于NPS（净推荐值）。你对NPS有很强的看法，我想听听你对NPS价值的看法，以及你使用NPS的经验。",
+   "ts": "01:03:38"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah. I do have a strong opinion about NPS. I like to say, \"NPS is the best example of the marketing industry marketing itself.\" And the problem is this threatens many people's livelihoods, because there's an entire industry of consultants and software providers that want you to believe NPS is a useful and accurate metric. The problem is, the consensus in the survey science community is that NPS makes all the mistakes. So it's a garbage in, garbage out problem. So the likelihood to recommend question is bad for a whole variety of reasons. So it's bad because it's a zero to 11 scale. It's bad because it's usually unlabeled. So we label the polls, but that's not the gold standard for research. It's bad because it's 11 items. (01:04:37): And there's a couple of problems with that. Number one, we find that precision goes down after five items on average, maybe seven. Number two, especially on mobile, if you're taking this survey, what percentage of those options are below the fold? We are not going to get accurate survey data. And so from a survey perspective, it's really bad. There's also this intuition, which is like, \"How likely are you to recommend Windows 11 to your friends and family?\" I am not a person who goes around recommending operating systems. The question is fundamentally flawed. (01:05:11): The argument is that that question is a good indicator of loyalty, but there's a really simple solution, Lenny. Customer satisfaction, a simple CSAT metric, is better. It has better data properties, it is more precise, it is more correlated to business outcomes. I wanted to prove this. This is something that survey scientists know and marketers don't want you to know. And so we did the work with Mike Murakami, who led survey science at Airbnb, and he's still there, great researcher. And we basically redid all that work to find out if all that stuff was true just for Airbnb. And it is. It's simple. Don't ask NPS, ask customer satisfaction",
+   "zh": "是的，我对NPS确实有强烈的看法。我常说\"NPS是营销行业自我营销的最佳典范\"。但问题是，这威胁到了许多人的生计，因为整个咨询行业和软件供应商都想让你相信NPS是一个有用且准确的指标。然而，调查科学界的共识是，NPS存在诸多缺陷。因此，这是一个\"输入即输出的\"问题。因此，推荐意愿问题存在诸多弊端。首先，NPS采用0到11分的评分标准，这本身就存在问题。其次，NPS通常不标注选项，这违背了研究的黄金标准。另外，NPS共包含11个选项，这也是个问题。（01:04:37）这存在两个问题。首先，研究发现平均五个选项后精度就会下降，可能七个选项也是如此。其次，尤其是在移动端，如果你进行这项调查，底部隐藏的选项比例有多高？我们无法获得准确的调查数据。从调查角度看，这确实很糟糕。还有一个直观的例子，比如\"你有多愿意向朋友和家人推荐Windows 11？\"我可不是那种到处推荐操作系统的人。这类问题本质上有缺陷。\n\n（01:05:11）有人认为这个问题能很好地衡量忠诚度，但Lenny，这里有个简单的解决方案。客户满意度（CSAT）指标更胜一筹。它具有更好的数据属性，精度更高，且与业务成果的相关性更强。我想证明这一点。这是调查科学家们都知道的事实，但营销人员却不愿让你知道。因此，我们与Airbnb的调查科学负责人Mike Murakami合作，他至今仍在那里，是位杰出的研究者。我们重新进行了所有研究，验证这些结论是否仅适用于Airbnb。结果确实如此。道理很简单。别用NPS，用客户满意度。",
+   "ts": "01:03:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And the customer satisfaction question, what's the actual question for people to make sure?",
+   "zh": "至于客户满意度问题，具体问题该怎么设计才能确保准确？",
+   "ts": "01:05:50"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Overall, how satisfied are you with your experience with Airbnb? Or it could be some version of that, which is like, \"Overall, how satisfied are you with your experience with customer service when you had a problem?\" So there could be a more specific version of that question, but those questions have better properties. And a lot of people say, \"Well, hey, everybody's using NPS. So at least it gives me a benchmark because I can compare my NPS to industry NPS.\" The problem with that is the research shows that NPS is idiosyncratic, so it goes up and downs in ways that we don't understand, and there's a lot of inconsistency in how it's asked, that creates variations in the data, which means it's not apples to apples, so you can't even compare your NPS meaningfully to somebody else's.",
+   "zh": "总的来说，你对Airbnb的体验有多满意？或者可以改成类似的问题，比如\"当你遇到问题时，客服的服务让你有多满意？\"这样的问题可能更具体。但这些问题具备更好的属性。很多人会说：\"好吧，大家都在用NPS。所以至少它能给我一个基准，我可以把自己的NPS和行业NPS进行比较。\"但研究表明，NPS具有特殊性，波动幅度大且原因不明，提问方式也存在诸多不一致，导致数据差异巨大，无法进行有效比较。",
+   "ts": "01:05:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love these hot takes. I'm curious to see who comes out of the woodwork, too, when-",
+   "zh": "我喜欢这些犀利的观点。也很好奇当——",
+   "ts": "01:06:37"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "People are going to be so mad, Lenny.",
+   "zh": "人们会气疯的，Lenny。",
+   "ts": "01:06:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. I think, yeah, I've heard this many times and people don't talk about it. Okay. Is there anything else you want to share or leave people with before we get to our very exciting lightning round?",
+   "zh": "我喜欢这样。我觉得是啊，我多次听到这种观点，但人们却不谈论它。好的。在我们进入激动人心的闪电问答环节之前，你还有什么想分享或留给听众的吗？",
+   "ts": "01:06:42"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Can I? Yeah, I want to add one thing if I could, because this has come up on your podcast a few times recently, which is about the idea of people doing their own product walkthroughs. So should a PM just rely on their own dog fooding of the product and their own walkthrough to figure out how to fix it? And a couple of times recently this has come up, and I think the consensus seems to be, \"Yes, this is a good thing.\" And I have a contrarian opinion there, too, which is that I think it is really important for everyone to dog food their own products. The problem is related to relying on your intuition about those products, which is the thing most PMs have trouble with is realizing, \"You are nothing like the user. You are nothing like them in ways that will bias the way you think about what's good and bad in your product in ways that you can't necessarily recognize. Some things with a product, some problems with a product, you need a pulse to recognize.\" (01:07:57): And most good PMs that I know have a pulse and so cool. But a lot of them require context of use, priorities, constraints that you just don't have and you can't imagine purely on the basis of your own usage. So what I think that means is that you should definitely dog food your own product. Doing product walkthroughs to identify lists of potential issues is a great thing to do. Prioritizing that list, figuring out which ones are more or less a problem, and for whom is an area where you should be extremely wary of relying on your own opinion, expertise, or intuition when you are dog fooding your own product.",
+   "zh": "我能问个问题吗？好的，我还想补充一点，因为这个话题最近在你的播客里被提过几次，那就是关于产品经理自己测试产品的想法。所以产品经理是否应该完全依赖自己对产品的体验和演示来找出问题所在呢？最近这个话题被多次提起，我觉得大家的共识似乎是“是的，这是一件好事”。但我对此持相反意见，我认为每个人都应该亲自测试自己的产品很重要。问题在于依赖自己对产品的直觉，这是大多数产品经理都遇到的难题——他们意识到：“你和用户完全不同。你和他们的差异会影响你对产品优缺点的判断，而这些判断可能并非你所能意识到的。有些产品问题，只有亲自使用才能发现。”（01:07:57）：我认识的大多数优秀产品经理都具备这种洞察力，这很棒。但很多产品经理缺乏使用场景、优先级和约束条件的背景，而这些都是你仅凭自身使用无法想象的。所以我的观点是，你绝对应该亲自测试自己的产品。通过产品演示来识别潜在问题列表是一件很棒的事。但优先处理这些问题、判断哪些问题更严重、针对哪些用户群体时，你要格外警惕，不要依赖自己的观点、专业知识或直觉。",
+   "ts": "01:06:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you for sharing that. It's definitely come up a bunch on this podcast, so I think that's an important lesson for people to take away. Anything else before we get to our very exciting lightning round?",
+   "zh": "感谢你分享这些。这话题在播客里确实被提过很多次，所以我觉得这是大家应该记住的重要经验。接下来进入激动人心的闪电问答环节前，你还有什么想说的吗？",
+   "ts": "01:08:39"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I appreciate you, Lenny. Thanks for having me on.",
+   "zh": "谢谢你，Lenny。感谢邀请。",
+   "ts": "01:08:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I appreciate you, Judd. Well, with that, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "我很感激你，Judd。好的，接下来就进入激动人心的闪电问答环节了。准备好了吗？",
+   "ts": "01:08:51"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I am ready.",
+   "zh": "我准备好了。",
+   "ts": "01:08:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "你向别人推荐得最多的两三本书是什么？",
+   "ts": "01:08:57"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I recently read a business book by Barbara Kellerman called Bad Leadership. And what I love about it is that we spend a lot of time talking about good leaders, and she really dives into the worst leaders and what makes them bad leaders in a way that I think is really valuable for everybody. (01:09:19): I'd also recommend, I read a lot of fiction, so two recommendations, there. One, a recent Pulitzer Prize winner, Demon Copperhead by Barbara Kingsolver. It's an outstanding read that also is really sad, and moving, and illustrative, especially if you want to understand rural poverty. And then completely other side of the fiction spectrum, if you're interested in science fiction, which I am, read the Murderbot Diaries, it's about a sarcastic killer robot. And who doesn't love them?",
+   "zh": "我最近读了芭芭拉·凯勒曼的一本商业书籍，叫《坏领导力》。我喜欢这本书的地方在于，我们花了很多时间谈论好领导者，而她真正深入探讨了最糟糕的领导者，以及他们糟糕的原因，我认为这对每个人都非常有价值。（01:09:19）：我还推荐两本小说。一本是最近的普利策奖得主作品，芭芭拉·金索弗的《恶魔铜头》。它是一本杰出的读物，也非常悲伤、感人且具有启示意义，特别是如果你想了解农村贫困问题。然后是另一个完全相反的小说领域，如果你对科幻感兴趣的话，我推荐《谋杀机器人日记》，讲的是一个爱讽刺人的杀人机器人。谁不喜欢这样的角色呢？",
+   "ts": "01:09:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love these fiction recommendations. I feel like we need more of these on the podcast, so thank you.",
+   "zh": "我喜欢这些小说推荐。我觉得播客里需要更多这样的内容，所以谢谢你。",
+   "ts": "01:09:48"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah. Everybody goes to business books.",
+   "zh": "是啊。大家都去读商业书籍了。",
+   "ts": "01:09:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, absolutely. What is a favorite recent movie or TV show that you really enjoyed?",
+   "zh": "是的，绝对的。你最近最喜欢的电影或电视剧是什么？",
+   "ts": "01:09:53"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "We recently watched The Last of Us and it blew our mind. I watched it after I played the video game after long last, if you are a person who plays video games and you haven't played The Last of Us, play it. If you don't know, the show is based on the video game, not the other way around.",
+   "zh": "我们最近看了《最后生还者》，这部作品简直太震撼了。我是在很久没玩这款游戏后才看的剧集。如果你也是个游戏玩家但还没玩过《最后生还者》，那一定要去玩一玩。顺便说一句，这部剧是基于游戏改编的，而不是反过来。",
+   "ts": "01:09:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite interview question you like to ask candidates that you're interviewing?",
+   "zh": "你有没有最喜欢问面试者的某个问题？",
+   "ts": "01:10:14"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Think of a topic that you had to explain lately that was the most complex, and then explain it to me like I'm five. And there are a lot of ways to vary that question, but the reason I like it is because I think, and I've asked this question to VP and C-suite candidates in multiple disciplines, and sometimes it's related to a conversation, like I might ask them to explain something complicated about quantum computing, or music theory, or it could be a complex business decision, but I want to see if somebody can break a complex problem down in a really simple way, and give me an intuition for it in a short amount of time. I think that is a differentiator between good and great for many people.",
+   "zh": "想想最近你解释过的最复杂的主题，然后用通俗易懂的语言给我讲一遍。当然，这个问题的变体有很多，但我喜欢这个问题的原因在于，我曾向不同领域的副总裁和高管候选人提过这个问题，话题有时与之前的对话相关，比如让他们解释量子计算或音乐理论的复杂之处，或者是复杂的商业决策。但我希望看到候选人能用简洁明了的方式拆解复杂问题，短时间内为我提供直观理解。我认为这对许多人而言，是区分优秀与卓越的关键。",
+   "ts": "01:10:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite product you recently discovered that you really like?",
+   "zh": "你最近有没有发现什么特别喜欢的产品？",
+   "ts": "01:11:02"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah, this is a really weird one, but my whole family started indoor rock climbing recently, and there's a challenge you have when you top rope, which is that you're looking up all the time. So they make these glasses, which are called belay glasses, and they have an angled mirror embedded in the lens, so that you can look straight ahead, and the view you see is up towards the person who you're belaying. And I just thought that product is so perfect for that. That's a niche problem and there isn't a better way to solve it.",
+   "zh": "是啊，这个问题听起来挺奇怪的，但我全家最近开始玩室内攀岩。在顶绳攀岩时，你得一直抬头看。这时候就有了专门的攀岩护目镜，镜片里嵌入了斜角镜，让你能直视前方，同时看到攀岩者的视角。我觉得这个产品设计得太贴心了。这是个小众需求，却找不到更好的解决方案。",
+   "ts": "01:11:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite motto that you often come back to, that you share with friends either in work or in life that you find useful?",
+   "zh": "你有没有常挂在嘴边、在工作或生活中与朋友分享的座右铭？",
+   "ts": "01:11:37"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah. This is going to seem like pandering, Lenny, but I don't know if you remember a conversation that you and I had, it must've been eight years ago. I remember where we were sitting. And it was about stoicism. Do you remember this? Anyway, we had this conversation.",
+   "zh": "有啊。这听起来有点讨巧，Lenny，但你应该还记得我们八年前的一次谈话吧？我记得当时我们坐在哪里。当时我们聊的是斯多葛主义。你记得吗？总之，我们讨论了这个话题。",
+   "ts": "01:11:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I don't, but I was into stoicism for a while.",
+   "zh": "我不记得了，但我当时确实对斯多葛主义感兴趣。",
+   "ts": "01:11:59"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "I know you were, because we talked about it. And so the motto comes from stoicism, which is basically, \"Focus on the things you can control and ignore the rest.\" And a lot of people think of this as the serenity prayer or the serenity saying, that was a 20th century invention, but Epictetus was writing about this BC, and I think about it all the time. So much of the stress, and pain, and worry that we have in life comes from things we can't control. So I try to let those things go.",
+   "zh": "我知道你感兴趣，因为我们聊过这个。斯多葛主义的座右铭是：“专注于你能控制的事，忽视其他。” 很多人把这句话和20世纪发明的“宁静祈祷”或“宁静宣言”联系起来，但埃皮克提图早在公元前就提出了这个观点。我时常思考它。生活中大部分的压力、痛苦和焦虑都来自我们无法控制的事。所以我尽量放下这些执念。",
+   "ts": "01:12:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I learned that lesson from 7 Habits of Highly Effective People, and just the importance of thinking about these circles of you can control, you can influence, and you have no control over, and there's no reason to think about those other things.",
+   "zh": "太棒了。我从《高效能人士的7个习惯》中领悟到这一点，以及思考可控、可影响和不可控三种圈子的重要性，没必要去想其他事情。",
+   "ts": "01:12:34"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Absolutely.",
+   "zh": "完全赞同。",
+   "ts": "01:12:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Judd, this was everything I hoped it would be. We got into some really good stuff. I'm excited to hear how people react. Two final questions, where can folks find you if they want to learn about what you're up to, actually share what you're up to these days, and how people can find you, and then also how can listeners be useful to you?",
+   "zh": "贾德，这次访谈完全超出了我的预期。我们探讨了许多深刻的话题。我很期待听听听众们的反馈。最后两个问题：如果人们想了解你的最新动态，或者分享你的近况，可以通过哪些渠道找到你？另外，听众们如何能为你提供帮助？",
+   "ts": "01:12:47"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Yeah. Thanks for asking those questions. People can find me at juddantin.com. That's the best way to find out what I'm up to. These days, I'm a consultant. I help people with UX strategy, org design, and crisis management. Somehow I love dealing with other people's dumpster fires, and I've found that I'm constitutionally good at it somehow. So juddantin.com is the place to find out. I also write. I write a medium post that you can find at onebigthought.com. And you'll find a lot of the topics we talked about today, including the original post that started this at onebigthought.com. If there's one thing I could ask your listeners to do is to get next to your researcher. I just think if you build those relationships and involve a researcher and insights person early and often, beautiful things will happen for you and for the business. So that's the thing everyone can do for me.",
+   "zh": "是的。感谢你提这些问题。大家可以访问juddantin.com来联系我。这是了解我动态的最佳途径。目前我是一名顾问，专注于用户体验策略、组织设计和危机管理。不知为何，我特别喜欢帮助别人解决棘手的问题，而且发现自己在这方面天生就很擅长。所以想了解更多信息，请访问juddantin.com。我还写作呢，在Medium上开设专栏，网址是onebigthought.com。今天我们讨论的许多话题，包括引发这次对谈的原文，都能在那里找到。如果能请听众们帮我一个忙，那就是多与研究员合作。我坚信，如果尽早、频繁地让研究员和洞察团队参与其中，对个人和企业都会带来巨大价值。这就是每个人能为我做的最有价值的事。",
+   "ts": "01:13:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. I've always done that. I loved my researchers that I've worked with, many of them reporting to you, and so beautiful takeaway. Judd, thank you so much for being here.",
+   "zh": "这观点太棒了。我一直这么做。我很欣赏曾合作过的研究员，其中很多都向你汇报过，这真是宝贵的经验。贾德，非常感谢你今天的参与。",
+   "ts": "01:13:56"
+  },
+  {
+   "speaker": "Judd Antin",
+   "en": "Lenny, thank you. It's been a pleasure.",
+   "zh": "莱尼，谢谢你。这次访谈很愉快。",
+   "ts": "01:14:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "再见，各位。非常感谢收听。如果觉得内容有价值，可以在Apple Podcast、Spotify或你喜欢的播客平台订阅节目。也欢迎给我们评分或写评论，这对其他听众很有帮助。更多往期节目及节目详情，请访问lennyspodcast.com。下期节目再见。",
+   "ts": "01:14:09"
+  }
+ ]
+}

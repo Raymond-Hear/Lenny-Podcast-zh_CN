@@ -1,0 +1,1091 @@
+{
+ "id": "Farhan Thawar",
+ "name": "Farhan Thawar",
+ "category": "企业管理",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Farhan+Thawar",
+ "bio": {
+  "en": "Farhan Thawar is Vice President and Head of Engineering at Shopify, where he helps run a 10,000-person fully-remote engineering organization known for its urgency, velocity, and first-principles thinking.",
+  "zh": "Farhan Thawar 是 Shopify 的工程副总裁兼工程负责人，管理着一支 1 万人、完全远程的工程组织，该组织以紧迫感、高速执行和第一性原理式的思考著称。"
+ },
+ "summary": {
+  "en": "Farhan shares concrete tactics for maintaining intensity and urgency at scale, including unusual meeting cadences, a constant drive to delete code (their 'Delete Code Club'), and the counterintuitive power of pair programming. He advocates 'creating intensity' by doing more per minute rather than more hours, and explains why he defaults to the harder option when choosing between paths because it ultimately makes life easier. He also offers sharp hiring advice—including how Shopify plans to bring on over a thousand engineering interns—and reflects on a career of working alongside a different billionaire each decade.",
+  "zh": "Farhan 分享了在规模化下保持强度与紧迫感的具体做法，包括独特的会议节奏、持续删代码的“删代码俱乐部”，以及结对编程那种反直觉的力量。他主张通过“每分钟做更多”而非“工时更长”来制造强度，并解释为何在两个选项之间他默认选择更难的那条路，因为它最终让人生更轻松。他还给出了犀利的招聘建议——包括 Shopify 计划招募上千名工程实习生，并回顾了自己“每十年换一位亿万富翁老板”的职业生涯。"
+ },
+ "turns": [
+  {
+   "speaker": "Farhan Thawar",
+   "en": "If you do the hard path and it doesn't work, actually you still win because you've now done something hard. You've probably worked with smart people. You've learned something along the way that is valuable. I meet lots of job seekers. I go, what are you doing to try to find a job? Are you really learning anything from sending out 10 resumes a day? Why don't you look at the API Docs and build something? Even if you don't get a job at Shopify, you've learned something.",
+   "zh": "假如你选择了艰难的道路却未能成功，实际上你依然是赢家——因为你已挑战了自我极限。或许你曾与才华横溢之人共事，在此过程中收获了宝贵的成长经验。我接触过许多求职者，当我问他们：“你采取了哪些有效的求职策略？”他们往往回答：“我每天投递十份简历，真能学到什么吗？” 何不去研究API文档并开发些小项目呢？即便未能在Shopify获得职位，你也将收获专业技能。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "First, I want to talk about another theme, creating intensity in your organization.",
+   "zh": "接下来，我想谈谈组织中营造紧迫感的另一个主题。",
+   "ts": "00:00:20"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Everyone says, \"Oh yeah, work hard and do more hours when you're young, whatever.\" I'm like, \"What if you just did more per minute?\"",
+   "zh": "人们总说：“年轻时多加班、多付出总没错。” 但我更想问：“若你能把每分钟的工作效率提升呢？”",
+   "ts": "00:00:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The more I dig into the Shopify way working, the more fun stuff I never expected emerges. There's been a drive to delete code and simplify.",
+   "zh": "越深入了解Shopify的工作方式，就越能发现许多意想不到的创新之处。比如，团队始终致力于代码精简与架构优化。",
+   "ts": "00:00:29"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "We have a Delete Code Club. We can always almost find a million-plus lines of code to delete, which is insane.",
+   "zh": "我们专门成立了“删除代码俱乐部”，每次都能删除数百万行冗余代码，效率令人惊叹。",
+   "ts": "00:00:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I found this great quote from you, \"Not everyone can look stupid in public over and over, but I believe it's my superpower.\"",
+   "zh": "我曾读到你的一句话：“不是每个人都能在公众面前反复出丑，但我认为这就是我的超能力。”",
+   "ts": "00:00:42"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I have been in many situations with many sharp people who have said to me, that's the stupidest fucking question I've ever heard. My goal there is not to annoy the person, but it's to understand the content.",
+   "zh": "与许多精英共事时，我常被反问：“这问题真是史上最蠢的了。” 我的初衷并非惹恼对方，而是透过这些提问深入理解技术本质。",
+   "ts": "00:00:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was looking at your LinkedIn and your career history, and I noticed that you've worked for a different billionaire every decade of your life.",
+   "zh": "浏览你的领英资料和职业履历，我发现你每十年就为一位亿万富翁效力。",
+   "ts": "00:00:59"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "They're mostly different people, but they're similar in one thing is that they haven't...",
+   "zh": "虽然他们大多不同，但有一个共同点：他们从未...",
+   "ts": "00:01:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Farhan Thawar. Farhan is Vice President and Head of Engineering at Shopify. Shopify is an incredibly interesting company because they have over 10,000 employees who are fully remote, and even though they were founded almost 20 years ago, they continue to operate with urgency, velocity and have very first principles, ways of thinking, which translates into them seeing record usage, blowing away their earnings calls just recently, and building a beloved product. A lot of this is thanks to Farhan, who in our conversation shares very specifically what he's done to maintain intensity and urgency within the engineering team. Including their meeting cadences, the counter-intuitive power of pair programming, how they run meetings, how they cancel meetings constantly and so much more. He also shares his experience with indexing towards choosing the harder option when you have multiple options to choose from and why that ends up making your life easier. (00:02:08): He also shares a bunch of great hiring advice and a bunch of hiring stories which are going to blow your mind. He also talks about their engineering intern program where they're going to hire over a thousand engineers just for their intern program in 2025. I've had a lot of people on this podcast from Shopify, but that is for a very good reason because this company and its leaders have a lot to teach us about how to run an incredible business and build an incredible product. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing future episodes and it helps the podcast tremendously. With that, I bring you, Farhan Thawar. Farhan, thank you so much for being here, and welcome to the podcast.",
+   "zh": "今日的嘉宾是法尔汉·塔瓦尔（Farhan Thawar）。法尔汉是Shopify公司的副总裁兼工程部主管。Shopify是一家极具趣味性的公司——他们拥有超过1万名全远程员工。尽管这家公司成立已近20年，但它始终保持着快速的运营节奏，秉持着最基本的原则和思维方式。这体现在其创纪录的用户增长、近期超出预期的财报表现，以及打造深受用户喜爱的产品上。这一切都离不开法尔汉的贡献。在对话中，他详细分享了如何在工程团队中保持专注和紧迫感的具体措施，包括会议节奏、反直觉的结对编程模式、会议运作方式、持续取消不必要会议等诸多举措。他还分享了在多选项中选择更难路径的经验，并解释了为何这最终会让生活更轻松。（00:02:08）此外，他还分享了大量招聘建议和招聘故事，这些内容绝对令人惊叹。Shopify团队曾多次做客本播客，原因显而易见——这家公司及其领导者在运营卓越企业和打造优质产品方面，有诸多值得我们借鉴的经验。如果您喜欢本期播客，请别忘了在您喜爱的播客应用或YouTube上订阅关注。这是不错的方式，既能确保不错过后续精彩内容，也能为播客发展助力。接下来，我将为您介绍法尔汉·塔瓦尔。法尔汉，非常感谢您的到来，欢迎加入本播客。",
+   "ts": "00:01:12"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Thanks for having me.",
+   "zh": "感谢邀请。",
+   "ts": "00:02:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As I was preparing for our conversation, I talked to a bunch of people that you've worked with over the years, and there's basically three themes that kept coming up over and over and over. One is hiring, two is creating intensity in your organization, and three is choosing the hard path. First of all, does that resonate? Second of all, does it sound good to talk about these three themes in our time together?",
+   "zh": "在为我们的对话做准备时，我与您过去共事过的一些人进行了交流，发现有三个主题反复被提及。一是招聘，二是如何在组织中营造紧迫感，三是选择困难之路。首先，您对此是否有共鸣？其次，在我们共同的时间里探讨这三个主题，您觉得如何？",
+   "ts": "00:02:52"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I mean, I have ideas on where all three of those things came from, and I think that it is something that if you looked back on my career, I've hit points on each of those things, but I don't think at the onset I knew that that's what I was doing, but it turns out in retrospect, that's what I ended up doing.",
+   "zh": "是的，我的意思是，我对这三个主题的来源有一些想法。我认为，如果回顾我的职业生涯，我在每个方面都曾有所涉及，但我不认为一开始就知道自己在做这些事，但回首往事，就会发现这正是我的最终选择。",
+   "ts": "00:03:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Perfect, so this is the Steve Jobs. Everything looking backwards it all connects.",
+   "zh": "太好了，这就像史蒂夫·乔布斯的经历。回头看，一切都串联起来了。",
+   "ts": "00:03:32"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:03:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today's episode is brought to you by DX. If you're an engineering leader or on a platform team, at some point your CEO will inevitably ask you for productivity metrics, but measuring engineering organizations is hard, and we can all agree that simple metrics like the number of PRs or commits doesn't tell the full story. That's where DX comes in. DX is an engineering intelligence solution designed by leading researchers, including those behind the DORA and SPACE frameworks. It combines quantitative data from developer tools with qualitative feedback from developers to give you a complete view of engineering productivity and the factors affecting it. Learn why some of the world's most iconic companies like Etsy, Dropbox, Twilio, Vercel, and Webflow rely on DX. Visit DX's website at getdx.com/Lenny. This episode is brought to you by Persona, the adaptable identity platform that helps businesses fight fraud, meet compliance requirements, and build trust. (00:04:37): While you're listening to this right now, how do you know that you're really listening to me, Lenny? These days it's easier than ever for fraudsters to steal PII, faces, and identities. That's where Persona comes in. Persona helps leading companies like LinkedIn, Etsy, and Twilio securely verify individuals and businesses across the world. What sets Persona apart is its configurability. Every company has different needs depending on its industry, use cases, risk tolerance, and user demographics. That's why Persona offers flexible building blocks that allow you to build tailored collection and verification flows that maximize conversion while minimizing risks. Plus Persona's orchestration tools, automate your identity process so that you can fight rapidly shifting fraud and meet new waves of regulation. Whether you're a startup or an enterprise business Persona has a plan for you. Learn more at withpersona.com'Lenny. Again, that's with P-E-R-S-O-N-A.com/Lenny. Okay, so let's start by talking about the hard path.",
+   "zh": "今日节目由DX赞助。如果你是一位工程团队的领导者，或是平台团队的成员，你的CEO迟早会要求你提供生产力指标，但衡量工程团队的效率实属不易。我们都认同，像代码合并请求（PR）数量或提交次数这类简单指标并不能全面反映实际情况。DX正是在此背景下应运而生。DX是由顶尖研究团队打造的工程智能解决方案，其核心成员包括DORA和SPACE框架的开发者。它将开发者工具提供的定量数据与开发者的定性反馈相结合，助你全方位洞察工程团队的生产力及影响因素。了解为何Etsy、Dropbox、Twilio、Vercel和Webflow等全球知名企业都选择信赖DX。访问DX官网：getdx.com/Lenny。本期节目由Persona赞助——这家灵活的身份平台助力企业打击欺诈、满足合规要求并建立信任。（00:04:37）：当你此刻正在收听本节目时，你如何确认自己真的在听我Lenny讲话？如今，欺诈者窃取个人身份信息（PII）、人脸数据及身份特征比以往任何时候都更加容易。这正是Persona的用武之地。Persona助力领英、Etsy和Twilio等行业领军企业安全验证全球各地的个人及企业身份。其核心优势在于高度可配置性。每家企业因所属行业、用例、风险承受能力及用户群体而需求各异。因此，Persona提供了灵活的构建模块，助你构建定制化的信息收集与验证流程，在最大限度提升转化率的同时，将风险降至最低。此外，Persona的自动化工具还能智能化配置身份验证流程，助你快速应对不断变化的欺诈威胁并满足新兴监管要求。无论你是一家初创企业还是大型企业，Persona都能为你量身打造解决方案。欲了解更多信息，请访问withpersona.com。再次强调，网址是withpersona.com/Lenny。好的，我们先来谈谈困难之路。",
+   "ts": "00:03:37"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:05:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Advice that I've heard you share with people often is when they're trying to decide amongst a bunch of options is to choose the harder path because that makes life easier down the road. Share this advice why it's so important, where you learned, where you developed that this is the right approach.",
+   "zh": "我经常听到你给人们的建议是，当他们在众多选项中犹豫不决时，应该选择更困难的道路，因为这会让未来的生活更加轻松。请分享一下这个建议为何如此重要，你是从哪里学到的，又是在哪里形成这种正确方法的。",
+   "ts": "00:05:43"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "But the short version is that if you have a choice and you choose the easy thing and it works great. If you choose the hard thing and it works great, you did more work, but if it doesn't work and you chose the easy thing, you've actually not learned anything because you chose the... You haven't done a lot of work, you haven't probably worked with the smartest people because they're not usually around on the easy path, and what happens is you've gone through this exercise and now you're like, I've kind of lost. I lost the choice, or I was trying to do something, it didn't work out for me. But if you do the hard path and it doesn't work, actually you still win because you've now done something hard. You've probably worked with smart people, you've learned something along the way that is valuable, and I can give you a quick example. (00:06:41): So I meet lots of job seekers and they're like, I go, \"What are you doing to try to find a job?\" I'm like, \"I'm sending out 10 resumes a day.\" I'm like, \"Okay.\" That sounds kind of easy, and are you really learning anything from sending out 10 resumes a day? Versus I would say to them, \"Hey, you know all these companies you're interested in, Shopify might be one of them. Why don't you look at the API Docs and build something, build a Shopify app, build an admin extension, build something on top of Shopify.\" Even if you don't get a job at Shopify, which is maybe your goal, you've learned something, you've built something, you have things in your GitHub repo now and you can show people. You're learning about the product that might translate to a job you might get somewhere else. So I think that even though it's harder, right? Of course, you can't every day build an app on a different platform. (00:07:23): Maybe you can once a day. You will learn something in the hard path. And the same thing happened to me in taking hard courses. I would get worse marks, but I ended up meeting smarter people in those courses because they were there for the same reason I was because the content was hard. And so that's something that I've just realized in my life that if I do the hard thing and I just naturally tend towards doing that, I ended up doing... I went to Waterloo and I did a minor in electrical engineering on top of computer science, and when I did my MBA, I did a minor in financial engineering because the smarter people were in that path and they're still my friends today.",
+   "zh": "简而言之，如果你有选择的机会，选择了简单的方式且效果显著，那自然没问题。但如果你选择了困难的路径，效果同样出色，那固然值得，但如果结果不理想，那就说明你没有真正学到什么东西——因为你选择了简单之路，就意味着你没有与最优秀的人共事，而这些人才往往不会出现在简单路径上。当你经历了这个过程后，可能会觉得自己迷失了方向，失去了选择的机会，或者努力的方向失败了。但如果你选择了困难的路径，即便结果不尽如人意，你依然能从中收获宝贵的经验。我可以举个例子：（00:06:41）我经常遇到求职者，他们会说：“我在找工作，每天发送10份简历。”我会问：“你对感兴趣的公司，比如Shopify，有了解吗？”他们会说：“有啊。”这听起来挺简单，但每天发送10份简历真的能学到什么吗？相比之下，我会建议他们：“嘿，你对Shopify感兴趣，那为什么不看看API文档，开发个Shopify应用、管理后台扩展，或者基于Shopify平台做些开发呢？”即便你最终没能在Shopify找到工作（这或许是你的初衷），你也能积累经验，掌握新技能，GitHub仓库里有可展示的成果，还能将这些技能应用到其他工作中。所以，虽然困难，但坚持下去总是值得的。当然，你不可能每天都在不同平台开发应用，但或许每天尝试一个新项目也未尝不可。在困难的学习过程中，同样的道理也适用。我成绩可能不算出色，但在那些课程中我结识了更聪明的人，因为他们和我一样选择了挑战。这些经历让我意识到，如果我坚持做难事，最终总能有所收获。比如我在滑铁卢大学攻读计算机科学时，同时修读了电气工程辅修课程；读MBA时，我选择了金融工程辅修，因为那里汇聚了更多优秀人才，他们至今仍是我的良师益友。",
+   "ts": "00:05:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So building on the last point you just made, people could hear this and think, okay, if it's harder, that's going to be the right path. Sometimes harder is still a bad idea. For example, joining a terrible company that's extremely frustrating to work at or building, I don't know, a house in a really dumb way, but it's just really hard. What else do you find is important to think about when you're thinking it's not just harder, but also XYZ should probably be true?",
+   "zh": "回到你刚才提到的观点，人们可能会听了觉得，既然困难，那就应该选择困难的路径。但有时困难的选择也未必明智。比如加入一家糟糕的公司，工作极其痛苦；或者用愚蠢的方式建房子，虽然费力但结果不佳。当你认为某件事既困难又有价值时，还需要考虑哪些其他因素？",
+   "ts": "00:07:54"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, one real one is of course the people, because I find that my path has always focused on trying to pick the best learning journey. Where can I learn the most? And for me, everyone's different. Some people might learn better from books or the domain they're in, but for me, I learn a lot from people, and so I try to put myself in those harder rooms on purpose. There was a time when I was doing my MBA in financial engineering, by the way, and I'm a tech guy and still a tech guy, and all these people were going into finance jobs. (00:08:46): There was a point where somebody said to me, \"Why are you in this class?\" Because they knew that I was doing it for fun, and so it was because it was the learning journey. And so I would say a big part of it for me is yes, there's the how do you win even if you lose, because if it goes poorly, you can still come out of it with skills, but if you actually take the hard path, you'll have these intense working relationships with smart people that again will continue on in your life. (00:09:12): And that also just forces you to be in this constant state of uncomfort by going into these rooms and saying, \"I don't know anything,\" and it's harder. And I agree with you. You don't want to do dumb things like, oh, let's just do this thing in a dumb way. That's not what I mean. I mean, let's try to do the hard thing that we can learn from. And by the way, it happens to be on the path. It's just is it might take more manual work or it might not be the way most people do it, but we think we can learn more from that path.",
+   "zh": "是的，真正重要的人当然是其他人。我发现我的职业生涯始终致力于选择最优质的学习之路。在哪里能学到最多知识？对每个人来说答案各不相同。有些人可能更擅长从书本或所在领域中学习，但对我而言，我从与人交流中获益良多。因此，我会刻意选择更具挑战性的环境。说起来，我攻读金融工程硕士学位时就是这种情况——毕竟我本质上还是个技术人员，但周围所有人都一心想进入金融行业。（00:08:46）：当时有人问我：“你为什么来上这门课？”因为他们知道我只是为了兴趣而来，所以这门课对我而言就是一场学习之旅。我想说，对我而言，关键在于即使失败也要如何取胜。即便事情进展不顺利，你也能从中获得技能。但如果你选择更艰难的道路，你将与聪明人建立深厚的工作关系，这些关系会伴随你一生。（00:09:12）：这种选择也意味着你必须不断处于不舒适的状态——走进这些房间时说：“我什么都不懂。”这确实更难。但我同意你的观点——你不想做愚蠢的事，比如“我们就用这种愚蠢的方法吧”。这不是我的意思。我是说，让我们尝试那些能让我们学到更多知识的困难之路。",
+   "ts": "00:08:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of that, I found this great quote from you, \"Not everyone can look stupid in public over and over, but I believe it's my superpower and I try to make it my whole team's superpower too.\"",
+   "zh": "说到这里，我发现你曾说过一句很棒的话：“不是每个人都能在公众面前一次又一次地出丑，但我相信这是我的超能力，我也试图让整个团队拥有这种能力。”",
+   "ts": "00:09:37"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I mean, it sounds funny, but again, I'm the one who's always trying super dumb things and sometimes they work, and even my wife hates that I try these things even at home, right? I'll just like, what's an example? It might be a new washing machine and I might try some weird mode with some clothes, and I'm like, \"Oh, you ruin the clothes.\" I'm like, okay. But now I know that this mode should not be used, but maybe I would've uncovered that there's some super fast, quick wash that I can do in 20 minutes that now saves us 40 minutes of wash time every single time we use the washing machine. (00:10:22): So there's things like that, but I will ruin lots of clothes trying to do that, but the same at work. We'll try things and sometimes it can lead to disaster, hopefully not, but you can imagine people trying to like, oh, let me try this new configuration of GCP and maybe we'll get some benefit, but maybe we'll take Shopify down. We don't want to do that. So you want to have some sort of guardrails. But there is something around trying dumb things and saying dumb things. Half the time, by the way, when I say something dumb, people go, \"I had the same question.\" They just were scared to say it.",
+   "zh": "是啊，这听起来挺搞笑的，但说真的，我总是尝试一些超级愚蠢的做法，有时还能成功，就连我妻子都讨厌我在家也这样尝试。比如，买台新洗衣机时，我可能会尝试一些奇怪的模式，结果衣服被毁了。我只能说好吧。但现在我知道这种模式不能用，或许我还能发现一种20分钟就能洗好的快速模式，这样每次用洗衣机时就能节省40分钟的洗涤时间。（00:10:22）：类似这样的例子还有很多，但为了尝试这些方法，我确实毁了不少衣服。工作中也是如此。我们会尝试新东西，有时可能会导致灾难性后果，但愿不会。不过你能想象人们会尝试新配置的GCP，结果可能导致Shopify宕机。我们可不想这样。所以你需要设定一些防范措施。但尝试愚蠢想法、说出愚蠢话语的过程中，也确实能收获不少。顺便说一句，当我说出蠢话时，很多人会说：“我也曾有过同样的疑问。”他们只是害怕说出来。",
+   "ts": "00:09:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So for folks that may want to, because I feel like this skill is so hard, but so important, being okay with failing, being okay with looking dumb, is there something you tell people to help them build this other than just like, I'm genetically good at this stuff? What helped you become comfortable with being wrong and failing before you were a big shot exec where it's like, oh, he's fine. He knows what he's doing.",
+   "zh": "所以对于那些可能想学习的人——因为我觉得这种技能既难又重要——如何接受失败，如何坦然面对出丑，有没有什么秘诀？除了天生就擅长这些技能之外，你还做了哪些努力，才能在成为大公司高管之前，就能坦然面对错误和失败？比如，现在人们会说：“他没事，他很清楚自己在做什么。”",
+   "ts": "00:10:55"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I don't know. I mean, I kind of grew up working in retail and people come into the store, and then I would say, \"Hey,\" and you're working on commission, and they're not always buying stuff, and if they don't buy it, you don't make any money. And so maybe just the fact of going up and forcing myself to talk to people and then trying to get them to, and maybe you spend an hour with a client and then they don't buy anything, but you're getting that reaction of a bunch of negatives, and all you have to do is say, okay, and just go to the next customer. You can't really well on it and be like, oh my God, my whole day is ruined. But instead, you have to learn from that and say, \"Okay, let me try this. Let me try that.\" And it's not easy, but it was a way to build up some confidence and people say, this telemarketing, or there's a bunch of things you can do to get a lot of rejection. Cold calling is another one, and that can lead you to actually building up resistance. I don't know if I'm genetically better at it or not. I just think that I literally don't care if I look dumb. I've always said the dumb thing, I'm not doing things on purpose to get nos, which by the way, is part of some sales training, which is go and get 10 nos. But I haven't done that. But I have been in many situations with many sharp people, business people, successful people who have said to me... Turn around and said, \"That's the stupidest fucking question I've ever heard.\" I've definitely had that happen to me. And I'm like, \"All right, let's move on to the next question.\"",
+   "zh": "我不知道。我是说，我在零售业工作长大，每当有人进店时，我会说声“嘿”，然后你靠佣金提成挣钱，但他们不总是会买东西。如果他们不买，你就赚不到钱。所以也许最难的部分就是主动上前跟人搭话，然后努力促成交易。可能你会花一个小时跟客户交流，结果他们什么也没买，但你得到的全是负面反馈。你只能调整心态，说：“好吧，再试试下一个客户。”你不能因此情绪崩溃，觉得自己一天都毁了。相反，你要从中吸取教训，说：“好，我试试这个，再试试那个。”这并不容易，但确实能帮助你建立自信。人们常说电话营销很困难，或者说很多事情都会遭遇大量拒绝。冷电话销售也是如此，可能会让你产生抗拒心理。我不知道自己是否天生更擅长这类事。我只觉得自己不在乎显得愚蠢。我总是说些蠢话，也不是故意去招惹别人拒绝。顺便说一句，有些销售培训会教你先去找10个拒绝你的人。但我从没这么做过。不过我确实遇到过很多精明的商界人士，他们对我说：\"这是我听过最蠢的问题了。\"这种情况确实发生过。我就说：\"好吧，那我们换个问题吧。\"",
+   "ts": "00:11:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that attitude and I think that's key to it. It's just bounce off of it and not be crumble and I think it's empowering for folks to hear from someone like you that has done so well that people tell you that is the dumbest question I've ever heard-",
+   "zh": "我喜欢这种态度，我觉得这才是关键。就是从容应对，不被击垮。我觉得听你这样成功人士说这些话，对听众很有启发——",
+   "ts": "00:12:36"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Oh yeah, still.",
+   "zh": "哦，对啊，还是这样。",
+   "ts": "00:12:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Still. Okay.",
+   "zh": "还是这样。好吧。",
+   "ts": "00:12:48"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah. So how about this? That I heard that's the dumbest fucking question. And then recently I heard, I've already explained this to you three times because I kept asking and I didn't understand, and literally I got this message back saying, \"I've already explained this to you three times.\" I'm like, \"Okay, I still don't get it.\" So my goal there is not to annoy the person, but it's to understand the content. And actually, by the way, I say these were messages, I saved them. I literally screenshot it because I'm like, remember this? It doesn't matter. I'm trying to learn.",
+   "zh": "是啊。所以你怎么看？比如说，我听过别人说这是最蠢的问题。最近我又听到有人说：\"我已经给你解释三次了，因为你老是问却不明白。\"我说：\"好吧，可我还是不明白。\"所以我的目标不是惹人烦，而是理解内容。顺便说一句，我保存了这些消息，还截了图，因为我想，记住这点很重要。无所谓，我只是想学习。",
+   "ts": "00:12:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One more question along these lines. I was looking at your LinkedIn and your career history, and I noticed that you worked for a different billionaire every decade of your life. So there's a guy named Joe Lemond in your twenties and Chamath in your thirties and Toby this decade, maybe yourself next decade, if things go well. Other than what you've shared or maybe it is what you've shared, is there a thread across these three folks that have been really successful that you've learned from that maybe is consistent across them all or even just specific to each one?",
+   "zh": "再问一个相关的问题。我看你的领英和职业经历，发现你每十年都会为不同亿万富翁工作过。二十多岁时是乔·勒蒙德，三十多岁是查马特，这十年是托比，也许下个十年是你自己，如果一切顺利的话。除了你分享的经历，或者说正是你分享的经历之外，这三位非常成功的人身上有没有共通之处？你能从他们身上学到什么？是所有人共通的，还是各自独有？",
+   "ts": "00:13:20"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "It's interesting because again, this is looking back, you're like, wait a sec, I didn't plan it this way. There's no way you could plan it, right? I'm going to work for a different billionaire every decade. That's not how it works but they're similar. They're mostly different people, but they're similar in one thing is that they have an irrational view of what the world should look like over the next decade or so. They're very long-term thinkers, very rational in that they'll look and say, \"Hey, in 10, 15, 20, 25 years, this is what the world's going to look like.\" And I'm not good at seeing that vision, but I'm good at trying to move towards that vision 1% a week. And so the melding of the two, I know where I'm good and I'm good at pushing the ball forward. And if they're good at the long-term vision, we can both align to say, \"You're good at this thing. I'm good at this thing. Why don't we merge forces?\" (00:14:35): And so that is something that has resonated with me is like, how do I find these irrational all progress depends on the unreasonable man. How do I pair with these people because I'm altogether too reasonable and there's no way for me to become unreasonable, and so I have to merge with these people. And so that is again, something that I specifically have sought out. And even when I was starting my own company in 2015, I actually sat down and wrote a list of all the unreasonable people that I knew in Toronto, and I went down the list and met every single one of these entrepreneurs to figure out are we API compatible and could I work with them? And I ended up picking one of them and starting a company.",
+   "zh": "这一点很有意思，因为回过头来看，你会发现，等等，我可没这么打算过。这种事根本没法提前规划，对吧？我每十年就会为不同的亿万富翁工作一次。这听起来不现实，但他们其实有相似之处。他们大多是不同的人，但有一点相似之处是，他们对未来十年的世界应该是什么样子有着不切实际的看法。他们是长远主义者，非常理性，他们会审视未来10年、15年、20年、25年的世界模样。我不擅长构想那种愿景，但我擅长每周朝着那个愿景前进1%。所以两者的结合，我知道自己的强项所在，我善于推动事情向前发展。如果他们擅长长远规划，我们就能携手合作，说：“你擅长这个，我擅长那个。我们为何不携手共进呢？”（00:14:35）  \n所以让我深有共鸣的是，我该如何找到这些不切实际的人？一切进步都依赖于不合常理的人。如何与这些人合作呢？因为我太过理性，根本无法变得不理性，所以我必须与他们合力。所以这也是我特意去寻找的。甚至在2015年创办自己的公司时，我还专门列了一个清单，写下我在多伦多认识的所有不合常理的人，然后逐一拜访这些创业者，探讨我们是否能在API层面兼容，能否合作。最终我选中了其中一人，共同创办了公司。",
+   "ts": "00:13:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is an amazing story. So first of all, I just love this insight that being aware of this is not a superpower of mine and I'm not going to try to build it. I'm going to find someone to merge with, and connect your APIs together and be the person that builds it, not the person that envisions what to build. I think that's awesome because a lot of people... I need to get good at all these things. I need to become the best at vision and strategy and execution and collaboration and then all these things. And so I think alone, this isn't really interesting instead it's just recognize your strengths and weaknesses and double down on your strengths.",
+   "zh": "这真是个了不起的故事。首先，我很欣赏这种洞察力——承认这不是我的超能力，我不会去刻意培养它。我会去寻找能与我合力的人，连接彼此的API，充当那个落地者，而不是空想家。我觉得这很棒，因为很多人……我需要在所有这些方面都变得出色。我需要成为最擅长愿景、战略、执行、协作等各方面的人。而单枪匹马，这其实没什么意思，关键在于认识自己的长处和短处，然后在长处上加倍努力。",
+   "ts": "00:15:15"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, it sounds funny, but me and you talked about it that a framework I wrote down, which I tweet out, me writing that down changed how I picked jobs forever, right? Because I had this lull after my first job in between where I was trying to figure out why nothing felt as exciting as my first job. And it turns out that it took me to sit down and be like, what do I actually care about? And people can get confused. I get confused all the time, by the way, by things that are not on my framework. So for example, a good one, title, company, money, all these things can confuse you because you could have somebody say recruiter messages you and says, \"Hey, by the way, here's a new job and here's the compensation.\" You're like, \"Oh my God, this is exciting.\" And if you don't have a written down framework of the things you actually care about, it's very hard to be distracted. So very hard not to be distracted. You get distracted by that. So instead, I look at the framework and go, does this align with my framework? Right? (00:16:43): Actually to the point of, I actually sent my framework to a recruiter one time and I said, \"Hey, this thing,\" because they kept going back and forth to me and I go, \"Hey, this doesn't align with my framework.\" So it really saves me time from not being distracted, but it also forced me to think about every year I can reevaluate what I'm doing and look at the framework and say, \"Is this true to my values?\" Now, my wife will say this, that I'm like a robot. When I realize that my framework is being violated, I will resign instantly and I've done that before. So without even having another job or anything, I just go like, oh, my framework is being violated and then resign. There's this thing where I know what I enjoy working on, and that framework helps me find it. And so I encourage everyone, anybody looking for a job I always say, \"Write down a framework. You can use mine as inspiration, but figure out what you care about and make sure that what you're working on lines up with that.\"",
+   "zh": "是啊，这听起来挺有趣的，但我和你之前聊过，我写下来的那个框架，我在推特上分享过。写下那个框架彻底改变了我找工作的思路，对吧？因为我在第一份工作结束后，经历了一段迷茫期，总觉得没有什么工作能比得上第一份工作那么令人兴奋。后来我意识到，必须静下心来问自己：我真正在乎的是什么？人们可能会被各种因素迷惑。比如，职位头衔、公司名声、薪资待遇，这些都会让人分心。如果有人给你发招聘信息，说：“嘿，顺便说一下，这里有个新职位和对应的薪资。”你可能会兴奋不已。但如果你没有写下来的核心价值观框架，就很难抵御这种干扰。说真的，我有次甚至把自己的框架发给招聘人员，说：“嘿，这个职位不符合我的框架。”这样既节省了被干扰的时间，又能每年重新评估自己的选择，审视框架，问自己：“这些价值观是否依然真实？”我妻子会说，我就像个机器人。一旦发现框架被违背，我会立即辞职。我以前就这么做过。甚至不找下家，就因为框架被破坏了。这个框架能让我明确自己喜欢做什么工作，也能帮助我找到理想职位。所以我鼓励所有找工作的人：写下自己的框架，可以参考我的示例，但要明确自己在乎什么，确保工作内容与价值观相符。",
+   "ts": "00:15:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And this framework is the questions to ask about where to go work. That's your framework. Okay, cool. We'll link to that so folks can check it out. The example of you resigning when it didn't meet your framework, is that a story you're up for sharing? Is there something to learn from that?",
+   "zh": "这个框架就是用来指导求职方向的。好的，很棒。我们会附上链接，方便大家参考。你辞职的例子能分享一下吗？从中能学到什么经验？",
+   "ts": "00:17:37"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, sure. So this happened when I was at my previous, a few companies ago, we were running a mobile company called Xtreme Labs. That was the one that Chamath was the major investor in and so we worked with him directly. And what I realized was... And so that company was amazing. We worked on it for many years. It was a mobile app development company. We got to work on mobile apps for the biggest brands in the world, Facebook, Twitter, Instagram, Vine, the NFL, NBA, Bloomberg, Slack, you name it we worked on those mobile apps, and this is right when the iPhone and Android were really gaining steam in '09 to 2013 era. And then we eventually got acquired by Pivotal. And over time, my role at Pivotal, Pivotal, and Pivotal Labs changed from, hey, I was running the biggest office in the world. I was running the biggest pair programming office. (00:18:34): I'm a big fan of pair programming to one in which we were really trying to attach consulting to the product. And I ended up being a field CTO, which really, I mean it was fun to learn about that world, but it was different than what I was doing. And so if I looked across my framework, it was violating all the things that I was trying to work. I wasn't working with the smartest people anymore. I was on IC. I wasn't learning as much as I could be learning. And so I wasn't on this and I wasn't having a lot of impact. I was like, oh, wait a sec, this is completely not aligned. And then I just told the team, \"Hey, I plan on resigning.\" And that, by the way, led to great other things because I'm an investor in new companies that have spun out from there and it was a great experience. I'm just saying it at the time, lended me to say, \"Hey, you're not actually focused on the right things.\"",
+   "zh": "是啊，当然了。这事发生在我之前任职的几家公司之一，当时我们运营着一家名为Xtreme Labs的移动公司。查马斯（Chamath）是该公司的主要投资者，所以我们直接与他合作。我意识到……那家公司非常出色。我们为它投入了多年心血。这是一家移动应用开发公司，我们曾为全球顶级品牌开发移动应用，比如Facebook、Twitter、Instagram、Vine、NFL、NBA、彭博社、Slack等等，只要你能叫得出名字的，我们都为其开发过移动应用。正值2009至2013年间，iPhone和安卓系统势头正盛之际。后来我们被Pivotal收购了。随着时间推移，我在Pivotal的角色发生了转变——最初我负责管理全球最大的办公场所，运营最大的结对编程团队。（00:18:34）我非常推崇结对编程，但后来我们开始尝试将咨询服务与产品开发相结合。最终我成为了一名现场CTO，坦白说，我很享受了解那个领域的乐趣，但这与我之前的工作截然不同。回顾我的职业框架，我发现自己违背了所有努力方向。我不再与最顶尖的人才共事，而是处于独立承包状态，无法充分学习新知识。因此，我的贡献微乎其微。我意识到，天啊，这完全不符合我的价值观。于是我直接对团队说：“嘿，我打算辞职了。” 顺便说一句，这次选择带来了丰厚回报，因为我投资了从那里衍生出来的新公司，这是一段美好的经历。我当时只是想说，‘嘿，你们并没有专注于正确的事情。’",
+   "ts": "00:17:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to come back to Xtreme Labs. I know there's other stories there that are interesting, but first I want to talk about another theme of things that people often raised when I asked them about you. And this one is intensity, and it's specifically creating intensity in your organization and the value of that, the power of that. I've seen that the way you describe this and I love is how do you expend more kilojoules per hour versus spend more hours on work. So talk about just why intensity, first of all, is so important to an organization.",
+   "zh": "我想再谈谈Xtreme Labs。我知道还有其他有趣的故事，但首先我想探讨另一个主题——当我询问人们对你的看法时，他们经常提及的一个主题。那就是“专注力”，以及在组织中创造专注力的重要性及其价值。我注意到你对此的描述，我很欣赏你提出的观点：如何在单位时间内输出更多价值，而非单纯延长工作时长。首先，请谈谈为什么专注力对组织如此重要。",
+   "ts": "00:19:20"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah. So I think there's a few things. One, I have this fundamental belief that one hour is one hour. It's the same hour. If you spend an hour or I spend an hour, it's the same time that goes by. And if I just expend more calories in that hour. Let's say we both work nine to five. If I can just get more done in the nine-to-five, we have both... The time has elapsed the same for us, but I just got more done. And that allows me, of course, then I'd be like, \"Hey, I'm going to take my kid to soccer and do other stuff.\" We can still do the same things out of work, but during work, I just want to try to get as much done as possible during the time versus expanding the time and I can give you an example. I used to work at a company where it was like I worked 12 hours a day, but I was playing foosball in the middle of the day. (00:20:37): And then we'd go for a coffee break and you do these things. And of course, the time expanded to 12 hours versus trying to compress into that eight-hour day. And pair programming is a great example because, so it's such an intense activity. Two people on one machine, you can get so much done when two people are working together, not being distracted by the internet and distractions, and just focus on writing the solution to the problem at hand. And it's so tiring that usually when people switch on to pair programming, they sleep 10 to 12 hours a night the first few nights because it's so intense. You're working so hard. But for me, that intensity actually leads to extraordinary outcomes even if you don't have to put in more hours. I think most people, you probably hear this all the time, everyone says, \"Oh yeah, work hard and do more hours when you're young, whatever.\" (00:21:26): I'm like, what if you just did more per minute? Like quickly get through things. I think there's another unintuitive fact is that people who are really good can actually output high-quality collateral quickly. So take a person who is good and extremely good, the extremely good person can actually get a lot of output in a short amount of time, and the person who's good might take longer. I think there's a time variance there that people don't think about. So you can not drop the quality too much, but get the time down by 2X, 3X, right? Parkinson's Law of scale instead of, if I give you an hour to do something, a really good person can get a high-quality output in one hour.",
+   "zh": "是的。我认为有几个关键点。首先，我坚信一小时就是一小时。时间是固定的，无论你还是我，每个小时流逝的时间都是一样的。如果我能在这一个小时内完成更多工作——假设我们都朝九晚五上下班——那么虽然我们的时间消耗相同，但我却能完成更多任务。这样一来，我就可以腾出时间去做其他事情，比如带孩子去踢足球。下班后我们依然可以做自己想做的事，但在工作时间里，我只想尽可能高效地完成任务，而不是把时间拉长。我可以举个例子。我曾在一家公司工作，虽然每天工作12小时，但中午我会玩桌上足球，休息时间也各种摸鱼。当然，时间就这样被拉长到了12小时，而不是专注于如何在8小时内完成更多工作。对程式设计而言，结对编程就是一个很好的例子。两个程序员共用一台电脑，专注于解决手头的问题，不受网络和其他干扰影响，效率极高。但这种高强度工作通常会让人筋疲力尽，刚开始转向结对编程时，很多人前几晚都会睡10到12个小时，因为实在太累了。但对我而言，这种高强度反而能带来非凡的成果，即便不需要投入更多时间。我想大多数人可能都听过这种说法：“年轻时多努力工作，多加班，等等”。（00:21:26）但我更想说，如果能提高每分钟的效率呢？比如快速完成任务。我还发现一个反直觉的现象：真正优秀的人能够快速产出高质量的成果。以两种水平的人为例，优秀的人能在短时间内完成大量工作，普通人则需要更长时间。这是人们通常忽视的时间差异。只要不牺牲质量，把时间缩短2倍、3倍，难道不香吗？这就是帕金森定律的反面——不是说“给一小时做事”，优秀的人能在一小时内产出高质量的成果。",
+   "ts": "00:19:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to talk about how you create an org that operates this way, but specifically, you just mentioned pair programming. I know that's one of your favorite tools. Talk about why this is so powerful when you recommended... I think as an outside observer, it's like two engineers on the same code. Why wouldn't we do things half as fast? Talk about just why you're a big fan of pair programming specifically.",
+   "zh": "我还想谈谈如何打造一个以这种方式运作的组织，但具体来说，你刚刚提到了结对编程。我知道这是你最喜欢的工具之一。能否谈谈为什么它如此有效？作为局外人来看，就是两个工程师共同编写同一段代码。为什么他们不会工作得更慢呢？能否具体说说你为何如此推崇结对编程？",
+   "ts": "00:22:07"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "It is the most underutilized management tool in engineering, bar none. It is just not used as much as it could be. So pair programming, for those who don't know, it's two people on one computer. So two keyboards, two mics, two monitors, but one computer, they work together and if it's remote, they use it. You can use a tool like tuple, which we use, and you can just remotely be on one computer, and you're totally right. The famous tweet about pair programming is, wait a sec, we have two engineers on one computer, won't they write half as much code? And the answer is, oh, no, no, they'll write even less than that because it's not about lines of code. The throughput limiter is not hands-on keyboard. It's not like we're both sitting there and the limiter is like us trying to get through the keystrokes onto the screen. (00:23:12): The limiter is where is the good elegant solution? How do we think through the problem and build the right solution for the problem at hand? Tobi famously built a lot of Shopify paired programming, and what he would do is he would actually set a timer and him and the CTO Cody would pair program for one hour. And if they did not finish the problem in one hour, they would delete all the code and they would keep the tests and they would start over. And then what their thinking was, if we were not able to articulate and write the code for this feature in one hour, we must be on the wrong design. We must be building the wrong thing and so they delete all the code, kept the tests, and then wrote it again. And sometimes he'd be over by one minute and he would still delete the code and start over because his thinking was the right elegant solution should be able to be written in one hour. (00:24:03): And so pair programming, I mean, that's an extreme version of it, but even at Pivotal Labs, if your pair was sick that day and you wrote a bunch of code, the strong version is your pair would come in the next day, delete all the code that you wrote, and then you'd write it again the next day. And again, what better time to rewrite code than right after you've written it because you now know the problem domain? And by the way, it sounds like a waste of time. It sounds like I'm just deleting code but the reason is that code lives a long time. Code is a liability and the right solution, the usually shorter lines, more elegant solution tends to appear after you've done a bunch of pathfinding. And the only way to do that pathfinding is start and then delete and then start and be like, oh, no. (00:24:47): Now I know. Delete. And it's super hard to delete, by the way, because we're humans and we have this sunk cost fallacy, so it's hard to delete. But if you can do that, you will actually land upon a much, much better solution. And of course, pair programming has high, high rates of learning because you're just sitting beside... You're not only whether it's tuple or remote or directly, you learn keystrokes and you learn how somebody thinks about a problem. You go back and forth on the talking, and yes, you will write probably less code, but you will move faster along the path of delivering value for your customers than you would if you did it on your own. And there's all these studies that show happiness is higher, knowledge transfer is higher, less silos, intensity is higher, all the things. And at a price of 20% or something of what you would normally do. (00:25:33): The analogy I have is the underhanded free throw in basketball, statistically known to sink more baskets, but looks dumb and nobody does it. Literally, Shaquille O'Neal, I'm not that big a basketball fan, but I read this about Shaquille O'Neal, who's a Hall of Famer, and they said, \"Why don't you throw underhand?\" Because he was notoriously bad at free throws and he goes, \"It looks dumb.\" Even though he's paid millions of dollars a year to do this thing. It looks dumb, doesn't want to do it.",
+   "zh": "它是工程领域最被低估的管理工具，无人能及。只是人们没有充分利用它。那么，什么是结对编程呢？对于不熟悉的人来说，就是两人共用一台电脑。也就是说，两套键盘、两个麦克风、两块显示器，但只用一台电脑。他们协同工作，若是远程合作，就可以通过工具如Tuple（我们使用的平台）实现远程共享一台电脑。没错，结对编程的核心不在于敲多少代码，而在于如何高效解决问题。著名的结对编程案例是Shopify的Tobi和CTO Cody，他们会设定一小时的编程时限，若一小时内未完成任务，就会删除所有代码，保留测试从头再来。他们的逻辑是：如果一个功能的代码在一小时内写不出来，那说明设计有问题，我们必须重新构思方案。（00:23:12）\n\n结对编程的极端版本是，Tobi曾与CTO Cody在一小时内完成某个功能的编程，若未达成目标，他们就会删除所有代码，保留测试重头再来。Pivotal Labs也有类似做法：若结对伙伴生病，编写的代码会被删除，次日重新编写。（00:24:03）\n\n结对编程看似浪费时间，但删除代码实则有深意。代码是沉没成本，重写代码能让问题更清晰。（00:24:47）\n\n结对编程极大促进学习：通过实时交流，双方不仅能掌握编码技巧，更能领悟对方的思维方式。（00:25:33）\n\n结对编程成本仅为传统开发的20%，但带来诸多益处：提升幸福感、知识共享、消除隔阂、提高效率等。\n奥尼尔，我对篮球不是很感兴趣，但我读到过关于名人堂成员沙奎尔·奥尼尔的报道，他们问他：“你为什么不尝试用手臂下方投篮？”因为他在罚球方面出了名的糟糕，而他回答说：“那看起来很蠢。”尽管他每年能赚数百万美元做这份工作，但他就是觉得那动作太难看了，根本不想尝试。",
+   "ts": "00:22:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I remember those Shaquille O'Neal years when he had a special free throw coach, and I remember them talking about this-",
+   "zh": "我记得沙克·奥尼尔效力湖人队的那些年，他有专门的罚球教练。我还记得人们谈论这件事时——",
+   "ts": "00:25:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... When he hit a special free throw coach. And, I remember them talking about this and he's like, \"No, I'm never going to do that.\"",
+   "zh": "……当他成功投中一记特别的罚球时。我记得他们谈论此事时，他说\"不，我永远不会那样做。\"",
+   "ts": "00:26:00"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "\"I'm never going to do it.\" Because it looks dumb. And by the way, go back to the beginning of the interview. I don't care what looks dumb or looking stupid, we're going to do this. And so, actually, I ran the biggest pair programming shop in the world.",
+   "zh": "\"我永远不会那么做。\"因为那看起来很傻。顺便说一句，回到采访开头。我不在乎什么看起来傻或显得愚蠢，我们要坚持下去。所以实际上，我曾运营过全球最大的结对编程团队。",
+   "ts": "00:26:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On that note, so what percentage of shop Shopify do this? Is this how y'all operate?",
+   "zh": "说到这，Shopify团队中有多少人采用这种方式？这是你们的运营模式吗？",
+   "ts": "00:26:15"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah. So, Shopify, I mentioned that Toby and Cody did this at the beginning of Shopify. And the cool thing about pair programming is, and in my old world at XtremeLabs is that we knew exactly what to build, because we were building mobile apps that were almost like contract manufacturing. We're like, \"We have an iOS version. Can we build an Android version?\" So, we quickly were able to say, \"Here's the spec. Go quick.\" Shopify is such a different company, right? We are a pathfinding company. We are trying to find the right thing to build. And so, pair programming may or may not make sense all the time. Like Pivotal and Xtreme, we were doing 40 hours a week. (00:26:54): Shopify is much more of a four to eight hour a week pair programming culture, where you're gathering together on a problem and saying, \"Hey, let's pair for half a day, or let's pair every Wednesday.\" And we use that tool in our arsenal to move quickly down a path. But a lot of other time is spent pathfinding and trying to figure out what to build, and trying to convince field be like, \"Hey, we're going to go down this path. Oh, now I know exactly.\" (00:27:16): And sometimes, by the way, 18 months later, we've now figured out all the things and that's the time we should delete everything and start over. And, that's something that we will do at that point. And so, you don't want to be pair programming for 18 months. You want to be wayfinding and pathfinding. And then go, \"I see the matrix. Let me just delete everything and now build it.\" Because the learning is what you're going for. We have all the learning, now let's write the code.",
+   "zh": "是的。Shopify早期，我提到托比和科迪就这么做了。结对编程的妙处在于，在XtremeLabs的旧团队中，我们清楚要开发什么产品，因为我们开发的移动应用几乎像合同制造一样。我们会说：“我们有iOS版本，能不能开发安卓版本？”所以我们能迅速说：“这是规格说明，快去开发。”Shopify则完全不同，对吧？我们是一家开拓性公司，不断探索正确的开发方向。因此，结对编程未必总是适用。在Pivotal和XtremeLabs时期，我们每周投入40小时。（00:26:54）：Shopify则更倾向于每周4到8小时的结对编程文化，大家聚在一起解决问题，说：“嘿，结对编程半天吧，或者每周三都结对。”我们用这种工具快速推进开发。但大部分时间都在探索方向、确定要开发的内容，并说服团队：“嘿，我们要走这条路了。哦，现在我完全清楚了。”（00:27:16）：顺便说一句，有时18个月后，我们才搞清楚所有问题，这时我们就该删掉所有代码重新开始了。到那时，我们才会那么做。所以你不会想结对编程18个月。你需要探索和开拓方向，然后说：“我看清了全局，删掉所有代码，重新开始吧。”因为学习才是关键。我们已经掌握了知识，现在就去写代码。",
+   "ts": "00:26:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So it's basically, when the code, you're pretty sure this is correct and it's really important segments of the code base pair program.",
+   "zh": "明白了。所以基本上，在代码特别重要且复杂的部分，你们会选择结对编程。",
+   "ts": "00:27:39"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah. And then also we do a lot of pairing during an incident or a way to figure out together, work with somebody and say, \"Hey, I'm not really sure and let's jump on a call together or jump on a tuple and go down the path.\" And say, \"Let's figure out together what's going on.\"",
+   "zh": "是的。此外，我们在遇到问题时也会经常结对编程，比如一起分析问题、与同事沟通说：“嘿，我不太确定，让我们开个电话会议或用Slack一起解决。”然后一起理清思路。",
+   "ts": "00:27:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I can't help but ask AI, how does that impact this way of working?",
+   "zh": "我不禁想问AI，这对这种工作方式有什么影响？",
+   "ts": "00:28:01"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "So, AI is super interesting. What's happening right now with an AI copilot like GitHub Copilot is it is your pair programmer. So, you now can feel like you're pairing actually without another human. You can pair with the AI. And so, what's happening too is that you're seeing people use Whisper, like they're talking to Cursor, and they're talking through Whisper to say, \"Okay, let's build a new React component that does this.\" And they're talking and then it's building. \"Oh no, that's not what I meant. I meant doing this.\" So you can actually not even have to type, just using voice, go back and forth with your pair programmer. (00:28:35): I would say, that's amazing. I would still contend take that experience and add two humans together. So you've got an AI copilot and humans, because what's happening is generating code. And the two humans can look and say, \"Oh, I know what it's trying to do.\" And, either delete the code, because you have inspiration and write it yourself, or just take the suggestion and move it forward. But, I love today's world of AI copilots, because you never have to code loan on your own right? You never have to code alone. You can try a different language now, because the API and the syntax is much easier to pull forward. And so, all of those things are a win for engineering and a win for everybody who wants to build any software.",
+   "zh": "嗯，人工智能确实非常有趣。目前像GitHub Copilot这样的AI副驾驶功能，它就像你的编程搭档。现在你甚至无需面对面合作就能感受到这种协作体验——你可以和AI进行编程对话。比如，用户会使用Whisper平台，就好像在和Cursor对话一样，通过Whisper平台发出指令，比如“好的，我们来构建一个新的React组件来实现这个功能。”然后AI会根据指令进行代码生成。用户可能会说：“不对，我不是这个意思，我是想这样做。”这样一来，你甚至无需动手敲代码，只需通过语音与AI进行交流即可。\n\n（00:28:35）我觉得这太棒了。但我还是更倾向于让两个人一起合作——一个AI副驾驶和一个真人程序员。毕竟编程本质上是代码生成的过程。两个人可以一起审视代码，说：“哦，我明白它的意图了。”然后要么删除代码，发挥自己的创意重新编写，要么采纳AI的建议继续推进。但我真的很喜欢当今的AI副驾驶技术，因为你再也不用独自编程了。现在你可以尝试不同的语言，因为API和语法都变得更易于上手了。总之，这对工程师和所有想要开发软件的人来说都是一大利好。",
+   "ts": "00:28:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That makes a lot of sense. Basically, everyone's going to be a pair programmer-",
+   "zh": "这说得很有道理。基本上每个人都会成为编程搭档——",
+   "ts": "00:29:14"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yes, exactly.",
+   "zh": "是的，没错。",
+   "ts": "00:29:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... In the future. Okay, I want to come back to what else you have done at Shopify to create intensity. And I think, again, it's important to highlight the intensity is meant to, \"How do we get more done in the time we have and then go home?\" Not just work all day every day, weekends kind of intensity.",
+   "zh": "……在未来。好的，我想再回过头来谈谈你在Shopify为提升工作效率所做的其他努力。我觉得，再次强调，提升效率的核心在于“如何在有限的时间内完成更多工作，之后再回家？”而不是每天从早到晚埋头工作，周末也无休止地加班。",
+   "ts": "00:29:18"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah. So we have a few things that we have going for us, right? So one, we have this tool called GSD, which stands for get shit done, which you've probably heard from maybe talking to other Shopify folk, which is this notion of weekly updates to the whole company on what's happening. Again, Parkinson's law at scale. If you ask people every week, they want to show progress every single week. So that's one way I talked about pair programming as well. The other thing we do as a company is, we used to have twice a year was our cadence, Black Friday, Cyber Monday, or we had an event in the summer. And now, we do six-week reviews. So, teams have this notion of every six weeks actually coming together and walking through the roadmap, the resourcing, and what they're working on with their immediate leadership, but then also, with Toby. (00:30:18): And so, what's cool about that, and by the way, it's a huge time investment, right? We all get into a room, it's happening tomorrow. So Tuesday, Wednesday, Thursday, a bunch of us will be in the office together and we're going to go through every project in the company, and we're going to talk about the project, the resourcing, how it's going, and we're going to make changes. And again, that creates intensity, because you want to show what has been done, what have you learned since the last six-week review. And, we find six weeks is a very good cadence, because it's short enough that you can remember the context and it's long enough... Six weeks is long enough, especially if you have, let's say, a team of a dozen engineers, you can do a lot. And not only that, you can do a lot in a day, but this is a check-in point. (00:30:59): And what I've noticed too with intensity is, let's say, we get a review and there's some feedback we get in that review. We don't wait until the next six-week review, right? The next day we are building things, we are iterating, we are tagging people. And then, by the next week's we're like, \"Here's the trajectory.\" Right? Actually, I want to get that Elon shirt made, \"What have you done this week?\" Because, Parkinson's law is real. It sounds funny, but I keep bringing this up, but whatever time you allot to something will be the time it takes, right? (00:31:26): So, if you're doing something monumental, I don't know, you're doing a reorg or something, right? You can do it the slow way. \"Let's sit down, and plan, and roll it out.\" And it's probably six months in most companies. Shopify, this is a week or two. You sit down, you're like, \"Hey, this is the bones of it. Let's bring some more people and think.\" But then, it's going to start leaking. So we just launch it. Right? And, we do the same thing with lots of things. We just try to move more quickly and get out of the... We don't do change management, we just land it, and then go, \"Hey everyone, it's a volatile company. This is what's happening. But this is how we get things done quickly.\" And then, move on with our lives.",
+   "zh": "是啊。所以我们有几个有利因素，对吧？首先，我们有一个叫GSD的工具，全称是Get Shit Done（把事情做完），你们可能听其他Shopify员工提过。这是一种每周向全公司汇报进展的机制。这其实就是帕金森定律在大规模应用——如果你每周都问大家进展如何，他们就会想每周都展示成果。\n\n另外，我们公司还推行了六周评审机制。过去每年有两次大型活动，分别是黑五和网一，现在改成了每六周一次。每个团队每六周都会聚在一起，回顾路线图、资源配置和当前进展，同时与直属领导和托比一起讨论。（00:30:18）这种方式很棒，但投入巨大——明天（周二、周三、周四）我们会召集所有人，花一天时间逐一审查每个项目，讨论进展、资源配置和改进方向。这能激发团队热情，因为大家要展示成果、分享经验，及时调整计划。六周周期恰到好处——既短到能清晰记忆上下文，又长到能完成大量工作。\n\n（00:30:59）我还发现，高强度推进机制很有效。比如评审后收到反馈，我们不会等到下次六周评审才行动。第二天就能开始迭代、分配任务。到下周，我们就能汇报进展：“这是当前路径。”对吧？比如我要把那件埃隆马斯克主题T恤做出来，问“这周做了什么？” 因为帕金森定律真实存在。听起来很搞笑，但我一直强调——你分配给某件事的时间，往往就是它完成所需的时间。\n\n（00:31:26）比如大规模重组？没错，你可以慢慢来——“坐下来规划，再逐步实施”，但大多数公司要花六个月。我们只需一两周。先定框架，再集思广益，然后迅速上线。我们在很多事上都这样操作，快速推进，不搞变革管理，直接落地，然后告诉大家：“我们是高成长公司，变化不可避免，但我们认为快速行动更重要。”然后继续前进。",
+   "ts": "00:29:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, there's so much there. I have been through the six-month reorgs. And, I think that context you just shared of, \"We're at a volatile company, we're changing things. It's not going to be smooth, but we think this is for the best.\" It's just the culture of Shopify. It sounds like, \"We want to keep moving fast. We know this isn't going to be the smoothest thing, but we just know this better to make the change at this point versus wait.\"",
+   "zh": "哇，内容真多。我经历过六个月的重组过程。你们刚才提到的“我们是高成长公司，正在变革，过程不顺利，但这是正确的选择”，这就是Shopify的文化。听起来像是“我们要保持快速前进，知道这不会一帆风顺，但我们认为此刻变革比等待更重要”。",
+   "ts": "00:32:00"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "It's how Toby increased the resiliency in the company. He would walk around in the old days when we had a data center and just unplugged machines, right?",
+   "zh": "这就是托比如何提升公司的韧性的。过去我们有数据中心的时候，他会四处走动，直接拔掉机器的电源，对吧？",
+   "ts": "00:32:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Chaos monkey.",
+   "zh": "\"混沌猴\"。",
+   "ts": "00:32:32"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, chaos monkey. You're right. But that actually works, because it just says, \"Hey, by the way, shit's going to break. And so, let's be resilient to that.\" And so, same thing here. \"Hey, by the way, someone's going to move your cheese. It's fine. We are here to create more entrepreneurs in the world. We're not here to have a six-month change management roadmap. And, that will just actually hurt the speed at which we can deliver value to merchants.\"",
+   "zh": "对啊，“混沌猴”。你说得没错。但这招确实有效，因为它就是在告诉大家：“嘿，顺便说一句，系统可能会出故障。那么，让我们对此保持韧性。”这里道理也一样。“嘿，顺便说一句，总有人会来‘偷走你的奶酪’。不过没关系。我们来这儿是为了培养更多创业者，不是为了制定长达六个月的变革管理路线图。那样只会拖慢我们为商家创造价值的速度。”",
+   "ts": "00:32:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, on all the things you shared, so there's weekly updates. So the weekly updates are each person shares what they're working on for the week. Is that the idea?",
+   "zh": "所以，关于你提到的这些内容，每周都有更新。每周更新就是每个人分享自己当周的工作进展。对吧？",
+   "ts": "00:32:52"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Each project.",
+   "zh": "每个项目。",
+   "ts": "00:32:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Each project.",
+   "zh": "每个项目。",
+   "ts": "00:33:01"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "So, each project, it has an update, it might have a video of, \"Here's the experience.\" It'll have a obviously a bunch of writing on what's changed since last time. We have a process called OK1 and OK2, which is like, OK1 is typically at the director level where they're like, \"Okay, I'm aligned with the direction that this is going at.\" Or, \"I'm not aligned.\" And they can make changes. Then, when it goes to OK2, it's typically the VP level of the area, who's now looking to say, \"Okay. What you're working on actually aligns with the overall architecture. But by the way, have you looked at this context? Maybe you haven't seen this, this is happening, or the industry.\" And so, you're trying to align at that level. And then, again, like I mentioned, every six weeks we go through with Toby, and he's an intense guy himself. (00:33:40): And so, a lot of it is like, \"Hey, why is this taking so long? Are we overthinking it? Are we not trying to move forward on this thing, because we're blocked on something? Is there some piece of infra?\" Actually, I'll give you a good example. In one of the reviews from last time, there was an interesting AI problem we were trying to solve with LLMs that required us to have a very large output context window. And, most of the LLMs today have a very small output context window. But in the review, right, we have shared Slack channels with all the LLM folks, right? I messaged in the open AI channel, I messaged in the Gemini channel, whatever. And, within an hour we had increased the context on a bunch of major models and we were able to move forward through the thing, just because I asked. (00:34:29): And so, that's an example. It didn't take another six week review, but it increased the intensity, because the team was like, \"Oh, we were blocked because we thought we had to now chunk up this data and do this thing because we had smaller output context and we thought we could do a big input context, but we'd have to do this caching.\" And, it was like this whole thing. I'm like, \"Well, did we just ask them if we get bigger?\" And then, they were like, \"Oh, we don't have this as undocumented, but we'll just enable it right now for Shopify.\" And so, that created the intensity of the team to be like, \"Oh, we can now quickly get unblocked.\" So that's the example of just moving quick and trying to just, again, ask a dumb question. I'm like, \"This is probably not possible, but...\" And then, they came back and said, \"Oh yeah, we can do that.\"",
+   "zh": "因此，每个项目都会进行更新，可能会有一个视频，展示“项目进展情况”。显然，项目更新还包括对上次迭代后所做更改的详细说明。我们有一个名为OK1和OK2的流程。OK1通常由项目主管层级把控，他们会评估项目是否与既定方向一致，或者是否存在偏差，并进行必要调整。进入OK2阶段后，则由副总裁级别的人员负责审查，确保项目符合整体架构，同时兼顾行业背景和最新动态。\n\n每六周，我们会与Toby（注：可能是指某位高管）进行评估，他是个要求严格的人。我们会反复追问：“为什么进展如此缓慢？我们是否过度思考？是否因某个技术瓶颈而停滞不前？是否存在基础设施层面的问题？”举个例子：在上次评审中，我们试图用LLM模型解决一个AI问题，需要设置非常大的输出上下文窗口。但目前大多数LLM模型的输出上下文窗口都很小。于是，我在公开的AI频道、Gemini频道等地方发消息询问，仅一小时内，就有多个主流模型成功提升了上下文窗口。这就是高效协作的典范——团队原本以为需要分割数据才能实现大规模输出上下文，但实际上只需启用相关功能即可。",
+   "ts": "00:33:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a great example. And, as you're describing the ways that you create intensity and velocity within Shopify, it's interesting that what you're listing is a bunch of meetings and check ins, which to most people would feel like, \"Why do we need so many...\" There's all this like, \"Less meetings.\" And I know you guys famously cancel all your meetings and that's a whole thing we can talk about. But, it's interesting that more check ins and regular check ins allow you to move faster. I imagine it's partly because it just makes sure you're not working on things that are unnecessary, and dumb, and not going to be used. And it's just continue to refine, these are actually the most important.",
+   "zh": "这真是个绝佳的例子。虽然没有经历完整的六周评审周期，但通过紧急协调解决了问题，效率极高。因为团队意识到，之前的技术瓶颈源于误以为必须将数据分割成小块才能处理大规模输入上下文，却忽略了现有模型支持更大上下文的功能。通过直接启用该功能，团队得以快速突破技术壁垒。这充分说明，关键在于提出看似愚蠢的问题：\"有没有可能实现？\"而对方给出肯定答复时，团队就能迅速行动。",
+   "ts": "00:35:03"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I mean, it's a combination of trust but verify, right? Because don't forget, the goal of the check-in is not for you to be like, \"Ha, ha, I caught you not doing your work.\" It's not like the Dilbert boss, \"Hey, did you do your thing?\" Right? Even when I look at the Elon text, which is like, \"Hey, what did you get done this week?\" It wasn't to try to catch Parag in a, \"You didn't do anything or you did a bunch of useless stuff.\" It was hopefully to pair on the problem, meaning, when I ask somebody, \"Hey, did we move forward on this LLM project, because we now have this larger context window?\" And then, they came back and said, \"Oh, here's what we learned.\" So then, I can then look at the answer and say, \"Oh, so now, have you thought of this? Have you tried...\" It's a way to pair on the problem. (00:36:18): So, we have this word, everybody talks about micromanagement as a word, and we don't actually think it's a dirty word at Shopify, but the reason we don't think it's a dirty word is because it's not just, again, Dilbert boss saying, \"Where did you do the thing?\" It's like, \"Hey, can I work on this problem with you? And if I work on this problem with you, I got to see where you are pretty often, and then give you advice, or you're going to share context with me, because I'm not in the work every day.\" To then come back and say, \"Oh, based on what I know and what you know, can we move this in this direction? Maybe that's better for merchants.\" (00:36:50): I don't want to overuse the pairing paradigm, but it is really much like, \"Can I pair with you?\" And I learned this actually very early in my Shopify tenure, because Toby would have these one-on-ones with me and I'd be like, \"Toby, you don't have to waste your time, man. You hired me. I got this.\" Well, he goes, \"Oh, you misunderstand why you're here. We are here to work on problems together.\" And I was like, \"Oh, I didn't even think...\" I thought he hired me to take problems away. He hired me to work on problems with me. That's completely different than what I thought.",
+   "zh": "我的意思是，这是一种\"信任但要核实\"的组合，对吧？因为别忘了，开会的目的不是让你得意洋洋地说：\"哈，哈，我抓到你没做工作了。\"这可不是《呆伯特》里老板那样的态度，\"嘿，你今天做了什么事了？\"对吧？就连埃隆发的那条短信，\"嘿，这周你完成了什么？\"也不是为了抓帕拉格没做事或者做了些无用功。希望是能一起解决问题——比如，当我问某人：\"嘿，我们在LLM项目上有没有进展？因为现在我们有了更大的上下文窗口。\"然后他们回复：\"哦，我们总结了这些经验。\"这样我就能看他们的回答，接着说：\"哦，那你有没有考虑过这个？有没有尝试过……\"这就是一起解决问题的方式。（00:36:18）：所以，我们常提到微管理这个词，但在Shopify，我们并不认为这是个贬义词。之所以不认为它是贬义词，是因为这不只是《呆伯特》里老板那种\"你今天做了什么事了？\"的模式。而是像这样：\"嘿，我能和你一起解决这个问题吗？如果我和你一起解决这个问题，我得经常了解你的进展，然后给你建议，或者你得和我分享上下文，因为我没法每天参与工作。\"然后再反馈说：\"哦，根据你我掌握的信息，我们能朝这个方向推进吗？也许对商家更友好些。\"（00:36:50）：我不想过度使用\"一起解决问题\"这个模式，但它的本质确实是\"我能和你一起解决问题吗？\"我很早就在Shopify就学到了这一点，因为托比会和我开一对一会议，我当时会说：\"托比，你不用浪费时间的，伙计。你雇佣我来是让我解决问题的。\"他却说：\"哦，你误解了你在这里的意义。我们是来一起解决问题的。\"我当时就说：\"哦，我都没想到……\"我以为他雇佣我是为了让我接手问题的。但他雇佣我是为了和我一起解决问题。这和我的想法完全不同。",
+   "ts": "00:35:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Okay. One thing you mentioned is meeting thing. For people that don't know what you all did with meetings, I think it might be worth just sharing that briefly, because it's awesome and something a lot of companies can learn from.",
+   "zh": "我太喜欢这个了。好的。你提到的一个点是关于会议的。对于不了解你们会议模式的人来说，可能值得简单分享一下，因为这很棒，很多公司都能从中借鉴。",
+   "ts": "00:37:18"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, sure. Actually, the funny story about the meeting Armageddon, is that, I was messaging Toby prior to me starting at Shopify about meeting Armageddon. And so, I actually think I had a little hand in him doing this before I got to Shopify. I was like, \"Hey, have you seen...\" I think it was Dropbox, \"Have you seen a Dropbox is doing and Meetingageddon? And so, he was like, \"This is super interesting.\" This is years before I started. So, I think it's funny that it ended up being a real thing. But here's what we do. Once a year at a random time, we will delete all recurring meetings that have more than two people, so not one-on- ones, and are internal people only, so not interviews or external partner meetings. And then, we have a two-week moratorium where you're not allowed to add a reoccurring meeting. You can have a regular meeting, but not a reoccurring meeting. (00:38:11): And the idea is that there's a lot of inertia behind a recurring meeting. It just always is there, and you know it's coming up, and it's hard to delete, because you're like, \"Oh yeah, we talk about this thing every week.\" And so, what we do is we just do a meeting reset. And, I think, yeah, it's just called chaos monkey and the admins go in and just delete everything. Now what's cool about it is, it forces you to rethink, \"Do we need a recurring meeting? Or do we just need one meeting? Or do we need a different cadence?\" That's one thing. The other thing is it frees up so much crafter time, right? (00:38:42): One of the stats I track across engineering is how many hours are individual contributors in meetings per week? And we noticed that after we did... We did two things by the way. And I have a spicy second one for this, but the first one was we deleted meetings. And the second thing we did was we moved a lot of our Slack into Facebook workplace, which I'll talk about. Those are the only two things we did. And we saw a huge decrease in the amount of time crafters were in meetings. And then, we saw all kinds of other productivity enhancements, because they were able to have that flow time and work on things. (00:39:12): So, we're at something like three hours of meetings per week for an individual contributor at Shopify, which is phenomenal. Three hours a week is amazing. I think managers is not that bad. I think I tweeted this. I think it's six or seven hours per week. That's not bad at all, in order to get aligned. And then, all the rest of the time is work time.",
+   "zh": "是的，当然了。其实关于“会议末日”（Meetingageddon）的趣事是，在我加入Shopify之前，我曾给托比发消息，提议开个会讨论这个项目。当时我觉得自己对他后来开展这个项目有点功劳。我当时说：“嘿，你看过Dropbox做的一个叫‘Meetingageddon’的项目吗？”他回答：“这太有意思了。” 这比我加入Shopify早好几年。所以现在想起来觉得挺巧的，结果它还真成了现实。不过我们现在的做法是，每年随机选个时间点，删除所有重复召开且参与人数超过两人的会议——不包括一对一会议，也不包括内部人员参加的会议，比如面试或外部合作伙伴会议。然后会有两周的禁令期，期间不允许添加任何重复召开的会议。可以开普通会议，但不能是重复召开的会议。（00:38:11）这样做的原因是，重复召开的会议背后有很强的惯性。它总是存在着，人们知道它即将到来，又很难删除，因为你会想：“哦对，我们每周都会讨论这个事。” 所以我们就通过这种方式重置会议安排。我觉得这叫“混沌猴子”策略，管理员会进去，直接把所有会议删掉。现在最酷的是，它能迫使人们重新思考：“我们真的需要重复召开的会议吗？还是只需要一次性会议？或者调整会议频率？”这是一方面。另一方面，它能释放出大量工作时间，对吧？（00:38:42）我追踪的工程部门数据之一是每个贡献者每周参加会议的时长。结果发现，在我们采取措施后——顺便说一下，我们做了两件事。第一件事是删除重复召开的会议。第二件事是把很多Slack聊天迁移到Facebook Workplace（我稍后会讲到）。这就是我们做的两件事。结果我们看到贡献者参加会议的时间大幅减少。随之而来的是各种生产力提升，因为他们能够专心工作了。（00:39:12）现在Shopify每个贡献者每周参加会议的时间大约是三个小时，这太棒了。三个小时太惊人了。我觉得经理们的会议时间也不算太糟。我记得我发过推特，说他们每周有六七个小时用于对齐工作。剩下的时间都是工作时间。",
+   "ts": "00:37:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And how many hours was it before Meetingageddon and Workplace?",
+   "zh": "那在“会议末日”和迁移到Workplace之前，会议时长是多少？",
+   "ts": "00:39:29"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, you're asking me a good question. I have to go look and see. But, it came down by something like 50 or 60%. It was something like five or six hours for individual contributors and came down to three. And then, the managers, I think it was 10 that came down to 6, something like that. But it was a huge difference. And the only two things, like I mentioned, were one was the Meetingageddon, the other one was like this, and I can talk about this. This is a-",
+   "zh": "是啊，你问了个好问题。我得去查一下。但减少了大概50%到60%。之前每个贡献者每周参加五六个小时的会议，现在降到了三个小时。经理们之前是10个小时，现在降到了6个小时左右。变化非常大。正如我提到的，就做了两件事，一是实施“会议末日”，二是迁移到Facebook Workplace。这些都是关键因素。",
+   "ts": "00:39:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yes, let's talk about this.",
+   "zh": "是的，我们来聊聊这个吧。",
+   "ts": "00:39:53"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "... Yeah. So, I mean, I love Slack. It's the IM tool. Everybody uses it. But it can for sure cause distraction. And so, what we did was we moved all announcement information. So, anytime you're sending a status update or large group announcement, we moved all of that to Facebook Meta Workplace, like Facebook for work basically, which is now being deprecated. So, we'll have to figure that out. But, it just moved all this stuff to a ML feed that you can consume differently than you would Slack, because Slack is like I message you and you see an alert and all this stuff, versus Workplace is like, \"Oh, I want to go and consume content from the company, and get updates, and share updates.\" And so, that reduced a lot of distraction as well. And so, I'd love to figure out what the next tool for us is, but it is probably something more like a river of information that I can dip my toe into, versus IM and chat everywhere.",
+   "zh": "嗯……是的。我的意思是，我喜欢Slack。这是个即时通讯工具，大家都在用。但它确实容易让人分心。所以，我们把所有公告信息都转移了。比如，每当你发送状态更新或群组公告时，我们就把这些内容迁移到Facebook Workplace（基本上就是Facebook的企业版，不过现在这个平台正在逐渐退役）。所以，我们得另想办法。不过，这些信息都被移到了一个机器学习信息流里，用户使用体验和Slack有所不同。Slack是那种我给你发消息，你收到通知然后查看内容的模式，而Workplace则更像是“我想要去获取公司的信息、接收更新并分享动态”。这样大大减少了干扰源。我很想知道接下来我们该用什么工具，但很可能是那种能让我适度获取信息的平台，而不是到处都是即时通讯和聊天的地方。",
+   "ts": "00:39:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is super interesting. So, specifically, things that are just updates where you don't need a discussion, you almost want to discourage a discussion.",
+   "zh": "这太有意思了。具体来说，就是那些只需更新信息、不需要展开讨论的消息，我们甚至应该尽量避免引发讨论。",
+   "ts": "00:40:45"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I mean, it has the commenting, but it's not the same tool. And, by the way, Slack is amazing, we use it. It's just that for this thing, it wasn't working for us. And so, we wanted to move that somewhere else.",
+   "zh": "是啊，我是说Slack确实有评论功能，但这毕竟不是同一款工具。顺便说一句，Slack确实很棒，我们也一直在用。但这次它对我们来说效果不佳。所以我们就想把这些功能转移到其他地方。",
+   "ts": "00:40:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like, the more I dig into the Shopify way of working, the more fun stuff I never expected emerges. I'm curious what else is going to emerge. So we've been talking about ways that y'all, and you specifically, have created intensity, especially in the engineering organization. And then, you've also shared just broadly Shopify. What else is on that list? What else have you found helps create more kilojoules per hour?",
+   "zh": "我感觉，越深入了解Shopify的办公方式，就越能发现许多意想不到的妙处。我很好奇接下来还会有什么新发现。我们一直在讨论你们，尤其是你，如何在工程团队中营造高效的工作氛围。还有，你也分享了Shopify整体的运营经验。接下来还有哪些措施？你还发现了哪些能提升团队效率的做法？",
+   "ts": "00:41:03"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, so again, I think there's nothing, I would say again, start from the beginning, there's nothing more than pair programming, because literally you can't do anything else but be on your computer. So pair programming is the number one. I will say, the weekly cadence helps a lot, right, which you mentioned. Again, which is part of GSD, which is sharing the updates, and then the six-week reviews, that does a lot. On the other side, we also have a lot of metrics and alerts that help us see when potentially things might be happening in the system that can allow us to be like, \"Hey, wait a sec, there's too many things going on of this type. We probably have to sit back and reset and figure out what's going on.\" (00:41:56): So one thing that happened, for example, was we started seeing that it was taking a lot of time to develop in our admin, like engineers at Shopify developing in the admin. So we called, what's called, a code yellow, which is before code red. But code yellow is this idea of like, \"Hey, we're going to call a code yellow on the admin.\" We want to make sure that the developer experience inside Shopify is really good. It should be easy to start up the repo. It should be easy to make changes, it should be easy to see the changes. And so, those are the things that, again, we can create intensity, because this code yellow allows the champion to tap anyone on the shoulder and say, \"Stop what you're doing and come help this thing.\" Which is an infrastructure layer thing. And by building out this infrastructure, it allows you to go fast. It takes longer to build infrastructure, but it makes you go fast forever afterwards, right? (00:42:41): I'll actually give you an example of one of these. So, we in 2020, 2021, the heyday of pandemic, obviously, there was a crypto summer again and crypto was going nuts. And we were sitting back and saying, \"Wow, a lot of our merchants are now asking for NFT gating.\" NFT gating, which is, \"If you have the token, you can now go into the storefront and see my products. You can see my prices and you can check it out, but only if you have the token.\" And, we were getting a lot of demand from merchants to be like, \"We want to do this. We want to sell an NFT. And we want our buyers to have the NFT to have this great experience.\" And we're like, \"We agree. We want you to be able to do whatever you want. And so, we want to build this for you too.\" (00:43:18): And, sitting with Toby, he's like, \"You guys are thinking about it wrong.\" He goes, \"How long would it take to build NFT gating?\" I'm like, \"I don't know. Two, three weeks.\" He goes, \"Now, how long would it take to build a platform layer, which exposes APIs so anyone could build NFT gating in one hour?\" I'm like, \"I don't know. Two, three months.\" He goes, \"Do that.\" He goes, \"Because you don't know what they're going to build on top of the platform.\" NFT gating is one thing, one use case, but if you spend the time to build out the infrastructure layer, he calls it putting gas in the tank, if you put the gas in the tank, people could drive on that gas for a long time going forward. And so, he goes, \"I always want you to think about...\" And the key part was, \"What can you build so anyone could build this in one hour?\" Right? (00:44:00): So, he does this thing to us all the time where he goes, \"Oh, this should only be...\" He'll say it and people get the wrong thing. He'll say, \"Oh, you could write this in a day.\" And what he means is, \"What has to be true so that you could write this in a day? What infrastructure do you need?\" And, he actually develops this way. He will write code against an API that doesn't exist, because he's like, \"You know what should exist here? This API.\" He'll write the code, he'll go back and forth and refine the client on the server, and then he'll go, \"This is correct, the correct client code. Now, let me go implement the server code.\" (00:44:31): And this is notion of building things as infrastructure that sound slower today, because it's going to take... It's two, three months, instead of two or three weeks. But after that, the things that people built on top, right, were so easy to build, there were so many more scenarios that were emerged. It's just a different way of thinking about software. And, it's intensity in a different way, it's intensity around building this infrastructure layer, which we want to build quickly, but takes two or three months, in this case, but then can get everyone building on top of our infra in a much, much quicker way. And of course, who knows what can flourish from there?",
+   "zh": "是的，再说一次，我认为没有什么秘诀，我还是要从头说起。最重要的就是结对编程，因为你除了坐在电脑前别无他法。所以结对编程是头等大事。我要说，每周的汇报节奏非常有帮助，正如你提到的。这也是GSD的一部分——分享进展报告，以及每六周一次的评审，这些都起到了关键作用。另一方面，我们还有很多指标和警报机制，能帮助我们及时发现系统中可能出现的问题，比如“嘿，等等，系统里这种情况太多了，我们得停下来重整思路。”  \n\n（00:41:56）举个例子，我们发现Shopify后台开发工程师花费大量时间开发。于是我们启动了代码黄色警报，这是代码红色警报之前的预警机制。代码黄色警报意味着“后台开发停下来，优先处理这个问题”。我们致力于确保Shopify的开发者体验良好，能轻松启动代码仓库、进行修改并查看更改。通过建立这样的基础设施，团队能快速推进工作。虽然搭建基础设施耗时，但之后就能保持高效。  \n\n（00:42:41）我举个例子。2020、2021年疫情期间，市场对加密货币的热情高涨。我们收到大量商家需求，要求实现NFT门控功能，即“持有特定代币的用户才能访问店铺、查看商品和价格并完成购买”。我们迅速响应，认为这是一个绝佳的商业机会。托比却问：“开发NFT门控要多久？”我回答：“两三周。”他反问：“那开发一个支持NFT门控的平台层呢？只需一小时。”我说：不知道，可能两三个月。他说：“那就做吧。”因为他深知，用户可能基于这个平台层开发出更多应用。  \n\n（00:43:18）他常用“加油”来激励团队：“把基础设施搭好，人们就能长期受益。”每次他都用反问激发思考：“要实现什么功能才能一小时完成？”\n他的开发方式是这样的：他会针对一个尚不存在的API编写代码，因为他会想：“你知道这里应该有这个API吗？”他会先写代码，然后反复调整服务端和客户端的代码，最后再说：“这就是正确的客户端代码。现在让我去实现服务端代码吧。”（00:44:31）  \n这种将事物构建为基础设施的理念在当下听起来可能更慢，因为它需要两到三个月的时间，而不是两到三周。但在这之后，人们在其之上构建的应用变得非常容易，涌现出了更多的场景。这只是一种不同的软件开发思维方式。这种思维方式的重点在于快速构建基础设施层，在这种情况下需要两到三个月的时间，但随后能让所有人以更快的速度在我们的基础设施之上进行开发。当然，谁知道从这里能涌现出什么样的创新呢？",
+   "ts": "00:41:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting and it makes sense that so much of the way you all think is about building the best possible platform, versus the, necessarily, best possible point solution for someone. And it also explains why you spend so much time in crafting really great code and pair programming, because again, it's a platform for other people to build stuff on. So, I think, a lot of this is very useful, especially for platform businesses.",
+   "zh": "很有趣也很合理的是，你们大家思考问题的方式大多聚焦于搭建尽可能出色的平台，而不是为某人量身打造最佳的点解决方案。这也解释了为什么你们会花大量时间编写优质代码和进行结对编程——毕竟这是一个供他人开发的平台。所以我认为，这其中很多理念都非常实用，尤其对平台型企业而言。",
+   "ts": "00:45:06"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "No, exactly. And actually, you're making me think of a stat. So, last year, maybe a tangent, but I tweeted out that GitHub Copilot has written over 1 million lines of code for Shopify. And people are like, \"Oh my god.\" And it got picked up. And everyone's talking about it. And I go, \"I don't know why is everybody getting so crazy, because what I want to see is GitHub Copilot deleting 1 million lines of code.\" That's when you know we're actually at this point where this is close to an engineer. Right? And so, we famously have deleted millions of lines of code this year, because we were trying to focus on, again, the sunk cost and rebuilding things elegantly, or you don't need this anymore and rebuilding. And I even tweeted out, I think someone said, \"Oh, Shopify is in the top 10 Ruby code bases in the world.\" And I said, \"I never want to see us on this list again.\" We shouldn't be gunning for number one, we should be gunning for number 100, right? We want to be not on this list. Right? Someone else can take the crown.",
+   "zh": "没错，确实如此。说到这儿，我突然想起一个数据。去年，我在推特上提到GitHub Copilot为Shopify编写了超过100万行代码。人们都惊呼：“天哪！”这条消息被疯狂转发，引发热议。我当时回应道：“我不明白大家为何如此激动，因为我更希望看到GitHub Copilot删除100万行代码。” 这恰恰说明，我们正朝着工程师视角迈进，对吧？今年我们大规模删除了数百万行代码，专注于沉没成本和优雅重构——比如某些功能已不再需要，就果断舍弃。我甚至在推特上看到有人说：“Shopify跻身全球十大Ruby代码库之列。” 我回应道：“我再也不想看到我们上这份榜单了。” 我们不该争第一，而该争第一百名，对吧？让别人去争冠吧。",
+   "ts": "00:45:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Vanta. When it comes to ensuring your company has top-notch security practices, things get complicated fast. Now, you can assess risk, secure the trust of your customers, and automate compliance for SOC 2, ISO 7001, HIPAA and more with a single platform, Vanta. Vanta's market leading trust management platform helps you monitor compliance, alongside reporting and tracking risk. Plus, you can save hours by completing security questionnaires with Vanta AI. Join thousands of global companies that use Vanta to automate evidence collection, unify risk management, and streamline security reviews. Get $1,000 off Vanta when you go to Vanta.com/lenny. That's V-A-N-T-A.com/lenny. Wait, talk about more about this. So, there's been a drive to delete code and simplify. What's behind that? What's going on there?",
+   "zh": "本期节目由Vanta赞助。确保公司拥有一流的安全实践，挑战往往接踵而至。现在，您可以通过单一平台Vanta评估风险、赢得客户信任，并自动化SOC 2、ISO 7001、HIPAA等合规流程。Vanta的市场领先信任管理平台帮助您监控合规情况，同时进行报告和风险追踪。此外，借助Vanta AI完成安全问卷调查，您能节省数小时时间。全球数千家公司正借助Vanta实现证据收集自动化、统一风险管理并简化安全审查。访问Vanta.com/lenny，即可享受1000美元优惠。等一下，再多聊聊这个。删除代码和简化架构的行动背后，隐藏着怎样的考量？这其中的逻辑是什么？",
+   "ts": "00:46:22"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, so there's a few things, right? One is, the more context you can fit in your head around a code base. And you can never really fit all of Shopify in your head, because it's a big complicated set of tools we give to merchants. But, the more you can simplify, the much easier everything becomes, resiliency, performance, reliability, maintainability, all the illities become much, much, much easier when the code base is simple. Now, all you need really is the mandate of like, \"Oh, well, let's look at this code. And, if I could start this today, would I really build this thing? Or do I now have enough domain expertise to say, 'Oh no, this is the right solution?' So can I delete start over and build this more easily?\" And now, everything else becomes easy to build on top of. (00:48:04): And so, routinely, we have a delete code club, we have hack days, which happens two or three times a year, where there's always one team that is focused on deleting code. They even have a manual, \"Here's how to find things to delete.\" And, it's amazing. We almost always delete. I don't know if this is good or bad. We can always almost find a million plus lines of code delete, which is insane. But, at the same time, I applaud the teams for going after the cruft and the code base. And everything gets easier, right? Codelets loads faster. It's easier to understand. (00:48:34): This is why when I look at GitHub stats, you shouldn't really look at... I think Google put out and said, \"Oh, 25% of all code is now written by AI.\" I'm like, \"Where's the delete? Where is the 25% of all code is deleted by AI?\" Right? This is where we have to start thinking about it. Because, the right code is never the volumous lines of code metric. It's always something else. It's always elegance. And that's where we have to think about. So, it is something that, as part of us being long-term infrastructure thinking, we really do care about that.",
+   "zh": "是的，有几个关键点，对吧？首先，你需要尽可能多地在脑海中构想代码库的上下文。虽然你永远无法完全掌握Shopify的所有复杂功能，毕竟我们为商家提供的是一套庞大的工具集，但越是能简化代码，所有问题——弹性、性能、可靠性、可维护性——都会变得容易得多。当代码库简单化时，所有问题都变得容易许多。现在，你只需要一个指导方针，比如：“好吧，让我们看看这段代码。如果今天从头开始重写，我还会构建这个东西吗？或者现在我是否有足够的领域专业知识来判断‘不，这才是正确的解决方案’？所以我能否删除重写，让构建更轻松？” 然后，其他一切都变得易于构建。（00:48:04）：因此，我们定期举办“删除代码俱乐部”活动，平均每年举办两到三次，每次都有一个团队专注于删除代码。他们甚至有一份手册，指导如何查找可删除的代码片段。这真是令人惊叹。我们几乎总能删除数百万行代码，这太疯狂了。但与此同时，我为那些致力于清理代码库和优化代码的团队点赞。一切都变得更简单了，对吧？代码加载更快，也更容易理解。（00:48:34）：这就是为什么当我查看GitHub统计数据时，我觉得不应该只看……我记得谷歌曾声称“25%的代码现在由AI编写”。我当时就想，“那删除的代码呢？25%的代码被AI删除了吗？” 对吧？这正是我们需要开始思考的问题。因为，正确的代码从来都不是以代码行数为衡量标准的。它总是关乎优雅性。这才是我们需要关注的重点。因此，作为长期基础设施规划的一部分，我们确实非常重视这一点。",
+   "ts": "00:47:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this, in part, because it connects to the topic we're talking about, which is speed, velocity, intensity, smaller code base, cleaner, better code base allows you to move faster. I used to be an engineer actually. But, both my engineering brain and my PM brain, I love the idea of killing stuff that's useless, fixing, making code cleaner, and better, and more durable. In reality, very hard for companies to prioritize this thing. Is there anything you found that helps you do that? You mentioned hack days and weeks are one part of that. Probably helps that Toby's an engineer and he understands the value of this stuff. But I guess, for folks that want to do this more, any advice?",
+   "zh": "我喜欢这个观点，一部分原因是它与我们正在讨论的主题相关——速度、效率、强度、更小的代码库、更简洁、更优质的代码库能让行动更迅速。实际上，我曾是一名工程师。但无论是作为工程师的思维，还是作为产品经理的思维，我都热衷于淘汰无用的部分，修复代码，提升代码的简洁性和可靠性。现实中，公司往往很难优先考虑这些问题。你有没有发现什么有用的方法？你提到黑客日和黑客周是其中一部分。这可能与托比（Toby）本身是工程师且深知这些价值有关。但我想，对于那些想更深入推进的人，有什么建议吗？",
+   "ts": "00:49:06"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah. So actually, when we're building something, we think of it in one of three buckets. We're like, \"Are you building an experiment, a feature, or infrastructure?\" And, once you bucket things, you can say, \"Oh, it's an experiment.\" You're like, \"Cool. This is not infra. This is like, we're trying something to learn.\" And, by the way, that might turn into an experiment or infra, but it starts off as an experiment. Now, if you're building a feature, a feature is basically you're taking advantage of an existing piece of infra, right? So, token gating is the example I gave. If you could now build that in one hour, you would probably say, \"Oh, we have the right infra below it.\" (00:50:14): But if you did what Toby does, which is, he's like, \"Here's the infra I wish existed. Here's the feature. The feature might be quick to build, but now I have to go and build the infra.\" You're now slotting yourself into infra land, which is like, that could take longer, but you're now enabling it for a bunch of use cases. You don't have to think about it at once, because you may have people using your API in a different way. (00:50:32): So, I think you have to slot yourself. Now, how do people get into this mode? It is super, super hard. And, I would say, Toby is the secret sauce here, because he pushes us to think about things as infra almost all the time. I mean, one of the things that annoys me the most probably is that I'll always come to him and say, \"Hey, we can do A or B.\" And he looks at me and he goes, \"You know what I'm going to say, right?\" I'm like, \"You're going to say go back and generate more options.\" Because he doesn't like those. \"I don't like A or B. Come back when you have something else.\" Right? Actually, maybe I'll tell you a little anecdote. He has a story where he says, \"There are unlimited amount of wrong options for any problem. There's probably 10,000 right options, but everybody stops at the first right one, instead of what you should be spending all your time on, because the options that don't work, you're not going to spend time on. But you have to figure out which of the 10,000 options is the right one and spend time in what are all these right options? Don't just stop at the first one.\" (00:51:24): And so, when I come to and say, \"A or B.\" I'm picking two of the 10,000. And he's like, \"That's not what I... Go back and generate more options, because those are not the optimal ones.\" So, he is quite the philosopher on these things. And it does really change the way the company works, because he'll push you on these things. And then, we over time learn to spot the same patterns. And I learned to push my team on infra, and deleting code, and making things simple, because by the way, who doesn't want to get free stuff? Right? Free performance, free, easy to navigate code base, free maintainability, free resiliency,, because now, we went and did the hard work of deleting. It is hard. But that goes back to the beginning, right? Choose the hard thing. Don't just build the feature-",
+   "zh": "是的。实际上，当我们开发某个东西时，我们会将其归入三个类别之一。我们会想：“你是在做实验、开发功能，还是搭建基础设施？”一旦对事物进行分类，你就能判断：“哦，这是一个实验。”你会说：“酷。这不是基础设施。这只是我们在尝试新东西以获取经验。”顺便说一句，它可能最终会演变成实验或基础设施，但最初它就是一个实验。现在，如果你正在开发一个功能，基本上，就是在利用现有的基础设施，对吧？比如我提到的令牌门控例子。如果你能在一小时内完成开发，你可能会说：“哦，我们已经有合适的基础设施了。” （00:50:14）但如果像托比那样做，他会说：“这是我希望存在的基础设施。这是功能。功能可能很快就能开发，但现在我必须去搭建基础设施。” 你现在就陷入了基础设施领域，这可能需要更长时间，但你为一系列用例提供了支持。你不必一次性考虑所有问题，因为可能有人会以不同的方式使用你的API。（00:50:32）所以，我认为你必须给自己定位。那么，人们如何进入这种模式呢？这非常非常困难。我想说，托比是其中的秘诀，因为他几乎总是促使我们把事情视为基础设施。我最烦恼的一件事就是，我总是去找他说：“嘿，我们可以做A或者B。”他看着我说：“你知道我要说什么的，对吧？” 我说：“你会让我回去生成更多选项。” 因为他不喜欢这些选项。“我不喜欢A或B。等你有其他想法再来吧。” 对吧？实际上，我可以讲个小故事。他有一个故事，他说：“对于任何问题，都存在无限个错误的选项。可能有10,000个正确的选项，但每个人都会在第一个正确选项上停下，却没有花时间去思考那些真正重要的选项，因为那些不起作用的选项，你根本不会去花时间。但你必须从10,000个选项中找出正确的那个，并花时间研究所有这些正确的选项？不要只停在第一个上。” （00:51:24）所以，当我去说：“A或B。” 我只是从10,000个选项中选了两个。而他说：“这不是我要的...回去生成更多选项，因为那些不是最优的。” 所以，他在这方面确实是个哲学家。这确实改变了公司的运作方式，因为他会不断督促你。在此过程中，我们逐渐学会识别相同的模式。我学会了在基础设施方面推动我的团队，删除代码，让事情变得简单，因为说真的，谁不想要免费的东西呢？对吧？免费的性能，免费的，易于导航的代码库，免费的可维护性，免费的弹性，因为现在，我们去做了删除代码的艰苦工作。确实很难。但这又回到了开头，对吧？选择困难的路。不要只开发功能——",
+   "ts": "00:49:42"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "The beginning, right? Choose the hard thing. Don't just build the feature, go make the feature easy to build.",
+   "zh": "开头，对吧？选择困难的路。不要只开发功能，去让功能易于开发。",
+   "ts": "00:52:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like there's just more and more good stuff. What else is there that might be helpful to folks while you're thinking about it? And interesting, I was reading your tweet where you shared a lot of this advice, and you mentioned this briefly, but I think it's important with pair programming, one of the benefits is there's no multitasking. You're not checking Twitter, Slack while you're working because you're there being watched. And I could see why that is more productive just innately.",
+   "zh": "我觉得好东西真是越来越多了。在你思考的时候，有没有什么其他可能对大家有帮助的建议呢？有意思的是，我读到你分享这些建议的推文时，你简要提到了这一点，但我认为结对编程的一个好处就是没有多任务分心的问题。你不会一边在Slack上聊天，或者刷Twitter，一边工作，因为有人在监督你。所以我能理解为什么这样做效率更高，这很自然。",
+   "ts": "00:52:06"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Oh no, for sure. Again, like underhand or free throws not only looks dumb, it feels dumb. People don't... They feel like they're wasting time sitting beside somebody and being like, \"Well, I could be on my computer doing this thing.\" But together they are building a machine. Do you ever read the Undoing Project, which is about Amos Tversky and Daniel Kahneman, the famous philosopher.",
+   "zh": "哦，确实。再说回来，比如在篮球比赛中，如果有人偷懒或者投篮不专心，既显得不专业，也让队友感到沮丧。人们不会……他们会觉得坐在旁边等别人做事是在浪费时间，还会想：“我本可以用电脑做其他事。”但当大家一起合作时，却能共同构建出一台机器。你读过《解构项目》这本书吗？讲的是阿莫斯·特维斯基和丹尼尔·卡尼曼，这两位著名的哲学家。",
+   "ts": "00:52:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "By Michael Lewis, I think.",
+   "zh": "作者是迈克尔·刘易斯吧。",
+   "ts": "00:52:54"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Behavioral economist. Michael Lewis. Exactly. And he said the famous line was \"Alone, we're okay, but together, we're a genius.\" Right? That's a pair programmer. That's like two people. You're like, \"Ah, we're okay. But together, we're a genius.\" And that's exactly what pair programming is. And hopefully me plus an LLM is a genius as well, but that's the genesis of that thinking. So I would say another thing that helps us create intensity is demo culture. So as part of the GSD updates, hopefully we encourage people to share high fidelity updates, which is not just imagery, but actually a demo. One of the things that can go wrong with just their screenshots is you don't really get the full experience. You can't tell how slow things are or whatever, but with a demo, so you can put a link. We have this tool called Spin, which is an internal development environment like a cloud dev environment where you can say, \"Hey, click here to try this on Spin, and then you can try it and you can see how it works.\" (00:53:52): Or they say, \"Turn on a beta flag in your own store and then try it.\" And so this short circuits a lot of misunderstandings, because you're like \"I'm going to try it.\" And you're not waiting until the end, especially with a beta flag. You're like, \"Hey, it's in my store. I just realized that I went in and now this page takes 20 seconds to load. Is that what you expect?\" You're like, \"Oh, we didn't find this use case.\" You're going to learn that much more quickly. (00:54:13): And that creates, again, intensity on the fidelity of the feedback you're getting because famously, some of our PM team will create a friction log. They'll be like, \"I am walking..\" They'll just create a screen share, create a video and go, \"I'm walking through. I turn on the beta flag, I'm walking through this experience. Here's my feedback on the experience.\" And you're getting this high fidelity throughput coming back to you that you're like, \"Okay, let's fix these things for next week's iteration and then share another beta flag and say, 'Okay, try it now. Try it now. Try it now.'\" And so you're not debating about status reports, you're kind of debating about the experience.",
+   "zh": "行为经济学家。迈克尔·刘易斯。没错。他说过一句名言：“单独行动时，我们还不错，但团队协作时，我们就是天才。”对吧？这就是结对编程的精髓。希望我和LLM也能成为天才，但这就是这种思维方式的起源。所以我觉得另一个有助于提升专注度的因素是演示文化。作为GSD更新的部分，我们鼓励大家分享高保真更新内容，不只是图片，而是实际的演示。仅仅截图可能无法传达完整体验，比如加载速度慢之类的问题。但通过演示，你可以附上链接。我们有个叫Spin的工具，是内部开发环境，类似云端开发环境，你可以说：“嘿，点击这里在Spin上试试。”或者他们会说：“在你自己的店里启用测试标签然后试试。”这样能避免很多误解，因为你会说：“我要试试。”而不用等到最后阶段，特别是启用测试标签后，你会说：“哦，我发现加载页面要20秒。这是你们预期的吗？”你会说：“哦，我们没想到会出现这种情况。”这样你能更快地发现问题。（00:53:52）这又能提升反馈的真实性，因为我们PM团队有些人会创建摩擦日志。他们会说：“我正在操作……” 他们会截图、录制视频，然后说：“我正在演示整个过程。我启用了测试标签，体验如下。以下是我的反馈。” 这样你就能得到高保真反馈，接着改进，下周再分享新的测试标签，让大家继续试用。这就避免了讨论状态报告，转而专注于实际体验。",
+   "ts": "00:52:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I'm trying to think broadly all the things you've shared, kind of how they fit together that allow you to move this fast. And I just looked up a few stats to give people a sense of just the size of the company today and how successful it has been as they hear the stuff we're talking about. So you guys are about 11,000 employees, something like that according to the Googles. And you're hitting not necessarily all-time highs on market cap because COVID gave you guys a big boost for a while, but you're kind of coming back to this insane valuation that you all had during COVID. So it's essentially all-time highs at a 10,000 plus person company moving really fast, shipping constantly. People love the product. And it feels like one key of what you're describing is essentially this operating rhythm that creates these check-ins that keep people moving and focused on the right sorts of tools and getting them quick feedback if they're moving in the wrong direction.",
+   "zh": "接下来，我想全面思考一下你们分享的所有内容，以及这些内容如何协同运作，让你们能如此高效地推进业务。为了让大家更直观地感受公司现状和取得的成功，我刚查阅了一些数据。根据谷歌搜索结果，你们目前约有11,000名员工。尽管市值尚未创下历史新高（毕竟新冠疫情曾短暂推高过市值），但你们的估值已重回疫情期间的创纪录水平。在拥有1万多名员工的公司里，产品持续迭代、快速上线、用户反馈及时，这些成就堪称非凡。关键在于，你们形成了高效的运营节奏，通过定期沟通，引导团队专注于正确的开发方向，并能及时纠正偏离轨道的决策。",
+   "ts": "00:54:46"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "And having the leaders pair with those people on those problems, not just checking in, but actually pairing with them on the problems that they're facing. So you get both the crafters who are working on the stuff and the leaders who may have broader context working together to kind of unblock.",
+   "zh": "在解决问题时，领导者会与团队成员深度协作——不只是定期汇报，更是实时参与攻克难题。这种双向沟通机制，让开发者能专注于技术细节，领导者也能从更宏观的视角提供指导，共同突破难关。",
+   "ts": "00:55:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And it's so interesting that it's like, again, people often are often like, \"We don't need meetings. Get rid of all the meetings.\" You guys do that, but also, there's a lot of power in strategic meetings and check-ins. Another kind of bucket is just the engineering environment, engineers working with engineers, pair programming, things like that. There's a tool you mentioned for pair programming, Tuple, I think.",
+   "zh": "有趣的是，虽然人们常说“没必要开会，把会议都取消了”，但你们恰恰做到了这一点。事实上，战略性会议和定期沟通往往能释放巨大能量。另一个关键点在于工程师生态——工程师之间深度协作，比如结对编程。你们提到的结对编程工具“Tuple”就值得关注。",
+   "ts": "00:55:57"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Tuple. Yeah. It's funny because we use it exclusively, but we actually have this line internally, we call it, Shopify should be a crafters' paradise. It should be the place where crafters come to practice their craft and get better at their craft. Obviously, resonates from a lot of the engineering crafters, but it's not only engineering, it's UX and PM and ML, all the places where you'd want those people to actually have a great experience. We want them to come to Shopify because we believe this is the best place for that.",
+   "zh": "元组。是的。说来有趣，我们日常使用它，但实际上我们内部有这样一句话：Shopify应该成为手工艺者的天堂。这里应该成为手工艺者们来施展技艺、不断精进的场所。显然，这句话引起了许多工程师手工艺者的共鸣，但这不只是针对工程师，还适用于用户体验、产品管理和机器学习等领域——所有你希望这些人才能获得卓越体验的领域。我们希望他们选择Shopify，因为我们坚信这里是实现这一目标的最佳之地。",
+   "ts": "00:56:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. I just wrote a note down of just how you set up your teams for success. Oh, just avoid distractions. So I think the pair programming helps the workspace, workplace shift from Slack helps. I think you're also very firm on their working hours. You basically don't let...",
+   "zh": "我太喜欢了。我刚刚写了一份笔记，记录了你们如何为团队的成功做好铺垫。哦，还有就是避免干扰因素。比如，结对编程有助于优化工作环境；将工作场所从Slack转移到其他平台也很有效。我觉得你们在工作时间管理上也非常严格。基本上不允许员工...",
+   "ts": "00:56:46"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "No.",
+   "zh": "不允许。",
+   "ts": "00:56:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No. Okay. [inaudible 00:57:04]",
+   "zh": "不允许。好的。[00:57:04不可听清]",
+   "ts": "00:57:03"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "No, not really. Yeah. We're not super firm on working hours from that perspective, but we do have a lot of people on East Coast time zones. A lot of stuff happens then, but we do have people all over the world. But I did mention we do have the check-ins and the six-week reviews on the cadence. So that six week cycle does give you a little bit of the, what did you get done and are you blocked mentality. And you can expect coming in a couple of times and being like, \"Hey, we didn't get a lot done being unblocked.\" For you to change your approach to go, \"Okay, I don't want to go to another review where we didn't get a lot done.\" So what am I doing this time to make sure we unlock a lot of progress? And that check-in can give you that ammo to be like, \"Let's do this this time.\"",
+   "zh": "嗯，不完全是。从这个角度来看，我们对工作时间的要求确实不算严格，但我们确实有很多员工在东部时区工作。很多工作都在那个时段开展，不过我们确实有分布在世界各地的员工。不过我之前提到过，我们确实有固定的每六周一次的汇报和回顾机制。这种六周一次的周期确实能让你清楚了解自己完成了哪些工作，哪些方面遇到了阻碍。这样你就能预期到，偶尔参加汇报时，会听到有人说：“嘿，我们这周没做多少事，还是有阻碍。”这时候你就会调整思路，改进方法，避免下次汇报时再出现类似情况。“这次我要怎么做才能取得更多进展呢？”这种汇报机制能给你提供动力，让你积极行动。",
+   "ts": "00:57:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you're also remote first as a company.",
+   "zh": "对，你们公司一直推行远程办公。",
+   "ts": "00:57:44"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:57:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Which I think is especially cool. Now a lot of companies are going back to not remote. You guys are staying remote. Why do you guys decide to do that? What have you seen as a big benefit of that?",
+   "zh": "我觉得这点特别棒。现在很多公司都开始回归到非远程办公模式。但你们公司始终坚持远程办公。为什么会做出这样的决定？你们从中获得了哪些显著的益处？",
+   "ts": "00:57:46"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, so we have this remote, so I like to call it 90% remote or 95% remote because we have these intentional IRL experiences. So every summer, we just started last year. Sorry, this year. We're doing this thing called Shopify Summit where we bring the whole company together, get together and it's a combination of talks plus hack days and it's a come together experience like food and parties and bands. And it's a super fun way to re-energize and rebuild your trust battery over time. And then we have this thing called bursts, which is, \"Hey, you want to work on a problem? You need to prototype, you need to hack.\" People can just say, \"Hey, I'm starting a burst. We're going to have five people. We're all going to go to Ottawa or Toronto or Montreal or somewhere else and we're going to talk about this problem and get together.\" (00:58:38): And so a combination of those two things mean throughout the year, you can recharge. We have the trust battery notion, which is how much trust can you have between people and it can deplete over time if you're remote. So then we have offices which are like, come in if you want. Like I mentioned, I come in once a week and now Toby moved to Toronto, so now I'm in three days a week. But it's like if you want to come in, you don't have to, right? Today, I work from home, but tomorrow, I'm going in. And that allows you, again, to have those random interactions and allow you to feel like, yeah, we're 90 plus percent remote. But I would say the main reason is we want to hire the best people in the world and those people can be anywhere and just happens to be that not all of them are near an office. (00:59:20): But again, with the bursting, here's a good example. For Black Friday, Cyber Monday, I encouraged all engineering leadership to come to Toronto. We're all going to be in the office watching the graphs. And then for hack days, I try to get people to go to the ports, which we have four of them, Toronto, Montreal, Ottawa, and New York, which again are come in if you want, but then get that IRL. And so it's kind of a little bit of a combo. I wouldn't call it hybrid though because you don't really have every Friday you come in or don't come in. It's more like, come in if you want.",
+   "zh": "是的，我们确实是远程优先模式。我喜欢把我们称为90%远程或95%远程，因为我们有一些刻意安排的面对面交流机会。比如每年夏天，我们从去年开始举办Shopify峰会，把全公司员工聚集在一起。这是一个集讲座、黑客马拉松和社交活动于一体的盛会，有美食、派对和乐队表演。这种方式能有效激发活力，持续增强团队凝聚力。\n然后还有“爆发式项目”（bursts）活动。“嘿，你想解决某个问题吗？需要做原型设计、黑客马拉松？”大家可以发起公告：“我们要开展一个爆发式项目，五个人参加，地点在渥太华、多伦多、蒙特利尔或其他城市，共同探讨这个问题。”（00:58:38）这两种方式相结合，让员工全年都能保持充电状态。我们引入了“信任电池”概念，衡量团队成员之间的信任程度。远程办公确实会消耗信任储备，所以我们设有办公室，员工可以根据需求到场。比如我每周去一次办公室，托比搬到多伦多后，现在我每周去三天。总之，只要你想来，随时可以到场。这能促进随机交流，让大家感受到，尽管90%以上员工远程办公，但我们始终保持着紧密的联系。\n（00:59:20）但最重要的原因是，我们想招聘全球最优秀的人才，而这些人才可能分布在世界各地。并非所有人才都在办公室附近办公。（00:59:40）但回到爆发式项目，比如“黑色星期五”、“网络星期一”，我们鼓励所有工程团队领导到多伦多办公室观看数据图表。黑客马拉松活动时，我们也会组织员工前往四个办事处——多伦多、蒙特利尔、渥太华和纽约。同样，员工可以根据意愿选择到场，但这种面对面的交流确实能提升团队凝聚力。",
+   "ts": "00:57:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's so many things to talk about. This trust battery metaphor by the way is awesome. I've learned to use it also. And again, it's just basically everyone, your trust with someone is like, think of it as a battery that can deplete and grow and you should try to charge it up when you can and then use that charge over time.",
+   "zh": "太多想聊的了。顺便说一句，这个信任电池比喻太棒了。我也学会了用它。再说一次，基本上每个人都适用——你和某人的信任关系就像一个电池，可能充放电。只要有机会就应该尽力充值，然后逐步消耗。",
+   "ts": "00:59:48"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "And it can be strategic by the way. I've seen people use it as a... I'm pretty sure Toby says he starts everyone at 50% and then he gets to know you. And then I've seen people use it as the opposite, saying, \"Hey, look, this team is hard charging. I'm going to start you at a hundred. Assume that you already have high trust, do the things, and only if you are doing things that are off alignment, does your trust battery deplete.\" So I've seen people use it, the terminology as a shortcut way to figure out how to work with somebody.",
+   "zh": "这里面还有策略层面的运用。比如我见过有人用这个比喻：\"我会把每个人设定在50%的信任度，然后逐渐了解你。\"还有人反其道而行之：\"嘿，看看这个团队充满活力，我一开始就设定100%的信任度，就当你已经高度信任对方了。只要你不做偏离正轨的事，信任度就不会下降。\"所以我觉得人们用这个比喻，是把它当作快速建立合作关系的捷径。",
+   "ts": "01:00:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love just how first principles you all are, and there are so many things are so unique to how you operate and clearly it's working. And so I feel like we just keep going on and on. I want to talk about hiring. I know you have some pretty unique perspectives on how to hire people that are awesome, but also, hire them quickly. But before we get there, is there anything else that you think might be really valuable to share in terms of intensity, velocity, moving fast?",
+   "zh": "我特别欣赏你们坚持第一性原理的态度。你们的运作方式有很多独特之处，而且显然很有效。所以我觉得我们可以继续深入探讨。我想谈谈招聘问题。你们在招聘人才方面有一些非常独特的见解，既要迅速招到合适的人，又要确保质量。但在深入之前，你们觉得在高强度、快速行动、快速迭代方面，还有什么值得分享的经验吗？",
+   "ts": "01:00:30"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I think the personality of the leadership team is quite intense. We have a lot of founders on the exec team, which are impatient, intense people by design. But even some of the non-founders are just accomplished people who tend to be pretty, we all have this attitude of impatience, and so maybe, I don't even know if that's a learned skill you can learn or if it just comes along with your personality, like genetics. But we typically, even at the leadership team, for example, we try to do, here's my weekly thread of all the things that are going on so that we can not only share, but also show progress on things. And then someone can jump in and say, \"Oh, this thing you're doing, it relates to my thing that I'm doing over here.\" It creates this notion of, there's a lot going on all the time and we want to keep the vibes, keep the energy high. So a lot of high energy intense people.",
+   "zh": "领导团队的个性非常强势。我们高管团队里有很多创始人，他们天生就是 impatient、intense 的人。即使不是创始人的，也都是非常有成就的人，他们也普遍有这种 impatience 的态度。可能这既是天生的，也和基因有关。但在领导团队里，我们会每周分享所有进展，这样不仅能分享信息，还能展示进展。然后有人会参与进来，说：“哦，你做的这个项目和我的工作方向很契合。” 这营造了一种随时有大量事情在进行的氛围，我们希望保持这种活力和热情。所以这里有很多充满活力的人。",
+   "ts": "01:00:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me while I was at Airbnb, it felt like no matter how well things are going, it always felt like Brian especially is just pedal to the metal. No matter how well things are going, it's not going well enough. How do we go faster? How do we do more?",
+   "zh": "这让我想起我在Airbnb的经历。无论事情进展得多顺利，布莱恩（Brian）总是全力以赴。即使一切进展顺利，也总觉得还不够快。我们要如何再快一点？如何做得更多？",
+   "ts": "01:01:45"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Well, I would actually go further. I think if you don't have two or three big projects that are on fire, you're probably not pushing hard enough because you're not really trying things that are outside of your... If everything's going well, are you really taking the risks you need to be taking? So I think you have to over-rotate a bit and there should be a few things on fire at all times, not because you should create that, but it should just happen because you're stretching into new things that potentially or you're going faster than you should have, or there's a new leader you've counted on early because all these things that should create this thing of it might work. And so you want to have a little bit of chaos at the edge.",
+   "zh": "事实上，我甚至会更进一步。我认为如果你没有两三个正在推进的大项目，那说明你推动得还不够狠，因为你没有真正尝试突破自己的舒适区。如果一切都进展顺利，是不是意味着你没有承担足够的风险？所以你必须稍微加点压力，随时有几个项目在推进，不是因为你刻意去创造这些项目，而是因为你在尝试新事物、超越既定节奏，或者因为你过早地信任了某位新领导者——所有这些因素都可能创造出成功的条件。所以你需要在边缘保持一点混乱。",
+   "ts": "01:02:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. And it may sound stressful and why would I want that? Why would I want to work with chaos and fires everywhere? But in reality, if you don't, your business is unlikely to become incredibly successful and that is even more stressful and painful.",
+   "zh": "我喜欢这样。虽然听起来压力很大，但为什么我要这样做呢？为什么要在混乱和危机四伏的环境中工作？但现实是，如果你不这样做，你的业务不太可能取得巨大成功，而这反倒会带来更大的压力和痛苦。",
+   "ts": "01:02:39"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Correct. Yeah, it's like the opposite, right? It's like this idea of people feel like the comfort gives you stability, and really the uncomfort gives you stability because now you're constantly learning and that makes you more robust against things that could come across.",
+   "zh": "没错。这简直是反其道而行之，对吧？人们总觉得舒适能带来稳定，但实际上不适感才能带来稳定，因为这样你才能不断学习，从而更从容地应对各种挑战。",
+   "ts": "01:02:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Choosing the harder path, some might say. Okay, let's talk about hiring. You have some really interesting takes on hiring. One that I've heard about is that you don't like the interview process. You kind of like to prefer not to interview and do something instead. Talk about that.",
+   "zh": "有些人可能会说，这就是选择更艰难的道路。好吧，那我们来谈谈招聘。你对招聘有一些很有趣的见解。我听说你不喜欢面试流程，你宁愿不面试而采取其他方式。能谈谈这个吗？",
+   "ts": "01:03:11"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah. So throughout my career, what I've noticed is that, and I'm sure everybody, this is a dirty little secret, right? Interviews are not a good predictor of performance. We know this. We know this from studies. We know this. Everybody at their company knows this, where somebody interviewed well, wasn't as good in the job or the opposite, didn't interview well and then came in and was phenomenal. One example I have from my startup right before we came to Shopify was I hired two people for machine learning. One was a PhD, taught at the university, was like, oh my god, no brainer, was also recommended by an employee. We're like, \"Oh my god, this person's going to be great.\" The other person was a dude I met at the coffee shop who had never had a software job but was just so interested in machine learning and person A, we let go within a few weeks because not a fit for our culture. (01:04:12): And person B was at our startup and is still at Shopify today and is a phenomenal machine learning engineer who literally at our Christmas party was like, \"This is my first software job.\" We're like, \"How?\" It was just so cute. And we gave them both the shot. The key was I didn't use the resume in either way to bias. We brought them both in. We said, \"Here's the environment.\" It was all pair programming at my startup. And so they pair program, and actually as an aside, I really believe in pair programming when I made people work in pair programming with my own money. I paid for two people to be on one computer. So that's how you know...",
+   "zh": "是的。在我的职业生涯中，我发现（相信大家也都心知肚明）面试并不能很好地预测一个人的工作表现。我们都知道这一点——这从研究中就能看出来。每个公司的人都知道，面试表现出色的人在实际工作中表现不佳，或者相反，面试表现不佳的人后来却表现出色。举个例子，在我创办Shopify之前的初创公司，我招聘了两个机器学习工程师。一个是博士学位，曾在大学任教，大家都觉得“天啊，这简直是必然之选”，甚至还有员工推荐。我们当时想：“这人肯定很棒。”另一个是我在咖啡店遇到的人，从未有过软件工作经验，但对机器学习充满热情。结果A被我们辞退了，因为不符合我们的文化。（01:04:12）而B至今仍在Shopify，是一位杰出的机器学习工程师。在我们的圣诞派对上，他说：“这是我第一份软件工作。”我们惊讶道：“怎么可能？”真是太可爱了。关键是我们没有用简历来带偏。我们让两人都进来，告诉他们：“这就是我们的工作环境。”当时我的初创公司全部采用结对编程。结果两人都进行了结对编程。顺便说一句，我非常推崇结对编程——我曾用自己的钱让员工结对编程，让两人共用一台电脑。可见……",
+   "ts": "01:03:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Less than half the code.",
+   "zh": "写出的代码不到一半。",
+   "ts": "01:04:50"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, exactly. Right. Less than half the code. But anyway, so pairing. And it was pretty clear after just a few weeks, I would say let's say up to three months is the amount of time I give people, that person A wasn't going to work out than person B was. So what I really like to do is use this race car analogy. If I told you, \"Hey, I want to go hire the best race car driver,\" there's not really that many questions you could ask them except for put them in the car. And so the same thing happens with us is that of course, we have to do interviews, but we do really spend time in the 30, 60, 90 days to make sure that the thing that they are bringing actually lines up with what we need at Shopify. And you should also be transparent with people because if it's not a fit, it's actually good for them and you to figure that out as quickly as possible because they could be amazing somewhere else. (01:05:39): We mentioned the chaotic environment and fast moving environment Shopify is, that's not for everyone, but that's okay, right? We're not looking for... We've talked about that we want to be as the best 10,000 person company in the world. We're not looking for millions of people. We just need the best 10,000. And so if it's not a fit, it's in your interest and our interest to figure that out quickly so that you can go somewhere where you will be amazing and for us to have the people who will be amazing at Shopify. And so job trials, I'm a huge fan of, which leads me to intern programs, what a great interview process because you now have real work product from somebody for four months. They get to see what it's like to be at Shopify for four months. We get to see what it's like for them to be at Shopify for four months, and that can turn into a full-time gig. (01:06:21): And that's a great interview process because you literally know exactly. You don't have to... I'll give you a funny example. I think I've heard a company where, \"Oh, we have an intern process and then afterwards, we interview them for full-time.\" I'm like, \"What are you going to learn from let's say even eight hours of interviews that you're not going to have learned from four months of real work experience?\" And so there's just things like that. You just got to look at the work product. And so I'm a big fan of job trials, and in my previous companies, like you mentioned, I almost didn't interview anybody. I almost just said, \"Come in and work.\" And it allowed us... We had a much higher in the first 90 days, like 20% attrition before 90 days because it just didn't work out. But those after 90 days, we had less than 1% attrition because they knew exactly what they're getting into and we knew exactly how they were going to fit.",
+   "zh": "是的，没错。没错。代码量不到一半。不过说回配对机制。几周之后就很明显了，比如说我给新人最多三个月的观察期，我就能判断出A和B谁更适合我们。所以我特别喜欢用赛车手的比喻。如果我跟你说：“嘿，我想去雇佣最顶尖的赛车手。”除了让他们上车试试，基本没别的可问的。我们招聘新人也是这样，虽然必须进行面试，但在入职后的30天、60天、90天里，我们会花大量时间确保他们带来的技能与Shopify的需求完美契合。另外，我们也要对候选人保持透明——如果不合适，尽快告知他们才是负责任的做法，因为他们在别处可能会大放异彩。  \n\n（01:05:39）：我们提到Shopify是一个混乱且快节奏的环境，这并不适合所有人，但这没关系，对吧？我们的目标是成为全球最出色的万人公司，不追求数量，而是专注于质量。所以如果不合适，无论是对你还是对我们来说，尽快确认都符合双方利益，这样你就能去其他地方大展身手，而我们也能找到能在Shopify大放异彩的人才。  \n\n（01:06:21）：我特别推崇工作试用期，这也让我想到了实习项目。这是一个绝佳的面试流程，因为你能在四个月内得到真实的工作成果。他们能亲身感受在Shopify工作的四个月，我们也能评估他们的表现，最终可能转为全职。  \n\n（01:06:21）：这是一个高效的面试机制，因为你能精准评估能力。我听过有些公司先进行实习，再面试转正。我就想说：“八小时的面试能比四个月的实际工作经验获取更多信息吗？”所以关键在于看工作成果。  \n\n（01:06:21）：在之前的公司，我几乎不进行正式面试，直接让他们上岗。这样90天内的离职率高达20%，因为不合适的人很快被淘汰。但90天后离职率不到1%，因为双方都清楚彼此的诉求。",
+   "ts": "01:04:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So in terms of the hiring process, you're still at Shopify. You're interviewing people, they're doing technical evaluations, things like that. But it sounds like there's a very strong setting of expectations. \"We will hire you, but we'll actually clarify if this is a good fit in the first 30, 60, 90 days and we're going to do... We may let you go and there's a good chance we may let you go.\" Is that just the way you set things up?",
+   "zh": "那么招聘流程方面，你现在还在Shopify。你会进行面试、技术评估之类的。但听起来你们设定了很高的期望值。“我们会雇佣你，但会在前30天、60天、90天里确认是否合适，之后可能会让你离开。”是这样设定的吗？",
+   "ts": "01:07:04"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I think the way to think about, it's more like we want to make the interview process as close to the real job as possible because by doing that, we can likely assess the skills that you have in your interview closer to what's happening in the job. So that's one. Two, we have this interview step called the life story where we try to figure out if, are all the experiences you've had up until now actually going to be... Does it show that you are a curious person with range? Because if it does, that's likely more of someone who's going to be a fit. I had this famous line from somebody who said, \"You know what I don't like about resumes?\" I'm like, \"What?\" They go, \"It tells you what you did, but it doesn't tell you why you did those things.\" (01:08:10): And it's such an interesting insight. Your resume should be a why, like why did you go from this company to this? That's the interesting part. Not that you are a PM at Microsoft and a PM at Stripe. It's like, why did you switch from Stripe to Microsoft? There's something interesting there. And so the life story is trying to pull that out. It's like, why did you make the decisions? What did you do in your past that was interesting? Are you curious? I always thought... I read this great book, Range by David Epstein. That book was maybe one of the hardest books for me to read in my life because every page I was like, \"I don't believe it.\" I kept thinking I was a specialist. I kept turning the page going, \"I don't like this data that keeps showing that generalists are better.\" And then by the end, I realized that I'm a generalist. It took me so long to realize, and funny for me because I ended up redesigning the compensation system for Shopify, even though I'm an engineer. (01:08:56): So I still thought of myself as an engineer through and through, even though I work on recruiting and HR and all these other things. But I think that that's what we're trying to tease. And then yes, in that first period, we actually have a survey that goes over Slack that says, \"Hey, how happy are you with the person that you hired?\" And that should, in conversation with the person, you should give them the feedback to figure out, \"Hey, are there things you need to adjust to better fit in and make sure the expectations are set up?\" But then also, together with the person, figure out, \"Hey, if you're not feeling this, let's find you either a different role in the company or somewhere else because we want the people here to have high impact.\" But that person should have high impact somewhere, could be at Shopify, could be in the same role, could be in a different role, could be at a different company. But that's a good thing for everybody.",
+   "zh": "是的，我认为面试流程的设计理念是尽可能贴近真实的工作场景，这样才能更准确地评估应聘者的能力与岗位要求的契合度。首先，我们引入了一个名为\"人生故事\"的环节，通过深入挖掘申请者过往经历，判断他们是否具备好奇心、探索欲和跨领域的适应能力。这类特质正是我们寻找的理想人才特质。\n\n我曾听过这样一句名言：\"简历只告诉你做了什么，却不解释为什么这么做。\"（01:08:10）这句话深刻揭示了简历的局限性。简历本应传达出申请者的决策逻辑与成长历程，比如从一家公司跳槽到另一家背后的动机。这种深度探讨才能真正展现出应聘者的潜力与匹配度。\n\n《多面手》一书让我深有共鸣。书中提到，通才型人才比专才更具竞争力，这一观点曾让我深感震惊。尽管书中数据令人信服，但我始终难以接受这个结论，坚信自己是工程师中的\"专家\"。直到参与Shopify薪酬体系重构时，我才意识到自己其实是通才型人才。这种转变用了很久，但过程充满趣味。\n\n回到面试流程，我们会通过Slack调查收集反馈，了解应聘者对新同事的满意度，并及时提供反馈建议。同时，我们会与候选人共同探讨职业发展路径，确保双方期望清晰。如果发现不适应现有环境，我们会帮助他们调整方向，或推荐其他职位或公司。这最终是为了确保每位员工都能在Shopify发挥最大价值。",
+   "ts": "01:07:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then do you actually do work trials with new engineering hires, or is that something you aspire to do?",
+   "zh": "那你们是否真的会对新入职的工程师进行工作试用，还是说这只是你们的愿景？",
+   "ts": "01:09:41"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I would love to do it. It's hard to do with the volume resumes we get, but we do do it at scale with the internship program. So like 2025, we're going to hire a thousand interns, and that is going to give me a thousand job trials to pick the top X percent of those to come to Shopify full time.",
+   "zh": "是的，我非常希望能这样做。但面对海量简历，这确实是个挑战。不过我们通过实习项目已经在大规模实践了。比如2025年，我们计划招收1000名实习生，这将为我们提供1000次工作试用机会，最终选拔出最优秀的X%加入Shopify全职团队。",
+   "ts": "01:09:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So just to double-click on that, so you're hiring a thousand interns over the course of the year. That's a lot. And the idea there is these folks are actually useful building useful things, and it's an interview process for the internship.",
+   "zh": "再详细说一下，就是你们全年会招收1000名实习生。这数量可真不少。实习项目本质上也是一种面试过程，对吧？",
+   "ts": "01:10:03"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I think it's two things. One is some people look at an internship program as community service. Let's give back to the community. Let's hire early talent. And I'm like, \"Hold on a sec. Are you telling me I could hire a thousand people over the year?\" And they will come to work with an LLM and a brain because they're growing up in the age of AI. They will be useful to us because they come from a different generation and they have, in our case in commerce, they have a different experience about shopping and AI and bots and chat and voice and all these things. They'll be useful to us. We'll teach them some stuff as well. And then together we can decide if they might end up going somewhere else, in which case, we have the Shopify imprint on them going to whatever other company, which is I think a positive, or they might stay at Shopify and be useful over a longer period. (01:11:02): It seems like win, win, win. The other thing that was cool is after I did that tweet, a bunch of other CTOs messaged me and said, \"Hey, we're going to hire 1,001 interns to beat you guys.\" And I'm like, \"Great.\" Just from that one tweet, if I can get the early talent ecosystem restarted here after a really tough last few years and layoffs, it's great for everybody because now they're realizing that they also realize that these people are super valuable and they bring together a completely different set of skills. And by the way, here's a secret in pair programming, interns will always be more intense than the full-time. And so that also helps the flywheel of intensity go for it.",
+   "zh": "是啊，我觉得这有两个原因。首先，有些人把实习项目视为社区服务项目。他们想回馈社会，招募早期人才。我就想：“等等，你是说我一年能招一千人吗？”这些实习生会带着法学硕士学位和敏锐的商业头脑加入公司，毕竟他们成长于人工智能时代。他们能为我们带来价值，因为他们来自不同时代，在商业领域，他们对购物、人工智能、聊天机器人、语音交互等领域有着独特的见解。我们也会教他们一些东西。然后我们可以一起决定他们是否会去其他公司——如果这样的话，他们身上带有Shopify的印记，无论去哪家公司，对我们来说都是积极的。或者他们可能会留在Shopify，长期为我们创造价值。（01:11:02）：这看起来是三赢局面。另一件很酷的事是，我发了那条推文后，很多CTO给我发消息说：“嘿，我们要招10001名实习生来超过你们。”我回复：“太好了。” 就凭那条推文，如果能在经历了过去几年的裁员风暴后，重启这里的早期人才生态，对大家都有好处，因为现在他们意识到这些年轻人非常有价值，能带来全新的技能组合。顺便说一句，关于结对编程有个秘密，实习生总是比全职员工更有冲劲。这也有助于形成良性循环。",
+   "ts": "01:10:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It all just keeps coming back. Did the internship program emerge out of this co-op system that Canadian schools have and a Waterloo has a big co-op program?",
+   "zh": "这话题总是一再回归。实习项目是从加拿大学校的合作教育体系演变而来的吗？滑铁卢大学的合作教育项目规模很大。",
+   "ts": "01:11:40"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I went to Waterloo. And so yeah, hint, hint. So I went to Waterloo and I did co-op and I did intern programs there. It was amazing. What a great experience, because what ends up happening is you leave Waterloo with your degree, but also with two years of experience because I did six four-month work terms, 24 months, and you end up walking. I think one of the big parts of it is just interview skills because I interviewed for 10 plus jobs every four months, and I did that six times. And so you come out having done lots... You have a lot of interview experience, but you also have work experience. And so just taking that to the next level, Shopify has always had interns. And what I felt like we needed to do was, again, restart this notion of early talent in the ecosystem. I would say one or two big differences with our intern program. (01:12:36): One is we're making them come in three days a week versus full remote. And the reason for that is, and we're doing it just in three offices right now in Montreal, Toronto and Ottawa. And the reason for that is because we want them to have a cohort because early talent is different than you and I who've been in the industry. We worked in office, we worked out of office. We're more comfortable with navigating partnership discussions and talking to people in different companies. But these people have not. They may have never worked anywhere. (01:13:02): And so to not have the IRL component would do them a disservice. And so we specifically made it in those ports and the people are traveling by the way, they're moving to Montreal to do the internship. It's great. And then if you're a mentor or manager for one of the interns, you have to at least see them like IRL once a month. So we're kind of making these experiences. And of course, they'll have a cohort of dozens of people that will be with them along the way. And so we think that'll just make their experience better. And of course, nothing like tapping someone on the shoulder and be like, \"Have you seen this era before?\" And so it's easier in an early talent situation. And then of course over time, if they become full-time, they can still come to the office. It's come if you want, but they can also go full remote.",
+   "zh": "是的，我去过滑铁卢大学。所以，嗯，给你点提示。就是说，我去了滑铁卢大学，参加了那里的合作教育项目和实习项目。体验太棒了。那真是一段很棒的经历，因为最终你毕业时不仅拿到了学位，还获得了两年的工作经验——因为我做了六个为期四个月的工作实习，共24个月，最终毕业时你已经积累了丰富的实践经验。我认为其中很重要的一点是面试技巧，因为每四个月我要面试十多个职位，这样的经历重复了六次。所以毕业时你不仅拥有大量面试经验，还积累了实际工作经验。再进一步说，Shopify一直都有实习项目。我们觉得需要重新激发生态系统中早期人才的潜力。在我们的实习项目中，主要有两个方面的不同之处：（01:12:36）：一是我们要求他们每周到办公室三天，而不是完全远程办公。之所以这样做，是因为我们目前只在蒙特利尔、多伦多和渥太华的三个办公室开展这个项目。这样做的原因是，我们希望他们能形成一个学习小组，因为早期人才与我们这些在行业内工作过的人不同。我们曾在办公室工作，现在也在远程办公。我们更擅长处理合作伙伴关系讨论，跟不同公司的同事交流。但这些年轻人没有这些经验。他们可能从未在任何地方工作过。（01:13:02）所以没有线下的交流环节会对他们不利。因此我们特别安排了这些见面环节。顺便说一下，参与实习的人会到蒙特利尔参加项目。这很棒。然后，如果你是实习生的导师或经理，你至少每月要亲自与他们见面一次。所以我们在精心设计这些体验。当然，没有什么比得上拍拍某人肩膀说\"你以前见过这个时代吗？\"的场景了。在培养早期人才的环境中，这样做更容易。当然，随着时间推移，如果他们转为全职员工，他们仍然可以来办公室上班。可以随意来，也可以完全远程办公。",
+   "ts": "01:11:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is amazing. For folks that don't know anything about these co-op programs briefly, it's just basically while you're in school, before you graduated, during the summer, you go work at a company.",
+   "zh": "太棒了。对于不了解这些合作教育项目的人简单说一下，在你上学期间，在毕业前，在夏天，你去一家公司工作。",
+   "ts": "01:13:39"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "No.",
+   "zh": "不。",
+   "ts": "01:13:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, during the year. Okay.",
+   "zh": "哦，是在学年期间。好的。",
+   "ts": "01:13:48"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, it's during the year. So what happens at Waterloo is, what I did was I did eight months of school at the beginning. So two terms. My first co-op term was summer, but then it was work, school, work, school, alternating for the whole rest of my time at Waterloo.",
+   "zh": "是的，是在学年期间。在滑铁卢大学，我先上了八个月的课，两个学期。我的第一个合作教育学期是在夏天，但之后就是工作、学习、工作、学习，整个在滑铁卢大学的剩余时间都是这样交替进行的。",
+   "ts": "01:13:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's like semesters alternating.",
+   "zh": "就像学期交替一样。",
+   "ts": "01:14:02"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Exactly. So every four months I did either school term or work time. So I was doing work in January sometimes and September sometimes. And it was super good because again, it also allowed me to be super intense at school for four months and then go to super intense work experience for four months. But yeah, it's a model that... I was just at Waterloo this week doing a talk, so I love that symbiotic relationship between Waterloo and the employers, by the way, not just Waterloo. Lots of schools do a summer program, UFT and others, lots of schools in the states.",
+   "zh": "没错。所以每四个月我要么专注学业，要么投入工作。比如有时一月份在工作，有时九月份又开始学习。这真的很棒，因为这样既能让我在四个月里全身心投入学业，又能在接下来的四个月里全力投入工作。顺便说一句，我本周刚在滑铁卢大学做了一场演讲，我很欣赏滑铁卢大学与雇主之间这种互惠互利的关系——不只是滑铁卢大学，美国很多学校也开展暑期项目，比如UFT等。",
+   "ts": "01:14:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Fun fact. So total tangent, I had a startup called Local Mine, started it in Montreal of all places. I'm not Canadian, but moved there for various reasons. It was awesome. And our first hire was actually from the co-op program. I don't know if it was Waterloo, his name is Nick Adams. And he applied. Just he saw our job posting, I think, and were like, \"What is a co-op?\" And he came to work and then he went back to school, and then we hired him, and then he ended up at Airbnb when we got a card.",
+   "zh": "趣闻分享。说点题外话，我曾在蒙特利尔创办过一家名为Local Mine的初创公司。虽然我不是加拿大人，但出于各种原因搬到了那里。创业经历很棒。我们首位员工来自合作教育项目。我不确定他是否来自滑铁卢大学，但我记得他叫尼克·亚当斯。他看到我们的招聘信息后，问“什么是合作教育项目？”然后加入团队，完成学业后又回学校深造，后来我们把他转正，最后他去了Airbnb。",
+   "ts": "01:14:32"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "There you go. So for us, actually, when I did my startup Helpful, I had one or two engineers, and then I actually literally just hired four interns because you hired them in February for May. And because I was doing pair programming, I had to make sure I had four full times by then. So I hired the interns in anticipation of having the full times. And I literally had, I think I was off by one week, so one intern had no pair for a week, but then after that in May, I had four full times, four interns, and then they paired the whole time.",
+   "zh": "就是这样。实际上，当我创办Helpful公司时，最初有1-2名工程师，后来我直接雇了4名实习生，因为实习生是二月份招聘，五月份入职。由于我采用了结对编程模式，必须确保那时有四名全职员工。所以我提前雇了实习生，以便到五月份能有四名全职员工和四名实习生配合工作。唯一遗憾的是，有一位实习生那周没有结对搭档，但之后五月份所有人都顺利完成了结对编程。",
+   "ts": "01:14:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a journey. I want to talk about just one other topic real quick and then we'll wrap this up. And it's around XtremeLabs. So there's a bunch of stuff here. It feels like it's just like this tech mafia of Canada that a lot of incredible people emerged out of, and there's a whole bunch of stuff we can talk about. One fact I heard while you were there is you had a hundred reports, direct reports that reported to you.",
+   "zh": "真是一段精彩的历程。我想再快速聊聊XtremeLabs。这里有很多故事。感觉加拿大科技界就像个“黑手党”般的圈子，涌现了许多杰出人才。我们可以聊很多话题。比如我在那里了解到，你有100名直接汇报给你的下属。",
+   "ts": "01:15:31"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "A 120.",
+   "zh": "120名。",
+   "ts": "01:15:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "120 direct reports feels like a complete nightmare to me. Tell me why you decided to do that, if you'd recommend that for other people.",
+   "zh": "对我来说，120名直接汇报的下属简直是个噩梦。能否谈谈你为何选择这样做？是否建议其他人也这样做？",
+   "ts": "01:15:57"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, so what ended up happening there was we started off small. It was 10 people. When I got to XtremeLabs, I wasn't the founder, but I was very early on and I just had everyone report to me. And then as we grew, I just kept having those people report to me and I was trying to figure out, we talked about crafters and crafters paradise, this idea of people don't really... Their managers are useful, but I was trying to figure out could I solve the problems that they needed their manager for in other ways? So for example, what should I be working on? I was like, \"Okay, well, we have product backlogs\" or \"I'm blocked on something,\" or \"I need feedback on the product I'm building,\" or \"I'm stuck on this technical problem.\" I tried to figure out ways to not have managers be the answers to those questions. (01:16:48): I'm like, \"There should be another answer.\" And so pair programming really helps you get unblocked quickly because you have another person that you can bounce technical ideas off of. Having a product backlog can tell you what to work on. We had demos every week, demos internally, and then we had demos with the clients every week because we were a contract manufacturing for mobile. That gave them feedback on whether they were going in the right direction. We had set working hours, which made things super intense in the office. This is again like 2009 to 2013. So all these things didn't really need a manager. And what I realized was what the unblocking thing needed a manager. I'm blocked on this. Well, I said, okay, if... I had all these directors. I did two things famously. One, I had a lot of direct reports, and two, I did not do any scheduled one-on-ones because you can't have 120 direct reports and do a scheduled one-on-ones because you're never doing anything but one-on-ones. (01:17:31): So I said, \"I'm going to be around a lot because I don't have a lot of one-on-ones. So we can do unscheduled one-on-ones.\" And what that means is if you are blocked, actually there's a famous picture where I had this weird cube desk where it was like a circle almost in the middle of the whole floor of engineers. And I was always there because I wasn't in a lot of meetings and people that were blocked, they could just come up to me. Actually, one cool thing about pair programming IRL is you can look across and just see if it's working or not. Because if two people are intensely on the computer, you know it's working. If one person is laying back or you're like, \"It's not working,\" so you can just walk up to-",
+   "zh": "是啊，最后我们的情况是这样的。一开始只有10个人。我加入XtremeLabs时，不是创始人，但我加入得很早，所有人都向我汇报工作。随着公司发展，我继续让这些人向我汇报，同时我也在思考一个问题——我们谈到“工匠”和“工匠天堂”，即人们不需要经理来解决问题的理念。但我试图用其他方式解决他们依赖经理才能解决的问题。比如，我会问：“我该做什么？”  “产品待办列表卡住了？”  “客户反馈不足？”  “技术难题困住了？” 我试图找到不让经理成为这些问题的唯一解答方式。（01:16:48） 我会说：“应该有其他办法。” 对此，结对编程能快速解锁思路，因为你可以和搭档交流技术问题。产品待办列表能明确工作重点。我们每周内部演示，每周与客户演示（因为我们是移动端外包公司），这样能获得反馈，知道方向是否正确。我们设定固定工作时间，这让办公室氛围非常紧张。这段经历发生在2009至2013年间。这些事务其实不需要经理。但我发现，需要经理的地方在于解除阻塞。比如，遇到卡点时，我会说：“如果……我有这么多下属，我该怎么办。” 我做了两件事：一是增加直属下属数量；二是不安排固定一对一会议，因为120个直属下属不可能每个都单独见面（结果我只能开会）。（01:17:31） 我说：“既然我不常开会，就多在身边待着，这样可以随时解答问题。” 有个著名的照片，展示了我那张奇特的立方体办公桌，几乎占据了整个工程师楼层的中心位置。遇到卡点时，大家总会来找我。现实中，结对编程的妙处在于，你能通过观察了解进展。如果两人专注编码，说明进展顺利；如果一方懈怠，你就知道出问题了。",
+   "ts": "01:16:05"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "It's working if one person is laying back or you're like, it's not working. So you could just walk up to them and be like, \"What's happening?\" But they would come and ask me questions and I can unlock them. Like, hey, we're blocked on this. We don't have this API. We need money for this machine, whatever. And so the unscheduled one-on-ones ended up being a real clarifying thing for me. Because I did scheduled one-on-ones my whole career and I realized after leaving Microsoft for three years, I'm like, where are all those one-on-ones useful once a week for three years, right? A hundred and fifty one-on-ones. (01:18:26): So the unscheduled ones were, though. I was like, when I knocked on my manager's door and said, \"I have this problem, those were important.\" So that's what I created at Xtreme. And the 120 directors, it just grew over time. I just didn't think I needed managers. So I was like, let me unblock these people on another way. And we came up with other things to systems to unblock them that didn't require a manager. And I just also had a good memory. I knew exactly everyone's skills and compensation. I knew all that off the top of my head, so that helps. (01:18:54): The thing that I broke was actually, this is Chamath. He came in and became our biggest investors. He's obviously is a smart guy, but he said the right thing, which is not, this can never work, because then I would go into defense mode and explain to him why it would work. He just said to me, I'm not going to debate with you whether this works or not, but will it work at 400 people? And I said, probably not. He said, okay, so let's change it. (01:19:16): And so we did then ended up putting a little bit more of a structure, but I made a few people directors and I forced them to have 40 direct reports each. I said, we're just going to make it still pretty flat. And then that did end up working, because it still allowed them to use the system to unblock people versus having to do a one-on-one every week, or having to talk about things that potentially a system could unblock. And so I tried to figure out ways to systematize things.",
+   "zh": "只要有一个人在休息，或者你觉得“这行不通”，那就去找他们，问他们：“怎么回事？”但他们可能会来问我问题，而我能帮他们解决。比如，“我们遇到了这个技术难题。没有这项API。我们需要钱买这台机器等等。” 所以这些非计划性的单独交流对我来说很有启发意义。因为我整个职业生涯都在参加定期的一对一会议，但离开微软三年后，我才意识到，三年来每周一次的定期一对一会议到底有什么用呢？总共参加了150次一对一会议。（01:18:26）不过非计划性的交流确实有效。比如，我敲开经理的办公室门说：“我遇到这个问题了”，结果这些交流很重要。这就是我在Xtreme公司推行的机制。120个主管职位也是随着时间自然增长的。我觉得自己不需要经理，所以想用其他方式帮他们解除阻碍。我们开发了不需要经理参与的解除阻碍系统，而且我记忆力很好，对每个人的技能和薪资都了如指掌，这很有帮助。（01:18:54）我搞砸的部分是Chamath。他加入后成为我们最大的投资者。他显然很聪明，但他说了正确的话，不是说“这永远行不通”，因为那样我会进入防御模式，解释为什么行得通。他只对我说：我不想和你争论这是否可行，但400人规模能行吗？我说可能不行。他说：那就改吧。（01:19:16）于是我们增加了些结构化流程，让一些人成为主管，每人负责40个直接下属。我们决定保持组织结构尽可能扁平化。结果确实奏效了，因为员工仍能通过系统解除阻碍，而不必每周进行一对一沟通，或是去处理本可以通过系统解决的问题。所以我一直在探索如何将事务系统化。",
+   "ts": "01:18:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. Just another example of doing things differently, not necessarily just, here's how it's done and I'm going to do it that way and experimenting with it. Even if you knew, okay, maybe long term this isn't the way it's going to operate. I imagine at Shopify you don't have 120 reports.",
+   "zh": "我喜欢这样。这又是一个以不同方式做事的例子，不一定是那种“这就是标准做法，我要照搬”的做法，而是去尝试、去实验。即便你知道，或许从长远看这行不通。我猜Shopify没有120个下属吧。",
+   "ts": "01:19:45"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "No, we have fourteen or something. We do have these guardrails where I think we say, Hey, in engineering you should have between eight and 20. There are definitely people who have more and people who have less. But we do try to keep things as flat as possible, because we do believe that it doesn't make sense to have three people reporting to and then to somebody, and then they only have three people. You just make a very deep hierarchy. We actually do see, by the way, the farther you are from Toby, we can see things in the survey results. The alignment gets out of whack, and so you do actually see that you want to be closer, you want to have a flatter org in general, and that can be achieved by just having more direct reports per level.",
+   "zh": "没有，我们有14个左右。我们确实有一些基本规则，比如在工程部门，8到20个下属比较合适。当然有些人下属更多，有些人更少。但我们确实尽可能保持扁平化结构，因为我们认为三层级结构没意义，上面三个人管下面一个人，然后下面三个人又管下面一个人。这样就会形成很深的层级结构。顺便说一句，从Toby这里越远的员工，调查结果越差。组织一致性越差，所以你确实能看出，大家都希望更贴近高层，希望组织更扁平化，而这可以通过增加每个层级的直接下属数量来实现。",
+   "ts": "01:19:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Makes sense. Okay, final question before we get to our very exciting lightning round. We have this recurring segments that I call Fail Corner where generally people come on these podcasts, they share all their successes. Here's all the things that I've done, right. Here's all the big wins. And everyone feels like, oh man, I wish I was always successful people. When in reality, everyone that comes on has failed many times. Is there a story of a failure in your career that you could share that helps people see that even folks like you fail, and maybe what you learned from that experience?",
+   "zh": "挺有道理的。好的，在进入我们非常激动人心的闪电问答环节之前，最后一个问题。我们有这样一个固定环节，我称之为“失败角”，在这个环节中，嘉宾们通常会分享他们的成功故事。比如“我做过这些事”，“我取得了这些重大成就”。大家都会感叹“天哪，我真希望自己也能一直成功”。但现实是，每位嘉宾都经历过多次失败。您能否分享自己职业生涯中的一次失败经历，让大家明白即使像您这样的人也会遭遇挫折，并从中汲取教训呢？",
+   "ts": "01:20:39"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I have a few. I'll say one thing by the way, because I think I read this in Tim Ferriss's book or in the podcast where he said, create a failure resume and write everything down. And I would not recommend doing this because I did this and I got super... I'm like a high energy happy guy. I wrote down, I have a note on my phone called Failure Resume, and I wrote down all the times I failed and it is depressing. So I would not encourage people to do that, but I'm happy to tell you about a few instances. (01:21:33): So well, one is actually I've been laid off twice and people would not expect like, oh, I'm doing this thing and I've been laid off twice. And I think in both times it was the right thing, it was the right thing for the company, the right thing for me. (01:21:45): And I kind of used that experience as a way to reevaluate and eventually came out with my framework of how I want to spend time. But that's maybe a different story. (01:21:54): I'll tell you about one at Shopify, the first week that I started, 2019, we were rebuilding our point of sale system, which now does billions of dollars of GMB. But back then we were like, well, let's rebuild it with a new UX and a new technology platform. And it was my first week and I'm the mobile guy, coming from Extreme Labs. They're like, should we build this in React Native, or should we build this natively on the mobile platforms? And so I went through this evaluation, spent a lot of time, blah, blah, blah, and I came back with a hedged solution, which is kind of dumb. I said, let's do iOS and Swift and let's do Android in React Native. And the reason I said that was I said, I want to learn about React Native and I think Android's the harder platform, so let's build that in React Native, but iOS on Swift because that guarantees us a product in market. And we didn't have any React Native apps in market at the time. A year later we launched the iOS version and it was a huge success. And we then spent another six months building the React Native version for Android and everything else. And we realized pretty quickly that React Native was the platform for the future. We were like, oh my God, this will allow us to have one platform. You could run it on the web as well, and we could use the React engineers from the web to work on it. It was a clear winner. By then, we had also launched a shop app, which is React Native. (01:23:11): And so we learned a lot about this. And I went back and I said, hey everybody, I made a huge mistake. We just spent a year building this thing. It's in market, but we're going to have to rewrite. We're going to have to rebase back onto this iOS version. And I think I burned 18 months of time with a hundred engineers, literally from the decision I made in the first week of joining Shopify, and Toby, when I went to Toby and I told him, I go, hey man, I think I made this mistake and we have to do this and it's going to cost us a hundred engineers, another six, whatever. And he looked at me and he goes, you should tell everyone this story. That's all he said. Not like, hey, bad, good. He goes, did you learn something? It was an epiphany for me, but he was like, this is a learning org, and I totally failed and I told everyone I failed and my mistake and everything else, but he goes, just tell everyone because he goes, do you know what mistake you made? (01:23:57): And first I was like, I don't think, like, what mistake. He's like, you didn't take. He goes, I will always come down harshly on people who do not take risks, and you did not take a risk in this case. But if you take a risk and it doesn't work out, you'll never get in trouble, because you took the risk and it was the right risk to take, but he goes, but you didn't take the risk. (01:24:16): And so what I should have done, and by the way, even now thinking back it would be super hard to do, first week at Shopify, right, is take a risk on a platform that we have not launched in production app on, but he was correct in that we should have, because we would've saved ourselves so much more time. So yeah, total failure, sorry. The product is super successful now and we're all on React Native and even the Shop Green app is on React Native. Everything's React Native, and we're core contributors. It's all good. But I literally burned I think 18 months of time for a hundred engineers as my first decision in the company.",
+   "zh": "我有过几次失败的经历。顺便说一句，我记得在蒂姆·费里斯（Tim Ferriss）的书或播客中看到过一个建议，叫做“制作一份失败履历表”，把所有失败经历都写下来。但我不建议这么做，因为我自己试过，结果非常糟糕。我本来是个精力充沛、乐观开朗的人，但写下那些失败经历后，真的很压抑。所以我不建议大家这么做，但我可以分享几个例子。（01:21:33）：比如说，我被裁过两次。人们可能觉得奇怪，哦，我才刚加入公司就被裁两次。但我觉得两次裁员都是正确的决定，对公司和个人来说都是最好的选择。（01:21:45）：我把这段经历当作重新审视自我的契机，最终形成了我理想的生活框架。不过这或许是另一个故事了。（01:21:54）：说说Shopify的经历吧。2019年我刚加入公司的第一周，我们就着手重建当时价值数十亿美元的GMB（全球商户平台）的销售点系统。但当时我们面临一个技术挑战——是用React Native还是原生平台来开发？作为移动部门的负责人，我需要做出选择。团队问我：是用React Native还是原生平台？于是我经过深思熟虑，最终提出了一个折中方案：iOS用Swift，Android用React Native。原因是我想学习React Native，又觉得Android平台更难，所以选择在iOS上用Swift开发，而Android用React Native。但一年后我们发布iOS版本时，取得了巨大成功。之后又花了六个月为Android开发React Native版本，结果发现React Native才是未来的趋势。我们意识到，未来可以将一个平台适配到网页端，利用Web端的React工程师共同开发。这是一个完美的解决方案。当时我们还推出了React Native版本的Shopify应用。（01:23:11）：从中我们吸取了宝贵教训。我回去跟团队说：我犯了个大错，浪费了一年时间。虽然产品上线了，但我们必须重写代码，回退到iOS版本。当时我动用了100名工程师，耗费了18个月的时间。这全都源于我加入Shopify第一周做的那个决定。后来我去找托比（Toby）说，我觉得自己犯了错，必须重写代码，回退到iOS版本。他只说了一句：你应该把这个故事分享给所有人。没有批评，也没有安慰。他问：你从中学到了什么？这对我来说是个顿悟。他说Shopify是个学习型组织，我坦诚承认错误，分享教训，但他强调：你要把错误公开，让大家引以为戒。（01:23:57）：起初我很困惑，觉得自己哪里错了。他说：你没有冒险精神。他说：我对不肯冒险的人零容忍，而你这次就是缺乏冒险精神。但如果\n即便你冒了风险却没成功，也绝不会因此陷入困境，因为你当初的冒险是明智之举。但他却说，你根本没冒险。（01:24:16）所以我本该怎么做呢？说实话，即便现在回想起来也知道这很难做到——毕竟那是我加入Shopify的第一周。当时我们应该在一个尚未投入生产的平台上冒险尝试，但他说得没错，我们确实应该这么做，因为这样能为我们节省大量时间。好吧，那次尝试确实彻底失败了，很抱歉。不过现在这个产品非常成功，我们全公司都采用了React Native，甚至Shop Green应用也迁移到了React Native。所有产品都用上了React Native，我们还是核心贡献者。这结果还是不错的。但我记得，我在公司做出的第一个决策，直接让100名工程师白白浪费了18个月的时间。",
+   "ts": "01:21:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This might be the best example of failure coordinator we've had yet. This is a great example. Both of them actually are, although I'm wondering, okay, that felt like a really good decision to me and it's-",
+   "zh": "这或许是我们遇到过的最典型的失败协调者案例了。这确实是个绝佳的例子。说实话，他们俩都属于这种类型，不过我还是想说，嗯，我当时觉得这真是个很明智的决策——",
+   "ts": "01:24:48"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "It sounds like it, right? But It wouldn't have been his.",
+   "zh": "听起来确实如此，对吧？但那本不该是他的选择。",
+   "ts": "01:24:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But it's, obviously you don't want to just take risks. There's a limit of a risk but informed, I guess. Is there anything you missed there that would told you this was the right path? Because in hindsight, of course we should have done this, but looking back, what do you think you should have done other than we should have done the risky path?",
+   "zh": "但显然，你不想只是一味地冒险。风险固然有其限度，但必须是明智的冒险。你们有没有遗漏什么关键信息，导致你们认为这条路是正确的？因为事后看来，我们当然应该这么做，但回头看，你们觉得除了选择冒险路径，还有什么别的做法呢？",
+   "ts": "01:25:02"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I mean one thing about my career as well is I don't really do anything halfway. And when I started looking into React Native, it was never just that I'm going, oh, let me look at the docs and read and build a thing. It's like I flew to Meta and met with the React team. I became a core contributor. I ran the React Native working group, like we became release captains for React Native. I knew that I was going to do all the things, so I'm like, and of course in React Native you can also drop down to native and do things there that are not possible. So I think I hedged incorrectly. I knew I was going to do all these things and I should have looked at my own thought process, say, if I do all the things, can I fail? And I didn't take that into account because again, I did five or six. (01:25:58): I literally, I put everyone together. I was running the group, I was like release captain. I would hang out with the React team and Meta, we're doing all the things. We became core contributors at React Native before we became core contributors and react because of all the things I was doing. And so I think just knowing that I was going to go all out, I should have said, you know what? This is not going to fail. And I didn't have the confidence in that path, so I hedged, right? Hedging is the worst. And I remember the CTO at the time said, I'm wondering if I should force you to go React Native. He literally said that. And I said, I will do if you say that, I will do it, but it would've been his decision. And so he didn't do it. He didn't tell me to do it.",
+   "zh": "是啊，我职业生涯的一个特点就是从不半途而废。当我开始研究 React Native 时，绝不是随便看看文档、读读代码然后搭建个东西那么简单。我飞到 Meta 公司，与 React 团队会面。我成了核心贡献者，负责 React Native 工作组的运营。我们甚至成为 React Native 版本发布的负责人。当时我就知道自己必须全力以赴，所以我总在想，如果我把所有事情都做好了，还能失败吗？但我没考虑到这一点，因为我确实做了五六件事。（01:25:58）我简直把所有人都召集起来了。我领导着这个团队，担任发布负责人，与 React 团队和 Meta 公司密切合作。我们因投入的巨大精力而成为 React Native 的核心贡献者，甚至早于成为 React 的核心贡献者。所以我觉得既然决定全力以赴，就应该坚定信心说，这条路绝不会失败。但我对这条路线缺乏信心，所以选择了退缩，对吧？退缩是最糟糕的选择。我记得当时的首席技术官曾说，想强制我采用 React Native。他真的这么说了。我回答，如果你这么做，我会照做，但那将是他的决定。他最终没有这么做，也没有命令我这么做。",
+   "ts": "01:25:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, that makes a lot more sense. It's so funny that Facebook had a similar mistake early on in their career-",
+   "zh": "好吧，这下更说得通了。真有趣的是，Facebook 在早期也犯过类似的错误——",
+   "ts": "01:26:36"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "HTML5.",
+   "zh": "HTML5。",
+   "ts": "01:26:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, exactly. I know. I don't know if you were at Zuck's interview at the Chase center that the Acquired podcast did, and he talked about this where their market cap dropped 80%. They were about to go public. They went with this app. No one thought they could do mobile ads. And he's like, that set us back a year and a half. He's like, but based on all the pain he's gone through back since then, he's like, that was not too bad.",
+   "zh": "是啊，确实如此。我知道。你可能听过 Acquired 播客在 Chase 中心对扎克伯格的采访，他谈到过那个事件，当时他们的市值暴跌 80%，眼看就要上市了，结果推出了那个应用。当时没人认为他们能做移动广告。他说，嗯，那让我们倒退了一年半。但基于后来经历的种种挫折，他觉得那也不算太糟。",
+   "ts": "01:26:45"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, it's true actually, maybe what people don't know is, I was at Facebook, XtremeLabs, worked on the Facebook app and we worked on that app. I was in the office when we submitted the iOS app every single day that week, because it kept crashing. And we had obviously direct access to people at Apple, but we'd ship a new app on Monday and it crashed ship an app on... Not just us, but us, Facebook together. And so I remember that whole HTML five fiasco from the inside.",
+   "zh": "是啊，说实话，人们可能不知道的是，我曾在 Facebook 的 XtremeLabs 工作，参与过 Facebook 应用的开发。记得那周我们每天都在办公室提交 iOS 应用版本，因为它老是崩溃。当时我们显然能直接接触到苹果公司的人，但周一刚发布新应用，周三就崩溃了。不只是我们，Facebook 整个团队都遇到了这个问题。因此，我从内部视角见证了整个 HTML5 事件的全过程。",
+   "ts": "01:27:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I thought you would say you also told Facebook to decide on the HTML5 app to set them back a year.",
+   "zh": "我以为你会说你还让Facebook决定采用HTML5应用，让他们倒退一年。",
+   "ts": "01:27:36"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I did not. We happened to be there when they were doing it. Yeah.",
+   "zh": "我没有。我们碰巧在他们做这件事的时候在场。是的。",
+   "ts": "01:27:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's so funny. Amazing. Thank you for sharing that. Before we get to a very exciting lightning round, is there anything else that you think would be valuable to leave listeners with, either touch on something you've mentioned, a last piece of nugget of wisdom, or we just go straight to the round?",
+   "zh": "太有趣了。太棒了。谢谢你分享这个。在我们进入非常激动人心的闪电问答环节之前，你觉得还有什么对听众有价值的信息可以留下，或者是提及你之前提到过的东西，或者是一个最后的智慧金句，或者我们直接进入问答环节？",
+   "ts": "01:27:45"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I'll say something maybe embarrassing for you. I've been using your performance management framework from your first round review article, not knowing by the way that it was you. I actually found it, you being the famous Lenny podcaster, but the old days, maybe the Lenny, the PM. And I remember reading this a long time ago and just copying, there's a Google link in there to a Google Doc link with a template for a performance review framework that I've been using for years. (01:28:32): Literally every review I've done at Shopify uses that framework. And I was writing a post to my admin about how we can use LLMs to make it easier for me to write these reviews, even though obviously you have to read it all and go through it, but I was like, how can I generate some of this with an LLM? And so I wanted to send her the original article. So I went back to the first round review, I found the article and said, oh my God, it's Lenny, the same guy. (01:28:54): So I will say one thing that's interesting about that framework is, I've used it now for, like I said, six years here, is that, and I don't think it's me. I think it's actually the framework pulls out good information. I've had multiple people in a review process tell me that, when I deliver the feedback in, of course the format, they would say, wow, I've been in industry a long time. This is the best performance review I've ever had. And it's because the framework pulls out good information. So congrats to you. (01:29:21): But I think it was funny that randomly I was coming on this podcast and I just wrote that doc to my admin two, three weeks ago and realized it's the same person.",
+   "zh": "是的，我要说一些可能会让你尴尬的事。我一直在使用你第一轮评审文章中的绩效管理框架，却不知道那是你写的。实际上，我是在旧金山工作时发现它的，当时你还是著名的播客主Lenny，但在过去的日子里，也许你还是那个PM Lenny。我记得很久以前读到这篇文章，就直接复制了下来，里面有一个Google链接，指向一个Google Doc模板，我已经用了好几年了。（01:28:32）：我在Shopify做的每一次评审都用了这个框架。我还写了一篇帖子给我的行政助理，讲如何用LLM让评审更轻松，尽管显然你还是需要通读并审核，但我想，如何用LLM生成部分内容呢？所以我想把原文发给她。于是我回顾了第一轮评审，找到了那篇文章，天哪，原来是Lenny，同一个人啊。（01:28:54）：所以关于这个框架的一个有趣之处是，我在这里用了六年，现在看来，不是我的问题，而是框架本身能提取出有用的信息。很多参与评审的人都告诉我，当我给出反馈时，尽管格式一样，他们还是会说，哇，我在行业里这么久了，这是我经历过的最好的绩效评审。这是因为框架能提取出有用的信息。所以恭喜你了。（01:29:21）：但有趣的是，我偶然来听这个播客，两三周前刚把那份文档发给我的行政助理，结果发现是同一个人。",
+   "ts": "01:28:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, how about that? I love that. I'll also give credit to a four board guest on this podcast, Vlad Loktev, who was my manager at Airbnb, and that's where I was inspired to write about that framework.",
+   "zh": "哇，真是巧合。我太喜欢这个了。我还要感谢这个播客的第四期嘉宾Vlad Loktev，他曾是我在Airbnb的经理，我就是从他那里获得了灵感写下那个框架。",
+   "ts": "01:29:29"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Amazing.",
+   "zh": "太棒了。",
+   "ts": "01:29:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So it trickles down to him and I don't know where he boarded this, he probably invented it. So credit to Vlad also for that. Another fun fact along these lines, I have another first round of repost about the W framework, which is a framework for planning. They do annual planning. And that's one that I've slowly discovered many, many companies use and they don't know where it came from. They just call it, oh, we have this W framework. Someone flipped it and call the M framework. But that's another one that has trickled into the ether of tech companies, which is awesome.",
+   "zh": "所以这个框架慢慢传播开来，我都不知道它从哪里来的，可能Vlad自己发明的。所以也要感谢Vlad。另一个有趣的事实是，我还有另一篇关于W框架的第一轮转载文章，W框架是一个用于规划的框架。他们每年做规划。我慢慢发现很多公司都在用这个框架，却不知道它从哪里来的。他们只称之为W框架，有人把它改名叫M框架。但这又是一个慢慢渗透进科技公司圈子的框架，真是太棒了。",
+   "ts": "01:29:41"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Amazing.",
+   "zh": "太棒了。",
+   "ts": "01:30:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "With that, Farhan, we have reached our very exciting lightning round. Are you ready?",
+   "zh": "好的，Farhan，我们进入令人兴奋的闪电问答环节了。你准备好了吗？",
+   "ts": "01:30:12"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I'm ready.",
+   "zh": "我准备好了。",
+   "ts": "01:30:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's do this. What are two or three books that you have recommended most to other people?",
+   "zh": "咱们开始吧。你最近向别人推荐得最多的两三本书是什么？",
+   "ts": "01:30:18"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "There's one. So Toby has an annoyingly long set of books that he recommends, and they're all, not all, they're usually good, depends because we're not totally in sync on fiction, for example. But he recommended one to me that I think everyone should read right now called Manna, M-A-N-N-A, from Marshall Brain. It is a book, it's a book about AI. And I think the most interesting thing about it though is about a future in which the AI tells the humans what to do. So it's this idea of, imagine in the future you came into work and the AI would tell you what emails to pay attention to or what dashboard to look at because something weird is going on. It takes that to an interesting level. So I would recommend reading that book. It's not long. That's fun. (01:31:05): I think another book that I recommend to people, and it's a weird one to recommend, but it's Business Adventures from John Brooks, the famous, if you ask, I think it's Bill Gates, what his famous book of all time is, it's this book. (01:31:16): And the cool thing about the book is that it is not easy to digest for anyone with focus problems. Paul Graham wrote the post How to Do Great Work, and it's super long. The best part about that post is that you have to be able to read the whole thing. And so the same thing with Business Adventures. I think each chapter is, it's 12 chapters, 12 stories, no breaks in between. It's just each one is super long. But it just goes into a problem at such depth that if you can maintain your focus to get through the depths of each problem, you will just learn something, just like that post by Paul Graham. (01:31:51): I loved that it was so long because I sent it to people and I said, the test here is can you read it? Can you just get to the end? And not in a pejorative way, like in a... If you can get to the end, you will extract the alpha from this post if you can read it all. So those are... Manna is like the opposite. It's very easy and easy read.",
+   "zh": "就一本吧。托比推荐的书多得让人头疼，但也确实不错，不过我们在小说方面的品味不太一致。比如，他推荐给我的一本叫《Manna》的书，作者是马歇尔·布莱恩，讲的是人工智能的。最有趣的点在于，书中设想未来人工智能会告诉人类该做什么。比如你去上班，人工智能会提醒你关注哪些邮件，或者查看哪些仪表盘，因为系统发现了异常情况。这部分设想很吸引人。所以我推荐大家读这本书。书不算长，很有趣。（01:31:05）：我还推荐过一本奇怪的书，是约翰·布鲁克斯的《商业冒险》。要问谁推荐的书最多，我觉得是比尔·盖茨。他说自己最喜欢的书就是这本。（01:31:16）：这本书的妙处在于，注意力不集中的读者很难读下去。保罗·格雷厄姆写过《如何做好工作》那篇长文，同样需要专注力。这本书也是如此，每章都是12个故事，没有分隔符，每个故事都超长。但正因如此，它对每个问题的剖析极其深入。只要你能保持专注，钻研每个问题的深层逻辑，就能收获知识，就像保罗·格雷厄姆那篇长文一样。（01:31:51）：我喜欢它篇幅长，因为我把它推荐给别人时说：考验就在于你能否读完。能读完就说明你能从中汲取精华。《Manna》则相反，读起来很轻松。",
+   "ts": "01:30:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm excited to read these. Next question. Do you have a favorite recent movie or TV show you really enjoyed?",
+   "zh": "我很期待读这些书。下一个问题。你最近有没有特别喜欢的电影或电视剧？",
+   "ts": "01:32:11"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "A recent one was Challengers, the tennis movie, with Zendaya just randomly I was at home and I put it on and the cool thing about it was more the cinematography and music. They had this weird style, art house style, where they would be talking and music would get super loud. It was very strange, but a very, very good movie. And then you saw, you said movies and-",
+   "zh": "最近看的《挑战者》这部网球题材电影挺不错的，主演是赞达亚。我在家随手点开看的，最棒的是摄影和音乐。他们用一种很奇特的艺术风格，拍对话时音乐会突然变得很大，很怪异，但确实是部好电影。然后你提到电影和——",
+   "ts": "01:32:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Or TV show. Oh, TV show, anything like that.",
+   "zh": "电视剧。哦，电视剧啊，随便说点。",
+   "ts": "01:32:40"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, one of my all time favorites is probably Halt and Catch Fire. I don't know if you've watched that.",
+   "zh": "对，我最喜欢的剧之一是《编辑部喜事》，不知道你看过没。",
+   "ts": "01:32:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "About the early tech industry.",
+   "zh": "讲早期科技行业的。",
+   "ts": "01:32:47"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Early tech. And I think there was an Andreessen podcast where he said this is the closest thing to what a real startup looks like. So Halt and Catch Fire like an all time recommend, everybody has to watch it.",
+   "zh": "早期科技。安德森在播客里说这是最接近真实创业公司的作品。所以《编辑部喜事》绝对值得推荐，每个人都该看看。",
+   "ts": "01:32:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite product that you recently discovered that you really love?",
+   "zh": "你最近有没有发现什么特别喜欢的产品？",
+   "ts": "01:32:59"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I don't know if I want to be in the zeitgeist right now, but the Meta Ray-Bans are amazing. And the biggest thing about the Meta Ray-Bans was just that I think I never got into it and I saw people around me wearing it, but I only got into it when somebody said I'd never take my AirPods with me anymore. And I was like, oh, I can swap two devices for one device. I always have sunglasses and AirPods because I'll go for a walk or listen to a podcast and now I can just have one device. (01:33:26): And this happened to me. I was in the summer, I was at a pool party and someone called me and I just took it from my sunglasses and people were confused as where I was taking this call from. But they are the right amount of tech. They're in unintrusive, you can't tell, they don't look like any tech. And then also I was playing soccer with my kids. I have three kids. I just turned the video on and I was the goalie and they were taking shots and I was watching them. They had no idea that I was just recording. And it was such a cool moment because I was in playing soccer with them. I wasn't with my phone and I got to get this amazing set of video that I would never would've gotten. So I really liked the Meta Ray-Bans.",
+   "zh": "我不知道自己现在是否想紧跟时代潮流，但Meta Ray-Bans真是太棒了。而Meta Ray-Bans最吸引我的地方在于，我之前从未真正关注过这款产品，但看到身边的人戴着它时，我才意识到它的魅力。直到有人说我再也不用随身携带AirPods了，我才真正入了坑。我当时想，哦，我可以用一台设备替代两件物品。我总会随身携带太阳镜和AirPods——无论是去散步还是听播客，现在只需携带一台设备就够了。（01:33:26）：这种情况在我身上也发生过。那年夏天，我在泳池派对上接到电话，直接从太阳镜上取下手机，周围的人都好奇我从哪儿接的电话。但它们恰到好处地融入了科技元素，既不显眼，又不像传统科技产品。还有一次我带孩子们踢足球。我有三个孩子。我打开视频录制，自己当守门员，孩子们不断射门，而我全程在观察。他们完全不知道我在拍摄。这真是个很棒的时刻，因为我能和孩子们一起踢球，不用掏出手机，还能拍下这些珍贵的画面。我真的很喜欢Meta Ray-Bans。",
+   "ts": "01:33:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We had Boz on the podcast who leads a lot of that work and he's got a to teach us. And I put on Ray-Bans while we were doing the interview just for fun. You could see my setup. Okay, cool. Two more questions. Do you have a favorite life motto that you find useful in work or in life?",
+   "zh": "我们节目请到了Boz，他负责大部分相关工作，他能教会我们很多东西。采访时我戴上Ray-Bans只是为了好玩。大家可以看看我的设备设置。好的，再问两个问题。你有没有一条在工作或生活中觉得很有用的座右铭？",
+   "ts": "01:33:58"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Okay, I do. And it's on a lot of my profile bios, and it is, everything you know is wrong. And the reason I like that one, and people always like, what would you put on a billboard? And people always come back to me and say, that's like they know that as my motto. (01:34:32): And the reason for that is it's this notion of if all the knowledge you knew was incorrect, could you from first principles build up a view of the world? And that's kind of how I like to think of things is that, anything could be incorrect. Even things that you think are correct, which is why, again, back to the, I like to experiment. I like to look stupid, because I'm always trying shit because I'm like, I don't know if even though you say this is correct, that this is going to work, right. (01:34:58): Actually, one example, my wife hates this is I have a Tesla and I routinely will switch gears without fully stopping the car, which you cannot do in a regular car, but I'll be in drive and then I'll slow down to drive back up into my driveway and while it's moving I switch it into reverse. (01:35:14): And you never would know that that's possible except for trying. And sometimes it goes beep beep because you're going too fast. And she hates it. But I'm always trying weird things and so that's why I say everything you know is wrong. Who knows what's possible, just try different things.",
+   "zh": "有的。这句话经常出现在我的个人简介里：你所知道的一切都是错的。我喜欢这句话的原因是，它启发我思考：如果现有知识都是错误的，能否从第一性原理出发重建世界观？这也是我思考问题的方式——任何事都可能是错的，即便你认为正确的事也可能出错。这也是我喜欢尝试新事物的原因。我愿意看起来像个傻瓜，因为我总在不断尝试。比如，我妻子讨厌我开特斯拉时不停车就换挡，这在普通车上是不允许的，但我会在行驶中切换到倒挡。（01:34:58）：除非亲自尝试，否则你永远不会知道这能行得通。有时还会因为车速过快而听到提示音。她特别讨厌我这样做。但我总在尝试新奇的事物，所以我才会说你所知道的一切都是错的。谁知道未来会有什么可能，勇敢尝试吧。",
+   "ts": "01:34:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I do the same thing with my Tesla. I used to do it with a non-electric car and my wife is always like, don't do that. Screwing it up.",
+   "zh": "我也用特斯拉这么做过。我以前开非电动车时也这样，我妻子总是说别这样，会把车弄坏的。",
+   "ts": "01:35:29"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yes, exactly.",
+   "zh": "是啊，没错。",
+   "ts": "01:35:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that on an electric car, there's no gear you're breaking, it's just software.",
+   "zh": "我喜欢电动车没有变速箱的问题，全靠软件控制。",
+   "ts": "01:35:35"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "01:35:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This quote reminds me of that you shared of everything you know is wrong. The founders of Airbnb always talked about just this point that everything around you was designed somebody, another human. There's not necessarily that much smarter or insightful. It doesn't mean what they did was correct. Somebody else find some better potentially...",
+   "zh": "这段引言让我想起你分享过的，关于你知道的所有错误之处的故事。Airbnb的创始人总是强调这一点——你周围的一切都是由人设计的，并非必然更聪明或更有洞察力。这并不意味着他们做得对，别人总能找到更好的方案。",
+   "ts": "01:35:41"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "I think Steve Jobs had a similar thing like, hey, you can design anything. Everything's designed by people. I love that one too.",
+   "zh": "我觉得史蒂夫·乔布斯也有类似的观点，他曾说过，你可以设计任何东西。一切都是由人设计的。我也很喜欢这句话。",
+   "ts": "01:35:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Final question. So you told me the story of this PhD you hired versus just a guy you met in a college, sorry, in a coffee shop. I read another similar story where you hired a waitress.",
+   "zh": "是的。最后一个问题。你之前给我讲过你雇用博士生和在咖啡店遇到的普通人的故事。我还读到过另一个类似的故事，说你雇用了一位女服务员。",
+   "ts": "01:36:03"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "01:36:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is that real? Okay, tell that story.",
+   "zh": "那是真的吗？好吧，把那个故事讲一下。",
+   "ts": "01:36:14"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, so again, this is another long list of reasons my wife is in annoyed with me, but this is another one of them. Whenever we are out, I'm always scanning and I'm always scanning people and one, do I know anybody around, whatever. I like to scan for people and I have a good memory for faces. But in this case we were at a restaurant and I saw a waitress doing a very, very good job, an extremely, like she was running between different tables, she was smiling her face, taking everyone's order, making sure that there was a thing happening in the kitchen. She was kind of doing a phenomenal job of organizing the entire crazy busy restaurant. And so in talking to her, I said, what do you do outside of this because you look like you're super. She's like, what do you mean? I'm just the waitress. (01:36:59): And I said, well, would you like to, this is XtremeLabs. I Said, would you like to work at XtremeLabs? She's like, what's that? So I explained it to her and I got her contact info. She came into the office and she first started off as our receptionist, so she moved from the retail world into the office world, and then I brought her on as my admin and she became one of my recruiters. And I taught her how to recruit and talked to people and she came in with me to info sessions. And over time we actually hired many more people from the restaurant that were really, really good at their job. And what was amazing was, one, she was organized but not reorganized. I had to teach her at Google Docs and G Suite and everything else, but she was super smart but just never had the opportunity. (01:37:35): The coolest thing about this is that she ended up being, she ended up taking over one of the HR functions for us. And she had a college degree and because of the work she had done with us, she was able to parlay that into finishing, doing one more year and getting a university degree. And now she's a director of HR at a company, which is amazing from, like, she went from that environment to this environment and a lot of her people, she pulled the smart and intense people she pulled from that environment also ended up on these amazing career paths. If I see someone doing a good job, I'm like, what do they do? How can I work with them? This is one example of pulling somebody out of that environment. I have lots of other ones where I overhear someone in their designer or an engineer and I try to hire them into my company as well.",
+   "zh": "是的。说到这，又是一个让我妻子烦我的长长清单，但这是其中之一。我们外出时，我总是在扫描周围的人，观察是否认识某个人之类的。我喜欢观察人群，而且我对面孔有很好的记忆力。但这次我们在一家餐厅，我看到一位女服务员工作得非常出色。她在不同桌间穿梭，面带微笑，记录顾客点单，确保厨房一切井井有条。她把整个繁忙的餐厅组织得极为出色。于是我问她：\"你平时做什么工作？你看起来特别棒。\"她回答：\"你什么意思？我就是个服务员。\"（01:36:59）我说：\"你愿意来XtremeLabs工作吗？\"她问：\"那是什么？\"我解释了一番，拿到了她的联系方式。她先是担任我们的前台接待员，从零售业转入办公室工作，后来成为我的行政助理，接着成为招聘人员。我教她如何招聘、与人沟通，还带她参加招聘会。渐渐地，我们从餐厅招来了许多非常出色的员工。最神奇的是，她不仅能力出众，还善于组织协调。虽然我得教她Google Docs、G Suite等工具，但她天资聪颖，只是缺乏机会。（01:37:35）最酷的是，她最终接管了我们的人力资源部门。她原本有大学学位，通过与我们合作，得以完成学业，获得学位证书。如今她已成为一家公司的HR总监，从那样的环境到如今的职场，变化巨大。她从那里吸引来的许多聪明能干的人，也走上了辉煌的职业道路。如果我看到有人表现出色，就会想：他们是做什么的？我怎样才能与他们合作？这就是把人才从那个环境中挖掘出来的一个例子。我还有很多其他例子，比如在设计师或工程师那里听到好点子，然后试图把他们招入我的公司。",
+   "ts": "01:36:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. That is such a good story. I love that. Maybe restaurants are the new feeder system for tech companies. Did not think about that.",
+   "zh": "哇，真是个精彩的故事。我太喜欢了。或许餐厅是科技公司的新型人才输送系统，我之前从没想过这一点。",
+   "ts": "01:38:22"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Yeah, I mean, everyone's smart at something, so I was trying to figure out, she was really good at this thing. She'd be so good at something else.",
+   "zh": "是啊，我是说每个人都有擅长的事，所以我一直在想，她确实很擅长这件事。她在其他领域也会同样出色。",
+   "ts": "01:38:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I feel like there's so many stories, more stories to tell, but we're going to wrap it up and let you go, farhan. Two final questions. Where can folks find you a line if they want to reach out, learn more, maybe apply to work at Shopify and how can listeners be useful to you?",
+   "zh": "太棒了。我感觉还有很多故事可讲，但今天就到这里了，法尔汉。最后两个问题。听众如果想联系你、了解更多信息，或者申请在Shopify工作，可以通过哪些渠道呢？",
+   "ts": "01:38:36"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Sure, so Twitter's probably the place I try to hang out the most, X at FNThawar, and maybe I'll put that in the show notes. And then listeners for me. I mean, I love to be challenged. I'm sure that there are people who are like, they heard something that I said and they're like, oh, that's super dumb. We do this instead. Or here's research that says that that won't work. I would love to hear more about these because I'm just again, on a learning journey and if I did something stupid, very likely I would like to learn a better way to do things. So I would love for people to comment and say, hey, this is dumb. You should try this, or, that doesn't make any sense. I would love to learn more. So that's what I'm looking for.",
+   "zh": "当然，Twitter应该是我最常活跃的地方，账号是FNThawar，可能我会把这个信息放在节目笔记里。至于听众，我是说，喜欢接受挑战。我相信有些人会听到我说的话，然后觉得，哦，这太蠢了。我们应该这样做。或者这里有研究表明那样做行不通。我很乐意听听这些反馈，因为我还在学习的路上。如果我做错了什么，很希望能学到更好的方法。所以我希望大家能留言评论，比如，嘿，这太蠢了。你应该试试这个，或者，那样做没道理。我很想了解更多。所以这就是我期待的。",
+   "ts": "01:38:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, well leave a comment in YouTube or on the Substack post with what Farhan got wrong.",
+   "zh": "好的，大家可以在YouTube或Substack帖子上留言，指出法尔汉哪里说得不对。",
+   "ts": "01:39:25"
+  },
+  {
+   "speaker": "Farhan Thawar",
+   "en": "Amazing.",
+   "zh": "太棒了。",
+   "ts": "01:39:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for being here. Thanks for having me. Bye everyone. (01:39:38): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢你们的参与。感谢邀请我。大家再见。（01:39:38）：非常感谢收听。如果觉得这期节目有价值，可以在Apple Podcasts、Spotify或您喜欢的播客应用上订阅。也欢迎给我们评分或写评论，这对其他听众寻找播客很有帮助。您可以在lennyspodcast.com查看往期节目或了解更多信息。下一期节目见。",
+   "ts": "01:39:33"
+  }
+ ]
+}

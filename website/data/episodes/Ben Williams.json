@@ -1,0 +1,1067 @@
+{
+ "id": "Ben Williams",
+ "name": "Ben Williams",
+ "category": "市场营销",
+ "identity": "营销/增长",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Ben+Williams",
+ "bio": {
+  "en": "Ben Williams is VP of Product at Snyk, where he built the company's developer-growth organization and helped scale the developer-first security platform from an early-stage startup into an $8.6B-valued leader serving millions of developers.",
+  "zh": "Ben Williams 是 Snyk 的产品副总裁，他在那里搭建了公司的开发者增长组织，并帮助这家“开发者优先”的安全平台从早期初创公司成长为估值 86 亿美元、服务数百万开发者的行业领军者。"
+ },
+ "summary": {
+  "en": "Snyk's early growth came from a narrow, developer-first wedge—starting with Node.js open-source security and winning the Node community through conferences, content, and a free CLI—before expanding languages and adding enterprise governance features. A defining lesson is that self-serve monetization stalled until the team built 'table stakes' enterprise features and leaned into product-led sales, while powerful growth loops (GitHub fix PRs, Snyk Advisor, security education) kept fueling acquisition and activation. Ben details how to run an effective growth org: cross-functional, outcome-based teams (acquisition/activation/monetization/platform), a 'decision science' function, and a loop-based growth model documented qualitatively and quantified quarterly. He also shares a crisp framework for vision/mission, practical advice on freemium packaging and activation metrics (a team fixing a vulnerability within 30 days), plus his favorite tools and books.",
+  "zh": "Snyk 早期的增长来自一个又窄又“开发者优先”的楔子——从 Node.js 开源安全起步，通过会议、内容和免费的命令行工具赢得 Node 社区——之后才扩展语言并加上企业级治理功能。一个关键教训是：在团队构建出“桌面筹码”级的企业功能、并转向产品驱动销售之前，自助变现一直停滞；而强大的增长闭环（GitHub 修复 PR、Snyk Advisor、安全教育）持续为获取和激活供能。Ben 详细讲了怎么运营一个有效的增长组织：跨职能、按结果组织的团队（获取/激活/变现/平台）、一个“决策科学”职能，以及一个定性记录、按季度量化的闭环式增长模型。他还分享了一个清晰的愿景/使命框架、关于免费增值打包和激活指标（一个团队在 30 天内修复一个漏洞）的实用建议，以及他最喜欢的工具和数据/书籍。"
+ },
+ "turns": [
+  {
+   "speaker": "Ben Williams",
+   "en": "Being able to identify the various micro and macro loops, how they're all connected, being able to document them in a qualitative model to communicate a shared understanding of how you grow, it's really powerful. Augmenting that then with the quantitative side of things that helps guide quarter to quarter focus and ensure you can be intentional about where you're investing, that becomes a big enabler. You're never going to have a shortage of ideas in a high performing growth team. So, knowing where to focus amidst that kind of sea of ideas is a really important role of the strategy.",
+   "zh": "能够识别出各种微观和宏观的增长闭环，理解它们是如何相互关联的，并能够用一个定性模型把它们记录下来，以此来传递一种关于“你是如何增长”的共识性理解，这真的很有力量。再在此基础上叠加定量的部分，它可以帮助你指导每个季度的重点，确保你能有意识地决定把资源投在哪里，这就成了一个巨大的推动力。在一个高效的增长团队里，你永远都不缺想法。所以，在那样一片想法的海洋中，知道该把精力聚焦在哪里，是增长策略一个非常重要的职责。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast. I'm Lenny, and my goal here is to help you get better at the craft of building and growing products. I interview world-class product leaders and growth experts to learn from their hard-won experiences building and scaling today's most successful companies. Today my guest is Ben Williams. Ben is a VP of product at Snyk which is likely one of the biggest and most interesting companies that you've never heard of. Snyk makes it easy for developers to catch security issues in their code, and there's a lot to learn from how Snyk got started. It started through product-led growth, evolved into product-led sales, was very community driven, and it was also laser-focused on developers which has become one of the most lucrative markets to go after. (00:01:19): In our conversation, we cover how the founders have Snyk out their first a hundred users, what they got wrong when they tried to monetize early on, when they hired their first marketing and sales people, how they structured and grew their growth and product teams, what they figured out about what should go into freemium and what shouldn't, and so much more. As you'll soon hear, Ben is British, and so, the episode is automatically going to sound more sophisticated and I can't wait for you to hear it. With that, I bring you Ben Williams. (00:01:48): This episode is brought to you by Coda. Coda's an all-in-one doc that combines the best of documents, spreadsheets, and apps in one place. I actually use Coda every single day. It's my home base for organizing my newsletter writing. It's where I plan my content calendar, capture my research, and write the first drafts of each and every post. It's also where I curate my private knowledge repository for paid newsletter subscribers, and it's also how I manage the workflow for this very podcast. Over the years, I've seen Coda evolve from being a tool that makes teams more productive to one that also helps bring the best practices across the tech industry to life with an incredibly rich collection of templates and guides in the Coda Doc Gallery, including resources for many guests on this podcast, including Shreyas, Gokul, and Shishir, the CEO of Coda. Some of the best teams out there, like Pinterest, Spotify, Square and Uber use Coda to run effectively and have published their templates for anyone to use. (00:02:47): If you're ping-ponging between lots of documents and spreadsheets, make your life better and start using Coda. You can take advantage of a special limited time offer just for startups. Head over to coda.io/ lenny to sign up and get $1,000 credit on your first statement. That's C-O-D-A.io/lenny to sign up and get $1,000 in credit on your account. (00:03:15): This episode is brought to you by Athletic Greens. I've been hearing about AG1 on basically every podcast that I listened to, like Tim Ferris and Lex Fridman, and so, I finally gave it a shot earlier this year and it has quickly become a core part of my morning routine, especially on days that I need to go deep on writing or record a podcast like this. Here's three things that I love about AG1. One, with a small scoop that dissolved in water, you're absorbing 75 vitamins, minerals, probiotics, and adaptogens. I kind of like to think of it as a little safety net for my nutrition in case I've missed something in my diet. Two, they treat AG1 like a software product. Apparently they're on their 52nd iteration and they're constantly evolving it based on the latest science, research studies, and internal testing that they do. And three, it's just one easy thing that I can do every single day to take care of myself. (00:04:09): Right now it's time to reclaim your health and arm your immune system with convenient daily nutrition. It's just one scoop in a cup of water every day, and that's it. There's no need for a million different pills and supplements to look out for your health. To make it easy, athletic Greens is going to give you a free one-year supply of immune supporting vitamin D and five free travel packs with your first purchase. All you have to do is visit athleticgreens.com/lenny. Again, that's athletic greens.com/lenny to take ownership over your health and pick up the ultimate daily nutritional insurance. (00:04:45): Ben, welcome to the podcast.",
+   "zh": "欢迎来到 Lenny 的播客。我是 Lenny，我的目标就是帮你把“打造并增长产品”这件事做得更好。我会采访世界一流的产品负责人和增长专家，从他们打造和扩张当今最成功公司的宝贵经验中学习。今天我的嘉宾是 Ben Williams。Ben 是 Snyk 的产品副总裁，Snyk 可能是你从未听说过的最大、最有趣的公司之一。Snyk 让开发者能轻松地在代码里发现安全问题，而 Snyk 的起步过程有很多值得学习的地方。它从产品驱动增长（PLG）起家，后来演进成产品驱动销售，非常依赖社区，而且它一开始就死死盯住开发者群体——而开发者市场如今已经成了最赚钱的市场之一。(00:01:19) 在我们的对话里，我们聊了创始人是如何获取 Snyk 最初的一百个用户的，他们在早期尝试变现时犯了什么错，他们是什么时候招到第一批市场和销售人员，他们是如何搭建并扩充增长和产品团队的，他们想明白了免费增值模式里该放什么、不该放什么，以及更多内容。你很快就会发现，Ben 是个英国人，所以这期节目听起来会自动变得更“高级”一些，我已经等不及想让你听到了。话说回来，有请 Ben Williams。(00:01:48) 本期节目由 Coda 赞助。Coda 是一款一体化的文档工具，把文档、表格和应用的优点集合在一个地方。我几乎每天都在用 Coda。它是我整理 newsletter 写作的大本营。我在上面规划内容日历、记录研究素材，并写出每一篇文章的初稿。我也在上面为付费订阅读者整理我的私人知识库，还用它来管理这档播客本身的工作流。这些年，我看着 Coda 从一个让团队更高产的工具，演变成了一个通过 Coda 文档库里极其丰富的模板和指南、把科技行业最佳实践带进现实的工具——这些资源涵盖了很多本期节目的嘉宾，包括 Shreyas、Gokul，以及 Coda 的 CEO Shishir。像 Pinterest、Spotify、Square 和 Uber 这样的一些顶尖团队都在用 Coda 高效运转，并且公开了他们的模板供所有人使用。(00:02:47) 如果你在大量文档和表格之间来回切换，让生活更好过一点，开始用 Coda 吧。你可以享受一个专为初创公司提供的限时特别优惠。前往 coda.io/lenny 注册，并在你的首张账单上获得 1000 美元抵扣。也就是 C-O-D-A.io/lenny，注册并获取你账户里的 1000 美元额度。(00:03:15) 本期节目由 Athletic Greens 赞助。我基本上在每一个我听的播客上都听说过 AG1，比如 Tim Ferris 和 Lex Fridman 的节目，所以今年早些时候我终于试了试，它很快就成了我晨间routine的核心部分，尤其是那些我需要深度写作或者像这样录播客的日子。关于 AG1 我喜欢的三件事。第一，一小勺溶在水里，你就能吸收 75 种维生素、矿物质、益生菌和适应原。我有点把它当成我营养上的安全网，以防我饮食里漏掉了什么。第二，他们把 AG1 当成软件产品来打磨。据说已经迭代到第 52 版了，而且他们一直在根据最新的科学、研究论文和他们自己的内部测试不断演进它。第三，这是我每天都能轻松做的一件事，来照顾好自己。(00:04:09) 现在正是时候夺回你的健康，用方便的每日营养来武装你的免疫系统。每天只要一杯水加一勺，就这么简单。你不需要盯着一大堆药丸和补剂来照顾健康。为了让你轻松一点，Athletic Greens 会在你首次购买时送你一整年的免疫支持维生素 D，外加 5 包免费旅行装。你只需访问 athleticgreens.com/lenny。再次强调，是 athleticgreens.com/lenny，来掌握自己的健康，买下这份终极的每日营养保险。(00:04:45) Ben，欢迎来到节目。",
+   "ts": "00:00:40"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Thank you very much, Lenny. Thanks first of all for inviting me. It's a pleasure to finally meet you. I've got to say that kind of what you're creating with the newsletter and now the podcast, just such awesome resources for the product growth and wider tech community, so it's real honor to be invited onto the show, and I hope there's a few useful things that people can take away.",
+   "zh": "非常感谢你，Lenny。首先谢谢你邀请我。能终于见到你真的是我的荣幸。我得说，你通过 newsletter 以及现在的播客所创造的东西，对产品、增长和更广泛的科技社区来说，都是极好的资源，所以能受邀来到节目上真的非常荣幸，也希望我能分享出几点有用的东西。",
+   "ts": "00:04:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome, man. I really appreciate that. I have no doubt there will be many useful things people will be able to take away. I'm really excited to chat about Snyk and the things that you're building there. I feel like Snyk is this very under-talked about company and also super fascinating companies, especially in terms of how it got started, how it scaled, and it's also at the center of so many trends, product-led growth, community-led growth, focusing on developers to grow, and also just security in general is really interesting, and so, I'm really looking forward to our chat.",
+   "zh": "那我们就直接开始吧。能先简单介绍一下 Snyk 吗？给大家说说这是家什么样的公司，以及你是怎么加入的？",
+   "ts": "00:05:07"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Me too.",
+   "zh": "当然。Snyk 是一家开发者安全公司。我们帮助开发者和安全团队在开发过程中就能发现并修复代码里的安全漏洞——尤其是开源依赖里的漏洞。我是产品副总裁，负责产品组织和增长相关的很多工作。我大概是 2018 年加入的，那时候公司还很小，但已经显露出一种很特别的气质。",
+   "ts": "00:05:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before we get into all of that, I'd love to spend just a minute on your background. So, you're currently VP product at Snyk, and I'm curious how you got to that role and just some of the other wonderful things you've done in your career along the way there.",
+   "zh": "所以你是比较早加入的？当时公司大概多少人？",
+   "ts": "00:05:37"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I'll try to keep it reasonably short. My education is in computer science, graduated from the University of Manchester back in the late '90s. I'd already landed as a job as a developer, but ended up having a bunch of other interesting offers, one of which was to join a small startup building requirements management tooling for product and engineering folks. This was all pre-Agile, but that whole space of developer tooling, engineering tooling, it was something I just felt naturally drawn to and it's where I've really specialized through my whole career. I actually joined that company as a solutions engineer, so lots of demos and so on. I was really close to the product team, but also speaking with customers every day which as is quite common I think was my path into products there. (00:06:34): Several years and a few acquisitions later, I find myself in IBM with the Rational software developer tooling group. I was leading parts of the product strategy there and a bunch of initiatives. I actually, I learned a ton of useful stuff there, but also that I had a strong preference for working in smaller, fast-growing orgs verse 350,000 people [inaudible 00:06:55]. After an interesting unexpected interlude, leading a DevOps transformation at a fintech and some consulting and advising, I then joined CloudBees. They're a DevOps startup with an open-core model. I was leading product design and growth there. Stayed with them for three years through several raises and a period of really fast growth before finally joining Snyk to build out our growth organization and lead our developer experience initiatives. I have a broad remit at Snyk now than just the growth org, but yeah, that's how it started.",
+   "zh": "对，算比较早。我加入的时候全公司大概也就三四十人吧，还完全是个初创公司的样子。但那批人真的非常出色，而且大家对“开发者优先的安全”这件事有一种近乎偏执的信念。",
+   "ts": "00:05:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. To give folks a sense of just how successful and big Snyk has gotten, one is just what does Snyk do, we haven't even talked about that yet, and then two, just some stats about the scale of the company and the business at this point.",
+   "zh": "有意思。当时你们融到哪一轮了？",
+   "ts": "00:07:26"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "The developer security company, we make it ridiculously easy for developers and their teams to improve their security posture while still moving fast. So, Snyk can find and automatically fixed vulnerabilities in code, open source dependencies, containers, infrastructure and cloud configurations, and all underpinned by the best security intelligence data in the market with a laser focus on developer experiences, which is why we're, we are really different. It's also an amazingly fast-growing business with some stellar PLG-focused investors and board members from the likes of Ed Sim at boldstart to Tamar Yehoshua, Slack CPO. We were founded in 2015, last valuation after our Series F was at 8.6 billion. We're securing the software of millions of developers now, well over 2,000 paying customers, now around 1300 people of which are around 500 in R and D with nearly 70 folks in our product org. And the people here just create this amazing culture, and all in all, it's just a really exciting place to be.",
+   "zh": "我们当时已经拿到了一些早期投资，投资人里有像 boldstart 的 Ed Sim、以及后来 Slack 的 CPO Tamar Yehoshua 这样的人。我们成立于 2015 年，在完成 F 轮之后最近一次估值是 86 亿美元。我们现在保护着数百万开发者的软件安全，有超过 2000 家付费客户，团队大约 1300 人，其中约 500 人在研发，产品组织接近 70 人。而且这里的人营造出了一种非常棒的文化，总的来说，就是一个让人特别兴奋的地方。",
+   "ts": "00:07:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Did you have any sense it would get to this scale when you joined early on?",
+   "zh": "好的。你 early 加入的时候，有没有想到它会发展到这种规模？",
+   "ts": "00:08:44"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yes, I think because I wasn't looking for a new role when I ended up joining Snyk, when I was first approached by them, but everyone I spoke with along the interview process, just became more and more impressed with not only the caliber of people here, but the vision, the mission for the company, and all those things you mentioned in terms of PLG, community-led growth, focus on developers, the security space, these were all things that if you create a Venn diagram of all the things that I'm really interested in professionally, super interested in, super exciting to me, then kind of Snyk ended up in the middle of it. So, it's pretty cool.",
+   "zh": "想过，我觉得是因为我当初并不是在找新机会的时候加入 Snyk 的。他们第一次联系我时，我其实没在考虑换工作，但我在整个面试过程中接触的每一个人，都让我越来越佩服——不光是这里人的水平，还有公司的愿景、使命，以及你提到的那些 PLG、社区驱动增长、专注开发者、安全赛道，这些东西如果画一个韦恩图，把我在职业上真正感兴趣的所有事放进去，Snyk 正好落在正中间。所以，这真的很酷。",
+   "ts": "00:08:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. So, that's a good segue to where I wanted to start is how Snyk started and how Snyk got their first hundred users, and I know you weren't there necessarily for that, but I'm curious what you can share about how the founders found their first say a hundred users. How did they get to their initial developers and get people excited?",
+   "zh": "太棒了。这是个很好的引子，正好引出我想开场聊的话题——Snyk 是怎么起步的，又是怎么拿到最初一百个用户的。我知道你当时不一定在场，但我很好奇你能分享多少关于创始人怎么找到最初一百个用户的故事。他们是怎么接触到最初的开发者、又怎么让人兴奋起来的？",
+   "ts": "00:09:29"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I think it's a really fun story. So, if you don't mind, I'll just take a moment because I think it's important to set the stage by looking back at-",
+   "zh": "我觉得这是个特别有趣的故事。如果你不介意，我想稍微多说几句，因为我觉得先回看当年的市场背景很重要——",
+   "ts": "00:09:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's do this.",
+   "zh": "那我们就来讲讲。",
+   "ts": "00:09:52"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, just look back at the market in general. So, PLG or bottom up and security, these were never words that were known to have been spoken together in a single sentence, right? So, security has always been a centralized function. Security programs were historically more about audit and policing and enforcement versus developer enablement or empowerment. A sales motion you saw it was always top down. It was seen as immovable, CISOs, other AppSec leaders with the buyers. Security tooling that was out there at the time, they all catered to this dynamic and these were tools that slowed developers down. They created a lot of frustration. They were met with a lot of resistance, not the ideal recipe really for consistent adoption and strong engagement and retention, and ultimately, app security programs based around those kind of solutions just weren't effective as they really needed to be. (00:10:46): So, it was a realization around this, timed with adjacent market shifts happening with DevOps that sparked the ideas behind Snyks. So, the founders, Guy, Danny and Assaf, they saw a real opportunity just to do things differently. They believed that the most effective way to improve application security posture was a developer-first approach. They knew that the developers were increasingly caring about the security of their code in the same way that they cared about performance and functional quality of their code. But they also knew that to empower developers to own that security, they needed just much better tools with way less friction than they ever had before. And their approach was, I think looking back, super smart, focus on a community. It wasn't the full extent of what we'd think of as community-led growth now, but it was close. (00:11:35): They started with a really narrow, early focus. It was a single persona, single context, single use case, and what that meant for Snyk was developers building applications using Node.js who wanted to ensure that the open source dependencies they were pulling into their apps were secure. Now, open source software, that's a huge accelerant in building modern software. The average software application today is at least 75% of open source libraries and components. So, this was increasingly becoming a primary attack vector for malicious actors who could find a single vulnerability in an open source component and then find it and exploit it in every single application that was using that component. And at the same time, at least back then, open source software was much less tested for security vulnerabilities, and the maintainers of open source libraries were often less security aware. So, you get that context, and then at the same time, Node.js as a run time was gaining traction. So, there was this increasing adoption in the enterprise, more and more dedicated conferences and the like, but the community was still small enough that Snyk could meaningfully influence, and Guy and the others just went all out on being deeply involved in that community. They were presenting at dev conferences, meetups, they were building online content and so on. And the question that they repeatedly posed to the community was do you have known vulnerabilities in your apps, and Snyk was there to help them answer that question. And fun kind of fact on the side, if you search for Snyk in the Urban Dictionary, you'll see it's an acronym for so now you know. But all of this kind of I think really only worked because of the parallel product-led approach. So, while the answer to the question about how does your product monetize users was much less clear cut in the early days for Snyk, the answer to the questions, how does your product acquire and retain users has always been product led. (00:13:35): And the initial version of Snyk, it was a command line tool. It was a tool for developers, it could be run locally or easily integrated into CICD pipelines for early feedback. It allowed devs to assume more responsibility for the security of their apps, and that was just very different from the typical incumbent technologies that were run by security teams late in the dev process, long feedback loops, issues thrown over the walls, inevitably just frustrating developers. And all of this was just built on this fundamental belief that the only viable path, and by viable I really mean sustainably effective, the only sustainably effective path for software-centric organizations to meet the challenge of becoming and staying secure was for them to take this developer-led approach to that challenge. So, really kind of complete disruption of the industry and developer adoption for that reason was always a key priority for us. (00:14:31): So, with that in mind, Snyk has just been free to use in some capacity from day one, and the early strategy was always about creating something valuable that was readily available, something that solved a real problem in a uniquely differentiated way, and making it pervasive. So, with dev-led option, this core concern, a freemium go-to-market strategy was just the obvious approach. So, eventually, getting back to your original question, that's all of the context and where and when and how they did it, but the first hundred or so users really just came from the founders engaging with the Node.js community and the interest that drove. I think we probably had maybe around 5,000 free users before there are any attempts at monetization.",
+   "zh": "对，就是回看整个市场。当时，PLG（产品驱动增长）或者自下而上，和“安全”这两个词，从来没人把它们放在同一个句子里说过，对吧？安全一直是个中心化的职能。历史上的安全项目更多是审计、监管和 enforcement，而不是赋能开发者。你看到的销售动作也一直是自上而下的。它被视为不可动摇的——CISO 和其他应用安全负责人才是买家。当时市面上的安全工具，全都是为这种格局服务的，而且这些工具拖慢了开发者的速度，制造了大量挫败感，也遭遇了很多抵触，对于持续的采用和强烈的参与度、留存来说，这绝不是理想的配方。基于那些方案的安全项目，最终也没能达到真正需要的有效性。(00:10:46) 正是基于这种认识，再叠加当时 DevOps 带来的相邻市场变化，催生了 Snyk 背后的想法。创始人 Guy、Danny 和 Assaf 看到了一个真正去用不同方式做事的机会。他们相信，提升应用安全态势最有效的途径，是一条开发者优先的路。他们知道，开发者越来越在意自己代码的安全性，就像在意性能和功能质量一样。但他们也知道，要赋能开发者去掌握这种安全性，他们需要比以往好得多、摩擦小得多的工具。而他们的做法，回过头看我觉得超级聪明——聚焦社区。那还不算我们现在理解的完整的社区驱动增长，但已经很接近了。(00:11:35) 他们一开始的聚焦非常窄。单一人物画像、单一场景、单一用例。对 Snyk 来说，这意味着：用 Node.js 构建应用、并且希望确保自己引入的开源依赖是安全的开发者。开源软件，是构建现代软件时一个巨大的加速器。今天一个普通的应用，至少有 75% 是开源库和组件。所以，这越来越成为一个主要的攻击向量——恶意攻击者可以在一个开源组件里找到一个漏洞，然后在每一个用到这个组件的应用里找到它并加以利用。与此同时，至少在当年，开源软件在安全漏洞方面的测试要少得多，而开源库的维护者往往安全意識也比较弱。有了这个背景，再看当时 Node.js 作为运行环境正在获得牵引力，企业里的采用越来越多，专门的会议也越来越多，但社区还足够小，Snyk 还能真正去影响它。于是 Guy 和其他人就在那个社区里全力以赴了。他们在开发者大会、meetup 上做分享，制作线上内容，等等。他们反复向社区抛出的问题是：你的应用里有已知漏洞吗？而 Snyk 就在那里帮他们回答这个问题。顺便说个有趣的小知识：如果你在 Urban Dictionary 里搜 Snyk，你会看到它是“so now you know”的缩写。但所有这些能够奏效，我认为归根结底是因为并行的产品驱动打法。所以，虽然“你的产品怎么从用户身上赚钱”这个问题在 Snyk 早期远没有清晰答案，但“你的产品怎么获取和留住用户”这个问题的答案，一直是产品驱动的。(00:13:35) Snyk 最早那个版本，是一个命令行工具。它是给开发者用的工具，可以本地运行，也可以轻松集成到 CI/CD 流水线里做早期反馈。它让开发者能为自己应用的安全承担更多责任，这和那些由安全团队在开发后期才运行、反馈周期长、问题被“扔过墙”的传统技术完全不同，后者只会不可避免地让开发者抓狂。而这一切都建立在一个根本信念上：对于以软件为中心的组织来说，要想持续有效地应对“变得并始终保持安全”这个挑战，唯一可行的路径——我说的可行，是真的指可持续地有效——就是走这条开发者主导的路。所以，这本质上是对行业的彻底颠覆，也正因如此，赢得开发者的采用一直是我们的关键优先级。(00:14:31) 基于这个思路，Snyk 从第一天起就以某种形式免费可用，早期策略始终是：创造有价值、随手可得、用独特差异化方式解决真实问题的东西，并让它无处不在。有了开发者主导这个核心，免费增值的 go-to-market 策略就成了理所当然的选择。所以，说回你最初的问题——这就是所有的背景，以及他们在哪里、什么时候、怎么做成了这件事。但最初的一百来个用户，真的就来自创始人和 Node.js 社区的互动，以及由此带来的兴趣。我想在开始任何变现尝试之前，我们大概已经有大约 5000 个免费用户了。",
+   "ts": "00:09:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. There's a bunch I want to unpack there because what's interesting the way you describe it maps to the series that I recently wrote about consumer growth strategy and how the first three steps after you have an idea is to come up with your super specific who, kind of your target persona, come up with a hook that catches them and gets them excited, and then go find them where they are and pitch them your hook. So, the super specific who for Snyk was you said open source developers working on Node.js. Is that right?",
+   "zh": "太棒了。这里有很多我想展开聊的，因为你描述的方式，恰好对应我最近写的那篇关于消费级增长策略的文章——有了一个想法之后，前三个步骤是：想清楚你极其具体的“谁”，也就是目标人物画像；想一个能勾住他们、让他们兴奋的“钩子”；然后去他们所在的地方，把你的钩子抛给他们。所以 Snyk 那个极其具体的“谁”，就像你说的，是做 Node.js 的开源开发者。对吗？",
+   "ts": "00:15:13"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Well, it was Node.js developers, and Node.js developers were building their applications using open source Node components.",
+   "zh": "嗯，是 Node.js 开发者，而且是用开源 Node 组件来构建应用的开发者。",
+   "ts": "00:15:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm. Got it. Was there any other constraint to that, do you know, or those were the two to three attributes of a user?",
+   "zh": "嗯哼，明白了。你还知道有没有别的限制条件？还是说这就是一个用户的两三个属性？",
+   "ts": "00:15:50"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "That's really it. The community was growing for sure. It was big enough to have a decent opportunity there-",
+   "zh": "主要就是这些。那个社区肯定是在增长的，大到已经算是个不错的机会了——",
+   "ts": "00:15:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Makes sense.",
+   "zh": "有道理。",
+   "ts": "00:16:03"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "... but narrow enough that technology wise, it meant that a product could be brought to market in a reasonable time.",
+   "zh": "——但又足够窄，从技术角度看，意味着一个产品能在合理时间内推向市场。",
+   "ts": "00:16:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that's great. And then the hook was basically you have known vulnerabilities in your code base which if I were an engineer, like, \"I don't know, shoot, I don't know. Get a find exactly. I'm scared now.\"",
+   "zh": "对，这很好。然后那个钩子基本上就是“你的代码库里有已知漏洞”，要是我一个工程师，我大概会想：“我不知道啊，糟了，我也不知道。赶紧帮我查查。我现在害怕了。”",
+   "ts": "00:16:10"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Exactly. And then so now you know. Right?",
+   "zh": "没错。然后，“so now you know”，对吧？",
+   "ts": "00:16:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, exactly. Okay, cool. And then the where, so you said that they went to open source communities. Do you have any more specifics about what those were? Was it like a specific forum? Was it like GitHub somewhere? Was it Reddit? Do you know any idea where those communities lived?",
+   "zh": "对，没错。好，酷。然后“在哪里”——你说他们去了开源社区。你还能说得更具体一点吗？是某个特定的论坛？是 GitHub 的某个地方？还是 Reddit？你知道那些社区具体在哪里吗？",
+   "ts": "00:16:22"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, it was less about a particular place, but more about the community of developers themselves who focused on Node.js. So, a bunch of early evangelism was really at conferences. It was I think the Velocity Conference in Amsterdam where Guy and Assaf kind of first unveiled Snyk to the world, and yeah, it went from there.",
+   "zh": "嗯，它更少是关于某个具体的地方，更多是关乎那些专注 Node.js 的开发者社区本身。所以早期的布道，很多是在会议上。我记得是在阿姆斯特丹的 Velocity Conference，Guy 和 Assaf 第一次把 Snyk 介绍给全世界，然后从那里扩散开来的。",
+   "ts": "00:16:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I see. Interesting. So, it was in-person events, conferences, and meetups probably focused on Node.js developers.",
+   "zh": "我明白了。有意思。所以是在线下活动、会议，以及大概聚焦 Node.js 开发者的 meetup 上。",
+   "ts": "00:16:58"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Exactly. Yeah.",
+   "zh": "对，没错。",
+   "ts": "00:17:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, awesome. What happened after that? So, that was the first hundred. Was it just roughly the next stage of growth or did it focus on that for a long time? What was the next stage roughly?",
+   "zh": "好，太棒了。那之后发生了什么？那就是最初的一百个。是大致进入下一个增长阶段，还是在这个点上停留了很久？下一个阶段大概是什么样的？",
+   "ts": "00:17:05"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah. I think that focus was the really important kind of element there, if I can kind of latch on that. Starting with that narrow focus and building around community engagement, I think it's a well-proven playbook now, particularly in the developer tooling space like New Relic did it notably with Ruby community for example. But ultimately it was important because of this kind of depth verse breadth approach and that depth-first approach that Snyk took was important to be able to effectively validate the solution on the path to product market fit. A JavaScript developer just won't care if you support Golang or Rust, but will absolutely care if a key feature like automated package upgrades just isn't available for their ecosystem. (00:18:04): Of course, the bigger problem of vulnerable components in open source across all languages and all ecosystems, that's a very widespread problem. It affects the industry at large, but that just spoke to the potential opportunity that was there to be unlocked. But the key for Snyk I think was just not to go too wide, too early. So, it focused on nailing that initial use case for that specific community of Node.js devs, like I say, narrow enough to be able to really focus on quickly building a compelling solution to a real problem, but also wide enough to be something viable from a growth perspective. And even back then the NPM, the Node Package Manager hosted around 200,000 open source packages. They were downloaded something like two and a half billion times a month by over 2 million devs. And the typical node app would have hundreds of dependencies, mostly indirect and so hidden less immediately visible. But each of those dependencies brought with it some security risks. So, yeah, I think nailing that narrow and deep-use case before expanding wider was absolutely critical and generally just sound advice around finding product market fit and building solid momentum before casting a wider net. It's difficult to maintain that focus for sure as the lure of that bigger term can be really tempting, but ultimately you have to build a service and market well to capture it.",
+   "zh": "对。如果我可以抓住这点说一句的话，我觉得那个聚焦才是真正重要的元素。从那个窄聚焦起步，并围绕社区互动去构建，我认为现在已经是被验证过的打法了，尤其是在开发者工具领域，比如 New Relic 当年在 Ruby 社区就这么做得很出名。但最终它重要，是因为这种“深度优先 vs 广度优先”的思路。Snyk 采取的深度优先 approach，对于在通向产品市场契合（PMF）的路上有效验证解决方案很重要。一个 JavaScript 开发者根本不会在乎你支不支持 Golang 或 Rust，但他绝对会在意“自动化的包升级”这种关键功能在他的生态里就是没有。(00:18:04) 当然，跨所有语言和所有生态的开源漏洞这个更大的问题，是非常普遍的，影响整个行业。但这恰恰说明了那里有待释放的巨大机会。不过对 Snyk 来说，关键就是不要太早铺太开。所以，它专注于为那群特定的 Node.js 开发者搞定那个初始用例——就像我说的，窄到能真正聚焦、快速为真实问题构建出有说服力的方案，但又宽到从增长角度说是一件值得做的事。即便在当年，NPM（Node 包管理器）上托管着大约 20 万个开源包，每个月被超过 200 万开发者下载大约 25 亿次。一个典型的 Node 应用会有数百个依赖，大多还是间接的、因而隐藏起来不那么显眼。但每一个依赖都带来一些安全风险。所以，我认为在铺得更开之前，先搞定那个又窄又深的用例，绝对是关键，而且这本身就是一条关于寻找产品市场契合、在撒更大网之前先建立扎实势头的普适建议。要保持那种聚焦当然很难，因为那个更大蛋糕的诱惑真的很诱人，但你终究得先把服务和市唱好，才能接住它。",
+   "ts": "00:17:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a sense of when that focus expanded to an adjacent group, how many years into the growth story that happened, or was there some kind of milestone there? Because I know everyone imagines, yeah, we'll expand, the question is when and when does it make sense and when is it too early. Do you have any insights into that phase?",
+   "zh": "你知道那个聚焦是什么时候扩展到相邻群体的吗？是在增长故事里过了多少年发生的，还是说有什么里程碑？因为大家都知道“对，我们会扩张”，问题是什么时候扩、什么时候合理、什么时候又太早。你对那个阶段有什么洞察？",
+   "ts": "00:19:23"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, for sure. First, I think if we're talking about PLG and the story with Snyk, I actually like that definition of product-led acquisition from Julian Shapiro when you spoke with him, and beyond that maniacal focus on finding product market fit for your product, founders really should be thinking about how their product is going to grow, and that's important of course as you think about taking that next step. So, let's assume in a simplistic definition that you found product market fit as demonstrated by a strong retention, and then the real question is where are the new users for your product going to come from, and founders really should have, I think, strong hypothesis around this, your risk essentially, adopting an if we build it, they'll come approach. (00:20:27): So, if your acquisition strategy is product- led, then understanding and being intentional about your early acquisition growth loops I think is an essential founder's responsibility. Dedicating time there to design those loops into the product, it's key. And when I say product, I really mean the whole product experience considering every touchpoint in and out of the core application that your users and customers might have with you. Snyk, for example, believed very early that we could build out powerful content loops via fixed pull requests that we raise on GitHub. New users, they'll sign up for Snyk, they'll connect their GitHub accounts, Snyk will scan their code, will find vulnerabilities, will automatically create Snyk-branded pull requests to fix those vulnerabilities. Other devs in the repo will see and interact with those PRs, and some of them will follow links to Snyk, create accounts and some of them will connect their own repos, and so the loop continues. So, company generated, company distributed content loop, it's actually really powerful for us because it's both an acquisition loop and an engagement loop. (00:21:28): Over the course of time, we extended that loop by adding support for other source controlled systems beyond GitHub. We layered on a bunch of new loops, and I think if founders can be intentional about this as you're developing early product iterations, then you're going to have a bigger advantage when the product clicks with the market, and that was built into Snyk as we went along. So, that was kind of ready as we found product market fit. But I think to talk about specifically how Snyk took that next stage, it was a function of when we were chatting before this, we talked a little bit about some of the failed experiences spinning up a self-serve revenue channel, and-",
+   "zh": "有，当然。首先，如果我们在聊 PLG 和 Snyk 的故事，我其实挺喜欢你跟 Julian Shapiro 聊时他给的“产品驱动获取”那个定义。除了那种对找到产品市场契合的疯魔般聚焦之外，创始人真的应该去思考他们的产品要怎么增长，而当你考虑迈出下一步时，这当然很重要。所以，我们先简单假设你已经找到了产品市场契合，表现为很强的留存，那么真正的问题就是：你产品的新用户会从哪里来？我认为创始人对此真的应该有很强的假设，而不是采取“我们造出来了，他们自然会来”这种碰运气的方式。(00:20:27) 所以，如果你的获取策略是产品驱动的，那么去理解并刻意设计你早期的“获取型增长闭环”，我认为是一个必不可少的开创者责任。在那里投入时间去把这些闭环设计进产品里，是关键。而我说“产品”的时候，指的是整个产品体验——考虑到用户和客户可能与你产生接触的所有触点，无论是在核心应用内还是外。以 Snyk 为例，我们很早就有一种信念：我们可以通过在 GitHub 上发起的 fix pull request 来构建强大的内容闭环。新用户注册 Snyk，连上他们的 GitHub 账号，Snyk 会扫描他们的代码、找出漏洞，并自动创建带 Snyk 品牌的 pull request 去修复那些漏洞。仓库里的其他开发者会看到这些 PR 并与之互动，其中一些人会顺着链接来到 Snyk、创建账号，有些人还会连上自己的仓库，于是闭环继续。(00:21:28) 随着时间推移，我们扩展了那个闭环，加入了对 GitHub 之外其他源代码管理系统的支持。我们又叠加了一堆新的闭环。我认为如果创始人能在早期产品迭代时就对这种事有意为之，那么当产品和市场对上频的时候，你就会有一个更大的优势——而这在 Snyk 是一路走来就内建进去的。所以等我们找到 PMF 时，它已经准备好了。但要具体聊 Snyk 是怎么迈出那下一步的，这要看我们之前聊过的一点——我们聊过一些启动自助收入渠道的失败经历，还有——",
+   "ts": "00:19:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Actually before we get there, which I definitely want to get into all that, I love this story you just shared. I hadn't heard of this growth tactic of basically they connect their GitHub account, you find all the vulnerabilities, push a fix, people see that Snyk did this for them and it just provides all this value, and you're saying that was really effective. It's an example of something that worked very well.",
+   "zh": "其实在你说到那之前——我特别想聊那些——你刚分享的这个策略我太喜欢了，之前没听过这种增长战术：他们连上 GitHub 账号，你找出所有漏洞，推一个修复，人们看到 Snyk 为他们做了这件事，就带来了巨大的价值，你说这非常有效。这是个做得很好的例子。",
+   "ts": "00:22:09"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "First of all, that integration in terms of connecting your code with security scanning like that was a first of a kind integration.",
+   "zh": "首先，那种把你的代码和安全扫描连接起来的集成，是史无前例的第一例集成。",
+   "ts": "00:22:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, magic.",
+   "zh": "对，像魔法一样。",
+   "ts": "00:22:38"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "No one had done that before. But the key was that we ultimately controlled the content. So, not only was the fixed pull request doing something useful in terms of the code, but all of the description of the pull request was explaining about the vulnerability, educating users, and it was all Snyk branded and saying, \"If you find this useful, click here, come and learn more about the vulnerability. Sign up for an account if you don't have one.\" It kept existing users coming back. PART 1 OF 4 ENDS [00:23:04]",
+   "zh": "之前从没人这么做过。但关键在于，我们最终掌控了那个内容。所以，那个 fix pull request 不光在代码层面做了有用的事，而且整个 PR 的描述都在讲解那个漏洞、教育用户，并且全是 Snyk 品牌，写着“如果你觉得有用，点这里，来了解这个漏洞。如果你还没有账号就注册一个”。它让老用户持续回来。[00:23:04] 第 1 段 / 共 4 段 结束",
+   "ts": "00:22:39"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "You sign up for an account if you don't have one, it kept existing users coming back and it brings new users, a lot of new users, in fact.",
+   "zh": "如果你还没有账号就注册一个，它让老用户持续回来，也带来新用户——事实上，是大量的新用户。",
+   "ts": "00:23:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You'd be in there all like, \"Do you have known vulnerabilities in your code base? Click here to find out.\" Is that responsible for much of the early growth, that loop?",
+   "zh": "你会在那里全都写着：“你的代码库里有已知漏洞吗？点这里查查。”早期的增长很大一部分要归功于那个闭环吗？",
+   "ts": "00:23:06"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I think that was one of the loops. We also have a couple of, from fairly early on as well, other content loops that are more kind of programmatic SEO assets that have both been pretty instrumental in terms of new user growth, yeah.",
+   "zh": "我觉得那是其中一个闭环。我们从相当早开始，也还有另外几个内容闭环，更多是那种程序化 SEO 资产，在新用户增长方面也都相当管用。",
+   "ts": "00:23:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It'd be cool to hear about those if they're relatively straightforward to explain, and then we can get to the thing that didn't work, the self-serve monetization piece you were going to get to.",
+   "zh": "如果能相对好懂地讲讲那些就太酷了，然后我们再聊那个没奏效的东西——你准备讲的自助变现那块。",
+   "ts": "00:23:31"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "We have a bunch of loops actually at this point to start off.",
+   "zh": "到这个阶段我们其实有一堆闭环了。",
+   "ts": "00:23:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Lucky you.",
+   "zh": "你真走运。",
+   "ts": "00:23:42"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, I'm a big loopist, funnily enough. But yeah, we have a bunch of loops. Company generated, company distributed content loops have actually worked really well for us. We have a side car product called Snyk Advisor. Snyk Advisor, it's basically a service that developers use to search and find open source packages when they're considering integrating some within their software applications. The unique thing about it is it indexes all of the package managers. It learns about those packages. It augments the data about them with a bunch of metadata, including of course Snyk security scans, but we also find out how actively maintained the software is on the source repo on GitHub or wherever. (00:24:31): We build this kind of package health score, so anyone searching on Google for a package that does X, Y, Z or a specific package by name, Snyk Advisor will be right up there in terms of the search results. They'll land on there, they'll get a good idea about that package, they can look at similar packages and it's all, of course, a Snyk website and we have CTAs to say, \"If you want to secure your application on a perpetual basis, then just come and join us.\" That's a great loop. That's all kind of a programmatic asset. There are hundreds of thousands of these package pages, but they're just automatically being generated continuously.",
+   "zh": "对，说来有趣，我是个重度“闭环主义者”。不过没错，我们有一堆闭环。公司生成、公司分发的内容闭环，对我们来说真的很好用。我们有个叫 Snyk Advisor 的副产品。Snyk Advisor 基本上是个服务，开发者在考虑把某些开源包集成进自己的软件应用时，可以用它来搜索和查找开源包。它独特的地方在于，它会索引所有的包管理器，学习那些包的信息，并用一堆元数据来增强关于它们的数据——当然包括 Snyk 的安全扫描，但我们也会查出来那个软件在 GitHub 或其他地方的源仓库上维护得有多活跃。(00:24:31) 我们做出一种“包健康分”，所以任何在 Google 上搜索“能做 X、Y、Z 的包”或者按名字搜某个具体包的人，Snyk Advisor 都会排在搜索结果很靠前的位置。他们落到这个页面上，对那个包有个清楚的认识，可以看相似的包，而这当然全都是 Snyk 的网站，我们也有 CTA 说“如果你想长期保障你的应用安全，那就来加入我们”。这是个很棒的闭环。这全都是程序化的资产。有几十万个这样的包页面，但它们是自动持续生成的。",
+   "ts": "00:23:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. It's programmatically generated better indexing of open source libraries that you can integrate with. That is so smart. It's programmatic because you can inform on the security vulnerabilities and then the maintenance and activity. Interesting. Yeah, that makes sense. That's all data you could just gather. That's awesome. Okay, so there's that. Is there anything else that's worked really well for you guys to help you grow self-serve?",
+   "zh": "明白了。它是程序化生成的、对你能集成的开源库更好的索引。太聪明了。说它程序化，是因为你可以就漏洞以及维护活跃度提供信息。有意思。对，这说得通。那都是你能直接收集的数据。太棒了。好，所以有这个。还有别的什么对你们自助增长特别管用的吗？",
+   "ts": "00:25:07"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "One of the recent ones that's really interesting is security education. We think of Snyk as a change agent in helping DevSecOps transformations and it's fine kind of having this capability, but what we really want to get to is this position where developers truly understand and can be better placed to prevent security vulnerabilities being injected into their code. One of the things that is, again, something that's pretty different from the industry from an incumbent perspective is that we believe it's really important to democratize security education. (00:26:06): We have been building this bunch of really high quality but bite size lessons about developer security that focus on developers about security issues and vulnerabilities and we surface them. Again, they're out there in the public domain. There's no paywall to get access to those. All the traditional solutions you need to sign up, you need to pay to get access beyond more than a couple. But these were just, they're all out there in the public domain. That works really well for us from a company generated company distributed loop as well.",
+   "zh": "最近一个真有意思的是安全教育。我们把 Snyk 看作推动 DevSecOps 转型的变革者，有这种能力挺好，但我们真正想达到的是这样一种状态：开发者真正理解、并且更有能力防止安全漏洞被写进他们的代码里。其中有一件事， again，从 incumbent 的角度看也和这个行业很不一样——我们坚信，把安全教育民主化非常重要。(00:26:06) 我们一直在构建一批质量很高、但很轻量的开发者安全课程，聚焦开发者关心的安全问题和漏洞，并把它们推出来。同样，它们都在公共领域，获取它们没有任何付费墙。所有传统方案你都得注册、得付费才能看到超过两三个。但我们的这些，全都公开在公共领域。作为“公司生成、公司分发”的闭环，这也非常好用。",
+   "ts": "00:25:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So cool. SEO and then integrating to GitHub in an interesting way. Imagine there's also a lot of intra-company virality when someone uses Snyk at a company and they spread it to their colleagues?",
+   "zh": "太酷了。SEO，再加上用一种有趣的方式集成到 GitHub。我猜当有人在公司里用了 Snyk 并把它传播给同事时，公司内部也会有很多病毒式传播？",
+   "ts": "00:26:36"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, I mean, I didn't talk about those. I think those are pretty well understood. We have both referral loops and invite loops as well.",
+   "zh": "对，我是说，那些我倒没细说。我觉得那些都很好理解。我们也有推荐闭环和邀请闭环。",
+   "ts": "00:26:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, awesome. Coming back to what didn't work, and I think you mentioned that there was a monetization attempt that was self-service oriented and that had some challenges. Can you talk about that?",
+   "zh": "好，太棒了。回到那个没奏效的东西，我记得你提到过有一次以自助为导向的变现尝试，遇到了一些挑战。能讲讲吗？",
+   "ts": "00:26:55"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "At the time, a few things were in place. Valuable product, check, strong developer user growth, check, strong retention, check, but the first self-serve monetization efforts only really saw traction with individual developers paying a hundred dollars a month. Or purchases in larger companies, they just didn't happen as everyone had hoped. There was a really critical part of Snyk's history. At the time a bunch of investors didn't lean in, perhaps shy away from early conviction with the founders on building strong usage without a proven path to monetization at that point. Ed at BOLDStart who I mentioned previously, he was one of the first kind of true believers and was I think really key in helping with providing runway during that time. But it was clear that there was a lot of work still to do. The team dived in, they really figured out what the constraints were and through that process really learned about the importance of catering for the broader governance needs of the enterprise buyer. (00:28:07): And that meant a couple of things. First, there was a need to build out table stakes features around governance at scale. Just things that companies of a certain scale and size expected reporting, robust user management and so on. And second that it was time to move beyond that depth first approach, right? That depth first approach was absolutely critical in getting to that point, but it wasn't good enough to take the next step. If you think about it, there's a point in a company scale where you start to see diversification of tech stacks and all of those tech stacks need securing. It's obvious in retrospect that only supporting developers using a narrow slice of those tech stacks wasn't going to meet the needs of the security teams who were ultimately the people who were held accountable for the security of their entire application estate. The teams worked hard over the next few months starting to build support for additional languages and ecosystems and adding those table stakes features. (00:29:04): I think back then Snyk were simply ahead of this inevitable curve of developer first security. At the time, the only buyers were security teams and dev first Security for the most part wasn't something that CISOs and ApSec leaders were driving. But if you look at Snyk through that lens of, as I mentioned, being a change agent, being a key piece of the transformational journey of our customers' DevSecOps journeys, you realize how important it was for us to start to build relationships with those security leaders. It was that time also that it was the right time to bring in the first sales and engineering hires as well.",
+   "zh": "当时，好几件事已经就位。有价值的产品，有；强劲的开发者用户增长，有；强留存，有。但最早的自助变现努力，真正看到的 traction，只是个人开发者每月付 100 美元，或者在大公司里的购买根本没像大家期望的那样发生。这是 Snyk 历史上非常关键的一段。当时一批投资人没有加码，也许是当时对创始人在没有成熟变现路径的情况下就建立起强使用量这一点，还缺乏早期的信心。我之前提到的 BOLDStart 的 Ed，是最早的真正信徒之一，我认为他在那段时间为提供 runway 起到了关键作用。但显然还有很多工作要做。团队一头扎了进去，真正搞清楚了约束在哪里，并通过这个过程学到了一件重要的事：要满足企业买家的更广泛治理需求。(00:28:07) 这意味着几件事。第一，需要构建起围绕规模化治理的“桌面筹码”型功能——也就是到了一定规模的公司会期待的东西，比如报表、稳健的用户管理等等。第二，是时候超越那个深度优先的 approach 了，对吧？那个深度优先 approach 在到达那个点上绝对关键，但它不足以支撑下一步。你想想，公司到了一定规模，你会开始看到技术栈的多元化，而所有这些技术栈都需要被保护。回过头看很明显：只支持用技术栈里一小块切片的开发者，是满足不了安全团队的需求的——而安全团队最终才是为整个应用资产的安全性负责的人。团队在接下来的几个月里拼命干，开始为更多语言和生态构建支持，并加上那些“桌面筹码”功能。(00:29:04) 我觉得当年 Snyk 只是走在了“开发者优先的安全”这条必然曲线前面。当时唯一的买家是安全团队，而“开发者优先的安全”在很大程度上还不是 CISO 和应用安全负责人在驱动的东西。但如果你用我提到的那个视角看 Snyk——作为一个变革者，作为客户 DevSecOps 转型旅程里的关键一块——你就会意识到，对我们来说，开始和那些安全负责人建立关系有多重要。也就是在那个时点，也是引入第一批销售和工程招聘的合适时机。",
+   "ts": "00:27:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You basically found it couldn't work self-serve, independent of sales being involved in convincing the folks at the top, which makes sense. How do you trust a company with your security if the people at the top responsible for security aren't bought in? Makes sense.",
+   "zh": "你基本上发现它没法在脱离销售、去说服高层的情况下自助跑通——这说得通。如果负责安全的高层不买账，你怎么敢把你的安全托付给一家公司？说得通。",
+   "ts": "00:29:48"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Today it's less like that. There are organizations where the buying center is still very much ApSec, but there are also many organizations where kind of technical leaders on the buying decision around security investments. What was always true though even back then was the influencing power of developers, regardless of where the buying center was.",
+   "zh": "今天已经不那么像当年了。有些组织里，购买中心仍然是应用安全，但也有很多组织里，技术负责人在关于安全投资的购买决策上有很大话语权。不过即便在当年也一直成立的一点是：开发者的影响力，无论购买中心在哪里。",
+   "ts": "00:30:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I imagine as the brand has grown, it's gotten easier to convince people like, \"Oh yeah, look at all these other logos using this. It's probably going to be okay.\"",
+   "zh": "我猜随着品牌做大，要说服别人就更容易了，比如“看看，这么多别的 logo 都在用这个，那应该问题不大”。",
+   "ts": "00:30:28"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "For sure.",
+   "zh": "那当然。",
+   "ts": "00:30:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to understand in your experience with Snyk, it never really worked self-served monetization. It worked as a way to get into a company and then developers started using it in small scale, but you needed sales and marketing to really grow monetization. Is that what you found?",
+   "zh": "我有点想搞清楚，以你在 Snyk 的经验，自助式变现从来没真正跑通过。它作为一种进入一家公司、然后开发者小规模用起来的方式是管用的，但你需要销售和市场才能真正把变现做起来。你发现的是这样吗？",
+   "ts": "00:30:36"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I think back then, yes. Now it's a very different story. We have a lot of self-serve only customers scaling pretty large, so.",
+   "zh": "我觉得在当年，是的。现在故事很不一样了。我们有很多纯自助客户，规模也长得很大。",
+   "ts": "00:30:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. That's interesting. I rarely hear that you start out with sales being important and it becomes less important or I imagine it's still very important, but there's like a segment that has emerged that can self-serve. Fascinating.",
+   "zh": "明白了。这挺有意思。我很少听到一开始销售很重要、后来变得没那么重要的情况——我猜它仍然很重要，但确实出现了一类可以自助的客户群体。真有意思。",
+   "ts": "00:30:59"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, I think it is important to acknowledge though, that the product has always played a really key part in the sales process for sure.",
+   "zh": "对，不过我觉得有一点很重要得承认：产品一直都在销售过程里扮演着非常关键的角色。",
+   "ts": "00:31:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That touches on something I wanted to ask. [inaudible 00:31:24] you've mentioned him a couple times, he's got this awesome newsletter, he talks about you guys all the time. I think he's very proud of the progress of Snyk and he talks a lot about that for developers, you got to win hearts and minds of developers to build something that works. Any lessons or pieces of advice for folks that are targeting developers to win hearts and minds and get engineers, developers excited about what you're building?",
+   "zh": "这就引到了我想问的一件事。[听不清 00:31:24] 你提过他好几次，他有份很棒的 newsletter，老在聊你们。我觉得他挺为 Snyk 的进展骄傲的，也经常说，对开发者来说，你得赢得开发者的心和脑，才能做出真正管用的东西。对于那些以开发者为目标、想赢得工程师和开发者对自己产品在情感上兴奋起来的人，你有什么经验教训或建议吗？",
+   "ts": "00:31:21"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I think there's two things, right? First of all, fundamentally for someone to get excited about using a product, they've got to care enough, right? They've got to have a problem that you're solving. I think there's two things. One, there is a shift that is happening and still happening. I think there's still a long way to go for developers to really care about security as an integral part of their job in the same way they think about functional quality or performance. I think that we're still, we're making strong progress there. It's changing all the time, but there's still a long way to go there. But the reality is that I think in most companies, developers have to care about security because their companies need to be secure. The key then is how do I make the job of being secure for these developers, as painless as it absolutely needs to be? (00:32:44): And that means really meeting them where they are, integrating with their tools, finding ways to take security to them instead of trying to pull them out of their workflows. Flow is just this incredibly important concept for developers and you want to strive to keep them in that flow for as long as possible. The GitHub kind of pool requests are a great example of that. Someone can sign up for Snyk and they could theoretically be the only user of Snyk and connect their repos. All of a sudden we're protecting, securing those repos, a hundred, a thousand developers could be working in GitHub with that code, all benefiting from Snyk without necessarily needing to sign up. That's that example of taking the product to users without pulling them out of their workflows. I think that's absolutely critical.",
+   "zh": "我觉得有两点，对吧？首先，从根本上说，一个人要对用一个产品感到兴奋，他得足够在意，对吧？他得有你在解决的问题。我觉得有两点。其一，一场转变正在发生、而且还在发生。我认为要让开发者真正把安全当作工作中不可分割的一部分、像在乎功能质量或性能那样在乎，还有很长的路要走。我们在这方面进展不错，一直在变，但还差得远。但现实是，我觉得在多数公司里，开发者不得不在意安全，因为他们公司需要安全。那么关键就是：我怎么才能让这些开发者“变得安全”这件事，尽可能不那么痛苦？(00:32:44) 这意味着真的要在他们所在的地方接住他们，和他们的工具集成，想办法把安全送到他们面前，而不是试图把他们从工作流里拽出来。心流对开发者来说是个极其重要的概念，你要尽量让他们尽可能久地待在那个心流里。GitHub 上的 pull request 就是个绝佳例子。有人可以注册 Snyk，理论上他可以是唯一一个用 Snyk 的人，连上他的仓库。突然之间我们就在保护那些仓库了，可能有成百上千的开发者在那个代码上用 GitHub 协作，全都受益于 Snyk，而不一定需要注册。这就是“把产品送到用户面前、而不把他们拽出工作流”的例子。我觉得这绝对关键。",
+   "ts": "00:31:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As an outsider hearing all this, it's a product that magically helps you avoid security issues, very little work, does a lot of the work for you. It's hard to imagine it not working looking at it now, and I'm curious what it was about the early days that just felt like maybe that people didn't believe in this working. Is it just there was doubt that it would be smart enough to find your security vulnerability issues? Was it the timing wasn't right, people weren't ready, weren't concerned about security enough? What do you think it was that created challenges early on? Because looking back, it's like, of course this is going to work. How could it not? It sounds just like a magical all win product.",
+   "zh": "作为一个外人听这些，这产品像是魔法一样帮你避开安全问题，几乎不费功夫，还帮你做了一大堆事。现在看很难想象它会不成功，我很好奇：早年到底是什么让人感觉它可能不 work？是因为人们不相信它聪明到能找出你的安全漏洞？还是时机不对、人们没准备好、对安全不够上心？你觉得早年是什么造成了那些挑战？因为回过头看，这当然会成功啊，怎么会不成功呢？听起来就是个魔法般的、全赢的产品。",
+   "ts": "00:33:38"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "First of all, don't think the challenges were there in terms of the developer adoption. Even when those first kind of forays into self-serve were struggling in terms of breaking into some of the larger customers. The developer adoption, the free user base was still growing at a really good pace. That momentum was just constantly building and it's that momentum that has ultimately fueled the sales led business as we've gone through the years. But it was just those few things I think that I mentioned earlier in terms of stumbling blocks that needed to be overcome because when those first sales and marketing hires did join us and we started having conversations and we also tweaked some of the things in the product to meet, had some breadth, had some additional languages, ecosystems, building those table stakes features, then it really unlocked and it was rocket ship time from then.",
+   "zh": "首先，我不觉得挑战出在开发者采用上。即便那些最早的自助尝试在打入一些大客户时还在挣扎，开发者的采用、免费用户基数仍然在以很好的速度增长。那股势头一直在累积，而正是这股势头，在这些年里最终推动了我们的销售驱动业务。但就像我之前提到的，是有几件需要克服的绊脚石——因为当那第一批销售和市场招聘进来、我们开始对话、又调了一些产品去满足（有了一些广度、加了一些语言、生态，构建了那些“桌面筹码”功能），然后就真的释放了，从那以后就是火箭升空了。",
+   "ts": "00:34:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Sounds like the biggest issue is monetization. Can we make money doing this? Developers love it, they're using it like crazy, but will people be convinced to scale this an inside an organization and pay us a bunch of money for it?",
+   "zh": "明白了。听起来最大的问题是变现。我们能靠这个赚钱吗？开发者爱它，用得发疯，但人们会被说服在一家组织内部把它规模化、并付我们一大笔钱吗？",
+   "ts": "00:35:11"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Exactly, yep.",
+   "zh": "没错，是的。",
+   "ts": "00:35:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, got it. I want to dive a little bit deeper into your growth team and product team and how you think about organizing teams like that in a product led growth sales org. The first question, just how did the growth team start at Snyk? What was kind of the early days and then what does it look like today?",
+   "zh": "好，明白了。我想稍微深挖一下你的增长团队和产品团队，以及你怎么思考在一家产品驱动增长（又带销售）的组织里，去搭建这样的团队。第一个问题，Snyk 的增长团队最开始是怎么起来的？早期是什么样，现在又是什么样？",
+   "ts": "00:35:22"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "There were some ad hoc efforts happening in various places. We had a small growth marketing function, we had [inaudible 00:35:49]. We also had some ownership of key growth services in R&D. There was a team that owned the new user onboarding flows, for example. But it wasn't until I joined that we really formalized the notion of a growth team. It was very kind of ad hoc before then. When I joined, we created what we call the developer growth group now. Before then there maybe wasn't strong an understanding about what a growth team needs to look like, how they might need to work differently to the core product teams. And I'd say overall it was much later than you'd typically expect to see. And at a bigger scale. You normally are going to start growth teams, one or two people, three or four maybe, and scale out from there. But we started much bigger than that. But at the same time, this bottom up developer first approach, it was baked into the company DNA in terms of how teams think and operate. Yeah, we were growing fast even before we spun up the growth group. I think the significant change that happened there, it was a transition from a simple freemium approach to a holistic and well-coordinated PLG strategy. It's much more common to start earlier, much more common to start at a smaller scale than we did at Snyk, but it worked for us because of this kind of perfect storm of where we had a product with that bottom up growth built in from the beginning. We had founders with a deep appreciation for how the product could grow and there was strongly exec alignment and sponsorship for scaling the motion. The problem when starting the growth group, it was really for the most part more oriented to how we can get the flywheel spinning faster as opposed to getting it moving in the first place.",
+   "zh": "当时各个地方有一些临时的努力。我们有一个很小的增长市场职能，我们有[听不清 00:35:49]。我们在研发里也有一些对关键增长服务的所有权。比如有一个团队负责新用户 onboarding 流程。但直到我加入，我们才真正把“增长团队”这个概念正式化。在那之前非常临时。我加入的时候，我们创建了现在叫“开发者增长组”的东西。在那之前，可能大家对增长团队应该长什么样、他们该怎么和核心产品团队用不同方式工作，理解并不强。而且我想说，整体上这比通常预期看到的要晚得多，规模也更大。你一般会从一两个人、或者三四个人起步，再从那里扩。但我们起步比那大得多。但与此同时，这种自下而上、开发者优先的思路，已经烙进了公司的 DNA——团队的思考和运作方式里。对，早在成立增长组之前我们就在快速增长了。我觉得那里发生的重要变化，是从简单的免费增值，过渡到一套整体、协调良好的 PLG 策略。比起 Snyk，更早起步、更小规模起步要常见得多，但它对我们奏效了，因为这是一种完美风暴：我们有一个从一开始就内建了自下而上增长的产品，我们有对产品怎么增长有深刻体认的创始人，而且有很强的高管对齐和对这个打法的赞助。成立增长组时要解决的问题，大体上更多是“怎么让飞轮转得更快”，而不是“怎么让它第一次转起来”。",
+   "ts": "00:35:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Where did you initially focus that team? Which part of the flywheel?",
+   "zh": "你最初把那个团队聚焦在哪里？飞轮的哪一部分？",
+   "ts": "00:37:26"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Right now we have dedicated teams focused on acquisition, activation and monetization along with a supporting team who own our growth platform, including all of our data and experimentation stack. But the macro structure, it's changed over time to enable us to focus on the biggest constraints in our growth model. At the beginning we just focused on acquisition and activation, intentionally deferring any investment into specific monetization initiatives around the self-serve revenue channel until we felt confident that A, we'd built the necessary growth muscles to scale, and B, we'd figured out some of the more pressing issues that were present earlier in the user journey. It was important that we felt really confident about our ability to effectively connect developers to Snyk's value in such a way that introducing and optimizing a self-serve revenue channel would make sense. I also really wanted to avoid one of the common failure modes I've seen around cross-functional collaboration and growth. (00:38:28): When I joined, there was an inherent tension built into the system. It was particularly noticeable between R&D and the growth marketing team. We had amazing people in both teams, a ton of really great ideas, but many of them were just not being executed on and it was leading to a lot of friction, a lot of frustration, ultimately caused by misaligned incentives between the different functions. When creating the growth group, we resolved this by ensuring that each of the growth teams were truly cross-functional in nature with everyone in each team aligned around common objectives and KPIs. Every team has engineers, an engineering manager, a product manager, a designer, a growth marketer, decision science support, and a basic shape of the growth teams that'll be familiar to most, but I spoke to a bunch of people over the last couple of years and I've actually learned to my surprise that inclusion of growth marketers in the product teams is not all that common. And I personally think there's just a lot of opportunity being missed there and I expect that to start to become the norm rather than the exception over time.",
+   "zh": "现在，我们有专门的团队聚焦获取、激活和变现，外加一个支持型团队负责我们的增长平台，包括我们所有的数据和实验栈。但这个宏观结构，随着时间调整过，好让我们能聚焦增长模型里最大的约束。一开始我们只聚焦获取和激活，刻意把对自助收入渠道的任何具体变现举措的投资推迟，直到我们确信：A，我们已经建立了必要的增长肌肉去规模化；B，我们已经搞清楚了用户旅程更早期存在的那些更紧迫的问题。让我们对自己的能力很有信心、确信我们能有效把开发者和 Snyk 的价值连接起来，那样引入并优化一个自助收入渠道才有意义，这很重要。我也真的很想避免我在跨职能协作和增长上见过的一个常见失败模式。(00:38:28) 我加入时，系统里内建了一种固有的张力。在研发和增长市场团队之间特别明显。两个团队里都有很棒的人，一大堆好点子，但很多就是没被执行，导致了大量摩擦和挫败，说到底是因为不同职能之间激励不对齐。成立增长组时，我们解决这个问题的方式是：确保每个增长团队在本质上都是真正跨职能的，每个团队里的每个人都围绕共同的目标和 KPI 对齐。每个团队有工程师、工程经理、产品经理、设计师、增长市场人员、决策科学支持——这是多数人都熟悉的增长团队基本形态。但我过去两年和很多人聊过，惊讶地发现：把增长市场人员纳入产品团队，其实并不那么普遍。而我个人觉得，那里错失了大量机会，我预期随着时间它会变成常态而不是例外。",
+   "ts": "00:37:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I want to talk about that, but before we get there, you said there's a decision science person on the team. What is that about? That's cool.",
+   "zh": "好。我想聊那个，但在这之前，你说团队里有个决策科学的人。那是干嘛的？挺酷的。",
+   "ts": "00:39:32"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "That's right. We started off from a fundamental BI data analyst perspective, but over time we wanted to apply a much deeper level of analysis on the data such that we could start to build in predictive models that could help us make better decisions and can ultimately fuel and power some of the end product experiences. Yeah, we spun up a decision science function and those folks are very smart.",
+   "zh": "对。我们最初是从一个基础的 BI 数据分析师视角起步的，但随着时间，我们想对数据做更深度的分析，好让我们开始建预测模型，帮我们做更好的决策，并最终为一些终端产品体验提供动力。对，我们成立了决策科学职能，那些人非常聪明。",
+   "ts": "00:39:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is that similar to data science or is that a separate ... Okay. It's cool that you call them decision science people versus data science, because that's so much more actionable.",
+   "zh": "那是类似数据科学，还是分开的……？好。你把这些人叫决策科学而不是数据科学，挺酷的，因为这听起来 actionable 得多。",
+   "ts": "00:40:13"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, I think so.",
+   "zh": "对，我也这么觉得。",
+   "ts": "00:40:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, that's cool. All right. I haven't heard that before. Makes me think of Annie Duke and all the stuff about how to make better decisions and I love ... Is this something anyone else does or is this something you came up with calling [inaudible 00:40:38]-",
+   "zh": "哇，真酷。我之前没听过这个。让我想到 Annie Duke 和所有关于怎么做出更好决策的东西，我挺喜欢……这是别人也在做的，还是你自己想出来叫这个[听不清 00:40:38]——",
+   "ts": "00:40:24"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I'm not sure. I don't necessarily think what we are doing is revolutionary there, but maybe the name, I'm not sure.",
+   "zh": "我不确定。我不觉得我们做的事在那里有什么革命性，但也许这个名字是，我不确定。",
+   "ts": "00:40:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, the name is cool. I haven't heard that before. It implies bias towards action versus just we're going to do a bunch of cool stuff with data. Interesting. Okay. Then you said that there's a growth marketer embedded in each team, so maybe just broadly what makes up these teams? Which you touched on briefly, then what have you learned is the value of having a growth marketer embedded within each team?",
+   "zh": "对，这名字酷。我之前没听过。它暗示了一种偏向行动，而不是“我们要用数据搞一堆很酷的东西”。有意思。好。然后你说每个团队里都嵌入了一个增长市场人员，所以大概说说这些团队由什么构成？你简单提过，然后你学到什么——在团队里嵌入一个增长市场人员的价值是什么？",
+   "ts": "00:40:46"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "It's important to have balanced teams with strong diversity across multiple vectors. Focusing on functional diversity at the moment, which is kind of what you're asking about with having growth marketers on the team, one of the big benefits you get is a broader pallet of ideas, but also a bigger toolbox when it comes to execution, which generally translates in an ability in a growth team for them to test and learn faster with more parallel, yet at the same time, aligned threats. Perhaps I can give a recent example there. Having a growth marketer in an acquisition focused team led us to some lightweight experimentation on the website in creating an SEO optimized page. It was something that was really high performing, both from the perspective of traffic and conversion, but it didn't require any engineering resources to create. The growth marketer and the team, and they decided together this was something worth pursuing. (00:42:01): But the growth marketer was able to kind of execute that independently while engineers were working on other things. But then based on the success of that, the team went on to build out a functional sidecar product that allowed users to basically try Snyk without needing to sign up by simply placing their code in for us to scan and giving them some results there and then. We saw really great results with that visitor traffic, saw a significant increase, sign up rate dropped a little bit as we'd expect it would, but overall new users had a big bump and those users had much higher intent, which we saw play out with increased activation rates.",
+   "zh": "拥有在多个维度上强多样性的均衡团队很重要。先聚焦职能多样性，也就是你问的“团队里有增长市场人员”这点，你得到的一大好处是更宽的点子调色板，同时执行时工具箱也更大——这通常转化为一个增长团队能更快、用更多并行但又对齐的“威胁”去测试和学习的能力。也许我可以给个近期的例子。在一个聚焦获取的团队里有个增长市场人员，促使我们在网站上做了一些轻量实验，创建了一个 SEO 优化的页面。无论流量还是转化，那都是表现极好的东西，而且创建它不需要任何工程资源。增长市场人员和团队一起，他们共同决定这值得做。(00:42:01) 但增长市场人员能在工程师做别的事时，独立去执行那个。然后基于它的成功，团队接着构建了一个功能性的 sidecar 产品，让用户基本上不用注册、只要把代码放进来给我们扫描、当场就给他们一些结果，就能试用 Snyk。我们看到访客流量有非常好的结果，显著增长，注册率如我们预期降了一点，但总体上新用户大涨，而且那些用户意图强得多——这一点我们在激活率的提升上看到了体现。",
+   "ts": "00:41:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. And so there's essentially four teams under the growth umbrella. There's acquisition, activation, monetization, and then this kind of experimentation platform team. Is that right?",
+   "zh": "太棒了。所以增长大旗下基本是四个团队：获取、激活、变现，再加上这个实验平台团队。对吗？",
+   "ts": "00:42:37"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, that's right. And that team is also responsible for making that data available elsewhere in the organization as well. Product led sales is a really important motion for us, and so taking the knowledge we have, the insight we have around behavior with the users and their teams and their companies within the product, and making that available to the GTM teams outside in smart ways, allowing them to focus on the things that are most important to focus on. That's a really important part of what that team does.",
+   "zh": "对，没错。而且那个团队也负责把那些数据在组织别处也用起来。产品驱动销售（PLS）对我们是个非常重要的打法，所以把我们关于用户、他们的团队、他们公司在产品里行为的数据和洞察拿出去，用聪明的方式提供给外面的 GTM 团队，让他们能聚焦在最重要的东西上。那是那个团队工作里很重要的一部分。",
+   "ts": "00:42:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting, you guys are the epitome of product life sales. That's this new trend of from PLG to PLS for sales. It's obvious that they're a big part of this whole process. The fact that monetization happens almost all through sales is interesting. That's interesting. Cool. Okay. That's not a question, just a thought, talking out loud. One other thought I had is, so you talked about SEO being a really important part of your growth. What is the person team like to do the SEO piece, the right content? I imagine they're on the acquisition team, there's maybe a content person that lives within that team.",
+   "zh": "有意思，你们简直是产品驱动销售的典范。这是从 PLG 到 PLS 给销售的新趋势。很明显他们是整个过程很重要的一部分。变现几乎全通过销售发生，这点挺有意思。酷。好，那不算个问题，就是个想法，说出声而已。我另一个想法是，你说 SEO 是你们增长很重要的一部分。做 SEO 那块、写对内容的人，团队是什么样？我猜他们在获取团队里，也许有个内容人员在那个团队里。",
+   "ts": "00:43:20"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "We have actually one of, the smartest SEO people I've ever met within [inaudible 00:44:02].",
+   "zh": "我们其实有我见过最聪明的一个 SEO 人，在[听不清 00:44:02]。",
+   "ts": "00:43:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's their name? Let's give them a shout out if you want.",
+   "zh": "她叫什么？如果你想的话，我们喊她一声。",
+   "ts": "00:44:02"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Anna. Yeah, cool.",
+   "zh": "Anna。对，酷。",
+   "ts": "00:44:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Joanna.",
+   "zh": "Joanna。",
+   "ts": "00:44:05"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Well, she's part of growth marketing, but she works extremely closely with the growth teams and she's got a few people in her organization and we bring them into specific SEO focused initiatives when we're looking to build loops around that. Incredibly important to have someone like that who understands that at a far deeper level than I could ever hope to, how SEO works. And particularly in terms of keeping on top of some of the things that Google are constantly doing in terms of their algorithm changes.",
+   "zh": "嗯，她属于增长市场，但她和增长团队工作得极其紧密，她组织里有几个人，我们在围绕 SEO 构建闭环时把他们拉进来。有这样一个比我能想象得深得多地理解 SEO 怎么运作的人，极其重要。尤其是关于紧跟 Google 在算法变化上不断做的事。",
+   "ts": "00:44:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And does she actually do the writing for editorially, for I guess even the programmatically made pages or there's someone she outsources-",
+   "zh": "那她真的会做编辑性的写作吗？我猜即使是程序化生成的页面，还是有她外包的人——",
+   "ts": "00:44:37"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "No, but what she does do a great job of is providing the kind of continuously updated guidelines on how content should be structured to lead us to good results.",
+   "zh": "不，但她做得很好的一件事是：持续更新关于“内容该怎么组织才能带来好结果”的指南。",
+   "ts": "00:44:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Then it's just engineers and PMs that end up writing the things? Wow. Cool.",
+   "zh": "那最后就是工程师和 PM 来写这些东西？哇。酷。",
+   "ts": "00:44:55"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, that's exactly right.",
+   "zh": "对，就是这样。",
+   "ts": "00:45:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Vanta, helping you streamline your security compliance to accelerate growth. If your business stores any data in the cloud, then you've likely been asked or you're going to be asked about your SOC 2 compliance. SOC 2 is a way to prove your company's taking proper security measures to protect customer data and builds trust with customers and partners, especially those with serious security requirements. Also, if you want to sell to the enterprise, proving security is essential. SOC 2 can either open the door for bigger and better deals or it can put your business on hold. (00:45:39): If you don't have a SOC 2, there's a good chance you won't even get a seat at the table. Getting a SOC 2 report can be a huge burden, especially for startups. It's time consuming, tedious and expensive. Enter Vanta. Over 3000 fast growing companies use Vanta to automate up to 90% of the work involved with SOC 2. Vanta can get you ready for security audits in weeks instead of months. Less than a- PART 2 OF 4 ENDS [00:46:04]",
+   "zh": "本期节目由 Vanta 赞助，帮你精简安全合规、加速增长。如果你的业务在云上存了任何数据，那你很可能已经被问到、或者马上会被问到你的 SOC 2 合规。SOC 2 是一种证明你公司采取了恰当安全措施来保护客户数据的方式，并能和客户、合作伙伴建立信任——尤其那些有严肃安全要求的。而且，如果你想卖给大企业，证明安全性是必不可少的。SOC 2 要么为你打开更大更好交易的大门，要么让你的业务停摆。(00:45:39) 如果你没有 SOC 2，你很可能连上桌的资格都没有。拿到一份 SOC 2 报告可能是个巨大的负担，尤其是对初创公司。它耗时、繁琐又昂贵。有请 Vanta。超过 3000 家快速增长的公司用 Vanta 把 SOC 2 相关高达 90% 的工作自动化。Vanta 能让你在几周而不是几个月里准备好安全审计。不到[00:46:04] 第 2 段 / 共 4 段 结束",
+   "ts": "00:45:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can get you ready for security audits in weeks instead of months, less than a third of the time that it usually takes. For a limited time. Lenny's podcast listeners, get $1,000 off Vanta. Just go to vanta.com/lenny, That's V-A-N-T-A.com/lenny to learn more and to claim your discount. Get started today. What advice do you have for folks building growth teams and maybe either similar space or just B2B, PLS oriented businesses in general? What have you learned about what is important to get right?",
+   "zh": "能让你在几周而不是几个月里准备好安全审计，不到通常所需时间的三分之一。限时优惠：Lenny 播客的听众，买 Vanta 立减 1000 美元。只要去 vanta.com/lenny，也就是 V-A-N-T-A.com/lenny 了解更多并领取你的折扣。今天就开始。对于那些搭建增长团队的人——也许是类似赛道，或者广义上 B2B、以 PLS 为导向的业务——你有什么建议？关于什么重要、什么要搞对，你学到了什么？",
+   "ts": "00:46:03"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "This is a big topic. I have a lot of thoughts here based on what I've seen work well and also not so well. I think I can broadly bucket things here into maybe three main topics. So the first would be people and process. The second would be strategy, and the third would be data. Now they're all related and they all have to be working well to be effective in growth. Starting with people maybe touch the first element there in terms of balance teams, you've got to have those balance teams with diversity and ability to create great ideas, but also ability to execute. So that's the first thing. (00:47:14): But still on the topic of people, I have this kind of mental model, that potential that at its core is unbounded, but that a bunch of things situationally prevent people from fulfilling their potential. It might be how they're thinking about something. It might be organizational. It might be in relationships with coworkers or in broader team dynamics. It might be in them not even being in the right role even. (00:47:37): So fundamentally I think it's the role of managers and leaders to help them identify those things and work with them to find ways to thrive and grow. And I've seen this have particular significance in a growth org where people are just naturally less good fit. Now that doesn't mean that they're not amazing talented humans. It just means they aren't going to do their best work in a growth context. (00:47:59): So when you're starting a growth team, you'll often be doing so with internal moves. So this can be something that's maybe a little bit easier to miss than with external candidates where you are likely testing for those things explicitly during the hiring process. I'll share an example with developers. (00:48:17): So the devs that really thrive in a growth context are the ones that are motivated by moving quickly, iterating to create measurable impact. They're not attached to their work. They embrace imperfection as part of the process. They happily discard their code, their ideas even. They're curious and they're always looking for ways to be closer to their users. (00:48:38): Now those are the folks that generally make great growth engineers and I've also known incredible engineers that are most motivated when they're working on really deep technical challenges and love the process as much as the outcome. And they've struggled in growth. Of course it's never that simple in reality. There's nobody who's really at either extremity of that spectrum. But it's really important to try to answer the question, can this person do their best work in this environment? So I think that's a really key part of it. (00:49:10): And yeah, you need to also make sure they're well equipped from a kind of skills and knowledge perspective as well. So they need the right skills and knowledge to be able to do their best work in the context of your growth process. So the ideal state is that every growth team member has common vocabulary. They're comfortable with the growth process. They can work well with data and experimentation platform. They understand the data. They have the right skills and mindset. (00:49:36): Education I think plays a big part here. So we're big fans of Reforge, but we've also developed a bunch of internal programs to align and uplevel the teams. Something we learned, I think as an example, is the importance of starting simple and going deeper as the teams build experience. So for example, when it comes to experimentation, don't try at the beginning to introduce multivariate testing or concepts like sequential samplings and alternative evaluation approach. (00:50:04): Teams are still trying to just dip their toes in that... This water, it's kind of a recipe for a lot of mistakes. So that would be some advice there. (00:50:15): But people also need to be well aligned. I've talked about this actually on another podcast that I did recently. But what I mean by that is their execution needs to be aligned with an evolving growth strategy. The growth strategy needs to be aligned with and at the same time influence where the company's going. The growth strategy needs hooks into the product strategy and ideally there's some overlap and alignment of KPIs so that the growth teams and the core product teams are swimming in the same direction. The skills and experience in the team need to be aligned with the strategy. If you've got to focus on activation and acquisition, then someone who's a plans and pricing expert probably isn't the right set of skills at that point in time. (00:50:57): But you also, leaders need to plan to ensure those skills are available as focus of the growth team inevitably shifts over time. But at the end of the day, I think everyone needs to be able to easily answer the question why they're there. Why the work they're doing is important. (00:51:14): I don't know if it's too far off track here, but I have a vision and mission framework that I like to use that leads to I think, great simple statements of an imagined better future state and your role in getting there. So I can talk about that a little bit if it's a-",
+   "zh": "这是个大话题。基于我看到的奏效和不那么奏效的，我有很多想法。我想大致能归成三个主要主题。第一是人和流程，第二是策略，第三是数据。它们都相关，而且都得运作良好，增长才有效。先从人说起，就刚才说的均衡团队那第一点——你得有那些在多样性和产生好点子能力上均衡、同时也有执行力的团队。所以这是第一件事。(00:47:14) 但还是说人的话题，我有个心智模型：潜力在核心上是无限的，但很多情境性的东西阻止人们发挥潜力。可能是他思考某事的方式，可能是组织性的，可能是和同事的关系或更广的团队动态，甚至可能他根本没在合适的角色上。(00:47:37) 所以根本上，我认为管理者和领导者的角色，是帮他们识别这些事，并和他们一起找到茁壮生长和成长的方式。我在一个增长组织里尤其看到这点的重要性——那里的人天然就更不那么 fit。这不代表他们不是有才华的牛人，只是说他们在增长的语境里做不出最好的工作。(00:47:59) 所以当你起步一个增长团队时，你常常靠内部调动来组建。这比外部候选人更容易被忽略——外部候选人在招聘时你很可能会显式地测这些事。我拿开发者举个例子。(00:48:17) 在增长语境里真正茁䊨的开发者，是那些被“快速行动、迭代以创造可衡量影响”驱动的人。他们不执着于自己的作品。他们把不完美当作过程的一部分来拥抱。他们乐意丢弃自己的代码、甚至自己的想法。他们好奇，总在找方法更接近用户。(00:48:38) 那些通常就是很棒的增长工程师；而我也认识一些不可思议的工程师，他们在攻克很深的技术挑战、热爱过程不亚于热爱结果时最有动力，他们在增长里就很挣扎。当然现实永远没那么简单，没有人真的在光谱的任何一端。但试着回答“这个人能在这个环境里做出最好的工作吗”真的很重要。所以我觉得这是很关键的一部分。(00:49:10) 而且，你也需要确保他们从技能和知识角度装备妥当。所以他们需要有对的技能和知识，才能在你增长流程的语境里做出最好的工作。理想状态是：每个增长团队成员有共同词汇，他们对增长流程感到舒服，能很好地和数据与实验平台协作，他们理解数据，有对的技能和心态。(00:49:36) 教育我认为在这里起很大作用。所以我们是 Reforge 的忠实粉丝，但也开发了一批内部项目来对齐和提升团队。我们学到的一课，比如：从简单起步、等团队积累经验再加深，很重要。所以比如，说到实验，别一上来就引入多变量测试或者序贯抽样、替代评估方法这类概念。(00:50:04) 团队还在试着把脚趾探进那片水，这简直是犯一堆错的配方。所以这是一点建议。(00:50:15) 但人也需要对齐。我其实在最近做的另一档播客上聊过这个。我意思是：他们的执行需要对齐一个演进中的增长策略；增长策略需要对齐、同时影响公司往哪去；增长策略需要钩住产品策略，理想情况下 KPI 有一些重叠和对齐，这样增长团队和核心产品团队朝同一个方向游。团队的技能和经验和策略要对齐。如果你得聚焦激活和获取，那一个定价套餐专家在那时大概就不是对的技能组合。(00:50:57) 但你作为领导者也要规划好，确保随着增长团队焦点不可避免地随时间转移，那些技能是可得的。但说到底，我觉得每个人都得能轻松回答“我为什么在这”这个问题——他们做的工作为什么重要。(00:51:14) 不知道是不是偏太远了，但我有个挺喜欢的愿景和使命框架，能导出我认为很棒的、简洁的关于“想象中更好的未来状态”和“你在抵达那里的角色”的陈述。如果你愿意我可以稍微讲讲——",
+   "ts": "00:46:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, let's do it. That sounds too good to pass up.",
+   "zh": "好啊，讲吧。这听起来好到不能错过。",
+   "ts": "00:51:28"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "-Cool. So the vision is the nirvana state that you aim to enable for your users and customers in five to 10 years. It's something that could equally be enabled by your competitors if you don't execute effectively or efficiently or quickly enough. You can always prefix a vision statement with in the future, dot, dot dot. (00:51:52): Now it's something that should be bound to your target market. So not too wide and not too narrow. And critically it should not mention your company, your product, or anything solution related at all. Completely agnostic of those things. (00:52:05): And then the mission, that's the thing that you are going to relentlessly iterate on to take you incrementally closer to the nirvana state described in the vision. It should answer how you'll realize the vision by describing what your fundamental approach will be. In other words, what you will do and how you'll do it. It should ideally aim to encode any unique differentiating advantage you have. So if I think about Snyk at large when it comes to advantage, we might mention our unequal security intelligence and knowledge of application context. (00:52:36): And one of the neat things about this framework is if you find utility in doing so, you can apply it at every level from the company level all the way down to individual team. It doesn't mean the process is not difficult and you need to spend a lot of time, but it gives you this set of kind of a framework, a set of bounds that help you really come out with world crafted statements that kind of stand the test of time.",
+   "zh": "——酷。愿景，是你旨在为用户和客户在 5 到 10 年里促成的“涅槃状态”。它也可能被你的竞争对手促成，如果你执行得不够有效、不够高效、不够快。你总可以在愿景陈述前加“在未来，……”。(00:51:52) 它应该绑定你的目标市场，所以别太宽也别太窄。关键点是，它完全不该提到你的公司、你的产品、或任何和解决方案相关的东西。对那些东西完全中立。(00:52:05) 然后是使命，那是你将无情迭代、带你逐步接近愿景里描述的涅槃状态的东西。它应该回答“你怎么通过描述你的根本 approach 来实现愿景”。换句话说，你要做什么、以及你怎么去做。它理想情况下要编码进你任何独特的差异化优势。所以如果我泛泛想 Snyk 的优势，我们也许会提到我们无与伦比的安全情报和对应用上下文的认知。(00:52:36) 这个框架一个巧妙之处是：如果你觉得有用，它可以用在从公司层级一直往下到单个团队的每一层。这不意味着过程不困难、你不需要花很多时间，但它给你一套框架、一套边界，帮你真正写出能经受时间考验的、精心打磨的陈述。",
+   "ts": "00:51:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there an example you could share of the mission vision, whether it's Snyk or something else?",
+   "zh": "你能否分享一个使命愿景的例子，不管是 Snyk 的还是别的？",
+   "ts": "00:53:00"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, yeah. I'll give you one for the growth group of Snyk. So great. The vision, every developer securely unleashes their creativity and the mission is to connect every developer and their organizations to the value of the Snyk platform with frictionless self-serve, adoption and expansion.",
+   "zh": "可以，可以。我给你一个 Snyk 增长组的。愿景：每一位开发者都能安全地释放他们的创造力。使命：通过无摩擦的自助采用和扩张，把每一位开发者及其组织连接到 Snyk 平台的价值上。",
+   "ts": "00:53:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interesting how the vision is so big beyond Snyk's current focus. And to your point, this kind of trickle down, right? There's a company vision and mission and it's the growth team's mission vision.",
+   "zh": "有意思，愿景大到超出了 Snyk 当前的焦点。就像你说的，这种涓滴而下，对吧？有公司的愿景和使命，也有增长团队的使命愿景。",
+   "ts": "00:53:19"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yep.",
+   "zh": "对。",
+   "ts": "00:53:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome.",
+   "zh": "太棒了。",
+   "ts": "00:53:32"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:53:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to shift a bit and talk about your product work. So we've talked a lot about the growth org. I'm curious what the broader product org looks like. How many teams do you have? How do you structure it? Is it like product focused, user focused, outcome focused? And then just how does that team work with the growth team?",
+   "zh": "我想转一下，聊聊你的产品工作。我们聊了很多增长组织。我好奇更广义的产品组织长什么样。你有几个团队？你怎么搭结构？是产品聚焦、用户聚焦、还是结果聚焦？然后那个团队怎么和增长团队协作？",
+   "ts": "00:53:34"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Sure. Happy to go into a bunch of that stuff. I know I'd mentioned earlier kind of three areas of building a growth team. I don't know if you want me to cover those other two. 'Cause we talked about-",
+   "zh": "当然。很高兴聊那些。我记得早先提到过搭建增长团队三个领域。不知道你想不想让我把另两个也覆盖？因为我们聊了——",
+   "ts": "00:53:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh yeah, okay, let's do that. Let's finish that thread.",
+   "zh": "哦对，好，那就做这个。把那条线收完。",
+   "ts": "00:54:02"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "-Cool. So people and process was the first and we'll cover process really quickly. I think on the process side, at a minimum here you need well understood, documented growth processes, practices, working cadences. Teams in growth need to work differently in some ways from R and D teams working on core product, assuming otherwise, and just giving growth responsibility to an existing team without working with them to implement appropriate ways of working. I think it's a common track. (00:54:31): Ideally you get to a point there where the growth process is something that's continually refined and iterated on trying to build in more predictability. But what I've found I think most singularly most important in a growth process is facilitating a rapid learning cadence and providing the means to socialize those learnings, surfacing them in the right place at the right time so they can be leveraged and at the context. And if you think about experimentation, it's not about delivering outcomes it's about generating learnings that the organization can leverage effectively to deliver outcomes. (00:55:05): Might not be now, might not be tomorrow or some point in the future. But the sad reality is that without good process learnings easily end up unused and gathering dust. And you have to ask then what was the point? So as people in process and you know when that's on the right track, when you start to see enthusiastic sharing of learnings, when you see regular contribution of ideas coming from everyone in the form of well crafted hypotheses that are based on data and learnings. And when you see a wide variety of folks, just assuming end to end ownership of managing and running experiments instead of delegating that to the product manager or an engineer and tech lead. So yeah, that's people in process and strategy is-",
+   "zh": "——酷。所以人和流程是第一块，我们很快聊完流程。我觉得在流程这边，你至少需要有被大家理解、被记录下来的增长流程、实践和工作节奏。增长团队在某些方面需要和以不同方式工作，区别于做核心产品的研发团队——假设不是这样，只是把增长职责丢给一个现有团队、而不和他们一起落地合适的工作方式，我觉得这是个常见陷阱。(00:54:31) 理想情况下你达到一个点：增长流程是被持续打磨、迭代的，试图建立起更多可预测性。但我在增长流程里发现最重要的一件事，是促进一种快速学习的节奏，并提供把那些学习“社会化”出去的手段——在合适的时机、合适的地点把它们浮现出来，好让它们能在对的语境下被利用。如果你想想实验，它的目的不是交付结果，而是产生组织能有效利用、从而交付结果的学习。(00:55:05) 也许不是现在，也许不是明天，是将来某个点。但悲哀的现实是：没有好的流程，学习很容易就根本没被用上、积了灰。那你得问，那还有什么意义？所以当人和流程走上正轨时，你会看到人们热情地分享学习，看到每个人以基于数据和学习的、精心打磨的假设形式持续贡献点子，看到各种各样的人直接端到端地拥有并运行实验，而不是把那委派给产品经理或工程师和技术负责人。所以，这就是人和流程，而策略是——",
+   "ts": "00:54:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me throw in a question real quick before we get to the last piece.",
+   "zh": "在说到最后一块之前，我先快速插一个问题。",
+   "ts": "00:55:48"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Sure.",
+   "zh": "当然。",
+   "ts": "00:55:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So learnings, just to kind of touch on that. I've heard more and more pushback on the idea of learnings being an outcome. Because a lot of... As a leader, you're not going to be like, Cool, we learned so many things but nothing really got done. How do you think about the tension between, yeah, learnings we want to learn, but we also want to move metrics, grow the business and learnings are a way to inform decisions more than even just learn. How do you think about that kind of balance?",
+   "zh": "关于学习，稍微碰一下。我听到越来越多对“学习作为一个产出”这个想法的反弹。因为很多……作为领导者，你不会说“酷，我们学到了这么多东西但什么都没真做出来”。你怎么看待这种张力：对，我们想学习，但我们也想推动指标、增长业务，而学习更多是 informing 决策，而不只是学习本身。你怎么看这种平衡？",
+   "ts": "00:55:51"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Ultimately you're there to create impact, right? There's no getting away from that, but learnings is the means. It's the same as, there's a quote that I love from [inaudible 00:56:27] around focus on the user's path to value not on monetization. Because if you focus on the form of the latter will follow, and that's the same thing with learnings and impact here. If you try and focus on the impact itself might struggle. If you focus on the things you need in terms of learnings to take you step by step, that will pave the path to creating impact.",
+   "zh": "说到底你是为了创造影响，对吧？这个逃不掉，但学习是手段。这就像我很喜欢的一句[听不清 00:56:27]的话：“聚焦用户通往价值的路径，而不是聚焦变现。因为如果你聚焦前者，后者自然会来。”学习和影响在这里也是一回事。如果你试图直接聚焦影响本身，你可能会挣扎。如果你聚焦你在学习上需要的东西、带你一步步走，那会铺出创造影响的路。",
+   "ts": "00:56:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I imagine your OKRs and goals are still like move this metrics some percentage, but you think of that as an output and the input is let's learn a bunch of stuff about what works and doesn't work and use that to inform what we're going to double down on.",
+   "zh": "我猜你的 OKR 和目标还是像“把这个指标挪动某个百分比”，但你认为那是产出，而输入是“我们来学一大堆什么管用、什么不管用，并用它来 inform 我们要加倍下注什么”。",
+   "ts": "00:56:47"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Exactly. Yeah.",
+   "zh": "没错。是的。",
+   "ts": "00:57:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sweet. Okay.",
+   "zh": "好。可以。",
+   "ts": "00:57:00"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "You got to focus on when you build a strategic opportunity, you are thinking about the outcomes, but you don't just go right to the end state. You've got to think about what's the quickest way we can test this hypothesis? And from there, what we learn from that and what do we take into the next set of the next set of experiments and it... You're paving this path along the way. You kind of that rough destination. How you get there, you don't know at the start. And that's what the path that the learnings take you on.",
+   "zh": "当你构建一个战略机会时，你得聚焦在结果上，但你不是直接跳到终态。你得想：我们能用最快的方式测试这个假设是什么？从那里，我们学到什么，又把它带进下一组实验——你是在沿路铺这条路。你大概知道个粗糙的目的地。怎么到那，你一开始不知道。而那就是学习带你走的路。",
+   "ts": "00:57:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. Okay. And then strategy we're talking about.",
+   "zh": "酷。好。然后我们聊策略。",
+   "ts": "00:57:31"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Strategy. Yeah, so strategy, it's a good one. At a very basic level, you need to be able to answer questions. How do you acquire users? How do you retain users? How do you monetize them? I know you talked with Elena on that in more depth, but from there you need more detail. It's going to guide the growth teams and where they look for strategic opportunity, how they approach that. The best way I've found to articulate a growth strategy that fulfills the promise of usefully guiding the team's execution, it's the loop based model, Reforge, as specific kind of documentation that I think is great around that. (00:58:15): Being able to identify the various micro and macro loops, how they're all connected, being able to document them in a qualitative model to communicate a shared understanding of how you grow. It's really powerful. Augmenting that then with the quantitative side of things, that helps guide quarter to quarter focus and ensure you can be intentional about where you're investing. That becomes a big enabler. (00:58:40): You're never going to have a shortage of ideas in a high performing growth team. So knowing where to focus amidst that kind of sea of ideas is a really important role of the strategy and fairly on, you'll probably have one or two core loops, but inevitably you'll need to layer on and connect new ones over time. And having a framework for doing that and having a framework for regularly revisiting that in the context of growth, team learnings, changes in broader company strategy, evolution of the product, new features being added, and so on. Market shifts, that becomes a big up level for teams to be able to create timely impact. (00:59:19): So the model you create there is what enables you to know at any time where the biggest constraints to your growth are and allows you to balance your growth investments accordingly. It's neat for sure. We've had times where we've focused on a broad set of constraints and opportunities and other times where we've had a much narrower focus. For example, on driving improvement to activation and engagement, even more narrowed like doing that through empty states, for example.",
+   "zh": "策略。对，策略，这是个好话题。在最基础的层面，你需要能回答一些问题。你怎么获取用户？你怎么留住用户？你怎么从他们身上变现？我知道你和 Elena 在那块聊得更深，但从那之后你需要更多细节。它会指导增长团队、以及他们去哪找战略机会、怎么 approach 那个。我发现能把“有用指导团队执行”这个承诺兑现的增长策略表述方式，是基于闭环的模型——Reforge 有关于那个的具体文档，我觉得很棒。(00:58:15) 能够识别出各种微观和宏观闭环，理解它们如何相互关联，并能够把它们记录在一个定性模型里，来传递一种关于“你怎么增长”的共识性理解，这真的很有力量。再叠加定量的部分，它帮助指导一个季度到一个季度的重点，确保你能有意识地把资源投在哪——这就成了一个巨大的推动力。(00:58:40) 在一个高效增长团队里你永远不缺想法。所以，在那样一片想法海洋里知道聚焦在哪，是策略一个非常重要的角色。而且，你大概会有一两个核心闭环，但不可避免地，随时间你需要叠加上新的、并把它们连起来。而有一个做这件事的框架，以及一个在增长、团队学习、更广的公司策略变化、产品演进、新功能加入等等语境里定期重访它的框架——市场变化——那对团队能创造及时的影響，是个很大的提升。(00:59:19) 所以你在那创建的模型，能让你随时知道增长最大的约束在哪，并让你相应地平衡增长投资。当然很妙。我们有时候聚焦在一组较宽的约束和机会上，有时候聚焦窄得多——比如，驱动激活和互动的改善，甚至更窄，比如通过空状态来做。",
+   "ts": "00:57:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to unpack the strategy piece real quick. How do you operationalize this idea of you have this growth model, growth loop, you figured out here's the ways we're growing. How do you tactically connect that to a strategy? Is it, here's how we're growing, here's where we're going to focus this quarter, optimize this part of the loop, or is there some other way? You write it down, basically.",
+   "zh": "我想快速拆一下策略这块。你是怎么把这个“你有个增长模型、增长闭环，你搞清楚了我们是怎么增长的”的想法 operationalize 成策略的？是“这是我们在怎么增长，这是本季度我们要聚焦的、要优化闭环的这一块”，还是有别的方式？基本上你把它写下来。",
+   "ts": "00:59:44"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Very simply, it's first of all alignment on how you grow the different loops, how they work, the roles of different teams and the roles that they play in fueling those loops and getting them to spin faster. I think that's the first thing, having that common vocabulary and understanding. (01:00:25): Second is understanding the way they work in terms of what is constraining them, what are the inputs to them? What are the opportunities for making those loops spin faster? How can multiple loops work together in a macro context? (01:00:41): And particularly using the data there to be able to identify and understand and get alignment around where are the biggest constraints in your growth model overall and therefore where are the things that we need to focus on as a team over the next quarter or two quarters, and so on. (01:01:01): And that it's constantly changing. As I mentioned, there's a bunch of stuff that needs to feed back into that model in terms of growth loop performance or the learnings you're making and so on. That means it's changing and you're constantly reevaluating and it's guiding kind of quarter to quarter planning.",
+   "zh": "很简单，首先是共识：你是怎么增长的不同闭环、它们怎么运作、不同团队的角色、以及它们在给那些闭环供能并让它们转得更快上扮演的角色。我觉得这是第一件事，有那个共同词汇和理解。(01:00:25) 第二是理解它们运作的方式——什么在约束它们，它们的输入是什么，让那些闭环转得更快的机会在哪，多个闭环怎么在宏观语境里一起工作。(01:00:41) 尤其是用那里的数据，去识别、理解、并就“你的增长模型整体上最大的约束在哪、因此接下来一两个季度我们需要聚焦的东西在哪”达成共识。(01:01:01) 而且它在持续变化。就像我说的，有一大堆东西需要反馈进那个模型——闭环表现、你做出的学习等等。这意味着它在变，你在持续重估，它在指导一个季度到一个季度的规划。",
+   "ts": "01:00:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. So just to make it even more concrete for folks that are listening. So one of your loops is this integration with GitHub where you automatically fix their code and create a PR. You may find at some point somebody clicking that link to becoming a user is too high friction, too many people are falling out. So one strategy for one of say the activation team could be we're going to optimize this part of the funnel. So when clicking from GitHub to sign up as a user and get them to a point where they found value, right?",
+   "zh": "酷。为了让听的人更具体一点。你的一个闭环是和 GitHub 的集成——你自动修他们的代码、创建一个 PR。你可能在某个点发现，有人点那个链接变成用户摩擦太高，太多人掉出去了。所以其中一个团队——比如激活团队——的一个策略可以是：我们要优化漏斗的这一块。也就是从点 GitHub 到注册成用户、并让他们到达找到价值的点，对吧？",
+   "ts": "01:01:19"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yep. That exactly that sort of thing. Or earlier on, for example, it might have been with that taken that same example of that same loop, and this is sufficiently far in the past that it's easy for me to talk about. But we start with GitHub. We want to now expand the scope of that loop. We've seen success with it. We see the performance of that loop growing, but we think there's opportunity in saying let's expand that by adding support for Bitbucket. And now all of a sudden we spin up that same loop with Bitbucket and then GitLab and so on.",
+   "zh": "对。就是那种事。或者更早，用同一个闭环的例子——这已经够久远了，所以我好讲。我们从 GitHub 开始。我们想现在扩那个闭环的范围。我们看到了成功。我们看到那个闭环的表现在增长，但我们认为机会在于：通过加对 Bitbucket 的支持来扩展它。然后突然之间，我们在 Bitbucket 上、接着 GitLab 等等，启动了同一个闭环。",
+   "ts": "01:01:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. We could go a whole hour on just that piece, so we'll move on and we'll save that for feed two.",
+   "zh": "太棒了。好。光那一块我们就能聊一整个小时，所以继续，留到第二期。",
+   "ts": "01:02:20"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Data was the last thing. And growth team just can't function without data that even with early stage products, before you have the needed volume of traffic to be able to run formal tests in reasonable timeframes, you still need to have signals that help you learn and inform your decisions, both quantum and of course qu through speaking with users. My advice there is really just to invest early the infrastructure, the tooling then at a given scale, the dedicated people as well. They're going to be core to building out the growth team and they'll enable data to ultimately pretty much inform all critical decisions. (01:03:01): So Snyk was interesting that we didn't have a problem of not having enough data. In fact, there was an abundance of data, like too much. We collected absolutely everything. And the problem I identified very early was that we didn't have enough behavioral specific data and we weren't intentional enough about the data that we were collecting and how we were collecting it, which made the data hard to trust and that becomes a big problem. (01:03:26): So we invested in tooling and processes for building out event tracking plans, and now we test conformance to schema of the instrumented code in our CI processes. So we have absolute confidence in the data. So that was getting to a point of trustworthy behavioral data was absolutely key. (01:03:43): But the reason I say invest early here is that to remember that it also takes time to accrue enough data that you can learn about and make some key decisions around retention, for example. Also that you have enough data to run regressions on, be able to inform definition of your activation metrics or engagement states and so on. So the earlier you can start collecting the better. So yeah, people in process a strategy and data and you absolutely need all of those things to build and run an affected growth team. (01:04:14): When you get all of those things working, it's like rocket fuel for focus creativity, but at the same time slowing down to put the maturity in place as on all scales at the pace Snyk has it's pretty much impossible. You still have to get stuff done while you're kind of building all that stuff out. You have to accept that you're going to make a bunch of mistakes along the way. You have to be a hundred percent comfortable with that. And you have to treat those mistakes as learning opportunities that provide leaves for improvement. (01:04:43): And it's also useful to... You know, asked about KPIs and what the team are responsible for it. And that is one way in which a growth team absolutely needs to make impact and it's the way that primarily they're going to be held accountable. But it's also I think, useful to think about the efficacy of the growth org, not just in terms of the impact they drive our experiments and new product experiences and on core growth pick KPIs, but also how they enable and uplevel the rest of the org. (01:05:10): So for example, our entire product led sales process, it's powered by an evolving model that describes our understanding of users, teams, accounts, the usage and adoption patterns and signals, the best in form where and how our GTM teams focused. Insights from growth teams often have utility far beyond growth, but people can't know if something is useful to them if you haven't shared it with them. So the learnings made in the growth teams, even those from mistakes or failures, we socialize them widely and visibly. (01:05:41): We want every R and D team to be leveraging experimentation where appropriate to learn to create business impact. So one of the things we did here is creating a paved row for adoption of behavioral analytics and experimentation stack, coach teams on getting started to make it as easy as possible for anyone to start to reap the benefits of the platform, built out internal education programs on data driven development, on experimentation, built internal tools to help with metrics design and so on. (01:06:08): And then building core platform services as well that are useful for people outside of growth. So we built services that power contextual onboarding, and originally that was the intent, but now those same services can be used anywhere in the product to give contextual experiences. I know that was a bit of a ramble, but hopefully there's one or two useful things in there.",
+   "zh": "数据是最后一块。没有数据，增长团队根本没法运转——即使早期产品，在你还没有足够流量能在合理时间框架里跑正式测试时，你仍然需要有信号帮你学习、informing 决策，无论是量化的，还是当然通过对用户说话获得的质的。我那里的建议就是尽早投资基础设施、工具，然后在某个规模上，也投资专人。它们对搭建增长团队是核心，会让数据最终基本上 inform 所有关键决策。(01:03:01) 所以 Snyk 有趣的一点是，我们不存在数据不够的问题。事实上，数据多到泛滥。我们什么都收集。而我很早就发现的问题是：我们没有足够具体的行为数据，而且对我们收集什么数据、怎么收集，不够有意识，这导致数据难被信任，而那成了个大问题。(01:03:26) 所以我们投资了工具和方法，去构建事件追踪计划，现在我们还在 CI 流程里测试埋点代码对 schema 的符合度。所以我们对数据有绝对的信心。所以，达到“可信的行为数据”那一点，绝对关键。(01:03:43) 但我之所以说早投资，是因为要记住：积累到足够让你能学习、并围绕留存做关键决策的数据，也需要时间。同样，你要有足够数据去跑回归、去 inform 你的激活指标或互动状态的定义等等。所以你越早开始收集越好。所以，人、流程、策略、数据——你绝对需要所有这些来搭建并运行一个有效的增长团队。(01:04:14) 当你把所有这些都跑起来，它就像聚焦创造力的火箭燃料，但同时，要在 Snyk 这种速度下把所有成熟度都就位，基本不可能。你仍然得在搭建所有这些的同时把事做出来。你必须接受一路上你会犯一堆错。你必须百分之百对此舒服。而且你必须把那些错误当成改进的学习机会。(01:04:43) 还有一点有用……你问过 KPI 和团队负责什么。那是一个增长团队绝对需要创造影响的维度，也是他们主要被问责的方式。但我认为，有用的是把增长组织的效能，不只看成他们在实验和新产品体验上、在核心增长 KPI 上驱动的影响，也看成他们怎么赋能并提升组织其余部分。(01:05:10) 比如，我们整个产品驱动销售流程，是由一个演进中的模型驱动的——那个模型描述我们对用户、团队、账户、使用和采用模式与信号的理解，以及我们的 GTM 团队最好把精力放在哪、怎么放。增长团队的洞察常常有用到远超增长本身，但如果没分享给别人，人们不会知道某样东西对他们有用。所以增长团队做出的学习，即使是那些来自错误或失败的，我们也广泛且可见地社会化它们。(01:05:41) 我们希望每个研发团队都恰当地利用实验，去创造业务影响。所以我们这里做的一件事，是给行为分析和实验栈的采用铺一条“ paving road（铺好的路）”，指导团队上手，让任何人尽可能容易地开始收获平台的好处；构建了关于数据驱动开发、关于实验的内部教育项目；构建了帮做指标设计的内部工具等等。(01:06:08) 然后也构建了核心平台服务，对增长之外的人也有用。我们构建了驱动“情境化 onboarding”的服务，原本意图是这个，但现在同样的服务能在产品任何地方用来给情境化体验。我知道有点啰嗦，但希望里面有那么一两件有用的东西。",
+   "ts": "01:02:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, there's two things I wanted to quickly follow up and then we can talk about the product team. You said you socialize learnings and experiment results. Is there anything you could share there about tips to do that? You have a tool you do use that for? Is there someone posts stuff in Slack? Is it an email that goes out? How do you actually socialize learning such that say a salesperson can do something with it?",
+   "zh": "对，有两件事我想快速追问，然后我们聊产品团队。你说你把学习和实验结果社会化。那里有什么能分享的 tips 吗？你用一个工具来做这个？是有人在 Slack 里发东西？是一封发出去的邮件？你到底怎么把学习社会化，好让比如一个销售能用它做点什么？",
+   "ts": "01:06:29"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yes. So there's, first of all, there's a bunch of Slack channels like Synk runs on Slack basically. So there's a bunch of Slack channels. Even when we're planning experiments, those are kind of wide and in the open and we invite collaboration on those. But from a ceremony perspective, we try hard to institutionalize ways to generate and leverage learnings. It's something I feel pretty strongly about. So we have these team level impact and learnings reviews loosely modeled from a blog years back down, I don't know... Six years I want to say that Brian Balfour wrote about a similar ceremony from these HubSpot days. (01:07:26): And if I had to pick one meeting that as the most important in the growth team, it would be this. The teams continuously document any learnings from data exploration, from experimentation, from user research and so on. They document that in their weekly impact and learnings document. (01:07:43): Some teams find it better to pair up and advanced into dedicated learning sessions to deep dive on specific relevant topics. But however it comes together, it's all put into that document. (01:07:53): When it comes to the meeting itself, it's usually run by the pm. Most of it is spent discussing learnings that have been documented, their implications, how they can be leveraged in follow up work, where they might have relevance to other teams and so on. For relatively smaller part of the meeting is also spent looking at key metrics. Some teams have actually split that out entirely into a separate meeting. And then no time at all is spent reviewing what the team have actually been doing. It's more on kind of the outcomes and the learning. So that's at the team level. (01:08:21): But then we run that same meeting at the group level on a monthly basis. So that's run by the product engineering or marketing director for the growth group. And that's where all of the growth teams come together. They share some key learnings, can't share everything. Of course, what they're doing is picking specific learnings that have potential relevance in utility across the other teams. So also as a standing agenda item for our user research team to share what we call developer insights. That's one of my personal favorite meetings to attend. It's always recorded and socialize with the rest of the company afterwards. And yeah, I'd say that's really important, but there's a bunch of different ways in which we're filing out that information constantly.",
+   "zh": "有。首先，有一堆 Slack 频道——Snyk 基本跑在 Slack 上。所以有各种 Slack 频道。甚至我们在规划实验时，那些也是宽开的、公开的，我们邀请协作。但从仪式角度，我们很努力地把“产生并利用学习”的方式制度化。这点我挺强烈的。我们有这些团队级的“影响和学习的复盘”，松散地借鉴了好些年前——我想说是六年前——Brian Balfour 写的一篇关于 HubSpot 年代类似仪式的博客。(01:07:26) 如果要我挑增长团队里最重要的一个会议，就是它。团队持续记录来自数据探索、实验、用户研究等等的学习。他们把那记录在每周的“影响和学习”文档里。(01:07:43) 有些团队觉得两两配对、进阶到专门的学习会、就具体相关主题深潜更好。但无论怎么组合，都放进那个文档。(01:07:53) 说到会议本身，通常由 PM 主持。大部分时间花在讨论已记录的学习、它们的含义、怎么在后续工作里被利用、它们可能在哪对别的团队有相关性等等。会议相对较小的一部分也花在看关键指标上。有些团队其实把那完全拆成了另一个会议。而完全不花时间复盘团队实际在做什么。更多是结果和学习。所以那是团队级。(01:08:21) 然后我们在组级也跑同一个会议，每月一次。那由增长组的产品、工程或市场总监主持。所有增长团队聚到一起。他们分享一些关键学习，不可能什么都分享。当然，他们做的是挑那些对其他团队有潜在相关性和用处的特定学习。所以也作为我们用户研究团队的固定议程项，来分享我们叫“开发者洞察”的东西。那是我个人最爱参加的会议之一。它总是被录下来，事后在公司其余部分社会化。对，我觉得那真的很重要，但我们有各种各样的方式在持续地“填出”那些信息。",
+   "ts": "01:06:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So cool. And this is a meeting that anyone can come to like a sales person comes to. PART 3 OF 4 ENDS [01:09:04]",
+   "zh": "太酷了。这是个谁都能来的会议，比如一个销售也会来。[01:09:04] 第 3 段 / 共 4 段 结束",
+   "ts": "01:08:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And this is a meeting that anyone can come to like a sales person comes to see what interesting stuff the product team has learned recently from experiments. How cool. Would you be able to share a template of that document that you put together that we could include in the show notes?",
+   "zh": "这是个谁都能来的会议，比如一个销售会来，看看产品团队最近从实验里学到了什么有趣的东西。多酷。你能分享一份你们整理的那份文档的模板、好让我们放进 show notes 吗？",
+   "ts": "01:09:03"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yeah, for sure.",
+   "zh": "当然，可以。",
+   "ts": "01:09:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sweet. And then the meeting, you said it's run by basically like some of the product functions and ideas to share things they've learned in recent experiments, say in the past month.",
+   "zh": "好。那会议，你说基本是由一些产品职能主持，大家分享他们最近实验里学到的东西，比如过去一个月。",
+   "ts": "01:09:14"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "So typically the team level ceremony, it's PM-led. That's from more from a facilitation perspective. The learnings are all brought forward by the various folks in the team and each one of them who's contributed to learning will talk about that learning with the group and facilitate the discussion from there. And then at the group level, those are read by the directors for the growth group and each team it might be an engineering lead, it might be a tech lead, it might be a designer, it might be the product manager. We'll talk about some key learnings from that month.",
+   "zh": "通常团队级的仪式是 PM 主导的，更多是 facilitation 视角。学习全由团队里各个人带来，每个贡献了学习的人会和小组成员讲那个学习，并从那 facilitation 讨论。然后在组级，那些由增长组的总监们读，每个团队可能是工程负责人、技术负责人、设计师或产品经理。我们会讲那个月的一些关键学习。",
+   "ts": "01:09:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Makes sense. If there's nothing PMs are good at, it's facilitating meetings. So that makes sense. Okay. And so that's a good segue to just chatting a bit about the product org. I'm curious just like how you structure the product team and then how that works with the growth team.",
+   "zh": "有道理。如果 PM 有什么擅长的，那就是主持会议。所以说得通。好。那很好地引到了聊聊产品组织。我好奇你怎么搭产品团队，然后它怎么和增长团队协作。",
+   "ts": "01:09:56"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "That's good. So the product org, what do you want to know?",
+   "zh": "好。产品组织，你想知道什么？",
+   "ts": "01:10:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Broadly, how do you structure it? Just like how many teams do you have? Do you align it across by outcome or is it by surface area of a product? And then is the growth team like adjacent to this product org? Is it like a unit within the product org or is it integrated? But I don't think it is. So what does that look like org chart wise?",
+   "zh": "广义上，你怎么搭结构？比如你有几个团队？你是按结果对齐，还是按产品的某个面（surface area）？然后增长团队是和产品组织相邻吗？是产品组织里的一个单元，还是集成的？但我觉得不是。那在组织图上长什么样？",
+   "ts": "01:10:13"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I think we've got a fairly common pattern for how we structure our product and wider R&D org. So most of the org functional ownership-based, there are a lot of really complex domains in the core product. So having that localized knowledge is important to be able to own and run the code that teams ship. The growth teams, on the other hand, are structured by outcomes. We talked about that already. Owning areas like acquisition, activation, engagement, monetization. These outcomes and team remits change over time as we talked about. But the teams here are often working on areas of the product where they don't own the code, which I think is the key difference between how we structure our growth teams and product teams with some exceptions. One of the growth teams actually own the onboarding flows and so on. So that does require a lot of trust. (01:11:25): It requires very transparent communication mechanisms built into how we work. One of the meetings that we have regularly is experiment plan reviews. They're ad hoc meetings. They're led by the experiment lead, could be the PM, could be anyone else in the team. But the important thing is a bunch of people will be invited there, especially stakeholders from other teams where we might be experimenting on their surfaces and that won't be the first time they've learned about this. We'd like to try and actually include them in co-designing the experiment plan so they're fully on board with it. But absolutely kind of inviting them into those experiment and views really key. If we're going to run an experiment on that surface, we need to make sure that everything in that experiment plan is watertight, especially from a scheduling perspective because the last thing we want is a week and a half into an experiment for some change to happen within that surface from the product team unaware that an experiment's happening and completely invalidate the experiment.",
+   "zh": "我觉得我们产品和更广研发组织的结构，是个相当常见的模式。所以组织大部分是基于职能所有权的，核心产品里有很多真的很复杂的领域。所以拥有局域化知识，对拥有并运行团队发布的代码很重要。另一方面，增长团队是按结果组织的。我们聊过那个。拥有像获取、激活、互动、变现这样的领域。这些结果和团队职责随时间变化，就像我们聊的。但这里的团队常常在做他们不拥有代码的产品的某些区域——我觉得这是我们的增长团队和产品团队结构的关键区别，有少数例外。其中一个增长团队其实拥有 onboarding 流程等等。所以那确实需要很多信任。(01:11:25) 它需要在我们工作的方式里内建非常透明的沟通机制。我们有一个定期的会议叫“实验计划评审”。它们是临时的会议。由实验负责人主持，可能是 PM，也可能是团队里别的任何人。但重要的是会邀请一堆人，尤其是那些我们可能在他们地盘上做实验的其他团队的干系人——而且那不会是他们第一次知道这事。我们其实想把他们拉进来一起共同设计实验计划，好让他们完全 onboard。但绝对把他们邀请进那些实验和评审真的很关键。如果我们要在那个地盘上跑一个实验，我们需要确保实验计划里一切都是滴水不漏的，尤其是从排期角度，因为我们最不想要的就是：实验跑了一周半，那个地盘上发生了某个变化，产品团队不知道有实验在进行，直接把实验完全 invalidated 了。",
+   "ts": "01:10:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. And then in terms of just org wise, do you have a lieutenant that is responsible for just say the product team and then someone responsible for the growth team or the directors report up to you and you have a bunch of reports? How's that structure?",
+   "zh": "酷。然后组织上，你有没有一个副手负责产品团队、再有人负责增长团队，还是总监们汇报给你、你有一堆直接下属？那结构是怎么样的？",
+   "ts": "01:12:26"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Oh, so our CPO on the exec team [inaudible 01:12:43], he runs the entire product organization. He has four, I want to say VPs, that own different areas. So there's a couple of VPs that own different areas of the product. So first of all, our application security products. Secondly, our cloud security products. Third is platform. And fourth is what we call developer journeys, which is the area I own, which has a few groups within there, one of which being the growth group.",
+   "zh": "哦，我们 exec 团队里的 CPO[听不清 01:12:43] 他管整个产品组织。他有四个，我想说是 VP，拥有不同领域。所以有几个 VP 拥有产品的不同领域。第一，我们的应用安全产品。第二，我们的云安全产品。第三是平台。第四是我们叫“开发者旅程”的，那是我拥有的领域，里面有好几个组，其中一个就是增长组。",
+   "ts": "01:12:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Okay. Makes sense. Okay. There's just a couple more questions I want to ask that are very tactical specific before we get to a very exciting lightning round to close this out. One is with a freemium product, there's always this question of what to put into free and what to put into the paid plan. Is there anything you've learned about how to think about that? What should be in free and what should be behind a paywall?",
+   "zh": "明白了。好。有道理。好。在进很刺激的快问快答收尾之前，还有几个非常战术、具体的问题我想问。一个是，免费增值产品总有个问题：什么放进免费、什么放进付费套餐。你有没有学到关于怎么思考这个的什么？什么该免费、什么该在付费墙后？",
+   "ts": "01:13:13"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Was it on your show with Elena that she talked about things that promote your growth model being good to land in free and things that add friction? So I really like that guidance. I'll add that for many businesses there might be some cost of service element to consider as well. Providing a feature to free users is cost prohibitive due to the volume, then that's obviously something you're going to want to reserve for paid. Ultimately, that was the whole reason cited behind Heroku, recently removing their free plain entirely. I think your plans from free to the top, they should have well defined understanding of the target customer, the use cases they should map out or you should map out the motivations for motion between each. You're really clear about what are the drivers for someone to take a step from one plan to the next. For Snyk, the real drivers to move from free to a paid plan, for example, is when you want to secure business critical code and you start having needs around governance and compliance. (01:14:39): I think the other interesting dimension is of how you approach trials. Like with most things. I think we're still figuring that out at Snyk. I don't know that there's ever a perfect answer or even a correct answer here. Certainly different from product to product. We have a self-serve trial to support time box evaluation of some of the capabilities that are reserved for our paid plans. But we're intentional in revisiting the model periodically. It's important I think to regularly challenge yourselves to ensure you don't fall into the trap of simply assuming what was best fit in the past is best fit now and in the future. What if the trial duration was limited by some dimension of usage instead of time? Or what if we didn't have a trial at all but put more into the free plan with appropriate limits? How might making those changes impact our growth model? (01:15:27): It's not always easy to answer those questions, but I think there are some ways that you could can help test there for example. You might cohort trial users and teams who have low engagement and don't convert during the trial and then when the trial ends, drop them back into a new enhanced freak plan and monitor engagement there. So there're some things you do, but I think that habit of continuously challenging yourselves and reevaluating whether the model, the specific delineations between the plans and how you support evaluation and the motion between those plans, I think it's really important to do that. And also when it comes to PLG and sales, we talked about the self-serve motion. Obviously, it's big and important for Snyk, but the sales led motion critically large as well and significantly impactful. You need to think about the plan design and those motions across both aspects of PLG and the sales led motion. When you have a strong PLG foundation that is inclusive of a product-led sales motion, you're going to be in a really powerful position from the perspective of having a significant volume of highly qualified leads that are coming from the product. We actually track a metric that we call product-driven revenue, which basically accounts for all revenue in customers where we saw meaningful value-based activity in the product before there was any sales contact. And that really tells actually a super interesting story about the PLG efficiency of your company across all revenue channels, self-serve and sales-led. And what's fascinating there is that the product-driven cohort contribute a relatively greater amount to net retention. So when you think about packaging, you know really need to think about and understand that macro level contribution of the freemium motion and know what you're trying to optimize for balancing revenue today versus potential future revenue.",
+   "zh": "是不是在你和 Elena 那期，她聊了“促进你增长模型的东西适合放在免费、增加摩擦的东西……”所以我很喜欢那个指引。我补充一点：对很多企业，可能还要考虑服务成本这个维度。如果一个功能因为量大、提供给免费用户成本高到不划算，那显然是你想要留给付费的。说到底，那就是 Heroku 最近完全移除免费层背后的全部原因。我觉得你的套餐从免费到顶级，它们应该对你目标客户、用例有清晰的定义，或者你该规划出每个之间的动机。你对“一个人为什么从一层套餐走到下一层”非常清楚。对 Snyk，从免费走到付费套餐的真正驱动力，比如，是当你想保护业务关键代码、并开始有治理和合规方面的需求时。(01:14:39) 我觉得另一个有趣的维度，是你怎么 approach 试用。像大多数事一样。我觉得我们在 Snyk 还在摸索。我不知道这里有没有完美的、甚至正确的答案。肯定因产品而异。我们有一个自助试用，来支持对留给付费套餐的一些能力做限时评估。但我们刻意定期重访那个模型。我觉得定期挑战自己很重要，确保你不会掉进“想当然认为过去最 fit 的现在和未来也最 fit”的陷阱。如果试用时长不是被时间、而是被使用的某个维度限制呢？或者如果我们根本没有试用、而是把更多放进免费套餐、加上恰当的限制呢？做那些改变会怎么影响我们的增长模型？(01:15:27) 那些问题不总是好回答，但我觉得有些方式能帮你测试，比如。你可以把试用里低互动、没转化的用户和团队做成队列，等试用结束，把他们掉回一个新的增强免费套餐，并监测那里的互动。所以有你能做的事，但我认为持续挑战自己、重估那个模型、套餐之间的具体划分、以及你怎么支持评估和套餐之间的打法的习惯，真的很重要。而且在 PLG 和销售上，我们聊了自助打法。显然，它对 Snyk 又大又重要，但销售驱动的打法同样关键地大、且影响显著。你需要从 PLG 和销售驱动这两个方面去思考套餐设计和那些打法。当你有强的 PLG 基础、且包含产品驱动销售打法时，你会在“拥有大量来自产品的高度合格线索”这点上处于真正有力的位置。我们其实追踪一个叫“产品驱动收入”的指标，它基本囊括了所有这样的客户收入：在有任何销售接触之前，我们在产品里看到了有意义、基于价值的活动。而那真的讲了一个关于你公司跨所有收入渠道（自助和销售驱动）的 PLG 效率的、超级有趣的故事。那里迷人的是：产品驱动的队列对净留存贡献相对更大。所以当你想打包时，你真的需要思考并理解免费增值打法在宏观层面的贡献，并知道你在优化什么——平衡今天收入和潜在未来收入。",
+   "ts": "01:13:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is that increase in net revenue retention from product-led leads mostly because they start at a cheaper price, do you think? Or is it more that they just end up being better customers?",
+   "zh": "那个净收入留存的提升，主要来自产品驱动的线索起价更便宜，你觉得？还是更多因为他们最终成了更好的客户？",
+   "ts": "01:17:28"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "It's a great question. I'm not sure I have a good answer for that.",
+   "zh": "好问题。我不确定我有个好答案。",
+   "ts": "01:17:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No problem.",
+   "zh": "没事。",
+   "ts": "01:17:45"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I'm still trying to figure that out.",
+   "zh": "我还在搞清楚那个。",
+   "ts": "01:17:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's a good prompt to have people adding more customers in seats. You talked about the importance to figure out the trial length and what to put in the trial and free and things like that. Is there anything that just has surprised you? Something you've learned from iterating on that comes to mind?",
+   "zh": "这是个好引子，让人去加更多席位的客户。你聊了搞清楚试用时长和往试用、免费里放什么的重要性。有没有什么让你惊讶的？从迭代那个里学到什么，想得起来的？",
+   "ts": "01:17:48"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I wouldn't say surprised me per se, but it's something that I think it's perhaps obvious in retrospect and that is that companies of different sizes, of different complexities of different industries from those that are very highly regulated to the other end of the spectrum, they're going to take different lengths of time to need to evaluate properly. So being able to cater for those in some way, whether it might be dynamic trial lengths or whether it be trial lengths that are based on usage or things like that, I think it becomes really important. That's something to be thinking about for sure.",
+   "zh": "我不会说特别让我惊讶，但有件事我觉得回过头看挺显然的：不同规模、不同复杂度、不同行业——从高度监管到光谱另一端——的公司，需要不同长度的时间来恰当评估。所以能以某种方式照顾到那些，无论是动态试用时长、还是基于使用量的试用时长，我认为变得真的很重要。那肯定是值得思考的。",
+   "ts": "01:18:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. That's a great learning. I know Elena talks a lot about how trials often, screw you because you don't give people enough time to really evaluate it a company, so that makes sense. Last tactical question that I wanted to touch on is around activation milestones. I'm doing a survey right now with Yuri that I think will come out before this episode airs. But anyway, in real time, I'm curious how you think about setting what the activation milestone is for a new Snyk user. So maybe just share briefly how you think about what is an activation milestone? Why is that important? And then how you define that for Snyk? What is the milestone of a user is activated for your product?",
+   "zh": "太棒了。那是个很好的学习。我知道 Elena 经常聊试用常常怎么坑你，因为你没给人们足够时间真正在公司里评估它，所以说得通。我想碰的最后一个战术问题，是关于激活里程碑。我和 Yuri 正在做一个调查，应该会在这期播出前出来。但不管怎样，实时地，我好奇你怎么思考给一个新 Snyk 用户设定“激活里程碑”是什么。所以大概简要分享你怎么想“什么是激活里程碑”、为什么重要、然后你怎么为 Snyk 定义它？对一个用户来说，被激活的里程碑是什么？",
+   "ts": "01:18:47"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "First of all, what is activation? So for us, activation is indicative of the team forming a habit around the usage of Snyk. And when I say the usage, I actually mean deriving core value, which is ultimately fixing vulnerabilities. It's not just logging in. It's not even just finding vulnerabilities, it's fixing vulnerabilities. So building a habit around that. And the reason I say team instead of using them is, and we actually base most of our definitions of activation engagement around teams. It's really important because ultimately security is a team sport. That team might be one person, which case a user is equivalent to team, but often a team is multiple people and we actually expect different people to fulfill different parts of the team activation journey. (01:20:17): We also want to enumerate aggregate level activity around fix that sometimes happens off-platform where we can't explicitly measure it at the user level. So in the activation process, we have set up moments, aha moments and habit moments and our habit moments that we define as a team being activated, it's related to fixing vulnerabilities within 30 days of team creation. And the reason that is chosen, it's because there is a significant correlation with downstream. And in that case with activation three month retention and retention again based on, again, not just coming back and logging in but still fixing. So teams, that fix of vulnerability within their first 30 days are much more likely to still be fixing three months later.",
+   "zh": "首先，什么是激活？对我们来说，激活标志着一个团队围绕 Snyk 的使用形成了习惯。而我说“使用”，其实指的是获得核心价值，最终是修复漏洞。不只是登录。甚至不只是发现漏洞，是修复漏洞。所以围绕那个建立习惯。而我说“团队”而不是“用户”的原因是——我们其实把大多数激活、互动的定义都基于团队。这很重要，因为安全说到底是团队运动。那个团队可能是一个人，那样用户就等同于团队，但常常一个团队是多个人，而且我们其实期待不同的人去完成团队激活旅程的不同部分。(01:20:17) 我们也想枚举在修复上、有时发生在平台外、我们无法在用户级显式测量的聚合级活动。所以在激活过程里，我们设置了“设定时刻”“顿悟时刻”和“习惯时刻”，而我们把“习惯时刻”定义为团队被激活——它和“在团队创建后 30 天内修复漏洞”相关。选这个的原因，是它和下游有显著相关性。那是说，和“激活后三个月留存”相关，而那个留存同样基于——不只是回来登录，而是仍在修复。所以那些在头 30 天里修复了漏洞的团队，更可能在三个月后仍在修复。",
+   "ts": "01:19:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's really interesting. I love that. How did you come up with that number? Was there a decision scientist that looked at some inflection of at 30 days, and it's probably not exactly 30 in real life, but it's like a nice round number that's close enough, right?",
+   "zh": "那真的有意思。我喜欢。你是怎么想出那个数字的？是有个决策科学家看了某个 30 天的拐点？而且现实里它可能不正好 30，但这是个够接近的漂亮整数，对吧？",
+   "ts": "01:21:09"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Yep, that's it. So there absolutely was a decision scientist in involved thankfully. We had to collect a lot of baseline data first. So after we built out the data platform, we needed actually to wait for bit to build a good data set. We did a huge amount of quantum analysis, a lot of splunking of the data, applying ML models along with a bunch of supporting call research as well. But we started really with identifying the corpus personas and they used cases, different roles of different users within the team based activation journey, defining our retention metric, which is still fixing. It's whether a team is fixed. Along with natural usage behavior and expected natural usage frequency. And then we found the habit moment that ultimately most strongly correlated with improved long-term retention. And most of the numbers side of things came out of our ML ops platform. (01:22:19): But after that, we then worked back to figure out that's the habit moment. That's what we see as activation, but there's a set of steps that teams need to get there. So what's the aha moment before that? What's the setup moment and what are the individual steps that the team needs to go through to reach that set up moment? So that's the overall process and ultimately it's a really strong model that allows us then to feed in the set of user level behaviors that we know can influence those different steps on that path to activation.",
+   "zh": "对，就是这样。所以幸好绝对有个决策科学家参与了。我们得先收集大量基线数据。所以建好数据平台后，我们其实得等一阵积累出好数据集。我们做了海量定量分析、大量对数据的 splunking、应用 ML 模型，再加一堆支持性的通话研究。但我们真的从识别语料人物画像、用例、团队里不同用户的不同角色、基于团队的激活旅程起步，定义我们的留存指标——仍是修复，是一个团队有没有在修复。连同自然使用行为和预期的自然使用频率。然后我们找到了最终和长期留存改善最强相关的“习惯时刻”。而数字那侧大多出自我们的 ML ops 平台。(01:22:19) 但在那之后，我们倒推：那是习惯时刻，那是我们视为激活的东西，但团队要到达那，需要有一组步骤。那之前的顿悟时刻是什么？设定时刻是什么？团队要经历哪些单独步骤才能到达那个设定时刻？所以那是整体过程，最终是个很强的模型，让我们能喂入那些用户级行为——我们知道它们能影响通往激活的路上那些不同步骤。",
+   "ts": "01:21:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. I'm excited to get this post out and that's a really good anecdote of how a company comes up with it and what they set. I also just thought of another question I may start asking everybody. I know I keep saying we're going to wrap this up, but here's a question and if it doesn't work, we'll get rid of it. You mentioned a bunch of tools that you use and I'm curious, if you had to think of what are the five most important/valuable SaaS products to your organization other than the obvious ones like Salesforce? What comes to mind?",
+   "zh": "太棒了。我很期待把那篇 post 发出来，那真是个公司怎么想出来、又设了什么的绝佳轶事。我也刚想到另一个我可能开始问每个人的问题。我知道我老说要收尾了，但这里有个问题，如果不 work 我们就去掉。你提到一堆你们用的工具，我好奇，如果你要想到对你们组织最重要/最有价值的五个 SaaS 产品（除了 Salesforce 这种显然的），你会想到什么？",
+   "ts": "01:22:50"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "When you say organization, do you mean Snyk at large or do you mean the growth?",
+   "zh": "你说组织，是指 Snyk 整体，还是增长？",
+   "ts": "01:23:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's say, let's start with growth and see where it goes.",
+   "zh": "我们说，先从增长开始，看情况。",
+   "ts": "01:23:25"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Okay. So I'm going to say Amplitude, first of all. Segment as a means to be able to get our data from the products to Amplitude and to everywhere else that cares about it. Whether that be a downstream BI system, Snowflake can looker on top of that, or system marketing automation systems like Marketo and stuff like that. So I'd say Amplitude. I will next say full story, which is absolutely fantastic for session replays of course. And it bridges that gap between [inaudible 01:24:11]. I would say userinterviews.com, which is comparable to usertesting.com, both of them amazing services in terms of getting fast curated access to individuals to participate in user research. Sprig is another one. So Sprig is a fantastic in-app survey platform, which is what we primarily use it for, but it also does a bunch of other cool stuff in terms of being able to test UX designs as well in-app. How many have I said?",
+   "zh": "好。所以我先说 Amplitude。Segment，作为能把我们的数据从产品送到 Amplitude、以及任何别的在乎它的地方的手段。无论是下游 BI 系统、上面叠 Snowflake 和 Looker，还是像 Marketo 那样的市场自动化系统。所以我说 Amplitude。接下来我说 FullStory，对 session 回放当然绝对棒。它弥合了[听不清 01:24:11]之间的鸿沟。我会说 userinterviews.com，相当于 usertesting.com，两个都是超棒的服务，能快速、精选地接触到个人来参与用户研究。Sprig 是另一个。Sprig 是个超棒的 app 内调查平台，我们主要用它做这个，但它也做一堆别的酷事，比如能在 app 内测试 UX 设计。我说了几个了？",
+   "ts": "01:23:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think four. If there's anything else, you could add a fifth. If not, we can move on. That's awesome. This is a really interesting list.",
+   "zh": "我数四个。如果还有别的，你可以加第五个。没有就继续。那太棒了。这列表真有意思。",
+   "ts": "01:24:49"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I'll stick it at four.",
+   "zh": "我就停在四个。",
+   "ts": "01:24:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Is there anything for in the wider product team that also comes to mind that you guys find useful?",
+   "zh": "好。更广的产品团队里，还有什么你觉得有用的？",
+   "ts": "01:24:56"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Airtable. In fact, Airtable for growth and product, just so flexible. It's just you can do anything. And in fact, if we think about growth, I should have mentioned that first because that's where we keep most of our experiment plans and knowledge base and our user research base.",
+   "zh": "Airtable。事实上，对增长和产品，Airtable 都，就是那么灵活。你啥都能做。而事实上，说到增长，我本该先提它，因为那是我们放大多数实验计划、知识库和用户研究库的地方。",
+   "ts": "01:25:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I like this question. I'm going to start asking it. This is great. Okay. That was a precursor tour, very exciting lightning round. I'm just going to ask you a bunch of rapid fire questions, just answer whatever comes to mind. We'll keep it short and quick. Question one, what are two or three books that you recommend most to other people?",
+   "zh": "好。我喜欢这问题。我要开始问了。这太棒了。好。那是个前奏，非常刺激的快问快答。我就问你一堆快问快答，想到啥答啥。保持简短快。问题一：你会最常推荐给别人的一两本书是什么？",
+   "ts": "01:25:18"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I have been dreading this question as there are too many. So I'm pick a couple that I've enjoyed reading in recent months. So for product and growth geeks like me, or in fact anyone with more than a passing interest in data, I'll recommend \"How to Measure Anything\" by Douglas Hubbard. Second up, you had Marty Cagan and he mentioned the book \"Sprint\" by Jake Knapp and John Zeratsky and I love that book, but personally their \"Make Time\" book. It was something that radically changed my relationship with information and I recommend that to all time staff, product people out there. And for number three, I'm going to say, \"This is How They Tell Me the World Ends\" by Nicole Perlroth, which gives an amazing view into the world of digital espionage.",
+   "zh": "我一直在怕这问题，因为太多了。所以我挑几本最近几个月读得开心的。对像我这样的产品和增长 geek、或者其实任何对数据不止随便感兴趣的人，我推荐 Douglas Hubbard 的《How to Measure Anything》。第二，你有过 Marty Cagan，他提了 Jake Knapp 和 John Zeratsky 的《Sprint》，我爱那本书，但个人更爱他们的《Make Time》。它彻底改变了我和信息的关系，我把它推荐给所有产品人。第三，我说 Nicole Perlroth 的《This is How They Tell Me the World Ends》，它给了数字间谍世界一个惊人的视角。",
+   "ts": "01:25:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, I read that book. Tim Ferris recommended that at one point. That is a wild ass book. Very beautiful. Cool. I love these recommendations. All right. Great choices. Favorite podcast other than the podcast you're currently on",
+   "zh": "哦，我读过那本。Tim Ferris 某时推荐过。那是本疯狂的书。非常精彩。酷。我爱这些推荐。好选择。除了你正在上的这档，最喜欢的播客？",
+   "ts": "01:26:22"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Maybe \"Acquired\" with Ben Gilbert and David Rosenthal. I just wish I had enough time to listen to them all.",
+   "zh": "也许是 Ben Gilbert 和 David Rosenthal 的《Acquired》。我只是希望我有足够时间听完全部。",
+   "ts": "01:26:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They're very long. I was just at an event where they interviewed someone live as a live podcast. That was very cool. Those guys were pros. What's a favorite recent movie or TV show?",
+   "zh": "它们很长。我刚在一个活动上看到他们 live 采访一个人，作为现场播客。那很酷。那俩是专业人士。最近最喜欢的电影或剧？",
+   "ts": "01:26:43"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "So a movie, \"Turning Red\" on Disney Plus, which we love watching with our kids. It was just fun. TV show, the most recent Curb Season had me in tears as usual.",
+   "zh": "电影，《Turning Red》（熊出没？迪士尼+上的），我们爱和孩子一起看。就是好玩。剧，最新的《Curb》季又让我像往常一样笑出泪。",
+   "ts": "01:26:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "They haven't had a new one in a while. So that's a little bit out there.",
+   "zh": "他们好一阵没出新的了。所以那有点冷门。",
+   "ts": "01:27:03"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "The new one's coming.",
+   "zh": "新的要来了。",
+   "ts": "01:27:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, it is? I don't love watching that show. My wife loves it. Cringe, painful. But watch it anyway.",
+   "zh": "哦，是吗？我不爱看那剧。我老婆爱。尴尬、痛苦。但还是看。",
+   "ts": "01:27:10"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "And my wife's actually the same. She can't watch it because she cringes too much.",
+   "zh": "我老婆其实一样。她看不了，因为她太尴尬了。",
+   "ts": "01:27:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We're reverse.",
+   "zh": "我们反的。",
+   "ts": "01:27:23"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "I love the awkwardness.",
+   "zh": "我爱那种尴尬。",
+   "ts": "01:27:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh man. It's good for a product leader to have that enjoyment. Favorite interview question that you'd like to ask candidates?",
+   "zh": "哦天。对产品负责人来说，有那种享受挺好。你最喜欢、想问候选人的面试题？",
+   "ts": "01:27:25"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Give a couple here if it's not cheating too much. First is one I like to ask when hiring for anyone actually really it's fast forward three years. What's different about you then? A lot of people will default to telling you where they aspire to be in terms of role or title, but what I'm really looking for is signals of humility, of self-awareness around areas of personal and professional growth. So people who can be open about where they think they need to work on to grow themselves as people. I love that. Also, so there's just generally throughout interviews, I'm looking for curiosity. So day-to-day good PMs will be asking why as much as my six year old son does, which is a lot. So I'll try and discern that through the course of the conversation. It's not really a question, but something I'm looking for. (01:28:27): And then maybe I want to flip it because building on something that Adam Fishman was saying, his theme of evaluating the people dimension of folks you are potentially going to work with when you're interviewing with a company. And this was a question I got asked myself recently by a candidate, which I just thought would brilliant, and that was, \"Tell me about the diversity, equity, inclusion, and belonging initiatives that you've recently personally been involved with?\" And it just felt like a really great way for them to be able to test alignment of their personal values with those of someone they'd be working with really closely. So I love that.",
+   "zh": "如果不算太作弊，我给两个。第一个是我喜欢在招聘任何人时问的：快进三年。那时的你有什么不同？很多人默认告诉你他们渴望的角色或头衔在哪，但我真正找的，是谦逊、对自身个人和职业成长领域有自我觉察的信号。所以能开放谈他们认为需要努力成长的人，我爱。还有，整个面试里我一般都在找好奇心。所以日常里好 PM 会像我六岁儿子那样频繁地问“为什么”——那可频繁了。所以我会在对话过程里试图分辨那个。那不算真问题，但我在找的东西。(01:28:27) 然后也许我想翻转它，基于 Adam Fishman 说的：他在面试一家公司时评估你潜在要共事之人的“人的维度”的主题。而这是我最近被一个候选人问到的、觉得超棒的问题：“跟我说说你最近亲自参与过的多元、公平、包容和归属感（DEIB）举措？”它就像个很好的方式，让他们能测试自己的个人价值观和那些会紧密共事之人的价值观是否对齐。所以我喜欢。",
+   "ts": "01:27:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. By the way, I love how many callbacks to other episodes you're making. You're definitely a power adopter of the podcast and I really appreciate that.",
+   "zh": "太棒了。顺便说，我爱你做了多少对其他期的呼应。你绝对是这播客的 power adopter，我真的很感激。",
+   "ts": "01:29:01"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Okay, there we go.",
+   "zh": "好，说完了。",
+   "ts": "01:29:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Last question. Who else in the industry do you most respect as a thought leader, as a leader in general?",
+   "zh": "最后一个问题。行业里你最尊重的、作为思想领袖、作为广义领导者的人是谁？",
+   "ts": "01:29:11"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "So maybe I'll cheat on this one a bit too, and I'm not going to combine it to the, when you say industry, I think security industry, but I'm going to look at the product domain and specifically product operations. And in my mind, there's not many people who know more in this area than Christine [inaudible 01:29:34]. So if you ever get chance to talk with her, I know that would be a fun conversation. Many gems would be dropped, I think.",
+   "zh": "这题我也稍微作弊下，而且我不把它局限在你说的“行业”——我说安全行业，但我要看产品领域，具体是产品运营。在我心里，这方面懂的比谁都多的人不多于 Christine[听不清 01:29:34]。所以如果你有机会和她聊，我知道那会是个有趣的对话。会掉很多 gems，我想。",
+   "ts": "01:29:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. I will get her on this podcast. That is my new goal. I had not heard of her and that's awesome. Thank you for the suggestion. Ben, this has been awesome. So many nuggets and stories and insights. I so appreciate you being here. Two last questions. Where can folks find you online if they want to reach out or learn more or maybe come work at Snyk? And then how can listeners be useful to you?",
+   "zh": "哇。我会把她弄上这播客。那是我的新目标。我没听过她，那太棒了。谢谢建议。Ben，这太棒了。这么多金句、故事和洞见。我真的很感激你在这。最后两个问题。人们想联系你、了解更多、或者也许来 Snyk 工作，能在哪找到你在线？然后听众怎么帮到你？",
+   "ts": "01:29:40"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Firstly, I'm of course want to say a big thanks for having me on, Lenny. I love talking about all this stuff and really appreciate you being willing to let me bend your ear a little bit. As to finding me, I'm a bit of a Twit when it comes to Twitter. I generally spend a bit more time over at LinkedIn, but you can find me on both of those platforms @SemanticBen. And in terms of how people can be useful to me, I'm starting to take on some additional clients in advisory capacity, so feel free to get in touch if you think I could help.",
+   "zh": "首先，我当然要大大感谢你请我来，Lenny。我爱聊所有这些，真的很感激你愿意让我磨磨你的耳朵。说到找我，我在 Twitter 上有点蠢（Twit）。我一般在 LinkedIn 上花的时间多些，但你两个平台都能以 @SemanticBen 找到我。至于人们怎么帮到我，我开始以顾问身份接一些额外客户，所以如果你觉得我能帮上忙，随时联系。",
+   "ts": "01:30:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I can't not ask about Symantec Ben and what the story is there and before we let you go.",
+   "zh": "我不能不问 Semantic Ben 和那背后的故事，在我们放你走之前。",
+   "ts": "01:30:36"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Sure. It's actually when I was at IBM, it was a focus that I had on linked data.",
+   "zh": "当然。其实那是我当年在 IBM 时，我对关联数据（linked data）的一个专注。",
+   "ts": "01:30:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Became Semantic Ben. All right. Awesome. All right. Ben, thank you so much for being here and thanks for listening.",
+   "zh": "就成了 Semantic Ben。好。棒。好。Ben，太感谢你在这，也谢谢收听。",
+   "ts": "01:30:48"
+  },
+  {
+   "speaker": "Ben Williams",
+   "en": "Thanks, Lenny. Take care.",
+   "zh": "谢谢，Lenny。保重。",
+   "ts": "01:30:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode. PART 4 OF 4 ENDS [01:31:22]",
+   "zh": "非常感谢收听。如果你觉得这有价值，你可以在 Apple Podcast、Spotify 或你喜欢的播客 app 订阅本节目。也请考虑给我们评分或留评论，那真的能帮其他听众找到这播客。你可以在 lennyspodcast.com 找到所有往期节目或了解更多关于本节目。下期见。[01:31:22] 第 4 段 / 共 4 段 结束",
+   "ts": "01:30:59"
+  }
+ ]
+}

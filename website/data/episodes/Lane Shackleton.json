@@ -1,0 +1,1025 @@
+{
+ "id": "Lane Shackleton",
+ "name": "Lane Shackleton",
+ "category": "职业成长",
+ "identity": "创始人/CEO",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Lane+Shackleton",
+ "bio": {
+  "en": "Lane Shackleton is the Chief Product Officer at Coda, where he has led product for over eight years, and previously was a Group Product Manager at YouTube.",
+  "zh": "莱恩·沙克尔顿（Lane Shackleton）是 Coda 的首席产品官，已在产品岗位深耕八年多，此前是 YouTube 的产品组经理。"
+ },
+ "summary": {
+  "en": "Lane argues you should actively seek \"oh shit\" moments - situations where you feel unqualified - because that's where real growth happens. He reframes the common \"are you growing?\" question into \"how many stretch moments have you had lately?\" The episode offers career advice on leaning into discomfort and building a foundation for the next level.",
+  "zh": "莱恩认为，你应当主动去寻找\"糟了\"时刻——那些让你觉得自己不够格的处境——因为真正的成长就在那里发生。他把常见的\"你在成长吗？\"这个问题，重构为\"最近你经历了多少次被拉伸的时刻？\"。本期提供了关于拥抱不适感、为下一阶段打下基础的职业建议。"
+ },
+ "turns": [
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Moments that stretch you or moments that you feel uncomfortable in or you find yourself saying, \"Oh shit. I shouldn't be here,\" or, \"I'm under qualified to be here,\" those are the moments you should be seeking out. Those are the moments that stretch you and give you a new foundation. So oftentimes you'll hear a career question like, \"Hey, do you feel like you're growing in your role?\" And that's a very ambiguous, in my opinion, way to ask this question. A much sharper way is like, \"Hey, how many, oh shit moments have you had in the last six months, year, two years, and what are they?\" I think if you ask yourself that question and the answer is, \"It's been a really long time since I've been stretched in some meaningful way or I've felt like I'm under qualified to be there,\" then it may be worth digging into.",
+   "zh": "那些能让你成长的时刻，那些让你感到不适的时刻，或者那些让你忍不住说出“天啊，我不该来这里”或者“我根本不够格来这里”的时刻——这些才是你应该主动寻找的时刻。它们能拓展你的能力边界，为你奠定新的发展基础。  \n\n所以你常会听到这样一个职业发展问题：“嘿，你觉得自己在现有职位上成长了吗？” 但在我看来，这种提问方式太模糊了。更尖锐一点的问法应该是：“嘿，过去六个月、一年、两年里，你经历过多少次‘天啊，我不该来这里’的时刻？它们都是些什么情况？” 我认为，如果你问自己这个问题，答案是“很久没有经历过真正意义上的挑战成长了，或者总觉得自己不够格胜任当前职位”，那么就值得深挖一下了。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast, where I interview world-class product leaders and growth experts to learn from their hard won experiences building and growing today's most successful products. Today my guest is Lane Shackleton. Lane is Chief Product Officer at Coda where he's held the role for over eight years. Before that, he was Group Product Manager at YouTube, a Product Specialist at Google, and as you'll hear, he started his career as an Alaskan mountain guide and then as a manual reviewer of Google AdWords ads. Lane is an incredibly deep thinker, very first principles oriented, and has built an incredible product team and culture at Coda. In part, he's done that by studying the principles and rituals of great product leaders and great product teams. In our conversation, Lane shares what he's learned, what he's found great PMs and great teams do differently. He shares a bunch of his favorite rituals and principles, how you can implement them on your own team, plus a really clever and unique way of understanding if you're making progress in your career, plus so much more. I could talk to Lane for hours, but we tried to keep this to under an hour and a half. With that, I bring you Lane Shackleton after a short word from our sponsors. (00:01:55): This episode is brought to you by Eppo. Eppo is a next generation AB testing platform built by Airbnb alums for modern growth teams. Companies like DraftKings, Zapier, ClickUp, Twitch and Cameo rely on Eppo to power their experiments. Wherever you work, running experiments is increasingly essential, but there are no commercial tools that integrate with a modern grow team stack. This leads to wasted time building internal tools or trying to run your own experiments through a clunky marketing tool. When I was at Airbnb, one of the things that I loved most about working there was our experimentation platform where I was able to slice and dice data by device types, country, user stage. Eppo does all that and more, delivering results quickly, avoiding annoying prolonged analytic cycles and helping you easily get to the root cause of any issue you discover. (00:02:41): Eppo lets you go beyond basic click through metrics and instead use your north star metrics like activation, retention, subscription and payments. Eppo supports tests on the front end, on the backend, email marketing, even machine learning claims. Check out Eppo at geteppo.com. That's geteppo.com and 10x your experiment velocity. (00:03:03): This episode is brought to you by Vanta, helping you streamline your security compliance to accelerate your growth. Thousands of fast-growing companies like Gusto, Calm, Quora and Modern Treasury trust Vanta to help build, scale, manage and demonstrate their security and compliance programs and get ready for audits in weeks, not months. By offering the most in-demand security and privacy frameworks such as SOC2, ISO 27,001, GDPR, HIPAA and many more, Vanta helps companies obtain the reports they need to accelerate growth, build efficient compliance processes, mitigate risks to their businesses, and build trust with external stakeholders. Over 5,000 fast-growing companies use Vanta to automate up to 90% of the work involved with SOC2 and these other frameworks. For a limited time Lenny's Podcast listeners get $1,000 off Vanta. Go to vanta.com/lenny. That's V-A-N-T-A.com/lenny to learn more and to claim your discounts. Get started today. (00:04:04): Lane, thank you so much for being here. Welcome to the podcast.",
+   "zh": "欢迎收听莱尼播客。在这里，我会采访全球顶尖的产品领袖和增长专家，从他们在打造和发展当今最成功产品的过程中积累的宝贵经验中汲取养分。今天的嘉宾是莱恩·沙克尔顿。他目前在Coda担任首席产品官一职，已任职逾八年。在此之前，他曾担任YouTube的集团产品经理，以及谷歌的产品专家。正如您将听到的，他的职业生涯始于阿拉斯加山地向导，随后成为谷歌AdWords广告的手动审核员。莱恩是一位极具洞察力的思想家，始终秉持最基本的原则思维。他在Coda成功组建了卓越的产品团队和文化，部分得益于对杰出产品领袖和团队的原理与实践的深入研究。在我们的对话中，莱恩分享了他的深刻见解，揭示了优秀产品经理和团队的独特差异。他还分享了许多自己最推崇的原则与实践，讲述了如何在自己的团队中落地实施，以及一种极其巧妙且独特的方法来判断职业生涯是否在进步等等。尽管我本可以与莱恩畅谈数小时，但我们尽量将对话控制在一个半小时以内。接下来，在我们的赞助商致辞后，就让我们迎来莱恩·沙克尔顿的精彩访谈。  \n\n（00:01:55）：本期节目由Eppo赞助。Eppo是由Airbnb前员工为现代增长团队打造的下一代AB测试平台。DraftKings、Zapier、ClickUp、Twitch和Cameo等公司都依赖Eppo来推动实验。无论您在何处工作，开展实验越来越重要，但市面上却没有与现代增长团队堆栈无缝集成的商业工具。这导致团队不得不耗费大量时间构建内部工具，或试图通过笨拙的营销工具来运行实验。在Airbnb工作期间，我最喜欢的一点就是我们的实验平台，我可以在其中按设备类型、国家、用户阶段等维度切割数据。Eppo不仅能做到这些，还能更快地提供结果，避免冗长的分析周期，并帮助您轻松找到问题的根源。  \n\n（00:02:41）：Eppo让您超越基本的点击率指标，转而使用激活、留存、订阅和支付等核心指标。Eppo支持前端、后端、邮件营销甚至机器学习领域的测试。访问geteppo.com即可了解更多信息。  \n\n（00:03:03）：本期节目由Vanta赞助，助力您简化安全合规流程以加速业务增长。Gusto、Calm、Quora和Modern Treasury等数千家快速成长的公司都信赖Vanta来帮助构建、扩展、管理和验证其安全与合规计划，并在数周而非数月内准备好审计。Vanta通过提供SOC2、ISO 27001、GDPR、HIPAA等最热门的安全与隐私框架，帮助企业获取加速增长所需的报告，建立高效的合规流程，降低业务风险，并与外部利益相关者建立信任。超过5,000家快速成长的公司使用Vanta将SOC2及其他框架相关工作自动化。限时优惠：莱尼播客听众可享受Vanta 1,000美元折扣。访问vanta.com/lenny了解详情并领取优惠。立即行动。  \n\n（00:04:04）：莱恩，非常感谢您的到来。欢迎来到播客。",
+   "ts": "00:00:51"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "So glad to be here. Thanks for having me.",
+   "zh": "很高兴能来这里。感谢邀请我。",
+   "ts": "00:04:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's absolutely my pleasure. I've always really admired the way that you write about product, the way you think about product, and it feels like Coda has one of the strongest and also the most thoughtful product teams out there. And so I am really excited to have you on here and learn from what you've learned over the years. My first question is completely unrelated. I have to ask. Your last name's Shackleton. Any relation to a certain very famous Antarctic explorer?",
+   "zh": "非常荣幸。我一直非常欣赏你写作产品时的方式，以及你对产品的思考方式。Coda的产品团队可以说是业内最强大、最具洞察力的团队之一。所以能邀请你来这里分享多年积累的经验，我感到无比兴奋。我的第一个问题可能有点跑题，但我必须问一下。你姓沙克尔顿。和那位著名的南极探险家有亲缘关系吗？",
+   "ts": "00:04:09"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. It's probably distant at best. I wish it was close. I wish I could claim it was my father or grandfather. But I definitely grew up with those stories and reading a lot about him as a kid. In high school we read Endurance, which is a great book if you haven't read it. It's an amazing story. Very inspiring how he put people first and brought back all of his men from this journey to the South Pole. So have taken a lot of lessons from that, but that's as close as I can come to the greatness of Ernest Shackleton.",
+   "zh": "是的。不过关系顶多算远亲。我倒希望能和他有血缘关系。要是能说是我父亲或祖父就好了。但我确实从小就听着他的故事长大，还读过很多关于他的书。高中时我们读了《南极探险》，这本书很棒，如果你没读过的话。他的故事令人惊叹。他始终把人放在首位，最终成功带领队员完成了南极之旅。从他身上我学到了很多东西，但我离埃尔南·沙克尔顿的伟大境界还差得远。",
+   "ts": "00:04:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So there's a connection. When I think of Shackleton, I also think of the ad that he ran for recruiting people to join his journey. Low chance of survival, incredibly hard, chance for glory if you succeed, something like that.",
+   "zh": "好的，看来你们之间还是有联系的。一想到沙克尔顿，我就会想到他为招募队员而发布的广告。生还几率极低，挑战极大，成功则意味着荣耀之类的标语。",
+   "ts": "00:05:09"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "It's a wonderful ad. I think I had a mug of that when I was a kid. Yeah.",
+   "zh": "那是个很棒的广告。我记得小时候还用过那个杯子。是啊。",
+   "ts": "00:05:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Okay. So on that same topic, I noticed maybe your first job was a mountain guide in Alaska. Was that inspired by this legacy? And also why did you decide not to pursue that and get into product management? Completely different life.",
+   "zh": "太棒了。好的，既然提到这个话题，我注意到你的第一份工作是阿拉斯加的登山向导。这是否受到了他的启发？还有你为什么决定不继续从事这份工作，而是转向产品管理？完全不同的生活。",
+   "ts": "00:05:28"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. Yeah. Very, very different. Very different time. Didn't have kids back then. I think I was convinced at the time I wanted a career outside. Just loved spending time in the mountains and climbing, things like that. To be honest, I wasn't the best guide. There were a lot of amazing guides out there that just had ... They were almost invincible in terms of their ability to climb for 20, 30 hours. But I learned a lot from the experience and maybe the quick story on why I stopped guiding. I was on what is a dream trip for mountain guides, which is we were flown to a remote portion of southeast Alaska. It's an hour long flight. Mountain called Mount Fairweather. Beautiful 15,000 foot peak. And as a part of climbing on glaciers one of the things that you do for context is you're roped to another person. And the reason that you do that is because if someone falls in a crevasse, you want to be able to stop them or pull them out. (00:06:48): So I was roped to a very nice client that I was guiding and he fell pretty close to the top on our way down. And luckily we were able to self-arrest and arrest that fall. But I spent probably the next six hours walking down that mountain thinking the same thing over and over again, which is I really don't want to die roped to someone that I barely know and don't trust or love. So that was the last season that I guided. But tons of great memories and learnings and I think it impacted my life in a pretty significant way.",
+   "zh": "是的。是的。完全不同。当时的时代也不同。当时我还没有孩子。我记得当时坚信自己想走出户外。只是喜欢在山里攀岩之类的活动。说实话，我当时不是个出色的向导。那里有很多优秀的向导，他们几乎无所畏惧，能连续攀爬20、30个小时。但我从那段经历中学到了很多。或许我可以快速讲讲为什么我不再做向导了。那是我作为登山向导最梦幻的一次经历——我们被空运到阿拉斯加东南部一个偏远地区，飞行时间一个小时。那里有一座叫费尔韦瑟山的山峰，海拔15000英尺，景色壮美。在攀登冰川时，为了安全，队员们通常会用绳子连接。原因是如果有人掉进裂缝，你得尽力阻止他们，或者把他们拉出来。（00:06:48）当时我正和一位客户用绳子连接，他在下山途中离山顶很近的地方掉下去了。幸运的是，我们成功用自制制动器阻止了他的坠落。但接下来的六个小时，我在下山的路上反复思考同一个问题：我真的不想和一个几乎不认识、既不信任也不喜欢的人用绳子连接着等死。所以那是我最后一个向导季。但那里有很多美好的回忆和收获，我觉得这段经历对我的生活影响深远。",
+   "ts": "00:05:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Damn. Software much lower stakes. I guess just while we're on this topic, is there any parallels or big lesson you learned from that experience that you bring to product?",
+   "zh": "天啊。软件开发的风险要小得多。我想既然我们已经谈到这个话题，你从那段经历中得到的任何启发或重要教训，是否能应用到产品开发中呢？",
+   "ts": "00:07:29"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "One is just preparation. I think when you go climbing or when you guide climbing, you spend months and months preparing for usually a few days of climbing. So there's that kind of preparation. There's also just a million checklists. So before you go on an expedition, you may check a checklist of all your equipment, stuff like that a dozen times or more. So you ensure redundancy across all your systems. So that was definitely a parallel. The other thing I think about a lot is just how to stay calm in challenging or scary scenarios. We had another instance where I had a client pull a big chunk of rock off and break their feet and I was the junior guide on that particular instance and the more senior guide looked at me, looked at the situation and was like, \"Okay, we're getting this guy out of here right now.\" Put him on his back and we basically took turns carrying him out for a couple miles I'll just never forget instances like that where the clarity of stay calm, assess the situation, prioritize, take action. There's a mini version of that when you're building software, I think. So experiences like that, I think, even though I only did it for a handful of summers, were pretty profound.",
+   "zh": "首先是充分准备。我觉得无论是攀岩还是担任向导，通常你需要花数月时间准备，却往往只需几天攀岩。所以这就是充分准备的意义。还有无数份检查清单。比如在探险前，你可能会反复检查所有装备清单十几次甚至更多次，以确保所有系统都具备冗余。这绝对是两个相似的方面。另外，我经常思考如何在挑战性或恐怖场景中保持冷静。我们曾遇到过这样的情况：有位客户被掉落的大石头砸伤脚。我当时是初级向导，资深向导看着我，审视了整个局面，然后说道：\"好，我们现在就把他带出去。\"把他背在背上，我们轮流抬着他走了好几英里。我永远忘不了那样的时刻——保持冷静、评估形势、分清轻重缓急、采取行动。这些能力在软件开发中也有小版本的体现。虽然我只做了几个夏天的向导，但这些经历确实意义深远。",
+   "ts": "00:07:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. What a very different life that life path would've been.",
+   "zh": "是啊。如果走上那条人生道路，生活会截然不同。",
+   "ts": "00:09:06"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Pre kids. Yeah.",
+   "zh": "那是在有孩子之前了。是的。",
+   "ts": "00:09:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, man. So you mentioned your writing, you mentioned that this is something you want to write about. Shifting to the core topic of our chat, it's very clear that you spent a lot of time studying how great product managers operate and how great product teams operate. You've been doing a bunch of writing on the principles of great product management and also the rituals of great teams. And so I want to spend a bunch of time trying to extract as much as I can from your learning so that listeners can learn. Essentially what are principles of great product managers, what are rituals of great teams and generally how do the best teams operate? And my first question is just why is this something that you started doing? What pulled you into spending so much time and effort trying to understand how the best teams and people operate?",
+   "zh": "天哪。所以你提到了写作，你说这是你想写作的方向。回到我们聊天的核心话题，很明显你花了大量时间研究优秀产品经理和团队的运作方式。你写了很多关于优秀产品管理原则和团队仪式的文章。所以我想花大量时间从你的学习中提取尽可能多的精华，让听众也能受益。基本上，优秀产品经理的原则是什么，优秀团队的仪式又有哪些？一般来说，最优秀的团队是如何运作的？我的第一个问题是，你为什么开始做这些研究？是什么促使你投入如此多的时间和精力，去理解最优秀的团队和个人是如何运作的？",
+   "ts": "00:09:12"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. Yeah. I've been asking myself that question a little bit lately. There's a few reasons. One reason is I just found myself giving a similar set of advice in one on ones. And so I think anytime you find as a leader yourself repeating the same lessons, it should be a good flag to say like, oh, I should probably scale this in some way. And as you know, as soon as you write something down, you have to clarify your own thinking and so it becomes very useful for that. And I don't think I quite expected how useful it would be in that sense. Writing something down and then putting it out there, you start to get feedback back of where you might've been right or where you might not be right. And so for me it's been a good learning experience there as well. I think the second reason is I've always been pretty frustrated with career ladders. Most companies have career ladders with 10 or 15 levels and as soon as they hit some scale levels, there's levels between levels and I feel like I looked at the one at Google and you needed a PhD to decipher it and interpret how to operate within it. (00:11:11): And so that's one piece of the construct. If you think more broadly though, they aren't consistent across companies, so now you're in a situation where you're in your version of the rat race. And so I found that I basically wanted to have a broader set of principles that transcended level. So things that could be true when you are an ICPM starting your career and things that can also be true when you're the head of product or running a product team or things like that. That's one. I won't rant further on that but I think that's one piece of it. (00:11:49): And then I think the last reason I'll mention is I was pretty inspired by a talk that is by this guy named Brett Victor, who's like a prototyper thinker. May have heard of his work. He has this talk called Inventing on Principle. And in the early days of Coda, one of our first designers, this guy Jeremy Britten, showed this talk to the company and my mind was blown. And I think it was one of those examples of someone developing a clear view of what principles they should operate with and then following that principle. And it was just a meta example of how important it is and how impactful it can be when you decide on a principle and then follow it. And so ever since then I've been thinking what are my principles as it pertains to building software and other things. So those are the three reasons that led me to start writing these things down.",
+   "zh": "是啊，是啊。我最近也一直在问自己这个问题。原因有几个。首先，我发现自己在一对一沟通中反复给出相似的建议。所以我觉得，当你作为领导者发现自己在重复讲同样的道理时，就应该警醒了，应该反思一下：哦，我或许需要用某种方式把这件事系统化。正如你们所知，一旦把想法写下来，你就必须理清自己的思路，所以这真的很有帮助。我没想到它在这种情况下会如此有效。把想法写下来，然后公开分享，你就能得到反馈，知道自己哪些地方做对了，哪些地方可能做得不够。这对我来说也是一次很好的学习经历。  \n\n第二个原因是我对职场晋升阶梯一直很不满。大多数公司都有10到15个晋升级别，但一旦达到某个级别，级别之间又会出现层级划分。我记得看过谷歌的晋升阶梯，简直需要博士学位才能理解和遵循其中的规则。（00:11:11）这就是现有晋升体系的一个缩影。如果从更宏观的角度看，这些体系在不同公司并不一致，所以你会陷入一种无休止的内卷竞争。于是我发现自己其实更希望有一套超越级别限制的通用原则。这些原则既适用于刚入职的ICPM工程师，也适用于产品负责人，或者管理产品团队的人。这就是第一个原因。我就不多说了，但我认为这很重要。  \n\n（00:11:49）最后一个原因是我被Brett Victor的一次演讲深深启发。他是一位原型设计师，可能你们听说过他的作品。他有一场名为《基于原则的创新》的演讲。在Coda早期阶段，我们公司的首位设计师Jeremy Britten向全公司推荐了这场演讲，我深受震撼。这是他清晰阐述应遵循的原则，并据此行动的典范。这让我深刻意识到，当你确定一个原则并坚持执行时，其重要性和影响力是多么巨大。从那以后，我一直在思考在软件开发等领域，我的原则应该是什么。",
+   "ts": "00:09:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. We're going to find that talk and link to it in the show notes. I want to ask about what principles you've come to, but I also want to understand how you actually ended up doing ladders and performance review stuff at Coda. Would it be better to talk about that later after we go through some of these things or is there something you want to share first of just how you think about it at Coda?",
+   "zh": "太棒了。我们会找到那场演讲，并在节目笔记中附上链接。我想问问你得出了哪些原则，但我也想了解你如何在Coda引入晋升阶梯和绩效评估体系的。是等我们讨论完这些内容后再谈这个话题更好，还是你现在就想分享一下你在Coda的思考？",
+   "ts": "00:12:49"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "When we were doing career ladders, first of all, we put it off for quite a bit of time and that was based on the advice of a lot of other leaders that said as soon as you introduce this, then the incentives flip from being company focused to being individual focused. So I think we delayed it for a good bit of time. There came a time where we decided, \"Hey look, we really do need to provide better guidance here about what it means to grow and what it means to be great.\" And so about the same time we were doing the levels thing I started writing down some of the principles that I've been publishing. One of the things that I think about a lot when talking about levels is just how to keep everyone oriented toward their team and their company. And I think that we've done a really good job of that over the years. So levels aren't by any means at the forefront of any company discussion. In fact, we don't use titles that much.",
+   "zh": "谈到职业晋升阶梯时，首先我们拖延了很久。这是基于许多其他领导者的建议，他们认为一旦引入这个体系，激励机制就会从以公司为导向转向以个人为导向。因此，我们推迟了很久。直到某个时刻，我们决定：“嘿，看吧，我们确实需要在这里提供更好的指导，说明成长意味着什么，卓越又意味着什么。” 大约在我们制定晋升阶梯的同时， 我开始写下一些我一直在发布的原则。谈到晋升阶梯时，我经常思考的一个问题是如何让每个人都专注于自己的团队和公司。我认为我们多年来在这方面做得非常出色。因此，晋升阶梯绝不是任何公司讨论的核心问题。事实上，我们不常使用职位头衔。",
+   "ts": "00:13:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You said that it's not specific to role. Do you mean the same leveling attributes are the same from design and product and engineering?",
+   "zh": "你说这不受角色限制。你的意思是设计、产品和工程部门的晋升标准是相同的吗？",
+   "ts": "00:14:11"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "We basically have five levels and we call them role stages and they go from apprentice to principal. So apprentice is ... Rope analogy here is learns about rope. Practitioner is can tie basic knots, shown complex knots. Given a problem, they can do it. Career is you can calculate rope strength. You know a lot about knots. Principal is basically invented nylon. So the bar is really, really high for principal in these levels and I think that that's appropriate. It should be aspirational that the bar is exceptionally high at the highest level of our role stages. I find it's a pretty good process to draw maybe a little bit of contrast with other companies. I think most other companies, especially large companies have 10 to 15 levels. I think we've made a really conscious choice to have only five. I think the other bit of contrast I would draw is basically role stages are not visible across the whole company. We're not showing levels of any individual PM or designer, and that's partially because we just don't want to put a big focus on it. And then probably the biggest difference is we have a centralized compensation committee and that's who decides compensation and so it's not the manager that drives your compensation. So those are some differences.",
+   "zh": "我们基本上有五个级别，我们称之为角色阶段，从学徒到首席。学徒阶段……用绳子打比方的话，就是学习绳子的知识。从业者阶段是能够系基本结，展示复杂结。给他们一个问题，他们就能解决。职业阶段是能够计算绳子的强度。他们对结非常了解。首席阶段基本上是发明尼龙。因此，首席阶段的标准非常高，这很合适。在我们角色阶段的最高层级，标准极高，这应该是令人向往的。我发现将我们与其他公司进行对比是一个很好的过程。我认为大多数其他公司，特别是大型公司有10到15个级别。我们有意识地选择只有五个级别。我认为另一个不同之处是，角色阶段在整个公司内不公开。我们不会展示任何产品经理或设计师的级别，这部分是因为我们不想过度关注它。最大的不同可能是我们有一个中央薪酬委员会，由他们决定薪酬，而不是由经理来设定薪酬。这些就是一些不同之处。",
+   "ts": "00:14:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Super cool. I've never seen it done this way before. I think it's an awesome example of first principles thinking, which I see a lot come out from your product team. And then just to make sure I heard you right, these five stages are roughly the same across role, so designers have the same five and they're described similarly.",
+   "zh": "太酷了。我以前从未见过这样的做法。我认为这是第一性原理思维的一个很好的例子，我经常从你们的产品团队看到这种思维。然后为了确认我是否理解正确，这五个阶段在不同角色中大致相同吗？",
+   "ts": "00:15:52"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "That's right. They're described similarly at a high level, but then the specifics if you get into it are a little bit different.",
+   "zh": "没错。高层面描述相似，但具体细节有所不同。",
+   "ts": "00:16:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I'm going to ask about what the principles are, or a few of them that you can share. But one other very tactical question. At what size of product teams, say just PMs, did you start to develop this framework?",
+   "zh": "好的。我想问问这些原则是什么，或者你能分享几个。但还有一个非常实际的问题。在多大的产品团队规模下，比如仅限产品经理，你们开始开发这个框架？",
+   "ts": "00:16:15"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "We were probably at 20-ish PMs and designers when we did that.",
+   "zh": "我们大概有20名左右的产品经理和设计师时做的。",
+   "ts": "00:16:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. So let me just ask, what are some of these principles you've narrowed it on as principles of great product managers?",
+   "zh": "太棒了。好的，我再问问，你总结出的这些原则中，哪些是优秀产品经理的原则？",
+   "ts": "00:16:31"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Maybe it's helpful to start with a little higher level context on the unifying thesis. I think the unifying thesis is the core job of a product person in general is to turn ambiguity into clarity. And if you think about the job of a product leader or a product manager, everything is ambiguous all the time. It's like what's my role on this team? What problem are we solving? Who's the target customer? What prototype is going to solve this particular problem? So it's literally everything. And so if you're going to do the job well, you really need to get good at spotting ambiguity and turning it into clarity. And so the obvious question that follows from that is okay, great, that sounds like a great Hallmark card, but how do you actually do that? And so I think the principles that I've been writing down are very personal. They're my take on how to do this. (00:17:41): So the first one that I wrote about was systems not goals. And one of the ways that I started this post ... I'm a big fan of getting inspiration from outside of tech and so one of the stories that I tell is basically the story of Jerry Seinfeld. If you haven't seen the documentary Comedian, it's amazing, it's definitely worth watching. But the story goes, he's done Seinfeld the show and he's got all this material from the last 15 years and he comes in one day and he says, \"Look, I'm going to throw away all my material and I'm going to start fresh.\" And this is unheard of in comedy for someone to just throw away all their old material and start fresh. And so the question is what does he do next? And the thing that he does is he sets a goal, which is basically to build up to an hour of material again. (00:18:34): But the goal isn't that important. What's important here is the system. So the system that he uses is he writes for an hour every morning, doesn't write for more if he doesn't want to, and then he goes and performs at night. And so when you rinse and repeat that system, do it hundreds of times, that's how he builds up from five minutes to 15 minutes to 30 minutes of material. And so I think that I take a lot of inspiration from that and I think product people can generally, which is instead of being obsessed with the goal, be obsessed with the system that gets you there. And so the phrase I sometimes use is goals with good intentions don't work. I really need to give a common example. A really common example is teams that are trying to learn about customers or do research. And one thing I've observed is a team may have a goal like an OKR of talking to 10 customers this quarter and they may or may not hit that OKR. And then if you watch closely, the next quarter, they may not have a goal of talking to customers anymore. And so their learning is going up and down. (00:19:49): And to draw a contrast, that's just really different than a team that has some default on system for talking to customers. Every few times a week they're talking to customers for whatever reason. And the impact of that is really hard to see until you understand that the latter team tends to have really good product instincts or really good customer instincts. It's because they've just had this default on mindset of talking to customers. And in the early days of Coda, we actually did something similar. We had a time allotted on Fridays and it was basically, it was on the calendar a customer or a potential customer was coming in and so you knew that it was going to happen and you had to have something to show. And so sometimes we'd be scrambling the three hours before to have a prototype ready for a customer. Sometimes we would've had something that we've been baking for a while. But the point is that it was default on. And so the way that we developed good customer instincts was not the goal, it was really just the system behind it. So that's one that I'm passionate about and I think it also translates into a lot of the rituals that we talk a lot about.",
+   "zh": "或许先从更宏观的角度来理解统一论点会更有帮助。我认为产品经理的核心职责是化解模糊性。而当你审视产品负责人或产品经理的工作时，会发现模糊性无处不在。比如：我在团队中的角色是什么？我们要解决什么问题？目标客户是谁？哪个原型能解决特定问题？这些都是日常面临的困惑。若想做好这份工作，就必须善于识别模糊性并将其化解为清晰思路。\n\n接下来自然会产生疑问：这听起来不错，但具体该怎么做？我总结的原则都源于个人实践，代表我对这项工作的理解。（00:17:41）第一个原则是关注系统而非目标。启发我写下这篇文章的灵感来源于科技领域之外——我非常推崇从其他领域汲取灵感。我常提到的例子是杰瑞·宋飞（Jerry Seinfeld）的故事。若你看过纪录片《喜剧演员》（Comedian），会发现他在《宋飞正传》（Seinfeld）完结后，将过去15年的素材全部丢弃，重新开始。这在喜剧界实属罕见。随后，他设定了一个目标——重新积累一小时的素材。（00:18:34）但目标本身并不重要，关键在于背后的系统。他遵循的系统是：每天早上写作一小时，若无灵感则停止，晚上进行表演。通过反复践行这个系统，他将素材从五分钟逐步扩展至15分钟、30分钟。\n\n我从中汲取了深刻启示：与其执着于目标，不如专注于能达成目标的系统。举个常见例子：团队试图通过OKR（目标与关键结果）来了解客户，但结果往往喜忧参半。若仔细观察，下季度他们可能不再设定客户访谈目标。这种学习曲线起伏不定。\n\n相比之下，建立系统化客户沟通机制的团队则截然不同。他们每周都会定期与客户交流，形成固定习惯。这种习惯的价值往往难以量化，但其背后的客户洞察力或产品直觉却显而易见。在Coda初期，我们也实施过类似策略：每周五固定时间段，日程表上标注有客户或潜在客户到访，团队必须准备好原型展示。为此，我们常在前三小时紧急赶工。\n客户。有时我们会推出一些研发了很久的产品。但关键在于，这些产品必须是优质的。所以，培养优秀的客户洞察力并非最终目标，真正重要的是背后的系统支持。这正是我深感兴趣的地方，我认为这也体现在我们经常提及的诸多经营准则中。",
+   "ts": "00:16:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's so many directions I can go with this. I really like this one. It reminds me of something I did at Airbnb where we had a lunch with a host every Friday with the team and we had a community person find someone in San Francisco that's a host. And there's no agenda, it's just let's have lunch and meet the team. Curious what you're wondering.",
+   "zh": "关于这个话题，我能想到很多方向。我特别喜欢这个主意。它让我想起在Airbnb的经历——每周五我们团队都会和房东共进午餐，由社区人员在旧金山为我们寻找房东。没有固定议程，就是一起吃午餐、认识团队成员。我很好奇你对此有什么看法。",
+   "ts": "00:21:06"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Exactly.",
+   "zh": "没错。",
+   "ts": "00:21:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And Airbnb hosts are always so nice and has such a pleasant experience. Also makes me think about this book, The Score Takes Care of Itself.",
+   "zh": "Airbnb的房东们总是非常友善，相处体验很棒。这也让我想起那本《得分自然》（The Score Takes Care of Itself）。",
+   "ts": "00:21:22"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yep.",
+   "zh": "对啊。",
+   "ts": "00:21:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Have you read that?",
+   "zh": "你读过这本书吗？",
+   "ts": "00:21:31"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah.",
+   "zh": "读过。",
+   "ts": "00:21:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Where it's just do the fundamentals and you'll win?",
+   "zh": "就是专注基本功，然后胜利自然而然？",
+   "ts": "00:21:31"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Totally.",
+   "zh": "完全正确。",
+   "ts": "00:21:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The other thing it reminds me of is I have this quote hanging in my office here. I Believe it's from the Rick Rubin book. And the quote is, \"The object isn't to make art, it's to be in that wonderful state which makes art inevitable.\"",
+   "zh": "另外，我办公室里挂着里克·鲁宾（Rick Rubin）的书中的一句话：“目标不是创造艺术，而是处于那种让艺术自然发生的状态。”",
+   "ts": "00:21:34"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I love it.",
+   "zh": "我超爱这句话。",
+   "ts": "00:21:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like you just changed art-",
+   "zh": "我感觉你刚刚把艺术重新定义了——",
+   "ts": "00:21:49"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. Rick Rubin's amazing.",
+   "zh": "对啊，里克·鲁宾太棒了。",
+   "ts": "00:21:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh my god, it's so good. Just every section is this quotable thing I want ... I need to hold onto this thing.",
+   "zh": "天哪，这本书太棒了。每一章都引人入胜，让我迫切想保留这些金句。",
+   "ts": "00:21:52"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. He's got a great thing on listening. I really admire what he says about listening and I think that a lot of PMs could take that lesson, which is-",
+   "zh": "是啊。他关于倾听的论述很棒。我很钦佩他对倾听的见解，我觉得很多产品经理都能从中汲取经验，比如——",
+   "ts": "00:21:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. What is that lesson?",
+   "zh": "对。具体是什么经验？",
+   "ts": "00:22:10"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "The way he talks about it is essentially you want to listen and absorb every fragment of what that person is saying, including their body language and everything else, and try to turn off the side which is crafting your response or figuring out what you're going to say next or what the problem with their argument is or whatever. It's quite hard to do. Because your default mode is always the next step of the conversation. But I think if you can really challenge yourself, like he says, to pause and really try to internalize holistically what that person's saying, it's pretty powerful.",
+   "zh": "他的核心观点是，你要全神贯注地吸收对方传达的每一丝信息，包括他们的肢体语言和其他细节，暂时关闭自己准备回应、思考下一步或质疑对方论点的机制。这很难做到，因为我们的默认模式总是下一句对话。但我觉得如果你能像他说的那样，暂停下来，真正从整体上理解对方在说什么，效果会很显著。",
+   "ts": "00:22:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was actually just reading that chapter and the next chapter is about this idea of the beginner's mind. I don't know if you remember that. I feel like people get sniped by Rick Rubin stuff. But anyway, I'm going to go down this thread. He talks about how AlphaZero or AlphaGo, the first AI thing that beat humans at Go and how there was this move it made, move 37 in the game that was just like ... The person the AI was playing walked out of the room. He's like, \"I don't even know what just happened. This is out of anything I've ever imagined.\" And it won. And the lesson there it was trained not on what we've learned, but it trained itself and figured things out from first principles and then came up with this thing we've never even comprehended. And so it's a really good example of the power of coming from a beginner's mind and not being influenced by what's already been done.",
+   "zh": "我刚好在读那一章，接下来讲的是初学者心态。你还记得吗？我感觉人们对里克·鲁宾的观点总是容易被误解。不过我要继续聊这个话题。他提到AlphaZero或AlphaGo，那个首次在围棋中击败人类的AI，它在比赛中第37步就做出一个令人震惊的举动，对手直接走出了房间。里克说：“我都不知道刚刚发生了什么。这完全超出了我的想象。”结果它赢了。这个案例说明，AI不是基于我们已有的知识训练，而是通过第一性原理自我学习，然后创造出我们难以理解的成果。这真是初学者心态的力量所在，不受既有思维的束缚。",
+   "ts": "00:22:55"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. We have a walkthrough ritual that we do.",
+   "zh": "对啊。我们也有一个走查流程。",
+   "ts": "00:23:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Tell me more.",
+   "zh": "请多讲讲。",
+   "ts": "00:23:45"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "The prompt is essentially put yourself in the shoes of someone who knows nothing about this topic whatsoever and have beginner's mind and then walk through with five or 10 people watching you and let's fix all the problems that we see.",
+   "zh": "这个提示的核心是，让你设身处地地想像自己对这个话题一无所知，保持初学者的心态，然后在五到十个人观察你的情况下，逐步解决我们发现的问题。",
+   "ts": "00:23:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I want to talk about rituals. We're getting ahead of ourselves a little bit. Is there any other principles that you can share either just on a high level or in depth that you've come across? And I know people can go to your Substack and read this. And by the way, what's your Substack URL for people that want to check it out?",
+   "zh": "好的。我想谈谈仪式感。我们可能有点跳题了。你有没有其他原则可以分享的，无论是高层面的还是深入的，你遇到过的？我知道人们可以去你的 Substack 阅读这些内容。顺便问一下，对于想查看的人，你的 Substack 网址是什么？",
+   "ts": "00:24:05"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Just lane.substack.com.",
+   "zh": "就是 lane.substack.com。",
+   "ts": "00:24:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sweet. We'll definitely link into it. Yeah. Any other principles?",
+   "zh": "太好了。我们肯定会链接到那里的。是的。还有其他原则吗？",
+   "ts": "00:24:24"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I think the other one is cathedrals, not bricks, and then the other one is proactive, not reactive. Cathedrals, not bricks I think is a classic one. I think I had a moment of realization and talking to Shishir in a one-on-one when I was at YouTube bemoaning the fact that my team wasn't performing to the potential that I thought they had. And he had a very pointed and unexpected question, which is like, \"Do they know their cathedral? Do they have a cathedral?\" And I'm sitting there like, \"Man, what are you talking about? We're talking about performing as a team and you're asking me about cathedrals.\" And then he explained the cathedral story, which I can talk about. In that-",
+   "zh": "我认为另一个是\"大教堂，而非砖块\"，另一个是\"主动而非被动\"。\"大教堂，而非砖块\"是一个经典的概念。我记得在 YouTube 的时候，我和 Shishir 单独交谈，抱怨我的团队表现没有达到我预期的水平。他提了一个非常尖锐且出乎意料的问题，问道：\"他们知道自己的大教堂吗？他们有大教堂吗？\"我当时就想：\"天哪，你在说什么呢？我们在讨论团队表现问题，你却问我大教堂的事。\" 然后他解释了大教堂的故事，我可以分享一下。在那个故事里——",
+   "ts": "00:24:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's the cathedral story?",
+   "zh": "大教堂的故事是什么？",
+   "ts": "00:25:11"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "It was quite clarifying.",
+   "zh": "这个故事非常有启发性。",
+   "ts": "00:25:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Do share.",
+   "zh": "是的。请分享一下。",
+   "ts": "00:25:13"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. The cathedral story is basically you walk up to three people, they're laying bricks. You ask the first person, \"What are you doing?\" They say, \"Well, I take the bricks from over here and I put them on that sack over there.\" You ask the second person, \"What are you doing?\" They say, \"Well, I take this little cement and I put it on top of the brick that that person lays.\" You ask the third person, \"What are you doing?\" And they say, \"Well, we're building a cathedral.\" And the core insight here is that you want your teams to feel like they're building a cathedral and not laying bricks. And I think it's really, really easy to do when PMs are really busy on a day-to-day to just be one task after the other, really execution oriented and maybe not take the time to help the team take a broader frame, open the aperture a little bit and have a view of what the cathedral is. And I think we've learned many times that one unexpected bit of this is that everybody needs to see a different facet of the cathedral. (00:26:22): So very often ... And I've made this mistake before plenty of times. Very often people will do a great writeup on vision or strategy or whatever it is and the result is people can't quite see their version of what this broader arc is or this broader cathedral is. And so one of the things that we have tried to do when we go through big planning cycles is show all the different sides of this. So instead of just having a writeup, we may have a writeup, we may couple that with a metric, we may couple that with directional mocks and what the billboard might look like or how our homepage may change. And really what we're trying to do is take the mystery out of the set of broader constraints or where we're headed. I think great product teams and great PM leaders tend to always orient their teams towards a broader cathedral as opposed to laying bricks.",
+   "zh": "是的。关于大教堂的故事，大致是这样：你走过去看到三个人在砌砖。你问第一个人：“你在做什么？” 他们回答：“我从这边拿砖头，然后把它们放在那边的袋子里。” 你问第二个人：“你在做什么？” 他们回答：“我拿点水泥，涂在那个人砌好的砖头上。” 你问第三个人：“你在做什么？” 他们回答：“我们在建一座大教堂。” 这里的核心洞察是，你希望团队成员能感受到自己在建造大教堂，而不只是在砌砖。我认为，当产品经理们每天忙于琐事、只专注于执行而没有时间帮助团队拓宽视野、打开思路、了解大教堂全貌时，就很容易忽视这一点。我多次发现，一个意想不到的问题是，每个人都需要从不同角度看待大教堂。（00:26:22）所以很多时候……我自己也多次犯过这个错误。人们可能会写一份关于愿景或战略的精彩文档，但结果是大家无法清晰理解这幅更宏大的蓝图或大教堂的全貌。因此，在进行大型规划周期时，我们会尝试从多个角度展示问题。这时候我们不只是提供一份文档，还可能结合指标、方向性模型，以及广告牌可能的样子或主页的改进方案。实际上，我们的目标是消除更广泛约束条件或发展方向的神秘感。我认为优秀的产品团队和出色的产品经理往往会引导团队朝着更宏大的蓝图而努力，而不是局限于砌砖。",
+   "ts": "00:25:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Such a beautiful metaphor. Reminds me of this other quote I just looked up while you're chatting. \"If you want to build a ship, don't drum up the men to gather wood, divide the work and give orders. Instead teach them to yearn for the vast and endless sea.\"",
+   "zh": "多么美妙的比喻啊。这让我想起你聊天时我刚查到的另一句名言：“如果你想造一艘船，不要召集人们去收集木材、分配工作和发号施令。相反，要教会他们渴望浩瀚无垠的大海。”",
+   "ts": "00:27:26"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Classic. Classic. It's Antoine.",
+   "zh": "经典。经典。这是安托万·德·圣-埃克苏佩里说的。",
+   "ts": "00:27:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is right. Antoine de St. Exupery. Okay. Something I was curious about as you were chatting also is for folks that want to develop their own principles and define how they want to think about products, is there anything you found to be useful in helping emerge these into principles that you can come to? Is it just sitting around thinking? Is there anything else you've done that has helped you define these things?",
+   "zh": "没错。安托万·德·圣-埃克苏佩里。对了。你聊天时我还好奇的是，对于那些想制定自己的原则、定义如何看待产品的人，有没有什么有用的方法能帮助他们形成这些原则？是靠冥想吗？还是做了其他什么有用的事？",
+   "ts": "00:27:42"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Probably two things. One is reading really broadly. So I think not just reading PM style literature. Like I said, I tend to get a lot of inspiration from outside of tech. I think that's one thing. I think the other thing is insofar as you get the opportunity to mentor other people, think about what you're saying to these people. Think about, okay, this person came to me with this challenge. What was my response? Why was that my response? Am I giving that response a lot of times? Okay, maybe this is a more deeply held belief. So I think noticing those instances was helpful for me.",
+   "zh": "大概有两个方面。一是广泛阅读。我觉得不只是读产品经理相关的文献。就像我说的，我从科技领域以外获得了很多灵感。这是一方面。另一方面是，当你有机会指导他人时，要思考自己对他们的说法。比如，某个人来找你解决挑战时，你是怎么回应的？为什么那样回应？你是否经常给出同样的回应？好，也许这是一种更根深蒂固的信念。所以，我认为留意这些情况对我很有帮助。",
+   "ts": "00:28:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any books or topics or areas that you found most inspirational when you talk about reading and studying other non-product tech?",
+   "zh": "谈到阅读和研究非产品技术领域时，有没有哪些书籍、主题或领域能给您带来最大的启发？",
+   "ts": "00:28:46"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I mean definitely sports. I would say sports is really interesting to me. Team sports. I've always been a huge fan of everything team sports. Storytelling. Go look at some of the best storytellers in the world and they're actually out there on a stage telling stories. There's a book called Storyworthy that I really like.",
+   "zh": "我肯定会说体育。体育对我来说非常有趣，尤其是团队运动。我一直是团队运动的超级粉丝。讲故事方面，你可以看看世界上最出色的讲故事者，他们通常站在舞台上讲述故事。我特别喜欢一本叫《值得讲述的故事》的书。",
+   "ts": "00:28:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was just going to mention that. That book is so good. Somebody mentioned this on the podcast and I read it. It's the most useful practical book for how to tell stories.",
+   "zh": "我正想提到这本书。这本书太棒了。有人在播客上提到它，我读了之后发现，它是关于如何讲故事最实用的实用书籍。",
+   "ts": "00:29:15"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "It's so good. The insight is amazing. Just in case your listeners are interested, the insight is basically the nugget of a great story is five seconds of transformation. So if you just orient everything else around that moment of transformation, then you end up usually telling a reasonably good story. I had a conversation with the author right after I read that book because I was just totally enamored with it. And then we ended up bringing him into Coda and he gave a great talk. So yeah, big plug for Matthew Dicks.",
+   "zh": "真的很棒。里面的见解令人惊叹。以防听众感兴趣，关键点是，精彩故事的核心是五秒钟的转变时刻。所以如果你能围绕这个转变时刻来构建整个故事，通常就能讲出一个相当不错的故事。读完这本书后，我立即和作者进行了交流，因为我完全被它折服了。后来我们邀请他到Coda做了一场精彩的演讲。所以要大力推荐马修·迪克斯。",
+   "ts": "00:29:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The other thing that stuck with me also from that same ... We're just going on all kinds of tangents. From that same insight is, and I watch movies completely differently now, where basically the characters you meet at the beginning of the story, they're going to be completely opposite at the end of the story because of this transformation that takes place. So I'm watching movies with my wife now, I'm like, \"Okay, she's very shy right now. She's going to be very extroverted by the end of this movie.\" Or, \"They love each other. Oh, they're going to have a lot of problems.\" That's so interesting. Oh, that's such a good idea. Okay, I'm going to get this guy on hopefully. And he's a Moth champion basically.",
+   "zh": "同样来自这个见解的另一个让我印象深刻的点是，现在我看电影的方式完全不同了。基本上，在故事开始时遇到的角色，最终会因为发生的转变而截然不同。所以现在我和妻子一起看电影时，会想：“好吧，她现在很害羞，但电影结束时她会变得非常外向。”或者，“他们相爱了，但最终会有很多问题。”这太有趣了。哦，这真是个好主意。好吧，我希望能邀请到他。他基本上是Moth故事大赛的冠军。",
+   "ts": "00:29:58"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. I would say as maybe a principal version of this, the way that you learn or the way that everyone including me learns new things is you go seek out the best at that given craft. So in this case, you go to the Moth StorySLAM you see some really good stories. If you ever watch these on YouTube. And then you just unpack what they're doing and how they're doing it. And then obviously I think the other way to learn quickly is to throw yourself in the deep end. So insofar as you can put yourself in situations that are uncomfortable or force you to do things like tell a story or force you to come up with a clear strategy, you should always opt into those, especially early in your career.",
+   "zh": "是的。我认为学习的核心方法，或者说包括我在内的每个人学习新事物的核心方法，就是去寻找某个领域最优秀的人。就拿讲故事来说，你去参加Moth故事大赛，看一些非常精彩的故事。如果你有机会在YouTube上观看这些表演。然后你只需拆解他们是如何做到的，以及他们是如何操作的。显然，快速学习的另一种方法就是把自己置身于挑战之中。所以只要你能把自己置身于不舒适的环境中，或者迫使自己做一些事情，比如讲故事，或者制定清晰的策略，你就应该抓住这些机会，尤其是在职业生涯早期。",
+   "ts": "00:30:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The first thing you said, that's basically the whole premise of this podcast. Find the best at all these things and learn from them, extract and share.",
+   "zh": "你刚提到的第一点，这基本上就是这个播客的核心理念。找到这些领域的顶尖人物，向他们学习，提取并分享。",
+   "ts": "00:31:18"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "And the world is much better for it. This podcast is an amazing resource.",
+   "zh": "世界因此变得更美好。这个播客是一个了不起的资源。",
+   "ts": "00:31:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Thanks man.",
+   "zh": "谢谢你，伙计。",
+   "ts": "00:31:29"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "You've done something very special.",
+   "zh": "你做了一件非常特别的事情。",
+   "ts": "00:31:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I appreciate it. This podcast episode is already very special. The point you just made reminds me of something that I heard you talk about, which is this oh shit moment. I don't know if it's related to what you shared of just giving people a sense of whether they're making progress in their career. Can you talk about that?",
+   "zh": "非常感谢。这一期播客已经很特别了。你刚刚提到的观点让我想起之前听你讲过的“天啊”时刻。我不知道这是否与你分享的让人们了解自己职业生涯是否有进展的观点有关。你能谈谈这个吗？",
+   "ts": "00:31:31"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Sure. Yeah. I think I picked this up originally from Seth Godin, the author, and it just totally stuck with me. The basic thesis is that moments that stretch you or moments that you feel uncomfortable in or you find yourself saying, \"Oh shit, I shouldn't be here,\" or, \"I'm under qualified to be here,\" those are the moments you should be seeking out. Those are the moments that stretch you and give you a new foundation. And so I have found that they turn out to be a pretty good way to calibrate whether someone is growing in their career. So oftentimes you'll hear a career question like, \"Hey, do you feel like you're growing in your role?\" And that's a very ambiguous in my opinion way to ask this question. And a much sharper way is like, \"Hey, how many, oh shit moments have you had in the last six months, year, two years, and what are they?\" I think if you ask yourself that question and the answer is, \"It's been a really long time since I've been stretched in some meaningful way or I've felt like I'm under qualified to be there,\" then it may be worth digging into.",
+   "zh": "当然。是啊。我最初是从作家赛斯·高丁那里听到这个观点的，它一直让我印象深刻。基本观点是，当你面临挑战、感到不适，或者觉得“天啊，我不该在这里”或“我太不配待在这里”的时刻，这些正是你应该主动寻找的时刻。它们能拓展你的能力，为你奠定新的基础。所以我发现，这也是判断一个人职业生涯是否有进步的有效方法。人们常问：“你觉得自己在当前职位上成长了吗？”在我看来，这是一个模糊不清的问题。更尖锐的提问应该是：“过去六个月、一年、两年里，你经历过多少‘天啊’时刻？都是些什么情况？” 如果你问自己这个问题，答案是“很久没有真正面临挑战，或者觉得自己不配待在这里”，那么就值得深入探究了。",
+   "ts": "00:31:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is so good. Making me think about this podcast where I never wanted to do podcasts. I'm like I'm not a podcast person. I just want to sit there and type out newsletters. How cool is that? And I'm like, no, I got to do it because it's hard. And I'm glad I did it. It also reminds me of this quote that I love that I always think back to. \"The cave you fear contains the treasure you seek.\"",
+   "zh": "太棒了。这让我想起我从不愿做播客的经历。我当时觉得自己不适合做播客，只想坐着写新闻通讯。但我还是强迫自己去做了，因为这很困难。很高兴我这么做了。这也让我想起我一直珍视的一句话：“你害怕的洞穴，里面藏着你追寻的宝藏。”",
+   "ts": "00:33:04"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Nice. That reminds me of ... Have you read the book The Obstacle is the Way?",
+   "zh": "不错。这让我想起……你读过《障碍即机遇》这本书吗？",
+   "ts": "00:33:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No. Say More.",
+   "zh": "没读过。多说几句。",
+   "ts": "00:33:31"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "It's a great book by Ryan Holiday. And the core thesis is ... It's a bit about stoicism. But the core idea is essentially instead of running away from obstacles, you should be running toward them and that's where you experience either the most growth or the most profound moments of your life. He gives a lot of examples in that book of people throughout history who made that choice. And I think he's also given that talk to hundreds of sports teams. It's a good book. Worth reading.",
+   "zh": "这是瑞安·霍利迪的一本好书。核心观点……书里讲了斯多葛主义。但核心思想是，不要逃避障碍，而要主动迎向它们。在那里，你要么获得最大的成长，要么经历人生最深刻的时刻。他书中举了很多历史人物的例子，说明他们如何做出这样的选择。我觉得他还给数百支运动队做过相关演讲。这本书很值得一读。",
+   "ts": "00:33:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's so hard. It's so hard to do hard things, man. So we've been talking about principles of great product managers. You also spent a lot of time looking at the rituals of great product teams. And I know you're working on this handbook that I'm excited to learn more about. Can you just talk about ... I guess one, where this idea came from of studying rituals of great teams and also just how do you actually go about learning about these rituals? I know you have this really interesting process.",
+   "zh": "这太难了。做难事真是太难了。我们一直在讨论优秀产品经理的原则，你也花了很多时间研究优秀产品团队的仪式。我知道你正在编写一本手册，我很期待了解更多。你能谈谈……首先，这个研究优秀团队仪式的想法从何而来？还有，你具体是如何去了解这些仪式的？我知道你有非常有趣的流程。",
+   "ts": "00:34:08"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. In general, I'm a big believer in good design and good product starts with noticing. Tony Fadell has a great talk on this. So I think a bunch of us that are really obsessed with rituals, we just honestly try to be great at noticing. So see something happening with a customer, ask a few questions, get introduced to their team, hear about something interesting from a non-customer, ask for an intro, end up just probing and asking a lot of questions. And then in many cases nowadays with Coda, we're building new rituals alongside people. So someone has a creative idea about how to implement something and we're like partners or collaborators with them on that, which is honestly incredibly fun to just see people's creativity expressed in a tool and then by extension the social construct that they exist in. So that's a little bit about how we got started in that whole process. And then of course Shishir is writing a book called Rituals of Great Teams so we've been cataloging those. We've been hosting a bunch of rituals dinners where we basically get people together for a dinner and we usually have three or four presenters at those dinners. It's just a great chance to learn and think about how the engine runs in a lot of these companies.",
+   "zh": "是的。总的来说，我非常重视好的设计，而好的产品始于观察。托尼·法德尔（Tony Fadell）对此有过精彩的演讲。所以我认为，我们中许多痴迷于仪式的人，都在努力成为善于观察的高手。比如，当我们注意到客户的某个需求时，会主动提问，认识他们的团队，从非客户那里听到有趣的想法后，会请求介绍，最终通过不断提问来深入了解。如今在Coda团队中，我们会与客户共同开发新仪式。当有人提出创新的实施方案时，我们会成为他们的合作伙伴，这种体验真的非常棒——既能见证人们在工具中展现创造力，又能延伸至他们所处的社交环境。这就是我们如何开启整个流程的初衷。当然，希希尔（Shishir）正在撰写《伟大团队的仪式》一书，我们一直在整理相关案例。同时，我们还举办了多场仪式晚宴，邀请三四位嘉宾分享见解，这为我们提供了绝佳的机会，深入了解许多公司的运作机制。",
+   "ts": "00:34:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are some rituals that you've learned from these dinners and these and this research you've done that have really stuck with you?",
+   "zh": "在这些晚宴和研究中，你学到了哪些令人印象深刻的仪式？",
+   "ts": "00:36:03"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "There are so many. It's hard to choose. Maybe I'll choose two that are top of mind. One is Dharmesh Shah has this ritual from HubSpot called flash tags. Have you heard of this?",
+   "zh": "太多了，很难抉择。或许我会选两个最难忘的。第一个是达尔梅什·沙阿（Dharmesh Shah）在HubSpot推行的闪电标签（flash tags）仪式。你听说过吗？",
+   "ts": "00:36:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No.",
+   "zh": "没有。",
+   "ts": "00:36:24"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "We've all probably been in the situation where someone gives you feedback and you either under interpret it or over interpret it. And as an organization, I think the core principle here is like you want to be calibrated on how much to pay attention to a bit of feedback. And so he outlines four flash tags. He presented this in one of our dinners. And I absolutely love the phrasing of these as someone who's given a lot of feedback on product stuff in their career. So it ranges from ... I think it's FYI, suggestion, recommendation, plea. So FYI is basically like I had a thought, take it or leave it kind of thing. Suggestion is ... And he uses this hill dying metaphor. So is this a hill I'm going to die on? And FYI is there's no hill in sight. Suggestion is there's a hill. I'm not going to die on it but this is what I would do if I were you. You can take it or leave it. Recommendation is I'm climbing the hill. I'm not going to die here, but I've thought about this a lot, so don't ignore this. (00:37:41): And then the fourth one, plea, is hopefully rarely used in the organization. It's like, I don't like dying on hills. That's not what we do here. But this is a pretty good candidate for it. You should really trust me. And so we have ended up using that. I was actually just at an offsite and someone gave a lightning talk to our team on how valuable this has been just to calibrate, hey, we got 100 pieces of feedback and there's one plea. Okay, let's spend our time on that. Or there's a whole bunch of FYIs. I think we're fine. Let's keep going. No worries.",
+   "zh": "我们都遇到过这样的情况：客户给出反馈后，我们要么误解其含义，要么反应过度。作为组织层面，我认为核心原则是，要根据反馈的重要性调整关注程度。他总结了四个闪电标签，并在我们的晚宴上做了讲解。作为在产品领域深有建树的人，我特别喜欢他对这些标签的描述。闪电标签涵盖四个层级：FYI（仅供参考）、建议、推荐和恳求。FYI相当于“我有个想法，爱听不听”；建议用“这是我要攀登的山峰”来比喻；推荐则是“我正在攀登这座山峰”；恳求则是“这座山峰值得攀登”。我们已经在实际工作中应用了这些标签。比如在一次公司活动上，某位同事给团队做了闪电演讲，强调反馈的重要性，尤其提到“我们收到100条反馈，其中只有一条是恳求。好吧，那就专注于它吧。”这样的案例非常实用。",
+   "ts": "00:36:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's amazing. It's interesting none of them are just do it this way. I imagine that's very intentional.",
+   "zh": "太棒了。有趣的是，这些标签并非千篇一律。我想这背后一定有深意。",
+   "ts": "00:38:20"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. Honestly it's a sign of ... In Dharmesh's case, I don't know him super well, but it's a sign of a really experienced leader to know that scale. But every time I look at the scale and I'm weighing where I am between suggestion or recommendation, I have to giggle to myself.",
+   "zh": "是啊，说实话，这其实是……就拿达梅什（Dharmesh）来说吧，我和他不太熟，但他能清楚认识到这种规模差异，这恰恰说明他是个经验丰富的领导者。不过每次我看到这些反馈意见，在决定是给出建议还是推荐时，我都会忍不住暗自发笑。",
+   "ts": "00:38:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And how do you actually use it? In the feedback you put a hashtag plea kind of thing?",
+   "zh": "那具体怎么用呢？你是在反馈中加上标签之类的吗？",
+   "ts": "00:38:45"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "The way gets used in code docs and the way I think other companies have made it a ritual is you'll have a feedback table and you'll write your feedback and then there'll just be a little select list and you can select between those four. And usually what people do is they include the description so you can as you're choosing it, think do I really feel that strongly about this? And honestly, it's good hygiene. Otherwise, every bit of feedback is taken the same. Which just fundamentally the impact of that is it slows everything down because now you're looking at a list of 100 pieces of feedback and you're going like, \"Oh man, we got to address all this feedback.\" Whereas as soon as you distinguish between what's most important, it's much easier to sort through that.",
+   "zh": "这种方法常用于代码文档，我觉得其他公司也把它当作一种惯例。通常会有一个反馈表格，你写下自己的反馈，然后会出现一个小选项列表，你可以在四个选项中选择。人们通常会附上详细描述，这样在选择时就能思考：我对这件事的看法真的有那么强烈吗？说实话，这是一种良好的沟通规范。否则，每条反馈都会被同等对待。这样做的最终影响就是拖慢了整个进程，因为你要面对100条反馈，然后不得不说：\"天哪，我们得处理所有这些反馈。\"而一旦你区分了最重要的反馈，整理起来就会容易得多。",
+   "ts": "00:38:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What about if it's in person? Do you say this is a plea or this is a FYI?",
+   "zh": "那如果是面对面交流呢？你会说这是请求还是仅供参考？",
+   "ts": "00:39:46"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Oh, I've definitely heard that in many meetings. Are you making a recommendation or are you making a plea?",
+   "zh": "哦，我在很多会议上都听到过这种说法。你是在提出建议还是请求帮助？",
+   "ts": "00:39:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing.",
+   "zh": "太棒了。",
+   "ts": "00:39:57"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "And making the person think through that choice I think is just a very helpful shared language.",
+   "zh": "让对方思考自己的选择，我觉得这是一种非常有用的沟通方式。",
+   "ts": "00:39:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I imagine one of the other benefits of this is I think most leaders that rise up the ranks eventually realize anything they say in a meeting is going to be taken really seriously and the team's going to rush back and be like, \"Oh, Lane told us to change this thing.\" I imagine it helps you just make it clear. No, you don't need to actually change this. It's just my thoughts.",
+   "zh": "我觉得这样做还有一个好处，那就是大多数晋升的领导者最终都会意识到，他们在会议上说的任何话都会被认真对待，团队成员会赶紧跑回去说：\"哦，莱恩让我们改这个。\"我觉得这能让你明确表达：不，你不需要真的改这个。这只是我的想法。",
+   "ts": "00:40:04"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. Exactly. Yeah.",
+   "zh": "是啊，就是这样。是啊。",
+   "ts": "00:40:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. This episode is brought to you by Ezra, the leading full body cancer screening company. I actually used Ezra earlier this year unrelated to this podcast, completely on my own dime because my wife did one and loved it and I was super curious to see if there's anything that I should be paying attention to in my body as I get older. The way it works is you book an appointment, you come in, you put on some very cool silky pajamas that they give you that you get to keep afterwards. You go into an MRI machine for 30 to 45 minutes, and then about a week later you get this detailed report sharing what they found in your body. Luckily, I had what they called an unremarkable screening, which means they didn't find anything cancerous, but they did find some issues in my back, which I'm getting checked out at a physical next month. Probably because I spend so much time sitting in front of a computer. Half of all men will have cancer at some point in their lives, as will one third of women. Half of all of them will detect it late. (00:41:21): According to the American Cancer Society, early cancer detection has an 80% survival rate compared to less than 20% for late stage cancer. The Ezra team has helped 13% of their customers identify potential cancer early, and 50% of them identify other clinically significant issues such as aneurysms, disc herniations, which may be what I have, or fatty liver disease. Ezra scans for cancer and 500 other conditions in 13 organs using a full body MRI powered by AI and just launched the world's only 30-minute full body scan, which is also their most affordable. Their scans are non-invasive and radiation free. And Ezra is offering listeners $150 off their first scan with code Lenny150. Book your scan at ezra.com/lenny at E-Z-R-A.com/lenny. (00:42:15): Any other rituals that stand out as really interesting, either more recently you've learned or something you're just like, oh, wow, that was a genius?",
+   "zh": "太棒了。本期节目由领先的全身癌症筛查公司Ezra赞助。实际上，我今年早些时候曾使用过Ezra的服务——与本播客无关，完全自费体验。因为我妻子做过筛查并很满意，而随着年龄增长，我也特别想了解身体是否有需要关注的问题。筛查流程是这样：预约后，穿上他们提供的精美丝质睡衣（用后可保留），进入MRI扫描仪接受30至45分钟的检查。一周后，会收到详细报告，里面会指出身体存在的隐患。幸运的是，我的筛查结果“无异常”，即未发现癌症，但背部有问题，下个月我会去医院进一步检查，可能是因为长时间伏案工作所致。据美国癌症协会数据，半数男性和三分之一女性一生中都会患上癌症，其中半数确诊时已是晚期。Ezra团队已帮助13%的客户早期发现癌症，50%客户发现动脉瘤、椎间盘突出等临床重要问题。Ezra通过AI驱动的全身MRI技术，可筛查13个器官的500种疾病，最近推出了全球首款30分钟全身扫描服务，价格也最为亲民。扫描过程无创无辐射。Ezra为听众提供首扫150美元优惠，优惠码：Lenny150。可登录ezra.com/lenny或E-Z-R-A.com/lenny预约扫描。",
+   "ts": "00:40:22"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I guess one that I get asked about a lot on our team is called Catalyst. And I guess maybe to set some context on this one, in most product teams, the review forum is just a really important part of the product development process. And the core insight for most review forums or product reviews or decision forums is that they generally suffer from two problems that are hard to spot unless you've sat through hundreds of them. The first is they have standing attendees, and the second is they're normally single-threaded, meaning they're normally one topic at a time. So maybe I'll talk about both of those because I think they're not exactly intuitive. So when you think about what happens with a standing set of attendees, you either have the situation where you have too many people in the meeting or you have not enough people in the meeting, and both of those can cause problems. (00:43:25): So if you've ever been in a meeting, I certainly have, where it's like, \"Hey, do we have the salesperson who knows most about this or do we have the engineer who's actually implementing this here? Oh, great. They're not here? They're not a part of the standing set of attendees?\" You either have to reschedule the meeting or worse, you just do the discussion without the person who's most knowledgeable, which seems crazy in retrospect. The second problem is single-threaded. So one topic at a time. So if you think about if a product development process is somewhat of a chaotic assembly line for a second, your review or your decision forum ends up being a big time bottleneck in many cases. And obviously you want to be in a situation where product people have a lot of autonomy and they can make most of the decisions themselves. And I'm a big believer in decentralized leadership and all of that, but there are things that cut across the company that need to get reviewed by a broader set of stakeholders. (00:44:29): And so what happens when those things are single threaded is either the meeting is really long, so it's a three-hour review meeting once a week, and by the end everyone is about to fall asleep, or it's really short and it's really hard to get on the calendar. You're like, \"Oh, can we get on the calendar in two weeks?\" And the downside of the not being able to get on the calendar is that now you've just slowed down the whole velocity of the company because the throughput of your review meeting is really slow. So we built Catalyst to really solve those two problems. And so the way it works is it's essentially three one hour blocks throughout the week, and the assumption is that the whole company is free. So you can get anyone in the company for those three hours. And each topic has essentially four roles. Driver, maker, braintrust, and interested. It's a very transparent system. (00:45:28): So a salesperson can say, \"Oh, I'm interested in this product development review. I'm just going to mark myself as interested.\" And then the driver is the person who's actually going to drive the meeting, drive the decision, drive the outcome, things like that. And basically, this is all centralized in one doc. And what happens is the day before, that hold that's on calendar gets removed, and then you have specific topics that get added. So there may be three topics going all at the same time because they don't have overlapping attendees. And the impact of this, I think if you really watch it in progress is huge. You basically have many topics running all at the same time, so the throughput is much better and you have the right attendees every single time, and you have a clear set of drivers and roles in these meetings. So that means that we can review work much, much faster with the right people, and ideally that results in more value to our customers, more things getting shipped, just a higher velocity organization. So that's one that we get asked about a lot. And actually a couple of weeks ago, we spent a while remaking the template for that one.",
+   "zh": "想必在我们团队里，被问得最多的一个工具叫做Catalyst。先来解释一下背景吧：在大多数产品团队中，评审论坛都是产品开发流程中至关重要的一环。但大多数评审论坛、产品评审或决策论坛都存在两个难以察觉的问题，除非你亲身经历过数百次会议。第一个问题是固定参会人员机制，第二个问题是单线程讨论模式，即每次只讨论一个议题。接下来我会详细解析这两个问题，因为它们确实不符合直观认知。\n\n（00:43:25）：说到固定参会人员机制，会议要么人太多，要么人太少。这两种情况都会引发问题。比如在会议上，你可能会遇到这样的情况：“销售人员最了解这个产品，工程师又实际负责实施？哦，他们不在？他们不是固定参会人员？”要么重新安排会议，要么只能在没有最有经验的人的情况下讨论问题，事后看来这种做法简直荒谬。\n\n第二个问题是单线程讨论模式，即每次只讨论一个议题。假设产品开发流程是一个混乱的流水线，那么评审或决策论坛往往成为整个过程中的瓶颈。显然，我们希望产品团队拥有高度自主权，能自主做出大部分决策。我非常支持去中心化领导力等理念，但有些跨部门的问题确实需要更广泛的利益相关者参与评审。\n\n（00:44:29）：当这些问题陷入单线程讨论模式时，会议要么时间过长，比如每周三小时的评审，结束时所有人都昏昏欲睡；要么排期太难，拖到两周后才行。排期延迟会拖慢整个公司的节奏，因为评审会议的效率太低。因此我们开发了Catalyst来解决这两个问题。其核心机制是每周三次一小时的会议，假设全公司资源可用，所以三小时内能召集所有人。每个议题设有四个角色：驱动者、执行者、智囊团和感兴趣者。整个系统高度透明。\n\n（00:45:28）：比如销售人员可以标注“对此次评审感兴趣”，驱动者负责推动会议进程、做出决策、达成结果等。这一切都集中在一个文档中。具体流程是前一天解除原有会议预约，添加新议题。多个议题可同时进行，因为参会人员不重叠。实际效果显著：多个议题并行推进，效率大增，每次都能召集到合适的参会人员。\n在这些会议中，要明确各方的职责和角色。这意味着，我们能与合适的人员更高效地审阅工作成果，最终为客户创造更多价值，推动更多项目落地，让整个组织的运作效率显著提升。这是我们经常被问到的问题。实际上，几周前，我们花了不少时间重新设计了相关模板。",
+   "ts": "00:42:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that ritual. You actually wrote even in more depth in the post that we worked together on how Coda builds product, which we'll link to if folks want to try this out and you link to actual templates people can actually use it their companies. When someone's listening to this and they're like, \"Oh, wow, this is extremely cool,\" how easy is it do you find for people to take a ritual from a company and implement it? How much is cultural and it's hard to transplant, or do you find people can take this Catalyst idea plug and play at a lot of companies?",
+   "zh": "我很喜欢这种仪式感。你在我们合作的帖子中更深入地阐述了Coda如何进行产品开发，如果大家想尝试的话，我们会附上链接。还有你提到的实际模板，人们可以直接在自己的公司使用。当有人听完后感叹“哇，太酷了”，你觉得让人们从其他公司借鉴并实施这种仪式有多容易？这其中有多少是文化差异导致难以移植的，还是说很多公司都能直接套用Catalyst的思路？",
+   "ts": "00:46:45"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. I think it depends a lot on what your role in the company is. Maybe to say the extremes for a second, if you're a brand new PM to an organization, you probably shouldn't go try to remake the whole product review cycle that the head of product is really passionate about and has crafted. But you can probably take a decision template or some interesting ritual that has facilitated a team in the past and use it with your team. Another one of my favorites there is a hundred dollar voting. We use that a lot in the context of planning, and I find that creative rituals like that are easy to pick up for teams because oftentimes it's like, okay ... And maybe I'll describe the ritual real quick.",
+   "zh": "是的。我觉得这很大程度上取决于你在公司中的角色。说极端一点，如果你是一个新加入的PM，试图重构产品负责人非常热衷且精心设计的整个产品评审周期，可能不太明智。但你或许可以借鉴过去团队成功运用的决策模板或创新仪式。比如“百元投票”（hundred dollar voting），我们在规划过程中经常使用。我发现这类创意仪式对团队易于接受，因为通常大家会想：“好吧……”。或许我可以快速描述一下这个仪式。",
+   "ts": "00:47:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I was going to ask.",
+   "zh": "好的，我正想问呢。",
+   "ts": "00:48:01"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "The ritual is essentially you can take any set of problems or solutions or themes or whatever you want to get people's input on, and you put those into a table and then people can basically vote with their dollars and usually you allocate $100. And so people will go through and say, \"Oh, I want to allocate $10 to this and $20 to this and $50 to this because I think it's really important.\" And I have found that especially in planning processes, little rituals like this are great at getting the elephant in the room out. So it's like, \"Oh wow, we have a huge spread on this one particular problem. You think it's a huge problem. I don't think it's a problem at all. Let's talk about it.\" Going back to the thesis of turning ambiguity into clarity, a lot of this is like we're trying to get the ambiguous stuff out there so that we can make it more clear. (00:49:03): And so I use that as an example because you can be a brand new PM, run a brainstorm, run a planning session like that, and you're probably going to get great feedback. People are probably going to go, \"This is cool. I've never done this before.\" Now to go to the other side of the spectrum, we help a lot of companies that want to remake a whole process. They want to remake a review system like Catalyst or they want to remake their decision rituals. And so in that sense, we're usually talking to a head of product or director of product or VP of product and someone who tends to have a lot more agency over the way that the team works.",
+   "zh": "这种仪式本质上是，你可以选取任何一组需要收集意见的问题、解决方案或主题，然后把它们列入表格，人们可以用“美元投票”进行决策，通常每人分配100美元。人们会逐一投票，比如：“我愿意为这个问题分配10美元，为那个问题分配20美元，为这个问题分配50美元，因为我认为它很重要。” 我发现这种仪式特别适用于规划过程，能把潜藏的矛盾暴露出来。比如：“哇，我们对这个问题的看法分歧很大。你觉得这是个大问题，而我根本不认为这是个问题。我们来讨论一下吧。” 回归到将模糊性转化为清晰性的核心理念，关键在于把模糊的问题暴露出来，让大家更清楚状况。（00:49:03）：所以我以这个为例，因为你可以作为新入职的PM，组织头脑风暴或规划会议，通常能获得很好的反馈。人们可能会说：“这太酷了，我从没这么做过。” 再说另一个极端，我们帮助很多公司彻底重建整个流程。他们想重建Catalyst这样的评审系统，或者重建决策仪式。在这种情况下，我们通常与产品负责人、产品总监或产品副总裁合作，这些人对团队的工作方式有更大的决策权。",
+   "ts": "00:48:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Coda is interesting in that it feels like you have pretty stable processes for planning and reviews. I find most companies just every six months rethink a lot of these things. I guess that's probably a sign that you found something that's really good and works and you don't have to redo it. How much are you radically changing the way you operate versus working in similar ways? How do you think about that percentage wise?",
+   "zh": "Coda的有趣之处在于，它似乎有相当稳定的规划和评审流程。我发现大多数公司每六个月就会重新审视这些流程。这或许说明你们找到了真正有效的方案，无需反复改进。相较于彻底变革，你们在多大程度上保持了原有模式？从比例上看，你们是如何考虑的？",
+   "ts": "00:49:48"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "People are always coming up with new creative ways to make their teams run better, make decisions go smoother. And we're continuously adopting those, but there's definitely a backbone of the system. The backbone of the system is Catalyst and tag-ups and the concept called Bullpen. And then there'll be a lot of iteration on top of that. And even those systems went through a lot of iteration. I talked about how the calendar hold got removed and then individual topics got added. That took us launching automations and the ability to add things to calendar in order for that whole process to really work. So in the years prior to us launching that, we did it very manually. So I think there's still a lot of creativity that I see every day. (00:51:06): So I'll give one quick example. One of our PM leads on core product, this guy Nathan, he basically saw that a lot of decisions had a lot of different stakeholders because he's in the core product. And now he's leading the core product team so he's trying to figure out what guidance do I give to each of these PMs on who to involve in these decisions? Because every one of these with core product feels like they impact everybody. And so a very simple thing that he did probably in the last six months was he had a table of all the upcoming decisions and then at a tag-up ... Which I can explain if you want. But basically with a small set of stakeholders, he had all the upcoming decisions and then he let people hit a little reaction and say, \"Oh, I don't need to be involved. Just notify me of the decision after.\" Or, \"Hey, I have some opinions, but you can keep going.\" Or, \"No, I really want to be heavily involved in this decision.\" (00:52:10): And it was such a pro move. It was such a, I've been through a million of these. I don't want to treat every one of them the same because if I do, it's going to slow down the velocity of this whole organization. And so instead, the majority of those, Shishir or I or Oliver, the head of engineering will say, \"I may have some opinions, but keep going.\" That's often the default. And then there are plenty where we say, \"Just notify us of the decision after.\" And in doing that, Nathan can now give better guidance to the PMs on his team and say, \"Hey, you don't really need to involve as wide a group as you think, so just keep going and check in later.\" So I think those types of little iterations are usually based on a really good insight.",
+   "zh": "人们总是在想出新的创新方法，让团队运作更高效，决策更顺畅。我们一直在采纳这些方法，但系统的核心架构始终不变。系统的核心架构包括Catalyst、Tag-ups以及名为Bullpen的理念。除此之外，系统还需要不断迭代。就连这些系统也经历了多次迭代。我曾提到过日历持有功能被移除，随后又添加了单独的主题。这就需要我们推出自动化功能，并能在日历中添加内容，才能让整个流程真正高效运转。在推出这些功能之前的几年里，我们都是手动操作的。所以我认为每天都能看到很多创新之处。\n\n（00:51:06）：我举个快速例子。我们的核心产品PM负责人Nathan发现，由于他身处核心产品团队，许多决策都涉及多个利益相关方。现在他领导着核心产品团队，试图为每个PM提供指导，告诉他们在这些决策中该邀请谁参与？因为核心产品团队的每个决策都感觉会影响到所有人。过去六个月里，他做了一件很简单的事：制作一张即将做出的决策清单，然后在Tag-ups会议上……如果您想了解具体过程，我可以解释。但基本上，他会让一小部分利益相关方参与其中，列出所有即将做出的决策。参与者可以点击反应按钮，选择“我不需要参与，直接通知我决策结果即可”、“我有一些意见，但你可以继续推进”或“不，我真的想深度参与这个决策”。\n\n（00:52:10）：这真是高明之举。我经历过无数类似情况。我不想对每个决策都一视同仁，因为那样会拖慢整个组织的运转速度。因此，大多数情况下，Shishir、我或工程部主管Oliver会说：“我可能有一些意见，但继续推进吧。”这通常是默认回应。当然，也有许多情况下，我们会说：“直接通知我们决策结果即可。”通过这些举措，Nathan现在能为团队中的PM们提供更好的指导，告诉他们：“其实不需要让那么多人参与，继续推进后续再沟通。”所以我认为这些小小的迭代通常基于深刻的洞察。",
+   "ts": "00:50:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It sounds like a dream come true for a platform team to reduce how many people have to be involved in all your planning and decision making. And that process in which you call it tag-up, maybe just briefly explain it and then I want to talk about this handbook you're working on, which is going to I think, cover a lot of these things.",
+   "zh": "对于一个平台团队来说，减少参与规划和决策的人数听起来像是美梦成真。而你们称之为Tag-ups的流程，能否简要解释一下？然后我想谈谈你们正在编写的手册，我认为它会涵盖很多这方面的内容。",
+   "ts": "00:53:02"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Tag-up is based on this insight that a lot of work and project work tends to get discussed in one-on-ones. And actually it's really an anti-pattern. It's a pattern you should try to avoid. So if you're talking to your manager about product work, what's not happening in that moment is your eng lead and your design lead, they're not hearing that. And so you end up with this big game of telephone where you'll have a conversation with your manager in a one-on-one, they'll go back and translate to their engineering and design lead, and of course the fidelity of the game of telephone, something is lost in all of those transmissions. And so the core idea is have a group one-on-one with the key stakeholders. And so we have this concept of braintrust that's modeled off after Pixar's braintrust. (00:54:11): And so we'll have a tag-up with a small set of people from a given team, or sometimes we have larger groups, and then they meet with their braintrust and it's once a week. It's the same mindset of a one-on-one. It's their time. So anything that they need to unblock a decision or to make progress, they should use that time for. And they often start by reviewing OKRs and metrics and things like that. But then we generally get into a table of topics. Anyone can add a topic. Those topics are up voted, so people will react and then the table will sort itself. And then we'll say, \"Okay, this is clearly the topic on people's mind.\" And that's a version of what we call Dory, which I can talk about. But essentially the principle is you should discuss that project work with the whole group there. With the whole triad there. And oftentimes with the sales person there and with the marketer there and with everybody else. So I found that that is just a really good practice to try to move a lot of that work out of one-on-ones and into a small group setting.",
+   "zh": "标签会议（Tag-up）的核心理念源于这样一个观察：许多工作和项目讨论往往是在一对一的会议中进行的。但这其实是一种反模式，是我们应当避免的做法。举个例子，如果你和经理讨论产品工作，此刻工程主管和设计主管并未参与讨论。于是整个过程就如同玩\"传话游戏\"——你和经理一对一沟通后，他们再将信息传达给工程和设计团队，信息在层层传递中难免出现偏差。因此，关键在于与核心利益相关者进行集体一对一会议。我们借鉴皮克斯的\"智囊团\"模式，定期组织小型团队的标签会议（每周一次），共同探讨项目进展。会议遵循一对一的核心理念——这是属于团队成员的专属时间。无论是破解决策障碍还是推进项目进展，都应充分利用这段专属时间。会议通常从复盘OKR与关键指标开始，随后进入主题讨论环节。任何人都可以提出议题，议题会通过投票机制筛选，最终汇总出团队关注的核心议题。这套机制被我们称为\"多莉法则\"（Dory），我稍后会详细介绍。但核心原则是，所有项目讨论都应在完整的三角团队（工程、设计、产品）参与下进行，必要时可邀请销售和市场人员等多方参与。我发现这种模式能有效将一对一会议中的大量工作转移至集体讨论平台。",
+   "ts": "00:53:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Okay. So you're working on a handbook that's collecting a lot of these rituals. Talk about that and then when can people maybe look for it?",
+   "zh": "太棒了。好的，那你正在编写的手册里汇集了很多这样的实践流程。能讲讲这个手册的情况吗？什么时候能让大家看到？",
+   "ts": "00:55:26"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "One of the realizations I had the other day, probably a month or two ago when we started working on this thing, was I was talking to someone about Catalyst and a couple other concepts, and they were like, \"I get it. I'm sold. I want to implement some of these things. Where do I look?\" And so I found myself sending them a bunch of links to individual templates. So that cued us into the fact that we needed to have a better core handbook for teams that wanted to adopt some of these rituals and also learn from all the rituals that we have learned from and feel very fortunate to have partnered with so many customers on. And so what we did was started writing this handbook, and it's going to come out hopefully by the time this recording is done. And in it, we'll talk about everything from rituals like Catalyst to decision rituals to a lot of planning and strategy and roadmaps, that kind of stuff. And trying to pull out the most interesting patterns and also give people a pretty practical view of how to implement these things. I think that's what has been lacking sometimes.",
+   "zh": "最近我意识到一个问题，大概是在一两个月前我们开始做这件事的时候。当时我和某个人聊到Catalyst和其他一些概念，他们说：\"我懂了，被说服了。我想实施其中一些东西。去哪里找资源呢？\"于是我发现自己只能给他们发一堆单独模板的链接。这让我们意识到，确实需要为想采用这些实践的团队准备一份更完善的核心手册，同时总结我们从客户身上学到的成功经验。于是我们着手编写这份手册，希望能在本次录制结束前发布。手册将涵盖从Catalyst这样的流程，到决策机制，再到规划、战略和路线图等多个方面。我们会提取最有趣的实践模式，并为大家提供切实可行的实施指南。我觉得这正是当前实践中常常缺失的部分。",
+   "ts": "00:55:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. We'll definitely link to that. Hopefully it's live by the time goes out. We'll make it happen. I know also you said Shishir's working on a book that's related and basically rituals of great teams and Shishir was on the podcast and he talked about Dory, so we don't have to get into that. If people want to learn about Dory, they can watch that episode. It was one of the earliest episodes actually. One of the most popular.",
+   "zh": "太棒了。我们肯定会把这篇文章链接起来的。希望它能在节目播出前上线。我们会确保做到的。我还知道你提到希希尔正在写一本相关书籍，主要讲伟大团队的仪式流程。希希尔上次参加播客时提到了多莉（Dory），我们就不必再多说了。如果有人想了解多莉，可以去看那期节目。事实上那是我们最早的节目之一，也是最受欢迎的节目之一。",
+   "ts": "00:56:50"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. I remember that.",
+   "zh": "是的，我记得。",
+   "ts": "00:57:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Cool. I have a bunch of random questions now. I'm just going to go in a few different directions. One is, you wrote this post that you call Learn by Making, Not Talking. Is that another principle by the way? Is that amongst your many principles?",
+   "zh": "好的，太棒了。我现在有几个随机的问题。我想从几个不同的方向入手。第一个问题是，你写了一篇名为《以实践而非空谈来学习》的文章。这是你的另一条原则吗？是你的众多原则之一吗？",
+   "ts": "00:57:11"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:57:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Awesome. So in that post, which we'll link to, you share this story of how you and the YouTube team came up with skippable ads, which I didn't realize it was such a controversial ... But in thinking about it, obviously letting people skip ads, I could see why people were not excited about that. Could you just tell that story? And basically it's like the story of how skippable ads on YouTube came about?",
+   "zh": "好的，太棒了。在那篇文章里（我们会链接的），你分享了你和YouTube团队如何开发跳过广告功能的故事。我之前没意识到这曾引发那么大的争议……但仔细想想，让用户跳过广告，我能理解为什么人们对此不感兴趣。你能讲讲这个故事吗？基本上就是YouTube跳过广告功能的诞生过程吗？",
+   "ts": "00:57:24"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. So I moved over to YouTube shortly after the acquisition. It was an amazing tight-knit team. It definitely felt like the Wild West. We were getting sued by Viacom for a billion dollars when that was a lot of money. No advertiser wanted to talk to us. It was essentially viewed as a site of cat videos and dogs on skateboards and things like that. And then I guess the other context, the sales team was very nascent and all they wanted to sell was the homepage and for good reason. That was where you made your money as a salesperson. And so I had just been sponsored by Salar and Shishir to become a PM. It's a longer story that I'll leave out for now and we can go into. But on day one of being a PM, Shishir's like, \"Great. You're the new guy. You get the project that nobody else wants and that's called skippable ads. And we've got this crazy idea that we can align the incentives of advertisers and viewers and creatives in this really clever way by putting a skip button on the ad and then charging people per views.\" And the latter part we hadn't quite cemented yet, but it was part of the core idea. (00:59:04): And so the thing I write about in this post is as a new PM, this feels like a really consequential decision. It's like we've got this new product idea. Nobody really wants it. Advertisers don't want it. The sales team doesn't want it. And it's a very unproven thesis. And so the thing I write about is these are the types of things that you can debate for months or years. And I was sitting in a one-on-one with this guy named Phil Farhi who's an amazing product leader and was my boss at the time. And we're trying to figure out what to do and how to handle all the different dynamics. And he just stops and he's like, \"You know what? Just test the extremes. Start the experiment tomorrow. We'll figure it out.\" Essentially. (00:59:49): And I think his point was like, look, we can debate this forever. So I would rather us see the upper and lower bounds of how good this could be or how bad this is going to be immediately. And so we launched a set of experiments. This guy Jamie Kerns who's still there. Tiny little skip button on one experiment, giant skip button that covered the entire player on the other side of the experiment. And within a few weeks, I think we had developed some conviction based on some very directional data that we were onto something. And so the lesson that I took, this is many years ago and I've seen this proven out hundreds of times since, is stop talking about it and go make something. Go run an experiment. Go make a prototype, go write a doc, go make a mock. Just don't talk about it. (01:00:49): And I found that also as a leader, people really follow that concept. And I also found that it transcends level. I am not talking just to ICPMs. I'm talking to heads of product and CPOs and CEOs to some degree. You should always be out there trying to learn by expressing your ideas and putting them out there. And that's much more valuable in many cases than pontificating about it or having endless circular discussions on it.",
+   "zh": "是的。收购完成后不久，我就转到了YouTube。当时那是一个非常紧密团结的团队。整个氛围就像狂野西部。当时维亚康姆（Viacom）起诉我们索赔十亿美元——那可是一大笔钱——而且没有广告商愿意和我们合作。人们普遍认为YouTube就是个放猫视频、狗狗玩滑板之类内容的网站。再说销售团队当时还很不成熟，他们只想卖首页广告——这确实是个赚钱的好方法。后来Salar和Shishir资助我成为产品经理。这是个很长的故事，暂且不表。但我刚上任产品经理的第一天，Shishir就对我说：“不错，你是新来的。接手一个没人要的项目——可跳过广告。我们的核心理念是，通过在广告上加跳过按钮，再按次数收费，让广告商、观众和创作者的利益达成完美平衡。”后半部分我们当时还没完全确定，但这是核心思路的一部分。（00:59:04）：我在这篇文章里写道，作为新任产品经理，面对这个新产品理念时，感觉这是一个非常重要的决策。没人看好它，广告商不买账，销售团队也反对，而且这还是个未经证实的理论。所以我写到，这些都是可以争论数月甚至数年的问题。当时我和产品负责人Phil Farhi单独谈话，他是个很棒的产品领袖，也是我当时的上司。我们试图理清各种复杂因素。他突然停下来说：“知道吗？直接测试极端方案。明天就开始实验。边做边调整。”大致就是这个意思。（00:59:49）：他的意思是，讨论太久没意义，不如马上验证上限和下限。于是我们启动了一系列实验。其中一个实验是微小的跳过按钮，另一个实验则用巨大的按钮覆盖整个播放器。几周后，基于有指导性的数据，我们确信这个方向是对的。从中得到的教训是——这是多年前的事了，此后又验证了无数次——别光说不做，直接行动。做实验、写原型、写文档、做模型，别空谈。",
+   "ts": "00:57:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It makes me think a little bit about Twitter where they spent years just thinking about the edit button or all these different changes. They're so scared, they did so much research and then now they're changing things left and right. Everything's fine. Everyone's still using it. It shows you that you don't have to be so delicate.",
+   "zh": "这让我想起Twitter，他们花了好几年讨论编辑按钮和各种改动。太谨小慎微了，做了太多调研，现在又到处改动。一切安好，用户还在用。可见没必要太在意细节。",
+   "ts": "01:01:23"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yes. It's almost never as bad as you think it's going to be. So yeah, it's just a question of how much better it can be oftentimes.",
+   "zh": "是的。情况往往比你想象的要好得多。所以说，有时候关键在于它还能好到什么程度。",
+   "ts": "01:01:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned in your early career ... We talked about your Alaska guide phase. Something else I saw is that you were on the AdWords approval team. You basically were reviewing ads people submitted to run on AdWords and that's how you started in tech. So I guess first of all, is that true? And then second of all, how did you graduate from that phase and become this Chief Product Officer of one of the fastest growing, most interesting companies in the world?",
+   "zh": "你提到了自己职业生涯早期……我们之前聊过你在阿拉斯加做导游的阶段。我还了解到你曾在AdWords审核团队工作，当时你主要负责审核用户提交的AdWords广告，这就是你涉足科技行业的起点。首先，我想确认一下这是否属实？其次，你是如何从那个阶段过渡到如今成为全球增长最快、最具创新力的公司之一的首席产品官的呢？",
+   "ts": "01:01:46"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "That was a really memorable time. There's an amazing cohort of people that started in tech. I think there was 200 or 300 of us at that time and then eventually thousands that started in Sheryl Sandberg's organization. I guess maybe some quick context. Before running ads on google.com at that time, you had to have them manually approved by a human before that was handled by machine learning and outsourced to other countries. And so there was this process where basically an ad would show up on your screen, you would mark it family safe, non-family safe, porn. And then based on that, it would either run or it wouldn't. And actually, funny enough, some of my most successful friends were terrible at the approval event. They failed the rote task of approving ads. They just couldn't handle it and they went on to be really, really successful. (01:03:08): So after working on ad approvals, at that time, I moved to chat support. It was basically when AdWords was launching chat support. I remember very fondly having two chats, chatting with two advertisers at once. Moved on to phone support. That was eight hours a day of talking to AdWords customers. Really a total rollercoaster ride. It was basically one minute you would pick up the phone and it would be someone from a Fortune 100 company trying to spend millions of dollars on AdWords and then the next minute you would be on the phone with a psychic or a taxi driver that was warring with their compatriots over some really specific keyword. I think there were two lessons that I would draw from this. One is I had a mentor at the time and his advice when I was starting my career was basically you have to get customer facing from the very beginning because you're going to end up serving a customer your whole career. Even when you're the CEO of a company, you're going to be serving a customer. So you better get really good at being in any customer scenario and being able to handle it. And so I think that that turned out to be insanely good advice. And if I think about a piece of advice that I give out to people who are early in their career, I've definitely recycled that advice. (01:04:29): I think the other thing that I took away from that experience was it's just a great lesson in when people don't actually care about your product. So in AdWord's case, people did not care about AdWords. You were the expert on it and you're trying to tell them about ad groups and how this ad format works and blah, blah. And most of the time people are like, \"Dude, I'm a small business owner. I'm trying to get people to come to my auto mechanic store.\" Or, \"I'm trying to get people to come to my taxi service,\" or whatever it was. I don't care. Basically the product had to get out of the way and really just drive impact for the customer. It was like they just want more phone calls or they want more people in the store. So those are I think two pieces that I think about from those days still. (01:05:21): And then I worked in a variety of other roles. I worked in a role called product specialist, which is an awesome role back when there were 15 product specialists at Google. For me, that was an amazing time because I was getting to sit on seven or eight different core product teams. And in my observation, these days, most PMs don't get to sit on other people's core teams. And so I had these three or four years of just ... I call it a masterclass in PMing because I was getting to watch what was working for some PMs and what wasn't working for other PMs and just taking notes behind the scenes. So that was a really influential role. And then went on to various PM roles at Google and YouTube.",
+   "zh": "那真是一段难忘的时光。当时有一群了不起的人加入了科技行业。我记得当时我们大概有200到300人，后来谢丽尔·桑德伯格的团队又吸纳了数千名新成员。先说点背景吧。在谷歌广告平台投放广告时，广告内容必须经过人工审核才能上线，后面才逐渐引入机器学习技术并将审核外包给其他国家。当时的审核流程是这样的，用户看到广告后需要标注其是否适合家庭观看、是否不宜观看、是否包含色情内容。根据这些标注，广告要么被批准，要么被拒绝。说个有趣的事，我一些最成功的朋友在审核环节表现得很糟糕。他们连最基本的审核任务都完成不了，但最终还是取得了巨大成功。\n\n（01:03:08）：在负责广告审核工作后，我转到了聊天支持部门。当时AdWords刚推出聊天支持功能。我记得最难忘的经历是同时和两个广告主聊天，帮助他们解决问题。后来又转到电话支持部门，每天要接听八小时的AdWords用户来电。那种体验真是过山车般的刺激。前一分钟接到《财富》100强公司的电话，他们想花数百万美元投放广告；下一分钟又和某位灵媒或出租车司机争论某个关键词的排名问题。我从中总结了两点经验：一是导师曾告诉我，职业生涯初期必须亲自面对客户，因为你终身都要为客户服务——即便身为CEO，也要为用户创造价值。二是用户根本不在乎你的产品。在AdWords案例中，用户根本不关心产品本身。你讲解广告组、广告格式时，他们往往说：“老兄，我是小企业主，只想推广汽车修理店。”或者“我要推广出租车服务”等等。你得让产品退居二线，专注于为客户创造价值。\n\n（01:04:29）：还有一点启发是，当用户不在乎产品时，该如何应对。以AdWords为例，用户根本不关注技术细节。你要教他们广告组如何设置、广告格式如何优化，但他们只关心转化效果。比如“我要更多电话咨询”或“吸引更多店铺访客”。这让我意识到，产品必须让用户受益，满足他们的核心需求。\n\n（01:05:21）：后来我还担任过其他角色，比如产品专员。在谷歌早期，这个职位很棒，当时有15位产品专员。我能参与七八个核心产品团队的工作。如今大多数产品经理都无法跨团队协作，这段经历堪称产品管理的速成班，让我深刻理解了优秀PM的标准，也总结了失败案例。\n发挥了重要影响力。随后，他在谷歌和YouTube担任了多个产品经理职位。",
+   "ts": "01:02:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Coming back to noticing. It comes up again and again in our chat. This is so interesting because it feels like you basically came from the mail room of tech to the top of the product field. And so I think there's a lot of inspiration people can take from this journey. One quick question is how long was that journey from not being a PM, from I guess being at a tech company to getting your first PM role? Just to give people a sense.",
+   "zh": "回到\"洞察力\"这个话题。这在我们的对话中反复出现。这很有意思，因为你似乎从科技公司的邮件收发室一路攀升至产品领域的顶端。我认为这个经历能给很多人带来启发。想快速问一下：从不做产品经理，到加入科技公司，再获得首个产品经理职位，这段历程持续了多久？让大家有个概念。",
+   "ts": "01:06:09"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Let's see. I probably worked for at least four, five years before being able to move to PM and I think that was a slightly harrowing journey because at the time, you had to have a computer science degree.",
+   "zh": "让我想想。我大概花了四五年时间才转到产品经理岗位，这段历程相当曲折，因为当时你必须拥有计算机科学学位。",
+   "ts": "01:06:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "At Google. Right. Cool. So I think that's one takeaway too is give it time. It's not going to happen. There's a lot of people that are just like, \"I need to become a PM immediately.\"",
+   "zh": "在谷歌。是的。不错。所以我觉得另一个启示是耐心等待。这事急不得。很多人一心想\"我必须马上成为产品经理\"。",
+   "ts": "01:06:46"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Totally.",
+   "zh": "完全赞同。",
+   "ts": "01:06:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that's a good example of it's not going to happen overnight. Coming back to your two lessons, I think they're really interesting and I'm curious if there's anything else that comes to mind of what you found was essential to you succeeding in this path? So the first lesson you shared as being customer facing. And in this case being in retail as customer facing, is your advice get in a tech company and work on something customers use or is even working at Starbucks or Abercrombie, does that count?",
+   "zh": "我觉得这很好地说明了成功之路并非一蹴而就。回到你提到的两个经验教训，真的很有意思。我很好奇是否还有其他关键因素助你在这条道路上取得成功？第一个经验是以客户为导向。就零售业而言，身处客户前线岗位，你的建议是进入科技公司参与客户使用的产品开发，还是在星巴克或Abercrombie这样的零售店工作也算数？",
+   "ts": "01:06:56"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. I think maybe to relate it to what you just said, if I were to give advice to someone who really aspires to be a PM or trying to get into PM, I think in many cases if you're in a customer facing role, you are the expert on the customer and that is really, really valuable in tech organizations. And oftentimes it's undervalued. And so I think people who want to move into PM roles who are not currently in PM roles can often lever that experience and that knowledge of the customer in ways that are pretty profound for the organization and pretty insightful for the organization if they really are creative about it. And then I think the other thing is, regardless of where you are in the organization, you're always serving a customer. You can't just talk to one big enterprise customer and you can't just talk to the smallest customer. You have to have a diverse and continuous stream of customer interactions in order to have good intuitions about what to do next. And your engineers aren't going to really trust you unless you have good intuitions about where the customer's headed and what they want and stuff like that. And so the stakes I think are pretty high. The good news is it's easier than ever with all these tools to really get into the mindset of a customer.",
+   "zh": "是的。我觉得可以结合你刚才的观点来回答。如果要给那些渴望成为产品经理或正努力进入产品经理岗位的人建议，我认为在很多情况下，如果你身处客户前线岗位，你就是客户的专家，这在科技公司中非常宝贵，却常被低估。因此，非产品经理背景的人若想转入产品经理岗位，完全可以通过创造性地利用这些客户洞察，为组织创造深刻价值。另一个关键点是，无论你在组织中处于何种位置，你始终在为客户服务。你不能只与一个大型企业客户沟通，也不能只与最微小的客户交流。你需要持续且多样化的客户互动，才能准确把握下一步行动的方向。除非你对客户的需求和偏好有深刻洞察，否则工程师们是不会真正信任你的。所以，挑战确实很大。好消息是，借助各种工具，深入理解客户需求比以往任何时候都容易。",
+   "ts": "01:07:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "My lesson touches on something a previous guest talked about, Paige Costello, where she was often the youngest person in the room and built a lot of respect and people really trusted her over time. And her lesson was know thy customer. If you know the most about what they need, and you can show, here's what I've heard again and again and again, people will just like, \"Oh Lane, tell us more.\" And they bring you into conversation because providing value, you're not just there sharing opinions. Everyone's got opinions.",
+   "zh": "我的经验与前嘉宾佩奇·科斯特洛（Paige Costello）提到的相契合。她常是房间里最年轻的人，但通过持续积累尊重，最终赢得了大家的信任。她的秘诀是了解客户需求。如果你最了解他们的需求，并能展示出来，正如人们一次又一次听到的，大家会说：“哦，莱恩，多讲讲。”因为你提供的价值远不止是分享观点——每个人都有自己的观点。",
+   "ts": "01:08:47"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "That's basically how both me and ... I had a friend named Bill Ferrell who transitioned into PM at the same time and that's essentially how we got the try at being a PM inside of Google was we knew the customer really, really well and we were often in conversations bridging the gap from here's what I think they're really saying, or here's what I think we should build based on what they said.",
+   "zh": "基本上，我和……我有个朋友叫比尔·费雷尔，我们同时转型成为产品经理。实际上，我们在谷歌内部获得成为产品经理的机会，是因为我们对客户的需求非常了解，经常通过对话来缩小沟通差距。比如，我们会分析客户真正的需求，或者根据他们的反馈来规划产品功能。",
+   "ts": "01:09:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The other thing I wanted to mention, you talked about the product and how a lot of customers don't care about the product, they just care about just I need this thing done. It reminds me at Airbnb, we hired this guy, Chip Connolly, who was a hotelier. He created the Joie de Vivre hotel chain and just is steeped in hospitality. And he came to Airbnb and started doing this worldwide tour talking to hosts. And he's just like, \"Guys, when you talk about product, you're telling hosts, 'Hey, the product's going to be updated. We're going to launch all these features.', they think their home is the product of Airbnb. They don't understand what you're talking about when you're talking about the online experience and the website. That's the last thing they think about. It's the experience of someone traveling on Airbnb and staying in their home.\" So I think it's a really good reminder of most people don't care about the product. They just have this problem and you just happen to be this website that'll help them solve it.",
+   "zh": "还有一点我想说，你提到产品经理需要关注用户需求，但很多客户并不在乎产品本身，他们只想尽快完成任务。这让我想起Airbnb的故事。我们曾聘请了酒店业资深人士奇普·康诺利，他创立了Joie de Vivre酒店集团，对酒店业有着深刻理解。他加入Airbnb后，全球巡讲与房东沟通。他发现，当你谈论产品时，房东只会想：“产品要更新啦？这些新功能什么时候上线？”他们以为自己的房源就是Airbnb的产品，而你提到的在线体验和网站改进对他们来说根本无关紧要。用户真正关心的应该是Airbnb平台上房客的体验。",
+   "ts": "01:09:41"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I think most people can be way more concise with their communication. Even internally, people don't care. You should assume that people don't care. Or if you're talking to customers, writing a blog post for customers, you should assume that they don't care. When you start with that assumption, you really force yourself to be a little bit sharper in your communication style.",
+   "zh": "我认为大多数人本质上不关心产品，他们只想解决眼前的问题。你需要假设用户对产品并不感兴趣。即使是内部沟通，同事们也未必会仔细聆听。你得时刻保持简洁明了。面对客户时，写博客文章时，也要以用户为中心，避免复杂化。",
+   "ts": "01:10:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And one final question before we get to our very exciting lightning round. I heard a story that at Coda there's this moment called Tim Ferriss Day that drove a lot of traffic. Can you share that story? Does that ring a bell?",
+   "zh": "在进入激动人心的闪电问答环节前，最后再问一个问题。我听说Coda有个叫“蒂姆·费里斯日”的活动，吸引了大量流量。你能分享一下这个案例吗？听起来挺耳熟的。",
+   "ts": "01:10:53"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. There's lots of memorable days at Coda. One of them was Tim Ferris Day. So I guess maybe for context, we had built this very nascent publisher motion where we were going out and helping people publish their rituals. And this is what you see in the Coda Gallery and a lot of what we talked about today. But we had this one person on that team, this guy Al Chen, Tim Ferriss fan, and also I think had been really tenacious with the people around Tim Ferriss and basically finally got an in to him and figured out a really neat way to implement one of his rituals and wrote a doc. And so none of us really knew this, but this was all happening. And anyway, we wake up one morning and traffic is just spiking through the roof, signups are spiking, no one knows what's going on. (01:11:59): I'm convinced this is all spam. I'm like, \"Something's wrong with our data or something's going haywire.\" At the time, we were also in the China Basin office and the fire alarm went off. And so now we're outside on our laptops. We were in a war room trying to figure out what was happening and now we're outside trying to figure out what's going on. So anyway, make a long story short, data scientists investigate and we eventually figured out that we had been featured in Tim Ferriss' email newsletter and I think early on you hear this lesson or this adage of first time founder, build a great product, second time founder, build a great distribution. I think that was one of those early big cues to think about the importance of content distribution and the importance of these publishing flywheels. And it definitely made us double down. We're like, \"Okay, if we can do this with Tim Ferriss, what's next?\" And we definitely spent a few months trying to reach that high watermark that was set that day in traffic and sign-ups. So it was a fun memorable day and people for the subsequent one or two years would refer to it as Tim Ferriss Day.",
+   "zh": "是啊。在Coda有很多难忘的日子。其中之一就是“蒂姆·费里斯日”。所以我猜可能需要先解释一下背景，当时我们刚建立了一个新兴的出版平台，致力于帮助人们发布他们的日常仪式。这在Coda画廊里能看到，也是我们今天讨论的主要内容。但团队里有个叫阿尔·陈的成员，他是蒂姆·费里斯的粉丝，一直不懈地与蒂姆团队接触，最终成功获得了独家访问权，并想出了一个巧妙的方式来实施他的一个仪式，还写了一份文档。我们当时都不知道这些事正在发生。（01:11:59）：我当时坚信这都是垃圾邮件。我想，\"我们的数据肯定出问题了，或者系统崩溃了。\"那时我们还在中国湾区办公室，火警警报突然响了。于是我们就坐在外面的笔记本电脑前，原本在开战室分析情况，结果现在又要在户外继续排查故障。总之长话短说，数据科学家调查后发现，我们被列入了蒂姆·费里斯的邮件通讯。这让我想起了创业者的经验之谈：第一次创业，专注产品；第二次创业，重视分发渠道。这件事让我深刻认识到内容分发和出版飞轮的重要性，也促使我们加倍努力。我们当时想，\"既然能和蒂姆·费里斯合作，那接下来该做什么？\"接下来的几个月，我们一直致力于复刻那天创纪录的流量和注册量。这真是难忘的一天。接下来的一两年里，人们都称之为\"蒂姆·费里斯日\"。",
+   "ts": "01:11:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So funny. I bet Tim Ferriss had no idea what he did.",
+   "zh": "太有趣了。我敢打赌蒂姆·费里斯根本不知道自己做了什么。",
+   "ts": "01:13:15"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "No idea.",
+   "zh": "不知道。",
+   "ts": "01:13:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hoping you have a Lenny's podcast day once this comes out. Everyone's going to be freaking out. What is going on here? Is there anything else you wanted to share before we get to our very exciting lightning round?",
+   "zh": "希望这期播客播出后，你也能有自己的“蒂姆·费里斯日”。大家都会兴奋不已的。这到底怎么回事？在我们进入激动人心的闪电问答环节之前，你还有什么想分享的吗？",
+   "ts": "01:13:19"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Maybe we're talking really briefly about two-way writeups.",
+   "zh": "或许我们可以简单聊聊双向写作。",
+   "ts": "01:13:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, let's do it. I had that in my notes, but I skipped it, so I'm glad you mentioned it.",
+   "zh": "好的，那就来吧。我之前在笔记里提到过，但跳过了，很高兴你提起了。",
+   "ts": "01:13:33"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Cool. Yeah, I mean this is a concept that I wrote a bunch about and I often now get asked about, and I guess maybe the historical view of this, I got really obsessed with the history of how work gets discussed and decided upon and broke it down into three phases. And so the first phase was 1980s we had PowerPoint. It was this amazing tool. You could manipulate shapes on a screen and we were all using fancy clip art and it was really fun, but we've all had the experience of being in a really long PowerPoint presentation and someone's droning on in their slides and stuff like that. Second phase is in the early 2000s, two things converged. One was Google bought this company called Rightly that became Google Docs. So instead of having Word on your desktop and sending files around you now had online collaborative editing. (01:14:35): And the other thing was Jeff Bezos sent this very famous memo, which basically said no more PowerPoint at Amazon. And what that did was started in earnest their six pager ritual. You can read all about this in the book Working Backwards. It's a really good book. Colin Breyer's book. And so that started I think what I'll call the one-way writeup phase, which is you're writing down your ideas, you're expressing them clearly. It's in prose so you have to be really clear. That was a big step up I think from always presenting work and deciding on work via presentations. And then the thesis is that we're in the midst of a new phase, which is essentially two-way writeups and that's where it's more conversational and feedback and discussion is actually part of the content itself. So that's the broader historical arc. But if you think about it, PMs and product people are always at the brunt. (01:15:31): They feel this the most because they're the ones that are driving decisions and really the ones that are driving discussions oftentimes in companies. And so I think the problem with one-way writeups I felt very deeply at Google and YouTube. And just to name them, the first one is you would always be trying to figure out who's read your write-up. So I have many memories of sending a write-up out at 11:30 PM and then waiting patiently for the avatar of the SVP in my area to show up in there. And that was a sign that they had read it, which is just totally insane if you think about that behavior. The second one is you end up having a lot of the discussion in the comments itself. So this is a space that's really built for grammar and spell checking and things like that. And you're having these really meaningful discussions in this a hundred pixel right margin. (01:16:30): And part of that I think is there are all these questions that are being raised, and so you have really no idea what the most important question is. And so if you're facilitating those discussions in one way writeups, you're often going through the comments in the 20 minutes before that session trying to figure out which one of these do I want to address. And then the other behavior, and I don't know if you've ever seen this in a doc, but in one way writeups that you see a lot is there'll be just a mega comment thread on the title of the doc. And people are like, \"I don't think we should do this,\" or you'll get into this 30 comment thread on the title because that's the best place to put your overall thoughts. And I saw this pattern all the time. So if you live that life, I think the world of two-way writeups and the way that I think a lot of our customers are doing it, and you can do this on other tools besides Coda too, I think is quite a bit better. (01:17:26): I guess the alternative to go down that list is you have a done reading button at the end of a writeup. So now you can say, oh, these are all the people that have read this. And I think even you see a pattern in some of our customers where if it's a particularly long writeup, you'll have three done reading buttons so you can see where everyone has gotten to. And then the second thing is making sure that you're actually addressing the most important question. So instead of pulling questions out of the comments and trying to figure out which one to address, just putting those in a table and then letting people upload those. And that's what we call Dory. And then I think probably the most valuable is sentiment or pulse, which is, well, how do you feel overall about this particular proposal? (01:18:13): And if you think about the contrast between a comment thread on the title and seeing a list of all the sentiment, how everybody feels about this proposal and really being inclusive to the entire audience is just wildly different. I think in my particular experience. I'll give you one example. I wrote this proposal, this is now a couple years ago. I thought it was going to sail through no problem. I thought it was going to get four out of five and five out of five smiley faces from everybody. That's sort of how the sentiment table works. And one of the lead designers basically said, \"One smiley face. We shouldn't do this.\" And I was like, oh man. This particular person's not really vocal in meetings. And so I would not have heard that feedback. It was very unlikely I would've heard that feedback unless they had had a sentiment table, a place to add that. And so I think the punchline on all of this is I really authentically believe that this is where we're headed and hope that a lot of PMs and product teams adopt this in general.",
+   "zh": "太棒了。是啊，我写过很多关于这个概念的文章，现在经常有人问起。我想从历史角度来讲，我对工作讨论和决策方式的演变特别着迷，并将其分为三个阶段。第一个阶段是1980年代，我们有了PowerPoint。这是一个很棒的工具，你可以在屏幕上操作图形，大家都用着花哨的剪贴画，玩得很开心。但我们都经历过那种冗长无聊的PowerPoint演示——讲者在幻灯片上念念叨叨的情况。\n\n第二个阶段是21世纪初，两个因素交汇。一个是谷歌收购了Rightly公司，后来发展成Google Docs。人们不再在桌面端使用Word处理文档，而是转向在线协作编辑。（01:14:35）另一个是杰夫·贝索斯发了一份著名的备忘录，宣布亚马逊禁止使用PowerPoint。这开启了他们标志性的\"六页文档\"流程，详情可参阅科林·布雷耶的《Working Backwards》一书。这本书很棒。接着是\"单向写作阶段\"——你把想法写下来，用清晰的文字表达。这比传统的演示和决策方式有很大进步。现在我们正迈入新阶段，即\"双向写作\"，讨论与反馈成为内容的核心部分。\n\n从更宏观的历史视角看，产品经理和项目经理往往首当其冲。他们在推动决策和公司讨论中发挥关键作用。我在谷歌和YouTube深有体会。单向写作的两个痛点：一是不知道谁读了你的文档。我曾深夜11点30分发送文档，焦急等待区域SVP的头像出现，确认阅读状态。二是评论区沦为讨论主场。这里本该是语法校对的地方，却承载着深度讨论。100像素的右边距实在难以容纳有意义的交流。\n\n另一个问题是，讨论往往聚焦于标题评论区，人们用长篇大论来表达总体观点。这种行为在Coda等工具中屡见不鲜。我认为双向写作更胜一筹，许多客户正在实践这种方式。关键在于：1. 明确最重要的问题；2. 提前组织讨论焦点；3. 避免评论区沦为标题讨论的战场。\n（01:17:26）：我想，处理这份阅读列表的另一种方式是在文档末尾添加一个“已完成阅读”按钮。这样一来，你就能看到所有读过这份文档的人。我相信你们中有些人也注意到，我们的客户群体中存在这样一种现象：如果一篇文章特别长，就会有三个“已完成阅读”按钮，这样你就能清楚大家读到了哪部分。第二点是确保你真正解决了最关键的问题。与其从评论中挑选问题再去思考该如何回应，不如将这些问题整理成表格，让大家自行上传。这就是我们所说的Dory功能。最有价值的功能当属情感分析或脉搏监测功能，即大家对某项提案的整体看法如何？（01:18:13）：试想一下，标题下方的评论区和展示所有参与者对该提案反馈的列表之间的对比，完全是天壤之别。在我个人经历中，我举个例子。我写的这个提案已经是几年前的事了。我原本以为它会轻松通过，得到每个人四星五星的评价。但情感分析表格显示只有一颗星，设计负责人直接说：“不能这么做。”当时我心里一沉。这位设计师平时在会议上不怎么发言，如果没有情感分析表格，我根本听不到这样的反馈。所以我认为最关键的一点是，我真心相信这就是我们未来的发展方向，希望更多的产品经理和产品团队能普遍采用这些工具。",
+   "ts": "01:13:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm so glad that we touched on it and there's a template or an explanation of this that you wrote up that we'll link to. Yeah.",
+   "zh": "真高兴我们提到了这一点，而且你写的模板或解释我们会附上链接。太好了。",
+   "ts": "01:19:23"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Great. Yeah.",
+   "zh": "太棒了。是的。",
+   "ts": "01:19:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Is there anything else that you think that we should touch on that we haven't touched on?",
+   "zh": "太好了。你觉得还有什么我们没提到但应该提一下的点吗？",
+   "ts": "01:19:32"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. I think one thing that we've discussed before is just about strategy and planning and stuff like that. So it may be useful to touch on a couple of insights there. I think there's two insights in the strategy and planning thing. And this is again in the handbook that we're writing, but the first that I end up seeing a lot is just this idea that OKRs are not actually strategy. So I think the way that we plan and the way that our customers plan, the key point is it's critical to disconnect strategy discussions from OKR discussions. And it sounds really obvious, but it's I think a very common mistake. And I think a really simple question to ask yourself is do we have a separate strategy process or strategy ritual that is distinct from OKR setting and metric setting and goal setting? And I have found you can pick whatever strategy framework works for you, but I do think it's quite important to pull those two things apart. (01:20:43): The other rule that we live by on the planning side is what we call a 10% planning rule, which is essentially just ensure that you're not for a given time period planning for more than 10% of that execution period. And I think this is a really easy mistake to make. I mean, this is a hard fought rule because we've made that mistake before. But you end up getting bogged down in planning or saying, planning felt rushed and so we need to make it three weeks instead of one week or whatever. And the byproduct of that over the course of a lot of time is that you end up just planning way too much and oftentimes you really don't know what's ahead until you've launched or learned something. And so I think that's a pretty good rule to follow.",
+   "zh": "有的。我觉得我们之前讨论过的一个点是战略和规划之类的。所以再提几点见解可能会有用。我觉得战略和规划这块有两个关键点。虽然这部分内容也在我们正在写的手册里，但我发现最常遇到的错误就是把战略讨论和OKR讨论混为一谈。关键是，要把战略讨论和OKR设定、指标设定、目标设定分开。这听起来很明显，但确实是个常见错误。一个简单的问题就是：我们有没有独立的战略流程或仪式？和OKR设定、指标设定、目标设定分开的。我觉得你可以选择任何适合你的战略框架，但分开这两件事很重要。（01:20:43）：规划方面的另一个原则是所谓的10%规划法则，就是确保在给定的时间段内，规划的时间不超过执行期的10%。这个规则来之不易，因为我们自己也犯过这个错误。但规划时往往会陷入困境，比如说规划时间太紧了，所以改成三周而不是一周之类的。长此以往，规划就过度了，往往直到产品上线或学到新东西后，才知道下一步该做什么。我觉得这条规则很值得遵循。",
+   "ts": "01:19:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that rule. I found the same heuristic. 10%. If you're planning for a week, plan for half a day, planning for a month, maybe like three days. Yeah, I love it. With that, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "我喜欢这个规则。我发现了同样的启发。10%原则。比如一周的规划，半天就够。一个月的规划，三天左右。太棒了。接下来是激动人心的闪电问答环节。准备好了吗？",
+   "ts": "01:21:32"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I'm ready.",
+   "zh": "准备好了。",
+   "ts": "01:21:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "你向别人推荐最多的两三本书是什么？",
+   "ts": "01:21:47"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "One that comes to mind is Turning the Flywheel. It's a little manuscript book. Jim Collins wrote it. It's really, I think a very succinct and very fast read about how flywheels work. We talked about Storyworthy. I recommend that book a lot. Good Strategy/Bad Strategy. Love that book. Very simple framework that I've reused a bunch. Maybe outside of tech, Waking Up is a book by Sam Harris on mindfulness that I really like. And then an old one that I really like is The Inner Game of Tennis by Timothy Galway, which is a kind of classic.",
+   "zh": "首先想到的是《转动飞轮》。吉姆·柯林斯写的这本小书。讲飞轮如何运作的，非常简洁易读。我们还讨论过《值得讲述的故事》。我经常推荐这本书。《好的战略/坏的战略》。我很喜欢这本书。里面的框架很简单，我用了很多次。可能不算科技领域的，山姆·哈里斯的《正念》，我很喜欢。还有一本老书，蒂莫西·加尔维的《网球内在游戏》，是经典之作。",
+   "ts": "01:21:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. On Good Strategy/Bad Strategy, I'm working on getting Richard Rumelt on the podcast. I'm in talks with his agent and they seem to be excited. So we'll hope that actually happens. And then you inspired me to try to get the Storyworthy guy on. So what a cast of characters we're going to get on here. (01:22:43): Next question. What is a favorite recent movie or TV show that you really enjoyed?",
+   "zh": "太棒了。在《Good Strategy/Bad Strategy》节目中，我正努力邀请理查德·鲁梅尔特（Richard Rumelt）做客播客。目前我正在和他的经纪人沟通，他们似乎很感兴趣。希望这事能成。还有，你让我想起要尝试邀请Storyworthy的嘉宾。看来我们这期节目嘉宾阵容会非常精彩。（01:22:43）：下一个问题。你最近有没有特别喜欢的电影或电视剧？",
+   "ts": "01:22:27"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah, it's a little bit hard with three kids and a job these days to watch a lot of TV. I would say I really enjoyed The Last Dance. I love any sports documentary. All those.",
+   "zh": "是啊，现在有三个孩子还要工作，看电视的时间确实不多。不过我真的很喜欢《最后的舞者》（The Last Dance）。我喜欢任何体育纪录片，比如这些。",
+   "ts": "01:22:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Have you seen Underrated, Steph Curry's new documentary?",
+   "zh": "你看过斯蒂芬·库里的新纪录片《被低估》（Underrated）吗？",
+   "ts": "01:22:59"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "No, I haven't. I got to watch that.",
+   "zh": "没有，还没看呢。我得去看看。",
+   "ts": "01:23:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Ooh. It's really good.",
+   "zh": "哦，听说很棒。",
+   "ts": "01:23:03"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I've been rewatching Arrested Development. That's also just a timeless classic.",
+   "zh": "我最近一直在重温《发展受阻》（Arrested Development），这部剧真是永不过时经典。",
+   "ts": "01:23:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Classic. I love that Michael Cera is in the Barbie movie, not to give any spoilers. That was a funny surprise. (01:23:18): Next question. What is a favorite interview question that you like to ask candidates?",
+   "zh": "经典。我喜欢迈克尔·塞拉参演《芭比》电影的桥段，不过不能剧透。那个惊喜太有趣了。（01:23:18）：下一个问题。你最喜欢问求职者的哪个面试问题？",
+   "ts": "01:23:11"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "There's two I really like. One is teach me something that I don't already know. I think it's just an awesome way of seeing if someone's going to lean in and really figure out what you don't know and then how passionate they are about pitching what they do know I think is really fun. And then Shishir and I have been asking a version of teleporter question and evolving it for many years now, so I like that question quite a bit.",
+   "zh": "有两个我特别喜欢。一个是“教我一些我不知道的东西”。我觉得这能很好地考察候选人是否会深入探讨你的未知领域，以及他们对自己所知领域的热情。这很有趣。还有我和希希尔多年来一直在改进一个叫“传送门”的问题，现在也挺喜欢这个问题。",
+   "ts": "01:23:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Shishir shared that question in his episode and we make TikTok clips out of some of these conversations and that clip just went crazy. People love it. It's our most viewed clip, I think on TikTok. Or just like, what would your answer to that question, so we'll try to link to it in the show notes if you want to watch just that one interview question. I think you maybe gave it away, so maybe that's why you're evolving it.",
+   "zh": "希希尔在他那期节目里分享了这个问题，我们还用这些对话制作了TikTok视频片段，那个视频爆火了。人们很喜欢。这是我们TikTok上播放量最高的视频。或者说，你能分享一下你的答案吗？所以如果你们想只看这个采访问题，我们会尽量在节目笔记里附上链接。我觉得你可能已经透露了一些，所以可能需要调整问题了。",
+   "ts": "01:23:49"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah. We-",
+   "zh": "是啊。我们-",
+   "ts": "01:24:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Don't know if we screwed you.",
+   "zh": "不知道有没有误导你。",
+   "ts": "01:24:11"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I also recently wrote a post about my favorite ref check question, which I think I would love to learn other people's favorite ref check questions.",
+   "zh": "我最近还写了一篇关于我最喜欢的背景调查问题的文章，我很想了解其他人最喜欢的背景调查问题。",
+   "ts": "01:24:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "References check. Oh man. That's its own. Oh man, I'd love to do a podcast just on that. That is such an important skill. The first question you mentioned of asking people to teach you something, I heard the best version of that in a previous episode where Maya, the Head of Product for Spotify podcasts, asks what would your podcast be if you were to start a podcast?",
+   "zh": "背景调查。天哪。这本身就是个专题。天哪，我真想专门做一期关于这个的播客。这太重要了。你提到的第一个问题，请别人教你一些东西，我在之前的一期节目里听过最好的版本，Spotify播客产品负责人玛雅（Maya）问如果要开播客，你会开什么类型的？",
+   "ts": "01:24:20"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I like that.",
+   "zh": "我喜欢这个。",
+   "ts": "01:24:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So feel free to steal it.",
+   "zh": "所以随意借鉴吧。",
+   "ts": "01:24:42"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I sometimes do a version of making them explain it two different ways after, and making the candidate explain it two different ways and saying, \"Okay, now you have to explain that to your grandparent.\" And then now you just told me about sewing or some hobby of yours. Now sell it in its most technical form to someone who knows everything about this particular topic. And so it's kind of fun to also see the range that people can operate.",
+   "zh": "我有时会让他们用两种不同的方式来解释刚刚的内容，然后再让候选人用两种方式来解释，并说一句：“好的，现在你得向你的祖父母解释了。”接着他们刚告诉我的是缝纫或他们自己的某个爱好。而现在你要把它以最专业的形式卖给一个对这个特定主题了如指掌的人。看看人们的不同表现也很有趣。",
+   "ts": "01:24:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. What is a favorite product that you've recently discovered that you really love? Either digital or physical, anything that comes to mind?",
+   "zh": "太棒了。你最近发现的最喜欢的产品是什么？无论是数字产品还是实体产品，任何你能想到的！",
+   "ts": "01:25:13"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "A few. I'm becoming a real sleep nerd, so those eye masks that cup around your eyes, I love. Obviously in the tech world, ChatGPT. I got really obsessed with tennis during the pandemic. There's a product called Swing Vision that's really good. It basically cuts up your match into different ... All of your forehands or all the longest rallies or all that and uses AI to do that. There's a corresponding meditation app to the book Waking Up that I really like. That one's a very good one.",
+   "zh": "有几个。我正逐渐成为睡眠方面的行家，所以那些能包裹住眼睛的眼罩，我很喜欢。显然在科技领域，ChatGPT让我着迷。疫情期间我迷上了网球。有一个叫Swing Vision的产品很棒。它基本上把你的比赛录像分成不同部分……比如所有正手球、最长的拉球比赛等等，并用AI进行分析。还有与《觉醒》一书配套的冥想应用，我也很喜欢，这个应用很棒。",
+   "ts": "01:25:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We live not so far from each other, so we got to play some tennis and I could check out this very cool product.",
+   "zh": "我们住得不远，所以我们得去打打网球，我可以看看这个超酷的产品。",
+   "ts": "01:25:57"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Yeah, let's do it.",
+   "zh": "好的，走起吧。这将是我们的续集。就我们俩的对决。下一个问题。你有没有最喜欢的座右铭，经常对自己说，也喜欢和身边的人分享，或许和孩子分享？",
+   "ts": "01:26:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're on. That'll be our sequel. Just our game. Next question. What is a favorite life motto that you either repeat to yourself often, like to share with people around you, share with your kids maybe?",
+   "zh": "我不知道这算不算座右铭，更多的是一种生活态度。本质上，当下就是我们所拥有的一切。意识到我们的注意力常常停留在过去或未来，所以当下才是它本该一直待着的地方。所以我觉得这是我经常思考的问题。我想更广泛地说，我有一位导师大致说过要让事情发生的理念，所以我真的努力把它应用到我所做的任何事情中。无论是工作、生活还是运动，我都努力成为那个能创造动力、积极改变和进步的人。所以我认为这是一个很好的生活准则。",
+   "ts": "01:26:03"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I don't know if it's as motto as much as it's just a way of being. It's essentially the present moment is all that we have. Realizing that our attention is very often on the past or the future and in so many ways the present is where it should be always. And so I think that that is something I think about a lot. I think maybe more broadly, I had a mentor who roughly said a version of make things happen, and so I really try to apply that to anything that I do. If that's work or life or sports, I try to be the person who creates momentum and positive change and progress. And so I think that that's generally a good motto to live by.",
+   "zh": "太棒了。你父母教给你的最宝贵的一课是什么？",
+   "ts": "01:26:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Beautiful. What is the most valuable lesson that your mom or your dad taught?",
+   "zh": "我妈妈是一名心理学家和专业心理咨询师，所以肯定是积极倾听。也许在科技领域或现代社会的版本，就是理解对方的论点，并能够以更清晰、更易懂的形式将对方的话复述出来。是的，她是一位了不起的女人。她教会了我很多关于倾听的知识。",
+   "ts": "01:26:58"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "My mom's a psychologist and a professional counselor so certainly active listening. Maybe the tech version of that or the modern version of that is steal manning someone's argument, being able to repeat back to someone what they said in a better form, more clear form. So yeah, she's an amazing woman. Taught me a lot about listening.",
+   "zh": "最后一个问题。你曾在阿拉斯加做向导，帮助人们攀岩。如果有人想从事攀岩运动，有没有什么建议、经验或知识，他们应该了解，以便在攀岩之路上走得更远？",
+   "ts": "01:27:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question. You were a guide in Alaska helping people climb. If someone were to pursue climbing, is there a tip or a lesson or something that you think people should know to get better at this or to know before they go down this route?",
+   "zh": "最后一个问题。你曾在阿拉斯加做向导，帮助人们攀岩。如果有人想从事攀岩运动，有没有什么建议、经验或知识，他们应该了解，以便在攀岩之路上走得更远？",
+   "ts": "01:27:28"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "There's a saying, which is the safest climber is the one who knows when to come down essentially. And I think that there are many times that you have to put your ego in check and come off a mountain or come out of a climb because it's not quite as safe as you thought it was. So I think that's maybe one. I think the other is it's probably not a one-way door. So I think in many ways you can do climbing and you can do some of these outdoor pursuits on the side, or you can always come back from them. So it's maybe not as big of a choice as some people think it is.",
+   "zh": "有一句话说，最安全的登山者往往是知道何时该下山的人。我认为很多时候，你必须控制自己的自负情绪，从山上下来或结束攀登，因为情况可能并不像你想象的那么安全。所以我觉得这可能是第一点。另外，我认为这不一定是一条单行道。在很多方面，你可以兼职从事攀岩和其他户外运动，或者随时重新投入其中。所以这或许不像有些人想象的那么艰难的抉择。",
+   "ts": "01:27:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Lane, I said at the top of this episode, Coda has one of the most thoughtful product teams out there, and I think it'll be clear to people after listening to this why that's the case and where it trickles down from. Thank you so much for being here. Two final questions. Where can folks find you online if they want to reach out and ask you any other questions? And how can listeners be useful to you?",
+   "zh": "莱恩，我在本期节目开头就说过，Coda拥有业内最具深度的产品团队。听完这期节目后，大家应该能明白原因所在，以及其背后的深层逻辑。非常感谢你的参与。最后两个问题。如果听众想联系你或提问，可以在哪里找到你？听众又如何能为你提供帮助？",
+   "ts": "01:28:24"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "I'm on LinkedIn and Twitter and I have a Substack. We'll be releasing that handbook for product teams that I will probably post on Substack. And in terms of useful to me, yeah, give Coda a try. Give us feedback. I love hearing from product people all over. It's one of the bright spots in my day to hear all the creative rituals that come from this community. You've created just a legendary community of people and so they always give very thoughtful feedback so I'm very open to all of that. And yeah, thanks for having me.",
+   "zh": "我有LinkedIn和Twitter账号，还有Substack账号。我们即将发布产品团队手册，可能会在Substack上发布相关内容。至于如何为我提供帮助？嗯，欢迎试用Coda产品，并给我们反馈。我很乐意听取各地产品从业者的意见。每天能听到这个社区分享的创新心得，是我工作中最有趣的部分。你打造了一个非常出色的社区，大家总能给出很有深度的反馈，我对此非常欢迎。再次感谢你的参与。",
+   "ts": "01:28:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Lane, thank you again so much for being here.",
+   "zh": "太棒了。莱恩，再次感谢你的到来。",
+   "ts": "01:29:22"
+  },
+  {
+   "speaker": "Lane Shackleton",
+   "en": "Thanks.",
+   "zh": "谢谢。",
+   "ts": "01:29:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. (01:29:29): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见。（01:29:29）：非常感谢收听。如果你觉得这期节目有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅。同时，欢迎给我们评分或写评论，这对其他听众寻找播客会很有帮助。你可以在lennyspodcast.com上查看往期节目或了解更多信息。下期节目再见。",
+   "ts": "01:29:26"
+  }
+ ]
+}

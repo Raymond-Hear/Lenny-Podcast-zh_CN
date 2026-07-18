@@ -1,0 +1,965 @@
+{
+ "id": "Hari Srinivasan",
+ "name": "Hari Srinivasan",
+ "category": "企业管理",
+ "identity": "创始人/CEO",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Hari+Srinivasan",
+ "bio": {
+  "en": "Hari Srinivasan is VP of Product for LinkedIn's Talent Solutions—the company's largest business, spanning hiring and learning products—and has spent eight-plus years at LinkedIn shaping how the world's professionals find jobs.",
+  "zh": "Hari Srinivasan 是 LinkedIn 人才解决方案（Talent Solutions）业务的产品副总裁——这是 LinkedIn 最大的业务，涵盖招聘与学习类产品——他在 LinkedIn 任职八年多，深度参与了全球职场人求职方式的塑造。"
+ },
+ "summary": {
+  "en": "Hari shares what he's seeing shift in the hiring market—including the rise of skills-first hiring, which translates experience into portable skills to rebalance a frozen labor marketplace—and gives concrete tips to improve your odds of landing a job through LinkedIn. He reflects on lessons from building and maintaining enormously complex systems like LinkedIn, advice for breaking into product management, and how LinkedIn became a source of genuinely valuable (and far less cringe) content over the past couple of years. The episode originated from a spontaneous Twitter request for a LinkedIn insider, and it shows.",
+  "zh": "Hari 分享了他对招聘市场变化的观察——包括“技能优先招聘”（skills-first hiring）的兴起，即把经历转化为可迁移的技能，以重新平衡冻结的劳动力市场，并给出了通过 LinkedIn 提高求职成功率的实用建议。他回顾了打造与维护 LinkedIn 这类极度复杂系统的经验、进入产品管理的建议，以及 LinkedIn 过去几年如何变成真正有价值（且不再尴尬）的内容来源。这期节目源自一条在 Twitter 上“想请 LinkedIn 内部人来做客”的临时请求，非常有意思。"
+ },
+ "turns": [
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "It was March 2020 and we were just watching COVID hit. It was just this heartbreaking moment where in the feed you were seeing all these people, by no fault of their own, starting to post that they've lost their job. We started seeing in our data is you had some areas like maybe hospitality was really getting hit, but some areas like customer service that just couldn't hire enough. You'd think the marketplace would balance pretty quickly. You'd think, okay, maybe these people will start moving to other jobs, but it wasn't happening. (00:00:24): A large reason behind this, people are used to looking for certain particular titles, and they didn't start realizing other people could do this job. We made a pretty big push in something we call skills-first hiring. This was the idea that we could translate people's experiences into a set of skills, and by that we could help them really start balancing the marketplace with a much different system. I think that the job market is rebalancing, but it's being done, the pathways are being done in a very different way that seems to be maybe a change that holds through these ups and downs. That'll be very interesting to see.",
+   "zh": "2020年3月，我们目睹新冠疫情的冲击肆虐。那个令人心碎的时刻，社交媒体上充斥着人们因不可抗力失业的消息。我们的数据显示，某些行业如酒店业遭受重创，而另一些领域如客服行业却招人难。你可能会以为市场会迅速调整，但现实并非如此。（00:00:24）这背后的一个重要原因是，人们习惯于寻找特定职位，却没有意识到其他人也能胜任这些工作。我们大力推行了一项名为“技能优先招聘”的策略，核心理念是将人们的经验转化为一系列可量化的技能组合，通过这种方式帮助他们在市场中找到更匹配的职位。我认为就业市场正在重新平衡，但调整路径与以往截然不同，这种变革或许能在经济起伏中持续发挥作用，这将非常值得关注。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast, where I interview world-class product leaders and growth experts, to learn from their hard-won experiences building and growing today's most successful products. Today, my guest is Hari Srinivasan. This episode has a hilarious story. (00:01:11): On Twitter, an account called The Curious PM tagged me with a request to have someone from LinkedIn come on the podcast and talk about how they operate and what they've learned about building products that serve so many different types of customers. I replied asking for any suggestions for who he thought I should specifically talk to, and he suggested Hari Srinivasan, by doing some research on LinkedIn. I reached out to Hari, told him about this tweet and he agreed. Here's the episode. (00:01:39): Hari's been at LinkedIn for eight-and-a-half years and he leads the Talent Solutions Product Team as VP of product, which is also LinkedIn's biggest business, and includes all of the hiring and learning products, which you'll hear about in this episode. In our chat, Hari shares what he's seeing change in the hiring market, what you can do to improve your odds of finding a job through LinkedIn, what he's learned about building and maintaining really complex systems like LinkedIn, tips for getting into product management, and some lessons from his own course on product management. Plus, we also talk about how LinkedIn has been able to become a real source of valuable content and a lot less cringe over the past couple years, which I've definitely noticed and I share in our chat. (00:02:20): What a fun series of events that led to this episode. Big thank you to Jatin, hopefully, I'm pronouncing your name correctly, the guy behind the Curious PM account, for making this all happen. With that, I bring you Hari Srinivasan after a short word from our sponsors. (00:02:35): Today's episode is brought to you by Miro, an online collaborative whiteboard that's designed specifically for teams like yours. The best way to see what Miro is all about and how it can help your team collaborate better is not to listen to me talk about it, but to go check it out for yourself. Go to miro.com/lenny. With the help of the Miro team, I created a super cool Miro board with two of my own favorite templates, my one-pager template and my managing-up template, that you can plug and play and start using immediately with your team. (00:03:05): I've also embedded a handful of my favorite templates that other people have published in the Miroverse. When you get to the board, you can also leave suggestions for the podcast, answer a question that I have for you, and generally just play around to get a sense of how it all works. Miro is a killer tool for brainstorming with your team, laying out your strategy, sharing user research findings, capturing ideas, giving feedback on wire frames, and generally just collaborating with your colleagues. I actually used Miro to collaborate with the Miro team on creating my own board, and it was super fun and super easy. Go check it out at miro.com/lenny. That's miro.com/lenny. (00:03:45): Today's episode is brought to you by Brave Search and their newest product, the Brave Search API, an independent global search index you can use to power your search or AI apps. If your work involves AI, then you know how important new data is to train your LLMs and to power your AI applications. You might be building an incredible AI product, but if you are using the same datasets as your competitors to train your models, you don't have much of an advantage. (00:04:11): Brave Search is the fastest-growing search engine since Bing, and it's 100% independent from the big tech companies. Its index features billions of pages of high-quality data from real humans, and it's constantly updated thanks to being the default search engine in the Brave Browser. If you're building products with search capabilities, you're probably experiencing soaring API costs or lack of viable global alternatives to Bing or Google. It's only going to become harder to afford these challenges. (00:04:38): The Brave Search API gives you access to its novel web-scale data with competitive features, intuitive structuring, and affordable costs. AI devs will particularly benefit from data containing thorough coverage of recent events. Lenny's Podcast listeners can get started testing the API for free at brave.com/lenny. That's brave.com/lenny. (00:05:04): How are you? Welcome to the podcast.",
+   "zh": "欢迎来到Lenny的播客节目，我在这里采访世界级的产品领导者和增长专家，从他们宝贵的经验中学习如何打造和发展当今最成功的产品。今天的嘉宾是Hari Srinivasan。这期节目有一个超级有趣的故事。（00:01:11）：在推特上，一个名为The Curious PM的账号@我，要求LinkedIn的人来播客聊聊他们的运营模式，以及如何打造服务不同客户群体的产品。我回复说希望他能推荐合适的人选，他通过LinkedIn搜索后推荐了Hari Srinivasan。我联系了Hari，告诉他这个推特请求，他同意了。这就是本期节目。（00:01:39）：Hari在LinkedIn工作了八年半，目前担任产品副总裁，负责Talent Solutions产品团队，这是LinkedIn最大的业务部门，涵盖招聘和学习产品等领域，这些内容将在本期节目中详细探讨。在对话中，Hari分享了招聘市场的新变化、如何通过LinkedIn提高求职成功率、在构建和维护像LinkedIn这样复杂系统的经验教训、进入产品管理的建议，以及他自己产品管理课程的经验。另外，我们还讨论了LinkedIn如何在过去几年里成为更有价值的内容来源，同时减少尴尬时刻，我在节目中也分享了自己的观察。（00:02:20）：这期节目背后的故事真是太有趣了。特别感谢Jatin（希望我名字发音正确），Curious PM账号的幕后推手，让这一切成为可能。接下来，在我们的赞助商简短致辞后，欢迎Hari Srinivasan。（00:02:35）：本期节目由Miro赞助，这是一款专为团队设计的在线协作白板。想了解Miro如何帮助团队更好协作，最好的方式不是听我介绍，而是亲自体验。访问miro.com/lenny即可。Miro团队为我特别打造了一个超酷的白板，包含我最喜欢的两个模板——一页纸模板和向上管理模板，团队可以即插即用，立即开始使用。（00:03:05）：我还嵌入了Miro社区中其他用户发布的优质模板。访问白板后，您可以为播客留下建议，回答我的问题，尽情探索其功能。Miro是与团队头脑风暴、制定战略、分享用户研究结果、捕捉创意、提供原型反馈以及与同事协作的绝佳工具。我自己就是用Miro与团队合作创建白板的，过程既有趣又简单。欢迎访问miro.com/lenny。（00:03:45）：本期节目由Brave Search及其最新产品Brave Search API赞助。这是一个独立的全球搜索索引，您可以用它来驱动搜索或AI应用。如果您的业务涉及AI，您就知道新数据对训练LLM和支持AI应用有多重要。您可能正在开发一款出色的AI产品，但如果您与竞争对手使用相同的数据集来训练模型，就没有什么竞争优势了。（00:04:11）：Brave Search\n继必应（Bing）之后，增长最快的搜索引擎，且完全独立于大型科技公司。其索引收录了数十亿页由真实用户生成的高质量数据，并通过在Brave浏览器中默认启用搜索功能实现持续更新。如果你正在开发具备搜索功能的产品，可能正面临API成本飙升，或是缺乏可行的全球替代必应或谷歌的方案。应对这些挑战的成本只会越来越高。\n\n（00:04:38）Brave搜索API让您能访问其创新型Web级数据，具备极具竞争力的功能、直观的结构设计，且成本亲民。人工智能开发者尤其会受益于涵盖最新事件的详尽数据。Lenny的播客听众可免费访问brave.com/lenny开始测试该API。请访问brave.com/lenny。",
+   "ts": "00:00:57"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Thanks for having me. Been a big fan for a long time.",
+   "zh": "感谢邀请我。长期以来我一直是你的忠实粉丝。",
+   "ts": "00:05:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I really appreciate that. What a fun story behind this conversation. Let me just ask you, how did you feel when I cold-DMed on LinkedIn, asking you to be on this podcast because of a random tweet?",
+   "zh": "非常感谢。我们的这次对话背后还有个有趣的故事。让我问你，当我冷不丁地在领英上私信你，请你来参加这个播客节目时，当时你是什么感受？",
+   "ts": "00:05:09"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I felt very honored. Again, I really have followed your work for a while. It's been really amazing to see what you've built, and I'm a huge fan of different builders. Also, it was a little bit of an honor that someone ... I know we're going to get into the story in a little bit. When you work on something, oftentimes jobs and learning, it's rare I think that it's in the influencer conversation. It's not necessarily something you or other people are properly experiencing on day-to-day. Sometimes, I don't know if we get to tell some of these stories, and I really appreciate you reaching out for that.",
+   "zh": "我感到非常荣幸。再说，我确实关注你的工作有一阵子了。看到你所取得的成就真是令人惊叹，我对各类创业者都充满敬意。还有一点，别人主动联系我……我知道我们稍后会详细聊这个故事。当你专注于某项工作或学习时，很少能参与到影响力人物的对话中。这并非日常生活中能真实体验到的。有时，我甚至不知道是否有机会讲述这些故事，真的很感激你能为此牵线搭桥。",
+   "ts": "00:05:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Absolutely. I guess let me just give a big thank you to Jatin Rajvanshi, also known as The Curious PM, who tweeted about this concept and then is like, \"Hey, talk to Hari about LinkedIn.\" Thank you, Jatin, for making this happen. It was all thanks to you. Usually, when this happens, someone tweets a recommendation of someone, they know each other. I'm like, \"Eh, I don't know. This is some promotion of some other person.\" But you guys don't know each other, right?",
+   "zh": "是的，绝对的。我想先向贾廷·拉杰万希（Jatin Rajvanshi）致以诚挚感谢，他又名“好奇的PM”，在推特上提到了这个概念，然后说：“嘿，和哈里聊聊领英吧。”贾廷，感谢你促成这次合作。这一切都归功于你啊。通常这种情况下，别人推荐某个人，他们彼此认识。我会想：“嗯，我不太确定。这可能就是为别人宣传。”但你们俩并不认识，对吧？",
+   "ts": "00:05:50"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "We don't, no. I'm looking forward to meeting you. Thank you, again, for putting in the word.",
+   "zh": "确实不认识。我很期待与你见面。再次感谢你为我牵线搭桥。",
+   "ts": "00:06:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Absolutely. Also, thank you to Jatin for recommending a bunch of questions that I'm going to ask you.",
+   "zh": "没错。另外，感谢贾廷推荐了许多我要向你提问的问题。",
+   "ts": "00:06:20"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "That I didn't know. Maybe I should've known. That I didn't know. Thanks, again, Jatin. It's very kind of you.",
+   "zh": "我之前都不知道。或许我应该早点知道的。还是谢谢你，贾廷。你真是太好了。",
+   "ts": "00:06:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Okay. Let's roll into some stuff. I actually want to start with LinkedIn as a platform broadly. I know you don't work on all parts of LinkedIn and don't necessarily know everything that's going on there, but something I've noticed that's pretty major is, it feels like LinkedIn's really made this move from being a very cringey place to post and spend time to, it's actually now interesting. (00:06:55): The feed that I see on LinkedIn is interesting. Oftentimes even more interesting than Twitter, which is crazy to say. Also, it's become the biggest source of traffic for my newsletter, more so than Twitter, which I never expected. My question is, as far as you know, what is it that y'all did right in the past couple years that has allowed for this shift to happen? Because this is very rare.",
+   "zh": "是的。好的，让我们开始吧。其实我想先从领英这个平台入手。虽然你不负责领英的所有业务，也不一定了解那里的一切动态，但我注意到一个重大变化：领英从一个让人尴尬的社交和信息分享平台，变成了一个真正有趣的平台。（00:06:55）：我看到的领英动态内容很有意思。很多时候甚至比推特更吸引人，这真是令人惊讶。另外，领英已经成为我新闻通讯最大的流量来源，远超推特，这完全出乎我的意料。我的问题是，据你所知，过去几年里你们做了哪些正确的决策，才促成了这种转变？因为这种情况实属罕见。",
+   "ts": "00:06:32"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Well, first, I'm glad you're having a good experience with it. That's really, really kind to here. First of all, it's very interesting you hit on it. Everything at LinkedIn is a very connected ecosystem. One of the things that we always think about is how the whole system fits together. I'm sure we'll get into it more and more about how we build at LinkedIn, but how you make decisions based on the very complicated ecosystem is actually not very difficult because we're all here to help people connect to economic opportunity. Every time there's a discussion, something I'm really, really proud about working here is, everyone knows how that decision is going to be made. It's all about how we're connecting people to economic opportunity. (00:07:55): Now, it's funny. Just the other day, I was driving. I was in an Uber with the person who runs a feed. He's this guy, Kamesh, who's just phenomenal. We were just talking about this and one of the things he mentioned to me was, \"If you think about what a feed is when it connects someone to opportunity, it's got to do a couple of things really, really well.\" We've done a ton of member surveys on this, a ton of thought behind it. The first is, as you make relationship connections across the way, that is a real way by which people get opportunity. They keep in touch with those people. They learn they might follow someone, and hopes in getting knowing them and getting that knowledge. We got to make sure that that content is getting to them. (00:08:29): Then, when you think outside the network, we have to make sure that the things that people really want, which they keep saying are knowledge and advice and ability to get the real perspectives they need to get there, those are the things out of network they want. We've really, really been focused on driving those two systems. How does someone connect to opportunity both through the people and through the content that they actually want? As you know, when you do a feed, there's so many decisions that go into that complex system, so many decisions. But we've been really, really trying to make sure that we don't lose sight of that and start tuning all those knobs into that direction.",
+   "zh": "嗯，首先，很高兴你使用 LinkedIn 的体验不错。能听到你这么说真是太好了。首先，你提到这一点很有意思。LinkedIn 是一个高度互联的生态系统。我们始终在思考整个系统如何协同运作。我相信我们会越来越多地探讨 LinkedIn 的开发思路，但在面对这个复杂的生态系统时，做出决策其实并不难，因为我们在这里都是为了帮助人们连接经济机遇。每次讨论时，我都为在 LinkedIn 工作而深感自豪的一点是，每个人都清楚决策的依据是什么。这一切都围绕着如何将人们与经济机遇连接起来。\n\n（00:07:55）：说起来挺有趣的。前几天我坐优步时，碰到一个负责信息流的同事——Kamesh，这人真是太棒了。我们聊到这个话题，他提到：“当信息流能将人们与机遇连接起来时，它必须在几个关键点上做到极致。” 我们对此做了大量会员调研，也深思熟虑过很多问题。首先，随着人们在平台上建立关系网，这确实是获取机遇的重要途径。他们会与这些人保持联系，了解对方，可能会关注某人，希望借此认识他们并获取所需的知识。我们必须确保相关内容能准确传递给他们。\n\n（00:08:29）：再看平台外部的内容，我们需要确保人们真正想要的是知识、建议，以及获取达成目标所需真实视角的能力。这正是他们对外部内容的需求。我们一直专注于推动这两个系统的协同发展——如何通过人际关系和用户真正需要的内容，让人们与机遇建立连接。正如你所知，信息流的运作涉及诸多复杂决策，但我们始终努力确保不偏离核心方向，不断优化各方面配置。",
+   "ts": "00:07:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If we're trying to get even more specific with what has changed, clearly there's been a focus internally. Is that true? There's just like, \"Hey, let's make this feed a lot more interesting\"? Or is this just a never ending and then it's actually started to work investment as far as?",
+   "zh": "如果要更具体地说说有哪些变化，显然公司内部一直在重点关注这个问题。是这样吗？就是“嘿，让这个信息流更有趣些”？还是说这只是一个永无止境的过程，而现在终于开始看到成效了？",
+   "ts": "00:09:04"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Well, there's always been a focus on connecting people to opportunity. There's always been a focus on that. I think what's happened over time is we've gotten more and more clear with what our members really want, which is this ability to feel close to those relationships and the ability to really get that knowledge that they need. As we've gotten better and clear in that understanding and we've been able to dial the knobs in the right way, I hope it's landing in the right place. I don't think it's any place near declaring victory in any part of this product. (00:09:46): I think one of the beauty of working with that vision of connecting people to opportunity, there is always some piece of friction. There is always something we could be doing better. I'm always hesitant to say we've ever hit that bar, and I know there's probably people who listen to you who probably maybe have not had that experience. I always encourage you to reach out and let us know ways we can do better. But I'm glad you're having an experience with it. And then to your point, I always feel that as long as we stay focused on that and each of our decisions start moving in that direction, hopefully the product will continue to deliver.",
+   "zh": "嗯，我们一直致力于将人们与机会相连接，这一点从未改变。随着时间推移，我们越来越清楚会员真正需要的是什么——即能够与这些关系保持紧密联系，并获取他们所需的知识。在我们对此理解日益清晰，并能以正确方式优化各方面功能后，我希望我们的努力能取得成效。但我认为，在这款产品的任何方面宣称已大功告成都为时尚早。（00:09:46）：我认为，在秉持将人们与机会相连接这一愿景时，总会存在一些阻碍，总有可以改进之处。我一直不太愿意说我们已经达到了标准，我知道可能有些听众尚未有过这样的体验。我始终鼓励大家向我们反馈改进建议。但很高兴你们能有这样的体验。回到你的问题，我始终认为，只要我们专注于这一目标，并确保每个决策都朝着这个方向发展，希望这款产品就能持续创造价值。",
+   "ts": "00:09:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you know if there's any product changes that have most contributed to that feed becoming much more interesting?",
+   "zh": "你知道是否有任何产品改进对信息流变得更有趣贡献最大？",
+   "ts": "00:10:14"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Well, there's a couple of things that I think are very special that we're working on and it's hard to say which is most, because a lot of these things obviously accumulate and compound over time. But certainly, there's a lot of machine learning and algorithms that go behind these systems. Many of them, as we start understanding that these are things that people get value by, it's about how do we make sure that we're giving people that interesting knowledge? As we've gotten crisper on what that means, I think we've been better able to build towards it. (00:10:50): The other one, which is new, but I'm just particularly excited about, we're starting to do a lot of things which are gen AI-assisted. You basically can come in and get some prompts and people can bury their perspective on that. I think that combination, it's very early, but it's very exciting on how we might be able to help people unlock knowledge. There's almost a billion people now on the platform, knowledge of those billion people in a way that people can find and see.",
+   "zh": "嗯，有几项我们正在推进的技术改进特别值得一提，但很难说哪项最重要，因为许多改进都是随着时间积累和叠加的。当然，系统背后有很多机器学习和算法。随着我们逐渐理解这些技术能为用户创造价值，我们会思考如何确保为用户提供有趣的知识。在对此理解更清晰后，我们才更有能力朝着这个方向努力。（00:10:50）：另外一项新功能让我特别兴奋，我们开始尝试很多由生成式人工智能辅助的功能。用户可以输入提示，人们可以基于这些提示分享观点。这种结合虽然还处于早期阶段，但在帮助人们挖掘知识方面前景广阔。目前平台上已有近十亿用户，我们正致力于以一种易于用户发现和获取的方式，呈现这些用户的知识宝藏。",
+   "ts": "00:10:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Again, I know this isn't the area you spend all your time on, but maybe one more question along these lines.",
+   "zh": "太棒了。我知道这不是你主要关注的领域，但或许可以再问一个相关问题。",
+   "ts": "00:11:12"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah, please.",
+   "zh": "好的，请问。",
+   "ts": "00:11:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Do you have any sense of the kind of content that works best on LinkedIn in terms of the algorithm you talk about? The algorithm is probably one of the bigger impact things that have changed.",
+   "zh": "是的。对于你提到的算法，你对哪些内容在领英上效果最佳有何见解？算法可能是影响最大的改进之一。",
+   "ts": "00:11:19"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "If there's anything with knowledge or advice, I think that's what a lot of people are looking for. Every time we run these surveys, every time we talk to people on what they want, those are the things that really when you connect opportunity that people seek after in our system. You're a great example of that. You're able to give knowledge and advice in an area with a lot of depth. I think that maybe that's why you're having some of the success you're seeing on the platform, which is wonderful to see.",
+   "zh": "如果是知识或建议类内容，我认为这正是许多人所追寻的。每次我们开展调查，每次与用户沟通他们的需求时，这些都是人们在我们平台上寻求机会时真正追寻的。你就是一个很好的例子，你能够在一个专业性很强的领域提供知识和建议。我认为这或许就是你在平台上取得成功的原因，这真是令人欣喜。",
+   "ts": "00:11:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think I'm actually not getting as much success as I could because I don't put in the time. I usually just post a simple thing with a link and I think I could be, if I really ... I just don't have time to do this of just like, post a lot more stuff within the actual post. I think that would do better.",
+   "zh": "我觉得自己其实没有取得应有的成功，因为我投入的时间不够。我通常只发布一些带链接的简单内容，但我觉得如果我真的……我就是没有时间去做更多事情，比如在帖子中发布更多内容。我觉得那样效果会更好。",
+   "ts": "00:11:53"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "That actually makes me happy. My guess is what you want to be doing is learning and creating and not spending a lot of time managing. Maybe that's actually a good thing. It's actually another wonderful thing to hear.",
+   "zh": "这倒让我挺开心的。我猜你想做的是学习和创作，而不是花大量时间进行管理。或许这反而是件好事。能听到你这么说真是太好了。",
+   "ts": "00:12:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, absolutely. Okay. Let's move to your sweet spot, which is the talent solution product? Is that what it's called?",
+   "zh": "是的，完全正确。好的，接下来谈谈你的核心业务——人才解决方案产品？是这么叫的吗？",
+   "ts": "00:12:20"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. It's basically any product on LinkedIn that helps you get a job or learn a skill. We have products for recruiters and hires, jobs. We have products for job seekers. We have LinkedIn Learning and then certainly, we run a pretty large creator ecosystem for instructors who post content into LinkedIn Learning.",
+   "zh": "是的。在领英上，任何能帮助你找到工作或学习技能的产品都可以被视为人才解决方案产品。我们有面向招聘者和求职者的产品，还有求职者专属的领英学习平台。当然，我们还为在领英学习平台上发布内容的讲师们运营着一个规模相当大的创作者生态系统。",
+   "ts": "00:12:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is it true that this is the biggest business within LinkedIn?",
+   "zh": "这是领英最大的业务板块吗？",
+   "ts": "00:12:47"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "It is a very big business between LinkedIn. It's certainly hopefully something that, again, if you go back to that vision of connecting people to opportunity, it's certainly something that I like to think is very, very core to that, how people get jobs and learn skills.",
+   "zh": "在领英内部，这确实是一项非常重要的业务。希望能再次强调，回归到“连接人与机会”这一愿景，这部分业务对人们找工作和学习技能至关重要。",
+   "ts": "00:12:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The feed gets all the glory and you guys are making all the money?",
+   "zh": "动态信息流吸引了所有关注，而你们却赚了大钱？",
+   "ts": "00:13:04"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I would not say that, but again, we joke about those things. It's so hard at LinkedIn to separate one product from the other. It's really the way we run. It's the way we think about the product. It's really the way we build. Let me just give you a super concrete example of that. Certainly, if you have someone coming in and looking at the feed, one thing we might do is suggest a job recommendation based on what they're looking for in that feed. Part of what we have to do is think about how someone who's looking at something in their interest might be driving their job-seeking experience as well. (00:13:38): And then when they're looking for a job, it's very important that they know how they can actually get connected in that job. The relationship, the network you build are very much part of that flywheel that go into it. And then even as we start looking at this, you might be looking at a subject and then you want to go deeper on, and there's a course that comes into it as well. All of this to me is a very, very connected ecosystem on how those items work together in order to give people opportunity. We might think of it from the outset as very different things, but inside, even the way we operate and the way we think about it, it's a very, very connected ecosystem.",
+   "zh": "我倒不这么认为，不过我们偶尔也会拿这个开玩笑。在领英上，很难把某个产品与其他产品割裂开来。我们的运营方式、产品理念以及开发思路都紧密相连。让我举个具体例子。当用户在动态信息流中浏览内容时，我们可能会根据他们的兴趣推荐相关职位。这就需要我们思考，用户在浏览感兴趣的内容时，如何能推动他们的求职体验。（00:13:38）当他们开始求职时，确保他们清楚如何与职位建立联系至关重要。人脉关系和社交网络是推动这一良性循环的重要组成部分。甚至当我们开始研究某个主题时，可能会发现相关课程也与之紧密相连。在我看来，这是一个高度互联的生态系统，各个模块协同运作，为人们创造机会。",
+   "ts": "00:13:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are the components again of this part of the org?",
+   "zh": "这个业务部门的组成部分有哪些？",
+   "ts": "00:14:15"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "We think about it as two different marketplaces. There's a hiring marketplace, which is, how do we connect job seekers and recruiters and hiring managers? And then there's a learning marketplace, which is, how do you connect learners to instructors?",
+   "zh": "我们将其视为两个不同的市场：招聘市场，即如何连接求职者、招聘者和招聘经理；以及学习市场，即如何将学习者与讲师连接起来。",
+   "ts": "00:14:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. And then within hiring, are there subcomponents?",
+   "zh": "明白了。那招聘板块里有没有子板块？",
+   "ts": "00:14:29"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. Again, we really think about it as a marketplace. We're generally organized around seekers and hires. There's a team that's working on a Recruiter, which is probably one of the more flagship products that LinkedIn has always been around, a team working on jobs, which is, if you ever post a job on LinkedIn, and then a team working to always help job seekers make sure they connect. And then on the other side for learners, instructors, the team working on LinkedIn Learning, which is one of the bigger enterprise learning products in the world. And then a team working to help instructors. (00:15:02): Many people don't know this. We actually have two large film studios. We bring in instructors. We film a lot of content. One's in Europe and one's in Santa Barbara. It was all started with the Lynda acquisition. We have a large team of content creators and teams, everyone from makeup artists to script writers, that we get to use over there.",
+   "zh": "是的。再说一次，我们确实把它看作一个市场平台。我们主要围绕求职者和招聘方来组织业务。有一个团队专注于招聘人员模块——这可能是领英一直以来的旗舰产品之一；还有一个团队负责招聘信息发布；再有一个团队致力于帮助求职者与招聘方建立联系。另外，在学习者和讲师方面，我们有领英学习团队，这是全球规模较大的企业级学习产品之一；还有一个团队专门为讲师提供支持。（00:15:02）：很多人可能不知道，我们实际上拥有两个大型影视制作工作室。我们引入专业讲师，拍摄大量教学内容。一个位于欧洲，另一个在圣巴巴拉。这一切都始于对Lynda公司的收购。我们拥有庞大的内容创作团队，从化妆师到剧本撰写员，应有尽有。",
+   "ts": "00:14:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. It's just marketplaces all the way down as you talk about this. Hiring marketplace, learning marketplace, the feed itself. Probably more I'm not thinking about.",
+   "zh": "哇。你说到这里，感觉整个过程都是围绕市场平台展开的。招聘市场、学习市场，还有信息流本身。可能还有更多我没想到的方面。",
+   "ts": "00:15:22"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. It's very much the one model that we sometimes use internally as well is, how do we operate as marketplaces inside an ecosystem? I think it speaks to the complexity again of the product and hopefully somehow of how we might operate it.",
+   "zh": "是的。我们内部有时也会采用同样的模式，即如何在生态系统中以市场平台的形式运营？我认为这再次体现了产品的复杂性，也或许能启发我们如何运营它。",
+   "ts": "00:15:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think with your vantage point at being at the center of hiring, a lot is changing within the hiring marketplace in the past, I don't know, year at this point, where it used to be very candidate-oriented, where they had all the power and they salaries were crazy. Everyone's bidding and trying to get people to join their company. Now, it's completely opposite. So many people looking, companies have all the power. I'm curious what you've seen, if that's roughly it, or what you're seeing basically in the hiring market these days.",
+   "zh": "以你身处招聘核心的视角来看，最近一年间招聘市场发生了巨大变化。过去，求职者占据主导地位，薪资要求极高，各公司竞相争抢人才。如今情况完全反转，企业掌握了主动权，求职者却面临诸多挑战。我很好奇，你观察到哪些变化？目前招聘市场的主要趋势是什么？",
+   "ts": "00:15:46"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. Well, first of all, the balance that you're talking about, it is shifting in the sense that there are more seekers in the marketplace now and there are fewer open jobs in the marketplace. Of course, that changes how many applications you get for the job and how you have to look through. I think there's a model where people think it's drifting dramatically to exactly the way it was. I actually think some of the changes that occurred during the last couple of years are actually sticking around. Let me give you a couple examples of where things I think are really changing. (00:16:44): The first thing that happened was, and maybe in my opinion, one of the big changes to the world that no one's really talking about it to my degree is the impact of it, but there's been a real move to skills-based hiring. For the longest time, and I'll give you actually a really concrete example, it was March 2020 and we were just watching COVID hit. It was just this heartbreaking moment where in the feed you were seeing all these people, by no fault of their own, starting to post that they've lost their job. (00:17:09): We started seeing in our data is you had some areas like maybe hospitality was really getting hit, but some areas like customer service that just couldn't hire enough. You'd think the marketplace would balance pretty quickly. You'd think, okay, maybe these people will start moving to other jobs, but it wasn't happening. A large reason behind this, people are used to looking for certain particular titles, and they didn't start realizing other people could do this job. (00:17:31): We made a pretty big push in something we call skills-first hiring. This was the idea that we could translate people's experiences into a set of skills, and by that we could help them really start balancing the marketplace with a much different system. But instead of saying, \"I need to have this talent,\" you can say, \"I need someone who can do negotiation, and I need someone who can really help me understand how to deescalate a customer situation.\" (00:17:54): You find a lot of people in hospitality have about 70% of the skills you need for customer service and of course, you could train off the rest. We started seeing the skills-first hiring really start taking off. At this point, roughly 47% of our recruiters will come in, explicitly use skills when they start looking for candidates. That's a pretty big change that we're actually seeing hold. I know it's early in some of these changes, but it's a change where I think people are still continuing to start looking at skills. (00:18:20): Another one was this concept of, there's a lot more people who are starting to look for jobs by values. They were saying, \"Look, most job sites work by you come in and you look for a job and a title, and that's how you navigate the world.\" We started realizing a lot of people wanted to come in and instead of look at it like that, they may say, \"Look, I really want a job. This aligned with my purpose.\" Or even by an interest, I may want something in AI. We started launching collections in the way to filter in these things. We're still seeing some of that usage today. (00:18:47): I think that the job market is rebalancing, but it's being done, the pathways are being done in a very different way that seems to be maybe a change that holds through these ups and downs. That'll be very interesting to see.",
+   "zh": "是的。首先，你提到的就业市场平衡问题正在发生变化——现在市场上的求职者增多了，而空缺职位却在减少。这自然会影响到求职者的申请量和筛选效率。我认为有些人认为市场正急剧回归到过去的状态，但实际上过去几年的许多变革趋势仍在延续。让我举几个例子说明真正的变化之处。\n\n（00:16:44）：首先，过去几年发生了一件鲜少被提及的重大变革——技能型招聘的兴起。在我看来，其影响远超人们的想象。以2020年3月新冠疫情暴发为例，当时社交媒体上充斥着人们失业的消息，令人心碎。数据显示，受疫情冲击的行业如酒店业大量裁员，而客服等领域却面临人才短缺。按常理，市场本应迅速调整，但现实并非如此。\n\n（00:17:09）：原因在于传统招聘模式依赖于特定职位名称，而人们没有意识到其他岗位也能胜任相关工作。我们推行了\"技能优先招聘\"策略，将求职者的经验转化为可量化的技能组合，通过这种方式重塑了市场平衡机制。招聘方不再局限于\"需要某种特定人才\"，而是明确需求：\"我需要具备谈判能力的人\"或\"能化解客户冲突的人\"。\n\n（00:17:54）：我们发现许多酒店业从业者具备客服岗位70%的技能基础，剩余技能可通过培训弥补。技能优先招聘模式已在47%的招聘团队中普及。这种变革趋势值得关注，尽管部分改革尚处初期，但人们对技能导向的重视正日益深化。\n\n（00:18:20）：另一大趋势是基于价值观的求职需求。传统招聘平台要求用户输入职位名称筛选，但越来越多求职者希望通过兴趣或使命感来匹配工作。我们开发了\"兴趣筛选\"功能，帮助求职者聚焦AI等领域。目前相关功能仍在广泛应用。\n\n（00:18:47）：就业市场正在重构平衡，但路径已然不同。这些变革或许能在经济波动中持续发挥作用，值得持续关注。",
+   "ts": "00:16:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's interesting is it's not like this would change on its own. You're the biggest jobs marketplace in the world, right?",
+   "zh": "很有意思的是，这种情况不会自行改变。你们是全球最大的招聘平台，对吧？",
+   "ts": "00:18:58"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "We have a lot of professional jobs on our platform and a lot of professional seekers.",
+   "zh": "我们平台上有大量专业职位，也有很多专业求职者。",
+   "ts": "00:19:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Hopefully, mysterious. I imagine it is. I don't know. I guess Indeed might be a competitor, but okay, let's say it's one of the bigger job markets. You influenced the way jobs are sought and posted and how people find jobs; so in a sense, designing. Sounds like basically, there was an internal decision. Let's focus on the skills approach. What's cool about that is that changes the way hiring happens in the world.",
+   "zh": "希望如此吧。这挺神秘的。我也不确定。我猜Indeed可能是竞争对手，但好吧，就说它是更大的招聘平台之一吧。你们改变了求职和发布招聘信息的方式，也改变了人们找工作的方式；所以从某种意义上说，这是在设计。听起来基本上是内部做出了一个决定。让我们专注于技能导向的模式。它的妙处在于改变了全球招聘的模式。",
+   "ts": "00:19:11"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "It's one of the things that I think is so interesting about building products today is, it has to clearly be something people want. If we had just said we're going to go like this, and every hire was like, \"I don't want to do this,\" or every job seeker said, \"I don't care about it,\" I don't think anything would click. We also have to be receptive enough to amplify that signal and allow it to work through a system so that it could actually be easy to use. (00:19:56): I don't think we said that, \"Hey, we got to go and do this value-based thing.\" I think we started feeling it and hearing it from members and then as we adapted, these things start amplifying as they come through. I do think that's hopefully something that I think about a lot is, let's just make sure that we keep a pulse on what people want and we make sure that we can get that through a system at a pretty fast pace. Because then, we will hopefully continue to be a place where people want to go look for jobs and make hires.",
+   "zh": "我觉得当今产品开发最有趣的一点是，必须明确满足用户需求。如果我们一开始就说要这么做，而每个招聘方都说\"我不想这么做\"，或者每个求职者都说\"我不在乎\"，我觉得任何创新都不会成功。我们还必须足够开放，放大这些信号，让它们在系统中顺畅运行，这样用户才能轻松使用。（00:19:56）：我不记得我们说过\"嘿，我们必须推行这种价值导向的模式\"。我认为我们先是感受到了这种需求，从会员那里听到了反馈，然后在调整过程中，这些需求逐渐被放大。我希望这能让我经常反思的一点是，确保我们能准确把握用户需求，并以较快的速度在系统中实现这些需求。这样一来，我们就能继续成为人们寻找工作和招聘人才的首选平台。",
+   "ts": "00:19:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I was thinking about as you were just chatting is this open to work feature that LinkedIn has. I remember days before that existed and people used to just like jury-rig, \"Hey, I'm hiring,\" or, \"I'm looking for a job.\" There's always this sense that if you're open to work, you're not as good. Because why would you be amazing and open to work and not hired? I'm curious if you were even part of this experience. Just, what was it like to come up with that approach to how to communicate that you're open to work?",
+   "zh": "你刚才聊天时，我想到LinkedIn推出的\"开放求职\"功能。我记得在推出这项功能之前，人们只能临时拼凑信息，比如\"我在招人\"或者\"我在找工作\"。总有一种感觉，开放求职的人往往水平不高。因为如果你能力出众，又愿意开放求职，怎么可能没被录用呢？我很好奇你是否参与过这项功能的开发。想听听你们是如何想出这种开放求职的沟通方式的？",
+   "ts": "00:20:25"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "It's been through phases and I think those phases really reflect on the perception of how it's changed. In the beginning it was, you could say you're open to work, but it was a secret signal to recruiters if you will. That certainly still exists, but now we said you could more publicly say it and maybe it'd be a feed post. And then we started launching it. Actually it was around COVID when a lot of the stigmas of unemployment changed dramatically, because everyone started understanding you're in this different situation. We started putting it the frame and that's the more iconic way I think people associate with now. (00:21:22): It's funny. Just this week, we tried something new and I feel like it's almost the same journey. There are many customers as you can imagine, that have LinkedIn Learning and LinkedIn Learning is typically an enterprise product. It works across your employee base. We're trying to do Open to Internal Work where you can say, \"I'm actually at the point where I may want the next play internally in my role,\" and an internal recruiter can see you. As you can imagine, I would actually even maybe argue more stigma about being concerned about upsetting your manager. Certainly, there's different cultures and companies about this. (00:21:52): I have a feeling in sometimes we like to think five, 10 years out, I think it's going to go on the same journey. That's one hunch I have, that there'll also be an employment-driven way internally for people to find their next play. It'll be interesting to see how it plays out, but already you can feel a little bit of that tension right when we launched it and knowing. Let's see how this goes.",
+   "zh": "这一过程经历了多个阶段，我认为这些阶段很好地反映了人们对其演变的认知。最初，你可以说你对工作持开放态度，但这对招聘人员来说其实是个隐晦的信号。这种情况至今依然存在，但现在我们允许你更公开地表达这一意愿，比如在动态中发布相关信息。之后，我们开始正式推广这项功能。实际上，这项功能是在新冠疫情期间推出的，当时人们对失业的偏见发生了巨大转变，因为大家逐渐意识到人们正处于不同的处境。我们将其进行了包装，至今仍是人们最熟悉的功能之一。\n\n（00:21:22）：说来有趣，就在本周，我们尝试了新功能，感觉过程几乎如出一辙。正如你能想象的，许多客户都使用了领英学习（LinkedIn Learning），而这通常是一款面向企业的产品，适用于整个员工群体。我们正在推行“内部工作机会开放”功能，用户可以主动表达：“我现在可能希望在当前岗位内部寻求下一步发展机会”，然后内部招聘人员就能看到他们的信息。可以想象，人们或许会担心这样做会惹恼自己的上司。当然，不同文化和公司对此的接受程度不尽相同。\n\n（00:21:52）：我感觉有时候我们会展望五年、十年后的情况，我认为这一趋势仍会持续发展。这是我的一种预感，即未来内部招聘也将成为员工寻找下一个职业发展的主流途径。具体效果如何还有待观察，但我们刚推出这项功能时，已经能感受到一些微妙的阻力。让我们拭目以待吧。",
+   "ts": "00:20:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You were talking about how hiring is changing. I'm curious how PM hiring specifically is changing. A lot of people listening to this podcast are product managers. Is there anything unique you're noticing there?",
+   "zh": "你之前提到招聘方式在发生变化。我很好奇产品经理招聘方面具体有哪些变化。很多听众都是产品经理，你有没有注意到这方面有什么独特之处？",
+   "ts": "00:22:13"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Maybe a couple stats that could be very helpful. If you're having a hard time finding a PM role, let's start with this, you're probably not alone. We publish it. You can go to Economic Graph data. This is all public. We publish this. But if you look at tech, it's down about 50% year-over-year. We look at hires over total population on LinkedIn. You can go to Economic Graphs and you can see how it compares trends industry. We don't look at the functional data as much, but the PM data seems to be trending just slightly even maybe below software engineers and data as well, which is maybe a comp for this. I know not everything is perfect industry to function cuts. (00:22:56): It is a difficult place, but I'll give you a couple tips because I imagine that may be helpful for a couple of the listeners. It's certainly one of the larger inbounds of things I get. The first is, in those markets, you do want to make sure that the more you can do to form relationships and say that this is what you can do, which is always helpful. Now, I know that not everyone has relationships, but you can always try to develop those at different places and across LinkedIn as well. But that's one thing I would really, really start to look for. (00:23:24): The second thing I would really do is we have launched the way now to come in and signal obviously that you are interested in a role. We have those open to work capabilities, but then each job has a set of skills that they're looking for under it, like we talked about in skills-first hiring. Against each skill, you can actually add different kinds of credentials. I would really encourage people to add work products if that's something that they're actually building. You can add different kinds of recommendations or other things they can associate with that skill. Those credentials against it I think are becoming much more interesting for people to say, \"Oh, this is someone I'm actually looking for.\" (00:23:55): And then the third thing I would really encourage PMs to start looking through is, this is probably more personal than anything in data, but every PM job is different. If you have experience in that industry and you're able to show that you have experience in that industry or some kind of understanding of it, I think that's a way to separate. I'd really start zoning in on roles where you might see if you don't have the functional experience, the industry experience. I think that would go a long way as how to help you differentiate from yes, what's probably more candidates, or more applications going into each role.",
+   "zh": "或许有几个数据点会很有帮助。如果你很难找到产品经理（PM）职位，我们先从这点入手——你可能并非个例。我们会公布这些数据。你可以访问Economic Graph平台，这些数据都是公开的。但如果你看科技行业，其职位招聘量同比去年下降了约50%。我们会分析领英上招聘信息与总人口的比例。通过Economic Graph平台，你可以对比不同行业的招聘趋势。我们不太关注职能数据，但PM职位的招聘趋势似乎略有下滑，甚至可能低于软件工程师和数据科学家，这或许可以作为参考。我知道并非所有行业都完美无缺，职位需求也可能存在波动。\n\n（00:22:56）：这确实是个艰难的领域，但我会给出几个建议，希望对部分听众有所帮助。这无疑是我收到最多咨询的问题之一。首先，在这些市场中，你需要尽可能多地建立关系网，展示自己的能力，这总是很有帮助的。我知道并非每个人都有关系网，但你可以尝试在不同平台和领英上拓展人脉。这是我首先会建议关注的点。\n\n（00:23:24）：其次，我强烈建议大家利用现有平台主动传递兴趣信号。我们推出了“来电求职”功能，但每个职位都有特定的技能要求，就像我们提到的技能优先招聘模式。针对每个技能，你可以添加不同类型的证明材料。如果你实际参与了某个项目开发，可以添加工作成果；对于推荐信等附加材料，也要与该技能相关。这些证明材料能让招聘方更容易识别你的价值。\n\n（00:23:55）：第三点建议是，PM们要深入挖掘招聘需求。这比数据更具个性化——每个PM职位都有独特要求。如果你有该行业经验，能证明自己对行业有深刻理解，这就是脱颖而出的关键。重点关注那些需要行业经验而非职能经验的职位。这将有效帮助你从众多申请者中脱颖而出。",
+   "ts": "00:22:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "When you say industry experience, what's an example of that?",
+   "zh": "你说的行业经验，具体例子是什么？",
+   "ts": "00:24:30"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Imagine that you are applying for a PM role, but that particular software is in, I don't know, automotive tech. If you happen to have worked in automotive before, have a knowledge about cars, that's a very helpful way to get in. I think if you're able to show that you can show an industry knowledge and an understanding of it, I think it's a real nice way to think about how to position yourself against some of the other candidates.",
+   "zh": "假设你申请的是PM职位，但所属行业是汽车科技。如果你之前在汽车行业工作过，对汽车有深入了解，这就是一个非常有利的切入点。能证明自己对行业有深刻理解，这无疑是与其他候选人区分开来的绝佳方式。",
+   "ts": "00:24:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What else can that person looking for a job do to improve their chances of a recruiter basically finding them? I feel like that's probably the best tactical thing they can do because a lot of LinkedIn is recruiters reaching out and finding you.",
+   "zh": "求职者还能做些什么来提高被招聘方注意到的机会？我觉得这可能是最有效的策略，因为领英上的招聘信息大多来自招聘方主动联系求职者。",
+   "ts": "00:24:55"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "There's two things that anyone who's hiring is always going to look for. They're going to look for your skills and capabilities and they're going to look for your intent and interest in the role. A lot of our products and the pathways we try to do are making those things simpler. Maybe we'll just start with interest and we'll move back to skills in a minute. A couple of things we've launched recently, and I think they are symbolic of other ways you can connect. If you go to a company page and you're looking at the company, and I think they have to opt into this in some degree, look, you can say you're interested in that company even though they don't have roles. When the next role comes up, they'll have a signal that this person is actually very interested in this role. (00:25:42): That's an easy way to signify from an early stage that you have interest in them. That way, when they open up a role, as you can imagine, they start looking through, they'll have a spotlight on recruiter and they can click out on it and come through. Certainly, you can go into open work and say that this is something that I'm open to work right now, and you can signify to the whole population that this is an area that you want to go for as well. I would encourage both of those in some ways. If you're looking for a role, be open about it and tell the companies that you're looking for it. Those are really high signals of intent. (00:26:09): The other thing you can do on LinkedIn is you can actually go through when you say open to work and you can specify particular kinds of jobs and things you're looking for. I think that more detailed intent helps make sure you're showing it to the right place. (00:26:21): On the skill side, we talked about it a little bit, but I do think there's a big change. When you were just looking at title, I think you only had one way to really prove that you had the skills. You had to have that title, which is very hard to break in. In a world where you're looking at skills, you can go through and say, \"Look, I can do these things and you could put evidence behind it.\" I'd really encourage people to do that. If you just go to any job post, you can see the skills, you can say add and you can see all the evidence and how you can add it. I would really encourage people to do that because when people are in recruiter and they're looking for skills, profiles pop up and you can scroll over a skill and you can actually see all those evidences. (00:26:56): Basically, a recruiter could say, \"Oh, this is why I'd recommend you to this hiring manager.\" I think you will find that that's hopefully a very useful way of doing it.",
+   "zh": "任何招聘人员在招聘时总会关注两件事。他们会关注你的技能和能力，也会关注你对该职位的兴趣和意向。我们推出的许多产品和路径都在简化这些流程。或许我们先从兴趣说起，再回过头来谈技能。最近我们推出了几个新功能，我认为它们象征着可以建立联系的其他方式。例如，当你访问某家公司的页面（前提是该公司已开启相关功能）时，即使该公司目前没有职位空缺，你也可以表明对他们的兴趣。当下一个职位出现时，招聘方就能收到信号，知道这个人对该职位非常感兴趣。（00:25:42）：这是一种早期表明你对他们感兴趣的简单方式。这样，当他们开放职位时，想象一下，他们开始筛选简历时，会特别关注那些主动表达兴趣的人，并可以直接联系他们。当然，你也可以进入开放职位板块，表明你目前正在积极寻找工作机会，并向所有人传达你希望在该领域发展的意愿。我在某种程度上会鼓励大家这样做。如果你在寻找职位，要公开这一信息，并告诉公司你正在积极寻找机会。这些都是强烈的意向信号。（00:26:09）：在领英上，你还可以更详细地表达你的求职意向。比如，当你选择“开放职位”选项时，可以明确说明你正在寻找的特定职位和兴趣领域。我认为这种更细致的意向表达能确保信息精准传达给合适的受众。（00:26:21）：在技能方面，我们之前也稍微提过，但我认为这是一个重大变化。过去你只能通过职位头衔来证明自己的技能，但要获得这个头衔非常困难。现在在技能评估体系下，你可以主动展示自己的技能，提供证据支持。比如，进入任何职位页面，你都可以查看所需技能，添加并上传相关证明。我强烈建议大家这样做。当招聘人员在筛选简历时，相关技能会自动弹出，你可以鼠标悬停查看所有证据。（00:26:56）：基本上，招聘人员可以说：“哦，这就是我向招聘经理推荐你的原因。”我相信大家会发现这是一个非常有效的求职策略。",
+   "ts": "00:25:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm going to lob this question like a fishing line, to see if it catches anything. And if not, we'll move on. Are there any stats that you've seen of just like if you do X, Y, Z, your chances of getting hired or getting people reaching out just go significantly higher?",
+   "zh": "我要把这个问题抛出来当作钓鱼线，看看能否钓到鱼。如果不行，我们就继续下一个问题。有没有相关数据表明，如果你做了某件事，比如X、Y、Z，你被录用的概率或获得联系的机会会显著提高？",
+   "ts": "00:27:05"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Open to work certainly has a high signal to noise. As you can imagine, when someone's looking to fill a role, that's one they want. We are early in company commitments, but we are seeing some signal there that we got to move through it. Skills has a pretty high signal as well, when you're able to come through and show and demonstrate your skills. We're seeing some correlation to basically people getting a role. (00:27:41): And then the final one that is harder for us to look through, but it's certainly important. I do think we show the hiring manager on a lot of the roles. We show these people through. It's harder for us to trace that because of the way the outcomes work, but I would really encourage people to look through that and see if you can get in front of those people.",
+   "zh": "开放职位确实具有很高的信息量和有效性。可以想象，当有人需要填补某个职位时，他们会特别关注这些信息。我们目前处于招聘承诺的早期阶段，但已看到一些积极信号，必须抓住机遇推进。技能评估的信息量也很高——当你能够展示并证明自己的技能时，招聘方会更青睐于你。我们发现这与候选人成功获得职位存在正相关关系。（00:27:41）：最后一点虽然更难追踪，但同样重要。我认为我们在许多职位中都会向招聘经理展示候选人简介，但由于招聘结果的复杂性，追踪其效果更为困难。不过我还是鼓励大家多多探索，看看是否能与这些招聘方建立联系。",
+   "ts": "00:27:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a max seniority that you find works effectively on LinkedIn to find a job? I imagine CPOs aren't finding jobs on LinkedIn. If I'm looking for a job, do you have a rule of thumb of, if you're at this level, maybe you're not going to have a lot of luck? If you're below the-",
+   "zh": "在领英上寻找工作，职位资深度是否有有效的上限？我觉得首席产品官在领英上不太容易找到工作。如果我要找工作，有没有一个经验法则：达到某个职级后，成功几率会降低？如果低于某个职级——",
+   "ts": "00:27:58"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "We certainly have CPO jobs that are posted, but the difference often is job posts versus recruiting. More and more senior roles are often recruited. We find that people will use LinkedIn in order to connect to a CPO and many people who are senior will say, \"Oh, I got a message on LinkedIn and that led to this,\" or they made a long-term recruiting contact. But it may not happen through you finding a job and hitting the application button.",
+   "zh": "我们确实有首席产品官的职位发布，但职位发布与招聘策略往往有所不同。越来越多的高级职位采用招聘模式。我们发现许多人会通过领英与首席产品官建立联系，许多资深人士都会说：“哦，我在领英上收到消息，后来就促成了这次合作”或者他们通过领英建立了长期的招聘联系。但这不一定是通过你主动申请职位就能实现的。",
+   "ts": "00:28:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's talk about LinkedIn as a company to work in, the culture maybe for a bit. You told me that you have a story about your first product review when you joined LinkedIn and how that was wild. Can you just tell that story? I haven't heard this yet.",
+   "zh": "再谈谈领英作为工作平台的企业文化。您曾提到加入领英后的首次产品评审经历非常疯狂，能分享一下那个故事吗？我还没听过这个故事。",
+   "ts": "00:28:38"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. I came through a small acquisition that they made of our company, and I thought it was such a telling moment in this first product review. I went in and as you can imagine when you join a company, there's a lot of advice on how you should make that product work. I didn't know anything. I'd never been a PM. I remember taking a lot of that advice and putting together a presentation and just getting destroyed during that review. I think Jeff was the head of product and CEO at that point. In a very kind way, it was basically like, \"Wait, this doesn't make any sense.\" (00:29:23): I just remember driving home and calling my wife and like, \"I think I might be fired.\" I'm not sure if I was fired, but he was very kind about it. He's like, \"Just come back and exit.\" I think five, four weeks. I remembered at that point I was like, if you're going to go in and you know you only have one shot, just do something you believe in and make sure it works. We started from that point and we worked backwards from there in this concept of, \"Hey, I do believe that the most important thing is connecting to opportunity and we should really understand how to do that. Let's just start from there.\" It went very well. (00:29:50): To me, it was another way of you're in these large systems, you're in these large companies, you're in these large ... I think LinkedIn is very special because no matter what it is, it's got a very good North Star. It was a moment for me to really hammer that home, that as long as you get that North Star ahead of you, you're going to be just fine. I never worked at a place like that before, and I think a lot of times people wonder. You can imagine. The way we're talking about, we certainly have an engagement ecosystem. We have the hiring business and we have a marketing solutions business. We have a big premium business. (00:30:24): You can imagine when you're trying to make decisions across that, it could get very, very complicated. I think when people ask me to describe LinkedIn, I often start with that story because I feel like it helps cut through how decisions are made and what is seen as success here.",
+   "zh": "是的。我是在他们对我们公司的一次小型收购中加入的，而我认为在第一次产品评审中，这是一个很能说明问题的时刻。我加入后，正如你可以想象的，加入一家公司后，总会有很多关于如何让产品成功的建议。我当时一无所知。我从未担任过产品经理。我记得接受了大量建议，准备了一份演示文稿，结果在评审中被批得体无完肤。我记得杰夫当时是产品负责人兼首席执行官。他用一种非常友善的方式说道：\"等等，这根本说不通。\" （00:29:23）：我只记得开车回家后给妻子打电话，说，\"我觉得我可能要被解雇了。\"我不确定自己是否被解雇了，但他对此很友善。他说：\"你回来再退出吧。\"我想是五周或四周吧。我记得那时我就在想，如果你要加入一家公司，而且你知道只有一次机会，那就做你相信的事情，确保它能成功。我们从这一点出发，逆向推导这个概念：\"嘿，我确实相信最重要的是连接机会，我们应该真正理解如何做到这一点。让我们就从这里开始吧。\"进展得很顺利。（00:29:50）：对我来说，这是另一种方式——当你身处大型系统、巨头公司时，你会发现……我认为LinkedIn非常特别，因为无论如何，它都有一个非常明确的北极星。这让我深刻领悟到，只要你把北极星放在前面，一切都会顺顺利利。我以前从未在这样的公司工作过，我想很多人都对此感到好奇。你可以想象。我们现在谈论的业务模式，我们确实有一个参与度生态系统。我们有招聘业务，我们有营销解决方案业务。我们有大型付费业务。（00:30:24）：你可以想象，当你试图在这些业务之间做决策时，可能会变得非常非常复杂。我觉得当人们让我描述LinkedIn时，我经常从这个故事开始，因为我觉得这有助于解释决策是如何做出的，以及在这里被视为成功的东西。",
+   "ts": "00:28:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to clarify, so that North star is that phrase that you used of just connecting people to economic opportunity?",
+   "zh": "只是想确认一下，所以北极星就是你提到的那个连接人们与经济机会的概念？",
+   "ts": "00:30:39"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "That's it. That's it. I know it sounds bigger than it seems, but I can probably ... Time example again. You can understand when someone's driving on it. Having been here for a little bit now, you can understand when someone knows that and when someone doesn't. It's a hard thing to lose track of.",
+   "zh": "就是这样。就是这样。我知道这听起来比实际情况更宏大，但我可以……再举个时间方面的例子。你可以理解当有人正在经历某件事时的情况。到现在为止在这里待了一段时间，你可以理解什么时候有人明白这一点，什么时候有人不明白。这是一件很难忽视的事情。",
+   "ts": "00:30:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. It does sound vague and a nice, fuzzy, warm thing that people can say. What you're saying is that it's actually brought up in meetings constantly and product reviews. You're saying in this product review, everything changed when you came at it from that one perspective?",
+   "zh": "是的。这听起来确实很模糊，是个很美好、很温暖、让人听起来很舒服的概念。你说的是，在会议和产品评审中，这个概念不断被提起。在这次产品评审中，当你从这个角度来看问题时，一切都变了？",
+   "ts": "00:31:00"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. My first product here was the profile. You can make a profile that does a lot of different things, as you can imagine. You could think about how identity could be used in many different phases and what you should prioritize and not. But if you can explain why this is the thing that you should do that would help someone really do what they want to do, maybe it's have an incredible podcast and send that out there, maybe it's helping someone connect to a job. But if you can understand intent and how this is unblocked and why you want to prioritize that item, all of a sudden the world gets a lot simpler.",
+   "zh": "是的。我在这里的第一个产品是个人资料页面。正如你能想象的，你可以用它做很多不同的事情。你可以思考身份认证如何在多个不同阶段发挥作用，以及哪些方面需要优先考虑，哪些不需要。但如果你能解释为什么这件事值得去做——这能真正帮助人们实现目标，也许是制作一档精彩的播客并推广出去，或是帮助某人找到工作。但如果你能理解用户的意图、如何突破障碍，以及为什么要优先关注这些要素，整个世界突然就变得简单多了。",
+   "ts": "00:31:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How does that actually get operationalized at a company? Is it just the leaders remind people of that? It's painted on the walls? How is that a thing that people come back to over and over?",
+   "zh": "那在公司层面如何具体落实呢？是领导们不断提醒员工吗？还是把它写在墙上？为什么人们会反复回想这些理念？",
+   "ts": "00:31:51"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I do think it's a lot of repeat, repeat, repeat. I do think that's it. I do think the culture has a pretty high immune system now in the sense that when you aren't operating by that, people can see it and they operate against it. I think when Jeff was CEO, and Ryan, they are just exceptional at continuously repeating that. It's been so consistent for so long that I think it's just the DNA now. I do think it's exceptional. I think it's exceptional leadership, and I've learned so much from watching it and how it gets operated.",
+   "zh": "我确实认为这需要不断重复、重复、再重复。我认为就是这样。现在我们的企业文化已经形成了很强的免疫力——当有人偏离正轨时，其他人能看出来，然后采取纠正措施。我记得杰夫担任CEO时，瑞安（Ryan）也特别善于持续传递这些理念。这种一致性持续了太久，如今它已经融入了我们的基因。我认为这真的很了不起，是卓越的领导力，我从中学习到了很多。",
+   "ts": "00:32:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a metric associated with that when people use it in a way of like, no, that's not actually what we mean? Is there some way of making it even more concrete in goals, metrics, ways to understand if people are actually achieving that?",
+   "zh": "当人们偏离这些理念时，是否有相关衡量指标？有没有更具体的目标、指标或方法来判断人们是否真正达成了这些目标？",
+   "ts": "00:32:34"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. Totally. I think at the next level of operation, what we think about is, when we run these marketplaces throughout this ecosystem that connect people to opportunity, what are the outputs that they measure? I'll just give you mine for example. We think a lot about number of hires, converting hires. How many people did we match? Which is a real tangible way of looking at opportunity. (00:33:04): And then number of people who learned a skill, which is usually in this world measured more by time than anything if you learn. Spend time for X amount of minutes. We do that skill because oftentimes skills don't have a direct outcome as you can measure to go through. We basically look at those things more than any other to say how successful that we are operating that marketplace.",
+   "zh": "是的。完全同意。在运营层面，我们会思考，当我们在整个生态系统中运营这些连接人们与机会的市场时，他们衡量的输出指标是什么？我举个例子。我们非常关注招聘数量和招聘转化率。我们匹配了多少人？这是衡量机会的切实方式。（00:33:04）然后是学习技能的人数，在这个领域，通常衡量学习成果会更侧重于时间投入——比如学习了多少分钟。我们关注这些指标胜过其他任何东西，以此衡量我们运营这个市场的成功程度。",
+   "ts": "00:32:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Those make total sense to me.",
+   "zh": "明白了。这些对我来说完全说得通。",
+   "ts": "00:33:22"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:33:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there other core values of LinkedIn that are public that you can share?",
+   "zh": "LinkedIn还有其他公开的核心价值观可以分享吗？",
+   "ts": "00:33:24"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "You can Google them too and so they're very, very public, but probably the one that I think is most important to talk about in this world is, there's this concept of members first. I think anytime you run an ecosystem as complex as we do and you think about it, even if you're trying to connect people to opportunity, there's two people, how are you going to decide right now who needs it? (00:33:49): I think having clarity on which piece of the ecosystem is going to be where the focus is, it helps us make sure we establish a relationship of trust first, make sure to understand who's getting access to data, make sure we understand how decisions are being made. I always love that as a principle that we've stuck by.",
+   "zh": "你也可以在谷歌上搜索一下，这些信息都公开得非常充分。但在我看来，最值得探讨的理念是\"会员至上\"。每当我们运营一个像LinkedIn这样复杂的生态系统时，即便目标是将人与机会相连接，但面对两个人，如何判断当下谁更需要帮助？（00:33:49）我认为明确生态系统的核心重点所在，有助于我们首先建立信任关系，确保数据访问权限得到合理管控，并确保决策过程透明公正。我始终珍视这一核心原则，并始终坚守它。",
+   "ts": "00:33:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I see it on the page here. We put members first.",
+   "zh": "是的，我在页面上看到了。我们确实以会员为先。",
+   "ts": "00:34:05"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Story checks out is what you're telling me.",
+   "zh": "你说得没错。",
+   "ts": "00:34:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Checks out. Checks out. What's interesting is the connecting people to opportunity, economic opportunity is not one of these values. It seems like it's even broader. They should at the company basically.",
+   "zh": "没错。没错。有趣的是，将人与机会相连接，经济机会并非其核心价值观之一。看起来这个理念的涵盖面更广，公司内部应该将其视为基本准则。",
+   "ts": "00:34:11"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "The company, yeah.",
+   "zh": "没错，就是公司。",
+   "ts": "00:34:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Okay. I love that. This episode is brought to you by Eppo. Eppo is a next generation AB testing platform built by Airbnb alums for modern growth teams. Companies like DraftKings, Zapier, ClickUp, Twitch, and Cameo rely on Eppo to power their experiments. Wherever you work, running experiments is increasingly essential, but there are no commercial tools that integrate with a modern growth team stack. This leads to waste of time building internal tools or trying to run your own experiments through a clunky marketing tool. (00:34:52): When I was at Airbnb, one of the things that I loved most about working there was our experimentation platform, where I was able to slice and dice data by device types, country, user stage. Eppo does all that and more, delivering results quickly, avoiding knowing prolonged analytics cycles, and helping you easily get to the root cause of any issue you discover. Eppo lets you go beyond basic clickthrough metrics and instead, use your North Star metrics, like activation, retention, subscription, and payments. Eppo supports test on the front end, on the back end, email marketing, even machine learning claims. Check out Eppo geteppo.com. That's geteppo.com and 10X your experiment velocity. (00:35:32): You've touched on this idea of a complex system and I want to spend a little bit more time there. LinkedIn is, as you said, very, very complicated. There's all these marketplaces within marketplaces. There's so many customers you got to make happy. They all have to work together. I'm just curious what you've learned about building and maintaining a complex ecosystem like that.",
+   "zh": "明白了。好的，我很欣赏这一点。本期节目由Eppo赞助。Eppo是由Airbnb前员工为现代增长团队打造的下一代AB测试平台。DraftKings、Zapier、ClickUp、Twitch和Cameo等公司都依赖Eppo来推动实验项目。无论你在哪家公司工作，开展实验都变得越来越重要，但市面上却没有与现代增长团队堆栈无缝集成的商业工具。这导致人们要么耗费大量时间自建内部工具，要么试图通过笨拙的营销工具开展实验。（00:34:52）我在Airbnb工作时，最喜欢使用的平台就是我们的实验平台，通过它我能按设备类型、国家、用户阶段等维度细分数据。Eppo不仅能做到这些，甚至更出色——它能快速产出结果，避免冗长的分析周期，还能帮助你轻松找到所发现问题的根源。Eppo让你超越基本的点击率指标，转而使用你的北极星指标，如激活率、留存率、订阅率和支付率。Eppo支持前端、后端、邮件营销甚至机器学习实验。访问Eppo官网geteppo.com，即可提升实验效率十倍。（00:35:32）你提到了复杂系统这个概念，我想多探讨一下。正如你所说，LinkedIn确实非常复杂。内部有多个市场平台，涉及众多需要满足的客户群体，所有这些元素都必须协同运作。我很好奇在构建和维护这样一个复杂生态系统时，你们都学到了哪些经验。",
+   "ts": "00:34:23"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "It's a fantastic question. I just openly think first of all, just career-wise, I've always been drawn to that. We talk about product as a whole. We always talk about it as a whole, but there's many different things you can build, many different types of things. And then we go, maybe there's hardware and software consumer goods. I actually try to think about products by their complexity curve a lot. (00:36:17): I think that the skills you need to manage a complicated ecosystem versus maybe the skills you need to design something that's less interconnected are quite different. I will get to the details maybe of what I mean in a minute, but I do think LinkedIn's a particularly complicated place. And I do think that the skillsets that you think through and you try to manage in a complicated ecosystem are quite different. Maybe some tactics that can help if it's something along those lines.",
+   "zh": "这是个很棒的问题。首先，我坦白说，就职业发展而言，我一直对这方面很感兴趣。我们谈论产品时往往从整体入手，但实际上你可以开发出各种各样的东西，有硬件产品、软件产品，还有消费品。我自己经常从复杂度曲线来思考产品设计。（00:36:17）我认为管理一个复杂生态系统所需的技能，与设计一个联系不那么紧密的产品所需的技能截然不同。稍后我会详细解释我的意思，但我确实认为领英是一个特别复杂的平台。在管理一个复杂生态系统时，你需要考虑和运用的技能与其他情况大不相同。或许有些策略能在这方面提供帮助。",
+   "ts": "00:35:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, let's do it.",
+   "zh": "好的，那我们开始吧。",
+   "ts": "00:36:42"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "One of the things that I often think about is this concept of cause and effect. If you have non-interconnected things, it's actually quite easy not to have to think about that. You made something people love. I wrote a children's book not too long ago and it was fun. It was awesome to write. Once it was done, it was done, and it was out there and it was able to go. That's a little bit different than here. If you make a change, like open to work, all of a sudden you're thinking through the perception of someone on the other side. What is that going to do? Are they going to use the platform less or more? You're thinking about customers. What are they going to do with that data? Are they going to, to your point, perceive someone in a different way or not? (00:37:21): You have to think through second and third and maybe even fourth effects and manage that as you go through. I think that is something we really pride ourselves on is, how do we start thinking through these different things, and how do we start measuring them as we go? That is one. (00:37:35): The second thing I actually think is it does lead to your point a lot. You need a different kind of decision-making mechanism because there's a lot more ties in the ecosystem, a lot of people who just need a way to break it. We've put in things like we have something called RAPID, which is a really easy way to know who the decision-maker is. Just, you line up who's a recommender, who has to agree, who's a decision-maker. We have something called a five-day escalation rule, which makes sure that those items are in. I think you lead a lot more of those fuse, I don't know what they're called, fuse limits, or just systems in place in order to manage that complexity so that things get done. I think that those processes are actually really, really important to make sure that the ecosystem can run.",
+   "zh": "有一件事我常会思考，那就是因果关系的概念。如果事物之间没有关联，人们往往无需刻意去考虑它。你创作出人们喜爱的作品时，我不久前写了一本儿童读物，过程很有趣。写作本身很棒，完成后就大功告成，作品面世后便能自然传播。这和现在的情况略有不同。若你做出改变，比如开放平台供他人使用，突然间你就需要考虑对方的反应——这会带来怎样的影响？用户会更频繁地使用平台，还是减少使用？你需要为客户着想，他们会如何利用这些数据？正如你所说，他们会以不同眼光看待他人吗？（00:37:21） 你必须预判第二、第三甚至第四层影响，并在推进过程中加以管控。我认为我们引以为傲的一点在于，如何全面考量这些复杂因素，并在实施过程中进行动态评估。这是第一点。\n（00:37:35） 第二点与你提到的观点高度契合。决策机制必须与时俱进，因为生态系统中的关联性日益增强，许多人迫切需要一种破局之道。我们推出了RAPID机制，它能清晰界定决策链条——谁是推荐者，谁需要审批，谁是最终决策者。此外，我们还制定了五天升级规则，确保关键事项能及时得到处理。为管控复杂性，我们搭建了诸多协同机制，比如融合限制（fuse limits）或专属流程体系。这些流程机制至关重要，能确保整个生态系统高效运转。",
+   "ts": "00:36:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's talk about these two processes. RAPID, and what was the other one? Five-day-",
+   "zh": "再详细说说这两个流程。RAPID，还有另一个流程是什么？五天升级规则——",
+   "ts": "00:38:10"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah, five-day alignment. They've both been around LinkedIn for a little bit, but they're great. The RAPID is just a question of oftentimes to your point, if you're running two, three marketplaces, several different business model here, there's a question of who has the decision? Who can make the decision in this situation? Making sure that you have a single person's name with the decision and that person is ... That is really, really important because it gets the clarity real fast. (00:38:36): It's more of a personal rule, but one thing I love to say is, if you had three back and forths in an email, you got to pick up the phone. And if you've been on the phone for 20 minutes, it's time to just write that decision-maker and go. That way, you can make sure the concept of an hour, you should be able to get a decision. It doesn't always operate like that. I'm sure there's many PMs on LinkedIn who are operating here maybe, who may have some feedback from me on that, but that's the intent behind it. (00:38:58): And then a five-day alignment is, you should hold your managers accountable. That in five days if someone has something that they haven't been able to escalate and solve, that's probably then on the next level of person. But as you run that ecosystem and there's so much complexity around it, I think you need some of those processes in place in order to start answering some of those tiebreakers, if you will.",
+   "zh": "是的，五天决策周期。他们都在领英上待了有一阵子了，但确实很棒。RAPID 流程有个关键点——有时候就像你说的，如果你同时运营两个、三个市场平台，采用多种商业模式，就得明确谁有决策权？在这种情况下，谁能拍板？确保有一位决策人全权负责，这点至关重要，因为这样能快速理清思路。\n\n（00:38:36）：这更多是个个人经验法则，但我常说的一句话是，如果邮件来回三次，就该直接打电话了。要是通话20分钟还没结果，就该直接联系决策人并结束对话。这样一来，通常一小时内就能拿出决策。虽然实际操作未必如此。我相信领英上很多产品经理都遇到过类似情况，或许会对我提到的方法有反馈，但这就是其核心意图。\n\n（00:38:58）：至于五天决策周期，就是要让管理者担起责任。若五天内某个问题仍未能升级解决，那就该升级到更高层级了。但面对如此复杂的生态系统，确实需要建立相关流程来解决那些难以裁决的纠纷。",
+   "ts": "00:38:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Ooh, I like that five-day rule. Basically puts the clock on a manager to get to unblock, basically?",
+   "zh": "哦，我喜欢这条五天规则。基本上就是给管理者设定时限，让他们尽快解决问题？",
+   "ts": "00:39:17"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. Yeah.",
+   "zh": "是的。",
+   "ts": "00:39:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "With RAPID, I don't know if I totally understand. Is that an acronym for something? Or is it just-",
+   "zh": "关于 RAPID，我不太清楚这是不是个缩写？还是说——",
+   "ts": "00:39:25"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "It is.",
+   "zh": "是缩写。",
+   "ts": "00:39:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... make decisions rapidly?",
+   "zh": "……快速做决策？",
+   "ts": "00:39:29"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "No, that's a great question. The D stands for decisions, but the R is for who's recommending it. The A, who has to agree. The I is for other people who may be able to be putting in an input. It's basically a list of people who need to be in the decision chain.",
+   "zh": "不，问得好。这里的 D 代表决策，但 R 代表推荐决策的人。A 是必须同意的人。I 是其他可能提供意见的人。这基本上就是决策链中需要包含的人员列表。",
+   "ts": "00:39:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it.",
+   "zh": "明白了。",
+   "ts": "00:39:44"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I would argue the most important thing is to have a single name on that decision line, because that usually makes sure that you can get a decision very quickly.",
+   "zh": "我觉得最重要的是决策链上要有一位明确的决策人，因为这通常能确保快速达成决策。",
+   "ts": "00:39:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any other really common frameworks or processes along these lines at LinkedIn that you find really helpful?",
+   "zh": "领英上还有其他常见的类似框架或流程吗？你觉得特别有用的？",
+   "ts": "00:39:51"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "The third thing is just in how we think about talent, especially in the product organization. I often really do try to suss out during interviews or in how we promote people, just their ability to see systems. Because again, I do think it's a different skillset and a different capability of how we map those things out on a complexity curve. Oftentimes, I think those talent systems will ... those who are able to see the whole, make decisions at the whole, that's rare actually. (00:40:24): I think most talent systems are, \"Hey, how did your division grow or your product grow, your era grow?\" We've tried our best to understand that it's not just about that. You want accountability in the ecosystem of course, but how well does this person work across? I think as we've created telemetry around that or organizational understanding of that, how we've understood ourselves, just, \"Hey, this is the skillset that's really important here,\" I think that's quite rare in driving that kind of complexity system as well.",
+   "zh": "接下来要讲的第三点，是关于我们如何看待人才，尤其是产品团队中的才华。我在面试或晋升员工时，常常会特别关注他们洞察系统运作的能力。因为我深信，这是一种截然不同的技能组合，也是以复杂度曲线为框架来规划事务的独特能力。很多时候，我发现那些能统揽全局、在宏观层面做决策的人才，实在是凤毛麟角。（00:40:24）我认为大多数人才选拔体系都停留在“你的部门/产品/项目是如何增长的？”这样的问题上。我们努力认识到，成功不仅取决于这些指标。当然，生态系统中的责任追究很重要，但更关键的是这个人能否与各部门协同合作。随着我们逐步完善数据监测体系和组织层面的理解，我们逐渐意识到，真正重要的技能组合在于：能否驾驭复杂局面。这在推动复杂系统创新方面实属难得。",
+   "ts": "00:39:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One more question along these lines.",
+   "zh": "再问一个相关问题。",
+   "ts": "00:40:52"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah.",
+   "zh": "好的。",
+   "ts": "00:40:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've been at LinkedIn for a long time. It feels like historically, LinkedIn as a product team, the external impression was it's very optimizey-oriented and everyone there is just micro-optimizing all the little features of LinkedIn. Everyone I've worked with from LinkedIn, they're just really good at just optimizing things. (00:41:16): It feels like a lot of new stuff is happening with LinkedIn these days and I'm curious if that's been a real intentional shift of let's not focus so much on making emails work better and all the click-through rates of everything and more just, let's innovate more, let's do some bigger bets.",
+   "zh": "你在领英工作了很久。过去，外界对领英产品团队的印象是，团队过度关注微优化，成员们总在对领英的各个功能进行局部优化。和我合作过的领英员工，都非常擅长优化。（00:41:16）但近年来领英似乎有了很多新变化，我很好奇这是否是刻意的转变——不再过度追逐邮件转化率等指标，而是更倾向于创新和尝试更大胆的项目。",
+   "ts": "00:40:54"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I do think there's two things to acknowledge. First, there's an incredible growth team, and I think a lot of people that go on from LinkedIn in incredible roles are growth. I think there's an influencer change that a lot of people you meet might be growth-oriented. The second thing is, especially when LinkedIn started, and like you said, I've been here a little bit of time, but growing the network is probably a very, very important thing to get the scale out. I think a lot of things people interacted with at first were maybe more growth mechanisms than other systems. (00:42:02): I do think there's always been, at least for the last several years, an underlining line that value is what's going to carry this ecosystem, and value is ultimately what makes the day. To your point, I like to think that they may not be the most, I don't know, the glittery items, but I'm really proud of what we've done with skills. I think that's one of those invisible systems that no one really knows. Like, oh my gosh, that's a huge disruption if people can now get ... That's a huge language that people have created. That's a huge way that people have changed. (00:42:32): We're really proud of what we've done with values. Even open to work and commitments, these are major social systems that we've wired through. I'm really proud of what we've done with LinkedIn Learning. I would argue it's one of the bigger creator systems in the world. It's these incredible instructors and the ability to take someone who teaches, maybe is not great on camera, and move them to the studio and give them that capability and take their voice out there. (00:42:55): I think there's a lot of different things we've done that maybe because they're more invisible, if you will, or they're hidden in a marketplace that necessarily maybe a lot of the influencer voices may not actually need an access every day, I don't know if they get as much visibility. But I like to think that's been part of the DNA for a while and we've been really thinking through it.",
+   "zh": "我确实认为有两点值得肯定。首先，LinkedIn拥有一支卓越的增长团队。我认为许多从LinkedIn离职后担任重要增长职位的人都非常出色。我认为有一种影响者思维的转变，你遇到的许多人可能都以增长为导向。其次，尤其是在LinkedIn刚成立之初，正如你所说，我在这里待了不久，但发展用户网络无疑是实现规模扩张的关键。最初，人们接触的大多是增长机制而非其他系统。（00:42:02）我认为至少在过去几年里，价值始终是支撑这个生态系统的核心，最终决定着日常运营的成败。就你提到的观点而言，我认为技能板块或许并非最引人注目的，但我为我们在技能板块的创新深感自豪。我认为这是人们鲜为人知的隐形系统之一。比如，如果人们现在能获取技能……这无疑是一项重大变革，人们创造了全新的语言交流方式，彻底改变了沟通方式。（00:42:32）我们对价值体系的构建深感自豪。即使是开放的工作和承诺等功能，也是我们精心构建的核心社交系统。我为LinkedIn Learning所取得的成就深感骄傲。我认为它是全球最具影响力的创作者平台之一。这些杰出的导师，以及让那些镜头表现不佳的讲师进入专业录音棚、赋予他们传播知识能力的创新举措，都意义非凡。（00:42:55）我认为我们还有许多不易被察觉的创新成果。比如，尽管它们可能隐藏在市场背后，或者被深埋于平台功能之中，以至于许多行业意见领袖未必每天都会接触到，但这些创新已深深融入我们的基因，我们始终在深入思考这些创新对生态系统的影响。",
+   "ts": "00:41:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's actually talk about LinkedIn Learning. I know this is a big passion of yours. You have your own course within this that I want to talk about. But broadly, just what is LinkedIn Learning, just so people understand? Because I don't know if a lot of people know this exists within LinkedIn.",
+   "zh": "接下来我们来谈谈LinkedIn Learning。我知道这是你非常关注的领域。你在LinkedIn Learning上开设了自己的课程，我想谈谈这个。但先说大方向，LinkedIn Learning到底是什么？让大家先有个概念。因为我不确定很多人是否知道LinkedIn里有这个平台。",
+   "ts": "00:43:17"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Great question. LinkedIn Learning is basically a way to learn professional skills. We entered the business in 2015 and the thesis was, we think about it as a marketplace again. You have seekers and job and oftentimes, seekers may not have all the skills in order to get the job. We're moving now towards the skills model, but without question, this other second-order impact. I don't think any of us wanted to, if you will, uberize the world. I don't think any of us wanted to make everyone there. We wanted to make sure everyone had the skills in order to learn the skills, in order to get there. Getting the learning business was really, really important for the vision and the mission. Basically, the idea was that we'd have ways to teach people skills that was very much tailored to professionals. (00:44:12): Now, that was the vision. The way the mechanism works is, we go and get the best instructors in the world. We will bring them into a film studio. We will do it at home or in a way that makes the content extremely ... We help write the scripts, we obviously have incredible graphic, in a way that makes a teacher and someone who's an expert who may not always have the capability or the time to go and make their own online course and get them in the studio and go from there. And then the vast majority of people will probably have access to it through their company. The vast majority of the usage and the business runs through enterprise and is a large enterprise learning product.",
+   "zh": "好问题！LinkedIn Learning基本上是学习专业技能的一种方式。我们在2015年进入这个领域，当时我们的理念是将其重新定义为一个市场平台。市场上存在求职者和职位空缺，但求职者往往不具备获得理想工作的全部技能。我们现在正朝着技能导向模式发展，但毫无疑问，这会带来二阶影响。我想我们没人想把世界变成优步（Uber）那样的平台，也不想让所有人都成为优步司机。我们只是想确保每个人都具备学习技能的能力，从而获得成功。收购学习业务对我们的愿景和使命至关重要。基本上，我们的理念是为专业人士量身定制教学方案。（00:44:12）这就是我们的愿景。运作机制是，我们邀请全球顶尖讲师，带他们进入摄影棚录制课程。我们会根据需求调整内容结构，协助撰写脚本，提供优质视觉效果，确保专家能够专注授课，而无需耗费精力或时间自建在线课程。绝大多数用户将通过所在企业获得这些资源，整个业务主要面向企业级客户，已发展为大型企业学习产品。",
+   "ts": "00:43:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Yeah. I'm just as a, I don't know, armchair quarterback strategy person, I could see where this came from of we're trying to help people connect to economic opportunity, find jobs. How do we help them? Oh, they don't have the skill? Let's help them build the skills. Makes a lot of sense. Okay. Within this, you have your own course on product management.",
+   "zh": "太棒了。是啊。我只是个旁观者策略分析者，我能理解你们的出发点——帮助人们连接经济机会、找到工作。他们缺少技能？那就帮他们提升技能。这很合理。好的。在此基础上，你自己也开发了产品管理课程。",
+   "ts": "00:44:47"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Well, it's funny. I'd been thinking about a course for a while, but largely it was this concept of, I wanted to make sure I tried our own product and I understood the instructor pain point. But it's a very scary experience. It's like first, I don't know if I had anything to teach. My own concerns about that. But about four or five years ago, one of the things we started at PM internally was product university. We had our own internal university, which was basically we got some survey, we sent it out. I think everyone told us, well, it's literally the most negative one was people said, \"I don't have the skills to do my job.\" (00:45:40): I remember looking around and I'm like, \"Well, it's pretty obvious. We hired a bunch of people, there's no PM degree, and we've done nothing.\" What we started doing is internally creating a product university. It was a bootcamp coming in. We tried to get from different models and one of the things we really learned was, you can't teach this just through frameworks. You needed to have a series of case studies. You need to have a real series examples. But luckily, we had a bunch of things we'd done at LinkedIn, so we started putting a curriculum against that. And then just recently, a few of us got together and we filmed the actual course for it. It's basically taking our product university bootcamp and opening it up to the world.",
+   "zh": "说来有趣，我曾考虑开设课程，但主要考虑的是内部试用产品，确保理解讲师的痛点。但这确实是个挑战。首先，我不确定自己能否授课，心里也很没底。大约四五年前，我们在PM部门内部启动了“产品大学”项目。当时我们发起调研，收到的反馈中最负面的声音是：“我缺乏胜任工作的技能。”（00:45:40）我环顾四周，意识到问题显而易见——我们招聘了大量PM，但根本没有专门的PM学位课程，之前的努力也白费了。于是我们内部打造产品大学，引入集训营模式。通过不断尝试，我们发现单靠框架教学行不通，必须结合案例分析和真实示例。幸运的是，我们在LinkedIn积累了大量实践经验，借此开发了课程体系。最近，我们几位成员共同录制了正式课程，基本上就是将内部产品大学的集训营内容向全世界开放。",
+   "ts": "00:45:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You opened up some of your internal use cases as a part of this course?",
+   "zh": "你们把内部案例也纳入了课程体系？",
+   "ts": "00:46:14"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "We do. Yeah.",
+   "zh": "是的，没错。",
+   "ts": "00:46:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's awesome. I always say that one of the things you don't realize you have as an advantage working at a bigger company is access to tons of strategy documents and vision documents and stories of this. Because once you're out, no one's going to be able to share those with you because they're so private. I don't have access to any of these anymore. That's a really cool perk if you're working at a company like LinkedIn.",
+   "zh": "太棒了。我总是说，当你在大公司工作时，你可能没有意识到自己拥有的一个优势，就是可以接触到大量战略文件、愿景文件以及相关案例故事。因为一旦离开公司，这些文件就不会再与你分享了，因为它们太私密了。我现在再也无法获取这些资料了。如果你在领英这样的公司工作，这确实是个很棒的福利。",
+   "ts": "00:46:18"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Thanks. Yeah.",
+   "zh": "谢谢。是的。",
+   "ts": "00:46:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Question about your course. What are some of your biggest lessons that you teach? Can you just give a preview of some of the tidbits that you might learn in this course of yours?",
+   "zh": "关于你的课程问题。你教授的最重要的课程内容是什么？能否简要介绍一下你这门课程中可能会学到的一些实用知识？",
+   "ts": "00:46:40"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Well, again, a lot of it is case studies and use cases in the same way we teach it here, but a couple of things that we do talk through. When we started doing our own product university, we realized a couple big pain points that people hit. The first was, it's actually really hard to know how to validate and what the bar is for a new idea in any organization. I think it's really hard to say that. We provide a lot of framework. Simple things from, \"Hey, you got to prove to the world why there's duct tape in here.\" There's someone actually physically going out and trying to do it. (00:47:19): How you can prioritize a list of ideas against a pain point, like how to make a simple expression, and how to look through what's an acute pain point and what's a wide range of people use, how we'd expect data in order to be used in order to validate this. Tools you could use to say if this is a good idea or a bad idea. More importantly tools to make sure you've went through the process and how you can communicate it. That's one framework set that we talked through. (00:47:42): The other is a lot about Damian, who leads our growth team. He comes in and he starts talking a lot about thinking in loops. How do you make sure that when you're building something you can have the fuel in order to cascade and grow? I think just the framework of doing that, how you measure that, how you monitor that, is also something that at least when I was starting and doing my startup, it was quite something I wish I had had access to. Those are maybe two good examples of frameworks and tools that we come through. (00:48:09): And then of course, trying to overlay that with real cases. Not always successful ones, of course, too. We talk about a lot of the failures we've had and where we probably went wrong if we had to diagnose them in postmortem.",
+   "zh": "嗯，再次强调，我们的课程主要以案例研究和用例为主，教学方式与这里类似，但我们也会讲解一些关键点。当我们开始建立自己的产品大学时，发现了大家普遍遇到的两个痛点：首先，在任何组织中，要验证新想法的可行性以及设定标准都非常困难。这很难量化。我们提供了许多框架，比如“你得向全世界证明为什么这里用了胶带”。有人真的会亲自去尝试。（00:47:19）：如何根据痛点优先排序各种想法，比如如何简化表达，如何判断是急迫的痛点还是广泛用户群体的需求，以及如何获取可用于验证的数据。如何判断一个想法是好是坏。更重要的是，如何确保整个过程的规范性和沟通能力。这些都是我们讲解的框架体系。（00:47:42）：另一个重点是达米安，他负责我们的增长团队。他会讲解如何以循环思维方式构建产品。如何确保在开发过程中有持续增长的动力？我认为这样的框架、衡量标准和监控机制，至少在我创业初期就非常希望能接触到。这些就是我们传授的两个典型框架和工具案例。（00:48:09）：当然，我们会结合真实案例进行讲解。当然也会有失败的案例。我们会分析这些失败原因，吸取教训。",
+   "ts": "00:46:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A lot of the people listening to this are people that want to get into product management and aren't PMs yet. I imagine you get asked this a lot, how do I get into product management? What is your advice that you often give?",
+   "zh": "很多听众都是想进入产品管理领域但还不是PM的人。我想你经常被问到这个问题：如何进入产品管理领域？你常给出的建议是什么？",
+   "ts": "00:48:19"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. Well, let's start with how we look at the world, which is this idea of skills. We have a diagram that I think about, which is skills are on a triangle. You might have heard this one before. I don't know if you have. Skills are on a triangle, and I think you need three different skills to be a great PM. You need to be a Steven Spielberg type creator. Something around data science and the ability to really look at data and see patterns and then see the future. And then especially get more senior. I think it's a lot of general management. You have to basically be able to shine and innovate across the team, understand the budget, understand how companies differently work. (00:49:01): I've actually never seen a great PM who's in the center of it. I find the great PMs live on the edges. There's always someone who's this exceptional data scientist and the ability to maybe be a great GM and lead and inspire, or maybe someone who's so creative, who can lead a team in a different way. I think that one thing I would really, really encourage people to do is understand where they fit on that graph and gravitate towards those kinds of roles. Because a lot of times, I think what people do is they think they have to make up for the other pieces of that graph, and it leads them to a path where maybe they're not playing to their strengths. That's one thing I always encourage people. (00:49:38): The other thing I would say, and I know it's a little bit of luck in how this works, but I think about my journey, one thing I've really found was really helpful is, I was on the first team that did a hybrid SUV in the US. At the time, it was the Hybrid Escape at Ford. I came from the Midwest and it was one of those products where people would really drive out for hundreds of miles and see, and really a community gravitated around because it was a very special product. Being able to work on something that people loved, really loved early on, and see what that felt like and look like and that success was, it created a bar for what I would hope my products could do. It would. (00:50:17): If you're able to get into something that people really love and feel that and experience that, and really understand what that looks like and what it takes to get there, I think that's actually been a really valuable lesson throughout my career because you can understand the whole path on the way up. I look back at that as really something that I would hope other people if they can do it. I know you're making world decisions on many different criteria, but try to find something people love and really experience what that feels like.",
+   "zh": "是的。好吧，让我们先从我们看待世界的方式说起，也就是技能的概念。我想到了一个图示——技能呈三角形分布。你们可能听过这个说法，我不知道你们是否听过。技能呈三角形分布，我认为要成为一名出色的产品经理，需要具备三种不同的技能。首先，你得像史蒂文·斯皮尔伯格那样的创意天才，精通数据科学，能够洞察数据中的规律并预见未来。随着职位晋升，更多的是通用管理能力。你必须能在团队中脱颖而出，创新引领，理解预算，理解不同企业的运作方式。（00:49:01）：我从未见过处于技能图示中心的杰出产品经理。优秀的产品经理往往处于边缘地带。有些人是卓越的数据科学家，同时能成为出色的总经理，领导并激励团队；还有些人极具创造力，以独特方式领导团队。我特别鼓励大家去理解自己在技能图上的位置，并朝着这样的角色方向发展。因为很多时候，人们试图弥补图上的其他技能短板，结果却偏离了发挥自身优势的道路。这是我一直强调的要点。（00:49:38）：另外，我想说的是——我知道这在一定程度上取决于运气——回顾我的职业生涯，参与美国首款混合动力SUV开发的经历对我帮助极大。当时是福特的混合动力版Escape。我从中西部来到这里，这个产品吸引了数百英里外的消费者，因为它太特别了。能参与人们真心喜爱、早期就备受追捧的产品，见证其成功，这为我设定了产品标准。（00:50:17）：如果你能参与人们热爱、能切身感受的产品，真正理解其本质和成功之路，我认为这对我的职业生涯意义非凡，因为你能洞察整个成功路径。回首往事，我希望其他人也能有这样的机会。我知道你们需要根据多重标准做决策，但不妨尝试寻找人们热爱的产品，亲身感受其魅力。",
+   "ts": "00:48:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To build on that, with PMs that work for you and work with you, when they're looking to get better and build their skills, other than go take some courses on LinkedIn Learning, what do you often recommend they do to help become stronger and better at their job?",
+   "zh": "延伸一下，对于与你共事和合作的产品经理，当他们希望提升自己、锻炼技能时，除了在领英学习上参加课程外，你通常还会建议他们做些什么来变得更强、更胜任工作？",
+   "ts": "00:50:40"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "First, it is that feeling of, you got to own your product and you got to speak up and say this is where I want to drive it. Because a lot of times I think people are scared to do that, or worried about doing that, or don't feel that's their actual role. One, it's extreme clarity on hey this is your role. It's to own this and take this to the next level. When you start molding the clay, people want to come and help. When you start building something cool, people are like, \"Oh.\" They're gravitated to it. But until you can start doing that, that's really tough. One, it's letting people know that's what's expected of them. (00:51:26): And then two, I would tell people to just build. As crazy as it sounds, I spend a lot of my time on the side, just trying to build different things. Try different clay, think through different ideas. I think that is a really important skill to have, to just being able to say, \"Okay, I'm going to start with a blank sheet and make some art,\" or whatever it is you want to do. I encourage people to do that because it's a muscle, like anything else. It can atrophy. I really do think no matter what the heart of PM, in is that ability to be a builder, and you do got to make sure you can keep doing it.",
+   "zh": "首先，这种感觉就是，你必须对自己的产品负责，必须挺身而出说出“这就是我想要把它推向的方向”。因为很多时候，我觉得人们害怕这么做、担心这么做，或者不认为这才是他们的职责所在。首先，要明确传达一个信息：嘿，这就是你的角色。你的任务就是主导并推动项目向前发展。当你开始雕琢素材时，人们会主动来帮忙；当你打造出酷炫的东西时，人们会惊叹不已，被它深深吸引。但在你能做到这些之前，真的很难。首先，要让人们知道这是对他们的期望。（00:51:26）然后，第二点，我会告诉人们直接动手去创造。听起来可能很疯狂，但我很多业余时间都在尝试各种项目，尝试不同的素材，构思不同的创意。我认为具备这种能力非常重要——无论何时，无论项目管理的核心是什么，都必须具备这种创造力，你必须确保自己能持续保持这种能力。",
+   "ts": "00:50:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. That's actually a great segue to where I was going to go next, which is, you say you build and you like to build stuff, but you're legitimately building a lot of stuff. You have the site, mindofhari.com, where you share all these side projects. Can you just talk about what's going on there and some of the stuff that you've built?",
+   "zh": "是的。这正好可以引出我接下来要说的内容。你说你喜欢创造东西，但实际上你确实在创作很多作品。你有自己的网站mindofhari.com，在那里分享所有这些副业项目。能否谈谈这个网站的情况，以及你创建的部分作品？",
+   "ts": "00:51:57"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. Arguably, the only thing I've ever been good at in my life is just building things and creating things. I get a lot of energy from it. Yeah, I have a site. It's called Mind of Hari because it is really whatever's top of mind. I try to do my best to completely separate it from business. I know there's always a draw as a good PM to say, is there a business here? But I try to keep it as art. It's completely art and it's what I want to build. I take on new subjects. I have two little kids and it's fun to ... One of them was a book me and my oldest wrote, and it was a set of bedtime stories we did. And then one day I was like, \"Hey, we should just make this a notebook.\" And we did it. I think it's got about half-a-million readers now. It's been fun to see it take some life and go through. (00:52:57): We made a board game recently that I know Stanford Design School or some professors there have been using, and it was called Parallel Universe. It's, how do you have a card and then be able to see maybe the card says there's no windows in this world anymore, and then what would happen in that world? You got to list 10 different things that would happen. That ability to think ahead, the fun sci-fi stuff. I make healthy gummy bears. I just try to take something completely new and have that. I don't know, it's probably one of the more fun moments in this world where you can sit there and just create something and have some new clay. Yeah, that is what that website is about.",
+   "zh": "是的。可以说，我这辈子唯一擅长的事情就是创造和建造东西。从中我能获得巨大的能量。是的，我确实有这个网站。它叫Mind of Hari，因为这里汇集了我脑海中浮现的各种想法。我尽可能地将它与商业分开。我知道作为一个优秀的产品经理，总是会想这里能否有商业机会，但我尽量保持它的艺术性。这完全是艺术，是我想去创造的。我会接手新的主题。我有两个小孩子，和他们一起做事很有趣……其中一个是我们父子合著的书，里面收录了我们一起创作的睡前故事。有一天我突发奇想：“嘿，我们把它做成笔记本吧。”然后我们就做了。现在它已经有大约50万读者了。看着它逐渐成长，真的很有趣。（00:52:57）最近我们做了一个叫《平行宇宙》的桌游，斯坦福设计学院的一些教授一直在用它。这个游戏的玩法是，你手里有一张卡片，然后想象这个世界不再有窗户了，接着会发生什么？你需要列出10种可能的后果。这种前瞻性思考能力，还有那些有趣的科幻元素。还有我做的健康软糖熊。我就是想尝试全新的东西，享受创作的乐趣。是的，这就是那个网站的意义所在。",
+   "ts": "00:52:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wait, so you made actual gummy bears?",
+   "zh": "等等，你真的做了真正的软糖熊？",
+   "ts": "00:53:34"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah, we are doing something with gummy bears. Lenny, I know you're expecting a new addition. Congratulations, again. But one of the things I found when I had kids is, no matter what I was trying to do, there was candy and sugar everywhere like any Halloween, any birthday party, et cetera. You can't get rid of it because it was just hard to do. So we were like, hey, we're going to sit down and make our own gummy bear. What I found is, this is just a fun tidbit for your readers, if you open a Twizzler or one of those, about 80% of what's in there is sugar because they're optimizing for shelf life. They're optimizing for what's in the store. (00:54:07): What we were able to do is basically create a gummy bear. About 40% of it is sugar. It's just got five ingredients. Honey is the sweetener because I don't want to give my kids some alternative sweeteners. But we have a small commercial kitchen and we produce some gummy bears. If you ever want to try them, to any of your followers, I'm happy to send some gummy bears and hopefully you can check them out.",
+   "zh": "是啊，我们正在做一些有关软糖熊的项目。莱尼，我知道你正期待迎来新生命。再次恭喜你。不过我生儿育女的经验告诉你，无论你怎么努力，糖果和糖分总是无处不在——就像万圣节、生日派对等场合一样。根本没法完全避免，因为要么难以做到，要么就是为了延长保质期而添加糖分。于是我们就想，嘿，我们来亲手制作软糖熊吧。我发现有个有趣的小知识：如果你拆开Twizzler之类的糖果，里面80%的成分都是糖，因为商家为了延长保质期、迎合市场需求才这样做。（00:54:07）我们成功制作出了软糖熊，里面糖分只占40%，配料仅有五种。蜂蜜是甜味剂，因为我不想让孩子们接触人工甜味剂。不过我们有个小型商业厨房，可以生产软糖熊。如果你们想尝尝，欢迎联系我的粉丝，我很乐意寄一些给你们试试。",
+   "ts": "00:53:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wait, is there a way to buy them somewhere?",
+   "zh": "等等，有没有什么地方可以买到？",
+   "ts": "00:54:27"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Well, you can go to Mind of Hari. We stock them seasonally. One of the things that we found out is there is different laws on how they can be shipped, and obviously we're not optimizing for long storage. But they'll be on Mind of Hari. You can always reach out to me and I'll find you and tell you which farmer's market we're at or whatever and you can come swing by.",
+   "zh": "嗯，你可以去Mind of Hari看看。我们会季节性上架。需要注意的是运输法规不同，而且我们没追求长保质期，但产品会在Mind of Hari上架。你随时可以联系我，我会告诉你我们参加的农贸市场之类的，欢迎来品尝。",
+   "ts": "00:54:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, I don't see it on Mind of Hari, so maybe by the time this comes out, put it on here. Or if you're trying to-",
+   "zh": "嗯，我在Mind of Hari上没看到，可能等这期节目播出后会上架吧。或者你想——",
+   "ts": "00:54:48"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Put it on there?",
+   "zh": "上架？",
+   "ts": "00:54:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "对啊。",
+   "ts": "00:54:54"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah, it's on the homepage. And then when they're stock, we put them in the shop.",
+   "zh": "是的，现在首页就有了。有货时我们会放到商店里。",
+   "ts": "00:54:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. That means they're out of stock? All right, we're going to sell you out. Let's get all your gummy bears. With that, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "好的。那就是说它们已经售罄了？好的，我们要把你们想要的都卖给你们。先把你们的软糖熊糖果都收起来吧。现在，我们要进入激动人心的闪电问答环节了。你们准备好了吗？",
+   "ts": "00:54:57"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah, let's do it.",
+   "zh": "是的，开始吧。",
+   "ts": "00:55:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books you've recommended most to other people?",
+   "zh": "你向别人推荐过最多的两三本书是什么？",
+   "ts": "00:55:07"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "The first one is called Thinking in Systems. It's the one I give the team every now and then. It's just a really good book about how I think sometimes people see systems. Can we talk about it? It could be abstract. I think it goes into real detail on how people can intervene at various parts and how to take actions at different systems. I really enjoy that book. (00:55:31): Not directly maybe a book I recommend, but a book that I just read that I thought was phenomenal, just to give it to readers if they want something good, it's called Tomorrow, and Tomorrow, and Tomorrow. It was recommending by a friend. Have you read it? You read it?",
+   "zh": "第一本叫《系统思维》。这本书我时不时会推荐给团队。这是一本关于如何看待系统的非常好的书。我们能聊聊它吗？它可能有些抽象，但它详细探讨了人们如何在不同层面进行干预，以及如何在不同系统中采取行动。我真的很喜欢这本书。（00:55:31）：可能不是直接推荐，但我刚读了一本觉得非常棒的书，如果读者想找本好书，可以看看《明天、明天、明天》。这是朋友推荐的。你读过吗？你读过吗？",
+   "ts": "00:55:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I honestly didn't love it, but I liked it a lot.",
+   "zh": "读过了。说实话，我不是特别喜欢，但也挺喜欢的。",
+   "ts": "00:55:41"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "For some reason, I've been-",
+   "zh": "不知为何，我一直——",
+   "ts": "00:55:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It was sweet.",
+   "zh": "挺温馨的。",
+   "ts": "00:55:47"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I thought it was very well done and there's a couple chapters I reflected on. I just finished it. I thought it was well done. That's one that I'll throw out there.",
+   "zh": "我觉得写得很好，里面有几个章节让我深有感触。我刚读完，觉得写得很棒。这本书我也推荐一下。",
+   "ts": "00:55:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, it was very sweet. I feel like it got hyped too much for me. I'm like, okay.",
+   "zh": "是啊，那部电影确实很温馨。不过对我来说，它被宣传得太夸张了。我当时就想，算了吧。",
+   "ts": "00:55:54"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Oh, I didn't actually know it got-",
+   "zh": "哦，我之前还真不知道它被宣传得那么——",
+   "ts": "00:55:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that's the key.",
+   "zh": "我觉得这才是关键。",
+   "ts": "00:55:54"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "... much publicity. Okay, that's it. The third one that I just downloaded because I finished it, I'm actually going to open up my audiobook and tell you because I'm about, I don't know, an hour into and I'm really enjoying it, it is An Immense World. I don't know if you've read that one yet. It is about animals and how animals have different senses out there. It goes through a set of different animals and how they see the world. (00:56:24): Just one of those reminders that we're so limited sometimes in our own perception and how dogs, for instance, they can breathe in and take in sense even when they're breathing out. It's like vision almost, and it's just phenomenal to me just to think about all the things they're probably sensing as my dog and I are going on our walk.",
+   "zh": "……被大肆宣传了。好吧，就这样。我刚下载的第三本书，因为已经读完了，所以我要跟你们分享一下。大概读了一个小时，我觉得特别棒，是《浩瀚宇宙》。你读过这本书吗？它讲的是动物，以及动物如何感知世界。书里介绍了各种动物的视觉系统。（00:56:24）这本书让我意识到，我们人类的感知能力其实很有限。比如狗狗在呼气的时候也能吸入气味获取信息，这几乎就像视觉一样。每次带我的狗狗出去散步时，想到它们可能感知到的那些细节，真的很神奇。",
+   "ts": "00:56:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've learned dogs shoot air out of their nose first before they smell, to clear things out.",
+   "zh": "我还学到，狗狗在嗅东西前会先把鼻子里的空气呼出来清理感官。",
+   "ts": "00:56:42"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Isn't that wild? They can probably see so much more of what happened in the history of a little walk than we're able to just because of that.",
+   "zh": "太不可思议了吧！它们或许能比我们更清晰地感知一段短暂的散步所经历的一切。",
+   "ts": "00:56:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Incredible. Next question. What is a favorite recent movie or TV show?",
+   "zh": "太不可思议了。下一个问题：最近有没有喜欢的电影或电视剧？",
+   "ts": "00:56:57"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "One thing we try to do is watch TV as a family. It brings us together a little bit. We are doing Star Wars with the kids, which is for the first time, which has been a really enjoyable experience, just being able to witness it through them. And then we've been going a little bit back in time. We watched ET. It's fun. It jogs your memory. These are phenomenal movies that we go through. I think your question is on recent TV shows that probably came out more recently.",
+   "zh": "我们尽量全家一起看电视。这能增进家庭感情。我们现在在陪孩子们看《星球大战》，这是第一次看，对我们来说是个很棒的体验，看着他们对剧情的反应特别有趣。我们还回顾了些老片子，比如《E.T.外星人》。很有趣，勾起很多回忆。这些经典电影的重温体验真是太棒了。我觉得你问的是最近上映的新剧吧。",
+   "ts": "00:57:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Those work just as well.",
+   "zh": "那些老片子也很棒。",
+   "ts": "00:57:27"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. The other one I did like, it's not a TV show but I ... God, what was it called? It was that podcast that came out. Case 63 I think it was called? Anyways, I hope that's the right name of it. But it was a sci-fi podcast. It was like 10-minute shorts. The premise of it is someone comes from the future and there's a little bit of speculative fiction and is at a psychologist. It's just a phenomenal piece. I'll have to get you the real name. Maybe I can get it for you after for the show notes or whatever.",
+   "zh": "是啊。我还挺喜欢另一部的，虽然不是电视剧，但——天啊，那个播客叫什么来着？《第63号案件》？反正我希望能记得名字。这是个科幻播客，每集只有十分钟。故事设定是来自未来的访客，在心理医生那里展开推测性小说。真的很棒。我得去查查正确的名字，或许节目笔记里有。",
+   "ts": "00:57:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, we'll edit your words and add that-",
+   "zh": "是啊，我们会编辑你的发言并添加——",
+   "ts": "00:57:56"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah, exactly.",
+   "zh": "对啊。",
+   "ts": "00:57:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... whatever's in the show notes, that's the one you meant. What is a favorite interview question you like to ask?",
+   "zh": "……节目笔记里的内容就是你想问的那个问题。你最喜欢问的采访问题是什么？",
+   "ts": "00:57:59"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I do like to ask people what the most complex thing they ever built was. I just love to understand mostly, what do they gravitate to? Is there something you gravitate to? And two, are they able to simplify it? I think those are two really important skills.",
+   "zh": "我喜欢问别人建造过的最复杂的东西是什么。我想了解他们最感兴趣的是什么，是否能把复杂的事情简化。我觉得这两个技能很重要。",
+   "ts": "00:58:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is it that you look for in their answer that tells you it was a good answer?",
+   "zh": "从他们的回答中，你怎么判断这是一个好的答案？",
+   "ts": "00:58:19"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Both of those things. First, did they take on something that was super complex, really, really hard? Because I think there's only a particular group of people who gravitate to those kinds of problems. I do think more and more openly. I think that's a lot of, in my opinion, the ways the world is going to get better by the things that are really, really hard to solve. Intimacy doesn't scale. When you think about how people are going to feel more connected, it's going to be a lot more difficult to solve. When you think about healthcare, it's going to be very, very difficult to solve. Education is a very difficult interconnected space. I think people who gravitate to that, know those problems are hard, have a very special gift. It's hard to replicate that passion. So one, did you do that? (00:59:06): And then two, I think people who really understand systems are able to, somehow this is truly, especially people probably way smarter than me, they're able to simplify it. They're able to explain it and say, \"This is how I looked at it, but here's how I modeled it. Here's the lovers and how I went after it.\" Even if it's nonlinear, they're able to say, \"This is how the cause and effects works.\" I'm really looking for once you did it, did you really understand and were you able to crack it? Or at least, did you understand why you weren't able to crack it? I usually find this to be also the most rewarding conversations.",
+   "zh": "以上两件事。首先，他们是否曾承担过极其复杂、极其困难的任务？因为我认为只有一小群人会被这类问题所吸引。我确实越来越开放地看待这个问题。在我看来，世界上很多重大进步都源于那些极难解决的问题。亲密关系无法规模化。当你思考如何让人与人之间更紧密相连时，会发现这是一个极难解决的挑战。医疗保健领域同样如此。教育领域也是一个高度互联的复杂领域。我认为那些被这类问题吸引的人，深知这些问题的难度，具备非凡的天赋。这种激情很难复制。所以，第一，你是否曾这样做过？（00:59:06）  \n第二，我认为真正理解系统的人能够以某种方式简化复杂问题。他们能将问题条理化，并解释道：“这是我的理解方式，但这是我的建模方法。这是挑战的难点所在。”即便问题非线性，他们也能说：“因果关系是这样运作的。” 我真正想探讨的是，当你成功解决问题后，是否真正理解了它？或者至少，你是否明白为何未能解决它？我发现这类对话往往最具启发性。",
+   "ts": "00:58:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Thanks for sharing all that.",
+   "zh": "太棒了。感谢分享这么多内容。",
+   "ts": "00:59:35"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:59:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Next question. What is a favorite recent product that you've discovered that you love?",
+   "zh": "下一个问题。你最近发现了什么特别喜欢的产品？",
+   "ts": "00:59:37"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I'll give you one more dad one. My youngest just hates brushing his teeth. Just was like, it was always a thing. I should actually find the name of the toothbrush, but you can just Google or Amazon this and you'll figure it out. Basically, it's like it was this Baby Shark toothbrush, but it's a game. You play that game for two minutes and you can try to pick up different prizes, you brush your teeth. (01:00:02): What I loved about it, because I think it's what all great products do, it turns a moment of annoyance to a moment of joy. It went not even just like you solved a pain point. It was an unreasonable experience of like now he loves it. It was just so well done. It's like 10 bucks, and it was 10 bucks extremely well spent. So much delight. Whoever made that toothbrush, thank you.",
+   "zh": "我再分享一个关于我孩子的。我小儿子特别讨厌刷牙。这一直是个问题。实际上，我应该能找到那款牙刷的名字，但你可以用谷歌或亚马逊搜一下，自己就能找到。基本上，那款牙刷就像《鲨鱼宝宝》主题的牙刷，但它加了游戏元素。你玩两分钟游戏，就能收集不同奖励，同时完成刷牙任务。（01:00:02）  \n我喜欢它的原因——我觉得所有优秀产品都具备这种特质——它能把一个令人烦恼的时刻转变为快乐的时刻。它不只是解决了一个痛点，而是创造了一种超乎想象的体验，让他现在爱上了刷牙。这款产品设计得太棒了。只要10美元，却物超所值。太有趣了。制作这款牙刷的人，你们太棒了。",
+   "ts": "00:59:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Damn. Is it playing Baby Shark? I hope not.",
+   "zh": "天哪。它会播放《鲨鱼宝宝》吗？希望不是。",
+   "ts": "01:00:23"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Well, it can. It has that feature. It has that capability, but it is a small price to pay for me to get out to enjoy.",
+   "zh": "嗯，它可以。这款牙刷有这个功能。这是值得付出的小代价，让我能轻松享受生活。",
+   "ts": "01:00:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Good times. What's something relatively minor that you've changed in your product development process that has had a big impact on your team's ability to execute?",
+   "zh": "美好时光。在产品开发过程中，哪项相对微小的改进对团队执行能力影响最大？",
+   "ts": "01:00:35"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I do like to change things relatively. Every quarter or six months, sit down and say, what can we get better at? The two areas I find myself innovating, if you will, innovating or tweaking the most, one is around planning. I think every company struggles with this. You get bigger, it probably becomes a more different ... especially when we talked about the complexity of the ecosystem. We started this thing where just basically we call it orange and red priorities. Which is, then a lot of times what people do is, teams will plan bottom-up. (01:01:12): They'll come into a manager or a leader and then the leader may shift things around or say, this is what ... I think we've really started shifting it in a different way. We said, these are the big rocks we got to get done. We're going to get those things done first. We're going to be upfront and honest with you, and these are the things and these are price. And then you can plan from there. I think it's relieved a lot of the progress. I think there's an honesty that comes within and that's been a big change. (01:01:34): The others just are the way we review products. That's always been a thing. My read is, when we keep our product review process live too long, it gets a little institutionalized and people start making long documents and stuff. You always have to change that every quarter. Basically, I think it always comes down to the same thing, which is, how do you get their problem statement quickly? And then how do you design from there? But the lever that we basically put in place for that was to really shorten the time. (01:02:00): I'm trying this thing, I don't know if it's going to work. But could we get to 15-minute reviews basically instead of an hour and see if that alleviates some of this? I'll let you know how it goes when we chat up next, but I'm very curious to see if this is going to be a different kind of system where we might be able to get to clarity quicker, or realize we're not at clarity and then break and come back.",
+   "zh": "我确实喜欢相对地做出改变。每个季度或每半年，我都会坐下来思考：我们在哪些方面可以做得更好？我发现自己最常进行创新或调整的两个领域之一是规划。我认为每个公司在这一方面都会遇到挑战。随着公司规模扩大，情况可能会变得更加复杂……特别是当我们谈到生态系统的复杂性时。我们推出了一个机制，简单地将其分为橙色和红色优先级。通常，团队会自下而上地进行规划。（01:01:12）：他们会来找经理或领导，而领导可能会调整项目或说，这就是我们要做的。我认为我们已经开始以不同的方式转变思路。我们会说，现在这些是我们必须完成的重大任务。我们会先完成这些任务。我们会坦诚相告，这些是任务，成本是多少。然后你可以据此进行规划。我认为这极大地推动了进展。内部的诚实度提升了，这是一个重大的变化。（01:01:34）：另一个方面是我们评审产品的流程。这一直是个问题。我的观察是，当产品评审流程拖延太久时，它会变得制度化，人们开始制作冗长的文档之类的东西。每个季度我们都必须对此进行调整。基本上，关键点在于如何快速明确问题陈述，然后据此进行设计。但我们为此采取的措施是大幅缩短时间。（01:02:00）：我正在尝试一种方法，不知道是否会成功。但我们能否将评审时间缩短至15分钟而非1小时，看看能否缓解这些问题？下次交流时我会告诉大家进展如何，但我很期待看看这是否能形成一种不同的系统，让我们能更快地明确思路，或者意识到我们尚未明确思路，然后暂停再重新开始。",
+   "ts": "01:00:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Reminds me of a tweet I think I just saw. Maybe it was an Instagram post of teams that do stand-ups while doing a plank, to keep the meeting really short.",
+   "zh": "这让我想起我刚看到的一条推文。可能是一张Instagram帖子，里面团队在做站立会议时同时做平板支撑，尽可能缩短会议时间。",
+   "ts": "01:02:21"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "That's interesting.",
+   "zh": "这很有趣。",
+   "ts": "01:02:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Could be the next one.",
+   "zh": "可能是下一个尝试的方向。",
+   "ts": "01:02:30"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "I haven't tried that one yet, but it might be something we try next.",
+   "zh": "我还没试过这个，但我们可能会下次尝试。",
+   "ts": "01:02:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Last question. You've been at LinkedIn for a long time. I imagine you use LinkedIn a lot. Is there just a pro tip that you can share of how to be more successful with LinkedIn, find more value in LinkedIn, enjoy it more?",
+   "zh": "最后一个问题。你在领英工作很久了。我想你经常使用领英。有没有什么专业建议，能帮助你在领英上更成功、获得更多价值、享受其中的乐趣？",
+   "ts": "01:02:34"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "The first is, I do think certainly there's ways, and the majority of ways that skills work is we infer skills. But I think that there is a skills section on the profile. I think a lot of people ignore it because they don't realize that there's value in it. That's changing, but I'm not sure if it's changing for everybody. I would pay more attention to skills as we get more into the skills-first stuff. (01:03:05): The second thing I would probably do, I don't know if it's that hidden, but I would check out LinkedIn Learning. I do think LinkedIn Learning is a gem. I think because it's sold largely through enterprises, a lot of people miss it. I would hope you check it out. But more importantly, tell me areas that we could get better on there as well. I hope that people will find value there.",
+   "zh": "首先，我确实认为确实有一些方法，大多数技能发挥作用的方式是我们推断出这些技能。但我认为个人资料中有一个技能板块。我觉得很多人忽视了它，因为他们没有意识到它有价值。这种情况正在改变，但我不确定是否对每个人都适用。随着我们越来越深入“技能优先”的领域，我会更加关注技能部分。（01:03:05）：第二件事，我可能会做的是，我不确定它是否被隐藏得很好，但我会去看看领英学习平台。我认为领英学习是一个宝藏。可能因为它主要通过企业销售，所以很多人错过了它。我希望你能去看看。但更重要的是，告诉我我们在那里可以改进的方面。我希望人们能在那里找到价值。",
+   "ts": "01:02:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's the best way to find out about LinkedIn Learning? They just Google LinkedIn Learning and they'll find the-",
+   "zh": "怎样才能最好地了解领英学习平台呢？他们只要在谷歌上搜索“领英学习”就能找到——",
+   "ts": "01:03:22"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Yeah. Or go to LinkedIn/learning. Yeah.",
+   "zh": "是的。或者去领英/learning。是的。",
+   "ts": "01:03:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Linkedin.com/learning? Okay. Great. Hari, I feel like we've opened the Mind of Hari up on this podcast. I appreciate you being here. Two final questions. Where can folks find you online if they want to reach out, and how can listeners be useful to you?",
+   "zh": "领英.com/learning？好的。太棒了。哈里，我觉得我们在这次播客中深入探讨了哈里的心得。感谢你今天的参与。最后两个问题。听众如果想联系你，可以在哪里找到你？以及听众如何能对你有所帮助？",
+   "ts": "01:03:30"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Well, you can find me on LinkedIn. That's an easy one. I do really, really, really appreciate product feedback. I promise you I take it well, for those listening. And two, going back to the heart of this conversation around complexity, it is really hard to know sometimes what everyone's experience is because you're living in a very abstracted ecosystem. The more you could just say, hey, this is working or not, and the intentions are coming from a good place, and if you have a moment and you're not having a great experience, or you are having a great experience, you could write it. I really would appreciate to hear your perspective.",
+   "zh": "嗯，你可以在领英上找到我。这很简单。我真的非常非常非常感谢产品反馈。我向你保证，我会认真对待这些反馈，特别是对于正在收听的听众。第二，回到这次谈话的核心——复杂性的问题，有时很难了解每个人的体验，因为你生活在一个非常抽象的生态系统中。你越能简单地说，嘿，这个好用或不好用，初衷是好的，如果你有时间而且体验不佳，或者体验很棒，你可以写下来。我真的很希望听到你的观点。",
+   "ts": "01:03:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Hari, thank you so much for being here.",
+   "zh": "太棒了。哈里，非常感谢你今天的参与。",
+   "ts": "01:04:15"
+  },
+  {
+   "speaker": "Hari Srinivasan",
+   "en": "Thanks, Lenny. It's great meeting you.",
+   "zh": "谢谢，莱尼。很高兴认识你。",
+   "ts": "01:04:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You, too. Bye, everyone. (01:04:23): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "你也是。再见，各位。（01:04:23）：非常感谢你的收听。如果你觉得这期节目有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅。同时，请考虑给我们评分或留下评论，这对其他听众找到这个播客非常有帮助。你可以在l越来越多地了解播客的信息。下期节目见。",
+   "ts": "01:04:20"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>访谈详情 · Lenny 播客访谈库</title>
+<link rel="stylesheet" href="assets/style.css?v=20260718">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">L</span><span data-i18n="siteTitle">Lenny 播客访谈库</span></a>
+  <nav class="site-nav" aria-label="主要导航">
+    <a class="active" href="index.html" data-i18n="libraryNav">访谈录</a>
+    <a href="knowledge.html" data-i18n="knowledgeNav">知识地图</a>
+    <a href="media.html" data-i18n="mediaNav">书影音库</a>
+    <a href="project.html" data-i18n="projectNav">项目</a>
+    <a href="about.html" data-i18n="aboutNav">关于网站作者</a>
+  </nav>
+  <button id="langToggle" class="lang-toggle">EN</button>
+</header>
+<main class="container episode">
+  <a id="back" class="back" href="index.html">← 返回目录</a>
+  <div id="epHead" class="ep-head"></div>
+
+  <div class="episode-layout">
+    <div class="episode-main">
+      <section class="panel insight-panel" id="episodeInsightPanel" hidden>
+        <div class="section-kicker" data-i18n="insightKicker">KEY INSIGHTS</div>
+        <h2 data-i18n="insightTitle">这期值得带走的观点</h2>
+        <p class="section-note" data-i18n="insightNote">先看观点，再决定是否深入阅读完整访谈。每条内容都可追溯到本期原文。</p>
+        <div id="episodeInsights" class="episode-insights"></div>
+      </section>
+
+      <section class="panel" id="summaryPanel">
+        <div class="section-kicker" data-i18n="summaryKicker">ABOUT THIS EPISODE</div>
+        <h2 data-i18n="summaryTitle">这期聊什么</h2>
+        <div id="summary"></div>
+        <div id="chapters" class="chapter-list"></div>
+      </section>
+
+      <section class="panel" id="recommendationPanel" hidden>
+        <div class="section-kicker" data-i18n="recommendationKicker">GUEST PICKS</div>
+        <h2 data-i18n="recommendationTitle">嘉宾推荐</h2>
+        <p class="section-note" data-i18n="recommendationNote">节目中提到的书、文章、视频和其他灵感来源。</p>
+        <div id="recommendations" class="resource-grid"></div>
+      </section>
+
+      <section class="panel" id="referencePanel" hidden>
+        <div class="section-kicker" data-i18n="referenceKicker">REFERENCED</div>
+        <h2 data-i18n="referenceTitle">相关资料</h2>
+        <div id="references" class="resource-list"></div>
+      </section>
+
+      <section class="panel" id="relatedPanel" hidden>
+        <div class="section-kicker" data-i18n="relatedKicker">CONNECTED IDEAS</div>
+        <h2 data-i18n="relatedTitle">继续沿着这个问题探索</h2>
+        <div id="relatedEpisodes" class="related-episodes"></div>
+      </section>
+    </div>
+
+    <aside class="episode-aside">
+      <section class="panel guest-panel">
+        <div class="section-kicker" data-i18n="bioKicker">ABOUT THE GUEST</div>
+        <h2 data-i18n="bioTitle">嘉宾档案</h2>
+        <div id="bio"></div>
+        <div id="socials" class="social-list"></div>
+      </section>
+    </aside>
+  </div>
+
+  <section class="transcript-section">
+    <div class="section-kicker" data-i18n="transcriptKicker">FULL TRANSCRIPT</div>
+    <h2 data-i18n="transcriptTitle">访谈正文</h2>
+    <div id="chat"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-intro">
+    <span class="section-kicker">CREATED BY</span>
+    <strong>聆风 Raymond</strong>
+    <p>持续整理产品、增长、创业与 AI 访谈知识库。</p>
+  </div>
+  <div class="contact-dock" aria-label="联系与关注">
+    <a class="contact-card" href="https://github.com/Raymond-Hear" target="_blank" rel="noopener"><span>GitHub</span><strong>Raymond-Hear</strong><span class="contact-popover">查看项目与公开创作记录</span></a>
+    <a class="contact-card" href="https://okjk.co/zo7xKT" target="_blank" rel="noopener"><span>即刻</span><strong>聆风 Raymond</strong><span class="contact-popover">查看日常想法与内容更新</span></a>
+    <button class="contact-card contact-wechat" type="button" aria-label="查看微信公众号二维码"><span>微信公众号</span><strong>聆风Raymond</strong><span class="contact-popover qr-popover"><img src="assets/raymond-wechat-qr.jpg" alt="微信公众号「聆风Raymond」二维码"><em>微信扫码关注</em></span></button>
+    <a class="contact-card" href="about.html"><span>About</span><strong>关于网站作者</strong><span class="contact-popover">了解聆风Raymond和这个知识库</span></a>
+  </div>
+</footer>
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+<script src="assets/app.js?v=20260718"></script>
+<script src="assets/common.js?v=20260719"></script>
+</body>
+</html>

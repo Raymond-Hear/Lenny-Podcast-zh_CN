@@ -1,0 +1,1037 @@
+{
+ "id": "Paul Adams",
+ "name": "Paul Adams",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Paul+Adams",
+ "bio": {
+  "en": "Paul Adams is Chief Product Officer at Intercom, a role he has held for over ten years, after previously serving as global head of brand design at Facebook, a user researcher at Google, and a product designer at Dyson.",
+  "zh": "Paul Adams 是 Intercom 的首席产品官（CPO），担任该职务已超过十年，此前曾任 Facebook 全球品牌设计负责人、Google 用户研究员，以及 Dyson 产品设计师。"
+ },
+ "summary": {
+  "en": "Paul shares candid stories of professional failure - including freezing on stage at Cannes - and argues that failure is essential experience for product leaders. He goes deep on Intercom's all-in embrace of AI, explaining why leaders must move from fear and noise to actively trying the technology, and draws parallels to the mobile shift a decade ago. The episode blends personal vulnerability with sharp advice on building craft-focused, AI-native products.",
+  "zh": "Paul 坦诚分享了自己职业中的失败经历——包括在戛纳演讲时当众卡壳——并主张失败是产品领导者必不可少的历练。他深入讲解了 Intercom 全面拥抱 AI 的历程，解释领导者为何必须从恐惧与喧嚣转向真正动手尝试这项技术，并与十年前的移动化浪潮作了类比。本期将个人的脆弱坦诚与关于打造注重工艺、AI 原生产品的犀利建议结合在一起。"
+ },
+ "turns": [
+  {
+   "speaker": "Paul Adams",
+   "en": "This is a meteor coming towards you. This is going to radically transform society. And I think if people don't explore AI properly, it will leave them behind. I'd start with the thing your product does. \"What's the core premise behind it? Why do people use it? What problem does it solve for them?\" That kind of thing. So, go back to basics. And then ask, \"Can AI do that?\" And for a lot, the answer is going to be, \"Yes, it can.\" For some it might be, \"It can partially do it.\" And then, maybe for others, \"It can't do that, at least not yet.\" And then, for some of it'll be replacement, AI would replace, it'll just do it. And, in other places, it'll be augmentation. It'll augment. It'll help people. But yeah, I think that you've got to match your product, and what AI can do, and what it will be able to do, and then ask yourself, \"Okay, what are we going to do?\"",
+   "zh": "这是一颗正朝你飞来的流星。它将彻底改变社会。我认为，如果人们不充分探索人工智能（AI），将会被时代淘汰。我建议先审视你们的产品核心理念：\"它的核心假设是什么？人们为何会使用它？它为用户解决了哪些问题？\"诸如此类的问题。回归基础，再反问：\"AI能做到这些吗？\"对许多产品而言，答案会是\"能\"；对某些产品，答案可能是\"部分能\"；而对其他产品，答案则会是\"至少目前还做不到\"。有些场景下，AI会完全取代现有功能；在另一些场景下，它会进行辅助增强，帮助人类完成任务。但归根结底，关键在于将产品与AI的现有能力和未来发展潜力相结合，然后问自己：\"接下来我们该怎么做？\"",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Paul Adams. Paul is chief product officer at Intercom, a role that he's held for over 10 years. Prior to this role, he was global head of brand design at Facebook, a user researcher at Google, a product designer at Dyson, and his first job was an automotive interior designer. In our conversation, Paul shares some amazing stories of failure, including the story of him giving a huge presentation where he froze on stage and had to walk off. And what he learned from these experiences of failure. We then get deep into how to think about AI as a part of your product strategy, including a ton of great examples from Intercom's experience going all in on AI. Paul also shares some of his favorite frameworks, and product lessons, and so much more. (00:01:34): This is the first recording I've ever done not from my home studio, instead from a hotel room. So, this is a fun experiment for us all. With that, I bring you Paul Adams after a short word from our sponsors. This episode is brought to you by Eppo. Eppo is a next generation A/B testing and feature management platform built by alums of Airbnb and Snowflake for modern growth teams. Companies like Twitch, Miro, ClickUp and DraftKings rely on Eppo to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features. And Eppo helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. When I was at Airbnb, one of the things that I loved most was our experimentation platform, where I could set up experiments easily, troubleshoot issues, and analyze performance all on my own. Eppo does all that and more with advanced statistical methods that can help you shave weeks off experiment time and accessible UI for diving deeper into performance and out-of-the box reporting that helps you avoid annoying prolonged analytic cycles. (00:02:40): Eppo also makes it easy for you to share experiment insights with your team, sparking new ideas for the A/B testing flywheel. Eppo powers experimentation across every use case, including product, growth, machine learning, monetization, and email marketing. Check out Eppo at geteppo.com/lenny and 10X your experiment velocity. That's getE-P-P-O.com/lenny. This episode is brought to you by Hex. If you're a data person, you probably have to jump between different tools to run queries, build visualizations, write Python, and send around a lot of screenshots and CSV files. Hex brings everything together. Its powerful notebook UI lets you analyze data in SQL, Python, or no-code in any combination and work together with live multiplayer and version control. (00:03:29): And now, Hex's AI tools can generate queries and code, create visualizations, and even kickstart a whole analysis for you all from natural language prompts. It's like having an analytics copilot built right into where you're already doing your work. Then, when you're ready to share, you can use Hex's drag and drop app builder to configure beautiful reports or dashboards that anyone can use. Join the hundreds of data teams like Notion, AllTrails, Loom, Mixpanel, and Algolia using Hex every day to make their work more impactful. Sign up today at hex.tech/lenny to get a 60-day free trial of the Hex team plan. That's hex.tech/lenny. Paul, thank you so much for being here and welcome to the podcast.",
+   "zh": "今日的嘉宾是保罗·亚当斯（Paul Adams）。他是Intercom公司的首席产品官，这个职位他已担任了十多年。在此之前，他曾担任Facebook全球品牌设计主管、谷歌用户研究员、戴森产品设计师，而他的首份工作是汽车内饰设计师。在我们的对话中，保罗分享了许多失败的精彩故事，包括他在一次大型演讲中紧张到不得不提前退场的经历，以及从这些失败中汲取的教训。随后，我们深入探讨了如何将人工智能融入产品战略，包括Intercom全力拥抱AI的成功案例。保罗还分享了他最喜欢的框架、产品经验总结等诸多内容。（00:01:34）：这是我首次不在家中录制节目，而是选择了酒店房间。这对我们来说是个有趣的尝试。在简短的赞助商致辞后，让我们欢迎保罗·亚当斯登场。本期节目由Eppo赞助。Eppo是一款由Airbnb和Snowflake前员工为现代增长团队打造的下一代A/B测试与功能管理平台。Twitch、Miro、ClickUp和DraftKings等公司都依赖Eppo来推动实验。实验对推动增长和了解新功能表现愈发重要，而Eppo能帮助您提升实验速度，同时提供严谨的深度分析——这是其他商业工具无法比拟的。我在Airbnb时，最喜欢的就是我们的实验平台，我可以轻松设置实验、排除故障并分析效果，所有这些操作都能自主完成。Eppo通过先进的统计方法实现了这一切：帮助您缩短实验时间、提供易用的UI以深入分析性能，以及开箱即用的报告功能，助您避免冗长的分析周期。（00:02:40）：Eppo还让您能与团队轻松分享实验见解，为A/B测试飞轮注入新灵感。Eppo支持所有场景下的实验，包括产品、增长、机器学习、变现和邮件营销。访问geteppo.com/lenny，立即提升实验速度10倍。本期节目由Hex赞助。如果您是数据从业者，可能需要在不同工具间切换来运行查询、生成可视化、编写Python代码，并发送大量截图和CSV文件。Hex将所有功能整合在一起。其强大的笔记本界面让您能以任意组合方式分析数据（SQL、Python或无代码），并通过实时多人协作与版本控制进行团队协作。（00:03:29）：现在，Hex的AI工具能根据自然语言提示生成查询与代码、创建可视化，甚至为您启动整个分析流程。这就像是在您现有工作环境中内置了一个分析副驾驶。准备分享时，您可以使用Hex的拖放式应用生成器配置美观的报告或仪表板，任何人都能轻松使用。数百个数据团队（如Notion、AllTrails、Loom、Mixpanel和Algolia）每天都在使用Hex，让工作更高效。即刻注册，享受60天免费试用（hex.tech/lenny）。保罗，非常感谢您的到来，欢迎加入播客。",
+   "ts": "00:00:52"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Thanks, Lenny. Nice to be here.",
+   "zh": "谢谢，莱尼。很高兴能来。",
+   "ts": "00:04:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's nice to have you here. I've heard so many good things about you from so many different people, so I'm really happy that we're finally doing this. Also, you have an Irish accent, which is always a boost for ratings in my experience, so thank you for bringing that with you here.",
+   "zh": "很高兴你能来这里。我听过很多人对你的赞誉，所以很高兴我们终于能见面了。还有，你带有爱尔兰口音，这在我的经验中总是能提升收视率的，感谢你带来了这个特色。",
+   "ts": "00:04:15"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, that's nice to hear.",
+   "zh": "是啊，这真让人欣慰。",
+   "ts": "00:04:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I wanted to start with a couple stories. So the first is your story of giving a keynote at Cannes. Can you share what happened there?",
+   "zh": "我想先分享几个故事。第一个是关于你在戛纳做主题演讲的。能讲讲当时的情况吗？",
+   "ts": "00:04:28"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, some things that happened in work are very memorable at the time and they don't really scar you. This goes in the book that have scarred for life. Yeah, it's good. Long story short, I was at Facebook just over a decade ago. Loved it at the time. I think it was a great place to be at the time. And, basically San Francisco, I did a lot of talks for Facebook internally and externally. Facebook had a keynote slot, always had a keynote slot at Cannes, the world's biggest advertising festival. And, the year prior, Zuck had been interviewed. He was the speaker, he'd been interviewed. He'd gotten a hard time on privacy. It didn't go well as well as they'd hoped. (00:05:14): So, the next year they asked me to do it. Maybe it was the Irish accent that made the offer come my way. And, yeah, I got out and spun a stage, the world's biggest advertising stage. And, I'd say, I was three, four minutes into the talk, a very similar talk when I'd given lots of times. And, I just froze. I couldn't remember what I was supposed to say. It was the first ever time in my life I'd rehearsed the talk word for word. Usually, I have talking points, and things get mixed around, and it's informal. This was media trained, \"Do not say the wrong thing.\" Kind of talk. And I just could not remember what to say. I had some version of a panic attack, walked off-stage, I was still mic'd up, cursed. Everyone started laughing. I was like, \"Geez, are they laughing at me? Oh my God, this is...\" (00:06:06): But, I managed to turn it around, I walked back out. I'd been disarmed internally in my head. And, the most of it went well. And I was famous that night. Out in Cannes afterwards on whatever the sea front, it's just like rose everywhere. And yeah, I was famous and infamous for my performance.",
+   "zh": "是啊，有些工作中的经历当时觉得很难忘，但其实并不会给你留下深深的阴影。这才算是真正刻骨铭心的经历。简而言之，大约十多年前我在Facebook工作。当时很喜欢那里，觉得那是个很棒的工作环境。基本上，当时我在旧金山为Facebook内部和外部做了很多演讲。Facebook在戛纳这个全球最大的广告节上一直有主题演讲的席位。前一年，扎克伯格接受采访时，作为演讲嘉宾，在隐私问题上被问得很难堪，效果并不理想。（00:05:14）所以第二年他们邀请我上台。也许是爱尔兰口音帮我赢得了这个机会。是啊，我走上世界最大的广告舞台，开始了三四分钟的演讲，内容和之前很多次差不多。结果我完全僵住了，忘了该说什么。这是我人生中第一次逐字逐句地排练演讲。通常我只是准备几个要点，然后随意发挥。但这次是经过媒体训练的，“不能说错话”之类的。结果我完全记不清该说什么了。我几乎是恐慌发作，走下舞台时还戴着麦克风，咒骂个不停。所有人都笑了。我当时想：“天哪，他们是在笑我吗？哦，天哪，这太……”（00:06:06）不过我还是调整了过来，重新走上舞台。当时我内心已经崩溃了。但大部分情况都还顺利。那晚我在戛纳海滨到处走，备受关注。是啊，我因为这次表现既出名又出丑。",
+   "ts": "00:04:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like you lived the worst nightmare that everybody has when they're thinking about giving a talk. And, I think what's interesting is you survived. And, I think that's a really interesting lesson is you could freeze in front of thousands of people, walk off-stage, and then it works out okay.",
+   "zh": "我觉得你经历了每个人做演讲时最可怕的噩梦。更有趣的是你挺过来了。我觉得这是一个很有启发的教训——即使面对数千人的观众，你可能会紧张到走下舞台，但最终结果还不错。",
+   "ts": "00:06:26"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. And it all happened organically, I guess, or very naturally. But yeah, ever since then, every time I walk out onto a conference talk stage, still today, I have this tiny doubt in the back of my head. It's never happened since. But yeah, I think you have to go with it with these things, when life throws you these, whatever, curveballs you have got to adapt and it's not that big a deal. None of these things are that big a deal, at the end of the day. You move on and live and learn. So yeah, but I still hope it doesn't happen again.",
+   "zh": "是啊。这整个过程都是自然而然的。但从那以后，每次走上会议演讲台，我心里总会有那么一丝不安。不过这种情况再没发生过。但是，我觉得遇到这种事，就顺其自然吧。生活总会抛给你各种难题，你得随机应变，事情其实没那么严重。说到底，这些都不是什么大事。继续前进，生活，学习。是啊，但我还是希望这种情况别再发生了。",
+   "ts": "00:06:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I also hate public speaking and I always fear this is exactly what's going to happen to me. And so, I think this is nice to hear, that even when the worst possible thing basically happens, things can survive.",
+   "zh": "我也讨厌公开演讲，总担心自己会遇到这种情况。所以，听到你说即便发生了最糟糕的情况，事情依然能挺过去，这真令人欣慰。",
+   "ts": "00:07:15"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "You can turn it around. Yeah.",
+   "zh": "你可以转念一想。是啊。",
+   "ts": "00:07:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A second area I wanted to hear from is your time at Google. And, there's a couple products you worked on at Google. Both of them were not what you'd call big successes. And then, there's a transition to Facebook, which was also messy. Can you just share a couple stories from that time?",
+   "zh": "接下来我想听听你在谷歌的经历。你在谷歌参与过几个产品项目，但都不算特别成功。然后你转投Facebook，这段过渡期也相当波折。你能分享一下那段时期的几个故事吗？",
+   "ts": "00:07:29"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. Similar to the walking on stage thing, you live and learn. And, I was at Google for four years now and I was at Facebook for two and a half years or so. And, in both of those companies, this is at the height of... The social tech wave was at its peak. Google were very afraid of the existential threat posed by Facebook. Facebook were very confident they could pull off some new social advertising unit that would be an AdWords or something like that, that would destroy Google's revenue, eat them from the inside out. And so, being there at the time was fascinating and moving to the new companies. At Google, I worked on a lot of failed social projects, like you mentioned. Google Buzz, Google Ventilator, Google Plus. I think, a lot of the motivation for those projects came from a place of fear. It didn't come from a place of, \"Let's make a great product for people. Let's really understand the things people struggle with when communicating with family and friends. Let's really, really try and create something wonderful.\" It came from a place of fear. (00:08:47): And so, during those times, I learned I think how not to lead in places. And by the way, I should say, at the time in Google, there was other things happening that were amazing, like Google were building Google Maps, an incredible product. One of my favorite products. I think one of the best products ever made. They were building Android. I was in the mobile team and the mobile apps team at the time, the Android came out. So, they can make an incredibly good product. So, I just happened to be in the social side, which wasn't as good. And, yeah, Google Buzz is a privacy disaster, and Google Plus is similar. (00:09:24): And so, halfway through I'd published research about groups and I'd done a ton of research. An interesting side note there is, at the time, I was working in the UX team as a researcher, I was been asked to do a lot of tactical research, like usability study type stuff, like can people use these products? And, I ended up doing a lot of formative research as well in the same session. So, I'd say to the team, \"Hey, I'll do the research. I'll answer your questions. But also, I'm going to do this other thing, and I'm going to take 20 minutes doing that.\" And so, what we used to do is, what I used to do with people was map out their social network, all the people in it, their family, their friends, how they communicate. We'd map on all the channels, we'd talk about what worked well, what didn't. And, we did this with dozens and dozens of people over the course of maybe 18 months. And the same pattern emerged every single time, which was, people need way better ways to communicate with small groups of family and friends. (00:10:17): And I look back now and go like, \"WhatsApp.\" Or it may be iMessage if everyone's on Apple. But, really obvious in hindsight. But at the time, not obvious. And so, we tried to build a product around that called Google Plus. But, again, it came from the wrong place. And so, halfway through, the research that I've done, all this research had been made public through a conference talk. And, Facebook noticed, got in touch, one thing led to another, and I left and joined Facebook, which was an amazing thing for me, personally. (00:10:51): Facebook was an amazing place at the time and exciting. And they were trying to do things for the other reasons, the good reasons. \"Okay, let's build an amazing product for people.\"",
+   "zh": "是啊。这和上台演讲类似，经验都是慢慢积累的。我在谷歌待了四年，在Facebook待了两年半左右。这两家公司正值社交科技浪潮的高峰期。谷歌当时非常担忧Facebook带来的生存威胁，而Facebook则自信能推出类似AdWords的社交广告单元，从而彻底击垮谷歌的营收。身处其中的经历既令人着迷，又充满挑战。在谷歌，我参与过许多失败的社交项目，比如Google Buzz、Google Ventilator和Google Plus。我认为这些项目的动机大多源于恐惧感——而非“为用户创造优质产品”，或者真正理解亲友沟通时面临的痛点，而是出于防御心理。\n\n（00:08:47）在那段时期，我学到了如何避免在错误的方向上领导团队。顺便说一句，谷歌当时也有许多惊艳的进展，比如打造了令人惊叹的地图产品（我最爱的产品之一）和安卓系统。我当时在移动团队，安卓刚问世时我就在那儿。他们确实能打造出优秀的产品，但我在社交领域的经历却不尽如人意。Google Buzz的隐私灾难和Google Plus的平庸表现都是例证。\n\n（00:09:24）中途，我发表了关于群组的研究报告，积累了大量研究数据。有趣的是，当时我在用户体验团队担任研究员，被要求做大量实用研究，比如可用性测试。但我最终在同一时段进行了形成性研究。我对团队说：“我会完成你们的需求，但我还要做另一件事，每次用20分钟。”我们会绘制用户的社交网络图，标注亲友关系，分析沟通痛点。在18个月里，数十人参与了研究，每次结果都惊人地相似——人们需要更高效的亲友小群沟通工具。\n\n（00:10:17）回首往事，我会感叹：“这不就是WhatsApp吗？”或者如果大家用苹果设备，可能就是iMessage。但事后看来再明显不过，但当时却被忽视了。于是我们开发了Google Plus，但方向又错了。中途，我完成的研究成果通过会议报告公之于众，Facebook注意到后，经过沟通，我离开谷歌加入了Facebook，这对我个人来说是个绝佳的转机。\n\n（00:10:51）当时Facebook令人惊叹且充满活力，他们的动机是正向的：“让我们为用户创造出色的产品。”",
+   "ts": "00:07:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And this was during Google Plus being built, you basically shifted.",
+   "zh": "这是在Google+正在开发期间，你基本上是被调离了。",
+   "ts": "00:11:01"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, midway, I'm stressed to even tell you about it. The project hadn't been launched, it was still under wraps. It was highly confidential. Google had done a lot of things at the time that were the first for them. I don't know if they've done them since. But things like, everyone worked in Google Plus was sent to a different building. That building had a different key card. If you didn't work in Google Plus you could not get in. All sorts of counter-cultural things at the time. And, as a result, there was a lot of antagonism internally for Google Plus. And so, when I left in the middle of the project, leaving with all of the plans in my head to the enemy, some people saw me as a traitor, understandably. Other people thought I was enlightened, too fancy you talked to. But it was the right thing for me to do. But at the time, it was a hard thing to do.",
+   "zh": "是的，中途，我甚至都不敢跟你细说。那个项目还没上线，还处于保密阶段。高度机密。当时Google做了很多对他们来说是第一次尝试的事。我不知道他们之后有没有再做过。比如，所有参与Google+项目的人都被调到了另一栋楼。那栋楼有不同的门禁卡。不在Google+部门的人进不去。当时各种反主流的做法。结果，Google+内部有很多反对的声音。所以，当我在项目中途离开时，带着所有设计图投奔竞争对手，有些人觉得我叛变了，这也可以理解。也有人觉得我高明，觉得我太自命不凡了。但对我来说，这是正确的选择。不过当时，这确实很难做到。",
+   "ts": "00:11:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I know there's also a lot of scrutiny in what you took with you and the process.",
+   "zh": "我知道你带走的东西和整个过程也受到了很多审查。",
+   "ts": "00:11:56"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, when I left, Google assumed that I was one of the spies. I was quarantined. I told them I was leaving. They forensically analyzed my laptop, all sorts of stuff like that. So, it was pretty intense. Looking back, I can understand why that happened. But the root cause for me is that the project has been run from a place of competitive fear, which I don't think leads to good things.",
+   "zh": "是的，我离开时，Google怀疑我是个间谍。他们对我进行隔离审查。我告诉他们我要走了，他们还对我的笔记本电脑进行取证分析，各种检查。当时真的很紧张。现在回想起来，我能理解他们为什么那么做。但根本原因是，这个项目从一开始就带着竞争恐惧的心态去运作的，我觉得这注定不会有好结果。",
+   "ts": "00:12:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So one of the themes through the stories you just shared is, let's say, failure is... I don't want to make it that harsh, but just things not working out. And, I'm curious as a product leader, how important you think that is for people to go through, if you think that's something that is almost a good thing? And, I guess just is there anything there that you find helpful as a coach, as a mentor, as two people that are trying to become basically you?",
+   "zh": "所以你刚刚分享的故事中，有一个主题就是，失败就是……我不想说得太绝对，但就是事情没有成功。我很好奇，作为产品负责人，您认为人们经历失败有多重要？您是否认为这几乎是件好事？我猜，作为教练、导师，或者是两个正在努力成为您那样的人的人，有没有什么经验能对他们有所帮助？",
+   "ts": "00:12:32"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Very, very. It still is. It still is. I've personally failed so many times. There are two stories and the Google one is long deep tentacles. They're two stories. I failed a ton of times. I remember, when I was at Facebook I was very happy. And, I knew Eoghan and Des, the co-founders of Intercom. And, they were trying to persuade me to join Intercom. We were like, it was a 10-person company at the time. But, Eoghan said something to me at that time which has stuck with me ever since. He said, \"At Facebook, you can design the product. But at Intercom, you can design the company.\" And, that was extremely appealing to me, a great pitch. He's like, \"Just design the company with us that you want to work in.\" (00:13:41): And so, part of that was a company that embraces failure, that says it's okay to try things. I'm a big believer in big bets, high risk, high reward. I don't get as excited about incremental things. No, I haven't said that. There's of course a place for that too, especially as companies get bigger. But, I get excited about big bets. And if you make big bets, you're going to get a lot of it wrong. So a lot of the principles that we built here at Intercom are in building software. (00:14:09): We have a principle called Ship to Learn. And, we've actually changed it since. It's over on the wall here. Ship fast, ship early, ship often is what it says now. You say Ship to Learn. Ship fast, ship early, ship often. So, in that idea is the idea of failure. It's not going to go right. And, it's going to go wrong more often than not. But if you ship early, and fast, and learn fast, you can change fast, and you can improve fast. And, that's the culture that we, as much as possible, try to embrace and teach people. But it's much easier said than done.",
+   "zh": "是的，非常，非常。现在依然如此。我个人失败过很多次。这里有两个故事，谷歌那段经历太过复杂。总之，这两个故事都让我深刻领悟到失败的价值。记得我在Facebook的时候，心情特别愉悦。当时我认识了Intercom的联合创始人Eoghan和Des，他们当时正极力劝我加入Intercom。那时Intercom还只有10个人，但Eoghan当时对我说的一句话让我刻骨铭心。他说：“在Facebook，你可以设计产品；但在Intercom，你可以设计公司。”这句话对我极具吸引力，是个绝佳的招募策略。他说：“和我们一起设计你理想中的公司。”（00:13:41）Intercom的文化之一就是鼓励拥抱失败，允许尝试新事物。我坚信大胆尝试、高风险高回报的理念。对于渐进式改进，我并不感冒。当然，公司发展到一定规模后，也需要关注这些。但我更热衷于大胆尝试。若想大胆尝试，就难免会犯很多错误。因此，Intercom构建软件的核心原则之一是“快速迭代，快速学习”。（00:14:09）我们后来对这条原则进行了调整。墙上现在写着：“快速发布，快速迭代，快速学习。”最初的版本是“快速迭代，快速学习”。但现在我们更强调“快速发布，快速迭代，快速学习”。其核心理念就是承认失败不可避免，错误常会发生。但通过快速发布、快速迭代和快速学习，就能快速调整和改进。这正是我们尽可能推行并教导团队的文化。但说起来容易做起来难。",
+   "ts": "00:12:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Especially when you're in the moment like, \"God dammit. Everything's going to fall apart. I really messed this one up.\"",
+   "zh": "是啊。当你身处其中，比如：“天哪，一切都要崩盘了。我这次真的搞砸了。”",
+   "ts": "00:14:43"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. And there's a trade-off with quality that people really struggle with. We've high standards of ourselves. A lot of Intercom comes from a design founder background. We value the craft a lot. We never want to be embarrassed by what we ship. So there's a real tension there, a real trade-off, where people have these high standards, which we encourage. We encourage them to ship fast, and learn, and make mistakes. It's a constant tension that we're navigating.",
+   "zh": "是的。人们在质量与速度之间常常难以平衡。我们对自己要求很高。在Intercom，许多人都有设计师出身的背景，我们非常重视工艺。我们绝不希望发布的产品令自己难堪。所以这存在着真正的矛盾，真正的权衡。一方面，我们鼓励人们追求高标准；另一方面，我们又希望他们快速发布、快速学习、快速改进。这是我们一直在应对的持续张力。",
+   "ts": "00:14:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of taking big bets and going all in, I know there's been a huge shift at Intercom to move towards AI and embrace AI. And so, maybe just to start broadly, I'm curious just what are some of your broader insights or surprises so far in how you've thought about AI and how you think AI will integrate into product and product strategy?",
+   "zh": "说到大胆尝试和全力以赴，我知道Intercom在转向AI和拥抱AI方面有了巨大转变。那么，先从宏观层面说起，我很好奇到目前为止，你们对AI的思考有何更广泛的见解或惊喜？AI将如何融入产品和产品战略？",
+   "ts": "00:15:17"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "What day that ChatGPT launch? November 29th, I think, last year. Ever since that day, I literally wake up every day thinking about AI pretty much. And, I read as much as possible and still feel like I'm way behind in it. I think, for me, when I talk to you about AI, people typically fall into one of two camps. You're either all in, really truly all in. This is a meteor coming towards you. This is bigger than mobile as a technology shift, as big as the internet. Maybe it's bigger than the internet itself as a technology shift, the way it'll shape society. So I'm all in. I've gone over the hill or whatever. I'm over the other side. And so, there's people in that camp. (00:16:23): And then, I think there's people in another camp, which is, \"I've heard this before. It's hype. Last year was crypto. It was Web3. None of those things worked out. There was the metaverse.\" So, there's definitely I think a lot of skepticism or maybe cynicism around it. And I don't understand why. The other things didn't really pan out. The metaverse is coming back. And, I'm trying to remember, there's the law where you have the hype, and then the trough of disillusionment, and then you come out the other side.",
+   "zh": "ChatGPT 是什么时候发布的？我想是去年11月29日。从那天起，我每天醒来都会思考人工智能相关的问题。我尽可能多地阅读相关资料，但还是觉得自己远远落后于这个领域。对我来说，当我跟别人谈论人工智能时，人们通常会分为两类。一类是全身心投入型，真心实意地投入其中。这就像一颗流星朝你飞来。这比移动互联网作为技术变革还要大，甚至可能比互联网本身作为技术变革还要大。它将深刻重塑社会，所以我全力以赴。我已经过了那个阶段，达到了另一个境界。另一类人则持怀疑态度，他们觉得：“我听过太多次炒作了。去年是加密货币，去年是 Web3，这些都失败了。元宇宙也一样。” 所以，我认为很多人对此持怀疑甚至不屑一顾的态度。我不明白为什么。其他技术趋势确实没能成功，但元宇宙正在卷土重来。我努力回想，技术变革总是先有炒作，然后是幻想破灭，接着迎来转机。",
+   "ts": "00:15:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that little curve.",
+   "zh": "是啊，那个小小的曲线。",
+   "ts": "00:16:54"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. And I think that's where a lot of people might be, where there was so much hype, it was so noisy, and still is a little bit so noisy that you tune it out a little bit. And, I think, some people have fallen into that camp. I'm all in in the other camp. This is going to radically transform society and it blows my mind even seeing new types of things that come out, like ChatGPT Vision just came out recently, and just seeing the things that people can do with it. And we're just scratching the surface still. So, we're all in, for sure.",
+   "zh": "是的。我觉得很多人可能处于这种状态，炒作太多，噪音太大，现在还是有点吵闹，以至于你会选择性忽视。有些人就这样陷入了怀疑的阵营。而我则完全投入到另一个阵营。这将彻底改变社会，光是看到 ChatGPT Vision 最近发布，以及人们用它能做出的各种事情，就让我惊叹不已。而我们才刚刚触及皮毛。所以，我们肯定全力以赴。",
+   "ts": "00:16:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. I want to unpack that. But, I think there's also this camp of people that like, \"Yes, something big is happening. I just don't have the time to understand, to build, to play around.\" What have you found and/or what advice would you share to people that are just like, \"I want to go deeper down this rabbit hole. I just don't know where to start, because I have so much work to do already and this isn't a side thing.\"",
+   "zh": "太棒了。我想深入探讨一下。但我觉得还有一类人会说：“是的，确实有重大变革，但我没时间去理解、去开发、去尝试。” 你有什么发现，或者能给那些想深入探索但又无从下手的人什么建议？他们会说：“我想更深入地探索这个领域，但不知道从哪里开始，因为我已经有太多工作要做了，这又不是副业。”",
+   "ts": "00:17:31"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "The advice I have for people, and the advice I have for myself, I'm in that too, I wake up every day to too many emails, and Slack chats, and people knocking on my door, and my desk, and all things. So, this is a challenge for me too. You just have to take the time. There's just no other way for me. And that to me doesn't mean... It's about priorities. It doesn't mean that you need to work crazy hours. I don't believe in working crazy hours. I don't know what hours I work. I don't know, 50 hours a week maybe. I think, beyond that, you start to make bad decisions and things like that. You get tired. And you need to live the rest of your life. You got to put it into your day. Whether that's setting aside dedicated time to read. (00:18:33): Reading is the thing. You got to read. You got to stay up to date, and you got to play with things, and try things. If you don't have ChatGPT... If you don't have a... I can't remember if it's a pro licenser, whatever, but if you haven't upgraded to get access to things like GPT for Vision, where you can take photos and you have the mobile app. And I was going out for dinner last Friday night with my wife. I try not to take work to dinner with my wife. But, I wanted to try it. And, I took some photos of her food. And, you can do all sorts of crazy stuff, like tell you how healthy the meal is or whatever.",
+   "zh": "我给别人的建议，也是给自己的建议——我自己也深有体会。每天醒来，我要面对堆积如山的邮件、Slack聊天、敲门声、堆积在办公桌上的待办事项……所以这对我来说也是个挑战。你必须抽出时间。对我来说，没有别的办法。这并不意味着……这关乎优先事项。它并不意味着你必须拼命工作。我不认同这种拼命工作的方式。我不知道自己每周工作多少小时，也许50小时吧。但超过这个时长，你就会开始做出错误的决策之类的。你会疲惫不堪。毕竟你还要过自己的生活。你得把这些时间安排进日常生活。无论是专门留出时间阅读，（00:18:33）：阅读才是关键。你必须阅读。你得跟上时代，尝试新事物。如果你没有ChatGPT……如果没有……我记不清是否是专业版许可证之类的，但如果你没有升级权限，就无法使用GPT for Vision等功能，比如可以处理照片，还有移动应用程序。上周五晚上我和妻子出去吃晚餐。我尽量不把工作带到和妻子共进晚餐的场合。但那天我想试试看。我拍了些她食物的照片。然后你就能做各种疯狂的事情，比如告诉你这顿饭有多健康之类的。",
+   "ts": "00:17:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哦，哇。",
+   "ts": "00:19:07"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Anyway. You got to try it. You just got to try it. So, my advice people is, you've got to try it. You've got to set aside the time, or it'll pass you by. It does remind me the mobile wave about a decade ago. Again, I was at Google at the time, I was working on the mobile team. So I guess, it was my job to stay on top of things. But, at that time, some companies like Facebook went all in on it, maybe a bit late, but they eventually made the brave decision. I think if people don't explore AI properly, it will leave them behind.",
+   "zh": "不管怎样。你得试试看。你就得试试看。所以我给别人的建议是，你必须尝试。你必须抽出时间，否则机会就会溜走。这让我想起大约十年前的移动浪潮。当时我在谷歌，负责移动团队。所以我想，保持敏锐是我的职责。但当时有些公司，比如Facebook，晚了一点才全力投入，但他们最终还是做出了勇敢的决定。我认为，如果人们不正确探索AI，它会让他们落后。",
+   "ts": "00:19:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me, I think, at Facebook, Zuck, and also Airbnb, Brian did this, is he said, \"Any mocks you show me for new product designs have to be in a mobile app or on a mobile web. They can no longer be desktop for now.\"",
+   "zh": "这让我想起，在Facebook，扎克伯格，还有Airbnb，布莱恩也这么做过，他说：“你们给我展示的新产品设计模型必须在移动应用或移动网页上呈现。目前不能再是桌面版了。”",
+   "ts": "00:19:38"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Right. Yeah. Same with Facebook. Yeah, that's right.",
+   "zh": "对。是的。Facebook也是如此。没错。",
+   "ts": "00:19:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I guess, do you think that that's the way to approach this is as a leader, just, \"Everything you bring me needs to have some AI component.\" That sounds probably not like a good idea, but is there something that you're thinking about, or have done of just convincing people this is where you want to spend your time?",
+   "zh": "我猜，作为领导者，你的做法应该是：“你们带给我的任何东西都必须包含AI元素。” 这听起来可能不是个好主意，但你有没有什么想法，或者已经做过什么说服人们这才是你想花时间投入的方向？",
+   "ts": "00:19:54"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, it's harder, for sure. It's harder, because-",
+   "zh": "是的，确实更难了。确实更难了，因为——",
+   "ts": "00:20:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You don't want to force it.",
+   "zh": "你不想强制推行。",
+   "ts": "00:20:08"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "... Yeah, a lot of the tech is invisible. We have a machine learning team we've had on here for a long time, so we've been working in this space for quite some time. But, it's funny, even if you go back 18 months, I think if I was on your podcast 18 months ago and you said to me like, \"Hey, what do you think about AI?\" I would've said something like, \"It's not real. Machine learning's real, let's talk about that.\" So, things change, and my perception of it's changed. But a lot of the improvements are behind the scenes. They're with large language models or different types of things people are building in the background of infrastructure. (00:20:43): So I don't know what it looks like to design mobile mock-ups that are AI mock-ups. But I do think that people need to start really thinking strategically. Maybe it's just not a mock-up stage, but start to think really strategically about their product and whether it's in the line of the media, or it's coming or not. It's not everything is. And if so, for some I think they require a foundational strategic change. Others, it might be less so. But, I think that's actually the head space that I think people need to be in.",
+   "zh": "嗯，很多技术都是隐形的。我们有一个机器学习团队，已经在这里工作很久了，所以我们在这一领域已经耕耘了相当长的时间。但说来有趣，就算回溯到18个月前，如果我当时参加你的播客节目，有人问我“你对人工智能有什么看法？”，我可能会回答“这不是真的。机器学习才是真实的，我们来聊聊这个吧。”所以，情况确实在变化，我对它的看法也变了。但很多改进都是在幕后进行的。比如大型语言模型或者基础设施后台的其他技术创新。（00:20:43）：所以我不知道设计人工智能模型的移动原型是什么样子的。但我确实认为人们需要开始真正从战略高度思考问题。也许这不只是原型阶段，而是要从根本上重新审视自己的产品，判断它是否符合媒体行业的发展趋势，或者是否即将迎来变革。并非所有产品都需要如此。但我认为这确实是人们需要具备的思维模式。",
+   "ts": "00:20:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you impact that further? What does that look like to really think deeply about whether your product is in the way of the meteor?",
+   "zh": "你能进一步深化这一思考吗？真正深入思考你的产品是否会成为行业变革的阻碍，这意味着什么？",
+   "ts": "00:21:17"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "You can get sidetracked by the technology, for sure. And I do. I just mentioned, hey, going out for dinner and taking a photo of my food. You can get sidetracked by the tech and some of it's really cool. I wouldn't start there. I'd start with the thing your product does. What's the core premise behind it? Why do people use it? What problem does it solve for them? That kind of thing. And then, ask the question. So go back to basics. \"Okay, what is my product for? And why do people love it?' And then ask, \"Can AI do that?\" And for a lot the answer's going to be, \"Yes, it can.\" For some, it might be, \"It can partially do it.\" And then, maybe for others, \"It can't do that, at least not yet.\" (00:22:07): So you're going to need to map what your product does against what AI can do. And AI can do a lot. It can write. I'll give you a list. It can write, it can summarize, it can summarize text, it can write text, it can answer queries, it can find facts, it can scan text, it can scan images. It can listen to your voice and repeat it. It can take actions. That's the next big thing coming. It can take actions, actually do things. It could like, I mean, \"Hey AI. Whatever the AI is called. \"Change my flight to Tuesday.\" Right? It can do things like that. (00:22:46): And so, it can do a lot of things. It can build rules. So, I think any product that has any workflow in it, which is almost all B2B SaaS products, any product that has multimedia in it, they're in the media line or whatever. I don't don't know if this metaphor is working. But, the media is coming and they're in its path. And so, for a lot of these products that you just need to look at what AI can do. And then, for some of it'll be replacement. AI would replace, it'll just do it. And, in other places it'll be augmentation. It'll augment. It'll help people as the copilot ideas that are going around. But yeah, I think that you've got to map your product, and what AI can do, and what it will be able to do, and then ask yourself, \"Okay, what are we going to do?\"",
+   "zh": "你肯定会被技术分心，这很正常。我自己也这样。我刚刚提到，出去吃晚餐时拍食物照片。技术确实很酷，但别从这入手。你应该从产品本身出发。产品的核心理念是什么？人们为什么使用它？它解决了什么问题？然后再问自己，AI能做到吗？很多情况下，答案是“能”。有些情况下，答案是“部分能”。还有些情况下，答案是“暂时还做不到”。（00:22:07）：所以你需要将产品功能与AI能力进行匹配。AI能做很多事情。它能写作。我列个清单：写作、总结文本、回答问题、查找事实、扫描文本、扫描图片、听语音并重复输出、执行动作。这是即将到来的下一个重大变革——AI能执行动作。（00:22:46）：所以它能做很多事情。它能构建规则。所以，我认为任何有工作流程的产品（几乎所有B2B SaaS产品），任何包含多媒体元素的产品，都处于媒体行业的轨道上。我不知道这个比喻是否贴切。但媒体行业正在兴起，而这些产品正处于其影响路径上。对于许多这类产品，你只需要看看AI能做什么。有些情况下会被替代，AI直接接管；在其他情况下，则会成为增强工具，就像现在流行的副驾驶概念一样。但没错，你需要将产品与AI的能力进行映射，思考未来可能的发展方向，然后问自己：“好吧，我们该怎么做？”",
+   "ts": "00:21:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there an example of that at Intercom or a different company of, \"Here's a problem we're trying to solve? Oh, AI can actually do this fully for us.\"",
+   "zh": "你们有没有在Intercom或其他公司遇到过这样的例子：\"这里有个我们正试图解决的问题？哦，AI其实能完全替我们处理这个问题。\"",
+   "ts": "00:23:33"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Oh, yeah. I'll give you Intercom first. Again, this date, I think it was November 29th, etched in our head. We have Fergal who was our head of machine learning. And, Fergal just turns around that day and he's like... Okay, I think he tweeted something actually. He had a tweet that day that was like, \"This is it. This is the time. This is the moment. This is the before after.\" I actually often talk about people... because this is a framework I have, before, after moments. This is a before after moment. That was before. And that is after. And everything has changed. So, we literally ripped up our strategy almost entirely, and started again, from first principles and said, \"Okay, why do people use Intercom?\" Intercom is a customer support product. And then, very soon after that, Sam Altman, who's the founder and head of OpenAI, said, \"Hey, one of the first industries that's going to be disrupted is customer service.\" We're like, \"Yep.\" (00:24:35): So we did. We totally changed how we think, how we work, and we just went heads down and built a product called Fin. We built other things first actually. Fin came later, now that I think about it. But we went all in on it. It was a little bit of a bet the farm mindset. So we've done it. I think other companies like Google and Bard have to do it, and maybe they're a little bit slow, but it's so early in this tech cycle that, I think, they're fine. So yeah, we did. It was hard, but we had to do it.",
+   "zh": "哦，对啊。我先讲Intercom吧。这次会议的日期，我记得是11月29日，这一天深深印在我们的脑海里。我们当时的机器学习主管费格尔（Fergal），那天突然转变态度。他在推特上发了一条动态，大意是：“就是现在！就是这个时刻！这是前后对比的分界线！” 我经常跟人说起这种时刻，因为我有一个框架，分成“前”和“后”两个阶段。这就是前后对比的时刻。之前是这样，之后就变了。我们几乎彻底推翻了原有的策略，从头开始，重新思考用户为何使用Intercom。Intercom是一款客户支持产品。很快，OpenAI的创始人山姆·奥尔特曼（Sam Altman）就说：“嘿，首批将被颠覆的行业之一就是客服。” 我们当时就说：“没错！” （00:24:35）：于是我们真的行动了。我们彻底改变了思维方式和工作方式，全力投入开发Fin产品。说实话，我们最初开发的其他产品，Fin是后来才加入的。但我们下定决心一试。这有点像孤注一掷的赌博。所以我们成功了。我认为谷歌和Bard这样的公司也必须这样做，也许他们进展稍慢，但科技周期还早，我觉得他们没问题。总之，我们做到了。这很艰难，但必须要做。",
+   "ts": "00:23:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you share briefly what Finn is just for folks that aren't familiar?",
+   "zh": "能简单介绍一下Fin吗？可能有些人不熟悉。",
+   "ts": "00:25:13"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Fin, first and foremost, is an AI chatbot. So, if you think about customer service, people have questions for a business, and historically, that was mostly email, and phone, and mostly ticketing based. You'd file a ticket, a lot of do not reply email, and so on. And then, came along conversational customer support, which is just basic messaging, like WhatsApp or iMessage, like I mentioned earlier. Now, there's bot first experiences and Fin is an AI chatbot, AI first, chatbot first. So the first line of defense for a customer support team is Finn, not a person. And so, it fundamentally changes. The results we've seen with Fin are mind blowing. Our biggest challenge is actually trying to help customer support teams think about organizational change. (00:26:05): The tech is way ahead. It's actually people wrapping their heads around what this means for the role, the teams, loads of cool stuff, like new types of jobs for people, like conversation designers, a job we have where you design the conversations that Fin does or managers. So anyway, that's what Fin is. Fin has expanded. So, Fin is now also in our Intercom inbox. They've placed a people answer queries, customers support queries, and now Fin's in there too, helping the support reps. Suggesting answers for them to use, or helping them rephrase things. So, it's now augmenting people as well as answering questions by itself.",
+   "zh": "Fin首先是一款AI聊天机器人。从客户支持角度看，用户向企业提问，传统上主要通过邮件、电话和工单系统处理。用户提交工单后，往往得不到回复。这时候，基于对话的客户支持模式应运而生，比如WhatsApp、iMessage等即时通讯工具。现在出现了以聊天机器人为先的体验，Fin就是AI驱动的聊天机器人。所以，客户支持团队的第一道防线是Fin，而不是真人。这从根本上改变了现状。我们使用Fin的效果令人惊叹。目前最大的挑战是帮助客户支持团队思考组织变革。（00:26:05）：技术已经领先太多了。真正难的是让人们理解这对角色、团队意味着什么，还有很多很酷的东西，比如新兴职业，比如对话设计师——我们专门负责设计Fin对话的岗位，还有经理岗位。总之，Fin就是这样的。Fin已经扩展了功能。现在Fin也进入了Intercom收件箱。他们把人工回复的查询、客户支持查询都放进去，Fin也加入其中，帮助客服代表。为他们推荐答案，或者帮助他们重新组织语言。所以现在它既能辅助人工，又能自主回答问题。",
+   "ts": "00:25:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think you're one of the few companies that has pivoted fully into AI. And, I think there's a lot of lessons here about how team structures might change, product strategy, priorities, things like that. So I'm curious just to unpack a couple more things here. First of all, what impact have you seen after going all in and going in this direction?",
+   "zh": "我认为贵公司是少数完全转向人工智能的企业之一。在此，我想探讨团队架构可能如何变革、产品战略如何调整、优先事项如何排序等诸多方面。因此，我很想深入探讨几个问题。首先，全面投入并朝着这一方向发展后，贵公司见证了哪些成效？",
+   "ts": "00:26:46"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "It's very early, honestly, to be able to answer that properly. And it depends what you measure as success. So, again, there's a lot of hype and buzz with AI. So, if you're measuring it by interest, it's a huge success. Our target customer is customer support. Our customer support manager leader. And so, they're very curious. They're like, \"Does it actually work?\" Again, back to the earlier thing of there's so much hype, there's a bit of skepticism around it. \"Does it actually work? Is it as good as a person?\" And in customer support, people who tend to work in that role are typically very high empathy, care a lot about people. And so, they're like, \"But is it as good as a person? Is it nice, friendly? Does it understand humanity?\" And so, a lot of curiosity, and a lot of interests, and a lot of people trying it. (00:27:57): We have some customers who are hugely successful with it. They can answer up to 50, 60, 70% of their inbound questions with Fin. So we've some customers who see huge success. But it's early. And so, has it transformed our business financially? Not yet. I think, all fast-growing startups... If you think of AI Intercom as, I guess, a new startup, even though we're 900 people, the growth curve, you're looking for this exponential curve, as opposed to big public company linear growth curve. With the exponential one, it takes a while. The first year or two years is the bottom of that. And so, I think we're still in the trying to figure out exactly what's going on, trying to talk to educate people. But, we have enough evidence to believe it's the future for sure.",
+   "zh": "说实话，现在要给出准确的答案还为时过早。这取决于你如何衡量成功。人工智能领域当前热度极高，如果以引发的关注度来衡量，那确实取得了巨大成功。我们的目标客户是客服团队，特别是客服经理。他们对此充满好奇，总是追问：“这真的有效吗？”考虑到外界对人工智能的诸多期待，人们对其存在诸多质疑：“它真能替代真人客服吗？能做到和真人一样友善、善解人意吗？”客服人员通常富有同理心，非常关心用户体验，因此他们会反复验证：“它能达到真人客服的水平吗？是否足够友善、亲切？是否理解人类情感？”因此，人们对此充满好奇，兴趣浓厚，许多团队都在尝试应用。（00:27:57）：我们有一些客户使用Fin成功案例，他们能用这款工具处理50%、60%、70%的客户咨询。但这毕竟还处于早期阶段。那么它是否从财务层面重塑了我们的业务？目前尚未显现。我认为所有快速发展的初创公司……如果你把AI Intercom视为新兴初创企业（尽管我们已有900名员工），其增长曲线应是指数级增长，而非大型上市公司的线性增长。指数级增长需要时间，前两年通常处于低谷期。目前，我们仍在探索其核心价值，努力向用户普及相关知识。但我们已掌握足够证据确信，AI必将成为未来的趋势。",
+   "ts": "00:27:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any examples of either this product or other instances of AI just blowing your mind where you're just like, \"Wow, I never imagined it would be this good\"?",
+   "zh": "是否有任何案例，无论是这款产品还是其他人工智能应用，能让你惊叹不已，感叹“哇，真没想到能如此出色”？",
+   "ts": "00:28:53"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "I go back to that before after thing. So, the first version of ChatGPT was a before, after, where we we've been working, like I said, in this space, we've had a machine learning team for a long time. The way our machine learning thing worked before ChatGPT was that there was not a manual setup. A customer support manager would have to orchestrate the bot, and teach it what to say, and just a lot of orchestration, a lot of teaching it. And then, ChatGPT showed up and it's like, \"Oh, it can do it by itself.\" It gets it wrong sometimes. So, do people get the question wrong too? It's as good as a person nearly for a lot of these basic things. So that blew my mind. And then, that was, \"Oh, it can answer questions.\" But then, you're like, it can reason. (00:29:45): There's actually a debate about whether is this reasoning or deduction. But, it can work things out. And, I'm not one for going down into these really philosophical things. I'm like, \"We just need to build. Let's go back, build the product.\" Or whatever. But it can work things out. And that blew my mind. And, we fed ChatGPT and other companies too, we played with other LLMs, like Entropik and so on, it can work things out. And that was mind-blowing. Then you can see it doing things, like writing code. And I was like, \"Wow, it's really good at writing code. What does that mean?\" And then, you start thinking, here at Intercom we have a one to five ratio. So a PM has about five engineers on a team. And you're looking at this thing writing code and you're like, \"What happens next? Do we need as many engineers or will their role change? And they'll start doing different types of things like reviewing code instead of writing code?\" (00:30:41): So that blew my mind. And then, the visual stuff, like I mentioned earlier, I think the visual thing was bigger than the original one. It can parse imagery, and it can help you see the world. You take a photo of your bike and say, \"Hey, what's wrong?\" And It'll tell you what's wrong, how to fix it. You can be traveling, take photos of stuff. It's in a different language. It's etched in stone on a 12th century cathedral. You're like, \"What does that say?\" And it'll tell you what it says. It's just like how to do that. This is what I'm actually repeating most to people these days, here in Ireland, if you want to be a radiologist, so study X-rays and tell people what's wrong, and so on, and forth, it's seven years training to learn that skill. So, seven years to be a radiologist, and then you're just into the job. AI, it seems it's already better at it. So, it's already better at it, and it can ingest every X-ray ever made. No human can ever read, and think about, and synthesize every X-ray ever made. (00:31:45): So, of course it's better. And then, you're like, \"Okay, what happens now?\" I guess, the whole job changes. Radiologists will not take x-ray. Well, I guess they might take them. But, they won't analyze them, for sure. They'll look at what AI says, check that it's right, and then it's bedside manner time. Tell the patient, maybe tell them what course. So the job just fundamentally changes. And by the way, that could be amazing. Here in Ireland, we have long queues for hospitals, epic waiting lists for people getting X-rays. So, this is a really good thing possibly for people. Here's the craziest one I have. AI can listen to your voice and copy it, so it can say things and it sounds exactly like you and it's really, really good. Almost in distinguishable. You're like, \"That sounds like Paul.\" And so, I mentioned the Metaverse earlier. I don't know if you saw Zuck talks to Lex [inaudible 00:32:35]. See that?",
+   "zh": "让我再回顾一下之前和之后的对比。ChatGPT的第一版可以算是一个转折点。在我们致力于这项技术的这段时间里，我们的机器学习团队已经运作了很久。ChatGPT出现之前，机器学习的工作流程是这样的：没有手动设置流程，客户支持经理需要手动操控机器人，教它该说什么，整个过程充满了繁琐的协调和教学工作。然而ChatGPT的出现彻底改变了这一切——它能自动完成这些任务。当然，它偶尔也会出错，但在很多基础任务上，它的表现几乎和人类一样出色。这真的让我惊叹不已。\n\n接下来是它能回答问题的功能。然后是推理能力（00:29:45）——关于这是推理还是归纳，这里存在争议。但总之它能解决问题。虽然我不太想深究这些哲学问题，但我们只需要专注于产品开发。接着是代码生成功能，我惊叹于它在编程方面的卓越表现。这让我开始思考：在Intercom，我们的PM团队通常配有五名工程师。看着ChatGPT自己写代码，我不禁好奇：未来会怎样？我们是否需要更少的工程师，或者他们的角色会转变？比如从编码转向代码审查？\n\n视觉识别功能同样令人震惊（00:30:41）。它能解析图像，帮助人们理解世界。比如拍张自行车照片问“哪里出问题了？”它能准确指出问题所在。旅行时拍照遇到外文标识？它能翻译成中文。雕刻在12世纪大教堂的碑文？它能准确解读内容。这些功能让我深受启发。如果你想成为放射科医生，现在爱尔兰需要七年培训才能掌握技能。而ChatGPT似乎已经超越了这一门槛。它能处理所有已有的X光片，而人类根本无法完成如此海量的数据处理。\n\n所以，AI显然已经更胜一筹。接下来，放射科医生的工作将彻底变革。他们不再亲自操作X光设备，但会参考AI的诊断结果，进行最终的解释和治疗方案制定。这对患者来说无疑是福音。爱尔兰的医院排队时间漫长，X光预约名单积压严重，AI技术或许能为患者带来革命性的改变。\n\n最令人惊叹的是语音模仿功能。它能模仿你的声音，准确传达你的意思，甚至让人难以分辨真假。还有元宇宙概念，我认为它将彻底改变人类的社交方式。\n不知道你有没有看扎克伯格和莱克斯的对话（00:32:35处音频中断）。看到了吗？",
+   "ts": "00:29:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yep.",
+   "zh": "是啊。",
+   "ts": "00:32:35"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "So that was my first, \"Oh.\" For people who haven't seen it, they met in the Metaverse, I think, or some virtual world.",
+   "zh": "所以那是我第一次感叹\"哦。\"对于没看过相关内容的人来说，他们是在元宇宙或者某个虚拟世界里相遇的。",
+   "ts": "00:32:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It was a black room.",
+   "zh": "那是一个黑色的房间。",
+   "ts": "00:32:42"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "In a black room. Yeah. And, the tech has come on so they can analyze your face and build a 3D model. It's really good, really, really close. So, you can imagine, that's going to get better. Based on the trajectory of that technology, it's going to get better. And so, the voice thing and the face thing means both of those things are almost indistinguishable from a real person. And, AI will be able to ingest all the things people say and do. And, when people die, it'll be able to replicate that person. And so, there's an afterlife, hey, your parent dies and you can still talk to them. And, that could be the weirdest thing. Maybe it's not good for people. I don't know. But, that tech is just around the corner. And the AI can answer your questions, mind-blowing. It's mind-blowing.",
+   "zh": "在一个黑色的房间里。是啊。这项技术已经有了很大的进步，他们可以分析你的面部特征并构建3D模型。效果非常好，真的非常、非常接近真实了。所以你可以想象，未来这项技术会变得更好。基于当前技术的发展趋势，它肯定会不断进步。因此，语音识别和面部识别技术意味着这两项技术几乎可以与真人无异。人工智能将能够记录人们的所有言行。当人们去世后，它将能够复刻那个人的形象。所以会有来世，嘿，你的父母去世后，你仍然可以和他们交谈。这可能是最奇怪的事情了。也许这对人们来说不是好事。我不知道。但这项技术即将问世。人工智能还能回答你的问题，这真是令人惊叹。太令人惊叹了。",
+   "ts": "00:32:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's actually a Black Mirror episode with that same premise, where-",
+   "zh": "实际上《黑镜》有一集也是基于同样的设定，讲的是——",
+   "ts": "00:33:35"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "That's right.",
+   "zh": "没错。",
+   "ts": "00:33:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... Yeah. And I don't think it ended well.",
+   "zh": "……是啊。我觉得结局不太好。",
+   "ts": "00:33:39"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "No.",
+   "zh": "不。",
+   "ts": "00:33:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Be careful.",
+   "zh": "小心点。",
+   "ts": "00:33:43"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "For sure. For sure. Yeah, I think, the [inaudible 00:33:48] and the voice translation thing is another one. I can't remember. Maybe it's in Mission Impossible, where it can take a voice, translate it, and translate it in real-time. And this tech is, again, just here, where if I was a native Spanish speaker and couldn't speak English, you and I could still have this podcast. Your voice would be translated in Spanish in real-time for me. It's, again, mind-blowing.",
+   "zh": "当然。当然。是啊，我觉得[00:33:48的音频缺失]和语音翻译技术是另一回事。我记不清了。也许在《碟中谍》里，有个场景能实时翻译语音。同样，这项技术已经触手可及。比如，如果我是一个西班牙母语者但不会说英语，你和我仍然可以进行这场播客。你的声音会实时翻译成西班牙语，而你的嘴型也会同步调整。这真的太令人惊叹了。",
+   "ts": "00:33:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We're actually working on dubbing/translating podcast episodes, which is all done through AI, where it figures out what you're saying, makes it Spanish, and then also changes your lips to match. And, we're trying to launch a couple of those. And that's actually very AI-based. Yeah.",
+   "zh": "我们实际上正在制作播客的配音/翻译版本，全部通过人工智能完成，它能理解你说的话，将其翻译成西班牙语，然后还能让你的嘴型同步。我们的团队正在努力推出几个这样的版本。这确实非常依赖人工智能。是的。",
+   "ts": "00:34:10"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "That's cool. That's really cool.",
+   "zh": "太酷了。真的太酷了。",
+   "ts": "00:34:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned that your ENG team might change your thinking, because AI can make them much more efficient and work differently. I'm curious what you've seen actually change on your team, either using AI-ish tools, or just building AI products. What do you think is most different? And I'm curious from the perspective of a team that's trying to think about integrating AI and starting to lean into AI, what have you seen most change and should change?",
+   "zh": "你提到你的英文团队可能会改变你的看法，因为人工智能能让他们更高效，工作方式也不同。我很好奇你们团队实际经历了哪些变化，无论是使用人工智能工具，还是开发人工智能产品。你认为最显著的变化是什么？从一个试图整合人工智能并开始依赖人工智能的团队的角度来看，你认为最需要改变和应该改变的是什么？",
+   "ts": "00:34:27"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Ultimately, you need really great machine learning engineers. That's where it starts. And if you don't have that, then you're going to find it hard to build truly, really, truly great things. So, what OpenAI provide, and what Entropik provide, and Claude, they provide an amazing technology, but you got to build on top of it. If you really want something brilliant, you got to build on top of it. So, we adapted what they build for customer support. Maybe someday we need to go build our own LLM that's just for customer support. Maybe. I don't know where that will all go. And maybe everyone will have their own LLM for every single business. I don't really know, to be honest. Maybe these companies will provide specialized LLMs. But anyway, that's the first thing. And, of course, these people are in high demand. So, you need to invest in building out that function, I think. Really invest in building out the function. (00:35:46): So that's what we've been doing. Our ML team's way bigger than it was and way bigger than it ever has been at Intercom. And then, it forks. So, some projects are very heavy on that ML team and it needs them. But other projects are more front end, like the inbox stuff I mentioned earlier, where we have Fin and Fin is working, we've built the underlying technology. Now it's a question of if you have a human support person answering questions in the inbox, that's a natural chat conversational interface, pretty straightforward. What happens when there's now an AI assistant in there? How do they talk? And what do they do? And when do they interject? And how do you represent that in the user experience that feels natural? So that's a really hard design problem. (00:36:32): So, saying back into like, okay, we've a product team that's a product manager, a product designer, maybe three, four, maybe five engineers, and they're getting help from the machine learning team. So, we now have both setups. And increasingly, we can do more with the latter, more teams who can build on the foundational technology that we've been building over the last 12 months or so. So that's one thing. I think a second thing that comes to mind is not to think about it as bolted on. I think some people are still in that camp. (00:37:08): Again, I'll go back to the mobile thing. There's just so many direct parallels with it. Like I said earlier, at Google, I worked in the mobile apps team. I worked on mobile Gmail, mobile docs, and it was the mobile team. And we were in London. We're like, \"Hey, we're the mobile team in London.\" And meanwhile, over in Mountainview in California, no one cared. It's was like, \"You're 20 people. We're 200. No one uses this stuff on a phone.\" And again, a lot of skepticism. \"No one's going to write docs on the phone. Seriously? They're going to write a full document on a phone, are you crazy?\" So, don't do that. We're trying not to do that. Don't bolt it on. Don't be like, \"Oh, we'll have a bunch of AI people...\" And we do have some specialists. But generally speaking, we're trying to have everyone learn about it.",
+   "zh": "归根结底，你需要真正出色的机器学习工程师。这是关键所在。如果没有这样的团队，你就很难打造出真正、真正、真正出色的产品。所以，OpenAI提供的技术，Entropik提供的技术，Claude提供的技术，它们都是了不起的技术，但你必须在此基础上进行深化。如果你想做出卓越的成果，就必须在现有技术上进行迭代。因此，我们将这些技术应用于客户支持领域。或许未来我们需要为客户支持单独开发专属的LLM模型。谁知道呢，或许每家公司都会为各自的业务打造专属LLM模型。说实话，我对此并不确定。或许这些公司会提供专门的LLM模型。但无论如何，首要任务是——当然，这些人才需求极高。所以，我认为你必须投入重金来构建这一功能，真正下功夫打造这项功能。（00:35:46）：这就是我们一直在做的。我们的机器学习团队规模比以往任何时候都大得多。在Intercom，这是史无前例的。然后，团队会分化。有些项目对机器学习团队的依赖性很强，需要他们的支持；而其他项目则更偏向前端开发，比如我之前提到的收件箱功能。我们有Fin参与开发，底层技术已经搭建完成。现在关键在于，如果让真人客服在收件箱中回复问题，这本质上就是自然的聊天对话界面，相当直接。但当引入AI助手后，会出现什么情况？他们如何交谈？如何执行任务？何时介入？又如何在用户体验中呈现得自然？这是一个非常难的设计难题。（00:36:32）：回到产品团队的架构，比如产品经理、产品设计师，可能还有三到五名工程师，他们会得到机器学习团队的支持。现在我们两套架构并行存在。越来越多的团队能在过去12个月左右开发的底层技术基础上进行创新。这就是关键所在。我认为第二个要点是不要将其视为可随意添加的模块。有些人至今仍持这种观点。\n（00:37:08）：再举个例子和移动端的对比，简直如出一辙。正如我之前提到的，我在谷歌时就属于移动应用团队，负责移动版Gmail和移动版文档。当时我们在伦敦，团队自称“伦敦移动团队”。而加州山景城的团队却毫不在意，说：“你们只有20人，我们有200人。没人用手机版的这些功能。”当时大家都充满怀疑，“没人会在手机上写文档？说真的？他们会用手机写完整的文档？疯了吧？”所以别走这条路。我们正努力避免这种模式。不要把它当作可随意添加的模块。别说：“哦，我们会让一群AI专家……” 我们确实有一些专业人才，但总体来说，我们正努力让每个人都了解这项技术。",
+   "ts": "00:34:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Interesting. So, I'm curious just specifically what that looks like, don't bolt it on. The idea there is don't just have a site team that's like, \"They're the AI team. They're going to add AI to all this stuff.\" You're finding and lesson is integrated into every product team.",
+   "zh": "有意思。所以我很好奇具体该怎么做，别把它当作可随意添加的模块。关键在于不要让某个团队说：“他们是AI团队，他们会把AI加到所有产品中。”而是将相关知识融入每个产品团队。",
+   "ts": "00:37:57"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "And we're still early there. We're still early. So, what we're trying not to do is have the AI inbox team, and they're the only people who work on AI features in the inbox. I think it's much better to have everyone learn about it. By the way, I'm a big believer in generalists, a big, big believer in... I guess, my background is jack of all trades master of none. That's probably how I describe myself. I've worked as a researcher, designer, PM. And so, I believe in generalists, and so I believe in setting teams up that way. And, yes, specialists matters at times. Machine learning for sure is a deep specialism. And in Intercom, we generally, in engineering too, much prefer people who learn new things, whether it's a new coding language, or framework, or how to design AI interfaces, or whatever, get more people being able to do it.",
+   "zh": "嗯，我们在这方面还处于早期阶段。我们仍处于早期阶段。所以，我们努力避免让AI收件箱团队独自开发AI功能。我认为让所有人都能了解这项技术要好得多。顺便说一句，我非常赞同通才主义，非常、非常赞同……我的背景就是样样通、样样松。我就是这么形容自己的。我曾担任过研究员、设计师和产品经理。因此，我坚信通才主义，也支持以这种方式组建团队。当然，专家在某些时候也很重要。机器学习无疑是一项深度专业领域。在Intercom，我们在工程团队中也更倾向于让人们学习新事物，无论是新的编程语言、框架，还是如何设计AI界面等等，让更多人掌握这些技能。",
+   "ts": "00:38:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel like, again, your company is a little bit of living in the future, where a lot of companies are going to get to once they realize, \"Oh shit. We really need to get big here.\" Or they're already working on it. I'm curious if there's other maybe pitfalls you ran into that you think people should try to avoid and something you could share there, or just any other lessons about making this transition that you think might be useful to other people.",
+   "zh": "我觉得，再说一次，你们的公司有点领先于时代。很多公司一旦意识到“天哪，我们真的需要在这里大展拳脚了”，或者他们已经在为此努力，就会迎来这样的转变。我很好奇，你们是否遇到过其他可能需要避免的陷阱，或者有什么可以分享的经验教训，或者任何关于完成这种转变的建议，对其他人可能有用。",
+   "ts": "00:39:05"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, what I've mentioned so far, don't bolt it on. Stay up-to-date. I mentioned earlier, read, read. I feel like I'm behind all the time. It's moving so fast.",
+   "zh": "是的，我到目前为止提到的就是，不要把它当作附加功能。保持与时俱进。我之前提到过，要多阅读、多学习。我感觉自己一直落在后面。变化太快了。",
+   "ts": "00:39:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are you reading? What do you find is most interesting and informative for reading about what's happening in AI?",
+   "zh": "你都在读些什么？你觉得关于AI领域动态，最有趣、最有信息量的阅读材料是什么？",
+   "ts": "00:39:36"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "I'd love to tell you that it's incredibly structured. I have a great reading list that I got to read every Sunday morning. It's pretty random. I'm on Twitter, which is now called X, of course, a lot. I follow some people on Twitter. I actually use the recommended feed in Twitter a lot. I think, because I interact and look at a lot of AI, I get to see a lot more. So I do that and I do it deliberately to try and generate more stuff. I'll search Twitter as well. There's loads of cool stuff there. There's some newsletters as well and some people I follow.",
+   "zh": "我很想告诉你，它的结构非常清晰。我每周日早上都有一个很棒的阅读清单，内容很随意。我经常使用推特（当然，现在它叫X了），关注一些人。实际上，我经常利用推特的推荐推送功能。我觉得，因为我经常与AI相关内容互动，所以能看到更多相关内容。所以我有意这样做，刻意去获取更多信息。我也会在推特上搜索。有很多很酷的东西。还有一些新闻通讯和我关注的人。",
+   "ts": "00:39:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Any newsletters you could call out that you think are most interesting?",
+   "zh": "你能推荐一些你认为最有趣的通讯吗？",
+   "ts": "00:40:12"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, Matt Rickard is one guy who talks a lot about AI. The blogs of companies too. OpenAI have a pretty good blog, and they write papers, and summarize them.",
+   "zh": "是的，马特·里卡德（Matt Rickard）是经常谈论AI的人之一。公司的博客也很不错。OpenAI有一个相当不错的博客，他们会写论文并进行总结。",
+   "ts": "00:40:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. If there's any other ones you think of, either people on Twitter to follow or newsletters, email me after, and then we'll add them to the show notes.",
+   "zh": "太好了。如果你还想到其他值得关注的推特用户或通讯，请之后发邮件给我，我们会把它们添加到节目笔记中。",
+   "ts": "00:40:27"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, perfect. Yeah, yeah, there definitely is. I'll dig them out. Your question earlier, how do you do it? You just try. Try book out half an hour and just go deep for half an hour, and then bookmark a few things, come back to them. Like everyone, you could be so busy, so many distractions, you just got to have to set aside time.",
+   "zh": "是的，完美。是的，是的，肯定有。我会把它们找出来。你之前的问题是，你怎么做到的？你就尝试吧。抽出半小时深入研究，然后书签几个内容，回头再看。和大家一样，你可能会很忙，分心事很多，你只需要留出时间。",
+   "ts": "00:40:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any other tools or apps that you find really helpful? Sounds like ChatGPT is at the center of how you play around with it. Is there anything else that you find really interesting?",
+   "zh": "还有其他你觉得非常有用的工具或应用吗？听起来ChatGPT是你们探索它的核心。还有其他你觉得非常有趣的东西吗？",
+   "ts": "00:40:50"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "I'll try other things like Bard. For example, Bard is Google's AI search engine. Rewind is another fascinating company. I think it's rewind.ai. Rewind is basically augmented AI for your memory. So, install it on your local machine, and it captures everything, and remembers everything. It's all local, so there's no privacy issues. And, you got to try these things to understand whether it's any good, or useful, or where's the boundaries, and how does it work, and so on. So, I'm a believer in that type of thing.",
+   "zh": "我会尝试其他产品，比如Bard。例如，Bard是谷歌的AI搜索引擎。Rewind是另一家令人着迷的公司。我觉得它是rewind.ai。Rewind本质上是为你的记忆提供增强型AI功能。只需在本地设备上安装它，它就能捕捉并记录下你的一切生活片段。由于数据全部存储在本地，所以不存在隐私问题。要想了解这些产品是否实用、是否有用、其功能边界在哪里，以及具体运作方式等等，你必须亲自体验一番。所以，我对这类技术深信不疑。",
+   "ts": "00:40:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by HelpBar by Chameleon, the free in-app universal search solution built for SaaS. Your help content lives outside your app and is scattered in many places forcing users to waste time hunting for answers. HelpBar solves this, it delivers answers directly inside your app and eliminates context switching. Users can search or ask questions to get AI generated answers and lists of the most relevant documentation from all of your help sources, including your knowledge base, docs, blog, and video libraries. You can also use HelpBar to navigate your app and launch actions, such as scheduling a meeting or viewing an interactive demo. (00:42:13): The best products today use Command K for in-app search and navigation. HelpBar makes that readily available within your app without engineering or new code. Give users a faster and more delightful self-serve experience that reduces friction and increases in-app engagement. Upgrade your user experience with this modern component and supercharge your product-LED motion. Sign up for HelpBar today. It's free and easy to set up in minutes. Check it out at helpbar.ai/lenny, that's helpbar.ai/lenny. When you started rolling out AI and leaning into this direction, did you run into any big challenges or hurdles organizationally, or personal interests, or opinions? I don't know. Is there anything you ran into that was a big stumbling block and something you had to get over?",
+   "zh": "本期节目由Chameleon旗下免费的SaaS应用内通用搜索解决方案HelpBar赞助。你的帮助文档通常分散在多个平台外，用户需要耗费大量时间寻找答案。HelpBar通过在应用内直接提供答案，消除用户的切换困扰。用户可以通过搜索或提问，从包括知识库、文档、博客和视频库在内的所有帮助资源中获取AI生成的答案及相关文档列表。此外，用户还能借助HelpBar在应用内导航并执行操作，如安排会议或观看互动演示。（00:42:13）：当今最优秀的产品都使用Command K实现应用内搜索和导航。HelpBar无需额外工程开发或代码编写，即可轻松将这一功能集成到你的应用中。为用户提供更快捷、更愉悦的自助服务体验，降低使用门槛，提高应用内参与度。立即注册HelpBar。免费试用，几分钟即可完成设置。访问helpbar.ai/lenny，即可体验。  \n当你开始推广AI技术并朝着这个方向发展时，是否遇到过组织层面、个人兴趣或观念上的重大挑战或障碍？我不知道。你是否遇到过什么重大的阻碍，需要克服的难题？",
+   "ts": "00:41:35"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, Intercom is full of diverse opinions about things. And, I think with AI, I'm all in. I'm leaning forward. The media is coming. I'm sold. I'm way past that point. Also, no one knows. No one knows. And so, a lot of the time, when we talk internally, the strong buy-in from Eoghan, our co-founder and CEO, Des co-founder, like me, like a lot of the senior leadership team we're in all in camp. And so, that helps a lot. Of course, if you're senior leadership team in the company are all in, of course, then it trickles down. But equally, some of the hurdles have been like, \"Why are you all in?\" And I'm like, \"An educated guess. A hunch.\" (00:43:51): The part of business strategy and product strategy that, it's just hard. It's like taste. People talk about product taste, \"Who has product taste?\" And a lot of it is, it's judgment based on experience. That's all I can say. I don't know. For me, personally, I don't know, I lived through the mobile thing pretty closely, having worked at Google on mobile. I lived through that phase. So, I can see the same type of thing happening now with bigger. So I'm using that experience to go all in. (00:44:23): But it's a challenge for some people, because they don't have that context, or they disagree with it. We have a lot of debate here about the future. Fergal, I mentioned earlier, gave myself and a few other product leaders and Des he gave us a... I don't know, is it a pitch or what? A play? I don't know, about how maybe all of our roadmap with AI is wrong. I don't know if you are familiar with the Horizons framework of Horizon 1, 2, and 3.",
+   "zh": "是啊，Intercom里对各种事情的观点五花八门。说到人工智能，我完全支持。我积极拥抱这项技术。媒体浪潮即将到来，我深信不疑。我早已过了怀疑的阶段。不过，坦白说，没人能百分百确定。内部讨论时，我们的联合创始人兼CEO Eoghan、另一位联合创始人Des，还有包括我在内的许多高层管理团队成员，都全力支持。这确实很有帮助。当然，如果公司高层都坚定信念，自然能带动下级员工。但同样的，有些人也会质疑：“为什么你们都这么确定？”我只能说：“这只是个有根据的猜测，凭直觉判断。”（00:43:51）：商业战略和产品战略的部分实在太难了。这就像品味问题。人们谈论产品品味，“谁有产品品味？”很多时候这都是基于经验的判断。我只能说，我个人不确定。我曾在谷歌移动部门工作，亲身经历过移动端的变革。如今我看到类似的巨大机遇。所以我会借助这段经历，全力以赴。\n（00:44:23）：但对有些人来说，这挑战太大了，因为他们缺乏背景知识，或者不认同我们的观点。我们内部对未来有很多争论。前面提到的Fergal，给了我和其他几位产品负责人及Des一份……我不知道，是提案还是什么方案？关于我们现有的人工智能路线图可能全错了。不知道你是否熟悉Horizons框架，第一阶段、第二阶段、第三阶段。",
+   "ts": "00:43:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm. Yeah. Amazon.",
+   "zh": "嗯。是的。亚马逊。",
+   "ts": "00:44:54"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. So, Horizon 1 is the medium short to medium term, next 12 months, 12 to 18 months. Horizon 2 being like, \"Hey, what's happening?\" Whatever, 18 to 36 months out. Or, I think, people use different timeframes, different Horizons. Anyway. We're in Horizon 1 land. We're like, \"Yeah, and the next year we're going to do this.\" And he's like, \"Yeah, but two years from now, if this path plays out, everything we're doing now is going to be irrelevant and useless.\" And you're like, \"Oh, okay.\" And so, those discussions happen. And, the level of ambiguity is off the charts. So, a lot of the challenges have been navigating that ambiguity and helping people get the conviction I have without drying out voices of alternative voices and opinions, which are often valid too.",
+   "zh": "对。所以，第一阶段是中短期到中期阶段，未来12个月，12到18个月。第二阶段是，“嘿，情况如何？”不管怎样，18到36个月。或者，我觉得不同的人有不同的时间框架和视角。总之，我们现在处于第一阶段。我们会说：“是的，明年我们要做这个。”他会说：“是的，但两年后，如果这条路径成功，我们现在做的一切都将变得无关紧要和毫无用处。”你会说：“哦，好吧。”所以，这样的讨论时有发生。这种不确定性简直爆棚。所以，许多挑战就在于如何驾驭这种不确定性，让人们获得我所拥有的信念，同时又不压制其他有价值的不同声音和观点。",
+   "ts": "00:44:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What does help people get that conviction? Is it just showing them examples of, \"Here's something.\" \"Wow, look at this thing. This is unreal.\" And, I think, partly what helps, I imagine, is the market you're in seems like such a clear opportunity for AI, feels like an easier pitch than maybe a lot of other markets.",
+   "zh": "那怎样才能帮助人们获得这种信念呢？就是给他们展示例子，比如：“看这个。”“哇，看看这个，太不可思议了。” 我想，部分帮助在于，我们所处的市场对人工智能来说似乎是一个明显的机会，相比许多其他市场，推广起来要容易得多。",
+   "ts": "00:45:53"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, that's true. For sure. That's true. Yeah, showing people is definitely the easiest way. I think customer support is definitely... Like I said, [inaudible 00:46:20], number one, customer support. So you're like, \"Okay, I guess we should adapt.\" Adapt or die is our mantra. Adapt or die. I think that there are other industries where they're on the same journey, it's just not as obvious. So for example, reporting software, Tableau or any reporting product, how do they work? Well, they're the typical read, write app, build dashboards, filtering, querying, hardcore querying, query database, get some numbers, show it in a UI. A lot of thought and care goes into how you present that data to people. The different types of charts that are appropriate help people make good decisions ultimately. (00:47:04): I think, again, this is hand wave, who knows. Maybe that's all done dead now. And, the reporting product of the future is just a box, and the box just goes to the database, and the box is just, \"Who was our best salesman last year January? Okay. Who was our top performing representative in January? Lenny.\" The report product to the future might look like that. And so, project management tools is another one. There's a bunch of products that I think are just outside the most obvious customer support one. And yet, equally ripe for a newcomer to come with a completely different paradigm and potentially take over.",
+   "zh": "是啊，这倒是真的。当然啦。这确实没错。是啊，让别人看看确实是最简单的方法。我觉得客户支持绝对是……就像我之前说的，[00:46:20]，首要任务就是客户支持。所以你会想，“好吧，我想我们应该做出改变。”适应或灭亡是我们的座右铭。适应或灭亡。我觉得其他行业也在经历同样的变革，只是没那么明显。比如，报告软件，比如Tableau或者其他任何报告产品，它们是如何运作的呢？嗯，它们就是典型的读取、写入应用程序，构建仪表板，进行过滤、查询、深度查询、查询数据库，获取一些数据，然后在用户界面中展示。如何把这些数据呈现给用户，这需要花很多心思和精力。适合的图表类型能帮助人们做出正确决策。（00:47:04）：我觉得，再说一次，这只是随便一说，谁知道呢。也许现在这套路已经过时了。未来的报告产品可能就只是一个界面，然后直接连接数据库，界面只会问：“去年1月，我们最好的销售员是谁？好的，1月份表现最出色的销售代表是谁？是Lenny。”未来的报告产品可能会是这样的。还有项目管理工具也是另一个例子。我觉得除了最明显的客户支持领域外，还有很多产品也值得关注。然而，这些领域同样急需新来者用全新的范式颠覆市场。",
+   "ts": "00:46:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I like that this connects back to your very first point about trying to think about where AI integrates is. Think about what problem are you solving as a company. For example, Tableau, helping people visualize data. And then, the question is, can AI just do this for you? And in that case, oh, and maybe you can. And that gives you basically a whole strategy of like, \"Okay, how do we actually do that with AI?\"",
+   "zh": "我喜欢你把这点和最初关于AI整合的讨论联系起来。想想看，你作为一家公司，到底在解决什么问题。比如Tableau，帮助人们可视化数据。然后问题来了，AI能替你完成这些吗？如果可以，那你基本上就找到了一个全新的策略：好，如何用AI实现这一目标？",
+   "ts": "00:47:45"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. And, I don't know if the reporting thing will play out that way. But, if you're a Tableau type company, you've tons of designers who design dashboards, and filters, and querying type workflow. What do they do? The UI is the box. So, it's really hard to get into your head like, \"We must...\" If you have conviction that we must change really hard.",
+   "zh": "是啊。我不知道报告这块是否会朝这个方向发展。但如果你是一家Tableau类型的公司，里面有大量设计师负责设计仪表板、过滤器和查询类的工作流程。他们做什么？界面就是那个框。所以，要想让他们真正领悟“我们必须……”的理念，实在太难了。",
+   "ts": "00:48:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe one last question here. For team members learning and starting to work within this realm, is there anything you find helpful to get them ramped up, other than the advice you've already shared, which is just read a lot of stuff, watch Twitter/X, subscribe to these newsletters, and then just try it?",
+   "zh": "或许最后再问一个问题。对于刚开始接触这个领域的团队成员，除了你已经分享过的建议——多读相关内容、关注推特/X、订阅新闻通讯然后尝试实践之外，有没有什么其他有用的方法能帮助他们快速上手？",
+   "ts": "00:48:33"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "I also try and read things that say it's all a load of crap. So, it's very easy... I've been guilty of this many times. Back to the mistakes you've made. I've been guilty of this many times, where I've jumped on a bandwagon and it was all wrong. And the older I get... The Web3 thing, I'm like, \"I don't even know what Web3 is.\" Crypto, I never bought crypto. Maybe I'm wrong about that. But, I'm not a bandwagon jumper. But, maybe might've been when I was earlier. And I try these days to read the alternative opinion. People who are skeptical or think it's bad. A lot of people think this is terrible for humanity. This technology is going to eat us alive. So, I try and balance my optimism. I'm a delusively optimistic thinker, so I try and balance that with a negativity, I guess.",
+   "zh": "我也会尝试阅读那些说这全是胡说八道的文章。所以这很容易……我自己也多次犯过这种错误。回想自己犯过的错误。我也多次跳上某个潮流，结果全错了。随着年龄增长……Web3那事儿，我会说“我甚至都不知道Web3是什么”。加密货币，我从没买过，也许我错了。但我不随大流。不过可能早年我曾这样做过。如今我尽量阅读不同观点。那些持怀疑态度或认为它有害的人的观点。很多人认为这对人类很糟糕。这项技术会把我们吞噬掉。所以，我努力平衡自己的乐观态度。我是个自欺欺人的乐观主义者，所以我会努力用悲观来平衡乐观。",
+   "ts": "00:48:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's really good advice.",
+   "zh": "这真是条好建议。",
+   "ts": "00:49:50"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:49:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there anything else in this realm that you think might be useful to share before we shift to a different topic?",
+   "zh": "在这个领域里，你是否还有其他认为值得分享的观点，以便我们转换到下一个话题？",
+   "ts": "00:49:52"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Oh, yeah. The other thing is, don't be afraid. I think people are a bit afraid of it. And, for example, if I started walking around our office here saying, \"Hey, I think we need two engineers per team going forward.\" That's probably not really a good idea to do that. And I think in reality that's not going to be how it plays out. I just feel like there's loads of great studies over the years about how people don't end up losing jobs, the jobs get moved around. And also, for customer support, for example, it's a high attrition job. So, people saying, \"Hey, everyone's going to lose their job. A bot's going to take over.\" It's like, maybe some of that will happen. But probably to attrition, as in someone quit and just didn't get back-filled. So, the doomsday scenarios that I don't think would play out as much. But, for sure, it's easy to be afraid of it. And, I think you have to lean into it.",
+   "zh": "哦，对。还有一点是，别害怕。我觉得人们对此有点恐惧。比如说，如果我现在在我们办公室里四处走动，说：“嘿，我觉得未来每个团队需要配备两名工程师。”这可能不是个好主意。实际上，我认为现实情况不会是这样的。我只是觉得多年来有很多很棒的研究表明，人们并不会因此失业，工作岗位会被重新分配。再比如客户支持岗位，人员流动率很高。所以，人们会说：“嘿，每个人都要失业了。机器人会接管一切。” 但也许有些情况会发生，但很可能是人员离职导致职位空缺，所以那些末日场景不太可能成真。不过，人们确实很容易对此感到恐惧。我觉得你必须勇敢面对。",
+   "ts": "00:49:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Okay, I want to chat about frameworks. You have a lot of interesting frameworks you've put out there. So, maybe we do a rapid fire through a number of frameworks that you've worked with and find useful. And, you actually mentioned this before and after, which I hadn't heard about. What's the general idea to that concept?",
+   "zh": "我喜欢你这么说的。好吧，我想聊聊框架。你提出了很多有趣的框架。或许我们可以快速浏览一下你用过且觉得有用的框架。还有你之前提到的before和after概念，我之前没听说过。这个概念的大意是什么？",
+   "ts": "00:50:54"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Before, after is literally that simple, I think. We've a rebrand at the moment happening, and that'll be a before, after moment. We're redesigning our pricing. And then, the day that pricing goes live, that would be a before, after, because nothing's the same. And so, we need to go back out and talk to people again. I'm a big believer in talking. You got to talk to customers, it's the only way. You've got to talk, talk, talk, learn, learn, learn. Don't take with the safe face value, go deeper. And so, a lot of these before, after moments, once you've passed, yeah, into the after you got to start learning, \"Were we right? Were we wrong? What happened? What do people think?\"",
+   "zh": "before和after其实很简单。我觉得我们目前正在进行品牌重塑，这就是before和after的时刻。我们正在重新设计我们的定价策略。当定价策略上线的那一天，那就是before和after的时刻，因为一切都不一样了。所以，我们需要重新出去和人们沟通。我非常相信沟通。你必须和客户沟通，这是唯一的办法。你得不断沟通、学习、反思。不要只看表面，要深入探究。在很多before和after的时刻，一旦你进入after阶段，你就得开始反思：“我们做得对吗？我们做错了吗？发生了什么？人们怎么想的？”",
+   "ts": "00:51:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you talk more about this pricing learning/mistake you shared? What do you think you did wrong? What happened there?",
+   "zh": "你能多谈谈你分享的定价学习/错误经历吗？你觉得自己做错了什么？当时发生了什么？",
+   "ts": "00:51:54"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "We had a principle called align price to value. By the way, I think, pricing is incredibly difficult. A lot of the design team who work in pricing here, I say to them, it's one of the hardest design problems I know. I think onboarding is another one. Onboarding people into a product is also. People are like, \"Oh hey, you just design a few steps and it's pretty easy. People will follow the steps.\" Again, deceptively difficult to design great onboarding. (00:52:30): So, I think pricing is deceptively difficult. But we had a principle around allowing price to value. People should pay based on the amount of value they get in the product, easy to say and incredibly hard to do. Value is subjective. The price, for some person they get 10 units of value. I think that's about $5. Someone else is like, \"I'd pay $5,000 for those 10 units of value.\" So, the biggest mistake was a lot of mistakes compounded. And, this is an area where I think we were risk averse. We've ended up with too many pricing models. We've built on top of old competitive mistakes. And, it took a brave decision to say, \"We're going to start again.\"",
+   "zh": "我们的一个原则是\"价格应与价值匹配\"。说实话，定价这事儿真是难上加难。在这里负责定价的团队成员，我常对他们说：这是我所知最难攻克的设计难题之一。另一个难题是用户引导。引导用户使用产品同样不易。人们总会觉得，\"哦，设计几个步骤就行了，用户会照着做的。\"但要设计出优质的引导流程，实则暗藏玄机。（00:52:30）所以我觉得定价看似简单，实则暗藏玄机。但我们坚持了\"价格应与价值匹配\"的原则。用户应该根据产品为其创造的价值来支付费用，说起来容易做起来难。价值是主观的，对某些人而言，价值10个单位，可能只需5美元。而对另一些人来说，为了这10个单位价值，他们愿付5000美元。因此，最大的错误是诸多失误叠加而成。在这方面，我认为我们当时过于谨慎，定价模式过多，还沿用了旧有竞争对手的错误策略。最终，我们需要下定决心重新出发。",
+   "ts": "00:52:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, this feels like it could be a solo episode, just talking through your pricing lessons and journey. Maybe just is there a nugget of wisdom you could share for someone that's trying to think about pricing right now based on your experience?",
+   "zh": "哇，这感觉像是一期单人访谈，畅谈你的定价经验和历程。或许你能根据自身经历，为当下正思考定价问题的人分享一些智慧箴言？",
+   "ts": "00:53:18"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Number one thing I would say is keep it simple. Keep it simple. It's so tempting to... With us, for example, a lot of SaaS products have add-ons, where you're like, \"Hey, we built X and that's 10 bucks.\" Or 100,000, depends on what product you're selling. \"We built X and that's the price of X. Hey, we've just built Y. Y is awesome and it's a new thing you can do, and it unlocks all these new capabilities. People shouldn't get that for free, because it's a new thing that didn't have. So let's charge more for Y, but that doesn't really work with the other... Okay, let's look at an add-on. Oh yeah, cool. People just add on.\" But then, later, now you've got people who have the add-on, and people who don't, and then you're like, \"Add another thing.\" And so, we've added tiers, with products, tears, add-ons, tearing in the add-on. Oh my god. People can't understand their bill. So, my advice is keep it simple. Fight so hard to resist the temptation to add extra ways in which you price.",
+   "zh": "首先，我想说的是要保持简单。保持简单。人往往很想把事情复杂化。比如我们这儿，很多SaaS产品都有附加功能，你会想：\"嘿，我们开发了X功能，收费10美元。\"或者10万美元，取决于卖的是什么产品。\"我们开发了X功能，价格就是X。嘿，我们刚开发了Y功能，Y超棒，是个新功能，能解锁更多新能力。人们不该免费获得这些新功能，因为这是新东西。所以我们要为Y加价，但这和其他功能又不兼容...好吧，再加个附加功能。哦吼，用户直接添加了。\" 但后来用户有添加附加功能的，有没添加的，你又说：\"再加个功能吧。\" 于是我们加了层级、产品、附加功能、附加功能的层级。天哪。用户看不懂账单了。所以我的建议是保持简单。拼命抵制添加额外定价方式的诱惑。",
+   "ts": "00:53:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I didn't think about going into this topic, but I'm glad that we touched on it.",
+   "zh": "太棒了。我原本没打算深入探讨这个话题，但很高兴我们提到了它。",
+   "ts": "00:54:43"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Think I was talking about scars for life earlier. That's another scar for life.",
+   "zh": "想我之前说过，终身难忘的教训。这又是一次终身难忘的教训。",
+   "ts": "00:54:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. Let's keep talking about some frameworks. Another that I found that I loved is something that you call differentiation versus table stakes. What's that about?",
+   "zh": "好吧。让我们继续聊聊一些框架。我发现还有一个我很喜欢的框架，叫\"差异化与底线博弈\"。这是关于什么的？",
+   "ts": "00:54:54"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "It's like the Kano model, if you're familiar with that. But, it's very simple. I guess, we took the Kano model and just tried to make this really crazy simple version of it. Again, I'm a little bit allergic to things like this. I even hate myself for bringing up the Kano model. I'm allergic to people over intellectualizing frameworks. And like, \"Oh, well if you've seen the new different law...\" Of whatever. I'm like, \"Keep things simple, practical, and pragmatic. And then, let's all, again, go back to work and start building the product, so that customers can benefit, because that's actually all that matters.\" And so, difference versus table stakes, very simple. I think people who adopt a product, or buy a product, or switch to a product, there's two driving forces. One is the attraction of the new solution, and that's basically differentiation. So what's different and better? But critically, what's different and better in ways that customers care about? (00:56:00): Again, back to all the failed projects, my lesson for a lot of these was, we were different and better in these Google projects in ways people didn't care about. All sorts of Google projects, like Google Wave was an amazingly innovative product that no one really cared about. So, be different and better in ways people care about. So that's the attraction that's like, \"Oh, I want to check out that. That looks cool. I want to check that out. That looks better than what I have today.\" But, on the other side, there's a entry requirement or table stakes. To play the game, you got to have a certain amount of things. And so, they're table stake features. They're often very boring. They're real basic stuff, boring stuff, and easy to ignore, and easy to not build. (00:56:44): And again, a mistake with Intercom maybe over the years is that we were much more attracted to the differentiation and built a lot of that. So we went through different iterations of our roadmap, sometimes changing over the course of a year or two, where we were all the differentiation to realize that everyone loved it and really wanted to buy, but they couldn't, because we didn't have the basic report that they needed or we didn't have the basic permission feature that they needed. And then, the robot is built based on those... Trading off why do we need more differentiation or trading off why do we need to invest more table stakes? And so, these days, the basic Intercom today is we're 50/50 probably in terms of resources, but it has swung 70/30 in both directions at times. (00:57:26): The last piece about it is, I think it's really powerful to look at a roadmap or look at a proposed roadmap and ask yourself, which of these do things matters more to us, not to us actually to our customers right now? The other thing that we've talked a lot about here internally is if you're a startup and you're entering any established category, customer support for us, big established category, massive, a lot of table stakes, built up over years, decades. ServiceNow, Service Cloud, Salesforce, Zendesk, decades of table stake feature building. So to play the game, you need a lot of the table stakes, unless you have incredible differentiation. So from the early years of Intercom, people just buy us alongside Service Cloud or Zendesk. They just buy us alongside. They're like, \"This Intercom thing...\" We were like first modern messaging and modern UX. They were like, \"We want that for our customers, alongside the big giant bag of table stakes.\" Because Intercom doesn't have any of those. (00:58:26): Then over the years, we've built the table stakes to a point where, okay, now we can fully play the game and people can switch, so they can swap Zendesk for Intercom. But it took us years to get there. And then hence, if you're a startup, you need to invest a lot more in differentiation. And then, over the years, I think you start to balance the books a bit.",
+   "zh": "这就像卡诺模型，如果你对它有所了解的话。但其实很简单。我觉得，我们把卡诺模型简化得极其极端了。我对这类东西有点反感，甚至讨厌自己提起卡诺模型。我特别反感那些把框架过度理论化的人。“哦，如果你看过新的法律……”之类的。我总说：“保持简单、实用、务实。然后大家都回归工作，专注于产品开发，这样用户才能受益，因为这才是最重要的。” 所以，差异化与基本要求之间的区别，非常简单。我认为用户采用或购买产品，或者切换到新产品时，主要有两个驱动因素。一是新解决方案的吸引力，这本质上就是差异化。那么，差异化在哪里？在哪里更出色？但关键的是，差异化必须符合用户关心的痛点。（00:56:00）再说回那些失败的项目，我的教训是，谷歌的许多项目在差异化和基本要求之间平衡不当。谷歌 Wave 就是个极具创新性的产品，但没人真正在乎。所以，要在用户关心的方面做到差异化和出色。用户才会说：“哦，我想试试看。看起来很酷。我想看看。它比我现在用的产品好太多了。” 但另一方面，入门要求或基本要求是必须的。要参与游戏，你得具备某些基础条件。这些就是基本要求。通常很无聊，都是些基础功能，容易被忽视，也容易不去开发。（00:56:44）再说 Intercom 过去可能犯的错误，多年来我们太专注于差异化，开发了很多相关功能。于是我们多次调整路线图，有时一两年内就改来改去，最后发现用户虽然喜欢我们的差异化功能，但因为缺少基本的报告或权限功能而无法购买。然后在机器人开发上权衡——是投入更多差异化，还是优先完善基本要求？如今，Intercom 的基础功能在资源分配上可能各占一半，但有时两者比例会达到 70/30。（00:57:26）最后一点，我认为审视路线图或提案时，问自己“这些功能对我们或客户当下更重要？”非常有用。内部我们常讨论，如果你是一家初创公司，进入任何成熟领域，比如客户支持领域，面对 ServiceNow、Service Cloud、Salesforce、Zendesk 等巨头，他们的表层功能经过数十年积累。Intercom 早期用户只是把我们当作 Service Cloud 或 Zendesk 的替代品。他们会说：“Intercom 不错，但我们需要这些成熟功能。” 因为 Intercom 没有这些功能。（00:58:26）多年来，我们一直在调整。\n将桌面赌注积累到一定程度后，现在我们可以全面投入游戏，让用户可以自由切换——从Zendesk转向Intercom。但这花了我们数年时间才做到这一点。因此，如果你是一家初创公司，就需要在差异化方面投入更多资源。随着时间推移，我认为你会逐渐找到平衡之道。",
+   "ts": "00:55:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think what's interesting about this is one, it just gives you a way to think about looking at your roadmap. How much are we actually doing? And are we doing too much table stakes? Are we doing too much differentiation? So it gives you a awareness of what's happening. And I think, it's an interesting strategy as a startup like, \"Do we spend years doing table stakes and then launch? Or is it go the way Intercom went, like differentiate first we'll build everything else later?\" Wonder when it makes sense to go one or the other.",
+   "zh": "我觉得这件事的趣味点在于，首先，它能让你以一种全新的视角审视自己的路线图。我们到底在实际做多少事？我们是不是在过度关注基础功能？又或者我们是否在过度追求差异化？这样一来，就能让你清楚地认识到当前的情况。作为一家初创公司，面对这样的策略选择时，你会如何抉择？是花数年时间专注于基础功能后再推出产品？还是像Intercom那样，先专注于差异化，再逐步完善其他模块？什么时候该选择哪种策略才最合理？",
+   "ts": "00:58:47"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. And it probably depends on the market, different categories, and all sorts of things. Yeah.",
+   "zh": "是啊。这很可能取决于市场环境、不同品类以及诸多其他因素。没错。",
+   "ts": "00:59:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Awesome. Okay. The next framework is something that you call swinging the pendulum. What is that about?",
+   "zh": "好的。太棒了。接下来要讲的框架叫做“钟摆效应”。这是什么意思呢？",
+   "ts": "00:59:20"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "I actually mentioned an example a bit earlier. Differentiation in table stakes was swinging the pendulum. So, swinging the pendulum means, you take a step back from everyday work life, and you make the observation that something's in an undesirable state. So, maybe it's, \"Whoa, we've all the differentiation in the world, but people can't adopt the product, because we've never built any of these table stakes. It's undesirable.\" Or, \"Oh, we've now built all these table stakes and we've not been investing in differentiation. And actually, we're not that attractive to people, because switching product is a pain. And we're not just attractive to people. Okay, so this undesirable state.\" (01:00:08): And then, so you go and fix it, but the temptation is that you over-correct. And we've done this so many times in so many domains, everything from, \"Okay, we don't have enough differentiation.\" A year later, \"Oh, wait a minute, we're missing all the table stakes. Okay, we're over there.\" So, product building is one, people is another one. Building out teams and people. Another big one was, I don't know, maybe five years into Intercom, we were on this high growth trajectory, really good classic startup before our pricing problems. And, we looked around and said, \"None of us have done this before. I don't think that's good. Undesirable state. Do we even know what we're doing? We're just a bunch of random people. Do we know what we're doing? We need to hire some experts. We need to hire some experts. If we're going to go up market, we need market people who've done it before.\" (01:01:07): So, that was undesirable state, fix it by hiring people who've done it before. And then, we hired loads of people who've done it before, and what they did was brought the culture and ways of working of their prior company to Intercom. And so, we totally over-corrected, didn't work out in a lot of cases. In most cases, it didn't work out. Because, we weren't trying to be a bigger company, that already exists. We're trying to be us. So, I think, hiring and building teams is another where we really over-corrected to find out, \"Okay, it's a balance here.\" (01:01:43): Related to hiring, one is generalists and specialists, similar theme. People who've done it before, or people who are specialized. And, we hired a bunch of specialists only to realize that they're not adaptable. And, in Intercom, we have a lot of ambiguity, and we lean into the ambiguity, and people who are highly specialized can thrive in big companies, really thrive. They're invaluable employees. But in a fluid startup-y culture with a lot of ambiguity, they can really drown, really struggle. Maybe the middle of this pendulum, landing in the middle is, \"Let's hire someone who has done a bit of it and have a bit of specialism, not much, but enough to try and figure it out.\" So, we hire a lot of those people today.",
+   "zh": "实际上，我之前提过一个例子。表层差异化（table stakes）失控了。所以，表层差异化失控意味着，你从日常工作中退后一步，发现某个事情处于不理想的状态。比如，“哇，我们做了各种差异化，但用户就是不接受产品，因为我们从未构建过这些表层差异化功能。这太糟糕了。” 或者，“我们现在构建了所有表层差异化功能，却没有继续投资差异化。结果发现产品换代太麻烦了，用户根本不买账。” （01:00:08）  \n然后，你会去纠正，但往往会矫枉过正。我们在很多领域都遇到过这种情况。比如，“好吧，我们缺乏差异化。” 一年后又发现，“等等，我们缺少了表层差异化功能。” 然后又转向另一端。产品开发是一方面，团队和人员建设是另一方面。再比如，Intercom成立五年左右时，我们正处于高速增长期，堪称典型初创公司，但后来遇到定价难题。回头看，我们意识到：“我们这些人以前都没做过这些。这样下去不行。这是不理想的状态。我们到底在做什么？我们就是一群杂牌军。” （01:01:07）  \n于是，我们开始招聘有经验的人，但他们带来的是原公司的文化和工作方式。我们矫枉过正了，结果适得其反。在大多数情况下都失败了。因为我们不是要复制现有的大公司，而是要保持自己的特色。所以，我认为，在团队建设上，我们也容易矫枉过正，最后发现：“平衡才是关键。” （01:01:43）  \n在招聘方面，还有通才和专才的选择。招聘有经验的人，还是专才。结果发现，他们适应能力差。在Intercom，我们有很多不确定性，我们拥抱这种不确定性，高度专业化的人才在大公司能大放异彩，但在充满不确定性的初创文化中，他们可能水土不服，举步维艰。或许平衡点在于：“招一些有经验但专业度不算太高的人，让他们去摸索。” 所以，我们现在大量招聘这类人才。",
+   "ts": "00:59:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "First of all, I love all these stories of things that don't work out, because a lot of people don't like sharing these. And, this is what people want to hear, like, \"Here's not everything was perfect. Here's a lot of mistakes that are made along the way.\" And, it feels like this framework is a result of just doing this too many times. Is the main lesson here generally avoid swinging the pendulum too far? Because sometimes, it's worth it, like in this case of AI, is like, \"No, we're going all in.\" Or in mobile, it was worth going all in. I guess, yeah, what do you think of when I say that?",
+   "zh": "首先，我很喜欢听这些失败案例，因为很多人不愿意分享这些故事。人们想听的是：“并非一切都完美无缺。过程中也犯了很多错误。” 感觉这个框架是经历太多次失败后总结出来的。主要教训是不是要避免把钟摆摆得太远？因为有时候，值得一试，比如AI领域，“不，我们全力投入。” 或者移动领域也值得全力投入。我想知道，你怎么看待这个观点？",
+   "ts": "01:02:34"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "In talking to people about this before, sometimes the conclusion of the conversation is something like, it's the only way to do it. You actually can't do it a different way.\" And so, maybe the question is really, how high does the pendulum go? Versus, you got to swing it, and then it's like, how far do you swing it? And for sure, you're right. With AI, we are swinging it pretty high. Maybe I overestimated earlier, if AI is in the differentiation camp to mix the frameworks, we're still building a lot of table stakes features too, building depth into the product. And that's 50/50, I think I mentioned 50/50 earlier, so that's 50/50. So, we're not totally swinging it. It's swung, but we're also doing the other thing and balancing things out. So, I think you probably have to swing it. It reminds me to know where the boundary is, is what I was going to say. (01:04:01): It reminds me back to the olden days stories. I remember, at Google, privacy was really top of mind, to the point that it would block decisions, block product progress, just privacy circular conversations, so many circular conversations, and nothing ever got built or shipped. I worked on a project for a year at Google and we shipped nothing in the year, just circular conversations, which killed me at the time. So, when I went to Facebook, I realized they have a different approach to privacy. And again, I'm not advocating it's necessarily good, it certainly didn't help their brand. But, there was an idea that to know where the boundary is, you got to across it. And crossing it is painful. But, if you don't cross it, you'll never know. So if you think you're going up to the boundary and you stop before it, turns out it's actually miles over there. (01:04:54): So I think with a lot of this stuff, you don't really have a choice. You got to cross the boundary, feel the pain, be humble enough to realize you didn't get it right, and go again or whatever the corrective course is.",
+   "zh": "之前和人们谈论这个话题时，对话的结论往往是：“这是唯一的解决办法。你根本无法用其他方式去做。” 所以，也许问题在于，钟摆能荡多高？相反，你必须先把它摆动起来，然后再问：你能把它荡多远？当然，你说得对。在人工智能领域，我们确实把钟摆荡得很高了。如果说人工智能处于差异化阶段，整合各种框架，那我们仍在开发许多基础功能，为产品注入深度。这两者各占一半，我之前提到过是50/50的平衡。所以，我们并没有完全把钟摆荡到极限。它确实在摆动，但我们也在做其他事情，保持平衡。所以，我认为你可能必须把钟摆荡起来。这让我想起要知道界限在哪里，这就是我想说的。  \n（01:04:01）：这让我回想起过去的经历。我记得在谷歌时，隐私问题被视为头等大事，以至于阻碍了决策，拖慢了产品进展，人们只是在循环讨论隐私问题，最终什么也没建起来或上线。我在谷歌做了一个项目，一整年都没上线，就一直在循环讨论，这让我当时很抓狂。所以，当我去Facebook时，我意识到他们对隐私有不同的处理方式。我不是说他们的做法一定好，但这确实没能提升他们的品牌形象。但他们的理念是，要知道界限在哪，就必须跨越它。跨越界限很痛苦，但如果你不跨越，就永远无法知晓。所以如果你以为自己快到界限了，却在界限前停下，那结果可能离界限还有很远。  \n（01:04:54）：所以我觉得在很多事情上，你其实别无选择。你必须跨越界限，承受痛苦，谦逊地承认自己做得不对，然后重新开始，或采取其他纠正措施。",
+   "ts": "01:03:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, get that pendulum off the even pivot thing that it's on. And then, let's fix that pendulum. Let's put it back.",
+   "zh": "是啊，把钟摆从它所在的平衡点上移开。然后，让我们修理那个钟摆。把它放回去。",
+   "ts": "01:05:12"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:05:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Another framework that I read about briefly, and I love the general idea of it already, which is something that I think you call product market story fit.",
+   "zh": "好的。还有一个框架，我简单了解过，我已经很喜欢它的总体思路了，我觉得你称之为产品市场故事契合度。",
+   "ts": "01:05:20"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:05:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is that?",
+   "zh": "那是什么？",
+   "ts": "01:05:31"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "So yeah, with product market fit, pretty basic, well understood, very important. The way I describe product market fit is, you've got to build the right product for the right market. I think, by the way, as an aside, not enough people think about the market side of that equation. A lot of product people don't think about the market side. But for me, it's very simple. The market is the people, the problems they have, and how important the problems are to them. To have a good market, you need a lot of people with the same problem, and they need to care a lot about it. Going back to the Google social stuff, we found a lot of people with the same problem, but they didn't really care. They didn't really care. What they had was fine. So a lot of people with the same problem and a lot of energy around the problem and the product is the solution to that. The market's the who, the product's the what. (01:06:21): And, I don't know, in my career again, so a bunch of products that were built, there were good products in good markets, and they failed and I couldn't work it out. And eventually, I came back to this idea that... And maybe someone might say, \"Paul, it's marketing. You're talking about marketing.\" But story, the story's wrong or the story's missing. And so, sometimes, it would be a great product in a great market explained in a convoluted way. I see that a lot. I used to see that a lot at Google again, just explained in a very complicated way over intellectualized. And, as a result, people are like, \"What? What are you talking about?\" You don't get their attention. And so, the story is really important, as important. And actually, sometimes you'll see not great products, certainly worse on paper... I'm trying to remember the Spotify competitor back in the day, people were like... What was the name of it?",
+   "zh": "是的，关于产品市场契合度，这是一个相当基础且易于理解的重要概念。我对产品市场契合度的理解是，你必须为正确的市场打造正确的产品。顺便说一句，我发现很多人没有充分考虑市场层面的问题。很多产品经理都忽略了市场层面。但对我来说，这很简单。市场就是用户群体、他们面临的问题，以及这些问题对他们的重要性。要想拥有一个好的市场，就需要有大量面临相同问题的人，并且他们必须对这些问题高度重视。回到谷歌社交项目，我们发现有很多用户有相同的需求，但他们并不在意这个问题。他们觉得现有产品已经足够了。所以，相同需求的大量用户群体，再加上对产品的高度关注，这才是解决方案。市场就是用户群体，产品就是产品本身。（01:06:21） 还有，我不知道，在我的职业生涯中，很多产品都失败了，明明是好产品，市场也不错，但还是失败了。我至今也想不明白原因。最终，我回归到这个观点……也许有人会说：“保罗，这就是市场营销啊。你在讲营销啊。”但故事讲得不对，或者故事本身有缺失。有时候，一个优秀的产品在优秀的市场上，但解释得太复杂。比如，我在谷歌就经常遇到这种情况，人们会觉得：“什么？你在说什么？” 根本吸引不了注意力。所以，故事的讲述真的很重要，同样重要。有时你会看到一些不算出色的产品，纸面上的表现更差……我努力回想一下当年Spotify的竞争对手叫什么来着？",
+   "ts": "01:05:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Ordio?",
+   "zh": "Ordio？",
+   "ts": "01:07:19"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, Ordio. Ordio was one of these where-",
+   "zh": "对，Ordio。Ordio就是那种——",
+   "ts": "01:07:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I like Ordio a lot.",
+   "zh": "我很喜欢Ordio。",
+   "ts": "01:07:20"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "... Yeah, all I've ever heard about Ordio was, \"Amazing product.\"",
+   "zh": "……是啊，我听过的关于Ordio的评价都是“很棒的产品”。",
+   "ts": "01:07:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm.",
+   "zh": "嗯。",
+   "ts": "01:07:29"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "It's failed. And why did it fail? Spotify and Ordio had the same market. They were solving the same set of problems. Ordio was arguably the better product at the time. I don't know if that's true, but arguably the better. I also think Spotify's an incredible product. But, they got the story wrong. And so, again, I think, all product people, whether you're a designer, product manager, people in research, data science, need to think about the story all the time. Work of marketing, work of product marketing, and learn about how to explain the product, as much as how to build the product.",
+   "zh": "但它还是失败了。为什么失败了？Spotify和Ordio面对的是同一个市场，解决的是同一组问题。Ordio当时可以说是个更好的产品。我不知道这是不是真的，但至少可以说更出色。我也认为Spotify是个了不起的产品。但他们把故事讲砸了。所以，我认为所有产品从业者，无论是设计师、产品经理、研究人员还是数据科学家，都需要时刻思考这个故事。产品营销的工作，也是产品营销的工作，要学会如何解释产品，以及如何打造产品。",
+   "ts": "01:07:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm. Makes me think about positioning and how important that is. And, we had April Dunford on the podcast very recently talking a lot about that.",
+   "zh": "嗯。这让我想到定位，以及它有多重要。我们最近在播客上请了April Dunford，她对此讲了很多。",
+   "ts": "01:08:03"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. Yeah, she's excellent. Yeah, it is really, \"Why are you better and can you explain why you're better?\"",
+   "zh": "是的。是的，她很棒。没错，关键在于“你为什么更好，能否解释清楚为什么你更好？”",
+   "ts": "01:08:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's such an important point. A final area I wanted to touch on is jobs to be done. So we had the co-creator of Jobs to be Done on the podcast. We had Shyam Krishnan on the podcast. They very much disagree about how effective Jobs to be Done is. I know you guys are big on Jobs to be Done. So, what are your just general thoughts on the Jobs to be Done framework? How effective was it for you all? How do you use it? What do you find work? Doesn't work? Whatever comes up.",
+   "zh": "这一点太重要了。最后我想谈谈\"待办工作\"（Jobs to be Done）这个框架。我们在播客中邀请了\"待办工作\"框架的共同创始人夏姆·克里希南（Shyam Krishnan），但他们对\"待办工作\"框架的有效性存在很大分歧。我知道你们都非常推崇这个框架。那么，你们对\"待办工作\"框架的总体看法如何？它对你们有多有效？你们是如何应用它的？有哪些方面效果显著？哪些方面效果不佳？欢迎畅谈想法。",
+   "ts": "01:08:21"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. I'll be totally honest, at the risk of finding people do this, we worked with Bob West years ago. I think Bob's a great guy. And we followed that model of Jobs to be Done more than the ODI, I think, is the other skill of thought. Anyway. I'll try say this in a simple way. We found Jobs to be Done really good. Very, very useful. But, in a very simple way... Again, back to this idea of simple frameworks, in a simple way, separately, there's so many people who spend so much of their energy debating the nuances and peculiarities of one version. Who cares? No one cares. Oh well, I don't care. They care obviously. But your customers don't care. People you're trying to build a product for don't care,. No one cares. That's a cool intellectual debate. But, for me, maybe this is too extreme. It doesn't really have any place in the work we do. We're just trying to build a great product. (01:09:50): And so, for us with Jobs to be Done, it was a really good way of us centering on the customer problem, focusing on not getting distracted, basing it in good solid research informed insight, that told us the thing people are trying to do. What is the thing people are trying to do? Again, energy. Do they have a lot of energy around it? Maybe the energy thing might've come from talking to Bob actually, now that I think about it. I think it did actually. I think, the idea of this idea that you need people who have a lot of energy around the problem. And you have to interview them for that most of the time to feel the energy they have. It's very easy to see if someone's apathetic versus into it. (01:10:30): So, we've had it pretty good. And, we invented this job stories thing by accident. I can't remember exactly what happened. But, I wrote out this way of writing a job story basically. Well, we didn't call it job stories, someone else called it that. We just, at the time, were like... I can't even remember. It was a trigger. And, anyway, we didn't even give it the thing a name, someone else named it, I think. And, I'm just like, \"We're just trying to build a great product.\" So, we've had it really good in that way, really simple. And then, the other one that we use a lot still here is the four forces, which is this framework of Jobs to be Done. The four forces being... There's different forces when people try and switch product. And some of it's the differentiation, table stake stuff, like the attraction of the new solution, the reasons that you might not adopt it. Habits. People have anxieties. (01:11:26): Here's another funny story to tell you how much... The four forces is really good. Here's a funny story, I was saying earlier that Eoghan and Des were trying to convince me to leave Facebook, which I loved at the time, join and to come. They wrote out the four forces for me to join. And then, secretly, over a few beers, talked to me and fed me my anxieties. And basically worked me on the four forces. And I was like, \"That is genius. That is ingenious. Maybe it's a bit... But it's ingenious.\" And so, the four forces is incredibly good at helping understand why people make decisions.",
+   "zh": "是啊。我得坦白说，虽然可能会有人这么做，但我们多年前确实和鲍勃·韦斯特合作过。我觉得鲍勃是个很棒的人。当时我们更关注\"工作完成理论\"（Jobs to be Done），而非其他分析框架（ODI），我认为这才是另一种思维方式。总之，我尽量用简单的话来说。我们发现\"工作完成理论\"确实很棒，非常实用。但用最简单的话说……再说回简单框架的概念，以单纯、独立的方式来看，太多人把精力耗费在讨论某个版本的细微差别和特殊性上。但谁在乎呢？没人在乎。哦，我不在乎。他们显然在乎。但你的客户不在乎。为你打造产品的那些人不在乎。没人在乎。这是场不错的学术辩论。但对我而言，或许这太极端了。它在我们工作中没什么立足之地。我们只想打造一款出色的产品。（01:09:50）对我们来说，\"工作完成理论\"是以客户问题为核心、避免分心的好方法。它基于扎实的研究和洞察，告诉我们人们试图达成的目标。人们试图达成的目标是什么？再说回精力问题。他们对此是否充满热情？也许这种热情源自和鲍勃的交谈，现在回想起来确实如此。我认为确实如此。这种理念强调需要对问题充满热情的人，而这往往需要通过访谈来感受他们的热情。能轻易分辨出他们是冷漠还是充满热情。（01:10:30）我们用得很顺手。后来我们偶然发明了\"工作故事\"这个方法。我记不清具体过程了。但我写下了基本的写作框架。嗯，我们当时没叫它\"工作故事\"，是别人后来这么叫的。当时我们只是……我都记不清了。这只是个触发点。反正我们甚至没给它起名，应该是别人起的。而我只想说，\"我们只想打造一款出色的产品。\"所以在这方面我们用得很顺手。另一个我们至今仍常用的框架是四大力量模型，这是\"工作完成理论\"的延伸。四大力量模型适用于人们试图更换产品时的不同情境。有些是差异化因素，有些是核心诉求，比如新解决方案的吸引力，还有可能阻碍你采用它的原因。习惯。人们有各种担忧。（01:11:26）再讲个趣事。四大力量模型真是太棒了。我之前说过，埃奥汉和德斯试图说服我离开Facebook（当时我还很喜欢Facebook），加入他们。他们为我写下了四大力量模型，解释加入的理由。然后他们偷偷地，在喝了几杯啤酒后，和我聊天，剖析我的顾虑。基本上就是用四大力量模型说服我。我当时就想，\"这太天才了。这真是天才之作。或许有点……但确实天才。\" 所以四大力量模型在理解人们决策背后的原因方面真是太棒了。",
+   "ts": "01:08:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that a lot of your advice just continues to come back to, keep it simple, cut away anything that isn't necessary. And, I find the same exact thing with Jobs to be Done. I find it really useful as a framework for the podcast, the newsletter, but I think there's this endless set of processes and ways of optimizing that gets people distracted. And, often just slows everything down.",
+   "zh": "我很欣赏你提出的许多建议，总能归结为一句话：保持简单，剔除不必要的东西。同样，我在“待办事项完成理论”（Jobs to be Done）中也发现了这一点。这个框架对我的播客和时事通讯非常有用，但我发现人们总会陷入无穷无尽的优化流程和方法中，结果反而分心了。",
+   "ts": "01:12:07"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, yeah. And it's interesting and fun to talk about sometimes, really fascinating, unless you're an academic. But if you're working in a company that you're trying to build a software product for people to improve their lives in some small meaningful way, it doesn't matter. Just use the thing that helps you do that. That's the goal. And use the thing that helps you do that. And that's it.",
+   "zh": "是啊，是啊。有时候谈论这些话题挺有趣的，也很引人入胜，除非你是个学者。但如果你在一家公司工作，致力于为人们开发能切实改善生活的软件产品，关键就只有一个目标：用最有效的工具达成目标。就用能帮你实现目标的工具，仅此而已。",
+   "ts": "01:12:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "With that, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "好的，现在我们要进入激动人心的闪电问答环节。你们准备好了吗？",
+   "ts": "01:12:55"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "I'm ready, yeah.",
+   "zh": "我准备好了，是的。",
+   "ts": "01:12:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "你向别人推荐得最多的两三本书是什么？",
+   "ts": "01:13:00"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, the two books I recommend to everyone always, I have copies in my office here, It's Not How Good You Are, It's How Good You Want to Be. It's a book by Paul Arden who worked in advertising a long time ago. It's an excellent book. It shows people that you feel an unlimited potential if you think about it the right way, everyone does. The second book I recommend to everyone and buy for people and give to them is Principles by Ray Dalio. I'm a big fan of Ray Dalio. I think he's incredible. I'm a big believer in principles. A lot of us at Intercom are... I always get those two books. And they're totally different. The Paul Arden book, you can read it in 20 minutes. Principles is that thick.",
+   "zh": "是啊，我总是向所有人推荐的两本书，我办公室里就放着副本。《不靠天赋，靠决心》（It's Not How Good You Are, It's How Good You Want to Be）。这本书的作者保罗·阿登（Paul Arden）曾在广告行业工作多年，是一本很棒的书。它向人们展示，只要用正确的方式思考，就能挖掘出无限的潜能，每个人都是如此。第二本我向所有人推荐的书，也是我会为别人购买并赠送的书，是雷·达利奥（Ray Dalio）的《原则》（Principles）。我是雷·达利奥的忠实粉丝，觉得他非常了不起。我深信原则的重要性。我们公司很多人都深信这一点……我总是会推荐这两本书。它们截然不同。保罗·阿登的书你20分钟就能读完，而《原则》却厚得多。",
+   "ts": "01:13:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite recent movie or TV show that you really enjoyed?",
+   "zh": "最近你最喜欢的电影或电视剧是什么？",
+   "ts": "01:13:38"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Most recent is The Bear, which I came to late. The reason I love the show is because I think it somewhat celebrates the grind. And I think that's important. I worked in coffee shops a lot when I was younger, when I put myself through college and stuff. And, the grind is part of life, and the grind is a necessity to get things done, and make great things happen sometimes. And I like that about it. I really like that about it.",
+   "zh": "最近看的《熊镇》（The Bear）让我相见恨晚。我喜欢这部剧的原因是，它在某种程度上赞颂了奋斗精神。我觉得这很重要。我年轻时在咖啡店工作过，用这份收入支付大学学费。奋斗是生活的一部分，也是完成任务、创造伟大事业的必要条件。我很欣赏这一点。",
+   "ts": "01:13:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite interview question you'd like to ask candidates?",
+   "zh": "你最想问求职者的面试问题是什么？",
+   "ts": "01:14:09"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, I'll give you a slightly different answer. I don't really have certain few questions for candidates. And I don't like answer question diversity. I don't like questions that rely on memory. Like, \"Tell me about the last time you did X.\" Here's an amazing question I got given recently by Alyssa who used to work here. I had to do referral calls. So, you're interviewing someone, you want to give them the job and they've got referees, and of course, the referees they have are the best people that they've ever worked with and their favorite managers. So this question is, \"What feedback will I be giving this person in their first performance review?\" It's an amazing question, because the person can't dodge it. There's an answer. And, it's incredibly enlightening.",
+   "zh": "嗯，我会给出一个稍微不同的答案。我没有固定的几个问题要问求职者。我也不喜欢多样化的面试问题，不喜欢那些考验记忆力的题目，比如“说说你上次做X的事”。最近Alyssa给我提了一个很棒的问题。她以前在我们公司工作。你要面试某个人，想录用他们，他们有推荐人，而推荐人往往是他们共事过的最优秀的同事和最喜欢的经理。所以这个问题是：“在他们的第一次绩效评估中，我会给出怎样的反馈？” 这个问题很棒，因为求职者无法回避。答案很明确，而且非常有启发性。",
+   "ts": "01:14:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And that's a question you ask on reference calls?",
+   "zh": "这就是你在推荐电话中会问的问题吗？",
+   "ts": "01:14:55"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, on reference calls.",
+   "zh": "是啊，关于背景调查电话。",
+   "ts": "01:14:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is such a good question. I love it.",
+   "zh": "这真是个好问题。我太喜欢了。",
+   "ts": "01:14:58"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, it's a amazing question. Yeah.",
+   "zh": "是啊，这个问题太棒了。没错。",
+   "ts": "01:15:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right, what a gem. Thank you for sharing that. What is a favorite product you've recently discovered that you really love?",
+   "zh": "好吧，你真是个宝藏。谢谢你分享这个。你最近发现的自己特别喜欢的产品是什么？",
+   "ts": "01:15:02"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "This is maybe cheating, but I go back to a lot of the AI products. I think ChatGPT Vision is mind-blowing. I've been playing with Rewind lately. I was a bit late to it. Des, and Kiran, and a bunch of people here, founders of Intercom, love Rewind, use it and love it. Thing's amazing. So I'm a bit late to that. But, it's just augmented memory. It's mind-blowing. So, Rewind's been fun.",
+   "zh": "这可能有点不算新奇，但我最近一直在用很多AI产品。我觉得ChatGPT Vision简直令人惊叹。我最近一直在玩Rewind，不过我入手得有点晚。Des、Kiran还有这里很多人，比如Intercom的创始人，都超爱Rewind，用了之后赞不绝口。这东西太棒了。虽然我入手得晚，但它就是增强记忆功能，简直太神了。所以用Rewind真的很有趣。",
+   "ts": "01:15:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And they just came out with a little audio thing that can record your actual day.",
+   "zh": "他们刚推出了一个能记录你真实日常的音频功能。",
+   "ts": "01:15:32"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, I'm not so sure about that.",
+   "zh": "是啊，我对这个不太确定。",
+   "ts": "01:15:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, got some flack.",
+   "zh": "是啊，还被不少人吐槽过。",
+   "ts": "01:15:39"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:15:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm not so sure. I don't know. I don't know if it's real. It looked like not a real product when they launched in, but I think it's real.",
+   "zh": "我不太确定。我不知道。我不确定这是不是真的。他们刚推出的时候看起来不像真品，但我觉得应该是真的。",
+   "ts": "01:15:43"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "And it tippy-toes into what's okay and not okay with AI. And, yeah. Yeah, it's a cool theory though, for sure.",
+   "zh": "这也涉及到人工智能中哪些行为是可以接受的，哪些不可以。嗯。嗯，不过这确实是个很酷的理论。",
+   "ts": "01:15:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite life motto that you often come back to share with people, find helpful for yourself?",
+   "zh": "你有没有一个最喜欢的座右铭，经常拿来和别人分享，对自己也很有帮助？",
+   "ts": "01:15:57"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, I have a post-it on my monitor that says, \"Only work on what matters most.\" It's on my monitor, a post-it. And it sometimes falls off, and I have to write it again. Only work on what matters most. And, it's amazing. I go into work, someone emails me, and I'm like, \"Oh, God.\" I'm like, \"Only work on what matters most.\" The second one related is, stop worrying about things you can't control. And so, I have two of those. And so, only working what matters most. Stop worrying about things you can't control. It just reduces the temperature. Again, life lessons learned. I sent a lot of dumb emails in my past, like, \"Red Energy, oh my God, what are they thinking?\" You wake up in Dublin to a San Francisco email. And you're like, \"Oh god. Keyboard.\" And, if your monitor says these two things, you just don't do that. You just take a breath, get a coffee, come back. Does it really matter?",
+   "zh": "是的，我在显示器上贴了一张便利贴，上面写着：“只专注于最重要的事。”它贴在我的显示器上，便利贴有时候会掉下来，我就得重新写上去。只专注于最重要的事。还有一个相关的建议，就是别担心你无法控制的事情。所以我有两个这样的座右铭。一个是只专注于最重要的事。另一个是别担心你无法控制的事情。这真的能让人冷静下来。再次说，这些都是人生经验。我过去发过很多愚蠢的邮件，比如，“红能量，天哪，他们在想什么？”你早上在都柏林醒来，收到旧金山发来的邮件。你会想，“天哪，键盘。”如果你显示器上写着这两句话，你就不会那么做了。你只需要深呼吸，喝杯咖啡，回头再看。这真的重要吗？",
+   "ts": "01:16:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Beautiful. The second one, I think, I learned first from Seven Habits of Highly Effective People. Have you read that?",
+   "zh": "太好了。第二个，我最初是从《高效能人士的七个习惯》中学到的。你读过那本书吗？",
+   "ts": "01:17:02"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Oh, yeah.",
+   "zh": "哦，是的。",
+   "ts": "01:17:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just think about the focus, the circle of things you can control, and then there's the circle of things you can influence, and then there's the things you have no control over. And, I find that really helpful myself. I love that you have it as a post-its. I feel like, I need to make post-its of all these lessons people share as their little mottos.",
+   "zh": "只要想想焦点，能控制的事情的范围，然后是能影响的事情的范围，再然后是无法控制的事情的范围。我自己觉得这很有帮助。我喜欢你把它写在便利贴上。我觉得，我需要把人们分享的这些小座右铭都做成便利贴。",
+   "ts": "01:17:10"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, the post-it on the monitor is a real life hack, I found a few years ago. Because it's dumb in a way. The posts on the monitor, it's in the way.",
+   "zh": "是的，显示器上的便利贴是我几年前发现的一个实用方法。因为它在某种程度上很蠢。显示器上的帖子总是挡着路。",
+   "ts": "01:17:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wait, you actually put it on the monitor in the way of your screen?",
+   "zh": "等等，你真的把它贴在显示器上，挡住了屏幕？",
+   "ts": "01:17:34"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, yeah.",
+   "zh": "是啊，是啊。",
+   "ts": "01:17:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哦，哇。",
+   "ts": "01:17:34"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "It's in the bottom left, just covering the bottom. Because otherwise, if it wasn't there, I wouldn't look at. I make myself look at it.",
+   "zh": "它在左下角，正好挡住了底部。要不然，如果它不在那儿，我根本不会去看。我故意逼自己去看它。",
+   "ts": "01:17:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Wow. I haven't heard of people putting it over precious real estate on their monitor.",
+   "zh": "是啊哇。我还从没听说过有人把它贴在显示器的黄金位置上。",
+   "ts": "01:17:47"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:17:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That works. What's the most valuable lesson your mom or your dad taught you?",
+   "zh": "这样挺管用的。你父母教给你的最宝贵的人生经验是什么？",
+   "ts": "01:17:53"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "The biggest one, again, so reductive and simple is to be nice to people. I think, being nice goes way further than people really realize. One thing that I've learned, again, the hard way through life is you have no idea what's going on in people's lives. You've no idea. People could have all sorts of really stressful, all sorts of personal stuff going on, and the reason they did the thing at work that you didn't like is because of that. And so, I try and think, \"Be nice. You don't know what's going on. You might learn later. Don't act in a way you would regret.\" I think, being nice in life goes far further than most people give a credit for, because it's too much of a, I don't know, fluffy truism or whatever.",
+   "zh": "最重要的一条，也是最简单易懂的一条，就是对人友善。我觉得，友善的力量远超人们想象。我从生活中得到的深刻教训是，你永远不知道别人在经历什么。你真的不知道。别人可能正承受着各种压力、各种个人困境，而他们在工作中做出让你不满的行为，可能就是因为这些因素。所以，我会提醒自己：“保持友善。你永远不知道别人在经历什么。说不定日后你会明白的。别做出让自己后悔的事。” 我认为，在生活中，友善的力量远比大多数人想象的要强大得多，只不过这听起来太像是空洞的陈词滥调了。",
+   "ts": "01:17:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I 1000% resonate with that. I've been told I'm too nice and I had to become a little less nice. But, I still can't lose that. So I fully buy into that. My parents taught me a similar lesson.",
+   "zh": "我完全赞同这一点。我曾被说太善良了，不得不变得不那么友善。但我还是无法失去这种品质。所以我完全认同这一点。我的父母也教会了我类似的道理。",
+   "ts": "01:18:54"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah. And sometimes it's hard. I'd never fired anyone before I joined Intercom, for example. I really did not like doing it. And, since then, I've done it quite a few times in a bunch of different circumstances, and realized it always works out for both sides. And the nicest thing to do is to do the harder thing. It's actually the nicer thing to do. People are relieved in this example. It's a nicer thing to do. So, it can be a complicated one.",
+   "zh": "是啊。有时候这很难。加入Intercom之前，我从未解雇过任何人。当时我真的不喜欢这么做。但从那以后，我在各种情况下多次这样做过，结果发现这对双方都有好处。做更难的事才是最善良的选择。实际上，这才是最善良的做法。在这个例子中，人们会松一口气。这才是善良的做法。所以这确实是个复杂的问题。",
+   "ts": "01:19:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love it. Final question. You're Irish, you're based in Ireland. What is an Irish food you think people should definitely try out if they ever visit Ireland?",
+   "zh": "我喜欢这个问题。最后一个问题。你来自爱尔兰，现在在爱尔兰工作。如果有人去爱尔兰旅游，你认为他们一定要尝试的爱尔兰美食是什么？",
+   "ts": "01:19:37"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Can I cheat and say Guinness? Is that food?",
+   "zh": "我能偷个懒说健力士啤酒吗？那算食物吗？",
+   "ts": "01:19:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Absolutely.",
+   "zh": "当然。",
+   "ts": "01:19:54"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "The Guinness in Ireland. People talk about this and it's true. The Guinness in Ireland is much, much better for a whole bunch of reasons. It's basically a fresh product and it's brewed here. It's the way they think about, it's like milk. Milk goes off, Guinness goes off. Guinness is older than a few days old, tends to start deteriorating. So, Guinness Ireland is amazing, because it's made here. The other thing I think that Ireland does really well is fish. Ireland has not had, by the way, the greatest reputation for culinary excellence over the years. I think Irish food in the States in particular is not good. But, the fish here is incredible. You can get incredible fish. And Ireland's obviously an island, so there's a lot of fish.",
+   "zh": "爱尔兰的健力士啤酒。人们都说这话，是真的。爱尔兰的健力士啤酒要好得多，这有诸多原因。它基本上是新鲜产品，在本地酿造。这里的人把它视如珍宝，就像牛奶一样。牛奶会变质，健力士啤酒也会过期。爱尔兰的健力士啤酒更胜一筹，因为是在本地生产的。另外，我认为爱尔兰在鱼类方面做得很棒。顺便说一句，爱尔兰多年来在烹饪方面的声誉并非最佳。我觉得美国的爱尔兰菜尤其不怎么样。但这里的鱼真是令人惊叹。你能买到超棒的鱼。爱尔兰毕竟是个岛国，所以鱼类资源丰富。",
+   "ts": "01:19:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On the Guinness front, is there any way to get the good stuff not in Ireland? Or is that just you got to go?",
+   "zh": "关于健力士啤酒，有没有办法在爱尔兰以外买到优质产品？还是说非得亲自去爱尔兰？",
+   "ts": "01:20:37"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "No, there is actually. You just need to be near a brewery. So Guinness is brewed in Nigeria. There's a huge Guinness market in Nigeria.",
+   "zh": "不，实际上有办法。你只需要靠近啤酒厂就行。健力士啤酒在尼日利亚也有生产，尼日利亚的健力士市场规模巨大。",
+   "ts": "01:20:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I did not know that.",
+   "zh": "我之前都不知道这回事。",
+   "ts": "01:20:43"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "I think they actually use a different recipe, but it's brewed there. I think the brewery in the U.S. is somewhere in the east coast between New York and Eastern Canada. So, it's somewhere there. So, often, the Guinness in New York can be actually pretty good. The Guinness in San Francisco tends to be really bad. I remember talking to someone about this that works in Guinness. One of my friends, does a lot of work in Guinness. I think the boat carried the Guinness goes down through the Panama Canal back up to San Francisco. So, it's 12-weeks-old or something.",
+   "zh": "我觉得他们用的配方其实不同，但啤酒是在当地酿造的。美国的啤酒厂应该在东海岸，纽约和加拿大东部之间。所以就在那片区域。通常纽约的健力士啤酒还是挺不错的，但旧金山的就比较难喝了。我记得和健力士的一位员工聊过这个。我有个朋友在健力士工作很久了。据说健力士的啤酒是通过船运的，先经巴拿马运河，再运回旧金山。可能有12周的运输时间吧。",
+   "ts": "01:20:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Did not think we would be learning about the travel path of Guinness from-",
+   "zh": "哇哦。真没想到我们会从——",
+   "ts": "01:21:25"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "At least this is what I've heard. The Guinness has so many myths, you just don't really know what's true. But, these are the stories I've been told.",
+   "zh": "至少这是我听说的。健力士有很多传说故事，真假难辨。不过这些都是别人告诉我的。",
+   "ts": "01:21:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... Amazing. Paul, you are awesome. Thank you so much for being here. Two final questions. Where can folks find you online if they want to reach out? And how can listeners be useful to you?",
+   "zh": "……太神奇了。保罗，你太棒了。非常感谢你能来参加节目。最后两个问题。大家如果想联系你，可以在哪里找到你呢？听众能如何帮到你呢？",
+   "ts": "01:21:38"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "I have a handle, it's everywhere. Basically, P-A-D-D-A-Y. It's Paddy with an extra A. So, P-A-D-D-A-Y. That's everywhere. So, paddy@gmail, @Paddy. It's my handle everywhere. So, that's where you can find me. I'd love people to reach out to me, right, genuinely learn. I'd love to hear from people who think my AI talk is nonsense and it's more a crypto Web3. Or, I'd love to hear people who have alternative opinions and challenge mine. That's how I like to learn and get better. So, if people have those opinions, I'd love to hear them. I'd love to talk to them.",
+   "zh": "我的账号到处都有。基本上是P-A-D-D-A-Y。Paddy多加个A。所以P-A-D-D-A-Y，到处都是。邮箱paddy@gmail，@Paddy。这些都是我的常用账号。大家可以通过这些联系到我。我希望能和大家交流，真心学习。我很乐意听到有人觉得我的AI讲座是胡说八道，觉得它更像加密货币Web3的。或者有不同观点挑战我的。这就是我学习和进步的方式。所以如果大家有不同意见，欢迎和我讨论。",
+   "ts": "01:21:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Be careful what you wish for. The YouTube comments are always a spicy place. We'll see what we see. Awesome, Paul. Thank you again so much for being here.",
+   "zh": "小心许愿。YouTube评论区总是很热闹。看看会怎样吧。太棒了，保罗。再次感谢你能来参加节目。",
+   "ts": "01:22:25"
+  },
+  {
+   "speaker": "Paul Adams",
+   "en": "Yeah, thanks Lenny. I really appreciate it.",
+   "zh": "是啊，谢谢你，莱尼。我真的很感激。",
+   "ts": "01:22:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "再见，各位。非常感谢你们的收听。如果觉得内容有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅节目。也欢迎给我们评分或留下评论，这对其他听众找到节目很有帮助。更多往期节目和节目信息，请访问lennyspodcast.com。下期节目再见。",
+   "ts": "01:22:35"
+  }
+ ]
+}

@@ -1,0 +1,917 @@
+{
+ "id": "Matt Mullenweg",
+ "name": "Matt Mullenweg",
+ "category": "企业管理",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Matt+Mullenweg",
+ "bio": {
+  "en": "Matt Mullenweg is the co-creator of WordPress, which powers about 40% of the internet, and the CEO of Automattic, the company behind WordPress.com, Tumblr, and WooCommerce.",
+  "zh": "马特·穆伦韦格（Matt Mullenweg）是 WordPress 的联合创始人，该产品支撑了约 40% 的互联网，他也是 Automattic 的 CEO，该公司旗下有 WordPress.com、Tumblr 和 WooCommerce。"
+ },
+ "summary": {
+  "en": "Matt defends open-source ideals in his public battle with WP Engine, arguing the company diluted the WordPress brand through a \"bastardized\" managed version. He reflects on how 20+ years of goodwill were tested and why protecting the commons matters. The episode offers a candid look at the politics and principles of the open-source world.",
+  "zh": "马特在他与 WP Engine 的公开较量中捍卫开源理念，认为后者通过\"被篡改\"的托管版本稀释了 WordPress 品牌。他反思了二十多年的口碑如何受到考验，以及保护\"公共品\"为何重要。本期坦诚呈现了开源世界的政治与原则。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "If you're really open and open source, sometimes you have to stand up the bullies and you have to fight to protect your open source ideals.",
+   "zh": "若你真心秉持开放与开源理念，有时就必须挺身而出，对抗霸凌者，捍卫开源理想。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Speaker 1",
+   "en": "Please put your hands together for Matt Mullenweg.",
+   "zh": "请为马特·马伦韦格鼓掌。",
+   "ts": "00:00:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Matt Mullenweg has been making some questionable moves recently. There's a lot going on with Matt and WordPress these days. 20+ years of good sentiment burned in days. You are like a 100% beloved hero of open source and internet and now you're in this, a lot of people don't like you.",
+   "zh": "马特·马伦韦格近期做出了一些令人质疑的举动。马特和WordPress如今深陷诸多争议。二十多年来积蓄的善意在短短数日间被消磨殆尽。你曾是开源与互联网领域备受尊崇的英雄，如今却深陷舆论漩涡，遭许多人非议。",
+   "ts": "00:00:08"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "If you were kind of inside baseball with WordPress, it's actually a lot of people who have been unhappy with me over the years. Previously, 1% of the world thought I was terrible and now I feel like it's up to four or 5%.",
+   "zh": "若你对WordPress内部情况有所了解，实际上多年来对我的不满者早已众多。过去，1%的人认为我糟糕透顶，如今这种比例可能已攀升至四成或五成。",
+   "ts": "00:00:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "People that don't know what the hell's going on, what's just like the high level overview of what's going on?",
+   "zh": "对于那些不明就里的人，能否简要概括一下当前局势？",
+   "ts": "00:00:35"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "There's a company called WP Engine. By 2018, they got bought out by a private equity firm called Silver Lake. Since 2019, WP Engine has kind of changed a bit. They started using the trademark, they're offering something called WordPress. They're referred to it as like a bastardized hacked up version of it. It's diluting our brand.",
+   "zh": "有一家名为WP Engine的公司。2018年，其被私募股权公司银湖集团收购。自2019年起，WP Engine逐渐发生转变。他们开始使用WordPress商标，推出了所谓的\"盗版拼凑版\"WordPress产品，严重损害了我们的品牌形象。",
+   "ts": "00:00:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Why do you think so many people are looking at you as the bad guy?",
+   "zh": "你认为为何这么多人将你视为反派？",
+   "ts": "00:00:56"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "A lie gets around the world seven times before the truth has time to get out of bed.",
+   "zh": "谎言总比真相传播得更快。",
+   "ts": "00:00:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today my guest is Matt Mullenweg. Matt is the co-creator of WordPress, which powers 40% of websites on the internet today, including whitehouse.gov. He's also the CEO of Automatic, which is valued at over $7 billion and owns products like WordPress.com, Tumblr, WooCommerce, Gravatar, and Pocket Casts. There is a lot of drama these days around Matt and WordPress and within the open source community, so I thought I'd have Matt on to address many of the criticisms head-on that he hasn't addressed in other places and also just get the full story on what's going on. We also chat about what incepted him to spend over half his life at this point on open source and creating WordPress. Also, why products like Llama are what he calls 'fake open source' and his perspective on AI and open source. Also, how AI is actually trained on open source code and what that means for the future and his approach for deciding what companies to acquire within Automatic. (00:02:03): If you enjoy this episode, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. Also, if you become an annual subscriber of my newsletter, you now get a year free of Notion and Superhuman and Perplexity Pro and Linear and Granola. Check it out at lenny'snewsletter.com. With that, I bring you Matt Mullenweg. (00:02:24): This episode is brought to you by WorkOS. If you're building a SaaS app, at some point your customers will start asking for enterprise features like SAML authentication and skim provisioning. That's where WorkOS comes in, making it fast and painless to add enterprise features to your app. Their APIs are easy to understand so that you can ship quickly and get back to building other features. Today, hundreds of companies are already powered by WorkOS, including ones you probably know like Vercel, Webflow and Loom. WorkOS also recently acquired Warrant, the fine grain authorization service. Warrant's product is based on a groundbreaking authorization system called Zanzibar, which was originally designed for Google to power Google Docs and YouTube. This enables fast authorization checks at enormous scale while maintaining a flexible model that can be adapted to even the most complex use cases. If you're currently looking to build role-based access control or other enterprise features like single sign-on, skim or user management, you should consider WorkOS. It's a drop-in replacement for auth zero and supports up to 1 million monthly active users for free. Check it out at workos.com to learn more, that's workos.com. (00:03:42): This episode is brought to you by Vanta and I am very excited to have Christina Cacioppo, CEO and co-founder Vanta joining me for this very short conversation.",
+   "zh": "今日的嘉宾是马特·穆伦维格（Matt Mullenweg）。马特是WordPress的联合创始人，如今WordPress为全球40%的网站提供支持，包括白宫官网。他同时也是Automatic公司的首席执行官，Automatic估值超过70亿美元，旗下拥有WordPress.com、Tumblr、WooCommerce、Gravatar和Pocket Casts等产品。近期，马特与WordPress以及开源社区内引发诸多争议，因此我邀请他来直面诸多批评，并全面解析当前局势。我们还将探讨促使他将半生投入开源事业与WordPress开发的初心，以及他对Llama等\"伪开源\"产品的看法，还有他对人工智能与开源的见解。此外，他还将分享如何通过AI训练开源代码的见解，以及这对未来意味着什么，以及Automatic旗下收购公司的策略。（00:02:03）：如果您喜欢本期节目，请别忘了在您喜爱的播客应用或YouTube上订阅和关注。同时，如果您成为我的新闻通讯年度订阅用户，您现在可免费获得Notion、Superhuman、Perplexity Pro、Linear和Granola的一年会员资格。请访问lenny'snewsletter.com了解详情。接下来，我为您介绍马特·穆伦维格。（00:02:24）：本期节目由WorkOS赞助。如果您正在开发SaaS应用，您的客户迟早会开始要求企业级功能，如SAML认证和轻量化配置。这正是WorkOS的用武之地，它能让您快速、轻松地为应用添加企业级功能。其API易于理解，助您快速上线并专注于其他功能开发。目前已有数百家公司采用WorkOS，包括Vercel、Webflow和Loom等知名企业。WorkOS近期还收购了Warrant，这家细粒度授权服务公司。Warrant的产品基于开创性的Zanzibar授权系统，该系统最初为Google开发，用于支持Google Docs和YouTube。它能在海量规模下快速进行授权检查，同时保持灵活的模型，适应最复杂的用例。如果您目前需要构建基于角色的访问控制或其他企业级功能，如单点登录、轻量化配置或用户管理，WorkOS值得考虑。它支持免费的月活用户量达100万，欢迎访问workos.com了解更多信息。（00:03:42）：本期节目由Vanta赞助，我很高兴邀请到Vanta的首席执行官兼联合创始人克里斯蒂娜·卡西奥波（Christina Cacioppo）与我进行简短对话。",
+   "ts": "00:01:07"
+  },
+  {
+   "speaker": "Christina Cacioppo",
+   "en": "Great to be here, big fan of the podcast and the newsletter.",
+   "zh": "很高兴来到这里，我是这个播客和新闻通讯的忠实粉丝。",
+   "ts": "00:03:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Vanta is a longtime sponsor of the show, but for some of our newer listeners, what does Vanta do and who is it for?",
+   "zh": "Vanta是节目的长期赞助商，但对于我们新听众来说，Vanta是做什么的，又适合哪些人群呢？",
+   "ts": "00:03:54"
+  },
+  {
+   "speaker": "Christina Cacioppo",
+   "en": "Sure. So we started Vanta in 2018 focused on founders helping them start to build out their security programs and get credit for all of that hard security work with compliance certifications like SOC 2 or ISO 27001. Today we currently help over 9,000 companies including some startup household names like Atlassian, Ramp and LangChain start and scale their security programs and ultimately build trust by automating compliance, centralizing GRC, and accelerating security reviews.",
+   "zh": "当然。Vanta于2018年创立，专注于帮助创始人构建安全项目，并通过SOC 2或ISO 27001等合规认证，让他们为这些安全工作赢得认可。如今，我们已为9000多家公司提供支持，包括Atlassian、Ramp和LangChain等知名初创公司，帮助他们启动和扩展安全项目，最终通过自动化合规、集中化GRC和加速安全审查来建立信任。",
+   "ts": "00:04:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is awesome. I know from experience that these things take a lot of time and a lot of resources and nobody wants to spend time doing this.",
+   "zh": "太棒了。根据我的经验，这些事情耗时费力，而且没人愿意花时间去做这些事。",
+   "ts": "00:04:31"
+  },
+  {
+   "speaker": "Christina Cacioppo",
+   "en": "That is very much our experience before the company and to some extent during it. But the idea is with automation, with AI, with software, we are helping customers build trust with prospects and customers in an efficient way. And our joke, we started this compliance company so you don't have to.",
+   "zh": "这正是我们在创立公司前以及在一定程度上经营公司期间的真实经历。但通过自动化、人工智能和软件技术，我们正在帮助客户高效地与潜在客户和现有客户建立信任关系。我们的玩笑是，我们创立这家合规公司，就是为了让客户无需亲自操心这些事。",
+   "ts": "00:04:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We appreciate you for doing that and you have a special discount for listeners, they can get $1000 off Vanta at vanta.com/lenny, that's V-A-N-T-A .com/lenny for $1,000 off Vanta. Thanks for that, Christina.",
+   "zh": "感谢您为此付出的努力。听众们可以通过vanta.com/lenny（V-A-N-T-A）享受1000美元的Vanta优惠。非常感谢，克里斯蒂娜。",
+   "ts": "00:04:55"
+  },
+  {
+   "speaker": "Christina Cacioppo",
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "ts": "00:05:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Matt, thank you so much for being here. Welcome to the podcast.",
+   "zh": "马特，非常感谢你能来参加节目。",
+   "ts": "00:05:14"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Thanks, big fan and long time listener, so happy to be on.",
+   "zh": "谢谢，我是你的忠实粉丝，也是长期听众，很高兴能参与这次对话。",
+   "ts": "00:05:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm a long time fan. I've been wanting to get you on this podcast for so long and this is such an interesting time to be chatting with you, there's a lot going on with Matt and WordPress these days, so it's really interesting, almost good that we waited a little bit to talk so we're going to get into a lot of that stuff. But I want to start with just what is it that you do, Matt? What are all the things you're involved in? Give people a sense of just the things you're working on.",
+   "zh": "我也是你的忠实粉丝。很久以来我就想邀请你上节目了，现在和你聊天，正值马特和WordPress领域发生诸多变革的关键时期，真是太有意思了。等了这么久才谈天，真是值了。接下来，我想先了解一下你的工作内容，马特？你参与的项目都有哪些？让听众对你的工作有个直观的了解。",
+   "ts": "00:05:21"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "So first, when I was 19, I co-founded an open source project called WordPress with Mike Little and we started just blogging software, then became sort of a full site thing and then became a platform that really tons of stuff is built on and now it's kind of transitioning into this cool WASM can be embedded anywhere or run locally or make mobile apps. It's really interesting seeing WordPress used as an engine for powering things I would say don't even look like a website, which is kind of wild to me, but that's kind of the beauty of the open source people do things with that you don't expect. End up dropping out of college, moving to San Francisco and then worked at CNET for a year as project manager actually, that's how they hired me.",
+   "zh": "首先，19岁时，我和迈克·利特尔共同创立了一个名为WordPress的开源项目。最初只是博客软件，后来逐渐发展为全功能网站平台，如今已成为支撑众多应用的基础架构。目前WordPress正向WASM方向转型，WASM技术可以嵌入任何平台、本地运行或开发移动应用。看到WordPress被用于驱动一些看似与网站无关的应用场景，真是令人惊叹。这也充分体现了开源社区的魅力——人们总能创造出超出预期的成果。后来我退学前往旧金山，在CNET担任了一年项目经理，顺便说一句，他们就是通过这个经历录用了我。",
+   "ts": "00:05:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to talk about that, but go on.",
+   "zh": "我还想接着聊聊这个话题，不过先听你继续。",
+   "ts": "00:06:27"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "And then had this vision where instead of downloading the software and setting up a database and everything, we made a SaaS version of WordPress. I pitched it at CNET, they didn't want to do it, so I was like, \"Okay, I got to do this,\" so I left and started a company called Automatic. And the idea was to essentially compliment the core WordPress software with some commercial services, things that run in the cloud, like Akismet which is our machine learning AI, I guess you'd call it AI now, but anti-spam system, or Jetpack, which is iCloud for WordPress. It does the backups and the real time sync and everything like that. (00:07:04): So that was 19 years ago, so that's now grown to be over 1700 people in actually 90 countries so we've actually been fully distributed and remote and asynchronous from the start, which I think is one of our superpowers. I actually wasn't the CEO in the beginning, but in 2014, so I guess 11 years ago, I became CEO. The original CEO was... Well, I guess I wasn't the very beginning, but then I hired Tony Schneider from BCL, probably four or five months in. (00:07:35): And yeah, so that is a very full-time thing and Automatic does a lot of products, WooCommerce, which is open source Shopify, which is now half our revenue. And then we have some really cool apps so like Beeper, DayOne, Simplenote, Rocket Casts or trying to fill up your home screens with open web, open source things that are very privacy and user-centric. So running that company is definitely a full-time job. I still run WordPress.org and the WordPress project, so I'm the lead developer there and so sort of manage all those releases in the community and the directories and all the sort of things we do on WordPress.org and this cool thing called Openverse we took over Creative Commons, which is a way you can find sort open licensed images and audio and video. So basically if you notice a throughput through all these things, it's open source. (00:08:31): On the nights and weekends or side, a few hours a week I do some angel investing. So I've done over 100 angel investments through an entity called Audrey Capital, which is sort of, if anything's in the sort of WordPress space, I invest in it through Automatic, but if anything's a little more further afield I do it through Audrey Capital and have done some really exciting investments there, everything from name brands like Stripe and SpaceX, but also it was in the seat of Calm or a lot of home automation stuff like Ring, August, smart things. Yeah, just check out Audrey Capital, it's got some fun stuff in there. Daylight Computer, which is one I'm very excited about right now. (00:09:11): And I guess finally I love San Francisco, so I an a co-owner of a cool grungy jazz club in North Beach called Keys with Simon Rowe. So if Wednesday through Saturday night, you want to see some awesome live jazz, check out Keys.",
+   "zh": "然后我有了这样一个构想：与其下载软件、搭建数据库等繁琐步骤，我们不如推出WordPress的SaaS版本。我向CNET提出了这个想法，但他们不感兴趣。于是我决定：“好吧，我必须亲自做这件事。”于是我离开CNET，创办了Automatic公司。我们的核心理念是为WordPress核心软件提供商业增值服务，比如运行在云端的Akismet反垃圾邮件系统（如今被称为AI反垃圾邮件系统），以及Jetpack（相当于WordPress的iCloud服务），实现数据备份、实时同步等功能。（00:07:04）：这是在19年前启动的，如今我们的团队已发展至1700人，遍布90个国家。从一开始，我们就完全实现了分布式、远程和异步办公模式，我认为这是我们的核心优势之一。最初我并非CEO，但在2014年（即11年前），我接任了这一职位。首任CEO……嗯，严格来说不是最初，但四五个月后，我从BCL聘请了托尼·施耐德。（00:07:35）：是的，这确实是一份全职工作——Automatic旗下拥有诸多产品，如开源电商平台WooCommerce，目前其营收占我们总收入的一半。此外，我们还开发了Beeper、DayOne、Simplenote、Rocket Casts等应用，致力于用隐私友好、用户为中心的开源产品填满用户的主页。运营这家公司绝对需要全身心投入。我至今仍负责WordPress.org和WordPress项目，是那里的首席开发者，全权管理社区发布、目录维护等事务。还有我们接手的Openverse项目，旨在通过Creative Commons平台整合开源图片、音频和视频资源。总之，所有这些业务都离不开开源技术。\n\n（00:08:31）：周末和晚上，我会花几小时进行天使投资。目前通过Audrey Capital机构，我已完成100余笔投资。若是WordPress相关项目，通过Automatic进行投资；若涉及其他领域，则通过Audrey Capital操作。投资案例包括Stripe和SpaceX等知名品牌，也投资了Calm、Ring、August等智能家居领域的初创企业。感兴趣的话，可以关注Audrey Capital，他们有不少优质项目，比如我现在特别关注的Daylight Computer。\n\n（00:09:11）：最后，我很喜欢旧金山，所以和西蒙·罗共同拥有北滩一家很酷的爵士俱乐部叫Keys。如果周三至周六晚上想欣赏精彩的现场爵士乐，欢迎光临Keys。",
+   "ts": "00:06:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, okay. You said too much, I get it now. Jazz club I was not aware of, I got to check this out. It's called Keys?",
+   "zh": "哇，原来你说了这么多，我现在明白了。爵士俱乐部，我之前都不知道，得去看看。叫Keys吗？",
+   "ts": "00:09:28"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, keys Jazz Bistro.",
+   "zh": "对，Keys爵士小酒馆。",
+   "ts": "00:09:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, cool.",
+   "zh": "好的，酷。",
+   "ts": "00:09:38"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "It's over on Broadway in Columbus, kind of right around there.",
+   "zh": "就在哥伦布大街上，差不多那附近。",
+   "ts": "00:09:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. That was news to me. Going back to Automatic, I think people don't get the scale of this thing, so just to mirror back, if you think that even add to what you've said, 1700 people work there, 90 different countries. Also, you didn't share this stat, it was something like 43% of internet websites are built on WordPress, run on WordPress.",
+   "zh": "太惊人了。这对我来说真是个新闻。回到Automatic这个话题，我觉得人们没有意识到这个项目的规模。所以再补充一下你之前提到的数据——1700名员工，来自90个不同国家。还有你之前没提到的一个数据，全球43%的网站都是基于WordPress搭建和运行的。",
+   "ts": "00:09:42"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, so when we started, a lot of websites were built on custom CMSs and there's a lot of fragmentation in the space, but now WordPress has grown to be over 40% of all websites in the world, which is 10x the number two, which right now is Shopify.",
+   "zh": "是啊，我们刚开始的时候，很多网站都是基于自定义CMS搭建的，整个行业非常分散。但现在WordPress已经占据了全球40%以上的市场份额，比第二名的Shopify高出十倍。",
+   "ts": "00:10:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right, they're like at 4%. I was looking at that list.",
+   "zh": "对，他们现在大概占4%。我刚看过那份列表。",
+   "ts": "00:10:17"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "They're around 4%, yeah.",
+   "zh": "他们大概在4%左右，对。",
+   "ts": "00:10:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's unreal.",
+   "zh": "这太不可思议了。",
+   "ts": "00:10:21"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "It used to be open source was the top three. Unfortunately, Jula and Drupal have fallen behind, and so now it's like Shopify, Wix, Squarespace are the top ones but WordPress is still, because we have this flywheel of open source community, its movements, any open source like Linux or Apache or Wikipedia, it has some positive flywheel effects when it takes off.",
+   "zh": "以前开源软件占据了前三名。但不幸的是，Joomla和Drupal已经落后了，现在Shopify、Wix、Squarespace占据了主导地位，但WordPress仍然很强，因为我们有开源社区这个飞轮效应。任何开源项目，比如Linux、Apache、维基百科，一旦起飞都会产生积极的飞轮效应。",
+   "ts": "00:10:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome, okay. And then there's a few other things you didn't mention, I want to get to this later, but I'll just mention now, you guys own Tumblr, you bought Tumblr, which I don't think a lot of people necessarily know.",
+   "zh": "太棒了，好的。还有几个你没提到的事，我想稍后再聊，但现在先提一下，你们收购了Tumblr，我觉得很多人都不知道这事。",
+   "ts": "00:10:48"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "I'm sorry, I forgot to mention that, Tumblr.",
+   "zh": "对不起，我忘了提到Tumblr了。",
+   "ts": "00:10:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We're going to get into that, yeah.",
+   "zh": "我们会深入探讨这个话题的，好的。",
+   "ts": "00:10:58"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, running a social network is definitely the hardest thing I've ever attempted. I thought we knew what we were doing because WordPress ran so much of the web, we dealt with, I thought, every content moderation thing you could ever deal with, but social networks are a whole other ballgame.",
+   "zh": "是啊，运营社交网络绝对是我尝试过最难的事情。我原以为我们对WordPress的熟悉能让我们轻松应对，但社交网络完全是另一回事。",
+   "ts": "00:11:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, a couple more fun facts before we get into some other stuff I want to chat about. Fun fact number one is you were super involved in the Bay Lights project. I didn't know this. For people that don't know what the Bay Lights, if you're in San Francisco you definitely know what the Bay Lights project is and I'm sure you love it, for people that don't know what this is about, what is this project and how have you been involved? Why have you been instrumental in to make this a thing?",
+   "zh": "好的，在我们讨论其他话题之前，先分享几个有趣的信息。第一个是，你深度参与了湾区灯光秀项目。我之前都不知道。对于不了解湾区灯光秀的人来说，如果你们在旧金山，肯定知道这个项目，我相信你们会很喜欢的。对于不了解的人，这个项目是什么？你又是怎么参与其中的？为什么你对它的成功起到了关键作用？",
+   "ts": "00:11:15"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Bay Lights, there's two famous bridges in San Francisco, the Golden Gate Bridge, which is kind of the iconic one, there's actually the Bay Bridge, which is the workhorse of San Francisco. It's one of the busiest bridges in the country. And it's really beautiful from an engineering point of view. And so kind of a vision between Ben Davis and artist Leo Villarreal, who's an amazing light artist, actually who started Burning Man was to put, gosh, I forget the number, I think 18,000 LEDs on the side of the bridge on all the cables and create this really beautiful, gentle kind of algorithmic light piece, light art piece. (00:12:18): And yeah, Ben Davis was dating an artist friend of mine and we were over and having drinks on my patio and we were looking at the Bay Bridge and I had this kind of thing where there's some lights at the top of the Bay Bridge and I was like, \"Oh, wouldn't it be cool if those lights were Christmas lights and they could do patterns or something?\" It's the lights to keep planes from hitting it. And I was like, \"Oh, you could program that.\" He was like, \"Yeah.\" It was almost like the Social Network thing where a million's cool, but a billion would be really cool. He was like, \"Yeah, that would be cool, but what if we put the whole side of it?\" And so I was like, \"Oh, cool,\" and sort of made an angel investment in that thing. They hadn't raised anything or had, I don't even think an entity at that point, but I was like to get you started, I forget what it was, 100 or 150k so I gave them that first bit and then it kind of blossomed into a thing. (00:13:07): And then sort of fast-forward, I don't remember the exact timeline, but they were kind of at a final bit of fundraise and they weren't able to close that last bit and I actually mortgaged my condos and donated the last million, million and a half to finish out that project. The Bay Lights were online for 10 years. The technology degraded, and so the environment's very harsh. So actually we just completed a fundraise and are reinstalling the Bay Lights. They're calling it Bay Lights 360. So now it'll be both sides of the bridge, it'll be visible from also Oakland and the Treasure Island because the first version, the city was very worried about the drivers seeing the lights and it might distract them so we had to angle them so that you could only see it from San Francisco, which was a compromise we didn't love because we love the East Bay and everything else like that too. So new version is coming online hopefully later this year in the fall. And also that turned into a nonprofit called Illuminate, which I'm on the board of run by Ben Davis, who I mentioned previously, that does cool public art stuff around the city. So they're responsible for the Grace Lights, all the JFK Boulevard stuff where that has some murals and the beer garden and all the chairs, that's all Illuminate. So their thing is radical public art. So it's like art that needs to be free and accessible. And I think that's so important for San Francisco. We have great institutions know the SF, MoMA, the Opera, etc, that have huge budgets like 100 million a year and Illuminate literally one 10th of that has created something that millions of people can enjoy. (00:14:40): And I like to think that anyone along the Embarcadero, you might be going through a tough time, obviously we have people who are struggling with mental health and homelessness and everything like that, but maybe seeing a little bit of art can help raise your soul a little bit. And that's how I think about philanthropy as well. You need to work on the base issues, the fundamentals at the bottom of Maslow's Hierarchy of Needs, and then you also have to work on the things that raise your soul a little bit, so arts. So I like that barbell approach to philanthropy.",
+   "zh": "海湾灯光秀  \n旧金山有两座著名的桥梁——金门大桥，它堪称这座城市的象征；而海湾大桥则承担着实际的交通功能，是旧金山最繁忙的桥梁之一。从工程角度来看，它也极具美感。本·戴维斯（Ben Davis）和艺术家利奥·维拉雷亚尔（Leo Villarreal）——这位曾参与“火人节”的杰出灯光艺术家——构想了一个创意：在桥梁侧面所有电缆上安装约1.8万个LED灯，打造出柔和而精妙的算法灯光艺术品。（00:12:18）  \n\n当时本·戴维斯正与我的艺术家朋友在我的露台上喝酒，看着海湾大桥。他提议：“如果那些桥顶的灯能像圣诞彩灯那样变换图案，那该多酷啊？”但那些灯实际上是为了防止飞机撞击桥梁而设计的。本随即建议：“我们可以编程控制这些灯！”  \n\n这让我联想到《社交网络》中的桥段——100万美元很酷，但1亿才更震撼。本最终投入了10万至15万美元的天使资金，助力项目启动。（00:13:07）  \n\n后续进展曲折——项目在最后一轮融资中未能成功。本甚至抵押了自己的公寓，捐出最后一笔资金完成项目。海湾灯光秀已运行十年，但技术老化且环境恶劣。因此团队刚刚完成新一轮融资，将重装灯光。新版本名为“海湾360”，覆盖桥梁两侧，奥克兰和金银岛也能欣赏到灯光秀。首版因担心司机分心，只在旧金山一侧可见，这一妥协令本心有不甘，毕竟他对东湾等区域也心存热爱。新版本有望今年秋季上线，并衍生出非营利组织Illuminate。本是该组织董事会成员，Illuminate还负责格蕾丝灯光秀、肯尼迪大道壁画、啤酒花园等公共艺术项目。 Illuminate致力于打造自由可及的公共艺术，体现旧金山对艺术普及的追求。（00:14:40）  \n\n本希望，沿着恩巴卡德罗大道的路人，无论身处困境（比如心理健康问题、无家可归等），都能从艺术中获得心灵慰藉。这也是他对慈善事业的理解——需要用小成本撬动大价值，让数百万人受益。\n要解决根本性问题，即马斯洛需求层次理论底层的基本需求，同时还要致力于能让心灵得到升华的事物，比如艺术。因此，我很赞赏这种在慈善事业中采取\"杠铃策略\"的做法。",
+   "ts": "00:11:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Elon has a great quote along those lines, \"You can't just work on solving problems all day, you need something inspiring to think about and to work towards.\" First of all, thank you for doing this. If you live in SF, you're like, this makes the city better, just having this around. I didn't realize you were involved in helping come up with the idea itself. I know that you did mortgaged your house to make it possible.",
+   "zh": "埃隆（Elon）曾说过一句类似的话：“你不能整天只专注于解决问题，你需要一些鼓舞人心的东西去思考和为之努力。” 首先，感谢你能来参加这次访谈。如果你住在旧金山，你会觉得这座城市因有了这个项目而变得更美好。之前我并不知道你参与了这个项目的构思阶段。我知道你为了让这个项目得以实现，甚至抵押了自己的房子。",
+   "ts": "00:15:13"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "I can't take any credit for the idea, I was exposed to it. I had an adjacent idea and they had a way cooler one with a real artist and everything like that. So I was just happy to be there. It's like being an angel investor, you can support the entrepreneurs and the people who truly do it.",
+   "zh": "这个创意其实并非我原创，我只是接触到了这个想法。我当时有个相似的构想，但他们的方案要酷得多——找来了一位真正的艺术家等资源。所以我很开心能参与其中。这就像天使投资人，既能支持创业者，又能支持真正做事的人。",
+   "ts": "00:15:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, okay. And the other funny thing you said is about they were worried about the angle of the lights distracting people. What's funny is when I drive across the bridge, you can only see it when you're driving towards San Francisco looking backwards. So I'm looking in my rearview mirror or in the mirror turning around to the kind and it feels more dangerous, the lights shining in my face.",
+   "zh": "是的，没错。你之前提到他们担心灯光角度会分散人们注意力。这挺有趣的，因为我开车过桥时，只有朝着旧金山方向行驶、回头看时，才能看到灯光。所以我要么通过后视镜，要么转头看反方向的镜子，感觉灯光直射眼睛反而更危险。",
+   "ts": "00:15:49"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "They call it impossible works of art. There were like 13 agencies that had to sign off, they were worried the lights would distract birds or seals or environmental reviews, and it was really a lot of public bureaucrats and to make that happen, there was 20 places where someone could have said no and it never would happen. So it's very inspiring to see the city come together. (00:16:31): Also in San Francisco, I feel like is entering new chapter right now, going from the doom loop to the boom loop. I'm a big believer in the city. So much innovation has come here from food, the burrito, fortune cookies, all these sorts of things are from San Francisco to obviously all the tech innovation that we're all familiar with. It's kind of the city of the future and I don't know what it is in the water from the '60s until now, cultural innovations, things that happen and influenced the whole world, Burning Man, Grateful Dead, et cetera. That all starts in San Francisco. So it's exciting to be here.",
+   "zh": "他们称之为\"不可能完成的艺术作品\"。当时有13个机构需要审批，他们担心灯光会影响鸟类、海豹，还有环境评估等诸多层面的把关。可以说，这背后有无数的公共官僚机构在运作。若其中任何一个环节说不，这个项目就永远无法实现。看到整个城市齐心协力完成这个项目，真的很振奋人心。（00:16:31）：另外，旧金山现在正进入一个新篇章，从\"死亡循环\"转向\"繁荣循环\"。我对这座城市深信不疑。许多创新成果都源自这里——从美食、墨西哥卷饼、幸运饼干，到如今我们熟知的科技创新。它堪称未来之城，我不知道从60年代至今，到底是这里的水有什么魔力，催生了文化创新、影响了全世界的\"火人节\"、\"感恩至死\"乐队等现象。这一切都始于旧金山。所以能身处这里真是令人兴奋。",
+   "ts": "00:16:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's set the so back, as they say on Twitter. Okay, someone very close to you told me that you're an excellent rapper. I'm not going to ask you to rap, but if you ever want to answer any questions in rap form, feel free.",
+   "zh": "让我们回到正题，就像推特上常说的那样。好的，有个与你关系密切的人告诉我，你是个出色的说唱歌手。我不会要求你即兴说唱，但如果你想用说唱形式回答问题，不妨一试。",
+   "ts": "00:17:03"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Oh man, that would be fun. I've dreamed about being able to do a Q&A and rhyme, but I don't think I'm that talented.",
+   "zh": "哦，那肯定很有趣。我曾梦想能用问答形式并加进押韵，但我觉得自己没那么才华。",
+   "ts": "00:17:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Planting the seed, I'm planting the seed. So I want to get into all the drama there in this world and right now, but I want to first lay the foundation of how you got into this and where this all came from. So let's talk about just the origin story of you and open source. More than half of your life, you've been working on open source, you've been working on WordPress, specifically WordPress is such a core community within the open source. What was kind of the origin story of you becoming obsessed and, I don't know, open source-pilled?",
+   "zh": "播种吧，我正在播种种子。我想深入探讨这个世界当下的种种戏剧性事件，但首先要奠定基础——你如何踏入这个领域，一切又从何而来。让我们先聊聊你与开源的缘分。在你人生过半的时间里，你一直致力于开源事业，尤其是WordPress。WordPress在开源社区中堪称核心项目。那么，你是如何痴迷上开源的，又或者说，是如何被\"开源毒害\"的呢？",
+   "ts": "00:17:26"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "I was a broke kid in Houston, Texas, and my passions were jazz. Houston has actually amazing music programs in the public schools, and so I was very fortunate to go to some of the best civil arts programs, including my high school called the High School for Performing and Visual Arts, where Beyoncé went, Robert Glasper, amazing folks went there. And so music was a big part of my life, and actually economics. So I had this fun teacher, Scott Roman, who participated in our school in the Federal Reserve Challenge, which was run by the Federal Reserve that sets the interest rates and backs the national banking system and everything like that, has this competition for high school students. It ended up being the first academic competition this art school ever won. And yeah, first year we kind of didn't get that far, second year we went all the way to nationals so I got to meet Alan Greenspan, Ben Bernanke was our judge, went to DC. So that was very, very exciting. (00:19:01): And so being exposed to us having a great liberal arts education, the ideas of Frederick Hayek, Agnes Smith, Alexander Hamilton, Ben Franklin, Thucydides, all these sorts of things, that philosophy really influenced me. And combine that with that, music lessons were expensive, so we couldn't really afford them, so I would barter and trade. I'd build websites for local musicians and exchange for lessons. So these websites, I would start to put software on forums or different things and that kind of exposed me to open source. So my father was also an engineer, he worked for oil companies and things, but his world was all Microsoft, it was all proprietary. And I always kind of grew up in early days of the internet, so was Slashdots and Jeffrey Zeldman talked about web standards and all these things are really kind of the social milieu and zeitgeist that I grew up in. (00:19:56): So combining all this philosophy I studied, it felt that open source was actually the most important idea of our generation. If the founding fathers were around today, I think they would be open source advocates. If you think about it as more and more of our lives are influenced and actually controlled by the software we use, if we don't have fundamental freedoms attached to that software, we're not truly free. (00:20:24): So WordPress is under license called the GPL, which has four freedoms, the freedom to use the software for any purpose, so we can use it for anything, whether I agree with you or not, the terms of service is you could do whatever you want with it. The freedom to see how the software works, open up the hood, see how it works, see every line of code, you can audit it. The freedom to change it is the third freedom. And then finally the freedom to redistribute those changes so you can share them. And the GPL has a fun little hack where if you share them, you have to provide those same freedoms to who you share it with. So it's called a viral open source license as opposed to the MIT license or some of the others that aren't. (00:21:03): So yeah, just kind of decided that this was what I was going to devote my life to. And so that became getting involved with some early open source projects, WordPress was actually a fork of abandoned open source project called B2. So the code base actually started was something that was already out there that I was a user and contributor to kind of volunteer on the forums and contribute code. And then when it was abandoned, myself and Mike were one of four or five different forks that started that, picked it up and tried to continue it for our own use and then later for our larger community.",
+   "zh": "我曾是德克萨斯州休斯顿一个囊中羞涩的青少年，音乐是我的热爱所在。休斯顿的公立学校音乐教育水平堪称一流，我有幸就读于多所顶尖艺术学校，包括曾培养过碧昂斯、罗伯特·格拉斯珀等音乐巨星的\"表演与视觉艺术高中\"。音乐与经济学深深影响着我的生活。我们的学校参与了美联储举办的\"联邦储备挑战赛\"——这项由美联储主办、旨在设定利率并支撑国家银行体系的竞赛，最终成为这所艺术学校首度斩获的学术奖项。第一年我们止步于地区赛，第二年一路杀入全国赛，我得以与艾伦·格林斯潘同台交流，评委本·伯南克亲临现场，这段经历令人难忘。\n\n（00:19:01）通过接受优质的文科教育，接触弗雷德里克·哈耶克、阿格尼斯·史密斯、亚历山大·汉密尔顿、本·富兰克林、修昔底德等思想家的理念，哲学思维深刻影响着我。同时，由于家庭经济原因无法承担音乐课程费用，我开始用为本地音乐人搭建网站来换取课程。这些网站让我接触到开源软件，进而萌生兴趣。父亲身为石油行业工程师，始终沉浸在微软专有软件的世界中。而我成长于互联网早期——Slashdot论坛、杰弗里·泽尔德曼倡导的网络标准等，都深深影响着我的成长环境。\n\n（00:19:56）综合这些哲学认知，我认定开源理念是我们这一代最重要的思想。若开国元勋们身处当下，必将成为开源拥护者。随着生活日益被软件控制，若缺乏基本自由，我们将失去真正的自由。\n\n（00:20:24）WordPress采用GPL许可协议，包含四大自由：使用自由（无论赞同与否）、审视自由（查看代码）、修改自由（分发改进版）以及再分发自由（附带自由条款）。其病毒式开源许可条款要求衍生作品必须共享相同自由，区别于MIT等非病毒式许可。\n\n（00:21:03）最终我决定将毕生奉献于开源事业。通过参与早期开源项目（WordPress源自B2项目），亲身实践并见证开源精神的延续。\n先供我们内部使用，之后再推广给更广泛的用户群体。",
+   "ts": "00:17:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It feels like a lot of people are coming around to exactly your worldview in, say, I was just watching a video of Jack Dorsey talking about how we're just controlled by algorithms and we don't know how they work and we are not in control of our lives. Have you seen that video?",
+   "zh": "感觉很多人开始认同你的观点，比如，我刚刚看了一段杰克·多西的视频，他谈到我们被算法控制，却不了解算法的运作机制，无法掌控自己的生活。你看过那个视频吗？",
+   "ts": "00:21:36"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "No, but I actually love that. Also, some people who maybe made their first billion or whatever from proprietary software then come back and it's so cool to see folks like Marc Andreessen or Bill Gurley be huge advocates for open source. I actually remember one of my early meetings with Andreessen Horowitz, Marc Andreessen. I didn't realize that at the time, Tony Schneider and I were sort fundraising and Marc really grilled us, he's like, \"How can you build a business on open source? How can you be remote and distributed? Look around Silicon Valley, Google, Microsoft, Oracle, Sun, every great company has had an office. How are you going to build something that can change the internet with people all around the world?\" And just had this long hour long debate and we walked out of that, I was like, \"Wow, that was the worst meeting ever. They just hate everything we're doing.\" (00:22:48): And then the next day they were like, \"Hey, we're interested.\" I was like, \"What happened?\" I didn't realize that he had this idea where he wanted to attack the ideas and see how we defended it was how they battle tested things. I guess kind of like a Microsoft culture or whatever where you really grill the idea, I just wasn't familiar with that. But it's so cool now that some of these folks that I've learned so much from are such good advocates for open source.",
+   "zh": "没看过，但我其实挺喜欢他这种观点。还有一些人，可能靠专有软件赚了第一个十亿美元之类的，然后回过头来大力支持开源。这太酷了。我记得我早期和安德森·霍洛维茨会面时，马克·安德森对我们质疑连连。他问：“怎么能靠开源做生意？怎么能远程分布式办公？看看硅谷，谷歌、微软、甲骨文、太阳公司，每家大公司都有实体办公室。你们怎么能让全球用户参与改变互联网？” 那场长达一小时的辩论后，我们离开时，我心想：“天啊，这真是史上最糟糕的会面，他们简直讨厌我们的一切。” （00:22:48）结果第二天他们就说：“嘿，我们感兴趣了。” 我问：“怎么回事？” 原来他想通过这种质疑来测试我们的立场，跟微软文化之类的很像，喜欢深度剖析创意。我之前对这种文化不太熟悉。但现在看到这些我曾深受启发的人成为开源的坚定拥护者，真是太棒了。",
+   "ts": "00:21:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, it's so interesting. I just had the Community Notes team on the podcast, and that's an amazing example of open source, Meta is adopting it from Twitter/X. Speaking of open source, one of the interesting, maybe most common ways people hear about open source these days is AI and AI models, and there's a couple areas here, one is you wrote this really interesting post where you talk about how Meta talks about Llama as an open source project, but you called it a false prophet. What is it about Llama that isn't open source? What are people missing when they see Llama and they're like, \"Oh, Meta is amazing open sourcing everything.\"",
+   "zh": "是啊，这太有意思了。我刚在播客上邀请了社区笔记团队，他们就是开源的典范，Meta从Twitter/X那里借鉴了不少经验。说到开源，现在人们最常接触到的案例之一就是AI模型。比如你写的那篇文章，指出Meta把Llama标注为开源项目，却称其为\"虚假先知\"。Llama到底哪里不算开源？当人们看到Meta大张旗鼓地搞开源时，往往忽略了什么？",
+   "ts": "00:23:15"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Llama, you can obviously download and run locally and all these sorts of things, right? You don't have to use their SaaS service. However, there's a clause in it that says if you're above a certain threshold of monthly active users...",
+   "zh": "Llama显然可以下载本地运行，对吧？不一定要用他们的SaaS服务。然而协议里有条款规定，如果月活用户超过一定门槛...",
+   "ts": "00:23:52"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "... as if you're above a certain threshold of monthly active users. I forget what it is. It's big. It's like 750 million, so it's pretty high. You need a license from them. And so that does not give you the freedom to use the software for any purpose. If at some point you have to ask for permission, you're kind of at the whims of this company who you might be aligned with or you might be an enemy with. And also, how do you define that? So, for example, on WordPress, our products don't have 750 million monthly active registered users, but we reach billions of people per month in terms of visitors. So, is that defined? So, there's just ambiguity there. So, I still think what they've done is amazing and I like that they're releasing it. I was very confused for why they insist on calling it open source because they... (00:24:54): Actually, Meta has been a huge open source contributor. React. They've had incredible improvements to the PHP engine, which we benefit from a lot. So, they're actually a big open source contributor. I think Mark Zuckerberg really understands and loves open source too. My best guess now, I don't have any inside information here, but I think they're calling it open source because there's some European regulation about open source versus proprietary AI models. So, I think it might be a weird regulatory thing because clearly they understand this isn't open source. When I wrote the blog post, I was just kind of confused, and thought, \"Oh, maybe if I get this message out there, they'll change.\" And then when they didn't, I was like, \"Oh, there must be something else going on. I think it might be this regulatory thing.\" We were actually a big part of, actually many, many years ago, I think it was React that they were doing something with a licensing or a patent restriction on, and the WordPress community actually got Meta to change that and reverse something they were doing to lock it down. (00:25:53): So, I consider my role as an open source advocate to actually be my primary thing. And it's very much my life mission. I hope to work on WordPress the rest of my life, but also just open source in general. I also support Drupal and Joomla. Anything else that's open source, I'm going to be a supporter of because I think when people choose that versus proprietary software, we're increasing the freedom and liberty in the world. It's incumbent on us to make open source, to make a better user experience, to make a better product so that people choose it, and then the world becomes more free, not less free.",
+   "zh": "就好像你达到了每月活跃用户的某个门槛。我忘了具体数字，但这个数字很大，大概是7.5亿，所以要求很高。你需要从他们那里获得许可证，而这并不意味着你可以随意使用该软件。若你需要申请许可证，就得受制于这家公司的意愿——无论你们是合作伙伴还是竞争对手。另外，这个定义本身也存在歧义。比如在WordPress上，我们的产品虽然没有7.5亿月活跃注册用户，但每月访问量却达数十亿。那么这个定义是否清晰呢？所以这里存在模糊性。我仍然认为他们的举措很了不起，我很欣赏他们将其定义为开源。最初我很困惑他们为何坚持称其为开源，因为……（00:24:54）：实际上，Meta一直是开源领域的重要贡献者。比如React，他们对PHP引擎的改进令人惊叹，我们从中受益良多。所以他们确实是开源的重要贡献者。我认为马克·扎克伯格也深知并热爱开源。我的猜测是，他们之所以将其称为开源，可能是因为欧洲对开源与专有AI模型的监管规定。因此，我认为这可能是法规层面的考量，因为他们显然明白这并非真正的开源。当我写那篇博文时，心里还纳闷：“或许如果我把这个信息传播出去，他们会改正。”但他们没有改正，我就意识到肯定另有隐情。我记得多年前，React曾因许可证或专利限制引发争议，WordPress社区成功促使Meta撤回了相关限制措施。（00:25:53）：所以我认为自己作为开源倡导者的首要职责，是推动开源事业。这是我的人生使命。我希望余生能致力于WordPress，同时支持开源生态。我还支持Drupal和Joomla等项目。任何开源项目，只要能为用户创造自由和选择空间，我都会鼎力相助。我坚信，当人们选择开源而非专有软件时，世界会变得更加自由而非受限。",
+   "ts": "00:24:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It also feels it's important to you to, I don't know, white open source washing, like avoid people using the term when it's not true. And it's interesting in this case, that the thing that makes it not truly open source is the limit. There's a limit where you can no longer use it the way you want. Is that the issue?",
+   "zh": "你似乎很在意避免将开源用作洗白工具，比如避免在不符合定义的情况下滥用术语。在这种情况下，关键问题在于许可证的限制条款。当用户无法按自己意愿使用软件时，许可证就失去了开放性。对吧？",
+   "ts": "00:26:36"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah. And there's actually an open source OSI. There's a formal definition for what makes an open source license. And there's actually many dozens of open source licenses, and sort of public domain licenses and other things. So, it's also their stance that this is not an open source license.",
+   "zh": "是的。事实上，开源倡导组织OSI对开源许可证有明确定义。目前存在数十种开源许可证，还有公有领域许可证等类型。因此，他们坚持认为这并非真正的开源许可证。",
+   "ts": "00:26:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Something else that I think is really interesting when it comes to AI and open source, you wrote about this and it blew my mind, such a good point, that the code that these models were trained on was open source code because that's all they have access to. They don't have Windows code, they don't have Shopify code. And what a cool, I don't know, another success story slash... I don't know. I guess, how do you feel about that, that all these AI models are trained on code you wrote in open source community?",
+   "zh": "关于人工智能和开源领域，我觉得还有一点非常有趣。你之前写过相关内容，简直让我惊叹不已，这观点太棒了——这些模型用于训练的代码都是开源的，因为这是他们唯一能获取的资源。他们接触不到Windows代码，也接触不到Shopify代码。这真是太酷了，不知道该怎么形容……这又是一个成功案例，或者说……我不知道该怎么说。我想问问你，对所有这些人工智能模型都基于你在开源社区编写的代码进行训练，你有什么看法？",
+   "ts": "00:27:15"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "That's beautiful. It's one of the safest things to train on, right, because the license of open source very explicitly allows that. I also like to think about I have some window where my creative output is useful to society. And if you fast forward like 50 or 100, I do believe that the utility for proprietary software eventually approaches zero. When we're sending people to Mars, the operating system of the rockets and the devices and everything like that is not going to be built on the Windows NT kernel, as amazing feat of engineering that that proprietary kernel is. It's going to be built on an open source kernel, Linux or BSD or something like that. And so if you want to be part of something that sort of becomes the fabric of humanity's foundation, like things that allows a Cambrian explosion of things built on top of it, a renaissance of ideas, you want to be involved with open source. (00:28:38): And so I really hope that more and more people... I'm a little bit of an evangelist here. I'm a missionary, where I really want to encourage more and more people to consider at least making part of their time, even if just a few hours a week, contributing to open source because you could be part of something that is a huge impact. And it's fun, especially if you're a younger developer or designer or PM or whatever, you can't walk up to Facebook and change your home page or say, \"I'd like to change this feature,\" but you could come to an open source project, some of which have hundreds of millions of users. You could go to WordPress or, gosh, Bitcoin. (00:29:20): Or there's all these things are open source, Chromium, Firefox, and you could actually change a feature or project management things or change the design or improve it. And that's I think really, really special. And sort of the thrill for me of knowing that code I wrote is now executing millions of times per seconds and millions of servers around the world, that kind of thrill, that high is, when I first had my first open source contribution, such a thrill. And I've been sort of chasing that and enjoying that ever since.",
+   "zh": "这真是太棒了。这是最安全的训练基础，对吧？因为开源许可明确允许这样做。我也一直在思考，我在创造力方面有一些窗口期，能为社会带来价值。如果再过50年或100年，我相信专有软件的实用性最终会趋近于零。当我们把人类送上火星时，火箭和设备的操作系统不会基于Windows NT内核构建，尽管那个专有内核是工程奇迹。但它会基于开源内核，比如Linux或BSD之类的。所以如果你想参与构建人类基础设施的项目，比如催生一场创意爆发、思想复兴的运动，你就应该投身开源。（00:28:38）我真的希望越来越多的人……我有点像个传教士。我想鼓励更多人至少抽出一点时间（哪怕每周几个小时）为开源贡献力量，因为你可能参与到具有重大影响力的项目中。这很有趣，尤其是对于年轻的开发者、设计师、产品经理等来说，你没法直接去Facebook改动主页设计，或者说\"我想改动这个功能\"，但你可以在开源项目中发挥作用，有些项目有数亿用户。你可以参与WordPress、比特币等项目，改进功能、项目管理、设计等。这真的非常特别。知道自己编写的代码每秒在全球数百万台服务器上运行，这种激动人心的感觉，正是第一次开源贡献时带给我的兴奋。从那以后我就一直追寻这种感觉，不断享受其中的乐趣。",
+   "ts": "00:27:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Say someone wants to actually do this, where do they go? How do they do this? Do they just pick up a project, go to WordPress. org and here's how you contribute? What's a next step there?",
+   "zh": "如果有人想实际参与进来，该怎么做？直接选一个项目，比如WordPress.org，然后按照指引贡献吗？接下来该怎么做？",
+   "ts": "00:29:53"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, pick a project that you use or like. That's obviously a nice one. For WordPress, we have this... It's called make.WordPress.org. That's where we make WordPress. And there's different groups, there's accessibility, there's design, there's the core code, there's plugins, there's all sorts of ways. So, really whatever your talent is, there's people who translate, there's people who do support, there's people who write documentation, there's people who organize events, so whatever you feel like your talent in the world is either that you have or that you want to cultivate. I learned how to code while building WordPress basically. I didn't have too much formal training there. So, it's a great way to [inaudible 00:30:48] your skills as well, and work with some of the best developers and others in the world.",
+   "zh": "是的，选择一个你正在使用或喜欢的项目显然是个不错的选择。比如 WordPress，我们有专门的平台……叫 make.WordPress.org。这里是开发 WordPress 的地方。平台下设多个小组，包括无障碍访问、设计、核心代码、插件等各个领域。所以，无论你有什么样的才能，总能找到对应的团队。有人负责翻译，有人提供支持，有人编写文档，还有人组织活动——无论你现有的才能是什么，或者你想培养什么样的技能，都能找到合适的方向。我基本上就是在开发 WordPress 的过程中学会编程的，当时没有接受太多正规培训。所以这也是提升技能的绝佳途径，还能与全球顶尖的开发者和其他人才合作。",
+   "ts": "00:30:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This also made me think about AI agents are coming around, Devin and all these AI driven coding agents. Do you have a prediction at when most of the code contributed to the open source projects will be Devin and AI agents such type projects?",
+   "zh": "这也让我想到，AI助手正在兴起，像Devin这样的AI驱动编码助手。你能预测一下，未来为开源项目贡献代码的主要会是Devin这类AI助手吗？",
+   "ts": "00:30:53"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "I think Google talked about 25% of their code or characters committed are now sort of AI-assisted, and they're probably on the bleeding edge. I don't know how much of WordPress's code right now is AI-assisted or something like that. But I think over the next five years it definitely approaches maybe a majority. And I'm actually very, very excited, so one of the big challenges that we have as a very open platform is we have this open plugin and theme architecture, so the 60,000 plugins and themes and the way WordPress works is these plugins and themes can modify every single part of the code, so you can really customize everything. However, many of these plugins and themes don't have the same sort of robust security and review process that core has. So, that's where when you hear about security issues with WordPress, it's very rarely in core anymore. (00:32:03): We haven't had a remote exploit, knock on wood, it's like I think five or six years or something, but in the plugins it can be somewhat more frequent. And so one thing I'm very, very excited about the next year or two is actually more automated scanning because obviously that code basis is so many tens of millions, maybe over 100 million lines of code at this point. It's impossible for humans to review that, so we kind of rely on developers to review that and manage. And of course, we have bug bounties and everything do that, so when things get reported, we fix it quickly. But I can't wait for more automated scanning there, and I think that could vastly upgrade the security of open source. The other thing that's really exciting is right now you see people building apps and stuff and it's just sort of custom generated code, but I think the next generation of these models or sort of the next layer there is because... (00:32:54): As everyone knows, just writing the code is just one part of it. It's maintaining it that really becomes the life cycle of it. And Stewart Brand's new book is all about maintenance, which I'm very excited about. He's publishing, I think, with Strike. And it's actually kind of open source. He's open sourcing the book, so you can see it being written online. But anyway, to go back, I think that if... And they're starting to do that, is when the open source models you say like, \"Hey, build me a website.\" It actually installs WordPress, and then builds on top of that, and then customizes on top of that. Then you get for free that core engine that's always being audited and updated and getting passkey support or whatever the new things are sort of continuously. And then your custom stuff can be on top of that, which I think is actually a lot more powerful than building something proprietary or custom from the ground up.",
+   "zh": "我认为谷歌提到，他们现在有25%的代码或字符是由人工智能辅助完成的，而且他们可能处于技术前沿。我不知道现在WordPress的代码中有多少是人工智能辅助的，但我认为未来五年内，这一比例很可能会接近多数。我对此非常兴奋。作为一个高度开放的平台，我们面临的一个重大挑战是，WordPress拥有开放的插件和主题架构，因此有6万个插件和主题。然而，这些插件和主题并没有像核心代码那样严格的安全性和审核流程。因此，当你听到WordPress的安全问题时，很少涉及核心代码了。（00:32:03）：我们还没有遇到过远程漏洞攻击，但愿如此。这种情况已经有五六年没发生过了，但在插件中，这种情况可能更频繁。接下来一两年，我最期待的是自动化扫描技术的提升。毕竟，WordPress的代码库有数千万行代码，甚至超过1亿行，人工审核根本不可能。因此，我们只能依赖开发者进行审核和管理。当然，我们也有漏洞悬赏计划等措施，但当问题被报告后，我们会尽快修复。但我迫不及待地想看到更多自动化扫描技术的应用，我认为这将极大地提升开源软件的安全性。另一个令人兴奋的趋势是，现在人们开发应用程序时，往往只是生成自定义代码，但我认为下一代模型或下一层应用将有所不同……（00:32:54）：众所周知，编写代码只是其中一部分，维护才是其生命周期。斯图尔特·布兰德的新书主要讲维护，我对此非常期待。他与Strike合作出版这本书，而且实际上是开源的。你可以在网上看到书稿的更新进展。不过回到正题，我认为如果……他们开始采用这种模式，即用户说“帮我建个网站”，WordPress会自动安装，然后在此基础上进行定制。用户就能免费获得不断被审核和更新的核心引擎，以及持续更新的密钥支持等新功能。然后用户的自定义代码可以建立在此之上，我认为这比从头开发专有或自定义产品要强大得多。",
+   "ts": "00:31:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this book concept about maintenance. My sister's partner has this quote that I've always come back to, \"Life is maintenance.\" You basically... Everything you acquire and deal with... You get a generator for your house, you have to maintain that forever now. You get this backpack, okay, now you have to maintain this thing, keep it nice, nice jacket. Everything is maintenance. Everything in your life is just maintenance. And I wonder if that's what the book's about.",
+   "zh": "我喜欢这本书关于维护的理念。我姐姐的伴侣说过一句我一直铭记于心的话：“生活就是维护。”你基本上……你获得和处理的每件事……你买了家用发电机，就得永远维护它。买了背包后，你得保养它，保持它美观。生活中的每件事都是维护。我好奇这本书是否也是围绕这个主题展开的。",
+   "ts": "00:33:43"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Well, that's why I think technical debt is one of the most interesting concepts. There's so many companies as well that maybe have big market caps, but I feel like they might have billions or tens of billions of dollars of technical debt. You can see in the interface or how their products integrate with themselves through things. And I think about that a lot in our own company. We definitely have some products, almost a little embarrassed coming on because you have such great product people. And we have some variable quality around some of our things right now. If you check out Gravatar right now, I'm actually really proud of it. It's I think a really great user experience, very slick. But there's parts of... Well, I always say, \"I'm the unhappiest WordPress user in the world,\" so there's parts of WordPress and WordPress.com that I'm a little embarrassed and ashamed of. (00:34:52): We have a really large surface area that we cover with relatively few people, and so there's some parts we haven't looked at in a little while that we need to get around to. And it's a big focus for us this year, is actually kind of going back to basics, back to core, and improving all of those kind of nooks and crannies of the user experience, and also ruthlessly editing and cutting as much as possible, because we just launched a lot of stuff over the past 21 years that maybe is not as relevant today or it doesn't need to be there.",
+   "zh": "嗯，这就是为什么我认为技术债务是最有趣的概念之一。很多公司市值很高，但我觉得它们可能背负着数十亿甚至上百亿美元的技术债务。从界面设计到产品内部的协同机制，都能体现这一点。我在我们公司也经常思考这个问题。我们确实有一些产品，我甚至有点不好意思提起，因为你们的产品团队太出色了。但目前我们有些产品的质量参差不齐。比如你现在看看Gravatar，我真的很自豪。这是一个非常棒的用户体验，流畅无比。但有些地方……嗯，我常说“我是全世界最不满意的WordPress用户”，所以WordPress和WordPress.com还有一些让我感到尴尬和羞愧的地方。（00:34:52）：我们的业务覆盖面很广，但团队规模相对较小，所以有些地方我们已经很久没关注了，今年我们要重点回归基础，专注核心，优化用户体验的每个细节，同时毫不留情地删减和精简过剩功能。毕竟过去21年我们推出了太多可能已经过时或没必要存在的功能。",
+   "ts": "00:34:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That sounds like excellent work for this AI agent of the future that's coming soon. There's one other area I want to mine and that's community, community building, building this ecosystem that you've created around WordPress. It might be one of the most successful, biggest communities on the internet. I'm curious just what lessons you've learned about what it takes to build a successful community, online especially.",
+   "zh": "这听起来对即将到来的未来AI助手来说是个绝佳的任务。还有一个我想深入探讨的领域，那就是社区建设——围绕WordPress打造的这个生态系统。它可能是互联网上最成功、规模最大的社区之一。我很好奇，你们在打造成功的社区（尤其是线上社区）方面积累了哪些经验教训。",
+   "ts": "00:35:21"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "This is probably influenced by economics and jazz. And economics is all about systems thinking. And what are the incentive structures of how you set something up? And then in jazz is all about collaboration. So, if there's something unique I have for your audience, I would say it's don't just build a product, build a movement. And to the extent that we've been successful, I think it's that we give people something to believe in, a philosophy, a worldview. Even silly things, like we had this tagline in the footer of the WordPress.org when we started, it's still there, it says, \"Code is poetry.\" This idea that we're not just writing code, we're trying to create something that can have elements. We name every WordPress release after a jazz musician for the past 60 releases or so. So, those sorts of things bring a little art and soul and some fun into it as well. (00:36:44): It doesn't have to be serious all the time. I think they can give something to believe in and work on and aim towards that's more than just a paycheck or more than just the utility, the base utility of the software. So, it's not just the software, it's also like: how are the meetups? How are people getting together? What events are you running? Are there forums? How do people contribute? Is there office hours or town halls? I do a lot of Q&A. So, what are the things you're doing around the software that's allowing people to get involved, that's inviting contributions, that's allowing people to build on top of it? I've studied platforms quite a bit like Microsoft and others, so our whole ecosystem of plugins and themes is part of what's made WordPress so successful, and the moat that we have. (00:37:33): The core features of a CMS, you can kind of write with a few developers in a few weeks or something. It's not... It's basically CRUD operations, but to replicate those 60,000 plugins and themes, gosh, no one's done it. That's a huge moat. And proprietary services can create platforms. Shopify has a third-party ecosystem and things like that, but it's never a true platform. And a true platform, it's when your ecosystem makes more money than the core does. And so many times, whether it was the Facebook platform, I'm putting that in air quotes, or the Shopify platform, companies build on it and then they get the rug pulled out from under them because they're too successful. (00:38:15): And then the sort of thing you're building on decides, \"Oh, we want that money or we want that growth.\" And they sort of change the API or remove your access. There's so many examples of this, especially on, I think, Facebook and Shopify and others, where people got too successful and all of a sudden they knock on the door and they say, \"Oh, that's a mighty nice app you have there. I'd love to offer you some warrants where we own a bunch of your company or we're going to shut it off,\" or those sorts of things. (00:38:42): And again, you don't have freedom unless you're building on open source. That's why more and more companies and people are choosing... If they're going to build a business on top of something else, if you build it on an open source, you have that guarantee. Even if I grew devil horns and became evil and automatic decided to know whatever, WordPress would still belong just as much to you as it would to me. People can fork the code. They can still own it. They can still build on top of it. So, those things I think are really important.",
+   "zh": "这很可能受到经济学和爵士乐的影响。经济学讲究的是系统思维。而如何搭建一个激励机制，又是怎样的呢？在爵士乐中，合作至关重要。所以，如果我能为你们的听众提供独特的见解，我想那就是：别只建产品，要建起一场运动。就我们目前的成功经验来看，我们成功的关键在于为人们提供信仰的寄托——一种理念，一种世界观。即便像我们WordPress.org最初在页脚使用的标语\"代码即诗歌\"这种看似随意的创意，至今仍在沿用。这背后蕴含着这样的理念：我们不只是编写代码，更是在创造具有灵魂的作品。过去约60个版本中，我们为每个版本都以一位爵士乐手命名。这些细节为产品注入了艺术与灵魂，也增添了趣味性（00:36:44）：不必时刻严肃刻板。我认为产品应该赋予人们信仰、奋斗的目标，而不仅仅是薪水或软件的实用价值。除了产品本身，如何组织聚会、促成交流、举办活动、搭建论坛、鼓励贡献、设置办公时间或座谈会，这些围绕软件展开的活动同样重要。通过研究微软等平台，我们深知插件和主题生态系统是WordPress成功的护城河（00:37:33）：内容管理系统的核心功能，几位开发者几周就能完成。但要复制那6万个插件和主题？天啊，从来没人能做到。这才是真正的护城河。专有服务可以搭建平台，比如Shopify的第三方生态，但那绝非真正的平台。真正的平台，其生态系统创造的价值远超核心产品本身。无论是Facebook平台（这里用引号表示）还是Shopify平台，成功的公司往往被平台釜底抽薪（00:38:15）：当你依托的平台决定：“哦，我们想赚这笔钱或获取增长。”然后修改API或取消访问权限。类似案例太多了，Facebook、Shopify等平台常让成功的开发者措手不及（00:38:42）：唯有开源才能保障自由。因此越来越多的公司选择开源。即使你用开源搭建商业帝国，代码依然属于你我共有的财富。人们可以分叉代码、自主开发、在此基础上创新。这些理念至关重要。",
+   "ts": "00:35:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a segue to all of this drama that's swirling around you these days. I think a lot of people do feel like there's devil horns that have appeared, and so I'm excited to dig into this stuff. I find that every time you go on a podcast these days, if we don't get into this, everyone's just like, \"Why is Matt not answering these questions?\" Let's get into the hard stuff. So, I'm going to ask you some hard questions. For people that don't know what the hell's going on, they're like, \"What are you even talking about?\" or just have a sense something is swirling with WordPress and, Matt, I don't know what's going on, what's just like the high level overview of what's going on?",
+   "zh": "接下来要谈谈最近围绕你引发的诸多风波。很多人都觉得像是恶魔的角突然冒了出来，所以我很兴奋能深入探讨这个话题。我发现如今每次你参加播客节目，如果不谈论这些事儿，所有人都会问：“马特为什么不回答这些问题？”那我们就直入正题吧。我要问你几个尖锐的问题。对于那些不了解情况的人，他们可能会问：“你到底在说什么？”或者只是感觉WordPress和马特之间存在些纠纷，但不清楚具体情况。能不能先概括一下目前的情况？",
+   "ts": "00:39:13"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "So ,to set it, you can get WordPress from WordPress.com or us, but also you can get WordPress from dozens of other hosts. The biggest in the world are like GoDaddy, Hostinger, Newfold. It's not the biggest, but it is in the top 10 or something. It has about 700,000 WordPress installs. There's a company called WP Engine. In 2019, WP Engine started as very WordPress oriented and they contributed a lot to the community and everything like that. They were very respectful about distinguishing themselves from core, so people really realized it wasn't officially associated and everything. But in 2019 they got bought out by a private equity firm called Silver Lake. And anyone who follows business, when private equity buys something, there's some the good ones, but there's also many, many stories about how they can really hollow things out, really optimize our profits, become user hostile. (00:40:45): Actually recently read a story where one of the reasons there was a shortage of firetrucks these LA fires was that the fire truck manufacturers have been rolled up by a private equity firm, and they've been raising prices and their supply constraint and things like that. So, there's literally a shortage in firetrucks right now because of private equity. And of course, if you look at healthcare or other things, there's so many examples of where private equity can really, I think, be one of the darker parts of capitalism. So, since 2019, WP Engine has kind of changed a bit, and they really stopped contributing to core and they started using the trademark in a way that was very confusing in the marketplace. And particularly in the past year, year and a half or so, we're just getting lot... I get a lot of support for requests for WP Engine. (00:41:36): And when we do surveys, we'd find that 20, 30, 40% of people thought they were officially associated because how they were using our logo and presenting the brand and everything like that was very confusing to people. And as you know, if you don't protect a trademark, you lose it. And also the version of WordPress that they were offering actually wasn't our core vision of the functionality of WordPress. So to save money, they were actually turning off features like revisions. So, a cool part about WordPress that... actually one of my favorite features, is every change to every single post or page is saved forever, just like Wikipedia. So, if you make a mistake, you can always undo it. And of course, as building a great product, that sort of user safety of an undo is so critical. (00:42:19): Now, obviously you have to store these revisions, so it takes up more database space. Now, it's trivial, it's megabytes, so on modern databases is not that big a deal. But to save money, they actually turned us off, so they broke the undo feature in WordPress to essentially save money. And so you have this thing where they're offering something called WordPress. I think I refer to it as a bastardized hacked up version of it. It's diluting our brand, and then also people think it's official. So, even close friends of mine were like, \"Oh yeah, I signed up for this thing. I thought I was supporting you.\" (00:42:49): And it's came to a head. So, past 18 months they've also... We contacted them and said, \"Hey, you need a trademark license or something if you're going to use this or change how you're doing things,\" and tried to negotiate something and had many different term sheets over the months offered and different things, and they just kept stretching it out. And I was like, \"What's going on here?\" And I think part of what was going on is last year they tried to sell the company. So, private equity usually holds things for five to seven years, so they were kind of five years into this. They tried to shop it around and sell it. They weren't able to find a buyer. (00:43:25): They said, \"Well, they don't have any IP, and it feels like they're using your trademark, so they're going to have trouble with you. They don't have a license and things like that.\" So, while they were negotiating with us, it appears they were also preparing this lawsuit against us. So again, I've been very fortunate in my business career that we've invested in dozens of companies, we've acquired lots of things, by and large, 99% of the time people I've dealt with in business have been ethical, straightforward, honest. I haven't really faced any baldfaced lying or duplicitous behavior. Very, very rarely people who just say one thing and do another or are fraudulent in their behavior, but I think that was happening here. (00:44:17): And so I also just wasn't prepared for it. I was thinking I was a little naive and kind of didn't realize what was going on for a while. So, it came to a head, and at WordCamp US in September, I was like, \"Okay, well, if you're still not going to even agree to negotiate, I'm going to give this presentation about how I think both private equity has messed up a lot of open source projects in the past, and how in particular, [inaudible 00:44:46] has done some very bad or evil things.\" And they were like, \"Okay, go for it.\" So, I did the presentation. I think it was on a Thursday or a Friday. Kind of spicy. People were like, \"Oh, can't believe he did that.\" (00:45:00): And then on Monday they launched this with Quinn Emanuel, which is kind of the baddest, nastiest law firm, it's like who Elon uses when he sues people, launched this big multimillion dollar lawsuit against both me personally and WordPress.org, so the WordPress community and Automattic. And also they're spending millions of dollars a month on both lawyers and PR. So, they're doing... If you read... Oh gosh, who was the celebrity that they were recently talking about this, like dark PR stuff where they're boosting things on social networks?",
+   "zh": "好的，用户让我把一段英文翻译成中文。首先，我需要通读整个文本，理解其内容和结构。这段文字主要讲的是WordPress的托管服务提供商WP Engine被私募股权公司Silver Lake收购后，如何影响了WP Engine的品牌和用户体验，以及WP Engine与WordPress核心团队的分歧。\n\n接下来，我要注意专业术语和公司名称的准确翻译，比如“GoDaddy”、“Hostinger”、“Newfold”这些公司名可能需要保留英文，或者在中文中找到对应的译名。还有像“core”在这里指的是WordPress的核心团队，应该翻译成“核心团队”或“核心版本”。\n\n然后，注意句子的连贯性和逻辑关系。例如，原文提到WP Engine在2019年被Silver Lake收购后，如何改变策略，停止对核心团队的贡献，并以混淆用户的方式使用商标。这部分需要确保中文表达清晰，避免歧义。\n\n另外，用户提到的具体例子，比如洛杉矶火灾中消防车短缺的问题，需要准确传达私募股权公司收购导致的问题。这里要注意比喻的使用，比如“hollow things out”翻译成“掏空”比较合适。\n\n还有一些技术细节，比如“revisions”功能被关闭，要确保术语正确，可能需要翻译为“修订功能”或“版本回滚”，并解释其对用户安全的影响。\n\n最后，要保持口语化和自然流畅，避免直译导致的生硬。例如，“bastardized hacked up version”可以译为“山寨版”或“劣质改版”，根据上下文选择合适的词汇。\n\n完成初稿后，需要通读检查是否有遗漏或翻译不准确的地方，确保专业术语一致，语句通顺，符合中文表达习惯。同时，注意时间、数字和专有名词的正确转换，比如“00:40:45”要转换为“00:40:45”或“04分40秒45”。\n\n总之，这个翻译任务需要兼顾准确性和可读性，确保专业内容正确传达，同时让中文读者容易理解。\n去年的情况是，他们试图出售公司。私募股权公司通常持有资产五到七年，所以他们当时已经持有这家公司五年了。他们试图四处推销并出售公司，但始终未能找到买家。（00:43:25）对方说：“他们没有任何知识产权，而且感觉他们在盗用你的商标，所以他们会遇到麻烦。他们没有获得授权之类的许可。”所以，在我们与他们谈判的同时，他们显然也在准备起诉我们。说实话，我在商业生涯中一直很幸运——我们投资了数十家公司，收购了大量资产。99%的情况下，与我打交道的人都诚实守信、直言不讳。我很少遇到公然撒谎或行为不端的人。但这次的情况就是如此。（00:44:17）而且我完全没有料到。我当时有点天真，有段时间没意识到问题的严重性。最终矛盾爆发后，9月份在美国WordCamp大会上，我决定发声：“好吧，如果你们连谈判的机会都不给，那我就来做个演讲，讲讲私募股权公司过去如何搞砸了许多开源项目，尤其是[某公司]做了哪些恶劣行径。”他们说：“好吧，你尽管说。”于是我做了这个演讲。演讲是在周四或周五进行的，反响很热烈。人们惊呼：“天哪，真不敢相信他这么做了。” （00:45:00）结果周一，他们就找了Quinn Emanuel律师事务所——这是业界最臭名昭著的律所，类似埃隆·马斯克起诉别人时用的律所——对我们个人、WordPress.org以及整个WordPress社区发起了一场数百万美元的诉讼。他们每月花费数百万美元请律师和公关公司。看看相关报道……天哪，他们最近不是在大肆宣传这件事吗？还利用社交媒体制造负面舆论。",
+   "ts": "00:39:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, Blake Lively and-",
+   "zh": "哦，布莱克·莱弗利和——",
+   "ts": "00:45:35"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Blake Lively, yeah, yeah.",
+   "zh": "布莱克·莱弗利，是的，是的。",
+   "ts": "00:45:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... the other guy.",
+   "zh": "……那个另一个人。",
+   "ts": "00:45:37"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "So, all that stuff is happening, so there's... And I warned people. I think in the presentation I say, \"Hey, there's going to be a smear campaign against me.\" And internally in the company, I was like, \"Hey, they're going to dig up everything that's ever happens. Anything bad anyone's ever said to me is going to all of a sudden become a news item.\" And that has happened. It's been true. So, right now there is a portion of the internet that does think I have devil horns and everything. Fortunately, this is not my first rodeo. I know a lot of people think like, \"Oh, Matt was nice for 20 years, and then got mean.\" But one thing, if you're really open and open source, sometimes you have to stand up the bullies, and you have to fight to protect your open source ideals. (00:46:19): Otherwise people could take advantage of it in a way that ultimately can destroy everything you've created. So, this is probably the fourth time the internet has decided I'm the main character or really evil. And the previous ones we don't remember anymore. It's Hot Nacho or the Easter Massacre of Themes or these are the things that aren't even on my Wikipedia page anymore, but those seemed like really big deals at the time.",
+   "zh": "所以，所有这些事情都在发生，所以有……我警告过人们。我记得在演讲中我说过，\"嘿，会有人对我发动抹黑攻势的。\" 在公司内部，我当时就说，\"嘿，他们会挖出我所有过往的黑料。任何别人对我说过的不好的话都会突然成为新闻热点的。\" 而这确实发生了。事实如此。所以现在网上有部分人确实认为我长着恶魔的角之类的。幸运的是，这不是我第一次经历这种情况了。很多人可能会觉得，\"哦，马特做了20年好人，然后变得刻薄了。\" 但有一点，如果你真的开放且奉行开源理念，有时你就得对抗那些霸凌者，为保护自己的开源理想而战。（00:46:19）：否则别人可能会利用这一点，最终毁掉你创造的一切。所以这大概是第四次互联网认定我是主角或者十足的坏人了。前几次我们都不记得了。比如\"热辣玉米片\"事件，或者\"复活节主题大屠杀\"之类的，这些事现在甚至都不在我的维基百科页面上了，但当时它们可都是大事件。",
+   "ts": "00:45:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Those are your incidents. Those weren't like historical battles.",
+   "zh": "那些都是你的\"事件\"。那些可不是历史性的战役。",
+   "ts": "00:46:43"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "No, no, these are things that, yeah, I was involved in.",
+   "zh": "不，不，这些都是我确实参与过的事情。",
+   "ts": "00:46:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool names at least.",
+   "zh": "至少那些名字挺酷的。",
+   "ts": "00:46:48"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Including some things I had screwed up, like Hot Nacho was definitely a screw-up on my end very early in the WordPress side, but...",
+   "zh": "包括我搞砸的一些事情，比如\"热辣玉米片\"事件，在我刚加入WordPress团队的时候确实是个败笔，不过……",
+   "ts": "00:46:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Okay, I'm not going to follow those threads, but those are great names. (00:46:59): This episode is brought to you by Loom. Loom lets you record your screen, your camera, and your voice to share video messages easily. Record a Loom and send it out with just a link to gather feedback, add context or share an update. So, now you can delete that novel-length email that you were writing. Instead, you can record your screen and share your message faster. Loom can help you have fewer meetings, and make the meetings that you do have much more productive. Meetings start with everyone on the same page and end early. Problem solved, time saved. We know that everyone is in a one-take wonder when it comes to recording videos, so Loom comes with easy editing and AI features to help you record once and get back to the work that counts. Save time, align your team, stay connected and get more done with Loom. Now part of Atlassian, the makers of Jira. Try Loom for free today at Loom.com/Lenny. That's L-O-O-M.com/Lenny. (00:47:59): So, you mentioned this talk you gave at WordCamp, and you said at the beginning of the talk, like, \"I'm-\"",
+   "zh": "哇。好吧，我不打算深究那些事件了，但那些都是很棒的名字。（00:46:59）：本期节目由Loom赞助。Loom让您轻松录制屏幕、摄像头和语音，轻松分享视频消息。录制一个Loom视频，发送出去时只需附上一个链接，即可收集反馈、添加背景信息或分享最新动态。所以，现在您可以删掉那封您正在写的长篇邮件了。相反，您可以录制屏幕并更快地分享您的信息。Loom可以帮助您减少开会，提升会议效率。会议一开始就让所有人达成共识，提前结束。问题解决了，节省了时间。我们知道大家在录制视频时都希望一遍过，所以Loom提供了简单编辑和AI功能，帮助您一次录制，专注于重要工作。节省时间、统一团队、保持联系并完成更多工作，尽在Loom。现在Loom已成为Atlassian（Jira的开发者）的一部分。立即在Loom.com/Lenny免费试用Loom。就是L-O-O-M.com/Lenny。（00:47:59）：所以，您提到了您在WordCamp上的演讲，您在演讲开始时说，\"我——\"",
+   "ts": "00:46:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... at WordCamp, and you said at the beginning of the talk... oh no, afterwards you were like, \"I was really nervous to give this talk,\" and obviously you can see why. Just what finally convinced you this was time? Was it just to go, as you described, scorched earth nuclear? Was it like WordCamp is coming up and this is the moment to go public with this? Was there something else that kind of crossed the line?",
+   "zh": "……在WordCamp上，您在演讲开始时说……哦不，后来您又说，\"我真的很紧张来做这个演讲，\" 显然您能理解原因。最终是什么让您确定是时候公开了？是打算像您描述的那样采取\"焦土核打击\"策略吗？是WordCamp即将到来，是时候公开了？还是有其他越界的事情？",
+   "ts": "00:48:00"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "It was a unique opportunity because we were essentially saying that, hey, WP Engine isn't going to be allowed to sponsor WordCamps anymore. They're not going to be a... Because we had, again, up to that point really done everything to bring them in and have to be part of the community. So I really had to also explain to our community, hey, why we're going to be excluding this company that a lot of people saw as doing good. If you go to the WP Engine website, they have whole pages about how much they contribute and give back and how they... they do kind of greenwash or open source wash a lot of what they do. So all their marketing branding was around this positive stuff, and so I was like, \"Hey, we need to just explain this case.\" (00:49:03): But yeah, again, my defaults and how we've worked with, by the way, every other company in the WordPress space, many of which are much, much larger and make sometimes billions more in revenue than WP Engine, is collaborative. So if there's a trademark violation, usually it's not even lawyers get involved. It's just like there's a email, we have a conversation, we do a call, we talk about it. That's how things get resolved and that's my default. I'm a lover, not a fighter, and that's why this thing doesn't happen very often. I like to say that, yes, if WordPress community or whatever was doing this like every year or every couple months, yeah, you should worry about it, but it kind of happens every like 10 years.",
+   "zh": "这是一个难得的机会，因为我们实质上是在声明，嘿，WP Engine 将不再被允许赞助 WordCamps 了。他们不再是……因为在此之前，我们确实竭尽全力邀请他们加入并成为社区的一员。所以我还必须向我们的社区解释，为什么我们要排斥这家被许多人视为行善的公司。如果你访问 WP Engine 网站，他们有整页的内容宣扬自己做出的贡献和回馈，以及他们如何……他们对许多事务进行绿色洗牌或开源洗牌。他们的整个营销品牌都围绕着这些积极的形象，所以我当时就想，\"嘿，我们需要解释清楚这个情况。\"（00:49:03）：但没错，再说一次，我的默认做法，以及我们与 WordPress 生态系统中其他公司的合作方式（其中许多公司规模大得多、收入比 WP Engine 高出数十亿）都是合作共赢的。所以如果发生商标侵权问题，通常甚至不需要律师介入。只需发送邮件、进行沟通、通话并讨论即可。这样问题就能得到解决，这也是我的默认处理方式。我是个喜欢合作而非对抗的人，所以这种情况很少发生。我想说，如果 WordPress 社区或其他机构每年或每隔几个月就这样做，那确实值得担忧，但这种情况大约每十年才会出现一次。",
+   "ts": "00:48:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So if I could mirror back the issues that you ran into, and I want to go through this a little bit more, the problems you had with WP Engine in this case. One is they were using the trademark both WordPress and WooCommerce without license, and they're just abusing it, confusing people. A lot of people thought WP Engine was actually Automattic and WordPress official. They weren't contributing to the project. They were just making basically a bunch of money and not doing the work off this company they bought and they're just kind of hollowing it out as you described. And then they're also cutting corners, making the product worse, and that kind of reflects on the whole brand of WordPress.",
+   "zh": "那么，如果我能回顾一下你遇到的问题，我想再深入探讨一下你与 WP Engine 合作中的问题。首先，他们未经授权就使用了 WordPress 和 WooCommerce 的商标，滥用商标，误导公众。许多人以为 WP Engine 实际上是 Automattic 和 WordPress 官方机构。他们没有为项目做出贡献，只是通过收购的公司赚取大量利润，然后像你描述的那样逐步掏空它。此外，他们还偷工减料，降低产品质量，这也损害了 WordPress 的整体品牌形象。",
+   "ts": "00:49:46"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "That's a great summary, yeah.",
+   "zh": "总结得很好，是的。",
+   "ts": "00:50:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. I'm curious just which of those three, or is it something even else that most bothered you about this? What's just like, \"This is the thing that's eating me\"? If I had to guess, it'd be damaging the legacy potentially of this thing you've worked on for most of your life. Maybe it's that, maybe it's just taking advantage of the community. What's the thing that you think is the root of this, just like, \"Just this needs to stop\"?",
+   "zh": "太棒了。我很好奇这三个问题中哪一个最让你感到困扰，或者是否还有其他问题。最让你心痛的是什么？如果让我猜测，可能是因为这可能会损害你一生致力于的项目的声誉。也许是利用社区的漏洞。那么你认为问题的根源是什么？就是“必须停止这种行为”？",
+   "ts": "00:50:24"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Well, I guess the one thing I'd add to your list was as this was happening they were pretending to good faith negotiate. And in fact, at one point the executive, we were talking about her joining Automattic and running WordPress out of Oregon and when she thought... the VP and she going to sell, she was thinking about what was next. So yeah, a lot of this stuff was, I think that duplicitous behavior also kind of forced us to an edge more than even those other things that you mentioned. There's lots of companies that don't contribute back and it's not as big a deal. But yeah, the legal issue was definitely the trademark thing. So what pushed it to the edge? I think just the magnitude of the issue. They would refer to themselves as WordPress Engine in client meetings and other things. They were very cavalier about how they would imply their association with the project.",
+   "zh": "嗯，我觉得你提到的清单里还应该加上一点——在整个事件过程中，他们一直假装在真诚谈判。事实上，有一次那位高管，我们当时谈论她加入Automattic并在俄勒冈州运营WordPress的计划。当她以为……副总裁和她要把公司卖掉时，她开始思考下一步该怎么办。所以，我认为这种欺诈行为比你提到的其他因素更让我们走到了绝境。很多公司不回馈开源项目，这倒不是什么大问题。但这次的法律纠纷确实是商标问题引发的。那么，是什么把事情推到了边缘？我觉得是问题的严重性。他们在客户会议上自称\"WordPress Engine\"，还很轻率地暗示自己与WordPress项目有关联。",
+   "ts": "00:50:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Obviously, as you can tell on socials, a lot of people are just really upset and a lot of people blame you. There's just, like I said, every time you're on a podcast or on Twitter, people are just like, \"Matt, what about this? Why this sucks? Why are you doing this?\" And I want to go through some of those things, but just not many people go through... I think you were like a hundred percent beloved hero of open source and internet and now you're in this... a lot of people don't like you. Just as a human, just what is that? How do you work through that? How do you deal with that? What's that been like?",
+   "zh": "显然，从社交媒体上可以看出，很多人非常不满，很多人都在指责你。我说过，每次你上播客或发推特，人们都会问：\"马特，这个问题怎么看？为什么这么糟糕？你为什么要这么做？\"我想详细解答一下这些问题，但很多人不愿意深入探讨……你曾是开源和互联网领域百分百受欢迎的英雄，现在却深陷困境……很多人不喜欢你。从人性角度讲，你怎么看待这种情况？如何克服这些心理？这段经历是怎样的？",
+   "ts": "00:51:46"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "If you were kind of inside baseball with WordPress, it's actually a lot of people who have been unhappy with me over the years, and when we introduced something like Gutenberg, people hated it. Actually when we introduced a visual editor, people hated it.",
+   "zh": "如果你对WordPress内部情况比较了解，就会知道多年来有很多不满我的人。当我们推出Gutenberg时，人们讨厌它。实际上，我们推出可视化编辑器时，人们也反感它。",
+   "ts": "00:52:17"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've had practice.",
+   "zh": "你对此早有经验了。",
+   "ts": "00:52:29"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "These are huge controversies in the WordPress history. There actually hasn't been a fork or WordPress around all this latest stuff, but there was when we introduced Gutenberg. It's one called ClassicPress where people actually forked the software. So how I would describe it is previously like 1% of the world thought I was terrible, and now I feel like it's up to like 4 or 5%. So it's still not the majority, but as you know, something negative you feel seven times more than something positive. And when people are angry with you, it's kind of like restaurant reviews or whatever, they're more likely to leave a bad review than a good review. (00:53:14): The people who WordPress, 98% of all the core developers have stayed and contribute and are working on the next version and are supportive and all these sorts of things. And part of the reason these folks are so good is they don't spend all their time on Twitter and Reddit arguing with folks, and also the arguments could be... they're very frustrating because people don't engage in good faith. They don't really change their mind when new facts are introduced. (00:53:43): And so I've done my best actually because from the open source side I'm really used to engaging with things, and I think that's been one thing I've learned from this is in some forums it doesn't matter how you engage and especially if you have bots or other things running there. I'd leave comments on Reddit and immediately get like 40 downvotes. I'm like, \"Hey, this is a article about me and I'm adding a fact to the thing. Why is it getting downvoted? This is very relevant to the discussion.\" But it's literally hidden. So when you see that thread, you'd have to click like three or four times to see the comment I had left, and so it can really change the perception. And then when you read these things, I think it's just very human nature. Even folks very close to me, if you read a thread and it's all super negative, it's hard to not be influenced by that because we're social creatures.",
+   "zh": "这些在WordPress历史上都是巨大的争议。实际上，关于最近这些事件，WordPress并未分裂成不同分支，但在我们推出Gutenberg时曾出现过分裂。其中一个名为ClassicPress的分支，人们直接分叉了原始软件。用我自己的话说，之前只有1%的人觉得我很糟糕，现在我感觉比例可能上升到了4%或5%。这仍然不是多数，但众所周知，负面情绪比正面情绪更容易被放大。当人们对你生气时，就像餐厅评论之类的，他们更可能留下差评而不是好评。（00:53:14）：WordPress社区的98%核心开发者一直留在项目中，参与开发下一版本，并给予支持。这些人如此优秀的部分原因在于，他们不会把所有时间花在Twitter和Reddit上与人争执，而且争执往往令人沮丧，因为人们不会真诚地参与讨论，当新事实出现时他们也不会改变主意。（00:53:43）：所以我尽了最大努力，因为在开源领域，我习惯于积极参与讨论。我从中学到的一点是，在某些论坛上，无论你如何参与讨论都无关紧要，尤其是如果那里有机器人或其他干扰因素。我在Reddit上留言，立即收到40个踩。当时我说：“嘿，这篇文章是关于我的，我在补充事实。为什么会被踩？这和讨论非常相关。”但评论被隐藏了。所以当你看到那个帖子时，必须点击三四次才能看到我留的评论，这真的会改变人们的看法。然后当你读到这些东西时，我认为这完全是人性使然。即使是和我非常亲近的人，如果你读到一个全是负面评价的帖子，也很难不受其影响，因为我们是社会性动物。",
+   "ts": "00:52:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "100%.",
+   "zh": "100%.",
+   "ts": "00:54:36"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Now the good news is I've had lots of credibility weighted support from people like Marc Benioff or other open source leaders or the core people in WordPress, Matias, Mary Hubbard, all the core committers. The international community actually, like just in Japan, they don't care about this stuff. So these are actually, if you look by number of commits and lines of code and everything like that, the folks who actually are most crucial in WordPress. So I feel like that's been a good balance as well for me because there are days where I'm like, \"Gosh, am I an idiot?\" or it could be really down reading all these things. So that is part of what allows me to balance and get back to that sort of positive, optimistic space that I think you need to be in to do great software and great work.",
+   "zh": "好消息是，我得到了马克·贝尼奥夫等人以及WordPress核心团队成员（如马蒂亚斯、玛丽·哈伯德等所有核心贡献者）的可靠支持。国际社区实际上并不在乎这些事情。就日本而言，他们根本不在乎这些。所以从提交的代码量和行数等指标来看，这些人实际上是WordPress中最关键的角色。所以我觉得这对我来说也是一个很好的平衡，因为有时候我会想：“天哪，我是个白痴吗？”或者读到这些东西时会情绪低落。所以这也是让我保持平衡、回归到那种积极、乐观心态的部分，而我认为你需要保持这种心态才能开发出优秀的软件和完成出色的工作。",
+   "ts": "00:54:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. The internet can be brutal. Let me go through a couple of specific things that people pointed out because I think you've been on a lot of podcasts and people haven't asked you these questions and I think a lot of people are just like, \"But, Matt, what about this? This is really bad.\" So let me just ask you a couple of things here. One is there's just like a frustration in the community around the instability that this has just caused in the WordPress community. I'll read you a couple quotes. \"Real people are receiving fewer projects on WordPress because C-suite are seeing WordPress as unstable because of this feud, and I work at Enterprise and we're very concerned about the stability of this platform and our projects.\" Just thoughts on that and the impact that it's had on the community.",
+   "zh": "是啊，互联网有时确实很无情。让我来谈谈人们提到的几个具体问题，因为我知道你参加了很多播客节目，但人们并没有问到这些问题。我觉得很多人都在想：“但马特，这个问题怎么办？这真的很糟糕。” 所以让我在这里问你几个问题。首先，社区对这场争执给WordPress生态带来的不稳定性感到非常不满。我给你们读几条评论：“因为这场争执，企业高管们认为WordPress不稳定，导致真实用户接到更少的项目。我在企业工作，非常担心这个平台和我们项目的稳定性。” 对此你怎么看？这对社区的影响有多大？",
+   "ts": "00:55:27"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, I think this is until this gets resolved... which by the way I hope it is soon. I think there's no business reason for this to continue. I really hope that they come to a settlement or something. We're ready. They could end this tomorrow if they wanted to. WP Engine could. We can't. We're just defending right now. So it's really incumbent on them. All of our competitors, by the way, are like, \"Great. WordPress, the king on the hill, all of a sudden we can use this.\" And so there's also not just from WP Engine, but also from all the competitors to WordPress, and all the people who would love to capture some market share, they're really leaning into this. So I've seen white papers, I've seen all sorts of things where people talk about this. (00:56:49): We're actually in the next couple of days going to publish something really cool on the WordPress.org blog though that shows if you actually look at the numbers, like the activity, number of commits, plugin updates, downloads, installs of WordPress since September 20th when this all started, it's quite healthy. And so I'm not saying that there isn't examples of where someone lost a project or something like that. I'm sure it's happened. It's the internet's big. WordPress has so many millions of users and developers and everything that you're going to get some example. But by the numbers things are actually quite healthy, and in some ways it's not that there's no press is bad press, it's raised the awareness of WordPress quite a bit. So people who haven't talked about WordPress in years are now like, \"Oh, Let's talk about it.\" And so a little bit of drama I think, I wouldn't do this all the time, but a little bit can be a good thing.",
+   "zh": "是的，我认为在问题解决之前，这种情况会持续下去……顺便说一句，我希望能尽快解决。我觉得这件事没有商业上的必要继续下去。我真的希望他们能达成和解之类的解决方案。我们已经准备好了。如果他们愿意，明天就能结束这一切。WP Engine可以做到，但我们不行。我们现在只能防御。所以这真的取决于他们。顺便说一句，我们所有的竞争对手都在说：\"太棒了。WordPress这个行业巨头突然成了我们可以利用的机会。\" 所以不仅是WP Engine，所有竞争对手，还有那些想抢占市场份额的人，都在大力推动这件事。我看到过各种白皮书，人们都在讨论这个问题。（00:56:49）：事实上，接下来几天我们会在WordPress.org博客上发布一篇很棒的文章。数据显示，自9月20日这场争执开始以来，WordPress的活跃度、提交的代码量、插件更新、下载量和安装量都非常健康。我不是说没有项目丢失之类的情况。我相信这种情况确实发生过。但从数据来看情况其实很乐观。某种程度上，负面新闻未必是坏事，它让更多人关注到了WordPress。那些多年未谈论过WordPress的人现在都在说：\"哦，让我们聊聊它吧。\" 所以我觉得适当的戏剧性冲突也未尝不可，但不能常有。",
+   "ts": "00:56:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so one of the most common frustrations I've seen on the internet, people complaining is around the trademark. I don't know all the details, but my understanding is there's kind of a... you moved the trademark to be owned by the foundation and Automattic is exclusive rights to use the trademark. And I think people are like, \"Oh, I thought it was the foundation owned it, but maybe Matt still owns it and then you're trying to monetize it through this agreement with WP Engine.\" Is there anything you can share there that'll make people feel and see your side of the story?",
+   "zh": "好的，我在网上看到最常见的抱怨之一是关于商标问题。我不了解所有细节，但据我理解，商标现在归基金会所有，而Automattic拥有独家使用权。我觉得人们会想：“哦，我以为商标归基金会所有，但也许马特仍然拥有它，然后你想通过与WP Engine的协议将其商业化。” 你能否分享一些信息，让人们理解你的立场？",
+   "ts": "00:57:39"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, this is totally fair because it's complicated, but people are saying this has been private. This has all been very public and documented on the internet from the beginning. So WordPress.org has always been me personally, and I think because it's... part of the reason we started there is . com was not available when we started. So that's why we started on the .org and things like that. But I think people also assume .org means nonprofit or something, and that's sometimes true but it's not always. It's not a requirement of the .org domain. Then when I founded Automattic and when we did register the trademark that actually was registered under Automattic. So it used to be, for the first five years of the project or whatever, that Automattic just owned everything outright. And again, I had investors and the board and that was under the control of that. (00:59:06): Now, as Automattic became more successful I was able to consolidate some voting rights and other things and at least later advocate. Also remember, I was like 21 when all this was happening, so I was not maybe the most savvy about legal stuff or didn't always have the best advice. So later as I learned more, I was like, \"Oh, I want to actually take this out of the company and create a nonprofit.\" And so we ended up creating a nonprofit. Now the rules around 501(3)(C) nonprofits run the IRS are actually very strict. So that's also something as people assume, it's like, oh, doesn't the nonprofit run the software, and we applied for that originally and it was denied by the IRS. (00:59:47): So we actually weren't able to put WordPress.org or the software itself under the nonprofit, but we were able to have sort of an educational purview. So what was eventually approved was sort of running the meetups and other things for WordPress, doing educational stuff. We sponsor a lot of learn to code or running workshops in other countries. We have this cool thing called do_action where we'll do a weekend where we take a bunch of nonprofits and build websites for them and stuff like that. So the nonprofit does a lot of exciting things there and then also negotiated with the investors and everyone at Automattic to actually put the trademark under the foundation. (01:00:31): Now the compromise there was that Automattic at this point is running WordPress.com. So to continue running that, which at the time had already tens of millions of users and everything, it needed a commercial license. And so the compromise is that the foundation would kind of own the trademark and license it out for non-commercial purposes. I had a license to run WordPress.org because obviously I need that. And then Automattic would retain the commercial license and the ability to sub-license that, so to sell that to others. So this was kind of the grand compromise and create this tripartite structure. I was very inspired by the three branches of government. So there's sort of power in each of those that I think sort of checks and balances each side of it which is on purpose.",
+   "zh": "是啊，这完全公平，因为这事儿确实复杂。但人们总说这事儿一直是私密的，但从一开始这事儿就公开透明，在网上有完整记录。所以WordPress.org一直由我个人运营，我觉得我们选择.ORG的原因之一是，我们刚开始时.com域名没能注册成功。所以我们就选了.ORG之类的域名。但人们还以为.ORG意味着非营利组织之类的，有时确实如此，但也不总是如此。这不是.ORG域名的强制要求。后来我创立了Automattic公司，我们注册了商标，当时实际上是以Automattic的名义注册的。在项目启动的头五年左右，Automattic直接全权拥有所有资产。当时我有投资者和董事会，他们负责把控一切。（00:59:06）：随着Automattic越来越成功，我得以整合一些投票权等权力，至少后来开始倡导相关事务。别忘了，当时我才21岁，处理法律事务时可能不够精通，得到的建议也不总是最佳的。后来我学到更多知识后，就想把这部分业务从公司剥离出来，成立非营利组织。于是我们最终创立了非营利机构。现在美国国税局对501(c)(3)非营利组织的监管非常严格。所以人们常误以为非营利组织会运营软件，我们最初申请时就被国税局拒绝了。（00:59:47）：所以我们最终没能把WordPress.org或软件本身归入非营利组织，但我们获得了教育相关业务的授权。比如组织WordPress聚会、开展教育活动。我们在海外赞助了很多编程学习活动或工作坊。还有个很棒的项目叫do_action，每年周末我们会为非营利组织搭建网站等。非营利组织通过这些活动做了很多出色的工作。之后，我们与Automattic的投资者和团队协商，将商标权授予基金会。（01:00:31）：当前的折中方案是，Automattic继续运营WordPress.com。当时WordPress.com已有数千万用户，维持其商业运营需要商业许可证。折中方案是基金会拥有商标权，并授权其用于非商业用途。我保留了WordPress.org的运营权，因为这对我至关重要。Automattic则保留商业许可证并可转授权他人使用。这就是三方合作的核心架构。我深受三权分立的启发。每个权力分支都相互制衡，形成有力的平衡机制，这正是我们刻意设计的。",
+   "ts": "00:58:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. Okay, I get why it's complicated. I get why people would be confused. This makes me think about OpenAI had a really strange structure and that got them in a lot of trouble, and it feels like when you're 21 you're like, \"Oh, this makes a lot of sense. What a great concept we've come up here,\" and then all this complexity just adds to a lot of confusion around what's going on. So thank you for addressing that. Another, there's a kind of related question I've seen a couple of times is just why don't you let that .org be run by a community. Why not just give that up to someone else and not just you that's there?",
+   "zh": "哇。好吧，我明白这确实很复杂。我也理解人们为何会感到困惑。这让我想到OpenAI之前的组织架构确实很奇怪，结果给自己招来不少麻烦。感觉21岁时你会想：“哦，这太合理了。我们想出的这个概念真是太棒了”，然后这些复杂性却会导致人们对实际情况产生大量困惑。所以谢谢你能解释清楚。另外，我还看到过几个相关的问题，比如为什么不让那个.org域名由社区来运营呢？为什么不把它交给其他人管理，而非要自己独自把持呢？",
+   "ts": "01:01:23"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, and the frame of that question is kind of interesting because it implies I'm the only person making WordPress which is obviously not true. If you look at the daily commits and activity and everything, it is run by the community. So it's hundreds of volunteers every day that are actually doing the day-to-day work and making the daily decisions and everything happens. So there has been a radical delegation. However, there's ultimately a hierarchy, and I'm the CEO, so I'm like the final final decision-maker. (01:02:24): And so I think what people advocate for around this governance point of view is like, okay, well, install a board on top of you that ultimately makes decisions for the product or things like that. And there are other open source projects that have this structure. None of them have been successful as WordPress. So I think your audience in particular, is great software ever created by committee or does it more often reflects a vision of a leader or something that can allow us to... and I think particularly WordPress not just remaining relevant but actually accelerating growth over huge technological shifts over the past two decades. (01:03:12): When we started there was dynamic web apps or DHTML or JavaScript wasn't really a thing, and then the social web and then iPhones and then all this sort of stuff that's changed over time, and we've surfed a lot of these technological changes which is very, very hard to do. Most products do not remain relevant over multiple generational changes like that, and that's been because sometimes we've had to make very unpopular decisions. Gutenberg is a huge part of why WordPress is relevant today, and it's actually an open source project we do. It's the block editor. It's actually bigger than WordPress because it's not just used on WordPress, it's used on every WordPress site, but also like Tumblr, other people. I would actually love if Squarespace or Wix adopted Gutenberg. It's meant to be like a really open source framework. (01:03:56): But anyway, if we had voted for whether we should do that or not, everyone would've voted against it or the majority would have. It was really a few core people of us in the community, Matias, myself, other core contributors, Ella, Andrew Ozz, that said, \"Hey, this is the future and it's going to take 10 years to do and it's going to be a long bet. It's going to suck for the first three or four years, and so everyone's going to hate it in the beginning.\" (01:04:20): But then later with iteration, we've had I think now 200 releases of Gutenberg. We do sort of a very strict every two weeks release schedule since it started. It's going to get pretty good, and it's at that point now where it's actually getting pretty darn good. And the next phase of it, actually I'm so excited about, it's going to be collaboration. So all the real time co-editing like Google Docs and Notion has, it's coming out to this open source thing, and with the technological changes, we're actually able to do it peer-to-peer. So we don't need a centralized server. We can use WebRTC and other cool technologies. (01:04:49): I mean, anyway, I'm going sidelining, but I think that sort of more... and if you look at a lot of great companies, there's a board or whatever but ultimately there's an executive, and some of the most iconic companies of our generations are ones where the executive retains some majority of voting control or other things like that which I've been able to do with Automattic and with WordPress. And I definitely think about succession planning and everything like that, but if or when I'm gone I don't want to pass it to a committee. I want to pass it to someone else who can have a role similar to mine and really sort of try to be a steward. (01:05:34): There ultimately is a check and balance on that because, again, the community could leave. They could fork the software. People could change. And so you're \"in charge\" quote, unquote, but you're also at surface. So it's a lot more being like a mayor than a CEO and that you ultimately are accountable to the folks who are contributing and new users and everything like that. So I do feel like there is a balance there. Some of this as well is that there's some people who aren't part of leadership who feel like they should be. So if you look at the Yoast or Korean things, these are folks who actually don't have commit status. They haven't contributed WordPress over the years and serve our normal hierarchy of the meritocracy of how you get the ability to commit code or things like that. They're like, \"Hey, I want to lead a release.\" That's cool, dude, but there's a process. We have different people lead releases over the years, but they kind of worked their way up to it.",
+   "zh": "是啊，这个问题的框架挺有意思的，因为它暗示我是一个人独自开发WordPress的，但显然事实并非如此。如果你看看每日提交的代码、社区活动等数据，WordPress实际上是由数百名志愿者共同维护的。他们每天承担着日常工作、做出决策，整个项目得以运转。这是一个彻底的权力下放过程。不过最终还是存在层级结构，我作为CEO，承担着最终决策的责任。（01:02:24）：所以我认为围绕治理模式展开的讨论，比如成立一个委员会来做决策之类的，但这些项目从未像WordPress一样成功。我尤其想问听众们：软件是否能通过委员会治理成功，还是更需要领袖的愿景来推动？过去二十年间，WordPress不仅保持了相关性，还在技术变革中加速发展。这在其他开源项目中实属罕见。（01:03:12）：我们刚起步时，动态网页应用、DHTML、JavaScript都还不普及，接着是社交网络、iPhone等技术浪潮。我们成功驾驭了这些变革，多数产品难以在几代技术迭代中保持相关性。这背后有时需要做出不受欢迎的决策。Gutenberg是WordPress至今仍具竞争力的关键因素，它本质上是一个开源项目——块编辑器。它比WordPress本身更具影响力，除了WordPress站点，还应用于Tumblr等平台。我甚至希望Squarespace或Wix能采用Gutenberg。它本应成为一个开放的框架。（01:03:56）：但如果当初让大家投票决定是否采用Gutenberg，所有人都会反对，或者至少多数人反对。最终是社区中的核心成员——马蒂亚斯、我自己、其他核心贡献者埃拉、安德鲁·奥兹——坚持说：\"这是未来，需要十年时间打磨，前三年四年会很痛苦，刚开始大家都会讨厌它。\"（01:04:20）：但经过迭代，我们已经发布了200个Gutenberg版本。自启动以来，我们严格遵循每两周一次的发布周期。现在它已经相当成熟，接下来将迎来协作阶段。谷歌文档和Notion等实时协作功能，将迁移到开源平台。借助WebRTC等技术，我们能实现端到端的协作，无需中央服务器。（01:04:49）：总之，我先不展开太多，但我认为大多数伟大公司都有董事会之类机构，但最终还是由高管掌控。我们这代人最具标志性的公司，其高管往往保留着多数投票权等控制权。我在Automattic和WordPress中成功实践了继任规划等机制。\n是的，但如果我离开或者将来离开时，我不想把权力交给一个委员会。我希望把它交给一个能胜任类似我角色的人，让他们真正充当管理者的角色。（01:05:34）：最终还是存在制衡机制的，因为社区可能会离开，可能会分叉软件，人员可能会变动。所谓“掌管大局”，说白了不过是表面功夫。更像是市长而非CEO的角色，最终你要对贡献者、新用户等所有人负责。所以我确实觉得这里有种平衡。还有一些不参与领导层但自认为应该参与的人。比如Yoast和韩国团队的那些人，他们根本没有提交代码的权限。多年来他们没有为WordPress做出贡献，完全不符合贡献代码的资质标准。他们却说：“嘿，我想领导这次发布。”这想法挺好的，但流程摆在那儿。过去也有不同的人领导过发布，但他们都是一步步晋升上来的。",
+   "ts": "01:01:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This makes so much sense to me. That's one of the themes of the podcast, just the power of a singular visionary and leader, founder mode as we've all heard is trending these days.",
+   "zh": "这对我来说太有道理了。这正是播客的核心主题之一——一位独具远见的领导者所具有的力量，正如我们常说的“创始人模式”如今正大行其道。",
+   "ts": "01:06:28"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "You made famous, yeah.",
+   "zh": "你火了，没错。",
+   "ts": "01:06:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I wouldn't say that it was. Yeah, Brian shared it, but then Paul Graham pointed afterwards and then I renamed the title of that episode Founder Mode to [inaudible 01:06:49]",
+   "zh": "我不认为是这样。是的，布莱恩分享了这个观点，但后来保罗·格雷厄姆指出，随后我把那期节目的标题从“创始人模式”改名为[听不清 01:06:49]",
+   "ts": "01:06:40"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "I really want your [inaudible 01:06:50]",
+   "zh": "我真的很想让你[听不清 01:06:50]",
+   "ts": "01:06:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "If I zoom out, what I'm sensing here is there's people that have this ideal of how something like this should run, but they've never actually worked at a place where a nonprofit board runs it, runs a thing, and have seen what that actually looks like. And so I think there's a big disconnect between the ideal in theory and how does great stuff get built.",
+   "zh": "如果我退一步来看，我感觉这里存在一个很大的分歧。一方面，有些人对这类组织的运作方式有着理想化的设想，但他们从未在非营利性董事会管理的机构中工作过，亲眼见证过其运作模式。正因如此，我认为理论上的理想与实际构建伟大事物之间的脱节十分严重。",
+   "ts": "01:06:50"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "And one of the things I think we've tried to demonstrate with WordPress is actually it's kind of like a open source side and a nonprofit side and a for-profit working in concert. And one of the things people don't necessarily appreciate as much about why WordPress has been so successful is because of Automattic and things like Akismet doing anti-spam or WordPress.com having a free version of WordPress that is introduced over a hundred million people to the software in a way that you could just sign up for free. You don't have to pay for hosting or download it yourself or things like that. (01:07:43): So that kind of for-profit, nonprofit, open source, working in concert I think is a really interesting model that we're starting to see a lot more companies do. It's actually very exciting to me that some of the things that were controversial when we started open source or distributed work are now the default for so many exciting new startups, and this whole ecosystems of really, really cool open source, like Cal.com for open source Calendly. There's so much cool stuff out there that actually there's a whole generation of younger entrepreneurs that I find very, very inspiring because they're also bringing modern design and web development and everything to open source which is very neat.",
+   "zh": "我认为我们通过WordPress项目成功展示了开源、非营利组织和营利性公司协同运作的模式。人们往往没有充分意识到WordPress成功背后的原因——Automattic开发的反垃圾邮件插件Akismet，以及WordPress.com提供的免费版本，让数亿人得以免费体验这款软件，无需支付托管费用或自行下载。（01:07:43）：这种营利性、非营利性、开源三者协同运作的模式，着实令人振奋。如今，许多初创公司都遵循了我们早期开源或分布式工作的争议性理念，这实在令人欣喜。整个开源生态系统涌现出许多精彩项目，比如Cal.com这样的开源日历平台。新一代年轻创业者带来了现代设计、网络开发等元素注入开源领域，着实令人钦佩。",
+   "ts": "01:07:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I anticipate a blog post one day, \"I told you so, guys.\" Open source, remote work, I imagine there's a few more things there. There's one other thing I want to address. I haven't seen you talk about this. It comes up a bunch. It's around, this is very the weeds, but I think it's really important to people, and there's something here for a lot of people, the way you guys forked Advanced Custom Fields. So I think what happened here is you guys forked an existing plugin, I think somebody else's plugin, and then kind of pushed people to this plugin versus the original plugin. What can you share there?",
+   "zh": "我预料未来会有一篇博文写道：\"我就说吧，小伙子们。\"开源、远程工作等领域，肯定还有更多值得探讨的议题。还有一件事我想谈谈。我没见你们提过，但这个话题经常被提及。这是个比较边缘的话题，但我认为对很多人很重要，比如你们如何分叉Advanced Custom Fields插件。当时你们分叉了一个现有插件，应该是别人的作品，然后引导用户使用新插件而非原版插件。能否谈谈当时的决策？",
+   "ts": "01:08:21"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, this is very complex. So WordPress.org has kind of like a app store. After WP Engine started suing us, creating millions of dollars of legal fees and things, we blocked their access to WordPress.org. So this plugin they had, Advanced Custom Fields, wasn't able to be updated. At the same time a number of security issues were found in it, including some we reported, and so there had to be an update to it. So we're like, \"Okay, we'll ship the update for you essentially.\" And then we were like, \"Okay, I think we need to call it something different because it actually isn't theirs anymore.\" And they still offer Advanced Custom Fields on their own and people can download it from them, et cetera. So we made Secure Custom Fields which was originally under the same directory listing, so again, because we want all the users of it to get the security updates. This is controversial, and actually they actually got a preliminary injunction, so the judge said \"Reverse this.\" So this has all been reversed by the way. (01:10:04): There now is a separate fork under separate listing of Secure Custom Fields which actually we have a team on it, developers, designers, and we're creating... just like WordPress was a fork, we've actually forged this. Actually WooCommerce was a forge. A lot of things are forks. So we forked it and now have a new name, new everything that we're doing a lot of product innovation and improving it. So there's a separate project now and separate directory listing for Secure Custom Fields. That's kind of fast-forward to today. They now have access to WordPress.org again. They have updated the plugin. Everything's back to how it was before, and there's now this separate thing called Secure Custom Fields that the WordPress project is officially supporting.",
+   "zh": "是的，这事儿挺复杂的。WordPress.org其实就像一个应用商店。自从WP Engine开始起诉我们，导致我们产生了数百万美元的法律费用后，我们就封禁了他们访问WordPress.org的权限。结果他们之前开发的插件Advanced Custom Fields就无法更新了。同时，该插件被发现存在多项安全漏洞，包括我们曾报告过的一些问题，所以必须对其进行更新。我们当时就想：“好吧，我们可以替他们发布更新。”但后来我们又觉得：“或许应该给它换个新名字，因为它现在不属于他们了。” 于是我们把原名改成了Secure Custom Fields，仍保留在同一个目录下——这样所有用户都能获得安全更新。这引发了诸多争议，法官甚至下达了临时禁令，要求我们恢复原状。（01:10:04）：现在Secure Custom Fields在单独的目录下有独立分支，我们组建了团队，包括开发者和设计师，正在对其进行全面改进。实际上，WooCommerce本身也是一个分支项目。很多东西都是分支产物。所以我们分叉了这个项目，现在有了新名字、全新的一切，正在进行大量产品创新和改进。现在Secure Custom Fields有单独的项目和目录列表。事情发展到今天，他们现在又能访问WordPress.org了，插件也更新了，一切回归原状，而Secure Custom Fields这个独立项目现已获得WordPress项目的官方支持。",
+   "ts": "01:08:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I'm hearing essentially you blocked WP Engine as a part of this, we're just going to simplify WordPress, reduce confusion. They're being bad actors in the space, so we're going to block them, and in that block, there's like a dependency where people couldn't do a thing that they needed to do. So you're like, \"And the one that exists, there's a problem with it, so we're going to make that dependence... release a version that you can actually use and fix the security issues.\"",
+   "zh": "所以我理解的核心是，你们封禁了WP Engine，目的是简化WordPress，减少混淆。他们在行业里属于不正派的角色，所以我们封禁了他们。封禁后，用户无法完成必要操作。于是你们就想：“现有版本有问题，我们要开发一个新版本，修复安全问题，让用户能正常使用。”",
+   "ts": "01:10:46"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "That was the intention. I think that there was a lot of perceptions around it that were different, but yeah, that was the goal.",
+   "zh": "这就是初衷。我觉得外界对此有很多误解，但确实这就是我们的目标。",
+   "ts": "01:11:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Okay. Great. So maybe just the last question. We talked about just a lot of people see you with devil horns these days. They think you're doing bad things and they don't like the approach you're taking. You talked about there's this WP Engine spending a lot of money on PR and hiring this agency. I guess is there anything else that... why do you think so many people are looking at you as the bad guy? Is it mostly that you think... just where do you think it's coming from? Why are comments always so negative? And we talked a bit about it, but anything more there?",
+   "zh": "好的，好的。很棒。最后可能还有个问题。我们注意到你最近经常戴恶魔角发饰，很多人觉得你做了很多坏事，不喜欢你的做法。你提到WP Engine花了很多钱请公关公司和代理机构。为什么这么多人把你视为反派？你觉得主要原因是什么？负面评论为何这么多？我们稍微讨论过，但还有更多想了解的？",
+   "ts": "01:11:14"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "I don't know if I can say why. I do think one thing I've learned is that a lot of these things we've talked about are nuanced. So one essentially thing I've learned in this process is that it's hard to explain this stuff in 240 characters or the-",
+   "zh": "我不知道该怎么解释。我确实意识到一个问题：很多我们讨论的复杂事务都需要细致入微地分析。在这个过程中，最深刻的体会就是用240个字符很难把事情解释清楚——",
+   "ts": "01:11:46"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "... 40 characters. Some mediums do not lend themselves well to discussing this. And so I tried, but I'm participating less in Reddit or Twitter and trying to do more long form things like this, where you can actually have the context and things can't be taken out of context. Also, I think there's something where social networks sometimes are tuned to promote outrage. And it was very interesting. We ran a sentiment analysis recently. We were kind of looking at different social networks, analyzing all the comments, and we found, actually, that the negative, the sort of devil horn fraction on, what was it, like LinkedIn, Facebook, Instagram was like 8%. It's actually pretty small. On Reddit, it was bigger, I forget the exact number, but on Twitter it was 52%. You're like, whoa, what's going on there? (01:12:53): And so there's something in the algorithm, and again, we can't see how the algorithm works or what the incentives are, but it can promote the most controversial things. I think that's not a novel perception. There's a lot of discussion around how social media might be creating more fragmentation in society, and I think this is just an example of that, where when you have networks, when people are getting the majority of the information from social networks, and those networks are not designed to provide nuance or balance, or even promote truth necessarily, misinformation can get spread far more than... What's the saying? Like a lie gets around the world seven times before truth has time to-",
+   "zh": "……40个字符。有些平台不太适合讨论这个话题。所以我尝试过，但我现在在Reddit或Twitter上参与得越来越少，转而尝试做更长篇幅的内容，比如像这样的视频，这样你可以完整传达上下文，信息也不会被断章取义。此外，我觉得社交网络有时会刻意助长人们的愤怒情绪。这非常有趣。我们最近做了一次情感分析。我们研究了不同社交平台，分析了所有评论，结果发现，在LinkedIn、Facebook、Instagram等平台上，负面情绪（比如恶意评论）的比例约为8%，这个比例其实很低。而在Reddit上比例更高，我忘了具体数字，但在Twitter上则高达52%。你会惊讶地发现，这里面肯定有算法的因素，虽然我们看不到算法的具体运作机制，也不知道其背后的商业动机，但它确实会优先推送最具争议的内容。我觉得这并非新观点。现在有很多讨论，认为社交媒体可能正在加剧社会分裂，而这只是其中一个例子。当人们从社交平台获取大部分信息，而这些平台又不以提供细致的观点、平衡的视角或传播真相为己任时，虚假信息就会比真实信息传播得更广——正如那句谚语所说：谎言比真相传播得更快。",
+   "ts": "01:12:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Get out of bed.",
+   "zh": "起床吧。",
+   "ts": "01:13:30"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Get out of bed, yeah. There's been a lot of that. So there's actually been a lot of misinformation, untrue things that go viral, and then the untrue thing gets like 700,000 views, and the correction gets like 20,000 views. So there's been some of that happening. When mainstream media has covered this, it's actually been a lot better. So there's been some actually really good articles in some business publications and other things that sort of look at a more nuanced and balanced view. And I think the podcast have been pretty good, but definitely on Twitter, I think you can get a version of all of this that is both, I think, not entirely true and also pretty more negative.",
+   "zh": "起床吧，对。这种情况挺常见的。所以确实有很多虚假信息、不实内容在社交媒体上疯传，然后虚假内容能获得70万次浏览量，而更正内容却只有2万次浏览量。这类情况屡见不鲜。当主流媒体报道这些问题时，报道得要好得多。所以有些商业刊物和其他媒体确实写过一些非常不错的文章，提供了更细致、更平衡的视角。我觉得播客也做得不错，但在Twitter上，你能看到的版本既不完全准确，又带有更负面的色彩。",
+   "ts": "01:13:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I imagine people are going to be like, \"Lenny, you didn't ask him this thing. Here's the thing he said that I want to learn more about.\" I'm sure I missed some stuff, but from an outsider's perspective, this all make sense. There's a company, I don't think PE companies are bad innately, but their job is buy a company and make it run more efficiently, and then oftentimes sell it for more. So it makes sense that they buy a company, make it more efficient, cut some corners, don't put a lot of effort into making it awesome, even though I'm sure there's awesome people working in there, trying really hard to make it great. And basically what I'm feeling is they got to a point where this is hurting the ecosystem. They're feeling really dishonest with working with you, and there's a stalling technique. And so, makes sense to me why you just have to stand up and fight back. And it's hard, it's hard to do that. Is there anything else along this thread before we move on to a different topic, anything else you want to share before we close out this chapter?",
+   "zh": "是啊。我能想象人们会说：“莱尼，你没问他这个问题啊。我想了解他说的那件事。”我肯定遗漏了些内容，但从旁观者的角度来看，这一切都说得通。有一家公司，我不认为私募股权公司天生就是坏的，但他们的职责是收购公司、提高效率，然后往往以更高的价格出售。所以他们收购公司、提高效率、削减成本、不在打造卓越产品上投入太多精力，这很正常——尽管我相信公司里肯定有很棒的人在努力让它变得出色。而我现在的感觉是，他们已经到了损害整个生态系统的地步。他们跟你合作时感觉很不诚实，这是一种拖延策略。所以在我看来，完全有必要挺身而出反击。这很难做到，真的很难。在我们转向下一个话题之前，这个话题还有什么其他内容吗？或者在结束这一章之前，你还有什么想分享的吗？",
+   "ts": "01:14:15"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Well, if people have more questions, they can come to WordCamp Asia. We're going to do an open Q&A there. We do town halls in the WordPress.org Community. There's a Slack people can get on and ask questions. So there is kind of a lot of open ways to engage, and I'm definitely happy to do that. I'm probably not going to do it on Twitter as much, but when there's longer form opportunities to have a discussion here, particularly if it's more like real time, like this, I'm very happy to. (01:15:43): And that's why if you look at it, there's actually a big difference. WP Engine has not done any podcasts and no press. They don't respond to journalists, they don't talk about this. And I've done the opposite, where I'm really trying to be out there and engaged. And everyone's like, \"Why don't you just let the lawyers do the talking?\" And it's like, well, but we have community, and also I feel like we're in the right. So when you're in the wrong, you probably say only have the lawyers talk. When you're in the right, I think you should be out there and telling the story.",
+   "zh": "嗯，如果大家还有更多问题，可以来参加亚太WordCamp大会。我们会在那里进行开放式的问答环节。在WordPress.org社区，我们也会举办市政厅会议。大家可以加入Slack平台提问。所以说，有很多公开的交流方式，我很乐意参与其中。不过我可能不会在Twitter上频繁发声，但当有更深入的讨论机会时，特别是像现在这种实时互动的机会，我会很乐意参与。（01:15:43）：这就是为什么，如果你仔细观察的话，其实会有很大的差别。WP Engine从未做过任何播客，也不接受媒体采访。他们不回应记者的问题，也不谈论这些事。而我做得恰恰相反，我一直积极参与其中。大家都问：“为什么不让律师来负责发言呢？”但我觉得，当你占据道德高地时，你就应该站出来讲述真相。而当你处于被动防守时，人们只会让律师来处理。",
+   "ts": "01:15:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I remember at the end of your WordCamp talk, you were like, \"Any questions?\" after this big controversial talk, and I'm curious how it felt. All the questions initially were nothing to do with this. It's what it felt like. You're just like, oh, they already had these questions. They didn't even know what you said maybe, and I bet you're just like, wait, did anyone hear what I just said? Did it feel like that?",
+   "zh": "我记得在你的WordCamp演讲结束时，你问了句“还有什么问题吗？”在那场充满争议的演讲之后，大家的问题全然无关主题。那种感觉真是不一样。你会发现，人们甚至可能没听清你之前说了什么，我敢打赌你当时肯定在想：等等，有人听我说话了吗？那种感觉太明显了。",
+   "ts": "01:16:10"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Well, also, that's really like a WordPress community event, so it's a lot of the core developers and things, so they have WordPress questions, so that is something.",
+   "zh": "嗯，这毕竟是WordPress社区活动，所以来的人大多是核心开发者之类的，他们有WordPress相关的问题，这确实挺好的。",
+   "ts": "01:16:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You're like, hello.",
+   "zh": "你好。",
+   "ts": "01:16:37"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "I've now done hundreds and hundreds of these town halls and QAs, and I really enjoy it because you never know what's going to come up.",
+   "zh": "我现在已经参加了数百场市政厅会议和问答环节，我非常享受这个过程，因为你永远不知道会碰到什么问题。",
+   "ts": "01:16:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, okay. I want to talk about all the companies that you bought and will buy in the future. It's kind of like you're building a little Berkshire Hathaway. I think you've described it that way. It's kind of what it's feeling like. And Tumblr is really interesting. Until I started prepping for this, I didn't even know you guys own Tumblr. I haven't heard this story. Why did you guys buy Tumblr? What is going on with Tumblr? It was like a big deal back in the day. What is the current state of Tumblr? What is the story there?",
+   "zh": "是的，好的。我想谈谈你收购的以及未来可能收购的公司。这有点像你在打造一个小型伯克希尔·哈撒韦公司。我记得你自己也这么形容过。确实有这种感觉。Tumblr真的很有趣。直到我开始为这次访谈做准备，我才知道你们收购了Tumblr。我之前从未听说过这个消息。你们为什么收购Tumblr？Tumblr现在情况如何？它曾是业界热议的话题。Tumblr目前的状态如何？",
+   "ts": "01:16:42"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Oh, Tumblr is so interesting. At the time, I think it was one of our best competitors. They created this really amazing sort of hybrid of blogging and social networking. And if you kind of zoom back, a lot of things that are now standard on other social networks, even the ability to embed an image with a post, again, it was not supported originally on Twitter and other things. Remember they used to have, what was it, like tweet image, or you have to linked out to other things to post an image to Twitter. It wasn't native functionality, and Tumblr had these multiple post types. You could post a chat, an image. They were, I think, one of the first to support video, so they did a lot of, I think, product innovation under the leadership of David Karp, who's a really amazing entrepreneur and product leader. (01:17:54): Funny story, both David and I were at CNET at the same time. They had hired both of us.",
+   "zh": "哦，Tumblr太有趣了。当时，我认为它是我们最强劲的竞争对手之一。他们创造了博客与社交网络的完美结合体。回顾过去，很多如今社交媒体上的标准功能，甚至是帖子中嵌入图片的功能，最初在Twitter等平台上都不支持。记得当时Twitter只允许在帖子中链接图片，不能直接嵌入。这些都不是原生功能，而Tumblr支持多种帖子类型。你可以发布聊天记录、图片。他们还是首批支持视频功能的平台之一，这都要归功于大卫·卡普（David Karp）的领导。他是一位非常出色的企业家和产品领袖。（01:17:54）：有趣的是，大卫和我曾同时在CNET工作，他们当时把我们俩都招了进来。",
+   "ts": "01:17:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What an alumni group at CNET.",
+   "zh": "CNET的校友群真是了得。",
+   "ts": "01:17:59"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "They could have kept both of us probably. But anyway, the Tumblr, I forget the year, but they sold, I think the same time that Instagram did, for a similar amount, $1.1 billion.",
+   "zh": "他们本可以把我们俩都留住的。不过话说回来，Tumblr那事儿，我记不清具体年份了，但我记得他们是在和Instagram差不多同时被卖掉的，价格也差不多，11亿美元。",
+   "ts": "01:18:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "To you or to someone else?",
+   "zh": "卖给你们还是卖给别人了？",
+   "ts": "01:18:14"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Instagram bought by Facebook, obviously.",
+   "zh": "显然是被Facebook收购了。",
+   "ts": "01:18:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right, right. Tumblr.",
+   "zh": "对，对。Tumblr。",
+   "ts": "01:18:19"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "And Tumblr bought by Yahoo.",
+   "zh": "然后Tumblr被雅虎收购了。",
+   "ts": "01:18:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哦，哇。",
+   "ts": "01:18:21"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Who was at the time, again, Yahoo, we don't think about it now, but I feel a little old. But at the time, Yahoo was one of the internet giants and had recently Marissa Mayer, who was one of the big early people at Google, I think part of creating the API program and everything like that, was the CEO of Yahoo. This was, I think, one of her first big acquisitions. (01:18:46): Now subsequently, obviously ,we know how Instagram went. I think people were like, \"I can't believe you bought this for a billion dollars.\" And obviously now it's worth hundreds of billions. So that's had a really good trajectory. At Yahoo, I think things became more challenged. So again, this is a little bit of history, but Yahoo then had this thing where they owned part of Alibaba, which then became more valuable than the rest of the company. They had activist investors. I think they had some CEO switches. I think Marissa Mayer leaves or gets fired at some point. There's all this turnover, and I think Tumblr really languished under their ownership. And from what I can understand, the team was actually held back a lot from things they wanted to launch or ways they wanted to iterate. Then Yahoo merges with AOL, which is another kind of early internet thing. That goes for a little while. So again, then Tumblr's just kind of stuck underneath this stuff.",
+   "zh": "当时雅虎还是谁来着？现在我们都不太记得了，但我感觉自己有点老了。不过当时雅虎可是互联网巨头之一，而且当时刚任命了玛丽莎·梅耶尔。她是谷歌早期的重要人物之一，参与了API项目等开发，现在雅虎CEO。她收购Tumblr应该算是她执掌雅虎后的首笔大交易。（01:18:46）：之后大家都知道Instagram的发展了。当时人们都惊呼“难以置信你们花10亿美元买了这个”。而现在Instagram市值已经数百亿美元了。发展轨迹真是惊人。雅虎方面则陷入了困境。当时雅虎持有阿里巴巴的部分股权，后来阿里巴巴的价值远超雅虎其他资产，还有激进投资者介入，CEO更迭，玛丽莎·梅耶尔离职或被解雇，管理层频繁变动，而Tumblr在雅虎旗下也发展缓慢。据我了解，雅虎团队被严格限制，无法推进许多创新计划。后来雅虎与AOL合并，AOL也是早期互联网巨头，但合并后的业务也未能成功。最终Tumblr被Verizon收购。时间快进到2019年，Verizon想摆脱Tumblr，于是挂牌出售，收到了多个竞标，最终Automattic以极低价格收购。据报道，我们只花了300万美元。",
+   "ts": "01:18:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Tumbling along.",
+   "zh": "真是便宜啊。300万。",
+   "ts": "01:19:43"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Tumbling along. And then that gets bought by Verizon. So fast-forward to 2019. Verizon wants to get rid of Tumblr. And so they're kind of putting it up for sale and had a number of bidders. Automattic ended up buying it for a de minimis amount. I think it's been reported we bought it for $3 million.",
+   "zh": "真是便宜啊。然后又被Verizon收购。快进到2019年。Verizon想摆脱Tumblr，于是挂牌出售，收到了多个竞标，最终Automattic以极低价格收购。据报道，我们只花了300万美元。",
+   "ts": "01:19:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a deal. 3 million.",
+   "zh": "真划算。300万。",
+   "ts": "01:20:10"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "But obviously, that represented a lot of value destruction over the years. Tumblr had had some tough times. They actually were banned from the App Store at one point for not moderating things well enough and having maybe a little too much porn. Obviously, Twitter [inaudible 01:20:31] porn. They maybe were a little too out there with it, and we're doing a good job filtering it and keeping away from App Store reviewers or whatever. And so Verizon, to their credit though, there were people bidding more. Actually I think a porn company was bidding on Tumblr that would've paid a lot more money. They really were looking for an acquirer that they felt like would be a good steward. From my point of view, I had such incredible respect for Tumblr as a product. And the community, still, despite all of this sort of stuff that had happened, I think at that point still was like, I forget the exact number, but call it 15, 20 million monthly active users. (01:21:14): So really, sort of active core. And one of the things that's so fascinating is over half of that user base was under the age of 25. And actually had a huge, I think, it was like 25 or 30% LGBT+. I think a very unique place on the internet, where people could have a social network where they could be anonymous, they could put on different identities, they could be someplace their parents weren't, like Facebook or Instagram, really still could take a special spot. So we ended up buying it. Now, people are like, \"Oh, you bought it for $3 million.\" But we bought it sort of taking on all liabilities, including, I think they were under investigation by the FTC, there were lawsuits. There was all this sort of stuff. So it was free like a puppy, not free like-",
+   "zh": "显然，这些年来Tumblr的价值被严重削弱了。它曾经历过一段艰难时期。事实上，该平台曾因未能有效监管内容且色情内容泛滥而被苹果应用商店下架。推特（Twitter）也曾因类似问题被禁（未录音部分01:20:31），色情内容问题处理得有些过火。不过值得称赞的是，Verizon的竞标方出价更高。据我所知，甚至有一家色情公司愿意出更高价收购Tumblr，他们显然在寻找一个能妥善管理平台的买家。就我个人而言，我对Tumblr作为产品深怀敬意。即便经历了种种风波，其社区活跃用户数量依然可观——当时月活跃用户约1500万至2000万（01:21:14），其中超过半数用户年龄在25岁以下。LGBT+群体占比更是高达25%至30%。这是一个独特的网络空间，用户可以匿名社交、隐藏真实身份，远离父母的监管，比如Facebook或Instagram这样的平台根本无法复制这种独特体验。最终我们收购了Tumblr。如今人们会说“你们只花了300万美元买下它”。但实际上，我们接手时承担了所有债务，包括FTC的调查、法律诉讼等诸多风险。这次收购就像收养一只小狗，绝非免费——",
+   "ts": "01:20:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Free like beer.",
+   "zh": "而是像买啤酒——",
+   "ts": "01:22:01"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Had a pretty big team, I think 185 people. We were taking a lot of burners, burning a ton of cash, and that was 2019. And so, it's been, I think, a humbling experience running a social network. It was very, very different from all the other products that we've done. And I think there's some incredible things about Tumblr and that I'm still very excited about. So where WordPress has primarily a desktop and web user base, Tumblr is obviously like 85% app-based, has a younger demographic. And so part of the vision that now we're executing on is actually we wanted to create a path for people using Tumblr to actually it being powered by WordPress on the back end. So Tumblr users could unlock themes, customization, plugins, et cetera. Actually, we're in the process right now of migrating the half a billion Tumblr sites to WordPress, probably one of the largest data migrations-",
+   "zh": "当时我们组建了185人的团队，烧钱如流水，那还是2019年的事。运营社交网络的挑战超乎想象，与我们之前的产品完全不同。Tumblr仍有许多亮点，我至今仍对它充满热情。与WordPress主要面向桌面和网页用户不同，Tumblr85%的用户通过应用访问，用户群体更年轻。我们目前的愿景是让Tumblr用户在后台使用WordPress的技术支持，解锁主题、自定义功能、插件等。目前我们正将5亿个Tumblr站点迁移至WordPress，这可能是史上最大规模的数据迁移之一——",
+   "ts": "01:22:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That makes sense.",
+   "zh": "这说得通。",
+   "ts": "01:22:58"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "... that's happened in a while. So we're kind of trying to do this in a way that's invisible to users on the front end, so changing at the back end while maintaining the APIs and the interface and everything. So it's a fun engineering project. I kind of posted this kind of call to arms, got a lot of fun people applying for Automattic, and we hired a lot of great folks around this sort of audacious project, this big hairy audacious goal. And so that's where it's at now. I've sort of ran it personally for a few years while we're doing turnarounds, but there's a great team there, but still challenged, still not profitable, so we're still subsidizing it from the rest of Automattic's businesses. Fortunately, the rest of our business have done really well, so we were able to do that, but I definitely want to get to a place where it's sustainable. (01:23:46): And one of the things we're also experimenting with is can Tumblr have not just an advertising-driven model? I think ultimately the incentives of advertising social networks can lead to the kind of dynamics that you see on the more negative side of Twitter, Instagram, Facebook, et cetera. And so really trying to create a subscription model or a sort of first-party user-driven advertising, where you promote your blog posts or something like that, or you promote a WooCommerce product or something, where it's not a third-party ad ecosystem, which I think has a lot of weird code and malware and lots of stuff I don't love.",
+   "zh": "嗯，确实有段时间没发生这种事了。所以我们正试图以一种用户在前端看不出来的方式来推进这项工作，后端进行调整，同时保持API、界面等一切不变。这真是个有趣的工程项目。我发了一篇类似“号召令”的帖子，吸引了不少有才华的人申请加入Automattic，我们为这个雄心勃勃的项目招募了许多优秀人才。这就是目前的进展。在过渡阶段，我亲自负责了几年，但现在已经组建了一支强大的团队。不过业务仍不盈利，所以我们仍在从Automattic的其他业务中抽取资金补贴。幸运的是，其他业务发展得非常好，才得以维持这一局面。但我确实希望能让Tumblr实现可持续发展。\n\n（01:23:46）：我们还在尝试的一个方向是，Tumblr能否不局限于广告驱动模式？我认为，最终广告驱动的社交媒体平台可能会导致类似推特、Instagram、脸书等平台负面效应的出现。因此，我们正努力创建订阅模式或用户主导的广告体系，比如推广博客文章、WooCommerce产品等，而非依赖第三方广告生态系统——那种充斥着恶意代码和各种问题的生态环境。",
+   "ts": "01:23:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, sounds like a lot you took on with this acquisition, and I love that you said you ran it initially. So this is a good segue to maybe my last question. I'm curious where this goes. Just how do you... Well, let me zoom out. There's a lot of people these days that are excited about roll of businesses. I'm going to buy a bunch of companies, make them better, make them awesome, save money, and then just keep building this holding company sort of thing. You guys are doing that, and it's working well. What do you look for? How do you decide a company's right for Automattic? What are the factors that are like, we should buy this, we can turn this around and turn it into a big success?",
+   "zh": "哇，收购Tumblr后你们承担了不少挑战，我很欣赏你最初亲自操盘的做法。这让我能顺势提问我的最后一个问题。我很好奇Tumblr的未来走向。你们是如何运营的？又如何判断一家公司是否适合Automattic？哪些因素决定了我们应该收购它、扭转局面并将其打造成成功案例？",
+   "ts": "01:24:21"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "I don't know if I would do another turnaround like Tumblr again, or at least not for many, many years. It's definitely a different thing. The vast majority of things we acquire, it's simply something that's done well, and we want to accelerate it, or sometimes acqui-hires, where we're plugging it into one of our existing projects, or we're taking the team and putting them on something we're already doing. So it's a really talented team. Tumblr, I think we ended up ultimately replacing 85, 90% of the team as well. So that's just very different. So I do think there are different ways of doing it, but if you look at our other acquisitions like Day One, et cetera, founder's still here, many years later, we're accelerating stuff like that. We brought it to Android, we're bringing it to it to web. It's more of taking something good and making it better. And probably our best example there is WooCommerce, which was a small company, I think 35, 40 people, based out of South Africa, and has obviously grown to... Again, I said Automattic makes about half a billion dollars a year now, and WooCommerce is a majority of that.",
+   "zh": "我不确定自己是否会再经历像Tumblr这样的转型，至少未来很长一段时间都不会了。那确实是完全不同的情况。我们收购的大多数公司都表现出色，我们希望加速其发展，有时会进行收购整合，将其融入现有项目，或是让团队转向我们正在推进的方向。Tumblr的团队规模很大，甚至换掉了85%至90%的原班人马。这完全不同。所以我认为确实有不同的运作方式，但看看我们其他的收购案例，比如Day One等公司，创始人多年后仍在公司，我们正在加速其发展。我们将Day One引入安卓平台，推向网页端。更多的是在现有基础上优化提升。WooCommerce就是最典型的例子。这家公司最初只有35、40名员工，总部位于南非，如今显然已发展壮大。",
+   "ts": "01:24:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of that, actually, you haven't shared the revenue number. I know it's public. Just give people a sense of Automattic's revenue. Can you just share those numbers? Because I think it might blow people's minds.",
+   "zh": "说到这儿，其实你还没透露过营收数据。我知道这信息是公开的。能不能给听众讲讲Automattic的营收情况？因为我觉得这数字可能会让大家大吃一惊。",
+   "ts": "01:26:06"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, I think we say publicly it's about a half a billion dollars in sort of ARR revenue right now.",
+   "zh": "是的，我想我们公开的信息是，目前的年度经常性收入（ARR）约为5亿美元。",
+   "ts": "01:26:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Incredible. Okay. I have a question for you. It's kind of a hot seat question. As you talked, I wonder, I feel like people are thinking of this. So you've been talking about PE companies being often bad. You're buying Tumblr. You've talked about laying off a bunch of people, turning it all around. How's that different from a PE company, Matt?",
+   "zh": "太不可思议了。好的，我有个尖锐的问题。听你讲话的时候，我感觉大家都在思考这个问题。你一直在说私募股权公司往往不善于经营，而你们收购了Tumblr，还裁减了大量员工，成功扭转了局面。这和私募股权公司有何不同，马特？",
+   "ts": "01:26:20"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, and I agree with you that just because it's private equity doesn't mean it's bad. And also, something people say is like, \"Hey, wait, don't you have private equity investors as well at Automattic?\" And we do. Now, they own usually a small percentage, sometimes under 1%, and they don't have control of the company. So I think there's a distinguish. Is it a minority investment or a control investment? And with WP Engine, Silver Lake controls the company. And when they control the company, I think there's a spectrum of actions. Obviously, being more efficient is great, and we should all strive for that. And I think every business does, whether it's private equity or our business or things that are founder controlled. You always want to be more efficient. Now, there's some spectrum there where you over-optimize, or you could have dark patterns. Right now on WP Engine, it's very difficult to cancel your accounts. Actually, I think as of today, 45,000 sites have left, so they're, I think, down to 600. Yeah, well, because their customers have realized like, \"Hey, this isn't WordPress, this isn't...\" or, \"They're suing the guy who started WordPress, so maybe we should not support this commercially.\" So we have the site wordpressenginetracker.com that sort of shows in real time the sites that are leaving. It's kind of an exciting thing to see that number tick up. Actually, maybe a good example as well, even though there's a lot of negativity, you actually look at how people are voting with their wallets. They're leaving. (01:28:07): So I think you have to judge as well, just look at the track record. So one of the things I'm very proud of with Automattic is we are an acquirer of first resort, and we have founders that have sold to us. Paul Mayne at Day One is a great example that didn't need to sell. They're wildly profitable, could have run it himself for a long, long time, but people choose to join because they feel like we'll be good stewards of it in the future, and ultimately just have to look at the track record. (01:28:36): So I think don't judge it by what it's called, judge it by the actions over time. And I hope to continue building that reputation for a place that's a good steward of communities and software and everything else for many years to come.",
+   "zh": "是的，我同意你的观点，私募股权并不意味着糟糕。还有人会问：“嘿，等等，Automattic不是也有私募股权投资者吗？”确实有。但他们通常只持有很小的股份，往往不足1%，而且无法控制公司。所以这有本质区别。是少数股权投资还是控制性投资？拿WP Engine来说，Silver Lake控制了公司。当私募股权公司控制公司时，行为往往存在灰色地带。显然，提高效率是好的，我们都应该为此努力。无论是私募股权公司、我们自己的业务，还是创始人控制的公司，每个企业都希望提高效率。但这里有过度优化和暗藏陷阱的风险。比如现在WP Engine很难注销账户。实际上，截至今天，已有4.5万个网站离开平台，剩下约600个。原因是用户意识到：“嘿，这不是WordPress，这不是……” 或者，“他们正在起诉WordPress的创始人，所以我们或许不该支持这项商业服务。”所以我们建立了网站wordpressenginetracker.com，实时显示离平台的网站数量。看到这个数字不断攀升真是令人兴奋。即便负面声音很多，但人们用实际行动投票。（01:28:07）所以评判时要看实际表现。我对Automattic最自豪的一点是，我们是首选收购方，许多创始人都愿意把公司卖给我们。Day One的保罗·梅恩就是典范，他本不必出售公司。他们利润丰厚，本可以自己经营很久，但人们选择加入，因为相信我们未来会妥善管理公司，最终还是要看实际表现。（01:28:36）所以别看标签，看行动。希望未来多年，我们能继续树立良好声誉，成为社区、软件等领域的优秀管理者。",
+   "ts": "01:26:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Matt, we covered so much. I asked you all the hard questions and more. Before we wrap up, is there anything else that you want to leave listeners with? Any last thoughts, comments, insights, stories?",
+   "zh": "马特，我们聊了很多。我问了你所有尖锐的问题。结束前，你有什么想留给听众的吗？最后的想法、评论、见解或故事？",
+   "ts": "01:28:52"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, follow me. I'm at photomatt, P-H-O-T-O-M-A-T-T, on Tumblr, Twitter, Instagram, everything like that. I post a lot about other stuff. I post a lot about AI and open source and other things. Some WordPress things in there as well. I have these life missions to democratize publishing and commerce. We added a new one last year, which is messaging, so it's in beta mode right now, but relaunching in a few months as a product called Beeper, which takes all your Telegram, Instagram DMs, Signal, everything, brings it all into one app. And you can do some really cool stuff like that, and especially when you start to imagine search or AI, local AI around that. So very, very excited about that relaunch. So I encourage people to, you check out the beta now, go to beeper.com/beta to get the new version, and we're going to relaunch that later in the year. (01:29:50): So yeah, I'm very excited about that. It's kind of fun to be working on something that's at the stage where WordPress was in 2003, 2004. So WordPress is quite mature at this point. WooCommerce is kind of where WordPress was in 2010. And then the Beeper stuff, the messaging stuff is where we were in 2003. So one thing that keeps me excited is working at different stages of this.",
+   "zh": "是的，关注我吧。我在Tumblr、Twitter、Instagram等平台上的账号都是\"photomatt\"，拼写是P-H-O-T-M-A-T-T。我主要分享其他方面的内容，比如人工智能、开源项目，还有一些WordPress相关的内容。我还有个毕生使命，就是让出版和商业变得民主化。去年我们新增了一个功能——即时通讯，目前还在测试阶段，但几个月后就会正式上线产品\"Beeper\"，它能整合你所有的Telegram、Instagram私信、Signal等消息平台，统一管理所有对话。用户还能进行很多酷炫的操作，特别是结合本地AI的搜索功能，这让我特别兴奋。（01:29:50）所以我鼓励大家现在就去体验测试版，访问beeper.com/beta获取最新版本，今年晚些时候我们会正式发布。（01:31:25）能参与不同阶段的产品开发真的很棒。",
+   "ts": "01:29:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This feels like a reason to be doing your approach to Berkshire Hathaway is just stay active in early stage stuff and not just optimize established things. So it's beeper.com, by the way, awesome domain name. Photomatt, what's the story of photomatt? You're into photography, I imagine, is the story?",
+   "zh": "这让我明白，为什么你要关注伯克希尔哈撒韦这样的公司，就是要在早期阶段保持活力，而不只是优化现有事物。顺便说一下，Beeper的域名很棒。Photomatt这个名字有什么故事吗？我猜你应该和摄影有关吧？",
+   "ts": "01:30:12"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, it's a little bit of a pun. So a fotomatt is also, F-O-T-O-M-A-T-T, is a place that you would go to develop your photos back when you would have film and develop things. So originally my username was Saxmatt because I played the saxophone. Sometimes people mishear that. And also, I started traveling so much. There's been years I do like 400,000 miles of air travel, because I go around the world to go to WordPress events and meet the community. And as a distributed company, we do lots of meetups. And so, it became hard to carry my saxophone around. So my method of artistic expression became photography, and that's actually kind of how WordPress started, was actually originally a site where I could share my photos before Flickr, before Facebook and everything like that, sort of use this gallery software, actually open source gallery software, PHP software, to sort of share all the photos I was taking. (01:31:25): And actually now on my website, I think I have over 38,000 photos I posted. And yeah, it's still one of the things I really love. So it's also a username that was available everywhere, and I still do it. So I'm actually going to the Maha Kumbh Mela, the big 300-million-person gathering at the Ganges River in a few weeks. And one, I'm just excited to experience that, it happens every 12 years, but two, I'm just really excited to take some time to do photography. And yeah, I really enjoy it.",
+   "zh": "是的，这是个双关语。Fotomatt也是“F-O-T-O-M-A-T-T”，指的是冲洗胶片照片的地方。最初我的用户名是Saxmatt，因为我会萨克斯风，有时人们会听错。后来我开始频繁旅行，有些年份飞行里程高达40万英里，因为我要参加WordPress活动、与社区互动。作为分布式公司，我们常举办聚会，但带着萨克斯风太不方便了。于是摄影成了我的艺术表达方式，而WordPress最初也是这样——在Flickr和Facebook出现前，我用开源的PHP图库软件分享照片。（01:31:25）现在我的网站上应该有超过38,000张照片。这依然是我热爱的事。用户名在各平台都可用，我至今还在用。几周后我要去恒河岸边参加大壶节，这场每12年一次、吸引3亿人参加的盛会。我既期待亲身感受，又想好好拍照。",
+   "ts": "01:30:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You forgot to mention your website and your blog, your WordPress site itself, where you blog. Ma.tt, is the domain, which is amazing. I will point people to one of my favorite ritual you have on your blog, which is you share what's in your bag, you talk about how you travel all this, and I think every year you're like, here's the gadgets I use most and bring with me everywhere.",
+   "zh": "你忘了提到你的网站和博客，特别是Ma.tt这个域名，太棒了。我会推荐大家去看看你博客上最受欢迎的栏目——“我的行李包里有什么”，分享旅行必备物品，每年你都会更新最常用的数码产品清单。",
+   "ts": "01:31:56"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "It's my most popular post of the year by far.",
+   "zh": "这是我今年最受欢迎的帖子，毫无悬念。",
+   "ts": "01:32:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm not surprised. You need an Amazon, just buy everything button. Yeah, because basically you're just trying to optimize for the least weight and most utility, right, out of all these gadgets that you're bringing with the on trips.",
+   "zh": "我一点也不惊讶。你需要一个亚马逊式的\"立即购买\"按钮。是啊，因为基本上你就是想在旅途中携带的所有小玩意儿中，找到最轻便又最实用的平衡，对吧？",
+   "ts": "01:32:20"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Yeah, actually weighing it is something I just started doing this year because my bag actually got really heavy, got like 35 pounds or something. And so, some friends were like, \"Hey, why don't we weigh everything and just go through.\" So now I'm posting the weights.",
+   "zh": "是啊，其实今年我才开始称重的。因为我的行李真的太重了，有35磅左右吧。所以有些朋友就说，\"嘿，为什么不把所有东西都称一称，直接整理一下呢？\"所以现在我把重量都发出来了。",
+   "ts": "01:32:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh my god. Okay. Anyway, we'll point people to that. Matt, thank you so much for doing this. This was awesome,",
+   "zh": "天哪。好吧。不管怎样，我们会把链接发给听众的。马特，非常感谢你参与这次访谈。这太棒了。",
+   "ts": "01:32:45"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Lenny, thank you so much. And I really appreciate the ability to discuss these things in a longer form. And also just your audience. Oh, I guess final thing I'll say is we're hiring a ton. So you have one of the most incredible audiences in the world. I recommend your podcast and newsletter to a lot of my colleagues. And so, if you're someone who loves this kind of stuff, I think there's a big opportunity at Automattic to have an impact on these things.",
+   "zh": "莱尼，非常感谢你。我真的很感激能有机会更深入地探讨这些话题。还有你的听众群体。哦，我想最后要说的是，我们正在大规模招聘人才。所以你拥有世界上最棒的听众群体之一。我向很多同事推荐了你的播客和时事通讯。所以，如果你也喜欢这类内容，我觉得在Automattic有很大的机会能在这些领域产生影响。",
+   "ts": "01:32:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What roles are you hiring for most and where do people find these roles?",
+   "zh": "你们目前招聘最多的职位是什么？在哪里可以找到这些职位信息？",
+   "ts": "01:33:11"
+  },
+  {
+   "speaker": "Matt Mullenweg",
+   "en": "Automattic.com, A-U-T-O-M-A-T-T-I-C. There's a Work with Us page. You can kind of see how we work. We're fully distributed and can manage that forever. We sort of started that. Another interesting thing is we actually pay the same salaries globally. So whether you're in California or Italy or Nigeria or wherever, we pay global salaries. So yeah, a lot of opportunities, and we're hiring for kind of everything, I would say, but particularly people with great design or product skills is probably one of the areas that you can have the biggest impact at Automattic right now.",
+   "zh": "Automattic.com，A-U-T-O-M-A-T-T-I-C。网站上有“加入我们”页面。你可以了解我们的工作方式。我们完全远程办公，并且一直保持这种模式。我们开创了这一模式。另一个有趣的点是，我们在全球范围内支付相同的薪资。所以无论你是在加州、意大利、尼日利亚还是其他地方工作，我们都支付全球统一的薪资。所以是的，有很多机会，我可以说，特别是拥有出色设计或产品技能的人，现在在Automattic可能会产生最大的影响力。",
+   "ts": "01:33:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. If you made it this far into the podcast, you should definitely apply. Matt, thank you. Thank you for being here. Bye, everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or a leaving a review as that really helps other listeners find the podcast. You could find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "好的。如果你能听完这期播客，绝对应该去申请一下。马特，谢谢你来。感谢你的参与。再见，各位。非常感谢收听。如果你觉得这期内容有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅节目。也请考虑给我们评分或留下评论，这对其他听众找到节目非常有帮助。你可以在lennyspodcast.com上找到所有往期节目或了解更多信息。下一期节目见。",
+   "ts": "01:33:53"
+  }
+ ]
+}

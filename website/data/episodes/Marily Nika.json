@@ -1,0 +1,689 @@
+{
+ "id": "Marily Nika",
+ "name": "Marily Nika",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Marily+Nika",
+ "bio": {
+  "en": "Marily Nika is an AI Product Lead at Meta (Reality Labs) and was an AI product manager at Google for eight years; she holds a PhD in Machine Learning and teaches AI Product Management.",
+  "zh": "玛丽丽·尼卡（Marily Nika）是 Meta（Reality Labs）的 AI 产品负责人，此前在 Google 做了八年 AI 产品经理；她拥有机器学习博士学位，并教授 AI 产品管理课程。"
+ },
+ "summary": {
+  "en": "Marily argues every PM will become an AI PM because nearly every product needs personalization and recommender systems. She shares how ChatGPT helps her write mission statements and user personas, and why PMs should learn basic coding. The episode is a practical guide to working with data scientists and shipping AI features responsibly.",
+  "zh": "玛丽丽认为，每个 PM 终将变成 AI PM，因为几乎每个产品都需要个性化与推荐系统。她分享了如何用 ChatGPT 撰写使命宣言与用户画像，以及 PM 为何该学一点编程。本期是一份关于如何与数据科学家协作、负责任地上线 AI 功能的实用指南。"
+ },
+ "turns": [
+  {
+   "speaker": "Marily Nika",
+   "ts": "00:00",
+   "en": "There is something called the shiny object trap, and I'm always telling people, \"Hey, don't do AI for the sake of doing AI.\" Make sure there is a problem there. Make sure there is a pain point that needs to be solved in a smart way. Once you have identified what that problem is and what that very, very high-level solution is, then reach out and try to figure out how to actually implement it.",
+   "zh": "存在一种叫做“闪亮物件陷阱”的现象，我总是告诉人们：“嘿，不要为了做AI而做AI。”首先要确保存在问题，要明确存在一个亟待用智慧方法解决的痛点。一旦你确定了问题所在，以及那个极高层次的解决方案，就要积极探索如何将其落地。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "00:28",
+   "en": "Welcome to Lenny's podcast where I interview world-class product leaders and growth experts to learn from their hard one experiences building and scaling today's most successful companies. Today my guest is Marily Nika. Marily teaches the most popular course on Maven on AI and product management. She's currently product lead at Meta focusing on Metaverse, avatars and identity. Prior to Meta, she was at Google for over eight years working on Google Glass, computer vision and machine learning around speech recognition. In our conversation, we touch on what PMs should be paying attention to when it comes to what's happening in AI. We talk about a bunch of resources that'll help you get started in the world of AI. How AI tools available today can already help you do your job better as a PM. (01:12): We also get relatively technical into what exactly is a model, how are models trained, all kinds of fun stuff like that. Enjoy this conversation with Marily Nika after a short word from our wonderful sponsors.",
+   "zh": "欢迎来到Lenny的播客节目，我会采访世界级的产品领袖和增长专家，从他们成功打造和扩展当今最成功公司的宝贵经验中汲取智慧。今天的嘉宾是Marily Nika。Marily在Maven上教授最受欢迎的AI与产品管理课程。她目前在Meta担任产品负责人，专注于元宇宙、虚拟形象和身份识别领域。在加入Meta之前，她在谷歌工作了八年多，参与过谷歌眼镜、计算机视觉和语音识别相关的机器学习项目。在我们的对话中，我们探讨了产品经理在AI领域需要关注的重点，分享了许多有助于你入门AI世界的资源，解析了当下可用的AI工具如何助力产品经理提升工作效率。（01:12）我们还深入探讨了模型的定义、模型训练等技术细节。与我们精彩赞助商的简短致辞之后，请尽情享受与Marly Nika的对话吧。"
+  },
+  {
+   "speaker": "Speaker 3",
+   "ts": "01:26",
+   "en": "This episode is brought to you by Amplitude. If you're setting up your analytics stack but not using Amplitude, what are you doing? Anyone can sell you analytics while Amplitude unlocks the power of your product and guide you every step of the way. Get the right data, ask the right questions, get the right answers, and make growth happen. To get started with Amplitude for free, visit amplitude.com. Amplitude, power to your products.",
+   "zh": "本期节目由Amplitude赞助。如果你正在搭建分析堆栈却没有使用Amplitude，那你还在等什么？Amplitude能解锁产品潜力，为你提供全程指导，助你高效获取正确数据、提出正确问题、获得正确答案，最终推动业务增长。免费试用Amplitude，请访问amplitude.com。Amplitude，赋能你的产品。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "01:53",
+   "en": "This episode is brought to you by EPPO. EPPO is a next-generation AB testing platform built by Airbnb alums for modern growth teams. Companies like Netlify, Tenfold and Cameo rely on EPPO to power their experiments. Wherever you work, running experiments is increasingly essential, but there are no commercial tools that integrate with a modern growth in stack. This leads to waste of time building internal tools or trying to run your experiments through a clunky marketing tool. When I was at Airbnb, one of the things that I loved about our experimentation platform was being able to easily slice results by device, by country, and by user stage. EPPO does all that and more, delivering results quickly and avoiding annoying prolonged analytics cycles and helping you easily get to the root cause of any issue you discover. (02:41): EPO lets you go beyond basic clickthrough metrics and instead you turn north star metrics like activation, retention, subscriptions and payments. And EPPO supports test on the front end, the backend, email marketing and even machine learning clients. Check out EPPO at geteppo.com, get E-P-P-O.com and 10x your experiment velocity. (03:06): Marilee, welcome to the podcast.",
+   "zh": "本期节目由EPPO赞助。EPPO是由Airbnb前员工为现代增长团队打造的下一代AB测试平台。Netlify、Tenfold和Cameo等公司都依赖EPPO来支持实验运作。无论你在哪里工作，开展实验越来越重要，但市面上却没有与现代增长堆栈无缝集成的商业工具。这导致企业不得不耗费大量时间自建内部工具，或是尝试通过笨拙的营销工具来运行实验。我在Airbnb时，最喜欢实验平台的一点就是能够轻松按设备、国家和用户阶段细分结果。EPPO能实现这一切甚至更多功能，快速提供实验结果，避免烦人的长期分析周期，并帮助你轻松找到发现问题的根源。（02:41）EPPO让你超越基础点击率指标，转向激活率、留存率、订阅和支付等北极星指标。EPPO支持前端、后端、邮件营销甚至机器学习客户端的测试。访问geteppo.com，立即提升实验效率10倍。（03:06）Marly，欢迎做客播客。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "03:08",
+   "en": "Thank you. Hello, thank you for having me.",
+   "zh": "谢谢。您好，感谢邀请。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:10",
+   "en": "It's very much my pleasure. We've interacted a little bit on Twitter. We've never actually talked before just right now. I've seen your course just all over the place, your course on AI and PM. And so I just thought it'd be really fun to have you on and help us all understand what the hell is happening in AI and especially AI and product. So thanks again for being here.",
+   "zh": "非常荣幸。我们在推特上稍有互动，但今天是我们首次正式交流。我到处都能看到您的课程，特别是关于AI和产品管理的课程。所以我觉得今天能邀请您来分享，帮助我们理解AI领域，尤其是AI与产品结合的现状，真是太棒了。再次感谢您今天的到来。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "03:33",
+   "en": "Yes, thank you. I'm really excited.",
+   "zh": "是的，非常感谢。我真的很兴奋。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:36",
+   "en": "I would love your help as a former full-time PM/everyone listening that is a current PM, to help us understand what is going on with AI and product tech in general and tools in general. Move really fast, if you're trying to pay attention to what's happening, it's really hard to stay up to date on where things are going and it feels especially hard in AI. (03:57): It feels like there's just something coming out every day. And so I have a bunch of questions along these lines. The first is just like what media do you pay attention to stay on top of what's happening and what's new and what's interesting in the world of AI and machine learning?",
+   "zh": "作为曾经的全职产品经理，也作为在座的各位现任产品经理，我希望能借助您的专业知识，帮助我们理解AI和产品技术的整体发展趋势，以及相关工具的应用。变化速度极快，如果你想紧跟AI领域的动态，确实很难做到。（03:57）感觉每天都有新进展。因此，我有许多相关问题想请教。首先，您平时通过哪些媒体渠道来获取AI和机器学习领域的最新动态和有趣资讯？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "04:11",
+   "en": "As you know very well, subscribing to newsletters is something that's really impactful. And of course, I subscribe to your newsletter, but I am a big, big, big fan of the download by MIT Ecology Review or Atelier. And they're not necessarily AI-centric, but what I'm advocating for and what I'm telling people is that in the future everything will be AI by default. So even if you have something that's technology focused, you'll see a lot of AI starting to get sprinkled in there.",
+   "zh": "如您所知，订阅新闻通讯是获取行业资讯的有效方式。我订阅了您的通讯，但我对麻省理工学院《生态评论》或Atelier的下载内容也非常推崇。这些媒体并非专注AI，但我所主张的是：未来一切都将默认采用AI技术。因此，即便你专注于某个技术领域，也会发现AI元素逐渐渗透其中。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "04:40",
+   "en": "I want to follow up on what you just said there, but maybe we'll save it a little bit. Maybe going in a different direction first, what do you think is overhyped in the space of AI right now? What do you think is under hyped and undervalued?",
+   "zh": "我想就您刚才提到的观点展开讨论，但或许先转换一下思路。当前AI领域中，哪些技术被过度炒作，哪些又被低估了？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "04:52",
+   "en": "I would like to discuss strategy between, which is both under hyped and over hyped at the same time. I was reading this article this morning where there are writers complaining and they're very, very fearful and they think, \"Oh, writing online is going to die. Everything we've studying for is going to be replaced. They're going to take our jobs and so on.\" And I'm just like, \"No, no, no. Charging PT and technology is enhancing our work. It's enhancing us. It does not steal from us.\" So that's what comes across right now. And there are other things that are under hype, but obviously ChatGPT is amazing. I'm using it day to day, but there are other things AI can do in an amazing manner. (05:34): I was reading a research article the other day that said that AI can now detect place. So lie detection, whether I is for security reasons or at work or anything like that is now possible. So I encourage people to go to these newsletters and go to these online blogs, 10 prints and so on, and just read what's happening. It's not all about chat reading, there's more, there's more about AI, but you should read a lot.",
+   "zh": "我想探讨战略层面的双重现象——既被低估又被高估。今天早上我读到一篇文章，作者们充满恐惧，认为在线写作即将消亡，所学知识将被取代，工作岗位将被替代等等。我想说：“不不不！技术和人工智能正在提升我们的工作效率，它们是在赋能我们，而不是夺走我们的工作机会。” 这就是当前的主流观点。但还有其他被低估的技术，比如ChatGPT确实令人惊叹。我日常都在使用它，但AI还有更多惊人应用。（05:34）前几天我读到一篇研究文章称，AI现在可以进行位置检测。因此，测谎技术——无论是出于安全需求、工作场景还是其他目的，都已成为现实。我鼓励大家多关注这些新闻通讯和在线博客，比如10prints等，及时了解最新动态。AI领域不只有ChatGPT，还有更多精彩内容，值得深入探索。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "05:58",
+   "en": "You mentioned that you use ChatGPT in your work life. Talk about that. What are you actually using it for?",
+   "zh": "您提到在工作中使用ChatGPT。能谈谈具体应用场景吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "06:04",
+   "en": "Even when I'm at work and I am trying to come up with a nice mission statement, when we're PMs will come up with mission statements, it's just crucial part and it's where the core begins. You want to get people excited, you want to get people inspired. There is nothing I can write that's going to be as good as what ChatGPT looks like. So what I do is I literally go to ChatGPT and I say rewrite this mission statement from me and even the first try produces something which is fantastic, so that. (06:34): Number two, it helps me create user segments in a fantastic way. It will think of user segments that your mind wouldn't even go there, it just wouldn't go there. And it will provide the motivations, it will provide the pinpoints and you just come up with ideas as you read it. And then the last thing that it does is it provides ideas for you whether AI enhanced. So I just use a day-to-day, even [inaudible 00:07:00] day-to-day workflow, but I'm not making it do my job for me, I'm asking it after I have already had a mission in my head and what it is I want to do.",
+   "zh": "即便我在工作时，试图构思一份出色的使命宣言——当我们身为产品经理时都会去构思使命宣言——这也是至关重要的一环，正是从这里开始形成核心理念。你要激发人们的热情，鼓舞他们的斗志。没有任何我能写出的东西能比得上ChatGPT生成的效果。所以我的做法是，直接去ChatGPT平台，让它重写我拟定的使命宣言。即使是第一次尝试，也能产出令人惊叹的成果。\n\n（06:34）第二点，它能以极其出色的方式帮我划分用户群体。它能想到一些你根本想不到的用户细分，完全超出你的想象。它会提供用户动机和关键点，读着读着你就会产生灵感。最后，它会为你提供AI增强型创意建议。我只是在日常工作中使用它，即便是在[听不清00:07:00]日常工作中，但我不会让它替我完成所有工作——而是在脑中构思好使命后，再让它提供建议。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:10",
+   "en": "So is the way you're approaching it is you just put in, come up with a better mission statement then and then you give it your version of the mission statement?",
+   "zh": "所以你的方法是先构思出一个更好的使命宣言，然后再把它提供给ChatGPT？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "07:18",
+   "en": "Exactly.",
+   "zh": "没错。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:19",
+   "en": "Interesting. And you're saying that that comes up with a better mission statement than the one you had?",
+   "zh": "很有意思。你是说它能想出比你原本的更好吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "07:25",
+   "en": "It's better because the mission statement is going to be read by all disciplines. It's not just going to be read by PMs that already have a lot of context and understand. It's going to be read by leadership, by junior people, by stakeholders, by other departments, by competitors. And you needed to be on Orient ending the words that are meant to be understood by everyone. Even a kid could understand and they would get inspired by you as well.",
+   "zh": "确实更好，因为使命宣言要面向所有部门阅读。不仅是PM们已经有上下文和理解的读者，还包括领导层、初级员工、利益相关者、其他部门、竞争对手等。你需要用通俗易懂的语言，让每个人都能理解。甚至孩子也能读懂，并从中获得启发。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:49",
+   "en": "And then you also said he use it for personas. How do you actually frame that prompt with ChatGPT?",
+   "zh": "然后你还提到用它来做用户画像。具体如何用ChatGPT来构思这个提示呢？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "07:55",
+   "en": "Let's say you're working for a specific product area and you know want to create some fitness band, so you would say something like, who would be interested in the fitness band that doesn't have a screen? And it will provide a bulleted list all of people like, hey, young professionals are that they're interested but don't have enough time. People that do not want to charge their wearables every day. Then the list goes on. It's just fantastic.",
+   "zh": "比如说，你在为某个产品领域工作，想打造一款没有屏幕的健身手环，那你可以问：谁会对没有屏幕的健身手环感兴趣？它会提供一个分点列表，比如年轻专业人士，他们感兴趣但时间不足；不想每天给可穿戴设备充电的人等等。列表会一直延续下去，简直太棒了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "08:24",
+   "en": "You were talking about how you think the future of AI is, it's the default and is what you mean there that it's basically baked into every product we use and it helps the user do better things, it helps the product work better. Is that what you mean or is it something else?",
+   "zh": "你之前提到你认为AI的未来是默认融入的，意思是它会被嵌入我们使用的每个产品中，帮助用户做得更好，产品运作得更顺畅。你是这个意思吗？还是有其他含义？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "08:39",
+   "en": "I believe that ballpark managers will be AI product managers in the future. And this is because we see all products needing to have a personalized experience, a recommender system that is actually good. I mean you cannot watch to Netflix, you cannot even watch a movie without needing that. After you watch White Lotus or Stranger Things, you will want something similar to watch. You're not going to want a romantic thing to be suggested or recommended to you. (09:06): Also, automation is another thing. We need to keep improving on society. We need to keep making technological advancements. You're not going to be able to do that if you don't have an AI centric view in every sector that you're working on.",
+   "zh": "我认为未来的球场经理将成为人工智能产品经理。这是因为我们看到所有产品都需要提供个性化体验，需要一个真正有效的推荐系统。比如，你看Netflix时，你甚至看电影时都离不开这些功能。看完《白莲花度假村》或《怪奇物语》后，你会想看类似的影片，而不是被推荐浪漫题材的影片。（09:06）  \n此外，自动化是另一个关键点。我们需要不断推动社会进步，持续推进技术创新。如果每个领域的PM都不以人工智能为核心视角来开展工作，这是不可能实现的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "09:20",
+   "en": "When you say that every PM will be an AI PM is your thinking that you'll be using AI tools in your job as a PM or that you'll be building AI into everything you're building with? How do you think about that?",
+   "zh": "当你说每个PM都将成为AI PM时，你的意思是作为PM，你会使用AI工具，还是说你会将AI融入到你所开发的每个产品中？对此你怎么看？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "09:35",
+   "en": "I think it's that you will need to get comfortable with having a partner that's a research scientist and you will need to understand that these people can produce a smart model. They'll be able to do some automation, some personalization, some recommendations on. In a lot of people, truly uncomfortable, a lot of people don't know how to approach the researchers. A lot of people don't like the uncertainty that research has. A lot of PMs are very, very used to, \"Okay, I'm going to do this, I'm going to launch, I'm going to do this, I'm going to launch.\" Whereas when you're working with research, it's more like we're going to try this and then in a year if it doesn't work out we're going to shut the written down and repeated completing [inaudible 00:10:17]. So I feel that if people get more used to uncertainty and research, things are going to be good in the end for them.",
+   "zh": "我认为这意味着你需要适应与研究科学家合作的模式，并理解他们能够生成智能模型。他们能够实现自动化、个性化推荐等功能。很多人，尤其是PM们，对此感到不适应，不知道如何与研究人员沟通，也不喜欢研究所带来的不确定性。很多PM习惯于“好的，我要做这个，发布了就行”，然而与研究团队合作时，更多的是先尝试某个方案，等一年后如果失败了，再调整方向并重新开始。所以我觉得，如果人们能更适应不确定性和研究过程，最终对他们会有好处。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "10:28",
+   "en": "I thought you were comparing ChatGPT as a researcher you're working with, but you're actually saying people will have PhD researchers on their teams helping them build models into their product to make their product better. Is that what you're saying?",
+   "zh": "我原以为你是在将ChatGPT比作与你合作的研究员，但实际上你是在说每个团队都会有博士级研究人员帮助他们将模型融入产品以提升产品质量。对吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "10:43",
+   "en": "Correct. This is exactly what I'm-",
+   "zh": "没错。这正是我的意思——"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "10:45",
+   "en": "Interesting.",
+   "zh": "有意思。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "10:47",
+   "en": "And from a product perspective I can imagine like three bubbles in my head. So you want to find the intersection both something that's desirable by users, something that is going to be a viable business and something that is going to be feasible from a research scientist and technical perspective. And then when you have that, it's just going to be a capacity product for desktop launch that you can run with. So yeah, whenever I say researcher, research scientist that can produce an AI machine learning model.",
+   "zh": "从产品角度来看，我脑海中浮现三个要素。即找到用户需求、商业可行性以及研究科学家和技术可行性的交集。当这些要素契合时，产品就能在桌面端成功发布并投入运营了。所以，当我提到研究员或研究科学家时，我指的是能够生成AI机器学习模型的专家。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "11:15",
+   "en": "Wow. Didn't think about how every cross-functional team might end up with a research scientist. Interesting, interesting. For PMs who are curious about learning how to do this stuff, what are a couple things that PMs today who have no experience with AI, what can they do to start learning how to build AI tooling into their products, understand what the hell's happening in the space of AI?",
+   "zh": "哇。之前没想到每个跨职能团队最终可能都会配备研究科学家。真有意思，真有意思。对于对AI感兴趣的PM们，你们能给些建议吗？对于目前没有AI经验的PM们，他们该如何开始学习如何将AI工具融入产品，理解AI领域的最新动态？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "11:40",
+   "en": "This is a good question and I guess the message I want to pass is you shouldn't be overwhelmed by these technologies if you don't have a technical background because you can learn these things and as a PM you'll never need to actually train or code. Also, even if you want to train, there are no code approaches for training models. But to answer the question, if you're working on any product, you can always sprinkle in a smarter feature. So you can make it more secure, you can personalize it, you can enhance it with fraud detection, you can make it more ethical. If it's healthcare, you can make it faster, you can make it more accurate. If it's shopping, you can create better accommodations. Basically anything where you can get data behind the behavior with users can be improved with AI. (12:30): So I guess it's all about changing the mindset of PMs. Taking a step back and just thinking about, okay, I have all this data that's just lying and sitting around what is it that I can do with it? I've been meeting PMs that said, \"Oh, we're not collecting any data, we're [inaudible 00:12:46] dashboard.\" So even that is a huge first step towards AI. And then just start thinking about it, where you could deal, get a data science intern and just see what they are going to do. There's just so much people can do.",
+   "zh": "这是个好问题。我想传达的信息是，如果你没有技术背景，就不必被这些技术压得喘不过气来，因为你可以学习这些知识。作为产品经理，你永远不需要亲自去编程或训练模型。即便你想接受培训，目前也没有针对训练模型的编程方法。不过还是来回答这个问题吧——无论你负责哪款产品，都可以逐步添加更智能的功能。比如增强安全性、实现个性化服务、引入反欺诈机制、提升道德规范等。若是医疗领域，可以提升效率和准确性；若是电商领域，可以优化用户体验。总之，任何能获取用户行为数据的场景，都能通过AI技术加以优化。\n\n（12:30）所以关键在于转变产品经理的思维模式。退后一步思考：我手头有这些闲置的数据，能用来做什么？我遇到过很多产品经理说：“我们不收集任何数据，只是搭建仪表盘而已。” 但这本身就是迈向AI的重要第一步。然后再开始探索，例如招募数据科学实习生，看看他们能创造什么价值。潜力无限。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "13:00",
+   "en": "So say you want to start investing in some sort of model, some sort of AI within your team, you're saying maybe hire data scientists who can help you start to build something that you can start integrating. Is that your advice on the first step of once you start, you want to start getting serious about building some sort of AI component.",
+   "zh": "假设你想在团队中引入AI模型或相关技术，建议先聘请数据科学家协助构建原型并逐步集成。这是第一步。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "13:19",
+   "en": "There is something called the shiny object trap and I'm always telling people, \"Hey, don't do AI for the sake of doing AI\". Make sure there is a problem there. Make sure there is a pain point that needs to be solved in a smart way. Once you have identified what that problem is and what that very, very high level solution is, then reach out and try to figure out how to actually implement it. And there's a definition I like giving. I usually say that the generalist PM helps their team and their company build and ship the right product. But the AI PM helps their team or company solve the right problem. So if you want to get into AI PM figure out what the problem is that you will get a data scientist to create a model for solving, but there needs to be a problem, there needs to be audience, there needs to be a user and a pin going for it.",
+   "zh": "要避免陷入“追逐新奇技术”的陷阱。必须先明确问题所在，找到亟待智能化解决的痛点。确定问题后，再思考如何落地。我的定义是：通用型产品经理帮助团队交付正确的产品；而AI产品经理则专注于解决核心问题。例如，要引入AI模型，需先明确其解决的具体问题，确保有明确的应用场景、用户群体和数据支撑。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "14:11",
+   "en": "What are signs that AI may not be a good approach to solving a problem? You said that, and this happened on a lot of my teams, oh we're going to build a really cool model, it's going to do something really smart in this case and it often ended up being a very low ROI investment and took six months to a year before you even knew what the hell what was happening. Do you have any thoughts on signs that maybe this isn't a place you should be putting a lot of time into AI versus this is definitely an opportunity. Yes, we should do this, invest a lot of time into this.",
+   "zh": "如何判断AI是否是解决问题的正确方案？很多团队曾遇到过这种情况：我们要构建超酷的模型，结果却ROI极低，耗时半年到一年才发现根本没达到预期效果。如何判断是否值得投入大量精力？关键在于：是否有明确的应用场景？是否有明确的用户群体？是否有清晰的数据支撑？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "14:42",
+   "en": "Don't do it for your MVP. It makes zero sense. Do not waste time of data scientists that can train models with using powerful machines that are going take weeks to train. This is because if you have an MVP and you just want to get buy-in for an idea or feature that may use AI in the future, take it, create a little figma prototype and just show it some users, just fake what the AI is going to be doing. So a lot of young early stage entrepreneurs reach out to me and they say, \"Oh, should train this model to do this and that because we want to prove that there is a market.\" \"No, do not use AI. You should use AI where you think you already have some data or data from an adjacent product that you feel you can leverage for your own product to create something that's meaningful, recommendation automation, what we talking about. But not for an MVP. Please people, this is my advice.",
+   "zh": "别为了你的MVP而做这件事。这毫无意义。别浪费数据科学家的时间，他们本可以用强大的机器训练模型，而这可能需要数周时间。原因在于，如果你有了一个MVP，只是想为一个未来可能用到AI的创意或功能争取认可，那就别费这个劲了。只需创建一个Figma原型，向用户展示，让他们看看AI会如何运作就行了。所以很多初创企业家找到我时会说：“哦，我们应该训练这个模型来做这个做那个，因为我们想证明市场存在。”“不，别用AI。应该在你认为已有数据或可利用相邻产品数据的地方使用AI，为自己的产品创造有意义的东西，比如推荐自动化之类的。但别为了MVP这么做。拜托，这就是我的建议。”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:46",
+   "en": "How much data do you think you need for AI ML to have a chance to contribute? You have a heuristic of if you have anything less than this, it's not going to work at all.",
+   "zh": "你觉得AI机器学习需要多少数据才能有机会发挥作用？你有个经验法则，如果数据量不足，那根本行不通。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "15:59",
+   "en": "This is a good question and it honestly depends on what I'm what I'm trying to do. If you're trying to classify, if the photo is a category dog, obviously even if you have, I don't know like 15, 20 labeled photos, what's going to work. But if you want to create voice recognizers or complicated NLP applications, you're going to need thousands of [inaudible 00:16:19] of data. And this what's making this not be easy? AI systems are not easy to develop. There is a life cycle of a machine learning project and after scoping you need to figure out, \"Oh god, how much data do we need? Where do I find this data as well, how much data?\" Sometimes I've seen people synthesizing their own fake data just so that they can have something to train with and test their models. But the exact amount is hard to be defined, especially from a [inaudible 00:16:50]. I'm sure data scientists have a different opinion.",
+   "zh": "这是个好问题，但具体取决于我的目标。如果你想做分类任务，比如判断一张照片是否属于某个类别，显然即使只有15-20张标注好的照片也能做到。但如果你想开发语音识别或复杂的自然语言处理应用，就需要数千条[00:16:19未听清]数据。这点难在哪里？AI系统开发不易。机器学习项目有完整的生命周期，在规划阶段后，你得盘算：“天啊，我们需要多少数据？从哪儿获取这些数据？需要多少数据？” 有时我见过人们自己合成假数据，就为了能有东西训练模型测试。但具体数据量很难界定，尤其是从[00:16:50未听清]的角度。我相信数据科学家会有不同看法。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "16:53",
+   "en": "Yeah, my guess is most startups are going to have nowhere near enough data to build their own model and make it something really interesting. So do you have a thought on when it makes sense to try to build your own model, try to train your own GPT type thing versus use something that's already out there like say GPT or aJourney or all those guys.",
+   "zh": "是啊，我猜大多数初创公司根本没有足够的数据来构建自己的模型并做出真正有趣的东西。那么你对何时值得尝试构建自己的模型，训练自己的GPT类模型，或者使用现有平台如GPT、Ajourney等有何见解？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "17:17",
+   "en": "If you are a big tech company and you're offering a service that is going to do speech or permission or then it's going to have their own tragedy, you want to use more data and more diverse data to train and retain and train because if you don't then your quality is going to be the same as every other companies. There are agencies that are selling data, packages of data, that are ready so you can get them and train your models. But the question is if everyone takes that exact dataset, then the quality that every single company is producing is going to be the exact same. So you do want to diversify, you do want to collect your own data. And I guess a good question from my prem perspective is when is the quality of your product good enough to lunch? (18:08): And that is a really interesting point because it's totally your responsibility as a PM to decide, \"Okay, the recognition of whether this folder is a category dog is good enough for the users, it's like 70% accurate, 80% accurate, where is the bar, where do we launch?\" And that's why I'm like the AI PM role is so cool because you have problems like that to solve that no one else was tackled before. So it's all on you.",
+   "zh": "假如你是一家大型科技公司，提供语音识别或面部识别等服务，那么你们很可能需要收集大量多样化的数据来训练和优化模型。若不这样做，产品质量就会与其他公司无异。目前市场上有一些机构出售现成的数据包，用于模型训练，但问题是，如果每个公司都使用相同的数据集，最终产品质量就会千篇一律。因此，企业必须收集自身独有的多样化数据。  \n\n从产品经理的角度来看，一个关键问题是：何时才能判定产品质量达标并正式上线？（18:08）这确实是个很有意思的挑战——作为产品经理，你需要判断模型识别准确率是否达标，比如70%、80%，但具体门槛在哪里？何时该正式发布产品？这正是AI产品经理的魅力所在——你需要解决前人未曾触及的难题，一切都得靠自己。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "18:34",
+   "en": "We've thrown out these words model and we talk about training models. Do you have a good succinct explanation for what a model is for folks that aren't that technical and then just the general idea of training a model. What is a simple way to think of, here is what a model is.",
+   "zh": "我们之前提到了“模型”和“训练模型”这些术语。能否给非技术人员一个简明易懂的解释？比如，如何理解模型是什么？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "18:52",
+   "en": "So I have a three-year-old girl and I'm teaching hear about life and everything. So I was recently teaching her about the animals and you explain things to her once or twice, what the mammals is or rhino and so on. But you will end up training your kids brain by repeating the same information again. So you will say, \"Hey, here's what the rhino looks like, here's what an elephant looks like, here's what the rhino looks like, here's what an elephant looks like.\" And once you've done this enough times, then your kid will see an animal on the street and they'll be able to recognize and say, \"Oh yeah, that's like rhino what we're talking about.\" This is exactly what a model is. The model is like a kid's brain. It has the ability to take an input, which means it has the ability to take an image and say, \"Oh I recognize what this is. That looks like a rhino. But I'm 70% sure about this.\" So you will output the probability as well of the certainty.",
+   "zh": "我有个三岁的女儿，我会给她讲解各种生活常识。比如最近教她认识动物时，会反复讲解哺乳动物、犀牛之类的。但这种重复学习最终会训练孩子的认知能力。比如你会说：“犀牛长什么样？大象长什么样？犀牛长什么样？大象长什么样？”多次重复后，孩子就能识别出街上的动物并准确叫出名称。这就是模型的运作原理。模型就像孩子的大脑，能接收输入信息，比如图像，并判断：“这看起来像犀牛，但我有70%的把握。” 同时还会输出概率值。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "19:51",
+   "en": "And you said image, but it could be text for say in ChatGPT. In the future I imagine video there's also voice like whisper. That's an awesome explanation. Basically it's like trying to recreate the human brain is a nice way of thinking about it. And then training a model, can you talk about what that means?",
+   "zh": "你提到的是图像，但ChatGPT可能处理的是文本。未来视频和语音（比如低语识别）也会成为应用场景。这解释太棒了！用“试图重现人类大脑”来理解模型训练，再合适不过了。那具体的模型训练流程是怎样的？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "20:08",
+   "en": "The problems of training the model for example is providing a lot of images that are legal and say, \"Hey, here's what card looks like, here's what it all looks like,\" and we're talking about thousands and thousands of data sets for this. And once you do this, there's a process where the model is just processing this information and it's learning, it's finding patterns through it and the patterns are not in the form of, oh if this is gray then this means this. No, it just learns in the smart brain how to identify specific things that we don't even understand. And then it's able to output the probability of whether photo is going to contain the cutter and top.",
+   "zh": "例如，训练模型遇到的难题之一是提供大量合法的图像数据，并对它们进行标注，比如“这张卡片长什么样？所有卡片都是这样的”等等。为此我们需要处理成千上万的数据集。一旦完成这些步骤，模型就会开始处理这些信息并进行学习，通过分析数据来识别模式，但这些模式并非简单对应，比如“如果是灰色就代表这个”。相反，模型会以智能的方式学习识别特定事物，而这些识别逻辑甚至连我们人类都难以理解。最终模型能够输出照片中是否包含裁剪区域和顶部元素的概率。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "20:49",
+   "en": "Just conceptually what is the output of the training? Is it code that is auto-generated with these decision trees and weights and things like that? Is it a database of weight? Just conceptually what is the output of a training that becomes a model? What's the simplest way to think about that?",
+   "zh": "从概念上讲，训练的输出是什么？是自动生成的代码，包含决策树、权重等？还是一个权重数据库？从根本上说，训练后得到的模型输出是什么？最简单的理解方式是什么？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "21:05",
+   "en": "So it's what it speaks. Speech is a great example. For example, I'm talking to a device which is like a home system and I say, \"Hey, what is the weather like today?\" This is going to take my folies and audio and it's going to process it and the output is going to be a transcription. So it's literally going to be text that corresponds to what I sent to it.",
+   "zh": "以语音识别为例。我对家用系统说一句“今天天气如何？”设备会处理我的语音输入并生成转录结果。这就是典型的应用场景——模型将用户的语音转换为对应的文本。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:24",
+   "en": "Thinking about the stuff you've worked on at Google, at Meta, anywhere else you've worked on, side projects even, what are some of the cooler applications of AI machine learning that you've worked on, contributed to, or even seen that you can talk about? I imagine there's a lot of sensitive stuff too going on.",
+   "zh": "谈谈你在谷歌、Meta或其他公司的工作经历，甚至是个人项目，你参与过哪些酷炫的AI机器学习应用？我相信其中肯定有很多敏感技术。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "21:40",
+   "en": "One thing I want to talk about is the team I used to work for, Google, which was then the RVR team and they were working on an air glass and actually they had a video on last year's Google IO. They were able to have the Google glass on someone that spoke one language and then this other person was sat in front of them that spoke a different language and the glass will take as an input that audio that came from that other person and it will transcribe it, it will translate it and show it on the screen for that person in their language. So we're talking about the ability for this devices to unlock the borders of communication and that is not science fiction. This is what amazing and mind-blowing, there's no science fiction anymore. These things are real, the technology is here, it's just a matter of connecting the pieces to the puzzle in order to see them coming to life. So I think that one was one of the most impactful things I've ever seen.",
+   "zh": "我想谈谈我曾工作过的谷歌RVR团队。他们致力于研发智能眼镜技术，去年在Google IO上展示了相关成果。用户可以让戴着Google Glass的人说一种语言，而坐在对面的人说另一种语言。Glass会将对面说话者的音频转换为对应语言的文本并显示出来。这些技术突破了沟通的边界，这绝非科幻，而是现实存在的惊人成果。科技已经触手可及，现在只需将各个零部件拼合起来，让这些创新成果变为现实。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "22:46",
+   "en": "I remember that demo and it was pretty incredible. Okay, so thinking a little more broadly, do you think ChatGPT or just say GPT four or GPT five, GPT six, do you think at some point this will replace product managers? Something I see on Twitter a lot. People are like, \"Oh my god, product managements done. This thing made my product requirements document for me.\" Or you talked about how it makes your mission statement better. Do you think there's a place where PMs aren't necessary anymore?",
+   "zh": "我还记得那次演示，确实令人惊叹。再往大处想，你认为ChatGPT（或者更新的GPT-4、GPT-5、GPT-6）是否会取代产品经理？我在推特上经常看到类似讨论，比如“天哪，产品经理没用了。这个东西帮我写好了需求文档”。你也提到它能优化使命宣言。那么你认为是否会有不再需要产品经理的场景？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "23:13",
+   "en": "Oh, absolutely not. As I said, it makes everything better. If anything it's going to free out time for me to do other things that are less tedious. For example, I am running so many projects and they only their peer [inaudible 00:23:27] and the peer [inaudible 00:23:28] have all these areas that are common across all of them. If I had a system that can actually write the continuous stuff for me so that I can focus on more strategic side of things, that would be incredible. It will make us smarter. If [inaudible 00:23:42], you will unlock new areas of product management that we haven't realized that, but are there.",
+   "zh": "哦，绝对不会。正如我所说，这会让一切变得更好。相反，这能为我腾出时间去做其他不那么繁琐的事情。比如，我正在运作多个项目，但它们都只需要各自的同行（[00:23:27未听清]）和（[00:23:28未听清]），而这些同行都有很多共通的领域。如果有一个系统能自动为我编写重复的代码，这样我就能专注于更具战略性的工作，那就太棒了。这会让我们更聪明。如果[00:23:42未听清]，你将解锁产品管理的新领域，这些领域我们尚未意识到，但它们确实存在。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "23:48",
+   "en": "Are there areas, do you think with your kind of vision of all PMs will be AI PMs, are there areas that you think PMs should invest more skill-wise or areas they should less focus on invest because say some machine learning model is going to do that for them.",
+   "zh": "你觉得在你看来，所有的产品经理未来都会成为人工智能产品经理吗？你认为产品经理应该在哪些方面投入更多技能，或者应该减少投入的领域呢？比如，某些机器学习模型可能会替他们完成这些工作。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "24:04",
+   "en": "I'd like to see people being less overwhelmed, less intimidated, less afraid to start learning how to code, how to train a little model on their own. This is because even if ChatGPT or this no code applications may be able to do this for us, it gives you a different approach, a different mindset, a different if you want confidence to know how things work. And here's a silly example, I was learning how to play the piano when I was young and when my teacher came in I was like, \"Oh, I want to learn how to play this cool song.\" There were some songs that I really liked. And she said, \"No, you need to start with a classical music,\" and I just hated it all the time. And I said, \"Why do I have to do this?\" Because she said, \"If you learn the fundamentals and how you know where things started and the beginning of music, it's going to help you along the way to create music on your own if you want to.\" And she was right. I just loved it. (25:00): So it's the same with coding. I encourage people to just take an online course, understand more, get your hands dirty, pair up with someone else that's in the same boat as you because this is going to give you the skillset to understand how that tool that's going to help you in your day-to-day was even created in the first place instead of blindfoldedly distrusted to do your job.",
+   "zh": "我希望人们能减少压力，减少恐惧感，减少对学习编程的恐惧，减少对自主训练模型的恐惧。即使ChatGPT或无代码应用能为我们做这些事，但它们会给你一种不同的方法、不同的思维模式、不同的自信，让你知道事情是如何运作的。举个例子，我小时候学钢琴，老师进来后我说：“我想学这首很酷的曲子。”有些歌曲我特别喜欢。但她说：“不行，你得从古典音乐开始学起。” 我一直很讨厌古典音乐。我说：“为什么要这样做？” 她说：“如果你掌握了基础知识，了解音乐的起源和发展历程，这会帮助你日后创作自己的音乐。” 她是对的。我后来很喜欢古典音乐。（25:00）编程也是一样。我鼓励人们去上在线课程，多学习，多实践，多和同行合作。这能让你掌握技能，理解工具是如何帮助你日常工作的，而不是盲目地依赖它。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "25:23",
+   "en": "This episode is brought to you by Pando, the always on employee performance platform. How much do you love the performance review process? Yeah, it's time consuming, subjective, bias and there's rarely any transparency. With the rapid shift to distributed work, it's a struggle to create the structure and transparency that you want to help your employees have the highest impact and growth in their careers. Pando is disrupting the old paradigm of performance management including a continuous employee-centric approach. So employees stay engaged, see their progression in real time and know exactly when and how they can level up. With Pando managers can leverage competency-based frameworks to effectively coach and develop their teams and align on consistent growth standards resulting in higher quality feedback and higher performing teams. Visit pando.com/lenny for more info and get a special discount when you sign up and reference this podcast. That's pando.com/lenny. (26:21): For someone that actually wants to do that and learn to code, which I love that advice, do you have any resources, places that you point people to for learning to code, getting started down that path?",
+   "zh": "本期节目由员工绩效平台Pando赞助。你有多喜欢绩效评估流程？是啊，它耗时、主观、存在偏见，而且透明度很低。随着远程工作的快速转变，要建立帮助员工在职业生涯中获得最大影响力和成长的结构和透明度变得越来越困难。Pando正在颠覆传统的绩效管理范式，包括以员工为中心的持续改进方法。这样员工就能保持参与度，实时看到自己的进步，并确切知道何时以及如何提升自己。管理者可以利用基于能力的框架有效地指导和发展团队，并达成一致的成长标准，从而获得更高质量的反馈和更高绩效的团队。访问pando.com/lenny了解更多信息，注册并引用本播客可获得特别折扣。就是pando.com/lenny。（26:21）对于那些真正想学习编程的人——我很喜欢这个建议——你有任何资源或推荐的学习平台吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "26:31",
+   "en": "It depends on what type of learner you are. There are some people that learn offline, so just go to Coursera, there are so many courses. There is an amazing one actually introduction to AI by Stanford that they're going to encourage people to take a look at. But I know that a lot of people don't like, don't have the time, don't have the discipline to actually take time off or after work, after they put their kids to sleep to just do it. So if you enjoy learning with others, if you enjoying being part of a team, if you enjoy going through a journey together, then I recommend these resources. So there is something called Career Foundry, which is a fantastic on coding school, General Assembly and then Coding Dojo. (27:13): I was actually give a talk, Ages of God Coding Dojo [inaudible 00:27:17] by Python, and all it takes is just a few weeks of your time and passion and just for you to roll up your sleeves and just realize that this is not intimidating and realize the benefits you can get by learning.",
+   "zh": "这取决于你属于哪种学习类型。有些人喜欢线下学习，那就去Coursera平台看看，那里有海量课程。斯坦福大学的\"人工智能入门\"课程非常棒，他们正积极推荐大家去学习。但我知道很多人不喜欢、不方便、不自律，无法抽出时间在下班后、哄睡孩子后进行学习。所以如果你喜欢与他人合作学习，喜欢团队协作，喜欢共同成长的旅程，那我推荐以下资源。比如Career Foundry，这是一家很棒的编程培训机构；General Assembly；还有Coding Dojo。（27:13）：我曾在Python的\"Ages of God Coding Dojo\"[00:27:17未听清]上做过演讲，只要你投入几周时间、怀揣热情，愿意亲自动手，就会发现学习并非那么令人却步，还能体会到其中的益处。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "27:31",
+   "en": "Awesome, thanks for sharing those. We'll include links in the show notes. Going back to a PM trying to become better in AI. If you think about a PM that's early in their career and wants to become a very strong AI PM. I know you have a whole course about this, which we can talk about now or later, whatever is easier, what should that PM be doing? We talked a bit about learn to code, maybe start playing with tools. What else do you suggest PMs that want to become really strong AI PMs do now and invest in?",
+   "zh": "太棒了，感谢分享这些资源。我们会在节目笔记中附上链接。回到产品经理如何提升AI能力的话题。如果是职业生涯初期、渴望成为AI产品经理的PM，我知道你有一门相关课程，我们可以现在谈或者稍后再谈，随你方便。这些PM该怎么做？我们之前聊过学习编程，或许可以从工具入手。对于想成为优秀AI PM的PM们，你现在还能做什么？投资什么？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "28:02",
+   "en": "So I do have a course that's coming up on February 6th on [inaudible 00:28:06], which is for current and aspiring product managers that want to build AI products. But I also have offline recordings. I have the same course on an offline basis on my website. I'd be happy to talk to you here, you already chat to me about this. What I feel people should understand is what it takes to manage an AI product. Of course people are very familiar with the stages of product development in general, but AI product development is different. As I mentioned before, sometimes you're actually managing the problem and not the product and you're trying to secure out if there is a problem that makes sense to be answered by a smart solution. (28:45): So it's a very interesting and more complicated process than regular product management. So number one, figure out how it differs from general product management. Number two, if you're already at the company that is actually having AR researchers and AI research scientists, I encourage people to just maybe talk to them and shadow them and spend an hour of their week just talking to them and experiencing what they're doing. This is going to open your mind, this is going to give you so much context as to what it is and the endless potential that you can identify there.",
+   "zh": "我即将在2月6日开设一门课程[00:28:06未听清]，面向现任及有志于AI产品管理的PM。但我也有线下录制课程，网站上也有同名线下课程。我很乐意在这里与你交流，你已经和我聊过这个话题。我认为人们需要理解管理AI产品的难点所在。当然大家对产品开发的常规阶段很熟悉，但AI产品开发有所不同。正如我之前提到的，有时你管理的其实是问题而非产品，试图确认是否存在值得用智能解决方案解决的问题。（28:45）：这比常规产品管理复杂得多。所以第一，弄清楚它与常规产品管理的不同之处。第二，如果你所在的公司已经有AR研究人员和AI科学家，我鼓励你与他们交流、跟随他们学习，每周花一小时与他们交流，了解他们的工作。这会开拓你的视野，让你对AI的本质及其无穷的潜力有更深刻的理解。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "29:22",
+   "en": "Awesome. And is there anything else you want to share from your course that you think might be interesting to folks?",
+   "zh": "太棒了。你课程中还有哪些内容值得分享？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "29:30",
+   "en": "So we talked about why it's awesome to be an AI PM, but I do want to call out that there are a few challenges that people need to be aware of. Number one, and I kind of mentioned it before, is the uncertainty. You may have been working on all of these incredible research and ideas in hypothesis, but then when you actually train the model, the results you may be getting may not be optimal, may not be answering the questions or the hypothesis that you actually had in mind. So that's number one. You need to be able to encourage the teams throughout this process because you're like the captain of the ship, you need to be the one that's cheerleading the team, making sure everyone keeps going. (30:10): Number two, you are going to have to [inaudible 00:30:15]. You are going to have to change the action in managing this from a leadership perspective can be tricky and it can be challenging. (30:22): Number three, we talked about data, but getting good data is hard. You may need to be creative, figure out ways for data collection that you never thought you'll do. You may get on the street and ask for people to actually contribute data for what it is you're doing. You need to be able to and willing to do everything. And the last thing is from a career trajectory, usually product managers get ahead the more they launch. But if you're in a research or if you're not going to launch as often, so you need to make sure to clarify with the hiring managers early on, \"Hey, what does progress mean? How am I going to get a sense in a research work which is different than what I've been doing so far.\" So it's challenging but I always encourage people to flex different muscles and this is the zero to one muscle. The other thing is this crucial when it comes to product management.",
+   "zh": "刚才我们谈到了成为一名AI产品经理的种种好处，但我也想指出大家需要注意的几个挑战。首先，也是我之前提到过的，就是不确定性。你可能一直在研究各种令人兴奋的假设和想法，但当你真正训练模型时，得到的结果可能并不理想，可能无法回答你预设的问题或验证假设。这是第一个挑战。在整个过程中，你需要能够激励团队，因为你就像船长一样，必须为团队加油打气，确保每个人都能坚持下去。（30:10）  \n第二个挑战是，你需要[此处语音不清]。从领导者的角度来管理团队可能很棘手，也很具有挑战性。（30:22）  \n第三个挑战是我们之前谈到数据，但获取高质量数据很难。你可能需要发挥创造力，想出从未尝试过的数据收集方法。你可能会走上街头，请求人们为你的项目贡献数据。你必须愿意尝试一切。最后一点是关于职业发展路径的，通常产品经理越多地推出产品，就越容易晋升。但如果你从事研究工作，或者不常推出产品，那么你需要尽早与招聘经理沟通，明确\"进展意味着什么？在与以往不同的研究工作中，我该如何衡量自己的进展？\"所以这确实具有挑战性，但我一直鼓励人们锻炼不同能力，这就是从零到一的能力。此外，这对产品管理至关重要。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:15",
+   "en": "This actually is a great segue to a question I definitely wanted to ask, which is around getting buy-in for investment at a company for ML. So there's sometimes all this energy for a zero to one, let's just try something, sometimes not, so maybe there's a two part question here. Do you have any advice on just getting buy-in for we want to try something with ML. It's going to take us six months to figure out if it's worth the effort, but we think there's something here. And then sometimes there's a lot of energy initially and then you get some win, like your search ranking's smarter and it's great. (31:48): But then maintaining that, having all these really expensive people working and just tweaking this model and continuing to make it smarter and a little more efficient, often it's hard to continue to get buy-in for that sort of team. Do you have any advice on initial buy-in, let's try something here, and then down the road just keeping a team going, trying to make this thing smarter and smarter.",
+   "zh": "这其实是一个很好的过渡，引出我非常想问的一个问题——如何为公司的ML项目争取投资支持。有时候大家对零到一的创新充满热情，愿意尝试新事物；有时候则相反。或许这可以分成两个问题：对于想尝试ML项目的人，你有什么建议？我们需要六个月时间验证项目是否值得投入，但我们认为这里面有潜力。有时候项目刚开始热情高涨，但一旦取得初步成功，比如搜索排名提升，大家又会觉得理所当然。（31:48）  \n但要维持这种投入，特别是当团队中有高成本人才不断优化模型、提升效率时，往往很难持续获得支持。对于初期争取支持和后续维持团队动力，你有什么建议？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "32:09",
+   "en": "People should know that there is an excellent source of inspiration and something that could kind of de-risk things, which is adjacent products. Maybe the company has already launched the product that has been successful, those AI firsts. And whenever I try to convince leadership about something that I want to do that's a big bet, I always use examples and I'm like, \"Hey, this seemed crazy at the time, here's how they work. What I'm proposing is very similar to this crazy thing. And then I propose a little contingency plan, like hey, if that doesn't work out, here's the rollback plan, here's the maximum impact it will have done in a negative way, which is not going to be too much. And you kind of take it all on [inaudible 00:32:55]. (32:55): And it's interesting because the more you work on this specific company, the more trust you get. And if the culture is such, then failing is going to be welcome. So a lot companies that welcome pain because you can just go ahead and do this sort of thing.",
+   "zh": "人们应该知道，有一种极好的灵感来源，同时也能降低风险的东西，那就是相关产品。或许公司已经推出了成功的产品，比如那些AI领域的开创性成果。每当我试图说服领导层支持我想要尝试的重大项目时，我总会举例说明：“嘿，这个想法当时看起来很疯狂，但看看它们是如何运作的。我提议的方案与这个疯狂想法非常相似。然后我会提出一个应急计划，比如‘如果这行不通，这里是回滚计划’，最坏的影响也不会太大。你只需要全权负责。” （32:55）：有趣的是，在这家特定公司工作得越久，就越能获得信任。如果公司文化允许失败，那么人们对失败的态度也会变得更加包容。因此，许多公司乐于接受失败，因为你可以继续尝试这类创新。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "33:09",
+   "en": "Do tell me if I'm wrong, but I feel like most investments in ML are not successes and often not great uses of time. I'm curious if that changes with more tooling and more public models that people can plug into without having to build their own. I wonder if it becomes like, \"Oh okay look we're put in three weeks, we'll get something really useful.\"",
+   "zh": "如果我说错了请纠正我，但我觉得大多数机器学习投资都不是成功的，而且往往不是有效利用时间的做法。我很好奇，随着更多工具和公共模型的出现，这种情况是否会改变？这些模型无需自建即可直接使用。我想知道是否会出现这样的情况：“哦，好吧，看看我们有三周时间，就能做出真正有用的成果。”"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "33:27",
+   "en": "Exactly. And also the other thing, and I wanted to add on the question you asked before about hey how do you keep updated about new niche tech? We shouldn't underestimate academia and research blogs and there's a website called Archive where you can see new papers come up, because this is where... ChatGPT and [inaudible 00:33:49] used to be there for a long time, there was a lot of information on this sort thing. But it's now recent where we see that research scientists and research orgs are not as siloed as they used to be. So the more companies invest on staffing, this layer between productionizing and research, academic research, the more PMs you're going to add there, then the more you're going to see this bridge creating goods, products, [inaudible 00:34:20]. So sometimes you have amazing ideas by research scientists but you need a PM to take it and actually figure out ways to also monetize it. (34:28): That's the other thing, if you're a PM you need to come up with ways to actually be able to monetize and ChatGPT is now free for everyone. But I don't know if you saw, there was a signup forum that was coming around saying, \"Hey, would you pay for this? What would be the minimum you pay? What would the maximum you pay? What would you like to see if you paid?\" So having PMs breached the tap is crucial for companies to be able to take the research and actually come up with meaningful use cases for users.",
+   "zh": "确实如此。另外，我想补充你之前提出的关于如何了解新兴细分技术的问题。我们不应低估学术界和研究博客的重要性。有一个叫Archive的网站，你可以在那里看到新论文的发布，因为这里曾长期聚集着ChatGPT和[音频不清00:33:49]等项目的大量信息。但最近，我们发现研究科学家和研究机构不再像过去那样各自为政。因此，公司若能在人员配置上投入更多资源，搭建起生产化与学术研究之间的桥梁，增设产品经理岗位，就能更好地促进技术转化成果。（34:28）：这就是另一个关键点——如果你是一名产品经理，你需要想办法将技术变现。ChatGPT现在对所有人免费开放，但你可能注意到，有个注册论坛曾发起调查：“嘿，你愿意为此付费吗？最低支付金额是多少？最高支付金额是多少？如果你付费了，你希望看到哪些功能？” 因此，产品经理在变现环节的突破对公司能否将研究成果转化为对用户有意义的应用至关重要。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "34:56",
+   "en": "I think they actually started charging the other day. I think it's like $40, $42 a month to start using it. I think people have been talking about on Twitter, I don't know if that's live yet. And then you talked about research papers, when I think that, I always think of Tyler Cohen, he has this awesome blog marginal revolution and he is really good at sharing insights from research papers that he's reading. So that's another place for folks to check out. He's just this really smart dude. He's really excited about AI and GPT in general and so he shares a lot of really interesting insights about it all. Segueing a little bit to your course, I have a couple questions about it. One is can you just talk about the broad framework of your course? How long is it, what do you learn, what are the workshops broadly? And then I have a couple follow up questions.",
+   "zh": "我觉得他们前几天就开始收费了。我记得每月费用大概40到42美元才能开始使用。我记得推特上有人在讨论这个，但不知道是否已经正式上线了。然后你提到了研究论文，这让我立刻想起了泰勒·科恩（Tyler Cohen）。他有个很棒的博客叫“边缘革命”（Marginal Revolution），他特别善于从所读的研究论文中提炼见解。这也是大家可以关注的地方。他是个非常聪明的人，尤其对人工智能和GPT充满热情，所以他分享了很多相关有趣的见解。接下来再聊聊你的课程，我有几个问题想问。首先，能否简要介绍一下课程框架？课程时长多久？学习内容是什么？研讨会主要涵盖哪些方面？然后我还有几个后续问题。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "35:39",
+   "en": "My course is three week long. It's meant for people that are either aspiring or current PMs that want to understand how to sprinkle in AI solutions or they wanted a full-time AI course. Week one is more about introduction, what the product development lifecycle is for regular products and how it differs for AIPN specifically. And then we talk about idea creation. How on earth do you come up with ideas? And I love what Steve Job said where he used to say, \"Well, users don't know what they want until you show it to them.\" And that's exactly the mindset I want to invite two people and say, \"Hey, people don't know how on earth you use AI.\" People will never have imagined ChatGPT can be what it is. (36:26): And then we take that and we dive deep and we talk about how on the earth do you productionize something like this? What are the different partners you're working with? What is a research scientist and how on the earth do you collaborate and how do you partner with them? How do you convince them what you have in mind for their precious research to be converted into a product? How on earth do you convince them to trust you and how do you influence them? And then at the end we're talking about how you actually will be able to pave your pathway PM all the way from interviewing for this role, from what resumes look like, and doing some mock interviews because the more you practice the better it is.",
+   "zh": "我的课程为期三周。主要面向有志于或正在从事产品管理的人士，他们希望了解如何在产品中融入AI解决方案，或者渴望学习一门全职AI课程。第一周主要介绍产品开发生命周期，包括常规产品与AIPN（人工智能产品管理）的差异，以及创意生成环节。史蒂夫·乔布斯曾说：“用户不知道自己想要什么，直到你把产品展示给他们。” 我希望通过这个思维框架，邀请两位学员思考：“用户根本不知道如何应用AI。”人们永远无法想象ChatGPT能发展到今天的程度。（36:26）接下来我们深入探讨如何将此类技术产品化：与哪些合作伙伴合作？研究科学家是怎样的角色？如何与他们合作？如何说服他们将宝贵的研究成果转化为产品？如何赢得他们的信任并施加影响？最后我们会探讨如何从面试准备、简历优化到模拟面试，全程铺就PM之路。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "37:03",
+   "en": "How many workshops are there through the course?",
+   "zh": "课程中共有多少个研讨会？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "37:05",
+   "en": "Nine workshops.",
+   "zh": "九个研讨会。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "37:06",
+   "en": "Nine workshops. Of the nine workshops, which of them are you finding is the most exciting, game-changing for someone, most interesting?",
+   "zh": "九个研讨会。其中最令人兴奋、具有革命性意义、最引人入胜的是哪一个？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "37:15",
+   "en": "So throughout the duration of all these workshops, people have homework and they actually take home an exercise where they need to create and develop their own AI product end to end, and they can pair up with each other. By the way, there was this two students pair up and actually where I would raise funding, which is mind blowing to me, which is really great.",
+   "zh": "在整个研讨会过程中，学员需要完成作业，他们会带走一份练习任务，要求端到端开发自己的AI产品，并可以组队合作。顺便说，有两个学生组队成功融资，这让我惊叹不已，真是太棒了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "37:15",
+   "en": "That's awesome.",
+   "zh": "太棒了。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "37:35",
+   "en": "But to continue, the most exciting part is when everyone at the great end are actually presenting their work and they're actually asking questions and getting feedback and they're just really excited and proud for what they created.",
+   "zh": "但最激动人心的时刻是，所有学员在课程结束时展示他们的成果，接受提问和反馈，他们为自己的创作感到兴奋和自豪。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "37:48",
+   "en": "That's a good reminder of a lot of the learning that you do is just doing it, not just reading about it and following Twitter. Can you share any examples of stuff people built after the course?",
+   "zh": "这很好地提醒了我们，许多学习过程都是需要亲身实践的，而不仅仅是阅读资料和关注推特。能否分享一些学员在课程结束后开发的项目案例？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "37:57",
+   "en": "Someone was able to actually, and I kid you not, create a little model that was able to take us an input x-rays that they found online and was able to tell us what was wrong if something was wrong with that patient. And it's just crazy to think that you can do that within three weeks. Obviously it was just by photos we were able to crawl online for x-rays. But the concept is there that you can build something like that, you can create it. And to take it a bit further, they wanted to create a lower recommender system and say, \"Hey, we think this is what's wrong with you, here are the steps you should follow.\" Obviously we're not trying to play doctors or to pretend that or medical in any way, but being able to see that actually functioning is just, it's very impactful.",
+   "zh": "有人真的做到了，我说真的，他们开发了一个小模型，能够处理我们从网上找到的X光片，并判断患者是否存在问题。要知道，这一切仅在三周内完成，实在令人惊叹。显然，我们只是从网上爬取了X光片，但核心理念在于你可以构建这样的系统。你可以亲手创造这些东西。更进一步，他们还想开发一个低级别的推荐系统，告诉用户：“嘿，我们认为你可能存在这些问题，请按照以下步骤操作。” 当然，我们无意扮演医生角色，也无意对医疗领域指手画脚，但亲眼见证这些功能实现的效果，确实非常震撼。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:48",
+   "en": "That's amazing. Do they already know how to code, do this team that built this thing?",
+   "zh": "太棒了。开发这个模型的团队之前会编程吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "38:51",
+   "en": "They did not, but part of the course is to teach people the basics that you are going to need, prove it PM lens. And there are some no click tools as I mentioned that are going to allow you to drive and drop and train these models and input photos in it and be able to do it.",
+   "zh": "他们之前不会，但课程的一部分内容就是教授基础知识，证明这一点符合PM视角。正如我之前提到的，还有一些无需编程的工具，可以让你拖放组件、训练模型、输入照片并实现功能。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "39:07",
+   "en": "Can you mention those tools again because that is really interesting and it's just like a peek at your course, but if someone wanted to start building something like this, what are some of these tools they could check out?",
+   "zh": "能否再提一下这些工具？这真的很吸引人，让人一窥你的课程内容。但如果有人想开始开发类似项目，该用哪些工具呢？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "39:16",
+   "en": "One of the tools I would like to recommend to people is actually Auto ML. This is offered by World of Cloud and essentially it allows you to train high quality custom machine learning models, which minimal effort, you don't need to be able to code anything like that. You need to have a lot of photos and images that you have already corrected but it's not going to do the collection for you. And a great application I had to seen, there is actually a YouTube video about this. There was this company that actually had a lot of winter banks and what they did is in order to maintain these, they will actually have people manually have huge ladders and go take a look and see if everything was okay. So eventually they just [inaudible 00:39:59] drones and they had these drones fly on all of these machines and take photos of everything. And then they downloaded all these photos and they uploaded on Auto ML and they were able to see which ones needed maintenance and which did not. (40:12): And I think they reduced time from three weeks of work to a few hours of knowing which needed maintenance and just be able to send people there. So it's this type of thing that you can do on your own by applying this sort of tools.",
+   "zh": "我推荐的工具之一是Auto ML，由World of Cloud提供。它能让你用最少的努力训练高质量的定制机器学习模型，无需任何编程基础。当然，你需要准备大量已校正的照片，但工具不会自动收集数据。有一个很棒的应用案例，我在YouTube上看到过。一家公司有大量冬季储备设施，原本靠人工检查维护，但后来他们用无人机拍摄所有设备照片，将照片上传到Auto ML平台，快速识别出需要维护的设备。最终，他们把维护时间从三周缩短到几小时。这样的成果完全可以通过应用这些工具自主实现。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "40:25",
+   "en": "Saying that tool is called Auto ML?",
+   "zh": "这个工具叫Auto ML吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "40:28",
+   "en": "Yes, Auto ML.",
+   "zh": "是的，Auto ML。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "40:28",
+   "en": "Amazing. We'll link to that in the show notes. Coming back to your course and maybe just a couple more questions. Can you just talk about what it takes to build a course like the course you built, how much time did it take you? How much work did it take? Anything that you want to share.",
+   "zh": "太棒了。我们会在节目笔记中附上链接。回到你的课程，可能再问几个问题。能否谈谈开发像你这样课程需要什么？花了多长时间？做了多少工作？还有什么想分享的？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "40:43",
+   "en": "It treated creating like course like a product. This is what I did is, I came up with some hypothesis as to who the audience was and as to what they were looking to get out of it. And I started reaching out to people and I started saying, \"Hey, first of all, would you like to learn from me? Second of all, what would you like to learn? What are the specific questions that you would need answered?\" Because these are people that are working, people [inaudible 00:41:09] that have families. In order to take a break from all that you need to provide something to them that is meaningful. And there were quite a few activations. In the beginning I was focusing the course more for software engineers that wanted to become AI product managers. But then I realized, no, there are a lot of PMs that want to become AI product managers. (41:31): So I did a little online shift there. So what it takes is make sure you find the right audience, make sure to figure out what that audience wants, make sure to have the right duration. One week I find it too short. Two weeks, it'll still be rushed. Three weeks is excellent because you give the opportunity to everyone to present and to keep to know each other on an offline discord community, which is another important part. And then the last thing, you need to have a personal relationship with everyone. So I've messaged everyone, I've seen everyone's application. I met with some people as well just to make sure to answer any questions and concerns because I wanted to make sure that people were comfortable just trusting a stranger like me and paying them to provide knowledge for their course. So it took quite a few iterations, but I was able to get there and now I'm very, very happy about it and I recorded it offline as well for people.",
+   "zh": "它把创建课程当作一种产品来对待。我的做法是，先提出一些假设，比如目标受众是谁，他们希望从课程中获得什么。然后我开始联系人们，问他们：“首先，你愿意向我学习吗？其次，你想学习什么？你最需要解答的具体问题是什么？” 因为这些都是在职人士，[00:41:09不可听清]还有家庭负担的人。要让他们从忙碌中抽出时间，就必须提供有价值的内容。课程最初主要面向想成为AI产品经理的软件工程师，但后来我意识到，许多产品经理也渴望转向AI产品管理方向。（41:31）于是我调整了策略。关键在于：确定目标受众，了解他们的需求，合理安排课程时长。一周太短，两周时间仓促，三周则刚刚好，既能让每个人都有展示机会，又能在离线Discord社区建立联系，这部分也很重要。最后，要与每位学员建立个人联系。我亲自回复了所有申请，见过一些学员，解答他们的疑问和担忧，确保他们能安心信任我这个陌生人，并愿意为课程付费。虽然经历了多次调整，但最终成功了。现在我对此非常满意，还为课程录制了离线版供大家使用。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:27",
+   "en": "Has anything had to change in this course? Maybe it's just as the last question, things are moving so fast. Is there anything you've had to rethink, redo since you first built it?",
+   "zh": "这门课程有过调整吗？也许就像最后一个问题说的，变化太快了。自从最初创建课程以来，还有什么需要重新思考、重新设计的地方吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "42:35",
+   "en": "I actually added bonus sections and one bonus section was [inaudible 00:42:38] and how it was trained. This is because I started this new cohort in December and on day one the question I got is, what is this? How did it start? What is going on? How did they train it? So I added the dedicated section for it and I point people to it.",
+   "zh": "我确实增加了额外模块，其中一个是[00:42:38不可听清]以及如何训练模型。这是因为12月开设新班级后，第一天就有学员问：这是什么？它是如何诞生的？如何训练模型的？所以我专门为此添加了专题章节，并引导学员去阅读。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:52",
+   "en": "Amazing. Anything else that you'd like to share before we get to our very exciting lightning round?",
+   "zh": "太棒了。在我们即将进入激动人心的闪电问答环节之前，还有什么想分享的吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "42:58",
+   "en": "It was someone that recommended, I actually did a course and in the beginning I laughed and I said, \"Wait, people would want to learn from me. Really?\" And of course they did. And I'm teaching so many people. So what I want to tell people is don't underestimate this. Try creating your own courses as well. People may want to learn what you take for granted. For them it may be game changing, it can be life changing. So building courses is an amazing thing and we're living in the full [inaudible 00:43:30]. So the course is content, so go try this.",
+   "zh": "是有人推荐的。我最初开设课程时，还笑着说：“等等，人们会想向我学习？真的吗？”结果他们确实愿意。我现在正在教很多人。所以我想告诉大家，不要低估这件事。也尝试创建自己的课程吧。人们可能想学习你认为理所当然的东西。对他们来说，这可能是改变游戏规则，改变人生的机会。所以创建课程是一件很棒的事，我们正生活在一个全新的时代。课程本身就是内容，所以大家快去尝试吧。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:33",
+   "en": "I find that teaching and at least crystallizing thoughts is one of the best ways to learn it yourself. I imagine you learned a lot about AI much more than even came into it with just putting it together into a course.",
+   "zh": "我发现教学，尤其是将思路系统化，是自我学习的最佳方式之一。我相信你对AI的理解远超最初创建课程时的认知。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "43:44",
+   "en": "Absolutely. And I got some uncomfortable questions that I had no idea how to tackle. People on day one were like, how do I assess the tradeoffs between these two different months? And I had to figure out how to answer these things and how to incorporate them in my course. So learning from the students, learning from the course, learning from explaining is just so viable. So skills that we can get.",
+   "zh": "绝对的。我遇到过一些让我束手无策的难题。比如，第一天就有人问我：如何评估这两个不同月份的权衡取舍？我得想办法回答这些问题，并把它们融入我的课程中。向学生学习、从课程中学习、通过讲解来学习，这种方式真的很有效。我们能从中获得很多技能。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:07",
+   "en": "Well with that, we've reached our very, very exciting lightning round. I've got five questions for you. I'm going to go through them pretty quick. Whatever comes to mind, share. We'll see how it all goes. Sound good?",
+   "zh": "好的，接下来是我们非常激动人心的闪电问答环节。我有五个问题要问大家。我会很快地过一遍。大家想到什么就分享出来，看看效果如何。怎么样？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "44:18",
+   "en": "Sounds good.",
+   "zh": "好的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:19",
+   "en": "Two or three books that you recommend most to other people.",
+   "zh": "你最推荐给别人的两三本书。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "44:22",
+   "en": "Inspired. It's all about how to create tech products people love.",
+   "zh": "《启发》。这本书讲的是如何打造人们喜爱的科技产品。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:28",
+   "en": "Marty Kagan, right?",
+   "zh": "马蒂·卡根，对吧？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "44:29",
+   "en": "Yes, that's the one. Great.",
+   "zh": "对，就是他。太棒了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:34",
+   "en": "Cool. Anything else? Or that's the one that comes to mind.",
+   "zh": "不错。还有别的吗？或者就这个了。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "44:35",
+   "en": "You Look Like a Thing and I Love You and I have it right here. It's a great thing, super, super cool. It's about how AI works and why it's making the world a weirder place. It's actually a very fun book. And there's one more, which is a book, a workbook I originally launched with Alana Karen and it's a workbook for women in tech trying to navigate working in tech. It's called Adventures of Women in Tech Workbook. So that's another thing that they want to shamelessly plug in.",
+   "zh": "《你看起来像个东西，我爱你》，我现在手边就有。这本书很棒，超级酷。它讲的是人工智能的工作原理，以及为什么它让世界变得更加奇特。这本书读起来特别有趣。还有一本，是我和阿拉娜·卡伦一起推出的工作手册，专门为在科技行业工作的女性设计的，叫《科技女性冒险记》。这也是我们想毫不客气地推荐给大家的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:02",
+   "en": "Ah, that's a great choice to plug. Where can folks find that? Is that on Amazon?",
+   "zh": "啊，这真是值得推荐的。大家在哪里能找到这本书？亚马逊上有吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "45:06",
+   "en": "Yeah, Amazon.",
+   "zh": "有的，亚马逊。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:07",
+   "en": "Amazing. What's a favorite other podcast that you like to listen to?",
+   "zh": "太棒了。你最喜欢的其他播客是什么？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "45:11",
+   "en": "I like Boz's podcast. I don't know if you're aware of it. Boz is the CEO of Facebook. He has a great podcast.",
+   "zh": "我喜欢博兹的播客。不知道你有没有听过。他是Facebook的CEO，播客做得很棒。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:19",
+   "en": "I have not heard it. I do know of Boz. I'll check that out. I didn't know he had a podcast. He had some great writing over the years. Maybe that's why he doesn't write it anymore. He has his podcast. What is a favorite recent movie or TV show that you've loved?",
+   "zh": "我没听过。不过我知道博兹。我会去听听的。我不知道他还有播客。他过去写过一些很棒的文章。也许这就是他现在不写作的原因了。现在他做了播客。你最近最喜欢的电影或电视剧是什么？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "45:30",
+   "en": "Oh my God, The White Lotus. People were talking about this thing. I ended up just trying it out and me and my husband, we just binge watched the whole thing. Is just so different, so mind blowing, get you excited about going to Hawaii again. It's just really good.",
+   "zh": "天哪，《白莲花度假村》。大家都在谈论这部剧。我最后试着看了一下，结果和我丈夫一口气看完了整部剧。太不一样了，太令人惊叹了，让你又想去夏威夷了。真的很棒。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:45",
+   "en": "Have you seen the second season?",
+   "zh": "你看过第二季了吗？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "45:46",
+   "en": "I've seen it and it's so much better than the first, which is rare.",
+   "zh": "我看过了，比第一季好太多了，这可不多见。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:50",
+   "en": "I agree. Awesome. Love that show. What is a favorite interview question you like to ask, and bonus point if it's AI related.",
+   "zh": "我同意。太棒了。我超爱这部剧。有什么你最喜欢问的面试问题，特别是和人工智能相关的。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "45:57",
+   "en": "I love to ask people, how would you explain a database to a three year old? And I know it's kind of an AI, not everyone say ai, but I love asking it because people are thinking the [inaudible 00:46:11], like what did you just ask me? But it's so important to be able to explain things in a simple ring and have the storytelling to convince a kid and really explain technical terms to non-technical people.",
+   "zh": "我喜欢问人们：你会如何向一个三岁孩子解释数据库？我知道这有点涉及人工智能，虽然不是每个人都直接说人工智能，但我喜欢问这个问题，因为人们会觉得[听不清00:46:11]，比如你刚刚问我什么？但能够用简单易懂的方式解释事物，并通过讲故事来说服孩子，真正把技术术语解释给非技术人员，这真的很重要。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "46:23",
+   "en": "Favorite AI based tool that you think people should check out.",
+   "zh": "你认为人们应该试试的最喜欢的基于人工智能的工具。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "46:27",
+   "en": "Talk about ChatGPT, now I have this on ChatGPT, this is what comes to mind. Well, the Lensa app was pretty cool too, right? We all plugged in our [inaudible 00:46:36] and we're able to see what they would look like as fantastic heroes. I have to say, I tried being the mail version because it was so much cooler than the KingL version, so that's when I recommend to people, try the mail version.",
+   "zh": "谈谈ChatGPT，现在我对ChatGPT有这个想法。这让我想起了Lensa应用程序，是吧？我们都把自己的照片插入进去，然后就能看到自己变成奇幻英雄的样子。我得说，我尝试了邮件版，因为它比KingL版酷多了，所以我建议大家试试邮件版。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "46:48",
+   "en": "That's fun. And they actually have pets now. That's what got me the download and pay for it. You can take pictures of your pets and they look so fun. That's like a killer feature right there. Good job Lensa. And the app is Lensa, right?",
+   "zh": "真有趣。他们现在甚至有宠物功能了。这就是让我下载并付费的原因。你可以给你的宠物拍照，它们看起来特别有趣。这简直是个杀手级功能。Lensa做得很棒。这个应用叫Lensa，对吧？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "47:01",
+   "en": "Yeah. [inaudible 00:47:02]",
+   "zh": "是的。[听不清00:47:02]"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:02",
+   "en": "Amazing. Marily, thank you so much for spending time with me, sharing your wisdom. Two final questions, where can folks find you online if they want to learn more and reach out and how can listeners be useful to you?",
+   "zh": "太棒了。Marly，非常感谢你抽出时间与我交流，分享你的智慧。最后两个问题，如果人们想了解更多信息、联系你，或者想帮助听众，你的在线联系方式是什么？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "47:12",
+   "en": "Thank you so much. People can find me on Instagram. I also have a product channel on YouTube that you can check out. I just started it. I'm getting used to the whole process. I'm also kicking off a newsletter, just any social reach out and you'll see all my links.",
+   "zh": "非常感谢。人们可以在Instagram上找到我。我在YouTube上也有一个产品频道，大家可以去看看。我刚开通的，还在适应整个过程。我还即将推出通讯，只要在任何社交平台联系我，你就能看到我的所有链接。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:28",
+   "en": "How do they find the YouTube channel? How do they find the newsletter?",
+   "zh": "他们怎么找到YouTube频道？怎么找到通讯？"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "47:31",
+   "en": "Typing Marily Nika.",
+   "zh": "输入Marly Nika。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:32",
+   "en": "Marily, thank you again for being here.",
+   "zh": "Marly，再次感谢你今天的到来。"
+  },
+  {
+   "speaker": "Marily Nika",
+   "ts": "47:34",
+   "en": "Thank you so much, Lenny. It was a pleasure.",
+   "zh": "非常感谢，Lenny。很荣幸能与你交流。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "47:38",
+   "en": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "非常感谢收听。如果你觉得这期节目有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅。另外，请考虑给我们评分或留下评论，这对其他听众找到节目非常有帮助。你可以在lennyspodcast.com上找到所有往期节目或了解更多信息。下期节目见。"
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "id": "Geoffrey Moore",
+ "name": "Geoffrey Moore",
+ "category": "投资/创业",
+ "identity": "投资",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Geoffrey+Moore",
+ "bio": {
+  "en": "Geoffrey Moore is the author of Crossing the Chasm, perhaps the most influential book ever written on technology go-to-market strategy, and a longtime advisor to B2B and tech companies on scaling through the adoption lifecycle.",
+  "zh": "Geoffrey Moore 是《跨越鸿沟》（Crossing the Chasm）的作者，这本书堪称史上最具影响力的技术产品上市策略著作，他长期为 B2B 与科技公司提供跨越采用生命周期、实现规模化的咨询。"
+ },
+ "summary": {
+  "en": "Geoffrey uses the 'kindling vs. log' metaphor to explain why, when stuck in the chasm, taking any customer you can find is a mistake—you need to light a fire in one narrow place first. He lays out the bowling-pin strategy for getting past early adopters, the specific go-to-market playbook for each stage of the adoption lifecycle, and the seven deadly sins of crossing the chasm incorrectly. The conversation also covers how to sell to different personas (and why early adopters don't need you to focus on problem and pain) plus some unexpected life advice.",
+  "zh": "Geoffrey 用“引火物 vs. 原木”的比喻说明：当卡在鸿沟（chasm）中时，来者不拒地抓客户是错的——你需要先在一个狭窄的点上把火点着。他讲解了用“保龄球瓶”策略越过早期采用者、针对不同采用生命周期阶段的特定上市打法，以及跨越鸿沟时最常见的七宗罪。对话还涵盖了如何向不同人物角色销售（以及为何对早期采用者无需执着于“问题”和“痛点”），并附带一些出乎意料的人生建议。"
+ },
+ "turns": [
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "The tendency when you're in the chasm is, \"I just need more customers. I should take any customer I could find,\" because we need revenue. It's like taking a match and running it back and forth under a log. It's not going to light the log. So how do you start a fire? Well, you start it by putting a little kindling, little crumpled up paper, and you hold the match in one place until the fire starts. That's why adjacency is so important. If you light the fire, the piece of kindling is here, but the log is in the other room. That doesn't work.",
+   "zh": "身处深渊时，人们往往会想：“我只需要更多客户。能拉到一个客户就应该抓住。” 毕竟我们急需营收。但这就像拿火柴在木头下来回摩擦——根本点不着火。那么如何点燃火堆呢？关键在于先放置一些引火柴，比如揉皱的纸片，然后把火柴固定在一个位置，直到火势渐起。这就是邻近性为何至关重要的原因。假如你点燃了火堆，但引火柴在另一个房间，火势就无法延续。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Geoffrey Moore. Geoffrey is the author of maybe the most influential and important book on go-to-market ever written, Crossing the Chasm. Even though it's sold over a million copies, it still feels like people continue to reinvent many of the lessons that Geoffrey uncovered and shared in a seminal book. In our conversation, we discuss why it's so important to get very narrow with your initial audience, how the bowling pin strategy helps you get past early adopters, what the specific go-to-market playbook is for every stage of the adoption lifecycle, why using the wrong playbook during the wrong phase will slow you down. Also, the seven deadly sins of trying to cross the chasm incorrectly. Also, how to sell your product at different personas, why you don't need to focus on the problem and the pain when you're selling to early adopters, plus some real good life advice that I didn't expect. (00:01:22): Geoffrey has so much wisdom to share if you're building a B2B company, and I'm really excited to bring you this episode. With that, I bring you Geoffrey Moore after a short word from our sponsors. (00:01:34): Let me tell you about CommandBar. If you're like me and most users I've built product for, you probably find those little in-product pop-ups really annoying. Want to take a tour? Check out this new feature, and these pop-ups are becoming less and less effective since most users don't read what they say. They just want to close them as soon as possible, but every product builder knows that users need help to learn the ins and outs of your product. We use so many products every day, and we can't possibly know the ins and outs of everyone. CommandBar is an AI-powered toolkit for product, growth, marketing, and customer teams to help users get the most out of your product without annoying them. (00:02:08): They use AI to get closer to user intent, so they have search and chat products that let users describe what they're trying to do in their own words, and then see personalized results like customer walkthroughs or actions. They do popups too, but their nudges are based on in-product behaviors like confusion or intent classification, which makes them much less annoying and much more impactful. This works for web apps, mobile apps, and websites, and they work with industry leading companies like Gusto, Freshworks, HashiCorp, and LaunchDarkly. Over 15 million end users have interacted with CommandBar. To try out CommandBar, you can sign up at commandbar.com/lenny, and you can unlock an extra 1,000 AI responses per month for any plan. That's commandbar.com/lenny. (00:02:56): This episode is brought to you by WorkOS. If you're building a SaaS app, at some point, your customers will start asking for enterprise features like SAML authentication and SCIM provisioning. That's where WorkOS comes in, making it fast and painless to add enterprise features to your app. Their APIs are easy to understand so that you can ship quickly and get back to building other features, and hundreds of other companies are already powered by WorkOS, including ones you probably know, like Vercel, Webflow, and Loom. WorkOS also recently launched AuthKit, a complete authentication and user management service. It's essentially a modern alternative to Auth0, but with better pricing and more flexible APIs. (00:03:38): AuthKit's design is stunning out of the box, and you can also fully customize it to fit your app's brand. It's an effortless experience from your first user all the way to your largest enterprise customer. Best of all, AuthKit is free for any developer up to 1 million users. Check it out at workos.com to learn more. That's workos.com. (00:04:03): Geoffrey Moore, thank you so much for being here, and welcome to the podcast.",
+   "zh": "今日嘉宾是杰弗里·摩尔（Geoffrey Moore）。杰弗里或许是市场推广领域最具影响力和权威性的著作《跨越鸿沟》（Crossing the Chasm）的作者。尽管该书销量超过一百万册，但人们似乎仍在不断重构杰弗里在此开创性著作中揭示的诸多核心理念。在我们的对谈中，我们将探讨为何在初期锁定核心受众至关重要，\"保龄球瓶策略\"如何助力突破早期采用者群体，以及针对不同采用阶段的市场推广路径图。此外，我们还将剖析在错误阶段采用错误策略的危害，并解析错误跨越鸿沟的七大致命陷阱。同时，他还分享了针对不同用户角色进行产品销售的策略，以及向早期采用者推销时为何无需过度聚焦问题与痛点。最后，他还给出了超乎预期的实用生活建议。\n\n（00:01:22）：杰弗里为B2B公司创始人提供了诸多宝贵见解，我非常兴奋能为大家带来这期对谈。接下来，在我们的赞助商简短致辞后，欢迎杰弗里·摩尔登场。\n\n（00:01:34）：接下来介绍CommandBar。若你像我和多数产品用户一样，对那些产品内弹窗深恶痛绝？想一探究竟？这款新功能正逐步淘汰低效弹窗——由于多数用户不愿阅读冗长提示，只想尽快关闭弹窗。CommandBar通过AI技术，基于用户搜索与对话行为，精准解读需求并提供个性化指导，例如客户操作指南与行动指引。弹窗设计基于产品行为数据（如困惑行为与意图分类），既减少了用户反感，又提升了转化效率。适用于网页应用、移动端及网站，已服务Gusto、Freshworks、HashiCorp等行业领军企业。超过1500万终端用户已体验CommandBar。试用请访问commandbar.com/lenny，任意套餐每月额外获赠1,000次AI回复。\n\n（00:02:56）：本期对谈由WorkOS赞助。若你正开发SaaS应用，客户终将要求SAML认证、SCIM配置等企业级功能。WorkOS助你快速接入企业级特性，其API易于理解，助你快速迭代。数百家知名企业（如Vercel、Webflow、Loom）已采用WorkOS。WorkOS近期推出的AuthKit完全替代Auth0，提供更优价格与更灵活API，支持品牌定制，轻松满足从首位用户到大型企业客户的全生命周期需求。\n任何开发者，只要用户量达到100万。欢迎访问workos.com了解更多详情。网址是workos.com。（00:04:03）：杰弗里·摩尔，非常感谢您能来到这里，也欢迎您收听我们的播客。",
+   "ts": "00:00:32"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, it's nice to be here, Lenny, and thank you for having me.",
+   "zh": "嗯，很高兴能来这里，莱尼，感谢你邀请我。",
+   "ts": "00:04:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's incredibly cool to have you on. You've been at the top of my wishlist of guests to have on this podcast ever since I launched it, so it's surreal to be chatting with you. It almost feels like maybe this podcast has crossed the chasm now that you're on.",
+   "zh": "你能来真是太棒了。自从我推出这个播客以来，你就一直是我最想邀请的嘉宾之一。现在你终于来了，感觉太不可思议了。这几乎让我觉得，也许这个播客现在已经突破了瓶颈。",
+   "ts": "00:04:09"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "If you'd called me earlier, I probably would've been on it with you. But anyway, we're together now.",
+   "zh": "如果你早点联系我，我很可能就会和你一起上节目了。但无论如何，我们现在终于见面了。",
+   "ts": "00:04:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I thought it'd be fun to start with this question of just what frustrates you most about what people still don't get about the things that you teach, particularly Crossing the Chasm. You wrote that, I think, 33 years ago at this point. You have a lot of follow-up books around the topic. What do you think people still don't really understand or often get wrong?",
+   "zh": "我想先从这个问题开始——你对人们仍然不理解你所教授的内容，最感到沮丧的是什么？特别是《跨越鸿沟》这本书。你写这本书已经33年了，对吧？你还写了很多后续的书籍。你认为人们仍然不理解或经常误解什么？",
+   "ts": "00:04:27"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "All the books I write are about frameworks. They're conceptual models about what patterns should you be looking for as something evolves? Because in disruptive innovation, there's no history. You're always projecting a possible history, and then seeing if you can make it come true. So that implies there's a lot of freedom to exercise the framework however you choose to. People sometimes do that in ways that are just... They actually end up being very misleading about what's possible. I can remember one person early on saying, \"Yeah, we're Crossing the Chasm. Our beachhead segments the Fortune 500,\" and you went, \"Well, I don't think maybe you're as clear on this as you could be.\" (00:05:32): To be fair, that's what the function of any third party advisor is, is to say, \"Look, time out. You might be looking at this through an inside-out lens. Maybe you should be looking at it from an outside-in lens.\" That's probably number one. Gosh, after that, I'm just empathetic with the fact that their world's more important than my world, so I try to work with their world.",
+   "zh": "我写的所有书都是关于框架的。它们是概念性模型，告诉你当某件事发展时，应该寻找哪些模式？因为在颠覆性创新中，没有历史可参考。你总是在预测可能的历史轨迹，然后看看能否让它成真。这意味着你可以自由地按照自己的方式应用这些框架。但有时人们的做法会让人误解可能性。我记得早期有人说：“是啊，我们正在跨越鸿沟。我们的滩头阵地是《财富》500强企业。”你当时就说：“嗯，我觉得你可能理解得不太清楚。”（00:05:32）公平地说，这就是任何第三方顾问的职责所在，就是说：“听着，请暂停一下。你可能是在用内向型视角看问题，也许你应该用外向型视角看问题。”这可能是最重要的一点。天哪，之后我就会对他们的世界比我的更重要这一事实心怀同理，所以我会努力适应他们的世界。",
+   "ts": "00:04:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's exactly where I actually wanted to go next is this idea of starting very focused with your initial target audience. I think people conceptually know this. They're like, \"Yeah, we should be really focused with our initial target market. We should stay very small, and expand this beachhead idea.\" But I think they still don't quite actually do this because it's like, \"Why not go wider?\" So could you just talk about why that is so important, and how to actually think about how to do that correctly?",
+   "zh": "这正是我接下来想讨论的——从一开始就高度聚焦于你的初始目标受众。我觉得人们在概念上都知道这一点。他们会说：“是啊，我们应该真正专注于我们的初始目标市场。我们应该保持规模小，然后扩展这个滩头阵地。”但我觉得他们还是做不到这一点，因为他们会想：“为什么不扩大范围呢？” 你能谈谈为什么这如此重要，以及如何正确地思考如何做到这一点吗？",
+   "ts": "00:05:59"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "If you're essentially in a business where the category is emerging, then the most important thing for you to do is to be able to create enough power around your company that you can navigate your future on your own power. Where does power come from in an early adopting technology world? First of all, it'll come from can you get a lighthouse customer? So one of the things we try to do even before you try to cross the chasm is can you get one or more customers who put you on the map? And they go, \"Whoa, did you know that the CIA used AWS?\" Like, \"Holy smoke.\" Okay, that's great. It doesn't make a company, but it makes a story, and it lets people know, \"Oh, here are the guys that did the CIA project,\" that kind of thing. (00:07:09): The Crossing the Chasm model is, \"Can you create a viable repeatable business?\" And in order to do that, you need to have an ecosystem of partners work with you in order to consolidate your position. Well, why would an ecosystem work with some startup that nobody's ever heard of? The answer would be if you had consolidated a market segment where you were number one. So one of the things we've learned about company power is that basically it's the company power plus the ecosystem together. So ecosystems form around market leaders, and they do not form around the rest of us. If you're a category leader, if you're like Oracle and Databases, you're 40 years in. You're still the leader, because the ecosystem organized around you. (00:07:51): But when you're little, the only way you can get an ecosystem to organize around you is to go after a segment where you're a big fish in that pond. We talk a lot about fish to pond ratio. You want to be... Your first pond, your target segment should be something that in the next two years, if you hit your really high growth rates, you could be 30, 40, 50% of the market share in that segment. That would cause partners to go, \"Whoa, if we're going to serve that segment, we got to work with these guys.\" So that's the key. The concept there is, \"Well, why wouldn't you also do two or three or four segments at the same time?\" It's sort of the same reason, \"Why wouldn't you run in three or four primaries at the same time if you want the presidential nomination?\" Although why you would want that nomination, I have no idea. (00:08:39): But if you did, you realize if you're running in New Hampshire, votes in Vermont do not count. It's the same thing with Crossing the Chasm. You need to get three or four or five or six reputable companies in a segment to all pick you, for then the rest of the segment to go, \"Well, it's pretty obvious who the standard is.\" I'll just close with one last comment. And the reason, the mechanism behind all that logic, is that pragmatic people buy what they see their peers are buying. So if peer one is buying product A, and peer two is B and C and D, there's no market leader, and the category goes sideways. But if A, B and C, if three out of four people are using the iPhone, it's like, \"Oh, I guess I'm supposed to get an iPhone,\" that kind of thing.",
+   "zh": "假设你所处的行业正处于新兴阶段，那么最重要的是要为公司创造足够的影响力，让你能凭借自身实力开拓未来。在早期采用新技术的领域，影响力从何而来？首先，你能否获得一个标杆客户？比如，在你试图跨越鸿沟之前，我们会先问：你能否找到一个或多个客户，让他们认可你的价值？他们可能会惊呼：“哇，你知道中情局用AWS吗？！”或者惊呼：“天哪！”这很棒，虽然这本身并不能成就一家公司，但能创造一个故事，让人们知道“哦，原来是他们做的中情局项目！”之类的。（00:07:09）  \n“跨越鸿沟”模型的问题在于：“你能否建立可重复的可行业务？”为此，你需要生态系统中的合作伙伴协同巩固你的地位。但为什么生态系统会与一家无人知晓的小型初创公司合作呢？答案是，当你已在某个细分市场占据头把交椅时，生态系统才会围绕你形成。例如，甲骨文在数据库领域深耕40年，至今仍是领导者，因为整个生态系统围绕它而建立。  \n（00:07:51）  \n但当你规模较小时，唯一能让生态系统围绕你形成的办法，就是在某个细分市场中成为该领域的巨头。我们常说的“鱼与池塘比例”概念至关重要。你的首个池塘、目标细分市场应能让你在未来两年内凭借高增长率占据该细分市场的30%、40%或50%份额。这样合作伙伴才会说：“哇，如果我们要服务这个细分市场，就必须与这些家伙合作。”这才是关键。  \n但有人会问：“为什么不同时布局两三个细分市场呢？” 原因与竞选总统提名类似：如果你同时在多个州参选，选民会困惑投票给谁。但如果你只专注于新罕布什尔州，佛蒙特州的选票就不算数。  \n在“跨越鸿沟”理论中，要在一个细分市场中获得三到六家知名公司的认可，然后整个细分市场才会认可标准。  \n最后总结一点：这一切背后的逻辑机制是，务实的人会追随同行的选择。例如，如果同行选用产品A，而B、C、D也选用A，那么市场就会停滞不前。但如果四分之三的人使用iPhone，人们就会效仿：“哦，看来我也该用iPhone了。”",
+   "ts": "00:06:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. I'm glad you went there, because that's essentially the root of this Crossing the Chasm idea that people after the chasm, the pragmatists, wait for references and social proof, and they're waiting for someone to tell them, \"This is worth using,\" versus visionaries right before the chasm. They're like, \"I just want to use the future. I need to be there before anyone else.\"",
+   "zh": "太棒了。很高兴你能深入探讨这个问题，因为这正是“跨越鸿沟”理念的核心——鸿沟过后的人群，即务实派，会等待参考案例和社会认同，等待有人告诉他们“这个值得使用”，而非鸿沟前的愿景派。他们会说：“我只想用未来的产品，我必须比别人先行一步。”",
+   "ts": "00:09:29"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "You're right. One of the ways we try to capture that in a thought bubble is before the chasm, the customers you work with are people who say, \"We believe what you believe.\" So in other words, they're on the same side. After the chasm, they say, \"I'm not sure about that, but we need what you have.\" So transitioning from, \"We believe what you believe,\" which is how you sell to visionaries to, \"We need what you have,\" which is how you sell to pragmatists. That's the shift.",
+   "zh": "你说得对。我们试图在思维泡泡中捕捉这种转变的方式之一，就是在“鸿沟”出现之前，与你合作的客户会说：“我们认同你的理念。”换句话说，他们与你立场一致。而跨越“鸿沟”之后，他们会说：“我对此不太确定，但我们需要你提供的解决方案。” 因此，从“我们认同你的理念”（这是向有远见者推销的方式），到“我们需要你提供的解决方案”（这是向实用主义者推销的方式），这就是转变所在。",
+   "ts": "00:09:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let's actually spend some more time there on what it is that each of these segments needs, and how you convince them to use it, because this is really useful. So in these pragmatists group, you're saying the pitch there is you have a pain. I will solve this pain, and it's important pain. I think people always assume that's the pitch. But interestingly, your point is earlier in the two segments and maybe share what those two are, they use your product for a different reason.",
+   "zh": "接下来，我们可以花更多时间探讨这两个客户群体各自的需求，以及如何说服他们使用你的产品，因为这确实很有用。对于实用主义者群体，你提到推销话术是：“你存在一个痛点，我能解决这个痛点，而且这个痛点很重要。” 我觉得人们通常会认为这就是标准的推销说辞。但有趣的是，你提到在前两个客户群体中，他们使用你的产品的原因有所不同。",
+   "ts": "00:10:17"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "In fact, if there's a total in the model of the technology adoption lifecycle that we organize this all around, there's actually four, I call them, inflection points. The first one we call the early market. That's the one we were talking... That's the visionaries and the technology enthusiasts. They are as excited about you as you are. I mean, they want the demo. They want to see the vision. They're exciting. And the key to that market is to have an executive sponsor who has enough clout to essentially fund this thing, because there's no budget for you. So they've got to create the funding, and then drive the organization to go all the way to bright. (00:11:21): They're not that many visionary customers, but there's always one or two. The reason why it's so important to work with a marquee customer then is you... Look, nobody's ever heard of you, and if they've never heard of your customer, I don't care how amazing the win is. Nobody's going to hear about it. So it's really important you did it with Apple, or you did it with Verizon, or you did it with Mercedes, somebody that people have heard. So that's number one, and that's a project model. Even if what you sell is a product, those early mark... Every one of them is kind of a snowflake. It needs a ton of special services. There's no ecosystem of partners to support you, so you throw a bunch of extra labor at it. You do whatever, because you got to make them successful. So you'll do whatever it takes. (00:12:13): Okay, very cool. Got my marquee client, not scalable business, I mean, obviously. So then the second one is the Crossing the Chasm playbook. That's the one that organizes around the problem. The good news is those customers are open to hearing from someone new, because they've already talked to everybody they already know, and the problem is still... It's not that it's unsolved. It's being solved in a crummy way and, by the way, in a deteriorating crummy way. So it's getting actually worse. So there's pressure for them to act. This is where you go from the project model to the solution model, and as a vendor, you over commit to their problem. (00:12:54): From the very beginning, you talk to them. They don't want to talk to you about you. They want to talk to you about them, and you need to ask them probing questions about them. Just like going to a doctor, you don't want the doctor to come and say, \"Hey, can I show you a movie of the operation I just did? I want to give you a demo. You mind if I give you a demo?\" It's like, \"No. What I would like to do is talk to you about this pain I have in my side.\" And then when the doctor asks you good questions about it, you go, \"Ah, this is a good doctor. I'm going to trust this.\" So that's the whole point about that. Again, that scales a lot more than a project business, but it only scales up to the limit of the target segment. (00:13:31): So we had this bowling alley model of extending. You could go to a second segment, a third segment if it was adjacent. Adjacent means either it's the same customer with a different use case, or it's the same use case in a different customer base, because the one case, you use your customer references. The other case, you use your partners, because the partners who built the one use case will say, \"Well, we got another segment that we work with. Let's bring you into that segment too.\" So that can take a company from, I don't know, tens of millions of dollars to hundreds of millions of dollars in the bowling alley. And in specialized industries like computer-rated design or things like that, you can actually go to a billion dollars or higher. (00:14:13): But with most other categories, at some point, you have this third inflection point, which is it's when people go, \"Well, wait a minute, wifi isn't just for financial analysts, or isn't just for... Wifi is for everybody.\" So instead of saying, \"We believe what you believe,\" which we're not there anymore. And these people aren't even really saying, \"We need what you have.\" What they're saying is, \"We want what they have. This is really cool. I want what they have,\" and that creates what we call the tornado. That's when people... This is when you do want sales coverage, and you do want to go broad, and you do want to have a standard product. Basically, you want to capture as much market share as you can. There's a whole playbook around doing that, which was in a book called Inside the Tornado. (00:15:02): And then the last one, which is actually becoming much more important in this century is called Main Street, but Main Street where products have become commoditized, services become the new place of innovation. We've had taxis for 100 years, but Uber is an incredibly valuable thing. You convert the product to the service, and how do you revolutionize services? That's a situation where now people are saying, \"Look, I don't want to own the product. I don't want to own it.\" Well, kids, \"I don't want to own a car. I just want to call Uber. It's convenient.\" So anyway, those are the four models, and Crossing the Chasm was about that second one.",
+   "zh": "事实上，如果我们以技术采用生命周期模型为核心来梳理整个过程，实际上有四个关键节点，我称之为\"转折点\"。第一个阶段我们称之为\"早期市场\"。这正是我们之前讨论的阶段——由有远见的人和技术爱好者组成。他们对你的产品充满热情，我是说他们渴望看到演示，领略愿景，激情四射。关键在于，必须有一位有足够影响力的高管赞助者来为项目提供资金支持，因为你的预算根本不足。所以他们必须自己筹集资金，并推动整个组织全力推进项目。（00:11:21）：这类有远见的客户并不多见，但总会有那么一两个。与此同时，与大牌客户合作至关重要，因为没人听说过你，而如果你的客户名气不大，即便成果再惊艳，也无人问津。因此，与苹果、威瑞森或梅赛德斯等知名品牌合作意义非凡。这是第一个阶段，属于项目型模式。即使你卖的是产品，早期市场客户也各不相同，需要投入大量定制化服务，缺乏成熟的合作伙伴生态系统，因此必须投入大量额外人力去支持项目。（00:12:13）：好的，明白了。有了大牌客户，但业务不可扩展，显然如此。接下来是\"跨越鸿沟\"策略。这阶段以解决问题为核心。好消息是这些客户乐于听取新方案，因为他们已把认识的人都找遍了，而问题依然存在——并非未解决，而是解决方案糟糕，且每况愈下。他们迫切需要行动。这时你要从项目模式转向解决方案模式，作为供应商，要深度参与客户问题。（00:12:54）：从一开始，你就得倾听他们的需求。他们不关心你的产品，只关心自己的问题。这时你要针对性提问，就像看医生时医生不会说：\"能给您展示我刚做的手术视频吗？\"而是会问：\"请详细描述您的症状。\"这才是关键。同样，这种模式比项目型业务更具可扩展性，但扩展上限取决于目标细分市场。（00:13:31）：我们有\"保龄球道模式\"式的扩展路径。可以拓展到相邻的第二个或第三个细分市场。相邻意味着同一客户不同场景应用，或同一场景应用于不同客户群。前者借助客户参考案例，后者则借助合作伙伴——他们会说：\"我们还有另一个细分市场，带你一起进来吧。\"这样就能让公司从数千万美元级别跃升至数亿美元级别。在计算机辅助设计等专业领域，情况更是如此。\n实际上，其价值可能会达到10亿美元甚至更高。（00:14:13）但对于大多数其他品类而言，都会在某个阶段迎来第三个转折点——即当人们意识到“等等，Wi-Fi不只是金融分析师的专属，或者说……Wi-Fi是属于所有人的。”因此，企业不再说“我们认同你的观点”（因为这种策略已经过时了）。而这些用户甚至不再说“我们需要你现有的产品”，他们会说“我们想要他们拥有的服务。这太酷了。我也想要他们提供的服务。”这就形成了我们所说的\"龙卷风效应\"。龙卷风效应意味着企业需要扩大销售覆盖面、拓宽市场、提供标准化产品，基本目标是尽可能抢占市场份额。相关策略详见《龙卷风之道》一书。（00:15:02）最后一个模式在本世纪变得愈发重要，叫做\"主街模式\"。在这个模式下，产品已然同质化，服务成为创新的新领域。出租车行业已有百年历史，但Uber却价值非凡。企业需将产品转变为服务，而如何实现服务革命呢？当下人们会说：“我不想拥有产品本身。”比如年轻人会说：“我不想买车，只要能叫Uber就行，多方便啊。”以上四种模式中，《跨越鸿沟》一书重点探讨了第二个模式。",
+   "ts": "00:10:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. You touched on so many things that I want to talk about. I definitely want to dive into the bowling alley metaphor and strategy there. But to close the loop on this target audience to start with initially. First of all, you have this awesome bonfire analogy that I think might be useful to share. Then along that, is there any example or an example or two you could share of just someone that did that really well of picking a really good initial target?",
+   "zh": "太棒了。你提到了很多我想探讨的内容。我特别想深入探讨保龄球馆的比喻和相关策略。但首先还是要回归到目标受众这个话题。首先，你提到的篝火比喻很棒，我觉得可以分享给其他人。然后，在这个基础上，能否举个例子，说明如何有效地选定初始目标受众？",
+   "ts": "00:15:45"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Sure. Well, the bonfire analogy is just the tendency when you're in the chasm is, \"I just need more customers. I should take any customer I could find.\" Because we need revenue, but the analogy I have is it's like taking a match, and running it back and forth under a log. It's not going to light the log. So how do you start a fire? Well, you start it by putting a little kindling, a little crumpled up paper, and you hold the match one place until the fire starts. Then you want to build... The bowling alley metaphor is a little bit about, first of all, how could you win your first segment, but then increasingly, how would you go forward to win it? That's why adjacency is so important. If you like the fire and the piece of kindling is here, but the log is in the other room, that doesn't work. So I think those are the key ideas. (00:16:59): There's a lot of people that have made Crossing the Chasm successful. The one that we wrote about first was this company called Documentum, and it's a good example. So it was a document management database back in the day that was not... that nobody had any, \"Why would you need this?\" It started with the pharmaceutical industry, because pharma said, \"Well, new drug approvals are 500,000 page documents, and they really, really, really are hard to manage, and we're screwing it up. And every day we screw it up, we lose a day of patent life of our drug, and the day of patent life's worth about a million or $2 million a day. This is a bad situation. We need to do something.\" (00:17:37): So \"Okay, pharma, you got pharma.\" Great. Well, then what happened was the guys in petrochemicals said, \"Well, we're in the chemical industry. We're not in the pharmaceutical industry, but we have these standard operating manuals, and we have all these regulatory demands on us too. Not quite like the FDA, but this looks like this could be pretty useful to us too.\" And then after the petrochemicals guys got... Well, the chemical guys got it, then the petrochemical guys got it. Of course, they're oil and gas, and they say, \"Well, in addition, we have all these leases. The lease holds them. It's brilliant. This property is critical to our future plan, so we need a document database for the leases.\" (00:18:20): So the guys on Wall Street who are financing these guys are going, \"Well, wait a minute. Hell, I mean, we're paper from wall to wall here. Why don't we...\" So what happens is you have this thing of this expansion, but in each case, it was into a new segment, but the use cases were close enough.",
+   "zh": "当然。篝火比喻主要讲的是，当你身处鸿沟阶段时，人们往往会想：“我只需要更多客户，应该不择手段地获取客户。” 因为我们需要营收，但我的比喻是，就像拿着一根火柴，在木头下来回摩擦。根本点不着火。所以如何点火呢？首先要放一点引火物，比如揉皱的纸片，然后把火柴固定在一个位置，直到火势渐起。保龄球馆比喻主要讲的是，首先如何赢得第一个细分市场，然后如何逐步扩展。邻近效应非常重要。如果火源和引火物在另一个房间，就无法成功。所以这些都是关键理念。（00:16:59）：有很多公司成功应用了《跨越鸿沟》理论。我们最先写到的是Documentum公司，这是个很好的例子。当时它是一家文档管理数据库公司，但没人看好，人们觉得“为什么需要这个？”它最初针对制药行业，因为制药公司说：“新药审批文件有50万页，管理起来极其困难，浪费了大量时间。每天效率低下，药物专利保护期就缩短一天，而每一天的专利保护期价值约100万至200万美元。这太糟糕了，必须采取措施。” （00:17:37）：然后石化行业的人说：“我们虽然不在制药行业，但也有标准操作手册和监管要求，虽然不像FDA那么严格，但也能派上用场。” 接着石化行业的人掌握后，化学品行业的人又跟进。当然，石油和天然气行业的人说：“我们还有租约管理，这些租约对未来规划至关重要，所以需要租约数据库。” （00:18:20）：华尔街的投资者也参与进来：“等等，别急，我们这里文件堆积如山，何不……” 所以这种扩张模式在每个阶段都是针对新细分市场，但用例必须足够相似。",
+   "ts": "00:16:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So if a startup founder is listening and trying to decide is their initial target audience, their ICP too wide, do you have any advice for how to know if this is still too wide, and you should try to get more and more narrow? I know you talk about a single use case. What else should people be thinking about there?",
+   "zh": "如果有创业者想知道自己的初始目标受众或ICP是否太宽泛，你有什么建议？你提到要聚焦单一用例，还有其他需要考虑的方面吗？",
+   "ts": "00:18:36"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, so first of all, before you try to cross the chasm, do you have a marquee? Have you won a marquee customer that puts you on the map? Because if you're not... You need to make yourself visible before you can make the Crossing the Chasm play. Let's assume you've done that. So then when we first saw, \"Well, why don't I just use that industry?\" Turns out that the visionary person you work with... First of all, they did some very weird things because they're visionaries and second of all, they don't want to help their industry. The whole point of this was they wanted to get ahead of their competitors. They didn't want to help. So normally you can't use the visionary project as your beachhead. You'd love to from a point of view of reusing the work. You just can't. So then the question becomes, \"Okay, where am I going to go?\" (00:19:41): So the key formula, and this is the formula... If there's one sort of takeaway from founders listening at this point, you want to have a target segment that is big enough to matter, small enough to lead and a good fit with your crown jewels. That's the formula. So big enough to matter means do I have enough room to double or... Often venture capitalists talk about a triple double followed by a double triple. So if you said, \"Okay, let's just, I'm going to make you a million dollars.\" Put that visionary, but just to give you a number. Okay, so a double triple would be I went from one to four and from four to 12, and then I did a triple double. So that would be 12 to 24, 24 to 48, 48 to 90. Okay, so how would you get from one to a hundred million dollars? (00:20:31): So you want to have a segment that says that I could get to a hundred million dollars in a five year... That was a five-year window. So you say, \"Okay, but what it can't be is a billion dollar segment.\" Because if it's a billion dollar segment, you might be able to get there, but you would not be a big fish. So that's a fish to pond ratio thing. So you want to think about, particularly as you're starting out... This is a B2B model predominantly. If I could take the top 20 customers in this segment, meaning... What do I mean by a segment? It's in the same geography. People in Japan don't talk to people in America. People in America don't talk to people in Germany, they even speak different languages. I don't know why everybody doesn't speak English, but apparently they don't. So they have to be same geography, same industry, because dentists do not talk to software designers, who don't talk to advertising people and in the same profession. (00:21:23): So salespeople don't talk to finance people and finance people don't talk to the guys in the warehouse. So same industry, same geography, same profession. And then the compelling use case, which is the thing... That's the thing that starts the fire. There's segments everywhere and by the way, they all have that... They all do... Every segment works the same way. If I have to make a high risk buying decision, I'm going to talk to my peers about it. And I don't want to be first. I want to be able to do whatever the herd's doing. But what a compelling reason to buy does is it goes well, but I have to act faster than I want to. And that's what you need as an entrepreneur. You need the customer to be coming toward you even though you're new and you're unproven, and frankly you scare the crap out of them, but they're even more afraid of the problem that they're saddled with. So that's why you can build a relationship with them.",
+   "zh": "嗯，首先，在你尝试跨越鸿沟之前，你有客户案例吗？你是否赢得了一个能让你的品牌声名远扬的客户？因为如果没有的话……你需要先让自己被看到，才能实施“跨越鸿沟”的策略。假设你已经做到了这一点。那么当我们最初看到“好吧，为什么不直接利用这个行业呢？”的时候。结果发现，与你合作的那个有远见的人……首先，他们做了一些非常奇怪的事情，因为他们是梦想家；其次，他们不想帮助自己的行业。整个策略的核心在于，他们想领先竞争对手，不想去帮助别人。所以通常你不能把这个有远见的项目当作你的滩头阵地。尽管你从重用现有工作的角度出发很想这么做，但你就是做不到。于是问题就来了：“好吧，那我该往哪儿走？”（00:19:41）：所以关键公式是……如果听众中有创业者能从中领悟到一点，那就是：你需要一个目标细分市场，这个市场要足够大到有意义，足够小到能引领，并且与你的核心产品高度契合。这就是公式。所谓“足够大到有意义”，意思是我们是否有足够的空间实现翻倍增长……通常风险投资家会谈到“三倍翻倍，再加两倍翻倍”。假设你说：“好吧，让我给你一个例子。”你可以拿出一个有远见的项目，但只是举个数字。好吧，那么三倍翻倍就是从1增长到4，再从4增长到12，然后再三倍翻倍。所以从1增长到1亿美元要怎么做？（00:20:31）：所以你需要一个细分市场，要能让你在五年内达到1亿……这是一个五年的窗口期。所以你说：“好吧，但它不能是一个10亿美元的细分市场。”因为如果是一个10亿美元的细分市场，你或许能做到，但你就不是大鱼了。所以这是一个鱼与池塘的比例问题。尤其是在你刚起步的时候……这主要是B2B模式。如果我能拿下这个细分市场的前20个客户，意味着……我说的“细分市场”是什么意思？它要在同一地理区域内。日本人不和美国人交流，美国人不和德国人交流，他们甚至说不同的语言。我不知道为什么大家不都说英语，但显然他们不说。所以他们必须在同一地理区域、同一行业、同一专业内。然后是引人注目的用例，这才是……点燃火花的东西。到处都有细分市场，顺便说一下，它们都有……每个细分市场都遵循同样的模式。如果我要做一个高风险购买决策，我会和同行讨论这个问题。我不想成为第一个。我想做大家都在做的事。但一个引人注目的购买理由会带来好处，但我必须比自己想的更快行动。这就是你作为创业者需要的。你需要客户主动向你靠近，尽管你是新手、未经证实的，坦白说他们会被你吓到，但他们更害怕被困在现有问题中。所以这就是为什么你能和他们建立关系的原因。",
+   "ts": "00:18:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. And this phase comes... You kind of imply it comes after, say you're at a million dollars AR, you don't do this sort of work of trying to cross the chasm at that point, until you reach something like that?",
+   "zh": "太棒了。然后这个阶段就来了。。。你有点暗示它是在之后才出现的，比如说当你的AR收入达到一百万美元时，你不会在那个时候就开始尝试跨越鸿沟，而是要等到达到某个更高的水平？",
+   "ts": "00:22:19"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "I'm not sure AR is going to be the right reference. Here's what you need. You need a major account who's gone all in with you on the new technology and who is willing in some way to talk about it. The good news about visionaries is they tend to have fairly big egos and they tend to like to talk, unlike pragmatists who will not want to talk. Pragmatists, they'll have to go to legal and get permission and blah, blah, blah. But once you've got that, whatever your revenue is at that point, you should be starting to think about, \"Well, what is my beachhead segment?\" And the good news about Crossing the Chasm, it's not expensive. (00:23:12): Think about it, once you've said, I'm going to stay in one geography, in one industry, one profession, think about your marketing budget. You're not buying Super Bowl ads here. There's no sock puppets. That's not what we're doing. We want to get to maybe 200 people with a message. And then do you have the domain expertise to really understand the problem? And if it's a really compelling problem, they'll take the meeting and getting that meeting is... Because if you're an entrepreneurial founder, you're probably fairly charismatic. First of all, you've convinced your spouse that you're willing to work for no money with no benefits, and maybe you pitched a venture capitalist and you fooled them, so why can't you fool these guys? Anyway, that would be the way I would go.",
+   "zh": "我不确定AR是否是合适的参照。关键在于你需要一个主要客户，他们全力支持新技术，并愿意公开谈论它。关于愿景派的好处是，他们通常比较自信，喜欢与人交流，不像实用派那样不愿开口。实用派需要经过法律部门批准之类的。但一旦你有了这样的客户，无论你当时的收入是多少，都应该开始思考：“好吧，我的突破性市场是什么？”而跨越鸿沟的策略成本不高（00:23:12）：想想看，一旦你决定只专注于一个地理区域、一个行业或一个职业领域，考虑一下你的营销预算。你又不是要买超级碗广告位。没有虚假账号。我们要做的是让大约200人了解我们的信息。然后你是否有足够的专业知识来真正理解问题？如果这是一个非常引人注目的问题，客户会愿意与你会面。而要获得这样的会面并不难。毕竟，如果你是一位创业者，可能相当有魅力。首先，你说服了配偶接受零薪无福利的工作，还成功说服了风险投资家，所以为什么不能说服这些客户呢？总之，这就是我的思路。",
+   "ts": "00:22:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Essentially, the advice here is if you're a new early stage startup, one of the biggest milestones you want to aim for is a big marquee customer. When I think about this and look at a startup deck, if I see something like Figma is using this product or notion or Salesforce. Clearly, I'll be like, \"Wow, okay, these really sophisticated people decided this was useful to them.\" And so I will innately trust that. There's also often advice of don't work with big companies because they'll push you around, they'll take a long time, they'll force you to build a thing just for them and it won't apply to other people. What's your advice to avoid that downside?",
+   "zh": "本质上，建议是，如果你是一家新兴初创公司，最重要的里程碑之一就是获得一个大客户。当我审视初创公司的商业计划书时，如果看到Figma、Notion或Salesforce在使用你的产品，我会惊叹：“哇，真的吗？这些成熟的公司都认为这个产品对他们有用。”我会自然而然地信任它。然而，人们常建议不要与大公司合作，因为它们会把你当成棋子，耗费大量时间，迫使你为它们定制产品，而这些产品对其他人毫无用处。如何避免这种弊端？",
+   "ts": "00:24:02"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "It has to do with the persona of the executive sponsor. Nine out of 10 executive sponsors are going to be the negative because they're going to be a company person working with company processes. They're going to send you to purchasing, nobody's going to be happy. You're looking for the 10th one. The 10th one is one who says, \"I'm so tired of the status quo. I'm looking for people that are visionary like me. I like talking to you better than I like talking to my peers because you're different and I want to be different. I want to leapfrog the world, and these people just want to stay on the escalator. So they're staying on the escalator. God bless them, but I want to jump over the top.\" So it's a persona based choice is the key thing there.",
+   "zh": "关键在于执行赞助人的个性。十个执行赞助人中有九个会是消极的，因为他们是公司职员，受制于公司流程。他们会把你推给采购部门，没有人会满意。你要找到第十个。第十个会说：“我厌倦了现状。我在寻找像我一样有远见的人。我更愿意和你交流，而不是和同行交谈，因为你与众不同，我也想与众不同。我想引领世界，而他们只想随波浮沉。所以他们就随波浮沉吧，上帝保佑他们，但我想跳出框架。” 所以，选择一个有远见的执行赞助人是关键。",
+   "ts": "00:24:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is really interesting. And then say that you are an early stage startup again, how soon do you think it makes sense to invest in finding that big marquee customer versus finding some smaller... I imagine you start with some startups to see how people... You don't go straight there.",
+   "zh": "这真的很有趣。再说回初创公司，你觉得在多早的时候投资寻找大客户比寻找小客户更有意义？我猜你会先与一些初创公司合作，看看人们的反应...你不会直接就去找大客户。",
+   "ts": "00:25:20"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Yes, and so initially, I think... And of course you and I are both playing, let's be clear, we're playing a software game. For example, I was trying to apply this framework to Intel, and Intel said to me, \"Geoffrey, you do understand that a prototype product in our industry costs about $500 million.\" Okay, okay, okay, okay. Maybe that's not the same model. I think in our world right now with digital transformation, most entrepreneurs are doing some software led play, which means you can work with a small team. So I think what I would advise is I would do projects. Even though I have a product vision, I would start with trying to make as much projects, which would be very customer led. And frankly, initially, even if I have a roadmap, the customer's probably going to take me off my roadmap a bit. (00:26:31): I'd have to be willing to say, \"I'm going to open the aperture enough.\" Because I just need to get enough experience with the technology. I need to put in people's hands. If it's a freemium play, you can do it for free. But that tends to be more of a consumer play. There are exceptions. There are B2B companies like Atlassian and things that did start as a freemium play, but that's not as normal. I would think more of the consultative play to do that. But what I would try to do, so I would try to get to cashflow break even on my own money with no venture capital. The only reason you need venture capital is if... Well, two things. Either A, the technology is too expensive and you cannot self-fund it, GPUs a bunch of that, training large language modules, those kinds of things. Or this thing is going to catch fire too soon and I don't have time to dither around for two or three years. So those are two reasons to go to venture capital, but just because you want to do a startup doesn't mean you need venture capital.",
+   "zh": "是的，首先，我认为……当然，你我都在参与这场游戏，说白了，我们玩的是软件游戏。比如，我曾试图将这个框架应用于英特尔，而英特尔对我说：“杰弗里，你要明白，在我们这个行业，原型产品动辄就需要5亿美元的成本。”好吧好吧好吧好吧。或许这不是同一个模式。我认为在当前的数字化转型浪潮中，大多数创业者都在进行软件主导的创新，这意味着你可以用小团队就能开展业务。所以我的建议是，先做项目。即便我有产品愿景，也要先尝试开发尽可能多的客户导向型项目。坦白说，最初即便我有路线图，客户也可能会把我带离既定轨道。我必须愿意说：“我要把格局放得足够大。”因为我只需要积累足够的技术经验，把产品交到用户手中。如果是免费增值模式，你可以免费提供服务，但这通常更适用于消费级应用。也有例外，比如Atlassian这样的B2B公司，它们最初就是以免费增值模式起步的，但这种情况并不常见。我更倾向于采取咨询式策略来实现这一目标。但我会努力做到，用自己的资金就能实现现金流收支平衡，无需风险投资。需要风险投资的唯一原因是……嗯，两个方面。要么A，技术成本过高，无法自筹资金，比如GPU、训练大型语言模块之类的技术投入；要么B，项目会迅速爆发，但你没有两三年时间去慢慢探索。所以这两个原因才是求助风险投资的理由，但仅仅因为想创业并不意味着就必须依赖风险投资。",
+   "ts": "00:25:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We had Jason Fried on recently the CO of Basecamp, and he made that point in many different ways. The benefits of not raising and how most VC funded companies do not work out, and even though they do, you often don't make as much as you could if you tried it to bootstrap it. So I think there's a lot of resonance there. And you have this quote that essentially kind of what you just said, that with a single round of funding, you should be able to cross the chasm and dominate a single use case in a single market within 18 to 24 months.",
+   "zh": "我们最近邀请了Basecamp的首席运营官杰森·弗里德（Jason Fried），他从多个角度阐述了这一观点。比如不融资的好处，以及多数风投支持的公司最终难逃失败的命运。即便成功了，如果能自力更生，也能创造更大的价值。比如GPU、大规模语言模型训练等技术投入，成本实在过高。这类项目往往发展过快，而你又没有两三年时间慢慢摸索。所以这两个原因才是求助风投的理由，但仅仅因为想创业并不意味着就必须依赖风投。",
+   "ts": "00:27:35"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Yeah. This is like an English major doing math, so be careful because I am an English major. But in general, because again, I said it's not expensive, and by the way, you're not discounting. In other words, you're actually using value pricing because the problem you're solving is severe enough, the customer doesn't want a discount, the customer wants you to... It is like if you have to have heart surgery, you don't want a coupon that says, \"Heart surgery 9.99 this Saturday only.\" You want to go to the Mayo Clinic or you want to go to wherever, so you don't have to discount. (00:28:44): What you do have to do is you have to make almost like a guaranteed commitment to the problem to solve. We're going to take this problem off the table and we're not leaving until you're satisfied. That's the key to the game. That's a little bit weird because if you've invented ChatGPT, and now you're saying, \"But I am going to solve the third grade math problem,\" which is a real problem. But ChatGPT can do anything. I know, but we're going to solve the third grade math problem. That's hard for a lot of entrepreneurs to get their head around.",
+   "zh": "是啊。这就像英语专业的学生做数学题一样，所以要小心点，因为我就是英语专业出身的。但总的来说，因为我之前说过价格不贵，顺便说一句，你们又没有打折。换句话说，你们实际上是在用价值定价，因为你们解决的问题足够严重，客户不需要折扣，他们需要你去……就像如果你需要做心脏手术，你肯定不想看到一张优惠券写着“本周六仅需9.99美元的心脏手术优惠”。你会想去梅奥诊所或者其他地方，所以没必要打折。（00:28:44）：你们必须要做的是，对解决的问题做出几乎是百分之百的承诺。我们要把这个问题彻底解决，直到客户满意为止。这才是关键所在。这有点奇怪，因为如果你发明了ChatGPT，现在却说要去解决三年级数学题——这可是个实实在在的问题。但ChatGPT无所不能。我知道，但我们就要解决三年级数学题。这对很多创业者来说都难以理解。",
+   "ts": "00:28:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It reminds me of the way Figma started, even though it took them a long time to find product market fit and started scaling, they ended up working very closely with Coda. I don't know if you know the story where they just wanted to make sure the Coda team, and it was called Krypton back then was very happy with Figma. So they went to the office, they set them all up, they started using Figma. And then on the drive home they called him like, \"It doesn't work anymore. Something's broken.\" And they were already home. And Dylan basically, and this team drove all the way back, I think it was an hour or two, and got there and turned out the Wi-Fi was down and there was some internet issue and fixed it and just was obsessed with making sure they were using it. And they're also just fixing the most ridiculous bugs that were not important because they just wanted to make sure they were really happy with it.",
+   "zh": "这让我想起了Figma的起步历程。尽管他们花了很长时间才找到产品市场匹配点并开始规模化扩张，但最终他们与Coda合作得非常紧密。我不知道你是否了解这个故事，他们当时只想确保Coda团队（当时叫Krypton）对Figma满意。所以他们去了办公室，把所有设备都安装好，开始使用Figma。然后在回家的路上，他们打电话给他说：“现在用不了了。出了点问题。”而他们当时已经到家了。迪伦基本上带领团队驱车一两个小时赶回去，结果发现是Wi-Fi断了，网络出了问题，然后就立刻去解决，执着于确保用户能正常使用。同时，他们还会修复那些看似微不足道的bug，只因为他们想确保用户真正满意。",
+   "ts": "00:29:23"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "[inaudible 00:30:11] a larger company would say, \"Look, we'll put you in our queue and you'll be on our... We'll get to you.\" I think this is... And by the way, this is part of the fun, frankly, of being in a startup because you're so close to the action, because there's nothing between you and the action. So why wouldn't you do that?",
+   "zh": "[00:30:11不可听清]一家大公司可能会说：“看，我们会把你排进队列，等轮到你。”我觉得这……说实话，这正是创业的乐趣所在，因为你离行动太近了，没有任何阻隔。所以为什么不这样做呢？",
+   "ts": "00:30:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, and I think one of the takeaways I've had for my own research into this is that you need to find one company that just loves you. It's not like \"[inaudible 00:30:37], this is cool.\" It's like, \"I love this product. I would never want to give it up.\"",
+   "zh": "是啊，我从自己的研究中得出的一个关键点是，你需要找到一家真正喜欢你的公司。不是那种“嗯，这很酷”的态度，而是“我爱死这个产品了。我绝对不想放弃它。”",
+   "ts": "00:30:29"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "That's kind of what I meant by that marquee ref... We sometimes we call it a radiating reference. It's just somebody really, we talk about you when you're not even in the room. Yeah, very cool.",
+   "zh": "这就是我所说的引荐效应……我们有时称之为辐射式推荐。就是有人真心实意地在你不在场的时候谈论你。这太酷了。",
+   "ts": "00:30:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We've talked about this idea of the chasm and Crossing the Chasm, but it might be helpful just to explain what is the idea, what is this chasm? What is it that people fall into and why is this important?",
+   "zh": "我们讨论过“鸿沟”和“跨越鸿沟”的概念，但或许有必要先解释一下什么是“鸿沟”？人们为什么会陷入这个鸿沟？为什么这很重要？",
+   "ts": "00:30:52"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "And this was funny, because I was working at Regis McKenna, which was this marketing agency that was sort of the premier high-tech marketing agency in the eighties. And we had all these really successful launches, and then covers of front page articles on Fortune magazine and Wall Street Journal. And then a couple of years later it's like, \"Well, what happened to these guys?\" So that's where the chasm was like... That's what caused the investigation. What we learned was visionaries make their own buying decisions, and they do not consult their peers. In fact, if their peers are doing it, they're probably not going to do it because they want to be different. So basically these companies were having success capturing the imagination of the visionary, and they thought, \"Well, I'll use the visionaries as a reference to get the pragmatist.\" (00:31:53): The pragmatist looks at the visionary and goes, \"That's not my guy. First of all, he thinks I'm dumb. He thinks he's smarter than I am. Second of all, he does stuff that I would never do, and he makes decisions in a way that I would never make them. So that's not... No. So but I am interested in talking to my peers, but the problem now is, well, which of the peers are going to go first?\" And it was kind of like the junior high dance problem. How do you get the party started? So that was the chasm. That was what created the chasm. The pragmatists need references and they will not accept a visionary as a reference, and they don't have any peers that have tried it yet. So that was what was happening.",
+   "zh": "这一点很有趣，因为我当时在雷吉斯·麦肯纳公司工作。这家营销公司在八十年代堪称高科技营销领域的领军者。我们成功策划了多个产品发布，相关报道还登上了《财富》杂志和《华尔街日报》的头版。然而几年后，人们开始疑惑：\"这些人后来怎么了？\" 这正是引发分歧的根源所在——调查发现，有远见卓识的人往往会按照自己的标准做决策，而非参考同行的意见。事实上，如果同行在做某件事，他们往往会反其道而行之，彰显独特个性。\n\n（00:31:53）：务实派会审视有远见的人并评价道：\"这不是我要找的人。首先，他觉得我很笨。他自以为比我聪明。其次，他做的事我绝不会尝试，决策方式也与我背道而驰。\" 这就是分歧所在。分歧的根源在于务实派需要可靠的参考案例，却不认可有远见者的推荐，同时身边又没有成功案例可供借鉴。",
+   "ts": "00:31:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think that's such an important point that I think people don't quite always get that that reference, marques customer needs to be a pragmatist. It can't be one of these early adopters that are just trying stuff. And these other pragmatists need to feel that this is my person, this is just like me. And they love it.",
+   "zh": "我认为这一点至关重要，但人们往往忽视了客户需要务实派这一点。客户不应是那些盲目追随潮流的早期采用者，而应是能与自己产生共鸣的同行，他们要能感受到\"这就是我要找的人\"，并真心认同产品价值。",
+   "ts": "00:32:35"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "By the way, one of the reasons that pragmatists have a certain... It's not contempt for visionaries, but it's definitely wariness, it's because often they have to clean up the messes that these guys leave behind because when you're a visionary, you leave a lot of messes in your wake. And then the pragmatist has to come in and clean it up. So they're going, \"Oh, that's another mark against these people.\"",
+   "zh": "顺便说一句，务实派对有远见者存在警惕心理，并非轻视——因为有远见者常留下烂摊子，务实派往往不得不收拾残局。这让务实派不禁质疑：\"这些人真不靠谱。\"",
+   "ts": "00:32:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I saw a deck of yours where you actually represent each of these stages of the lifecycle and the visionary Steve Jobs is the way you represented it, and the pragmatists are just like business people in suits sitting at a conference table.",
+   "zh": "我曾看到你的演示文稿，里面用不同角色代表产品生命周期的不同阶段。你把史蒂夫·乔布斯描绘成有远见者，而务实派则像是西装革履的商务人士围坐在会议桌旁。",
+   "ts": "00:33:14"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Exactly. And there's six of them. And the key idea behind that is none of us... By the way, I don't think any of these people are a guru and they don't think I'm a guru. We're using the antelope strategy, it's a herd strategy. But at some point... And by the way, we do this all the time, every one of... Airbnb, I want to get an Airbnb in Portland. Have you ever stayed [inaudible 00:33:53]? Is this a good hotel? Is this a good restaurant? Is this a good dentist? Is this a good lawyer? That's how we do it.",
+   "zh": "没错。共有六个阶段。关键在于，我们都不是孤军奋战——顺便说一句，我认为这些人里没人是大师，他们也不认为我是大师。我们采用的是羚羊战略，即群体策略。但在某个节点……顺便说一句，我们日常也常这么做。比如：\"我想在波特兰订个Airbnb。你在那住过吗？这家酒店好吗？这家餐厅好吗？这位牙医靠谱吗？这位律师靠谱吗？\"这就是我们的决策方式。",
+   "ts": "00:33:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think Uber and Airbnb is the best example of this in action where I would not ride in a random car, especially I think women were most like, \"I will never get into a car, into an Uber.\" This is insane until all of their friends are doing it. And then, \"Okay, let's give it a shot.\"",
+   "zh": "我认为Uber和Airbnb就是这一理论在现实中的最佳范例。我绝不会随便搭陌生人的车，尤其是女性往往会说：“我绝对不会坐Uber。”这种想法在朋友们都开始尝试后才慢慢改变，最终她们会说：“好吧，就试试看吧。”",
+   "ts": "00:33:58"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "I guess it's okay, yeah.",
+   "zh": "我觉得也还好啦。",
+   "ts": "00:34:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. So essentially most people were pragmatists and I guess that makes sense. And pragmatists make up the biggest chunk for it.",
+   "zh": "是啊。所以说大多数人都是实用主义者，这其实挺合理的。实用主义者构成了这类创新的主力军。",
+   "ts": "00:34:15"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "And by the way, you can be a visionary with some things, a pragmatist with other things, and a conservative with other things. So the way to really think about them is, what is my persona in relation to this decision?",
+   "zh": "顺便说一句，有些事你可以当个梦想家，有些事当个实用主义者，有些事当个保守派。关键在于，面对某个决策，你的角色定位是什么？",
+   "ts": "00:34:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this example of the junior high dance problem where nobody wants to go ask the person. It's like, \"I'm going to wait for them to come to me. I want to see how this plays out.\" It's such a good metaphor. In terms of how much of your product needs to be built at each of these stages. What advice do you share? How much do you need for these visionaries versus the next?",
+   "zh": "我很喜欢初中舞会那个例子，没人愿意主动去邀请对方。他们会说：“我就等着他们来找我，看看结果如何。”这个比喻太贴切了。在产品发展的不同阶段，需要投入的资源也不同。对这类梦想家和普通用户，应该分别给予怎样的支持？",
+   "ts": "00:34:34"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "So with a visionary, you have to have the magic ingredient working. You don't have the whole product. And in fact, your product may be buggy, but it does something... Andy Grove used to call it the 10 x effect. You need to do something that is an order of magnitude better than anything because that's why the visionary is talking to you. They're going, \"Oh my gosh, you have this fusion.\" \"Fusion, really?\" \"Yeah, we got fusion energy.\" So that's number one. Then what would still cause you to not cross the chasm yet? If there's not enough product there, pragmatists cannot put up with a product that doesn't work. So you may need to do some additional work to say, \"Look, we get some more customers. I'm still living hand to mouth. It's mostly project work, but until the product has got enough stability and can be productized, I really can't afford to cross the chasm.\" So once you have a product that works, then you've got to say, \"Okay, now I've got to find a market where it can be the dominant solution.\" That's the time to cross the chasm.",
+   "zh": "对梦想家来说，关键在于产品得有核心吸引力。产品可能还不够完善，但至少得有核心竞争力。安迪·格鲁夫把这称为10倍效应。你必须提供比现有方案好十倍的解决方案，这样梦想家才会跟你谈：“天哪，你掌握了核聚变技术！”“核聚变？真的吗？！”“是啊，我们成功研发出核聚变能源了。”这就是第一阶段。那么接下来为何还没跨越鸿沟？如果产品功能不完善，实用主义者根本无法忍受不稳定的体验。所以你可能需要完善产品，说：“看，我们又吸引了新用户，但目前还是在赚小钱，主要靠项目维持，但产品稳定后才能实现商业化。”这时候才能跨越鸿沟。",
+   "ts": "00:34:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And a big part of that is obviously they have bosses, they have checklists, they have compliance people, they have IT people, they have people that need to buy into this or this meeting room with six people. They all have to be like, \"All right, this is the best choice.\"",
+   "zh": "关键在于，他们有老板、流程清单、合规人员、IT团队，所有人都得达成共识，甚至召开六人会议讨论。大家必须齐心协力说：“好吧，这是最佳选择。”",
+   "ts": "00:36:05"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "And by the way, normally those people are designed to keep you out, and that decision process will take forever and you'll be in the welfare lines before they make their choice. So that's why it's so important to have what we call the compelling reason to buy. You need to have a group of people in a room where the leader, the guy who's going to actually sponsor make this decision is saying, \"Look, I already gave this problem to everybody in the room, and our answer sucks.\" He wouldn't say it that way, but that's the truth. And therefore, we're kind of at the... I mean, I'm getting the message. First of all, my boss's boss's boss knows my name. That's a very bad thing. Secondly, I'm getting the message, you're either going to fix this problem, Geoffrey, or we're going to find somebody who can. So that's what gives them the energy to go against the inertial momentum of the decision-making process in their company.",
+   "zh": "顺便说一句，通常那些人就是为了把你拒之门外，而且这个决策过程会拖拖拉拉，你还没来得及排到福利队列，他们就已经做出决定了。所以拥有我们所说的\"迫切购买理由\"至关重要。你需要让一群人在会议室里，由那个真正要赞助的领导者说道：\"看，我已经把这个问题交给在座的每一个人了，但我们的解决方案太糟糕了。\"他当然不会这么说，但这就是事实。因此，我们正处于……我是说，我已经领会到了。首先，我老板的老板的老板知道我的名字。这很糟糕。其次，我领会到了，如果你不解决这个问题，杰弗里，我们就会找能解决的人。所以这给了他们力量，去对抗公司决策过程的惯性势头。",
+   "ts": "00:36:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me tell you about a product called arcade. Arcade is an interactive demo platform that enables teams to create polished on-brand demos in minutes, telling the story of your product is hard, and customers want you to show them your product, not just talk about it or gate it. That's why product four teams such as Atlassian, Carta, and Retool use Arcade to tell better stories within their homepages, product change logs, emails, and documentation. But don't just take my word for it. Quantum Metric, the leading digital analytics platform created an interactive product tour our library to drive more prospects. With Arcade, they achieved a two x higher conversion rate for demos and saw five times more engagement than videos. (00:37:57): On top of that, they built the demo 10 times faster than before. Creating a product demo has never been easier. With browser-based recording Arcade is the no-code solution for building personalized demos at scale. Arcade offers product customization options, designer approved editing tools and rich insights about how your viewers engage every step of the way. Ready to tell more engaging product stories that drive results? Head to arcade.software/lenny and get 50% off your first three months. That's arcade.software/lenny. (00:38:30): So April Dunford was on this podcast and she has this book that she put out recently called Sales Pitch. And she make this point that buying software, SaaS software is harder than selling it these days because you can get fired for buying the wrong thing. It's so stressful. There's all these options. Your boss has to be happy with it. So often people end up just not going with anything. We're just going to keep what we have. It's fine, simpler, safer. Salesforce is fine. And it sounds like that's kind of what you're describing. It's so hard-",
+   "zh": "让我跟你讲讲一个叫Arcade的产品。Arcade是一个互动演示平台，能让团队在几分钟内创建精致的品牌演示。讲解产品很困难，客户希望你展示产品，而不是光说不做或者设置障碍。这就是为什么Atlassian、Carta和Retool等产品团队用Arcade在主页、产品变更日志、邮件和文档中讲好产品故事。但别只听我说。领先的数字分析平台Quantum Metric创建了一个互动产品游览库，以吸引更多潜在客户。借助Arcade，他们的演示转化率提升了两倍，参与度比视频高出五倍。（00:37:57）：此外，他们比以往快十倍地完成演示制作。创建产品演示从未如此简单。基于浏览器的录制功能，Arcade是大规模构建个性化演示的无代码解决方案。Arcade提供产品定制选项、设计师认可的编辑工具，并全程深度洞察观众互动。准备好讲述更吸引人、能推动成果的产品故事了吗？前往arcade.software/lenny，即可享受前三个月50%折扣。就是arcade.software/lenny。（00:38:30）：所以April Dunford上过这个播客，她最近出版了一本叫《销售推销》的书。她指出，如今购买软件（SaaS软件）比销售更难，因为买错东西可能会被解雇。压力太大了。选项太多了。你的老板必须满意。结果人们往往什么都不选。我们就保持现状。挺好的，简单点，安全点。Salesforce挺好的。听起来这就是你所描述的。太难了——",
+   "ts": "00:37:15"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "So if you're a pragmatist, the first thing is if it ain't broke, don't fix it. Which makes you totally different than a visionary. A visionary's like, \"Yeah, no, come on, break it. Come on, let's move on.\" It ain't broke, don't fix it. If it is broke, who has fixed it? Is there fix in production? Does the fix work? I want that. In other words, basically to April's point, it is a risk reduction buying strategy. And by the way, you go as slowly as you can normally, but when you're under duress, you have to go faster. So the compelling reason to buy is putting you under duress.",
+   "zh": "所以如果你是个实用主义者，那么首要原则就是：如果没坏，就别修。这样你和梦想家完全不同。梦想家会说：\"好的，不，快修吧。快修吧。\"但如果没坏，就别修。如果坏了，谁修好的？生产环境里有修复方案吗？修复方案有效吗？我就要这个。换句话说，基本上April的观点是，这是一种降低购买风险的策略。顺便说一句，通常你会尽可能慢地推进，但当你面临压力时，你就必须加快速度。所以迫切的购买理由就是给你施加压力。",
+   "ts": "00:38:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any examples of these compelling reasons to buy that come to mind that give people a sense of here's a really good compelling reason to buy? I don't know if it's a pitch.",
+   "zh": "你们能想到哪些令人信服的购买理由，能让人们感叹“这真是个绝佳的购买理由”？我不知道这算不算一种推销手段。",
+   "ts": "00:39:41"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, there's a ton. Well, how about ransomware? I mean, all of a sudden the cybersecurity thing is like holy smoke because it used to be, \"Well, they wouldn't attack my company. Or if they did, I mean, I have no assets.\" Yeah, well, actually... Because it used to be what they did is they would only attack companies that had data that they could resell in the dark web. Then God bless cryptocurrency, people are saying, \"Is it cross the chasm yet? Well, their first use case is criminals.\" It's not a very good use case, I'm sorry to say. But the point is, now ransomware with cryptocurrency can be a monetization, so that means everybody is vulnerable. So that's one kind of compelling reason to buy. But if you look around kids who are struggling with school, the parent has a compelling reason. Anything with healthcare, compelling reason to buy. Anything if you're in a legal problem, you have a compelling risk to buy. (00:40:48): So I mean, there's always these situations where you say, \"Okay, that's on a personal basis.\" On a company-wide basis, it may be things like, \"Well, what am I supposed to do my office space? Can I get my company to come back to the office or do I have to dump the space? What am I supposed to do? And by the way, I know I'm going to have some kind of space, but do I want to design it the way we used? I'm getting into some space by the way, I got a great deal if it was a fire sale, right? Cool space, what do I put in it? Is it supposed to have offices? Do they have doors, do they not have doors do?\" So in other words, there's a bunch of stuff where you get people going, \"Okay, how can we help? How can we help?\" \"I need help. And I've gone to my standard solutions and no, I don't believe that, so I need help.\"",
+   "zh": "嗯，例子太多了。那勒索软件呢？我的意思是，突然间网络安全问题就变得至关重要了，因为以前人们总说：“反正他们不会攻击我的公司。就算攻击了，又有什么资产可拿走呢？” 是啊，但实际上……因为过去勒索软件只会攻击那些有数据可在暗网转卖的公司。然后感谢上帝发明了加密货币，人们会问：“它跨越鸿沟了吗？” 嗯，他们最初的应用场景就是犯罪分子使用的。说实话，这不是个多好的应用场景。但关键是，现在勒索软件结合加密货币成了一个盈利模式，这意味着所有人都可能成为目标。这就是一种令人信服的购买理由。但如果你看看那些学业困难的孩子，家长就会有紧迫感了。医疗保健领域也是如此，购买需求很迫切。遇到法律问题时，人们也会迫切寻求帮助。（00:40:48）所以我的意思是，总有一些情况会让人说：“好吧，这是个个人层面的问题。” 但从公司层面来说，可能就会出现诸如“我该怎么处理办公室空间？能让员工重返办公室吗？还是得腾出空间？该怎么设计？顺便说一句，我知道得留着部分空间，但要用回原来的设计吗？刚好有个机会以折扣价入手空间，对吧？很棒的空间，该怎么布置？要不要设办公室？带门还是不带门？” 总之，会有很多情况让人感叹“我们能帮什么忙？”  “需要帮助。常规解决方案不管用，所以得求助了。”",
+   "ts": "00:39:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so it's interesting that I even misunderstood what you're saying and I think this is a really important point. The compelling reason to buy is not a compelling reason to sell, which people often think about as the pitch you're making. The buy is basically the pain point. They need a really big pain.",
+   "zh": "好的，我之前还误解了你的意思，现在看来这点很重要。购买的紧迫理由和销售的紧迫理由不一样，人们常把后者当作推销手段。但购买本质上是痛点。他们需要一个强烈的痛点。",
+   "ts": "00:41:37"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Yeah, because that's what's going to... So therefore the key to the bowling alley that's different from the tornado, and it's also different from the early market. In the early market it's about you. You tell the story about you and the visionary wants to hear about you. In the tornado it's also about you, because we now have budget to buy this stuff, and you're a candidate. In the bowling alley, it's never about you. And that is so hard for a series of entrepreneurs because they want to give a demo, they want to tell the story, they want to share their vision. The answer is, \"We don't care. We don't want to hear your story. We hate demos, and I don't know who you are and I don't care. I'm in trouble. We need to talk about me. We don't want to talk about you.\" (00:42:35): So we have this saying in the Crossing the Chasm playbook. First of all, \"Shut the God damn laptop. Just don't open it and start with...\" And the way you start the conversation is always the same. \"We're here because we've been working with some people in your industry and we understand there's this really serious problem around document management or around Wi-Fi access or whatever it is, and we believe that your company might have it, is that true?\" And what's interesting about it is you'll get one of two responses either, \"Oh, are you kidding me? Okay, we have that.\" Or often they'll say, \"Well, not exactly.\" And you go, \"Oh,\" but then before you can say anything else they'll say, \"What our real problem is...\" So people will talk about their... They want therapy, they'll talk about their problems. So if you're willing to... But as an entrepreneur, you got to realize the gold at this point is problem domain knowledge. That's the thing you really want to collect.",
+   "zh": "是啊，因为这才是关键……所以保龄球馆阶段和龙卷风阶段以及早期市场阶段的区别在于，在早期市场阶段，重点在于你个人。你讲述自己的故事，潜在投资者想听你的愿景。在龙卷风阶段，同样以你为主，因为我们现在有预算来购买产品，而你成为候选方案。在保龄球馆阶段，重点从不放在你身上。这对许多创业者来说很难理解，他们总想做演示、讲故事、分享愿景。但客户的回应是：“我们不在乎。我们不想听你的故事。我们讨厌演示，我不了解你，也不在乎。我现在有难题要解决，重点得在我们自己，不在你身上。”（00:42:35）《跨越鸿沟》手册里有句话：“先把那该死的笔记本电脑关上。别打开它，直接开门见山……” 对话的开场永远如出一辙：“我们来这儿是因为我们与贵行业的多位人士合作过，发现你们在文件管理或Wi-Fi接入等领域存在严重问题。我们认为贵公司可能深受其扰，是这样吗？” 有两种常见回应：一种是“哦，你开玩笑吧？好吧，我们确实有这些问题。” 另一种是“嗯，不完全是。” 你会回应：“哦。” 但对方还没等你继续说，就转而说：“我们真正的问题是……” 客户会谈论自己的难题，寻求共鸣。所以作为创业者，你必须意识到，此时最宝贵的资源是对问题领域的深刻理解。这才是你真正需要收集的财富。",
+   "ts": "00:41:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. So you've sort of answered this question, but I want to make it even more complete. You have this amazing LinkedIn post of these four go-to-market playbooks based on the stage you're in. And you've touched on this already, but it might be helpful just to go through it one by one. And even more helpful would be like, what does it look like when you're in the early market? How do you know if you're in the early market versus in the bowling alley versus in the tornado?",
+   "zh": "太棒了。你已经解答了这个问题，但我想让解释更完整。你在领英上发布了这四种基于市场阶段的营销策略指南，内容很精彩。你已经提到了这些，但逐一讲解可能更有帮助。更重要的是，你能否解释一下早期市场阶段的特征？如何判断自己处于早期市场、保龄球馆阶段还是龙卷风阶段？",
+   "ts": "00:43:45"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Okay, so in the early market, you know you're there because first of all, the story is the technology, and it's specifically the disruptive technology. By the way, you could start a business with a non-disruptive thing, but then you don't need these playbooks, then you're on Main Street. So the assumption is you've got something that nobody's ever done before or seen before. So in that playbook, the first thing is just you hear the responsibilities. And a venture capitalist would say the same thing to you. \"Do you have a technology expert who's a wizard? Because we're not going to fund just any two guys and a PowerPoint tech, even though we like your dog.\" (00:44:50): So that's number one. Number two, \"Can you demo the technology?\" You have to be able to demo thing. And then three, \"Can you create a vision which says what forces are going to release?\" And the concept that we use in venture, I call it trapped value. And with the idea is where's the trap value that this innovation would release? Because when you release trapped value, the world will give you a portion of the gain, typically 10%. It's easy an number to do math with. As I said, I'm an English major. So if you want a billion-dollar company, you better find $10 billion worth of trapped value that your technology could- [inaudible 00:45:30]",
+   "zh": "好的，那么在早期市场中，你之所以能进入这个领域，首先是因为核心技术本身具有颠覆性。如果你创业的技术并非具有颠覆性，那么你根本无需依赖这些策略手册，因为那时候你就属于传统商业模式了。所以基本假设是，你得拥有前所未有的创新成果。基于此，策略手册中的首要事项就是明确职责。风险投资家也会跟你说同样的话：“你有技术魔术师般的专家吗？因为我们可不会随便资助两个只会用PPT演示技术的创业者，就算我们很喜欢你的狗狗也不行。”（00:44:50）这就是第一条。第二条：“你能演示这项技术吗？”你必须能实际展示产品。第三条：“你能构建一个愿景，阐明哪些市场力量将被释放？”在风险投资领域，我们常用“被困价值”这个概念。关键在于，这项创新能释放哪些被困价值？因为当你释放被困价值时，世界会回馈你10%的收益分成——这个数字便于计算。正如我所说，我是英语专业出身。所以如果你想打造价值十亿美元的公司，你最好能找到价值100亿美元的被困价值，让你的技术去释放它——[00:45:30语音中断]",
+   "ts": "00:44:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Airbnb is an amazing example of that, right? Where they unlocked people's homes, basically 10%-",
+   "zh": "爱彼迎就是一个绝佳的例子，对吧？他们通过平台释放了人们闲置的住房资源，基本上从中获取了10%的价值分成——",
+   "ts": "00:45:30"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Yeah. Uber unlocked their backseat of the car. By the way, the free labor force, it was like, \"Whoa.\" Okay, so really cool idea early market fund. For the bowling alley one then the playbook is, \"No, where's the problem?\" And then you got to take it down to in what geography, what industry, what profession, what use case. And that takes... That's not just... I mean, you want to spend some time in doing that. And then what you want to really do is just maintain intellectual curiosity about the problem as opposed to jumping to the solution. So why is this a hard problem to do? What is going on? Where is the trapped value? By the way, how expensive? What is the cost of not solving this problem? (00:46:24): Often it's a risk exposure, or it could be just a gating item on your growth or potentially a churn problem. By the way, if you wanted to pick a compelling reason to buy, how about if you help SaaS companies deal with churn? Do you think they would care about that? I think they might. So the point being... And you're going to say, \"Okay, I'm going to learn more about churn and I'm going to really understand... And by the way, I'm going to understand your churn,\" which is different maybe from somebody else's churn. So it's the problem domain thing. And then you build your go-to market around... The lead gen is, \"Hey, do you have any of these seven symptoms of fatal churn?\" And the people that respond to that ad are pre-qualified. And then the BDR, if you're at Salesforce, a BDR would call you and say, \"Just confirming you have these problems.\" \"Oh yeah, RBI.\" \"And your role at the company is... And are you responsible for doing this?\" \"Well, actually no, it's Harry, not Mary.\" \"Maybe we should talk to Harry.\" \"Yeah, you probably should talk to Harry.\" (00:47:32): Then you call Harry and you get the appointment with Harry because Harry's got the problem. And then the next thing is you do a diagnostic with them. \"So we understand we're talking to your colleagues, here's the problem, here's what we think we're doing. But before we tell you about how great our solution is, let's make sure that we understand what your challenges are.\" And your goal in that call is to get them to talk as much as possible and for you to take notes. And by the way, this is a place where you probably still want to remember to use a pen because you actually want them to see you writing down their words, because that means, \"Okay, he's listening. He's listening.\"",
+   "zh": "是啊。优步开放了后排座位功能。说到免费劳动力，那真是让人惊叹。好吧，所以早期市场基金的这个想法确实很酷。但对于保龄球馆项目，策略应该是：“等等，问题出在哪儿？” 然后你得深入分析，研究地理范围、行业领域、职业群体和具体应用场景。这可不是件容易的事。关键在于，你不能只关注解决方案，而要保持对问题的深度好奇。那么，为什么这个问题这么难解决？症结在哪里？被困住的价值又在哪里？顺便问一句，成本有多高？不解决这个问题又会带来什么后果？（00:46:24）：通常这涉及风险暴露，或者是增长障碍，甚至是客户流失问题。比如，如果你想找一个吸引人的购买理由，那就帮SaaS公司解决客户流失问题怎么样？你觉得他们会感兴趣吗？我觉得他们可能会。所以关键在于……你会说：“好吧，我要深入了解客户流失问题，真正理解……顺便说一句，我还要了解你们公司的客户流失情况。”这可能和其他公司的流失问题有所不同。所以这就是问题领域的差异。然后你围绕市场推广展开行动……线索生成环节就是：“嘿，你们有没有出现这七种致命客户流失症状中的任何一种？” 对广告做出回应的人已经预先筛选过了。然后如果你在Salesforce工作，业务拓展代表会打电话给你：“确认一下你们确实存在这些问题。”  “哦，对，RBI。”  “那你在公司的职位是……？”  “实际上不是我，是哈里，不是玛丽。”  “或许我们该和哈里谈谈。”  “对，你应该和哈里谈谈。” （00:47:32）：然后你给哈里打电话，成功预约了会议，因为哈里面临着这个问题。 接下来就是和他们进行诊断：“所以我们了解到我们在和你们的同事交流，这里是问题所在，我们认为我们能提供的解决方案。但在向你们介绍我们的优秀方案之前，我们得先确保理解你们面临的挑战。” 你这次通话的目标是让他们尽可能多地发言，同时你要做好笔记。顺便说一句，这里你可能还是得记得用笔，因为你要让他们看到你在记录他们的发言，这意味着：“好吧，他在听。他在听。”",
+   "ts": "00:45:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, interesting. That's a good tip. Like on Zoom, would your advice there be just make sure the camera shows your hands?",
+   "zh": "哦，有意思。这是个好建议。比如在Zoom上，你的建议会不会就是确保摄像头能拍到你的手？",
+   "ts": "00:48:14"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Oh, yeah, yeah.",
+   "zh": "哦，对，对。",
+   "ts": "00:48:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Lean in. Yeah, yeah.",
+   "zh": "好的。靠近点儿。是啊，是啊。",
+   "ts": "00:48:22"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Or sometimes... I mean, no, you couldn't do this. I was going to say we record it, but they don't want to record it because they're going to say some things during the call that they won't be necessarily complimentary to all their colleagues and they don't want you to record it.",
+   "zh": "或者有时候……我是说，不，你不能这么做。我本来想说我们会录音，但他们不愿意录音，因为他们会说一些在电话里不方便对所有同事说的话，不想被录音。",
+   "ts": "00:48:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So in this bowling alley phase, how do you know you... I know it's not like this binary switch, but that you're ready to move into that versus the early market playbook.",
+   "zh": "明白了。所以在保龄球馆阶段，你怎么知道你……我知道这不是二选一的问题，但你要知道何时该进入这个阶段，而非遵循早期市场策略。",
+   "ts": "00:48:38"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, I think you get to a point where you realize, \"I can't scale my business doing what I've been doing. I mean, I just can't.\" And if you've taken venture capital, the thing you want to do is, \"I don't want to have to raise another...\" Well, so understand how venture capital funding works for a second. This is important. A venture capitalist gives you money, and what they're buying from you with this money is, \"I want you to use this money to change the state of your company such that when we raise the next round, the next investor will value your company two to three times higher than we're valuing it today.\" (00:49:30): So basically the purpose of this money is to change the value state of your company. If you do anything else with that money, you could have done brilliant things, created amazing demos, hired great people, but if at the end of the day you haven't changed the value state of the company and we have to raise more money, we're going to raise it at the old valuation and I as an investor lose, or even worse, we have a down round and I lose even more. (00:49:58): So once you start thinking about that, so we're then Crossing the Chasm. The Crossing the Chasm play is I need to change the state of my company from a cool possibility to what accountants call a going concern. So what is a going concern? A going concern is a company that two years from now you would expect still to be in existence. Why would you do that? Because they have a customer base that's loyal and they have a ecosystem of partners that bring them into new deals and they have established their CAC and LTV, and they've kind of figured out their operating model. And it's not the biggest company in the world. (00:50:38): It's somewhere we're now probably in the 10, $20 million, but it's a real company. It's a real company. And that's who you're trying to create when you cross the chasm. And you know you've crossed the chasm when you say, \"I don't have to raise any more venture capital. Now, I may want to because I have ambitions to be globally dominant.\" But you get to raise it on your nickel and on your timeline, not on, \"Oh my God, I'm running out of money.\" So the sooner you can get off with the, \"I'm running out...\" And particularly last year was fatal to a huge number of companies because that was not how they were thinking about raising funds. They always thought, \"Well, there'll be another round, another round, another round.\" And they were not thinking about changing their valuation state and they're not here.",
+   "zh": "嗯，我觉得当你意识到“我做现有的事情根本无法扩大业务规模”的时候，就到了一个转折点。我是说，真的不行。假如你接受了风险投资，你最想做的是：“我不想再去融资了……” 好吧，让我们先来理解一下风险投资的运作机制。这很重要。风险投资家给你钱，他们希望用这笔钱来改变你的公司现状，以便在下一轮融资时，下一个投资者对公司的估值能比我们现在高出两到三倍。（00:49:30）所以这笔钱的核心用途就是改变公司的估值状态。如果你用这笔钱做其他事情，比如开发出很棒的演示产品、招募优秀人才，但最终没有改变公司的估值状态，我们就不得不以旧估值融资，而作为投资者，我会亏损，甚至更糟的是，我们会面临估值下调，损失更多。（00:49:58）所以当你开始考虑这些问题时，我们就进入了“跨越鸿沟”的阶段。“跨越鸿沟”的策略是，要把公司的状态从一个有趣的可能性转变为会计师口中的“持续经营企业”。那么什么是“持续经营企业”呢？持续经营企业是指两年后你仍能预见到它存在下去的公司。为什么要这样做？因为它拥有忠诚的客户群体，拥有能带来新业务的合作伙伴生态系统，建立了客户获取成本和生命周期价值模型，并且已经明确了运营模式。这家公司不一定是全球巨头（00:50:38）。现在我们可能处于1000万到2000万美元的规模，但这是一家真正的公司。这就是你跨越鸿沟时要打造的公司。当你说“我不需要再融资了”时，你就知道自己跨越了鸿沟。当然，你可能还想融资，因为你有全球主导的雄心，但你可以在自己的节奏和条件下融资，而不必被迫在资金告急时仓促行动。所以越早摆脱“资金告急”的思维模式越好。特别是去年，很多公司因此倒闭，因为他们没有正确规划融资策略，总是在想“下一轮融资总会有的”，而忽视了估值状态的转变，最终错失良机。",
+   "ts": "00:48:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's a really interesting insight. This idea that you know you've crossed the chasm if you can survive without more venture funding, how do you think about that, the profit element of that? Because it feels like that's the core to being able to survive without venture funding. Is it about making enough money that you can cut and make a profit, or is there some other reason?",
+   "zh": "这真是个很有趣的见解。你说如果能在没有更多风险投资的情况下生存下来，就说明跨越了鸿沟，那你如何看待其中的盈利因素呢？因为这似乎是能在没有风险投资的情况下生存下去的核心。是赚足够的钱来削减开支并实现盈利，还是有其他原因？",
+   "ts": "00:51:26"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "All you really care about is cashflow positive. I just want to be able to keep doing what I'm doing. So you don't care about the actual GAAP accounting at all.",
+   "zh": "你真正关心的只是现金流是否正向。我只想继续做现在正在做的事。所以你根本不关心实际的GAAP会计准则。",
+   "ts": "00:51:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I see. So you could cut back and you can get to profitability if you need, but the idea is your cashflow positive?",
+   "zh": "我明白了。所以你可以削减开支，达到盈利水平，如果有需要的话，但关键在于现金流正向？",
+   "ts": "00:52:01"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "And you'd like to grow and you might want to raise money. But the point is, if you do go out to raise money, you get to raise money at a different valuation. So the way in which venture capitalists categorize you is they say, \"What risk is my money going to take off the table?\" So an angel investor says, \"Well, my money is going to take off the table, the risk of whether you can even create anything, I'm going to give you enough money to get into trouble.\" That's basically it. And then the Crossing the Chasm money says, \"I'm going to take company existence viability off the table. I don't know if you're going to grow, I don't know if you're going to become a venture return, but I'm going to take you going out of business off the table.\" (00:52:48): And then the bowling alley stuff is, \"Okay, now I'm buying probably a journey from 10 million to a hundred million dollars,\" something like that. \"And I'm expecting a growth rate,\" and this is probably where the rule of 40 starts to kick in. If you're playing the rule of 40, we want to raise more money later on, you're going to have a different valuation than we had before. And then the tornado thing by that point, now you say, \"You're in Gen AI? You have a large language module? Whoa, okay. You're worth a lot more than we thought,\" because now the category's in the tornado and that's a different game.",
+   "zh": "是的。你希望公司能发展壮大，也许还想融资。但关键是，如果你真的去融资，估值会很不一样。风险投资家对你的分类方式是，他们会问：“我的投资能消除哪些风险？”天使投资人会说：“好吧，我会帮你消除能否成功创立公司的风险。我会给你足够的资金，让你先去尝试，但风险还是存在。” 然后过渡阶段的投资人会说：“我会消除公司存续的风险。我不知道你能否成功，但我会消除你倒闭的风险。” （00:52:48）接着是终端阶段的投资：“好吧，现在我可能要把估值从1000万提升到1亿，”之类的。“我期待能实现这样的增长率，” 这时候40倍法则可能就开始发挥作用了。如果你遵循40倍法则，等你需要融资时，估值会比之前高得多。而到了龙卷风阶段，他们会说：“你做的是通用人工智能？你有大型语言模型？哇，太棒了。你比我们想象的值钱多了。” 因为这时候你的行业正处于龙卷风阶段，规则完全不同了。",
+   "ts": "00:52:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I was going to say AI is clearly an example of being in tornado. So maybe just talk a little bit about what that is, the tornado phase and then there's the Main Street playbook.",
+   "zh": "是的。我正想说，人工智能显然就是处于龙卷风阶段的例子。所以或许可以稍微讲讲什么是龙卷风阶段，还有主流市场策略。",
+   "ts": "00:53:29"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "So how do you know the difference between the bowling alley and the tornado? Prior to the tornado, when your sales team calls on the customer, they do not have a budget for you. In the early market, there's no budget for anything. In the bowling alley there's budget, but it's budget for a solution that's not you. It's for the old way of trying to bandaid the problem. So we say in the early market, you have to create budget. In the bowling alley, you have to redirect budget, but that takes sales cycles. It takes time. And if it's a small market... This is why entrepreneurs can win these market segments, because if you're a big established company, this is just a pain in the ass. It's too small a market, it's too much work, it's too hard. Redirecting the... I want my salespeople to go where the budget's already established. (00:54:28): Well, when does budget get established? When a category goes horizontal and people go, \"Well, yeah, we all want Wi-Fi, we all want mobile apps, we all want cloud computing, we all want whatever it is.\" And now what happens is... And by the way the pragmatist heard is they went from, \"You're not doing that, are you?\" \"No, me neither.\" \"Okay, good.\" To, \"You are, you are, you are. Oh, we're behind. We better do it.\" So these budgets come into the market and kind of all at the same time, which is what creates the tornado. Because if you give a department a budget, they will spend it and when they spend it, they're going to spend it with a vendor and whoever vendor they select they're probably going to stay with. So now the market share battle is now on, and whoever gets the most customers early on, the ecosystem starts to form around them. (00:55:23): So in the nineties, we saw a lot of tornado, gorilla play. Cisco, Intel, Oracle, obviously Microsoft. I mean these companies, [inaudible 00:55:36], they were all incredibly competitive companies. They were all tornado plays. Between client server and the internet, it just created this massive tornado effect. And that game plan is very competitive sales to grab market share. And then at some point, if you're not number one, then you have to kind of do a defensive maneuver and retreat into a niche and say, \"Okay, if I can't be a gorilla, I at least need to be a chimp.\" And a chimp is like a local gorilla. \"I'm not the gorilla, but...\" \"I'm not Cisco, I'm Juniper.\" But for telcos, Juniper was the Cisco of telcos at that time. So anyway, I don't know if you saw in the paper today, but at the other end of that lifecycle, HPE has bought Juniper.",
+   "zh": "那么，如何区分保龄球馆和龙卷风呢？在龙卷风来临之前，当你的销售团队拜访客户时，他们手中并没有为你预留预算。在早期市场阶段，任何产品都没有预算。在保龄球馆阶段，虽然有预算，但这笔预算针对的并非你的解决方案，而是针对旧有的“权宜之计”。因此我们说，在早期市场阶段，你必须主动创造预算；而在保龄球馆阶段，你需要重新分配预算，但这需要耗费销售周期和时间成本。若市场规模过小……这正是创业者能在这些细分市场中胜出的原因，因为对于大公司而言，这简直是件头疼事——市场规模太小、投入太大、难度太高。重新分配预算……我希望我的销售人员能去那些预算已然确定的市场。（00:54:28）：那么预算何时才会确定？当某个品类走向横向发展时，人们会说：“好吧，我们都想要Wi-Fi、移动应用、云计算等等。”接下来就会出现……顺便说一下，实用主义者的转变过程是从“你们不会这么做吧？”“我也不想这么做。”“好吧，不错。”到“你们要这么做！我们落后了，得赶紧行动。”于是这些预算会同时涌入市场，形成龙卷风效应。因为如果给某个部门预算，他们就会花掉，而一旦花掉，往往会选择某个供应商，并长期依赖该供应商。于是市场份额争夺战随即打响，谁能尽早吸引最多客户，生态系统就会围绕其形成。（00:55:23）：上世纪90年代，我们目睹了许多龙卷风式、巨头博弈的案例。比如思科、英特尔、甲骨文、微软。这些公司（00:55:36，语音不清）都是极具竞争力的巨头，他们都在博弈市场份额。某个节点后，若无法成为巨头，就得退守细分市场，说：“好吧，我当不了巨头，但至少要成为黑猩猩。”黑猩猩就是本地化的巨头。“我不是巨头，但……我不是思科，我是瞻博网络。”而对于电信公司而言，瞻博网络当时就是电信领域的思科。所以不知你今天是否看到相关新闻，但在产品生命周期的另一端，HPE已收购了瞻博网络。",
+   "ts": "00:53:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "[inaudible 00:56:28] is happening. I like that. That's good news. So one of the most interesting lessons you teach is also that these playbooks don't work together well. Basically if you use one in the wrong phase, it's the opposite. It has the opposite effect. So before we get there, let me just summarize maybe quickly the playbook in each of these four. I have some notes here and then maybe just talk about why is it that they fail if you pick the wrong one. So in the early market, you're looking for a visionary customer that just wants to use something new and cool and stay ahead of the curve. In the bowling alley phase, you want to engage with a pragmatic business person who has a huge problem and they need a fix and you're there for them. In the tornado, there's just this land grab, something is just going crazy, AI and everyone's just spend, spend, I need AI in my product. And then Main Street is just, it's kind of the sustaining tech that everyone just needs to make sure continues working and doesn't deteriorate.",
+   "zh": "嗯，[00:56:28]这情况正在发生。我喜欢这样。这是个好消息。所以你教的最有趣的课程之一，也是讲这些策略手册无法协同运作的。基本上，如果你在错误的阶段使用某个策略手册，效果就会适得其反。所以在深入之前，我先快速总结一下这四个阶段的策略手册。我这里有一些笔记，然后再谈谈为什么在选错策略手册时会适得其反。\n\n在早期市场阶段，你要寻找有远见的客户，他们只想尝试新奇的东西，保持领先。到了保龄球道阶段，你要与务实的商业人士合作，他们面临着重大问题，急需解决方案，而你要为他们提供支持。在龙卷风阶段，市场疯狂涌入，AI热潮席卷而来，大家都在追逐AI技术，急不可耐地想把AI加到产品中。而在主流市场阶段，AI技术只是维持运转的必要支撑，必须确保其稳定性不退化。",
+   "ts": "00:56:28"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "By the way, the way I would [inaudible 00:57:25] the last two is think of tornado as kind of the land and Main Street as the expand. I mean, that's not a bad way to think about the two as well. Yeah, you got it. You got it.",
+   "zh": "对了，处理最后两个阶段的办法，我会把龙卷风阶段比作市场扩张，把主流市场阶段比作维持阶段。这种理解方式也不错。你懂的。",
+   "ts": "00:57:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, great. So why is it that these undercut each other if you're trying to use either the one in the wrong phase or use both?",
+   "zh": "好的，那为什么在错误阶段使用策略手册，或者同时使用两个策略手册会相互抵消呢？",
+   "ts": "00:57:35"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, so let's start with classic sales 101 from the nineties. Qualify the customer on budget before you make a sales call. That absolutely is critical on Main Street. I mean it's critical on the tornado, it's dumb on Main Street because obviously they have budget, they've got budgets that even has your name on it if you can go get it. But it's a big mistake in the early market or in the bowling alley because they don't have budget. So you're not going to get it. And the way you win in the early market is with a project model and the way you win in the bowling alley is with a solution model. (00:58:17): And the problem is if you bring a project model to the bowling alley, the problem is you won't scale because it won't be repeatable. The ecosystem won't form around you. And if you bring a solution model to the early market, it's like you're over investing in one thing. The visionary's saying, \"Well, yeah, but I have so many other things I want to do.\" So they're going to want to take you way off your solution roadmap. So each one of these things, the market dynamics call for a very clear response. It's not hard to see the response. What people struggle with is, I have been successful with this playbook, the market has moved to the next phase, but I'm really good at the old playbook, so I want to stay with the playbook I'm good at. So that's when they get in trouble.",
+   "zh": "首先，让我们回顾一下90年代的经典销售教科书：在销售拜访前，先评估客户的预算。这在主流市场阶段至关重要。但在龙卷风阶段这么做就显得愚蠢了，因为客户预算充足，甚至可能有专款专用。但在早期市场或保龄球道阶段这么做就更糟了，因为客户根本没有预算。所以你无法获取信息。在早期市场，项目型策略手册有效；在保龄球道阶段，解决方案型策略手册有效。（00:58:17）但问题是，如果把项目型策略手册带到保龄球道阶段，无法形成可复制的规模，生态系统无法围绕你建立。而如果把解决方案型策略手册带到早期市场阶段，就是在过度投资单一领域。客户会说：“嗯，但我还有其他想做的事。”所以他们会把你带离解决方案路线图。因此，每个阶段的市场动态都需要明确的应对策略。关键在于识别当前所处阶段，并采用正确的策略手册。我们稍微谈了AI，但不想深入下去。但对于处于龙卷风阶段的AI初创公司或寻求整合AI的公司，你有什么建议吗？有没有什么经验值得分享？",
+   "ts": "00:57:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I think that's extra reason to pay close attention to which phase you're in and that you're practicing the correct playbook. We've talked about AI a little bit, and I don't want to get too far down this road, but I guess is there any advice you would share for an AI startup in being in this tornado or a company looking to integrate AI? Is there anything that you've seen of just make sure you're doing this right?",
+   "zh": "所以我认为这更需要密切关注当前所处阶段，并确保采用正确的策略手册。我们稍微谈了AI，但不想深入下去。但对于处于龙卷风阶段的AI初创公司或寻求整合AI的公司，你有什么建议吗？有没有什么经验值得分享？",
+   "ts": "00:59:05"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, it's interesting about... And particularly right now, I mean the thing that's caught everybody's imagination is generative AI. So we should be thinking about things like open AI with Microsoft and Co-pilot and those kinds of things. Well, maybe not. It depends on what... So from a customer's point of view, there's AI in the early market, there's AI in the bowling alley, there's AI in the chasm, there's AI in the tornado, and there's AI on Main Street. So I mean, I would argue if you go to Microsoft Copilot, you're on Main Street, you're not taking any risk, you're experimenting with a new thing. It's kind of cool, makes you more productive. God bless. It's kind of like just an add-on to Teams or to your whole Office 365 suite. Stuff that's in the tornado right now, I don't know. I'm trying to think about what is the use case for Gen AI? I'm not sure there is one in the tornado, but the closest I would say is Salesforce is probably close enough. (01:00:23): They have a sales co-pilot. They have a services copilot, right? I'm sure there marketing co-pilot. So you're going, but we're going to change our sales motion and we're going to use generative AI in line, in our performance on a very widespread, across our entire base. So all our salespeople are going to use this new tool. That would be okay. And that makes sense because the new tool... First of all, Salesforce has their own large language module. So it's not like you're going out to the open AI world and having all those issues. So you can do it and there's a very high productivity return at a modest risk, I think, and modest disruption. For the bowling alley you'd say, I don't know if this is bowling alley or early market, I'll say it's bowling alley. (01:01:18): So if you're Sal Khan and you have the Khan Academy and you're saying, \"Look, we want to provide educational resources for the world for young people.\" The problem with education right now is that particularly after the pandemic, you're a teacher you used to have... When you were a teacher in say K through 12, K through eight, you have a class of 30 kids and probably 10 to 15 of them are middle of the road and some number are actually significantly ahead and some number are behind. And your job as a teacher is to kind of work with that. Well, after the pandemic, you might have five different grade levels in the same classroom, not three or six even. That's an impossible problem. But if you said, \"Look, we can use Gen AI tutoring and we can tune it to each one of those sixth grade levels.\" (01:02:09): Now that's a teacher co-pilot, but that's a really specialized idea. So you go, \"Well, that's amazing.\" And then if you wanted to go to the other side, \"You say all these ad agencies say they do this really cool advertising, but I think I can do it myself with Gen AI and I'm going to sell it to other people.\" I mean, you can imagine a whole businesses that say we write legal opinions and we always start with Gen AI. We don't ship Gen AI, there's a human in the loop. We're going to do amazing or more images, maybe. We're going to design visual images with all the really cool stuff you could do. We're going to invent a new agency or a new kind of agency we're going to charge to...\" I don't know what it would be, but the point is Gen AI I think can be absorbed by the marketplace at multiple places.",
+   "zh": "嗯，关于这件事……特别是当下，我觉得最吸引人们想象的是生成式人工智能。所以我们应该关注像微软的OpenAI、CoPilot这类产品。不过也许不必如此。这取决于……从客户的角度看，AI市场分为四个阶段：早期市场、保龄球道阶段、鸿沟阶段和龙卷风阶段。我的意思是，如果你用微软的CoPilot，那你就处于主流阶段，没有任何风险，只是尝试新事物。这挺酷的，能提高生产力。愿上帝保佑。这就像Office 365套件中的一个插件。目前处于龙卷风阶段的技术，我不太确定。我一直在思考生成式人工智能的应用场景是什么？我不确定龙卷风阶段有这样的用例，但最接近的可能是Salesforce。（01:00:23）：他们有销售CoPilot、服务CoPilot，对吧？我相信还有营销CoPilot。所以你打算改变销售策略，在整个客户群中大规模应用生成式AI。所有销售人员都会使用这个新工具。这没问题。这很明智，因为新工具……首先，Salesforce有自己的大型语言模块。所以你不必去OpenAI世界面对那些问题。你可以轻松应用，风险适中，效率极高，而且对业务影响小。对于保龄球道阶段，你可能会说，我不确定这是保龄球道还是早期市场，我暂且称之为保龄球道阶段。（01:01:18）：比如萨尔·可汗（Sal Khan）和他的可汗学院（Khan Academy），如果你说：“我们想为全球年轻人提供教育资源。”但当前教育行业的问题是，尤其是在疫情之后，你曾经是K-12阶段的教师，班上有30个学生，其中10到15个中等水平，一些明显超前，一些落后。而你的职责是因材施教。但疫情后，同一班级可能有五个不同年级水平的学生，而不是三个或六个。这简直是个不可能的问题。但如果你说：“我们可以用生成式AI辅导，并针对每个六年级学生进行优化。”这就是教师CoPilot，但这是一个非常专业的想法。所以你会说：“哇，太棒了。”然后如果你想更进一步：“所有广告公司都说他们能做超酷的广告，但我觉得我用生成式AI就能自己做，然后卖给其他人。”你可以想象整个行业宣称：“我们写法律意见书，一开始就用生成式AI。生成式AI不直接生效，人工参与。能设计出更惊艳的图像，或许还能发明新的代理机构，收费……” 我不知道具体会怎样，但关键是生成式AI我认为可以在多个阶段被市场吸收。",
+   "ts": "00:59:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As you were talking about that lawyer example, I was thinking part of the pitch would be... And it's also a lot cheaper, but that reminds me of this other post that you wrote, The Seven Deadly Sins of Crossing the Chasm. And I wanted to chat about some of these, and one of them is discounting before you cross the chasm. Can you talk about why that's something you want to avoid?",
+   "zh": "刚才你在讲那个律师的例子时，我就在想，推销方案的一部分应该是……而且这样做成本也要低得多，但这让我想起了你写的另一篇帖子《跨越鸿沟的七大致命罪过》。我想和大家聊聊其中的一些问题，其中一个就是在跨越鸿沟之前就打折。这是为什么你要避免这么做呢？",
+   "ts": "01:03:02"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Back to that issue about, \"Heart surgery 9.99, this Saturday only bring a coupon.\" I mean, the discounting model makes sense when something's commoditized or the let's even do the freemium model. The freemium model makes sense if there is no risk in adopting the offer. But chasms are based on risk bearing decisions. Basically that's the problem that creates the chasm. I have to make a risk bearing buying decision. So discounting does not reduce risk. In fact, it might even increase risk because this vendor might say, \"Well, yeah, I'll give you a better price, but now I'm not going to give you the extra support or we'll have a change of scope.\" We'll say, \"Yes, but now, that wasn't in the contract. So you have to add more.\" And all of that is fair game on Main Street, but it's not for crossing the chasm.",
+   "zh": "回到那个“心脏手术9.99美元，本周六仅限优惠”的例子。我是说，打折模式在商品标准化时是合理的，甚至可以采用免费增值模式。如果采用免费增值模式，用户采用该产品没有风险。但跨越鸿沟是基于风险承担的决策。基本上，正是这种风险创造了鸿沟。我必须做出一个有风险的购买决策。所以打折并不能降低风险。事实上，它甚至可能增加风险，因为供应商可能会说：“好吧，我会给你一个更好的价格，但现在我不会提供额外的支持，或者会改变项目范围。” 我们会说：“是的，但这不在合同里。所以你得加钱。” 在主流市场上，这一切都无可厚非，但这不适用于跨越鸿沟。",
+   "ts": "01:03:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm going to pick on a couple of these other sims that you mentioned. One is you call the target customer mix up. Can you talk about that?",
+   "zh": "我要挑出你提到的其他几个模型。其中一个是你提到目标客户混淆的问题。能谈谈这个吗？",
+   "ts": "01:04:21"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "The key to this whole Crossing the Chasm playbook is start with the world. Don't start with... Well, the question we're trying to answer is where is a small pool of trapped value that we can become our pool? So that's why we have geography, profession, use case. We're just trying to get big enough to matter, but small enough to lead is one. And then once you find that pool, the question you have to say is, \"Who controls access to that? Who's going to sponsor my deal in order for me to solve that, to release that trapped value for that company?\" That's your target customer. And you may not know them. Typically, my experience is you probably have worked with at least one company in the industry at some point along the line. It's kind of odd if you just had never heard of the industry and you picked that one. (01:05:24): Usually that's why I said, \"Well, maybe I should have added that to how do you know you're ready to cross the chasm?\" You should at least have a hunch. You should at least, \"We've done this work, and I think this is the one.\" Now, you still have to go validate it and make it happen. But basically the way you would validate it is rather than try to go to a research or do something, that won't work. You say, \"Well, we're going to run a marketing campaign, a modest one. I'm going to see if I can't get two more of the same use case. I'm willing to bet the next three months of my company by saying in this three months, all we're going to do is try to get two more deals that have this pattern.\" And that would be kind of the way you might go after it.",
+   "zh": "整个《跨越鸿沟》策略的关键是从世界开始。不要从……好吧，我们要回答的问题是哪里有一个被困价值的小池子，可以成为我们的目标市场？所以这就是为什么我们有地理、职业、用例。我们只是想变得足够大以至于重要，但又足够小以便引领。这是第一点。一旦你找到了这个池子，你必须问：“谁控制着对它的访问权限？谁会赞助我的交易以便我为那家公司释放被困价值？” 这就是你的目标客户。你可能不认识他们。通常，我的经验是，你至少在行业内与一家公司合作过。这很奇怪，如果你从未听说过这个行业然后就选择了它。（01:05:24）：通常这就是为什么我说，“好吧，也许我应该把这点加到‘你怎么知道自己准备好跨越鸿沟了’中？” 你至少应该有一种预感。你至少应该说：“我们已经做了这些工作，我认为这就是目标。” 现在，你仍然需要去验证它并实现它。但基本上，验证它的方法不是去进行研究或做其他事情，那样行不通。你说：“好吧，我们要开展一个适度的营销活动。我要看看能否再获得两个相同用例的客户。我愿意用公司未来三个月的资源打赌，在这三个月里，我们只会努力再获得两个具有这种模式的交易。” 这大概就是你可能采取的方法。",
+   "ts": "01:04:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I think this is worth spending a little more time on this idea of how you know you're ready to cross the chasm. So one is you find one very excited marquee customer, then you're sharing, maybe find a couple more and see if it's actually starting to roll and tip.",
+   "zh": "所以我认为花更多时间讨论如何知道自己准备好跨越鸿沟这个问题是值得的。所以一个方法是找到一个非常兴奋的头牌客户，然后你去分享，也许再找到几个，看看它是否真的开始滚动和倾斜。",
+   "ts": "01:06:10"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "No. Well, I said it wrong. So the marquee customer is probably not in your beachhead market. The marquee customer is a famous company that you have the visionary sponsor. That's the thing, because that's the company that the business press wanted to write about, or the tech press wanted to write about. People went, \"Oh, you were the guys who...\" You're like Hans Solo. You did whatever that run was in 15 parsecs. I can't even remember what it was. But that's your claim to fame. It's your claim to fame. But the Crossing the Chasm one is, \"Oh...\" And by the way the press is not interested in the crossing chasm, but the local, if there was a local press, they'd be all over it.",
+   "zh": "不是的。嗯，我说错了。所谓的\"旗舰客户\"可能并不在你的\"滩头市场\"里。\"旗舰客户\"指的是你获得了有远见的赞助商支持的知名公司。关键在于，这些公司往往是商业媒体或科技媒体热衷报道的对象。人们会说：\"哦，你们就是那个……\"你就像《星球大战》里的汉·索罗，完成了15秒钟的光速飞行任务。我甚至都不记得具体内容了。但这就是你的成名之作。这才是你的成名之作。但《跨越鸿沟》里的案例是，\"哦……\"顺便说一句，媒体对\"跨越鸿沟\"不感兴趣，但如果有本地媒体，他们肯定会大肆报道。",
+   "ts": "01:06:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The Kessel Run.",
+   "zh": "那次\"凯塞尔航行\"。",
+   "ts": "01:07:08"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "The Kessel Run. Thank you. The Kessel Run in 15 parsecs. Thank you.",
+   "zh": "那次\"凯塞尔航行\"。谢谢。\"15秒钟的光速飞行\"。谢谢。",
+   "ts": "01:07:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's right.",
+   "zh": "没错。",
+   "ts": "01:07:13"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Exactly. That was his visionary thing.",
+   "zh": "完全正确。这就是他的远见卓识。",
+   "ts": "01:07:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I think the important takeaway there is there's always this advice of talk to customers, make sure they're happy, build what... Not necessarily build what they want, but make sure you're understanding what they need. But I think when your most important insights here is make sure you're talking to the right people. Which are essentially people in the next stage, essentially of the adoption life cycle. The more pragmatists.",
+   "zh": "所以我认为重要的启示是，要始终遵循与客户对话、确保他们满意、打造产品的原则。但我认为，当你最重要的洞察是确保与正确的人对话时，这才是关键。这些人本质上处于采用生命周期的下一个阶段，即更加务实的群体。",
+   "ts": "01:07:16"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Yes. And they have to be the... I think you need to talk to the economic buyer as opposed to the end user, because the end user will be saying, \"Oh, yeah, you're right. Oh, it's just terrible and we're oppressed.\" But if their boss doesn't want to sponsor it, it doesn't work.",
+   "zh": "是的。而且他们必须是……我认为你需要与经济决策者对话，而非终端用户，因为终端用户会说：\"哦，对，你说得对。哦，这太糟糕了，我们被压迫了。\"但如果他们的老板不想支持它，那就行不通了。",
+   "ts": "01:07:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Which is hard, hard often when you're building B2B software, you just don't make it great. And then it's like, \"Oh, these people don't actually care what they're buying it. They just have all these check boxes.\" And then another deadly sin, which you've touched on, but I think it might be worth sharing again, is just this idea, you call it the compelling reason, confusion, where instead of thinking about your compelling reason to sell, you think about what is the pain point you're solving, compelling reason to buy.",
+   "zh": "这很困难，尤其是在开发B2B软件时，往往无法做到出色。然后人们会说：\"哦，这些人其实不在乎他们买的是什么。他们只是勾选了一些选项。\" 另一个致命的错误，你提到了这一点，但我认为值得再次强调，就是这个概念，你称之为\"引人注目的理由\"、\"困惑\"。当你不思考自己的销售理由时，你只会思考你解决的痛点，即购买的引人注目的理由。",
+   "ts": "01:07:51"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Obviously as an entrepreneur, you have a compelling reason to sell. But what they tend to do is in trying to cross the chasm, if they're not using this approach, they think, \"Well, I haven't made my product attractive enough.\" So then they'd say, \"Well, I'm going to make a sexier demo, or I'm going to change my deck. I'm going to write a new...\" And the sales guy comes back, says, \"I had a great presentation. This is the deck that we ought to be using.\" And that's all about compelling ways to sell, not compelling reasons to buy. And the pragmatist, by the way... And by the way, the practice will take the meeting. One of the problems with the chasm is they don't say no. They just never say yes. And they actually encourage you... \"You should come back again with this too. This is really interesting.\" Yeah, it is really interesting.",
+   "zh": "显然，作为创业者，你有引人注目的销售理由。但他们在试图跨越鸿沟时，如果不采用这种方法，就会想：\"好吧，我的产品不够吸引人。\"于是他们会说：\"好吧，我要做一个更吸引人的演示，或者改换演示文稿。我要写一份新……\" 然后销售人员回来会说：\"我做了一场很棒的演示。我们应该用这个演示文稿。\"而这都是关于引人注目的销售方式，而不是引人注目的购买理由。顺便说一句，务实派……顺便说一句，务实派会主导会议。鸿沟的问题之一是他们不说不。只是从不说行。但他们实际上会鼓励你……\"你应该再带这个来试试。这真的很有趣。",
+   "ts": "01:08:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Kind of along those lines, positioning, how important is that, and any advice on figuring out your positioning when you're doing this? I know you talk a lot about making sure you focus on their pain point, but at some point you're like, \"Here's what we're doing for you.\"",
+   "zh": "顺着这个思路来说，定位有多重要？在做这件事时，如何确定自己的定位？我知道你经常强调要聚焦客户痛点，但到某个阶段，你总会说：“我们为你提供的解决方案是这样的……”",
+   "ts": "01:09:09"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "One of the nice things about Crossing the Chasm is the positioning formula is absolutely the same every time. It's really cool. So basically when you're thinking about positioning, you're saying, \"Look, I'm going with this use case in this particular segment.\" So they have an incumbent vendor. The advantage of the incumbent vendor is they understand the business, but they don't have the new technology. Conversely, you have technology competitors who have as good technology, maybe a better technology than you have, but they're not committed to this domain expertise of this thing. (01:09:56): So your positioning is, \"We are the technology leaders who have specialized and committed to solve this problem. And by the way, we have huge respect for your incumbent vendor. We're not asking you to kick them out. They just can't solve this problem. We also have respect for our peers, but frankly, they wouldn't know your problem if they wouldn't recognize it in a lineup. We are here, and by the way, if anybody comes into our quadrant, we're going to kick their ass. We are going to be beyond compare. Nobody is going to handle this problem with this kind of technology the way we will, and that's our claim of fame. That's what we're going to do, and that's our positioning.\"",
+   "zh": "《跨越鸿沟》这本书的妙处之一在于，书中提到的定位公式每次都完全一致。这真的很棒。所以，当你思考定位问题时，你会说：“看，我们将专注于这个特定细分市场的使用场景。” 比如，现有供应商通常对业务非常熟悉，但缺乏新技术。相反，技术竞争对手可能拥有与你相当甚至更优的技术，但他们却不专注于这个领域的专业知识。（01:09:56）所以你的定位可以是：“我们是专注于解决此问题的技术领导者。顺便说一句，我们非常尊重现有供应商。我们无意取代他们，但他们确实无法解决这个问题。我们同样尊重同行，但说实话，他们在面对类似问题时甚至无法识别问题所在。我们专注于此，任何挑战者若敢入侵我们的市场领域，我们必将痛击他们。我们将做到无与伦比。没有任何公司能像我们这样用这种技术解决这个问题，这就是我们的核心竞争力。这就是我们的定位，也是我们要达成的目标。”",
+   "ts": "01:09:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Say you're building a product led growth company, a bottom up oriented B2B SaaS company. Is there anything that changes in your advice?",
+   "zh": "我太喜欢这种思路了。假设你正在打造一家产品驱动型增长型公司，一家自下而上导向的B2B SaaS公司。你的建议会有什么变化吗？",
+   "ts": "01:10:36"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Yeah, if you're going to use a volume ups approach like Atlassian or anything grows up from the bottom up, you're playing a different game. First of all, you're playing... Because you attract the end user before you attract the economic buyer. So you have some version of a freemium strategy, that's what you're going to do. And Yammer did this, right? And eventually got bought by Microsoft. So the way you play that game is, first of all, you probably do need some funding, not necessarily, maybe you can do this all on AWS and a credit card. But the game that is going to be, how do I create that moment of criticality? What you would do is you'd say... First of all, you need telemetry. So you need to figure out what are the people really doing with our product? And then you need to find a way to communicate with them to see if you can ferret out, is there a compelling reason to buy thing in their environment? So it'd be a different way of doing early market. (01:11:52): You would not have a marquee client, but to cross the chasm... You cannot cross the chasm of product-led growth, you can't because it is like saying, \"Well, yeah, I'm going to cure Covid by just putting vaccines out in public places.\" It's like, \"No, people need to learn more. No.\" So you'd have to do that. Where product-led growth plays really interestingly, is in the land and expand phases of the market. If you can land with a hot product, but more importantly, product-led growth, which is really good at is expand because it prompts the user to get more involved. And that's classically a Main Street play. But there's got to be no risk. That product-led growth works when basically the extended the next purchase has very low risk, and therefore you're not really dealing with chasms.",
+   "zh": "是的，如果你想采用像Atlassian那样的\"量入为出\"策略，或者任何从底层向上发展的模式，那你玩的是另一套游戏。首先，你得吸引终端用户，然后再吸引商业客户。因此你需要某种免费增值策略，Atlassian就是这么做的。最终它被微软收购了。所以这种策略的关键在于，首先你可能需要资金支持，虽然不一定非要如此，或许你可以全程依托AWS和信用卡。但关键问题是，如何创造那个临界点时刻？首先你需要数据分析，了解用户如何实际使用你的产品。然后你要想办法与用户沟通，探寻他们所在环境中是否有迫切的购买需求。这是一种截然不同的早期市场策略。（01:11:52）：你可能没有大客户，但要跨越临界点……你无法跨越产品主导型增长的临界点，因为这就像说\"嗯，我要通过在公共场所发放疫苗来治愈新冠疫情\"。这是不可能的，人们需要了解更多知识。不行。所以你必须另辟蹊径。产品主导型增长的优势在于市场扩张阶段。如果你能凭借热门产品进入市场，但更重要的是，产品主导型增长擅长扩张，因为它能促使用户更深度参与。这传统上是面向大众市场的策略。但前提是没有风险。只有当下一次购买的风险极低时，产品主导型增长才会奏效，因此你无需应对临界点挑战。",
+   "ts": "01:10:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is incredibly interesting. Interestingly, every product led growth company ends up building a sales team, 100% of them, including Atlassian, which had product led growth for a long time. And I don't know if anyone's heard this perspective on it, that if you really want to cross the gap... I imagine it happens in some form of-",
+   "zh": "这太有意思了。有趣的是，每家产品主导型增长公司最终都会组建销售团队，100%都会，包括长期坚持产品主导型增长的Atlassian。我不知道是否有人听过这种观点：如果你真的想跨越临界点……我想象这会以某种形式发生——",
+   "ts": "01:12:53"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, and here's the thing. The reason they build a sales team eventually is they need to get enterprise deals. And obviously you need a sales team to get enterprise deals. And one of the mistakes you could make is hiring an enterprise salesperson when you're trying to cross the chasm. Enterprise salespeople are not good chasm crossers because they're used to doing horizontal coverage model. This is like no, domain expert narrow model. You want somebody that looks more like a sales engineer than a salesperson. You want somebody very diagnostic, very committed to the integrity of the problem solution framework. So it's just different.",
+   "zh": "嗯，关键在于他们最终组建销售团队是因为需要拿下企业级客户。显然，拿下企业级客户需要销售团队。而在试图跨越临界点时，招聘企业级销售人员是个错误。他们习惯横向覆盖模式，而我们需要的是领域专家狭窄模式。需要更像销售工程师而非销售人员的人。需要诊断能力强、致力于解决方案框架完整性的人。所以这完全不同。",
+   "ts": "01:13:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Just a couple more questions. You had this very public exchange with Martin Casado, he's a partner at Andreessen Horowitz. And just to summarize briefly, essentially he was arguing that I think some people believe once you've crossed the chasm, life's good. It's all downhill. People are going to start pulling your product out of you. It's going to be so easy. And his argument is he doesn't see that, it's endless pain and suffering and hardships. And I know you went back and forth trying to correct this, but what's a way to think about what happens?",
+   "zh": "好的。再问几个问题。你和Andreessen Horowitz的合伙人Martin Casado有过公开辩论。简要总结一下，基本上他认为一旦跨越临界点，生活就一帆风顺了。一切顺风顺水，人人都想把你的产品从你手中夺走。这会变得非常容易。而他的观点是，他不认为如此，认为这将是无尽的痛苦和困难。我知道你反复纠正，但如何理解后续的情况？",
+   "ts": "01:13:54"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "So actually, Martin and I had a couple of this... By the way, his biggest point... I'll come back to your point in a second, but his biggest point is, \"Jeff...\" The venture community at least, and certainly Andreessen Horowitz doesn't deal with the level of granularity of Crossing the Chasm anymore. There's too much money that wants to be put to work. By the way, there's so much software already out there that the notion that your software is going to be that disruptive is increasingly improbable because you're not standing on the shoulders of giants, you're standing on the shoulders of people standing on the shoulders of people standing on the shoulders of people standing on the shoulders of giants. So he was making a bunch of those points, which I thought were pretty interesting. But his other point about, does life ever become easy? No, life never becomes easy. The problems change. (01:15:17): The challenge with software is... Well, there's a lot of challenges with it, but software that people use, the application software, we all have different minds. We all have different contexts. To make a product that would work, that would solve what I want and solve what you want and solve what the listener wants. I mean, the margin, no. We're going to have different expectations. So there's always... And then of course there's competition, and then there's funding, and then there's technological shifts, and just about the time it really works well, they say, \"No, we got to put it... No, no, no. You put it in the data center. We got to put it in the cloud.\" \"Oh, no, no, you got in the cloud, you got to put it in Kubernetes.\" \"Oh, no, no, no. You don't understand. It's edge AI, it's not cloud.\" It just goes on and on and on. So I think if you're going to play this game, you got to be up for... Yeah, there's going to be a new headache every week.",
+   "zh": "事实上，马丁和我也曾有过这样的经历……顺便说一句，他最主要的观点是……我稍后再回应你的观点，但他最重要的观点是：“杰夫……” 至少风险投资界，尤其是安德森·霍洛维茨公司（Andreessen Horowitz），不再像过去那样关注《跨越鸿沟》（Crossing the Chasm）中提到的微观层面问题了。现在有太多的资金急于投入使用。顺便说一句，市面上现有的软件太多了，所以你的软件能带来颠覆性创新的可能性越来越低，因为你不是站在巨人的肩膀上，而是站在那些站在巨人肩膀上的人的肩膀上。因此，他提出了很多这样的观点，我觉得很有意思。但他另一个观点是，生活会变得轻松吗？不，生活永远不会轻松。问题总是在变。（01:15:17）软件面临的挑战是……嗯，挑战有很多，但人们使用的应用软件，我们每个人的想法不同，背景也不同。要开发一款能满足我、你和听众需求的产品，难度可想而知。利润空间？不存在的。我们对产品的期望不同。所以总是……然后还有竞争、资金问题、技术变革。产品刚做得好的时候，他们又说：“不行，你得放到数据中心去……不行，不行，不行，你得上云。”“不行，不行，不行，你上云还得用Kubernetes。”“不行，不行，不行，你根本不明白，这是边缘AI，不是云。” 这种情况没完没了。所以我觉得，如果你要玩这个游戏，就得做好准备……是的，每周都会有新的难题出现。",
+   "ts": "01:14:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's exactly how I see it. I always tell founders, you shouldn't start a company unless you can't not start a company.",
+   "zh": "这正是我对此的看法。我总是告诉创业者们，除非你不得不创业，否则就不要创业。",
+   "ts": "01:16:17"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Yes. By the way, why did I leave? [inaudible 01:16:28] County was a great place to be, but I had to do my own thing.",
+   "zh": "是的。顺便说一句，我为什么离开？[01:16:28不可听清]县城是个好去处，但我必须做自己的事。",
+   "ts": "01:16:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And that's a real pull. Kind of along the lines of something you just shared, maybe a final question. Is there something you've changed your mind about or something you've evolved your thinking on recently? Either from the beginning of the book or just even more recent?",
+   "zh": "这确实很有吸引力。有点像你刚刚分享的观点，或许最后再问一个问题。最近有没有什么改变了你的看法，或者你的思维有什么进展？无论是从书的开头开始，还是更近的时期？",
+   "ts": "01:16:32"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "I think what I realized over time increasingly was this is a model that's really optimized for B2B markets, because it implies federated decision making around high risk buying decisions. I would say for the 20th century, that was 95% of tech. But what was so interesting about the change in the century... Because remember right at the change of the century, B2B tech went in the tank, the tech bubble just... Because everybody was afraid of the Y2K problem. So they did a whole bunch of buying up of software, and then there was a year where they think, \"Well, we ate more than we could at Thanksgiving dinner. We're not interested in eating another burger here. \"So the market went in the tank. By the way at that point, venture started saying, \"Well, maybe we should be investing in biotech, or maybe we should doing clean tech.\" Venture stepped back from the table too. (01:17:46): But out of this, consumer computing came out of nowhere. And for my generation, it was unimaginable. The first time I heard about Google and they said, \"We're going to save every search argument.\" I thought, \"That's the dumbest thing I've ever heard in my life. They're not going to be able to afford it.\" But their model was, \"We are rethinking this thing from the ground up. Geoffrey, you have no idea what we're doing.\" And boy were they right. So the point was when that came in, then consumer computing and then the iPhone hits, and then we have mobile apps. You have a world now where the B2C play can actually be the core of innovation. It used to be B2C was an afterthought. Now it's like, \"No, no, no, no, B2B might be the afterthought.\" So it's completely different... And the whole digital transformation of the universe, and we're still living through the digital transformation 20 years in, and I don't think Crossing the Chasm is designed for that problem. So that's a different problem.",
+   "zh": "我觉得随着时间推移，我越来越意识到这是一种为B2B市场量身打造的模式，因为它意味着围绕高风险采购决策进行联邦式决策。在20世纪，科技领域95%的业务都遵循这一模式。但世纪之交的变革非常有趣……记得在世纪之交时，B2B科技行业遭遇了泡沫破裂——因为大家都担心千禧年问题。所以他们疯狂收购软件，但随后又意识到“我们在感恩节吃得太饱了，现在不想再吃汉堡了”，于是市场一蹶不振。与此同时，风险投资界开始转向生物科技和清洁技术领域，退出了B2B市场。（01:17:46）但就在此时，消费级计算技术横空出世。对我们这代人来说，这简直不可思议。我第一次听说谷歌时，他们说要“保存每一次搜索记录”。我当时想：“这真是我听过最愚蠢的主意，他们根本负担不起。”但他们的模式是：“我们要从头重新思考这件事。”“杰弗里，你根本不知道我们在做什么。”结果他们完全正确。消费级计算的兴起，以及后续iPhone的问世和移动应用的普及，标志着B2C业务已然成为创新的核心。过去B2C只是事后才想到的部分，而现在B2C可能反而成了事后之想。整个数字化转型进程已经进行了20年，《跨越鸿沟》这本书显然无法应对这样的挑战。所以这是一个全新的问题。",
+   "ts": "01:16:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So basically, if you're building a consumer app, don't spend time studying Crossing the Chasm.",
+   "zh": "所以基本上，如果你在开发消费级应用，就别浪费时间研究《跨越鸿沟》了。",
+   "ts": "01:18:48"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Yeah, if you're doing B2B, this is the most reliable playbook. It's still on... People are still into this playbook 30 years in. So it's obviously... The playbook kind of works.",
+   "zh": "是啊，如果你做B2B业务，这才是最可靠的指南。30年过去了，人们依然在沿用这套指南。所以显然……这套指南还是挺管用的。",
+   "ts": "01:18:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I said this earlier, I feel like people are just reinventing many of the things you uncovered 30 years ago. Everyone's like, \"Oh yeah, target audience, really important, or finding a marque customer.\" So I'm really happy that we spent this time digging into many of your theories.",
+   "zh": "我之前说过，我觉得人们只是在重新发明你30年前发现的许多东西。每个人都说：“哦对了，目标受众很重要，或者找到一个旗舰客户。”所以我很高兴我们能花时间深入探讨你的许多理论。",
+   "ts": "01:19:05"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, Lenny, thank you for being... You've been a really great prompter and questioner, so thank you very, very much.",
+   "zh": "嗯，莱尼，谢谢你成为……你一直是个很棒的提问者和引导者，再次感谢你。",
+   "ts": "01:19:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I really, really appreciate that. Is there anything you want to leave listeners with as a final thought or piece of advice or just anything?",
+   "zh": "我真的非常感激。最后你有什么想留给听众的建议或感想吗？",
+   "ts": "01:19:28"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Look, I don't know if anybody's reading the paper recently, but the world's not exactly nailing it right now. There's a lot of stuff going on that we could do a lot better, and software enabled technology is almost certainly at the core of any solution that scales to any world problem that matters. I think it's more important to be an entrepreneur now than maybe ever. I wouldn't make becoming a billionaire my goal. Frankly, I don't even know what a billionaire would even do with their money. I don't even how to even imagine their money. That's a thousand million dollars. It doesn't make any sense, but what does make sense? But what does make sense is to... I'm happy to get two... Do I know what to do with 10 million? Yeah. Could I do 20? Probably. Could I use a hundred? Probably not. But at some point, I want people to make yourself a great living, make yourself... But after that, have an impact. If you're gifted enough to be able to start a software company and do something original, you're a scarce resource, so don't waste it.",
+   "zh": "听着，我不知道最近有没有人看报纸，但当下世界的处境确实不容乐观。有很多事情我们本可以做得更好，而软件驱动的技术几乎必定是解决任何重大全球性问题的核心。我认为现在成为企业家比以往任何时候都更加重要。我不会把成为亿万富翁当作自己的目标。说实话，我甚至不知道亿万富翁会如何支配他们的财富。我甚至无法想象他们能用这些钱做些什么。毕竟那可是十亿美金啊。这听起来很不可思议，但有什么事是合理的呢？真正合理的是……我很乐意赚到两百万……我知道如何支配一千万吗？当然。我能处理两千万吗？大概可以。能花一亿吗？恐怕不行。但最终，我希望人们能过上好日子，让自己……但在此之后，就该去产生影响了。如果你有足够的天赋能创办一家软件公司并做出创新成果，那你就是稀缺资源，千万别浪费了。",
+   "ts": "01:19:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I'm going to sneak it one more question along these same lines actually. Your last book is very unlike all your other books. It's called The Infinite Staircase, which is essentially a guide to living a good life and a meaningful life. Is there maybe one piece of advice you could share with folks of just how to live a better life, a more meaningful life, happier life?",
+   "zh": "太棒了。实际上我还想再提一个类似的问题。你的最新著作《无限阶梯》与你之前的作品风格迥异。这本书本质上是关于如何过上美好而有意义的生活的指南。你能否给读者一些建议，告诉他们如何过上更美好的生活、更有意义的生活、更幸福的生活？",
+   "ts": "01:20:42"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "The purpose of that book was twofold. One was... So I was looking around... And this is an American sort of experience between social media and the politicians or whatever. Our ability to defend traditional values is becoming increasingly challenging. And historically, you say, \"Well, religion was sort of the place where the foundation for solidifying traditional values.\" But in my lifetime, the counter explanation of how we got here, other than being created by a creator, this whole the Big Bang and the Darwinian model, it's becoming increasingly credible and I'm fascinated by it. So the question I had in the back of my mind is how could you take that model and still support traditional ethics? (01:21:53): So the first part was, well, what's the model? It turns out to explain getting from the Big Bang to Lenny and Geoffrey talking on this podcast, there's a lot of steps you've got to go through. But there's a whole thing about complexity and how complexity emerges in layers and the staircase is a series of layers, and the first two thirds of the book takes 11 stairs. That gets you from physics to theory. And it's like, really? Yeah, yeah. From a cloud of atoms to us talking about Crossing the Chasm, 11 steps, we can get you there. It's kind of fun. It's assembling the last 25 years of my reading. It's fascinating stuff. All these different topics, and I was just trying to knit it together. No original research. I was just literally just trying to get the story together. (01:22:41): But then the last third was, okay, that's a very reasonable narrative. It's maybe even more reasonable than religious narratives, but now how do you validate ethical action and where does it come from? So the last part was about, okay, how do you do that? How does it derive from that creation story? The secular creation stories were. So that was what was important. At the end of the day, I think the message of that book is just, you really do need to do good, but it's not because you're obeying... In this framework, it's not because you're a bang a divine creator. It's because we're mammals and mammals nurture their young, and we were gifted with unconditional love when we were born because otherwise, you and I could not be here. I mean, a 1-year-old cannot... If somebody doesn't love the hell out of a 1-year-old, they're not going to be two. So we know where we started. So come on, those values were built into us. They don't have to come from above. They can come from below, and therefore, how can you integrate them into your life? And that was where the book... Anyway.",
+   "zh": "写那本书的目的是双重的。一方面是……所以我四处观察……这在美国是一种典型的经历，涉及社交媒体与政客之间的互动。捍卫传统价值观的能力正日益面临挑战。历史上，人们会说：“宗教本是巩固传统价值观的根基。”但在我的有生之年，除了造物主创造万物、宇宙大爆炸和达尔文进化论之外的其他解释，正变得越来越可信，我对此深感着迷。因此，我脑海中始终有个疑问：如何在接受这些科学理论的同时，依然坚守传统伦理？（01:21:53）：所以第一部分是，嗯，这个理论是什么？要解释从宇宙大爆炸到莱尼和杰弗里在本期播客中交谈的整个过程，需要经历诸多阶段。但关于复杂性，以及复杂性如何分层演进，还有楼梯模型——即一系列层级——这整个过程需要11个台阶。通过物理学到理论的11个台阶。这真的令人惊叹！从原子云到我们讨论《跨越鸿沟》，只需11个台阶，就能完成这段旅程。这挺有趣的。这本书汇集了我过去25年的阅读心得，内容引人入胜。我只是试图将这些不同主题串联起来。没有进行原创研究，我只是在努力拼凑这个故事。（01:22:41）：但最后三分之一的内容是，好吧，这是一个非常合理的叙事方式。甚至比宗教叙事更合理，但现在如何验证道德行为及其来源呢？所以最后一部分是，好，该怎么做？它如何从这个创世故事中衍生出来？世俗的创世故事是……这才是关键所在。归根结底，我认为那本书传递的核心信息是：你确实需要行善，但这不是因为你服从……在这个框架下，这不是因为你服从某个神圣的造物主。而是因为我们是哺乳动物，哺乳动物会养育后代，我们一出生就被赋予无条件的爱，否则你我就不可能存在。我是说，一个一岁孩子无法……如果有人不全心全意地爱一个一岁孩子，他们就无法让孩子长到两岁。所以我们知道我们的起点。所以来吧，这些价值观就刻在我们体内。它们不必来自上层。它们可以从下层产生，因此，如何将它们融入你的生活？这就是那本书的核心……总之。",
+   "ts": "01:21:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is a beautiful message to end on. I promised I'd get you out of here in one minute. Just to let people know, you do speaking, you do consulting, where can people find you online if they want to reach out and- [inaudible 01:24:05]",
+   "zh": "这真是个美好的收尾。我答应过一分钟内让你们离开这里。只是想让大家知道，你做演讲、提供咨询服务，如果人们想联系你，哪里能在网上找到你？[01:24:05未听清]",
+   "ts": "01:23:53"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "LinkedIn. Yeah, I'm on LinkedIn and I have a blog on LinkedIn. And if these topics are interesting to you, you'd probably be interested in the blog.",
+   "zh": "领英。是的，我在领英上，有博客。若这些话题让你感兴趣，或许你会对博客感兴趣。",
+   "ts": "01:24:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then message you on LinkedIn would be the idea?",
+   "zh": "然后在领英上给你发消息？",
+   "ts": "01:24:13"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Exactly. Absolutely.",
+   "zh": "没错。完全正确。",
+   "ts": "01:24:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Easy. Geoffrey, thank you so much for being here.",
+   "zh": "简单。杰弗里，非常感谢你今天的到来。",
+   "ts": "01:24:16"
+  },
+  {
+   "speaker": "Geoffrey Moore",
+   "en": "Well, thank you, Lenny. It was a pleasure.",
+   "zh": "嗯，谢谢你，莱尼。很荣幸。",
+   "ts": "01:24:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It was my pleasure. Bye, everyone. (01:24:26): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "很荣幸为您服务。大家再见。（01:24:26）：非常感谢您的收听。如果您觉得本节目有价值，可以在Apple Podcasts、Spotify或您喜欢的播客应用上订阅我们的节目。另外，欢迎给我们打分或留下评论，这对其他听众发现本节目非常有帮助。您可以在lenny's podcast.com上收听往期节目或了解更多信息。下一期节目再见。",
+   "ts": "01:24:22"
+  }
+ ]
+}

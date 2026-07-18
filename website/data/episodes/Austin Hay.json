@@ -1,0 +1,701 @@
+{
+ "id": "Austin Hay",
+ "name": "Austin Hay",
+ "category": "市场营销",
+ "identity": "营销/增长",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Austin+Hay",
+ "bio": {
+  "en": "Austin Hay is the Head of Marketing Technology at Ramp and a MarTech advisor to companies like Notion, Airbnb, and Walmart, who was the fourth employee at Branch Metrics and teaches Marketing Technology at Reforge.",
+  "zh": "Austin Hay是Ramp的营销技术负责人，曾是独角兽公司Branch Metrics的第4号员工，并为Notion、Airbnb、Walmart等公司提供MarTech战略顾问，同时在Reforge开设营销技术课程。"
+ },
+ "summary": {
+  "en": "Austin Hay breaks down MarTech as the discipline of using technology and tools to drive growth, sitting at the intersection of product, growth, engineering, and marketing. He explains when to hire a dedicated MarTech person (typically around 100-150 employees, when a \"village\" approach to tools no longer scales) and what to look for: intellectual curiosity, scrappy engineering skills, and cross-functional influence. The conversation covers modern tool stacks for B2C (CDP to warehouse to reverse ETL) and B2B (Salesforce-centric), the shift from deterministic to probabilistic attribution after IDFA and cookie deprecation, and practical frameworks like \"tools are meant to solve problems\" and \"think gray.\" Austin shares his recommended Golden Stack for both B2C and B2B businesses and his favorite interview questions for hiring MarTech talent.",
+  "zh": "Austin Hay把MarTech定义为\"用技术和工具驱动增长\"的学科，它处在产品、增长、工程和营销的交叉地带。他讲清楚了什么时候该招一个专职的MarTech人员——通常是公司到100到150人、靠\"群策群力\"管工具已经玩不转的时候——以及该看什么特质：求知欲、动手能力强的工程技能，还有跨部门的推动影响力。对话覆盖了B2C（CDP→数据仓库→反向ETL）和B2B（以Salesforce为核心）的现代工具栈、在IDFA和Cookie退场之后归因从\"确定性\"转向\"概率性\"的变化，以及\"工具是为了解决问题\"\"灰色思考\"等实用框架。Austin还分享了他为B2C和B2B分别推荐的\"黄金工具栈\"，以及招聘MarTech人才时他最爱问的面试题。"
+ },
+ "turns": [
+  {
+   "speaker": "Austin Hay",
+   "en": "From 2010 to 2020, we had the golden years of deterministic matching where it was very easy to run an ad and understand with precision who installed the app. Maybe you didn't know their name, but you actually would know their IDFA and you could tie that to their PII. You can't do that anymore. So, what that means is these ad networks are becoming more complex, sophisticated, and interesting, right at the same time that it's harder for marketers to really understand how they're spending money. And so I am paying a lot of attention to how marketers make decisions with probabilistic data because most of the work that I'm doing now is actually saying, well, given that we don't have determinist data about a per certain audience or where somebody came from, how can I find other information that will create a model for 30% of the population and we can use that to extrapolate to a hundred.",
+   "zh": "从2010年到2020年，我们经历了\"确定性匹配\"的黄金年代——那时候你投一条广告，要精准知道是谁安装了你的App是非常容易的。你可能不知道他的名字，但你确实能拿到他的IDFA（广告标识符），然后把它跟他的个人身份信息（PII）关联起来。现在已经做不到了。这意味着，在广告平台变得越来越复杂、精密、有意思的同时，营销人员反而越来越难搞清楚自己到底把钱花得值不值。所以我特别关注的是，营销人员怎么用概率性数据来做决策。我现在做的大部分工作其实就是：既然我们没有关于某个受众、或者某个人从哪来的确定性数据，那我能不能找到别的信息，先为30%的人群建出一个模型，再用它外推到100%？",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast, where I interview you world-class product leaders and growth experts to learn from their hardwood experiences building and growing today's most successful products. Today my guest is Austin Hay. Austin is one of the smartest people in the world on the field of MarTech, aka Marketing Technology. He's advised companies like Notion, Airbnb, Walmart, Postmates, Robinhood, even Pete's Coffee and Mars on their MarTech strategy and tactics. He's currently head of marketing technology at Ramp. Before that, he was VP of business operations at Runway. Before that, he was VP of growth at mParticle and the fourth employee at the Unicorn Branch Metrics. He's also a teacher at Reforge on this very topic of MarTech. In our conversation, Austin explains what exactly is MarTech, how it fits into your growth organization when you need to hire a MarTech person and what to look for plus his favorite interview questions. (00:01:43): Also, his favorite tools, frameworks, team structures, and emerging platforms that he's most excited about. This episode is for anyone who's responsible for growth and is curious about ways to optimize your approach and how marketing technology fits into that. Enjoy this episode with Austin Hay after a short word from our sponsors. Today's episode is brought to you by OneSchema, the embeddable CSV importer for SaaS. Customers always seem to want to give you their data in the messiest possible CSV file. And building a spreadsheet importer becomes a never ending sync for your engineering and support resources. You keep adding features to your spreadsheet importer, but customers keep running into issues. Six months later, you're fixing yet another date conversion edge case bug. Most tools aren't built for handling messy data, but OneSchema is. (00:02:28): Companies like Scale AI and PAVE are using OneSchema to make it fast and easy to launch delightful spreadsheet import experiences from embeddable CSV import to importing CSVs from an SFTP folder on a recurring basis. Spreadsheet import is such an awful experience in so many products. Customers get frustrated by useless messages like error on line 53 and never end up getting started with your product. OneSchema intelligently corrects messy data so that your customers don't have to spend hours in Excel just to get started with your product. (00:02:59): For listeners of this podcast, OneSchema is offering a $1,000 discount. Learn more at oneschema.co/lenny. This episode is brought to you by Mixpanel. Get deep insights into what your users are doing at every stage of the funnel at a fair price that scales as you grow. Mixpanel gives you quick answers about your users from awareness to acquisition through retention, and by capturing website activity, ad data, and multi-touch attribution, right in Mixpanel, you can improve every aspect of the full user funnel. Powered by first party behavioral data instead of third party cookies. Mixpanel is built to be more powerful and easier to use than Google Analytics. Explore plans for teams of every size and see what Mixpanel can do for you at mixpanel.com/friends/lenny. And while you're at it, they're also hiring. So, check it out at mixpanel.com/friends/lenny. Austin, thank you so much for being here. Welcome to the podcast.",
+   "zh": "欢迎来到Lenny的播客，在这里我会采访世界顶级的产品负责人和增长专家，从他们打造和增长当今最成功产品的实战经验里学习。今天的嘉宾是Austin Hay。Austin是世界上最懂MarTech（营销技术）这个领域的人之一。他曾在MarTech战略和打法上，给Notion、Airbnb、Walmart、Postmates、Robinhood，甚至Pete's Coffee和Mars这样的公司做过顾问。他目前是Ramp的营销技术负责人。在此之前，他是Runway的业务运营副总裁；再之前，是mParticle的增长副总裁，也是独角兽公司Branch Metrics的第4号员工。他还在Reforge开了一门讲MarTech的课。在我们的对话里，Austin会讲清楚MarTech到底是什么、它怎么融入你的增长组织、什么时候该招一个MarTech的人、该看他什么特质，还有他最喜欢的面试题。另外还有他最爱的工具、框架、团队结构，以及他最看好的新兴平台。这一期适合所有负责增长、想优化自己打法、想搞明白营销技术怎么用的人。在一段赞助商短广告之后，一起来享受这期与Austin Hay的对话吧。今天的节目由OneSchema赞助——一个面向SaaS的可嵌入式CSV导入组件。",
+   "ts": "00:00:52"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Lenny. Thank you so much for having me.",
+   "zh": "Lenny，太感谢你邀请我来了。",
+   "ts": "00:04:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We are going to get super nerdy today and we're going to dive deep into the very cool field of MarTech. How excited are you about us chatting about MarTech?",
+   "zh": "今天我们要非常硬核，一头扎进特别酷的MarTech领域。能跟人聊MarTech，你有多兴奋？",
+   "ts": "00:04:04"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I'm so excited. Because it seems like you might be one of the first people in product and growth to talk about MarTech.",
+   "zh": "我超兴奋。因为你可能是产品和增长圈里，头几个愿意聊MarTech的人之一。",
+   "ts": "00:04:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, okay. That makes me even more excited. Yeah, it's something that I haven't fully understood and so I'm excited to dig real deep. So, let's start with just the basics. What exactly is MarTech and then what does someone who is in MarTech do?",
+   "zh": "哇，那我更兴奋了。确实，我自己也没完全搞懂，所以很期待往深了挖。我们先从最基础的开始吧。MarTech到底是什么？做MarTech的人又具体在干什么？",
+   "ts": "00:04:21"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Such a good question. Because marketing technology is like this very amorphous, cross-functional discipline that lives at the crossroads of product and growth and engineering and marketing. It brings together processes and systems from a wide range of disciplines. And I think really the way to think about marketing technology is it's a product manager whose specific role and focus is the system or the third party or first party platform because marketing technology can mean a collection of third party tools, which is a lot of people think, but as a company scales and grows actually it could include a collection of first party homegrown solutions that you build yourself with or in addition to third party. So, I like to think about marketing technology more as one piece is people and process and the other is the system and the platform. And that probably sounds pretty familiar to what a lot of product people think about their world as, and that's how I define MarTech. (00:05:31): And then you asked this other question around what exactly the role of somebody in MarTech, and maybe we'll talk about this a little later, but it's such a function of the size and the stage of the company that you're at. At Airbnb, I would say Dmitri who you might've worked with was the MarTech guide. He managed a lot of our Airbnb's, the first and third party tools. Airbnb at that size was, I don't know, maybe 800 people or so. And so it makes sense to have a function with product and engineering resources. A small startup for example, when I was working with Siqi, we were just talking about this at Runway, there was no such thing as MarTech. There was me and Tanner and Siqi standing up tools and using them because you just have to use the tools to get the job done. And so I would say on the spectrum of what is MarTech, you really have to look at the size and the stages of the company and as you grow you start to see it become more refined or pronounced.",
+   "zh": "这问题问得好。因为营销技术是一个特别\" amorphous\"（形态模糊）、跨职能的学科，处在产品、增长、工程和营销的交叉口上。它把一大批不同领域里的流程和体系都揉在了一起。我觉得理解营销技术最好的方式，就是把它想成：一个产品经理，但他专门负责的\"系统\"，是那些第三方或第一方平台。因为营销技术可以指一整套第三方工具——很多人是这么想的——但随着公司规模变大，它其实也会包含一套你自己搭建的第一方内部解决方案，可能是单独建，也可能和第三方搭配着用。所以我觉得营销技术可以拆成两块：一块是人+流程，另一块是系统和平台。这听起来应该跟很多产品人的世界观挺像的，我就是这样定义MarTech的。你刚又问到，做MarTech的人到底干什么——这个可能我们晚点会聊，但它真的非常取决于你所在公司的体量和阶段。在Airbnb，像Dmitri（你可能跟他共事过）就是我们的MarTech操盘手，他管着Airbnb很多第一方和第三方工具。当时Airbnb大概800人上下，所以专门设这么个职能、配上产品和工程资源是合理的。但小创业公司就不一样了，比如我跟Siqi在Runway时聊过，那时候根本不存在\"MarTech\"这回事，就是我、Tanner和Siqi几个人把工具搭起来、用起来，因为你总得用工具才能把活干完。所以我觉得，要说MarTech是什么，你得看公司的规模和阶段——公司越大，它就越清晰、越成形。",
+   "ts": "00:04:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, if someone listening to this that has done growth or has a growth PM may be like, oh, but this is sort of what I do. What is the difference between someone that just runs growth or has a growth team versus someone that's specifically a MarTech person?",
+   "zh": "如果正在听这期的人，本来就是做增长的、或者是个增长PM，可能会想\"诶，这好像就是我在干的事啊\"。那一个普通做增长、或者带增长团队的人，跟一个专门做MarTech的人，区别到底在哪？",
+   "ts": "00:06:17"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "At some levels there's maybe no difference. There's a lot of startups I would say are 30 people or less where you have a growth team and your growth acquisition person is using a CDP to send data to their ad network to run their ads because that's part of their job and maybe they are the MarTech person. And actually you find a lot of people who consider themselves MarTech professionals now having started in growth or user acquisition roles because they had to just use tools in order to get their jobs done. But what I would say is as a company grows and scales, it moves from being a community or village driven aspect of your products to being something that's centrally owned. If you're a startup, again, like 30 to 40 people, everybody might chip in to manage your CDP or use Amplitude or build a first party solution on top of those. (00:07:16): It's a mixture of first and third party tools and engineering and product and marketing all work together on it. That doesn't scale though. As you cross a hundred to 200 people, somebody has to be responsible for knowing how data flows through tools, how it's worked, what's the schema. And that's not even considering procurement and legal stuff. You have infinite liability if you don't manage your contracts well. And so usually around I would call it a hundred to 150 people is the critical mass where you can't just have a village approach to systems and tools much like in the IT org, if it was a village approach to SSO businesses would be in a lot of danger. That's where you typically start to see the question of, all right, we need a systems and tools person. We need somebody to manage these systems and manage that platform. (00:08:01): And there's a variety of ways it can go. I've seen it go just into pure product that's with a product operations org and a product ops person actually will manage a lot of third and first party tools. I've seen it go into the IT org, Walmart for example, at a really big scale. They had a MarProd function which was marketing products. It was product within the marketing function or product that was designed to serve marketing. And then of course you can have more traditional routes like you can have marketing technology as a single standalone unit or business technology as a standalone unit. Some of this depends too on whether the business is B2C versus B2B. Classically in a B2B business you see it in rev ops or some types of systems role because you have to serve not only users coming into your funnel, but then the businesses that you're serving afterwards. (00:08:46): That's also where you typically see tools like Salesforce coming into play and more advanced CRMs. In a B2C business, your user funnel is actually really simple acquiring users and you're getting them into your product and then product is taking them over. There's no additional CRM, so usually your CDP is the source of truth and that's where you might actually see marketing technology fit in with growth a lot more. Just some examples like at Postmates, I worked for them for a long time as a consultant. Marketing technology was just part of growth. We had a director of growth even before that, Siqi Chen who's the CEO of runway, and I guess you were his first manager as I just learned, he was the first VP of growth and marketing technology was just part of growth and product owned that as a system. (00:09:30): As a different example though, at Ramp we're big enough and we're a B2B company, but we have a B2C top of funnel where we try to acquire users and get them to fill out our application to get a credit card. We have a distinct revenue operations team that's broken into business technology and marketing technology. So, there's lots of flavors of how it can exist. I think that's kind of the interesting and fun part of Marketing Tech is that it's not just one single version of the world that you apply to many companies, there's like a million variations that I've seen and they all kind of look to solve the same problem.",
+   "zh": "在某种程度上可能没区别。很多30人以下的小创业公司，你的增长团队里那个负责获客的人，就是用CDP把数据发到广告平台去投广告——因为这就是他工作的一部分，那他其实也就是个MarTech的人。实际上你现在会发现有大量自认MarTech专家的人，最早都是从增长或者用户获取岗位起步的，因为他们为了把活干完，不得不去用那些工具。但我想说的是，随着公司成长和扩张，这件事会从\"全村一起上\"变成\"中央集权式\"地有人专门负责。如果你是个30到40人的初创公司，大家可能都来搭把手管CDP、用Amplitude、或者在上面搭第一方方案——第一方、第三方工具混着用，工程、产品、营销一起上。但这撑不住。一旦跨过100到200人，就一定得有人负责搞清楚数据是怎么在工具之间流动的、是怎么处理的、schema（数据结构）是什么样的。这还没算采购和法务那些事。你要是合同管不好，那责任可是无限的。所以通常到了100到150人这个临界点，你就不能再靠\"全村共管\"系统了——就像IT部门如果也靠全村共管SSO，公司早完蛋了。这就是你通常会开始问\"好了，我们得有个管系统和工具的人了\"的时候。这个职能的去向有很多种：我见过直接并进纯产品线的，产品运营组织里会有产品运营的人实际管很多第一方和第三方工具；也见过并进IT部门的，比如Walmart在很大规模时就是这样，他们有个MarPro……",
+   "ts": "00:06:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, to make it even more specific and really simple for people to think about what someone in MarTech does, essentially it's using technology and tools to drive growth. Is that a simple way of thinking about this one specific roles?",
+   "zh": "为了让人更具体、更简单理解做MarTech的人到底在干什么，本质上就是\"用技术和工具驱动增长\"，对吧？用这个方式理解这个特定角色可以吗？",
+   "ts": "00:10:00"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Totally. That's exactly right. And I have this adage I always say, which is tools are just meant to solve problems. And the problem set for marketing technologists and business technologists is you focus on the tools.",
+   "zh": "完全对，就是这样。我自己有句口头禅：工具嘛，本来就是为了解决问题的。而营销技术专家、业务技术专家的问题域，就是聚焦在这些工具上。",
+   "ts": "00:10:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And so when someone currently say listening doesn't have a MarTech person and they're thinking about, hey, is this a gap we have? What is that slice of work that a MarTech person would take if they currently have say a growth team or a growth PM that's leading growth and a growth team around them?",
+   "zh": "那假设现在听的人还没有MarTech的人，正在琢磨\"我们这会不会是个缺口？\"——如果现在他们已经有个带增长团队、或者有个增长PM在牵头，那一个MarTech的人会接手哪一块活？",
+   "ts": "00:10:24"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "This comes up all the time, by the way, I talk to businesses every year that have this problem of we have a growth team, we're growing pretty fast. We have a guy that we hired, usually an engineer who stood up all these tools for us. Or it could be gal too just to be clear, but this person has been here for two years and knows all of our systems really well, but now they're becoming overwhelmed. They don't have enough time. The systems are too complex. This is the flavor of story that I hear so often around startups who have hired a great growth person and managed tools and systems, but at some point they reach that point in time where it's no longer manageable by one person or even a set of people. And that slice of works looks like setting up new tools, building new tools on top of them because a lot of times you'll take a third party tool, call it like a segment or an amplitude, and you'll build tooling in your own stack behind it to power something much more advanced. (00:11:35): And everybody thinks that marketing technology is just the third party tools, but actually it's designing, architecting and building that stuff on top of your third party tools. That's how you actually have a lot of velocity is thinking about not just build versus buy. It's build and buy now. So, you buy the tool to get 90% of the way there and then you build the cool thing on top with the other 10%. And so that architecting decision usually falls on this person. The one really unsexy part of it, which I tend to love because it's really high leverage is the contract part. When you start out as a business, you sign any contract you want with a third party because you're just trying to get going. You have much bigger problems, product market fit, staying alive, runway. But at some point as you scale and you're starting to make money, now you start to care more about not just how much money you're making but how much money you're losing usually from contrasting SaaS tools. (00:12:24): And so that's where you start to have more scrutiny around what types of deals are we signing, what are the terms? Do we have liability exposure? What's it going to cost us if we actually scale? And it's great that we have this cool rate at 500 MTUs, what happens when we have a million MPUs? So, I worked at mParticle, which was a CDP provider for a long time and I was their VP of growth and part of their SaaS vendor strategy is like, how can we design these cost structures in a way so that at the company scales we make more money? That's just part of the business. And so if you have that mindset of, well, I'm looking out for the business not just now, but two 30 years in the future, that's where you can also have a lot of value from a systems or marketing technologist.",
+   "zh": "这种事我每年都能碰到好几回。有些公司增长挺快，招了个工程师把各种工具都搭起来了——也可能是女生，说清楚点——这人在这待了两年，把所有系统摸得门儿清，但现在开始扛不住了，时间根本不够用，系统也太复杂。这种故事我在初创公司里听得太多了：招了个很棒的增长人把工具和系统管起来了，但到某个时间点，一个人甚至一小撮人都搞不定了。那这块活具体长这样：搭新工具，在它们上面再建新工具——因为你经常是买了个第三方工具，比如Segment或者Amplitude，然后在自己技术栈的更后面再搭一层工具去支撑更高级的事。大家都以为营销技术就只是那些第三方工具，其实真正的功夫在于在第三方工具之上做设计、做架构、做开发。你怎么保持高速度？关键不是\"自建还是外购\"二选一，而是\"既自建又外购\"——你买工具解决90%的问题，再用剩下10%在上面搭出酷东西。而这个架构决策，通常就落在这个人头上。还有一块特别不性感、但我反而很喜欢的部分，因为它杠杆率极高——就是合同。公司起步时，你跟第三方签什么合同都行，因为你有更大的问题要操心：PMF、活下去、现金流。但到某个规模、开始赚钱了，你就开始在意的不只是赚多少，还有在SaaS工具上\"亏\"了多少。而且……",
+   "ts": "00:10:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe a sign that you should start thinking about a MarTech person on a growth team is what I'm hearing is you're starting to accumulate all these different tools and maybe there's a sense that you could be a lot more efficient in connecting data and the backend infrastructure for how you think about growth and how you drive growth and measure growth.",
+   "zh": "听下来，你给的信号是：当你开始囤一堆不同的工具，而且隐隐觉得——要是我们能更高效地把数据、把支撑增长/驱动增长/衡量增长的后端基础设施连起来，该多好——这可能就是你该考虑招个MarTech人的时候了。",
+   "ts": "00:13:05"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah, efficiency and pain. I would say pain drives people more. It's like, hey, we can't do something because nobody knows this thing. We can't do something because we don't know the best way to set up these tools or to change these tools or we can't even move forward where a business plan because we're worried that changing our tools might have an impact. And usually this is related to email marketing tools and data tools, so like CDPs and folks like Braze interval and just because a lot of times your email is the thing driving recurring customers to come back to your product and use it. So, you can't actually sometimes make the changes you want without understanding how something was set up in the first place.",
+   "zh": "对，效率和痛苦。不过我觉得\"痛苦\"驱动人的成分更大。比如\"这事我们干不了了，因为没人搞得懂这个东西\"，或者\"我们不知道怎么最合理地搭/改这些工具\"，甚至\"我们连业务计划都不敢往前推，因为怕改工具会带来影响\"。而这通常跟邮件营销工具和数据工具有关，比如CDP、Braze、Iterable这类，因为很多时候邮件就是拉老用户回产品用的。所以你经常是想改都不敢改，因为不知道当初是怎么搭的。",
+   "ts": "00:13:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You talked about where this person would live in the organization. There's all these different places. I talked about revenue team, maybe the ops team, maybe growth team, marketing team. What's your general advice for who should lead the hiring of this role and also just roughly who should they report to?",
+   "zh": "你刚说了这个人在组织里可能待的各种位置——营收团队、运营团队、增长团队、营销团队都有可能。那关于\"谁该牵头招这个角色、他又该汇报给谁\"，你的大方向建议是什么？",
+   "ts": "00:14:03"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "So, I have not to shamelessly plug my Reforge course in the fall, but I'm going to be shamelessly plug my Reforge course in the fall. We have this awesome matrix that we built that shows where this person should live, what they do, who they should report into, and it's all part of the fall course if you want like the deep dive into it. There's going to be a section on it, but just the gist of it is I first like to break it down into two dimensions. First is a B2C company or B2B company. And then the second dimension is how important is it to you that this person report into a specific function or not? So, first with B2C and really maybe a simpler version of that is centralized versus decentralized. So, we have B2C, B2B, centralized, decentralized. In a B2C organization I think actually thinks it's quite simple. (00:15:08): Most of the time your tools, your marketing tools are intended to help the growth team. The growth team has a job to be done, which is to spur user growth and tools are just meant to solve the problem. So, marketing technology's job is to serve the growth team. Now it obviously serves product and analytics and data, but its key stakeholder and customer is the marketing or growth function. And so I think it makes a lot of sense that if you're designing an org under a CMO or a marketing person, you put marketing technology alongside your head of growth or maybe reporting into your head of growth depending on the seniority of the person. And that works quite well. The key thing there is you just want to make sure that this marketing technology person is a really strong technical architect or some type of technical operator because they're going to be your representation to the product in engineering orgs. (00:15:53): Now, some people take a little bit of a slight twist on that. They say, hey, I have a product manager who manages growth that comes from the PM side. You could have a platform PM that serves the same thing in MarTech and they're responsible for all internal platform systems. And then you get into questions of does that belong in product ops or not? And I'm not going to go there. But for B2C, that's the centralized function. For B2C decentralized, what you do instead is you just say like, hey, we're going to have one of these systems, people in every org. Product is going to have a product ops person and growth is going to have a growth ops person, engineering will have engineering ops, and then we kind of divide the lines based on what tools they're managing. I generally don't see that working very well just because as you add more operational people, it just creates more systems. (00:16:39): And so unless you're a massive company where you need that type of scale, I think most startups should avoid that decentralized model. And then for B2B, I think B2B is really messy because not only do you have pure B2B where you're only selling to enterprises, but you have this concept of B2B2C, which is where you're actually selling to users and to businesses sometimes at the top of the funnel and the bottom, but also sometimes at the same time like notion. Notion sells to users so, they have a little growth acquisition funnel at the top, but then they also sell to businesses. And I find there's really, again, there's two ways decentralized or centralized actually at Ramp we've gone back and forth between the two models. We started centralized with the Rev ops group, we decentralized it and put marketing technology into the CMO org and now we're rolling it back into the revenue operations org Largely has to do with who is our customer? (00:17:28): Whose problems are we solving and where are resources allocated? Because if you have a decentralized model, then you run the risk of having to have lots of resources decentralized across the team. And the question is, can that function actually get work done or resources spread too thin and the priorities on align that it makes it challenging to get work done. And yeah, I would just say especially on B2B, for people out there listening, there is no right answer. And I even think that marketing technology could live in product, it could also live in engineering. Some of this has to do with who is the leader of this function. If it blends more towards ops, meaning managing processes and systems, then yeah, maybe you want to decentralize it and keep it in its representative function. If you have a really technical leader who was an architect or a PM that might indicate where that person should actually be leading their team. So, it's very case specific, which I know is a terrible answer, but it's the way it is.",
+   "zh": "先不害臊地插播一下我秋天在Reforge的课——好吧我就是要打这个广告。我们做了个超棒的矩阵，显示这个人该放哪、干什么、汇报给谁，全套都在秋季课程里，想深挖的可以去听，会有一整个章节讲这个。但核心思路我先拆成两个维度：第一，你是B2C还是B2B公司；第二，让你特别在意的是——这个人要不要汇报给某个特定职能？所以先是B2C、B2B，再是集中式、分散式。我觉得B2C其实挺简单。大多数时候你的营销工具就是为了服务增长团队。增长团队有它的活要干，就是促用户增长，而工具本来就只是用来解决问题的。所以营销技术的活，就是服务增长团队。当然它也服务产品、分析、数据，但它最关键的利益相关方和\"客户\"，是营销或增长职能。所以在CMO或营销负责人下面搭组织时，把营销技术放在增长负责人旁边、或者汇报给增长负责人（看这个人资历深浅），我觉得非常合理，而且效果不错。这里的关键点是：你得确保这个营销技术人是个很强的技术架构师、或者某种技术运营，因为他要代表你去对接产品和工程组织。也有人稍微拐个弯：说\"我有个从PM线过来的产品经理管增长\"，那你也可以让一个平台PM来干同样的MarTech活……",
+   "ts": "00:14:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Makes total sense. If someone were to hire someone like in Austin, are you doing the work yourself? Are you an IC for quite a while or do you end up building a team, say engineers that are building some of this infrastructure, how does that usually play out?",
+   "zh": "完全说得通。如果有人要招一个像Austin这样的人，你是自己一直在一线干活（IC）呢，还是最后会建个团队、比如招工程师来搭这些基础设施？通常怎么演变？",
+   "ts": "00:18:25"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I think all marketing technologists at some level are ICs. I think it's a great job personally, because I get to be an IC and a manager. You have to be an IC in that, you are the most senior technical expert on all first party and third party systems. So, you have to know really well how third party tools work and you don't know that without doing the work yourself. So, I do find that some of the best marketing technologists have at least at some point in the last five years, been an operator and expert managing tools and systems. And then usually the teams are small and super cross-functional. (00:19:10): So, what I would say is more important to look for than how many people has this person managed is how well can they manage upward, laterally and downward because they're going to have to go talk to the head of rev ops if they want to change something in Salesforce, they're going to have to talk to the VP of product if they want to make a big platform change that touches something else. They're going to be relying constantly on data resources from their head of data. So, I think that this person, the secret sauce is more of how good of a cross-functional team player are they. I almost view them like a true quarterback every [inaudible 00:19:41] says people are quarterbacks. But really marketing technology because it lives between so many departments, it plays that role of having to call plays and pull on different departments.",
+   "zh": "我觉得所有营销技术专家在某种层面上都是IC（个人贡献者）。我自己就特别喜欢这个角色，因为我既能当IC又能当管理者。你必须是IC，因为你是对所有第一方和第三方系统最资深的技术专家，所以你得非常懂第三方工具怎么运作——而你不自己干是懂不了的。所以我发现最好的营销技术专家，过去五年里至少在某段时间当过一线操盘手、管过工具和系统。然后通常团队都很小，而且超级跨职能。所以我觉得比\"这人管过多少人\"更重要的，是\"他向上、平级、向下管理的能力\"有多强——因为他想改Salesforce里的东西，就得去跟营收运营负责人谈；想动一个牵连别处的平台大改，就得跟产品VP谈；还一直要依赖数据负责人的数据资源。所以这个人的\"秘密武器\"更在于：他有多会当个跨职能的团队协作者。我几乎把他看成真正的\"四分卫\"——大家都说人是四分卫，但营销技术因为横跨这么多部门，真的就是那个要叫战术、把各部门拉到一起的角色。",
+   "ts": "00:18:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And because it sounds like you don't have a team to do some of these things and you need to convince people to help you out.",
+   "zh": "而且听起来你并没有一支团队帮你干这些事，所以你得去说服别人来帮你。",
+   "ts": "00:19:50"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Totally. Yeah. It's a game of persuasion and salesmanship. You have to convince people why the problems are big and especially as you get bigger, a lot of the decisions or problems of marketing technology are not about rapidly making a huge transformation. It's slow transformation that can have big implications. I'll just give you one example. Like lots of big companies I talked to have two CDPs or two attribution tools and it's like there's the cost problem. How do we get rid of this secondary tool to reduce the cost? Maybe it's a million dollars, but there's also the complexity and decision-making problem. How do we make people move and work faster by not having the complexity of asking, which tool do I use in such a simple decision? (00:20:39): And then you get to a really big scale at Walmart where your problem isn't even. How do we consolidate the stack and make it so tools that are helpful for people, but how do we prevent from getting back to that state? How do we put safeguards in place to make sure people actually have access to the tools that they want and can solve their problems? But we're not introducing duplicative tech into our organization because a really well-known, sorry to put SaaS vendors on the spot here, but well-known SaaS vendor plays the land and expand motion. You get in small and then you grow your business. Well, that's a distinct problem for businesses that are trying to control costs and simplify the way the world works.",
+   "zh": "完全对。这是一场说服和销售。你得让人相信这些问题有多大——尤其公司越大，营销技术的很多决策都不是\"快速来个大变革\"，而是\"慢慢变，但影响很大\"。我给你举个例子：我聊过的很多大公司都有两个CDP或者两个归因工具，这就有了成本问题——我们怎么把第二个工具砍掉、降成本？可能一年省一百万。但还有复杂度和决策效率的问题：怎么让大伙儿不用再纠结\"该用哪个工具\"这种简单问题，从而跑得更快？再大到Walmart那种规模，问题根本不是\"怎么整合工具栈\"，而是\"怎么防止退回那种乱局\"——怎么设护栏，确保大家真能用上想要的工具、解决问题，同时又不往组织里引入重复的技术。因为有个特别有名的SaaS厂商——抱歉点名了——玩的是\"先小单切入、再扩展开\"的打法，你从小处进来，业务慢慢做大。但对想控成本、想让世界更简单运转的公司来说，这就是个实实在在的问题。",
+   "ts": "00:19:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to talk about tools that you recommend and use most often, but I'm thinking maybe we start with a different question, which is around just what does your day look like as a MarTech person? What are you doing day to day and from the lens of your growth PM listening or a leader listening and what could this person do for me and how much leverage can I get if I were to find a MarTech person?",
+   "zh": "我想聊你最推荐、最常用的工具，但我先换个问题起头：作为一个MarTech的人，你一天到底长什么样？日常在干啥？从听这期的增长PM或者leader视角看——这个人能帮我做什么？我要是招到一个MarTech的人，能撬动多大的杠杆？",
+   "ts": "00:21:15"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "There's half of marketing technology, which I would call somewhat administrative and high leverage. It's managing PI requests and PI technology, managing administrative stuff like contracts and admittance to tools and permissions. This is all at a big company scale. You probably don't do this when you're a small company, but that stuff matters because give you an example, you give edit access to somebody who wants HubSpot and they send a fake email test to a million people and now you're on Twitter being embarrassed as a company. It's like-",
+   "zh": "营销技术有一半的活，我叫它\"偏行政但高杠杆\"：管PI（个人信息）相关的请求和技术、管那些行政性的东西，比如合同、工具的准入和权限。这都是大公司规模下的事，小公司你大概不干这个。但这些事很重要——举个例子，你给某人开了HubSpot的编辑权限，他给一百万人发了封假测试邮件，结果公司就在Twitter上社死了。这就像……",
+   "ts": "00:21:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Does that happen to you?",
+   "zh": "这种事在你身上发生过吗？",
+   "ts": "00:22:12"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "It hasn't happen to me. But I've gotten the emails from certain companies where it's like, this is a test and it came from an intern.",
+   "zh": "我没摊上过。但我收到过某些公司的邮件，写着\"这是测试\"，结果发现是实习生发的。",
+   "ts": "00:22:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, same.",
+   "zh": "对，一样的经历。",
+   "ts": "00:22:20"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "You're like, that's just permissioning gone wrong. So, I think a big part of the role is designing systems that are automated to handle that stuff because ideally you don't want to be sitting around in your computer all day clicking one conductor request to approve permissions. You should look at the role, look at the experience of tenure and department and make a decision about which accesses you get. So, automating that is a big part of my job. The manual part of my job, which I feel like is actually really fun, is again the designing systems and contracts for the future. So, it's about how do we design a system and create a vision and persuade people about what our system technology can look like over the course of one to two years, the time span that I usually look at. And then how do you change state from then to now? Some of that has to bring in financials and contracts. That's where this plays a role. What are our contract terms today? What's the price we're paying? What is our growth going to be? (00:23:12): Can we build a financial model to show how much it's going to cost us both in terms of operational efficiency and actual real fixed and variable costs to end up in that state? And then how do I create a graceful argument to persuade people that we should spend engineering time and resources? And usually it nets out pretty clear. It's like if it's less than a certain amount, how do you justify spending any engineering time on it? You have to wait for the problem to become big enough. But then back to your other point around how do I give growth managers out there something useful. I would say the big thing that people forget in an early stage of a company's lifetime is that the company will outlast you, hopefully. You will not be the last growth manager unless the company fails. So, I tend to take a little bit of a different approach than most, which is like I think you should always be thinking about the future. (00:24:02): That doesn't necessarily mean you should make design choices that over index towards the future so much that you miss product market fit or you make poor product decisions. But when you set up tools and you pick tools and you implement them, you should be thinking, what's going to happen a year from now if I don't change anything? And is this going to be a catastrophic situation or not? And then try to take actions to mitigate that risk. Some examples are like if it's $2,000 to get SSO and two days to set it up and that prevents you from having a security problem where somebody downloads all your users, it seems like a great investment. (00:24:37): And guess what? Over time, if you don't do that, you're going to eventually have to hire an IT person to go and set up SSF for all your tools. So, some of this is more of just being a good steward about managing first and third party tools with an eye towards the future. It's always a trade-off, right? Because the more time you spend when you're building product early in a company's lifetime, that time could be spent on other things. So, if you waste it managing third party tools or setting up correctly, then maybe you miss out on a key product feature. So, I think it is a tough balance to strike.",
+   "zh": "你看，这就是权限管理翻车了。所以这个角色很大一部分是设计能自动处理这类事的系统——理想状态下你肯定不想整天坐在电脑前，一条一条点审批权限。你应该看这个人的司龄、所在部门，来判断该给他什么权限。所以把这块自动化是我很大一块工作。我工作里手动的部分——其实我觉得特好玩——又是设计面向未来的系统和合同。也就是：未来一到两年（我通常看这么长的时间跨度）我们的系统技术长什么样？怎么把这个愿景设计出来、让人信服？然后从现状怎么变过去？这里有些部分就得把财务和合同拉进来。我们的合同条款现在是什么？价格多少？我们增长会到什么程度？能不能建个财务模型，算出无论是运营效率上、还是真实的固定和可变成本上，走到那个状态要花多少钱？然后我怎么组织一个漂亮的逻辑，去说服大家：我们应该把工程时间和资源投进去。通常算下来很清楚：如果低于某个数额，你怎么justify花任何工程时间？你得等这个问题足够大再说。回到你另一个点——我怎么给外面的增长负责人一点有用的东西？我会说，很多人忘了的一点：公司大概率会比你活得久（除非公司倒闭）。你不会是最后一个增长负责人。所以我跟大多数人思路不太一样，我会一直往前看。",
+   "ts": "00:22:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Coming back to the different kind of roles within the growth umbrella, if someone has someone leading paid growth let's say, and they're just like a paid growth person, do you also find a MarTech person to work alongside this person? How connected would you be to someone that's just responsible for paid growth?",
+   "zh": "回到增长这个大伞下的不同角色。如果有人带付费增长，比如就是个付费增长的人，那你会不会也配一个MarTech的人跟他搭档？你跟那种只负责付费增长的人，关联度有多紧？",
+   "ts": "00:25:06"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Maybe a key differentiator too. We didn't talk about this in the beginning, but there's marketing technology and marketing operations. So, in my mind, this is just my own kind of mental framework is marketing technology has tech in it. So, it's usually an engineer or somebody with an engineering background doing that function. Marketing operations is usually not always technical. Maybe a systems analyst or business analyst could be somebody really, really smart, but they may not have an engineering background. So, I think that's a key distinction too. And you typically see that in B2B where you'll have mar ops function, which is setting up campaigns, sending email blasts, debugging, doing analytics work, SQL queries, all semi-technical work but not engineering based. So, in my mind when we talk about marketing technology, I'm really thinking it as an engineering based role and even by background, I'm not a software engineer, but I was a civil engineer and I learned how to program and I went through a bunch of coding to get there. (00:26:21): So, that's my way into the engineering world. And you typically find that a lot with marketing technologists in particular is they either are software engineers or they've gotten enough experience to moonlight as software engineers. And so we get to this problem set of a user acquisition person. How would they rely on a marketing technologist? Well, I think the most superhuman user acquisition people out there are engineers and they don't need a marketing technologist because they set up the tool themself. They know how the paid campaign runs and they just do it all. And you'll typically find these super humans at small startups where the engineer is just told by the co-founder, hey, go figure out how Facebook ads work. And superhuman is born. More often though that doesn't happen. Or those people once they do it once, they never want to do it again. So, you'll typically find the role split and that's the natural thing that happens. (00:27:13): As you scale, you divide responsibility and you'll see you'll have the person who's responsible for bidding and acquiring users and paying down those campaign costs. Then you have the person who's in charge of how does it all work? How do we get this thing to actually run? And that's very similar to what we have at Ramp. We have an amazing user acquisition team. I know Sri Batchu was on here a while back. He hired a guy named Cody Morgan at Ramp who has a user acquisition team. And the way to think of it is, my job is to help support them in running all their campaign needs and when they have a directive from the CEO that says we need to improve CAC or change any of our metrics, it's my job to partner with them to help them do that. And actually one of the coolest and most fun projects that we worked on early when I joined Ramped is we were optimizing. (00:27:55): We're trying to get top of funnel data all the way down to the bottom of the funnel and tie it with opportunity data so we could send that back to the ad network so that rather than optimizing your campaign off of when a user clicks a button on the website, you're actually optimizing it off of did the opportunity occur and what was the kind of ideal value for that opportunity? And you're sending that data as a synthetic event back to Facebook and all those guys. So, it can be really cool and super advanced stuff depending how deep on the funnel you get and how complex your business is.",
+   "zh": "这可能是个关键区别，我们开头没聊到——营销技术（marketing technology）和营销运营（marketing operations）是两回事。我自己的心智框架是：营销技术里带\"tech\"，所以它通常是个工程师、或者有工程背景的人在干。营销运营通常不一定是技术的——可能是系统分析师或业务分析师，人可能特聪明，但不一定有工程背景。所以我觉得这是个大区别。你在B2B里特别常见：有mar ops职能，负责搭活动、群发邮件、debug、做分析、写SQL，都是半技术活，但不是工程活。所以我心里的\"营销技术\"，是把它当工程类角色看的——我自己背景也不是软件工程师，我是土木工程师出身，后来学会编程、折腾了一堆代码才进来的。所以这是我进工程世界的方式。而且你会发现营销技术专家大多要么本来就是软件工程师，要么经验够到能客串软件工程师。这就引出一个问题：一个用户获取的人，怎么依赖营销技术专家？我觉得最超人的用户获取高手本身就是工程师，他们不需要营销技术专家，因为工具自己就搭了、付费活动自己就跑了。这种超人你通常在小创业公司能见到——创始人跟工程师说\"去搞懂Facebook广告怎么投\"，超人就诞生了。但更多时候不是这样。或者这些人干过一次就再也不想干了。所以角色通常会拆开，这是很自然的事……",
+   "ts": "00:25:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, you're generally not running campaigns of your own unsafe Facebook or AdWords. You're mostly as a MarTech person supporting people who are doing that.",
+   "zh": "所以你一般不会自己跑Facebook或AdWords这类活动，你作为MarTech的人主要是支持那些在跑活动的人，对吧？",
+   "ts": "00:28:25"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "00:28:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome.",
+   "zh": "好。",
+   "ts": "00:28:35"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Helping them use tools and technologies to do it.",
+   "zh": "帮他们用工具和技术去干这些事。",
+   "ts": "00:28:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great. Do people give you goals? Are you responsible for growth goals of your own? And in general, are MarTech people, should they have goals and growth goals on their plate or are they just there to support people who do?",
+   "zh": "很好。那别人会给你定目标吗？你自己要背增长目标吗？总的来说，MarTech的人该不该把增长目标扛在自己身上，还是就单纯支持那些背目标的人？",
+   "ts": "00:28:38"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Oh, that's a great question and I would like, maybe this is at the end of the podcast, we ask people about this because I would love to know what is a better version of goaling? So, there's two ways that I've thought of it. One is my goals are directly tied to the people I'm serving. So, if user acquisition has, I mean we do, we have a growth goal and we have a CAC goal at Ramp. So, my goals are tied to them, so I'm going to help make sure that that is achieved, but then there's also a cost and efficiency goal that I internally think is valuable. Whether or not the business thinks it is valuable, it doesn't really matter. I come from a sales background and I like to run lean and efficient teams, and so I'm always thinking to myself, how much were the tools when I came in, how much are they now? (00:29:34): Have I set us up for success so that as we grow, our cost per user or cost per seat comes down and how much more efficient are we because of that? The ideal world is that you actually are growing as a business making more money, hiring more people, acquiring more users, and your total cost of tooling per person goes down. That's like the dream. And there's lots of ways you can build that financial model, but I mean that's what I think most marketing technology leaders should strive for is to make sure that they're controlling costs over time because most businesses don't. There can be some goals that are discreet in nature that are not cost-efficient, but more like net capability related. So, it's like, hey, we want to design a first party system that's world-class that achieves these three goals, right? Maybe you want to incorporate artificial intelligence into some part of our product platform and incorporate third party tools. (00:30:25): And those are more like discrete product goals. In the same way that a business might launch an external product goal to launch a feature, they sometimes also might have internal product goals, clean up our revenue operations systems, make our email marketing system better. In particular, email marketing is one I see come often a lot with small businesses and even medium-sized businesses where they'll have picked a tool at the start of the company's lifecycle and as the company has grown, they've outgrown that tool. They need to move to a Braze or Marketo. And so there'll be a big six-month initiative to say, we just got to switch. That's the goal. We have to safely get off this small tool to a much bigger, more complex tool that's going to cost us more. It's a lot more complex, but we need to do it without losing money. That's usually the job of a MarTech person in some type of change transformation effort.",
+   "zh": "哦这问题好，我倒希望播客结尾我们也问问大家，因为我也想知道更好的目标设定长啥样。我有两种思路。一是我的目标直接跟我所服务的人绑定。比如用户获取——我们在Ramp当然有增长目标、有CAC目标——那我的目标就跟他们绑定，我要帮着达成；但同时我内心还觉得有价值的是一条成本和效率目标，不管公司认不认，无所谓。我销售出身，喜欢跑精简、高效的团队，所以我总在想：我进来时工具花多少钱、现在花多少？我有没有让我们在为增长做准备，让人均成本或每席成本往下走？因为我们越高效，省得越多。理想状态是：公司业务在涨、钱在赚、人在招、用户在获，而你的每用户工具总成本反而下降。那是梦想。建这种财务模型有很多办法，但我觉得大多数营销技术负责人都该朝这个方向努力——随着时间把成本控制住，因为大多数公司都控不住。也有一些目标是离散型的、不是成本效率类的，更偏能力。比如\"我们要设计一个世界级的、能达成这三个目标的第一方系统\"，或者\"我们想把AI融进产品平台的某个部分、再接上第三方工具\"。这些更像离散的产品目标。就跟公司可能对外发个产品目标、上线个功能一样，有时候也会有内部产品目标，比如\"清理我们的营收运营……\"",
+   "ts": "00:28:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Perfect segue to where I wanted to go, which is tooling and your recommendations and favorite tools. And so maybe we start with just what do you find as a good starting tool stack for people starting to think about MarTech and basically growth, and then what does it end up being generally?",
+   "zh": "完美衔接到我接下来想聊的——工具，还有你的推荐和最爱。我们也许先从最基础的开始：对刚开始想MarTech、也就是想增长的人，你觉得好的起步工具栈是什么？一般最后又会变成什么样？",
+   "ts": "00:31:14"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "In terms of stack, again, we think about B2B and B2C. B2C I would say the stack was largely solved from 2017 to 2020. We've had like a renaissance of the data architecture, so what I'm going to do is I'm dig through B2C then and now and then we can go B2B then and now.",
+   "zh": "说到工具栈，还是得区分B2B和B2C。B2C的话，这套栈在2017到2020年基本就被\"解决\"了。后来我们又经历了一轮数据架构的复兴，所以我打算先翻B2C的\"当年和现在\"，再聊B2B的\"当年和现在\"。",
+   "ts": "00:31:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great.",
+   "zh": "好。",
+   "ts": "00:31:52"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Okay. So, B2C, if you back up to 2016, 2017, you have segment and the rise of the CDP. Consumer based businesses have to collect a user and tie a bunch of data to them and then track their actions to send it out to performance ad networks and email marketing tools and product analytics tools. And so you would see this very commoditized stack. It would be like CDP in the middle bunch of tools connected. The promise of the CDP was you integrate one SDK, your engineers don't hate you send all the data to the other tools you can create audiences. (00:32:26): Great. Lasted for a long time. The thing about it though that I think really changed around 2020 is that the cost of ownership of warehousing became much cheaper. And so 2021, you start getting to the place where it actually makes a lot of sense and is really easy to store all your data in a warehouse model all your data in the warehouse, and to do it without needing a vast data team. I would say Airbnb was probably doing all this well before anybody else was, but they had the main advantage of a lot of money and a lot of resources. So, now come 2020, it's cost-efficient to have a data team with your own warehouse and to manage data centrally in something like Snowflake. So, now this question is like, okay, well we got to get data into the warehouse, but how do we move data around is totally different. (00:33:11): And that's what really led to the rise of reverse ETLs. So, now you can actually build your own CDP and lots of businesses already have, I'm consulting with a well known financial trading platform a couple of months back, and they have a CDP, they have all this internal data in their warehouse, but they have not been able to activate it because it's pretty old architecture. Everything's batch based end of the day. What they need is a reverse ETL. They don't need to take that data and just get it out into the world. So, they need the reverse ETL component or the transformation component of a CDP. And so I'd say now today when we think about B2C businesses, you can either go to the traditional route, buy CDP, hook up all your tools, third party. (00:33:52): I think that's a great move if you do not have a lot of engineering resources because you're not spending a ton of time and energy on a warehouse and all the modeling that comes with it, you're just spending time to implement one SDK. I think if simplicity is the name of the game for your business, CDP, Centralized Stack, great move. If you are an advanced engineering culture and you are cutting edge and you're going to do a bunch of modeling in DBT and you already have Snowflake, you should move towards a model of using a reverse ETL. What it means is that there's a way to get your data into the warehouse and then how you activate it is completely independent from the CDP. And so what that means is actually you can have lots of different variations of the stack. (00:34:31): You could use Amplitude as your CDP, collect all your data, stream it into Snowflake. They actually now have an integration with Snowflake that lets you feed data directly out of Snowflake, and then you could use a reverse ETL to just pipe that data wherever you want. There's a really good section though, again, sorry to self aggrandize, but there's a really good section in the Reforge module this fall that talks about what happens when you have multiple ways to move data. You buy amplitude for your CDP and you're moving data to your warehouse. Amplitude is a bunch of integrations, but you also have reverse ETL and you can move data out of your warehouse. (00:35:05): Where do you choose? And I would say a lot of businesses get in trouble when they don't have a methodology or a system for how and when to move data from one place to the other, so they just do it haphazardly, right? And the key in systems management is you want to design a process for doing it some type of waterfall or mental model for when it makes sense to move data directly from Amplitude, which is the ingestion point of your data stream or from the warehouse where you can model it and make it better. I think the key is just having a philosophy and approach. There's not really one answer, but that's all B2C. So, B2B I would say ... Yeah, go ahead.",
+   "zh": "B2C的话，回到2016、2017年，有Segment和CDP的崛起。面向消费者的公司得采集一个用户、把一堆数据绑上去、追踪他的行为，再发到效果广告平台、邮件营销工具和产品分析工具那里。所以你会看到一套非常商品化的栈：中间一个CDP，连着一堆工具。CDP的卖点是你只接一个SDK，工程师不烦你，数据就能发到别的工具、还能建受众。很好，管了很多年。但大概2020年真正变了的，是数据仓库的拥有成本大幅下降。所以到2021年，你把全部数据存在仓库里、用仓库给数据建模、而且不需要一支庞大的数据团队，已经非常划算、非常容易了。我会说Airbnb早就在这么干了，比谁都早，但他们的最大优势是有钱、有资源。所以到了2020年，养一支带自己仓库的数据团队、在中央用Snowflake管数据，已经成本高效了。那新问题就是：好吧，数据进仓库了，但数据怎么在系统间流动，完全不一样了。这也真正催生了反向ETL（reverse ETL）的崛起。现在你其实可以自己搭CDP了，很多公司已经这么做了——我几个月前给一个挺有名的金融交易平台做顾问，他们有CDP、仓库里有大堆内部数据，但一直没法把它\"激活\"，因为架构太老，全是日终批处理。他们需要的其实是个反向ETL。他们不需要把数据拿进来，而是要把数据弄出去。所以他们缺的是CDP里的反向ETL组件或转换组件。所以我会……",
+   "ts": "00:31:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before we move on to that one, you mentioned reverse ETLs. What are some examples of products that are reverse ETLs so that people can look them up?",
+   "zh": "在往下聊之前，你提到了反向ETL。能不能举几个反向ETL的产品例子，让大家能去搜搜看？",
+   "ts": "00:35:40"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah, I personally think the reverse ETL is a capability. It's the ability to move data from a warehouse to a tool. So, technically speaking, you'll find reverse ETLs in CDPs and as standalone products. Segment has a reverse ETL function they just launched, and Particle has a reverse ETL function they just launched. Rudder Stack, which is a CDP has always had a reverse ETL function where you can take warehouse data and move it to different cloud infrastructure. Then there are distinct standalone products. Census, which was back Bay 16Z and Hightouch are the two standalone reverse ETLs. And like I said, I'm an investor in Hightouch, love their work, we use them at Ramp. At the end of the day, you should pick tools because they help solve problems, not because of anything else. So, we can come back to that if you want.",
+   "zh": "我觉得反向ETL首先是一种\"能力\"——把数据从仓库搬到工具里。所以严格说，你在CDP里能找到反向ETL，也能找到独立产品。Segment刚上了反向ETL功能，mParticle也刚上了。RudderStack这个CDP一直都有反向ETL功能，能把仓库数据搬到不同云基础设施。然后还有独立的纯反向ETL产品：Census（Back Bay、a16z投的）和Hightouch是两家独立的。我说过我是Hightouch的投资人，超爱他们，我们Ramp也在用。说到底，你选工具是因为它帮你解决问题，不是因为别的。这个我们晚点可以再聊。",
+   "ts": "00:35:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wonderful. Great, great. Yeah, that was perfect. Keep going.",
+   "zh": "太好了，完美。继续。",
+   "ts": "00:36:32"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Okay. Yeah, so we talked about B2B, or sorry, B2C. B2B, I probably don't have as much history as say people who survived the dot-com crash in 2008. I started really my career in B2B in 2014, so I'll share a little bit of my experience and I'm just hopefully just saying this because listeners may chime in and be like, oh man, this guy doesn't know what the hell he's talking about, which is totally fair game. So, 2014 though, I remember working at Branch, I was working for our COO Mike Molinet, who's now at this really cool company called Thena, but at the time I was working for Mike, and as we talked about before, oftentimes growth stacks just appear because you're given a challenge. And I remember sitting in this tiny room with Mike. We were over in Palo Alto, right off the fills in Palo Alto in this tiny room. (00:37:27): It was boiling in the room like so hot we were sweating and we were mapping out on a whiteboard how we would design our first version of our system, like how we capture leads, how we get them into Salesforce, how we would email them with a little tool called Outreach at the time, that was still a startup. And I'll send it to you after this if you want to show them to viewers, but it's so MVP, but it still models what a lot of people have today. There's some ingestion point for your data. There's Salesforce, there's some type of outbounding tool, there's an enrichment tool, and then a lot of other Jerry rig stuff hooked up to Salesforce. And for the most part, that's how B2B still exists today as you have Salesforce and then the whole world and the universe revolves around Salesforce. You just have more advanced tools, you have Gom and stuff like that. (00:38:12): I think the big change though, and what is really fascinating and has been fun to watch is in the last two, three years, you now have this whole rise of B2B2C, which takes all the complexity of the top of funnel user acquisition system and stuffs it right alongside your CRM and how you build an elegant system there in that space, I think is one of the most complicated and intricate pieces of being a MarTech person today. And some of it just has to do with the data language. Like all these B2C tools were designed with two objects, a user and an event. And so if you're not a technologist, it's like object orientation is how you kind of think about the world. There's only two concepts for the world in a user acquisition based system. A user who's a person either anonymous or known coming into your website and the things that they do on your website or application, and you use all that data to acquire them or model them. (00:39:03): In a B2B business you have all that complexity, but at the end of the day, you might not really need it if all the person is doing is it's just the company is signing the contract and then you don't really care what happens afterwards. You might track users and events inside your application, but it's not for the acquisition, it's for the retention of the user. B2B2C is fascinating because you have all the complexity at the top, but then how and when do you tie a user to a company or some type of entity object, and what tools do you need to do that and where do they live in the system? And do those tools actually have competing priorities? Let me give you the greatest example of this that happened at Notion when I was consulting to them at Chris when I was consulting to them and at Ramp is having both HubSpot and Salesforce. (00:39:45): Both are CRMs, both have the ability to track users and companies, neither are CDPs. And how you actually map the data from HubSpot to Salesforce kind of determines how much hell you're in, and there's really no good solution. It's just like you have to figure out for yourself, how do you want to acquire use at the top of the funnel? How do you merge them into the bottom of the funnel of the Salesforce? And again, there are lots of options or versions of the world. You could use Amplitude only and collect all your user and event data and then merge that into Salesforce directly. You could collect all your data in Amplitude or Segment and then post that to HubSpot, which then posts that to Salesforce. But of course, as you make these decisions, your systems becomes more complicated and more than one person can manage. So, there's this trade-off between complexity and resources that you always have to juggle.",
+   "zh": "好。我们刚聊的是B2C——不对，是B2C。B2B的话，我可能没那些经历过2008年互联网泡沫破裂的人懂历史。我真正从2014年才入行B2B，所以分享点我的经历，也希望听众别太较真——可能有人会插嘴\"这哥们儿根本不知道自己在说啥\"，那也完全合理。2014年，我记得在Branch工作，给COO Mike Molinet（他现在在一个超酷的公司Thena）干活。当时我跟他坐在一个小房间里，在Palo Alto、离机场很近，热得要命、直冒汗，我们在白板上画第一版系统怎么设计：怎么抓lead、怎么弄进Salesforce、怎么用当时还是创业公司的Outreach发邮件。那图特别MVP，但到现在还模拟着很多人的现状：有个数据入口、有Salesforce、有个外呼工具、有个enrichment（数据补全）工具，然后一堆七拼八凑的东西挂在Salesforce上。大体上，B2B今天还是这样——Salesforce在上，整个宇宙围着它转，只是工具更先进了，比如Gong这类。但我觉得最有趣、也最好玩的变化是：最近两三年，冒出了B2B2C——它把漏斗顶部用户获取的整套复杂玩意儿，直接塞进了你的CRM和……",
+   "ts": "00:36:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today's episode is brought to you by Brave Search and their newest product, the Brave Search API, an independent global search index you can use to power your search or AI apps. If your work involves AI, then you know how important new data is to train your LLMs and to power your AI applications. You might be building an incredible AI product, but if you're using the same data sets as your competitors to train your models, you don't have much of an advantage. Brave Search is the fastest growing search engine since Bing, and it's 100% independent from the big tech companies. Its index features billions of pages of high quality data from real humans, and it's constantly updated thanks to being the default search engine in the Brave browser. If you're building products with search capabilities, you're probably experiencing soaring API costs or lack of viable global alternatives to Bing or Google. (00:41:23): It's only going to become harder to afford these challenges. The Brave Search API gives you access to its novel web scale data with competitive features, intuitive structuring and affordable costs. AI devs will particularly benefit from data containing thorough coverage of recent events. Lenny's Podcast listeners can get started testing the API for free at brave.com/lenny. That's brave.com/lenny. There's this big question within B2B and B2C around how to do attribution. Well, it's a never ending struggle. I'm curious if you have any pro-tips or best practices or tools that you use to improve the way attribution happens at a company.",
+   "zh": "今天的节目由Brave Search和他们最新的产品Brave Search API赞助——一个独立的全球搜索索引，可以用来驱动你的搜索或AI应用。如果你的工作涉及AI，你就知道新数据对训练LLM、驱动AI应用有多重要。你可能在做一个超棒的AI产品，但如果你用来训练模型的数据集跟竞品一样，你也没什么优势。Brave Search是自Bing以来增长最快的搜索引擎，100%独立于大科技公司。它的索引有数十亿来自真实人类的高质量页面，而且因为它是Brave浏览器的默认搜索引擎，一直在持续更新。如果你在做带搜索能力的产品，大概正被飙升的API成本、或者缺乏Bing和Google之外可行的全球替代方案困扰。这些只会越来越难。Brave Search API让你以有竞争力的功能、直观的结构和亲民的成本，用上它新颖的网页级数据。AI开发者会特别受益于对近期事件覆盖详尽的数据。Lenny播客的听众可以去brave.com/lenny免费试用API。说回B2B和B2C里那个老大难问题：怎么做归因。这简直是打不完的仗。我想知道你有没有什么专业贴士、最佳实践，或者你用来改善公司归因的工具。",
+   "ts": "00:40:33"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Actually, I listened to your pod on multi-touch attribution. I'm forgetting who you were with at this point, but it was like I was loving it because it talked about MMM and MTA specifically.",
+   "zh": "其实我听过你那期讲多触点归因（multi-touch attribution）的播客，这会儿我忘了是跟谁聊的了，但当时特爱听，因为它具体讲了MMM和MTA。",
+   "ts": "00:42:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, that was a newsletter post actually, not even a podcast.",
+   "zh": "哦那其实是一篇newsletter，不是播客。",
+   "ts": "00:42:19"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yes. So, back to our conversation around division of responsibility. I'm not always the person you should talk to create an MMM model. I'm not a data scientist. I know how to make MMM models and I know what they are.",
+   "zh": "对。回到我们说的\"职责划分\"。要建MMM模型，我通常不是该找的人——我不是数据科学家。我知道MMM模型怎么建、是什么，但我自己不是。",
+   "ts": "00:42:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you explain MMM briefly?",
+   "zh": "你能简单解释下MMM吗？",
+   "ts": "00:42:36"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Mixed Media Modeling. And MTA stands for Multi-touch Attribution and it's these two ways of measuring the world and marketing to understand how you should allocate resources to campaign spend. MTA and MMM though are both underpinned by how you collect data. They're both informed by the user object and the event objects that you collect on your website or your application that then lead to the data that data scientists use for MTA and MMM. That's the connection between data and MarTech is often the tools and systems that we build and stand up and manage are what are used for these very complicated growth, experimentation and attribution results at the end of it. And one of the most discreet things you can do for MTA, because I get this question all the time around, hey, do we need MTA? (00:43:21): What should I do first touch or last touch? Should I do both? And there's actually really, I can send you this guide, but there's six or seven things you can do to basically futureproof yourself from needing either one. Because most businesses either start with first touch or last touch and then eventually want to move to a multi-touch attribution model. And for those who don't know what that is, first touch is where you kind of collect the data about where somebody first came from. Last touch is where you collect the data about where the person last came from. So, an example, would this be like if I went to Lenny's Newsletter from a Google ad and that's all he has? That would be my first touch and my last touch. If I first came from a Google ad to Lenny's Podcast, but then later I came from a Facebook ad or I don't know direct, then that would be my last touch. (00:44:06): And so it's this question of does the Google original first Google Channel get credit or does the second one the Facebook or direct get credit? And the first touch attribution model, a hundred percent goes to the first channel and the last touch attribution model, a hundred percent credit goes to the last touch. And a mixed attribution model or multi-touch attribution model, you're trying to figure out how to split the difference. And usually the evolution for businesses is they start with first touch or last touch, then they go to splitting it literally 50/50. And then somebody gets angry because they're not getting enough credit and they say, we've got to go to MTA. And there are both first party solutions for that and third party solutions for MTA. But back to the main thing, the main point is if you think about what you're collecting, this is for website businesses, you're collecting the referrer, like in the URL where the person's coming from, and you need any UTMs associated with that person. (00:44:58): And you also need any parameters from the advertising networks that might give them the ability to counter a conversion. Every ad network out there has little things they stuff into your URL that tell you that you came from them. Facebook has FVP, FPID, they sometimes encode it. Google has this thing called Google Click ID, which is just a really long string of characters that don't matter unless you know how to decode it. But all advertisers, and for the longest time advertising worked by putting parameters in URLs, pushing somebody through to your website, collecting those parameters and then passing it back to the ad network so they could get credit for it. And so in my mind, the best practice that everybody should stand up from day one is to basically design the system for MTA and then use whatever makes sense as you grow. (00:45:45): And so the way that I typically recommend to people is like imagine when a user comes to your website, you collect the URL, collect the referring URL, collect all the additional marketing parameters that you might want, [inaudible 00:45:57], TikTok ID, Microsoft ID, you should just make a list of them. And if you don't have that list, I can give them to you. And then you should collect all UTMs. So, in the URL, you're going to have UTM campaign, UTM medium. Most marketers use this to note what the campaign type was. Now the thing is that UTM is only going to be specific to the moment in time that the person came to your website. So, back to example about Lenny's podcast. If I come to LE's podcast and I came from a Google ad, then my UTM is only for that Google ad. (00:46:28): So, I have a Google Click ID and I have a UTM. So, what you're got to do is you've got to store those parameters locally on the device. Either was a browser or whatever. You got to store it as UTM first campaign, UTM last campaign. And what you do is every single time that a person comes, you replace the last campaign or the last value with the one that's there. So, say the last one was Facebook and then I come later from a direct mailer ad you replace the UTM last medium with the new one. Now what's happening if you're using third party tools is that you're collecting this user information when the person's on the website, you're going to collect it both as a user attribute and as an event that way. What's going to happen on the backend for your data warehouse team is they're going to see a user profile that has both the first attribution information and the last attribution information. (00:47:20): And then for all the stuff in the middle, you're firing off a page view event with first and last, where the last might deviate if there were multiple steps in the middle. So, what they can do is they can just coalesce over all the last UTMs they've seen on all your events by user to get both their first one, all the ones in the middle and the last. And so this isn't actually that complicated to set up. Most people just don't do the work early on. And then when they want to go back later and have MTA results, they don't have the data to do it. So, one of the things I tell people who are debating this is let's just get the infrastructure right from the beginning. (00:47:55): Let's set up so that you have users, you have user attributes, you're collecting first and last UTM on users. You're firing events with all those. There's some other more complex things you can do too. You can set them in first party cookies and you can also set them in your third party cookies for your tooling vendors. At the end of the day though, what matters is you just are collecting this information from the beginning. That way when you actually want to progress your attribution model, you don't have to wait a really long time to start gathering that data.",
+   "zh": "MMM是Media Mix Modeling（媒体组合建模），MTA是Multi-Touch Attribution（多触点归因）。这是衡量世界、衡量营销、决定怎么分配campaign预算的两种思路。但MTA和MMM都建立在\"你怎么采集数据\"之上——它们都靠你在网站或App上采集的用户对象和事件对象，这些最后才变成数据科学家拿去做MTA和MMM的东西。这就是数据和MarTech的连接：我们搭起来、管起来的那些工具和系统，最后就是用来产出那些复杂增长、实验和归因结果的。对MTA，你能做的最小动作之一——因为我老被问\"我们要不要上MTA？\"——是该做首触点（first touch）还是末触点（last touch）？还是两个都做？其实有六七个动作能让你\"未来不需要纠结要哪个\"，这个我可以发你指南。大多数公司要么从首触点、要么从末触点起步，最后才想往多触点归因模型走。不知道的人听一下：首触点是采集\"一个人最初从哪来\"的数据；末触点是采集\"这个人最后从哪来\"的数据。比如我从一个Google广告进来Lenny的newsletter，而他只有这个——那这既是我的首触点也是末触点。如果我先从一个Google广告进了Lenny播客，后来从一个Facebook广告、或者直访进来，那Facebook或直访就是我的末触点。所以问题是：最早那个Google渠道拿功劳，还是第二个Facebook或直访拿功劳？首触点归因模型里，100%功劳给第一个渠道；末触点模型里，100%给最后一个……",
+   "ts": "00:42:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. I love the details that you're sharing. I don't know where else people can find this sort of advice. It sounds like a core part of this is one, just having a data warehouse where you just throw all this data into, and two, having a taxonomy that you can rely on and do multiple things with down the road. Is that roughly right?",
+   "zh": "太棒了。我超爱你分享的这些细节。我不知道别处还能听到这种建议。听起来核心有两点：一是有个数据仓库，把所有数据都扔进去；二是有个你能依赖、将来能多处复用的分类法（taxonomy）。我理解得大致对吗？",
+   "ts": "00:48:24"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah, I think that's right. The taxonomy though, I think what's interesting is it's very much guided by your third party tools. And again, that's the reason why I think companies often miss the mark here is because they're not thinking about what can my tool actually allow me to put into it in the first place.",
+   "zh": "对，我觉得是的。不过分类法有意思的地方在于，它很受你的第三方工具引导。这也是为什么我觉得很多公司在这里栽跟头——因为他们没在想\"我的工具到底一开始允许我往里放什么\"。",
+   "ts": "00:48:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to make sure I understand what you're saying there, you're saying generally maybe third party tools limit what you can do, which set you up for hardship later. And maybe what you're saying is do that yourself, that tracking piece, is that roughly what you're saying?",
+   "zh": "为了确认我懂你的意思：你是说，一般第三方工具会限制你能做的事，这就给以后埋了坑。而你说的可能是\"这块tracking自己干\"，对吧？",
+   "ts": "00:48:59"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah, I think that's right. The way to think of it is if you build your own data warehouse, your schema is unlimited. You can do whatever you want. You can design product schema, you can design user schema and event schema, but most third party B2C tools don't allow you to control the schema. There's only one CDP I know that does that, that's Snowplow. The rest are there's a user object and an event object. So, you can either stuff data as a user property onto the user object or you can stuff data into the event and fire it off as an event, but that's what you're working with. So, what I'm saying is most people just don't think about the object orientation of the third party tools they think about and they don't design their website traffic or their app traffic. We didn't talk about app, which is a whole different slew because doing attribution with Iowas 14 is much more difficult. (00:50:07): But even in the website version of the world, people will often just collect UTMs and think that their job is done and it's like actually it's more complex. You have to think about first and last, think about the steps in the middle, design it so that you're putting it on the user profile and in the event. And so this goes back to the main thing that we were talking about earlier, whereas the job of a marketing technologist is to think often one to two years down the road about what we're going to need to solve for and design systems in an elegant way, not to break the bank, but to at least be the minimum viable product to actually get there. And a lot of my job, and I think the job of marketing technologists is trying to preserve that future state in the most minimally invasive engineering and resource way possible.",
+   "zh": "对，我觉得是这意思。这么想：如果你自己建数据仓库，schema是无限制的，想怎么设计都行——产品schema、用户schema、事件schema。但大多数第三方B2C工具不允许你控制schema。我知道只有一个CDP能做到，就是Snowplow。其他的就只有一个用户对象和一个事件对象。所以你要么把数据当user property塞进用户对象，要么塞进事件里当事件发出去——你就只有这些。所以我想说的是，大多数人根本没想过他们用的第三方工具的对象结构，也没设计好网站流量或App流量。我们还没聊App，那是另一摊浑水，因为iOS 14之后做归因难多了。但就算在网站世界里，人也经常只采UTM就觉得干完了——其实复杂得多。你得想首末触点、想中间的步骤，设计成既能放用户档案、又能放事件里。这又回到我们开头说的重点：营销技术专家的工作，是经常往未来一到两年看，想清楚我们要解决什么，然后用优雅的方式设计系统——别把银行搞破产，但至少是能走到那的最小可行产品。我的工作、所有营销技术专家的工作，很大一部分就是：用最不侵入、最省工程和资源的方式，守住那个未来状态。",
+   "ts": "00:49:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've talked a bit about thinking ahead and a bunch of tools and platforms, and I'm wondering are there any new and emerging tools, platforms or even growth channels that you're keeping an eye on or excited about or finding more and more useful?",
+   "zh": "你聊了不少\"往前看\"、还有一堆工具和平台。我想知道，有没有什么新兴的工具、平台、甚至增长渠道，是你特别在关注、特别兴奋、或者发现越来越有用的？",
+   "ts": "00:50:48"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I'd be remiss if we didn't talk about Threads, right? Threads is super interesting. The question will be how quickly can they stand up an API for advertising and what does that look like or do they just blind it in with the existing meta and Facebook architecture? One of the caveats that I'm sure a lot of performance marketers out there will agree with is Facebook has a conflict of interest in reporting, right? They want you to spend money, so obviously they want to report the best results. And that's the reason why attribution parties like Branch and AppsFlyer exist is to somewhat curtail that conflict of interest. And so I'll be really interested just to see how attribution works, especially when you're moving from Instagram to Threads, from Facebook to Threads. Will it be the same architecture, will be the same advertising platform? Will they try to do something new? (00:51:52): So, I'm keeping my eyes on that. Reddit is also a very interesting place to convert now. They're opening up their conversions API, and I'm seeing a lot more investment in Reddit just because you can have embedded ads now that almost look like they can be posts that you can comment on. I think it just speaks to the maturity of the advertising business. What's happening in the background of all this is ad attribution from apps has become a lot more difficult and mostly aggregate. From 2010 to 2020, we had the golden years of deterministic matching where it was very easy to run an ad and understand with precision who installed the app. Maybe you didn't know their name, but you actually would know their IDFA and you could tie that to their PI. You can't do that anymore. It's very challenging. (00:52:35): Even when you can do it, the results that you would get are pretty low because nobody's going to be opting into giving you their IDFA. So, what that means is these ad networks are becoming more complex, sophisticated, and interesting right at the same time that it's harder for marketers to really understand how they're spending money. And so I'm paying a lot of attention to how marketers make decisions with probabilistic data because most of the work that I'm doing now is actually saying, well, given that we don't have determinist data about a certain audience or where somebody came from, how can I find other information that will create a model for 30% of the population and we can use that to extrapolate to a hundred. So, probabilistic matching and probabilistic attribution I feel like is a skillset that more marketing technologists and marketers should just get familiar with the way that we make decisions today.",
+   "zh": "我们要是不聊Threads，那就太失职了，对吧？Threads特别有意思。问题是他们多快能搭出广告用的API、长什么样，还是直接塞进现有的Meta和Facebook架构里？我敢说很多效果营销人会同意一点：Facebook在报告上有利益冲突——它想让你花钱，所以当然想报最好的结果。这也是为什么Branch、AppsFlyer这种第三方归因存在，多少是为了遏制这个冲突。所以我特别好奇归因会怎么演变，尤其当你从Instagram转到Threads、从Facebook转到Threads时——架构一样吗？广告平台一样吗？他们会搞点新东西吗？所以我盯着这个。Reddit现在也是个很有意思的转化阵地，他们在开放conversion API，我看到越来越多人在Reddit上投，因为现在能放那种看起来像帖子、还能评论的原生广告。我觉得这正说明广告业务在成熟。所有这些背后在发生的是：App的归因变得难多了，而且大多是聚合式的。从2010到2020年，我们有确定性匹配的黄金年代，投广告、精准知道谁装了App很容易。你可能不知道名字，但能拿到IDFA、把它跟PII关联。现在做不到了，特别难。就算能做到，结果也挺低，因为根本没几个人会同意把IDFA给你。所以这意味着，在广告平台越来越复杂精密有意思的同时，营销人员反而越来越难重新……",
+   "ts": "00:51:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, I hadn't heard of this concept before. And that's how people are starting, or at least you're suggesting that's how people should start thinking about growth results and impact is less, here's how much this ad drove, the likelihood that this ad did this had this sort of impact.",
+   "zh": "哇，我之前没听过这个概念。所以你的意思是，人们开始——或者至少你在建议人们开始——这样想增长结果和影响了：不是\"这条广告带来了多少\"，而是\"这条广告有某种可能性、造成了某种程度的影响\"。",
+   "ts": "00:53:27"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "And it's not the case with all channels, but it's specific for apps that have mobile apps, they're going to be impacted by it because they just aren't going to be able to discreetly identify one-to-one the person that came from a campaign. They'll know that a group of people came from a campaign, but they won't be able to make measurement with those people alongside other attributes. For website, it's not the same, but there are lots of things that are making it more challenging. One is browsers now are stripping out those URLs we talked about. So, you're just seeing a bigger and bigger percentage of people being counted as organic that actually came from a paid advertisement because when they got redirected to your website, the browser truncated all those URL parameters. The second thing is cookie blockers. We talk about all these third parties before. (00:54:30): The way that third parties often collect information is they drop a cookie in your browser that tracks you, if you've heard of Segment, which is one of the most well-known CDPs of the last few years, is they implant a little third party cookie on the site that contains an anonymous user ID and all of your attributes as you're navigating the site. And then once you log in, they convert that to a known or non-anonymous user ID. (00:54:53): Usually that's tied to some type of entity ID or a user record. And at that moment in time, if you come back and they see your cookie, they kind of know who you are. Now, if you're blocking cookies, that means you're basically remaining anonymous throughout the entire user journey until you log in. Not to mention a lot of people have lead funnels where you need that information to actually understand what the user is doing before they convert. So, if you're blocking third party cookies before they even get a chance to convert, you have no information about where the person came from. You just saw that they signed up, and so it might as well be organic.",
+   "zh": "不是所有渠道都这样，但凡有移动App的，都会受影响，因为他们就是没法再一对一地精确识别\"从某个campaign来的是哪个人\"。他们知道有一群人是从某个campaign来的，但没法把这些人和别的属性一起做衡量。网站端不一样，但有很多东西也在让它变难。一是浏览器现在会把我们说的那些URL参数剥掉，所以越来越多的人被算成\"自然流量\"，其实他们是从付费广告来的——因为跳转到你网站时，浏览器把URL参数全截了。二是Cookie拦截器。我们之前聊了一堆第三方，第三方采集信息的方式，通常是在你浏览器里种个Cookie跟踪你。如果你听过Segment——这几年最有名的CDP之一——它会在站点上种个小小的第三方Cookie，里面有个匿名用户ID和你浏览时的所有属性；等你登录，它就转成已知（非匿名）用户ID，通常绑到某个实体ID或用户记录上。那一刻你再回来、它看到Cookie，就大概知道你是谁了。但如果你拦Cookie，那整个用户旅程里你基本都是匿名的，直到登录。更别说很多公司的lead漏斗，在转化之前就需要那些信息才能搞清用户在干嘛。所以如果在转化之前就拦了第三方Cookie，你对这个人从哪来就一无所知，只看到他注册了——那跟自然流量没两样。",
+   "ts": "00:53:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So, you talked about how many people are trying to get used to this new world of ATT and much harder to measure attribution and all that. Is there anything you've learned that has worked well to help you recover from that a little bit in terms of measuring what's happening? Is there any tips you can share or anything you've seen work?",
+   "zh": "你刚聊到，很多人在努力适应ATT（App Tracking Transparency）这个新世界，衡量归因难多了。在这方面，你有没有学到什么好用的办法，能帮大家在衡量发生了什么上稍微恢复一点？有什么能分享的贴士、或者你见过管用的招吗？",
+   "ts": "00:55:26"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah, I mean I think a lot of people are just gravitating towards MMM now without really understanding when MMM is useful or not. I don't know if there's a company called Recast. I think you're an investor. Am I crazy?",
+   "zh": "有，我觉得现在很多人不管三七二十一就涌向MMM，但其实并不真懂MMM什么时候有用、什么时候没用。有家叫Recast的公司，我记得你是投资人？我是不是记错了？",
+   "ts": "00:55:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I am. And that's who wrote that article that you mentioned actually.",
+   "zh": "我是。而且你提到的那篇文章，就是他们写的。",
+   "ts": "00:55:57"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "That's right. It's Michael and it was somebody else, I can't remember the name besides-",
+   "zh": "对，是Michael，还有另一个人，我除了……名字想不起来了。",
+   "ts": "00:56:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It was another Mike Taylor.",
+   "zh": "是另一个Mike Taylor。",
+   "ts": "00:56:04"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I'm not an expert on MMM, so I'm not going to be able to comment to quite the degree that they have. But when I spoke with Michael, and when I think about MMM, a lot of my conversation is this actually really realistic for our business right now? Do we have the data to run an MMM model and how is it going to change or chart the course of our performance ad marketing business in light of having this information? And when I think about it through those lens, most of the time businesses are not ready for MMM. They actually just be an MTA and they need better probabilistic modeling. And I know that's not a super spicy take, but I'd just say at least at Ramp and what I'm seeing at other businesses right now that are operating, it's much more of like we're going back to the days where we understand in broad strokes how much each of our campaigns is driving in advertising revenue. (00:57:00): We're not able to tie that discreetly with the user journey. And we know that some percentage of this user base might have been lost or organic. So, in light of those, how do we make spend? And then also you can be pretty smart. You can do, for example, geo-based testing on billboards. Try to isolate that as a factor if you withhold all other confounding factors so you can be smart. Coordinating these types of campaigns though is really challenging, especially if you're a really big business, let's say runs online advertising throughout the US and you're trying to do targeted billboard tests in an isolated number of cities across the states coordinating to turn off demographics, make sure there's not isolating factors. It can be really challenging. So, there's not a silver bullet right now I don't think.",
+   "zh": "我不是MMM专家，所以没法像他们那样评论得那么深。但跟我聊Michael时、以及我自己想MMM时，我大量的对话是：这东西对我们现在的业务真的现实吗？我们有没有数据跑MMM模型？有了这些信息，它会怎么改变、或者规划我们效果广告营销业务的走向？用这个视角一想，大多数时候企业根本没准备好上MMM。他们其实需要的还是MTA，需要更好的概率性建模。我知道这观点不算劲爆，但我就想说：至少在Ramp、以及我现在看到的其他正在运营的公司，更像是回到那个年代——我们大概知道每个campaign在广告收入上拉动了多少。我们没法把它跟用户旅程精确绑定。我们也知道这部分用户里可能有些流失了、或者本来就是自然流量。那在这种情况下，钱怎么花？而且你也可以很聪明：比如对广告牌做基于地理位置的测试，把所有其他干扰因素都控制住，就能把这个因素隔离出来。但协调这类campaign真的很难，尤其大公司——比如你全美投线上广告，想在某个几个城市做隔离的广告牌测试，还要协调关掉某些人群定向、确保没有干扰因素，特别难。所以现在没有银弹。",
+   "ts": "00:56:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Just a few more questions and then a broader question I want to ask. So, say you want to start hiring the next Austin, first of all, what do you look for in the person? What are signs that they're probably going to be worth chatting with? And then what are some interview questions you'd like to ask to get a sense of how strong they are?",
+   "zh": "太赞了。再问几个问题，然后是个更大的问题。假设你现在要招\"下一个Austin\"，首先你看人看什么？有什么信号说明这人值得聊？还有你会问什么面试题，来判断他够不够强？",
+   "ts": "00:57:42"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "So, the first thing that I always gravitate towards is just intellectual curiosity. And I know that's very, maybe a little bit overrated, but I think you can tell pretty quickly if somebody's just interested in the world and learning things. And the thing about third party tools is you are constantly learning. You'll never be an expert in everything because there's way too many tools to be an expert on, I forgot what publication, I think it's MarTech editor in chief or something. There's a publication that I subscribed to and everything is classified as MarTech and the diagram is huge, like cover a wall. Now I don't believe everything like that is MarTech, but even if a fraction is, there are way too many tools in technology to ever be an expert. So, you have to be both very interested in learning and very willing to quickly learn if you want to be in the space. (00:58:50): And so I generally look for intellectual curiosity as the first sign. The second thing that I think helps people a lot who have intellectual curiosity is they're scrappy in engineering. They might not be the best engineer possible, but they know how to get around. They know JavaScript, they know Python, they can read API documentation and make an API request. They have enough base knowledge to basically understand how to solve a problem that an engineer might do even if they themselves are not an engineer. Now obviously you can get lucky sometimes and you'll find the engineer who never wants to be an engineer again and decides to move into something less technical. And in those cases they're super powerful, but I haven't met a lot of those people in my life. And also there's just some business dynamics to it. You could probably make more as a backend engineer than as a MarTech guy. (00:59:41): So, you probably just pursue the pathway that makes more money. It's like a little bit of a utility function. So, I look for intellectual curiosity. I look for basic engineering scrappiness. And as a side note, I would say lots of people out there, the advice that I give them is you don't have to go get a software engineering degree. You can teach yourself, I am self-taught. You can take a coding academy online. I think you get enough knowledge through being able to do web programming or some type of backend programming. So, I would say it's not more than a six-month investment for anybody to really get the skillset that's needed. Obviously once you get the skillset, you can build upon it with years of experience afterwards. But if you're new to the space and you're in marketing ops and you want to get more technical, or if you're a user acquisition manager who did paid performance, but you're like, I really want do things end to end. (01:00:33): You can just go pick up some software skills and you probably are going to be pretty dangerous from that. And so those are the two things I gravitate towards. There's obviously many more, but those are the first two. The questions that I like to ask is what does I like to ask people how they prepared for the interview. This is not, I can't take credit for this. My wife told me about, gave me this idea and I loved it. I think it was a16z partner. But I love the question because when you ask, hey, how did you prepare? You're really asking how does the person think? How did they plan? How did they take things seriously or not? What did they read? What did they do? And if you have to prompt them to tell you all the things they did, then they're just not a systems thinker. (01:01:17): But if they're like, hey, actually I read these things, I did this. I woke up, I went for a run. The more interesting complex the answer, the more interesting complex the candidate. And so I love the question because it just gives you a really good understanding of the person on a whole, like right out the gate. And then the other question I like to ask is I like to ask, so you're coming in tomorrow to our marketing tech system and by Friday you have to write up a report on all the things we should change. What do you do? And I like to ask that question because it pretty much signals out people who are biased versus not. People who have tooling biases will immediately just like, we should implement this tool because I used it before and I really like to hire people who are not tool specific, who are more tool agnostic and they think about tools as being things to solve problems as opposed to tools being things that you just solve because you've already solved it one way. (01:02:12): This isn't a gripe and it's certainly not intended to slice at PMs, but one of my observations of a lot of PMs is they just pick the tools they've already used before because it's easy and it's a shortcut for them, which I understand, but problems are not always the same. So, tools shouldn't always be the same. So, I like to pick people who think about the problem set and the solution space more and they ask questions about what problems you're trying to solve, which I think is much more of an actual PM mindset of trying to work backward from the problem as opposed to just taking the problem and regurgitating stuff that you already know.",
+   "zh": "我第一眼看的总是求知欲（intellectual curiosity）。我知道这词可能有点被说烂了，但一个人对世界、对学习东西是不是真有兴趣，你很快就能看出来。第三方工具有个特点：你永远在学。你不可能什么都精通，因为工具太多，根本通不完。我忘了哪本刊物，好像是MarTech的主编之类的，我订了它，里面什么都归类成MarTech，那张图巨大，能贴满一整面墙。我当然不信所有那些都是MarTech，但哪怕只有一小部分是，工具和技术也多到没人能精通。所以你既得真有兴趣学，又得愿意快速学，才待得下去。所以我一般把求知欲当第一信号。第二样对有帮助的人是：在工程上\"能凑合搞定\"（scrappy）。他可能不是最牛的工程师，但知道怎么绕过去——懂JavaScript、懂Python，能读API文档、能发API请求。哪怕他自己不是工程师，也有足够底层知识，能搞懂一个工程师会怎么解决问题。当然偶尔你也会走运，碰到个再也不想当工程师、决定转去没那么技术岗的人，那种人超强，但我这辈子没碰到几个。而且这里也有商业逻辑：后端工程师通常比MarTech的人赚得多，所以你大概会选更赚钱的路——有点像效用函数。所以我看求知欲、看基本的工程凑合能力，然后作为旁支……",
+   "ts": "00:58:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are there any flags you look for that tell you maybe this person isn't someone you want to be working with?",
+   "zh": "有没有什么\"红旗\"信号，让你觉得这人可能不想一起共事？",
+   "ts": "01:02:45"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I answer that question on two spectrums. One is if I'm hiring as somebody who's hiring an IC versus I'm getting hired. So, one of the red flags whenever I'm approaching a company to work for them is I'll ask for their company financials and a company that's not willing to divulge their financials to a director level or above person, I don't want to do business with because that means they're hiding something. Or they have a culture where they don't trust the most senior leaders of the organization. Either is a bad choice in my perspective. So, that's one of the questions I always ask when I'm going up for a job, when I'm hiring somebody. Red flags, I feel like one of the false flags not a red flag is more like when there's a gap in somebody's job resume, everybody gravitates towards that and it's often really explainable. (01:03:39): A good example is I was hiring somebody once who had a two-year gap in their resume. We didn't end up hiring the person, but they went through all the stages and we didn't hire them, not because of them, but because the job got removed and this person took two years to get a philosophy degree or maybe it was a poetry degree and then also taught himself to program. So, it was a really enriching two years and there were lots of ways that I could see them bringing their past experience and the way that they took time off together to be a really well-rounded candidate. (01:04:12): So, I would say I look less for red flags and more for false identifiers on the resume application that may shortcut me towards the decision. Another one is just school people just look at your school where you went to undergrad or grad and they kind of make a decision one way or the other. And I feel like that's also can be a really bad shortcut because there's some amazing founders, for example, who went to school as you maybe had never heard of. Yeah, I know that's not a good way to answer the question, but I don't have a good way of looking for red flags, but I do tend to spend a lot of time on netting out of false flags.",
+   "zh": "我分两个光谱回答。一个是\"我是招人的\"vs\"我是找工作被招的\"。我去一家公司面试时，有个红旗：我会要他们的财务数据，如果一家公司连对总监级及以上的人都不愿意披露财务，我就不想跟它做生意——因为那意味着它在藏东西，或者它的文化是连最资深领导都不信任。两种都不好。所以这是我求职、也是招人时都会问的。说到红旗，我觉得有个\"假红旗\"、不算真红旗——就是简历上的空窗期，大家一看到就警觉，但其实往往很好解释。比如我有次招人，那人简历上有两年空窗。最后没招他，不是因为他不好，是那个岗位被砍了。这人用两年去读了个哲学学位、可能还是诗歌，然后又自学了编程。所以那是段特别充实的两年，而且我能看到他把过去经历和那段休息结合起来，成了个很全面的候选人。所以我更不看红旗，而是看简历上那些\"假标识符\"——它们可能让我抄近路做决定。另一个就是学校：大家看你本科、研究生去哪上的，就下了判断。我觉得这也是坏近路，因为有些超棒的创始人，上的学校你可能听都没听过。我知道这回答不算好，但我确实没啥好办法找红旗，不过……",
+   "ts": "01:02:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That was a great way to answer the question. I want to move on to something totally different, and this isn't something I've been asking people, but I'm curious if there's something here then maybe if there is, I'll start asking this more regularly. I'm curious if there's just any frameworks that you've found especially useful in your work or even life. Does anything come to mind?",
+   "zh": "这回答其实特别好。我想聊点完全不同的——这不是我常问的，但我好奇这里有没有什么。如果有，我以后可能常问。我想知道，你在工作或生活里，有没有什么特别好用的框架？想到什么吗？",
+   "ts": "01:04:49"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "One thing that I want to build, so if I ever build this, maybe it'll be a newsletter for you, is just a one-page doc of the most useful life frameworks and they're just the words, and so you obviously have to know them, but I feel like I come across really good frameworks all the time and then I forget them. So, I just want a one pager of Lenny's Life frameworks.",
+   "zh": "有一样我想做出来，哪天真做了、也许就成你的newsletter了——就是一张单页文档，列最有用的人生框架，就几个词，你当然得先懂它们，但我老碰到特别好的框架，然后就忘了。所以我就想要一张\"Lenny人生框架\"单页纸。",
+   "ts": "01:05:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, we're starting this right now.",
+   "zh": "好，我们现在就开始。",
+   "ts": "01:05:07"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Okay, great.",
+   "zh": "好，太棒了。",
+   "ts": "01:05:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We'll have number one.",
+   "zh": "我们会有第一号。",
+   "ts": "01:05:31"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "All right.",
+   "zh": "行。",
+   "ts": "01:05:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I like this.",
+   "zh": "我喜欢这个。",
+   "ts": "01:05:31"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Okay, so I've already said this and you've promised to put this at the top of the list, so I'm really excited. It's just tools are meant to solve problems and I tell that to every person I hire. I repeat it consistently at Ramp and all of my consulting gigs. And it's not just the words, it's the spirit of it. Tools are really just meant to solve problems. You don't have to buy a tool to solve the problem. You also don't have to buy a specific tool to solve the problem. And I think it embodies so much of what marketing technology is trying to do. It's trying to help people understand their problems and then actually take action on them using tools and technology that are most first party and third party. And most people just focus on the tool part and focus on the buying and integration part. (01:06:16): And so I think if you consistently remind yourself that tools are just meant to solve problems, then you really get into a space where you as a systems' person can be an advocate for your marketer or your product people. I think sometimes there is a little bit of a tendency for people to think that people who manage and set up tools are just interested in managing and setting up tools, but really at the end of the day, we're trying to help people actually do stuff. Then there's this PPS framework that I talk about a lot, which is problem, people and system. So, whenever there's a challenge that comes up like at Ramp or in a consulting gig, I like to first say what's the problem? Who are the people involved and what system does it impact? Usually because people just jump straight to the system. They're like, hey, there's this problem, I just need to solve it with the tool. Hey, I'm trying to do X, Y, and Z. Can you just give me admin permission straight to the system? (01:07:07): So, if you back up though first you understand the problem like, hey, what is this person trying to solve? What is their discreet issue? A great example is I'm a sales manager and I want to make it so that every time I hire somebody, I don't have to go through this really tough process of onboarding my staff. All right, so that's the problem. Who are the people that involves, does the sales manager need permission from the CRO? Do the sellers need to be trained? Is there some other confounding factor that we're not aware of why we don't want to just automate this thing? Once you have an understanding of the people and the problems that you're trying to solve, then it's really, really easy to design the system to solve that. And so that's my number one framework for technologists in particular is like don't just jump to the system, think backwards, start with the people and the problem and then move to the system solution. (01:07:52): And then another one that I've already mentioned too is it's B and B as opposed to BVB. So, build and buy as opposed to build versus buy. People all the time just think the second that you're talking about implementing a tool or procuring a solution, it's, Hey, I want to build this thing or I want to buy this really expensive thing. Build versus buy is a very narrowly constricting decision tree. If it's only build versus buy, then you've already made the decision that you can only do one or the other, which means you're already fighting somebody at your organization. Build and buy means that both of you can win and you can actually create a solution that is not only unique but saves the company time and resources and makes everybody happy. It's more of a consensus driven approach. Whenever I hear in a meeting or a call or some discussion about how we have a tool and it's really expensive and we want to build in herself, I try to just use the build and buy framework to tee people up and say, what about the problem? (01:08:59): Can we buy? What about the problem can we build? And where does it make sense to invest our resources and our people accordingly to get the optimal outcome? A great example is a company that I was consulting for was thinking about building their own AB testing tool. And actually we had the same problem at Ramp recently, and they're like, well, we just think we should build ourself. This is core to our technology. We have the engineering resources to do it. And they were evaluating it to build the entire system themselves or buy a third party, I think it was split.io or something like that. And the entire engagement was basically designing a financial model to show them that they could make a lot more money, save money, move faster if they just bought the third party tool at the lowest possible cost and spent all of their resources that they were going to spend building it, building around it and making it their own. And there's lots of, I hate the word synergy, it's just so yucky.",
+   "zh": "好，这个我前面说过、你也答应放最顶上，所以我特兴奋。就一句：工具是为了解决问题。我跟我招的每个人都说，在Ramp、在我所有顾问项目里反复讲。这不只是一句话，是它背后的精神。工具本来就是用来解决问题的。你不一定要买个工具才能解决问题，也不一定要买某个特定工具才能解决。我觉得它体现了营销技术想做的大部分事：帮人搞懂自己的问题，然后用第一方、第三方工具和技术真正去行动。但大多数人都只盯着\"工具\"那部分，只盯着买和集成。所以如果你不断提醒自己\"工具只是为了解决问题\"，那你作为系统的人，就能真正成为你的营销人或产品人的代言人。有时候大家会误以为管工具、搭工具的人，就只对管工具和搭工具感兴趣，但其实说到底我们是要帮人真把事干成。还有个我常聊的PPS框架：问题（Problem）、人（People）、系统（System）。每次Ramp或顾问项目里冒出个挑战，我习惯先问：问题是什么？涉及哪些人？影响哪个系统？因为大家总是直接跳到系统——\"嘿有个问题，我拿工具解决就行\"\"嘿我想做X、Y、Z，直接给我系统的管理员权限行不？\"但如果你先退一步，搞懂问题——这人到底想解决啥？他的具体痛点是什么？好例子：我是个销售经理，想……",
+   "ts": "01:05:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I don't mind it. I think it communicates what you want to communicate, and I feel like people don't say it as often anymore, so maybe it's okay.",
+   "zh": "我不介意。我觉得它把你想说的说清楚了，而且现在大家不常这么说了，所以也许没事。",
+   "ts": "01:09:54"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah, because they're afraid. There are mutual benefits is a better way of saying it, if you build a tool custom to yourself when you've bought a tool because the vendor at that point is committed to you and they want you to be successful, so you often can get accelerated outcomes if you build on top of a third party than if you just build it yourself. A great example is say you buy one of these AB testing tools and you build around it and you're a large customer of them, but you've invested a lot of your own engineering resources to make this solution your own. (01:10:31): If they know that and they care about you, they're going to be willing to actually make you happy in the moments where you need a change from them, say some SDK change or a new feature or something like that. A framework that I talk a lot about in my Reforge course is about building a stack. Everybody asks, hey, how do I build my stack? What should I do? What tool should I use? Even you earlier were like, what's the golden stack? Tell me what five tools should I get?",
+   "zh": "对，因为他们怕。其实\"互惠互利\"是更好的说法——如果你基于买来的工具自己再搭一层，因为这时候供应商已经跟你绑定、想让你成功，所以你经常能在第三方之上建，比纯自己建拿到更快的结果。比如你买了某个AB测试工具、围着它搭，你是个大客户，但你投了很多自己的工程资源把这套方案变成你自己的。如果他们知道、也在意你，那当你需要他们改点什么——比如某个SDK改动、新功能——他们就愿意让你满意。我在Reforge课里常聊的一个框架是关于\"搭工具栈\"。大家都问\"我怎么搭栈？该干啥？用啥工具？\"就连你前面也问\"黄金栈是啥？告诉我该买哪五个工具？\"",
+   "ts": "01:10:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just tell me.",
+   "zh": "就告诉我呗。",
+   "ts": "01:10:57"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah, yeah. I'll tell you at the very end, I got to hold out. Otherwise, you'll ditch this podcast.",
+   "zh": "对对，我最后才告诉你，得吊着。不然你这播客就跑了。",
+   "ts": "01:10:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's right. Yeah. Wait until the end. Is there anything else you want to share before we get to our very exciting lightning round?",
+   "zh": "没错。留到结尾。进闪电轮之前，还有啥想分享的吗？",
+   "ts": "01:11:04"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "The only thing I had wanted to fit in, which I feel like is maybe a framework or maybe just a really good decision-making philosophy is this concept of thinking gray. Have you heard of it before?",
+   "zh": "我唯一想塞进来的，也许算框架、也许只是个很好的决策哲学——就是\"灰色思考\"（thinking gray）。你听过吗？",
+   "ts": "01:11:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No. Go on.",
+   "zh": "没，说下去。",
+   "ts": "01:11:26"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Okay. So, Steven B. Sample is a professor at USC. He wrote a book called The Contrarian's Guide to Leadership, really great book. It's one of his principles. There's actually a lot of great principles in the book, but this is the one that I think has stuck with me the most in my career. And the concept of thinking gray is so often in life and in our jobs, we are forced to make decisions very quickly. We have to think black or white about a problem set or a solution, and then decide. One of his tactics is this concept of thinking gray, which is actually to not decide for as long as you possibly can before you have to decide. It's really challenging because it involves this little thing called patience, which I do not have a lot of, most of the time, and I know most people don't as well. But it's particularly really relevant in systems thinking and product because so often we believe that we have to make a decision because our boss is telling us because there's an OPR, because we feel the pain because somebody's complaining to me. (01:12:30): But actually in reality, you don't have to make a decision at all. You can just let it sit for a while. And this also applies to, I think, how you move through the world and view people. A lot of times we will meet somebody in a company setting or in a business setting, and we are quick to make decisions about them. We even asked me questions about how I hire people very quickly. We're looking for shortcuts to make decisions about evaluating people. One of the best pieces of advice though about thinking gray is it gives you the grace to not decide about people until you have to decide. So, obviously for an interview decision, you have to decide. (01:13:05): You have to decide yes or no. But so often you'll come across people and you'll meet them once or twice. And I feel like there's this tendency in the back of everybody's brain to be like, do I like this person? Do I want to work with them? And the question often is not that it's do you have to even make a decision right now? And by leaving yourself to have space to decide, you actually open up the possibility that in the future you'll make a better decision. So, I think that's a really good lesson for systems, and it's obviously a lesson that you can apply to the rest of your life too.",
+   "zh": "好。Steven B. Sample是USC的教授，写了本《反叛者领导指南》（The Contrarian's Guide to Leadership），超棒的书。这是他的一条原则，书里好多好原则，但这一条在我职业生涯里最扎得住。灰色思考的意思是：生活和工作里，我们太常被逼着快速做决定，非得把一个问题集或方案想成非黑即白，然后下结论。他的一个策略就叫灰色思考——其实是在你必须决定之前，尽可能久地\"不做决定\"。这特别难，因为它需要点叫\"耐心\"的东西，而我大多时候没什么耐心，我知道大多数人也没有。但它在系统思维和产品里特别 relevant，因为我们总以为必须做决定——老板催了、有OPR（运营计划评审）、觉得疼了、有人投诉了。但其实你根本不用决定，可以就让它搁着。这也能用在你怎么看人、怎么走路。很多时候我们在公司或生意场合碰到一个人，马上就对他下了判断。连你刚才都很快问我怎么招人，我们都在找捷径去评判人。灰色思考最好的一点是：它给你\"在人面前不必急着下判断\"的余地。面试决定你当然得做，要yes或no。但你常会碰到一些人、见一两次，大家脑子里就有种倾向：\"我喜欢这人吗？想跟他共事吗？\"而问题往往是……",
+   "ts": "01:11:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Austin, that was awesome. And with that, we've reached our very exciting lightning round. I've got six questions for you. Are you ready?",
+   "zh": "Austin，太棒了。说到这儿，我们进了超兴奋的闪电轮。我给你六个问题，准备好了吗？",
+   "ts": "01:13:37"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I'm so ready, Lenny.",
+   "zh": "超准备好了，Lenny。",
+   "ts": "01:13:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "你最常推荐给别人的两三本书是什么？",
+   "ts": "01:13:45"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "So, first book I already mentioned, but say it again. It's The Contrarians Guide to Leadership awesome book. Second book that would be really good is the Art and Adventure of Leadership by a guy name Warren Bennis. And these are more philosophically leadership books. They're less about technical specs on how to run a business. So, you have to be into that.",
+   "zh": "第一本我提过了，再说一遍：《反叛者领导指南》，超棒。第二本也很棒：《领导的艺术与冒险》（The Art and Adventure of Leadership），Warren Bennis写的。这两本更偏哲学性的领导力书，不是讲怎么跑公司的技术细节。所以你得吃这套才行。",
+   "ts": "01:13:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Favorite recent movie or TV show.",
+   "zh": "最近最喜欢的电影或剧？",
+   "ts": "01:14:10"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I'm currently watching for the first time Suits, which I'd never seen before, which I think is pretty good because the story arc of every Suits episode is that there's a problem. Then they solve the problem and then the problem is solved at the end. So, it's very gratifying for anybody out there who's a high anxiety person who just wants to have this story arc resolved at the end of the episode. But if that's not your jam and you like excitement, also watching Silo, Witcher. For comic relief, there's Our Flag Means Death, which is hilarious. Have you seen that show?",
+   "zh": "我在第一次看《金装律师》（Suits），以前从没看过，觉得挺好，因为每集的故事弧都是：有问题、解决问题、最后解决。对那种高焦虑、就想看每集结尾问题被收掉的人特别解压。但如果你不爱这个、爱刺激，我也在看《 silo》（末日地堡）、《猎魔人》。调剂的话有《把我们埋了》（Our Flag Means Death），超好笑。你看过吗？",
+   "ts": "01:14:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No, not Our Flag Means Death.",
+   "zh": "没，没看过《把我们埋了》。",
+   "ts": "01:14:44"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Now you need to go watch it. It's about black beard and gay pirate captain. So, strongly recommend that. And then for just really dumb comedy, What We Do in the Shadows is hilarious.",
+   "zh": "那你必须去看了。讲黑胡子和一个同性恋海盗船长。强烈推荐。然后纯傻喜剧的话，《吸血鬼生活》（What We Do in the Shadows）也好笑到爆。",
+   "ts": "01:14:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What was that? What We Do in the Shadows?",
+   "zh": "那是什么？《吸血鬼生活》？",
+   "ts": "01:14:59"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah.",
+   "zh": "对。",
+   "ts": "01:15:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Wow, a lot of recommendations. Thank you for that. What is a favorite interview question you like to ask candidates?",
+   "zh": "好。哇，好多推荐，谢谢。你最喜欢的、爱问候选人的面试题是什么？",
+   "ts": "01:15:02"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "So, I talked about what you did to prepare, but the other one that I think is really good because it forces people to get vulnerable is tell me about the most difficult or challenging thing you've overcome in the last year in your life. It doesn't have to be work related, it could be personal. And I think it's a great way to just reset the atmosphere, make people dig a little bit deeper into who they are and be more vulnerable. And I find usually it also helps calm them down because if they shared them one of the most challenging, difficult, and hard parts of their life, then all the other questions just are pretty easy. So, that's one of my favorites.",
+   "zh": "我前面说了\"你为这做了什么准备\"，但另一个我觉得特好、因为它逼人打开自己的问题是：跟我说说，过去一年里你克服过最难、最挑战的事。不一定要跟工作有关，个人生活也行。我觉得这能很好地重置氛围，让人往更深处挖、更敞开。而且我发现通常还能让人放松——如果他刚分享了人生里最难最苦的部分，那后面其他问题就都简单了。所以这是我最爱之一。",
+   "ts": "01:15:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite product that you've recently discovered that you really like?",
+   "zh": "你最近发现、特别喜欢的产品是什么？",
+   "ts": "01:15:43"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "This sounds super dumb. It's called cal.com, and I'll tell you the story first. I've been a big Calendly user for a long time, but Calendly is pretty expensive. If Calendly is listening, you want to give me promo, cool. But it's very expensive. And then I also just found that it is not always graceful at syncing multiple calendars from both businesses and consulting gigs and personal, and I had trouble remembering my Calendly link. I don't know. The interface is like circa 2016. So, really looking for something a little bit more notion like with a Command K interface and just integrations that work. And cal.com has not failed me. It has been awesome. So, if people are looking for new Calendly tools, strongly recommend.",
+   "zh": "这听起来特傻——叫cal.com，我先讲下故事。我长期是Calendly大用户，但Calendly挺贵的。Calendly要是听着，想给我个优惠码尽管来。但它就是贵。而且我发现它在同步多个日历（两边的生意、顾问活、个人）时，并不总是优雅，我还老记不住我的Calendly链接。不知道，界面像2016年的。所以我真想找个更像Notion、带Command K、集成又能用的。cal.com没让我失望，超棒。所以想找Calendly替代品的人，强烈推荐。",
+   "ts": "01:15:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow, I never heard of this. What a great domain, cal.com.",
+   "zh": "哇，我都没听过。这域名真牛，cal.com。",
+   "ts": "01:16:30"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I know, right. Killer.",
+   "zh": "对吧，绝了。",
+   "ts": "01:16:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite life motto that you often repeat to yourself or share with other people, either in work or in life?",
+   "zh": "你常对自己说、或者分享给别人的人生格言是什么，工作或生活都行？",
+   "ts": "01:16:34"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "I just think a lot about the power of appreciation, and one thing that I've just been thinking a lot about recently is the challenge that people might be facing in their daily lives. I actually was recently listening to another podcast by Adam Fishman, and he had Brian Balfour on. And Adam's basically just interviewing a bunch of dads, which is cool. But the nice thing about being a little bit older in your life being a dad is that you maybe have seen hardship before. And this podcast is great at just exploring the stories of people who I really admire and go through their hardship. And in that it's been a very profound experience, understanding the type of challenges that people have gone through in their lives, people who have lost mothers and fathers early in life, people who have lost children. I myself, my wife and I lost her dad last year. (01:17:35): We lost two grandparents to COVID, we lost our dog. So, I think that the way that it ties to appreciation is if you can understand what people are going through and you start to view them a little bit more as a human and understand what's beneath the surface of work, who are they? What do they care about? What are the things that are driving their life forward? It just makes you so much more appreciative for what you have and the good moments when they're actually there. And this doesn't just apply to life. It's also like business too. It makes winning a lot more fun when you know the hell that people have gone through. That's just something I like to talk a lot about with people, especially folks who are younger in their careers who maybe have only seen wins describing what the losses look like so they can picture in their mind and then have some experience when they go through it. It's a big part of my shtick.",
+   "zh": "我就常想\"感恩的力量\"。我最近一直在想的一点是：别人日常可能正面对的挑战。我最近听了Adam Fishman的另一档播客，他请了Brian Balfour，Adam基本就是在采访一堆当爸的，挺酷。但当爸的好处是，你年纪大点、也许见过苦难了。这播客很擅长挖掘我真正敬佩的人的故事、走过他们的苦难。这体验很深刻——去理解别人经历过什么：早年失去爸妈的、失去孩子的。我自己和我太太去年也失去了她爸爸，两个祖父母因新冠走了，我们的狗也没了。所以我觉得它跟感恩的联系是：如果你能理解别人正经历什么，开始把人更多当\"人\"看、理解表象下的他们——他们是谁？在乎什么？是什么在驱动他们前行？这就会让你对自己拥有的、以及好时光真正到来时的那些片刻，多出太多感恩。这不止适用于生活，也适用于生意：当你知道别人熬过了什么地狱，赢的时候才更有滋味。这是我特爱跟人聊的，尤其对职业生涯早期、也许只见过赢的人，我会描述输长什么样，好让他们心里有画面，等自己经历时有点准备。这是我很重要的一部分。",
+   "ts": "01:16:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What an excellent answer. I am definitely going to keep asking this question. For people who are still listening here is the promised Golden Stack.",
+   "zh": "多好的回答。我肯定会把这问题继续问下去。还在听的各位，承诺的\"黄金栈\"来了。",
+   "ts": "01:18:23"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Okay, so Golden Stack. If I was a B2C business, I'd buy Amplitude for my CDP, I'd buy customer IO and maybe I'd upgrade to Braze in the future. I put everything in Snowflake, I'd buy high touch to reverse ETL, all that data out to my ad networks. For attribution, probably AppsFlyer from a mobile app, if not Branch, but it'd probably be AppsFlyer first. So, that gets you, you got AppsFlyer, Amplitude as your CDP and product analytics, Customer IO for email. Snowflake for your data warehouse, Hightouch for streaming all the data tools. That's like golden stack today if I were implementing it for a B2C business. For B2B, roughly the same, Amplitude. If you need an attribution tool, if it's B2B, actually, if it's a web only business, probably we use Branch because Branch is better for web. (01:19:23): So, you have Branch, Amplitude, connect all the data to Salesforce. Hopefully at some point in time somebody builds a better Salesforce. That'll be for our next podcast though, Lenny, can't cover that today. And then reverse ETL is Hightouch. So, very similar except the only difference is what do you do for an email tool? A lot of people use HubSpot. I would try to go away with Customer IO as long as I could and then I'd move to Braze afterwards. So, a big difference is just Braze versus Customer IO for B2B.",
+   "zh": "好，黄金栈。如果我是B2C公司，我会买Amplitude当CDP，买Customer IO，将来也许升级到Braze。所有东西放Snowflake，买Hightouch做反向ETL，把数据全推到我的广告平台。归因的话，移动App大概用AppsFlyer，不然就是Branch，但大概率先AppsFlyer。所以你就有了：AppsFlyer、Amplitude当CDP和产品分析、Customer IO发邮件、Snowflake当数据仓库、Hightouch把数据推到各处。这就是今天B2C的黄金栈。B2B大体一样，也是Amplitude。如果需要归因工具，如果是B2B、纯Web业务，大概用Branch，因为Branch对Web更好。所以你有Branch、Amplitude，把所有数据连到Salesforce。希望哪天有人做出比Salesforce更好的东西——那是我们下期播客的事了Lenny，今天cover不了。然后反向ETL还是Hightouch。所以非常像，唯一区别是邮件工具用啥：很多人用HubSpot，我会尽量拖着先用Customer IO、之后转到Braze。所以最大区别就是B2B用Braze还是Customer IO。",
+   "ts": "01:18:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question for you. I heard that you're a drone pilot and I'm curious, what is the coolest place you've flown your drone or the coolest thing that's happened with your drone?",
+   "zh": "你的最后一个问题。我听说你是个无人机飞手，好奇你飞过最酷的地方、或者无人机发生过最酷的事是什么？",
+   "ts": "01:19:49"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "So, this actually gets back to our intellectual curiosity thing. Maybe I just search for weird people when I hire because I just love when people do interesting things that are unrelated to work. And the story is during COVID, I didn't really want to just better myself online through a bunch of educational platforms. I just felt like it would be a little bit soul crushing to sit in front of my computer screen and learn how to do statistics or whatever. So, I was trying to look for things that were interesting, niche, outside of my domain knew nothing about. And the three that I came up with were, I learned to fly a drone. I became a CFP, certified financial planner and I became a notary. And it's just because they seemed really useful things that had nothing to do with my work and would learn about something completely interesting and different. (01:20:46): So, those are the three that I chose. The drone stuff, it actually was funny. I started flying here in DC. I live in Virginia, but maybe a mile outside of Washington DC and around DC there's a restricted air zone. And so after I did my FA drone pilot license and I became a certified drone pilot, I really went down the rabbit hole of trying to figure out how to fly a drone in DC, because I've seen them around, but obviously it's a national security and I'm probably dramatically mutilating the exact experience. But as I went to do this, it was very complicated, archaic, but also funny because it was all online. You have to go file out a form, you get a letter from a local representative who says you're in good standing. So, we found a councilman that I just knew. And then you have to fill out all the stuff. (01:21:39): This paperwork, the site looks like it's from 1994. There's an office literally in DC where a person approves you. Then you have to let go and get a police officer to effectively babysit you while you fly this drone. And so I did all that and I got to the point where I was going to get babysat and I called our local police department and I was like, yeah. So, I talked to the office, I just need an officer to come out and meet at this time. And they just laughed me off the phone. (01:22:04): They're like, we're not going to send a police officer to watch you fly a drone. And I just thought the thing was really funny because yeah, it makes sense. Why would they waste taxpayer dollars to have me fly a drone? But it was a requirement. So, I ended up not being able to fly this drone in DC. But if anybody's listening and they know how to fly a drone and they want to fly, I would be totally down. I have two drones. I have a Mavic Air 2 and a Skydio Enterprise, which Skydio is a really cool company as well if people are looking for drones.",
+   "zh": "这又回到我们说的求知欲了。也许我招人时就爱找怪人，因为我就是喜欢人搞点跟工作无关的趣事。故事是疫情期间，我不太想只在线上靠一堆教育平台提升自己，觉得对着电脑学统计什么的挺摧残灵魂。所以我在找有趣、小众、完全在我领域外、我一无所知的东西。我想出三个：学飞无人机、考CFP（认证财务规划师）、当公证员。就因为它们看着有用、又跟工作无关、能学点完全不一样的有趣东西。无人机这事其实挺逗。我在DC这儿开始飞——我住弗吉尼亚，但离华盛顿DC就一英里多，DC周边是限飞区。所以我考了FA无人机执照、成了认证飞手后，真就钻进\"怎么在DC飞无人机\"的兔子洞了，因为我看周围有人飞，但显然涉及国家安全，我讲的可能跟实际体验差很远。但我去做时发现特别复杂、陈旧，但又好笑，因为全在网上：你得填表、拿到当地议员说你品行良好的信。我们找了个认识的议员。然后所有东西都得填。这网站看着像1994年的。DC里真有个办公室、有个人批你。然后你得放行、找警察来在你飞的时候\"看着你\"。所以我全办了，办到要被人看着飞、然后我……",
+   "ts": "01:19:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, so you're saying if people have an awesome drone and they live in Virginia, they should come contact you and fly some drones together?",
+   "zh": "所以你是说，如果有人有酷无人机、又住弗吉尼亚，应该来联系你一起飞？",
+   "ts": "01:22:33"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yeah, exactly. Exactly. But just not in DC.",
+   "zh": "对， exactly。只是别在DC飞。",
+   "ts": "01:22:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. Well, Austin, I think we delivered on the promise of making this extremely nerdy and in the weeds, and I think we've solved a lot of people's problems. I feel a lot of gratitude for you, and I feel like we taught a lot of people about MarTech, which was my goal. So, thank you again for being here. Two final questions. Where can folks find you online if they want to ask you more questions? And how can listeners be useful to you other than coming to fly drones with you?",
+   "zh": "好。Austin，我觉得我们兑现了承诺——把这期做得极硬核、极深入，而且我觉得我们解决了很多人的问题。我特别感激你，而且我们教了很多人MarTech，这正是我的目标。再次感谢你来。最后两个问题：大家想多问你问题的话，网上去哪找你？除了来跟你飞无人机，听众还能怎么帮到你？",
+   "ts": "01:22:42"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "So, first find me online LinkedIn. Threads, I actually have Threads. I don't have Twitter, like hot take, I think Twitter ruins people's careers. I've already seen multiple careers ruined by Twitter. Some people just don't know how to shut their mouth. So, I'm not on Twitter, but I am on Threads and I'm trying to figure it out. So, if you want to document Threads, you can. I'm on LinkedIn and then I have my email address on LinkedIn too, and I'm always willing to talk to people.",
+   "zh": "首先网上找我：LinkedIn、Threads——我其实有Threads。我没Twitter，说句有点冒犯的：我觉得Twitter毁人职业生涯，我已经见过好几个被毁的了，有些人就是管不住嘴。所以我不用Twitter，但我用Threads，还在摸索。你想记录Threads也行。我在LinkedIn，LinkedIn上也有我邮箱，我随时愿意聊。",
+   "ts": "01:23:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. And is there any way listeners can be useful to you?",
+   "zh": "太棒了。那听众有没有什么能帮到你的？",
+   "ts": "01:23:28"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Yes. I have a marketing technology course coming out with Reforge in the fall. If you're a practitioner of MarTech or you're interested in MarTech, would totally love for you to take the course, would love to your feedback in particular. I love to stand on this podcast and act like I know a lot about MarTech, but I'm still learning. And so I think it would be awesome to just get feedback from the community about what was interesting and helpful, what wasn't there, and we can improve upon. And then the other thing is, if you're ever looking for MarTech help and you want to reach out, that's great.",
+   "zh": "有。我秋天会在Reforge出一门营销技术课。如果你是MarTech从业者、或者对MarTech感兴趣，特别希望你能来上课，尤其希望听到你的反馈。我喜欢在这播客上装得特懂MarTech，但我还在学。所以如果能从社区拿到\"什么有趣有用、什么没有\"的反馈，我们就能改进。另外，如果你哪天需要MarTech帮忙、想联系我，也特别好。",
+   "ts": "01:23:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Austin, thank you again so much for being here.",
+   "zh": "太棒了。Austin，再次超感谢你来。",
+   "ts": "01:24:02"
+  },
+  {
+   "speaker": "Austin Hay",
+   "en": "Thank you for having me, Lenny. It was a pleasure.",
+   "zh": "谢谢你邀请我，Lenny。是我的荣幸。",
+   "ts": "01:24:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The pleasure was all mine. Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "是我的荣幸才对。大家拜拜。非常感谢收听。如果你觉得这期有价值，可以在Apple Podcasts、Spotify或你喜欢的播客App上订阅本节目。也请考虑给我们评分或留个评论，这真的能帮其他听众找到这档播客。你可以在lennyspodcast.com看到所有往期、或了解更多节目信息。下期见。",
+   "ts": "01:24:07"
+  }
+ ]
+}

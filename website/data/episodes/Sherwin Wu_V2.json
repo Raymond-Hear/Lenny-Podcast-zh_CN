@@ -1,0 +1,905 @@
+{
+ "id": "Sherwin Wu_V2",
+ "name": "Sherwin Wu_V2",
+ "category": "AI 相关",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Sherwin+Wu_V2",
+ "bio": {
+  "en": "Sherwin Wu is Head of Engineering for OpenAI's API and Developer Platform, giving him a uniquely broad view into the AI startup ecosystem since nearly every AI company integrates with OpenAI's APIs.",
+  "zh": "Sherwin Wu 是 OpenAI API 与开发者平台工程负责人，由于几乎每一家 AI 公司都接入 OpenAI 的 API，这让他对 AI 创业生态拥有极其独特而广博的视野。"
+ },
+ "summary": {
+  "en": "Sherwin discusses what he sees across the thousands of teams building on OpenAI's APIs, from common architectural patterns to the mistakes that sink AI products. He shares how developers should think about evaluation, reliability, and cost as models and agents become more capable, and where the platform is heading. The episode is a rare, behind-the-API look at the state and future of AI application development.",
+  "zh": "Sherwin 讨论了他在数千支基于 OpenAI API 构建的团队中所观察到的现象，从常见的架构模式，到拖垮 AI 产品的那些错误。他分享了随着模型与智能体能力增强，开发者应如何思考评估、可靠性与成本，以及平台的前进方向。本期是一份难得的、API 背后的 AI 应用开发现状与未来透视。"
+ },
+ "turns": [
+  {
+   "speaker": "Sherwin Wu",
+   "en": "95% of engineers use Codex. 100% of our PRs are reviewed by Codex.",
+   "zh": "95%的工程师使用Codex。我们所有的PR（代码合并请求）都由Codex进行审核。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "For engineers, I don't know what job has changed more in the past couple years.",
+   "zh": "对于工程师来说，我不知道过去几年里哪个岗位的变化最大。",
+   "ts": "00:00:04"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Engineers are becoming tech leads. They're managing fleets and fleets of agents. It literally feels like we're wizards casting all these spells and these spells are kind of like going out and doing things for you.",
+   "zh": "工程师们正在成为技术负责人。他们管理着大量代理团队。感觉我们简直就像魔法师，在施展各种法术，而这些法术又像是外出为你办事。",
+   "ts": "00:00:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What do you think people aren't pricing in yet?",
+   "zh": "你觉得人们目前还没有考虑到哪些因素？",
+   "ts": "00:00:17"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "The second or third order effects of the one person billion dollar startup. To enable a one person billion dollar startup, there might be a hundred other small startups building bespoke software. So I think we might actually enter into a golden age of B2B SaaS.",
+   "zh": "单人亿级美元初创公司的二阶或三阶效应。要实现单人亿级美元初创公司，可能需要数百家其他小型初创公司开发定制软件。所以我认为我们可能真的会迎来B2B SaaS的黄金时代。",
+   "ts": "00:00:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've been hearing more and more there's this stress people feel when their agents aren't working.",
+   "zh": "我越来越听说人们因为代理无法正常工作而感到压力很大。",
+   "ts": "00:00:31"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "There's a team that's actually doing an experiment right now within OpenAI where they are maintaining a 100% Codex-written code base. They run into the exact problems that you're describing. And so usually you're like, \"All right, I'll roll up my sleeves and figure it out.\" This team doesn't have that escape hatch.",
+   "zh": "OpenAI内部有一个团队正在进行实验，他们维护着一个100%由Codex编写的代码库。他们遇到了你所描述的那些问题。而通常情况下，你可能会想，\"好吧，我会卷起袖子把问题解决。\"但这个团队没有退路。",
+   "ts": "00:00:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've shared that. Listening to customers is not always the right strategy in AI.",
+   "zh": "你提到过这一点。对于AI来说，倾听客户意见并不总是正确的策略。",
+   "ts": "00:00:47"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "The field and the models themselves are just changing so, so quickly. They tend to disrupt themselves. The models will eat your scaffolding for breakfast.",
+   "zh": "这个领域和模型本身变化得非常快。它们往往会自我颠覆。模型会把你的框架当作早餐吃掉。",
+   "ts": "00:00:51"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What's your advice to folks that are like, \"Okay, I don't want to miss the boat.\"",
+   "zh": "对于那些想\"好吧，我不想错过这波浪潮\"的人，你有什么建议？",
+   "ts": "00:00:59"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Make sure you're building for where the models are going and not where they are today. There's a quote from Kevin Weil, our VP of science here, and he likes saying, \"This is the worst the models will ever be.\"",
+   "zh": "确保你是在为模型未来的发展方向而构建，而不是为它们当前的状态而构建。这里有句话来自我们的科学副总裁Kevin Weil，他常说：\"这将是模型表现最差的时期。\"",
+   "ts": "00:01:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Sherwin Wu, Head of Engineering for OpenAI's API and Developer Platform. Considering that essentially every AI startup integrates with OpenAI's APIs, Sherwin has an incredibly unique and broad view into what is going on and where things are heading. Let's get into it after a short word from our wonderful sponsors. (00:01:30): Today's episode is brought to you by DX, the developer intelligence platform designed by leading researchers. To thrive in the AI era, organizations need to adapt quickly, but many organization leaders struggle to answer pressing questions like, \"Which tools are working? How are they being used? What's actually driving value?\" DX provides the data and insights that leaders need to navigate this shift. With DX, companies like Dropbox, booking.com, Adyen, and Intercom get a deep understanding of how AI is providing value to their developers and what impact AI is having on engineering productivity. To learn more, visit DX's website at getdx.com/lenny. That's getdx.com/lenny. (00:02:14): Applications break in all kinds of ways, crashes, slowdowns, regressions, and the stuff that you only see once real users show up. Sentry catches it all. See what happened, where and why. Down to the commit that introduced the error, the developer who shipped it, and the exact line of code, all in one connected view. I've definitely tried the five tabs and Slack thread approach to debugging. This is better. Sentry shows you how the request moved, what ran, what slowed down, and what users saw. Seer, Sentry's AI debugging agent takes it from there. It uses all of that Sentry context to tell you the root cause, suggest a fix, and even opens a PR for you. It also reviews your PRs and flags any breaking changes with fixes ready to go. Try Sentry and Seer for free at sentry.io/lenny and use code LENNY for $100 in Sentry credits. That's S-E-N-T-R-Y.io/lenny. (00:03:15): Sherwin, thank you so much for being here and welcome to the podcast.",
+   "zh": "今天的嘉宾是OpenAI的API和开发者平台负责人Sherwin Wu。鉴于几乎所有AI初创公司都在接入OpenAI的API，Sherwin对当下行业动态和未来发展趋势有着独到的见解。在听取我们优秀赞助商的简短致辞后，让我们开始今天的访谈。（00:01:30）：本期节目由DX赞助——这是一个由顶尖研究者设计的开发者情报平台。为了在AI时代蓬勃发展，企业需要快速适应变革，但许多管理者仍在困惑于诸如“哪些工具有效？如何应用？真正的价值创造点在哪里？”等关键问题。DX提供的数据与洞察，助力领导者应对转型挑战。Dropbox、Booking.com、Adyen和Intercom等公司借助DX，深入了解AI如何为开发者创造价值，以及AI如何提升工程生产力。欲了解更多信息，请访问DX官网getdx.com/lenny。（00:02:14）：应用程序会出现各种故障：崩溃、卡顿、回退，以及只有真实用户上线后才会暴露的隐藏问题。Sentry能一键锁定问题根源。通过单一视图，您可以追溯错误源头、责任开发者、具体代码行数等关键信息。我曾尝试过用五个标签页和Slack对话追踪问题，但Sentry的体验远胜一筹。它会展示请求流程、执行过程、性能瓶颈，以及用户实际体验。Sentry的AI调试助手Seer能进一步优化诊断流程。它会结合上下文分析根因，提供修复建议，甚至自动创建Pull Request。Seer还会自动审核PR，标注潜在的破坏性变更并提供现成修复方案。立即在sentry.io/lenny免费试用Sentry和Seer，并使用优惠码LENNY即可获得100美元Sentry积分优惠。网址是S-E-N-T-R-Y.io/lenny。",
+   "ts": "00:01:11"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Thank you. Thank you for having me.",
+   "zh": "非常感谢您的到来，欢迎做客本期播客。",
+   "ts": "00:03:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to start with what's feeling like a barometer of progress in AI, especially in engineering. What percentage of your code, if you even write code anymore, and your team's code is written by AI at this point?",
+   "zh": "首先我想谈谈AI在工程领域的进展指标，特别是从工程角度来看。请问您现在编写的代码（如果您还写代码的话），以及您团队的代码中，有多大比例是由AI生成的？",
+   "ts": "00:03:21"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "I do write code occasionally now still. And I'd actually say for managers like myself, it's way easier to use these AI tools than to manually code at this point. And so I know for myself and some of the other EMs, engineering managers at OpenAI, all of our code is written by Codex at this point. But more broadly, there's just so much energy. There's a tangible energy internally around just how far these tools have gotten, how good Codex as a tool has gotten for us. And it's a little hard for us to exactly measure how much of the code is written because the vast majority of it, I'd say close to 100% is usually generated by AI first. What we do track though is at this point, the vast majority of engineers use Codex on a daily basis. So 95% of engineers use Codex. (00:04:21): 100% of our PRs are reviewed by Codex daily as well. So basically any code that goes into production that's merged in, Codex kind of has its eyes on and suggests improvements, suggests changes in the PRs. And so that's kind of what we're seeing internally, but by and large, the most exciting is just the energy that there is. (00:04:40): Another observation that we've had is engineers who tend to use Codex more open way more PRs. So they're actually opening 70% more PRs than the engineers who aren't using Codex as much. And the gap is widening. So I feel like the people who are opening more PRs are starting to learn how to use the tool more and more, get more efficient, and that 70% gap keeps growing over time. And so might've actually increased since I last looked at the number.",
+   "zh": "我现在偶尔还是会写代码。说实话，对于像我这样的管理者来说，使用这些AI工具比手动编码要容易得多了。就我个人和其他工程经理而言，我们在OpenAI的所有代码现在都是由Codex生成的。但更广泛地说，整个团队都充满了活力。内部对这些工具的进展以及Codex带来的好处，大家都倍感振奋。我们很难准确衡量具体有多少代码是由AI生成的，因为绝大多数代码（我敢说接近100%的代码）都是先由AI生成的。不过我们确实能追踪到，目前95%的工程师每天都在使用Codex。（00:04:21）：我们所有的PR（pull request）也都是由Codex每天审核的。基本上，任何合并到生产环境的代码，Codex都会进行审核并提出改进建议。这些都是我们内部观察到的情况，但总体而言，最令人兴奋的是这种活力。\n（00:04:40）：我们还发现，那些更频繁使用Codex的工程师提交的PR数量更多。他们的PR数量比不常使用Codex的工程师多70%，而且差距还在不断扩大。我觉得自从我上次查看数据以来，差距可能已经进一步拉大了。",
+   "ts": "00:03:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So just to make sure we hear what you're saying, you're saying all of the code of these 95% engineers at OpenAI is written by AI, it's written and then they review it.",
+   "zh": "好的。那我要确保理解你的意思，你是说OpenAI 95%的工程师的所有代码都是由AI生成的，然后再进行审核。",
+   "ts": "00:05:07"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yep. Yep.",
+   "zh": "是的。是的。",
+   "ts": "00:05:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's crazy that that's almost not crazy anymore, that we're just getting used to this.",
+   "zh": "真难以置信，这已经不再让人觉得不可思议了，我们已经习惯了这种情况。",
+   "ts": "00:05:19"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "I think there's still some getting used to, to be clear. There's also, I think, some engineers who I think trust Codex a little bit less, but basically every day I talk to someone who is blown away by something that I can do and their bar of trust or how much they trust the model to do on its own goes up over and over, over time. And there's a quote from Kevin Weil, our VP of science here, and he likes saying, \"This is the worst the models will ever be.\" And so this is the worst that the models will ever be for software engineering as well. And so over time, you just see people trusting it more and more, and then we'll see the models get better and better as well.",
+   "zh": "我觉得还是需要一些适应过程。还有，我觉得有些工程师对Codex的信任度稍低一些，但基本上每天我都会和一些人交流，他们对我的工作成果感到惊叹，他们对模型自主完成任务的信任度也越来越高了。凯文·韦尔（Kevin Weil）是我们的科学副总裁，他常说：“模型永远不会完美。” 这句话同样适用于软件工程领域。随着时间推移，你会发现人们越来越信任它，然后模型也会不断优化。",
+   "ts": "00:05:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Kevin Weil, former podcast guest. He said exactly that line on this podcast a few times.",
+   "zh": "是的。凯文·韦尔，他之前做客播客节目。确实在节目里多次说了这句话。",
+   "ts": "00:06:04"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. It's a great one.",
+   "zh": "是啊。这句话很棒。",
+   "ts": "00:06:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. Peter, the Clawdbot/Moltbot/OpenClaw is what it's called now developer recently shared that he uses Codex for his work and he feels like anytime it does anything, he just trusts that it has done the right job, and he's just almost certain he could just commit it to master and it'll be great.",
+   "zh": "是的。彼得，Clawdbot/Moltbot/OpenClaw，现在叫OpenClaw的开发者最近分享说，他在工作中使用Codex，觉得只要模型做了任何事情，他就相信它做得正确，而且几乎可以肯定只要提交到主分支就能完美运行。",
+   "ts": "00:06:10"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Yeah. He's a great user of Codex. I know he's in close touch with the team, gives us great feedback. Not surprised that he uses it. I mean, sorry, it's called OpenClaw now.",
+   "zh": "是的。是的。他是Codex的优秀用户。我知道他和团队保持密切联系，提供了很好的反馈。他用这个工具并不奇怪。抱歉，现在它叫OpenClaw了。",
+   "ts": "00:06:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "OpenClaw. Yeah.",
+   "zh": "开源软件。是啊。",
+   "ts": "00:06:38"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "OpenClaw is a great product. And then I saw that this morning, I mean, this is very recent, but this morning, I think the moltbook kind of like we've shared as well and seeing all of the AI agents talk to each other is pretty surreal.",
+   "zh": "OpenClaw是个很棒的产品。然后今天早上我看到，嗯，这事儿刚发生不久，但今天早上，我觉得我们也分享过那个MoltBook的案例，看到所有AI智能体在相互交流，感觉真是太不可思议了。",
+   "ts": "00:06:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's basically Her is happening in real life is what I'm hearing.",
+   "zh": "听说这简直就像《她》在现实生活中上演了一样。",
+   "ts": "00:06:50"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:06:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So just coming back to this crazy moment we are living through for engineers in particular, we've gone from, you write every line of code to now AI is writing all of your code. I don't know what job has changed more in the past couple years, like job that we didn't expect to change this much where just like the job of an engineer is so different in the entire lifespan of an engineer. In the past couple years, it's now shifted to, \"I don't write any more code.\" How do you imagine the role of an engineer and the job of a software engineer looks in the next couple of years? Just like what is that job?",
+   "zh": "回到我们工程师们正在经历的这个疯狂时刻。以前你得亲自写每一行代码，现在AI却能替你写所有代码。我不知道过去几年里还有哪个职业变化如此之大，尤其像工程师这种职业，整个职业生涯都发生了翻天覆地的变化。过去几年里，这个角色已经转变为\"我根本不用再写代码了\"。未来几年里，你觉得工程师的角色和软件工程师的工作会是什么样子？这个职业究竟会发展成什么样？",
+   "ts": "00:06:54"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, I mean, it's honestly been really cool to see. And it's part of where the excitement is because the job is likely going to change pretty significantly over the next one to two years. It kind of feels like we're still figuring things out though. And so there's this excitement, I know, especially from some of the software engineers of like, we're in this rare moment, maybe over the next 12 to 24 months where we'll kind of get to figure things out ourselves and set our standards for ourselves. (00:07:52): In terms of where I see this moving, so I think there's the common thing that everyone's saying, which is people are generally... IC engineers are becoming tech leads. They're basically like managers now. They're managing fleets and fleets of agents. I know many of the engineers on my team basically have like 10 to 20 threads kind of being pulled on at the same time. Obviously not active running Codex jobs, but just a lot of parallel threads. They're checking in on what they're doing. They're steering the agents and Codex and giving it feedback. And so their job has kind of really changed from just writing the code itself into being almost like a manager. (00:08:32): In terms of where I think this will go one to two years from now, so one kind of metaphor that I always come back to here is actually is from this programming textbook that I read back in college called SICP. I don't know if you've heard of it, Structure and Interpretation of Computer Programs. So SICP. At MIT, it was really popular and it was actually used as the introductory... It was the textbook for the intro programming course for a very long time. And it kind of has this cult following. It teaches you programming, it teaches you a dialect of Lisp called Scheme. And so it introduces you to functional programs. It's like very mind-opening in that way. (00:09:14): But the thing that was memorable for me about that book, so I kind of read it in college. The very beginning of it kind of describes programming as a discipline and draws this metaphor to basically like sorcery. It says like software engineers are like wizards and programming languages are like incantations and you're like, you're issuing these spells and these spells are kind of like going out and doing things for you. And the challenge is like, what incantation do you have to say to make the program do what you want? (00:09:43): And this book was written in 1980, so this is a while ago. And I think that metaphor has actually kind of persisted over time. And I think it's actually playing out as we move into this new era of vibe coding or just like what software engineering will look like because programming languages were basically using incantations. They've changed over time. And the trend has been that it's been easier and easier to get the computer to do what you want via programming. (00:10:07): And I think the current wave of AI is probably the next stage of that evolution. It is now literally incantations because you can tell Codex, you can tell Cursor exactly what you want to do and then it will go do it for you. And I particularly like the wizard and the sorcery analogy because I think our current state is starting to move towards kind of like The Sorcerer's Apprentice from Fantasia where Mickey Mouse is like, he finds the Sorcerer's hat and he tries to do all these things. (00:10:36): And I just think it's a really apt analogy because one, it's really powerful now. These incantations you can do is extremely high leverage, but you kind of have to know what you're doing. In Sorcerer's Apprentice, the whole plot is like Mickey goes wild, the brooms go crazy and everything's flooding. I think he literally sets the brooms off on a task and then goes to sleep. And so it's like vibe coding at its greatest. And then eventually the old sorcerer comes back and cleans everything up. (00:11:06): And when I see engineers kind of like doing these 20 different Codex threads at a time, there is some skill and there's some seniority and a lot of thought that needs to go into this because you want to make sure that the models aren't going off the rails. You definitely don't want to just completely go away and ignore the thing, but it's also extremely high leverage. A very senior engineer who's really proficient with these tools can now just do way more things via what they're doing. And I think this is also what makes it fun. It literally feels like we're wizards now. It feels like we're closer to making it feel like this magical experience where we're casting all these spells and having software do all these things for you.",
+   "zh": "是啊，我是说，这真的很酷，能亲眼见证这一切。这种兴奋感的部分原因在于，未来一到两年内，工作岗位很可能会发生重大变革。不过我觉得我们现在仍在摸索阶段。所以这种兴奋感是真实存在的，我知道，尤其是一些软件工程师，他们觉得自己正处于一个难得的时刻——在接下来的12到24个月里，我们将有机会自主探索并为自己设定标准。  \n\n（00:07:52）：至于我对行业发展的看法，大家都提到IC工程师正逐渐转型为技术主管，他们现在基本上就是管理者了。他们需要管理大量代理团队。我知道我们团队中的许多工程师同时处理着10到20个并行任务。当然不是主动运行Codex任务，而是处理大量并行事务。他们需要检查进度，指导代理和Codex，并提供反馈。因此，他们的工作角色已经从单纯编码转变为类似管理者的角色。  \n\n（00:08:32）：至于未来一到两年的发展方向，我常提到的类比来自我大学时读过的《计算机程序设计艺术》（Structure and Interpretation of Computer Programs，简称SICP）。这本书在麻省理工学院很受欢迎，长期被用作入门级编程课程教材，至今仍有狂热追随者。它不仅教你编程，还教授Lisp语言的Scheme方言，引入函数式编程，思维极具启发性。  \n\n（00:09:14）：但这本书最令我难忘的地方是，我在大学时读到它。开篇将编程描述为一门学科，并将其比作魔法。书中称软件工程师如同巫师，编程语言如同符咒，你下达指令，符咒就会去执行任务。挑战在于，要如何让程序按照你的意愿运行？  \n\n（00:09:43）：这本书写于1980年，已有时日之久。但我认为这种比喻经久不衰。随着我们进入编程即魔法的新时代，这种比喻正在应验。过去编程语言本质上是符咒，如今随着技术进步，计算机执行指令变得越来越容易。  \n\n（00:10:07）：当前的人工智能浪潮或许是这一演进的下一阶段。现在编程简直就是符咒——你可以告诉Codex或Cursor你想要的结果，它们会替你完成任务。我特别喜欢巫师与魔法的比喻，因为我们正朝着《幻想曲》中米奇戴上巫师帽、试图施展魔法的方向发展  \n\n（00:10:36）：我认为这个比喻非常贴切。一方面，这些符咒的威力极强，但你必须得心应手。巫师的学徒阶段正是如此——米奇找到巫师的帽子，却一头扎进未知领域。\n学徒，整个剧情就像米奇突然发狂，扫帚乱飞，到处都是洪水。我觉得他就是让扫帚们去执行任务，然后自己去睡觉了。这简直就是最高境界的即兴编程。最后老巫师回来收拾残局。（00:11:06）当我看到工程师们同时处理20个不同的Codex线程时，这需要一定的技巧和资深经验，还得深思熟虑，因为你要确保模型不会失控。你肯定不想完全放任不管，但这同时也带来了极高的生产力。一个精通这些工具的资深工程师，现在能通过现有工作完成更多任务。我觉得这也是乐趣所在。我们现在真的感觉自己像巫师了。这让我们离实现那种神奇的体验更近了一步——我们施展各种魔法，让软件替我们完成所有工作。",
+   "ts": "00:07:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was thinking of The Sorcerer's Apprentice exactly as the metaphor as you were describing that. So I'm glad you went there. A previous podcast guest described it as you have a genie that grants you wishes, and it's a useful frame because you have to be very clear about the wish you want. If you want to be big, how big-",
+   "zh": "正如你所描述的，我当时确实把《魔法师的学徒》当作一种隐喻。所以很高兴你提到了这个。之前一位播客嘉宾曾将其比作\"你得到一个能满足你愿望的精灵\"，这个比喻很贴切，因为你必须清晰地表达自己的愿望。比如，如果你想变得强大，但代价是什么？",
+   "ts": "00:11:51"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Or it might be like The Monkey's Paw type thing where it's like you got what you want, but what are the side effects?",
+   "zh": "是的。又或者像《猴爪》那种故事，表面上得到了你想要的，但代价是什么？",
+   "ts": "00:12:05"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right.",
+   "zh": "没错。",
+   "ts": "00:12:12"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. I think that the analogy is great. And yeah, the crazy thing for me is just the staying power of that book, SICP. It's called the wizard book. People call it the wizard book because that is the metaphor that they kind of weave throughout the book. And we've basically reached that point now, which is really cool.",
+   "zh": "是啊。我觉得这个比喻很棒。对我来说，最令人惊奇的是《编程之美》这本书的经久不衰。人们称它为\"巫师之书\"，因为作者在全书中贯穿了这个比喻。而我们现在也到了这个阶段，这真是太棒了。",
+   "ts": "00:12:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's two kind of threads I want to follow here. One is I've been hearing more and more, there's this stress that people feel when their agents aren't working. You fire off all these Codex agents and then you have to stay on top of them, \"Oh, shit, one's not working. I'm wasting time.\" Do you feel that? Do you feel that across your team at all?",
+   "zh": "这里有两个我想深入探讨的点。首先，我越来越多地听到人们在代理无法正常工作时感到压力重重。你发送了多个 Codex 代理任务后，却还要时刻关注它们的状态，\"天啊，有个代理出问题了，我又得浪费时间了。\"你有过这种感受吗？在你的团队中其他人也有这种情况吗？",
+   "ts": "00:12:27"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, I mean, it happens all the time. And I actually think this is where the interesting part of all of this lies right now because these models aren't perfect, these tools aren't perfect, and we're still trying to figure out how to best interact with Codex or with these AI agents to get work done. We see this come up all the time. There's a particularly interesting team that we have internally. (00:13:05): So there's a team that's actually doing an experiment right now with an OpenAI where they are basically maintaining a 100% Codex written code base. So you'll have the AI write code, but you'll obviously end up rewriting a lot of it and you might need to double-check and change things, but this team is just fully Codex-pilled and just leaning in entirely, and they run into the exact problems that you're describing, which is like, their challenge is, \"I want to get this thing, this feature built, but I can't get the agent to do it.\" (00:13:36): And so usually there's an escape hatch where then you're like, \"All right, I'll roll up my sleeves and figure it out.\" And then instead of using Codex, I might use tab complete and Cursor and things like that. But this team, for the experiment, this team doesn't have that escape hatch. And so then the challenge, how do I get the agent to do this? And I actually think we're going to be publishing a blog post from some of our learnings here, but a lot of fascinating paradigms and best practices are falling out of this. (00:14:03): One interesting thing that we've noticed, and I don't know if this is what you kind of feel, but we definitely feel it here is a lot of the time when the coding agent is not doing what you want, it's usually a problem with context and just like information that you've given it. It's just you've either underspecified or there's just not enough information around how to do something available to the agent, available to Codex. (00:14:25): And so when you have to solve it through that, the challenge is then to add documentation and actually work around this limitation and basically encode more tribal knowledge that's in your head somehow into the code base, either via code comments itself or code structure itself, or via text files like .md files, Skills, any type of additional resources within the repository so that the model can better do its task. (00:14:53): There's a whole bunch of other learnings from this group, which I think is fascinating to explore, but yeah, removing that escape hatch of no longer using the AI has allowed them to start piecing together a lot of the problems that we'll have to solve if we really want to lean into agents.",
+   "zh": "是啊，我是说，这种情况经常发生。我觉得这正是当前最有趣的部分，因为这些模型并不完美，这些工具也不完美，我们仍在摸索如何与Codex或这些AI助手进行最佳互动以完成工作。我们经常遇到这种情况。我们内部有一个特别有趣的团队。（00:13:05）：目前有一个团队正在与OpenAI合作进行实验，他们基本上维护着一个完全由Codex编写的代码库。所以你会让AI编写代码，但显然你最终会重写很多代码，可能需要反复检查和修改。但这个团队完全依赖Codex，全力以赴，结果却遇到了你所描述的那些问题，也就是说，他们的挑战在于：“我想要完成这个功能，但却无法让助手做到。” （00:13:36）：通常会有一个退路，比如你会说：“好吧，我会亲自去解决。” 然后就不再使用Codex，而是改用代码补全、光标等工具。但这个团队在实验中没有退路。所以挑战就来了，如何让助手完成这项任务？实际上我们正准备发布一篇博客文章，分享我们的经验教训，但从中也涌现出许多引人入胜的范式和最佳实践。（00:14:03）：我们注意到一个有趣的现象，不知道你是否也有同感，但我们团队深有体会的是，当编码助手无法满足你的需求时，通常是上下文或提供给它的信息存在问题。要么是你的需求描述不清晰，要么是Codex获取信息的渠道不足。（00:14:25）：当你需要自己解决这些问题时，挑战就在于添加文档，克服这些限制，将你脑海中的专业知识以某种方式编码到代码库中，无论是通过代码注释、代码结构，还是通过.md文件、Skills等文本资源，以便模型能更好地完成任务。（00:14:53）：这个团队还有很多其他经验教训，我认为这些都值得深入探讨。但是，取消使用AI的退路，让他们开始逐步解决我们真正想依赖助手时必须面对的诸多难题。",
+   "ts": "00:12:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Another issue people run into, you talked about how people are shipping PRs like crazy, a lot more PRs if they're working with AI. Obviously code review is becoming a bigger challenge. Is there anything you've figured out in your team to help speed that up to make that scale and not just create this terrible job for people where they're just sitting there reviewing PRs all day?",
+   "zh": "还有一个大家都会遇到的问题，你提到人们疯狂地提交PR（代码提交请求），如果使用AI的话，PR会更多。显然，代码审查正变得越来越困难。你们团队有没有找到什么方法来加快这一过程，让它规模化，而不是让人们整天坐着审核PR，陷入可怕的困境？",
+   "ts": "00:15:08"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. I mean, one thing is Codex reviews 100% of all of our PRs at this point. And so I actually think, so one really interesting thing that's happened is the things that we tend to hand to the models immediately tend to be the things that annoy us or are the most boring parts of software engineering. It's also why it's more fun now because we get to do more of the fun things. (00:15:50): For me, speaking more for myself, I really hated code reviews. It was like one of the worst things for me. And then I remember in my first job out of college, it was at Quora, I was working on the newsfeed and so I owned the code for the newsfeed. And so I was a reviewer for newsfeed and it was just like the central piece of code that everyone would touch. And so I would just, every morning I'd log in and be like 20 to 30 code reviews. I was just like, oh my goodness, I got to get through all of these. I would procrastinate and then it grows to like 50. And so there's just like a lot of code reviews. (00:16:24): Codex is really good at reviewing code. So actually one thing that we've noticed that 5.2 in particular has gotten extremely strongly adept at is reviewing code and especially when you kind of steer it in the right direction. And so for code reviews, yeah, we create a lot of PRs, but Codex reviews all of them and it makes code reviews go from a, I don't know, 10, 15 minute task to sometimes even just like a two to three minute task because you have a bunch of suggestions already baked in. (00:16:50): A lot of the times people will, especially for small PRs, you actually don't even need people to review. We kind of trust Codex in this way. The original author kind of looks at Codex. The benefit of code reviews to have a second pair of eyes to make sure that you're not doing anything dumb. Codex is a pretty smart second pair of eyes at this point. And so that's something that we've heavily leaned into. (00:17:10): The general CI process and the post kind of push and deployment process has also been heavily automated via Codex internally at this point. If you talk to a lot of engineers, the thing that annoys them the most is after you've written your beautiful code, how do you get it into production? You got to run through all these tests, you got to lint errors, code review. There's a lot of automated stuff you can do with Codex. And so we've actually built some tools internally that help automate that process, automate the lint. If there's like a lint error, it's a very easy Codex fix and it could just patch it and then kind of restart the CI process. So all of that is, we're trying to collapse into as little work for an engineer as possible, and the byproduct of which is they can now merge and push out a lot more PRs.",
+   "zh": "是的。我的意思是，目前Codex会对我们所有拉取请求（PR）进行100%代码审查。所以我觉得一个很有趣的现象是，我们倾向于立即把一些任务交给模型处理的，往往都是那些最让我们头疼、最枯燥的软件工程部分。这也是现在更有趣的原因——因为我们能做更多有趣的工作了。（00:15:50）：就我个人而言，我以前特别讨厌代码审查。这简直是我最头疼的事之一。我记得大学毕业后的第一份工作是在Quora，当时我在做新闻推送功能，负责该功能的代码。作为新闻推送的代码审查者，那段代码是每个人都会接触的核心部分。所以每天早上登录后，就能看到20到30个代码审查任务。我当时就想，天哪，这些任务得赶紧处理完。结果一拖再拖，最后积压到50个。总之，代码审查任务实在太多了。（00:16:24）：Codex在代码审查方面确实很出色。特别是5.2版本，我们发现它在这方面变得极其高效，尤其是当你给它正确的指导方向时。就代码审查而言，我们确实会创建很多PR，但Codex会全部审查一遍。这让代码审查从原本需要10到15分钟的任务，缩短到只需两到三分钟，因为很多建议都已经内置了。（00:16:50）：很多时候，尤其是对于小型PR，你甚至不需要人工审查。我们现在就这样信任Codex。代码审查的意义在于多一双眼睛，确保你没有做任何愚蠢的事情。就目前而言，Codex就是一双相当聪明的眼睛。所以这方面我们投入了大量精力。（00:17:10）：整个持续集成（CI）流程和后续的推送及部署流程，现在在内部也已经通过Codex实现了高度自动化。如果你和很多工程师交流，他们最头疼的是写出漂亮代码后，如何让它上线？你得跑一遍测试，检查代码是否有lint错误，再进行代码审查。用Codex可以自动化很多这些步骤。我们内部开发了一些工具来自动化这些流程，比如lint检查。若有lint错误，Codex可以轻松修复，然后重新启动CI流程。总之，我们正努力把工程师的工作量压缩到最小，而其副产品就是他们现在能合并和推送更多的PR了。",
+   "ts": "00:15:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Codex writing the code, Codex reviewing its own code. I'm curious if you are open to using other models to review your model's work. Is that a path or is it just, it's good enough, we don't need anything else.",
+   "zh": "Codex写代码，Codex审查自己的代码。我很好奇，你们是否愿意使用其他模型来审查你们模型的工作。有没有可能走这条路，还是说现有方案已经足够好了？",
+   "ts": "00:17:53"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "So I will say there's definitely a circular thing here. And going back to Sorcerer's Apprentice, you want to make sure you're not letting the brooms go crazy here. And so we're very thoughtful, I'd say, around which PRs are completely just Codex-reviewed. Most people still obviously take a look at their PRs. And so it's not like it's going to zero. It's more like going from 100% attention to 30% attention, which just helps things push through. (00:18:30): In terms of multiple models, so we obviously test a lot of models internally, and so we have a lot of those. We use external models less. We think it's important to dog food our own models and get feedback there, but you can also, there are a lot of internal variants of models that you can use to give you a different perspectives here as well, and we found that to work quite well.",
+   "zh": "好的，我要说这里肯定存在一个循环的问题。回到《魔法师的学徒》这个例子，你要确保不让扫帚在这里失控。说实话，我们对哪些 PR 完全由 Codex 审核非常谨慎。显然，大多数人还是会亲自审阅他们的 PR。所以这并不是说完全不审核，而是从 100% 关注降到 30% 关注，这样能更高效地推进工作进度。 （00:18:30）：关于多模型的问题，我们内部确实测试了很多模型，但外部模型的使用相对较少。我们认为用自己的模型进行迭代并获取反馈很重要，但你也可以利用模型的内部变体来获得不同的视角，我们发现这种方法效果不错。",
+   "ts": "00:18:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So just to make sure we get a barometer of today's world at OpenAI in terms of AI and code, just so I understand, and then I want to move on to different topic. 100% of code across OpenAI is written by Codex at this point. Is that the way to frame it?",
+   "zh": "好的。为了更好地了解 OpenAI 在 AI 和代码方面的现状，我需要确认一下，100% OpenAI 的代码都是由 Codex 编写的吗？是这样理解吗？",
+   "ts": "00:18:51"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "I wouldn't make the statement that 100% of code running in production today is written by AI. And it's kind of hard to do attribution there, but almost every engineer heavily uses Codex in all of their tasks at this point. And so if I were to guesstimate, just the vast majority of code at this point was probably authored by AI.",
+   "zh": "我不会说现在生产环境中 100% 的代码都是由 AI 编写的。这部分很难追溯到具体来源，但几乎每个工程师现在在所有任务中都大量使用 Codex。如果要猜测的话，目前绝大多数代码很可能是由 AI 编写的。",
+   "ts": "00:19:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Incredible. Okay. So there's a lot of talk, and we've been talking about the IC role, the work of an IC engineer. There's less talk about the changing role of a manager, especially an engineering manager. How has your life as a manager changed with the rise of AI? And just where do you think managers, what's the role of a manager in the future?",
+   "zh": "太不可思议了。好的。我们一直在讨论 IC 工程师的角色，但对工程经理角色变化的讨论较少。随着 AI 兴起，您作为经理的生活发生了哪些变化？您认为未来经理的角色会是什么？",
+   "ts": "00:19:28"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "It's definitely changed less than an engineer. There's no Codex for managers just yet. However, I use Codex quite a bit for some of the more managery tasks that I do. I'd say a couple things are changing. There are like some trends. So I don't think it's changed that much yet, but I see trends, and I think if you play it out, you can see where a lot of this is going. One thing that's becoming increasingly clear is Codex really empowers top performers to be a lot more productive. And I think this is maybe true for AI more broadly across society, which is the people who really lean in or the people who have high agency or will really get good at these tools, will kind of supercharge themselves. And so I'm kind of noticing this now as well, which is like the top performers kind of end up being a lot more productive. And so you see a broader spread in team productivity in this way. (00:20:50): So one thing that I've always done as a management philosophy is to spend actually the majority of my time with top performers, just like make sure they're unblocked, make sure they're happy, make sure they feel productive and they feel heard. I think this is even more true in an AI world where your top performers are going to just really be shooting ahead using these tools. I think one example is the team that's maintaining a 100% Codex generated code base, just letting them rip and see what's happening there. It is something that's paid dividends. (00:21:20): So I think that's kind of one trend that I'm seeing where spending even more time with top performers for managers I think is likely going to continue. The other thing is, so this is more an observation, but my sense is with a lot of these AI tools available to managers, so less like writing code, but just things like ChatGPT with organizational knowledge, like being able to do research and understanding organizational context a lot better. (00:21:50): Another good example is we're doing performance reviews right now and it's actually really easy to use ChatGPT with internal knowledge hooked up to GitHub and our Notion Docs and Google Docs to get a really good sense of what this person has done over the last 12 months and writing a little deep research report for it. My sense is I think managers will be able to manage much larger teams in this world, kind of like how software engineers are managing 20 to 30 Codexes. My sense of these tools will allow managers, people managers to be higher leveraged and it will allow them to manage teams of way more than the current best practice of, I think it's like six to eight for software engineering. (00:22:30): You kind of see this applied to the non-engineering domains like support or operations where previously the size of a support team might be limited, but as you can pass off more things to agents, you can actually do more work and also manage more people this way. (00:22:50): I think the same thing might happen for people management as well, especially in tech companies. And we're already seeing this. There's some teams where there are EMs managing quite a few people and they're doing it pretty adeptly because of some of these tools where they can get higher leverage and understand what their team's doing, understand organizational context a little bit better and operate in that way.",
+   "zh": "相较于工程师，管理者的变化确实较小。目前还没有针对管理者的官方指南。不过，我确实会频繁使用Codex来处理一些管理任务。我认为有几个方面正在发生变化。可以看到一些趋势。虽然目前变化不算显著，但我能预见到未来的发展方向。越来越明显的是，Codex确实能助力顶尖人才提高工作效率。我认为这在整个社会层面也适用于AI领域——那些积极主动、能高效运用工具的人会自我提升。我最近也注意到，顶尖人才的工作效率确实显著提高，因此团队整体生产力也随之提升。（00:20:50）作为管理理念，我一直致力于将大部分时间投入到顶尖人才身上，确保他们能顺利开展工作，保持愉悦感和成就感。在AI时代，这一点尤为重要，因为顶尖人才会借助这些工具实现飞跃式进步。比如，有个团队完全使用Codex生成的代码库，他们可以自由发挥，观察其效果，这种做法成效显著。（00:21:20）我认为管理者与顶尖人才深度互动的趋势将持续下去。另一个观察是，AI工具为管理者提供了更多可能性，比如利用ChatGPT结合内部知识库，进行组织研究和情境理解。这类工具能让管理者更高效地管理团队，效益远超当前软件工程师管理20到30个Codex的标准。（00:22:30）这类工具还适用于非技术领域，如客服或运维。过去客服团队规模受限，但借助智能助手可以处理更多事务，从而提升工作效率和管理能力。（00:22:50）同样的趋势或将延续至人力管理领域，尤其是在科技公司。我们已经看到一些例子：人力资源经理借助工具管理多个团队，效率显著提升。",
+   "ts": "00:19:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this advice that the way you described it is you've always leaned into top performers and spent more time with them, unblocked them, make sure they're happy. The way Marc Andreessen was just on the podcast, the way he phrased it is AI makes good people better and it makes great people exceptional. And what you're saying here is just doing this more and more is probably the right move, spending more time with the best people on your team to unblock them, make sure they have everything they need.",
+   "zh": "我很喜欢你提到的这个建议——正如你所描述的，你一直倾向于培养表现出色的员工，花更多时间与他们交流，帮助他们突破瓶颈，确保他们快乐工作。马克·安德森（Marc Andreessen）在播客中的说法也很有道理：人工智能能让优秀的人更出色，让卓越的人更加非凡。而你在这里提到的做法——不断加强这些努力，花更多时间与团队中的顶尖人才沟通，帮助他们突破障碍，确保他们获得所需支持——很可能是正确的方向。",
+   "ts": "00:23:09"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. A very good example right now is there are, I would say, a group of engineers internally who are really Codex-pilled and are thinking through what the best practices are for interacting with this model. And that is just an extremely high leverage thing for them to do. And so just like as a manager, I'm just like, yeah, go explore this. Whatever best practices come out of this, we have to share with the org. We do all these knowledge sharing sessions, we'll share documents and best practices everywhere. So things like that just elevate everyone. And so I view that as another example of this trend that we're seeing where the top performers really get exceptional.",
+   "zh": "是的。目前有一个很好的例子，我可以说，公司内部有一群工程师，他们对Codex（一个深度学习框架）非常精通，正在深入思考与该模型交互的最佳实践。这对他们来说是极具价值的工作。作为管理者，我会鼓励他们去探索。无论得出什么最佳实践，我们都必须与整个团队分享。我们会定期举办知识分享会，广泛传播相关文档和最佳实践。这样的举措能让每个人都受益。我认为这再次印证了我们所观察到的趋势——表现卓越的员工确实能脱颖而出。",
+   "ts": "00:23:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "People just have a sense, this is big. AI is changing so much. The world is changing. It's going to be a huge deal. What do you think people aren't pricing in yet into what will change and to where things are heading? Just like what's an example of something you think are like, okay, we're not realizing this yet.",
+   "zh": "人们普遍感觉到，人工智能的影响深远。世界正在发生巨变，这将带来翻天覆地的变化。你认为人们目前还未充分预见哪些变化，或者未能意识到事态的走向？能否举个例子，说明哪些领域的潜力尚未被充分认识？",
+   "ts": "00:24:14"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "So one of my favorite kind of phrases or things that have come out of this whole AI wave is the idea of the one person billion dollar startup. I actually think Sam may have keyed it or Sam may have been the first one to say it, but it's fascinating to think about. It's like, yeah, if people are so high leveraged, at some point there will likely be a one person billion dollar startup. (00:24:53): And while I think that's really, really cool, I think people aren't really pricing the second or third order effects of this. And really, because what the one person billion dollar startup implies is that one person can just have so much more agency and so much more leverage using one of these tools that it is just super easy for them to get everything done that they need to for their business to ultimately create something that's a billion dollars. (00:25:19): But I think there are a couple other implications of this. So one of them is if it's easy for a person to create a one person... or if it's possible for a person to create a one person billion dollar startup, it also means it's way easier for people to just create startups in general. I actually think this will... One second order effect of this is I think there's just going to be a huge startup boom and small SMB style boom where anyone can build software for anything. (00:25:45): One, you're kind of starting to see this play out in the AI startup scene where software's became a lot more vertical oriented, where these verticals, like creating some AI tool for some vertical tends to work quite well because you really lean into that particular domain, you really understand the use case for it. And so if you play out AI, there's no reason why you can't have like 100x more of these startups. (00:26:13): And so I think one world that we might end up seeing happen is in order to enable a one person billion dollar startup, there might be like a hundred other small startups building bespoke software that works extremely well to support other types of small one person billion dollar startups. And so I think we might actually enter into a golden age of like B2B SaaS and just like software and startups in general. (00:26:38): And so I think that's a really interesting trend to kind of see because as it gets easier and easier to build software, as it's easier and easier to run a company, you might actually just end up seeing way more of these startups. And so the way I've been thinking about is like, yeah, there might be one one person billion dollar startup, but there might be like 100 $100 million startups. There might be tens of thousands of $10 million startups. And as an individual, it's actually pretty great to have a $10 million business. That's like enough for... You're set for life at that point. And so we might really see an explosion in that way. And I feel like people aren't really pressing that in. (00:27:20): There's another kind of third order effect of this. And again, all of these, as you get to the further and further out predictions, I think there's a lot of uncertainty. I think if we end up moving to this world where you end up with these kind of micro companies building software that works for one or two people who own the company and are working there, I think the startup ecosystem will change. I think the VC ecosystem will change. We might end up in a world where there's just like a handful of big players that are offering platforms and supporting all of these startups, but the types of venture scale return startups that can really 100 or 1,000x your investment might actually end up shrinking if you end up having a bunch of these smaller 10 to 50 million dollar companies, which are not great for venture startup returns, but are great for the individuals, the high agency individuals who are now really leaning into AI to build these businesses for themselves.",
+   "zh": "让我来分享一下我最喜欢的AI浪潮带来的一个现象——\"一人亿万美元创业公司\"。实际上，我觉得山姆（Sam Altman）可能最先提出了这个概念，或者他是第一个说出这个想法的人。但仔细想想，这真的很吸引人。是的，如果人们的杠杆效应足够高，最终很可能就会出现一人亿万美元的创业公司。（00:24:53）虽然我觉得这真的很酷，但我认为人们并没有真正意识到其二阶和三阶效应。毕竟，一人亿万美元创业公司意味着一个人可以利用这些工具获得更大的自主权和更高的杠杆效应，从而轻松完成业务所需的一切，最终创造出价值十亿美元的企业。（00:25:19）但我认为还有其他影响。首先，如果一个人能轻松创办一家亿万美元的创业公司，这意味着人们创办初创公司的门槛会大大降低。我认为这将引发一场创业热潮，尤其是中小型企业的发展热潮，任何人都能为任何领域开发软件。（00:25:45）目前，我们已经在AI创业领域看到这种趋势——软件变得更加垂直化。针对特定垂直领域开发AI工具往往效果显著，因为你能深入该领域，真正理解其应用场景。若延伸到AI领域，完全可以想象会有100倍于现在的此类创业公司。（00:26:13）我认为未来可能出现的场景是，为了支持一人亿万美元的创业公司，会有数百家小型初创公司开发定制软件，而这些软件将极大地支持其他小型一人亿万美元创业公司。因此，我们可能会迎来B2B SaaS和初创公司的黄金时代。（00:26:38）这确实是一个很有趣的趋势，因为开发软件和运营公司变得越来越容易，创业公司数量可能会激增。我认为人们对此关注不足。（00:27:20）还有第三阶效应。当然，越是长远的预测，就越不确定。我认为如果我们真的进入这样一个世界——微型公司为一到两名所有者和员工开发软件——创业生态系统将发生变化，风险投资生态系统也将改变。可能最终只剩下少数大玩家提供平台支持所有这些初创公司，但那些能让投资回报增长100或1000倍的风险投资级回报型初创公司可能会消失。\n实际上，如果你最终拥有大量规模较小的1000万至5000万美元的公司，市场规模最终可能会缩小。这对风险投资回报来说并非利好，但对个人而言却是个好消息，尤其是那些精英创业者，他们如今正积极投身人工智能领域，为自己打造商业帝国。",
+   "ts": "00:24:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love how many order effects we've been through. I want to hear the fourth order effect now, Sherwin. I'm just joking.",
+   "zh": "我很喜欢我们探讨过的多个订单效应。现在我想听听第四阶订单效应，谢尔文。我只是开玩笑的。",
+   "ts": "00:28:12"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Fourth order is too giga-brain for me. I can't think that far ahead.",
+   "zh": "第四阶订单效应对我来说太烧脑了。我根本想不到那么远的未来。",
+   "ts": "00:28:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's like inception where just everything gets slower every time you go deeper into selling every layer. Okay. So the billion dollar startup, I think about this a lot because I'm not going to be a billion dollar startup because what I'm doing is not venture scale in any way and not super high leveraged, but just seeing how many support tickets I get from just the most ridiculous things, it's hard for me to imagine one person... Like I'm bearish on this billion dollar startup. I just want to share this thought simply because of the support costs. Even if AI is helping you at a billion dollars, just like unless your ACVs are very high and you have very few customers, just dealing with support. And people are like, they can solve their own problems, but they're like, \"Eh, I'll email support, ask about this thing.\" (00:29:12): Just dealing with that is hard to scale is in my experience. So in my opinion, unless you have a bunch of contractors, which I don't know, does that count as a single person company, I feel like it's very difficult to scale a billion dollar startup and not have someone helping you with at least the support work. And AI I think will only take you so far.",
+   "zh": "这就像《盗梦空间》里，每次深入到销售的每一层，事情就变得越慢。好吧。所以关于十亿美元级初创公司，我经常思考这个问题，因为我自己永远做不到十亿美元级初创公司——我现在做的事情根本不具备风险投资规模，也没有超高杠杆。但光是处理用户提出的那些最奇葩的支持请求，就让我难以想象一个人能应付得来。比如我对十亿美元级初创公司持悲观态度。单纯是因为支持成本的问题。即使人工智能能帮你处理十亿美元级的业务，但除非你的客户终身价值非常高且客户数量极少，否则光是处理支持请求就够头疼了。人们会说“自己能解决问题”，但最后还是发邮件问客服。（00:29:12）在我的经验里，光是处理支持请求就很难实现规模化。所以在我看来，除非你有一群承包商（虽然我不确定这算不算单人公司），要不然十亿美元级初创公司很难不至少有专人负责支持工作。况且我觉得人工智能能发挥的作用也是有限的。",
+   "ts": "00:28:26"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "So I think that's true. And actually, I think my view on it is slightly different, which is I think that Lenny's Podcast might end up becoming a billion dollar startup, but what I think might happen is instead of you kind of being the one person who has to dispatch an AI to solve and fix those support tickets, I think what might end up happening is there might be a whole smattering of other startups that are building software and super tailored towards what you might need. And so there might be 10 or 20 startups that build support software for podcasts and newsletters. And that might be a one person startup. It doesn't need to be a big one. And they might be able to just code up this product very, very easily. They're able to build their own thing. And because it's so tailored and unique and hopefully useful for you, it might be something that you purchase as the one person billion dollar startup.",
+   "zh": "所以我觉得这说得对。实际上，我对此的看法略有不同。我认为《Lenny's Podcast》最终可能会成为十亿美元级初创公司，但可能的情况是，你不必亲自派人工智能去处理那些支持请求，而是会有大量其他初创公司为你量身定制软件。可能会出现10到20家为播客和新闻通讯提供支持软件的初创公司。这些公司可能都是单人公司，不必规模庞大。他们能很轻松地开发出这类产品。因为产品高度定制化、独一无二且希望对用户有用，你可能会把它当作十亿美元级初创公司的配套产品购买。",
+   "ts": "00:29:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I would buy that. I would buy that.",
+   "zh": "我愿意买单。我愿意买单。",
+   "ts": "00:30:29"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. There's a question of what you in-house and what you outsource. And what I think might happen is because the cost of running software and building products is collapsing so much, you might end up outsourcing a lot of this. And in doing so, reducing the size of your company. And so that's kind of the world that I think might end up happening. Again, there's high certainty in what might play out here, but the end result still might be one person driving this high massive leveraged company that might actually reach a billion dollars.",
+   "zh": "是的。关键在于内部处理和外包服务的平衡。我认为随着软件开发和产品构建成本急剧下降，越来越多的工作会被外包出去，从而缩小公司规模。这可能就是未来会发生的情况。当然，具体发展路径存在高度不确定性，但最终结果很可能是由一个人掌控这家高杠杆率的公司，最终真正达到十亿美元规模。",
+   "ts": "00:30:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I could see that. I also think about Peter at Clawdbot/Moltbot/OpenClaw of just how barraged he is right now by all these asks and emails and pings and DMs and PRs, just like, I'm curious to... And he's not even making any money off this thing.",
+   "zh": "我能理解这种情况。我也想到Peter在Clawdbot/Moltbot/OpenClaw上被各种提问、邮件、通知、私信和公关请求淹没的情景。真想知道……而且他甚至还没从这项业务中赚到钱。",
+   "ts": "00:30:57"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, I can't imagine what it's like to be him right now. It must be absolutely insane. It's probably like the months after we launched ChatGPT, the craziness that was.",
+   "zh": "是啊，我简直无法想象此刻身处他的境地会是怎样一种感受。这一定完全疯狂了。这可能就像我们推出ChatGPT后的那几个月一样，那真是段疯狂的时光。",
+   "ts": "00:31:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "As one man. He's coming out on the pod, by the way, in a week.",
+   "zh": "说到他，顺便提一下，他一周后就要在播客上公开出柜了。",
+   "ts": "00:31:21"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Oh, that's exciting. Yeah.",
+   "zh": "哦，太令人兴奋了。是啊。",
+   "ts": "00:31:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe the fourth order effect is distribution becomes increasingly important because there are so many freaking things trying to get your attention. So people with an audience and platform I think become more and more valuable, which is good stuff. (00:31:40): Okay. I wanted to come back actually to your management stuff. So I really loved your insight about spending more time with top performers has been really successful to you. Just thinking about you as a manager of a team that is building the platform that powers basically the entire AI economy, like every AI startup is building on your API. Clearly you're doing a great job. What other kind of core management lessons have you learned? What do you find is really important and key to your success as a manager of engineers and just people?",
+   "zh": "或许第四阶效应是，随着越来越多疯狂的信息争夺你的注意力，分发渠道的重要性会日益凸显。因此，我认为拥有受众和平台的人会变得越来越有价值，这确实是个好现象。（00:31:40）：好的。其实我还想再聊聊你的管理心得。关于多花时间与顶尖员工沟通的见解，对你来说确实很有效。想想你作为一个团队的管理者，这个团队正在构建一个支撑整个AI经济的基础平台——几乎每家AI初创公司都在使用你们的API。显然你做得很棒。作为工程师和团队的管理者，你还学到了哪些核心管理经验？哪些方面对你的成功至关重要？",
+   "ts": "00:31:26"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. I think a lot of the lessons that I've learned here, I don't know how specific it is to the OpenAI API or some of our enterprise products in particular. I think my management philosophy has obviously changed over time, but I think it's probably stayed the same more than it's changed over time. (00:32:31): One of these principles is what I talked to you about before, which is spending a lot of time with top performers, like actually spending... And to be very concrete, it's like more than 50% of your time with your top performers, with maybe your top 10% performers, and really, really trying your best to empower them. (00:32:48): The way that I think about it is kind of come back to this analogy of software engineer as a surgeon, which comes from The Mythical Man-Month. So actually, it's funny. So I pull it from the book, but in the book, they actually described this world where I think they were predicting the future because I think the book was written in the '70s or something. (00:33:10): They said that software engineering might end up moving into a world where that software engineers are like surgeons or in a surgery room, there's one person doing the work and there's the one person cutting or whatever and doing all the surgery, and everyone else in the room is there to just support them. It's like the nurse and the assistant and the resident and the fellow and then the surgeon's like, \"I need a scalpel,\" and they give them scalpel and then they're like, \"I need this tool and this machine,\" and they'll bring it over.\" Everyone's there to just support the one surgeon. A. (00:33:40): Nd so The Mythical Man-Month actually predicted that that is kind of the direction that software engineering's going to go. I don't think that's exactly played out where it's much more collaborative and it's not only one person doing the work, but I've always really liked that analogy. And that analogy is actually what I strive to emulate in my own management philosophy, which is software engineering isn't really like surgery where it's not just one person doing the work, but the way in which I like treating the people on my team and the way that I act as a manager is I want to empower them, make them feel like they're a surgeon. And insofar as making sure that I'm supporting them and making sure they have everything that they need to do their work, and it feels like they have an army of people kind of supporting them and looking around corners and giving them everything that they need when it's really just me as the manager. (00:34:27): And so the example that I give is looking around corners and unblocking people, especially from an organizational perspective, is extremely, extremely useful. And again, going back to the AI conversations, even more important nowadays, right? If people are just cranking PR after PR, the main thing bottlenecking progress and shipping something tends to be organizational or process oriented. And if you as a manager can look around corners and kind of unblock the team, if the surgeon needs a scalpel, but the manager already has a scalpel ready for them, that's the best case scenario. That's kind of the way that I approach management and especially engineering management. And so that's something that's really, really stuck with me over time. And even though software engineers aren't exactly surgeons, that metaphor has always stayed in my mind as I've progressed in my career.",
+   "zh": "是的。我觉得我在这里学到的很多经验教训，并不局限于OpenAI API或我们某些企业产品。我认为我的管理理念显然是随着时间而变化的，但与其说它随时间而改变，不如说它在很大程度上保持了原样。（00:32:31）：其中一条原则是我之前跟你谈过的，那就是花大量时间与表现出色的人在一起。比如，实际上你要把50%以上的时间花在顶尖员工身上，可能甚至是前10%的表现优异者身上，并且尽最大努力赋予他们权力。（00:32:48）：我对此的理解可以追溯到《神话般的人月》一书中提到的软件工程师如同外科医生的比喻。说起来挺有趣的，我从书中借鉴了这个比喻，但在书中，他们实际上描绘了一个未来世界——我认为这本书写于70年代左右。（00:33:10）：他们说，软件工程可能会发展成一个外科医生式的环境，即一名程序员在手术室里进行编码，周围有护士、助手、实习医生等人员提供支持。就像外科医生需要手术刀，助手会立即递给他，然后他又需要其他工具，助手也会及时提供。这就是外科医生和团队成员的典型互动模式。我努力效仿这种管理理念，认为软件工程不应像外科手术那样由单人主导，而是要赋予团队成员权力，帮助他们像外科医生一样自主工作。（00:34:27）：比如，我提到的\"未雨绸缪\"和\"为团队排除障碍\"等技巧，在组织层面尤为重要。如今在AI项目中，如果团队成员只能机械地完成PR任务，阻碍进展和交付的主要原因往往是组织或流程层面的障碍。作为管理者，如果能未雨绸缪地为团队排除障碍，就像外科医生需要手术刀而助手已提前准备好一样，这才是理想的管理境界。这就是我管理理念的核心，尤其是在工程管理方面。虽然软件工程师并非真正的外科医生，但这个比喻始终深深印在我的职业生涯记忆中。",
+   "ts": "00:32:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. And I feel like, I wonder if that's something AI can help with is look around corners and predict, here, this engineer is going to be blocked by this decision. We need to figure this out. We need to get-",
+   "zh": "我喜欢这样做。我觉得AI能否帮助我们做到的是，比如说能否预见障碍，预测某位工程师会因某个决策而受阻。我们需要解决这个问题——",
+   "ts": "00:35:18"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, that's actually a really good point. I haven't tried this yet, but I wonder what would happen if I ask ChatGPT hooked up to company knowledge, what are the active blockers? Look through all the Notion Docs, what are maybe Slack messages, it's probably in Slack somewhere, what are the active blockers on my team and is there something I can do to help? Now, that's very interesting. I have not thought about that, but you're right.",
+   "zh": "是啊，这确实是个好主意。我还没试过，但如果我让ChatGPT接入公司知识库，问问“当前有哪些阻碍因素？”然后浏览Notion文档、Slack消息（很可能在Slack里能找到），查找团队内当前存在的阻碍因素，并思考能否采取措施缓解，这会很有意思。我之前还真没想过这个办法，但你说得对。",
+   "ts": "00:35:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "We just had an insight right here.",
+   "zh": "我们刚刚就想到了。",
+   "ts": "00:35:48"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Yeah.",
+   "zh": "是啊，是啊。",
+   "ts": "00:35:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And I think even more interestingly, what do you anticipate will be a blocker for this engineer or this team in the coming months?",
+   "zh": "而且更重要的是，你能预见未来几个月这位工程师或团队会面临哪些阻碍因素吗？",
+   "ts": "00:35:51"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, you asked the model, you ask the AI to do the second and third order.",
+   "zh": "对啊，你可以让模型预测二阶和三阶的阻碍因素。",
+   "ts": "00:35:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There we go.",
+   "zh": "好的。",
+   "ts": "00:35:59"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Anticipate that and anticipate what the blockers will be next month too.",
+   "zh": "提前预判这些阻碍因素，再预测下个月可能出现的阻碍因素。",
+   "ts": "00:36:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think we've got a good idea right here.",
+   "zh": "我觉得我们现在就有了很好的思路。",
+   "ts": "00:36:06"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:36:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Datadog, now home to Eppo, the leading experimentation and feature flagging platform. Product managers at the world's best companies use Datadog, the same platform their engineers rely on every day, to connect product insights to product issues like bugs, UX friction and business impact. It starts with product analytics, where PMs can watch replays, review funnels, dive into retention, and explore their growth metrics. (00:36:34): Where other tools stop, Datadog goes even further. It helps you actually diagnose the impact of funnel drop-offs and bugs and UX friction. Once you know where to focus, experiments prove what works. I saw this firsthand when I was at Airbnb where our experimentation platform was critical for analyzing what worked and where things went wrong. And the same team that built experimentation at Airbnb built Eppo. (00:36:56): Datadog then lets you go beyond the numbers with session replay. Watch exactly how users interact with heat maps and scroll maps to truly understand their behavior. And all of this is powered by feature flags that are tied to real-time data so that you can roll out safely, target precisely and learn continuously. Datadog is more than engineering metrics. It's where great product teams learn faster, fix smarter, and ship with confidence. Request a demo at datadoghq.com/lenny. That's datadoghq.com/lenny. (00:37:27): Okay. I'm going to shift to talking about the API and the platform that you all build. So you work with a lot of companies implementing your API, your platform building on your tools. You told me that you find that a lot of companies actually have negative ROI on their AI deployments, which I think is what a lot of people read about and feel and think, and it's interesting you're actually seeing that. What's going on there? What are they doing wrong? What's happening in the world of AI and deployments and ROI?",
+   "zh": "本期节目由Datadog赞助。Datadog现已接纳Eppo——领先的实验与功能标记平台。全球顶尖公司的产品经理都在使用Datadog——与工程师日常依赖的同一平台——将产品洞察与产品问题（如Bug、用户体验摩擦和业务影响）关联起来。这一切始于产品分析，PM们可观看回放、审查漏斗、深入研究留存率并探索增长指标。（00:36:34）：其他工具止步之处，Datadog更进一步。它能帮助你诊断漏斗流失、Bug和用户体验摩擦的影响。一旦明确重点，实验就能验证有效方案。我在Airbnb时亲眼见证了这一点——我们的实验平台对分析成败至关重要。打造Airbnb实验平台的同一团队也开发了Eppo。（00:36:56）：Datadog还通过会话回放超越数据层面。观看用户互动全过程，搭配热图和滚动地图，真正理解用户行为。这一切均由与实时数据紧密结合的功能标记驱动，让你安全上线、精准定向并持续学习。Datadog不止是工程指标。它是优秀产品团队加速学习、更智慧地修复问题并自信交付的平台。请访问datadoghq.com/lenny申请演示。（00:37:27）：好的，我现在要转向讨论API和你们构建的平台。你们与许多公司合作，帮助他们实施API和平台。你们告诉我，许多公司在AI部署上ROI负值。我觉得这是很多人读到、感受到和认为的，而你们实际观察到这一点，很令人惊讶。这是怎么回事？他们做错了什么？AI部署、ROI和世界现状如何？",
+   "ts": "00:36:08"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. So to be clear, I don't explicitly see quantitative numbers around this. It's actually really hard to measure these things, but especially from observing some companies trying to do AI, I would not be surprised if a lot of AI deployments are actually negative ROI. I mean, part of this too is I think there's also general sentiment from folks around the country, like basically outside of tech that AI is being forced onto them. And I think part of this is probably a symptom of some negative ROI AI deployments. (00:38:35): A couple of things I've observed around this. So one thing is, and I come back to this again and again, I think we in Silicon Valley just forget that we live in a bubble. Twitter is a bubble, sorry X is a bubble, Silicon Valley is a bubble, software engineering's a bubble. (00:38:51): Most people in the world, most people in the US are not software engineers, are not very AI-pilled, are not following every single model release. And so are just highly out of the loop on how to use this technology. And so we always talk about all these best practices for Codex, all these Codex-pilled people within OpenAI. I'm sure everyone on X who posts are like crazy power users of these AI tools. They lean into Skills, they lean into AGENTS.md.",
+   "zh": "是的。所以说清楚一点，我并没有看到这方面的具体数据。实际上，衡量这些东西非常困难。但尤其是从观察一些试图应用AI的公司来看，如果很多AI部署项目最终产生负回报率，我一点也不会感到惊讶。我的意思是，部分原因在于，全国各地的人们，尤其是科技行业以外的人们，都觉得AI被强加给了他们。我认为这种现象很可能源于一些AI部署项目的负回报率。\n\n（00:38:35）：关于这件事我观察到几点。首先，我反复强调，我们硅谷的人往往忘记了自己生活在一个信息泡沫中。Twitter是个泡沫，抱歉，X（推特）也是个泡沫，硅谷本身就是个泡沫，软件工程领域也是个泡沫。\n\n（00:38:51）：世界上大多数人，尤其是美国的大多数人，都不是软件工程师，也没有被AI彻底洗脑，更不会追踪每一项模型发布。他们对如何应用这项技术知之甚少。我们总是在谈论Codex的最佳实践，OpenAI内部那些沉浸在Codex世界里的人。我敢肯定，X平台上的发帖者都是这些AI工具的狂热用户。他们热衷于Skills功能，痴迷于AGENTS.md文件。",
+   "ts": "00:37:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "MCPs.",
+   "zh": "MCPs。",
+   "ts": "00:39:20"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yes. Yeah. All of that. And when I talk to some of these companies and I talk to the actual employees using these, it's like the most basic thing that they're trying to do and they have very little understanding of exactly how this technology works. And so that's kind of like one big observation for me, which is like, they're asking very simple questions of these things. They're really not pushing it just yet. And so that kind of ties into what I think more companies do or like what should do or what a more ideal AI deployment setup looks like. And this is kind of how we've run things within OpenAI too. (00:40:02): The companies where I think it started to work really well have a combination of both top-down buy-in. So it's like the C-suite's like, \"We want to become an AI first company.\" So there's buy-in, they buy the tools, they have exec support, but it also has bottoms-up adoption and buy-in. (00:40:18): And so what I mean by that is it has actual employees doing the work who are really excited about this technology and are willing to learn, evangelize, build best practices and kind of like knowledge share within the organization. We've seen this a lot internally. So obviously OpenAI has always wanted to be a very AI-centric company, but when it really started taking off was with the introduction of Codex and these tools where actual employees themselves could start applying it to their work. (00:40:48): And I think you really need this because at the end of the day, everyone's work is very different. It's like very unique. Software engineering is different than finance is different than operations is different than go-to-market and sales. And so there's like a lot of these last mile intricacies of work that needs to really be done in a bottoms-up fashion. (00:41:07): And so my sense is a lot of these AI deployments don't have bottoms-up adoption. It was like an exec mandate and it's extremely top-down and is very divorced from what the actual work looks like. And as an end result, you end up with a giant workforce that doesn't really understand the technology, is like, \"I know I'm supposed to use this and maybe it's like on my performance review too, but I'm not sure what to do.\" And they look around, no one else is doing it. There's no one else to learn from. (00:41:32): And so my recommendation for companies kind of pushing this is find, or maybe even staff a full-time team internally that is this kind of tiger team internally that can explore the full extent of the capabilities, apply to specific workflows, do the knowledge sharing, create excitement within folks who might want to use this technology. Because in the absence of that, it's actually very difficult to pick up.",
+   "zh": "是的。没错。就是这些情况。当我与这些公司交流，特别是与实际使用这些技术的员工交谈时，他们所尝试做的最基本的事情就是这些，而他们对这项技术的运作原理却知之甚少。这对我来说是一个重要的观察点——他们对这些技术提出的问题非常基础，目前还没有真正深入探索其潜力。这也让我联想到我认为更多公司应该采取的做法，或者说理想的AI部署架构应该是什么样子的。这也是我们在OpenAI内部的运作方式。  \n\n（00:40:02）：在我看来，那些开始真正发挥作用的公司，既有自上而下的全力支持。比如高管层会说：“我们要成为一家以AI为先的公司。”这样既有高层的认可，也会购买相关工具，获得高管的支持。但同样重要的是自下而上的采用和认可。  \n\n（00:40:18）：我的意思是，实际的员工要热衷于这项技术，愿意学习、推广、建立最佳实践，并在组织内分享知识。我们内部就经常看到这种情况。所以很显然，OpenAI一直想成为一家以AI为核心的公司，但真正开始大规模应用是在Codex等工具推出之后，让员工能够真正将其应用到自己的工作中。  \n\n（00:40:48）：我认为这非常重要，因为归根结底，每个人的工作都非常不同。软件工程与财务、运营、市场推广和销售有着天壤之别。工作中有很多最后一公里的复杂问题需要自下而上地解决。  \n\n（00:41:07）：我的感觉是，很多AI部署缺乏自下而上的采用。往往是高管下达命令，顶层设计与实际工作脱节。最终结果是，整个团队对技术不甚了解，员工会说：“我知道应该用这个，可能还会写进绩效评估，但不知道怎么用。”环顾四周，没有人能提供帮助。  \n\n（00:41:32）：所以我对推进这项工作的公司的建议是：内部组建一个全职团队，类似于内部的特攻队，全面探索技术潜力，应用于特定工作流程，开展知识分享，激发员工使用这项技术的热情。否则，推广起来确实非常困难。",
+   "ts": "00:39:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And who would you put on this tiger team? Is it like engineer-led, do you find in your experience? Is it a cross-functional sort of team?",
+   "zh": "那你会让谁加入这个特攻队呢？是以工程师为主导，还是跨职能团队？",
+   "ts": "00:41:56"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, it's interesting. So also a lot of companies don't have software engineers. And so the pattern I've seen is it tends to be these like software engineering adjacent, like basically technical people, but are not software engineers. I think those are the ones who tend to get most excited around this. (00:42:22): It's like maybe the support team operations lead who doesn't code, but loves using these tools and is like an Excel wizard or something. And so it's like technical adjacent or like coding adjacent and pretty technical. Those are the kinds of people I've seen in these companies who just really light up and get excited around this. And you can usually build a team around that. (00:42:46): But yeah, it's like oftentimes not software engineers. Software engineers I think will understand this, but not every company has software engineers. It's actually kind of a rarity. They're hard to find, they're expensive. And so it's these other types of folks.",
+   "zh": "是啊，这挺有意思的。所以很多公司都没有软件工程师。我观察到的模式是，往往是那些与软件工程相关的岗位，比如技术人员，但并非软件工程师。我觉得这类人往往对此最为兴奋。（00:42:22）：比如，可能是一位不写代码但热爱使用这些工具的支持团队运营负责人，是个Excel高手之类的。所以这类与软件工程相关的岗位，或者说与编程相关的岗位，技术性很强。我在这些公司里见过这类人，他们对此特别热情，兴奋不已。通常你可以围绕这些人组建一个团队。（00:42:46）：但确实，很多时候找不到软件工程师。软件工程师可能能理解这一点，但并非每家公司都有软件工程师。这实际上挺罕见的。他们很难找，而且费用高昂。所以就得找其他类型的员工。",
+   "ts": "00:42:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I'm hearing is the anti-pattern is top-down, this very, the CEO found an exec team just like, \"We are going to go AI-first. We're going to lead into AI. Everyone's going to be judged on their performance using AI tools, how much your productivity is increasing thanks to AI.\" And with that being just top-down and not creating a team that is bottom-up, spreading the gospel, you find that doesn't work.",
+   "zh": "我听到的反面案例是自上而下式的，比如CEO召集高管团队，说：“我们要以AI为先导，要引领AI之路。我们将用AI工具来评估每个人的绩效，看看AI能提升多少生产力。”但这种自上而下的方式没有从下往上建立团队，没有传播理念，结果往往行不通。",
+   "ts": "00:42:58"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Yeah, exactly. Exactly.",
+   "zh": "是啊，是啊，完全正确。",
+   "ts": "00:43:23"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And the advice is find the people that are most excited and instead of having them spread out through the organization, what you find works is create a little AI kind of evangelist team that finds ways to use it and kind of spreads it across the work.",
+   "zh": "还有一个建议是，找到最热情的人，而不是让他们分散在整个组织中，而是组建一个小型的AI传播团队，找到使用AI的方法，并在整个团队中推广。",
+   "ts": "00:43:25"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. I mean, another, just kind of like hearing you play back to me, another way to think about it, kind of tying back to my own management philosophy, is find the high performers in AI adoption and empower them. Let them build hackathons, let them hold seminars, do knowledge sharing, create the seeds of excitement internally.",
+   "zh": "是啊。我是说，你刚才说的，或者说与我之前的管理理念相契合的，就是找到在AI应用方面表现出色的人，并赋予他们权力。让他们组织黑客马拉松，举办研讨会，进行知识分享，在内部培养兴奋点。",
+   "ts": "00:43:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, amazing. There's a couple hot takes I want to hear from you, something that I've seen you talk about and share. One is you've shared that talking to customers and listening to customers is not always the right strategy in AI, and it might often lead you astray.",
+   "zh": "好的，太棒了。我还想听你分享几个观点，我之前也听你讲过。比如，你说过在AI领域，直面客户、倾听客户需求并不总是正确的策略，往往会误入歧途。",
+   "ts": "00:43:57"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "I don't know if it's that hot of a take. I think the main thing here is, so obviously you should talk to your customers. It's like you still talk to customers. I just think the AI field, especially what I've seen over the last three years working on the API and seeing all that evolve, is the field and the models themselves are just changing so, so quickly, they tend to disrupt themselves, especially around the tooling and the scaffolding space. So there's this quote that I read actually earlier this week, it's from an X article by this guy named Nicolas, who's the founder of a startup called Fintool, where I think he was sharing a lot of the best practices that he has learned through building AI agents for financial services, I think at his startup Fintool. (00:44:58): And this phrase that I thought was really good, which is the models will eat your scaffolding for breakfast. If you rewind back to 2022, right when ChatGPT launched, these models are pretty raw and there was like all this product scaffolding and things, especially in the developer space, to basically try and steer the model and build a scaffolding around it to get it to do what you want. Like agent frameworks, there's like vector stores I think was like really popular back then and just like a whole smattering of tools here. (00:45:30): And as you've kind of seen the field play out, the models have just changed so much and gotten so much better that they ended up literally eating some of the scaffolding. And I think this is even true today. So I think that the article from Nicolas actually, the current scaffolding which is fashionable is Skills, files-based context management. I could see a world where at some point that's no longer useful, where the model can actually manage all that themselves, or there might be, it's hard to predict, but might move on to some new paradigm where you'll already need this file-based Skills type thing. (00:46:05): You have literally seen this play out where like the agent frameworks I think are a little less useful now. There was a period of time in like 2023 where we thought vector stores is going to be like the main way for you to bring organizational context into the models and you need to vectorize and embed every bit of your corpuses and then you need to do all this work to figure out the vector search to optimize that to fill out the right information at the right time. (00:46:29): All of that is scaffolding because the model was not good enough. And turns out, in this case, it turns out as the models get better, a better approach is actually to take out a lot of that logic and trust the model and give it a set of tools for search. It doesn't need to be a vector store. You could actually just hook it up to any type of search. It could literally be files on a file system like Skills and AGENTS.md to kind of steer it as well. Obviously there's still a place for vector stores. I know a lot of companies still using it, but the entire scaffolding around that and building an entire ecosystem around that and assuming that's the only scaffolding that you need has really changed. (00:47:05): And so tying this back to the like, you don't always have to listen to your customers. Because the field is changing so much at any point in time, a lot of people are kind of in this local maximum. And if you just blindly listen to your customers, they'll be like, \"Yeah, I want a better vector store. I want a better agent framework for this.\" And if you had just kind of only chased down that path, it actually would've led you to build something that again is the local maxima. (00:47:31): Whereas as the models get better, we've had to reinvent and kind of rethink the right abstractions and the right tools and frameworks to build around these models. And the cool/exciting/kind of crazy annoying part is it's a moving target. And so yeah, the current smattering of tools and frameworks right now will likely need to evolve and change pretty significantly over time as the models get smarter and better. But that is just the nature of building in this space. I think that's what makes it exciting, but it also means when you talk to customers, you kind of need to balance the exact feedback that they want with where you think the models are going and where you think things will trend over the next one to two years.",
+   "zh": "我不确定这观点是否有那么大的说服力。我认为关键在于，你显然应该和客户沟通。但就AI领域而言，尤其是过去三年我参与API开发并见证其快速演进的经历，模型本身及其相关技术正以极快的速度迭代，往往会自我颠覆——尤其是在工具和框架层面。本周早些时候，我读到一篇X平台文章，作者是Nicolas，他是Fintool初创公司的创始人。在文中，他分享了在金融服务领域构建AI智能体时积累的最佳实践。\n\n（00:44:58）：文中有一句话让我深有共鸣——“模型会把你的框架当早餐吃掉”。回溯到2022年，ChatGPT刚推出时，那些模型还很粗糙，开发者们急于用各种产品框架来引导模型，围绕模型搭建框架以实现预期功能。比如智能体框架、向量存储等，当时这些工具风靡一时。（00:45:30）：但随着模型性能的飞跃，许多框架已被淘汰。Nicolas提到的当前流行框架是基于Skills的文件式上下文管理。我能预见到未来某个时刻，这类框架可能不再适用，模型将自主管理所有上下文。（00:46:05）：智能体框架的衰落已成事实。2023年曾有人认为向量存储是引入组织上下文的关键，但实践证明，随着模型性能提升，采用向量搜索的逻辑已被简化为搜索引擎接口，无需复杂的向量存储。（00:46:29）：这些框架本质上是权宜之计，因为模型尚未达到理想状态。随着模型进步，自然会转向信任模型并为其提供搜索工具，无需依赖向量存储。（00:47:05）：回到核心观点：不必总是听从客户意见。领域发展迅速，许多人会陷入局部最优陷阱。如果盲目追随客户需求，最终只能构建出不合时宜的方案。\n再次强调，这是局部最大值。（00:47:31）：随着模型性能的提升，我们不得不重新发明并重新思考合适的抽象概念、工具和框架来构建这些模型。令人兴奋但又有些头疼的是，这是一个不断变化的目标。因此，当前零星分布的工具和框架很可能需要随着模型变得更智能、更出色而进行重大升级和调整。但这正是这个领域开发的本质。我认为这正是它令人兴奋之处，但同时也意味着，当你与客户沟通时，你需要在他们期望的具体反馈与你对模型发展方向的判断，以及未来一到两年技术趋势的预测之间找到平衡。",
+   "ts": "00:44:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting how this is, the bitter lesson is this big lesson that AI and ML folks learned, which is just like, the less you overcomplicate, the less logic you add to machine learning and to AI, the more it'll be able to scale and grow and just take it all away and let it just compute basically. Just give it more power to get smarter on its own.",
+   "zh": "很有趣的是，这就是人工智能和机器学习领域人士吸取的深刻教训：越是复杂化流程，越是给机器学习和人工智能添加逻辑约束，越难实现大规模扩展和快速成长。不如放手让模型自由运算，只需赋予它们更强的算力，让它们自主提升智能水平。",
+   "ts": "00:48:10"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. There's literally a version of the bitter lesson applied to building with AI where we were trying to architect all this stuff around and it turns out the models will just kind of eat it all away. And honestly, OpenAI API team has been guilty of this where we kind of took some left and right turns when we shouldn't have. But yeah, the models still end up, the models get better and we're all learning the bitter lesson day in and day out.",
+   "zh": "是啊。在人工智能开发领域，我们也曾犯过类似的错误——试图围绕模型构建复杂架构，结果发现模型会自然消化这些复杂设计。说实话，OpenAI的API团队就曾在这方面走过弯路，我们曾在不该偏离正轨时选择了折中方案。但最终模型还是不断进步，我们也在日复一日地领悟这个教训。",
+   "ts": "00:48:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So what would be the key takeaway for folks building on say the API or just building agents and having to build a little bit of this around for now, is it just, yeah, what would be the advice?",
+   "zh": "那么对于那些依赖API开发产品，或者正在构建智能体、暂时需要搭建辅助系统的开发者来说，关键的启示是什么？说真的，有什么建议吗？",
+   "ts": "00:48:57"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "My general advice, and I've been giving this to people for a while and I think it's still true today is make sure you're building for where the models are going and not where they are today. It's clearly a moving target. And I think a lot of the companies that I've seen, startups that I've seen really, really do well is they build a product for an ideal type of capability that is like maybe 80% of the way there today. And they end up having a product that kind of works, but is just almost there. (00:49:39): But then as the models get better, suddenly it might click and then their product now is incredible because it works like maybe with like o3, at some point it suddenly works with 5.1, 5.2, suddenly it unlocks it, but they're building these products with the model capability improvements in mind. And with that, you end up creating an experience that's way better than if you had assumed that it's static in the first place. (00:50:02): And so that'd be my general advice, which is build for where the models are going and not where they are today. You end up building a better product. You may need to wait a little bit, but the models are getting so much better so quickly, you often don't need to wait that long.",
+   "zh": "我的总体建议是——我已经向很多人分享过这个观点，至今依然适用：要确保你的开发方向紧跟模型的发展趋势，而非停留在当前阶段。这显然是一个不断变化的目标。许多我见过的成功初创公司，都会为理想的能力类型打造产品，比如当前可能只达成80%的目标。但最终产品能基本运行，虽然还有改进空间。（00:49:39）但随着模型不断进步，某个功能可能突然触发——比如最初支持o3版本，后来升级到5.1和5.2版本，功能就解锁了。而这些产品正是基于模型能力的迭代而打造的。（00:50:02）所以我的建议是：要为模型的发展方向而非当前状态进行开发。这样你才能打造出更优质的产品。当然可能需要等待一段时间，但模型进步如此之快，等待时间往往没那么长。",
+   "ts": "00:49:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So to follow that thread, like in the next 6 to 12 months, where is the API heading? Where's the platform heading? Where are the models heading? As much as you can share, I know there's a lot of secrets here, that maybe you're most excited about, or you think that people should start to prepare for and however much you can share?",
+   "zh": "那么接下来的6到12个月，API会走向何方？平台会如何发展？模型又将去向何处？如果方便的话，能否透露一些信息？我知道这里有很多保密内容，但有没有你最为期待的进展，或者你认为人们应该提前准备的方向？",
+   "ts": "00:50:16"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "I mean, so the obvious one is how long of a task these models can do coherently. So there's like the METR benchmark that I think tracks software engineering tasks and how long of a task can these models do 50% of the time, 80% of the time. I think we're at something like multi-hour tasks being able to be done by... software engineering tasks being able to be done by these frontier models 50% of the time. And then I think 80% is something like just under an hour. (00:51:06): But the sobering thing about that chart is they plot all the previous models on this chart as well. So you can really see the trend of this. That's something that I'm really excited about, which is, I actually think products today really optimize for tasks that the model can do for minutes at a time. Even Codex and the coding tools, I'd say, it's in the CLI, you're kind of seeing it be interactive. (00:51:28): It's really quite optimized well for maybe at most 10 minute type tasks. I have seen people push Codex to the limit and do multi-hour long tasks. But again, I think that's more of the exception. But if you follow this trend, I think in the next 12, 18 months, we could see models that could do multi-hour long tests very, very coherently. At some point it might reach like six hours, a day long task where you kind of like dispatch it and have it do things on its own for a while. The types of products you build around that will look very different. You want to give the model feedback. You obviously don't want it to completely run wild for a day. Maybe you do, but you probably don't. And then the universe of things you can have the model do really expand. So that's something that I'm really, really excited about seeing. (00:52:15): Another thing over the next 12 to 18 months, what I think would be really cool is improvements in the multimodal models. And actually by multimodality, I'm mostly thinking about audio here where the models are pretty good at audio, I think they're going to get a lot better at audio over the next 6 to 12 months, especially the native multimodal models, the speech to speech ones. I think there's also interesting work being done around new types of models and architectures on the multimodal audio side as well. (00:52:48): But audio, especially in the enterprise and in a business setting, I think is a hugely underrated domain still. Everyone talks about coding, it's all text, but we're talking in audio. A lot of the world's business is done via audio. A lot of services and operations are done via talking and audio. And so I think that area is going to look very exciting in the next 12, 18 months. And I think there will be even more unlock for what we can do with audio models there as well.",
+   "zh": "我的意思是，这些模型能够连贯地处理多长时间的任务？比如，METR基准测试就追踪了软件工程任务，以及这些模型在50%或80%的时间内能够处理多长时间的任务。我认为目前，多小时的任务已经可以用这些前沿模型完成50%的工作量，而80%的时间内完成类似任务则需要略少于一小时。（00:51:06）但这张图表中最令人惊讶的是，它还将之前的所有模型都纳入了对比图表中。这样一来，我们就能清晰地看到技术发展的趋势。这让我非常兴奋的是，如今的产品实际上都是针对模型能够一次处理几分钟任务的场景进行优化的。就连Codex和编程工具，我敢说，它们在命令行界面（CLI）中的交互性设计也充分体现了这一点。（00:51:28）这些产品实际上最多只能支持10分钟左右的任务。我见过有人把Codex推到极限，完成多小时的任务，但这种情况毕竟是少数。不过如果按照这个趋势发展下去，未来12到18个月内，我们可能会看到能够非常连贯地处理多小时测试任务的模型。最终甚至可能实现长达6小时的全天任务，让模型自主执行一段时间。围绕这些模型构建的产品也将焕然一新。你需要给模型提供反馈，显然不能让它完全失控运行一整天。或许有些人会这么做，但大多数人可能不会。这样一来，模型能够处理的任务范围将大大扩展。这正是让我无比期待的未来。（00:52:15）未来12到18个月内，我认为多模态模型的改进也将非常令人兴奋。说到多模态，我主要指的是音频处理。目前模型在音频处理方面已经做得不错，未来6到12个月内，它们在这方面会进一步提升，特别是原生多模态模型，比如语音转语音模型。此外，音频领域，尤其是企业和商业场景中的音频应用，仍然被严重低估。大家都谈论编程，认为它是文本处理，但实际上商业世界中大量活动都是通过音频完成的，许多服务和运营都是通过语音和音频进行的。所以我认为未来12到18个月内，这个领域将变得非常令人兴奋，音频模型应用的潜力也将被进一步释放。",
+   "ts": "00:50:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. So quick summary, expect agents and AI tools to run longer, that trajectory to continue to increase, and then audio and speech becoming a bigger deal, more first party and native and better and core to the experience.",
+   "zh": "太棒了。简单总结一下，期待智能助手和AI工具能够持续运行更长时间，相关趋势将继续增强，而音频和语音处理将成为更热门的领域，带来更多第一方和原生模型，以及更出色的核心体验。",
+   "ts": "00:53:17"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:53:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Extremely cool. Okay. I want to go back to one of your hot takes, another hot take that I've seen you discuss. You're very bullish on business process automation as an opportunity in the world of AI. Talk about that.",
+   "zh": "太酷了。好的。我想回到你的另一个观点，一个我之前就听你讨论过的观点。你对AI时代的业务流程自动化机遇非常乐观。能谈谈这一点吗？",
+   "ts": "00:53:35"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, this goes back to the thing that I said previously, which is we live in a bubble in Silicon Valley and a lot of the work that we do that we're used to, software engineering, product management, building products is very differently shaped than the work that goes on that runs our entire economy. And I see this day in and day out when I talk to customers. If you talk to any company that's not based in, it's not a tech company, there's a lot of business processes. (00:54:18): And so what I mean by this is, I generally delineate it as software engineering is kind of like open-ended knowledge work, right? And this is why I think tools like Codex tend to be quite good because it's exploring and you're giving it these open-ended things, but software engineering is fundamentally pretty open-ended and is not very repeatable. So you build a feature, you're not trying to build the exact same feature over and over again. (00:54:42): And a lot of tech jobs are in this space. I think data science is kind of in this space as well, even some of the strategic finance stuff. But as you move further and further away from software engineering and like what is core in tech, a lot of jobs are just business processes. They're like repeatable things, repeatable operations that some manager at a company has kind of like iterated on. There's usually a standard operating procedure that people want to do and you don't want to deviate from it that much. In software engineering, the ingenuity is in deviating, but a lot of the work being done in the world is actually just running through these procedures and operations. If I call a support line, they're running through one of these. If I call my utility company, there's a bunch of processes and things that they can and cannot do for me. (00:55:35): And so I'm just extremely bullish on this general category of like... And I think it's underrated because it's so different from what we think about in Silicon Valley, people tend to not think about it, but how can we apply AI and some of the tools and frameworks that we have towards this business process automation, towards automating and making easier repeatable business processes with high determinism that is fully integrated with business data and business decisions and different systems within an enterprise and how can we actually make that process better? Because I actually think there's a lot of opportunity and a lot of work to be done in that area. And we just don't talk about it because it's a little bit less in our wheelhouse.",
+   "zh": "是的，这要回到我之前提到的观点——我们生活在硅谷的泡沫中，我们所熟悉的软件工程、产品管理、产品开发等工作模式，与支撑整个经济运行的核心业务流程有着天壤之别。我每天与客户交流时都能深切体会到这一点。若你与非科技公司的企业打交道，就会发现其中蕴含着大量业务流程。（00:54:18）  \n我所说的意思是，软件工程本质上属于开放式知识工作，对吧？这也是我认为像Codex这样的工具表现出色的原因——因为它需要不断探索，用户给出开放式任务，而软件工程本质上是高度开放且不可重复的。你开发一个功能时，绝不会重复建造完全相同的功能。（00:54:42）  \n许多科技岗位都属于这一范畴。数据科学也属于此类，甚至一些战略财务工作也是如此。但当你逐渐远离软件工程等科技核心领域时，大部分工作就变成了纯粹的业务流程。这些都是可重复的操作流程，企业管理者通常会对其进行优化，通常存在标准操作流程，人们不愿偏离既定模式。软件工程的创新在于打破常规，而现实中大部分工作不过是在执行这些流程和操作。例如，打客服电话时，对方会照本宣科；联系水电公司时，对方能做什么、不能做什么都受流程限制。  \n（00:55:35）  \n所以我对这一领域极为看好。但人们往往低估了它的价值，因为它与硅谷的认知相去甚远。如何将AI及现有工具框架应用于业务流程自动化，通过高度确定性的流程简化重复性工作，并与企业数据、决策及不同系统深度融合，才是真正的挑战。这一领域蕴藏着巨大机遇和深层挑战，只是我们尚未充分关注，因为它超出了我们的核心专长范围。",
+   "ts": "00:53:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So your take here, just to make sure I fully understand it, is you think there's a much bigger opportunity outside of engineering for AI to impact productivity of companies and also jobs of these folks that are doing these kind of repetitive, easily automated tasks?",
+   "zh": "所以你的观点是，在工程领域之外，AI对企业生产力和重复性任务自动化影响的潜力要大得多？",
+   "ts": "00:56:20"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Impact jobs and also just impact how work is done. So much of work is done in this way. Basically, I talk to customers all the time, big enterprises, like, \"How will AI transform my company? How will it run in a world with AI in 20 years?\" And software engineering is part of the story, but there's so much more on the business process side. And I actually think it might look even more different on the business process side and the work there is pretty substantial. (00:57:04): It's actually interesting. I don't know if from an absolute percentage or absolute basis, I don't know if it's bigger or smaller than software engineering. Software is pretty huge and pretty expensive as well, but it is pretty massive and it's definitely bigger than... It's bigger than you would think it is based off of how people talk about it or don't talk about it on X or Twitter.",
+   "zh": "它会对就业产生影响，也会改变人们的工作方式。如今很多工作都是以这种方式完成的。基本上，我每天都在和客户沟通，尤其是大型企业客户，他们会问：“人工智能将如何改变我的公司？20年后，在人工智能盛行的世界里，它会如何运作？”软件工程固然是其中一部分，但商业流程方面的影响更为深远。我甚至认为，在商业流程层面，人工智能的影响可能更为显著，而这方面的挑战也相当严峻。（00:57:04）：这确实很有意思。我不确定从绝对比例还是绝对基数来看，人工智能在商业流程方面的影响是否比软件工程更大或更小。软件工程领域规模庞大且成本高昂，但其影响力确实非同寻常，而且规模远超人们的想象——无论是从业者对此的讨论程度，还是在X平台或推特上的相关讨论，都远远不足以体现其重要性。",
+   "ts": "00:56:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. And going in a slightly different direction, having built a platform, building the API, people building on API, the biggest question on people's minds is always just, how do I not have OpenAI squash my idea and build their own thing and then destroy this market I created? What's the general policy, what's the general philosophy of how startups should think about where OpenAI is unlikely to go?",
+   "zh": "好的。再换个话题，关于搭建平台、开发API，以及基于API进行开发的公司来说，人们最担心的就是OpenAI会如何窃取他们的创意，开发出自己的产品并颠覆他们所开创的市场。那么，针对初创公司，OpenAI不太可能涉足的领域，普遍的政策和理念是什么？",
+   "ts": "00:57:23"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "My general answer here is the market is so big and so massive. I actually think startups should just not overly think about where OpenAI or these labs are going. I've talked to a lot of startups that have not worked out, startups that are doing really well. Every startup that I've seen that is kind of fizzled out is not because OpenAI or a big lab or Google or something has come and squashed them. It's because they built something and it really didn't resonate with the customers. Whereas the ones that take off, even in very competitive spaces like coding, Cursor is huge at this point and it's because they built something that people really love. And so my general advice is like, don't overly stress about this. Just build something that people like and you will have a space in this. (00:58:35): I can't overstate how big of an opportunity there is right now. The opportunity space in building with AI is so big. A good example of this is the space is so big that the Overton window of what is acceptable and not acceptable for VCs to do has completely changed here. VCs are investing in competitive companies left and right. It's just like the space is so big because the opportunity is unlike anything that we've seen before. (00:58:59): And while that affects how VCs operate, from a startup perspective, it's like the most empowering thing in the world because even if you just build something that some people really, really love, you will end up with a massively valuable business. And so that's why I tell people, \"Don't overthink about it.\" The other thing I also think is important to remember, at least from an OpenAI perspective, one thing that we've always held very near and dear, which both Sam and Greg helped reinforce from the top as well, is we actually view ourselves fundamentally as a ecosystem platform company. The API was our first product. (00:59:34): We think it's really important for us to foster this ecosystem and continue to support it and not squash it. And so if you kind of look at the decisions we make, this is all weaved through it. Every single model we've released in one of our products gets released in the API. Even we release these Codex models now that are a little bit more optimized for the Codex harness, but they always find their way into the API and all of our customers end up using those. We don't hold back on any of that. I We think it's really important to keep our platform neutral. And so we don't block competitors. We allow people to have access to our models. We also want, we've recently been testing more of the sign-in with ChatGPT product as well. And so we want to foster this ecosystem. I think it's really important that we do so. (01:00:19): The general thinking about this is a rising tide lifts all boats. And we might be an aircraft carrier. We're pretty big at this point, but we think it's important to raise the tide because everyone kind of benefits and I think we'll benefit as well. Our API itself has grown pretty significantly because we act in this way. And so I'd really encourage people not to view OpenAI as this kind of thing that'll just shove people out of the way, but instead focus on building something valuable. And we remain committed to providing an open ecosystem.",
+   "zh": "我的总体回答是，市场规模太大、太广阔了。我认为初创公司不必过度担忧OpenAI或这些实验室的动向。我接触过许多未能成功的初创公司，也有发展得非常好的初创企业。那些最终失败的初创公司，并非因为OpenAI、某个大型实验室或谷歌之类的巨头将它们挤出市场，而是因为他们开发的产品未能真正触动用户需求。而那些成功的公司，比如在编程领域备受瞩目的Cursor，之所以能脱颖而出，是因为他们打造了深受用户喜爱的产品。因此，我的建议是，不要过度焦虑。只要专注于打造人们喜爱的产品，就能在市场中占据一席之地。  \n\n（00:58:35）：我再怎么强调当下机遇的规模之大都不为过。在人工智能领域，机遇空间之广阔令人惊叹。一个典型例子是，VC们投资竞品公司的热情空前高涨，说明这个领域的潜力远超我们以往想象。  \n\n（00:58:59）：虽然VC的运作方式因此发生了变化，但从初创企业的角度来看，这反而是最具赋能性的时刻。即使你只开发出让一小部分人真心喜爱的产品，最终也能收获极具价值的业务。因此我常告诫人们：“别想太多，专注行动。” \n\n另外，我认为至少从OpenAI的视角来看，有一点至关重要——山姆和格雷格始终强调，我们本质上是一个生态平台公司。API是我们的首个产品。我们深信，培育并支持这个生态系统至关重要，而非压制它。  \n\n举例来说，我们发布的每个模型都会同步到API中。即使现在推出的Codex模型针对Codex Harness进行了优化，最终也会纳入API，让所有用户都能使用。我们从不保留任何技术壁垒，坚持保持平台中立，不阻碍竞争对手获取模型资源。近期我们还在测试与ChatGPT的登录功能，旨在进一步促进生态发展。这对我们至关重要。  \n\n（01:00:19）：整体理念是水涨船高。我们或许是航空母舰，但目前规模已然庞大，却认为提升整个行业水平至关重要，这样大家都能受益，我们自己也会受益。得益于这种开放策略，API用户量显著增长。因此我希望大家不要把OpenAI视为会排挤他人的存在，而是专注于创造有价值的产品。我们将继续致力于构建开放的生态系统。",
+   "ts": "00:57:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Why is that important to OpenAI? Just this focus on building a platform, creating a way for people to build businesses? Is that just that's been the vision from the beginning? We want this to be a platform?",
+   "zh": "为什么这对OpenAI很重要？仅仅是专注于构建平台，创造让人们建立业务的途径吗？这是否从一开始就是愿景？我们希望这成为一个平台？",
+   "ts": "01:00:51"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "It's been the vision from the beginning. It goes back to our charter actually, like our mission. So OpenAI's mission has always been, one, to build AGI, so we're obviously doing that. But then the second thing is to spread the benefits of it to all of humanity. And the main part there is all of humanity. And obviously ChatGPT is trying to do this. We're trying to reach however many, the whole world. But very early on, and this is why we launched the API back in, I think it was like 2020 or something really early. We don't think we as a company will be able to reach all of humanity. I don't know, every corner of the world's pretty deep. And so we actually feel like in order for us to fulfill our mission, we need to have some platform style thing here where we can empower other people to build the customer support bot for podcasters and newsletter hosts because we're not going to be able to do it ourselves. (01:01:58): And so we've largely seen this play out with the API. This is why we talk to so many of our customers and really love seeing the diversity of things built on. But yeah, it's been there since day one because we view it as an expression of our mission.",
+   "zh": "这从一开始就是我们的愿景。实际上，这可以追溯到我们的使命宣言。OpenAI的使命一直是，一是开发通用人工智能（AGI），显然我们正在朝着这个方向努力。但第二个目标是让全人类都能享受到其带来的益处。这里关键在于“全人类”。显然，ChatGPT正朝着这个方向努力。我们正努力触达全球用户，但早在很久以前——我想大概是2020年左右——我们就推出了API接口。我们认为，作为一家公司，我们无法独自完成覆盖全人类的任务。毕竟，全球每个角落都深藏着挑战。因此，我们深信，要实现我们的使命，就必须搭建一个平台，让其他人能够开发出针对播客主和新闻通讯主的客户支持机器人——毕竟我们自己无法做到这一点。\n\n（01:01:58）：API接口的成功很好地验证了这一点。正因如此，我们与众多客户保持沟通，乐于看到基于API开发的丰富应用。但从一开始这就是我们的核心理念，因为我们将其视为使命的具体体现。",
+   "ts": "01:01:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And you haven't even mentioned the app store that you guys are launching, the ChatGPT app store.",
+   "zh": "你们甚至还没提到即将推出的应用商店——ChatGPT应用商店。",
+   "ts": "01:02:12"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:02:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is that under your umbrella, by the way, or is that a different org and team?",
+   "zh": "顺便问一下，它归属于你们公司吗？还是属于另一个团队？",
+   "ts": "01:02:17"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "It's a different team. So it's under ChatGPT. We obviously collaborate very closely with them. And they built an apps SDK, which was built in close collaboration with our team. But that is more within the ChatGPT umbrella. But that's another example of this. It's like ChatGPT is... We kind of have these 800 million weekly active users who are just coming over and over again. It's a great asset to have as a business, but man would it be better if we could somehow allow other companies to come in and take advantage of this as well and build for this audience as well. And then ultimately, we think it'll help us expand that group as well. And so it all kind of comes back to the mission and we find that being a platform being open tends to help here.",
+   "zh": "是另一个团队的。所以它归属于ChatGPT。我们与他们密切合作。他们开发了一个应用SDK，这个SDK是与我们的团队紧密协作完成的。但这更多属于ChatGPT的范畴。不过这也是一个例子。ChatGPT现在有8亿周活用户，不断回访。这对我们来说是宝贵的资产，但如果能让其他公司也利用这一资源，为这些用户群体开发产品，那就再好不过了。最终，我们相信这也能帮助我们扩大用户群体。因此，一切都回归到使命本身，我们发现开放平台往往能在这方面发挥作用。",
+   "ts": "01:02:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just that number, 800 million, I think it's MAs just like-",
+   "zh": "就那个数字来说，8亿，应该指的是MAU（月活用户）吧——",
+   "ts": "01:03:05"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "No, no, no. It's weekly. Weekly active users.",
+   "zh": "不，不，不。是周活用户。",
+   "ts": "01:03:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Weekly active.",
+   "zh": "周活用户。",
+   "ts": "01:03:11"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, it's crazy.",
+   "zh": "是啊，太疯狂了。",
+   "ts": "01:03:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Almost a billion people using weekly. It's absurd how these numbers we're just used to now, but that's insane. Unprecedented.",
+   "zh": "每周有近10亿人使用。这数字简直太不可思议了。现在我们对这些数字习以为常，但曾经是难以想象的。",
+   "ts": "01:03:13"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. It's mind-boggling for me to think about from a scale perspective, honestly. And the way I think about it is 10% of the world, and growing, by the way, it's shooting up, come to ChatGPT and use it every day, or sorry, every week.",
+   "zh": "是啊。从规模角度来看，这真让人难以置信。说实话，我认为全球10%的人口（而且这个比例还在上升）每天——或者更准确地说，每周——都会使用ChatGPT。",
+   "ts": "01:03:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And this point, I just want to double down on this point you're making. OpenAI's mission was to make AI available to all of humanity. And I think some people diss that, they're like, \"Oh, it costs money.\" And the fact that there's a free version of ChatGPT that anybody can use that is not so different from the most powerful AI model that exists in the world for free, that's not gated, that anyone can use. If you're a billionaire, there's only so much more you can get out of AI than what someone in a village in Africa can get. And I know that's always been really important to OpenAI.",
+   "zh": "关于这一点，我只想再强调一下您提到的观点。OpenAI的使命是让所有人类都能使用人工智能。我觉得有些人对此不以为然，他们会说：“哦，这需要花钱。”但ChatGPT的免费版本已经上线了，任何人都能使用。它与全球最强大的AI模型相比，免费且无限制，任何人都能使用。如果你是一位亿万富翁，你能从人工智能中获得的收益与非洲村庄里的人相比也相差无几。我知道这一点对OpenAI来说一直非常重要。",
+   "ts": "01:03:37"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Yeah. I mean, look, that's why I think we've leaned into the health work, we've leaned into education's going to be very interesting here. The other insane kind of trend here is the free model has gone so smart over time. The free model back in 2022 was good at the time, but it's like nothing compared to what you get today because you get GPT-5 today. And so the raising the floor across the world is kind of something that we're really trying to do. And we view it as part of our mission. (01:04:42): The other flip side of this, by the way, is talking about the billionaires or whatever. I know people love saying you're using the same iPhone that Mark Zuckerberg's probably using or what the billionaires are using, but for like $20 a month, you're basically using the same AI that the billionaires are using. For $200 a month, you get the same pro model that all the billionaires are using, but they're probably not using Pro for everything. They're probably just using the plus tier ones for their day in and day out. And so yeah, this kind of democratization and just spreading of this benefit across all of the world is something that's really meaningful to us and something that drives a lot of what we do.",
+   "zh": "是啊。我是说，你看，这就是为什么我们专注于医疗健康领域，教育领域也会非常有趣。另一个令人惊讶的趋势是，免费模型随着时间变得越来越智能。2022年的免费模型当时已经不错，但与现在相比简直不可同日而语，因为现在你能用上GPT-5。所以在全球范围内提升技术水平是我们真正在努力做的事情，我们把这视为我们使命的一部分。（01:04:42）：顺便说一下，关于亿万富翁之类的话题。我知道人们喜欢说你用的iPhone可能和马克·扎克伯格用的一样，或者亿万富翁用的也一样，但每月只需20美元，你就能使用和亿万富翁一样的人工智能模型。每月200美元，你就能获得亿万富翁用的专业版模型，但他们可能不会在所有场景都用专业版。他们日常可能只用增强版。所以是的，这种民主化进程，以及将这种好处推广到全球各地，对我们来说意义非凡，也是我们很多工作的驱动力。",
+   "ts": "01:04:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "One last question, just for folks that are thinking about building on the API are just like, \"Oh wait, I could do cool stuff with OpenAI's models and APIs.\" What does your API and platform allow people to do? I know you can build agents on top of the platform. Just talk about what you allow.",
+   "zh": "最后一个问题，对于那些考虑在API上进行开发的人，他们可能会说：“哦，等等，我可以用OpenAI的模型和API做一些很酷的事情。”你们的API和平台允许人们做什么？我知道可以在平台上构建智能助手。你能谈谈都允许做些什么吗？",
+   "ts": "01:05:22"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "So fundamentally, the API offers a bunch of developer endpoints, and these developer emperors basically let you sample from our models. The most popular one that we have right now is one called Responses API. And so this is an endpoint and it's optimized for building long running agents, so agents that'll work for a while. So what you can basically do is at a very low level, you're basically just giving the model text. The model will work for a while. You can kind of pull it to see what it'll do, and then you'll get the model response back at some point. That's like the lowest level primitive that we have for people. And that's actually what a lot of people use. That's the most popular way of building on top of our API. With that, it is super unopinionated and you can do basically whatever you want. It's like the lowest level thing. (01:06:24): We've also started building more and more layers of abstraction on top to help people build some of these. And so next layer up, we have this thing called the Agents SDK, which has also gotten extremely, extremely popular. This allows you to use the Responses API or some other API endpoints that we have to build what you might more traditionally think of as an agent, like an AI working in an infinite loop. It might have sub-agents that it delegates to. It starts building all this framework, all the scaffolding actually. We'll see where this all goes, but it makes it a lot easier for you to build these kind of agents, giving it guardrails, allowing it to farm out sub-tasks to other agents and kind of orchestrate a swarm of agents. The Agents SDK allows you to do that. (01:07:08): And then above that, we've now started building tools to help also with the meta level of deploying an agent. So we have this product called AgentKit and widgets, which are basically a bunch of UI components that you can use to very easily build a very beautiful UI on top of either our API or Agents SDK because a lot of times these agents look very similar from a UI perspective. And so there's AgentKit. We also have a smattering of evals products, like an evals API where if you want to test and see if your agent or your workflow's working, you can test it in a very quantitative way using our evals product. (01:07:50): And so yeah, I view it as these various layers. They're all kind of helping you build what you want with our AI, with our models, and with increasing levels of abstraction and how opinionated it is. And so you can use the whole stack and it very quickly allows you to build an agent, or you can go down the stack as low as you want to basically Responses API and build whatever you want because of how low low level it is.",
+   "zh": "简而言之，API提供了许多开发者端点，这些开发者端点基本上允许你从我们的模型中进行抽样。目前我们最受欢迎的API是名为\"响应API\"的端点。这个端点专为构建长期运行的智能体而优化，即能够长时间工作的智能体。基本上，用户可以在非常低的层级上直接向模型提供文本，模型会持续运行一段时间。你可以随时查看模型的输出结果，最终会收到模型的响应。这是我们为开发者提供的最基础的原始功能，也是很多人最常用的构建方式。它极其灵活，几乎可以随心所欲地进行开发，是最底层的原始功能。  \n\n（01:06:24）我们还开始在此基础上构建越来越多的抽象层，帮助开发者完成相关工作。例如，下一层是名为\"智能体SDK\"的工具，它也极受欢迎。该SDK允许你使用响应API或其他API端点来构建传统意义上的智能体——比如一个无限循环的AI。智能体可能包含子智能体，负责分派任务。它会构建整个框架和支撑体系。我们拭目以待，但这确实大大简化了智能体开发过程，提供了安全框架，支持将子任务分派给其他智能体，并实现智能体集群的协同。  \n\n（01:07:08）在此之上，我们还开发了辅助工具，帮助处理智能体部署的元级别问题。例如，名为\"AgentKit\"的平台和UI组件（widgets），让你可以基于我们的API或智能体SDK轻松构建美观的UI界面，因为很多智能体在UI层面非常相似。还有评估工具（evals API），当你想测试智能体或工作流是否正常运行时，可以通过评估API进行量化测试。  \n\n（01:07:50）总之，我认为这些层级互补。它们都在帮助开发者利用我们的AI和模型进行开发，抽象层次逐渐增加，灵活性也随之增强。你可以使用整个技术栈快速构建智能体，也可以深入底层使用响应API，基于其低层特性自由开发。",
+   "ts": "01:05:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Sherwin, is there anything else that you want to share? Anything else you want to leave listeners with? Anything we haven't touched on that you think might be helpful before we get to our very exciting lightning round?",
+   "zh": "Sherwin，你还有什么想分享的吗？有没有什么想留给听众的信息？在我们进入激动人心的闪电问答环节之前，有没有什么我们没有涉及到但你认为可能有帮助的内容？",
+   "ts": "01:08:17"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "The only thing I'd leave folks with is, yeah, I think the next two to three years are going to be some of the most fun in tech and in the startup world that we'll have in a very long time. And I would just encourage people to not take it for granted. I entered the workforce in 2014. It was great for a couple years. I felt like there was a period of five to six years where it wasn't very exciting in tech. And then in the last three years, it's just been the most insanely exciting, energizing period of my career. And I think the next two to three years is going to be a continuation of that. (01:09:01): And so would encourage people not take it for granted, I'm trying to not take it for granted. At some point, this wave's going to play out and it's going to be a lot more incremental, but in the meantime, we're going to get to explore a lot of really cool things, invent a lot of new things and change the world and change how we work. And so that's the main thing I'd leave folks with.",
+   "zh": "接下来我想说的是，我认为未来两到三年将是科技和创业领域最激动人心的时期，可能是很长一段时间以来最令人兴奋的时期了。我希望大家不要把这一切视为理所当然。我2014年加入职场，起初几年还不错，但随后有五到六年的时间科技行业并不令人兴奋。过去三年却是最令人激动、最具活力的时期。我相信未来两到三年还会延续这种势头。\n\n（01:09:01）所以我要鼓励大家不要把这一切视为理所当然，我自己也在努力不把它当作理所当然。终有一天，这股浪潮会逐渐平息，发展会更加循序渐进，但在此期间，我们将有机会探索许多酷炫的事物，发明许多新技术，改变世界，改变我们的工作方式。这就是我想传达给大家最重要的信息。",
+   "ts": "01:08:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love this message. I want to spend a little more time on it. When you say don't miss it, what do you recommend people do? Is it just build, lean in, learn, join a company building really interesting things? What's your advice to folks that are like, \"Okay, I don't want to miss the boat.\"",
+   "zh": "我很喜欢你的这个观点。想再多聊聊。你建议人们怎么做？是专注投入、不断学习、加入正在开发有趣项目的公司吗？对于那些想\"不愿错过良机\"的人，你有什么建议？",
+   "ts": "01:09:19"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, I would just say engage with it. So it's basically like what you said, lean in. Building tools on top of this is part of the story. Just using the tools, you don't need to be a software engineer to lean into this. I think a lot of jobs are going to change here. So just using the tools, understanding the limitations of what it can and cannot do so that you can kind of watch the trend of what it can start to do as the models improve. And so it's basically getting used to this technology and getting familiar with it instead of laying back and letting it pass you.",
+   "zh": "是的，我想说的是积极参与。这和你的建议基本一致，就是专注投入。基于现有技术进行开发是其中的一个部分。即便你不是软件工程师，也能参与其中。我认为很多工作岗位都会发生变化。所以只要掌握这些工具，理解其局限性，当模型不断改进时，就能见证它能做什么。关键在于熟悉这项技术，而不是被动等待它从你身边溜走。",
+   "ts": "01:09:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "On the flip side of that, there's a lot of, I think, stress and just anxiety around, \"There's so much happening, how do I keep up? I got to learn Clawdbot this week. Oh God.\" Is there something you learned about it just not... You're at the center of this. How do you not get overly stressed and worried about missing things that are going on and just you stay on top of news? What are some things you've done and learned?",
+   "zh": "反过来说，人们也感到压力重重、焦虑不安，\"变化太快，我该如何跟上？这周又要学Clawdbot了，天哪。\"你自己处于行业核心，有没有什么方法避免过度焦虑，掌握最新动态？你做了哪些努力？",
+   "ts": "01:10:07"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. So I think I'm personally a bad example of this because I'm basically chronically online on X and our company Slack. So I actually try and absorb. I end up absorbing a lot of it. What I will say though, just from observing other folks who are less addicted to this stuff like I am. Yeah, a lot of it is noise. You don't need to have 110% of this kind of pass your mind, go into your mind. Honestly, just leaning into one or two different tools, starting small is already more than you need. (01:11:02): Here, I think just the combination of the frenetic pace of the industry, X as a product just creates this insane pace of news, which is honestly very overwhelming. The main thing is you don't need to know all of that to really engage with what's happening right now. And even something as simple as just like install the Codex Cline and play around with it. Install ChatGPT and connect it to a couple of your internal data sources, Notion, Slack, GitHub, and see what it can and cannot do. All of that I think is a part of it.",
+   "zh": "是的。我个人在这方面做得不好，因为我基本上一整天都在X和公司的Slack上刷信息。所以我尽量吸收信息。但从观察其他不那么沉迷这些平台的人来看，他们也面临很多噪音。没必要全盘接受所有信息。专注一两个工具，从小处着手就足够了。（01:11:02）我觉得关键在于，行业的快节奏加上X这样的产品，带来了海量信息，这确实让人应接不暇。但要参与当下的事务，真的不需要了解所有信息。哪怕只是安装Codex Clone，尝试一下，安装ChatGPT，将其与内部数据源（Notion、Slack、GitHub）连接起来，看看它能做什么、不能做什么，这些都是很好的入门方式。",
+   "ts": "01:10:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Sherwin, with that we've reached our very exciting lightning round. I've got five questions for you. Are you ready?",
+   "zh": "太棒了。谢尔温，接下来我们要进行激动人心的闪电问答环节了。我有五个问题要问你。你准备好了吗？",
+   "ts": "01:11:39"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Yeah, absolutely.",
+   "zh": "好的。好的，没问题。",
+   "ts": "01:11:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "First question, what are two or three books that you find yourself recommending most to other people?",
+   "zh": "第一个问题：你觉得哪两三本书是你最常向别人推荐的？",
+   "ts": "01:11:46"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "I'll talk about one nonfiction and one fiction book. The fiction book was I just finished reading it. I really recommend it. There Is No Antimemetics Division by qntm. I think it's like an online author, but I saw it being shared on X. It's like a science fiction-y kind of book and I basically devoured it in like two days. It's super, super well written, super fascinating. It's about a government agency that's fighting things that make you forget it. And so it's just a very smart creative book and fresh, honestly, in terms of source material that I really like. So I'd recommend that one. The book is also unintentionally hilarious. So it's meant to be this sci-fi, almost like horror style book, but it made me laugh a couple times. So that's the fiction book. (01:12:43): Non-fiction, so I'm going to cheat and I'm going to recommend two of them. So in the last year, I've been reading a lot more about China and the US-China relations. And I think there are two books that came out in the last year that have been really, really eye-opening for me in that regard. First one is the Dan Wang book, Breakneck. That one was really, really good. I really liked his analogy of the lawyerly, US is the lawyerly society, China is the engineering society, and there are pros and cons to each. I read it and I was like, hmm, yeah, it does seem like we're run by lawyers in the US. So then that's one. (01:13:14): And the other one is the Patrick McGee book on Apple in China. It was super, super interesting. I'm a huge Apple fanboy. If you could see my desk right now, it's all Apple stuff. But just one, it was just super fascinating learning about Apple's relationship to China. And then two, it just had a lot of inside information about Apple as a company that I found fascinating. So it was also quite a page-turner and also a very, very timely book as well.",
+   "zh": "我要说一本非小说类书籍和一本小说类书籍。小说类书籍是我刚读完的，非常推荐。是qntm写的《没有反记忆部门》。我觉得这本书作者是个网络作家，但我在X上看到有人分享。这是一本带有科幻色彩的书，我两天就读完了。写得非常非常好，特别引人入胜。讲的是一个政府机构对抗让人遗忘事物的东西。整体来说这是一本非常有创意、很新颖的书，尤其是在素材选取方面，我很喜欢。所以我推荐这本。还有这本书无意中特别搞笑。本来是部科幻、近乎恐怖风格的书，但让我笑了好几次。这就是小说类书籍。（01:12:43）非小说类书籍，我要偷个懒，推荐两本。过去一年我读了很多关于中美关系的书，觉得去年有两本让我大开眼界。第一本是王丹的《急转直下》。这本书真的很棒。我很喜欢他用律师社会和工程社会来比喻中美两国，各自有利弊。我读完后就觉得，嗯，是啊，我们美国确实是律师社会。第二本是麦吉写的《苹果在中国的故事》。特别有意思。我是苹果的超级粉丝，如果你现在能看到我的书桌，全是苹果相关的东西。但这本书特别有意思，一是讲苹果和中国的关系，二是里面有很多苹果内部信息，非常吸引人。所以这本书也特别引人入胜，也是本很应时的书。",
+   "ts": "01:11:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The antimemetics book sounds amazing. I'm buying it right now as you're talking.",
+   "zh": "那本反记忆部门听起来很棒。我现在就去买。",
+   "ts": "01:13:39"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Yeah. I think it's only a couple hundred pages. I literally finished it in two days.",
+   "zh": "是啊是啊。这本书才几百页，我两天就读完了。",
+   "ts": "01:13:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Perfect. The dream.",
+   "zh": "太完美了。梦想成真。",
+   "ts": "01:13:47"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "It was just so, so good.",
+   "zh": "真的太棒了。",
+   "ts": "01:13:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Great tip. Okay. Favorite recent movie or TV show you have really enjoyed?",
+   "zh": "好的。好建议。好的。最近有没有特别喜欢的电影或电视剧？",
+   "ts": "01:13:49"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, that one's tough because I have two kids and a busy job, and so I really haven't had much time to watch TV shows. I will say in the last couple weeks, I watched a couple episodes. I'm actually a big anime guy. And so I watched a couple episodes. There's a new season of this anime called Jujutsu Kaisen that's out. So season three of JJK was really good. In general, I'm a huge fan of Japanese anime. I think they create the most novel and unique plots and universes that Western media has shied away from. And so generally a big fan of that. But yeah, haven't really watched much, but saw a couple episodes of JJK recently.",
+   "zh": "嗯，这个问题挺难的，因为我有两个孩子，工作又忙，所以没太多时间看电视剧。不过最近几周我看了几集动漫。我特别喜欢动漫。最近新出的《咒术回战》第三季特别好。我总体上很喜欢日本动漫，觉得他们创造了很多西方媒体避之不及的、新奇独特的剧情和宇宙。所以特别喜欢动漫。不过确实最近没怎么看，但最近看了几集《咒术回战》。",
+   "ts": "01:13:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Extremely understandable in your role.",
+   "zh": "在你这个角色中，这完全可以理解。",
+   "ts": "01:14:39"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "01:14:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Favorite product you recently discovered that you really love.",
+   "zh": "你最近发现的最喜欢的产品是什么？",
+   "ts": "01:14:42"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Okay. So I recently had to set up a wifi and like home networking and I went all-in on Ubiquiti routers and security cameras. I'd never heard of it before I had to do this. I always just had a very simple setup. And it is just such a well-built product. I don't know if you used it before, but it's basically like the Apple of home networking. So beautiful products, but the thing that actually makes it extremely good is its software is good. And so they have a really great mobile app to help manage all of the home networking. (01:15:19): And so basically Ubiquiti, you can use it to buy wireless routers. You need ethernet wiring throughout your house to use it. But I actually think what makes it really good are its security cameras. So if you have security cameras that are plugged into the Ubiquiti ecosystem, they have an incredible mobile app and Apple TV app and iPad app to kind of see the live feed of your cameras. And so they're a little pricey, but not that pricey, but it's been just an incredible product experience.",
+   "zh": "是啊，好的。我最近需要设置Wi-Fi和家庭网络，所以就全力投入了Ubiquiti路由器和安防摄像头。我之前从没听说过这个品牌，以前用的都是很简单的配置。Ubiquiti的产品做工真是太棒了。不知道你用过没，它简直就是家庭网络领域的苹果。产品设计精美，但真正出色的还是软件。他们的移动应用能帮你管理整个家庭网络。（01:15:19）Ubiquiti的路由器需要全屋布线才能使用，但我觉得安防摄像头才是亮点。只要摄像头接入Ubiquiti生态系统，配套的移动应用、Apple TV应用和iPad应用就能实时查看监控画面。虽然价格不算便宜，但整体体验堪称惊艳。",
+   "ts": "01:14:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "All right. I went eero, so I made a mistake.",
+   "zh": "好吧，我之前选了eero，选错了。",
+   "ts": "01:15:46"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Eeros are pretty good too, but-",
+   "zh": "eero产品也不错，不过——",
+   "ts": "01:15:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's not Ubiquiti.",
+   "zh": "还是比不上Ubiquiti。",
+   "ts": "01:15:51"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Fully converted to Ubiquiti at this point.",
+   "zh": "现在我完全转用Ubiquiti了。",
+   "ts": "01:15:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, good tip. Okay. Two more questions. Do you have a favorite life motto that you find yourself coming back to in work or in life?",
+   "zh": "好的，不错的小建议。再问两个问题。你有没有一条人生格言，在工作或生活中经常回味？",
+   "ts": "01:15:53"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. The one that I always repeat to myself is never feel sorry for yourself. There's a lot of things that are going to happen at work, in life, and reminding yourself to never feel sorry and that you always have a sense of agency to kind of pull yourself up is something that I've had to tell myself a lot and also something that I repeat to a lot of other folks as well.",
+   "zh": "有啊。我常对自己说永远别自怨自艾。工作和生活中总会遇到各种事，要提醒自己别自怜自艾，保持积极进取的心态，这句话我常对自己说，也常跟别人分享。",
+   "ts": "01:16:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Last question. So in your previous life, you worked at Opendoor where you led work on basically figuring out how much to pay for houses. You basically built a model that told the company, \"Here's how much we'll pay for this house.\" What's a variable in the price of a house that you didn't expect is really important and impacts the price of a house?",
+   "zh": "最后一个问题。你之前在Opendoor工作，负责房屋估价模型的开发。能否谈谈一个意外发现的房屋估价变量？",
+   "ts": "01:16:22"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "There's a bunch that were surprising. I'll maybe list the couple of the most interesting ones. Power lines and high voltage power lines are super, super, they actually impact your price quite a lot. I didn't really fully internalize this until I went to Dallas and observed when your house sits next to one of these giant voltage lines, it was buzzing and most people have families, you don't want your kids near there. So I think that was one that really, really kind of surprised me.",
+   "zh": "有很多意外发现。比如高压电线对房价影响巨大。我去达拉斯实地考察后，才深刻体会到当房子紧邻高压电线时，电线嗡嗡作响，附近住户大多不愿让孩子靠近。这真让我大吃一惊。",
+   "ts": "01:16:40"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That makes sense.",
+   "zh": "有道理。",
+   "ts": "01:17:10"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. And then the other one, which was something that was always something really difficult for us to quantify was floor plans. And so it is very important. Yes, of course it's really important, but just quantifying what a good floor plan is like and what a really bad floor plan is like. We were doing all these things with how wide is the kitchen and what style of kitchen is it and then where's the master bedroom? And so it was just really, really hard to quantify. But I remember floor plan was a big one because we'd have a home that wouldn't sell and then our ops team would go in and be like, yeah, it's the floor plan issue. So how could you tell? You go inside, you just feel it. The floor plan feels off. (01:17:50): So yeah, those were ones that were surprising. And then the last one that was more impactful than I thought is general curb appeal and even the front door. And so I actually think there's a Zillow book on this where the front door placement tends to be the highest ROI for homes, but just the feel of like as you walk up to the home as a buyer, what you're interacting with and the first moments of the house, I think I'd underrated its importance.",
+   "zh": "是的。还有另一件对我们来说一直很难量化的事情，就是户型图。这真的非常重要。没错，户型图确实很重要，但要量化一个好的户型是什么样的，一个糟糕的户型又是什么样的，却很难。我们会做各种分析，比如厨房有多宽，厨房是什么风格，主卧室在哪里之类的。但量化这些真的太难了。不过我记得户型图是个关键问题，因为有些房子卖不出去时，我们的运营团队就会说，问题出在户型图上。所以你怎么判断呢？你走进房子里，自己就能感觉到。户型感觉不对劲。（01:17:50）：所以是的，这些都让人很意外。最后一个比我想象中更有影响力的是整体外观吸引力，甚至是前门。所以我记得Zillow有一本书提到，前门的位置往往是房屋的最高投资回报率。但当买家走近房子时，他们与房屋的首次互动，以及最初的印象，我觉得我低估了它的重要性。",
+   "ts": "01:17:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That is extremely interesting. And I love that you had to figure how to do all this in code and not walking around look at these houses.",
+   "zh": "这真是太有趣了。而且我很高兴你不得不把所有这些工作用代码实现，而不是亲自去看这些房子。",
+   "ts": "01:18:18"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. And then floor plans. I have a bunch of stories around floor plans, it's not digitized so there's like a handful of people who have paper floor plans of all these homes in Phoenix and Dallas. Yeah, a lot of fun stories from the Opendoor days.",
+   "zh": "是的。还有户型图。我有很多关于户型图的故事，它们没有数字化，所以只有少数几个人手里有凤凰城和达拉斯所有房子的纸质户型图。是的，OpenDoor时期有很多有趣的故事。",
+   "ts": "01:18:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Sherwin, thank you so much for doing this. This was incredible. Where can folks find you online and how can listeners be useful to you?",
+   "zh": "好的。Sherwin，非常感谢你来参加这次访谈。这太棒了。听众可以在哪里找到你？如何能对你有所帮助？",
+   "ts": "01:18:38"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah, so I'm online on Twitter on X. I'm just @SherwinWu. And yeah, I mostly just tweet about OpenAI and the API and some of the products that we're launching. And then how folks can be useful to me. I love hearing about things that people are building. And so if you're working on a startup, if you're hacking on an idea, would love to... Just reach out to me on X. I would love to hear about what you're building and learn about how OpenAI can help support you.",
+   "zh": "是的，我在Twitter和X上。我账号是@SherwinWu。我主要发布关于OpenAI、API以及我们正在推出的产品的内容。还有听众如何能对我有所帮助。我喜欢听别人讲他们正在开发的东西。所以如果你正在创业，或者正在探索一个想法，欢迎在X上联系我。我很乐意听听你在做什么，以及OpenAI如何能支持你。",
+   "ts": "01:18:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Sherwin, thank you so much for being here.",
+   "zh": "太棒了。Sherwin，非常感谢你今天的分享。",
+   "ts": "01:19:11"
+  },
+  {
+   "speaker": "Sherwin Wu",
+   "en": "Yeah. Thank you, Lenny.",
+   "zh": "是的。谢谢你，Lenny。",
+   "ts": "01:19:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. (01:19:16): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "再见，各位。（01:19:16）：非常感谢大家的收听。如果你觉得这期节目有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅。另外，请考虑给我们评分或留下评论，这对其他听众找到节目非常有帮助。你可以在lennyspodcast.com上找到所有往期节目或了解更多信息。下期节目再见。",
+   "ts": "01:19:15"
+  }
+ ]
+}

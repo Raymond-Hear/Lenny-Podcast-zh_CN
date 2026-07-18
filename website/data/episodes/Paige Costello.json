@@ -1,0 +1,887 @@
+{
+ "id": "Paige Costello",
+ "name": "Paige Costello",
+ "category": "职业成长",
+ "identity": "工程/AI",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Paige+Costello",
+ "bio": {
+  "en": "Paige Costello is a product lead at Asana overseeing the teams responsible for Asana's core product experience across desktop, web, and mobile, after previously serving as Director of Product at Intercom and Group Product Manager at Intuit.",
+  "zh": "Paige Costello 是 Asana 的产品负责人，领导负责 Asana 桌面端、网页端与移动端核心产品体验的团队，此前曾任 Intercom 产品总监以及 Intuit 的集团产品经理。"
+ },
+ "summary": {
+  "en": "Paige discusses how Asana evolved its product development process, shifting from yearly planning toward a six-month horizon with frequent revisiting and outcome-aligned teams. She explains how the organization is structured into pillars and areas, each with a specific target customer and problem space, and why over-specifying roadmaps leads teams to make strange scope trade-offs. The episode is full of practical lessons on scaling product planning without losing agility.",
+  "zh": "Paige 探讨了 Asana 产品开发的演进过程：从年度规划转向以六个月为周期、频繁复盘、并与成果对齐的团队模式。她解释了组织如何划分为“支柱（pillar）”与“领域（area）”，每一块都有特定的目标客户与问题空间，并说明过度细化路线图反而会让团队做出奇怪的范围取舍。本期充满了在不丧失敏捷性的前提下扩展产品规划的实战经验。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "en": "You're often the youngest person in the room. What have you learned about how to garner trust and win over skeptics?",
+   "zh": "你常常是房间里最年轻的人。在赢得信任、说服怀疑者方面，你学到了什么？",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "The thing I would say is bring the insight. Know thy customer. Know thy market. Know thy competitors. Know thy numbers. Know thy product.",
+   "zh": "我要说的是，必须提供真知灼见。要了解你的客户、市场、竞争对手、数据和产品。",
+   "ts": "00:00:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm curious, what you find most holds back new PMs?",
+   "zh": "我很好奇，你觉得新晋产品经理最常被什么阻碍？",
+   "ts": "00:00:15"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Your brain is so accustomed to having a scarcity mindset as opposed to creating alternative options or seeing a different path. Effectively, there's this notion of, \"How might the opposite be true?\" The moment I challenged myself and said, \"How might the opposite be true?\" my shoulders dropped. I felt more relaxed. I was like, \"Oh, yeah, I can do both. It will be fine.\"",
+   "zh": "你的大脑太习惯于匮乏思维模式，而非去创造替代方案或探索新路径。实际上，人们总会想：“反过来会怎样呢？” 当我挑战自己，问“反过来会怎样呢？”那一刻，我肩膀放松了，感觉更自在了。我心想：“哦，对啊，我可以两者兼顾，一切都会好的。”",
+   "ts": "00:00:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Welcome to Lenny's Podcast, where I interview world-class product leaders and growth experts to learn from their hard-won experiences building and growing today's most successful products. Today, my guest is Paige Costello. Paige is a product lead at Asana overseeing teams responsible for the core product experience of Asana. Before Asana, she was Director of Product at Intercom, and prior to that, she was a group product manager at Intuit where she spent five and a half years. In our wide-ranging conversation, we dig into strategies for building trust with people who are more experienced than you or older than you, we talk about coaching product managers, including why leading by example is often the most effective strategy, we talk about Asana's product development process and how it's evolved over the years as the company has scaled, plus some of Paige's product and career missteps, and what she's learned from those moments. To prep for this interview, I got input from some of Paige's colleagues and former colleagues, and everyone I talked to loved Paige. You'll soon see why. Enjoy this episode with Paige Costello after a short word from our sponsors. (00:01:47): Today's episode is brought to you by Brave Search and their newest product, the Brave Search API, an independent global search index you can use to power your search or AI apps. If your work involves AI, then you know how important new data is to train your LLMs and to power your AI applications. You might be building an incredible AI product, but if you're using the same data sets as your competitors to train your models, you don't have much of an advantage. Brave Search is the fastest growing search engine since Bing, and it's 100% independent from the big tech companies. Its index features billions of pages of high-quality data from real humans, and it's constantly updated thanks to being the default search engine in the Brave browser. (00:02:29): If you're building products with search capabilities, you're probably experiencing soaring API costs or lack of viable global alternatives to Bing or Google. It's only going to become harder to afford these challenges. The Brave Search API gives you access to its novel web scale data with competitive features, intuitive structuring, and affordable costs. AI devs will particularly benefit from data containing thorough coverage of recent events. Lenny's Podcast listeners can get started testing the API for free at brave.com/lenny. That's brave.com/lenny. (00:03:04): This episode is brought to you by Attio, a new type of CRM that's powerful, flexible, and built around your data. Traditional CRMs were built for a different era with totally different speed, scale, and data demands. Attio is different. It allows you to quickly build a CRM that matches your unique workflows and data structures. Within minutes of connecting your email and calendar, you'll have a CRM that's already set up complete with customer profiles and automatic data enrichment. You'll also have real-time dynamic reporting at your fingertips. No more slow deployments, outdated user experiences, or tedious manual data input. With Attio, you can build and adapt your CRM on the fly no matter your business model or company stage. Attio is the CRM for fast-growing startups. Get started today and get 15% off your first year at attio.com/lenny. That's A-T-T-I-O.com/lenny. (00:04:05): Paige, welcome to the podcast.",
+   "zh": "欢迎收听《Lenny的播客》。在这里，我会采访世界级的产品领袖和增长专家，从他们宝贵的经验中学习如何打造和发展当今最成功的产品。今天的嘉宾是Paige Costello。她目前在Asana担任产品负责人，负责监督核心产品体验团队。在加入Asana之前，她曾担任Intercom的产品总监，更早之前则在Intuit担任了五年半的集团产品经理。在这场内容丰富的对话中，我们深入探讨了如何与比自己更有经验或年长的人建立信任的策略，讨论了如何指导产品经理（包括为什么以身作则往往是最有效的策略），分析了Asana的产品开发流程及其随着公司规模扩张而演变的历程，还分享了Paige在产品和职业生涯中的一些失误，以及她从中吸取的教训。为准备这次采访，我征求了Paige的一些同事和前同事的意见，所有与我交谈过的人都对她赞不绝口。很快您就会明白原因。感谢赞助商的支持，接下来让我们与Paige Costello一起开启这场精彩对话。（00:01:47）：本期节目由Brave Search及其最新产品Brave Search API赞助。这是一款独立的全球搜索索引，您可以用它来驱动您的搜索或AI应用程序。如果您的业务涉及AI，那么您一定知道新数据对训练LLM和支持AI应用程序的重要性。您可能正在开发一款令人惊叹的AI产品，但如果您使用与竞争对手相同的数据集来训练模型，那么您就没有太多的优势。Brave Search是自Bing以来增长最快的搜索引擎，并且完全独立于大型科技公司。其索引包含数十亿页来自真实人类的高质量数据，并通过成为Brave浏览器的默认搜索引擎而不断更新。（00:02:29）：如果您正在开发具有搜索功能的产品，您可能正面临API成本飙升或缺乏可行的全球替代Bing或Google的选择。这些挑战只会变得越来越难以承受。Brave Search API让您可以访问其新颖的Web级数据，具有具有竞争力的功能、直观的结构和实惠的成本。AI开发者将特别受益于包含近期事件全面覆盖的数据。Lenny's Podcast的听众可以在brave.com/lenny免费开始测试API。就是brave.com/lenny。（00:03:04）：本期节目由Attio赞助，这是一款强大、灵活、围绕您的数据构建的新型CRM。传统CRM是为不同时代、具有完全不同速度、规模和数据需求而构建的。Attio则不同。它让您能够快速构建一个与您独特的工作流程和数据结构相匹配的CRM。在连接您的电子邮件和日历后的几分钟内，您将拥有一个已经设置好的CRM，包含客户资料和自动数据充实功能。您还可以随时获取实时动态报告。不再有缓慢的部署、过时的用户体验或繁琐的手动数据输入。使用Attio，无论您的业务模型或公司阶段如何，您都可以随时随地构建和调整您的CRM。Attio是快速成长的初创公司的CRM。立即开始，首年可享15%折扣，访问attio.com/lenny。就是A-T-T-I-O.com/lenny。（00:04:05）：Paige，欢迎来到播客。",
+   "ts": "00:00:45"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Thanks, Lenny. Great to be here.",
+   "zh": "谢谢，Lenny。很高兴能来这里。",
+   "ts": "00:04:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So you don't know this, and I've been telling you this, but I asked a bunch of people that you worked with and maybe currently work with for questions, suggestions of things to ask you. So this is going to be really fun.",
+   "zh": "看来你还不知道这些事，我之前就跟你说过，但我还是找了不少你共事过或现在仍在共事的人，向他们征集问题和提问建议。这次采访肯定会很有趣。",
+   "ts": "00:04:08"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Wonderful. Now, I want to know who you talked to, but we'll find out.",
+   "zh": "太棒了。现在我想知道你都跟谁聊过，不过到时候自然会知道。",
+   "ts": "00:04:19"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'll tell you right now. Big thank you to Jackie Bavaro, Yasmin who's on your team, and Montgomery and Steve Morin who is currently at Asana.",
+   "zh": "我现在就告诉你吧。非常感谢Jackie Bavaro、你团队里的Yasmin，还有目前在Asana的Montgomery和Steve Morin。",
+   "ts": "00:04:23"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Ooh, fun.",
+   "zh": "哦，真有意思。",
+   "ts": "00:04:32"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So thank you to all of those folks for giving me a bunch of great questions, suggestions.",
+   "zh": "所以感谢所有这些人，他们给了我很多很棒的问题和建议。",
+   "ts": "00:04:33"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Looking forward to it.",
+   "zh": "很期待。",
+   "ts": "00:04:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe just to settle a context, can you just talk about... At Asana, what do you work with? What is your team? What do you work on, and what is your team responsible for broadly?",
+   "zh": "或许先来理一下背景，你能不能谈谈……在Asana，你负责什么？你的团队是什么？你们主要做什么？整个团队的职责是什么？",
+   "ts": "00:04:38"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. Absolutely. So I lead the product organization that's responsible for our desktop, web, and mobile apps at Asana. The teams are composed of all the people in San Francisco and New York who are focused on creating clarity for individuals, teams, and organizations. Effectively, our goal is to help teams work together more efficiently and drive the outcomes they're going for. So you can think about the feature sets if you're an Asana user like goals, portfolios, projects, tasks, reporting, all of that. But really, we want to help people answer the question at work, \"Who is doing what by when, and why?\" So that notion of clarity of purpose, clarity of plan, progress, and responsibility are often so painful in people's work lives. When there is certainty there and clarity there, people can be much more efficient in getting the work done. So that's where my focus is every day. I'm a product leader for that group.",
+   "zh": "好的。当然可以。我负责Asana的产品部门，负责我们的桌面端、网页端和移动端应用。团队成员包括旧金山和纽约的所有员工，他们致力于为个人、团队和组织创造清晰的目标。实际上，我们的目标是帮助团队更高效地协作，达成既定成果。用户可能熟悉的功能包括目标设定、项目组合、任务管理、报告等。但最根本的是，我们想帮助人们在工作中回答这个问题：“谁在何时做什么？为什么这么做？”。因此，明确目标、规划、进展和责任感在人们的工作中往往至关重要。当这些要素清晰时，团队就能更高效地完成任务。这就是我每天的关注点。我是这个团队的产品负责人。",
+   "ts": "00:04:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. So, basically, like the core. When people think of Asana, it's all of that stuff is what it sounds like.",
+   "zh": "不错。所以基本上就是核心业务。当人们想到Asana时，所有这些功能都符合他们的预期。",
+   "ts": "00:05:44"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah, yeah. There's another group that's focused on our process management, but a lot of the core work in project management, core is in my group, and then we have a growth and enterprise scale team.",
+   "zh": "是的，是的。还有一个团队专注于流程管理，但大部分核心项目管理工作都在我的团队里，我们还有一个增长与企业规模团队。",
+   "ts": "00:05:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've been at Asana for about four years now, right?",
+   "zh": "你加入Asana已经快四年了，对吧？",
+   "ts": "00:06:01"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yes, four years this summer.",
+   "zh": "是的，今年夏天就满四年了。",
+   "ts": "00:06:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Cool. So something I'm always curious about companies that are at this scale is just the evolution they've gone through in terms of how they develop product, and so I'm curious, just in the time you've been there, how has the product development process at Asana changed, and maybe even simpler, what are some of the bigger changes that have been made to the way product is built at Asana over the years?",
+   "zh": "不错。我一直对这种规模的公司感兴趣，他们是如何发展产品的。所以我很好奇，在你任职期间Asana的产品开发流程发生了哪些变化？或者更直白地说，Asana这些年在产品构建方式上有哪些重大改进？",
+   "ts": "00:06:04"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I would talk a little bit about how we set strategy and our planning process, and how that's changed in this time as well as how we actually ship product has changed in this time. On the planning front, we have really changed what altitudes we're planning at, the time horizon we're planning at. Some of the inputs have gotten a lot more precise and opinionated. So, for example, we have always had pillar plans and team plans, but maybe we didn't have an intermediary layer of an area perspective. Well, what's an area perspective? Well, as your organization grows, we've had to reorganize to create more agency and accountability close to teams that are focused on specific target customers and problems. So if you think about the way Asana is organized, we've got our R&D, the pillar structure, the areas within them, and then the working teams.",
+   "zh": "我想稍微谈谈我们如何制定战略和规划流程，以及这些年来这一流程发生了怎样的变化，还有我们实际交付产品的方式也发生了怎样的转变。在规划层面，我们确实调整了规划的层级和时间维度。一些输入数据变得更加精确和富有针对性。比如，我们一直有支柱计划和团队计划，但可能没有一个中间层级的区域视角。那么，什么是区域视角呢？随着组织规模的扩大，我们不得不进行重组，以便在更贴近专注于特定目标客户和问题的团队的地方，赋予他们更大的自主权和责任感。以Asana的组织架构为例，我们有研发部门、支柱结构、其下的各个区域，以及工作团队。",
+   "ts": "00:06:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It might actually help if you even describe what is a pillar, what is an area in product development.",
+   "zh": "如果您能解释一下产品开发中的“支柱”和“区域”概念，可能会有所帮助。",
+   "ts": "00:07:23"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. Absolutely. So when I said I'm responsible for that core product pillar, that's one pillar, but then there's also the adoption and enterprise scale pillar and the workflow pillar. Within each of those, there are subgroups, and we call those areas. Each of those areas has a very specific target customer and problem space they're solving for. We've often also dialed up the clarity of the metric at that level. So while we have an R&D set of metrics, we have pillar metrics, we have area metrics, and then at the team level, there's often one or two that they're really driving forward. So you can think of it as a nested structure around our product strategy as well as how we measure success. (00:08:14): When I joined, we didn't have areas. We were organized around projects and around locations, and then we worked to make sure that the thinking was more durable and problem-focused so that our roadmaps were not about features, but were instead about what was most meaningful to tackle for our business growth. So that's a big thing that has changed is the altitude of planning and how that nests. Another thing that has changed is the time horizon. So, before, we planned annually primarily. Now, we plan every six months, but for a rolling 12 months. So we have higher confidence in the immediate half, lower confidence in the following half, but we just plan every 12 months, every six months because it gives our business more confidence in what's coming and a better opportunity to align our go-to-market and product planning.",
+   "zh": "是的，当然可以。比如，当我说我负责核心产品支柱时，这是一个支柱，但还有采用和企业规模支柱，以及工作流支柱。在每个支柱内部，都有子组，我们称之为区域。每个区域都有非常明确的目标客户和需要解决的问题空间。我们还进一步提高了这一层级的指标清晰度。除了研发指标外，我们还有支柱指标和区域指标，而在团队层面，通常会有一两个指标是他们重点推进的。因此，可以将其视为围绕我们的产品战略以及衡量成功的嵌套结构。（00:08:14）：我加入时，我们没有区域。我们是围绕项目和地点组织的，然后我们努力确保思维更具持久性和问题导向，这样我们的路线图就不再是关于功能，而是关于对业务增长最有意义的事情。这是发生了巨大变化的两点：规划的层级和时间维度。以前，我们主要按年度规划。现在，我们每六个月规划一次，但规划的是滚动的12个月。因此，我们对近半年的信心更高，对后半年的信心较低，但我们每六个月规划一次，因为这让我们的业务对未来更有信心，也为我们对齐市场进入和产品规划提供了更好的机会。",
+   "ts": "00:07:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. So I just actually was talking to one of the heads of product at Shopify, and they went through a similar transition where they used to plan yearly, and now they plan for the next six months. So it's interesting that I'm hearing this more and more, and you're saying that every six months, you revisit the plan for the next year. So it's an interesting hybrid of those two.",
+   "zh": "太棒了。实际上，我刚刚和Shopify的产品负责人之一聊过，他们也经历了类似的转变——他们过去按年度规划，现在按未来六个月规划。所以有趣的是，我越来越多地听到这种情况，而你说每六个月就会重新审视下一年的计划。这两种模式的有趣结合。",
+   "ts": "00:09:10"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. Absolutely. I think the more you try to do things in a joined up way where you have a single target customer with sales and marketing, and you want to make sure that the impact of your releases hit their mark, the more it's important to reflect on it frequently and to be able to pivot quickly because our strategy, even when we think we have a two-year vision, something will change, and then we say, \"Wow, we made so much faster progress on this than we thought, and we actually believe that there's a new opportunity or a new technology that we should be leveraging. Let's go bigger on that.\" So it reduces the feeling of churn and thrash. It makes us all more principled, and it helps us just make sure we're making the best use of our teams.",
+   "zh": "是的。当然。我认为，当你试图以一种连贯的方式开展工作，比如针对单一目标客户进行销售和营销，并确保产品发布能产生预期效果时，频繁反思并快速调整策略就显得尤为重要。即便我们自认为制定了两年期规划，但情况也会发生变化——比如我们会突然意识到进展比预期快得多，或者发现有新的机遇或技术值得利用。这时候就需要调整策略，避免陷入无序混乱的境地。这能让我们保持战略的连贯性，同时最大限度地利用团队资源。",
+   "ts": "00:09:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I like that it also admits you're not going to actually have a yearly plan, like everyone plans for year, and then halfway through, they're like, \"No. Let's start rethinking everything again.\"",
+   "zh": "我喜欢你坦承自己不会制定年度计划，不像有些人每年制定计划，过半程又重新规划。",
+   "ts": "00:10:20"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah, yeah.",
+   "zh": "是啊，是啊。",
+   "ts": "00:10:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So I like that you're upfront about that.",
+   "zh": "所以我欣赏你能坦然承认这一点。",
+   "ts": "00:10:30"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:10:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay, and then within the plan, do you have quarterly plans and sprints? Is there anything more fine-grained with a detailed roadmap just while we're on the topic?",
+   "zh": "好的，那么在规划框架下，你们有季度计划和冲刺阶段吗？既然说到这儿，能否详细谈谈路线图之类的更细化的规划？",
+   "ts": "00:10:31"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah, not really. I mean, teams know approximately when are they expecting to do the work, but if you ask too much for a particular quarter, a particular week, or date, you will make strange choices about scope. So, really, we align on what success looks like, and the teams do their best job to ship as quickly as possibly, as iteratively as possibly, and we really encourage prototyping. So we added into our product process a notion that we might pivot or cut from stuff that we put on our roadmap because it felt like once it was on the roadmap, it had to be done, and that's just not smart.",
+   "zh": "是的，没有太多细分内容。团队大致知道何时该开展工作，但如果对特定季度、周或日期要求过多，就会导致范围规划不当。实际上，我们会先达成共识，明确成功的定义，然后团队尽可能快速迭代交付。我们大力鼓励原型设计。因此，我们在产品流程中引入了这样一个理念：如果某个已列入路线图的项目感觉必须完成，那就未必明智。",
+   "ts": "00:10:38"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. So, essentially, there's a six-month roughly detailed plan of what each team is going to work on?",
+   "zh": "明白了。所以基本上每个团队都有大约六个月的详细工作计划？",
+   "ts": "00:11:20"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah, yeah.",
+   "zh": "是的，是的。",
+   "ts": "00:11:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Interesting.",
+   "zh": "好的，我明白了。挺有意思的。",
+   "ts": "00:11:25"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:11:26"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe just a couple more things just to make them super concrete for folks that might be listening. What's an example of an area? What's an actual team that would be an area? Then, the other question I have just while I'm saying questions is, are there some metrics you could share of just what some of these teams might be gold on just as examples of how you think about metrics?",
+   "zh": "或许再补充几个细节，让听众更清楚。能举个具体领域的例子吗？或者具体哪个团队负责某个领域？另外，我刚好想到，既然提到指标，能否分享一些团队在指标方面取得的成功案例？",
+   "ts": "00:11:26"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "The area that came to mind when you asked about one of our areas is something called Coordinate, and their job is effectively making sure that the slice of Asana that helps teams work together is working effectively. So that's projects, and tasks, and the data that you might put into tasks, and all of the back and forth that is required when people use Asana for their core working team. Some of the metrics that they care about are like org paying weekly active users as well as really thinking about healthy project use. So we make sure that we understand what does good look like and what is a dynamic that we want to be creating in terms of people getting real value from using the product, and we build that into our metrics to have as a guardrail to ensure that we're not driving one metric at the expense of people really getting what they need out of Asana.",
+   "zh": "当你问及我们的某个部门时，首先想到的领域是名为 Coordinate 的团队，他们的工作重点是确保 Asana 平台中帮助团队协作的模块能够高效运作。这包括项目管理、任务分配，以及用户在任务中输入的数据，还有团队使用 Asana 进行核心协作时所需的反复沟通。我们关注的核心指标包括每周活跃用户数量，以及项目使用的健康度评估。我们致力于明确“优秀”的标准，营造让用户真正从产品中获取价值的动态环境，并将这些标准融入我们的指标体系中，以此作为衡量标尺，确保我们不会以牺牲用户体验为代价去追求某个单一指标。",
+   "ts": "00:11:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just a couple more questions along these lines.",
+   "zh": "再问几个相关问题。",
+   "ts": "00:12:41"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah.",
+   "zh": "好的。",
+   "ts": "00:12:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm nerd-sniped about process.",
+   "zh": "我对流程设计很感兴趣。",
+   "ts": "00:12:44"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:12:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think you use a process called the Double Diamond Process at Asana. Okay. Cool.",
+   "zh": "我听说 Asana 采用了名为\"双钻石流程\"的模型。好的，能否详细介绍一下这个流程，以及你们如何应用它？",
+   "ts": "00:12:46"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "We do.",
+   "zh": "确实如此。",
+   "ts": "00:12:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've seen images of this in various places, but I don't know of any company that's actually using it as the process. Can you just describe what the Double Diamond Process is and how you use it?",
+   "zh": "我在不同地方看到过相关图片，但不知道有哪家公司真正将其作为标准流程使用。能否具体说明一下双钻石流程的内容，以及你们如何应用它？",
+   "ts": "00:12:50"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "So you might be familiar with lean startup concepts and Double Diamond as it relates to going broad, and then going narrow. So you go broad when you ask like, \"What customer should I solve for?\" and then you pick one, and then that's the narrowing. Then, you go broad, and you say, \"What are the problems this customer has?\" and you narrow, and you say, \"This is the problem they have.\" Then, you go broad, and you say, \"What solution should we do to this?\" and then you go narrow, and you say, \"This is the solution that we should start with.\" That process of going broad, and going narrow, and going broad, and going narrow forces people to get out of their opinion-driven lens because so often, we need to be curious quantitatively and qualitatively about what we're doing and why, and be more systematic and rigorous about getting there. It doesn't take long, but it just breaks the frame. (00:13:56): The Double Diamond Process that Asana effectively... Each of our typical reviews or artifacts sit at different inflection points on the Double Diamond. So we actually ask people to do a kickoff where they collect different information at different scale depending on the size of the problem and the ambiguity they're solving. Some people have already done enough customer selection and research that they're starting with, \"What are the possible solutions to this problem?\" and then they're bringing the spec, and that's the narrowing alongside design, et cetera. But it's really mapping our artifacts against this notion to make sure that the product thinking has that quality of decision-making. Yeah.",
+   "zh": "您可能熟悉精益创业理念中的双钻石流程，即先进行广泛探索，再逐步聚焦。我们首先会问：\"应该为哪类客户解决问题？\"然后选择其中一个，再逐步聚焦。接着，再次拓宽视野，思考\"客户面临哪些问题？\"然后缩小范围，确定\"应该从哪个问题入手？\"最后再次拓宽视野，思考\"应该采取怎样的解决方案？\"并最终缩小范围，确定\"从哪个方案开始？\"这个不断拓宽和聚焦的过程，能帮助人们摆脱主观判断的束缚，因为我们需要从定量和定性角度审视自身行动的合理性，并以更系统、严谨的方式达成目标。虽然过程简短，但能有效打破固有思维框架。（00:13:56）：Asana 实际应用的双钻石流程……我们每个典型评审或交付成果都处于双钻石流程的不同节点。因此，我们要求团队在启动阶段收集不同规模的信息，这取决于问题的复杂程度和解决的不确定性。有些团队已经完成了客户筛选和研究，立马着手\"问题可能的解决方案\"，并附带设计说明等，这就是聚焦设计的缩小阶段。但关键在于将我们的交付成果与这一框架对应，确保产品思维具备决策质量。是的。",
+   "ts": "00:13:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The way you described it is it was very customer-target-oriented. Is that that the actual framework? Is it around who to build this for, and then what to build, or is it more... It is. Okay. You're not ahead?",
+   "zh": "你刚才的描述看起来非常以客户为导向。这是否就是实际的框架？是的，没错。就是围绕为谁构建产品，再决定构建什么。",
+   "ts": "00:14:44"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "It is. Yeah.",
+   "zh": "没错。是的。",
+   "ts": "00:14:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay.",
+   "zh": "好的。",
+   "ts": "00:14:44"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "It's really important because then you also know what success looks like because if you pick your success metrics as using a feature, that's it. You're teaching to the test. It's not actually driving the outcome. So while our planning process is around effectively defining category and how we win, and making sure that customers receive certain benefits from using work management, the through line to the individual project that a team might be leading is they need to know who they're solving for and what it means to have that problem solved. So it always starts with enough customer insight such that we can creatively do what they're trying to do. I mean, really inventing on behalf of customers.",
+   "zh": "这真的很重要，因为这样你才能清楚成功的标准是什么。如果你把成功的衡量标准定为使用某个功能，那就太局限了。这只是在应试教育。它并不能真正推动结果的达成。所以，虽然我们的规划过程是围绕有效定义品类、确定我们的制胜策略，并确保客户能从使用工作管理工具中获得特定好处展开的，但要落实到团队可能主导的具体项目上，关键在于他们要清楚服务的对象是谁，以及解决这个问题意味着什么。因此，一切都始于充分的客户洞察，这样我们才能创造性地实现客户的需求。我的意思是，真正为客户创新。",
+   "ts": "00:14:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Can you maybe repeat if there's terms for each of those phases?",
+   "zh": "能否请你把每个阶段的术语再重复一遍？",
+   "ts": "00:15:44"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. Absolutely.",
+   "zh": "好的，没问题。",
+   "ts": "00:15:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Then, is there an example of a feature or product that went through this that you could share? If nothing comes to mind, that's okay.",
+   "zh": "那么，有没有一个经过这些阶段的功能或产品案例可以分享一下？如果暂时想不起来，没关系。",
+   "ts": "00:15:49"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "The inflection points are the kickoff, which is that going broad, and then customer and direction selection. So this is both the target as well as of the 10,000-foot views of how you might pursue solving this problem. Which path are you broadly going to take? Then, going broad within that path on different concepts, and then there's a design concept review. Then, the products spec. Then, the full experience review or design crit of the end-to-end experience and launch. So that launch review is often just, \"Hey, here's the thing. Here's what we said. Here are the fast-follows.\" Most of the time, by that time, it's already been dogfooding internally for some time, and it's more of a formal, \"Do we have the right metrics in place? Are we ready to ship?\"",
+   "zh": "转折点包括项目启动、客户与方向选择。这既是目标，也是对如何解决问题的宏观视角。你打算从哪个方向入手？然后，在这个方向上对不同概念进行探索，接着是设计概念评审。接着是产品规格说明。然后是全体验评审或端到端体验设计点评，最后是上线评审。上线评审通常只是说，“嘿，情况是这样的。我们之前说过这些。接下来要快速跟进哪些功能。”大多数时候，到那时内部已经试用了一段时间，更多的是正式地问：“我们是否有合适的衡量标准？我们是否准备好上线了？”",
+   "ts": "00:15:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Do these reviews happen in person, on Zoom, or asynchronous?",
+   "zh": "太棒了。这些评审是在现场进行，还是通过Zoom线上进行，或者是异步的？",
+   "ts": "00:16:52"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "It depends. So it depends on the complexity of the work, and it depends how much we want to talk about it. A lot of our crits happen in person on the design side. A lot of spec reviews are more asynchronous, and then we'll say, \"Depending on the number of questions people have, we call a meeting.\" Otherwise, we do mostly async, but it's a mix. It really depends on the complexity and ambiguity of the solution and how much people have questions about asynchronously beforehand.",
+   "zh": "这取决于工作的复杂度，也取决于我们想讨论的程度。设计方面的评审大多是现场进行的。规格说明的评审则更多是异步的，然后我们会说：“根据大家的问题数量，我们再召开会议。”否则，我们大多采用异步方式，但也会混合进行。这真的取决于解决方案的复杂性和不确定性，以及人们在此之前通过异步方式提出的疑问数量。",
+   "ts": "00:16:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm going to take a tangent with my questions here and talk about work from home policy at Asana. This is something that I've been wondering more and more about how it's changing because it feels like there's been a shift back to the office. So what is the current policy at Asana, and what's changed maybe over the past couple years?",
+   "zh": "接下来我想转换一下话题，谈谈Asana的居家办公政策。这是我越来越好奇的一个变化，因为感觉大家又开始回归办公室了。那么Asana目前的政策是什么呢？过去几年里可能有什么变化？",
+   "ts": "00:17:27"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Well, we were fully remote during the pandemic, and then we came back to the office in an office-centric hybrid format. So we're in the office Monday, Tuesday, Thursday, and then work from home mostly on Wednesdays and Fridays. That dynamic has been designed from the start. We wanted to make sure that we took advantage of what's great about working together as teams, and so it's been the standard. So I would say what's unique about maybe Asana is we knew we would do that from the very beginning instead of hemming and hawing about would we be a remote workplace or not, and what would that mean, and how would we come together, and how would we budget for it. We're like, \"No, this is going to be an office-centric hybrid,\" because we wanted to create spaces for people to work together and move quickly. (00:18:37): It's been interesting watching people get back into the swing of things. Even though we knew, it didn't mean that on day one, people were great at being in the office. People were taking standups sitting down. Whereas before, you would walk through our office, and you could hear people at standup because there were standup chants, and people would be out on the floor. Now, people are more likely to do their standup in a room, and we're trying the next level of standing up during a standup, but it's... I'm sure it's a shared experience for other people who are working in offices to get used to using the whiteboards again, to get used to standing up during your meetings. It's bizarre that we could lose a muscle that we had that was so innate so quickly, and I think even in the last month, I would say, and it's in June of 2023, there's more vibrancy in the office, more conversation, more casual... someone eating alone at the cafeteria, and someone sitting down next to them. So it didn't happen overnight.",
+   "zh": "嗯，疫情期间我们完全远程办公，后来又回到了以办公室为中心的混合办公模式。所以我们周一、周二、周四在办公室工作，周三和周五大多在家办公。这种模式从一开始就是设计好的。我们想确保能充分发挥团队协作的优势，所以这成了我们的标准做法。我想说，也许Asana的独特之处在于，我们从一开始就确定了这样的模式，而不是犹豫不决地纠结于是否要远程办公、这意味着什么、如何协作以及如何为此做预算。我们当时就决定：“不，我们要以办公室为中心的混合办公模式”，因为我们希望为员工创造一起工作的空间，推动工作进展。（00:18:37）：看着大家重新适应办公室生活很有趣。尽管我们早有预料，但第一天大家还不太适应办公室生活。站会时大家都是坐着开的。以前走过办公室，能听到人们在站会时大喊口号，人们会在走廊里走来走去。现在，大家更可能在房间里开站会，甚至尝试在站会时站起来开会。但我相信，其他在办公室工作的同事也有类似的经历——重新适应使用白板，重新适应站起来开会。这真是太奇怪了，我们竟然能这么快就失去了原本如此自然的能力。我想，就在2023年6月的现在，办公室里已经有了更多活力，更频繁的交流，更随意的互动——比如有人独自在食堂吃饭，就会有人坐在他们旁边聊天。这种转变并非一夜之间完成的。",
+   "ts": "00:17:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I've been seeing a lot of tweets of founders just being like, \"Work from home has failed. It's time to go back at the office.\" I'm curious if that ends up rolling into more and more companies, or if it's just a few founders here and there.",
+   "zh": "我看到很多创始人发推文说，“远程办公失败了，是时候回办公室了。” 我很好奇这种想法是否会蔓延到越来越多的公司，还是只是少数创始人的个人观点。",
+   "ts": "00:19:45"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I think it's a real thing for mental health. I do think that having social casual relationships as well as more opportunities to talk strategy with people you're not forced into a meeting room with has been super beneficial. I can say that just today, I was having lunch and sat down with my head of data science, and we had an impromptu chat about how we review our experiments and how to evaluate whether we had ROI on learning, not just the metrics. It was one of those things where if we had to schedule it, it might not have happened, and if it did happen, it would have been a couple weeks from now.",
+   "zh": "我认为这对心理健康确实有益。我确实认为，有社交休闲的机会，以及更多与非强制开会的人讨论战略的机会，非常有益。我可以说，就在今天，我和数据科学主管一起吃午饭时，我们即兴聊了聊如何评估实验效果，以及如何判断学习是否有投资回报率，而不仅仅是看数据。这是那种如果非要安排时间，可能就不会发生的事情，但如果真的发生了，也会是在几周之后。",
+   "ts": "00:19:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It feels like just coming into the office once or twice... or sorry, being at home once or twice a week is not that different from how things used to be where there was a day of no meetings and a lot of people stayed from home. So it feels like it's almost reverting back to that.",
+   "zh": "感觉只要一周来办公室一两次……或者抱歉，一周在家一两次，就和以前那种没有会议、很多人在家办公的日子没什么区别。所以感觉我们几乎又回到了那种状态。",
+   "ts": "00:20:36"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Exactly, and people are better at it than they used to be.",
+   "zh": "确实，人们现在比以前更擅长应对了。",
+   "ts": "00:20:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "00:20:47"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "So I would say our remote days are more impactful than the days we're together where we're getting into the swing of things.",
+   "zh": "所以我会说，我们的远程工作日比我们一起工作、适应新环境的日子更有影响力。",
+   "ts": "00:20:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah. I feel like as a PM, the only day I was productive and getting real deep work done was the No-Meeting Wednesday. It was at Airbnb.",
+   "zh": "是啊。我觉得作为产品经理，唯一一个高效完成深度工作的日子就是“无会议星期三”。那是在Airbnb。",
+   "ts": "00:20:56"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yes. I would encourage you to know your chronotype and to lock that time where you have the most head space to do that work. So, for me, it's mornings.",
+   "zh": "没错。我建议你了解自己的生物钟类型，并把每天精力最充沛的时间段锁定下来用于专注工作。对我来说，就是早晨。",
+   "ts": "00:21:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Say more on chronotype. What is that?",
+   "zh": "再详细讲讲生物钟类型。这是什么？",
+   "ts": "00:21:12"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I'm a morning person, and so I try to make sure that I don't have any meetings before 10:00, sometimes before 11:00, and that's when I do my hardest task for the day.",
+   "zh": "我是个早起的人，所以我尽量确保上午10点前（有时11点前）不参加会议，这样我就能完成当天最难的任务。",
+   "ts": "00:21:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I also just thought about standups while I was at Airbnb and how not only how much energy they brought, but almost too much energy sometimes where there's like another team doing a standup, and they're just laughing and clapping, and we're just like, \"Shh, we're trying to work over here.\" I feel like we need more of that again.",
+   "zh": "我还想说说我在Airbnb参加站会的经历。那些会议不仅能激发大家的活力，但有时甚至过犹不及——比如当另一个团队在开站会时，大家笑个不停、鼓掌欢呼，而我们只能说“嘘，我们这边要工作了”。我觉得我们需要多一些这样的氛围。",
+   "ts": "00:21:26"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Totally. Yep, yep.",
+   "zh": "完全赞同。是的，是的。",
+   "ts": "00:21:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. So, moving in a slightly different direction, something I heard about you is that you're often the youngest person in the room, and you often lead people with decades more experience than you. I want to ask, what have you learned about how to garner trust and win over skeptics, especially when they're maybe more experienced or older, and especially in other functions, I don't know, execs or designers, engineers, what have you figured out there?",
+   "zh": "好的。那换个话题，我听说你经常是团队中最年轻的成员，却能领导比你经验丰富得多的人。想问问你，如何赢得信任、说服持怀疑态度的人——尤其是那些经验更丰富、资历更深的人，比如其他职能部门的同事，比如高管、设计师、工程师等，你有什么心得？",
+   "ts": "00:21:45"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "The thing I would say is bring the insight. Know thy customer. Know thy market. Know thy competitors. Know thy numbers. Know thy product. If you can be the person in the room who has watched customers use the product and has a point of view about why one tool is significantly better or worse in a given dimension, and you can do that with confidence and clarity, and you don't need to know the other person's functional domain, and you don't need the expertise in what they're experts at, you can bring insight that makes people curious, and trust you, and just immediately believe that there's an opportunity that you're not advocating for that just is true. But I think that's a really tricky and unique thing is not to pretend like you have more experience than you do, but to be willing to ask great questions, and then be curious enough that you're bringing insight to every meeting that people may or may not have, but you're always willing to share.",
+   "zh": "我觉得关键在于提供深刻见解。要了解你的客户、市场、竞争对手和数据。要熟悉你的产品。如果你能成为团队中那个观察过用户使用产品、对某个维度上某款工具明显优劣有见解的人，并且能自信清晰地表达这些观点——无需了解对方的职能领域，也无需借助他们的专业知识——你就能带来令人好奇的见解，赢得信任，让大家立刻相信你所倡导的机会是真实存在的。但关键在于不要假装自己比实际更有经验，而是要乐于提出深刻问题，保持好奇心，在每次会议中都能贡献出别人可能注意不到但你愿意分享的见解。",
+   "ts": "00:22:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's such a good answer because it's like there's not a trick to it. It's just do the work, spend the time to become the person that has answers that people value and obviously, that will respect you, value your opinion, want to hear from you.",
+   "zh": "这回答得太棒了，因为根本没有什么诀窍。就是埋头工作，花时间成为一个能提供别人珍视的见解的人，这样大家自然会尊重你、重视你的意见、愿意听你发言。",
+   "ts": "00:23:21"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. Yeah. Our former board member, Anne Raimondi, and now our head of business wrote an article on First Round that was really great about the trust equation, and it really resonated with me. I don't know if you've heard about it, but she said that trust is equal to credibility plus reliability, plus authenticity, divided by or over perception of self-interest. I think when you're met by someone who doesn't know you, doesn't know your work, your job is to create credibility, and that's where I said bringing the insight is where you can really tip the scales here. Reliability, this is all about your say-do ratio. Authenticity is just being vulnerable, being yourself, and then making sure that people know that you're not in it for some other outcome or cause that perception of self-interest really can change whether people... how much they trust you.",
+   "zh": "是的。是的。我们前董事会成员安妮·雷蒙迪（Anne Raimondi），现在是我们的业务主管，在First Round上发表了一篇关于信任等式（trust equation）的精彩文章，这篇文章真的让我深有共鸣。我不知道你是否听说过，但她说，信任等于可信度加上可靠性，再加上真实性，除以或大于对自身利益的感知。我认为，当你遇到不了解你、不了解你的工作的人时，你的任务就是建立可信度，而这正是你能真正扭转局面的地方。可靠性，这完全取决于你的言行一致度。真实性就是保持脆弱，保持自我，然后确保人们知道你不是为了其他结果或动机而做事——对自身利益的这种感知真的能改变人们是否信任你。",
+   "ts": "00:23:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In terms of knowing the insight and knowing thy customer, putting the time, I imagine, is a big element of that. Is that how you do that, or is there anything else along those lines that's just like, \"Here's how I get really good at this?\"",
+   "zh": "在了解洞察力和了解客户方面，我想投入时间是关键因素之一。你是如何做到这一点的，或者在这方面还有其他方法吗？比如，“我如何才能真正擅长这件事？”",
+   "ts": "00:24:46"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "When you take a new role, become best friends with a researcher, and spend time watching customers use the product firsthand because what they maybe report on or are trying to do a study about might be very different from what you observe, but you really just need that front row seat with customers, and so asking, \"How do I actually set up time with customers? How do I compensate them? How do I read the tickets?\" Whatever. It's amazing how little you have to do to quickly catch up to understanding who the organization is solving for well and poorly, and how people really use your product versus how your teams use your product, especially in organizations where there are heavy dogfooding cultures. It's really risky to become less sensitive to the needs and behaviors of customers because people think they are their customer, and it also becomes very navel-gazey. So I think the more you get out and break up how people are having conversations about what we should do and why, and what we shouldn't do and why, and it's not about your opinion, it's about asking questions, and then bringing insight can really change the nature of the conversation and build trust.",
+   "zh": "当你接手新角色时，与研究人员成为好朋友，并花时间亲眼观察客户使用产品，因为他们可能报告的情况或试图进行的研究可能与你的观察大相径庭，但你真正需要的是与客户面对面交流的机会。那么，如何安排与客户见面的时间？如何补偿他们？如何阅读用户反馈？无论如何，你只需付出很少的努力就能迅速了解组织在哪些方面做得好或不好，人们如何真正使用你的产品，以及你的团队如何使用你的产品——尤其是在那些重度dogfooding文化的组织中。如果你对客户的需求和行为变得不敏感，那就太危险了，因为人们会认为他们就是你的客户，这也会导致自恋。  所以我认为，多走出去，打破人们关于我们应该做什么、为什么应该做什么，以及不应该做什么、为什么不应该做什么的固有思维模式，这很重要。这不是关于你的观点，而是关于提问，然后带来洞察力，这真的能改变对话的性质，建立信任。",
+   "ts": "00:24:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. In terms of confidence, you talked about the importance of communicating these things confidently. Is there anything you've learned about how to be more confident? The managing part of it is like having the answer, but is there anything there that you maybe coach your PMs around or other folks of just like, \"Here's how you communicate confidence?\"",
+   "zh": "我很喜欢这一点。关于自信，你谈到了自信地传达这些信息的重要性。你有没有学到如何变得更自信的技巧？管理部分就像是掌握答案，但有没有什么方法可以指导你的项目经理或其他人呢？比如，“如何传达自信？”",
+   "ts": "00:26:18"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "It's a great question. I think being brave and courageous in little moments is just what you have to do. You have to show up, and say it before you're ready to say it, and ask for forgiveness, and be vulnerable. I think when you're vulnerable, people actually trust you more than if you come with all of this armor and say, \"I know this, and this is how we're going to do it.\" So real confidence is often conveyed by being willing to ask the question or to say, \"I don't know what you mean by that. Can you say that again?\" It's also just how you communicate, looking people in the eye, your body position, your body language. (00:27:22): So much of this, I think people forget about because it's really easy to be in a meeting, and looking at your computer, and going through Slack messages. So one of the best things you can do is if you're in a meeting, be in that meeting. Continually scan the faces of everyone in the room, see if someone has a question, pause at the beginning, and welcome people, and chit-chat while people land, and then close asking questions like, \"Did I get all of that? Is there anything you would've expected to cover that we missed?\" It's really about being open, and that conveys confidence more than being assertive and advocating 100% of the time.",
+   "zh": "这是个很棒的问题。我认为在小事上勇敢无畏正是你应该做的。你必须现身其中，当你还没准备好时就说出自己的想法，请求原谅，展现脆弱的一面。我觉得当你展现脆弱时，人们对你的信任往往比你身披盔甲、信誓旦旦地说\"我知道该怎么做\"要深得多。真正的自信往往体现在愿意提问或说\"我不太明白你的意思，能再解释一下吗？\"上。还有你的沟通方式，比如直视对方、调整坐姿、控制肢体语言。（00:27:22）：我觉得很多人容易忽视这些细节，因为开会时我们总爱盯着电脑、刷Slack消息。所以最有效的做法就是全神贯注于会议本身。持续扫视会议室里的每个人，观察是否有人有疑问，在会议开始时停顿几秒欢迎大家，等大家落座后闲聊几句，最后以提问结束会议，比如\"我是否理解了所有内容？有没有遗漏的关键点？\"。关键在于保持开放的态度，远比固执己见、强行主导更能传递自信。",
+   "ts": "00:26:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This episode is brought to you by Round. Round is the private network built by tech leaders for tech leaders. Round combines the best of coaching, learning, and authentic relationships to help you identify where you want to go and accelerate your path to get there, which is why their wait list tops thousands of tech execs. Round is on a mission to shape the future of technology and its impact on society. Leading in tech is uniquely challenging, and doing it well is easiest when surrounded by leaders who understand your day-to-day experiences. When we're meeting and building relationships with the right people, we're more likely to learn, find new opportunities, be dynamic in our thinking, and achieve our goals. Building and managing your network doesn't have to feel like networking. Join Round to surround yourself with leaders from tech's most innovative companies. Build relationships. Be inspired. Take action. Visit round.tech/apply, and use promo code \"LENNY\" to skip the wait list. That's round.tech/apply. (00:29:04): From my chats with folks that you work with, it's really clear that you put a lot of time and energy into mentoring and coaching PMs, and your team, and I think probably broadly at Asana. One thing specifically that came up is that you're very big on leading and teaching by example, not just, \"Here's how you do this thing.\" So, if that's true, I'm curious where that came from for you and why you think that ends up being a lot more successful than like, \"In a meeting, you should do X, Y, Z,\" versus doing it, and then letting them see.",
+   "zh": "本期节目由Round赞助。Round是科技领袖为科技领袖打造的私密社交平台。Round将教练指导、知识学习与真诚关系完美融合，助你明确发展方向、加速实现目标，因此其候补名单上聚集了数千名科技高管。Round致力于塑造科技未来及其对社会的影响。科技领域的领导力挑战独特，而在深谙行业日常的领袖陪伴下才能应对自如。当我们与对的人建立深厚联系时，我们更容易学习新知、发现机遇、激发思维活力并达成目标。建立和管理人脉网络不必拘泥于社交常规。加入Round，与科技创新企业的领袖共创未来。建立关系、获得启发、采取行动。访问round.tech/apply，使用优惠码\"LENNY\"即可免除候补名单等待期。网址：round.tech/apply。（00:29:04）：从与你共事者的交谈中可以明显看出，你投入了大量时间和精力指导和培养产品经理及团队成员，我想在Asana公司整体也是如此。其中特别突出的一点是，你非常注重以身作则、言传身教，而不只是简单地说\"这里是这么做的\"。那么，如果这是真心的，我很好奇这源自何处，又为何比起\"在会议上你应该这样做\"这样的说教方式更有效呢？",
+   "ts": "00:28:03"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I think the main thing is repetition. We're all students of repetition. If you see something done a few times, you're more likely to remember it and internalize it, and so it's also something that... a way that I learn, and so I think that's probably part of it. I remember hearing about a framework called the three Es: experience, exposure, and education. I think it was helpful for me to hear that as a way of growing your career or being more purposeful about your growth because I think when people are earlier in their careers, they tend to think, \"Education, education, education,\" and then they started to think, \"Experience, experience. How do I get the experience of being a manager? I need to read about it, and then be a manager.\" It's very linear. (00:30:29): Exposure was such an important one where I thought like, \"Okay. So you're not in the driver's seat, but you're in the car, and you hear what's happening, and you're evaluating how this is... what the impact is.\" This goes back to being really present and analytical, and being a learner because if you can be a learner, not just in an education or experience context, but in an exposure context, you can really grow so much more quickly and in so many more directions than you will get from just what does your day entail from what work is directly required of you.",
+   "zh": "我认为关键在于重复。我们都是重复的受益者。如果你多次目睹某件事，你就更有可能记住并内化它。因此，这也是我学习的一种方式，所以我觉得这或许是其中的一个要素。我记得听说过一个叫做“三E框架”的理念：体验、接触和教育。我认为这对我的职业发展很有帮助，让我更清晰地规划个人成长路径。因为处于职业生涯早期的人往往会想：“先接受教育，再接受教育，再接受教育。”然后他们又开始思考：“接触，接触。如何获得管理经验？我需要去阅读相关书籍，然后成为一名管理者。”这是一种非常线性的思维模式。（00:30:29）接触的部分对我来说尤其重要。我当时意识到：“好吧，虽然你现在不是主导者，但你坐在车里，聆听着车内发生的一切，评估着其影响。”这回归到保持专注和善于分析的能力，以及保持学习的心态。因为如果你能在接触新事物时保持学习的状态——不仅是在教育或经验层面，还能在接触现实的过程中学习——你就能比单纯被动接受工作任务更快地获得成长，并且能在更多维度上拓展自己。",
+   "ts": "00:29:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there an example of that happening either to you or you saw a manager leader do this, and you're like, \"Oh, I get it now,\" or you doing that and it helped?",
+   "zh": "你自己或者你见过的管理者有没有过类似的经历？比如，你听完后恍然大悟，或者自己实践后发现很有帮助？",
+   "ts": "00:31:12"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "So I'll give two examples. I mean, the way I run my meetings are the kind of meetings I want to be a part of. So I try to make sure that I start with a clear agenda, and I move quickly, but give time for conversation and that it's not fully just sharing information, but debating where appropriate. I think knowing how to manage the conversation and courteously pausing people who are going on too long or taking the group in a different direction than was intended, and just think about the experience of everyone there, and create the experience that you hope that they're creating in the rooms that you're not a part of. (00:32:08): An example that I have in terms of experience is sometimes the experience is you doing the thing and getting that experience firsthand. Other times, you need an education, you need a mentor, you need a coach who will tell you what they're saying or give you advice. I was in a really high-stakes product review at Intuit, and at the end of it, everyone else had left, and the leader of the business unit as she was leaving the room said, \"Always answer the question that they should have asked.\" \"Always answer the question they should have asked.\" (00:32:49): I was pretty surprised by that advice because it was very profound in the moment because I think when you're a student and you are accustomed... If you're an achiever, you like to get As. You're probably going to hear a question and answer it. You're like, \"One-to-one, one-to-one, one-to-one.\" But what I learned from that was that there's actually another altitude, another point of strategy when you're in a meeting or in a conversation to make sure that you're covering the more important point, the bigger picture, the alternative that the person asking the question maybe didn't see or consider. So I think the mix of experience, exposure, and education really helps you make sure that you're consciously moving forward on each of those fronts or finding people who can help you there.",
+   "zh": "接下来我举两个例子。我的意思是，我主持会议的方式，正是我想参与其中的会议类型。因此，我会确保会议一开始就有一个清晰的议程，进展迅速，同时留出交流时间。会议不应只是单纯的信息分享，而是在适当的时候展开讨论。我认为，要学会如何引导对话，在有人讲话过长或将讨论引向与预期方向相反的方向时，礼貌地打断他们，并始终为在场每人的体验着想，努力营造出你希望他们在你未参与的会议中能获得的体验。（00:32:08）：我举个经验例子，有时你亲身实践就能获得经验。其他时候，你需要接受教育、寻求导师或教练的指导，让他们为你解析问题或提供建议。当时我在Intuit参加一场高风险的产品评审会，最后其他人都离开了，业务部门的负责人离开时说了一句：“永远回答他们本该问的问题。”“永远回答他们本该问的问题。”（00:32:49）：我对这条建议深有感触，因为它在当时意义非凡。作为学生时，你习惯……如果你是个追求优异成绩的人，就会急于回答问题。你会想：“一对一，一对一，一对一。”但我从中领悟到，在会议或对话中还有更高层次的策略——确保你涵盖了更重要的观点、更宏观的局面，以及提问者可能未曾想到或考虑过的替代方案。因此，我认为将经验、实践和教育相结合，确实能帮助你确保在这些方面有意识地不断进步，或找到能助你一臂之力的人。",
+   "ts": "00:31:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that piece of advice, and it makes me want to ask, are there other pieces of advice that have been really impactful to you, or are there common pieces of advice you give to your team that just is a recurring theme of advice that maybe people even make fun of like, \"Oh, Paige is always saying this?\"",
+   "zh": "我特别喜欢这条建议，这让我不禁想问，还有哪些建议对您影响深远？或者您给团队的常见建议，是否有一些反复提及、甚至被人们调侃为“哦，佩奇老是说这个”的内容？",
+   "ts": "00:33:43"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "There are a few ways to think about advice, and my advice often meets some mark when it's for a particular person in a particular time in their career. So I would say advice I love giving to people who are early in their career is don't self-select because I think it's really easy to say, \"I don't have the experience,\" or, \"I'm not X, Y, Z enough,\" and not apply. So I really push people not to self-select, and I try to remind myself where that's appropriate to do the same thing. Other advice I often give is just think big, ship small. \"Think big, ship small.\" What's the smallest thing you can do to do that thing? But let's not, because we're trying to ship all the time and in small chunks, start thinking in small ways because it's really easy to get a little too incremental, a little too wrapped around the axle around optimizing a metric and miss the bigger picture, and so think big ship small is another piece of product advice I give. (00:35:02): The last piece of advice that I would say that I like is more of a way of thinking. So this is a little abstract, but when employees join Asana, they get a book called The 15 Commitments of a Conscious Leader. It's led by the Conscious Leadership Group. They also get two-day training on some language and tools for how to effectively work with other people, and it's a really... For me at least, it was transformational because I learned some vocabulary and methods that I could share with my peers. One of the things that you learn is to be above or below the line, and something that is this concept of like, \"Where are you? Are you above the line? Are you below the line?\" If you're above the line, you're committed to learning. You're open and curious. Things are funny here, more playful. If you're below the line, you're committed to winning. You're committed to being right. Things are more black and white. (00:36:10): All of us have days where we're having a conversation and we're really in that below line space where it's like, \"No, it just is this way. There's no two ways around it.\" That concept of understanding your personal head space, and then being mindful of how you're operating when you're in that place really was great advice for me and also recognizing where other people were when it related to decisions we were making or context. It also helped me think about rejecting false trade-offs and challenging like... Effectively, there's this notion of how might the opposite be true, and that's a piece of advice that I give myself like this morning. (00:36:55): I think it was yesterday, actually. I was like, \"How am I going to do tomorrow? Tomorrow, I have to deliver the clarity pillar brief to the area leads and make sure they understand our stack ranked metrics, and they need to know exactly what our strategic priorities are and why, and they need nudges, and they need to be able to translate our voice of business and usability lists into those plans. I need to establish a perspective and make sure this is all written down and they really understand it, and I have a great conversation with them where I get open questions and they feel like they can really challenge my thinking. I also am having a podcast with Lenny in the afternoon. Ugh.\" Right? (00:37:37): At first, it was like, \"This is just too much. I should try to move or cancel one of these.\" Then, I asked myself, \"How might the opposite be true?\" I was like, \"I can do both.\" It was just enough to pop the balloon because sometimes your brain is so accustomed to having a scarcity mindset as opposed to creating alternative options or seeing a different path. The moment I challenged myself and said, \"How might the opposite be true?\" my shoulders dropped. I felt more relaxed. I was like, \"Oh, yeah, I can do both. It will be fine. We'll have a great conversation. I'm ready to show up, and be curious, and really engage with you on the topics that you've found interesting, and we'll just do that. So, \"How might the opposite be true?\" has been a really helpful piece of advice or line of questioning that I use with myself to make sure that I'm not taking myself away.",
+   "zh": "思考建议的方式有很多种。对我来说，为处于职业生涯特定阶段的特定人群提供建议时，往往能产生较好的效果。比如，我特别喜欢给职场新人提的建议就是：别自我设限。很多人总爱说\"我没有经验\"，或者\"我不够某某条件\"，然后就放弃申请机会。所以我总鼓励他们别自我设限，同时提醒自己何时该这样做。另一个常给的建议是\"大处着眼，小步推进\"。最小能做什么来达成目标？但别因此裹足不前，毕竟我们要持续迭代，保持小步前进。若过度关注优化某个指标而忽视大局，那就偏离了正轨。所以\"大处着眼，小步推进\"也是我常给产品团队的建议。  \n\n（00:35:02）：最后一条我喜欢的建议更偏向思维方式。员工加入Asana时，会收到一本《有意识领导者的15项承诺》。这本书由\"有意识领导力小组\"主导编写，还会接受为期两天的培训，学习高效协作的语言和工具。至少对我而言，这次经历具有变革意义——我掌握了与同僚分享的沟通方法和技巧。其中一个概念是\"线以上/线以下思维\"。比如：\"你处于何种位置？是线以上还是线以下？\"线以上者乐于学习、保持开放好奇；线以下者执着于胜负，追求绝对正确。  \n\n（00:36:10）：我们都有过陷入线以下思维的时刻，比如固执己见、非黑即白。这时理解自身思维模式，并留意行为背后的动机，对我帮助极大。同样重要的是识别他人的思维模式，比如在做决策或理解上下文时，如何避免陷入虚假取舍的陷阱。正如我今天早上提醒自己的：\"明天任务太多，得向区域负责人汇报清晰度支柱方案，确保他们理解堆积排序的指标，明确战略重点并知晓原因。他们需要行动指引，把业务语境和可用性清单转化为行动计划。我得确立框架，确保内容清晰易懂，并通过深度对话激发他们的挑战思维。下午还要和Lenny录播节目。唉...\"  \n\n（00:37:37）：起初我觉得\"任务太多，得删减或取消某项\"。但转念一想：\"线以下思维怎么反过来呢？\"原来答案是：\"两者兼顾即可\"。这就足以打破思维僵局，因为有时大脑习惯陷入稀缺思维，而非创造替代方案。\n看到一条不同的路径。当我挑战自己，问“相反的情况会怎样呢？”那一刻，我的肩膀放松了下来。感觉轻松多了。我心想：“哦，对啊，我可以两者兼顾。没关系的。我们会有一场很棒的对话。我准备好全情投入，保持好奇心，与你深入探讨你感兴趣的话题，就这么办。”所以，“相反的情况会怎样呢？”这句话成了我对自己非常有用的建议或提问方式，能确保我不会自我设限。",
+   "ts": "00:33:59"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. What a fruitful question that ended up being. That was amazing. How does clarity pillars strategy go? Are people into it? Is it working?",
+   "zh": "哇。这真是个富有成效的问题，最终结果令人惊喜。你们的清晰支柱策略进展如何？大家对此感兴趣吗？它是否有效？",
+   "ts": "00:38:43"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. I'm pumped. It's a really interesting time to be a product leader, especially with all of the tech transform... Truly, the technological transformation on LLMs is astonishing, the pace of development, the ability of our teams to just ship quickly and ship really intelligent things. We're not in an operational \"figure it out\" land. We're not in a place where we're trying to decide how to do a better job and get it out to customers. We really have lots of interesting paths forward and are trying to make sure that we're on the cutting edge while really looking at like, \"What does it mean to serve the companies and organizations that we want to serve with new ways of serving them?\" So it was a really fun conversation, and I also had to be honest with people and say, \"This is a 70% cut. 30% of this is missing or incorrect, and that's why I'm coming to you early.\" So I think it went really well, and it's the start of our 12-month rolling planning conversation.",
+   "zh": "是啊。我很兴奋。现在对于产品负责人来说，确实是个非常有趣的时代，尤其是技术变革方面……说真的，在大语言模型（LLM）技术变革方面进展惊人，开发速度之快，以及我们的团队能如此迅速地交付出极具智能性的成果，真是令人惊叹。我们不再处于那种需要“临时应变”的阶段，也不再处于试图决定如何改进产品并推向客户的阶段。我们确实有很多有趣的发展方向，同时也要确保我们站在技术前沿，思考如何用新方式服务我们想要服务的企业和组织。所以这场对话非常愉快，我还得诚实地告诉大家：“这次的规划有70%的内容是现成的，30%存在缺失或错误，所以我才这么早来找你们。” 所以我觉得进展很顺利，这也是我们为期12个月滚动规划对话的开端。",
+   "ts": "00:38:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Let me pull on this AI thread because it's clearly top of mind for a lot of people.",
+   "zh": "让我接着AI这个话题，因为它显然是很多人关注的焦点。",
+   "ts": "00:40:05"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:40:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How do you think about splitting up investment in AI exploration within the product team? Are you like, \"Hey, team. Everyone should be thinking about AI as part of their product,\" or is it there's a team where they're going to think about AI and LLM integrations and, \"Everyone else, keep doing what you're doing?\"",
+   "zh": "对于在产品团队内部分配AI探索投资，你们是如何考虑的？是会对团队说：“嘿，各位，都要把AI作为产品的一部分来考虑”，还是会专门组建一个团队来负责AI和大语言模型（LLM）集成，而让其他人继续做自己的工作？",
+   "ts": "00:40:09"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "We've had an ML team for quite some time, making sure that we have test prioritization models and notification prioritization models, and are making our product less work for people to use. But when it came to the massive leap forward in LLMs recently, we staffed a team to really prototype quickly, and discover what was possible, and just apply hypotheses outside of the typical norms of how we work. So they went straight to prototyping instead of going through that Double Diamond I was explaining earlier. What that meant was that we were really quickly able to say, \"Wow, this is just so much better than we imagined and would never have prioritized it because we thought it would take so much longer.\" Then, in other cases, \"That sounded good in theory.\" (00:41:18): So skipping a lot of that to just really try it on for a size has been key, and then what we're doing is giving the teams with the most expertise in the customer problems. For example, status and progress reporting, the keys to that car and saying like, \"Here's the starter. Here's the hypothesis. Here's how far we got with it. It's dogfooding. What do you want to do?\" So we're able to nudge people without wasting time and build the skills locally within the teams that then move those experiences forward.",
+   "zh": "我们已经有很长时间的机器学习团队了，确保我们有测试优先排序模型和通知优先排序模型，让我们的产品更易于用户使用。但最近大语言模型（LLM）取得了巨大进展时，我们组建了一个团队，迅速进行原型开发，探索其可能性，并应用超出我们常规工作范畴的假设。所以他们直接进入原型阶段，而不是像我之前解释的双钻模型那样一步步来。这意味着我们很快就能说：“哇，这比我们想象的要好得多，我们原本以为会花更长时间才优先考虑它。”而在其他情况下，“这个想法理论上听起来不错”。（00:41:18）所以跳过很多步骤，直接尝试新想法非常关键。然后，我们把在客户问题方面最有专长的团队放到前面。比如状态和进度报告，这些关键点，然后说：“这是启动器。这是假设。我们做到哪一步了。这是内部测试。你们想怎么做？”这样我们就能在不浪费时间的情况下推动团队前进，同时在团队内部培养相关技能，进而推动这些经验的落地。",
+   "ts": "00:40:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to come back to the coaching topic. I had a few questions there that I moved off of, but I feel like that's a rich area of exploration. You mentioned Intuit. You worked at Intuit. Intuit is famous for having a really good APM program and really good training for product managers. What did you take away from that experience that you bring with you to coaching or even I think there's an APM program at Asana, too?",
+   "zh": "我想回到教练话题。我有几个问题被移走了，但我觉得这是一个很有探索价值的领域。你提到了Intuit。你在Intuit工作过。Intuit以拥有非常好的A级产品管理（APM）项目和对产品经理的优质培训而闻名。你从那段经历中带走了哪些收获，应用到教练工作中了吗？甚至我觉得Asana也有APM项目吧？",
+   "ts": "00:41:50"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Intuit had excellent training programs, the APM program and their manager training. So, on the PM front, the biggest thing that they taught was around customer centricity, and it really started with the founding of the company. For anyone who works at Intuit or has worked at Intuit, they know that there's this story about Scott Cook watching his wife balancing her checkbook at the kitchen table, and staring at it, and saying, \"There's got to be a better way, a software.\" So it was very typical for the product training at Intuit to be all about like, \"How do you actually watch customers using your product or just doing the things they do, collecting the artifacts, knowing the workarounds, and using that experience to build opportunities for surprise and insight that then you can capitalize and create products around?\" They also are very specific about how they define durable advantage and think about, overall, the product process from a place of customer insight through to the market landscape. So the PM program there was absolutely super thoughtful, especially for taking someone who has never PMed into being a super skilled PM. (00:43:37): They also have a wonderful manager training program, and I think the biggest thing that I took away from their manager training was really on the feedback slide. So delivering feedback is something that I think everyone benefits from, but for managers, it's so much more critical because if you don't do it, and you don't say what you mean, and you don't do it in a way that it can be internalized and acted upon, you really don't set up your teammates, your teams for growth or success in their careers. So their program for helping you think about like, \"Okay. I'm going to convey this feedback as situation, behavior, impact. The situation is on Tuesday in that meeting at 3:00. Behavior, you interrupted me while I was saying this thing. Impact, made me feel like you weren't listening to me or made me feel like your voice was more important than mine, or impact, blah, blah, blah.\" (00:44:35): It doesn't matter what the impact is because the way you've set it up is it's a subjective observation. It's not what the camera recorded, it's what you experienced. Therefore, it is true and valuable feedback, and it gets the conversation started such that you can then talk about next steps. That format and framing really helped me understand that delivering feedback isn't about being right or about getting the right information to the other person. It's about sharing the impact of different decisions that they're making. So, especially if you have to give feedback about, God forbid, what someone wears to the office, or how do you feel their work is, or how they're communicating or their body language, having an enough support where you can be really clear about what you're intending and the spirit behind that, but that it's formalized enough that people can really engage with it has been enormously helpful, and I still use it today.",
+   "zh": "英特尔（Intuit）拥有出色的培训项目，比如APM计划和管理者培训。就产品管理（PM）方面而言，他们最强调的理念是以客户为中心，这一理念实际上可以追溯到公司创立之初。任何在英特尔工作过或了解英特尔的人都知道，有个故事是关于斯科特·库克（Scott Cook）在厨房餐桌上观察妻子记账时的场景，他盯着账本，感叹道：\"一定有更好的解决方案——开发一款软件。\"因此，英特尔的产品培训通常会围绕如何观察客户使用产品、收集反馈、了解解决方案中的痛点，并利用这些经验创造惊喜和洞察，再以此为基础开发产品。\n\n他们对持久竞争优势的定义也极为严谨，从客户洞察到市场格局的整个产品流程都经过深思熟虑。因此，英特尔的PM培训体系堪称精心设计的典范，尤其对于从零开始培养PM人才而言更是卓有成效。\n\n（00:43:37）他们还有出色的管理者培训项目。其中最让我受益的部分是关于反馈的培训模块。反馈机制对每个人都有益，但对管理者而言更为关键。如果你不及时传达真实想法，不让对方理解你的意图，那么团队就无法获得成长和职业发展的机会。因此，英特尔的培训体系教导管理者如何拆解反馈：比如\"周二下午3点的会议上，你打断了我的发言\"，\"你的语气比我的更强势\"，\"让我觉得你更看重自己的意见\"等。\n\n（00:44:35）反馈的核心不在于准确性，而在于主观观察的真实性。这种框架让反馈既具价值又易于接受，为后续沟通奠定基础。这套体系让我深刻理解，提供反馈的关键不在于正确性，而在于传达不同决策带来的影响。即使面对诸如\"同事的着装\"、\"工作表现\"或\"沟通方式\"等微观反馈时，通过结构化的表达方式清晰传达意图，也能帮助团队有效改进。",
+   "ts": "00:42:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's interesting how some of the most impactful training is such soft skills.",
+   "zh": "有趣的是，一些最具影响力的培训往往是软技能方面的内容。",
+   "ts": "00:45:35"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "So basic.",
+   "zh": "太基础了。",
+   "ts": "00:45:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Basic. Yeah.",
+   "zh": "基础。是啊。",
+   "ts": "00:45:43"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah.",
+   "zh": "是啊。",
+   "ts": "00:45:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's just how to give someone some feedback, but it's like, \"Know how to prioritize, how to do a meeting, how to give a presentation.\"",
+   "zh": "就是如何给别人反馈，但比如，‘知道如何排优先级，如何开会、做演示’。",
+   "ts": "00:45:44"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "No. Yeah.",
+   "zh": "不。是啊。",
+   "ts": "00:45:48"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's like, \"Here's how you give feedbacks.\"",
+   "zh": "就好像在说：“以下是如何提供反馈的步骤。”",
+   "ts": "00:45:50"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yep.",
+   "zh": "是啊。",
+   "ts": "00:45:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So you've worked with a lot of early product managers. I'm curious what you find most holds back new PMs and help them being successful in their career, and even on the flip side, what most helps new PMs be successful in terms of skills or behaviors, habits, things like that?",
+   "zh": "所以你和很多早期产品经理合作过。我很好奇，你认为什么因素最阻碍新晋产品经理取得成功，又或者从另一方面来说，哪些技能或行为习惯最能帮助新晋产品经理获得成功？",
+   "ts": "00:45:53"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I would say this illusion that you have to be all-knowing and super confident sets you up to be in a place of advocacy instead of inquiry. So PMs who are newer in their careers or who are in a different space than they're accustomed to working really want to be pro really fast. What pro means is trying to cut that straight path, and that can reduce information and conversation that makes you smarter. So some of the challenges that some PMs face are feeling like they need to be the expert, they need to be the smartest person in the room, or God forbid, they think they're the smartest person in the room. (00:46:56): Then, what happens is they're really doing that customer, or product discovery, or spec in a little dark room. Then, they show up, and they say, \"This is it. This is right. I know it's right, and let's do this as quickly as possible.\" Everyone else says, \"Wait. What? I don't know. I have a question,\" or they don't, and they still have a question, which is even worse. So I would say something that really holds PMs back is not being collaborative from a place of true curiosity like performative collaboration where they're not in a room or want to do a review, but ultimately, they don't really want the questions or the feedback. (00:47:40): I think trying to make sure that you can be in a place of curiosity and openness because that will make your experience more successful is really important. Other people aren't always going to be right, but if you're present for it, you can ask clarifying questions. You can ask the question behind the question. You can hear the feedback, and then say, \"Was that something that I must do, that I should do, or that I should consider?\" You can actually develop a conversation that will move your relationship forward, and so I would say that's something that I think holds PMs back. (00:48:17): PMs tend to be so ambitious and career-centric. There are so many good things about that, but I would say don't let the sound of your wheels drive you crazy. If you're present in your job, and you actually have fun with it and solve the problems, people will come out of the woodwork, say, \"You're great, and tell your boss you should be promoted.\" You don't need to ask for a promotion. Your outcomes should speak for themselves. Yes, you should have sponsors and people who advocate for you, but a lot of that just comes from that raw connection to the work and to your team.",
+   "zh": "我认为那种认为自己必须无所不知、超级自信的错觉，会导致你陷入倡导而非探究的境地。那些职业生涯较新或身处与以往不同领域的产品经理，往往急于快速成为专家。但所谓“专业”，往往意味着试图走捷径，这会减少能让你变得更聪明的信息和交流。因此，一些产品经理面临的挑战是，觉得自己必须成为专家，必须是房间里最聪明的人——更糟糕的是，他们自认为是房间里最聪明的人（00:46:56）。然后，结果是，他们在小黑屋里完成客户调研、产品发现或规格制定。结果展示成果时，大家会说：“就是这样。没错。我知道是对的，赶紧做吧。”其他人会说：“等等，什么？我不知道。我有个问题。”或者他们保持沉默，但其实心里还是有疑问，这更糟。所以我认为真正阻碍产品经理的是不能从真正的好奇心出发进行合作——比如表面上参与评审，但实际上并不希望听到问题或反馈。（00:47:40）我认为确保自己能保持好奇和开放的心态至关重要，这样才能让你的职业生涯更成功。其他人不总是正确的，但如果你能专注于此，你就能提出澄清性问题、追问背后的疑问，倾听反馈，然后说：“这是我必须做的，应该做的，还是应该考虑的？”这样就能开展一场能推动双方关系向前发展的对话。所以我认为这正是阻碍产品经理的因素之一。（00:48:17）产品经理往往野心勃勃、以事业为中心。这固然有很多好处，但我要说别让急功近利的想法蒙蔽了你。如果你专注于工作，享受解决问题的过程，人们自然会主动找上你，说：“你很棒，告诉你老板应该升你的职。”你不需要主动要求升职。你的成果本身就能说明一切。是的，你应该有支持者和为你发声的人，但这很大程度上源于你与工作和团队的深厚联系。",
+   "ts": "00:46:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Everyone I talked to about you is like, \"Oh my god, I love Paige.\" I could see why, but I want to ask you a question. I imagine you've made some mistakes either with a product or your career. I'd love to hear a story of something that went wrong and what you learned from that experience. This might be the last question, depending where you take it.",
+   "zh": "和我聊过你的人都说：“天哪，我超爱佩奇。”我能理解为什么，但我想问你一个问题。我想你一定也犯过产品或职业生涯方面的错误。我很想听一个出错的故事，以及你从中吸取了什么教训。这可能是最后一个问题，取决于你想怎么回答。",
+   "ts": "00:48:55"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I would say that all of the advice I've given so far is directly related to things I've learned the hard way. So, especially as an IC moving into a management role, you aren't supposed to have all the answers. You need to ask better questions. You need to be thoughtful about direction and agency. So I would say one of the missteps here is knowing how to give guidance or direction in a way that doesn't feel like micromanagement because what you're trying to do is to teach a repeatable pattern instead of giving a precise instruction that can be used once, and then disposed of. (00:49:57): So I think that's a pretty common manager path issue, but I think the faster you learn it, and observe it, and use techniques to manage it, the better. So, for example, I would go to my meetings with a stack of Post-Its, and I would write what I wish I was saying on Post-Its and see if someone else would say it first. Then, if by the end of the meeting, I had decided that I still had a Post-It or two that was worthwhile, I would say them. But you've got to police yourself because no one else will do it because no matter how accessible you think you are, other people know that you're the boss. They're not going to necessarily speak over you or challenge you directly. (00:50:42): Another challenge I had is I'm a very optimistic person, and I like to look on the bright side. I'm very positive, and I think depending on the culture you're working with or depending on your team, sometimes they need to hear what's really bad, and they need you to be really real, and they need you to tell them like it is. Something I realized was that I had an experience where I didn't realize that people didn't think I was being authentic because they thought something was bad, and I wasn't talking about it, but it wasn't because I didn't think it was bad or didn't see. It was just because my nature was to say, \"Well, I'm not going to talk about bad things because we're doing the things we need to do.\" As long as the plan is good, I wasn't really highlighting all the problems I saw or really pushing on those head on with my team, and so they felt like they didn't know what I was seeing or if we were saying the same things. That was really an interesting experience. Yeah, there were just so many. Yeah.",
+   "zh": "我想说，我目前给出的所有建议都直接源于我自己吃过的苦头。所以，特别是对于即将步入管理岗位的IC而言，你不必自诩无所不知。你需要善于提问，深思熟虑方向和权责分配。因此，我认为一个常见的管理误区是如何以不被视为微观管理的方式提供指导或方向，因为你的目标是教会人们可重复的模式，而非一次性给出可用但易被遗忘的指令。（00:49:57）：所以我认为这是一个普遍存在的管理挑战，但越早意识到、观察到并运用管理技巧来应对，就越有利。例如，我会带着一叠便利贴参加会议，把想说却没说出口的话写在便利贴上，看看是否有人会先说出来。若到会议结束时，仍有1-2张便利贴值得分享，我就会把它们说出来。但你必须自我约束，因为没人会替你做这件事。无论你看起来多么平易近人，团队成员都知道你是老大。他们不会直接反驳你或挑战你。\n\n（00:50:42）：另一个挑战是，我是个非常乐观的人，喜欢看到事情好的一面。我很积极，但我意识到，根据所在的文化或团队不同，有时他们需要听到真实的坏消息，需要你说实话，需要你直言不讳。比如，我曾有过这样的经历：我没意识到人们认为我不够真诚，因为他们认为某些事情很糟糕，而我却不愿谈论。但这并非因为我认为没问题或没发现问题，而是因为我的天性是说：“嗯，我不会谈论坏事，因为我们要专注于该做的事。”只要计划合理，我就不会强调所有问题，也不会直接与团队对质。因此，他们感觉既不了解我的看法，也不确定我们是否在谈论同一件事。这真是个有趣的经历。是的，类似的挑战还有很多。",
+   "ts": "00:49:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "With that second lesson, is there something you've changed in the way you lead and operate where you now found a way to communicate, \"Here's wrong,\" in a way that's still maybe optimistic and productive?",
+   "zh": "通过第二个教训，你在领导和管理方式上是否有所改变，现在找到了以依然乐观且富有成效的方式传达“这里有问题”的方法？",
+   "ts": "00:51:49"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I try to be more real with myself and others. I try to show up and say like, \"Hey, this is incomplete.\" For example, even the thing I did this morning, the clarity brief. I said, \"This is 70% finish. The 30% that I don't believe is there yet are these three things. I don't feel confident in this piece of it, and hopefully, we'll have more clarity by next week.\" So that's an example of just being as real with the small things as with the big things so that people can balance their perspective of you and your work, and the organization and the environment you're creating.",
+   "zh": "我努力对自己和他人更加真实。我努力坦诚相待。比如，今天早上我做的清晰度简报，我说：“这只完成了70%。剩下的30%我认为还没到位的是这三件事。我对这部分没有信心，希望下周能有更清晰的思路。”这就是一个例子，无论事情大小，都要保持真实，这样人们才能平衡对你的看法、你的工作以及你所营造的组织和环境的看法。",
+   "ts": "00:52:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm curious how you think about your career going forward. How far out do you think where you want to be, and how do you plan out the future of Paige's career?",
+   "zh": "我很好奇你对未来职业发展的看法。你认为自己理想中的职位在多远的未来？你如何规划佩奇职业生涯的未来？",
+   "ts": "00:52:40"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I try to be really intentional about staying as much as leaving a role. When I think about my career as a whole, I try to think about skills or experiences I want to have as opposed to roles, or companies, or specific problems. So something that I think about is... Effectively, I evaluate whether I'm in a healthy role and in a good setup by asking myself about my learning curve like, \"Is the steepness of my learning curve doing me a favor here?\" because sometimes you might love the organization, love the problem, and feel like you're just not learning, or learning fast enough, or being challenged. (00:53:39): That's something that I think is really important. So thinking about the learning curve, thinking about whether the environment is positively impacting your ability to grow your career and make an impact. So, environmentally, you might have not enough staffing or tooling, or have someone in the management team who is toxic, or have a peer who is blah, blah, blah, blah, blah. That stuff matters, and I think people don't talk about it or take it seriously enough that your environment should include people who are advocating for you, and it should just be a place where you feel you've got the right ingredients to set you up to do the good work. (00:54:24): Then, the third piece is really around just the problem, the problem your product is solving. Is it fun? Is it interesting? I often like to think about passions are made, not found because I think people... We do this with nine-year-olds. We say, \"What do you want to be when you grow up?\" They look cross-eyed, and they say, \"An astronaut. Just getting a vet. I don't know.\" There's this moment of panic, and I would say that being comfortable, saying like, \"Go try different things, and see if the problem is interesting to you and if the problem is fun or interesting to you.\" It doesn't mean it has to be sexy. It doesn't mean the company needs to have a brand name. It just has to be something that you're curious about so that you do a better job at your job. So I would say learning curve environment and problem are things that I use to assess like, \"Am I still on the right path, or should I consider an alternative?\" But when I think about my own career, I really think about skills and experiences as opposed to roles. So I would say that that's more my frame of reference because otherwise, I think I am living in the future and not enough trying to make the most out of the career I'm living right now.",
+   "zh": "我会特别注意在留任还是离职时保持谨慎。当我回顾整个职业生涯时，我更关注自己想获得的技能或经验，而非具体职位、公司或特定问题。比如，我会思考自己的学习曲线是否能助力职业发展——“这条学习曲线是否对我有益？”因为有时你可能热爱所在组织，热爱手头问题，却发现自己学习进度太慢，或者面临挑战不足的情况。（00:53:39）这点至关重要。因此，要评估职位是否健康，工作环境是否有助于职业成长和发挥影响力。比如，团队人员不足、工具缺失，管理层有毒性人物，同事关系不融洽等，这些问题都至关重要。我认为人们往往忽视或不重视环境因素——团队成员应成为你的支持者，而非阻碍者。（00:54:24）第三个维度是产品所解决的问题本身。它是否有趣？是否引人入胜？我常认为激情是后天培养而非天生的，就像我们对九岁孩子的提问：“你长大后想做什么？”他们往往茫然不知。这启示我们要保持开放心态，尝试不同领域，判断问题是否有趣、是否能激发热情。这不意味着产品必须光鲜亮丽，也不要求公司拥有知名品牌——关键在于能激发你的好奇心，从而提升工作表现。因此，学习曲线、工作环境和问题是评估职业方向的核心标准。回顾自身职业生涯时，我更关注技能与经验而非职位头衔。这才是我最常用的参照系，否则我们会活在未来而非充分把握当下。",
+   "ts": "00:52:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Well, with that, we've reached our very exciting lightning round. I've got six questions for you. Are you ready?",
+   "zh": "好的，接下来是激动人心的闪电问答环节。我准备了六个问题，大家准备好了吗？",
+   "ts": "00:55:44"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. Let's do it.",
+   "zh": "好的，我已经迫不及待了。",
+   "ts": "00:55:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "你向他人推荐最多的两三本书是什么？",
+   "ts": "00:55:51"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "My go-to book recommendation for other PMs is inspired by Marty Cagan. I think it's a classic. The other books that I have enjoyed and recommended lately are The Blind Assassin by Margaret Atwood and The Alchemist by Paulo Coelho.",
+   "zh": "我向产品经理们推荐最多的书是受Marty Cagan启发的经典之作。最近我很喜欢的《盲刺客》（The Blind Assassin）和《牧羊少年奇幻之旅》（The Alchemist）。",
+   "ts": "00:55:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite recent movie or TV show?",
+   "zh": "最近看过最喜欢的电影或电视剧是什么？",
+   "ts": "00:56:11"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Ooh, I'm very much enjoying The Diplomat right now, and then TV show or movie. Let's see. I just watched the Fire of Love documentary, which is about a couple who study volcanoes, and that was a great change of pace.",
+   "zh": "哦，我现在正在看《外交官》（The Diplomat），还有电视剧的话，我刚看完纪录片《火与爱》（The Fire of Love），讲一对研究火山的夫妇的，非常不一样的视角。",
+   "ts": "00:56:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I saw the trailer for that. I think I got to watch that, and I finished The Diplomat. It's awesome. It ends really well.",
+   "zh": "我看过那个预告片了。我觉得我得去看看那部片子，而且我已经看完《外交官》了。太棒了。结局特别好。",
+   "ts": "00:56:32"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I'm not done. Don't spoil it.",
+   "zh": "我还没看完呢。别剧透。",
+   "ts": "00:56:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But it's just good. I'm just saying it's good. That's not spoiling.",
+   "zh": "但它真的很棒。我只是说它很棒。这不算剧透。",
+   "ts": "00:56:39"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Okay.",
+   "zh": "好吧。",
+   "ts": "00:56:39"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Next question. What's a favorite interview question that you like to ask candidates?",
+   "zh": "好的。下一个问题。你最喜欢问候选人的面试问题是什么？",
+   "ts": "00:56:45"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "The good news is I can tell you this and still keep asking it because the answer has always come up differently. So I like to ask, \"Tell me about a time something went wrong. What was it? What did you do about it? Yada, yada.\" Effectively, the question gets that, \"When the product failed,\" When something about the team didn't work,\" just things that go wrong because that's what happens when you're doing this work, and evaluating people's mindset, and the way they talk about it, and the way they relate to evaluating the situation. I think it's a great question. Really tells you a lot about how people think and how they perceive themselves when things are not working well.",
+   "zh": "好消息是，我可以告诉你这个问题，还能继续问下去，因为答案每次都不一样。所以我喜欢问：“说说你遇到过什么出错的情况。具体是什么事？你怎么处理的？等等等等。”实际上，这个问题能引出“产品失败时会怎样”、“团队合作出现问题时会怎样”之类的话题，这些都是在做这份工作时常会遇到的状况。还能评估候选人的思维方式、他们谈论问题时的语气，以及他们看待问题时的态度。我觉得这是个很棒的问题。能让你了解人们的思维方式，以及他们在事情不顺利时如何看待自己。",
+   "ts": "00:56:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What is a favorite product that you've recently discovered that you love?",
+   "zh": "最近你发现了什么很棒的产品吗？",
+   "ts": "00:57:34"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I've been playing a lot with Poe.com lately. Yeah, just an opportunity to learn more about LLM capabilities in a firsthand way. It's been fun to create little bots. I'm playing with making a page bot. I can't say that the page bot could have had this conversation yet, but maybe next year at this time, you can have a conversation with the other me.",
+   "zh": "我最近一直在玩Poe.com。是啊，正好有机会亲自了解LLM的功能。创建小机器人很有趣。我正在做一个页面机器人。虽然现在还不能让这个页面机器人参与这段对话，但也许明年这个时候，你就能和未来的我聊天了。",
+   "ts": "00:57:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's what the page bot would say if this was the page bot talking right now.",
+   "zh": "如果现在对话的是页面机器人，它会怎么说？",
+   "ts": "00:58:07"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I would say though that the advice, bits and bobs, I gave you earlier are absolutely things that I've been thinking about feeding, but I think the page bot would probably say, \"Ship it.\"",
+   "zh": "不过我得说，之前给你的那些建议和小技巧，确实是我一直在考虑如何应用的，但我觉得页面机器人可能会说：“赶紧上线。”",
+   "ts": "00:58:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Poe. It's the Quora founder's LLM chat bot?",
+   "zh": "Poe。是Quora创始人的LLM聊天机器人吗？",
+   "ts": "00:58:25"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah, and so you can try the different models. So you can do four, and you play five, and Claude, and a few others. Yeah.",
+   "zh": "对啊，所以你可以试用不同的模型。比如四个模型，还有五号模型、Claude以及其他几个。是的。",
+   "ts": "00:58:30"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's also a lennybot.com for folks that haven't seen this. Actually, there's a whole post on my newsletter of how it was built, and you get a lennybot.com. It is trained on all of my newsletter posts, and I think... not yet podcasts, but someday it will have podcasts.",
+   "zh": "还有lennybot.com，方便没听说过的人了解。实际上，我的时事通讯里有整篇关于它如何构建的文章，你可以注册lennybot.com。它用我所有的新闻通讯内容进行了训练，我觉得……暂时还不支持播客，但总有一天会支持的。",
+   "ts": "00:58:38"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Ooh.",
+   "zh": "哦。",
+   "ts": "00:58:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "By the way, someone listening to this, we're looking for someone to maintain this bot and evolve it. So if you're really into this stuff and have done this sort of thing, please DM me on Twitter. I'm looking for someone to take over lennybot.com, make it more... Moving on. Enough about me. Next question. What is something relatively minor you've changed in your product development process that has had a big impact on your team's ability to execute?",
+   "zh": "顺便说一句，正在听这个节目的朋友，我们正在寻找人来维护这个机器人并对其进行改进。所以如果你对这类技术感兴趣，并且有相关经验，请在Twitter上私信我。我正在寻找接手lennybot.com的人，让它更……接下来。别再说我了。下一个问题。你在产品开发过程中做过哪些相对小的改动，却对团队执行能力产生了重大影响？",
+   "ts": "00:58:55"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "One of the biggest ones is just, once again, being real about how many reviews and approvals it takes for something to get done and who's actually responsible for reviewing and approving work. So we got really aggressive about, functionally, who is in charge and at what level for a given review, and pushed to say to actually have limits on the number of people per meeting, on the number of sub-task reviews for a given body of work. What this did is it created a lot more agency and pace within given working teams. So what we did was we said, \"We actually don't care. We don't want a daisy chain of approvals. We just want one person with whom the buck can stop with them, and they can be responsible for how the work moves forward such that the knowledge is known and we could have connected the dots more effectively than we do or did.\" So that's the logic there, and it really changed the pace and quality of our work.",
+   "zh": "其中最重要的一点就是，再次坦然面对完成一项任务需要经历多少次评审和审批，以及谁真正负责评审和审批工作。因此，我们在职能层面明确了每个评审环节的责任主体和级别，并严格限制每次会议的人数和某项工作的子任务评审次数。这样做极大地提升了团队的工作效率和执行力。\n\n具体而言，我们提出：\"我们不在乎层层审批，我们只需要一个能拍板的人，让他们负责推动工作进展，确保信息透明，避免信息割裂。\"这就是我们的核心逻辑，它彻底改变了我们的工作节奏和质量。",
+   "ts": "00:59:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that. Is there any more you could share, a number? What is the maximum? Is there anything that other people maybe can take as a-",
+   "zh": "我太喜欢这套方法了。能否分享更多细节，比如具体的数量限制？最大值是多少？其他人能否借鉴这些经验？",
+   "ts": "01:00:25"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. So no more than three reviews on a given piece of work where people are blocking one approver. If a meeting has more than 10 people on it, we ask the person hosting the meeting to kick out the other people and write better decision notes.",
+   "zh": "是的。对于任何需要多人审批的任务，最多不超过三次评审。如果会议参与人数超过10人，我们会要求会议主持人清退多余人员，并撰写更清晰的决策记录。",
+   "ts": "01:00:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "The three reviews is three meetings looking at the product as it's coming together, basically?",
+   "zh": "这三次评审是指在产品研发过程中，针对不同阶段进行的三次评审吗？",
+   "ts": "01:00:49"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "The three reviews are three people who are assigned a task to look at something, but only one person is blocking whether it moves to the next stage.",
+   "zh": "这三次评审是指三个人被分配任务进行评估，但只有一个人能决定是否进入下一阶段。",
+   "ts": "01:00:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Got it. Informed people? Stakeholders?",
+   "zh": "明白了。这些都是关键决策者吗？还是说涉及利益相关方？",
+   "ts": "01:01:03"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:01:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Decision-makers? Okay. Great. Final question. You work at Asana. What is your favorite Asana pro tip?",
+   "zh": "决策者？好的，太棒了。最后一个问题。你在Asana工作，最喜欢的Asana实用技巧是什么？",
+   "ts": "01:01:06"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "I use Asana to run all my meetings and assign pre-reads. So I use the multi-assign feature in subtasks all the time where I make a task with a due date that says, \"Read this thing by this date,\" and then I assign it to a team or a set of individuals like that really quickly. Then, when I'm in the meeting, I take notes live in a task, and then highlight parts of those notes, and convert them into subtasks so that none of the action items get lost.",
+   "zh": "我用Asana来组织所有会议，并分配预读任务。比如，我会创建一个带有截止日期的子任务，写上\"在此日期前阅读这份文件\"，然后快速将任务分配给团队或特定人员。开会时，我会实时在任务中记录笔记，并将部分笔记转换为子任务，确保行动项不会遗漏。",
+   "ts": "01:01:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow. You need to make a video or blog post about this. Not only is it using Asana to build Asana, it's using Asana to run teams within Asana.",
+   "zh": "哇。你真该把这个过程拍成视频或写成博客分享。不仅用Asana来构建Asana平台，还用Asana来管理Asana内的团队。",
+   "ts": "01:01:46"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "Yeah. It definitely does that, but-",
+   "zh": "是的，确实如此。不过——",
+   "ts": "01:01:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Asana all the way down.",
+   "zh": "全程都用Asana。",
+   "ts": "01:01:57"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "People know who's responsible for what they want.",
+   "zh": "人们能清楚了解谁负责什么事务。",
+   "ts": "01:01:58"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Paige, you are awesome. Thank you so much for doing this. Two final questions. Where can folks find you online if they want to reach out and learn more, and how can listeners be useful to you?",
+   "zh": "太棒了。佩奇，你太厉害了。非常感谢你的分享。最后两个问题。如果读者想进一步了解你，哪里可以找到你？听众如何能为你提供帮助？",
+   "ts": "01:02:01"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "You can find me on LinkedIn and Twitter, Paige Costello, and on Twitter, @paigenow. Listeners, well, I'd love to hear how you think AI is going to shape the future of software for knowledge workers, but in particular, if you and your team use Asana, I'd love to know where you'd like to see AI playing a bigger role to drive efficiency alignment for your team. So, as you know, we offer a ton of goal management, work management pieces that help teams and orgs do their work together, and I'd love to hear from you about where you see the opportunity.",
+   "zh": "您可以在领英和推特上找到我，用户名分别是 Paige Costello 以及@paigenow。听众朋友们，我很想听听你们对人工智能将如何重塑知识型员工软件未来的看法。特别是如果您和您的团队正在使用 Asana，我很想了解您希望人工智能在哪些方面发挥更大作用，以提升团队的工作效率和协作能力。如您所知，我们提供了大量目标管理和工作管理工具，助力团队和组织高效协作，我期待听听您眼中这些工具的潜力所在。",
+   "ts": "01:02:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. Paige, again, thank you so much for being here.",
+   "zh": "太棒了。Paige，再次感谢您今天的参与。",
+   "ts": "01:02:49"
+  },
+  {
+   "speaker": "Paige Costello",
+   "en": "My pleasure. Thanks for having me.",
+   "zh": "不客气。感谢邀请。",
+   "ts": "01:02:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye, everyone. (01:02:57): Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.",
+   "zh": "大家再见。（01:02:57）：非常感谢您的收听。如果您觉得本期内容有价值，可以在苹果播客、Spotify 或您喜爱的播客应用上订阅本节目。另外，请考虑给我们评分或留下评论，这对其他听众找到本节目非常有帮助。您可以访问 lennyspodcast.com 查看往期节目或了解更多信息。下期节目再见。",
+   "ts": "01:02:55"
+  }
+ ]
+}

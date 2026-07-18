@@ -1,0 +1,467 @@
+{
+ "id": "Jackie Bavaro",
+ "name": "Jackie Bavaro",
+ "category": "企业管理",
+ "identity": "产品",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Jackie+Bavaro",
+ "bio": {
+  "en": "Jackie Bavaro is a product leader and co-author of the bestselling PM guides Cracking the PM Interview and Cracking the PM Career, drawing on product experience at Amazon, Facebook, and Dropbox.",
+  "zh": "Jackie Bavaro 是一位产品负责人，也是畅销 PM 指南《Cracking the PM Interview》和《Cracking the PM Career》的合著者，产品经验来自 Amazon、Facebook 和 Dropbox。"
+ },
+ "summary": {
+  "en": "In this conversation, Jackie shares practical, battle-tested advice for product managers at every stage, drawn from her experience shipping products at major tech companies and from coaching thousands of PMs through her books. She covers how to break into product management, what separates strong PMs from the rest, and how to navigate the career ladder from IC to leader. The episode is a grounded, no-fluff guide to building a successful product career.",
+  "zh": "在这期对话中，Jackie 分享了面向各阶段产品经理的实战建议，这些经验既来自她在大型科技公司交付产品的经历，也来自通过著作指导过成千上万名 PM 的积累。她讲了如何进入产品管理领域、优秀 PM 与普通 PM 的区别，以及如何从个人贡献者走向领导者。这期节目是打造成功产品生涯的踏实、去水分的指南。"
+ },
+ "turns": [
+  {
+   "speaker": "Lenny",
+   "ts": "00:05",
+   "en": "If you're PM, you've almost surely read and been influenced by Jackie Bavaro. And if you haven't, you're in for a treat. Jackie is behind two of the most important books in the PM cannon, Cracking the PM Interview and Cracking the PM Career. And she's also one of the smartest people I know on the essential skill of product strategy in our chat. We go deep into all the ways that you can become better at developing your own product strategy, including what is strategy, what makes a good and bad strategy and how to very tactically put together a strategy. We also chat about what she's learned going from the first PM at Asana to head of product at Asana, plus a ton of tactical advice on getting to senior PM and then to manager PMs. A big thank you to Jackie for sharing her wisdom with us. (00:51): This episode is brought to you by flat file. Think of the last time that you imported a spreadsheet, did it work the first time? Chances are it did not. You probably got some weird error and to try a bunch of things like removing the blank title rows above your column headers, or Googling how to save with UTF-8 in coding. What even is UTF? Who cares? (01:09): You're just trying to get your file where it needs to go. So you can do your actual job, your customers running to the same issues when it matters most, right after signing up for your product. Enter Flatfile. Flatfile is the data onboarding platform built to take the acute pain out of importing customer data into your product so they can see the magic that you promised them. Flatfile has sought type one and two certified GDPR compliant and even HIPAA compliant, ensuring your customers no matter where in the world are located, are sharing their data securely, any compliance, every step of the way. No more emailing files back and forth, no more help articles that just don't land. Just clean data on day one, when it matters most. Get started importing millions of rows of customer data in minutes at flatfile.com/lenny. (01:55): This episode is brought to you by Amplitude, the number one product analytics solution. Amplitude helps product teams, growth teams, marketing and data teams build winning products faster, and turn products into revenue. Amplitude has everything you need, including an integrated CDP, self-service analytics and even an experimentation platform to help you better understand your users, drive conversions and increase engagement, growth, and revenue. Amplitude is built for teams that want to learn as fast as they ship, and ship as fast as they learn. Ditch your vanity metrics, press your data, work smarter and grow your business. (02:31): With over 1700 customers like Atlassian, Instacart and HBO, Amplitude is helping companies build better products. Try Amplitude for free. Visit amplitude.com to get started. (02:49): Jackie, I am so excited that we are chatting again. We've done a bunch of fire set chats over the years in various events, and you've always been really generous with your time. I just want to say thank you for joining me. And I'm really excited to chat again.",
+   "zh": "假如你是一位产品经理（PM），你几乎肯定读过杰基·巴瓦罗（Jackie Bavaro）的著作，并深受其影响。即便没读过，也值得一听。杰基是PM领域两本重要著作《破解PM面试》（Cracking the PM Interview）和《破解PM职业生涯》（Cracking the PM Career）的作者。她还是我认识的在产品战略核心技能方面最聪明的人之一。在我们的对话中，我们深入探讨了如何提升产品战略能力，包括什么是战略、优秀与糟糕战略的区别，以及如何高效制定战略。我们还聊到了她从Asana首位PM到产品负责人的转变历程，以及如何晋升为高级PM和管理层PM的实用建议。非常感谢杰基与我们分享她的智慧。（00:51）：本期节目由Flat File赞助。回想一下你上次导入电子表格的经历，第一次成功了吗？很可能没有。你可能遇到奇怪的错误，比如删除列标题上方的空白行，或者在谷歌上搜索如何用UTF-8编码保存文件。什么是UTF-8？谁在乎呢？（01:09）：你只想让文件顺利导入，这样就能专心做本职工作。但当用户注册你的产品后，他们往往会遇到关键时刻的数据导入难题。这时候FlatFile就能派上用场了。FlatFile是一款数据导入平台，专为将客户数据无缝导入产品而设计，让用户能直观体验你承诺的魔力。FlatFile通过了GDPR一级和二级认证，甚至符合HIPAA标准，确保全球用户数据安全传输。无需来回邮件传送文件，无需费力阅读那些用户理解不了的帮助文档。只需在最关键的时刻——产品上线第一天——就能获得干净的数据。立即访问flattfile.com/lenny，几分钟内即可导入数百万行客户数据。（01:55）：本期节目由Amplitude赞助，头号产品分析解决方案。Amplitude助力产品团队、增长团队、营销和数据团队更快打造成功产品，将产品转化为收益。Amplitude提供一站式解决方案，包括集成CDP、自助分析和实验平台，助力你深入理解用户、提升转化率、增强用户参与度、促进增长和创收。Amplitude专为希望在快速迭代中快速学习、在快速学习中快速迭代的团队打造。摒弃虚荣指标，深度挖掘数据，提升工作效率，推动业务增长。（02:31）：Amplitude已为Atlassian、Instacart和HBO等1700多家客户提供服务，助力他们打造更优质的产品。立即免费试用Amplitude，访问amplitude.com即可开始。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "03:01",
+   "en": "Yeah. I'm so excited to chat with you. I'm so excited that you're doing a podcast and I'm glad I get to be one of the early people on it.",
+   "zh": "是啊。我很高兴能再次与你交谈。这些年来，我们在各种活动中多次进行即兴对话，你总是非常慷慨地分享时间。我只想说感谢你能来参加节目。再次与你交流，我真的很兴奋。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:08",
+   "en": "Absolutely. It's my honor. Okay. You are a famous PM in the world of product management. You rode Cracking the PM Interview, Cracking the PM Career, both of which I own and love. And fun fact, my sister was just interviewing as a PM and she used your book and found it, really helpful. So thank you for that.",
+   "zh": "没问题，我深感荣幸。好的。您是产品管理领域赫赫有名的PM。您的《破解PM面试》和《破解PM职业生涯》这两本书，我都拥有并爱不释手。说个趣事，我妹妹最近参加PM面试时，用了您的书，发现内容非常实用。所以真心感谢您。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "03:08",
+   "en": "That's awesome.",
+   "zh": "太棒了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "03:26",
+   "en": "Yeah. And then also you've written a bunch of classic PM post on Medium that I reference often share with people. And also you were the first PM at Asana ended up being the head of product management at Asana. And that's actually where I left to start. Could you just share how you got into product very early on and then how you worked your way up to the head of product management at Asana?",
+   "zh": "是的。您还在Medium上写了许多经典的PM文章，我经常参考并分享给别人。另外，您还是Asana公司的首位PM，最终还担任了Asana的产品管理部门负责人。实际上，我正是从那里离职出来创业的。您能否分享一下自己是如何早期接触产品管理领域的，以及后来如何一步步晋升至Asana产品管理部门负责人的经历？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "03:47",
+   "en": "Yeah. I was just really lucky in finding product management. I went to Cornell, studied computer science and economics, and I'd never heard of the job. One of my friends who'd been a PM intern the summer before I was like, \"Jackie, you have to apply for this internship.\" And I said, \"I'm sophomore. I can't be a manager.\" And they're like, \"No, you manage the product, not the people and just go apply.\" I applied having no idea at all what the job was. Through the interviews, I tried to figure it out. I loved the interview questions. I thought they were a lot of fun and got the job, became an intern on Microsoft SharePoint services and stayed with the team. Loved that team. Went there full time. When I moved to New York, that I started to think about changing companies. (04:29): Microsoft didn't have any product management in New York. So I applied to Google and I was like, \"Yes, I'm a good product manager. I'm sure I'll get this job.\" And I got rejected. And I was shocked. I really had thought that I would pass the interview. A year later I applied again and that's when I got into the Google APM program. And of course at the time I thought this was one of the biggest mistakes in my whole career. But looking back, it certainly is what gave me the impetus to write these books and say, \"You know what? Even good PMs don't know how to answer these questions. There's a lot we can do to help.\" And beyond that also then when I be joined Google, I very quickly got sent into being an interviewer. And immediately I noticed there was this real difference in how people would answer the questions. (05:08): And some people didn't seem to understand what the question was trying to get at. And some people sounded really good because they'd say, \"Well, I'll tell you three things. Number one, number two, number three.\" And then when I paid attention to my notes, I'd be like, \"Wait, their three ideas weren't actually good ideas. They just sounded like they knew what they were doing.\" Those really drove me to want to share more about how to do well in these interviews. (05:28): And at the same time, I constantly had people saying, \"Jackie, my friend's applying to Google,. Can you talk to them?\" And I was like, \"Sure, of course. I'll like tell them what we're looking for.\" And I'll help them understand the interview process. And after doing this three times, I was like, wait a second, \"If it's only my friends of a friend who are people who work at Stanford and are already very privileged and I'm telling them how to pass these interviews, that's not fair.\" (05:51): If I'm willing to tell it to a friend of a friend, I have to be willing to put that out on the internet and share that with everyone, because we really want to level the playing field that we don't want to make things more unfair. (05:59): While I was at Google, one day, I get an email from a friend, from an engineer I'd worked with at Microsoft. And he's like, \"Hey, you want to grab coffee?\" And I was like, \"Oh, cool, sure. I'll be friendly.\" And at the time I did not realize that that's how all these recruiting chats start. I honestly did not realize that this was like, \"I'm being recruited.\" I thought it was like, let's just catch up. But I said, \"Yes.\" And then he told me about this company and he is like, \"Hey, it's like, imagine if SharePoint was really fast.\" And I was like, \"Oh.\" I love SharePoint, and I would love to work on a fast version of that. And that's how I ended up moving over and becoming the first product manager at Asana and achieve.",
+   "zh": "是啊。我能找到产品管理这个工作真是运气好。当时我在康奈尔大学读计算机科学和经济学，从来没听说过这个职业。有一位朋友在微软实习过，说“杰基，你一定要申请这个实习岗位。”我当时说：“我才大二啊，怎么能当经理呢？”他们说：“不，你要管理产品，不是管理人。赶紧去申请吧。” 我完全不了解这个职位，就稀里糊涂地申请了。面试过程中，我努力去理解这个工作。那些面试问题很有趣，最后成功拿下了微软SharePoint服务团队的实习机会。那个团队太棒了，后来我直接转正了。搬到纽约后，我开始考虑跳槽。（04:29）微软纽约没有产品管理岗，于是我投了谷歌，心想“我肯定能行”。结果被拒了。当时特别震惊，我明明觉得自己会通过的。一年后再投，才进入谷歌APM项目。现在回想，那次失败反而成了我写书的动力。看着优秀的产品经理连这些问题都答不好，我意识到有太多可以帮助的地方。（05:08）后来加入谷歌后，我很快成为面试官。发现大家回答问题的水平天差地别。有些人完全不明白问题的核心，有的讲得头头是道，但仔细一看发现他们的想法根本不靠谱。这让我下定决心，要分享更多面试技巧。（05:28）同时不断有人找我：“杰基，我朋友要去谷歌，你能指导一下吗？”我说：“当然可以，告诉他们我们的招聘标准，帮他们理解面试流程。” 但三次之后，我意识到不公平。（05:51）谷歌时期，有天收到微软同事的邮件：“一起喝咖啡吧。” 我说：“好啊。”结果发现这就是招聘预约啊。我当时完全没意识到，这就是在挖我。（05:59）后来加入Asana，同事说：“想象一下，如果SharePoint能像这家公司一样快就好了。” 我瞬间心动了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "06:32",
+   "en": "There's so many things I want to pull on in what you just shared there. On the book, an interesting point you made is that you wrote the book because it was something you were struggling with and then you saw a lot of other people struggling with it. And I find that that's often the case. When you look at books, people have written or posts, it's just like, \"Oh, I had this question and this a way for me to get better at it by forcing myself to write about it.\" Is that basically what happened?",
+   "zh": "关于你刚才分享的内容，有很多地方让我感触颇深。谈到那本书时，你提到自己写作的初衷是源于自己曾深陷困境，而后发现许多人也面临着同样的挑战。我发现这种情况其实很常见。当我们看到别人写的书或文章时，总会感叹：\"啊，我也曾有过这样的困惑，通过强迫自己写下来来提升自己，这方法真是绝妙！\"你写这本书的过程基本如此吧？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "06:53",
+   "en": "Yeah. I had this belief that almost anybody can learn anything. People have different interests, not everybody wants to learn everything. But I find that if you're having trouble learning something, it's just because something's not clicking. There's just something that you're misunderstanding or that other people see that you're not seeing. And if people could just describe it in the way that matched YOUR mental model, then you could learn it. (07:13): That's how I feel about this interviewing. Is that the reason that some people don't do as well as they could on interviews is just because a lot of these interview questions are trick questions. When they say, \"Oh, how would you design a bathroom?\" I used to think that meant, \"What do you want in a bathroom?\" And that's not what it means at all. It means \"Who is the best customer for a bathroom? What would they want?\" But if you haven't been trained in this, you wouldn't know.",
+   "zh": "是的。我一直坚信，几乎所有人都能学会任何技能。每个人兴趣各异，并非所有人都想掌握所有知识。但我发现，当你在学习某项技能时遇到困难，往往是因为某些环节没能触动到你。这可能是因为你误解了某些概念，或者其他人能看到的东西你却视而不见。如果有人能用符合你思维模式的方式来解释问题，你就能轻松掌握它。（07:13）这就是我对面试的看法。有些人在面试中表现不佳，可能就是因为很多面试题都是陷阱。比如“你如何设计一个浴室？”我过去以为这是在问“你理想中的浴室应该是什么样的？”但其实根本不是这个意思。正确的提问应该是：“谁是浴室产品的最佳用户？他们会需要什么？” 但如果你没有接受过这方面的训练，是无法理解的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "07:34",
+   "en": "We're definitely going to talk about interviewing and career and come back to these topics. But going back to Asana, you look at this journey that you took and it sounds amazing and it went great, and someone that's starting out, they may feel like, \"Man, how am I ever going to not make any mistakes along my journey and get to a place like Jackie ended up?\" A question is just, is there a mistake or some wrong journey took along this journey that you can share?",
+   "zh": "我们肯定会深入探讨面试和职业发展，再次回归这些话题。但回到Asana的话题，你的职业发展之路堪称惊艳，一路顺遂。初入职场的人可能会想：“天啊，我要怎样才能在成长过程中避免犯错，最终达到Jackie那样的成功高度？” 我想问的是，在这段旅程中，你是否有过任何错误或走过的弯路，可以和我们分享一下？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "07:58",
+   "en": "Yeah, I'm sure I've made lots of mistakes. One of the ones that comes to mind is that in probably my first or second year at Asana, I very much saw the PM's role is a person who wants to say no to everybody. I was like, \"All these people want us to do stuff and we would do way too much and we would never get anything important done if we just said yes to them. I need to say no to people.\" And I got into this defensive mindset and sometimes people would come to me with ideas and I'd be like, \"Are you telling me I can't do my job right?\" And I would just try to say no to them as efficiently and effectively as possible. (08:28): And I did this one day to my boss and he had some idea for design that I thought was a bad idea. And I was just like, \"No, we're not going to do that.\" And he's like, \"Jackie, you have to stop shutting me down.\" And I was like, \"I'm about to get fired.\" I was like, \"Oh, I have really, really messed up here.\" It definitely made an impression on me and I was lucky enough to have a coach at the time. I went to her to talked to her and really started to rethink how I saw the role, this urgency that I felt of \"I need to shut people down as fast as possible to the save time,\" as opposed to take the time to consider that other people probably have good ideas. (09:03): And even if their solution, isn't what I think is going to be the absolute best solution, the problem they're talking about is probably real. And I can interpret their solution as a way of sharing the problem and exploring and brainstorming around that. (09:17): It wasn't an immediate change, but I remember at one point she challenged me to, \"For the next two weeks, say yes to everything.\" And I was like, \"I can't do that. I wouldn't be doing my job.\" And she's like, \"I think you can find a way to do your job and still say yes to people. You can say, 'yes, I agree. That is a real problem. Yes. I think we could test this design with users' and just see what's different with two weeks of saying yes to people instead of no.\" And I realized that this protectiveness and lockdownness that I had really wasn't something I needed and it wasn't something that was serving me because it meant that I couldn't have real collaboration with the other people around me.",
+   "zh": "是的，我肯定犯过很多错误。其中一个让我印象深刻的例子是，在我加入Asana的第一年或第二年，我曾误以为产品经理的角色就是要对所有人说“不”。我当时想：“这些人总想让我们做各种事情，如果我们一味答应，他们会让我们应接不暇，根本完不成重要任务。我必须学会拒绝别人。” 于是我陷入了一种防御心态，有时别人提出的想法，我会反问：“你是在说我做不好本职工作吗？” 然后尽可能高效地拒绝他们的请求。（08:28）有一次，我对老板提出了反对意见，他提出的一个设计方案在我看来很糟糕。我直接说：“不行，我们不能这么做。” 他反驳道：“杰基，你别总是否定我。” 我心想：“我可能要被炒鱿鱼了。” 我意识到自己真的搞砸了。幸运的是，当时我有一位导师。我去找她倾诉，重新审视了自己的角色定位，意识到自己之前那种急于拒绝他人以节省时间的紧迫感，是在扼杀创造力和合作精神。（09:03）这改变并非一蹴而就，但记得她曾挑战我：“接下来两周，什么都答应。” 我说：“这不可能，我会失职的。” 她说：“你一定能找到办法既做好本职工作又满足他人需求。比如说：‘是的，我认同这确实是个问题。是的，我觉得我们可以测试用户对这个设计的反应。’ 这样坚持两周，你会发现拒绝他人与积极倾听的效果大不相同。” 我意识到那种自我保护、封闭自我的心态其实毫无必要，它阻碍了与团队的真正协作。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "09:51",
+   "en": "Wow. I love that story. A little thread I want to pull on there, two questions. How far into your time at Asana did this happen? Because it's surprising how often things like that come up really late in a career and you're like, \"Oh, shit. This is a fundamental thing that I imagined isn't maybe as true as I thought in changing course there.\" Maybe let me ask that question, how far into your career was that?",
+   "zh": "哇，这个故事太棒了。我想深挖两个点：第一，你在Asana工作多久后意识到这个问题？因为这种情况在职业生涯后期才浮出水面的情况很常见，那时你会惊觉：“天啊，这根本不是我想的那样。” 能分享一下具体时间吗？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "10:10",
+   "en": "This was probably pretty early. I'm imagining what room it was in and I'm like, \"Okay. I know what that time was.\" It was definitely the first year, maybe six months in.",
+   "zh": "应该挺早的。我现在回想当时的场景，豁然开朗。“对，记得那个会议室了。” 应该是第一年吧，可能六个月左右。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "10:17",
+   "en": "Okay. Okay. Cool. Okay. So you have this coach, what impact have you seen from just having a coach? Something that a lot of PMs ask me about is just like, \"Should I get a coach? How do I find a coach?\" I guess just roughly your experience been with a coach and then any advice for folks thinking about getting a coach.",
+   "zh": "好的，好的。你有导师吗？导师对你的职业生涯有什么影响？很多产品经理都会问：“我该找导师吗？怎么找导师？” 能简单分享一下你的导师经历和建议吗？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "10:31",
+   "en": "There's two different models. Some people like to have a coach all the time and that's a person that they can go to and they can explore their ideas and their feelings and how they're just bounce ideas off of all the time, have this person who isn't in any way going to be the person who evaluates them later on. They can be totally honest with them. (10:48): For me, I find it's better to have a coach when I have a specific thing I want to work on. I tend to be a little bit results oriented, action oriented, and I don't like to show up and be like, \"So, what are we talking about today?\" Or make something up. I talked to this coach to deal with this issue of how do I not shut people down and how do I still be a good PM if I'm not saying no to people all the time. (11:10): I worked with her for several months, but then once that was gone, then I did start to find that personally I would make things bigger when I had a coach, because I had something that I knew how to solve on my own. And I'd bring it to the coach, and then all of a sudden it felt like it was a big deal rather than a little deal. I've gone in and out of coaching, but I do it when I have a thing that I want to work on.",
+   "zh": "存在两种不同的模式。有些人喜欢一直有位导师相伴——这位导师能倾听他们的想法与情感，让他们随时能与之交流思路、畅谈感受，且绝不会对他们进行事后评判。他们可以对导师完全坦诚。（10:48）  \n对我而言，当我有明确的成长目标时，再请导师会更有效。我天生比较注重结果，行动导向型强，不喜欢上来就问“今天我们聊什么？”或者临时编造话题。我曾与一位导师探讨如何在不轻易否定他人需求的前提下，依然能胜任产品经理的角色。（11:10）  \n我和她合作了几个月，但之后当这种依赖结束时，我发现自己在有导师指导时会把问题放大化。比如明明自己本可以独立解决的难题，带到导师面前后，却突然把它当成天大的事而非小问题。导师指导对我而言是断断续续的，但每当有明确的成长目标时，我都会选择接受指导。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "11:27",
+   "en": "Going back to Asana, you were there for eight years about, what kept you there for that long and then how did you know that it was time to move on?",
+   "zh": "回到Asana，你在那里工作了八年，什么因素让你坚持了这么久？又如何判断是时候离开了？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "11:35",
+   "en": "I loved working at Asana. And Asana, I think today is incredibly successful, but it was not always obvious that it was going to be incredibly successful. We had some lulls in there. There was a time when we were updating our entire engineering framework from an old version to a new version. And we had like a literal 50% of our engineers working on this. Set aside half of our engineers to work on new features, and the other half was just working on updating this framework. Which meant that we felt like we were moving at half speed. It felt like we were moving really slowly. Customers hated how slow the app was and this framework changed was needed to change that. But we really were not sure that the company was going to be successful. (12:14): Staying with the company through those days, it really was this feeling that I was getting good growth opportunities, even if the company itself didn't succeed. One of the things I think was really important for me in my career at Asana and growing into head of product management is, at one point in my career, my manager, one of the co-founders had a meeting with the two co-founders, the planning committee. The planning committee was the two co-founders, the head of engineering and the head of business. And they would meet. (12:39): And after these meetings, he would come back to me, my boss, and he'd tell me \"Okay, here's the direction we have. Here's what you're going to need to do.\" And I had to ask some questions and I'd be like, \"Well, what about this? And what about this?\" After a little bit of time, I would start to be like, \"Hey, you have your planning committee today. Here are the three questions I want you to go in and get answered at that committee. And if they say this, I want you to ask this and this.\" (13:01): And after a little bit of that, I was like, \"It might be easier if I just go, I might be able save you some time and some energy if I just joined you.\" And it was a way that I took myself into this higher level meeting, framing it as something that was going to help out my boss. And it did. It wasn't dishonest, but it was a pretty effective way of advocating to get into this meeting. (13:19): I think once I was in the planning committee, I just got a real front row seat to understand how a company is built and what kind of decisions are happening, and what goes on beyond the realm, the narrow perspective of building features. Going from features to strategy, but also understanding business strategy and how do the product choices we make impact our financial plans, and whether or not marketing has to hire people, and whether or not that means we need to open our office. (13:49): I really felt like I was getting a lot of personal growth and I was getting an opportunity to learn things that I wouldn't have that opportunity anywhere else. Because of my background and my deep knowledge of this product, that I was able to be exposed to this and have these responsibilities. (14:06): For me, I really felt like I was learning and I was growing and I didn't know it all yet. That's really kept me there for a long time. And then I'd say, getting closer to the end of that time, I'd become a manager, I had teams, I've become a manager of managers and I was definitely starting to get burned out. It's really, really tough being a manager. One of the ways that I'd always worked as a product manager is a lot of transparency and authenticity. A lot of explaining to people what our goals are and then showing like \"This is the solution I think will hit in our goals, but I'm open to other solutions.\" (14:38): As a manager, there are times when my goal is backfill for someone I know is quitting in a few weeks, but I can't tell anyone about it. Or there are all these personal secrets that you have to keep for people as a manager. And there are times where, what the person on IT wants is a promotion to make more money, and haven't necessarily earned it yet. And it's not necessarily the right thing to do from a company perspective. (15:01): Those places where you're torn between these two goals or what I want, isn't always perfectly aligned with what's best for the people that report to me, that weighed a lot on me. That was very heavy. (15:12): I was like, \"Okay, maybe I could use a break.\" But for a while I felt like, \"Okay, but I don't want to just leave the company and things be in bad shape.\" So we worked on hiring lots of really, really stellar people, just really talented people and growing people in their roles. And got to a point where I was like, \"Everybody's doing great. They don't need me. They can do fine without me.\" And I thought about, I just felt this surge of energy thinking, \"Yeah. If I left that, I'd be excited for what's next,\" and then started to have this idea of writing the book on careers. That's how I knew it was time to leave.",
+   "zh": "我很喜欢在Asana工作的经历。如今Asana取得了巨大的成功，但在当时并不显而易见。我们曾经历过低谷期。有一段时间，我们要把整个工程框架从旧版本升级到新版本，当时有整整50%的工程师投入到这项工作中。一半工程师专注于开发新功能，另一半则专注于框架升级。这意味着我们的发展速度减半，进展异常缓慢。客户对应用运行缓慢不满，而框架升级正是解决这个问题的关键。但当时我们并不确定公司能否成功。（12:14）：在那段日子里，我选择留下，因为我看到了良好的成长机会，即便公司最终未能成功。在Asana的职业生涯中，特别是在晋升产品管理负责人期间，有件事对我意义重大——我的经理（也是联合创始人之一）会定期召集规划委员会会议，成员包括两位联合创始人、工程部主管和商务部主管。每次会议后，他会向我汇报：“好的，这是我们的发展方向，你需要完成这些任务。” 我会提出质疑，比如“这个方案如何？那个功能怎么做？” 久而久之，我开始主动参与：“今天的规划委员会会议，我想提出三个关键问题，若他们同意，我会跟进后续事宜。” 最终我直接加入了这些高层会议，将其包装成对上司有益的建议。这种方式确实有效。\n\n（13:01）：加入规划委员会后，我得以近距离观察公司运营，了解决策全貌，超越单一的功能开发视野。从产品功能延伸至战略规划，洞察商业策略，理解产品决策对财务规划的影响，乃至市场扩张的必要性等。凭借对产品的深入理解，我获得了独一无二的成长机会。\n\n（13:49）：在Asana的经历让我深刻体会到，个人成长需要机会。凭借深厚的产品知识，我得以承担重任，参与战略决策。（14:06）：临近离职时，我晋升为管理者，开始管理团队。管理者生涯异常艰辛，但我始终秉持透明、真诚的沟通原则，向团队清晰传达目标，并积极探讨最佳解决方案。\n\n---\n解决方案。  \n（14:38）：作为管理者，有时我的目标是为即将离职的人临时填补空缺，但我不能向任何人透露此事。此外，作为管理者，你还得为员工保守各种个人秘密。还有些时候，IT部门的人希望升职以赚取更多钱，但他们未必真的配得上这份升职。从公司的角度来看，这未必是明智之举。  \n（15:01）：当你被夹在两个目标之间——即你个人的愿望与下属的最大利益不完全一致时，这种纠结感对我影响深重。这份沉重感让我备受煎熬。  \n（15:12）：我当时想，\"好吧，或许我该休息一下了。\"但有一阵子我又觉得，\"好吧，但我不想就这么离开公司，让事情一团糟。\"于是我们着手招聘了很多非常出色、才华横溢的员工，并帮助他们在岗位上成长。终于到了某个时刻，我意识到，\"每个人都表现得很棒。他们不需要我。没有我他们也能应付得很好。\"这时我突然涌起一股能量，心想，\"是啊。如果我离开这里，下一步会很令人兴奋。\"于是我开始萌生写一本关于职业发展的书的想法。正是那一刻，我知道是时候离开了。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "15:44",
+   "en": "It was also eight years, so it makes a lot of sense that eventually it gets tiring. And then I love the glimpse you shared into the downsides of being a leader in product. Is there anything more you can add there? Just like, people want to be the head of everything and then they get there and they're like, \"Shit. This isn't what I wanted to be doing.\"",
+   "zh": "毕竟，这也持续了八年，所以最终感到疲惫是完全可以理解的。你分享的关于产品领域领导者的弊端让我深有共鸣。还有什么可以补充的吗？比如，人们总想当部门负责人，结果当上后却发现这根本不是自己想做的。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "16:01",
+   "en": "Definitely. Tooth directions I would say. One is just that being a manager is not as much fun as being an IC. It's a lonely job. When your team goes out for drinks, they treat you differently when you're the manager than when you're one of the other ICs. It's more painful and less fun. For all these reasons, you might not want to be a manager. At the same time, I'm like, \"Well, what could I have told younger Jackie, to be like, maybe you don't want to be a manager,\" and there's nothing. There's nothing you could have told me that would've convinced me not to be a manager. I might say that if you want to try it, consider it a two way door, consider a time that you can try for a while, and if you don't like it, a lot of people are now playing with going back to IC. And also to understand the career paths. (16:44): When I started as a product manager, I had no idea what salaries people made, none at all. And I knew I wanted to be able to support a family and stuff when I grew up. So I assumed that I needed to make it to junior VP level to be able to do that. And I just had no idea what salaries were like. Since then, I've looked at levels.fyi, is one of my favorite sites. They'll show you salaries at different levels at different companies. (17:06): And if you make it to senior PM, which is one of the middle levels, this middle senior PM level at most of these big companies, you're making as much as a doctor makes, you're making as much as a lawyer makes, you're making a lot of money. You don't necessarily need to climb that career ladder forever to make a lot of money. (17:24): And especially at a company like Google, there's a few companies that are known for being the highest paying companies, you can make a lot of money. Much more that you can make in a lot of startups, just by being in IC path, just by continuing to do that job. And companies really need people to do that. (17:38): I think understanding that there's different ways to grow your impact and grow your career, other than getting promoted to people management. And for me, I think switching companies is one of the really obvious ways, or teams, of there's one kind of impact you're having at your current job, and maybe you could work on a product that affects more people or has a bigger impact on the people that use it, or something that has more of a social impact type work. But just really thinking about different ways to grow your impact so that you don't make a blind choice towards people management because it seems like it's the only way to grow.",
+   "zh": "确实如此。说说管理工作的具体感受吧。首先，管理工作远不如做技术工程师有趣。这是一份孤独的工作。当团队出去聚会时，作为经理的你和其他技术工程师受到的待遇完全不同。这份工作更令人痛苦，乐趣也少了很多。因此，可能很多人不愿意当经理。同时，我也在想，如果能给年轻的自己提个建议，比如“别当经理了”，那该多好啊，但根本没法说。没有任何建议能说服我放弃当经理的念头。不过如果你想尝试，可以把它当作双向选择的机会，可以先试试看，如果不喜欢，再回归技术工程师岗位也不迟。还有，要了解职业发展路径。（16:44）我刚开始做产品经理时，完全不知道行业薪资水平，一无所知。我只知道自己长大后要能养家糊口，所以默认要做到初级副总裁级别才能实现这个目标。但我根本不知道实际薪资是多少。后来我发现level.fyi这个网站很棒，它能显示不同公司不同级别的薪资水平。（17:06）如果你能升到高级产品经理（大多数大公司的中级职位），收入就能和医生、律师一样高了。你不必非得一直爬升职级才能赚大钱。（17:24）尤其是在谷歌这样的公司，它们以高薪著称，通过专注技术路线就能赚大钱。公司确实需要这类人才。（17:38）我认为，除了晋升管理层，还有其他提升影响力和职业发展的途径。比如换公司或换团队，如果你目前的工作影响力有限，或许可以转到能影响更多用户的产品线，或是参与对用户更有价值的社会影响力项目。关键是要多思考如何提升影响力，而不是盲目选择管理路径，因为管理似乎成了唯一的晋升途径。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "18:05",
+   "en": "Along those lines, I know a lot of companies in theory have these kind of IC career tracks. And I find that it's really rare that they end up being really successful, and very few people end up going down to them. Is that what you see too? Or, I don't know, is there a way to actually be really successful going down that path?",
+   "zh": "说到这，我知道很多公司理论上有这样的技术工程师职业发展路径，但真正成功的案例很少，走这条路的人更是凤毛麟角。你也这么认为吗？或者，有没有什么切实可行的成功之道？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "18:22",
+   "en": "Yeah. I think that to the extent that you want to be seeing promotions as like, you want your level number to go up, I think that it is pretty rare. I think that there's not that many companies that have principal PMs, and the ones that have a bunch usually have a partner PM role above that, that's the real principal PM at other companies. (18:38): And the reason for that is that the reason a company would give you that high of a title is because they have a business need for PM who can have as much impact as a director, but with the team that's small enough that they can PM the whole team. And there's only a few problems out there like that. Platform type teams can fill that role a lot of the time. Partnerships, someone who's working on a partnership between two major companies can often fit that kind of description. But there just aren't that many, it's a lot easier to have a big impact if you're a manager of managers and you can add up the impact of all the people on your teams. (19:10): So yes, I agree that there's not that many opportunities to go from senior PM to principal PM to partner PM. I don't think you need to. I think that if you want to pursue the IC path, which I think is a great path, I think thinking of ways to grow beyond the official promotion. A lot of companies, you can make a lot of money without getting that promotion title. If you're working at a small company, if you're working with other companies that isn't the highest paying company, you'll make a lot more money by switching companies than you will by getting promoted at your current company. (19:37): And like I was saying before, the thinking about the kind of impact your work has, do you want to work on something that's more cutting edge? Do you want to work on something that your product that your friends use? Do you want to work on something that's going to save the environment? All of these things I think are ways to grow. There are a career path that is just not climbing the career ladder.",
+   "zh": "是啊。我觉得如果你希望通过晋升来提升职级，这其实挺难的。很多公司根本没有首席产品经理这个职位，即便有也通常设有更高级的合伙人产品经理角色——在其他公司，真正的首席产品经理可能需要具备更深厚的行业经验和资源整合能力。\n\n（18:38）之所以如此，是因为公司赋予你如此高的头衔往往出于两个原因：一是业务需要一位能像总监级别一样产生重大影响力，又能统管整个团队的产品经理；二是团队规模过小，无法配备多个产品经理职位。这样的情况并不常见，平台型团队往往能满足这种需求。比如，负责两家大公司合作项目的产品经理就符合这类描述。但真正能达到这种级别的公司屈指可数。若你能统管多个团队，汇聚团队成员的集体影响力，就能轻松实现高价值产出。\n\n（19:10）没错，我也认同从高级产品经理晋升到首席产品经理再到合伙人产品经理的机会确实不多。但这并非必经之路。如果你想走IC路线（Independent Contributor，独立贡献者）——这条路线很棒——那就需要主动寻找超越官方晋升体系的成长路径。很多公司即便没有晋升头衔，你也能赚得盆满钵满。若你在小公司工作或与高薪公司合作，跳槽换个新东家比在原公司晋升能赚得更多。\n\n（19:37）正如我之前所说，关键在于审视工作的影响力：你想参与前沿技术研发吗？想为朋友们使用的产品贡献价值吗？想为环保事业出一份力吗？这些都是成长的方向。职业发展不必局限于传统的晋升阶梯。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "19:55",
+   "en": "This episode is brought to you by PostHog. PostHog offers a suite of product analysis tools, including funnels, heat maps, session recording, and experimentation, all in one easy to use platform. PostHog is open sourced, so you can host it on your own infrastructure, which means that you have control over who has access to your data and makes regulatory compliance a breeze, because you don't need to send user info to third parties. (20:18): PostHog's app system works seamlessly with your data warehouse, both for importing and exporting data, which enables you to bring your data into one place and easily understand user behavior across a range of touchpoints. If you'd like to learn more, check them out at posthog.com/lenny. (20:36): That's a really important insight that you can keep growing, one as a human and maybe even be happier going down one of these other paths, non-manager path. And maybe you don't get the promotions, but maybe you make just as much money as you go the other path. In theory, it's a lot more interesting. (20:50): And then the other point that you made is really great, that if you want to go down that route, it's probably going to be an infrastructure team or a new business unit, unlikely to be a user facing piece, because they probably want to build a large teams there with a lot of layers. Interesting. Great stuff. (21:04): Okay. I want to transition to strategy. You've written a lot about strategy. I share your pieces often with folks. Diving into that a little bit, first of all just, can you describe what strategy even is? It's like this term that everyone uses all the time and they're like, \"Oh, I'm working on strategy. I'm going to get good at strategy.\" What is strategy in your mind?",
+   "zh": "这一集由PostHog赞助。PostHog提供一套产品分析工具，包括漏斗分析、热图、会话录制和实验功能，所有这些都集成在一个易于使用的平台上。PostHog是开源的，因此您可以将其部署在自己的基础设施上。这意味着您可以控制谁能访问您的数据，并轻松实现法规合规，因为无需将用户信息发送给第三方。（20:18）：PostHog的应用系统与您的数据仓库无缝协作，支持数据导入和导出，这使您能够将数据整合到一个平台，并轻松了解用户在各个接触点的行为。如果您想了解更多信息，请访问posthog.com/lenny。（20:36）：这是一个非常重要的见解，您可以继续成长，无论是作为个人还是管理者，或许选择非管理路径会更快乐。也许您不会获得晋升，但走其他路线同样能赚到钱。从理论上讲，后者更有趣。（20:50）：您提到的另一点也很棒，如果您想走这条路，很可能是加入基础设施团队或新业务部门，不太可能进入面向用户的部门，因为他们可能希望在那里组建大型团队，层级分明。很有意思，讲得太好了。（21:04）：好的，我现在想转到战略话题。您写了很多关于战略的文章，我经常把您的文章分享给其他人。首先，您能否解释一下战略到底是什么吗？这是一个大家常用但又不确定含义的术语，比如“我正在钻研战略，我要变得擅长战略”。在您看来，战略是什么？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "21:21",
+   "en": "Yeah, when I worked at Google, one of the promotions I went up for, I did not get, and I got the feedback that I needed to be more strategic. I was like, \"Okay, great. What does being more strategic mean?\" And nobody could tell me. And I was like, \"Well, who's more strategic?\" And they were like, \"Oh, this person used to be really strategic before she became a manager. But now she does just those managery stuff.\" And I was like, \"Okay, I have no role models, no words, nothing to explain what it means to be more strategic.\" Quick shout-out to my book is, I've got a whole list of what it means to be more strategic. So if you pick that up, you can read through that.",
+   "zh": "是的，我在谷歌工作时，申请晋升但没成功，得到的反馈是需要更具战略思维。我当时想，“好吧，很好。什么叫更具战略思维？”但没人能给我解释。我又问，“那谁更具战略思维呢？”他们说：“哦，有个以前是战略高手后来当了经理的人。但现在她只做管理层的活儿了。” 我说：“好吧，我既没有榜样，也没有定义，更不知道怎么解释什么是更具战略思维。” 顺便说一句，我写了一本书，里面详细解释了什么是更具战略思维。如果您感兴趣，可以看看。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:51",
+   "en": "Can we find that on Amazon? Where do you find that book?",
+   "zh": "能在亚马逊上找到吗？哪里能买到这本书？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "21:54",
+   "en": "Yes. Just the Cracking the PM Career, that's on Amazon.",
+   "zh": "可以。《破解产品经理职业发展之谜》这本书在亚马逊上有售。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:57",
+   "en": "Great.",
+   "zh": "太好了。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "21:57",
+   "en": "And it's in the strategy chapter.",
+   "zh": "就在战略章节里。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "21:59",
+   "en": "Great.",
+   "zh": "好的。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "22:00",
+   "en": "What I did is I wrote a document on the Local Universal Team, so I called it Local Universal Strategy. And I can't remember what I put in this document. I put it in just random... What my plan was. But once I wrote it down and shared it with people, then I started getting feedback on it. And then I could start to feel my way to what people meant to strategy. Then I get to Asana and I worked really closely with JR, head of product. And I'm starting to get a view of what strategy means, and he's got a robust vision for the product. We talked about this idea that when you're playing guitar, you're left and your right hand know how to work together to play the guitar. Wouldn't it be amazing if at a company, all the teams sort of had that ambient awareness of what other teams were doing together so that you worked seamlessly together? (22:44): And Asana was the team brain helping this happen. Imagine a world where you didn't have to have these endless status updates and all this work about work, because the teams knew what each other was doing. And as you kept track of your own task that updated the centralized system, that was always up to date. (22:59): We had this vision of what the future could be like. And we had our strategy, which got into this team brain. And what's what a good team brain have? Well, has to always be with you. So we need to have good mobile and good security, needs to know about the different kinds of work that exists. So we need to... Right now, Asana understands this kind of work, we need to add this kind of work. (23:16): And it has to help you draw insightful connections with the work that it knows. If we know that you have all these tasks with due dates, we need to be able to let you know that maybe you have too many due dates on next Friday. I started to build up this idea of strategy and I was like, \"Okay, I think I've got what strategy is.\" And a few years later we hire Alex Hood, our new head of product. And he's like, \"Can you create a strategy for the platform team?\" And I was like, \"Great, here it is. We have it.\" And he's like, \"That's not a strategy.\" And I was like, \"What?\" (23:44): I was like, \"I've been going all these years thinking I knew what strategy was. And now I, again, find out that I don't know it.\" We had a lot of conversations and figuring out like, \"Well what's missing?\" And through all of this, I basically realized that there's three key components to strategy. And not everybody's thinking of all three, but if you have all three, you'll have something that counts as a strategy for anyone you talk. (24:01): Three parts of strategy are your vision. This is your inspiring picture of what the future looks like. And this is like, \"Hey everybody, this is where we want to get to, don't you want to come join me, come build this future with me? Won't this to be exciting?\" (24:14): And then you've got your strategic framework. This is where you're saying, \"Here is the market we're going after. Here's what success looks like. And here are our big bets on what we think it takes to win that market.\" That's where you get your pillars, and it's your unique way of breaking down the problem to understand who you're going after and what it takes to win them. (24:34): And then the third part is the roadmap. This is where you work backwards from your vision. You say \"Okay, I think as a company, we can achieve our vision in five years or 10 years or two years or whatever it is.\" And you say \"Working backwards from that, if we're going to be at our vision in five years, what does that mean we're doing in the intermediate years?\" I misunderstood roadmap for the longest time. A roadmap in strategy is not a commitment. Instead, it's a way to double check if your plan makes any sense at all and is even anywhere near feasible. Because what happens to every team I see do these roadmaps, you put it together and you realize \"We're not going to hit our vision in five years or 10. This is like a 30 year vision, if we keep going at the pace we're going.\" (25:14): It's this wake up call to say, \"Oh, okay. If we want to hit this vision in five years, we need to start working on that big thing now. We need to take much bigger swings at the bat. We need to say no to a lot more of this optional work. Maybe we need to hire a team that's twice as big.\" (25:31): It gives you a way to say that probably your strategy did not actually fit into the timeframe that you wanted and that roadmap helps you see like, \"Okay, what would it take?\" And then that can be a little bit of an organizing factor for people across the company to understand, \"Okay, we're having a major launch in two years, then we need to make sure that we're going to have the marketing support we need for that launch. Or we might need to have an entirely different business model in two years. We need to do a fundraising round now.\" It really helps kind of pull the pieces together.",
+   "zh": "我当时写了一份关于本地化全球团队的文档，所以我把它命名为《本地化全球战略》。但我现在已经记不清这份文件里写了什么内容了。我当时只是随意地写下自己的计划。但当我把它写下来并与他人分享后，开始收到反馈。这让我逐渐理解人们对战略的理解。后来我加入Asana，与产品负责人JR密切合作，我才逐渐领悟到战略的真正含义。他对产品的愿景非常清晰。我们曾讨论过一个比喻——当你弹吉他时，左右手要协同配合才能演奏出一首曲子。如果在公司里，每个团队都能像左右手般默契协作，那该多好啊！（22:44）Asana就像是帮助实现这种协作的团队大脑。想象一下，如果无需进行无休止的状态更新，也无需处理各种繁琐的沟通协调，因为各团队能实时了解彼此的工作进展。只要你追踪自己的任务，数据就会自动更新到集中式系统中。（22:59）我们曾描绘过未来愿景，制定了战略，并将其融入这个团队大脑。那么一个优秀的团队大脑应该具备哪些要素呢？首先，它必须始终伴随你左右。因此，我们需要强大的移动端功能和出色的安全性，还要了解存在的各种工作场景。（23:16）目前Asana已经能理解这些工作场景，我们需要继续扩展其支持的范畴。它还必须能帮助你从已知工作中提取有价值的洞察。比如，当我们发现你有大量任务需要在下周五完成时，它会及时提醒你注意可能超负荷的问题。我曾以为自己已经掌握了战略的定义，但几年后我们聘请了新任产品负责人Alex Hood，他却说\"你能为平台团队制定战略吗？\"我回答\"好吧，我已经准备好了。\"他却说\"这根本不是战略。\"我惊讶地问\"什么？\"（23:44）我反思道\"这些年来我一直自以为懂战略，现在却发现自己其实一无所知。\"经过多次探讨，我们逐渐意识到战略有三个关键组成部分。并非所有人都同时考虑这三个要素，但只要三者齐备，任何人都会认可这份战略。（24:01）战略的三个核心部分包括：愿景——这是对未来的美好构想，激励团队共创未来；战略框架——明确市场定位、成功标准和关键举措；路线图——以愿景为导向，逆向推导实现路径。（24:34）通过这三个维度，Asana成功助力团队实现了产品愿景。\n“中间阶段？”很长一段时间以来，我都误解了路线图的含义。在战略规划中，路线图并非一份承诺。相反，它是用来重新审视你的计划是否切实可行、是否具备可行性的工具。因为在我接触过的每个团队中，他们在制定路线图后，都会意识到：“我们五年或十年内根本无法实现愿景。照这个进度下去，30年后或许才有可能实现。”（25:14）这就像一记警钟，提醒人们：“哦，原来如此。如果我们想在五年内达成愿景，就必须现在就着手做那件大事。我们的行动必须更果断，必须拒绝更多可有可无的工作。或许我们需要组建一个规模翻倍的团队。”（25:31）路线图能让你清醒地认识到，原有的战略可能根本不符合预期的时限，通过它你能重新评估：“好的，那需要做些什么？” 而这份评估报告能成为整个公司的组织依据。比如：“两年后我们要推出重大产品，那就必须确保营销团队能为此次发布提供支持。又或者两年后我们可能需要彻底转变商业模式。现在就得启动新一轮融资了。” 路线图确实能把所有拼图碎片完美拼合。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "26:00",
+   "en": "Wow, that's so actionable and easy to understand. I've never heard it describe so simply. Along those lines, say someone creates a strategy, what are signs that it's a good strategy versus a meh strategy? Which should they be looking at?",
+   "zh": "哇，这真是太实用、易于理解了。我从未听过如此简洁的阐述。顺着这个思路，如果有人制定了一项策略，怎样判断它是优秀的策略还是平庸的策略？他们应该关注哪些方面？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "26:15",
+   "en": "I'm probably going to write something on this soon. In the past month, I'd actually have two totally different people who came to me with the same problem. And they said, \"My CEO brought me a strategy and the strategy is increased revenue by 50%, it's a revenue target number. That doesn't seem like a strategy to me. I don't know what to do.\" Talking to people, I started to get a deeper sense of what the confusion and the mismatch is here. (26:40): I think a good strategy is all about connecting the dots. Connecting the dots from this high level business goal of, \"We want to increase revenue by this much\" to, \"This is the feature we're going to do.\" And it might have many, many dots in between to help get people from one to the other of like \"Given that this is our big picture of view of what we're doing, what's the next step? And what's the next step? And what's the next step?\" (27:02): \"As product managers, if you're given a numerical target, that is not a complete strategy, but it's your job now as a product manager to take all of the great product work you've been doing. Let's say you've been doing lots of customer research and you're getting really deep into what the customer pains are and what their needs are. It's your job to take the things you've got now in your mind, you've got a list of maybe 20 different things your product team could work on. It's your job to take those things you want to work on and the reasons why you think they're important, and match them up against what that larger financial target was or whatever strategy or vision you're getting from the executives. And basically see \"Which of these feature work? Which of this product work that I want to do best matches up with those goals and why?\" (27:45): And there's probably a few more missing dots in there. You're like, \"Well, I think that this is going to make us the most money. But why? I think this will make us the most money because it's helping us get more money from our current users. And we think it's going to be really hard to win new users because we're already pretty saturated in the market.\" (28:01): That's where you start to get into strategy, that level of detail. And then you say, \"Okay, given that we think it's more strategic to get more money from our current users, here's one thing we could do. What are other things we could do? And how do those stack up against each other? Or maybe it should be that 50% of our effort is on getting more money from our current users, and 50% is from going into new markets. Well, which new markets do we think are most promising and what would it take to win those new markets?\" (28:24): I think it's that connecting the dots. And the only way you find out what dots are missing is by talking to people and communicating your strategy and communicating it again and again, and really listening for people's confusion. Because people will try to hide their confusion. They won't get your strategy, there's going to be some assumption that you're making that they are not making. So you have to pay really, really close attention to find those missing assumptions so that you can then explain why this connects to this.",
+   "zh": "我可能很快会就此写一篇文章。过去一个月里，实际上有两个完全不同的人来找我，遇到同样的问题。他们说：“我的CEO给我一个策略，目标是增加50%的收入，这只是个收入目标数字。在我看来，这根本不算策略。我不知道该怎么做。” 和人们交流后，我逐渐深入理解了其中的困惑和不匹配之处。（26:40）：我认为一个好的策略在于连接各个节点。将高层业务目标“我们要增加这么多收入”与“这是我们要开发的功能”相连接。这其中可能有许多节点，帮助人们从一个目标逐步推进到另一个目标：“鉴于这是我们对业务的宏观视角，下一步该做什么？再下一步呢？再下一步呢？” （27:02）：“作为产品经理，如果你只被赋予一个数字目标，这还不是完整的策略。但现在你的职责是，利用自己一直以来出色的产品工作，比如你做了很多客户调研，深入了解客户痛点和需求。你的任务是把脑海中列出的20个可能的产品改进点与高层财务目标或高管提出的战略愿景相匹配。关键在于：哪些功能最符合这些目标？为什么？” （27:45）：可能还存在一些缺失的节点。比如你会说：“嗯，我觉得这样能赚最多钱。但为什么呢？因为这能从现有用户中获取更多收入，而新用户获取难度很大，因为我们在市场上已经很饱和了。” （28:01）：这时候你就需要深入到策略层面，进行这种细节层面的讨论。然后你会说：“好的，既然我们认为从现有用户中获取更多收入更具战略意义，那我们可以做什么？还有哪些其他可行方案？它们相比之下如何？或者也许我们应该把50%的精力投入到从现有用户中获取更多收入，50%投入到开拓新市场。那么哪些新市场最有前景？要赢得这些新市场需要付出哪些努力？” （28:24）：关键在于连接各个节点。而要发现哪些节点缺失，唯一的办法就是与人沟通，反复传达你的策略，并真正倾听他们的困惑。因为人们会试图掩饰自己的困惑。他们可能不理解你的策略，可能会产生一些你没有考虑到的假设。所以你必须非常、非常仔细地关注这些缺失的假设，这样才能解释清楚为什么这些节点是相连的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "28:51",
+   "en": "That's really good advice of just looking for confusion and that points out where your strategy is lacking. How could PMs get better at strategy at doing this than getting better at this activity? Advice for that?",
+   "zh": "确实，寻找困惑点是个很好的建议，这能指出你的策略存在哪些不足之处。产品经理如何能在战略能力上有所提升呢？难道不应该通过反复实践来提高这项能力吗？关于这方面的建议有哪些？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "29:02",
+   "en": "Yeah. Strategy really should be collaborative work. I think that there's some amount to which the PM should go off by themselves and think about what strategy they want and have that in their back pocket, because that way you actually can contribute to the conversation, but real strategy should be very collaborative. (29:17): I think the best way to learn and improve your strategy, one of them is going to be working with the other stakeholders and listening to their feedback and understanding what do they agree with or not agree with. Sometimes it's as easy as a conversation. I can't remember the details here, but there was one conversation on pricing models that we were talking about, and we were each going to go around the room and talk about which of the five pricing models did we think was best. And I think I was like, \"Number three is most [inaudible 00:29:44] number two.\" (29:44): And then our CEO gets, and he's like, \"I think really number four is the only reasonable one for these reasons.\" And I was just like, \"I agree, I've changed a mind. You're right. You just saw it in a way that I hadn't seen.\" (29:58): This accumulation of experiences, I think matter so much for strategy, for data analysis, all of these things where... I'm really, really good at data analysis, but only because I've seen so many experiments that when I see a set of results, I can just instantly remember like four similar experiments and what the conclusion was and what went wrong with it. And so I'll be like, \"Oh yes, this metric is up. But if you check this metric, you can see it's down, which means that it might be this conclusion.\" It's talking to people, listening to them, that builds it up a lot. But that's one half of it, because you can't always just learn something by a bunch of leaders sitting in a room talking to each other. (30:37): I think seeing things through to a certain amount of time really does help. And I think sticking with the team for long enough to be able to measure the results of what you did and ideally iterate, like being one doing it for eight years, I got to try something and then try something different and then try something different. And I got to really notice the patterns and test what works and what didn't and form those conclusions. I think that sticking around long enough to see your results and especially try something else different and see those results, I think can make a big difference.",
+   "zh": "是的。战略确实应该是一种协作性的工作。产品经理确实需要有独自思考战略的时间，并在心里默默构思，但最终还是要在团队中与其他利益相关者合作，倾听他们的反馈，理解他们的认同与否定之处。这有时就像一场对话那么简单。我不记得具体细节了，但我们曾讨论过定价模型，每个人都要轮流发言，谈谈自己认为哪种定价模型最优。我记得当时我说：“第三种最优，第二种次之。”（29:44）结果我们的CEO说：“我认为第四种才是合理的，理由如下。” 我回应道：“我同意你的观点，被你说服了。你看问题的角度比我更深刻。”（29:58）这些经验的积累对战略、数据分析等领域都至关重要。我之所以擅长数据分析，只是因为我见过太多实验案例。当看到一组数据时，能立刻联想到四次类似实验及其结论，进而发现问题所在。这离不开与人交流、倾听他们的意见。但这只是一方面，因为光靠领导者们在会议室里空谈是学不到东西的。（30:37）我认为坚持长期参与至关重要。通过观察结果并进行迭代，我从事这份工作八年，尝试过各种方法，不断总结经验，形成自己的见解。坚持足够久，观察结果，勇于尝试新方法，再验证效果，确实能带来巨大改变。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "31:06",
+   "en": "What I'm hearing is you get better one doing it over and over and over to being in the conversations and learning from people directly. Is there anything else that someone that, I don't know, doesn't have a lot of these experiences yet and in the room for these sorts of things that they could maybe study up on or practice just outside of this to get a little bit stronger in strategy?",
+   "zh": "我理解你的意思是，需要反复实践、参与讨论并直接向他人学习。对于那些缺乏这类经验、初次参与此类会议的人，有没有什么可以提前准备或课外练习的资料，帮助他们在战略能力上有所提升？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "31:27",
+   "en": "Yeah. Definitely there's a lot of cross applying of strategy that I think that really is helpful. One of the great ways to learn strategy is to cross apply strategy from other places. One of the people I interviewed for my book was to Shishir Mehrotra, who's CEO of Coda, and he used to work at YouTube. And while he was at YouTube, he had a very big strategic question that the team had to decide about whether if you search for a video that is not on YouTube, but is somewhere else like Hulu, should you link them out to that? (32:00): And the team was having a lot of trouble making any progress on that. But one day he went to a product review for Google shopping, totally different product, shopping versus videos. But they were having a similar issue and they talked about this idea of consistency versus comprehensiveness. (32:16): They said \"Is our product the kind of product where it's better to have consistent results all the time? Like every time you click on a result, it takes you to a Google shopping result or is it better to have comprehensiveness where even though the experience will be different each time we give you a result every time?\" That framing, he was able to take from shopping over to YouTube and ask that same question and the answer didn't have to be the same, but it gave them a new way of looking at the strategy that he was able to use. (32:40): I think having that broad view and looking at lots of other products and seeing how they make their choices and how do they frame their decisions, that's a good way to improve strategy.",
+   "zh": "是啊。我认为策略的跨领域应用确实很有帮助。学习策略的一个绝佳方法，就是将其他领域的策略经验迁移到自身领域。为我的书采访的人中，有一位是Coda公司的首席执行官希希尔·梅罗特拉，他曾在YouTube工作。在YouTube工作期间，他曾面临一个重大战略问题：当用户搜索YouTube以外的其他平台（如Hulu）的视频时，是否应该将用户引导至原平台？（32:00）当时团队在解决这个问题时进展缓慢。但有一天，他参加了Google购物产品的评审会——这是一个完全不同于视频领域的产品——却发现双方面临着相似的困境：如何在一致性与全面性之间取得平衡。（32:16）他们讨论道：“我们的产品是否应该始终提供一致的搜索结果？比如每次点击结果都导向Google购物页面，还是应该让搜索结果每次都各不相同？”他将这个框架从购物领域迁移到YouTube领域，提出同样的问题。虽然答案不一定相同，但这为他们提供了审视策略的新视角。（32:40）我认为拥有广阔的视野，研究其他产品如何做出选择、如何构建决策框架，是提升策略能力的有效途径。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "32:49",
+   "en": "That's a really good reminder of eigenquestions as a framework. I think if you Google eingenquestions, you can find it and I'll try to link it to it in this podcast. And Shishir has a lot of great stuff that he's put out there. Good call out. (33:01): Let me ask one more quick question on strategy and then I want to move on to career stuff. How long should people, I guess, early PMs maybe, how much time should they spend on strategy development? And then, when does it make sense to start investing in that?",
+   "zh": "这确实很好地提醒了我们，将“自问式问题”作为一种框架的重要性。我觉得如果在谷歌上搜索“eigenquestions”，应该能找到相关内容，我会在本期播客中尝试附上链接。希希尔还发布了很多精彩内容，值得关注。说得太好了。（33:01）最后再问一个关于策略的快速问题，然后转向职业发展的话题。对于初级产品经理来说，他们应该花多少时间进行策略开发？什么时候开始投入这方面的工作比较合适？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "33:15",
+   "en": "Yeah. I think that for your first six months on a product, probably don't worry about strategy. For your six months really, you should be talking to customers, researching your product stuff. Really starting off by saying, \"I'm going to learn the strategy, whatever strategy my company already has, and I'm going to do my research, but I'm going to deliver on that strategy.\" (33:33): But all this time, while you're doing your regular product work, so you're visiting customers and you're analyzing data and all these things, you are probably having ideas pop up in your mind. You're starting to notice trends. You're starting to notice what are the pain points people have and just stay open to that. And after about six months, I think is when you can start to put together a draft of a strategy for your own team. (33:53): I think you can take half a day. Just block it off, don't take any meetings, put on your headphones, go to a coffee shop, whatever it is you do to get your alone time. And just work on whichever of those three pillars of strategy, whether it's the vision, the strategic framework or the roadmap. Start with whichever one draws you the most and start writing some stuff down, just start getting your ideas out there. (34:14): And this will start to give you that framework, you can then go try to take that time, fill it out more, figure out what questions you have, what would you need to know to decide which of these approaches is better, what are the open questions you have. And then you can have something to start meeting with the rest of your product triad. The engineering lead, the design lead, any other key stakeholders you have on your team, and just start working with them and start to figure out how are we feeling about our strategy. (34:39): One thing I love to look for is repeated disagreements, \"Are there any times when we're fighting over whether to add this feature? And I so strongly believe we shouldn't and you so strongly believe we should,\" and it's just ends up feeling like a battle of wills. Anytime you have these disagreements that feel really torny or they feel like a disagreement in values, that's a sign that really have a disagreement in strategy and that it's worth it to write down what your strategic framework is or what your strategic principle is and address the problem at that level, rather than fighting over individual features or individual decisions.",
+   "zh": "是啊。我认为在你负责某个产品的前六个月里，或许不必过于纠结于战略问题。实际上，这六个月你应该多与客户沟通，深入研究产品相关事务。首先要做到的是：“我要先了解现有战略框架，再开展研究工作，最终确保战略落地。”（33:33）  \n在日常产品工作期间，比如拜访客户、分析数据等，你的脑海中可能会涌现许多想法。你会逐渐发现产品趋势，注意到用户的痛点，并保持开放的心态。大约六个月后，你就可以为团队制定初步战略方案了。（33:53）  \n你可以抽出半天时间，关闭干扰，拒绝所有会议，戴上耳机，去咖啡店或任何能独处的地方。专注于战略的三大核心支柱：愿景、战略框架和路线图。先从最吸引你的部分入手，开始记录想法。（34:14）  \n这样能构建起战略框架。接下来，你可以利用这段时间进一步完善，明确疑惑点，评估各方案的优劣，解决悬而未决的问题。然后，与产品团队的其他成员（工程负责人、设计负责人等）共同探讨战略共识。（34:39）  \n我特别关注重复出现的分歧场景，比如：“我们是否该添加这个功能？”“我坚信不该加，而你却坚持要加”，最终演变成意志较量。任何此类难以调和的分歧，都意味着战略存在问题，此时需要明确战略框架或原则，从更高层面解决问题，而非在单个功能或决策上争执不下。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "35:11",
+   "en": "It's such a good tactical tip of just like, if there's continued disagreement, that's a sign, you either craft a strategy or maybe a principle which are related, but sometimes different, just principles of the product or principles of the team. Great advice. And the point you made about not spending the first six months on strategy, I love that because a lot of PMs come in are like, \"Oh, strategy. I'm going to figure everything out. I'm going to tell us how to build this thing. This all sucks. Everything you all have done before.\" Just that rule of thumb, of not allowing yourself to invest deeply there for six months. Love that idea.",
+   "zh": "关于持续分歧的策略建议非常实用。这是识别问题的关键指标。要么制定战略，要么确立原则——两者相关但有所不同，比如产品原则或团队准则。真是个绝妙的建议。还有你提到的前六个月不深究战略的观点，我特别认同。很多产品经理一上来就想：“战略？我要把一切都规划好。我要告诉团队怎么做这个产品。你们之前做的全是错的。” 能遵循这个经验法则，不在前六个月过度投入精力，真是明智之举。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "35:42",
+   "en": "Nice. Yeah. I think as a manager, you usually have a reason for hiring someone. And usually at least in your head, you think you've hired them to build on the strategy that you've already created, and there will be room for people to create new strategies and change the strategy. But if they come in on day one saying your strategy is all wrong, raises the question of, \"Well then why did you join my team if you didn't believe in my strategy?\"",
+   "zh": "不错。是啊。我觉得作为一名管理者，你聘用某人通常都有其原因。至少在你心里，会认为是希望他们能在你已制定的战略基础上进一步发展，同时也给他们留出创造新战略、调整现有战略的空间。但如果他们第一天就说你的战略全错了，那就不得不质疑了：“既然你不认同我的战略，那当初为什么还要加入我的团队？”"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "36:06",
+   "en": "A lot of times people just want you to help them execute. They're just like, \"Come on. We know what we're doing. Just help us ship this thing and it's going to be great.\" And a lot of people come in like \"No, let's just rethink it all. Let's take a step back.\" (36:17): Okay. Last area that I want to spend some time on is around career. Career growth as a product manager and product leader. Luckily you wrote a book called Cracking the PM Career. If you just had to boil down the best advice from the book to one suggestion to a PM, let's say starting off in their career and then maybe a mid-career, what would that be?",
+   "zh": "很多时候，人们只是希望你帮他们把事情落实。他们会说：“别废话了。我们知道自己在做什么。只要帮我们把这件事搞定，效果肯定会很棒。”而另一些人则会说：“不，先别急。让我们重新评估整个局面，退一步再想想。” （36:17）：好的。接下来我想重点探讨的领域是职业发展——作为产品经理和产品负责人的职业成长。幸运的是，你写了一本名为《破解产品经理职业难题》的书。如果要把书中最宝贵的建议浓缩成一条给产品经理的建议，无论是职业生涯初期还是中期，都适用，那会是什么？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "36:41",
+   "en": "I'll start with one piece of suggestion for people at any stage of their career, which is to have a conversation with your manager and say, \"I would really like at some point in the future to grow into whatever this goal is,\" whether it's to become a people manager, become a senior PM, become a director, whatever this next step of what you want is. \"I would really love to become a people manager someday. What do you suggest that I work on now so that I'll be ready when the opportunity comes up?\" (37:03): The reason I love this template is just a really easy way to start off this conversation of saying \"Here's my goal, by the way. I do want to get promoted, I do want to grow, I want to become a senior PM,\" whatever that next step is. (37:14): I'm framing it in the future so that it's not threatening. It's not like going to put my manager on the defensive and be like, \"You're not ready to be a manager yet. I don't have to prove why you're not ready for that promotion yet.\" Which is not the mindset you want your manager in. (37:26): And then it brings them onto your side. \"Can you help me out here? Let's you and me work together to get me this promotion. You and me work together to get me ready there.\" It brings them in onto your side, so now they'll be in the mindset of trying to help you. It will target the feedback that you get on what you need to do to get that promotion. Because so much of the time, I think the reason that success as a PM is hard is because you get a gazillion pieces of feedback. (37:50): They're all true. It's all like \"Yeah. In that meeting, you said a lot of filler words.\" But that's not the thing that's actually holding you back from the next promotion, or it's not the thing that you actually need to improve at to get to that next step. (38:01): Being able to focus the feedback you get on what you're trying to achieve, makes a huge difference and will really help make sure that you get that feedback. And at any company, either your manager is going to be the person who decides if you get that promotion, what they say is just true, whatever they think you're missing is what you're missing, or there's going to be a committee. And if there's a committee, your manager's feedback matters a lot. And also if they've been at the company a while, they'll know what they look for. (38:26): If you have a new manager at a big company that uses promotion by committee, at any big company, make friends with your manager's peers, find someone who's been at the company a while, who's gotten someone to promoted and ask them that same question. Get them onto your side to get you the experience and the improvements you need to get that promotion.",
+   "zh": "接下来，我要给处于职业生涯任何阶段的人提出一个建议：与你的经理进行对话，说：“我真的希望未来某个时候能成长为……”，无论是成为一名人力资源经理、资深产品经理、总监，还是你渴望的下一步。例如：“我很想未来成为一名人力资源经理。您建议我现在应该着重培养哪些能力，以便在机会来临时做好准备？”（37:03）  \n我喜欢这个沟通模板的原因在于，它能轻松开启对话：“这是我的职业目标，我确实想获得晋升，渴望成长，成为资深产品经理。”无论你的下一步是什么。  \n（37:14）  \n我会把目标设定在未来，避免给对方带来压力。这样不会让经理感到防备：“你还没准备好当经理。我不需要证明你为什么不配获得晋升。” 这不是你希望经理持有的态度。  \n（37:26）  \n这样能把他们拉到你这边：“您能帮我一下吗？让我们一起努力争取晋升机会。” 这样他们会更愿意支持你，也能更准确地指出你需要改进的地方。毕竟，许多时候，产品经理难以晋升的原因在于反馈过多，而这些反馈往往并非真正阻碍晋升的关键。  \n（37:50）  \n将反馈聚焦于你的目标至关重要，这样才能有效提升。  \n（38:01）  \n无论公司是经理单独决定晋升，还是由委员会评定，经理的反馈都至关重要。尤其是那些在公司待久的经理，他们清楚晋升标准。  \n（38:26）  \n在大型公司，特别是采用委员会晋升机制的公司，新晋经理要与同事建立良好关系，找到在公司待久、成功推动过他人晋升的资深同事，向他们请教同样的问题，让他们支持你获得晋升所需的经验和改进方向。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "38:41",
+   "en": "Amazing advice. I found that to be super helpful myself. And you're saying that applies to every role. UPMs, everybody.",
+   "zh": "太棒了。我自己也发现这个方法非常有效。你说这适用于每个角色，包括产品经理和其他人。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "38:48",
+   "en": "Yeah. I think you can use that in almost any role because everybody does have different gaps, but then to go into early career people, I think that working at a large company early in your career can be just really, really valuable. If you choose a small company and what's going to be super successful and you pick the winner, that can be better than working at a big company. But big or, I'd say, even medium size companies can be really good here. (39:10): But a company where you're going to be able to learn best practices, you're going to be able to grow your network, I think that these large companies really give you... And you'll also be able to make usually a higher salary that starts to build your nest egg, I think that that gives you a really good foundation for anything else you want to do later in your career. (39:27): And when you're early in the career, really to have that mindset of absorbing and learning how to be a great PM. One mistake I see people make early in their career is they are trying to overdo it. They've been given some project, usually as a early career person, you get assigned a pretty narrow scoped constrained problem. They're like, \"Hey, can you make the print dialogue for our product?\" And the right answer to these narrowly scope defined products is not to invent a whole new print dialogue. (39:56): A lot of times you've been assigned a problem where a huge creative solution is a bad idea. If you're in one of the situations, just do the simple thing, get it done really well. And that'll earn you the trust to be able to take on bigger things in the future, but you don't need to be outstanding to make it past the APM promotions. You just need to be doing a solid, good job. And later in your career, there's a lot more room for being outstanding.",
+   "zh": "是的。我认为你几乎可以在任何职位上运用这些技能，因为每个人的成长路径各不相同。但对于初入职场的人来说，我认为在职业生涯初期就选择大公司工作会非常有价值。如果你能选中一家即将大获成功的小公司，那可能比在大公司工作更胜一筹。但大公司，或者说中型公司也能提供很好的成长机会。（39:10）在大公司，你能学习最佳实践，拓展人脉，通常还能获得更高的薪资，为未来职业发展奠定坚实基础。（39:27）初入职场时，关键是要保持虚心学习的心态，努力成为优秀的产品经理。我发现很多初入职场的人会急于求成。比如接到一个项目时，他们可能被分配一个范围极窄、约束条件严格的任务。比如被要求为产品设计一个打印对话框。面对这种局限性极强的产品时，最佳解决方案往往不是去发明全新的打印对话框。（39:56）很多时候，面对需要创意性解决方案的难题时，简单粗暴的处理方式反而更有效。只要把基础工作做好，就能赢得信任，未来才能接手更重要的项目。其实要通过初级产品经理晋升阶段，不需要表现得极其出色，只要踏实做好本职工作即可。而到了职业生涯后期，才有更大的发挥空间。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "40:20",
+   "en": "What are some of the most common mistakes that PMs make early on in their career that hurt their career?",
+   "zh": "产品经理在职业生涯初期最常犯的错误有哪些？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "40:25",
+   "en": "Yeah. A lot of it is misunderstanding what the role is at different stages in the career and misunderstanding what success looks like. This can show up in a lot of different ways. One of them is, there's lots of APMs who want to become people managers right away, and they poo poo all the regular everyday work you need to do to be a good PM. And that comes across to a manager as immature, certainly, but also just like you don't seem to understand or value what good PMing is, so I certainly wouldn't make you a manager. But also now it's a little hard to convince you to do your day to day job, which makes you a little hard to manage, which might mean put a little bit less of my energy into managing you. It ends up being a bad situation for people. (41:08): It's a lot better to show some enthusiasm for the job you're supposed to be doing right now. Other ways that can work is just people optimizing for the wrong things, like leaning in too much or too little. On PMs I see get paired with a really strong designer and you let your designer take the lead on everything. And now you just sit back and you're a note taker and you're not contributing anything. You're not really driving anything. You're not adding your own ideas and making the team better. (41:31): That person needs to step up more, to be somebody who's really contributing and adding and being a multiplier on the work of everybody else on their team. And then some people step too much. They're trying to lead everything and they're crowding people out and they're not giving their engineers a chance to present at all hands, and they're burning bridges with their coworkers. And almost every company peer reviews is a huge part of your review cycle. And as a product manager, you need to get along well with the other people in your team. You'll be pushing them and encouraging them to get more done than they would've otherwise, but you don't want to do this by having everybody say, \"I never want to work with her again.\"",
+   "zh": "是的。很多情况下，人们误解了不同职业阶段的角色定位，也误解了成功的含义。这会以多种方式体现出来。其中之一是，很多产品经理急于立刻成为管理者，却贬低了成为优秀产品经理所需完成的日常工作。对管理者而言，这种态度无疑显得不成熟，同时也表明你似乎不理解或不重视优秀的产品经理应该具备的素质，所以我肯定不会让你当上管理者。但现在要说服你做好日常工作，确实有点困难，这会让你难以管理，意味着我可能需要减少在管理你上投入的精力。最终这对双方都不利。（41:08）：最好对当前应该做的工作表现出热情。其他有效的方法包括，人们优化错误的方面，比如参与过多或过少。例如，当产品经理与能力极强的设计师搭档时，却让设计师主导一切。现在你只是充当记录员，不做出任何贡献，也不推动任何进展。（41:31）：这种人需要更积极主动，成为真正能为团队增值、提升他人能力的成员。还有些人则过度干预。他们试图掌控一切，排挤其他人，甚至不让工程师在全员会议上发言，最终与同事产生矛盾。几乎每家公司的同级评审都是绩效评估的重要环节。作为产品经理，你需要与团队成员保持良好关系。你要推动他们完成超出预期的工作，同时，又不能让大家觉得“再也不想和她合作了”。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:06",
+   "en": "So much of advice I find for early careers, it's just like it should done, make impact, just your job, don't overthink it, if it won't earn your right to move up and take on more responsibility, get promoted on all kind of stuff. I love that so much. It's just do the work, just be quiet, do the work, it's going to go great. (42:23): A couple more questions. And before we get to a lightning round. You've exited the PM career path at this point, and I'm curious what made you decide to go in a different direction? And then just, what's next? what's next for Jackie Bavaro?",
+   "zh": "我发现很多针对初级职场人士的建议都是：做好本职工作，创造价值，专注工作，别想太多，若无法通过这些获得晋升机会，就去找各种机会晋升。我特别喜欢这种理念。就是埋头工作，保持低调，做好本职工作，自然就会顺风顺水。（42:23）：再问几个问题。接下来是闪电问答环节。你现在已经离开了产品经理的职业道路，我很好奇是什么促使你决定转向其他方向？然后接下来，杰基·巴瓦罗（Jackie Bavaro）接下来会做什么？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "42:35",
+   "en": "Yeah. I'm not sure that I've exited the PM career path. I really like working in offices with people. I've been waiting for an end to the remote work era. And once I find companies that are in person again, I'm definitely have some curiosity about that. I might go back to in person work.",
+   "zh": "是的。我不确定自己是否已经离开了产品经理的职业道路。我真的很喜欢与人共事的办公室环境。我一直在等待远程工作时代结束。一旦我找到又能亲自到办公室工作的公司，我肯定会对此产生兴趣。或许我会回归到亲自到办公室工作。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:51",
+   "en": "Oh my God. I'm imagining your LinkedIn is about exploding right now, as people are listening to this.",
+   "zh": "天哪。我能想象你的领英页面现在一定火爆得不行了，毕竟大家都在听这个节目。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "42:57",
+   "en": "I'm in San Francisco.",
+   "zh": "我在旧金山。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "42:59",
+   "en": "Oh boy. And then were you going to say something else?",
+   "zh": "天哪。那你本来还要说点别的吗？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "43:02",
+   "en": "Nothing is settled, but I've been playing around with the idea about whether or not to update the Cracking the PM Interview book. Lots changed. Some of the companies there are not the top companies anymore. Some top companies aren't in there, some of the companies have changed their interview processes. I think that could be a lot of fun to get that more up to date. Some of the changes that have happened in interviews over the past years.",
+   "zh": "还没完全确定，但我一直在考虑是否要更新《破解产品经理面试》这本书。很多情况都变了。有些曾经的顶尖公司现在已不再是头部企业。有些头部公司也不在书里了，还有些公司调整了面试流程。我觉得把这本书更新得更贴合当下情况会很有趣，也能总结近年面试领域的一些新变化。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:21",
+   "en": "Amazing. I imagine many people will be very excited to see a second edition of Correcting the PM Interview. Okay. Let us get to our lightning round. Okay. I'm just going to ask six questions and just tell me whatever comes to mind as we go through them, real quick. And maybe we'll pull out a thread or two as we go through it. Are you ready?",
+   "zh": "太棒了。我相信很多人会很期待《破解产品经理面试》第二版的发布。好的，接下来我们进行快速问答环节。每个问题只需快速回答想到的内容，可能还能顺着延伸出一些有趣的讨论。准备好了吗？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "43:39",
+   "en": "Yes.",
+   "zh": "好的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:40",
+   "en": "Okay. What's a book that you recommend most to other product managers other than your book?",
+   "zh": "好的，除了你自己的书，你最推荐给其他产品经理看的书是什么？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "43:45",
+   "en": "I love Getting Things Done by David Allen.",
+   "zh": "我很喜欢大卫·艾伦的《搞定》。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "43:47",
+   "en": "Ooh, okay. Around productivity. I love that book. That was really transformative for me when I read it many years ago, and I still use a couple of this points. Awesome. Okay. Getting Things Done, David Allen. Other than Asana, what's a company that you recommend to PMs that are looking for a new gig? What are some companies that you're excited about, potentially?",
+   "zh": "哦，好的。关于生产力方面的。我很喜欢这本书。多年前读它时对我影响很大，我至今仍在运用其中的很多理念。太棒了。好的，大卫·艾伦的《搞定》。除了Asana，你还能推荐给正在找新工作的PM的公司吗？有没有让你心动的公司？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "44:06",
+   "en": "I'm not the most up to date with all of the companies, but I do think that Microsoft is pretty underrated. I had a lot of fun working at Microsoft. I learned a lot of good strategy there. I think I got a really good foundation for a lot of the rest of my career.",
+   "zh": "我对其他公司不是很了解，但我觉得微软被低估了。我在微软工作得很开心，在那里学到了很多好的战略思维，为我后续的职业生涯打下了很好的基础。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:19",
+   "en": "Contrarian pick and they've been killing it. That makes a lot of sense. Good choice. What's a favorite app right now for you?",
+   "zh": "逆向选择，但他们做得很棒。这很明智。好选。现在你最喜欢的应用是什么？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "44:25",
+   "en": "I have a recipe manager called Paprika. I really like it.",
+   "zh": "我用一个叫Paprika的食谱管理应用。我很喜欢它。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:30",
+   "en": "Ooh. Does it have actual recipes or is it track other recipes you've found?",
+   "zh": "哦。它有实际的食谱还是只是追踪你找到的其他食谱？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "44:34",
+   "en": "It tracks other recipes. You can save any URL and it'll extract the recipe from there and you can do meal planning in there. You can turn things into a shopping list. You can use it across your phone and your computer for when you want to sit down and browse. But I really enjoy just browsing recipes and a lot of them I'll never cook, but just the idea that, \"Oh, I could imagine cooking that,\" it's a lot of fun. It's a little bit like traveling.",
+   "zh": "它会追踪其他食谱。你可以保存任何网址，它会从中提取食谱，你可以在里面规划餐食，还能把东西列成购物清单。可以在手机和电脑上使用，方便你想坐下来浏览的时候用。但我真的很喜欢浏览食谱，虽然很多我永远不会做，但光是想象“哦，我能想象自己做这个”，就很有趣。这有点像旅行。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "44:58",
+   "en": "Wow. You could say Paprika. Okay. And then who's someone that you love to follow on Twitter or Instagram currently that maybe people haven't heard of? Or maybe they have.",
+   "zh": "哇。你可以说Paprika。好的。那你现在在Twitter或Instagram上最喜欢关注谁，可能大家还不熟悉的？或者可能已经听说过了。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "45:06",
+   "en": "I love Helen Rosner, @hels, H-E-L-S. She's a food writer for the New Yorker, but it's a lot deeper than food. A lot of it gets into society and bigger topics.",
+   "zh": "我喜欢Helen Rosner，@hels，H-E-L-S。她是《纽约客》的美食作家，但她的内容远不止美食。很多内容涉及社会和更宏大的议题。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:19",
+   "en": "Wow. I see a pattern here around food. Who's your favorite manager that you've had?",
+   "zh": "哇。我发现你对美食很感兴趣。你最喜欢的上司是谁？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "45:23",
+   "en": "I think it's probably JR at Asana who I worked for gazillion years.",
+   "zh": "我想应该是Asana的JR，我在那里工作了好多年。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "45:28",
+   "en": "Any particular reason why?",
+   "zh": "有什么特别原因吗？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "45:29",
+   "en": "I think there's got to be a match between you and your manager. And I think that we had a lot of mutual respect, and I think that I was really lucky in that he was absolutely amazing at vision. I was able to learn a lot from it from him. And there were a lot of places where I was able to help. A lot of my early experience of even getting to learn strategy and vision he was like, \"Jackie, can you help me with the slides for the vision all hands?\" (45:54): And I would be doing busy work of putting the slides together, but then I could make some suggestions, I could ask some questions. And first year I was just basically doing slides. Second year, I had a little bit of shaping. Third year, he let me take the first stab at it and then he reviewed it. I think he was always willing to help me grow and really saw it as a win-win where if I grew into something, then that would free up his time to take on something bigger and better.",
+   "zh": "我认为你和你的经理之间必须有契合度。我觉得我们彼此非常尊重，而且我很幸运，他在战略眼光方面极其出色。我能从他身上学到很多东西。还有很多时候我能提供帮助。比如，我最初学习战略和愿景时，他会说：“杰基，你能帮我准备愿景全员会议的幻灯片吗？”（45:54）我会忙着整理幻灯片，但也能提出建议，提出问题。在第一年，我主要负责幻灯片制作；第二年，我能参与一些内容策划；第三年，他让我先独立完成初稿，再进行审核。我觉得他一直乐于帮助我成长，把这视为双赢——如果我能成长，就能为他腾出时间去挑战更大的、更好的项目。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "46:20",
+   "en": "Awesome. Sounds like an awesome manager. And then last but not least, what's a favorite interview question that you love to use?",
+   "zh": "太棒了。听起来他是个很棒的经理。最后，你最喜欢用的一个面试问题是什么？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "46:26",
+   "en": "I love to ask, \"Tell me about a recent project that you're proud of.\" I feel like a lot of interviews don't give people enough chance to shine, to talk about something that they did really, really well and hear about what made it so good and what are they proud of, and how did they achieve those amazing results.",
+   "zh": "我喜欢问：“谈谈你最近做的一个令你自豪的项目。” 我觉得很多面试没有给候选人足够的机会去展示自己，讲述自己做得特别出色的地方，听听是什么让这个项目如此成功，以及他们是如何取得这些惊人成果的。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "46:46",
+   "en": "And then what do you look for in an answer there? What are a couple bullet points of a good answer to that?",
+   "zh": "那你希望得到怎样的回答？一个好的回答应该包含哪些要点？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "46:46",
+   "en": "It's so different for every question, but I'm definitely looking for try to get something recent, so I want them to be something that matches the level that they're applying for. There's going to be a really big difference between the way that an APM answers this question and the way that a director of PM answers the question. I look to see how did they think about strategy, what was their judgment on different choices, what was hard. I have a framework for this. The pearl framework for answering questions like this is problem, epiphany, action, result and learning. (47:15): It's a little bit like the star framework, but I want it all like, \"What's the problem that you thought was worth solving, a problem that I think is big enough? What's your epiphany? What's the insight that you had? Do you notice something that nobody else did and how valuable was it?\" (47:28): A lot of times that's what makes these PM stories so interesting. Is that meeting with customers, head on and they said one weird word and you dug into it and you learn this whole new customer need that no one else had seen before. And then there's going to be the action. Like \"What did you actually do to make this happen? And was it hard?\" Because usually it is hard, but understanding the ways in which it's hard and how you overcame each of those challenges. And then obviously a PM should care about results and the thing they pick that they're proud of should have good results or have at least results that they learned from. (48:00): And then, yeah, that last part of learning. \"Did you grow from this?\" Especially if it's a failure, which is lots of people love to talk about the products that failed or sometimes the interviewer asks them to talk about a product that fails, but I don't want them to leave it at \"Yeah. It was a big loss. Our company lost $50 million and we couldn't get it back,\" but then you want to say like, \"Okay, but what I learned from that is now I need to always run a load test on a staging server and then I've had many successful launches since then that we didn't have that same problem in.\"",
+   "zh": "每个问题都各不相同，但我肯定会尽量找一些近期经历的例子，这样才能符合他们申请职位的要求。APM和PM总监回答这个问题的方式会有很大不同。我会观察他们是如何思考战略的，对不同选择的判断是什么，遇到的挑战又是什么。我对此有一个框架——用“问题、顿悟、行动、结果和学习”来回答这类问题。（47:15）：这有点像“星形框架”，但我希望它更完整——“你认为值得解决的问题是什么？一个我认为足够重大的问题是什么？你的顿悟是什么？你发现了别人没注意到的东西吗？这有多宝贵？”（47:28）：这正是PM故事有趣的地方。比如与客户会面，直面他们奇怪的需求，然后深入挖掘，发现一个前所未有的客户痛点。接下来是行动部分——“你为此做了什么？过程困难吗？”。因为成功通常意味着克服重重挑战，所以要展示你是如何克服这些挑战的。最后，学习部分——“你从中成长了吗？”。尤其是面对失败时，很多人喜欢谈论失败的产品，或者面试官会让他们讲失败的产品，但我不希望他们只是说“是啊，那真是个大失败，我们公司损失了5000万美元，无法挽回”。相反，要说出从失败中吸取的教训，比如“现在我要在预发布环境上做压测，自那以后我们就再没遇到过同样的问题”。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "48:29",
+   "en": "Wow. What a fruitful lightning round. So many nuggets. We got a new framework in there too. Okay. Where can folks find you online and then any last words of wisdom?",
+   "zh": "哇。真是精彩的闪电问答环节。收获了好多干货。我们还引入了一个新框架。好的。大家可以在哪里找到你呢？还有最后的智慧之言？"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "48:38",
+   "en": "Yeah. I'm on Twitter, @jackiebo. I'm on Twitter all the time. Send me a message, I'll probably see it pretty fast.",
+   "zh": "是的。我在Twitter上，账号@jackiebo。我经常在那儿活动。给我发消息，我应该很快能回复。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "48:44",
+   "en": "Amazing. Thank you so much for being here, Jackie.",
+   "zh": "太棒了。非常感谢你能来，Jackie。"
+  },
+  {
+   "speaker": "Jackie Bavaro",
+   "ts": "48:46",
+   "en": "Yeah. Thanks for having me. Great conversation.",
+   "zh": "是的。感谢邀请。很愉快的交流。"
+  },
+  {
+   "speaker": "Lenny",
+   "ts": "48:49",
+   "en": "That was awesome. Thank you for listening. If you enjoyed the chat, don't forget to subscribe to the podcast. You could also learn more at lennyspodcast.com. I'll see you in the next episode.",
+   "zh": "太棒了。感谢收听。如果你喜欢这次对话，请别忘了订阅播客。你也可以在lennyspodcast.com了解更多信息。下一期节目见。"
+  }
+ ]
+}

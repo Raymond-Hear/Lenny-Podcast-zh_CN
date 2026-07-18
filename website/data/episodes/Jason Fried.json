@@ -1,0 +1,1043 @@
+{
+ "id": "Jason Fried",
+ "name": "Jason Fried",
+ "category": "投资/创业",
+ "identity": "投资",
+ "youtube": "https://www.youtube.com/results?search_query=Lenny+Rachitsky+Jason+Fried",
+ "bio": {
+  "en": "Jason Fried is co-founder and CEO of 37signals, the profitable, bootstrapped company behind Basecamp and HEY that has made money for 24 straight years with no investors, no board, and no plans to sell or go public.",
+  "zh": "Jason Fried 是 37signals 的联合创始人兼 CEO；37signals 是一家盈利、自筹资金的公司，旗下有 Basecamp 和 HEY，连续 24 年盈利，没有投资人、没有董事会，也无意出售或上市。"
+ },
+ "summary": {
+  "en": "Jason makes the case that bootstrapping gives founders far more practice at the fundamental skill of making money, and that there's far more room to build a successful, fulfilling, even more lucrative business outside the 'go big or go home' VC path that almost nobody actually wins. He argues constraints like small teams and less cash often produce better outcomes, that gut and instinct are underrated decision tools, that long-term planning is often a mistake, and that work shouldn't feel like war. The episode is a compelling alternative philosophy for building a company on your own terms.",
+  "zh": "Jason 提出，自筹资金让创始人更多地练习“赚钱”这一根本技能，而且相比几乎无人胜出的“不成功便成仁”的 VC 路线，在它之外有更大的空间去打造成功、充实、甚至更赚钱的事业。他主张小团队、少现金之类的约束往往带来更好的结果，直觉是被低估的决策工具，长期规划常常是错误，工作不应像战争。这期节目是关于“按自己的方式”打造公司的、令人信服的另一种哲学。"
+ },
+ "turns": [
+  {
+   "speaker": "Jason Fried",
+   "en": "The reason I think it's great for entrepreneurs to start bootstrapping is because they just have more practice making money, and they get better, and better, and better at the fundamental skill you need to have ultimately to run a successful business, which is to make money. Hopefully, I don't come off as encouraging everyone to be like me. I'm not saying that at all. What I'm saying is, this is a way to be. It's an alternative to what you're often hearing in our industry, which is, \"Go big or go home. Raise a bunch of money and get huge, and unicorn status,\" and the whole thing. That's a way. Just know though that basically almost nobody makes it that way. Really, almost nobody really makes it that way, and there's a lot more room to make it, and to build a successful business, if you throw out that outlier and look at all the other places you can land as a business.",
+   "zh": "我认为创业者选择自力更生发展很棒的原因在于，他们在赚钱方面积累了更多经验，并且能不断提升这项核心技能——赚钱。这项技能是成功经营企业的基础。希望我这样说不会让大家误以为我在鼓励大家效仿我。我绝不是这个意思。我想说的是，这是一种可行的道路。与我们行业常听到的\"要么做大，要么回家；大规模融资、实现独角兽估值\"之类的说法相比，这是一种截然不同的选择。当然，几乎没人能通过这种模式成功。说真的，绝大多数人都无法复制这种模式。但如果你抛开这种极端案例，审视商业成功的其他可能性，就会有更广阔的成功空间和更多机遇。",
+   "ts": "00:00:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Today, my guest is Jason Fried. Jason is the Co-Founder and CEO of 37signals, which makes Basecamp and HEY, and soon a few more products including a competitor to Slack. 37signals is a very different type of company. They have no investors, no board. They have no plans to go public. They never want to sell their business. They've made a profit for 24 years in a row. They have over 100,000 customers and make tens of millions of dollars in profit each year, which most VC-backed companies never make a dollar of. All of this profit filters down to the founders and employees because they have no investors. Most founders, by default, will go down the venture route raising money from VCs and Angels. For many types of companies, that is necessary. But it's also important to know that there is a different option available, and it can be much more fulfilling and fun, and even much more lucrative, by bootstrapping your idea. (00:01:43): In my conversation with Jason, we get into why constraints like small teams and less cash often lead to better outcomes. Why gut and instinct is underappreciated as a decision-making tool. Why planning long-term is often a mistake. Why work doesn't have to feel like war. Why we should focus on playing infinite games. When it makes sense to consider raising venture capital versus bootstrapping. How to actually bootstrap your startup, so much more. Jason is fascinating, and he's got a lot of wisdom to share. I'm excited to be able to bring you this conversation. With that, I bring you Jason Fried, after a short word from our sponsors. (00:02:20): This episode is brought to you by Coda. You've heard me talk about how Coda is the doc that brings it all together, and how can help your team run smoother and be more efficient. I know this firsthand because Coda does that for me. I use Coda every day to wrangle my newsletter content calendar, my interview notes for podcasts, and to coordinate my sponsors. More recently, I actually wrote a whole post on how Coda's product team operates. Within that post, they shared a dozen templates that they use internally to run their product team, including managing the roadmap, their OKR process, getting internal feedback. Essentially their whole product development process is done within Coda. (00:02:58): If your team's work is spread out across different documents and spreadsheets, and a stack of workflow tools, that's why you need Coda. Coda puts data in one centralized location, regardless of format, eliminating roadblocks that can slow your team down. Coda allows your team to operate on the same information and collaborate in one place. Take advantage of this special limited time offer just for startups. Sign up today at coda.io/lenny and get $1,000 startup credit on your first statement. That's C-O-D-A dot I-O slash Lenny, to sign up and get a startup credit of $1,000. Coda.io/Lenny. (00:03:37): This episode is brought to you by Sidebar. Are you looking to land your next big career move or start your own thing? One of the most effective ways to create a big leap in your career, and something that worked really well for me a few years ago, is to create a personal board of directors, a trusted peer group where you can discuss challenges you're having, get career advice, and just gut check how you're thinking about your work, your career, and your life. This has been a big trajectory changer for me, but it's hard to build this trusted group. With Sidebar, senior leaders are matched with highly vetted, private, supportive peer groups to lean on for unbiased opinions, diverse perspectives, and raw feedback. (00:04:15): Everyone has their own zone of genius, so together we're better prepared to navigate professional pitfalls, leading to more responsibility, faster promotions, and bigger impact. Guided by world-class programming and facilitation, Sidebar enables you to get focused, tactical feedback at every step of your journey. If you're a listener of this podcast, you're likely already driven and committed to growth. A Sidebar personal board of directors is the missing piece to catalyze that journey. Why spend a decade finding your people when you can meet them at Sidebar today? Jump the growing waitlist of thousands of leaders from top tech companies by visiting Sidebar.com/Lenny to learn more. That's Sidebar.com/ Lenny. (00:04:59): Jason, thank you so much for being here, and welcome to the podcast.",
+   "zh": "今日嘉宾是杰森·弗里德（Jason Fried）。杰森是37signals公司的联合创始人兼CEO，该公司旗下拥有Basecamp和HEY等产品，并即将推出与Slack竞争的新产品。37signals是一家与众不同的公司——他们没有投资方，没有董事会，也无意上市，从未出售过业务。公司已连续24年盈利，拥有超过10万名客户，每年盈利数千万美元，而多数风投支持的公司却从未实现盈利。得益于没有投资方，37signals的利润全部回馈给创始人及员工。多数创业者默认选择融资风投的路径，但这种模式并非万能。通过自力更生发展创意，既能收获更大的满足感和乐趣，也能创造更丰厚的回报。（00:01:43）在与杰森的对谈中，我们探讨了为何小团队和资金不足往往能催生更优质的成果；为何直觉判断作为决策工具常被低估；为何长远规划往往是错误之举；为何工作不必像战场般激烈；以及为何我们应专注于玩无限游戏等议题。我们还将讨论何时该考虑融资风投，何时该坚持自力更生，以及如何真正实现创业启动。杰森极具魅力，分享了诸多深刻见解，期待与您分享这场对谈。接下来是赞助商简介（00:02:20）。本期节目由Coda赞助。您听过我多次提及Coda如何整合所有文档，助力团队更高效运作。我深有体会——Coda每天帮助我管理新闻通讯日程、播客采访笔记及赞助商协调事务。近期，我还撰写了一篇关于Coda产品团队运营机制的深度文章，其中分享了内部使用的十余套模板，包括路线图管理、OKR流程及内部反馈机制。Coda的整个产品开发流程都在平台内完成。若您的团队文档分散于不同文档、表格及碎片化工具中，Coda将数据统一至集中位置，消除团队效率障碍。Coda让团队共享信息、协同工作。新创企业专属限时优惠：今日登录coda.io/lenny，即可获得1000美元启动信用额度。（00:03:37）本期节目由Sidebar赞助。您是否正寻求职业晋升或自主创业？几年前对我行之有效的职业突破之路，是创建个人董事会——一个值得信赖的同行群体，成员间可以探讨挑战、获取职业建议，并深度审视自身工作、职业生涯及生活。这段经历彻底改变了我的发展轨迹，但组建这样一个信任圈实属不易。Sidebar为资深领导者匹配经过严格筛选的私密支持性同行群体，助其获取客观意见、拓宽思维边界。\n多元视角与真实反馈。（00:04:15）：每个人都有自己的专长领域，因此我们共同努力能更好地应对职场挑战，获得更多晋升机会，创造更大的影响力。Sidebar依托世界级规划与引导技术，助你每一步都获得专注且实用的反馈。若你正在收听本播客，说明你已具备成长的动力与决心。Sidebar的个人董事会将成为推动你成长的关键一环。何必花十年时间寻找志同道合之人？今日即可在Sidebar.com/Lenny与顶尖科技公司的数千位领袖同聚，了解更多详情。访问Sidebar.com/Lenny即可加入日益增长的候补名单。（00:04:59）：杰森，非常感谢你能做客本播客，欢迎加入我们。",
+   "ts": "00:00:49"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Thanks, Lenny. It's good to be here.",
+   "zh": "谢谢你，莱尼。很高兴能来参加节目。",
+   "ts": "00:05:03"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's really good to have you on. I have this new segment on the podcast that I call Contrarian Corner, and I have this feeling like this entire episode is going to be Contrarian Corner. I'm excited to dig into all kinds of stuff. I have so many questions I want to ask you. I thought it'd be good to just start with giving people who aren't that familiar with your story and 37signals, a sense of just how successful the business has been. I think people don't quite get the business you've built, and the scale you've built. So whatever you can share in terms of customers, profits, anything you are comfortable sharing, I'd love to give people... Especially things that might surprise people, just a sense of like, \"Wow, this business is not what I imagined.\"",
+   "zh": "很高兴你能加入我们的节目。我在播客中开设了一个名为\"反向思考角\"的栏目，我感觉整期节目都将围绕这个栏目展开。我很期待深入探讨各种话题。我有很多问题想问你。我觉得先从让那些不熟悉你和37signals的人了解你们业务的成功之处开始会比较好。我觉得人们不太了解你打造的这项业务及其规模。所以，无论是客户数量、利润数据，还是任何你愿意分享的信息，我都希望能让听众有所了解……尤其是那些可能令人惊讶的数据，让大家感叹\"哇，这项业务完全超出了我的想象\"。",
+   "ts": "00:05:04"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "We don't talk about things that don't really matter so much, like revenues don't really matter 'cause you can go broke generating a lot of money. But, we talk about profits. Historically, let's say over the past 10 years or so, we've been profitable every year for 24 years. But let's say over the last 10 years, we've been doing double-digit million dollar profits on an annual basis, which is really nice. We have about a 100,000 plus paying customers, so that's a rough number, and we've about currently 75 or so employees. (00:06:12): So, a relatively small business in terms of the number of people who work here, big customer base, big profits, and that's how we like to keep it, and that's something that we've always focused on, versus a lot of these other metrics that I hear a lot, and usually there's acronyms attached to them, and of don't even know what they are, and I don't really care about them so much. We just want to make more money than we spend, have good healthy margins which allow us to experiment, and play, and not be afraid to do things that may not work, and just enjoy ourselves. So that's what we've been doing for almost 25 years. Next year will be our 25th year in business.",
+   "zh": "我们不会过多谈论那些不那么重要的数据，比如收入，因为即使赚很多钱也可能导致资金链断裂。但我们会关注利润。回顾过去10年，过去24年我们每年都实现盈利。但过去10年，我们每年都能获得数千万美元的利润，这确实很棒。我们有超过10万名付费客户（这是个粗略数字），目前约有75名员工。（00:06:12）：所以，就员工数量而言，我们是一家规模相对较小的公司，但拥有庞大的客户基础和丰厚的利润，这正是我们一直坚持的经营理念。与我经常听到的那些指标不同——那些指标通常附带缩写术语，我甚至不明白其含义——我们只关注两点：赚得比花得多，保持健康的利润率，这样我们才能进行实验、尝试新事物，不必害怕可能失败的项目，并享受整个过程。这就是我们近25年来一直坚持的经营之道。而明年将是我们成立25周年的纪念年。",
+   "ts": "00:05:44"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just following the same thread, the bet that companies are making, obviously going down the venture route, they're going to lose money for a long time so that they can make much, much more money in the future. So the idea there is, grow as fast as possible, as big as possible, and then we'll make money. You're a big advocate of not raising venture and bootstrapping. So what's your advice to founders for when raising money makes sense? I actually wrote this article, one's called, Your Startup Is Probably Not Venture-Scale, just trying to convince people, you may have a really good idea, but it doesn't mean it's a venture-scale business. I feel like we're aligned on this. What's your advice to founders there?",
+   "zh": "回到刚才的话题，显然很多公司选择走风险投资路线，他们愿意长期亏损，以期未来能赚取巨额利润。所以核心理念是：尽可能快速扩张规模，然后再去盈利。你一直主张不融资，坚持自力更生。那么，当融资确实有意义时，对创始人有什么建议呢？我曾写过一篇名为《你的初创公司很可能达不到风险投资级别》的文章，试图说服人们：即使你有绝佳的创意，也不意味着它就能成为风险投资级别的企业。我感觉我们在这一点上看法一致。你对创始人有什么建议呢？",
+   "ts": "00:06:47"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Obviously, if you're building cars, or you need a factory, or you're opening a restaurant and there's actual things you need to buy like ovens, and you need to hire people right off the bat, and you need to pay rent, you need capital. It could come from you. It could come from friends and family. It could come from an investor. It can come from a bank loan. There's lots of places to get it, but you'd need it. Software businesses though, and businesses like ours, we just make software, and a lot of people in our industry are like us in that respect. They need a couple laptops and a couple people, and it's pretty cheap. It's really pretty cheap to get going, and the margins are incredibly healthy in software, or they should be. (00:08:06): What's interesting is that Silicon Valley has found a way to make the most profitable style of business the least profitable. Software, there's no physical costs. The margin should be close to 80 or 90%. It turns out that they're barely even, most of them positive in the end, or they're just sliding by basically. I don't understand how that... Well, I do. They have too many people and they spend too much money on customer acquisition, and all that. But, it blows me away. Most businesses in the world would love to have Silicon Valley style economics, make something that doesn't cost much to make and then sell it for high prices. (00:08:50): But everyone, the corner store, the pizza shop, they wish they could do this, and they can't because they have physical products that they have to sell, and they have to buy goods, and they have to get raw materials and convert that into a pizza, and there's just costs involved with that. They can't sell it for too much because the other place down the street sells it for less. So again, I'm getting off track, but if you're going to start a business that really truly requires cash, typically capital expenditures, expensive things, hardware, whatever, of course you need that. But, I don't think you do otherwise. (00:09:20): I think it actually hurts you if you go out and think that you do, because there really is only one outcome for venture-backed companies, which is go huge. If you think about all of the space between a small business and a massive, huge unicorn-y business, there's so much room there that you could normally find your own way, and slide into a slot or a place that makes sense for you. But if you're venture-backed, you just don't even have the opportunity. You blow right past those, or they want you to blow right past those. If you don't, you wither on the vine and die essentially, and it's just too bad.",
+   "zh": "显然，如果你要制造汽车、开办工厂、经营餐厅，或者需要购买烤箱之类的设备，刚开始就得雇人，而且还要支付租金——这时候你就需要资金。资金可能来自你自己、亲友、投资者，或者银行贷款。融资渠道有很多，但资金是必不可少的。然而像软件公司这样的企业，我们只做软件开发。业内很多人和我们情况类似，他们只需要几台笔记本电脑、几个人手，就能低成本启动业务，利润空间也极为可观。\n\n（00:08:06）：有趣的是，硅谷竟能把最赚钱的商业模式做成最不赚钱的。软件业务没有实体成本，利润率本该接近80%或90%。但现实情况是，大多数公司勉强持平，甚至出现亏损，基本是在苦苦支撑。我不明白这是怎么回事……好吧，我懂了。他们雇了太多人，还在客户获取上花费过多资金等等。但这真让我震惊。世界上大多数企业都希望能拥有硅谷式的经济模式——生产成本低廉的产品，然后高价销售。\n\n（00:08:50）：但每个小商店、披萨店都希望能做到这一点，可他们做不到，因为他们有实体产品需要销售，必须采购原材料并将其加工成披萨，成本不可避免。他们不能高价销售，因为街边的竞争对手价格更低。所以我又跑题了，但如果你要创办一家真正需要资金的企业，通常需要大量资本支出、昂贵的硬件等，这些都是必需的。但除此之外，我认为没必要强求。如果你因此强求，反而会拖累自己。\n\n（00:09:20）：我认为这对风投支持的公司来说反而有害，因为风投支持的公司只有一个结局——要么做大做强。要是把小企业和大型独角兽企业之间的差距考虑进来，其实有很大的发展空间，通常能找到适合自己的位置。但如果你受风投支持，就没有这样的机会。风投希望你迅速扩张，否则就会被淘汰。这太可惜了。",
+   "ts": "00:07:25"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Coming back to something we touched on a bit, is this idea of smaller teams. You tweeted a similar stats, so I'm just going to read these numbers, in terms of your competitors. Asana has 1600 employees. ClickUp has a thousand employees. Slack has 2,500 employees. Smartsheet has 3000 employees. Monday has 1500 employees. You have, I think you said, 70 something employees?",
+   "zh": "回到我们之前提到的主题——小团队的概念。你在推特上分享了类似的数据，我现在就读一下这些数据，关于你们的竞争对手。Asana有1600名员工，ClickUp有1000名员工，Slack有2500名员工，Smartsheet有3000名员工，Monday有1500名员工。而你们公司，我记得你说过有70多名员工？",
+   "ts": "00:09:58"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yep.",
+   "zh": "是的。",
+   "ts": "00:10:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You have similar numbers of customers, about 100,000 to 150,000, and you make a lot of profit and they generally don't. How is this possible?",
+   "zh": "你们的客户数量也相似，大约10万到15万之间，而你们利润丰厚，而他们通常不赚钱。这怎么可能呢？",
+   "ts": "00:10:22"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "We run a very different kind of business. We are focused on efficiency, we're not focused on growth. They're focused on growth. So typically, when you have a lot of people, you think you can do more things at once, and you probably can. You do more things at once, and have different offerings to different people, and different tiers, and salespeople, and all the things that build up an organization. We don't have any salespeople. We don't have 15 different versions of Basecamp. We're not after enterprise, so we don't have the enormous support costs and enormous support infrastructure required to service customers like that, and customize this and customize that to keep a whale happy who's paying you $300,000 a year. (00:11:13): We don't have any of those things. We have one price, basically. Well, we have two prices on Basecamp, one price on HEY. Actually, two prices on HEY. Two, basically. But one code base, one product we offer everybody. Let's take Basecamp for example. Nobody can pay us more than 300 bucks. I don't care how big your company is, the most you can pay us is $299, you get unlimited users. What that allows us to do is to just build one product, do a really nice job, keep it tight, and simple, and clear, and not have the complexity that comes with trying to service and satisfy so many different kinds of companies at different price levels with different price points and different expectations. That's why these companies tend to get bigger and bigger and bigger. (00:11:58): They also, frankly, build products just differently. We build products with two people at a time. So every feature we work on in Basecamp, or HEY, or whatever we're building is two people, one programmer, one designer, and they have a maximum of six weeks to deliver the feature that they're working on. Most of them are usually a couple of weeks, but they have a maximum of six weeks. So we don't get stuck in these big huge projects, with meetings with 18 people, and slow decision-making, and indecision, and complexity, and all the things that come with trying to do too many things for too many people. Now, all that said, we could still make the mistake of hiring hundreds of people because we could afford to do so. But to spend money because you have it on things you don't need is something that Silicon Valley's gotten quite good at, but we're quite bad at intentionally. I don't want to spend money on things we don't need. (00:12:49): So we think that constraints, simplicity, small teams actually are where it's at, and keep us honest, and allow us to do great work for our customer base that we know, small businesses, very tight companies like ours, and satisfy them versus trying to go after the big companies, and have to have salespeople, and have long sales cycles, and whatnot. Honestly, if you gave me 1,000 people, I wouldn't know what to do with them. We would fall apart. If you gave me 500 people, I wouldn't know what to do with them. We would fall apart. We would be a worse off company with 500 people. I'd be completely lost. So, that's the other thing. I don't even understand how they run, and the amount of layers they must need, and the amount of complexity organizationally that they must have to... The latticework they have to build up to support all that weight, is just remarkable and it's foreign to us.",
+   "zh": "我们经营的是一种截然不同的业务。我们专注于效率，而非增长。他们则专注于增长。因此，当团队规模扩大时，人们往往会认为能同时处理更多事务，实际上也确实如此。团队会为不同客户提供不同服务、设置不同等级、配备销售人员等等，以此构建组织架构。但我们没有销售团队。Basecamp没有15个不同版本。我们不追求企业级市场，因此无需承担为此类客户提供支持、定制产品以讨好每年支付30万美元的巨头客户所需的巨额成本和复杂架构。（00:11:13）我们没有这些冗余。基本上，我们只有单一价格。实际上，Basecamp和HEY各有两种定价方案，但核心产品始终统一。比如Basecamp，用户最高支付额不超过300美元。无论公司规模多大，用户最多只能支付299美元即可享受无限用户权限。这种模式让我们能专注于打造单一产品，保持产品简洁明了、清晰易用，无需为满足不同价格层级、不同需求的客户而承受复杂性负担。这正是这些巨头企业越做越大、越做越复杂的根源。\n\n（00:11:58）说实话，他们的开发方式也截然不同。我们每次只派两人负责产品开发。无论是Basecamp、HEY还是其他项目，每项功能的开发都由一人编程、一人设计，团队最多有六周时间完成任务。多数功能通常在两周内完成，但最长不超过六周。这样我们就避免陷入大型项目的泥潭——无需召开18人会议、承受漫长决策过程、纠结于复杂性等问题。说到底，即便有资金支持，我们也绝不会盲目扩张团队。硅谷擅长用钱堆积资源，但我们更倾向于精打细算。我们不想把钱花在不必要的环节上。\n\n（00:12:49）因此，我们坚信，约束、简洁和小团队才是核心竞争力。这些原则能让我们保持专注，为熟知的客户群体——比如小型企业、紧密团结的公司——提供优质服务，而不是去追逐大型客户、养活销售团队、应对漫长销售周期等。这类复杂性对我们而言完全陌生。说真的，如果给我1000名员工，我都不知道该如何管理。他们会把公司搞垮。即便500名员工也难以驾驭。500人规模的公司只会让情况更糟。我完全无从下手。",
+   "ts": "00:10:31"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I definitely want to talk about how you operate in your way of working, 'cause it's really interesting and there's a lot companies can take away. But, I want to follow on this thread of small teams. I have a few quotes that you've shared that I love.",
+   "zh": "好的。我确实想谈谈你工作方式背后的运营理念，因为这真的很有趣，很多公司都能从中借鉴。但我想先接着小团队的话题继续聊聊。我特别喜欢你分享的几句名言。",
+   "ts": "00:13:39"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Oh, no.",
+   "zh": "哦，不。",
+   "ts": "00:13:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, no.",
+   "zh": "哦，不。",
+   "ts": "00:13:50"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "No, good. No, it's good. Hey, if I said it, I said it. Let's go.",
+   "zh": "不，不错。没关系，说就说吧。走吧。",
+   "ts": "00:13:52"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "No, they're awesome. They're great. Around this idea of staying small, one is, \"Small is not just a stepping stone, small is a great destination itself. Also, if you think you're too small to be effective, you've never been in bed with a mosquito.\"",
+   "zh": "不，他们很棒。他们非常出色。关于保持小团队规模的理念，有一句是：“小型化不只是垫脚石，它本身就是一个伟大的目标。还有，如果你觉得自己太渺小而无法发挥作用，那你肯定没和蚊子睡过觉。”",
+   "ts": "00:13:55"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Now that's not my quote. That's someone else's, to be clear.",
+   "zh": "不过那不是我的名言。说清楚，那是别人说的。",
+   "ts": "00:14:08"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Okay, you popularized it.",
+   "zh": "好吧。好吧，你让它流行起来了。",
+   "ts": "00:14:10"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "It's a great quote though.",
+   "zh": "不过这确实是个很棒的名言。",
+   "ts": "00:14:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Then there's one more. \"You don't need to outdo the competition, it's expensive and defensive. Underdo your competition. We need more simplicity and clarity.\" I think a lot of these things point to, there's a few paths to success and goals for people. One is build a massively scaled, everyone's using a product like Figma and Notion, and build a venture scale, $100 billion company. Then there's this path which is, we're just going to make a bunch of profit we're going to make individually. We're going to take home a bunch of cash. We're not trying to have everyone in the world use it. I know your focus is, you call it, the Fortune 5 million versus the Fortune 500. So maybe just whatever you want to share about what success means to you, how you think about what success is for you, for the company your building.",
+   "zh": "好的。还有一句。“你不需要超越竞争对手，那既费钱又防御性强。相反，要弱化竞争对手。我们需要更多简洁明了的东西。”我觉得很多这些观点都指向了成功的不同路径和目标。一种是打造大规模产品，比如Figma和Notion这样的产品，建立价值千亿美元的企业。另一种是专注于个人盈利，赚取丰厚现金流，不追求全世界都使用你的产品。我知道你的关注点是，你称之为《财富》500万强和《财富》500强企业之间的差异。所以或许你可以分享一下成功对你意味着什么，你如何看待自己和所建公司的成功标准。",
+   "ts": "00:14:12"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "For me, it's really about, would I want to do this again? If the answer is, \"Yeah, that was enjoyable. I enjoyed that. That was worthwhile. I'm glad I did that. I'd like to do that again,\" then it was successful. Now you could carve out some extremes there. I'm sure someone who's addicted to drugs might go, \"That felt great, I should do that again.\" So you got to be careful with that, in a sense. Obviously, I'm not talking about that. Addiction's a whole different story. But in general, with this stuff, \"That was fun. Let's do that again. That worked. Let's do that again.\" Or, \"That didn't work. I didn't like that. That was a pain in the ass. That was too complicated. That took too long. Let's not do that again.\" So it really is about, do you want to do that again? That's what success is to us at a root level. (00:15:37): Now, on the business side of things, we have to be profitable. That doesn't mean that everything we do needs to be profitable. I am not driven by data, or I don't have different P&Ls for each product in a way where we're looking at them very carefully. It's in total, collectively, are we making more money than we spend? That's the only thing we ultimately look at, whether or not this product is more profitable than that product, and this is behind that, it's all the things we do. It's all the things we do. I don't even think you can actually draw lines back to everything and go, \"That was worth it. That wasn't worth it.\" What is the value of saying thank you to somebody? Would you want to A/B test that and, if it turned out that it was worse to say thank you to somebody, would you not do that? No, you would do it because it's still the right thing to do. (00:16:28): So a lot of our things are, what feels right? What seems like the decent thing to do? What things do we enjoy making? As long as we can, at the end of the year, look back and go, \"Well, collectively, more worked then didn't work,\" then we're okay. That's how we look at it. We don't have financial goals. We don't have OKRs or KPIs. I don't have revenue targets. I don't have growth targets, in terms of the number of customers we need to pick up this year versus last year. I don't look at any of those things. It's just, at the end, \"Did we make more than we spend? We did. Then the things we did this year were worth it.\" That's how it goes.",
+   "zh": "对我而言，关键在于：我是否愿意再次尝试？如果答案是：“嗯，那很愉快。我乐在其中。这很值得。我很庆幸自己做了这件事。我还想再来一次。” 那就意味着成功了。当然，极端情况下可能会有人说：“这感觉太棒了，我应该再来一次。” 所以对此要谨慎处理。显然，我不是在说成瘾问题——成瘾完全是另一回事。但总的来说，如果我们做某件事时会说：“这很有趣，让我们再来一次。” 或者：“这行不通。我不喜欢这样。这太麻烦了。耗时太久了。还是别再做了。” 那么关键问题就是：你愿意再次尝试吗？这就是我们对成功的根本理解。  \n\n（00:15:37）：在商业层面，我们必须盈利。这并不意味着我们做的每件事都必须盈利。我不受数据驱动，也不会为每个产品单独制定损益表并进行细致分析。关键在于整体上，我们整体盈利是否大于支出。这才是我们最终关注的核心——无论是某个产品比其他产品更盈利，还是否值得投入资源。  \n\n（00:16:28）：所以我们很多决策的核心在于：什么感觉是对的？什么看起来是体面的做法？什么是我们乐于创造的？只要年底回顾时能说：“嗯，整体而言，成功多于失败。” 那就说明我们做得不错。这就是我们的看法。我们没有财务目标，没有OKR或KPI。我没有收入指标，没有客户增长目标，没有去年与今年客户数量的对比目标。我从不关注这些。关键在于：我们赚得比花得多吗？是的。那今年做的事就是值得的。",
+   "ts": "00:14:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You also have no investors. You have no board. You have no plans to go public. You have no plans to sell the business.",
+   "zh": "你们也没有投资者。没有董事会。没有上市计划。没有出售公司的打算。",
+   "ts": "00:17:08"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Right.",
+   "zh": "对。",
+   "ts": "00:17:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's this book, I don't know if you've read this book called, Finite and Infinite Games.",
+   "zh": "有本叫《有限与无限游戏》的书，不知道你读过没。",
+   "ts": "00:17:14"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "No, I've not.",
+   "zh": "没读过。",
+   "ts": "00:17:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. I think you would love it. The whole premise of this book, it's like a terse, tricky, philosophical book, but it's very short. It espouses, you want to be playing infinite games to be happy in life, games that never end versus games like, I'm going to build a business and sell it. Or, I'm going to go public, that's my goal. Or, I want to achieve this promotion. You get most joy out of things that never end, like building great relationships, building a company you want to keep working at forever.",
+   "zh": "好吧。我觉得你会喜欢这本书的。这本书的核心观点很简洁、很有挑战性，是本哲学著作，但篇幅很短。它主张，要想在生活中获得快乐，就要参与无限游戏——永无止境的游戏，而非像“我要创办公司然后卖掉它”之类的有限游戏。或者“我的目标是上市”，或者“我想升职”。最能带来快乐的，是永无止境的事物，比如建立深厚的关系，打造一家人人都想永远为之工作的公司。",
+   "ts": "00:17:20"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I like that. What's interesting is, I've always thought of my career this way. When I got my first job, I was 13. I worked in a grocery store for a bit, and then I worked in a shoe store. After that, maybe when I was 15, I got a resellers license, which was this thing... This is way back in the day. I think they still exists. A company called Ingram Micro D, which had this huge thick catalog of electronics equipment. If you had a resellers license, you could buy these things at wholesale prices, then I could sell them to my friends for retail, which is almost 2x wholesale. Even though I'm not selling electronics equipment today, I'm selling software instead, I feel like I have the exact same job as I did when I was 15, that this is a long continuum of finding stuff that I like. (00:18:31): In this case today, it's building things that I like, and selling them to like-minded people who also would find them useful or those things too. So whether or not it's software, or electronics, or stereo equipment, or whatever the heck it is, or music organizing databases, it's all the same to me, and I just want to keep doing it. This is my day job. The other thing that's interesting about entrepreneurship is, sometimes there's a sense of, you can get a job or you can be an entrepreneur. Well, an entrepreneur is a job. This is my job, so I want to create the company that I want to work at, and I want to keep doing this job for as long as I can. As long as I'm useful, I'm good at it, I enjoy it, I want to keep doing that. (00:19:14): So to get in bed with an investment that would say, \"In five years you have to stop doing what you're doing, you're going to get a big paycheck maybe, but you got to stop doing what you're doing because we're going to sell this business, and you're going to have to go work for this other company for two years and do their thing. Then eventually, after that's over, you'll leave and you'll go start another thing,\" that just has no appeal to me at all. I'd rather just keep doing the thing that I'm enjoying doing, as long as I can continue to make it work. (00:19:37): What's cool about having a company like ours, which is an independent business, we don't have to ask anyone for permission. No one can tell us no. So we can turn this into anything we want. It's this vehicle, more so than it is a software business. It happens to be, of course, what it is, but it could be something else as well. There's no limits to what it could be, and that's a fun way to go through life too, in this all-terrain vehicle which can anywhere, on-road, off-road, whatever, and you can get anywhere you need to go. That's what's really quite fun about the kind of business we have.",
+   "zh": "我喜欢这样做。有趣的是，我一直都是这样看待自己的职业生涯的。我13岁时得到第一份工作，先是在一家杂货店工作，后来又在一家鞋店工作。大概15岁时，我获得了经销商执照，那时候……那已经是很久以前的事了。我觉得这种执照现在应该还是存在的。当时有一家叫Ingram Micro D的公司，里面有厚厚的电子设备目录。持有经销商执照的人可以以批发价购买这些产品，然后以零售价卖给朋友，利润几乎是批发价的两倍。虽然我现在不卖电子设备了，转而销售软件，但我觉得自己现在的工作和15岁时做的一模一样——不断寻找自己喜欢的东西。（00:18:31）：现在的情况是，我在开发自己喜欢的东西，然后把它们卖给志同道合、觉得有用的人。所以无论是软件、电子设备、音响设备，还是音乐整理数据库，对我来说都一样，我只想继续做下去。这就是我的日常工作。创业的另一个有趣之处在于，有时人们会觉得，要么找份工作，或者成为创业者。嗯，创业本身就是一份工作。这就是我的工作，所以我想创建自己想工作的公司，只要我还有用、擅长这份工作、乐在其中，我就想一直做下去。（00:19:14）：所以如果投资方说\"五年后你必须停止现在的工作\"，也许你能拿一大笔钱，但你必须停止现在的工作，因为我们要把公司卖掉，然后你得去另一家公司工作两年。等那结束后，你再离开去创办新事业，这对我来说毫无吸引力。我宁愿继续做自己喜欢的事情，只要能维持下去就行。（00:19:37）：像我们这样的独立公司很酷，我们不需要征求任何人的许可。没人能否定我们。所以我们可以把公司打造成任何我们想的样子。它更像是一辆全地形车，而不仅仅是软件公司。当然，它现在是软件公司，但也可以是其他形式。没有什么限制。这种生活方式很有趣，就像开着一辆全地形车，可以在任何地方行驶，公路、非公路，随心所欲。这种商业模式真的很有趣。",
+   "ts": "00:17:45"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You have this term you hold, instead of a startup it's a stay up.",
+   "zh": "你有这样一种坚持，而不是创办一家初创公司，而是持续经营。",
+   "ts": "00:20:12"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yes. I'm so sick of the startups. It's cool to start a business, obviously, but I'm sick of that term dominating. Because, frankly, starting a business is actually way easier than staying in business. Now, none of it's easy, so I want to be supportive of people who are starting businesses. But they should know that that's actually not the hard part. Literally tomorrow, I can start a new business. You can come up with a name, and you can make a thing, and you can put in the app store, and you can sell it for two bucks, and you've got a business going. But, are you going to be there in two years? Are you going to be there in five years when competition rushes in? When you have employees, are you going to be there? Staying is harder than starting. So I'm here to celebrate stay ups. Plenty of other people are here to celebrate startups.",
+   "zh": "是啊，我真是受够了这些创业公司了。创业当然很酷，但这个词被过度炒作让我很反感。说实话，创业比维持业务要容易得多。不过创业绝非易事，所以我支持那些初创企业。但他们得知道，真正难的不是创业，而是持续经营。明天我就能创办新公司：想个名字、开发个产品、上架应用商店、卖两美元，一门生意就成了。但两年后你还在吗？五年后竞争对手涌入时你还能坚守吗？当员工加入时，你还能掌控全局吗？坚持比创业更难。所以我来这里为那些坚持下去的人喝彩。其他人都在为创业公司欢呼雀跃。",
+   "ts": "00:20:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I feel the same way. I always say this about newsletters, and it's also true for podcasts. Easy to start a newsletter, hard to keep it going.",
+   "zh": "我感同身受。我常这么说新闻通讯，这对播客也适用。创办新闻通讯容易，维持下去难。",
+   "ts": "00:21:01"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Totally. I've seen your newsletter fly. We have a newsletter and it's been pretty flat. I'm like, \"How does he do it?\" It's hard. It's really hard. It's hard to build a podcast audience. It's hard to build a newsletter audience. So yeah, starting something is really easy, but then most people end up in this plateau area, 'cause they get some initial growth, the word gets out, and they end up with 6,000 somethings, and then you're stuck there. Then it's like, \"Well, do you want to keep doing this? Or, are you just high on the growth? Or, do you actually like the thing?\" (00:21:42): If you want to do the thing for a long period of time, you've got to like the thing because you're going to have to endure these moments of plateaus, which is what staying up is all about. Sometimes those go down. We've had wavy years, always been profitable, but our profit's different every year. Sometimes it's more, and sometimes it's less. Sometimes our margin is more, sometimes it's less. If you compare yourself to the previous year, you can get demoralized to some degree. But I just, \"What do we want to keep doing?,\" and then we're in it to stay in it.",
+   "zh": "完全赞同。我见过你的新闻通讯火遍全网。我们也有新闻通讯，但发展平平。我就想：“他是怎么做到的？” 这太难了。做播客、做新闻通讯都难。所以创业确实容易，但多数人最终陷入停滞期——刚起步时获得些增长，口碑传播后，订阅量达到几千，但就此停滞了。这时你得问自己：是想继续做下去，还是只为追逐增长刺激？还是真心热爱这件事？（00:21:42）：若想长期坚持，就必须热爱这件事，因为你必须承受停滞期的煎熬，而这正是坚持的真谛。有时收益下滑。我们经历过起起落落，每年利润不同，有时多些，有时少些。利润率时高时低。和前一年对比，容易陷入自我怀疑。但我总会问：“我们想继续做下去吗？” 然后我们就坚持下去。",
+   "ts": "00:21:07"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Speaking of enduring, you've been at this for almost 25 years now, I believe?",
+   "zh": "说到坚持，你从事这行快25年了吧？",
+   "ts": "00:22:13"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "00:22:18"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Have there been periods where... I like that sigh that you just had there.",
+   "zh": "有没有过迷茫期？我刚听你叹了口气。",
+   "ts": "00:22:19"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "It's a long time.",
+   "zh": "时间太长了。",
+   "ts": "00:22:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "So maybe along that path, one, is there a point at which maybe you started going off track and you realized, \"This is not what I want to be doing. Why did I do this to myself?\" Then two is just, what have you learned being at this for this long?",
+   "zh": "那么回顾这段历程，第一，你有没有偏离轨道过？意识到“这不是我想做的事，我为什么要这样折磨自己？”第二，坚持这么久，你学到了什么？",
+   "ts": "00:22:25"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I would say, over the past few years, I've had more thoughts of, \"How long should I do this for?\" I go back and forth. I can tell you, what's interesting is, right now, I'm probably more excited than I've been in many years. But, a year ago I was not so excited. I think that after you've been doing this for a while, you do tend to just compare, what was it like in the early days? What's it like now? All the new things that are harder weren't harder before, and now they're hard today. Do I like doing this kind of hard work, or would I rather do...? You just amass this history, and so you tend to just call back to it, and look back to it. So you opine for the early days, or you reminisce, I should say. (00:23:16): \"Yeah, it was so much easier when we were 20 people.\" \"Yeah, but we weren't doing this, and times were different, and you can't go back anyway.\" But, it's interesting. Next year I'll be 50. We'll be doing this 25 years. I'll have been running this company for 25 years. Part of me thinks, \"Is that enough? Maybe that's enough.\" But right now, I'm really excited about what we're doing. We're doing some really great product work, probably the best we've done in many, many years. Launching this new thing called ONCE, which hopefully we're going to build three or so products next year under that category. I would like to write another book. We finally have another idea for another book. (00:23:53): So there's just, right now, this outpouring of energy. I'm trying to be very conscious of my energy interest. Right now, I'm getting energy from the business. There are times in the past where the business sapped energy for me. If it SAPs too much, at some point, you start to think, \"Is it worth it? Do I want to keep doing this?\" Right now, I'm fueled again by it. But, I don't know what it'll be like in a year from now. I really don't know. I think I'm more conscious of that than I've ever been given how long I've been doing this. (00:24:21): Also, I always have this strange fantasy, I'm always curious, \"What would someone else do with this place? What if someone else could just step in tomorrow? How would they run it? No one's ever had a chance to run it but me. What would they do differently?\" I'd have to be completely detached from it to let them really run with it. But, what would they do? I always have this curious about that, I would say. Not curious enough to find out, but still curious. It's always in the back of my head.",
+   "zh": "我得说，过去几年里，我越来越常思考：“我还要坚持多久？”我一直在犹豫不决。我可以告诉你，有趣的是，现在的我比过去多年来都要兴奋。但一年前我可没这么激动。做这行久了，难免会拿早期和现在做比较——早期多么轻松，现如今却困难重重。是喜欢这种挑战，还是宁愿另辟蹊径？这些回忆如潮水般涌来，我会怀念过去，也会畅想未来。（00:23:16）：“是啊，我们20个人的时候可轻松多了。”“没错，但那时根本没这般压力，而且时代不同了，回不去了。”不过有意思的是，明年我就50岁了，我们做这行也25年了。经营这家公司25年，我有时会想：“够了吗？”但此刻，我对我们正在做的事充满热情。我们正在开发一些极棒的产品，可能是近年来最出色的作品。即将推出名为ONCE的新品类，明年我们计划在此基础上再开发三款产品。我还想再写本书，终于又有了新思路。（00:23:53）：现在真是精力充沛。我特别注意保持这种热情。如今，业务本身就是能量来源。过去有段时间，业务反倒成了消耗精力的黑洞。一旦精力被过度消耗，你就会怀疑：“这值得吗？还要继续吗？”但现在我又被激情点燃了。但一年后情况会怎样？真说不准。做这行越久，越容易审视自己。\n\n（00:24:21）：还有个奇怪的幻想：我总好奇别人会怎么经营这家公司？如果明天有别人接手，他们会怎么做？除了我，从来没人有机会真正运营它。他们会做出哪些不同之处？要做到完全放手才可能让他们自由发挥。但他们会怎么做？我对此总是充满好奇，虽然没到非要一探究竟的程度，但好奇心始终萦绕心头。",
+   "ts": "00:22:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What do you think they'd do?",
+   "zh": "你觉得他们会怎么做？",
+   "ts": "00:24:49"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I think they'd probably be focused on growth. I think there's opportunities that we miss all the time. I think that we are stuck in a certain... Stuck sounds like a negative term, but I don't mean it that way. But, we're stuck in a certain groove. We do things the way we do things. We change the way we do things here and there, but we're not really jumping into a new groove. I think someone would jump into a new groove and run the company differently, maybe make a lot more products than we're making today. Maybe resurrect a couple of things that we did in the past. Probably spend a lot on advertising, a lot of marketing, probably take our margin way down and try to focus on growth. What if we spent 70% of our margin on growth? What would that look like? I just feel like that's what most people would probably come in with a business like ours and do. They go, \"Oh my god, there's so many missed opportunities here. Look at this, and look at this, and look at this. You've got this brand, and people know about you, and you've got 100,000 paying customers. Think about all the things you could do.\" I'm not really thinking about all the things we could do. I'm thinking about what we're doing. So I think someone else would come in and think about the things we could do. (00:25:49): I'm thinking about the things we are doing, with a little bit of a look ahead to things we could also do, but they're still pretty close to what we're doing today. So, that's what I think would happen. It'd be interesting. It'd be neat to live in a reality where there could be a second reality running right alongside you, truly. Not an A/B test, which is hard to do. You can't really A/B test an entire company. I'd seek to A/B test small things. But, it'd be cool if that was something that could happen. Maybe there's some simulation down the road.",
+   "zh": "我觉得他们很可能专注于增长。我认为我们总是错过很多机会。我觉得我们被困在某种……“被困”听起来是个负面词汇，但我不是这个意思。不过，我们确实陷入了一种惯性思维模式。我们做事的方式一成不变，偶尔会调整一下策略，但从根本上来说，我们并没有真正跳出固有思维框架。我觉得如果有人接手我们的公司，他们会采取全新的运营方式，也许会生产比现在更多的产品，甚至重启一些过去的项目。他们很可能会大力投放广告、加强营销，降低利润率以专注于增长。假如我们把70%的利润率用于增长会怎样？那会是个什么样的局面？我觉得大多数人接手我们这样的公司都会这么做。他们会惊呼：“天哪，这里有太多错失的机会了。看看这个，看看那个，看看这个。你拥有这个品牌，人们都知道你，还有10万名付费用户。想想你能做多少事啊。”但我并没有真正去思考我们能做什么。我只在思考我们正在做的事。所以我觉得如果有其他人接手，他们会考虑我们能做的事。（00:25:49）：我现在思考我们正在做的事，同时也会展望未来可能能做的事，但这些都和我们现在做的事非常相似。所以我觉得如果有人接手会是这样。这会很有趣。如果能在现实中同时运行另一个平行世界，那就太棒了。但这很难做到，你没法对整个公司进行A/B测试。我可能会对一些小细节进行A/B测试。但如果真能实现那种情况，那就太棒了。也许未来会有某种模拟环境。",
+   "ts": "00:24:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I was just thinking-",
+   "zh": "我只是在想——",
+   "ts": "00:26:16"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "It's a possibility.",
+   "zh": "这是有可能的。",
+   "ts": "00:26:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Maybe we're in the simulation variant where you're still running it.",
+   "zh": "也许我们正处于模拟版本中，人们还在按照既定模式运营。",
+   "ts": "00:26:17"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "It could be.",
+   "zh": "这也有可能。",
+   "ts": "00:26:20"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And there's another... This a cool exercise, actually, just to think about it. If I were to bring in any leader, what would they do? Just as a thought exercise.",
+   "zh": "还有另一种……其实这是一个很有趣的思考练习。如果我引入任何一位领导者，他们会怎么做？就当是个思维实验。",
+   "ts": "00:26:21"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "This is a weird way to think about it, but I almost would be embarrassed by what someone would come in and look at, and go, \"Oh my God, you guys are missing so many opportunities here.\" I'd be like, \"Yeah, I know. I know we are, but I'm totally fine with it.\" But, there'd be this moment of judgment and reckoning with, \"Do you realize how much you're leaving on the table?\" You could have five different pricing tiers, and make a lot more money, and you can maximize this and maximize that, and squeeze this and squeeze that, and address this market, and you could have special versions of Basecamp. Wow, churches are using Basecamp? We could do a special version for churches, and for synagogues, and religious institutions, or education or nonprofits. Think of all the slight different things you could do with these different...\" (00:27:06): I'm certain that all those opportunities exist on the table. They don't interest me, personally, in terms of making multiple products. But I could see someone else going, \"There's a huge opportunity here. We got to pursue this.\" I'd be really proud if someone did that, and made the business bigger and better. I could never have done that. I'm glad someone else did that. But right now, we're running it our way.",
+   "zh": "这么想挺奇怪的，但要是有人进来一看，说：“天哪，你们这儿真是错失了太多机会。”我可能会回应：“是啊，我知道。但我完全没关系。”不过，肯定会有人批评你：“你知道自己错过了多少潜在收益吗？”你本可以设定五个不同的定价层级，多赚不少钱，还能优化这优化那，开发针对特定市场的版本，甚至推出Basecamp的定制版本。哇，教堂都在用Basecamp？我们可以为教堂、犹太教堂、宗教机构、教育机构或非营利组织开发专属版本。想想还有哪些细微的改进空间……（00:27:06）：我确信这些机会都摆在眼前。但就我个人而言，我对开发多款产品没什么兴趣。不过我能想象有人会说：“这儿有巨大机遇，我们必须抓住它。”如果真有人这么做，让公司发展得更大更好，我会由衷感到骄傲。我自己永远做不到这点。但目前，我们还是按照自己的方式经营。",
+   "ts": "00:26:28"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Coming back to this as a path people can take with their business versus a traditional venture scale business, this path is essentially build something, sell it, make money, live like a chill life. Not super stressed, growth-focused obsessed, need to build a billion-dollar company. Do you think this path is something everyone should do? Is it a specific type of personality, a specific type of product? Do you recommend people that sometimes do go this big shot venture scale route?",
+   "zh": "回到人们可以选择的创业路径，与传统的大规模风险投资型企业相比，这条路本质上就是先做成产品、卖出去、赚钱，然后享受轻松生活。无需承受巨大压力，痴迷于增长速度，非要打造价值数十亿美元的公司不可。你觉得这条路适合所有人吗？它是否需要特定类型的人格或特定类型的产品？对于那些偶尔选择大规模风险投资路径的人，你有什么建议吗？",
+   "ts": "00:27:29"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I'm glad there are some people who do that. I'm glad that there's some businesses that-",
+   "zh": "我很高兴有人能做到这些。我很高兴有些企业——",
+   "ts": "00:27:59"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "People who do that. I'm glad that there's some businesses that wouldn't have worked out had they not taken a bunch of funding and went big, clearly. And there's many impressive businesses that do that. But let's face it, those are extreme outliers. The majority of companies on this planet run like ours. They're bootstrapped, they don't have any money. No one's willing to give them a penny and they open up a shop somewhere, they do something, they put their shingle out and they launch a website or whatever and they try to make it work. So most people are doing it our way, even though in our industry it seems like we're the outliers, but we're not. We're actually incredibly boring and mainstream, really. If you were to pick any random business owner on the street, they'd run their business like us. I got to make more money than I spend otherwise I'm out. I don't have this big cushion of millions sitting in the bank that I can just spend on things. (00:28:48): So they're pretty, they keep an eye on costs. They think about this carefully. But yeah, I'm glad there's people who are going for the moonshot and doing it their way and doing it a different way. And the world moves forward sometimes because of those businesses and it's great. It's great and I admire them. It's just that it's not the path I would take and I think because that's not who I am, and I think this is the important point that I want to get across, is I'm not really, hopefully I don't come off as encouraging everyone to be like me. I'm not saying that at all. What I'm saying is this is a way to be. It's an alternative to what you're often hearing in our industry, which is like go big or go home, raise a bunch of money and get huge and unicorn status and the whole thing. (00:29:29): That's a way. Just know though that basically almost nobody makes it that way. Really, almost nobody really makes it that way. And there's a lot more room to make it and to build a successful business, if you throw out that outlier and look at all the other places you can land as a business. So my interest is optionality. If I could land in 135 different positions and have a sustainable business, that's great. Versus saying there's only one way I'm going to be successful or happy. Those odds aren't really in anyone's favor. Even though of course some people win the lottery. And I'm not saying it's luck. There is luck, a lot of luck, including we're lucky that we've made it. So there is a degree of that when I say lottery. But really the point is that there's only a few slots for a few companies like that at any one time. Meanwhile, there are hundreds or thousands of slots for other kinds of companies to make it if they don't go for the moon.",
+   "zh": "那些做事的人。很高兴看到有些企业如果没有获得大量资金并大举扩张，可能就无法成功，这显然是事实。也有许多令人钦佩的企业采取了这种策略。但说实话，这些都是极端的个例。地球上的大多数公司都像我们这样经营——自力更生，没有资金支持。没人愿意给他们一分钱，他们只能在某个地方开店、开展业务、挂出招牌、建立网站，然后努力让它运转起来。大多数人都在按照我们的方式做事，即便在我们这个行业里，人们似乎认为我们才是异类，但事实并非如此。我们其实非常普通、非常主流。随便在街上挑一个企业主，他们的经营方式都和我们类似。我必须赚得比花得多，不然就出局了。我没有银行里存着数百万美元随时可以挥霍的巨额资金。（00:28:48）：所以他们很精明，密切关注成本，深思熟虑每一步。但说真的，我很高兴有一些人敢于追逐宏伟目标，用自己的方式另辟蹊径。世界有时正因这些企业而进步，这很棒，我很钦佩他们。但这不是我会选择的道路，因为这不符合我的性格。我想强调的关键点是，我不是在鼓励大家效仿我。我只是想说，这是一种可行的经营方式。与我们行业常听到的“要么大干一场，要么出局”，要么筹集大量资金、迅速壮大、成为独角兽企业等说法不同，（00:29:29）：这是一种选择。只要你抛开那些极端案例，审视其他成功的可能性，就会有更大的成功空间。所以我的关注点在于选择权。如果我能在135种不同位置立足并维持可持续的业务，那就太棒了。而不是说只有一种成功或快乐的路径。这种概率对任何人都不利。当然，有些人中了彩票，我不是说这全靠运气。虽然运气很重要，包括我们能成功也是运气的结果。所以我说彩票的时候确实有运气的成分。但关键是，任何时候能达到这种规模的公司都屈指可数。与此同时，如果其他类型的公司不追求极致目标，成功的机会却成千上万。",
+   "ts": "00:28:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to close this thought around whether, if you have an idea going the venture route makes sense. What do venture scale companies need to achieve? What investors look for that to even work out? To your point, it almost never works out. What is it you have to do for it to feel like, okay, this is a venture scale idea versus this is an awesome idea. We could just make money every year, every month from it and not raise money and life will be great.",
+   "zh": "最后再总结一下关于是否该走风险投资路线的思考。风险投资级别的公司需要达到什么标准才能成功？投资者看重哪些条件才能让这件事可行？正如你所说，几乎从未成功过。那么你需要做些什么才能判断这是一个风险投资级别的想法，而不是一个很棒的想法？我们每年、每月都能从中获利，不需要融资，生活也会很美好。",
+   "ts": "00:30:31"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I'm probably the wrong person to ask, but I would say there are versions of our... Let's just take Monday for example. Basecamp and Monday are quite a bit different, but they live in the same world. We could have flipped, someone could have had the Monday approach and sold Basecamp that way, and Basecamp could have gone big in that way and Monday could have stayed small in our way. Again, I'd rather be my business than their business. I would not trade Basecamp for Monday's business any day of the week because I love what we're doing. We're profitable, we're happy. We don't have to deal with the things they have to deal with. So I wouldn't trade businesses or places with anybody. But you could imagine it could have been swapped. So it's not that Basecamp couldn't be this big venture scale, whatever you want to call it, although look, hey, we have the same number of customers roughly than they do. (00:31:46): Are we? I guess we are venture scale in that respect. But again, point is is that depending on how you approach it, you can take anything in any different direction. So it's more of a mindset, what are you after? We're not after that and they are. So that's what they do. And we do it a different way. So I don't necessarily think... There's things like Airbnb is a great example that that has to have a certain degree of scale to really be something that no matter where you go in the world, you're like, I can get an Airbnb there. And that's probably going to take money to get there. Same thing with Uber. Uber's another example, and these are easy to pick, but they're great examples really. When Uber was getting started and they had to proliferate all over the country to begin with and all over the world. (00:32:33): So it was this reliable thing you could think of just you would think of a cab. If I went to New York or Chicago, I knew there'd be a cab. Was there going to be an Uber? I don't know. Well, you have to know that there's going to be one to begin to trust us. So in order to do that, you have to expand rapidly. So there's that kid of, those kind of businesses exist and those are great examples of venture-backed companies that kind of need that massive initial push to be available in all the different places because they're actual physical products. Airbnb's a physical product, Uber's a physical product, Basecamp, Monday, Asana, they're available everywhere instantly anyway. I don't know what you need the money for other than marketing. And it's interesting because marketing's losing them a lot of money. So it's an interesting thing. But anyway, you can talk to them about that.",
+   "zh": "我可能不是合适的回答者，但我会说我们的产品版本……以Monday为例。Basecamp和Monday有很大的不同，但它们身处同一个生态圈。我们本可以调整策略，采用Monday的模式来出售Basecamp，或许Basecamp也能因此壮大，而Monday则保持小规模运营。再说一次，我宁愿经营自己的业务，也不愿接手别人的公司。无论何时，我都不会用Basecamp换取Monday的业务，因为我热爱我们正在做的事。我们盈利了，员工快乐，也无需应对他们必须应对的种种挑战。所以我不会与任何人交换业务或团队。但你可以想象这种局面本可能发生。因此，Basecamp并非无法发展成大型企业——无论你如何定义规模，尽管看看吧，我们的客户数量与他们大致相当。（00:31:46）：我们是吗？从这个角度看，我们确实具备了企业规模。但关键在于，你如何看待这件事？我们不追求那种规模，而他们却在追逐。这就是他们的策略。我们采取了不同的方法。所以我不认为……Airbnb就是一个很好的例子，它必须达到一定的规模才能真正做到无论你身处世界何处，都能找到Airbnb房源。这很可能需要大量资金投入。Uber也是如此。Uber初期必须在全美乃至全球范围内扩张。（00:32:33）：它必须像出租车一样可靠。如果我去纽约或芝加哥，就知道能叫到出租车。但Uber呢？谁知道呢？不过用户得先相信Uber的存在才能使用。因此，Uber必须快速扩张。这种类型的企业确实存在，它们是典型的风投支持的公司，需要初期的大规模推广才能在全球范围内普及，因为它们是实体产品。Airbnb是实体产品，Uber也是实体产品，而Basecamp、Monday、Asana等产品本质上是即时可用的服务。除了营销之外，我不明白他们为什么需要资金。更有趣的是，营销反倒让他们亏损严重。这确实是个有趣的现象。不过你可以和他们聊聊这个。",
+   "ts": "00:30:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to start chatting about your ways of working, how you operate at 37signals. There's a lot of really unique approaches. One is you mentioned that every project is, I didn't know this. It's two people, a designer and engineer, and then two to six weeks of work. Can you just expand on how you actually do that, how broad development works there?",
+   "zh": "我想先聊聊你们在37signals的工作方式。你们有很多独特的做法。比如你提到每个项目都由两人，一个设计师和工程师，共同完成，然后投入两到六周的时间。能否详细讲讲你们具体是如何运作的，开发流程是怎样的？",
+   "ts": "00:33:20"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, so we have framework development framework we invented called Shape Up, and if you go to basecamp.com/shapeup, you can read the book, it's free. You can also get a print version if you want. Shape Up is our methodology for actually building products. And part of this is this idea at the root of it is this idea of the six-week cycle. That whatever we choose to do can take no longer than six weeks. So this is not an estimate of time, it's an appetite, which is a radically different approach. It doesn't sound like that much of a different word, but it really is. An estimate is like how long do we think it's going to take? And however long it takes is however long it takes. And most human beings are terrible estimators. We all are pretty much terrible estimators. So that's why things keep going and going and going and going. (00:34:21): We instead have appetites. And our appetite for any individual feature is no more than six weeks. Essentially that's our budget we're willing to spend. I'm only willing to spend six weeks in any feature. So we have to figure out the simplest, most effective version of that to get that done within six weeks and get it done by two people. Now, not everything gets the full six weeks. Some things were like, we have a one week appetite for this. This is not that big of a deal. If we have it, great. If we don't have it, that's fine. We're willing to spend a week on it. Not that it could take a week, because it could also take 12 weeks if we give it 12 and it could take 24, if we give it 24. Work expands to fill the time available. So for us it's about appetite. (00:35:00): So the idea of appetites, maxing things out at six weeks, two people max, and then there's a lot of other details, and I could go on for an hour about Shape Up, people can read about it. But it's those fundamental principles, appetites, six week max, small teams and this idea of shaping the work ahead of time, then giving the team a lot of latitude to figure out how to get that thing done. We don't have a spec, we don't create to-dos or tasks or tickets for people. They create the work that needs to get done to fulfill the idea that we've written up and designed essentially, and they figure out how to do it. Then we trade. So they might get into something that we've said, we have about six weeks. Well, we're only give it six weeks and two weeks in they go, we actually stumbled into something we didn't realize. (00:35:50): This is probably not going to be able to be done the way we thought. So can we do it this way? And then we have a discussion and there's a conversation. There's a lot of molding and changing that happens along that period of time. We call it trading concessions. There's all the trade-offs we're always thinking about. So all these things that come to bear. And then people often ask, well, what if you don't get it done in the six weeks you gave it? Well, so it depends. So in most cases it should die, meaning it just doesn't happen. Because if we say we're going to give it six weeks and we give it seven or eight or nine or 10, then we're not really giving it six weeks, we're giving it 10, then we don't really have a system. (00:36:27): There are times though, when there's a couple days left when we're on what we're calling the downslope. So we have these things in Basecamp called hill charts. And things that are on, that's actually work... A project's more like a hill. It's not like a linear line. If you're on the left side of the hill, it means you're still pushing this thing up the hill. You're still trying to figure out how to do this. But once work gets to the top, it's downhill from there. It's just pure execution and we know how to nail it. So if we're almost at the bottom of the hill on something and it needs two more days, fine. If there's any work that's left over that's still on the left side of the hill, meaning we're still pushing it up, we don't know how we're going to do it and we're at our time limit, it almost certainly dies. So there are some contextual decisions to make at that point, but fundamentally that's how we approach work. And this prevents long running projects that never end, which by the way are the most demoralizing kinds of projects. (00:37:17): Things that you're stuck on that you don't want to do that never end, sucks. And if people get stuck on a couple of those, they want to leave their job. So the implications here are significant. And so we want to keep people out of that zone of like, I hate this work and it goes on forever. Because sometimes you're going to hate the work. Not all projects are that exciting. Sometimes it's maintenance stuff, sometimes it's updating an internal billing system that's boring and no customers are going to see but needs to be done. But you'll know that, hey, at maximum we've got four weeks on this. I can already see the end from the beginning, no big deal. But if it's like this is going to take nine months and you're on week four and you're like, I hate this, bad. So we want to stay away from that sort of thing.",
+   "zh": "是的，我们开发了一个叫做“Shape Up”的框架，如果你访问basecamp.com/shapeup，可以免费阅读相关书籍。如果你需要纸质版也可以获取。Shape Up是我们实际开发产品的方法论。其核心理念是六周周期法则——任何我们决定开发的功能，周期都不超过六周。这不是时间估算，而是欲望驱动——这两种思路截然不同。估算通常是“我们认为需要多长时间”，而欲望则是“我们最多愿意花费六周时间”。大多数人都是糟糕的估算师，所以项目总会拖延。\n\n（00:34:21）我们转而用“欲望”来驱动开发。每个功能的欲望周期不超过六周，这就是我们愿意投入的预算。我只愿意在每个功能上花费六周时间。有些功能可能只需要一周完成，这没关系——有则锦上添花，无则无伤大雅。我们用一周时间去尝试。如果一周能完成，那就用一周；如果需要12周，那就12周。工作会根据可用时间自动调整。所以关键在于欲望。\n\n（00:35:00）欲望驱动、六周周期、两人团队是核心原则。还有其他细节，我可以花一小时详细讲解Shape Up，但关键是这些基本原则：欲望驱动、六周周期、小组协作，以及提前规划工作的习惯。团队不需要依赖规格文档或任务列表，他们会自主完成设计任务，找到实现创意的路径。例如，如果我们原定六周完成，结果团队只用了两周，他们就会发现隐藏的价值，重新调整方案。\n\n（00:35:50）人们常问：如果六周内完不成怎么办？这取决于具体情况。大多数情况下，项目会被终止，因为如果承诺六周却用了七八九十周，那就不是真正的六周周期了。但有时会在最后几天发现转机，比如项目进入下坡阶段（Basecamp中的“hill chart”）。左边的进度线代表爬坡阶段，右边的代表下坡阶段。\n知道该怎么做。但一旦工作进入高峰阶段，接下来的路就越来越容易了。剩下的就是纯粹的执行，我们知道如何把它做好。所以如果我们在某个项目上几乎到了终点，还需要两天时间，那没关系。但如果还有工作堆积在山脚下，意味着我们还在往上爬，却又不知道怎么解决，并且已经到了时间限制，项目几乎注定失败。所以这时候就需要做出一些因地制宜的决策，但从根本上讲，这就是我们处理工作的方式。这样就能避免那些永远做不完的长期项目——顺便说一句，这种项目最容易让人泄气。（00:37:17）那些让你卡住、不想做、又永远做不完的工作，真是糟心透了。如果人们被困在这样的项目里，他们就会想辞职。所以这里的影响非常重大。因此，我们要让人们避免陷入那种\"我讨厌这份工作，却还要一直做下去\"的境地。因为有时候你确实会讨厌工作。不是所有项目都那么令人兴奋。有时是维护性的工作，有时是更新内部计费系统，既无聊又没客户会看到，但必须完成。但你要清楚，嘿，这个项目最多四周就能完成。我从一开始就能看到尽头，不算什么。但如果项目要花九个月，而你现在才第四周，却想\"我讨厌这个\"，那就糟糕了。所以我们要尽量避免这种情况。",
+   "ts": "00:33:36"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You have these quotes along these lines about planning, long-term business planning is a fantasy. I don't plan long-term because I want to do what I think, not what I thought.",
+   "zh": "关于规划，长期商业规划不过是空想。我不做长期规划，因为我想做的是当下想做的事，而不是过去想做的事。",
+   "ts": "00:38:00"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yes.",
+   "zh": "是的。",
+   "ts": "00:38:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love these. This whole idea of appetites, it's very appealing. It makes so much sense. It's like the ultimate impact to effort calculation. The effort we'll put into this is fixed and we'll not go beyond this because the impact we expect from this is pretty clear. And if the effort goes up and up and up, well why did we even do this? But obviously the downside is you can't promise things really to sales marketing, which I think makes sense in your type of business. Do you see this work in businesses that aren't your business this approach?",
+   "zh": "我特别喜欢这些观点。这种关于欲望的理念太吸引人了，非常有道理。这就像是对努力投入的终极考量——我们投入的精力是固定的，不会超出预期，因为预期的回报是显而易见的。但如果投入的精力不断增加，那我们当初为什么还要做这件事呢？不过显然缺点是，你无法向销售和市场部门做出确切承诺。我觉得这在你这类业务中是合理的。你认为这种方法在非你所在的行业中也适用吗？",
+   "ts": "00:38:09"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Well, let me talk about promises for a second. Promises are the downfall of every business. Every time we've made a promise to get something out in a certain period of time and we kind of inevitably seem to miss it, it's funny how it's almost like it would've been out in time, but the fact that we'd promised it made it not deliver in time. There's some strange thing that happens when you promise things. So we've learned to not promise anything. We can share what we're working on if we want to. We can tell people we're doing something. And by the way, the worst promise, and by the way, we've made a couple of these recently, we always regret them. It's like by the end of the year. That's the one promise you got to be very careful of, because it's so easy to make. There's nothing easier than promising work later. (00:39:29): And the further away it is, the easier it is to promise. And so this whole, by the end of the year, oh, red flag. Just remind yourself whenever you say that to yourself, go, oh, wait a second. Wait, wait, what am I doing right now? Because you're probably setting yourself up for disappointment. So as far as other companies running this way, there are a number of other companies that are running this way and more and more are adopting Shape Up all the time. But it's a struggle. It's hard. It's hard to change the way you work. I think companies form roots and roots go in the ground and once your root structure is formed, the plant that grows from that is the plant that grows from that, basically. You kind of have to uproot. And this is not really a totally clear metaphor because that plant is that plant, but you almost have to plant a new seed somewhere else, let's just say, and then grow something new because it's very hard to change in flight and change what you have and change what you're used to. (00:40:24): So what we often encourage people to do is keep working the way you're working, but some future project, some low criticality project, try this new method on that. So if it doesn't work, because it's probably not going to work very well the first time, just like if I gave you a guitar and you never played before, it'd be unreasonable for me to expect you to play well. You're going to suck for a while. So go pick some things that don't matter if you suck at them for a while and try this method over there and go, oh, you know what? I'm actually getting quite good. Now let's try to bring this into some more critical stuff. I think that's the important way to approach these sorts of projects, which is to take the criticality out. Because what ends up happening is that when people try to try something new on something really critical and it doesn't work, they'll never try it again. (00:41:08): They've destroyed all future opportunities to try this again, because everyone knows how bad it went last time on something that really mattered. And they would've gone, we could have done it our old way. Our old way worked. It kind of sucked, but it worked. And so now you're comparing two things that aren't really comparable, but you're always going to go with the momentum that you had versus the new thing. And so you got to be careful with that. So I know I'm rambling a bit on it, but that's my general sense and feel on how to adopt a different way of working.",
+   "zh": "好吧，让我先谈谈承诺的问题。承诺是每个企业的致命弱点。每次我们承诺在某个时间段内完成某项任务时，几乎不可避免地会延期。奇怪的是，总觉得只要再坚持一下就能按时完成，但正是我们对承诺的执着导致了延期。当你承诺某件事时，总会出现一些奇怪的状况。所以我们学会了不轻易许诺。如果有想分享的进展，可以适时告知。如果想告知别人我们正在做某件事，那没问题。但最糟糕的承诺——说实话，我们最近就做过几次这种承诺，事后总会后悔。比如“年底前完成”这种承诺，尤其要谨慎，因为这种承诺太容易做出了。没有什么比承诺在未来某个时间点完成工作更容易的了。（00:39:29）而且承诺的期限越久远，越容易出问题。比如“年底前完成”，哦，危险信号。每当你对自己说这句话时，要提醒自己：等等，等等，我现在在做什么？因为你很可能正在为自己设下失望的陷阱。至于其他公司如何应对这种情况，有很多公司都在沿着这条路走，越来越多的公司在采用 Shape Up 方法。但这并不容易。改变工作方式很难。我认为公司会形成根深蒂固的习惯模式，一旦根基形成，发展出的植物也会受其限制。你得把根连根拔起。这不是一个完全贴切的比喻，因为原来的植物还是原来的植物，但你几乎得在别处重新播种，然后培育新的东西，因为在执行过程中做出改变、改变现有习惯和流程实在太难了。（00:40:24）所以我们通常鼓励人们继续保持现有工作方式，但在未来的某个项目上，某个低优先级的项目，可以尝试新方法。如果不成功——因为第一次尝试很可能效果不佳，就像如果我给你一把吉他，而你从未弹过吉他，指望你弹得好是荒谬的。你肯定会一开始很糟糕。所以选一些暂时失败也没关系的项目，在那里尝试新方法，然后发现：“哦，我其实已经做得不错了。”现在让我们把它应用到更关键的项目中。我认为这才是处理这类项目的正确方法——去除关键性。因为最终的结果是，当人们在真正关键的项目上尝试新方法却失败时，他们再也不会重试了。他们会毁掉未来再次尝试的机会，因为每个人都知道上次在真正重要的事情上失败得有多惨。他们会说：“我们本可以用老方法完成的。老方法虽然不完美，但至少能行。” 于是你会把两个根本不可比拟的东西放在一起比较，但你总会倾向于选择既有的惯性和新方法之间的平衡。所以在这方面要小心。我知道我讲得有点冗长，但这就是我对如何采用不同工作方式的总体看法。",
+   "ts": "00:38:43"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's also this cool down period after one of these, what do you call these? A sprint or what's the term for it?",
+   "zh": "还有这种冲刺阶段结束后的冷却期，该怎么称呼这种阶段呢？冲刺阶段还是别的术语？",
+   "ts": "00:41:36"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "No, I hate that term. I don't like the word sprint because how do you feel after a sprint? Exhausted.",
+   "zh": "是的，我讨厌这个词。我不喜欢“冲刺”这个词，因为冲刺之后你会有什么感觉？筋疲力尽。",
+   "ts": "00:41:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "But also pretty good.",
+   "zh": "但其实也挺好的。",
+   "ts": "00:41:48"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "You can. Yeah, yeah. It's funny because I was a sprinter in high school, so I love sprinting. But if you go all out, you might feel high for a minute, but you can't go all out again. You've got to really catch your breath and you certainly like to sprint. I remember my track coach actually ran in college for a year until I realized that I wasn't good enough. But he made us run 20 200s in a row with just two minutes break in between, and the 200 is an incredibly hard race. You're all out for 200 meters or yards. And after the fifth one I just threw up. I just threw up. It's like that's kind of what work is for a lot of people. It's like 20 200s, they have these sprints and they never seem to end. And there's one sprint after the other, after the other, after the other, after the other. (00:42:36): And that's why I don't like the word because you can't layer that back to back to back to back. You cannot sprint back to back, to back, to back in life. And you can't do it at work. People do it at work, but I don't think it actually works. So what we do is after our six week cycles, we typically take what we call a two-week cool down. So we call these cycles, not sprints. A two-week cool down, and we call them cycles because cycles happen again and again and again. Sprints start and end. Cycles happen. There's cycles in life and seasons, and I like that idea that you're prepared for this thing to happen again. (00:43:12): Take two weeks, cool down. That's when people can sort of internally freelance. They're still working, but they're kind of tightening up a couple of things. Maybe we just shipped or working on a couple extra days on something that didn't ship that's going to ship in two days, or kind of fixing some bugs and messing around with some stuff that they wanted to get to, but no one ever had time to and was never scheduled. So that's kind a good time to do that. In the meantime, a few of us are shaping up the next cycles projects and finalizing that and writing the pitches up for that. So that's what those cycles are for. It's not that you're stopping work, it's that you're doing other kinds of work. And that I think is replenishing and refreshing, and I think that's the important part versus back to back to back sprints of the same kind of work all the time.",
+   "zh": "你可以的。对，对。这挺有趣的，我高中时就是个短跑运动员，所以我喜欢冲刺。但如果你全力以赴，可能会兴奋一阵子，但你没法一直保持这种状态。你得真正喘口气。不过你确实喜欢冲刺。我记得我的田径教练在大学时跑了一年，直到我意识到自己不够出色。但他让我们连续跑20组200米，中间只有两分钟休息，而200米比赛极其艰苦。你要全力冲刺200米或码。跑到第五组时，我直接吐了。我真的吐了。这就像很多人的工作状态。就像一连串的冲刺，似乎永无止境。一个接一个，接一个，接一个，接一个。（00:42:36）：这就是我不喜欢这个词的原因，因为你没法连续不断地这样做。生活中没法连续不断地冲刺。工作中人们也这样做，但我觉得这根本没用。所以我们每完成六周的周期后，通常会进入为期两周的冷却期。我们把这些周期称为冷却期，而不是冲刺期。冷却期持续两周，我们称之为周期，因为周期会一次又一次地重复。冲刺有起有止，周期则持续不断。生活中有周期，有四季的更迭。我喜欢这种为下一轮周期做好准备的理念。（00:43:12）：休息两周，冷却一下。这段时间人们可以内部自由发挥。他们还在工作，但会调整一些事情。可能刚完成某个项目，又赶上某个未完成的项目要在两天内上线，或者修补一些漏洞，处理一些一直想做但没时间、没排上日程的小事。总之，这是个不错的时机。与此同时，我们中有些人会筹备下一个周期的项目，敲定方案，撰写提案。这就是周期存在的意义。不是停止工作，而是转换到其他工作模式。我觉得这能让人恢复精力、获得灵感，这才是关键所在，而不是一直重复同一种冲刺式的工作，没完没了。",
+   "ts": "00:41:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned also that you have no growth goals, that you make decisions a lot on instinct and gut and opinion, which sounds amazing, it's great if you could pull it off. Feels also very hard to operationalize and maybe make the best decisions in times. Can you just talk about how you actually operationalize that and what you find happens when you approach things that way?",
+   "zh": "你还提到自己没有成长目标，更多依赖直觉、本能和意见来做决策。这听起来很棒，如果能做到确实很棒。但要把这转化为可操作的流程，及时做出最佳决策，可能很难。你能谈谈如何将其付诸实践，以及这样做时会产生什么效果吗？",
+   "ts": "00:43:54"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I'll just admit that that's the only way I've ever known how to work. I don't know how to make decisions by numbers or I don't find any joy in it, frankly. I've always been intuition driven and gut driven. And frankly, to be honest, I think everyone actually is. And this is part of the thing I want to write up. I've been thinking about writing about this. I think everything's a judgment call. And so yeah, data can play a part. All sorts of things can play a part, but unless you're letting a machine make the decision, that's purely rational. If you're asking a human to make it's a judgment call. They're bringing to bear thousands of things they know and don't know about that influence them about this particular decision. And it's why when companies hire executives, what are they looking for in executive? They typically go judgment and experience. (00:45:06): They're not like they can read an Excel spreadsheet. That's not the thing that matters. Anyone can read that or anyone can read a chart or you can learn to do that. They're looking for judgment and experience, which is a very amorphous thing. It's like, what is it really? Well, they've been around, they've seen a lot of things, they've absorbed a lot of experiences and they're going to bring those undescribable things to bear to make decisions for the business. So out of all the things, data might be one thing, but there's thousands of things that go into a decision that many of which you don't even know. And I just feel like I'm comfortable admitting that that I don't really know why I'm making these calls, but I'm making these calls regardless. And I'm not looking at a number and going, if this is fifty-one percent versus forty-nine, I'm going this way for sure. (00:46:01): That could be an input perhaps, but it's not the only input. And I think people should recognize that even if you're a data-driven person, there's so much more at play here. So I just feel like just being honest about that and that's sort of how I've always looked at it. And I also will admit, as I just mentioned, I don't know the things that go into my decision-making process, but I'm absolutely fascinated by decision-making. I think it's one of the most interesting human endeavors. And I would just say that give your intuition credit. Give your gut credit. It's absorbed everything. And plus the things that you don't know it absorbed that are valuable.",
+   "zh": "我得承认，这是我唯一熟悉的工作方式。说实话，我不擅长用数据做决策，也从中找不到乐趣。我向来凭直觉和直觉行事。说真的，我觉得每个人都是如此。这也是我想写下来的部分之一。我一直在思考写这方面的内容。我认为一切都是判断的问题。数据当然可以发挥作用，但除非你让机器来做决定，否则这纯粹是理性的。如果你让一个人来做决定，那就是判断了。他们会综合考虑成千上万的已知和未知因素，这些因素都会影响他们的判断。这就是为什么公司招聘高管时，他们看重什么呢？他们通常看重判断力和经验。（00:45:06）：他们不要求你能读懂Excel表格。这不是关键。任何人都能读懂表格，任何人都能看懂图表，你也可以学会这些。他们看重的是判断力和经验，而这是一件很难界定的东西。比如说，这到底是什么？嗯，他们阅历丰富，见多识广，积累了大量经验，他们会运用这些难以言喻的因素为企业做决策。所以在所有因素中，数据可能是其中之一，但做决策还需要考虑成千上万的因素，其中很多你甚至都不知道。我坦然承认，我确实不知道自己为什么会做出这些判断，但无论如何我都会做出判断。我不会看着一个数字说，如果这是51%对49%，那我肯定会选择前者。这可能是一个参考因素，但绝不是唯一的参考因素。我认为人们应该认识到，即便你是一个数据驱动型的人，这里还有更多因素在起作用。所以我觉得坦诚面对这一点很重要，这也是我一直以来的看法。我也承认，正如我刚才提到的，我不知道自己的决策过程包含哪些因素，但我对决策过程深感着迷。我认为这是人类最有趣的活动之一。我只想说，要重视你的直觉，重视你的直觉判断。它吸收了所有信息。还有那些你不知道它吸收了的信息，也同样有价值。",
+   "ts": "00:44:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's easier to do that if you're the founder running the company, obviously. Is there something you find that you can do to help your teammates approach things that way too? Do you just trust their instincts also in a similar way?",
+   "zh": "如果你是一家公司的创始人兼CEO，那显然更容易做到这一点。有没有什么方法可以帮助你的团队成员也这样做呢？你是否也会以类似的方式信任他们的直觉？",
+   "ts": "00:46:42"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, you're right by the way, it is easy for me to sit up here and say this, I own the place. No one can fire me. I get it, right. I can be wrong all the time, go, my gut just told me to do this. And I understand, I do. I'm self-aware enough to understand that. But I think that by demonstrating that's how we make decisions, it creates space for other people to make decisions that way. And when we have conversations, I'm talking with my team about something, I'll often go, I don't really know. It feels like this. It feels this way. And they'll say, I feel this way. And I'll ask them, how do you feel? How do you feel? What we ask people in general is we say, what do you think? We don't say, what do you know? We often say, what do you think? We might say, what do you know? (00:47:43): But we also say, what do you think more time. And what does that mean? What do you think is, I don't know where these thoughts come from and I don't know what forms them. So I think it's interesting to look at the things we say and go, we actually do want people to think. And so I'll often say, what do you think or what do you feel or how does this feel? Is something we talk more about at work than pretty much anything else, which is like, how does this screen feel? How does this flow feel? How does this feature feel? How does this word feel? How does this sentence feel? How does this paragraph feel? How does this website feel? How does these colors feel? Because human beings feel. (00:48:20): And while we have a logical side to us and a rational side to us, we're primarily feeling creatures. Even if we don't admit it, we are. And so I'm always curious about that. So I bring that up a lot and I ask other people how they feel, and I think hopefully that encourages people to share that side of their opinion. And we almost never, sometimes we look at numbers to sort of be an input, but it's never prove that. I'll never say justify that. That's just not terminology or lingo that we ever bring up. It's not a way. (00:49:05): It's, how do you feel? It's not like, how certain are you? I try to tend to shy away from anything that's about certainty. We're not after certainty. I want to know how you think it feels. So anyway, I'm rambling again, but this is, I'm rambling because this is actually how things go. When we talk, there is a lot of this, it's not precise in a sense. It eventually becomes precise when it's out in the world, but the thought process is very rambling and very amorphous, and you kind of find your way as you go. And eventually go yeah, yeah, that's it. That's it. That feels right.",
+   "zh": "是啊，你说得对。顺便说一句，我坐在这儿说这些话确实容易，因为这地方是我的。没人能解雇我。我懂的，对吧。我可以一直犯错，随便吧，我的直觉告诉我该这么做。我明白的，我确实明白。我足够自知，明白这一点。但我认为，通过展示我们就是这样做决定的方式，就为其他人创造了这样做决定的空间。当我们开会时，我和团队讨论某个问题，我会经常说：我其实也不确定。感觉是这样。感觉是这样的。他们会说：我也这么觉得。我会问他们：你怎么想的？你怎么想的？我们对人们普遍的要求是，我们会说：你怎么看？我们不会说：你知道什么？我们可能也会说：你怎么看？但我们更多时候会说：你怎么想？这意味着什么？你怎么想就是说，我不知道这些想法从何而来，也不知道是什么塑造了它们。所以我觉得，审视我们说的话很有意思。比如，我们会说：你怎么想？你怎么感觉？这感觉如何？在工作中，我们谈论最多的，莫过于：这个界面感觉如何？这个流程感觉如何？这个功能感觉如何？这个词感觉如何？这个句子感觉如何？这个段落感觉如何？这个网站感觉如何？这些颜色感觉如何？因为人类是有感觉的。（00:47:43）虽然我们有逻辑的一面和理性的一面，但我们本质上是感性的。即使我们不承认，我们也是。于是我对此总是很好奇。所以我经常问别人你们怎么想，我想希望这能鼓励人们分享他们观点的这一面。几乎从不，我们有时会看看数据作为参考，但那绝不是证明。我绝不会说这是合理化。这不是我们提到的术语或行话。这不是方法。（00:49:05）而是，你怎么想的？不是你有多确定。我尽量避免任何关于确定性的话题。我们不追求确定性。我想知道你觉得这感觉如何。所以说，我又在东拉西扯了，但这就是实际情况。在我们交谈时，很多时候都是这样的，没有什么精确的。当想法付诸实践时，最终会变得精确，但思考过程是漫无边际、模糊不清的，你只能边走边找方向。最终你会说：对，对，就是这样。就是这样。感觉对了。",
+   "ts": "00:46:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "This kind of advice comes up a lot actually on this podcast, especially for product managers, that there's a lot of power in just trusting your instincts and not just being this kind of unbiased participant in a product team, having actual, here's what I think works from your own experience using the product from your own life experience. But this came up with Brian [inaudible 00:50:05] episode. He's running the company, he's telling everyone basically, here's what we're building. A lot of people said, okay, that'd be great if our CEO is also a designer, very product-minded person. Many people aren't that, many people don't have actual enough experience to have built amazing instincts. So, do you solve that by just hiring people that have a lot of experience? Is it like a hiring thing? Is it trust people that have a lot more experience more because not everyone's going to have the right instinct?",
+   "zh": "实际上，在这个播客中，我们经常会听到这样的建议，特别是针对产品经理而言：相信自己的直觉至关重要，而不应只是产品团队中不偏不倚的参与者。更重要的是，要从自身使用产品的经验和生活经历中总结出有效的见解。但在布莱恩那期节目中，这个话题被提及。他作为公司CEO，基本上会告诉大家我们正在开发的产品。许多人表示，如果我们的CEO同时也是设计师、具备产品思维的人，那就太好了。但现实中很多CEO并非如此，他们往往缺乏足够的经验来培养出卓越的直觉能力。那么，解决这个问题的方法是招聘经验丰富的人吗？这是否关乎招聘策略？是否应该更信任经验更丰富的人呢？毕竟，并非每个人都能拥有正确的直觉。",
+   "ts": "00:49:45"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "It's true. Look, Brian's probably one of the greatest CEOs around today, but I like small businesses. So he knows how to run a bigger organization. I wouldn't. So I can't really step into that answer from that perspective. One of the reasons we stay small, I think, is so we can all rub off on each other. And when we hire, we can be very, very selective because we only hire a few people a year. And so I only hire designers and product people, David hires programmers, and different people in the company hire different people. But when I hire designers, I'm curious about their tastes. I'm curious about what they like. I'm curious about what other products they think are good. I'm curious about what they've seen that they admire or who they... I'm always asking about that because that helps me get a sense of who they are and what lens they see the world through and what kind of influences they're going to bring to bear. So that's the kind of stuff I'm looking for. (00:51:34): And one of the things that we do during the interview process for designers specifically and product people, which is the same thing in my mind, is they do a project for us at the end. So the last five finalists will do a project for us. We'll pay them to do the project, they'll have a week to do it, they'll do it, and then I'll critique it with them. Even if I love it, I will push back in certain areas. And one of the things I'll often ask is, if you had another couple days, what would you do with this? And I want to see where people go with that. To me, that is where you can see they don't have any time to think. So where does their gut go? What are their instincts? Where do they arrive after having to riff on the spot with something? (00:52:18): So what's behind what they built? Because what they built should just be some of what they had in mind. It shouldn't be everything. Now they're exhausted of every future idea. And I've seen some people who we thought were really good, and in that moment, they don't know where to go with it. Now, that's not to say some people don't need time to think and think it through, but I'm still looking for people who just, their gut is filled with ideas. And so it doesn't always translate but that's how I try to suss out whether or not someone has a good gut instinct on where to go. And it almost doesn't necessarily even matter where they go with it because this is raw, just raw gut. But I want to see that they have one and they're willing to lean into it and not be afraid of saying things that may not make any sense. (00:53:08): But yeah, I've got some other ideas and we could try this, and we try this, and I kind of play with this idea. And I don't know. Actually, now that I'm thinking about it, maybe we try, what if we did that? What about this? And then I would say something and we'd riff and we start riffing. And when we start riffing, there's a synchronicity that I'm looking for. And when I feel that synchronicity and that resonance, the two wavelengths are just perfectly vibrating together, then I know we have something. So that's the kind of stuff I'm looking for when I hire people. And I do think that that translates to people with a better gut feel than someone who's more of a, let's call it an academic product person, which can be very fine at other places, but it wouldn't really work here.",
+   "zh": "确实如此。听着,布莱恩或许是当今最出色的CEO之一,但我更喜欢小型企业。所以他知道如何运营大型组织,而我做不到。因此我无法从这个角度来评价他。我认为我们保持公司规模小的原因之一,就是让大家能相互启发。在招聘员工时,我们可以非常挑剔,因为我们每年只招聘少数人。所以我只招设计师和产品人员,大卫招程序员,公司不同部门也有各自的招聘标准。但在招聘设计师时,我会关注他们的审美品味,喜欢什么样的产品,欣赏哪些设计作品,或者欣赏谁的作品。这些都是我感兴趣的问题,因为这能让我了解他们的个性和思维方式,以及他们会带来怎样的影响力。这就是我所寻求的。  \n\n（00:51:34）:  在面试设计师和产品人员时(在我看来两者是一样的),我们会让他们为我们做一个项目。最后五名入围者会为我们做项目。我们会付钱给他们,给他们一周时间完成项目,然后我会和他们一起点评。即使我很喜欢他们的作品,也会在某些方面提出改进意见。我常问的一个问题是,如果再给你几天时间,你会怎么做?我想看看他们能在此基础上拓展到哪里。对我来说,这是判断他们是否有时间思考的机会。看看他们的直觉能带他们走向何方?在即兴发挥时,他们会产生怎样的灵感?  \n\n（00:52:18）: 那么他们的作品背后隐藏着什么?因为他们的作品应该只是他们想法的一部分,不可能包含所有内容。现在他们已经耗尽了所有未来创意的可能。我见过一些我们认为很优秀的人,可在那一刻,他们却不知道该怎么做了。这并不是说有些人不需要时间思考和推敲,但我寻找的是那些直觉中充满想法的人。这种直觉不一定能完美转化,但我会试图判断他们是否有这样的直觉,是否愿意倾听并勇于表达那些看似不合逻辑的想法。  \n\n（00:53:08）: 但我还有其他想法,我们可以尝试这个,再尝试那个。我会把这些想法玩味一番。我不知道。说实话,现在回想起来,或许我们可以试试看,如果我们这么做会怎样?这个怎么样?然后我会说出我的想法,我们开始即兴发挥。当即兴发挥开始时,会有一种共鸣感。我能感受到这种共鸣和共振,两者的波长完美同步,那我就知道我们找到了合适的方向。这就是我招聘时所看重的。我认为这比那些更偏向学术派的产品经理要好得多,后者在其他公司可能表现出色,但在这里行不通。",
+   "ts": "00:50:34"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's really great advice for someone looking for someone that has a good instinct and gut. And I think it's interesting because that's often the opposite, what you described is what many people don't want. Someone with just a ton of ideas. Because a lot of companies, a lot of leaders are like, we got plenty of ideas. We just need you to help us ship stuff.",
+   "zh": "对我来说，对于那些寻求直觉敏锐、果断决策的人来说，这真是条绝佳建议。但有趣的是，这往往与大多数人的需求背道而驰——人们往往不希望对方只有满脑子的点子，因为很多公司和领导者都会说：\"我们有的是创意，就需要你帮我们把产品落地吧。\"",
+   "ts": "00:53:46"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I don't want that either. So I don't want just ideas. So they have to make something that's clear. First of all, it has to be good and clear. And then they also have to be able to riff on the spot and think about how else they could take this. We've had some people who were just so scatterbrained and they've got a million ideas, but when we asked them to execute something for this project, it was a total mess. You could see their time management skills were off and they focused on the wrong things. That is not a go for me, that's a no go. (00:54:31): What's a go is that's a clever design, well executed, thoughtful, clear, and here's where they could take it from here on out if they had a few more days, or even if we had 15 minutes, what would you do you do with that? So that's the kind of stuff that I think ultimately is the meat of it. And so I always think of it in terms of play. This is play. I want to play with this product. I want to play with this design. I want to play with this idea. It's play and play is a thing. It's a very clear thing versus a rigid, boring approach to product development, which again, can be successful, but it wouldn't work at our company.",
+   "zh": "我也不想要那种只会空想的人。他们必须拿出清晰的方案。首先，方案必须优秀且易于理解。然后，他们还得能即兴发挥，思考如何进一步优化。我们遇到过一些思路混乱、想法无数的人，但当我们让他们为项目执行任务时，结果却一团糟。他们的时间管理能力很差，重点也抓错了。这种人对我来说根本不行。",
+   "ts": "00:54:02"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Great clarification. I completely agree. (00:55:16): This episode is brought to you by Wix Studio. Your agency is just landed a dream client, and you already have big ideas for the website, but do you have the tools to bring your ambitious vision to life? Let me tell you about Wix Studio, the new platform that lets agencies deliver exceptional client sites with maximum efficiency. How? First, let's talk about advanced design capabilities. With Wix Studio, you can build unique layouts with a revolutionary grid experience and watch as elements scale proportionally by default. No-code animations at sparks of delight while adding custom CSS gives total design control. Bring ambitious client projects to life with any industry, with a fully integrated suite of business solutions, from e-commerce to events, bookings and more, and extend the capabilities even further with hundreds of APIs and integrations. You know what else? The workflows just make...",
+   "zh": "解释得太到位了。我完全赞同。（00:55:16）：本期节目由Wix Studio赞助。你的团队刚拿下一个理想客户，你已经为网站构思了宏伟蓝图，但你是否有工具将这些雄心勃勃的构想变为现实？让我为你介绍Wix Studio——这个全新平台能助力代理机构以最高效率交付卓越的客户网站。如何做到？首先，谈谈先进的设计功能。借助Wix Studio，你可以通过革命性的网格体验构建独特布局，元素会默认按比例缩放。无需编码的动画效果带来惊喜，同时自定义CSS赋予完全设计控制权。无论何种行业，都能为客户项目注入活力——从电子商务到活动、预订等全套业务解决方案，还能通过数百个API和集成进一步拓展功能。更棒的是，工作流程设计得非常……",
+   "ts": "00:55:12"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... APIs and integrations. You know what else? The workflows just make sense. There's the built-in AI tools, the on-canvas collaborating, a centralized workspace, the reuse of assets across sites, the seamless client handover. And that's not all. Find out more at wix.com/studio. (00:56:18): Okay. We had some questions come in from the audience when we were preparing for this. We both tweeted to see what people wanted to ask. I have two that I picked out. One is from Matt Mullenweg. How cool is that?",
+   "zh": "…API和集成。工作流程设计得非常合理。内置AI工具、画布协作、集中式工作区、跨站点资产复用、无缝交付客户成果……这些还不算完。欲了解更多信息，请访问wix.com/studio。（00:56:18）：好的。在准备本期节目时，我们收到了观众提问。我们在推特上征集了大家想问的问题。我挑选了两个问题。第一个来自Matt Mullenweg。太棒了！",
+   "ts": "00:56:00"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Oh my God.",
+   "zh": "天哪。",
+   "ts": "00:56:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think you may have seen this question, but the question is, what is a spectacular failure of someone trying to follow your advice and failing when it doesn't stick? What is the reason?",
+   "zh": "我想你可能已经看到这个问题了，但问题是：当有人试图遵循你的建议却失败时，会发生什么样的惨烈教训？原因是什么？",
+   "ts": "00:56:31"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "People trying to make a rapid, fundamentally, 180 degree changes quickly is a great way to fall flat on your face, basically. I have seen people who try to adopt, let's say, Shape Up, and they come back six weeks later and they're like, \"This sucks. This doesn't work.\" I'm like, \"I'm not surprised to hear that. Tell me how you did it.\" And then, they explain like, \"Oh, the next project we did, we did this.\" I'm like, \"Yeah, I'm really not surprised to hear that now.\" Because you can't really do that. You can't turn on a dime. There's this thing called momentum. I always try to think of things in terms of the physical world. The more massive an object, the more energy it takes to change its direction. This is why big companies move slowly. (00:57:26): This is also why momentum, which is the way you've been working for four years, is going to power you forward in a certain way. It's very hard to turn the corner immediately or turn around. You just cannot do it physically. If you can't do it physically, you can't do it this way. I think that's what I've seen, is these rapid like, \"All right, starting tomorrow, we're starting Shape Up.\" It's like, well, no, it's not going to work. Unless you say we're going to do it on this other thing that doesn't matter so much. That's one thing I would say. (00:57:52): The other thing is that pretty much every business is a spectacular failure. It just is. It's like, business is really hard and the ones that make it are all outliers. This is why most businesses fail. There's a million reasons why, and it's always hard to pin it down. And we can all look back. By the way, I don't like to look back on things. I'm not much of a fan of looking back on failures and trying to figure out what went wrong so we don't do it again, because I don't think we know what went wrong. I think we can spend a long time trying to analyze it and we're going to find something that we can agree on, and it tends to be what you can agree on so you can move on. But that doesn't mean that's what it was. (00:58:37): Just like we don't really know why you make decisions, you don't really know why things didn't work. Sometimes there are some examples, and I think it's true if you're talking about a mechanistic system. You're stamping metal and it's supposed to have perfect circles and it's an oval. You can go back to that machine and see how the thing worked, and the line. You can adjust that and fix that. A lot of work though is not that way, especially software work, where there's a million different inputs and a million different people. It's not simple stamping machines. It's a different thing. I don't know, but I do think that trying to make big changes too quickly is a primary reason.",
+   "zh": "试图迅速、彻底地做出180度大转变的人，往往会一败涂地。比如，我见过有人想采用“Shape Up”方法，结果六周后就回来抱怨：“这方法太烂了，根本不管用。”我会说：“这我一点都不惊讶。说说你具体是怎么做的。”结果他们会说：“哦，我们接下来的项目又换了新方向。”我会说：“嗯，听起来也不意外。”因为这根本行不通。改变方向绝非易事。这里有个叫“惯性”的概念。我总喜欢用现实世界的例子来解释：物体越重，改变其方向所需的能量就越大。这就是大公司行动迟缓的原因。（00:57:26）同样，四年来一直沿用的“惯性”模式也会以某种方式推动你前进。想要立即转向或掉头实在太难了。这在物理层面就是做不到的。如果现实层面做不到，策略层面也同样行不通。我观察到很多所谓的“快速转型”案例，比如“明天就开始用Shape Up”之类的。但结果往往不尽如人意。除非你先尝试一个无关紧要的项目作为过渡。（00:57:52）还有一点，几乎所有企业都是巨大的失败案例。这是事实。创业本就艰难，成功者都是异类。这就是大多数企业失败的原因。失败原因千千万万，总结起来却很难。回头看当然容易，但我不爱回顾失败。我不喜欢追究原因，因为即使找到症结，往往也是显而易见的部分，而非真正的原因。（00:58:37）就像我们不清楚自己为何做决定，也不明白为何事情会失败。有时能找到例子，比如机械系统出错——比如冲压金属本应是圆形，结果却成了椭圆形。你可以回溯流程，调整参数。但多数工作并非如此，尤其是在软件领域，存在无数输入变量和参与者。它不是机械冲压，而是复杂得多的系统。我不确定，但我确实认为急于做出重大变革是主要原因。",
+   "ts": "00:56:41"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You've seen this approach work at traditional companies, I imagine? It's not just companies that work in your way where there's no investors, they're not obsessed with growth? You've seen Shape Up implemented at traditional public type companies?",
+   "zh": "我想你见过传统公司采用这种方法吧？不只是那些没有投资者、专注增长的公司？你见过传统上市公司实施“Shape Up”吗？",
+   "ts": "00:59:13"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, it's usually smaller teams. It's not like Airbnb, Brian's not going to go, \"Okay, tomorrow, we're following this thing that these guys over 37signals came up with.\" But it's typically small teams inside larger companies that experiment with this. Sometimes it spreads and sometimes it doesn't, and it doesn't always need to. It could be this one division, this one group that works a different way. (00:59:45): Also, it doesn't have to be fully Shape Up. It could be 30% of it. Maybe it's just simply the six-week cycle thing is the thing and the rest of it doesn't matter so much. Or it could be this idea of appetites versus estimates, and they can work that into the way they work. Take whatever works. You don't have to go wholesale on any of these things.",
+   "zh": "是的，通常都是小团队。这和Airbnb的情况不同，布莱恩不会直接说：“好的，明天我们就按37signals团队提出的方案来做。” 但通常是大公司内部的小团队会尝试这种做法。有时这种做法能推广开来，有时则不然，而且也不一定非要推广。可能只是某个部门、某个团队采用不同的工作方式。（00:59:45）  此外，不一定要完全照搬Shape Up模式。可以只借鉴其中的30%。比如，六周迭代周期这个核心理念可能值得保留，其他部分则不必拘泥。又比如，关于“用户需求与预估”的理念，他们可以将其融入自己的工作流程。只要有用的东西都可以借鉴，不必全盘接受。",
+   "ts": "00:59:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome. A second question comes from Leo Polovets, one of my favorite VCs. He works at Susa Ventures. He asked the question a lot of people actually asked. It's just, what does he think he got right and where has he changed his mind, if anywhere? You share a lot of strong opinions, very contrarian opinions. So, maybe just mostly on that second part is what I'm most curious about. What have you changed your mind about?",
+   "zh": "太棒了。接下来是Leo Polovets的提问，他是我最喜欢的风投之一，供职于Susa Ventures。他提出了一个很多人都好奇的问题：他认为自己哪些做法是正确的，又有哪些地方改变了主意？你分享了很多强硬观点，甚至有些逆向思维。所以，我最感兴趣的还是后半部分。你在哪些方面改变了看法？",
+   "ts": "01:00:07"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "A few years, well, a handful of years ago, we used to make multiple products, and we went to just doing Basecamp. I thought I would be personally satisfied for the rest of my career, working on one thing and just making that thing the best it could possibly be. Essentially, working on one sculpture, and constantly tweaking it and chiseling it and just polishing it, and just making it better and better, and better, and better, and better. I still thoroughly enjoy working on Basecamp. But a few years ago, we built this new thing called HEY, HEY.com email service, because we just felt like we had to make more things again. (01:01:04): This idea that I thought, that we could be happy as a company just doing one thing really well, which was a major shift. We had multiple products. We basically wound those down. We didn't ever close them down. People can still use them, who were using them before, we just stopped selling them. We even changed the name of the business from 37signals to Basecamp. We're saying, we're signaling all through. We're doing one thing that's just this thing called Basecamp. It's a huge, massive decision to make, and so we were all in on it. And then, a few years ago, we go, \"You know what? We're makers. Let's be honest about ourselves.\" (01:01:39): I'm talking about me, and I was talking about David. But we were just like, \"We want to make more things again. We have some more ideas. Why are we suppressing ourselves? Let's not do that.\" We made HEY and now we're doing ONCE, and we're going to make more products and more products and more products. We're going to probably do another book, as I mentioned earlier. It was that. I think that's the biggest major fundamental 180 degree change that I've changed my mind on, but I changed my mind all the time. (01:02:08): I disagree with myself constantly on small things. Product design decisions or the naming of something, or how we roll something out, or how I'm going to write something or present something or say something. There's probably an answer, I'm sure there's an answer in this podcast that if I listen back, I'd go, \"I would probably answered it differently,\" or, \"I don't even agree with the way I answered that.\" There's a million things like that happening all the time. But in terms of big things, I think that's the best example I can come up with.",
+   "zh": "几年前，准确来说是几年前，我们曾同时开发多个产品，但后来决定专注于Basecamp。我曾以为，在职业生涯的剩余时间里，我会满足于只专注于一件事，并尽可能把它做到极致。这就像雕刻一座雕像，不断雕琢、打磨，让它变得越来越完美。我至今依然非常享受在Basecamp上工作的过程。但几年前，我们推出了名为HEY的邮件服务，因为我们觉得自己又该多做些产品了。（01:01:04）：我当时认为，作为一家公司，只要能把一件事做得非常出色就足够幸福了，这是一个重大的转变。我们曾拥有多个产品，但最终将它们逐渐停用。我们并没有彻底关闭这些产品——之前使用过它们的人仍然可以继续使用，只是我们不再销售这些产品了。我们甚至将公司名称从37signals改为Basecamp。我们想传达一个信息：我们专注于做一件事，叫做Basecamp。这是一个重大而艰难的决定，所以我们全力以赴。几年前，我们突然意识到：\"我们是创造者，还是诚实面对自己吧。\"（01:01:39）：我说的是我自己，也包括大卫。但我们当时想：\"我们想再多做些产品。我们有更多想法。为什么要压抑自己呢？别这样。\"于是我们推出了HEY，现在又在做ONCE，我们还会继续开发更多产品。正如我之前提到的，我们可能还会有新书出版。这就是最大的转变。我认为这是我改变主意最彻底的一次，但我其实一直在改变主意。（01:02:08）：我经常在一些小事情上与自己意见不合。比如产品设计决策、命名方式、推广策略，或者如何写作、展示或表达观点等。回听这期播客时，我肯定会发现有很多地方我本可以换种说法，或者对自己的回答感到不满。类似的情况每天都在发生。但在重大决策上，Basecamp的例子最能说明问题。",
+   "ts": "01:00:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's clear that you've designed your life and designed your business in this very intentional way. Because the default path, and I'll reference this back to this other podcast episode, the default path is, build a company, raise a bunch of money, build massive business, generate a lot of revenue, exit, try something else. And you've done something very different. You've built a company-",
+   "zh": "很明显，你以一种非常有意的方式设计了自己的生活和事业。因为默认的路径——我会参考另一期播客——默认的路径是：创立公司、融资、打造大规模业务、创造大量收入、退出、尝试新事物。而你走了一条截然不同的道路。你创立了一家公司——",
+   "ts": "01:02:33"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Can I speak up to that, though?",
+   "zh": "不过我能对此发表点看法吗？",
+   "ts": "01:02:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Please.",
+   "zh": "请说。",
+   "ts": "01:02:53"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Because this is the pathless path stuff?",
+   "zh": "因为这就是所谓的\"无路之路\"吗？",
+   "ts": "01:02:56"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:02:57"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Is this what that was? Yeah. I'm moderately familiar with that idea. I didn't listen to that podcast, but I saw some clips. I find it interesting because you've designed your life intentionally. It's funny because there are some principles I hold, perhaps, or some direction I'm headed, but I don't think about any of this ahead of time, including the company. We don't have a multi-year plan. I don't even have a one-year plan. I don't even have a six-month plan or a quarter. We think about everything we're going to do every six weeks. Every six weeks, we rethink what we're going to do next. (01:03:33): We're very much an in-the-now company, making it up as we go. And this is true for me, personally, my career, the whole thing. I didn't have any of this planned out. I didn't decide I wanted to be like this or like that. I just figure out what works and keep doing that until it doesn't. And then, maybe we do something else. But it's very much, I'm not on a path. I can't see the path. I'm on a path. We're going somewhere. I don't want to stand still. But I don't know where I'm going, and I'm perfectly comfortable with that. (01:04:05): For me, it is really much about making it up as you go, based on, again, being in touch with how things feel to you, what your intuition is, what your gut tells you, what makes you happy. What do you want to do? What can you do? Sometimes, it's things that make you happy and you can't do, just because life is what it is. So, understanding that and figuring out what the trade-offs are. But really, it's figuring out as we go, and I think, frankly, it's the best way to run a business. I think it's the healthiest, most honest way to run a business, which is, to figure it out as you go. (01:04:37): I think the further out you plan, the less you know about the decisions you're making. And by the time you get there, you're probably going to be wrong, or you're going to want to do something else. And then, if you're like, \"Don't do those things,\" then what's the point of planning? People end up doing things they don't want to do because they said they were going to do them. Obligations in the future, I think, are quite dangerous, and I think they send people down a path of unhappiness, actually. I think just staying closer to now is probably the best way to do that.",
+   "zh": "是这样吗？对啊。我对这个理念还算熟悉。我没听过那个播客，但看过一些片段。我觉得很有意思，因为你是有意设计自己生活的。说来有趣，我可能也有一些坚持的原则，或者确定的发展方向，但我从不提前规划任何事——包括公司业务。我们没有多年规划，甚至没有一年规划，更没有六个月或季度规划。我们每六周会重新评估下一步的行动方向。（01:03:33）我们是一家顺势而为的公司，包括我个人职业生涯在内的方方面面都是如此。我从未刻意规划过未来，不曾决心成为某种特定样子。我只是摸索出有效的路径，持续前行直到失效。然后，也许我们会尝试别的方法。我没有既定的人生轨迹，也看不清未来的路径，但我乐在其中。我在前行，而非停滞不前。虽然不知道终点在哪，但这份未知感恰恰让我感到自由。\n\n（01:04:05）对我来说，关键在于顺势而为，时刻倾听内心的声音——感受当下情绪，追随直觉，追寻快乐。想做什么？能做什么？有时，有些美好的愿景因现实阻碍而搁浅，但坦然接受现实，权衡取舍才是明智之举。坦率地说，这是经营企业的最佳方式，也是最健康、最真诚的经营之道。\n\n（01:04:37）我认为越是长远规划，越容易偏离初衷。到头来，你要么错判形势，要么后悔当初的选择。若被固有计划束缚，规划还有什么意义？人们往往因遵守承诺而做着违背本心的事，未来责任感实则暗藏危险，常令人深陷不快。",
+   "ts": "01:02:57"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "A lot of this trickles down from the biggest decision you made, which is, don't raise money, keep control of this business. You're the boss. There's no boss above you.",
+   "zh": "这一切都源于你做过的最重要决定——不融资，牢牢把控公司主权。你才是老大，而上头没有更高权威。",
+   "ts": "01:05:04"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, the independence. If you go to 37signals.com, there's 37 ideas. And the first one, there's a 00, which is start here, which is like a read me. But 01 is independence. Independence is the root of all the things we're able to do, and we did make that intentional decision. We didn't know all the tentacles that come up from that and what it's going to impact and touch, but we knew principally, we want to be able to do what we want to do. (01:05:40): We want to be entrepreneurs and to me, that means working for yourself. The moment you go out and take money or have these big obligations, you end up working for someone else. I do understand why some companies do it, but I don't understand why a lot of people do it, who probably shouldn't do it. I think staying independent is a wonderfully fulfilling experience, and it's very hard to do when you're beholden to someone else's timeframe and expectations. (01:06:12): Another thing we rarely have here are expectations. This is the point. We launch a new product, I don't know what's going to happen. We launched Basecamp, I didn't know what was going to happen. We launched HEY, I didn't know what was going to happen. We're going to launch some new stuff soon, I don't know what's going to happen. We don't say, \"If this gets 20,000 users, then it's a success.\" I don't know. We don't care. It doesn't even matter. (01:06:33): We're making it anyway, and we're going to see what's going to happen. The market will tell us what happens. I'll just wait to find out. There's no sense in spending the time thinking about what could be.",
+   "zh": "是的，独立性。如果你访问37signals.com，会看到37个理念。第一个理念是00，标题是“从这里开始”，类似于“读我文件”。但01是独立。独立是我们能做成一切事情的根基，我们有意做出这样的选择。我们当时并不知道这会带来怎样的连锁反应，影响和触动哪些方面，但我们深知，关键在于我们要能做自己想做的事。（01:05:40）我们想成为创业者，对我来说，这意味着为自己工作。一旦你去融资或背负重大义务，最终就会为别人工作。虽然我理解有些公司这么做，但我不理解很多本不该这样做的人为何要这样。我认为保持独立是一种极其充实的体验，而当你受制于别人的时间表和期望时，做到这一点非常困难。（01:06:12）我们这里很少有期望。这才是关键。我们推出新产品时，我不知道会发生什么。推出Basecamp时，我也不知道会怎样。推出HEY时，我同样毫无头绪。很快我们又要推出新产品了，还是不知道结果如何。我们不会说：“如果能吸引2万用户，那就算成功了。”我不知道，也不在乎。这根本无关紧要。（01:06:33）我们还是会去做，然后看看结果如何。市场会给出答案。我只需静待结果。没必要花时间去预测可能的结果。",
+   "ts": "01:05:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Just to push back, I imagine there are expectations of like, \"I hope this works out. I hope people adopt it. I hope it becomes the best email client in town.\" There's a sense of like, \"We want this to succeed\"?",
+   "zh": "我要反驳一下，我觉得还是有期望的，比如“希望这个能成功，希望人们会采用它，希望它能成为市面上最好的邮件客户端”。总会有种“我们希望这个能成功”的心态吧？",
+   "ts": "01:06:43"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "That's pride, though. That's a matter of like, we want to be proud of the work that we did. We really hope people like it, and we want to keep doing it. To me, that's a sense of caring about the work itself. It's not so much about the outcome, which you don't control as much as you might think. Clearly, we want people to accept the work that we do and we want to find enough people who like it to make it sustainable, but I don't have them in mind. This is going to sound selfish, but I have me in mind first. Because if I'm not for me first, it's hard to be for someone else. (01:07:29): I'm for us. We want to make things that we're proud of, that we think are really good, that are unique, that brings something new to the world that doesn't exist, otherwise there's no point in doing it. That bring a different perspective that only we can provide because everyone has their own. We want to make sure ours is very visible in the products that we make, which is why we approach things very differently than most, and our products are very different than most. That's why they should be there. We should provide alternatives. (01:07:56): As I said earlier, I don't like the word competition, because it almost sounds like you could be making the same thing. I want to provide an alternative, which is a different approach, a different way forward. It could be in pricing. It could be in the way something works. It could be in the flows in the thing. It could be the entire conception of the thing, but it should be an alternative. If it's not an alternative, it doesn't need to exist. Anyway, that's how I think about it. (01:08:24): But yeah, there are expectations. Or I should say, maybe it's more like there are desires and hopes of acceptance to some degree, because it needs to. Otherwise, we can't stay in business. But really, it's like, are we proud of it first? We're wrapping up the HEY calendar right now, which is the calendar we're building for our HEY email service. I'm really proud of it. I have no idea what's going to happen. It's very unusual. But I'm really proud of the work that we did, and that's enough for me. (01:08:47): I think it's going to do well. I don't know, though, and it doesn't really make any sense to wonder if it will or not. It just, it will or it won't. All I can do is, be proud of the work that we're doing and be proud of the people who are doing it, and feel like we're putting something out in the world that we think should be here. Whether or not people agree is up to them.",
+   "zh": "然而，这就是自豪感。这关乎我们想为自己所做的工作感到自豪。我们真心希望人们能喜欢我们的作品，并希望能持续做下去。对我而言，这意味着要关注工作本身，而不是其结果——你对结果的掌控力远比你想象的要小。显然，我们希望人们认可我们的工作，也希望能找到足够多喜欢它的人，让它能持续发展，但我首先考虑的是自己。如果我不先为自己着想，就很难为他人着想。  \n（01:07:29） 我是为我们自己而做的。我们想创造出令自己自豪、认为真正出色的作品，这些作品要独特，要能为世界带来前所未有的新元素，否则做这些事就没有意义了。我们要提供一种只有我们能提供的不同视角。这在我们制作的产品中必须有所体现，这就是为什么我们的做法与大多数人截然不同，我们的产品也与大多数人不同。这就是它们存在的意义。我们应该提供替代方案。  \n（01:07:56） 正如我之前所说，我不喜欢‘竞争’这个词，因为它听起来好像你们在做同样的东西。我想提供的是另一种选择，一种不同的方法，一条不同的前进道路。它可能体现在定价上，可能体现在某个功能的实现方式上，可能体现在产品的流程上，甚至可能是整个产品的理念，但它必须是一种替代方案。如果不是替代方案，那它就没有存在的必要。总之，这就是我的看法。  \n（01:08:24） 但确实存在期望。或者说，也许更准确地说，是某种程度上的期望和对被认可的渴望，因为这对我们来说是必要的。否则，我们就无法持续经营。但说真的，我们首先要为自己感到自豪吗？我们现在正在完成HEY日历的制作，这是我们为HEY邮箱服务打造的日历。我对它真的很自豪。我不知道会怎样。它很特别。但我为我们所做的工作感到自豪，这对我来说就足够了。  \n（01:08:47） 我觉得它会表现出色。不过我也不确定，纠结它是否会成功也没有意义。它要么成功，要么不成功。我所能做的就是为我们正在做的工作感到自豪，为参与其中的人感到骄傲，并觉得我们正在向世界推出一些我们认为应该存在的东西。至于人们是否认同，那是他们的事。",
+   "ts": "01:06:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "You mentioned the principles of the company and I was going to touch on one of these actually. What's the URL to check these out? By the way, we'll link to it in the show notes.",
+   "zh": "你提到了公司的原则，我其实正想谈谈其中一条。查看这些原则的网址是多少？顺便说一下，我们会在节目笔记中附上链接。",
+   "ts": "01:09:05"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah. 37signals.com.",
+   "zh": "是的。37signals.com。",
+   "ts": "01:09:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Right, just the homepage?",
+   "zh": "好的。对，就是主页？",
+   "ts": "01:09:12"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah.",
+   "zh": "是的。",
+   "ts": "01:09:15"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. Amazing.",
+   "zh": "好的。太棒了。",
+   "ts": "01:09:16"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah. Yeah. The homepage, yeah.",
+   "zh": "是的。是的。主页，对。",
+   "ts": "01:09:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Okay. One of them is, work isn't war. You wrote a book about this roughly, about Work Doesn't Have to Suck, but I guess, can you just talk about why war work feels like war, and then what maybe people could do to make it feel less like war?",
+   "zh": "好的。其中一条原则是，工作不是战争。你写了一本关于这个的书，大概叫《工作不必糟糕》，但我想问问，你能不能谈谈为什么工作感觉像战争，以及人们可以做些什么让它不那么像战争？",
+   "ts": "01:09:16"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "This is about words in a lot of ways. I'm not looking at the page right now. I could pull it up and read it, but essentially, a lot of work uses war metaphors. You're targeting customers. You are conquering a market. Gosh, now I really want to make sure I get all these right. Hang on, I'm just going to look this up. Because these things are how people talk about work. It says, \"They conquer the market. They capture mindshare. They target customers. They employ a sales force. They hire head hunters. They destroy the competition. They pick battles and they make a killing.\" (01:10:10): That's how people talk about business. I find that to be depressing. It just feels depressing to me. We use words to establish a perspective in a way of thinking about the world. And if those are the words that are in your head, then you feel like it's this war. This is the other thing. People are always like, \"What do the Navy SEALs do?\" And they're like, \"Heck, yeah.\" That's the Navy SEALs, man. It's not your software business. Why are we always looking to Navy SEALs to tell us how to run our business? \"The military, they've got a group of eight and they do these.\" (01:10:42): It's like, \"Yeah, okay, that's that context.\" Can we not look at that for a second about ... That's amazing. What they do is amazing, obviously, but what you're doing is you're making B2B accounting software. Let's just chill for a second here, okay? I like to think of words that are more additive and alternative. \" We can exist. Let's exist. Let's make something great.\" Not, \"Let's beat them, let's conquer them, let's make a killing.\" Let's just make something great. I think that matters, and it changes the way you think about the work that you do. (01:11:16): It's more about pride and excitement and a spirit of creation than it is destruction. I think if you go into it with destruction in mind, you're going to end up in a pretty dark place. That's our point of view.",
+   "zh": "很多方面来说，这都与用词有关。我现在没看那页内容，但我可以把它调出来读一读。总之，很多工作都用了战争的比喻——比如“攻击客户”、“征服市场”。天哪，现在我真想确保把这些都理解透彻。等等，我先去查一下相关术语。因为这些词汇正是人们谈论工作时常用的说法。比如，“征服市场”、“占据市场份额”、“锁定客户”、“组建销售团队”、“聘请猎头”、“击败竞争对手”、“挑选战役并大获全胜”（01:10:10）……这就是人们谈论商业的方式。我觉得这很令人沮丧。这些词汇会让人觉得这是一场战争。这也是另一个问题。人们总是问：“海豹突击队做什么？” 对方就会说：“当然了！”但那毕竟是海豹突击队的事儿，跟你的软件业务毫无关系。为什么我们总想借鉴海豹突击队的经验来经营自己的公司呢？“军队里有八个人就能做到这些。”（01:10:42） 这就像在说：“嗯，好吧，那是他们的背景。”我们能不能暂时先别纠结于这些背景知识？他们确实很了不起，但你做的是B2B会计软件啊。我们能不能稍微冷静一下，好吗？我更倾向于选择更具建设性、更具替代性的词汇。比如，“我们可以存在。让我们存在。让我们创造伟大的事物。” 而不是“让我们击败他们，让我们征服市场，让我们大赚一笔。” 让我们专注于创造伟大的事物。我认为这很重要，它会改变你对工作的看法。（01:11:16） 这更多的是关于自豪感、激情和创造精神，而非毁灭欲。若你一开始就带着毁灭的念头去创业，最终只会陷入黑暗的境地。以上就是我们的观点。",
+   "ts": "01:09:29"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Awesome, I love that. Coming back to this bootstrap path, there's a lot to love about it. Independence, with that trickles down all these things that you're able to do with your company that other companies aren't able to. (01:11:43): For someone that's thinking about going down this path and wants to bootstrap their company, that doesn't have a lot of money because it takes cash to start a business, do you have any advice for just how to get started down this path?",
+   "zh": "太棒了，我很赞同。回到自力更生的道路上来，这个路径有很多值得喜爱的地方。独立自主，这会带来一系列好处，让你能为公司做很多其他公司做不到的事。（01:11:43） 对于那些考虑走这条路并想自力更生创业的人来说，创业需要资金，而他们手头资金不足。你有什么建议能帮助他们开启这条路吗？",
+   "ts": "01:11:31"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah. First of all, it's hard. This is hard. When you have nothing, especially, it depends where you are in your life, too. You may have a couple of kids and you don't have a lot of time, and you got to pay mortgage. It's tough, so this is hard, but it's the reality for almost every business in the world that starts. The best advice I could give you is, and this sounds so trite, but really it's true, is, stay as small as you can for as long as you can. The only thing you can really control are your costs. You can't control the alternatives in the market. The competition, you can't control them. You can't determine the market itself. You can't control the economy. You can't control how much advertising costs, but you control your own costs. (01:12:39): The other thing I would encourage people to do is, figure out how to do as much as they can on their own before they bring on a second person. Really work and struggle through something on your own. The moment you bring on someone else, you've got another mouth to feed. It becomes expensive. You got another personality to deal with the more you rely on them. And if they turn out to be the wrong person, you have to lose them. You don't have anyone to do the work that now you have them doing, and now you've got to do it. You're not going to be any good at it. You got to start as small as you possibly can and do as much of the work yourself as you possibly can. (01:13:11): Keep your costs in check. Don't spend any money on branding. Don't go get an office. Don't spend anything on anything, basically, except the tool you use. Let's say, it's your laptop or whatever you're going to use. Get a good one. They don't cost much anymore. 1,500 bucks or something like that, you can get a really nice MacBook Air or whatever. You need an internet connection and maybe you need a host somewhere or whatever, but use Squarespace to set up your site for 15 bucks a month or whatever. Don't go hire a web designer. Find all the efficiencies and keep your costs incredibly low, and don't make things hard on yourself. (01:13:47): This is the other thing that all businesses at every stage need to keep in mind. While it's hard, things are relatively simple until you make them complicated. Simple can also be hard, but complicated is a lot harder. I think Brian Chesky had a really good bit on this, I think, on your podcast about how companies get complicated. And I loved that. When I was hearing it, I kept hearing this unfolding, this complex shape that you almost can't fold back. It's so complicated now that you don't even see where it came from. Now, it is what it is and you can't put it back in the bottle. It's just a mess, right? This happens really quickly and it can happen at a small scale, too. These are a bunch of things, and none of this is to say it's going to work. You could follow all those things and it could just completely fall apart. And it probably will. It's just the reality. I think something we use at 37signals, David taught me this, it's really a stoic thing, which is just the idea of negative visualization. What's the worst that can happen? You got to be at peace with the worst that can happen. Just role-play that and go, \"What's the worst?\" For example, we're doing these new ONCE products. What's the worst that can happen? Well, the ONCE model is totally different. It's not SaaS. It's you pay once, you download the software. You install on your own server. (01:15:09): We're putting a lot of effort into this. This could be the wrong time to do it. It could be a total flop. This could not find any traction on the market. What's the worst that can happen? Well, we spent six months exploring something and having a really good time doing it. Our margins are there, so we can do it. I wouldn't suggest someone does this if they can't afford to do it. But we know this might not work, and we're already at peace with the fact that this might not work. That's, I think, how you ultimately are able to move forward, is to be at peace with knowing what's going to happen if it doesn't work out.",
+   "zh": "是啊。这首先很困难。这确实很难。当你一无所有时，尤其要看你处于人生的哪个阶段。比如，你可能有几个孩子，时间有限，还得还房贷。这太艰难了，所以这确实很难，但几乎所有初创企业都面临着这样的现实。我能给你的最好建议是——听起来很老生常谈，但确实是真理——尽可能长时间保持小规模经营。唯一你能真正控制的是成本。你无法控制市场的替代方案，竞争对手的策略，你无法左右市场本身，也无法左右经济环境，更无法控制广告费用，但你能控制自己的成本。（01:12:39）另外，我建议大家在引入第二个人之前，先尽可能自己完成更多工作。当你引入他人时，你就多了一个要养活的嘴巴。这会增加开支。你越依赖他们，就越需要应对他们的个性。万一他们不合适，你还得把他们裁掉。原本由他们完成的工作现在就得你自己做，而且你还未必能胜任。你必须从一开始就尽可能保持小规模，自己完成尽可能多的工作。（01:13:11）控制成本。别在品牌推广上花钱。别租办公室。除了你使用的工具，基本别花钱。就拿笔记本电脑来说，现在价格不算贵。1500美元左右就能买到不错的MacBook Air之类的设备。你需要网络连接，可能还需要托管服务之类的，但用Squarespace搭建网站每月只需15美元左右。别请网页设计师。寻找各种节省成本的方法，把开支压到极低，别给自己找麻烦。（01:13:47）这是所有企业在每个阶段都需要牢记的另一条准则。虽然困难重重，但在你把事情复杂化之前，一切都相对简单。简单有时也很难，但复杂则难上加难。我觉得Brian Chesky在你的播客上对公司复杂化的问题讲得很到位，我很欣赏。听他讲的时候，我总能感受到那种复杂的蔓延——那种几乎无法收拾的复杂局面。现在已经复杂到你都看不清起因了。事已至此，就无法再收回了。简直是一团乱麻，对吧？这种情况发展得很快，甚至在小规模时就可能出现这些问题。这些都是需要考虑的因素，但这并不意味着一定能成功。你可能照做，结果还是一败涂地。现实就是如此。我觉得我们37signals团队用的一个方法，David教给我的，叫做斯多葛主义，就是进行负面想象。最坏的情况会是什么？你必须坦然接受最坏的结果。试着设想一下，“最坏的情况会怎样？”比如，我们正在开发新的ONCE产品。最坏的情况是什么？ONCE模式完全不同，不是SaaS模式。用户一次性付费，下载软件，自己安装在服务器上。（01:15:09）我们在这上面投入了大量精力。现在或许时机不对。这可能会彻底失败。这款产品可能找不到市场。\n市场上反响如何？最坏的情况能怎样呢？嗯，我们花了六个月时间探索这个项目，过程还挺愉快的。我们的利润空间足够支持这个尝试，所以我们可以承受这个风险。如果做这个项目负担不起成本，我绝不会建议别人尝试。但我们清楚这项计划可能不会成功，而我们早已坦然接受了这种可能性。我认为，最终能推动事情向前发展的关键，就在于坦然接受事情不顺利时的后果。",
+   "ts": "01:11:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I want to touch on Linear. One, it's interesting that you guys have a lot of similar philosophies. What is it about project management, task management software that creates this sort of approach to business? That's maybe one question, if there's something there. (01:15:59): And then, the other is, it feels like they have a lot of similar philosophies. Growth isn't a focus. It's gut and instinct. They have paid work trials. They're profitable. They don't spend a lot of time around VC money. (01:16:11): Do you have a feeling like this approach could work in the venture route? And do you see them as maybe an example of like, \"Hey, maybe we could adopt a lot of these things and also raise money?\" Maybe there's another direction here?",
+   "zh": "我想谈谈 Linear。首先，很有趣的是，你们在项目管理和任务管理软件方面有很多相似的理念。是什么让你们形成这种商业模式呢？这或许是个值得探讨的问题。（01:15:59）另外，他们的理念似乎非常相似。增长并非核心目标，他们更依赖直觉和本能。他们提供付费试用，业务已经盈利，不太依赖风投资金。（01:16:11）你觉得这种模式在风投领域也能奏效吗？你是否认为他们可以成为典范，启发我们借鉴他们的许多做法，同时成功融资？或许这条路值得探索？",
+   "ts": "01:15:42"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah. I can tell you I don't know enough about them to comment on their ... I've heard some about them and it sounds like they have some similar points of view. Where those came from, I don't know. Maybe they materialized out of nowhere. Maybe they picked them up from someone else. Maybe they came up with them themselves. Lots of different ways to work. It's nice to hear that other people are trying some of these things and it's working for them, so that's great. (01:16:45): The thing with the VC route, so the idea of having too much money, it doesn't mean you can't work efficiently and thoughtfully. But it does create a degree of sloppiness, because you don't have to. When you don't have to, and when I'm saying have to, you could say have to what? Have to do a whole bunch of things. When you don't have to, we don't have to make money, when you don't have to be efficient, when you don't have to be profitable, you just get sloppy. (01:17:15): \"Let's hire some more people. Whatever, we can afford to. In fact, they need us to spend the money, by the way. They didn't give us the money to save it and earn 6% interest.\" Which would be great now. Three years ago, 0% interest. \"They didn't give us the money to sit in the bank. They gave us the money to spend the money.\" What are you going to spend it on? Two things, people and marketing. Basically, that's what you spend it on. (01:17:36): We can buy more ads. We can do more of this. We're going to do that. We can hire some more people, build up more teams, do more things simultaneously. There's a certain sloppiness in that. I think it just becomes harder when the environment encourages slop, which is why I think the value in bootstrapping is that it teaches entrepreneurs, it not even teaches, it forces them to have to figure out how to make money. The more time under the curve they have making money and practicing making money, the better at it they're going to get. (01:18:07): I used the guitar metaphor a bit earlier, I'll use it again. If you're playing guitar, if I give you a guitar and ask you to go up on stage and play guitar, you're going to suck. It's going to be horribly embarrassing and you're going to be terrible at it. You might be terrible at it a month later, but you'll be slightly better at it. You do it for six months or a year, you're going to be better and better. And then, five years and you're really getting good. Why do we think that a business that is sloppy, that doesn't have to make their own money, that is just getting pumped full of money by somebody else, can all of a sudden turn on the profit spigot and all of a sudden be profitable? (01:18:36): What you see is that they oftentimes cannot because they're just not set up to be that way. They've never played guitar before, and now they're being asked to play guitar. The reason I think it's great for entrepreneurs to start bootstrapping is because they just have more practice making money. They get better and better and better at the fundamental skill you need to have ultimately to run a successful business, which is to make money. If you don't have to do that from the start, you're just not practicing that. You're practicing spending money. (01:19:02): Getting good at spending money is not a valuable skill as getting good at making money. That's why I think it's just harder. But, of course, it's possible. It's just harder.",
+   "zh": "是啊。我可以告诉你，我对他们了解得不够多，不好评判他们的……我听说过一些关于他们的消息，听起来他们有些相似的观点。但这些观点从何而来，我不知道。也许他们是凭空产生的，也许是从别人那里借鉴来的，又或许是自己独立思考出来的。各种不同的工作方式都有。很高兴听到其他人尝试这些方法并且取得了成效，这真是太好了。（01:16:45）：关于风险投资路线的问题，拥有过多资金并不意味着你不能高效、谨慎地工作。但这确实会导致某种程度上的松懈，因为你没必要这样做。当你没必要这样做时——我说的\"必须\"，指的是必须做什么？必须做一大堆事情。当你没必要这样做时，我们不必赚钱，不必追求高效，不必盈利，就会变得松懈。（01:17:15）：\"再招些人。管他呢，反正我们负担得起。事实上，他们还要求我们花钱呢。毕竟，他们给我们的钱不是让我们存着、赚6%的利息的。\"现在赚6%的利息倒是不错了。三年前可是0%的利息啊。\"他们给我们的钱不是让我们存银行的，而是让我们花掉的。\"那花在什么地方呢？两个方面，人力和营销。这基本上就是花钱的方向。（01:17:36）：我们可以投放更多广告，开展更多活动。这些我们都会去做。可以多招些人，组建更多团队，同时开展多项工作。这种松懈的作风确实存在。我认为，当环境鼓励松懈时，难度就会增加。这就是为什么自力更生的价值所在——它教会创业者，迫使他们必须想办法赚钱。创业者在赚钱和实践赚钱方面投入的时间越多，他们就会越擅长。（01:18:07）：我之前用过吉他比喻，现在再说一次。如果你弹吉他，我给你把吉他，让你上台表演，你肯定弹得很烂。这会非常尴尬，表现很糟糕。一个月后你可能还是很烂，但会稍微好点。坚持六个月或一年，你就会越来越好。五年后，你就会真正弹得很好了。为什么我们认为一个松懈的企业，不必自己赚钱，只是被别人注入资金，就能突然开启盈利模式，变得盈利呢？（01:18:36）：现实情况是，他们往往做不到，因为他们根本没有这样的准备。他们从未弹过吉他，现在却被要求弹吉他。我认为创业者从自力更生开始很重要，因为他们在赚钱方面有更多的实践。随着实践，他们会越来越擅长经营成功企业所必需的基本技能——赚钱。如果从一开始你就不必这样做，你就不会去练习。你只会练习花钱。（01:19:02）：擅长花钱可不像擅长赚钱那样有价值。这就是为什么我觉得这更难。但当然，也不是不可能。只是更难。",
+   "ts": "01:16:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What I'm hearing is, essentially, to do this well. You need discipline. Understand, here's the incentives they're driving me to; spend more money, grow faster, and being really good at not ... And then, also, it sounds like you just need investors that are on board with ... \"We understand. We're not going to focus on growth obsession. We're not going to focus on getting new teams. We're going to give you space to build it the way you want.\"",
+   "zh": "我的理解是，关键在于要把这件事做好。这需要自律。要明白，现有的激励机制迫使我必须做到以下几点：投入更多资金、加速增长、还要擅长不做某些事…… 听起来你需要的投资者必须认同……“我们理解。我们不会执着于增长狂热。我们不会急于组建新团队。我们会给你足够的空间，让你按照自己的方式来打造业务。”",
+   "ts": "01:19:10"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "That exists. It's just also an outlier in that industry. I think what you need are constraints, is what I'm actually trying to get at. You need constraints. When you have just loads of money, you basically have very few constraints. That's what tends to lead to slop. Versus like, \"Hey, if we don't figure this out, we can't make payroll next week or next month.\" You just start to figure things out. One of the best stories I heard about this was Peter Rahal, who started RXBAR. Are you familiar with RXBAR?",
+   "zh": "这种情况确实存在，但在该行业中实属异类。我认为真正需要的是约束条件，这才是我想传达的核心理念。你需要约束。当资金充裕时，约束条件就变得极少。这往往导致决策草率。而当面临“如果下周或下个月发不出工资，我们就得裁员了”这样的紧急情况时，你才会开始理清头绪。我听过的最佳案例之一，是Peter Rahal创立RXBAR的故事。你熟悉RXBAR吗？",
+   "ts": "01:19:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Mm-hmm.",
+   "zh": "嗯。",
+   "ts": "01:20:00"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, little protein bars or whatever. There's a great article about this years ago, where he was talking to his dad about, I think, raising money or something. His dad's like, \"Hey, go sell 1,000 fucking bars and come back and talk to me.\" He's like, \"Just sell some fucking bar. Get out on the street and sell some bars, man. You've got products? Sell products. Go, sell.\" Versus all the things you could possibly do. \"Go sell some bars.\" It's just such great advice and it just cuts through all the crap. I like that scrappiness, and you don't get scrappiness from having large S. You just don't. It's just too easy not to have to do anything. (01:20:46): Not to say that VC companies aren't doing things. They're doing a lot of things, obviously, but are they honing the scrappy skills? Are they learning how to make money and have margin and be profitable? If they don't have to, they probably are not. I think at some point, and we're starting to see this now, this is not like an I-told-you-so thing, this is just, this is what happens. This is not me. This is just economic cycles. Money's harder to find, it's harder to get. Even companies who've raised money, investors are not necessarily putting in additional rounds. There's deep cuts happening, layoffs, pain and suffering. (01:21:23): It's hard to switch from having a lot to not having enough, and then having to work as if you know what to do. I think there's a lot of confusion in the market now, at companies now, I should say, because they don't know what to do. They haven't had to do it before. I feel for them in a sense because, how could they be expected to know what to do? Just frankly, as I said earlier, if someone dropped 10 million bucks on me and 1,000 people, I would have no idea what to do with that. Truly, I would not. I would waste it is what I would do. If you don't have the experience, how are you going to know?",
+   "zh": "对，就是那些小蛋白棒之类的产品。多年前有一篇很棒的文章，讲他和父亲讨论融资之类的事情。父亲说：“去卖1000根该死的蛋白棒，然后再回来找我。”他回应道：“去卖些该死的蛋白棒。出去街头卖吧，你有产品？那就去卖啊。”而不是去想各种复杂的解决方案。“去卖些蛋白棒。”这才是明智之言，直击要害。我欣赏这种拼劲，而大公司往往缺乏这种拼劲，因为他们无需为生存而奋斗。（01:20:46）：这并非说风投公司无所作为。显然他们做了很多事，但他们是否在磨砺这种拼劲？他们是否在学习如何盈利、实现利润率和盈利能力？如果没必要，他们很可能不会这样做。我认为某种程度上——现在我们开始看到这种情况了——这并非故作姿态，而是现实写照。这不是我的观点，而是经济周期使然。资金越来越难筹集，投资者也不再追加投资。裁员、痛苦和煎熬正在上演。（01:21:23）：从资金充裕到资金短缺，再到必须像知道该怎么做一样去行动，这转变太难了。我认为现在市场上有很多困惑，尤其是在企业层面，因为他们不知道该怎么做。他们以前从未经历过这种情况。我对他们深表同情，因为怎么能指望他们知道该怎么做呢？说实话，就像我之前说的，如果有人给我1000万美元和1000名员工，我根本不知道该怎么用。这真的会被我浪费掉。如果你没有经验，又怎么能知道呢？",
+   "ts": "01:20:01"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm the same way with the newsletter and the podcast. There's no way I can grow this thing with money, really. I've tried a bunch of little experiments and nothing really does anything. It actually comes back to, let me find this quote that you have of just your business strategy in a nutshell. \"Just keep making great shit. Keep your cost in check. Charge appropriate prices for your work. Share as much as you can and let the chips fall where they may.\"",
+   "zh": "我在新闻通讯和播客方面也有同样的体会。靠钱是根本无法让这些项目发展壮大的。我尝试过很多小规模的实验，但效果甚微。这最终归结到，我想找出你提到的简明商业策略的引语：“继续做出优质产品。控制成本。为你的工作收取合理费用。尽可能多地分享成果，顺其自然。”",
+   "ts": "01:22:00"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "That's basically it. One of the things I don't think I said in there was, enjoy it. Have fun. Enjoy the ride. Love who you're working with and create a great environment to do great work, and so other people can do great work and thrive as well. That's all baked into that. It's not like, set targets. It's not, try to be a billion-dollar business. It's not, aim for an exit. It's not, be on the cover of whatever. It's not many of those things. (01:22:52): Maybe it's the Midwesterness in me, growing up in Chicago. I don't know. It's just that. The best business advice I ever got, I got from my dad. It's just a simple line. It's like, \"No one ever went broke making a profit.\" And maybe that's just my guiding light, ultimately. It's like, because you can go broke generating a lot of revenue. A lot of companies do. But you can't go broke generating a profit, and I think it's just really tight.",
+   "zh": "基本就是这些。我觉得我之前没提到的一点是，享受这个过程吧。玩得开心。享受这段旅程。热爱与你共事的伙伴，为他们创造一个能出色完成工作的环境，这样其他人也能有所建树。这都是融入其中的理念。不是设定目标，不是试图打造价值数十亿美元的企业，也不是急于退出市场，更不是渴望登上某个封面之类的。（01:22:52）：也许是因为我在芝加哥长大，骨子里有种中西部人的特质。我不知道，就是这样。我得到过的最好的商业建议，来自我的父亲。只是一句简单的话：“没有人会因为盈利而破产。” 这或许就是我最终的指引灯吧。因为即使收入很高，也可能破产，许多公司都如此。但盈利却不会导致破产，我觉得这道理再简单不过了。",
+   "ts": "01:22:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What a great quote. Final question before we get to our very exciting lightning round. Let's talk about ONCE. This is a new product/umbrella of products you're developing. Can you just talk about the thinking here? And then, I think you guys are announcing the actual first product within this umbrella?",
+   "zh": "真是个很棒的引语。在我们进入激动人心的闪电问答环节之前，最后一个问题。来谈谈ONCE吧。这是你们正在开发的新产品/产品系列。能谈谈背后的思路吗？然后，我想你们很快就会宣布这个产品系列的首款产品吧？",
+   "ts": "01:23:18"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah. The idea behind ONCE is, David and I feel like, we're probably a bit early here, but we feel like there's going to be a bit of a turn back towards the way things were. Pendulums always swing. And for the last decade or so, SaaS has been pretty much the only way to run business software. Basically, you rent it. There's really not a lot of alternatives. You rent software. We think that there's subscription fatigue and also some benefits to that, for sure, but there's also a lot of downsides just to ...",
+   "zh": "是的。ONCE背后的理念是，大卫和我觉得，虽然现在可能还为时过早，但我们预见到行业会出现回归传统模式的趋势。钟摆总会摆动。在过去十年左右，SaaS几乎成了企业软件的唯一运营模式。基本上就是租用软件，几乎没有其他选择。我们认为用户对订阅模式已经产生了疲倦感，虽然这模式确实有其优势，但也有很多弊端……",
+   "ts": "01:23:32"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "... that, for sure, but there's also a lot of downsides to subscription software. You keep paying the same amount every month for the thing that you had last month. It's not like a magazine where every month you get literally a new issue. So that's new. I'm paying for new weekly or monthly, okay, that makes sense. I mean, I know there's new stuff that comes out in software products but let's face it, the core of the thing that you're using, 90% of the time is the thing you've been paying for four years now, every month. It just seems like, nah. So we are going to launch this thing called Once, which is essentially a brand and umbrella, a line, a product line of non-SaaS products, of products, not services, things people will download, software business offer products, people will download, pay for once and then install on their own server or a shared server or in the cloud, their own cloud or whatever. (01:24:53): But they'll run it, they'll manage it, they'll pay for it once and there's no subscription fees, no recurring fees. They get updates, they get support and some of that stuff, but that's it. And so we're going to launch the first one shortly here and then we plan on doing, hopefully, maybe three more next year. And the beauty of these things is that what we're basically doing is we're going out in the market and looking at it, although we already know it because we've been in this world. But we're saying, what are the commodities out there? There are a lot of commodities in business software and there's like 50 alternatives and they're kind of all sort of the same yet they're all still charging luxury prices. In my opinion, if you're paying tens or hundreds of dollars a month or in some cases, thousands of dollars a month, month after month after month after month after month for when there's hundreds of alternatives and there's no price differentiation really between them, that's an opportunity. In every other industry, there's generic peanut butter, there's generic pencils, there's generic everything in a sense. (01:25:50): So we're out there looking for commodities that are still charging luxury prices that we can create really beautifully tight, simple, essential generics of very high quality that don't do everything that the other products do, but get the core of it right, the 80-20, we get that right at a high degree of quality. And we can build these in typically three months each with two people. And the maintenance cost is zero to us, essentially. There's no marginal cost here because we make the software and we sell it and we don't have to maintain it in terms of hosting and the whole thing, which is what the expensive part of SaaS is. So anyway, that's the idea behind Once. And we, again, don't know what the market's going to think. I have no idea but we're really excited about trying this and seeing what happens.",
+   "zh": "没错，但订阅软件也有很多弊端。你每个月都要为上个月用过的软件支付相同的费用。这不像杂志，每个月都会有全新的内容。所以这很不一样。我付钱获取新功能，每周或每月更新一次，这还说得过去。但说实话，你使用的核心功能，90%的情况下都是你四年来每月支付费用的产品。似乎没必要继续订阅。所以我们要推出一款名为Once的服务，本质上它是一个品牌和产品线——非SaaS产品线——用户可以下载、安装在自有服务器或共享服务器、云端等环境中，无需订阅费或重复付费。用户能获得更新和支持服务，但仅此而已。（01:24:53）：我们很快就会推出首款产品，明年计划再推出三款。这类产品的妙处在于，我们深入市场调研，虽然身处这个行业已久，但仍能发现商业软件领域存在大量同质化产品。市面上有五十款类似产品，却都标着高价。依我看，当数百款产品毫无价格差异时，每月却要支付数十甚至数百美元、甚至上千美元的订阅费，这就是商机所在。其他行业有普通的花生酱、铅笔等商品，某种意义上都是如此。\n（01:25:50）：所以我们寻找那些仍标着高价的同质化产品，打造高质量的精简核心产品。这些产品不追求面面俱到，而是抓住核心功能——80/20法则。我们能以极高质量完成开发，每款产品通常只需两人三个月即可完成。维护成本基本为零，因为我们自产自售，无需承担托管等高昂SaaS成本。总之，这就是Once背后的理念。我们也不确定市场反应如何，但对此充满期待。",
+   "ts": "01:24:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then could you talk about the first thing you're launching or is that not out?",
+   "zh": "那能否谈谈你们首款推出的产品？还是说还没上线？",
+   "ts": "01:26:33"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, sure. The first product we're going to be launching is basically an old product that we made way, way, way back when. So years and years and years ago, 2006, we launched a product called Campfire, which was-",
+   "zh": "当然。首款产品是我们很久以前开发的——2006年推出的Campfire，当时是一款——",
+   "ts": "01:26:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, of course.",
+   "zh": "哦，当然记得。",
+   "ts": "01:26:38"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "... a group chat tool.",
+   "zh": "……一个群聊工具。",
+   "ts": "01:26:50"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "How could you not remember Campfire?",
+   "zh": "你怎么会不记得Campfire呢？",
+   "ts": "01:26:51"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Well, some people are-",
+   "zh": "嗯，有些人——",
+   "ts": "01:26:53"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Are younger.",
+   "zh": "年龄更小。",
+   "ts": "01:26:55"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "... 22 and they don't know, understandably so. But if you've been around, maybe you remember Campfire, which was a group chat tool, which is I think eight years before Slack came out or something like that. So it was really early and it was really hard to get people to even understand what this thing was, and a lot of people didn't get it. And then Slack came out, of course, and steamrolled it and really, really executed beautifully and did a great job. But chat has become a commodity. There are a million ways to chat with people now, and in the business realm, they're all still quite expensive and they're all month to month to month. You got Slack, you got Teams, and you've got a few others and it's like, you know what... And there are some open-source alternatives, by the way, that are free or cheap. But we want to put something back out there. (01:27:41): So we're going to relaunch Campfire under the Once brand. You'll pay for it once, you'll install on your own servers, and you'll run it. And it'll do 90% of the things that you want to do every day and these other chat tools and do them very, very well and very, very simply and very, very easily. And we think it's going to be really interesting. And by the way, the other thing we're thinking about with these Once products, which is interesting, just get to this alternative point of view, is that these don't necessarily need to replace things. They can be in addition to. You might still run Slack at your company but you want to back up for when Slack goes down, or you want a special air-gapped chat for your executive team that cannot be leaked by another company where you're hosting data or having other people involved that might have access to it by accident. (01:28:34): You can run things, you can have different tools doing similar things but for different groups in different contexts. Now, you probably wouldn't want to pay month to month to month to month to month for a backup system when something almost never goes down, but if you only have to pay for it once, it might be really... that's a good thing to have. That's an insurance policy to pay for it once and we just have it in our back pocket. The other thing we're doing with Once product is that you get the code. And so if you're a product team and you're curious to see how this product was built, and we've gone to great lengths to make it exceptionally well-built for this purpose, this is a book, essentially, of how to build this kind of thing really, really, really well on the CSS on the HTML and the Ruby on Rails side, for example. (01:29:18): So you'll get all the code and you can look at it and you can modify it, you can play with it and you can tweak it. You can't resell it. There's a certain licensing but it's yours. And so if you want to change the layout, go ahead. If you want to add some features, go ahead. If you want to mess around, go ahead, it's yours. And that's another thing that's really novel. You don't get that in subscription software. So there's a lot of things going on that we're trying. There's some other really cool stuff. I'll tell you, one more quick thing about it is that we're trying to make this first prompt especially have as few words as possible, maybe 30 words. So we're picking tools that are... or picking categories that people already know how to use, and so we're trying to keep as many words out of this as possible so it's instantly essentially available for the entire world. (01:30:05): It doesn't have to be localized. It's just like, it's universal software. We're trying to think about it this way. And when we do have a word, we're going to have a panel that shows that translation in a bunch of different languages. So it's not like you install this pack or that pack, it's like, you can hit this because different people in the world work in different countries. So we have people in different countries that work for us. I don't want to just have the Indian version because people in India might also have people that work in Brazil and they need the Portuguese version. So you can see all the different languages for certain words when we use them, which is a really novel thing. (01:30:34): We're kind of playing, this is the whole thing like, these tools give us a chance to play and explore new realms and new ideas that we couldn't do with SaaS. This is one of the things I'm getting back to the first question you asked me, I think, or maybe it wasn't the first, but this is why I'm excited again. There's some novelty again, there's some new explorations again. We're able to do things that we couldn't do in other places. So there's an excitement that's building around this creative exploration again, and that's really firing us up.",
+   "zh": "……他们22岁，可能还不太明白这是怎么回事。但如果你曾参与过相关领域，或许还记得Campfire这款群聊工具。它比Slack问世早了八年左右，当时真的很难让人们理解这项服务的价值，很多人都无法理解它的意义。随后Slack横空出世，势如破竹般占据了市场，执行得极为出色。但如今群聊已成为商品化服务，市面上有无数聊天工具可供选择，尽管在商业领域它们大多价格不菲且采用按月订阅模式。Slack、Teams等产品层出不穷，但说实话……还有一些开源替代方案，价格低廉或免费。但我们想推出自己的产品。（01:27:41）：所以我们将以Once品牌重新推出Campfire。用户只需一次性付费，将其安装在自有服务器上自主运行。它能满足日常90%的需求，功能强大、简洁易用。我们认为这会很有趣。顺便说一句，关于Once产品，我们还考虑了另一种思路——它们不必取代现有工具，而是作为补充方案。比如，企业可能仍在使用Slack，但需要备份服务以防Slack宕机；又或为高管团队打造专属空降聊天室，避免数据泄露给托管数据的第三方公司。（01:28:34）：不同场景下，不同团队可以使用不同工具。显然，你不会愿意为几乎永不宕机的备份系统支付月费，但一次性付费就很划算了。这就像一份保险单，买一次就够了。Once产品还提供源代码。若你身为产品团队，渴望了解这款产品的构建方式，我们下了很大功夫确保其架构符合开发规范。例如，在CSS、HTML和Ruby on Rails等技术层面，这本质上就是一本关于如何打造优质产品的指南。（01:29:18）：你将获得完整源代码，可自由查看、修改、玩味和优化。但禁止转售。虽有特定授权，但源代码归你所有。想调整布局？请便。想添加功能？随意。想折腾？没问题。源代码属于你。这也是创新之处——订阅软件可没这种自由。还有许多尝试中的新功能，比如首页提示语尽量精简至30个字。我们选择易用工具，避免术语障碍，让产品全球通用。（01:30:05）：无需本地化。这是一款通用软件。\n就是这样。当我们有了一个单词时，我们会用一个面板把它翻译成多种不同的语言。不是说你要安装这个或那个翻译包，而是你可以直接点击，因为世界上不同国家的人们有不同的工作环境。我们在不同国家都有员工。我不想只提供印度版本，因为印度人可能也在巴西工作，他们需要葡萄牙语版本。所以当我们使用某些单词时，用户可以看到所有不同语言的翻译结果，这真是件新鲜事儿。（01:30:34）我们正在不断尝试，这些工具给了我们机会去探索新的领域和新的创意，这是SaaS无法做到的。这正是我想回到你最初的问题的原因，或许不是第一个问题，但这就是我再次兴奋的原因。又有了一些新鲜事物，又有了一些新的探索。我们能够做一些在其他地方无法做到的事情。因此，围绕这种创造性探索的热情正在升温，这真的让我们充满激情。",
+   "ts": "01:26:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's clear how you're excited about this. You're saying how you thought you'd be happy just building Basecamp for the rest of your life, and clearly, there's a pull here, I'm going to try something totally new and different. Also, the domain is awesome, Once.com, right?",
+   "zh": "很明显你对此充满热情。你提到原本以为自己会一辈子专注于开发Basecamp，但显然现在有种冲动——想尝试全新的、截然不同的东西。还有那个域名Once.com，真是超棒的！",
+   "ts": "01:31:03"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, that was fun. And we're still going to do Basecamp in here. So we're still doing SaaS. I still believe in SaaS. This is not going to replace SaaS but there should be an alternative. People should be able to buy what they need versus rent what they need.",
+   "zh": "是啊，那段经历挺有趣的。不过我们仍会继续深耕Basecamp领域，所以我们还是会专注于SaaS模式。我始终坚信SaaS的价值。它不会取代现有SaaS，但应该提供另一种选择。用户应该能按需购买所需服务，而非按月租用。",
+   "ts": "01:31:14"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think this is going to be an interesting experiment because this is how we started with software and then SaaS came and everyone loved this idea of, I don't have to worry about anything. I'm just going to pay you monthly and you take care of maintenance and hosting all that stuff and keep updating me with better features. So I think it'll be interesting to see if we've missed something leaving that world. One clarifying question, for updates, do you buy yearly, like a new Campfire every year, or how does that work if there's updates?",
+   "zh": "我觉得这会是一次有趣的尝试，因为我们最初是从软件起步的，后来SaaS模式兴起，人们都青睐\"无需操心一切\"的理念——每月付费就能享受维护、托管等服务，还能不断更新功能。所以很想看看我们离开SaaS世界后是否遗漏了什么关键点。再问个细节，关于更新，你们是每年购买新版本吗？比如每年更新一次Campfire，还是有其他方式？",
+   "ts": "01:31:27"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "So the plan is, is that let's say you buy Campfire 1.0, this is the way software used to work. It's the same approach, which is like, you'll get all the 1.X updates for free. And you'll be able to decide if you want to update yours or not. So we'll say, hey, 1.1 is out and here are the new things and you get to decide if you want to download that and update yours or not. So you can stick with 1.0 if you want or you can skip a version, whatever you want to do. (01:32:19): If when we get to version 2.0, there'd probably be... you'd probably have to buy it again, but we'd probably have a discounted upgrade rate. But that's like, you also totally optional. I don't know if we'll ever even get there. We might not need to. Have no clue. But we're leaving that door open that if there's a radically new version that we had to sink another six or eight months into or something, it feels right to say you'll need to upgrade. Maybe you get half off because you're a previous customer or something like that. So we don't know but that's the plan.",
+   "zh": "计划是这样：假设你购买了Campfire 1.0版（这与传统软件模式类似），用户可以免费获得1.X版本的所有更新，并自主决定是否升级。例如，当1.1版本发布时，我们会告知新功能，让用户自主选择是否下载更新。用户可以继续使用1.0版，或者跳过某个版本，随心所欲。（01:32:19）如果升级到2.0版本，可能需要重新购买，但我们会提供折扣升级价。不过这完全可选，我们甚至可能永远不需要这样做。但我们保留这种可能性，万一某个革命性新版本需要投入六到八个月研发，我们可能会要求用户升级。或许会给老用户半价优惠之类的。目前尚不确定，但这就是我们的计划。",
+   "ts": "01:31:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I think it's also important for people to remember your target is not to replace Slack at big tech companies, like your market is the Fortune 5 million as you described.",
+   "zh": "我认为用户需要记住，你们目标客户并非大型科技公司的Slack替代品，正如你所说，你们的主要市场是《财富》500强中的中小企业。",
+   "ts": "01:32:49"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "First of all, we don't have a sales team, so it's self-service, it'll always be. If some big huge company says... they look at their bill, their Slack bill and they're going, we're paying 1.2 million a year for this? Wait, wait a second, I can pay less than 1,000 bucks once for this. Maybe that's worth having, or maybe even if we don't use it, it's absolutely worth buying because maybe we will use it, or maybe we can experiment with it in this place. One of the things we're trying to do here is find a price point and it's going to be under 1,000 bucks. I won't tell you exactly where, but we're trying to find a price point where it's kind of becomes a no-brainer, like, you know what? We should buy this, we should have, this should be in our toolkit, and we should use this in certain parts of our business even if we don't replace this other thing, although we still might because we might find that as this group or these two groups or three groups that are using this are making exactly the same progress, why are we spending all this money elsewhere? (01:33:53): So it's a bit of a Trojan horse, potentially. I don't know what's going to happen. No idea, but it's going to be pretty interesting. The other thing that's really cool about it, this is the tiniest market in the world, but because it doesn't go out to the internet, you can run it in truly air-gapped research facilities. There was a time way back in the day where the White House got in touch with us. This is when Obama was running and wanted to use Basecamp. But they're like, we need to install it because we can't obviously host this stuff on your servers. I know, I totally get it. We can't do that, unfortunately. Sorry. But they have security needs that are just far beyond what most things allow, but this is the kind of thing where they can actually be completely detached from the public internet and run this kind of software, which is really interesting. Again, tiny market, not what we're building it for, but it's a cool byproduct or side effect, I should say, of running things this way.",
+   "zh": "首先，我们没有销售团队，所以这是一项自助服务，永远都是这样。如果某家大型公司看到他们的Slack账单，然后说……他们看了账单，发现每年要花120万美元？等等，等等，我一次性花不到1000美元就能买到这个产品。也许它值得拥有，或者即便我们不使用它，也绝对值得购买，因为说不定我们会用到它，或者可以在某些场景下进行测试。我们现在正试图找到一个价格点，这个价格点必须低于1000美元。我不会具体透露具体数字，但我们正在努力寻找一个价格点，让它变得无需犹豫——比如，你知道吗？我们应该买这个产品，它应该成为我们的工具包的一部分，我们应该在某些业务领域使用它，即便我们不替换现有产品，但我们还是可能会这么做，因为当使用这个产品的两个或三个团队取得完全相同的进展时，我们为什么还要在其他地方花那么多钱呢？（01:33:53）：所以这可能是一种潜在的诱饵。我不知道会发生什么。完全不知道，但肯定会很有趣。另外，这项技术真的很酷，虽然它是全球最小的市场，但由于它不连接互联网，你可以在真正的空中隔离研究设施中运行它。曾几何时，白宫联系过我们。那是在奥巴马竞选期间，他们想使用Basecamp。但他们说我们需要自己安装，因为显然不能在你们的服务器上托管这些数据。我懂，我完全理解。不幸的是，我们无法做到这一点，很抱歉。但他们的安全需求远远超出了大多数产品的承受范围，但通过这种方式运行，他们可以完全与公共互联网隔离开来，运行这种软件，这真的很酷。虽然这不是我们开发它的初衷，但却是以这种方式运行的一个很酷的副产品或附带效果。",
+   "ts": "01:33:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And then did you share when this might come out? I know you don't promise dates but is there something you want to share there or is it-",
+   "zh": "那么你有没有分享过这个产品可能何时发布？我知道你不承诺具体日期，但你有没有想分享的信息，或者——",
+   "ts": "01:34:49"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Well, unfortunately, we promised. We said by the end of this year, that's why I was getting to that. But we said by the end of 2023, and we're almost there, here we are in December, so mid-December, we're going to start to roll this out to the first batch of customers. It's probably not going to be available publicly to everyone in the world yet, but that'll come soon after. But the first batch of customers are going to get it and we'll slow-roll it out, figure out what we missed, what we need to tighten up and tweak. It's not really a beta as much as it's just a limited release, which is the smart way to do this, and then we'll open the doors very, very soon after that.",
+   "zh": "嗯，不幸的是，我们承诺过了。我们说过年底前发布，这就是我要说的。但我们说的是2023年底，现在已经快到12月中旬了，所以我们将开始向首批客户推出。这项产品可能还不会向全球所有人公开，但不久之后就会开放。不过首批客户会先用上，然后我们会逐步推广，找出遗漏的地方，进行优化和调整。这其实不算测试版，更像是限量发布，这是明智的做法，之后我们会很快向所有人开放。",
+   "ts": "01:34:54"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Jason, you're breaking your own rule of not saying by end of the year. Apparently, I learned earlier that that's never works.",
+   "zh": "杰森，你违反了自己不承诺年底发布的规则。显然，我之前了解到这从来没成功过。",
+   "ts": "01:35:30"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, it's funny, we definitely said that and we said that six months ago and here we are, end of the year.",
+   "zh": "是啊，很有趣，我们确实说过这话，而且六个月前就说过，现在年底了。",
+   "ts": "01:35:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "It's happening. So maybe sometimes it works out.",
+   "zh": "它要来了。所以也许有时候还是能实现的。",
+   "ts": "01:35:45"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yep.",
+   "zh": "是的。",
+   "ts": "01:35:47"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Before we get to our very exciting lighting round, is there anything else that you wanted to share, touch on, or leave listeners with?",
+   "zh": "在我们进入令人兴奋的提问环节之前，你是否还有什么想分享、探讨或留给听众的信息？",
+   "ts": "01:35:48"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I think one of the most important things though to remember, and I got to it in another answer, is just like, humans tend to complicate things, and a lot of things are hard but they're still simple until you make them complicated. And just keep that in mind that you can make a lot of progress with two people, and you can do a lot of great work four weeks at a time max, and you can figure things out as you go, and you don't need to know exactly where you're going, and you can be profitable business, and you can find customers who are willing to pay for things. These are all possible things to do. And you don't need to be a big huge company to be successful. And you don't need to be a big huge company to make significant amounts of money. You don't need to do that. (01:36:42): You don't need to raise money. So it's like, all those things make things more complicated, actually. Some people think they might make them simpler, if I have a bunch of money, it's simpler. It's actually not simpler, it's harder. In a sense, the more... because those things come with expectations and again, they erase your scrappiness, and there are side effects here. Those things come with very, very thick and strong strings attached. And you got to think about what are those strings attach to and what do they prevent you from doing? You don't have a full range of motion anymore. So I'll leave people with that, even if I touched on some of those ideas earlier on.",
+   "zh": "我认为最重要的一点——我之前在另一个回答中也提到过——就是人类往往会把事情复杂化。很多事情本质上很简单，但只要你自己把它们搞得复杂起来，就会变得困难重重。要记住这一点：两人合作就能取得很大进展，每次最多四周就能完成大量出色的工作，边做边摸索，不必预知未来方向，也能成功盈利，找到愿意为产品买单的客户。这些都是可行的做法。成功不必依赖大公司，赚大钱也不必非得是大公司。没必要为此筹集资金。（01:36:42）：事实上，这些做法往往让事情更复杂。有些人以为只要有足够资金，一切就会简单化。但实际上并非如此，反而更难了。从某种意义上说，越是依赖外部资源，越会滋生期望，磨灭你的拼劲，还会带来副作用。这些资源附带的条件往往很苛刻。你得审视这些条件的实质，思考它们会束缚你怎样的行动空间。比如，你的行动自由度会被大幅限制。所以最后我想留给大家的思考是：即便我之前提过类似观点，但这些观点依然值得深思。",
+   "ts": "01:35:55"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "And that's a really great way to summarize it. With that, we've reached our very exciting lightning round. Are you ready?",
+   "zh": "总结得太到位了。现在我们要进入激动人心的提问环节了。准备好了吗？",
+   "ts": "01:37:21"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Let's do it.",
+   "zh": "开始吧。",
+   "ts": "01:37:27"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What are two or three books that you've recommended most to other people?",
+   "zh": "你向别人推荐得最多的两三本书是什么？",
+   "ts": "01:37:29"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "The first one is this book here, so Several Short Sentences About Writing. Do you know this book?",
+   "zh": "第一本就是这本《写作的几个短句》。你知道这本书吗？",
+   "ts": "01:37:33"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I love that book. I have it on my coffee table.",
+   "zh": "我超爱这本书。它就放在我的咖啡桌上。",
+   "ts": "01:37:38"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "When anyone ever asks me, what book do you recommend on writing? It's this one, Several Short Sentences About Writing. I can never pronounce his last name, but Verlyn Klinkenborg, I believe is his name, although I might be bastardizing that. But it's an extraordinarily good book about writing and it's all about the sentence, beautifully written, fun to read, really great. The other one is pretty much anything by Derek Sivers, but specifically, Hell Yeah Or No. I recommend this book to everybody. It's really had a big effect on me and David, specifically. We use this term, hell or no, all the time internally. Is this a hell yeah or no? It really clarifies a lot of things. And the last one is this design book, which is interesting. There's a few different versions of it. The one I have handy, it's called Home-made: Contemporary RussianFolk Artifacts. (01:38:35): And what this book is, it's a collection of... it's a beautiful book. It's very simple. Basically, every spread is a person, a story, and a thing that they had to make because they didn't have anything. They couldn't buy what they needed. They didn't have what they needed. So this example here is a guy put a hole in a spoon to make bubbles for his kid, to blow bubbles, large bubbles. This is a TV antenna made out of forks, and it's just like, getting back to the scrappiness, I admire this kind of ingenuity among or over pretty much anything. And I think that this book is full. There's a couple hundred pages. They have a couple different editions of this, but I love this one a lot. Look at this one. This guy had to make a door handle. I mean, in America, we're like, go get a door handle at Home Depot. (01:39:28): This guy didn't have a door handle, so he made it out of a plastic, looks like a gallon oil can or some water thing, and nailed it to a book, which nailed it to a door. Amazing. And this is also why I've always loved... I know this isn't very lightning, sorry but I've always loved looking at jailhouse creations and tools and how people make weapons out of combs and pens. It's just, I find this like, I have nothing, I need something, I can use my human brain to figure out how to make it. I think that scrappiness is beautiful.",
+   "zh": "每当有人问我：“你推荐哪本关于写作的书？”我都会回答：“这本《关于写作的几句话》。”我总是记不住他的姓氏，但我觉得他叫维尔林·克林肯伯格，不过可能我把名字记错了。但这本书确实是关于写作的绝佳之作，全书以句子为核心，文笔优美，读来趣味十足，堪称佳作。另外，我还推荐德里克·西弗斯的任何作品，尤其是《太棒了！还是不行？》。我把这本书推荐给所有人。它对我和大卫的影响尤其深。我们现在内部经常用“太棒了！还是不行？”这个短语来做决策。这本书真的让我受益匪浅。还有一本设计书籍也很有趣，有好几个版本。我手边这本叫《自制：当代俄罗斯民间艺术品》（01:38:35）。这本书汇集了大量作品，每页都是一个故事，每个人因为缺乏材料而不得不自己动手制作物品。比如，有个人在勺子上钻孔给孩子吹泡泡，还有用叉子做的电视天线。这让我想起那种在困境中创造的精神，无论面对什么挑战，都能发挥智慧去克服困难。我觉得这本书太棒了，有几百页，不同版本我都爱不释手。看看这页，有个人需要制作门把手。在美国，我们可能会去家得宝买现成的，但这个人没有门把手，就用看起来像一加仑油桶的塑料桶做了一个，还用钉子固定在书上，再固定在门上。太神奇了。这也是我一直喜欢……我知道这有点跑题，但我特别喜欢看监狱里的手工艺品、制作工具，还有人们用梳子和钢笔制造武器的过程。就是那种——我一无所有，需要某样东西，就能动用人类的智慧去创造出来的感觉。我觉得这种创造力真是美妙。",
+   "ts": "01:37:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Yeah, I was just going to say it speaks clearly to your scrappy mentality. And what is that book called again?",
+   "zh": "是啊，这本书显然能体现你的那种不屈不挠的精神。书名叫什么？",
+   "ts": "01:40:03"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "This one's called Home-made: Contemporary RussianFolk Artifacts. And there's also an Eastern European one and there's another one too, but Home-made.",
+   "zh": "这本叫《自制：当代俄罗斯民间艺术品》。还有一本东欧主题的，另外还有一本，但《自制》这本最棒。",
+   "ts": "01:40:10"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "What an awesome, unusual selection. Okay, next question. What is a favorite recent movie or TV show?",
+   "zh": "真是个独特又令人惊叹的选择。好吧，下一个问题。最近有没有喜欢的电影或电视剧？",
+   "ts": "01:40:18"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I don't watch TV. I rarely get a chance to see movies these days. I really thoroughly enjoyed Oppenheimer though. I mean, I went to the theater to see it, and seeing that in the theater was really special, but I just love the movie, is fantastic.",
+   "zh": "我不怎么看电视，现在也很少有机会看电影。不过《奥本海默》我真的很喜欢。我是去电影院看的，在影院看的感觉特别棒，但这部电影本身就很棒。",
+   "ts": "01:40:24"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Do you have a favorite interview question that you like to ask candidates that you are interviewing to hire?",
+   "zh": "你有没有最喜欢的面试问题，喜欢问被面试者？",
+   "ts": "01:40:41"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "I think we actually went over this one a little bit, which was, I'm always curious about what else... if you had more time, what would you do with this idea? Another one is, whose work do you admire? So it's not so much about what you can do, but what are other people doing that you think is great? I find that, that really illuminates what kind of pulse they have on the world and what they're looking at and what inspires them and what they think is good. So I like that question.",
+   "zh": "我觉得我们之前其实已经稍微讨论过这个问题了，那就是，我总是好奇如果你们有更多时间的话，还能对这个想法做些什么？另一个问题是，你欣赏谁的作品？这其实不是在问你能做什么，而是问别人在做什么，你觉得很棒的东西是什么？我发现，这真的能揭示他们对世界的洞察力，他们关注的方向，他们的灵感来源，以及他们眼中优秀的标准。所以我很喜欢这个问题。",
+   "ts": "01:40:46"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "In that second question, what do you look for? Is it someone that you also admire?",
+   "zh": "在第二个问题中，你寻找的是什么？是那些你也钦佩的人吗？",
+   "ts": "01:41:12"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Ultimately, in the moment, I don't care who it is. It's more about, tell me why. So someone will say, I like so-and-so, I'm like, why do you like them? What are they doing that you think is interesting? This is kind of the thing I tend to always ask, which is, why do you think that that's interesting? I'm always trying to get behind the words and understand where this is coming from because people can prepare answers and they can sound great. But it's like, well, what's behind that? Where are you going with that? Why? What's the genesis of this? That's what I'm always after. And so whether or not I agree with the work or whatever, in the end, it plays a part to some degree but I'm more interested in, how did you get there?",
+   "zh": "说到底，当下我并不在意是谁。更重要的是，请告诉我原因。所以有人会说，我喜欢某某人，我会问，你为什么喜欢他们？他们做了什么让你觉得有趣？这正是我常问的问题——为什么你觉得这很有趣？我总想探究背后的逻辑，理解其根源，因为人们可能会准备好答案，听起来很不错。但我想知道，背后的逻辑是什么？你想通向哪里？为什么？灵感从何而来？这才是我一直追寻的。所以无论我是否认同他们的作品，在某种程度上这都无关紧要，但我更感兴趣的是，你是如何得出这个结论的？",
+   "ts": "01:41:16"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Is there a favorite product that you've recently discovered that you really love?",
+   "zh": "最近有没有发现的你特别喜欢的产品？",
+   "ts": "01:42:01"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yes, although it's more of a category. I bought an old car, and I've fallen back in love with stick shifts. I learned how to stick, and then I basically have had automatic cars for many years and I got back into sticks. And now it's even deeper than that. I got back into the old analog driving experience and how wonderful it is to feel attached to the machine that you're using, that you turn the wheel and it turns it rod and it turns the wheels, and that your leg muscle actually is what's breaking the car, to some degree. There's something about that direct feel that really surprised me. It surprised me how much is missing in modern cars and it actually... I like to draw these parallels because this is how I see the world. It reminded me of our business, actually. I think we have a very stick shift business. (01:43:06): We have a very direct business. Everything's very, very tight, very straightforward. There are not a lot of layers of abstractions. There are not a lot of things in the middle between the work we do and the way it feels, and I think of large businesses as automatic transmissions and modern cars where you just... everything's simulated. You don't really know what the road feels like. You can't really feel it in the steering wheel, or maybe there's some fake feel in there now. The brakes are just sending a command to a computer to squeeze the pads. The transmission is like, you don't control it, it just does its own thing. And there's a beauty in that too, but there's also a disconnect that I forgot about until I got back into driving the old car, which is harder to drive and noisier and bumpier and creakier, but there's a real directness to it that's really special, and I think it's actually a good way to look at business and to remind yourself that staying as connected to the thing that you're doing as possible has a lot of value.",
+   "zh": "有，虽然更像是一个品类。我买了一辆旧车，又重新爱上了手动挡。我学会了如何换挡，然后多年来一直开自动挡，现在又回到了手动挡。现在这种体验甚至更深层了。我重新体验了那种老式模拟驾驶的乐趣，感觉与正在使用的机器紧密相连——你转动方向盘，带动转杆，转动车轮，腿部肌肉在一定程度上控制着汽车——那种直接的反馈感真的让我惊讶。它让我意识到现代汽车缺失了多少东西，实际上……我喜欢做这种类比，因为这就是我看待世界的方式。这让我想起了我们的业务。（01:43:06）：我们有一种非常手动挡式的业务。一切都非常紧凑、直接。没有太多的抽象层级。在我们所做的工作和实际感受之间没有太多中间环节。我认为大公司就像自动挡的汽车，所有东西都是模拟的。你不知道路面是什么感觉。方向盘上可能也有虚拟的反馈感。刹车只是向电脑发送命令来挤压刹车片。变速箱也是自动控制的，你无法控制它。这也有其美妙之处，但也存在一种脱节感——直到我重新开起那辆旧车，我才意识到这一点。那辆车开起来更困难、更吵、更颠簸、更有噪音，但那种直接的反馈感真的很特别，我认为这也是审视商业、提醒自己尽可能与正在做的事情保持紧密联系的一种好方法。",
+   "ts": "01:42:06"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's an awesome metaphor. Next question, do you have a favorite life motto that you often repeat yourself, share with folks, find useful in work or in life?",
+   "zh": "这真是个绝妙的比喻。下一个问题，你有没有一句最喜欢的的人生格言，经常自我重复、与人分享、在工作或生活中觉得很有用的？",
+   "ts": "01:44:11"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "And I don't always live up to it, but basically, it's worry less. There's a great Tom Petty lyric. I can't remember which song it's in, but I think it's on Wildflowers on the album. Most of the things you worry about never happened anyway. And it's just so true. I find myself worrying about all sorts of things that don't matter and never happen, and then you're like, God, I spent three days worrying about that, or I went to this appointment and it was fine. The amount of worry, and it's just all in your head, and it's all about anticipating the future that hasn't happened yet, and I try to tell myself that, and I try to tell others that in business. I try to tell myself that in life and in business, but also, I tell others that in business, what if people don't like... I don't know. You'll find out. Worry less about it. It probably isn't going to be a big deal anyway. So that's what I would say.",
+   "zh": "我并非总能做到，但基本上，就是少些担忧。汤姆·佩蒂（Tom Petty）有一句歌词，很棒。我不记得是哪首歌了，但我想应该在《野花》（Wildflowers）专辑里提到过。大多数你担心的事情最终都不会发生。这太对了。我发现自己会为各种无关紧要、永远不会发生的事情担忧，然后你就会想，天哪，我为这事担心了三天，或者我去参加了那个会议，结果一切顺利。担忧太多，全是自己想出来的东西，都是在预测尚未发生的未来，所以我试着告诉自己，也试着告诉商界的人：万一人们不喜欢……我不知道。到时候再看吧。少些担忧。反正可能也没什么大不了的。这就是我想说的。",
+   "ts": "01:44:21"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Worry less.",
+   "zh": "少些担忧。",
+   "ts": "01:45:12"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Worry less.",
+   "zh": "少些担忧。",
+   "ts": "01:45:13"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Final question, I was going to ask you this before you mentioned this, but you said you're writing a new book, potentially, are you able to share what this new book might be about?",
+   "zh": "最后一个问题，在你提到之前我就想问你，你说你在写一本新书，可能的话，能否分享一下这本书的内容？",
+   "ts": "01:45:14"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "We haven't started writing it. I can tell you, or I'm thinking about it, and it's going to revolve around the idea of gut and intuition in business and decision-making. I don't really know exactly how they all play in here in a book, but I think we need to celebrate gut and intuition more in business. And most business books are not about that. They're about the opposite in many ways. Whatever, you can't improve what you can't measure, or whatever these things are. And I think that's true in a lot of realms, like medicine, you can look at your biomarkers and you can do things. (01:45:59): I don't think things are quite as direct in business, and I think that intuition and gut is something to be celebrated. So I think what we're probably going to end up doing is looking at all the ways we use intuition and gut to make decisions at work, whether it's hiring or product decisions or policy decisions or whatever it is. Maybe break down some of those decisions in the past, perhaps, or talk about things on a day-to-day basis about how we employ those tools to move forward. So that's roughly the idea. It's very loose right now but hopefully, we can tighten it up and that's what I'd love to focus on that next.",
+   "zh": "我们还没开始写。我可以告诉你，或者说我在考虑，书的内容会围绕商业和决策中的直觉与直觉展开。我还不确定这些概念在书中如何呈现，但我认为我们需要更多地赞美商业中的直觉和直觉。大多数商业书籍并非如此。他们在很多方面与之相反。比如“你无法改进无法衡量的东西”之类的。我认为这在很多领域都适用，比如医学，你可以查看生物标志物并采取行动。（01:45:59）但我觉得商业中的情况没那么直接。我认为直觉和直觉是值得赞美的。所以我们可能会探讨在工作中如何运用直觉和直觉来做决策，无论是招聘、产品决策、政策决策还是其他方面。或许回顾过去的一些决策，或许日常谈论如何利用这些工具向前发展。这就是大致的思路。现在还很松散，但希望我们能把它完善起来，这就是我接下来想专注的。",
+   "ts": "01:45:22"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "That's an awesome topic for a book. I was thinking Worry Less could also be an awesome title for a book, if that's another topic-",
+   "zh": "这是写一本书的绝佳主题。我在想《少些担忧》也可以作为一本书的绝佳书名，如果这是另一个主题的话——",
+   "ts": "01:46:30"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "That'd be a great title for a book-",
+   "zh": "那会是个很棒的书名——",
+   "ts": "01:46:35"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "... to go down.",
+   "zh": "……值得深挖。",
+   "ts": "01:46:36"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, that would be.",
+   "zh": "是啊，那确实不错。",
+   "ts": "01:46:37"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "I'm reading Charlie Munger's Poor Charlie Almanack right now.",
+   "zh": "我现在正在读查理·芒格的《穷查理宝典》。",
+   "ts": "01:46:39"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Oh, beautiful.",
+   "zh": "哦，太棒了。",
+   "ts": "01:46:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "There's a whole thing around the way we misjudge and make mistakes with our psychology, just like a heuristic [inaudible 01:46:50].",
+   "zh": "书中有一整个章节讲我们如何误判和在心理层面犯错，就比如启发式思维 [01:46:50不可听]。",
+   "ts": "01:46:43"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Human misjudgment.",
+   "zh": "人类的误判。",
+   "ts": "01:46:49"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Exactly. And I feel like that would be a part of this story of gut instinct are often right, but here's ways that we are often wrong, so maybe that's something to think about.",
+   "zh": "确实如此。我觉得这就是“直觉往往正确，但我们也常出错”的故事的一部分，或许这值得我们深思。",
+   "ts": "01:46:51"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Yeah, it's funny. I had one opportunity to meet with Charlie Munger.",
+   "zh": "是啊，这挺有趣的。我曾有机会见过查理·芒格。",
+   "ts": "01:47:00"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Oh, wow.",
+   "zh": "哦，哇。",
+   "ts": "01:47:03"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "It was on a Zoom call, and it was four of us, and we got an hour with him.",
+   "zh": "那是在一次Zoom通话上，我们一共四个人，有一个小时和他交流。",
+   "ts": "01:47:04"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Wow.",
+   "zh": "哇。",
+   "ts": "01:47:04"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "This was a few years ago. And I only asked him one question. I was mostly just a student listening to other people's questions. I said, what's your take on doing something well that you know nothing about? Essentially, is there power in being completely ignorant about something? I didn't add this but I've often found myself more creative when I don't know how to do something versus like, well, this is how you're supposed to do it, so you fall into this pattern. And I really loved his answer, which was, \"I would just... trust your instinct on that,\" which is like, a lot of great things happen because you don't know how to do them. (01:47:47): In fact, a lot of innovations happen because you don't know how other people do them, and all you have is your gut. All you have is your intuition. All you have is how you feel about the thing. You don't have evidence, you don't have other examples to follow. You don't have a list of what to do. You just do. And I'm paraphrasing here. But it gave me a lot of confidence and hope to continue to follow our gut. And maybe this is, ultimately, in a way, what was the seed for this book perhaps, although I hadn't really thought about that until now. But it's a beautiful thing to read and to listen to him speak. I love it.",
+   "zh": "那是几年前的事了。我当时只问了他一个问题。我基本上就是个学生，听别人提问。我说：“对于你一无所知的事情，你怎么能做好呢？” 本质上，对某件事一无所知反而有力量。（01:47:47）：事实上，很多创新之所以发生，正是因为你不知道别人是怎么做的，你只有直觉。你只能凭感觉行事。你没有证据，没有可效仿的范例，没有操作清单。你就直接行动。我这里是意译的。但这让我更有信心和希望继续遵循自己的直觉。也许这最终就是这本书的种子吧，尽管直到现在我才真正意识到这一点。但读他的文字，听他讲话，是件美好的事。我喜欢。",
+   "ts": "01:47:09"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Jason, we covered everything I was hoping we'd cover. Thank you so much for making the time for this. Two final questions. Folks want to follow up and maybe ask more questions. How can they reach you if they can? And then how can listeners be useful to you?",
+   "zh": "杰森，我们聊完了我希望聊的所有内容。非常感谢你抽出时间来。最后两个问题。大家想跟进一下，或许再问些问题。如果他们能联系到你，该怎么做呢？然后听众如何能帮到你呢？",
+   "ts": "01:48:29"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "So you can hit me up on X, Jason Fried, F-R-I-E-D. I'm on LinkedIn as well, and you can also email me directly, just Jason@hey, H-E-Y.com. So hit me up there. How can people help me? I mean, if you like what we're doing, spread the word. We don't really spend any money on advertising and marketing. We've explored a little bit here and there but most of our growth has been organic, and it's just word of mouth. So if you like what we're doing, tell people about it because it really helps us out.",
+   "zh": "你可以在X上联系我，杰森·弗里德，F-R-I-E-D。我也在领英上，或者你也可以直接发邮件给我，Jason@hey, H-E-Y.com。所以在那里联系我。听众如何能帮到我呢？我的意思是，如果你喜欢我们正在做的事，就帮我们宣传一下。我们确实不怎么花钱做广告和营销。我们在这里那里尝试过一些，但大部分增长都是自然的，都是口口相传。所以如果你喜欢我们正在做的事，就告诉别人吧，这真的对我们有帮助。",
+   "ts": "01:48:42"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Amazing. Jason, thank you so much for being here.",
+   "zh": "太棒了。杰森，非常感谢你今天的到来。",
+   "ts": "01:49:09"
+  },
+  {
+   "speaker": "Jason Fried",
+   "en": "Thanks, Lenny. It was great.",
+   "zh": "谢谢，莱尼。这次交流很棒。",
+   "ts": "01:49:11"
+  },
+  {
+   "speaker": "Lenny",
+   "en": "Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lenny'spodcast.com. See you in the next episode.",
+   "zh": "再见大家。非常感谢聆听。如果你觉得这次交流有价值，可以在Apple Podcasts、Spotify或你喜欢的播客应用上订阅节目。另外，请考虑给我们评分或留下评论，这对其他听众找到节目很有帮助。你可以在lenny'spodcast.com上找到所有往期节目或了解更多关于节目的信息。下期节目见。",
+   "ts": "01:49:12"
+  }
+ ]
+}
