@@ -1,7 +1,7 @@
 /* Lenny Podcast Library */
 const I18N = {
   zh:{
-    siteTitle:'Lenny 播客知识库', libraryNav:'访谈录', knowledgeNav:'知识地图', mediaNav:'书影音库', projectNav:'项目', aboutNav:'关于网站作者', heroKicker:'人物 · 观点 · 方法',
+    siteTitle:'Lenny 播客知识库', libraryNav:'访谈录', knowledgeNav:'知识地图', mediaNav:'书影音库', projectNav:'项目', updatesNav:'更新日志', aboutNav:'关于作者', personalSite:'个人网站', heroKicker:'人物 · 观点 · 方法',
     heroTitle:'读 Lenny 的产品访谈', credit:'聆风Raymond 整理',
     siteSub:'按嘉宾或主题找一期。先看摘要，再读中文逐字稿；想核对原话时，切到英文。',
     episodes:'期完整访谈', searchPH:'搜索嘉宾、访谈主题、公司或关键词…',
@@ -19,7 +19,7 @@ const I18N = {
     book:'书籍', video:'影视 / 视频', audio:'播客 / 音乐', article:'文章', link:'链接', sourceLink:'原始链接', douban:'豆瓣',
   },
   en:{
-    siteTitle:"Lenny's Podcast Library", libraryNav:'Episodes', knowledgeNav:'Knowledge map', mediaNav:'Books & media', projectNav:'This project', aboutNav:'About', heroKicker:'PEOPLE · TOPICS · PLAYBOOKS',
+    siteTitle:"Lenny's Podcast Library", libraryNav:'Episodes', knowledgeNav:'Knowledge map', mediaNav:'Books & media', projectNav:'This project', updatesNav:'Updates', aboutNav:'About', personalSite:'Personal website', heroKicker:'PEOPLE · TOPICS · PLAYBOOKS',
     heroTitle:"Read Lenny’s product interviews", credit:'Curated by 聆风Raymond',
     siteSub:"Find a guest or topic. Start with the summary, then read the transcript in Chinese or English.",
     episodes:'full episodes', searchPH:'Search guests, episode titles, companies, or keywords…',
