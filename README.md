@@ -4,11 +4,11 @@
 
 从一个工作问题出发，找到相关嘉宾的访谈，读中文，再回到英文和原节目核对。
 
-[![公开仓库收录 329 期](https://img.shields.io/badge/访谈-329_期-176b5b)](website/data/episodes/)
+[![网站收录 348 期](https://img.shields.io/badge/访谈-348_期-176b5b)](https://lenny.lingfengya.cn/)
 [![中英对照阅读](https://img.shields.io/badge/阅读-中英对照-246292)](#阅读一场访谈)
 [![代码许可 MIT](https://img.shields.io/badge/代码许可-MIT-805531)](LICENSE)
 
-**[打开访谈库](https://lenny.lingfengya.cn/)**　·　[下载公开版 ZIP](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/archive/refs/heads/main.zip)　·　[本地打开](#在自己的电脑上打开)　·　[问题反馈](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/issues)
+**[打开访谈库](https://lenny.lingfengya.cn/)**　·　[书影音库](https://lenny.lingfengya.cn/media.html)　·　[问题反馈](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/issues)
 
 </div>
 
@@ -20,32 +20,11 @@
 | --- | --- |
 | 找某位嘉宾，或找讨论同一主题的节目 | 在首页搜索嘉宾、公司或关键词，也可以用主题筛选。 |
 | 读懂一段话，再核对出处 | 在单期页读中文正文，切换英文，按发言人和时间戳回到原节目。 |
-| 用自己的工具做索引、笔记或主题对照 | 从[双语正文](website/data/episodes/)读取每期的 `turns`。每段包含发言人 `speaker`、原稿时间 `ts`、英文 `en` 和中文 `zh`；标题、章节及节目链接见[单期资料](website/data/episode-meta/)。 |
-
-## 在自己的电脑上打开
-
-1. 下载页面顶部的 ZIP，解压后进入能看到 `README.md` 和 `website` 的文件夹。
-2. 安装 Python 3，在这个文件夹打开终端，运行下面的命令。
-3. 浏览器会自动打开访谈库。若没有弹出，复制终端显示的本机地址；阅读期间保持窗口开启。
-
-```bash
-python website/serve.py
-```
-
-macOS 或 Linux 上如果命令名是 `python3`，运行 `python3 website/serve.py`。端口由程序自动选择。
-
-<details>
-<summary>公开仓库与维护者本地版有什么区别？</summary>
-
-公开仓库收录 329 期。2026 年 11 月 19 日，本地访谈库新增 19 期，共 348 期；旧 329 期的中文重译另存为独立的本地阅读版。这两批更新目前均供本地阅读。
-
-拿到完整维护工作区时，Windows 用户也可以双击根目录的「打开网站.cmd」。新增原稿放入「01-待更新」，归档在「02-原文归档」，使用和部署说明在「03-项目文档」。
-
-</details>
+| 看嘉宾推荐过什么 | 在书影音库按作品或嘉宾搜索，查看推荐原话和对应的访谈。 |
 
 ## 网站托管
 
-Lenny 中文访谈库由本仓库的 `gh-pages` 分支通过 **GitHub Pages** 发布，收录 329 期。打开页首的「打开访谈库」，即可搜索节目、阅读单期正文或查看作者介绍。
+Lenny 中文访谈库由本仓库的 `gh-pages` 分支通过 **GitHub Pages** 发布。网站收录 348 期，提供中英切换、观点跳转和已核实的书影音推荐。原稿及旧译由维护者在本地归档。
 
 ## 来源与反馈
 
@@ -53,7 +32,7 @@ Lenny 中文访谈库由本仓库的 `gh-pages` 分支通过 **GitHub Pages** �
 
 项目代码使用 MIT 许可。播客原文及衍生内容依其来源条款使用；公开入门数据集的条款允许分享个人非商业项目，同时限制原始文件的再分发。引用访谈时请保留嘉宾、节目和原始出处。[代码许可](LICENSE) · [内容说明](CONTENT_NOTICE.md) · [上游条款](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata/blob/main/LICENSE.md)
 
-**相关资料**　[Lenny’s Newsletter](https://www.lennysnewsletter.com/) · [英文逐字稿合集](https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&e=3&st=m01vhfa1&dl=0) · [Lenny Skills](https://refoundai.com/lenny-skills/)
+**相关资料**　[Lenny’s Newsletter](https://www.lennysnewsletter.com/) · [Lenny Skills](https://refoundai.com/lenny-skills/)
 
 ## 关于作者
 
