@@ -1,121 +1,60 @@
-# Lenny Podcast 中英对照资料库
+<div align="center">
 
-这是一个围绕 Lenny's Podcast 整理的中英对照资料库。
+# 🎙️ Lenny 播客 · 中文访谈库
 
-仓库目前提供两类内容：
+从一个工作问题出发，找到相关嘉宾的访谈，读中文，再回到英文和原节目核对。
 
-- 可直接浏览的静态站点
-- 可复用的中英对照结构化数据
+[![公开仓库收录 329 期](https://img.shields.io/badge/访谈-329_期-176b5b)](website/data/episodes/)
+[![中英对照阅读](https://img.shields.io/badge/阅读-中英对照-246292)](#阅读一场访谈)
+[![代码许可 MIT](https://img.shields.io/badge/代码许可-MIT-805531)](LICENSE)
 
-如果你想快速了解某一期聊了什么、按主题检索观点，或者继续基于这些内容做学习、整理、研究和二次开发，可以直接从这里开始。
+**[在线阅读 · 飞书妙搭](https://e34unmxckz.feishuapp.com/app/app_17ab90dg2v8)**　·　[下载公开版 ZIP](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/archive/refs/heads/main.zip)　·　[本地打开](#在自己的电脑上打开)　·　[问题反馈](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/issues)
 
-## 欢迎使用，也欢迎共建
+</div>
 
-欢迎大家直接使用这些内容。
+## 阅读一场访谈
 
-也欢迎大家基于这些资料，一起共建更多中文语境下和 Lenny 相关的内容，比如：
+想知道 Airbnb 的 Brian Chesky 如何做产品决策？在访谈库里搜他的名字，打开《布莱恩·切斯基的新策略手册》。先读「这期值得带走的观点」和「这期聊什么」，再到正文里看他如何解释这些判断。切换 **EN** 可以核对措辞，想听语气和上下文时，可以打开原视频。[这期的原节目](https://www.youtube.com/watch?v=4ef0juAMqoE)
 
-- 中文知识整理
-- 主题索引和导航页
-- 精选摘录和卡片库
-- 搜索工具
-- 阅读工具
-- 学习型网站
-- 其他好用的小工具
+| 你想做什么 | 从哪里开始 |
+| --- | --- |
+| 找某位嘉宾，或找讨论同一主题的节目 | 在首页搜索嘉宾、公司或关键词，也可以用主题筛选。 |
+| 读懂一段话，再核对出处 | 在单期页读中文正文，切换英文，按发言人和时间戳回到原节目。 |
+| 用自己的工具做索引、笔记或主题对照 | 从[双语正文](website/data/episodes/)读取每期的 `turns`。每段包含发言人 `speaker`、原稿时间 `ts`、英文 `en` 和中文 `zh`；标题、章节及节目链接见[单期资料](website/data/episode-meta/)。 |
 
-如果你已经基于这些内容做了工具、网站或其他整理成果，也欢迎反馈给我。
+## 在自己的电脑上打开
 
-后续我会尽量把这些免费、好用、高质量的资源继续整理起来，做成更清晰的文档、导航或资源库，方便更多人一起使用。
-
-## 你可以怎么用
-
-### 1. 直接看网页
-
-打开 `website/index.html`，可以按嘉宾、主题和关键词浏览内容。
-
-如果你想在本地正常预览页面和数据加载效果，可以在仓库根目录运行：
+1. 下载页面顶部的 ZIP，解压后进入能看到 `README.md` 和 `website` 的文件夹。
+2. 安装 Python 3，在这个文件夹打开终端，运行下面的命令。
+3. 浏览器会自动打开访谈库。若没有弹出，复制终端显示的本机地址；阅读期间保持窗口开启。
 
 ```bash
 python website/serve.py
 ```
 
-然后访问：
+macOS 或 Linux 上如果命令名是 `python3`，运行 `python3 website/serve.py`。端口由程序自动选择。
 
-```text
-http://127.0.0.1:8000/index.html
-```
+<details>
+<summary>公开仓库与维护者本地版有什么区别？</summary>
 
-### 2. 直接用数据
+公开仓库收录 329 期。2026 年 11 月 19 日，本地访谈库新增 19 期，共 348 期；旧 329 期的中文重译另存为独立的本地阅读版。这两批更新目前均供本地阅读。
 
-核心双语数据在下面两个目录：
+拿到完整维护工作区时，Windows 用户也可以双击根目录的「打开网站.cmd」。新增原稿放入「01-待更新」，归档在「02-原文归档」，使用和部署说明在「03-项目文档」。
 
-- `website/data/episodes/`
-- `website/data/episode-meta/`
+</details>
 
-其中：
+## 网站托管
 
-- `episodes` 里是每一期的正文、摘要、角色、时间戳和中英对照字段
-- `episode-meta` 里是每一期的标题、发布时间、章节、链接和补充资料
+阅读站使用静态网页和 JSON，可部署到 GitHub Pages。公开站包含访谈库、单期正文和关于作者三类页面。维护者准备发布时，先确认可公开的节目范围，再把三页的资源路径改为相对路径，将静态成品放到独立的 `gh-pages` 分支根目录，在 **Settings → Pages** 选择该分支和 **/(root)**。现有飞书包使用妙搭专用路径，需要单独准备 Pages 版本。[GitHub Pages 发布设置](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
-如果你要做搜索、知识整理、训练材料、笔记系统、卡片系统或自己的前端展示，这两部分数据可以直接复用。
+## 来源与反馈
 
-### 3. 按字段继续处理
+访谈整理自 Lenny Rachitsky 公开发布的播客。如发现翻译、人物或时间戳有误，或涉及侵权，请附上节目名和对应段落，我会更正错误或删除侵权内容。[提交 GitHub Issue](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/issues)
 
-正文数据的常见字段包括：
+项目代码使用 MIT 许可。播客原文及衍生内容依其来源条款使用；公开入门数据集的条款允许分享个人非商业项目，同时限制原始文件的再分发。引用访谈时请保留嘉宾、节目和原始出处。[代码许可](LICENSE) · [内容说明](CONTENT_NOTICE.md) · [上游条款](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata/blob/main/LICENSE.md)
 
-- `en`: 英文原文
-- `zh`: 中文对应内容
-- `speaker`: 说话人
-- `ts`: 时间戳
+**相关资料**　[Lenny’s Newsletter](https://www.lennysnewsletter.com/) · [英文逐字稿合集](https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&e=3&st=m01vhfa1&dl=0) · [Lenny Skills](https://refoundai.com/lenny-skills/)
 
-这意味着你可以很方便地继续做：
+## 关于作者
 
-- 中英对照阅读
-- 按主题摘录
-- 说话人分析
-- 片段引用
-- 二次结构化整理
-
-## 这份内容是怎么来的
-
-这份资料库基于公开可访问的 Lenny's Podcast 节目资料整理而成，包括节目正文、公开元信息和补充链接。
-
-在整理过程中，主要做了这些工作：
-
-- 将原始节目内容转成结构化 JSON
-- 为每一期补齐中英对照字段
-- 整理标题、摘要、章节、嘉宾信息和补充资料
-- 做成一个可以直接浏览和继续复用的静态站点
-
-这个仓库更偏向“可检索、可引用、可继续加工”的资料库，而不只是单纯的文本备份。
-
-## 仓库结构
-
-```text
-website/
-  index.html
-  episode.html
-  about.html
-  assets/
-  data/
-    episodes/
-    episode-meta/
-```
-
-## 友情链接
-
-- Lenny 的 newsletter：https://www.lennysnewsletter.com/
-- Lenny 开源的英文播客字幕原稿合集（持续更新）：https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&e=3&st=m01vhfa1&dl=0
-- Lenny 技能库：https://refoundai.com/lenny-skills/
-
-## 使用提醒
-
-- 中英文内容以学习、检索和整理为主
-- 如果你要做严格引用，建议再回看对应的原始节目链接
-- 仓库会优先保持结构化和可复用性，后续内容可能继续补充和修订
-
-## 许可说明
-
-- 仓库中的代码部分使用 `MIT` 协议
-- 仓库中的播客相关原始内容与衍生数据，遵循上游许可说明
-- 具体说明见 `LICENSE` 和 `CONTENT_NOTICE.md`
+由**聆风Raymond**整理和维护。如果你用这些访谈做了主题索引、阅读工具或其他作品，也欢迎在 Issues 分享。我的文章、网站和工具收录在[个人网站](https://lingfengya.cn/)。
