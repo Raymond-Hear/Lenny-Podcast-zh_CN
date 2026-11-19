@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>推荐详情 · Lenny 播客知识库</title>
+<link rel="icon" type="image/webp" href="assets/lenny-newsletter-logo.webp?v=20260722a">
+<link rel="stylesheet" href="assets/style.css?v=20260722c">
+</head>
+<body class="media-body">
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/lenny-newsletter-logo.webp?v=20260719e" alt=""></span><span>Lenny 播客知识库</span></a>
+  <nav class="site-nav" aria-label="主要导航">
+    <a href="index.html">访谈录</a>
+    <a class="active" href="media.html">书影音库</a>
+    <a href="about.html">关于网站作者</a>
+  </nav>
+</header>
+
+<main class="container media-detail-page">
+  <a class="back media-back" href="media.html">← 返回书影音库</a>
+  <section id="mediaDetailHero" class="media-detail-hero" aria-live="polite"></section>
+
+  <div id="mediaDetailLayout" class="media-detail-layout" hidden>
+    <div class="media-detail-main">
+      <section class="media-detail-section">
+        <div class="section-heading"><div><span class="section-kicker">WHO RECOMMENDED IT</span><h2>谁推荐了它</h2></div><p>指数只反映嘉宾在节目里的表达强度，不代表作品的客观质量。</p></div>
+        <div id="mediaRecommendations" class="recommendation-stack"></div>
+      </section>
+    </div>
+    <aside class="media-detail-aside">
+      <section id="mediaInfoPanel" class="media-info-panel"></section>
+      <section id="doubanPanel" class="douban-panel"></section>
+      <section class="verification-panel"><span>证据规则</span><p>这里只展示已逐条核验的内容：嘉宾原话、节目来源、豆瓣具体条目、中文封面与评分缺一不可。</p></section>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-intro"><span class="section-kicker">THE LENNY SHELF</span><strong>沿着推荐继续探索</strong><p>从作品回到嘉宾，再从嘉宾回到完整访谈。</p></div>
+  <a class="media-footer-link" href="media.html">查看全部书影音 <b>→</b></a>
+</footer>
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+<script src="assets/media.js?v=20261119c"></script>
+<script src="assets/common.js?v=20260722a"></script>
+</body>
+</html>

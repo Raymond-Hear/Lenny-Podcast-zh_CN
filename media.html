@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Lenny's Podcast 嘉宾推荐的书籍、文章、视频、电影与播客资料库。">
+<title>书影音库 · Lenny 播客知识库</title>
+<link rel="icon" type="image/webp" href="assets/lenny-newsletter-logo.webp?v=20260719e">
+<link rel="stylesheet" href="assets/style.css?v=20260722c">
+</head>
+<body class="media-body">
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/lenny-newsletter-logo.webp?v=20260719e" alt=""></span><span>Lenny 播客知识库</span></a>
+  <nav class="site-nav" aria-label="主要导航">
+    <a href="index.html">访谈录</a>
+    <a class="active" href="media.html">书影音库</a>
+    <a href="about.html">关于网站作者</a>
+  </nav>
+</header>
+
+<main class="container media-page">
+  <section class="media-hero">
+    <div class="media-hero-copy">
+      <span class="hero-kicker">THE LENNY SHELF · 嘉宾推荐档案</span>
+      <h1>他们真正推荐过的<br><em>书、电影与灵感。</em></h1>
+      <p>从访谈推荐环节逐条整理：嘉宾原话和节目来源可以回查，豆瓣信息完成核验后再展示。</p>
+    </div>
+    <div id="mediaStats" class="media-stats" aria-label="书影音库统计"></div>
+  </section>
+
+  <section class="media-controls" aria-label="筛选书影音">
+    <label class="media-search"><span>⌕</span><input id="mediaSearch" type="search" placeholder="搜索书名、电影、文章或推荐嘉宾"></label>
+    <div class="media-control-row">
+      <div id="mediaTypes" class="media-types"></div>
+      <label class="media-sort">排序
+        <select id="mediaSort">
+          <option value="recommended">推荐优先</option>
+          <option value="score">推荐指数</option>
+          <option value="people">推荐人数</option>
+          <option value="title">名称 A–Z</option>
+        </select>
+      </label>
+    </div>
+  </section>
+
+  <div class="media-result-line"><span id="mediaResultCount">正在整理书架…</span><span>未核验的字段会明确标记为待补全</span></div>
+  <section id="mediaGrid" class="media-grid" aria-live="polite"></section>
+  <button id="mediaLoadMore" class="media-load-more" type="button" hidden>继续浏览</button>
+  <div id="mediaEmpty" class="empty" hidden>没有找到匹配的内容，试试换一个关键词。</div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-intro"><span class="section-kicker">CURATED FROM THE SOURCE</span><strong>嘉宾推荐，不是通用榜单</strong><p>推荐关系来自节目资料；找到逐字稿原话时，会同时展示嘉宾当时的介绍。</p></div>
+  <div class="media-footer-note"><strong>数据说明</strong><p>推荐指数按嘉宾措辞强度计算。豆瓣评分、简介和封面只有在具体条目核验后才展示。</p></div>
+</footer>
+<button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+<script src="assets/media.js?v=20261119c"></script>
+<script src="assets/common.js?v=20260722a"></script>
+</body>
+</html>

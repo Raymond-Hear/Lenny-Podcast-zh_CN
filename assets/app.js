@@ -312,7 +312,7 @@ function renderEpisodeIntro(episode){
 
 function renderEpisodeExtras(episode){
   renderEpisodeIntro(episode);
-  renderEpisodeInsights(episode.knowledge?.insights || []);
+  renderEpisodeInsights(episode.knowledge?.insights || [], episode.readingPassages || []);
   renderChapters(episode.chapters || []);
   renderSocials(episode.socials || []);
   const references = (episode.references || []).filter(item => !['book','video','audio'].includes(item.type));
@@ -320,8 +320,8 @@ function renderEpisodeExtras(episode){
   renderRelatedEpisodes(episode.knowledge, episode.knowledgeEpisodes || []);
 }
 
-function renderEpisodeInsights(insights){
-  if(!insights.length) return;
+function renderEpisodeInsights(insights, passages = []){
+  if(!insights.length && !passages.length) return;
   document.getElementById('episodeInsightPanel').hidden = false;
   const box = document.getElementById('episodeInsights');
   box.innerHTML = insights.map((item,index) => {
@@ -332,6 +332,14 @@ function renderEpisodeInsights(insights){
       : `<small>${esc(t('sourceEpisode'))}</small>`;
     return `<article class="episode-insight"><span>${String(index+1).padStart(2,'0')}</span><h3>${esc(title)}</h3><p>${esc(detail)}</p>${source}</article>`;
   }).join('');
+  if(passages.length){
+    const links = passages.map(item => {
+      const label = LANG === 'zh' ? item.label : item.labelEn;
+      const position = item.timestamp || (LANG === 'zh' ? '第 ' + item.sourceNumber + ' 段' : 'Passage ' + item.sourceNumber);
+      return `<button type="button" class="insight-source" data-turn="${item.turnIndex}">${esc(position)} · ${esc(label)} ↓</button>`;
+    }).join('');
+    box.insertAdjacentHTML('beforeend', `<div class="reading-passages"><h3>${LANG === 'zh' ? '跳到访谈原话' : 'Passages from the interview'}</h3>${links}</div>`);
+  }
   box.onclick = event => {
     const button = event.target.closest('button[data-turn]');
     if(button) document.getElementById('turn-' + button.dataset.turn)?.focus();
@@ -401,14 +409,15 @@ function renderTranscript(episode){
   let current = null;
   episode.turns.forEach(turn => {
     const name = turn.speaker || 'Guest';
-    if(!current || current.name !== name){ current = {name,isHost:name === 'Lenny',segs:[]}; groups.push(current); }
+    if(!current || current.name !== name){ current = {name,isHost:name === 'Lenny' || name === 'Lenny Rachitsky',segs:[]}; groups.push(current); }
     current.segs.push(turn);
   });
   document.getElementById('chat').innerHTML = groups.map(group => {
     const segments = group.segs.map(turn => {
       const original = LANG === 'zh' && !turn.zh ? `<span class="orig-tag">原文</span>` : '';
       const timestamp = turn.ts ? `<span class="ts">${esc(turn.ts)}</span>` : '';
-      return `<p class="seg" id="turn-${turnIndex++}" tabindex="-1">${timestamp}${esc(pick(turn) || turn.zh || turn.en || '')}${original}</p>`;
+      const note = turn.editorialSummary ? `<span class="orig-tag">${LANG === 'zh' ? '编者概述' : 'Editorial summary'}</span> ` : '';
+      return `<p class="seg" id="turn-${turnIndex++}" tabindex="-1">${timestamp}${note}${esc(pick(turn) || turn.zh || turn.en || '')}${original}</p>`;
     }).join('');
     return `<div class="msg ${group.isHost ? 'host' : 'guest'}"><img class="avatar" src="${avatarSVG(group.name,group.isHost)}" alt=""><div class="col"><div class="who">${esc(group.name)}</div><div class="bubble">${segments}</div></div></div>`;
   }).join('');

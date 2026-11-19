@@ -235,3 +235,5 @@ a{color:inherit;text-decoration:none} button,input{font:inherit} button{cursor:p
 @media (max-width: 760px) {
   .project-updates { grid-template-columns: 1fr; gap: 20px; padding-top: 26px; }
 }
+.reading-passages{grid-column:1/-1;display:grid;justify-items:start;gap:.65rem}
+.reading-passages .insight-source{text-align:left;white-space:normal}
