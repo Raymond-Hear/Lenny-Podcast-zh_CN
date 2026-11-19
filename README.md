@@ -8,7 +8,7 @@
 [![中英对照阅读](https://img.shields.io/badge/阅读-中英对照-246292)](#阅读一场访谈)
 [![代码许可 MIT](https://img.shields.io/badge/代码许可-MIT-805531)](LICENSE)
 
-**[下载公开版 ZIP](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/archive/refs/heads/main.zip)**　·　[本地打开](#在自己的电脑上打开)　·　[问题反馈](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/issues)
+**[打开访谈库](https://lenny.lingfengya.cn/)**　·　[下载公开版 ZIP](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/archive/refs/heads/main.zip)　·　[本地打开](#在自己的电脑上打开)　·　[问题反馈](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/issues)
 
 </div>
 
@@ -45,7 +45,7 @@ macOS 或 Linux 上如果命令名是 `python3`，运行 `python3 website/serve.
 
 ## 网站托管
 
-Lenny 中文访谈库以独立项目的方式部署到 **GitHub Pages**，公开页面包括访谈库、单期正文和关于作者。正式网址将在首次发布后列在页首。现在可以下载公开版，在自己的电脑上阅读。
+Lenny 中文访谈库由本仓库的 `gh-pages` 分支通过 **GitHub Pages** 发布，收录 329 期。打开页首的「打开访谈库」，即可搜索节目、阅读单期正文或查看作者介绍。
 
 ## 来源与反馈
 
