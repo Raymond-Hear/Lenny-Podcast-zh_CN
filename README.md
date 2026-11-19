@@ -8,7 +8,7 @@
 [![中英对照阅读](https://img.shields.io/badge/阅读-中英对照-246292)](#阅读一场访谈)
 [![代码许可 MIT](https://img.shields.io/badge/代码许可-MIT-805531)](LICENSE)
 
-**[在线阅读 · 飞书妙搭](https://e34unmxckz.feishuapp.com/app/app_17ab90dg2v8)**　·　[下载公开版 ZIP](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/archive/refs/heads/main.zip)　·　[本地打开](#在自己的电脑上打开)　·　[问题反馈](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/issues)
+**[下载公开版 ZIP](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/archive/refs/heads/main.zip)**　·　[本地打开](#在自己的电脑上打开)　·　[问题反馈](https://github.com/Raymond-Hear/Lenny-Podcast-zh_CN/issues)
 
 </div>
 
@@ -45,7 +45,7 @@ macOS 或 Linux 上如果命令名是 `python3`，运行 `python3 website/serve.
 
 ## 网站托管
 
-阅读站使用静态网页和 JSON，可部署到 GitHub Pages。公开站包含访谈库、单期正文和关于作者三类页面。维护者准备发布时，先确认可公开的节目范围，再把三页的资源路径改为相对路径，将静态成品放到独立的 `gh-pages` 分支根目录，在 **Settings → Pages** 选择该分支和 **/(root)**。现有飞书包使用妙搭专用路径，需要单独准备 Pages 版本。[GitHub Pages 发布设置](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+Lenny 中文访谈库以独立项目的方式部署到 **GitHub Pages**，公开页面包括访谈库、单期正文和关于作者。正式网址将在首次发布后列在页首。现在可以下载公开版，在自己的电脑上阅读。
 
 ## 来源与反馈
 
